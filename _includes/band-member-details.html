@@ -1,0 +1,10 @@
+<div id="member-details-{{ include.member.uid }}" class="band_member_details_div band_member_details_hidden">
+  <table>
+{% for social in include.member.socialmedia %}
+  {% assign smid = social[0] %}
+    <tr><td class="socialmedia">
+      <a href="{{ site.data.stuff.socialmedia[smid].url }}{{ social[1] }}">{% include socialmedia-logo.html smid=smid %}{{ social[1] }}</a>
+    </td></tr>
+{% endfor %}
+  </table>
+</div>

@@ -3,83 +3,39 @@ layout: default
 title: Band
 ---
 
-<div class="outer_div">
-  <div class="side_nav_div">
-    blabla
-  </div>
-  <div class="main_div">
+<div class="single_div">
   <h1 id="band_name">Nek! <span>(pronounced Neki)</span></h1>
   <div id="band_overview">
     <table>
       <tr>
         <td class="band_member_summary">
-          <div class="band_member_name">
-            Kanade
-          </div>
-          <div class="band_member_instrument">
-            Bass
-          </div>
-          <div class="band_member_more band_member_kanade">
-            +
-          </div>
+          {% include band-member-summary.html member=site.data.members.kanade %}
         </td>
         <td class="band_member_summary">
-          <div class="band_member_name">
-            Hika
-          </div>
-          <div class="band_member_instrument">
-            Vocals, Guitar
-          </div>
-          <div class="band_member_more band_member_hika">
-            +
-          </div>
+          {% include band-member-summary.html member=site.data.members.hika %}
         </td>
         <td class="band_member_summary">
-          <div class="band_member_name">
-            Cocoro
-          </div>
-          <div class="band_member_instrument">
-            Drums
-          </div>
-          <div class="band_member_more band_member_cocoro">
-            +
-          </div>
+          {% include band-member-summary.html member=site.data.members.cocoro %}
         </td>
         <td class="band_member_summary">
-          <div class="band_member_name">
-            Natsu
-          </div>
-          <div class="band_member_instrument">
-            Guitar
-          </div>
-          <div class="band_member_more band_member_natsu">
-            +
-          </div>
+          {% include band-member-summary.html member=site.data.members.natsu %}
         </td>
       </tr>
       <tr>
         <td class="band_member_details band_member_kanade">
-          <div>
-            test
-          </div>
+          {% include band-member-details.html member=site.data.members.kanade %}
         </td>
         <td class="band_member_details band_member_hika">
-          <div>
-            test
-          </div>
+          {% include band-member-details.html member=site.data.members.hika %}
         </td>
         <td class="band_member_details band_member_cocoro">
-          <div>
-            test
-          </div>
+          {% include band-member-details.html member=site.data.members.cocoro %}
         </td>
         <td class="band_member_details band_member_natsu">
-          <div>
-            test
-          </div>
+          {% include band-member-details.html member=site.data.members.natsu %}
         </td>
       </tr>
     </table>
   </div>
 </div>
-</div>
+

@@ -60,6 +60,12 @@ nav a.current {
   border-bottom: $color_cocoro solid 0.2em;
 }
 
+// single block
+
+.single_div {
+  padding-top: 3.5em;
+}
+
 // side nav bar
 
 .outer_div {
@@ -104,6 +110,24 @@ nav a.current {
   margin-top: 0.5rem;
 }
 
+// logo & icons
+
+.socialmedia {
+  font-size: 2cqw;
+}
+
+.socialmedia a {
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+
+.socialmedia-logo {
+  height: 1em;
+  margin-right: 0.2em;
+  vertical-align: middle;
+}
+
 // band page
 
 #band_name {
@@ -116,63 +140,84 @@ nav a.current {
 }
 
 #band_overview {
-  height: 722px;
-  width: 1253px;
+  max-width: 1253px;
+  aspect-ratio: 1253/722;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url("/assets/images/neki-band.png");
+  background-size: contain;
+  container-type: size;
 }
 
-#band_overview table {
+#band_overview > table {
   width: 100%;
+  height: 100%;
+  border-spacing: 0;
 }
 
 #band_overview td {
-  border: black solid 1px;
+  // border: black solid 1px;
   width: 25%;
   text-align: center;
 }
 
 .band_member_summary {
-  height: 200px;
+  height: 25%;
   color: white;
 }
 
 .band_member_name {
-  font-size: xxx-large;
+  font-size: 4cqw;
+  // font-size: xxx-large;
   font-weight: 600;
 }
 
 .band_member_instrument {
-  font-size: x-large;
+  font-size: 2cqw;
 }
 
 .band_member_more {
-  font-size: x-large;
-  font-weight: 600;
+  margin-top: 1.2cqw;
 }
 
-.band_member_more.band_member_kanade {
+.band_member_more_arrow {
+  font-size: 4cqw;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#member-more-kanade {
   color: $color_kanade;
 }
 
-.band_member_more.band_member_hika {
+#member-more-hika {
   color: $color_hika;
 }
 
-.band_member_more.band_member_cocoro {
+#member-more-cocoro {
   color: $color_cocoro;
 }
 
-.band_member_more.band_member_natsu {
+#member-more-natsu {
   color: $color_natsu;
 }
 
 .band_member_details {
-  height: 500px;
+  height: 75%;
 }
 
-.band_member_details div {
+.band_member_details_div {
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
 }
+
+.band_member_details_hidden {
+  display: none;
+}
+
 
 .band_member_details.band_member_kanade div {
   background-color: $color_kanade_50;
@@ -189,6 +234,7 @@ nav a.current {
 .band_member_details.band_member_natsu div {
   background-color: $color_natsu_50;
 }
+
 // song page
 
 .song_title {

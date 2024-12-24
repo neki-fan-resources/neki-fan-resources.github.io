@@ -1,0 +1,33 @@
+kanade:
+  uid: kanade
+  name: Kanade
+  instrument: Bass
+  socialmedia:
+    x: bass_baka_jk
+    youtube: bass_baka_Jk
+    instagram: bass_baka_jk
+
+hika:
+  uid: hika
+  name: Hika
+  instrument: Vocals, Guitar
+  socialmedia:
+    x: 46_hikaa
+    youtube: Hikaru-nj2jn
+    instagram: 46_hikaa
+    tiktok: 46_hikaa
+
+cocoro:
+  uid: cocoro
+  name: Cocoro
+  instrument: Drums
+  socialmedia:
+    x: coco_102
+
+natsu:
+  uid: natsu
+  name: Natsu
+  instrument: Guitar
+  socialmedia:
+    x: natsu08_guitar
+    youtube: NATSU.guitar08

@@ -1,0 +1,13 @@
+socialmedia:
+  x:
+    logo: x-logo.ico
+    url: https://x.com/
+  youtube:
+    logo: youtube-logo.png
+    url: https://www.youtube.com/@
+  instagram:
+    logo: instagram-logo.ico
+    url: https://www.instagram.com/
+  tiktok:
+    logo: tiktok-logo.ico
+    url: https://www.tiktok.com/@

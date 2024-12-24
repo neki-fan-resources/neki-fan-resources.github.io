@@ -1,0 +1,21 @@
+assets:
+  cover-image: getover-cover640.webp
+  media:
+    - youtube: TWbLqba3oag
+      name: Official Music Video
+    - youtube: maFSgVE2vXg
+      name: Official Teaser
+      additional: true
+
+lyrics:
+  languages:
+    - id: ol
+      name: original lyrics (from YouTube Live Video subtitles)
+      active: true
+      fixed: true
+    - id: ro
+      name: romaji
+    - id: en
+      name: english translation (from YouTube Live Video subtitles)
+      active: true
+  sections:

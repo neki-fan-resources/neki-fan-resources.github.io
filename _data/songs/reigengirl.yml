@@ -1,0 +1,25 @@
+assets:
+  cover-image: reigengirl-post640.webp
+  media:
+    - youtube: rq0dca9mFfI
+      name: Official Music Video
+    - youtube: pCqu9xyfFzE
+      name: Official Teaser
+      additional: true
+
+credits:
+  lyricist: NEK!, Tiger Yusuke Kawaguchi
+  composer: NEK!, Yuki Tanabe
+
+lyrics:
+  languages:
+    - id: ol
+      name: original lyrics (from YouTube Live Video subtitles)
+      active: true
+      fixed: true
+    - id: ro
+      name: rōmaji
+    - id: en
+      name: english translation (from YouTube Live Video subtitles)
+      active: true
+  sections:

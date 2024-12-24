@@ -1,0 +1,21 @@
+assets:
+  cover-image: loner-cover640.webp
+  media:
+    - youtube: uhy1HnFXTH8
+      name: Official Music Video
+    - youtube: prWu9_Q5a5Y
+      name: Official Teaser
+      additional: true
+
+lyrics:
+  languages:
+    - id: ol
+      name: original lyrics (from YouTube Live Video subtitles)
+      active: true
+      fixed: true
+    - id: ro
+      name: romaji
+    - id: en
+      name: english translation (from YouTube Live Video subtitles)
+      active: true
+  sections:

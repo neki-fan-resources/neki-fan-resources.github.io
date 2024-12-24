@@ -1,0 +1,9 @@
+<nav>
+  <h1>Nek! <span>Fan Resources</span></h1>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" class="menu_item{% if page.url == item.link %} current{% endif %}">
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
+

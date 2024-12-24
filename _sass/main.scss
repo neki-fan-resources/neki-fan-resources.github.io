@@ -1,0 +1,275 @@
+@use 'sass:color';
+
+$color_hika: #e50112;
+$color_hika_light: color.scale($color_hika, $lightness: 50%);
+$color_hika_dark: color.scale($color_hika, $lightness: -50%);
+$color_hika_50: color.change($color_hika, $alpha: 50%);
+$color_natsu: #fff001;
+$color_natsu_light: color.scale($color_natsu, $lightness: 50%);
+$color_natsu_dark: color.scale($color_natsu, $lightness: -50%);
+$color_natsu_50: color.change($color_natsu, $alpha: 50%);
+$color_kanade: #e2007e;
+$color_kanade_light: color.scale($color_kanade, $lightness: 50%);
+$color_kanade_dark: color.scale($color_kanade, $lightness: -50%);
+$color_kanade_50: color.change($color_kanade, $alpha: 50%);
+$color_cocoro: #2ba6e1;
+$color_cocoro_light: color.scale($color_cocoro, $lightness: 50%);
+$color_cocoro_dark: color.scale($color_cocoro, $lightness: -25%);
+$color_cocoro_50: color.change($color_cocoro, $alpha: 50%);
+
+$color_kanade_cocoro: color.mix($color_kanade, $color_cocoro);
+
+
+// page
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+// top nav bar
+
+nav {
+  background-color: $color_natsu;
+  background: linear-gradient(120deg, $color_kanade_cocoro 0%, $color_kanade 5%, $color_kanade 20%, $color_hika 30%, $color_hika 45%, $color_natsu 55%, $color_natsu 70%, $color_cocoro 80%, $color_cocoro 95%, $color_kanade_cocoro 100%);
+  width: 100%;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav h1 {
+  display: inline-block;
+  margin: 0 3em 0 0;
+}
+
+nav h1 span {
+  font-size: smaller;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 2em;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+nav a.current {
+  border-bottom: $color_cocoro solid 0.2em;
+}
+
+// side nav bar
+
+.outer_div {
+  overflow: hidden;
+  display: flex;
+  min-width: 100%;
+}
+
+.side_nav_div {
+  padding: 3.5em 0 0 0;
+  float: left;
+  border-right: lightgray solid 0.1em;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.main_div {
+  padding: 3.5em 0 0 1em;
+  overflow: hidden;
+}
+
+.side_nav_div h3 {
+  margin: 0;
+  padding: 1rem 0 1rem 0.4em;
+}
+
+.side_nav_div table {
+  padding: 0 1em 0 0.4em;
+}
+
+.side_nav_div tr {
+  height: 1.5em;
+}
+
+.side_nav_div a {
+  color: black;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.main_div h1 {
+  margin-top: 0.5rem;
+}
+
+// band page
+
+#band_name {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#band_name span {
+  font-size: 2rem;
+}
+
+#band_overview {
+  height: 722px;
+  width: 1253px;
+  background-image: url("/assets/images/neki-band.png");
+}
+
+#band_overview table {
+  width: 100%;
+}
+
+#band_overview td {
+  border: black solid 1px;
+  width: 25%;
+  text-align: center;
+}
+
+.band_member_summary {
+  height: 200px;
+  color: white;
+}
+
+.band_member_name {
+  font-size: xxx-large;
+  font-weight: 600;
+}
+
+.band_member_instrument {
+  font-size: x-large;
+}
+
+.band_member_more {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.band_member_more.band_member_kanade {
+  color: $color_kanade;
+}
+
+.band_member_more.band_member_hika {
+  color: $color_hika;
+}
+
+.band_member_more.band_member_cocoro {
+  color: $color_cocoro;
+}
+
+.band_member_more.band_member_natsu {
+  color: $color_natsu;
+}
+
+.band_member_details {
+  height: 500px;
+}
+
+.band_member_details div {
+  height: 100%;
+}
+
+.band_member_details.band_member_kanade div {
+  background-color: $color_kanade_50;
+}
+
+.band_member_details.band_member_hika div {
+  background-color: $color_hika_50;
+}
+
+.band_member_details.band_member_cocoro div {
+  background-color: $color_cocoro_50;
+}
+
+.band_member_details.band_member_natsu div {
+  background-color: $color_natsu_50;
+}
+// song page
+
+.song_title {
+  overflow: hidden;
+  display: flex;
+  padding-top: 1em;
+}
+
+.song_cover {
+  float: left;
+  margin-right: 1em;
+  padding: 1px;
+  border: black solid 1px;
+}
+
+.song_info h1:has(+ h2) {
+  margin-bottom: 0;
+}
+
+.song_info h2 {
+  margin-top: 0.4rem;
+}
+
+.song_info_label {
+  font-size: 90%;
+  text-align: right;
+}
+
+.song_info_data {
+  font-weight: 600;
+}
+
+.song_media {
+  display: inline-block;
+  position: relative;
+}
+  
+.song_youtube:after {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 96px;
+  height: 96px;
+  background: url('http://neki-band:4000/assets/images/songs/dreams/dreams-cover544.jpeg');
+  background-size: cover;
+  content: '';
+}
+  
+.language_selection {
+  font-size: smaller;
+  margin-bottom: 1em;
+}
+.lyrics_section {
+  margin-bottom: 1em;
+  border-left: $color_cocoro solid 0.2em;
+}
+
+.lyrics_section table {
+  border-left: $color_hika solid 0.2em;
+  margin-left: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+.lyrics_line td {
+  padding: 0;
+}
+
+.lyrics_hidden {
+  display: none;
+}
+
+.lyrics_line td:not(:last-child) {
+  width: 1px;
+  white-space: nowrap;
+  padding-right: 0.2em;
+}
+
+.lyrics_ro {
+  color: $color_natsu_dark;
+}
+
+.lyrics_en {
+  color: $color_cocoro_dark;
+}

@@ -1,0 +1,88 @@
+---
+layout: songs
+page-title-sub: "Song - "
+---
+{% assign song_data = site.data.songs[page.uid] %}
+
+<div class="song_title">
+{% if song_data.assets.cover-image %}
+  <img class="song_cover" height="200rem" src="/assets/images/songs/{{ page.uid }}/{{ song_data.assets.cover-image }}"/>
+{% endif %}
+  <div class="song_info">
+    <h1>{{ page.fullname }}</h1>
+{%- if page.fullname_en -%}
+    <h2>{{ page.fullname_en }}</h2>
+{% endif -%}
+    <table>
+      <tr>
+        <td class="song_info_label">released:</td>
+        <td class="song_info_data">{{ page.releaseDate }}</td>
+      </tr>
+{% if song_data.credits.lyricist %}
+      <tr>
+        <td class="song_info_label">lyricist:</td>
+        <td class="song_info_data">{{ song_data.credits.lyricist }}</td>
+      </tr>
+{% endif %}
+{% if song_data.credits.composer %}
+      <tr>
+        <td class="song_info_label">composer:</td>
+        <td class="song_info_data">{{ song_data.credits.composer }}</td>
+      </tr>
+{% endif %}
+    </table>
+  </div>
+</div>
+
+<h2>Media</h2>
+
+{% for media in song_data.assets.media %}
+  {% if media.additional != true %}
+{% include youtube.html label=media.name youtubeid=media.youtube %}
+  {% endif %}
+{% endfor %}
+
+<h2>Lyrics</h2>
+
+<div class="language_selection">
+  <table>
+{% for language in song_data.lyrics.languages %}
+    <tr>
+      <td><input type="checkbox"{% if language.active %} checked{% endif %}{% if language.fixed %} disabled{% endif %} onchange="toggle_language_visibility('{{ language.id }}')"/></td>
+      <td>{{ language.name }}</td>
+    </tr>
+{% endfor %}
+  </table>
+</div>
+
+
+{% for section in song_data.lyrics.sections %}
+<div class="lyrics_section">
+  {% for line in section.lines %}
+  <table>
+    {% for language in song_data.lyrics.languages %}
+      {%- if line[language.id] -%}
+    <tr class="lyrics_line lyrics_{{ language.id }}{% if language.active != true %} lyrics_hidden{% endif %}">
+        {%- if line[language.id][0] -%}
+          {% for word in line[language.id] %}
+      <td>{{ word }}</td>
+          {%- endfor %}
+        {%- else %}
+      <td colspan="{{line.ol | size}}">{{ line[language.id] }}</td>
+        {%- endif %}
+    </tr>
+      {%- endif %}
+    {% endfor %}
+  </table>
+  {% endfor %}
+</div>
+{% endfor %}
+
+
+<h2>Additional Media</h2>
+
+{% for media in song_data.assets.media %}
+  {% if media.additional %}
+{% include youtube.html label=media.name youtubeid=media.youtube %}
+  {% endif %}
+{% endfor %}

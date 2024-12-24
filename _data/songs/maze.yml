@@ -1,0 +1,26 @@
+assets:
+  cover-image: maze-post640.webp
+  media:
+    - youtube: EHtWJmMybGY
+      name: Official Music Video
+    - youtube: AqVoa-PMl8I
+      name: Official Teaser
+      additional: true
+
+credits:
+  lyricist: NEK!, MUGI
+  composer: NEK!, MUGI
+
+
+lyrics:
+  languages:
+    - id: ol
+      name: original lyrics (from YouTube Live Video subtitles)
+      active: true
+      fixed: true
+    - id: ro
+      name: rōmaji
+    - id: en
+      name: english translation (from YouTube Live Video subtitles)
+      active: true
+  sections:

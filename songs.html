@@ -1,0 +1,14 @@
+---
+layout: default
+title: Songs
+---
+<h1>Songs</h1>
+
+<ul>
+  {% for song in site.songs %}
+    <li>
+      <h2><a href="{{ song.url }}">{{ song.name }}</a></h2>
+      <p>{{ song.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

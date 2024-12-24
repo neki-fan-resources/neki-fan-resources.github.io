@@ -1,0 +1,20 @@
+assets:
+  cover-image: exclamation-cover640.webp
+  media:
+
+credits:
+  lyricist: NEK!, Haruka Kumoi
+  composer: NEK!, Yuki Tanabe
+
+lyrics:
+  languages:
+    - id: ol
+      name: original lyrics (from YouTube Live Video subtitles)
+      active: true
+      fixed: true
+    - id: ro
+      name: rōmaji
+    - id: en
+      name: english translation (from YouTube Live Video subtitles)
+      active: true
+  sections:

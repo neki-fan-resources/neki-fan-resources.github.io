@@ -1,0 +1,16 @@
+collections:
+  songs:
+    output: true
+
+exclude: ["README.md", "**/README.md"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "songs"
+    values:
+      layout: "song"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

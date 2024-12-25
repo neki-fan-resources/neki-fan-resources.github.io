@@ -1,4 +1,14 @@
 <div class="song_media">
   <h4>{{ include.label }}</h4>
-  <a href="https://www.youtube.com/watch?v={{ include.youtubeid }}" target="_blank"><img class="song_youtube" src="https://i.ytimg.com/vi/{{ include.youtubeid }}/mqdefault.jpg"/></a>
+  <a
+    href="https://www.youtube.com/watch?v={{ include.youtubeid }}"
+    target="_blank">
+    <div class="song_media_image">
+      <img class="song_media_image_over"
+        src="/assets/images/youtube-logo.png"/>
+      <img
+        class="song_media_image_under"
+        src="https://i.ytimg.com/vi/{{ include.youtubeid }}/mqdefault.jpg"/>
+    </div>
+  </a>
 </div>

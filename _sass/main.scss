@@ -280,15 +280,18 @@ nav a.current {
   display: inline-block;
   position: relative;
 }
-  
-.song_youtube::after {
+
+.song_media_image {
+  width: fit-content;
+  position: relative;
+}
+
+.song_media_image_over {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('/assets/images/youtube-logo.png');
-  content: "";
+  left: 50%;
+  top: 50%;
+  height: 33%;
+  transform: translate(-50%, -50%);
 }
   
 .language_selection {

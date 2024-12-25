@@ -1,4 +1,5 @@
 ---
 uid: maze
+fullname: MAZE
 ---
 

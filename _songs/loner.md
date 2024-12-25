@@ -1,4 +1,5 @@
 ---
 uid: loner
+fullname: Loner
 ---
 

@@ -1,4 +1,5 @@
 ---
 uid: blink
+fullname: Blink
 ---
 

@@ -181,25 +181,33 @@ nav a.current {
 }
 
 .band_member_more_arrow {
-  font-size: 4cqw;
-  font-weight: 600;
+  height: 4cqw;
+  width: 4cqw;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  mask-image: url(/assets/images/exclamation.svg);
+  mask-size: contain;
+}
+
+.band_member_more_arrow_rotate {
+  transform: rotate(180deg);
 }
 
 #member-more-kanade {
-  color: $color_kanade;
+  background-color: $color_kanade;
 }
 
 #member-more-hika {
-  color: $color_hika;
+  background-color: $color_hika;
 }
 
 #member-more-cocoro {
-  color: $color_cocoro;
+  background-color: $color_cocoro;
 }
 
 #member-more-natsu {
-  color: $color_natsu;
+  background-color: $color_natsu;
 }
 
 .band_member_details {

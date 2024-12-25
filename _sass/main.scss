@@ -1,23 +1,23 @@
 @use 'sass:color';
 
 $color_hika: #e50112;
-$color_hika_light: color.scale($color_hika, $lightness: 50%);
-$color_hika_dark: color.scale($color_hika, $lightness: -50%);
-$color_hika_50: color.change($color_hika, $alpha: 50%);
+$color_hika_light: scale-color($color_hika, $lightness: 50%);
+$color_hika_dark: scale-color($color_hika, $lightness: -50%);
+$color_hika_50: change-color($color_hika, $alpha: 0.5);
 $color_natsu: #fff001;
-$color_natsu_light: color.scale($color_natsu, $lightness: 50%);
-$color_natsu_dark: color.scale($color_natsu, $lightness: -50%);
-$color_natsu_50: color.change($color_natsu, $alpha: 50%);
+$color_natsu_light: scale-color($color_natsu, $lightness: 50%);
+$color_natsu_dark: scale-color($color_natsu, $lightness: -50%);
+$color_natsu_50: change-color($color_natsu, $alpha: 0.5);
 $color_kanade: #e2007e;
-$color_kanade_light: color.scale($color_kanade, $lightness: 50%);
-$color_kanade_dark: color.scale($color_kanade, $lightness: -50%);
-$color_kanade_50: color.change($color_kanade, $alpha: 50%);
+$color_kanade_light: scale-color($color_kanade, $lightness: 50%);
+$color_kanade_dark: scale-color($color_kanade, $lightness: -50%);
+$color_kanade_50: change-color($color_kanade, $alpha: 0.5);
 $color_cocoro: #2ba6e1;
-$color_cocoro_light: color.scale($color_cocoro, $lightness: 50%);
-$color_cocoro_dark: color.scale($color_cocoro, $lightness: -25%);
-$color_cocoro_50: color.change($color_cocoro, $alpha: 50%);
+$color_cocoro_light: scale-color($color_cocoro, $lightness: 50%);
+$color_cocoro_dark: scale-color($color_cocoro, $lightness: -25%);
+$color_cocoro_50: change-color($color_cocoro, $alpha: 0.5);
 
-$color_kanade_cocoro: color.mix($color_kanade, $color_cocoro);
+$color_kanade_cocoro: mix($color_kanade, $color_cocoro);
 
 
 // page
@@ -26,7 +26,6 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 // top nav bar
 

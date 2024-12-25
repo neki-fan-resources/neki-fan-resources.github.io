@@ -1,0 +1,29 @@
+---
+layout: songs
+page-title-sub: "Album - "
+---
+{% assign album_data = site.data.albums[page.uid] %}
+
+<div class="song_title">
+{% if album_data.assets.cover-image %}
+  <img class="song_cover" src="/assets/images/albums/{{ page.uid }}/{{ album_data.assets.cover-image }}"/>
+{% endif %}
+  <div class="song_info">
+    <h1>{{ album_data.fullname }}</h1>
+{%- if album_data.fullname_en -%}
+    <h2>{{ album_data.fullname_en }}</h2>
+{% endif -%}
+    <table>
+      <tr>
+        <td class="song_info_label">released:</td>
+        <td class="song_info_data">{{ album_data.releaseDate }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<h2>Songs</h2>
+
+{% for song in album_data.songs %}
+{% include song-short.html uid=song %}
+{% endfor %}

@@ -6,17 +6,17 @@ page-title-sub: "Song - "
 
 <div class="song_title">
 {% if song_data.assets.cover-image %}
-  <img class="song_cover" height="200rem" src="/assets/images/songs/{{ page.uid }}/{{ song_data.assets.cover-image }}"/>
+  <img class="song_cover" src="/assets/images/songs/{{ page.uid }}/{{ song_data.assets.cover-image }}"/>
 {% endif %}
   <div class="song_info">
-    <h1>{{ page.fullname }}</h1>
-{%- if page.fullname_en -%}
-    <h2>{{ page.fullname_en }}</h2>
+    <h1>{{ song_data.fullname }}</h1>
+{%- if song_data.fullname_en -%}
+    <h2>{{ song_data.fullname_en }}</h2>
 {% endif -%}
     <table>
       <tr>
         <td class="song_info_label">released:</td>
-        <td class="song_info_data">{{ page.releaseDate }}</td>
+        <td class="song_info_data">{{ song_data.releaseDate }}</td>
       </tr>
 {% if song_data.credits.lyricist %}
       <tr>

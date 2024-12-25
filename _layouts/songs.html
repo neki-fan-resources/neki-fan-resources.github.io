@@ -6,9 +6,16 @@ layout: default
   <div class="side_nav_div">
     <h3>Songs</h3>
     <table>
-      {% assign song_by_release_date = site.songs | sort: "releaseDate" %}
-      {% for song in song_by_release_date %}
-      <tr><td><a href="{{ song.url }}">{{ song.fullname }}</a></td></tr>
+      {% assign songs_by_release_date = site.songs | sort: "releaseDate" %}
+      {% for song in songs_by_release_date %}
+      <tr><td><a href="{{ song.url }}">{{ site.data.songs[song.uid].fullname }}</a></td></tr>
+      {% endfor %}
+    </table>
+    <h3>Albums</h3>
+    <table>
+      {% assign albums_by_release_date = site.albums | sort: "releaseDate" %}
+      {% for album in albums_by_release_date %}
+      <tr><td><a href="{{ album.url }}">{{ site.data.albums[album.uid].fullname }}</a></td></tr>
       {% endfor %}
     </table>
   </div>

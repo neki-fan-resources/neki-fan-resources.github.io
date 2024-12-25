@@ -1,0 +1,10 @@
+{% assign data = site.data.albums[include.uid] %}
+<a class="song_short" href="/albums/{{ include.uid }}.html">
+  <img class="song_short_cover" src="/assets/images/albums/{{ include.uid }}/{{ data.assets.cover-image }}"/>
+  <div class="song_short_info">
+    <h2>{{ data.fullname }}</h2>
+{%- if data.fullname_en -%}
+    <h3>{{ data.fullname_en }}</h3>
+{% endif -%} 
+  </div>
+</a>

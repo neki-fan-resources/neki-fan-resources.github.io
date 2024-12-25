@@ -1,0 +1,14 @@
+---
+layout: songs
+title: Music
+name: Music
+---
+
+{% for entry in site.data.music %}
+{% if entry.album %}
+{% include album-expanded.html uid=entry.album %}
+{% endif %}
+{% if entry.song %}
+{% include song-short.html uid=entry.song %}
+{% endif %}
+{% endfor %}

@@ -6,10 +6,12 @@ $color_hika_dark: scale-color($color_hika, $lightness: -50%);
 $color_hika_50: change-color($color_hika, $alpha: 0.5);
 $color_natsu: #fff001;
 $color_natsu_light: scale-color($color_natsu, $lightness: 50%);
+$color_natsu_lighter: scale-color($color_natsu, $lightness: 90%);
 $color_natsu_dark: scale-color($color_natsu, $lightness: -50%);
 $color_natsu_50: change-color($color_natsu, $alpha: 0.5);
 $color_kanade: #e2007e;
 $color_kanade_light: scale-color($color_kanade, $lightness: 50%);
+$color_kanade_lighter: scale-color($color_kanade, $lightness: 90%);
 $color_kanade_dark: scale-color($color_kanade, $lightness: -50%);
 $color_kanade_50: change-color($color_kanade, $alpha: 0.5);
 $color_cocoro: #2ba6e1;
@@ -25,6 +27,7 @@ $color_kanade_cocoro: mix($color_kanade, $color_cocoro);
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  // background-color: $color_natsu_lighter;
 }
 
 // top nav bar
@@ -59,10 +62,29 @@ nav a.current {
   border-bottom: $color_cocoro solid 0.2em;
 }
 
+// footer
+
+.footer {
+  background-color: $color_natsu;
+  background: linear-gradient(120deg, $color_kanade_cocoro 0%, $color_kanade 5%, $color_kanade 20%, $color_hika 30%, $color_hika 45%, $color_natsu 55%, $color_natsu 70%, $color_cocoro 80%, $color_cocoro 95%, $color_kanade_cocoro 100%);
+  text-align: center;
+  font-size: x-small;
+  padding-top: 0.2em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
 // single block
 
 .single_div {
   padding-top: 3.5em;
+  padding-bottom: 2em;
 }
 
 // side nav bar
@@ -82,14 +104,14 @@ nav a.current {
 }
 
 .main_div {
-  padding: 3.5em 0 0 1em;
+  padding: 3.5em 0 3em 1em;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
 }
 
 .center_div {
-  max-width: 30rem;
+  max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
@@ -370,4 +392,10 @@ nav a.current {
 
 .album-expanded .song_short:not(:first-child) {
   margin-left: 3em;
+}
+
+// about
+
+.about_block {
+  margin-top: 2em;
 }

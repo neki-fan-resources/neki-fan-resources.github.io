@@ -38,7 +38,7 @@ page-title-sub: "Song - "
 
 {% for media in song_data.assets.media %}
   {% if media.additional != true %}
-{% include youtube.html label=media.name youtubeid=media.youtube %}
+{% include media.html media=media %}
   {% endif %}
 {% endfor %}
 
@@ -83,6 +83,6 @@ page-title-sub: "Song - "
 
 {% for media in song_data.assets.media %}
   {% if media.additional %}
-{% include youtube.html label=media.name youtubeid=media.youtube %}
+{% include media.html media=media %}
   {% endif %}
 {% endfor %}

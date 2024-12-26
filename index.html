@@ -3,39 +3,43 @@ layout: default
 title: Band
 ---
 
-<div class="single_div">
-  <h1 id="band_name">Nek! <span>(pronounced Neki)</span></h1>
-  <div id="band_overview">
-    <table>
-      <tr>
-        <td class="band_member_summary">
-          {% include band-member-summary.html member=site.data.members.kanade %}
-        </td>
-        <td class="band_member_summary">
-          {% include band-member-summary.html member=site.data.members.hika %}
-        </td>
-        <td class="band_member_summary">
-          {% include band-member-summary.html member=site.data.members.cocoro %}
-        </td>
-        <td class="band_member_summary">
-          {% include band-member-summary.html member=site.data.members.natsu %}
-        </td>
-      </tr>
-      <tr>
-        <td class="band_member_details band_member_kanade">
-          {% include band-member-details.html member=site.data.members.kanade %}
-        </td>
-        <td class="band_member_details band_member_hika">
-          {% include band-member-details.html member=site.data.members.hika %}
-        </td>
-        <td class="band_member_details band_member_cocoro">
-          {% include band-member-details.html member=site.data.members.cocoro %}
-        </td>
-        <td class="band_member_details band_member_natsu">
-          {% include band-member-details.html member=site.data.members.natsu %}
-        </td>
-      </tr>
-    </table>
+<div class="outer_div">
+  <div class="side_nav_div">
+  </div>
+  <div class="main_div">
+    <h1 id="band_name">Nek! <span>(pronounced Neki)</span></h1>
+    <div id="band_overview">
+      <table>
+        <tr>
+          <td class="band_member_summary">
+            {% include band-member-summary.html member=site.data.members.kanade %}
+          </td>
+          <td class="band_member_summary">
+            {% include band-member-summary.html member=site.data.members.hika %}
+          </td>
+          <td class="band_member_summary">
+            {% include band-member-summary.html member=site.data.members.cocoro %}
+          </td>
+          <td class="band_member_summary">
+            {% include band-member-summary.html member=site.data.members.natsu %}
+          </td>
+        </tr>
+        <tr>
+          <td class="band_member_details band_member_kanade">
+            {% include band-member-details.html member=site.data.members.kanade %}
+          </td>
+          <td class="band_member_details band_member_hika">
+            {% include band-member-details.html member=site.data.members.hika %}
+          </td>
+          <td class="band_member_details band_member_cocoro">
+            {% include band-member-details.html member=site.data.members.cocoro %}
+          </td>
+          <td class="band_member_details band_member_natsu">
+            {% include band-member-details.html member=site.data.members.natsu %}
+          </td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
 

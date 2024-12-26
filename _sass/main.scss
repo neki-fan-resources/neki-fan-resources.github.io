@@ -27,7 +27,7 @@ $color_kanade_cocoro: mix($color_kanade, $color_cocoro);
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  // background-color: $color_natsu_lighter;
+  background: repeating-linear-gradient(170deg, $color_kanade_lighter 0%, $color_natsu_lighter 90vh, $color_kanade_lighter 180vh);
 }
 
 // top nav bar
@@ -80,13 +80,6 @@ nav a.current {
   margin: 0;
 }
 
-// single block
-
-.single_div {
-  padding-top: 3.5em;
-  padding-bottom: 2em;
-}
-
 // side nav bar
 
 .outer_div {
@@ -98,23 +91,25 @@ nav a.current {
 .side_nav_div {
   padding: 3.5em 0 0 0;
   float: left;
-  border-right: lightgray solid 0.1em;
   min-height: 100vh;
   box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .main_div {
-  padding: 3.5em 0 3em 1em;
+  padding: 3.5em 0 3em 0;
   margin-left: auto;
   margin-right: auto;
+  flex-grow: 1;
   overflow: hidden;
+  display: inline;
 }
 
 .center_div {
+  padding-left: 1em;
   max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
 }
 
 .side_nav_div h3 {
@@ -398,4 +393,5 @@ nav a.current {
 
 .about_block {
   margin-top: 2em;
+  text-align: justify;
 }

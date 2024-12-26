@@ -2,8 +2,9 @@
   <table>
 {% for social in include.member.socialmedia %}
   {% assign smid = social[0] %}
+  {% assign handle = social[1] %}
     <tr><td class="socialmedia">
-      <a href="{{ site.data.stuff.socialmedia[smid].url }}{{ social[1] }}">{% include socialmedia-logo.html smid=smid %}{{ social[1] }}</a>
+      {% include socialmedia-link.html smid=smid handle=handle %}
     </td></tr>
 {% endfor %}
   </table>

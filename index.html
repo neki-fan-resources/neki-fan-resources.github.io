@@ -40,6 +40,19 @@ title: Band
         </tr>
       </table>
     </div>
+    <div class="band_details">
+      <table>
+        <tr>
+{% for social in site.data.band.socialmedia %}
+  {% assign smid = social[0] %}
+  {% assign handle = social[1] %}
+          <td class="socialmedia">
+            {% include socialmedia-link.html smid=smid handle=handle %}</a>
+          </td>
+{% endfor %}
+         </tr>
+      </table>
+    </div>
   </div>
 </div>
 

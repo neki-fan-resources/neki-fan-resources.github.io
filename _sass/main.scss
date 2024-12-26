@@ -164,6 +164,20 @@ nav a.current {
   font-size: 2rem;
 }
 
+.band_details {
+  margin-top: 1em;
+}
+
+.band_details table {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 3em 0;
+}
+
+.band_details a {
+  color: black;
+}
+
 #band_overview {
   max-width: 1253px;
   aspect-ratio: 1253/722;
@@ -181,7 +195,6 @@ nav a.current {
 }
 
 #band_overview td {
-  // border: black solid 1px;
   width: 25%;
   text-align: center;
 }

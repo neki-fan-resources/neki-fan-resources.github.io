@@ -8,6 +8,10 @@ assets:
       name: Official Live Video
 
 lyrics:
+  status:
+    code: warning
+    description: data copied from the sources. rōmaji added.
+    # contains some chinese ideograms
   languages:
     - id: ol
       name: original lyrics (from YouTube Live Video subtitles)

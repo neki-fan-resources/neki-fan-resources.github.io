@@ -42,7 +42,7 @@ page-title-sub: "Song - "
   {% endif %}
 {% endfor %}
 
-<h2>Lyrics</h2>
+<h2>Lyrics<span class="song_lyrics_status song_lyrics_status_{{ song_data.lyrics.status.code }}">{{ song_data.lyrics.status.description }}</span></h2>
 
 <div class="language_selection">
   <table>

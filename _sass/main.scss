@@ -331,6 +331,24 @@ nav a.current {
   height: 33%;
   transform: translate(-50%, -50%);
 }
+
+.song_lyrics_status {
+  margin-left: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: small;
+  text-transform: lowercase;
+}
+
+.song_lyrics_status_warning {
+  color: white;
+  background-color: orange;
+}
+
+.song_lyrics_status_na {
+  color: white;
+  background-color: black;
+}
   
 .language_selection {
   font-size: smaller;

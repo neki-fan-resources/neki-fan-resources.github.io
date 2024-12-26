@@ -13,14 +13,130 @@ assets:
       additional: true
 
 lyrics:
+  status:
+    code: warning
+    description: Data copied from the sources. Not reviewed.
   languages:
     - id: ol
-      name: original lyrics (from YouTube Live Video subtitles)
+      name: original lyrics (from YouTube Official Music Video description)
       active: true
       fixed: true
-    - id: ro
-      name: romaji
+    # - id: ro
+    #   name: romaji
     - id: en
-      name: english translation (from YouTube Live Video subtitles)
+      name: english translation (from YouTube Official Music Video subtitles)
       active: true
   sections:
+    - lines:
+      - ol: 完璧主義者のfalling down
+        en: Perfectionist’s Falling down
+      - ol: 完全体は脆いもの
+        en: Perfection is fragile
+      - ol: 最高潮に至ってしまえば going down
+        en: Once the summit is reached,Going down
+    - lines:
+      - ol: 完成されたstory line
+        en: A perfected story line
+      - ol: ここから何もイメージできやしない
+        en: I can't image anything from here
+      - ol: Do you think you need me?
+    - lines:
+      - ol: 関係性までorganize
+        en: Organize even the relationships
+      - ol: 簡単に終わる今日みたい
+        en: It feels like a day that ends easily
+      - ol: 最高潮も終わってしまえば breaking down
+        en: Even the peak ends up breaking down
+    - lines:
+      - ol: 関心ないならsorry, bye
+        en: If you're not interested, sorry, bye
+      - ol: ここから何も始まりはしない
+        en: Nothing starts here
+      - ol: I don’t think you need me this time
+    - lines:
+      - ol: oh now I just let you go.
+      - ol: I’m moving on
+      - ol: and carrying on.
+      - ol: どうせ前にしか道は無い
+        en: There's only one way forward anyway
+      - ol: 絶望だって
+        en: Hopelessness
+      - ol: 拾い集めてさあ
+        en: Pick it up and collect it
+    - lines:
+      - ol: 壊しても
+      - ol: 行こうじゃない
+        en: We'll go even if we have to break it
+      - ol: I don’t say that you’re wasting my time
+      - ol: 後悔はない
+        en: No regrets
+      - ol: I kiss myself goodbye
+    - lines:
+      - ol: 関係ないのcrossing line
+        en: It doesn't matter, crossing line
+      - ol: 完成なんてしない様に
+        en: So that it never gets completed
+      - ol: 最高潮が分かんないくらいにlet’s get down
+        en: I don't even know what the highest peak is,Let’s get down
+    - lines:
+      - ol: 関心ないのはsorry, bye
+        en: Not interested in,sorry, bye
+      - ol: 全員認める者じゃなくて良い
+        en: Not everyone has to admit it
+      - ol: I don’t think I need you this time
+    - lines:
+      - ol: I’m walking on
+      - ol: And I don’t wanna shut these paths away
+    - lines:
+      - ol: Don’t tell me how
+      - ol: Cuz this is my life to live
+    - lines:
+      - ol: again I just let you go.
+      - ol: I’m over you
+      - ol: and carrying on
+      - ol: 止まってしまいたくは無い
+        en: I don't want to stop
+      - ol: 答えなんて
+      - ol: 見つけなくていい
+        en: You don't have to find the answer
+    - lines:
+      - ol: 壊したら
+      - ol: 行けるじゃない
+        en: Because we can go if we break it
+      - ol: I can’t hold it back anymore
+      - ol: 後退はない
+        en: No setbacks
+      - ol: I kiss myself goodbye
+    - lines:
+      - ol: I’m walking on
+      - ol: And I don’t wanna shut these paths away
+    - lines:
+      - ol: Don’t tell me how
+      - ol: Cuz this is my life to live
+    - lines:
+      - ol: so now I just let you go.
+      - ol: I’m moving on
+      - ol: and carrying on.
+      - ol: どうせ前にしか道は無い
+        en: There's only one way forward anyway
+      - ol: 絶望だって
+        en: Hopelessness
+      - ol: 拾い集めてさあ
+        en: Pick it up and collect it
+    - lines:
+      - ol: Now I can live my life.
+      - ol: I’m moving on
+      - ol: and carrying on.
+      - ol: 止まってしまいたくは無い
+        en: I don't want to stop
+      - ol: 答えなんて
+      - ol: 見つけなくていい
+        en: You don't have to find the answer
+    - lines:
+      - ol: 壊れても
+      - ol: 行こうじゃない
+        en: Let’s go even if it breaks
+      - ol: I can’t hold it back anymore
+      - ol: 後退はない
+        en: No setbacks
+      - ol: I kiss myself goodbye

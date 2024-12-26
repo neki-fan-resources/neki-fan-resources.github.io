@@ -10,14 +10,18 @@ credits:
   composer: NEK!, Yuki Tanabe
 
 lyrics:
+  status:
+    code: na
+    description: no source with lyrics found.
   languages:
     - id: ol
-      name: original lyrics (from YouTube Live Video subtitles)
+      name: original lyrics
+      # (from YouTube Live Video subtitles)
       active: true
       fixed: true
-    - id: ro
-      name: rōmaji
-    - id: en
-      name: english translation (from YouTube Live Video subtitles)
-      active: true
+    # - id: ro
+    #   name: rōmaji
+    # - id: en
+    #   name: english translation (from YouTube Live Video subtitles)
+    #   active: true
   sections:

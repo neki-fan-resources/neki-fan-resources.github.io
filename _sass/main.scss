@@ -217,6 +217,7 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 .band_member_summary {
   height: 25%;
   color: white;
+  cursor: pointer;
 }
 
 .band_member_name {
@@ -236,7 +237,6 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 .band_member_more_arrow {
   height: 4cqw;
   width: 4cqw;
-  cursor: pointer;
   margin-left: auto;
   margin-right: auto;
   mask-image: url(/assets/images/exclamation.svg);

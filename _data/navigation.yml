@@ -1,6 +1,20 @@
 - name: Band
   link: /
+  match:
+    - path: "/"
 - name: Music
   link: /music/
+  match:
+    - path: /music
+    - path: /songs
+    - path: /album
+- name: Sources
+  link: /sources.html
+  notband: true
+  match:
+    - path: /sourc
 - name: About
+  notband: true
   link: /about.html
+  match:
+    - path: /about

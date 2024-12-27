@@ -41,10 +41,11 @@ nav {
   top: 0;
   left: 0;
   z-index: 30;
+  display: flex;
+  align-items: first baseline;
 }
 
 nav h1 {
-  display: inline-block;
   margin: 0 3em 0 0;
 }
 
@@ -53,14 +54,27 @@ nav h1 span {
 }
 
 nav a {
-  display: inline-block;
   margin-right: 2em;
-  vertical-align: baseline;
+  vertical-align: text-bottom;
   text-decoration: none;
+  color: darkslategray;
 }
 
 nav a.current {
-  border-bottom: $color_cocoro solid 0.2em;
+  border-bottom: darkslategray solid 0.1em;
+}
+
+.menu_item_not_band {
+  font-size: smaller;
+  align-self: flex-end;
+}
+
+nav > .menu_item_not_band {
+  margin-left: auto;
+}
+
+nav > .menu_item_not_band ~ .menu_item_not_band{
+  margin-left: 0;
 }
 
 // footer

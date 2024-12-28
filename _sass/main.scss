@@ -444,6 +444,7 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 
 // song short
 
+.album_short,
 .song_short {
   overflow: hidden;
   display: flex;
@@ -452,6 +453,7 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   color: black;
 }
 
+.album_short_cover,
 .song_short_cover {
   height: 5rem;
   float: left;
@@ -471,8 +473,16 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 
 // album expanded
 
-.album-expanded .song_short:not(:first-child) {
+.album-expanded .song_short {
   margin-left: 3em;
+}
+
+.album_short_designation {
+  color: grey
+}
+
+.album_short_name {
+  margin-top: 0;
 }
 
 // about

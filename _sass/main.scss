@@ -441,3 +441,33 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   margin-top: 2em;
   text-align: justify;
 }
+
+// sources
+
+.sources_block {
+  margin-top: 2em;
+  font-size: smaller;
+}
+
+.sources_page {
+  border-top: black solid 1px;
+}
+
+.sources_subpage {
+  border-top: gray solid 1px;
+}
+
+.sources_element_label {
+  text-align: right;
+  padding-left: 1em;
+}
+
+.sources_element_label,
+.sources_element_separator,
+.sources_element_description {
+  font-size: smaller;
+}
+
+.sources_element_spacer {
+  width: 1em;
+}

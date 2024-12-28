@@ -1,0 +1,81 @@
+- name: Band
+  elements:
+  - label: Band picture
+    description: frame from Get Over official music video
+    url: https://www.youtube.com/watch?v=TWbLqba3oag
+  - label: Social media logos
+    description: their respective website
+- name: Music
+  pages:
+  - name: Get Over
+    elements:
+    - label: Cover image
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+    - label: Original lyrics
+      description: from YouTube Official Music Video description
+      url: https://www.youtube.com/watch?v=TWbLqba3oag
+    - label: Lyrics english translation
+      description: from YouTube Official Music Video subtitles
+      url: https://www.youtube.com/watch?v=TWbLqba3oag
+  - name: 令現少女
+    elements:
+    - label: Cover image
+      description: YouTube community post
+      url: https://www.youtube.com/post/UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    - label: Original lyrics
+      description: from YouTube Official Music Video subtitles
+      url: https://www.youtube.com/watch?v=rq0dca9mFfI
+    - label: Lyrics english translation
+      description: from YouTube Official Music Video subtitles
+      url: https://www.youtube.com/watch?v=rq0dca9mFfI
+  - name: MAZE
+    elements:
+    - label: Cover image
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
+    - label: Original lyrics
+      description: from YouTube Official Music Video subtitles
+      url: https://www.youtube.com/watch?v=EHtWJmMybGY
+    - label: Lyrics english translation
+      description: from YouTube Official Music Video subtitles
+      url: https://www.youtube.com/watch?v=EHtWJmMybGY
+  - name: ENDLESSGAME
+    elements:
+    - label: Cover image
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+  - name: Blink
+    elements:
+    - label: Cover image
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+  - name: Loner
+    elements:
+    - label: Cover image
+      description: YouTube community post
+      url: https://www.youtube.com/post/UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+    - label: Original lyrics
+      description: from YouTube Official Music Video subtitles
+      url: https://www.youtube.com/watch?v=uhy1HnFXTH8
+    - label: Lyrics english translation
+      description: from YouTube Official Music Video subtitles
+      url: https://www.youtube.com/watch?v=uhy1HnFXTH8
+  - name: Dreams!!!
+    elements:
+    - label: Cover image
+      description: YouTube community post
+      url: https://www.youtube.com/post/UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+    - label: Original lyrics
+      description: from YouTube Official Live Video subtitles
+      url: https://www.youtube.com/watch?v=_Oac92XPkyo
+    - label: Lyrics english translation
+      description: from YouTube Official Live Video subtitles
+      url: https://www.youtube.com/watch?v=_Oac92XPkyo
+  - name: Exclamat!on
+    elements:
+    - label: Cover image
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+
+

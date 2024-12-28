@@ -7,8 +7,22 @@ name: Sources
   <div class="side_nav_div">
   </div>
   <div class="main_div">
-    <div class="center_div about_block">
-        
+    <div class="center_div sources_block">
+      <table>
+{% for page in site.data.sources %}
+        <tr>
+          <td class="sources_page" colspan="4">{{ page.name }}</td>
+        </tr>
+  {% include page-elements.html page=page %}
+  {% for subpage in page.pages %}
+        <tr>
+          <td class="sources_subpage_spacer"></td>
+          <td colspan="3" class="sources_subpage">{{ subpage.name }}</td>
+    {% include page-elements.html page=subpage %}
+        </tr>
+  {% endfor %}
+{% endfor %}
+      </table>
     </div>
   </div>
 </div>

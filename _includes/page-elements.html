@@ -1,0 +1,16 @@
+{% for element in include.page.elements %}
+<tr>
+  <td class="sources_element_spacer"></td>
+  <td class="sources_element_label">
+    {{ element.label }}
+  </td>
+  <td class="sources_element_separator">-</td>
+  <td class="sources_element_description">
+  {% if element.url %}
+    <a href="{{ element.url }}">{{ element.description }}</a>
+  {% else %}
+    {{ element.description }}
+  {% endif %}
+  </td>
+</tr>
+{% endfor %}

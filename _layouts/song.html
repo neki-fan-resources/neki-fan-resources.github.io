@@ -4,14 +4,14 @@ page-title-sub: "Song - "
 ---
 {% assign song_data = site.data.songs[page.uid] %}
 
-<div class="song_title">
+<div class="song_title song_block">
 {% if song_data.assets.cover-image %}
   <img class="song_cover" src="/assets/images/songs/{{ page.uid }}/{{ song_data.assets.cover-image }}"/>
 {% endif %}
   <div class="song_info">
-    <h1>{{ song_data.fullname }}</h1>
+    <h1 class="song_info_name">{{ song_data.fullname }}</h1>
 {%- if song_data.fullname_en -%}
-    <h2>{{ song_data.fullname_en }}</h2>
+    <h2 class="song_info_name_en">{{ song_data.fullname_en }}</h2>
 {% endif -%}
     <table>
       <tr>
@@ -34,15 +34,17 @@ page-title-sub: "Song - "
   </div>
 </div>
 
-<h2>Media</h2>
+<div class="song_media_block song_block">
+  <h2 class="song_media_block_title song_block_title">Media</h2>
+  {% for media in song_data.assets.media %}
+    {% if media.additional != true %}
+  {% include media.html media=media %}
+    {% endif %}
+  {% endfor %}    
+</div>
 
-{% for media in song_data.assets.media %}
-  {% if media.additional != true %}
-{% include media.html media=media %}
-  {% endif %}
-{% endfor %}
-
-<h2>Lyrics<span class="song_lyrics_status song_lyrics_status_{{ song_data.lyrics.status.code }}">{{ song_data.lyrics.status.description }}</span></h2>
+<div class="song_lyrics_block song_block">
+<h2 class="song_lyrics_block_title song_block_title">Lyrics<span class="song_lyrics_status song_lyrics_status_{{ song_data.lyrics.status.code }}">{{ song_data.lyrics.status.description }}</span></h2>
 
 <div class="language_selection">
   <table>
@@ -55,7 +57,7 @@ page-title-sub: "Song - "
   </table>
 </div>
 
-
+<div class="lyrics">
 {% for section in song_data.lyrics.sections %}
 <div class="lyrics_section">
   {% for line in section.lines %}
@@ -77,12 +79,16 @@ page-title-sub: "Song - "
   {% endfor %}
 </div>
 {% endfor %}
+</div>
+</div>
 
-
-<h2>Additional Media</h2>
-
-{% for media in song_data.assets.media %}
-  {% if media.additional %}
-{% include media.html media=media %}
-  {% endif %}
-{% endfor %}
+{% assign addmedia = song_data.assets.media | where: "additional", "true" %}
+{% if addmedia[0] %}
+<div class="song_addmedia_block song_block">
+  <h2 class="song_addmedia_block_title song_block_title">Additional Media</h2>
+  
+  {% for media in addmedia %}
+  {% include media.html media=media %}
+  {% endfor %}
+</div>
+{% endif %}

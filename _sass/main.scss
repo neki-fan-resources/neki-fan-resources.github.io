@@ -298,6 +298,10 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 
 // song page
 
+.song_block {
+  margin-bottom: 3rem;
+}
+
 .song_title {
   overflow: hidden;
   display: flex;
@@ -312,11 +316,11 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   border: black solid 1px;
 }
 
-.song_info h1:has(+ h2) {
+.song_info_name:has(+ .song_info_name_en) {
   margin-bottom: 0;
 }
 
-.song_info h2 {
+.song_info_name_en {
   margin-top: 0.4rem;
 }
 
@@ -329,9 +333,22 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   font-weight: 600;
 }
 
+.song_block_title {
+  border-top: gray solid 1px;
+  padding-left: 0.5rem;
+  padding-top: 0.1rem
+}
+
 .song_media {
   display: inline-block;
   position: relative;
+  margin-right: 0.5rem;
+}
+
+.song_media_title {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  padding-left: 0.2rem;
 }
 
 .song_media_image {
@@ -369,15 +386,38 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   font-size: smaller;
   margin-bottom: 1em;
 }
+
+.lyrics {
+  display: inline-block;
+}
+
+.lyrics_section:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.lyrics_section:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 .lyrics_section {
-  margin-bottom: 1em;
-  border-left: $color_cocoro solid 0.2em;
+  padding: 0.5em 0.5em 0.8em 2em;
+  // border-left: $color_cocoro solid 0.2em;
 }
 
 .lyrics_section table {
-  border-left: $color_hika solid 0.2em;
-  margin-left: 0.1em;
-  margin-bottom: 0.5em;
+  // border-left: $color_hika solid 0.2em;
+  // margin-left: 0.1em;
+  // margin-bottom: 0.5em;
+  width: 100%;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.lyrics_section table:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.lyrics_section table:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .lyrics_line td {

@@ -99,6 +99,19 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   margin: 0;
 }
 
+.footer_contact {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+.footer_contact img {
+  height: 1em;
+  vertical-align: middle;
+}
+
 // side nav bar
 
 .outer_div {

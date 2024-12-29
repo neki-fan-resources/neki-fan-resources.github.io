@@ -3,6 +3,8 @@ collections:
     output: true
   albums:
     output: true
+  concerts:
+    output: true
 
 exclude: ["README.md", "**/README.md"]
 
@@ -17,6 +19,11 @@ defaults:
       type: "albums"
     values:
       layout: "album"
+  - scope:
+      path: ""
+      type: "concerts"
+    values:
+      layout: "concert"
   - scope:
       path: ""
     values:

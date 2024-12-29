@@ -320,14 +320,16 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 }
 
 .song_title,
-.album_title {
+.album_title,
+.concert_title {
   overflow: hidden;
   display: flex;
   padding-top: 1em;
 }
 
 .song_cover,
-.album_cover {
+.album_cover,
+.concert_cover {
   height: 14rem;
   float: left;
   margin-right: 1em;
@@ -344,13 +346,15 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 }
 
 .song_info_label,
-.album_info_label {
+.album_info_label,
+.concert_info_label {
   font-size: 90%;
   text-align: right;
 }
 
 .song_info_data,
-.album_info_data {
+.album_info_data,
+.concert_info_data {
   font-weight: 600;
 }
 
@@ -375,6 +379,10 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 .song_media_image {
   width: fit-content;
   position: relative;
+}
+
+.song_media_image_under {
+  height: 180px;
 }
 
 .song_media_image_over {

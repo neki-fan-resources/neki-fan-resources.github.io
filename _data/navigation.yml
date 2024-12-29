@@ -8,6 +8,10 @@
     - path: /music
     - path: /songs
     - path: /album
+- name: Live
+  link: /live/
+  match:
+    - path: /live.
 - name: Sources
   link: /sources.html
   notband: true

@@ -15,7 +15,7 @@ page-title-sub: "Album - "
 {% endif -%}
     <table>
       <tr>
-        <td class="album_info_label">released:</td>
+        <td class="album_info_label">{% if album_data.released == false %}expected{% else %}released{% endif %}::</td>
         <td class="album_info_data">{{ album_data.releaseDate }}</td>
       </tr>
     </table>

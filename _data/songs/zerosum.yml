@@ -1,0 +1,19 @@
+fullname: zero-sum
+releaseDate: 2024-03-05
+released: false
+
+assets:
+  cover-image: tricktaking-picover.png
+  media:
+
+
+lyrics:
+  status:
+    code: na
+    description: song not released.
+  languages:
+    - id: ol
+      name: original lyrics
+      active: true
+      fixed: true
+  sections:

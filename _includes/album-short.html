@@ -3,9 +3,9 @@
   <img class="album_short_cover" src="/assets/images/albums/{{ include.uid }}/{{ data.assets.cover-image }}"/>
   <div class="album_short_info">
     <span class="album_short_designation">{{ data.designation }}</span>
-    <h2 class="album_short_name">{{ data.fullname }}</h2>
+    <h2 class="album_short_name{% if data.released == false %} not_released{% endif %}">{{ data.fullname }}</h2>
 {%- if data.fullname_en -%}
-    <h3 class="album_short_name_en">{{ data.fullname_en }}</h3>
+    <h3 class="album_short_name_en{% if data.released == false %} not_released{% endif %}">{{ data.fullname_en }}</h3>
 {% endif -%} 
   </div>
 </a>

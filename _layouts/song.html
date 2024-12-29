@@ -15,7 +15,7 @@ page-title-sub: "Song - "
 {% endif -%}
     <table>
       <tr>
-        <td class="song_info_label">released:</td>
+        <td class="song_info_label">{% if song_data.released == false %}expected{% else %}released{% endif %}:</td>
         <td class="song_info_data">{{ song_data.releaseDate }}</td>
       </tr>
 {% if song_data.credits.lyricist %}

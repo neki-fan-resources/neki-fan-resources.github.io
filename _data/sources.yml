@@ -87,10 +87,30 @@
     - label: Lyrics english translation
       description: from YouTube Official Live Video subtitles
       url: https://www.youtube.com/watch?v=_Oac92XPkyo
+  - name: zero-sum
+    elements:
+    - label: Provisional cover image
+      description: lnk.to page
+      url: https://lnk.to/tricktaking_CD
+  - name: fool
+    elements:
+    - label: Provisional cover image
+      description: lnk.to page
+      url: https://lnk.to/tricktaking_CD
+  - name: moon
+    elements:
+    - label: Provisional cover image
+      description: lnk.to page
+      url: https://lnk.to/tricktaking_CD
   - name: EXCLAMAT!ON
     elements:
     - label: Cover image
       description: YouTube community post
       url: https://www.youtube.com/post/Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+  - name: TR!CK TAK!NG
+    elements:
+    - label: Provisional cover image
+      description: lnk.to page
+      url: https://lnk.to/tricktaking_CD
 
 

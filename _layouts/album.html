@@ -4,26 +4,39 @@ page-title-sub: "Album - "
 ---
 {% assign album_data = site.data.albums[page.uid] %}
 
-<div class="song_title">
+<div class="album_title song_block">
 {% if album_data.assets.cover-image %}
-  <img class="song_cover" src="/assets/images/albums/{{ page.uid }}/{{ album_data.assets.cover-image }}"/>
+  <img class="album_cover" src="/assets/images/albums/{{ page.uid }}/{{ album_data.assets.cover-image }}"/>
 {% endif %}
-  <div class="song_info">
+  <div class="album_info">
     <h1>{{ album_data.fullname }}</h1>
 {%- if album_data.fullname_en -%}
     <h2>{{ album_data.fullname_en }}</h2>
 {% endif -%}
     <table>
       <tr>
-        <td class="song_info_label">released:</td>
-        <td class="song_info_data">{{ album_data.releaseDate }}</td>
+        <td class="album_info_label">released:</td>
+        <td class="album_info_data">{{ album_data.releaseDate }}</td>
       </tr>
     </table>
   </div>
 </div>
 
-<h2>Songs</h2>
+<div class="album_songs_block song_block">
+<h2 class="album_songs_block_title song_block_title">Songs</h2>
 
 {% for song in album_data.songs %}
 {% include song-short.html uid=song %}
 {% endfor %}
+</div>
+
+{% assign addmedia = album_data.assets.media | where: "additional", "true" %}
+{% if addmedia[0] %}
+<div class="album_addmedia_block song_block">
+  <h2 class="album_addmedia_block_title song_block_title">Additional Media</h2>
+  
+  {% for media in addmedia %}
+  {% include media.html media=media %}
+  {% endfor %}
+</div>
+{% endif %}

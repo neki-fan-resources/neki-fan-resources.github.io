@@ -9,7 +9,7 @@
     - path: /songs
     - path: /album
 - name: Live
-  link: /live/
+  link: /live.html
   match:
     - path: /live.
 - name: Sources

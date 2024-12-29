@@ -4,6 +4,8 @@ page-title-sub: "Album - "
 ---
 {% assign album_data = site.data.albums[page.uid] %}
 
+<div class="top_designation">{{ album_data.designation }}</div>
+
 <div class="album_title song_block">
 {% if album_data.assets.cover-image %}
   <img class="album_cover" src="/assets/images/albums/{{ page.uid }}/{{ album_data.assets.cover-image }}"/>

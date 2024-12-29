@@ -129,7 +129,7 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 }
 
 .main_div {
-  padding: 3.5em 0 3em 0;
+  padding: 3.8em 0 3em 0;
   margin-left: auto;
   margin-right: auto;
   flex-grow: 1;
@@ -165,6 +165,13 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 
 .main_div h1 {
   margin-top: 0.5rem;
+}
+
+.top_designation {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gray;
+  margin-top: 0.5em;
 }
 
 // logo & icons
@@ -507,7 +514,8 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 }
 
 .album_short_designation {
-  color: grey
+  color: grey;
+  font-weight: 600;
 }
 
 .album_short_name {

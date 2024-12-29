@@ -9,6 +9,7 @@ page-title-sub: "Concert - "
     <div class="center_div">
 {% assign concert_data = site.data.concerts[page.uid] %}
 
+      <div class="top_designation">concert</div>
       <div class="concert_title song_block">
 {% if concert_data.assets.cover-image %}
         <img class="concert_cover" src="/assets/images/concerts/{{ page.uid }}/{{ concert_data.assets.cover-image }}"/>

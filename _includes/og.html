@@ -1,8 +1,9 @@
 {% if page.collection %}
   {% assign data = site.data[page.collection][page.uid]%}
     <meta property="og:title" content="{{ data.fullname }} - {{ site.data.collections[page.collection].item_designation }} - N!fr" />
-    <meta property="og.description" content="Nek! - {{ data.fullname }} - {{ site.data.collections[page.collection].item_designation }}. Nek! (pronounced Neki) fan website. Provides resources around the band Nek!." />
+    <meta property="og:description" content="Nek! - {{ data.fullname }} - {{ site.data.collections[page.collection].item_designation }}. Nek! (pronounced Neki) fan website. Provides resources around the band Nek!." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.collection }}/{{ page.uid }}/{{ data.assets.cover-image }}" />
+    <meta property="og:logo" content="{{ site.url }}/assets/images/nifr-favicon.png"
 {% endif %}

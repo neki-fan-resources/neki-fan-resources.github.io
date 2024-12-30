@@ -5,3 +5,25 @@ name: Live
 ---
 
 <div class="top_designation">live</div>
+
+{% assign songs_by_release_date = site.songs | where: "haslive", true | sort: "order" %}
+{% for song in songs_by_release_date %}
+<div class="song_block">
+  <h2 class="song_block_title">{{ song.fullname }}</h2>
+  {% for media in site.data.songs[song.uid].assets.media %}
+    {% if media.live %}
+  {% include media.html media=media %}
+    {% endif %}
+  {% endfor %}    
+</div>
+{% endfor %}
+
+{% assign concerts_by_release_date = site.concerts | where: "haslive", true | sort: "order" %}
+{% for concert in concerts_by_release_date %}
+<div class="song_block">
+  <h2 class="song_block_title">{{ concert.fullname }}</h2>
+  {% for media in site.data.concerts[concert.uid].assets.media %}
+  {% include media.html media=media %}
+  {% endfor %}    
+</div>
+{% endfor %}

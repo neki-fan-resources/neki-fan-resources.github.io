@@ -6,6 +6,7 @@ assets:
   media:
     - youtube: _Oac92XPkyo
       name: Official Live Video
+      live: true
 
 lyrics:
   status:

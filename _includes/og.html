@@ -1,9 +1,28 @@
 {% if page.collection %}
   {% assign data = site.data[page.collection][page.uid]%}
-    <meta property="og:title" content="{{ data.fullname }} - {{ site.data.collections[page.collection].item_designation }} - N!fr" />
-    <meta property="og:description" content="Nek! - {{ data.fullname }} - {{ site.data.collections[page.collection].item_designation }}. Nek! (pronounced Neki) fan website. Provides resources around the band Nek!." />
+    {% if data.designation %}
+      {% assign item_designation = data.designation %}
+    {% else %}
+      {% assign item_designation = site.data.collections[page.collection].item_designation %}
+    {% endif %}
+    {% capture title %}{{ data.fullname }} - {{ item_designation }} - N!fr{% endcapture %}
+    {% capture description %}Nek! - {{ data.fullname }} - {{ site.data.collections[page.collection].item_designation }}. Nek! (pronounced Neki) fan website. Provides resources around the band Nek!.{% endcapture %}
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.collection }}/{{ page.uid }}/{{ data.assets.cover-image }}" />
+{% else %}
+    {% capture title %}{{ page.title }} - N!fr{% endcapture %}
+    {% capture description %}Nek! - {{ page.title }}. Nek! (pronounced Neki) fan website. Provides resources around the band Nek!.{% endcapture %}
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:image" content="{{ site.url }}/assets/images/nifr-band.png" />
+{% endif %}
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.collection }}/{{ page.uid }}/{{ data.assets.cover-image }}" />
-    <meta property="og:logo" content="{{ site.url }}/assets/images/nifr-favicon.png"
-{% endif %}
+    <meta property="og:logo" content="{{ site.url }}/assets/images/nifr-favicon.png"/>
+    <title>N!fr - {{ layout.page-title-sub }}{% if page.fullname %}{{ page.fullname }}{% else %}{{ page.title }}{% endif %}</title>
+    <meta name="description" content="Nek! (pronounced Neki) fan website. Provides resources around the band Nek!. {{ layout.page-title-sub }}{% if page.fullname %}{{ page.fullname }}{% else %}{{ page.title }}{% endif %}">

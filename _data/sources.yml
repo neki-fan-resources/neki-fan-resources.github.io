@@ -1,5 +1,8 @@
 - name: Band
   elements:
+  - label: Band logo
+    description: from band YouTube page
+    url: https://www.youtube.com/@neki_official/
   - label: Band picture
     description: frame from Get Over official music video
     url: https://www.youtube.com/watch?v=TWbLqba3oag

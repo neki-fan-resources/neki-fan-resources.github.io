@@ -194,13 +194,25 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
 
 // band page
 
-#band_name {
-  text-align: center;
-  font-size: 3rem;
+#band_logo {
+  margin: 0 auto 0 auto;
+  width: 20rem;
+  height: 12rem;
+  object-fit: cover;
+  display: block;
 }
 
-#band_name span {
-  font-size: 2rem;
+#band_name {
+  background-color: white;
+  background: linear-gradient(90deg, rgba(255,255,255,0), white 30%, white 70%, rgba(255,255,255,0));
+}
+
+#band_subname {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
 }
 
 .band_details {

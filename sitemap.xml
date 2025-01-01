@@ -1,0 +1,36 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+  </url>
+  <url>
+    <loc>{{ site.url }}/music</loc>
+  </url>
+  <url>
+    <loc>{{ site.url }}/live.html</loc>
+  </url>
+  <url>
+    <loc>{{ site.url }}/sources.htmtl</loc>
+  </url>
+  <url>
+    <loc>{{ site.url }}/about.html</loc>
+  </url>
+{%- for song in site.songs %}
+  <url>
+    <loc>{{ site.url }}{{ song.url }}</loc>
+  </url>
+{%- endfor -%}
+{% for album in site.albums %}
+  <url>
+    <loc>{{ site.url }}{{ album.url }}</loc>
+  </url>
+{%- endfor -%}
+{% for concert in site.concerts %}
+  <url>
+    <loc>{{ site.url }}{{ concert.url }}</loc>
+  </url>
+{%- endfor %}
+</urlset>

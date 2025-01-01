@@ -1,4 +1,7 @@
 ---
 layout: none
 ---
-Sitemap: {{ site.url }}/sitemap.txt
+User-agent: *
+Allow: /
+
+Sitemap: {{ site.url }}/sitemap.xml

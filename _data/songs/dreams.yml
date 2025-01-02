@@ -8,6 +8,10 @@ assets:
       name: Official Live Video
       live: true
 
+credits:
+  lyricist: NEK!, Tiger Yusuke Kawaguchi
+  composer: NEK!, Yuki Tanabe
+
 lyrics:
   status:
     code: warning

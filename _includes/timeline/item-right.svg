@@ -1,0 +1,12 @@
+{% include timeline/tick-right.svg day=include.day shift=include.shift %}
+{% assign shiftedDay = include.day | plus: include.shift %}
+<g class="item_box" onclick="toggle_timeline_block('{{ include.uid }}')">
+  <image x="20" y="{{ shiftedDay | minus: 10 }}" height="20" width="20" href="{{ include.image }}"/>
+  <rect x="20" y="{{ shiftedDay | minus: 10 }}" height="20" width="20" stroke="black" fill="none" stroke-width="0.5"/>
+{% if include.sublabel %}
+  <text class="item_label" x="45" y="{{ shiftedDay | minus: 4 }}" text-anchor="start" alignment-baseline="middle">{{ include.label }}</text>
+  <text class="item_sublabel" x="45" y="{{ shiftedDay | plus: 5 }}" text-anchor="start" alignment-baseline="middle">{{ include.sublabel }}</text>
+{% else %}
+  <text class="item_label" x="45" y="{{ shiftedDay }}" text-anchor="start" alignment-baseline="middle">{{ include.label }}</text>
+{% endif %}
+</g>

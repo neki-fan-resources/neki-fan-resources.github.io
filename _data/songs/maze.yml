@@ -4,11 +4,14 @@ releaseDate: 2024-07-24
 assets:
   cover-image: maze-post640.webp
   media:
-    - youtube: EHtWJmMybGY
+    - id: musicvideo
+      youtube: EHtWJmMybGY
       name: Official Music Video
-    - youtube: hXGPxYalJfk
+    - id: kanadept
+      youtube: hXGPxYalJfk
       name: Kanade Bass play-through
-    - youtube: AqVoa-PMl8I
+    - id: teaser
+      youtube: AqVoa-PMl8I
       name: Official Teaser
       additional: true
 

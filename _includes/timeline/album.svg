@@ -1,0 +1,13 @@
+{% capture uid -%}
+  album-{{ include.item.album }}-{{ include.item.video }}
+{%- endcapture %}
+{% capture image -%}
+  /assets/images/albums/{{ include.item.album }}/{{ site.data.albums[include.item.album].assets.cover-image }}
+{%- endcapture %}
+{% include timeline/item-right.svg 
+  uid=uid
+  day=include.day
+  label=include.item.label
+  sublabel=include.item.sublabel
+  image=image
+  shift=include.item.shift %}

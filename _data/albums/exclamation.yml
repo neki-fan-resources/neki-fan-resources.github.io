@@ -5,7 +5,8 @@ releaseDate: 2024-07-24
 assets:
   cover-image: exclamation-cover640.webp
   media:
-    - youtube: 387bkUm7Dko
+    - id: teaser
+      youtube: 387bkUm7Dko
       name: Official Teaser
       additional: true
 

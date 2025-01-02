@@ -4,11 +4,14 @@ releaseDate: 2024-04-24
 assets:
   cover-image: getover-cover640.webp
   media:
-    - youtube: TWbLqba3oag
+    - id: musicvideo
+      youtube: TWbLqba3oag
       name: Official Music Video
-    - youtube: 7Neu9jJk-04
+    - id: kanadept
+      youtube: 7Neu9jJk-04
       name: Kanade Bass play-through
-    - youtube: maFSgVE2vXg
+    - id: teaser
+      youtube: maFSgVE2vXg
       name: Official Teaser
       additional: true
 

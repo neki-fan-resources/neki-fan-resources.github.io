@@ -1,0 +1,9 @@
+{% if include.item.marker %}
+  {% include timeline/block/marker.html item=include.item %}
+{% elsif include.item.song %}
+  {% include timeline/block/song.html item=include.item %}
+{% elsif include.item.album %}
+  {% include timeline/block/album.html item=include.item %}
+{% elsif include.item.concert %}
+  {% include timeline/block/concert.html item=include.item %}
+{% endif %}

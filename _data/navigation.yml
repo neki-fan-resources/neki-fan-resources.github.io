@@ -12,6 +12,10 @@
   link: /live.html
   match:
     - path: /live.
+- name: Chronology
+  link: /chronology.html
+  match:
+    - path: /chron
 - name: Sources
   link: /sources.html
   notband: true

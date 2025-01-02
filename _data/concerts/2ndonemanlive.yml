@@ -4,9 +4,10 @@ location: Shibuya eggman
 setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b540020
 
 assets:
-  cover-image: 2ndonemainlive-cover.webp
+  cover-image: 2ndonemanlive-cover.webp
   media:
     - zaiko: https://nekiband.zaiko.io/item/368923
       name: Streaming @ zaiko.io
       image: https://media.zaiko.io/zaiko/w_1200/1_477a9d107m1w49egamc3p
+      live: true
 

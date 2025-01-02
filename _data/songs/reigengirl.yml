@@ -5,9 +5,11 @@ releaseDate: 2024-07-03
 assets:
   cover-image: reigengirl-post640.webp
   media:
-    - youtube: rq0dca9mFfI
+    - id: musicvideo
+      youtube: rq0dca9mFfI
       name: Official Music Video
-    - youtube: pCqu9xyfFzE
+    - id: teaser
+      youtube: pCqu9xyfFzE
       name: Official Teaser
       additional: true
 

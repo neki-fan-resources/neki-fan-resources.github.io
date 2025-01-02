@@ -16,6 +16,9 @@ page-title-sub: "Concert - "
 {% endif %}
         <div class="concert_info">
           <h1 class="concert_info_name">{{ concert_data.fullname }}</h1>
+{% if concert_data.sublabel %}
+          <h2 class="concert_info_name_en">{{ concert_data.sublabel }}</h2>
+{% endif %}
           <table>
             <tr>
               <td class="concert_info_label">date:</td>

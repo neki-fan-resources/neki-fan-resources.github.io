@@ -15,4 +15,6 @@ In search, use `NEK!` for `Artist Name`, and `perfect match` in the dropdown.
 
 # TODO
 
-find a place for 1st EP teaser
+* double check in official registry credits for `Get Over`
+* double check in official registry credits for `Dreams!!!`
+

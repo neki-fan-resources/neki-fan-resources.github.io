@@ -23,7 +23,9 @@ name: Live
 <div class="song_block">
   <h2 class="song_block_title">{{ concert.fullname }}</h2>
   {% for media in site.data.concerts[concert.uid].assets.media %}
+    {% if media.live %}
   {% include media.html media=media %}
+    {% endif %}
   {% endfor %}    
 </div>
 {% endfor %}

@@ -1,0 +1,5 @@
+{% include timeline/tick-left.svg day=include.day shift=include.shift %}
+{% assign shiftedDay = include.day | plus: include.shift %}
+<g class="item_box" onclick="toggle_timeline_block('{{ include.uid }}')">
+  <text class="item_lesser_label" x="-25" y="{{ shiftedDay }}" text-anchor="end" alignment-baseline="middle">{{ include.label }}</text>
+</g>

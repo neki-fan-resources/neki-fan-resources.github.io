@@ -11,3 +11,6 @@ socialmedia:
   tiktok:
     logo: tiktok-logo.ico
     url: https://www.tiktok.com/@
+  bluesky:
+    logo: bluesky.svg
+    url: https://bsky.app/profile/

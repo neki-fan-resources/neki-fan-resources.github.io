@@ -24,6 +24,11 @@ lyrics:
       fixed: true
     - id: ro
       name: rōmaji
+    # - id: ww
+    #   name: word by word translation (using jisho.org)
+    #   baseurl: https://jisho.org/search/
+    #   urltext: J
+    #   active: true
     - id: en
       name: english translation (from YouTube Live Video subtitles)
       active: true
@@ -32,31 +37,56 @@ lyrics:
       - ol:
         - アナタ
         - の
-        - 眼ん
+        - 眼
+        - ん
         - 中
         - 映ってる
         ro:
         - anata
         - "no"
-        - men
+        - me
+        - n
         - naka
         - utsutteru
+        ww:
+        - w: you
+          d: 貴方
+        - w: "'s"
+          d: の"'s"
+        - w: eye
+          d: 眼
+        - w: "'s"
+          d: ん
+        - w: within
+          d: 中
+        - w: being reflected 
+          d: 映ってる
+        - d: 貴方の眼ん中映ってる
         en: Reflected in your eyes
       - ol:
         - アタシ
         - を
         - どうぞ
         - よく
-        - ⾒
-  # chinese character, japanese: 見
-        - せて
+        - ⾒せて
         ro:
         - atachi
         - o
         - doozo
         - yoku
-        - mi
-        - sete
+        - misete
+        ww:
+        - w: me
+          d: アタシ
+        - w: " "
+          d: を
+        - w: (please)
+          d: どうぞ
+        - w: nice
+          d: よく
+        - w: make .. look
+          d: 見 せて
+        - d: アタシをどうぞよく見せて
         en: Make me look good.
       - ol:
         - ⼀番
@@ -72,6 +102,18 @@ lyrics:
         - hazu
         - dakara
         - nante
+        ww:
+        - w: most
+          d: 一番
+        - w: shine
+          d: 輝いている
+        - w: should (be)
+          d: 筈
+        - w: because
+          d: だから
+        - w: (?)
+          d: なんて
+        - d: 一番輝いている筈だからなんて
         en: Because I'm supposed to shine the brightest, just kidding.
     - lines:
       - ol:

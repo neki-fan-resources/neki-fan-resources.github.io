@@ -62,16 +62,31 @@ page-title-sub: "Song - "
 {% for section in song_data.lyrics.sections %}
 <div class="lyrics_section">
   {% for line in section.lines %}
+  {% assign sizes = "" | split: ',' %}
+  {% for l in line %}
+    {% if l[1][0] %}
+      {% assign sizes = sizes | push: l[1].size %}
+    {% endif %}
+  {% endfor %}
+  {% assign nbcols = sizes | sort | last %}
   <table>
     {% for language in song_data.lyrics.languages %}
       {%- if line[language.id] -%}
     <tr class="lyrics_line lyrics_{{ language.id }}{% if language.active != true %} lyrics_hidden{% endif %}">
         {%- if line[language.id][0] -%}
           {% for word in line[language.id] %}
+            {% if language.baseurl %}
+      <td>{{ word.w }}<a class="lyrics_word_{% if word.w %}tiny{% endif %}link" href="{{ language.baseurl }}{{ word.d }}" target="_blank_{{ language.id }}">{{ language.urltext }}</a></td>
+            {% else %}
       <td>{{ word }}</td>
+            {% endif %}
           {%- endfor %}
+          {% assign extracols = nbcols | minus: line[language.id].size %}
+          {% for i in (1..extracols) %}
+      <td></td>
+          {% endfor %}
         {%- else %}
-      <td colspan="{{line.ol | size}}">{{ line[language.id] }}</td>
+      <td colspan="{{ nbcols }}">{{ line[language.id] }}</td>
         {%- endif %}
     </tr>
       {%- endif %}

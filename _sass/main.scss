@@ -430,6 +430,11 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   background-color: orange;
 }
 
+.song_lyrics_status_danger {
+  color: white;
+  background-color: red;
+}
+
 .song_lyrics_status_na {
   color: white;
   background-color: black;
@@ -473,6 +478,14 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   padding: 0;
 }
 
+.lyrics_word_link {
+  font-size: small;
+}
+
+.lyrics_word_tinylink {
+  font-size: xx-small;
+}
+
 .lyrics_hidden {
   display: none;
 }
@@ -487,7 +500,15 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   color: $color_natsu_dark;
 }
 
+.lyrics_ww {
+  color: $color_kanade;
+}
+
 .lyrics_en {
+  color: $color_cocoro_dark;
+}
+
+.lyrics_gg {
   color: $color_cocoro_dark;
 }
 

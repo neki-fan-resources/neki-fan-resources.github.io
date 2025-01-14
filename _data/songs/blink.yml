@@ -14,13 +14,12 @@ lyrics:
     code: danger
     description: Transcription from audio file. Manual and using LLMs, checked with other sources.
   languages:
-    - id: ts
-      name: LLM transcribed lyrics
-      active: true
-    - id: ro
-      name: rōmaji
+    - id: ol
+      name: original lyrics (from EXCLAMAT!ON EP booklet)
       active: true
       fixed: true
+    - id: ro
+      name: rōmaji
     - id: ww
       name: word by word translation (using jisho.org)
       baseurl: https://jisho.org/search/
@@ -29,7 +28,7 @@ lyrics:
       name: Google Gemini translation (2.0 Flash Experimental), with some manual tweaks.
   sections:
     - lines:
-      - ts:
+      - ol:
         - 生まれて初めて
         - の
         - キス
@@ -58,10 +57,10 @@ lyrics:
           d: とか
         - d: 生まれて初めてのキスの味とか
         gg: The taste of my first ever kiss,
-      - ts:
+      - ol:
         - 最後
         - に
-        - 喧嘩
+        - ケンカ
         - を
         - した道
         - とか
@@ -78,18 +77,18 @@ lyrics:
         - w: (time)
           d: に
         - w: fight
-          d: 喧嘩
+          d: ケンカ
         - w: ""
           d: を
         - w: way
           d: した道
         - w: (and such things)
           d: とか
-        - d: 最後に喧嘩をした道とか
-        gg: The road where we had our last fight,
-      - ts:
+        - d: 最後にケンカをした道とか
+        gg: The street where we had our last fight,
+      - ol:
         - とっくに
-        - 忘れる
+        - 忘れた
         - つもり
         - だった
         - のに
@@ -103,16 +102,16 @@ lyrics:
         - w: long ago
           d: とっくに
         - w: to forget
-          d: 忘れる
+          d: 忘れた
         - w: expecting
           d: つもり
         - w: was
           d: だった
         - w: ", and yet"
           d: のに
-        - d: とっくに忘れるつもりだったのに
+        - d: とっくに忘れたつもりだったのに
         gg: I meant to forget them long ago,
-      - ts:
+      - ol:
         - どうして
         - まだ
         - 胸
@@ -142,8 +141,10 @@ lyrics:
         - d: どうしてまだ胸が痛むの
         gg: So why does my heart still ache?
     - lines:
-      - ts: 
+      - ol: 
+        - 「
         - いつか
+        - 」
         - と
         - 夢
         - を
@@ -153,7 +154,9 @@ lyrics:
         - 僕ら
         - は
         ro:
+        - '"'
         - istuka
+        - '"'
         - to
         - yume
         - o
@@ -163,8 +166,10 @@ lyrics:
         - wokura
         - wa
         ww:
+        - w: '"'
         - w: someday
           d: いつか
+        - w: '"'
         - w: (when)
           d: と
         - w: dream
@@ -181,9 +186,9 @@ lyrics:
           d: 僕ら
         - w: ""
           d: は
-        - d: いつかと夢を見てばかりの僕らは
+        - d: 「いつか」と夢を見てばかりの僕らは
         gg: We were always just dreaming of "someday,"
-      - ts:
+      - ol:
         - 嘘
         - を
         - また
@@ -208,7 +213,7 @@ lyrics:
           d: 重ねて
         - d: 嘘をまた一つずつ重ねて
         gg: Piling up lies one by one,
-      - ts:
+      - ol:
         - 互い
         - の
         - 傷
@@ -245,7 +250,7 @@ lyrics:
           d: ね
         - d: 互いの傷を見ないふりしてたね
         gg: Pretending not to see each other's wounds.
-      - ts:
+      - ol:
         - 愛
         - と
         - 呼ぶ
@@ -273,10 +278,11 @@ lyrics:
         - w: too young
           d: 幼すぎて
         - d: 愛と呼ぶにはまだ幼すぎて
-        gg: We were too young to call it love,
-      - ts:
+        gg: We were still too young to call it love,
+    - lines:
+      - ol:
         - 痛い
-        - ほど
+        - 程
         - に
         - 膨らむ
         - 思い
@@ -290,25 +296,27 @@ lyrics:
         - w: pain
           d: 痛い
         - w: extent
-          d: ほど
+          d: 程
         - w: to
           d: に
         - w: swell
           d: 膨らむ
         - w: feeling
           d: 思い
-        - d: 痛いほどに膨らむ思い
-        gg: With feelings swelling painfully,
-      - ts:
+        - d: 痛い程に膨らむ思い
+        gg: Feelings swelling to the point of pain,
+      - ol:
         - あの
         - 時
+        - 、
         - 素直
         - に
         - 言えたら
-        - 良かった
+        - よかった
         ro:
         - ano
         - toki
+        - ","
         - sunao
         - ni
         - ietara
@@ -318,6 +326,7 @@ lyrics:
           d: あの
         - w: moment
           d: 時
+        - w: ","
         - w: honest
           d: 素直
         - w: ""
@@ -326,48 +335,46 @@ lyrics:
           d: 言えたら
         - w: (would have been good)
           d: 良かった
-        - d: あの時素直に言えたら良かった
+        - d: あの時、素直に言えたらよかった
         gg: I wish I could have been honest back then.
     - lines:
-      - ts:
+      - ol:
         - 不器用な
         - 笑顔
+        - だって
+        - ""
+        - 下手くそな
+        - ピース
         - だって
         ro:
         - bukiyoona
         - egao
         - datte
+        - ""
+        - hetakusona
+        - piisu
+        - datte
         ww:
-        - w: clumsi
+        - w: clumsy
           d: 不器用な
         - w: smile
           d: 笑顔
         - w: even
           d: だって
-        - d: 不器用な笑顔だって
-        gg: Even your clumsy smiles,
-      - ts:
-        - 下手くそな
-        - ピース
-        - だって
-        ro:
-        - hetakusona
-        - piisu
-        - datte
-        ww:
+        - w: ""
         - w: awkward
           d: 下手くそな
         - w: peace sign
           d: ピース
         - w: even
           d: だって
-        - d: 下手くそなピースだって
-        gg: Even your awkward peace signs,
-      - ts:
+        - d: 不器用な笑顔だって 下手くそなピースだって
+        gg: Even your clumsy smiles, even your awkward peace signs,
+      - ol:
         - 本当
         - は
         - 全部全部
-        - 愛おしいかった
+        - 愛しかった
         - よ
         ro:
         - hontoo
@@ -383,16 +390,17 @@ lyrics:
         - w: all of them
           d: 全部全部
         - w: cherirshed
-          d: 愛おしいかった
+          d: 愛しかった
         - w: (emphasis)
           d: よ
-        - d: 本当は全部全部愛おしいかったよ
+        - d: 本当は全部全部愛しかったよ
         gg: I truly, truly cherished them all.
-      - ts:
+      - ol:
         - 誰
         - もいない
         - 風景
         - に
+        - ""
         - シャッター
         - を
         - 切る
@@ -402,6 +410,7 @@ lyrics:
         - moinai
         - fuukei
         - ni
+        - ""
         - shattaa
         - o
         - kiru
@@ -415,6 +424,7 @@ lyrics:
           d: 風景
         - w: (on)
           d: に
+        - w: ""
         - w: shutter
           d: シャッター
         - w: ""
@@ -423,9 +433,9 @@ lyrics:
           d: 切る
         - w: like
           d: みたいだ
-        - d: シャッターを切るみたいだ誰もいない風景に
+        - d: 誰もいない風景に シャッターを切るみたいだ
         gg: It's like taking a picture of a deserted landscape,
-      - ts:
+      - ol:
         - 記憶
         - だけ
         - が
@@ -450,7 +460,7 @@ lyrics:
           d: 消えた
         - d: 記憶だけが光って消えた
         gg: Only the memories shine and fade away,
-      - ts:
+      - ol:
         - ファインダー
         - の
         - 向こう側
@@ -471,7 +481,7 @@ lyrics:
           d: で
         - d: ファインダーの向こう側で
         gg: On the other side of the viewfinder,
-      - ts:
+      - ol:
         - 君
         - は
         - いつも
@@ -495,14 +505,14 @@ lyrics:
         - w: (even though)
           d: のに
         - d: 君はいつも笑ってくれたのに
-        gg: You were always smiling for me.
+        gg: You always smiled for me.
     - lines:
-      - ts:
+      - ol:
         - ああ
         ro:
         - aaaa
     - lines:
-      - ts:
+      - ol:
         - あの
         - 頃
         - 飽きる
@@ -531,7 +541,7 @@ lyrics:
           d: 歌の
         - d: あの頃飽きるほど聴いてた歌の
         gg: The song I listened to until I was sick of it back then,
-      - ts:
+      - ol:
         - 再生ボタン
         - は
         - もう
@@ -551,8 +561,8 @@ lyrics:
         - w: cannot press
           d: 押せなくて
         - d: 再生ボタンはもう押せなくて
-        gg: I cannot press the play button anymore.
-      - ts:
+        gg: I can't press the play button anymore.
+      - ol:
         - 進めない
         - 僕
         - は
@@ -585,23 +595,28 @@ lyrics:
           d: だ
         - d: 進めない僕は今も嘘ばっかりだ
         gg: I'm still stuck, still full of lies.
-      - ts:
+      - ol:
+        - 「
         - 君
         - に
         - 幸せ
         - で
         - いて
         - 欲しい
+        - 」
         - なんて
         ro:
+        - '"'
         - kimi
         - ni
         - shiawase
         - de
         - ite
         - hoshii
+        - '"'
         - nante
         ww:
+        - w: '"'
         - w: you
           d: 君
         - w: ""
@@ -614,12 +629,13 @@ lyrics:
           d: いて
         - w: want
           d: 欲しい
+        - w: '"'
         - w: (things like)
           d: なんて
-        - d: 君に幸せでいて欲しいなんて
-        gg: Saying I want you to be happy...
+        - d: 「君に幸せでいて欲しい」なんて
+        gg: Saying "I want you to be happy..."
     - lines:
-      - ts:
+      - ol:
         - カメラ
         - ロール
         - に
@@ -640,7 +656,7 @@ lyrics:
           d: 残った
         - d: カメラロールに残った
         gg: Left in my camera roll,
-      - ts:
+      - ol:
         - 二人
         - の
         - セルフィー
@@ -665,7 +681,7 @@ lyrics:
           d: きっと
         - d: 二人のセルフィーはきっと
         gg: The selfies of the two of us
-      - ts:
+      - ol:
         - いつ
         - に
         - なって
@@ -690,18 +706,32 @@ lyrics:
           d: 色褪せてくれない
         - d: いつになっても色褪せてくれない
         gg: Never fade, no matter how much time passes.
-      - ts:
+      - ol:
         - あの
         - 日
         - みたい
         - に
         - 笑って
+        - ""
+        - ただ
+        - それ
+        - だけ
+        - で
+        - いい
+        - よ
         ro:
         - ano
         - hi
         - mitai
         - ni
         - waratte
+        - ""
+        - tada
+        - sore
+        - dake
+        - de
+        - ii
+        - yo
         ww:
         - w: that
           d: あの
@@ -713,23 +743,7 @@ lyrics:
           d: に
         - w: smile
           d: 笑って
-        - d: あの日みたいに笑って
-        gg: Just smile like you did that day,
-      - ts:
-        - ただ
-        - それ
-        - だけ
-        - で
-        - いい
-        - よ
-        ro:
-        - tada
-        - sore
-        - dake
-        - de
-        - ii
-        - yo
-        ww:
+        - w: ""
         - w: only
           d: ただ
         - w: that
@@ -742,9 +756,9 @@ lyrics:
           d: いい
         - w: (emphasis)
           d: よ
-        - d: ただそれだけでいいよ
-        gg: That's all I need.
-      - ts:
+        - d: あの日みたいに笑って ただそれだけでいいよ
+        gg: Just smile like you did that day, that's all I need.
+      - ol:
         - 今更
         - 気づい
         - たって
@@ -772,8 +786,8 @@ lyrics:
         - w: be
           d: だ
         - d: 今更気づいたって遅いんだ
-        gg: I know it's too late to realize this now,
-      - ts:
+        gg: Even if I realize it now, it's too late.
+      - ol:
         - どうか
         - 君
         - は
@@ -795,7 +809,7 @@ lyrics:
           d: 変わらないで
         - d: どうか君は変わらないで
         gg: But please, don't change.
-      - ts:
+      - ol:
         - 写真
         - の
         - 中
@@ -821,7 +835,7 @@ lyrics:
         - d: 写真の中閉じ込めていたいよ
         gg: I want to keep you locked inside those photos.
     - lines:
-      - ts:
+      - ol:
         - 何
         - も
         - 知らなかった
@@ -854,7 +868,7 @@ lyrics:
           d: に
         - d: 何も知らなかった頃の二人に
         gg: To the two of us who knew nothing,
-      - ts:
+      - ol:
         - もしも
         - 戻れる
         - なら
@@ -871,7 +885,7 @@ lyrics:
           d: なら
         - d: もしも戻れるなら
         gg: If we could go back,
-      - ts:
+      - ol:
         - ちゃんと
         - 見つめる
         - から
@@ -886,48 +900,46 @@ lyrics:
           d: 見つめる
         - w: (because)
           d: から
-        - d: ちゃんと見つめるから	
+        - d: ちゃんと見つめるから
         gg: I would look at you properly.
     - lines:
-      - ts:
+      - ol:
         - 不器用な
         - 笑顔
+        - だって
+        - ""
+        - 下手くそな
+        - ピース
         - だって
         ro:
         - bukiyoona
         - egao
         - datte
+        - ""
+        - hetakusona
+        - piisu
+        - datte
         ww:
-        - w: clumsi
+        - w: clumsy
           d: 不器用な
         - w: smile
           d: 笑顔
         - w: even
           d: だって
-        - d: 不器用な笑顔だって
-        gg: Even your clumsy smiles,
-      - ts:
-        - 下手くそな
-        - ピース
-        - だって
-        ro:
-        - hetakusona
-        - piisu
-        - datte
-        ww:
+        - w: ""
         - w: awkward
           d: 下手くそな
         - w: peace sign
           d: ピース
         - w: even
           d: だって
-        - d: 下手くそなピースだって
-        gg: Even your awkward peace signs,
-      - ts:
+        - d: 不器用な笑顔だって 下手くそなピースだって
+        gg: Even your clumsy smiles, even your awkward peace signs,
+      - ol:
         - 本当
         - は
         - 全部全部
-        - 愛おしいかった
+        - 愛しかった
         - よ
         ro:
         - hontoo
@@ -943,16 +955,17 @@ lyrics:
         - w: all of them
           d: 全部全部
         - w: cherirshed
-          d: 愛おしいかった
+          d: 愛しかった
         - w: (emphasis)
           d: よ
-        - d: 本当は全部全部愛おしいかったよ
+        - d: 本当は全部全部愛しかったよ
         gg: I truly, truly cherished them all.
-      - ts:
+      - ol:
         - 誰
         - もいない
         - 風景
         - に
+        - ""
         - シャッター
         - を
         - 切る
@@ -962,6 +975,7 @@ lyrics:
         - moinai
         - fuukei
         - ni
+        - ""
         - shattaa
         - o
         - kiru
@@ -975,6 +989,7 @@ lyrics:
           d: 風景
         - w: (on)
           d: に
+        - w: ""
         - w: shutter
           d: シャッター
         - w: ""
@@ -983,9 +998,9 @@ lyrics:
           d: 切る
         - w: like
           d: みたいだ
-        - d: シャッターを切るみたいだ誰もいない風景に
+        - d: 誰もいない風景に シャッターを切るみたいだ
         gg: It's like taking a picture of a deserted landscape,
-      - ts:
+      - ol:
         - 記憶
         - だけ
         - が
@@ -1010,7 +1025,7 @@ lyrics:
           d: 消えた
         - d: 記憶だけが光って消えた
         gg: Only the memories shine and fade away,
-      - ts:
+      - ol:
         - ファインダー
         - の
         - 向こう側
@@ -1031,7 +1046,7 @@ lyrics:
           d: で
         - d: ファインダーの向こう側で
         gg: On the other side of the viewfinder,
-      - ts:
+      - ol:
         - 君
         - は
         - いつも
@@ -1055,10 +1070,10 @@ lyrics:
         - w: (even though)
           d: のに
         - d: 君はいつも笑ってくれたのに
-        gg: You were always smiling for me.
+        gg: You always smiled for me.
 
     - lines:
-      - ts:
+      - ol:
         - 無邪気
         - に
         - 手
@@ -1099,12 +1114,12 @@ lyrics:
           d: が
         - d: 無邪気に手を繋ぐ二人の姿が
         gg: The image of us holding hands innocently
-      - ts:
+      - ol:
         - 瞳
         - の
         - 奥
         - に
-        - 焼き付いてる
+        - 焼きついてる
         ro:
         - hitomi
         - "no"
@@ -1121,6 +1136,6 @@ lyrics:
         - w:
           d: に
         - w: being etched into
-          d: 焼き付いてる
-        - d: 瞳の奥に焼き付いてる
+          d: 焼きついてる
+        - d: 瞳の奥に焼きついてる
         gg: Is burned into the depths of my eyes.

@@ -70,12 +70,8 @@
     - label: Credits
       description: "JASRAC - work ID: 303-5430-7"
       url: https://www2.jasrac.or.jp/
-    - label: lyrics transciption used for comparison
-      description: youtube comment on Blink
-      url: https://www.youtube.com/watch?v=oyVxBskxRJw&lc=UgynSXtrdBY6L7uftLB4AaABAg&ab_channel=NEK%21-Topic
-    - label: lyrics transciption used for comparison
-      description: metalsapphire web site
-      url: https://www.metalsapphire.com/NEKI/Songs.html#Blink
+    - label: Original lyrics
+      description: from EXCLAMAT!ON EP booklet
   - name: Loner
     elements:
     - label: Cover image

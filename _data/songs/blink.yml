@@ -11,8 +11,8 @@ credits:
 
 lyrics:
   status:
-    code: danger
-    description: Transcription from audio file. Manual and using LLMs, checked with other sources.
+    code: warning
+    description: Lyrics from the EP booklet. Translation using jisho.org and Google Gemini.
   languages:
     - id: ol
       name: original lyrics (from EXCLAMAT!ON EP booklet)

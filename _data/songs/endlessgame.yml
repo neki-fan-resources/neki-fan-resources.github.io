@@ -11,8 +11,8 @@ credits:
 
 lyrics:
   status:
-    code: na
-    description: no source with lyrics found.
+    code: warning
+    description: Lyrics from the EP booklet. Translation using jisho.org and Google Gemini.
   languages:
     - id: ol
       name: original lyrics (from EXCLAMAT!ON EP booklet)

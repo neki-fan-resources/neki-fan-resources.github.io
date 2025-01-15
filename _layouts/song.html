@@ -51,7 +51,7 @@ page-title-sub: "Song - "
   <table>
 {% for language in song_data.lyrics.languages %}
     <tr>
-      <td><input type="checkbox"{% if language.active %} checked{% endif %}{% if language.fixed %} disabled{% endif %} onchange="toggle_language_visibility('{{ language.id }}')"/></td>
+      <td><input id="lyrics_lang_{{ language.id }}" type="checkbox"{% if language.active %} checked{% endif %}{% if language.fixed %} disabled{% endif %} onchange="toggle_language_visibility('{{ language.id }}')"/></td>
       <td>{{ language.name }}</td>
     </tr>
 {% endfor %}
@@ -62,13 +62,17 @@ page-title-sub: "Song - "
 {% for section in song_data.lyrics.sections %}
 <div class="lyrics_section">
   {% for line in section.lines %}
-  {% assign sizes = "" | split: ',' %}
-  {% for l in line %}
-    {% if l[1][0] %}
-      {% assign sizes = sizes | push: l[1].size %}
-    {% endif %}
-  {% endfor %}
-  {% assign nbcols = sizes | sort | last %}
+    {%- comment %}
+      compute the maximum number of cells in the line.
+      Used to correctly extends the last cell of each row
+    {% endcomment %}
+    {% assign sizes = "" | split: ',' %}
+    {% for l in line %}
+      {% if l[1][0] %}
+        {% assign sizes = sizes | push: l[1].size %}
+      {% endif %}
+    {% endfor %}
+    {% assign nbcols = sizes | sort | last %}
   <table>
     {% for language in song_data.lyrics.languages %}
       {%- if line[language.id] -%}

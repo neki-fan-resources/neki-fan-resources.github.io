@@ -22,8 +22,10 @@ lyrics:
       name: original lyrics (from YouTube Live Video subtitles)
       active: true
       fixed: true
-    - id: ro
-      name: rōmaji
+      notranslation: true
+    # - id: ro
+    #   name: rōmaji
+    #   notranslation: true
     # - id: ww
     #   name: word by word translation (using jisho.org)
     #   baseurl: https://jisho.org/search/

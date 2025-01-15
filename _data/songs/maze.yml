@@ -29,6 +29,7 @@ lyrics:
       name: original lyrics (from YouTube Official Music Video subtitles)
       active: true
       fixed: true
+      notranslation: true
     # - id: ro
     #   name: rōmaji
     - id: en

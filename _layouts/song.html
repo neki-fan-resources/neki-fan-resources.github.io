@@ -72,7 +72,7 @@ page-title-sub: "Song - "
   <table>
     {% for language in song_data.lyrics.languages %}
       {%- if line[language.id] -%}
-    <tr class="lyrics_line lyrics_{{ language.id }}{% if language.active != true %} lyrics_hidden{% endif %}">
+    <tr {% if language.notranslation %} translate="no"{% endif %}class="lyrics_line lyrics_{{ language.id }}{% if language.active != true %} lyrics_hidden{% endif %}">
         {%- if line[language.id][0] -%}
           {% for word in line[language.id] %}
             {% if language.baseurl %}

@@ -23,8 +23,10 @@ lyrics:
       name: original lyrics (from YouTube Official Music Video subtitles)
       active: true
       fixed: true
+      notranslation: true
     # - id: ro
     #   name: romaji
+    #   notranslation: true
     - id: en
       name: english translation (from YouTube Official Music Video subtitles)
       active: true

@@ -18,8 +18,10 @@ lyrics:
       name: original lyrics (from EXCLAMAT!ON EP booklet)
       active: true
       fixed: true
+      notranslation: true
     - id: ro
       name: rōmaji
+      notranslation: true
     - id: ww
       name: word by word translation (using jisho.org)
       baseurl: https://jisho.org/search/

@@ -16,4 +16,5 @@ lyrics:
       name: original lyrics
       active: true
       fixed: true
+      notranslation: true
   sections:

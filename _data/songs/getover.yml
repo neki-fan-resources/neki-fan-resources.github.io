@@ -10,9 +10,65 @@ assets:
     - id: kanadept
       youtube: 7Neu9jJk-04
       name: Kanade Bass play-through
+    - youtubeshort: qFiKgQ5mNgQ
+      name: Live Short
+      label: 2ND ONE MAN LIVE
+      live: true
+    - youtubeshort: gVUFjTcD3B4
+      name: Live Short
+      label: Free show - Shibuya Chelsee Hotel
+      live: true
+    - youtubeshort: bBhvxwNWh3A
+      name: Live Short
+      label: Free show - Shibuya Chelsee Hotel
+      live: true
+    - youtubeshort: nDKETw7zIX4
+      name: MV Short
+      label: Cocoro focus
+    - youtubeshort: yzKuHzF-YNk
+      name: MV Short
+      label: Hika focus
+    - youtubeshort: 2hdeizLF6LI
+      name: MV Short
+      label: Kanade focus
+    - youtubeshort: R5GI-cuX2xM
+      name: MV Short
+      label: Natsu focus
+    - youtubeshort: yPb_nnAC_io
+      name: MV Short
+      label: Hika focus - with lyrics
+    - youtubeshort: RMbkWV9zpog
+      name: MV Short
+      label: Cocoro focus - with lyrics
+    - youtubeshort: nh6S9mF-9Co
+      name: MV Short
+      label: Natsu focus - with lyrics
+    - youtubeshort: z2KKJtwO2Ig
+      name: MV Short
+      label: Kanade focus - with lyrics
     - id: teaser
       youtube: maFSgVE2vXg
       name: Official Teaser
+      additional: true
+    - youtubeshort: PkRKMkZCiIE
+      name: Short
+      label: Girl's UP!!! vol.351 - studio audio
+      additional: true
+    - youtubeshort: tQNJQF37lHM
+      name: MV Short
+      label: With lyrics
+      additional: true
+    - youtubeshort: bJG9HXd0aUI
+      name: Short
+      label: Studio audio - In rehearsal room
+      additional: true
+    - youtubeshort: mlR0Jeyhw8Y
+      name: Short
+      label: Studio audio - In rehearsal room
+      additional: true
+    - youtubeshort: TF3IDIX41Q0
+      name: Short
+      label: Studio audio
       additional: true
 
 credits:

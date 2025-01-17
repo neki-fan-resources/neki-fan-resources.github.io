@@ -5,10 +5,13 @@
     target="_blank">
     <div class="song_media_image">
       <img class="song_media_image_over"
-        src="/assets/images/youtube-logo.png"/>
+        src="/assets/images/youtube-logo.svg"/>
       <img
         class="song_media_image_under"
         src="https://i.ytimg.com/vi/{{ include.media.youtube }}/mqdefault.jpg"/>
     </div>
   </a>
+  {% if include.media.label %}
+  <h5 class="song_media_label">{{ include.media.label }}</h5>
+  {% endif %}
 </div>

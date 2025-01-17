@@ -5,12 +5,16 @@ released: false
 assets:
   cover-image: tricktaking-picover.png
   media:
+    - youtubeshort: jZ2Dn5P3Fac
+      name: Live Short
+      label: 2ND ONE MAN LIVE
+      live: true
 
 
 lyrics:
   status:
     code: na
-    description: song not released.
+    description: song not released. partial lyrics from short.
   languages:
     - id: ol
       name: original lyrics
@@ -18,3 +22,13 @@ lyrics:
       fixed: true
       notranslation: true
   sections:
+  - lines:
+    - ol: [...]
+    - ol: Yeah
+    - ol: 超えて行くんだ縦横無尽チューニングは出来てる
+    - ol: Hey
+    - ol: 世界を揺らす
+    - ol: 掻き鳴らすのゲームマスター
+    - ol: ドープで既視感のないリアル
+    - ol: 抜けられぬ世界ウェルカム
+    - ol: [...]

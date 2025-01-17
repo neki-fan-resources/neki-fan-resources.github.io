@@ -392,12 +392,20 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   display: inline-block;
   position: relative;
   margin-right: 0.5rem;
+  vertical-align: top;
 }
 
-.song_media_title {
+.song_media_title,
+.song_media_label {
   margin-top: 0;
   margin-bottom: 0.2rem;
   padding-left: 0.2rem;
+}
+
+.song_media_label {
+  font-size: xx-small;
+  width: 0;
+  min-width: 100%;
 }
 
 .song_media_image {
@@ -409,11 +417,17 @@ nav > .menu_item_not_band ~ .menu_item_not_band{
   height: 180px;
 }
 
+.song_media_short_image_under {
+  object-fit: cover;
+  height: 180px;
+  width: 100px;
+}
+
 .song_media_image_over {
   position: absolute;
   left: 50%;
   top: 50%;
-  height: 33%;
+  height: 15%;
   transform: translate(-50%, -50%);
 }
 

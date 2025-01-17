@@ -1,14 +1,14 @@
 <div class="song_media">
   <h4 class="song_media_title">{{ include.media.name }}</h4>
   <a
-    href="{{ include.media.zaiko }}"
+    href="https://www.youtube.com/shorts/{{ include.media.youtubeshort }}"
     target="_blank">
     <div class="song_media_image">
       <img class="song_media_image_over"
-        src="/assets/images/zaiko-logo.ico"/>
+        src="/assets/images/youtube-logo.svg"/>
       <img
-        class="song_media_image_under"
-        src="{{ include.media.image }}"/>
+        class="song_media_short_image_under"
+        src="https://i.ytimg.com/vi/{{ include.media.youtubeshort }}/mqdefault.jpg"/>
     </div>
   </a>
   {% if include.media.label %}

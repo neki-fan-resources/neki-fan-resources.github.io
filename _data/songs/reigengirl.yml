@@ -8,9 +8,37 @@ assets:
     - id: musicvideo
       youtube: rq0dca9mFfI
       name: Official Music Video
+    - youtubeshort: MpR-vcWQAuQ
+      name: Live Short
+      label: 2ND ONE MAN LIVE
+      live: true
+    - youtubeshort: 6W-P3YBkybQ
+      name: Live Short 
+      label: Girl's UP!!! vol.350
+      live: true
+    - youtubeshort: Dysq97Q0OVA
+      name: MV Short
+      label: Kanade focus - with lyrics
+    - youtubeshort: 01U3dQi-hkw
+      name: MV Short
+      label: Natsu focus - with lyrics
+    - youtubeshort: 58AHgFVIMos
+      name: MV Short
+      label: Hika focus - with lyrics
+    - youtubeshort: BtsWAi6cXws
+      name: MV Short
+      label: Cocoro focus - with lyrics
     - id: teaser
       youtube: pCqu9xyfFzE
       name: Official Teaser
+      additional: true
+    - youtubeshort: 20oChc0jOIA
+      name: MV Short
+      label: The girl had a dream
+      additional: true
+    - youtubeshort: yq6g2gUuoCI
+      name: MV Short
+      label: In the sunset
       additional: true
 
 credits:

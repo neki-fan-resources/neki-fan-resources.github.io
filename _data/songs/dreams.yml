@@ -6,7 +6,32 @@ assets:
   media:
     - youtube: _Oac92XPkyo
       name: Official Live Video
+      label: 2ND ONE MAN LIVE
       live: true
+    - youtubeshort: ayi326KTswk
+      name: Teaser Short
+      label: 2ND ONE MAN LIVE
+      # commented out so it doesn't appear in Live page
+      # live: true
+      additional: true
+    - youtubeshort: 4NVfpFzmfMQ
+      name: Live Short
+      label: 2ND ONE MAN LIVE
+      # commented out so it doesn't appear in Live page
+      # live: true
+      additional: true
+    - youtubeshort: HfIoK8Qdv5I
+      name: Live Short
+      label: 2ND ONE MAN LIVE
+      # commented out so it doesn't appear in Live page
+      # live: true
+      additional: true
+    - youtubeshort: AIM5rdixj4E
+      name: Live Short
+      label: 2ND ONE MAN LIVE
+      # commented out so it doesn't appear in Live page
+      # live: true
+      additional: true
 
 credits:
   lyricist: NEK!, Tiger Yusuke Kawaguchi

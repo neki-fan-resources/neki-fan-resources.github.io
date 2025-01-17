@@ -6,17 +6,23 @@ layout: default
   <div class="side_nav_div">
     <h3>Songs</h3>
     <table>
-      {% assign songs_by_release_date = site.songs | where: "haslive", true | sort: "order" %}
-      {% for song in songs_by_release_date %}
+{% assign songs_by_release_date = site.songs | sort: "order" %}
+{% for song in songs_by_release_date %}
+  {% assign medias = site.data.songs[song.uid].assets.media | where_exp: "m", "m.live" %}
+  {% if medias.first %}
       <tr><td><a href="{{ song.url }}">{{ site.data.songs[song.uid].fullname }}</a></td></tr>
-      {% endfor %}
+  {% endif %}
+{% endfor %}
     </table>
     <h3>Concerts</h3>
     <table>
-      {% assign concerts_by_release_date = site.concerts | where: "haslive", true | sort: "order" %}
-      {% for concert in concerts_by_release_date %}
+{% assign concerts_by_release_date = site.concerts | sort: "order" %}
+{% for concert in concerts_by_release_date %}
+  {% assign medias = site.data.concerts[concert.uid].assets.media | where_exp: "m", "m.live" | where_exp: "m", "m.youtubeshort == nil" %}
+  {% if medias.first %}
       <tr><td><a href="{{ concert.url }}">{{ site.data.concerts[concert.uid].fullname }}</a></td></tr>
-      {% endfor %}
+  {% endif %}
+{% endfor %}
     </table>
   </div>
   <div class="main_div">

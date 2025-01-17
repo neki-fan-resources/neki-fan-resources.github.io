@@ -6,6 +6,34 @@ assets:
   media:
     - youtube: uhy1HnFXTH8
       name: Official Music Video
+    - youtubeshort: xy8VknaZ0QQ
+      name: Live Short
+      label: 2ND ONE MAN LIVE
+      live: true
+    - youtubeshort: X-45zTnjrcM
+      name: MV Short
+      label: Hika focus
+    - youtubeshort: kh3KFur99mo
+      name: MV Short
+      label: Kanade focus
+    - youtubeshort: pInXexYRjJc
+      name: MV Short
+      label: Cocoro focus
+    - youtubeshort: UMbFFhE5m74
+      name: MV Short
+      label: Natsu focus
+    - youtubeshort: uDKulvTRNjk
+      name: MV Short
+      label: Kanade focus
+    - youtubeshort: HS_wfsMj-2Y
+      name: MV Short
+      label: Cocoro focus
+    - youtubeshort: dhMQMl7ogYs
+      name: MV Short
+      label: Natsu focus
+    - youtubeshort: wiu7XwluMX4
+      name: MV Short
+      label: Hika focus
     - youtube: prWu9_Q5a5Y
       name: Official Teaser
       additional: true

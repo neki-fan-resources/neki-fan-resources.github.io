@@ -10,9 +10,33 @@ assets:
     - id: kanadept
       youtube: hXGPxYalJfk
       name: Kanade Bass play-through
+    - youtubeshort: XzfOs6kjtUs
+      name: Live Short
+      label: 1ST ONE MAN LIVE
+      live: true
+    - youtubeshort: qR2yF3Jb4r4
+      name: Live Short
+      label: Free show - Shibuya Chelsee Hotel
+      live: true
+    - youtubeshort: fZaCODUXQ6k
+      name: MV Short
+      label: Hika focus
+    - youtubeshort: YyVP2j7Yw3c
+      name: MV Short
+      label: Cocoro focus
+    - youtubeshort: -WsoxfXBQgs
+      name: MV Short
+      label: Natsu focus
+    - youtubeshort: AhqVr3xl4dE
+      name: MV Short
+      label: Kanade focus
     - id: teaser
       youtube: AqVoa-PMl8I
       name: Official Teaser
+      additional: true
+    - youtubeshort: CoLNU-KhFRQ
+      name: Short
+      label: Studio audio
       additional: true
 
 credits:

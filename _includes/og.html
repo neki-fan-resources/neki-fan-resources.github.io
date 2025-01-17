@@ -5,8 +5,8 @@
     {% else %}
       {% assign item_designation = site.data.collections[page.collection].item_designation %}
     {% endif %}
-    {% capture title %}{{ data.fullname }}{% if data.sublabel %} - {{ data.sublabel }}{% endif %} - {{ item_designation }} - N!fr{% endcapture %}
-    {% capture description %}Nek! - {{ data.fullname }}{% if data.sublabel %} - {{ data.sublabel }}{% endif %} - {{ site.data.collections[page.collection].item_designation }}. Nek! (pronounced Neki) fan website. Provides resources around the band Nek!.{% endcapture %}
+    {% capture title %}{{ data.fullname }}{% if data.sublabel %} - {{ data.sublabel }}{% endif %} - Nek! {{ item_designation }} - N!fr{% endcapture %}
+    {% capture description %}{{ data.fullname }}{% if data.sublabel %} - {{ data.sublabel }}{% endif %} - Nek! {{ site.data.collections[page.collection].item_designation }}. Nek! (Neki) fan website. Provides resources around the band Nek!. Lyrics, videos, live, concerts, history.{% endcapture %}
     <title>{{ title }}</title>
     <meta name="description" content='{{ description }}'>
     <meta property="og:title" content='{{ title }}' />
@@ -14,7 +14,7 @@
     <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.collection }}/{{ page.uid }}/{{ data.assets.cover-image }}" />
 {% else %}
     {% capture title %}{{ page.title }} - N!fr{% endcapture %}
-    {% capture description %}Nek! - {{ page.title }}. Nek! (pronounced Neki) fan website. Provides resources around the band Nek!.{% endcapture %}
+    {% capture description %}Nek! - {{ page.title }}. Nek! (pronounced Neki) fan website. Provides resources around the band Nek!. Lyrics, videos, live, concerts, history.{% endcapture %}
     <title>{{ title }}</title>
     <meta name="description" content='{{ description }}'>
     <meta property="og:title" content='{{ title }}' />

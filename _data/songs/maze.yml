@@ -10,9 +10,15 @@ assets:
     - id: livevideo
       youtube: aylfQ09sa4I
       name: Official Live Video
+      label: 2ND ONE MAN LIVE
+      live: true
     - id: kanadept
       youtube: hXGPxYalJfk
       name: Kanade Bass play-through
+    - youtubeshort: WdcokauJMtU
+      name: Live Short
+      label: 2ND ONE MAN LIVE
+      live: true
     - youtubeshort: XzfOs6kjtUs
       name: Live Short
       label: 1ST ONE MAN LIVE

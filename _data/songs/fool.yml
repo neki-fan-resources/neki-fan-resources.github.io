@@ -4,7 +4,7 @@ released: false
 
 assets:
   cover-image: tricktaking-picover.png
-  media:
+  media:  
     - youtubeshort: jZ2Dn5P3Fac
       name: Live Short
       label: 2ND ONE MAN LIVE
@@ -17,7 +17,7 @@ lyrics:
     description: song not released. partial lyrics from short.
   languages:
     - id: ol
-      name: original lyrics
+      name: original lyrics, from the Youtube Short
       active: true
       fixed: true
       notranslation: true

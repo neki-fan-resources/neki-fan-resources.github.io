@@ -1,5 +1,5 @@
 <nav>
-  <a href="/"><h1>Nek! <span>Fan Resources</span></h1></a>
+  <a href="/"><h1>NEK! <span>Fan Resources</span></h1></a>
   {% assign prefix = page.url | slice: 0, 6 %}
   {% for item in site.data.navigation %}
     {% assign current = item.match | where: "path", prefix  %}

@@ -5,6 +5,8 @@ collections:
     output: true
   concerts:
     output: true
+  nisongs:
+    output: true
 
 exclude: ["README.md", "**/README.md"]
 include: [.well-known]
@@ -13,6 +15,11 @@ defaults:
   - scope:
       path: ""
       type: "songs"
+    values:
+      layout: "song"
+  - scope:
+      path: ""
+      type: "nisongs"
     values:
       layout: "song"
   - scope:

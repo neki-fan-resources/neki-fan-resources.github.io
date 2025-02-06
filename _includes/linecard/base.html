@@ -1,8 +1,8 @@
-{% if include.data.released == false %}
-{% assign not-released-class = " not-released" %}
-{% else %}
-{% assign not-released-class = nil %}
-{% endif %}
+{%- if include.data.released == false %}
+{%- assign not-released-class = " not-released" %}
+{%- else %}
+{%- assign not-released-class = nil %}
+{%- endif %}
 <a class="line-card" href="{{ include.url }}">  
   <div class="line-card-designation">{{ include.designation }}</div>
   <img class="line-card-cover" src="{{ include.cover-image }}">

@@ -7,7 +7,7 @@
 {%- assign label=g_show.fullname %}
 {%- endif %}
 {%- if include.short %}
-{%- include timeline/svg/marker/left-short.svg
+{% include timeline/svg/marker/left-short.svg
   uid=uid
   day=day
   label=label
@@ -18,7 +18,7 @@
 {%- capture image -%}
   {% include coverimage/base.html data=g_show %}
 {%- endcapture %}
-{%- include timeline/svg/marker/left.svg
+{% include timeline/svg/marker/left.svg
   uid=uid
   day=day
   designation="show"

@@ -19,7 +19,7 @@
 {% endif -%}
 {% endcapture -%}
 
-{% assign parent=site.data.album[include.data.album] %}
+{%- assign parent=site.data.album[include.data.album] %}
 
 {%- include itemdetails/base.html
   cover-image=cover-image

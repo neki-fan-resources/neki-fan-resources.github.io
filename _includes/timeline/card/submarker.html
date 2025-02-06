@@ -2,8 +2,8 @@
 {%- capture inforows %}
 {% include inforow/base.html
   label="date"
-  value=include.marker.date -%}
-{% endcapture %}
+  value=include.marker.date %}
+{%- endcapture %}
 {%- include timeline/card/base.html
   designation="event"
   label=include.marker.label

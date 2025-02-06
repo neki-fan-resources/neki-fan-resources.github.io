@@ -1,0 +1,47 @@
+@import "colors.scss";
+
+// layout
+
+.line-card {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'cover designation' 'cover label';
+  color: black;
+}
+
+.line-card-designation {
+  grid-area: designation;
+}
+
+.line-card-cover {
+  grid-area: cover;
+  height: 2rem;
+  border: solid 0.5px $not_black;
+  margin-right: 0.2rem;
+}
+
+.line-card-label {
+  grid-area: label;
+}
+
+.line-card-list .line-card {
+  margin: 1rem 0 1rem 1rem;
+}
+
+// style
+
+.line-card-designation {
+  text-transform: uppercase;
+  color: $color_designation;
+  font-weight: 700;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+}
+
+.line-card-label {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+}

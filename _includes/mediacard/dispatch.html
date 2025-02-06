@@ -1,0 +1,7 @@
+{%- if include.media.youtube -%}
+{% include mediacard/subyoutube.html media=include.media from=include.from %}
+{%- elsif include.media.youtubeshort -%}
+{% include mediacard/subyoutubeshort.html media=include.media from=include.from %}
+{%- elsif include.media.zaiko -%}
+{% include mediacard/subzaiko.html media=include.media from=include.from %}
+{%- endif -%}

@@ -1,41 +1,68 @@
 collections:
-  songs:
+  song:
     output: true
-  albums:
+    permalink: /song/:name
+  album:
     output: true
-  concerts:
+    permalink: /album/:name
+  show:
     output: true
-  nisongs:
-    output: true
+    premalink: /show:name
 
-exclude: ["README.md", "**/README.md"]
+# previous location of files, not the canonical ones since February 2025
+
+  old_songs:
+    output: true
+    permalink: /songs/:name
+  old_concerts:
+    output: true
+    permalink: /concerts/:name
+  old_albums:
+    output: true
+    permalink: /albums/:name
+
+exclude: ["README.md", "**/README.md", "tmp/", "assets/", "Gemfile*", "NOT_REFERENCED.md", "TODO", "**/NP_*"]
 include: [.well-known]
 
 defaults:
   - scope:
       path: ""
-      type: "songs"
+      type: "song"
     values:
       layout: "song"
   - scope:
       path: ""
-      type: "nisongs"
-    values:
-      layout: "song"
-  - scope:
-      path: ""
-      type: "albums"
+      type: "album"
     values:
       layout: "album"
   - scope:
       path: ""
-      type: "concerts"
+      type: "show"
     values:
-      layout: "concert"
+      layout: "show"
   - scope:
       path: ""
     values:
       layout: "default"
+
+# previous location of files, not the canonical ones since February 2025
+  - scope:
+      path: ""
+      type: "old_songs"
+    values:
+      layout: "song"
+  - scope:
+      path: ""
+      type: "old_concerts"
+    values:
+      layout: "show"
+  - scope:
+      path: ""
+      type: "old_albums"
+    values:
+      layout: "album"
+
+
 
 domain: neki-fan-resources.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: "https://neki-fan-resources.github.io"  # the base hostname and protocol for your site, e.g. http://example.com

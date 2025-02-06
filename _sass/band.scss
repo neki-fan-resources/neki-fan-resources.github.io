@@ -1,0 +1,180 @@
+@import "colors.scss";
+
+// layout
+
+#band-name-logo {
+  width: 20rem;
+  height: 10rem;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 0 auto;
+  box-shadow: 0px 0px 2rem 2rem white
+}
+
+.band-name-subname {
+  margin: 0 auto 0 auto;
+  width: fit-content;
+}
+
+#band-overview {
+  width: 100%;
+  max-width: 1500px;
+  aspect-ratio: 1500/802;
+  background-image: url("/asset/image/band/band-getover-01.png");
+  background-size: contain;
+  container-type: size;
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-template-rows: 1fr auto;
+  grid-template-areas: 'kanade-info hika-info cocoro-info natsu-info' 'kanade-summary hika-summary cocoro-summary natsu-summary';
+}
+
+#band-overview a {
+  display: block;
+  text-align: center;
+  margin: 0.2cqw 0 0.2cqw 0;
+}
+
+#band-kanade-info {
+  grid-area: kanade-info;
+  background-color: $color_kanade_50;
+}
+
+#band-hika-info {
+  grid-area: hika-info;
+  background-color: $color_hika_50;
+}
+
+#band-cocoro-info {
+  grid-area: cocoro-info;
+  background-color: $color_cocoro_50;
+}
+
+#band-natsu-info {
+  grid-area: natsu-info;
+  background-color: $color_natsu_50;
+}
+
+.band-info {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.band-socials {
+  margin: auto 0 auto 0;
+}
+
+.band-info-hidden {
+  display: none;
+}
+
+#band-kanade-summary {
+  grid-area: kanade-summary;
+}
+
+.band-kanade-summary-background {
+  background-color: $color_kanade_50;
+}
+
+#band-hika-summary {
+  grid-area: hika-summary;
+}
+
+.band-hika-summary-background {
+  background-color: $color_hika_50;
+}
+
+#band-cocoro-summary {
+  grid-area: cocoro-summary;
+}
+
+.band-cocoro-summary-background {
+  background-color: $color_cocoro_50;
+}
+
+#band-natsu-summary {
+  grid-area: natsu-summary;
+}
+
+.band-natsu-summary-background {
+  background-color: $color_natsu_50;
+}
+
+.band-summary {
+  cursor: pointer;
+  padding: 2cqw 0 2cqw 0;
+}
+
+.band-summary-name {
+  text-align: center;
+}
+
+.band-summary-role {
+  text-align: center;
+}
+
+#band-socials {
+  margin: 0.5rem auto 0 auto;
+  width: fit-content;
+}
+
+// style
+
+.band-name-subname {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  padding: 0.3rem 0 0.5rem 0;
+}
+
+#band-overview a{
+  color: black;
+  font-size: 2cqw;
+  line-height: 2cqw;
+  font-weight: 500;
+}
+
+.band-summary {
+  text-shadow: 0.1cqw 0.1cqw white, -0.1cqw -0.1cqw white;
+}
+
+.band-summary-name {
+  font-size: 4cqw;
+  line-height: 4cqw;
+  font-weight: 700;
+}
+
+.band-summary-role {
+  font-size: 2cqw;
+  line-height: 2cqw;
+  font-weight: 600;
+}
+
+.band-kanade-summary-background {
+  text-shadow: initial;
+}
+
+.band-hika-summary-background {
+  text-shadow: initial;
+}
+
+.band-cocoro-summary-background {
+  text-shadow: initial;
+}
+
+.band-natsu-summary-background {
+  text-shadow: initial;
+}
+
+#band-socials a {
+  color: black;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  font-weight: 500;
+  margin: 0 1rem;
+}

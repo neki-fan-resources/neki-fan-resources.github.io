@@ -1,0 +1,23 @@
+collection: album
+uid: tricktaking
+
+fullname: TR!CK TAK!NG
+altname: TRICK TAKING
+designation: EP
+
+release-date: 2025-03-05
+released: false
+
+assets:
+  cover-image:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+
+songs:
+  - zerosum
+  - fool
+  - loner
+  - moon
+  - dreams

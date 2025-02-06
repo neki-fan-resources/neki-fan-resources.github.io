@@ -1,0 +1,26 @@
+collection: show
+year: 2024
+id: guvol350
+uid: 2024_guvol350
+
+fullname: Girl's UP!!! vol.350
+date: 2024-04-09
+location: Shibuya eggman, Tokyo
+setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3561daf
+event-page: http://eggman.jp/schedule/girls-up-vol-350/
+shared: true
+
+assets:
+  cover-image:
+    filename: poster-01.png
+    source:
+      description: Event page
+      url: http://eggman.jp/schedule/girls-up-vol-350/
+
+media:
+  short:
+  - show:
+      year: 2024
+      id: guvol350
+    youtubeshort: reigengirl-01
+

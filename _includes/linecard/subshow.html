@@ -1,0 +1,11 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+{%- assign url = "/show/" | append: include.data.year | append: "/" | append: include.data.id | append: ".html" %}
+{% include linecard/base.html
+  designation="show"
+  label=include.data.fullname
+  cover-image=cover-image
+  url=url
+  data=include.data
+%}

@@ -1,0 +1,9 @@
+{%- assign timeline = site.data.timeline %}
+{%- assign start-day = timeline.startDate | date: "%s" | divided_by: 43200 %}
+{%- assign end-day = timeline.endDate | date: "%s" | divided_by: 43200 | minus: start-day -%}
+<svg class="timeline-line" viewbox="-175 -10 350 {{ end-day | plus: 25 }}">
+{% include timeline/svg/style.svg %}
+  <line stroke="black" x1="0" y1="0" x2="0" y2="{{ end-day }}"/>
+{%- include timeline/svg/timemarker/list.svg timemarkers=timeline.timemarker start-day=start-day %}
+{%- include timeline/svg/marker/list.svg markers=timeline.marker start-day=start-day %}
+</svg>

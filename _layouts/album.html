@@ -1,44 +1,22 @@
 ---
-layout: songs
-page-title-sub: "Album - "
+layout: default
+opengraph: album
 ---
-{% assign album_data = site.data.albums[page.uid] %}
-
-<div class="top_designation">{{ album_data.designation }}</div>
-
-<div class="album_title song_block">
-{% if album_data.assets.cover-image %}
-  <img class="album_cover" src="/assets/images/albums/{{ page.uid }}/{{ album_data.assets.cover-image }}"/>
-{% endif %}
-  <div class="album_info">
-    <h1>{{ album_data.fullname }}</h1>
-{%- if album_data.fullname_en -%}
-    <h2>{{ album_data.fullname_en }}</h2>
-{% endif -%}
-    <table>
-      <tr>
-        <td class="album_info_label">{% if album_data.released == false %}expected{% else %}released{% endif %}::</td>
-        <td class="album_info_data">{{ album_data.releaseDate }}</td>
-      </tr>
-    </table>
-  </div>
+{%- assign data = site.data.album[page.uid] -%}
+{%- capture main -%}
+{%- include itemdetails/dispatch.html data=data -%}
+<h2>Songs</h2>
+<div class="small-card-list">
+{%- for songuid in data.songs %}
+{%- assign song = site.data.song[songuid]%}
+{%- include smallcard/dispatch.html
+  data=song
+%}
+{%- endfor %}
 </div>
-
-<div class="album_songs_block song_block">
-<h2 class="album_songs_block_title song_block_title">Songs</h2>
-
-{% for song in album_data.songs %}
-{% include song-short.html uid=song %}
-{% endfor %}
-</div>
-
-{% assign addmedia = album_data.assets.media | where: "additional", "true" %}
-{% if addmedia[0] %}
-<div class="album_addmedia_block song_block">
-  <h2 class="album_addmedia_block_title song_block_title">Additional Media</h2>
-  
-  {% for media in addmedia %}
-  {% include media.html media=media %}
-  {% endfor %}
-</div>
-{% endif %}
+{%- if data.media.additional %}
+<h2>Additional media</h2>
+{% include mediacard/list.html medias=data.media.additional %}
+{%- endif %}
+{%- endcapture -%}
+{%- include main/base.html content=main designation=data.designation -%}

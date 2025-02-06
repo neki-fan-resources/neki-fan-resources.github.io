@@ -1,0 +1,16 @@
+{%- assign album = site.data.album[include.album-uid] %}
+{%- capture uid -%}
+  album-{{ album.uid }}
+{%- endcapture %}
+{%- capture image -%}
+  {% include coverimage/base.html data=album %}
+{%- endcapture %}
+{%- assign day = album.release-date | date: "%s" | divided_by: 43200 | minus: include.start-day %}
+{% include timeline/svg/marker/right.svg 
+  uid=uid
+  day=day
+  designation=album.designation
+  label=album.fullname 
+  sublabel="Release"
+  image=image
+  shift=include.shift %}

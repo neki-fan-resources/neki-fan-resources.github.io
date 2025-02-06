@@ -1,0 +1,7 @@
+{%- if include.data.credits.source %}
+{% include sources/entry.html 
+  label="Credits"
+  description = include.data.credits.source.description
+  url = include.data.credits.source.url
+%}
+{%- endif %}

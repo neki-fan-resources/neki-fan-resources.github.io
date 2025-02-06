@@ -1,0 +1,16 @@
+{%- assign album = site.data.album[include.album-uid] %}
+{%- assign uid = "album-" | append: album.uid%}
+{%- capture cover-image %}
+{%- include coverimage/base.html data=album %}
+{%- endcapture %}
+{%- capture inforows %}
+{% include inforow/releasedate.html
+  data=album -%}
+{%- endcapture %}
+{%- include timeline/card/base.html
+  data=song
+  designation=album.designation
+  label=album.fullname
+  cover-image=cover-image
+  inforows=inforows
+  uid=uid %}

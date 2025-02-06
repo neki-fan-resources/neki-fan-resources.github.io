@@ -1,0 +1,13 @@
+    <main>
+{%- if include.absolute %}
+{{ include.absolute }}
+{%- endif %}
+    <div class="main-scroll">
+      <div class="main-background">
+        <div class="main-content">
+          {%- include main/designation.html label=include.designation -%}
+          {{ include.content }}
+        </div>
+      </div>
+    </div>
+    </main>

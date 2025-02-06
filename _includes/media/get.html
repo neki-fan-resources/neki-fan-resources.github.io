@@ -1,0 +1,28 @@
+
+{%- if include.ref.youtube %}
+  {%- assign type = "youtube" %}
+  {%- assign id = include.ref.youtube %}
+{%- elsif include.ref.youtubeshort %}
+  {%- assign type = "youtubeshort" %}
+  {%- assign id = include.ref.youtubeshort %}
+{%- elsif include.ref.zaiko %}
+  {%- assign type = "zaiko" %}
+  {%- assign id = include.ref.zaiko %}
+{%- else %}
+  {%- assign type = nil %}
+{%- endif %}
+{%- if include.ref.show %}
+  {%- assign year = "" | append: include.ref.show.year -%}
+  {%- assign g_media = site.data.media.show[year][include.ref.show.id][type][id] -%}
+{%- else %}
+  {%- if include.ref.song %}
+    {%- assign collection = "song" %}
+    {%- assign item = include.ref.song %}
+  {%- elsif include.ref.album %}
+    {%- assign collection = "album" %}
+    {%- assign item = include.ref.album %}
+  {%- else %}
+    {%- assign collection = nil %}
+  {%- endif %}
+  {%- assign g_media = site.data.media[collection][item][type][id] -%}
+{%- endif %}

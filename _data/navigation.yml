@@ -1,28 +1,28 @@
+main:
 - name: Band
   link: /
   match:
-    - path: "/"
+  - "/"
 - name: Music
-  link: /music/
+  link: /music.html
   match:
-    - path: /music
-    - path: /songs
-    - path: /album
+  - /music
+  - /song/
+  - /album
 - name: Live
   link: /live.html
   match:
-    - path: /live.
+  - /live.
 - name: Chronology
   link: /chronology.html
   match:
-    - path: /chron
+  - /chron
+support:
 - name: Sources
   link: /sources.html
-  notband: true
   match:
-    - path: /sourc
+  - /sourc
 - name: About
-  notband: true
   link: /about.html
   match:
-    - path: /about
+  - /about

@@ -1,0 +1,7 @@
+{%- if include.data.assets.cover-image.source %}
+{% include sources/entry.html 
+  label="Cover image"
+  description = include.data.assets.cover-image.source.description
+  url = include.data.assets.cover-image.source.url
+%}
+{%- endif %}

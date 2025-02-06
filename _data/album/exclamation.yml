@@ -1,0 +1,27 @@
+collection: album
+uid: exclamation
+
+fullname: EXCLAMAT!ON
+altname: EXCLAMATION
+designation: EP
+
+release-date: 2024-07-24
+
+assets:
+  cover-image:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+
+songs:
+  - maze
+  - reigengirl
+  - endlessgame
+  - blink
+  - getover
+
+media:
+  additional:
+  - album: exclamation
+    youtube: teaser-01

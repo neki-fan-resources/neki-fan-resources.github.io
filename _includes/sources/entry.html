@@ -1,0 +1,10 @@
+            <tr>
+              <td></td>
+              <td class="sources-entry-label">{{ include.label }}</td>
+              <td class="sources-entry-separator"> - </td>
+{%- if include.url %}
+              <td class="sources-entry-value"><a href="{{ include.url }}" target="_blank">{{ include.description }}</a></td>
+{%- else %}
+              <td class="sources-entry-value">{{ include.description }}</td>
+{%- endif %}
+            </tr>

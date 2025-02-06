@@ -1,0 +1,21 @@
+---
+layout: default
+title: Music Nek!
+---
+{%- capture main -%}
+<div class="small-card-list">
+{%- for item in site.data.music %}
+{% if item.album %}
+{% assign album = site.data.album[item.album] %}
+<h2>{% include smallcard/dispatch.html data=album %}</h2>
+<div class="line-card-list">
+{% for songuid in album.songs %}
+{% assign song = site.data.song[songuid] %}
+{% include linecard/dispatch.html data=song %}
+{% endfor %}
+</div>
+{% endif %}
+{%- endfor -%}
+</div>
+{%- endcapture -%}
+{%- include main/base.html content=main designation="music" -%}

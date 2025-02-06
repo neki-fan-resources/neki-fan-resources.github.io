@@ -1,0 +1,19 @@
+{%- assign song = site.data.song[include.song-uid] %}
+{%- assign uid = "song-" | append: song.uid%}
+{%- include media/get.html ref=include.media-ref %}
+{%- capture cover-image %}
+{%- include coverimage/base.html data=song %}
+{%- endcapture %}
+{%- capture inforows %}
+{% include inforow/releasedate.html
+  data=song -%}
+{%- endcapture %}
+{%- include timeline/card/base.html
+  data=song
+  designation="song"
+  label=song.fullname
+  sublabel=song.fullname-en
+  cover-image=cover-image
+  media=g_media
+  inforows=inforows
+  uid=uid %}

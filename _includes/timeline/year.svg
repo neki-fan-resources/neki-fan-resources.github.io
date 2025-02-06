@@ -1,1 +1,0 @@
-<text class="year" x="4" y="{{ include.day }}" text-anchor="start" alignment-baseline="middle">{{ include.year }}</text>

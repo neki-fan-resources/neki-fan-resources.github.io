@@ -1,0 +1,51 @@
+@import "colors";
+
+// layout
+
+nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-item {
+  align-self: flex-end;
+  margin-left: 1rem;
+}
+
+#nifr-name-logo {
+  margin-right: 2rem;
+  margin-bottom: -0.2rem;
+}
+
+nav :nth-child(1 of .nav-item-support) {
+  margin-left: auto;
+}
+
+// style
+
+nav {
+  background-color: $color_natsu;
+  background: linear-gradient(120deg, $color_kanade_cocoro_light 0%, $color_kanade_light 5%, $color_kanade_light 20%, $color_hika_light 30%, $color_hika_light 45%, $color_natsu_light 55%, $color_natsu_light 70%, $color_cocoro_light 80%, $color_cocoro_light 95%, $color_kanade_cocoro_light 100%);
+  padding: 1rem 1rem 1.2rem 1rem;
+  mask-image: linear-gradient(black, black 90%, transparent);
+}
+
+#nifr-name-logo {
+  height: 1.2rem;
+}
+
+.nav-item {
+  color: $not_black;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  font-weight: 600;
+}
+
+.nav-item-support {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.nav-item-current {
+  text-decoration: underline;
+}

@@ -1,0 +1,3 @@
+{%- for marker in include.markers %}
+{%- include timeline/svg/marker/dispatch.svg marker=marker start-day=include.start-day %}
+{%- endfor %}

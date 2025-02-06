@@ -1,0 +1,33 @@
+collection: show
+year: 2024
+id: shibuyachelseahotel
+uid: 2024_shibuyachelseahotel
+
+fullname: NEK! at Shibuya Chelsea Hotel
+date: 2024-03-20
+location: Shibuya Chelsea Hotel
+event-page: https://x.com/nekiband_jp/status/1770261360938746035
+setlistfm: nek/2024/chelsea-hotel-tokyo-japan-13561db5
+
+assets:
+  cover-image:
+    filename: poster-01.png
+    source:
+      description: X post
+      url: https://x.com/nekiband_jp/status/1770261360938746035
+
+media:
+  video:
+  - show:
+      year: 2024
+      id: shibuyachelseahotel
+    youtubeshort: maze-01
+  - show:
+      year: 2024
+      id: shibuyachelseahotel
+    youtubeshort: getover-02
+  - show:
+      year: 2024
+      id: shibuyachelseahotel
+    youtubeshort: getover-01
+

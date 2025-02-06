@@ -1,54 +1,28 @@
 ---
 layout: default
 title: NEK!
-name: Band
 ---
-
-<div class="outer_div">
-  <div class="side_nav_div">
-  </div>
-  <div class="main_div">
-    <div id="band_name">
-      <img id="band_logo" src="/assets/images/neki_logo.png" alt="NEK!">
-      <h2 id="band_subname">Read as "Neki"</h2>
-    </div>
-    <div id="band_overview">
-      <table>
-        <tr>
-            {% include band-member-summary.html member=site.data.members.kanade %}
-            {% include band-member-summary.html member=site.data.members.hika %}
-            {% include band-member-summary.html member=site.data.members.cocoro %}
-            {% include band-member-summary.html member=site.data.members.natsu %}
-        </tr>
-        <tr>
-          <td class="band_member_details band_member_kanade">
-            {% include band-member-details.html member=site.data.members.kanade %}
-          </td>
-          <td class="band_member_details band_member_hika">
-            {% include band-member-details.html member=site.data.members.hika %}
-          </td>
-          <td class="band_member_details band_member_cocoro">
-            {% include band-member-details.html member=site.data.members.cocoro %}
-          </td>
-          <td class="band_member_details band_member_natsu">
-            {% include band-member-details.html member=site.data.members.natsu %}
-          </td>
-        </tr>
-      </table>
-      <div class="band_details">
-        <table>
-          <tr>
-  {% for social in site.data.band.socialmedia %}
-    {% assign smid = social[0] %}
-    {% assign handle = social[1] %}
-            <td class="socialmedia">
-              {% include socialmedia-link.html smid=smid handle=handle %}</a>
-            </td>
-  {% endfor %}
-           </tr>
-        </table>
-      </div>
-    </div>
-  </div>
+{%- capture main %}
+<div class="band-name-block">
+  <img id="band-name-logo" src="/asset/image/logo/neki-logo.png">
+  <div class="band-name-subname">Read as "Neki"</div>
 </div>
-
+<div id="band-overview">
+{%- include band/member-info.html member=site.data.members.kanade%}
+{%- include band/member-info.html member=site.data.members.hika%}
+{%- include band/member-info.html member=site.data.members.cocoro%}
+{%- include band/member-info.html member=site.data.members.natsu%}
+{%- include band/member-summary.html member=site.data.members.kanade%}
+{%- include band/member-summary.html member=site.data.members.hika%}
+{%- include band/member-summary.html member=site.data.members.cocoro%}
+{%- include band/member-summary.html member=site.data.members.natsu%}
+</div>
+<div id="band-socials">
+{%- for social in site.data.band.social-media %}
+{%- assign smid = social[0] %}
+{%- assign handle = social[1] %}
+{% include main/socialmedia-link.html smid=smid handle=handle %}
+{%- endfor %}
+</div>
+{%- endcapture %}
+{%- include main/base.html content=main designation="band" %}

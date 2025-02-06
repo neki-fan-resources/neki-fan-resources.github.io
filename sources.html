@@ -1,29 +1,25 @@
 ---
 layout: default
 title: Sources
-name: Sources
 ---
-<div class="outer_div">
-  <div class="side_nav_div">
-  </div>
-  <div class="main_div">
-    <div class="center_div">
-      <div class="top_designation">sources</div>
-      <table class="sources_block">
-{% for page in site.data.sources %}
-        <tr>
-          <td class="sources_page" colspan="4">{{ page.name }}</td>
-        </tr>
-  {% include page-elements.html page=page %}
-  {% for subpage in page.pages %}
-        <tr>
-          <td class="sources_subpage_spacer"></td>
-          <td colspan="3" class="sources_subpage">{{ subpage.name }}</td>
-    {% include page-elements.html page=subpage %}
-        </tr>
-  {% endfor %}
-{% endfor %}
-      </table>
-    </div>
-  </div>
-</div>
+{%- include collections/songs.html %}
+{%- include collections/albums.html %}
+{%- include collections/shows.html %}
+{%- capture main %}
+          <table class="sources-block">
+{% include sources/section-label.html label="Band" %}
+{% include sources/section-label.html label="Songs" %}
+{%- for song in g_songs %}
+{% include sources/subsong.html song=song -%}
+{%- endfor %}
+{% include sources/section-label.html label="Albums" %}
+{%- for album in g_albums %}
+{% include sources/subalbum.html album=album %}
+{%- endfor %}
+{% include sources/section-label.html label="Shows" %}
+{%- for show in g_shows %}
+{%- include sources/subshow.html show=show %}
+{%- endfor %}
+          </table>
+{%- endcapture %}
+{%- include main/base.html content=main designation="sources" %}

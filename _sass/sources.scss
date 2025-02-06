@@ -1,0 +1,43 @@
+// layout
+
+.sources-block {
+  margin: 0 auto;
+}
+
+.sources-section-label {
+  padding-left: 0.2rem;
+}
+
+.sources-item-label {
+  padding-left: 0.2rem;
+}
+
+.sources-spacer {
+  width: 0.5rem;
+}
+
+.sources-entry-label {
+  text-align: end;
+  padding-left: 0.7rem;
+}
+
+// style
+
+.sources-section-label {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  border-top: solid 0.1rem black;
+}
+
+.sources-item-label {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  border-top: solid 0.1rem black;
+}
+
+.sources-entry-label,
+.sources-entry-separator,
+.sources-entry-value {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+}

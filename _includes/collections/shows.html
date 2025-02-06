@@ -1,0 +1,8 @@
+{%- assign g_shows = "" | split: ',' %}
+{%- for yearpair in site.data.show %}
+  {%- for showpair in yearpair[1] %}
+    {%- assign s = showpair[1] %}
+    {%- assign g_shows = g_shows | push: s %}
+  {%- endfor %}
+{%- endfor}
+{%- assign g_shows = g_shows | sort: 'date' %}

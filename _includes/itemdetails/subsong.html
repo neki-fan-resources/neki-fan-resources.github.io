@@ -1,0 +1,30 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+
+{%- capture info %}
+{% include inforow/releasedate.html
+  data=include.data -%}
+
+{%- if include.data.credits.lyricist %}
+{% include inforow/base.html
+  label="lyricist"
+  value=include.data.credits.lyricist -%}
+{% endif -%}
+
+{%- if include.data.credits.composer %}
+{% include inforow/base.html
+  label="composer"
+  value=include.data.credits.composer -%}
+{% endif -%}
+{% endcapture -%}
+
+{% assign parent=site.data.album[include.data.album] %}
+
+{%- include itemdetails/base.html
+  cover-image=cover-image
+  label=include.data.fullname
+  sublabel=include.data.fullname-en
+  inforows=info
+  parent=parent
+-%}

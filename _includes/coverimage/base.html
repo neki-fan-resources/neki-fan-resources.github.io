@@ -1,0 +1,11 @@
+{%- if include.data.assets.cover-image.show %}
+{%- include show/get.html ref=include.data.assets.cover-image.show %}
+{%- include coverimage/base.html data=g_show %}
+{%- elsif include.data.assets.cover-image.album %}
+{%- assign album = site.data.album[include.data.assets.cover-image.album] %}
+{%- include coverimage/base.html data=album %}
+{%- elsif include.data.assets.cover-image.filename -%}
+  {%- include coverimage/sub{{ include.data.collection }}.html data=include.data filename=include.data.assets.cover-image.filename %}
+{%- else -%}
+  {%- include coverimage/sub{{ include.data.collection }}.html data=include.data filename=include.data.assets.cover-image %}
+{%- endif -%}

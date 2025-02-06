@@ -1,0 +1,61 @@
+@import "colors.scss";
+
+// layout
+
+.small-card {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas: 'cover designation' 'cover label' 'cover sublabel';
+  color: black;
+}
+
+.small-card-designation {
+  grid-area: designation;
+}
+
+.small-card-cover {
+  grid-area: cover;
+  height: 6rem;
+  border: solid 0.5px $not_black;
+  margin-right: 0.4rem;
+}
+
+.small-card-label {
+  grid-area: label;
+}
+
+.small-card-sublabel {
+  grid-area: sublabel;
+}
+
+.small-card-list .small-card {
+  margin: 1rem 0 1rem 1rem;
+}
+
+.small-card-list .line-card-list {
+  margin: 0 0 0 1rem;  
+}
+
+// style
+
+.small-card-designation {
+  text-transform: uppercase;
+  color: $color_designation;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.small-card-label {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+.small-card-sublabel {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 600;
+}

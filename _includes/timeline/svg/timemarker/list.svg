@@ -1,0 +1,8 @@
+{%- for timemarker in include.timemarkers %}
+  {%- assign day = timemarker.date | date: "%s" | divided_by: 43200 | minus: include.start-day %}
+  {%- if timemarker.year %}
+{% include timeline/svg/timemarker/year.svg year=timemarker.year day=day %}
+  {%- elsif timemarker.month %}
+{% include timeline/svg/timemarker/month.svg month=timemarker.month day=day %}
+  {%- endif %}
+{%- endfor %}

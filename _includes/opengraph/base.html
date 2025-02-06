@@ -1,0 +1,19 @@
+    {% capture title %}{% include opengraph/title/base.html %}{% endcapture -%}
+    {%- capture description %}{% include opengraph/description/base.html %}{% endcapture -%}
+    {%- capture image %}{% include opengraph/image/base.html %}{% endcapture -%}
+    {%- if page.canonical %}
+    {%- assign canonical = site.url | append: page.canonical %}
+    <meta http-equiv="refresh" content="0; url={{ canonical }}"/>
+    {%- else %}
+    {%- assign canonical= site.url | append: page.url %}
+    {%- endif%}
+    <link rel="canonical" href="{{ canonical }}" />
+    <title>{{ title }}</title>
+    <meta name="description" content='{{ description }}'>
+    <meta property="og:title" content='{{ title }}' />
+    <meta property="og:description" content='{{ description }}' />
+    <meta property="og:image" content="{{ image }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ canonical }}" />
+    <meta property="og:logo" content="{{ site.url }}/nifr-logo.svg"/>
+    <meta property="og:locale" content="en_US" />

@@ -1,0 +1,16 @@
+collection: song
+uid: fool
+
+fullname: Fool
+
+album: tricktaking
+
+release-date: 2025-03-05
+released: false
+
+assets:
+  cover-image:
+    filename: picover640.png
+    source:
+      description: modified band picture
+      url: https://x.com/nekiband_jp/status/1873309523106259279

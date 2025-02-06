@@ -1,15 +1,22 @@
 ---
-layout: songs
-title: NEK! Music
-name: Music
+layout: default
+title: Music Nek!
+canonical: /music.html
 ---
-
-<div class="top_designation">music</div>
-{% for entry in site.data.music %}
-{% if entry.album %}
-{% include album-expanded.html uid=entry.album %}
-{% endif %}
-{% if entry.song %}
-{% include song-short.html uid=entry.song %}
-{% endif %}
+{%- capture main -%}
+<div class="small-card-list">
+{%- for item in site.data.music %}
+{% if item.album %}
+{% assign album = site.data.album[item.album] %}
+<h2>{% include smallcard/dispatch.html data=album %}</h2>
+<div class="line-card-list">
+{% for songuid in album.songs %}
+{% assign song = site.data.song[songuid] %}
+{% include linecard/dispatch.html data=song %}
 {% endfor %}
+</div>
+{% endif %}
+{%- endfor -%}
+</div>
+{%- endcapture -%}
+{%- include main/base.html content=main designation="music" -%}

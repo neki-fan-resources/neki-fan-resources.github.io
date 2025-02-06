@@ -1,0 +1,12 @@
+{%- assign uid = "media-" | append: include.media.uid %}
+{%- capture image-url -%}
+https://i.ytimg.com/vi/{{ include.media.youtube }}/mqdefault.jpg
+{%- endcapture %}
+{% include timeline/svg/marker/right.svg 
+  uid=uid
+  day=include.day
+  label=include.ref.fullname
+  sublabel=include.media.name
+  designation="video"
+  image=image-url
+  shift=include.shift %}

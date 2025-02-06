@@ -1,0 +1,31 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+
+{%- capture info %}
+{% include inforow/base.html
+  label="date"
+  value=include.data.date -%}
+
+{%- if include.data.location %}
+{% include inforow/base.html
+  label="venue"
+  value=include.data.location -%}
+{% endif -%}
+
+{%- include inforow/setlistfm.html data=include.data -%}
+
+{%- if include.data.event-page %}
+{% include inforow/base.html
+  label=""
+  value="event page"
+  url=include.data.event-page -%}
+{%- endif %}
+{% endcapture -%}
+
+{%- include itemdetails/base.html
+  cover-image=cover-image
+  label=include.data.fullname
+  sublabel=include.data.sublabel
+  inforows=info
+-%}

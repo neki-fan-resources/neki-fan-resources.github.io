@@ -1,0 +1,46 @@
+  <style>
+    .timeline-marker {
+      cursor: pointer;
+    }
+    .timeline-text-left {
+      text-anchor: end;
+    }
+    .timeline-text-right {
+      text-anchor: start;
+    }
+    .timeline-month,
+    .timeline-year {
+      fill: lightslategray;
+      font-weight: 600;
+      alignment-baseline: middle;
+    }
+    .timeline-month {
+      font-size: 6px;
+      text-anchor: end;
+    }
+    .timeline-year {
+      font-size: 8px;
+      text-anchor: start;
+    }
+    .timeline-marker-line {
+      stroke-width: 0.5px
+    }
+    .timeline-marker-designation {
+      font-size: 4px;
+      font-weight: 600;
+      text-transform: uppercase;
+      fill: grey;
+    }
+    .timeline-marker-label {
+      font-size: 10px;
+      font-weight: 700;
+    }
+    .timeline-marker-sublabel {
+      font-size: 6px;
+      font-weight: 400;
+    }
+    .timeline-marker-short-label {
+      font-size: 6px;
+      font-weight: 700;
+    }
+  </style>

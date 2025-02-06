@@ -1,0 +1,22 @@
+---
+layout: default
+opengraph: show
+---
+{%- assign year = "" | append: page.year -%}
+{%- assign show = site.data.show[year][page.lid] -%}
+{%- capture main -%}
+{%- include itemdetails/dispatch.html data=show -%}
+{%- if show.media.concert %}
+<h2>Concert</h2>
+{% include mediacard/list.html medias=show.media.concert %}
+{%- endif %}
+{%- if show.media.video %}
+<h2>Video</h2>
+{% include mediacard/list.html medias=show.media.video from="song" %}
+{%- endif %}
+{%- if show.media.short %}
+<h2>Short</h2>
+{% include mediacard/list.html medias=show.media.short from="song" %}
+{%- endif %}
+{%- endcapture -%}
+{%- include main/base.html content=main designation="show" -%}

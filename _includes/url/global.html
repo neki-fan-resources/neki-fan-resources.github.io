@@ -1,0 +1,19 @@
+{%- assign collection-uid = include.data.collection %}
+{%- assign collection = site.collections | where: "label", collection-uid | first %}
+{%- if collection-uid == "show" %}
+  {%- assign item = collection.docs | where: "lid", include.data.id | first %}
+  {%- if item.lid -%}
+    {%- assign g_url = "/show/" | append: include.data.year | append: "/" | append: include.data.id | append: ".html" %}
+  {%- else %}
+    {%- assign g_url = nil %}
+  {%- endif %}
+{%- else %}
+  {%- assign item = collection.docs | where: "uid", include.data.uid | first %}
+  {%- if item.uid -%}
+    {% capture g_url -%}
+    /{{ include.data.collection }}/{{ include.data.uid }}.html
+    {%- endcapture %}
+  {%- else %}
+    {%- assign g_url = nil %}
+  {%- endif %}
+{%- endif %}

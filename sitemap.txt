@@ -1,0 +1,20 @@
+---
+layout: none
+---
+
+{{ site.url }}/
+{{ site.url }}/music.html
+{{ site.url }}/live.html
+{{ site.url }}/sources.html
+{{ site.url }}/chronology.html
+{{ site.url }}/about.html
+{% for song in site.song -%}
+{{ site.url }}{{ song.url }}
+{% endfor -%}
+{% for album in site.album -%}
+{{ site.url }}{{ album.url }}
+{% endfor -%}
+{% for concert in site.show -%}
+{{ site.url }}{{ concert.url }}
+{% endfor -%}
+

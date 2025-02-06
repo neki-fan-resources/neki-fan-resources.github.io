@@ -1,0 +1,1 @@
+  <path class="timeline-marker-line" stroke="black" fill="none" d="M0 {{ include.shift | times: -1 }} h{{ 10 | plus: include.in | times: include.side }} v{{ include.shift | default: 0 }} h{{ 10 | minus: include.in | times: include.side }}"/>

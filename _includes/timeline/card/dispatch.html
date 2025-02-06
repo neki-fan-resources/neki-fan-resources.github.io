@@ -1,0 +1,26 @@
+{%- if include.marker.media %}
+{%- include timeline/card/submedia.html
+  media-ref=include.marker.media
+  ref=include.marker.ref
+%}
+{%- elsif include.marker.song %}
+{%- include timeline/card/subsong.html
+  song-uid=include.marker.song
+  media-ref=include.marker.rel-media
+%}
+{%- elsif include.marker.album %}
+{%- include timeline/card/subalbum.html
+  album-uid=include.marker.album
+  media-ref=include.marker.rel-media
+%}
+{%- elsif include.marker.show %}
+{%- include timeline/card/subshow.html
+  show-ref=include.marker.show
+  media-ref=include.marker.rel-media
+  media-from=include.marker.rel-from
+%}
+{%- elsif include.marker.marker %}
+{%- include timeline/card/submarker.html 
+  marker=include.marker
+%}
+{%- endif %}

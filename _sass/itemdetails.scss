@@ -1,0 +1,75 @@
+// layout
+
+.item-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'cover main';
+}
+
+.item-details-cover {
+  grid-area: cover;
+  height: 14rem;
+}
+
+.item-details-main {
+  grid-area: main;
+  margin-left: 1rem;
+}
+
+.item-details-label {
+  margin-top: 1rem;
+}
+
+.item-details-sublabel {
+  margin-top: 0.3rem;
+}
+
+.item-details-info {
+  margin: 1rem 0 0 0.5rem;
+  vertical-align: bottom;
+}
+
+.item-details-info-label {
+  text-align: right;
+  padding: 0 0.3rem 0 0;
+  vertical-align: baseline;
+}
+
+.item-details-info-value {
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.item-details-main .line-card {
+  margin: 1rem 0 0 1rem;
+}
+// style
+
+.item-details-cover {
+  padding: 1px;
+  border: solid 1px black;
+}
+
+.item-details-label {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.item-details-sublabel {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.item-details-info-label {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+.item-details-info-value {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+}

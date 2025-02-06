@@ -1,114 +1,28 @@
 ---
-layout: songs
-page-title-sub: "Song - "
+layout: default
+opengraph: song
 ---
-{% assign song_data = site.data.songs[page.uid] %}
-<div class="top_designation">song</div>
-
-<div class="song_title song_block">
-{% if song_data.assets.cover-image %}
-  <img class="song_cover" src="/assets/images/songs/{{ page.uid }}/{{ song_data.assets.cover-image }}"/>
-{% endif %}
-  <div class="song_info">
-    <h1 class="song_info_name">{{ song_data.fullname }}</h1>
-{%- if song_data.fullname_en -%}
-    <h2 class="song_info_name_en">{{ song_data.fullname_en }}</h2>
-{% endif -%}
-    <table>
-      <tr>
-        <td class="song_info_label">{% if song_data.released == false %}expected{% else %}released{% endif %}:</td>
-        <td class="song_info_data">{{ song_data.releaseDate }}</td>
-      </tr>
-{% if song_data.credits.lyricist %}
-      <tr>
-        <td class="song_info_label">lyricist:</td>
-        <td class="song_info_data">{{ song_data.credits.lyricist }}</td>
-      </tr>
-{% endif %}
-{% if song_data.credits.composer %}
-      <tr>
-        <td class="song_info_label">composer:</td>
-        <td class="song_info_data">{{ song_data.credits.composer }}</td>
-      </tr>
-{% endif %}
-    </table>
-  </div>
-</div>
-
-<div class="song_media_block song_block">
-  <h2 class="song_media_block_title song_block_title">Media</h2>
-  {% for media in song_data.assets.media %}
-    {% if media.additional != true %}
-  {% include media.html media=media %}
-    {% endif %}
-  {% endfor %}    
-</div>
-
-<div class="song_lyrics_block song_block">
-<h2 class="song_lyrics_block_title song_block_title">Lyrics <span class="song_lyrics_status song_lyrics_status_{{ song_data.lyrics.status.code }}">{{ song_data.lyrics.status.description }}</span></h2>
-
-<div class="language_selection">
-  <table>
-{% for language in song_data.lyrics.languages %}
-    <tr>
-      <td><input id="lyrics_lang_{{ language.id }}" type="checkbox"{% if language.active %} checked{% endif %}{% if language.fixed %} disabled{% endif %} onchange="toggle_language_visibility('{{ language.id }}')"/></td>
-      <td>{{ language.name }}</td>
-    </tr>
-{% endfor %}
-  </table>
-</div>
-
-<div class="lyrics">
-{% for section in song_data.lyrics.sections %}
-<div class="lyrics_section">
-  {% for line in section.lines %}
-    {%- comment %}
-      compute the maximum number of cells in the line.
-      Used to correctly extends the last cell of each row
-    {% endcomment %}
-    {% assign sizes = "" | split: ',' %}
-    {% for l in line %}
-      {% if l[1][0] %}
-        {% assign sizes = sizes | push: l[1].size %}
-      {% endif %}
-    {% endfor %}
-    {% assign nbcols = sizes | sort | last %}
-  <table>
-    {% for language in song_data.lyrics.languages %}
-      {%- if line[language.id] -%}
-    <tr {% if language.notranslation %} translate="no"{% endif %}class="lyrics_line lyrics_{{ language.id }}{% if language.active != true %} lyrics_hidden{% endif %}">
-        {%- if line[language.id][0] -%}
-          {% for word in line[language.id] %}
-            {% if language.baseurl %}
-      <td>{{ word.w }}{% if word.d %}<a class="lyrics_word_{% if word.w %}tiny{% endif %}link" href="{{ language.baseurl }}{{ word.d }}" target="_blank_{{ language.id }}">{{ language.urltext }}</a>{% endif %}</td>
-            {% else %}
-      <td>{{ word }}</td>
-            {% endif %}
-          {%- endfor %}
-          {% assign extracols = nbcols | minus: line[language.id].size %}
-          {% for i in (1..extracols) %}
-      <td></td>
-          {% endfor %}
-        {%- else %}
-      <td colspan="{{ nbcols }}">{{ line[language.id] }}</td>
-        {%- endif %}
-    </tr>
-      {%- endif %}
-    {% endfor %}
-  </table>
-  {% endfor %}
-</div>
-{% endfor %}
-</div>
-</div>
-
-{% assign addmedia = song_data.assets.media | where: "additional", "true" %}
-{% if addmedia[0] %}
-<div class="song_addmedia_block song_block">
-  <h2 class="song_addmedia_block_title song_block_title">Additional Media</h2>
-  
-  {% for media in addmedia %}
-  {% include media.html media=media %}
-  {% endfor %}
-</div>
-{% endif %}
+{%- assign data = site.data.song[page.uid] -%}
+{%- capture main -%}
+{%- include itemdetails/dispatch.html data=data -%}
+{%- if data.media.video %}
+<h2>Video</h2>
+{% include mediacard/list.html medias=data.media.video from="show" %}
+{%- endif %}
+{%- if data.media.live %}
+<h2>Live</h2>
+{% include mediacard/list.html medias=data.media.live from="show" %}
+{%- endif %}
+{%- if data.media.short %}
+<h2>Short</h2>
+{% include mediacard/list.html medias=data.media.short from="show" %}
+{%- endif %}
+{%- if data.lyrics %}
+{% include lyrics/base.html lyrics=data.lyrics %}
+{%- endif %}
+{%- if data.media.additional %}
+<h2>Additional media</h2>
+{% include mediacard/list.html medias=data.media.additional from="show" %}
+{%- endif %}
+{%- endcapture -%}
+{%- include main/base.html content=main designation="song" -%}

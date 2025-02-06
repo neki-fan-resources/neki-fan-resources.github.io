@@ -1,70 +1,12 @@
 ---
 layout: default
-title: NEK! Chronology
-name: Chronology
+title: Chronology Nek!
 ---
 
-<div class="outer_div">
-  <div class="side_nav_div">
-  </div>
-  <div class="main_div">
-    <div class="center_div center_div_chronology">
-      <div class="top_designation">chronology</div>
-{% assign startDay = site.data.timeline.startDate | date: "%s" | divided_by: 43200 %}
-{% assign endDay =  site.data.timeline.endDate | date: "%s" | divided_by: 43200 | minus: startDay %}
-<svg class="timeline_svg" viewbox="-175 -10 350 {{endDay | plus: 25}}">
-  <style>
-    .item_box {
-      cursor: pointer;
-    }
-    .item_label {
-      font-size: 10px;
-      font-weight: 600;
-    }
-    .item_sublabel {
-      font-size: 8px;
-    }
-    .item_lesser_label {
-      font-size: 6px;
-      font-weight: 600;
-    }
-    .year,
-    .month {
-      fill: lightslategray;
-      font-weight: 600;
-    }
-    .year {
-      font-size: 8px;
-    }
-    .month {
-      font-size: 6px;
-    }
-  </style>
-  <line stroke="black" x1="0" y1="0" x2="0" y2="{{ endDay }}"/>
-{% for timemarker in site.data.timeline.timemarkers %}
-  {% assign day = timemarker.date | date: "%s" | divided_by: 43200 | minus: startDay %}
-  {% if timemarker.year %}
-    {% include timeline/year.svg year=timemarker.year day=day %}
-  {% elsif timemarker.month %}
-    {% include timeline/month.svg month=timemarker.month day=day %}
-  {% endif %}
-{% endfor %}
-{% for item in site.data.timeline.items %}
-  {% assign day = item.date | date: "%s" | divided_by: 43200 | minus: startDay %}
-  {% if item.marker %}
-    {% include timeline/marker.svg item=item day=day %}
-  {% elsif item.song %}
-    {% include timeline/song.svg item=item day=day %}
-  {% elsif item.album %}
-    {% include timeline/album.svg item=item day=day %}
-  {% elsif item.concert %}
-    {% include timeline/concert.svg item=item startDay=startDay %}
-  {% endif %}
-{% endfor %}
-</svg>
-{% for item in site.data.timeline.items %}
-  {% include timeline/block/item.html item=item %}
-{% endfor %}
-    </div>
-  </div>
-</div>
+{%- capture main -%}
+{%- include timeline/svg/base.svg -%}
+{%- endcapture -%}
+{%- capture absolute %}
+{%- include timeline/card/all.html %}
+{%- endcapture %}
+{%- include main/base.html content=main absolute=absolute designation="chronology" -%}

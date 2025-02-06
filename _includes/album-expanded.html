@@ -1,6 +1,0 @@
-<div class="album-expanded">
-  {% include album-short.html uid=include.uid %}
-  {% for song in site.data.albums[include.uid].songs %}
-  {% include song-short.html uid=song %}
-  {% endfor %}
-</div>

@@ -1,0 +1,6 @@
+{%- assign g_albums = "" | split: ',' %}
+{%- for albumpair in site.data.album %}
+{%- assign s = albumpair[1] %}
+{%- assign g_albums = g_albums | push: s %}
+{%- endfor %}
+{%- assign g_albums = g_albums | sort: 'release-date' %}

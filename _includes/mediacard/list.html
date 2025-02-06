@@ -1,0 +1,6 @@
+<div class="media-card-list">
+{%- for media-ref in include.medias %}
+{%- include media/get.html ref=media-ref %}
+{% include mediacard/dispatch.html media=g_media from=include.from %}
+{%- endfor %}
+</div>

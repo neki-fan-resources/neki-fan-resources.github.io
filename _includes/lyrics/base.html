@@ -1,0 +1,18 @@
+<h2>
+  Lyrics
+  <span class="lyrics-status lyrics-status-{{ include.lyrics.status.code }}">
+    {{ include.lyrics.status.description }}
+  </span>
+</h2>
+<div class="lyrics">
+  <table class="lyrics-languages">
+{%- for language in include.lyrics.languages %}
+{% include lyrics/language.html language=language %}
+{%- endfor %}
+  </table>
+  <div class="lyrics-sections">
+{%- for section in include.lyrics.sections %}
+{% include lyrics/section.html section=section languages=include.lyrics.languages %}
+{%- endfor %}
+  </div>
+</div>

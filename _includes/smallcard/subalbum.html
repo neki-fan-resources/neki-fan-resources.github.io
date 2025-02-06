@@ -1,0 +1,9 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+{% include smallcard/base.html
+  designation=include.data.designation
+  label=include.data.fullname
+  cover-image=cover-image
+  data=include.data
+%}

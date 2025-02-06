@@ -1,0 +1,15 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+
+{%- capture info %}
+{% include inforow/releasedate.html
+  data=include.data -%}
+{% endcapture -%}
+
+{%- include itemdetails/base.html
+  cover-image=cover-image
+  label=include.data.fullname
+  sublabel=include.data.fullname_en
+  inforows=info
+-%}

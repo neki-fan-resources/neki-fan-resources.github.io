@@ -1,0 +1,5 @@
+    <div class="lyrics-section">
+{%- for line in include.section.lines %}
+{%- include lyrics/line.html line=line languages=include.languages %}
+{%- endfor %}
+    </div>

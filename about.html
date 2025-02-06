@@ -1,42 +1,29 @@
 ---
 layout: default
 title: About
-name: About
 ---
-<div class="outer_div">
-  <div class="side_nav_div">
-  </div>
-  <div class="main_div">
-    <div class="center_div">
-      <div class="top_designation">about</div>
-      <div class="about_block">
-      <div class="song_block">
-      <p>This site was created with two main starting goals:</p>
-      <ul>
-        <li>Have a place to store details of the Japanese lyrics. My japanese is
-          pretty poor, but I like to try to get a better understanding of the
-          original lyrics, to go farther than the sometime so-so English version.
-          I might as well share the resources I am using.
-        </li>
-        <li>Provide a place with some information about the band. There is no main
-          page for the band at this point. I found this quite frustrating when I
-          started to look for information about NEK!.<br/>
-          So I started to add a bit of basic information about the band and their
-          music<br/>
-          ... then it got a bit out of hand 😁
-        </li>
-      </ul>
-      </div>
-      <div>
-        <h2 class="song_block_title">Updates</h2>
-        Notification about content updates, and other general updates, are done at {% include socialmedia-link.html smid="bluesky" handle="neki-fan-resources.github.io" %}.
-      </div>
-      <div class="song_block">
-        <a name="requests"></a>
-        <h2 class="song_block_title">Questions - Suggestions - Requests - Contact</h2>
-        <p>For any questions, suggestions requests, please use the <a href="https://github.com/neki-fan-resources/neki-fan-resources.github.io/issues" target="_blank">GitHub issue tracker <img src="/assets/images/github-logo.svg"></a></p>
-      </div>
-      </div>
-    </div>
-  </div>
+{%- capture main %}
+<h2>What is this site</h2>
+<div class="about-section">
+  <p>This site was created with two main starting goals:</p>
+  <ul>
+    <li>Have a place to store details of the Japanese lyrics. My japanese is
+      pretty poor, but I like to try to get a better understanding of the
+      original lyrics, to go farther than the sometime so-so English version.
+      I might as well share the resources I am using.
+    </li>
+    <li>Provide a place with some information about the band. There is no main
+      page for the band at this point. I found this quite frustrating when I
+      started to look for information about NEK!.<br/>
+      So I started to add a bit of basic information about the band and their
+      music<br/>
+      ... then it got a bit out of hand 😁
+    </li>
+  </ul>
 </div>
+<h2>Updates</h2>
+<p class="about-section">Notification about content updates, and other general updates, are done at {% include main/socialmedia-link.html smid="bluesky" handle="neki-fan-resources.github.io" %}.</p>
+<a name="requests"></a><h2>Questions - Suggestions - Requests - Contact</h2>
+<p class="about-section">For any questions, suggestions, requests, please use {% include main/socialmedia-link.html smid="bluesky" handle="neki-fan-resources.github.io" %} or the <a href="https://github.com/neki-fan-resources/neki-fan-resources.github.io/issues" target="_blank"><img class="socialmedia-logo" src="/asset/image/logo/github-logo.svg">GitHub issue tracker</a></p>
+{%- endcapture %}
+{%- include main/base.html content=main designation="about" %}

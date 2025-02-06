@@ -1,0 +1,16 @@
+collection: media
+id: concert-01
+uid: 2ndonemanlive_zaiko_concert-01
+
+name: Streaming @ zaiko.io
+zaiko: https://nekiband.zaiko.io/item/368923
+
+assets:
+  cover: https://media.zaiko.io/zaiko/w_1200/1_477a9d107m1w49egamc3p
+
+published-date: 2024-12-30
+expiration-date: 2025-01-29
+
+show:
+  year: 2024
+  id:  2ndonemanlive

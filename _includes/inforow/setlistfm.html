@@ -1,0 +1,9 @@
+{%- if include.data.setlistfm %}
+{%- capture url -%}
+https://www.setlist.fm/setlist/{{ include.data.setlistfm }}.html"
+{%- endcapture %}
+{% include inforow/base.html
+  label="setlist"
+  value="setlist.fm"
+  url=url -%}
+{% endif -%}

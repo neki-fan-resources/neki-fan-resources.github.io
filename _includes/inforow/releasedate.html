@@ -1,0 +1,8 @@
+{%- if include.data.released == false -%}
+  {% assign label="expected" %}
+{%- else -%}
+  {% assign label="released" %}
+{%- endif -%}
+{% include inforow/base.html
+  label=label
+  value=include.data.release-date -%}

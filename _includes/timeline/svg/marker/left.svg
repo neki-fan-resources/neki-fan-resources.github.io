@@ -1,0 +1,15 @@
+<g class="timeline-marker" transform="translate(0 {{ include.day | plus: include.shift }})">
+{% include timeline/svg/marker/line-left.svg
+  shift=include.shift 
+  in=include.in
+%}
+  <g onclick="toggle_timeline_card('{{ include.uid }}')">
+    <image x="-40" y="-10" height="20" width="20" href="{{ include.image }}"/>
+    <rect x="-40" y="-10" height="20" width="20" stroke="black" fill="none" stroke-width="0.5"/>
+    <text class="timeline-marker-designation timeline-text-left" x="-43" y="-6.5" text-anchor="end" alignment-baseline="middle">{{ include.designation }}</text>
+    <text class="timeline-marker-label timeline-text-left" x="-43" y="0.5" text-anchor="end" alignment-baseline="middle">{{ include.label }}</text>
+{%- if include.sublabel %}
+    <text class="timeline-marker-sublabel timeline-text-left" x="-43" y="7.5" text-anchor="end" alignment-baseline="middle">{{ include.sublabel }}</text>
+{%- endif %}
+  </g>
+</g>

@@ -1,0 +1,31 @@
+@import "colors.scss";
+
+html {
+  text-size-adjust: none;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: $color_kanade_lighter;
+}
+
+.main-background {
+  background: repeating-linear-gradient(170deg, $color_kanade_lighter 0%, $color_natsu_lighter 90vh, $color_kanade_lighter 180vh);
+}
+
+a {
+  text-decoration: none;
+}
+
+.not-released {
+  color: $color_not_released;
+}
+
+.socialmedia-logo {
+  height: 1rem;
+  vertical-align: middle;
+  margin-right: 0.1rem;
+}

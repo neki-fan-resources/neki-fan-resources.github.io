@@ -1,0 +1,53 @@
+collection: show
+year: 2024
+id: 2ndonemanlive
+uid: 2024_2ndonemanlive
+
+fullname: 2ND ONE MAN LIVE
+date: 2024-11-24
+location: Shibuya eggman, Tokyo
+setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b540020
+event-page: https://t.livepocket.jp/e/neki2ndoneman
+
+assets:
+  cover-image:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+
+media:
+  concert:
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    zaiko: concert-01
+  video:
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtube: maze-01
+  - dreams_live-01
+  short:
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: getover-01
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: reigengirl-01
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: endlessgame-01
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: loner-01
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: moon-01
+
+

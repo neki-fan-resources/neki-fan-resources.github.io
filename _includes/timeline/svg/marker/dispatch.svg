@@ -1,0 +1,34 @@
+{%- assign day = include.marker.date | date: "%s" | divided_by: 43200 | minus: include.start-day %}
+{%- if include.marker.marker %}
+{%- include timeline/svg/marker/submarker.svg
+  marker=include.marker
+  day=day
+%}
+{%- elsif include.marker.song %}
+{%- include timeline/svg/marker/subsong.svg
+  song-uid=include.marker.song
+  shift=include.marker.shift
+  start-day=include.start-day 
+%}
+{%- elsif include.marker.album %}
+{%- include timeline/svg/marker/subalbum.svg
+  album-uid=include.marker.album
+  shift=include.marker.shift
+  start-day=include.start-day
+%}
+{%- elsif include.marker.media %}
+{%- include timeline/svg/marker/submedia.svg
+  media-ref=include.marker.media
+  ref=include.marker.ref
+  shift=include.marker.shift
+  start-day=include.start-day
+%}
+{%- elsif include.marker.show %}
+{%- include timeline/svg/marker/subshow.svg
+  show-ref=include.marker.show
+  short=include.marker.short
+  shift=include.marker.shift
+  in=include.marker.in
+  start-day=include.start-day
+%}
+{%- endif %}

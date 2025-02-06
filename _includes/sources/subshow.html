@@ -1,0 +1,7 @@
+{%- capture entries -%}
+{%- include sources/entry-coverimage.html data=include.show %}
+{%- endcapture %}
+{%- if entries != "" %}
+{% include sources/item-label.html label=include.show.fullname %}
+{{- entries }}
+{%- endif -%}

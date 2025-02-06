@@ -1,0 +1,51 @@
+// layout
+
+.media-card {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.media-card-label {
+  margin-bottom: 0.2rem;
+}
+
+.media-card-image {
+  width: fit-content;
+  position: relative;
+  margin-bottom: -0.1rem;
+}
+
+.media-card-image-over {
+  height: 15%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.media-card-image-under {
+  height: 12rem;
+}
+
+.media-card-list .media-card {
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.media-card-sublabel {
+  width: 0px;
+  min-width: 100%;
+}
+
+// style
+
+.media-card-label {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+.media-card-sublabel {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  font-weight: 600;
+}

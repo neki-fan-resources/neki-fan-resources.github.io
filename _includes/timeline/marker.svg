@@ -1,8 +1,0 @@
-{% capture uid -%}
-  marker-{{ include.item.marker }}
-{%- endcapture %}
-{% include timeline/item-left.svg 
-  uid=uid
-  day=include.day
-  label=include.item.label 
-  image=include.item.image %}

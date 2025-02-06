@@ -1,0 +1,9 @@
+{%- for language in include.data.lyrics.languages %}
+{%- if language.source %}
+{% include sources/entry.html
+  label=language.source.label
+  description=language.source.description
+  url=language.source.url
+%}
+{%- endif %}
+{%- endfor %}

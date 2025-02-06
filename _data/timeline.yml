@@ -1,197 +1,295 @@
 startDate: 2024-01-01
 endDate: 2025-05-15
 
-items:
+marker:
 - label: Formation of NEK!
   date: 2024-02-10
   marker: nekibegins
-  image: /assets/images/neki_logo.png 
-- date: 2024-03-07
-  concert: guvol349
-  shift: -6
-- date: 2024-03-09
-  concert: lupinus2024
-- date: 2024-03-20
-  concert: shibuyachelseahotel
-- label: Get Over
-  sublabel: teaser
-  date: 2024-03-21
-  song: getover
-  video: teaser
-  shift: -16
-- label: Get Over
-  sublabel: release
-  date: 2024-03-24
-  song: getover
-- date: 2024-04-05
-  concert: arealiberated
-- date: 2024-04-09
-  concert: guvol350
-- date: 2024-05-07
-  concert: guvol351
-- date: 2024-05-09
-  concert: guvol352
-  shift: 6
-- date: 2024-05-20
-  concert: sweetsweetsweet
-- date: 2024-06-03
-  concert: fyp
-  shift: -8
-- label: EXCLAMAT!ON
-  sublabel: teaser
-  date: 2024-06-03
-  album: exclamation
-  video: teaser
-- date: 2024-06-04
-  concert: guvol354
-- date: 2024-06-07
-  concert: popoutvol11
-  shift: 4
-- date: 2024-06-15
-  concert: codezerox
-- date: 2024-06-17
-  concert: guvol356
-  shift: 5
-- date: 2024-06-24
-  concert: beyondthesingularityvol6
-- label: 令現少女
-  sublabel: teaser
-  date: 2024-06-28
-  song: reigengirl
-  video: teaser
-  shift: -12
-- date: 2024-07-01
-  concert: guvol357
-- date: 2024-07-03
-  concert: beyondthesingularityvol7
-  shift: 4
-- label: 令現少女
-  sublabel: release
-  date: 2024-07-03
-  song: reigengirl
-- date: 2024-07-15
-  concert: driveyoucrazyvol7
-  shift: -6
-- date: 2024-07-20
-  concert: 1stonemanlive
-- label: MAZE
-  sublabel: teaser
-  date: 2024-07-20
-  song: maze
-  video: teaser
-  shift: -12
-- label: MAZE
-  sublabel: release
-  date: 2024-07-24
-  song: maze
-  shift: 2
-- label: EXCLAMAT!ON
-  sublabel: release
-  date: 2024-07-24
-  album: exclamation
-  shift: 24
-- label: ENDLESSGAME
-  sublabel: release
-  date: 2024-07-24
-  song: endlessgame
-  shift: 46
-- label: Blink
-  sublabel: release
-  date: 2024-07-24
-  song: blink
-  shift: 68
-- date: 2024-08-02
-  concert: fypvol3
-- date: 2024-08-08
-  concert: hapikorevol530
-- date: 2024-08-21
-  concert: daydreamer4night
-  shift: -12
-- date: 2024-08-22
-  concert: girlsgirlsgirls21
-  shift: -6
-- date: 2024-08-23
-  concert: soundsgoodvol73
-- date: 2024-08-24
-  concert: wingedit
-  shift: 4
-- date: 2024-08-27
-  concert: soundshocktokyo2024
-  shift: 6
-- date: 2024-08-31
-  concert: torarockfestival
-  shift: 7
-- date: 2024-09-08
-  concert: ringringring
-- date: 2024-09-10
-  concert: guvol363
-  shift: 6
-- date: 2024-09-19
-  concert: fypvol5
-- date: 2024-09-24
-  concert: guvol365
-- date: 2024-10-02
-  concert: guvol366
-- label: Loner
-  sublabel: teaser
-  date: 2024-10-02
-  song: loner
-  video: teaser
-  shift: -8
-- label: Loner
-  sublabel: release
-  date: 2024-10-09
-  song: loner
-- date: 2024-10-13
-  concert: minamiwheel2024
-- date: 2024-10-18
-  concert: nekigu4man
-- date: 2024-11-06
-  concert: 251ignition
-  shift: -8
-- date: 2024-11-07
-  concert: sweetsweetsweet2
-- date: 2024-11-24
-  concert: 2ndonemanlive
-- date: 2024-11-27
-  concert: digginsoundvol2
-  shift: 10
-- date: 2024-11-30
-  concert: overfest2024
-  shift: 12
-- date: 2024-12-04
-  concert: guvol369
-  shift: 12
-- label: Dreams!!!!
-  sublabel: release
-  date: 2024-12-11
-  song: dreams
-- date: 2024-12-29
-  concert: debutyearlastlive
-- label: MAZE
-  date: 2025-01-24
-  sublabel: official live video
-  song: maze
-- date: 2025-01-26
-  concert: youandismile
-- date: 2025-02-06
-  concert: setallfree
-- concert: guvol375
+  image: /asset/image/logo/neki-logo.png
+- show:
+    year: 2024
+    id: guvol349
+  short: true
   shift: -2
-- label: TR!CK TAK!NG
-  sublabel: to be released
-  date: 2025-03-05
-  album: tricktaking
-- date: 2025-03-08
-  concert: tricktakingtourosaka
-  shift: -20
-- date: 2025-03-09
-  concert: tricktakingtouraichi
-- date: 2025-03-16
-  concert: tricktakingtourtokyo
+- show:
+    year: 2024
+    id: lupinus2024
+  short: true
+- show:
+    year: 2024
+    id: shibuyachelseahotel
+  short: true
+  rel-media:
+    show:
+      year: 2024
+      id: shibuyachelseahotel
+    youtubeshort: getover-01
+  rel-from: song
+- show:
+    year: 2024
+    id: arealiberated
+  short: true
+- show:
+    year: 2024
+    id: guvol350
+  short: true
+  rel-media:
+    show:
+      year: 2024
+      id: guvol350
+    youtubeshort: reigengirl-01
+  rel-from: song
+- media: 
+    song: getover
+    youtube: teaser-01
+  ref: song
+  shift: -15
+- song: getover
+  rel-media: 
+    song: getover
+    youtube: music-video-01
+- show:
+    year: 2024
+    id: guvol351
+  short: true
+- show:
+    year: 2024
+    id: guvol352
+  short: true
+  shift: 2
+- show:
+    year: 2024
+    id: sweetsweetsweet
+  short: true
+- show:
+    year: 2024
+    id: fypday1
+  short: true
+  shift: -4
+- media:
+    album: exclamation
+    youtube: teaser-01
+  ref: album
+- show:
+    year: 2024
+    id: guvol354
+  short: true
+- show:
+    year: 2024
+    id: popoutvol11
+  short: true
+- show:
+    year: 2024
+    id: codeofzerox
+  short: true
+- show:
+    year: 2024
+    id: guvol356
+  short: true
+  shift: 2
+- show:
+    year: 2024
+    id: beyondthesingularityvol6
+  short: true
+- media:
+    song: reigengirl
+    youtube: teaser-01
+  ref: song
+  shift: -11
+- show:
+    year: 2024
+    id: guvol357
+  short: true
+- show:
+    year: 2024
+    id: beyondthesingularityvol7
+  short: true
+  shift: 1
+- song: reigengirl
+  rel-media:
+    song: reigengirl
+    youtube: music-video-01
+- show:
+    year: 2024
+    id: driveyoucrazyvol7
+  short: true
+  shift: -3
+- show:
+    year: 2024
+    id: 1stonemanlive
+  rel-media:
+    show:
+      year: 2024
+      id: 1stonemanlive
+    youtubeshort: maze-01
+  rel-from: song
+- media: 
+    song: maze
+    youtube: teaser-01
+  ref: song
+  shift: -13
+- song: maze
+  rel-media: 
+    song: maze
+    youtube: music-video-01
+- album: exclamation
+  shift: 21
+- song: endlessgame
+  shift: 42
+- song: blink
+  shift: 63
+- show:
+    year: 2024
+    id: fypvol3
+  short: true
+- show:
+    year: 2024
+    id: hapikorevol350
+  short: true
+- show:
+    year: 2024
+    id: daydreamer4night
+  short: true
+  shift: -11
+  in: -2
+- show:
+    year: 2024
+    id: girlsgirlsgirls
+  short: true
+  shift: -7
+- show:
+    year: 2024
+    id: soundsgoodvol73
+  short: true
+  shift: -3
+  in: 2
+- show:
+    year: 2024
+    id: wingedit
+  short: true
+- show:
+    year: 2024
+    id: soundshocktokyo2024
+  short: true
+- show:
+    year: 2024
+    id: torarockfestival
+  short: true
+- show:
+    year: 2024
+    id: ringringring
+  short: true
+- show:
+    year: 2024
+    id: guvol363
+  short: true
+  shift: 2
+- show:
+    year: 2024
+    id: fypvol5
+  short: true
+- show:
+    year: 2024
+    id: guvol365
+  short: true
+- show:
+    year: 2024
+    id: guvol366
+  short: true
+- media:
+    song: loner
+    youtube: teaser-01
+  ref: song
+  shift: -7
+- song: loner
+  rel-media: 
+    song: loner
+    youtube: music-video-01
+- show:
+    year: 2024
+    id: minamiwheel2024
+  short: true
+- show:
+    year: 2024
+    id: nekigufriday
+  short: true
+- show:
+    year: 2024
+    id: ignition
+  short: true
+- show:
+    year: 2024
+    id: sweetsweetsweet2
+  short: true
+  shift: 3
+- show:
+    year: 2024
+    id: 2ndonemanlive
+  rel-media: 
+    show:
+      year: 2024
+      id: 2ndonemanlive
+    youtube: dreams-01
+  rel-from: song
+- show:
+    year: 2024
+    id: digginsoundvol2
+  short: true
   shift: 8
+  in: 2
+- show:
+    year: 2024
+    id: overfest2024
+  short: true
+  shift: 8
+- show:
+    year: 2024
+    id: guvol369
+  short: true
+  shift: 6
+  in: -2
+- song: dreams
+  rel-media:
+    show:
+      year: 2024
+      id: 2ndonemanlive
+    youtube: dreams-01
+- show:
+    year: 2024
+    id: debutyearlastlive
+- media: 
+    show:
+      year: 2024
+      id: 2ndonemanlive
+    youtube: maze-01
+- show:
+    year: 2025
+    id: youandi
+  short: true
+  ref: song
+- show:
+    year: 2025
+    id: setallfree
+  short: true
+- show:
+    year: 2025
+    id: guvol375
+  short: true
+- album: tricktaking
+- show:
+    year: 2025
+    id: tricktakingtourosaka
+  shift: -19
+- show:
+    year: 2025
+    id: tricktakingtouraichi
+- show:
+    year: 2025
+    id: tricktakingtourtokyo
+  shift: 7
 
-timemarkers:
+
+timemarker:
 - date: 2024-01-01
   year: 2024
 - date: 2024-01-01
@@ -232,4 +330,3 @@ timemarkers:
   month: "may"
 - date: 2025-06-01
   month: "jun"
-

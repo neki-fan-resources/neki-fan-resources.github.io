@@ -1,0 +1,15 @@
+{%- capture url -%}
+https://www.youtube.com/shorts/{{ include.media.youtubeshort }}
+{%- endcapture %}
+{%- capture image-url -%}
+https://i.ytimg.com/vi/{{ include.media.youtubeshort }}/oardefault.jpg
+{%- endcapture %}
+{%- include mediacard/base.html
+  media=include.media
+  label=include.media.name
+  info=include.media.info
+  url=url
+  image-url=image-url
+  overlay-url="/asset/image/logo/youtube-logo.svg"
+  from=include.from
+%}

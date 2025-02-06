@@ -1,0 +1,7 @@
+{%- include media/get.html ref=include.media-ref %}
+{%- assign ref-uid = g_media[include.ref] %}
+{%- assign ref = site.data[include.ref][ref-uid] %}
+{%- assign day = g_media.published-date | date: "%s" | divided_by: 43200 | minus: include.start-day %}
+{%- if g_media.youtube %}
+{% include timeline/svg/marker/subyoutube.svg media=g_media ref=ref shift=include.shift day=day %}
+{%- endif %}

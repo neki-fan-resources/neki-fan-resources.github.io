@@ -1,0 +1,29 @@
+{%- if include.media[include.from] %}
+{%- assign from = include.media[include.from] %}
+{%- if include.from == "show" %}
+{%- include show/get.html ref=from %}
+{%- assign sublabel = g_show.fullname %}
+{%- else %}
+{%- assign sublabel = site.data[include.from][from].fullname %}
+{%- endif %}
+{%- else %}
+{%- assign sublabel=nil %}
+{%- endif %}
+{%- if include.info %}
+{%- if sublabel %}
+{%- assign sublabel = sublabel | append: ", " %}
+{%- endif %}
+{%- assign sublabel = sublabel | append: include.info %}
+{%- endif -%}
+<div class="media-card">
+  <div class="media-card-label">{{ include.label }}</div>
+  <a href="{{ include.url }}" target="_blank">
+    <div class="media-card-image">
+      <img class="media-card-image-over" src="{{ include.overlay-url}}">
+      <img class="media-card-image-under" src="{{ include.image-url }}">
+    </div>
+  </a>
+{%- if sublabel %}
+  <div class="media-card-sublabel">{{ sublabel }}</div>
+{%- endif %}
+</div>

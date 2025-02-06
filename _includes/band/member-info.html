@@ -1,0 +1,9 @@
+<div id="band-{{ include.member.uid }}-info" class="band-info band-info-hidden">
+  <div class="band-socials">
+{%- for s in include.member.social-media %}
+{%- assign smid = s[0] %}
+{%- assign handle = s[1] %}
+{% include main/socialmedia-link.html smid=smid handle=handle %}
+{%- endfor %}
+  </div>
+</div>

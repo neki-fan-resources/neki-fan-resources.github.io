@@ -1,0 +1,10 @@
+{%- include media/get.html ref=include.media-ref %}
+{%- assign uid = "media-" | append: g_media.uid%}
+{%- assign ref-uid=g_media[include.ref] %}
+{%- assign ref= site.data[include.ref][ref-uid] %}
+{%- capture inforows %}
+{% include inforow/base.html
+  label="published"
+  value=g_media.published-date -%}
+{%- endcapture %}
+{%- include timeline/card/base-media.html media=g_media ref=ref inforows=inforows uid=uid %}

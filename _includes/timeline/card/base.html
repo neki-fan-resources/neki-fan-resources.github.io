@@ -1,0 +1,34 @@
+{%- include url/global.html data=include.data %}
+<div id="{{ include.uid }}" class="timeline-card timeline-card-hidden">
+  <div class="timeline-card-close" onclick="toggle_timeline_card('{{ include.uid }}')">⨯</div>
+  <h1>{{ include.designation }}</h1>
+  <div class="timeline-card-detail">
+{%- if g_url %}
+{%- if include.cover-image %}
+    <a class="timeline-card-detail-cover" href="{{ g_url }}"><img class="timeline-card-detail-cover-image" src="{{ include.cover-image }}"></a>
+{%- endif %}
+    <a class="timeline-card-detail-label" href="{{ g_url }}">{{ include.label }}</a>
+{%- if include.sublabel %}
+    <a class="timeline-card-detail-sublabel" href="{{ g_url }}">{{ include.sublabel }}</a>
+{%- endif %}
+{%- else %}
+{%- if include.cover-image %}
+    <img class="timeline-card-detail-cover timeline-card-detail-cover-image" src="{{ include.cover-image }}">
+{%- endif %}
+    <div class="timeline-card-detail-label">{{ include.label }}</div>
+{%- if include.sublabel %}
+    <div class="timeline-card-detail-sublabel">{{ include.sublabel }}</div>
+{%- endif %}
+{%- endif %}
+{%- if include.inforows %}
+    <table class="timeline-card-detail-info">
+      {{- include.inforows }}
+    </table>
+{%- endif %}
+{%- if include.media %}
+    <div class="timeline-card-detail-media">
+{%- include mediacard/dispatch.html media=include.media from=include.media-from %}
+    </div>
+{%- endif %}
+  </div>
+</div>

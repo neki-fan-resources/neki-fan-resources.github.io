@@ -1,0 +1,11 @@
+    <tr>
+      <td>
+        <input id="lyrics-lang-{{ include.language.id }}" type="checkbox"
+          {%- if language.active %} checked{%- endif -%}
+          {%- if language.fixed %} disabled
+          {%- else %} onchange="toggle_language_visibility('{{ language.id }}')"
+          {%- endif -%}
+        />
+      </td>
+      <td>{{ include.language.name }}</td>
+    </tr>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb, 2024-10-09)"
+   sodipodi:docname="nifr-logo-work.svg"
+   inkscape:export-filename="nifr-logo-512.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.92381453"
+     inkscape:cx="395.64219"
+     inkscape:cy="345.84864"
+     inkscape:window-width="2510"
+     inkscape:window-height="1371"
+     inkscape:window-x="50"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#e2007e;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#e2007e;stop-opacity:1;"
+         offset="0.1"
+         id="stop3" />
+      <stop
+         style="stop-color:#e50112;stop-opacity:1;"
+         offset="0.28"
+         id="stop7" />
+      <stop
+         style="stop-color:#e50112;stop-opacity:1;"
+         offset="0.36000001"
+         id="stop10" />
+      <stop
+         style="stop-color:#fff001;stop-opacity:1;"
+         offset="0.62"
+         id="stop8" />
+      <stop
+         style="stop-color:#fff001;stop-opacity:1;"
+         offset="0.69999999"
+         id="stop11" />
+      <stop
+         style="stop-color:#2ba6e1;stop-opacity:1;"
+         offset="0.89999998"
+         id="stop9" />
+      <stop
+         style="stop-color:#2ba6e1;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="0"
+       y1="67.73333"
+       x2="135.46666"
+       y2="67.73333"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2524415,6.0839448e-8,6.6836288e-8,1.2524415,10.476951,-85.312429)" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7">
+      <rect
+         style="display:inline;fill:#000000;stroke-width:0.3"
+         id="rect7"
+         width="135.46666"
+         height="135.46666"
+         x="0"
+         y="0"
+         rx="25.4"
+         ry="25.4"
+         inkscape:label="clip"
+         transform="rotate(-44.999999)" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="background-gradient"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient2);stroke-width:0.375732"
+       id="rect1"
+       width="170.62486"
+       height="170.62486"
+       x="10.476965"
+       y="-85.312431"
+       transform="rotate(44.999999)"
+       clip-path="url(#clipPath7)"
+       inkscape:label="gradient" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="textaspath"
+     style="mix-blend-mode:normal">
+    <path
+       d="M 47.088608,37.710632 V 101.66536 H 38.962492 L 13.354246,52.337641 V 101.66536 H 5.2720553 V 37.710632 H 13.354246 L 39.094267,87.170126 V 37.710632 Z m 22.226024,0 -0.571025,45.901573 H 61.75954 L 61.144591,37.710632 Z m -8.301816,59.869707 q 0,-1.976623 1.098124,-3.338296 1.142049,-1.361674 3.294371,-1.361674 2.196248,0 3.294371,1.361674 1.142049,1.361673 1.142049,3.338296 0,1.888773 -1.142049,3.250451 -1.098123,1.36167 -3.294371,1.36167 -2.152322,0 -3.294371,-1.36167 -1.098124,-1.361678 -1.098124,-3.250451 z m 32.28484,4.085021 H 85.522939 V 49.131119 q 0,-5.139219 1.625224,-8.653215 1.669148,-3.557921 4.699969,-5.358844 3.074747,-1.844848 7.291542,-1.844848 1.185976,0 2.371946,0.1757 1.2299,0.1757 2.32802,0.527099 l -0.3514,6.632668 q -0.7028,-0.219625 -1.71307,-0.307475 -0.96635,-0.08785 -1.844847,-0.08785 -2.108398,0 -3.601846,1.054199 -1.493448,1.010274 -2.284097,2.986897 -0.746724,1.976623 -0.746724,4.875669 z m 8.082194,-47.526796 v 6.237342 H 79.329521 v -6.237342 z m 16.95502,7.467241 v 40.059555 h -7.77471 V 54.138564 h 7.51116 z m 11.81581,-7.730791 0.0439,7.555091 q -0.96635,-0.219625 -1.757,-0.263549 -0.74672,-0.08785 -1.757,-0.08785 -2.19624,0 -3.86539,0.878499 -1.62523,0.878499 -2.8112,2.459797 -1.18597,1.581298 -1.88877,3.777546 -0.7028,2.152322 -0.96635,4.743894 l -2.02055,1.317749 q 0,-4.304645 0.65888,-8.082191 0.7028,-3.777546 2.15232,-6.676593 1.44952,-2.942971 3.68969,-4.568194 2.2841,-1.669148 5.4467,-1.669148 0.7028,0 1.71307,0.219624 1.0542,0.1757 1.36167,0.395325 z"
+       id="text11-2"
+       style="font-size:89.9583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.3"
+       inkscape:label="N!fr"
+       aria-label="N!fr" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text"
+     style="display:none;mix-blend-mode:normal">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:89.9583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#000000;stroke-width:0.3"
+       x="-1.6241618"
+       y="101.66536"
+       id="text11"
+       inkscape:label="N!fr"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:89.9583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.3"
+         x="-1.6241618"
+         y="101.66536">N!fr</tspan></text>
+  </g>
+</svg>

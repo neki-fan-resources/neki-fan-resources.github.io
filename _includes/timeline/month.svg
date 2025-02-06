@@ -1,1 +1,0 @@
-<text class="month" x="-3" y="{{ include.day }}" text-anchor="end" alignment-baseline="middle">{{ include.month }}</text>

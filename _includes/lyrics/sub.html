@@ -1,0 +1,28 @@
+{%- capture classes -%}
+lyrics-sub lyrics-sub-{{ include.language.id }}
+{%- if language.active != true %} lyrics-sub-hidden{% endif %}
+{%- endcapture %}
+        <tr class="{{ classes }}"
+          {%- if include.language.notranslation %} translate="no"
+          {%- endif -%}
+          >
+{%- if include.sub[0] %}
+{%- for word in include.sub %}
+{%- if include.language.baseurl %}
+          <td>{{ word.w }}
+{%- if word.d -%}
+<a class="lyrics-word-{% if word.w %}tiny-{% endif %}link" href="{{ include.language.baseurl }}{{ word.d }}" target="_blank_{{ include.language.id }}">{{ include.language.urltext }}</a>
+{%- endif -%}            
+          </td>
+{%- else %}
+          <td>{{ word }}</td>
+{%- endif %}
+{%- endfor %}
+{%- assign extracols = nbcols | minus: line[language.id].size %}
+{%- for i in (1..extracols) %}
+          <td></td>
+{%- endfor %}      
+{%- else %}
+          <td colspan="{{ include.nbcols }}">{{ include.sub }}</td>
+{%- endif %}
+        </tr>

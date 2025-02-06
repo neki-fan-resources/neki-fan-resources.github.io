@@ -1,1 +1,0 @@
-<path stroke="black" fill="none" d="M0 {{ include.day }} h10 v{{ include.shift | default: 0 }} h10"/>

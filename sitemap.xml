@@ -7,10 +7,13 @@ layout: none
     <loc>{{ site.url }}/</loc>
   </url>
   <url>
-    <loc>{{ site.url }}/music</loc>
+    <loc>{{ site.url }}/music.html</loc>
   </url>
   <url>
     <loc>{{ site.url }}/live.html</loc>
+  </url>
+  <url>
+    <loc>{{ site.url }}/chronology.html</loc>
   </url>
   <url>
     <loc>{{ site.url }}/sources.htmtl</loc>
@@ -18,17 +21,17 @@ layout: none
   <url>
     <loc>{{ site.url }}/about.html</loc>
   </url>
-{%- for song in site.songs %}
+{%- for song in site.song %}
   <url>
     <loc>{{ site.url }}{{ song.url }}</loc>
   </url>
 {%- endfor -%}
-{% for album in site.albums %}
+{% for album in site.album %}
   <url>
     <loc>{{ site.url }}{{ album.url }}</loc>
   </url>
 {%- endfor -%}
-{% for concert in site.concerts %}
+{% for concert in site.show %}
   <url>
     <loc>{{ site.url }}{{ concert.url }}</loc>
   </url>

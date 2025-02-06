@@ -1,0 +1,17 @@
+<div class="item-details">
+  <img class="item-details-cover" src="{{ include.cover-image }}">
+  <div class="item-details-main">
+    <div class="item-details-label" translate="no">{{ include.label }}</div>
+{%- if include.sublabel %}
+    <div class="item-details-sublabel">{{ include.sublabel }}</div>
+{%- endif %}
+{%- if include.parent %}
+{% include linecard/dispatch.html
+  data=parent
+%}
+{%- endif %}
+    <table class="item-details-info">
+{{- include.inforows }}
+    </table>
+  </div>
+</div>

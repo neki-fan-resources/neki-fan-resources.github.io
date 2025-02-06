@@ -2,18 +2,22 @@
 <html lang="en_US">
   <head>
     <meta charset="utf-8">
-{% if page.url == "/" %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+{%- if page.url == "/" %}
     <meta name="google-site-verification" content="DrE-ZbcyBV3lPatFCBja2O4ymKzfqFXDZjkfkTpvY_8" />
-{% endif %}
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="icon" type="image/png" href="/assets/images/nifr-favicon.png" sizes="32x32">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-{% include og.html %}
+{%- endif %}
+    <link rel="stylesheet" href="/asset/css/styles.css">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/nifr-logo.svg">
+    <link rel="icon" type="image/png" sizes="512x512" href="/nifr-logo-512.png">
+{% include opengraph/base.html %}
   </head>
   <body>
-    <script src="/assets/javascript/main.js"></script>
-    {% include navigation.html %}
-    {{ content }}
-    {% include footer.html %}
+    <script src="/asset/javascript/main.js"></script>
+{% include navigationbar/base.html %}
+{{ content }}
+{% include footer.html %}
   </body>
 </html>

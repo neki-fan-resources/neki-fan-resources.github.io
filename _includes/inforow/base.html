@@ -1,0 +1,8 @@
+      <tr>
+        <td class="item-details-info-label">{{ include.label }}</td>
+{%- if include.url %}
+        <td class="item-details-info-value"><a href="{{ include.url }}" target="_blank">{{ include.value }}</a></td>
+{%- else %}
+        <td class="item-details-info-value">{{ include.value }}</td>
+{%- endif %}
+      </tr>

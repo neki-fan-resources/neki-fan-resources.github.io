@@ -1,0 +1,73 @@
+:root {
+  --base-font-size: 18px; /* Default base size */
+}
+
+html {
+  font-size: var(--base-font-size); /* Apply the variable */
+}
+
+/* Media Queries for different screen sizes */
+@media (max-width: 767px) { /* Example breakpoint */
+  :root {
+    --base-font-size: 16px; /* Smaller base size for smaller screens */
+  }
+}
+
+@media (min-width: 768px) { /* Example breakpoint */
+  :root {
+    --base-font-size: 18px; /* Back to default or a different size */
+  }
+}
+
+@media (min-resolution: 150dpi) and (pointer: coarse) {  /* High-DPI touch devices */
+  :root {
+    --base-font-size: 22px;
+  }
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 'header' 'main' 'footer';
+  height: 100vh;
+}
+
+nav {
+  grid-area: header;
+}
+
+main {
+  height: 100%;
+  grid-area: main;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: auto;
+}
+
+.main-scroll {
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.main-background {
+  width: 100%;
+  padding: 0.5rem 0 2rem 0;
+  margin: 0;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.main-content {
+  padding: 0 1rem 0 1rem;
+  max-width: 62rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  grid-area: footer;
+}
+

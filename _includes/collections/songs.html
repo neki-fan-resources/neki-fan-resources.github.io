@@ -1,0 +1,6 @@
+{%- assign g_songs = "" | split: ',' %}
+{%- for songpair in site.data.song %}
+{%- assign s = songpair[1] %}
+{%- assign g_songs = g_songs | push: s %}
+{%- endfor %}
+{%- assign g_songs = g_songs | sort: 'release-date' %}

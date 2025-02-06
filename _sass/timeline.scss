@@ -1,0 +1,96 @@
+@import "colors.scss";
+
+// layout
+
+.timeline-card {
+  position: absolute;
+  top: 2rem;
+  right: calc(max(50% - 23rem,3rem));
+  min-width: 26rem;
+  max-width: 46rem;
+  padding: 0.4rem 0.8rem 0.8rem 0.8rem;
+}
+
+.timeline-card-info {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.timeline-card .line-card {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.timeline-card-detail {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-template-rows: auto auto auto 1fr;
+  grid-template-areas: 'cover label' 'cover sublabel' 'cover info' 'cover media';
+}
+
+.timeline-card-detail-cover {
+  grid-area: cover;
+  margin-right: 0.4rem;
+}
+
+.timeline-card-detail-cover-image {
+  height: 6rem;
+  border: solid 0.5px $not_black;
+}
+
+.timeline-card-detail-label {
+  grid-area: label;
+  color: black;
+}
+
+.timeline-card-detail-sublabel {
+  color: black;
+  grid-area: sublabel;
+}
+
+.timeline-card-detail-info {
+  grid-area: info;
+  width: fit-content;
+  margin: 0.5rem 0 0 1rem;
+}
+
+.timeline-card-detail-media {
+  grid-area: media;
+  margin: 1rem 0 0 1rem;
+}
+
+.timeline-card-close {
+  position: absolute;
+  top: -0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.timeline-card-hidden {
+  display: none;
+}
+
+// style
+
+.timeline-card {
+  border: solid 0.2rem black;
+  background: repeating-linear-gradient(170deg, $color_cocoro_lighter 0%, $color_hika_lighter 50%, $color_kanade_lighter 100%);
+}
+
+.timeline-card-close {
+  font-size: 3rem;
+  line-height: 3rem;
+  color: slategray
+}
+
+.timeline-card-detail-label {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+.timeline-card-detail-sublabel {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 600;
+}
+

@@ -3,6 +3,9 @@
 {%- capture cover-image %}
 {%- include coverimage/base.html data=album %}
 {%- endcapture %}
+{%- capture cover-image-alt %}
+{%- include coverimage/alt.html data=album %}
+{%- endcapture %}
 {%- capture inforows %}
 {% include inforow/releasedate.html
   data=album -%}
@@ -12,5 +15,6 @@
   designation=album.designation
   label=album.fullname
   cover-image=cover-image
+  cover-image-alt=cover-image-alt
   inforows=inforows
   uid=uid %}

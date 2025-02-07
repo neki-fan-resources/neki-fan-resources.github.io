@@ -1,5 +1,5 @@
 <div class="item-details">
-  <img class="item-details-cover" src="{{ include.cover-image }}">
+  <img class="item-details-cover" src="{{ include.cover-image }}" alt="{% include coverimage/alt.html data=include.data %}">
   <div class="item-details-main">
     <div class="item-details-label" translate="no">{{ include.label }}</div>
 {%- if include.sublabel %}

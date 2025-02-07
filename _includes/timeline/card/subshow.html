@@ -6,6 +6,9 @@
 {%- capture cover-image %}
 {%- include coverimage/base.html data=show %}
 {%- endcapture %}
+{%- capture cover-image-alt %}
+{%- include coverimage/alt.html data=show %}
+{%- endcapture %}
 {%- else %}
 {%- assign cover-image = nil %}
 {%- endif %}
@@ -30,6 +33,7 @@
   label=show.fullname
   sublabel=show.sublabel
   cover-image=cover-image
+  cover-image-alt=cover-image-alt
   media=g_media
   media-from=include.media-from
   inforows=inforows

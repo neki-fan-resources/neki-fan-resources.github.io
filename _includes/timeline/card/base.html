@@ -5,7 +5,7 @@
   <div class="timeline-card-detail">
 {%- if g_url %}
 {%- if include.cover-image %}
-    <a class="timeline-card-detail-cover" href="{{ g_url }}"><img class="timeline-card-detail-cover-image" src="{{ include.cover-image }}"></a>
+    <a class="timeline-card-detail-cover" href="{{ g_url }}"><img class="timeline-card-detail-cover-image" src="{{ include.cover-image }}" alt="{{ include.cover-image-alt}}"></a>
 {%- endif %}
     <a class="timeline-card-detail-label" href="{{ g_url }}">{{ include.label }}</a>
 {%- if include.sublabel %}
@@ -13,7 +13,7 @@
 {%- endif %}
 {%- else %}
 {%- if include.cover-image %}
-    <img class="timeline-card-detail-cover timeline-card-detail-cover-image" src="{{ include.cover-image }}">
+    <img class="timeline-card-detail-cover timeline-card-detail-cover-image" src="{{ include.cover-image }}"  alt="{{ include.cover-image-alt}}">
 {%- endif %}
     <div class="timeline-card-detail-label">{{ include.label }}</div>
 {%- if include.sublabel %}

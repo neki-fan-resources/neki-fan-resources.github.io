@@ -4,6 +4,9 @@
 {%- capture cover-image %}
 {%- include coverimage/base.html data=song %}
 {%- endcapture %}
+{%- capture cover-image-alt %}
+{%- include coverimage/alt.html data=song %}
+{%- endcapture %}
 {%- capture inforows %}
 {% include inforow/releasedate.html
   data=song -%}
@@ -14,6 +17,7 @@
   label=song.fullname
   sublabel=song.fullname-en
   cover-image=cover-image
+  cover-image-alt=cover-image-alt
   media=g_media
   inforows=inforows
   uid=uid %}

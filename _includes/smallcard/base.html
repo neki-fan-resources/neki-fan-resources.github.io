@@ -5,7 +5,7 @@
 {% endif %}
 <a class="small-card" href="/{{ include.data.collection }}/{{ include.data.uid }}.html">  
   <div class="small-card-designation">{{ include.designation }}</div>
-  <img class="small-card-cover" src="{{ include.cover-image }}">
+  <img class="small-card-cover" src="{{ include.cover-image }}" alt="{% include coverimage/alt.html data=include.data %}">
   <div class="small-card-label{{ not-released-class }}" translate="no">{{ include.label }}</div>
 {%- if include.sublabel %}
   <div class="small-card-sublabel{{ not-released-class }}">{{ include.sublabel }}</div>

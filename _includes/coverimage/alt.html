@@ -1,0 +1,14 @@
+{%- if include.data.assets.cover-image.show %}
+  {%- include show/get.html ref=include.data.assets.cover-image.show %}
+  {%- include coverimage/alt.html data=g_show %}
+{%- elsif include.data.assets.cover-image.album %}
+  {%- assign album = site.data.album[include.data.assets.cover-image.album] %}
+  {%- include coverimage/alt.html data=album %}
+{%- else -%}
+  {%- if include.data.designation %}
+    {%- assign designation = include.data.designation %}
+  {%- else %}
+    {%- assign designation = include.data.collection %}
+  {%- endif -%}
+  {{ designation }} {{ include.data.fullname }} cover image
+{%- endif %}

@@ -1,16 +1,21 @@
 socialmedia:
   x:
     logo: x-logo.ico
+    alt: X(twitter) logo
     url: https://x.com/
   youtube:
     logo: youtube-logo.svg
+    alt: YouTube logo
     url: https://www.youtube.com/@
   instagram:
     logo: instagram-logo.ico
+    alt: Instagram logo
     url: https://www.instagram.com/
   tiktok:
     logo: tiktok-logo.ico
+    alt: TikTok logo
     url: https://www.tiktok.com/@
   bluesky:
     logo: bluesky.svg
+    alt: Bluesky logo
     url: https://bsky.app/profile/

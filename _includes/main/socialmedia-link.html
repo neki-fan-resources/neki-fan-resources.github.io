@@ -1,1 +1,2 @@
-<a href="{{ site.data.external.socialmedia[include.smid].url }}{{ include.handle] }}" target="_blank"><img class="socialmedia-logo" src="/asset/image/logo/{{ site.data.external.socialmedia[include.smid].logo }}"/>{{ include.handle }}</a>
+{% assign socialmedia = site.data.external.socialmedia[include.smid] %}
+<a href="{{ socialmedia.url }}{{ include.handle] }}" target="_blank"><img class="socialmedia-logo" src="/asset/image/logo/{{ socialmedia.logo }}" alt="{{ socialmedia.alt }}"/>{{ include.handle }}</a>

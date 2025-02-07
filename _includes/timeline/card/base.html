@@ -1,7 +1,7 @@
 {%- include url/global.html data=include.data %}
 <div id="{{ include.uid }}" class="timeline-card timeline-card-hidden">
   <div class="timeline-card-close" onclick="toggle_timeline_card('{{ include.uid }}')">⨯</div>
-  <h1>{{ include.designation }}</h1>
+  <div class="designation">{{ include.designation }}</div>
   <div class="timeline-card-detail">
 {%- if g_url %}
 {%- if include.cover-image %}

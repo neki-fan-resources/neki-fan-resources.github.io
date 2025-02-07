@@ -1,31 +1,31 @@
 collections:
   song:
     output: true
-    permalink: /song/:name
+    permalink: /song/:name.html
   album:
     output: true
-    permalink: /album/:name
+    permalink: /album/:name.html
   show:
     output: true
-    premalink: /show:name
+    premalink: /show:name.html
 
 # dark pages. Usually not fully publicly released information
 
   d_song:
     output: true
-    permalink: /dark/song/:name
+    permalink: /dark/song/:name.html
 
 # previous location of files, not the canonical ones since February 2025
 
   old_songs:
     output: true
-    permalink: /songs/:name
+    permalink: /songs/:name.html
   old_concerts:
     output: true
-    permalink: /concerts/:name
+    permalink: /concerts/:name.html
   old_albums:
     output: true
-    permalink: /albums/:name
+    permalink: /albums/:name.html
 
 exclude: ["README.md", "**/README.md", "tmp/", "assets/", "Gemfile*", "NOT_REFERENCED.md", "TODO", "**/NP_*"]
 include: [.well-known]

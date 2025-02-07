@@ -1,9 +1,9 @@
 ---
 layout: default
-opengraph: show
+collection: show
 ---
-{%- assign year = "" | append: page.year -%}
-{%- assign show = site.data.show[year][page.lid] -%}
+{%- include item/frompage.html -%}
+{%- assign show = g_item -%}
 {%- capture main -%}
 {%- include itemdetails/dispatch.html data=show -%}
 {%- if show.media.concert %}

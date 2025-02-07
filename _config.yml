@@ -9,6 +9,12 @@ collections:
     output: true
     premalink: /show:name
 
+# dark pages. Usually not fully publicly released information
+
+  d_song:
+    output: true
+    permalink: /dark/song/:name
+
 # previous location of files, not the canonical ones since February 2025
 
   old_songs:
@@ -44,6 +50,12 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+  - scope:
+      path: ""
+      type: "d_song"
+    values:
+      layout: "d_song"
 
 # previous location of files, not the canonical ones since February 2025
   - scope:

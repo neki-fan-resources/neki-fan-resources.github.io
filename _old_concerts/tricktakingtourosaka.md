@@ -1,5 +1,5 @@
 ---
 year: 2024
-lid: tricktakingtourosaka
+pid: tricktakingtourosaka
 canonical: /show/2025/tricktakingtourosaka.html
 ---

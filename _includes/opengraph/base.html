@@ -1,6 +1,6 @@
-    {% capture title %}{% include opengraph/title/base.html %}{% endcapture -%}
-    {%- capture description %}{% include opengraph/description/base.html %}{% endcapture -%}
-    {%- capture image %}{% include opengraph/image/base.html %}{% endcapture -%}
+    {% capture title %}{% include opengraph/title/base.html item=include.item %}{% endcapture -%}
+    {%- capture description %}{% include opengraph/description/base.html item=include.item %}{% endcapture -%}
+    {%- capture image %}{% include opengraph/image/base.html item=include.item %}{% endcapture -%}
     {%- if page.canonical %}
     {%- assign canonical = site.url | append: page.canonical %}
     <meta http-equiv="refresh" content="0; url={{ canonical }}"/>

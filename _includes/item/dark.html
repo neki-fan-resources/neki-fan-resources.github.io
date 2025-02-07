@@ -1,0 +1,11 @@
+{%- if include.item.dark %}
+  {%- assign data=site.data %}
+{%- else %}
+  {%- assign data=site.data.d %}
+{%- endif %}
+{%- if include.item.year %}
+  {%- assign year = "" | append: include.ref.year -%}
+  {%- assign g_dark = data[include.item.collection][year][include.item.id] %}
+{%- else %}
+  {%- assign g_dark = data[include.item.collection][include.item.uid] %}
+{%- endif %}

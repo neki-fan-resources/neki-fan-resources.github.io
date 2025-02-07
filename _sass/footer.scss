@@ -19,6 +19,12 @@ footer {
   bottom: 0.1rem;
 }
 
+.footer-dark {
+  position: absolute;
+  left: 0.3rem;
+  bottom: 0.3rem;
+}
+
 // style
 
 footer {
@@ -26,4 +32,12 @@ footer {
   background: linear-gradient(120deg, $color_kanade_cocoro_light 0%, $color_kanade_light 5%, $color_kanade_light 20%, $color_hika_light 30%, $color_hika_light 45%, $color_natsu_light 55%, $color_natsu_light 70%, $color_cocoro_light 80%, $color_cocoro_light 95%, $color_kanade_cocoro_light 100%);
   font-size: 0.6rem;
   line-height: 0.6rem;
+}
+
+.footer-dark {
+  font-weight: 800;
+}
+
+.footer-dark a {
+  color: black
 }

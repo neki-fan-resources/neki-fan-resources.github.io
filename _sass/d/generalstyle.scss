@@ -1,0 +1,5 @@
+@import "colors.scss";
+
+.main-background {
+  background: repeating-linear-gradient(170deg, $color_kanade_light 0%, $color_natsu_light 90vh, $color_kanade_light 180vh);
+}

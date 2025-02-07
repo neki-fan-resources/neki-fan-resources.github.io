@@ -3,5 +3,6 @@ layout: none
 ---
 User-agent: *
 Allow: /
+Disallow: /dark/
 
 Sitemap: {{ site.url }}/sitemap.xml

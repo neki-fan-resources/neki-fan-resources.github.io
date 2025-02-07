@@ -1,11 +1,13 @@
 $color_kanade: #e2007e;
 $color_kanade_light: scale-color($color_kanade, $lightness: 50%);
 $color_kanade_lighter: scale-color($color_kanade, $lightness: 90%);
+$color_kanade_dark: scale-color($color_kanade, $lightness: -25%);
 $color_kanade_50: change-color($color_kanade, $alpha: 0.5);
 $color_kanade_05: change-color($color_kanade, $alpha: 0.05);
 $color_hika: #e50112;
 $color_hika_light: scale-color($color_hika, $lightness: 50%);
 $color_hika_lighter: scale-color($color_hika, $lightness: 90%);
+$color_hika_dark: scale-color($color_hika, $lightness: -50%);
 $color_hika_50: change-color($color_hika, $alpha: 0.5);
 $color_hika_10: change-color($color_hika, $alpha: 0.1);
 $color_natsu: #fff001;
@@ -24,6 +26,7 @@ $color_cocoro_05: change-color($color_cocoro, $alpha: 0.05);
 
 $color_kanade_cocoro: mix($color_kanade, $color_cocoro);
 $color_kanade_cocoro_light: scale-color($color_kanade_cocoro, $lightness: 50%);
+$color_kanade_cocoro_dark: mix($color_kanade_dark, $color_cocoro_dark);
 
 $color_designation: grey;
 $not_black: darkslategray;

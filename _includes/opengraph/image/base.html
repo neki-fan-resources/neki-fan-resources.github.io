@@ -1,1 +1,5 @@
-{{ site.url }}{% include opengraph/image/sub{{ layout.opengraph }}.html %}
+{%- if include.item -%}
+  {{ site.url }}{%- include coverimage/base.html data=include.item -%}
+{%- else -%}
+  {{ site.url }}/asset/image/band/nifr-band.png
+{%- endif %}

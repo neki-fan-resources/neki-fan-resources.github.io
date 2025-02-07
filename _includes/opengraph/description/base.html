@@ -1,1 +1,3 @@
-{% include opengraph/description/sub{{ layout.opengraph }}.html %}. NEK! (Neki) fan website. Provides resources around the band NEK!. Lyrics, videos, live, concerts, history.{% include opengraph/description/alt{{ layout.opengraph }}.html %}
+{% include opengraph/title/sub{{ include.item.collection }}.html item=include.item -%}
+. NEK! (Neki) fan website. Provides resources around the band NEK!. Lyrics, videos, live, concerts, history.
+{%- include opengraph/description/alt{{ include.item.collection }}.html item=include.item %}

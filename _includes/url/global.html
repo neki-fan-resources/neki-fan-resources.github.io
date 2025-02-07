@@ -1,8 +1,8 @@
 {%- assign collection-uid = include.data.collection %}
 {%- assign collection = site.collections | where: "label", collection-uid | first %}
 {%- if collection-uid == "show" %}
-  {%- assign item = collection.docs | where: "lid", include.data.id | first %}
-  {%- if item.lid -%}
+  {%- assign item = collection.docs | where: "pid", include.data.id | where: "year", include.data.year | first %}
+  {%- if item.pid -%}
     {%- assign g_url = "/show/" | append: include.data.year | append: "/" | append: include.data.id | append: ".html" %}
   {%- else %}
     {%- assign g_url = nil %}

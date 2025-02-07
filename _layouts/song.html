@@ -1,28 +1,29 @@
 ---
 layout: default
-opengraph: song
+collection: song
 ---
-{%- assign data = site.data.song[page.uid] -%}
+{%- include item/frompage.html %}
+{%- assign song = g_item -%}
 {%- capture main -%}
-{%- include itemdetails/dispatch.html data=data -%}
-{%- if data.media.video %}
+{%- include itemdetails/dispatch.html data=song -%}
+{%- if song.media.video %}
 <h2>Video</h2>
-{% include mediacard/list.html medias=data.media.video from="show" %}
+{% include mediacard/list.html medias=song.media.video from="show" %}
 {%- endif %}
-{%- if data.media.live %}
+{%- if song.media.live %}
 <h2>Live</h2>
-{% include mediacard/list.html medias=data.media.live from="show" %}
+{% include mediacard/list.html medias=song.media.live from="show" %}
 {%- endif %}
-{%- if data.media.short %}
+{%- if song.media.short %}
 <h2>Short</h2>
-{% include mediacard/list.html medias=data.media.short from="show" %}
+{% include mediacard/list.html medias=song.media.short from="show" %}
 {%- endif %}
-{%- if data.lyrics %}
-{% include lyrics/base.html lyrics=data.lyrics %}
+{%- if song.lyrics %}
+{% include lyrics/base.html lyrics=song.lyrics %}
 {%- endif %}
-{%- if data.media.additional %}
+{%- if song.media.additional %}
 <h2>Additional media</h2>
-{% include mediacard/list.html medias=data.media.additional from="show" %}
+{% include mediacard/list.html medias=song.media.additional from="show" %}
 {%- endif %}
 {%- endcapture -%}
 {%- include main/base.html content=main designation="song" -%}

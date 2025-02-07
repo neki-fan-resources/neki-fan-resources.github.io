@@ -1,5 +1,5 @@
 ---
 year: 2024
-lid: 1stonemanlive
+pid: 1stonemanlive
 canonical: /show/2024/1stonemanlive.html
 ---

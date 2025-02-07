@@ -1,3 +1,4 @@
+{%- include item/frompage.html -%}
 <!doctype html>
 <html lang="en_US">
   <head>
@@ -8,16 +9,20 @@
 {%- if page.url == "/" %}
     <meta name="google-site-verification" content="DrE-ZbcyBV3lPatFCBja2O4ymKzfqFXDZjkfkTpvY_8" />
 {%- endif %}
+{%- if g_item.dark %}
+    <link rel="stylesheet" href="/asset/css/dark.css">
+{%- else %}
     <link rel="stylesheet" href="/asset/css/styles.css">
+{%- endif %}
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="/nifr-logo.svg">
     <link rel="icon" type="image/png" sizes="512x512" href="/nifr-logo-512.png">
-{% include opengraph/base.html %}
+{% include opengraph/base.html item=g_item %}
   </head>
   <body>
     <script src="/asset/javascript/main.js"></script>
 {% include navigationbar/base.html %}
 {{ content }}
-{% include footer.html %}
+{% include footer.html item=g_item %}
   </body>
 </html>

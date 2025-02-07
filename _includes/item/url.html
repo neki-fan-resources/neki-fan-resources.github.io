@@ -1,0 +1,10 @@
+{%- if include.item.dark %}
+  {%- assign base-url = "/dark/" %}
+{%- else %}
+  {%- assign base-url = "/" %}
+{%- endif %}
+{%- if include.item.year -%}
+  {{ base-url }}{{ include.item.collection }}/{{ include.item.year }}/{{ include.item.id }}.html
+{%- else -%}
+  {{ base-url }}{{ include.item.collection }}/{{ include.item.uid }}.html
+{%- endif %}

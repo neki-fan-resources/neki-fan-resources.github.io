@@ -1,9 +1,10 @@
 {%- include show/get.html ref=include.show-ref %}
-{%- assign uid = "show-" | append: g_show.uid%}
+{%- assign show = g_show %}
+{%- assign uid = "show-" | append: show.uid%}
 {%- include media/get.html ref=include.media-ref %}
-{%- if g_show.assets.cover-image %}
+{%- if show.assets.cover-image %}
 {%- capture cover-image %}
-{%- include coverimage/base.html data=g_show %}
+{%- include coverimage/base.html data=show %}
 {%- endcapture %}
 {%- else %}
 {%- assign cover-image = nil %}
@@ -11,23 +12,23 @@
 {%- capture inforows %}
 {% include inforow/base.html
   label="date"
-  value=g_show.date -%}
+  value=show.date -%}
 {% include inforow/base.html
   label="venue"
-  value=g_show.location -%}
-{% include inforow/setlistfm.html data=g_show -%}
-{%- if g_show.event-page %}
+  value=show.location -%}
+{% include inforow/setlistfm.html data=show -%}
+{%- if show.event-page %}
 {% include inforow/base.html
   label=""
   value="event page"
-  url=g_show.event-page -%}
+  url=show.event-page -%}
 {%- endif %}
 {%- endcapture %}
 {%- include timeline/card/base.html
-  data=g_show
+  data=show
   designation="show"
-  label=g_show.fullname
-  sublabel=g_show.sublabel
+  label=show.fullname
+  sublabel=show.sublabel
   cover-image=cover-image
   media=g_media
   media-from=include.media-from

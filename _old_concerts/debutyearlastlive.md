@@ -1,5 +1,5 @@
 ---
 year: 2024
-lid: debutyearlastlive
+pid: debutyearlastlive
 canonical: /show/2024/debutyearlastlive.html
 ---

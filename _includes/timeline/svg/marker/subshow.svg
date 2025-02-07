@@ -1,10 +1,11 @@
 {%- include show/get.html ref=include.show-ref %}
-{%- assign uid = "show-" | append: g_show.uid %}
-{%- assign day = g_show.date | date: "%s" | divided_by: 43200 | minus: include.start-day %}
-{%- if g_show.shortname %}
-{%- assign label=g_show.shortname %}
+{%- assign show=g_show %}
+{%- assign uid = "show-" | append: show.uid %}
+{%- assign day = show.date | date: "%s" | divided_by: 43200 | minus: include.start-day %}
+{%- if show.shortname %}
+{%- assign label=show.shortname %}
 {%- else %}
-{%- assign label=g_show.fullname %}
+{%- assign label=show.fullname %}
 {%- endif %}
 {%- if include.short %}
 {% include timeline/svg/marker/left-short.svg
@@ -16,7 +17,7 @@
 %}
 {%- else %}
 {%- capture image -%}
-  {% include coverimage/base.html data=g_show %}
+  {% include coverimage/base.html data=show %}
 {%- endcapture %}
 {% include timeline/svg/marker/left.svg
   uid=uid

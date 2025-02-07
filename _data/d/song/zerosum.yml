@@ -1,0 +1,24 @@
+collection: song
+uid: zerosum
+dark: true
+
+fullname: zero-sum
+
+album: tricktaking
+
+release-date: 2025-03-05
+released: false
+
+assets:
+  cover-image:
+    filename: picover640.png
+    source:
+      description: modified band picture
+      url: https://x.com/nekiband_jp/status/1873309523106259279
+
+media:
+  live:
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: zerosum-01

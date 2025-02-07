@@ -1,0 +1,13 @@
+{%- if layout.dark %}
+  {% assign data = site.data.d %}
+{%- else %}
+  {% assign data = site.data %}
+{%- endif %}
+{%- if page.year %}
+  {%- assign year = "" | append: page.year -%}
+  {%- assign g_item = data.[layout.collection][year][page.pid] %}
+{%- elsif page.uid %}
+  {%- assign g_item = data.[layout.collection][page.uid] %}
+{%- else %}
+  {%- assign g_item = nil %}
+{%- endif %}

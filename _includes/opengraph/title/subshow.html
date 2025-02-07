@@ -1,3 +1,8 @@
-{%- assign year = "" | append: page.year -%}
-{%- assign show = site.data.show[year][page.lid] -%}
-{%- if show.shortname %}{{ show.shortname }}{% else %}{{ show.fullname }}{% endif %} - Show - Nek!
+{%- if include.item.shortname -%}
+  {{ include.item.shortname }}
+{%- else -%}
+  {{ include.item.fullname }}
+{%- endif %}
+{%- if include.item.sublabel -%}
+, {{ include.item.sublabel }}
+{%- endif %} - Show - Nek!

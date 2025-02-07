@@ -1,22 +1,23 @@
 ---
 layout: default
-opengraph: album
+collection: album
 ---
-{%- assign data = site.data.album[page.uid] -%}
-{%- capture main -%}
-{%- include itemdetails/dispatch.html data=data -%}
+{%- include item/frompage.html %}
+{%- assign album = g_item %}
+{%- capture main %}
+{%- include itemdetails/dispatch.html data=album %}
 <h2>Songs</h2>
 <div class="small-card-list">
-{%- for songuid in data.songs %}
+{%- for songuid in album.songs %}
 {%- assign song = site.data.song[songuid]%}
 {%- include smallcard/dispatch.html
   data=song
 %}
 {%- endfor %}
 </div>
-{%- if data.media.additional %}
+{%- if album.media.additional %}
 <h2>Additional media</h2>
-{% include mediacard/list.html medias=data.media.additional %}
+{% include mediacard/list.html medias=album.media.additional %}
 {%- endif %}
 {%- endcapture -%}
-{%- include main/base.html content=main designation=data.designation -%}
+{%- include main/base.html content=main designation=album.designation -%}

@@ -16,7 +16,7 @@ layout: none
     <loc>{{ site.url }}/chronology.html</loc>
   </url>
   <url>
-    <loc>{{ site.url }}/sources.htmtl</loc>
+    <loc>{{ site.url }}/sources.html</loc>
   </url>
   <url>
     <loc>{{ site.url }}/about.html</loc>

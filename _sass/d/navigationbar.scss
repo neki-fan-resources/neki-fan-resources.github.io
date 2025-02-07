@@ -1,3 +1,7 @@
+#nav-background {
+  background-color: $color_kanade_light;
+}
+
 nav {
   background-color: $color_natsu_dark;
   background: linear-gradient(120deg, $color_kanade_cocoro_dark 0%, $color_kanade_dark 5%, $color_kanade_dark 20%, $color_hika_dark 30%, $color_hika_dark 45%, $color_natsu_dark 55%, $color_natsu_dark 70%, $color_cocoro_dark 80%, $color_cocoro_dark 95%, $color_kanade_cocoro_dark 100%);

@@ -1,4 +1,4 @@
-    <nav>
+    <div id="nav-background"><nav>
       <a href="/"><img id="nifr-name-logo" src="/asset/image/logo/nifr-name-logo.svg"></a>
 {%- assign prefix = page.url | slice: 0, 6 -%}
 {%- for item in site.data.navigation.main %}
@@ -7,4 +7,4 @@
 {%- for item in site.data.navigation.support %}
       {% include navigationbar/item.html item=item prefix=prefix class="nav-item-support" %}
 {%- endfor %}
-    </nav>
+    </nav></div>

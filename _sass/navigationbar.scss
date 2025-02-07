@@ -23,6 +23,10 @@ nav :nth-child(1 of .nav-item-support) {
 
 // style
 
+#nav-background {
+  background-color: $color_kanade_lighter;
+}
+
 nav {
   background-color: $color_natsu;
   background: linear-gradient(120deg, $color_kanade_cocoro_light 0%, $color_kanade_light 5%, $color_kanade_light 20%, $color_hika_light 30%, $color_hika_light 45%, $color_natsu_light 55%, $color_natsu_light 70%, $color_cocoro_light 80%, $color_cocoro_light 95%, $color_kanade_cocoro_light 100%);

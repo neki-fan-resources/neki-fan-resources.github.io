@@ -2,9 +2,15 @@ collections:
   song:
     output: true
     permalink: /song/:name.html
+  song_extra:
+    output: true
+    permalink: /song/extra/:name.html
   album:
     output: true
     permalink: /album/:name.html
+  album_extra:
+    output: true
+    permalink: /album/extra/:name.html
   show:
     output: true
     premalink: /show:name.html
@@ -38,9 +44,19 @@ defaults:
       layout: "song"
   - scope:
       path: ""
+      type: "song_extra"
+    values:
+      layout: "song_extra"
+  - scope:
+      path: ""
       type: "album"
     values:
       layout: "album"
+  - scope:
+      path: ""
+      type: "album_extra"
+    values:
+      layout: "album_extra"
   - scope:
       path: ""
       type: "show"

@@ -18,6 +18,17 @@ assets:
   cover-image:
     album: exclamation
 
+media:
+  extra:
+  - song: blink
+    youtubeshort: promo-04
+  - song: blink
+    youtubeshort: promo-03
+  - song: blink
+    youtubeshort: promo-02
+  - song: blink
+    youtubeshort: promo-01
+
 lyrics:
   status:
     code: warning

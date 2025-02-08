@@ -1,5 +1,22 @@
 @import "colors.scss";
 
+// layout
+
+h1,
+.designation {
+  margin: 0 0 0.5rem 0;
+}
+
+h2 {
+  padding: 0.1rem 0 0 0.5rem;
+  margin: 3rem 0 1rem 0
+}
+
+.item-extra {
+  margin: 1rem 1rem 0 0;
+}
+
+// style
 
 h1,
 .designation {
@@ -8,7 +25,6 @@ h1,
   line-height: 1.1rem;
   font-weight: 700;
   color: $color_designation;
-  margin: 0 0 0.5rem 0;
 }
 
 h2 {
@@ -16,6 +32,12 @@ h2 {
   line-height: 1.5rem;
   font-weight: 700;
   border-top: gray solid 1px;
-  padding: 0.1rem 0 0 0.5rem;
-  margin: 3rem 0 1rem 0
+}
+
+.item-extra {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: end;
 }

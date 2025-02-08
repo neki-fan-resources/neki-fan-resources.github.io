@@ -24,6 +24,17 @@ media:
       year: 2024
       id: 2ndonemanlive
     youtubeshort: endlessgame-01
+  extra:
+  - song: endlessgame
+    youtubeshort: promo-05
+  - song: endlessgame
+    youtubeshort: promo-04
+  - song: endlessgame
+    youtubeshort: promo-03
+  - song: endlessgame
+    youtubeshort: promo-02
+  - song: endlessgame
+    youtubeshort: promo-01
 
 lyrics:
   status:

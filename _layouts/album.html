@@ -19,5 +19,8 @@ collection: album
 <h2>Additional media</h2>
 {% include mediacard/list.html medias=album.media.additional %}
 {%- endif %}
+{%- if song.media.extra %}
+<div class="item-extra"><a href="/album/extra/{{ album.uid }}.html">Extra →</a></div>
+{%- endif %}
 {%- endcapture -%}
 {%- include main/base.html content=main designation=album.designation -%}

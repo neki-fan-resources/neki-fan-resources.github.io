@@ -61,7 +61,26 @@ media:
   - song: getover
     youtube: teaser-01
   - song: getover
+    youtubeshort: music-video-02
+  extra:
+  - song: getover
+    youtubeshort: promo-07
+  - song: getover
+    youtubeshort: promo-06
+  - song: getover
+    youtubeshort: promo-05
+  - song: getover
     youtubeshort: music-video-01
+  - song: getover
+    youtubeshort: teaser-01
+  - song: getover
+    youtubeshort: promo-04
+  - song: getover
+    youtubeshort: promo-03
+  - song: getover
+    youtubeshort: promo-02
+  - song: getover
+    youtubeshort: promo-01
 
 lyrics:
   status:

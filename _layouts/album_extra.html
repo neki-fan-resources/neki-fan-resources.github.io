@@ -1,0 +1,15 @@
+---
+layout: default
+collection: album
+---
+{%- include item/frompage.html %}
+{%- assign album = g_item -%}
+{%- capture main -%}
+{%- include linecard/dispatch.html data=album %}
+{%- if album.media.extra %}
+<h2>Media</h2>
+{% include mediacard/list.html medias=album.media.extra from="show" %}
+{%- endif %}
+{%- endcapture -%}
+{% assign designation = album.designation | append: " - extra" %}
+{%- include main/base.html content=main designation=designation -%}

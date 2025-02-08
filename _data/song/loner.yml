@@ -51,6 +51,18 @@ media:
   additional:
   - song: loner
     youtube: teaser-01
+  extra:
+  - song: loner
+    youtubeshort: promo-02
+  - song: loner
+    youtubeshort: promo-01
+  - song: loner
+    youtubeshort: music-video-02
+  - song: loner
+    youtubeshort: music-video-01
+  - song: loner
+    youtubeshort: teaser-01
+  
 
 lyrics:
   status:

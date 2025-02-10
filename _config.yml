@@ -33,7 +33,7 @@ collections:
     output: true
     permalink: /albums/:name.html
 
-exclude: ["README.md", "**/README.md", "tmp/", "assets/", "Gemfile*", "NOT_REFERENCED.md", "TODO", "**/NP_*"]
+exclude: ["README.md", "**/README.md", "tmp/", "Gemfile*", "NOT_REFERENCED.md", "TODO", "**/NP_*"]
 include: [.well-known]
 
 defaults:

@@ -1,27 +1,26 @@
 collection: song
-uid: fool
+uid: unnamed01
 dark: true
 
-fullname: Fool
+fullname: "-"
 
-album: tricktaking
+album: "-"
 
-release-date: 2025-03-05
+release-date: "-"
 released: false
 
 assets:
   cover-image:
-    filename: picover640.png
+    filename: unnamed-picover.png
     source:
-      description: modified band picture
-      url: https://x.com/nekiband_jp/status/1873309523106259279
+      description: modified band logo
 
 media:
   live:
   - show:
       year: 2024
       id: 2ndonemanlive
-    youtubeshort: fool-01
+    youtubeshort: song06-01
 
 lyrics:
   status:

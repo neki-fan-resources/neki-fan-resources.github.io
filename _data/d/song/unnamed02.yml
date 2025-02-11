@@ -1,0 +1,26 @@
+collection: song
+uid: unnamed02
+dark: true
+
+fullname: "-"
+
+album: "-"
+
+release-date: "-"
+released: false
+
+assets:
+  cover-image:
+    filename: unnamed-picover.png
+    source:
+      description: modified band logo
+
+media:
+  live:
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: song02-01
+  short:
+  - song: unnamed02
+    youtubeshort: promo-01

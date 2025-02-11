@@ -6,11 +6,7 @@ fullname: zero-sum
 album: tricktaking
 
 release-date: 2025-02-12
-released: false
 
 assets:
   cover-image:
-    filename: picover640.png
-    source:
-      description: modified band picture
-      url: https://x.com/nekiband_jp/status/1873309523106259279
+    album: tricktaking

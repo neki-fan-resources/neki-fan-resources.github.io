@@ -13,7 +13,7 @@ collections:
     permalink: /album/extra/:name.html
   show:
     output: true
-    premalink: /show:name.html
+    premalink: /show:path.html
 
 # dark pages. Usually not fully publicly released information
 

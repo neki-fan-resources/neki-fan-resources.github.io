@@ -27,7 +27,10 @@ media:
       year: 2024
       id: 2ndonemanlive
     youtube: maze-01
-  - dreams_live-01
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtube: dreams-01
   short:
   - show:
       year: 2024

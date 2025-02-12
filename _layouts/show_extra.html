@@ -1,0 +1,14 @@
+---
+layout: default
+collection: show
+---
+{%- include item/frompage.html %}
+{%- assign show = g_item -%}
+{%- capture main -%}
+{%- include linecard/dispatch.html data=show %}
+{%- if show.media.extra %}
+<h2>Media</h2>
+{% include mediacard/list.html medias=show.media.extra from="song" %}
+{%- endif %}
+{%- endcapture -%}
+{%- include main/base.html content=main designation="show - extra" -%}

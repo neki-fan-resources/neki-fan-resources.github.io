@@ -13,7 +13,11 @@ collections:
     permalink: /album/extra/:name.html
   show:
     output: true
-    premalink: /show:path.html
+    permalink: /show:path.html
+  show_extra:
+    output: true
+    permalink: /show/extra/:path.html
+
 
 # dark pages. Usually not fully publicly released information
 
@@ -62,6 +66,11 @@ defaults:
       type: "show"
     values:
       layout: "show"
+  - scope:
+      path: ""
+      type: "show_extra"
+    values:
+      layout: "show_extra"
   - scope:
       path: ""
     values:

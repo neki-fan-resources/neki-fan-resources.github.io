@@ -18,5 +18,8 @@ collection: show
 <h2>Short</h2>
 {% include mediacard/list.html medias=show.media.short from="song" %}
 {%- endif %}
+{%- if show.media.extra %}
+<div class="item-extra"><a href="/show/extra/{{ show.year }}/{{ show.id }}.html">Extra →</a></div>
+{%- endif %}
 {%- endcapture -%}
 {%- include main/base.html content=main designation="show" -%}

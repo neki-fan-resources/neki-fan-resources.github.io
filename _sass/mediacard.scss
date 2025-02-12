@@ -1,3 +1,5 @@
+@import "colors";
+
 // layout
 
 .media-card {
@@ -42,6 +44,10 @@
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 700;
+}
+
+.media-card-label-unavailable {
+  text-decoration: line-through 2px $not_black;
 }
 
 .media-card-sublabel {

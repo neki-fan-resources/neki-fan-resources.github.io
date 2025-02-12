@@ -1,7 +1,14 @@
+{%- assign avaibility= "available from "
+  | append: include.media.published-date
+  | append: " until "
+  | append: include.media.expiration-date
+%}
 {%- include mediacard/base.html
   media=include.media
   label=include.media.name
   sublabel=include.media.description
+  info=avaibility
+  unavailable=include.media.unavailable
   url=include.media.zaiko
   image-url=include.media.assets.cover-image
   overlay-url="/asset/image/logo/zaiko-logo.ico"

@@ -16,7 +16,7 @@
 {%- assign sublabel = sublabel | append: include.info %}
 {%- endif -%}
 <div class="media-card">
-  <div class="media-card-label">{{ include.label }}</div>
+  <div class="media-card-label {%- if include.unavailable %} media-card-label-unavailable{% endif %}">{{ include.label }}</div>
   <a href="{{ include.url }}" target="_blank">
     <div class="media-card-image">
       <img class="media-card-image-over" src="{{ include.overlay-url}}" alt="media service logo">

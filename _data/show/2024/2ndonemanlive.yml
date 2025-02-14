@@ -56,6 +56,18 @@ media:
   - show:
       year: 2024
       id: 2ndonemanlive
+    youtubeshort: maze-01
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: song06-01
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: song02-01
+  - show:
+      year: 2024
+      id: 2ndonemanlive
     youtubeshort: dreams-03
   - show:
       year: 2024
@@ -65,13 +77,6 @@ media:
       year: 2024
       id: 2ndonemanlive
     youtubeshort: dreams-01
-  - show:
-      year: 2024
-      id: 2ndonemanlive
-    youtubeshort: song02-01
-  - show:
-      year: 2024
-      id: 2ndonemanlive
-    youtubeshort: song06-01
+
 
 

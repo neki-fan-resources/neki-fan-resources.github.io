@@ -14,6 +14,9 @@ assets:
 media:
   video:
     - song: zerosum
+      youtube: music-video-01
+  additional:
+    - song: zerosum
       youtube: teaser-01
   extra:
     - song: zerosum

@@ -10,3 +10,11 @@ release-date: 2025-02-12
 assets:
   cover-image:
     album: tricktaking
+
+media:
+  video:
+    - song: zerosum
+      youtube: teaser-01
+  extra:
+    - song: zerosum
+      youtubeshort: teaser-01

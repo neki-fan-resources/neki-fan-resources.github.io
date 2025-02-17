@@ -34,3 +34,79 @@ media:
       youtubeshort: music-video-01
     - song: zerosum
       youtubeshort: teaser-01
+
+lyrics:
+  status:
+    code: warning
+    description: Data copied from the sources. Not reviewed.
+  languages:
+    - id: ol
+      name: original lyrics (from YouTube Official Music Video description)
+      active: true
+      fixed: true
+      notranslation: true
+      source:
+        label: Original lyrics
+        description: from YouTube Official Music Video description
+        url: https://www.youtube.com/watch?v=z3HM2COly2Q
+  sections:
+    - lines:
+      - ol: 君等の言葉裏の裏
+      - ol: 白と黒の盤面上で
+      - ol: 銘々取り合うポジショントーク
+      - ol: しょうもない
+      - ol: しょうもない
+      - ol: 一生陰口驕った信者 カオス論争
+      - ol: アイロニ含んだ被害者ムーブ 痛い感傷
+      - ol: 対あり人生エアプの思考お次どうぞ
+      - ol: Goodbye, my dear hater guys
+      - ol: 電子の海で
+      - ol: 妄想幻想吐いて
+      - ol: 噛みつき回る
+      - ol: キリキリ舞う生命体めがけ
+      - ol: BADカマして 鳴らして yeah
+      - ol: 凍てつく夜を Rollin' Rollin' down
+      - ol: 慣性が途切れぬように
+      - ol: 言葉を奪う聖者の行進
+      - ol: Crazy noisy 偽りの正義
+      - ol: あぁブルーライトの灯り
+      - ol: 鳥籠の中のようです
+      - ol: 指先の世界は素晴らしい
+      - ol: zero-sum fair game
+      - ol: Want you gone?
+      - ol: 君等の腹の中の中
+      - ol: ドス黒い本音を隠して
+      - ol: 延々迷走ダブスタトーク
+      - ol: しょうもない
+      - ol: しょうもない
+      - ol: 加工で満たす承認欲求 晒す煩悩
+      - ol: 主語デカお気持ちブロ解絶交 渡す引導
+      - ol: 品性疑う捨て身の拡散消してどうぞ
+      - ol: Goodbye, my dear hater guys
+      - ol: 冷笑して 壊して yeah
+      - ol: 焦げ付く夜を Rollin' Rollin' down
+      - ol: 喧騒が途絶えぬように
+      - ol: 言葉を奪う聖者の行進
+      - ol: Crazy noisy 歪んだ正義
+      - ol: あぁレッドライトが灯り
+      - ol: 袋のネズミのようです
+      - ol: 指先の世界は素晴らしい
+      - ol: zero-sum fair game
+      - ol: Bring it down……
+      - ol: BADカマして
+      - ol: 叫べ say yeah……
+      - ol: 凍てつく夜を Rollin' Rollin' down
+      - ol: 感性が途切れぬように
+      - ol: 心を燃やす僕らの逆襲
+      - ol: 革命前夜 不退転モーション
+      - ol: 焦げ付く夜を Rollin' Rollin' down
+      - ol: 情動が途絶えぬように
+      - ol: 言葉を奪う聖者気取りを
+      - ol: 笑ってやろうぜ 無敵のエモーション
+      - ol: あぁレッドライトが灯り
+      - ol: チェックメイトおしまいです
+      - ol: 指先の世界は素晴らしい
+      - ol: zero-sum fair game
+      - ol: Want you gone?
+
+

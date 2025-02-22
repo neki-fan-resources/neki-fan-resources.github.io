@@ -56,15 +56,13 @@ lyrics:
         label: Original lyrics
         description: from YouTube Official Music Video description
         url: https://www.youtube.com/watch?v=z3HM2COly2Q
-    # - id: ro
-    #   name: rōmaji
-    #   notranslation: true
-    #   active: true
-    # - id: ww
-    #   name: word by word translation (using jisho.org)
-    #   baseurl: https://jisho.org/search/
-    #   urltext: J
-    #   active: true
+    - id: ro
+      name: rōmaji
+      notranslation: true
+    - id: ww
+      name: word by word translation (using jisho.org)
+      baseurl: https://jisho.org/search/
+      urltext: J
     - id: en
       name: english translation (from YouTube Live Video subtitles)
       active: true
@@ -77,18 +75,22 @@ lyrics:
       - ol:
         - 君等
         - の
-        - 言
-        - 葉裏
-        - の
-        - 裏
+        - 言葉
+        - 裏の裏
         ro:
         - kimira
         - "no"
         - kotoba
-        - ura
-        - "no"
-        - ura
+        - ura no ura
         ww:
+        - w: you lot
+          d: 君等
+        - w: ('s)
+          d: の
+        - w: word
+          d: 言葉
+        - w: behind the concealed
+          d: 裏の裏
         - d: 君等の言葉裏の裏
         en: The hidden meaning behind your words.
       - ol:
@@ -96,18 +98,28 @@ lyrics:
         - と
         - 黒
         - の
-        - 盤
-        - 面上
-        - で
+        - 盤面
+        - 上で
         ro:
         - shiro
         - to
         - kuro
         - "no"
-        - ban
-        - menjō
-        - de
+        - banmen
+        - joude
         ww:
+        - w: white
+          d: 白
+        - w: and
+          d: と
+        - w: black
+          d: 黒
+        - w: ('s)
+          d: の
+        - w: playing board
+          d: 盤面
+        - w: "on"
+          d: 上で
         - d: 白と黒の盤面上で
         en: On a board of black and white.
       - ol:
@@ -121,16 +133,28 @@ lyrics:
         - pojishon
         - tōku
         ww:
+        - w: each
+          d: 銘々
+        - w: fight for
+          d: 取り合う
+        - w: position
+          d: ポジション
+        - w: talk
+          d: トーク
         - d: 銘々取り合うポジショントーク
         en: Each fighting for their own position.
       - ol: しょうもない
         ro: shōmonai
         ww:
+        - w: meaningless
+          d: しょうもない
         - d: しょうもない
         en: So meaningless.
       - ol: しょうもない
         ro: shōmonai
         ww:
+        - w: meaningless
+          d: しょうもない
         - d: しょうもない
         en: So meaningless.
     - lines:
@@ -151,30 +175,51 @@ lyrics:
         - kaosu
         - ronsō
         ww:
+        - w: whole life
+          d: 一生
+        - w: backbiting
+          d: 陰口
+        - w: arrogant
+          d: 驕った
+        - w: believer
+          d: 信者
+        - w: ""
+        - w: chaos
+          d: カオス
+        - w: debate
+          d: 論争
         - d: 一生陰口驕った信者 カオス論争
         en: A lifelong gossiping, arrogant believer—chaotic debates.
       - ol:
         - アイロニ
         - 含んだ
-        - 被害者
-        - ムーブ
+        - 被害者ムーブ
         - " "
         - 痛い
         - 感傷
         ro:
         - aironi
         - fukunda
-        - higaisha
-        - mūbu
+        - higaisha mūbu
         - " "
         - itai
         - kanjō
         ww:
+        - w: irony
+          d: アイロニ
+        - w: comprised
+          d: 含んだ
+        - w: victim move
+          d: 被害者ムーブ
+        - w: ""
+        - w: painful
+          d: 痛い
+        - w: sentimentality
+          d: 感傷
         - d: アイロニ含んだ被害者ムーブ 痛い感傷
         en: Playing the victim with a touch of irony—painful sentimentality.
       - ol:
-        - 対
-        - あり
+        - 対あり
         - 人生
         - エアプ
         - の
@@ -183,8 +228,7 @@ lyrics:
         - お次
         - どうぞ
         ro:
-        - tai
-        - ari
+        - taiari
         - jinsei
         - eapu
         - "no"
@@ -193,6 +237,21 @@ lyrics:
         - otsugi
         - dōzo
         ww:
+        - w: "good game"
+          d: 対あり
+        - w: (one's) life
+          d: 人生
+        - w: pretend experience
+          d: エアプ
+        - w: ('s)
+          d: の
+        - w: thought
+          d: 思考
+        - w: ""
+        - w: next
+          d: お次
+        - w: please
+          d: どうぞ
         - d: 対あり人生エアプの思考お次どうぞ
         en: '"Good game"—a life with no real experience, next up, please.'
       - ol: Goodbye, my dear hater guys
@@ -208,6 +267,14 @@ lyrics:
         - umi
         - de
         ww:
+        - w: electronic
+          d: 電子
+        - w: ('s)
+          d: の
+        - w: sea
+          d: 海
+        - w: in
+          d: で
         - d: 電子の海で
         en: In the sea of digital waves,
       - ol:
@@ -219,6 +286,12 @@ lyrics:
         - gensō
         - haite
         ww:
+        - w: delusion
+          d: 妄想
+        - w: fantasy
+          d: 幻想
+        - w: spitting out
+          d: 吐いて
         - d: 妄想幻想吐いて
         en: Spewing delusions and fantasies,
       - ol:
@@ -228,6 +301,10 @@ lyrics:
         - kamitsuki
         - mawaru
         ww:
+        - w: bite at
+          d: 噛みつき
+        - w: go around
+          d: 回る
         - d: 噛みつき回る
         en: Biting and lashing out,
       - ol:
@@ -241,56 +318,86 @@ lyrics:
         - seimeitai
         - megake
         ww:
+        - w: spinning
+          d: キリキリ
+        - w: to whirl
+          d: 舞う
+        - w: life-form
+          d: 生命体
+        - w: aiming at
+          d: めがけ
         - d: キリキリ舞う生命体めがけ
         en: Targeting the restless, whirling creatures.
       - ol:
         - BAD
-        - カマ
-        - して
+        - カマして
         - " "
         - 鳴らして
         - " "
         - yeah
         ro:
         - ""
-        - kama
-        - shite
+        - kamashite
         - ""
         - narashite
         - ""
         ww:
+        - w: BAD
+        - w: unleashing
+          d: カマして
+        - w: ""
+        - w: make it sound
+          d: 鳴らして
+        - w: ""
+        - w: yeah
         - d: BADカマして 鳴らして yeah
         en: Drop a BAD move, make some noise, yeah.
     - lines:
       - ol:
-        - 凍て
-        - つく夜
+        - 凍てつく
+        - 夜
         - を
         - Rollin'
         - Rollin'
         - down
         ro:
-        - ite
-        - tsuku
-        - yoro
+        - itetsuku
+        - yoru
         - o
         - ""
         - ""
         - ""
         ww:
+        - w: freezing
+          d: 凍てつく
+        - w: night
+          d: 夜
+        - w: ""
+          d: を
+        - w: Rollin'
+        - w: Rollin'
+        - w: down
         - d: 凍てつく夜を Rollin' Rollin' down
         en: The frozen night, Rollin' Rollin' down
       - ol:
         - 慣性
         - が
-        - 途切れぬ
-        - ように
+        - 途切れ
+        - ぬように
         ro:
         - kansei
         - ga
-        - togirenu
-        - yōni
+        - togire
+        - nuyōni
         ww:
+        - w: inertia
+          d: 慣性
+        - w: ""
+          d: が
+        - w: break off
+          d: 途切れ
+        - w: so as not to 
+          d: ぬように
         - d: 慣性が途切れぬように
         en: To keep our momentum from breaking.
       - ol:
@@ -304,19 +411,37 @@ lyrics:
         - ubau
         - seijanokōshin
         ww:
+        - w: word 
+          d: 言葉
+        - w: ""
+          d: を
+        - w: steal
+          d: 奪う
+        - w: procession of saints
+          d: 聖者の行進
         - d: 言葉を奪う聖者の行進
         en: The parade of so-called saints stealing words.
       - ol:
-        - Crazy noisy
+        - Crazy
+        - noisy
         - 偽り
         - の
         - 正義
         ro:
         - ""
+        - ""
         - itsuwari
         - "no"
         - seigi
         ww:
+        - w: Crazy
+        - w: noisy
+        - w: falsehood
+          d: 偽り
+        - w: ('s)
+          d: の
+        - w: justice
+          d: 正義
         - d: Crazy noisy 偽りの正義
         en: Crazy, noisy, false justice.
     - lines:
@@ -333,6 +458,16 @@ lyrics:
         - "no"
         - akari
         ww:
+        - w: Ah
+          d: あぁ
+        - w: blue
+          d: ブルー
+        - w: light
+          d: ライト
+        - w: ('s)
+          d: の
+        - w: glow
+          d: 灯り
         - d: あぁブルーライトの灯り
         en: Ah, the glow of the blue light,
       - ol:
@@ -345,11 +480,23 @@ lyrics:
         ro:
         - torikago
         - "no"
-        - naki
+        - naka
         - "no"
         - yō
         - desu
         ww:
+        - w: birdcage
+          d: 鳥籠
+        - w: ('s)
+          d: の
+        - w: inside
+          d: 中
+        - w: ('s)
+          d: の
+        - w: like
+          d: よう
+        - w: be
+          d: です
         - d: 鳥籠の中のようです
         en: Feels just like a birdcage.
       - ol:
@@ -367,6 +514,18 @@ lyrics:
         - wa
         - subarashī
         ww:
+        - w: finger
+          d: 指
+        - w: tip
+          d: 先
+        - w: ('s)
+          d: の
+        - w: the world
+          d: 世界
+        - w: ""
+          d: は
+        - w: magnificent
+          d: 素晴らしい
         - d: 指先の世界は素晴らしい
         en: The world at my fingertips is magnificent
     - lines:
@@ -376,18 +535,26 @@ lyrics:
       - ol:
         - 君等
         - の
-        - 腹
+        - 腹の中
         - の
         - 中
         ro:
         - kimira
         - "no"
-        - harami
-        - "no"
-        - ka
+        - harami no naka
         - "no"
         - naka
         ww:
+        - w: you lot
+          d: 君等
+        - w: ('s)
+          d: の
+        - w: inside oneself
+          d: 腹の中
+        - w: ('s)
+          d: の
+        - w: within
+          d: 中
         - d: 君等の腹の中の中
         en: Hidden deep within you,
       - ol:
@@ -401,27 +568,49 @@ lyrics:
         - o
         - kakushite
         ww:
+        - w: dark
+          d: ドス黒い
+        - w: motive
+          d: 本音
+        - w: ""
+          d: を
+        - w: hide
+          d: 隠して
         - d: ドス黒い本音を隠して
         en: You hide your pitch-black true intentions.
       - ol:
         - 延々
         - 迷走
-        - ダブスタトーク
+        - ダブスタ
+        - トーク
         ro:
         - enen
         - meisō
-        - dabusutatōku
+        - dabusuta
+        - tōku
         ww:
+        - w: endlessly
+          d: 延々
+        - w: straying
+          d: 迷走
+        - w: double-standard
+          d: ダブスタ
+        - w: talk
+          d: トーク
         - d: 延々迷走ダブスタトーク
         en: Endlessly wandering in double-standard talk.
       - ol: しょうもない
         ro: shōmonai
         ww:
+        - w: meaningless
+          d: しょうもない
         - d: しょうもない
         en: So meaningless.
       - ol: しょうもない
         ro: shōmonai
         ww:
+        - w: meaningless
+          d: しょうもない
         - d: しょうもない
         en: So meaningless.
     - lines:
@@ -442,6 +631,19 @@ lyrics:
         - sarasu
         - bonnō
         ww:
+        - w: processing
+          d: 加工
+        - w: with
+          d: で
+        - w: filled
+          d: 満たす
+        - w: need for approval
+          d: 承認欲求
+        - ""
+        - w: expose
+          d: 晒す
+        - w: worldly desires
+          d: 煩悩
         - d: 加工で満たす承認欲求 晒す煩悩
         en: A craving for validation, filled with filters—your desires exposed.
       - ol:
@@ -465,6 +667,23 @@ lyrics:
         - watasu
         - indō
         ww:
+        - w: subject
+          d: 主語
+        - w: huge
+          d: デカ
+        - w: ""
+          d: お
+        - w: emotions
+          d: 気持ち
+        - w: blocking
+          d: ブロ解
+        - w: Breaking off relations
+          d: 絶交
+        - w: ""
+        - w: carry across
+          d: 渡す
+        - w: requiem
+          d: 引導
         - d: 主語デカお気持ちブロ解絶交 渡す引導
         en: Big words, emotional rants—blocking, unfriending, and cutting ties, leading to the end.
       - ol:
@@ -484,26 +703,337 @@ lyrics:
         - keshite
         - dōzo
         ww:
+        - w: character
+          d: 品性
+        - w: questioning
+          d: 疑う
+        - w: desperate
+          d: 捨て身
+        - w: ('s)
+          d: の
+        - w: spreading
+          d: 拡散
+        - w: erase
+          d: 消して
+        - w: please
+          d: どうぞ
         - d: 品性疑う捨て身の拡散消してどうぞ
         en: Reckless spreading, questionable dignity—go ahead and erase it.
       - ol: Goodbye, my dear hater guys
       - ol:
-        - 冷笑
-        - して
+        - 冷笑して
         - " "
         - 壊して
         - " "
         - yeah
         ro:
-        - reishō
-        - shite
+        - reishōshite
         - ""
         - kowashite
         - ""
         - ""
         ww:
+        - w: sneering
+          d: 冷笑して
+        - ""
+        - w: demolishing
+          d: 壊して
+        - ""
+        - w: yeah
         - d: 冷笑して 壊して yeah
         en: Sneering coldly, breaking it down, yeah.
+    - lines: 
+      - ol:
+        - 焦げ付く夜
+        - を
+        - Rollin'
+        - Rollin'
+        - down
+        ro:
+        - kogetsuku yoru
+        - o
+        - ""
+        - ""
+        - ""
+        ww:
+        - w: burning night
+          d: 焦げ付く夜
+        - w: ""
+          d: を
+        - w: Rollin'
+        - w: Rollin'
+        - w: down
+        - d: 焦げ付く夜を Rollin' Rollin' down
+        en: The burning night, Rollin' Rollin' down
+      - ol:
+        - 喧騒
+        - が
+        - 途絶え
+        - ぬように
+        ro:
+        - kensō
+        - ga
+        - todae
+        - nuyōni
+        ww:
+        - w: tumult
+          d: 喧騒
+        - w: ""
+          d: が
+        - w: to stop
+          d: 途絶え
+        - w: so as not to
+          d: ぬように
+        - d: 喧騒が途絶えぬように
+        en: To keep the uproar alive.
+      - ol:
+        - 言葉
+        - を
+        - 奪う
+        - 聖者の行進
+        ro:
+        - kotoba
+        - o
+        - ubau
+        - seijanokōshin
+        ww:
+        - w: word 
+          d: 言葉
+        - w: ""
+          d: を
+        - w: steal
+          d: 奪う
+        - w: procession of saints
+          d: 聖者の行進
+        - d: 言葉を奪う聖者の行進
+        en: The parade of so-called saints stealing words.
+      - ol:
+        - Crazy
+        - noisy
+        - 歪んだ
+        - 正義
+        ro:
+        - ""
+        - ""
+        - yuganda
+        - seigi
+        ww:
+        - w: Crazy
+        - w: noisy
+        - w: warped
+          d: 歪んだ
+        - w: justice
+          d: 正義
+        - d: Crazy noisy 歪んだ正義
+        en: Crazy, noisy—twisted justice.
+    - lines:
+      - ol:
+        - あぁ
+        - レッド
+        - ライト
+        - が
+        - 灯り
+        ro:
+        - a~a
+        - reddo
+        - raito
+        - ga
+        - tomori
+        ww:
+        - w: Ah
+          d: あぁ
+        - w: red
+          d: レッド
+        - w: light
+          d: ライト
+        - w: ""
+          d: が
+        - w: glows
+          d: 灯り
+        - d: あぁレッドライトが灯り
+        en: Ah, the red light flickers on.
+      - ol: 
+        - 袋のネズミ
+        - の
+        - よう
+        - です
+        ro:
+        - fukuro no nezumi
+        - "no"
+        - yō
+        - desu
+        ww:
+        - w: rat in a bag
+          d: 袋のネズミ
+        - w: ('s)
+          d: の
+        - w: like
+          d: よう
+        - w: be
+          d: です
+        - d: 袋のネズミのようです
+        en: Like a trapped rat with nowhere to run.
+      - ol:
+        - 指
+        - 先
+        - の
+        - 世界
+        - は
+        - 素晴らしい
+        ro:
+        - yubi
+        - saki
+        - "no"
+        - sekai
+        - wa
+        - subarashī
+        ww:
+        - w: finger
+          d: 指
+        - w: tip
+          d: 先
+        - w: ('s)
+          d: の
+        - w: the world
+          d: 世界
+        - w: ""
+          d: は
+        - w: magnificent
+          d: 素晴らしい
+        - d: 指先の世界は素晴らしい
+        en: The world at my fingertips is magnificent
+    - lines:
+      - ol: zero-sum fair game
+      - ol: Bring it down……
+    - lines: 
+      - ol:
+        - BAD
+        - カマして
+        ro:
+        - ""
+        - kamashite
+        ww:
+        - w: BAD
+        - w: unleashing
+          d: カマして
+        - d: BADカマして
+        en: Drop a BAD move,
+      - ol:
+        - 叫べ
+        - say
+        - yeah……
+        ro:
+        - sakebe
+        - ""
+        - ""
+        ww:
+        - w: shout
+          d: 叫べ
+        - w: say
+        - w: yeah……
+        - d: 叫べ say yeah……
+        en: shout—say yeah...
+    - lines:
+      - ol: 
+        - 凍てつく
+        - 夜
+        - を
+        - Rollin'
+        - Rollin'
+        - down
+        ro:
+        - itetsuku
+        - yoru
+        - o
+        - ""
+        - ""
+        - ""
+        ww:
+        - w: freezing
+          d: 凍てつく
+        - w: night
+          d: 夜
+        - w: ""
+          d: を
+        - w: Rollin'
+        - w: Rollin'
+        - w: down
+        - d: 凍てつく夜を Rollin' Rollin' down
+        en: The frozen night, Rollin' Rollin' down
+      - ol:
+        - 感性
+        - が
+        - 途切れ
+        - ぬように
+        ro:
+        - kansei
+        - ga
+        - togire
+        - nuyōni
+        ww:
+        - w: sense
+          d: 感性
+        - w: ""
+          d: が
+        - w: to come to an end
+          d: 途切れ
+        - w: so as to not
+          d: ぬように
+        - d: 感性が途切れぬように
+        en: To keep our senses from fading.
+      - ol:
+        - 心
+        - を
+        - 燃やす
+        - 僕ら
+        - の
+        - 逆襲
+        ro:
+        - kokoro
+        - o
+        - moyasu
+        - bokura
+        - "no"
+        - gyakushū
+        ww:
+        - w: heart
+          d: 心
+        - w: ""
+          d: を
+        - w: to burn
+          d: 燃やす
+        - w: us
+          d: 僕ら
+        - w: ('s)
+          d: の
+        - w: counterattack
+          d: 逆襲
+        - d: 心を燃やす僕らの逆襲
+        en: Our rebellion sets our hearts ablaze.
+      - ol:
+        - 革命
+        - 前夜
+        - " "
+        - 不退転
+        - モーション
+        ro:
+        - kakumei
+        - zenya
+        - ""
+        - futaiten
+        - mōshon
+        ww:
+        - w: revolution
+          d: 革命
+        - w: previous night
+          d: 前夜
+        - w: ""
+        - w: unwavering
+          d: 不退転
+        - w: motion
+          d: モーション
+        - d: 革命前夜 不退転モーション
+        en: On the eve of revolution, we stand unwavering.
     - lines: 
       - ol:
         - 焦げ付く
@@ -518,109 +1048,159 @@ lyrics:
         - ""
         - ""
         ww:
+        - w: burning night
+          d: 焦げ付く夜
+        - w: ""
+          d: を
+        - w: Rollin'
+        - w: Rollin'
+        - w: down
         - d: 焦げ付く夜を Rollin' Rollin' down
         en: The burning night, Rollin' Rollin' down
-      - ol: 喧騒が途絶えぬように
+      - ol:
+        - 情動
+        - が
+        - 途絶え
+        - ぬように
         ro:
+        - jōdō
+        - ga
+        - todae
+        - nuyōni
         ww:
-        - d: 喧騒が途絶えぬように
-        en: To keep the uproar alive.
-      - ol: 言葉を奪う聖者の行進
-        ro:
-        ww:
-        - d: 言葉を奪う聖者の行進
-        en: The parade of so-called saints stealing words.
-      - ol: Crazy noisy 歪んだ正義
-        ro:
-        ww:
-        - d: Crazy noisy 歪んだ正義
-        en: Crazy, noisy—twisted justice.
-    - lines:
-      - ol: あぁレッドライトが灯り
-        ro:
-        ww:
-        - d: あぁレッドライトが灯り
-        en: Ah, the red light flickers on.
-      - ol: 袋のネズミのようです
-        ro:
-        ww:
-        - d: 袋のネズミのようです
-        en: Like a trapped rat with nowhere to run.
-      - ol: 指先の世界は素晴らしい
-        ro:
-        ww:
-        - d: 指先の世界は素晴らしい
-        en: The world at my fingertips is magnificent
-    - lines:
-      - ol: zero-sum fair game
-      - ol: Bring it down……
-    - lines: 
-      - ol: BADカマして
-        ro:
-        ww:
-        - d: BADカマして
-        en: Drop a BAD move,
-      - ol: 叫べ say yeah……
-        ro:
-        ww:
-        - d: 叫べ say yeah……
-        en: shout—say yeah...
-    - lines:
-      - ol: 凍てつく夜を Rollin' Rollin' down
-        ro:
-        ww:
-        - d: 凍てつく夜を Rollin' Rollin' down
-        en: The frozen night, Rollin' Rollin' down
-      - ol: 感性が途切れぬように
-        ro:
-        ww:
-        - d: 感性が途切れぬように
-        en: To keep our senses from fading.
-      - ol: 心を燃やす僕らの逆襲
-        ro:
-        ww:
-        - d: 心を燃やす僕らの逆襲
-        en: Our rebellion sets our hearts ablaze.
-      - ol: 革命前夜 不退転モーション
-        ro:
-        ww:
-        - d: 革命前夜 不退転モーション
-        en: On the eve of revolution, we stand unwavering.
-    - lines:
-      - ol: 焦げ付く夜を Rollin' Rollin' down
-        ro:
-        ww:
-        - d: 焦げ付く夜を Rollin' Rollin' down
-        en: The burning night, Rollin' Rollin' down
-      - ol: 情動が途絶えぬように
-        ro:
-        ww:
+        - w: emotion
+          d: 情動
+        - w: ""
+          d: が
+        - w: come to an end
+          d: 途絶え
+        - w: so as not to 
+          d: ぬように
         - d: 情動が途絶えぬように
         en: To keep our emotions from dying out.
-      - ol: 言葉を奪う聖者気取りを
+      - ol:
+        - 言葉
+        - を
+        - 奪う
+        - 聖者
+        - 気取り
+        - を
         ro:
+        - kotoba
+        - o
+        - ubau
+        - seija
+        - kidori
+        - o
         ww:
+        - w: word 
+          d: 言葉
+        - w: ""
+          d: を
+        - w: steal
+          d: 奪う
+        - w: saint
+          d: 聖者
+        - w: pretending
+          d: 気取り
+        - w: ""
+          d: を
         - d: 言葉を奪う聖者気取りを
         en: The self-righteous ones who steal our words
-      - ol: 笑ってやろうぜ 無敵のエモーション
+      - ol:
+        - 笑ってやろうぜ
+        - " "
+        - 無敵
+        - の
+        - エモーション
         ro:
+        - waratteyarōze
+        - ""
+        - muteki
+        - "no"
+        - emōshon
         ww:
+        - w: let's laught at them
+          d: 笑ってやろうぜ
+        - w: ""
+        - w: invincible
+          d: 無敵
+        - w: ('s)
+          d: の
+        - w: emotion
+          d: エモーション
         - d: 笑ってやろうぜ 無敵のエモーション
         en: Let's laugh at them with unbeatable emotions!
     - lines:
-      - ol: あぁレッドライトが灯り
+      - ol:
+        - あぁ
+        - レッド
+        - ライト
+        - が
+        - 灯り
         ro:
+        - a~a
+        - reddo
+        - raito
+        - ga
+        - tomori
         ww:
+        - w: Ah
+          d: あぁ
+        - w: red
+          d: レッド
+        - w: light
+          d: ライト
+        - w: ""
+          d: が
+        - w: glows
+          d: 灯り
         - d: あぁレッドライトが灯り
         en: Ah, the red light flickers on.
-      - ol: チェックメイトおしまいです
+      - ol:
+        - チェックメイト
+        - おしまい
+        - です
         ro:
+        - chekkumeito
+        - oshimai
+        - desu
         ww:
+        - w: checkmate
+          d: チェックメイト
+        - w: the end
+          d: おしまい
+        - w: be
+          d: です
         - d: チェックメイトおしまいです
         en: Checkmate—game over.
-      - ol: 指先の世界は素晴らしい
+      - ol:
+        - 指
+        - 先
+        - の
+        - 世界
+        - は
+        - 素晴らしい
         ro:
+        - yubi
+        - saki
+        - "no"
+        - sekai
+        - wa
+        - subarashī
         ww:
+        - w: finger
+          d: 指
+        - w: tip
+          d: 先
+        - w: ('s)
+          d: の
+        - w: the world
+          d: 世界
+        - w: ""
+          d: は
+        - w: magnificent
+          d: 素晴らしい
         - d: 指先の世界は素晴らしい
         en: The world at my fingertips is magnificent
     - lines:

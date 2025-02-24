@@ -4,5 +4,10 @@ layout: none
 User-agent: *
 Allow: /
 Disallow: /dark/
+Disallow: /albums/
+Disallow: /assets/
+Disallow: /concerts/
+Disallow: /music/
+Disallow: /songs/
 
 Sitemap: {{ site.url }}/sitemap.xml

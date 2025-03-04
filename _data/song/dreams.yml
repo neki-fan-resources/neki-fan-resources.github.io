@@ -22,6 +22,9 @@ assets:
       url: https://www.youtube.com/post/UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
 
 media:
+  video:
+  - song: dreams
+    youtube: music-video-01
   live:
   - show:
       year: 2024
@@ -29,8 +32,12 @@ media:
     youtube: dreams-01
   additional:
   - song: dreams
+    youtube: teaser-02
+  - song: dreams
     youtubeshort: teaser-01
   extra:
+  - song: dreams
+    youtubeshort: teaser-02
   - song: dreams
     youtubeshort: promo-01
   - show:

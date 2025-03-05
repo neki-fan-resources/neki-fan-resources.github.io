@@ -262,21 +262,34 @@ marker:
       year: 2024
       id: 2ndonemanlive
     youtube: maze-01
+  ref: song
 - show:
     year: 2025
     id: youandi
   short: true
-  ref: song
 - show:
     year: 2025
     id: setallfree
   short: true
 - song: zerosum
+  rel-media: 
+    song: zerosum
+    youtube: music-video-01
 - show:
     year: 2025
     id: guvol375
   short: true
+- media: 
+    song: dreams
+    youtube: music-video-01
+  ref: song
+  shift: -11
 - album: tricktaking
+  shift: 10
+- song: fool
+  shift: 31
+- song: moon
+  shift: 52
 - show:
     year: 2025
     id: tricktakingtourosaka

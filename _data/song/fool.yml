@@ -28,4 +28,64 @@ media:
   extra:
   - song: fool
     youtubeshort: promo-01
- 
+
+lyrics:
+  status:
+    code: warning
+    description: Data copied from the sources. Not reviewed.
+  languages:
+    - id: ol
+      name: Original lyrics
+      active: true
+      fixed: true
+      notranslation: true
+      source:
+        label: Original lyrics
+        description: Lyricfind
+        url: https://lyrics.lyricfind.com/lyrics/nek-fool
+  sections:
+  - lines:
+    - ol: お涙頂戴でイイね
+    - ol: こうべたれりゃ万事オッケー
+    - ol: 裏垢じゃ相当言ってる
+    - ol: 「マジ？疑うわ 人格」
+  - lines:
+    - ol: 誰か見てる どこか見てる
+    - ol: もはや逃げ場所 NO
+    - ol: だからと言って真っ白で
+    - ol: いれるほど人類できてないや嫌嫌
+  - lines:
+    - ol: 嗚呼 じれったい真実
+    - ol: ブチ壊しちゃえ既成概念
+    - ol: 嗚呼 ウザったい
+    - ol: モラルもヘッタクレもないわ
+    - ol: 聖人も極悪人もアタシもアンタも
+    - ol: 本能に抗えない
+    - ol: 所詮、動物ですワン
+  - lines:
+    - ol: ブレブレの焦点脳天 狙い定め置きエイム
+    - ol: ほらバレるぞ虚言妄言 飼いならせ承認欲求
+  - lines:
+    - ol: 明日は我が身だ スベカラク皆
+    - ol: 黒歴史は背負うべき業です
+    - ol: 自分自身を守る為なら
+    - ol: 怖や怖や人は愛にでも唾を吐く
+  - lines:
+    - ol: 嗚呼 生温い理想論
+    - ol: 燃やして得る炎上商法
+    - ol: 嗚呼 地獄の沙汰も金次第ですわ
+    - ol: 夢、希望 なにもかも
+    - ol: 信じてたあの頃に
+    - ol: 戻りたい戻れない もう泥まみれなの
+  - lines:
+    - ol: 嗚呼 美しいものほど
+    - ol: 醜く見える現状です
+    - ol: 嗚呼 オトナになるって愉快なものね
+  - lines:
+    - ol: 嗚呼 じれったい真実
+    - ol: ブチ壊しちゃえ既成概念
+    - ol: 嗚呼 ウザったい
+    - ol: モラルもヘッタクレもないわ
+    - ol: 聖人も極悪人もアタシもアンタも
+    - ol: 本能に抗えない
+    - ol: 所詮、動物ですワン

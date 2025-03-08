@@ -24,3 +24,57 @@ media:
       year: 2024
       id: 2ndonemanlive
     youtubeshort: moon-01
+
+lyrics:
+  status:
+    code: warning
+    description: Data copied from the sources. Not reviewed.
+  languages:
+    - id: ol
+      name: Original lyrics
+      active: true
+      fixed: true
+      notranslation: true
+      source:
+        label: Original lyrics
+        description: Lyricfind
+        url: https://lyrics.lyricfind.com/lyrics/nek-moon
+  sections:
+  - lines:
+    - ol: すぐに消えてしまうストーリー 幻みたいな
+    - ol: 思考はメリーゴーランド まわってくループループ
+    - ol: Where am I going？
+    - ol: 加工だらけの世界で
+  - lines: 
+    - ol: 鍵かけてもすぐに 見透かされる
+    - ol: 正直って地雷だよね やり過ごすループループ
+    - ol: Where am I going？
+    - ol: 加工だらけの世界で
+  - lines: 
+    - ol: どうせなって諦めて
+    - ol: それももうなんか飽きたな
+    - ol: 星のない夜の空
+    - ol: 月だけが私を見てる
+  - lines: 
+    - ol: 充電いつもなくて めんどくさいな
+    - ol: 鞄を放り投げた 誰か連れ出してループループ
+    - ol: Where am I going？
+    - ol: 時間だけリアルで
+  - lines: 
+    - ol: 無理になって逃げ出して
+    - ol: それももうなんか飽きたな
+    - ol: オレンジ色のライト
+    - ol: 月だけが私を見てる
+  - lines: 
+    - ol: 画面の中に 私がいる
+    - ol: パラレルワールド いつだって行ける
+    - ol: (How do I feel? Where am I going?
+    - ol: How do I feel? How do I feel?)
+  - lines: 
+    - ol: 怖くなって立ち止まって
+    - ol: でもその先を見たい
+    - ol: 誰の声も聞こえない
+    - ol: 月だけが私を見てる
+  - lines: 
+    - ol: 私を見てる
+    - ol: Where am I going？

@@ -563,18 +563,14 @@ lyrics:
       - d: 自分自身を守る為なら
       gg: For the sake of protecting oneself,
     - ol:
-      - 怖
-      - や
-      - 怖
-      - や
+      - 怖や
+      - 怖や
       - 人
       - は
       - 愛
       - に
       - でも
-      - 唾
-      - を
-      - 吐く
+      - 唾を吐く
       ro:
       - kowaya
       - kowaya
@@ -741,20 +737,20 @@ lyrics:
       - modorenai
       - ""
       - mō
-      - toromamire
+      - doromamire
       - nano
       ww:
       - w: want to return
-        g: 戻りたい
+        d: 戻りたい
       - w: cannot return
-        g: 戻れない
+        d: 戻れない
       - w: ""
       - w: already
-        g: もう
+        d: もう
       - w: covered with mud
-        g: 泥まみれ
+        d: 泥まみれ
       - w: (emphasis)
-        g: なの
+        d: なの
       - d: 戻りたい戻れない もう泥まみれなの
       gg: I want to return but I can't anymore, I'm already covered in mud.
   - lines:
@@ -767,7 +763,7 @@ lyrics:
       ro:
       - aa
       - ""
-      - ukkushī
+      - utsukushī
       - mono
       - hodo
       ww:

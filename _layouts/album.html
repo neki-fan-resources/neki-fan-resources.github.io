@@ -15,6 +15,10 @@ collection: album
 %}
 {%- endfor %}
 </div>
+{%- if album.media.short %}
+<h2>Short</h2>
+{% include mediacard/list.html medias=album.media.short from="show" %}
+{%- endif %}
 {%- if album.media.additional %}
 <h2>Additional media</h2>
 {% include mediacard/list.html medias=album.media.additional %}

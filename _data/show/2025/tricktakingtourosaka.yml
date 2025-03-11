@@ -8,6 +8,7 @@ shortname: '"TR!CK TAK!NG" TOUR'
 sublabel: Osaka
 date: 2025-03-08
 location:  アメリカ村DROP, Osaka
+setlistfm: nek/2025/drop-osaka-japan-135a6d39
 event-page: https://clubdrop.jp/schedule/detail/36775
 
 assets:
@@ -18,7 +19,16 @@ assets:
       url: https://www.youtube.com/post/Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
 
 media:
+  short:
+  - show:
+      year: 2025
+      id: tricktakingtourosaka
+    youtubeshort: huddle-01
   extra:
+  - show:
+      year: 2025
+      id: tricktakingtourosaka
+    youtubeshort: lunch-01
   - show:
       year: 2025
       id: tricktakingtourosaka

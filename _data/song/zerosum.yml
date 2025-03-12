@@ -22,6 +22,11 @@ media:
   video:
     - song: zerosum
       youtube: music-video-01
+  live:
+  - show:
+      year: 2025
+      id: tricktakingtouraichi
+    youtubeshort: zerosum-01
   short:
     - song: zerosum
       youtubeshort: kanade-01

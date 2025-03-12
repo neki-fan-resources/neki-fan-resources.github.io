@@ -17,12 +17,11 @@ assets:
       id: tricktakingtourosaka
 
 media:
-  video:
+  short:
   - show:
       year: 2025
       id: tricktakingtouraichi
-    youtubeshort: live-01
-  short:
+    youtubeshort: zerosum-01
   - show:
       year: 2025
       id: tricktakingtouraichi

@@ -1,13 +1,11 @@
-<div id="{{ include.uid }}" class="timeline-card timeline-card-hidden">
-  <div class="timeline-card-close" onclick="toggle_timeline_card('{{ include.uid }}')">⨯</div>
-  <div class="designation">Video</div>
+<div class="timeline-card-close" onclick="toggle_timeline_card(selected_timeline_card)">⨯</div>
+<div class="designation">Video</div>
 {%- include mediacard/dispatch.html media=include.media %}
 {%- if include.inforows %}
-  <table class="timeline-card-info">
+<table class="timeline-card-info">
 {{- include.inforows }}
-  </table>
+</table>
 {%- endif %}
 {%- if include.ref %}
 {%- include linecard/dispatch.html data=include.ref %}
 {%- endif %}
-</div>

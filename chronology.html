@@ -3,10 +3,13 @@ layout: default
 title: Chronology NEK!
 ---
 
+{%- assign g_details-id = -1 %}
+{%- assign g_details-list = "" | split: ',' %}
 {%- capture main -%}
 {%- include timeline/svg/base.svg -%}
 {%- endcapture -%}
 {%- capture absolute %}
-{%- include timeline/card/all.html %}
+<div id="timeline-details" class="timeline-card timeline-card-hidden"></div>
 {%- endcapture %}
-{%- include main/base.html content=main absolute=absolute designation="chronology" -%}
+{%- include main/base.html content=main absolute=absolute designation="chronology" %}
+{% include main/details-definition.html %}

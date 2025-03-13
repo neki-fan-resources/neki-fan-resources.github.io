@@ -3,7 +3,7 @@
   shift=include.shift 
   in=include.in
 %}
-  <g onclick="toggle_timeline_card('{{ include.uid }}')">
+  <g onclick="toggle_timeline_card('details{{ g_details-id }}')">
     <image x="-40" y="-10" height="20" width="20" href="{{ include.image }}"/>
     <rect x="-40" y="-10" height="20" width="20" stroke="black" fill="none" stroke-width="0.5"/>
     <text class="timeline-marker-designation timeline-text-left" x="-43" y="-6.5" text-anchor="end" alignment-baseline="middle">{{ include.designation }}</text>

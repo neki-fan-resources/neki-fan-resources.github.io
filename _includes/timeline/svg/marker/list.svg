@@ -1,3 +1,8 @@
 {%- for marker in include.markers %}
+{%- capture details -%}
+{%- include timeline/card/dispatch.html marker=marker %}
+{%- endcapture %}
+{%- assign g_details-list = g_details-list | push: details -%}
+{%- assign g_details-id = g_details-id | plus: 1 %}
 {%- include timeline/svg/marker/dispatch.svg marker=marker start-day=include.start-day %}
 {%- endfor %}

@@ -1,6 +1,6 @@
 <g class="timeline-marker" transform="translate(0 {{ include.day | plus: include.shift }})">
 {% include timeline/svg/marker/line-left.svg shift=include.shift in=include.in %}
-  <g onclick="toggle_timeline_card('{{ include.uid }}')">
+  <g onclick="toggle_timeline_card('details{{ g_details-id }}')">
     <text class="timeline-marker-short-label timeline-text-left" x="-25" y="0" text-anchor="end" alignment-baseline="middle">{{ include.label }}</text>
   </g>
 </g>

@@ -1,0 +1,9 @@
+<script>
+{%- assign i = 0 %}
+  var details = {
+{%- for d in g_details-list %}
+    details{{ i }}:{{ d | jsonify }},
+  {%- assign i = i | plus: 1 %}
+{%- endfor %}
+  }
+</script>

@@ -29,15 +29,18 @@ function toggle_band_member_info(member) {
   }
 }
 
-function toggle_timeline_card(uid) {
-  document.querySelector("#" + uid).classList.toggle("timeline-card-hidden")
+function toggle_timeline_card(details_id) {
+  var details_div = document.querySelectorAll("#timeline-details")[0]
 
   if (selected_timeline_card == "-") {
-    selected_timeline_card = uid
-  } else if (selected_timeline_card == uid) {
+    details_div.setHTMLUnsafe(details[details_id])
+    details_div.classList.toggle("timeline-card-hidden")
+    selected_timeline_card = details_id
+  } else if (selected_timeline_card == details_id) {
+    details_div.classList.toggle("timeline-card-hidden")
     selected_timeline_card = "-"
   } else {
-    document.querySelector("#" + selected_timeline_card).classList.toggle("timeline-card-hidden")
-    selected_timeline_card = uid
+    details_div.setHTMLUnsafe(details[details_id])
+    selected_timeline_card = details_id
   }
 }

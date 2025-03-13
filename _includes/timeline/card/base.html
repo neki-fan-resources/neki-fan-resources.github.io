@@ -1,6 +1,5 @@
-{%- include url/global.html item=include.data %}
-<div id="{{ include.uid }}" class="timeline-card timeline-card-hidden">
-  <div class="timeline-card-close" onclick="toggle_timeline_card('{{ include.uid }}')">⨯</div>
+{%- include url/global.html item=include.data -%}
+  <div class="timeline-card-close" onclick="toggle_timeline_card(selected_timeline_card)">⨯</div>
   <div class="designation">{{ include.designation }}</div>
   <div class="timeline-card-detail">
 {%- if g_url %}
@@ -31,4 +30,3 @@
     </div>
 {%- endif %}
   </div>
-</div>

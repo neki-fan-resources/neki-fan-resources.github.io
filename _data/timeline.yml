@@ -1,5 +1,5 @@
 startDate: 2024-01-01
-endDate: 2025-05-15
+endDate: 2025-10-15
 
 marker:
 - label: Formation of NEK!
@@ -301,6 +301,9 @@ marker:
     year: 2025
     id: tricktakingtourtokyo
   shift: 7
+- show:
+    year: 2025
+    id: 1stzepponeman
 
 
 timemarker:
@@ -344,3 +347,9 @@ timemarker:
   month: "may"
 - date: 2025-06-01
   month: "jun"
+- date: 2025-07-01
+  month: "jul"
+- date: 2025-08-01
+  month: "aug"
+- date: 2025-09-01
+  month: "sep"

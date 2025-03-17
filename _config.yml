@@ -17,6 +17,12 @@ collections:
   show_extra:
     output: true
     permalink: /show/extra/:path.html
+  tour:
+    output: true
+    permalink: /tour:path.html
+  tour_extra:
+    output: true
+    permalink: /tour/extra/:path.html
 
 
 # dark pages. Usually not fully publicly released information
@@ -71,6 +77,16 @@ defaults:
       type: "show_extra"
     values:
       layout: "show_extra"
+  - scope:
+      path: ""
+      type: "tour"
+    values:
+      layout: "tour"
+  - scope:
+      path: ""
+      type: "tour_extra"
+    values:
+      layout: "tour_extra"
   - scope:
       path: ""
     values:

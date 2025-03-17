@@ -1,0 +1,6 @@
+{%- assign g_tours = "" | split: ',' %}
+{%- for tourpair in site.data.tour %}
+{%- assign s = tourpair[1] %}
+{%- assign g_tours = g_tours | push: s %}
+{%- endfor %}
+{%- assign g_tours = g_tours | sort: 'first-date' %}

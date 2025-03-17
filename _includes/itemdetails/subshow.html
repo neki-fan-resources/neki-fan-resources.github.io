@@ -23,10 +23,14 @@
 {%- endif %}
 {% endcapture -%}
 
+{%- assign parent=site.data.tour[include.data.tour] %}
+
+
 {%- include itemdetails/base.html
   cover-image=cover-image
   label=include.data.fullname
   sublabel=include.data.sublabel
   inforows=info
+  parent=parent
   data=include.data
 -%}

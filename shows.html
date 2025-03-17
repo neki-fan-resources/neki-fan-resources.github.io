@@ -1,0 +1,30 @@
+---
+layout: default
+title: Shows NEK!
+---
+
+{%- capture main -%}
+<div>Only the main shows are listed here. To see all the shows where NEK! has performed, check the <a href="/chronology.html">Chronology page</a>.</div>
+<h2></h2>
+<div class="small-card-list">
+{%- for item in site.data.shows %}
+  {%- if item.show %}
+    {%- include show/get.html ref=item.show %}
+    {%- include linecard/dispatch.html data=g_show %}
+  {%- elsif item.tour %}
+    {%- assign tour= site.data.tour[item.tour] %}
+    {%- include smallcard/dispatch.html data=tour %}
+<div class="line-card-list">
+    {%- for show in tour.shows %}
+      {%- include show/get.html ref=show %}
+      {%- include linecard/dispatch.html data=g_show %}
+    {%- endfor %}
+</div>
+  {%- else %}
+Something is missing - {{ item }}
+  {%- endif %}
+{%- endfor %}
+{%- endcapture -%}
+</div>
+{%- include main/base.html content=main designation="shows" -%}
+

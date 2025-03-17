@@ -1,0 +1,17 @@
+---
+layout: default
+collection: tour
+---
+{%- include item/frompage.html -%}
+{%- assign tour = g_item -%}
+{%- capture main -%}
+{%- include itemdetails/dispatch.html data=tour -%}
+<h2></h2>
+<div class="small-card-list">
+{%- for item in tour.shows %}
+  {%- include show/get.html ref=item %}
+  {%- include smallcard/dispatch.html data=g_show %}
+{%- endfor %}
+</div>
+{%- endcapture -%}
+{%- include main/base.html content=main designation="tour" -%}

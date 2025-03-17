@@ -13,6 +13,11 @@ main:
   link: /live.html
   match:
   - /live.
+- name: Shows
+  link: /shows.html
+  match:
+  - /shows
+  - /show/
 - name: Chronology
   link: /chronology.html
   match:

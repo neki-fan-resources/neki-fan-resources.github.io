@@ -1,0 +1,11 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+{%- assign url = "/tour/" | append: include.data.uid | append: ".html" %}
+{% include smallcard/base.html
+  designation="tour"
+  label=include.data.fullname
+  cover-image=cover-image
+  url=url
+  data=include.data
+%}

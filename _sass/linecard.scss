@@ -5,9 +5,9 @@
 .line-card {
   width: fit-content;
   display: grid;
-  grid-template-columns: max-content max-content;
-  grid-template-rows: 1fr;
-  grid-template-areas: 'cover designation' 'cover label';
+  grid-template-columns: min-content min-content 1fr;
+  grid-template-rows: min-content 1fr;
+  grid-template-areas: 'cover designation date' 'cover label label';
   color: black;
 }
 
@@ -15,9 +15,16 @@
   grid-area: designation;
 }
 
+.line-card-date {
+  grid-area: date;
+  margin-left: 0.7rem;
+}
+
 .line-card-cover {
   grid-area: cover;
   height: 2rem;
+  width: 2rem;
+  object-fit: contain;
   border: solid 0.5px $not_black;
   margin-right: 0.2rem;
 }
@@ -38,6 +45,17 @@
   font-weight: 700;
   font-size: 0.7rem;
   line-height: 0.7rem;
+}
+
+.line-card-date {
+  color: $not_black;
+  font-weight: 700;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+}
+
+.line-card-cover {
+  background-color: $not_black;
 }
 
 .line-card-label {

@@ -1,10 +1,12 @@
 {%- capture cover-image -%}
 {% include coverimage/base.html data=include.data %}
 {%- endcapture -%}
+{%- assign url = "/song/" | append: include.data.uid | append: ".html" %}
 {% include smallcard/base.html
   designation="song"
   label=include.data.fullname
   sublabel=include.data.fullname-en
   cover-image=cover-image
+  url=url
   data=include.data
 %}

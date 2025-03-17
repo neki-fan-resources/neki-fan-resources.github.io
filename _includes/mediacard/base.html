@@ -3,6 +3,9 @@
 {%- if include.from == "show" %}
 {%- include show/get.html ref=from %}
 {%- assign sublabel = g_show.fullname %}
+{%- if g_show.sublabel %}
+{%- assign sublabel = sublabel | append: " - " | append: g_show.sublabel %}
+{%- endif %}
 {%- else %}
 {%- assign sublabel = site.data[include.from][from].fullname %}
 {%- endif %}

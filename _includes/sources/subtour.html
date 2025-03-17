@@ -1,0 +1,7 @@
+{%- capture entries -%}
+{%- include sources/entry-coverimage.html data=include.tour %}
+{%- endcapture %}
+{%- if entries != "" %}
+{% include sources/item-label.html label=include.tour.fullname %}
+{{- entries }}
+{%- endif -%}

@@ -1,11 +1,16 @@
 {%- capture cover-image -%}
 {% include coverimage/base.html data=include.data %}
 {%- endcapture -%}
+{%- assign label=include.data.fullname %}
+{%- if include.data.sublabel %}
+{%- assign label= label | append: " - " | append: include.data.sublabel %}
+{%- endif %}
 {%- assign url = "/show/" | append: include.data.year | append: "/" | append: include.data.id | append: ".html" %}
 {%- include linecard/base.html
   designation="show"
-  label=include.data.fullname
+  label=label
   cover-image=cover-image
+  date=include.data.date
   url=url
   data=include.data
 %}

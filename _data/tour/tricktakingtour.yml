@@ -1,0 +1,25 @@
+collection: tour
+uid: tricktakingtour
+
+fullname: 1stワンマンツアー 「TR!CK TAK!NG」
+shortname: '"TR!CK TAK!NG" TOUR'
+first-date: 2024-03-08
+last-date: 2024-03-16
+
+event-page: https://note.com/nekiband_jp/n/n41466bbb690c
+
+assets:
+  cover-image:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+
+shows:
+- year: 2025
+  id: tricktakingtourosaka
+- year: 2025
+  id: tricktakingtouraichi
+- year: 2025
+  id: tricktakingtourtokyo
+

@@ -18,6 +18,8 @@
 .small-card-cover {
   grid-area: cover;
   height: 6rem;
+  width: 6rem;
+  object-fit: contain;
   border: solid 0.5px $not_black;
   margin-right: 0.4rem;
 }
@@ -30,8 +32,14 @@
   grid-area: sublabel;
 }
 
-.small-card-list .small-card {
+.small-card-list .small-card,
+.small-card-list .line-card {
   margin: 1rem 0 1rem 1rem;
+}
+
+.small-card-list .line-card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .small-card-list .line-card-list {
@@ -46,6 +54,10 @@
   font-weight: 600;
   font-size: 0.8rem;
   line-height: 0.8rem;
+}
+
+.small-card-cover {
+  background-color: $not_black;
 }
 
 .small-card-label {

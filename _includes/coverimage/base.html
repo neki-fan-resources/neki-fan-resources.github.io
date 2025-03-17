@@ -4,6 +4,9 @@
 {%- elsif include.data.assets.cover-image.album %}
   {%- assign album = site.data.album[include.data.assets.cover-image.album] %}
   {%- include coverimage/base.html data=album %}
+{%- elsif include.data.assets.cover-image.tour %}
+  {%- assign tour = site.data.tour[include.data.assets.cover-image.tour] %}
+  {%- include coverimage/base.html data=tour %}
 {%- elsif include.data.assets.cover-image.filename -%}
   {%- include coverimage/sub{{ include.data.collection }}.html data=include.data filename=include.data.assets.cover-image.filename %}
 {%- else -%}

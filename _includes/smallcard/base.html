@@ -3,7 +3,7 @@
 {% else %}
 {% assign not-released-class = nil %}
 {% endif %}
-<a class="small-card" href="/{{ include.data.collection }}/{{ include.data.uid }}.html">  
+<a class="small-card" href="{{ include.url }}">  
   <div class="small-card-designation">{{ include.designation }}</div>
   <img class="small-card-cover" src="{{ include.cover-image }}" alt="{% include coverimage/alt.html data=include.data %}">
   <div class="small-card-label{{ not-released-class }}" translate="no">{{ include.label }}</div>

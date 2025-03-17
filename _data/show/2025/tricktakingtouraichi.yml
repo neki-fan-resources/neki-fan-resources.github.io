@@ -12,9 +12,9 @@ event-page: 'https://rad.radcreation.jp/events/nek-1st%e3%83%af%e3%83%b3%e3%83%9
 
 assets:
   cover-image:
-    show:
-      year: 2025
-      id: tricktakingtourosaka
+    tour: tricktakingtour
+
+tour: tricktakingtour
 
 media:
   short:

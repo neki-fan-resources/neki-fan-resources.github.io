@@ -5,9 +5,15 @@ title: Sources
 {%- include collections/songs.html %}
 {%- include collections/albums.html %}
 {%- include collections/shows.html %}
+{%- include collections/tours.html %}
 {%- capture main %}
           <table class="sources-block">
 {% include sources/section-label.html label="Band" %}
+{% include sources/entry.html 
+  label="Band image"
+  description="frame from 'Get Over' music video"
+  url="https://www.youtube.com/watch?v=TWbLqba3oag"
+%}
 {% include sources/section-label.html label="Songs" %}
 {%- for song in g_songs %}
 {% include sources/subsong.html song=song -%}
@@ -19,6 +25,10 @@ title: Sources
 {% include sources/section-label.html label="Shows" %}
 {%- for show in g_shows %}
 {%- include sources/subshow.html show=show %}
+{%- endfor %}
+{% include sources/section-label.html label="Tours" %}
+{%- for tour in g_tours %}
+{%- include sources/subtour.html tour=tour %}
 {%- endfor %}
           </table>
 {%- endcapture %}

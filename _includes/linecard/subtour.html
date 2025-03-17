@@ -1,0 +1,16 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+{%- assign label=include.data.fullname %}
+{%- if include.data.sublabel %}
+{%- assign label= label | append: " - " | append: include.data.sublabel %}
+{%- endif %}
+{%- assign url = "/tour/" | append: include.data.uid | append: ".html" %}
+{%- include linecard/base.html
+  designation="tour"
+  label=label
+  cover-image=cover-image
+  date=include.data.date
+  url=url
+  data=include.data
+%}

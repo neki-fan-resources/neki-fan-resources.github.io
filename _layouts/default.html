@@ -19,6 +19,11 @@
     <link rel="icon" type="image/svg+xml" href="/nifr-logo.svg">
     <link rel="icon" type="image/png" sizes="512x512" href="/nifr-logo-512.png">
 {% include opengraph/base.html item=g_item %}
+{%- if site.local %}
+    <meta property="local" content="{{ site.local }}">
+{%- else %}
+    <script defer data-domain="neki-fan-resources.github.io" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>
+{%- endif %}
   </head>
   <body>
     <script src="/asset/javascript/main.js"></script>

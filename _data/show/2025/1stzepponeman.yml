@@ -15,3 +15,10 @@ assets:
     source:
       description: NEK! note post
       url: https://note.com/nekiband_jp/n/ne1cfc8d70c87
+
+media:
+  short:
+  - show:
+      year: 2025
+      id:  1stzepponeman
+    youtubeshort: announcement-01

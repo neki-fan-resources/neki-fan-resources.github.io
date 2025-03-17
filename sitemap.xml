@@ -13,6 +13,9 @@ layout: none
     <loc>{{ site.url }}/live.html</loc>
   </url>
   <url>
+    <loc>{{ site.url }}/shows.html</loc>
+  </url>
+  <url>
     <loc>{{ site.url }}/chronology.html</loc>
   </url>
   <url>
@@ -34,6 +37,11 @@ layout: none
 {% for concert in site.show %}
   <url>
     <loc>{{ site.url }}{{ concert.url }}</loc>
+  </url>
+{%- endfor %}
+{% for tour in site.tour %}
+  <url>
+    <loc>{{ site.url }}{{ tour.url }}</loc>
   </url>
 {%- endfor %}
 </urlset>

@@ -5,6 +5,7 @@ layout: none
 {{ site.url }}/
 {{ site.url }}/music.html
 {{ site.url }}/live.html
+{{ site.url }}/shows.html
 {{ site.url }}/sources.html
 {{ site.url }}/chronology.html
 {{ site.url }}/about.html
@@ -16,5 +17,8 @@ layout: none
 {% endfor -%}
 {% for concert in site.show -%}
 {{ site.url }}{{ concert.url }}
+{% endfor -%}
+{% for tour in site.tour -%}
+{{ site.url }}{{ tour.url }}
 {% endfor -%}
 

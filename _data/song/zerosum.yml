@@ -20,8 +20,10 @@ assets:
 
 media:
   video:
-    - song: zerosum
-      youtube: music-video-01
+  - song: zerosum
+    youtube: music-video-01
+  - song: zerosum
+    youtubeshort: kanade-intro-01
   live:
   - show:
       year: 2025

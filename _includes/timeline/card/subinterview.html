@@ -12,6 +12,7 @@
 {%- else %}
 {%- assign cover-image = nil %}
 {%- endif %}
+{%- assign members = interview.members | join: ", " %}
 {%- if interview.radio %}
 {%- assign designation="radio" %}
 {%- assign name = interview.radio | append: " - " | append: interview.show %}
@@ -39,6 +40,7 @@
   data=interview
   designation=designation
   label=name
+  sublabel=members
   cover-image=cover-image
   cover-image-alt=cover-image-alt
   media=g_media

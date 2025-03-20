@@ -2,6 +2,7 @@
 {% include coverimage/base.html data=include.data %}
 {%- endcapture -%}
 {%- assign name = include.data.radio | append: " - " | append: include.data.show %}
+{%- assign members = include.data.members | join: ", " %}
 {%- capture info %}
 
 {%- if include.data.host %}
@@ -25,7 +26,7 @@
 {%- include itemdetails/base.html
   cover-image=cover-image
   label=name
-  sublabel=include.data.sublabel
+  sublabel=members
   inforows=info
   parent=parent
   data=include.data

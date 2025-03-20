@@ -301,6 +301,10 @@ marker:
     year: 2025
     id: tricktakingtourtokyo
   shift: 7
+- interview:
+    year: 2025
+    id: nack5-fantasyradio
+  shift: 9
 - show:
     year: 2025
     id: 1stzepponeman

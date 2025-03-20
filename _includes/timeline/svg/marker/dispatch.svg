@@ -31,4 +31,11 @@
   in=include.marker.in
   start-day=include.start-day
 %}
+{%- elsif include.marker.interview %}
+{%- include timeline/svg/marker/subinterview.svg
+  interview-ref=include.marker.interview
+  shift=include.marker.shift
+  in=include.marker.in
+  start-day=include.start-day
+%}
 {%- endif %}

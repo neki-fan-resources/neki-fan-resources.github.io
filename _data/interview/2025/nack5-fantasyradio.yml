@@ -1,0 +1,18 @@
+collection: interview
+year: 2025
+id: nack5-fantasyradio
+uid: 2025_nack5-fantasyradio
+
+radio: NACK5
+show: FANTASY RADIO
+host: 春日萌花
+webpage: https://www.nack5.co.jp/program/fantasyradio/
+
+published-date: 2025-03-23
+
+assets:
+  cover-image:
+    filename: cover640.png
+    source:
+      description: FANTASY RADIO webpage
+      url: https://www.nack5.co.jp/program/fantasyradio/

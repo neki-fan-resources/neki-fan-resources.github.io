@@ -1,0 +1,32 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+{%- assign name = include.data.radio | append: " - " | append: include.data.show %}
+{%- capture info %}
+
+{%- if include.data.host %}
+{% include inforow/base.html
+  label="host"
+  value=include.data.host -%}
+{% endif -%}
+
+{% include inforow/base.html
+  label="published"
+  value=include.data.published-date -%}
+
+{%- if include.data.webpage %}
+{% include inforow/base.html
+  label=""
+  value="show page"
+  url=include.data.webpage -%}
+{%- endif %}
+{% endcapture -%}
+
+{%- include itemdetails/base.html
+  cover-image=cover-image
+  label=name
+  sublabel=include.data.sublabel
+  inforows=info
+  parent=parent
+  data=include.data
+-%}

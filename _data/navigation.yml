@@ -18,6 +18,10 @@ main:
   match:
   - /shows
   - /show/
+- name: Media
+  link: /media.html
+  match:
+  - /media
 - name: Chronology
   link: /chronology.html
   match:

@@ -1,0 +1,18 @@
+{%- capture cover-image -%}
+{% include coverimage/base.html data=include.data %}
+{%- endcapture -%}
+{%- if include.data.radio %}
+{%- assign designation="radio" %}
+{%- assign name = include.data.radio | append: " - " | append: include.data.show %}
+{%- else %}
+{%- assign designation="something is missing" %}
+{%- assign name = "something is missing" %}
+{%- endif %}
+{%- assign url = "/interview/" | append: include.data.year | append: "/" | append: include.data.id | append: ".html" %}
+{%- include linecard/base.html
+  designation=designation
+  label=name
+  cover-image=cover-image
+  url=url
+  data=include.data
+%}

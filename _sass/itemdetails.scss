@@ -10,6 +10,8 @@
 .item-details-cover {
   grid-area: cover;
   height: 14rem;
+  width: 14em;
+  object-fit: contain;  
 }
 
 .item-details-main {
@@ -49,6 +51,7 @@
 .item-details-cover {
   padding: 1px;
   border: solid 1px black;
+  background-color: $not_black;
 }
 
 .item-details-label {

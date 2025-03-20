@@ -24,21 +24,26 @@ layout: none
   <url>
     <loc>{{ site.url }}/about.html</loc>
   </url>
-{%- for song in site.song %}
-  <url>
-    <loc>{{ site.url }}{{ song.url }}</loc>
-  </url>
-{%- endfor -%}
 {% for album in site.album %}
   <url>
     <loc>{{ site.url }}{{ album.url }}</loc>
   </url>
 {%- endfor -%}
-{% for concert in site.show %}
+{% for interview in site.interview %}
   <url>
-    <loc>{{ site.url }}{{ concert.url }}</loc>
+    <loc>{{ site.url }}{{ interview.url }}</loc>
   </url>
 {%- endfor %}
+{% for show in site.show %}
+  <url>
+    <loc>{{ site.url }}{{ show.url }}</loc>
+  </url>
+{%- endfor %}
+{%- for song in site.song %}
+  <url>
+    <loc>{{ site.url }}{{ song.url }}</loc>
+  </url>
+{%- endfor -%}
 {% for tour in site.tour %}
   <url>
     <loc>{{ site.url }}{{ tour.url }}</loc>

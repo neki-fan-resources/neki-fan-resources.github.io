@@ -1,16 +1,19 @@
 collections:
-  song:
-    output: true
-    permalink: /song/:name.html
-  song_extra:
-    output: true
-    permalink: /song/extra/:name.html
   album:
     output: true
     permalink: /album/:name.html
   album_extra:
     output: true
     permalink: /album/extra/:name.html
+  interview:
+    output: true
+    permalink: /interview/:path.html
+  song:
+    output: true
+    permalink: /song/:name.html
+  song_extra:
+    output: true
+    permalink: /song/extra/:name.html
   show:
     output: true
     permalink: /show:path.html
@@ -49,16 +52,6 @@ include: [.well-known]
 defaults:
   - scope:
       path: ""
-      type: "song"
-    values:
-      layout: "song"
-  - scope:
-      path: ""
-      type: "song_extra"
-    values:
-      layout: "song_extra"
-  - scope:
-      path: ""
       type: "album"
     values:
       layout: "album"
@@ -67,6 +60,21 @@ defaults:
       type: "album_extra"
     values:
       layout: "album_extra"
+  - scope:
+      path: ""
+      type: "interview"
+    values:
+      layout: "interview"
+  - scope:
+      path: ""
+      type: "song"
+    values:
+      layout: "song"
+  - scope:
+      path: ""
+      type: "song_extra"
+    values:
+      layout: "song_extra"
   - scope:
       path: ""
       type: "show"

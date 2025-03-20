@@ -1,0 +1,13 @@
+{%- include interview/get.html ref=include.interview-ref %}
+{%- assign interview=g_interview %}
+{%- assign uid = "interview-" | append: interview.uid %}
+{%- assign name = interview.radio | append: " - " | append: interview.show %}
+{%- assign day = interview.published-date | date: "%s" | divided_by: 43200 | minus: include.start-day %}
+{% include timeline/svg/marker/left-short.svg
+  uid=uid
+  day=day
+  label=name
+  shift=include.shift
+  in=include.in
+  style="interview"
+%}

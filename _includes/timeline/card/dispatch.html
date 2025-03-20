@@ -23,4 +23,10 @@
 {%- include timeline/card/submarker.html 
   marker=include.marker
 %}
+{%- elsif include.marker.interview %}
+{%- include timeline/card/subinterview.html 
+  interview-ref=include.marker.interview
+%}
+{%- else %}
+Something is missing
 {%- endif %}

@@ -1,0 +1,20 @@
+---
+layout: default
+title: Media NEK!
+---
+
+{%- capture main -%}
+{%- for yearpair in site.data.interview %}
+{%- assign year = yearpair[0] %}
+<h2>{{ year }}</h2>
+<div class="line-card-list">
+{%- for interviewpair in yearpair[1] %}  
+{%- assign interview=interviewpair[1] %}
+{%- include linecard/dispatch.html data=interview %}
+{%- endfor %}
+</div>
+{%- endfor %}
+
+{%- endcapture -%}
+{%- include main/base.html content=main designation="media" -%}
+

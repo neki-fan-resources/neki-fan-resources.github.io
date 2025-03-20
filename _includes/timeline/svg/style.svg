@@ -43,4 +43,7 @@
       font-size: 6px;
       font-weight: 700;
     }
+    .timeline-marker-interview text {
+      fill: darkblue;
+    }
   </style>

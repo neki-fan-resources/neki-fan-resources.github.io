@@ -1,0 +1,47 @@
+{%- include interview/get.html ref=include.interview-ref %}
+{%- assign interview = g_interview %}
+{%- assign uid = "interview-" | append: interview.uid%}
+{%- include media/get.html ref=include.media-ref %}
+{%- if interview.assets.cover-image %}
+{%- capture cover-image %}
+{%- include coverimage/base.html data=interview %}
+{%- endcapture %}
+{%- capture cover-image-alt %}
+{%- include coverimage/alt.html data=interview %}
+{%- endcapture %}
+{%- else %}
+{%- assign cover-image = nil %}
+{%- endif %}
+{%- if interview.radio %}
+{%- assign designation="radio" %}
+{%- assign name = interview.radio | append: " - " | append: interview.show %}
+{%- else %}
+{%- assign designation="something is missing" %}
+{%- assign name = "something is missing" %}
+{%- endif %}
+{%- capture inforows %}
+{%- if interview.host %}
+{% include inforow/base.html
+  label="host"
+  value=interview.host -%}
+{%- endif %}
+{% include inforow/base.html
+  label="published"
+  value=interview.published-date -%}
+{%- if interview.webpage %}
+{% include inforow/base.html
+  label=""
+  value="show page"
+  url=interview.webpage -%}
+{%- endif %}
+{%- endcapture %}
+{%- include timeline/card/base.html
+  data=interview
+  designation=designation
+  label=name
+  cover-image=cover-image
+  cover-image-alt=cover-image-alt
+  media=g_media
+  media-from=include.media-from
+  inforows=inforows
+  uid=uid %}

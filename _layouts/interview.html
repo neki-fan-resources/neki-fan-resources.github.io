@@ -1,0 +1,15 @@
+---
+layout: default
+collection: interview
+---
+{%- include item/frompage.html -%}
+{%- assign interview = g_item -%}
+{%- if include.data.radio %}
+{%- assign designation="radio" %}
+{%- else %}
+{%- assign designation="something is missing" %}
+{%- endif %}
+{%- capture main -%}
+{%- include itemdetails/dispatch.html data=interview -%}
+{%- endcapture -%}
+{%- include main/base.html content=main designation=designation -%}

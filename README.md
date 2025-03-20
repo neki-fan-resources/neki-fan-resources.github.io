@@ -16,5 +16,4 @@ In search, use `NEK!` for `Artist Name`, and `perfect match` in the dropdown.
 # TODO
 
 * double check in official registry credits for `Get Over`
-* double check in official registry credits for `Dreams!!!`
 

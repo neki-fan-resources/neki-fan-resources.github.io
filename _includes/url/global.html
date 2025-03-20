@@ -2,7 +2,9 @@
 {%- if include.item.year %}
   {%- assign item = collection.docs | where: "pid", include.item.id | where: "year", include.item.year | first %}
   {%- assign g_url = item.url %}
-{%- else %}
+{%- elsif include.item.uid %}
   {%- assign item = collection.docs | where: "uid", include.item.uid | first %}
   {%- assign g_url = item.url %}
+{%- else %}
+  {%- assign g_url = nil %}
 {%- endif %}

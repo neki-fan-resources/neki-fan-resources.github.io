@@ -9,6 +9,14 @@ function toggle_language_visibility(languageId) {
   });
 }
 
+function toggle_language_visibility2(classToSelect, classToToggle) {
+  var classname = "." + classToSelect
+  var es = document.querySelectorAll(classname)
+  es.forEach(element => {
+    element.classList.toggle(classToToggle)
+  });
+}
+
 function toggle_band_member_info(member) {
   document.querySelectorAll("#band-" + member + "-info")[0]
     .classList.toggle("band-info-hidden")

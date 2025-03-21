@@ -11,5 +11,8 @@ collection: interview
 {%- endif %}
 {%- capture main -%}
 {%- include itemdetails/dispatch.html data=interview -%}
+{%- if interview.interview %}
+{% include interview/base.html interview=interview.interview %}
+{%- endif %}
 {%- endcapture -%}
 {%- include main/base.html content=main designation=designation -%}

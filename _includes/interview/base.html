@@ -1,0 +1,24 @@
+<h2>
+  Interview
+  <span class="interview-status interview-status-{{ include.interview.status.code }}">
+    {{ include.interview.status.description }}
+  </span>
+</h2>
+<div class="interview">
+  <table class="interview-language">
+{%- for language in include.interview.languages %}
+{% include interview/language.html language=language %}
+{%- endfor %}
+  </table>
+  <table class="interview-text">
+{%- for line in include.interview.text %}
+{%- if line.break %}
+{% include interview/break.html break=line.break %}
+{%- elsif line.s %}
+{%- include interview/line.html line=line speakers=include.interview.speakers languages=include.interview.languages %}
+{%- else %}
+<tr><td colspan="2">Something is missing</td></tr>
+{%- endif %}
+{%- endfor %}
+  </table>
+</div>

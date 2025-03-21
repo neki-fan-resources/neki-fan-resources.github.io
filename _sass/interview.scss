@@ -1,0 +1,98 @@
+@import "colors.scss";
+
+// layout
+
+.interview-status {
+  margin-left: 1rem;
+  padding: 0 0.5rem 0 0.5rem
+}
+
+.interview-text {
+  border-spacing: 0;
+  margin-top: 0.5rem;
+}
+
+.interview-text-speaker {
+  text-align: right;
+  vertical-align: top;
+  padding: 0.2rem 0.4rem 0 0;
+}
+
+// .interview-text td {
+//   border: 1px solid black;
+// }
+
+.interview-text-line-hidden {
+  display: none;
+}
+
+// style
+
+.interview-status {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  text-transform: lowercase;
+}
+
+.interview-status-warning {
+  color: white;
+  background-color: orange;
+}
+
+.interview-status-danger {
+  color: white;
+  background-color: red;
+}
+
+.interview-status-na {
+  color: white;
+  background-color: black;
+}
+
+.interview-language {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.interview-text-speaker {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-weight: 600;
+}
+
+.interview-text-break {
+  background-color: $color_break_10;
+}
+
+.interview-text-block-ho {
+  background-color: $color_host_10;
+}
+
+.interview-text-block-hi {
+  background-color: $color_hika_10;
+}
+
+.interview-text-block-ka {
+  background-color: $color_kanade_05;
+}
+
+.interview-text-block-na {
+  background-color: $color_natsu_10;
+}
+
+.interview-text-block-co {
+  background-color: $color_cocoro_05;
+}
+
+.interview-text-line {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.interview-text-line-o {
+  color: black;
+}
+
+.interview-text-line-e {
+  color: $color_cocoro_dark;
+}

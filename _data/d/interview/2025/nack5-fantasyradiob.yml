@@ -1,0 +1,71 @@
+collection: interview
+year: 2025
+id: nack5-fantasyradio
+uid: 2025_nack5-fantasyradio
+dark: true
+
+radio: NACK5
+show: FANTASY RADIO
+host: 春日萌花
+members:
+  - Hika
+  - Natsu
+webpage: https://www.nack5.co.jp/program/fantasyradio/
+
+published-date: 2025-03-23
+
+assets:
+  cover-image:
+    filename: cover640.png
+    source:
+      description: FANTASY RADIO webpage
+      url: https://www.nack5.co.jp/program/fantasyradio/
+
+
+interview:
+  status:
+    code: danger
+    description: Everything can be just plain incorrect. Transcription and translation done using LLMs.
+  languages:
+  - id: o
+    label: Japanese
+    fixed: true
+    active: true
+    notranslation: true
+  - id: e
+    label: English
+    active: true
+  speakers:
+    ho:
+      name: 春日萌花
+    hi:
+      name: Hika
+    na:
+      name: Natsu
+  text:
+  - s: ho
+    o: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    e: In in tincidunt dolor.
+  - s: ho
+    o: Quisque a lorem enim. 
+    e: Nam sed venenatis ligula.
+  - s: hi
+    o: Praesent porta accumsan neque, sit amet feugiat purus semper eget.
+    e: Vivamus ultrices semper nunc, vel commodo enim pulvinar in.
+  - s: na
+    o: Aenean eleifend nibh et fringilla ornare.
+    e: Proin luctus in eros in volutpat.
+  - break: Playing Get Over
+  - s: ho
+    o: Phasellus arcu ante, lobortis quis mollis id, ultrices a sapien.
+    e: Fusce vestibulum in velit ut suscipit.
+  - s: na
+    o: Praesent imperdiet, erat sit amet vestibulum sollicitudin, lorem mauris vestibulum risus, id feugiat sem elit vitae augue.
+    e: In vel enim a erat commodo elementum at vel sapien.
+  - s: ho
+    o: Fusce volutpat risus id est gravida auctor.
+    e: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+  - s: hi
+    o: Aliquam facilisis vitae sapien eu sollicitudin.
+    e: Proin eros dui, bibendum et aliquet id, mattis vel elit.
+

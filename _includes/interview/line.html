@@ -1,0 +1,12 @@
+{%- assign speaker = include.speakers[include.line.s].name %}
+<tr class="interview-text-block-{{ include.line.s }}"><td class="interview-text-speaker">{{ speaker }}</td><td>
+{%- for language in include.languages %}
+{%- if include.line[language.id] %}
+{%- capture classes -%}
+interview-text-line interview-text-line-{{ language.id }}
+{%- if language.active != true %} interview-text-line-hidden{% endif %}
+{%- endcapture %}
+<div class="{{ classes }}" {%- if language.notranslation %} translate="no"{%- endif -%}>{{ include.line[language.id] }}</div>
+{%- endif %}
+{%- endfor %}
+</td></tr>

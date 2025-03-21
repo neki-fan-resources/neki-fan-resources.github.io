@@ -15,6 +15,7 @@ $color_natsu_light: scale-color($color_natsu, $lightness: 50%);
 $color_natsu_lighter: scale-color($color_natsu, $lightness: 90%);
 $color_natsu_dark: scale-color($color_natsu, $lightness: -50%);
 $color_natsu_50: change-color($color_natsu, $alpha: 0.5);
+$color_natsu_10: change-color($color_natsu, $alpha: 0.1);
 $color_natsu_05: change-color($color_natsu, $alpha: 0.05);
 $color_cocoro: #2ba6e1;
 $color_cocoro_light: scale-color($color_cocoro, $lightness: 50%);
@@ -31,3 +32,6 @@ $color_kanade_cocoro_dark: mix($color_kanade_dark, $color_cocoro_dark);
 $color_designation: grey;
 $not_black: darkslategray;
 $color_not_released: slategray;
+
+$color_break_10: change-color(white, $alpha: 0.1);
+$color_host_10: change-color(grey, $alpha: 0.1);

@@ -34,6 +34,11 @@ collections:
     output: true
     permalink: /dark/song/:name.html
 
+  d_interview:
+    output: true
+    permalink: /dark/interview/:path.html
+
+
 # previous location of files, not the canonical ones since February 2025
 
   old_songs:
@@ -105,6 +110,12 @@ defaults:
       type: "d_song"
     values:
       layout: "d_song"
+
+  - scope:
+      path: ""
+      type: "d_interview"
+    values:
+      layout: "d_interview"
 
 # previous location of files, not the canonical ones since February 2025
   - scope:

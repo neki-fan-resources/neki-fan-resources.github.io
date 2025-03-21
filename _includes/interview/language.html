@@ -1,0 +1,11 @@
+    <tr>
+      <td>
+        <input id="interview-lang-{{ include.language.id }}" type="checkbox"
+          {%- if language.active %} checked{%- endif -%}
+          {%- if language.fixed %} disabled
+          {%- else %} onchange="toggle_language_visibility2('interview-text-line-{{ language.id }}', 'interview-text-line-hidden')"
+          {%- endif -%}
+        />
+      </td>
+      <td>{{ include.language.label }}</td>
+    </tr>

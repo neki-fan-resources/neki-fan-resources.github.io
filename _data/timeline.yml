@@ -307,6 +307,10 @@ marker:
   shift: 9
 - show:
     year: 2025
+    id: kakumeilogic2025
+  short: true
+- show:
+    year: 2025
     id: 1stzepponeman
 
 

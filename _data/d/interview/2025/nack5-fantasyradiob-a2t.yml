@@ -32,9 +32,6 @@ interview:
     fixed: true
     active: true
     notranslation: true
-  - id: r
-    label: Romaji
-    active: true
   - id: e
     label: English
     active: true
@@ -49,9 +46,9 @@ interview:
       name: Hika, Natsu
   text:
   - s: ho
-    o: 79.5 ナック 5 春日 も萌 が お 送り し て いる ファンタジー ラジオ 。 この 時間 は ジャンル を 問わ ず 素敵 な お 客 様 を 迎え て お 送り し ます 。 今日 は 3 月 5 日 に セカンド EP トリックテーキング を リリース し た 4 人組ガールズバンドネキ の ギターボーカル ひカ さん と ギター の ナツ さん です 。 どう も こんばんは 。
+    o: 79.5ナックファイブ 春日 萌え子 が お 送り し て いる ファンタジー ラジオ この 時間 は ジャンル を 問わ ず 素敵 な お 客様をお迎えしてお送りします今日は3月5日にセカンドepトリックテイキングをリリースした4人組ガールズバンドねきのギターボーカルひかさんとギターのなつさんですどうもこんばんは
     r: 79.5 Nakku Faibu Kasuga Moeka ga o okuri shite iru Fantajī Rajio. Kono jikan wa janru o towazu suteki na okyakusama o mukae te o okuri shimasu. Kyō wa sangatsu itsuka ni sekando Ī Pī Torikku Tēkingu o rirīsu shita yon-nin-kumi gāruzubando Neki no gitābōkaru Hika-san to gitā no Natsu-san desu. Dōmo konbanwa.
-    e: 79.5 NACK5, Haruhi Moeka is bringing you Fantasy Radio. In this segment, we welcome wonderful guests regardless of genre. Today, we have Hika, the guitar vocalist, and Natsu, the guitarist, from the four-member girl band NEK!, who released their second EP "Trick Taking" on March 5th. Good evening.
+    e: 79.5 NACK5, Haruhi Moeka is bringing you Fantasy Radio. This time slot welcomes wonderful guests regardless of genre. Today, we have Hika, the guitar vocalist, and Natsu, the guitarist of Neki, the four-member girls' band that released their second EP "Trick Taking" on March 5th. Good evening.
   - s: hi
     o: こんばんは 。
     r: Konbanwa
@@ -61,29 +58,27 @@ interview:
     r: Konbanwa
     e: Good evening.
   - s: ho
-    o: お 1 人ずつ自己紹介 
+    o: お一人ずつ自己紹介 
     r: O hitori zutsu jikoshōkai o dōzo.
-    e: Could you please introduce yourselves?
+    e: Could each of you please introduce yourselves?
   - s: hi
-    o: を どうぞ 。 え 、 ギターボーカルカ です 。 よろしく お 願い いたし ます 。
+    o: を どうぞ ギターボーカル ひか ですよろしく お 願い致し ます。
     r: E, gitābōkaru Hika desu. Yoroshiku o negai itashimasu.
-    e: I'm Hika, guitar and vocals. Nice to meet you.
+    e: Uh, I'm Hika, the guitar vocalist. Nice to meet you.
   - s: na
-    o: はい 。ギターの夏です。よろしくお願いします。
+    o: はいギターの夏ですよろしくお願いします
     r: Hai. Gitā no Natsu desu. Yoroshiku o negai shimasu.
-    e: Yes, I'm Natsu, guitar. Nice to meet you.
+    e: Yes, I'm Natsu, the vocalist. Nice to meet you.
   - s: ho
     o: よろしくお願いします。
     e: Nice to meet you.
   - s: ho
-    o: お 2 人ともおしゃれして来ていただいてありがとうございます。気合が入ってますね。今日も
+    o: お二人ともオシャレして着ていただいてありがとうございます 気合が入ってますね今日も
     r: O futari tomo oshare shite kite itadaite arigatō gozaimasu. Kiai ga haittemasu ne. Kyō mo
-    e: Thank you for dressing up so nicely for the show.
-  - s: na
-    e: It felt right for today.
+    e: Nice to meet you. Thank you both for dressing up and coming. You look very enthusiastic today.
     # end of the sentense, not sure who is speaking
   - s: ho
-    o: ひかちゃんひかちゃんって呼んでいいですか?
+    o: ヒカちゃんって呼んでいいですか?
     r: Hika-chan Hika-chan tte yonde ī desu ka?
     e: Hika-chan, can I call you Hika-chan?
   - s: hi
@@ -91,27 +86,29 @@ interview:
     r: Hai, onegai shimasu.
     e: Yes, please do.
   - s: ho
-    o: ちゃんのもうレッドの衣装ですよ。赤、赤
+    o: ヒカちゃんのレッドの衣装ですよ赤赤
     r: Chan no mō reddo no ishō desu yo. Aka, aka
-    e: Hika-chan, you're wearing a full red outfit. Red, red!
+    e: Hika-chan is already wearing a red outfit! Red, red.
   - s: hi
-    o: ね。ありがとうございます
-    r: ne Arigatō gozaimasu.
-    e: Yes. Thank you very much.
+    r: ne
+    o: ね。
+    e: Right.
   - s: ho
+    o: ありがとうございます。
+    r: Arigatō gozaimasu.
+    e: Thank you.
+  - s: hi
     o: すごい赤の衣装に
     r: Sugoi aka no ishō ni
     e: Such a striking red outfit.
   - s: ho
     o: 黒のボブかと思ったら中がイカラーがね、
     r: Kuro no bobu ka to omottara naka ga ikarā ga ne, 
-    e: I thought it was a black bob, but it has color inside, right?
+    e: I thought it was a black bob, but the inside has squid-like color, right?
   - s: ho
     o: ピンクがてチラチラしてて可いいですね。
     r: Pinku ga te chirachira shite te kawaii desu ne.
     e: The pink peeking out is cute.
-  - s: hi
-    e: Thank you so much.
   - s: ho
     o: 根元もキラキラしてて
     r: Nemoto mo kirakira shite te
@@ -140,14 +137,14 @@ interview:
     o: 家部春大優勝みたいな
     r: Ie be haru daiyūshō mitai na
     e: ...like a champion of spring fashion.
-  - s: na
+  - s: ho
     o: お洋服を着てらっしゃいますけども
     r: Oyōfuku o ki te rasshaimasu kedomo.
-    e: You're also wearing such lovely clothes.
+    e: You're wearing such lovely clothes.
   - s: na
-    o: 春に向けてちょっと派手なしさを取り入れてみたかなって。
+    o: ちょ春に向けてちょっと春らしさを取り入れてみたい。
     r: Cho haru ni mukete chotto harurashisa o toriirete mitai.
-    e: I wanted to incorporate a little spring-like feel for the season.
+    e: I wanted to incorporate a little spring-like feel for spring.
   - s: ho
     o: ピンク色の髪の毛もすごい可いいです。
     r: Pinkuiro no kami no ke mo sugoi kawaii desu.
@@ -155,7 +152,7 @@ interview:
   - s: na
     o: 染め立てで
     r: Sometate de
-    e: I just dyed it.
+    e: Just dyed.
   - s: ho
     o: はい。
     r: Hai.
@@ -167,19 +164,11 @@ interview:
   - s: ho
     o: おしゃれしてきていただいてありがとうございます。
     r: Oshare shite kite itadaite arigatō gozaimasu.
-    e: Thank you both for dressing up!
+    e: Thank you for dressing up and coming.
   - s: ho
-    o: そんな お 2 人と 今日 は ね ネキ の お 話 を し て いけ たら と 思っ て おり ます 。  
-    r: Sonna o futari to kyō wa ne Neki no ohanashi o shite iketara to omotte orimasu. 
-    e: So, today I'd like to talk about NEK! with you two. 
-  - s: hi
-    o: はい 。
-    r: Hai. 
-    e: Yes. 
-  - s: ho
-    o: 今回 初めまして と いう こと で プロフィール を ね 、 ご 紹介 し ながら お 話 伺っ て いき ましょう 。 ネキ は 今日 お 越し の ひか さん 、 ナ さん と ベース の かなで さん 、 ドラム の ココロ さん に よる 4 人 組 の ガールズ バンド です 。 それぞれ 自身 の YouTube や SNS を 中心 に 音楽 を 発信 し て き た 4 人 が お 互い の パフォーマンス に 惚れ込ん で 2024 年 2 月 に 決成 。 これ お 互い の パフォーマンス に惚れ込ん でいうの本当ネット 上 で 見 て たって こと な ん です か ?
-    r: Konkai hajimemashite to iu koto de purofīru o ne, go shōkai shi nagara ohanashi ukagatte ikimashō. Neki wa kyō o koshi no Hika-san, Natsu-san to bēsu no Kanade-san, doramu no Kokoro-san ni yoru yon-nin-kumi no gāruzubando desu. Sorezore jishin no YūChūbu ya Esu Enu Esu o chūshin ni ongaku o hasshin shite kita yon-nin ga otagai no pafōmansu ni horekonde ni-sen-ni-jū-yo nen ni-gatsu ni kessei. Kore otagai no pafōmansu ni horekonde iu no hontō netto-jō de mite ta tte koto nan desu ka?
-    e: Since this is our first time meeting, let's start with your profile. NEK! is a 4-member girls band consisting of Hika-san and Natsu-san, who are here today, along with Kanade-san on bass and Cocoro-san on drums. These four individuals, who have been sharing their music mainly on their own YouTube channels and social media, were so impressed by each other's performances that they formed the band in February 2024. So, being impressed by each other's performances, does that really mean you discovered each other online?
+    o: そんな お 2 人と 今日 は ね ネキ の お 話 を し て いけ たら と 思っ て おり ます 。 はい 。 今回 初めまして と いう こと で プロフィール を ね 、 ご 紹介 し ながら お 話 伺っ て いき ましょう 。 ネキ は 今日 お 越し の ひか さん 、 ナ さん と ベース の かなで さん 、 ドラム の ココロ さん に よる 4 人 組 の ガールズ バンド です 。 それぞれ 自身 の YouTube や SNS を 中心 に 音楽 を 発信 し て き た 4 人 が お 互い の パフォーマンス に 惚れ込ん で 2024 年 2 月 に 決成 。 これ お 互い の パフォーマンス に惚れ込ん でいうの本当ネット 上 で 見 て たって こと な ん です か ?
+    r: Sonna o futari to kyō wa ne Neki no ohanashi o shite iketara to omotte orimasu. Hai. Konkai hajimemashite to iu koto de purofīru o ne, go shōkai shi nagara ohanashi ukagatte ikimashō. Neki wa kyō o koshi no Hika-san, Natsu-san to bēsu no Kanade-san, doramu no Kokoro-san ni yoru yon-nin-kumi no gāruzubando desu. Sorezore jishin no YūChūbu ya Esu Enu Esu o chūshin ni ongaku o hasshin shite kita yon-nin ga otagai no pafōmansu ni horekonde ni-sen-ni-jū-yo nen ni-gatsu ni kessei. Kore otagai no pafōmansu ni horekonde iu no hontō netto-jō de mite ta tte koto nan desu ka?
+    e: So, today I'd like to talk about Neki with the two of you. Yes. Since this is our first meeting, let's start by introducing your profile and then talk more. Neki is a 4-member girls band consisting of Hika-san and Natsu-san, who are here today, along with Kanade-san on bass and Cocoro-san on drums. These four individuals, who have been sharing their music mainly on their own YouTube channels and social media, were so impressed by each other's performances that they formed the band in February 2024. So, being impressed by each other's performances, does that really mean you were watching online?   
   - s: hi
     o: はい 。 そう です 。
     r: Hai. Sō desu.  
@@ -227,7 +216,7 @@ interview:
   - s: ho
     o: 番ロックバントではないなっていうところがあって
     r: ban rokku bando de wa nai na tte iu tokoro ga atte
-    e: ...she doesn't quite feel like the rock band type.
+    e: ...it doesn't quite feel like a rock band.
   - s: hi
     o: そうですね。全然昔やってたジャンルと全く違うので
     r: Sō desu ne. Zenzen mukashi yatte ta janru to mattaku chigau node
@@ -252,15 +241,15 @@ interview:
     o: えっと、セカンドイピかせていただいて本当にお 2 人があのネキなのかなと思いながら今喋ってますもん。
     r: Etto, sekando I Pī kase te itadaite hontō ni o futari ga ano Neki na no kana to omoi nagara ima shabette masu mon.  
     e: Well, after listening to your second EP, I really feel like the two of you embody Neki as I'm talking to you now.
-  - s: na
-    o: そうなんですよね。
-    r: Sō nan desu yo ne.
-    e: That's right.
+  - s: hi
+    o: そうなんですよね。最初
+    r: Sō nan desu yo ne. Saisho
+    e: That's right. At first,
   - s: hi
     o: 最私はなっちゃん見た時 YouTube で見たんですけど
     r: Saisho watashi wa Nattsu-chan mita toki YūChūbu de mita n desu kedo
     e: When I first saw Nacchan (Natsu) on YouTube,
-  - s: ho
+  - s: na
     o: はい。
     r: Hai.
     e: Yes.
@@ -276,39 +265,31 @@ interview:
     o: 思って、もうビビリビッと来てもすぐ
     r: Omotte, mō bibiribitto kite mo sugu
     e: I was so shocked, I immediately thought,
-  - s: na
+  - s: hi
     o: これは誘わねばと。
     r: Kore wa sasowaneba to.
-    e: '"I have to invite her!"'
-  - s: hi
-    o: これは行かねばと思って。
-    r: Kore wa ikaneba to omotte. 
-    e: I thought, "I have to go for it!" 
+    e: "I have to invite her!"
   - s: na
-    o: え、 で、私もそのヒカの TikTok を中心にやってたんですけど、もう歌声聞いた時にもう一発でこう
-    r: E, de, watashi mo sono Hika no TikToku o chūshin ni yatte ta n desu kedo, mō utagoe kiita toki ni mō ippatsu de kō
-    e: And, well, I was mainly active on TikTok, but when I heard Hika's singing voice, it was like a direct hit –
+    o: これは行かねばと思って。え、 で、私もそのヒカの TikTok を中心にやってたんですけど、もう歌声聞いた時にもう一発でこう
+    r: Kore wa ikaneba to omotte. E, de, watashi mo sono Hika no TikToku o chūshin ni yatte ta n desu kedo, mō utagoe kiita toki ni mō ippatsu de kō
+    e: I thought, "I have to go!" And, well, I was mainly active on Hika's TikTok, but when I heard her singing voice, it was like a direct hit –
     # weird translation
   - s: na
     o: はてこう心掴まれちゃってそうなんです。心掴まれてこのボーカルの後ろでこうギターバンドが組めたらどれだけ幸せかなって。
     r: Hate kō kokoro tsukamare chatte sō nan desu. Kokoro tsukamarete kono bōkaru no ushiro de kō gitābando ga kume tara dore dake shiawase kana tte.
     e: My heart was instantly captivated. That's right. I was captivated and thought, "How happy would I be if I could form a guitar band behind this vocalist?"
-  - s: ho
+  - s: hi
     o: そんなこと言ってもらえことある?
     r: Sonna koto itte morae koto aru?
-    e: Have you ever been told this?
-  - s: hi
+    e: Have you ever been told something like that?
+  - s: na
     o: もう泣きそう。
     r: Mō nakisō.
     e: I'm about to cry.
   - s: ho
-    o: ここにハートが見えてるよ。
-    r: Koko ni hāto ga mieteru yo. 
-    e: I can see hearts right here. 
-  - s: hi
-    o: 本当に。
-    r: Hontō ni.
-    e: Really.
+    o: ここにハートが見えてるよ。本当に。
+    r: Koko ni hāto ga mieteru yo. Hontō ni.
+    e: I can see hearts right here. Really.
   - s: ho
     o: ま、改めてですけれどもね、ネキというのは、ま、ネットスラングでね、頼れる存在の姉貴 を 意味 する ネキ から 命名 し てる ん です よ ね 。 て いう の は 、 ま 、 ネット から 誕生 し た ガールズ バンドっ て こと です ね 。
     r: Ma, aratame desu keredomo ne, Neki to iu no wa, ma, netto surangu de ne, tayoreru sonzai no aneki o imi suru Neki kara meimei shiteru n desu yo ne. Te iu no wa, ma, netto kara tanjō shita gāruzubando tte koto desu ne.
@@ -320,15 +301,15 @@ interview:
   - s: ho
     o: で 、 ロック を ベスト し ながら ネット 初 の 印象 的 な 歌詞 を 特徴 と する こと から スラング ロック バンド と も 消さ れ て おり ます 。 今回 の EP も ね 、 それ が 存分 に 発揮 さ れ てる よう な 感じ でし た 。
     r: De, rokku o bēsu shi nagara netto hatsu no inshōteki na kashi o tokuchō to suru koto kara surangu rokku bando to mo kesa rete orimasu. Konkai no Ī Pī mo ne, sore ga zonbun ni hakki sare teru yō na kanji deshita.
-    e: And, while being based in rock music, they are also described as a slang rock band due to their distinctive lyrics that originate from the internet. This latest EP also really showcases that.
-  - s: na
+    e: And, while being based in rock music, they are also described as a slang rock band due to their distinctive lyrics that originate from the internet. This EP also really showcases that.
+  - h: na
     o: はい 。
     r: Hai. 
     e: Yes.
-  - s: ho
+  - h: ho
     o: デビュー し た 2024 年 に は デジタル シングル を 3 局 と EP 1 枚 を 発表 。 そして 決成 2 周年 と なる 2025 年 3 月 5 日 に セカンド EP トリックテーキングをリースということで、先週日曜はその EP を引っ下げたファーストワンマンツアーのファイナルだったということで
     r: Debyū shita ni-sen-ni-jū-yo nen ni wa dejitaru shinguru o san-kyoku to Ī Pī ichi-mai o happyō. Soshite kessei ni-shūnen to naru ni-sen-ni-jū-go nen sangatsu itsuka ni sekando Ī Pī Torikku Tēkingu o rīsu to iu koto de, senshū nichiyō wa sono Ī Pī o hissageta fāsuto wanman tsuā no fainaru datta to iu koto de.
-    e: In 2024, the year they debuted, they released three digital singles and one EP. And along their second anniversary, on March 5th, 2025, they released their second EP, "TR!CK TAK!NG." Last Sunday was the final show of their first one-man tour with this EP.
+    e: In 2024, the year they debuted, they released three digital singles and one EP. And with their second anniversary coming up on March 5th, 2025, they released their second EP, "Trick Taking." Last Sunday was the final show of their first one-man tour with this EP.
   - s: hi
     o: はい、
     r: Hai,
@@ -350,11 +331,11 @@ interview:
     r: Saikō deshita ne.
     e: It was amazing. 
   - s: na
-    o: 楽しかったですね、本当に。
+    o: 楽しかったですね。
     r: Tanoshikatta desu ne, hontō ni.
     e: It was really fun.
   - s: na
-    o: それこそファイナルオーウェストでやらせていただいたんですけど、ソードアウトさせていただいて
+    o: それこそファイナルオーエストでやらせていただいたんですけど、ソルドアウトさせていただいて
     r: Sore koso fainaru Ōuesuto de yarase te itadaita n desu kedo, sōdoauto sasete itadaite
     e: We had the final show at O-WEST, and it was sold out.
   - s: hi
@@ -362,281 +343,262 @@ interview:
     r: Arigatō gozaimasu.
     e: Thank you.
   - s: na
-    o: マインのこうウェストの中で
+    o: マーインのオーエストの中で
     r: Main no kō Uesuto no naka de
     e: Inside Mine's O-WEST...
   - s: hi
-    o: 最高の景色を見ましたね 本当に
-    r: Saikō no keshiki o mimashita ne hontō ni
+    o: 最高の景色を 本当に
+    r: Saikō no keshiki o hontō ni
     e: We saw the most amazing view, really.
-    # change
-  - s: hina
-    o: 見ましたね
-    r: mimashita ne
-    e: 
-  - s: na
-    o: 本当に
-    r: hontō ni
-    e: 
   - s: ho
-    o: そして人回り大きくなって今ここにね来ていただいたということですね。
-    r: Soshite hitomawari ōkiku natte ima koko ni ne kite itadaita to iu koto desu ne.
-    e: And now you're here, even bigger than before.
+    o: そして一回り大きくなって、今ここにね、来ていただいたということですね。
+    r: 
+    e: And you've come back here even bigger than before.
   - s: hi
     o: ありがとうございます。
-    r: Arigatō gozaimasu.
+    r: 
     e: Thank you very much.
   - s: ho
-    o: 改めてネキなんですが、えっと N E K これ はま簡単歩というかねマークになってネキです。
-    r: Aratame te Neki nan desu ga, etto N wa ma kantan ayumi to iu ka ne māku ni natte Neki desu.
-    e: So, again, NEK! is written as N E K with an exclamation mark, and it makes 'neki'.
+    o: 改めてネキなんですが、えっと、N、E、K、これは簡単譜というかね、びっくりマークになってネキです。
+    r: 
+    e: So, again, about Neki, the 'N' is a simple step, or rather, it's written with an exclamation mark, like "!eki".
+    # not great
   - s: ho
     o: で、今回のトリックテーキングもトリックテングみたいな感じでね、びっくりマークがね、しっかりと入ってるという感じに入っております。
-    r: De, konkai no Torikku Tēkingu mo Torikku Tengu mitai na kanji de ne, bikkuri māku ga ne, shikkari to haitteru to iu kanji ni haitte orimasu.
-    e: And this time, "TR!CK TAK!NG" is also written like "Trick! Taking!," with an exclamation mark firmly included.
+    r: 
+    e: And this time, "Trick Taking" is also written like "Trick! Taking," with an exclamation mark firmly included.
   - s: ho
-    o: そんな本当にホワホワしたね。 漢字でお話をね、しているんですけれども
-    r: Sonna hontō ni howahowa shita ne. Ohanashi o ne, shite iru n desu keredomo
-    e: It really felt so gentle, didn't it? I'm just talking about how it feels.
-    # changed
+    o: そんな本当にほわほわした感じでお話をしているんですけれども
+    r: Son'na hontōni ho wa ho wa shita kanji de ohanashi o shite iru ndesukeredomo
+    e: We've been having such a light and fluffy conversation, haven't we?
   - s: hi
     o: はい。
-    r: Hai.
-    e: Yes
+    r: 
+    e: 
   - s: na
     o: はい。
-    r: Hai.
-    e: Yes
+    r: 
+    e: 
   - s: ho
     o: すっごいアルバムですね。本当に
-    r: uggoi arubamu desu ne. Hontō ni
+    r: 
     e: It's an amazing album, really.
   - s: hi
     o: ありがとうございます。本当
-    r: Arigatō gozaimasu. Hontō
+    r: 
     e: Thank you very much. Really.
   - s: ho
     o: めちゃくちゃゴリゴリのロック
-    r: Mechakucha gorigori no rokku
+    r: 
     e: Super hardcore rock.
   - s: hi
     o: ゴリゴリの
-    r: Gorigori no
+    r: 
     e: Hardcore.
   - s: na
     o: ゴリさせていただいております。リードの
-    r: Gori sasete itadaite orimasu. Rīdo no
+    r: 
     e: We're going full hardcore. The lead...
   - s: ho
     o: バッキングのタッピングに
-    r: Bakkingu no tappingu ni
+    r: 
     e: ...the backing tapping...
   - s: ho
     o: バスドラドンドンみたいな。
-    r: Basudora dondon mitai na.
+    r: 
     e: ...the booming bass drum and all that.
   - s: hi
     o: どんに早口言葉をぎゅっと詰め込んだ。
-    r: Don ni hayakuchikotoba o gyutto tsumekonda.
+    r: 
     e: Packed with tongue-twister-like lyrics.
   - s: ho
     o: めちゃくちゃすごい P がはい。今回ね
-    r: Mechakucha sugoi Pī ga hai. Konkai ne
+    r: 
     e: It's a really amazing EP. Yes, this time.
   - s: hi
     o: はい。
-    r: Hai.
+    r: 
     e: Yes.
   - s: ho
     o: お届けいただいたということでじゃあそろそろ聞いていただきたいと思うんですが 先ほど も 言い まし た が 、 あの 、 ネット スラング を まあ ね 、 こう 駆使 し た と いう か ね 、 色々 ね 、 え 、 印象 的 な 歌詞 が 入っ てる と いう こと な ん です けれど も 、 今 から 聞い て いただく 曲 も 、 えっ と 、 ひか さん の すごい 可愛らしい お 声 だけ だ けど 、 あの 、 言っ てる こと は なん だろう 、 もう 共感 しか ない みたい な うん 。 感じ の ね 。 はい 。 ネット の 言葉 だっ たり と か ね 、 いろんな 表現 が 入っ てる な と いう 風 に 思い ます 。 うん あの、ネッキーはみんなでこう曲を作っていくみたいな感じなんですか?
-    r: Otodoke itadaita to iu koto de jā sorosoro kiite itadaitai to omou n desu ga sakihodo mo ii mashita ga, ano, netto surangu o mā ne, kō kushi shita to iu ka ne, iroiro ne, e, inshōteki na kashi ga haitteru to iu koto nan desu keredomo, ima kara kiite itadaku kyoku mo, etto, Hika-san no sugoi kawairashii o koe dake da kedo, ano, itteru koto wa nan darō, mō kyōkan shika nai mitai na un. Kanji no ne. Hai. Netto no kotoba dattari to ka ne, ironna hyōgen ga haitteru na to iu fū ni omoimasu. Un ano, Nekkī wa minna de kō kyoku o tsukutte iku mitai na kanji nan desu ka?
+    r: 
     e: So, we've received this amazing EP, and now I think it's time for our listeners to hear it. As I mentioned earlier, your lyrics make great use of internet slang and are very impressive. The song we're about to play features Hika-san's very cute voice, but the lyrics are so relatable. Yes. I feel like it incorporates a lot of internet language and various expressions. Hmm. So, does Neki create songs together as a group?
   - s: hi
     o: はい。あの、まずみんなでスタジオに入ってセッションしながら
-    r: Hai. Ano, mazu minna de sutajio ni haitte sesshon shinagara
+    r: 
     e: First, we all go into the studio and jam together.
   - s: hi
     o: 曲の元を作ってでその後にあの作家さんに依頼してこうブラッシュアップしていただいてるっていう形になってます。
-    r: Kyoku no moto o tsukutte de sono ato ni ano sakka-san ni irai shite kō burasshuappu shite itadaiteru tte iu katachi ni nattemasu.
+    r: 
     e: We create the basic structure of the song, and then we ask a songwriter to brush it up for us. That's how it works.
   - s: ho
     o: うん。あの、聞きながら思ったのがですね、そのままずひかさんの歌てる歌詞についてなんですけれども
-    r: Un. Ano, kiki nagara omotta no ga desu ne, sono mama zu Hika-san no utatteru kashi ni tsuite nan desu keredomo 
+    r: 
     e: Hmm. You know, while listening, what I thought was about the lyrics Hika-san sings...
   - s: hi
     o: はい。
-    r: Hai
-    e: yes
+    r: 
+    e: 
   - s: ho
     o: ま、ネット上で ずっと本当にずっと争ってるじゃないですか。ずっとなんかこう争ってて悪口をずっと言ってる人とか 1 日上起こってる人とか
-    r: Ma, netto-jō de zutto hontō ni zutto aragatteru ja nai desu ka. Zutto nanka kō aragatte te waruguchi o zutto itteru hito to ka ichinichijū okotteru hito to ka
+    r: 
     e: Well, online, there's constantly, really constantly, conflict. There are people who are always fighting and saying bad things, or people who are angry all the time.
   - s: ho
     o: まなんかそういう人がいてでそういう人に対して嫌だなって思うのをより一層この曲を聞いて感じたのそうなんだけどまどこかしらちょっとドキッとする部分もあって
-    r: Ma nanka sō iu hito ga ite de sō iu hito ni taishite iya da na tte omou no o yori issō kono kyoku o kiite kanjita no sō na n da kedo ma doko kashira chotto dokitsu to suru bubun mo atte
+    r: 
     e: There are people like that, and listening to this song made me feel even more that I dislike those kinds of people. But there's also a part of me that feels a little taken aback...
   - s: hi
     o: うん
-    r: Un
-    e: Hmmm
+    r: 
+    e: 
   - s: ho
     o: 自分も実はこっちなんじゃないかなみたいなこと思ったりするんですけどなんかネット上のことを曲にするっていうのは のアイディアなんですか?
-    r: Jibun mo jitsu wa kotchi na n ja nai kana mitai na koto omottari suru n desu kedo nanka netto-jō no koto o kyoku ni suru tte iu no wa dare no aideia nan desu ka?
+    r: 
     e: ...and makes me wonder if I might actually be like that myself. So, is the idea of making songs about things online yours?
-  - s: na
+  - s: hi
     o: そうですね。なんかあの私たちそれこそ先ほども言ってただいたんですけど、えっとネットから生まれたバンドなんでやっぱそのネットっていう部分はすごい私たちの根底にもあるし大切にしたいなって思ってるこうテーマでもあるのでやっぱその私たちだけでこう私たちを表現するのって何なんだろうって考えた時にやっぱこのネットに対する思いとか
-    r: Sō desu ne. Nanka ano watashitachi sore koso sakihodo mo itte tadaita n desu kedo, etto netto kara umareta bando nan de yappa sono netto tte iu bubun wa sugoi watashitachi no kontei ni mo aru shi taisetsu ni shitai na tte omotteru kō tēma de mo aru node yappa sono watashitachi dake de kō watashitachi o hyōgen suru no tte nan nan darō tte kangaeta toki ni yappa kono netto ni taisuru omoi to ka
+    r: 
     e: That's right. As you mentioned earlier, we're a band that was born from the internet, so the internet is really fundamental to us and a theme we want to cherish. When we thought about how to express ourselves as just us, we realized that our feelings towards the internet...
-  - s: na
+  - s: hi
     o: なんかそういうのを歌詞にしたらすごい面白いしやぱネキにしか出せない
-    r: Nanka sō iu no o kashi ni shitara sugoi omoshiroi shi yappa Neki ni shika dasenai
+    r: 
     e: ...and putting those feelings into lyrics would be really interesting, and it would create songs that only Neki can produce.
-  - s: na
+  - s: hi
     o: 曲にうん。 になるんじゃないかなっていうのでやっぱその今はそうですね結構こう
-    r: Kyoku ni un. Ni naru n ja nai kana tte iu no de yappa sono ima wa sō desu ne kekkō kō
+    r: 
     e: So, that's why we're currently focusing quite a bit on that.
   - s: hi
     o: 重点置いて楽曲作ってますね。
-    r: Jūten oite gakkyoku tsukutte masu ne.
-    e: We put a lot of emphasis on that when composing music.
+    r: 
+    e: 
   - s: ho
     o: うーん。あの音についてなんですけど夏さんはここだわったとかありますか?
-    r: Ūn. Ano oto ni tsuite nan desu kedo Natsu-san wa koko kodawatta toka arimasu ka?
+    r: 
     e: Hmm. About the sound, Natsu-san, is there anything you particularly focused on?
   - s: na
     o: あ、でもあのリフとか結構そのこのジェロサムとかは特にフとかま特にネキの曲全部そうなんですけど耳に残る理っていうのをすごく
-    r: A, demo ano rifu to ka kekkō sono kono Zero Samu to ka wa toku ni fu to ka ma toku ni Neki no kyoku zenbu sō nan desu kedo mimi ni nokoru rifu tte iu no o sugoku
+    r: 
     e: Oh, but for riffs, like in "Zero Sum" especially, and really in all of Neki's songs, we really focus on creating melodies that stick in your ear.
   - s: na
     o: こう大事にしてるのでジロサムでもこう最初スラップが来てからの
-    r: Kō daiji ni shiteru node Zero Samu de mo kō saisho surappu ga kite kara no
+    r: 
     e: That's something we really value, so even in "Zero Sum," after the initial slap bass...
   - s: na
     o: このギターが始まるこのリフがあるんです。 そうのはやっぱう耳に残りやすいっていうのですごく大切にしてるますね。
-    r: Kono gitā ga hajimaru kono rifu ga aru n desu. Sō no wa yappa u mimi ni nokori yasui tte iu no de sugoku taisetsu ni shiteru masu ne.
+    r: 
     e: ...there's this riff where the guitar comes in. We really value that kind of thing because it's easy to remember.
   - s: ho
     o: 私あのすごい好きなところがあって今から聞いていただくゼロサムのあのひかさんのこう可愛い声にま、強烈な歌詞をこう聞きながら一瞬こう歌がなくなるところが
-    r: Watashi ano sugoi suki na tokoro ga atte ima kara kiite itadaku Zero Samu no ano Hika-san no kō kawaii koe ni ma, kyōretsu na kashi o kō kiki nagara isshun kō uta ga nakunaru tokoro ga
+    r: 
     e: There's a part I really love in "Zero Sum," which we're about to hear. While listening to Hika-san's cute voice and the intense lyrics, there's a moment where the singing briefly stops.
   - s: ho
     o: あるじゃないです。サの
-    r: Aru ja nai desu. Samu no
+    r: 
     e: You know? In the chorus?
-  - s: ho
-    o: あそこめちゃくちゃかっこよくないですか
-    r: Asoko mechakucha kakko yoku nai desu ka
-    e: Isn't that part so cool?
   - s: hi
-    o: いです。
-    r: ii desu.
-    e: It is.
+    o: あそこめちゃくちゃかっこよくないですかいです。
+    r: 
+    e: Isn't that part so cool? It is.
   - s: na
-    o: あれ、いいですよね。
-    r: Are o ii desu yo ne.
-    e: It's cool, right?
+    o: あれを ですよね。
+    r: 
+    e: That part, right?
   - s: ho
-    o: あれ本当によくしかも 1 回目と 2 回目のなんかそうわそうガチャガチャ感みたいなのがこうあえてあるのがすごくいいなと思っててでよく 1 回目聞くと 3-2-1 っていうね
-    r: Are hontō ni yoku shikamo ichi-kaime to ni-kaime no nanka sō wa sō gachagacha kan mitai na no ga kō aete aru no ga sugoku ii na to omotte te de yoku ichi-kaime kiku to 3-2-1 tte iu ne
-    e: That part is really great, and the intentionally chaotic feel between the first and second times it happens is really good. And if you listen closely the first time, you can hear "3-2-1," right?
+    o: あれ本当によくしかも 1 回目と 2 回目のなんかそうわそうガチャガチャ感みたいなのがこうあえてあるのがすごくいいなと思っててでよく 1 回目聞くとスリツワっていうね
+    r: 
+    e: That part is really great, and the intentionally chaotic feel between the first and second times it happens is really good. And if you listen closely the first time, you can hear "suritsuwa," right?
   - s: hi
     o: はい
     r: 
     e: Yes.
-  - s: na
+  - s: ho
     o: ひさのねめちゃめちゃこだわってます実は
-    r: Hisa no ne mecha mecha kodawatte masu jitsu wa
+    r: 
     e: Hika-san was very particular about that, actually.
   - s: hi
-    o: 3-2-1 っていう
-    # likely wrong
+    o: あむっていう
     r: 
-    e: The "3-2-1" sound.
+    e: The "amu" sound.
   - s: ho
     o: あれねいそれをねよかったらね聞き逃さずに聞いていただけたらと思いますきましょう はい、 3 月 5 日にリースされたセカンド EP から 1 曲お届けしましょう。曲紹介お願いします。
-    r: Are nei sore o ne yokattara ne kikinigasazu ni kiite itadake tara to omoimasu mashō hai, sangatsu itsuka ni rīsu sareta sekando Ī Pī kara ikkyoku o otodoke shimashō. Kyokushōkai onegai shimasu.
+    r: 
     e: Yes, that. I hope you all don't miss it when you listen. Okay, let's play a song from the second EP that was released on March 5th. Please introduce the song.
   - s: hi
     o: はい、ネキでゼロサムです。
-    r: Hai, Neki de Zero Samu desu.
+    r: 
     e: Yes, it's Neki with "Zero Sum."
   - break: Playing zero-sum
   - s: ho
     o: お送りしたのは本日のゲストネキゼロサムお送りしました。いやあ、かっこいい。ありがとう。
-    r: O okuri shita no wa honjitsu no gesuto Neki Zero Samu o okuri shimashita. Iyā, kakko ii. Arigatō.
+    r: 
     e: That was "Zero Sum" by our guests today, Neki. Wow, that was cool. Thank you.
   - s: ho
     o: バリバリゴリゴリのロックですよね。
-    r: Baribari gorigori no rokku desu yo ne.
+    r: 
     e: That's some seriously hardcore rock, isn't it?
   - s: hi
     o: ゴリゴリです。
-    r: Gorigori desu.
+    r: 
     e: It's hardcore.
   - s: ho
     o: でもお話をしてる 2 人は本当に可愛くて
-    r: Demo ohanashi o shiteru futari wa hontō ni kawaikute
+    r: 
     e: But the two of you talking are so cute.
   - s: hi
     o: ありがとうございます。
-    r: Arigatō gozaimasu.
+    r: 
     e: Thank you very much.
   - s: ho
-    o: え、これがやっぱネキの魅力なんですかね。
-    r: E, kore ga yappa Neki no miryoku nan desu ka ne.
-    e: So, is that the charm of Neki?
-  - s: hi
-    o: あ、そう言って 嬉しいですね。
-    r: A, sō itte ureshii desu ne.
-    e: Oh, I'm glad you say that.
-  - s: ho
-    o: もうあの EP ももう全般にこだわりが感じられて、そのそれぞれの曲を、ま、みんなでこうね、作っていくって言ってたじゃないですか。
-    r: Mō ano Ī Pī mo mō zenpan ni kodawari ga kanji rarete, sono sorezore no kyoku o, ma, minna de kō ne, tsukutte iku tte itteta ja nai desu ka.
-    e: I can feel the attention to detail throughout the entire EP. You mentioned that you all work together to create each song.
+    o: え、これがやっぱネキの魅力なんですかね。あ、そう言って 嬉しいですね。もうあの EP ももう全般にこだわりが感じられて、そのそれぞれの曲を、ま、みんなでこうね、作っていくって言ってたじゃないですか。
+    r: 
+    e: So, is that the charm of Neki? Oh, I'm glad you say that. I can feel the attention to detail throughout the entire EP. You mentioned that you all work together to create each song.
   - s: ho
     o: で、例えばこの 3 局目なんですけれどもロナ
-    r: De, tatoeba kono san-kyoku-me nan desu keredomo Rona
-    e: And for example, this third track, "Loner"...
+    r: 
+    e: And for example, this third track, "Rona"...
   - s: ho
     o: があのすごいバリバリのロックに悲しい言葉が載ってるなっていうはい。
-    r: Ga ano sugoi baribari no rokku ni kanashii kotoba ga notte ru na tte iu.
+    r: 
     e: ...it's such hardcore rock with sad lyrics. Yes.
   - s: ho
     o: 気持ちがしまして、なんかこう英語の歌詞と日本語の歌詞とこうバランスよく入ってるんですけど
-    r: Kimochi ga shimashite, nanka kō eigo no kashi to nihongo no kashi to kō baransu yoku haitteru n desu kedo
+    r: 
     e: That's how it felt to me. It has a good balance of English and Japanese lyrics.
   - s: hi
     o: はい。
     r: 
-    e: Yes.
+    e: Yes. Yes.
   - s: na
     o: はい。
     r: 
-    e: Yes.
+    e: 
   - s: ho
     o: ピープルクライイングエブリーナイトっていうすごい悲しい歌詞だなと
-    r: Pīpuru Kuraiingu Eburi Naito tte iu sugoi kanashii kashi da na to
+    r: 
     e: '"People crying every night" - those are really sad lyrics, I thought while listening.'
   - s: ho
     o: 思いながら聞いてたんですよね。
-    r: Omoi nagara kiite tan desu yo ne.
+    r: 
     e: That's what I was thinking.
   - s: ho
     o: なんかその最初は指先で繋がるタイムラインとかまさに今だなっていうところから始まって
-    r: Nanka sono saisho wa yubisaki de tsunagaru taimurain to ka masani ima da na tte iu tokoro kara hajimatte
+    r: 
     e: The song starts with lyrics like "timelines connected by fingertips," which feels very now.
   - s: ho
     o: でこうずっと人間繋がってたいっていう気持ちがあるからものが進化して SNS ができてってなってどんどん今になってるのにそれでもやっぱりみんなが泣いててそれでもやっぱり寂しくてっていうのが
-    r: De kō zutto ningen tsunagatte tai tte iu kimochi ga aru kara mono ga shinka shite Esu Enu Esu ga dekite tte natte dondon ima ni natteru no ni sore de mo yappari minna ga naite te sore de mo yappari sabishikute tte iu no ga
+    r: 
     e: Humans have this constant desire to be connected, which has led to the evolution of things and the creation of social media, bringing us to where we are now. But even so, people are still crying, still lonely.
   - s: ho
-    o: ね曲に詰まってたりとか
-    r: Ne kyoku ni tsumatte tari toka
-    e: 
-    # changed
+    o: ね曲にま
+    r: 
+    e: That feeling is in the song...
+  - s: hi
+    o: うん とかはい
+    r: 
+    e: Yes, and such.
   - s: ho
     o: ね。あとはムーンが私は個人的に
-    r: Ne. Ato wa Mūn ga watashi wa kojinteki ni
+    r: 
     e: Right. And "Moon," I personally...
   - s: hi
     o: はい。
@@ -644,27 +606,27 @@ interview:
     e: 
   - s: ho
     o: すごく好きだなと思いまして。
-    r: Sugoku suki da na to omoimashite.
-    e: ...really like it.
-  - s: hina
-    o: ありがとうございます
     r: 
-    e: Thank you
+    e: ...really like it.
+  - s: hi
+    o: あご
+    r: 
+    e: 
   - s: ho
     o: 他のナンバー 2 比べでちょっとね、スローな感じで始まって引き語りみたいなところから入るじゃないですか。
-    r: Hoka no nanbā to kurabe de chotto ne, surō na kanji de hajimatte hikigatari mitai na tokoro kara hairu ja nai desu ka.
+    r: 
     e: Compared to the other tracks, it starts with a slightly slower tempo, almost like a sing-along with a guitar.
   - s: ho
     o: で、そこからだんだん盛り上がっていくっていう展開もいいなと思いますし、
-    r: De, soko kara dandan moriagatte iku tte iu tenkai mo ii na to omoimasu shi,
+    r: 
     e: And I like how it gradually builds up from there.
   - s: ho
     o: あとあの加工だらけの世界でっていうその錆のところがすっごい綺麗に
-    r: Ato ano kakō darake no sekai de tte iu sono sabi no tokoro ga suggoi kirei ni
+    r: 
     e: Also, the chorus, "in a world full of filters," sounds really beautiful.
   - s: ho
     o: 響いてでそのま、加工だらけっていうことはやっぱりその SNS だったりとかそのネット上の、ま、自分のね、こうアップデートみたいなものが入ってるわけじゃないですか。なんだけど、それの退避に月だけが私を見てるっていう月というもう自然の塊りみたいな
-    r: Hibiite de sono ma, kakō darake tte iu koto wa yappari sono Esu Enu Esu dattari to ka sono netto-jō no, ma, jibun no ne, kō appudēto mitai na mono ga haitteru wake ja nai desu ka. Nan da kedo, sore no taihi ni tsuki dake ga watashi o miteru tte iu tsuki to iu mō shizen no katamari mitai na
+    r: 
     e: It resonates. And, well, "full of filters" clearly refers to social media and the online world, where people present an updated version of themselves. But in contrast, the lyrics say "only the moon is watching me," and the moon is this natural entity.
   - s: hi
     o: うん。
@@ -676,116 +638,111 @@ interview:
     e: 
   - s: ho
     o: あと変わらないものの象徴かなっていう
-    r: Ato kawaranai mono no shōchō kana tte iu
+    r: 
     e: It's also a symbol of something unchanging, perhaps.
   - s: ho
     o: なんかこう有気物と無期物の
-    r: Nanka kō yūkimutsu to mukimutsu no
+    r: 
     e: There's this contrast between the organic and the inorganic, which I find really interesting.
   - s: ho
     o: 退避がすごく面白いなって思って。
-    r: Taihi ga sugoku omoshiroi na tte omotte.
+    r: 
     e: This contrast is very interesting, I think.
   - s: hi
     o: あ、すごいたくさんキって書くたんですね。なんか嫌なこと言ってないかなと思って。 すごい嬉しいです。本に本当ですか?
-    r: A, sugoi takusan ki tte kaku tan desu ne. Nanka iya na koto itte nai kana to omotte. Sugoi ureshii desu. Hon ni hontō desu ka?
-    e: Oh, you wrote "like" so many times! I was worried you might have said something bad. I'm so happy. Really? 
-# You thought so many things
-# Thanks you for listening
-# I was afraid to say something unpleasant
-# I'm so happy that you analyzed it like this
-# This is so true
-  - s: na
+    r: 
+    e: Oh, you wrote "like" so many times! I was worried you might have said something bad. I'm so happy. Really?
+  - s: hi
     o: もう歌詞すごいこだわってやっぱネキ作ってるので
-    r: Mō kashi sugoi kodawatte yappa Neki tsukutteru node
+    r: 
     e: We put a lot of effort into the lyrics when we create Neki's music.
   - s: hi
     o: はい。
-    r: Hai.
+    r: 
     e: 
   - s: na
     o: こんなにこう
-    r: Konna ni kō
+    r: 
     e: So, for you to...
   - s: hi
     o: そこにね注目していただいてこう
-    r: Soko ni ne chūmoku shite itadaite kō
+    r: 
     e: ...pay attention to that and think about it like that...
   - s: na
     o: ねくださって考てる。
-    r: Ne kudasatte kan'gaeteru.
+    r: 
     e: ...we're very grateful.
   - s: hi
     o: ありがとうございます。嬉しいです。
-    r: Arigatō gozaimasu. Ureshii desu.
+    r: 
     e: Thank you. I'm happy.
   - s: ho
     o: ありがとうございます。あ、じゃあ 2 局目も行っていいですか? 2
-    r: Arigatō gozaimasu. A, jā ni-kyoku-me mo itte ii desu ka? Ni
+    r: 
     e: Thank you very much. Oh, can we move on to the second track? Track two is...
   - s: ho
     o: 曲目
-    r: Kyokume
+    r: 
     e: 曲目
   - s: ho
     o: フールですね。フール。
-    r: Fūru desu ne. Fūru.
+    r: 
     e: '"Fool," right? "Fool."'
   - s: hi
     o: はい。
-    r: Hai.
+    r: 
     e: 
   - s: ho
-    o: これも共感しやすい
-    r: Kore mo kyōkan shi yasui
+    o: これもな感しやすい
+    r: 
     e: This is also easy to empathize with, the lyrics.
   - s: ho
     o: 歌詞になってて
-    r: Kashi ni natte te
+    r: 
     e: The lyrics are relatable.
   - s: hi
     o: はい。
     r: 
-    e: Hai.
+    e: 
   - s: ho
     o: ま、あの誰かが見てる、どこかが見てるっていう逃げ場所がないっていうまさにね。 監視されてるような社会でで、例えばですけど、ま、ね、それやっちゃいけないけどね、めっちゃ急いでてみたいな駅までダッシュしててで、本人は気づいてなかったんだけど赤信号の横断歩道を渡ってしまったと。渡ってしまったけどそれをたまたま誰かが見てて、誰かがたまたまこんなことやってるやつがいるでって言って SNS で投稿したら、ま、ある意味終わるみたいな
-    r: Ma, ano dare ka ga miteru, doko ka ga miteru tte iu nigebasho ga nai tte iu masani ne. Kanshi sareteru yō na shakai de de, tatoeba desu kedo, ma, ne, sore yatcha ikenai kedo ne, meccha isoide te mitai na eki made dasshu shite te de, honnin wa kizuite nakatta n da kedo akashingō no ōdanhodō o watatte shimatta to. Watatte shimatta kedo sore o tamatama dare ka ga mite te, dare ka ga tamatama konna koto yatteru yatsu ga iru de tte itte Esu Enu Esu de tōkō shitara, ma, aru imi owaru mitai na
+    r: 
     e: Well, it's about that feeling of being watched, that someone is watching, somewhere is watching, that there's no place to escape. It's exactly like that feeling in a society where you're being monitored. For example, well, you shouldn't do this, but imagine you're really in a hurry, running to the station, and you didn't realize it, but you crossed the pedestrian crossing on a red light. You did it, and someone happened to see it, and someone else happened to say, "Hey, look at this guy doing this," and posted it on social media. Then, in a way, you're done for.
   - s: ho
     o: あるじゃないですかみたいな。ずっとなんかこうな
-    r: Aru ja nai desu ka mitai na. Zutto nanka kō na
+    r: 
     e: You know how that is? Like there's always this...
   - s: ho
     o: んだろう。ちゃんとしなきゃいけないんだ。 それはもちろんね、 SNS がなかろうが、ネットがなかろうがちゃんとしなきゃいけないんですけど、それでもなんかこう見られてる怖さみたいなものを日頃感じながら生きていて、でもそれだけを言ってるわけじゃなくて
-    r: Chanto shi nakya ikenai n da. Sore wa mochiron ne, Esu Enu Esu ga nakarō ga, netto ga nakarō ga chanto shi nakya ikenai n desu kedo, sore de mo nanka kō mirareteru kowasa mitai na mono o higoro kanji nagara ikite ite, demo sore dake o itteru wake ja nakute
+    r: 
     e: ...feeling that you have to be proper. Of course, you should be proper whether or not social media or the internet exists, but even so, we live our lives constantly feeling this fear of being watched. But the song isn't just about that.
   - s: hi
     o: うん。
-    r: Un.
+    r: 
     e: 
   - s: ho
     o: だからと言ってみんな真っ白で生きられるほど人類できてないっていううん。
-    r: Dakara to itte minna masshiro de ikirareru hodo jinrui dekite nai tte iu un.
+    r: 
     e: It's saying that humanity isn't made to live perfectly pure lives. Hmm.
-  - s: na
-    o: ま、これあのなんかたまにこう問題になったりするんですけどそのめちゃめちゃ表でいいような感じに SNS を運営していて裏垢でめちゃめちゃ言ってると それをう元にして曲最初作ってるんですけどうん。うん。
-    r: Ma, kore ano nanka tamani kō mondai ni nattari suru n desu kedo sono mecha mecha omote de ii yō na kanji ni Esu Enu Esu o un'ei shite ite uraaka de mecha mecha itteru to sore o moto ni shite kyoku saisho tsukutteru n desu kedo un. Un.
-    e: Well, this sometimes becomes a problem, like when someone manages their social media to look really good on the surface, but then they're saying all sorts of things on their private "ura-aka" account. You initially created the song based on that, didn't you? Hmm. Hmm.
-  - s: na
-    o: なんか本とその通りでずっとこう表から見たらもう真っさらなこう何もね問題のないようなもう本当に性格いいような人に見えてもやっぱこう裏ではね何をしてるかわからない。何を言ってるかわからないっていう。だから人類全員マッサラーで生きていられないよなっていううん。うん。
-    r: Nanka hon to sono tōri de zutto kō omote kara mitara mō massara na kō nani mo ne mondai no nai yō na mō hontō ni seikaku ii yō na hito ni miete mo yappa kō ura de wa ne nani o shiteru ka wakaranai. Nani o itteru ka wakaranai tte iu. Dakara jinrui zen'in massarā de ikite irarenai yo na tte iu un. Un.
-    e: Yes, exactly. Someone might look completely clean and problem-free from the outside, like they have a really good personality, but you never know what they're doing or saying behind the scenes. That's why humanity can't all live perfectly pure lives. Hmm. Hmm.
-  - s: na
-    o: 曲なんですけどこちら
-    r: Kyoku nan desu kedo kochira
-    e: This is that song.
   - s: ho
+    o: ま、これあのなんかたまにこう問題になったりするんですけどそのめちゃめちゃ表でいいような感じに SNS を運営していて裏垢でめちゃめちゃ言ってると それをう元にして曲最初作ってるんですけどうん。うん。
+    r: 
+    e: Well, this sometimes becomes a problem, like when someone manages their social media to look really good on the surface, but then they're saying all sorts of things on their private "ura-aka" account. You initially created the song based on that, didn't you? Hmm. Hmm.
+  - s: hi
+    o: なんか本とその通りでずっとこう表から見たらもう真っさらなこう何もね問題のないようなもう本当に性格いいような人に見えてもやっぱこう裏ではね何をしてるかわからない。何を言ってるかわからないっていう。だから人類全員マッサラーで生きていられないよなっていううん。うん。
+    r: 
+    e: Yes, exactly. Someone might look completely clean and problem-free from the outside, like they have a really good personality, but you never know what they're doing or saying behind the scenes. That's why humanity can't all live perfectly pure lives. Hmm. Hmm.
+  - s: ho
+    o: 曲なんですけどこちら
+    r: 
+    e: This is that song.
+  - s: na
     o: そうね。大抵出てきますもんね。そういうものがね。ま、自分も含めもちょっと そうです。本当にそうなんですよね。はい。
-    r: Sō ne. Taitei dete kimasu mon ne. Sō iu mono ga ne. Ma, jibun o fukume mo chotto sō desu. Hontō ni sō nan desu yo ne. Hai.
+    r: 
     e: That's right. You see that kind of thing all the time. Well, including myself a little bit. Yes, that's really true. Yes.
   - s: ho
     o: というね、なんかこういろんな楽しみ方ができるというか、いろんな方に響くし
-    r: To iu ne, nanka kō ironna tanoshimikata ga dekiru to iu ka, ironna kata ni hibiku shi
+    r: 
     e: So, it's a song that you can enjoy in various ways, and I think it will resonate with many people.
   - s: hi
     o: うん。
@@ -793,64 +750,63 @@ interview:
     e: 
   - s: ho
     o: そう。あの、ロックの部分を楽しむもよし、こう歌詞に共感するもよしみたいな。うん。
-    r: Sō. Ano, rokku no bubun o tanoshimu mo yoshi, kō kashi ni kyōkan suru mo yoshi mitai na. Un.
+    r: 
     e: Yes. You can enjoy the rock part, or you can empathize with the lyrics. Hmm.
   - s: ho
     o: ぜ非ぜひいろんな人に聞いていただきたいなと思いながらはい。聞いておりました。
-    r: Zehi zehi ironna hito ni kiite itadaitai na to omoi nagara hai. Kiite orimashita.
+    r: 
     e: I was listening while hoping that many different people would give it a listen. Yes.
   - s: ho
     o: さあ、そろそろちょっとお時間となってきてしまいまして、
-    r: Sā, sorosoro chotto o jikan to natte kite shimaimashite,
+    r: 
     e: Well, it's almost time for us to wrap up.
   - s: ho
     o: 今後の活動予定など教えていただいてもいいですか?
-    r: Kongo no katsudō yotei nado oshiete itadaite mo ii desu ka?
+    r: 
     e: Could you tell us about your future activities?
   - s: hi
     o: はい。
     r: 
-    e: Hai
+    e: 
   - s: na
     o: はい。
     r: 
-    e: Hai
+    e: 
   - s: hi
     o: では、えっと、私からまず 1
-    r: De wa, etto, watashi kara mazu ichi
+    r: 
     e: Well, first, from me...
   - s: hi
     o: つ目。 えっと 、 先ほど も 今回 ずっと お 話 さ せ て いただき たい ん です けど も 、 セカンド EP トリック テーキング 。 ただ 今ま 絶賛 発売 中 で ござい ます 。 こちら 本当 に いろんな 、 えっと 、 楽曲 詰め込ん で い て 、 今 の ネキー を まさに 象徴 する 楽学 5 局分 入っ て おり ます の で 、 本当 興味 の ある 方 も 、 え 、 今回 を 聞い て 興味 を 持っ て くださっ た 方 も 全員 に 届け ば いい な と 思っ て い ます 。 是非 買っ て ください 。 お 願い し ます 。 よろしく お 願い し ます 。 はい 。 え 、 そして 、 え 、 私たち 8 月 30 日 土曜日 に 、 え 、 ネキ ファースト ZP ワン マン 拡散 中 ネキ 界隈 Z 新宿 にて 、 え 、 ワン マン ライブ やり ます 。 是非 皆 さん 来 て ください 。 え 、 今 、 え 、 私たち ね 、 SNS で 、 え 、 毎日 投稿 やっ て い ます 。 是非 、 え 、 その 動画 も チェック し て 見 て ください 。 よろしく お 願い し ます 。 はい 。 詳しく は SNS を チェック し て ください 。
-    r: sume. Etto, sakihodo mo konkai zutto o hanashi sasete itadaki tai n desu kedo mo, sekando Ī Pī Torikku Tēkingu. Kochira hontō ni ironna, etto, gakkyoku tsumekonde ite, ima no Neki o masani shōchō suru gakkyoku go-kyoku-bun haitte orimasu node, hontō kyōmi no aru kata mo, e, konkai o kiite kyōmi o motte kudasatta kata mo zen'in ni todoke ba ii na to omotte imasu.  Zehi katte kudasai. Onegai shimasu. Yoroshiku o negai shimasu. Hai. E, soshite, e, watashitachi hachigatsu sanjūnichi doyōbi ni, e, Neki Fāsuto Zetto Pī Wan Man Kakusan-chū Neki Kaiwai Zetto Shinjuku nite, e, wanman raibu yarimasu. Zehi minasan kite kudasai. E, ima, e, watashitachi ne, Esu Enu Esu de, e, mainichi tōkō yatte imasu. Zehi, e, sono dōga mo chekku shite mite kudasai. Yoroshiku o negai shimasu. Hai. Kuwashiku wa Esu Enu Esu o chekku shite kudasai.
-    # seems to missing some of Hika's
+    r: 
     e: First thing. As we've been talking about throughout the show, our second EP, "Trick Taking," is currently on sale!. This EP really packs in various songs, and it contains five tracks that truly symbolize Neki right now. So, I hope it reaches everyone who's interested, and everyone who became interested after listening today. Please buy it! Thank you. Thank you very much. And, um, on Saturday, August 30th, we'll be having our Neki First EP One-Man "Kakusan-chu Neki Kaiwai Z" live show in Shinjuku. Please everyone, come and see us! Also, right now, we're posting daily on social media.  Please check out those videos too. Thank you very much. Please check our social media for more details.
   - s: ho
     o: で は 、 今 ファン ラジオ を 聞い て いる リスナー に お 1人 ずつ メッセージ を お 願い し ます 。
-    r: De wa, ima fan rajio o kiite iru risunā ni o hitori zutsu messēji o onegai shimasu.
+    r: 
     e: Now, could you each give a message to the listeners who are tuning into Fantasy Radio?
-  - s: na
+  - s: hi
     o: はい 。 えっと 、 本当 に 今回 させていただいてとても嬉しかったです。ありがとうございます。ございます
-    r: Hai. Etto, hontō ni konkai sasete itadaite totemo ureshikatta desu. Arigatō gozaimasu. Gozaimasu.
+    r: 
     e: Yes. Um, I was really happy to be here today. Thank you very much. Thank you.
   - s: na
     o: はい。はい。すいません。今後またね、ネッキたくさんこれから活動していきますので、え、是非 SNS など通して、またライブなどもね、頻繁にやっておりますので、チェックしていただけたら嬉しいです。本当にありがとうございました。
-    r: Hai. Hai. Sumimasen. Kongo mata ne, Nekkī takusan kore kara katsudō shite ikimasu node, e, zehi Esu Enu Esu nado tōshite, mata raibu nado mo ne, hinpan ni yatte orimasu node, chekku shite itadake tara ureshii desu. Hontō ni arigatō gozaimashita.
+    r: 
     e: Yes. Yes. Sorry. Neki will be continuing our activities a lot in the future, so please check our social media and come to our live shows, which we'll be doing frequently. I'd be really happy if you did. Thank you so much.
   - s: ho
     o: ありがとうございます。
-    r: Arigatō gozaimasu.
+    r: 
     e: Thank you.
-  - s: hi
+  - s: na
     o: え、そうですね、私たちネキ EP トリックテイキング、え、発売しております。え、是非皆さん見て聞いて、え、楽しんでいただけると嬉しいです。え、今後とも をよろしくお願いいたします。今日はありがとうございました。
-    r: E, sō desu ne, watashitachi Neki Ī Pī Torikku Tēkingu, e, hatsubai shite orimasu. E, zehi minasan mite kiite, e, tanoshinde itadakeru to ureshii desu. E, kongo tomo o yoroshiku onegai itashimasu. Kyō wa arigatō gozaimashita.
+    r: 
     e: Yes, that's right, our Neki EP "Trick Taking" is out now. Please everyone, check it out, listen to it, and I hope you enjoy it. We look forward to your continued support. Thank you for having us today.
   - s: hi
     o: ありがとうございます。
-    r: Arigatō gozaimasu. Hika-san.
+    r: 
     e: Thank you, Hika-san.
   - s: ho
     o: ひかさん。さあ、では最後にもう 1 曲聞きながらお別れです。曲紹介をお願いします。
-    r: Sā, de wa saigo ni mō ikkyoku kiki nagara o wakare desu. Kyokushōkai o onegai shimasu.
+    r: 
     e: Well then, let's listen to one last song before we say goodbye. Please introduce it.
   - s: hi
     o: はい。
@@ -858,15 +814,14 @@ interview:
     e: 
   - s: hi
     o: ネキでドリームスファンタジーラジオ
-    r: Neki de Dorīmusu
-    e: It's Neki with "Dreams"
-    # wrong
+    r: 
+    e: It's Neki with "Dreams Fantasy Radio."
   - s: ho
-    o: ファンタジーラジオ今日のゲストはネキのひかさんとナさんでした。ありがとうございました。
-    r: Kyō no gesuto wa Neki no Hika-san to Natsu-san deshita. Arigatō gozaimashita.
-    e: Today's Fantasy Radio guests were Hika-san and Natsu-san from Neki. Thank you very much.
-  - s: hina
+    o: 今日のゲストはネキのひかさんとナさんでした。ありがとうございました。
+    r: 
+    e: Today's guests were Hika-san and Natsu-san from Neki. Thank you very much.
+  - s: na
     o: ありがとうございました
-    r: Arigatō gozaimashita.
+    r: 
     e: Thank you very much.
   - break: Playing Dreams!!!!

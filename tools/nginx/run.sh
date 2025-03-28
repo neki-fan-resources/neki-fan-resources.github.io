@@ -1,0 +1,1 @@
+docker run -it --rm -d -p 8080:80 --name web -v ~/dev/neki-fan-resources-scala/target/site:/usr/share/nginx/html -v ~/dev/neki-fan-resources-scala/tools/nginx/conf.d:/etc/nginx/conf.d nginx

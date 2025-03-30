@@ -56,7 +56,6 @@ object DataBuilder {
     def checkReferences() = {
       val (songErrors, data2) = checkSongToAlbum(data)
       val (albumErrors, data3) = checkAlbumtoSongs(data2)
-      println("checkreferences done")
       new Step3(data3, songErrors ::: albumErrors)
     }
 

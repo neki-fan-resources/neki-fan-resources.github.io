@@ -21,7 +21,11 @@ class AlbumPage(val album: Album, data: Data) extends Page(data) {
 
   override def mainContent(): List[BodyElement[?]] = {
     List(
-      ItemDetails.generate(CompiledData.getAlbum(album.id, data))
+      ItemDetails.generate(CompiledData.getAlbum(album.id, data)),
+      // TODO: section title
+      MediumCard.generateList(
+        album.songs.map(CompiledData.getSong(_, data))
+      ),
     )
   }
 
@@ -31,4 +35,3 @@ object AlbumPage {
   val ALBUM_PATH = "album"
   val DESIGNATION = "Album"
 }
-

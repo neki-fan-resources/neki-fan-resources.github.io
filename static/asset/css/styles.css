@@ -257,7 +257,7 @@ footer {
 }
 
 .item-details-designation {
-  margin: 0 0 0.5rem 0;
+  margin: 0.2rem 0 0.3rem 0;
 }
 
 .item-details-labels {
@@ -380,6 +380,74 @@ footer {
   font-weight: 700;
 }
 
+/* medium card layout */
+
+.medium-card {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content min-content 1fr;
+  grid-template-areas: 'cover designation' 'cover label' 'cover sublabel' 'cover date';
+}
+
+.medium-card-list .medium-card {
+  margin: 1em 0 1em 1em;
+}
+
+.medium-card-cover {
+  grid-area: cover;
+  height: 6rem;
+  width: 6rem;
+  object-fit: contain;
+  border: solid 0.5px var(--color-not-black);
+  margin: 0 0.4rem 0 0;
+}
+
+.medium-card-designation {
+  grid-area: designation;
+}
+
+.medium-card-label {
+  grid-area: label;
+}
+
+.medium-card-sublabel {
+  grid-area: sublabel
+}
+
+.medium-card-date {
+  grid-area: date;
+}
+
+/* medium card styling */
+
+.medium-card {
+  color: black;
+}
+
+.medium-card-cover {
+  background-color: var(--color-not-black);
+}
+
+.medium-card-designation {
+  text-transform: uppercase;
+  color: var(--color-designation);
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.medium-card-label {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+.medium-card-sublabel {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 600;
+}
 
 /* testing */
 

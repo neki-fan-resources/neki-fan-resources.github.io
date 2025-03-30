@@ -65,7 +65,7 @@ object CompiledData {
       album.fullname,
       None,
       None,
-      Some(album.releaseDate.toString()), // TODO: for testing, remove
+      None,
       CoverImage.resolveUrl(album.coverImage, album, data),
       CoverImage.buildAlt(AlbumPage.DESIGNATION, album.fullname),
       info,

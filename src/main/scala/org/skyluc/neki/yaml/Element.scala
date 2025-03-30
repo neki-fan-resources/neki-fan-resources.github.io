@@ -30,3 +30,17 @@ case class Credits(
 case class Source(
   description: String,
 ) derives YamlCodec
+
+case class Site(
+  navigation: Navigation,
+) extends Element derives YamlCodec
+
+case class Navigation(
+  main: List[NavigationItem],
+  support: List[NavigationItem],
+) derives YamlCodec
+
+case class NavigationItem(
+  name: String,
+  link: String,
+) derives YamlCodec

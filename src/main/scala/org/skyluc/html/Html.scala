@@ -1,6 +1,7 @@
 package org.skyluc.html
 
 case class HtmlTagAttributes(
+    alt: Option[String],
     charset: Option[String],
     classes: List[String],
     content: Option[String],
@@ -17,11 +18,13 @@ case class HtmlTagAttributes(
     sizes: Option[String],
     span: Option[Int],
     src: Option[String],
+    target: Option[String],
     `type`: Option[String],
     value: Option[String],
     viewBox: Option[String],
     width: Option[Int],
 ) {
+  def withAlt(alt: String): HtmlTagAttributes = copy(alt = Some(alt))
   def withCharset(charset: String): HtmlTagAttributes = copy(charset = Some(charset))
   def withClass(clazz: String): HtmlTagAttributes =
     copy(classes = clazz :: classes)
@@ -40,6 +43,7 @@ case class HtmlTagAttributes(
   def withSizes(sizes: String): HtmlTagAttributes = copy(sizes = Some(sizes))
   def withSpan(span: Int): HtmlTagAttributes = copy(span = Some(span))
   def withSrc(src: String): HtmlTagAttributes = copy(src = Some(src))
+  def withTarget(target: String): HtmlTagAttributes = copy(target = Some(target))
   def withType(`type`: String): HtmlTagAttributes = copy(`type` = Some(`type`))
   def withValue(value: String): HtmlTagAttributes = copy(value = Some(value))
   def withViewBox(viewBox: String): HtmlTagAttributes =
@@ -51,11 +55,13 @@ object HtmlTagAttributes {
   final val EMPTY =
     HtmlTagAttributes(
       None,
+      None,
       Nil,
       None,
       false,
       None,
       false,
+      None,
       None,
       None,
       None,
@@ -123,6 +129,18 @@ trait Body extends HtmlTag[Body] {
   def appendElements(e: BodyElement[?]*): Body
 }
 
+trait A extends BodyElement[A] {
+  val elements: List[BodyElement[?]]
+  def appendElements(e: BodyElement[?]*): A
+  def withHref(href: String): A
+  def withName(name: String): A
+  def withTarget(target: String): A
+}
+
+object A {
+  final val TARGET_BLANK = "_blank"
+}
+
 trait Canvas extends BodyElement[Canvas] {
   def withHeight(height: Int): Canvas
   def withWidth(width: Int): Canvas
@@ -130,12 +148,17 @@ trait Canvas extends BodyElement[Canvas] {
 
 trait Div extends BodyElement[Div] {
   val elements: List[BodyElement[?]]
-  def appendElement(e: BodyElement[?]): Div
+  def appendElements(e: BodyElement[?]*): Div
 }
 
 trait H1 extends BodyElement[H1] {
   val elements: List[BodyElement[?]]
   def appendElement(e: BodyElement[?]): H1
+}
+
+trait Img extends BodyElement[Img] {
+  def withAlt(alt: String): Img
+  def withSrc(src: String): Img
 }
 
 trait Input[T <: Input[T]] extends BodyElement[T] {
@@ -311,6 +334,22 @@ object HtmlImpl {
 
   }
 
+  case class AInt(attributes: HtmlTagAttributes, elements: List[BodyElement[?]]) extends HtmlTagInt[A]("a") with A {
+
+    override protected def copyWithAttributes(a: HtmlTagAttributes): A = copy(attributes = a)
+
+    override def appendElements(e: BodyElement[?]*): A = copy(elements = elements ::: e.toList)
+
+    override def withHref(href: String): A = copyWithAttributes(attributes.withHref(href))
+
+    override def withName(name: String): A = copyWithAttributes(attributes.withName(name))
+
+    override def withTarget(target: String): A = copyWithAttributes(attributes.withTarget(target))
+
+    override def accept(v: Visitor): Unit = v.visit(this)
+
+  }
+
   case class CanvasInt(attributes: HtmlTagAttributes) extends HtmlTagInt[Canvas]("canvas") with Canvas {
 
     override def withHeight(height: Int): Canvas = copyWithAttributes(
@@ -332,8 +371,8 @@ object HtmlImpl {
   ) extends HtmlTagInt[Div](customTag.getOrElse("div"))
       with Div {
 
-    override def appendElement(e: BodyElement[?]): Div =
-      copy(elements = elements :+ e)
+    override def appendElements(e: BodyElement[?]*): Div =
+      copy(elements = elements ::: e.toList)
 
     override def accept(v: Visitor): Unit = v.visit(this)
 
@@ -354,6 +393,18 @@ object HtmlImpl {
       copy(elements = elements :+ e)
 
     override def accept(v: Visitor): Unit = v.visit(this)
+  }
+
+  case class ImgInt(attributes: HtmlTagAttributes) extends HtmlTagInt[Img]("img") with Img {
+
+    override protected def copyWithAttributes(a: HtmlTagAttributes): Img = copy(attributes = a )
+
+    override def withAlt(alt: String): Img = copy(attributes = attributes.withAlt(alt))
+    
+    override def withSrc(src: String): Img = copy(attributes = attributes.withSrc(src))
+    
+    override def accept(v: Visitor): Unit = v.visit(this)
+
   }
 
   abstract class InputInt[T <: Input[T]] extends HtmlTagInt[T]("input") with Input[T] {}
@@ -515,6 +566,7 @@ object HtmlImpl {
 object Html {
   import HtmlImpl._
 
+  def a(): A = AInt(HtmlTagAttributes.EMPTY, Nil)
   def body(): Body = BodyInt(HtmlTagAttributes.EMPTY, Nil)
   def canvas(): Canvas = CanvasInt(HtmlTagAttributes.EMPTY)
   def div(): Div = DivInt(HtmlTagAttributes.EMPTY, None, Nil)
@@ -524,6 +576,7 @@ object Html {
   def h1(): H1 = H1Int(HtmlTagAttributes.EMPTY, Nil)
   def inputButton(label: String) =
     InputButtonInt(label, HtmlTagAttributes.EMPTY)
+  def img(): Img = ImgInt(HtmlTagAttributes.EMPTY)
   def inputText(): InputText = InputTextInt(HtmlTagAttributes.EMPTY)
   def inputTime(): InputTime = InputTimeInt(HtmlTagAttributes.EMPTY)
   def link(rel: String, href: String): Link = LinkInt(

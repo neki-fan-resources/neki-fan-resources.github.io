@@ -1,16 +1,19 @@
-package org.skyluc.neki.html
+package org.skyluc.neki.html.page
 
 import org.skyluc.neki.data.Song
 import java.nio.file.Path
 import org.skyluc.html.Html
+import org.skyluc.neki.data.Data
+import org.skyluc.neki.html._
 
-case class SongPage(song: Song) extends Page {
+
+class SongPage(val song: Song, data: Data) extends Page(data) {
 
   import SongPage._
 
-  override def getPath(): Path = Path.of(SONG_PATH, song.id.id + Pages.HTML_EXTENSION)
+  override def path(): Path = Path.of(SONG_PATH, song.id.id + Pages.HTML_EXTENSION)
 
-  override def getContent(): Html = {
+  override def content(): Html = {
     CommonBase.generate(this)
   }
 

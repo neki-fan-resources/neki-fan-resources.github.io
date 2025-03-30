@@ -31,11 +31,9 @@ object Main {
     val parserResults = dataFiles.map { path =>
       buffer.clear()
 
-      new FileReader(path.toFile()).read(buffer)
+      val lengthRead = new FileReader(path.toFile()).read(buffer)
 
-      buffer.rewind()
-
-      val yaml = buffer.toString()
+      val yaml = buffer.slice(0, lengthRead).toString()
 
       Parser.parse(
         yaml,

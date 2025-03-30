@@ -7,11 +7,15 @@ import org.skyluc.neki.data.{
   Date => dDate,
   Id => dId,
   Item => dItem,
+  Navigation => dNavigation,
+  NavigationItem => dNavigationItem,
+  Site => dSite,
   Song => dSong,
   SongId => dSongId,
   Source => dSource,
 }
 import scala.util.matching.Regex
+import scala.annotation.tailrec
 
 object ToData {
 
@@ -22,6 +26,8 @@ object ToData {
       _.flatMap {
         case a: Album =>
           process(a)
+        case s: Site =>
+          process(s)
         case s: Song =>
           process(s)
         case e =>
@@ -44,6 +50,27 @@ object ToData {
       source <- boxEitherOption(credits.source.map(process(_)))
     } yield {
       dCredits(credits.lyricist, credits.composer, source)
+    }
+  }
+
+  def process(navigation: Navigation): Either[ParserError, dNavigation] = {
+    for {
+      main <- throughList(navigation.main)(process)
+      support <- throughList(navigation.support)(process)
+    } yield {
+      dNavigation(main, support)
+    }
+  }
+
+  def process(navigationItem: NavigationItem): Either[ParserError, dNavigationItem] = {
+    Right(dNavigationItem(navigationItem.name, navigationItem.link))
+  }
+
+  def process(site: Site): Either[ParserError, dSite] = {
+    for {
+      navigation <- process(site.navigation)
+    } yield {
+      dSite(navigation)
     }
   }
 
@@ -77,5 +104,21 @@ object ToData {
       case Some(e) => e.map(Some(_))
       case None => Right(None)
     }
+
+  private def throughList[A, B, C](in: List[A])(f: (A) => Either[B, C]): Either[B, List[C]] = {
+    @tailrec def loop(in: List[A], acc: List[C]): Either[B, List[C]] = {
+      in match {
+        case head :: tail =>
+          f(head) match {
+            case Left(value) => 
+              Left(value)
+            case Right(value) =>
+              loop(tail, value :: acc)
+          }
+        case Nil => Right(acc.reverse)
+      }
+    }
+    loop(in, Nil)
+  }
 
 }

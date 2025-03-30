@@ -1,16 +1,19 @@
-package org.skyluc.neki.html
+package org.skyluc.neki.html.page
 
 import org.skyluc.html.Html
 
 import java.nio.file.Path
 import org.skyluc.neki.yaml.ParserError
+import org.skyluc.neki.data.Data
+import org.skyluc.neki.html._
 
-case class ErrorPage(errors: List[ParserError]) extends Page {
+
+class ErrorPage(val errors: List[ParserError], data: Data) extends Page(data) {
   import ErrorPage._
 
-  override def getPath(): Path = Path.of("404.html")
+  override def path(): Path = Path.of("404.html")
 
-  override def getContent(): Html = {
+  override def content(): Html = {
     val errorText = errors.mkString
     Html.html().withBody(
       Html.body().appendElements(

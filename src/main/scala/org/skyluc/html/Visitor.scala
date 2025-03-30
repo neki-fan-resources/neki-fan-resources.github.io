@@ -1,6 +1,7 @@
 package org.skyluc.html
 
 trait Visitor {
+  def visit(a: A): Unit
   def visit(body: Body): Unit
   def visit(canvas: Canvas): Unit
   def visit(circle: SvgCircle): Unit
@@ -9,6 +10,7 @@ trait Visitor {
   def visit(head: Head): Unit
   def visit(hmtl: Html): Unit
   def visit(h1: H1): Unit
+  def visit(img: Img): Unit
   def visit(input: Input[?]): Unit
   def visit(inputButton: InputButton): Unit
   def visit(line: SvgLine): Unit

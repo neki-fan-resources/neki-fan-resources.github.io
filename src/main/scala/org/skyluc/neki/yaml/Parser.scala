@@ -18,6 +18,7 @@ object Parser {
       .flatMap {
         case "album" => as[Album](node, fileName)
         case "song"  => as[Song](node, fileName)
+        case "site"  => as[Site](node, fileName)
         case u =>
           Left(ParserError(fileName, error = Some(s"Unknown type: '$u'")))
       }

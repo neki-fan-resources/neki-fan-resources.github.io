@@ -1,0 +1,22 @@
+type: site
+
+# use some PageId
+navigation:
+  main:
+  - name: Band
+    link: /
+  - name: Music
+    link: /music.html
+  - name: Live
+    link: /live.html
+  - name: Shows
+    link: /shows.html
+  - name: Media
+    link: /media.html
+  - name: Chronology
+    link: /chronology.html
+  support:
+  - name: Sources
+    link: /sources.html
+  - name: About
+    link: /about.html

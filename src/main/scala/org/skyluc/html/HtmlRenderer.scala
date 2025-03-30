@@ -7,6 +7,12 @@ class HtmlRenderer extends Visitor {
   val builder: StringBuilder = new StringBuilder()
   var indent = 0
 
+  override def visit(a: A): Unit = {
+    writeTagsMultiLine(a) { () =>
+      a.elements.foreach(_.accept(this))
+    }
+  }
+
   override def visit(body: Body): Unit = {
     writeTagsMultiLine(body) { () =>
       body.elements.foreach(_.accept(this))
@@ -56,6 +62,10 @@ class HtmlRenderer extends Visitor {
     writeTagsOneLine(h1) { () =>
       h1.elements.foreach(_.accept(this))
     }
+  }
+
+  override def visit(img: Img): Unit = {
+    writeTagSingle(img)
   }
 
   override def visit(input: Input[?]): Unit = {

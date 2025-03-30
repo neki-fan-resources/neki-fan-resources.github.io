@@ -10,21 +10,36 @@ import org.skyluc.neki.yaml.Element
 import scala.collection.immutable.HashMap
 
 case class Data (
+  site: Site,
   albums: Map[AlbumId, Album],
-  songs: Map[SongId, Song]
+  songs: Map[SongId, Song],
 )
 
 object DataBuilder {
-  class Step1(data: Data) {
-    def done = data
+
+  case class TempData(
+    site: Option[Site],
+    albums: Map[AlbumId, Album],
+    songs: Map[SongId, Song],
+  ) {
+    def toData(): Data = {
+      // TODO: error support
+      Data(site.get, albums, songs)
+    }
+  }
+
+  class Step1(data: TempData) {
+    def done = data.toData()
   }
 
   def load(elements: List[Item]): Step1 = {
-    val data = Data(HashMap(), HashMap())
+    val data = TempData(None, HashMap(), HashMap())
     val res = elements.foldLeft(data){ (acc, item) =>
       item match {
         case a: Album =>
           acc.copy(albums = acc.albums + ((a.id, a)))
+        case s: Site =>
+          acc.copy(site = Some(s))
         case s: Song =>
           acc.copy(songs = acc.songs + ((s.id, s)))
       }

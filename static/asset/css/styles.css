@@ -1,0 +1,279 @@
+/* Colors */
+
+:root {
+  --color-cocoro-light: #95d3f0;
+  --color-hika-light: #fe747e;
+  --color-kanade-light: #ff71c0;
+  --color-kanade-lighter: #ffe3f2;
+  --color-natsu: #fff001;
+  --color-natsu-light: #fff880;
+
+  --color-kanade-cocoro-light: #c3a9d8;
+
+  --color-not-black: darkslategray;
+
+  --gradient-bar: linear-gradient(
+    120deg,
+    var(--color-kanade-cocoro-light) 0%,
+    var(--color-kanade-light) 5%,
+    var(--color-kanade-light) 20%,
+    var(--color-hika-light) 30%,
+    var(--color-hika-light) 45%,
+    var(--color-natsu-light) 55%,
+    var(--color-natsu-light) 70%,
+    var(--color-cocoro-light) 80%,
+    var(--color-cocoro-light) 95%,
+    var(--color-kanade-cocoro-light) 100%);
+}
+
+
+/* Variable reference unit depending on the screen */
+
+:root {
+  --base-font-size: 18px; /* Default base size */
+}
+
+/* Media Queries for different screen sizes and devices*/
+@media (max-width: 767px) {
+  :root {
+    --base-font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --base-font-size: 18px;
+  }
+}
+
+@media (min-resolution: 150dpi) and (pointer: coarse) {  /* High-DPI touch devices */
+  :root {
+    --base-font-size: 22px;
+  }
+}
+
+html {
+  font-size: var(--base-font-size); /* Apply the variable */
+}
+
+/* page layout */
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 'header' 'main' 'footer';  
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/* page style */
+
+html {
+  text-size-adjust: none;
+}
+
+body {
+  font-family: "Noto Sans", "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1rem;
+  background-color: var(--color-kanade-lighter);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* main layout */
+
+main {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: auto;
+}
+
+#main-overlay {
+  position: absolute;
+  top: 2rem;
+  right: calc(max(50% - 23rem,3rem));
+  min-width: 26rem;
+  max-width: 46rem;
+}
+
+.main-overlay-hidden {
+  display: none;
+}
+
+#main-scrollable {
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+#main-background {
+  min-height: 100%;
+}
+
+#main-content {
+  max-width: 62rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* navigation bar layout */
+
+nav {
+  padding: 0.4rem 0 0.4rem 5rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr ;
+  grid-template-areas: 'title mains supports';  
+}
+
+.nav-logo {
+  position: absolute;
+  top: 0.1rem;
+  left: 0.1rem;
+  z-index: 10;
+}
+
+.nav-logo-img {
+  height: 6rem;
+}
+
+.nav-main-items {
+  padding: 0 2rem 0rem 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.nav-main-item {
+  margin: 0.1rem 0rem 0.1rem 1rem;
+}
+
+.nav-support-items {
+  padding: 0 0.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-support-item {
+  margin-top: 0.2rem;
+}
+
+/* navigation bar styling */
+
+header {
+  background-color: var(--color-kanade-lighter);
+}
+
+nav {
+  background-color: var(--color-natsu);
+  background: var(--gradient-bar);
+  mask-image: linear-gradient(black, black 90%, transparent);
+}
+
+.nav-site-title {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  font-weight: 600;
+  color: var(--color-not-black);
+  display: block;
+}
+
+.nav-main-item {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  font-weight: 600;
+  color: var(--color-not-black);
+}
+
+.nav-support-item {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  font-weight: 600;
+  color: var(--color-not-black);
+}
+
+/* footer layout */
+
+footer {
+  background: var(--gradient-bar);
+  padding: relative;
+  padding-bottom: 0.1rem;
+  box-sizing: border-box;
+}
+
+.footer-bottom-right {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.1rem;
+}
+
+/* footer styling */
+
+footer {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+
+
+/* testing */
+
+/* header {
+  min-height: 3em;
+} */
+
+main {
+  background-color: var(--color-natsu);
+  background-color: pink;
+}
+
+/* footer {
+  min-height: 3em;
+} */
+
+#main-overlay {
+  background-color: gray;
+  min-height: 6rem;
+}
+
+#main-scrollable {
+  background-color: blue;
+}
+
+#main-background {
+  background-color: yellow;
+}
+
+#main-content {
+  background-color: brown;
+  min-height: 50vh;
+}

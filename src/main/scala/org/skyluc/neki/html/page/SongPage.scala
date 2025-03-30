@@ -11,27 +11,6 @@ class SongPage(val song: Song, data: Data) extends Page(data) {
 
   import SongPage._
 
-  val compiledData: ItemCompiledData = {
-    val info =
-      ItemInfo(CompiledData.LABEL_RELEASED, song.releaseDate.toString()) ::
-        song.credits
-          .map { credits =>
-            List(
-              ItemInfo(LABEL_LYRICIST, credits.lyricist),
-              ItemInfo(LABEL_COMPOSER, credits.composer),
-            )
-          }
-          .getOrElse(Nil)
-    ItemCompiledData(
-      DESIGNATION,
-      song.fullname,
-      song.fullnameEn,
-      "", // TODO
-      "", // TODO
-      info,
-    )
-  }
-
   override def path(): Path = Path.of(SONG_PATH, song.id.id + Pages.HTML_EXTENSION)
 
   override def shortTitle(): String = {
@@ -42,7 +21,7 @@ class SongPage(val song: Song, data: Data) extends Page(data) {
 
   override def mainContent(): List[BodyElement[?]] = {
     List(
-      ItemDetails.generate(compiledData)
+      ItemDetails.generate(CompiledData.compileForSong(song.id, data))
     )
   }
 

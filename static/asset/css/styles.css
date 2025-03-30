@@ -12,32 +12,32 @@
   --color-kanade-cocoro-light: #c3a9d8;
 
   --color-not-black: darkslategray;
+  --color-designation: gray;
 
-  --gradient-bar: linear-gradient(
-    120deg,
-    var(--color-kanade-cocoro-light) 0%,
-    var(--color-kanade-light) 5%,
-    var(--color-kanade-light) 20%,
-    var(--color-hika-light) 30%,
-    var(--color-hika-light) 45%,
-    var(--color-natsu-light) 55%,
-    var(--color-natsu-light) 70%,
-    var(--color-cocoro-light) 80%,
-    var(--color-cocoro-light) 95%,
-    var(--color-kanade-cocoro-light) 100%);
-  
-  --gradient-page: repeating-linear-gradient(
-    170deg,
-    var(--color-kanade-lighter) 0%,
-    var(--color-natsu-lighter) 60vh,
-    var(--color-kanade-lighter) 120vh);
+  --gradient-bar: linear-gradient(120deg,
+      var(--color-kanade-cocoro-light) 0%,
+      var(--color-kanade-light) 5%,
+      var(--color-kanade-light) 20%,
+      var(--color-hika-light) 30%,
+      var(--color-hika-light) 45%,
+      var(--color-natsu-light) 55%,
+      var(--color-natsu-light) 70%,
+      var(--color-cocoro-light) 80%,
+      var(--color-cocoro-light) 95%,
+      var(--color-kanade-cocoro-light) 100%);
+
+  --gradient-page: repeating-linear-gradient(170deg,
+      var(--color-kanade-lighter) 0%,
+      var(--color-natsu-lighter) 60vh,
+      var(--color-kanade-lighter) 120vh);
 }
 
 
 /* Variable reference unit depending on the screen */
 
 :root {
-  --base-font-size: 18px; /* Default base size */
+  --base-font-size: 18px;
+  /* Default base size */
 }
 
 /* Media Queries for different screen sizes and devices*/
@@ -53,7 +53,9 @@
   }
 }
 
-@media (min-resolution: 150dpi) and (pointer: coarse) {  /* High-DPI touch devices */
+@media (min-resolution: 150dpi) and (pointer: coarse) {
+
+  /* High-DPI touch devices */
   :root {
     --base-font-size: 22px;
   }
@@ -97,7 +99,7 @@ footer {
 #main-overlay {
   position: fixed;
   top: 5rem;
-  right: calc(max(50% - 23rem,3rem));
+  right: calc(max(50% - 23rem, 3rem));
   min-width: 26rem;
   max-width: 46rem;
 }
@@ -138,8 +140,8 @@ nav {
   padding: 0.4rem 0 0.4rem 5rem;
   display: grid;
   grid-template-columns: auto 1fr auto;
-  grid-template-rows: 1fr ;
-  grid-template-areas: 'title mains supports';  
+  grid-template-rows: 1fr;
+  grid-template-areas: 'title mains supports';
 }
 
 .nav-logo {
@@ -213,7 +215,7 @@ nav {
 
 footer {
   background: var(--gradient-bar);
-  mask-image: linear-gradient(transparent , black 0.2rem, black);
+  mask-image: linear-gradient(transparent, black 0.2rem, black);
   padding: 0.2rem 0 0.1rem 0;
   box-sizing: border-box;
 }
@@ -245,7 +247,9 @@ footer {
 .item-details-cover {
   height: 14rem;
   width: 14em;
-  object-fit: contain;  
+  object-fit: contain;
+  padding: 1px;
+  border: solid 1px var(--color-not-black);
 }
 
 .item-details-main {
@@ -266,7 +270,7 @@ footer {
 
 .item-details-info-label {
   text-align: right;
-  padding: 0 0.2rem 0 0 ;
+  padding: 0 0.2rem 0 0;
   vertical-align: baseline;
 }
 
@@ -277,13 +281,11 @@ footer {
 /* item details styling */
 
 .item-details-cover {
-  padding: 1px;
-  border: solid 1px black;
   background-color: var(--color-not-black);
 }
 
 .item-details-designation {
-  color: gray;
+  color: var(--color-designation);
   text-transform: uppercase;
   font-size: 1.1rem;
   line-height: 1.1rem;
@@ -312,6 +314,72 @@ footer {
   line-height: 1rem;
   font-weight: 600;
 }
+
+/* Line card layout */
+
+.line-card {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: min-content min-content 1fr;
+  grid-template-rows: min-content 1fr;
+  grid-template-areas: 'cover designation date' 'cover label label';
+}
+
+.item-details-main .line-card {
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+.line-card-cover {
+  grid-area: cover;
+  height: 2rem;
+  width: 2rem;
+  object-fit: contain;
+  border: solid 0.5px var(--color-not-black);
+  margin: 0 0.2rem 0 0;
+}
+
+.line-card-designation {
+  grid-area: designation;
+  align-self: baseline;
+}
+
+.line-card-date {
+  grid-area: date;
+  align-self: baseline;
+  margin: 0 0 0 0.4rem;
+}
+
+.line-card-label {
+  grid-area: label;
+}
+
+
+/* Line card styling */
+
+.line-card {
+  color: black;
+}
+
+.line-card-designation {
+  color: var(--color-designation);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  font-weight: 600;
+}
+
+.line-card-date {
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+  font-weight: 500;
+}
+
+.line-card-label {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+}
+
 
 /* testing */
 

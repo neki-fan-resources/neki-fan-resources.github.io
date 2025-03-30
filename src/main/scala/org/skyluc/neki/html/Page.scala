@@ -9,11 +9,11 @@ import java.nio.file.SimpleFileVisitor
 import java.nio.file.attribute.BasicFileAttributes
 import java.nio.file.FileVisitResult
 import java.io.IOException
-import org.skyluc.neki.yaml.ParserError
 import page.AlbumPage
 import page.SongPage
 import page.ErrorPage
 import org.skyluc.html.BodyElement
+import org.skyluc.neki.SiteError
 
 abstract class Page(val data: Data) {
 
@@ -35,8 +35,11 @@ object Pages {
 
   val HTML_EXTENSION = ".html"
 
-  def fromData(data: Data, errors: List[ParserError]): Iterable[Page] = {
-    Iterable(ErrorPage(errors, data)) ++ data.albums.values.map(AlbumPage(_, data)) ++ data.songs.values.map(SongPage(_, data))
+  def fromData(data: Data, errors: List[SiteError]): Iterable[Page] = {
+    Iterable(
+      ErrorPage(errors, data))
+      ++ data.albums.values.filterNot(_.error).map(AlbumPage(_, data))
+      ++ data.songs.values.filterNot(_.error).map(SongPage(_, data))
   }
 
   def generate(pages: Iterable[Page], siteFolder: Path): Unit = {

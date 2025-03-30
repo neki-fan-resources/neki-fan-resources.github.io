@@ -7,14 +7,14 @@ import java.nio.file.attribute.BasicFileAttributes
 import java.nio.file.FileVisitResult
 import java.io.IOException
 import org.skyluc.neki.html.Pages
-import org.skyluc.neki.yaml.ParserError
 import org.skyluc.neki.data.Data
+import org.skyluc.neki.SiteError
 
 object Site {
 
   final val STATIC_FILES = Path.of("static")
 
-  def generate(data: Data, errors: List[ParserError], siteFolder: Path): Unit = {
+  def generate(data: Data, errors: List[SiteError], siteFolder: Path): Unit = {
     deleteDirectoryContent(siteFolder)
 
     // generate pages

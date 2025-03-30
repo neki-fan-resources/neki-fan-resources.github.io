@@ -11,19 +11,6 @@ class AlbumPage(val album: Album, data: Data) extends Page(data) {
 
   import AlbumPage._
 
-  val compiledData: ItemCompiledData = {
-    val info =
-      List(ItemInfo(CompiledData.LABEL_RELEASED, album.releaseDate.toString()))
-    ItemCompiledData(
-      album.designation,
-      album.fullname,
-      None,
-      "", // TODO
-      "", // TODO
-      info,
-    )
-  }
-
   override def path(): Path = Path.of(ALBUM_PATH, album.id.id + Pages.HTML_EXTENSION)
 
   override def shortTitle(): String = {
@@ -34,7 +21,7 @@ class AlbumPage(val album: Album, data: Data) extends Page(data) {
 
   override def mainContent(): List[BodyElement[?]] = {
     List(
-      ItemDetails.generate(compiledData)
+      ItemDetails.generate(CompiledData.getAlbum(album.id, data))
     )
   }
 
@@ -42,6 +29,6 @@ class AlbumPage(val album: Album, data: Data) extends Page(data) {
 
 object AlbumPage {
   val ALBUM_PATH = "album"
-
+  val DESIGNATION = "Album"
 }
 

@@ -6,6 +6,8 @@ import org.virtuslab.yaml.Node
 import org.virtuslab.yaml.YamlCodec
 import org.virtuslab.yaml.YamlDecoder
 import org.virtuslab.yaml.LoadSettings
+import org.skyluc.neki.data.Id
+import org.skyluc.neki.SiteError
 
 object Parser {
 
@@ -38,7 +40,7 @@ case class ParserError(
     id: String,
     error: Option[String] = None,
     yamlError: Option[YamlError] = None
-) {
+) extends SiteError {
   override def toString(): String = {
     val ye = yamlError
       .map { e =>
@@ -51,5 +53,5 @@ case class ParserError(
 
 object ParserError {
   def apply(error: String): ParserError = ParserError("", Some(error))
-  def apply(id: String, error: String): ParserError = ParserError(id, Some(error))
+  def apply(id: Id, error: String): ParserError = ParserError(id.uid, Some(error))
 }

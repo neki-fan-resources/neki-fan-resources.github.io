@@ -3,8 +3,10 @@ package org.skyluc.neki.yaml
 import org.skyluc.neki.data.{
   Album => dAlbum,
   AlbumId => dAlbumId,
+  CoverImage => dCoverImage,
   Credits => dCredits,
   Date => dDate,
+  FileCoverImage => dFileCoverImage,
   Id => dId,
   Item => dItem,
   Navigation => dNavigation,
@@ -21,8 +23,8 @@ object ToData {
 
   final val DATE_PATTERN: Regex = """(\d{4})-(\d{2})-(\d{2})""".r
 
-  def process(elements: List[Either[ParserError, Element]]): List[Either[ParserError, dItem]] = {
-    elements.map{
+  def process(elements: List[Either[ParserError, Element]]): List[Either[ParserError, dItem[?]]] = {
+    elements.map {
       _.flatMap {
         case a: Album =>
           process(a)
@@ -38,10 +40,12 @@ object ToData {
 
   def process(album: Album): Either[ParserError, dAlbum] = {
     val id = dAlbumId(album.id)
+    val songIds = album.songs.map(dSongId(_))
     for {
       releaseDate <- processDate(album.`release-date`, id)
+      coverImage <- process(album.`cover-image`, id)
     } yield {
-      dAlbum(id, album.fullname, album.altname, album.designation, releaseDate)
+      dAlbum(id, album.fullname, album.altname, album.designation, releaseDate, coverImage, songIds)
     }
   }
 
@@ -50,6 +54,28 @@ object ToData {
       source <- boxEitherOption(credits.source.map(process(_)))
     } yield {
       dCredits(credits.lyricist, credits.composer, source)
+    }
+  }
+
+  def process(coverImage: CoverImage, id: dId): Either[ParserError, dCoverImage] = {
+    val data: List[Either[ParserError, dFileCoverImage]] = List(
+      coverImage.file.map { file =>
+        for {
+          source <- process(file.source)
+        } yield {
+          dFileCoverImage(file.filename, source)
+        }
+      }
+    ).flatten
+
+    // check only one defined
+    data match {
+      case head :: Nil =>
+        head
+      case Nil =>
+        Left(ParserError(id, "No cover image reference specified"))
+      case _ =>
+        Left(ParserError(id, "Too many cover image reference specified"))
     }
   }
 
@@ -79,8 +105,9 @@ object ToData {
     for {
       releaseDate <- processDate(song.`release-date`, id)
       credits <- boxEitherOption(song.credits.map(process(_)))
+      coverImage <- process(song.`cover-image`, id)
     } yield {
-      dSong(id, song.fullname, song.`fullname-en`, song.album.map(dAlbumId(_)), releaseDate, credits)
+      dSong(id, song.fullname, song.`fullname-en`, song.album.map(dAlbumId(_)), releaseDate, credits, coverImage)
     }
   }
 
@@ -93,7 +120,7 @@ object ToData {
       case DATE_PATTERN(year, month, day) =>
         Right(dDate(year.toInt, month.toInt, day.toInt))
       case _ =>
-        Left(ParserError(id.s, s"cannot parse date in '$date'"))
+        Left(ParserError(id, s"cannot parse date in '$date'"))
     }
   }
 
@@ -102,7 +129,7 @@ object ToData {
   private def boxEitherOption[A, B](in: Option[Either[A, B]]): Either[A, Option[B]] =
     in match {
       case Some(e) => e.map(Some(_))
-      case None => Right(None)
+      case None    => Right(None)
     }
 
   private def throughList[A, B, C](in: List[A])(f: (A) => Either[B, C]): Either[B, List[C]] = {
@@ -110,7 +137,7 @@ object ToData {
       in match {
         case head :: tail =>
           f(head) match {
-            case Left(value) => 
+            case Left(value) =>
               Left(value)
             case Right(value) =>
               loop(tail, value :: acc)

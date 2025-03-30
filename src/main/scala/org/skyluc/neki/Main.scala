@@ -43,18 +43,33 @@ object Main {
 
     val items = ToData.process(parserResults)
 
-    println("ERRORS: ")
+    println("PARSER ERRORS: ")
     items.flatMap(_.left.toOption).foreach { e =>
       println(e)
     }
-    println("E-----")
+    println("--------------")
     
-    val data =
-      DataBuilder.load(items.flatMap(_.toOption)).done
+    val (dataErrors, data) =
+      DataBuilder
+        .load(items.flatMap(_.toOption))
+        .crossReference()
+        .checkReferences()
+        .checkAssets()
+        .done
+
+    println("DATA ERRORS: ")
+    dataErrors.foreach { e =>
+      println(e)
+    }
+    println("--------------")
 
     println(data)
 
-    Site.generate(data, items.flatMap(_.left.toOption), outputFolder)
+    Site.generate(data, items.flatMap(_.left.toOption) ::: dataErrors, outputFolder)
 
   }
+}
+
+trait SiteError {
+
 }

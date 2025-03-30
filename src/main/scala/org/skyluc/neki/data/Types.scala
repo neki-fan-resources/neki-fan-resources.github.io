@@ -1,11 +1,29 @@
 package org.skyluc.neki.data
 
+import java.nio.file.Path
+
 trait Id {
-  def s: String
-  override def toString(): String = s
+  val uid: String
+  val upath: String
+  def path: Path
+  override def toString(): String = uid
 }
 
-trait Item
+object Id {
+  val PATH_SEPARATOR = "/"
+}
+
+trait Item[T] {
+  val id: Id
+  val error: Boolean
+  def errored(): T
+}
+
+trait WithCoverImage[T] {
+  val id: Id
+  val coverImage: CoverImage
+  def errored(): T
+}
 
 case class Date(year: Int, month: Int, day: Int) {
   import Date._

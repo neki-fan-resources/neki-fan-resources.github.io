@@ -272,6 +272,7 @@ class HtmlRenderer extends Visitor {
     attributes.`type`.foreach(writeTagAttribute("type", _))
     attributes.charset.foreach(writeTagAttribute("charset", _))
     attributes.content.foreach(writeTagAttribute("content", _))
+    attributes.alt.foreach(writeTagAttribute("alt", _))
     if (attributes.crossorigin) writeTagAttribute("crossorigin")
     attributes.span.foreach((span: Int) =>
       writeTagAttribute("colspan", span.toString),

@@ -60,16 +60,17 @@ object ItemDetails {
           }
           .getOrElse(Nil)
 
-      val elements = List(
-        div()
+      val elements: List[BodyElement[?]] = List(
+        Some(div()
           .withClass(CLASS_ITEM_DETAILS_DESIGNATION)
           .appendElements(
             text(data.designation)
-          ),
-        div()
+          )),
+        Some(div()
           .withClass(CLASS_ITEM_DETAILS_LABELS)
-          .appendElements(labels*),
-        div()
+          .appendElements(labels*)),
+        data.parent.map(LineCard.generate(_)),
+        Some(div()
           .withClass(CLASS_ITEM_DETAILS_INFO)
           .appendElements(
             table().appendTbody(
@@ -77,8 +78,8 @@ object ItemDetails {
                 infoRows*
               )
             )
-          ),
-      )
+          )),
+      ).flatten
 
       div()
         .withClass(CLASS_ITEM_DETAILS_MAIN)

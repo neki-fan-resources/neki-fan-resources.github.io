@@ -6,6 +6,14 @@ album: exclamation
 
 release-date: 2024-04-24
 
+cover-image:
+  file:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      # TODO: use reference to post
+      url: https://www.youtube.com/post/Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+
 credits:
   lyricist: NEK!
   composer: NEK!, MAIMAI

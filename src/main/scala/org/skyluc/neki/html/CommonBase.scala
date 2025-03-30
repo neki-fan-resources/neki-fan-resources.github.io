@@ -110,9 +110,12 @@ object CommonBase {
       div(PAGE_HEADER)
         .appendElements(navBar(page)*),
       div(PAGE_MAIN)
-        .appendElements(mainLayout(page)*),
+        .appendElements(
+          div().withId(MAIN_CONTENT).appendElements(text("test"))
+        ),
       div(PAGE_FOOTER)
         .appendElements(footer(page)*),
+      div().withId(MAIN_OVERLAY).withClass(CLASS_MAIN_OVERLAY_HIDDEN),
     )
   }
 
@@ -144,19 +147,6 @@ object CommonBase {
           }*
         ),
       )
-    )
-  }
-
-  private def mainLayout(page: Page): List[BodyElement[?]] = {
-    List(
-      div().withId(MAIN_OVERLAY).withClass(CLASS_MAIN_OVERLAY_HIDDEN),
-      div().withId(MAIN_SCROLLABLE)
-        .appendElements(
-          div().withId(MAIN_BACKGROUND)
-            .appendElements(
-              div().withId(MAIN_CONTENT)
-            )
-        )
     )
   }
 

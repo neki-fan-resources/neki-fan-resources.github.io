@@ -91,6 +91,7 @@ footer {
   max-width: 62rem;
   margin-left: auto;
   margin-right: auto;
+  padding: 1.5rem 1rem 0 1rem;
 }
 
 #main-overlay {
@@ -102,6 +103,11 @@ footer {
 }
 
 .main-overlay-hidden {
+  display: none;
+}
+
+/* Bing wants a h1 to index a page, but we don't care */
+h1 {
   display: none;
 }
 
@@ -178,7 +184,7 @@ nav {
 nav {
   background-color: var(--color-natsu);
   background: var(--gradient-bar);
-  mask-image: linear-gradient(black, black calc(100% - 0.5rem), transparent);
+  mask-image: linear-gradient(black, black calc(100% - 0.3rem), transparent);
 }
 
 .nav-site-title {
@@ -215,7 +221,7 @@ footer {
 .footer-bottom-right {
   position: absolute;
   bottom: 0.1rem;
-  right: 0.1rem;
+  right: 0.3rem;
 }
 
 /* footer styling */
@@ -227,6 +233,84 @@ footer {
 
 .footer-content {
   text-align: center;
+}
+
+/* item details layout */
+
+.item-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.item-details-cover {
+  height: 14rem;
+  width: 14em;
+  object-fit: contain;  
+}
+
+.item-details-main {
+  padding: 0 0 0 1rem;
+}
+
+.item-details-designation {
+  margin: 0 0 0.5rem 0;
+}
+
+.item-details-labels {
+  margin: 0 0 1rem 0;
+}
+
+.item-details-info {
+  padding: 0 0 0 0.5rem;
+}
+
+.item-details-info-label {
+  text-align: right;
+  padding: 0 0.2rem 0 0 ;
+  vertical-align: baseline;
+}
+
+.item-details-info-value {
+  vertical-align: baseline;
+}
+
+/* item details styling */
+
+.item-details-cover {
+  padding: 1px;
+  border: solid 1px black;
+  background-color: var(--color-not-black);
+}
+
+.item-details-designation {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  font-weight: 600;
+}
+
+.item-details-label {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.item-details-sublabel {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.item-details-info-label {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+.item-details-info-value {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
 }
 
 /* testing */

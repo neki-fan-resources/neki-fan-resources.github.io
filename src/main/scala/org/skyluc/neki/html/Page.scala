@@ -13,23 +13,27 @@ import org.skyluc.neki.yaml.ParserError
 import page.AlbumPage
 import page.SongPage
 import page.ErrorPage
+import org.skyluc.html.BodyElement
 
 abstract class Page(val data: Data) {
 
   def path(): Path
-
-  def content(): Html
 
   val isRoot: Boolean = false
 
   def shortTitle(): String
 
   def altName(): Option[String]
+
+  def pageContent(): Html = CommonBase.generate(this)
+
+  def mainContent(): List[BodyElement[?]]
+
 }
 
 object Pages {
 
-  final val HTML_EXTENSION = ".html"
+  val HTML_EXTENSION = ".html"
 
   def fromData(data: Data, errors: List[ParserError]): Iterable[Page] = {
     Iterable(ErrorPage(errors, data)) ++ data.albums.values.map(AlbumPage(_, data)) ++ data.songs.values.map(SongPage(_, data))
@@ -38,7 +42,7 @@ object Pages {
   def generate(pages: Iterable[Page], siteFolder: Path): Unit = {
     pages.foreach { page =>
       val renderer = new HtmlRenderer()
-      renderer.visit(page.content())
+      renderer.visit(page.pageContent())
       val path = siteFolder.resolve(page.path())
       Files.createDirectories(path.getParent())
       val output = Files.newBufferedWriter(

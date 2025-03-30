@@ -8,8 +8,14 @@ class HtmlRenderer extends Visitor {
   var indent = 0
 
   override def visit(a: A): Unit = {
-    writeTagsMultiLine(a) { () =>
-      a.elements.foreach(_.accept(this))
+    if (a.elements.size <= 1) {
+      writeTagsOneLine(a) { () =>
+        a.elements.foreach(_.accept(this))
+      }
+    } else {
+      writeTagsMultiLine(a) { () =>
+        a.elements.foreach(_.accept(this))
+      }
     }
   }
 

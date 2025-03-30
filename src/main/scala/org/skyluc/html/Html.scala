@@ -211,7 +211,7 @@ trait Table extends BodyElement[Table] {
 
 trait Tbody extends HtmlTag[Tbody] {
   val trs: List[Tr]
-  def appendTr(tr: Tr): Tbody
+  def appendTrs(tr: Tr*): Tbody
 }
 
 trait Td extends HtmlTag[Td] {
@@ -226,7 +226,7 @@ trait Text extends BodyElement[Text] {
 
 trait Tr extends HtmlTag[Tr] {
   val tds: List[Td]
-  def appendTd(td: Td): Tr
+  def appendTds(td: Td*): Tr
 }
 
 object HtmlImpl {
@@ -509,7 +509,7 @@ object HtmlImpl {
 
   case class TbodyInt(attributes: HtmlTagAttributes, trs: List[Tr]) extends HtmlTagInt[Tbody]("tbody") with Tbody {
 
-    override def appendTr(tr: Tr): Tbody = copy(trs = trs :+ tr)
+    override def appendTrs(tr: Tr*): Tbody = copy(trs = trs ::: tr.toList)
 
     override def accept(v: Visitor): Unit = v.visit(this)
 
@@ -553,7 +553,7 @@ object HtmlImpl {
 
   case class TrInt(attributes: HtmlTagAttributes, tds: List[Td]) extends HtmlTagInt[Tr]("tr") with Tr {
 
-    override def appendTd(td: Td): Tr = copy(tds = tds :+ td)
+    override def appendTds(td: Td*): Tr = copy(tds = tds ::: td.toList)
 
     override def accept(v: Visitor): Unit = v.visit(this)
 

@@ -6,6 +6,7 @@ import java.nio.file.Path
 import org.skyluc.neki.yaml.ParserError
 import org.skyluc.neki.data.Data
 import org.skyluc.neki.html._
+import org.skyluc.html.BodyElement
 
 
 class ErrorPage(val errors: List[ParserError], data: Data) extends Page(data) {
@@ -13,7 +14,11 @@ class ErrorPage(val errors: List[ParserError], data: Data) extends Page(data) {
 
   override def path(): Path = Path.of("404.html")
 
-  override def content(): Html = {
+  override def shortTitle(): String = SHORT_TITLE
+
+  override def altName(): Option[String] = None
+
+  override def pageContent(): Html = {
     val errorText = errors.mkString
     Html.html().withBody(
       Html.body().appendElements(
@@ -23,13 +28,11 @@ class ErrorPage(val errors: List[ParserError], data: Data) extends Page(data) {
     )
   }
 
-  override def shortTitle(): String = SHORT_TITLE
-
-  override def altName(): Option[String] = None
+  override def mainContent(): List[BodyElement[?]] = ???
 
 }
 
 object ErrorPage {
-  final val SHORT_TITLE = "Error page"
+  val SHORT_TITLE = "Error page"
 }
 

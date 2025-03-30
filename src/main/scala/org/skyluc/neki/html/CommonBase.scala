@@ -111,7 +111,9 @@ object CommonBase {
         .appendElements(navBar(page)*),
       div(PAGE_MAIN)
         .appendElements(
-          div().withId(MAIN_CONTENT).appendElements(text("test"))
+          div().withId(MAIN_CONTENT)
+            .appendElements(h1().appendElement(text(page.shortTitle())))
+            .appendElements(page.mainContent()*)
         ),
       div(PAGE_FOOTER)
         .appendElements(footer(page)*),
@@ -173,100 +175,100 @@ object CommonBase {
 
   // -------------
 
-  final val EMPTY = ""
-  final val SEPARATOR = " - "
+  val EMPTY = ""
+  val SEPARATOR = " - "
 
-  final val CHARSET_UTF8 = "utf-8"
+  val CHARSET_UTF8 = "utf-8"
 
-  final val REL_PRECONNECT = "preconnect"
-  final val REL_STYLESHEET = "stylesheet"
-  final val REL_ICON = "icon"
+  val REL_PRECONNECT = "preconnect"
+  val REL_STYLESHEET = "stylesheet"
+  val REL_ICON = "icon"
 
   // fonts
-  final val HREF_GOOGLE_FONTS_1 = "https://fonts.googleapis.com"
-  final val HREF_GOOGLE_FONTS_2 = "https://fonts.gstatic.com"
-  final val HREF_GOOGLE_FONT_NOTO = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+  val HREF_GOOGLE_FONTS_1 = "https://fonts.googleapis.com"
+  val HREF_GOOGLE_FONTS_2 = "https://fonts.gstatic.com"
+  val HREF_GOOGLE_FONT_NOTO = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
 
   // authentication
-  final val NAME_GOOGLE_VERIFICATION = "google-site-verification"
-  final val CONTENT_GOOGLE_VERIFICATION = "DrE-ZbcyBV3lPatFCBja2O4ymKzfqFXDZjkfkTpvY_8"
-  final val NAME_MICROSOFT_VERIFICATION = "msvalidate.01"
-  final val CONTENT_MICROSOFT_VERIFICATION = "B6C2BBE1BBDED01F740330EB10DEAEF8"
+  val NAME_GOOGLE_VERIFICATION = "google-site-verification"
+  val CONTENT_GOOGLE_VERIFICATION = "DrE-ZbcyBV3lPatFCBja2O4ymKzfqFXDZjkfkTpvY_8"
+  val NAME_MICROSOFT_VERIFICATION = "msvalidate.01"
+  val CONTENT_MICROSOFT_VERIFICATION = "B6C2BBE1BBDED01F740330EB10DEAEF8"
 
   // stylesheet
-  final val HREF_STYLESHEET = "/asset/css/styles.css"
+  val HREF_STYLESHEET = "/asset/css/styles.css"
 
   // icons
-  final val TYPE_PNG = "image/png"
-  final val HREF_FAVICON = "/favicon.ico"
-  final val HREF_PNG_512 = "/manekineko-512px.png"
-  final val SIZES_512 = "512x512"
+  val TYPE_PNG = "image/png"
+  val HREF_FAVICON = "/favicon.ico"
+  val HREF_PNG_512 = "/manekineko-512px.png"
+  val SIZES_512 = "512x512"
 
   // statistics
-  final val NAME_LOCAL = "local"
-  final val DATA_DOMAIN_NIFR = "neki-fan-resources.github.io"
-  final val SRC_PLAUSIBLE = "https://plausible.io/js/script.outbound-links.tagged-events.js"
+  val NAME_LOCAL = "local"
+  val DATA_DOMAIN_NIFR = "neki-fan-resources.github.io"
+  val SRC_PLAUSIBLE = "https://plausible.io/js/script.outbound-links.tagged-events.js"
 
   // javascript
-  final val SRC_JAVASCRIPT = "/asset/javascript/main.js"
+  val SRC_JAVASCRIPT = "/asset/javascript/main.js"
 
   // opengraph
-  final val COMMON_TITLE = " - NEK! - NEK! (NEKI) Fan Resources"
-  final val COMMON_DESCRIPTION = ". NEK! (NEKI) fan website. Provides resources around the band NEK!. Lyrics, videos, live, concerts, history."
+  val COMMON_TITLE = " - NEK! - NEK! (NEKI) Fan Resources"
+  val COMMON_DESCRIPTION = ". NEK! (NEKI) fan website. Provides resources around the band NEK!. Lyrics, videos, live, concerts, history."
 
-  final val REL_CANONICAL = "canonical"
-  final val NAME_DESCRIPTION = "description"
+  val REL_CANONICAL = "canonical"
+  val NAME_DESCRIPTION = "description"
 
-  final val PROPERTY_OG_TITLE = "og:title"
-  final val PROPERTY_OG_DESCRIPTION = "og:description"
-  final val PROPERTY_OG_IMAGE = "og:image"
-  final val PROPERTY_OG_TYPE = "og:type"
-  final val PROPERTY_OG_URL = "og:url"
-  final val PROPERTY_OG_LOGO = "og:logo"
-  final val PROPERTY_OG_LOCALE = "og:locale"
+  val PROPERTY_OG_TITLE = "og:title"
+  val PROPERTY_OG_DESCRIPTION = "og:description"
+  val PROPERTY_OG_IMAGE = "og:image"
+  val PROPERTY_OG_TYPE = "og:type"
+  val PROPERTY_OG_URL = "og:url"
+  val PROPERTY_OG_LOGO = "og:logo"
+  val PROPERTY_OG_LOCALE = "og:locale"
 
-  final val CONTENT_OG_TYPE = "website"
-  final val CONTENT_OG_LOGO = Config.baseUrl + "manekineko-512px.png"
-  final val CONTENT_OG_LOCALE = "en_US"
+  val CONTENT_OG_TYPE = "website"
+  val CONTENT_OG_LOGO = Config.baseUrl + "manekineko-512px.png"
+  val CONTENT_OG_LOCALE = "en_US"
 
   // page layout
-  final val PAGE_HEADER = "header"
-  final val PAGE_MAIN = "main"
-  final val PAGE_FOOTER = "footer"
+  val PAGE_HEADER = "header"
+  val PAGE_MAIN = "main"
+  val PAGE_FOOTER = "footer"
 
   // main layout
-  final val MAIN_OVERLAY = "main-overlay"
-  final val MAIN_SCROLLABLE = "main-scrollable"
-  final val MAIN_BACKGROUND = "main-background"
-  final val MAIN_CONTENT = "main-content"
-  final val CLASS_MAIN_OVERLAY_HIDDEN = "main-overlay-hidden"
+  val MAIN_OVERLAY = "main-overlay"
+  val MAIN_SCROLLABLE = "main-scrollable"
+  val MAIN_BACKGROUND = "main-background"
+  val MAIN_CONTENT = "main-content"
+  val CLASS_MAIN_OVERLAY_HIDDEN = "main-overlay-hidden"
 
   // navbar
-  final val NAV_DIV = "nav"
+  val NAV_DIV = "nav"
 
-  final val NAV_LOGO_PATH = "/asset/image/site/manekineko-200px.png"
-  final val NAV_LOGO_ALT = "N!fr manekineko logo"
-  final val NAV_TITLE_TEXT = "NEK!<br>Fan<br>Resources"
+  val NAV_LOGO_PATH = "/asset/image/site/manekineko-200px.png"
+  val NAV_LOGO_ALT = "N!fr manekineko logo"
+  val NAV_TITLE_TEXT = "NEK!<br>Fan<br>Resources"
 
-  final val CLASS_NAV_LOGO = "nav-logo"
-  final val CLASS_NAV_LOGO_IMG = "nav-logo-img"
-  final val CLASS_NAV_SITE_TITLE = "nav-site-title"
-  final val CLASS_NAV_MAIN_ITEMS = "nav-main-items"
-  final val CLASS_NAV_MAIN_ITEM = "nav-main-item"
-  final val CLASS_NAV_SUPPORT_ITEMS = "nav-support-items"
-  final val CLASS_NAV_SUPPORT_ITEM = "nav-support-item"
+  val CLASS_NAV_LOGO = "nav-logo"
+  val CLASS_NAV_LOGO_IMG = "nav-logo-img"
+  val CLASS_NAV_SITE_TITLE = "nav-site-title"
+  val CLASS_NAV_MAIN_ITEMS = "nav-main-items"
+  val CLASS_NAV_MAIN_ITEM = "nav-main-item"
+  val CLASS_NAV_SUPPORT_ITEMS = "nav-support-items"
+  val CLASS_NAV_SUPPORT_ITEM = "nav-support-item"
 
   // footer
-  final val CLASS_FOOTER_CONTENT = "footer-content"
-  final val CLASS_FOOTER_BOTTOM_RIGHT = "footer-bottom-right"
-  final val CLASS_FOOTER_BOTTOM_LEFT = "footer-bottom-left"
+  val CLASS_FOOTER_CONTENT = "footer-content"
+  val CLASS_FOOTER_BOTTOM_RIGHT = "footer-bottom-right"
+  val CLASS_FOOTER_BOTTOM_LEFT = "footer-bottom-left"
 
-  final val FOOTER_TEXT_1 = "This website is not associated with the band NEK! or their production team."
-  final val FOOTER_TEXT_2 = "© Original content, website structure: SkyLuc. Lyrics, band resources, external resources: their respective owners."
-  final val FOOTER_TEXT_3 = "We aim to provide information as accurate as possible. If you notice a problem, please contact us."
-  final val FOOTER_TEXT_4 = "questions and requests"
+  val FOOTER_TEXT_1 = "This website is not associated with the band NEK! or their production team."
+  val FOOTER_TEXT_2 = "© Original content, website structure: SkyLuc. Lyrics, band resources, external resources: their respective owners."
+  val FOOTER_TEXT_3 = "We aim to provide information as accurate as possible. If you notice a problem, please contact us."
+  val FOOTER_TEXT_4 = "questions and requests"
 
   // TODO: replaced with computed (once) values
-  final val ROOT_PATH = "/"
-  final val ABOUT_PATH = "/about.html"
+  val ROOT_PATH = "/"
+  val ABOUT_PATH = "/about.html"
 }

@@ -8,7 +8,6 @@ import org.skyluc.neki.html._
 import org.skyluc.html.BodyElement
 import org.skyluc.neki.SiteError
 
-
 class ErrorPage(val errors: List[SiteError], data: Data) extends Page(data) {
   import ErrorPage._
 
@@ -19,13 +18,17 @@ class ErrorPage(val errors: List[SiteError], data: Data) extends Page(data) {
   override def altName(): Option[String] = None
 
   override def pageContent(): Html = {
-    val errorText = errors.mkString
-    Html.html().withBody(
-      Html.body().appendElements(
-        Html.h1().appendElement(Html.text("404")),
-        Html.pre(errorText)
+    val errorText = errors.mkString("\n")
+    Html
+      .html()
+      .withBody(
+        Html
+          .body()
+          .appendElements(
+            Html.h1().appendElement(Html.text("404")),
+            Html.pre(errorText),
+          )
       )
-    )
   }
 
   override def mainContent(): List[BodyElement[?]] = ???
@@ -35,4 +38,3 @@ class ErrorPage(val errors: List[SiteError], data: Data) extends Page(data) {
 object ErrorPage {
   val SHORT_TITLE = "Error page"
 }
-

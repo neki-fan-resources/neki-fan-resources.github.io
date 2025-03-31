@@ -2,6 +2,7 @@ package org.skyluc.neki.yaml
 
 import org.skyluc.neki.data.{
   Album => dAlbum,
+  AlbumCoverImage => dAlbumCoverImage,
   AlbumId => dAlbumId,
   CoverImage => dCoverImage,
   Credits => dCredits,
@@ -9,12 +10,18 @@ import org.skyluc.neki.data.{
   FileCoverImage => dFileCoverImage,
   Id => dId,
   Item => dItem,
+  MusicPage => dMusicPage,
   Navigation => dNavigation,
   NavigationItem => dNavigationItem,
+  PageId => dPageId,
+  Show => dShow,
+  ShowId => dShowId,
+  ShowsPage => dShowsPage,
   Site => dSite,
   Song => dSong,
   SongId => dSongId,
   Source => dSource,
+  TourId => dTourId,
 }
 import scala.util.matching.Regex
 import scala.annotation.tailrec
@@ -28,6 +35,12 @@ object ToData {
       _.flatMap {
         case a: Album =>
           process(a)
+        case m: MusicPage =>
+          process(m)
+        case s: Show =>
+          process(s)
+        case s: ShowsPage =>
+          process(s)
         case s: Site =>
           process(s)
         case s: Song =>
@@ -58,24 +71,53 @@ object ToData {
   }
 
   def process(coverImage: CoverImage, id: dId): Either[ParserError, dCoverImage] = {
-    val data: List[Either[ParserError, dFileCoverImage]] = List(
+    val candidates: List[Either[ParserError, dCoverImage]] = List(
       coverImage.file.map { file =>
         for {
           source <- process(file.source)
         } yield {
           dFileCoverImage(file.filename, source)
         }
-      }
+      },
+      coverImage.album.map { album =>
+        Right(dAlbumCoverImage(dAlbumId(album)))
+      },
     ).flatten
 
     // check only one defined
-    data match {
+    candidates match {
       case head :: Nil =>
         head
       case Nil =>
         Left(ParserError(id, "No cover image reference specified"))
       case _ =>
-        Left(ParserError(id, "Too many cover image reference specified"))
+        Left(ParserError(id, "Too many cover image references specified"))
+    }
+  }
+
+  def processMusicId(musicId: MusicId, id: dId): Either[ParserError, dAlbumId | dSongId] = {
+    val candidates: List[dAlbumId | dSongId] = List(
+      musicId.album.map(dAlbumId(_)),
+      musicId.song.map(dSongId(_)),
+    ).flatten
+
+    // check only one defined
+    candidates match {
+      case head :: Nil =>
+        Right(head)
+      case Nil =>
+        Left(ParserError(id, "No music reference specified"))
+      case _ =>
+        Left(ParserError(id, "Too many music references specified"))
+    }
+  }
+
+  def process(musicPage: MusicPage): Either[ParserError, dMusicPage] = {
+    val id = dPageId(musicPage.id)
+    for {
+      musicIds <- throughList(musicPage.music, id)(processMusicId)
+    } yield {
+      dMusicPage(id, musicIds)
     }
   }
 
@@ -90,6 +132,44 @@ object ToData {
 
   def process(navigationItem: NavigationItem): Either[ParserError, dNavigationItem] = {
     Right(dNavigationItem(navigationItem.name, navigationItem.link))
+  }
+
+  def process(show: Show): Either[ParserError, dShow] = {
+    val id = dShowId(show.year, show.id)
+    for {
+      date <- processDate(show.date, id)
+      coverImage <- process(show.`cover-image`, id)
+    } yield {
+      dShow(id, show.fullname, show.shortname, date, show.location, show.`event-page`, show.setlistfm, coverImage)
+    }
+  }
+
+  def process(showId: ShowOrTourId, id: dId): Either[ParserError, dShowId | dTourId] = {
+    val candidates: List[dShowId | dTourId] = List(
+      showId.tour.map(dTourId(_)),
+      showId.show.map { s =>
+        dShowId(s.year, s.id)
+      },
+    ).flatten
+
+    // check only one defined
+    candidates match {
+      case head :: Nil =>
+        Right(head)
+      case Nil =>
+        Left(ParserError(id, "No show or tour reference specified"))
+      case _ =>
+        Left(ParserError(id, "Too many show or tour references specified"))
+    }
+  }
+
+  def process(showsPage: ShowsPage): Either[ParserError, dShowsPage] = {
+    val id = dPageId(showsPage.id)
+    for {
+      showsIds <- throughList(showsPage.shows, id)(process)
+    } yield {
+      dShowsPage(id, showsIds)
+    }
   }
 
   def process(site: Site): Either[ParserError, dSite] = {
@@ -148,4 +228,19 @@ object ToData {
     loop(in, Nil)
   }
 
+  private def throughList[A, B, C](in: List[A], id: dId)(f: (A, dId) => Either[B, C]): Either[B, List[C]] = {
+    @tailrec def loop(in: List[A], acc: List[C]): Either[B, List[C]] = {
+      in match {
+        case head :: tail =>
+          f(head, id) match {
+            case Left(value) =>
+              Left(value)
+            case Right(value) =>
+              loop(tail, value :: acc)
+          }
+        case Nil => Right(acc.reverse)
+      }
+    }
+    loop(in, Nil)
+  }
 }

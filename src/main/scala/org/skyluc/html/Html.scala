@@ -156,6 +156,11 @@ trait H1 extends BodyElement[H1] {
   def appendElement(e: BodyElement[?]): H1
 }
 
+trait H2 extends BodyElement[H2] {
+  val elements: List[BodyElement[?]]
+  def appendElement(e: BodyElement[?]): H2
+}
+
 trait Img extends BodyElement[Img] {
   def withAlt(alt: String): Img
   def withSrc(src: String): Img
@@ -284,7 +289,9 @@ object HtmlImpl {
     override protected def copyWithAttributes(a: HtmlTagAttributes): LinkInt =
       copy(attributes = a)
 
-    override def withCrossorigin(crossorigin: Boolean): Link = copyWithAttributes(attributes.withCrossorigin(crossorigin))
+    override def withCrossorigin(crossorigin: Boolean): Link = copyWithAttributes(
+      attributes.withCrossorigin(crossorigin)
+    )
 
     override def withSizes(sizes: String): Link = copyWithAttributes(attributes.withSizes(sizes))
 
@@ -395,14 +402,29 @@ object HtmlImpl {
     override def accept(v: Visitor): Unit = v.visit(this)
   }
 
+  case class H2Int(
+      attributes: HtmlTagAttributes,
+      elements: List[BodyElement[?]],
+  ) extends HtmlTagInt[H2]("h2")
+      with H2 {
+
+    override protected def copyWithAttributes(a: HtmlTagAttributes): H2Int =
+      copy(attributes = a)
+
+    override def appendElement(e: BodyElement[?]): H2Int =
+      copy(elements = elements :+ e)
+
+    override def accept(v: Visitor): Unit = v.visit(this)
+  }
+
   case class ImgInt(attributes: HtmlTagAttributes) extends HtmlTagInt[Img]("img") with Img {
 
-    override protected def copyWithAttributes(a: HtmlTagAttributes): Img = copy(attributes = a )
+    override protected def copyWithAttributes(a: HtmlTagAttributes): Img = copy(attributes = a)
 
     override def withAlt(alt: String): Img = copy(attributes = attributes.withAlt(alt))
-    
+
     override def withSrc(src: String): Img = copy(attributes = attributes.withSrc(src))
-    
+
     override def accept(v: Visitor): Unit = v.visit(this)
 
   }
@@ -574,6 +596,7 @@ object Html {
   def head(): Head = HeadInt(HtmlTagAttributes.EMPTY, Nil)
   def html(): Html = HtmlInt(HtmlTagAttributes.EMPTY, None, None)
   def h1(): H1 = H1Int(HtmlTagAttributes.EMPTY, Nil)
+  def h2(): H2 = H2Int(HtmlTagAttributes.EMPTY, Nil)
   def inputButton(label: String) =
     InputButtonInt(label, HtmlTagAttributes.EMPTY)
   def img(): Img = ImgInt(HtmlTagAttributes.EMPTY)

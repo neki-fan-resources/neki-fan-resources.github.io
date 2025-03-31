@@ -1,9 +1,12 @@
 package org.skyluc.neki.data
 
-trait CoverImage
+sealed trait CoverImage
 
 case class FileCoverImage(
-  filename: String,
-  source: Source
+    filename: String,
+    source: Source,
 ) extends CoverImage
 
+case class AlbumCoverImage(
+    albumId: AlbumId
+) extends CoverImage

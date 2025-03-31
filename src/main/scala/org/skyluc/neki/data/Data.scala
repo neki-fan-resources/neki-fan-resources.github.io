@@ -13,9 +13,12 @@ case class Data(
     site: Site,
     albums: Map[AlbumId, Album],
     songs: Map[SongId, Song],
+    pages: Map[PageId, Page],
+    shows: Map[ShowId, Show],
+    tours: Map[TourId, Tour],
 )
 
-case class DataError(id: Id, errorMessage: String) extends SiteError {
+case class DataError(id: Id, errorMessage: String, fatal: Boolean = true) extends SiteError {
   override def toString(): String = s"$id: $errorMessage"
 }
 
@@ -25,38 +28,48 @@ object DataBuilder {
       site: Option[Site],
       albums: Map[AlbumId, Album],
       songs: Map[SongId, Song],
+      pages: Map[PageId, Page],
+      shows: Map[ShowId, Show],
+      tours: Map[TourId, Tour],
   ) {
     def toData(): Data = {
-      // TODO: error support
-      Data(site.get, albums, songs)
+      // TODO: missing site error support
+      Data(site.get, albums, songs, pages, shows, tours)
     }
   }
 
   def load(elements: List[Item[?]]): Step1 = {
-    val data = TempData(None, HashMap(), HashMap())
-    val res = elements.foldLeft(data) { (acc, item) =>
+    val data = TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap())
+    val res = elements.foldLeft(new WithErrors(data, Nil)) { (acc, item) =>
       item match {
         case a: Album =>
-          acc.copy(albums = acc.albums + ((a.id, a)))
+          acc.copy(t = acc.t.copy(albums = acc.t.albums + ((a.id, a))))
+        case p: Page =>
+          acc.copy(t = acc.t.copy(pages = acc.t.pages + ((p.id, p))))
+        case s: Show =>
+          acc.copy(t = acc.t.copy(shows = acc.t.shows + ((s.id, s))))
         case s: Site =>
-          acc.copy(site = Some(s))
+          // TODO: check if already exists
+          acc.copy(t = acc.t.copy(site = Some(s)))
         case s: Song =>
-          acc.copy(songs = acc.songs + ((s.id, s)))
+          acc.copy(t = acc.t.copy(songs = acc.t.songs + ((s.id, s))))
+        case u =>
+          acc.copy(es = acc.es :+ DataError(Site.ID, s"Unsupporting in data loading: $u"))
       }
     }
-    new Step1(res)
+    new Step1(res.t, res.es)
   }
 
-  class Step1(data: TempData) {
+  class Step1(data: TempData, errors: List[DataError]) {
     // TODO: check cross reference (like song <-> album) ?
-    def crossReference() = new Step2(data.toData())
+    def crossReference() = new Step2(data.toData(), errors)
   }
 
-  class Step2(data: Data) {
+  class Step2(data: Data, errors: List[DataError]) {
     def checkReferences() = {
       val (songErrors, data2) = checkSongToAlbum(data)
       val (albumErrors, data3) = checkAlbumtoSongs(data2)
-      new Step3(data3, songErrors ::: albumErrors)
+      new Step3(data3, errors ::: songErrors ::: albumErrors)
     }
 
     def checkSongToAlbum(data: Data): (List[DataError], Data) = {
@@ -95,27 +108,41 @@ object DataBuilder {
 
   class Step3(data: Data, errors: List[DataError]) {
     def checkAssets() = {
-      val (songErrors, songs) = checkListFileCoverImage(data.songs.values)
-      val (albumErrors, albums) = checkListFileCoverImage(data.albums.values)
+      val (songErrors, songs) = checkListCoverImage(data.songs.values, data)
+      val (albumErrors, albums) = checkListCoverImage(data.albums.values, data)
+      val (showErrors, shows) = checkListCoverImage(data.shows.values, data)
 
       new Step4(
-        Data(data.site, albums.map(e => (e.id, e)).toMap, songs.map(e => (e.id, e)).toMap),
-        errors ::: songErrors ::: albumErrors,
+        Data(
+          data.site,
+          albums.map(e => (e.id, e)).toMap,
+          songs.map(e => (e.id, e)).toMap,
+          data.pages,
+          shows.map(e => (e.id, e)).toMap,
+          data.tours,
+        ),
+        errors ::: songErrors ::: albumErrors ::: showErrors,
       )
     }
 
-    def checkListFileCoverImage[T <: WithCoverImage[T]](items: Iterable[T]): (List[DataError], List[T]) = {
-      val res = items.map(checkFileCoverImage(_)).toList
+    def checkListCoverImage[T <: WithCoverImage[T]](items: Iterable[T], data: Data): (List[DataError], List[T]) = {
+      val res = items.map(checkCoverImage(_, data)).toList
       (res.flatMap(_.e), res.map(_.t))
     }
 
-    def checkFileCoverImage[T <: WithCoverImage[T]](item: T): WithError[T] = {
+    def checkCoverImage[T <: WithCoverImage[T]](item: T, data: Data): WithError[T] = {
       item.coverImage match {
         case FileCoverImage(filename, _) =>
           if (Assets.exists(Assets.ASSET_IMAGE_PATH, item.id.path, filename)) {
-            WithError(item, None)
+            WithError(item)
           } else {
-            WithError(item.errored(), Some(DataError(item.id, s"Cover image file not found: $filename")))
+            WithError(item, DataError(item.id, s"Cover image file not found: $filename", false))
+          }
+        case AlbumCoverImage(albumId) =>
+          if (data.albums.contains(albumId)) {
+            WithError(item)
+          } else {
+            WithError(item, DataError(item.id, s"Reference not found for cover image: album '$albumId.id'"))
           }
       }
     }
@@ -130,7 +157,8 @@ object DataBuilder {
 
   object WithError {
     def apply[T](t: T): WithError[T] = WithError(t, None)
-    def apply[T <: Item[T]](t: T, e: DataError): WithError[T] = WithError(t.errored(), Some(e))
+    def apply[T <: WithErrorSupport[T]](t: T, e: DataError): WithError[T] =
+      WithError(if (e.fatal) t.errored() else t, Some(e))
   }
 
   case class WithErrors[T](t: T, es: List[DataError])
@@ -138,7 +166,7 @@ object DataBuilder {
   object WithErrors {
     // def apply[T](t: T): WithError[T] = WithError(t, Nil)
     def apply[T <: Item[T]](t: T, es: List[DataError]): WithErrors[T] =
-      new WithErrors(if (es.isEmpty) t else t.errored(), es)
+      new WithErrors(if (es.exists(_.fatal)) t.errored() else t, es)
   }
 }
 

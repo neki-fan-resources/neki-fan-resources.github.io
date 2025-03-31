@@ -70,6 +70,12 @@ class HtmlRenderer extends Visitor {
     }
   }
 
+  override def visit(h2: H2): Unit = {
+    writeTagsOneLine(h2) { () =>
+      h2.elements.foreach(_.accept(this))
+    }
+  }
+
   override def visit(img: Img): Unit = {
     writeTagSingle(img)
   }
@@ -274,15 +280,9 @@ class HtmlRenderer extends Visitor {
     attributes.content.foreach(writeTagAttribute("content", _))
     attributes.alt.foreach(writeTagAttribute("alt", _))
     if (attributes.crossorigin) writeTagAttribute("crossorigin")
-    attributes.span.foreach((span: Int) =>
-      writeTagAttribute("colspan", span.toString),
-    )
-    attributes.width.foreach((width: Int) =>
-      writeTagAttribute("width", width.toString),
-    )
-    attributes.height.foreach((height: Int) =>
-      writeTagAttribute("height", height.toString),
-    )
+    attributes.span.foreach((span: Int) => writeTagAttribute("colspan", span.toString))
+    attributes.width.foreach((width: Int) => writeTagAttribute("width", width.toString))
+    attributes.height.foreach((height: Int) => writeTagAttribute("height", height.toString))
     if (attributes.defer) writeTagAttribute("defer")
     attributes.dataDomain.foreach(writeTagAttribute("data-domain", _))
     attributes.sizes.foreach(writeTagAttribute("sizes", _))

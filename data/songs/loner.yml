@@ -1,0 +1,23 @@
+type: song
+id: loner
+
+fullname: Loner
+album: tricktaking
+
+release-date: 2024-10-09
+
+cover-image: 
+  file:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      url: https://www.youtube.com/post/UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+
+credits:
+  lyricist: NEK!, Kumoi Haruka
+  composer: NEK!, Yuki Tanabe
+  source:
+    description: 'JASRAC - work ID: 790-9145-8'
+    url: https://www2.jasrac.or.jp/
+
+

@@ -11,35 +11,63 @@ import org.skyluc.neki.SiteError
 
 object Parser {
 
-  def parse(yaml: String, fileName: String): Either[ParserError, Element] = {
+  def parse(yaml: String, filename: String): Either[ParserError, Element] = {
 
-    val node = yaml.asNode
+    val nodeRes = yaml.asNode.left.map(e => ParserError(filename, yamlError = Some(e)))
 
-    as[Typing](node, fileName)
-      .map(_.`type`)
-      .flatMap {
-        case "album" => as[Album](node, fileName)
-        case "song"  => as[Song](node, fileName)
-        case "site"  => as[Site](node, fileName)
-        case u =>
-          Left(ParserError(fileName, error = Some(s"Unknown type: '$u'")))
-      }
+    for {
+      node <- nodeRes
+      typing <- as[Typing](node, filename)
+      res <- typeDispatch(node, typing, filename)
+    } yield {
+      res
+    }
   }
 
-  private def as[T](node: Either[YamlError, Node], fileName: String)(implicit
+  def typeDispatch(node: Node, typing: Typing, filename: String): Either[ParserError, Element] = {
+    typing.`type` match {
+      case "album" => as[Album](node, filename)
+      case "song"  => as[Song](node, filename)
+      case "site"  => as[Site](node, filename)
+      case "show"  => as[Show](node, filename)
+      case "page"  => parsePage(node, filename)
+      case u =>
+        Left(ParserError(filename, error = Some(s"Unknown type: '$u'")))
+    }
+  }
+
+  def parsePage(node: Node, filename: String): Either[ParserError, Element] = {
+    for {
+      iding <- as[Iding](node, filename)
+      res <- pageDispatch(node, iding, filename)
+    } yield {
+      res
+    }
+  }
+
+  def pageDispatch(node: Node, iding: Iding, filename: String): Either[ParserError, Element] = {
+    iding.id match {
+      case "music" => as[MusicPage](node, filename)
+      case "shows" => as[ShowsPage](node, filename)
+      case u =>
+        Left(ParserError(filename, error = Some(s"Unknown page id: '$u'")))
+    }
+  }
+
+  private def as[T](node: Node, filename: String)(implicit
       c: YamlDecoder[T]
   ): Either[ParserError, T] = {
     node
-      .flatMap(_.as[T])
+      .as[T]
       .left
-      .map(e => ParserError(fileName, yamlError = Some(e)))
+      .map(e => ParserError(filename, yamlError = Some(e)))
   }
 }
 
 case class ParserError(
     id: String,
     error: Option[String] = None,
-    yamlError: Option[YamlError] = None
+    yamlError: Option[YamlError] = None,
 ) extends SiteError {
   override def toString(): String = {
     val ye = yamlError

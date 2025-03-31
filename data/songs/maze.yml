@@ -1,0 +1,22 @@
+type: song
+id: maze
+
+fullname: MAZE
+album: exclamation
+
+release-date: 2024-07-24
+
+cover-image:
+  file:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      url: https://www.youtube.com/post/Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
+      
+credits:
+  lyricist: NEK!, MUGI
+  composer: NEK!, MUGI
+  source:
+    description: 'JASRAC - work ID: 304-0228-0'
+    url: https://www2.jasrac.or.jp/
+

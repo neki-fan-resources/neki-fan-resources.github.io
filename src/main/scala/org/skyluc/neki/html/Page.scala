@@ -2,7 +2,7 @@ package org.skyluc.neki.html
 
 import org.skyluc.html.Html
 import java.nio.file.Path
-import org.skyluc.neki.data.Data
+import org.skyluc.neki.data.{MusicPage => dMusicPage, Page => dPage, ShowsPage => dShowsPage, Data}
 import org.skyluc.html.HtmlRenderer
 import java.nio.file.Files
 import java.nio.file.SimpleFileVisitor
@@ -12,8 +12,10 @@ import java.io.IOException
 import page.AlbumPage
 import page.SongPage
 import page.ErrorPage
+import page.MusicPage
 import org.skyluc.html.BodyElement
 import org.skyluc.neki.SiteError
+import org.skyluc.neki.html.page.ShowsPage
 
 abstract class Page(val data: Data) {
 
@@ -36,10 +38,21 @@ object Pages {
   val HTML_EXTENSION = ".html"
 
   def fromData(data: Data, errors: List[SiteError]): Iterable[Page] = {
-    Iterable(
-      ErrorPage(errors, data))
+    val pages = data.pages.values.filterNot(_.error).map(pageDispatch(_, data))
+    Iterable(ErrorPage(errors, data))
+      ++ pages
       ++ data.albums.values.filterNot(_.error).map(AlbumPage(_, data))
       ++ data.songs.values.filterNot(_.error).map(SongPage(_, data))
+  }
+
+  private def pageDispatch(page: dPage, data: Data): Page = {
+    // TODO: check no page for data
+    page match {
+      case p: dMusicPage =>
+        MusicPage(p, data)
+      case p: dShowsPage =>
+        ShowsPage(p, data)
+    }
   }
 
   def generate(pages: Iterable[Page], siteFolder: Path): Unit = {

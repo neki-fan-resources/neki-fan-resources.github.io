@@ -1,7 +1,7 @@
 package org.skyluc.neki.html
 
 import scala.collection.immutable.HashMap
-import org.skyluc.neki.data._
+import org.skyluc.neki.data.{Pages as dPages, *}
 import org.skyluc.neki.html.page.AlbumPage
 import org.skyluc.neki.html.page.SongPage
 
@@ -20,6 +20,13 @@ case class ItemCompiledData(
 case class ItemInfo(
     label: Option[String],
     value: String,
+)
+
+type ItemCompiledDataTree = List[ItemCompiledDataNode]
+
+case class ItemCompiledDataNode(
+    data: ItemCompiledData,
+    subNodes: ItemCompiledDataTree,
 )
 
 object ItemInfo {

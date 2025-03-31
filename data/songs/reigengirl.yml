@@ -1,0 +1,24 @@
+type: song
+id: reigengirl
+
+fullname: 令現少女
+fullname-en: REIGEN GIRL
+album: exclamation
+
+release-date: 2024-07-03
+
+cover-image: 
+  file:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      url: https://www.youtube.com/post/UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+
+credits:
+  lyricist: NEK!, KawaguchiTigerYusuke
+  composer: NEK!, Yuki Tanabe
+  source:
+    description: 'JASRAC - work ID: 303-5428-5'
+    url: https://www2.jasrac.or.jp/
+
+assets:

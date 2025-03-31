@@ -10,6 +10,7 @@ trait Visitor {
   def visit(head: Head): Unit
   def visit(hmtl: Html): Unit
   def visit(h1: H1): Unit
+  def visit(h2: H2): Unit
   def visit(img: Img): Unit
   def visit(input: Input[?]): Unit
   def visit(inputButton: InputButton): Unit

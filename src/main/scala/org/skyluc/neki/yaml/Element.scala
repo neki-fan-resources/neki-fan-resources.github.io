@@ -1,6 +1,7 @@
 package org.skyluc.neki.yaml
 
 import org.virtuslab.yaml.YamlCodec
+import org.virtuslab.yaml.Node
 
 trait Element
 
@@ -33,7 +34,8 @@ case class Credits(
 ) derives YamlCodec
 
 case class CoverImage(
-    file: Option[File]
+    file: Option[File],
+    album: Option[String],
 ) derives YamlCodec
 
 case class File(
@@ -50,6 +52,46 @@ case class Site(
     navigation: Navigation
 ) extends Element
     derives YamlCodec
+
+case class MusicPage(
+    id: String,
+    music: List[MusicId],
+) extends Element
+    derives YamlCodec
+
+case class MusicId(
+    album: Option[String],
+    song: Option[String],
+) derives YamlCodec
+
+case class Show(
+    year: String,
+    id: String,
+    fullname: String,
+    shortname: Option[String],
+    date: String,
+    location: String,
+    `event-page`: Option[String],
+    setlistfm: Option[String],
+    `cover-image`: CoverImage,
+) extends Element
+    derives YamlCodec
+
+case class ShowsPage(
+    id: String,
+    shows: List[ShowOrTourId],
+) extends Element
+    derives YamlCodec
+
+case class ShowOrTourId(
+    tour: Option[String],
+    show: Option[ShowId],
+) derives YamlCodec
+
+case class ShowId(
+    year: String,
+    id: String,
+) derives YamlCodec
 
 case class Navigation(
     main: List[NavigationItem],

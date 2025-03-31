@@ -24,8 +24,6 @@ object Main {
 
     val dataFiles = Data.listAllFiles(dataFolder)
 
-    println(dataFiles)
-
     val buffer = CharBuffer.allocate(10240)
 
     val parserResults = dataFiles.map { path =>
@@ -33,11 +31,15 @@ object Main {
 
       val lengthRead = new FileReader(path.toFile()).read(buffer)
 
-      val yaml = buffer.slice(0, lengthRead).toString()
+      val yaml = if (lengthRead > 0) {
+        buffer.slice(0, lengthRead).toString()
+      } else {
+        ""
+      }
 
       Parser.parse(
         yaml,
-        path.subpath(dataFolder.getNameCount(), path.getNameCount()).toString()
+        path.subpath(dataFolder.getNameCount(), path.getNameCount()).toString(),
       )
     }
 
@@ -45,10 +47,10 @@ object Main {
 
     println("PARSER ERRORS: ")
     items.flatMap(_.left.toOption).foreach { e =>
-      println(e)
+      println("  " + e)
     }
     println("--------------")
-    
+
     val (dataErrors, data) =
       DataBuilder
         .load(items.flatMap(_.toOption))
@@ -59,17 +61,15 @@ object Main {
 
     println("DATA ERRORS: ")
     dataErrors.foreach { e =>
-      println(e)
+      println("  " + e)
     }
     println("--------------")
 
-    println(data)
+    // println(data)
 
     Site.generate(data, items.flatMap(_.left.toOption) ::: dataErrors, outputFolder)
 
   }
 }
 
-trait SiteError {
-
-}
+trait SiteError {}

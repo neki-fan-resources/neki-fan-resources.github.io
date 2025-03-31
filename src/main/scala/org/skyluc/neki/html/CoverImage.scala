@@ -5,6 +5,7 @@ import org.skyluc.neki.data.Data
 import org.skyluc.neki.data.Item
 import org.skyluc.neki.data.FileCoverImage
 import org.skyluc.neki.data.Song
+import org.skyluc.neki.data.AlbumCoverImage
 
 object CoverImage {
 
@@ -12,6 +13,8 @@ object CoverImage {
     coverImage match {
       case FileCoverImage(filename, _) =>
         resolveImageAsset(filename, item)
+      case AlbumCoverImage(albumId) =>
+        CompiledData.getAlbum(albumId, data).coverUrl
     }
   }
 

@@ -2,6 +2,8 @@ package org.skyluc.neki.html
 
 import org.skyluc.html._
 import Html._
+import org.skyluc.collection.LayeredData
+import org.skyluc.collection.LayeredNode
 
 object MediumCard {
 
@@ -30,9 +32,27 @@ object MediumCard {
       )
   }
 
+  def generateTree(tree: LayeredData[ItemCompiledData]): Div = {
+    div()
+      .withClass(CLASS_MEDIUM_CARD_LIST)
+      .appendElements(
+        tree.map(generateTree(_))*
+      )
+  }
+
+  private def generateTree(node: LayeredNode[ItemCompiledData]): Div = {
+    div()
+      .withClass(CLASS_MEDIUM_CARD_TREE)
+      .appendElements(
+        generate(node.data),
+        SmallCard.generateTree(node.subLayer),
+      )
+  }
+
   // --------------------
 
   val CLASS_MEDIUM_CARD_LIST = "medium-card-list"
+  val CLASS_MEDIUM_CARD_TREE = "medium-card-tree"
   val CLASS_MEDIUM_CARD = "medium-card"
   val CLASS_MEDIUM_CARD_COVER = "medium-card-cover"
   val CLASS_MEDIUM_CARD_DESIGNATION = "medium-card-designation"

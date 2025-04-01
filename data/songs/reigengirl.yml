@@ -21,4 +21,18 @@ credits:
     description: 'JASRAC - work ID: 303-5428-5'
     url: https://www2.jasrac.or.jp/
 
-assets:
+multimedia:
+  video:
+  - youtubevideo: pCqu9xyfFzE
+  additional:
+  - youtubevideo: rq0dca9mFfI
+
+related:
+- type: youtubevideo
+  id: pCqu9xyfFzE
+  label: Music Video Teaser
+  published-date: 2024-06-28
+- type: youtubevideo
+  id: rq0dca9mFfI
+  label: Official Music Video
+  published-date: 2024-07-03

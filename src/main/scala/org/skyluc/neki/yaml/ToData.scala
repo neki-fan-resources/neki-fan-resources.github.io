@@ -10,6 +10,9 @@ import org.skyluc.neki.data.{
   FileCoverImage => dFileCoverImage,
   Id => dId,
   Item => dItem,
+  MultiMedia => dMultiMedia,
+  MultiMediaId => dMultiMediaId,
+  MultiMediaBlock => dMultiMediaBlock,
   MusicPage => dMusicPage,
   Navigation => dNavigation,
   NavigationItem => dNavigationItem,
@@ -24,34 +27,72 @@ import org.skyluc.neki.data.{
   Tour => dTour,
   TourCoverImage => dTourCoverImage,
   TourId => dTourId,
+  YouTubeVideo => dYouTubeVideo,
+  YouTubeVideoId => dYouTubeVideoId,
 }
 import scala.util.matching.Regex
 import scala.annotation.tailrec
 
 object ToData {
 
+  case class ToDataResult(
+      main: Either[ParserError, dItem[?]],
+      related: List[ToDataResult],
+  ) {
+    def flatten(): List[Either[ParserError, dItem[?]]] = {
+      main :: related.flatMap(_.flatten())
+    }
+  }
+
   final val DATE_PATTERN: Regex = """(\d{4})-(\d{2})-(\d{2})""".r
 
-  def process(elements: List[Either[ParserError, Element]]): List[Either[ParserError, dItem[?]]] = {
-    elements.map {
-      _.flatMap {
-        case a: Album =>
-          process(a)
-        case m: MusicPage =>
-          process(m)
-        case s: Show =>
-          process(s)
-        case s: ShowsPage =>
-          process(s)
-        case s: Site =>
-          process(s)
-        case s: Song =>
-          process(s)
-        case t: Tour =>
-          process(t)
-        case e =>
-          Left(ParserError(s"Unsupported in ToData: $e"))
+  def process(parserResults: List[ParserResult]): List[Either[ParserError, dItem[?]]] = {
+    parserResults.flatMap(pr => process(pr).flatten())
+  }
+
+  def process(parserResult: ParserResult): ToDataResult = {
+    val mainElement = process(parserResult.main)
+    val relatedElements = parserResult.related.map(process(_))
+
+    val linkedRelatedElements = mainElement match {
+      case Right(item) =>
+        relatedElements.map { re =>
+          re.copy(main = re.main.map(_.withRelatedTo(item.id)))
+        }
+      case _ =>
+        relatedElements
+    }
+
+    val mainElementWithRelated = mainElement.map { m =>
+      relatedElements.foldLeft(m) { (main, result) =>
+        result.main.toOption.map(item => main.withRelatedTo(item.id)).getOrElse(main)
       }
+    }
+
+    ToDataResult(mainElementWithRelated, linkedRelatedElements)
+
+  }
+
+  def process(element: Either[ParserError, Element]): Either[ParserError, dItem[?]] = {
+    element.flatMap {
+      case a: Album =>
+        process(a)
+      case m: MusicPage =>
+        process(m)
+      case s: Show =>
+        process(s)
+      case s: ShowsPage =>
+        process(s)
+      case s: Site =>
+        process(s)
+      case s: Song =>
+        process(s)
+      case t: Tour =>
+        process(t)
+      case y: YouTubeVideo =>
+        process(y)
+      case e =>
+        Left(ParserError(s"Unsupported in ToData: $e"))
     }
   }
 
@@ -61,8 +102,18 @@ object ToData {
     for {
       releaseDate <- processDate(album.`release-date`, id)
       coverImage <- process(album.`cover-image`, id)
+      multimedia <- boxEitherOption(album.multimedia.map(process(_, id)))
     } yield {
-      dAlbum(id, album.fullname, album.altname, album.designation, releaseDate, coverImage, songIds)
+      dAlbum(
+        id,
+        album.fullname,
+        album.altname,
+        album.designation,
+        releaseDate,
+        coverImage,
+        songIds,
+        multimedia.getOrElse(dMultiMediaBlock.EMPTY),
+      )
     }
   }
 
@@ -99,6 +150,36 @@ object ToData {
         Left(ParserError(id, "No cover image reference specified"))
       case _ =>
         Left(ParserError(id, "Too many cover image references specified"))
+    }
+  }
+
+  def process(multimedia: MultiMedia, id: dId[?]): Either[ParserError, dMultiMediaBlock] = {
+    for {
+      video <- boxEitherOption(multimedia.video.map(process(_, id)))
+      live <- boxEitherOption(multimedia.live.map(process(_, id)))
+      additional <- boxEitherOption(multimedia.additional.map(process(_, id)))
+    } yield {
+      dMultiMediaBlock(video.getOrElse(Nil), live.getOrElse(Nil), additional.getOrElse(Nil))
+    }
+  }
+
+  def process(multimediaIds: List[MultiMediaId], id: dId[?]): Either[ParserError, List[dMultiMediaId]] = {
+    throughList(multimediaIds, id)(process)
+  }
+
+  def process(multimediaId: MultiMediaId, id: dId[?]): Either[ParserError, dMultiMediaId] = {
+    val candidates: List[dMultiMediaId] = List(
+      multimediaId.youtubevideo.map(dYouTubeVideoId(_))
+    ).flatten
+
+    // check only one defined
+    candidates match {
+      case head :: Nil =>
+        Right(head)
+      case Nil =>
+        Left(ParserError(id, "No multimedia reference specified"))
+      case _ =>
+        Left(ParserError(id, "Too many multimedia references specified"))
     }
   }
 
@@ -147,6 +228,7 @@ object ToData {
     for {
       date <- processDate(show.date, id)
       coverImage <- process(show.`cover-image`, id)
+      multimedia <- boxEitherOption(show.multimedia.map(process(_, id)))
     } yield {
       dShow(
         id,
@@ -159,6 +241,7 @@ object ToData {
         show.`event-page`,
         show.setlistfm,
         coverImage,
+        multimedia.getOrElse(dMultiMediaBlock.EMPTY),
       )
     }
   }
@@ -209,8 +292,18 @@ object ToData {
       releaseDate <- processDate(song.`release-date`, id)
       credits <- boxEitherOption(song.credits.map(process(_)))
       coverImage <- process(song.`cover-image`, id)
+      multimedia <- boxEitherOption(song.multimedia.map(process(_, id)))
     } yield {
-      dSong(id, song.fullname, song.`fullname-en`, song.album.map(dAlbumId(_)), releaseDate, credits, coverImage)
+      dSong(
+        id,
+        song.fullname,
+        song.`fullname-en`,
+        song.album.map(dAlbumId(_)),
+        releaseDate,
+        credits,
+        coverImage,
+        multimedia.getOrElse(dMultiMediaBlock.EMPTY),
+      )
     }
   }
 
@@ -227,6 +320,15 @@ object ToData {
       coverImage <- process(tour.`cover-image`, id)
     } yield {
       dTour(id, tour.fullname, tour.shortname, firstDate, lastDate, tour.`event-page`, coverImage, shows)
+    }
+  }
+
+  def process(youtubevideo: YouTubeVideo): Either[ParserError, dYouTubeVideo] = {
+    val id = dYouTubeVideoId(youtubevideo.id)
+    for {
+      publishedDate <- processDate(youtubevideo.`published-date`, id)
+    } yield {
+      dYouTubeVideo(id, youtubevideo.label, publishedDate)
     }
   }
 

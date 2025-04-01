@@ -15,6 +15,7 @@ case class Data(
     songs: Map[Id[Song], Song],
     shows: Map[Id[Show], Show],
     tours: Map[Id[Tour], Tour],
+    multimedia: Map[Id[MultiMedia], MultiMedia],
     pages: Data.Pages,
 )
 
@@ -41,11 +42,12 @@ object DataBuilder {
       songs: Map[Id[Song], Song],
       shows: Map[Id[Show], Show],
       tours: Map[Id[Tour], Tour],
+      multimedia: Map[Id[MultiMedia], MultiMedia],
       pages: TempPages,
   ) {
     def toData(): Data = {
       // TODO: missing site error support
-      Data(site.get, albums, songs, shows, tours, pages.toPages())
+      Data(site.get, albums, songs, shows, tours, multimedia, pages.toPages())
     }
   }
 
@@ -60,12 +62,14 @@ object DataBuilder {
   }
 
   def load(elements: List[Item[?]]): Step1 = {
-    val data = TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), TempPages(None, None))
+    val data = TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), TempPages(None, None))
     // TODO: check if adding items with already existing id
     val res = elements.foldLeft(new WithErrors(data, Nil)) { (acc, item) =>
       item match {
         case a: Album =>
           acc.copy(t = acc.t.copy(albums = acc.t.albums + ((a.id, a))))
+        case m: MultiMedia =>
+          acc.copy(t = acc.t.copy(multimedia = acc.t.multimedia + ((m.id, m))))
         case m: MusicPage =>
           acc.copy(t = acc.t.copy(pages = acc.t.pages.copy(music = Some(m))))
         case s: Show =>
@@ -76,6 +80,7 @@ object DataBuilder {
           // TODO: check if already exists
           acc.copy(t = acc.t.copy(site = Some(s)))
         case s: Song =>
+          // if (s.id.id == "dreams") println(s)
           acc.copy(t = acc.t.copy(songs = acc.t.songs + ((s.id, s))))
         case t: Tour =>
           acc.copy(t = acc.t.copy(tours = acc.t.tours + ((t.id, t))))
@@ -87,7 +92,7 @@ object DataBuilder {
   }
 
   class Step1(data: TempData, errors: List[DataError]) {
-    // TODO: check cross reference (like song <-> album) ?
+    // TODO: check cross reference (like song <-> album, tour <-> show) ?
     def crossReference() = new Step2(data.toData(), errors)
   }
 
@@ -98,6 +103,9 @@ object DataBuilder {
       val (tourErrors, data4) = checkTourToShows(data3)
       val (showErrors, data5) = checkShowToTour(data4)
       val (pageErrors, dataLast) = checkPageReferences(data5)
+
+      // TODO: check relatedTo references
+      // TODO: check multimedia references
 
       new Step3(dataLast, errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors ::: pageErrors)
     }
@@ -174,6 +182,7 @@ object DataBuilder {
           songs.map(e => (e.id, e)).toMap,
           shows.map(e => (e.id, e)).toMap,
           tours.map(e => (e.id, e)).toMap,
+          data.multimedia,
           data.pages,
         ),
         errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors,

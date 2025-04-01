@@ -8,30 +8,78 @@ import org.virtuslab.yaml.YamlDecoder
 import org.virtuslab.yaml.LoadSettings
 import org.skyluc.neki.data.Id
 import org.skyluc.neki.SiteError
+import org.virtuslab.yaml.Node.MappingNode
+import org.virtuslab.yaml.Node.ScalarNode
+import org.virtuslab.yaml.Node.SequenceNode
+
+case class ParserResult(
+    main: Either[ParserError, Element],
+    related: List[ParserResult],
+)
 
 object Parser {
 
-  def parse(yaml: String, filename: String): Either[ParserError, Element] = {
+  def parse(yaml: String, filename: String): ParserResult = {
 
     val nodeRes = yaml.asNode.left.map(e => ParserError(filename, yamlError = Some(e)))
 
-    for {
-      node <- nodeRes
+    nodeRes match {
+      case Left(error) =>
+        ParserResult(Left(error), Nil)
+      case Right(node) =>
+        parse(node, filename)
+    }
+  }
+
+  def parse(node: Node, filename: String): ParserResult = {
+    val mainElement = for {
       typing <- as[Typing](node, filename)
       res <- typeDispatch(node, typing, filename)
     } yield {
       res
     }
+
+    ParserResult(
+      mainElement,
+      relatedNodes(node).map(parse(_, filename)).toList,
+    )
+  }
+
+  def relatedNodes(root: Node): Seq[Node] = {
+    root match {
+      case MappingNode(mappings, tag) =>
+        mappings
+          .find { (k, v) =>
+            k match {
+              case ScalarNode(value, tag) =>
+                value == "related"
+              case _ =>
+                false
+            }
+          }
+          .map { (k, v) =>
+            v match {
+              case SequenceNode(nodes, tag) =>
+                nodes
+              case _ =>
+                Nil
+            }
+          }
+          .getOrElse(Nil)
+      case _ =>
+        Nil
+    }
   }
 
   def typeDispatch(node: Node, typing: Typing, filename: String): Either[ParserError, Element] = {
     typing.`type` match {
-      case "album" => as[Album](node, filename)
-      case "song"  => as[Song](node, filename)
-      case "site"  => as[Site](node, filename)
-      case "show"  => as[Show](node, filename)
-      case "page"  => parsePage(node, filename)
-      case "tour"  => as[Tour](node, filename)
+      case "album"        => as[Album](node, filename)
+      case "song"         => as[Song](node, filename)
+      case "site"         => as[Site](node, filename)
+      case "show"         => as[Show](node, filename)
+      case "page"         => parsePage(node, filename)
+      case "tour"         => as[Tour](node, filename)
+      case "youtubevideo" => as[YouTubeVideo](node, filename)
       case u =>
         Left(ParserError(filename, error = Some(s"Unknown type: '$u'")))
     }

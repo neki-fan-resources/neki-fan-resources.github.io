@@ -22,6 +22,7 @@ trait WithErrorSupport[T] {
 trait Item[T] extends WithErrorSupport[T] {
   val id: Id[T]
   val error: Boolean
+  def withRelatedTo(id: Id[?]): Item[T]
 }
 
 trait WithCoverImage[T] extends WithErrorSupport[T] {

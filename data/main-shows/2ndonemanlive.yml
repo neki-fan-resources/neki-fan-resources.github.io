@@ -15,6 +15,26 @@ cover-image:
       description: YouTube community post
       url: https://www.youtube.com/post/Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
 
+
+multimedia:
+  video:
+  - youtubevideo: aylfQ09sa4I
+  - youtubevideo: _Oac92XPkyo
+
+related:
+- type: youtubevideo
+  id: _Oac92XPkyo
+  label: Official Live Video
+  published-date: 2024-12-18
+  relatedTo:
+  - song: dreams
+- type: youtubevideo
+  id: aylfQ09sa4I
+  label: Official Live Video
+  published-date: 2025-01-24
+  relatedTo:
+  - song: maze
+
 media:
   concert:
   - show:

@@ -28,10 +28,13 @@ case class Show(
     eventPage: Option[String], // TODO: use a special URL type ?
     setlistfm: Option[String],
     coverImage: CoverImage,
+    multimedia: MultiMediaBlock,
     error: Boolean = false,
+    relatedTo: List[Id[?]] = Nil,
 ) extends Item[Show]
     with WithCoverImage[Show] {
   override def errored(): Show = copy(error = true)
+  override def withRelatedTo(id: Id[?]): Show = copy(relatedTo = id :: relatedTo)
 }
 
 object Show {
@@ -52,9 +55,11 @@ case class Tour(
     coverImage: CoverImage,
     shows: List[ShowId],
     error: Boolean = false,
+    relatedTo: List[Id[?]] = Nil,
 ) extends Item[Tour]
     with WithCoverImage[Tour] {
   override def errored(): Tour = copy(error = true)
+  override def withRelatedTo(id: Id[?]): Tour = copy(relatedTo = id :: relatedTo)
 }
 
 case class TourId(id: String) extends Id[Tour] {

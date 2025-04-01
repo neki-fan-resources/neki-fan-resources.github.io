@@ -20,9 +20,14 @@ class ShowPage(val show: Show, data: Data) extends Page(data) {
   override def altName(): Option[String] = show.shortname
 
   override def mainContent(): List[BodyElement[?]] = {
+    val videoSection: List[BodyElement[?]] = MultiMediaCard.generateSection(
+      SECTION_VIDEO_TEXT,
+      CompiledData.getMultiMedia(show.multimedia.video, data),
+    )
+
     List(
       ItemDetails.generate(CompiledData.getShow(show.id, data))
-    )
+    ) ::: videoSection
   }
 
 }
@@ -38,4 +43,6 @@ object ShowPage {
   val LABEL_SETLIST = "setlist"
   val VALUE_SETLIST = "setlist.fm"
   val VALUE_EVENT_PAGE = "event page"
+
+  val SECTION_VIDEO_TEXT = "Video"
 }

@@ -28,6 +28,8 @@ case class MusicPage(
     error: Boolean = false,
 ) extends Page[MusicPage] {
   override def errored(): MusicPage = copy(error = true)
+  override def withRelatedTo(id: Id[?]): MusicPage = ???
+
 }
 
 case class ShowsPage(
@@ -36,6 +38,7 @@ case class ShowsPage(
     error: Boolean = false,
 ) extends Page[ShowsPage] {
   override def errored(): ShowsPage = copy(error = true)
+  override def withRelatedTo(id: Id[?]): ShowsPage = ???
 }
 
 object Pages {

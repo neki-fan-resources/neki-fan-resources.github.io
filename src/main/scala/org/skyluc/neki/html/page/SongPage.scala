@@ -20,9 +20,24 @@ class SongPage(val song: Song, data: Data) extends Page(data) {
   override def altName(): Option[String] = None
 
   override def mainContent(): List[BodyElement[?]] = {
+    val videoSection = MultiMediaCard.generateSection(
+      SECTION_VIDEO_TEXT,
+      CompiledData.getMultiMedia(song.multimedia.video, data),
+    )
+
+    val liveSection = MultiMediaCard.generateSection(
+      SECTION_LIVE_TEXT,
+      CompiledData.getMultiMedia(song.multimedia.live, data),
+    )
+
+    val additionalSection = MultiMediaCard.generateSection(
+      SECTION_ADDITIONAL_TEXT,
+      CompiledData.getMultiMedia(song.multimedia.additional, data),
+    )
+
     List(
       ItemDetails.generate(CompiledData.getSong(song.id, data))
-    )
+    ) ::: videoSection ::: liveSection ::: additionalSection
   }
 
 }
@@ -35,4 +50,8 @@ object SongPage {
 
   val LABEL_LYRICIST = "lyricist"
   val LABEL_COMPOSER = "composer"
+
+  val SECTION_VIDEO_TEXT = "Video"
+  val SECTION_LIVE_TEXT = "Live"
+  val SECTION_ADDITIONAL_TEXT = "Additional Media"
 }

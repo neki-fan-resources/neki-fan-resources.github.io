@@ -25,10 +25,14 @@ case class Song(
     releaseDate: Date,
     credits: Option[Credits],
     coverImage: CoverImage,
+    multimedia: MultiMediaBlock,
     error: Boolean = false,
+    relatedTo: List[Id[?]] = Nil,
 ) extends Item[Song]
     with WithCoverImage[Song] {
   override def errored(): Song = copy(error = true)
+  override def withRelatedTo(id: Id[?]): Song = copy(relatedTo = id :: relatedTo)
+
 }
 
 object Song {

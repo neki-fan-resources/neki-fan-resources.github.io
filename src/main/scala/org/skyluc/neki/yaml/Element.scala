@@ -2,19 +2,9 @@ package org.skyluc.neki.yaml
 
 import org.virtuslab.yaml.YamlCodec
 import org.virtuslab.yaml.Node
+import org.skyluc.neki.data.MultiMedia
 
 trait Element
-
-case class Song(
-    id: String,
-    fullname: String,
-    `fullname-en`: Option[String],
-    album: Option[String],
-    `release-date`: String,
-    credits: Option[Credits],
-    `cover-image`: CoverImage,
-) extends Element
-    derives YamlCodec
 
 case class Album(
     id: String,
@@ -24,6 +14,7 @@ case class Album(
     `release-date`: String,
     `cover-image`: CoverImage,
     songs: List[String],
+    multimedia: Option[MultiMedia],
 ) extends Element
     derives YamlCodec
 
@@ -77,6 +68,7 @@ case class Show(
     `event-page`: Option[String],
     setlistfm: Option[String],
     `cover-image`: CoverImage,
+    multimedia: Option[MultiMedia],
 ) extends Element
     derives YamlCodec
 
@@ -96,6 +88,18 @@ case class ShowId(
     id: String,
 ) derives YamlCodec
 
+case class Song(
+    id: String,
+    fullname: String,
+    `fullname-en`: Option[String],
+    album: Option[String],
+    `release-date`: String,
+    credits: Option[Credits],
+    `cover-image`: CoverImage,
+    multimedia: Option[MultiMedia],
+) extends Element
+    derives YamlCodec
+
 case class Tour(
     id: String,
     fullname: String,
@@ -107,6 +111,25 @@ case class Tour(
     shows: List[ShowId],
 ) extends Element
     derives YamlCodec
+
+case class YouTubeVideo(
+    id: String,
+    label: String,
+    `published-date`: String,
+) extends Element
+    derives YamlCodec
+
+// ---------
+
+case class MultiMedia(
+    video: Option[List[MultiMediaId]],
+    live: Option[List[MultiMediaId]],
+    additional: Option[List[MultiMediaId]],
+) derives YamlCodec
+
+case class MultiMediaId(
+    youtubevideo: Option[String]
+) derives YamlCodec
 
 case class Navigation(
     main: List[NavigationItem],

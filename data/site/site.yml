@@ -1,6 +1,6 @@
 type: site
 
-# use some PageId
+# TODO: use some PageId ?
 navigation:
   main:
   - name: Band
@@ -20,3 +20,26 @@ navigation:
     link: /sources.html
   - name: About
     link: /about.html
+
+youtubeVideoIds-neky:
+- 0YlW7T5fVZ4
+- Vh5saxbTlvE
+- z3HM2COly2Q
+- 6YLIHyMl21k
+- aylfQ09sa4I
+- _Oac92XPkyo
+- uhy1HnFXTH8
+- prWu9_Q5a5Y
+- EHtWJmMybGY
+- AqVoa-PMl8I
+- rq0dca9mFfI
+- pCqu9xyfFzE
+- 387bkUm7Dko
+- TWbLqba3oag
+- maFSgVE2vXg
+
+youtubeVideoIds-kanade:
+- hXGPxYalJfk
+- 7Neu9jJk-04
+
+

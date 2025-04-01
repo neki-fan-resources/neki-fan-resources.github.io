@@ -19,3 +19,24 @@ credits:
   composer: NEK!, MAIMAI
   source:
     description: from the EXCLAMAT!ON EP booklet
+
+multimedia:
+  video:
+  - youtubevideo: TWbLqba3oag
+  - youtubevideo: 7Neu9jJk-04
+  additional:
+  - youtubevideo: maFSgVE2vXg
+
+related:
+- type: youtubevideo
+  id: maFSgVE2vXg
+  label: Music Video Teaser
+  published-date: 2024-04-21
+- type: youtubevideo
+  id: TWbLqba3oag
+  label: Official Music Video
+  published-date: 2024-04-24
+- type: youtubevideo
+  id: 7Neu9jJk-04
+  label: Kanade Bass play-through
+  published-date: 2024-05-28

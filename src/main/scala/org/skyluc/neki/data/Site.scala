@@ -9,6 +9,7 @@ case class Site(
   val id = Site.ID
 
   override def errored() = copy(error = true)
+  override def withRelatedTo(id: Id[?]): Site = ???
 }
 
 object Site {

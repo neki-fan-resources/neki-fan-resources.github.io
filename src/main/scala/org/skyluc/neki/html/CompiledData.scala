@@ -32,6 +32,17 @@ object ItemInfo {
     ItemInfo(Some(label), value, None)
 }
 
+case class MultiMediaCompiledData(
+    url: String,
+    imageUrl: String,
+    label: String,
+    info: Option[String],
+    from: List[(String, String)],
+    overlay: String,
+)
+
+// ----------------
+
 type ItemCompiledDataTree = List[ItemCompiledDataNode]
 
 case class ItemCompiledDataNode(
@@ -39,12 +50,15 @@ case class ItemCompiledDataNode(
     subNodes: ItemCompiledDataTree,
 )
 
+// ----------------
+
 object CompiledData {
 
   val LABEL_RELEASED = "released"
   val LABEL_DATE = "date"
 
   var cache: Map[Id[?], ItemCompiledData] = HashMap()
+  var cache2: Map[Id[?], MultiMediaCompiledData] = HashMap()
 
   def getAlbum(id: AlbumId, data: Data): ItemCompiledData = {
     cache.get(id) match {
@@ -53,6 +67,21 @@ object CompiledData {
       case None =>
         val compiledData = compileForAlbum(id, data)
         cache += ((id, compiledData))
+        compiledData
+    }
+  }
+
+  def getMultiMedia(ids: List[MultiMediaId], data: Data): List[MultiMediaCompiledData] = {
+    ids.map(getMultiMedia(_, data))
+  }
+
+  def getMultiMedia(id: MultiMediaId, data: Data): MultiMediaCompiledData = {
+    cache2.get(id) match {
+      case Some(compiledData) =>
+        compiledData
+      case None =>
+        val compiledData = compileForMultiMedia(id, data)
+        cache2 += ((id, compiledData))
         compiledData
     }
   }
@@ -105,6 +134,13 @@ object CompiledData {
       CoverImage.buildAlt(AlbumPage.DESIGNATION, album.fullname),
       info,
     )
+  }
+
+  def compileForMultiMedia(id: MultiMediaId, data: Data): MultiMediaCompiledData = {
+    data.multimedia(id) match {
+      case y: YouTubeVideo =>
+        compileForYouTubeVideo(y, data)
+    }
   }
 
   def compileForShow(id: ShowId, data: Data): ItemCompiledData = {
@@ -174,6 +210,17 @@ object CompiledData {
       CoverImage.resolveUrl(tour.coverImage, tour, data),
       CoverImage.buildAlt(TourPage.DESIGNATION, tour.fullname),
       info,
+    )
+  }
+
+  def compileForYouTubeVideo(youtubevideo: YouTubeVideo, data: Data): MultiMediaCompiledData = {
+    MultiMediaCompiledData(
+      youtubevideo.url(),
+      youtubevideo.imageUrl(),
+      youtubevideo.label,
+      None, // TODO: needed at some point ?
+      Nil, // TODO: add, accordingly to the content of relatedTo
+      YouTubeVideo.OVERLAY_FILE,
     )
   }
 

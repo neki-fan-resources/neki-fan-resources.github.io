@@ -581,6 +581,55 @@ footer {
   color: var(--color-not-black);
 }
 
+/* multimedia card layout */
+
+.multimedia-card {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.multimedia-card-label {
+  margin-bottom: 0.2rem;
+}
+
+.multimedia-card-image {
+  width: fit-content;
+  position: relative;
+  margin-bottom: -0.1rem;
+}
+
+.multimedia-card-image-over {
+  height: 15%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.multimedia-card-image-under {
+  height: 12rem;
+}
+
+.multimedia-card-sublabel {
+  width: 0px;
+  min-width: 100%;
+}
+
+/* multimedia card style */
+
+.multimedia-card-label {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+.multimedia-card-sublabel {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  font-weight: 600;
+}
+
 /* testing */
 
 /* main {

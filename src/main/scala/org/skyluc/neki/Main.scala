@@ -1,7 +1,7 @@
 package org.skyluc.neki
 
 import java.nio.file.Paths
-import org.skyluc.neki.yaml.Parser
+import org.skyluc.neki.yaml.{Parser, ParserResult}
 import java.io.FileReader
 import java.io.BufferedReader
 import java.nio.CharBuffer
@@ -17,7 +17,6 @@ object Main {
   val OUTPUT_PATH = "target/site"
 
   def main(args: Array[String]): Unit = {
-    println("Test")
 
     val dataFolder = Paths.get(DATA_PATH)
     val outputFolder = Paths.get(OUTPUT_PATH)
@@ -26,7 +25,7 @@ object Main {
 
     val buffer = CharBuffer.allocate(10240)
 
-    val parserResults = dataFiles.map { path =>
+    val parserResults: List[ParserResult] = dataFiles.map { path =>
       buffer.clear()
 
       val lengthRead = new FileReader(path.toFile()).read(buffer)
@@ -44,6 +43,8 @@ object Main {
     }
 
     val items = ToData.process(parserResults)
+
+    println("--------------")
 
     println("PARSER ERRORS: ")
     items.flatMap(_.left.toOption).foreach { e =>

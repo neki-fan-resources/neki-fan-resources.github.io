@@ -16,3 +16,19 @@ credits:
     description: 'JASRAC - work ID: 316-4011-7'
     url: https://www2.jasrac.or.jp/
 
+multimedia:
+  video:
+  - youtubevideo: z3HM2COly2Q
+  additional:
+  - youtubevideo: 6YLIHyMl21k
+
+related:
+- type: youtubevideo
+  id: 6YLIHyMl21k
+  label: Music Video Teaser
+  published-date: 2024-02-14
+- type: youtubevideo
+  id: z3HM2COly2Q
+  label: Official Music Video
+  published-date: 2024-02-15
+

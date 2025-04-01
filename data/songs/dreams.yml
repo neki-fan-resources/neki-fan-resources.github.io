@@ -19,3 +19,21 @@ credits:
   source:
     description: 'JASRAC - work ID: 793-1613-1'
     url: https://www2.jasrac.or.jp/
+
+multimedia:
+  video:
+  - youtubevideo: 0YlW7T5fVZ4
+  live:
+  - youtubevideo: _Oac92XPkyo
+  additional:
+  - youtubevideo: Vh5saxbTlvE
+
+related:
+- type: youtubevideo
+  id: Vh5saxbTlvE
+  label: Music Video Teaser
+  published-date: 2025-03-04
+- type: youtubevideo
+  id: 0YlW7T5fVZ4
+  label: Official Music Video
+  published-date: 2024-03-05

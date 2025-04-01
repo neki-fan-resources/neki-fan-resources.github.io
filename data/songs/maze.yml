@@ -20,3 +20,25 @@ credits:
     description: 'JASRAC - work ID: 304-0228-0'
     url: https://www2.jasrac.or.jp/
 
+multimedia:
+  video:
+  - youtubevideo: EHtWJmMybGY
+  - youtubevideo: hXGPxYalJfk
+  live:
+  - youtubevideo: aylfQ09sa4I
+  additional:
+  - youtubevideo: AqVoa-PMl8I
+
+related:
+- type: youtubevideo
+  id: AqVoa-PMl8I
+  label: Music Video Teaser
+  published-date: 2024-07-20
+- type: youtubevideo
+  id: EHtWJmMybGY
+  label: Official Music Video
+  published-date: 2024-07-24
+- type: youtubevideo
+  id: hXGPxYalJfk
+  label: Kanade Bass play-through
+  published-date: 2024-08-29

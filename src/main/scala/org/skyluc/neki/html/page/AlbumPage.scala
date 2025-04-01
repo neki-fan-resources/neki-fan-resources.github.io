@@ -20,13 +20,18 @@ class AlbumPage(val album: Album, data: Data) extends Page(data) {
   override def altName(): Option[String] = album.altname
 
   override def mainContent(): List[BodyElement[?]] = {
+    val additionalSection = MultiMediaCard.generateSection(
+      SECTION_ADDITIONAL_TEXT,
+      CompiledData.getMultiMedia(album.multimedia.additional, data),
+    )
+
     List(
       ItemDetails.generate(CompiledData.getAlbum(album.id, data)),
       SectionHeader.generate(SECTION_SONGS),
       MediumCard.generateList(
         album.songs.map(CompiledData.getSong(_, data))
       ),
-    )
+    ) ::: additionalSection
   }
 
 }
@@ -36,4 +41,6 @@ object AlbumPage {
   val DESIGNATION = "Album"
 
   val SECTION_SONGS = "Songs"
+
+  val SECTION_ADDITIONAL_TEXT = "Additional"
 }

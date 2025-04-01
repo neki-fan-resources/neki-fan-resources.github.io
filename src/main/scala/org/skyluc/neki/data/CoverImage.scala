@@ -10,3 +10,7 @@ case class FileCoverImage(
 case class AlbumCoverImage(
     albumId: AlbumId
 ) extends CoverImage
+
+case class TourCoverImage(
+    tourId: TourId
+) extends CoverImage

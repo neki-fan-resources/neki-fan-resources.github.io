@@ -2,11 +2,19 @@ package org.skyluc.neki.data
 
 import java.nio.file.Path
 
-case class SongId(id: String) extends Id {
+case class SongId(id: String) extends Id[Song] {
   import Song._
   override val uid = ID_BASE + id
   override val upath = ID_BASE_UPATH + id + Id.PATH_SEPARATOR
   override def path = ID_BASE_PATH.resolve(id)
+
+  override def isKnown(sourceId: Id[?], data: Data): Option[DataError] = {
+    if (data.songs.contains(this)) {
+      None
+    } else {
+      Some(DataError(sourceId, s"Referenced song '$id' is not found"))
+    }
+  }
 }
 
 case class Song(

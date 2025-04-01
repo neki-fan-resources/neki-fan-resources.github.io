@@ -2,10 +2,11 @@ package org.skyluc.neki.data
 
 import java.nio.file.Path
 
-trait Id {
+trait Id[T] {
   val uid: String
   val upath: String
   def path: Path
+  def isKnown(sourceId: Id[?], data: Data): Option[DataError]
   override def toString(): String = uid
 }
 
@@ -19,12 +20,12 @@ trait WithErrorSupport[T] {
 }
 
 trait Item[T] extends WithErrorSupport[T] {
-  val id: Id
+  val id: Id[T]
   val error: Boolean
 }
 
 trait WithCoverImage[T] extends WithErrorSupport[T] {
-  val id: Id
+  val id: Id[T]
   val coverImage: CoverImage
 }
 

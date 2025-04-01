@@ -11,14 +11,25 @@ import scala.collection.immutable.HashMap
 
 case class Data(
     site: Site,
-    albums: Map[AlbumId, Album],
-    songs: Map[SongId, Song],
-    pages: Map[PageId, Page],
-    shows: Map[ShowId, Show],
-    tours: Map[TourId, Tour],
+    albums: Map[Id[Album], Album],
+    songs: Map[Id[Song], Song],
+    shows: Map[Id[Show], Show],
+    tours: Map[Id[Tour], Tour],
+    pages: Data.Pages,
 )
 
-case class DataError(id: Id, errorMessage: String, fatal: Boolean = true) extends SiteError {
+object Data {
+  case class Pages(
+      music: MusicPage,
+      shows: ShowsPage,
+  ) {
+    def contains(id: Id[?]): Boolean = {
+      music.id == id || shows.id == id
+    }
+  }
+}
+
+case class DataError(id: Id[?], errorMessage: String, fatal: Boolean = true) extends SiteError {
   override def toString(): String = s"$id: $errorMessage"
 }
 
@@ -26,33 +37,48 @@ object DataBuilder {
 
   case class TempData(
       site: Option[Site],
-      albums: Map[AlbumId, Album],
-      songs: Map[SongId, Song],
-      pages: Map[PageId, Page],
-      shows: Map[ShowId, Show],
-      tours: Map[TourId, Tour],
+      albums: Map[Id[Album], Album],
+      songs: Map[Id[Song], Song],
+      shows: Map[Id[Show], Show],
+      tours: Map[Id[Tour], Tour],
+      pages: TempPages,
   ) {
     def toData(): Data = {
       // TODO: missing site error support
-      Data(site.get, albums, songs, pages, shows, tours)
+      Data(site.get, albums, songs, shows, tours, pages.toPages())
+    }
+  }
+
+  case class TempPages(
+      music: Option[MusicPage],
+      shows: Option[ShowsPage],
+  ) {
+    def toPages(): Data.Pages = {
+      // TODO: missing data error support
+      Data.Pages(music.get, shows.get)
     }
   }
 
   def load(elements: List[Item[?]]): Step1 = {
-    val data = TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap())
+    val data = TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), TempPages(None, None))
+    // TODO: check if adding items with already existing id
     val res = elements.foldLeft(new WithErrors(data, Nil)) { (acc, item) =>
       item match {
         case a: Album =>
           acc.copy(t = acc.t.copy(albums = acc.t.albums + ((a.id, a))))
-        case p: Page =>
-          acc.copy(t = acc.t.copy(pages = acc.t.pages + ((p.id, p))))
+        case m: MusicPage =>
+          acc.copy(t = acc.t.copy(pages = acc.t.pages.copy(music = Some(m))))
         case s: Show =>
           acc.copy(t = acc.t.copy(shows = acc.t.shows + ((s.id, s))))
+        case s: ShowsPage =>
+          acc.copy(t = acc.t.copy(pages = acc.t.pages.copy(shows = Some(s))))
         case s: Site =>
           // TODO: check if already exists
           acc.copy(t = acc.t.copy(site = Some(s)))
         case s: Song =>
           acc.copy(t = acc.t.copy(songs = acc.t.songs + ((s.id, s))))
+        case t: Tour =>
+          acc.copy(t = acc.t.copy(tours = acc.t.tours + ((t.id, t))))
         case u =>
           acc.copy(es = acc.es :+ DataError(Site.ID, s"Unsupporting in data loading: $u"))
       }
@@ -68,8 +94,12 @@ object DataBuilder {
   class Step2(data: Data, errors: List[DataError]) {
     def checkReferences() = {
       val (songErrors, data2) = checkSongToAlbum(data)
-      val (albumErrors, data3) = checkAlbumtoSongs(data2)
-      new Step3(data3, errors ::: songErrors ::: albumErrors)
+      val (albumErrors, data3) = checkAlbumToSongs(data2)
+      val (tourErrors, data4) = checkTourToShows(data3)
+      val (showErrors, data5) = checkShowToTour(data4)
+      val (pageErrors, dataLast) = checkPageReferences(data5)
+
+      new Step3(dataLast, errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors ::: pageErrors)
     }
 
     def checkSongToAlbum(data: Data): (List[DataError], Data) = {
@@ -89,12 +119,12 @@ object DataBuilder {
         .getOrElse(WithError(song))
     }
 
-    def checkAlbumtoSongs(data: Data): (List[DataError], Data) = {
-      val res = data.albums.values.map(checkAlbumtoSongs(_, data)).toList
+    def checkAlbumToSongs(data: Data): (List[DataError], Data) = {
+      val res = data.albums.values.map(checkAlbumToSongs(_, data)).toList
       (res.flatMap(_.es), data.copy(albums = res.map(r => (r.t.id, r.t)).toMap))
     }
 
-    def checkAlbumtoSongs(album: Album, data: Data): WithErrors[Album] = {
+    def checkAlbumToSongs(album: Album, data: Data): WithErrors[Album] = {
       val errors = album.songs.flatMap { songId =>
         if (data.songs.contains(songId)) {
           None
@@ -104,6 +134,56 @@ object DataBuilder {
       }
       WithErrors(album, errors)
     }
+
+    def checkTourToShows(data: Data): (List[DataError], Data) = {
+      val res = data.tours.values.map(checkTourToShows(_, data)).toList
+      (res.flatMap(_.es), data.copy(tours = res.map(r => (r.t.id, r.t)).toMap))
+    }
+
+    def checkTourToShows(tour: Tour, data: Data): WithErrors[Tour] = {
+      val errors = tour.shows.flatMap { showId =>
+        if (data.shows.contains(showId)) {
+          None
+        } else {
+          Some(DataError(tour.id, s"Referenced show '${showId.year}/${showId.id}' is not found"))
+        }
+      }
+      WithErrors(tour, errors)
+    }
+
+    def checkShowToTour(data: Data): (List[DataError], Data) = {
+      val res = data.shows.values.map { show =>
+        checkAreKnown(show, show.tour, data)
+      }
+      (gatherErrors(res), data.copy(shows = gatherItems(res)))
+    }
+
+    def checkPageReferences(data: Data): (List[DataError], Data) = {
+      val resMusic = checkAreKnown(data.pages.music, data.pages.music.music, data)
+      val resShows = checkAreKnown(data.pages.shows, data.pages.shows.shows, data)
+
+      (
+        resMusic.es ::: resShows.es,
+        data.copy(pages =
+          data.pages.copy(
+            music = resMusic.t,
+            shows = resShows.t,
+          )
+        ),
+      )
+    }
+
+    def checkAreKnown[T <: Item[T]](item: T, list: Iterable[Id[?]], data: Data): WithErrors[T] = {
+      val errors = list.map(_.isKnown(item.id, data)).flatten
+      WithErrors(item, errors.toList)
+    }
+
+    def gatherErrors(list: Iterable[WithErrors[?]]): List[DataError] =
+      list.flatMap(_.es).toList
+
+    def gatherItems[T <: Item[T]](list: Iterable[WithErrors[T]]): Map[Id[T], T] =
+      list.map(r => (r.t.id, r.t)).toMap
+
   }
 
   class Step3(data: Data, errors: List[DataError]) {
@@ -111,17 +191,18 @@ object DataBuilder {
       val (songErrors, songs) = checkListCoverImage(data.songs.values, data)
       val (albumErrors, albums) = checkListCoverImage(data.albums.values, data)
       val (showErrors, shows) = checkListCoverImage(data.shows.values, data)
+      val (tourErrors, tours) = checkListCoverImage(data.tours.values, data)
 
       new Step4(
         Data(
           data.site,
           albums.map(e => (e.id, e)).toMap,
           songs.map(e => (e.id, e)).toMap,
-          data.pages,
           shows.map(e => (e.id, e)).toMap,
-          data.tours,
+          tours.map(e => (e.id, e)).toMap,
+          data.pages,
         ),
-        errors ::: songErrors ::: albumErrors ::: showErrors,
+        errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors,
       )
     }
 
@@ -144,6 +225,12 @@ object DataBuilder {
           } else {
             WithError(item, DataError(item.id, s"Reference not found for cover image: album '$albumId.id'"))
           }
+        case TourCoverImage(tourId) =>
+          if (data.tours.contains(tourId)) {
+            WithError(item)
+          } else {
+            WithError(item, DataError(item.id, s"Reference not found for cover image: tour '$tourId.id'"))
+          }
       }
     }
 
@@ -161,7 +248,7 @@ object DataBuilder {
       WithError(if (e.fatal) t.errored() else t, Some(e))
   }
 
-  case class WithErrors[T](t: T, es: List[DataError])
+  case class WithErrors[+T](t: T, es: List[DataError])
 
   object WithErrors {
     // def apply[T](t: T): WithError[T] = WithError(t, Nil)
@@ -170,7 +257,7 @@ object DataBuilder {
   }
 }
 
-object Data {
+object YamlFiles {
 
   def listAllFiles(dataFolder: Path): List[Path] = {
 

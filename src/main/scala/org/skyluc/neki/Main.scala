@@ -5,7 +5,7 @@ import org.skyluc.neki.yaml.Parser
 import java.io.FileReader
 import java.io.BufferedReader
 import java.nio.CharBuffer
-import org.skyluc.neki.data.Data
+import org.skyluc.neki.data.YamlFiles
 import org.skyluc.neki.data.DataBuilder
 import org.skyluc.neki.yaml.ToData
 import org.skyluc.neki.html.Pages
@@ -22,7 +22,7 @@ object Main {
     val dataFolder = Paths.get(DATA_PATH)
     val outputFolder = Paths.get(OUTPUT_PATH)
 
-    val dataFiles = Data.listAllFiles(dataFolder)
+    val dataFiles = YamlFiles.listAllFiles(dataFolder)
 
     val buffer = CharBuffer.allocate(10240)
 

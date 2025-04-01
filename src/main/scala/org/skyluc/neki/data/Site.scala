@@ -12,10 +12,12 @@ case class Site(
 }
 
 object Site {
-  val ID = new Id {
+  val ID = new Id[Site] {
     val uid = "site"
     val upath = "site/"
     val path = Path.of(uid)
+
+    def isKnown(sourceId: Id[?], data: Data) = None
   }
 }
 

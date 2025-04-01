@@ -31,6 +31,7 @@ object Parser {
       case "site"  => as[Site](node, filename)
       case "show"  => as[Show](node, filename)
       case "page"  => parsePage(node, filename)
+      case "tour"  => as[Tour](node, filename)
       case u =>
         Left(ParserError(filename, error = Some(s"Unknown type: '$u'")))
     }
@@ -81,5 +82,5 @@ case class ParserError(
 
 object ParserError {
   def apply(error: String): ParserError = ParserError("", Some(error))
-  def apply(id: Id, error: String): ParserError = ParserError(id.uid, Some(error))
+  def apply(id: Id[?], error: String): ParserError = ParserError(id.uid, Some(error))
 }

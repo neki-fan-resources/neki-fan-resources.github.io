@@ -36,6 +36,7 @@ case class Credits(
 case class CoverImage(
     file: Option[File],
     album: Option[String],
+    tour: Option[String],
 ) derives YamlCodec
 
 case class File(
@@ -69,7 +70,9 @@ case class Show(
     id: String,
     fullname: String,
     shortname: Option[String],
+    sublabel: Option[String],
     date: String,
+    tour: Option[String],
     location: String,
     `event-page`: Option[String],
     setlistfm: Option[String],
@@ -92,6 +95,18 @@ case class ShowId(
     year: String,
     id: String,
 ) derives YamlCodec
+
+case class Tour(
+    id: String,
+    fullname: String,
+    shortname: Option[String],
+    `first-date`: String,
+    `last-date`: String,
+    `event-page`: Option[String],
+    `cover-image`: CoverImage,
+    shows: List[ShowId],
+) extends Element
+    derives YamlCodec
 
 case class Navigation(
     main: List[NavigationItem],

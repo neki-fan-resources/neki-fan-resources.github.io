@@ -21,6 +21,8 @@ import org.skyluc.neki.data.{
   Song => dSong,
   SongId => dSongId,
   Source => dSource,
+  Tour => dTour,
+  TourCoverImage => dTourCoverImage,
   TourId => dTourId,
 }
 import scala.util.matching.Regex
@@ -45,6 +47,8 @@ object ToData {
           process(s)
         case s: Song =>
           process(s)
+        case t: Tour =>
+          process(t)
         case e =>
           Left(ParserError(s"Unsupported in ToData: $e"))
       }
@@ -70,7 +74,7 @@ object ToData {
     }
   }
 
-  def process(coverImage: CoverImage, id: dId): Either[ParserError, dCoverImage] = {
+  def process(coverImage: CoverImage, id: dId[?]): Either[ParserError, dCoverImage] = {
     val candidates: List[Either[ParserError, dCoverImage]] = List(
       coverImage.file.map { file =>
         for {
@@ -81,6 +85,9 @@ object ToData {
       },
       coverImage.album.map { album =>
         Right(dAlbumCoverImage(dAlbumId(album)))
+      },
+      coverImage.tour.map { tour =>
+        Right(dTourCoverImage(dTourId(tour)))
       },
     ).flatten
 
@@ -95,7 +102,7 @@ object ToData {
     }
   }
 
-  def processMusicId(musicId: MusicId, id: dId): Either[ParserError, dAlbumId | dSongId] = {
+  def processMusicId(musicId: MusicId, id: dId[?]): Either[ParserError, dAlbumId | dSongId] = {
     val candidates: List[dAlbumId | dSongId] = List(
       musicId.album.map(dAlbumId(_)),
       musicId.song.map(dSongId(_)),
@@ -113,7 +120,7 @@ object ToData {
   }
 
   def process(musicPage: MusicPage): Either[ParserError, dMusicPage] = {
-    val id = dPageId(musicPage.id)
+    val id = dPageId[dMusicPage](musicPage.id)
     for {
       musicIds <- throughList(musicPage.music, id)(processMusicId)
     } yield {
@@ -136,15 +143,31 @@ object ToData {
 
   def process(show: Show): Either[ParserError, dShow] = {
     val id = dShowId(show.year, show.id)
+    val tourId = show.tour.map(dTourId(_))
     for {
       date <- processDate(show.date, id)
       coverImage <- process(show.`cover-image`, id)
     } yield {
-      dShow(id, show.fullname, show.shortname, date, show.location, show.`event-page`, show.setlistfm, coverImage)
+      dShow(
+        id,
+        show.fullname,
+        show.shortname,
+        show.sublabel,
+        date,
+        tourId,
+        show.location,
+        show.`event-page`,
+        show.setlistfm,
+        coverImage,
+      )
     }
   }
 
-  def process(showId: ShowOrTourId, id: dId): Either[ParserError, dShowId | dTourId] = {
+  def process(showId: ShowId): dShowId = {
+    dShowId(showId.year, showId.id)
+  }
+
+  def process(showId: ShowOrTourId, id: dId[?]): Either[ParserError, dShowId | dTourId] = {
     val candidates: List[dShowId | dTourId] = List(
       showId.tour.map(dTourId(_)),
       showId.show.map { s =>
@@ -164,7 +187,7 @@ object ToData {
   }
 
   def process(showsPage: ShowsPage): Either[ParserError, dShowsPage] = {
-    val id = dPageId(showsPage.id)
+    val id = dPageId[dShowsPage](showsPage.id)
     for {
       showsIds <- throughList(showsPage.shows, id)(process)
     } yield {
@@ -195,7 +218,19 @@ object ToData {
     Right(dSource(source.description))
   }
 
-  def processDate(date: String, id: dId): Either[ParserError, dDate] = {
+  def process(tour: Tour): Either[ParserError, dTour] = {
+    val id = dTourId(tour.id)
+    val shows = tour.shows.map(process)
+    for {
+      firstDate <- processDate(tour.`first-date`, id)
+      lastDate <- processDate(tour.`last-date`, id)
+      coverImage <- process(tour.`cover-image`, id)
+    } yield {
+      dTour(id, tour.fullname, tour.shortname, firstDate, lastDate, tour.`event-page`, coverImage, shows)
+    }
+  }
+
+  def processDate(date: String, id: dId[?]): Either[ParserError, dDate] = {
     date match {
       case DATE_PATTERN(year, month, day) =>
         Right(dDate(year.toInt, month.toInt, day.toInt))
@@ -228,7 +263,7 @@ object ToData {
     loop(in, Nil)
   }
 
-  private def throughList[A, B, C](in: List[A], id: dId)(f: (A, dId) => Either[B, C]): Either[B, List[C]] = {
+  private def throughList[A, B, C](in: List[A], id: dId[?])(f: (A, dId[?]) => Either[B, C]): Either[B, List[C]] = {
     @tailrec def loop(in: List[A], acc: List[C]): Either[B, List[C]] = {
       in match {
         case head :: tail =>

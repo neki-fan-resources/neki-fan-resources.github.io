@@ -1,0 +1,22 @@
+type: show
+year: 2024
+id: 1stonemanlive
+
+fullname: 1ST ONE MAN LIVE
+date: 2024-07-20
+location: 下北沢 Shelter
+setlistfm: nek/2024/shelter-tokyo-japan-43561f6f
+
+cover-image: 
+  file:
+    filename: cover640.webp
+    source:
+      description: YouTube community post
+      url: https://www.youtube.com/post/UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+
+media:
+  short:
+  - show:
+      year: 2024
+      id: 1stonemanlive
+    youtubeshort: maze-01

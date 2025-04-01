@@ -1,0 +1,23 @@
+type: show
+year: 2025
+id: 1stzepponeman
+
+fullname: 'NEK! 1ST ZEPP ONE MAN 【#拡散中 #ネキ界隈】'
+shortname: '1ST ZEPP ONE MAN'
+date: 2025-08-30
+location:  Zepp Shinjuku, Tokyo
+event-page: https://note.com/nekiband_jp/n/ne1cfc8d70c87
+
+cover-image:
+  file:
+    filename: cover640.png
+    source:
+      description: NEK! note post
+      url: https://note.com/nekiband_jp/n/ne1cfc8d70c87
+
+media:
+  short:
+  - show:
+      year: 2025
+      id:  1stzepponeman
+    youtubeshort: announcement-01

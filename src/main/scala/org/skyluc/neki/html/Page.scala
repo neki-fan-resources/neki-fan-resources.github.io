@@ -16,6 +16,8 @@ import page.MusicPage
 import org.skyluc.html.BodyElement
 import org.skyluc.neki.SiteError
 import org.skyluc.neki.html.page.ShowsPage
+import org.skyluc.neki.html.page.ShowPage
+import org.skyluc.neki.html.page.TourPage
 
 abstract class Page(val data: Data) {
 
@@ -36,23 +38,16 @@ abstract class Page(val data: Data) {
 object Pages {
 
   val HTML_EXTENSION = ".html"
+  val HTML_SEPARATOR = "/"
 
   def fromData(data: Data, errors: List[SiteError]): Iterable[Page] = {
-    val pages = data.pages.values.filterNot(_.error).map(pageDispatch(_, data))
     Iterable(ErrorPage(errors, data))
-      ++ pages
+      ++ { if (data.pages.music.error) None else Some(MusicPage(data.pages.music, data)) }
+      ++ { if (data.pages.shows.error) None else Some(ShowsPage(data.pages.shows, data)) }
       ++ data.albums.values.filterNot(_.error).map(AlbumPage(_, data))
       ++ data.songs.values.filterNot(_.error).map(SongPage(_, data))
-  }
-
-  private def pageDispatch(page: dPage, data: Data): Page = {
-    // TODO: check no page for data
-    page match {
-      case p: dMusicPage =>
-        MusicPage(p, data)
-      case p: dShowsPage =>
-        ShowsPage(p, data)
-    }
+      ++ data.shows.values.filterNot(_.error).map(ShowPage(_, data))
+      ++ data.tours.values.filterNot(_.error).map(TourPage(_, data))
   }
 
   def generate(pages: Iterable[Page], siteFolder: Path): Unit = {

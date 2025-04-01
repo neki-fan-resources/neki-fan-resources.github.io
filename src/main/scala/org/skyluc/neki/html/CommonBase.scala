@@ -54,7 +54,7 @@ object CommonBase {
     } else {
       Nil
     }
-  
+
   private def css(): List[HeadElement[?]] =
     List(
       link(REL_STYLESHEET, HREF_STYLESHEET)
@@ -63,28 +63,28 @@ object CommonBase {
   private def icons(): List[HeadElement[?]] =
     List(
       link(REL_ICON, HREF_FAVICON),
-      link(REL_ICON, HREF_PNG_512).withType(TYPE_PNG).withSizes(SIZES_512)
+      link(REL_ICON, HREF_PNG_512).withType(TYPE_PNG).withSizes(SIZES_512),
     )
 
   private def opengraph(page: Page): List[HeadElement[?]] = {
-      // TODO:
-      val title = page.shortTitle() + COMMON_TITLE
-      val descriptionAltName = page.altName().map(n => s" $n.").getOrElse(EMPTY)
-      val description = s"$title$COMMON_DESCRIPTION$descriptionAltName"
-      val canonicalUrl = Config.baseUrl + page.path().toString()
-      List(
-        link(REL_CANONICAL, canonicalUrl),
-        Html.title(title),
-        meta().withName(NAME_DESCRIPTION).withContent(description),
-        meta().withProperty(PROPERTY_OG_TITLE).withContent(title),
-        meta().withProperty(PROPERTY_OG_DESCRIPTION).withContent(description),
-        // TODO: og image
-        meta().withProperty(PROPERTY_OG_TYPE).withContent(CONTENT_OG_TYPE),
-        meta().withProperty(PROPERTY_OG_URL).withContent(canonicalUrl),
-        meta().withProperty(PROPERTY_OG_LOGO).withContent(CONTENT_OG_LOGO),
-        meta().withProperty(PROPERTY_OG_LOCALE).withContent(CONTENT_OG_LOCALE)
-      )
-    }
+    // TODO:
+    val title = page.shortTitle() + COMMON_TITLE
+    val descriptionAltName = page.altName().map(n => s" $n.").getOrElse(EMPTY)
+    val description = s"$title$COMMON_DESCRIPTION$descriptionAltName"
+    val canonicalUrl = Config.baseUrl + page.path().toString()
+    List(
+      link(REL_CANONICAL, canonicalUrl),
+      Html.title(title),
+      meta().withName(NAME_DESCRIPTION).withContent(description),
+      meta().withProperty(PROPERTY_OG_TITLE).withContent(title),
+      meta().withProperty(PROPERTY_OG_DESCRIPTION).withContent(description),
+      // TODO: og image
+      meta().withProperty(PROPERTY_OG_TYPE).withContent(CONTENT_OG_TYPE),
+      meta().withProperty(PROPERTY_OG_URL).withContent(canonicalUrl),
+      meta().withProperty(PROPERTY_OG_LOGO).withContent(CONTENT_OG_LOGO),
+      meta().withProperty(PROPERTY_OG_LOCALE).withContent(CONTENT_OG_LOCALE),
+    )
+  }
 
   private def statistics(): List[HeadElement[?]] =
     if (Config.isLocal) {
@@ -96,13 +96,16 @@ object CommonBase {
         script().withDataDomain(DATA_DOMAIN_NIFR).withSrc(SRC_PLAUSIBLE).withDefer(true)
       )
     }
-  
+
   private def body(page: Page): Body = {
-    Html.body().appendElements(
-      script().withSrc(SRC_JAVASCRIPT)
-    ).appendElements(
-      pageLayout(page)*
-    )
+    Html
+      .body()
+      .appendElements(
+        script().withSrc(SRC_JAVASCRIPT)
+      )
+      .appendElements(
+        pageLayout(page)*
+      )
   }
 
   private def pageLayout(page: Page): List[BodyElement[?]] = {
@@ -111,7 +114,8 @@ object CommonBase {
         .appendElements(navBar(page)*),
       div(PAGE_MAIN)
         .appendElements(
-          div().withId(MAIN_CONTENT)
+          div()
+            .withId(MAIN_CONTENT)
             .appendElements(h1().appendElement(text(page.shortTitle())))
             .appendElements(page.mainContent()*)
         ),
@@ -123,50 +127,71 @@ object CommonBase {
 
   private def navBar(page: Page): List[BodyElement[?]] = {
     List(
-      a().withHref(ROOT_PATH).withClass(CLASS_NAV_LOGO)
+      a()
+        .withHref(ROOT_PATH)
+        .withClass(CLASS_NAV_LOGO)
         .appendElements(
           img()
             .withClass(CLASS_NAV_LOGO_IMG)
-            .withSrc(NAV_LOGO_PATH).withAlt(NAV_LOGO_ALT)
+            .withSrc(NAV_LOGO_PATH)
+            .withAlt(NAV_LOGO_ALT)
         ),
       div(NAV_DIV).appendElements(
-        a().withClass(CLASS_NAV_SITE_TITLE).withHref(ROOT_PATH).appendElements(
-          text(NAV_TITLE_TEXT)
-        ),
+        a()
+          .withClass(CLASS_NAV_SITE_TITLE)
+          .withHref(ROOT_PATH)
+          .appendElements(
+            text(NAV_TITLE_TEXT)
+          ),
         // TODO: support to underline currently visited section
-        div().withClass(CLASS_NAV_MAIN_ITEMS).appendElements(
-          page.data.site.navigation.main.map{ item =>
-            a().withClass(CLASS_NAV_MAIN_ITEM).withHref(item.link).appendElements(
-              text(item.name)
-            )
-          }*
-        ),
-        div().withClass(CLASS_NAV_SUPPORT_ITEMS).appendElements(
-          page.data.site.navigation.support.map{ item =>
-            a().withClass(CLASS_NAV_SUPPORT_ITEM).withHref(item.link).appendElements(
-              text(item.name)
-            )
-          }*
-        ),
-      )
+        div()
+          .withClass(CLASS_NAV_MAIN_ITEMS)
+          .appendElements(
+            page.data.site.navigation.main.map { item =>
+              a()
+                .withClass(CLASS_NAV_MAIN_ITEM)
+                .withHref(item.link)
+                .appendElements(
+                  text(item.name)
+                )
+            }*
+          ),
+        div()
+          .withClass(CLASS_NAV_SUPPORT_ITEMS)
+          .appendElements(
+            page.data.site.navigation.support.map { item =>
+              a()
+                .withClass(CLASS_NAV_SUPPORT_ITEM)
+                .withHref(item.link)
+                .appendElements(
+                  text(item.name)
+                )
+            }*
+          ),
+      ),
     )
   }
 
   private def footer(page: Page): List[BodyElement[?]] = {
     List(
-      div().withClass(CLASS_FOOTER_CONTENT)
+      div()
+        .withClass(CLASS_FOOTER_CONTENT)
         .appendElements(
           text(FOOTER_TEXT_1)
         ),
-      div().withClass(CLASS_FOOTER_CONTENT)
+      div()
+        .withClass(CLASS_FOOTER_CONTENT)
         .appendElements(
           text(FOOTER_TEXT_2)
         ),
-      div().withClass(CLASS_FOOTER_CONTENT)
+      div()
+        .withClass(CLASS_FOOTER_CONTENT)
         .appendElements(
           text(FOOTER_TEXT_3)
         ),
-      a().withClass(CLASS_FOOTER_BOTTOM_RIGHT).withHref(ABOUT_PATH)
+      a()
+        .withClass(CLASS_FOOTER_BOTTOM_RIGHT)
+        .withHref(ABOUT_PATH)
         .appendElements(
           text(FOOTER_TEXT_4)
         ),
@@ -177,6 +202,8 @@ object CommonBase {
 
   val EMPTY = ""
   val SEPARATOR = " - "
+
+  val BLANK = "_blank"
 
   val CHARSET_UTF8 = "utf-8"
 
@@ -214,7 +241,8 @@ object CommonBase {
 
   // opengraph
   val COMMON_TITLE = " - NEK! - NEK! (NEKI) Fan Resources"
-  val COMMON_DESCRIPTION = ". NEK! (NEKI) fan website. Provides resources around the band NEK!. Lyrics, videos, live, concerts, history."
+  val COMMON_DESCRIPTION =
+    ". NEK! (NEKI) fan website. Provides resources around the band NEK!. Lyrics, videos, live, concerts, history."
 
   val REL_CANONICAL = "canonical"
   val NAME_DESCRIPTION = "description"
@@ -264,8 +292,10 @@ object CommonBase {
   val CLASS_FOOTER_BOTTOM_LEFT = "footer-bottom-left"
 
   val FOOTER_TEXT_1 = "This website is not associated with the band NEK! or their production team."
-  val FOOTER_TEXT_2 = "© Original content, website structure: SkyLuc. Lyrics, band resources, external resources: their respective owners."
-  val FOOTER_TEXT_3 = "We aim to provide information as accurate as possible. If you notice a problem, please contact us."
+  val FOOTER_TEXT_2 =
+    "© Original content, website structure: SkyLuc. Lyrics, band resources, external resources: their respective owners."
+  val FOOTER_TEXT_3 =
+    "We aim to provide information as accurate as possible. If you notice a problem, please contact us."
   val FOOTER_TEXT_4 = "questions and requests"
 
   // TODO: replaced with computed (once) values

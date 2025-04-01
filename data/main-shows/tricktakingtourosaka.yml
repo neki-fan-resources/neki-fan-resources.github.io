@@ -1,0 +1,32 @@
+type: show
+year: 2025
+id: tricktakingtourosaka
+
+fullname: 1stワンマンツアー 「TR!CK TAK!NG」
+shortname: '"TR!CK TAK!NG" TOUR'
+sublabel: Osaka
+date: 2025-03-08
+location:  アメリカ村DROP, Osaka
+setlistfm: nek/2025/drop-osaka-japan-135a6d39
+event-page: https://clubdrop.jp/schedule/detail/36775
+
+cover-image:
+  tour: tricktakingtour
+
+tour: tricktakingtour
+
+media:
+  short:
+  - show:
+      year: 2025
+      id: tricktakingtourosaka
+    youtubeshort: huddle-01
+  extra:
+  - show:
+      year: 2025
+      id: tricktakingtourosaka
+    youtubeshort: lunch-01
+  - show:
+      year: 2025
+      id: tricktakingtourosaka
+    youtubeshort: leaving-rehearsal-01

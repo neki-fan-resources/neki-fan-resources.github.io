@@ -21,7 +21,7 @@ class SongPage(val song: Song, data: Data) extends Page(data) {
 
   override def mainContent(): List[BodyElement[?]] = {
     List(
-      ItemDetails.generate(CompiledData.compileForSong(song.id, data))
+      ItemDetails.generate(CompiledData.getSong(song.id, data))
     )
   }
 

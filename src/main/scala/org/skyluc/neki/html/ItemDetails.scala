@@ -29,6 +29,14 @@ object ItemDetails {
     private def main(): Div = {
 
       val infoRows = data.info.map { info =>
+        val value: BodyElement[?] =
+          info.url
+            .map { u =>
+              a().withHref(u).withTarget(CommonBase.BLANK).appendElements(text(info.value))
+            }
+            .getOrElse(
+              text(info.value)
+            )
         tr().appendTds(
           td()
             .withClass(CLASS_ITEM_DETAILS_INFO_LABEL)
@@ -38,7 +46,7 @@ object ItemDetails {
           td()
             .withClass(CLASS_ITEM_DETAILS_INFO_VALUE)
             .appendElement(
-              text(info.value)
+              value
             ),
         )
       }
@@ -61,24 +69,30 @@ object ItemDetails {
           .getOrElse(Nil)
 
       val elements: List[BodyElement[?]] = List(
-        Some(div()
-          .withClass(CLASS_ITEM_DETAILS_DESIGNATION)
-          .appendElements(
-            text(data.designation)
-          )),
-        Some(div()
-          .withClass(CLASS_ITEM_DETAILS_LABELS)
-          .appendElements(labels*)),
+        Some(
+          div()
+            .withClass(CLASS_ITEM_DETAILS_DESIGNATION)
+            .appendElements(
+              text(data.designation)
+            )
+        ),
+        Some(
+          div()
+            .withClass(CLASS_ITEM_DETAILS_LABELS)
+            .appendElements(labels*)
+        ),
         data.parent.map(LineCard.generate(_)),
-        Some(div()
-          .withClass(CLASS_ITEM_DETAILS_INFO)
-          .appendElements(
-            table().appendTbody(
-              tbody().appendTrs(
-                infoRows*
+        Some(
+          div()
+            .withClass(CLASS_ITEM_DETAILS_INFO)
+            .appendElements(
+              table().appendTbody(
+                tbody().appendTrs(
+                  infoRows*
+                )
               )
             )
-          )),
+        ),
       ).flatten
 
       div()

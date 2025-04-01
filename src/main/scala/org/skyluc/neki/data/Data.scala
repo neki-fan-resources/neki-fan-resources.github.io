@@ -103,59 +103,31 @@ object DataBuilder {
     }
 
     def checkSongToAlbum(data: Data): (List[DataError], Data) = {
-      val res = data.songs.values.map(checkSongToAlbum(_, data)).toList
-      (res.flatMap(_.e), data.copy(songs = res.map(r => (r.t.id, r.t)).toMap))
-    }
-
-    def checkSongToAlbum(song: Song, data: Data): WithError[Song] = {
-      song.album
-        .map { albumId =>
-          if (data.albums.contains(albumId)) {
-            WithError(song)
-          } else {
-            WithError(song, DataError(song.id, s"Referenced album '${albumId.id}' is not found"))
-          }
-        }
-        .getOrElse(WithError(song))
+      val res = data.songs.values.map { song =>
+        checkAreKnown(song, song.album, data)
+      }
+      gatherResult(res, data)((m, data) => data.copy(songs = m))
     }
 
     def checkAlbumToSongs(data: Data): (List[DataError], Data) = {
-      val res = data.albums.values.map(checkAlbumToSongs(_, data)).toList
-      (res.flatMap(_.es), data.copy(albums = res.map(r => (r.t.id, r.t)).toMap))
-    }
-
-    def checkAlbumToSongs(album: Album, data: Data): WithErrors[Album] = {
-      val errors = album.songs.flatMap { songId =>
-        if (data.songs.contains(songId)) {
-          None
-        } else {
-          Some(DataError(album.id, s"Referenced song '${songId.id}' is not found"))
-        }
+      val res = data.albums.values.map { album =>
+        checkAreKnown(album, album.songs, data)
       }
-      WithErrors(album, errors)
+      gatherResult(res, data)((m, data) => data.copy(albums = m))
     }
 
     def checkTourToShows(data: Data): (List[DataError], Data) = {
-      val res = data.tours.values.map(checkTourToShows(_, data)).toList
-      (res.flatMap(_.es), data.copy(tours = res.map(r => (r.t.id, r.t)).toMap))
-    }
-
-    def checkTourToShows(tour: Tour, data: Data): WithErrors[Tour] = {
-      val errors = tour.shows.flatMap { showId =>
-        if (data.shows.contains(showId)) {
-          None
-        } else {
-          Some(DataError(tour.id, s"Referenced show '${showId.year}/${showId.id}' is not found"))
-        }
+      val res = data.tours.values.map { tour =>
+        checkAreKnown(tour, tour.shows, data)
       }
-      WithErrors(tour, errors)
+      gatherResult(res, data)((m, data) => data.copy(tours = m))
     }
 
     def checkShowToTour(data: Data): (List[DataError], Data) = {
       val res = data.shows.values.map { show =>
         checkAreKnown(show, show.tour, data)
       }
-      (gatherErrors(res), data.copy(shows = gatherItems(res)))
+      gatherResult(res, data)((m, data) => data.copy(shows = m))
     }
 
     def checkPageReferences(data: Data): (List[DataError], Data) = {
@@ -173,16 +145,18 @@ object DataBuilder {
       )
     }
 
-    def checkAreKnown[T <: Item[T]](item: T, list: Iterable[Id[?]], data: Data): WithErrors[T] = {
+    private def checkAreKnown[T <: Item[T]](item: T, list: Iterable[Id[?]], data: Data): WithErrors[T] = {
       val errors = list.map(_.isKnown(item.id, data)).flatten
       WithErrors(item, errors.toList)
     }
 
-    def gatherErrors(list: Iterable[WithErrors[?]]): List[DataError] =
-      list.flatMap(_.es).toList
-
-    def gatherItems[T <: Item[T]](list: Iterable[WithErrors[T]]): Map[Id[T], T] =
-      list.map(r => (r.t.id, r.t)).toMap
+    private def gatherResult[T <: Item[T]](list: Iterable[WithErrors[T]], data: Data)(
+        f: (Map[Id[T], T], Data) => Data
+    ): (List[DataError], Data) = {
+      val errors = list.flatMap(_.es).toList
+      val map = list.map(r => (r.t.id, r.t)).toMap
+      (errors, f(map, data))
+    }
 
   }
 

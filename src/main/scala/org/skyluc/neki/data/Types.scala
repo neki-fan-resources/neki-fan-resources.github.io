@@ -53,6 +53,23 @@ case class Date(year: Int, month: Int, day: Int) {
 }
 
 object Date {
+  
+ given  Ordering[Date] {
+    override def compare(x: Date, y: Date): Int = {
+      val yearDiff = x.year - y.year
+      if (yearDiff != 0) {
+        yearDiff
+      } else {
+        val monthDiff = x.month - y.month
+        if (monthDiff != 0) {
+          monthDiff
+        } else {
+          x.day - y.day
+        }
+      }
+    }
+  }
+
   final val SEPARATOR = '-'
   final val ZERO = '0'
 }

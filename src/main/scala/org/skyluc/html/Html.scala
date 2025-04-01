@@ -158,7 +158,7 @@ trait H1 extends BodyElement[H1] {
 
 trait H2 extends BodyElement[H2] {
   val elements: List[BodyElement[?]]
-  def appendElement(e: BodyElement[?]): H2
+  def appendElements(e: BodyElement[?]*): H2
 }
 
 trait Img extends BodyElement[Img] {
@@ -411,8 +411,8 @@ object HtmlImpl {
     override protected def copyWithAttributes(a: HtmlTagAttributes): H2Int =
       copy(attributes = a)
 
-    override def appendElement(e: BodyElement[?]): H2Int =
-      copy(elements = elements :+ e)
+    override def appendElements(e: BodyElement[?]*): H2Int =
+      copy(elements = elements ::: e.toList)
 
     override def accept(v: Visitor): Unit = v.visit(this)
   }

@@ -5,7 +5,11 @@ import Html._
 
 object SectionHeader {
   def generate(title: String): H2 = {
-    h2().appendElement(text(title))
+    h2().appendElements(text(title))
+  }
+
+  def generate(content: BodyElement[?]*): H2 = {
+    h2().appendElements(content*)
   }
 }
 

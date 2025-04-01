@@ -4,7 +4,9 @@ import java.nio.file.Path
 
 trait MultiMediaId extends Id[MultiMedia]
 
-trait MultiMedia extends Item[MultiMedia]
+trait MultiMedia extends Item[MultiMedia] {
+  val publishedDate: Date
+}
 
 case class YouTubeVideoId(
     id: String

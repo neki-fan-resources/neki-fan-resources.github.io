@@ -18,7 +18,9 @@ import org.skyluc.neki.SiteError
 import org.skyluc.neki.html.page.ShowsPage
 import org.skyluc.neki.html.page.ShowPage
 import org.skyluc.neki.html.page.TourPage
+import org.skyluc.neki.html.page.LivePage
 
+// TODO: remove the data field ??
 abstract class Page(val data: Data) {
 
   def path(): Path
@@ -41,7 +43,7 @@ object Pages {
   val HTML_SEPARATOR = "/"
 
   def fromData(data: Data, errors: List[SiteError]): Iterable[Page] = {
-    Iterable(ErrorPage(errors, data))
+    Iterable(ErrorPage(errors, data), LivePage(data))
       ++ { if (data.pages.music.error) None else Some(MusicPage(data.pages.music, data)) }
       ++ { if (data.pages.shows.error) None else Some(ShowsPage(data.pages.shows, data)) }
       ++ data.albums.values.filterNot(_.error).map(AlbumPage(_, data))

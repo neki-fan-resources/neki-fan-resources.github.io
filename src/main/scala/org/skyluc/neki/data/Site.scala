@@ -4,6 +4,7 @@ import java.nio.file.Path
 
 case class Site(
     navigation: Navigation,
+    band: Band,
     error: Boolean = false,
 ) extends Item[Site] {
   val id = Site.ID
@@ -22,6 +23,27 @@ object Site {
   }
 }
 
+// -----------
+
+case class Band(
+    member: Members,
+    socialMedia: SocialMedia,
+)
+
+case class Member(
+    id: String,
+    name: String,
+    role: String,
+    socialMedia: SocialMedia,
+)
+
+case class Members(
+    cocoro: Member,
+    hika: Member,
+    kanade: Member,
+    natsu: Member,
+)
+
 case class Navigation(
     main: List[NavigationItem],
     support: List[NavigationItem],
@@ -30,4 +52,11 @@ case class Navigation(
 case class NavigationItem(
     name: String,
     link: String,
+)
+
+case class SocialMedia(
+    instagram: Option[String],
+    tiktok: Option[String],
+    youtube: Option[String],
+    x: Option[String],
 )

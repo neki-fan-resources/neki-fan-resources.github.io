@@ -2,7 +2,7 @@ package org.skyluc.neki.data
 
 import java.nio.file.Path
 
-case class PageId[T](id: String) extends Id[T] {
+case class PageId(id: String) extends Id[Page] {
   import Pages._
   override val uid = ID_BASE + id
   override val upath = ID_BASE_UPATH + id + Id.PATH_SEPARATOR
@@ -17,26 +17,26 @@ case class PageId[T](id: String) extends Id[T] {
   }
 }
 
-trait Page[T] extends Item[T] {
-  val id: Id[T]
+trait Page extends Item[Page] {
+  val id: Id[Page]
   val error: Boolean
 }
 
 case class MusicPage(
-    id: PageId[MusicPage],
+    id: PageId,
     music: List[AlbumId | SongId],
     error: Boolean = false,
-) extends Page[MusicPage] {
+) extends Page {
   override def errored(): MusicPage = copy(error = true)
   override def withRelatedTo(id: Id[?]): MusicPage = ???
 
 }
 
 case class ShowsPage(
-    id: PageId[ShowsPage],
+    id: PageId,
     shows: List[ShowId | TourId],
     error: Boolean = false,
-) extends Page[ShowsPage] {
+) extends Page {
   override def errored(): ShowsPage = copy(error = true)
   override def withRelatedTo(id: Id[?]): ShowsPage = ???
 }

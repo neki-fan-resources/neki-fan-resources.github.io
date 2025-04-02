@@ -15,8 +15,8 @@ case class Data(
     songs: Map[Id[Song], Song],
     shows: Map[Id[Show], Show],
     tours: Map[Id[Tour], Tour],
+    pages: Map[Id[Page], Page],
     multimedia: Map[Id[MultiMedia], MultiMedia],
-    pages: Data.Pages,
 )
 
 object Data {
@@ -42,27 +42,18 @@ object DataBuilder {
       songs: Map[Id[Song], Song],
       shows: Map[Id[Show], Show],
       tours: Map[Id[Tour], Tour],
+      pages: Map[Id[Page], Page],
       multimedia: Map[Id[MultiMedia], MultiMedia],
-      pages: TempPages,
   ) {
     def toData(): Data = {
       // TODO: missing site error support
-      Data(site.get, albums, songs, shows, tours, multimedia, pages.toPages())
-    }
-  }
-
-  case class TempPages(
-      music: Option[MusicPage],
-      shows: Option[ShowsPage],
-  ) {
-    def toPages(): Data.Pages = {
-      // TODO: missing data error support
-      Data.Pages(music.get, shows.get)
+      Data(site.get, albums, songs, shows, tours, pages, multimedia)
     }
   }
 
   def load(elements: List[Item[?]]): Step1 = {
-    val data = TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), TempPages(None, None))
+    val data =
+      TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap())
     // TODO: check if adding items with already existing id
     val res = elements.foldLeft(new WithErrors(data, Nil)) { (acc, item) =>
       item match {
@@ -71,11 +62,11 @@ object DataBuilder {
         case m: MultiMedia =>
           acc.copy(t = acc.t.copy(multimedia = acc.t.multimedia + ((m.id, m))))
         case m: MusicPage =>
-          acc.copy(t = acc.t.copy(pages = acc.t.pages.copy(music = Some(m))))
+          acc.copy(t = acc.t.copy(pages = acc.t.pages + ((m.id, m))))
         case s: Show =>
           acc.copy(t = acc.t.copy(shows = acc.t.shows + ((s.id, s))))
         case s: ShowsPage =>
-          acc.copy(t = acc.t.copy(pages = acc.t.pages.copy(shows = Some(s))))
+          acc.copy(t = acc.t.copy(pages = acc.t.pages + ((s.id, s))))
         case s: Site =>
           // TODO: check if already exists
           acc.copy(t = acc.t.copy(site = Some(s)))
@@ -139,18 +130,14 @@ object DataBuilder {
     }
 
     def checkPageReferences(data: Data): (List[DataError], Data) = {
-      val resMusic = checkAreKnown(data.pages.music, data.pages.music.music, data)
-      val resShows = checkAreKnown(data.pages.shows, data.pages.shows.shows, data)
+      val res = data.pages.values.map {
+        case m: MusicPage =>
+          checkAreKnown(m, m.music, data)
+        case s: ShowsPage =>
+          checkAreKnown(s, s.shows, data)
+      }
 
-      (
-        resMusic.es ::: resShows.es,
-        data.copy(pages =
-          data.pages.copy(
-            music = resMusic.t,
-            shows = resShows.t,
-          )
-        ),
-      )
+      gatherResult(res, data)((m, data) => data.copy(pages = m))
     }
 
     private def checkAreKnown[T <: Item[T]](item: T, list: Iterable[Id[?]], data: Data): WithErrors[T] = {
@@ -182,8 +169,8 @@ object DataBuilder {
           songs.map(e => (e.id, e)).toMap,
           shows.map(e => (e.id, e)).toMap,
           tours.map(e => (e.id, e)).toMap,
-          data.multimedia,
           data.pages,
+          data.multimedia,
         ),
         errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors,
       )

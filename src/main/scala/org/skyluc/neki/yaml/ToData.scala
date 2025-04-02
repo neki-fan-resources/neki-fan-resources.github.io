@@ -4,12 +4,15 @@ import org.skyluc.neki.data.{
   Album => dAlbum,
   AlbumCoverImage => dAlbumCoverImage,
   AlbumId => dAlbumId,
+  Band => dBand,
   CoverImage => dCoverImage,
   Credits => dCredits,
   Date => dDate,
   FileCoverImage => dFileCoverImage,
   Id => dId,
   Item => dItem,
+  Member => dMember,
+  Members => dMembers,
   MultiMedia => dMultiMedia,
   MultiMediaId => dMultiMediaId,
   MultiMediaBlock => dMultiMediaBlock,
@@ -21,6 +24,7 @@ import org.skyluc.neki.data.{
   ShowId => dShowId,
   ShowsPage => dShowsPage,
   Site => dSite,
+  SocialMedia => dSocialMedia,
   Song => dSong,
   SongId => dSongId,
   Source => dSource,
@@ -117,6 +121,13 @@ object ToData {
     }
   }
 
+  def process(band: Band): dBand = {
+    dBand(
+      process(band.member),
+      process(band.`social-media`),
+    )
+  }
+
   def process(credits: Credits): Either[ParserError, dCredits] = {
     for {
       source <- boxEitherOption(credits.source.map(process(_)))
@@ -151,6 +162,24 @@ object ToData {
       case _ =>
         Left(ParserError(id, "Too many cover image references specified"))
     }
+  }
+
+  def process(member: Member): dMember = {
+    dMember(
+      member.id,
+      member.name,
+      member.role,
+      process(member.`social-media`),
+    )
+  }
+
+  def process(member: Members): dMembers = {
+    dMembers(
+      process(member.cocoro),
+      process(member.hika),
+      process(member.kanade),
+      process(member.natsu),
+    )
   }
 
   def process(multimedia: MultiMedia, id: dId[?]): Either[ParserError, dMultiMediaBlock] = {
@@ -201,7 +230,7 @@ object ToData {
   }
 
   def process(musicPage: MusicPage): Either[ParserError, dMusicPage] = {
-    val id = dPageId[dMusicPage](musicPage.id)
+    val id = dPageId(musicPage.id)
     for {
       musicIds <- throughList(musicPage.music, id)(processMusicId)
     } yield {
@@ -270,7 +299,7 @@ object ToData {
   }
 
   def process(showsPage: ShowsPage): Either[ParserError, dShowsPage] = {
-    val id = dPageId[dShowsPage](showsPage.id)
+    val id = dPageId(showsPage.id)
     for {
       showsIds <- throughList(showsPage.shows, id)(process)
     } yield {
@@ -279,11 +308,21 @@ object ToData {
   }
 
   def process(site: Site): Either[ParserError, dSite] = {
+    val band = process(site.band)
     for {
       navigation <- process(site.navigation)
     } yield {
-      dSite(navigation)
+      dSite(navigation, band)
     }
+  }
+
+  def process(socialMedia: SocialMedia): dSocialMedia = {
+    dSocialMedia(
+      socialMedia.instagram,
+      socialMedia.tiktok,
+      socialMedia.youtube,
+      socialMedia.x,
+    )
   }
 
   def process(song: Song): Either[ParserError, dSong] = {

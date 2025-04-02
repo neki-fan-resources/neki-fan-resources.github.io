@@ -1,5 +1,48 @@
 type: site
 
+band:
+  social-media:
+    x: nekiband_jp
+    youtube: neki_official
+    instagram: nekiband_jp
+    tiktok: nekiband_jp
+  member:
+    kanade:
+      id: kanade
+      name: Kanade
+      role: Bass
+      social-media:
+        instagram: cure_bass_baka
+        youtube: cure_bass_baka
+        x: cure_bass_baka
+
+    hika:
+      id: hika
+      name: Hika
+      role: Vocals, Guitar
+      social-media:
+        instagram: 46_hikaa
+        tiktok: 46_hikaa
+        youtube: Hikaru-nj2jn
+        x: 46_hikaa
+
+    cocoro:
+      id: cocoro
+      name: Cocoro
+      role: Drums
+      social-media:
+        instagram: cocoro_drum
+        x: coco_102
+
+    natsu:
+      id: natsu
+      name: Natsu
+      role: Guitar
+      social-media:
+        instagram: natsu08_guitar
+        youtube: NATSU.guitar08
+        x: natsu08_guitar
+
 # TODO: use some PageId ?
 navigation:
   main:

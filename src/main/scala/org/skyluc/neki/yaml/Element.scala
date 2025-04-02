@@ -41,7 +41,8 @@ case class Source(
 ) derives YamlCodec
 
 case class Site(
-    navigation: Navigation
+    band: Band,
+    navigation: Navigation,
 ) extends Element
     derives YamlCodec
 
@@ -121,6 +122,25 @@ case class YouTubeVideo(
 
 // ---------
 
+case class Band(
+    member: Members,
+    `social-media`: SocialMedia,
+) derives YamlCodec
+
+case class Member(
+    id: String,
+    name: String,
+    role: String,
+    `social-media`: SocialMedia,
+) derives YamlCodec
+
+case class Members(
+    kanade: Member,
+    hika: Member,
+    cocoro: Member,
+    natsu: Member,
+) derives YamlCodec
+
 case class MultiMedia(
     video: Option[List[MultiMediaId]],
     live: Option[List[MultiMediaId]],
@@ -139,4 +159,11 @@ case class Navigation(
 case class NavigationItem(
     name: String,
     link: String,
+) derives YamlCodec
+
+case class SocialMedia(
+    instagram: Option[String],
+    tiktok: Option[String],
+    youtube: Option[String],
+    x: Option[String],
 ) derives YamlCodec

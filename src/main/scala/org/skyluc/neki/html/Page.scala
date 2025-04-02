@@ -41,6 +41,7 @@ object Pages {
 
   val HTML_EXTENSION = ".html"
   val HTML_SEPARATOR = "/"
+  val TEXT_PLACEHOLDER = "&nbsp;"
 
   def fromData(data: Data, errors: List[SiteError]): Iterable[Page] = {
     Iterable(ErrorPage(errors, data), LivePage(data))

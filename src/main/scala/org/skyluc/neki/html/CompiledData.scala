@@ -17,7 +17,26 @@ case class ItemCompiledData(
     coverUrl: String,
     coverAlt: String,
     info: List[ItemInfo],
+    missing: Boolean = false,
 )
+
+object ItemCompiledData {
+  def missing(id: Id[?]): ItemCompiledData = {
+    println(s"***** ERROR: '$id' not found.")
+    ItemCompiledData(
+      CommonBase.EMPTY,
+      Pages.TEXT_PLACEHOLDER,
+      id.toString(),
+      None,
+      None,
+      None,
+      CommonBase.EMPTY,
+      CommonBase.EMPTY,
+      Nil,
+      true,
+    )
+  }
+}
 
 case class ItemInfo(
     label: Option[String],
@@ -40,6 +59,20 @@ case class MultiMediaCompiledData(
     from: List[(String, String)],
     overlay: String,
 )
+
+object MultiMediaCompiledData {
+  def missing(id: Id[?]): MultiMediaCompiledData = {
+    println(s"***** ERROR: '$id' not found.")
+    MultiMediaCompiledData(
+      CommonBase.EMPTY,
+      CommonBase.EMPTY,
+      id.toString(),
+      None,
+      Nil,
+      CommonBase.EMPTY,
+    )
+  }
+}
 
 // ----------------
 
@@ -120,11 +153,14 @@ object CompiledData {
   }
 
   def compileForAlbum(id: AlbumId, data: Data): ItemCompiledData = {
-    val album = data.albums(id)
+    compileOrMissingItem(id, data.albums, data)(compileForAlbum)
+  }
+
+  def compileForAlbum(album: Album, data: Data): ItemCompiledData = {
     val info =
       List(ItemInfo(CompiledData.LABEL_RELEASED, album.releaseDate.toString()))
     ItemCompiledData(
-      Album.URL_BASE + id.id + Pages.HTML_EXTENSION,
+      Album.URL_BASE + album.id.id + Pages.HTML_EXTENSION,
       album.designation,
       album.fullname,
       None,
@@ -137,14 +173,19 @@ object CompiledData {
   }
 
   def compileForMultiMedia(id: MultiMediaId, data: Data): MultiMediaCompiledData = {
-    data.multimedia(id) match {
-      case y: YouTubeVideo =>
+    data.multimedia
+      .get(id)
+      .map { case y: YouTubeVideo =>
         compileForYouTubeVideo(y, data)
-    }
+      }
+      .getOrElse(MultiMediaCompiledData.missing(id))
   }
 
   def compileForShow(id: ShowId, data: Data): ItemCompiledData = {
-    val show = data.shows(id)
+    compileOrMissingItem(id, data.shows, data)(compileForShow)
+  }
+
+  def compileForShow(show: Show, data: Data): ItemCompiledData = {
     val info = List(
       Some(ItemInfo(CompiledData.LABEL_DATE, show.date.toString())),
       Some(ItemInfo(ShowPage.LABEL_VENUE, show.location)),
@@ -155,7 +196,7 @@ object CompiledData {
     ).flatten
 
     ItemCompiledData(
-      Show.URL_BASE + id.year + Pages.HTML_SEPARATOR + id.id + Pages.HTML_EXTENSION,
+      Show.URL_BASE + show.id.year + Pages.HTML_SEPARATOR + show.id.id + Pages.HTML_EXTENSION,
       ShowPage.DESIGNATION,
       show.fullname,
       show.sublabel,
@@ -168,7 +209,10 @@ object CompiledData {
   }
 
   def compileForSong(id: SongId, data: Data): ItemCompiledData = {
-    val song = data.songs(id)
+    compileOrMissingItem(id, data.songs, data)(compileForSong)
+  }
+
+  def compileForSong(song: Song, data: Data): ItemCompiledData = {
     val info =
       ItemInfo(CompiledData.LABEL_RELEASED, song.releaseDate.toString()) ::
         song.credits
@@ -181,7 +225,7 @@ object CompiledData {
           .getOrElse(Nil)
 
     ItemCompiledData(
-      Song.URL_BASE + id.id + Pages.HTML_EXTENSION,
+      Song.URL_BASE + song.id.id + Pages.HTML_EXTENSION,
       SongPage.DESIGNATION,
       song.fullname,
       song.fullnameEn,
@@ -194,14 +238,17 @@ object CompiledData {
   }
 
   def compileForTour(id: TourId, data: Data): ItemCompiledData = {
-    val tour = data.tours(id)
+    compileOrMissingItem(id, data.tours, data)(compileForTour)
+  }
+
+  def compileForTour(tour: Tour, data: Data): ItemCompiledData = {
     val info = List(
       Some(ItemInfo(TourPage.LABEL_DATES, tour.firstDate.toString + DATE_RANGE_SEPARATOR + tour.lastDate.toString())),
       tour.eventPage.map { e => ItemInfo(None, TourPage.VALUE_EVENT_PAGE, Some(e)) },
     ).flatten
 
     ItemCompiledData(
-      Tour.URL_BASE + id.id + Pages.HTML_EXTENSION,
+      Tour.URL_BASE + tour.id.id + Pages.HTML_EXTENSION,
       TourPage.DESIGNATION,
       tour.fullname,
       None,
@@ -222,6 +269,12 @@ object CompiledData {
       Nil, // TODO: add, accordingly to the content of relatedTo
       YouTubeVideo.OVERLAY_FILE,
     )
+  }
+
+  def compileOrMissingItem[T](id: Id[T], map: Map[Id[T], T], data: Data)(
+      compile: (T, Data) => ItemCompiledData
+  ): ItemCompiledData = {
+    map.get(id).map(compile(_, data)).getOrElse(ItemCompiledData.missing(id))
   }
 
   // ------------

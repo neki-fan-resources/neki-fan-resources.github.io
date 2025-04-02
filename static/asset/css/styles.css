@@ -609,6 +609,7 @@ footer {
 
 .multimedia-card-image-under {
   height: 12rem;
+  min-height: 12rem;
 }
 
 .multimedia-card-sublabel {
@@ -628,6 +629,10 @@ footer {
   font-size: 0.5rem;
   line-height: 0.5rem;
   font-weight: 600;
+}
+
+.multimedia-card-image-under {
+  background-color: var(--color-not-black);
 }
 
 /* testing */

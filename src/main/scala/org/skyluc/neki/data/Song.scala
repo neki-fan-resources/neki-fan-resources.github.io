@@ -41,4 +41,5 @@ object Song {
   val ID_BASE_PATH = Path.of("song")
 
   val URL_BASE = "/song/"
+  val FROM_KEY = "song"
 }

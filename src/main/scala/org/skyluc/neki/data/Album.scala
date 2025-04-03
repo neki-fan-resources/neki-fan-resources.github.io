@@ -42,4 +42,6 @@ object Album {
   val ID_BASE_PATH = Path.of("album")
 
   val URL_BASE = "/album/"
+
+  val FROM_KEY = "album"
 }

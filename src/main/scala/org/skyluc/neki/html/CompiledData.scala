@@ -18,6 +18,7 @@ case class ItemCompiledData(
     coverUrl: String,
     coverAlt: String,
     info: List[ItemInfo],
+    fromKey: String,
     missing: Boolean = false,
 )
 
@@ -35,6 +36,7 @@ object ItemCompiledData {
       CommonBase.EMPTY,
       CommonBase.EMPTY,
       Nil,
+      "undefined",
       true,
     )
   }
@@ -62,7 +64,7 @@ case class MultiMediaCompiledData(
     label: String,
     info: Option[String],
     date: Date,
-    from: List[(String, String)],
+    from: List[(String, ItemCompiledData)],
     overlay: String,
 )
 
@@ -91,6 +93,7 @@ trait MarkerCompiledData {
   def sublabel: Option[String]
   def image: Option[String]
   def imageAlt: Option[String]
+  def parent: Option[ItemCompiledData]
   def day: Int
   def left: Boolean
   def short: Boolean
@@ -117,6 +120,18 @@ object CompiledData {
 
   var cache: Map[Id[?], ItemCompiledData] = HashMap()
   var cache2: Map[Id[?], MultiMediaCompiledData] = HashMap()
+
+  def getItem(id: Id[?], data: Data): ItemCompiledData = {
+    // TODO: push cleanly in Id trait
+    id match {
+      case a: AlbumId => getAlbum(a, data)
+      case s: ShowId  => getShow(s, data)
+      case s: SongId  => getSong(s, data)
+      case t: TourId  => getTour(t, data)
+      case _ =>
+        ItemCompiledData.missing(id)
+    }
+  }
 
   def getAlbum(id: AlbumId, data: Data): ItemCompiledData = {
     cache.get(id) match {
@@ -195,6 +210,7 @@ object CompiledData {
       CoverImage.resolveUrl(album.coverImage, album, data),
       CoverImage.buildAlt(AlbumPage.DESIGNATION, album.fullname),
       info,
+      Album.FROM_KEY,
     )
   }
 
@@ -232,6 +248,7 @@ object CompiledData {
       CoverImage.resolveUrl(show.coverImage, show, data),
       CoverImage.buildAlt(ShowPage.DESIGNATION, show.fullname),
       info,
+      Show.FROM_KEY,
     )
   }
 
@@ -262,6 +279,7 @@ object CompiledData {
       CoverImage.resolveUrl(song.coverImage, song, data),
       CoverImage.buildAlt(SongPage.DESIGNATION, song.fullname),
       info,
+      Song.FROM_KEY,
     )
   }
 
@@ -286,6 +304,7 @@ object CompiledData {
       CoverImage.resolveUrl(tour.coverImage, tour, data),
       CoverImage.buildAlt(TourPage.DESIGNATION, tour.fullname),
       info,
+      Tour.FROM_KEY,
     )
   }
 
@@ -293,11 +312,15 @@ object CompiledData {
     MultiMediaCompiledData(
       youtubevideo.url(),
       youtubevideo.imageUrl(),
-      youtubevideo.label,
       "YouTube Video",
+      youtubevideo.label,
       None, // TODO: needed at some point ?
       youtubevideo.publishedDate,
-      Nil, // TODO: add, accordingly to the content of relatedTo
+      youtubevideo.relatedTo
+        .map { id =>
+          val item = getItem(id, data)
+          (item.fromKey, item)
+        },
       YouTubeVideo.OVERLAY_FILE,
     )
   }

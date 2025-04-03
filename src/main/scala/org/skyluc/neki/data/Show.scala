@@ -43,6 +43,8 @@ object Show {
   val ID_BASE_PATH = Path.of("show")
 
   val URL_BASE = "/show/"
+
+  val FROM_KEY = "show"
 }
 
 case class Tour(
@@ -83,4 +85,6 @@ object Tour {
   val ID_BASE_PATH = Path.of("tour")
 
   val URL_BASE = "/tour/"
+
+  val FROM_KEY = "tour"
 }

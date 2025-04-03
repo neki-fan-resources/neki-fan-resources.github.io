@@ -19,7 +19,7 @@ markers:
   # TODO: is that needed, or just implied from the context ?
   # rel-from: song
 - youtubevideo: maFSgVE2vXg
-  ref: song
+  parent-key: song
   up: 15
 - song: getover
   rel-media:

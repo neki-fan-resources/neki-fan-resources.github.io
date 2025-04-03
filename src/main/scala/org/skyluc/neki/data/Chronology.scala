@@ -36,6 +36,7 @@ object ChronologyMarker {
     val sublabel = compiledData.sublabel
     val image = Some(compiledData.coverUrl)
     val imageAlt = Some(compiledData.coverUrl)
+    val parent = compiledData.parent
   }
 }
 
@@ -64,6 +65,8 @@ object BaseMarker {
     val designation = None
     val sublabel = None
     val imageAlt = Some(label)
+
+    val parent = None
     val left = true
     val short = false
     val `class` = ChronologySvg.CLASS_BASE_MARKER
@@ -129,11 +132,13 @@ object SongMarker {
 
 case class MultiMediaMarker(
     multimedia: MultiMediaId,
+    parentKey: String,
     position: Position,
 ) extends ChronologyMarker {
   def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData = {
     val compiledData = CompiledData.getMultiMedia(multimedia, data)
-    MultiMediaMarkerCompiledData(multimedia, compiledData, compiledData.date.fromRefDay(refDay), position)
+    val parent = compiledData.from.find(_._1 == parentKey).map(_._2).get
+    MultiMediaMarkerCompiledData(multimedia, compiledData, compiledData.date.fromRefDay(refDay), parent, position)
   }
 }
 
@@ -142,15 +147,17 @@ object MultiMediaMarker {
       multimediaId: MultiMediaId,
       compiledData: MultiMediaCompiledData,
       day: Int,
+      parent_ : ItemCompiledData,
       position: Position,
   ) extends MarkerCompiledData
       with ChronologyMarker.PositionWrapper {
     val id = multimediaId.toString
     val designation = Some(compiledData.designation)
-    val label = "Parent name"
+    val label = parent_.label
     val sublabel = Some(compiledData.label)
     val image = Some(compiledData.imageUrl)
     val imageAlt = Some(compiledData.label + MultiMediaCard.MEDIA_IMAGE_ALT)
+    val parent = Some(parent_)
     val left = false
     val short = false
     val `class` = ChronologySvg.CLASS_MULTIMEDIA_MARKER

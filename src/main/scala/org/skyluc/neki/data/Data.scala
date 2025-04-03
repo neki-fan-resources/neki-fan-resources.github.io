@@ -209,6 +209,49 @@ object DataBuilder {
   }
 
   class Step4(data: Data, errors: List[DataError]) {
+    def expandRelatedTo(): Step5 = {
+      val updatedData =
+        List(expandRelatedToFromSongs, expandRelatedToFromAlbums, expandRelatedToFromShows)
+          .foldLeft(data)((acc, f) => f(acc))
+
+      Step5(updatedData, errors)
+    }
+
+    // TODO: generalize. When redoing Item type tree
+
+    def expandRelatedToFromSongs(data: Data): Data = {
+      data.songs.values.foldLeft(data) { (acc, song) => expandRelatedToFromSong(song, acc) }
+    }
+
+    def expandRelatedToFromSong(song: Song, data: Data): Data = {
+      val updatedMultimedias = song.multimedia.all().flatMap(data.multimedia.get).map(_.withRelatedTo(song.id))
+      data.copy(multimedia = data.multimedia ++ updatedMultimedias.map(m => (m.id, m)).toMap)
+    }
+
+    def expandRelatedToFromShows(data: Data): Data = {
+      data.shows.values.foldLeft(data) { (acc, show) => expandRelatedToFromShow(show, acc) }
+    }
+
+    def expandRelatedToFromShow(show: Show, data: Data): Data = {
+      val updatedMultimedias = show.multimedia.all().flatMap(data.multimedia.get).map(_.withRelatedTo(show.id))
+      data.copy(multimedia = data.multimedia ++ updatedMultimedias.map(m => (m.id, m)).toMap)
+    }
+
+    def expandRelatedToFromAlbums(data: Data): Data = {
+      data.albums.values.foldLeft(data) { (acc, album) => expandRelatedToFromAlbum(album, acc) }
+    }
+
+    def expandRelatedToFromAlbum(album: Album, data: Data): Data = {
+      val updatedMultimedias = album.multimedia.all().flatMap(data.multimedia.get).map(_.withRelatedTo(album.id))
+      data.copy(multimedia = data.multimedia ++ updatedMultimedias.map(m => (m.id, m)).toMap)
+    }
+  }
+
+  // class Step4(data: Data, errors: List[DataError]) {
+  //   def done = (errors, data)
+  // }
+
+  class Step5(data: Data, errors: List[DataError]) {
     def done = (errors, data)
   }
 

@@ -5,39 +5,41 @@ import Html._
 
 object MultiMediaCard {
 
-  def generateList(list: List[MultiMediaCompiledData]): Div = {
+  def generateList(list: List[MultiMediaCompiledData], fromFilter: String): Div = {
     div()
       .withClass(CLASS_MULTIMEDIA_CARD_LIST)
       .appendElements(
-        list.map(generate)*
+        list.map(generate(_, fromFilter))*
       )
   }
 
-  def generate(entry: MultiMediaCompiledData): Div = {
+  def generate(entry: MultiMediaCompiledData, fromFilter: String): Div = {
+    val infoParts =
+      List(
+        entry.from.filterNot(_._1 == fromFilter).map(_._2.label),
+        entry.info,
+      ).flatten
     val elements: List[BodyElement[?]] = List(
-      Some(div().withClass(CLASS_MULTIMEDIA_CARD_LABEL).appendElements(text(entry.label))),
-      Some(
-        a()
-          .withHref(entry.url)
-          .withTarget(A.TARGET_BLANK)
-          .appendElements(
-            div()
-              .withClass(CLASS_MULTIMEDIA_CARD_IMAGE)
-              .appendElements(
-                img()
-                  .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_OVER)
-                  .withSrc(BASE_OVERLAY_URL + entry.overlay)
-                  .withAlt(MEDIA_SERVICE_LOGO_ALT),
-                img()
-                  .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_UNDER)
-                  .withSrc(entry.imageUrl)
-                  .withAlt(entry.label + MEDIA_IMAGE_ALT),
-              )
-          )
-      ),
-      // Add the "from" data
-      entry.info.map(info => div().withClass(CLASS_MULTIMEDIA_CARD_SUBLABEL).appendElements(text(info))),
-    ).flatten
+      div().withClass(CLASS_MULTIMEDIA_CARD_LABEL).appendElements(text(entry.label)),
+      a()
+        .withHref(entry.url)
+        .withTarget(A.TARGET_BLANK)
+        .appendElements(
+          div()
+            .withClass(CLASS_MULTIMEDIA_CARD_IMAGE)
+            .appendElements(
+              img()
+                .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_OVER)
+                .withSrc(BASE_OVERLAY_URL + entry.overlay)
+                .withAlt(MEDIA_SERVICE_LOGO_ALT),
+              img()
+                .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_UNDER)
+                .withSrc(entry.imageUrl)
+                .withAlt(entry.label + MEDIA_IMAGE_ALT),
+            )
+        ),
+      div().withClass(CLASS_MULTIMEDIA_CARD_SUBLABEL).appendElements(text(infoParts.mkString(", "))),
+    )
     div()
       .withClass(CLASS_MULTIMEDIA_CARD)
       .appendElements(
@@ -45,13 +47,17 @@ object MultiMediaCard {
       )
   }
 
-  def generateSection(sectionText: String, list: List[MultiMediaCompiledData]): List[BodyElement[?]] = {
+  def generateSection(
+      sectionText: String,
+      list: List[MultiMediaCompiledData],
+      fromFilter: String,
+  ): List[BodyElement[?]] = {
     if (list.isEmpty) {
       Nil
     } else {
       List(
         SectionHeader.generate(sectionText),
-        MultiMediaCard.generateList(list),
+        MultiMediaCard.generateList(list, fromFilter),
       )
     }
   }

@@ -56,6 +56,7 @@ object Main {
         .crossReference()
         .checkReferences()
         .checkAssets()
+        .expandRelatedTo()
         .done
 
     println("DATA ERRORS: ")

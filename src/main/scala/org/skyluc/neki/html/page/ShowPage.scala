@@ -22,6 +22,7 @@ class ShowPage(val show: Show, data: Data) extends Page(data) {
     val videoSection: List[BodyElement[?]] = MultiMediaCard.generateSection(
       SECTION_VIDEO_TEXT,
       CompiledData.getMultiMedia(show.multimedia.video, data),
+      Show.FROM_KEY,
     )
 
     List(

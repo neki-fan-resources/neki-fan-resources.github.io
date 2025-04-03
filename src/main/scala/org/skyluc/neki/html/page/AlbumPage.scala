@@ -22,6 +22,7 @@ class AlbumPage(val album: Album, data: Data) extends Page(data) {
     val additionalSection = MultiMediaCard.generateSection(
       SECTION_ADDITIONAL_TEXT,
       CompiledData.getMultiMedia(album.multimedia.additional, data),
+      Album.FROM_KEY,
     )
 
     List(

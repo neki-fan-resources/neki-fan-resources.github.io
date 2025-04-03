@@ -142,6 +142,7 @@ case class ChronologyMarker(
     // youtubevideo
     youtubevideo: Option[String],
     // common
+    `parent-key`: Option[String],
     `related-multimedia`: Option[MultiMediaId],
     up: Int = 0,
     in: Int = 0,

@@ -27,12 +27,18 @@ case class YouTubeVideo(
     label: String,
     publishedDate: Date,
     error: Boolean = false,
-    relatedTo: List[Id[?]] = Nil,
+    relatedTo: List[Id[?]] = Nil, // TODO: using append, should not use List
 ) extends MultiMedia {
 
   import YouTubeVideo._
 
-  override def withRelatedTo(id: Id[?]): YouTubeVideo = copy(relatedTo = id :: relatedTo)
+  override def withRelatedTo(id: Id[?]): YouTubeVideo = {
+    if (relatedTo.contains(id)) {
+      this
+    } else {
+      copy(relatedTo = relatedTo :+ id)
+    }
+  }
 
   override def errored(): YouTubeVideo = copy(error = true)
 
@@ -57,7 +63,9 @@ case class MultiMediaBlock(
     video: List[MultiMediaId] = Nil,
     live: List[MultiMediaId] = Nil,
     additional: List[MultiMediaId] = Nil,
-)
+) {
+  def all(): List[MultiMediaId] = (video ::: live ::: additional).distinct
+}
 
 object MultiMediaBlock {
   val EMPTY = MultiMediaBlock()

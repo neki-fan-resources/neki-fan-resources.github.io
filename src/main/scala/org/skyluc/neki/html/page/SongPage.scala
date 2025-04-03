@@ -22,16 +22,19 @@ class SongPage(val song: Song, data: Data) extends Page(data) {
     val videoSection = MultiMediaCard.generateSection(
       SECTION_VIDEO_TEXT,
       CompiledData.getMultiMedia(song.multimedia.video, data),
+      Song.FROM_KEY,
     )
 
     val liveSection = MultiMediaCard.generateSection(
       SECTION_LIVE_TEXT,
       CompiledData.getMultiMedia(song.multimedia.live, data),
+      Song.FROM_KEY,
     )
 
     val additionalSection = MultiMediaCard.generateSection(
       SECTION_ADDITIONAL_TEXT,
       CompiledData.getMultiMedia(song.multimedia.additional, data),
+      Song.FROM_KEY,
     )
 
     List(

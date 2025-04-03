@@ -11,6 +11,7 @@ import org.skyluc.neki.html.LineCard
 import org.skyluc.neki.html.CompiledData
 import org.skyluc.neki.html.MultiMediaCard
 import org.skyluc.neki.data.Date
+import org.skyluc.neki.data.Song
 
 class LivePage(data: Data) extends Page(data) {
 
@@ -34,7 +35,7 @@ class LivePage(data: Data) extends Page(data) {
     val songSections: List[BodyElement[?]] = orderedWithLiveVideo.flatMap { song =>
       List(
         SectionHeader.generate(LineCard.generate(CompiledData.getSong(song.id, data))),
-        MultiMediaCard.generateList(CompiledData.getMultiMedia(song.multimedia.live, data)),
+        MultiMediaCard.generateList(CompiledData.getMultiMedia(song.multimedia.live, data), Song.FROM_KEY),
       )
     }.toList
 

@@ -68,7 +68,7 @@ object ToData {
     val linkedRelatedElements = mainElement match {
       case Right(item) =>
         relatedElements.map { re =>
-          re.copy(main = re.main.map(_.withRelatedTo(item.id)))
+          re.copy(main = re.main.map(_.withRelatedToGen(item.id)))
         }
       case _ =>
         relatedElements
@@ -76,7 +76,7 @@ object ToData {
 
     val mainElementWithRelated = mainElement.map { m =>
       relatedElements.foldLeft(m) { (main, result) =>
-        result.main.toOption.map(item => main.withRelatedTo(item.id)).getOrElse(main)
+        result.main.toOption.map(item => main.withRelatedToGen(item.id)).getOrElse(main)
       }
     }
 
@@ -165,7 +165,15 @@ object ToData {
           dSongMarker(dSongId(song), rm, position)
         }
       },
-      marker.youtubevideo.map(youtubevideo => Right(dMultiMediaMarker(dYouTubeVideoId(youtubevideo), position))),
+      marker.youtubevideo.map { youtubevideo =>
+        for {
+          parentKey <- marker.`parent-key`.toRight(
+            ParserError(id, s"No parent-key specified for youtubevideo marker '$youtubevideo'")
+          )
+        } yield {
+          dMultiMediaMarker(dYouTubeVideoId(youtubevideo), parentKey, position)
+        }
+      },
     ).flatten
 
     // check only one defined

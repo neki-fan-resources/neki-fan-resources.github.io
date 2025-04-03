@@ -4,11 +4,9 @@ import org.skyluc.html.Html
 import org.skyluc.html.Html._
 import org.skyluc.html.Head
 import org.skyluc.html.HeadElement
-import org.skyluc.html.HtmlTag
 import org.skyluc.neki.Config
 import org.skyluc.html.Body
 import org.skyluc.html.BodyElement
-import org.skyluc.html.Div
 
 object CommonBase {
 
@@ -120,7 +118,7 @@ object CommonBase {
             .appendElements(page.mainContent()*)
         ),
       div(PAGE_FOOTER)
-        .appendElements(footer(page)*),
+        .appendElements(footer()*),
       div().withId(MAIN_OVERLAY).withClass(CLASS_MAIN_OVERLAY_HIDDEN),
     )
   }
@@ -172,7 +170,7 @@ object CommonBase {
     )
   }
 
-  private def footer(page: Page): List[BodyElement[?]] = {
+  private def footer(): List[BodyElement[?]] = {
     List(
       div()
         .withClass(CLASS_FOOTER_CONTENT)

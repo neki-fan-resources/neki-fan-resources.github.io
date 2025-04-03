@@ -9,7 +9,6 @@ import java.nio.file.Path
 import org.skyluc.neki.html.Pages
 import org.skyluc.neki.data.Date
 import org.skyluc.neki.data.Date.DateTick
-import org.skyluc.neki.html.CompiledData
 import org.skyluc.neki.html.MarkerCompiledData
 
 class ChronologyPage(page: dChronologyPage, data: Data) extends Page(data) {

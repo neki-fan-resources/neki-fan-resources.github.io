@@ -2,11 +2,9 @@ package org.skyluc.neki.data
 
 import java.nio.file.Path
 import org.skyluc.neki.SiteError
-import java.nio.file.Paths
 import java.nio.file.Files
 
 import scala.jdk.CollectionConverters._
-import org.skyluc.neki.yaml.Element
 import scala.collection.immutable.HashMap
 
 case class Data(

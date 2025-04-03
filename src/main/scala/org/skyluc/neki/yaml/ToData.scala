@@ -17,7 +17,6 @@ import org.skyluc.neki.data.{
   Item => dItem,
   Member => dMember,
   Members => dMembers,
-  MultiMedia => dMultiMedia,
   MultiMediaId => dMultiMediaId,
   MultiMediaBlock => dMultiMediaBlock,
   MultiMediaMarker => dMultiMediaMarker,

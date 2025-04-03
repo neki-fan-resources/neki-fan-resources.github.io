@@ -4,7 +4,6 @@ import org.skyluc.neki.data.{CoverImage => dCoverImage}
 import org.skyluc.neki.data.Data
 import org.skyluc.neki.data.Item
 import org.skyluc.neki.data.FileCoverImage
-import org.skyluc.neki.data.Song
 import org.skyluc.neki.data.AlbumCoverImage
 import org.skyluc.neki.data.TourCoverImage
 

@@ -2,13 +2,9 @@ package org.skyluc.neki.html
 
 import org.skyluc.html.Html
 import java.nio.file.Path
-import org.skyluc.neki.data.{MusicPage => dMusicPage, Page => dPage, ShowsPage => dShowsPage, Data}
+import org.skyluc.neki.data.{Page => dPage, Data}
 import org.skyluc.html.HtmlRenderer
 import java.nio.file.Files
-import java.nio.file.SimpleFileVisitor
-import java.nio.file.attribute.BasicFileAttributes
-import java.nio.file.FileVisitResult
-import java.io.IOException
 import page.AlbumPage
 import page.SongPage
 import page.ErrorPage

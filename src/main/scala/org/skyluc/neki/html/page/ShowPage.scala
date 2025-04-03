@@ -1,7 +1,6 @@
 package org.skyluc.neki.html.page
 
 import java.nio.file.Path
-import org.skyluc.html.Html
 import org.skyluc.neki.data.Data
 import org.skyluc.neki.html._
 import org.skyluc.html.BodyElement

@@ -1,12 +1,11 @@
 package org.skyluc.neki.html
 
 import scala.collection.immutable.HashMap
-import org.skyluc.neki.data.{Pages as dPages, *}
+import org.skyluc.neki.data.{Pages => _, *}
 import org.skyluc.neki.html.page.AlbumPage
 import org.skyluc.neki.html.page.SongPage
 import org.skyluc.neki.html.page.ShowPage
 import org.skyluc.neki.html.page.TourPage
-import org.skyluc.neki.html.page.ChronologySvg
 
 case class ItemCompiledData(
     url: String,

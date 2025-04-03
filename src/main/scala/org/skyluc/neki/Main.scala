@@ -3,12 +3,10 @@ package org.skyluc.neki
 import java.nio.file.Paths
 import org.skyluc.neki.yaml.{Parser, ParserResult}
 import java.io.FileReader
-import java.io.BufferedReader
 import java.nio.CharBuffer
 import org.skyluc.neki.data.YamlFiles
 import org.skyluc.neki.data.DataBuilder
 import org.skyluc.neki.yaml.ToData
-import org.skyluc.neki.html.Pages
 import org.skyluc.neki.site.Site
 
 object Main {

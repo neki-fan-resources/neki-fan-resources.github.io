@@ -1,16 +1,9 @@
 package org.skyluc.neki.html
 
 import org.skyluc.html.Html._
-import org.skyluc.neki.data.Item
-import org.skyluc.neki.data.Data
 import org.skyluc.html._
 
 object ItemDetails {
-
-  private case class CompiledDetails(
-      label: String,
-      sublabel: Option[String],
-  )
 
   private class ItemDetails(data: ItemCompiledData) {
     def generate(): Div = {

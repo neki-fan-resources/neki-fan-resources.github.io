@@ -3,9 +3,7 @@ package org.skyluc.neki.yaml
 import org.virtuslab.yaml.StringOps
 import org.virtuslab.yaml.YamlError
 import org.virtuslab.yaml.Node
-import org.virtuslab.yaml.YamlCodec
 import org.virtuslab.yaml.YamlDecoder
-import org.virtuslab.yaml.LoadSettings
 import org.skyluc.neki.data.Id
 import org.skyluc.neki.SiteError
 import org.virtuslab.yaml.Node.MappingNode
@@ -49,7 +47,7 @@ object Parser {
     root match {
       case MappingNode(mappings, tag) =>
         mappings
-          .find { (k, v) =>
+          .find { (k, _) =>
             k match {
               case ScalarNode(value, tag) =>
                 value == "related"
@@ -57,7 +55,7 @@ object Parser {
                 false
             }
           }
-          .map { (k, v) =>
+          .map { (_, v) =>
             v match {
               case SequenceNode(nodes, tag) =>
                 nodes

@@ -6,12 +6,6 @@ import org.skyluc.html._
 import Html._
 import java.nio.file.Path
 import org.skyluc.neki.html.Pages
-import org.skyluc.neki.html.MainIntro
-import org.skyluc.neki.html.SectionHeader
-import org.skyluc.neki.html.LineCard
-import org.skyluc.neki.html.CompiledData
-import org.skyluc.neki.html.MultiMediaCard
-import org.skyluc.neki.data.Date
 import org.skyluc.neki.data.SocialMedia
 import org.skyluc.neki.html.CommonBase.BLANK
 import org.skyluc.neki.data.Member

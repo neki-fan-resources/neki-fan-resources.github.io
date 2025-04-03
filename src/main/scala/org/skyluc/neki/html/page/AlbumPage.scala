@@ -1,6 +1,5 @@
 package org.skyluc.neki.html.page
 
-import org.skyluc.html.Html
 import java.nio.file.Path
 import org.skyluc.neki.data.Album
 import org.skyluc.neki.data.Data

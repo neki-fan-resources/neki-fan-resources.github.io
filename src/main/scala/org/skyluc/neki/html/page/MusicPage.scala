@@ -4,7 +4,6 @@ import org.skyluc.neki.data.{MusicPage as dMusicPage, Data}
 import org.skyluc.neki.html.Page
 import org.skyluc.html.BodyElement
 import java.nio.file.Path
-import org.skyluc.html.Html._
 import org.skyluc.neki.html.Pages
 import org.skyluc.neki.data.AlbumId
 import org.skyluc.neki.data.SongId

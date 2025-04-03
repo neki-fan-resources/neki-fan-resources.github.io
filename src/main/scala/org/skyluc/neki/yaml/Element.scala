@@ -2,7 +2,6 @@ package org.skyluc.neki.yaml
 
 import org.virtuslab.yaml.YamlCodec
 import org.virtuslab.yaml.Node
-import org.skyluc.neki.data.MultiMedia
 
 trait Element
 

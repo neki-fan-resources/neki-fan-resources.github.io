@@ -6,8 +6,6 @@ import org.skyluc.html.BodyElement
 import java.nio.file.Path
 import org.skyluc.html.Html._
 import org.skyluc.neki.html.Pages
-import org.skyluc.neki.data.AlbumId
-import org.skyluc.neki.data.SongId
 import org.skyluc.collection.LayeredNode
 import org.skyluc.neki.html.CompiledData
 import org.skyluc.collection.LayeredData

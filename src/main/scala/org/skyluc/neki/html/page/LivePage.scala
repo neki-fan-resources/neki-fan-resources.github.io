@@ -3,7 +3,6 @@ package org.skyluc.neki.html.page
 import org.skyluc.neki.data.Data
 import org.skyluc.neki.html.Page
 import org.skyluc.html._
-import Html._
 import java.nio.file.Path
 import org.skyluc.neki.html.Pages
 import org.skyluc.neki.html.MainIntro

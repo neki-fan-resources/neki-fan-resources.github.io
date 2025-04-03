@@ -4,6 +4,7 @@ import org.skyluc.neki.data.{
   Album => dAlbum,
   AlbumCoverImage => dAlbumCoverImage,
   AlbumId => dAlbumId,
+  AlbumMarker => dAlbumMarker,
   Band => dBand,
   BaseMarker => dBaseMarker,
   Chronology => dChronology,
@@ -164,6 +165,10 @@ object ToData {
         relatedMultimedia.map { rm =>
           dSongMarker(dSongId(song), rm, position)
         }
+      },
+      marker.album.map { a =>
+        val albumId = dAlbumId(a)
+        Right(dAlbumMarker(albumId, position))
       },
       marker.youtubevideo.map { youtubevideo =>
         for {

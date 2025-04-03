@@ -17,15 +17,15 @@ case class ParserResult(
 
 object Parser {
 
-  def parse(yaml: String, filename: String): ParserResult = {
+  def parse(yaml: String, filename: String): Seq[ParserResult] = {
 
     val nodeRes = yaml.asNode.left.map(e => ParserError(filename, yamlError = Some(e)))
 
-    nodeRes match {
+    nodeRes.flatMap(nodeOrNodes(_, filename)) match {
       case Left(error) =>
-        ParserResult(Left(error), Nil)
-      case Right(node) =>
-        parse(node, filename)
+        List(ParserResult(Left(error), Nil))
+      case Right(nodes) =>
+        nodes.map(parse(_, filename))
     }
   }
 
@@ -41,6 +41,17 @@ object Parser {
       mainElement,
       relatedNodes(node).map(parse(_, filename)).toList,
     )
+  }
+
+  def nodeOrNodes(root: Node, filename: String): Either[ParserError, Seq[Node]] = {
+    root match {
+      case m: MappingNode =>
+        Right(List(m))
+      case SequenceNode(nodes) =>
+        Right(nodes._1)
+      case _ =>
+        Left(ParserError(filename, Some("Invalid yaml structure")))
+    }
   }
 
   def relatedNodes(root: Node): Seq[Node] = {

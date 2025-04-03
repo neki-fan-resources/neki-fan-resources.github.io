@@ -1,0 +1,436 @@
+- type: show
+  year: 2024
+  id: lupinus2024
+
+  fullname: LUPINUS ROCK FESTIVAL 2024
+  date: 2024-03-09
+  location: LIVE HOLIC, Tokyo
+  # generic URL to check periodically
+  event-page: https://famime.net/
+  setlistfm: nek/2024/liveholic-tokyo-japan-1b561db0
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: ファミメ！公式 X post
+        url: https://x.com/famime_rock/status/1766243435357561130
+
+- type: show
+  year: 2024
+  id: arealiberated
+
+  fullname: "Shibuya The Game presents: Area Liberated"
+  date: 2024-04-05
+  location: SHIBUYA THE GAME, Tokyo
+  setlistfm: nek/2024/the-game-tokyo-japan-3561dab
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: SHIBUYA THE GAME X post
+        url: https://x.com/SHIBUYATHEGAME/status/1776084527859061007
+
+- type: show
+  year: 2024
+  id: sweetsweetsweet
+
+  fullname: Sweet！Sweet！Sweet！
+  date: 2024-05-20
+  location: 下北沢SHELTER, Tokyo
+  setlistfm: nek/2024/shelter-tokyo-japan-2b561ca6
+  event-page: https://www.loft-prj.co.jp/schedule/shelter/282240
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: 下北沢SHELTER X post
+        url: https://x.com/shelter_1001/status/1790265744804216903
+
+- type: show
+  year: 2024
+  id: fypday1
+
+  fullname: '#FYP "For You Place" -DAY1-'
+  date: 2024-06-03
+  location: SHIBUYA THE GAME, Tokyo
+  setlistfm: nek/2024/the-game-tokyo-japan-33561c99
+  event-page: https://t.livepocket.jp/e/k6h5us
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: SHIBUYA THE GAME X post
+        url: https://x.com/SHIBUYATHEGAME/status/1797140895449673780
+
+- type: show
+  year: 2024
+  id: popoutvol11
+
+  fullname: ラストランプpresents.『POP OUT!!vol.11』
+  date: 2024-06-07
+  location: 六本木unravel tokyo
+  setlistfm: nek/2024/unravel-tokyo-tokyo-japan-23561c8b
+  event-page: https://tiget.net/events/314471
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: lastlamp_band X post
+        url: https://x.com/lastlamp_band/status/1780522894059299287
+
+- type: show
+  year: 2024
+  id: codeofzerox
+
+  fullname: CODE OF ZERO X 東名阪TOUR
+  date: 2024-06-15
+  location: 下北沢ReG, Tokyo
+  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b561c98
+  event-page: https://codeofzero.aremond.com/schedule/detail/index/112183
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: CODE OF ZERO Official X post
+        url: https://x.com/cozcoz_coz/status/1799743432564654547
+
+- type: show
+  year: 2024
+  id: beyondthesingularityvol6
+
+  fullname: Beyond The Singularity vol.6
+  date: 2024-06-24
+  location: The DOORS, Tokyo
+  setlistfm: nek/2024/the-doors-tokyo-japan-735602ad
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: NEK! X post
+        url: https://x.com/nekiband_jp/status/1798608606579007863
+
+- type: show
+  year: 2024
+  id: beyondthesingularityvol7
+
+  fullname: Beyond The Singularity vol.7
+  date: 2024-07-03
+  location: The DOORS, Tokyo
+  setlistfm: nek/2024/the-doors-tokyo-japan-6b57f6b2
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: NEK! X post
+        url: https://x.com/nekiband_jp/status/1798608606579007863
+
+- type: show
+  year: 2024
+  id: driveyoucrazyvol7
+
+  fullname: 彪presents 【Drive You Crazy vol.7】
+  date: 2024-07-15
+  location: 両国SUNRIZE, Tokyo
+  setlistfm: nek/2024/sunrize-tokyo-japan-53561f75
+  event-page: https://livehousesunrize.jp/events/20189
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: 彪 / AYA X post
+        url: https://x.com/Aya_Bas2/status/1784417275292143972
+
+- type: show
+  year: 2024
+  id: fypvol3
+
+  fullname: '#FYP『For You Place』vol.3'
+  date: 2024-08-02
+  location: SHIBUYA THE GAME, Tokyo
+  setlistfm: nek/2024/the-game-tokyo-japan-7357f6bd
+  event-page: https://t.livepocket.jp/e/dybqz
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: SHIBUYA THE GAME X post
+        url: https://x.com/SHIBUYATHEGAME/status/1819198572111577421
+
+- type: show
+  year: 2024
+  id: hapikorevol350
+
+  fullname: ハピコレ!! vol.530
+  date: 2024-08-08
+  location: 六本木unravel tokyo
+  setlistfm: nek/2024/unravel-tokyo-tokyo-japan-2b57d09e
+  event-page: https://tiget.net/events/328798
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: NEK! X post
+        url: https://x.com/nekiband_jp/status/1804448780873519192
+
+- type: show
+  year: 2024
+  id: daydreamer4night
+
+  fullname: 心斎橋VARON presents. Day Dreamer -4th night-
+  date: 2024-08-21
+  location: Shinsaibashi VARON, Osaka
+  setlistfm: nek/2024/varon-osaka-japan-2354e4b7
+  event-page: https://tiget.net/events/330531
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: 心斎橋 VARON X post
+        url: https://x.com/LIVEHOUSE_VARON/status/1825843541756752006
+
+- type: show
+  year: 2024
+  id: girlsgirlsgirls
+
+  fullname: Girls,Girls,Girls-アメリカ村DROP21th Anniversary 4MAN-
+  shortname: Girls,Girls,Girls-アメリカ村DROP21th Anniversary-
+  date: 2024-08-22
+  location: アメリカ村 DROP, Osaka
+  setlistfm: nek/2024/drop-osaka-japan-2354e4ab
+  event-page: https://tiget.net/events/330888
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: NEK! X post
+        url: https://x.com/nekiband_jp/status/1826512086530490829
+
+- type: show
+  year: 2024
+  id: soundsgoodvol73
+
+  fullname: Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-
+  shortname: Sounds good!! 73回目!!
+  date: 2024-08-23
+  location: アメリカ村 BEYOND, Osaka
+  setlistfm: nek/2024/beyond-osaka-japan-6357c6a3
+  event-page: https://t.livepocket.jp/e/soundsgood73
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: NEK! X post
+        url: https://x.com/nekiband_jp/status/1826867524035653715
+
+- type: show
+  year: 2024
+  id: wingedit
+
+  fullname: winged it
+  date: 2024-08-24
+  location: CLUB UPSET, Nagoya
+  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-4b561f7e
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: CLUB UPSET X post
+        url: https://x.com/clubupset/status/1827255587870273643
+
+- type: show
+  year: 2024
+  id: soundshocktokyo2024
+
+  fullname: BASS ON TOP ✕ ゼンミュー Presents SOUND SHOCK TOKYO2024
+  shortname: SOUND SHOCK TOKYO 2024
+  date: 2024-08-27
+  location: 下北沢ReG, Tokyo
+  setlistfm: nek/2024/shimokitazawa-reg-tokyo-japan-2355c8ab
+  event-page: https://prbassontop.com/sstokyo24_1/
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: NEK! X post
+        url: https://x.com/nekiband_jp/status/1795757514870665423
+
+- type: show
+  year: 2024
+  id: torarockfestival
+
+  fullname: ラストランプpresents.「トラROCK FESTIVAL」
+  date: 2024-08-31
+  location: 下北沢CLUB251
+  setlistfm: nek/2024/club-251-tokyo-japan-2b540036
+  event-page: https://t.livepocket.jp/e/torarockfes2024
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: トラROCK FESTIVAL X post
+        url: https://x.com/TOLAROCK_FES/status/1799063840925315512
+
+- type: show
+  year: 2024
+  id: ringringring
+
+  fullname: LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~
+  shortname: LIVEHOLIC ~Ring! Ring! Ring!~
+  date: 2024-09-08
+  location: 下北沢LIVEHOLIC, Tokyo
+  setlistfm: nek/2024/liveholic-tokyo-japan-2b54e4b2
+  event-page: https://liveholic.jp/schedule/2024/09/liveholic-9th-anniversaryseriesring-ring-ring.php
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: 下北沢LIVEHOLIC X post
+        url: https://x.com/liveholic_jp/status/1832614238424301660
+
+- type: show
+  year: 2024
+  id: fypvol5
+  uid: 2024_fypvol5
+
+  fullname: '#FYP "For You Place" vol.5'
+  date: 2024-09-19
+  location: SHIBUYA THE GAME, Tokyo
+  setlistfm: nek/2024/the-game-tokyo-japan-b52d1ba
+  event-page: https://t.livepocket.jp/e/3o_8u
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: SHIBUYA THE GAME X post
+        url: https://x.com/SHIBUYATHEGAME/status/1836637097840775291
+
+- type: show
+  year: 2024
+  id: minamiwheel2024
+
+  fullname: 'Eggs presents #FM802 35th Anniversary “Be FUNKY!!” MINAMI WHEEL 2024'
+  shortname: 'Eggs presents “Be FUNKY!!” MINAMI WHEEL 2024'
+  date: 2024-10-13
+  location: 心斎橋VARON, Osaka
+  setlistfm: nek/2024/varon-osaka-japan-1353d5b9
+  event-page: https://minamiwheel.jp/
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: FM802 MINAMI WHEEL X post
+        url: https://x.com/minamiwheel/status/1833792678414463036
+
+- type: show
+  year: 2024
+  id: ignition
+
+  fullname: 251 presents Ignition!!! ~ Special Two Man Show ~
+  date: 2024-11-06
+  location: 下北沢CLUB251, Tokyo
+  setlistfm: nek/2024/club-251-tokyo-japan-7353e6f9
+  event-page: https://club251.com/schedule/241106/
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: 下北沢CLUB251 X post
+        url: https://x.com/CLUB251official/status/1854050886647173628
+
+- type: show
+  year: 2024
+  id: sweetsweetsweet2
+
+  fullname: Sweet！Sweet！Sweet！
+  date: 2024-11-07
+  location: 下北沢SHELTER, Tokyo
+  setlistfm: nek/2024/shelter-tokyo-japan-7b53e6fc
+  event-page: https://www.loft-prj.co.jp/schedule/shelter/294411
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: 下北沢SHELTER X post
+        url: https://x.com/shelter_1001/status/1854440185460879405
+
+- type: show
+  year: 2024
+  id: digginsoundvol2
+
+  fullname: Diggin’ Sound Vol.2
+  date: 2024-11-27
+  location: 下北沢 近道, Tokyo
+  setlistfm: nek/2024/chikamichi-tokyo-japan-6b53e6ea
+  event-page: https://chikamichi-otemae.com/chikamichi/1953/
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: bazoo X post
+        url: https://x.com/bazoo_official/status/1856985434020061342
+
+- type: show
+  year: 2024
+  id: overfest2024
+
+  fullname: SNAZZY TUNES × over print presents over fest 2024
+  shortname: over fest 2024
+  date: 2024-11-30
+  location: 下北沢MOSAiC, Tokyo
+  event-page: https://tokytunes.com/topic-tunes-live-399/
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: SNAZZY TUNES 公式 X post
+        url: https://x.com/Snazzy_Tunes/status/1851932879170752613
+
+

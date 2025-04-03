@@ -21,9 +21,10 @@ object Main {
 
     val dataFiles = YamlFiles.listAllFiles(dataFolder)
 
-    val buffer = CharBuffer.allocate(10240)
+    // TODO: better fix than increasing this
+    val buffer = CharBuffer.allocate(20480)
 
-    val parserResults: List[ParserResult] = dataFiles.map { path =>
+    val parserResults: List[ParserResult] = dataFiles.flatMap { path =>
       buffer.clear()
 
       val lengthRead = new FileReader(path.toFile()).read(buffer)

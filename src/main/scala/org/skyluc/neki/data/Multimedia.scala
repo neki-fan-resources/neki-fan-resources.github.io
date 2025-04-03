@@ -18,7 +18,13 @@ case class YouTubeVideoId(
 
   override def path: Path = ID_BASE_PATH.resolve(id)
 
-  override def isKnown(sourceId: Id[?], data: Data): Option[DataError] = ???
+  override def isKnown(sourceId: Id[?], data: Data): Option[DataError] = {
+    if (data.multimedia.contains(this)) {
+      None
+    } else {
+      Some(DataError(sourceId, s"Referenced multimedia '$id' is not found"))
+    }
+  }
 
 }
 

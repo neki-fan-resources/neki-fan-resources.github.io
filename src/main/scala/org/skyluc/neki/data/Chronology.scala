@@ -14,10 +14,13 @@ case class Chronology(
     markers: List[ChronologyMarker],
     startDate: Date,
     endDate: Date,
-)
+) {
+  def referencedIds(): List[Id[?]] = markers.flatMap(_.referencedIds())
+}
 
 trait ChronologyMarker {
   def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData
+  def referencedIds(): List[Id[?]]
 }
 
 object ChronologyMarker {
@@ -32,7 +35,7 @@ object ChronologyMarker {
     val compiledData: ItemCompiledData
 
     val designation = Some(compiledData.designation)
-    val label = compiledData.label
+    val label = compiledData.shortLabel.getOrElse(compiledData.label)
     val sublabel = compiledData.sublabel
     val image = Some(compiledData.coverUrl)
     val imageAlt = Some(compiledData.coverUrl)
@@ -55,6 +58,8 @@ case class BaseMarker(
       position,
     )
   }
+
+  def referencedIds(): List[Id[?]] = Nil
 }
 
 object BaseMarker {
@@ -85,6 +90,8 @@ case class ShowMarker(
     val compiledData = CompiledData.getShow(show, data)
     ShowMarkerCompiledData(show, compiledData, compiledData.date.fromRefDay(refDay), short, position)
   }
+
+  def referencedIds(): List[Id[?]] = List(Some(show), relatedMultimedia).flatten
 }
 
 object ShowMarker {
@@ -112,6 +119,7 @@ case class SongMarker(
     val compiledData = CompiledData.getSong(song, data)
     SongMarker.SongMarkerCompiledData(song, compiledData, compiledData.date.fromRefDay(refDay), position)
   }
+  def referencedIds(): List[Id[?]] = List(Some(song), relatedMultimedia).flatten
 }
 
 object SongMarker {
@@ -130,6 +138,33 @@ object SongMarker {
   val SUBLABEL = Some("Release")
 }
 
+case class AlbumMarker(
+    album: AlbumId,
+    position: Position,
+) extends ChronologyMarker {
+  def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData = {
+    val compiledData = CompiledData.getAlbum(album, data)
+    AlbumMarker.AlbumMarkerCompiledDate(album, compiledData, compiledData.date.fromRefDay(refDay), position)
+  }
+  def referencedIds(): List[Id[?]] = List(album)
+}
+
+object AlbumMarker {
+  case class AlbumMarkerCompiledDate(albumId: AlbumId, compiledData: ItemCompiledData, day: Int, position: Position)
+      extends MarkerCompiledData
+      with ChronologyMarker.ItemCompiledDataWrapper
+      with ChronologyMarker.PositionWrapper {
+    val id = albumId.toString()
+
+    override val sublabel: Option[String] = SUBLABEL
+    val left = false
+    val short = false
+    val `class` = ChronologySvg.CLASS_ALBUM_MARKER
+  }
+
+  val SUBLABEL = Some("Release")
+}
+
 case class MultiMediaMarker(
     multimedia: MultiMediaId,
     parentKey: String,
@@ -140,6 +175,7 @@ case class MultiMediaMarker(
     val parent = compiledData.from.find(_._1 == parentKey).map(_._2).get
     MultiMediaMarkerCompiledData(multimedia, compiledData, compiledData.date.fromRefDay(refDay), parent, position)
   }
+  def referencedIds(): List[Id[?]] = List(multimedia)
 }
 
 object MultiMediaMarker {

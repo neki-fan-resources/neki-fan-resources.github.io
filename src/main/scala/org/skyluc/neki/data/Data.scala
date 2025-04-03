@@ -132,7 +132,7 @@ object DataBuilder {
     def checkPageReferences(data: Data): (List[DataError], Data) = {
       val res = data.pages.values.map {
         case c: ChronologyPage =>
-          WithErrors(c, Nil)
+          checkAreKnown(c, c.chronology.referencedIds(), data)
         case m: MusicPage =>
           checkAreKnown(m, m.music, data)
         case s: ShowsPage =>

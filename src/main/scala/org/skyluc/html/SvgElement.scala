@@ -10,6 +10,7 @@ case class SvgTagAttributes(
     href: Option[String],
     id: Option[String],
     onClick: Option[String],
+    preserveAspectRatio: Option[String],
     r: Option[Double],
     stroke: Option[String],
     textAnchor: Option[String],
@@ -34,6 +35,7 @@ case class SvgTagAttributes(
   def withHref(href: String): SvgTagAttributes = copy(href = Some(href))
   def withOnClick(script: String): SvgTagAttributes =
     copy(onClick = Some(script))
+  def withPreserveAspectRatio(par: String) = copy(preserveAspectRatio = Some(par))
   def withR(r: Double): SvgTagAttributes = copy(r = Some(r))
   def withStroke(stroke: String): SvgTagAttributes = copy(stroke = Some(stroke))
   def withTextAnchor(textAnchor: String): SvgTagAttributes =
@@ -52,6 +54,7 @@ case class SvgTagAttributes(
 object SvgTagAttributes {
   final val EMPTY = SvgTagAttributes(
     Nil,
+    None,
     None,
     None,
     None,
@@ -108,6 +111,7 @@ trait SvgImage extends SvgElement[SvgImage] {
   def withWidth(width: Double): SvgImage
   def withHeight(height: Double): SvgImage
   def withHref(href: String): SvgImage
+  def withPreserveAspectRatio(par: String): SvgImage
 }
 
 trait SvgLine extends SvgElement[SvgLine] {
@@ -217,6 +221,10 @@ object SvgElementImpl {
     override def withHeight(height: Double): SvgImage = copyWithAttributes(attributes.withHeight(height))
 
     override def withHref(href: String): SvgImage = copyWithAttributes(attributes.withHref(href))
+
+    override def withPreserveAspectRatio(par: String): SvgImage = copyWithAttributes(
+      attributes.withPreserveAspectRatio(par)
+    )
 
     override def accept(v: Visitor): Unit = v.visit(this)
   }

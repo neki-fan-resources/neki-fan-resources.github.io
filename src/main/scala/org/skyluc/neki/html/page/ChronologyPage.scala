@@ -10,6 +10,7 @@ import org.skyluc.neki.html.Pages
 import org.skyluc.neki.data.Date
 import org.skyluc.neki.data.Date.DateTick
 import org.skyluc.neki.html.MarkerCompiledData
+import org.skyluc.neki.html.MainIntro
 
 class ChronologyPage(page: dChronologyPage, data: Data) extends Page(data) {
 
@@ -34,7 +35,8 @@ class ChronologyPage(page: dChronologyPage, data: Data) extends Page(data) {
         ::: Date.monthIntervals(chronology.startDate, chronology.endDate, refDay).map(Tick(_, CLASS_TICK_MONTH, true))
 
     List(
-      ChronologySvg.generate(endDay, ticks, markersCompiledData)
+      MainIntro.generate(MAIN_INTRO_TEXT),
+      ChronologySvg.generate(endDay, ticks, markersCompiledData),
     )
   }
 
@@ -44,8 +46,7 @@ object ChronologyPage {
   val CHRONOLOGY_PATH = "chronology" + Pages.HTML_EXTENSION
   val DESIGNATION = "Chronology"
 
-  // TODO ?
-  // val MAIN_INTRO_TEXT = "Videos of live performances by NEK!."
+  val MAIN_INTRO_TEXT = "The main events in NEK! story. Song and EP releases, shows, tours, interviews, ..."
 }
 
 object ChronologySvg {
@@ -88,21 +89,26 @@ object ChronologySvg {
   private def generateMarker(marker: MarkerCompiledData): SvgG = {
     val xSign = if (marker.left) -1 else 1
     val yMod = -marker.up / 2.0
+    val inMod = marker.in / 2.0
 
-    val line = path(s"M 0 0 h${5 * xSign} v${yMod} h${5 * xSign}")
+    val line = path(s"M 0 0 h${(5 - inMod) * xSign} v${yMod} h${(5 + inMod) * xSign}")
 
     val elements: List[SvgElement[?]] = if (marker.short) {
-      List(svgText(13 * xSign, 0.25 + yMod, marker.label).withClass(CLASS_CHRONOLOGY_MARKER_LABEL_SHORT))
+      List(svgText(12 * xSign, 0.25 + yMod, marker.label).withClass(CLASS_CHRONOLOGY_MARKER_LABEL_SHORT))
     } else {
       List(
         Some(rect(15 * xSign - 5, -5 + yMod, 10, 10)),
-        marker.image.map(imageUrl => image(15 * xSign - 5, -5 + yMod, 10, 10, imageUrl)),
-        Some(svgText(22 * xSign, 0.25 + yMod, marker.label).withClass(CLASS_CHRONOLOGY_MARKER_LABEL)),
+        marker.image.map(imageUrl =>
+          image(15 * xSign - 5, -5 + yMod, 10, 10, imageUrl)
+            .withPreserveAspectRatio("xMidYMid slice")
+            .withClass(CLASS_CHRONOLOGY_MARKER_IMAGE)
+        ),
+        Some(svgText(21 * xSign, 0.25 + yMod, marker.label).withClass(CLASS_CHRONOLOGY_MARKER_LABEL)),
         marker.designation.map(designation =>
-          svgText(22.25 * xSign, -3.5 + yMod, designation).withClass(CLASS_CHRONOLOGY_MARKER_DESIGNATION)
+          svgText(21.25 * xSign, -3 + yMod, designation).withClass(CLASS_CHRONOLOGY_MARKER_DESIGNATION)
         ),
         marker.sublabel.map(sublabel =>
-          svgText(22.25 * xSign, 4 + yMod, sublabel).withClass(CLASS_CHRONOLOGY_MARKER_SUBLABEL)
+          svgText(21.25 * xSign, 3.5 + yMod, sublabel).withClass(CLASS_CHRONOLOGY_MARKER_SUBLABEL)
         ),
       ).flatten
     }
@@ -129,12 +135,14 @@ object ChronologySvg {
 
   val CLASS_CHRONOLOGY_MARKER_DESIGNATION = "chronology_marker_designation"
   val CLASS_CHRONOLOGY_MARKER_LABEL = "chronology_marker_label"
-  val CLASS_CHRONOLOGY_MARKER_SUBLABEL = "chronology_marker_sublabel"
   val CLASS_CHRONOLOGY_MARKER_LABEL_SHORT = "chronology_marker_label_short"
+  val CLASS_CHRONOLOGY_MARKER_SUBLABEL = "chronology_marker_sublabel"
+  val CLASS_CHRONOLOGY_MARKER_IMAGE = "chronology_marker_image"
 
   val CLASS_BASE_MARKER = "chronology_base_marker"
   val CLASS_SHOW_MARKER = "chronology_show_marker"
   val CLASS_SONG_MARKER = "chronology_song_marker"
+  val CLASS_ALBUM_MARKER = "chronology_album_marker"
   val CLASS_MULTIMEDIA_MARKER = "chronology_multimedia_marker"
 
   val SVG_STYLE = s"""
@@ -189,19 +197,23 @@ object ChronologySvg {
 }
 
 .$CLASS_CHRONOLOGY_MARKER_LABEL {
-  font-size: 5px;
+  font-size: 4.5px;
   font-weight: 600;
 }
 
 .$CLASS_CHRONOLOGY_MARKER_LABEL_SHORT{
 
-  font-size: 4px;
+  font-size: 3px;
   font-weight: 600;
 }
 
 .$CLASS_CHRONOLOGY_MARKER_SUBLABEL {
   font-size: 3px;
   font-weight: 500;
+}
+
+.$CLASS_CHRONOLOGY_MARKER_IMAGE {
+  preserveAspectRation: xMaxYMax slice;
 }
 """
 }

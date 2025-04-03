@@ -22,16 +22,16 @@ credits:
 
 multimedia:
   video:
-  - youtubevideo: prWu9_Q5a5Y
-  additional:
   - youtubevideo: uhy1HnFXTH8
+  additional:
+  - youtubevideo: prWu9_Q5a5Y
 
 related:
 - type: youtubevideo
-  id: uhy1HnFXTH8
+  id: prWu9_Q5a5Y
   label: Music Video Teaser
   published-date: 2024-10-09
 - type: youtubevideo
-  id: prWu9_Q5a5Y
+  id: uhy1HnFXTH8
   label: Official Music Video
   published-date: 2024-10-02

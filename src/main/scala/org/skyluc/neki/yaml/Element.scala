@@ -139,6 +139,8 @@ case class ChronologyMarker(
     short: Boolean = false,
     // song:
     song: Option[String],
+    // album:
+    album: Option[String],
     // youtubevideo
     youtubevideo: Option[String],
     // common

@@ -440,6 +440,7 @@ class HtmlRenderer extends Visitor {
     attributes.href.foreach(writeTagAttribute("href", _))
     attributes.fill.foreach(writeTagAttribute("fill", _))
     attributes.stroke.foreach(writeTagAttribute("stroke", _))
+    attributes.preserveAspectRatio.foreach(writeTagAttribute("preserveAspectRatio", _))
     attributes.transform.foreach(writeTagAttribute("transform", _))
     attributes.textAnchor.foreach(writeTagAttribute("text-anchor", _))
     attributes.alignmentBaseline.foreach(

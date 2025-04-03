@@ -1,0 +1,74 @@
+- type: show
+  year: 2025
+  id: youandi
+
+  fullname: 優利香Presents「You&I ～未来浮かべ浮かれSmile～」　てんこ盛り編
+  shortname: You&I ～未来浮かべ浮かれSmile～
+  date: 2025-01-26
+  setlistfm: nek/2025/shibuya-eggman-tokyo-japan-35a6d47
+  event-page: http://eggman.jp/schedule/schedule-27265/
+  location: Shibuya eggman, Tokyo
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: NEK! X post
+        url: https://x.com/nekiband_jp/status/1883065171922637290
+
+- type: show
+  year: 2025
+  id: setallfree
+
+  fullname: Wisteria×FOWS「Set All Free!!」
+  date: 2025-02-06
+  location: 渋谷FOWS, Tokyo
+  setlistfm: nek/2025/shibuya-fows-tokyo-japan-135a6d45
+  event-page: https://shibuya-fows.jp/events/25568
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: Wisteria X post
+        url: https://x.com/Wisteria_tokyo/status/1887340383576989716
+
+- type: show
+  year: 2025
+  id: kogaderarock
+
+  fullname: KOGA RECORDS presents 【下北沢こがでらロックフェスティバル2025】
+  shortname: 下北沢こがでらロックフェスティバル2025
+  date: 2025-04-12
+  location: Shimokitazawa , Tokyo
+  #setlistfm: nek/2025/shibuya-eggman-tokyo-japan-b5a6d3a
+  event-page: https://kogarecords.com/top/?p=1396
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: NEK! X post
+        url: https://x.com/nekiband_jp/status/1904825238870721005
+
+- type: show
+  year: 2025
+  id: kakumeilogic2025
+
+  fullname: LIVEHOLIC presents. "革命ロジック2025" supported by Skream! & 激ロック
+  shortname: LIVEHOLIC presents. "革命ロジック2025"
+  date: 2025-05-04
+  location: Shimokitazawa , Tokyo
+  #setlistfm: nek/2025/shibuya-eggman-tokyo-japan-b5a6d3a
+  event-page: https://liveholic.jp/schedule/2025/05/liveholic-presents-2025-supported-by-skream-4.php
+  shared: true
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: 革命ロジック2025 X post
+        url: https://x.com/kakumei_holic/status/1903038891042673069

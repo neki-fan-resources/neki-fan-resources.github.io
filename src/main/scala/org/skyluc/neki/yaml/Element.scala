@@ -18,6 +18,14 @@ case class Album(
 ) extends Element
     derives YamlCodec
 
+case class ChronologyPage(
+    id: String,
+    `start-date`: String,
+    `end-date`: String,
+    markers: List[ChronologyMarker],
+) extends Element
+    derives YamlCodec
+
 case class Credits(
     lyricist: String,
     composer: String,
@@ -84,11 +92,6 @@ case class ShowOrTourId(
     show: Option[ShowId],
 ) derives YamlCodec
 
-case class ShowId(
-    year: String,
-    id: String,
-) derives YamlCodec
-
 case class Song(
     id: String,
     fullname: String,
@@ -127,6 +130,24 @@ case class Band(
     `social-media`: SocialMedia,
 ) derives YamlCodec
 
+case class ChronologyMarker(
+    // base marker
+    marker: Option[String],
+    date: Option[String],
+    image: Option[String],
+    // show
+    show: Option[ShowId],
+    short: Boolean = false,
+    // song:
+    song: Option[String],
+    // youtubevideo
+    youtubevideo: Option[String],
+    // common
+    `related-multimedia`: Option[MultiMediaId],
+    up: Int = 0,
+    in: Int = 0,
+) derives YamlCodec
+
 case class Member(
     id: String,
     name: String,
@@ -159,6 +180,11 @@ case class Navigation(
 case class NavigationItem(
     name: String,
     link: String,
+) derives YamlCodec
+
+case class ShowId(
+    year: String,
+    id: String,
 ) derives YamlCodec
 
 case class SocialMedia(

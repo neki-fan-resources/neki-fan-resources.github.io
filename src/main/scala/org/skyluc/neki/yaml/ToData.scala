@@ -5,6 +5,10 @@ import org.skyluc.neki.data.{
   AlbumCoverImage => dAlbumCoverImage,
   AlbumId => dAlbumId,
   Band => dBand,
+  BaseMarker => dBaseMarker,
+  Chronology => dChronology,
+  ChronologyMarker => dChronologyMarker,
+  ChronologyPage => dChronologyPage,
   CoverImage => dCoverImage,
   Credits => dCredits,
   Date => dDate,
@@ -16,17 +20,21 @@ import org.skyluc.neki.data.{
   MultiMedia => dMultiMedia,
   MultiMediaId => dMultiMediaId,
   MultiMediaBlock => dMultiMediaBlock,
+  MultiMediaMarker => dMultiMediaMarker,
   MusicPage => dMusicPage,
   Navigation => dNavigation,
   NavigationItem => dNavigationItem,
   PageId => dPageId,
+  Position => dPosition,
   Show => dShow,
   ShowId => dShowId,
+  ShowMarker => dShowMarker,
   ShowsPage => dShowsPage,
   Site => dSite,
   SocialMedia => dSocialMedia,
   Song => dSong,
   SongId => dSongId,
+  SongMarker => dSongMarker,
   Source => dSource,
   Tour => dTour,
   TourCoverImage => dTourCoverImage,
@@ -81,6 +89,8 @@ object ToData {
     element.flatMap {
       case a: Album =>
         process(a)
+      case c: ChronologyPage =>
+        process(c)
       case m: MusicPage =>
         process(m)
       case s: Show =>
@@ -128,9 +138,65 @@ object ToData {
     )
   }
 
+  def process(marker: ChronologyMarker, id: dId[?]): Either[ParserError, dChronologyMarker] = {
+
+    val relatedMultimedia = boxEitherOption(marker.`related-multimedia`.map(process(_, id)))
+    val position = dPosition(marker.up, marker.in)
+
+    val candidates: List[Either[ParserError, dChronologyMarker]] = List(
+      marker.marker.map { label =>
+        for {
+          image <- marker.image.toRight(ParserError(id, s"No image specified for marker '$label'"))
+          date <-
+            marker.date
+              .map(processDate(_, id))
+              .getOrElse(Left(ParserError(id, s"No date specified for marker '$label'")))
+        } yield {
+          dBaseMarker(label, date, image, position)
+        }
+      },
+      marker.show.map { show =>
+        val showId = process(show)
+        relatedMultimedia.map { rm =>
+          dShowMarker(showId, marker.short, rm, position)
+        }
+      },
+      marker.song.map { song =>
+        relatedMultimedia.map { rm =>
+          dSongMarker(dSongId(song), rm, position)
+        }
+      },
+      marker.youtubevideo.map(youtubevideo => Right(dMultiMediaMarker(dYouTubeVideoId(youtubevideo), position))),
+    ).flatten
+
+    // check only one defined
+    candidates match {
+      case head :: Nil =>
+        head
+      case Nil =>
+        Left(ParserError(id, s"No valid marker specified: $marker"))
+      case _ =>
+        Left(ParserError(id, s"Too many valid marker specified: $marker"))
+    }
+  }
+
+  def process(chronologyPage: ChronologyPage): Either[ParserError, dChronologyPage] = {
+    val id = dPageId(chronologyPage.id)
+    for {
+      startDate <- processDate(chronologyPage.`start-date`, id)
+      endDate <- processDate(chronologyPage.`end-date`, id)
+      markers <- throughList(chronologyPage.markers, id)(process)
+    } yield {
+      dChronologyPage(
+        id,
+        dChronology(markers, startDate, endDate),
+      )
+    }
+  }
+
   def process(credits: Credits): Either[ParserError, dCredits] = {
     for {
-      source <- boxEitherOption(credits.source.map(process(_)))
+      source <- boxEitherOption(credits.source.map(process))
     } yield {
       dCredits(credits.lyricist, credits.composer, source)
     }

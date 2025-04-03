@@ -15,7 +15,7 @@ object LineCard {
             text(data.designation)
           )
       ),
-      data.date.map { date =>
+      data.displayDate.map { date =>
         div().withClass(CLASS_LINE_CARD_DATE).appendElements(text(date))
       },
       Some(

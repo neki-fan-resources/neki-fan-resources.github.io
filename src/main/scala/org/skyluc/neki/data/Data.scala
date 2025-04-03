@@ -59,6 +59,8 @@ object DataBuilder {
       item match {
         case a: Album =>
           acc.copy(t = acc.t.copy(albums = acc.t.albums + ((a.id, a))))
+        case c: ChronologyPage =>
+          acc.copy(t = acc.t.copy(pages = acc.t.pages + ((c.id, c))))
         case m: MultiMedia =>
           acc.copy(t = acc.t.copy(multimedia = acc.t.multimedia + ((m.id, m))))
         case m: MusicPage =>
@@ -131,6 +133,8 @@ object DataBuilder {
 
     def checkPageReferences(data: Data): (List[DataError], Data) = {
       val res = data.pages.values.map {
+        case c: ChronologyPage =>
+          WithErrors(c, Nil)
         case m: MusicPage =>
           checkAreKnown(m, m.music, data)
         case s: ShowsPage =>

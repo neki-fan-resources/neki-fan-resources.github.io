@@ -21,7 +21,7 @@ object MediumCard {
       Some(div().withClass(CLASS_MEDIUM_CARD_DESIGNATION).appendElements(text(data.designation))),
       Some(div().withClass(CLASS_MEDIUM_CARD_LABEL).appendElements(text(data.label))),
       data.sublabel.map(sublabel => (div().withClass(CLASS_MEDIUM_CARD_SUBLABEL).appendElements(text(sublabel)))),
-      data.date.map(date => (div().withClass(CLASS_MEDIUM_CARD_DATE).appendElements(text(date)))),
+      data.displayDate.map(date => (div().withClass(CLASS_MEDIUM_CARD_DATE).appendElements(text(date)))),
     ).flatten
 
     a()

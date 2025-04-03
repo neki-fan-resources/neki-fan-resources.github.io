@@ -7,11 +7,13 @@ trait Visitor {
   def visit(circle: SvgCircle): Unit
   def visit(desc: SvgDesc): Unit
   def visit(div: Div): Unit
+  def visit(g: SvgG): Unit
   def visit(head: Head): Unit
   def visit(hmtl: Html): Unit
   def visit(h1: H1): Unit
   def visit(h2: H2): Unit
   def visit(img: Img): Unit
+  def visit(image: SvgImage): Unit
   def visit(input: Input[?]): Unit
   def visit(inputButton: InputButton): Unit
   def visit(line: SvgLine): Unit
@@ -19,8 +21,10 @@ trait Visitor {
   def visit(meta: Meta): Unit
   def visit(path: SvgPath): Unit
   def visit(pre: Pre): Unit
+  def visit(rect: SvgRect): Unit
   def visit(script: Script): Unit
   def visit(span: Span): Unit
+  def visit(style: SvgStyle): Unit
   def visit(svg: Svg): Unit
   def visit(table: Table): Unit
   def visit(tbody: Tbody): Unit

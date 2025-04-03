@@ -201,11 +201,11 @@ trait Span extends BodyElement[Span] {
 }
 
 trait Svg extends BodyElement[Svg] {
-  val tmp: String
   val elements: List[SvgElement[?]]
-  def appendElement(e: SvgElement[?]): Svg
+  def appendElements(e: SvgElement[?]*): Svg
   def withHeight(height: Int): Svg
   def withViewBox(viewBox: String): Svg
+  def withViewBox(left: Int, top: Int, width: Int, height: Int): Svg
   def withWidth(width: Int): Svg
 }
 
@@ -498,19 +498,21 @@ object HtmlImpl {
   case class SvgInt(
       attributes: HtmlTagAttributes,
       elements: List[SvgElement[?]],
-      tmp: String,
   ) extends HtmlTagInt[Svg]("svg")
       with Svg {
 
     override protected def copyWithAttributes(a: HtmlTagAttributes): Svg =
       copy(attributes = a)
 
-    override def appendElement(e: SvgElement[?]): Svg =
-      copy(elements = elements :+ e)
+    override def appendElements(e: SvgElement[?]*): Svg =
+      copy(elements = elements ::: e.toList)
     override def withHeight(height: Int): Svg =
       copy(attributes = attributes.withHeight(height))
     override def withViewBox(viewBox: String): Svg =
       copy(attributes = attributes.withViewBox(viewBox))
+
+    override def withViewBox(left: Int, top: Int, width: Int, height: Int): Svg =
+      withViewBox(s"$left $top $width $height")
     override def withWidth(width: Int): Svg =
       copy(attributes = attributes.withWidth(width))
 
@@ -609,7 +611,7 @@ object Html {
   def pre(text: String): Pre = PreInt(HtmlTagAttributes.EMPTY, text)
   def script(): Script = ScriptInt(HtmlTagAttributes.EMPTY, None)
   def span(): Span = SpanInt(HtmlTagAttributes.EMPTY, Nil)
-  def svg(tmp: String): Svg = SvgInt(HtmlTagAttributes.EMPTY, Nil, tmp)
+  def svg(): Svg = SvgInt(HtmlTagAttributes.EMPTY, Nil)
   def table(): Table = TableInt(HtmlTagAttributes.EMPTY, Nil)
   def tbody(): Tbody = TbodyInt(HtmlTagAttributes.EMPTY, Nil)
   def td(): Td = TdInt(HtmlTagAttributes.EMPTY, Nil)

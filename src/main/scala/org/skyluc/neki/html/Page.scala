@@ -20,6 +20,7 @@ import org.skyluc.neki.html.page.ShowPage
 import org.skyluc.neki.html.page.TourPage
 import org.skyluc.neki.html.page.LivePage
 import org.skyluc.neki.html.page.BandPage
+import org.skyluc.neki.html.page.ChronologyPage
 
 // TODO: remove the data field ??
 abstract class Page(val data: Data) {
@@ -55,6 +56,8 @@ object Pages {
 
   def pageFor(page: dPage, data: Data): Page = {
     page match {
+      case c: org.skyluc.neki.data.ChronologyPage =>
+        ChronologyPage(c, data)
       case m: org.skyluc.neki.data.MusicPage =>
         MusicPage(m, data)
       case s: org.skyluc.neki.data.ShowsPage =>

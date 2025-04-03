@@ -49,6 +49,12 @@ class HtmlRenderer extends Visitor {
     }
   }
 
+  override def visit(g: SvgG): Unit = {
+    writeTagsMultiLine(g) { () =>
+      g.elements.foreach(_.accept(this))
+    }
+  }
+
   override def visit(head: Head): Unit = {
     writeTagsMultiLine(head) { () =>
       head.elements.foreach(_.accept(this))
@@ -78,6 +84,10 @@ class HtmlRenderer extends Visitor {
 
   override def visit(img: Img): Unit = {
     writeTagSingle(img)
+  }
+
+  override def visit(image: SvgImage): Unit = {
+    writeTagSingle(image)
   }
 
   override def visit(input: Input[?]): Unit = {
@@ -118,7 +128,10 @@ class HtmlRenderer extends Visitor {
     writeTagAttributes(path.attributes)
     append("/>")
     writeNewLine()
+  }
 
+  override def visit(rect: SvgRect): Unit = {
+    writeTagSingle(rect)
   }
 
   override def visit(script: Script): Unit = {
@@ -137,6 +150,12 @@ class HtmlRenderer extends Visitor {
   override def visit(span: Span): Unit = {
     writeTagsInline(span) { () =>
       span.elements.foreach(_.accept(this))
+    }
+  }
+
+  override def visit(style: SvgStyle): Unit = {
+    writeTagsMultiLine(style) { () =>
+      append(style.style)
     }
   }
 
@@ -416,6 +435,9 @@ class HtmlRenderer extends Visitor {
     attributes.cx.foreach(writeTagAttribute("cx", _))
     attributes.cy.foreach(writeTagAttribute("cy", _))
     attributes.r.foreach(writeTagAttribute("r", _))
+    attributes.width.foreach(width => writeTagAttribute("width", width.toString))
+    attributes.height.foreach(height => writeTagAttribute("height", height.toString))
+    attributes.href.foreach(writeTagAttribute("href", _))
     attributes.fill.foreach(writeTagAttribute("fill", _))
     attributes.stroke.foreach(writeTagAttribute("stroke", _))
     attributes.transform.foreach(writeTagAttribute("transform", _))

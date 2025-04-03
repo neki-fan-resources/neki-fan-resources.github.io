@@ -6,6 +6,7 @@ import org.skyluc.neki.html.page.AlbumPage
 import org.skyluc.neki.html.page.SongPage
 import org.skyluc.neki.html.page.ShowPage
 import org.skyluc.neki.html.page.TourPage
+import org.skyluc.neki.html.page.ChronologySvg
 
 case class ItemCompiledData(
     url: String,
@@ -13,7 +14,8 @@ case class ItemCompiledData(
     label: String,
     sublabel: Option[String],
     parent: Option[ItemCompiledData],
-    date: Option[String],
+    date: Date,
+    displayDate: Option[String],
     coverUrl: String,
     coverAlt: String,
     info: List[ItemInfo],
@@ -29,6 +31,7 @@ object ItemCompiledData {
       id.toString(),
       None,
       None,
+      OLD_DATE,
       None,
       CommonBase.EMPTY,
       CommonBase.EMPTY,
@@ -36,6 +39,8 @@ object ItemCompiledData {
       true,
     )
   }
+
+  val OLD_DATE = Date(2023, 1, 1)
 }
 
 case class ItemInfo(
@@ -54,8 +59,10 @@ object ItemInfo {
 case class MultiMediaCompiledData(
     url: String,
     imageUrl: String,
+    designation: String,
     label: String,
     info: Option[String],
+    date: Date,
     from: List[(String, String)],
     overlay: String,
 )
@@ -66,12 +73,31 @@ object MultiMediaCompiledData {
     MultiMediaCompiledData(
       CommonBase.EMPTY,
       CommonBase.EMPTY,
+      Pages.TEXT_PLACEHOLDER,
       id.toString(),
       None,
+      OLD_DATE,
       Nil,
       CommonBase.EMPTY,
     )
   }
+
+  val OLD_DATE = Date(2023, 1, 1)
+}
+
+trait MarkerCompiledData {
+  def id: String
+  def designation: Option[String]
+  def label: String
+  def sublabel: Option[String]
+  def image: Option[String]
+  def imageAlt: Option[String]
+  def day: Int
+  def left: Boolean
+  def short: Boolean
+  def `class`: String
+  def up: Int
+  def in: Int
 }
 
 // ----------------
@@ -165,6 +191,7 @@ object CompiledData {
       album.fullname,
       None,
       None,
+      album.releaseDate,
       None,
       CoverImage.resolveUrl(album.coverImage, album, data),
       CoverImage.buildAlt(AlbumPage.DESIGNATION, album.fullname),
@@ -201,6 +228,7 @@ object CompiledData {
       show.fullname,
       show.sublabel,
       show.tour.map(CompiledData.getTour(_, data)),
+      show.date,
       Some(show.date.toString()),
       CoverImage.resolveUrl(show.coverImage, show, data),
       CoverImage.buildAlt(ShowPage.DESIGNATION, show.fullname),
@@ -230,6 +258,7 @@ object CompiledData {
       song.fullname,
       song.fullnameEn,
       song.album.map(getAlbum(_, data)),
+      song.releaseDate,
       None,
       CoverImage.resolveUrl(song.coverImage, song, data),
       CoverImage.buildAlt(SongPage.DESIGNATION, song.fullname),
@@ -253,6 +282,7 @@ object CompiledData {
       tour.fullname,
       None,
       None, // TODO: link to tour
+      tour.firstDate,
       None, // TODO: put date range ?
       CoverImage.resolveUrl(tour.coverImage, tour, data),
       CoverImage.buildAlt(TourPage.DESIGNATION, tour.fullname),
@@ -265,7 +295,9 @@ object CompiledData {
       youtubevideo.url(),
       youtubevideo.imageUrl(),
       youtubevideo.label,
+      "YouTube Video",
       None, // TODO: needed at some point ?
+      youtubevideo.publishedDate,
       Nil, // TODO: add, accordingly to the content of relatedTo
       YouTubeVideo.OVERLAY_FILE,
     )

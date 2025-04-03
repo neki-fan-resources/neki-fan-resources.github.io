@@ -1,0 +1,26 @@
+type: page
+id: chronology
+
+start-date: 2024-01-01
+end-date: 2025-10-15
+
+markers:
+- marker: Formation of NEK!
+  date: 2024-02-10
+  image: /asset/image/logo/neki.png
+- show:
+    year: 2024
+    id: shibuyachelseahotel
+  short: true
+
+  # TODO: support shorts in chronology
+  # rel-media:
+  #   youtubeshort: getover-01
+  # TODO: is that needed, or just implied from the context ?
+  # rel-from: song
+- youtubevideo: maFSgVE2vXg
+  ref: song
+  up: 15
+- song: getover
+  rel-media:
+    youtubevideo: TWbLqba3oag

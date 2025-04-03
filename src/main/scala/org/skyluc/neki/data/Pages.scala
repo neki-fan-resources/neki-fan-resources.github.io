@@ -17,7 +17,7 @@ case class PageId(id: String) extends Id[Page] {
   }
 }
 
-trait Page extends Item[Page] {
+sealed trait Page extends Item[Page] {
   val id: Id[Page]
   val error: Boolean
 }
@@ -38,6 +38,15 @@ case class ShowsPage(
     error: Boolean = false,
 ) extends Page {
   override def errored(): ShowsPage = copy(error = true)
+  override def withRelatedTo(id: Id[?]): ShowsPage = ???
+}
+
+case class ChronologyPage(
+    id: PageId,
+    chronology: Chronology,
+    error: Boolean = false,
+) extends Page {
+  override def errored(): ChronologyPage = copy(error = true)
   override def withRelatedTo(id: Id[?]): ShowsPage = ???
 }
 

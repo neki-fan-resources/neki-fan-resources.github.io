@@ -96,8 +96,9 @@ object Parser {
 
   def pageDispatch(node: Node, iding: Iding, filename: String): Either[ParserError, Element] = {
     iding.id match {
-      case "music" => as[MusicPage](node, filename)
-      case "shows" => as[ShowsPage](node, filename)
+      case "music"      => as[MusicPage](node, filename)
+      case "shows"      => as[ShowsPage](node, filename)
+      case "chronology" => as[ChronologyPage](node, filename)
       case u =>
         Left(ParserError(filename, error = Some(s"Unknown page id: '$u'")))
     }

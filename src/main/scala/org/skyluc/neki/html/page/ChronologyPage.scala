@@ -14,6 +14,7 @@ import org.skyluc.neki.html.MainIntro
 import org.skyluc.neki.html.ItemCompiledData
 import org.skyluc.neki.html.MediumDetails
 import org.skyluc.neki.html.MultiMediaCompiledDataWithParentKey
+import org.skyluc.neki.html.MultiMediaCard
 
 class ChronologyPage(page: dChronologyPage, data: Data) extends Page(data) {
 
@@ -246,7 +247,7 @@ object ChronologyOverlay {
 
   def generateOverlayContent(marker: MarkerCompiledData): (String, String) = {
     val content = marker.item
-      .map(generateOverlayContent(_))
+      .map(generateOverlayContent(_, marker.multimedia))
       .orElse(
         marker.multimedia
           .map(generateOverlayContent(_))
@@ -255,45 +256,37 @@ object ChronologyOverlay {
         generateOverlayContentBase(marker)
       )
 
-    (marker.id, HtmlRenderer.render(content))
+    (marker.id, content)
   }
 
-  def generateOverlayContent(item: ItemCompiledData): BodyElement[?] = {
-    MediumDetails.generate(item)
+  def generateOverlayContent(
+      item: ItemCompiledData,
+      multimedia: Option[MultiMediaCompiledDataWithParentKey],
+  ): String = {
+    val elements = MediumDetails.generate(item) ::
+      multimedia
+        .map { m =>
+          List(
+            div()
+              .withClass(CLASS_CHRONOLOGY_OVERLAY_MULTIMEDIA)
+              .appendElements(
+                MultiMediaCard.generate(m)
+              )
+          )
+        }
+        .getOrElse(Nil)
+
+    elements.map(HtmlRenderer.render).mkString
   }
 
-  def generateOverlayContent(item: MultiMediaCompiledDataWithParentKey): Div = {
-    MediumDetails.generate(item)
+  def generateOverlayContent(item: MultiMediaCompiledDataWithParentKey): String = {
+    HtmlRenderer.render(MediumDetails.generate(item))
   }
 
-  def generateOverlayContentBase(marker: MarkerCompiledData): Div = {
-    MediumDetails.generate(marker.label, marker.image.get, marker.imageAlt.get)
-    // val elements: List[BodyElement[?]] = List(
-    //   marker.image.map { image =>
-    //     img().withSrc(image).withAlt(marker.imageAlt.get).withClass(CLASS_CHRONOLOGY_CARD_COVER)
-    //   },
-    //   Some(
-    //     div().withClass(CLASS_CHRONOLOGY_CARD_DESIGNATION).appendElements(text(marker.designation.getOrElse("&nbsp;")))
-    //   ),
-    //   Some(div().withClass(CLASS_CHRONOLOGY_CARD_LABEL).appendElements(text(marker.label))),
-    //   marker.sublabel.map { sublabel =>
-    //     div().withClass(CLASS_CHRONOLOGY_CARD_SUBLABEL).appendElements(text(sublabel))
-    //   },
-    // ).flatten
-    // div()
-    //   .withClass(CLASS_CHRONOLOGY_CARD)
-    //   .appendElements(
-    //     elements*
-    //   )
+  def generateOverlayContentBase(marker: MarkerCompiledData): String = {
+    HtmlRenderer.render(MediumDetails.generate(marker.label, marker.image.get, marker.imageAlt.get))
   }
 
-  // -------
-  // val CLASS_CHRONOLOGY_CARD = "chronology-card"
-  // val CLASS_CHRONOLOGY_CARD_COVER = "chronology-card-cover"
-  // val CLASS_CHRONOLOGY_CARD_DESIGNATION = "chronology-card-designation"
-  // val CLASS_CHRONOLOGY_CARD_LABEL = "chronology-card-label"
-  // val CLASS_CHRONOLOGY_CARD_SUBLABEL = "chronology-card-sublabel"
-  // val CLASS_CHRONOLOGY_CARD_INFO = "chronology-card-info"
-  // val CLASS_CHRONOLOGY_CARD_PARENT = "chronology-card-parent"
-
+  // -------------
+  val CLASS_CHRONOLOGY_OVERLAY_MULTIMEDIA = "chronology-overlay-multimedia"
 }

@@ -40,7 +40,6 @@ object ChronologyMarker {
     val image = Some(compiledData.coverUrl)
     val imageAlt = Some(compiledData.coverUrl)
     val item = Some(compiledData)
-    val multimedia = None // TODO: move it out of here, to correctly support multimedia element
   }
 }
 
@@ -90,7 +89,10 @@ case class ShowMarker(
 ) extends ChronologyMarker {
   def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData = {
     val compiledData = CompiledData.getShow(show, data)
-    ShowMarkerCompiledData(show, compiledData, compiledData.date.fromRefDay(refDay), short, position)
+    val multimedia = relatedMultimedia.map { m =>
+      MultiMediaCompiledDataWithParentKey(CompiledData.getMultiMedia(m, data), Show.FROM_KEY)
+    }
+    ShowMarkerCompiledData(show, compiledData, compiledData.date.fromRefDay(refDay), short, multimedia, position)
   }
 
   def referencedIds(): List[Id[?]] = List(Some(show), relatedMultimedia).flatten
@@ -102,6 +104,7 @@ object ShowMarker {
       compiledData: ItemCompiledData,
       day: Int,
       short: Boolean,
+      multimedia: Option[MultiMediaCompiledDataWithParentKey],
       position: Position,
   ) extends MarkerCompiledData
       with ChronologyMarker.ItemCompiledDataWrapper
@@ -119,14 +122,22 @@ case class SongMarker(
 ) extends ChronologyMarker {
   def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData = {
     val compiledData = CompiledData.getSong(song, data)
-    SongMarker.SongMarkerCompiledData(song, compiledData, compiledData.date.fromRefDay(refDay), position)
+    val multimedia = relatedMultimedia.map { m =>
+      MultiMediaCompiledDataWithParentKey(CompiledData.getMultiMedia(m, data), Song.FROM_KEY)
+    }
+    SongMarker.SongMarkerCompiledData(song, compiledData, compiledData.date.fromRefDay(refDay), multimedia, position)
   }
   def referencedIds(): List[Id[?]] = List(Some(song), relatedMultimedia).flatten
 }
 
 object SongMarker {
-  case class SongMarkerCompiledData(songId: SongId, compiledData: ItemCompiledData, day: Int, position: Position)
-      extends MarkerCompiledData
+  case class SongMarkerCompiledData(
+      songId: SongId,
+      compiledData: ItemCompiledData,
+      day: Int,
+      multimedia: Option[MultiMediaCompiledDataWithParentKey],
+      position: Position,
+  ) extends MarkerCompiledData
       with ChronologyMarker.ItemCompiledDataWrapper
       with ChronologyMarker.PositionWrapper {
     val id = songId.toString()
@@ -161,6 +172,7 @@ object AlbumMarker {
     override val sublabel: Option[String] = SUBLABEL
     val left = false
     val short = false
+    val multimedia = None
     val `class` = ChronologySvg.CLASS_ALBUM_MARKER
   }
 

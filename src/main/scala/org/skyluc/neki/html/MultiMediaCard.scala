@@ -13,6 +13,10 @@ object MultiMediaCard {
       )
   }
 
+  def generate(entry: MultiMediaCompiledDataWithParentKey): Div = {
+    generate(entry.compiledData, entry.parentKey)
+  }
+
   def generate(entry: MultiMediaCompiledData, fromFilter: String): Div = {
     val infoParts =
       List(
@@ -21,12 +25,7 @@ object MultiMediaCard {
       ).flatten
     val elements: List[BodyElement[?]] = List(
       div().withClass(CLASS_MULTIMEDIA_CARD_LABEL).appendElements(text(entry.label)),
-      a()
-        .withHref(entry.url)
-        .withTarget(A.TARGET_BLANK)
-        .appendElements(
-          generateLayeredImage(entry)
-        ),
+      generateLayeredImage(entry),
       div().withClass(CLASS_MULTIMEDIA_CARD_SUBLABEL).appendElements(text(infoParts.mkString(", "))),
     )
     div()
@@ -36,9 +35,11 @@ object MultiMediaCard {
       )
   }
 
-  def generateLayeredImage(entry: MultiMediaCompiledData): Div = {
-    div()
+  def generateLayeredImage(entry: MultiMediaCompiledData): A = {
+    a()
       .withClass(CLASS_MULTIMEDIA_CARD_IMAGE)
+      .withHref(entry.url)
+      .withTarget(A.TARGET_BLANK)
       .appendElements(
         img()
           .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_OVER)

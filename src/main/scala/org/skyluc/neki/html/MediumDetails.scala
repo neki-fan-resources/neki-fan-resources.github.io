@@ -23,10 +23,16 @@ object MediumDetails {
   }
 
   def generate(data: ItemCompiledData): Div = {
-    val imgElement = img()
-      .withClass(CLASS_MEDIUM_DETAILS_COVER_IMG)
-      .withSrc(data.coverUrl)
-      .withAlt(data.coverAlt)
+    val imgElement =
+      a()
+        .withHref(data.url)
+        .withClass(CLASS_MEDIUM_DETAILS_COVER)
+        .appendElements(
+          img()
+            .withClass(CLASS_MEDIUM_DETAILS_COVER_IMG)
+            .withSrc(data.coverUrl)
+            .withAlt(data.coverAlt)
+        )
     generate(
       data.designation,
       data.label,
@@ -97,11 +103,7 @@ object MediumDetails {
 
     val elements: List[BodyElement[?]] = List(
       Some(
-        a()
-          .withHref(url)
-          .withTarget(urlTarget)
-          .withClass(CLASS_MEDIUM_DETAILS_COVER)
-          .appendElements(img)
+        img
       ),
       Some(div().withClass(CLASS_MEDIUM_DETAILS_DESIGNATION).appendElements(text(designation))),
       // Some(a().withHref(url).withTarget(urlTarget).withClass(CLASS_MEDIUM_DETAILS_LABEL).appendElements(text(label))),

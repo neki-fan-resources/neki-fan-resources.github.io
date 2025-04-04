@@ -135,6 +135,7 @@ trait A extends BodyElement[A] {
   def withHref(href: String): A
   def withName(name: String): A
   def withTarget(target: String): A
+  def withTarget(target: Option[String]): A
 }
 
 object A {
@@ -352,6 +353,9 @@ object HtmlImpl {
     override def withName(name: String): A = copyWithAttributes(attributes.withName(name))
 
     override def withTarget(target: String): A = copyWithAttributes(attributes.withTarget(target))
+
+    override def withTarget(target: Option[String]): A =
+      target.map(t => copyWithAttributes(attributes.withTarget(t))).getOrElse(this)
 
     override def accept(v: Visitor): Unit = v.visit(this)
 

@@ -55,6 +55,8 @@ case class Date(year: Int, month: Int, day: Int) {
       .toString()
   }
 
+  def toStringSafe(): String = s"${year}_${month}_${day}"
+
   private def gc(): GregorianCalendar = GregorianCalendar(year, month - 1, day)
 
   def epochDay(): Int = {

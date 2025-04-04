@@ -451,4 +451,10 @@ class HtmlRenderer extends Visitor {
 
 }
 
-object HtmlRenderer {}
+object HtmlRenderer {
+  def render(element: HtmlVisited): String = {
+    val renderer = HtmlRenderer()
+    element.accept(renderer)
+    renderer.result
+  }
+}

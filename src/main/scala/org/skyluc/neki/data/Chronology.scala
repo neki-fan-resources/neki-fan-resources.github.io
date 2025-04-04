@@ -6,9 +6,9 @@ import org.skyluc.neki.data.BaseMarker.BaseMarkerCompiledData
 import org.skyluc.neki.html.ItemCompiledData
 import org.skyluc.neki.html.CompiledData
 import org.skyluc.neki.data.ShowMarker.ShowMarkerCompiledData
-import org.skyluc.neki.html.MultiMediaCompiledData
 import org.skyluc.neki.html.MultiMediaCard
 import org.skyluc.neki.data.MultiMediaMarker.MultiMediaMarkerCompiledData
+import org.skyluc.neki.html.MultiMediaCompiledDataWithParentKey
 
 case class Chronology(
     markers: List[ChronologyMarker],
@@ -39,7 +39,8 @@ object ChronologyMarker {
     val sublabel = compiledData.sublabel
     val image = Some(compiledData.coverUrl)
     val imageAlt = Some(compiledData.coverUrl)
-    val parent = compiledData.parent
+    val item = Some(compiledData)
+    val multimedia = None // TODO: move it out of here, to correctly support multimedia element
   }
 }
 
@@ -66,12 +67,13 @@ object BaseMarker {
   case class BaseMarkerCompiledData(label: String, date: Date, image: Option[String], day: Int, position: Position)
       extends MarkerCompiledData
       with ChronologyMarker.PositionWrapper {
-    val id = ID_BASE + date.toString()
+    val id = ID_BASE + date.toStringSafe()
     val designation = None
     val sublabel = None
     val imageAlt = Some(label)
 
-    val parent = None
+    val item = None
+    val multimedia = None
     val left = true
     val short = false
     val `class` = ChronologySvg.CLASS_BASE_MARKER
@@ -173,7 +175,16 @@ case class MultiMediaMarker(
   def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData = {
     val compiledData = CompiledData.getMultiMedia(multimedia, data)
     val parent = compiledData.from.find(_._1 == parentKey).map(_._2).get
-    MultiMediaMarkerCompiledData(multimedia, compiledData, compiledData.date.fromRefDay(refDay), parent, position)
+    MultiMediaMarkerCompiledData(
+      multimedia,
+      MultiMediaCompiledDataWithParentKey(
+        compiledData,
+        parentKey,
+      ),
+      compiledData.date.fromRefDay(refDay),
+      parent,
+      position,
+    )
   }
   def referencedIds(): List[Id[?]] = List(multimedia)
 }
@@ -181,19 +192,20 @@ case class MultiMediaMarker(
 object MultiMediaMarker {
   case class MultiMediaMarkerCompiledData(
       multimediaId: MultiMediaId,
-      compiledData: MultiMediaCompiledData,
+      compiledData: MultiMediaCompiledDataWithParentKey,
       day: Int,
-      parent_ : ItemCompiledData,
+      parent: ItemCompiledData,
       position: Position,
   ) extends MarkerCompiledData
       with ChronologyMarker.PositionWrapper {
-    val id = multimediaId.toString
-    val designation = Some(compiledData.designation)
-    val label = parent_.label
-    val sublabel = Some(compiledData.label)
-    val image = Some(compiledData.imageUrl)
-    val imageAlt = Some(compiledData.label + MultiMediaCard.MEDIA_IMAGE_ALT)
-    val parent = Some(parent_)
+    val id = multimediaId.toString.replace('-', '_')
+    val designation = Some(compiledData.compiledData.designation)
+    val label = parent.label
+    val sublabel = Some(compiledData.compiledData.label)
+    val image = Some(compiledData.compiledData.imageUrl)
+    val imageAlt = Some(compiledData.compiledData.label + MultiMediaCard.MEDIA_IMAGE_ALT)
+    val item = None
+    val multimedia = Some(compiledData)
     val left = false
     val short = false
     val `class` = ChronologySvg.CLASS_MULTIMEDIA_MARKER

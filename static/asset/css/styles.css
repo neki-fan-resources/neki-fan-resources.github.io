@@ -525,6 +525,109 @@ footer {
   font-weight: 600;
 }
 
+/* medium details layout */
+
+.medium-details {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content min-content min-content 1fr;
+  grid-template-areas: 'cover designation' 'cover label' 'cover sublabel' 'cover parent' 'cover info';
+}
+
+.medium-details-cover {
+  grid-area: cover;
+  object-fit: contain;
+  margin: 0 0.4rem 0 0;
+}
+
+.medium-details-cover-img {
+  height: 6rem;
+  width: 6rem;
+  border: solid 0.5px var(--color-not-black);
+}
+
+.medium-details-designation {
+  grid-area: designation;
+  margin: 0.1rem 0 0.1rem 0;
+}
+
+.medium-details-labels {
+  grid-area: label;
+}
+
+.medium-details-sublabel {
+  grid-area: sublabel;
+  margin: 0.2rem 0 0 0.2rem;
+}
+
+.medium-details>.line-card {
+  grid-area: parent;
+  padding: 0.3rem 0 0 0.5rem;
+}
+
+.medium-details-info {
+  grid-area: info;
+  padding: 0.3rem 0 0 0.5rem;
+}
+
+.medium-details-info-label {
+  text-align: right;
+  padding: 0 0.2rem 0 0;
+  vertical-align: baseline;
+}
+
+.medium-details-info-value {
+  vertical-align: baseline;
+}
+
+/* medium details styling */
+
+.medium-details {
+  color: black;
+}
+
+.medium-details-cover-img {
+  background-color: var(--color-not-black);
+}
+
+.medium-details-designation {
+  text-transform: uppercase;
+  color: var(--color-designation);
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.medium-details-labels {
+  margin: 0 0 0.5rem 0;
+}
+
+.medium-details-label {
+  color: black;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+.medium-details-sublabel {
+  color: black;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 600;
+}
+
+.medium-details-info-label {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+}
+
+.medium-details-info-value {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  font-weight: 600;
+}
+
 /* Line card layout */
 
 .line-card {
@@ -838,6 +941,38 @@ footer {
   color: black;
 }
 
+/* overlay layout */
+
+#main-overlay {
+  border: solid black 0.2rem;
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}
+
+#main-overlay-content {
+  min-height: 2rem;
+}
+
+.main-overlay-close {
+  position: absolute;
+  top: -0.1rem;
+  right: 0.4rem;
+}
+
+/* overlay styling */
+
+#main-overlay {
+  background-color: white;
+  background: var(--gradient-page);
+}
+
+.main-overlay-close {
+  cursor: pointer;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  font-weight: 700;
+  color: var(--color-not-black);
+}
+
 /* testing */
 
 /* main {
@@ -845,10 +980,10 @@ footer {
   background-color: pink;
 } */
 
-#main-overlay {
+/* #main-overlay {
   background-color: gray;
   min-height: 6rem;
-}
+} */
 
 /* #main-content {
   background-color: brown;

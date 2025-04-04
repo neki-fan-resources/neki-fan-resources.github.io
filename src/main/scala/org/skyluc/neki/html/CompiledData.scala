@@ -50,13 +50,19 @@ case class ItemInfo(
     label: Option[String],
     value: String,
     url: Option[String],
+    infoLevel: Int,
 )
 
 object ItemInfo {
-  def apply(label: String, value: String, url: String): ItemInfo =
-    ItemInfo(Some(label), value, Some(url))
-  def apply(label: String, value: String): ItemInfo =
-    ItemInfo(Some(label), value, None)
+  def apply(label: String, value: String, url: String, infoLevel: Int): ItemInfo =
+    ItemInfo(Some(label), value, Some(url), infoLevel)
+  def apply(label: String, value: String, infoLevel: Int): ItemInfo =
+    ItemInfo(Some(label), value, None, infoLevel)
+
+  val INFO_LEVEL_NONE = 0
+  val INFO_LEVEL_MINIMUM = 1
+  val INFO_LEVEL_BASIC = 2
+  val INFO_LEVEL_ALL = 3
 }
 
 case class MultiMediaCompiledData(
@@ -68,6 +74,11 @@ case class MultiMediaCompiledData(
     date: Date,
     from: List[(String, ItemCompiledData)],
     overlay: String,
+)
+
+case class MultiMediaCompiledDataWithParentKey(
+    compiledData: MultiMediaCompiledData,
+    parentKey: String,
 )
 
 object MultiMediaCompiledData {
@@ -95,7 +106,8 @@ trait MarkerCompiledData {
   def sublabel: Option[String]
   def image: Option[String]
   def imageAlt: Option[String]
-  def parent: Option[ItemCompiledData]
+  def multimedia: Option[MultiMediaCompiledDataWithParentKey]
+  def item: Option[ItemCompiledData]
   def day: Int
   def left: Boolean
   def short: Boolean
@@ -200,7 +212,7 @@ object CompiledData {
 
   def compileForAlbum(album: Album, data: Data): ItemCompiledData = {
     val info =
-      List(ItemInfo(CompiledData.LABEL_RELEASED, album.releaseDate.toString()))
+      List(ItemInfo(CompiledData.LABEL_RELEASED, album.releaseDate.toString(), ItemInfo.INFO_LEVEL_MINIMUM))
     ItemCompiledData(
       Album.URL_BASE + album.id.id + Pages.HTML_EXTENSION,
       album.designation,
@@ -232,12 +244,17 @@ object CompiledData {
 
   def compileForShow(show: Show, data: Data): ItemCompiledData = {
     val info = List(
-      Some(ItemInfo(CompiledData.LABEL_DATE, show.date.toString())),
-      Some(ItemInfo(ShowPage.LABEL_VENUE, show.location)),
+      Some(ItemInfo(CompiledData.LABEL_DATE, show.date.toString(), ItemInfo.INFO_LEVEL_MINIMUM)),
+      Some(ItemInfo(ShowPage.LABEL_VENUE, show.location, ItemInfo.INFO_LEVEL_BASIC)),
       show.setlistfm.map { s =>
-        ItemInfo(ShowPage.LABEL_SETLIST, ShowPage.VALUE_SETLIST, ShowPage.URL_SETLISTFM_BASE + s)
+        ItemInfo(
+          ShowPage.LABEL_SETLIST,
+          ShowPage.VALUE_SETLIST,
+          ShowPage.URL_SETLISTFM_BASE + s,
+          ItemInfo.INFO_LEVEL_BASIC,
+        )
       },
-      show.eventPage.map { e => ItemInfo(None, ShowPage.VALUE_EVENT_PAGE, Some(e)) },
+      show.eventPage.map { e => ItemInfo(None, ShowPage.VALUE_EVENT_PAGE, Some(e), ItemInfo.INFO_LEVEL_ALL) },
     ).flatten
 
     ItemCompiledData(
@@ -262,12 +279,12 @@ object CompiledData {
 
   def compileForSong(song: Song, data: Data): ItemCompiledData = {
     val info =
-      ItemInfo(CompiledData.LABEL_RELEASED, song.releaseDate.toString()) ::
+      ItemInfo(CompiledData.LABEL_RELEASED, song.releaseDate.toString(), ItemInfo.INFO_LEVEL_MINIMUM) ::
         song.credits
           .map { credits =>
             List(
-              ItemInfo(SongPage.LABEL_LYRICIST, credits.lyricist),
-              ItemInfo(SongPage.LABEL_COMPOSER, credits.composer),
+              ItemInfo(SongPage.LABEL_LYRICIST, credits.lyricist, ItemInfo.INFO_LEVEL_ALL),
+              ItemInfo(SongPage.LABEL_COMPOSER, credits.composer, ItemInfo.INFO_LEVEL_ALL),
             )
           }
           .getOrElse(Nil)
@@ -294,8 +311,14 @@ object CompiledData {
 
   def compileForTour(tour: Tour, data: Data): ItemCompiledData = {
     val info = List(
-      Some(ItemInfo(TourPage.LABEL_DATES, tour.firstDate.toString + DATE_RANGE_SEPARATOR + tour.lastDate.toString())),
-      tour.eventPage.map { e => ItemInfo(None, TourPage.VALUE_EVENT_PAGE, Some(e)) },
+      Some(
+        ItemInfo(
+          TourPage.LABEL_DATES,
+          tour.firstDate.toString + DATE_RANGE_SEPARATOR + tour.lastDate.toString(),
+          ItemInfo.INFO_LEVEL_MINIMUM,
+        )
+      ),
+      tour.eventPage.map { e => ItemInfo(None, TourPage.VALUE_EVENT_PAGE, Some(e), ItemInfo.INFO_LEVEL_BASIC) },
     ).flatten
 
     ItemCompiledData(

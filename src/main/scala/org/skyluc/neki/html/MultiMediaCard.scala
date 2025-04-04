@@ -25,18 +25,7 @@ object MultiMediaCard {
         .withHref(entry.url)
         .withTarget(A.TARGET_BLANK)
         .appendElements(
-          div()
-            .withClass(CLASS_MULTIMEDIA_CARD_IMAGE)
-            .appendElements(
-              img()
-                .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_OVER)
-                .withSrc(BASE_OVERLAY_URL + entry.overlay)
-                .withAlt(MEDIA_SERVICE_LOGO_ALT),
-              img()
-                .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_UNDER)
-                .withSrc(entry.imageUrl)
-                .withAlt(entry.label + MEDIA_IMAGE_ALT),
-            )
+          generateLayeredImage(entry)
         ),
       div().withClass(CLASS_MULTIMEDIA_CARD_SUBLABEL).appendElements(text(infoParts.mkString(", "))),
     )
@@ -44,6 +33,21 @@ object MultiMediaCard {
       .withClass(CLASS_MULTIMEDIA_CARD)
       .appendElements(
         elements*
+      )
+  }
+
+  def generateLayeredImage(entry: MultiMediaCompiledData): Div = {
+    div()
+      .withClass(CLASS_MULTIMEDIA_CARD_IMAGE)
+      .appendElements(
+        img()
+          .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_OVER)
+          .withSrc(BASE_OVERLAY_URL + entry.overlay)
+          .withAlt(MEDIA_SERVICE_LOGO_ALT),
+        img()
+          .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_UNDER)
+          .withSrc(entry.imageUrl)
+          .withAlt(entry.label + MEDIA_IMAGE_ALT),
       )
   }
 

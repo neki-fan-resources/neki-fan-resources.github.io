@@ -249,6 +249,7 @@ markers:
     year: 2025
     id: youandi
   short: true
+  # TODO: add 1 year celebration event
 - show:
     year: 2025
     id: setallfree

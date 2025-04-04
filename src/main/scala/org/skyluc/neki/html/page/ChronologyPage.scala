@@ -11,6 +11,9 @@ import org.skyluc.neki.data.Date
 import org.skyluc.neki.data.Date.DateTick
 import org.skyluc.neki.html.MarkerCompiledData
 import org.skyluc.neki.html.MainIntro
+import org.skyluc.neki.html.ItemCompiledData
+import org.skyluc.neki.html.MediumDetails
+import org.skyluc.neki.html.MultiMediaCompiledDataWithParentKey
 
 class ChronologyPage(page: dChronologyPage, data: Data) extends Page(data) {
 
@@ -37,6 +40,7 @@ class ChronologyPage(page: dChronologyPage, data: Data) extends Page(data) {
     List(
       MainIntro.generate(MAIN_INTRO_TEXT),
       ChronologySvg.generate(endDay, ticks, markersCompiledData),
+      ChronologyOverlay.generateData(markersCompiledData),
     )
   }
 
@@ -118,7 +122,12 @@ object ChronologySvg {
       .withClass(marker.`class`)
       .appendElements(line)
       .appendElements(
-        elements*
+        g()
+          .withClass(CLASS_CHRONOLOGY_MARKER_BLOCK)
+          .withOnClick(s"toggleOverlay('${marker.id}')")
+          .appendElements(
+            elements*
+          )
       )
       .withTransform(s"translate(0, ${marker.day})")
   }
@@ -132,6 +141,7 @@ object ChronologySvg {
 
   val CLASS_CHRONOLOGY_MARKER_LEFT = "chronology_marker_left"
   val CLASS_CHRONOLOGY_MARKER_RIGHT = "chronology_marker_right"
+  val CLASS_CHRONOLOGY_MARKER_BLOCK = "chronology_marker_block"
 
   val CLASS_CHRONOLOGY_MARKER_DESIGNATION = "chronology_marker_designation"
   val CLASS_CHRONOLOGY_MARKER_LABEL = "chronology_marker_label"
@@ -166,10 +176,6 @@ object ChronologySvg {
   text-anchor: start;
 }
 
-.$CLASS_CHRONOLOGY_MARKER_LEFT text,
-.$CLASS_CHRONOLOGY_MARKER_RIGHT text {
-  alignment-baseline: middle;
-}
 
 .$CLASS_CHRONOLOGY_MARKER_LEFT path,
 .$CLASS_CHRONOLOGY_MARKER_RIGHT path {
@@ -178,8 +184,15 @@ object ChronologySvg {
   fill: none;
 }
 
-.$CLASS_CHRONOLOGY_MARKER_LEFT rect,
-.$CLASS_CHRONOLOGY_MARKER_RIGHT rect {
+.$CLASS_CHRONOLOGY_MARKER_BLOCK {
+  cursor: pointer;
+}
+
+.$CLASS_CHRONOLOGY_MARKER_BLOCK text {
+  alignment-baseline: middle;
+}
+
+.$CLASS_CHRONOLOGY_MARKER_BLOCK rect {
   stroke: black;
   stroke-width: 0.25px;
   fill: black;
@@ -216,4 +229,71 @@ object ChronologySvg {
   preserveAspectRation: xMaxYMax slice;
 }
 """
+}
+
+object ChronologyOverlay {
+  def generateData(markers: List[MarkerCompiledData]): Script = {
+    val content = markers.map(generateOverlayContent)
+
+    val builder = StringBuilder()
+
+    builder.append("var overlayContent = {\n")
+    content.map(t => s"""  ${t._1}:"${t._2.replace("\n", "").replace("\"", "\\\"")}",\n""").foreach(builder.append(_))
+    builder.append("}\n")
+
+    script().setScript(builder.toString())
+  }
+
+  def generateOverlayContent(marker: MarkerCompiledData): (String, String) = {
+    val content = marker.item
+      .map(generateOverlayContent(_))
+      .orElse(
+        marker.multimedia
+          .map(generateOverlayContent(_))
+      )
+      .getOrElse(
+        generateOverlayContentBase(marker)
+      )
+
+    (marker.id, HtmlRenderer.render(content))
+  }
+
+  def generateOverlayContent(item: ItemCompiledData): BodyElement[?] = {
+    MediumDetails.generate(item)
+  }
+
+  def generateOverlayContent(item: MultiMediaCompiledDataWithParentKey): Div = {
+    MediumDetails.generate(item)
+  }
+
+  def generateOverlayContentBase(marker: MarkerCompiledData): Div = {
+    MediumDetails.generate(marker.label, marker.image.get, marker.imageAlt.get)
+    // val elements: List[BodyElement[?]] = List(
+    //   marker.image.map { image =>
+    //     img().withSrc(image).withAlt(marker.imageAlt.get).withClass(CLASS_CHRONOLOGY_CARD_COVER)
+    //   },
+    //   Some(
+    //     div().withClass(CLASS_CHRONOLOGY_CARD_DESIGNATION).appendElements(text(marker.designation.getOrElse("&nbsp;")))
+    //   ),
+    //   Some(div().withClass(CLASS_CHRONOLOGY_CARD_LABEL).appendElements(text(marker.label))),
+    //   marker.sublabel.map { sublabel =>
+    //     div().withClass(CLASS_CHRONOLOGY_CARD_SUBLABEL).appendElements(text(sublabel))
+    //   },
+    // ).flatten
+    // div()
+    //   .withClass(CLASS_CHRONOLOGY_CARD)
+    //   .appendElements(
+    //     elements*
+    //   )
+  }
+
+  // -------
+  // val CLASS_CHRONOLOGY_CARD = "chronology-card"
+  // val CLASS_CHRONOLOGY_CARD_COVER = "chronology-card-cover"
+  // val CLASS_CHRONOLOGY_CARD_DESIGNATION = "chronology-card-designation"
+  // val CLASS_CHRONOLOGY_CARD_LABEL = "chronology-card-label"
+  // val CLASS_CHRONOLOGY_CARD_SUBLABEL = "chronology-card-sublabel"
+  // val CLASS_CHRONOLOGY_CARD_INFO = "chronology-card-info"
+  // val CLASS_CHRONOLOGY_CARD_PARENT = "chronology-card-parent"
+
 }

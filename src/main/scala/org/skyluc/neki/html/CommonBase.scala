@@ -119,7 +119,13 @@ object CommonBase {
         ),
       div(PAGE_FOOTER)
         .appendElements(footer()*),
-      div().withId(MAIN_OVERLAY).withClass(CLASS_MAIN_OVERLAY_HIDDEN),
+      div()
+        .withId(MAIN_OVERLAY)
+        .withClass(CLASS_MAIN_OVERLAY_HIDDEN)
+        .appendElements(
+          div().withClass(CLASS_MAIN_OVERLAY_CLOSE).appendElements(text("⨯")).withOnClick("closeOverlay()"),
+          div().withId(MAIN_OVERLAY_CONTENT),
+        ),
     )
   }
 
@@ -264,10 +270,12 @@ object CommonBase {
 
   // main layout
   val MAIN_OVERLAY = "main-overlay"
+  val MAIN_OVERLAY_CONTENT = "main-overlay-content"
   val MAIN_SCROLLABLE = "main-scrollable"
   val MAIN_BACKGROUND = "main-background"
   val MAIN_CONTENT = "main-content"
   val CLASS_MAIN_OVERLAY_HIDDEN = "main-overlay-hidden"
+  val CLASS_MAIN_OVERLAY_CLOSE = "main-overlay-close"
 
   // navbar
   val NAV_DIV = "nav"

@@ -1,0 +1,44 @@
+- type: media
+  year: 2025
+  id: nack5-fantasyradio
+
+  radio: NACK5
+  show: FANTASY RADIO
+  host: 春日萌花 (Haruhi Moeka)
+  member:
+    - Hika
+    - Natsu
+  # webpage: https://www.nack5.co.jp/program/fantasyradio/
+  webpage: https://www.nack5.co.jp/blog/fantasyradio/16477/
+
+  published-date: 2025-03-23
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: FANTASY RADIO webpage
+        url: https://www.nack5.co.jp/program/fantasyradio/
+
+- type: media
+  year: 2025
+  id: fm802-infinityradio
+
+  radio: FM802
+  show: RADIO INFINITY
+  host: DJ ハタノ ユウスケ (DJ Hatano Yusuke)
+  member:
+    - Hika
+    - Natsu
+    - Kanade
+    - Cocoro
+  webpage: https://funky802.com/infinity/
+
+  published-date: 2025-04-10
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: RADIO INFINITY webpage
+        url: https://funky802.com/infinity/

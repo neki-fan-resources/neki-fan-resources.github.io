@@ -25,31 +25,17 @@ case class ChronologyPage(
 ) extends Element
     derives YamlCodec
 
-case class Credits(
-    lyricist: String,
-    composer: String,
-    source: Option[Source],
-) derives YamlCodec
-
-case class CoverImage(
-    file: Option[File],
-    album: Option[String],
-    tour: Option[String],
-) derives YamlCodec
-
-case class File(
-    filename: String,
-    source: Source,
-) derives YamlCodec
-
-case class Source(
-    description: String,
-    url: Option[String],
-) derives YamlCodec
-
-case class Site(
-    band: Band,
-    navigation: Navigation,
+case class Media(
+    year: String,
+    id: String,
+    radio: String,
+    show: String,
+    program: Option[String],
+    host: String,
+    member: List[String],
+    webpage: Option[String],
+    `published-date`: String,
+    `cover-image`: CoverImage,
 ) extends Element
     derives YamlCodec
 
@@ -58,11 +44,6 @@ case class MusicPage(
     music: List[MusicId],
 ) extends Element
     derives YamlCodec
-
-case class MusicId(
-    album: Option[String],
-    song: Option[String],
-) derives YamlCodec
 
 case class Show(
     year: String,
@@ -90,6 +71,12 @@ case class ShowOrTourId(
     tour: Option[String],
     show: Option[ShowId],
 ) derives YamlCodec
+
+case class Site(
+    band: Band,
+    navigation: Navigation,
+) extends Element
+    derives YamlCodec
 
 case class Song(
     id: String,
@@ -143,11 +130,35 @@ case class ChronologyMarker(
     album: Option[String],
     // youtubevideo
     youtubevideo: Option[String],
+    // interview
+    interview: Option[MediaId],
     // common
     `parent-key`: Option[String],
     `related-multimedia`: Option[MultiMediaId],
     up: Int = 0,
     in: Int = 0,
+) derives YamlCodec
+
+case class Credits(
+    lyricist: String,
+    composer: String,
+    source: Option[Source],
+) derives YamlCodec
+
+case class CoverImage(
+    file: Option[File],
+    album: Option[String],
+    tour: Option[String],
+) derives YamlCodec
+
+case class File(
+    filename: String,
+    source: Source,
+) derives YamlCodec
+
+case class MediaId(
+    year: String,
+    id: String,
 ) derives YamlCodec
 
 case class Member(
@@ -174,6 +185,11 @@ case class MultiMediaId(
     youtubevideo: Option[String]
 ) derives YamlCodec
 
+case class MusicId(
+    album: Option[String],
+    song: Option[String],
+) derives YamlCodec
+
 case class Navigation(
     main: List[NavigationItem],
     support: List[NavigationItem],
@@ -194,4 +210,9 @@ case class SocialMedia(
     tiktok: Option[String],
     youtube: Option[String],
     x: Option[String],
+) derives YamlCodec
+
+case class Source(
+    description: String,
+    url: Option[String],
 ) derives YamlCodec

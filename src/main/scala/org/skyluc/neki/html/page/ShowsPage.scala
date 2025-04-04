@@ -18,7 +18,7 @@ import org.skyluc.neki.data.TourId
 class ShowsPage(val page: dShowsPage, data: Data) extends Page(data) {
   import ShowsPage._
 
-  override def path(): Path = Path.of(MUSIC_PATH)
+  override def path(): Path = Path.of(SHOWS_PATH)
 
   override def shortTitle(): String = DESIGNATION
 
@@ -40,16 +40,12 @@ class ShowsPage(val page: dShowsPage, data: Data) extends Page(data) {
       MediumCard.generateTree(tree),
     )
 
-    // List(
-    //   MainIntro.generate(MAIN_INTRO_TEXT),
-    //   MediumCard.generateTree(tree),
-    // )
   }
 
 }
 
 object ShowsPage {
-  val MUSIC_PATH = "shows" + Pages.HTML_EXTENSION
+  val SHOWS_PATH = "shows" + Pages.HTML_EXTENSION
   val DESIGNATION = "Shows"
 
   val MAIN_INTRO_CONTENT: List[BodyElement[?]] = List(

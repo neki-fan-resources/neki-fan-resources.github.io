@@ -16,6 +16,9 @@ import org.skyluc.neki.data.{
   FileCoverImage => dFileCoverImage,
   Id => dId,
   Item => dItem,
+  Media => dMedia,
+  MediaId => dMediaId,
+  MediaMarker => dMediaMarker,
   Member => dMember,
   Members => dMembers,
   MultiMediaId => dMultiMediaId,
@@ -91,6 +94,8 @@ object ToData {
         process(a)
       case c: ChronologyPage =>
         process(c)
+      case m: Media =>
+        process(m)
       case m: MusicPage =>
         process(m)
       case s: Show =>
@@ -179,6 +184,9 @@ object ToData {
           dMultiMediaMarker(dYouTubeVideoId(youtubevideo), parentKey, position)
         }
       },
+      marker.interview.map { interview =>
+        Right(dMediaMarker(process(interview), marker.short, position))
+      },
     ).flatten
 
     // check only one defined
@@ -240,6 +248,31 @@ object ToData {
       case _ =>
         Left(ParserError(id, "Too many cover image references specified"))
     }
+  }
+
+  def process(media: Media): Either[ParserError, dMedia] = {
+    val id = dMediaId(media.year, media.id)
+    for {
+      publishedDate <- processDate(media.`published-date`, id)
+      coverImage <- process(media.`cover-image`, id)
+    } yield {
+      dMedia(
+        id,
+        media.radio,
+        media.show,
+        media.program,
+        media.host,
+        media.member,
+        media.webpage,
+        publishedDate,
+        coverImage,
+      )
+    }
+
+  }
+
+  def process(mediaId: MediaId): dMediaId = {
+    dMediaId(mediaId.year, mediaId.id)
   }
 
   def process(member: Member): dMember = {

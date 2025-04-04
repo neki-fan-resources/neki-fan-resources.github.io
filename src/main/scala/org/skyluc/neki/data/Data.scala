@@ -13,6 +13,7 @@ case class Data(
     songs: Map[Id[Song], Song],
     shows: Map[Id[Show], Show],
     tours: Map[Id[Tour], Tour],
+    medias: Map[Id[Media], Media],
     pages: Map[Id[Page], Page],
     multimedia: Map[Id[MultiMedia], MultiMedia],
 )
@@ -40,18 +41,19 @@ object DataBuilder {
       songs: Map[Id[Song], Song],
       shows: Map[Id[Show], Show],
       tours: Map[Id[Tour], Tour],
+      medias: Map[Id[Media], Media],
       pages: Map[Id[Page], Page],
       multimedia: Map[Id[MultiMedia], MultiMedia],
   ) {
     def toData(): Data = {
       // TODO: missing site error support
-      Data(site.get, albums, songs, shows, tours, pages, multimedia)
+      Data(site.get, albums, songs, shows, tours, medias, pages, multimedia)
     }
   }
 
   def load(elements: List[Item[?]]): Step1 = {
     val data =
-      TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap())
+      TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap())
     // TODO: check if adding items with already existing id
     val res = elements.foldLeft(new WithErrors(data, Nil)) { (acc, item) =>
       item match {
@@ -59,6 +61,8 @@ object DataBuilder {
           acc.copy(t = acc.t.copy(albums = acc.t.albums + ((a.id, a))))
         case c: ChronologyPage =>
           acc.copy(t = acc.t.copy(pages = acc.t.pages + ((c.id, c))))
+        case m: Media =>
+          acc.copy(t = acc.t.copy(medias = acc.t.medias + ((m.id, m))))
         case m: MultiMedia =>
           acc.copy(t = acc.t.copy(multimedia = acc.t.multimedia + ((m.id, m))))
         case m: MusicPage =>
@@ -163,6 +167,7 @@ object DataBuilder {
       val (albumErrors, albums) = checkListCoverImage(data.albums.values, data)
       val (showErrors, shows) = checkListCoverImage(data.shows.values, data)
       val (tourErrors, tours) = checkListCoverImage(data.tours.values, data)
+      val (mediaErrors, medias) = checkListCoverImage(data.medias.values, data)
 
       new Step4(
         Data(
@@ -171,10 +176,11 @@ object DataBuilder {
           songs.map(e => (e.id, e)).toMap,
           shows.map(e => (e.id, e)).toMap,
           tours.map(e => (e.id, e)).toMap,
+          medias.map(e => (e.id, e)).toMap,
           data.pages,
           data.multimedia,
         ),
-        errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors,
+        errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors ::: mediaErrors,
       )
     }
 

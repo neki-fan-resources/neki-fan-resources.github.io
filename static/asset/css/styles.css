@@ -546,6 +546,7 @@ footer {
   height: 6rem;
   width: 6rem;
   border: solid 0.5px var(--color-not-black);
+  object-fit: contain;
 }
 
 .medium-details-designation {

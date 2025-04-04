@@ -6,6 +6,7 @@ import org.skyluc.neki.html.page.AlbumPage
 import org.skyluc.neki.html.page.SongPage
 import org.skyluc.neki.html.page.ShowPage
 import org.skyluc.neki.html.page.TourPage
+import org.skyluc.neki.html.page.MediaPage
 
 case class ItemCompiledData(
     url: String,
@@ -130,6 +131,7 @@ case class ItemCompiledDataNode(
 object CompiledData {
 
   val LABEL_RELEASED = "released"
+  val LABEL_PUBLISHED = "published"
   val LABEL_DATE = "date"
 
   var cache: Map[Id[?], ItemCompiledData] = HashMap()
@@ -153,6 +155,17 @@ object CompiledData {
         compiledData
       case None =>
         val compiledData = compileForAlbum(id, data)
+        cache += ((id, compiledData))
+        compiledData
+    }
+  }
+
+  def getMedia(id: MediaId, data: Data): ItemCompiledData = {
+    cache.get(id) match {
+      case Some(compiledData) =>
+        compiledData
+      case None =>
+        val compiledData = compileForMedia(id, data)
         cache += ((id, compiledData))
         compiledData
     }
@@ -226,6 +239,38 @@ object CompiledData {
       CoverImage.buildAlt(AlbumPage.DESIGNATION, album.fullname),
       info,
       Album.FROM_KEY,
+    )
+  }
+
+  def compileForMedia(id: MediaId, data: Data): ItemCompiledData = {
+    compileOrMissingItem(id, data.medias, data)(compileForMedia)
+  }
+
+  def compileForMedia(media: Media, data: Data): ItemCompiledData = {
+    val info = List(
+      Some(ItemInfo(MediaPage.LABEL_HOST, media.host, ItemInfo.INFO_LEVEL_BASIC)),
+      Some(ItemInfo(CompiledData.LABEL_PUBLISHED, media.publishedDate.toString(), ItemInfo.INFO_LEVEL_MINIMUM)),
+      media.webpage.map { w =>
+        ItemInfo(None, MediaPage.VALUE_SHOW_PAGE, Some(w), ItemInfo.INFO_LEVEL_ALL)
+      },
+      media.program.map { p =>
+        ItemInfo(None, MediaPage.VALUE_PROGRAM, Some(p), ItemInfo.INFO_LEVEL_ALL)
+      },
+    ).flatten
+
+    ItemCompiledData(
+      Media.URL_BASE + media.id.year + Pages.HTML_SEPARATOR + media.id.id + Pages.HTML_EXTENSION,
+      MediaPage.DESIGNATION,
+      media.radio + " - " + media.show,
+      None,
+      Some(media.member.mkString(", ")),
+      None,
+      media.publishedDate,
+      Some(media.publishedDate.toString()),
+      CoverImage.resolveUrl(media.coverImage, media, data),
+      CoverImage.buildAlt(MediaPage.DESIGNATION, media.radio + " - " + media.show),
+      info,
+      Media.FROM_KEY,
     )
   }
 

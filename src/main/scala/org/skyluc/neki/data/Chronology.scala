@@ -5,9 +5,7 @@ import org.skyluc.neki.html.page.ChronologySvg
 import org.skyluc.neki.data.BaseMarker.BaseMarkerCompiledData
 import org.skyluc.neki.html.ItemCompiledData
 import org.skyluc.neki.html.CompiledData
-import org.skyluc.neki.data.ShowMarker.ShowMarkerCompiledData
 import org.skyluc.neki.html.MultiMediaCard
-import org.skyluc.neki.data.MultiMediaMarker.MultiMediaMarkerCompiledData
 import org.skyluc.neki.html.MultiMediaCompiledDataWithParentKey
 
 case class Chronology(
@@ -81,6 +79,40 @@ object BaseMarker {
   val ID_BASE = "marker_"
 }
 
+case class MediaMarker(
+    media: MediaId,
+    short: Boolean,
+    position: Position,
+) extends ChronologyMarker {
+
+  override def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData = {
+    val compiledData = CompiledData.getMedia(media, data)
+    MediaMarker.MediaMarkerCompiledData(media, compiledData, compiledData.date.fromRefDay(refDay), short, position)
+  }
+
+  override def referencedIds(): List[Id[?]] = Nil
+}
+
+object MediaMarker {
+  case class MediaMarkerCompiledData(
+      mediaId: MediaId,
+      compiledData: ItemCompiledData,
+      day: Int,
+      short: Boolean,
+      position: Position,
+  ) extends MarkerCompiledData
+      with ChronologyMarker.ItemCompiledDataWrapper
+      with ChronologyMarker.PositionWrapper {
+
+    override def multimedia: Option[MultiMediaCompiledDataWithParentKey] = None
+
+    val id = mediaId.toString().replace('-', '_')
+
+    val left = true
+    val `class` = ChronologySvg.CLASS_MEDIA_MARKER
+  }
+}
+
 case class ShowMarker(
     show: ShowId,
     short: Boolean,
@@ -92,7 +124,14 @@ case class ShowMarker(
     val multimedia = relatedMultimedia.map { m =>
       MultiMediaCompiledDataWithParentKey(CompiledData.getMultiMedia(m, data), Show.FROM_KEY)
     }
-    ShowMarkerCompiledData(show, compiledData, compiledData.date.fromRefDay(refDay), short, multimedia, position)
+    ShowMarker.ShowMarkerCompiledData(
+      show,
+      compiledData,
+      compiledData.date.fromRefDay(refDay),
+      short,
+      multimedia,
+      position,
+    )
   }
 
   def referencedIds(): List[Id[?]] = List(Some(show), relatedMultimedia).flatten
@@ -187,7 +226,7 @@ case class MultiMediaMarker(
   def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData = {
     val compiledData = CompiledData.getMultiMedia(multimedia, data)
     val parent = compiledData.from.find(_._1 == parentKey).map(_._2).get
-    MultiMediaMarkerCompiledData(
+    MultiMediaMarker.MultiMediaMarkerCompiledData(
       multimedia,
       MultiMediaCompiledDataWithParentKey(
         compiledData,

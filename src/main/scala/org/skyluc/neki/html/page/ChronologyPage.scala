@@ -151,6 +151,7 @@ object ChronologySvg {
   val CLASS_CHRONOLOGY_MARKER_IMAGE = "chronology_marker_image"
 
   val CLASS_BASE_MARKER = "chronology_base_marker"
+  val CLASS_MEDIA_MARKER = "chronology_media_marker"
   val CLASS_SHOW_MARKER = "chronology_show_marker"
   val CLASS_SONG_MARKER = "chronology_song_marker"
   val CLASS_ALBUM_MARKER = "chronology_album_marker"
@@ -228,6 +229,10 @@ object ChronologySvg {
 
 .$CLASS_CHRONOLOGY_MARKER_IMAGE {
   preserveAspectRation: xMaxYMax slice;
+}
+
+.$CLASS_MEDIA_MARKER {
+  fill: darkblue;
 }
 """
 }

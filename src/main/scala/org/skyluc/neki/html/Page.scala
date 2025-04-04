@@ -17,6 +17,8 @@ import org.skyluc.neki.html.page.TourPage
 import org.skyluc.neki.html.page.LivePage
 import org.skyluc.neki.html.page.BandPage
 import org.skyluc.neki.html.page.ChronologyPage
+import org.skyluc.neki.html.page.MediasPage
+import org.skyluc.neki.html.page.MediaPage
 
 // TODO: remove the data field ??
 abstract class Page(val data: Data) {
@@ -42,12 +44,13 @@ object Pages {
   val TEXT_PLACEHOLDER = "&nbsp;"
 
   def fromData(data: Data, errors: List[SiteError]): Iterable[Page] = {
-    Iterable(ErrorPage(errors, data), BandPage(data), LivePage(data))
+    Iterable(ErrorPage(errors, data), BandPage(data), LivePage(data), MediasPage(data))
       ++ data.pages.values.filterNot(_.error).map(pageFor(_, data))
       ++ data.albums.values.filterNot(_.error).map(AlbumPage(_, data))
       ++ data.songs.values.filterNot(_.error).map(SongPage(_, data))
       ++ data.shows.values.filterNot(_.error).map(ShowPage(_, data))
       ++ data.tours.values.filterNot(_.error).map(TourPage(_, data))
+      ++ data.medias.values.filterNot(_.error).map(MediaPage(_, data))
   }
 
   def pageFor(page: dPage, data: Data): Page = {

@@ -281,10 +281,16 @@ markers:
     year: 2025
     id: tricktakingtourtokyo
   up: -7
-# - interview:
-#     year: 2025
-#     id: nack5-fantasyradio
-#   shift: 9
+- interview:
+    year: 2025
+    id: nack5-fantasyradio
+  short: true
+  up: -8
+- interview:
+    year: 2025
+    id: fm802-infinityradio
+  short: true
+  up: 2
 - show:
     year: 2025
     id: kogaderarock

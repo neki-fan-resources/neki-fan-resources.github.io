@@ -305,6 +305,10 @@ marker:
     year: 2025
     id: nack5-fantasyradio
   shift: 9
+- interview:
+    year: 2025
+    id: fm802-infinityradio
+  shift: -2
 - show:
     year: 2025
     id: kogaderarock

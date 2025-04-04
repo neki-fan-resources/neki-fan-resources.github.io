@@ -1,0 +1,23 @@
+collection: interview
+year: 2025
+id: fm802-infinityradio
+uid: 2025_fm802-infinityradio
+
+radio: FM802
+show: RADIO INFINITY
+host: DJ ハタノ ユウスケ (DJ Hatano Yusuke)
+members:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+webpage: https://funky802.com/infinity/
+
+published-date: 2025-04-10
+
+assets:
+  cover-image:
+    filename: cover400.png
+    source:
+      description: RADIO INFINITY webpage
+      url: https://funky802.com/infinity/

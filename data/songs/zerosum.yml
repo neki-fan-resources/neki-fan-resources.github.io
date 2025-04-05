@@ -19,16 +19,84 @@ credits:
 multimedia:
   video:
   - youtubevideo: z3HM2COly2Q
+  - youtubeshort: uexxORqapQY
+  live:
+  - youtubeshort: b2N2xThvZ-4
+  short:
+  - youtubeshort: LoiUwaTk_2Q
+  - youtubeshort: becPsUyrM_M
+  - youtubeshort: M4ovXQcKfv0
+  - youtubeshort: oSg3qLQDmtI
+  - youtubeshort: 5TbpU2-WnIQ
+  - youtubeshort: nh7NiJ2vnHM
+  - youtubeshort: _8Jm4QV0mUw
+  - youtubeshort: S2y9YcalKNw
+  - youtubeshort: f_7Wd4lCcXo
+  - youtubeshort: swQC6Xm0uLA
   additional:
   - youtubevideo: 6YLIHyMl21k
 
 related:
+# YouTube videos
 - type: youtubevideo
   id: 6YLIHyMl21k
   label: Music Video Teaser
-  published-date: 2024-02-14
+  published-date: 2025-02-14
 - type: youtubevideo
   id: z3HM2COly2Q
   label: Official Music Video
-  published-date: 2024-02-15
+  published-date: 2025-02-15
+# YouTube shorts
+- type: youtubeshort
+  id: bXwDRz85Q94
+  label: Teaser
+  published-date: 2025-02-14
+- type: youtubeshort
+  id: Tg21bnDB9Wg
+  label: Music Video
+  published-date: 2025-02-15
+- type: youtubeshort
+  id: 5WS8ZE-8chw
+  label: Music Video
+  info: celebrating 10k views
+  published-date: 2025-02-16
+- type: youtubeshort
+  id: DLjUreGwB9c
+  label: Music Video
+  published-date: 2025-02-17
+- type: youtubeshort
+  id: swQC6Xm0uLA
+  label: Music Video
+  info: Music Video set, different clip 
+  published-date: 2025-02-18
+- type: youtubeshort
+  id: oSg3qLQDmtI
+  label: Music Video
+  info: Cocoro focus, with lyrics
+  published-date: 2025-02-21
+- type: youtubeshort
+  id: M4ovXQcKfv0
+  label: Music Video
+  info: Natsu focus, with lyrics
+  published-date: 2025-02-22
+- type: youtubeshort
+  id: becPsUyrM_M
+  label: Music Video
+  info: Hika focus, with lyrics
+  published-date: 2025-02-23
+- type: youtubeshort
+  id: LoiUwaTk_2Q
+  label: Music Video
+  info: Kanade focus, with lyrics
+  published-date: 2025-02-24
+- type: youtubeshort
+  id: f_7Wd4lCcXo
+  label: Music Video
+  info: Music Video behind the scene
+  published-date: 2025-03-01
+- type: youtubeshort
+  id: uexxORqapQY
+  label: Bass Intro
+  info: Kanade Bass play-through
+  published-date: 2025-03-19
 

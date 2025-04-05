@@ -16,6 +16,7 @@ cover-image:
 
 multimedia:
   video:
+  - youtubeshort: EkRipluPvVg
   - youtubeshort: XzfOs6kjtUs
 
 related:
@@ -32,3 +33,16 @@ related:
   published-date: 2024-08-20
   related-to:
   - song: maze
+- type: youtubeshort
+  id: JcCYNJoEoLI
+  label: Show
+  info: Through the venue monitor
+  published-date: 2024-03-30
+  related-to:
+  - song: endlessgame
+- type: youtubeshort
+  id: EkRipluPvVg
+  label: Opening
+  published-date: 2024-04-04
+  related-to:
+  - song: fool

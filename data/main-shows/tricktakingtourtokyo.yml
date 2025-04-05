@@ -16,6 +16,10 @@ tour: tricktakingtour
 
 multimedia:
   short:
+  - youtubeshort: dSX3EKmcRUc
+  - youtubeshort: YKmsB94XMb4
+  - youtubeshort: mvD68jTQrHs
+  - youtubeshort: u9-z9XkhpVw
   - youtubeshort: 8HxPW2Pre0I
   - youtubeshort: EG8WdNAMS5w
   - youtubeshort: 5TbpU2-WnIQ
@@ -96,4 +100,32 @@ related:
   label: Show
   info: huddle
   published-date: 2025-03-20
+- type: youtubeshort
+  id: u9-z9XkhpVw
+  label: Live
+  info: from the crowd
+  published-date: 2025-03-22
+  related-to:
+  - song: dreams
+- type: youtubeshort
+  id: mvD68jTQrHs
+  label: Live
+  info: from the balcony
+  published-date: 2025-03-27
+  # unnamed song
+- type: youtubeshort
+  id: YKmsB94XMb4
+  label: Live
+  info: Natsu guitar intro
+  published-date: 2025-04-01
+  relalted-to:
+  - song: reigengirl
+- type: youtubeshort
+  id: dSX3EKmcRUc
+  label: Live
+  info: Natsu guitar solo
+  published-date: 2025-04-01
+  relalted-to:
+  - song: loner
+
 

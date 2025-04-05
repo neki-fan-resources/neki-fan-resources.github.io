@@ -319,9 +319,9 @@ object DataBuilder {
     // check multimedia items against reference lists
     def checkReferenceLists(): Step6 = {
       val youtubevideoErrors = checkYoutubevideoReferenceList()
-      // val youtubeshortErrors = checkYoutubeshortReferenceList()
+      val youtubeshortErrors = checkYoutubeshortReferenceList()
 
-      Step6(data, errors ::: youtubevideoErrors /*::: youtubeshortErrors*/ )
+      Step6(data, errors ::: youtubevideoErrors ::: youtubeshortErrors)
     }
 
     def checkYoutubevideoReferenceList(): List[DataError] = {

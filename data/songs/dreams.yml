@@ -25,6 +25,7 @@ multimedia:
   - youtubevideo: 0YlW7T5fVZ4
   live:
   - youtubevideo: _Oac92XPkyo
+  - youtubeshort: u9-z9XkhpVw
   short:
   - youtubeshort: MMCK7gW62zU
   additional:
@@ -69,5 +70,10 @@ related:
   label: Music Video
   info: behind the scene
   published-date: 2025-03-10
+- type: youtubeshort
+  id: n8e278VpxBo
+  label: MV Reaction
+  info: reacting to the music video
+  published-date: 2025-03-29
 
 

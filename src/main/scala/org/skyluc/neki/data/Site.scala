@@ -5,6 +5,8 @@ import java.nio.file.Path
 case class Site(
     navigation: Navigation,
     band: Band,
+    youtubevideo: List[RefMediaIds],
+    youtubeshort: List[RefMediaIds],
     error: Boolean = false,
 ) extends Item[Site] {
   val id = Site.ID
@@ -59,4 +61,9 @@ case class SocialMedia(
     tiktok: Option[String],
     youtube: Option[String],
     x: Option[String],
+)
+
+case class RefMediaIds(
+    account: String,
+    ids: List[String],
 )

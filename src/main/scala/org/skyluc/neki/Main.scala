@@ -58,6 +58,7 @@ object Main {
         .checkReferences()
         .checkAssets()
         .expandRelatedTo()
+        .checkReferenceLists()
         .done
 
     println("DATA ERRORS: ")

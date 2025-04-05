@@ -25,9 +25,23 @@ class ShowPage(val show: Show, data: Data) extends Page(data) {
       Show.FROM_KEY,
     )
 
+    val shortSection: List[BodyElement[?]] = MultiMediaCard.generateSection(
+      SECTION_SHORT_TEXT,
+      CompiledData.getMultiMedia(show.multimedia.short, data),
+      Show.FROM_KEY,
+    )
+
+    val additionalSection: List[BodyElement[?]] = MultiMediaCard.generateSection(
+      SECTION_ADDITIONAL_TEXT,
+      CompiledData.getMultiMedia(show.multimedia.additional, data),
+      Show.FROM_KEY,
+    )
+
     List(
       ItemDetails.generate(CompiledData.getShow(show.id, data))
     ) ::: videoSection
+      ::: shortSection
+      ::: additionalSection
   }
 
 }
@@ -45,4 +59,6 @@ object ShowPage {
   val VALUE_EVENT_PAGE = "event page"
 
   val SECTION_VIDEO_TEXT = "Video"
+  val SECTION_SHORT_TEXT = "Short"
+  val SECTION_ADDITIONAL_TEXT = "Additional"
 }

@@ -15,9 +15,17 @@ cover-image:
       description: NEK! note post
       url: https://note.com/nekiband_jp/n/ne1cfc8d70c87
 
-media:
-  short:
+multimedia:
+  additional:
+  - youtubeshort: 0hC9M6VeCJk
+
+related:
+- type: youtubeshort
+  id: 0hC9M6VeCJk
+  label: Announcement
+  published-date: 2025-03-16
+  related-to:
+  # TODO: this doesn't show up because we filter all show references in show pages
   - show:
       year: 2025
-      id:  1stzepponeman
-    youtubeshort: announcement-01
+      id: tricktakingtourtokyo

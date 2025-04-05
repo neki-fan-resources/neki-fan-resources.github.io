@@ -34,6 +34,18 @@
         description: shibuya eggman X post
         url: https://x.com/shibuya_eggman/status/1777594109558952005
 
+  multimedia:
+    short:
+    - youtubeshort: 6W-P3YBkybQ
+
+  related:
+  - type: youtubeshort
+    id: 6W-P3YBkybQ
+    label: Live
+    published-date: 2024-04-20
+    related-to:
+    - song: reigengirl
+
 - type: show
   year: 2024
   id: guvol351

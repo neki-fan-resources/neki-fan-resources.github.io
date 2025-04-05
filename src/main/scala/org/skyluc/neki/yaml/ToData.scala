@@ -29,6 +29,7 @@ import org.skyluc.neki.data.{
   NavigationItem => dNavigationItem,
   PageId => dPageId,
   Position => dPosition,
+  RefMediaIds => dRefMediaIds,
   Show => dShow,
   ShowId => dShowId,
   ShowMarker => dShowMarker,
@@ -42,6 +43,8 @@ import org.skyluc.neki.data.{
   Tour => dTour,
   TourCoverImage => dTourCoverImage,
   TourId => dTourId,
+  YouTubeShort => dYouTubeShort,
+  YouTubeShortId => dYouTubeShortId,
   YouTubeVideo => dYouTubeVideo,
   YouTubeVideoId => dYouTubeVideoId,
 }
@@ -108,6 +111,8 @@ object ToData {
         process(s)
       case t: Tour =>
         process(t)
+      case y: YouTubeShort =>
+        process(y)
       case y: YouTubeVideo =>
         process(y)
       case e =>
@@ -250,6 +255,27 @@ object ToData {
     }
   }
 
+  def processIds(refIds: List[Id], id: dId[?]): Either[ParserError, List[dId[?]]] = {
+    throughList(refIds, id)(process)
+  }
+
+  def process(refId: Id, id: dId[?]): Either[ParserError, dId[?]] = {
+    val candidates: List[dId[?]] = List(
+      refId.song.map(dSongId(_)),
+      refId.show.map(process),
+    ).flatten
+
+    // check only one defined
+    candidates match {
+      case head :: Nil =>
+        Right(head)
+      case Nil =>
+        Left(ParserError(id, "No id reference specified"))
+      case _ =>
+        Left(ParserError(id, "Too many id references specified"))
+    }
+  }
+
   def process(media: Media): Either[ParserError, dMedia] = {
     val id = dMediaId(media.year, media.id)
     for {
@@ -295,21 +321,28 @@ object ToData {
 
   def process(multimedia: MultiMedia, id: dId[?]): Either[ParserError, dMultiMediaBlock] = {
     for {
-      video <- boxEitherOption(multimedia.video.map(process(_, id)))
-      live <- boxEitherOption(multimedia.live.map(process(_, id)))
-      additional <- boxEitherOption(multimedia.additional.map(process(_, id)))
+      video <- boxEitherOption(multimedia.video.map(processMultiMediaIds(_, id)))
+      live <- boxEitherOption(multimedia.live.map(processMultiMediaIds(_, id)))
+      short <- boxEitherOption(multimedia.short.map(processMultiMediaIds(_, id)))
+      additional <- boxEitherOption(multimedia.additional.map(processMultiMediaIds(_, id)))
     } yield {
-      dMultiMediaBlock(video.getOrElse(Nil), live.getOrElse(Nil), additional.getOrElse(Nil))
+      dMultiMediaBlock(
+        video.getOrElse(Nil),
+        live.getOrElse(Nil),
+        short.getOrElse(Nil),
+        additional.getOrElse(Nil),
+      )
     }
   }
 
-  def process(multimediaIds: List[MultiMediaId], id: dId[?]): Either[ParserError, List[dMultiMediaId]] = {
+  def processMultiMediaIds(multimediaIds: List[MultiMediaId], id: dId[?]): Either[ParserError, List[dMultiMediaId]] = {
     throughList(multimediaIds, id)(process)
   }
 
   def process(multimediaId: MultiMediaId, id: dId[?]): Either[ParserError, dMultiMediaId] = {
     val candidates: List[dMultiMediaId] = List(
-      multimediaId.youtubevideo.map(dYouTubeVideoId(_))
+      multimediaId.youtubevideo.map(dYouTubeVideoId(_)),
+      multimediaId.youtubeshort.map(dYouTubeShortId(_)),
     ).flatten
 
     // check only one defined
@@ -360,6 +393,10 @@ object ToData {
 
   def process(navigationItem: NavigationItem): Either[ParserError, dNavigationItem] = {
     Right(dNavigationItem(navigationItem.name, navigationItem.link))
+  }
+
+  def process(refMediaIds: RefMediaIds): dRefMediaIds = {
+    dRefMediaIds(refMediaIds.account, refMediaIds.ids)
   }
 
   def process(show: Show): Either[ParserError, dShow] = {
@@ -423,7 +460,7 @@ object ToData {
     for {
       navigation <- process(site.navigation)
     } yield {
-      dSite(navigation, band)
+      dSite(navigation, band, site.youtubevideo.map(process), site.youtubeshort.map(process))
     }
   }
 
@@ -473,12 +510,23 @@ object ToData {
     }
   }
 
+  def process(youtubeshort: YouTubeShort): Either[ParserError, dYouTubeShort] = {
+    val id = dYouTubeShortId(youtubeshort.id)
+    for {
+      publishedDate <- processDate(youtubeshort.`published-date`, id)
+      relatedTo <- boxEitherOption(youtubeshort.`related-to`.map(processIds(_, id)))
+    } yield {
+      dYouTubeShort(id, youtubeshort.label, youtubeshort.info, publishedDate, relatedTo.getOrElse(Nil))
+    }
+  }
+
   def process(youtubevideo: YouTubeVideo): Either[ParserError, dYouTubeVideo] = {
     val id = dYouTubeVideoId(youtubevideo.id)
     for {
       publishedDate <- processDate(youtubevideo.`published-date`, id)
+      relatedTo <- boxEitherOption(youtubevideo.`related-to`.map(processIds(_, id)))
     } yield {
-      dYouTubeVideo(id, youtubevideo.label, publishedDate)
+      dYouTubeVideo(id, youtubevideo.label, publishedDate, relatedTo.getOrElse(Nil))
     }
   }
 

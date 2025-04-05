@@ -15,21 +15,37 @@ cover-image:
       description: X post
       url: https://x.com/nekiband_jp/status/1770261360938746035
 
-media:
+multimedia:
   short:
-  - show:
-      year: 2024
-      id: shibuyachelseahotel
-    youtubeshort: before-show-01
-  - show:
-      year: 2024
-      id: shibuyachelseahotel
-    youtubeshort: maze-01
-  - show:
-      year: 2024
-      id: shibuyachelseahotel
-    youtubeshort: reigengirl-02
-  - show:
-      year: 2024
-      id: shibuyachelseahotel
-    youtubeshort: reigengirl-01
+  - youtubeshort: qR2yF3Jb4r4
+  - youtubeshort: bBhvxwNWh3A
+  - youtubeshort: gVUFjTcD3B4
+  additional:
+  - youtubeshort: Z-ju19kHofg
+
+related:
+# YouTube Short
+- type: youtubeshort
+  id: gVUFjTcD3B4
+  label: Live
+  published-date: 2024-03-21
+  related-to:
+  - song: reigengirl
+- type: youtubeshort
+  id: bBhvxwNWh3A
+  label: Live
+  published-date: 2024-03-23
+  related-to:
+  - song: reigengirl
+- type: youtubeshort
+  id: qR2yF3Jb4r4
+  label: Live
+  published-date: 2024-03-27
+  related-to:
+  - song: maze
+- type: youtubeshort
+  id: Z-ju19kHofg
+  label: Show
+  info: Before the show
+  published-date: 2025-03-27
+

@@ -14,38 +14,54 @@ cover-image:
 
 tour: tricktakingtour
 
-media:
+multimedia:
   short:
-  - show:
-      year: 2025
-      id:  tricktakingtourtokyo
-    youtubeshort: show-digest-01
-  - show:
-      year: 2025
-      id:  tricktakingtourtokyo
-    youtubeshort: with-love-01
-  - show:
-      year: 2025
-      id:  tricktakingtourtokyo
-    youtubeshort: huddle-01
-  - show:
-      year: 2025
-      id:  tricktakingtourtokyo
-    youtubeshort: rehearsal-01
-  extra:
-  - show:
-      year: 2025
-      id:  tricktakingtourtokyo
-    youtubeshort: kanade-promo-01
-  - show:
-      year: 2025
-      id:  tricktakingtourtokyo
-    youtubeshort: hika-promo-01
-  - show:
-      year: 2025
-      id:  tricktakingtourtokyo
-    youtubeshort: cocoro-promo-01
-  - show:
-      year: 2025
-      id:  tricktakingtourtokyo
-    youtubeshort: natsu-promo-01
+  - youtubeshort: 8HxPW2Pre0I
+  - youtubeshort: EG8WdNAMS5w
+  additional:
+  - youtubeshort: htz6Y0O53tM
+  - youtubeshort: rtmMldJLh1k
+
+related:
+# YouTube Short
+- type: youtubeshort
+  id: rIixubNAY2g
+  label: Promo
+  info: Cocoro
+  published-date: 2025-03-14
+- type: youtubeshort
+  id: rla_ZLjIvmE
+  label: Promo
+  info: Natsu
+  published-date: 2025-03-14
+- type: youtubeshort
+  id: 1JgqY5V6fCE
+  label: Promo
+  info: Hika
+  published-date: 2025-03-15
+- type: youtubeshort
+  id: qEv4jcWXNmk
+  label: Promo
+  info: Kanade
+  published-date: 2025-03-15
+- type: youtubeshort
+  id: 8HxPW2Pre0I
+  label: Show digest
+  info: images from the show
+  published-date: 2025-03-17
+- type: youtubeshort
+  id: rtmMldJLh1k
+  label: Before
+  info: rehearsal
+  published-date: 2025-03-18
+- type: youtubeshort
+  id: EG8WdNAMS5w
+  label: Thanks!!
+  info: With love!
+  published-date: 2025-03-19
+- type: youtubeshort
+  id: htz6Y0O53tM
+  label: Show
+  info: huddle
+  published-date: 2025-03-20
+

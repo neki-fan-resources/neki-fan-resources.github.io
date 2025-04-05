@@ -22,7 +22,12 @@ case class ItemCompiledData(
     info: List[ItemInfo],
     fromKey: String,
     missing: Boolean = false,
-)
+) {
+  def labelWithSublabel(): String = {
+    val sublabelString = sublabel.map(sl => s" ($sl)").getOrElse(CommonBase.EMPTY)
+    label + sublabelString
+  }
+}
 
 object ItemCompiledData {
   def missing(id: Id[?]): ItemCompiledData = {
@@ -277,8 +282,11 @@ object CompiledData {
   def compileForMultiMedia(id: MultiMediaId, data: Data): MultiMediaCompiledData = {
     data.multimedia
       .get(id)
-      .map { case y: YouTubeVideo =>
-        compileForYouTubeVideo(y, data)
+      .map {
+        case y: YouTubeShort =>
+          compileForYouTubeShort(y, data)
+        case y: YouTubeVideo =>
+          compileForYouTubeVideo(y, data)
       }
       .getOrElse(MultiMediaCompiledData.missing(id))
   }
@@ -379,6 +387,23 @@ object CompiledData {
       CoverImage.buildAlt(TourPage.DESIGNATION, tour.fullname),
       info,
       Tour.FROM_KEY,
+    )
+  }
+
+  def compileForYouTubeShort(youtubeshort: YouTubeShort, data: Data): MultiMediaCompiledData = {
+    MultiMediaCompiledData(
+      youtubeshort.url(),
+      youtubeshort.imageUrl(),
+      "YouTube Short",
+      youtubeshort.label,
+      youtubeshort.info,
+      youtubeshort.publishedDate,
+      youtubeshort.relatedTo
+        .map { id =>
+          val item = getItem(id, data)
+          (item.fromKey, item)
+        },
+      YouTubeVideo.OVERLAY_FILE,
     )
   }
 

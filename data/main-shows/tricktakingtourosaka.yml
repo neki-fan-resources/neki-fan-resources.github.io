@@ -15,18 +15,25 @@ cover-image:
 
 tour: tricktakingtour
 
-media:
-  short:
-  - show:
-      year: 2025
-      id: tricktakingtourosaka
-    youtubeshort: huddle-01
-  extra:
-  - show:
-      year: 2025
-      id: tricktakingtourosaka
-    youtubeshort: lunch-01
-  - show:
-      year: 2025
-      id: tricktakingtourosaka
-    youtubeshort: leaving-rehearsal-01
+multimedia:
+  additional:
+  - youtubeshort: CCDQdwNBias
+
+related:
+- type: youtubeshort
+  # TODO: should go on the tour item ?
+  id: DRODkWCbwu0
+  label: Before
+  info: leaving for the tour
+  published-date: 2025-03-04
+- type: youtubeshort
+  id: CCDQdwNBias
+  label: Show
+  info: huddle
+  published-date: 2025-03-08
+- type: youtubeshort
+  id: bIMpGBpQaRE
+  label: Before
+  info: lunch
+  published-date: 2025-03-11
+

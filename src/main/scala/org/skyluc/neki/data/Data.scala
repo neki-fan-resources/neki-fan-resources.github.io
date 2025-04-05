@@ -6,6 +6,7 @@ import java.nio.file.Files
 
 import scala.jdk.CollectionConverters._
 import scala.collection.immutable.HashMap
+import scala.collection.mutable.TreeSet
 
 case class Data(
     site: Site,
@@ -101,6 +102,7 @@ object DataBuilder {
 
       // TODO: check relatedTo references
       // TODO: check multimedia references
+      // TODO: check reference to multimedia in chronology
 
       new Step3(dataLast, errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors ::: pageErrors)
     }
@@ -253,11 +255,69 @@ object DataBuilder {
     }
   }
 
-  // class Step4(data: Data, errors: List[DataError]) {
-  //   def done = (errors, data)
-  // }
+  case class Step5(data: Data, errors: List[DataError]) {
+    // check multimedia items against reference lists
+    def checkReferenceLists(): Step6 = {
+      val youtubevideoErrors = checkYoutubevideoReferenceList()
+      // val youtubeshortErrors = checkYoutubeshortReferenceList()
 
-  class Step5(data: Data, errors: List[DataError]) {
+      Step6(data, errors ::: youtubevideoErrors /*::: youtubeshortErrors*/ )
+    }
+
+    def checkYoutubevideoReferenceList(): List[DataError] = {
+      val definedYoutubevideoIds: Iterable[String] =
+        data.multimedia.keys
+          .flatMap {
+            case YouTubeVideoId(id) =>
+              Some(id)
+            case _ =>
+              None
+          }
+
+      checkReferenceList(data.site.youtubevideo, definedYoutubevideoIds, "YouTube video")(YouTubeVideoId.apply)
+    }
+
+    def checkYoutubeshortReferenceList(): List[DataError] = {
+      val definedYoutubeshortIds: Iterable[String] =
+        data.multimedia.keys
+          .flatMap {
+            case YouTubeShortId(id) =>
+              Some(id)
+            case _ =>
+              None
+          }
+
+      checkReferenceList(data.site.youtubeshort, definedYoutubeshortIds, "YouTube short")(YouTubeVideoId.apply)
+    }
+
+    def checkReferenceList[T](refList: List[RefMediaIds], defList: Iterable[String], itemName: String)(
+        idMaker: String => T
+    ): List[DataError] = {
+      val defined = TreeSet.from(defList)
+
+      val errors = refList.foldLeft(Nil: List[DataError]) { (acc, refIds) =>
+        refIds.ids.foldLeft(acc) { (acc2, refId) =>
+          if (defined.contains(refId)) {
+            defined.remove(refId)
+            acc2
+          } else {
+            acc2 :+ DataError(
+              YouTubeVideoId(refId),
+              s"$itemName '$refId' from ${refIds.account} not defined",
+              false,
+            )
+          }
+        }
+      }
+
+      errors
+        ::: defined.toList.map(id =>
+          DataError(YouTubeVideoId(id), s"$itemName '$id' is defined, but not in the reference list", false)
+        )
+    }
+  }
+
+  class Step6(data: Data, errors: List[DataError]) {
     def done = (errors, data)
   }
 

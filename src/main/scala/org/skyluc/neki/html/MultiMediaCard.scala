@@ -20,7 +20,7 @@ object MultiMediaCard {
   def generate(entry: MultiMediaCompiledData, fromFilter: String): Div = {
     val infoParts =
       List(
-        entry.from.filterNot(_._1 == fromFilter).map(_._2.label),
+        entry.from.filterNot(_._1 == fromFilter).map(_._2.labelWithSublabel()),
         entry.info,
       ).flatten
     val elements: List[BodyElement[?]] = List(

@@ -912,7 +912,7 @@ footer {
 
 .multimedia-card-sublabel {
   width: 0px;
-  width: fit-content;
+  min-width: 100%;
 }
 
 /* multimedia card style */

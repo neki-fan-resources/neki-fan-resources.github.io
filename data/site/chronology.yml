@@ -20,11 +20,8 @@ markers:
 - show:
     year: 2024
     id: shibuyachelseahotel
-  # TODO: support shorts in chronology
-  # rel-media:
-  #   youtubeshort: getover-01
-  # TODO: is that needed, or just implied from the context ?
-  # rel-from: song
+  related-multimedia:
+    youtubeshort: qR2yF3Jb4r4
 - show:
     year: 2024
     id: arealiberated
@@ -33,12 +30,8 @@ markers:
     year: 2024
     id: guvol350
   short: true
-  # rel-media:
-  #   show:
-  #     year: 2024
-  #     id: guvol350
-  #   youtubeshort: reigengirl-01
-  # rel-from: song
+  related-multimedia:
+    youtubeshort: 6W-P3YBkybQ
 - youtubevideo: maFSgVE2vXg
   parent-key: song
   up: 15
@@ -109,12 +102,8 @@ markers:
 - show:
     year: 2024
     id: 1stonemanlive
-  # rel-media:
-  #   show:
-  #     year: 2024
-  #     id: 1stonemanlive
-  #   youtubeshort: maze-01
-  # rel-from: song
+  related-multimedia:
+    youtubeshort: XzfOs6kjtUs
 - youtubevideo: AqVoa-PMl8I
   parent-key: song
   up: 13
@@ -211,12 +200,8 @@ markers:
 - show:
     year: 2024
     id: 2ndonemanlive
-#   rel-media: 
-#     show:
-#       year: 2024
-#       id: 2ndonemanlive
-#     youtube: dreams-01
-#   rel-from: song
+  related-multimedia:
+    youtubevideo: _Oac92XPkyo
 - show:
     year: 2024
     id: digginsoundvol2

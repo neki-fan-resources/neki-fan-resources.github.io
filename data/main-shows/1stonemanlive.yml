@@ -14,9 +14,14 @@ cover-image:
       description: YouTube community post
       url: https://www.youtube.com/post/UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
 
-media:
-  short:
-  - show:
-      year: 2024
-      id: 1stonemanlive
-    youtubeshort: maze-01
+multimedia:
+  video:
+  - youtubeshort: XzfOs6kjtUs
+
+related:
+- type: youtubeshort
+  id: XzfOs6kjtUs
+  label: Live
+  published-date: 2024-08-20
+  related-to:
+  - song: maze

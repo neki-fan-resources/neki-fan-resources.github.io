@@ -75,6 +75,8 @@ case class ShowOrTourId(
 case class Site(
     band: Band,
     navigation: Navigation,
+    youtubevideo: List[RefMediaIds],
+    youtubeshort: List[RefMediaIds],
 ) extends Element
     derives YamlCodec
 
@@ -102,10 +104,20 @@ case class Tour(
 ) extends Element
     derives YamlCodec
 
+case class YouTubeShort(
+    id: String,
+    label: String,
+    info: Option[String],
+    `published-date`: String,
+    `related-to`: Option[List[Id]],
+) extends Element
+    derives YamlCodec
+
 case class YouTubeVideo(
     id: String,
     label: String,
     `published-date`: String,
+    `related-to`: Option[List[Id]],
 ) extends Element
     derives YamlCodec
 
@@ -156,9 +168,19 @@ case class File(
     source: Source,
 ) derives YamlCodec
 
+case class Id(
+    song: Option[String],
+    show: Option[ShowId],
+) derives YamlCodec
+
 case class MediaId(
     year: String,
     id: String,
+) derives YamlCodec
+
+case class RefMediaIds(
+    account: String,
+    ids: List[String],
 ) derives YamlCodec
 
 case class Member(
@@ -178,11 +200,13 @@ case class Members(
 case class MultiMedia(
     video: Option[List[MultiMediaId]],
     live: Option[List[MultiMediaId]],
+    short: Option[List[MultiMediaId]],
     additional: Option[List[MultiMediaId]],
 ) derives YamlCodec
 
 case class MultiMediaId(
-    youtubevideo: Option[String]
+    youtubevideo: Option[String],
+    youtubeshort: Option[String],
 ) derives YamlCodec
 
 case class MusicId(

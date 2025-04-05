@@ -120,12 +120,27 @@
 
   related:
   - type: youtubeshort
+    id: zTAY3PIWLIM
+    label: Promo
+    info: studio audio, with lyrics
+    published-date: 2024-06-18
+    related-to:
+    - song: reigengirl
+  - type: youtubeshort
     id: KDBBqw69Vus
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-22
     related-to:
     - song: maze
+  - type: youtubeshort
+    id: ZGKbnmh52gw
+    label: Promo
+    info: studio audio, with lyrics
+    published-date: 2024-06-26
+    related-to:
+    - song: reigengirl
+  
 
 - type: show
   year: 2024

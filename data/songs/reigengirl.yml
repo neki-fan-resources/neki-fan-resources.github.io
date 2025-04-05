@@ -23,11 +23,24 @@ credits:
 
 multimedia:
   video:
-  - youtubevideo: pCqu9xyfFzE
-  additional:
   - youtubevideo: rq0dca9mFfI
+  live:
+  - youtubeshort: MpR-vcWQAuQ
+  - youtubeshort: 6W-P3YBkybQ
+  - youtubeshort: bBhvxwNWh3A
+  - youtubeshort: gVUFjTcD3B4
+  short:
+  - youtubeshort: 20oChc0jOIA
+  - youtubeshort: yq6g2gUuoCI
+  - youtubeshort: Dysq97Q0OVA
+  - youtubeshort: 01U3dQi-hkw
+  - youtubeshort: 58AHgFVIMos
+  - youtubeshort: BtsWAi6cXws
+  additional:
+  - youtubevideo: pCqu9xyfFzE
 
 related:
+# YouTube videos
 - type: youtubevideo
   id: pCqu9xyfFzE
   label: Music Video Teaser
@@ -36,3 +49,53 @@ related:
   id: rq0dca9mFfI
   label: Official Music Video
   published-date: 2024-07-03
+# YouTube shorts
+- type: youtubeshort
+  id: _oUd8BpbvE4
+  label: Promo
+  info: shibuya eggman, studio audio
+  published-date: 2024-06-11
+- type: youtubeshort
+  id: 0CR_lqZQ6N4
+  label: Teaser
+  published-date: 2024-06-28
+- type: youtubeshort
+  id: UrH4jAKEOGU
+  label: Music Video
+  published-date: 2024-07-03
+- type: youtubeshort
+  id: BtsWAi6cXws
+  label: Music Video
+  info: Cocoro focus, with lyrics
+  published-date: 2024-07-03
+- type: youtubeshort
+  id: 58AHgFVIMos
+  label: Music Video
+  info: Hika focus, with lyrics
+  published-date: 2024-07-05
+- type: youtubeshort
+  id: 01U3dQi-hkw
+  label: Music Video
+  info: Natsu focus, with lyrics
+  published-date: 2024-07-06
+- type: youtubeshort
+  id: Dysq97Q0OVA
+  label: Music Video
+  info: Kanade focus, with lyrics
+  published-date: 2024-07-07
+- type: youtubeshort
+  id: yq6g2gUuoCI
+  label: Music Video
+  info: In the sunset
+  published-date: 2024-07-10
+- type: youtubeshort
+  id: 20oChc0jOIA
+  label: Music Video
+  info: The girl had a dream
+  published-date: 2024-07-13
+- type: youtubeshort
+  id: Y-5kc3nAzXc
+  label: Promo
+  info: Shibuya eggman, studio audio
+  published-date: 2024-11-12
+

@@ -158,6 +158,19 @@
         description: 彪 / AYA X post
         url: https://x.com/Aya_Bas2/status/1784417275292143972
 
+  related:
+  - type: youtubeshort
+    id: cdIhg5rSCvM
+    label: Promo
+    info: studio audio
+    published-date: 2024-07-19
+    related-to:
+    - song: reigengirl
+    # TODO: special entry for the show where it has been played at (when 2 related shows)
+    - show:
+        year: 2024
+        id: 1stonemanlive
+
 - type: show
   year: 2024
   id: fypvol3
@@ -275,6 +288,13 @@
     published-date: 2024-09-11
     related-to:
     - song: maze
+  - type: youtubeshort
+    id: v16v2MvFJyM
+    label: Promo
+    info: studio audio
+    published-date: 2024-09-17
+    related-to:
+    - song: reigengirl
 
 - type: show
   year: 2024

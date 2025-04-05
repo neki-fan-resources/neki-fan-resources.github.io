@@ -20,3 +20,22 @@ credits:
 multimedia:
   live:
   - youtubeshort: zWS1TQ1kP6A
+
+related:
+  - type: youtubeshort
+    # TODO: find which club in Osaka it was performed at
+    id: XurqnHu8140
+    label: Promo
+    info: Osaka, studio audio
+    published-date: 2024-09-03
+  - type: youtubeshort
+    id: jcyN-PNIzBw
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2024-10-01
+  - type: youtubeshort
+    # TODO: find which club it was performed at
+    id: 8Aue5D-fPkc
+    label: Promo
+    info: studio audio
+    published-date: 2024-11-16

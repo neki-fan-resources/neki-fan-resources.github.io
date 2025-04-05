@@ -189,6 +189,15 @@
         description: SHIBUYA THE GAME X post
         url: https://x.com/SHIBUYATHEGAME/status/1819198572111577421
 
+  related:
+  - type: youtubeshort
+    id: KHPpxHWt-O4
+    label: Promo
+    info: studio audio
+    published-date: 2024-08-10
+    related-to:
+    - song: endlessgame
+
 - type: show
   year: 2024
   id: hapikorevol350

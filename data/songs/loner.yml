@@ -23,10 +23,22 @@ credits:
 multimedia:
   video:
   - youtubevideo: uhy1HnFXTH8
+  live:
+  - youtubeshort: xy8VknaZ0QQ
+  short:
+  - youtubeshort: X-45zTnjrcM
+  - youtubeshort: kh3KFur99mo
+  - youtubeshort: pInXexYRjJc
+  - youtubeshort: UMbFFhE5m74
+  - youtubeshort: uDKulvTRNjk
+  - youtubeshort: HS_wfsMj-2Y
+  - youtubeshort: dhMQMl7ogYs
+  - youtubeshort: wiu7XwluMX4
   additional:
   - youtubevideo: prWu9_Q5a5Y
 
 related:
+# YouTube video
 - type: youtubevideo
   id: prWu9_Q5a5Y
   label: Music Video Teaser
@@ -35,3 +47,68 @@ related:
   id: uhy1HnFXTH8
   label: Official Music Video
   published-date: 2024-10-09
+# YouTube short
+- type: youtubeshort
+  id: RRrplpvGl6A
+  label: Teaser
+  published-date: 2024-10-02
+- type: youtubeshort
+  id: 3xgyiUaSGgI
+  label: Music Video
+  published-date: 2024-10-09
+- type: youtubeshort
+  id: 7M5v1yQp-rs
+  label: Music Video
+  published-date: 2024-10-10
+- type: youtubeshort
+  id: wiu7XwluMX4
+  label: Music Video
+  info: Hika focus
+  published-date: 2024-10-11
+- type: youtubeshort
+  id: dhMQMl7ogYs
+  label: Music Video
+  info: Natsu focus
+  published-date: 2024-10-12
+- type: youtubeshort
+  id: HS_wfsMj-2Y
+  label: Music Video
+  info: Cocoro focus
+  published-date: 2024-10-14
+- type: youtubeshort
+  id: uDKulvTRNjk
+  label: Music Video
+  info: Kanade focus
+  published-date: 2024-10-15
+- type: youtubeshort
+  id: UMbFFhE5m74
+  label: Music Video
+  info: Natsu focus
+  published-date: 2024-10-17
+- type: youtubeshort
+  id: pInXexYRjJc
+  label: Music Video
+  info: Cocoro focus
+  published-date: 2024-10-19
+- type: youtubeshort
+  id: kh3KFur99mo
+  label: Music Video
+  info: Kanade focus
+  published-date: 2024-10-20
+- type: youtubeshort
+  id: X-45zTnjrcM
+  label: Music Video
+  info: Hika focus
+  published-date: 2024-10-22
+- type: youtubeshort
+  id: OA5IkJ_zL1Y
+  label: Promo
+  info: studio audio
+  published-date: 2024-10-30
+- type: youtubeshort
+  id: z4ptr7fSMtQ
+  label: Promo
+  info: shibuya eggman, studio audio
+  published-date: 2024-11-04
+
+  

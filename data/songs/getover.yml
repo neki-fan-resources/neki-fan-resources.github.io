@@ -24,10 +24,21 @@ multimedia:
   video:
   - youtubevideo: TWbLqba3oag
   - youtubevideo: 7Neu9jJk-04
+  short:
+  - youtubeshort: nDKETw7zIX4
+  - youtubeshort: yzKuHzF-YNk
+  - youtubeshort: 2hdeizLF6LI
+  - youtubeshort: R5GI-cuX2xM
+  - youtubeshort: yPb_nnAC_io
+  - youtubeshort: RMbkWV9zpog
+  - youtubeshort: nh6S9mF-9Co
+  - youtubeshort: z2KKJtwO2Ig
   additional:
   - youtubevideo: maFSgVE2vXg
+  - youtubeshort: tQNJQF37lHM
 
 related:
+# YouTube videos
 - type: youtubevideo
   id: maFSgVE2vXg
   label: Music Video Teaser
@@ -40,3 +51,135 @@ related:
   id: 7Neu9jJk-04
   label: Kanade Bass play-through
   published-date: 2024-05-28
+# YouTube shorts
+- type: youtubeshort
+  id: mlR0Jeyhw8Y
+  label: Promo
+  published-date: 2024-03-17
+- type: youtubeshort
+  id: bJG9HXd0aUI
+  label: Promo
+  published-date: 2024-04-04
+- type: youtubeshort
+  id: SnjDhQFrSy0
+  label: Teaser
+  published-date: 2024-04-21
+- type: youtubeshort
+  id: sLMQ7FJlRlE
+  label: Music Video
+  published-date: 2024-04-24
+- type: youtubeshort
+  id: tQNJQF37lHM
+  label: Music Video
+  info: with lyrics
+  published-date: 2024-04-25
+- type: youtubeshort
+  id: z2KKJtwO2Ig
+  label: Music Video
+  info: Kanade focus, with lyrics
+  published-date: 2024-04-26
+- type: youtubeshort
+  id: nh6S9mF-9Co
+  label: Music Video
+  info: Natsu focus, with lyrics
+  published-date: 2024-04-27
+- type: youtubeshort
+  id: RMbkWV9zpog
+  label: Music Video
+  info: Cocoro focus, with lyrics
+  published-date: 2024-04-28
+- type: youtubeshort
+  id: yPb_nnAC_io
+  label: Music Video
+  info: Hika focus, with lyrics
+  published-date: 2024-04-29
+- type: youtubeshort
+  id: R5GI-cuX2xM
+  label: Music Video
+  info: Natsu focus
+  published-date: 2024-05-01
+- type: youtubeshort
+  id: 2hdeizLF6LI
+  label: Music Video
+  info: Kanade focus
+  published-date: 2024-05-02
+- type: youtubeshort
+  id: yzKuHzF-YNk
+  label: Music Video
+  info: Hika focus
+  published-date: 2024-05-03
+- type: youtubeshort
+  id: nDKETw7zIX4
+  label: Music Video
+  info: Cocoro focus
+  published-date: 2024-05-04
+- type: youtubeshort
+  id: nLW93jahxIU
+  label: Music Video
+  info: rehearsal room, studio audio
+  published-date: 2024-07-18
+- type: youtubeshort
+  id: CAvOmtdiHwc
+  label: Creation
+  info: listening to early versions ?
+  published-date: 2025-03-03
+
+
+media:
+  video:
+  - song: getover
+    youtube: music-video-01
+  - song: getover
+    youtube: kanade-playthrough-01
+  live:
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+    youtubeshort: getover-01
+  short:
+  # - song: getover
+  #   youtubeshort: cocoro-02
+  - song: getover
+    youtubeshort: hika-02
+  - song: getover
+    youtubeshort: kanade-02
+  - song: getover
+    youtubeshort: natsu-02
+  # - song: getover
+  #   youtubeshort: hika-01
+  # - song: getover
+  #   youtubeshort: cocoro-01
+  - song: getover
+    youtubeshort: natsu-01
+  - song: getover
+    youtubeshort: kanade-01
+  additional:
+  # - song: getover
+  #   youtube: teaser-01
+  - song: getover
+    youtubeshort: music-video-02
+  extra:
+  # - song: getover
+  #   youtubeshort: creation-01
+  - song: getover
+    youtubeshort: promo-07
+  - song: getover
+    youtubeshort: promo-06
+  # - song: getover
+  #   youtubeshort: promo-05
+  - song: getover
+    youtubeshort: music-video-01
+  - song: getover
+    youtubeshort: teaser-01
+  # - song: getover
+  #   youtubeshort: promo-04
+  # - song: getover
+  #   youtubeshort: promo-03
+  # - song: getover
+  #   youtubeshort: promo-02
+  # - song: getover
+  #   youtubeshort: promo-01
+  # - song: getover
+  #   youtubeshort: promo-00
+
+

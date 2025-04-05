@@ -16,6 +16,15 @@
         description: shibuya eggman X post
         url: https://x.com/shibuya_eggman/status/1765625866816803054
 
+  related:
+  - type: youtubeshort
+    id: TF3IDIX41Q0
+    label: Promo
+    info: studio audio
+    published-date: 2024-03-15
+    related-to:
+    - song: getover
+
 - type: show
   year: 2024
   id: guvol350
@@ -63,6 +72,15 @@
       source:
         description: shibuya eggman X post
         url: https://x.com/shibuya_eggman/status/1787740918298345982
+
+  related:
+  - type: youtubeshort
+    id: PkRKMkZCiIE
+    label: Promo
+    info: studio audio
+    published-date: 2024-05-17
+    related-to:
+    - song: getover
 
 - type: show
   year: 2024

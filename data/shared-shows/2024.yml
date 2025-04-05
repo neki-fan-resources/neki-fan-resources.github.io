@@ -34,6 +34,22 @@
         description: SHIBUYA THE GAME X post
         url: https://x.com/SHIBUYATHEGAME/status/1776084527859061007
 
+  related:
+  - type: youtubeshort
+    id: bRHcOHmtXhU
+    label: Promo
+    info: studio audio
+    published-date: 2024-04-13
+    related-to:
+    - song: getover
+  - type: youtubeshort
+    id: ChYZQj2s1Ik
+    label: Promo
+    info: studio audio
+    published-date: 2024-04-16
+    related-to:
+    - song: getover
+
 - type: show
   year: 2024
   id: sweetsweetsweet
@@ -215,6 +231,15 @@
       source:
         description: NEK! X post
         url: https://x.com/nekiband_jp/status/1804448780873519192
+
+  related:
+  - type: youtubeshort
+    id: E86WMvLxCms
+    label: Promo
+    info: studio audio
+    published-date: 2024-08-12
+    related-to:
+    - song: endlessgame
 
 - type: show
   year: 2024

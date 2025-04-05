@@ -25,10 +25,14 @@ multimedia:
   - youtubevideo: 0YlW7T5fVZ4
   live:
   - youtubevideo: _Oac92XPkyo
+  short:
+  - youtubeshort: MMCK7gW62zU
   additional:
   - youtubevideo: Vh5saxbTlvE
+  - youtubeshort: ayi326KTswk
 
 related:
+# YouTube video
 - type: youtubevideo
   id: Vh5saxbTlvE
   label: Music Video Teaser
@@ -37,3 +41,33 @@ related:
   id: 0YlW7T5fVZ4
   label: Official Music Video
   published-date: 2025-03-05
+# YouTube short
+- type: youtubeshort
+  id: ayi326KTswk
+  label: Teaser Live
+  published-date: 2025-12-15
+  related-to:
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+- type: youtubeshort
+  id: QcmApJ-dFgE
+  label: Promo
+  # shibuya eggman ?
+  info: studio audio
+  published-date: 2025-02-07
+- type: youtubeshort
+  id: 589kXdONCDo
+  label: Teaser
+  published-date: 2025-03-04
+- type: youtubeshort
+  id: GeFi7F99oOw
+  label: Music Video
+  published-date: 2025-03-05
+- type: youtubeshort
+  id: MMCK7gW62zU
+  label: Music Video
+  info: behind the scene
+  published-date: 2025-03-10
+
+

@@ -496,4 +496,12 @@
         description: SNAZZY TUNES 公式 X post
         url: https://x.com/Snazzy_Tunes/status/1851932879170752613
 
+  related:
+  - type: youtubeshort
+    id: -mmjisKakXU
+    label: Promo
+    info: studio audio
+    published-date: 2025-12-14
+    related-to:
+    - song: fool
 

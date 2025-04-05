@@ -14,6 +14,13 @@ cover-image:
       description: YouTube community post
       url: https://www.youtube.com/post/Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 
+songs:
+- maze
+- reigengirl
+- endlessgame
+- blink
+- getover
+
 multimedia:
   additional:
   - youtubevideo: 387bkUm7Dko
@@ -23,10 +30,7 @@ related:
   id: 387bkUm7Dko
   label: Album Teaser
   published-date: 2024-06-03
-
-songs:
-- maze
-- reigengirl
-- endlessgame
-- blink
-- getover
+- type: youtubeshort
+  id: YRmeizMwd1Y
+  label: Album Teaser
+  published-date: 2024-06-03

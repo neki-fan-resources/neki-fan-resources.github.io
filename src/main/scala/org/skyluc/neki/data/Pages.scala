@@ -20,6 +20,7 @@ case class PageId(id: String) extends Id[Page] {
 sealed trait Page extends Item[Page] {
   val id: Id[Page]
   val error: Boolean
+  val relatedTo: List[Id[?]] = Nil
 }
 
 case class MusicPage(

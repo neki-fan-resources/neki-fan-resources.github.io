@@ -32,8 +32,13 @@ case class Album(
     with WithCoverImage[Album] {
   override def errored(): Album = copy(error = true)
 
-  override def withRelatedTo(id: Id[?]): Album = copy(relatedTo = id :: relatedTo)
-
+  override def withRelatedTo(id: Id[?]): Album = {
+    if (relatedTo.contains(id)) {
+      this
+    } else {
+      copy(relatedTo = relatedTo :+ id)
+    }
+  }
 }
 
 object Album {

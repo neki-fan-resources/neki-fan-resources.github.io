@@ -43,12 +43,14 @@ object Pages {
   val HTML_SEPARATOR = "/"
   val TEXT_PLACEHOLDER = "&nbsp;"
 
+  val EXTRA_PATH = "extra"
+
   def fromData(data: Data, errors: List[SiteError]): Iterable[Page] = {
     Iterable(ErrorPage(errors, data), BandPage(data), LivePage(data), MediasPage(data))
       ++ data.pages.values.filterNot(_.error).map(pageFor(_, data))
-      ++ data.albums.values.filterNot(_.error).map(AlbumPage(_, data))
-      ++ data.songs.values.filterNot(_.error).map(SongPage(_, data))
-      ++ data.shows.values.filterNot(_.error).map(ShowPage(_, data))
+      ++ data.albums.values.filterNot(_.error).flatMap(AlbumPage.pagesFor(_, data))
+      ++ data.songs.values.filterNot(_.error).flatMap(SongPage.pagesFor(_, data))
+      ++ data.shows.values.filterNot(_.error).flatMap(ShowPage.pagesFor(_, data))
       ++ data.tours.values.filterNot(_.error).map(TourPage(_, data))
       ++ data.medias.values.filterNot(_.error).map(MediaPage(_, data))
   }

@@ -25,6 +25,7 @@ trait WithErrorSupport[T] {
 trait Item[T <: Item[T]] extends WithErrorSupport[T] {
   val id: Id[T]
   val error: Boolean
+  val relatedTo: List[Id[?]]
   def withRelatedTo(id: Id[?]): T
   def withRelatedToGen(id: Id[?]): Item[T] = withRelatedTo(id)
 }

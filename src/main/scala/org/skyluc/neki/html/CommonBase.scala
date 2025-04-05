@@ -274,6 +274,7 @@ object CommonBase {
   val MAIN_SCROLLABLE = "main-scrollable"
   val MAIN_BACKGROUND = "main-background"
   val MAIN_CONTENT = "main-content"
+  val CLASS_MAIN_TITLE = "main-title"
   val CLASS_MAIN_OVERLAY_HIDDEN = "main-overlay-hidden"
   val CLASS_MAIN_OVERLAY_CLOSE = "main-overlay-close"
 

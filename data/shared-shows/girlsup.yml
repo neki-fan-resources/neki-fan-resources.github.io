@@ -118,6 +118,15 @@
         description: shibuya eggman X post
         url: https://x.com/shibuya_eggman/status/1802603553820643416
 
+  related:
+  - type: youtubeshort
+    id: KDBBqw69Vus
+    label: Promo
+    info: studio audio, with lyrics
+    published-date: 2024-06-22
+    related-to:
+    - song: maze
+
 - type: show
   year: 2024
   id: guvol357

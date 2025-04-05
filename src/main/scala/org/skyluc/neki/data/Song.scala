@@ -31,7 +31,13 @@ case class Song(
 ) extends Item[Song]
     with WithCoverImage[Song] {
   override def errored(): Song = copy(error = true)
-  override def withRelatedTo(id: Id[?]): Song = copy(relatedTo = id :: relatedTo)
+  override def withRelatedTo(id: Id[?]): Song = {
+    if (relatedTo.contains(id)) {
+      this
+    } else {
+      copy(relatedTo = relatedTo :+ id)
+    }
+  }
 
 }
 

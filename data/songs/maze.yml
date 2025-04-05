@@ -27,10 +27,17 @@ multimedia:
   live:
   - youtubevideo: aylfQ09sa4I
   - youtubeshort: XzfOs6kjtUs
+  - youtubeshort: qR2yF3Jb4r4
+  short:
+  - youtubeshort: fZaCODUXQ6k
+  - youtubeshort: YyVP2j7Yw3c
+  - youtubeshort: -WsoxfXBQgs
+  - youtubeshort: AhqVr3xl4dE
   additional:
   - youtubevideo: AqVoa-PMl8I
 
 related:
+# YouTube Videos
 - type: youtubevideo
   id: AqVoa-PMl8I
   label: Music Video Teaser
@@ -43,3 +50,123 @@ related:
   id: hXGPxYalJfk
   label: Kanade Bass play-through
   published-date: 2024-08-29
+# YouTube Shorts
+- type: youtubeshort
+  id: CoLNU-KhFRQ
+  label: Promo
+  info: Shibuya eggman, studio audio
+  published-date: 2024-05-14
+- type: youtubeshort
+  id: vaCGvTEI9yU
+  label: Promo
+  info: Shibuya eggman, studio audio, with lyrics
+  published-date: 2024-05-19
+- type: youtubeshort
+  id: 3Gv44hlzG10
+  label: Promo
+  info: rehearsal room, studio audio
+  published-date: 2024-05-24
+- type: youtubeshort
+  id: g4vw2DntZiI
+  label: Promo
+  info: rehearsal room, studio audio
+  published-date: 2024-05-27
+- type: youtubeshort
+  id: RRgKzA56H5k
+  label: Promo
+  info: Shibuya eggman, studio audio, with lyrics
+  published-date: 2024-06-01
+- type: youtubeshort
+  id: rY_z0WZr4l4
+  label: Promo
+  info: Shibuya eggman, studio audio
+  published-date: 2024-06-13
+- type: youtubeshort
+  id: wNkTokxYCug
+  label: Teaser
+  published-date: 2024-07-20
+- type: youtubeshort
+  id: qiqSjNmuWSs
+  label: Music Video
+  published-date: 2024-07-24
+- type: youtubeshort
+  id: AhqVr3xl4dE
+  label: Music Video
+  info: Kanade focus
+  published-date: 2024-07-27
+- type: youtubeshort
+  id: -WsoxfXBQgs
+  label: Music Video
+  info: Natsu focus
+  published-date: 2024-07-28
+- type: youtubeshort
+  id: YyVP2j7Yw3c
+  label: Music Video
+  info: Cocoro focus
+  published-date: 2024-07-29
+- type: youtubeshort
+  id: fZaCODUXQ6k
+  label: Music Video
+  info: Hika focus
+  published-date: 2024-07-31
+
+
+
+media:
+  # video:
+  # - song: maze
+  #   youtube: music-video-01
+  # - song: maze
+  #   youtube: kanade-playthrough-01
+  # live:
+  # - show:
+  #     year: 2024
+  #     id: 2ndonemanlive
+  #   youtube: maze-01
+  # - show:
+  #     year: 2024
+  #     id: 1stonemanlive
+  #   youtubeshort: maze-01
+  # - show:
+  #     year: 2024
+  #     id: shibuyachelseahotel
+  #   youtubeshort: maze-01
+  short:
+  # - song: maze
+  #   youtubeshort: hika-01
+  # - song: maze
+  #   youtubeshort: cocoro-01
+  # - song: maze
+  #   youtubeshort: natsu-01
+  # - song: maze
+  #   youtubeshort: kanade-01
+  # additional:
+  # - song: maze
+  #   youtube: teaser-01
+  extra:
+  # - show:
+  #     year: 2024
+  #     id: 2ndonemanlive
+  #   youtubeshort: maze-01
+  # - song: maze
+  #   youtubeshort: promo-09
+  # - song: maze
+  #   youtubeshort: promo-08
+  # - song: maze
+  #   youtubeshort: music-video-01
+  - song: maze
+    youtubeshort: teaser-01
+  # - song: maze
+  #   youtubeshort: promo-07
+  # - song: maze
+  #   youtubeshort: promo-06
+  # - song: maze
+  #   youtubeshort: promo-05
+  # - song: maze
+  #   youtubeshort: promo-04
+  # - song: maze
+  #   youtubeshort: promo-03
+  # - song: maze
+  #   youtubeshort: promo-02
+  # - song: maze
+  #   youtubeshort: promo-01

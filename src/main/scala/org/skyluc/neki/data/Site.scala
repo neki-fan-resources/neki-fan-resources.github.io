@@ -10,6 +10,7 @@ case class Site(
     error: Boolean = false,
 ) extends Item[Site] {
   val id = Site.ID
+  val relatedTo: List[Id[?]] = Nil
 
   override def errored() = copy(error = true)
   override def withRelatedTo(id: Id[?]): Site = ???

@@ -267,6 +267,15 @@
         description: CLUB UPSET X post
         url: https://x.com/clubupset/status/1827255587870273643
 
+  related:
+  - type: youtubeshort
+    id: OvaY9jENatI
+    label: Promo
+    info: studio audio
+    published-date: 2024-09-11
+    related-to:
+    - song: maze
+
 - type: show
   year: 2024
   id: soundshocktokyo2024

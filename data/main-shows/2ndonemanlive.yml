@@ -45,6 +45,13 @@ related:
   - song: maze
 # YouTube shorts
 - type: youtubeshort
+  id: 25AE7t_8eEg
+  label: Promo
+  info: rehearsal room, studio audio
+  published-date: 2024-11-23
+  related-to:
+  - song: maze
+- type: youtubeshort
   id: AIM5rdixj4E
   label: Live
   published-date: 2024-12-18

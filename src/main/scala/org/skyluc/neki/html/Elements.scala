@@ -26,3 +26,19 @@ object MainIntro {
 
   val CLASS_MAIN_INTRO = "main-intro"
 }
+
+object ExtraLink {
+  def generate(link: String): Div = {
+    div()
+      .withClass(CLASS_MAIN_EXTRA)
+      .appendElements(
+        a().withHref(link).appendElements(text(EXTRA_TEXT))
+      )
+  }
+
+  // ----
+
+  val EXTRA_TEXT = "EXTRA →"
+
+  val CLASS_MAIN_EXTRA = "main-extra"
+}

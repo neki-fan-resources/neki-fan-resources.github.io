@@ -5,8 +5,9 @@ import org.skyluc.neki.data.Data
 import org.skyluc.neki.html._
 import org.skyluc.html.BodyElement
 import org.skyluc.neki.data.Show
+import org.skyluc.neki.data.MultiMediaId
 
-class ShowPage(val show: Show, data: Data) extends Page(data) {
+class ShowPage(val show: Show, extraPage: Boolean, data: Data) extends Page(data) {
 
   import ShowPage._
 
@@ -37,11 +38,18 @@ class ShowPage(val show: Show, data: Data) extends Page(data) {
       Show.FROM_KEY,
     )
 
+    val extraSection = if (extraPage) {
+      List(ExtraLink.generate("/" + extraPath(show).toString()))
+    } else {
+      Nil
+    }
+
     List(
       ItemDetails.generate(CompiledData.getShow(show.id, data))
     ) ::: videoSection
       ::: shortSection
       ::: additionalSection
+      ::: extraSection
   }
 
 }
@@ -51,6 +59,7 @@ object ShowPage {
 
   val DESIGNATION = "Show"
   val TITLE_DESIGNATION = " - " + DESIGNATION
+  val TITLE_DESIGNATION_EXTRA = " - " + DESIGNATION + " extra"
 
   val URL_SETLISTFM_BASE = "https://www.setlist.fm/setlist/"
   val LABEL_VENUE = "venue"
@@ -61,4 +70,26 @@ object ShowPage {
   val SECTION_VIDEO_TEXT = "Video"
   val SECTION_SHORT_TEXT = "Short"
   val SECTION_ADDITIONAL_TEXT = "Additional"
+
+  def extraPath(show: Show): Path =
+    Path.of(SHOW_PATH, Pages.EXTRA_PATH, show.id.year, show.id.id + Pages.HTML_EXTENSION)
+
+  def extraMultimedia(show: Show): List[MultiMediaId] = {
+    val allMultiMediaInMainPage = show.multimedia.all()
+    val allRelatedMultiMedia: List[MultiMediaId] = show.relatedTo.flatMap {
+      case m: MultiMediaId =>
+        Some(m)
+      case _ =>
+        None
+    }
+    allRelatedMultiMedia.filterNot(allMultiMediaInMainPage.contains(_))
+  }
+
+  def pagesFor(show: Show, data: Data): List[Page] = {
+    if (extraMultimedia(show).isEmpty) {
+      List(ShowPage(show, false, data))
+    } else {
+      List(ShowPage(show, true, data), ShowExtraPage(show, data))
+    }
+  }
 }

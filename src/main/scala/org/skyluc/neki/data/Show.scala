@@ -34,7 +34,13 @@ case class Show(
 ) extends Item[Show]
     with WithCoverImage[Show] {
   override def errored(): Show = copy(error = true)
-  override def withRelatedTo(id: Id[?]): Show = copy(relatedTo = id :: relatedTo)
+  override def withRelatedTo(id: Id[?]): Show = {
+    if (relatedTo.contains(id)) {
+      this
+    } else {
+      copy(relatedTo = relatedTo :+ id)
+    }
+  }
 }
 
 object Show {
@@ -61,7 +67,13 @@ case class Tour(
 ) extends Item[Tour]
     with WithCoverImage[Tour] {
   override def errored(): Tour = copy(error = true)
-  override def withRelatedTo(id: Id[?]): Tour = copy(relatedTo = id :: relatedTo)
+  override def withRelatedTo(id: Id[?]): Tour = {
+    if (relatedTo.contains(id)) {
+      this
+    } else {
+      copy(relatedTo = relatedTo :+ id)
+    }
+  }
 }
 
 case class TourId(id: String) extends Id[Tour] {

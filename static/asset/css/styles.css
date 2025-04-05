@@ -83,6 +83,7 @@ header {
   position: sticky;
   top: 0;
   min-height: 3rem;
+  z-index: 10;
 }
 
 main {
@@ -153,6 +154,11 @@ h2 {
   padding: 0 1rem 0.5rem 1rem;
 }
 
+.main-extra {
+  text-align: end;
+  margin: 1rem 1rem 0 0;
+}
+
 /* main content styling */
 
 h2 {
@@ -162,8 +168,19 @@ h2 {
   font-weight: 700;
 }
 
+.main-title {
+  margin: 0 0 0 4rem;
+}
+
 .main-intro {
   border-bottom: solid 1px lightgray;
+}
+
+.main-extra {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* navigation bar layout */
@@ -180,7 +197,7 @@ nav {
   position: absolute;
   top: 0.1rem;
   left: 0.1rem;
-  z-index: 10;
+  z-index: 20;
 }
 
 .nav-logo-img {

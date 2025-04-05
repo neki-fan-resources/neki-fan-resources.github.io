@@ -219,7 +219,12 @@ object DataBuilder {
   class Step4(data: Data, errors: List[DataError]) {
     def expandRelatedTo(): Step5 = {
       val updatedData =
-        List(expandRelatedToFromSongs, expandRelatedToFromAlbums, expandRelatedToFromShows)
+        List(
+          addReferencedMultiMediaToRelatedToForAlbum,
+          addReferencedMultiMediaToRelatedToForSong,
+          addReferencedMultiMediaToRelatedToForShow,
+          expandRelatedToFromAllToAll,
+        )
           .foldLeft(data)((acc, f) => f(acc))
 
       Step5(updatedData, errors)
@@ -252,6 +257,61 @@ object DataBuilder {
     def expandRelatedToFromAlbum(album: Album, data: Data): Data = {
       val updatedMultimedias = album.multimedia.all().flatMap(data.multimedia.get).map(_.withRelatedTo(album.id))
       data.copy(multimedia = data.multimedia ++ updatedMultimedias.map(m => (m.id, m)).toMap)
+    }
+
+    def addReferencedMultiMediaToRelatedToForAlbum(data: Data): Data = {
+      val albums = data.albums.view.mapValues { a =>
+        addReferencedMultiMediaToRelatedTo(a.multimedia.all(), a)
+      }
+      data.copy(albums = albums.toMap)
+    }
+
+    def addReferencedMultiMediaToRelatedToForSong(data: Data): Data = {
+      val songs = data.songs.view.mapValues { s =>
+        addReferencedMultiMediaToRelatedTo(s.multimedia.all(), s)
+      }
+      data.copy(songs = songs.toMap)
+    }
+
+    def addReferencedMultiMediaToRelatedToForShow(data: Data): Data = {
+      val shows = data.shows.view.mapValues { s =>
+        addReferencedMultiMediaToRelatedTo(s.multimedia.all(), s)
+      }
+      data.copy(shows = shows.toMap)
+    }
+
+    def addReferencedMultiMediaToRelatedTo[T <: Item[T]](multimedias: List[MultiMediaId], item: T): T = {
+      // TODO: add a withRelatedTo(List) method, to avoid excessive calls and object creation
+      multimedias.foldLeft(item)((i, m) => i.withRelatedTo(m))
+    }
+
+    def expandRelatedToFromAllToAll(data: Data): Data = {
+      expandRelatedToToAll(
+        data.multimedia.values,
+        data,
+      )
+    }
+
+    def expandRelatedToToAll(items: Iterable[Item[?]], data: Data): Data = {
+      items.foldLeft(data) { (d, i) =>
+        val res = i.relatedTo.foldLeft(d) { (d2, relTo) =>
+          relTo match {
+            case mId: MultiMediaId =>
+              d2.copy(multimedia = d2.multimedia.updatedWith(mId)(_.map(_.withRelatedTo(i.id))))
+            case aId: AlbumId =>
+              d2.copy(albums = d2.albums.updatedWith(aId)(_.map(_.withRelatedTo(i.id))))
+            case sId: ShowId =>
+              d2.copy(shows = d2.shows.updatedWith(sId)(_.map(_.withRelatedTo(i.id))))
+            case sId: SongId =>
+              d2.copy(songs = d2.songs.updatedWith(sId)(_.map(_.withRelatedTo(i.id))))
+            case tId: TourId =>
+              d2.copy(tours = d2.tours.updatedWith(tId)(_.map(_.withRelatedTo(i.id))))
+            case _ =>
+              d2
+          }
+        }
+        res
+      }
     }
   }
 

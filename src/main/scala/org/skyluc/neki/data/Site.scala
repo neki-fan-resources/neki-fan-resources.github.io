@@ -55,6 +55,7 @@ case class Navigation(
 case class NavigationItem(
     name: String,
     link: String,
+    highlight: List[String],
 )
 
 case class SocialMedia(

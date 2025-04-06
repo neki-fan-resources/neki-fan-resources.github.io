@@ -48,21 +48,42 @@ navigation:
   main:
   - name: Band
     link: /
+    highlight:
+    - index.html
   - name: Music
     link: /music.html
+    highlight:
+    - music.html
+    - song
+    - album
   - name: Live
     link: /live.html
+    highlight:
+    - live.html
   - name: Shows
     link: /shows.html
+    highlight:
+    - shows.html
+    - show
+    - tour
   - name: Media
     link: /medias.html
+    highlight:
+    - medias.html
+    - media
   - name: Chronology
     link: /chronology.html
+    highlight:
+    - chronology.html
   support:
   - name: Sources
     link: /sources.html
+    highlight:
+    - sources.html
   - name: About
     link: /about.html
+    highlight:
+    - about.html
 
 youtubevideo:
 - account: neki

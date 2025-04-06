@@ -252,6 +252,10 @@ nav {
   display: block;
 }
 
+.nav-item-selected {
+  text-decoration: underline;
+}
+
 .nav-main-item {
   font-size: 1.1rem;
   line-height: 1.1rem;

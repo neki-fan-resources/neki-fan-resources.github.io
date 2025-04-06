@@ -266,6 +266,7 @@ case class Navigation(
 case class NavigationItem(
     name: String,
     link: String,
+    highlight: List[String],
 ) derives YamlCodec
 
 case class ShowId(

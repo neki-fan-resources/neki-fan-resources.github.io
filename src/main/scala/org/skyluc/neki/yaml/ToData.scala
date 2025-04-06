@@ -458,7 +458,7 @@ object ToData {
   }
 
   def process(navigationItem: NavigationItem): Either[ParserError, dNavigationItem] = {
-    Right(dNavigationItem(navigationItem.name, navigationItem.link))
+    Right(dNavigationItem(navigationItem.name, navigationItem.link, navigationItem.highlight))
   }
 
   def process(refMediaIds: RefMediaIds): dRefMediaIds = {

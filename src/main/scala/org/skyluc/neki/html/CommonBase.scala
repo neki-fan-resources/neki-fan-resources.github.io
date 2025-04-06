@@ -152,12 +152,17 @@ object CommonBase {
           .withClass(CLASS_NAV_MAIN_ITEMS)
           .appendElements(
             page.data.site.navigation.main.map { item =>
-              a()
+              val element = a()
                 .withClass(CLASS_NAV_MAIN_ITEM)
                 .withHref(item.link)
                 .appendElements(
                   text(item.name)
                 )
+              if (item.highlight.contains(page.path().getName(0).toString())) {
+                element.withClass(CLASS_NAV_ITEM_SELECTED)
+              } else {
+                element
+              }
             }*
           ),
         div()
@@ -292,6 +297,7 @@ object CommonBase {
   val CLASS_NAV_MAIN_ITEM = "nav-main-item"
   val CLASS_NAV_SUPPORT_ITEMS = "nav-support-items"
   val CLASS_NAV_SUPPORT_ITEM = "nav-support-item"
+  val CLASS_NAV_ITEM_SELECTED = "nav-item-selected"
 
   // footer
   val CLASS_FOOTER_CONTENT = "footer-content"

@@ -112,4 +112,103 @@ related:
   info: shibuya eggman, studio audio
   published-date: 2024-11-04
 
+
+lyrics:
+  status:
+    code: warning
+    description: Data copied from the sources. Not reviewed.
+  languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      notranslation: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=uhy1HnFXTH8
+    - id: en
+      name: english translation
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=uhy1HnFXTH8
+  sections:
+    - lines:
+      - oll: A lonely night 指先で繋がれるタイムライン
+        en: A lonely night Timelines connected at your fingertips
+      - oll: 顔のない言葉飛び交って 孤独をあおった
+        en: Words flit about expressionlessly, kindling loneliness.
+      - oll: あの子の叫びも泡と消えて 一瞬で埋もれる
+        en: That child's screams disappear like bubbles, drowned out in an instant.
+      - oll: There is nothing real.
+      - oll: A lonely night 指先で繋がれるタイムライン
+        en: A lonely night Timelines connected at your fingertips
+      - oll: 顔のない言葉飛び交って 孤独をあおった
+        en: Words flit about expressionlessly, kindling loneliness.
+      - oll: あの子の叫びも泡と消えて 一瞬で埋もれる
+        en: That child's screams disappear like bubbles, drowned out in an instant.
+      - oll: There is nothing real.
+      - oll: 「明日世界が終わっていればいいのに」と願う
+        en: I wish the world would end tomorrow.
+      - oll: おとぎ話は残酷なまま続いていくから
+        en: The fairy tale continues cruelly.
+      - oll: 別の誰かになりたいわけじゃない
+        en: I don't want to be someone else.
+      - oll: 自分を愛してみたいだけなのに
+        en: I just want to love myself.
+      - oll: People crying every night ハートを見せてよ
+        en: People crying every night Show me your heart.
+      - oll: People crying every night 無力で構わない
+        en: People crying every night I don't care if I'm powerless.
+      - oll: People crying every night 君の痛みを
+        en: People crying every night Your pain.
+      - oll: People crying every night 僕も知りたいんだ
+        en: People crying every night I want to know too.
+      - oll: A boring night 現実を塗り替えるタイムライン
+        en: A boring night Timelines that rewrite reality
+      - oll: くだらない理想に阻まれて 自分を呪った
+        en: I cursed myself for letting my stupid ideals get in the way.
+      - oll: ねえ 他人の不幸せに群がる害虫のよう
+        en: Like vermin swarming around other people's misery.
+      - oll: ここから抜け出したい
+        en: I want to get out of here.
+      - oll: Everything is fiction.
+      - oll: 少女は今日も歩き続ける 居場所を求めて
+        en: A girl continues to walk today in search of her place.
+      - oll: 空虚な嘘と分かっていても 何のために？
+        en: Even though you know it's an empty lie, for what?
+      - oll: たったひとりが抱きしめてくれれば
+        en: If only one person would give me a hug
+      - oll: 誰もが震えて愛に飢えてる
+        en: Everyone is trembling and hungry for love.
+      - oll: People crying every night 一番の夢は
+        en: People crying every night My biggest dream
+      - oll: People crying every night どうして叶わない？
+        en: People crying every night Why can't it come true?
+      - oll: People crying every night いつかわかるのか
+        en: People crying every night Will we know someday?
+      - oll: People crying every night 何が大切か
+        en: People crying every night What is important
+      - oll: (We are always feeling lonely. )
+      - oll: こんな寂しさがあの子に届いたらいいな (We are always looking for love.)
+        en: I hope this kind of loneliness reaches that girl. (We are always looking for love.)
+      - oll: だけど 出口の見えない暗闇の中で
+        en: But in the darkness with no way out
+      - oll: 誰もがもがいて今日を生きてる
+        en: Everyone struggles to live today.
+      - oll: People crying every night ハートを見せてよ
+        en: People crying every night Show me your heart.
+      - oll: People crying every night 無力で構わない
+        en: People crying every night I don't care if I'm powerless.
+      - oll: People crying every night 君の痛みを
+        en: People crying every night Your pain.
+      - oll: People crying every night 僕も知りたいんだ
+        en: People crying every night I want to know too.
+      - oll: (We are always feeling lonely. )
+      - oll: こんな寂しさがあの子に届いたらいいな (We are always looking for love.)
+        en: I hope this kind of loneliness reaches that girl. (We are always looking for love.)
+
+
   

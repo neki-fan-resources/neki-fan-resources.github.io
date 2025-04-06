@@ -2,8 +2,6 @@ package org.skyluc.neki
 
 import java.nio.file.Paths
 import org.skyluc.neki.yaml.{Parser, ParserResult}
-import java.io.FileReader
-import java.nio.CharBuffer
 import org.skyluc.neki.data.YamlFiles
 import org.skyluc.neki.data.DataBuilder
 import org.skyluc.neki.yaml.ToData
@@ -21,24 +19,9 @@ object Main {
 
     val dataFiles = YamlFiles.listAllFiles(dataFolder)
 
-    // TODO: better fix than increasing this
-    val buffer = CharBuffer.allocate(20480)
-
     val parserResults: List[ParserResult] = dataFiles.flatMap { path =>
-      buffer.clear()
+      Parser.parse(path, path.subpath(dataFolder.getNameCount(), path.getNameCount()).toString())
 
-      val lengthRead = new FileReader(path.toFile()).read(buffer)
-
-      val yaml = if (lengthRead > 0) {
-        buffer.slice(0, lengthRead).toString()
-      } else {
-        ""
-      }
-
-      Parser.parse(
-        yaml,
-        path.subpath(dataFolder.getNameCount(), path.getNameCount()).toString(),
-      )
     }
 
     val items = ToData.process(parserResults)

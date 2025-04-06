@@ -9,6 +9,11 @@ import org.skyluc.neki.SiteError
 import org.virtuslab.yaml.Node.MappingNode
 import org.virtuslab.yaml.Node.ScalarNode
 import org.virtuslab.yaml.Node.SequenceNode
+import java.nio.file.Path
+import java.io.FileReader
+import scala.annotation.tailrec
+import java.io.Reader
+import java.nio.CharBuffer
 
 case class ParserResult(
     main: Either[ParserError, Element],
@@ -16,6 +21,27 @@ case class ParserResult(
 )
 
 object Parser {
+
+  @tailrec private def readFile(reader: Reader, buffer: CharBuffer, builder: StringBuilder): String = {
+    val lengthRead = reader.read(buffer)
+
+    if (lengthRead > 0) {
+      builder.append(buffer.slice(0, lengthRead))
+      readFile(reader, buffer.clear(), builder)
+    } else {
+      builder.toString()
+    }
+  }
+
+  def parse(path: Path, filename: String): Seq[ParserResult] = {
+    val reader = new FileReader(path.toFile())
+
+    val yaml = readFile(reader, CharBuffer.allocate(1024), new StringBuilder)
+
+    reader.close()
+
+    parse(yaml, filename)
+  }
 
   def parse(yaml: String, filename: String): Seq[ParserResult] = {
 

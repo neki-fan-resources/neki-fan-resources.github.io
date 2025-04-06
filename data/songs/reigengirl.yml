@@ -100,3 +100,96 @@ related:
   info: Shibuya eggman, studio audio
   published-date: 2024-11-12
 
+
+lyrics:
+  status:
+    code: warning
+    description: Data copied from the sources. Not reviewed.
+  languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      notranslation: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=rq0dca9mFfI
+    - id: en
+      name: english translation
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=rq0dca9mFfI
+  sections:
+    - lines:
+      - oll: 気狂イ喧騒 忘却情緒
+        en: Crazy fuss and forgotten emotions
+      - oll: 胡散臭い街で踊る
+        en: Dancing in a somewhat dubious city
+      - oll: 少女に可愛げは皆無
+        en: The girl has no cuteness at all
+      - oll: 割れたネイル 引っ掻いた傷
+        en: Broken nails, scratch
+      - oll: 赤く染まれいっそ全て
+        en: Let it all turn red
+      - oll: 思い出は何ひとつ アタシたちを救わない
+        en: No thought will save us
+      - oll: ねぇ神様 Take me away in chaos!
+        en: Hey, God. Take me away in chaos!
+    - lines:
+      - oll: 五臓六腑に染み渡ってく 悲しみを誰か壊して
+        en: It seeps into all of my internal organs, someone break that sadness
+      - oll: 伴う痛みならば厭わない 令現少女は泣いていた
+        en: I don't care if it's accompanied by pain, REIGENGIRL was crying
+      - oll: アスファルトに咲く薔薇になった
+        en: It became a rose on the asphalt
+      - oll: 夜空だけが ただそれを見てた
+        en: Just the night sky, I was just watching it
+    - lines:
+      - oll: 悪戯に剥がした瘡蓋
+        en: Scabs peeled off as a prank
+      - oll: 次第に癖になっていくわ
+        en: It gradually becomes a habit
+      - oll: 悲しみもそうであれと願い
+        en: Hopefully grief will do the same
+      - oll: ビルの間を蝶々は揺蕩う
+        en: Butterflies flutter between buildings
+      - oll: 何処に向かうわけでもないわ
+        en: Not heading anywhere in particular
+      - oll: 居場所ではなく ただ生きる意味を教えて
+        en: Not a place to stay, just tell me what it means to live
+      - oll: ねぇ神様 Show me the way to dark
+        en: Hey, God. Show me the way to dark
+    - lines:
+      - oll: 存在定義を掻きむしって 傷ダラケで愛を叫んでる
+        en: Scratch the definition of existence, he's covered in scars and crying out for love
+      - oll: 絶望などただのテンプレート
+        en: Despair is just a template
+      - oll: 令現少女は夢があった 輝かしい未来があった
+        en: REIGENGIRL had a dream,There was a bright future ahead
+      - oll: この街じゃ Nobody knows
+        en: In this city, Nobody knows
+    - lines:
+      - oll: Take me away in chaos
+      - oll: Show me the way to dark
+      - oll: ねぇ もうわかったから
+        en: Hey, I've got it all figured out
+      - oll: 何者でもないアタシ達に
+        en: For us who are nobody
+      - oll: 淡い期待からの旅立ちに
+        en: From Faint Expectations to Departure
+      - oll: いい加減射してヒカリ
+    - lines:
+      - oll: 五臓六腑に染み渡ってく 悲しみを誰か壊して
+        en: It seeps into all of my internal organs, someone break that sadness
+      - oll: 伴う痛みならば厭わない 令現少女は輝いた
+        en: I don't care if it's accompanied by pain, REIGENGIRL was shining
+      - oll: 名も無き星のひとつになった
+        en: It became one of the nameless stars
+      - oll: 夜空だけがただそれを見てた
+        en: Just the night sky, I was just watching it
+      - oll: なにもかもなくなれ
+        en: I want it all to go away
+

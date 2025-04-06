@@ -324,7 +324,7 @@ object ToData {
         ("gg", List(dLyricsLineEntry(Some(entry), None)))
       },
       line.en.map { entry =>
-        ("er", List(dLyricsLineEntry(Some(entry), None)))
+        ("en", List(dLyricsLineEntry(Some(entry), None)))
       },
     ).flatten
     if (languages.isEmpty) {

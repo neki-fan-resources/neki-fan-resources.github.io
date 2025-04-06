@@ -128,61 +128,126 @@ related:
   published-date: 2025-03-03
 
 
-media:
-  video:
-  - song: getover
-    youtube: music-video-01
-  - song: getover
-    youtube: kanade-playthrough-01
-  live:
-  - show:
-      year: 2024
-      id: 2ndonemanlive
-    youtubeshort: getover-01
-  short:
-  # - song: getover
-  #   youtubeshort: cocoro-02
-  - song: getover
-    youtubeshort: hika-02
-  - song: getover
-    youtubeshort: kanade-02
-  - song: getover
-    youtubeshort: natsu-02
-  # - song: getover
-  #   youtubeshort: hika-01
-  # - song: getover
-  #   youtubeshort: cocoro-01
-  - song: getover
-    youtubeshort: natsu-01
-  - song: getover
-    youtubeshort: kanade-01
-  additional:
-  # - song: getover
-  #   youtube: teaser-01
-  - song: getover
-    youtubeshort: music-video-02
-  extra:
-  # - song: getover
-  #   youtubeshort: creation-01
-  - song: getover
-    youtubeshort: promo-07
-  - song: getover
-    youtubeshort: promo-06
-  # - song: getover
-  #   youtubeshort: promo-05
-  - song: getover
-    youtubeshort: music-video-01
-  - song: getover
-    youtubeshort: teaser-01
-  # - song: getover
-  #   youtubeshort: promo-04
-  # - song: getover
-  #   youtubeshort: promo-03
-  # - song: getover
-  #   youtubeshort: promo-02
-  # - song: getover
-  #   youtubeshort: promo-01
-  # - song: getover
-  #   youtubeshort: promo-00
-
+lyrics:
+  status:
+    code: warning
+    description: Data copied from the sources. Not reviewed.
+  languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video description)
+      active: true
+      fixed: true
+      notranslation: true
+      source:
+        description: from YouTube Official Music Video description
+        url: https://www.youtube.com/watch?v=TWbLqba3oag
+    - id: en
+      name: english translation
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=TWbLqba3oag
+  sections:
+    - lines:
+      - oll: 完璧主義者の Falling down
+        en: Perfectionist’s Falling down
+      - oll: 完全体は脆いもの
+        en: Perfection is fragile
+      - oll: 最高潮に至ってしまえば Going down
+        en: Once the summit is reached,Going down
+    - lines:
+      - oll: 完成された Story line
+        en: A perfected story line
+      - oll: ここから何もイメージできやしない
+        en: I can't image anything from here
+      - oll: Do you think you need me?
+    - lines:
+      - oll: 関係性まで Organize
+        en: Organize even the relationships
+      - oll: 簡単に終わる今日みたい
+        en: It feels like a day that ends easily
+      - oll: 最高潮も終わってしまえば Breaking down
+        en: Even the peak ends up breaking down
+    - lines:
+      - oll: 関心ないなら Sorry, Bye
+        en: If you're not interested, sorry, bye
+      - oll: ここから何も始まりはしない
+        en: Nothing starts here
+      - oll: I don’t think you need me this time
+    - lines:
+      - oll: Oh now I just let you go.
+      - oll: I’m moving on and carrying on.
+      - oll: どうせ前にしか道は無い
+        en: There's only one way forward anyway
+      - oll: 絶望だって 拾い集めてさあ
+        en: Hopelessness Pick it up and collect it
+    - lines:
+      - oll: 壊しても行こうじゃない
+        en: We'll go even if we have to break it
+      - oll: I don’t say that you’re wasting my time
+      - oll: 後悔はない
+        en: No regrets
+      - oll: I kiss myself goodbye
+    - lines:
+      - oll: 関係ないの Crossing line
+        en: It doesn't matter, crossing line
+      - oll: 完成なんてしない様に
+        en: So that it never gets completed
+      - oll: 最高潮が分かんないくらいに Let’s get down
+        en: I don't even know what the highest peak is, Let’s get down
+    - lines:
+      - oll: 関心ないのは Sorry, Bye
+        en: Not interested in, sorry, bye
+      - oll: 全員認める者じゃなくて良い
+        en: Not everyone has to admit it
+      - oll: I don’t think I need you this time
+    - lines:
+      - oll: I’m walking on
+      - oll: And I don’t wanna shut these paths away
+    - lines:
+      - oll: Don’t tell me how
+      - oll: Cuz this is my life to live
+    - lines:
+      - oll: Again I just let you go.
+      - oll: I’m over you and carrying on
+      - oll: 止まってしまいたくは無い
+        en: I don't want to stop
+      - oll: 答えなんて 見つけなくていい
+        en: You don't have to find the answer
+    - lines:
+      - oll: 壊したら行けるじゃない
+        en: Because we can go if we break it
+      - oll: I can’t hold it back anymore
+      - oll: 後退はない
+        en: No setbacks
+      - oll: I kiss myself goodbye
+    - lines:
+      - oll: I’m walking on
+      - oll: And I don’t wanna shut these paths away
+    - lines:
+      - oll: Don’t tell me how
+      - oll: Cuz this is my life to live
+    - lines:
+      - oll: So now I just let you go.
+      - oll: I’m moving on and carrying on.
+      - oll: どうせ前にしか道は無い
+        en: There's only one way forward anyway
+      - oll: 絶望だって 拾い集めてさあ
+        en: Hopelessness Pick it up and collect it
+    - lines:
+      - oll: Now I can live my life.
+      - oll: I’m moving on and carrying on.
+      - oll: 止まってしまいたくは無い
+        en: I don't want to stop
+      - oll: 答えなんて見つけなくていい
+        en: You don't have to find the answer
+    - lines:
+      - oll: 壊れても行こうじゃない
+        en: Let’s go even if it breaks
+      - oll: I can’t hold it back anymore
+      - oll: 後退はない
+        en: No setbacks
+      - oll: I kiss myself goodbye
 

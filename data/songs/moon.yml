@@ -23,29 +23,28 @@ multimedia:
 lyrics:
   status:
     code: warning
-    description: Data copied from the sources. Not reviewed.
+    description: Data copied from the sources. Unofficial translation.
   languages:
-    - id: ol
-      name: original lyrics
-      active: true
-      fixed: true
-      notranslation: true
-      source:
-        label: original lyrics
-        description: Lyricfind
-        url: https://lyrics.lyricfind.com/lyrics/nek-moon
-    - id: ro
-      name: rōmaji
-      notranslation: true
-      active: true
-    - id: ww
-      name: word by word translation
-      details: (using jisho.org)
-      baseurl: https://jisho.org/search/
-      urltext: J
-    - id: gg
-      name: english translation
-      details: aided by Google Gemini (2.0 Flash Thinking Experimental). 
+  - id: ol
+    name: original lyrics
+    active: true
+    fixed: true
+    notranslation: true
+    source:
+      description: Lyricfind
+      url: https://lyrics.lyricfind.com/lyrics/nek-moon
+  - id: ro
+    name: rōmaji
+    notranslation: true
+    active: true
+  - id: ww
+    name: word by word translation
+    details: (using jisho.org)
+    baseurl: https://jisho.org/search/
+    urltext: J
+  - id: gg
+    name: english translation
+    details: aided by Google Gemini (2.0 Flash Thinking Experimental). 
   sections:
   - lines:
     - ol:

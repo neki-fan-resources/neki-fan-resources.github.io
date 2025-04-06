@@ -26,6 +26,7 @@ case class Song(
     credits: Option[Credits],
     coverImage: CoverImage,
     multimedia: MultiMediaBlock,
+    lyrics: Option[Lyrics],
     error: Boolean = false,
     relatedTo: List[Id[?]] = Nil,
 ) extends Item[Song]

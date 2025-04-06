@@ -137,5 +137,40 @@ case class Credits(
 )
 
 case class Source(
-    description: String
+    // TODO: require a label
+    // label: String,
+    description: String,
+    // url: Option[String],
+)
+
+case class Lyrics(
+  status: LyricsStatus,
+  languages: List[LyricsLanguage],
+  sections: List[LyricsSection],
+)
+
+case class LyricsLanguage(
+  id: String,
+  name: String,
+  details: Option[String],
+  baseurl: Option[String],
+  urltext: Option[String],
+  active: Boolean = false,
+  fixed: Boolean = false,
+  notranslation: Boolean = false,
+  source: Option[Source],
+)
+
+case class LyricsLineEntry(
+  w: Option[String],
+  d: Option[String],
+)
+
+case class LyricsSection(
+  lines: List[Map[String, List[LyricsLineEntry]]]
+)
+
+case class LyricsStatus(
+  code: String,
+  description: String,
 )

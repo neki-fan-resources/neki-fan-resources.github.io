@@ -16,6 +16,11 @@ import org.skyluc.neki.data.{
   FileCoverImage => dFileCoverImage,
   Id => dId,
   Item => dItem,
+  Lyrics => dLyrics,
+  LyricsLanguage => dLyricsLanguage,
+  LyricsLineEntry => dLyricsLineEntry,
+  LyricsSection => dLyricsSection,
+  LyricsStatus => dLyricsStatus,
   Media => dMedia,
   MediaId => dMediaId,
   MediaMarker => dMediaMarker,
@@ -219,22 +224,14 @@ object ToData {
     }
   }
 
-  def process(credits: Credits): Either[ParserError, dCredits] = {
-    for {
-      source <- boxEitherOption(credits.source.map(process))
-    } yield {
-      dCredits(credits.lyricist, credits.composer, source)
-    }
+  def process(credits: Credits): dCredits = {
+    dCredits(credits.lyricist, credits.composer, credits.source.map(process))
   }
 
   def process(coverImage: CoverImage, id: dId[?]): Either[ParserError, dCoverImage] = {
     val candidates: List[Either[ParserError, dCoverImage]] = List(
       coverImage.file.map { file =>
-        for {
-          source <- process(file.source)
-        } yield {
-          dFileCoverImage(file.filename, source)
-        }
+        Right(dFileCoverImage(file.filename, process(file.source)))
       },
       coverImage.album.map { album =>
         Right(dAlbumCoverImage(dAlbumId(album)))
@@ -273,6 +270,75 @@ object ToData {
         Left(ParserError(id, "No id reference specified"))
       case _ =>
         Left(ParserError(id, "Too many id references specified"))
+    }
+  }
+
+  def process(lyrics: Lyrics, id: dId[?]): Either[ParserError, dLyrics] = {
+    val status = dLyricsStatus(lyrics.status.code, lyrics.status.description)
+    val languages = lyrics.languages.map(process)
+    for {
+      sections <- throughList(lyrics.sections) { section =>
+        process(section, id)
+      }
+    } yield {
+      dLyrics(status, languages, sections)
+    }
+  }
+
+  def process(language: LyricsLanguage): dLyricsLanguage = {
+    dLyricsLanguage(
+      language.id,
+      language.name,
+      language.details,
+      language.baseurl,
+      language.urltext,
+      language.active,
+      language.fixed,
+      language.notranslation,
+      language.source.map(process(_)),
+    )
+  }
+
+  def process(line: LyricsLine, id: dId[?]): Either[ParserError, Map[String, List[dLyricsLineEntry]]] = {
+    val languages: List[(String, List[dLyricsLineEntry])] = List(
+      line.ol.map { entries =>
+        ("ol", entries.map(e => dLyricsLineEntry(Some(e), None)))
+      },
+      line.oll.map { entry =>
+        ("ol", List(dLyricsLineEntry(Some(entry), None)))
+      },
+      line.tr.map { entries =>
+        ("tr", entries.map(e => dLyricsLineEntry(Some(e), None)))
+      },
+      line.trl.map { entry =>
+        ("tr", List(dLyricsLineEntry(Some(entry), None)))
+      },
+      line.ro.map { entries =>
+        ("ro", entries.map(e => dLyricsLineEntry(Some(e), None)))
+      },
+      line.ww.map { entries =>
+        // TODO: should not be both None
+        ("ww", entries.map(e => dLyricsLineEntry(e.w, e.d)))
+      },
+      line.gg.map { entry =>
+        ("gg", List(dLyricsLineEntry(Some(entry), None)))
+      },
+      line.en.map { entry =>
+        ("er", List(dLyricsLineEntry(Some(entry), None)))
+      },
+    ).flatten
+    if (languages.isEmpty) {
+      Left(ParserError(id, s"At least one language has to defined in a lyrics line: $line"))
+    } else {
+      Right(languages.toMap)
+    }
+  }
+
+  def process(section: LyricsSection, id: dId[?]): Either[ParserError, dLyricsSection] = {
+    for {
+      lines <- throughList(section.lines)(l => process(l, id))
+    } yield {
+      dLyricsSection(lines)
     }
   }
 
@@ -477,9 +543,9 @@ object ToData {
     val id = dSongId(song.id)
     for {
       releaseDate <- processDate(song.`release-date`, id)
-      credits <- boxEitherOption(song.credits.map(process(_)))
       coverImage <- process(song.`cover-image`, id)
       multimedia <- boxEitherOption(song.multimedia.map(process(_, id)))
+      lyrics <- boxEitherOption(song.lyrics.map(process(_, id)))
     } yield {
       dSong(
         id,
@@ -487,15 +553,16 @@ object ToData {
         song.`fullname-en`,
         song.album.map(dAlbumId(_)),
         releaseDate,
-        credits,
+        song.credits.map(process(_)),
         coverImage,
         multimedia.getOrElse(dMultiMediaBlock.EMPTY),
+        lyrics,
       )
     }
   }
 
-  def process(source: Source): Either[ParserError, dSource] = {
-    Right(dSource(source.description))
+  def process(source: Source): dSource = {
+    dSource(source.description)
   }
 
   def process(tour: Tour): Either[ParserError, dTour] = {

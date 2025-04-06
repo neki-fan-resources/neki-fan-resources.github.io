@@ -3,14 +3,17 @@ package org.skyluc.html
 case class HtmlTagAttributes(
     alt: Option[String],
     charset: Option[String],
+    checked: Boolean,
     classes: List[String],
     content: Option[String],
     crossorigin: Boolean,
     dataDomain: Option[String],
     defer: Boolean,
+    disabled: Boolean,
     height: Option[Int],
     href: Option[String],
     id: Option[String],
+    onChange: Option[String],
     onClick: Option[String],
     name: Option[String],
     property: Option[String],
@@ -18,6 +21,7 @@ case class HtmlTagAttributes(
     sizes: Option[String],
     span: Option[Int],
     src: Option[String],
+    translate: Boolean = true,
     target: Option[String],
     `type`: Option[String],
     value: Option[String],
@@ -26,15 +30,19 @@ case class HtmlTagAttributes(
 ) {
   def withAlt(alt: String): HtmlTagAttributes = copy(alt = Some(alt))
   def withCharset(charset: String): HtmlTagAttributes = copy(charset = Some(charset))
+  def withChecked(checked: Boolean): HtmlTagAttributes = copy(checked = checked)
   def withClass(clazz: String): HtmlTagAttributes =
     copy(classes = clazz :: classes)
   def withContent(content: String): HtmlTagAttributes = copy(content = Some(content))
   def withCrossorigin(crossorigin: Boolean): HtmlTagAttributes = copy(crossorigin = crossorigin)
   def withDataDomain(dataDomain: String): HtmlTagAttributes = copy(dataDomain = Some(dataDomain))
   def withDefer(defer: Boolean): HtmlTagAttributes = copy(defer = defer)
+  def withDisabled(disabled: Boolean): HtmlTagAttributes = copy(disabled = disabled)
   def withHeight(height: Int): HtmlTagAttributes = copy(height = Some(height))
   def withHref(href: String): HtmlTagAttributes = copy(href = Some(href))
   def withId(id: String): HtmlTagAttributes = copy(id = Some(id))
+  def withOnChange(script: String): HtmlTagAttributes =
+    copy(onChange = Some(script))
   def withOnClick(script: String): HtmlTagAttributes =
     copy(onClick = Some(script))
   def withName(name: String): HtmlTagAttributes = copy(name = Some(name))
@@ -44,6 +52,7 @@ case class HtmlTagAttributes(
   def withSpan(span: Int): HtmlTagAttributes = copy(span = Some(span))
   def withSrc(src: String): HtmlTagAttributes = copy(src = Some(src))
   def withTarget(target: String): HtmlTagAttributes = copy(target = Some(target))
+  def withNoTranslate(): HtmlTagAttributes = copy(translate = false)
   def withType(`type`: String): HtmlTagAttributes = copy(`type` = Some(`type`))
   def withValue(value: String): HtmlTagAttributes = copy(value = Some(value))
   def withViewBox(viewBox: String): HtmlTagAttributes =
@@ -56,11 +65,13 @@ object HtmlTagAttributes {
     HtmlTagAttributes(
       None,
       None,
+      false,
       Nil,
       None,
       false,
       None,
       false,
+      false,
       None,
       None,
       None,
@@ -71,6 +82,8 @@ object HtmlTagAttributes {
       None,
       None,
       None,
+      None,
+      true,
       None,
       None,
       None,
@@ -89,6 +102,7 @@ sealed trait HtmlTag[T <: HtmlTag[T]] extends HtmlVisited {
   def withClass(clazz: String): T
   def withId(id: String): T
   def withOnClick(script: String): T
+  def withNoTranslate(): T
 }
 
 trait Html extends HtmlTag[Html] {
@@ -176,6 +190,13 @@ trait InputButton extends Input[InputButton] {
   val label: String
 }
 
+trait InputCheckbox extends Input[InputCheckbox] {
+  val ype = "checkbox"
+  def withChecked(checked: Boolean): InputCheckbox
+  def withDisabled(disabled: Boolean): InputCheckbox
+  def withOnChange(script: String): InputCheckbox
+}
+
 trait InputText extends Input[InputText] {
   val ype = "text"
 }
@@ -222,7 +243,7 @@ trait Tbody extends HtmlTag[Tbody] {
 
 trait Td extends HtmlTag[Td] {
   val elements: List[BodyElement[?]]
-  def appendElement(e: BodyElement[?]): Td
+  def appendElements(e: BodyElement[?]*): Td
   def withSpan(span: Int): Td
 }
 
@@ -248,6 +269,10 @@ object HtmlImpl {
 
     override def withOnClick(script: String): T = copyWithAttributes(
       attributes.withOnClick(script)
+    )
+
+    override def withNoTranslate(): T = copyWithAttributes(
+      attributes.withNoTranslate()
     )
   }
 
@@ -435,12 +460,6 @@ object HtmlImpl {
 
   abstract class InputInt[T <: Input[T]] extends HtmlTagInt[T]("input") with Input[T] {}
 
-  case class InputTextInt(attributes: HtmlTagAttributes) extends InputInt[InputText] with InputText {
-    override protected def copyWithAttributes(a: HtmlTagAttributes): InputText =
-      copy(attributes = a)
-    override def accept(v: Visitor): Unit = v.visit(this)
-  }
-
   case class InputButtonInt(label: String, attributes: HtmlTagAttributes)
       extends InputInt[InputButton]
       with InputButton {
@@ -448,6 +467,26 @@ object HtmlImpl {
         a: HtmlTagAttributes
     ): InputButton = copy(attributes = a)
 
+    override def accept(v: Visitor): Unit = v.visit(this)
+  }
+
+  case class InputCheckboxInt(attributes: HtmlTagAttributes) extends InputInt[InputCheckbox] with InputCheckbox {
+    override protected def copyWithAttributes(
+        a: HtmlTagAttributes
+    ): InputCheckbox = copy(attributes = a)
+
+    override def accept(v: Visitor): Unit = v.visit(this)
+
+    override def withChecked(checked: Boolean): InputCheckbox = copyWithAttributes(attributes.withChecked(checked))
+
+    override def withDisabled(disabled: Boolean): InputCheckbox = copyWithAttributes(attributes.withDisabled(disabled))
+
+    override def withOnChange(script: String): InputCheckbox = copyWithAttributes(attributes.withOnChange(script))
+  }
+
+  case class InputTextInt(attributes: HtmlTagAttributes) extends InputInt[InputText] with InputText {
+    override protected def copyWithAttributes(a: HtmlTagAttributes): InputText =
+      copy(attributes = a)
     override def accept(v: Visitor): Unit = v.visit(this)
   }
 
@@ -554,8 +593,8 @@ object HtmlImpl {
     override def withSpan(span: Int): Td =
       copy(attributes = attributes.withSpan(span))
 
-    override def appendElement(e: BodyElement[?]): Td =
-      copy(elements = elements :+ e)
+    override def appendElements(e: BodyElement[?]*): Td =
+      copy(elements = elements ::: e.toList)
 
     override def accept(v: Visitor): Unit = v.visit(this)
 
@@ -570,6 +609,8 @@ object HtmlImpl {
     override def withId(id: String): Text = ???
 
     override def withOnClick(script: String): Text = ???
+
+    override def withNoTranslate(): Text = ???
 
     override val attributes: HtmlTagAttributes = HtmlTagAttributes.EMPTY
 
@@ -606,6 +647,7 @@ object Html {
   def inputButton(label: String) =
     InputButtonInt(label, HtmlTagAttributes.EMPTY)
   def img(): Img = ImgInt(HtmlTagAttributes.EMPTY)
+  def inputCheckbox(): InputCheckbox = InputCheckboxInt(HtmlTagAttributes.EMPTY)
   def inputText(): InputText = InputTextInt(HtmlTagAttributes.EMPTY)
   def inputTime(): InputTime = InputTimeInt(HtmlTagAttributes.EMPTY)
   def link(rel: String, href: String): Link = LinkInt(

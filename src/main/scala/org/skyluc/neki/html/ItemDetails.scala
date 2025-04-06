@@ -33,12 +33,12 @@ object ItemDetails {
         tr().appendTds(
           td()
             .withClass(CLASS_ITEM_DETAILS_INFO_LABEL)
-            .appendElement(
+            .appendElements(
               text(info.label.getOrElse(CommonBase.EMPTY))
             ),
           td()
             .withClass(CLASS_ITEM_DETAILS_INFO_VALUE)
-            .appendElement(
+            .appendElements(
               value
             ),
         )

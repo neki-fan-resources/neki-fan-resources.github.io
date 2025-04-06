@@ -6,6 +6,7 @@ class HtmlRenderer extends Visitor {
 
   val builder: StringBuilder = new StringBuilder()
   var indent = 0
+  var withWhiteSpaces = true
 
   override def visit(a: A): Unit = {
     if (a.elements.size <= 1) {
@@ -179,7 +180,9 @@ class HtmlRenderer extends Visitor {
 
   override def visit(td: Td): Unit = {
     writeTagsOneLine(td) { () =>
-      td.elements.foreach(_.accept(this))
+      withoutWhitespaces { () =>
+        td.elements.foreach(_.accept(this))
+      }
     }
   }
 
@@ -209,6 +212,13 @@ class HtmlRenderer extends Visitor {
     builder.result()
   }
 
+  private def withoutWhitespaces(f: () => Unit): Unit = {
+    // TODO: likely needs a counter instead of a boolean
+    withWhiteSpaces = false
+    f()
+    withWhiteSpaces = true
+  }
+
   private def moreIndent(): Unit = {
     indent += 1
   }
@@ -226,13 +236,15 @@ class HtmlRenderer extends Visitor {
   }
 
   private def writeIndent(): Unit = {
-    (0 until indent).foreach { _ =>
-      append("  ")
-    }
+    if (withWhiteSpaces)
+      (0 until indent).foreach { _ =>
+        append("  ")
+      }
   }
 
   private def writeNewLine(): Unit = {
-    append('\n')
+    if (withWhiteSpaces)
+      append('\n')
   }
 
   private def writeTagsMultiLine(
@@ -304,10 +316,14 @@ class HtmlRenderer extends Visitor {
     attributes.width.foreach((width: Int) => writeTagAttribute("width", width.toString))
     attributes.height.foreach((height: Int) => writeTagAttribute("height", height.toString))
     if (attributes.defer) writeTagAttribute("defer")
+    if (attributes.checked) writeTagAttribute("checked")
+    if (attributes.disabled) writeTagAttribute("disabled")
     attributes.dataDomain.foreach(writeTagAttribute("data-domain", _))
     attributes.sizes.foreach(writeTagAttribute("sizes", _))
     attributes.value.foreach(writeTagAttribute("value", _))
     attributes.viewBox.foreach(writeTagAttribute("viewBox", _))
+    if (!attributes.translate) writeTagAttribute("translate", "no")
+    attributes.onChange.foreach(writeTagAttribute("onChange", _))
     attributes.onClick.foreach(writeTagAttribute("onClick", _))
   }
 

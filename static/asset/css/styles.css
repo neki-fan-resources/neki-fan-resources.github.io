@@ -3,18 +3,24 @@
 :root {
   --color-cocoro: #2ba6e1;
   --color-cocoro-light: rgb(from var(--color-cocoro) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-cocoro-dark: rgb(from var(--color-cocoro) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-cocoro-50: rgb(from var(--color-cocoro) r g b / 0.5);
+  --color-cocoro-05: rgb(from var(--color-cocoro) r g b / 0.05);
   --color-hika: #e50112;
   --color-hika-light: rgb(from var(--color-hika) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
   --color-hika-50: rgb(from var(--color-hika) r g b / 0.5);
+  --color-hika-10: rgb(from var(--color-hika) r g b / 0.1);
   --color-kanade: #e2007e;
   --color-kanade-light: rgb(from var(--color-kanade) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
   --color-kanade-lighter: rgb(from var(--color-kanade) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
   --color-kanade-50: rgb(from var(--color-kanade) r g b / 0.5);
+  --color-kanade-05: rgb(from var(--color-kanade) r g b / 0.05);
   --color-natsu: #fff001;
   --color-natsu-light: rgb(from var(--color-natsu) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
   --color-natsu-lighter: rgb(from var(--color-natsu) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
+  --color-natsu-dark: rgb(from var(--color-natsu) calc((r)/2) calc((g)/2) calc((b)/2));
   --color-natsu-50: rgb(from var(--color-natsu) r g b / 0.5);
+  --color-natsu-05: rgb(from var(--color-natsu) r g b / 0.05);
 
   --color-kanade-cocoro-light: #c3a9d8;
 
@@ -1012,6 +1018,130 @@ footer {
 /* chronology page styling */
 
 
+/* lyrics layout */
+
+.lyrics-status {
+  margin-left: 1rem;
+  padding: 0 0.5rem 0 0.5rem
+}
+
+.lyrics-languages-selection {
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.lyrics-sections {
+  width: fit-content;
+  margin: 0 0 0 1rem;
+}
+
+.lyrics-section {
+  padding: 1rem 0.5rem 0.5rem 1.5rem;
+}
+
+.lyrics-line {
+  width: 100%;
+  padding: 0.4rem 0 0 0.5rem;
+}
+
+.lyrics-sub-part-last {
+  width: initial;
+}
+
+.lyrics-sub td {
+  width: 1px;
+  white-space: nowrap;
+  padding: 0 0.2rem 0.2rem 0;
+}
+
+td.lyrics-sub-part-last {
+  width: initial;
+  padding: 0 0 0.2rem 0;
+}
+
+.lyrics-sub-hidden {
+  display: none;
+}
+
+/* lyrics styling */
+
+.lyrics-status {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  text-transform: lowercase;
+}
+
+.lyrics-status-warning {
+  color: white;
+  background-color: orange;
+}
+
+.lyrics-status-danger {
+  color: white;
+  background-color: red;
+}
+
+.lyrics-status-na {
+  color: white;
+  background-color: black;
+}
+
+.lyrics-languages-selection {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.lyrics-section:nth-child(even) {
+  background-color: var(--color-natsu-05);
+}
+
+.lyrics-section:nth-child(odd) {
+  background-color: var(--color-cocoro-05);
+}
+
+.lyrics-line:nth-child(even) {
+  background-color: var(--color-kanade-05);
+}
+
+.lyrics-line:nth-child(odd) {
+  background-color: var(--color-hika-10);
+}
+
+.lyrics-sub {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
+  vertical-align: baseline;
+}
+
+.lyrics-sub-ro {
+  color: var(--color-natsu-dark);
+}
+
+.lyrics-sub-ww {
+  color: var(--color-kanade);
+}
+
+.lyrics-sub-en {
+  color: var(--color-cocoro-dark);
+}
+
+.lyrics-sub-gg {
+  color: var(--color-cocoro-dark);
+}
+
+.lyrics-sub-link {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-weight: 300;
+}
+
+.lyrics-sub-link-tiny {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  font-weight: 400;
+}
 
 /* ======= testing ======== */
 

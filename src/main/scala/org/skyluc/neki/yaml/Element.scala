@@ -89,6 +89,7 @@ case class Song(
     credits: Option[Credits],
     `cover-image`: CoverImage,
     multimedia: Option[MultiMedia],
+    lyrics: Option[Lyrics],
 ) extends Element
     derives YamlCodec
 
@@ -173,6 +174,49 @@ case class Id(
     show: Option[ShowId],
 ) derives YamlCodec
 
+case class Lyrics(
+    status: LyricsStatus,
+    languages: List[LyricsLanguage],
+    sections: List[LyricsSection],
+) derives YamlCodec
+
+case class LyricsLanguage(
+    id: String,
+    name: String,
+    details: Option[String],
+    baseurl: Option[String],
+    urltext: Option[String],
+    active: Boolean = false,
+    fixed: Boolean = false,
+    notranslation: Boolean = false,
+    source: Option[Source],
+) derives YamlCodec
+
+case class LyricsLine(
+    ol: Option[List[String]],
+    oll: Option[String],
+    tr: Option[List[String]],
+    trl: Option[String],
+    ro: Option[List[String]],
+    ww: Option[List[LyricsWW]],
+    gg: Option[String],
+    en: Option[String],
+) derives YamlCodec
+
+case class LyricsWW(
+    w: Option[String],
+    d: Option[String],
+) derives YamlCodec
+
+case class LyricsSection(
+    lines: List[LyricsLine]
+) derives YamlCodec
+
+case class LyricsStatus(
+    code: String,
+    description: String,
+) derives YamlCodec
+
 case class MediaId(
     year: String,
     id: String,
@@ -237,6 +281,7 @@ case class SocialMedia(
 ) derives YamlCodec
 
 case class Source(
+    label: Option[String],
     description: String,
     url: Option[String],
 ) derives YamlCodec

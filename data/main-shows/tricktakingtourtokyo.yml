@@ -16,6 +16,7 @@ tour: tricktakingtour
 
 multimedia:
   short:
+  - youtubeshort: EzpPj7pVf6Y
   - youtubeshort: dSX3EKmcRUc
   - youtubeshort: YKmsB94XMb4
   - youtubeshort: mvD68jTQrHs
@@ -124,8 +125,15 @@ related:
   id: dSX3EKmcRUc
   label: Live
   info: Natsu guitar solo
-  published-date: 2025-04-01
+  published-date: 2025-04-05
   relalted-to:
   - song: loner
+- type: youtubeshort
+  id: EzpPj7pVf6Y
+  label: Live
+  info: Kanade
+  published-date: 2025-04-06
+  relalted-to:
+  - song: getover
 
 

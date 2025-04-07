@@ -72,7 +72,6 @@ object CommonBase {
     )
 
   private def opengraph(page: Page): List[HeadElement[?]] = {
-    // TODO:
     val title = page.shortTitle() + COMMON_TITLE
     val descriptionAltName = page.altName().map(n => s" $n.").getOrElse(EMPTY)
     val description = s"$title$COMMON_DESCRIPTION$descriptionAltName"
@@ -154,7 +153,6 @@ object CommonBase {
           .appendElements(
             text(NAV_TITLE_TEXT)
           ),
-        // TODO: support to underline currently visited section
         div()
           .withClass(CLASS_NAV_MAIN_ITEMS)
           .appendElements(

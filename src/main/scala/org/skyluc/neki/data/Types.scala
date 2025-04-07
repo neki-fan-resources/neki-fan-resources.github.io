@@ -165,8 +165,6 @@ case class Credits(
 }
 
 case class Source(
-    // TODO: require a label
-    // label: String,
     description: String,
     url: Option[String],
 )

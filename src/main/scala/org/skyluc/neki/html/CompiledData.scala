@@ -424,7 +424,7 @@ object CompiledData {
       youtubevideo.imageUrl(),
       "YouTube Video",
       youtubevideo.label,
-      None, // TODO: needed at some point ?
+      None,
       youtubevideo.publishedDate,
       youtubevideo.relatedTo
         .map { id =>

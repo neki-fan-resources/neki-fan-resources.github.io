@@ -49,6 +49,23 @@ object MediumCard {
       )
   }
 
+  def generateHybridTree(tree: LayeredData[ItemCompiledData]): Div = {
+    div()
+      .withClass(CLASS_MEDIUM_CARD_LIST)
+      .appendElements(
+        tree.map(generateHybridTree(_))*
+      )
+  }
+
+  private def generateHybridTree(node: LayeredNode[ItemCompiledData]): Div = {
+    div()
+      .withClass(CLASS_MEDIUM_CARD_TREE)
+      .appendElements(
+        if (node.subLayer.isEmpty) SmallCard.generate(node.data) else generate(node.data),
+        SmallCard.generateTree(node.subLayer),
+      )
+  }
+
   // --------------------
 
   val CLASS_MEDIUM_CARD_LIST = "medium-card-list"

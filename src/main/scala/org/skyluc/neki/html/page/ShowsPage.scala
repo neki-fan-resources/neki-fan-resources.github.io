@@ -37,7 +37,7 @@ class ShowsPage(val page: dShowsPage, data: Data) extends Page(data) {
 
     List(
       MainIntro.generate(MAIN_INTRO_CONTENT),
-      MediumCard.generateTree(tree),
+      MediumCard.generateHybridTree(tree),
     )
 
   }

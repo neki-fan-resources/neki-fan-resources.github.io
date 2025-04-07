@@ -745,6 +745,10 @@ footer {
   border-left: solid 1px gray;
 }
 
+.medium-card-tree>.small-card {
+  margin: 1em 0 0 1em;
+}
+
 .small-card {
   width: fit-content;
   display: grid;

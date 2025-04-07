@@ -170,7 +170,6 @@ object LyricsHtml {
         .withClass(CLASS_LYRICS_LANGUAGE_SELECTION)
         .appendTds(
           td().appendElements(
-            // TODO: add onchange
             inputCheckbox()
               .withId(CLASS_LYRICS_LANG_BASE + id)
               .withChecked(active)

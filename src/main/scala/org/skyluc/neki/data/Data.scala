@@ -55,7 +55,7 @@ object DataBuilder {
   def load(elements: List[Item[?]]): Step1 = {
     val data =
       TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap())
-    // TODO: check if adding items with already existing id
+    // TODO: check if adding items which already existing id
     val res = elements.foldLeft(new WithErrors(data, Nil)) { (acc, item) =>
       item match {
         case a: Album =>

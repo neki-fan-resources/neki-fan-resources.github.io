@@ -12,6 +12,11 @@ import org.skyluc.neki.html.CompiledData
 import org.skyluc.neki.html.MultiMediaCard
 import org.skyluc.neki.data.Date
 import org.skyluc.neki.data.Song
+import org.skyluc.neki.data.SongId
+import org.skyluc.neki.data.YouTubeVideoId
+import org.skyluc.neki.data.YouTubeShortId
+import org.skyluc.neki.html.MultiMediaCompiledData
+import org.skyluc.neki.data.Show
 
 class LivePage(data: Data) extends Page(data) {
 
@@ -25,28 +30,84 @@ class LivePage(data: Data) extends Page(data) {
 
   override def mainContent(): List[BodyElement[?]] = {
 
-    val withLiveVideo = data.songs.values.filter(!_.multimedia.live.isEmpty).toList
+    val songs =
+      data.songs.values
+        .map(SongWithVideos.from(_, data))
+        .toList
 
-    // the song with most recent video first
-    val orderedWithLiveVideo = withLiveVideo.sortBy { song =>
-      song.multimedia.live.map(data.multimedia(_).publishedDate).max
-    }.reverse
+    val songWithVideos = songs
+      .filterNot(_.youtubeVideos.isEmpty)
+      .sortBy { s =>
+        s.youtubeVideos.map(_.date).max
+      }
+      .reverse
 
-    val songSections: List[BodyElement[?]] = orderedWithLiveVideo.flatMap { song =>
+    val songWithShorts = songs
+      .filterNot(_.youtubeShorts.isEmpty)
+      .sortBy { s =>
+        s.youtubeShorts.map(_.date).max
+      }
+      .reverse
+
+    val videoSection: List[BodyElement[?]] = songWithVideos.flatMap { song =>
       List(
-        SectionHeader.generate(LineCard.generate(CompiledData.getSong(song.id, data))),
-        MultiMediaCard.generateList(CompiledData.getMultiMedia(song.multimedia.live, data), Song.FROM_KEY),
+        SectionHeader.generate(LineCard.generate(CompiledData.getSong(song.song, data))),
+        MultiMediaCard.generateList(song.youtubeVideos, Song.FROM_KEY),
       )
-    }.toList
+    }
+
+    val shortSection: List[BodyElement[?]] = songWithShorts.flatMap { song =>
+      List(
+        SectionHeader.generate(LineCard.generate(CompiledData.getSong(song.song, data))),
+        MultiMediaCard.generateList(song.youtubeShorts, Song.FROM_KEY),
+      )
+    }
+
+    val showsWithConcerts = data.shows.values
+      .filterNot(_.multimedia.concert.isEmpty)
+      .toList
+      .sortBy { show =>
+        show.multimedia.concert.map(data.multimedia(_).publishedDate).max
+      }
+      .reverse
+
+    val concertSection: List[BodyElement[?]] = showsWithConcerts.flatMap { show =>
+      List(
+        SectionHeader.generate(LineCard.generate(CompiledData.getShow(show.id, data))),
+        MultiMediaCard.generateList(CompiledData.getMultiMedia(show.multimedia.concert, data), Show.FROM_KEY),
+      )
+    }
 
     List(
       MainIntro.generate(MAIN_INTRO_TEXT)
-    ) ::: songSections
+    ) ::: videoSection ::: concertSection ::: shortSection
   }
 
 }
 
 object LivePage {
+
+  case class SongWithVideos(
+      song: SongId,
+      youtubeVideos: List[MultiMediaCompiledData],
+      youtubeShorts: List[MultiMediaCompiledData],
+  )
+
+  object SongWithVideos {
+    def from(song: Song, data: Data): SongWithVideos = {
+      song.multimedia.live.foldLeft(SongWithVideos(song.id, Nil, Nil)) { (acc, multimedia) =>
+        multimedia match {
+          case y: YouTubeVideoId =>
+            acc.copy(youtubeVideos = acc.youtubeVideos :+ CompiledData.getMultiMedia(y, data))
+          case y: YouTubeShortId =>
+            acc.copy(youtubeShorts = acc.youtubeShorts :+ CompiledData.getMultiMedia(y, data))
+          case _ =>
+            acc
+        }
+      }
+    }
+  }
+
   val LIVE_PATH = "live" + Pages.HTML_EXTENSION
   val DESIGNATION = "Live"
 

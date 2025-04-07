@@ -117,6 +117,7 @@ object Parser {
       case "tour"         => as[Tour](node, filename)
       case "youtubeshort" => as[YouTubeShort](node, filename)
       case "youtubevideo" => as[YouTubeVideo](node, filename)
+      case "zaiko"        => as[Zaiko](node, filename)
       case u =>
         Left(ParserError(filename, error = Some(s"Unknown type: '$u'")))
     }

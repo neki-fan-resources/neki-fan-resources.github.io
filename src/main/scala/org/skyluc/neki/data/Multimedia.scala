@@ -121,13 +121,71 @@ object YouTubeShort {
 
 }
 
+case class ZaikoId(
+    channel: String,
+    id: String,
+) extends MultiMediaId {
+  import Zaiko._
+
+  override val uid: String = ID_BASE + channel + ID_SEPARATOR + id
+
+  override val upath: String = ID_BASE_UPATH + channel + ID_SEPARATOR + id + Id.PATH_SEPARATOR
+
+  override def path: Path = ID_BASE_PATH.resolve(channel + ID_SEPARATOR + id)
+
+  override def isKnown(sourceId: Id[?], data: Data): Option[DataError] = {
+    if (data.multimedia.contains(this)) {
+      None
+    } else {
+      Some(DataError(sourceId, s"Referenced multimedia '$id' is not found"))
+    }
+  }
+
+}
+
+case class Zaiko(
+    id: ZaikoId,
+    label: String,
+    coverImage: String,
+    publishedDate: Date,
+    expirationDate: Option[Date],
+    relatedTo: List[Id[?]] = Nil,
+    error: Boolean = false,
+) extends MultiMedia {
+  import Zaiko._
+
+  override def withRelatedTo(id: Id[?]): MultiMedia = {
+    if (relatedTo.contains(id)) {
+      this
+    } else {
+      copy(relatedTo = relatedTo :+ id)
+    }
+  }
+
+  override def errored(): MultiMedia = copy(error = true)
+
+  def url(): String = BASE_URL_1 + id.channel + BASE_URL_2 + id.id
+}
+
+object Zaiko {
+  val ID_BASE = "zaiko_"
+  val ID_SEPARATOR = "_"
+  val ID_BASE_UPATH = "zaiko/"
+  val ID_BASE_PATH = Path.of("zaiko")
+
+  val BASE_URL_1 = "https://"
+  val BASE_URL_2 = ".zaiko.io/item/"
+  val OVERLAY_FILE = "zaiko.ico"
+}
+
 case class MultiMediaBlock(
     video: List[MultiMediaId] = Nil,
     live: List[MultiMediaId] = Nil,
+    concert: List[MultiMediaId] = Nil,
     short: List[MultiMediaId] = Nil,
     additional: List[MultiMediaId] = Nil,
 ) {
-  def all(): List[MultiMediaId] = (video ::: live ::: short ::: additional).distinct
+  def all(): List[MultiMediaId] = (video ::: live ::: concert ::: short ::: additional).distinct
 }
 
 object MultiMediaBlock {

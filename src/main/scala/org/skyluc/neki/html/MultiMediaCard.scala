@@ -23,8 +23,15 @@ object MultiMediaCard {
         entry.from.filterNot(_._1 == fromFilter).map(_._2.labelWithSublabel()),
         entry.info,
       ).flatten
+
+    val label1 = div().withClass(CLASS_MULTIMEDIA_CARD_LABEL).appendElements(text(entry.label))
+    val label2 = if (entry.available) {
+      label1
+    } else {
+      label1.withClass(CLASS_MULTIMEDIA_CARD_LABEL_UNAVAILABLE)
+    }
     val elements: List[BodyElement[?]] = List(
-      div().withClass(CLASS_MULTIMEDIA_CARD_LABEL).appendElements(text(entry.label)),
+      label2,
       generateLayeredImage(entry),
       div().withClass(CLASS_MULTIMEDIA_CARD_SUBLABEL).appendElements(text(infoParts.mkString(", "))),
     )
@@ -72,6 +79,7 @@ object MultiMediaCard {
   val CLASS_MULTIMEDIA_CARD_LIST = "multimedia-card-list"
   val CLASS_MULTIMEDIA_CARD = "multimedia-card"
   val CLASS_MULTIMEDIA_CARD_LABEL = "multimedia-card-label"
+  val CLASS_MULTIMEDIA_CARD_LABEL_UNAVAILABLE = "multimedia-card-label-unavailable"
   val CLASS_MULTIMEDIA_CARD_IMAGE = "multimedia-card-image"
   val CLASS_MULTIMEDIA_CARD_IMAGE_OVER = "multimedia-card-image-over"
   val CLASS_MULTIMEDIA_CARD_IMAGE_UNDER = "multimedia-card-image-under"

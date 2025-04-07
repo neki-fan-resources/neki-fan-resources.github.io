@@ -122,6 +122,17 @@ case class YouTubeVideo(
 ) extends Element
     derives YamlCodec
 
+case class Zaiko(
+    channel: String,
+    id: String,
+    label: String,
+    `cover-image`: String,
+    `published-date`: String,
+    `expiration-date`: Option[String],
+    `related-to`: Option[List[Id]],
+) extends Element
+    derives YamlCodec
+
 // ---------
 
 case class Band(
@@ -243,6 +254,7 @@ case class Members(
 
 case class MultiMedia(
     video: Option[List[MultiMediaId]],
+    concert: Option[List[MultiMediaId]],
     live: Option[List[MultiMediaId]],
     short: Option[List[MultiMediaId]],
     additional: Option[List[MultiMediaId]],
@@ -251,6 +263,7 @@ case class MultiMedia(
 case class MultiMediaId(
     youtubevideo: Option[String],
     youtubeshort: Option[String],
+    zaiko: Option[ZaikoId],
 ) derives YamlCodec
 
 case class MusicId(
@@ -285,4 +298,9 @@ case class Source(
     label: Option[String],
     description: String,
     url: Option[String],
+) derives YamlCodec
+
+case class ZaikoId(
+    channel: String,
+    id: String,
 ) derives YamlCodec

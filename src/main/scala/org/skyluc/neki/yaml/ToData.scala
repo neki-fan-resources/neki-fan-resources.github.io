@@ -52,6 +52,8 @@ import org.skyluc.neki.data.{
   YouTubeShortId => dYouTubeShortId,
   YouTubeVideo => dYouTubeVideo,
   YouTubeVideoId => dYouTubeVideoId,
+  Zaiko => dZaiko,
+  ZaikoId => dZaikoId,
 }
 import scala.util.matching.Regex
 import scala.annotation.tailrec
@@ -120,6 +122,8 @@ object ToData {
         process(y)
       case y: YouTubeVideo =>
         process(y)
+      case z: Zaiko =>
+        processZaiko(z)
       case e =>
         Left(ParserError(s"Unsupported in ToData: $e"))
     }
@@ -389,12 +393,14 @@ object ToData {
     for {
       video <- boxEitherOption(multimedia.video.map(processMultiMediaIds(_, id)))
       live <- boxEitherOption(multimedia.live.map(processMultiMediaIds(_, id)))
+      concert <- boxEitherOption(multimedia.concert.map(processMultiMediaIds(_, id)))
       short <- boxEitherOption(multimedia.short.map(processMultiMediaIds(_, id)))
       additional <- boxEitherOption(multimedia.additional.map(processMultiMediaIds(_, id)))
     } yield {
       dMultiMediaBlock(
         video.getOrElse(Nil),
         live.getOrElse(Nil),
+        concert.getOrElse(Nil),
         short.getOrElse(Nil),
         additional.getOrElse(Nil),
       )
@@ -409,6 +415,7 @@ object ToData {
     val candidates: List[dMultiMediaId] = List(
       multimediaId.youtubevideo.map(dYouTubeVideoId(_)),
       multimediaId.youtubeshort.map(dYouTubeShortId(_)),
+      multimediaId.zaiko.map(z => dZaikoId(z.channel, z.id)),
     ).flatten
 
     // check only one defined
@@ -594,6 +601,22 @@ object ToData {
       relatedTo <- boxEitherOption(youtubevideo.`related-to`.map(processIds(_, id)))
     } yield {
       dYouTubeVideo(id, youtubevideo.label, publishedDate, relatedTo.getOrElse(Nil))
+    }
+  }
+
+  def processZaiko(zaiko: Zaiko): Either[ParserError, dZaiko] = {
+    val id = dZaikoId(zaiko.channel, zaiko.id)
+    for {
+      publishedDate <- processDate(zaiko.`published-date`, id)
+      expirationDate <- boxEitherOption(zaiko.`expiration-date`.map(processDate(_, id)))
+    } yield {
+      dZaiko(
+        id,
+        zaiko.label,
+        zaiko.`cover-image`,
+        publishedDate,
+        expirationDate,
+      )
     }
   }
 

@@ -17,6 +17,10 @@ cover-image:
 
 
 multimedia:
+  concert:
+  - zaiko:
+      channel: nekiband
+      id: 368923
   video:
   - youtubevideo: aylfQ09sa4I
   - youtubevideo: _Oac92XPkyo
@@ -30,6 +34,14 @@ multimedia:
   - youtubeshort: qFiKgQ5mNgQ
 
 related:
+# Zaiko
+- type: zaiko
+  channel: nekiband
+  id: 368923
+  label: Streaming @ zaiko.io
+  cover-image: https://media.zaiko.io/zaiko/w_1200/1_477a9d107m1w49egamc3p
+  published-date: 2024-12-30
+  expiration-date: 2025-01-29
 # YouTube videos
 - type: youtubevideo
   id: _Oac92XPkyo

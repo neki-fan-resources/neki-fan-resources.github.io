@@ -1,9 +1,10 @@
 package org.skyluc.neki.data
 
 import java.nio.file.Path
-import java.util.GregorianCalendar
-import java.util.Calendar
-import scala.collection.mutable.ListBuffer
+import java.time.temporal.ChronoField
+import java.time.ZonedDateTime
+import java.time.ZoneOffset
+import scala.annotation.tailrec
 
 trait Id[T] {
   val uid: String
@@ -58,18 +59,36 @@ case class Date(year: Int, month: Int, day: Int) {
 
   def toStringSafe(): String = s"${year}_${month}_${day}"
 
-  private def gc(): GregorianCalendar = GregorianCalendar(year, month - 1, day)
+  private def dt(): ZonedDateTime = ZonedDateTime.of(year, month, day, 0, 0, 0, 0, ZoneOffset.UTC)
 
-  def epochDay(): Int = {
-    (gc().getTimeInMillis() / 86400000).toInt
-  }
+  def epochDay(): Int = dt().getLong(ChronoField.EPOCH_DAY).toInt
 
   def fromRefDay(refDay: Int): Int = {
     epochDay() - refDay
   }
+
+  def isPast(): Boolean = {
+    comparedTo(today) > 0
+  }
+
+  def comparedTo(other: Date): Int = {
+    val yearDiff = year - other.year
+    if (yearDiff != 0) {
+      yearDiff
+    } else {
+      val monthDiff = month - other.month
+      if (monthDiff != 0) {
+        monthDiff
+      } else {
+        day - other.day
+      }
+    }
+  }
 }
 
 object Date {
+
+  val today = fromDateTime(ZonedDateTime.now(ZoneOffset.UTC))
 
   case class DateTick (
     day: Int,
@@ -77,52 +96,57 @@ object Date {
   )
 
   def monthIntervals(from: Date, to: Date, refDay: Int): List[DateTick] = {
-    tickIntervals(from, to, refDay, Calendar.MONTH, List(Calendar.DAY_OF_MONTH))(d => MONTH_LABELS(d.get(Calendar.MONTH)))
+    tickIntervals(from, to, refDay, false)(d => MONTH_LABELS(d.getMonthValue()))
   }
 
   def yearIntervals(from: Date, to: Date, refDay: Int): List[DateTick] = {
-    tickIntervals(from, to, refDay, Calendar.YEAR, List(Calendar.MONTH, Calendar.DAY_OF_MONTH))(d => d.get(Calendar.YEAR).toString())
+    tickIntervals(from, to, refDay, true)(d => d.getYear().toString())
   }
 
-  def tickIntervals(from: Date, to: Date, refDay: Int, field: Int, zeroFields: List[Int])(label: (GregorianCalendar) => String): List[DateTick] ={
-    val fromDate = from.gc()
-    val walkingDate = from.gc()
-    zeroFields.foreach{ f =>
-      walkingDate.set(f, walkingDate.getActualMinimum(f))
+  def tickIntervals(from: Date, to: Date, refDay: Int, years: Boolean)(label: (ZonedDateTime) => String): List[DateTick] ={
+
+    val fromDate = from.dt()
+    val toDate = to.dt()
+    val beginDateCandidate = if (years) {
+      fromDate.withMonth(1).withDayOfMonth(1)
+    } else {
+      fromDate.withDayOfMonth(1)
     }
-    if (!fromDate.equals(walkingDate)) walkingDate.add(field, 1)
-
-    val endDate = to.gc()
-
-    val buffer = ListBuffer[DateTick]()
-
-    while (walkingDate.compareTo(endDate) <= 0) {
-      buffer.addOne(DateTick(fromGC(walkingDate).fromRefDay(refDay), label(walkingDate)))
-      walkingDate.add(field, 1)
+    val beginDate = if (fromDate == beginDateCandidate) {
+      beginDateCandidate
+    } else {
+      if (years) {
+        beginDateCandidate.plusYears(1)
+      } else {
+        beginDateCandidate.plusMonths(1)
+      }
     }
 
-    buffer.toList 
+    @tailrec def loop(current: ZonedDateTime, acc: List[ZonedDateTime]): List[ZonedDateTime] = {
+      if (current.compareTo(toDate) <= 0) {
+        val next = if (years) {
+          current.plusYears(1)
+        } else {
+          current.plusMonths(1)
+        }
+        loop(next, current :: acc)
+      } else {
+        acc.reverse
+      }
+    }
+
+    loop(beginDate, Nil).map(d => DateTick(fromDateTime(d).fromRefDay(refDay), label(d)))
   }
 
-  private val MONTH_LABELS = Array[String]("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec")
+  private val MONTH_LABELS = Array[String]("one-based", "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec")
 
-  private def fromGC(date: GregorianCalendar): Date = {
-    Date(date.get(Calendar.YEAR), date.get(Calendar.MONTH) + 1, date.get(Calendar.DAY_OF_MONTH))
+  private def fromDateTime(date: ZonedDateTime): Date = {
+    Date(date.getYear(), date.getMonthValue(), date.getDayOfMonth())
   }
   
   given  Ordering[Date] {
     override def compare(x: Date, y: Date): Int = {
-      val yearDiff = x.year - y.year
-      if (yearDiff != 0) {
-        yearDiff
-      } else {
-        val monthDiff = x.month - y.month
-        if (monthDiff != 0) {
-          monthDiff
-        } else {
-          x.day - y.day
-        }
-      }
+      x.comparedTo(y)
     }
   }
 

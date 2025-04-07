@@ -80,6 +80,7 @@ case class MultiMediaCompiledData(
     date: Date,
     from: List[(String, ItemCompiledData)],
     overlay: String,
+    available: Boolean,
 )
 
 case class MultiMediaCompiledDataWithParentKey(
@@ -99,6 +100,7 @@ object MultiMediaCompiledData {
       OLD_DATE,
       Nil,
       CommonBase.EMPTY,
+      true,
     )
   }
 
@@ -287,6 +289,8 @@ object CompiledData {
           compileForYouTubeShort(y, data)
         case y: YouTubeVideo =>
           compileForYouTubeVideo(y, data)
+        case z: Zaiko =>
+          compileForZaiko(z, data)
       }
       .getOrElse(MultiMediaCompiledData.missing(id))
   }
@@ -404,6 +408,7 @@ object CompiledData {
           (item.fromKey, item)
         },
       YouTubeVideo.OVERLAY_FILE,
+      true,
     )
   }
 
@@ -421,6 +426,28 @@ object CompiledData {
           (item.fromKey, item)
         },
       YouTubeVideo.OVERLAY_FILE,
+      true,
+    )
+  }
+
+  def compileForZaiko(zaiko: Zaiko, data: Data): MultiMediaCompiledData = {
+    val info = "available from " + zaiko.publishedDate.toString() +
+      zaiko.expirationDate.map(d => " until " + d.toString()).getOrElse(CommonBase.EMPTY)
+    val available = zaiko.expirationDate.map(_.isPast()).getOrElse(true)
+    MultiMediaCompiledData(
+      zaiko.url(),
+      zaiko.coverImage,
+      "Zaiko",
+      zaiko.label,
+      Some(info),
+      zaiko.publishedDate,
+      zaiko.relatedTo
+        .map { id =>
+          val item = getItem(id, data)
+          (item.fromKey, item)
+        },
+      Zaiko.OVERLAY_FILE,
+      available,
     )
   }
 

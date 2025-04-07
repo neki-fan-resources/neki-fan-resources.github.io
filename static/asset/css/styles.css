@@ -950,6 +950,10 @@ footer {
   font-weight: 700;
 }
 
+.multimedia-card-label-unavailable {
+  text-decoration: line-through 0.1rem var(--color-not-black);
+}
+
 .multimedia-card-sublabel {
   font-size: 0.5rem;
   line-height: 0.5rem;

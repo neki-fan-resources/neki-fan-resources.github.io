@@ -3,6 +3,7 @@ package org.skyluc.html
 trait Visitor {
   def visit(a: A): Unit
   def visit(body: Body): Unit
+  def visit(br: Br): Unit
   def visit(canvas: Canvas): Unit
   def visit(circle: SvgCircle): Unit
   def visit(desc: SvgDesc): Unit
@@ -16,10 +17,12 @@ trait Visitor {
   def visit(image: SvgImage): Unit
   def visit(input: Input[?]): Unit
   def visit(inputButton: InputButton): Unit
+  def visit(li: Li): Unit
   def visit(line: SvgLine): Unit
   def visit(link: Link): Unit
   def visit(meta: Meta): Unit
   def visit(path: SvgPath): Unit
+  def visit(p: P): Unit
   def visit(pre: Pre): Unit
   def visit(rect: SvgRect): Unit
   def visit(script: Script): Unit
@@ -33,4 +36,5 @@ trait Visitor {
   def visit(text: SvgText): Unit
   def visit(title: Title): Unit
   def visit(tr: Tr): Unit
+  def visit(ul: Ul): Unit
 }

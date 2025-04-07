@@ -26,6 +26,10 @@ class HtmlRenderer extends Visitor {
     }
   }
 
+  override def visit(br: Br): Unit = {
+    writeTagSingle(br)
+  }
+
   override def visit(canvas: Canvas): Unit = {
     writeTagsMultiLine(canvas) { () =>
       writeIndent()
@@ -102,6 +106,12 @@ class HtmlRenderer extends Visitor {
     )
   }
 
+  override def visit(li: Li): Unit = {
+    writeTagsMultiLine(li) { () =>
+      li.elements.foreach(_.accept(this))
+    }
+  }
+
   override def visit(line: SvgLine): Unit = {
     writeTagSingle(line)
   }
@@ -112,6 +122,14 @@ class HtmlRenderer extends Visitor {
 
   override def visit(meta: Meta): Unit = {
     writeTagSingle(meta)
+  }
+
+  override def visit(p: P): Unit = {
+    writeTagsOneLine(p) { () =>
+      withoutWhitespaces { () =>
+        p.elements.foreach(_.accept(this))
+      }
+    }
   }
 
   override def visit(pre: Pre): Unit = {
@@ -205,6 +223,12 @@ class HtmlRenderer extends Visitor {
   override def visit(tr: Tr): Unit = {
     writeTagsMultiLine(tr) { () =>
       tr.tds.foreach(_.accept(this))
+    }
+  }
+
+  override def visit(ul: Ul): Unit = {
+    writeTagsMultiLine(ul) { () =>
+      ul.elements.foreach(_.accept(this))
     }
   }
 

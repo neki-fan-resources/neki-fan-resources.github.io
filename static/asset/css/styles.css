@@ -962,13 +962,14 @@ footer {
 
 /* socialmedia card layout */
 
-.socialmedia-card {
+.socialmedia-card,
+.socialmedia-card-link {
   display: inline-block;
 }
 
 .socialmedia-card-logo {
   height: 1rem;
-  vertical-align: middle;
+  vertical-align: top;
   margin-right: 0.1rem;
 }
 
@@ -1144,6 +1145,23 @@ td.lyrics-sub-part-last {
   font-size: 0.5rem;
   line-height: 0.5rem;
   font-weight: 400;
+}
+
+/* about page layout */
+
+.about-section {
+  margin: 0 0 0 1rem;
+}
+
+.about-manekineko {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+/* about page styling */
+
+.about-lyrics-manekineko {
+  color: var(--color-cocoro-dark);
 }
 
 /* ======= testing ======== */

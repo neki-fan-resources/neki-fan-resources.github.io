@@ -143,6 +143,8 @@ trait Body extends HtmlTag[Body] {
   def appendElements(e: BodyElement[?]*): Body
 }
 
+trait Br extends BodyElement[Br] {}
+
 trait A extends BodyElement[A] {
   val elements: List[BodyElement[?]]
   def appendElements(e: BodyElement[?]*): A
@@ -205,6 +207,16 @@ trait InputTime extends Input[InputTime] {
   val ype = "time"
 }
 
+trait Li extends BodyElement[Li] {
+  val elements: List[BodyElement[?]]
+  def appendElements(e: BodyElement[?]*): Li
+}
+
+trait P extends BodyElement[P] {
+  val elements: List[BodyElement[?]]
+  def appendElements(e: BodyElement[?]*): P
+}
+
 trait Pre extends BodyElement[Pre] {
   val text: String
 }
@@ -254,6 +266,11 @@ trait Text extends BodyElement[Text] {
 trait Tr extends HtmlTag[Tr] {
   val tds: List[Td]
   def appendTds(td: Td*): Tr
+}
+
+trait Ul extends BodyElement[Ul] {
+  val elements: List[Li]
+  def appendElements(e: Li*): Ul
 }
 
 object HtmlImpl {
@@ -386,6 +403,11 @@ object HtmlImpl {
 
   }
 
+  case class BrInt(attributes: HtmlTagAttributes) extends HtmlTagInt[Br]("br") with Br {
+    override protected def copyWithAttributes(a: HtmlTagAttributes): Br = copy(attributes = a)
+    override def accept(v: Visitor): Unit = v.visit(this)
+  }
+
   case class CanvasInt(attributes: HtmlTagAttributes) extends HtmlTagInt[Canvas]("canvas") with Canvas {
 
     override def withHeight(height: Int): Canvas = copyWithAttributes(
@@ -494,6 +516,36 @@ object HtmlImpl {
     override protected def copyWithAttributes(a: HtmlTagAttributes): InputTime =
       copy(attributes = a)
     override def accept(v: Visitor): Unit = v.visit(this)
+  }
+
+  case class LiInt(
+      attributes: HtmlTagAttributes,
+      elements: List[BodyElement[?]],
+  ) extends HtmlTagInt[Li]("li")
+      with Li {
+
+    override def appendElements(e: BodyElement[?]*): Li =
+      copy(elements = elements ::: e.toList)
+
+    override def accept(v: Visitor): Unit = v.visit(this)
+
+    override protected def copyWithAttributes(a: HtmlTagAttributes): Li =
+      copy(attributes = a)
+  }
+
+  case class PInt(
+      attributes: HtmlTagAttributes,
+      elements: List[BodyElement[?]],
+  ) extends HtmlTagInt[P]("p")
+      with P {
+
+    override def appendElements(e: BodyElement[?]*): P =
+      copy(elements = elements ::: e.toList)
+
+    override def accept(v: Visitor): Unit = v.visit(this)
+
+    override protected def copyWithAttributes(a: HtmlTagAttributes): P =
+      copy(attributes = a)
   }
 
   case class PreInt(attributes: HtmlTagAttributes, text: String) extends HtmlTagInt[Pre]("pre") with Pre {
@@ -630,6 +682,21 @@ object HtmlImpl {
       copy(attributes = a)
   }
 
+  case class UlInt(
+      attributes: HtmlTagAttributes,
+      elements: List[Li],
+  ) extends HtmlTagInt[Ul]("ul")
+      with Ul {
+
+    override def appendElements(e: Li*): Ul =
+      copy(elements = elements ::: e.toList)
+
+    override def accept(v: Visitor): Unit = v.visit(this)
+
+    override protected def copyWithAttributes(a: HtmlTagAttributes): Ul =
+      copy(attributes = a)
+  }
+
 }
 
 object Html {
@@ -637,6 +704,7 @@ object Html {
 
   def a(): A = AInt(HtmlTagAttributes.EMPTY, Nil)
   def body(): Body = BodyInt(HtmlTagAttributes.EMPTY, Nil)
+  def br(): Br = BrInt(HtmlTagAttributes.EMPTY)
   def canvas(): Canvas = CanvasInt(HtmlTagAttributes.EMPTY)
   def div(): Div = DivInt(HtmlTagAttributes.EMPTY, None, Nil)
   def div(customTag: String): Div = DivInt(HtmlTagAttributes.EMPTY, Some(customTag), Nil)
@@ -650,10 +718,12 @@ object Html {
   def inputCheckbox(): InputCheckbox = InputCheckboxInt(HtmlTagAttributes.EMPTY)
   def inputText(): InputText = InputTextInt(HtmlTagAttributes.EMPTY)
   def inputTime(): InputTime = InputTimeInt(HtmlTagAttributes.EMPTY)
+  def li(): Li = LiInt(HtmlTagAttributes.EMPTY, Nil)
   def link(rel: String, href: String): Link = LinkInt(
     HtmlTagAttributes.EMPTY.withRel(rel).withHref(href)
   )
   def meta(): Meta = MetaInt(HtmlTagAttributes.EMPTY)
+  def p(): P = PInt(HtmlTagAttributes.EMPTY, Nil)
   def pre(text: String): Pre = PreInt(HtmlTagAttributes.EMPTY, text)
   def script(): Script = ScriptInt(HtmlTagAttributes.EMPTY, None)
   def span(): Span = SpanInt(HtmlTagAttributes.EMPTY, Nil)
@@ -664,6 +734,7 @@ object Html {
   def text(text: String): Text = TextInt(text)
   def title(text: String): Title = TitleInt(text)
   def tr(): Tr = TrInt(HtmlTagAttributes.EMPTY, Nil)
+  def ul(): Ul = UlInt(HtmlTagAttributes.EMPTY, Nil)
 }
 
 object HtmlTag {}

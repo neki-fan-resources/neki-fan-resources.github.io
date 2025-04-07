@@ -5,10 +5,9 @@ import org.skyluc.neki.html.Page
 import org.skyluc.html._
 import Html._
 import java.nio.file.Path
-import org.skyluc.neki.html.Pages
 import org.skyluc.neki.data.SocialMedia
-import org.skyluc.neki.html.CommonBase.BLANK
 import org.skyluc.neki.data.Member
+import org.skyluc.neki.html.SocialMediaCard
 
 class BandPage(data: Data) extends Page(data) {
 
@@ -71,39 +70,21 @@ class BandPage(data: Data) extends Page(data) {
   private def socials(socialMedia: SocialMedia): List[BodyElement[?]] = {
     List(
       socialMedia.instagram.map { handle =>
-        socialMediaCard(handle, SOCIALMEDIA_BASE_URL_INSTAGRAM, "instagram", "instagram.ico")
+        SocialMediaCard.generate(handle, SOCIALMEDIA_BASE_URL_INSTAGRAM, "instagram", "instagram.ico")
       },
       socialMedia.youtube.map { handle =>
-        socialMediaCard(handle, SOCIALMEDIA_BASE_URL_YOUTUBE, "YouTube", "youtube.svg")
+        SocialMediaCard.generate(handle, SOCIALMEDIA_BASE_URL_YOUTUBE, "YouTube", "youtube.svg")
       },
-      socialMedia.tiktok.map { handle => socialMediaCard(handle, SOCIALMEDIA_BASE_URL_TIKTOK, "TikTok", "tiktok.ico") },
-      socialMedia.x.map { handle => socialMediaCard(handle, SOCIALMEDIA_BASE_URL_X, "X(Twitter)", "x.ico") },
+      socialMedia.tiktok.map { handle =>
+        SocialMediaCard.generate(handle, SOCIALMEDIA_BASE_URL_TIKTOK, "TikTok", "tiktok.ico")
+      },
+      socialMedia.x.map { handle => SocialMediaCard.generate(handle, SOCIALMEDIA_BASE_URL_X, "X(Twitter)", "x.ico") },
     ).flatten
-  }
-
-  private def socialMediaCard(
-      handle: String,
-      baseUrl: String,
-      service: String,
-      logoFilename: String,
-  ): BodyElement[?] = {
-    a()
-      .withHref(baseUrl + handle)
-      .withTarget(BLANK)
-      .withClass(CLASS_SOCIALMEDIA_CARD)
-      .appendElements(
-        img()
-          .withClass(CLASS_SOCIALMEDIA_CARD_LOGO)
-          .withSrc(URL_LOGO_BASE + logoFilename)
-          .withAlt(service + SOCIALMEDIA_LOGO_ALT),
-        text(handle),
-      )
   }
 
 }
 
 object BandPage {
-  val LIVE_PATH = "live" + Pages.HTML_EXTENSION
   val DESIGNATION = "Band"
 
   val URL_LOGO_BASE = "/asset/image/logo/"
@@ -124,9 +105,6 @@ object BandPage {
   val CLASS_BAND_SOCIALS = "band-socials"
 
   val TEXT_SUBLABEL = """Read as "Neki""""
-
-  val CLASS_SOCIALMEDIA_CARD = "socialmedia-card"
-  val CLASS_SOCIALMEDIA_CARD_LOGO = "socialmedia-card-logo"
 
   val SOCIALMEDIA_LOGO_ALT = " logo"
   val SOCIALMEDIA_BASE_URL_INSTAGRAM = "https://www.instagram.com/"

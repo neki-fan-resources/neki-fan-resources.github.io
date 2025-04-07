@@ -313,5 +313,5 @@ object CommonBase {
 
   // TODO: replaced with computed (once) values
   val ROOT_PATH = "/"
-  val ABOUT_PATH = "/about.html"
+  val ABOUT_PATH = "/about.html#questions"
 }

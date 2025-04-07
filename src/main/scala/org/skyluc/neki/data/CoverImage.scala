@@ -14,3 +14,7 @@ case class AlbumCoverImage(
 case class TourCoverImage(
     tourId: TourId
 ) extends CoverImage
+
+case class SongCoverImage(
+    songId: SongId
+) extends CoverImage

@@ -13,6 +13,8 @@ class BandPage(data: Data) extends Page(data) {
 
   import BandPage._
 
+  override val isRoot: Boolean = true
+
   override def path(): Path = Path.of("index.html")
 
   override def shortTitle(): String = DESIGNATION

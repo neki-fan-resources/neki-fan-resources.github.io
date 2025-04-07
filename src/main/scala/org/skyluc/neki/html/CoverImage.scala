@@ -6,6 +6,7 @@ import org.skyluc.neki.data.Item
 import org.skyluc.neki.data.FileCoverImage
 import org.skyluc.neki.data.AlbumCoverImage
 import org.skyluc.neki.data.TourCoverImage
+import org.skyluc.neki.data.SongCoverImage
 
 object CoverImage {
 
@@ -17,6 +18,8 @@ object CoverImage {
         CompiledData.getAlbum(albumId, data).coverUrl
       case TourCoverImage(tourId) =>
         CompiledData.getTour(tourId, data).coverUrl
+      case SongCoverImage(songId) =>
+        CompiledData.getSong(songId, data).coverUrl
     }
   }
 

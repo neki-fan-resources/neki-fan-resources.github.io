@@ -17,7 +17,18 @@ class SongPage(val song: Song, extraPage: Boolean, data: Data) extends Page(data
 
   import SongPage._
 
-  override def path(): Path = Path.of(SONG_PATH, song.id.id + Pages.HTML_EXTENSION)
+  override val isDark: Boolean = song.id.dark
+
+  override def oppositePage: Option[String] = {
+    val otherSongId = song.id.copy(dark = !song.id.dark)
+    CompiledData.cache.get(otherSongId).map(_.url)
+  }
+
+  override def path(): Path = if (song.id.dark) {
+    Path.of(CommonBase.DARK_PATH, SONG_PATH, song.id.id + Pages.HTML_EXTENSION)
+  } else {
+    Path.of(SONG_PATH, song.id.id + Pages.HTML_EXTENSION)
+  }
 
   override def shortTitle(): String = {
     song.fullname + song.fullnameEn.map(n => s" ($n)").getOrElse(CommonBase.EMPTY) + TITLE_DESIGNATION

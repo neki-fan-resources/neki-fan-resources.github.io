@@ -1,0 +1,392 @@
+type: song
+id: moon
+dark: true
+
+fullname: moon
+
+album: tricktaking
+release-date: 2025-03-05
+
+cover-image:
+  song: moon
+
+lyrics:
+  status:
+    code: danger
+    description: This is showing the difference in the lyrics between the performance during the 2ND ONE MAN LIVE and the released version. The transcription of the live version is tentative at best.
+  languages:
+    - id: ol
+      name: Original lyrics
+      active: true
+      fixed: true
+      notranslation: true
+    - id: ro
+      name: rōmaji
+      notranslation: true
+      active: true
+    - id: atr
+      name: altered lyrics
+      details: (transcribed from 2ND ONE MAN LIVE)
+      active: true
+      fixed: true
+      notranslation: true
+    - id: aro
+      name: rōmaji (of altered lyrics)
+      notranslation: true
+      active: true
+  sections:
+  - lines:
+    - ol:
+      - すぐに
+      - 消えてしまう
+      - ストーリー
+      - " "
+      - 幻
+      - みたいな
+      ro:
+      - suguni
+      - kieteshimau
+      - sutōrī
+      - ""
+      - maboroshi
+      - mitaina
+    - ol:
+      - 思考
+      - は
+      - メリーゴーランド
+      - " "
+      - まわってく
+      - ループループ
+      ro:
+      - shikō
+      - wa
+      - merīgōrando
+      - ""
+      - mawatteku
+      - rūpurūpu
+    - oll: Where am I going？
+    - ol: 
+      - 加工
+      - だらけ
+      - の
+      - 世界
+      - で
+      ro:
+      - kakō
+      - darake
+      - "no"
+      - sekai
+      - de
+  - lines: 
+    - ol:
+      - 鍵かけて
+      - も
+      - すぐに
+      - " "
+      - 見透かされる
+      ro:
+      - kagikakete
+      - mo
+      - suguni
+      - ""
+      - misukasareru
+    - ol:
+      - 正直
+      - って
+      - 地雷
+      - だよね
+      - " "
+      - やり過ごす
+      - ループループ
+      ro:
+      - shōjiki
+      - tte
+      - jirai
+      - dayone
+      - ""
+      - yarisugosu
+      - rūpurūpu
+      atr:
+      - 正直
+      - って
+      - 地雷
+      - だよね
+      - " "
+      - 回ってく
+      - ループループ
+      aro:
+      - shōjiki
+      - tte
+      - jirai
+      - dayone
+      - ""
+      - mawatteku
+      - rūpurūpu
+    - oll: Where am I going？
+    - ol: 
+      - 加工
+      - だらけ
+      - の
+      - 世界
+      - で
+      ro:
+      - kakō
+      - darake
+      - "no"
+      - sekai
+      - de
+  - lines: 
+    - ol:
+      - どうせ
+      - なって
+      - 諦めて
+      ro:
+      - dōse
+      - natte
+      - akiramete
+    - ol:
+      - それも
+      - もう
+      - なんか
+      - 飽きた
+      - な
+      ro:
+      - soremo
+      - mō
+      - nanka
+      - akita
+      - na
+      atr: 
+      - でも
+      - その
+      - 先
+      - を
+      - 見たい
+      aro:
+      - demo
+      - sono
+      - saki
+      - o
+      - mitai
+    - ol:
+      - 星
+      - の
+      - ない
+      - 夜
+      - の
+      - 空
+      ro:
+      - hoshi
+      - "no"
+      - nai
+      - yoru
+      - "no"
+      - sora
+    - ol: 
+      - 月
+      - だけ
+      - が
+      - 私
+      - を
+      - 見てる
+      ro:
+      - tsuki
+      - dake
+      - ga
+      - watashi
+      - o
+      - miteru
+  - lines: 
+    - ol:
+      - 充電
+      - いつも
+      - なくて
+      - " "
+      - めんどくさい
+      - な
+      ro:
+      - jūden
+      - itsumo
+      - nakute
+      - ""
+      - mendokusai
+      - na
+    - ol:
+      - 鞄
+      - を
+      - 放り投げた
+      - " "
+      - 誰か
+      - 連れ出して
+      - ループループ
+      ro:
+      - kaban
+      - o
+      - hōrinageta
+      - ""
+      - dareka
+      - tsuredashite
+      - rūpurūpu
+    - oll: Where am I going？
+    - ol:
+      - 時間
+      - だけ
+      - リアル
+      - で
+      ro:
+      - jikan
+      - dake
+      - riaru
+      - de
+      atr:
+      - 時間
+      - 今
+      - 籠る
+      - なって
+      aro:
+      - jikan
+      - ima
+      - komoru
+      - natte
+  - lines: 
+    - ol:
+      - 無理
+      - に
+      - なって
+      - 逃げ出して
+      ro:
+      - muri
+      - ni
+      - natte
+      - nigedashite
+    - ol:
+      - それも
+      - もう
+      - なんか
+      - 飽きた
+      - な
+      ro:
+      - soremo
+      - mō
+      - nanka
+      - akita
+      - na
+    - ol: 
+      - オレンジ色
+      - の
+      - ライト
+      ro:
+      - orenji-iro
+      - "no"
+      - raito
+    - ol: 
+      - 月
+      - だけ
+      - が
+      - 私
+      - を
+      - 見てる
+      ro:
+      - tsuki
+      - dake
+      - ga
+      - watashi
+      - o
+      - miteru
+  - lines: 
+    - ol: 
+      - 画面
+      - の
+      - 中に
+      - " "
+      - 私
+      - が
+      - いる
+      ro:
+      - gamen
+      - "no"
+      - nakani
+      - ""
+      - watashi
+      - ga
+      - iru
+    - ol:
+      - パラレルワールド
+      - " "
+      - いつだって
+      - 行ける
+      ro:
+      - parareruwārudo
+      - ""
+      - itsudatte
+      - ikeru
+    - oll: (How do I feel? Where am I going?
+    - oll: How do I feel? How do I feel?)
+  - lines: 
+    - ol:
+      - 怖く
+      - なって
+      - 立ち止まって
+      ro:
+      - kowaku
+      - natte
+      - tachidomatte
+    - ol: 
+      - でも
+      - その
+      - 先
+      - を
+      - 見たい
+      ro:
+      - demo
+      - sono
+      - saki
+      - o
+      - mitai
+    - ol:
+      - 誰の
+      - 声も
+      - 聞こえない
+      ro:
+      - dareno
+      - koemo
+      - kikoenai
+      atr:
+      - 星
+      - の
+      - ない
+      - 夜
+      - の
+      - 空
+      aro:
+      - hoshi
+      - "no"
+      - nai
+      - yoru
+      - "no"
+      - sora
+    - ol: 
+      - 月
+      - だけ
+      - が
+      - 私
+      - を
+      - 見てる
+      ro:
+      - tsuki
+      - dake
+      - ga
+      - watashi
+      - o
+      - miteru
+  - lines: 
+    - ol: 
+      - 私
+      - を
+      - 見てる
+      ro:
+      - watashi
+      - o
+      - miteru
+    - oll: Where am I going？
+

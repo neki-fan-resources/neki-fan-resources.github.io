@@ -27,6 +27,8 @@ abstract class Page(val data: Data) {
   def path(): Path
 
   val isRoot: Boolean = false
+  val isDark: Boolean = false
+  def oppositePage: Option[String] = None
 
   def shortTitle(): String
 

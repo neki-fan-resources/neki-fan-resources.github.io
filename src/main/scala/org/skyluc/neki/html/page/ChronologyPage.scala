@@ -51,7 +51,7 @@ object ChronologyPage {
   val CHRONOLOGY_PATH = "chronology" + Pages.HTML_EXTENSION
   val DESIGNATION = "Chronology"
 
-  val MAIN_INTRO_TEXT = "The main events in NEK! story. Song and EP releases, shows, tours, interviews, ..."
+  val MAIN_INTRO_TEXT = "The main events in the NEK! story. Song and EP releases, shows, tours, interviews, ..."
 }
 
 object ChronologySvg {

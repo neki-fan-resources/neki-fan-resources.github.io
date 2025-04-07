@@ -1,0 +1,19 @@
+:root {
+
+  --gradient-bar: linear-gradient(120deg,
+      var(--color-kanade-cocoro-dark) 0%,
+      var(--color-kanade-dark) 5%,
+      var(--color-kanade-dark) 20%,
+      var(--color-hika-dark) 30%,
+      var(--color-hika-dark) 45%,
+      var(--color-natsu-dark) 55%,
+      var(--color-natsu-dark) 70%,
+      var(--color-cocoro-dark) 80%,
+      var(--color-cocoro-dark) 95%,
+      var(--color-kanade-cocoro-dark) 100%);
+
+  --gradient-page: repeating-linear-gradient(170deg,
+      var(--color-kanade-light) 0%,
+      var(--color-natsu-light) 60vh,
+      var(--color-kanade-light) 120vh);
+}

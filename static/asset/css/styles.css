@@ -8,11 +8,13 @@
   --color-cocoro-05: rgb(from var(--color-cocoro) r g b / 0.05);
   --color-hika: #e50112;
   --color-hika-light: rgb(from var(--color-hika) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-hika-dark: rgb(from var(--color-hika) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-hika-50: rgb(from var(--color-hika) r g b / 0.5);
   --color-hika-10: rgb(from var(--color-hika) r g b / 0.1);
   --color-kanade: #e2007e;
   --color-kanade-light: rgb(from var(--color-kanade) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
   --color-kanade-lighter: rgb(from var(--color-kanade) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
+  --color-kanade-dark: rgb(from var(--color-kanade) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-kanade-50: rgb(from var(--color-kanade) r g b / 0.5);
   --color-kanade-05: rgb(from var(--color-kanade) r g b / 0.05);
   --color-natsu: #fff001;
@@ -22,7 +24,8 @@
   --color-natsu-50: rgb(from var(--color-natsu) r g b / 0.5);
   --color-natsu-05: rgb(from var(--color-natsu) r g b / 0.05);
 
-  --color-kanade-cocoro-light: #c3a9d8;
+  --color-kanade-cocoro-light: color-mix(in oklab, var(--color-kanade-light), var(--color-cocoro-light));
+  --color-kanade-cocoro-dark: color-mix(in oklab, var(--color-kanade-dark), var(--color-cocoro-dark));
 
   --color-not-black: darkslategray;
   --color-designation: gray;
@@ -285,6 +288,12 @@ footer {
   right: 0.3rem;
 }
 
+.footer-bottom-left {
+  position: absolute;
+  bottom: 0.1rem;
+  left: 0.3rem;
+}
+
 /* footer styling */
 
 footer {
@@ -294,6 +303,13 @@ footer {
 
 .footer-content {
   text-align: center;
+}
+
+.footer-bottom-left {
+  color: black;
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+  font-weight: 800;
 }
 
 /* band page layout */
@@ -1137,6 +1153,14 @@ td.lyrics-sub-part-last {
 
 .lyrics-sub-gg {
   color: var(--color-cocoro-dark);
+}
+
+.lyrics-sub-atr {
+  color: var(--color-cocoro-dark);
+}
+
+.lyrics-sub-aro {
+  color: var(--color-cocoro);
 }
 
 .lyrics-sub-link {

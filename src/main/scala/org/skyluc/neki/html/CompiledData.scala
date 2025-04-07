@@ -346,8 +346,14 @@ object CompiledData {
           }
           .getOrElse(Nil)
 
+    val url = if (song.id.dark) {
+      Song.URL_BASE_DARK + song.id.id + Pages.HTML_EXTENSION
+    } else {
+      Song.URL_BASE + song.id.id + Pages.HTML_EXTENSION
+    }
+
     ItemCompiledData(
-      Song.URL_BASE + song.id.id + Pages.HTML_EXTENSION,
+      url,
       SongPage.DESIGNATION,
       song.fullname,
       None,

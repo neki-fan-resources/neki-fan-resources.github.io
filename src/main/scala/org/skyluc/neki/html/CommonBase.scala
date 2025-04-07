@@ -27,7 +27,7 @@ object CommonBase {
       meta().withCharset(CHARSET_UTF8) ::
         headFonts() :::
         searchEngineVerification(page) :::
-        css() :::
+        css(page.isDark) :::
         icons() :::
         opengraph(page) :::
         statistics()
@@ -53,10 +53,17 @@ object CommonBase {
       Nil
     }
 
-  private def css(): List[HeadElement[?]] =
-    List(
-      link(REL_STYLESHEET, HREF_STYLESHEET)
-    )
+  private def css(dark: Boolean): List[HeadElement[?]] =
+    if (dark) {
+      List(
+        link(REL_STYLESHEET, HREF_STYLESHEET),
+        link(REL_STYLESHEET, HREF_STYLESHEET_DARK),
+      )
+    } else {
+      List(
+        link(REL_STYLESHEET, HREF_STYLESHEET)
+      )
+    }
 
   private def icons(): List[HeadElement[?]] =
     List(
@@ -118,7 +125,7 @@ object CommonBase {
             .appendElements(page.mainContent()*)
         ),
       div(PAGE_FOOTER)
-        .appendElements(footer()*),
+        .appendElements(footer(page)*),
       div()
         .withId(MAIN_OVERLAY)
         .withClass(CLASS_MAIN_OVERLAY_HIDDEN)
@@ -181,30 +188,38 @@ object CommonBase {
     )
   }
 
-  private def footer(): List[BodyElement[?]] = {
-    List(
-      div()
-        .withClass(CLASS_FOOTER_CONTENT)
-        .appendElements(
-          text(FOOTER_TEXT_1)
-        ),
-      div()
-        .withClass(CLASS_FOOTER_CONTENT)
-        .appendElements(
-          text(FOOTER_TEXT_2)
-        ),
-      div()
-        .withClass(CLASS_FOOTER_CONTENT)
-        .appendElements(
-          text(FOOTER_TEXT_3)
-        ),
+  private def footer(page: Page): List[BodyElement[?]] = {
+    page.oppositePage.map { oppositeUrl =>
       a()
-        .withClass(CLASS_FOOTER_BOTTOM_RIGHT)
-        .withHref(ABOUT_PATH)
+        .withHref(oppositeUrl)
+        .withClass(CLASS_FOOTER_BOTTOM_LEFT)
         .appendElements(
-          text(FOOTER_TEXT_4)
-        ),
-    )
+          text("π")
+        )
+    }.toList :::
+      List(
+        div()
+          .withClass(CLASS_FOOTER_CONTENT)
+          .appendElements(
+            text(FOOTER_TEXT_1)
+          ),
+        div()
+          .withClass(CLASS_FOOTER_CONTENT)
+          .appendElements(
+            text(FOOTER_TEXT_2)
+          ),
+        div()
+          .withClass(CLASS_FOOTER_CONTENT)
+          .appendElements(
+            text(FOOTER_TEXT_3)
+          ),
+        a()
+          .withClass(CLASS_FOOTER_BOTTOM_RIGHT)
+          .withHref(ABOUT_PATH)
+          .appendElements(
+            text(FOOTER_TEXT_4)
+          ),
+      )
   }
 
   // -------------
@@ -233,6 +248,7 @@ object CommonBase {
 
   // stylesheet
   val HREF_STYLESHEET = "/asset/css/styles.css"
+  val HREF_STYLESHEET_DARK = "/asset/css/dark.css"
 
   // icons
   val TYPE_PNG = "image/png"
@@ -313,5 +329,6 @@ object CommonBase {
 
   // TODO: replaced with computed (once) values
   val ROOT_PATH = "/"
+  val DARK_PATH = "dark"
   val ABOUT_PATH = "/about.html#questions"
 }

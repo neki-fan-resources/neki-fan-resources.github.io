@@ -82,6 +82,7 @@ case class Site(
 
 case class Song(
     id: String,
+    dark: Boolean = false,
     fullname: String,
     `fullname-en`: Option[String],
     album: Option[String],
@@ -171,6 +172,7 @@ case class Credits(
 
 case class CoverImage(
     file: Option[File],
+    song: Option[String],
     album: Option[String],
     tour: Option[String],
 ) derives YamlCodec
@@ -208,7 +210,9 @@ case class LyricsLine(
     oll: Option[String],
     tr: Option[List[String]],
     trl: Option[String],
+    atr: Option[List[String]],
     ro: Option[List[String]],
+    aro: Option[List[String]],
     ww: Option[List[LyricsWW]],
     gg: Option[String],
     en: Option[String],

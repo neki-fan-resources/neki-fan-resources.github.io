@@ -211,6 +211,12 @@ object DataBuilder {
           } else {
             WithError(item, DataError(item.id, s"Reference not found for cover image: tour '$tourId.id'"))
           }
+        case SongCoverImage(songId) =>
+          if (data.songs.contains(songId)) {
+            WithError(item)
+          } else {
+            WithError(item, DataError(item.id, s"Reference not found for cover image: tour '$songId.id'"))
+          }
       }
     }
 

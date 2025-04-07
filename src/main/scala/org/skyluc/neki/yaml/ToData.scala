@@ -42,6 +42,7 @@ import org.skyluc.neki.data.{
   Site => dSite,
   SocialMedia => dSocialMedia,
   Song => dSong,
+  SongCoverImage => dSongCoverImage,
   SongId => dSongId,
   SongMarker => dSongMarker,
   Source => dSource,
@@ -243,6 +244,9 @@ object ToData {
       coverImage.tour.map { tour =>
         Right(dTourCoverImage(dTourId(tour)))
       },
+      coverImage.song.map { song =>
+        Right(dSongCoverImage(dSongId(song)))
+      },
     ).flatten
 
     // check only one defined
@@ -317,8 +321,14 @@ object ToData {
       line.trl.map { entry =>
         ("tr", List(dLyricsLineEntry(Some(entry), None)))
       },
+      line.atr.map { entries =>
+        ("atr", entries.map(e => dLyricsLineEntry(Some(e), None)))
+      },
       line.ro.map { entries =>
         ("ro", entries.map(e => dLyricsLineEntry(Some(e), None)))
+      },
+      line.aro.map { entries =>
+        ("aro", entries.map(e => dLyricsLineEntry(Some(e), None)))
       },
       line.ww.map { entries =>
         // TODO: should not be both None
@@ -547,7 +557,7 @@ object ToData {
   }
 
   def process(song: Song): Either[ParserError, dSong] = {
-    val id = dSongId(song.id)
+    val id = dSongId(song.id, song.dark)
     for {
       releaseDate <- processDate(song.`release-date`, id)
       coverImage <- process(song.`cover-image`, id)

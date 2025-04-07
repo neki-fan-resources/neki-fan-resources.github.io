@@ -23,6 +23,7 @@ multimedia:
   live:
   - youtubeshort: b2N2xThvZ-4
   short:
+  - youtubeshort: WRfdzk-02vY
   - youtubeshort: LoiUwaTk_2Q
   - youtubeshort: becPsUyrM_M
   - youtubeshort: M4ovXQcKfv0
@@ -92,13 +93,18 @@ related:
 - type: youtubeshort
   id: f_7Wd4lCcXo
   label: Music Video
-  info: Music Video behind the scene
+  info: music Video behind the scene
   published-date: 2025-03-01
 - type: youtubeshort
   id: uexxORqapQY
   label: Bass Intro
   info: Kanade Bass play-through
   published-date: 2025-03-19
+- type: youtubeshort
+  id: WRfdzk-02vY
+  label: Music Video
+  info: music Video behind the scene, Cocoro focus
+  published-date: 2025-04-07
 
 
 lyrics:

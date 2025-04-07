@@ -20,6 +20,7 @@ import org.skyluc.neki.html.page.ChronologyPage
 import org.skyluc.neki.html.page.MediasPage
 import org.skyluc.neki.html.page.MediaPage
 import org.skyluc.neki.html.page.AboutPage
+import org.skyluc.neki.html.page.SourcesPage
 
 // TODO: remove the data field ??
 abstract class Page(val data: Data) {
@@ -49,7 +50,14 @@ object Pages {
   val EXTRA_PATH = "extra"
 
   def fromData(data: Data, errors: List[SiteError]): Iterable[Page] = {
-    Iterable(ErrorPage(errors, data), BandPage(data), LivePage(data), MediasPage(data), AboutPage(data))
+    Iterable(
+      ErrorPage(errors, data),
+      BandPage(data),
+      LivePage(data),
+      MediasPage(data),
+      AboutPage(data),
+      SourcesPage(data),
+    )
       ++ data.pages.values.filterNot(_.error).map(pageFor(_, data))
       ++ data.albums.values.filterNot(_.error).flatMap(AlbumPage.pagesFor(_, data))
       ++ data.songs.values.filterNot(_.error).flatMap(SongPage.pagesFor(_, data))

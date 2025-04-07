@@ -299,7 +299,6 @@ case class SocialMedia(
 ) derives YamlCodec
 
 case class Source(
-    label: Option[String],
     description: String,
     url: Option[String],
 ) derives YamlCodec

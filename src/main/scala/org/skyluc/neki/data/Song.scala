@@ -1,6 +1,7 @@
 package org.skyluc.neki.data
 
 import java.nio.file.Path
+import org.skyluc.neki.html.page.SourcesPage.SourceItem
 
 case class SongId(id: String, dark: Boolean = false) extends Id[Song] {
   import Song._
@@ -37,6 +38,18 @@ case class Song(
       this
     } else {
       copy(relatedTo = relatedTo :+ id)
+    }
+  }
+
+  def sources(): Option[SourceItem] = {
+    val s = List(
+      coverImage.sourceEntry(),
+      credits.flatMap(_.sourceEntry()),
+    ).flatten ::: lyrics.map(_.sourceEntries()).getOrElse(Nil)
+    if (s.isEmpty) {
+      None
+    } else {
+      Some(SourceItem(fullname, s))
     }
   }
 

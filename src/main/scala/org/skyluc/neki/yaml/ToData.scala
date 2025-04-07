@@ -579,7 +579,7 @@ object ToData {
   }
 
   def process(source: Source): dSource = {
-    dSource(source.description)
+    dSource(source.description, source.url)
   }
 
   def process(tour: Tour): Either[ParserError, dTour] = {

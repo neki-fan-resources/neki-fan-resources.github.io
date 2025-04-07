@@ -1,11 +1,17 @@
 package org.skyluc.neki.data
 
-sealed trait CoverImage
+import org.skyluc.neki.html.page.SourcesPage.SourceEntry
+
+sealed trait CoverImage {
+  def sourceEntry(): Option[SourceEntry] = None
+}
 
 case class FileCoverImage(
     filename: String,
     source: Source,
-) extends CoverImage
+) extends CoverImage {
+  override def sourceEntry(): Option[SourceEntry] = Some(SourceEntry("Cover image", source.description, source.url))
+}
 
 case class AlbumCoverImage(
     albumId: AlbumId

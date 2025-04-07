@@ -5,6 +5,7 @@ import java.time.temporal.ChronoField
 import java.time.ZonedDateTime
 import java.time.ZoneOffset
 import scala.annotation.tailrec
+import org.skyluc.neki.html.page.SourcesPage.SourceEntry
 
 trait Id[T] {
   val uid: String
@@ -158,20 +159,29 @@ case class Credits(
     lyricist: String,
     composer: String,
     source: Option[Source],
-)
+) {
+  def sourceEntry(): Option[SourceEntry] = 
+    source.map(s => SourceEntry("Credits", s.description, s.url))
+}
 
 case class Source(
     // TODO: require a label
     // label: String,
     description: String,
-    // url: Option[String],
+    url: Option[String],
 )
 
 case class Lyrics(
   status: LyricsStatus,
   languages: List[LyricsLanguage],
   sections: List[LyricsSection],
-)
+) {
+  def sourceEntries(): List[SourceEntry] = {
+    languages.flatMap{l =>
+      l.source.map(s => SourceEntry(l.name, s.description, s.url))
+    }
+  }
+}
 
 case class LyricsLanguage(
   id: String,

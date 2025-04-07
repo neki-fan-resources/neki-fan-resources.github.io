@@ -1,6 +1,7 @@
 package org.skyluc.neki.data
 
 import java.nio.file.Path
+import org.skyluc.neki.html.page.SourcesPage.SourceItem
 
 case class AlbumId(id: String) extends Id[Album] {
   import Album._
@@ -37,6 +38,12 @@ case class Album(
       this
     } else {
       copy(relatedTo = relatedTo :+ id)
+    }
+  }
+
+  def sources(): Option[SourceItem] = {
+    coverImage.sourceEntry().map { s =>
+      SourceItem(fullname, List(s))
     }
   }
 }

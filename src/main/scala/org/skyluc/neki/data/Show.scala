@@ -1,6 +1,7 @@
 package org.skyluc.neki.data
 
 import java.nio.file.Path
+import org.skyluc.neki.html.page.SourcesPage.SourceItem
 
 case class ShowId(year: String, id: String) extends Id[Show] {
   import Show._
@@ -41,6 +42,10 @@ case class Show(
       copy(relatedTo = relatedTo :+ id)
     }
   }
+
+  def sources(): Option[SourceItem] = {
+    coverImage.sourceEntry().map(s => SourceItem(shortname.getOrElse(fullname), List(s)))
+  }
 }
 
 object Show {
@@ -73,6 +78,10 @@ case class Tour(
     } else {
       copy(relatedTo = relatedTo :+ id)
     }
+  }
+
+  def sources(): Option[SourceItem] = {
+    coverImage.sourceEntry().map(s => SourceItem(shortname.getOrElse(fullname), List(s)))
   }
 }
 

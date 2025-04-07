@@ -1,6 +1,7 @@
 package org.skyluc.neki.data
 
 import java.nio.file.Path
+import org.skyluc.neki.html.page.SourcesPage.SourceItem
 
 case class MediaId(year: String, id: String) extends Id[Media] {
 
@@ -42,6 +43,9 @@ case class Media(
 
   override def withRelatedTo(id: Id[?]): Media = copy(relatedTo = id :: relatedTo)
 
+  def sources(): Option[SourceItem] = {
+    coverImage.sourceEntry().map(s => SourceItem(radio + " - " + show, List(s)))
+  }
 }
 
 object Media {

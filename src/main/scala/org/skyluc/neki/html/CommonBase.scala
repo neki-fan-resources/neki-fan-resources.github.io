@@ -74,9 +74,9 @@ object CommonBase {
   private def opengraph(page: Page): List[HeadElement[?]] = {
     val title = page.shortTitle() + COMMON_TITLE
     val descriptionAltName = page.altName().map(n => s" $n.").getOrElse(EMPTY)
-    val imageUrl = Config.baseUrl + page.ogImageUrl().getOrElse("/manekineko-512px.png").substring(1)
+    val imageUrl = page.ogImageUrl().map(u => Config.current.baseUrl + u.substring(1)).getOrElse(CONTENT_OG_LOGO)
     val description = s"$title$COMMON_DESCRIPTION$descriptionAltName"
-    val canonicalUrl = Config.baseUrl + page.path().toString()
+    val canonicalUrl = Config.current.baseUrl + page.path().toString()
     List(
       link(REL_CANONICAL, canonicalUrl),
       Html.title(title),
@@ -92,9 +92,9 @@ object CommonBase {
   }
 
   private def statistics(): List[HeadElement[?]] =
-    if (Config.isLocal) {
+    if (Config.current.isLocal) {
       List(
-        meta().withName(NAME_LOCAL).withContent(Config.isLocal.toString())
+        meta().withName(NAME_LOCAL).withContent(Config.current.isLocal.toString())
       )
     } else {
       List(
@@ -280,7 +280,7 @@ object CommonBase {
   val PROPERTY_OG_LOCALE = "og:locale"
 
   val CONTENT_OG_TYPE = "website"
-  val CONTENT_OG_LOGO = Config.baseUrl + "manekineko-512px.png"
+  val CONTENT_OG_LOGO = Config.current.baseUrl + "manekineko-512px.png"
   val CONTENT_OG_LOCALE = "en_US"
 
   // page layout

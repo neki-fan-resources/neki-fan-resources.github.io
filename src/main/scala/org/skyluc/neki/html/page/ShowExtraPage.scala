@@ -18,8 +18,19 @@ class ShowExtraPage(show: Show, data: Data) extends Page(data) {
 
   override def path(): Path = extraPath(show)
 
+  // TODO: real solution to limit title length. Likely manual with automated checks.
   override def shortTitle(): String = {
-    show.fullname + TITLE_DESIGNATION_EXTRA
+    if (show.fullname.length() <= TITLE_EXTRA_LIMIT) {
+      show.fullname + TITLE_DESIGNATION
+    } else {
+      show.shortname
+        .map { n =>
+          n.takeRight(TITLE_EXTRA_LIMIT) + TITLE_DESIGNATION
+        }
+        .getOrElse {
+          show.fullname.takeRight(TITLE_EXTRA_LIMIT) + TITLE_DESIGNATION
+        }
+    }
   }
 
   override def altName(): Option[String] = show.shortname

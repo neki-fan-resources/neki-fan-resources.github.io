@@ -6,6 +6,7 @@ import org.skyluc.neki.html._
 import org.skyluc.html.BodyElement
 import org.skyluc.neki.data.Show
 import org.skyluc.neki.data.MultiMediaId
+import org.skyluc.neki.html.CommonBase.COMMON_TITLE_LIMIT
 
 class ShowPage(val show: Show, extraPage: Boolean, data: Data) extends Page(data) {
 
@@ -14,7 +15,17 @@ class ShowPage(val show: Show, extraPage: Boolean, data: Data) extends Page(data
   override def path(): Path = Path.of(SHOW_PATH, show.id.year, show.id.id + Pages.HTML_EXTENSION)
 
   override def shortTitle(): String = {
-    show.fullname + TITLE_DESIGNATION
+    if (show.fullname.length() <= TITLE_LIMIT) {
+      show.fullname + TITLE_DESIGNATION
+    } else {
+      show.shortname
+        .map { n =>
+          n.takeRight(TITLE_LIMIT) + TITLE_DESIGNATION
+        }
+        .getOrElse {
+          show.fullname.takeRight(TITLE_LIMIT) + TITLE_DESIGNATION
+        }
+    }
   }
 
   override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(show.coverImage, show, data))
@@ -69,7 +80,9 @@ object ShowPage {
 
   val DESIGNATION = "Show"
   val TITLE_DESIGNATION = " - " + DESIGNATION
+  val TITLE_LIMIT = COMMON_TITLE_LIMIT - TITLE_DESIGNATION.length()
   val TITLE_DESIGNATION_EXTRA = " - " + DESIGNATION + " extra"
+  val TITLE_EXTRA_LIMIT = COMMON_TITLE_LIMIT - TITLE_DESIGNATION_EXTRA.length()
 
   val URL_SETLISTFM_BASE = "https://www.setlist.fm/setlist/"
   val LABEL_VENUE = "venue"

@@ -278,6 +278,7 @@ object CommonBase {
 
   // opengraph
   val COMMON_TITLE = " - NEK! - NEK! Fan Resources"
+  val COMMON_TITLE_LIMIT = 70 - COMMON_TITLE.length()
   val COMMON_DESCRIPTION_MIN = "."
   val COMMON_DESCRIPTION_1 = COMMON_DESCRIPTION_MIN + " Resources around the band NEK!."
   val COMMON_DESCRIPTION_2 = COMMON_DESCRIPTION_1 + " Lyrics, videos, live, concerts, history."

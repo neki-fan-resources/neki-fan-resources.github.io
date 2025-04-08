@@ -74,9 +74,9 @@ object CommonBase {
 
   private def opengraph(page: Page): List[HeadElement[?]] = {
     val title = page.shortTitle() + COMMON_TITLE
-    val descriptionAltName = page.altName().map(n => s" $n.").getOrElse(EMPTY)
+    val descriptionAltName = page.altName().map(n => s" $n.".replace("\"", EMPTY)).getOrElse(EMPTY)
     val imageUrl = page.ogImageUrl().map(u => Config.current.baseUrl + u.substring(1)).getOrElse(CONTENT_OG_LOGO)
-    val description = s"$title$COMMON_DESCRIPTION$descriptionAltName"
+    val description = buildDescriptionString(title, descriptionAltName)
     val canonicalUrl = Config.current.baseUrl + page.url().toString()
     List(
       link(REL_CANONICAL, canonicalUrl),
@@ -90,6 +90,18 @@ object CommonBase {
       meta().withProperty(PROPERTY_OG_LOGO).withContent(CONTENT_OG_LOGO),
       meta().withProperty(PROPERTY_OG_LOCALE).withContent(CONTENT_OG_LOCALE),
     )
+  }
+
+  private def buildDescriptionString(title: String, altName: String): String = {
+    val variableLength = title.length() + altName.length()
+    // println(s"$variableLength - $COMMON_DESCRIPTION_LIMIT_2")
+    if (variableLength <= COMMON_DESCRIPTION_LIMIT_2) {
+      title + COMMON_DESCRIPTION_2 + altName
+    } else if (variableLength <= COMMON_DESCRIPTION_LIMIT_1) {
+      title + COMMON_DESCRIPTION_1 + altName
+    } else {
+      (title + COMMON_DESCRIPTION_MIN + altName).take(COMMON_DESCRIPTION_LIMIT)
+    }
   }
 
   private def statistics(): List[HeadElement[?]] =
@@ -265,9 +277,13 @@ object CommonBase {
   val SRC_JAVASCRIPT = "/asset/javascript/main.js"
 
   // opengraph
-  val COMMON_TITLE = " - NEK! - NEK! (NEKI) Fan Resources"
-  val COMMON_DESCRIPTION =
-    ". NEK! (NEKI) fan website. Provides resources around the band NEK!. Lyrics, videos, live, concerts, history."
+  val COMMON_TITLE = " - NEK! - NEK! Fan Resources"
+  val COMMON_DESCRIPTION_MIN = "."
+  val COMMON_DESCRIPTION_1 = COMMON_DESCRIPTION_MIN + " Resources around the band NEK!."
+  val COMMON_DESCRIPTION_2 = COMMON_DESCRIPTION_1 + " Lyrics, videos, live, concerts, history."
+  val COMMON_DESCRIPTION_LIMIT = 150
+  val COMMON_DESCRIPTION_LIMIT_1 = COMMON_DESCRIPTION_LIMIT - COMMON_DESCRIPTION_1.length()
+  val COMMON_DESCRIPTION_LIMIT_2 = COMMON_DESCRIPTION_LIMIT - COMMON_DESCRIPTION_2.length()
 
   val REL_CANONICAL = "canonical"
   val NAME_DESCRIPTION = "description"

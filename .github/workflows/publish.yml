@@ -1,0 +1,17 @@
+name: Publishing to GitHub Pages
+on: [push]
+jobs:
+  build-deploy-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: adopt
+          java-version: 21
+      - name: Setup sbt launcher
+        uses: sbt/setup-sbt@v1
+      - name: Build and Generate site
+        run: sbt run

@@ -11,7 +11,10 @@ import org.skyluc.neki.SiteError
 class ErrorPage(val errors: List[SiteError], data: Data) extends Page(data) {
   import ErrorPage._
 
-  override def path(): Path = Path.of("404.html")
+  override def path(): Path = Path.of("error.html")
+
+  // so it doesn't appear in the sitemap
+  override val isDark: Boolean = true
 
   override def shortTitle(): String = SHORT_TITLE
 
@@ -25,7 +28,7 @@ class ErrorPage(val errors: List[SiteError], data: Data) extends Page(data) {
         Html
           .body()
           .appendElements(
-            Html.h1().appendElement(Html.text("404")),
+            Html.h1().appendElement(Html.text("Errors")),
             Html.pre(errorText),
           )
       )

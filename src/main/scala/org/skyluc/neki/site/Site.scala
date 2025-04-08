@@ -9,6 +9,7 @@ import java.io.IOException
 import org.skyluc.neki.html.Pages
 import org.skyluc.neki.data.Data
 import org.skyluc.neki.SiteError
+import org.skyluc.neki.html.page.SitemapPage
 
 object Site {
 
@@ -20,6 +21,8 @@ object Site {
     // generate pages
     val pages = Pages.fromData(data, errors)
     Pages.generate(pages, siteFolder)
+
+    SitemapPage(pages.toList).generate(siteFolder)
 
     copyAssets(siteFolder)
   }

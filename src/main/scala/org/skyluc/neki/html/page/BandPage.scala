@@ -17,6 +17,8 @@ class BandPage(data: Data) extends Page(data) {
 
   override def path(): Path = Path.of("index.html")
 
+  override def url() = Path.of("")
+
   override def shortTitle(): String = DESIGNATION
 
   override def altName(): Option[String] = None

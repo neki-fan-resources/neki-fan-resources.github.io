@@ -1,0 +1,13 @@
+---
+layout: none
+---
+User-agent: *
+Allow: /
+Disallow: /dark/
+Disallow: /albums/
+Disallow: /assets/
+Disallow: /concerts/
+Disallow: /music/
+Disallow: /songs/
+
+Sitemap: https://neki-fan-resources.github.io/sitemap.xml

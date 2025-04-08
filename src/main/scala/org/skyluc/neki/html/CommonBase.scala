@@ -76,7 +76,7 @@ object CommonBase {
     val descriptionAltName = page.altName().map(n => s" $n.").getOrElse(EMPTY)
     val imageUrl = page.ogImageUrl().map(u => Config.current.baseUrl + u.substring(1)).getOrElse(CONTENT_OG_LOGO)
     val description = s"$title$COMMON_DESCRIPTION$descriptionAltName"
-    val canonicalUrl = Config.current.baseUrl + page.path().toString()
+    val canonicalUrl = Config.current.baseUrl + page.url().toString()
     List(
       link(REL_CANONICAL, canonicalUrl),
       Html.title(title),

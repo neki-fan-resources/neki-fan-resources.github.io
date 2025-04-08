@@ -27,6 +27,8 @@ abstract class Page(val data: Data) {
 
   def path(): Path
 
+  def url(): Path = path()
+
   val isRoot: Boolean = false
   val isDark: Boolean = false
   def oppositePage: Option[String] = None
@@ -85,9 +87,7 @@ object Pages {
       renderer.visit(page.pageContent())
       val path = siteFolder.resolve(page.path())
       Files.createDirectories(path.getParent())
-      val output = Files.newBufferedWriter(
-        siteFolder.resolve(page.path()).toAbsolutePath()
-      )
+      val output = Files.newBufferedWriter(path.toAbsolutePath())
       output.write(renderer.result)
       output.close()
     }

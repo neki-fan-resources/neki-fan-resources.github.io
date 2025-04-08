@@ -1,1 +1,3 @@
-docker run -it --rm -d -p 8080:80 --name web -v ~/dev/neki-fan-resources-scala/target/site:/usr/share/nginx/html -v ~/dev/neki-fan-resources-scala/tools/nginx/conf.d:/etc/nginx/conf.d nginx
+ROOT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )/../.." &> /dev/null && pwd )
+
+docker run -it --rm -d -p 8080:80 --name web -v "${ROOT_DIR}/target/site":/usr/share/nginx/html -v "${ROOT_DIR}/tools/nginx/conf.d":/etc/nginx/conf.d nginx

@@ -14,6 +14,7 @@ object CommonBase {
 
     Html
       .html()
+      .withLang("en_US")
       .withHead(
         head(page)
       )

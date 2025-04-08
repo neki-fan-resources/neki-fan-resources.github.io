@@ -13,6 +13,7 @@ case class HtmlTagAttributes(
     height: Option[Int],
     href: Option[String],
     id: Option[String],
+    lang: Option[String],
     onChange: Option[String],
     onClick: Option[String],
     name: Option[String],
@@ -41,6 +42,7 @@ case class HtmlTagAttributes(
   def withHeight(height: Int): HtmlTagAttributes = copy(height = Some(height))
   def withHref(href: String): HtmlTagAttributes = copy(href = Some(href))
   def withId(id: String): HtmlTagAttributes = copy(id = Some(id))
+  def withLang(lang: String): HtmlTagAttributes = copy(lang = Some(lang))
   def withOnChange(script: String): HtmlTagAttributes =
     copy(onChange = Some(script))
   def withOnClick(script: String): HtmlTagAttributes =
@@ -83,6 +85,7 @@ object HtmlTagAttributes {
       None,
       None,
       None,
+      None,
       true,
       None,
       None,
@@ -110,6 +113,7 @@ trait Html extends HtmlTag[Html] {
   def withHead(head: Head): Html
   val body: Option[Body]
   def withBody(body: Body): Html
+  def withLang(lang: String): Html
 }
 
 sealed trait HeadElement[T <: HeadElement[T]] extends HtmlTag[T]
@@ -303,6 +307,8 @@ object HtmlImpl {
     override def withHead(head: Head): Html = copy(head = Some(head))
 
     override def withBody(body: Body): Html = copy(body = Some(body))
+
+    override def withLang(lang: String): Html = copyWithAttributes(attributes.withLang(lang))
 
     override protected def copyWithAttributes(a: HtmlTagAttributes): HtmlInt =
       copy(attributes = a)

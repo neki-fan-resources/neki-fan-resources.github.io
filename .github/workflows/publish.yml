@@ -6,6 +6,8 @@ on:
 jobs:
   build-upload:
     runs-on: ubuntu-latest
+    env:
+      CONFIG_KEY: PROD
     steps:
       - name: Checkout
         uses: actions/checkout@v4

@@ -51,30 +51,32 @@ object Site {
   }
 
   private def deleteDirectoryContent(directory: Path): Unit = {
-    Files.walkFileTree(
-      directory,
-      new SimpleFileVisitor[Path]() {
-        override def visitFile(
-            file: Path,
-            attrs: BasicFileAttributes,
-        ): FileVisitResult = {
-          Files.delete(file)
-          FileVisitResult.CONTINUE
-        }
-        override def postVisitDirectory(
-            dir: Path,
-            e: IOException,
-        ): FileVisitResult = {
-          if (e == null) {
-            if (! directory.equals(dir)) {
-              Files.delete(dir)
-            }
-            return FileVisitResult.CONTINUE
-          } else {
-            throw e
+    if (Files.isDirectory(directory)) {
+      Files.walkFileTree(
+        directory,
+        new SimpleFileVisitor[Path]() {
+          override def visitFile(
+              file: Path,
+              attrs: BasicFileAttributes,
+          ): FileVisitResult = {
+            Files.delete(file)
+            FileVisitResult.CONTINUE
           }
-        }
-      },
-    );
+          override def postVisitDirectory(
+              dir: Path,
+              e: IOException,
+          ): FileVisitResult = {
+            if (e == null) {
+              if (!directory.equals(dir)) {
+                Files.delete(dir)
+              }
+              return FileVisitResult.CONTINUE
+            } else {
+              throw e
+            }
+          }
+        },
+      );
+    }
   }
 }

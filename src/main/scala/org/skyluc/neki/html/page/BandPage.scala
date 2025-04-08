@@ -21,6 +21,8 @@ class BandPage(data: Data) extends Page(data) {
 
   override def altName(): Option[String] = None
 
+  override def ogImageUrl(): Option[String] = Some("/asset/image/site/band-getover-01.png")
+
   override def mainContent(): List[BodyElement[?]] = {
     List(
       div()

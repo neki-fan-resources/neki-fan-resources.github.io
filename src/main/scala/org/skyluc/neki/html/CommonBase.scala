@@ -74,6 +74,7 @@ object CommonBase {
   private def opengraph(page: Page): List[HeadElement[?]] = {
     val title = page.shortTitle() + COMMON_TITLE
     val descriptionAltName = page.altName().map(n => s" $n.").getOrElse(EMPTY)
+    val imageUrl = Config.baseUrl + page.ogImageUrl().getOrElse("/manekineko-512px.png").substring(1)
     val description = s"$title$COMMON_DESCRIPTION$descriptionAltName"
     val canonicalUrl = Config.baseUrl + page.path().toString()
     List(
@@ -82,7 +83,7 @@ object CommonBase {
       meta().withName(NAME_DESCRIPTION).withContent(description),
       meta().withProperty(PROPERTY_OG_TITLE).withContent(title),
       meta().withProperty(PROPERTY_OG_DESCRIPTION).withContent(description),
-      // TODO: og image
+      meta().withProperty(PROPERTY_OG_IMAGE).withContent(imageUrl),
       meta().withProperty(PROPERTY_OG_TYPE).withContent(CONTENT_OG_TYPE),
       meta().withProperty(PROPERTY_OG_URL).withContent(canonicalUrl),
       meta().withProperty(PROPERTY_OG_LOGO).withContent(CONTENT_OG_LOGO),

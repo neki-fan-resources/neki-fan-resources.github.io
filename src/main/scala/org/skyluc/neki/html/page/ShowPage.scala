@@ -17,6 +17,8 @@ class ShowPage(val show: Show, extraPage: Boolean, data: Data) extends Page(data
     show.fullname + TITLE_DESIGNATION
   }
 
+  override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(show.coverImage, show, data))
+
   override def altName(): Option[String] = show.shortname
 
   override def mainContent(): List[BodyElement[?]] = {

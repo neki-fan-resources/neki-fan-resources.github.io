@@ -35,6 +35,8 @@ abstract class Page(val data: Data) {
 
   def altName(): Option[String]
 
+  def ogImageUrl(): Option[String] = None
+
   def pageContent(): Html = CommonBase.generate(this)
 
   def mainContent(): List[BodyElement[?]]

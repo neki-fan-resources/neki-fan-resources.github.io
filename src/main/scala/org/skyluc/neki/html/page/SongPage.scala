@@ -36,6 +36,8 @@ class SongPage(val song: Song, extraPage: Boolean, data: Data) extends Page(data
 
   override def altName(): Option[String] = None
 
+  override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(song.coverImage, song, data))
+
   override def mainContent(): List[BodyElement[?]] = {
     val videoSection = MultiMediaCard.generateSection(
       SECTION_VIDEO_TEXT,

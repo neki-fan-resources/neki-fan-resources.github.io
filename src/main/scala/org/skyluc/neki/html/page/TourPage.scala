@@ -18,6 +18,8 @@ class TourPage(val tour: Tour, data: Data) extends Page(data) {
 
   override def altName(): Option[String] = tour.shortname.map(_ => tour.fullname)
 
+  override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(tour.coverImage, tour, data))
+
   override def mainContent(): List[BodyElement[?]] = {
     List(
       ItemDetails.generate(CompiledData.getTour(tour.id, data)),

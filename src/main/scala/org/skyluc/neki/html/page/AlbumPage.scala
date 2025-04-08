@@ -19,6 +19,8 @@ class AlbumPage(val album: Album, extraPage: Boolean, data: Data) extends Page(d
 
   override def altName(): Option[String] = album.altname
 
+  override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(album.coverImage, album, data))
+
   override def mainContent(): List[BodyElement[?]] = {
     val additionalSection = MultiMediaCard.generateSection(
       SECTION_ADDITIONAL_TEXT,

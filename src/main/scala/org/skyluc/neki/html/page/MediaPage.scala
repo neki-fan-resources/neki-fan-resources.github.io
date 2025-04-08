@@ -8,6 +8,7 @@ import java.nio.file.Path
 import org.skyluc.neki.html.ItemDetails
 import org.skyluc.neki.html.CompiledData
 import org.skyluc.neki.html.Pages
+import org.skyluc.neki.html.CoverImage
 
 class MediaPage(val media: Media, data: Data) extends Page(data) {
   import MediaPage._
@@ -17,6 +18,8 @@ class MediaPage(val media: Media, data: Data) extends Page(data) {
   override def shortTitle(): String = media.radio + " - " + media.show + TITLE_DESIGNATION
 
   override def altName(): Option[String] = None
+
+  override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(media.coverImage, media, data))
 
   override def mainContent(): List[BodyElement[?]] = {
     List(

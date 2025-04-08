@@ -10,6 +10,7 @@ import org.skyluc.neki.html.LineCard
 import org.skyluc.neki.html.CompiledData
 import org.skyluc.neki.html.MultiMediaCard
 import org.skyluc.html.Html._
+import org.skyluc.neki.html.CoverImage
 
 class SongExtraPage(song: Song, data: Data) extends Page(data) {
 
@@ -22,6 +23,8 @@ class SongExtraPage(song: Song, data: Data) extends Page(data) {
   }
 
   override def altName(): Option[String] = None
+
+  override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(song.coverImage, song, data))
 
   override def mainContent(): List[BodyElement[?]] = {
     val em = extraMultimedia(song)

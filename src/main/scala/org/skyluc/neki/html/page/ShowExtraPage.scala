@@ -10,6 +10,7 @@ import org.skyluc.neki.html.CompiledData
 import org.skyluc.neki.html.MultiMediaCard
 import org.skyluc.html.Html._
 import org.skyluc.neki.html.CommonBase
+import org.skyluc.neki.html.CoverImage
 
 class ShowExtraPage(show: Show, data: Data) extends Page(data) {
 
@@ -22,6 +23,8 @@ class ShowExtraPage(show: Show, data: Data) extends Page(data) {
   }
 
   override def altName(): Option[String] = show.shortname
+
+  override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(show.coverImage, show, data))
 
   override def mainContent(): List[BodyElement[?]] = {
     val em = extraMultimedia(show)

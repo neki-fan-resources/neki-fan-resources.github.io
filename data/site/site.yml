@@ -1,5 +1,19 @@
 type: site
 
+news:
+- title: next appearance
+  content:
+  - The whole band will be guest at the RADIO INFINITY show on FM802, on April 10th, from 24:00.
+  url: /media/2025/fm802-infinityradio.html
+- title: next show
+  content:
+  - NEK! next show is at the でら ROCK festival, on April 12th. They will perform at 15:30 at the 下北沢SHELTER.
+  url: /show/2025/kogaderarock.html
+- title: NEK! 1ST ZEPP ONE MAN
+  content:
+  - NEK! will do their first Zepp show, on August 30th, at Zepp Shinjuku in Tokyo.
+  url: /show/2025/1stzepponeman.html
+
 band:
   social-media:
     x: nekiband_jp
@@ -111,6 +125,7 @@ youtubevideo:
 youtubeshort:
 - account: neki
   ids:
+  - jbrII4L7UTw
   - zwtr-8a_JlY
   - WRfdzk-02vY
   - EzpPj7pVf6Y

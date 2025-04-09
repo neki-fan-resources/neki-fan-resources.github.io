@@ -7,6 +7,7 @@ case class Site(
     band: Band,
     youtubevideo: List[RefMediaIds],
     youtubeshort: List[RefMediaIds],
+    news: List[BandNews],
     error: Boolean = false,
 ) extends Item[Site] {
   val id = Site.ID

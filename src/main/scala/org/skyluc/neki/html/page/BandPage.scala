@@ -8,6 +8,7 @@ import java.nio.file.Path
 import org.skyluc.neki.data.SocialMedia
 import org.skyluc.neki.data.Member
 import org.skyluc.neki.html.SocialMediaCard
+import org.skyluc.neki.html.NewsBlock
 
 class BandPage(data: Data) extends Page(data) {
 
@@ -32,7 +33,26 @@ class BandPage(data: Data) extends Page(data) {
         .appendElements(
           img().withClass(CLASS_BAND_NAME_LOGO).withSrc(URL_LOGO).withAlt("NEK! logo"),
           div().withClass(CLASS_BAND_NAME_SUBLABEL).appendElements(text(TEXT_SUBLABEL)),
-        ),
+          div()
+            .withClass(CLASS_BAND_DESCRIPTION)
+            .appendElements(
+              p().appendElements(
+                text("NEK! is a young slang rock band formed in February 2024.")
+              ),
+              p().appendElements(
+                text("They are: Hika (vocals, guitar), Natsu (guitar), Kanade (bass) and Cocoro (Drums).")
+              ),
+              p().appendElements(
+                text("They released their first single in April 2024, and their first EP in July 2024.")
+              ),
+              p().appendElements(
+                text(
+                  "Now in their second year, they released a second EP, did a 3 cities tour in Japan, and prepare for their first Zepp concert in August, at the Zepp Shinjuku in Tokyo."
+                )
+              ),
+            ),
+        )
+        .appendElements(NewsBlock.generate(data.site.news)*),
       bandPanel(),
       div().withClass(CLASS_BAND_SOCIALS).appendElements(socials(data.site.band.socialMedia)*),
     )
@@ -94,11 +114,12 @@ object BandPage {
   val DESIGNATION = "Band"
 
   val URL_LOGO_BASE = "/asset/image/logo/"
-  val URL_LOGO = URL_LOGO_BASE + "neki.png"
+  val URL_LOGO = URL_LOGO_BASE + "neki-tight.png"
 
   val CLASS_BAND_NAME = "band-name"
   val CLASS_BAND_NAME_LOGO = "band-name-logo"
   val CLASS_BAND_NAME_SUBLABEL = "band-name-sublabel"
+  val CLASS_BAND_DESCRIPTION = "band-description"
 
   val CLASS_BAND_PANEL = "band-panel"
   val CLASS_BAND_PANEL_MEMBER_INFO = "band-panel-member-info"

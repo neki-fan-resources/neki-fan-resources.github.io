@@ -206,3 +206,9 @@ case class LyricsStatus(
   code: String,
   description: String,
 )
+
+case class BandNews(
+    title: String,
+    content: List[String],
+    url: String,
+)

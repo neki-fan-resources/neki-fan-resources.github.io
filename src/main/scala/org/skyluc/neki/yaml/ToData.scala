@@ -32,6 +32,7 @@ import org.skyluc.neki.data.{
   MusicPage => dMusicPage,
   Navigation => dNavigation,
   NavigationItem => dNavigationItem,
+  BandNews => dBandNews,
   PageId => dPageId,
   Position => dPosition,
   RefMediaIds => dRefMediaIds,
@@ -478,6 +479,10 @@ object ToData {
     Right(dNavigationItem(navigationItem.name, navigationItem.link, navigationItem.highlight))
   }
 
+  def processNewsItem(newsItem: NewsItem): dBandNews = {
+    dBandNews(newsItem.title, newsItem.content, newsItem.url)
+  }
+
   def process(refMediaIds: RefMediaIds): dRefMediaIds = {
     dRefMediaIds(refMediaIds.account, refMediaIds.ids)
   }
@@ -543,7 +548,13 @@ object ToData {
     for {
       navigation <- process(site.navigation)
     } yield {
-      dSite(navigation, band, site.youtubevideo.map(process), site.youtubeshort.map(process))
+      dSite(
+        navigation,
+        band,
+        site.youtubevideo.map(process),
+        site.youtubeshort.map(process),
+        site.news.map(processNewsItem),
+      )
     }
   }
 

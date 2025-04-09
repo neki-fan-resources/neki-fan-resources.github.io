@@ -75,6 +75,7 @@ case class ShowOrTourId(
 case class Site(
     band: Band,
     navigation: Navigation,
+    news: List[NewsItem],
     youtubevideo: List[RefMediaIds],
     youtubeshort: List[RefMediaIds],
 ) extends Element
@@ -284,6 +285,13 @@ case class NavigationItem(
     name: String,
     link: String,
     highlight: List[String],
+) derives YamlCodec
+
+case class NewsItem(
+    title: String,
+    content: List[String],
+    // TODO: should be a ref id
+    url: String,
 ) derives YamlCodec
 
 case class ShowId(

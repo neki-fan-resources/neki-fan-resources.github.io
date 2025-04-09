@@ -144,6 +144,7 @@ object ToData {
         album.fullname,
         album.altname,
         album.designation,
+        album.description,
         releaseDate,
         coverImage,
         songIds,

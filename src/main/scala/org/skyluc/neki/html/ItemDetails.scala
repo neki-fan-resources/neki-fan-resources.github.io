@@ -86,6 +86,15 @@ object ItemDetails {
               )
             )
         ),
+        data.description.map { description =>
+          div()
+            .withClass(CLASS_ITEM_DETAILS_DESCRIPTION)
+            .appendElements(
+              description.map { line =>
+                p().appendElements(text(line))
+              }*
+            )
+        },
       ).flatten
 
       div()
@@ -113,4 +122,5 @@ object ItemDetails {
   val CLASS_ITEM_DETAILS_INFO = "item-details-info"
   val CLASS_ITEM_DETAILS_INFO_LABEL = "item-details-info-label"
   val CLASS_ITEM_DETAILS_INFO_VALUE = "item-details-info-value"
+  val CLASS_ITEM_DETAILS_DESCRIPTION = "item-details-description"
 }

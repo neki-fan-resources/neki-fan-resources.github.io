@@ -23,6 +23,7 @@ case class Album(
     fullname: String,
     altname: Option[String],
     designation: String,
+    description: Option[List[String]],
     releaseDate: Date,
     coverImage: CoverImage,
     songs: List[SongId],

@@ -30,6 +30,7 @@
   --color-kanade-cocoro-dark: color-mix(in oklab, var(--color-kanade-dark), var(--color-cocoro-dark));
 
   --color-not-black: darkslategray;
+  --color-not-gray: #d0d0d0;
   --color-designation: gray;
 
   --gradient-bar: linear-gradient(120deg,
@@ -81,7 +82,6 @@
 
 html {
   font-size: var(--base-font-size);
-  line-height: calc(var(--base-font-size) * 1.1);
 }
 
 /* page layout */
@@ -146,7 +146,7 @@ body {
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
-  line-height: 1.1rem;
+  line-height: 1rem;
   background-color: var(--color-kanade-lighter);
   background: var(--gradient-page);
 }
@@ -186,6 +186,8 @@ h2 {
 }
 
 .main-intro {
+  font-size: 1rem;
+  line-height: normal;
   border-bottom: solid 1px lightgray;
 }
 
@@ -643,6 +645,14 @@ footer {
   margin: 0.2rem 0 0.3rem 0;
 }
 
+.item-details-description {
+  margin: 1rem 15% 0 0;
+}
+
+.item-details-description p {
+  margin: 0.5rem 0 0.5rem;
+}
+
 .item-details-labels {
   margin: 0 0 1rem 0;
 }
@@ -754,6 +764,13 @@ footer {
 
 .medium-details-info-value {
   vertical-align: baseline;
+}
+
+
+.item-details-description {
+  font-size: 1rem;
+  line-height: normal;
+  border-top: solid 1px var(--color-not-gray)
 }
 
 /* medium details styling */
@@ -1321,6 +1338,11 @@ td.lyrics-sub-part-last {
 }
 
 /* about page styling */
+
+.about-section {
+  font-size: 1rem;
+  line-height: normal;
+}
 
 .about-lyrics-manekineko {
   color: var(--color-cocoro-dark);

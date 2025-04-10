@@ -69,7 +69,7 @@ case class Date(year: Int, month: Int, day: Int) {
   }
 
   def isPast(): Boolean = {
-    comparedTo(today) > 0
+    comparedTo(today) < 0
   }
 
   def comparedTo(other: Date): Int = {

@@ -67,6 +67,20 @@ object ItemInfo {
   def apply(label: String, value: String, infoLevel: Int): ItemInfo =
     ItemInfo(Some(label), value, None, infoLevel)
 
+  def dateDepending(
+      labelBefore: String,
+      labelAfter: String,
+      cutoffDate: Date,
+      value: String,
+      infoLevel: Int,
+  ): ItemInfo = {
+    if (cutoffDate.isPast()) {
+      ItemInfo(labelAfter, value, infoLevel)
+    } else {
+      ItemInfo(labelBefore, value, infoLevel)
+    }
+  }
+
   val INFO_LEVEL_NONE = 0
   val INFO_LEVEL_MINIMUM = 1
   val INFO_LEVEL_BASIC = 2
@@ -140,7 +154,9 @@ case class ItemCompiledDataNode(
 object CompiledData {
 
   val LABEL_RELEASED = "released"
+  val LABEL_EXPECTED = "expected"
   val LABEL_PUBLISHED = "published"
+  val LABEL_UPCOMING = "upcoming"
   val LABEL_DATE = "date"
 
   var cache: Map[Id[?], ItemCompiledData] = HashMap()
@@ -234,7 +250,15 @@ object CompiledData {
 
   def compileForAlbum(album: Album, data: Data): ItemCompiledData = {
     val info =
-      List(ItemInfo(CompiledData.LABEL_RELEASED, album.releaseDate.toString(), ItemInfo.INFO_LEVEL_MINIMUM))
+      List(
+        ItemInfo.dateDepending(
+          CompiledData.LABEL_EXPECTED,
+          CompiledData.LABEL_RELEASED,
+          album.releaseDate,
+          album.releaseDate.toString(),
+          ItemInfo.INFO_LEVEL_MINIMUM,
+        )
+      )
     ItemCompiledData(
       Album.URL_BASE + album.id.id + Pages.HTML_EXTENSION,
       album.designation,
@@ -259,7 +283,15 @@ object CompiledData {
   def compileForMedia(media: Media, data: Data): ItemCompiledData = {
     val info = List(
       Some(ItemInfo(MediaPage.LABEL_HOST, media.host, ItemInfo.INFO_LEVEL_BASIC)),
-      Some(ItemInfo(CompiledData.LABEL_PUBLISHED, media.publishedDate.toString(), ItemInfo.INFO_LEVEL_MINIMUM)),
+      Some(
+        ItemInfo.dateDepending(
+          CompiledData.LABEL_UPCOMING,
+          CompiledData.LABEL_PUBLISHED,
+          media.publishedDate,
+          media.publishedDate.toString(),
+          ItemInfo.INFO_LEVEL_MINIMUM,
+        )
+      ),
       media.webpage.map { w =>
         ItemInfo(None, MediaPage.VALUE_SHOW_PAGE, Some(w), ItemInfo.INFO_LEVEL_ALL)
       },
@@ -341,7 +373,13 @@ object CompiledData {
 
   def compileForSong(song: Song, data: Data): ItemCompiledData = {
     val info =
-      ItemInfo(CompiledData.LABEL_RELEASED, song.releaseDate.toString(), ItemInfo.INFO_LEVEL_MINIMUM) ::
+      ItemInfo.dateDepending(
+        CompiledData.LABEL_EXPECTED,
+        CompiledData.LABEL_RELEASED,
+        song.releaseDate,
+        song.releaseDate.toString(),
+        ItemInfo.INFO_LEVEL_MINIMUM,
+      ) ::
         song.credits
           .map { credits =>
             List(
@@ -446,7 +484,7 @@ object CompiledData {
   def compileForZaiko(zaiko: Zaiko, data: Data): MultiMediaCompiledData = {
     val info = "available from " + zaiko.publishedDate.toString() +
       zaiko.expirationDate.map(d => " until " + d.toString()).getOrElse(CommonBase.EMPTY)
-    val available = zaiko.expirationDate.map(_.isPast()).getOrElse(true)
+    val available = zaiko.expirationDate.map(!_.isPast()).getOrElse(true)
     MultiMediaCompiledData(
       zaiko.url(),
       zaiko.coverImage,

@@ -50,8 +50,10 @@ object ToData {
         processAlbum(a)
       case c: ChronologyPage =>
         processChronologyPage(c)
-      case m: Media =>
-        processMedia(m)
+      case m: MediaAudio =>
+        processMediaAudio(m)
+      case m: MediaWritten =>
+        processMediaWritten(m)
       case m: MusicPage =>
         processMusicPage(m)
       case s: Show =>
@@ -145,8 +147,8 @@ object ToData {
           d.MultiMediaMarker(d.YouTubeVideoId(youtubevideo), parentKey, position)
         }
       },
-      marker.interview.map { interview =>
-        Right(d.MediaMarker(processMediaId(interview), marker.short, position))
+      marker.media.map { media =>
+        Right(d.MediaMarker(processMediaId(media), marker.short, position))
       },
     ).flatten
 
@@ -302,16 +304,17 @@ object ToData {
     }
   }
 
-  def processMedia(media: Media): Either[ParserError, d.Media] = {
+  def processMediaAudio(media: MediaAudio): Either[ParserError, d.MediaAudio] = {
     val id = d.MediaId(media.year, media.id)
     for {
       publishedDate <- processDate(media.`published-date`, id)
       coverImage <- processCoverImage(media.`cover-image`, id)
     } yield {
-      d.Media(
+      d.MediaAudio(
         id,
         media.radio,
         media.show,
+        media.designation,
         media.program,
         media.host,
         media.member,
@@ -321,7 +324,28 @@ object ToData {
         coverImage,
       )
     }
+  }
 
+  def processMediaWritten(media: MediaWritten): Either[ParserError, d.MediaWritten] = {
+    val id = d.MediaId(media.year, media.id)
+    for {
+      publishedDate <- processDate(media.`published-date`, id)
+      coverImage <- processCoverImage(media.`cover-image`, id)
+    } yield {
+      d.MediaWritten(
+        id,
+        media.publication,
+        media.issue,
+        media.designation,
+        media.journalist,
+        media.member,
+        media.`article-page`,
+        media.webpage,
+        publishedDate,
+        media.description,
+        coverImage,
+      )
+    }
   }
 
   def processMediaId(mediaId: MediaId): d.MediaId = {

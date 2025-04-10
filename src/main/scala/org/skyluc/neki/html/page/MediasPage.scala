@@ -19,9 +19,13 @@ class MediasPage(data: Data) extends Page(data) {
   override def altName(): Option[String] = None
 
   override def mainContent(): List[BodyElement[?]] = {
-    val list = data.medias.values.map { m =>
-      CompiledData.getMedia(m.id, data)
-    }.toList
+    val list = data.medias.values
+      .map { m =>
+        CompiledData.getMedia(m.id, data)
+      }
+      .toList
+      .sortBy(_.date)
+      .reverse
     List(MainIntro.generate(MAIN_INTRO_CONTENT), MediumCard.generateList(list))
   }
 

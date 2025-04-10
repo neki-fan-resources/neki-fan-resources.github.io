@@ -266,12 +266,12 @@ markers:
     year: 2025
     id: tricktakingtourtokyo
   up: -7
-- interview:
+- media:
     year: 2025
     id: nack5-fantasyradio
   short: true
   up: -8
-- interview:
+- media:
     year: 2025
     id: fm802-infinityradio
   short: true
@@ -280,6 +280,11 @@ markers:
     year: 2025
     id: kogaderarock
   short: true
+- media:
+    year: 2025
+    id: guitarmagazine05
+  short: true
+  up: -6
 - show:
     year: 2025
     id: kakumeilogic2025

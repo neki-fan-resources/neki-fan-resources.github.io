@@ -109,7 +109,8 @@ object Parser {
   def typeDispatch(node: Node, typing: Typing, filename: String): Either[ParserError, Element] = {
     typing.`type` match {
       case "album"        => as[Album](node, filename)
-      case "media"        => as[Media](node, filename)
+      case "mediaaudio"   => as[MediaAudio](node, filename)
+      case "mediawritten" => as[MediaWritten](node, filename)
       case "song"         => as[Song](node, filename)
       case "site"         => as[Site](node, filename)
       case "show"         => as[Show](node, filename)

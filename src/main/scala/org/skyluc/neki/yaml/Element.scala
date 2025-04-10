@@ -26,14 +26,31 @@ case class ChronologyPage(
 ) extends Element
     derives YamlCodec
 
-case class Media(
+case class MediaAudio(
     year: String,
     id: String,
     radio: String,
     show: String,
-    program: Option[String],
+    designation: String,
     host: String,
     member: List[String],
+    program: Option[String],
+    webpage: Option[String],
+    `published-date`: String,
+    description: Option[List[String]],
+    `cover-image`: CoverImage,
+) extends Element
+    derives YamlCodec
+
+case class MediaWritten(
+    year: String,
+    id: String,
+    publication: String,
+    issue: String,
+    designation: String,
+    journalist: Option[String],
+    member: List[String],
+    `article-page`: Option[String],
     webpage: Option[String],
     `published-date`: String,
     description: Option[List[String]],
@@ -158,8 +175,8 @@ case class ChronologyMarker(
     album: Option[String],
     // youtubevideo
     youtubevideo: Option[String],
-    // interview
-    interview: Option[MediaId],
+    // media
+    media: Option[MediaId],
     // common
     `parent-key`: Option[String],
     `related-multimedia`: Option[MultiMediaId],

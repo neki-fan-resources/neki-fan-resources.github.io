@@ -281,6 +281,15 @@ object CompiledData {
   }
 
   def compileForMedia(media: Media, data: Data): ItemCompiledData = {
+    media match {
+      case m: MediaAudio =>
+        compileForMediaAudio(m, data)
+      case m: MediaWritten =>
+        compileForMediaWritten(m, data)
+    }
+  }
+
+  def compileForMediaAudio(media: MediaAudio, data: Data): ItemCompiledData = {
     val info = List(
       Some(ItemInfo(MediaPage.LABEL_HOST, media.host, ItemInfo.INFO_LEVEL_BASIC)),
       Some(
@@ -302,8 +311,8 @@ object CompiledData {
 
     ItemCompiledData(
       Media.URL_BASE + media.id.year + Pages.HTML_SEPARATOR + media.id.id + Pages.HTML_EXTENSION,
-      MediaPage.DESIGNATION,
-      media.radio + " - " + media.show,
+      media.designation,
+      media.title(),
       None,
       Some(media.member.mkString(", ")),
       None,
@@ -311,7 +320,43 @@ object CompiledData {
       media.publishedDate,
       Some(media.publishedDate.toString()),
       CoverImage.resolveUrl(media.coverImage, media, data),
-      CoverImage.buildAlt(MediaPage.DESIGNATION, media.radio + " - " + media.show),
+      CoverImage.buildAlt(MediaPage.DESIGNATION, media.title()),
+      info,
+      Media.FROM_KEY,
+    )
+  }
+
+  def compileForMediaWritten(media: MediaWritten, data: Data): ItemCompiledData = {
+    val info = List(
+      Some(
+        ItemInfo.dateDepending(
+          CompiledData.LABEL_UPCOMING,
+          CompiledData.LABEL_PUBLISHED,
+          media.publishedDate,
+          media.publishedDate.toString(),
+          ItemInfo.INFO_LEVEL_MINIMUM,
+        )
+      ),
+      media.webpage.map { w =>
+        ItemInfo(None, MediaPage.VALUE_SHOW_PAGE, Some(w), ItemInfo.INFO_LEVEL_ALL)
+      },
+      media.articlePage.map { p =>
+        ItemInfo(None, MediaPage.VALUE_PROGRAM, Some(p), ItemInfo.INFO_LEVEL_ALL)
+      },
+    ).flatten
+
+    ItemCompiledData(
+      Media.URL_BASE + media.id.year + Pages.HTML_SEPARATOR + media.id.id + Pages.HTML_EXTENSION,
+      media.designation,
+      media.title(),
+      None,
+      Some(media.member.mkString(", ")),
+      None,
+      media.description,
+      media.publishedDate,
+      Some(media.publishedDate.toString()),
+      CoverImage.resolveUrl(media.coverImage, media, data),
+      CoverImage.buildAlt(MediaPage.DESIGNATION, media.title()),
       info,
       Media.FROM_KEY,
     )

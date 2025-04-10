@@ -24,10 +24,18 @@ case class MediaId(year: String, id: String) extends Id[Media] {
 
 }
 
-case class Media(
+trait Media extends Item[Media] with WithCoverImage[Media] {
+  val id: MediaId
+  val publishedDate: Date
+  def title(): String
+  def sources(): Option[SourceItem]
+}
+
+case class MediaAudio(
     id: MediaId,
     radio: String,
     show: String,
+    designation: String,
     program: Option[String],
     host: String,
     member: List[String],
@@ -37,15 +45,42 @@ case class Media(
     coverImage: CoverImage,
     error: Boolean = false,
     relatedTo: List[Id[?]] = Nil,
-) extends Item[Media]
-    with WithCoverImage[Media] {
+) extends Media {
 
-  override def errored(): Media = copy(error = true)
+  override def title(): String = radio + " - " + show
 
-  override def withRelatedTo(id: Id[?]): Media = copy(relatedTo = id :: relatedTo)
+  override def errored(): MediaAudio = copy(error = true)
+
+  override def withRelatedTo(id: Id[?]): MediaAudio = copy(relatedTo = id :: relatedTo)
 
   def sources(): Option[SourceItem] = {
-    coverImage.sourceEntry().map(s => SourceItem(radio + " - " + show, List(s)))
+    coverImage.sourceEntry().map(s => SourceItem(title(), List(s)))
+  }
+}
+
+case class MediaWritten(
+    id: MediaId,
+    publication: String,
+    issue: String,
+    designation: String,
+    journalist: Option[String],
+    member: List[String],
+    articlePage: Option[String],
+    webpage: Option[String],
+    publishedDate: Date,
+    description: Option[List[String]],
+    coverImage: CoverImage,
+    error: Boolean = false,
+    relatedTo: List[Id[?]] = Nil,
+) extends Media {
+  override def title(): String = publication + " - " + issue
+
+  override def errored(): MediaWritten = copy(error = true)
+
+  override def withRelatedTo(id: Id[?]): MediaWritten = copy(relatedTo = id :: relatedTo)
+
+  def sources(): Option[SourceItem] = {
+    coverImage.sourceEntry().map(s => SourceItem(title(), List(s)))
   }
 }
 

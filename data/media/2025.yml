@@ -1,7 +1,8 @@
-- type: media
+- type: mediaaudio
   year: 2025
   id: nack5-fantasyradio
 
+  designation: radio show
   radio: NACK5
   show: FANTASY RADIO
   host: 春日萌花 (Haruhi Moeka)
@@ -35,10 +36,11 @@
         description: FANTASY RADIO webpage
         url: https://www.nack5.co.jp/program/fantasyradio/
 
-- type: media
+- type: mediaaudio
   year: 2025
   id: fm802-infinityradio
 
+  designation: radio show
   radio: FM802
   show: RADIO INFINITY
   host: DJ ハタノ ユウスケ (DJ Hatano Yusuke)
@@ -64,3 +66,24 @@
         description: RADIO INFINITY webpage
         url: https://funky802.com/infinity/
 
+- type: mediawritten
+  year: 2025
+  id: guitarmagazine05
+
+  designation: magazine
+  publication: Guitar magazine
+  issue: May 2025
+  member:
+    - Natsu
+  webpage: https://guitarmagazine.jp/news/2025-0401-gm2505/
+  published-date: 2025-04-12
+
+  description:
+  - Natsu is being interviewed in the May issue of Guitar magazine, in the 'OPENING ACT' section.
+
+  cover-image:
+    file:
+      filename: cover400.png
+      source:
+        description: Guitar magazine webpage
+        url: https://guitarmagazine.jp/news/2025-0401-gm2505/

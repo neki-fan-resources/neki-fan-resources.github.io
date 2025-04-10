@@ -15,7 +15,7 @@ class MediaPage(val media: Media, data: Data) extends Page(data) {
 
   override def path(): Path = Path.of(MEDIA_PATH, media.id.year, media.id.id + Pages.HTML_EXTENSION)
 
-  override def shortTitle(): String = media.radio + " - " + media.show + TITLE_DESIGNATION
+  override def shortTitle(): String = media.title() + TITLE_DESIGNATION
 
   override def altName(): Option[String] = None
 

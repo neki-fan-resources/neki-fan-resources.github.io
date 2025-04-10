@@ -36,6 +36,7 @@ case class Media(
     member: List[String],
     webpage: Option[String],
     `published-date`: String,
+    description: Option[List[String]],
     `cover-image`: CoverImage,
 ) extends Element
     derives YamlCodec

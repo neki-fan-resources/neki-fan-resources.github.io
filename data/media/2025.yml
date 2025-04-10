@@ -13,6 +13,21 @@
 
   published-date: 2025-03-23
 
+  description:
+  - Hika and Natsu were guest of the show 'FANTASY RADIO' on NACK5.
+  - >
+    The interview went over the general band info, then they spoke about the music of 'zero-sum'.
+    In second part, the host did an analysis of the lyrics of 'Loner', 'moon' and 'Fool'.
+  - "'zero-sum' and 'Dreams!!!!' were played during the program."
+
+  # TODO: add a summary of the interview
+
+# --- my comment on Discord
+# Got a few more details using LLM transcription and translation.
+# They spoke quickly about the band creation (Hika looking for people to create a band, and finding Natsu "a cute girl doing shredding")  and song writing (jamming together, then additional help to finish the songs).
+# In the second part, the host is not speaking about zero-sum. She is doing a quick lyrics analysis of Loner, then moon, then Fool. It seems that they resonate a lot with her personal experience (she is a pro wrestler and radio host).
+# The host is either a great host, or a big fan (or both).
+
   cover-image:
     file:
       filename: cover400.png
@@ -37,9 +52,15 @@
 
   published-date: 2025-04-10
 
+  description:
+  - The whole band, Hika, Kanade, Natsu and Cocoro, will be guest of the show 'RADIO INFINITY' on FM802.
+  - The show has been playing NEK! songs regulary, and 'Dreams!!!!' quite often since its release.
+  - The program starts at 24:00 and can be streamed from Radiko.
+
   cover-image:
     file:
       filename: cover400.png
       source:
         description: RADIO INFINITY webpage
         url: https://funky802.com/infinity/
+

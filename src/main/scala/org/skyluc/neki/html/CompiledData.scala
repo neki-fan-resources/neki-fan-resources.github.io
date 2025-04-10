@@ -275,7 +275,7 @@ object CompiledData {
       None,
       Some(media.member.mkString(", ")),
       None,
-      None,
+      media.description,
       media.publishedDate,
       Some(media.publishedDate.toString()),
       CoverImage.resolveUrl(media.coverImage, media, data),

@@ -33,6 +33,7 @@ case class Media(
     member: List[String],
     webpage: Option[String],
     publishedDate: Date,
+    description: Option[List[String]],
     coverImage: CoverImage,
     error: Boolean = false,
     relatedTo: List[Id[?]] = Nil,

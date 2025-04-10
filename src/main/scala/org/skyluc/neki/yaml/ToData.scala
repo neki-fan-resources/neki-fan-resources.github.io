@@ -373,6 +373,7 @@ object ToData {
         media.member,
         media.webpage,
         publishedDate,
+        media.description,
         coverImage,
       )
     }

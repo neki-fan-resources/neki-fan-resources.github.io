@@ -1,79 +1,23 @@
 package org.skyluc.neki.yaml
 
-import org.skyluc.neki.data.{
-  Album => dAlbum,
-  AlbumCoverImage => dAlbumCoverImage,
-  AlbumId => dAlbumId,
-  AlbumMarker => dAlbumMarker,
-  Band => dBand,
-  BaseMarker => dBaseMarker,
-  Chronology => dChronology,
-  ChronologyMarker => dChronologyMarker,
-  ChronologyPage => dChronologyPage,
-  CoverImage => dCoverImage,
-  Credits => dCredits,
-  Date => dDate,
-  FileCoverImage => dFileCoverImage,
-  Id => dId,
-  Item => dItem,
-  Lyrics => dLyrics,
-  LyricsLanguage => dLyricsLanguage,
-  LyricsLineEntry => dLyricsLineEntry,
-  LyricsSection => dLyricsSection,
-  LyricsStatus => dLyricsStatus,
-  Media => dMedia,
-  MediaId => dMediaId,
-  MediaMarker => dMediaMarker,
-  Member => dMember,
-  Members => dMembers,
-  MultiMediaId => dMultiMediaId,
-  MultiMediaBlock => dMultiMediaBlock,
-  MultiMediaMarker => dMultiMediaMarker,
-  MusicPage => dMusicPage,
-  Navigation => dNavigation,
-  NavigationItem => dNavigationItem,
-  BandNews => dBandNews,
-  PageId => dPageId,
-  Position => dPosition,
-  RefMediaIds => dRefMediaIds,
-  Show => dShow,
-  ShowId => dShowId,
-  ShowMarker => dShowMarker,
-  ShowsPage => dShowsPage,
-  Site => dSite,
-  SocialMedia => dSocialMedia,
-  Song => dSong,
-  SongCoverImage => dSongCoverImage,
-  SongId => dSongId,
-  SongMarker => dSongMarker,
-  Source => dSource,
-  Tour => dTour,
-  TourCoverImage => dTourCoverImage,
-  TourId => dTourId,
-  YouTubeShort => dYouTubeShort,
-  YouTubeShortId => dYouTubeShortId,
-  YouTubeVideo => dYouTubeVideo,
-  YouTubeVideoId => dYouTubeVideoId,
-  Zaiko => dZaiko,
-  ZaikoId => dZaikoId,
-}
+import org.skyluc.neki.{data => d}
 import scala.util.matching.Regex
 import scala.annotation.tailrec
 
 object ToData {
 
   case class ToDataResult(
-      main: Either[ParserError, dItem[?]],
+      main: Either[ParserError, d.Item[?]],
       related: List[ToDataResult],
   ) {
-    def flatten(): List[Either[ParserError, dItem[?]]] = {
+    def flatten(): List[Either[ParserError, d.Item[?]]] = {
       main :: related.flatMap(_.flatten())
     }
   }
 
   final val DATE_PATTERN: Regex = """(\d{4})-(\d{2})-(\d{2})""".r
 
-  def process(parserResults: List[ParserResult]): List[Either[ParserError, dItem[?]]] = {
+  def process(parserResults: List[ParserResult]): List[Either[ParserError, d.Item[?]]] = {
     parserResults.flatMap(pr => process(pr).flatten())
   }
 
@@ -100,30 +44,30 @@ object ToData {
 
   }
 
-  def process(element: Either[ParserError, Element]): Either[ParserError, dItem[?]] = {
+  def process(element: Either[ParserError, Element]): Either[ParserError, d.Item[?]] = {
     element.flatMap {
       case a: Album =>
-        process(a)
+        processAlbum(a)
       case c: ChronologyPage =>
-        process(c)
+        processChronologyPage(c)
       case m: Media =>
-        process(m)
+        processMedia(m)
       case m: MusicPage =>
-        process(m)
+        processMusicPage(m)
       case s: Show =>
-        process(s)
+        processShow(s)
       case s: ShowsPage =>
-        process(s)
+        processShowsPage(s)
       case s: Site =>
-        process(s)
+        processSite(s)
       case s: Song =>
-        process(s)
+        processSong(s)
       case t: Tour =>
-        process(t)
+        processTour(t)
       case y: YouTubeShort =>
-        process(y)
+        processYouTubeShort(y)
       case y: YouTubeVideo =>
-        process(y)
+        processYouTubeVideo(y)
       case z: Zaiko =>
         processZaiko(z)
       case e =>
@@ -131,15 +75,15 @@ object ToData {
     }
   }
 
-  def process(album: Album): Either[ParserError, dAlbum] = {
-    val id = dAlbumId(album.id)
-    val songIds = album.songs.map(dSongId(_))
+  def processAlbum(album: Album): Either[ParserError, d.Album] = {
+    val id = d.AlbumId(album.id)
+    val songIds = album.songs.map(d.SongId(_))
     for {
       releaseDate <- processDate(album.`release-date`, id)
-      coverImage <- process(album.`cover-image`, id)
-      multimedia <- boxEitherOption(album.multimedia.map(process(_, id)))
+      coverImage <- processCoverImage(album.`cover-image`, id)
+      multimedia <- boxEitherOption(album.multimedia.map(processMultiMedia(_, id)))
     } yield {
-      dAlbum(
+      d.Album(
         id,
         album.fullname,
         album.altname,
@@ -148,24 +92,24 @@ object ToData {
         releaseDate,
         coverImage,
         songIds,
-        multimedia.getOrElse(dMultiMediaBlock.EMPTY),
+        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
       )
     }
   }
 
-  def process(band: Band): dBand = {
-    dBand(
-      process(band.member),
-      process(band.`social-media`),
+  def processBand(band: Band): d.Band = {
+    d.Band(
+      processMembers(band.member),
+      processSocialMedia(band.`social-media`),
     )
   }
 
-  def process(marker: ChronologyMarker, id: dId[?]): Either[ParserError, dChronologyMarker] = {
+  def processChronologyMarker(marker: ChronologyMarker, id: d.Id[?]): Either[ParserError, d.ChronologyMarker] = {
 
-    val relatedMultimedia = boxEitherOption(marker.`related-multimedia`.map(process(_, id)))
-    val position = dPosition(marker.up, marker.in)
+    val relatedMultimedia = boxEitherOption(marker.`related-multimedia`.map(processMultiMediaId(_, id)))
+    val position = d.Position(marker.up, marker.in)
 
-    val candidates: List[Either[ParserError, dChronologyMarker]] = List(
+    val candidates: List[Either[ParserError, d.ChronologyMarker]] = List(
       marker.marker.map { label =>
         for {
           image <- marker.image.toRight(ParserError(id, s"No image specified for marker '$label'"))
@@ -174,23 +118,23 @@ object ToData {
               .map(processDate(_, id))
               .getOrElse(Left(ParserError(id, s"No date specified for marker '$label'")))
         } yield {
-          dBaseMarker(label, date, image, position)
+          d.BaseMarker(label, date, image, position)
         }
       },
       marker.show.map { show =>
-        val showId = process(show)
+        val showId = processShowId(show)
         relatedMultimedia.map { rm =>
-          dShowMarker(showId, marker.short, rm, position)
+          d.ShowMarker(showId, marker.short, rm, position)
         }
       },
       marker.song.map { song =>
         relatedMultimedia.map { rm =>
-          dSongMarker(dSongId(song), rm, position)
+          d.SongMarker(d.SongId(song), rm, position)
         }
       },
       marker.album.map { a =>
-        val albumId = dAlbumId(a)
-        Right(dAlbumMarker(albumId, position))
+        val albumId = d.AlbumId(a)
+        Right(d.AlbumMarker(albumId, position))
       },
       marker.youtubevideo.map { youtubevideo =>
         for {
@@ -198,11 +142,11 @@ object ToData {
             ParserError(id, s"No parent-key specified for youtubevideo marker '$youtubevideo'")
           )
         } yield {
-          dMultiMediaMarker(dYouTubeVideoId(youtubevideo), parentKey, position)
+          d.MultiMediaMarker(d.YouTubeVideoId(youtubevideo), parentKey, position)
         }
       },
       marker.interview.map { interview =>
-        Right(dMediaMarker(process(interview), marker.short, position))
+        Right(d.MediaMarker(processMediaId(interview), marker.short, position))
       },
     ).flatten
 
@@ -217,37 +161,37 @@ object ToData {
     }
   }
 
-  def process(chronologyPage: ChronologyPage): Either[ParserError, dChronologyPage] = {
-    val id = dPageId(chronologyPage.id)
+  def processChronologyPage(chronologyPage: ChronologyPage): Either[ParserError, d.ChronologyPage] = {
+    val id = d.PageId(chronologyPage.id)
     for {
       startDate <- processDate(chronologyPage.`start-date`, id)
       endDate <- processDate(chronologyPage.`end-date`, id)
-      markers <- throughList(chronologyPage.markers, id)(process)
+      markers <- throughList(chronologyPage.markers, id)(processChronologyMarker)
     } yield {
-      dChronologyPage(
+      d.ChronologyPage(
         id,
-        dChronology(markers, startDate, endDate),
+        d.Chronology(markers, startDate, endDate),
       )
     }
   }
 
-  def process(credits: Credits): dCredits = {
-    dCredits(credits.lyricist, credits.composer, credits.source.map(process))
+  def processCredits(credits: Credits): d.Credits = {
+    d.Credits(credits.lyricist, credits.composer, credits.source.map(processSource))
   }
 
-  def process(coverImage: CoverImage, id: dId[?]): Either[ParserError, dCoverImage] = {
-    val candidates: List[Either[ParserError, dCoverImage]] = List(
+  def processCoverImage(coverImage: CoverImage, id: d.Id[?]): Either[ParserError, d.CoverImage] = {
+    val candidates: List[Either[ParserError, d.CoverImage]] = List(
       coverImage.file.map { file =>
-        Right(dFileCoverImage(file.filename, process(file.source)))
+        Right(d.FileCoverImage(file.filename, processSource(file.source)))
       },
       coverImage.album.map { album =>
-        Right(dAlbumCoverImage(dAlbumId(album)))
+        Right(d.AlbumCoverImage(d.AlbumId(album)))
       },
       coverImage.tour.map { tour =>
-        Right(dTourCoverImage(dTourId(tour)))
+        Right(d.TourCoverImage(d.TourId(tour)))
       },
       coverImage.song.map { song =>
-        Right(dSongCoverImage(dSongId(song)))
+        Right(d.SongCoverImage(d.SongId(song)))
       },
     ).flatten
 
@@ -262,14 +206,14 @@ object ToData {
     }
   }
 
-  def processIds(refIds: List[Id], id: dId[?]): Either[ParserError, List[dId[?]]] = {
-    throughList(refIds, id)(process)
+  def processIds(refIds: List[Id], id: d.Id[?]): Either[ParserError, List[d.Id[?]]] = {
+    throughList(refIds, id)(processId)
   }
 
-  def process(refId: Id, id: dId[?]): Either[ParserError, dId[?]] = {
-    val candidates: List[dId[?]] = List(
-      refId.song.map(dSongId(_)),
-      refId.show.map(process),
+  def processId(refId: Id, id: d.Id[?]): Either[ParserError, d.Id[?]] = {
+    val candidates: List[d.Id[?]] = List(
+      refId.song.map(d.SongId(_)),
+      refId.show.map(processShowId),
     ).flatten
 
     // check only one defined
@@ -283,20 +227,20 @@ object ToData {
     }
   }
 
-  def process(lyrics: Lyrics, id: dId[?]): Either[ParserError, dLyrics] = {
-    val status = dLyricsStatus(lyrics.status.code, lyrics.status.description)
-    val languages = lyrics.languages.map(process)
+  def processLyrics(lyrics: Lyrics, id: d.Id[?]): Either[ParserError, d.Lyrics] = {
+    val status = d.LyricsStatus(lyrics.status.code, lyrics.status.description)
+    val languages = lyrics.languages.map(processLyricsLanguage)
     for {
       sections <- throughList(lyrics.sections) { section =>
-        process(section, id)
+        processLyricsSection(section, id)
       }
     } yield {
-      dLyrics(status, languages, sections)
+      d.Lyrics(status, languages, sections)
     }
   }
 
-  def process(language: LyricsLanguage): dLyricsLanguage = {
-    dLyricsLanguage(
+  def processLyricsLanguage(language: LyricsLanguage): d.LyricsLanguage = {
+    d.LyricsLanguage(
       language.id,
       language.name,
       language.details,
@@ -305,42 +249,42 @@ object ToData {
       language.active,
       language.fixed,
       language.notranslation,
-      language.source.map(process(_)),
+      language.source.map(processSource),
     )
   }
 
-  def process(line: LyricsLine, id: dId[?]): Either[ParserError, Map[String, List[dLyricsLineEntry]]] = {
-    val languages: List[(String, List[dLyricsLineEntry])] = List(
+  def processLyricsLine(line: LyricsLine, id: d.Id[?]): Either[ParserError, Map[String, List[d.LyricsLineEntry]]] = {
+    val languages: List[(String, List[d.LyricsLineEntry])] = List(
       line.ol.map { entries =>
-        ("ol", entries.map(e => dLyricsLineEntry(Some(e), None)))
+        ("ol", entries.map(e => d.LyricsLineEntry(Some(e), None)))
       },
       line.oll.map { entry =>
-        ("ol", List(dLyricsLineEntry(Some(entry), None)))
+        ("ol", List(d.LyricsLineEntry(Some(entry), None)))
       },
       line.tr.map { entries =>
-        ("tr", entries.map(e => dLyricsLineEntry(Some(e), None)))
+        ("tr", entries.map(e => d.LyricsLineEntry(Some(e), None)))
       },
       line.trl.map { entry =>
-        ("tr", List(dLyricsLineEntry(Some(entry), None)))
+        ("tr", List(d.LyricsLineEntry(Some(entry), None)))
       },
       line.atr.map { entries =>
-        ("atr", entries.map(e => dLyricsLineEntry(Some(e), None)))
+        ("atr", entries.map(e => d.LyricsLineEntry(Some(e), None)))
       },
       line.ro.map { entries =>
-        ("ro", entries.map(e => dLyricsLineEntry(Some(e), None)))
+        ("ro", entries.map(e => d.LyricsLineEntry(Some(e), None)))
       },
       line.aro.map { entries =>
-        ("aro", entries.map(e => dLyricsLineEntry(Some(e), None)))
+        ("aro", entries.map(e => d.LyricsLineEntry(Some(e), None)))
       },
       line.ww.map { entries =>
         // TODO: should not be both None
-        ("ww", entries.map(e => dLyricsLineEntry(e.w, e.d)))
+        ("ww", entries.map(e => d.LyricsLineEntry(e.w, e.d)))
       },
       line.gg.map { entry =>
-        ("gg", List(dLyricsLineEntry(Some(entry), None)))
+        ("gg", List(d.LyricsLineEntry(Some(entry), None)))
       },
       line.en.map { entry =>
-        ("en", List(dLyricsLineEntry(Some(entry), None)))
+        ("en", List(d.LyricsLineEntry(Some(entry), None)))
       },
     ).flatten
     if (languages.isEmpty) {
@@ -350,21 +294,21 @@ object ToData {
     }
   }
 
-  def process(section: LyricsSection, id: dId[?]): Either[ParserError, dLyricsSection] = {
+  def processLyricsSection(section: LyricsSection, id: d.Id[?]): Either[ParserError, d.LyricsSection] = {
     for {
-      lines <- throughList(section.lines)(l => process(l, id))
+      lines <- throughList(section.lines)(l => processLyricsLine(l, id))
     } yield {
-      dLyricsSection(lines)
+      d.LyricsSection(lines)
     }
   }
 
-  def process(media: Media): Either[ParserError, dMedia] = {
-    val id = dMediaId(media.year, media.id)
+  def processMedia(media: Media): Either[ParserError, d.Media] = {
+    val id = d.MediaId(media.year, media.id)
     for {
       publishedDate <- processDate(media.`published-date`, id)
-      coverImage <- process(media.`cover-image`, id)
+      coverImage <- processCoverImage(media.`cover-image`, id)
     } yield {
-      dMedia(
+      d.Media(
         id,
         media.radio,
         media.show,
@@ -380,29 +324,29 @@ object ToData {
 
   }
 
-  def process(mediaId: MediaId): dMediaId = {
-    dMediaId(mediaId.year, mediaId.id)
+  def processMediaId(mediaId: MediaId): d.MediaId = {
+    d.MediaId(mediaId.year, mediaId.id)
   }
 
-  def process(member: Member): dMember = {
-    dMember(
+  def processMember(member: Member): d.Member = {
+    d.Member(
       member.id,
       member.name,
       member.role,
-      process(member.`social-media`),
+      processSocialMedia(member.`social-media`),
     )
   }
 
-  def process(member: Members): dMembers = {
-    dMembers(
-      process(member.cocoro),
-      process(member.hika),
-      process(member.kanade),
-      process(member.natsu),
+  def processMembers(member: Members): d.Members = {
+    d.Members(
+      processMember(member.cocoro),
+      processMember(member.hika),
+      processMember(member.kanade),
+      processMember(member.natsu),
     )
   }
 
-  def process(multimedia: MultiMedia, id: dId[?]): Either[ParserError, dMultiMediaBlock] = {
+  def processMultiMedia(multimedia: MultiMedia, id: d.Id[?]): Either[ParserError, d.MultiMediaBlock] = {
     for {
       video <- boxEitherOption(multimedia.video.map(processMultiMediaIds(_, id)))
       live <- boxEitherOption(multimedia.live.map(processMultiMediaIds(_, id)))
@@ -410,7 +354,7 @@ object ToData {
       short <- boxEitherOption(multimedia.short.map(processMultiMediaIds(_, id)))
       additional <- boxEitherOption(multimedia.additional.map(processMultiMediaIds(_, id)))
     } yield {
-      dMultiMediaBlock(
+      d.MultiMediaBlock(
         video.getOrElse(Nil),
         live.getOrElse(Nil),
         concert.getOrElse(Nil),
@@ -420,15 +364,18 @@ object ToData {
     }
   }
 
-  def processMultiMediaIds(multimediaIds: List[MultiMediaId], id: dId[?]): Either[ParserError, List[dMultiMediaId]] = {
-    throughList(multimediaIds, id)(process)
+  def processMultiMediaIds(
+      multimediaIds: List[MultiMediaId],
+      id: d.Id[?],
+  ): Either[ParserError, List[d.MultiMediaId]] = {
+    throughList(multimediaIds, id)(processMultiMediaId)
   }
 
-  def process(multimediaId: MultiMediaId, id: dId[?]): Either[ParserError, dMultiMediaId] = {
-    val candidates: List[dMultiMediaId] = List(
-      multimediaId.youtubevideo.map(dYouTubeVideoId(_)),
-      multimediaId.youtubeshort.map(dYouTubeShortId(_)),
-      multimediaId.zaiko.map(z => dZaikoId(z.channel, z.id)),
+  def processMultiMediaId(multimediaId: MultiMediaId, id: d.Id[?]): Either[ParserError, d.MultiMediaId] = {
+    val candidates: List[d.MultiMediaId] = List(
+      multimediaId.youtubevideo.map(d.YouTubeVideoId(_)),
+      multimediaId.youtubeshort.map(d.YouTubeShortId(_)),
+      multimediaId.zaiko.map(z => d.ZaikoId(z.channel, z.id)),
     ).flatten
 
     // check only one defined
@@ -442,10 +389,10 @@ object ToData {
     }
   }
 
-  def processMusicId(musicId: MusicId, id: dId[?]): Either[ParserError, dAlbumId | dSongId] = {
-    val candidates: List[dAlbumId | dSongId] = List(
-      musicId.album.map(dAlbumId(_)),
-      musicId.song.map(dSongId(_)),
+  def processMusicId(musicId: MusicId, id: d.Id[?]): Either[ParserError, d.AlbumId | d.SongId] = {
+    val candidates: List[d.AlbumId | d.SongId] = List(
+      musicId.album.map(d.AlbumId(_)),
+      musicId.song.map(d.SongId(_)),
     ).flatten
 
     // check only one defined
@@ -459,45 +406,45 @@ object ToData {
     }
   }
 
-  def process(musicPage: MusicPage): Either[ParserError, dMusicPage] = {
-    val id = dPageId(musicPage.id)
+  def processMusicPage(musicPage: MusicPage): Either[ParserError, d.MusicPage] = {
+    val id = d.PageId(musicPage.id)
     for {
       musicIds <- throughList(musicPage.music, id)(processMusicId)
     } yield {
-      dMusicPage(id, musicIds)
+      d.MusicPage(id, musicIds)
     }
   }
 
-  def process(navigation: Navigation): Either[ParserError, dNavigation] = {
+  def processNavigation(navigation: Navigation): Either[ParserError, d.Navigation] = {
     for {
-      main <- throughList(navigation.main)(process)
-      support <- throughList(navigation.support)(process)
+      main <- throughList(navigation.main)(processNavigationItem)
+      support <- throughList(navigation.support)(processNavigationItem)
     } yield {
-      dNavigation(main, support)
+      d.Navigation(main, support)
     }
   }
 
-  def process(navigationItem: NavigationItem): Either[ParserError, dNavigationItem] = {
-    Right(dNavigationItem(navigationItem.name, navigationItem.link, navigationItem.highlight))
+  def processNavigationItem(navigationItem: NavigationItem): Either[ParserError, d.NavigationItem] = {
+    Right(d.NavigationItem(navigationItem.name, navigationItem.link, navigationItem.highlight))
   }
 
-  def processNewsItem(newsItem: NewsItem): dBandNews = {
-    dBandNews(newsItem.title, newsItem.content, newsItem.url)
+  def processNewsItem(newsItem: NewsItem): d.BandNews = {
+    d.BandNews(newsItem.title, newsItem.content, newsItem.url)
   }
 
-  def process(refMediaIds: RefMediaIds): dRefMediaIds = {
-    dRefMediaIds(refMediaIds.account, refMediaIds.ids)
+  def processMediaIds(refMediaIds: RefMediaIds): d.RefMediaIds = {
+    d.RefMediaIds(refMediaIds.account, refMediaIds.ids)
   }
 
-  def process(show: Show): Either[ParserError, dShow] = {
-    val id = dShowId(show.year, show.id)
-    val tourId = show.tour.map(dTourId(_))
+  def processShow(show: Show): Either[ParserError, d.Show] = {
+    val id = d.ShowId(show.year, show.id)
+    val tourId = show.tour.map(d.TourId(_))
     for {
       date <- processDate(show.date, id)
-      coverImage <- process(show.`cover-image`, id)
-      multimedia <- boxEitherOption(show.multimedia.map(process(_, id)))
+      coverImage <- processCoverImage(show.`cover-image`, id)
+      multimedia <- boxEitherOption(show.multimedia.map(processMultiMedia(_, id)))
     } yield {
-      dShow(
+      d.Show(
         id,
         show.fullname,
         show.shortname,
@@ -508,20 +455,20 @@ object ToData {
         show.`event-page`,
         show.setlistfm,
         coverImage,
-        multimedia.getOrElse(dMultiMediaBlock.EMPTY),
+        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
       )
     }
   }
 
-  def process(showId: ShowId): dShowId = {
-    dShowId(showId.year, showId.id)
+  def processShowId(showId: ShowId): d.ShowId = {
+    d.ShowId(showId.year, showId.id)
   }
 
-  def process(showId: ShowOrTourId, id: dId[?]): Either[ParserError, dShowId | dTourId] = {
-    val candidates: List[dShowId | dTourId] = List(
-      showId.tour.map(dTourId(_)),
+  def processShowOrTourId(showId: ShowOrTourId, id: d.Id[?]): Either[ParserError, d.ShowId | d.TourId] = {
+    val candidates: List[d.ShowId | d.TourId] = List(
+      showId.tour.map(d.TourId(_)),
       showId.show.map { s =>
-        dShowId(s.year, s.id)
+        d.ShowId(s.year, s.id)
       },
     ).flatten
 
@@ -536,32 +483,32 @@ object ToData {
     }
   }
 
-  def process(showsPage: ShowsPage): Either[ParserError, dShowsPage] = {
-    val id = dPageId(showsPage.id)
+  def processShowsPage(showsPage: ShowsPage): Either[ParserError, d.ShowsPage] = {
+    val id = d.PageId(showsPage.id)
     for {
-      showsIds <- throughList(showsPage.shows, id)(process)
+      showsIds <- throughList(showsPage.shows, id)(processShowOrTourId)
     } yield {
-      dShowsPage(id, showsIds)
+      d.ShowsPage(id, showsIds)
     }
   }
 
-  def process(site: Site): Either[ParserError, dSite] = {
-    val band = process(site.band)
+  def processSite(site: Site): Either[ParserError, d.Site] = {
+    val band = processBand(site.band)
     for {
-      navigation <- process(site.navigation)
+      navigation <- processNavigation(site.navigation)
     } yield {
-      dSite(
+      d.Site(
         navigation,
         band,
-        site.youtubevideo.map(process),
-        site.youtubeshort.map(process),
+        site.youtubevideo.map(processMediaIds),
+        site.youtubeshort.map(processMediaIds),
         site.news.map(processNewsItem),
       )
     }
   }
 
-  def process(socialMedia: SocialMedia): dSocialMedia = {
-    dSocialMedia(
+  def processSocialMedia(socialMedia: SocialMedia): d.SocialMedia = {
+    d.SocialMedia(
       socialMedia.instagram,
       socialMedia.tiktok,
       socialMedia.youtube,
@@ -569,71 +516,71 @@ object ToData {
     )
   }
 
-  def process(song: Song): Either[ParserError, dSong] = {
-    val id = dSongId(song.id, song.dark)
+  def processSong(song: Song): Either[ParserError, d.Song] = {
+    val id = d.SongId(song.id, song.dark)
     for {
       releaseDate <- processDate(song.`release-date`, id)
-      coverImage <- process(song.`cover-image`, id)
-      multimedia <- boxEitherOption(song.multimedia.map(process(_, id)))
-      lyrics <- boxEitherOption(song.lyrics.map(process(_, id)))
+      coverImage <- processCoverImage(song.`cover-image`, id)
+      multimedia <- boxEitherOption(song.multimedia.map(processMultiMedia(_, id)))
+      lyrics <- boxEitherOption(song.lyrics.map(processLyrics(_, id)))
     } yield {
-      dSong(
+      d.Song(
         id,
         song.fullname,
         song.`fullname-en`,
-        song.album.map(dAlbumId(_)),
+        song.album.map(d.AlbumId(_)),
         releaseDate,
-        song.credits.map(process(_)),
+        song.credits.map(processCredits(_)),
         coverImage,
-        multimedia.getOrElse(dMultiMediaBlock.EMPTY),
+        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
         lyrics,
       )
     }
   }
 
-  def process(source: Source): dSource = {
-    dSource(source.description, source.url)
+  def processSource(source: Source): d.Source = {
+    d.Source(source.description, source.url)
   }
 
-  def process(tour: Tour): Either[ParserError, dTour] = {
-    val id = dTourId(tour.id)
-    val shows = tour.shows.map(process)
+  def processTour(tour: Tour): Either[ParserError, d.Tour] = {
+    val id = d.TourId(tour.id)
+    val shows = tour.shows.map(processShowId)
     for {
       firstDate <- processDate(tour.`first-date`, id)
       lastDate <- processDate(tour.`last-date`, id)
-      coverImage <- process(tour.`cover-image`, id)
+      coverImage <- processCoverImage(tour.`cover-image`, id)
     } yield {
-      dTour(id, tour.fullname, tour.shortname, firstDate, lastDate, tour.`event-page`, coverImage, shows)
+      d.Tour(id, tour.fullname, tour.shortname, firstDate, lastDate, tour.`event-page`, coverImage, shows)
     }
   }
 
-  def process(youtubeshort: YouTubeShort): Either[ParserError, dYouTubeShort] = {
-    val id = dYouTubeShortId(youtubeshort.id)
+  def processYouTubeShort(youtubeshort: YouTubeShort): Either[ParserError, d.YouTubeShort] = {
+    val id = d.YouTubeShortId(youtubeshort.id)
     for {
       publishedDate <- processDate(youtubeshort.`published-date`, id)
       relatedTo <- boxEitherOption(youtubeshort.`related-to`.map(processIds(_, id)))
     } yield {
-      dYouTubeShort(id, youtubeshort.label, youtubeshort.info, publishedDate, relatedTo.getOrElse(Nil))
+      d.YouTubeShort(id, youtubeshort.label, youtubeshort.info, publishedDate, relatedTo.getOrElse(Nil))
     }
   }
 
-  def process(youtubevideo: YouTubeVideo): Either[ParserError, dYouTubeVideo] = {
-    val id = dYouTubeVideoId(youtubevideo.id)
+  def processYouTubeVideo(youtubevideo: YouTubeVideo): Either[ParserError, d.YouTubeVideo] = {
+    val id = d.YouTubeVideoId(youtubevideo.id)
     for {
       publishedDate <- processDate(youtubevideo.`published-date`, id)
       relatedTo <- boxEitherOption(youtubevideo.`related-to`.map(processIds(_, id)))
     } yield {
-      dYouTubeVideo(id, youtubevideo.label, publishedDate, relatedTo.getOrElse(Nil))
+      d.YouTubeVideo(id, youtubevideo.label, publishedDate, relatedTo.getOrElse(Nil))
     }
   }
 
-  def processZaiko(zaiko: Zaiko): Either[ParserError, dZaiko] = {
-    val id = dZaikoId(zaiko.channel, zaiko.id)
+  def processZaiko(zaiko: Zaiko): Either[ParserError, d.Zaiko] = {
+    val id = d.ZaikoId(zaiko.channel, zaiko.id)
     for {
       publishedDate <- processDate(zaiko.`published-date`, id)
       expirationDate <- boxEitherOption(zaiko.`expiration-date`.map(processDate(_, id)))
     } yield {
-      dZaiko(
+      d.Zaiko(
         id,
         zaiko.label,
         zaiko.`cover-image`,
@@ -643,10 +590,10 @@ object ToData {
     }
   }
 
-  def processDate(date: String, id: dId[?]): Either[ParserError, dDate] = {
+  def processDate(date: String, id: d.Id[?]): Either[ParserError, d.Date] = {
     date match {
       case DATE_PATTERN(year, month, day) =>
-        Right(dDate(year.toInt, month.toInt, day.toInt))
+        Right(d.Date(year.toInt, month.toInt, day.toInt))
       case _ =>
         Left(ParserError(id, s"cannot parse date in '$date'"))
     }
@@ -676,7 +623,7 @@ object ToData {
     loop(in, Nil)
   }
 
-  private def throughList[A, B, C](in: List[A], id: dId[?])(f: (A, dId[?]) => Either[B, C]): Either[B, List[C]] = {
+  private def throughList[A, B, C](in: List[A], id: d.Id[?])(f: (A, d.Id[?]) => Either[B, C]): Either[B, List[C]] = {
     @tailrec def loop(in: List[A], acc: List[C]): Either[B, List[C]] = {
       in match {
         case head :: tail =>

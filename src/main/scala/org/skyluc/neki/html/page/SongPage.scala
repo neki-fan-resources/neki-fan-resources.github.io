@@ -11,7 +11,7 @@ import org.skyluc.neki.data.Lyrics
 import org.skyluc.neki.data.LyricsLanguage
 import org.skyluc.neki.data.LyricsLineEntry
 import org.skyluc.neki.data.LyricsSection
-import org.skyluc.neki.data.LyricsStatus
+import org.skyluc.neki.data.CriptionLationStatus
 
 class SongPage(val song: Song, extraPage: Boolean, data: Data) extends Page(data) {
 
@@ -119,21 +119,13 @@ object SongPage {
 object LyricsHtml {
 
   case class PageLyrics(
-      status: LyricsStatus,
+      status: CriptionLationStatus,
       languages: List[PageLyricsLanguage],
       sections: List[PageLyricsSection],
   ) {
     def generate(): List[BodyElement[?]] = {
       List(
-        SectionHeader.generate(
-          text(TEXT_LYRICS_SECTION),
-          span()
-            .withClass(CLASS_LYRICS_STATUS)
-            .withClass(CLASS_LYRICS_STATUS_BASE + status.code)
-            .appendElement(
-              text(status.description)
-            ),
-        ),
+        SectionHeader.generateWithStatus(TEXT_LYRICS_SECTION, status.description, status.code),
         table()
           .withClass(CLASS_LYRICS_LANGUAGES_SELECTION)
           .appendTbody(
@@ -356,8 +348,6 @@ object LyricsHtml {
   val WW_TARGET = "_blank_ww"
 
   val CLASS_LYRICS = "lyrics"
-  val CLASS_LYRICS_STATUS = "lyrics-status"
-  val CLASS_LYRICS_STATUS_BASE = "lyrics-status-"
   val CLASS_LYRICS_LANG_BASE = "lyrics-lang-"
   val CLASS_LYRICS_LANGUAGES_SELECTION = "lyrics-languages-selection"
   val CLASS_LYRICS_LANGUAGE_SELECTION = "lyrics-language-selection"

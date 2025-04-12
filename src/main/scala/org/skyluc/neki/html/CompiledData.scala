@@ -338,10 +338,10 @@ object CompiledData {
         )
       ),
       media.webpage.map { w =>
-        ItemInfo(None, MediaPage.VALUE_SHOW_PAGE, Some(w), ItemInfo.INFO_LEVEL_ALL)
+        ItemInfo(None, MediaPage.VALUE_PUBLICATION_PAGE, Some(w), ItemInfo.INFO_LEVEL_ALL)
       },
       media.articlePage.map { p =>
-        ItemInfo(None, MediaPage.VALUE_PROGRAM, Some(p), ItemInfo.INFO_LEVEL_ALL)
+        ItemInfo(None, MediaPage.VALUE_ARTICLE, Some(p), ItemInfo.INFO_LEVEL_ALL)
       },
     ).flatten
 

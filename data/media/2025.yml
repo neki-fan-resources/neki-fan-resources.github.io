@@ -55,9 +55,9 @@
   published-date: 2025-04-10
 
   description:
-  - The whole band, Hika, Kanade, Natsu and Cocoro, will be guest of the show 'RADIO INFINITY' on FM802.
-  - The show has been playing NEK! songs regulary, and 'Dreams!!!!' quite often since its release.
-  - The program starts at 24:00 and can be streamed from Radiko.
+  - The whole band, Hika, Kanade, Natsu and Cocoro, were guest of the show 'RADIO INFINITY' on FM802.
+  - The show has been playing NEK! songs regularly, and 'Dreams!!!!' quite often since its release.
+  - The interview was recorded on March 8th midday, before the TR!CK TAK!NG tour show in Osaka.
 
   cover-image:
     file:
@@ -65,6 +65,62 @@
       source:
         description: RADIO INFINITY webpage
         url: https://funky802.com/infinity/
+
+  summary:
+    status:
+      code: warning
+      description: Transcription and translation done with a lot help from LLM tools.
+    items:
+    - label: It is the first interview for the whole band.
+    - label: The show gets requests from their listeners to play the new NEK! songs when they are released.
+    - label: The information shared by each band member during the RADIO INFINITY 'one-minute self-introduction' sequence, customary for a first appearance in the show.
+      sub:
+      - label: Hika
+        sub:
+        - label: She is from Nagasaki prefecture.
+        - label: Before NEK!, she was a singer-songwriter, doing street performances and activities on social media.
+        - label: "Favorite food: maze-soba, iekei ramen, ramen in general, matcha."
+        - label: She does knitting as a hobby.
+        - label: She has been watching foreign dramas recently.
+        - label: When she is back in her hometown, she like to go fishing. Her grandpa likes fishing, she goes fishing on his boat.
+        - label: The host commented that she seems like someone who can focus intently on something alone. She said that knitting was also like that, doing it without thinking much.
+      - label: Natsu
+        sub:
+        - label: She is really nervous before starting.
+        - label: "Favorite food: strawberries, beef tongue, ramen, sushi."
+        - label: She loves matcha, often drinking or eating matcha-flavored things.
+        - label: She was in a theater group as a kid, stopped before junior high school.
+        - label: She started to play guitar to have something she was good at. Now she loves playing guitar.
+        - label: She credits BABYMETAL with geting her to start listening to heavier music. She loves hard rock.
+        - label: She watches dramas and read manga. She likes shojo manga.
+      - label: Kanade
+        sub:
+        - label: She graduated high school 2 days before, on March 6th.
+        - label: Her favorite music genre are hard rock, metal, VK, and she also listens to Vocaloid.
+        - label: Her strength as a bassist is slapping and powerful fingerpicking.
+        - label: She wants people to not be able to tell it's a woman playing when they hear her sound.
+        - label: "Favorite food: gummy candy. She had Haribo gummies with her."
+        - label: Visual Key inspired her to start playing bass.
+        - label: She loves anime, especially Pretty Cure.
+        - label: 'She created her own life motto: "Life is a Pretty Cure mindset". Following the mindset of the Pretty Cure personnage: they never give up and fight until they win.'
+      - label: Cocoro
+        sub:
+        - label: She started playing drums when she was 12.
+        - label: She grew up in Kanto, but was speaking in Kansai dialect at home.
+          sub:
+          - label: The conversations within NEK! are in standard Japanese. But when interacting with people from the Kansai region (like the show host), she ends up speaking in Kansai dialect.
+          - label: The host joked that she is bilingual.
+        - label: She has a hedgehog, its name is Uni.
+        - label: "She really loves comedy. Some of the comedians she really likes: Dian-san, Kyuban ga Ereki Teru-san, Rado-san, and Jarujaru-san."
+        - label: Her favorite manga is JoJo's Bizarre Adventure. Especially Part 3. Her favorite character is Weather Report from Part 6.
+        - label: She really loves cream soda.
+    - label: The host compared the TR!CK TAK!NG EP jacket to American comics.
+    - label: The host asked if the 4 '!' in 'Dreams!!!!' represents the 4 members, they said yes.
+    - label: The host discussed how it feels like everyone is the main character in the band,
+            likely from the fact that each member was active individually on SNS before forming the band.
+      sub:
+      - label: He said he was getting a Super Sentai (Power Rangers) vibe.
+
 
 - type: mediawritten
   year: 2025

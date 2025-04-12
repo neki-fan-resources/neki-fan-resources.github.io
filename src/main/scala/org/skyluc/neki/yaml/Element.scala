@@ -39,6 +39,7 @@ case class MediaAudio(
     `published-date`: String,
     description: Option[List[String]],
     `cover-image`: CoverImage,
+    summary: Option[Summary],
 ) extends Element
     derives YamlCodec
 
@@ -55,6 +56,7 @@ case class MediaWritten(
     `published-date`: String,
     description: Option[List[String]],
     `cover-image`: CoverImage,
+    summary: Option[Summary],
 ) extends Element
     derives YamlCodec
 
@@ -208,7 +210,7 @@ case class Id(
 ) derives YamlCodec
 
 case class Lyrics(
-    status: LyricsStatus,
+    status: CriptionLationStatus,
     languages: List[LyricsLanguage],
     sections: List[LyricsSection],
 ) derives YamlCodec
@@ -247,7 +249,7 @@ case class LyricsSection(
     lines: List[LyricsLine]
 ) derives YamlCodec
 
-case class LyricsStatus(
+case class CriptionLationStatus(
     code: String,
     description: String,
 ) derives YamlCodec
@@ -329,6 +331,43 @@ case class Source(
     description: String,
     url: Option[String],
 ) derives YamlCodec
+
+case class Summary(
+    status: CriptionLationStatus,
+    items: List[SummaryItemL1],
+) derives YamlCodec
+
+trait SummaryItem {
+  val label: String
+  val sub: Option[List[SummaryItem]]
+}
+
+// The Yaml library doesn't like recursive type structure (infinite loop at runtime)
+
+case class SummaryItemL1(
+    label: String,
+    sub: Option[List[SummaryItemL2]],
+) extends SummaryItem
+    derives YamlCodec
+
+case class SummaryItemL2(
+    label: String,
+    sub: Option[List[SummaryItemL3]],
+) extends SummaryItem
+    derives YamlCodec
+
+case class SummaryItemL3(
+    label: String,
+    sub: Option[List[SummaryItemL4]],
+) extends SummaryItem
+    derives YamlCodec
+
+case class SummaryItemL4(
+    label: String
+) extends SummaryItem
+    derives YamlCodec {
+  override val sub: Option[List[SummaryItem]] = None
+}
 
 case class ZaikoId(
     channel: String,

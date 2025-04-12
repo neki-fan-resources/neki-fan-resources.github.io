@@ -348,4 +348,8 @@ object CommonBase {
   val ROOT_PATH = "/"
   val DARK_PATH = "dark"
   val ABOUT_PATH = "/about.html#questions"
+
+  // status
+  val CLASS_STATUS = "status"
+  val CLASS_STATUS_BASE = "status-"
 }

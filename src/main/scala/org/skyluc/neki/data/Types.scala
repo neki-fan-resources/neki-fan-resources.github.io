@@ -170,7 +170,7 @@ case class Source(
 )
 
 case class Lyrics(
-  status: LyricsStatus,
+  status: CriptionLationStatus,
   languages: List[LyricsLanguage],
   sections: List[LyricsSection],
 ) {
@@ -202,7 +202,7 @@ case class LyricsSection(
   lines: List[Map[String, List[LyricsLineEntry]]]
 )
 
-case class LyricsStatus(
+case class CriptionLationStatus(
   code: String,
   description: String,
 )
@@ -211,4 +211,14 @@ case class BandNews(
     title: String,
     content: List[String],
     url: String,
+)
+
+case class Summary(
+  status: CriptionLationStatus,
+  items: List[SummaryItem],
+)
+
+case class SummaryItem(
+  label: String,
+  sub: List[SummaryItem],
 )

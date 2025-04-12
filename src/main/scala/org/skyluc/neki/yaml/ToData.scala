@@ -230,7 +230,7 @@ object ToData {
   }
 
   def processLyrics(lyrics: Lyrics, id: d.Id[?]): Either[ParserError, d.Lyrics] = {
-    val status = d.LyricsStatus(lyrics.status.code, lyrics.status.description)
+    val status = d.CriptionLationStatus(lyrics.status.code, lyrics.status.description)
     val languages = lyrics.languages.map(processLyricsLanguage)
     for {
       sections <- throughList(lyrics.sections) { section =>
@@ -322,6 +322,7 @@ object ToData {
         publishedDate,
         media.description,
         coverImage,
+        media.summary.map(processSummary),
       )
     }
   }
@@ -344,6 +345,7 @@ object ToData {
         publishedDate,
         media.description,
         coverImage,
+        media.summary.map(processSummary),
       )
     }
   }
@@ -564,6 +566,24 @@ object ToData {
 
   def processSource(source: Source): d.Source = {
     d.Source(source.description, source.url)
+  }
+
+  def processSummary(summary: Summary): d.Summary = {
+    d.Summary(
+      d.CriptionLationStatus(summary.status.code, summary.status.description),
+      processSummaryItems(summary.items),
+    )
+  }
+
+  def processSummaryItem(summaryItem: SummaryItem): d.SummaryItem = {
+    d.SummaryItem(
+      summaryItem.label,
+      summaryItem.sub.map(processSummaryItems).getOrElse(Nil),
+    )
+  }
+
+  def processSummaryItems(summaryItems: List[SummaryItem]): List[d.SummaryItem] = {
+    summaryItems.map(processSummaryItem)
   }
 
   def processTour(tour: Tour): Either[ParserError, d.Tour] = {

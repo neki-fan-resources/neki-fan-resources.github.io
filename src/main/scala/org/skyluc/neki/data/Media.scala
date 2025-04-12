@@ -28,6 +28,7 @@ trait Media extends Item[Media] with WithCoverImage[Media] {
   val id: MediaId
   val publishedDate: Date
   def title(): String
+  val summary: Option[Summary]
   def sources(): Option[SourceItem]
 }
 
@@ -43,6 +44,7 @@ case class MediaAudio(
     publishedDate: Date,
     description: Option[List[String]],
     coverImage: CoverImage,
+    summary: Option[Summary],
     error: Boolean = false,
     relatedTo: List[Id[?]] = Nil,
 ) extends Media {
@@ -70,6 +72,7 @@ case class MediaWritten(
     publishedDate: Date,
     description: Option[List[String]],
     coverImage: CoverImage,
+    summary: Option[Summary],
     error: Boolean = false,
     relatedTo: List[Id[?]] = Nil,
 ) extends Media {

@@ -8,6 +8,18 @@ object SectionHeader {
     h2().appendElements(text(title))
   }
 
+  def generateWithStatus(title: String, status: String, statusCode: String): H2 = {
+    generate(
+      text(title),
+      span()
+        .withClass(CommonBase.CLASS_STATUS)
+        .withClass(CommonBase.CLASS_STATUS_BASE + statusCode)
+        .appendElement(
+          text(status)
+        ),
+    )
+  }
+
   def generate(content: BodyElement[?]*): H2 = {
     h2().appendElements(content*)
   }

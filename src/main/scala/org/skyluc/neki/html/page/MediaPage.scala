@@ -9,6 +9,10 @@ import org.skyluc.neki.html.ItemDetails
 import org.skyluc.neki.html.CompiledData
 import org.skyluc.neki.html.Pages
 import org.skyluc.neki.html.CoverImage
+import org.skyluc.neki.html.SectionHeader
+import org.skyluc.neki.data.SummaryItem
+import org.skyluc.html._
+import Html._
 
 class MediaPage(val media: Media, data: Data) extends Page(data) {
   import MediaPage._
@@ -22,8 +26,40 @@ class MediaPage(val media: Media, data: Data) extends Page(data) {
   override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(media.coverImage, media, data))
 
   override def mainContent(): List[BodyElement[?]] = {
-    List(
-      ItemDetails.generate(CompiledData.getMedia(media.id, data))
+    ItemDetails.generate(CompiledData.getMedia(media.id, data))
+      :: summaryContent()
+  }
+
+  private def summaryContent(): List[BodyElement[?]] = {
+    media.summary
+      .map { summary =>
+        List(
+          SectionHeader.generateWithStatus("Summary", summary.status.description, summary.status.code),
+          ul()
+            .withClass(CLASS_MEDIA_SUMMARY_BLOCK)
+            .appendElements(
+              summary.items.map(generate)*
+            ),
+        )
+      }
+      .getOrElse(Nil)
+  }
+
+  private def generate(summaryItem: SummaryItem): Li = {
+    val elements: List[BodyElement[?]] = List(
+      Some(text(summaryItem.label)),
+      if (summaryItem.sub.isEmpty) {
+        None
+      } else {
+        Some(
+          ul().appendElements(
+            summaryItem.sub.map(generate)*
+          )
+        )
+      },
+    ).flatten
+    li().appendElements(
+      elements*
     )
   }
 
@@ -38,5 +74,9 @@ object MediaPage {
   val LABEL_HOST = "host"
   val VALUE_SHOW_PAGE = "show page"
   val VALUE_PROGRAM = "program"
+  val VALUE_PUBLICATION_PAGE = "publication page"
+  val VALUE_ARTICLE = "article"
+
+  val CLASS_MEDIA_SUMMARY_BLOCK = "media-summary-block"
 
 }

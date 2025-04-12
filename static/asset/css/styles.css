@@ -172,6 +172,13 @@ h2 {
   margin: 1rem 1rem 0 0;
 }
 
+
+.status {
+  margin-left: 1rem;
+  padding: 0 0.5rem 0 0.5rem
+}
+
+
 /* main content styling */
 
 h2 {
@@ -196,6 +203,26 @@ h2 {
   line-height: 1rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.status {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+}
+
+.status-warning {
+  color: white;
+  background-color: orange;
+}
+
+.status-danger {
+  color: white;
+  background-color: red;
+}
+
+.status-na {
+  color: white;
+  background-color: black;
 }
 
 /* navigation bar layout */
@@ -1196,11 +1223,6 @@ footer {
 
 /* lyrics layout */
 
-.lyrics-status {
-  margin-left: 1rem;
-  padding: 0 0.5rem 0 0.5rem
-}
-
 .lyrics-languages-selection {
   padding-left: 0.5rem;
   margin-bottom: 1rem;
@@ -1240,26 +1262,6 @@ td.lyrics-sub-part-last {
 }
 
 /* lyrics styling */
-
-.lyrics-status {
-  font-size: 0.7rem;
-  line-height: 0.7rem;
-}
-
-.lyrics-status-warning {
-  color: white;
-  background-color: orange;
-}
-
-.lyrics-status-danger {
-  color: white;
-  background-color: red;
-}
-
-.lyrics-status-na {
-  color: white;
-  background-color: black;
-}
 
 .lyrics-languages-selection {
   font-size: 0.8rem;
@@ -1391,6 +1393,13 @@ td.lyrics-sub-part-last {
   line-height: 0.75rem;
 }
 
+/* media pages layout */
+
+/* media pages styling */
+.media-summary-block {
+  font-size: 1rem;
+  line-height: normal;
+}
 
 /* ======= testing ======== */
 

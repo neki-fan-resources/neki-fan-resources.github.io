@@ -1,10 +1,6 @@
 type: site
 
 news:
-- title: next appearance
-  content:
-  - The whole band will be guest at the RADIO INFINITY show on FM802, on April 10th, from 24:00.
-  url: /media/2025/fm802-infinityradio.html
 - title: next show
   content:
   - NEK! next show is at the でら ROCK festival, on April 12th. They will perform at 15:30 at the 下北沢SHELTER.
@@ -13,6 +9,11 @@ news:
   content:
   - Natsu is being interviewed in the May issue of Guitar magazine.
   url: /media/2025/guitarmagazine05.html
+- title: next appearance
+  content:
+  - The whole band were guests at the RADIO INFINITY show on FM802, on April 10th.
+  - A summary of the interview is available.
+  url: /media/2025/fm802-infinityradio.html
 - title: NEK! 1ST ZEPP ONE MAN
   content:
   - NEK! will do their first Zepp show, on August 30th, at Zepp Shinjuku in Tokyo.

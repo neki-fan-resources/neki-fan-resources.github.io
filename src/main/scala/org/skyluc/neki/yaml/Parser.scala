@@ -115,6 +115,7 @@ object Parser {
       case "site"         => as[Site](node, filename)
       case "show"         => as[Show](node, filename)
       case "page"         => parsePage(node, filename)
+      case "postx"        => as[PostX](node, filename)
       case "tour"         => as[Tour](node, filename)
       case "youtubeshort" => as[YouTubeShort](node, filename)
       case "youtubevideo" => as[YouTubeVideo](node, filename)

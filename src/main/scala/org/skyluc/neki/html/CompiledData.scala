@@ -97,6 +97,7 @@ case class MultiMediaCompiledData(
     from: List[(String, ItemCompiledData)],
     overlay: String,
     available: Boolean,
+    centerOverlay: Boolean,
 )
 
 case class MultiMediaCompiledDataWithParentKey(
@@ -116,6 +117,7 @@ object MultiMediaCompiledData {
       OLD_DATE,
       Nil,
       CommonBase.EMPTY,
+      true,
       true,
     )
   }
@@ -363,15 +365,45 @@ object CompiledData {
   }
 
   def compileForMultiMedia(id: MultiMediaId, data: Data): MultiMediaCompiledData = {
-    data.multimedia
-      .get(id)
-      .map {
-        case y: YouTubeShort =>
-          compileForYouTubeShort(y, data)
-        case y: YouTubeVideo =>
-          compileForYouTubeVideo(y, data)
-        case z: Zaiko =>
-          compileForZaiko(z, data)
+    id match {
+      case p: PostXImageId =>
+        compileForPostXImage(p, data)
+      case _ =>
+        data.multimedia
+          .get(id)
+          .map {
+            case y: YouTubeShort =>
+              compileForYouTubeShort(y, data)
+            case y: YouTubeVideo =>
+              compileForYouTubeVideo(y, data)
+            case z: Zaiko =>
+              compileForZaiko(z, data)
+          }
+          .getOrElse(MultiMediaCompiledData.missing(id))
+    }
+  }
+
+  def compileForPostXImage(id: PostXImageId, data: Data): MultiMediaCompiledData = {
+    data.posts
+      .get(PostXId(id.postId))
+      .map { case postX: PostX =>
+        postX
+          .getImage(id.imageId)
+          .map { image =>
+            MultiMediaCompiledData(
+              postX.url(),
+              image.url(),
+              "X post image",
+              image.label,
+              image.info,
+              postX.publishedDate,
+              Nil, // TODO: what makes sense ?
+              PostX.OVERLAY_FILE,
+              true,
+              false,
+            )
+          }
+          .getOrElse(MultiMediaCompiledData.missing(id))
       }
       .getOrElse(MultiMediaCompiledData.missing(id))
   }
@@ -505,6 +537,7 @@ object CompiledData {
         },
       YouTubeVideo.OVERLAY_FILE,
       true,
+      true,
     )
   }
 
@@ -522,6 +555,7 @@ object CompiledData {
           (item.fromKey, item)
         },
       YouTubeVideo.OVERLAY_FILE,
+      true,
       true,
     )
   }
@@ -544,6 +578,7 @@ object CompiledData {
         },
       Zaiko.OVERLAY_FILE,
       available,
+      true,
     )
   }
 

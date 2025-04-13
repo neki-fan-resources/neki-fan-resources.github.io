@@ -17,6 +17,7 @@ case class Data(
     medias: Map[Id[Media], Media],
     pages: Map[Id[Page], Page],
     multimedia: Map[Id[MultiMedia], MultiMedia],
+    posts: Map[Id[Post], Post],
 )
 
 object Data {
@@ -45,16 +46,17 @@ object DataBuilder {
       medias: Map[Id[Media], Media],
       pages: Map[Id[Page], Page],
       multimedia: Map[Id[MultiMedia], MultiMedia],
+      posts: Map[Id[Post], Post],
   ) {
     def toData(): Data = {
       // TODO: missing site error support
-      Data(site.get, albums, songs, shows, tours, medias, pages, multimedia)
+      Data(site.get, albums, songs, shows, tours, medias, pages, multimedia, posts)
     }
   }
 
   def load(elements: List[Item[?]]): Step1 = {
     val data =
-      TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap())
+      TempData(None, HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap(), HashMap())
     // TODO: check if adding items which already existing id
     val res = elements.foldLeft(new WithErrors(data, Nil)) { (acc, item) =>
       item match {
@@ -68,6 +70,8 @@ object DataBuilder {
           acc.copy(t = acc.t.copy(multimedia = acc.t.multimedia + ((m.id, m))))
         case m: MusicPage =>
           acc.copy(t = acc.t.copy(pages = acc.t.pages + ((m.id, m))))
+        case p: Post =>
+          acc.copy(t = acc.t.copy(posts = acc.t.posts + ((p.id, p))))
         case s: Show =>
           acc.copy(t = acc.t.copy(shows = acc.t.shows + ((s.id, s))))
         case s: ShowsPage =>
@@ -103,6 +107,7 @@ object DataBuilder {
       // TODO: check relatedTo references
       // TODO: check multimedia references
       // TODO: check reference to multimedia in chronology
+      // TODO: check reference to X post images
 
       new Step3(dataLast, errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors ::: pageErrors)
     }
@@ -181,6 +186,7 @@ object DataBuilder {
           medias.map(e => (e.id, e)).toMap,
           data.pages,
           data.multimedia,
+          data.posts,
         ),
         errors ::: songErrors ::: albumErrors ::: showErrors ::: tourErrors ::: mediaErrors,
       )

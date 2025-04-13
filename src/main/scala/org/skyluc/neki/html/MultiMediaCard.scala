@@ -49,7 +49,9 @@ object MultiMediaCard {
       .withTarget(A.TARGET_BLANK)
       .appendElements(
         img()
-          .withClass(CLASS_MULTIMEDIA_CARD_IMAGE_OVER)
+          .withClass(
+            if (entry.centerOverlay) CLASS_MULTIMEDIA_CARD_IMAGE_CENTER_OVER else CLASS_MULTIMEDIA_CARD_IMAGE_TOP_OVER
+          )
           .withSrc(BASE_OVERLAY_URL + entry.overlay)
           .withAlt(MEDIA_SERVICE_LOGO_ALT),
         img()
@@ -81,7 +83,8 @@ object MultiMediaCard {
   val CLASS_MULTIMEDIA_CARD_LABEL = "multimedia-card-label"
   val CLASS_MULTIMEDIA_CARD_LABEL_UNAVAILABLE = "multimedia-card-label-unavailable"
   val CLASS_MULTIMEDIA_CARD_IMAGE = "multimedia-card-image"
-  val CLASS_MULTIMEDIA_CARD_IMAGE_OVER = "multimedia-card-image-over"
+  val CLASS_MULTIMEDIA_CARD_IMAGE_CENTER_OVER = "multimedia-card-image-center-over"
+  val CLASS_MULTIMEDIA_CARD_IMAGE_TOP_OVER = "multimedia-card-image-top-over"
   val CLASS_MULTIMEDIA_CARD_IMAGE_UNDER = "multimedia-card-image-under"
   val CLASS_MULTIMEDIA_CARD_SUBLABEL = "multimedia-card-sublabel"
 

@@ -1118,12 +1118,20 @@ footer {
   margin-bottom: -0.1rem;
 }
 
-.multimedia-card-image-over {
+.multimedia-card-image-center-over {
   height: 15%;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.multimedia-card-image-top-over {
+  height: 15%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(-25%, 25%);
 }
 
 .multimedia-card-image-under {

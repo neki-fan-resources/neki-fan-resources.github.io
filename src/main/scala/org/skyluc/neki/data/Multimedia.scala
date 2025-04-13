@@ -1,11 +1,33 @@
 package org.skyluc.neki.data
 
 import java.nio.file.Path
+import org.skyluc.neki.html.CommonBase
 
 trait MultiMediaId extends Id[MultiMedia]
 
 trait MultiMedia extends Item[MultiMedia] {
   val publishedDate: Date
+}
+
+case class PostXImageId(
+    postId: String,
+    imageId: String,
+) extends MultiMediaId {
+
+  import PostXImageId._
+
+  override val uid: String = ID_BASE + postId + Id.ID_SEPARATOR + imageId
+
+  override val upath: String = CommonBase.NOT_USED
+
+  override def path: Path = ???
+
+  override def isKnown(sourceId: Id[?], data: Data): Option[DataError] = ???
+}
+
+object PostXImageId {
+  val ID_BASE = "postximage_"
+
 }
 
 case class YouTubeVideoId(
@@ -183,6 +205,7 @@ case class MultiMediaBlock(
     live: List[MultiMediaId] = Nil,
     concert: List[MultiMediaId] = Nil,
     short: List[MultiMediaId] = Nil,
+    image: List[MultiMediaId] = Nil,
     additional: List[MultiMediaId] = Nil,
 ) {
   def all(): List[MultiMediaId] = (video ::: live ::: concert ::: short ::: additional).distinct

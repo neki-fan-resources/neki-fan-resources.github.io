@@ -237,6 +237,7 @@ object CommonBase {
   // -------------
 
   val EMPTY = ""
+  val NOT_USED = "notUsed"
   val SEPARATOR = " - "
 
   val BLANK = "_blank"

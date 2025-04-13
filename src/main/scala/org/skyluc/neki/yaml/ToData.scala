@@ -56,6 +56,8 @@ object ToData {
         processMediaWritten(m)
       case m: MusicPage =>
         processMusicPage(m)
+      case p: PostX =>
+        processPostX(p)
       case s: Show =>
         processShow(s)
       case s: ShowsPage =>
@@ -309,6 +311,7 @@ object ToData {
     for {
       publishedDate <- processDate(media.`published-date`, id)
       coverImage <- processCoverImage(media.`cover-image`, id)
+      multimedia <- boxEitherOption(media.multimedia.map(processMultiMedia(_, id)))
     } yield {
       d.MediaAudio(
         id,
@@ -323,6 +326,7 @@ object ToData {
         media.description,
         coverImage,
         media.summary.map(processSummary),
+        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
       )
     }
   }
@@ -332,6 +336,7 @@ object ToData {
     for {
       publishedDate <- processDate(media.`published-date`, id)
       coverImage <- processCoverImage(media.`cover-image`, id)
+      multimedia <- boxEitherOption(media.multimedia.map(processMultiMedia(_, id)))
     } yield {
       d.MediaWritten(
         id,
@@ -346,6 +351,7 @@ object ToData {
         media.description,
         coverImage,
         media.summary.map(processSummary),
+        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
       )
     }
   }
@@ -378,6 +384,7 @@ object ToData {
       live <- boxEitherOption(multimedia.live.map(processMultiMediaIds(_, id)))
       concert <- boxEitherOption(multimedia.concert.map(processMultiMediaIds(_, id)))
       short <- boxEitherOption(multimedia.short.map(processMultiMediaIds(_, id)))
+      image <- boxEitherOption(multimedia.image.map(processMultiMediaIds(_, id)))
       additional <- boxEitherOption(multimedia.additional.map(processMultiMediaIds(_, id)))
     } yield {
       d.MultiMediaBlock(
@@ -385,6 +392,7 @@ object ToData {
         live.getOrElse(Nil),
         concert.getOrElse(Nil),
         short.getOrElse(Nil),
+        image.getOrElse(Nil),
         additional.getOrElse(Nil),
       )
     }
@@ -399,6 +407,7 @@ object ToData {
 
   def processMultiMediaId(multimediaId: MultiMediaId, id: d.Id[?]): Either[ParserError, d.MultiMediaId] = {
     val candidates: List[d.MultiMediaId] = List(
+      multimediaId.postXImage.map(processPostXImageId),
       multimediaId.youtubevideo.map(d.YouTubeVideoId(_)),
       multimediaId.youtubeshort.map(d.YouTubeShortId(_)),
       multimediaId.zaiko.map(z => d.ZaikoId(z.channel, z.id)),
@@ -460,6 +469,30 @@ object ToData {
 
   def processMediaIds(refMediaIds: RefMediaIds): d.RefMediaIds = {
     d.RefMediaIds(refMediaIds.account, refMediaIds.ids)
+  }
+
+  def processPostX(postX: PostX): Either[ParserError, d.PostX] = {
+    val id = d.PostXId(postX.id)
+    for {
+      publishedDate <- processDate(postX.`published-date`, id)
+    } yield {
+      d.PostX(
+        id,
+        postX.account,
+        publishedDate,
+        postX.info,
+        postX.text,
+        postX.image.map(_.map(processPostXImage)).getOrElse(Nil),
+      )
+    }
+  }
+
+  def processPostXImage(postXImage: PostXImage): d.PostXImage = {
+    d.PostXImage(postXImage.id, postXImage.label, postXImage.info)
+  }
+
+  def processPostXImageId(postXImageId: PostXImageId): d.PostXImageId = {
+    d.PostXImageId(postXImageId.postId, postXImageId.imageId)
   }
 
   def processShow(show: Show): Either[ParserError, d.Show] = {

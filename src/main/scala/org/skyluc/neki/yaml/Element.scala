@@ -40,6 +40,7 @@ case class MediaAudio(
     description: Option[List[String]],
     `cover-image`: CoverImage,
     summary: Option[Summary],
+    multimedia: Option[MultiMedia],
 ) extends Element
     derives YamlCodec
 
@@ -57,12 +58,23 @@ case class MediaWritten(
     description: Option[List[String]],
     `cover-image`: CoverImage,
     summary: Option[Summary],
+    multimedia: Option[MultiMedia],
 ) extends Element
     derives YamlCodec
 
 case class MusicPage(
     id: String,
     music: List[MusicId],
+) extends Element
+    derives YamlCodec
+
+case class PostX(
+    id: String,
+    account: String,
+    `published-date`: String,
+    info: String,
+    text: String,
+    image: Option[List[PostXImage]],
 ) extends Element
     derives YamlCodec
 
@@ -283,10 +295,12 @@ case class MultiMedia(
     concert: Option[List[MultiMediaId]],
     live: Option[List[MultiMediaId]],
     short: Option[List[MultiMediaId]],
+    image: Option[List[MultiMediaId]],
     additional: Option[List[MultiMediaId]],
 ) derives YamlCodec
 
 case class MultiMediaId(
+    postXImage: Option[PostXImageId],
     youtubevideo: Option[String],
     youtubeshort: Option[String],
     zaiko: Option[ZaikoId],
@@ -313,6 +327,17 @@ case class NewsItem(
     content: List[String],
     // TODO: should be a ref id
     url: String,
+) derives YamlCodec
+
+case class PostXImage(
+    id: String,
+    label: String,
+    info: Option[String],
+) derives YamlCodec
+
+case class PostXImageId(
+    postId: String,
+    imageId: String,
 ) derives YamlCodec
 
 case class ShowId(

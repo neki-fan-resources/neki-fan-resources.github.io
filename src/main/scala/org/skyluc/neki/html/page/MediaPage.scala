@@ -13,6 +13,7 @@ import org.skyluc.neki.html.SectionHeader
 import org.skyluc.neki.data.SummaryItem
 import org.skyluc.html._
 import Html._
+import org.skyluc.neki.html.MultiMediaCard
 
 class MediaPage(val media: Media, data: Data) extends Page(data) {
   import MediaPage._
@@ -26,8 +27,15 @@ class MediaPage(val media: Media, data: Data) extends Page(data) {
   override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(media.coverImage, media, data))
 
   override def mainContent(): List[BodyElement[?]] = {
+
+    val imageSection = MultiMediaCard.generateSection(
+      MediaPage.SECTION_IMAGE_TEXT,
+      CompiledData.getMultiMedia(media.multimedia.image, data),
+      Media.FROM_KEY,
+    )
+
     ItemDetails.generate(CompiledData.getMedia(media.id, data))
-      :: summaryContent()
+      :: imageSection ::: summaryContent()
   }
 
   private def summaryContent(): List[BodyElement[?]] = {
@@ -76,6 +84,8 @@ object MediaPage {
   val VALUE_PROGRAM = "program"
   val VALUE_PUBLICATION_PAGE = "publication page"
   val VALUE_ARTICLE = "article"
+
+  val SECTION_IMAGE_TEXT = "Image"
 
   val CLASS_MEDIA_SUMMARY_BLOCK = "media-summary-block"
 

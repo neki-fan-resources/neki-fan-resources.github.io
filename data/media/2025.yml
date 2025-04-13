@@ -36,6 +36,35 @@
         description: FANTASY RADIO webpage
         url: https://www.nack5.co.jp/program/fantasyradio/
 
+  multimedia:
+    image:
+    - postXImage:
+        postId: 1903452529729695755
+        imageId: Gmpr-0DaAAA6aKU
+
+  related:
+  - type: postx
+    id: 1903452529729695755
+    account: nekiband_jp
+    published-date: 2025-03-22
+    info: NEK! at NACK5 FANTASY RADIO
+    text: |
+      本日25:30〜放送！
+      NACK5「FANTSY RADIO」
+
+      NEK!はこのあと26時台に出演させていただきます📻
+
+      ぜひお聴きください！
+
+      https://radiko.jp/share/?t=20250322253000&sid=NACK5 
+
+      #NEKI #ファンラジ795 #nack5
+    image:
+    - id: Gmpr-0DaAAA6aKU
+      label: Hika and Natsu
+      info: with the show's blue ears
+    
+
 - type: mediaaudio
   year: 2025
   id: fm802-infinityradio
@@ -65,6 +94,12 @@
       source:
         description: RADIO INFINITY webpage
         url: https://funky802.com/infinity/
+
+  multimedia:
+    image:
+    - postXImage:
+        postId: 1910379084141801512
+        imageId: GoMHpd-bYAANMFt
 
   summary:
     status:
@@ -122,6 +157,32 @@
       - label: He said he was getting a Super Sentai (Power Rangers) vibe.
     - label: "'Get Over' was played as an introduction for the interview. 'Dreams!!!!' was played right after the interview."
 
+  related:
+  - type: postx
+    id: 1910379084141801512
+    account: RI_802
+    published-date: 2025-04-10
+    info: NEK! at FM802 RADIO INFINITY
+    text: |
+      👤NEK!
+      (
+      @nekiband_jp
+
+      💿Dreams!!!
+
+      初めて #RI802 に遊びにきてくれました🎊
+
+      メンバー全員の1分間自己紹介をお届け！
+      4人の魅力が伝わりましたか？✨
+
+      トークの詳細は↓
+      https://radiko.jp/share/?t=20250410254202&sid=802
+
+      #FM802
+    image:
+    - id: GoMHpd-bYAANMFt
+      label: band members and show host
+    
 
 - type: mediawritten
   year: 2025

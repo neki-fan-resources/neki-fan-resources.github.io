@@ -205,3 +205,10 @@
       source:
         description: Guitar magazine webpage
         url: https://guitarmagazine.jp/news/2025-0401-gm2505/
+
+  related:
+  # TODO: add extra page for media
+  - type: youtubeshort
+    id: E91CuO-MI1A
+    label: It is out
+    published-date: 2025-04-12

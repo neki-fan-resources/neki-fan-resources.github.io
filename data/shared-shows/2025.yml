@@ -47,12 +47,25 @@
   event-page: https://kogarecords.com/top/?p=1485
   shared: true
 
+  multimedia:
+    video:
+    - youtubeshort: 759NyQOQ1yg
+
   cover-image:
     file:
       filename: cover400.png
       source:
         description: NEK! X post
         url: https://x.com/nekiband_jp/status/1904825238870721005
+  
+  related:
+  - type: youtubeshort
+    id: 759NyQOQ1yg
+    label: Entry
+    published-date: 2025-04-13
+    # TODO: identify the song
+    # related-to:
+    # - song: getover
 
 - type: show
   year: 2025

@@ -5,7 +5,6 @@ import org.skyluc.neki.data.Album
 import org.skyluc.neki.data.Data
 import org.skyluc.neki.html._
 import org.skyluc.html.BodyElement
-import org.skyluc.neki.data.MultiMediaId
 
 class AlbumPage(val album: Album, extraPage: Boolean, data: Data) extends Page(data) {
 
@@ -22,11 +21,10 @@ class AlbumPage(val album: Album, extraPage: Boolean, data: Data) extends Page(d
   override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(album.coverImage, album, data))
 
   override def mainContent(): List[BodyElement[?]] = {
-    val additionalSection = MultiMediaCard.generateSection(
-      SECTION_ADDITIONAL_TEXT,
-      CompiledData.getMultiMedia(album.multimedia.additional, data),
-      Album.FROM_KEY,
-    )
+
+    val mainSections = MultiMediaCard.generateMainSections(album.multimedia, data, Album.FROM_KEY)
+
+    val additionalSection = MultiMediaCard.generateAdditionalSection(album.multimedia, data, Album.FROM_KEY)
 
     val extraSection = if (extraPage) {
       List(ExtraLink.generate("/" + extraPath(album).toString()))
@@ -40,7 +38,7 @@ class AlbumPage(val album: Album, extraPage: Boolean, data: Data) extends Page(d
       MediumCard.generateList(
         album.songs.map(CompiledData.getSong(_, data))
       ),
-    ) ::: additionalSection ::: extraSection
+    ) ::: mainSections ::: additionalSection ::: extraSection
   }
 
 }
@@ -51,23 +49,10 @@ object AlbumPage {
 
   val SECTION_SONGS = "Songs"
 
-  val SECTION_ADDITIONAL_TEXT = "Additional"
-
   def extraPath(album: Album): Path = Path.of(ALBUM_PATH, Pages.EXTRA_PATH, album.id.id + Pages.HTML_EXTENSION)
 
-  def extraMultimedia(album: Album): List[MultiMediaId] = {
-    val allMultiMediaInMainPage = album.multimedia.all()
-    val allRelatedMultiMedia: List[MultiMediaId] = album.relatedTo.flatMap {
-      case m: MultiMediaId =>
-        Some(m)
-      case _ =>
-        None
-    }
-    allRelatedMultiMedia.filterNot(allMultiMediaInMainPage.contains(_))
-  }
-
   def pagesFor(album: Album, data: Data): List[Page] = {
-    if (extraMultimedia(album).isEmpty) {
+    if (album.multimedia.extra(album.relatedTo).isEmpty) {
       List(AlbumPage(album, false, data))
     } else {
       List(AlbumPage(album, true, data), AlbumExtraPage(album, data))

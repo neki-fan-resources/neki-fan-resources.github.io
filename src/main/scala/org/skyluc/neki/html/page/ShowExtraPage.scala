@@ -38,17 +38,8 @@ class ShowExtraPage(show: Show, data: Data) extends Page(data) {
   override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(show.coverImage, show, data))
 
   override def mainContent(): List[BodyElement[?]] = {
-    val em = extraMultimedia(show)
-    val mediaSection = if (em.isEmpty) {
-      Nil
-    } else {
-      val sorted = em.map(CompiledData.getMultiMedia(_, data)).sortBy(_.date).reverse
-      MultiMediaCard.generateSection(
-        "Media",
-        sorted,
-        Show.FROM_KEY,
-      )
-    }
+    val mediaSection = MultiMediaCard.generateExtraMediaSection(show.multimedia, show.relatedTo, data, Show.FROM_KEY)
+
     div()
       .withClass(CommonBase.CLASS_MAIN_TITLE)
       .appendElements(LineCard.generate(CompiledData.getShow(show.id, data))) :: mediaSection

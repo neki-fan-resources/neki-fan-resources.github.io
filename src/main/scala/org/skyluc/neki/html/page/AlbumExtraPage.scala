@@ -27,17 +27,8 @@ class AlbumExtraPage(album: Album, data: Data) extends Page(data) {
   override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(album.coverImage, album, data))
 
   override def mainContent(): List[BodyElement[?]] = {
-    val em = extraMultimedia(album)
-    val mediaSection = if (em.isEmpty) {
-      Nil
-    } else {
-      val sorted = em.map(CompiledData.getMultiMedia(_, data)).sortBy(_.date).reverse
-      MultiMediaCard.generateSection(
-        "Media",
-        sorted,
-        Album.FROM_KEY,
-      )
-    }
+    val mediaSection = MultiMediaCard.generateExtraMediaSection(album.multimedia, album.relatedTo, data, Album.FROM_KEY)
+
     div()
       .withClass(CommonBase.CLASS_MAIN_TITLE)
       .appendElements(

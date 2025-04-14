@@ -50,7 +50,26 @@
   multimedia:
     video:
     - youtubeshort: 8JNZl3nO2dM
-    - youtubeshort: 759NyQOQ1yg 
+    - youtubeshort: 759NyQOQ1yg
+    image:
+    - postXImage:
+        postId: 1910979741756399623
+        imageId: GoUp719WUAADyfg
+    - postXImage:
+        postId: 1910979741756399623
+        imageId: GoUp719WkAAtlRX
+    - postXImage:
+        postId: 1910962202003275912
+        imageId: GoUZ_azXwAASE0E
+    - postXImage:
+        postId: 1910962202003275912
+        imageId: GoUZ_awWwAAkG5D
+    - postXImage:
+        postId: 1910962202003275912
+        imageId: GoUZ_axWoAA8BKE
+    - postXImage:
+        postId: 1910962202003275912
+        imageId: GoUZ_awWQAAJLU0
 
   cover-image:
     file:
@@ -73,6 +92,69 @@
     published-date: 2025-04-14
     related-to:
     - song: maze
+  - type: postx
+    id: 1910979741756399623
+    account: RI_802
+    published-date: 2025-04-10
+    info: Thank you for coming
+    text: |
+      下北沢こがでらロックフェスティバル2025
+      @ 下北沢SHELTER
+
+      ご来場ありがとうございました❣️
+
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      ＠ Zepp Shinjuku
+
+      チケットオフィシャル2次先行(抽選)受付中🎟️
+      https://l-tike.com/nekiband/
+
+      #NEKI #こがでらロック
+    image:
+    - id: GoUp71yWsAIHbmh
+      label: the band
+    - id: GoUp719WkAAtlRX
+      label: on stage
+    - id: GoUp719WUAADyfg
+      label: sidewalk board
+  - type: postx
+    id: 1910962202003275912
+    account: RI_802
+    published-date: 2025-04-10
+    info: Thank you for performing at the show
+    text: |
+      【下北沢こがでらROCK FESTIVAL 2025】
+
+      📣  ライブ速報  📣
+
+      ⏰15:30〜  SHELTER
+
+      NEK!  ( 
+      @nekiband_jp
+      )
+
+      ご出演いただきありがとうございました！
+
+      📸 photo by てる 
+      @ttetteteru
+
+
+      #こがでらロック
+    image:
+    - id: GoUZ_azXwAASE0E
+      label: on stage
+    - id: GoUZ_awWwAAkG5D
+      label: on stage
+      info: Kanade
+    - id: GoUZ_axWoAA8BKE
+      label: on stage
+      info: from the side, Natsu
+    - id: GoUZ_awWQAAJLU0
+      label: on stage
+      info: Hika
+    
+
 
 - type: show
   year: 2025

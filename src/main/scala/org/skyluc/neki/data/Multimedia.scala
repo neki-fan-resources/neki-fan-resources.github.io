@@ -261,7 +261,18 @@ case class MultiMediaBlock(
     image: List[MultiMediaId] = Nil,
     additional: List[MultiMediaId] = Nil,
 ) {
-  def all(): List[MultiMediaId] = (video ::: live ::: concert ::: short ::: additional).distinct
+  def all(): List[MultiMediaId] = (video ::: live ::: concert ::: short ::: image ::: additional).distinct
+
+  def extra(relatedTo: List[Id[?]]): List[MultiMediaId] = {
+    val allMultiMediaInMainPage = all()
+    val allRelatedMultiMedia: List[MultiMediaId] = relatedTo.flatMap {
+      case m: MultiMediaId =>
+        Some(m)
+      case _ =>
+        None
+    }
+    allRelatedMultiMedia.filterNot(allMultiMediaInMainPage.contains(_))
+  }
 }
 
 object MultiMediaBlock {

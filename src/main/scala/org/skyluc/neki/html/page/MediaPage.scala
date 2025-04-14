@@ -28,14 +28,14 @@ class MediaPage(val media: Media, data: Data) extends Page(data) {
 
   override def mainContent(): List[BodyElement[?]] = {
 
-    val imageSection = MultiMediaCard.generateSection(
-      MediaPage.SECTION_IMAGE_TEXT,
-      CompiledData.getMultiMedia(media.multimedia.image, data),
+    val mainSections = MultiMediaCard.generateMainSections(
+      media.multimedia,
+      data,
       Media.FROM_KEY,
     )
 
     ItemDetails.generate(CompiledData.getMedia(media.id, data))
-      :: imageSection ::: summaryContent()
+      :: mainSections ::: summaryContent()
   }
 
   private def summaryContent(): List[BodyElement[?]] = {
@@ -84,8 +84,6 @@ object MediaPage {
   val VALUE_PROGRAM = "program"
   val VALUE_PUBLICATION_PAGE = "publication page"
   val VALUE_ARTICLE = "article"
-
-  val SECTION_IMAGE_TEXT = "Image"
 
   val CLASS_MEDIA_SUMMARY_BLOCK = "media-summary-block"
 

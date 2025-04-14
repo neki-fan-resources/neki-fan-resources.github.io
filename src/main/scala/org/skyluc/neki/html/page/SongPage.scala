@@ -39,32 +39,12 @@ class SongPage(val song: Song, extraPage: Boolean, data: Data) extends Page(data
   override def ogImageUrl(): Option[String] = Some(CoverImage.resolveUrl(song.coverImage, song, data))
 
   override def mainContent(): List[BodyElement[?]] = {
-    val videoSection = MultiMediaCard.generateSection(
-      SECTION_VIDEO_TEXT,
-      CompiledData.getMultiMedia(song.multimedia.video, data),
-      Song.FROM_KEY,
-    )
-
-    val liveSection = MultiMediaCard.generateSection(
-      SECTION_LIVE_TEXT,
-      CompiledData.getMultiMedia(song.multimedia.live, data),
-      Song.FROM_KEY,
-    )
-
-    val shortSection = MultiMediaCard.generateSection(
-      SECTION_SHORT_TEXT,
-      CompiledData.getMultiMedia(song.multimedia.short, data),
-      Song.FROM_KEY,
-    )
+    val mainSections = MultiMediaCard.generateMainSections(song.multimedia, data, Song.FROM_KEY)
 
     val lyricsSection: List[BodyElement[?]] =
       song.lyrics.map { l => LyricsHtml.PageLyrics.from(l).generate() }.getOrElse(Nil)
 
-    val additionalSection = MultiMediaCard.generateSection(
-      SECTION_ADDITIONAL_TEXT,
-      CompiledData.getMultiMedia(song.multimedia.additional, data),
-      Song.FROM_KEY,
-    )
+    val additionalSection = MultiMediaCard.generateAdditionalSection(song.multimedia, data, Song.FROM_KEY)
 
     val extraSection = if (extraPage) {
       List(ExtraLink.generate("/" + extraPath(song).toString()))
@@ -74,7 +54,7 @@ class SongPage(val song: Song, extraPage: Boolean, data: Data) extends Page(data
 
     List(
       ItemDetails.generate(CompiledData.getSong(song.id, data))
-    ) ::: videoSection ::: liveSection ::: shortSection ::: lyricsSection ::: additionalSection ::: extraSection
+    ) ::: mainSections ::: lyricsSection ::: additionalSection ::: extraSection
   }
 
 }
@@ -88,11 +68,6 @@ object SongPage {
 
   val LABEL_LYRICIST = "lyricist"
   val LABEL_COMPOSER = "composer"
-
-  val SECTION_VIDEO_TEXT = "Video"
-  val SECTION_LIVE_TEXT = "Live"
-  val SECTION_SHORT_TEXT = "Short"
-  val SECTION_ADDITIONAL_TEXT = "Additional Media"
 
   def extraPath(song: Song): Path = Path.of(SONG_PATH, Pages.EXTRA_PATH, song.id.id + Pages.HTML_EXTENSION)
 

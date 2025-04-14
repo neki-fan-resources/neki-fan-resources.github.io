@@ -187,6 +187,7 @@
 - type: mediawritten
   year: 2025
   id: guitarmagazine05
+  # TODO: check if article is available online
 
   designation: magazine
   publication: Guitar magazine

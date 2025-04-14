@@ -38,6 +38,10 @@ case class PostX(
     image.find(_.id == imageId)
   }
 
+  def imageIds(): List[PostXImageId] = {
+    image.map(i => PostXImageId(id.id, i.id))
+  }
+
   def url(): String = {
     POST_BASE_URL_1 + account + POST_BASE_URL_2 + id.id
   }

@@ -2,6 +2,9 @@ package org.skyluc.neki.html
 
 import org.skyluc.html._
 import Html._
+import org.skyluc.neki.data.MultiMediaBlock
+import org.skyluc.neki.data.Data
+import org.skyluc.neki.data.Id
 
 object MultiMediaCard {
 
@@ -76,6 +79,70 @@ object MultiMediaCard {
     }
   }
 
+  def generateMainSections(
+      multimedia: MultiMediaBlock,
+      data: Data,
+      fromFilter: String,
+  ): List[BodyElement[?]] = {
+
+    val concertSection: List[BodyElement[?]] = MultiMediaCard.generateSection(
+      SECTION_CONCERT_TEXT,
+      CompiledData.getMultiMedia(multimedia.concert, data),
+      fromFilter,
+    )
+
+    val videoSection: List[BodyElement[?]] = MultiMediaCard.generateSection(
+      SECTION_VIDEO_TEXT,
+      CompiledData.getMultiMedia(multimedia.video, data),
+      fromFilter,
+    )
+
+    val liveSection = MultiMediaCard.generateSection(
+      SECTION_LIVE_TEXT,
+      CompiledData.getMultiMedia(multimedia.live, data),
+      fromFilter,
+    )
+
+    val shortSection: List[BodyElement[?]] = MultiMediaCard.generateSection(
+      SECTION_SHORT_TEXT,
+      CompiledData.getMultiMedia(multimedia.short, data),
+      fromFilter,
+    )
+
+    val imageSection = MultiMediaCard.generateSection(
+      SECTION_IMAGE_TEXT,
+      CompiledData.getMultiMedia(multimedia.image, data),
+      fromFilter,
+    )
+
+    concertSection ::: videoSection ::: liveSection ::: shortSection ::: imageSection
+  }
+
+  def generateAdditionalSection(
+      multimedia: MultiMediaBlock,
+      data: Data,
+      fromFilter: String,
+  ): List[BodyElement[?]] = {
+    MultiMediaCard.generateSection(
+      SECTION_ADDITIONAL_TEXT,
+      CompiledData.getMultiMedia(multimedia.additional, data),
+      fromFilter,
+    )
+  }
+
+  def generateExtraMediaSection(
+      multimedia: MultiMediaBlock,
+      relatedTo: List[Id[?]],
+      data: Data,
+      fromFilter: String,
+  ): List[BodyElement[?]] = {
+    MultiMediaCard.generateSection(
+      SECTION_MEDIA_TEXT,
+      CompiledData.getMultiMedia(multimedia.extra(relatedTo), data),
+      fromFilter,
+    )
+  }
+
   // ----------------
 
   val CLASS_MULTIMEDIA_CARD_LIST = "multimedia-card-list"
@@ -91,5 +158,13 @@ object MultiMediaCard {
   val BASE_OVERLAY_URL = "/asset/image/overlay/"
   val MEDIA_SERVICE_LOGO_ALT = "media service logo"
   val MEDIA_IMAGE_ALT = "media image"
+
+  val SECTION_CONCERT_TEXT = "Concert"
+  val SECTION_VIDEO_TEXT = "Video"
+  val SECTION_SHORT_TEXT = "Short"
+  val SECTION_ADDITIONAL_TEXT = "Additional Media"
+  val SECTION_MEDIA_TEXT = "Media"
+  val SECTION_IMAGE_TEXT = "Image"
+  val SECTION_LIVE_TEXT = "Live"
 
 }

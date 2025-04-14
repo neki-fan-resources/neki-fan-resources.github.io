@@ -3,6 +3,7 @@ package org.skyluc.neki.yaml
 import org.skyluc.neki.{data => d}
 import scala.util.matching.Regex
 import scala.annotation.tailrec
+import d.Item
 
 object ToData {
 
@@ -36,7 +37,20 @@ object ToData {
 
     val mainElementWithRelated = mainElement.map { m =>
       relatedElements.foldLeft(m) { (main, result) =>
-        result.main.toOption.map(item => main.withRelatedToGen(item.id)).getOrElse(main)
+        result.main.toOption
+          .map { item =>
+            // TODO: add a subItems() function to items
+            val main1 = item match {
+              case x: d.PostX =>
+                x.imageIds().foldLeft(main) { (m1, imageId) =>
+                  m1.withRelatedToGen(imageId)
+                }
+              case _: Item[?] =>
+                main
+            }
+            main1.withRelatedToGen(item.id)
+          }
+          .getOrElse(main)
       }
     }
 

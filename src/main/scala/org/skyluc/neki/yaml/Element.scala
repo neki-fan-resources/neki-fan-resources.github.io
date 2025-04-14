@@ -26,6 +26,21 @@ case class ChronologyPage(
 ) extends Element
     derives YamlCodec
 
+trait WithLocalImageId {
+  val media: Option[MediaId]
+  val id: String
+}
+
+case class LocalImage(
+    media: Option[MediaId],
+    id: String,
+    filename: String,
+    label: String,
+    `published-date`: String,
+) extends Element
+    with WithLocalImageId
+    derives YamlCodec
+
 case class MediaAudio(
     year: String,
     id: String,
@@ -221,6 +236,12 @@ case class Id(
     show: Option[ShowId],
 ) derives YamlCodec
 
+case class LocalImageId(
+    media: Option[MediaId],
+    id: String,
+) extends WithLocalImageId
+    derives YamlCodec
+
 case class Lyrics(
     status: CriptionLationStatus,
     languages: List[LyricsLanguage],
@@ -300,6 +321,7 @@ case class MultiMedia(
 ) derives YamlCodec
 
 case class MultiMediaId(
+    localImage: Option[LocalImageId],
     postXImage: Option[PostXImageId],
     youtubevideo: Option[String],
     youtubeshort: Option[String],

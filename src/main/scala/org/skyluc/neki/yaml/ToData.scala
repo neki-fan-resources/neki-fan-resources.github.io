@@ -50,6 +50,8 @@ object ToData {
         processAlbum(a)
       case c: ChronologyPage =>
         processChronologyPage(c)
+      case l: LocalImage =>
+        processLocalImage(l)
       case m: MediaAudio =>
         processMediaAudio(m)
       case m: MediaWritten =>
@@ -231,6 +233,31 @@ object ToData {
     }
   }
 
+  def processLocalImage(localImage: LocalImage): Either[ParserError, d.LocalImage] = {
+    for {
+      id <- processLocalImageId(localImage, null)
+      publishedDate <- processDate(localImage.`published-date`, id)
+    } yield {
+      d.LocalImage(id, localImage.filename, localImage.label, publishedDate)
+    }
+  }
+
+  def processLocalImageId(localImageId: WithLocalImageId, id: d.Id[?]): Either[ParserError, d.LocalImageId] = {
+    val candidates: List[d.Id[?]] = List(
+      localImageId.media.map(processMediaId)
+    ).flatten
+
+    // check only one defined
+    candidates match {
+      case head :: Nil =>
+        Right(d.LocalImageId(head, localImageId.id))
+      case Nil =>
+        Left(ParserError(id, s"No item id reference specified for image '${localImageId.id}'"))
+      case _ =>
+        Left(ParserError(id, s"Too many item id references specified for image '${localImageId.id}'"))
+    }
+  }
+
   def processLyrics(lyrics: Lyrics, id: d.Id[?]): Either[ParserError, d.Lyrics] = {
     val status = d.CriptionLationStatus(lyrics.status.code, lyrics.status.description)
     val languages = lyrics.languages.map(processLyricsLanguage)
@@ -406,22 +433,26 @@ object ToData {
   }
 
   def processMultiMediaId(multimediaId: MultiMediaId, id: d.Id[?]): Either[ParserError, d.MultiMediaId] = {
-    val candidates: List[d.MultiMediaId] = List(
-      multimediaId.postXImage.map(processPostXImageId),
-      multimediaId.youtubevideo.map(d.YouTubeVideoId(_)),
-      multimediaId.youtubeshort.map(d.YouTubeShortId(_)),
-      multimediaId.zaiko.map(z => d.ZaikoId(z.channel, z.id)),
-    ).flatten
+    boxEitherOption(multimediaId.localImage.map(processLocalImageId(_, id))).flatMap { localImageId =>
+      val candidates: List[d.MultiMediaId] = List(
+        localImageId,
+        multimediaId.postXImage.map(processPostXImageId),
+        multimediaId.youtubevideo.map(d.YouTubeVideoId(_)),
+        multimediaId.youtubeshort.map(d.YouTubeShortId(_)),
+        multimediaId.zaiko.map(z => d.ZaikoId(z.channel, z.id)),
+      ).flatten
 
-    // check only one defined
-    candidates match {
-      case head :: Nil =>
-        Right(head)
-      case Nil =>
-        Left(ParserError(id, "No multimedia reference specified"))
-      case _ =>
-        Left(ParserError(id, "Too many multimedia references specified"))
+      // check only one defined
+      candidates match {
+        case head :: Nil =>
+          Right(head)
+        case Nil =>
+          Left(ParserError(id, "No multimedia reference specified"))
+        case _ =>
+          Left(ParserError(id, "Too many multimedia references specified"))
+      }
     }
+
   }
 
   def processMusicId(musicId: MusicId, id: d.Id[?]): Either[ParserError, d.AlbumId | d.SongId] = {

@@ -176,6 +176,8 @@ object DataBuilder {
       val (tourErrors, tours) = checkListCoverImage(data.tours.values, data)
       val (mediaErrors, medias) = checkListCoverImage(data.medias.values, data)
 
+      // TODO: check references to local images
+
       new Step4(
         Data(
           data.site,

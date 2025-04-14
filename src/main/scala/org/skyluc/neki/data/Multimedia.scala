@@ -2,11 +2,64 @@ package org.skyluc.neki.data
 
 import java.nio.file.Path
 import org.skyluc.neki.html.CommonBase
+import org.skyluc.neki.html.CompiledData
 
 trait MultiMediaId extends Id[MultiMedia]
 
 trait MultiMedia extends Item[MultiMedia] {
   val publishedDate: Date
+}
+
+case class LocalImageId(
+    itemId: Id[?],
+    id: String,
+) extends MultiMediaId {
+
+  import LocalImage._
+
+  override val uid: String = ID_BASE + itemId.uid + Id.ID_SEPARATOR + id
+
+  override val upath: String = CommonBase.NOT_USED
+
+  override def path: Path = ???
+
+  override def isKnown(sourceId: Id[?], data: Data): Option[DataError] = {
+    if (data.multimedia.contains(this)) {
+      None
+    } else {
+      Some(DataError(sourceId, s"Referenced multimedia '$id' is not found"))
+    }
+  }
+}
+
+case class LocalImage(
+    id: LocalImageId,
+    filename: String,
+    label: String,
+    publishedDate: Date,
+    relatedTo: List[Id[?]] = Nil,
+    error: Boolean = false,
+) extends MultiMedia {
+
+  def url(): String = {
+    CompiledData.BASE_IMAGE_ASSET + id.itemId.upath + filename
+  }
+
+  override def withRelatedTo(id: Id[?]): MultiMedia = {
+    if (relatedTo.contains(id)) {
+      this
+    } else {
+      copy(relatedTo = relatedTo :+ id)
+    }
+  }
+
+  override def errored(): MultiMedia = copy(error = true)
+}
+
+object LocalImage {
+  val ID_BASE = "localimage_"
+
+  val OVERLAY_FILE = "empty.png"
 }
 
 case class PostXImageId(

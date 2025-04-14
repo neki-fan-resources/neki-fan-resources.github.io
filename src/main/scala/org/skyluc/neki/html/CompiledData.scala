@@ -161,6 +161,8 @@ object CompiledData {
   val LABEL_UPCOMING = "upcoming"
   val LABEL_DATE = "date"
 
+  val BASE_IMAGE_ASSET = "/asset/image/"
+
   var cache: Map[Id[?], ItemCompiledData] = HashMap()
   var cache2: Map[Id[?], MultiMediaCompiledData] = HashMap()
 
@@ -168,6 +170,7 @@ object CompiledData {
     // TODO: push cleanly in Id trait
     id match {
       case a: AlbumId => getAlbum(a, data)
+      case m: MediaId => getMedia(m, data)
       case s: ShowId  => getShow(s, data)
       case s: SongId  => getSong(s, data)
       case t: TourId  => getTour(t, data)
@@ -278,6 +281,21 @@ object CompiledData {
     )
   }
 
+  def compileForLocalImage(localImage: LocalImage, data: Data): MultiMediaCompiledData = {
+    MultiMediaCompiledData(
+      localImage.url(),
+      localImage.url(),
+      "Image",
+      localImage.label,
+      None,
+      localImage.publishedDate,
+      Nil,
+      LocalImage.OVERLAY_FILE,
+      true,
+      true,
+    )
+  }
+
   def compileForMedia(id: MediaId, data: Data): ItemCompiledData = {
     compileOrMissingItem(id, data.medias, data)(compileForMedia)
   }
@@ -372,6 +390,8 @@ object CompiledData {
         data.multimedia
           .get(id)
           .map {
+            case l: LocalImage =>
+              compileForLocalImage(l, data)
             case y: YouTubeShort =>
               compileForYouTubeShort(y, data)
             case y: YouTubeVideo =>

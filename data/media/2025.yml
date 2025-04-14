@@ -206,12 +206,30 @@
         description: Guitar magazine webpage
         url: https://guitarmagazine.jp/news/2025-0401-gm2505/
 
+  multimedia:
+    image:
+    - localImage:
+        media:
+          year: 2025
+          id: guitarmagazine05
+        id: article
+
   related:
   # TODO: add extra page for media
   - type: youtubeshort
     id: E91CuO-MI1A
     label: It is out
     published-date: 2025-04-12
+  - type: localImage
+    media:
+      year: 2025
+      id: guitarmagazine05
+    id: article
+    filename: image400.png
+    label: Article
+    published-date: 2025-04-12
+
+
 
   summary:
     status:

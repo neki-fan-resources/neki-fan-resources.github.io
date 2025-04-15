@@ -13,6 +13,8 @@ multimedia:
   live:
   - youtubeshort: iQQoVDhI0E0
   - youtubeshort: EkRipluPvVg
+  short:
+  - youtubeshort: QJzDlj_jpfE
 
 credits:
   lyricist: KawaguchiTigerYusuke, NEK!
@@ -991,3 +993,9 @@ lyrics:
       gg: After all, we are animals, woof!
 
 
+related:
+- type: youtubeshort
+  id: QJzDlj_jpfE
+  label: Rehersal
+  info: rhythm section, 1 year apart, Kanade, Cocoro
+  published-date: 2024-07-19

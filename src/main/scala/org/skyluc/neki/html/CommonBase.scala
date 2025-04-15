@@ -272,7 +272,7 @@ object CommonBase {
   // statistics
   val NAME_LOCAL = "local"
   val DATA_DOMAIN_NIFR = "neki-fan-resources.github.io"
-  val SRC_PLAUSIBLE = "https://plausible.io/js/script.outbound-links.tagged-events.js"
+  val SRC_PLAUSIBLE = "https://plausible.io/js/script.hash.outbound-links.tagged-events.js"
 
   // javascript
   val SRC_JAVASCRIPT = "/asset/javascript/main.js"

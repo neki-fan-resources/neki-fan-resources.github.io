@@ -253,6 +253,10 @@ object ChronologyOverlay {
   def generateOverlayContent(marker: MarkerCompiledData): (String, String) = {
     val content = marker.item
       .map(generateOverlayContent(_, marker.multimedia))
+      // TODO: really bad logic. Needs a way to know what type of rendering to do
+      .orElse(
+        marker.image.map(_ => generateOverlayContentBase(marker))
+      )
       .orElse(
         marker.multimedia
           .map(generateOverlayContent(_))
@@ -289,7 +293,21 @@ object ChronologyOverlay {
   }
 
   def generateOverlayContentBase(marker: MarkerCompiledData): String = {
-    HtmlRenderer.render(MediumDetails.generate(marker.label, marker.image.get, marker.imageAlt.get))
+    val elements = MediumDetails.generate(marker.label, marker.image.get, marker.imageAlt.get) ::
+      marker.multimedia
+        .map { m =>
+          List(
+            div()
+              .withClass(CLASS_CHRONOLOGY_OVERLAY_MULTIMEDIA)
+              .appendElements(
+                MultiMediaCard.generate(m)
+              )
+          )
+        }
+        .getOrElse(Nil)
+
+    elements.map(HtmlRenderer.render).mkString
+    // HtmlRenderer.render(MediumDetails.generate(marker.label, marker.image.get, marker.imageAlt.get))
   }
 
   // -------------

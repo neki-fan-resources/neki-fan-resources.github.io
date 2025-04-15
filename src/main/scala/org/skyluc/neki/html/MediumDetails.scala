@@ -7,6 +7,7 @@ object MediumDetails {
 
   def generate(label: String, coverUrl: String, coverAlt: String): Div = {
     val imgElement = img()
+      .withClass(CLASS_MEDIUM_DETAILS_COVER)
       .withClass(CLASS_MEDIUM_DETAILS_COVER_IMG)
       .withSrc(coverUrl)
       .withAlt(coverAlt)

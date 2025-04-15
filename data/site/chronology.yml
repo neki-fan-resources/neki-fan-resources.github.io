@@ -239,6 +239,12 @@ markers:
     year: 2025
     id: setallfree
   short: true
+  up: 6
+- marker: 1 year anniversary
+  date: 2025-02-10
+  image: /asset/image/logo/neki.png
+  related-multimedia:
+    youtubeshort: WI3yV-zKqMU
 - song: zerosum
   related-multimedia:
     youtubevideo: z3HM2COly2Q

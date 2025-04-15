@@ -45,14 +45,19 @@ case class BaseMarker(
     label: String,
     date: Date,
     image: String,
+    relatedMultimedia: Option[MultiMediaId],
     position: Position,
 ) extends ChronologyMarker {
   def markerCompiledData(refDay: Int, data: Data): MarkerCompiledData = {
+    val multimedia = relatedMultimedia.map { m =>
+      MultiMediaCompiledDataWithParentKey(CompiledData.getMultiMedia(m, data), Show.FROM_KEY)
+    }
     BaseMarkerCompiledData(
       label,
       date,
       Some(image),
       date.fromRefDay(refDay),
+      multimedia,
       position,
     )
   }
@@ -61,8 +66,14 @@ case class BaseMarker(
 }
 
 object BaseMarker {
-  case class BaseMarkerCompiledData(label: String, date: Date, image: Option[String], day: Int, position: Position)
-      extends MarkerCompiledData
+  case class BaseMarkerCompiledData(
+      label: String,
+      date: Date,
+      image: Option[String],
+      day: Int,
+      multimedia: Option[MultiMediaCompiledDataWithParentKey],
+      position: Position,
+  ) extends MarkerCompiledData
       with ChronologyMarker.PositionWrapper {
     val id = ID_BASE + date.toStringSafe()
     val designation = None
@@ -70,7 +81,6 @@ object BaseMarker {
     val imageAlt = Some(label)
 
     val item = None
-    val multimedia = None
     val left = true
     val short = false
     val `class` = ChronologySvg.CLASS_BASE_MARKER

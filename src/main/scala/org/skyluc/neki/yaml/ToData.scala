@@ -137,8 +137,9 @@ object ToData {
             marker.date
               .map(processDate(_, id))
               .getOrElse(Left(ParserError(id, s"No date specified for marker '$label'")))
+          rMultimedia <- relatedMultimedia
         } yield {
-          d.BaseMarker(label, date, image, position)
+          d.BaseMarker(label, date, image, rMultimedia, position)
         }
       },
       marker.show.map { show =>

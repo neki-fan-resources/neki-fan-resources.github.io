@@ -1,15 +1,14 @@
 type: site
 
 news:
+- title: next event
+  content:
+  - The whole band will guest on '78 musi-curate' on BAYFM78, on Tuesday night
+  url: /media/2025/bayfm78musicurate.html
 - title: next show
   content:
-  - NEK! next show is at the でら ROCK festival, on April 12th. They will perform at 15:30 at the 下北沢SHELTER.
-  url: /show/2025/kogaderarock.html
-- title: Natsu in Guitar magazine
-  content:
-  - Natsu is interviewed in the May issue of Guitar magazine.
-  - A summary of the interview is available.
-  url: /media/2025/guitarmagazine05.html
+  - NEK! next show is at the 革命ロジック2025 (Kakumei Logic 2025) festival, on May 5th.
+  url: /show/2025/kakumeilogic2025.html
 - title: NEK! 1ST ZEPP ONE MAN
   content:
   - NEK! will do their first Zepp show, on August 30th, at Zepp Shinjuku in Tokyo.

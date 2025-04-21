@@ -273,12 +273,12 @@ markers:
   up: -7
 - media:
     year: 2025
-    id: nack5-fantasyradio
+    id: nack5fantasyradio
   short: true
   up: -8
 - media:
     year: 2025
-    id: fm802-infinityradio
+    id: fm802infinityradio
   short: true
   up: 2
 - show:

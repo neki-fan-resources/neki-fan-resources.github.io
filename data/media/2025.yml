@@ -1,6 +1,6 @@
 - type: mediaaudio
   year: 2025
-  id: nack5-fantasyradio
+  id: nack5fantasyradio
 
   designation: radio show
   radio: NACK5
@@ -67,7 +67,7 @@
 
 - type: mediaaudio
   year: 2025
-  id: fm802-infinityradio
+  id: fm802infinityradio
 
   designation: radio show
   radio: FM802

@@ -1,20 +1,29 @@
-val scala3Version = "3.6.4"
+import Common._
 
-lazy val root = project
-  .in(file("."))
+lazy val fanResources = Project(id = "fan-resources", base = file("fan-resources"))
+
+lazy val `neki-site` = project
+  .in(file("neki-site"))
+  .settings(buildSettings)
   .settings(
-    name := "neki-fan-resources",
+    name := "neki-site",
     version := "0.1.0-SNAPSHOT",
-    scalaVersion := scala3Version,
-    scalacOptions ++= Seq("-deprecation", "-Wunused:implicits,explicits,imports,locals,params,privates"),
 
     // 2.13 compatibility
     libraryDependencies ++= Seq(
-      "com.typesafe" % "config" % "1.4.3",
-      "org.virtuslab" %% "scala-yaml" % "0.3.0",
+      "com.typesafe" % "config" % "1.4.3"
     ),
+  )
+  .dependsOn(fanResources)
+
+lazy val root = (project in file("."))
+  .aggregate(fanResources, `neki-site`)
+  .settings(buildSettings)
+  .settings(
+    Compile / mainClass := Some("org.skyluc.neki_site.Main"),
     Compile / unmanagedResourceDirectories ++= Seq(
       baseDirectory.value / "data",
       baseDirectory.value / "static",
     ),
   )
+  .dependsOn(`neki-site`)

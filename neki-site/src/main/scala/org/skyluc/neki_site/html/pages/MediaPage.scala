@@ -88,6 +88,12 @@ object MediaPage {
   val VALUE_ARTICLE = "article"
 
   def pageFor(media: Media, compilers: Compilers): Seq[SitePage] = {
+    val extraPath = if (media.multimedia.extra(media.linkedTo).isEmpty) {
+      None
+    } else {
+      Some(media.id.path.insertSecond(Common.EXTRA))
+    }
+
     val compiledData = compilers.elementDataCompiler.get(media)
 
     val mainPage = MediaPage(
@@ -113,12 +119,47 @@ object MediaPage {
         SitePage.canonicalUrlFor(media.id.path),
         media.id.path.withExtension(Common.HTML_EXTENSION),
         None,
-        None,
+        extraPath.map(SitePage.urlFor(_)),
         false,
       ),
       compilers,
     )
-
-    Seq(mainPage)
+    extraPath
+      .map { extraPath =>
+        val extraPage = MediaExtraPage(
+          media,
+          PageDescription(
+            TitleAndDescription.formattedTitle(
+              Some(compiledData.designation),
+              TitleAndDescription.EXTRA,
+              media.title(),
+              None,
+              None,
+              None,
+            ),
+            TitleAndDescription.formattedDescription(
+              Some(compiledData.designation),
+              TitleAndDescription.EXTRA,
+              media.title(),
+              None,
+              None,
+              None,
+            ),
+            SitePage.absoluteUrl(compiledData.cover.source),
+            SitePage.canonicalUrlFor(extraPath),
+            extraPath.withExtension(Common.HTML_EXTENSION),
+            None,
+            None,
+            false,
+          ),
+          compilers,
+        )
+        Seq(extraPage, mainPage)
+      }
+      .getOrElse(
+        Seq(
+          mainPage
+        )
+      )
   }
 }

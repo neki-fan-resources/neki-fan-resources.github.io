@@ -27,7 +27,9 @@ object DataCheck {
 
     val crossLinkedData = CrossLinkData.process(assetCheckedData)
 
-    (linkedErrors ++ assetErrors, crossLinkedData)
+    val listedDefinedErrors = CheckMultiMediaEntries.check(data)
+
+    (linkedErrors ++ assetErrors ++ listedDefinedErrors, crossLinkedData)
 
   }
 }

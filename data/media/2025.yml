@@ -37,6 +37,8 @@
         url: https://www.nack5.co.jp/program/fantasyradio/
 
   multimedia:
+    short:
+    - youtubeshort: 2WXwyGdDMsM
     image:
     - postXImage:
         postId: 1903452529729695755
@@ -63,6 +65,11 @@
     - id: Gmpr-0DaAAA6aKU
       label: Hika and Natsu
       info: with the show's blue ears
+  - type: youtubeshort
+    id: 2WXwyGdDMsM
+    label: On-Air
+    published-date: 2025-04-17
+    info: Hika and Natsu praising each other
     
 
 - type: mediaaudio
@@ -254,13 +261,14 @@
   designation: radio show
   radio: BAYFM78
   show: 78musi-curate
-  host: ""
+  host: 佐々木 千暁
   member:
     - Hika
     - Natsu
     - Kanade
     - Cocoro
   webpage: https://program.bayfm.co.jp/curate/
+  program: https://radiko.jp/#!/ts/BAYFM78/20250423030000
 
   description:
   - The whole band, Hika, Kanade, Natsu and Cocoro, will be guest on the show '78 musi-curate' on BAYFM78.
@@ -303,3 +311,7 @@
     image:
     - id: GpDoUyLb0AAbEYw
       label: band members
+  - type: youtubeshort
+    id: QxTlwAWRrBM
+    label: Picture taking
+    published-date: 2025-04-22

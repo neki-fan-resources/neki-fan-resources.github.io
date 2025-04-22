@@ -116,7 +116,7 @@ object MultiMediaCard {
       multimediaBlock: MultiMediaBlockCompiledData,
       fromFilter: String,
   ): Seq[BodyElement[?]] = {
-    generateSection(SECTION_MEDIA_TEXT, multimediaBlock.extra, fromFilter)
+    generateSection(SECTION_MEDIA_TEXT, multimediaBlock.extra.sortBy(_.date).reverse, fromFilter)
   }
 }
 

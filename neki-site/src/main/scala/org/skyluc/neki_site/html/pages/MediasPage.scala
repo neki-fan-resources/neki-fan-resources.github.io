@@ -21,7 +21,7 @@ class MediasPage(medias: Seq[Media], description: PageDescription, compilers: Co
   override def elementContent(): Seq[BodyElement[?]] = {
     val mainIntro = MainIntro.generate(MAIN_INTRO_CONTENT)
 
-    val compiledDataList = medias.map(compilers.elementDataCompiler.get)
+    val compiledDataList = medias.map(compilers.elementDataCompiler.get).sortBy(_.date).reverse
 
     val mediaList = MediumCard.generateList(compiledDataList)
 

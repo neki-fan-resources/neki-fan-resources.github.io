@@ -44,7 +44,7 @@ object ShowPage {
     val extraPath = if (show.multimedia.extra(show.linkedTo).isEmpty) {
       None
     } else {
-      Some(Path(Common.EXTRA).resolve(show.id.path))
+      Some(show.id.path.insertSecond(Common.EXTRA))
     }
 
     val compiledData = compilers.elementDataCompiler.get(show)

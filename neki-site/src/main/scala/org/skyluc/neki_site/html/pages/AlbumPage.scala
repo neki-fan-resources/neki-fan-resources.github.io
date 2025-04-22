@@ -2,7 +2,6 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Album
-import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.fan_resources.html.component.MultiMediaCard
@@ -54,7 +53,7 @@ object AlbumPage {
     val extraPath = if (album.multimedia.extra(album.linkedTo).isEmpty) {
       None
     } else {
-      Some(Path(Common.EXTRA).resolve(album.id.path))
+      Some(album.id.path.insertSecond(Common.EXTRA))
     }
 
     val compiledData = compilers.elementDataCompiler.get(album)

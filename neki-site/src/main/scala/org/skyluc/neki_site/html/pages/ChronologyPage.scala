@@ -1,26 +1,27 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.neki_site.data.{ChronologyPage => dChronologyPage}
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.html._
-import Html._
-import SvgElement.{text => svgText, _}
-import org.skyluc.neki_site.html.component.Defaults
-import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.Common
-import org.skyluc.fan_resources.html.component.MainIntro
-import org.skyluc.fan_resources.html.MarkerCompiledData
 import org.skyluc.fan_resources.data.Date
 import org.skyluc.fan_resources.data.Date.DateTick
-import org.skyluc.fan_resources.html.MarkerCompiledDataMarker
-import org.skyluc.fan_resources.html.MarkerCompiledDataDetails
+import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.ElementInfo
-import org.skyluc.fan_resources.html.component.MultiMediaCard
+import org.skyluc.fan_resources.html.MarkerCompiledData
+import org.skyluc.fan_resources.html.MarkerCompiledDataDetails
+import org.skyluc.fan_resources.html.MarkerCompiledDataMarker
+import org.skyluc.fan_resources.html.component.MainIntro
 import org.skyluc.fan_resources.html.component.MediumDetails
+import org.skyluc.fan_resources.html.component.MultiMediaCard
+import org.skyluc.html.*
+import org.skyluc.neki_site.data.ChronologyPage as dChronologyPage
 import org.skyluc.neki_site.html.ChronoloyMarkerProcessor
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.neki_site.html.component.Defaults
+
+import Html.*
+import SvgElement.{text as svgText, *}
 
 class ChronologyPage(
     markersCompiledData: Seq[MarkerCompiledData],
@@ -86,7 +87,7 @@ object ChronologyPage {
             None,
             None,
           ),
-          Defaults.COVER_IMAGE.source,
+          SitePage.absoluteUrl(Defaults.COVER_IMAGE.source),
           SitePage.canonicalUrlFor(PAGE_PATH),
           PAGE_PATH.withExtension(Common.HTML_EXTENSION),
           None,
@@ -349,9 +350,20 @@ object ChronologyDetails {
   }
 
   private def generateDetailsContentBasic(details: MarkerCompiledDataDetails): Seq[BodyElement[?]] = {
-    details.item.map { item =>
+    val mediumDetails = details.item.map { item =>
       MediumDetails.generate(item.label, item.cover)
-    }.toSeq
+    }
+
+    val multimedia = details.multimedia
+      .map { m =>
+        div()
+          .withClass(CLASS_CHRONOLOGY_DETAILS_MULTIMEDIA)
+          .appendElements(
+            MultiMediaCard.generate(m, details.multimediaFromKey)
+          )
+      }
+
+    Seq(mediumDetails, multimedia).flatten
   }
 
   val CLASS_CHRONOLOGY_DETAILS_MULTIMEDIA = "chronology-details-multimedia"

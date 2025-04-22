@@ -1,19 +1,19 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.neki_site.{data => d}
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.html.BodyElement
-import org.skyluc.fan_resources.Common
-import org.skyluc.neki_site.html.component.Defaults
-import org.skyluc.fan_resources.data._
-import org.skyluc.fan_resources.html.component.MediumCard
-import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.collection.LayeredData
 import org.skyluc.collection.LayeredNode
+import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.*
+import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.html.component.MainIntro
+import org.skyluc.fan_resources.html.component.MediumCard
+import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.data as d
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.neki_site.html.component.Defaults
 
 class MusicPage(musicPage: d.MusicPage, pageDescription: PageDescription, compilers: Compilers)
     extends SitePage(pageDescription, compilers) {
@@ -65,7 +65,7 @@ object MusicPage {
           None,
           None,
         ),
-        Defaults.COVER_IMAGE.source,
+        SitePage.absoluteUrl(Defaults.COVER_IMAGE.source),
         SitePage.canonicalUrlFor(PAGE_PATH),
         PAGE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

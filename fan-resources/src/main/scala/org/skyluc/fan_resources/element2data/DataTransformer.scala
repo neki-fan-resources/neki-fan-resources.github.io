@@ -24,7 +24,7 @@ object DataTransformer {
 
     val (errors, datums) = extractErrors(resultTrees)
 
-    // hacky: expand PostXImages TODO: do better ...
+    // hacky: expand PostXImages. TODO: do better ...
     val postXImages = datums.flatMap {
       case p: d.PostX =>
         p.image

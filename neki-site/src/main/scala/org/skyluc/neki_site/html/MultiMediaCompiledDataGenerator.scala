@@ -1,19 +1,35 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.fan_resources.data.{Processor => _, _}
-import org.skyluc.neki_site.data._
-import org.skyluc.fan_resources.html.MultiMediaCompiledData
-import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
-import org.skyluc.fan_resources.html.Url
-import org.skyluc.fan_resources.html.ImageWithOverlayCompiledData
 import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.{Processor as _, *}
 import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.ImageWithOverlayCompiledData
+import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
+import org.skyluc.fan_resources.html.MultiMediaCompiledData
+import org.skyluc.fan_resources.html.Url
+import org.skyluc.neki_site.data.*
 
 class MultiMediaCompiledDataGenerator(compilers: Compilers) extends Processor[MultiMediaCompiledData] {
 
   import MultiMediaCompiledDataGenerator._
 
   // TODO: add caching ?
+
+  def get(id: Id[?]): MultiMediaCompiledData = {
+    compilers.data.all.get(id).map(get).getOrElse(MISSING_COMPILED_DATA)
+  }
+
+  def get(multimediaBlock: MultiMediaBlock, linkedTo: Seq[Id[?]]): MultiMediaBlockCompiledData = {
+    MultiMediaBlockCompiledData(
+      multimediaBlock.video.map(id => get(compilers.data.all(id))),
+      multimediaBlock.live.map(id => get(compilers.data.all(id))),
+      multimediaBlock.concert.map(id => get(compilers.data.all(id))),
+      multimediaBlock.short.map(id => get(compilers.data.all(id))),
+      multimediaBlock.image.map(id => get(compilers.data.all(id))),
+      multimediaBlock.additional.map(id => get(compilers.data.all(id))),
+      multimediaBlock.extra(linkedTo).map(id => get(compilers.data.all(id))),
+    )
+  }
 
   def get(datum: Datum[?]): MultiMediaCompiledData = {
     datum.process(this)
@@ -31,22 +47,6 @@ class MultiMediaCompiledDataGenerator(compilers: Compilers) extends Processor[Mu
   override def processShowMarker(showMarker: ShowMarker): MultiMediaCompiledData = ???
 
   override def processSongMarker(songMarker: SongMarker): MultiMediaCompiledData = ???
-
-  def get(id: Id[?]): MultiMediaCompiledData = {
-    get(compilers.data.all(id))
-  }
-
-  def get(multimediaBlock: MultiMediaBlock, linkedTo: Seq[Id[?]]): MultiMediaBlockCompiledData = {
-    MultiMediaBlockCompiledData(
-      multimediaBlock.video.map(id => get(compilers.data.all(id))),
-      multimediaBlock.live.map(id => get(compilers.data.all(id))),
-      multimediaBlock.concert.map(id => get(compilers.data.all(id))),
-      multimediaBlock.short.map(id => get(compilers.data.all(id))),
-      multimediaBlock.image.map(id => get(compilers.data.all(id))),
-      multimediaBlock.additional.map(id => get(compilers.data.all(id))),
-      multimediaBlock.extra(linkedTo).map(id => get(compilers.data.all(id))),
-    )
-  }
 
   override def processAlbum(album: Album): MultiMediaCompiledData = ???
 
@@ -227,5 +227,25 @@ object MultiMediaCompiledDataGenerator {
 
   val OVERLAY_LOCAL_IMAGE_SOURCE = Url(OVERLAY_PATH.resolve("empty.png"))
   val OVERLAY_LOCAL_IMAGE_ALT = "empty"
+
+  val MISSING_URL = Url("/404")
+  val MISSING_IMAGE_URL = Url(CoverImage.BASE_IMAGE_ASSET_PATH.resolve(Path("site", "manekineko-200px.png")))
+
+  val MISSING_COMPILED_DATA = MultiMediaCompiledData(
+    Common.SPACE,
+    Common.MISSING,
+    Date(2000, 1, 1),
+    ImageWithOverlayCompiledData(
+      MISSING_IMAGE_URL,
+      OVERLAY_LOCAL_IMAGE_SOURCE,
+      Common.MISSING,
+      OVERLAY_LOCAL_IMAGE_ALT,
+      true,
+    ),
+    None,
+    Nil,
+    false,
+    MISSING_URL,
+  )
 
 }

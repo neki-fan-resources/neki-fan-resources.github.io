@@ -1,17 +1,19 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.fan_resources.data.{Processor => _, _}
-import org.skyluc.neki_site.data._
-import org.skyluc.fan_resources.html.MarkerCompiledData
-import org.skyluc.fan_resources.html.MarkerCompiledDataMarker
-import org.skyluc.fan_resources.html.ImageCompiledData
-import org.skyluc.neki_site.html.pages.ChronologySvg
-import org.skyluc.fan_resources.html.MarkerCompiledDataDetails
-import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.{Processor as _, *}
+import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.ImageCompiledData
+import org.skyluc.fan_resources.html.MarkerCompiledData
+import org.skyluc.fan_resources.html.MarkerCompiledDataDetails
+import org.skyluc.fan_resources.html.MarkerCompiledDataMarker
 import org.skyluc.fan_resources.html.Url
+import org.skyluc.neki_site.data.*
+import org.skyluc.neki_site.html.pages.ChronologySvg
 
 class ChronoloyMarkerProcessor(refDay: Int, compilers: Compilers) extends Processor[MarkerCompiledData] {
+
+  val VALUE_RELEASE = "Release"
 
   override def processAlbum(album: Album): MarkerCompiledData = ???
 
@@ -24,7 +26,7 @@ class ChronoloyMarkerProcessor(refDay: Int, compilers: Compilers) extends Proces
       MarkerCompiledDataMarker(
         Some(albumCompiledData.designation),
         albumCompiledData.shortLabel.getOrElse(albumCompiledData.label),
-        albumCompiledData.sublabel,
+        Some(VALUE_RELEASE),
         albumCompiledData.cover,
         albumCompiledData.date.fromRefDay(refDay),
         ChronologySvg.CLASS_ALBUM_MARKER,
@@ -198,10 +200,10 @@ class ChronoloyMarkerProcessor(refDay: Int, compilers: Compilers) extends Proces
       MarkerCompiledDataMarker(
         Some(songCompiledData.designation),
         songCompiledData.shortLabel.getOrElse(songCompiledData.label),
-        songCompiledData.sublabel,
+        Some(VALUE_RELEASE),
         songCompiledData.cover,
         songCompiledData.date.fromRefDay(refDay),
-        ChronologySvg.CLASS_SHOW_MARKER,
+        ChronologySvg.CLASS_SONG_MARKER,
         false,
         false,
         songMarker.position.up,

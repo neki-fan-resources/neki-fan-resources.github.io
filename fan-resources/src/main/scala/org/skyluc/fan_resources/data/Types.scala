@@ -36,6 +36,15 @@ case class Path(
     }
   }
 
+  def insertSecond(segment: String): Path = {
+    segments match {
+      case head :: tail =>
+        Path(head :: segment :: tail)
+      case Nil =>
+        Path(List(segment))
+    }
+  }
+
   def resolve(segment: String): Path = {
     Path(segments :+ segment)
   }

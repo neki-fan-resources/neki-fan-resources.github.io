@@ -1,13 +1,13 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.fan_resources.data._
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.html.BodyElement
 import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.*
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MultiMediaCard
+import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 class ShowPage(show: Show, description: PageDescription, compilers: Compilers)
@@ -68,7 +68,7 @@ object ShowPage {
           show.shortname,
           None,
         ),
-        compiledData.cover.source,
+        SitePage.absoluteUrl(compiledData.cover.source),
         SitePage.canonicalUrlFor(show.id.path),
         show.id.path.withExtension(Common.HTML_EXTENSION),
         None,
@@ -99,7 +99,7 @@ object ShowPage {
               show.shortname,
               None,
             ),
-            compiledData.cover.source,
+            SitePage.absoluteUrl(compiledData.cover.source),
             SitePage.canonicalUrlFor(extraPath),
             extraPath.withExtension(Common.HTML_EXTENSION),
             None,

@@ -1,37 +1,29 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.fan_resources.data.{Processor => _, _}
-import org.skyluc.neki_site.data._
-import org.skyluc.fan_resources.html.ElementCompiledData
-import scala.collection.mutable.HashMap
-import org.skyluc.neki_site.html.pages.SongPage
-import org.skyluc.fan_resources.html.ElementInfo
 import org.skyluc.fan_resources.Common
-import org.skyluc.neki_site.html.pages.ShowPage
+import org.skyluc.fan_resources.data.{Processor as _, *}
+import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.ElementInfo
+import org.skyluc.fan_resources.html.ImageCompiledData
 import org.skyluc.fan_resources.html.Url
-import org.skyluc.neki_site.html.pages.TourPage
+import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.pages.MediaPage
+import org.skyluc.neki_site.html.pages.ShowPage
+import org.skyluc.neki_site.html.pages.SongPage
+import org.skyluc.neki_site.html.pages.TourPage
+
+import scala.collection.mutable.HashMap
 
 class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[ElementCompiledData] {
 
-  override def processAlbumMarker(albumMarker: AlbumMarker): ElementCompiledData = ???
-
-  override def processBaseMarker(baseMarker: BaseMarker): ElementCompiledData = ???
-
-  override def processMediaMarker(mediaMarker: MediaMarker): ElementCompiledData = ???
-
-  override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): ElementCompiledData = ???
-
-  override def processShowMarker(showMarker: ShowMarker): ElementCompiledData = ???
-
-  override def processSongMarker(songMarker: SongMarker): ElementCompiledData = ???
+  import ElementCompiledDataGenerator._
 
   val cache = HashMap[Id[?], ElementCompiledData]()
 
   def get(id: Id[?]): ElementCompiledData = {
     cache.getOrElseUpdate(
       id,
-      compilers.data.all(id).process(this),
+      compilers.data.all.get(id).map(_.process(this)).getOrElse(MISSING_COMPILED_DATA),
     )
   }
 
@@ -40,6 +32,43 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
       element.id,
       element.process(this),
     )
+  }
+
+  override def processAlbumMarker(albumMarker: AlbumMarker): ElementCompiledData = {
+    markerCompiledData(albumMarker.id.albumId)
+  }
+
+  override def processBaseMarker(baseMarker: BaseMarker): ElementCompiledData = {
+    ElementCompiledData(
+      ChronologyPage.MARKER_DESIGNATION,
+      baseMarker.label,
+      None,
+      None,
+      None,
+      None,
+      baseMarker.date,
+      None,
+      MISSING_IMAGE,
+      Nil,
+      MISSING_URL,
+      ChronologyMarker.FROM_KEY,
+    )
+  }
+
+  override def processMediaMarker(mediaMarker: MediaMarker): ElementCompiledData = {
+    markerCompiledData(mediaMarker.id.mediaId)
+  }
+
+  override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): ElementCompiledData = {
+    markerCompiledData(multiMediaMarker.id.multimediaId)
+  }
+
+  override def processShowMarker(showMarker: ShowMarker): ElementCompiledData = {
+    markerCompiledData(showMarker.id.showId)
+  }
+
+  override def processSongMarker(songMarker: SongMarker): ElementCompiledData = {
+    markerCompiledData(songMarker.id.songId)
   }
 
   override def processAlbum(album: Album): ElementCompiledData = {
@@ -271,7 +300,22 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
 
   override def processYouTubeShort(youtubeShort: YouTubeShort): ElementCompiledData = ???
 
-  override def processYouTubeVideo(youtubeVideo: YouTubeVideo): ElementCompiledData = ???
+  override def processYouTubeVideo(youtubeVideo: YouTubeVideo): ElementCompiledData = {
+    ElementCompiledData(
+      MultiMediaCompiledDataGenerator.DESIGNATION_YOUTUBE_VIDEO,
+      youtubeVideo.label,
+      None,
+      None,
+      None,
+      None,
+      youtubeVideo.publishedDate,
+      None,
+      MISSING_IMAGE,
+      Nil,
+      MISSING_URL,
+      MULTIMEDIA_FROM_KEY,
+    )
+  }
 
   override def processZaiko(zaiko: Zaiko): ElementCompiledData = ???
 
@@ -282,5 +326,49 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
   override def processSite(site: Site): ElementCompiledData = ???
 
   override def processShowsPage(showsPage: ShowsPage): ElementCompiledData = ???
+
+  private def markerCompiledData(parentId: Id[?]): ElementCompiledData = {
+    val parent = compilers.elementDataCompiler.get(parentId)
+
+    ElementCompiledData(
+      ChronologyPage.MARKER_DESIGNATION,
+      s"marker for ${parentId}",
+      None,
+      None,
+      Some(parent),
+      None,
+      parent.date,
+      None,
+      parent.cover,
+      Nil,
+      parent.targetUrl,
+      ChronologyMarker.FROM_KEY,
+    )
+  }
+
+}
+
+object ElementCompiledDataGenerator {
+
+  val MULTIMEDIA_FROM_KEY = "multimedia"
+
+  val MISSING_URL = Url("/404")
+  val MISSING_IMAGE_URL = Url(CoverImage.BASE_IMAGE_ASSET_PATH.resolve(Path("site", "manekineko-200px.png")))
+  val MISSING_IMAGE = ImageCompiledData(MISSING_IMAGE_URL, Common.MISSING, None)
+
+  val MISSING_COMPILED_DATA = ElementCompiledData(
+    Common.SPACE,
+    Common.MISSING,
+    None,
+    None,
+    None,
+    None,
+    Date(2000, 1, 1),
+    None,
+    MISSING_IMAGE,
+    Nil,
+    MISSING_URL,
+    Common.EMPTY,
+  )
 
 }

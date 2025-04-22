@@ -1,18 +1,18 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.fan_resources.{html => fr}
-import fr.component.{Head => HeadComponents}
-import org.skyluc.fan_resources.data.Path
-import org.skyluc.html._
-import fr.component.OpenGraphSection
-import fr.Url
-import org.skyluc.neki_site.Config
-import org.skyluc.neki_site.html.component.NavigationBar
-import org.skyluc.neki_site.html.component.Footer
-import fr.component.ExtraSection
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Id
-import org.skyluc.html.Html.script
+import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.html as fr
+import org.skyluc.html.*
+import org.skyluc.neki_site.Config
+import org.skyluc.neki_site.html.component.Footer
+import org.skyluc.neki_site.html.component.NavigationBar
+
+import fr.component.Head as HeadComponents
+import fr.component.OpenGraphSection
+import fr.Url
+import fr.component.ExtraSection
 
 abstract class SitePage(override val description: PageDescription, compilers: Compilers) extends fr.SitePage {
 
@@ -21,6 +21,8 @@ abstract class SitePage(override val description: PageDescription, compilers: Co
   // override val description: PageDescription
 
   def elementContent(): Seq[BodyElement[?]]
+
+  override def javascriptFiles(): Seq[Url] = JAVASCRIPT_FILES
 
   override def headContent(): Seq[HeadElement[?]] = {
     Seq(
@@ -45,9 +47,7 @@ abstract class SitePage(override val description: PageDescription, compilers: Co
 
   override def mainContent(): Seq[BodyElement[?]] = {
     val extraSection = description.extraPage.map(ExtraSection.generate(_)).getOrElse(Nil)
-    val scripts = script().withSrc(SRC_JAVASCRIPT)
-    Seq(scripts)
-      ++ elementContent()
+    elementContent()
       ++ extraSection
   }
 
@@ -78,11 +78,24 @@ object SitePage {
   val MICROSOFT_VERIFICATION_CODE = "B6C2BBE1BBDED01F740330EB10DEAEF8"
 
   // javascript
-  val SRC_JAVASCRIPT = "/asset/javascript/main.js"
+  private val SRC_JAVASCRIPT = "/asset/javascript/main.js"
+  val JAVASCRIPT_FILES = Seq(Url(SRC_JAVASCRIPT))
 
   val DARK_PATH = Path("dark")
 
   def urlFor(path: Path): Url = Url(path.withExtension(Common.HTML_EXTENSION))
+
+  // TODO: this is quite ugly
+  def absoluteUrl(url: Url): Url =
+    if (url.text.startsWith("http")) {
+      url
+    } else {
+      if (url.text.startsWith("/")) {
+        Url(Config.current.baseUrl, url.text.substring(1))
+      } else {
+        Url(Config.current.baseUrl, url.text)
+      }
+    }
 
   def canonicalUrlFor(path: Path): Url = Url(Config.current.baseUrl, path.withExtension(Common.HTML_EXTENSION))
 

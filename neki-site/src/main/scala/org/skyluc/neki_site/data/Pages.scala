@@ -14,12 +14,12 @@ sealed trait Page extends fr.Element[Page] {
 case class MusicPage(
     id: PageId,
     music: List[fr.AlbumId | fr.SongId],
+    linkedTo: Seq[fr.Id[?]],
     hasError: Boolean = false,
 ) extends Page
     with WithProcessor {
-  val linkedTo: Seq[fr.Id[?]] = Nil
   override def errored(): MusicPage = copy(hasError = true)
-  override def withLinkedTo(id: fr.Id[?]*): MusicPage = ???
+  override def withLinkedTo(id: fr.Id[?]*): MusicPage = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processMusicPage(this)
@@ -33,12 +33,12 @@ case class MusicPage(
 case class ShowsPage(
     id: PageId,
     shows: List[fr.ShowId | fr.TourId],
+    linkedTo: Seq[fr.Id[?]],
     hasError: Boolean = false,
 ) extends Page
     with WithProcessor {
-  val linkedTo: Seq[fr.Id[?]] = Nil
   override def errored(): ShowsPage = copy(hasError = true)
-  override def withLinkedTo(id: fr.Id[?]*): ShowsPage = ???
+  override def withLinkedTo(id: fr.Id[?]*): ShowsPage = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processShowsPage(this)
@@ -66,6 +66,10 @@ case class ChronologyPage(
     processor.processChronologyPage(this)
   }
 
+}
+
+object ChronologyPage {
+  val MARKER_DESIGNATION = "marker"
 }
 
 object Pages {

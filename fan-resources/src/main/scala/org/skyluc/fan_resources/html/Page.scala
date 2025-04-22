@@ -53,6 +53,8 @@ trait PageDescription {
 
 abstract class SitePage extends HtmlPage {
 
+  def javascriptFiles(): Seq[Url]
+
   def headContent(): Seq[HeadElement[?]]
 
   def headerContent(): Seq[BodyElement[?]]
@@ -63,20 +65,27 @@ abstract class SitePage extends HtmlPage {
 
   override def htmlContent(): Html = {
     html()
+      .withLang(Common.VALUE_LOCALE)
       .withHead(
         head().appendElements(
           headContent()*
         )
       )
       .withBody(
-        body().appendElements(
-          HeaderMainOverlayFooterLayout.generate(
-            description.title,
-            headerContent(),
-            mainContent(),
-            footerContent(),
-          )*
-        )
+        body()
+          .appendElements(
+            javascriptFiles().map { file =>
+              script().withSrc(file.toString())
+            }*
+          )
+          .appendElements(
+            HeaderMainOverlayFooterLayout.generate(
+              description.title,
+              headerContent(),
+              mainContent(),
+              footerContent(),
+            )*
+          )
       )
   }
 

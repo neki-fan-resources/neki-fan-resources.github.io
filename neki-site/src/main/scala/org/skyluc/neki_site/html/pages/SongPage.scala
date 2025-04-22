@@ -1,15 +1,15 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.fan_resources.data.Song
-import org.skyluc.html._
-import org.skyluc.fan_resources.html.component.LargeDetails
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.fan_resources.html.component.MultiMediaCard
-import org.skyluc.fan_resources.html.component.LyricsSection
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.data.Song
+import org.skyluc.fan_resources.html.component.LargeDetails
+import org.skyluc.fan_resources.html.component.LyricsSection
+import org.skyluc.fan_resources.html.component.MultiMediaCard
+import org.skyluc.html.*
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 class SongPage(song: Song, description: PageDescription, compilers: Compilers)
@@ -48,7 +48,7 @@ object SongPage {
     val extraPath = if (song.multimedia.extra(song.linkedTo).isEmpty) {
       None
     } else {
-      Some(Path(Common.EXTRA).resolve(song.id.path))
+      Some(song.id.path.insertSecond(Common.EXTRA))
     }
 
     val compiledData = compilers.elementDataCompiler.get(song)
@@ -75,7 +75,7 @@ object SongPage {
           None,
           None,
         ),
-        compiledData.cover.source,
+        SitePage.absoluteUrl(compiledData.cover.source),
         SitePage.canonicalUrlFor(pagePath),
         pagePath.withExtension(Common.HTML_EXTENSION),
         oppositePagePath.map(SitePage.urlFor(_)),
@@ -106,7 +106,7 @@ object SongPage {
               None,
               None,
             ),
-            compiledData.cover.source,
+            SitePage.absoluteUrl(compiledData.cover.source),
             SitePage.canonicalUrlFor(extraPath),
             extraPath.withExtension(Common.HTML_EXTENSION),
             None,

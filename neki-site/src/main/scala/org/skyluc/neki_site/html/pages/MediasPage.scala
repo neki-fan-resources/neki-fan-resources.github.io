@@ -1,16 +1,16 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.fan_resources.data.Media
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.html.BodyElement
-import org.skyluc.neki_site.html.component.Defaults
-import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.Media
+import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.component.MainIntro
 import org.skyluc.fan_resources.html.component.MediumCard
+import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.neki_site.html.component.Defaults
 
 // TODO: pass the compiled data version
 class MediasPage(medias: Seq[Media], description: PageDescription, compilers: Compilers)
@@ -62,7 +62,7 @@ object MediasPage {
           None,
           None,
         ),
-        Defaults.COVER_IMAGE.source,
+        SitePage.absoluteUrl(Defaults.COVER_IMAGE.source),
         SitePage.canonicalUrlFor(PAGE_PATH),
         PAGE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

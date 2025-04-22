@@ -8,13 +8,10 @@ case class Chronology(
 
 trait ChronologyMarkerId extends Id[ChronologyMarker]
 
-trait ChronologyMarker extends Datum[ChronologyMarker] {
+trait ChronologyMarker extends Datum[ChronologyMarker] {}
 
-  override val hasError: Boolean = false
-  override def errored(): ChronologyMarker = this
-  // TODO: implement bellow
-  override val linkedTo: Seq[Id[?]] = Nil
-  override def withLinkedTo(id: Id[?]*): ChronologyMarker = this
+object ChronologyMarker {
+  val FROM_KEY = "marker"
 }
 
 case class BaseMarkerId(id: String) extends ChronologyMarkerId {
@@ -37,10 +34,17 @@ case class BaseMarker(
     id: BaseMarkerId,
     label: String,
     date: Date,
+    // TODO: use local image definition ?
     image: String,
     relatedMultimedia: Option[MultiMediaId],
     position: Position,
+    hasError: Boolean = false,
+    linkedTo: Seq[Id[?]] = Nil,
 ) extends ChronologyMarker {
+
+  override def errored(): BaseMarker = copy(hasError = true)
+
+  override def withLinkedTo(id: Id[?]*): BaseMarker = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processBaseMarker(this)
@@ -66,7 +70,13 @@ case class MediaMarker(
     id: MediaMarkerId,
     short: Boolean,
     position: Position,
+    hasError: Boolean = false,
+    linkedTo: Seq[Id[?]] = Nil,
 ) extends ChronologyMarker {
+
+  override def errored(): MediaMarker = copy(hasError = true)
+
+  override def withLinkedTo(id: Id[?]*): MediaMarker = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processMediaMarker(this)
@@ -90,7 +100,13 @@ case class ShowMarker(
     short: Boolean,
     relatedMultimedia: Option[MultiMediaId],
     position: Position,
+    hasError: Boolean = false,
+    linkedTo: Seq[Id[?]] = Nil,
 ) extends ChronologyMarker {
+
+  override def errored(): ShowMarker = copy(hasError = true)
+
+  override def withLinkedTo(id: Id[?]*): ShowMarker = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processShowMarker(this)
@@ -114,7 +130,13 @@ case class SongMarker(
     id: SongMarkerId,
     relatedMultimedia: Option[MultiMediaId],
     position: Position,
+    hasError: Boolean = false,
+    linkedTo: Seq[Id[?]] = Nil,
 ) extends ChronologyMarker {
+
+  override def errored(): SongMarker = copy(hasError = true)
+
+  override def withLinkedTo(id: Id[?]*): SongMarker = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processSongMarker(this)
@@ -140,7 +162,13 @@ case class AlbumMarkerId(albumId: AlbumId) extends ChronologyMarkerId {
 case class AlbumMarker(
     id: AlbumMarkerId,
     position: Position,
+    hasError: Boolean = false,
+    linkedTo: Seq[Id[?]] = Nil,
 ) extends ChronologyMarker {
+
+  override def errored(): AlbumMarker = copy(hasError = true)
+
+  override def withLinkedTo(id: Id[?]*): AlbumMarker = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processAlbumMarker(this)
@@ -166,7 +194,13 @@ case class MultiMediaMarker(
     id: MultiMediaMarkerId,
     parentKey: String,
     position: Position,
+    hasError: Boolean = false,
+    linkedTo: Seq[Id[?]] = Nil,
 ) extends ChronologyMarker {
+
+  override def errored(): MultiMediaMarker = copy(hasError = true)
+
+  override def withLinkedTo(id: Id[?]*): MultiMediaMarker = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processMultiMediaMarker(this)

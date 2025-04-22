@@ -66,7 +66,7 @@ object ElementToData extends fr.ElementToData with Processor[ToDataError, Datum[
     for {
       musicIds <- throughList(musicPage.music, id)(processMusicId)
     } yield {
-      d.MusicPage(id, musicIds)
+      d.MusicPage(id, musicIds, Nil)
     }
   }
 
@@ -92,7 +92,7 @@ object ElementToData extends fr.ElementToData with Processor[ToDataError, Datum[
     for {
       showsIds <- throughList(showsPage.shows, id)(toShowOrTourId)
     } yield {
-      d.ShowsPage(id, showsIds)
+      d.ShowsPage(id, showsIds, Nil)
     }
   }
 

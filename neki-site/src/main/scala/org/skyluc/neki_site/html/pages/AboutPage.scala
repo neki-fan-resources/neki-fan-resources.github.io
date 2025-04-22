@@ -1,17 +1,17 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.html.BodyElement
-import org.skyluc.neki_site.html.component.Defaults
-import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.Common
-import org.skyluc.html._
-import Html._
+import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.fan_resources.html.component.SocialMediaCard
+import org.skyluc.html.*
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.neki_site.html.component.Defaults
+
+import Html.*
 
 class AboutPage(description: PageDescription, compilers: Compilers) extends SitePage(description, compilers) {
 
@@ -178,7 +178,7 @@ object AboutPage {
           None,
           None,
         ),
-        Defaults.COVER_IMAGE.source,
+        SitePage.absoluteUrl(Defaults.COVER_IMAGE.source),
         SitePage.canonicalUrlFor(PAGE_PATH),
         PAGE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

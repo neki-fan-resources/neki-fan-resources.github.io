@@ -1,55 +1,55 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.neki_site.data.Processor
+import org.skyluc.fan_resources.data.Album
+import org.skyluc.fan_resources.data.AlbumMarker
+import org.skyluc.fan_resources.data.BaseMarker
+import org.skyluc.fan_resources.data.Credits
 import org.skyluc.fan_resources.data.Datum
-import org.skyluc.fan_resources.data.Source
-import org.skyluc.neki_site.data.ShowsPage
-import org.skyluc.fan_resources.data.MediaWritten
+import org.skyluc.fan_resources.data.FileCoverImage
 import org.skyluc.fan_resources.data.LocalImage
-import org.skyluc.fan_resources.data.YouTubeShort
+import org.skyluc.fan_resources.data.Lyrics
+import org.skyluc.fan_resources.data.MediaAudio
+import org.skyluc.fan_resources.data.MediaMarker
+import org.skyluc.fan_resources.data.MediaWritten
+import org.skyluc.fan_resources.data.MultiMediaMarker
 import org.skyluc.fan_resources.data.PostX
-import org.skyluc.fan_resources.data.YouTubeVideo
+import org.skyluc.fan_resources.data.PostXImage
+import org.skyluc.fan_resources.data.Show
+import org.skyluc.fan_resources.data.ShowMarker
+import org.skyluc.fan_resources.data.Song
+import org.skyluc.fan_resources.data.SongMarker
+import org.skyluc.fan_resources.data.Source
 import org.skyluc.fan_resources.data.Tour
+import org.skyluc.fan_resources.data.YouTubeShort
+import org.skyluc.fan_resources.data.YouTubeVideo
+import org.skyluc.fan_resources.data.Zaiko
 import org.skyluc.neki_site.data.ChronologyPage
+import org.skyluc.neki_site.data.MusicPage
+import org.skyluc.neki_site.data.Processor
+import org.skyluc.neki_site.data.ShowsPage
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.SourcesExtractor.DatumEntry
-import org.skyluc.neki_site.data.MusicPage
-import org.skyluc.fan_resources.data.Song
-import org.skyluc.fan_resources.data.Show
-import org.skyluc.fan_resources.data.Album
-import org.skyluc.fan_resources.data.PostXImage
-import org.skyluc.fan_resources.data.Zaiko
-import org.skyluc.fan_resources.data.MediaAudio
-import org.skyluc.neki_site.html.pages.SourcesPage.SourceCategory
-import org.skyluc.neki_site.html.pages.SourcesPage.SourceItem
-import org.skyluc.neki_site.html.pages.SourcesPage.SourceEntry
-import org.skyluc.fan_resources.data.FileCoverImage
 import org.skyluc.neki_site.html.pages.ShowPage
-import org.skyluc.fan_resources.data.Credits
 import org.skyluc.neki_site.html.pages.SongPage
-import org.skyluc.fan_resources.data.Lyrics
+import org.skyluc.neki_site.html.pages.SourcesPage.SourceCategory
+import org.skyluc.neki_site.html.pages.SourcesPage.SourceEntry
+import org.skyluc.neki_site.html.pages.SourcesPage.SourceItem
 import org.skyluc.neki_site.html.pages.TourPage
-import org.skyluc.fan_resources.data.BaseMarker
-import org.skyluc.fan_resources.data.AlbumMarker
-import org.skyluc.fan_resources.data.MultiMediaMarker
-import org.skyluc.fan_resources.data.ShowMarker
-import org.skyluc.fan_resources.data.SongMarker
-import org.skyluc.fan_resources.data.MediaMarker
 
 object SourcesExtractor extends Processor[Option[DatumEntry]] {
 
-  override def processAlbumMarker(albumMarker: AlbumMarker): Option[DatumEntry] = ???
+  override def processAlbumMarker(albumMarker: AlbumMarker): Option[DatumEntry] = None
 
   // TODO: implement if local image
-  override def processBaseMarker(baseMarker: BaseMarker): Option[DatumEntry] = ???
+  override def processBaseMarker(baseMarker: BaseMarker): Option[DatumEntry] = None
 
-  override def processMediaMarker(mediaMarker: MediaMarker): Option[DatumEntry] = ???
+  override def processMediaMarker(mediaMarker: MediaMarker): Option[DatumEntry] = None
 
-  override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Option[DatumEntry] = ???
+  override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Option[DatumEntry] = None
 
-  override def processShowMarker(showMarker: ShowMarker): Option[DatumEntry] = ???
+  override def processShowMarker(showMarker: ShowMarker): Option[DatumEntry] = None
 
-  override def processSongMarker(songMarker: SongMarker): Option[DatumEntry] = ???
+  override def processSongMarker(songMarker: SongMarker): Option[DatumEntry] = None
 
   override def processChronologyPage(chronologyPage: ChronologyPage): Option[DatumEntry] = None
 

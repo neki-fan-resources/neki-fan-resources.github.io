@@ -1,5 +1,6 @@
 package org.skyluc.neki_site.html
 
+import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.neki_site.Config
@@ -22,10 +23,9 @@ case class PageDescription(
 
   val ogType: String = VALUE_TYPE
   val logo: Url = Url(Config.current.baseUrl, "manekineko-512px.png")
-  val locale: String = VALUE_LOCALE
+  val locale: String = Common.VALUE_LOCALE
 }
 
 object PageDescription {
   val VALUE_TYPE = "website"
-  val VALUE_LOCALE = "en_US"
 }

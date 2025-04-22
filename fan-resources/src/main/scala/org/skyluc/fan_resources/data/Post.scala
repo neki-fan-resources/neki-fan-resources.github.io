@@ -53,10 +53,6 @@ case class PostXImage(
 
   import PostX._
 
-  def url(): String = {
-    IMAGE_BASE_URL_1 + id + IMAGE_BASE_URL_2
-  }
-
   override def process[T](processor: Processor[T]): T =
     processor.processPostXImage(this)
 

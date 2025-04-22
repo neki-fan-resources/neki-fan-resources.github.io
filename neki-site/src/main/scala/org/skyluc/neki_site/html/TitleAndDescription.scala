@@ -98,7 +98,7 @@ object TitleAndDescription {
   ): Seq[String] = {
     val designationStr = designation
       .map { d =>
-        SEPARATOR + d + designationSuffix
+        SEPARATOR + d.capitalize + designationSuffix
           .map { ds =>
             SPACE + ds
           }
@@ -118,11 +118,4 @@ object TitleAndDescription {
         .getOrElse(Nil)
   }
 
-  // titles
-  // 令現少女 (REIGEN GIRL) - Song - NEK! - NEK! Fan Resources
-  // ents “Be FUNKY!!” MINAMI WHEEL 2024 - Show - NEK! - NEK! Fan Resources
-
-  // descriptions
-  // 令現少女 (REIGEN GIRL) - Song - NEK! - NEK! Fan Resources. Resources around the band NEK!. Lyrics, videos, live, concerts, history.
-  // ents “Be FUNKY!!” MINAMI WHEEL 2024 - Show - NEK! - NEK! Fan Resources. Resources around the band NEK!. Eggs presents “Be FUNKY!!” MINAMI WHEEL 2024.
 }

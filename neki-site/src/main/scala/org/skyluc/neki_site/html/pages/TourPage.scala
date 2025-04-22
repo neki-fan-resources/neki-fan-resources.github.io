@@ -1,14 +1,14 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.fan_resources.data.Tour
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.html.BodyElement
-import org.skyluc.fan_resources.html.component.SectionHeader
-import org.skyluc.fan_resources.html.component.MediumCard
-import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.Tour
+import org.skyluc.fan_resources.html.component.LargeDetails
+import org.skyluc.fan_resources.html.component.MediumCard
+import org.skyluc.fan_resources.html.component.SectionHeader
+import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 class TourPage(tour: Tour, description: PageDescription, compilers: Compilers)
@@ -70,7 +70,7 @@ object TourPage {
             tour.shortname,
             None,
           ),
-          compiledData.cover.source,
+          SitePage.absoluteUrl(compiledData.cover.source),
           SitePage.canonicalUrlFor(tour.id.path),
           tour.id.path.withExtension(Common.HTML_EXTENSION),
           None,

@@ -1,17 +1,18 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.fan_resources.data.Media
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.html._
-import Html._
 import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.Media
+import org.skyluc.fan_resources.data.SummaryItem
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.fan_resources.html.component.SectionHeader
-import org.skyluc.fan_resources.data.SummaryItem
+import org.skyluc.html.*
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+
+import Html.*
 
 class MediaPage(media: Media, description: PageDescription, compilers: Compilers)
     extends SitePage(description, compilers) {
@@ -108,7 +109,7 @@ object MediaPage {
           None,
           None,
         ),
-        compiledData.cover.source,
+        SitePage.absoluteUrl(compiledData.cover.source),
         SitePage.canonicalUrlFor(media.id.path),
         media.id.path.withExtension(Common.HTML_EXTENSION),
         None,

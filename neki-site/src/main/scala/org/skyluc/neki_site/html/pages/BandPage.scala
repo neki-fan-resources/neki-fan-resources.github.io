@@ -1,20 +1,20 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.html.BodyElement
-import org.skyluc.neki_site.data.Member
-import org.skyluc.html._
-import Html._
-import org.skyluc.neki_site.data.SocialMedia
-import org.skyluc.fan_resources.html.component.SocialMediaCard
+import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.Url
-import org.skyluc.neki_site.html.NewsBlock
+import org.skyluc.fan_resources.html.component.SocialMediaCard
+import org.skyluc.html.*
+import org.skyluc.neki_site.data.Member
 import org.skyluc.neki_site.data.Site
-import org.skyluc.fan_resources.Common
+import org.skyluc.neki_site.data.SocialMedia
+import org.skyluc.neki_site.html.Compilers
+import org.skyluc.neki_site.html.NewsBlock
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+
+import Html.*
 
 class BandPage(site: Site, description: PageDescription, compilers: Compilers)
     extends SitePage(description, compilers) {
@@ -157,7 +157,7 @@ object BandPage {
           None,
           None,
         ),
-        URL_OG_IMAGE,
+        SitePage.absoluteUrl(URL_OG_IMAGE),
         SitePage.canonicalUrlFor(PAGE_PATH),
         FILE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

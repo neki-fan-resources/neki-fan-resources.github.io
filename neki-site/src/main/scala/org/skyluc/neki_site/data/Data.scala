@@ -9,6 +9,10 @@ case class Data(
   def get[T <: Datum[T]](id: Id[T]): T = {
     all(id).asInstanceOf[T]
   }
+
+  def withDatums(datums: Iterable[Datum[?]]): Data = {
+    Data(site, datums.map(d => (d.id, d)).toMap)
+  }
 }
 
 object Data {

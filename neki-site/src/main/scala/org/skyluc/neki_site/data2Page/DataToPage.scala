@@ -24,8 +24,8 @@ class DataToPage(compilers: Compilers) extends Processor[Seq[SitePage]] {
         MediasPage.pages(compilers),
         SourcesPage.pages(compilers),
       ).flatten
-    // pages from datums
-    val res = datums.map(_.process(this)).flatten
+    // pages from datums (without errors)
+    val res = datums.filterNot(_.hasError).map(_.process(this)).flatten
 
     fixPages ++ res
   }

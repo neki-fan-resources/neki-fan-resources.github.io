@@ -12,6 +12,7 @@ case class Song(
     fullnameEn: Option[String],
     album: Option[AlbumId],
     releaseDate: Date,
+    description: Option[List[String]],
     credits: Option[Credits],
     coverImage: CoverImage,
     multimedia: MultiMediaBlock,

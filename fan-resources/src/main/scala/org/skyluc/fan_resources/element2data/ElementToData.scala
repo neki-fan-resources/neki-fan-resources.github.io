@@ -481,6 +481,7 @@ class ElementToData extends Processor[ToDataError, d.Datum[?]] {
         song.`fullname-en`,
         song.album.map(d.AlbumId(_)),
         releaseDate,
+        song.description,
         song.credits.map(toCredits(_)),
         coverImage,
         multimedia.getOrElse(d.MultiMediaBlock.EMPTY),

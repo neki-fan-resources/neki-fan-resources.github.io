@@ -256,7 +256,7 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
       None,
       song.fullnameEn,
       song.album.map(id => compilers.elementDataCompiler.get(id)),
-      None,
+      song.description,
       song.releaseDate,
       None,
       CoverImage.resolve(song.coverImage, SongPage.DESIGNATION, song.fullname, song, compilers),

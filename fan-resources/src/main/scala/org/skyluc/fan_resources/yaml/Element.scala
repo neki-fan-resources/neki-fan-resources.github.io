@@ -131,6 +131,7 @@ case class Song(
     `fullname-en`: Option[String],
     album: Option[String],
     `release-date`: String,
+    description: Option[List[String]],
     credits: Option[Credits],
     `cover-image`: CoverImage,
     multimedia: Option[MultiMedia],

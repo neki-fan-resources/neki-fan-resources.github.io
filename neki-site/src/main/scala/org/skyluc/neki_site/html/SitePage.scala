@@ -6,6 +6,7 @@ import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.html.*
 import org.skyluc.neki_site.Config
+import org.skyluc.neki_site.data.Site as dSite
 import org.skyluc.neki_site.html.component.Footer
 import org.skyluc.neki_site.html.component.NavigationBar
 
@@ -14,11 +15,9 @@ import fr.component.OpenGraphSection
 import fr.Url
 import fr.component.ExtraSection
 
-abstract class SitePage(override val description: PageDescription, compilers: Compilers) extends fr.SitePage {
+abstract class SitePage(override val description: PageDescription, site: dSite) extends fr.SitePage {
 
   import SitePage._
-
-  // override val description: PageDescription
 
   def elementContent(): Seq[BodyElement[?]]
 
@@ -43,7 +42,7 @@ abstract class SitePage(override val description: PageDescription, compilers: Co
   }
 
   override def headerContent(): Seq[BodyElement[?]] =
-    NavigationBar.generate(compilers.data.site.navigation, outputPath)
+    NavigationBar.generate(site.navigation, outputPath)
 
   override def mainContent(): Seq[BodyElement[?]] = {
     val extraSection = description.extraPage.map(ExtraSection.generate(_)).getOrElse(Nil)
@@ -55,14 +54,6 @@ abstract class SitePage(override val description: PageDescription, compilers: Co
     Footer.generate(description.oppositePage)
 
 }
-
-// abstract class DatumPage(compilers: Compilers) extends SitePage(compilers) {
-
-//   override val description: PageDescription // = DescriptionGenerator.generate(datum)
-
-//   // override val outputPath: Path = OutputPathResolver.resolve(datum)
-
-// }
 
 object SitePage {
 

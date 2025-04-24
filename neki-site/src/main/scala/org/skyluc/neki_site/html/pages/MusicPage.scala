@@ -11,29 +11,20 @@ import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data as d
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.neki_site.html.Site
 
-class MusicPage(musicPage: d.MusicPage, pageDescription: PageDescription, compilers: Compilers)
-    extends SitePage(pageDescription, compilers) {
+class MusicPage(music: LayeredData[ElementCompiledData], pageDescription: PageDescription, site: d.Site)
+    extends SitePage(pageDescription, site) {
 
   import MusicPage._
 
   override def elementContent(): Seq[BodyElement[?]] = {
-    val tree: LayeredData[ElementCompiledData] = musicPage.music.map {
-      case a: AlbumId =>
-        LayeredNode(
-          compilers.elementDataCompiler.get(a),
-          compilers.data.get(a).songs.map { s => LayeredNode(compilers.elementDataCompiler.get(s)) },
-        )
-      case s: SongId =>
-        LayeredNode(compilers.elementDataCompiler.get(s))
-    }
 
     List(
       MainIntro.generate(MAIN_INTRO_TEXT),
-      MediumCard.generateTree(tree),
+      MediumCard.generateTree(music),
     )
   }
 
@@ -46,8 +37,19 @@ object MusicPage {
   val PAGE_PATH = Path("music")
 
   def pagesFor(musicPage: d.MusicPage, compilers: Compilers): Seq[SitePage] = {
+
+    val music: LayeredData[ElementCompiledData] = musicPage.music.map {
+      case a: AlbumId =>
+        LayeredNode(
+          compilers.elementDataCompiler.get(a),
+          compilers.data.get(a).songs.map { s => LayeredNode(compilers.elementDataCompiler.get(s)) },
+        )
+      case s: SongId =>
+        LayeredNode(compilers.elementDataCompiler.get(s))
+    }
+
     val mainPage = MusicPage(
-      musicPage,
+      music,
       PageDescription(
         TitleAndDescription.formattedTitle(
           None,
@@ -72,7 +74,7 @@ object MusicPage {
         None,
         false,
       ),
-      compilers,
+      compilers.data.site,
     )
 
     Seq(mainPage)

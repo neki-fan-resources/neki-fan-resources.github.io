@@ -1,27 +1,33 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.fan_resources.data._
-import org.skyluc.neki_site.html.PageDescription
-import org.skyluc.neki_site.html.Compilers
-import org.skyluc.neki_site.html.SitePage
-import org.skyluc.html.BodyElement
-import org.skyluc.fan_resources.html.component.MultiMediaCard
-import org.skyluc.fan_resources.html.component.MainTitle
+import org.skyluc.fan_resources.data.*
+import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
 import org.skyluc.fan_resources.html.component.LineCard
+import org.skyluc.fan_resources.html.component.MainTitle
+import org.skyluc.fan_resources.html.component.MultiMediaCard
+import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.data.Site
+import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.SitePage
 
-class ShowExtraPage(show: Show, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class ShowExtraPage(
+    show: ElementCompiledData,
+    multimediaBlock: MultiMediaBlockCompiledData,
+    description: PageDescription,
+    site: Site,
+) extends SitePage(description, site) {
 
   override def elementContent(): Seq[BodyElement[?]] = {
     val mediaSection =
       MultiMediaCard.generateExtraMediaSection(
-        compilers.multimediaDataCompiler.getBlock(show),
+        multimediaBlock,
         Show.FROM_KEY,
       )
 
     Seq(
       MainTitle.generate(
-        LineCard.generate(compilers.elementDataCompiler.get(show))
+        LineCard.generate(show)
       )
     )
       ++ mediaSection

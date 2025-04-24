@@ -5,22 +5,23 @@ import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.fan_resources.html.component.SocialMediaCard
 import org.skyluc.html.*
+import org.skyluc.neki_site.data.Site as dSite
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
-import org.skyluc.neki_site.html.Site
 
-class AboutPage(description: PageDescription, compilers: Compilers) extends SitePage(description, compilers) {
+class AboutPage(description: PageDescription, site: dSite) extends SitePage(description, site) {
 
   import AboutPage._
 
   override def elementContent(): Seq[BodyElement[?]] = {
     List(
       SectionHeader.generate("What is this site"),
-      site(),
+      siteSection(),
     ) :::
       manekineko() ::: List(
         SectionHeader.generate("Updates"),
@@ -28,7 +29,7 @@ class AboutPage(description: PageDescription, compilers: Compilers) extends Site
       ) ::: questions()
   }
 
-  private def site(): Div = {
+  private def siteSection(): Div = {
     div()
       .withClass(CLASS_ABOUT_SECTION)
       .appendElements(
@@ -185,7 +186,7 @@ object AboutPage {
         None,
         false,
       ),
-      compilers,
+      compilers.data.site,
     )
 
     Seq(mainPage)

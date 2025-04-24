@@ -2,22 +2,27 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.*
+import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
-class ShowPage(show: Show, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class ShowPage(
+    show: ElementCompiledData,
+    multimediaBlock: MultiMediaBlockCompiledData,
+    description: PageDescription,
+    site: Site,
+) extends SitePage(description, site) {
 
   override def elementContent(): Seq[BodyElement[?]] = {
     val largeDetails =
-      LargeDetails.generate(compilers.elementDataCompiler.get(show))
-
-    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(show)
+      LargeDetails.generate(show)
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Show.FROM_KEY)
 
@@ -48,9 +53,11 @@ object ShowPage {
     }
 
     val compiledData = compilers.elementDataCompiler.get(show)
+    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(show)
 
     val mainPage = ShowPage(
-      show,
+      compiledData,
+      multimediaBlock,
       PageDescription(
         TitleAndDescription.formattedTitle(
           Some(compiledData.designation),
@@ -75,13 +82,14 @@ object ShowPage {
         extraPath.map(SitePage.urlFor(_)),
         false,
       ),
-      compilers,
+      compilers.data.site,
     )
 
     extraPath
       .map { extraPath =>
         val extraPage = ShowExtraPage(
-          show,
+          compiledData,
+          multimediaBlock,
           PageDescription(
             TitleAndDescription.formattedTitle(
               Some(compiledData.designation),
@@ -106,7 +114,7 @@ object ShowPage {
             None,
             false,
           ),
-          compilers,
+          compilers.data.site,
         )
         Seq(extraPage, mainPage)
       }

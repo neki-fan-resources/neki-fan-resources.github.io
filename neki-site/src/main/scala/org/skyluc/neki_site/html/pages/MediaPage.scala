@@ -3,10 +3,13 @@ package org.skyluc.neki_site.html.pages
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Media
 import org.skyluc.fan_resources.data.SummaryItem
+import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.*
+import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
@@ -14,16 +17,19 @@ import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
 
-class MediaPage(media: Media, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class MediaPage(
+    media: Media,
+    mediaCompiledData: ElementCompiledData,
+    multimediaBlock: MultiMediaBlockCompiledData,
+    description: PageDescription,
+    site: Site,
+) extends SitePage(description, site) {
 
   import MediaPage._
 
   override def elementContent(): Seq[BodyElement[?]] = {
     val largeDetails =
-      LargeDetails.generate(compilers.elementDataCompiler.get(media))
-
-    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(media)
+      LargeDetails.generate(mediaCompiledData)
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Media.FROM_KEY)
 
@@ -96,8 +102,12 @@ object MediaPage {
 
     val compiledData = compilers.elementDataCompiler.get(media)
 
+    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(media)
+
     val mainPage = MediaPage(
       media,
+      compiledData,
+      multimediaBlock,
       PageDescription(
         TitleAndDescription.formattedTitle(
           Some(compiledData.designation),
@@ -122,12 +132,13 @@ object MediaPage {
         extraPath.map(SitePage.urlFor(_)),
         false,
       ),
-      compilers,
+      compilers.data.site,
     )
     extraPath
       .map { extraPath =>
         val extraPage = MediaExtraPage(
-          media,
+          compiledData,
+          multimediaBlock,
           PageDescription(
             TitleAndDescription.formattedTitle(
               Some(compiledData.designation),
@@ -152,7 +163,7 @@ object MediaPage {
             None,
             false,
           ),
-          compilers,
+          compilers.data.site,
         )
         Seq(extraPage, mainPage)
       }

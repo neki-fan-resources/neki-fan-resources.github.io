@@ -13,15 +13,16 @@ import org.skyluc.fan_resources.html.component.MediumDetails
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.html.*
 import org.skyluc.neki_site.data.ChronologyPage as dChronologyPage
+import org.skyluc.neki_site.data.Site as dSite
 import org.skyluc.neki_site.html.ChronoloyMarkerProcessor
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
 import SvgElement.{text as svgText, *}
-import org.skyluc.neki_site.html.Site
 
 class ChronologyPage(
     markersCompiledData: Seq[MarkerCompiledData],
@@ -29,8 +30,8 @@ class ChronologyPage(
     startDate: Date,
     endDate: Date,
     description: PageDescription,
-    compilers: Compilers,
-) extends SitePage(description, compilers) {
+    site: dSite,
+) extends SitePage(description, site) {
 
   import ChronologyPage._
 
@@ -94,7 +95,7 @@ object ChronologyPage {
           None,
           false,
         ),
-        compilers,
+        compilers.data.site,
       )
 
     Seq(mainPage)

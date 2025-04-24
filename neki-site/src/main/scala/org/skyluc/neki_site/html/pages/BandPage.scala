@@ -16,8 +16,7 @@ import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
 
-class BandPage(site: Site, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class BandPage(site: Site, description: PageDescription) extends SitePage(description, site) {
 
   import BandPage._
 
@@ -164,7 +163,6 @@ object BandPage {
         None,
         false,
       ),
-      compilers,
     )
 
     Seq(mainPage)

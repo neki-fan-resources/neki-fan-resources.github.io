@@ -3,23 +3,29 @@ package org.skyluc.neki_site.html.pages
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.data.Song
+import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.LyricsSection
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.html.*
+import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
-class SongPage(song: Song, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class SongPage(
+    song: Song,
+    songCompiledData: ElementCompiledData,
+    multimediaBlock: MultiMediaBlockCompiledData,
+    description: PageDescription,
+    site: Site,
+) extends SitePage(description, site) {
 
   override def elementContent(): Seq[BodyElement[?]] = {
     val largeDetails =
-      LargeDetails.generate(compilers.elementDataCompiler.get(song))
-
-    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(song)
+      LargeDetails.generate(songCompiledData)
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Song.FROM_KEY)
 
@@ -52,12 +58,15 @@ object SongPage {
     }
 
     val compiledData = compilers.elementDataCompiler.get(song)
+    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(song)
 
     val (pagePath, oppositePagePath) =
       SitePage.pageAndOppositePagePath(song.id, song.id.copy(dark = !song.id.dark), song.id.dark, compilers)
 
     val mainPage = SongPage(
       song,
+      compiledData,
+      multimediaBlock,
       PageDescription(
         TitleAndDescription.formattedTitle(
           Some(compiledData.designation),
@@ -82,13 +91,14 @@ object SongPage {
         extraPath.map(SitePage.urlFor(_)),
         song.id.dark,
       ),
-      compilers,
+      compilers.data.site,
     )
 
     extraPath
       .map { extraPath =>
         val extraPage = SongExtraPage(
-          song,
+          compiledData,
+          multimediaBlock,
           PageDescription(
             TitleAndDescription.formattedTitle(
               Some(compiledData.designation),
@@ -113,7 +123,7 @@ object SongPage {
             None,
             song.id.dark,
           ),
-          compilers,
+          compilers.data.site,
         )
         Seq(extraPage, mainPage)
       }

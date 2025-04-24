@@ -14,14 +14,15 @@ import org.skyluc.fan_resources.html.component.MainIntro
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.data.Site as dSite
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.neki_site.html.Site
 
-class LivePage(content: LivePage.LiveMultiMedia, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class LivePage(content: LivePage.LiveMultiMedia, description: PageDescription, site: dSite)
+    extends SitePage(description, site) {
 
   import LivePage._
 
@@ -166,7 +167,7 @@ object LivePage {
         None,
         false,
       ),
-      compilers,
+      compilers.data.site,
     )
 
     Seq(mainPage)

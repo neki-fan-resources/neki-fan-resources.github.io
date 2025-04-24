@@ -2,30 +2,30 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Tour
+import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
-class TourPage(tour: Tour, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class TourPage(tour: ElementCompiledData, shows: Seq[ElementCompiledData], description: PageDescription, site: Site)
+    extends SitePage(description, site) {
 
   import TourPage._
 
   override def elementContent(): Seq[BodyElement[?]] = {
 
     val largeDetails =
-      LargeDetails.generate(compilers.elementDataCompiler.get(tour))
+      LargeDetails.generate(tour)
 
     val showsSection: Seq[BodyElement[?]] = Seq(
       SectionHeader.generate(SECTION_SHOWS),
-      MediumCard.generateList(
-        tour.shows.map(compilers.elementDataCompiler.get(_))
-      ),
+      MediumCard.generateList(shows),
     )
 
     Seq(
@@ -50,9 +50,13 @@ object TourPage {
 
     val compiledData = compilers.elementDataCompiler.get(tour)
 
+    val shows =
+      tour.shows.map(compilers.elementDataCompiler.get(_))
+
     Seq(
       TourPage(
-        tour,
+        compiledData,
+        shows,
         PageDescription(
           TitleAndDescription.formattedTitle(
             Some(compiledData.designation),
@@ -77,7 +81,7 @@ object TourPage {
           None,
           false,
         ),
-        compilers,
+        compilers.data.site,
       )
     )
   }

@@ -2,33 +2,39 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Album
+import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.BodyElement
+import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
-class AlbumPage(album: Album, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class AlbumPage(
+    album: ElementCompiledData,
+    songs: Seq[ElementCompiledData],
+    multimediaBlock: MultiMediaBlockCompiledData,
+    description: PageDescription,
+    site: Site,
+) extends SitePage(description, site) {
 
   import AlbumPage._
 
   override def elementContent(): Seq[BodyElement[?]] = {
     val largeDetails =
-      LargeDetails.generate(compilers.elementDataCompiler.get(album))
+      LargeDetails.generate(album)
 
     val songsSection: Seq[BodyElement[?]] = Seq(
       SectionHeader.generate(SECTION_SONGS),
       MediumCard.generateList(
-        album.songs.map(compilers.elementDataCompiler.get(_))
+        songs
       ),
     )
-
-    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(album)
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Album.FROM_KEY)
 
@@ -58,12 +64,18 @@ object AlbumPage {
 
     val compiledData = compilers.elementDataCompiler.get(album)
 
+    val songs = album.songs.map(compilers.elementDataCompiler.get)
+
+    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(album)
+
     // No dark page support for albums yet
     // val (pagePath, oppositePagePath) =
     //   SitePage.pageAndOppositePagePath(album.id, album.id.copy(dark = !album.id.dark), album.id.dark, compilers)
 
     val mainPage = AlbumPage(
-      album,
+      compiledData,
+      songs,
+      multimediaBlock,
       PageDescription(
         TitleAndDescription.formattedTitle(
           Some(compiledData.designation),
@@ -88,13 +100,14 @@ object AlbumPage {
         extraPath.map(SitePage.urlFor(_)),
         false,
       ),
-      compilers,
+      compilers.data.site,
     )
 
     extraPath
       .map { extraPath =>
         val extraPage = AlbumExtraPage(
-          album,
+          compiledData,
+          multimediaBlock,
           PageDescription(
             TitleAndDescription.formattedTitle(
               Some(compiledData.designation),
@@ -119,7 +132,7 @@ object AlbumPage {
             None,
             false,
           ),
-          compilers,
+          compilers.data.site,
         )
         Seq(extraPage, mainPage)
       }

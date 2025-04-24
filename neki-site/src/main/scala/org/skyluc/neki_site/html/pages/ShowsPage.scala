@@ -13,32 +13,22 @@ import org.skyluc.html.*
 import org.skyluc.neki_site.data as d
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
-import org.skyluc.neki_site.html.Site
 
-class ShowsPage(showsPage: d.ShowsPage, description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class ShowsPage(shows: LayeredData[ElementCompiledData], description: PageDescription, site: d.Site)
+    extends SitePage(description, site) {
 
   import ShowsPage._
 
   override def elementContent(): Seq[BodyElement[?]] = {
 
-    val tree: LayeredData[ElementCompiledData] = showsPage.shows.map {
-      case s: ShowId =>
-        LayeredNode(compilers.elementDataCompiler.get(s))
-      case t: TourId =>
-        LayeredNode(
-          compilers.elementDataCompiler.get(t),
-          compilers.data.get(t).shows.map { s => LayeredNode(compilers.elementDataCompiler.get(s)) },
-        )
-    }
-
     List(
       MainIntro.generate(MAIN_INTRO_CONTENT),
-      MediumCard.generateHybridTree(tree),
+      MediumCard.generateHybridTree(shows),
     )
 
   }
@@ -60,8 +50,19 @@ object ShowsPage {
   )
 
   def pagesFor(showsPage: d.ShowsPage, compilers: Compilers): Seq[SitePage] = {
+
+    val shows: LayeredData[ElementCompiledData] = showsPage.shows.map {
+      case s: ShowId =>
+        LayeredNode(compilers.elementDataCompiler.get(s))
+      case t: TourId =>
+        LayeredNode(
+          compilers.elementDataCompiler.get(t),
+          compilers.data.get(t).shows.map { s => LayeredNode(compilers.elementDataCompiler.get(s)) },
+        )
+    }
+
     val mainPage = ShowsPage(
-      showsPage,
+      shows,
       PageDescription(
         TitleAndDescription.formattedTitle(
           None,
@@ -86,7 +87,7 @@ object ShowsPage {
         None,
         false,
       ),
-      compilers,
+      compilers.data.site,
     )
 
     Seq(mainPage)

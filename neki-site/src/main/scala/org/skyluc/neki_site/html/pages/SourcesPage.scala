@@ -4,17 +4,18 @@ import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.component.MainIntro
 import org.skyluc.html.*
+import org.skyluc.neki_site.data.Site as dSite
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
+import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.SourcesExtractor
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
-import org.skyluc.neki_site.html.Site
 
-class SourcesPage(data: Seq[SourcesPage.SourceCategory], description: PageDescription, compilers: Compilers)
-    extends SitePage(description, compilers) {
+class SourcesPage(data: Seq[SourcesPage.SourceCategory], description: PageDescription, site: dSite)
+    extends SitePage(description, site) {
 
   import SourcesPage._
 
@@ -133,7 +134,7 @@ object SourcesPage {
         None,
         false,
       ),
-      compilers,
+      compilers.data.site,
     )
 
     Seq(mainPage)

@@ -12,6 +12,7 @@ object SiteOutput {
   def generate(pages: Iterable[Page], staticFolder: Path, siteFolder: Path): Unit = {
     deleteDirectoryContent(siteFolder)
 
+    Files.createDirectories(siteFolder)
     copyDirectoryContent(staticFolder, siteFolder)
 
     pages.foreach { page =>

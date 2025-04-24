@@ -28,16 +28,28 @@ case class Album(
 }
 
 trait WithLocalImageId {
+  val album: Option[String]
   val media: Option[MediaId]
+  val song: Option[String]
+  val tour: Option[String]
   val id: String
 }
 
+case class LocalImageEmbbeded(
+    filename: String,
+    source: Source,
+) derives YamlCodec
+
 case class LocalImage(
+    album: Option[String],
     media: Option[MediaId],
+    song: Option[String],
+    tour: Option[String],
     id: String,
     filename: String,
     label: String,
     `published-date`: String,
+    source: Source,
 ) extends Element
     with WithLocalImageId
     derives YamlCodec {
@@ -226,10 +238,8 @@ case class Credits(
 ) derives YamlCodec
 
 case class CoverImage(
-    file: Option[File],
-    song: Option[String],
-    album: Option[String],
-    tour: Option[String],
+    image: Option[LocalImageEmbbeded],
+    imageid: Option[LocalImageId],
 ) derives YamlCodec
 
 case class File(
@@ -243,7 +253,10 @@ case class Id(
 ) derives YamlCodec
 
 case class LocalImageId(
+    album: Option[String],
     media: Option[MediaId],
+    song: Option[String],
+    tour: Option[String],
     id: String,
 ) extends WithLocalImageId
     derives YamlCodec

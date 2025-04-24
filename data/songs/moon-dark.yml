@@ -8,7 +8,9 @@ album: tricktaking
 release-date: 2025-03-05
 
 cover-image:
-  song: moon
+  imageid:
+    song: moon
+    id: cover
 
 lyrics:
   status:

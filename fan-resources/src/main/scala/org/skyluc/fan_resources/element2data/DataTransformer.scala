@@ -18,30 +18,27 @@ object DataTransformer {
 
   def toData(
       elementTrees: Seq[ElementTree],
-      processor: Processor[ToDataError, d.Datum[?]],
+      processor: Processor[ToDataError, ElementToData.Result],
   ): (Seq[ToDataError], Seq[d.Datum[?]]) = {
     val resultTrees = elementTrees.map(toData(_, processor))
 
     val (errors, datums) = extractErrors(resultTrees)
 
-    // hacky: expand PostXImages. TODO: do better ...
-    val postXImages = datums.flatMap {
-      case p: d.PostX =>
-        p.image
-      case _ =>
-        Nil
-    }
-
-    (errors, datums ++ postXImages)
+    (errors, datums)
   }
 
   private def toData(
       elementTree: ElementTree,
-      processor: Processor[ToDataError, d.Datum[?]],
+      processor: Processor[ToDataError, ElementToData.Result],
   ): ElementToDataResultTree = {
-    val main = elementTree.main.map(_.process(processor))
+    val result = elementTree.main.map(_.process(processor))
 
-    val related = elementTree.related.map(toData(_, processor))
+    val main = result.map(a => a.map(b => b.main))
+
+    val additional = result.flatMap(a => a.map(b => b.additional).toOption).getOrElse(Nil)
+
+    val related =
+      elementTree.related.map(toData(_, processor)) ++ additional.map(e => ElementToDataResultTree(Some(Right(e)), Nil))
 
     // link related to their main
     val augmentedRelated = main

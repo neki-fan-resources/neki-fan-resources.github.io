@@ -23,7 +23,7 @@ class MediaPage(media: Media, description: PageDescription, compilers: Compilers
     val largeDetails =
       LargeDetails.generate(compilers.elementDataCompiler.get(media))
 
-    val multimediaBlock = compilers.multimediaDataCompiler.get(media.multimedia, media.linkedTo)
+    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(media)
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Media.FROM_KEY)
 
@@ -88,7 +88,7 @@ object MediaPage {
   val VALUE_ARTICLE = "article"
 
   def pageFor(media: Media, compilers: Compilers): Seq[SitePage] = {
-    val extraPath = if (media.multimedia.extra(media.linkedTo).isEmpty) {
+    val extraPath = if (media.multimedia.extra(media.linkedTo, compilers.data).isEmpty) {
       None
     } else {
       Some(media.id.path.insertSecond(Common.EXTRA))

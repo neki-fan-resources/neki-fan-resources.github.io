@@ -15,7 +15,7 @@ class SongExtraPage(song: Song, description: PageDescription, compilers: Compile
   override def elementContent(): Seq[BodyElement[?]] = {
     val mediaSection =
       MultiMediaCard.generateExtraMediaSection(
-        compilers.multimediaDataCompiler.get(song.multimedia, song.linkedTo),
+        compilers.multimediaDataCompiler.getBlock(song),
         Song.FROM_KEY,
       )
 

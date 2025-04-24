@@ -6,77 +6,88 @@ import org.skyluc.fan_resources.yaml.*
 
 import scala.annotation.tailrec
 
-class ElementToData extends Processor[ToDataError, d.Datum[?]] {
+object ElementToData {
+  case class Result(main: d.Datum[?], additional: Seq[d.Datum[?]])
+  object Result {
+    def apply(main: d.Datum[?]): Result = Result(main, Nil)
+  }
+}
 
-  override def processAlbum(album: Album): Either[ToDataError, d.Datum[?]] =
+class ElementToData extends Processor[ToDataError, ElementToData.Result] {
+
+  import ElementToData._
+
+  override def processAlbum(album: Album): Either[ToDataError, Result] =
     toAlbum(album)
 
-  override def processLocalImage(localImage: LocalImage): Either[ToDataError, d.Datum[?]] =
-    toLocalImage(localImage)
+  override def processLocalImage(localImage: LocalImage): Either[ToDataError, Result] =
+    toLocalImage(localImage).map(d => Result(d))
 
-  override def processMediaAudio(mediaAudio: MediaAudio): Either[ToDataError, d.Datum[?]] =
+  override def processMediaAudio(mediaAudio: MediaAudio): Either[ToDataError, Result] =
     toMediaAudio(mediaAudio)
 
-  override def processMediaWritten(mediaWritten: MediaWritten): Either[ToDataError, d.Datum[?]] =
+  override def processMediaWritten(mediaWritten: MediaWritten): Either[ToDataError, Result] =
     toMediaWritten(mediaWritten)
 
-  override def processPostX(postX: PostX): Either[ToDataError, d.Datum[?]] =
+  override def processPostX(postX: PostX): Either[ToDataError, Result] =
     toPostX(postX)
 
-  override def processShow(show: Show): Either[ToDataError, d.Datum[?]] =
+  override def processShow(show: Show): Either[ToDataError, Result] =
     toShow(show)
 
-  override def processSong(song: Song): Either[ToDataError, d.Datum[?]] =
+  override def processSong(song: Song): Either[ToDataError, Result] =
     toSong(song)
 
-  override def processTour(tour: Tour): Either[ToDataError, d.Datum[?]] =
+  override def processTour(tour: Tour): Either[ToDataError, Result] =
     toTour(tour)
 
-  override def processYouTubeShort(youtubeShort: YouTubeShort): Either[ToDataError, d.Datum[?]] =
-    toYouTubeShort(youtubeShort)
+  override def processYouTubeShort(youtubeShort: YouTubeShort): Either[ToDataError, Result] =
+    toYouTubeShort(youtubeShort).map(d => Result(d))
 
-  override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Either[ToDataError, d.Datum[?]] =
-    toYouTubeVideo(youtubeVideo)
+  override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Either[ToDataError, Result] =
+    toYouTubeVideo(youtubeVideo).map(d => Result(d))
 
-  override def processZaiko(zaiko: Zaiko): Either[ToDataError, d.Datum[?]] =
-    toZaiko(zaiko)
+  override def processZaiko(zaiko: Zaiko): Either[ToDataError, Result] =
+    toZaiko(zaiko).map(d => Result(d))
 
-  def toAlbum(album: Album): Either[ToDataError, d.Album] = {
+  def toAlbum(album: Album): Either[ToDataError, Result] = {
     val id = d.AlbumId(album.id)
     val songIds = album.songs.map(d.SongId(_))
     for {
       releaseDate <- toDate(album.`release-date`, id)
-      coverImage <- toCoverImage(album.`cover-image`, id)
+      coverImage <- toCoverImage(album.`cover-image`, releaseDate, id)
       multimedia <- unboxBoxEitherOption(album.multimedia.map(toMultiMedia(_, id)))
     } yield {
-      d.Album(
-        id,
-        album.fullname,
-        album.altname,
-        album.designation,
-        album.description,
-        releaseDate,
-        coverImage,
-        songIds,
-        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+      Result(
+        d.Album(
+          id,
+          album.fullname,
+          album.altname,
+          album.designation,
+          album.description,
+          releaseDate,
+          coverImage._1,
+          songIds,
+          multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+        ),
+        coverImage._2.toSeq,
       )
     }
   }
 
-  // TODO: replace with LocalImage
-  def toCoverImage(coverImage: CoverImage, id: d.Id[?]): Either[ToDataError, d.CoverImage] = {
-    val candidates: List[Either[ToDataError, d.CoverImage]] = List(
-      coverImage.file.map { file =>
-        Right(d.FileCoverImage(file.filename, toSource(file.source)))
+  def toCoverImage(
+      coverImage: CoverImage,
+      date: d.Date,
+      id: d.ItemId[?],
+  ): Either[ToDataError, (d.LocalImageId, Option[d.LocalImage])] = {
+    val candidates: List[Either[ToDataError, (d.LocalImageId, Option[d.LocalImage])]] = List(
+      coverImage.image.map { image =>
+        val localImage =
+          toLocalImage(image, id, d.LocalImage.COVER_IMAGE_ID, d.LocalImage.COVER_IMAGE_LABEL, date, true)
+        Right(localImage.id, Some(localImage))
       },
-      coverImage.album.map { album =>
-        Right(d.AlbumCoverImage(d.AlbumId(album)))
-      },
-      coverImage.tour.map { tour =>
-        Right(d.TourCoverImage(d.TourId(tour)))
-      },
-      coverImage.song.map { song =>
-        Right(d.SongCoverImage(d.SongId(song)))
+      coverImage.imageid.map { imageId =>
+        toLocalImageId(imageId, id).map(lii => (lii, None))
       },
     ).flatten
 
@@ -177,18 +188,39 @@ class ElementToData extends Processor[ToDataError, d.Datum[?]] {
     throughList(refIds, id)(toId)
   }
 
+  def toLocalImage(
+      localImageEmbbeded: LocalImageEmbbeded,
+      itemId: d.ItemId[?],
+      id: String,
+      label: String,
+      date: d.Date,
+      hidden: Boolean = false,
+  ): d.LocalImage = {
+    d.LocalImage(
+      d.LocalImageId(itemId, id),
+      localImageEmbbeded.filename,
+      label,
+      date,
+      toSource(localImageEmbbeded.source),
+      hidden,
+    )
+  }
+
   def toLocalImage(localImage: LocalImage): Either[ToDataError, d.LocalImage] = {
     for {
       id <- toLocalImageId(localImage, null)
       publishedDate <- toDate(localImage.`published-date`, id)
     } yield {
-      d.LocalImage(id, localImage.filename, localImage.label, publishedDate)
+      d.LocalImage(id, localImage.filename, localImage.label, publishedDate, toSource(localImage.source))
     }
   }
 
   def toLocalImageId(localImageId: WithLocalImageId, id: d.Id[?]): Either[ToDataError, d.LocalImageId] = {
     val candidates: List[d.ItemId[?]] = List(
-      localImageId.media.map(toMediaId)
+      localImageId.album.map(d.AlbumId(_)),
+      localImageId.media.map(toMediaId),
+      localImageId.song.map(d.SongId(_)),
+      localImageId.tour.map(d.TourId(_)),
     ).flatten
 
     checkOnlyOneCandidates(
@@ -275,27 +307,30 @@ class ElementToData extends Processor[ToDataError, d.Datum[?]] {
     }
   }
 
-  def toMediaAudio(media: MediaAudio): Either[ToDataError, d.MediaAudio] = {
+  def toMediaAudio(media: MediaAudio): Either[ToDataError, Result] = {
     val id = d.MediaId(media.year, media.id)
     for {
       publishedDate <- toDate(media.`published-date`, id)
-      coverImage <- toCoverImage(media.`cover-image`, id)
+      coverImage <- toCoverImage(media.`cover-image`, publishedDate, id)
       multimedia <- unboxBoxEitherOption(media.multimedia.map(toMultiMedia(_, id)))
     } yield {
-      d.MediaAudio(
-        id,
-        media.radio,
-        media.show,
-        media.designation,
-        media.program,
-        media.host,
-        media.member,
-        media.webpage,
-        publishedDate,
-        media.description,
-        coverImage,
-        media.summary.map(toSummary),
-        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+      Result(
+        d.MediaAudio(
+          id,
+          media.radio,
+          media.show,
+          media.designation,
+          media.program,
+          media.host,
+          media.member,
+          media.webpage,
+          publishedDate,
+          media.description,
+          coverImage._1,
+          media.summary.map(toSummary),
+          multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+        ),
+        coverImage._2.toSeq,
       )
     }
   }
@@ -308,27 +343,30 @@ class ElementToData extends Processor[ToDataError, d.Datum[?]] {
     d.RefMediaIds(refMediaIds.account, refMediaIds.ids)
   }
 
-  def toMediaWritten(media: MediaWritten): Either[ToDataError, d.MediaWritten] = {
+  def toMediaWritten(media: MediaWritten): Either[ToDataError, Result] = {
     val id = d.MediaId(media.year, media.id)
     for {
       publishedDate <- toDate(media.`published-date`, id)
-      coverImage <- toCoverImage(media.`cover-image`, id)
+      coverImage <- toCoverImage(media.`cover-image`, publishedDate, id)
       multimedia <- unboxBoxEitherOption(media.multimedia.map(toMultiMedia(_, id)))
     } yield {
-      d.MediaWritten(
-        id,
-        media.publication,
-        media.issue,
-        media.designation,
-        media.journalist,
-        media.member,
-        media.`article-page`,
-        media.webpage,
-        publishedDate,
-        media.description,
-        coverImage,
-        media.summary.map(toSummary),
-        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+      Result(
+        d.MediaWritten(
+          id,
+          media.publication,
+          media.issue,
+          media.designation,
+          media.journalist,
+          media.member,
+          media.`article-page`,
+          media.webpage,
+          publishedDate,
+          media.description,
+          coverImage._1,
+          media.summary.map(toSummary),
+          multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+        ),
+        coverImage._2.toSeq,
       )
     }
   }
@@ -383,19 +421,24 @@ class ElementToData extends Processor[ToDataError, d.Datum[?]] {
     throughList(multimediaIds, id)(toMultiMediaId)
   }
 
-  def toPostX(postX: PostX): Either[ToDataError, d.PostX] = {
+  def toPostX(postX: PostX): Either[ToDataError, Result] = {
     val id = d.PostXId(postX.id)
     for {
       publishedDate <- toDate(postX.`published-date`, id)
     } yield {
-      d.PostX(
-        id,
-        postX.account,
-        publishedDate,
-        postX.info,
-        postX.text,
-        postX.image.map(_.map(toPostXImage(_, id, publishedDate))).getOrElse(Nil),
+      val images = postX.image.map(_.map(toPostXImage(_, id, publishedDate))).getOrElse(Nil)
+      Result(
+        d.PostX(
+          id,
+          postX.account,
+          publishedDate,
+          postX.info,
+          postX.text,
+          images, // TODO: keep only the ids, not the images
+        ),
+        images,
       )
+
     }
   }
 
@@ -422,26 +465,29 @@ class ElementToData extends Processor[ToDataError, d.Datum[?]] {
     d.PostXImageId(postXImageId.postId, postXImageId.imageId)
   }
 
-  def toShow(show: Show): Either[ToDataError, d.Show] = {
+  def toShow(show: Show): Either[ToDataError, Result] = {
     val id = d.ShowId(show.year, show.id)
     val tourId = show.tour.map(d.TourId(_))
     for {
       date <- toDate(show.date, id)
-      coverImage <- toCoverImage(show.`cover-image`, id)
+      coverImage <- toCoverImage(show.`cover-image`, date, id)
       multimedia <- unboxBoxEitherOption(show.multimedia.map(toMultiMedia(_, id)))
     } yield {
-      d.Show(
-        id,
-        show.fullname,
-        show.shortname,
-        show.sublabel,
-        date,
-        tourId,
-        show.location,
-        show.`event-page`,
-        show.setlistfm,
-        coverImage,
-        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+      Result(
+        d.Show(
+          id,
+          show.fullname,
+          show.shortname,
+          show.sublabel,
+          date,
+          tourId,
+          show.location,
+          show.`event-page`,
+          show.setlistfm,
+          coverImage._1,
+          multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+        ),
+        coverImage._2.toSeq,
       )
     }
   }
@@ -467,25 +513,28 @@ class ElementToData extends Processor[ToDataError, d.Datum[?]] {
     )(identity)
   }
 
-  def toSong(song: Song): Either[ToDataError, d.Song] = {
+  def toSong(song: Song): Either[ToDataError, Result] = {
     val id = d.SongId(song.id, song.dark)
     for {
       releaseDate <- toDate(song.`release-date`, id)
-      coverImage <- toCoverImage(song.`cover-image`, id)
+      coverImage <- toCoverImage(song.`cover-image`, releaseDate, id)
       multimedia <- unboxBoxEitherOption(song.multimedia.map(toMultiMedia(_, id)))
       lyrics <- unboxBoxEitherOption(song.lyrics.map(toLyrics(_, id)))
     } yield {
-      d.Song(
-        id,
-        song.fullname,
-        song.`fullname-en`,
-        song.album.map(d.AlbumId(_)),
-        releaseDate,
-        song.description,
-        song.credits.map(toCredits(_)),
-        coverImage,
-        multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
-        lyrics,
+      Result(
+        d.Song(
+          id,
+          song.fullname,
+          song.`fullname-en`,
+          song.album.map(d.AlbumId(_)),
+          releaseDate,
+          song.description,
+          song.credits.map(toCredits(_)),
+          coverImage._1,
+          multimedia.getOrElse(d.MultiMediaBlock.EMPTY),
+          lyrics,
+        ),
+        coverImage._2.toSeq,
       )
     }
   }
@@ -512,15 +561,18 @@ class ElementToData extends Processor[ToDataError, d.Datum[?]] {
     summaryItems.map(toSummaryItem)
   }
 
-  def toTour(tour: Tour): Either[ToDataError, d.Tour] = {
+  def toTour(tour: Tour): Either[ToDataError, Result] = {
     val id = d.TourId(tour.id)
     val shows = tour.shows.map(toShowId)
     for {
       firstDate <- toDate(tour.`first-date`, id)
       lastDate <- toDate(tour.`last-date`, id)
-      coverImage <- toCoverImage(tour.`cover-image`, id)
+      coverImage <- toCoverImage(tour.`cover-image`, firstDate, id)
     } yield {
-      d.Tour(id, tour.fullname, tour.shortname, firstDate, lastDate, tour.`event-page`, coverImage, shows)
+      Result(
+        d.Tour(id, tour.fullname, tour.shortname, firstDate, lastDate, tour.`event-page`, coverImage._1, shows),
+        coverImage._2.toSeq,
+      )
     }
   }
 

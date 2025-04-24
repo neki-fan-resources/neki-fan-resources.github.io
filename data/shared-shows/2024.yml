@@ -11,7 +11,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: ファミメ！公式 X post
@@ -28,7 +28,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: SHIBUYA THE GAME X post
@@ -62,7 +62,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: 下北沢SHELTER X post
@@ -80,7 +80,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: SHIBUYA THE GAME X post
@@ -98,7 +98,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: lastlamp_band X post
@@ -116,7 +116,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: CODE OF ZERO Official X post
@@ -133,7 +133,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -150,7 +150,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -168,7 +168,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: 彪 / AYA X post
@@ -199,7 +199,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: SHIBUYA THE GAME X post
@@ -226,7 +226,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -253,7 +253,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: 心斎橋 VARON X post
@@ -272,7 +272,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -291,7 +291,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -308,7 +308,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: CLUB UPSET X post
@@ -343,7 +343,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -361,7 +361,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: トラROCK FESTIVAL X post
@@ -380,7 +380,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: 下北沢LIVEHOLIC X post
@@ -399,7 +399,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: SHIBUYA THE GAME X post
@@ -418,7 +418,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: FM802 MINAMI WHEEL X post
@@ -436,7 +436,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: 下北沢CLUB251 X post
@@ -454,7 +454,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: 下北沢SHELTER X post
@@ -472,7 +472,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: bazoo X post
@@ -490,7 +490,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: SNAZZY TUNES 公式 X post

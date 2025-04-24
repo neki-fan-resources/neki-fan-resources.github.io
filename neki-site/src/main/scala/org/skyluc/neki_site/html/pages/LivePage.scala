@@ -18,7 +18,7 @@ import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.neki_site.html.component.Defaults
+import org.skyluc.neki_site.html.Site
 
 class LivePage(content: LivePage.LiveMultiMedia, description: PageDescription, compilers: Compilers)
     extends SitePage(description, compilers) {
@@ -159,7 +159,7 @@ object LivePage {
           None,
           None,
         ),
-        SitePage.absoluteUrl(Defaults.COVER_IMAGE.source),
+        SitePage.absoluteUrl(Site.DEFAULT_COVER_IMAGE.source),
         SitePage.canonicalUrlFor(PAGE_PATH),
         PAGE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

@@ -7,7 +7,7 @@ album: exclamation
 release-date: 2024-07-24
 
 cover-image:
-  file:
+  image:
     filename: cover640.webp
     source:
       description: YouTube community post

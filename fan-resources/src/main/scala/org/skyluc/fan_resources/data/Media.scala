@@ -8,7 +8,7 @@ case class MediaId(year: String, id: String) extends ElementId[Media] {
 
 }
 
-trait Media extends Element[Media] {
+trait Media extends Element[Media] with WithMultimedia {
   val id: MediaId
   val publishedDate: Date
   def title(): String
@@ -29,7 +29,7 @@ case class MediaAudio(
     webpage: Option[String],
     publishedDate: Date,
     description: Option[List[String]],
-    coverImage: CoverImage,
+    coverImage: MultiMediaId,
     summary: Option[Summary],
     multimedia: MultiMediaBlock,
     hasError: Boolean = false,
@@ -61,7 +61,7 @@ case class MediaWritten(
     webpage: Option[String],
     publishedDate: Date,
     description: Option[List[String]],
-    coverImage: CoverImage,
+    coverImage: MultiMediaId,
     summary: Option[Summary],
     multimedia: MultiMediaBlock,
     hasError: Boolean = false,

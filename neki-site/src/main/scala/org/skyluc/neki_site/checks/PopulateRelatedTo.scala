@@ -1,6 +1,6 @@
 package org.skyluc.neki_site.checks
 
-import org.skyluc.fan_resources.data.{Processor as _, *}
+import org.skyluc.fan_resources.data.{Data as _, Processor as _, *}
 import org.skyluc.neki_site.data.*
 
 object PopulateRelatedTo extends Processor[Datum[?]] {

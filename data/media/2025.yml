@@ -30,7 +30,7 @@
 # The host is either a great host, or a big fan (or both).
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: FANTASY RADIO webpage
@@ -96,7 +96,7 @@
   - The interview was recorded on March 8th midday, before the TR!CK TAK!NG tour show in Osaka.
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: RADIO INFINITY webpage
@@ -208,7 +208,7 @@
   - Natsu is interviewed in the May issue of Guitar magazine, in the 'OPENING ACT' section.
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: Guitar magazine webpage
@@ -236,6 +236,9 @@
     filename: image400.png
     label: Article
     published-date: 2025-04-12
+    source:
+      description: Extracted from electronic version
+      url: https://guitarmagazine.jp/news/2025-0401-gm2505/
 
 
 
@@ -276,7 +279,7 @@
   published-date: 2025-04-22
   
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: BAYFM78 webpage

@@ -28,7 +28,7 @@ class AlbumPage(album: Album, description: PageDescription, compilers: Compilers
       ),
     )
 
-    val multimediaBlock = compilers.multimediaDataCompiler.get(album.multimedia, album.linkedTo)
+    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(album)
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Album.FROM_KEY)
 
@@ -50,7 +50,7 @@ object AlbumPage {
   def pagesFor(album: Album, compilers: Compilers): Seq[SitePage] = {
 
     // TODO: used the information from the multimedia block compiledData (need to be cached)
-    val extraPath = if (album.multimedia.extra(album.linkedTo).isEmpty) {
+    val extraPath = if (album.multimedia.extra(album.linkedTo, compilers.data).isEmpty) {
       None
     } else {
       Some(album.id.path.insertSecond(Common.EXTRA))

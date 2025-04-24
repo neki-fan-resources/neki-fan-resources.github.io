@@ -1,11 +1,9 @@
 package org.skyluc.neki_site
 
-import org.skyluc.fan_resources.data.Datum
 import org.skyluc.fan_resources.element2data.DataTransformer
 import org.skyluc.fan_resources.html.SiteOutput
 import org.skyluc.fan_resources.yaml.YamlReader
 import org.skyluc.neki_site.checks.DataCheck
-import org.skyluc.neki_site.data.ChronologyPage
 import org.skyluc.neki_site.data.Data
 import org.skyluc.neki_site.data2Page.DataToPage
 import org.skyluc.neki_site.element2data.ElementToData
@@ -34,21 +32,13 @@ object Main {
     val (toDataErrors, datums) =
       DataTransformer.toData(elements, ElementToData)
 
-    // hacky: adds markers from chronology page. TODO: do better ...
-    val markers: Seq[Datum[?]] = datums.flatMap {
-      case c: ChronologyPage =>
-        c.chronology.markers
-      case _ =>
-        Nil
-    }
-
     println("TODATA ERRORS: ")
     toDataErrors.foreach { e =>
       println("  " + e)
     }
     println("--------------")
 
-    val data = Data(datums ++ markers)
+    val data = Data(datums)
 
     val (checkErrors, checkedData) = DataCheck.check(data)
 

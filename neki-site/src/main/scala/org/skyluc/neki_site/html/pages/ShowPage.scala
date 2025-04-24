@@ -17,7 +17,7 @@ class ShowPage(show: Show, description: PageDescription, compilers: Compilers)
     val largeDetails =
       LargeDetails.generate(compilers.elementDataCompiler.get(show))
 
-    val multimediaBlock = compilers.multimediaDataCompiler.get(show.multimedia, show.linkedTo)
+    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(show)
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Show.FROM_KEY)
 
@@ -41,7 +41,7 @@ object ShowPage {
   val VALUE_EVENT_PAGE = "event page"
 
   def pagesFor(show: Show, compilers: Compilers): Seq[SitePage] = {
-    val extraPath = if (show.multimedia.extra(show.linkedTo).isEmpty) {
+    val extraPath = if (show.multimedia.extra(show.linkedTo, compilers.data).isEmpty) {
       None
     } else {
       Some(show.id.path.insertSecond(Common.EXTRA))

@@ -1,151 +1,78 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.fan_resources.data.Album
-import org.skyluc.fan_resources.data.AlbumMarker
-import org.skyluc.fan_resources.data.BaseMarker
-import org.skyluc.fan_resources.data.Credits
-import org.skyluc.fan_resources.data.Datum
-import org.skyluc.fan_resources.data.FileCoverImage
-import org.skyluc.fan_resources.data.LocalImage
-import org.skyluc.fan_resources.data.Lyrics
-import org.skyluc.fan_resources.data.MediaAudio
-import org.skyluc.fan_resources.data.MediaMarker
-import org.skyluc.fan_resources.data.MediaWritten
-import org.skyluc.fan_resources.data.MultiMediaMarker
-import org.skyluc.fan_resources.data.PostX
-import org.skyluc.fan_resources.data.PostXImage
-import org.skyluc.fan_resources.data.Show
-import org.skyluc.fan_resources.data.ShowMarker
-import org.skyluc.fan_resources.data.Song
-import org.skyluc.fan_resources.data.SongMarker
-import org.skyluc.fan_resources.data.Source
-import org.skyluc.fan_resources.data.Tour
-import org.skyluc.fan_resources.data.YouTubeShort
-import org.skyluc.fan_resources.data.YouTubeVideo
-import org.skyluc.fan_resources.data.Zaiko
-import org.skyluc.neki_site.data.ChronologyPage
-import org.skyluc.neki_site.data.MusicPage
-import org.skyluc.neki_site.data.Processor
-import org.skyluc.neki_site.data.ShowsPage
-import org.skyluc.neki_site.data.Site
-import org.skyluc.neki_site.html.SourcesExtractor.DatumEntry
-import org.skyluc.neki_site.html.pages.ShowPage
-import org.skyluc.neki_site.html.pages.SongPage
+import org.skyluc.fan_resources.data.{Processor as _, *}
+import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceCategory
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceEntry
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceItem
-import org.skyluc.neki_site.html.pages.TourPage
 
-object SourcesExtractor extends Processor[Option[DatumEntry]] {
+class SourcesExtractor(compilers: Compilers) extends Processor[Seq[SourcesExtractor.DatumEntry]] {
 
-  override def processAlbumMarker(albumMarker: AlbumMarker): Option[DatumEntry] = None
+  import SourcesExtractor.*
+
+  override def processAlbumMarker(albumMarker: AlbumMarker): Seq[DatumEntry] = Nil
 
   // TODO: implement if local image
-  override def processBaseMarker(baseMarker: BaseMarker): Option[DatumEntry] = None
+  override def processBaseMarker(baseMarker: BaseMarker): Seq[DatumEntry] = Nil
 
-  override def processMediaMarker(mediaMarker: MediaMarker): Option[DatumEntry] = None
+  override def processMediaMarker(mediaMarker: MediaMarker): Seq[DatumEntry] = Nil
 
-  override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Option[DatumEntry] = None
+  override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Seq[DatumEntry] = Nil
 
-  override def processShowMarker(showMarker: ShowMarker): Option[DatumEntry] = None
+  override def processShowMarker(showMarker: ShowMarker): Seq[DatumEntry] = Nil
 
-  override def processSongMarker(songMarker: SongMarker): Option[DatumEntry] = None
+  override def processSongMarker(songMarker: SongMarker): Seq[DatumEntry] = Nil
 
-  override def processChronologyPage(chronologyPage: ChronologyPage): Option[DatumEntry] = None
+  override def processChronologyPage(chronologyPage: ChronologyPage): Seq[DatumEntry] = Nil
 
-  override def processMusicPage(musicPage: MusicPage): Option[DatumEntry] = None
+  override def processMusicPage(musicPage: MusicPage): Seq[DatumEntry] = Nil
 
-  override def processSite(site: Site): Option[DatumEntry] = None
+  override def processSite(site: Site): Seq[DatumEntry] = Nil
 
-  override def processShowsPage(showsPage: ShowsPage): Option[DatumEntry] = None
+  override def processShowsPage(showsPage: ShowsPage): Seq[DatumEntry] = Nil
 
-  override def processAlbum(album: Album): Option[DatumEntry] = {
-    val sources = Seq(sourceFromCoverImage(album.coverImage)).flatten
+  override def processAlbum(album: Album): Seq[DatumEntry] = Nil
 
-    if (sources.isEmpty) {
-      None
-    } else {
-      Some(DatumEntry(album.designation, album, sources))
-    }
-
+  override def processLocalImage(localImage: LocalImage): Seq[DatumEntry] = {
+    val compiledDate = compilers.elementDataCompiler.get(localImage.id.itemId)
+    Seq(DatumEntry(compiledDate, toSourceEntry(localImage.source, localImage.label.toLowerCase())))
   }
 
-  override def processLocalImage(localImage: LocalImage): Option[DatumEntry] =
-    None // TODO: associate with its item ?
+  override def processMediaAudio(mediaAudio: MediaAudio): Seq[DatumEntry] = Nil
 
-  override def processMediaAudio(mediaAudio: MediaAudio): Option[DatumEntry] = {
-    val sources = Seq(sourceFromCoverImage(mediaAudio.coverImage)).flatten
+  override def processMediaWritten(mediaWritten: MediaWritten): Seq[DatumEntry] = Nil
 
-    if (sources.isEmpty) {
-      None
-    } else {
-      Some(DatumEntry(mediaAudio.designation, mediaAudio, sources))
-    }
-  }
+  override def processPostX(postX: PostX): Seq[DatumEntry] =
+    Nil // TODO: associate the usage of images to their item
 
-  override def processMediaWritten(mediaWritten: MediaWritten): Option[DatumEntry] = {
-    val sources = Seq(sourceFromCoverImage(mediaWritten.coverImage)).flatten
+  override def processPostXImage(postXImage: PostXImage): Seq[DatumEntry] =
+    Nil // TODO: associate the usage of images to their item
 
-    if (sources.isEmpty) {
-      None
-    } else {
-      Some(DatumEntry(mediaWritten.designation, mediaWritten, sources))
-    }
-  }
+  override def processShow(show: Show): Seq[DatumEntry] = Nil
 
-  override def processPostX(postX: PostX): Option[DatumEntry] =
-    None // TODO: associate the usage of images to their item
+  override def processSong(song: Song): Seq[DatumEntry] = {
 
-  override def processPostXImage(postXImage: PostXImage): Option[DatumEntry] =
-    None // TODO: associate the usage of images to their item
-
-  override def processShow(show: Show): Option[DatumEntry] = {
-    val sources = Seq(sourceFromCoverImage(show.coverImage)).flatten
-
-    if (sources.isEmpty) {
-      None
-    } else {
-      Some(DatumEntry(ShowPage.DESIGNATION, show, sources))
-    }
-  }
-
-  override def processSong(song: Song): Option[DatumEntry] = {
-    val sources = Seq(sourceFromCoverImage(song.coverImage), sourceFromCredits(song.credits)).flatten
+    val sources = Seq(sourceFromCredits(song.credits)).flatten
       ++ sourcesFromLyrics(song.lyrics)
 
-    if (sources.isEmpty) {
-      None
-    } else {
-      Some(DatumEntry(SongPage.DESIGNATION, song, sources))
-    }
+    val compiledData = compilers.elementDataCompiler.get(song)
+
+    sources.map { s => DatumEntry(compiledData, s) }
   }
 
-  override def processTour(tour: Tour): Option[DatumEntry] = {
-    val sources = Seq(sourceFromCoverImage(tour.coverImage)).flatten
+  override def processTour(tour: Tour): Seq[DatumEntry] = Nil
 
-    if (sources.isEmpty) {
-      None
-    } else {
-      Some(DatumEntry(TourPage.DESIGNATION, tour, sources))
-    }
-  }
+  override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[DatumEntry] = Nil
 
-  override def processYouTubeShort(youtubeShort: YouTubeShort): Option[DatumEntry] = None
+  override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Seq[DatumEntry] = Nil
 
-  override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Option[DatumEntry] = None
-
-  override def processZaiko(zaiko: Zaiko): Option[DatumEntry] = None
+  override def processZaiko(zaiko: Zaiko): Seq[DatumEntry] = Nil
 
   // ------------------
+}
 
-  private def sourceFromCoverImage(coverImage: org.skyluc.fan_resources.data.CoverImage): Option[SourceEntry] = {
-    coverImage match {
-      case FileCoverImage(_, source) =>
-        Some(toSourceEntry(source, COVER_IMAGE_LABEL))
-      case _ =>
-        None
-    }
-  }
+object SourcesExtractor {
 
   private def sourceFromCredits(credits: Option[Credits]): Option[SourceEntry] = {
     credits.flatMap { c =>
@@ -168,7 +95,6 @@ object SourcesExtractor extends Processor[Option[DatumEntry]] {
       .getOrElse(Nil)
   }
 
-  val COVER_IMAGE_LABEL = "cover image"
   val CREDITS_LABEL = "credits"
 
   private def toSourceEntry(source: Source, label: String): SourceEntry =
@@ -179,27 +105,29 @@ object SourcesExtractor extends Processor[Option[DatumEntry]] {
     )
 
   case class DatumEntry(
-      designation: String,
-      datum: Datum[?],
-      sources: Seq[SourceEntry],
+      compiledData: ElementCompiledData,
+      source: SourceEntry,
   )
 
   def getAll(compilers: Compilers): Seq[SourceCategory] = {
 
+    val processor = new SourcesExtractor(compilers)
+
     val res = compilers.data.all.values.flatMap { d =>
-      d.process(this)
+      d.process(processor)
     }
 
-    val grouped = res.groupBy(_.designation)
+    val grouped = res.groupBy(_.compiledData.designation)
 
     val fromDatums = grouped.map { t =>
       SourceCategory(
         t._1,
         t._2
-          .map { de =>
+          .groupBy(_.compiledData)
+          .map { t2 =>
             SourceItem(
-              compilers.elementDataCompiler.get(de.datum).label,
-              de.sources.toList,
+              t2._1.label,
+              t2._2.map(_.source).toList,
             )
           }
           .toList

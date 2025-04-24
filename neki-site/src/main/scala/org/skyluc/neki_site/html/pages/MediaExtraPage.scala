@@ -15,7 +15,7 @@ class MediaExtraPage(media: Media, description: PageDescription, compilers: Comp
   override def elementContent(): Seq[BodyElement[?]] = {
     val mediaSection =
       MultiMediaCard.generateExtraMediaSection(
-        compilers.multimediaDataCompiler.get(media.multimedia, media.linkedTo),
+        compilers.multimediaDataCompiler.getBlock(media),
         Media.FROM_KEY,
       )
 

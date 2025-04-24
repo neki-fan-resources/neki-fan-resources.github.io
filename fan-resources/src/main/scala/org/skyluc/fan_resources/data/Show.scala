@@ -16,11 +16,12 @@ case class Show(
     location: String,
     eventPage: Option[String], // TODO: use a special URL type ?
     setlistfm: Option[String],
-    coverImage: CoverImage,
+    coverImage: MultiMediaId,
     multimedia: MultiMediaBlock,
     hasError: Boolean = false,
     linkedTo: Seq[Id[?]] = Nil,
-) extends Element[Show] {
+) extends Element[Show]
+    with WithMultimedia {
 
   override def process[T](processor: Processor[T]): T =
     processor.processShow(this)
@@ -51,7 +52,7 @@ case class Tour(
     firstDate: Date,
     lastDate: Date,
     eventPage: Option[String],
-    coverImage: CoverImage,
+    coverImage: MultiMediaId,
     shows: List[ShowId],
     hasError: Boolean = false,
     linkedTo: Seq[Id[?]] = Nil,

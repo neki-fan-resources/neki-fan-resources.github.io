@@ -12,12 +12,13 @@ case class Album(
     designation: String,
     description: Option[List[String]],
     releaseDate: Date,
-    coverImage: CoverImage,
+    coverImage: MultiMediaId,
     songs: List[SongId],
     multimedia: MultiMediaBlock,
     hasError: Boolean = false,
     linkedTo: Seq[Id[?]] = Nil,
-) extends Element[Album] {
+) extends Element[Album]
+    with WithMultimedia {
   override def errored(): Album = copy(hasError = true)
 
   override def withLinkedTo(id: Id[?]*): Album = {

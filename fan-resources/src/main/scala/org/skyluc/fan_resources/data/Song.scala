@@ -14,12 +14,13 @@ case class Song(
     releaseDate: Date,
     description: Option[List[String]],
     credits: Option[Credits],
-    coverImage: CoverImage,
+    coverImage: MultiMediaId,
     multimedia: MultiMediaBlock,
     lyrics: Option[Lyrics],
     hasError: Boolean = false,
     linkedTo: Seq[Id[?]] = Nil,
-) extends Element[Song] {
+) extends Element[Song]
+    with WithMultimedia {
 
   override def process[T](processor: Processor[T]): T =
     processor.processSong(this)

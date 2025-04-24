@@ -57,7 +57,7 @@ case class ChronologyPage(
     with WithProcessor {
   val linkedTo: Seq[fr.Id[?]] = Nil
   override def errored(): ChronologyPage = copy(hasError = true)
-  override def withLinkedTo(id: fr.Id[?]*): ShowsPage = ???
+  override def withLinkedTo(id: fr.Id[?]*): ChronologyPage = this
 
   override def process[T](processor: Processor[T]): T =
     processor.processChronologyPage(this)

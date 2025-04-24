@@ -10,7 +10,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -37,7 +37,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -67,7 +67,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -94,7 +94,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -112,7 +112,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -130,7 +130,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -172,7 +172,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -190,7 +190,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -208,7 +208,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -226,7 +226,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -244,7 +244,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -262,7 +262,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
@@ -280,7 +280,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: shibuya eggman X post

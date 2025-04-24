@@ -19,7 +19,7 @@ class SongPage(song: Song, description: PageDescription, compilers: Compilers)
     val largeDetails =
       LargeDetails.generate(compilers.elementDataCompiler.get(song))
 
-    val multimediaBlock = compilers.multimediaDataCompiler.get(song.multimedia, song.linkedTo)
+    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(song)
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Song.FROM_KEY)
 
@@ -45,7 +45,7 @@ object SongPage {
   val DARK_PATH = Path("dark")
 
   def pagesFor(song: Song, compilers: Compilers): Seq[SitePage] = {
-    val extraPath = if (song.multimedia.extra(song.linkedTo).isEmpty) {
+    val extraPath = if (song.multimedia.extra(song.linkedTo, compilers.data).isEmpty) {
       None
     } else {
       Some(song.id.path.insertSecond(Common.EXTRA))

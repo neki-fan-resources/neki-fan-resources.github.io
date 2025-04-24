@@ -7,19 +7,39 @@ import org.skyluc.fan_resources.html.ImageWithOverlayCompiledData
 import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
 import org.skyluc.fan_resources.html.MultiMediaCompiledData
 import org.skyluc.fan_resources.html.Url
-import org.skyluc.neki_site.data.*
+import org.skyluc.neki_site.data.{Site as dSite, *}
+
+import scala.collection.mutable.HashMap
 
 class MultiMediaCompiledDataGenerator(compilers: Compilers) extends Processor[MultiMediaCompiledData] {
 
   import MultiMediaCompiledDataGenerator._
 
-  // TODO: add caching ?
+  val cache = HashMap[Id[?], MultiMediaCompiledData]()
+  val cacheBlock = HashMap[Id[?], MultiMediaBlockCompiledData]()
 
   def get(id: Id[?]): MultiMediaCompiledData = {
-    compilers.data.all.get(id).map(get).getOrElse(MISSING_COMPILED_DATA)
+    cache.getOrElseUpdate(
+      id,
+      compilers.data.all.get(id).map(get).getOrElse(MISSING_COMPILED_DATA),
+    )
   }
 
-  def get(multimediaBlock: MultiMediaBlock, linkedTo: Seq[Id[?]]): MultiMediaBlockCompiledData = {
+  def get(datum: Datum[?]): MultiMediaCompiledData = {
+    cache.getOrElseUpdate(datum.id, datum.process(this))
+  }
+
+  def getBlock(datum: WithMultimedia): MultiMediaBlockCompiledData = {
+    cacheBlock.getOrElseUpdate(
+      datum.id,
+      processBlock(datum),
+    )
+
+  }
+
+  def processBlock(datum: WithMultimedia): MultiMediaBlockCompiledData = {
+    val multimediaBlock = datum.multimedia
+    val linkedTo = datum.linkedTo
     MultiMediaBlockCompiledData(
       multimediaBlock.video.map(id => get(compilers.data.all(id))),
       multimediaBlock.live.map(id => get(compilers.data.all(id))),
@@ -27,12 +47,8 @@ class MultiMediaCompiledDataGenerator(compilers: Compilers) extends Processor[Mu
       multimediaBlock.short.map(id => get(compilers.data.all(id))),
       multimediaBlock.image.map(id => get(compilers.data.all(id))),
       multimediaBlock.additional.map(id => get(compilers.data.all(id))),
-      multimediaBlock.extra(linkedTo).map(id => get(compilers.data.all(id))),
+      multimediaBlock.extra(linkedTo, compilers.data).map(id => get(compilers.data.all(id))),
     )
-  }
-
-  def get(datum: Datum[?]): MultiMediaCompiledData = {
-    datum.process(this)
   }
 
   override def processAlbumMarker(albumMarker: AlbumMarker): MultiMediaCompiledData = ???
@@ -53,7 +69,7 @@ class MultiMediaCompiledDataGenerator(compilers: Compilers) extends Processor[Mu
   override def processLocalImage(localImage: LocalImage): MultiMediaCompiledData = {
     val parent = compilers.data.all(localImage.id.itemId)
 
-    val imageUrl = CoverImage.resolveImageAsset(localImage.filename, parent)
+    val imageUrl = Site.resolveImageAsset(localImage.filename, parent)
 
     MultiMediaCompiledData(
       LocalImage.DESIGNATION,
@@ -186,7 +202,7 @@ class MultiMediaCompiledDataGenerator(compilers: Compilers) extends Processor[Mu
 
   override def processMusicPage(musicPage: MusicPage): MultiMediaCompiledData = ???
 
-  override def processSite(site: Site): MultiMediaCompiledData = ???
+  override def processSite(site: dSite): MultiMediaCompiledData = ???
 
   override def processShowsPage(showsPage: ShowsPage): MultiMediaCompiledData = ???
 
@@ -229,7 +245,7 @@ object MultiMediaCompiledDataGenerator {
   val OVERLAY_LOCAL_IMAGE_ALT = "empty"
 
   val MISSING_URL = Url("/404")
-  val MISSING_IMAGE_URL = Url(CoverImage.BASE_IMAGE_ASSET_PATH.resolve(Path("site", "manekineko-200px.png")))
+  val MISSING_IMAGE_URL = Url(Site.BASE_IMAGE_ASSET_PATH.resolve(Path("site", "manekineko-200px.png")))
 
   val MISSING_COMPILED_DATA = MultiMediaCompiledData(
     Common.SPACE,

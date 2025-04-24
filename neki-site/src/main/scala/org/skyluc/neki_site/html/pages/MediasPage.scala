@@ -10,7 +10,7 @@ import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.neki_site.html.component.Defaults
+import org.skyluc.neki_site.html.Site
 
 // TODO: pass the compiled data version
 class MediasPage(medias: Seq[Media], description: PageDescription, compilers: Compilers)
@@ -62,7 +62,7 @@ object MediasPage {
           None,
           None,
         ),
-        SitePage.absoluteUrl(Defaults.COVER_IMAGE.source),
+        SitePage.absoluteUrl(Site.DEFAULT_COVER_IMAGE.source),
         SitePage.canonicalUrlFor(PAGE_PATH),
         PAGE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

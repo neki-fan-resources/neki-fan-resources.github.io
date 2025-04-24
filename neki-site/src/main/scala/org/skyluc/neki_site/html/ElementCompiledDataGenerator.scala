@@ -6,7 +6,7 @@ import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.html.ElementInfo
 import org.skyluc.fan_resources.html.ImageCompiledData
 import org.skyluc.fan_resources.html.Url
-import org.skyluc.neki_site.data.*
+import org.skyluc.neki_site.data.{Site as dSite, *}
 import org.skyluc.neki_site.html.pages.MediaPage
 import org.skyluc.neki_site.html.pages.ShowPage
 import org.skyluc.neki_site.html.pages.SongPage
@@ -92,7 +92,7 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
       album.description,
       album.releaseDate,
       None,
-      CoverImage.resolve(album.coverImage, album.designation, album.fullname, album, compilers),
+      compilers.multimediaDataCompiler.get(album.coverImage).image.toImageCompiledData(),
       info,
       UrlResolver.resolve(album),
       Album.FROM_KEY,
@@ -131,7 +131,7 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
       mediaAudio.description,
       mediaAudio.publishedDate,
       Some(mediaAudio.publishedDate.toString()),
-      CoverImage.resolve(mediaAudio.coverImage, mediaAudio.designation, mediaAudio.title(), mediaAudio, compilers),
+      compilers.multimediaDataCompiler.get(mediaAudio.coverImage).image.toImageCompiledData(),
       info,
       UrlResolver.resolve(mediaAudio),
       Media.FROM_KEY,
@@ -167,8 +167,7 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
       mediaWritten.description,
       mediaWritten.publishedDate,
       Some(mediaWritten.publishedDate.toString()),
-      CoverImage
-        .resolve(mediaWritten.coverImage, mediaWritten.designation, mediaWritten.title(), mediaWritten, compilers),
+      compilers.multimediaDataCompiler.get(mediaWritten.coverImage).image.toImageCompiledData(),
       info,
       UrlResolver.resolve(mediaWritten),
       Media.FROM_KEY,
@@ -223,7 +222,7 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
       None,
       show.date,
       Some(show.date.toString()),
-      CoverImage.resolve(show.coverImage, ShowPage.DESIGNATION, show.fullname, show, compilers),
+      compilers.multimediaDataCompiler.get(show.coverImage).image.toImageCompiledData(),
       info,
       UrlResolver.resolve(show),
       Show.FROM_KEY,
@@ -259,7 +258,7 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
       song.description,
       song.releaseDate,
       None,
-      CoverImage.resolve(song.coverImage, SongPage.DESIGNATION, song.fullname, song, compilers),
+      compilers.multimediaDataCompiler.get(song.coverImage).image.toImageCompiledData(),
       info,
       UrlResolver.resolve(song),
       Song.FROM_KEY,
@@ -290,7 +289,7 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
       None,
       tour.firstDate,
       None, // TODO: put date range ?
-      CoverImage.resolve(tour.coverImage, TourPage.DESIGNATION, tour.fullname, tour, compilers),
+      compilers.multimediaDataCompiler.get(tour.coverImage).image.toImageCompiledData(),
       info,
       UrlResolver.resolve(tour),
       Tour.FROM_KEY,
@@ -323,7 +322,7 @@ class ElementCompiledDataGenerator(compilers: Compilers) extends Processor[Eleme
 
   override def processMusicPage(musicPage: MusicPage): ElementCompiledData = ???
 
-  override def processSite(site: Site): ElementCompiledData = ???
+  override def processSite(site: dSite): ElementCompiledData = ???
 
   override def processShowsPage(showsPage: ShowsPage): ElementCompiledData = ???
 
@@ -353,7 +352,7 @@ object ElementCompiledDataGenerator {
   val MULTIMEDIA_FROM_KEY = "multimedia"
 
   val MISSING_URL = Url("/404")
-  val MISSING_IMAGE_URL = Url(CoverImage.BASE_IMAGE_ASSET_PATH.resolve(Path("site", "manekineko-200px.png")))
+  val MISSING_IMAGE_URL = Url(Site.BASE_IMAGE_ASSET_PATH.resolve(Path("site", "manekineko-200px.png")))
   val MISSING_IMAGE = ImageCompiledData(MISSING_IMAGE_URL, Common.MISSING, None)
 
   val MISSING_COMPILED_DATA = ElementCompiledData(

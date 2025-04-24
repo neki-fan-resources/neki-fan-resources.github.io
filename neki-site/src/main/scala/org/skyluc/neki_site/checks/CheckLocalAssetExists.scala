@@ -1,10 +1,10 @@
 package org.skyluc.neki_site.checks
 
-import org.skyluc.fan_resources.data.{CoverImage as frCoverImage, Processor as _, *}
+import org.skyluc.fan_resources.data.{Data as _, Processor as _, *}
 import org.skyluc.neki_site.Main
 import org.skyluc.neki_site.checks.DataCheck.Acc
-import org.skyluc.neki_site.data.*
-import org.skyluc.neki_site.html.CoverImage
+import org.skyluc.neki_site.data.{Site as dSite, *}
+import org.skyluc.neki_site.html.Site
 
 import java.nio.file.Files
 import java.nio.file.Path as fPath
@@ -26,16 +26,15 @@ object CheckLocalAssetExists extends Processor[Seq[CheckError]] {
 
   override def processMusicPage(musicPage: MusicPage): Seq[CheckError] = Nil
 
-  override def processSite(site: Site): Seq[CheckError] = Nil
+  override def processSite(site: dSite): Seq[CheckError] = Nil
 
   override def processShowsPage(showsPage: ShowsPage): Seq[CheckError] = Nil
 
-  override def processAlbum(album: Album): Seq[CheckError] = {
-    checkCoverImage(album.id, album.coverImage)
-  }
+  override def processAlbum(album: Album): Seq[CheckError] = Nil
 
   override def processAlbumMarker(albumMarker: AlbumMarker): Seq[CheckError] = Nil
 
+  // TODO-NOW: this is the only one not using a local image
   override def processBaseMarker(baseMarker: BaseMarker): Seq[CheckError] = {
     // strip leading '/'
     val relativeFilename = if (baseMarker.image.startsWith("/")) {
@@ -54,7 +53,7 @@ object CheckLocalAssetExists extends Processor[Seq[CheckError]] {
 
   override def processLocalImage(localImage: LocalImage): Seq[CheckError] = {
     val imagePath = Path(Main.STATIC_PATH)
-      .resolve(CoverImage.BASE_IMAGE_ASSET_PATH)
+      .resolve(Site.BASE_IMAGE_ASSET_PATH)
       .resolve(localImage.id.itemId.path)
       .resolve(localImage.filename)
     if (Files.isRegularFile(imagePath.asFilePath())) {
@@ -64,15 +63,11 @@ object CheckLocalAssetExists extends Processor[Seq[CheckError]] {
     }
   }
 
-  override def processMediaAudio(mediaAudio: MediaAudio): Seq[CheckError] = {
-    checkCoverImage(mediaAudio.id, mediaAudio.coverImage)
-  }
+  override def processMediaAudio(mediaAudio: MediaAudio): Seq[CheckError] = Nil
 
   override def processMediaMarker(mediaMarker: MediaMarker): Seq[CheckError] = Nil
 
-  override def processMediaWritten(mediaWritten: MediaWritten): Seq[CheckError] = {
-    checkCoverImage(mediaWritten.id, mediaWritten.coverImage)
-  }
+  override def processMediaWritten(mediaWritten: MediaWritten): Seq[CheckError] = Nil
 
   override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Seq[CheckError] = Nil
 
@@ -80,44 +75,20 @@ object CheckLocalAssetExists extends Processor[Seq[CheckError]] {
 
   override def processPostXImage(postXImage: PostXImage): Seq[CheckError] = Nil
 
-  override def processShow(show: Show): Seq[CheckError] = {
-    checkCoverImage(show.id, show.coverImage)
-  }
+  override def processShow(show: Show): Seq[CheckError] = Nil
 
   override def processShowMarker(showMarker: ShowMarker): Seq[CheckError] = Nil
 
-  override def processSong(song: Song): Seq[CheckError] = {
-    checkCoverImage(song.id, song.coverImage)
-  }
+  override def processSong(song: Song): Seq[CheckError] = Nil
 
   override def processSongMarker(songMarker: SongMarker): Seq[CheckError] = Nil
 
-  override def processTour(tour: Tour): Seq[CheckError] = {
-    checkCoverImage(tour.id, tour.coverImage)
-  }
+  override def processTour(tour: Tour): Seq[CheckError] = Nil
 
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[CheckError] = Nil
 
   override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Seq[CheckError] = Nil
 
   override def processZaiko(zaiko: Zaiko): Seq[CheckError] = Nil
-
-  /** @return
-    *   true if there is a problem with a local asset for the cover image
-    */
-  private def checkCoverImage(id: Id[?], coverImage: frCoverImage): Seq[CheckError] = {
-    coverImage match {
-      case FileCoverImage(filename, _) =>
-        val imagePath =
-          Path(Main.STATIC_PATH).resolve(CoverImage.BASE_IMAGE_ASSET_PATH).resolve(id.path).resolve(filename)
-        if (Files.isRegularFile(imagePath.asFilePath())) {
-          Nil
-        } else {
-          Seq(CheckError(id, s"referenced local asset '$filename' is not found"))
-        }
-      case _ =>
-        Nil
-    }
-  }
 
 }

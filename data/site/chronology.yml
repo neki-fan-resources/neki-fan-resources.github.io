@@ -290,6 +290,10 @@ markers:
     id: guitarmagazine05
   short: true
   up: -6
+- media:
+    year: 2025
+    id: bayfm78musicurate
+  short: true
 - show:
     year: 2025
     id: kakumeilogic2025

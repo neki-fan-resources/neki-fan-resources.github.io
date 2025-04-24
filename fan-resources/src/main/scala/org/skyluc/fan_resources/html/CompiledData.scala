@@ -77,18 +77,22 @@ case class ImageCompiledData(
     targetUrl: Option[Url],
 )
 
+// TODO-NOW: still needed ?
 object ImageCompiledData {
   def apply(image: ImageWithOverlayCompiledData): ImageCompiledData =
     ImageCompiledData(image.source, image.alt, None)
 }
 
+// TODO-NOW: rename
 case class ImageWithOverlayCompiledData(
     source: Url,
     overlaySource: Url,
     alt: String,
     overlayAlt: String,
     centerOverlay: Boolean,
-)
+) {
+  def toImageCompiledData(): ImageCompiledData = ImageCompiledData(this)
+}
 
 case class MarkerCompiledData(
     id: String,

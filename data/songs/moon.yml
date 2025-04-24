@@ -7,7 +7,9 @@ album: tricktaking
 release-date: 2025-03-05
 
 cover-image:
-  album: tricktaking
+  imageid:
+    album: tricktaking
+    id: cover
 
 credits:
   lyricist: Kyoko Shiina, NEK!

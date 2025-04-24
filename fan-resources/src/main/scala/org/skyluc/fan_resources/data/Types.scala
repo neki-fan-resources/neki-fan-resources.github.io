@@ -110,6 +110,10 @@ trait Element[T <: Element[T]] extends Item[T] {
   val id: ElementId[T]
 }
 
+trait WithMultimedia extends Datum[?] {
+  val multimedia: MultiMediaBlock
+}
+
 case class Credits(
     lyricist: String,
     composer: String,

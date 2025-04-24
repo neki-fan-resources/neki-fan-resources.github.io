@@ -7,7 +7,9 @@ album: exclamation
 release-date: 2024-07-24
 
 cover-image:
-  album: exclamation
+  imageid:
+    album: exclamation
+    id: cover
 
 credits:
   lyricist: NEK!, Kumoi Haruka

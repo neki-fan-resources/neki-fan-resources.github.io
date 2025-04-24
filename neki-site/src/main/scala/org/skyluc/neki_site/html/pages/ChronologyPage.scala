@@ -18,10 +18,10 @@ import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.neki_site.html.component.Defaults
 
 import Html.*
 import SvgElement.{text as svgText, *}
+import org.skyluc.neki_site.html.Site
 
 class ChronologyPage(
     markersCompiledData: Seq[MarkerCompiledData],
@@ -87,7 +87,7 @@ object ChronologyPage {
             None,
             None,
           ),
-          SitePage.absoluteUrl(Defaults.COVER_IMAGE.source),
+          SitePage.absoluteUrl(Site.DEFAULT_COVER_IMAGE.source),
           SitePage.canonicalUrlFor(PAGE_PATH),
           PAGE_PATH.withExtension(Common.HTML_EXTENSION),
           None,

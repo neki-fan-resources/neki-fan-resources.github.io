@@ -9,9 +9,9 @@ import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.SourcesExtractor
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.neki_site.html.component.Defaults
 
 import Html.*
+import org.skyluc.neki_site.html.Site
 
 class SourcesPage(data: Seq[SourcesPage.SourceCategory], description: PageDescription, compilers: Compilers)
     extends SitePage(description, compilers) {
@@ -126,7 +126,7 @@ object SourcesPage {
           None,
           None,
         ),
-        SitePage.absoluteUrl(Defaults.COVER_IMAGE.source),
+        SitePage.absoluteUrl(Site.DEFAULT_COVER_IMAGE.source),
         SitePage.canonicalUrlFor(PAGE_PATH),
         PAGE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

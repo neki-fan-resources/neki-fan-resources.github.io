@@ -5,6 +5,7 @@ trait MultiMediaId extends ItemId[MultiMedia]
 trait MultiMedia extends Item[MultiMedia] {
 
   val publishedDate: Date
+  val hidden: Boolean = false
 }
 
 case class LocalImageId(
@@ -22,6 +23,8 @@ case class LocalImage(
     filename: String,
     label: String,
     publishedDate: Date,
+    source: Source,
+    override val hidden: Boolean = false,
     linkedTo: Seq[Id[?]] = Nil,
     hasError: Boolean = false,
 ) extends MultiMedia {
@@ -42,6 +45,9 @@ object LocalImage {
   val ID_BASE_PATH = "localimage"
 
   val DESIGNATION = "image"
+
+  val COVER_IMAGE_ID = "cover"
+  val COVER_IMAGE_LABEL = "Cover image"
 }
 
 case class PostXImageId(
@@ -195,11 +201,16 @@ case class MultiMediaBlock(
 ) {
   def all(): List[MultiMediaId] = (video ::: live ::: concert ::: short ::: image ::: additional).distinct
 
-  def extra(relatedTo: Seq[Id[?]]): Seq[MultiMediaId] = {
+  def extra(relatedTo: Seq[Id[?]], data: Data): Seq[MultiMediaId] = {
     val allMultiMediaInMainPage = all()
     val allRelatedMultiMedia: Seq[MultiMediaId] = relatedTo.flatMap {
-      case m: MultiMediaId =>
-        Some(m)
+      case mId: MultiMediaId =>
+        val m = data.get[MultiMedia](mId)
+        if (m.hidden) {
+          None
+        } else {
+          Some(mId)
+        }
       case _ =>
         None
     }

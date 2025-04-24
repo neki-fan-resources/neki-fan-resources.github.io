@@ -11,7 +11,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -29,7 +29,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: Wisteria X post
@@ -72,7 +72,7 @@
         imageId: GoUZ_awWQAAJLU0
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: NEK! X post
@@ -169,7 +169,7 @@
   shared: true
 
   cover-image:
-    file:
+    image:
       filename: cover400.png
       source:
         description: 革命ロジック2025 X post

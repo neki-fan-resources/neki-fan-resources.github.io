@@ -1,26 +1,25 @@
 package org.skyluc.neki_site.element2data
 
-import org.skyluc.neki_site.yaml._
+import org.skyluc.fan_resources.element2data as fr
+import org.skyluc.neki_site.data as d
+import org.skyluc.neki_site.yaml.*
 
-import org.skyluc.fan_resources.{element2data => fr}
-import org.skyluc.fan_resources.data.Datum
 import fr.DataTransformer.ToDataError
 
-import org.skyluc.neki_site.{data => d}
+object ElementToData extends fr.ElementToData with Processor[ToDataError, fr.ElementToData.Result] {
+  import fr.ElementToData._
 
-object ElementToData extends fr.ElementToData with Processor[ToDataError, Datum[?]] {
+  override def processChronologyPage(chronologyPage: ChronologyPage): Either[ToDataError, Result] =
+    toChronologyPage(chronologyPage).map(d => Result(d, d.chronology.markers))
 
-  override def processChronologyPage(chronologyPage: ChronologyPage): Either[ToDataError, Datum[?]] =
-    toChronologyPage(chronologyPage)
+  override def processMusicPage(musicPage: MusicPage): Either[ToDataError, Result] =
+    toMusicPage(musicPage).map(d => Result(d))
 
-  override def processMusicPage(musicPage: MusicPage): Either[ToDataError, Datum[?]] =
-    toMusicPage(musicPage)
+  override def processShowsPage(showsPage: ShowsPage): Either[ToDataError, Result] =
+    toShowsPage(showsPage).map(d => Result(d))
 
-  override def processShowsPage(showsPage: ShowsPage): Either[ToDataError, Datum[?]] =
-    toShowsPage(showsPage)
-
-  override def processSite(site: Site): Either[ToDataError, Datum[?]] =
-    toSite(site)
+  override def processSite(site: Site): Either[ToDataError, Result] =
+    toSite(site).map(d => Result(d))
 
   def toBand(band: Band): d.Band = {
     d.Band(

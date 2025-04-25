@@ -1,6 +1,8 @@
 package org.skyluc.neki_site.data2Page
 
 import org.skyluc.fan_resources.data.{Processor as _, *}
+import org.skyluc.fan_resources.html.Page
+import org.skyluc.fan_resources.html.pages.SitemapPage
 import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.SitePage
@@ -14,7 +16,7 @@ import org.skyluc.neki_site.html.pages.{
 
 class DataToPage(compilers: Compilers) extends Processor[Seq[SitePage]] {
 
-  def generate(datums: Seq[Datum[?]]): Seq[SitePage] = {
+  def generate(datums: Seq[Datum[?]]): Seq[Page] = {
     // fix pages
     val fixPages: Seq[SitePage] =
       Seq(
@@ -27,7 +29,9 @@ class DataToPage(compilers: Compilers) extends Processor[Seq[SitePage]] {
     // pages from datums (without errors)
     val res = datums.filterNot(_.hasError).map(_.process(this)).flatten
 
-    fixPages ++ res
+    val allPages = fixPages ++ res
+
+    allPages :+ SitemapPage(allPages)
   }
 
   override def processAlbumMarker(albumMarker: AlbumMarker): Seq[SitePage] = NO_DATA

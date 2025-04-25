@@ -30,6 +30,7 @@ case class Album(
 trait WithLocalImageId {
   val album: Option[String]
   val media: Option[MediaId]
+  val show: Option[ShowId]
   val song: Option[String]
   val tour: Option[String]
   val id: String
@@ -43,6 +44,7 @@ case class LocalImageEmbbeded(
 case class LocalImage(
     album: Option[String],
     media: Option[MediaId],
+    show: Option[ShowId],
     song: Option[String],
     tour: Option[String],
     id: String,
@@ -255,6 +257,7 @@ case class Id(
 case class LocalImageId(
     album: Option[String],
     media: Option[MediaId],
+    show: Option[ShowId],
     song: Option[String],
     tour: Option[String],
     id: String,

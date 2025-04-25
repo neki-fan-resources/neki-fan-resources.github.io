@@ -219,6 +219,7 @@ class ElementToData extends Processor[ToDataError, ElementToData.Result] {
     val candidates: List[d.ItemId[?]] = List(
       localImageId.album.map(d.AlbumId(_)),
       localImageId.media.map(toMediaId),
+      localImageId.show.map(toShowId),
       localImageId.song.map(d.SongId(_)),
       localImageId.tour.map(d.TourId(_)),
     ).flatten

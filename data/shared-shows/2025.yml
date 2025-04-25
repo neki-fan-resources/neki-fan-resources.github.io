@@ -153,8 +153,6 @@
     - id: GoUZ_awWQAAJLU0
       label: on stage
       info: Hika
-    
-
 
 - type: show
   year: 2025
@@ -174,3 +172,42 @@
       source:
         description: 革命ロジック2025 X post
         url: https://x.com/kakumei_holic/status/1903038891042673069
+
+
+- type: show
+  year: 2025
+  id: nekikomsumetokyo
+
+  fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+  shortname: 「NEK!/komsume TWO-MAN SHOW」
+  sublabel: Tokyo
+  date: 2025-06-02
+  location: 下北沢 Shelter
+  # event-page: TODO: not yet listed at https://www.loft-prj.co.jp/schedule/shelter
+  shared: true
+
+  cover-image:
+    image:
+      filename: cover400.png
+      source:
+        description: NEK! note post
+        url: https://note.com/nekiband_jp/n/nb50d1c0b1dd3
+
+- type: show
+  year: 2025
+  id: nekikomsumeosaka
+
+  fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+  shortname: 「NEK!/komsume TWO-MAN SHOW」
+  sublabel: Osaka
+  date: 2025-07-18
+  location: LIVE SQUARE 2nd LINE
+  # event-page: TODO: not yet listed at http://www.arm-live.com/2nd/schedule/schedule_2025_07.html
+  shared: true
+
+  cover-image:
+    imageid:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+      id: cover

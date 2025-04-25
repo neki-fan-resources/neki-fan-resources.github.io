@@ -34,6 +34,7 @@ multimedia:
   - youtubeshort: EzpPj7pVf6Y
   - youtubeshort: qFiKgQ5mNgQ
   short:
+  - youtubeshort: CUgtBUOxL1w
   - youtubeshort: nDKETw7zIX4
   - youtubeshort: yzKuHzF-YNk
   - youtubeshort: 2hdeizLF6LI
@@ -137,6 +138,11 @@ related:
   label: Recording
   info: having fun with the camera
   published-date: 2025-04-08
+- type: youtubeshort
+  id: CUgtBUOxL1w
+  label: Reaction
+  info: discovering the music video
+  published-date: 2025-04-25
 
 
 lyrics:

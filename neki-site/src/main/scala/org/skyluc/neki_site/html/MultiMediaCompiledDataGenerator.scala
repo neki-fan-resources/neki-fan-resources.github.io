@@ -222,7 +222,7 @@ object MultiMediaCompiledDataGenerator {
 
   // YouTube video and short
   val DESIGNATION_YOUTUBE_VIDEO = "YouTube video"
-  val DESIGNATION_YOUTUBE_SHORT = "YouTube video"
+  val DESIGNATION_YOUTUBE_SHORT = "YouTube short"
   val OVERLAY_YOUTUBE_SOURCE = Url(OVERLAY_PATH.resolve("youtube.svg"))
   val OVERLAY_YOUTUBE_ALT = "YouTube logo"
   val URL_YOUTUBE_VIDEO = "https://www.youtube.com/watch?v="

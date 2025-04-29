@@ -336,6 +336,10 @@
 
   published-date: 2025-05-02
 
+  multimedia:
+    short:
+    - youtubeshort: NNc3Tau8YAY
+
   description:
   - Hika and Natsu will be guests of the show 'RADIO DRAGON-NEXT-' on TOKYO FM.
 
@@ -370,3 +374,8 @@
     - id: Gpna--PbsAA7UwP
       label: still image of the video
     # has a video
+  - type: youtubeshort
+    id: NNc3Tau8YAY
+    label: AI Beer
+    info: At the time of the recording ?
+    published-date: 2025-04-28

@@ -8,10 +8,10 @@ import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data.Site
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class ShowPage(
     show: ElementCompiledData,
@@ -45,15 +45,16 @@ object ShowPage {
   val VALUE_SETLIST = "setlist.fm"
   val VALUE_EVENT_PAGE = "event page"
 
-  def pagesFor(show: Show, compilers: Compilers): Seq[SitePage] = {
-    val extraPath = if (show.multimedia.extra(show.linkedTo, compilers.data).isEmpty) {
+  def pagesFor(show: Show, site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
+
+    val compiledData = generator.getElement(show)
+    val multimediaBlock = generator.getMultiMediaBlock(show)
+
+    val extraPath = if (multimediaBlock.extra.isEmpty) {
       None
     } else {
       Some(show.id.path.insertSecond(Common.EXTRA))
     }
-
-    val compiledData = compilers.elementDataCompiler.get(show)
-    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(show)
 
     val mainPage = ShowPage(
       compiledData,
@@ -82,7 +83,7 @@ object ShowPage {
         extraPath.map(SitePage.urlFor(_)),
         false,
       ),
-      compilers.data.site,
+      site,
     )
 
     extraPath
@@ -114,7 +115,7 @@ object ShowPage {
             None,
             false,
           ),
-          compilers.data.site,
+          site,
         )
         Seq(extraPage, mainPage)
       }

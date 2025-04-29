@@ -2,13 +2,13 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Tour
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.html.component.LargeDetails
 import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data.Site
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
@@ -46,12 +46,12 @@ object TourPage {
 
   // -------------
 
-  def pagesFor(tour: Tour, compilers: Compilers): Seq[SitePage] = {
+  def pagesFor(tour: Tour, site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
 
-    val compiledData = compilers.elementDataCompiler.get(tour)
+    val compiledData = generator.getElement(tour)
 
     val shows =
-      tour.shows.map(compilers.elementDataCompiler.get(_))
+      tour.shows.map(generator.getElement(_))
 
     Seq(
       TourPage(
@@ -81,7 +81,7 @@ object TourPage {
           None,
           false,
         ),
-        compilers.data.site,
+        site,
       )
     )
   }

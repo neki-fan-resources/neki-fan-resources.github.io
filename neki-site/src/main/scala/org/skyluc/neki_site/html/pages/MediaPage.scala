@@ -10,12 +10,12 @@ import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.*
 import org.skyluc.neki_site.data.Site
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class MediaPage(
     media: Media,
@@ -93,16 +93,16 @@ object MediaPage {
   val VALUE_PUBLICATION_PAGE = "publication page"
   val VALUE_ARTICLE = "article"
 
-  def pageFor(media: Media, compilers: Compilers): Seq[SitePage] = {
-    val extraPath = if (media.multimedia.extra(media.linkedTo, compilers.data).isEmpty) {
+  def pageFor(media: Media, site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
+    val multimediaBlock = generator.getMultiMediaBlock(media)
+
+    val extraPath = if (multimediaBlock.extra.isEmpty) {
       None
     } else {
       Some(media.id.path.insertSecond(Common.EXTRA))
     }
 
-    val compiledData = compilers.elementDataCompiler.get(media)
-
-    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(media)
+    val compiledData = generator.getElement(media)
 
     val mainPage = MediaPage(
       media,
@@ -132,7 +132,7 @@ object MediaPage {
         extraPath.map(SitePage.urlFor(_)),
         false,
       ),
-      compilers.data.site,
+      site,
     )
     extraPath
       .map { extraPath =>
@@ -163,7 +163,7 @@ object MediaPage {
             None,
             false,
           ),
-          compilers.data.site,
+          site,
         )
         Seq(extraPage, mainPage)
       }

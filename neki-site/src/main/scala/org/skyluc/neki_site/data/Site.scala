@@ -1,6 +1,7 @@
 package org.skyluc.neki_site.data
 
 import org.skyluc.fan_resources.data.{Processor as _, ProcessorWithError as _, WithProcessor as _, *}
+import org.skyluc.fan_resources.BaseError
 
 case class Site(
     navigation: Navigation,
@@ -17,7 +18,7 @@ case class Site(
   override def process[T](processor: Processor[T]): T =
     processor.processSite(this)
 
-  override def process[E, A](processor: ProcessorWithError[E, A]): Either[E, A] = {
+  override def process[A](processor: ProcessorWithError[A]): Either[BaseError, A] = {
     processor.processSite(this)
   }
 

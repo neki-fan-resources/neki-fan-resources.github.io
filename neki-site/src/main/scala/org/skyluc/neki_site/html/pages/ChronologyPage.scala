@@ -4,6 +4,7 @@ import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Date
 import org.skyluc.fan_resources.data.Date.DateTick
 import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.ElementInfo
 import org.skyluc.fan_resources.html.MarkerCompiledData
 import org.skyluc.fan_resources.html.MarkerCompiledDataDetails
@@ -15,7 +16,6 @@ import org.skyluc.html.*
 import org.skyluc.neki_site.data.ChronologyPage as dChronologyPage
 import org.skyluc.neki_site.data.Site as dSite
 import org.skyluc.neki_site.html.ChronoloyMarkerProcessor
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
@@ -58,10 +58,10 @@ object ChronologyPage {
 
   val MAIN_INTRO_TEXT = "The main events in the NEK! story. Song and EP releases, shows, tours, interviews, ..."
 
-  def pagesFor(chronologyPage: dChronologyPage, compilers: Compilers): Seq[SitePage] = {
+  def pagesFor(chronologyPage: dChronologyPage, site: dSite, generator: CompiledDataGenerator): Seq[SitePage] = {
     val refDay = chronologyPage.chronology.startDate.epochDay()
 
-    val processor = ChronoloyMarkerProcessor(refDay, compilers)
+    val processor = ChronoloyMarkerProcessor(refDay, generator)
 
     val markersCompiledData = chronologyPage.chronology.markers.map(processor.process)
 
@@ -95,7 +95,7 @@ object ChronologyPage {
           None,
           false,
         ),
-        compilers.data.site,
+        site,
       )
 
     Seq(mainPage)
@@ -177,7 +177,7 @@ object ChronologySvg {
 
     g()
       .withClass(if (marker.left) CLASS_CHRONOLOGY_MARKER_LEFT else CLASS_CHRONOLOGY_MARKER_RIGHT)
-      .withClass(marker.`class`)
+      .withClass(s"chronology_${marker.`class`}_marker")
       .appendElements(line)
       .appendElements(
         g()

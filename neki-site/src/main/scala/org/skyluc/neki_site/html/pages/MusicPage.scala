@@ -9,11 +9,11 @@ import org.skyluc.fan_resources.html.component.MainIntro
 import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data as d
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class MusicPage(music: LayeredData[ElementCompiledData], pageDescription: PageDescription, site: d.Site)
     extends SitePage(pageDescription, site) {
@@ -36,16 +36,16 @@ object MusicPage {
 
   val PAGE_PATH = Path("music")
 
-  def pagesFor(musicPage: d.MusicPage, compilers: Compilers): Seq[SitePage] = {
+  def pagesFor(musicPage: d.MusicPage, site: d.Site, generator: CompiledDataGenerator): Seq[SitePage] = {
 
     val music: LayeredData[ElementCompiledData] = musicPage.music.map {
       case a: AlbumId =>
         LayeredNode(
-          compilers.elementDataCompiler.get(a),
-          compilers.data.get(a).songs.map { s => LayeredNode(compilers.elementDataCompiler.get(s)) },
+          generator.getElement(a),
+          generator.get(a).songs.map { s => LayeredNode(generator.getElement(s)) },
         )
       case s: SongId =>
-        LayeredNode(compilers.elementDataCompiler.get(s))
+        LayeredNode(generator.getElement(s))
     }
 
     val mainPage = MusicPage(
@@ -74,7 +74,7 @@ object MusicPage {
         None,
         false,
       ),
-      compilers.data.site,
+      site,
     )
 
     Seq(mainPage)

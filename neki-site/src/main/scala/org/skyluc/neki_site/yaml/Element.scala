@@ -2,20 +2,21 @@ package org.skyluc.neki_site.yaml
 
 import org.skyluc.fan_resources.yaml.{Processor => frProcessor, WithProcessor => frWithProcessor, _}
 import org.virtuslab.yaml.YamlCodec
+import org.skyluc.fan_resources.BaseError
 
 trait WithProcessor extends frWithProcessor {
 
   // TODO: better error
-  override def process[E, A](processor: frProcessor[E, A]): Either[E, A] = {
+  override def process[A](processor: frProcessor[A]): Either[BaseError, A] = {
     processor match {
-      case p: Processor[E, A] =>
+      case p: Processor[A] =>
         process(p)
       case _ =>
         throw new NotImplementedError("A processor for neki_site elements is required")
     }
   }
 
-  def process[E, A](processor: Processor[E, A]): Either[E, A]
+  def process[E, A](processor: Processor[A]): Either[BaseError, A]
 }
 
 // TODO-NOW: Chronology its own type in FR
@@ -28,7 +29,7 @@ case class ChronologyPage(
     with WithProcessor
     derives YamlCodec {
 
-  override def process[E, A](processor: Processor[E, A]): Either[E, A] =
+  override def process[E, A](processor: Processor[A]): Either[BaseError, A] =
     processor.processChronologyPage(this)
 }
 
@@ -39,7 +40,7 @@ case class MusicPage(
     with WithProcessor
     derives YamlCodec {
 
-  override def process[E, A](processor: Processor[E, A]): Either[E, A] =
+  override def process[E, A](processor: Processor[A]): Either[BaseError, A] =
     processor.processMusicPage(this)
 }
 
@@ -50,7 +51,7 @@ case class ShowsPage(
     with WithProcessor
     derives YamlCodec {
 
-  override def process[E, A](processor: Processor[E, A]): Either[E, A] =
+  override def process[E, A](processor: Processor[A]): Either[BaseError, A] =
     processor.processShowsPage(this)
 }
 
@@ -64,7 +65,7 @@ case class Site(
     with WithProcessor
     derives YamlCodec {
 
-  override def process[E, A](processor: Processor[E, A]): Either[E, A] =
+  override def process[E, A](processor: Processor[A]): Either[BaseError, A] =
     processor.processSite(this)
 }
 

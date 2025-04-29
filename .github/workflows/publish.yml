@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Checkout fan-resources
+        uses: actions/checkout@v4
+        with:
+          repository: skyluc/fan-resources
+          token: ${{ secrets.FR_PAT }} 
+          path: fan-resources
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

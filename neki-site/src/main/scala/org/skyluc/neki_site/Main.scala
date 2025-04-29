@@ -2,12 +2,12 @@ package org.skyluc.neki_site
 
 import org.skyluc.fan_resources.element2data.DataTransformer
 import org.skyluc.fan_resources.html.SiteOutput
+import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
 import org.skyluc.fan_resources.yaml.YamlReader
 import org.skyluc.neki_site.checks.DataCheck
 import org.skyluc.neki_site.data.Data
 import org.skyluc.neki_site.data2Page.DataToPage
 import org.skyluc.neki_site.element2data.ElementToData
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.yaml.NodeToElement
 
 import java.nio.file.Paths
@@ -48,13 +48,14 @@ object Main {
     }
     println("--------------")
 
-    val compilers = Compilers(checkedData)
+    val generator = CompiledDataGeneratorBuilder.generator(checkedData.all.values.toSeq)
 
-    val pages = DataToPage(compilers).generate(checkedData.all.values.toSeq)
+    val pages =
+      DataToPage(generator, checkedData.site).generate(checkedData.all.values.toSeq)
 
     println(s"nb of pages: ${pages.size}")
 
-    SiteOutput.generate(pages, staticFolder, outputFolder)
+    SiteOutput.generate(pages, Seq(staticFolder), outputFolder)
 
   }
 

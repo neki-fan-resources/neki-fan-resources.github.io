@@ -10,10 +10,10 @@ import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data.Site
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class AlbumPage(
     album: ElementCompiledData,
@@ -53,20 +53,20 @@ object AlbumPage {
 
   val SECTION_SONGS = "Songs"
 
-  def pagesFor(album: Album, compilers: Compilers): Seq[SitePage] = {
+  def pagesFor(album: Album, site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
+
+    val compiledData = generator.getElement(album)
+
+    val songs = album.songs.map(generator.getElement)
+
+    val multimediaBlock = generator.getMultiMediaBlock(album)
 
     // TODO: used the information from the multimedia block compiledData (need to be cached)
-    val extraPath = if (album.multimedia.extra(album.linkedTo, compilers.data).isEmpty) {
+    val extraPath = if (multimediaBlock.extra.isEmpty) {
       None
     } else {
       Some(album.id.path.insertSecond(Common.EXTRA))
     }
-
-    val compiledData = compilers.elementDataCompiler.get(album)
-
-    val songs = album.songs.map(compilers.elementDataCompiler.get)
-
-    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(album)
 
     // No dark page support for albums yet
     // val (pagePath, oppositePagePath) =
@@ -100,7 +100,7 @@ object AlbumPage {
         extraPath.map(SitePage.urlFor(_)),
         false,
       ),
-      compilers.data.site,
+      site,
     )
 
     extraPath
@@ -132,7 +132,7 @@ object AlbumPage {
             None,
             false,
           ),
-          compilers.data.site,
+          site,
         )
         Seq(extraPage, mainPage)
       }

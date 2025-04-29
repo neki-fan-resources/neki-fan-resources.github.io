@@ -1,6 +1,7 @@
 package org.skyluc.neki_site.data
 
 import org.skyluc.fan_resources.data as fr
+import org.skyluc.fan_resources.BaseError
 
 case class PageId(id: String) extends fr.ElementId[Page] {
   import Pages._
@@ -24,7 +25,7 @@ case class MusicPage(
   override def process[T](processor: Processor[T]): T =
     processor.processMusicPage(this)
 
-  override def process[E, A](processor: ProcessorWithError[E, A]): Either[E, A] = {
+  override def process[A](processor: ProcessorWithError[A]): Either[BaseError, A] = {
     processor.processMusicPage(this)
   }
 
@@ -43,7 +44,7 @@ case class ShowsPage(
   override def process[T](processor: Processor[T]): T =
     processor.processShowsPage(this)
 
-  override def process[E, A](processor: ProcessorWithError[E, A]): Either[E, A] = {
+  override def process[A](processor: ProcessorWithError[A]): Either[BaseError, A] = {
     processor.processShowsPage(this)
   }
 
@@ -62,7 +63,7 @@ case class ChronologyPage(
   override def process[T](processor: Processor[T]): T =
     processor.processChronologyPage(this)
 
-  override def process[E, A](processor: ProcessorWithError[E, A]): Either[E, A] = {
+  override def process[A](processor: ProcessorWithError[A]): Either[BaseError, A] = {
     processor.processChronologyPage(this)
   }
 

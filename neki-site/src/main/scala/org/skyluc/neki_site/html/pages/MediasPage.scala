@@ -8,11 +8,12 @@ import org.skyluc.fan_resources.html.component.MainIntro
 import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data.Site as dSite
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.fan_resources.html.CompiledDataGenerator
+import org.skyluc.fan_resources.data.Datum
 
 class MediasPage(medias: Seq[ElementCompiledData], description: PageDescription, site: dSite)
     extends SitePage(description, site) {
@@ -36,10 +37,10 @@ object MediasPage {
 
   val PAGE_PATH = Path("medias")
 
-  def pages(compilers: Compilers): Seq[SitePage] = {
-    val medias: Seq[ElementCompiledData] = compilers.data.all.values.flatMap {
+  def pages(datums: Seq[Datum[?]], site: dSite, generator: CompiledDataGenerator): Seq[SitePage] = {
+    val medias: Seq[ElementCompiledData] = datums.flatMap {
       case m: Media =>
-        Some(compilers.elementDataCompiler.get(m))
+        Some(generator.getElement(m))
       case _ =>
         None
     }.toSeq
@@ -70,7 +71,7 @@ object MediasPage {
         None,
         false,
       ),
-      compilers.data.site,
+      site,
     )
 
     Seq(mainPage)

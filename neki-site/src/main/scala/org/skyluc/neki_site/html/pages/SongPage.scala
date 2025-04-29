@@ -10,10 +10,10 @@ import org.skyluc.fan_resources.html.component.LyricsSection
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.html.*
 import org.skyluc.neki_site.data.Site
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class SongPage(
     song: Song,
@@ -50,18 +50,19 @@ object SongPage {
 
   val DARK_PATH = Path("dark")
 
-  def pagesFor(song: Song, compilers: Compilers): Seq[SitePage] = {
-    val extraPath = if (song.multimedia.extra(song.linkedTo, compilers.data).isEmpty) {
+  def pagesFor(song: Song, site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
+
+    val compiledData = generator.getElement(song)
+    val multimediaBlock = generator.getMultiMediaBlock(song)
+
+    val extraPath = if (multimediaBlock.extra.isEmpty) {
       None
     } else {
       Some(song.id.path.insertSecond(Common.EXTRA))
     }
 
-    val compiledData = compilers.elementDataCompiler.get(song)
-    val multimediaBlock = compilers.multimediaDataCompiler.getBlock(song)
-
     val (pagePath, oppositePagePath) =
-      SitePage.pageAndOppositePagePath(song.id, song.id.copy(dark = !song.id.dark), song.id.dark, compilers)
+      SitePage.pageAndOppositePagePath(song.id, song.id.copy(dark = !song.id.dark), song.id.dark, generator)
 
     val mainPage = SongPage(
       song,
@@ -90,8 +91,9 @@ object SongPage {
         oppositePagePath.map(SitePage.urlFor(_)),
         extraPath.map(SitePage.urlFor(_)),
         song.id.dark,
+        false,
       ),
-      compilers.data.site,
+      site,
     )
 
     extraPath
@@ -123,7 +125,7 @@ object SongPage {
             None,
             song.id.dark,
           ),
-          compilers.data.site,
+          site,
         )
         Seq(extraPage, mainPage)
       }

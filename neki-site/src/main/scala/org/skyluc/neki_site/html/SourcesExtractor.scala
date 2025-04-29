@@ -6,8 +6,9 @@ import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceCategory
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceEntry
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceItem
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 
-class SourcesExtractor(compilers: Compilers) extends Processor[Seq[SourcesExtractor.DatumEntry]] {
+class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[SourcesExtractor.DatumEntry]] {
 
   import SourcesExtractor.*
 
@@ -35,7 +36,7 @@ class SourcesExtractor(compilers: Compilers) extends Processor[Seq[SourcesExtrac
   override def processAlbum(album: Album): Seq[DatumEntry] = Nil
 
   override def processLocalImage(localImage: LocalImage): Seq[DatumEntry] = {
-    val compiledDate = compilers.elementDataCompiler.get(localImage.id.itemId)
+    val compiledDate = generator.getElement(localImage.id.itemId)
     Seq(DatumEntry(compiledDate, toSourceEntry(localImage.source, localImage.label.toLowerCase())))
   }
 
@@ -56,7 +57,7 @@ class SourcesExtractor(compilers: Compilers) extends Processor[Seq[SourcesExtrac
     val sources = Seq(sourceFromCredits(song.credits)).flatten
       ++ sourcesFromLyrics(song.lyrics)
 
-    val compiledData = compilers.elementDataCompiler.get(song)
+    val compiledData = generator.getElement(song)
 
     sources.map { s => DatumEntry(compiledData, s) }
   }
@@ -109,11 +110,11 @@ object SourcesExtractor {
       source: SourceEntry,
   )
 
-  def getAll(compilers: Compilers): Seq[SourceCategory] = {
+  def getAll(datums: Seq[Datum[?]], generator: CompiledDataGenerator): Seq[SourceCategory] = {
 
-    val processor = new SourcesExtractor(compilers)
+    val processor = new SourcesExtractor(generator)
 
-    val res = compilers.data.all.values.flatMap { d =>
+    val res = datums.flatMap { d =>
       d.process(processor)
     }
 

@@ -8,7 +8,6 @@ import org.skyluc.html.*
 import org.skyluc.neki_site.data.Member
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.data.SocialMedia
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.NewsBlock
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
@@ -136,9 +135,9 @@ object BandPage {
   val SOCIALMEDIA_BASE_URL_YOUTUBE = "https://www.youtube.com/@"
   val CLASS_BAND_SOCIALS = "band-socials"
 
-  def pages(compilers: Compilers): Seq[SitePage] = {
+  def pages(site: Site): Seq[SitePage] = {
     val mainPage = BandPage(
-      compilers.data.site,
+      site,
       PageDescription(
         TitleAndDescription.formattedTitle(
           None,

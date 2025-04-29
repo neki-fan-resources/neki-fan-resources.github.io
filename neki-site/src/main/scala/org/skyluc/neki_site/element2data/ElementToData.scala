@@ -3,22 +3,21 @@ package org.skyluc.neki_site.element2data
 import org.skyluc.fan_resources.element2data as fr
 import org.skyluc.neki_site.data as d
 import org.skyluc.neki_site.yaml.*
+import org.skyluc.fan_resources.BaseError
 
-import fr.DataTransformer.ToDataError
-
-object ElementToData extends fr.ElementToData with Processor[ToDataError, fr.ElementToData.Result] {
+object ElementToData extends fr.ElementToData with Processor[fr.ElementToData.Result] {
   import fr.ElementToData._
 
-  override def processChronologyPage(chronologyPage: ChronologyPage): Either[ToDataError, Result] =
+  override def processChronologyPage(chronologyPage: ChronologyPage): Either[BaseError, Result] =
     toChronologyPage(chronologyPage).map(d => Result(d, d.chronology.markers))
 
-  override def processMusicPage(musicPage: MusicPage): Either[ToDataError, Result] =
+  override def processMusicPage(musicPage: MusicPage): Either[BaseError, Result] =
     toMusicPage(musicPage).map(d => Result(d))
 
-  override def processShowsPage(showsPage: ShowsPage): Either[ToDataError, Result] =
+  override def processShowsPage(showsPage: ShowsPage): Either[BaseError, Result] =
     toShowsPage(showsPage).map(d => Result(d))
 
-  override def processSite(site: Site): Either[ToDataError, Result] =
+  override def processSite(site: Site): Either[BaseError, Result] =
     toSite(site).map(d => Result(d))
 
   def toBand(band: Band): d.Band = {
@@ -28,7 +27,7 @@ object ElementToData extends fr.ElementToData with Processor[ToDataError, fr.Ele
     )
   }
 
-  def toChronologyPage(chronologyPage: ChronologyPage): Either[ToDataError, d.ChronologyPage] = {
+  def toChronologyPage(chronologyPage: ChronologyPage): Either[BaseError, d.ChronologyPage] = {
     val id = d.PageId(chronologyPage.id)
     for {
       startDate <- toDate(chronologyPage.`start-date`, id)
@@ -60,7 +59,7 @@ object ElementToData extends fr.ElementToData with Processor[ToDataError, fr.Ele
     )
   }
 
-  def toMusicPage(musicPage: MusicPage): Either[ToDataError, d.MusicPage] = {
+  def toMusicPage(musicPage: MusicPage): Either[BaseError, d.MusicPage] = {
     val id = d.PageId(musicPage.id)
     for {
       musicIds <- throughList(musicPage.music, id)(processMusicId)
@@ -69,7 +68,7 @@ object ElementToData extends fr.ElementToData with Processor[ToDataError, fr.Ele
     }
   }
 
-  def toNavigation(navigation: Navigation): Either[ToDataError, d.Navigation] = {
+  def toNavigation(navigation: Navigation): Either[BaseError, d.Navigation] = {
     for {
       main <- throughList(navigation.main)(toNavigationItem)
       support <- throughList(navigation.support)(toNavigationItem)
@@ -78,7 +77,7 @@ object ElementToData extends fr.ElementToData with Processor[ToDataError, fr.Ele
     }
   }
 
-  def toNavigationItem(navigationItem: NavigationItem): Either[ToDataError, d.NavigationItem] = {
+  def toNavigationItem(navigationItem: NavigationItem): Either[BaseError, d.NavigationItem] = {
     Right(d.NavigationItem(navigationItem.name, navigationItem.link, navigationItem.highlight))
   }
 
@@ -86,7 +85,7 @@ object ElementToData extends fr.ElementToData with Processor[ToDataError, fr.Ele
     d.BandNews(newsItem.title, newsItem.content, newsItem.url)
   }
 
-  def toShowsPage(showsPage: ShowsPage): Either[ToDataError, d.ShowsPage] = {
+  def toShowsPage(showsPage: ShowsPage): Either[BaseError, d.ShowsPage] = {
     val id = d.PageId(showsPage.id)
     for {
       showsIds <- throughList(showsPage.shows, id)(toShowOrTourId)
@@ -95,7 +94,7 @@ object ElementToData extends fr.ElementToData with Processor[ToDataError, fr.Ele
     }
   }
 
-  def toSite(site: Site): Either[ToDataError, d.Site] = {
+  def toSite(site: Site): Either[BaseError, d.Site] = {
     val band = toBand(site.band)
     for {
       navigation <- toNavigation(site.navigation)

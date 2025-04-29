@@ -5,7 +5,6 @@ import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.component.MainIntro
 import org.skyluc.html.*
 import org.skyluc.neki_site.data.Site as dSite
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
@@ -13,6 +12,8 @@ import org.skyluc.neki_site.html.SourcesExtractor
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
+import org.skyluc.fan_resources.data.Datum
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class SourcesPage(data: Seq[SourcesPage.SourceCategory], description: PageDescription, site: dSite)
     extends SitePage(description, site) {
@@ -104,9 +105,9 @@ object SourcesPage {
       url: Option[String],
   )
 
-  def pages(compilers: Compilers): Seq[SitePage] = {
+  def pages(datums: Seq[Datum[?]], site: dSite, generator: CompiledDataGenerator): Seq[SitePage] = {
 
-    val data = SourcesExtractor.getAll(compilers)
+    val data = SourcesExtractor.getAll(datums, generator)
 
     val mainPage = SourcesPage(
       data,
@@ -134,7 +135,7 @@ object SourcesPage {
         None,
         false,
       ),
-      compilers.data.site,
+      site,
     )
 
     Seq(mainPage)

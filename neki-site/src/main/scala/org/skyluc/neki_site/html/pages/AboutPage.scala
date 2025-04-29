@@ -6,7 +6,6 @@ import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.fan_resources.html.component.SocialMediaCard
 import org.skyluc.html.*
 import org.skyluc.neki_site.data.Site as dSite
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
@@ -160,7 +159,7 @@ object AboutPage {
 
   val PAGE_PATH = Path("about")
 
-  def pages(compilers: Compilers): Seq[SitePage] = {
+  def pages(site: dSite): Seq[SitePage] = {
     val mainPage = AboutPage(
       PageDescription(
         TitleAndDescription.formattedTitle(
@@ -186,7 +185,7 @@ object AboutPage {
         None,
         false,
       ),
-      compilers.data.site,
+      site,
     )
 
     Seq(mainPage)

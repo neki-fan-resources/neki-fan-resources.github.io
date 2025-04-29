@@ -1,5 +1,6 @@
 package org.skyluc.neki_site.data
 
+import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data as fr
 
 trait WithProcessor extends fr.WithProcessor {
@@ -15,14 +16,14 @@ trait WithProcessor extends fr.WithProcessor {
 
   def process[T](processor: Processor[T]): T
 
-  override def process[E, A](processor: fr.ProcessorWithError[E, A]): Either[E, A] = {
+  override def process[A](processor: fr.ProcessorWithError[A]): Either[BaseError, A] = {
     processor match {
-      case p: ProcessorWithError[E, A] =>
+      case p: ProcessorWithError[A] =>
         process(p)
       case _ =>
         ???
     }
   }
 
-  def process[E, A](processor: ProcessorWithError[E, A]): Either[E, A]
+  def process[A](processor: ProcessorWithError[A]): Either[BaseError, A]
 }

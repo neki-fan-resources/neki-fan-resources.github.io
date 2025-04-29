@@ -2,11 +2,13 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Date
+import org.skyluc.fan_resources.data.Datum
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.data.Show
 import org.skyluc.fan_resources.data.Song
 import org.skyluc.fan_resources.data.YouTubeShortId
 import org.skyluc.fan_resources.data.YouTubeVideoId
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.html.MultiMediaCompiledData
 import org.skyluc.fan_resources.html.component.LineCard
@@ -15,7 +17,6 @@ import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data.Site as dSite
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
@@ -63,11 +64,11 @@ object LivePage {
 
   val PAGE_PATH = Path("live")
 
-  def pages(compilers: Compilers): Seq[SitePage] = {
+  def pages(datums: Seq[Datum[?]], site: dSite, generator: CompiledDataGenerator): Seq[SitePage] = {
 
     // TODO: use processors
 
-    val songWithLive = compilers.data.all.values.flatMap {
+    val songWithLive = datums.flatMap {
       case s: Song =>
         if (s.multimedia.live.isEmpty) {
           None
@@ -87,8 +88,8 @@ object LivePage {
         } else {
           Some(
             ElementAndMultiMedias(
-              compilers.elementDataCompiler.get(t._1),
-              videos.map(compilers.multimediaDataCompiler.get),
+              generator.getElement(t._1),
+              videos.map(generator.getMultiMedia),
             )
           )
         }
@@ -105,8 +106,8 @@ object LivePage {
         } else {
           Some(
             ElementAndMultiMedias(
-              compilers.elementDataCompiler.get(t._1),
-              videos.map(compilers.multimediaDataCompiler.get),
+              generator.getElement(t._1),
+              videos.map(generator.getMultiMedia),
             )
           )
         }
@@ -115,7 +116,7 @@ object LivePage {
       .sortBy(_.multimedias.map(_.date).max)
       .reverse
 
-    val showsWithConcerts = compilers.data.all.values
+    val showsWithConcerts = datums
       .flatMap {
         case s: Show =>
           if (s.multimedia.concert.isEmpty) {
@@ -123,8 +124,8 @@ object LivePage {
           } else {
             Some(
               ElementAndMultiMedias(
-                compilers.elementDataCompiler.get(s),
-                s.multimedia.concert.map(compilers.multimediaDataCompiler.get),
+                generator.getElement(s),
+                s.multimedia.concert.map(generator.getMultiMedia),
               )
             )
           }
@@ -167,7 +168,7 @@ object LivePage {
         None,
         false,
       ),
-      compilers.data.site,
+      site,
     )
 
     Seq(mainPage)

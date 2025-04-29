@@ -11,13 +11,13 @@ import org.skyluc.fan_resources.html.component.MainIntro
 import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.html.*
 import org.skyluc.neki_site.data as d
-import org.skyluc.neki_site.html.Compilers
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.Site
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class ShowsPage(shows: LayeredData[ElementCompiledData], description: PageDescription, site: d.Site)
     extends SitePage(description, site) {
@@ -49,15 +49,15 @@ object ShowsPage {
     text("."),
   )
 
-  def pagesFor(showsPage: d.ShowsPage, compilers: Compilers): Seq[SitePage] = {
+  def pagesFor(showsPage: d.ShowsPage, site: d.Site, generator: CompiledDataGenerator): Seq[SitePage] = {
 
     val shows: LayeredData[ElementCompiledData] = showsPage.shows.map {
       case s: ShowId =>
-        LayeredNode(compilers.elementDataCompiler.get(s))
+        LayeredNode(generator.getElement(s))
       case t: TourId =>
         LayeredNode(
-          compilers.elementDataCompiler.get(t),
-          compilers.data.get(t).shows.map { s => LayeredNode(compilers.elementDataCompiler.get(s)) },
+          generator.getElement(t),
+          generator.get(t).shows.map { s => LayeredNode(generator.getElement(s)) },
         )
     }
 
@@ -87,7 +87,7 @@ object ShowsPage {
         None,
         false,
       ),
-      compilers.data.site,
+      site,
     )
 
     Seq(mainPage)

@@ -1,10 +1,11 @@
 package org.skyluc.neki_site.html
 
 import org.skyluc.fan_resources.data.{Processor as _, *}
+import org.skyluc.fan_resources.html as fr
 import org.skyluc.fan_resources.html.Url
 import org.skyluc.neki_site.data.*
 
-object UrlResolver extends Processor[Url] {
+object UrlResolver extends fr.UrlResolver with Processor[Url] {
 
   def resolve(datum: Datum[?]): Url = {
     datum.process(this)

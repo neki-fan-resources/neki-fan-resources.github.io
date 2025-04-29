@@ -14,6 +14,7 @@ import fr.component.Head as HeadComponents
 import fr.component.OpenGraphSection
 import fr.Url
 import fr.component.ExtraSection
+import fr.CompiledDataGenerator
 
 abstract class SitePage(override val description: PageDescription, site: dSite) extends fr.SitePage {
 
@@ -94,9 +95,9 @@ object SitePage {
       id: Id[?],
       oppositeId: Id[?],
       dark: Boolean,
-      compilers: Compilers,
+      generator: CompiledDataGenerator,
   ): (Path, Option[Path]) = {
-    val oppositeDatum = compilers.data.all.get(oppositeId)
+    val oppositeDatum = generator.getOption(oppositeId)
 
     if (dark) {
       (DARK_PATH.resolve(id.path), oppositeDatum.map(_ => id.path))

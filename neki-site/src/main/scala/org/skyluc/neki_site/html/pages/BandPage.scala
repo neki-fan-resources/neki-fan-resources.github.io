@@ -161,6 +161,7 @@ object BandPage {
         None,
         None,
         false,
+        true,
       ),
     )
 

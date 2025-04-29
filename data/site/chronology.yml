@@ -294,6 +294,11 @@ markers:
     year: 2025
     id: bayfm78musicurate
   short: true
+- media:
+    year: 2025
+    id: tokyofmradiodragonnext
+  up: 2
+  short: true
 - show:
     year: 2025
     id: kakumeilogic2025

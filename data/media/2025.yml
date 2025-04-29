@@ -318,3 +318,55 @@
     id: QxTlwAWRrBM
     label: Picture taking
     published-date: 2025-04-22
+
+
+- type: mediaaudio
+  year: 2025
+  id: tokyofmradiodragonnext
+
+  designation: radio show
+  radio: TOKYO FM
+  show: RADIO DRAGON-NEXT-
+  host: 菅野結以 (Yui Kanno)
+  member:
+    - Hika
+    - Natsu
+  webpage: https://www.tfm.co.jp/dragon/
+  program: https://radiko.jp/#!/ts/FMT/20250503030000
+
+  published-date: 2025-05-02
+
+  description:
+  - Hika and Natsu will be guest of the show 'RADIO DRAGON-NEXT-' on TOKYO FM.
+
+  cover-image:
+    image:
+      filename: cover400.png
+      source:
+        description: RADIO DRAGON-NEXT- radiko page
+        url: https://radiko.jp/#!/ts/FMT/20250503030000
+
+  related:
+  - type: postx
+    id: 1916803944484909355
+    account: nekiband_jp
+    published-date: 2025-04-28
+    info: NEK! at TOKYO FM RADIO DRAGON-NEXT-
+    text: |
+      ⚡️ラジオ出演⚡️
+
+      5/2(金)27:00〜放送
+      TOKYO FM「RADIO DRAGON-NEXT-」
+
+      Vo./Gt. HikaとGt. Natsuが28時台に出演させていただきます📻
+
+      ぜひお聴きください！
+
+      https://tfm.co.jp/dragon/
+
+      #NEKI #TOKYOFM #radiodragon
+      #拡散中 #ネキ界隈 #aiエフェクト
+    image:
+    - id: Gpna--PbsAA7UwP
+      label: still image of the video
+    # has a video

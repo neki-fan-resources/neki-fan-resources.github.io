@@ -43,6 +43,8 @@ object UrlResolver extends fr.UrlResolver with Processor[Url] {
 
   override def processPostXImage(postXImage: PostXImage): Url = ???
 
+  override def processPostXVideo(postXVideo: PostXVideo): Url = ???
+
   override def processShow(show: Show): Url = generateBasic(show)
 
   override def processSong(song: Song): Url = generateBasic(song)

@@ -2,6 +2,7 @@ package org.skyluc.neki_site.data
 
 import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data as fr
+import org.skyluc.fan_resources.SimpleError
 
 trait WithProcessor extends fr.WithProcessor {
 
@@ -21,7 +22,7 @@ trait WithProcessor extends fr.WithProcessor {
       case p: ProcessorWithError[A] =>
         process(p)
       case _ =>
-        ???
+        Left(SimpleError("A processor for neki_site elements is required"))
     }
   }
 

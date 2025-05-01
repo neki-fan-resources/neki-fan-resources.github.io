@@ -18,6 +18,9 @@ tour: tricktakingtour
 
 multimedia:
   short:
+  - postXVideo:
+      postId: 1917865243080024340
+      videoId: addd2cab-345d-429c-a7cf-33e784d81adcGpDoUyLb0AAbEYw
   - youtubeshort: EzpPj7pVf6Y
   - youtubeshort: dSX3EKmcRUc
   - youtubeshort: YKmsB94XMb4
@@ -137,5 +140,24 @@ related:
   published-date: 2025-04-06
   relalted-to:
   - song: getover
+- type: postx
+  id: 1917865243080024340
+  account: coco_102
+  published-date: 2025-05-01
+  info: Cocoro-cam during Get Over, right after anouncing the 1st Zepp concert
+  text: |
+    Zeppワンマンを発表したあとのGet Over🔥
+
+    発表を受けたフロアの笑顔がより一層輝いてて、喜んでもらえて良かった〜とこちらも嬉しくなりながら叩いていました☺️8/30はこの日を超える最高な夜にしよう！！(する！！)
+
+    #NEKI #拡散中 #ネキ界隈
+  video:
+  - id: addd2cab-345d-429c-a7cf-33e784d81adcGpDoUyLb0AAbEYw
+    cover: 1917865155645546496/img/vDh7ZkVxv93tKfNg.jpg
+    label: Cocoro-cam
+    info: right after anouncing the 1st Zepp concert
+    related-to:
+    - song: getover
+
 
 

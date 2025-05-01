@@ -7,7 +7,7 @@ end-date: 2025-10-15
 markers:
 - marker: Formation of NEK!
   date: 2024-02-10
-  image: /asset/image/logo/neki.png
+  image: logo/neki.png
 - show:
     year: 2024
     id: guvol349
@@ -241,7 +241,7 @@ markers:
   up: 6
 - marker: 1 year anniversary
   date: 2025-02-10
-  image: /asset/image/logo/neki.png
+  image: logo/neki.png
   related-multimedia:
     youtubeshort: WI3yV-zKqMU
 - song: zerosum

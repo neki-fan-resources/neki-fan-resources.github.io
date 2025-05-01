@@ -8,6 +8,7 @@ import org.skyluc.neki_site.html.pages.SourcesPage.SourceEntry
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceItem
 import org.skyluc.fan_resources.html.CompiledDataGenerator
 
+// TODO: generalize
 class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[SourcesExtractor.DatumEntry]] {
 
   import SourcesExtractor.*
@@ -48,6 +49,9 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
     Nil // TODO: associate the usage of images to their item
 
   override def processPostXImage(postXImage: PostXImage): Seq[DatumEntry] =
+    Nil // TODO: associate the usage of images to their item
+
+  override def processPostXVideo(postXVideo: PostXVideo): Seq[DatumEntry] =
     Nil // TODO: associate the usage of images to their item
 
   override def processShow(show: Show): Seq[DatumEntry] = Nil

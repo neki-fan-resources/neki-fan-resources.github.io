@@ -1,13 +1,15 @@
 package org.skyluc.neki_site
 
+import org.skyluc.fan_resources.checks.DataCheck
 import org.skyluc.fan_resources.element2data.DataTransformer
 import org.skyluc.fan_resources.html.SiteOutput
-import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
 import org.skyluc.fan_resources.yaml.YamlReader
-import org.skyluc.neki_site.checks.DataCheck
-import org.skyluc.neki_site.data.Data
+import org.skyluc.neki_site.checks.CheckLocalAssetExists
+import org.skyluc.neki_site.checks.PopulateRelatedTo
+import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.data2Page.DataToPage
 import org.skyluc.neki_site.element2data.ElementToData
+import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
 import org.skyluc.neki_site.yaml.NodeToElement
 
 import java.nio.file.Paths
@@ -38,9 +40,7 @@ object Main {
     }
     println("--------------")
 
-    val data = Data(datums)
-
-    val (checkErrors, checkedData) = DataCheck.check(data)
+    val (checkErrors, checkedData) = DataCheck.check(datums, PopulateRelatedTo, CheckLocalAssetExists)
 
     println("CHECKS ERRORS: ")
     checkErrors.foreach { e =>
@@ -48,10 +48,12 @@ object Main {
     }
     println("--------------")
 
-    val generator = CompiledDataGeneratorBuilder.generator(checkedData.all.values.toSeq)
+    val generator = CompiledDataGeneratorBuilder.generator(checkedData)
+
+    val site = generator.get(Site.ID)
 
     val pages =
-      DataToPage(generator, checkedData.site).generate(checkedData.all.values.toSeq)
+      DataToPage(generator, site).generate(checkedData)
 
     println(s"nb of pages: ${pages.size}")
 

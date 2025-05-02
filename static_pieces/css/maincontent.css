@@ -1,0 +1,69 @@
+/* main content layout */
+
+h2 {
+  margin: 3rem 0 1rem 0;
+  padding: 0.1rem 0 0 0.5rem;
+}
+
+.main-intro {
+  margin: 0 0 0 4rem;
+  padding: 0 1rem 0.5rem 1rem;
+}
+
+.main-extra {
+  text-align: end;
+  margin: 1rem 1rem 0 0;
+}
+
+
+.status {
+  margin-left: 1rem;
+  padding: 0 0.5rem 0 0.5rem
+}
+
+
+/* main content styling */
+
+h2 {
+  border-top: solid 1px gray;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+.main-title {
+  margin: 0 0 0 4rem;
+}
+
+.main-intro {
+  font-size: 1rem;
+  line-height: normal;
+  border-bottom: solid 1px lightgray;
+}
+
+.main-extra {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.status {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+}
+
+.status-warning {
+  color: white;
+  background-color: orange;
+}
+
+.status-danger {
+  color: white;
+  background-color: red;
+}
+
+.status-na {
+  color: white;
+  background-color: black;
+}

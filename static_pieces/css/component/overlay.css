@@ -1,0 +1,32 @@
+/* overlay layout */
+
+#main-overlay {
+  border: solid black 0.2rem;
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}
+
+#main-overlay-content {
+  min-height: 2rem;
+  width: 100%;
+}
+
+.main-overlay-close {
+  position: absolute;
+  top: -0.1rem;
+  right: 0.4rem;
+}
+
+/* overlay styling */
+
+#main-overlay {
+  background-color: white;
+  background: var(--gradient-page);
+}
+
+.main-overlay-close {
+  cursor: pointer;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  font-weight: 700;
+  color: var(--color-not-black);
+}

@@ -1,0 +1,42 @@
+/* sources page layout */
+
+.sources-block {
+  margin: 2rem auto 0 auto;
+}
+
+.sources-spacer {
+  width: 0.5rem;
+}
+
+.sources-category-label {
+  padding: 0.05rem 0.2rem 0.05rem 0.2rem;
+}
+
+.sources-item-label {
+  padding: 0.05rem 0.2rem 0.15rem 0.2rem;
+}
+
+
+.sources-entry-label {
+  padding: 0 0.2rem 0.05rem 0.5rem;
+  text-align: right;
+}
+
+/* sources page styling */
+
+.sources-category-label {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  border-top: solid 1px var(--color-not-black);
+}
+
+.sources-item-label {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  border-top: solid 1px var(--color-not-black);
+}
+
+.sources-entry {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+}

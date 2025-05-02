@@ -1,0 +1,31 @@
+/* Variable reference unit depending on the screen */
+
+:root {
+  --base-font-size: 18px;
+  /* Default base size */
+}
+
+/* Media Queries for different screen sizes and devices*/
+@media (max-width: 1023px) {
+  :root {
+    --base-font-size: 16px;
+  }
+}
+
+@media (min-width: 1024) {
+  :root {
+    --base-font-size: 18px;
+  }
+}
+
+@media (min-resolution: 150dpi) and (pointer: coarse) {
+
+  /* High-DPI touch devices */
+  :root {
+    --base-font-size: 22px;
+  }
+}
+
+html {
+  font-size: var(--base-font-size);
+}

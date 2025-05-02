@@ -1,0 +1,52 @@
+/* Colors */
+
+:root {
+  --color-cocoro: #2ba6e1;
+  --color-cocoro-light: rgb(from var(--color-cocoro) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-cocoro-dark: rgb(from var(--color-cocoro) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
+  --color-cocoro-darker: rgb(from var(--color-cocoro) calc(r/2) calc(g/2) calc(b/2));
+  --color-cocoro-50: rgb(from var(--color-cocoro) r g b / 0.5);
+  --color-cocoro-05: rgb(from var(--color-cocoro) r g b / 0.05);
+  --color-hika: #e50112;
+  --color-hika-light: rgb(from var(--color-hika) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-hika-dark: rgb(from var(--color-hika) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
+  --color-hika-50: rgb(from var(--color-hika) r g b / 0.5);
+  --color-hika-10: rgb(from var(--color-hika) r g b / 0.1);
+  --color-kanade: #e2007e;
+  --color-kanade-light: rgb(from var(--color-kanade) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-kanade-lighter: rgb(from var(--color-kanade) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
+  --color-kanade-dark: rgb(from var(--color-kanade) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
+  --color-kanade-50: rgb(from var(--color-kanade) r g b / 0.5);
+  --color-kanade-05: rgb(from var(--color-kanade) r g b / 0.05);
+  --color-natsu: #fff001;
+  --color-natsu-light: rgb(from var(--color-natsu) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-natsu-lighter: rgb(from var(--color-natsu) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
+  --color-natsu-dark: rgb(from var(--color-natsu) calc((r)/2) calc((g)/2) calc((b)/2));
+  --color-natsu-50: rgb(from var(--color-natsu) r g b / 0.5);
+  --color-natsu-10: rgb(from var(--color-natsu) r g b / 0.1);
+  --color-natsu-05: rgb(from var(--color-natsu) r g b / 0.05);
+
+  --color-kanade-cocoro-light: color-mix(in oklab, var(--color-kanade-light), var(--color-cocoro-light));
+  --color-kanade-cocoro-dark: color-mix(in oklab, var(--color-kanade-dark), var(--color-cocoro-dark));
+
+  --color-not-black: darkslategray;
+  --color-not-gray: #d0d0d0;
+  --color-designation: gray;
+
+  --gradient-bar: linear-gradient(120deg,
+      var(--color-kanade-cocoro-light) 0%,
+      var(--color-kanade-light) 5%,
+      var(--color-kanade-light) 20%,
+      var(--color-hika-light) 30%,
+      var(--color-hika-light) 45%,
+      var(--color-natsu-light) 55%,
+      var(--color-natsu-light) 70%,
+      var(--color-cocoro-light) 80%,
+      var(--color-cocoro-light) 95%,
+      var(--color-kanade-cocoro-light) 100%);
+
+  --gradient-page: repeating-linear-gradient(170deg,
+      var(--color-kanade-lighter) 0%,
+      var(--color-natsu-lighter) 60vh,
+      var(--color-kanade-lighter) 120vh);
+}

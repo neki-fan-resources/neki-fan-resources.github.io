@@ -1,0 +1,9 @@
+/* chronology page layout */
+
+.chronology-details-multimedia {
+  border-top: solid 1px var(--color-not-black);
+  margin: 1rem 0 0 0;
+  padding: 0.5rem 0 0 0;
+}
+
+/* chronology page styling */

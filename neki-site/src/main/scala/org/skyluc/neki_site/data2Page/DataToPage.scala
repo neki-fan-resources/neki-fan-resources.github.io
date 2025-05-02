@@ -3,6 +3,7 @@ package org.skyluc.neki_site.data2Page
 import org.skyluc.fan_resources.data.{Processor as _, *}
 import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.Page
+import org.skyluc.fan_resources.html.pages.CssPage
 import org.skyluc.fan_resources.html.pages.SitemapPage
 import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.SitePage
@@ -17,6 +18,36 @@ import org.skyluc.neki_site.html.pages.{
 class DataToPage(generator: CompiledDataGenerator, site: Site) extends Processor[Seq[SitePage]] {
 
   def generate(datums: Seq[Datum[?]]): Seq[Page] = {
+
+    val cssStyles = CssPage(
+      Path("static_pieces", "css"),
+      Seq(
+        Path("colors.css"),
+        Path("referenceunit.css"),
+        Path("pagelayout.css"),
+        Path("pagestyle.css"),
+        Path("maincontent.css"),
+        Path("navbar.css"),
+        Path("footer.css"),
+        Path("aboutpage.css"),
+        Path("bandpage.css"),
+        Path("chronologypage.css"),
+        Path("mediapages.css"),
+        Path("sourcespage.css"),
+        Path("component", "coverimage.css"),
+        Path("component", "largedetails.css"),
+        Path("component", "linecard.css"),
+        Path("component", "lyrics.css"),
+        Path("component", "mediumcard.css"),
+        Path("component", "mediumdetails.css"),
+        Path("component", "multimediacard.css"),
+        Path("component", "newsblock.css"),
+        Path("component", "overlay.css"),
+        Path("component", "smallcard.css"),
+        Path("component", "socialmediacard.css"),
+      ),
+      "styles.css",
+    )
     // fix pages
     val fixPages: Seq[SitePage] =
       Seq(
@@ -31,7 +62,7 @@ class DataToPage(generator: CompiledDataGenerator, site: Site) extends Processor
 
     val allPages = fixPages ++ res
 
-    allPages :+ SitemapPage(allPages)
+    allPages :+ SitemapPage(allPages) :+ cssStyles
   }
 
   override def processAlbumMarker(albumMarker: AlbumMarker): Seq[SitePage] = NO_DATA

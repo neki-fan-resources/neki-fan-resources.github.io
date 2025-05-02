@@ -1,0 +1,73 @@
+/* multimedia card layout */
+
+.multimedia-card {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.chronology-details-multimedia>.multimedia-card {
+  margin: 0 auto 0 auto;
+  display: block;
+  width: max-content;
+}
+
+.multimedia-card-label {
+  margin-bottom: 0.2rem;
+  width: fit-content;
+}
+
+.multimedia-card-image {
+  display: inline-block;
+  width: fit-content;
+  position: relative;
+  margin-bottom: -0.1rem;
+}
+
+.multimedia-card-image-center-over {
+  height: 15%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.multimedia-card-image-top-over {
+  height: 15%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(-25%, 25%);
+}
+
+.multimedia-card-image-under {
+  height: 12rem;
+  min-height: 12rem;
+}
+
+.multimedia-card-sublabel {
+  width: 0px;
+  min-width: 100%;
+}
+
+/* multimedia card style */
+
+.multimedia-card-label {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+.multimedia-card-label-unavailable {
+  text-decoration: line-through 0.1rem var(--color-not-black);
+}
+
+.multimedia-card-sublabel {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  font-weight: 600;
+}
+
+.multimedia-card-image-under {
+  background-color: var(--color-not-black);
+}

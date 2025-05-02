@@ -1,4 +1,4 @@
-import Common._
+import Common.*
 
 lazy val fanResources = Project(id = "fan-resources", base = file("fan-resources"))
 
@@ -24,6 +24,7 @@ lazy val root = (project in file("."))
     Compile / unmanagedResourceDirectories ++= Seq(
       baseDirectory.value / "data",
       baseDirectory.value / "static",
+      baseDirectory.value / "static_pieces",
     ),
   )
   .dependsOn(`neki-site`)

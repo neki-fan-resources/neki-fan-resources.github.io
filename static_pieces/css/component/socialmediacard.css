@@ -1,0 +1,18 @@
+/* socialmedia card layout */
+
+.socialmedia-card,
+.socialmedia-card-link {
+  display: inline-block;
+}
+
+.socialmedia-card-logo {
+  height: 1rem;
+  vertical-align: middle;
+  margin-right: 0.1rem;
+}
+
+/* socialmedia card styling */
+
+.socialmedia-card {
+  color: black;
+}

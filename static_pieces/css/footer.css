@@ -1,0 +1,38 @@
+/* footer layout */
+
+footer {
+  background: var(--gradient-bar);
+  mask-image: linear-gradient(transparent, black 0.2rem, black);
+  padding: 0.2rem 0 0.1rem 0;
+  box-sizing: border-box;
+}
+
+.footer-bottom-right {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.3rem;
+}
+
+.footer-bottom-left {
+  position: absolute;
+  bottom: 0.1rem;
+  left: 0.3rem;
+}
+
+/* footer styling */
+
+footer {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-bottom-left {
+  color: black;
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+  font-weight: 800;
+}

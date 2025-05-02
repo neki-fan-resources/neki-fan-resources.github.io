@@ -1,0 +1,73 @@
+/* large details layout */
+
+.large-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.large-details-main {
+  padding: 0 0 0 1rem;
+}
+
+.large-details-designation {
+  margin: 0.2rem 0 0.3rem 0;
+}
+
+.large-details-description {
+  margin: 1rem 15% 0 0;
+}
+
+.large-details-description p {
+  margin: 0.5rem 0 0.5rem;
+}
+
+.large-details-labels {
+  margin: 0 0 1rem 0;
+}
+
+.large-details-info {
+  padding: 0 0 0 0.5rem;
+}
+
+.large-details-info-label {
+  text-align: right;
+  padding: 0 0.2rem 0 0;
+  vertical-align: baseline;
+}
+
+.large-details-info-value {
+  vertical-align: baseline;
+}
+
+/* large details styling */
+
+.large-details-designation {
+  color: var(--color-designation);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  font-weight: 600;
+}
+
+.large-details-label {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.large-details-sublabel {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.large-details-info-label {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.large-details-info-value {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+}

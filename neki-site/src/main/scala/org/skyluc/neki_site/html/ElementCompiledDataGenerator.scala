@@ -28,7 +28,6 @@ class ElementCompiledDataGenerator(generator: fr.CompiledDataGenerator) extends 
     MISSING_IMAGE,
     Nil,
     MISSING_URL,
-    Common.EMPTY,
   )
 }
 

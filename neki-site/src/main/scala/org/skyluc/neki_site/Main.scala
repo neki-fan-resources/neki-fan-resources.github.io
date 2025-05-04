@@ -1,6 +1,7 @@
 package org.skyluc.neki_site
 
 import org.skyluc.fan_resources.checks.DataCheck
+import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.element2data.DataTransformer
 import org.skyluc.fan_resources.html.SiteOutput
 import org.skyluc.fan_resources.yaml.YamlReader
@@ -12,16 +13,22 @@ import org.skyluc.neki_site.element2data.ElementToData
 import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
 import org.skyluc.neki_site.yaml.NodeToElement
 
-import java.nio.file.Paths
-
 object Main {
 
   def main(args: Array[String]): Unit = {
-    val dataFolder = Paths.get(DATA_PATH)
-    val staticFolder = Paths.get(STATIC_PATH)
-    val outputFolder = Paths.get(TARGET_PATH, SITE_PATH)
+    main(Path())
+  }
 
-    val (parserErrors, elements) = YamlReader.load(dataFolder, new NodeToElement())
+  def main(rootPath: Path): Unit = {
+
+    println("\n***** Running NEK! Fan Resources site *****\n")
+
+    val dataFolder = rootPath.resolve(DATA_PATH)
+    val staticFolder = rootPath.resolve(STATIC_PATH)
+    val staticPiecesFolder = rootPath.resolve(STATIC_PIECES_PATH)
+    val outputFolder = rootPath.resolve(Path(TARGET_PATH, SITE_PATH))
+
+    val (parserErrors, elements) = YamlReader.load(dataFolder.asFilePath(), new NodeToElement())
 
     println("--------------")
 
@@ -40,7 +47,11 @@ object Main {
     }
     println("--------------")
 
-    val (checkErrors, checkedData) = DataCheck.check(datums, PopulateRelatedTo, CheckLocalAssetExists)
+    val (checkErrors, checkedData) = DataCheck.check(
+      datums,
+      PopulateRelatedTo,
+      new CheckLocalAssetExists(staticFolder.resolve(org.skyluc.neki_site.html.Site.BASE_IMAGE_ASSET_PATH)),
+    )
 
     println("CHECKS ERRORS: ")
     checkErrors.foreach { e =>
@@ -53,11 +64,11 @@ object Main {
     val site = generator.get(Site.ID)
 
     val pages =
-      DataToPage(generator, site).generate(checkedData)
+      DataToPage(generator, staticPiecesFolder, site).generate(checkedData)
 
     println(s"nb of pages: ${pages.size}")
 
-    SiteOutput.generate(pages, Seq(staticFolder), outputFolder)
+    SiteOutput.generate(pages, Seq(staticFolder.asFilePath()), outputFolder.asFilePath())
 
   }
 
@@ -65,6 +76,7 @@ object Main {
 
   val DATA_PATH = "data"
   val STATIC_PATH = "static"
+  val STATIC_PIECES_PATH = "static_pieces"
   val TARGET_PATH = "target"
   val SITE_PATH = "site"
 

@@ -15,4 +15,15 @@ cover-image:
       description: YouTube community post
       url: https://www.youtube.com/post/UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
 
-#media:
+multimedia:
+  video:
+  - youtubevideo: IeBks9yGO4A
+
+related:
+# YouTube videos
+- type: youtubevideo
+  id: IeBks9yGO4A
+  label: Official Live Video
+  published-date: 2025-05-04
+  related-to:
+  - song: getover

@@ -15,12 +15,12 @@ import org.skyluc.neki_site.html.pages.{
   *,
 }
 
-class DataToPage(generator: CompiledDataGenerator, site: Site) extends Processor[Seq[SitePage]] {
+class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Site) extends Processor[Seq[SitePage]] {
 
   def generate(datums: Seq[Datum[?]]): Seq[Page] = {
 
     val cssStyles = CssPage(
-      Path("static_pieces", "css"),
+      static_pieces.resolve("css"),
       Seq(
         Path("colors.css"),
         Path("referenceunit.css"),

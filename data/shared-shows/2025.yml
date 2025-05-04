@@ -96,7 +96,7 @@
     id: 1910979741756399623
     account: RI_802
     published-date: 2025-04-10
-    info: Thank you for coming
+    label: Thank you
     text: |
       下北沢こがでらロックフェスティバル2025
       @ 下北沢SHELTER
@@ -122,7 +122,8 @@
     id: 1910962202003275912
     account: RI_802
     published-date: 2025-04-10
-    info: Thank you for performing at the show
+    label: Thank you
+    info: for performing at the show
     text: |
       【下北沢こがでらROCK FESTIVAL 2025】
 

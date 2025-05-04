@@ -18,6 +18,8 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   // TODO: implement if local image
   override def processBaseMarker(baseMarker: BaseMarker): Seq[DatumEntry] = Nil
 
+  override def processGroup(group: Group): Seq[DatumEntry] = Nil
+
   override def processMediaMarker(mediaMarker: MediaMarker): Seq[DatumEntry] = Nil
 
   override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Seq[DatumEntry] = Nil

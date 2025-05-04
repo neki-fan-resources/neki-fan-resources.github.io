@@ -69,6 +69,8 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
 
   override def processBaseMarker(baseMarker: BaseMarker): Seq[SitePage] = NO_DATA
 
+  override def processGroup(group: Group): Seq[SitePage] = NO_DATA
+
   override def processMediaMarker(mediaMarker: MediaMarker): Seq[SitePage] = NO_DATA
 
   override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Seq[SitePage] =

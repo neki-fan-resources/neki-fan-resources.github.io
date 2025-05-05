@@ -59,5 +59,9 @@ object UrlResolver extends fr.UrlResolver with Processor[Url] {
   override def processZaiko(zaiko: Zaiko): Url = ???
 
   private def generateBasic(datum: Datum[?]): Url =
-    Url(datum.id.path.withExtension(".html"))
+    if (datum.id.dark) {
+      Url(SitePage.DARK_PATH.resolve(datum.id.path).withExtension(".html"))
+    } else {
+      Url(datum.id.path.withExtension(".html"))
+    }
 }

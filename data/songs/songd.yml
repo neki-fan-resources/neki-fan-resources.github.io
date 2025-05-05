@@ -1,0 +1,53 @@
+type: song
+id: songd
+dark: true
+
+fullname: Song D
+
+release-date: 2050-01-01
+
+description:
+- Unnamed song which has been played live.
+- "The song was available in the online version (Zaiko) of the 2ND ONE MAN LIVE show (song #6)."
+- It has been teased in a couple of shorts.
+- "Some of the shows where it has been played: 2ND ONE MAN LIVE, DEBUT YEAR LAST LIVE, TR!CK TAK!ING tour, 革命ロジック2025."
+
+multimedia:
+  live:
+  - youtubeshort: jZ2Dn5P3Fac
+  short:
+  - youtubeshort: tabt75E-6tY
+
+cover-image:
+  imageid:
+    group: siteimages
+    id: nekilogo
+
+lyrics:
+  status:
+    code: na
+    description: song not released. partial lyrics from short.
+  languages:
+    - id: ol
+      name: original lyrics, from the Youtube Short
+      active: true
+      fixed: true
+      notranslation: true
+  sections:
+  - lines:
+    - oll: "[...]"
+    - oll: Yeah
+    - oll: 超えて行くんだ縦横無尽チューニングは出来てる
+    - oll: Hey
+    - oll: 世界を揺らす
+    - oll: 掻き鳴らすのゲームマスター
+    - oll: ドープで既視感のないリアル
+    - oll: 抜けられぬ世界ウェルカム
+    - oll: "[...]"
+
+related:
+# YouTube shorts
+- type: youtubeshort
+  id: tabt75E-6tY
+  label: Rehearsal
+  published-date: 2025-05-03

@@ -1,0 +1,13 @@
+type: group
+id: siteimages
+label: site images
+related:
+- type: localImage
+  group: siteimages
+  id: nekilogo
+  filename: neki400.png
+  label: Neki Logo
+  published-date: 2024-02-10
+  source:
+    description: NEK! note.com page
+    url: https://note.com/nekiband_jp

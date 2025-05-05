@@ -1,8 +1,8 @@
 package org.skyluc.neki_site.yaml
 
-import org.skyluc.fan_resources.yaml.{Processor => frProcessor, WithProcessor => frWithProcessor, _}
-import org.virtuslab.yaml.YamlCodec
 import org.skyluc.fan_resources.BaseError
+import org.skyluc.fan_resources.yaml.{Processor as frProcessor, WithProcessor as frWithProcessor, *}
+import org.virtuslab.yaml.YamlCodec
 
 trait WithProcessor extends frWithProcessor {
 
@@ -35,6 +35,7 @@ case class ChronologyPage(
 
 case class MusicPage(
     id: String,
+    dark: Boolean = false,
     music: List[MusicId],
 ) extends Element
     with WithProcessor

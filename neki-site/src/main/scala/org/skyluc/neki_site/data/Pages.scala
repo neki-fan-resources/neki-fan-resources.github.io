@@ -1,9 +1,9 @@
 package org.skyluc.neki_site.data
 
-import org.skyluc.fan_resources.data as fr
 import org.skyluc.fan_resources.BaseError
+import org.skyluc.fan_resources.data as fr
 
-case class PageId(id: String) extends fr.ElementId[Page] {
+case class PageId(id: String, override val dark: Boolean = false) extends fr.ElementId[Page] {
   import Pages._
   override val path = fr.Path(ID_BASE_PATH, id)
 }

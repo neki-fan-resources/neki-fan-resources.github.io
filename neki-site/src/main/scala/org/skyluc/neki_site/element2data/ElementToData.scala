@@ -1,9 +1,9 @@
 package org.skyluc.neki_site.element2data
 
+import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.element2data as fr
 import org.skyluc.neki_site.data as d
 import org.skyluc.neki_site.yaml.*
-import org.skyluc.fan_resources.BaseError
 
 object ElementToData extends fr.ElementToData with Processor[fr.ElementToData.Result] {
   import fr.ElementToData._
@@ -60,7 +60,7 @@ object ElementToData extends fr.ElementToData with Processor[fr.ElementToData.Re
   }
 
   def toMusicPage(musicPage: MusicPage): Either[BaseError, d.MusicPage] = {
-    val id = d.PageId(musicPage.id)
+    val id = d.PageId(musicPage.id, musicPage.dark)
     for {
       musicIds <- throughList(musicPage.music, id)(processMusicId)
     } yield {

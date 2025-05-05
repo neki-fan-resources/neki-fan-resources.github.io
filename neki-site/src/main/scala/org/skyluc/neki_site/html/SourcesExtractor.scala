@@ -1,12 +1,12 @@
 package org.skyluc.neki_site.html
 
 import org.skyluc.fan_resources.data.{Processor as _, *}
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceCategory
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceEntry
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceItem
-import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 // TODO: generalize
 class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[SourcesExtractor.DatumEntry]] {
@@ -39,8 +39,8 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   override def processAlbum(album: Album): Seq[DatumEntry] = Nil
 
   override def processLocalImage(localImage: LocalImage): Seq[DatumEntry] = {
-    val compiledDate = generator.getElement(localImage.id.itemId)
-    Seq(DatumEntry(compiledDate, toSourceEntry(localImage.source, localImage.label.toLowerCase())))
+    val compiledData = generator.getElement(localImage.id.itemId)
+    Seq(DatumEntry(compiledData, toSourceEntry(localImage.source, localImage.label.toLowerCase())))
   }
 
   override def processMediaAudio(mediaAudio: MediaAudio): Seq[DatumEntry] = Nil

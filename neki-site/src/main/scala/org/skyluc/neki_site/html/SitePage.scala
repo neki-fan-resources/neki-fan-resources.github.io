@@ -97,12 +97,22 @@ object SitePage {
       dark: Boolean,
       generator: CompiledDataGenerator,
   ): (Path, Option[Path]) = {
+    pageAndOppositePagePath(id.path, id, oppositeId, dark, generator)
+  }
+
+  def pageAndOppositePagePath(
+      basePath: Path,
+      id: Id[?],
+      oppositeId: Id[?],
+      dark: Boolean,
+      generator: CompiledDataGenerator,
+  ): (Path, Option[Path]) = {
     val oppositeDatum = generator.getOption(oppositeId)
 
     if (dark) {
-      (DARK_PATH.resolve(id.path), oppositeDatum.map(_ => id.path))
+      (DARK_PATH.resolve(basePath), oppositeDatum.map(_ => basePath))
     } else {
-      (id.path, oppositeDatum.map(_ => DARK_PATH.resolve(id.path)))
+      (basePath, oppositeDatum.map(_ => DARK_PATH.resolve(basePath)))
     }
   }
 

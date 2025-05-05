@@ -1,0 +1,21 @@
+type: page
+id: music
+dark: true
+
+music:
+- songid: 
+    id: songa
+    dark: true
+- songid: 
+    id: songb
+    dark: true
+- songid: 
+    id: songc
+    dark: true
+- songid: 
+    id: songd
+    dark: true
+- songid: 
+    id: songe
+    dark: true
+

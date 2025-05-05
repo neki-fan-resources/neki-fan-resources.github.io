@@ -94,7 +94,7 @@
     - song: maze
   - type: postx
     id: 1910979741756399623
-    account: RI_802
+    account: nekiband_jp
     published-date: 2025-04-10
     label: Thank you
     text: |
@@ -120,7 +120,7 @@
       label: sidewalk board
   - type: postx
     id: 1910962202003275912
-    account: RI_802
+    account: KOGARECORDS
     published-date: 2025-04-10
     label: Thank you
     info: for performing at the show
@@ -173,6 +173,37 @@
       source:
         description: 革命ロジック2025 X post
         url: https://x.com/kakumei_holic/status/1903038891042673069
+
+  multimedia:
+    image:
+    - postXImage:
+        postId: 1918967431936053416
+        imageId: GqGKtFtbsAAScbY
+    - postXImage:
+        postId: 1918967431936053416
+        imageId: GqGKtFwa0AACJVD
+
+  related:
+  - type: postx
+    id: 1918967431936053416
+    account: nekiband_jp
+    published-date: 2025-05-04
+    label: Thank you
+    text: |
+      LIVEHOLIC presents. “革命ロジック2025“ supported by Skream! & 激ロック
+      @ 下北沢シャングリラ
+
+      ご来場ありがとうございました🎪
+
+      本日撮影いただいた「Get Over」やライブの感想は #NEKI をつけてポストよろしくお願いします🫶
+
+      #革命ロジック2025
+    image:
+    - id: GqGKtFtbsAAScbY
+      label: the band
+    - id: GqGKtFwa0AACJVD
+      label: from the back of the crowd
+
 
 
 - type: show

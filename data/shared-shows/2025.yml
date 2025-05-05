@@ -52,24 +52,24 @@
     - youtubeshort: 8JNZl3nO2dM
     - youtubeshort: 759NyQOQ1yg
     image:
-    - postXImage:
-        postId: 1910979741756399623
-        imageId: GoUp719WUAADyfg
-    - postXImage:
-        postId: 1910979741756399623
-        imageId: GoUp719WkAAtlRX
-    - postXImage:
-        postId: 1910962202003275912
-        imageId: GoUZ_azXwAASE0E
-    - postXImage:
-        postId: 1910962202003275912
-        imageId: GoUZ_awWwAAkG5D
-    - postXImage:
-        postId: 1910962202003275912
-        imageId: GoUZ_axWoAA8BKE
-    - postXImage:
-        postId: 1910962202003275912
-        imageId: GoUZ_awWQAAJLU0
+    - postximage:
+        postid: 1910979741756399623
+        imageid: GoUp719WUAADyfg
+    - postximage:
+        postid: 1910979741756399623
+        imageid: GoUp719WkAAtlRX
+    - postximage:
+        postid: 1910962202003275912
+        imageid: GoUZ_azXwAASE0E
+    - postximage:
+        postid: 1910962202003275912
+        imageid: GoUZ_awWwAAkG5D
+    - postximage:
+        postid: 1910962202003275912
+        imageid: GoUZ_axWoAA8BKE
+    - postximage:
+        postid: 1910962202003275912
+        imageid: GoUZ_awWQAAJLU0
 
   cover-image:
     image:
@@ -176,14 +176,45 @@
 
   multimedia:
     image:
-    - postXImage:
-        postId: 1918967431936053416
-        imageId: GqGKtFtbsAAScbY
-    - postXImage:
-        postId: 1918967431936053416
-        imageId: GqGKtFwa0AACJVD
+    - postximage:
+        postid: 1918967431936053416
+        imageid: GqGKtFtbsAAScbY
+    - postximage:
+        postid: 1918967431936053416
+        imageid: GqGKtFwa0AACJVD
+  linked-to:
+    - postximage:
+        postid: 1918591839306666269
+        imageid: GqA0mxha4AAZusD
+    - postximage:
+        postid: 1918591839306666269
+        imageid: GqA0m0ta0AAA-dL
 
   related:
+  - type: postx
+    id: 1918591839306666269
+    account: nekiband_jp
+    published-date: 2025-05-03
+    label: Schedule
+    text: |
+      🔥明日出演🔥
+
+      あす5/4(日)開催
+      「LIVEHOLIC presents. “革命ロジック2025“ supported by Skream! & 激ロック」
+
+      NEK!は下北沢シャングリラにて17:30から出演です💨
+
+      下北沢でお待ちしております🫶
+
+      前売りチケットはこちら▼
+      https://t.livepocket.jp/e/kakumei2025
+
+      #NEKI #革命ロジック
+    image:
+    - id: GqA0mxha4AAZusD
+      label: シャングリラ schedule
+    - id: GqA0m0ta0AAA-dL
+      label: festival schedule
   - type: postx
     id: 1918967431936053416
     account: nekiband_jp

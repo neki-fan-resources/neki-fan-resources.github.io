@@ -33,9 +33,9 @@ multimedia:
   - youtubevideo: 7Neu9jJk-04
   live:
   - youtubevideo: IeBks9yGO4A
-  - postXVideo:
-      postId: 1917865243080024340
-      videoId: addd2cab-345d-429c-a7cf-33e784d81adcGpDoUyLb0AAbEYw
+  - postxvideo:
+      postid: 1917865243080024340
+      videoid: addd2cab-345d-429c-a7cf-33e784d81adcGpDoUyLb0AAbEYw
   - youtubeshort: EzpPj7pVf6Y
   - youtubeshort: qFiKgQ5mNgQ
   short:
@@ -51,6 +51,11 @@ multimedia:
   additional:
   - youtubevideo: maFSgVE2vXg
   - youtubeshort: tQNJQF37lHM
+
+linked-to:
+- postximage:
+    postid: 1918636722516373576
+    imageid: GqBc0HhbYAA2VDy
 
 related:
 # YouTube videos
@@ -148,6 +153,31 @@ related:
   label: Reaction
   info: discovering the music video
   published-date: 2025-04-25
+# X post
+- type: postx
+  id: 1918636722516373576
+  account: nekiband_jp
+  published-date: 2025-05-03
+  label: announcement Get Over live video
+  text: |
+    ❤️‍🔥LIVE VIDEO❤️‍🔥
+
+    明日5/4(日)21:00
+
+    「NEK! DEBUT YEAR LAST LIVE」
+    @下北沢シャングリラ から
+
+    "Get Over" Official Live Video
+    YouTubeにてプレミア公開🎥
+
+    公開時にはメンバーもチャット欄に参加します🙌
+
+    ▶ https://youtu.be/IeBks9yGO4A
+
+    #NEKI #GetOver
+  image:
+  - id: GqBc0HhbYAA2VDy
+    label: Natsu
 
 
 lyrics:

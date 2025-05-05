@@ -40,9 +40,9 @@
     short:
     - youtubeshort: 2WXwyGdDMsM
     image:
-    - postXImage:
-        postId: 1903452529729695755
-        imageId: Gmpr-0DaAAA6aKU
+    - postximage:
+        postid: 1903452529729695755
+        imageid: Gmpr-0DaAAA6aKU
 
   related:
   - type: postx
@@ -104,9 +104,9 @@
 
   multimedia:
     image:
-    - postXImage:
-        postId: 1910379084141801512
-        imageId: GoMHpd-bYAANMFt
+    - postximage:
+        postid: 1910379084141801512
+        imageid: GoMHpd-bYAANMFt
 
   summary:
     status:
@@ -287,9 +287,9 @@
 
   multimedia:
     image:
-    - postXImage:
-        postId: 1914285297862598973
-        imageId: GpDoUyLb0AAbEYw
+    - postximage:
+        postid: 1914285297862598973
+        imageid: GpDoUyLb0AAbEYw
 
   related:
   - type: postx
@@ -339,9 +339,21 @@
   multimedia:
     short:
     - youtubeshort: NNc3Tau8YAY
+    image:
+    - postximage:
+        postid: 1918254606855074066
+        imageid: Gp8COrJbsAAsI0n
+    - postximage:
+        postid: 1918253217269596255
+        imageid: Gp8BIMjawAM-GEH
+    - postximage:
+        postid: 1918392450269548896
+        imageid: Gp9_wtDagAAnCTL
 
   description:
-  - Hika and Natsu will be guests of the show 'RADIO DRAGON-NEXT-' on TOKYO FM.
+  - Hika and Natsu were guests of the show 'RADIO DRAGON-NEXT-' on TOKYO FM.
+  - They spoke about how Hika gathered everyone to form the band.
+  - They spoke about the songs of the second EP.
 
   cover-image:
     image:
@@ -351,31 +363,76 @@
         url: https://radiko.jp/#!/ts/FMT/20250503030000
 
   related:
-  - type: postx
-    id: 1916803944484909355
-    account: nekiband_jp
-    published-date: 2025-04-28
-    label: NEK! at TOKYO FM RADIO DRAGON-NEXT-
-    text: |
-      ⚡️ラジオ出演⚡️
-
-      5/2(金)27:00〜放送
-      TOKYO FM「RADIO DRAGON-NEXT-」
-
-      Vo./Gt. HikaとGt. Natsuが28時台に出演させていただきます📻
-
-      ぜひお聴きください！
-
-      https://tfm.co.jp/dragon/
-
-      #NEKI #TOKYOFM #radiodragon
-      #拡散中 #ネキ界隈 #aiエフェクト
-    image:
-    - id: Gpna--PbsAA7UwP
-      label: still image of the video
-    # has a video
   - type: youtubeshort
     id: NNc3Tau8YAY
     label: AI Beer
     info: At the time of the recording ?
     published-date: 2025-04-28
+  - type: postx
+    id: 1918254606855074066
+    account: RADIO_DRAGON
+    published-date: 2025-05-02
+    label: NEK! at TOKYO FM RADIO DRAGON-NEXT-
+    text: |
+      【28時台】
+      今夜のゲストは、
+      去年結成されたばかりの4人組ガールズバンド #NEKI から、
+      Hikaさん、Natsuさんです‼️
+
+      お二人のルーツや、
+      2nd EP『TR!CK TAK!NG』についてのお話などをお伺いしました✨
+
+      お楽しみに‼️
+
+      #radiodragon #TOKYOFM #菅野結以
+    image:
+    - id: Gp8COrJbsAAsI0n
+      label: with the host
+      info: Hika, Natsu, 菅野結以 (Yui Kanno)
+  - type: postx
+    id: 1918253217269596255
+    account: RADIO_DRAGON
+    published-date: 2025-05-02
+    label: NEK! at TOKYO FM RADIO DRAGON-NEXT-
+    text: |
+      #菅野結以 ちゃん(
+      @Yuikanno
+      )が
+      深夜3時からお届けする #radiodragon 
+
+      ▼27時台 
+      スペースシャワー：飯塚健斗さん
+
+      ▼28時台 
+      ゲスト： #NEKI (
+      @nekiband_jp
+        )
+
+      https://radiko.jp/share/?sid=FMT&t=20250503030000
+      #tokyofm
+    image:
+    - id: Gp8BIMjawAM-GEH
+      label: host with the EP TR!CK TAK!NG
+      info: 菅野結以 (Yui Kanno)
+  - type: postx
+    id: 1918392450269548896
+    account: nekiband_jp
+    published-date: 2025-05-02
+    label: thank you TOKYO FM RADIO DRAGON-NEXT-
+    text: |
+      TOKYO FM「RADIO DRAGON -NEXT-」
+
+      ご視聴ありがとうございました！
+
+      8/30(土)開催
+      NEK!初のZEPPワンマン
+      現在オフィシャル2次先行受付中❤️‍🔥
+
+      チケットはこちら▼
+      https://l-tike.com/nekiband/
+
+      #NEKI #radiodragon #TOKYOFM #radiko
+    image:
+    - id: Gp9_wtDagAAnCTL
+      label: at the station
+      info: Hika, Natsu

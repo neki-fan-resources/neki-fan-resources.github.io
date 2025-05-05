@@ -22,6 +22,10 @@ credits:
 multimedia:
   live:
   - youtubeshort: zWS1TQ1kP6A
+  short:
+  - postxvideo:
+      postid: 1917072614553751559
+      videoid: bc491773-b07c-434d-aadd-06c5ae8679fa
 
 related:
   - type: youtubeshort
@@ -41,7 +45,23 @@ related:
     label: Promo
     info: studio audio
     published-date: 2024-11-16
+  - type: postx
+    id: 1917072614553751559
+    account: 46_hikaa
+    published-date: 2025-04-29
+    label: guitar rehearsal
+    info: Hika and Natsu, ENDLESSGAME
+    text: |
+      Hika and Natsu 
 
+      guitar rehearsal short video🌱 ͛.*
+
+      #NEKI #ネキ界隈  #ENDLESSGAME
+    video:
+    - id: bc491773-b07c-434d-aadd-06c5ae8679fa
+      cover: 1917072549030330368/img/siCMf5Eb930aWZ11.jpg
+      label: Guitar rehersal
+      info: "Hika, Natsu"
 
 lyrics:
   status:

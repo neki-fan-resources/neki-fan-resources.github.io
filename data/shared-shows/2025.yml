@@ -175,6 +175,10 @@
         url: https://x.com/kakumei_holic/status/1903038891042673069
 
   multimedia:
+    video:
+    - postxvideo:
+        postid: 1919328460532494808
+        videoid: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
     image:
     - postximage:
         postid: 1918967431936053416
@@ -234,8 +238,27 @@
       label: the band
     - id: GqGKtFwa0AACJVD
       label: from the back of the crowd
+  - type: postx
+    id: 1919328460532494808
+    account: natsu08_guitar
+    published-date: 2025-05-05
+    label: Maze bridge
+    text: |
+      昨日のシャングリラから”MAZE”
 
+      “MAZE”のブリッジミュート部分めっちゃ好き！！￼重みが増す！！
 
+      （動画の画角上手くいかなくて、ほぼ足なのお許しください￼￼
+      ズボンの柄楽しんでください( ◠‿◠ )）
+
+      #ネキ界隈 #拡散中 #NEKI #MAZE
+    video:
+    - id: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
+      cover: 1919328299047903232/img/dspFPFb7AhRXBwB4.jpg
+      label: MAZE bridge
+      info: Natsu
+      linked-to:
+      - song: maze
 
 - type: show
   year: 2025

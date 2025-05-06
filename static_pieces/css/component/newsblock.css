@@ -54,6 +54,10 @@
   margin: 0 0 0.3rem 0;
 }
 
+.news-item-content>p {
+  margin: 0.3rem 0;
+}
+
 .news-tags {
   text-align: center;
 }

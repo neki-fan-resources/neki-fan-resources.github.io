@@ -38,6 +38,9 @@ multimedia:
   - youtubeshort: 58AHgFVIMos
   - youtubeshort: BtsWAi6cXws
   additional:
+  - postxvideo:
+      postid: 1917515461727772903
+      videoid: d111e062-3a51-4d15-92d8-43dccd8534ba
   - youtubevideo: pCqu9xyfFzE
 
 related:
@@ -99,6 +102,23 @@ related:
   label: Promo
   info: Shibuya eggman, studio audio
   published-date: 2024-11-12
+- type: postx
+  id: 1917515461727772903
+  account: cure_bass_baka
+  published-date: 2025-04-30
+  label: Reigen girl video
+  text: |
+    スランプ抜けはまだ遠そうなので今回も動画撮れず、
+    生音で令現少女のイントロ！
+
+    奏法的にはシンプルだけれど、フレーズが好きでNEK!の中でも好きなアレンジです！
+
+    #NEKI  #拡散中  #ネキ界隈
+  video:
+  - id: d111e062-3a51-4d15-92d8-43dccd8534ba
+    cover: 1917515345696546817/img/z7YArpECtZZ0NRzV.jpg
+    label: Bass intro
+    info: Kanade
 
 
 lyrics:

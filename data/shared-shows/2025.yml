@@ -177,6 +177,9 @@
   multimedia:
     video:
     - postxvideo:
+        postid: 1919554837458399724
+        videoid: ab614f11-559a-4b05-9110-a93a478c49d9
+    - postxvideo:
         postid: 1919328460532494808
         videoid: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
     image:
@@ -259,6 +262,29 @@
       info: Natsu
       linked-to:
       - song: maze
+  - type: postx
+    id: 1919554837458399724
+    account: coco_102
+    published-date: 2025-05-06
+    label: ENDLESSGAME
+    info: Cocoro-cam
+    text: |
+      👾 👾 👾 👾 ENDLESSGAME 👾 👾 👾 👾
+
+      手数多くて大変だけどかっこいいのよー！
+      そして照明の色の組み合わせが好き🤤(特にAメロ)
+
+      てか毎度コーラスしてるときの顔がマヌケすぎる！笑
+      虚無を見つめるのをやめたらいいのだろーか？？
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: ab614f11-559a-4b05-9110-a93a478c49d9
+      cover: 1919554682206486530/img/K1ZfrKm-qNiqu1IN.jpg
+      label: Cocoro-cam
+      info: Cocoro
+      linked-to:
+      - song: endlessgame
 
 - type: show
   year: 2025

@@ -3,17 +3,17 @@ package org.skyluc.neki_site.data
 import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data as fr
 
-case class PageId(id: String, override val dark: Boolean = false) extends fr.ElementId[Page] {
-  import Pages._
-  override val path = fr.Path(ID_BASE_PATH, id)
+object PageId {
+  private val GEN = "page"
+  def apply(id: String, dark: Boolean = false): fr.GenId[Page] = fr.GenId[Page](GEN, id, dark)
 }
 
-sealed trait Page extends fr.Element[Page] {
-  val id: PageId
+sealed trait Page extends fr.Datum[Page] {
+  val id: fr.GenId[Page]
 }
 
 case class MusicPage(
-    id: PageId,
+    id: fr.GenId[Page],
     music: List[fr.AlbumId | fr.SongId],
     linkedTo: Seq[fr.Id[?]],
     hasError: Boolean = false,
@@ -32,7 +32,7 @@ case class MusicPage(
 }
 
 case class ShowsPage(
-    id: PageId,
+    id: fr.GenId[Page],
     shows: List[fr.ShowId | fr.TourId],
     linkedTo: Seq[fr.Id[?]],
     hasError: Boolean = false,
@@ -51,14 +51,14 @@ case class ShowsPage(
 }
 
 case class ChronologyPage(
-    id: PageId,
+    id: fr.GenId[Page],
     chronology: fr.Chronology,
+    linkedTo: Seq[fr.Id[?]] = Nil,
     hasError: Boolean = false,
 ) extends Page
     with WithProcessor {
-  val linkedTo: Seq[fr.Id[?]] = Nil
   override def errored(): ChronologyPage = copy(hasError = true)
-  override def withLinkedTo(id: fr.Id[?]*): ChronologyPage = this
+  override def withLinkedTo(id: fr.Id[?]*): ChronologyPage = copy(linkedTo = mergeLinkedTo(id))
 
   override def process[T](processor: Processor[T]): T =
     processor.processChronologyPage(this)

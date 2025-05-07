@@ -1,7 +1,7 @@
 package org.skyluc.neki_site.data
 
-import org.skyluc.fan_resources.data.{Processor as _, ProcessorWithError as _, WithProcessor as _, *}
 import org.skyluc.fan_resources.BaseError
+import org.skyluc.fan_resources.data.{Processor as _, ProcessorWithError as _, WithProcessor as _, *}
 
 case class Site(
     navigation: Navigation,
@@ -9,11 +9,11 @@ case class Site(
     youtubevideo: List[RefMediaIds],
     youtubeshort: List[RefMediaIds],
     news: List[BandNews],
+    linkedTo: Seq[Id[?]] = Nil,
     hasError: Boolean = false,
 ) extends Datum[Site]
     with WithProcessor {
   val id = Site.ID
-  val linkedTo: List[Id[?]] = Nil
 
   override def process[T](processor: Processor[T]): T =
     processor.processSite(this)
@@ -23,13 +23,11 @@ case class Site(
   }
 
   override def errored() = copy(hasError = true)
-  override def withLinkedTo(id: Id[?]*): Site = ???
+  override def withLinkedTo(id: Id[?]*): Site = copy(linkedTo = mergeLinkedTo(id))
 }
 
 object Site {
-  val ID = new Id[Site] {
-    val path = Path("site")
-  }
+  val ID = GenId[Site]("site", "site")
 }
 
 // -----------

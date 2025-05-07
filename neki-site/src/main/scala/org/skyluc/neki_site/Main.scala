@@ -51,6 +51,7 @@ object Main {
       datums,
       PopulateRelatedTo,
       new CheckLocalAssetExists(staticFolder.resolve(org.skyluc.neki_site.html.Site.BASE_IMAGE_ASSET_PATH)),
+      false,
     )
 
     println("CHECKS ERRORS: ")

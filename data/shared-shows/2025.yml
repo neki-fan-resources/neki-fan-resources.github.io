@@ -177,6 +177,10 @@
   multimedia:
     video:
     - postxvideo:
+        postid: 1919977679027372546
+        videoid: 37e3c46f-d463-4507-8090-19abc74c839b
+    - youtubeshort: CBPR9cp2urk
+    - postxvideo:
         postid: 1919554837458399724
         videoid: ab614f11-559a-4b05-9110-a93a478c49d9
     - postxvideo:
@@ -285,6 +289,33 @@
       info: Cocoro
       linked-to:
       - song: endlessgame
+  - type: youtubeshort
+    id: CBPR9cp2urk
+    label: Live
+    info: from the crowd
+    published-date: 2025-05-07
+    linked-to:
+      song: dreams
+  - type: postx
+    id: 1919977679027372546
+    account: 46_hikaa
+    published-date: 2025-05-06
+    label: MAZE live
+    info: Come see us live
+    text: |
+      一緒にサビとか歌ってくれてる方もいて
+      みんなの掛け声はやっぱ最高ばい🔥
+
+      まだNEK!のライブ行ったことないよーって方！ぜひぜひ、遊びに来てくださいな︎👍🏻 ̖́-
+
+      #NEKI  #ネキ界隈  #拡散中
+    video:
+    - id: 37e3c46f-d463-4507-8090-19abc74c839b
+      cover: 1919977607212498946/img/LkMmps3g4daFxN3j.jpg
+      label: Live
+      info: Hika, from the stage
+      linked-to:
+        - song: maze
 
 - type: show
   year: 2025

@@ -33,6 +33,8 @@
   --color-not-gray: #d0d0d0;
   --color-designation: gray;
 
+  --color-group-border: black;
+
   --gradient-bar: linear-gradient(120deg,
       var(--color-kanade-cocoro-light) 0%,
       var(--color-kanade-light) 5%,

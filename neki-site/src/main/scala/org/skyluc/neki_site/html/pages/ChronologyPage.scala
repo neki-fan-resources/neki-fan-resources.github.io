@@ -5,13 +5,10 @@ import org.skyluc.fan_resources.data.Date
 import org.skyluc.fan_resources.data.Date.DateTick
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.CompiledDataGenerator
-import org.skyluc.fan_resources.html.ElementInfo
 import org.skyluc.fan_resources.html.MarkerCompiledData
-import org.skyluc.fan_resources.html.MarkerCompiledDataDetails
 import org.skyluc.fan_resources.html.MarkerCompiledDataMarker
+import org.skyluc.fan_resources.html.component.ChronologyMarkerDetails
 import org.skyluc.fan_resources.html.component.MainIntro
-import org.skyluc.fan_resources.html.component.MediumDetails
-import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.html.*
 import org.skyluc.neki_site.data.ChronologyPage as dChronologyPage
 import org.skyluc.neki_site.data.Site as dSite
@@ -41,7 +38,7 @@ class ChronologyPage(
 
     val svgElement = ChronologySvg.generate(startDate, endDate, refDay, markersCompiledData)
 
-    val detailsData = ChronologyDetails.generateData(markersCompiledData)
+    val detailsData = ChronologyMarkerDetails.generateData(markersCompiledData)
 
     List(
       mainIntro,
@@ -293,80 +290,4 @@ object ChronologySvg {
 }
 """
 
-}
-
-object ChronologyDetails {
-
-  def generateData(markersCompiledData: Seq[MarkerCompiledData]): Script = {
-
-    val detailsContent = markersCompiledData.map(generateDetailsContent)
-
-    val builder = StringBuilder()
-    builder.append("var overlayContent = {\n")
-
-    detailsContent.foreach { d =>
-      val htmlText = d._2
-        .map(HtmlRenderer.render)
-        .map { t =>
-          t.replace("\n", "").replace("\"", "\\\"")
-        }
-        .mkString
-      builder.append(s"""  ${d._1}:"$htmlText",\n""")
-    }
-
-    builder.append("}\n")
-
-    script().setScript(builder.toString())
-  }
-
-  private def generateDetailsContent(marker: MarkerCompiledData): (String, Seq[BodyElement[?]]) = {
-    val details = marker.details
-
-    val content = if (details.`type` == MarkerCompiledData.DETAILS_ELEMENT) {
-      generateDetailsContent(details, ElementInfo.INFO_LEVEL_BASIC)
-    } else if (details.`type` == MarkerCompiledData.DETAILS_MULTIMEDIA) {
-      generateDetailsContent(details, ElementInfo.INFO_LEVEL_NONE)
-    } else {
-      generateDetailsContentBasic(details)
-    }
-
-    (marker.id, content)
-  }
-
-  private def generateDetailsContent(details: MarkerCompiledDataDetails, infoLevel: Int): Seq[BodyElement[?]] = {
-    val mediumDetails = details.item
-      .map(
-        MediumDetails.generate(_, infoLevel)
-      )
-
-    val multimedia = details.multimedia
-      .map { m =>
-        div()
-          .withClass(CLASS_CHRONOLOGY_DETAILS_MULTIMEDIA)
-          .appendElements(
-            MultiMediaCard.generate(m, details.multimediaFromKey)
-          )
-      }
-
-    Seq(mediumDetails, multimedia).flatten
-  }
-
-  private def generateDetailsContentBasic(details: MarkerCompiledDataDetails): Seq[BodyElement[?]] = {
-    val mediumDetails = details.item.map { item =>
-      MediumDetails.generate(item.label, item.cover)
-    }
-
-    val multimedia = details.multimedia
-      .map { m =>
-        div()
-          .withClass(CLASS_CHRONOLOGY_DETAILS_MULTIMEDIA)
-          .appendElements(
-            MultiMediaCard.generate(m, details.multimediaFromKey)
-          )
-      }
-
-    Seq(mediumDetails, multimedia).flatten
-  }
-
-  val CLASS_CHRONOLOGY_DETAILS_MULTIMEDIA = "chronology-details-multimedia"
 }

@@ -34,6 +34,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
         Path("chronologypage.css"),
         Path("mediapages.css"),
         Path("sourcespage.css"),
+        Path("updatespage.css"),
         Path("component", "coverimage.css"),
         Path("component", "largedetails.css"),
         Path("component", "linecard.css"),
@@ -56,6 +57,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
         LivePage.pages(datums, site, generator),
         MediasPage.pages(datums, site, generator),
         SourcesPage.pages(datums, site, generator),
+        UpdatesPage.pages(site),
       ).flatten
     // pages from datums (without errors)
     val res = datums.filterNot(_.hasError).map(_.process(this)).flatten
@@ -105,6 +107,8 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
 
   override def processTour(tour: Tour): Seq[SitePage] =
     TourPage.pagesFor(tour, site, generator)
+
+  override def processTourMarker(tourMarker: TourMarker): Seq[SitePage] = NO_DATA
 
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[SitePage] = NO_DATA
 

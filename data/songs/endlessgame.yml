@@ -22,6 +22,9 @@ credits:
 multimedia:
   live:
   - postxvideo:
+      postid: 1922588708026404968
+      videoid: 4c117af0-984b-4ba9-8a30-e82f968dd226
+  - postxvideo:
       postid: 1919554837458399724
       videoid: ab614f11-559a-4b05-9110-a93a478c49d9
   - youtubeshort: zWS1TQ1kP6A
@@ -65,6 +68,15 @@ related:
       cover: 1917072549030330368/img/siCMf5Eb930aWZ11.jpg
       label: Guitar rehersal
       info: "Hika, Natsu"
+  - type: youtubeshort
+    id: oUm5oU0O0Z4
+    label: Promo
+    info: studio audio
+    published-date: 2025-05-09
+    related-to:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
 
 lyrics:
   status:

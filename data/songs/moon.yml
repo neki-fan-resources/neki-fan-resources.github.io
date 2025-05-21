@@ -19,8 +19,17 @@ credits:
     url: https://www2.jasrac.or.jp/
 
 multimedia:
+  video:
+  - youtubeshort: w5iL7GzElXU
   live:
   - youtubeshort: 8jqBR2PyfAw
+
+related:
+- type: youtubeshort
+  id: w5iL7GzElXU
+  label: Rehearsal
+  info: Hika on accoustic guitar
+  published-date: 2025-05-10
 
 lyrics:
   status:
@@ -47,6 +56,13 @@ lyrics:
   - id: gg
     name: english translation
     details: aided by Google Gemini (2.0 Flash Thinking Experimental). 
+  - id: en
+    name: partial english translation
+    details: (from YouTube short)
+    active: true
+    source:
+      description: YouTube short
+      url: https://www.youtube.com/shorts/w5iL7GzElXU
   sections:
   - lines:
     - ol:
@@ -105,6 +121,7 @@ lyrics:
         d: ループループ
       - d: 思考はメリーゴーランド まわってくループループ
       gg: My thoughts are on a carousel, going round and round
+      en: Thoughts spin like a merry-go-round, Round and round-loop loop bound
     - oll: Where am I going？
     - ol: 
       - 加工
@@ -131,6 +148,7 @@ lyrics:
         d: で
       - d: 加工だらけの世界で
       gg: In this world so fake
+      en: In a world wrapped up in filters
   - lines: 
     - ol:
       - 鍵かけて

@@ -3,6 +3,9 @@ id: music
 dark: true
 
 music:
+- songid:
+    id: newsong202505
+    dark: true
 - songid: 
     id: songa
     dark: true

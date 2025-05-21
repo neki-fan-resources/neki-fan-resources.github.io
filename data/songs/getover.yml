@@ -39,6 +39,7 @@ multimedia:
   - youtubeshort: EzpPj7pVf6Y
   - youtubeshort: qFiKgQ5mNgQ
   short:
+  - youtubeshort: 1VU7-KQyOvg
   - youtubeshort: CUgtBUOxL1w
   - youtubeshort: nDKETw7zIX4
   - youtubeshort: yzKuHzF-YNk
@@ -153,6 +154,11 @@ related:
   label: Reaction
   info: discovering the music video
   published-date: 2025-04-25
+- type: youtubeshort
+  id: 1VU7-KQyOvg
+  label: Music Video
+  info: behind the scenes, packing up
+  published-date: 2025-05-18
 # X post
 - type: postx
   id: 1918636722516373576

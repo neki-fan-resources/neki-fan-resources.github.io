@@ -24,6 +24,9 @@ credits:
 multimedia:
   video:
   - youtubevideo: rq0dca9mFfI
+  - postxvideo:
+      postid: 1922955621957005543
+      videoid: 97bf656e-1306-4f01-b926-ec5e46b54cff
   live:
   - youtubeshort: YKmsB94XMb4
   - youtubeshort: MpR-vcWQAuQ
@@ -102,6 +105,12 @@ related:
   label: Promo
   info: Shibuya eggman, studio audio
   published-date: 2024-11-12
+- type: youtubeshort
+  id: Bvri9sj_Ajw
+  label: Promo
+  info: Rehearsal room, studio audio
+  published-date: 2025-05-19
+# post X
 - type: postx
   id: 1917515461727772903
   account: cure_bass_baka
@@ -119,6 +128,24 @@ related:
     cover: 1917515345696546817/img/z7YArpECtZZ0NRzV.jpg
     label: Bass intro
     info: Kanade
+- type: postx
+  id: 1922955621957005543
+  account: natsu08_guitar
+  published-date: 2025-05-15
+  label: Reigen girl riff
+  text: |
+    令現少女 / NEK!
+
+    “何もかもなくなれ！！！”
+
+    このリフ、ヘビィでお気に入り( ˊ̱˂˃ˋ̱ )🎸
+
+    #NEKI #ネキ界隈 #拡散中 #令現少女
+  video:
+  - id: 97bf656e-1306-4f01-b926-ec5e46b54cff
+    cover: 1922955546032066560/img/QwIcPX276foa_-KN.jpg
+    label: Riff
+    info: Natsu
 
 
 lyrics:

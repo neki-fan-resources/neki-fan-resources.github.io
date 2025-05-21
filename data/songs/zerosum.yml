@@ -38,6 +38,7 @@ multimedia:
   - youtubeshort: swQC6Xm0uLA
   additional:
   - youtubevideo: 6YLIHyMl21k
+  - youtubeshort: ybFbLwDu-U4
 
 related:
 # YouTube videos
@@ -107,6 +108,11 @@ related:
   label: Music Video
   info: music Video behind the scene, Cocoro focus
   published-date: 2025-04-07
+- type: youtubeshort
+  id: ybFbLwDu-U4
+  label: Bass and guitar solos
+  info: rehearsal room, Kanade, Natsu
+  published-date: 2025-05-16
 
 
 lyrics:

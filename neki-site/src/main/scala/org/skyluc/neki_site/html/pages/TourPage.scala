@@ -37,8 +37,6 @@ class TourPage(tour: ElementCompiledData, shows: Seq[ElementCompiledData], descr
 object TourPage {
   val DESIGNATION = "tour"
 
-  val DATE_RANGE_SEPARATOR = " - "
-
   val SECTION_SHOWS = "Shows"
 
   val LABEL_DATES = "dates"

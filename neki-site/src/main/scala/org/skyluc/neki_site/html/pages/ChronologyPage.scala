@@ -141,7 +141,7 @@ object ChronologySvg {
   }
 
   private def generateMarkers(markers: Seq[MarkerCompiledData]): Seq[SvgElement[?]] = {
-    markers.map(marker => generateMarker(marker.id, marker.marker))
+    markers.map(marker => generateMarker(marker.id.shortUId(), marker.marker))
   }
 
   private def generateMarker(id: String, marker: MarkerCompiledDataMarker): SvgG = {

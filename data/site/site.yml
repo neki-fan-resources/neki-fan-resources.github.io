@@ -92,6 +92,10 @@ navigation:
     highlight:
     - chronology.html
   support:
+  - name: Updates
+    link: /updates.html
+    highlight:
+    - updates.html
   - name: Sources
     link: /sources.html
     highlight:

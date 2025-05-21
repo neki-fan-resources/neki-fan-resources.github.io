@@ -1,0 +1,21 @@
+/* about page layout */
+
+.updates-section {
+  margin: 0 0 0 1rem;
+}
+
+.updates-section>p {
+  margin: 0.5rem 0;
+}
+
+.update-image {
+  float: left;
+  padding: 0 1rem 0 0;
+}
+
+/* about page styling */
+
+.updates-section {
+  font-size: 1rem;
+  line-height: normal;
+}

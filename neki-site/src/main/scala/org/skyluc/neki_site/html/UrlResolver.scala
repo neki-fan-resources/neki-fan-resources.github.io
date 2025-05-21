@@ -52,6 +52,8 @@ object UrlResolver extends fr.UrlResolver with Processor[Url] {
   override def processSong(song: Song): Url = generateBasic(song)
   override def processTour(tour: Tour): Url = generateBasic(tour)
 
+  override def processTourMarker(tourMarker: TourMarker): Url = ???
+
   override def processYouTubeShort(youtubeShort: YouTubeShort): Url = ???
 
   override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Url = ???

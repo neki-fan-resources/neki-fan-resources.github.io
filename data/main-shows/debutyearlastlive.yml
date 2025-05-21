@@ -18,6 +18,10 @@ cover-image:
 multimedia:
   video:
   - youtubevideo: IeBks9yGO4A
+  additional:
+  - postxvideo:
+      postid: 1920434632379580460
+      videoid: daa90966-8453-41ab-843d-c8dc1283943a
 
 linked-to:
 - postximage:
@@ -38,3 +42,23 @@ related:
   published-date: 2025-05-04
   related-to:
   - song: getover
+- type: youtubeshort
+  id: l5CgBChBmwQ
+  label: MC
+  info: about the member's goals
+  published-date: 2025-05-08
+- type: postx
+  id: 1920434632379580460
+  account: nekiband_jp
+  published-date: 2025-05-08
+  label: DEBUT YEAR LAST LIVE MC
+  info: one of the member's goals was to do a Zepp
+  text: |
+    メンバー全員の1つの目標であった「ZEPPワンマン」が決まる前、年末ライブMCから。
+    #NEKI
+  video:
+  - id: daa90966-8453-41ab-843d-c8dc1283943a
+    cover: 1920434553241407488/img/uAlxHinMyhwYxyhR.jpg
+    label: MC
+    info: about the member's goals
+

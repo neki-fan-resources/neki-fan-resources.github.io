@@ -1,0 +1,127 @@
+type: song
+id: newsong202505
+dark: true
+
+fullname: New song recorded May 2025
+
+release-date: 2050-01-01
+
+description:
+- New song.
+- Videos without sound of rehearals and recording.
+
+cover-image:
+  imageid:
+    group: siteimages
+    id: nekilogo
+
+multimedia:
+  video:
+  - postxvideo:
+      postid: 1924763496551743797
+      videoid: 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
+  - postxvideo:
+      postid: 1923958028916883650
+      videoid: 6d791e00-ee17-4246-b248-d81ea7004287
+  - postxvideo:
+      postid: 1922260308782887399
+      videoid: 94a26956-efe7-4eba-8e5b-d69fb922bc95
+  - postxvideo:
+      postid: 1921051915636429162
+      videoid: 2a990e8d-5cc0-4c3e-bcf8-aa24f2a2ec53
+  image:
+  - postximage:
+      postid: 1923986423700652394
+      imageid: GrNfc0sXoAAk6JN
+
+
+related:
+- type: postx
+  id: 1921051915636429162
+  account: cure_bass_baka
+  published-date: 2025-05-10
+  label: Rehearsing
+  info: working on new phrases
+  text: |
+    最近は今月のレコーディングに向けて、新しいフレーズを詰めてます！
+    (フレーズはまだ秘密だから音消してます🤫)
+    #拡散中  #ネキ界隈  #NEKI
+  video:
+  - id: 2a990e8d-5cc0-4c3e-bcf8-aa24f2a2ec53
+    cover: 1921051642474254336/img/hp95Ii6uif6RovzW.jpg
+    label: Rehearsing
+    info: working on new phrases, Kanade
+- type: postx
+  id: 1922260308782887399
+  account: 46_hikaa
+  published-date: 2025-05-13
+  label: Rehearsal
+  info: a few days before recording
+  text: |
+    今日はネキリハでした！
+
+    今週はレコーディングやけん皆んなで
+    新しい曲を合わせてきたよぉ✌︎('ω'✌︎ )
+
+    #ネキ界隈 #拡散中
+  video:
+  - id: 94a26956-efe7-4eba-8e5b-d69fb922bc95
+    cover: 1922260231012130816/img/5mWiE_vSstcqBwIG.jpg
+    label: Rehearsal
+    info: a few days before recording
+- type: postx
+  id: 1923986423700652394
+  account: cure_bass_baka
+  published-date: 2025-05-18
+  label: Recording
+  info: ピルん
+  text: |
+    今日はネキリハでした！
+
+    今週はレコーディングやけん皆んなで
+    新しい曲を合わせてきたよぉ✌︎('ω'✌︎ )
+
+    #ネキ界隈 #拡散中
+  image:
+  - id: GrNfc0sXoAAk6JN
+    label: Recording
+    info: ピルん
+    linked-to:
+      songid:
+        id: newsong202505
+        dark: yes
+- type: postx
+  id: 1923958028916883650
+  account: coco_102
+  published-date: 2025-05-18
+  label: Recording
+  text: |
+    新曲レコーディングしてきたよ￼￼
+
+    かっこいい曲になるように魂込めてぶっ叩きました！
+    みんなにも早く聴いてもらいたいなー！お楽しみに！
+
+    #NEKI #拡散中 #ネキ界隈
+  video:
+  - id: 6d791e00-ee17-4246-b248-d81ea7004287
+    cover: 1923957908833701888/img/Rtc71v02-R15ZKmm.jpg
+    label: Recording
+    info: Cocoro
+- type: postx
+  id: 1924763496551743797
+  account: natsu08_guitar
+  published-date: 2025-05-20
+  label: Practicing
+  text: |
+    こんなに陽気な格好してますが、新曲練習中だよーー！！
+    早くみんなに聴いて欲しい🫣❤️‍🔥
+    （流れている曲は関係ないよん）
+
+    #ネキ界隈 #拡散中
+  video:
+  - id: 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
+    cover: 1924763425592508424/img/xc1Gc1I_5zi9qbQq.jpg
+    label: Practicing
+    info: Natsu, Hika
+
+

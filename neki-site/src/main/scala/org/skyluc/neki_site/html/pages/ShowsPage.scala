@@ -27,7 +27,7 @@ class ShowsPage(shows: LayeredData[ElementCompiledData], description: PageDescri
   override def elementContent(): Seq[BodyElement[?]] = {
 
     List(
-      MainIntro.generate(MAIN_INTRO_CONTENT),
+      MainIntro.generate(MAIN_INTRO_CONTENT*),
       MediumCard.generateHybridTree(shows),
     )
 

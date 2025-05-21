@@ -25,9 +25,13 @@ multimedia:
   - youtubevideo: 0YlW7T5fVZ4
   live:
   - youtubevideo: _Oac92XPkyo
+  - postxvideo:
+      postid: 1920746869560430820
+      videoid: 86e746a8-fd09-4141-979d-524ced4fa2f0
   - youtubeshort: CBPR9cp2urk
   - youtubeshort: u9-z9XkhpVw
   short:
+  - youtubeshort: rnvVMueRDCk
   - youtubeshort: MMCK7gW62zU
   additional:
   - youtubevideo: Vh5saxbTlvE
@@ -69,13 +73,18 @@ related:
 - type: youtubeshort
   id: MMCK7gW62zU
   label: Music Video
-  info: behind the scene
+  info: behind the scenes
   published-date: 2025-03-10
 - type: youtubeshort
   id: n8e278VpxBo
   label: MV Reaction
   info: reacting to the music video
   published-date: 2025-03-29
+- type: youtubeshort
+  id: rnvVMueRDCk
+  label: Music Video
+  info: behind the scenes
+  published-date: 2025-05-17
 
 
 lyrics:

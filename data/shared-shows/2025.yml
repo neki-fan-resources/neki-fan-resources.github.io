@@ -177,6 +177,18 @@
   multimedia:
     video:
     - postxvideo:
+        postid: 1922588708026404968
+        videoid: 4c117af0-984b-4ba9-8a30-e82f968dd226
+    - postxvideo:
+        postid: 1921828183369781385
+        videoid: 890f9d50-48f5-4914-9d1f-223e9a52a452
+    - postxvideo:
+        postid: 1920746869560430820
+        videoid: 86e746a8-fd09-4141-979d-524ced4fa2f0
+    - postxvideo:
+        postid: 1920401532488724860
+        videoid: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
+    - postxvideo:
         postid: 1919977679027372546
         videoid: 37e3c46f-d463-4507-8090-19abc74c839b
     - youtubeshort: CBPR9cp2urk
@@ -316,6 +328,80 @@
       info: Hika, from the stage
       linked-to:
         - song: maze
+  - type: postx
+    id: 1920401532488724860
+    account: cure_bass_baka
+    published-date: 2025-05-08
+    label: Jumping bassist
+    info: MAZE
+    text: |
+      反復横跳びベーシスト🎸
+      #拡散中  #ネキ界隈  #NEKI
+    video:
+    - id: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
+      cover: 1920401419061833728/img/c47mejQ4bkeDGEiN.jpg
+      label: Live
+      info: Jumping Kanade
+      linked-to:
+        - song: maze
+  - type: postx
+    id: 1920746869560430820
+    account: coco_102
+    published-date: 2025-05-09
+    label: Dreams!!!!
+    info: let's sing together
+    text: |
+      🌈 🌈 🌈 🌈 🌈 Dreams!!!! 🌈 🌈 🌈 🌈 🌈
+
+      ライブの良さがギューッと詰まったこの曲が大好き！
+      またみんなで一緒に歌おうー！！
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 86e746a8-fd09-4141-979d-524ced4fa2f0
+      cover: 1920746671652188160/img/cVITx_SpHeb9T00E.jpg
+      label: Live
+      info: Cocoro
+      linked-to:
+        - song: dreams
+  - type: postx
+    id: 1921828183369781385
+    account: natsu08_guitar
+    published-date: 2025-05-12
+    label: Sing along, thanks
+    info: Song D live
+    text: |
+      本日も足元から失礼します🦵🙏🏻
+
+      ライブでここの”Yeah”と”Hey”をみんなで言えたら最高だなーーって思うんですけど、どうですかーー❤️‍🔥❤️‍🔥❤️‍🔥
+      一緒に歌ってくれますか‼️‼️❓
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 890f9d50-48f5-4914-9d1f-223e9a52a452
+      cover: 1921828067770847232/img/fTtcpYm1zUWlb4uR.jpg
+      label: Live
+      info: Natsu
+      linked-to:
+        - songid:
+            id: songd
+            dark: true
+  - type: postx
+    id: 1922588708026404968
+    account: cure_bass_baka
+    published-date: 2025-05-14
+    label: live
+    info: ENDLESSGAME
+    text: |
+      ENDLESSGAME👾
+      #拡散中  #ネキ界隈  #NEKI
+    video:
+    - id: 4c117af0-984b-4ba9-8a30-e82f968dd226
+      cover: 1922588402291249152/img/qMgNWg9u_DSfpOQr.jpg
+      label: Live
+      info: Kanade
+      linked-to:
+        - song: endlessgame
 
 - type: show
   year: 2025

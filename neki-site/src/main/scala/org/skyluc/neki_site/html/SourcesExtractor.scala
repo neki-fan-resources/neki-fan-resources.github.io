@@ -70,6 +70,8 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
   override def processTour(tour: Tour): Seq[DatumEntry] = Nil
 
+  override def processTourMarker(tourMarker: TourMarker): Seq[DatumEntry] = Nil
+
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[DatumEntry] = Nil
 
   override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Seq[DatumEntry] = Nil

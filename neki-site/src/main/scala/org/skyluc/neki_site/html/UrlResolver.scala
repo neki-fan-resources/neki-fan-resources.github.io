@@ -1,5 +1,6 @@
 package org.skyluc.neki_site.html
 
+import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.{Processor as _, *}
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.fan_resources.html.Url
@@ -62,8 +63,8 @@ object UrlResolver extends fr.UrlResolver with Processor[Url] {
 
   private def generateBasic(datum: Datum[?]): Url =
     if (datum.id.dark) {
-      Url(SitePage.DARK_PATH.resolve(datum.id.path).withExtension(".html"))
+      Url(SitePage.DARK_PATH.resolve(datum.id.path).withExtension("html"))
     } else {
-      Url(datum.id.path.withExtension(".html"))
+      Url(datum.id.path.withExtension(Common.HTML_EXTENSION))
     }
 }

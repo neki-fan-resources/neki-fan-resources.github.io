@@ -243,12 +243,38 @@
   event-page: http://eggman.jp/schedule/schedule-26342/
   shared: true
 
+  multimedia:
+    video:
+    - postxvideo:
+        postid: 1925477926914728044
+        videoid: 302d989a-1b37-43e8-940d-ea87f157eb0f
+
   cover-image:
     image:
       filename: cover400.png
       source:
         description: NEK! X post
         url: https://x.com/nekiband_jp/status/1847158761385070660 # wrong post ....
+
+  related:
+  - type: postx
+    id: 1925477926914728044
+    account: cure_bass_baka
+    published-date: 2025-05-22
+    label: live
+    info: Fool
+    text: |
+      去年の10月のライブ動画！
+      ここちゃんのお母さんを見つけて喜ぶ私の表情見て欲しい😂
+
+      #拡散中  #ネキ界隈  #NEKI
+    video:
+    - id: 302d989a-1b37-43e8-940d-ea87f157eb0f
+      cover: 1925477851769577475/img/yMlT86J-LoE97KOU.jpg
+      label: Live
+      info: Kanade side
+      linked-to:
+        - song: fool
 
 - type: show
   year: 2024

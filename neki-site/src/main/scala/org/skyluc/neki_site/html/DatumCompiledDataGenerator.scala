@@ -11,9 +11,10 @@ import org.skyluc.neki_site.data.ShowsPage
 import fr.CompiledDataGenerator
 import fr.DatumCompiledData
 import fr.CompiledDataAttributeText
+import org.skyluc.fan_resources.data.Path
 
-class DatumCompiledDataGenerator(datums: Seq[Datum[?]], generator: CompiledDataGenerator)
-    extends fr.DatumCompiledDataGenerator(datums, generator)
+class DatumCompiledDataGenerator(datums: Seq[Datum[?]], backupPath: Path, generator: CompiledDataGenerator)
+    extends fr.DatumCompiledDataGenerator(datums, backupPath, generator)
     with Processor[DatumCompiledData] {
 
   override def missingCompiledData(id: Id[?]): DatumCompiledData = DatumCompiledData(

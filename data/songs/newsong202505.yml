@@ -18,6 +18,9 @@ cover-image:
 multimedia:
   video:
   - postxvideo:
+      postid: 1926604625936810264
+      videoid: b0969558-f5d5-43d7-9200-0bf80227bfbf
+  - postxvideo:
       postid: 1924763496551743797
       videoid: 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
   - postxvideo:
@@ -123,5 +126,21 @@ related:
     cover: 1924763425592508424/img/xc1Gc1I_5zi9qbQq.jpg
     label: Practicing
     info: Natsu, Hika
+- type: postx
+  id: 1926604625936810264
+  account: coco_102
+  published-date: 2025-05-25
+  label: Recording
+  text: |
+    この前のレコーディングをまたまたチラ見せ👀❤️‍🔥
+
+    各パートかっこいいフレーズ盛り沢山！お楽しみに〜！
+
+    #NEKI #拡散中 #ネキ界隈
+  video:
+  - id: b0969558-f5d5-43d7-9200-0bf80227bfbf
+    cover: 1926604563953471488/img/LsvQBWyGGPFdD3aD.jpg
+    label: Recording
+    info: Cocoro
 
 

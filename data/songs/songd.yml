@@ -19,6 +19,7 @@ multimedia:
       videoid: 890f9d50-48f5-4914-9d1f-223e9a52a452
   - youtubeshort: jZ2Dn5P3Fac
   short:
+  - youtubeshort: u41vd6yyGGk
   - youtubeshort: tabt75E-6tY
 
 cover-image:
@@ -32,13 +33,14 @@ lyrics:
     description: song not released. partial lyrics from short.
   languages:
     - id: ol
-      name: original lyrics, from the Youtube Short
+      name: original lyrics, from the Youtube Shorts
       active: true
       fixed: true
       notranslation: true
   sections:
   - lines:
     - oll: "[...]"
+    - oll: ただ一つよ
     - oll: Yeah
     - oll: 超えて行くんだ縦横無尽チューニングは出来てる
     - oll: Hey
@@ -51,6 +53,12 @@ lyrics:
 related:
 # YouTube shorts
 - type: youtubeshort
+  id: u41vd6yyGGk
+  label: Rehearsal
+  info: studio audio
+  published-date: 2025-05-24
+- type: youtubeshort
   id: tabt75E-6tY
   label: Rehearsal
+  info: studio audio
   published-date: 2025-05-03

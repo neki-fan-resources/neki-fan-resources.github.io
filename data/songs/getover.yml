@@ -39,6 +39,7 @@ multimedia:
   - youtubeshort: EzpPj7pVf6Y
   - youtubeshort: qFiKgQ5mNgQ
   short:
+  - youtubeshort: BCMkj_OhBmo
   - youtubeshort: 1VU7-KQyOvg
   - youtubeshort: CUgtBUOxL1w
   - youtubeshort: nDKETw7zIX4
@@ -159,6 +160,16 @@ related:
   label: Music Video
   info: behind the scenes, packing up
   published-date: 2025-05-18
+- type: youtubeshort
+  id: BCMkj_OhBmo
+  label: Rehearsal
+  info: Hika, Natsu
+  published-date: 2025-05-21
+- type: youtubeshort
+  id: xsnKWL8af5w
+  label: Promo
+  info: rehearsal room, studio audio, Kanade
+  published-date: 2025-05-25
 # X post
 - type: postx
   id: 1918636722516373576
@@ -184,7 +195,6 @@ related:
   image:
   - id: GqBc0HhbYAA2VDy
     label: Natsu
-
 
 lyrics:
   status:

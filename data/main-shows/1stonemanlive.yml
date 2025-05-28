@@ -18,6 +18,9 @@ multimedia:
   video:
   - youtubeshort: EkRipluPvVg
   - youtubeshort: XzfOs6kjtUs
+  - postxvideo:
+      postid: 1926203870809608381
+      videoid: de045839-e5ef-4546-90d3-d6e3f4cb9f34
 
 related:
 - type: youtubeshort
@@ -46,3 +49,25 @@ related:
   published-date: 2024-04-04
   related-to:
   - song: fool
+- type: postx
+  id: 1926203870809608381
+  account: natsu08_guitar
+  published-date: 2025-05-23
+  label: cover ワンオクの”Wherever you are”
+  text: |
+    1st ワンマンのときのHikaちゃんと2人でワンオクの”Wherever you are”
+    カバーしたときの動画出てきたーー！！
+
+    懐かしい❤️‍🔥❤️‍🔥チラ見せしちゃう🫣🫣🫣
+
+    #ネキ界隈 #拡散中 #ワンオク
+  # image of show poster
+  video: 
+  - id: de045839-e5ef-4546-90d3-d6e3f4cb9f34
+    cover: 1926203706065776641/img/jEr9SPtZbTqnTdWs.jpg
+    label: cover ONE OK ROCK ”Wherever you are”
+    info: accoustic, Hika, Natsu
+    linked-to:
+    - show:
+        year: 2024
+        id: 1stonemanlive

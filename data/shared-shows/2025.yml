@@ -177,6 +177,9 @@
   multimedia:
     video:
     - postxvideo:
+        postid: 1926928034944213276
+        videoid: d7408dbc-320f-41a5-8e45-5ce994c99049
+    - postxvideo:
         postid: 1922588708026404968
         videoid: 4c117af0-984b-4ba9-8a30-e82f968dd226
     - postxvideo:
@@ -402,6 +405,23 @@
       info: Kanade
       linked-to:
         - song: endlessgame
+  - type: postx
+    id: 1926928034944213276
+    account: natsu08_guitar
+    published-date: 2025-05-26
+    label: live
+    info: MAZE
+    text: |
+      5/4、革命ロジックからMAZEのギターソロの部分🌀
+      照明がやばい！カッコ良すぎる！！
+      #ネキ界隈 #拡散中 #MAZE
+    video:
+    - id: d7408dbc-320f-41a5-8e45-5ce994c99049
+      cover: 1926927934914228224/img/pZxdsLyZxhNFUdZ4.jpg
+      label: Live
+      info: solo, Natsu
+      linked-to:
+        - song: maze
 
 - type: show
   year: 2025
@@ -421,6 +441,29 @@
       source:
         description: NEK! note post
         url: https://note.com/nekiband_jp/n/nb50d1c0b1dd3
+  related:
+  - type: postx
+    id: 1925839253633695948
+    account: rakutenbooks
+    published-date: 2025-05-23
+    label: presentation of NEK!
+    text: |
+      【NEK!コメント動画🎥】 
+      「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+
+      NEK!(
+      @nekiband_jp
+      )
+
+      “スラングロックバンド”としてガールズバンド界に旋風を巻き起こすNEK!からコメントが届きました🎸
+
+      ▼チケット発売中♩
+      https://r10.to/h53e44
+    # image of show poster
+    video: 
+    - id: e0a878eb-034c-48b4-8db2-b37112a4e44a
+      cover: 1925364265340559361/img/raHNEuNv4NJ7__RF.jpg
+      label: NEK! presentation
 
 - type: show
   year: 2025

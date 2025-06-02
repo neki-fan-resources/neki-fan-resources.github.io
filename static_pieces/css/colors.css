@@ -35,6 +35,8 @@
 
   --color-group-border: black;
 
+  --color-text-red: darkred;
+
   --gradient-bar: linear-gradient(120deg,
       var(--color-kanade-cocoro-light) 0%,
       var(--color-kanade-light) 5%,

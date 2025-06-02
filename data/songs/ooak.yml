@@ -1,16 +1,17 @@
 type: song
-id: songd
-dark: true
-
-fullname: Song D
-
-release-date: 2050-01-01
+id: ooak
+fullname: OOAK
+release-date: 2025-06-04
 
 description:
-- Unnamed song which has been played live.
-- "The song was available in the online version (Zaiko) of the 2ND ONE MAN LIVE show (song #6)."
-- It has been teased in a couple of shorts.
-- "Some of the shows where it has been played: 2ND ONE MAN LIVE, DEBUT YEAR LAST LIVE, TR!CK TAK!ING tour, 革命ロジック2025."
+- Named and announced to be release on 2025-06-02, during the「NEK!/komsume TWO-MAN SHOW」in Tokyo.
+- Prior to this announcement, it had been played live without being named, at least since the 2ND ONE MAN LIVE show. It also has been teased in a couple of shorts.
+- "The song was part of the online version (Zaiko) of the 2ND ONE MAN LIVE show (song #6)."
+
+cover-image:
+  postximage:
+    postid: 1929512124243411173
+    imageid: GscBBL6bgAAwvmM
 
 multimedia:
   live:
@@ -21,11 +22,6 @@ multimedia:
   short:
   - youtubeshort: u41vd6yyGGk
   - youtubeshort: tabt75E-6tY
-
-cover-image:
-  imageid:
-    group: siteimages
-    id: nekilogo
 
 lyrics:
   status:
@@ -62,3 +58,25 @@ related:
   label: Rehearsal
   info: studio audio
   published-date: 2025-05-03
+# X posts
+- type: postx
+  id: 1929512124243411173
+  account: nekiband_jp
+  published-date: 2025-06-02
+  label: announcement OOAK release
+  text: |
+    🎊情報解禁🎊
+
+    新曲「OOAK」
+
+    6/4(水)0時 配信リリース決定🎧
+    ジャケットも公開💥
+
+    🔗https://pci.lnk.to/nek_ooak
+
+    #NEKI #OOAK
+  image:
+  - id: GscBBL6bgAAwvmM
+    label: OOAK image cover
+    localCopy: true
+

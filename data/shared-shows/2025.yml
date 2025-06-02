@@ -386,9 +386,7 @@
       label: Live
       info: Natsu
       linked-to:
-        - songid:
-            id: songd
-            dark: true
+        - song: ooak
   - type: postx
     id: 1922588708026404968
     account: cure_bass_baka

@@ -71,6 +71,7 @@ object SitePage {
 
   // javascript
   private val SRC_JAVASCRIPT = "/asset/javascript/main.js"
+  val SRC_NEWS_JAVASCRIPT = "/asset/javascript/news.js"
   val JAVASCRIPT_FILES = Seq(Url(SRC_JAVASCRIPT))
 
   val DARK_PATH = Path("dark")

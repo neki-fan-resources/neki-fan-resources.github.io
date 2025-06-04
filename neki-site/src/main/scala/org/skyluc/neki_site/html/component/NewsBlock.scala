@@ -1,9 +1,10 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.neki_site.data.BandNews
-import org.skyluc.html._
-import Html._
 import org.skyluc.collection.Collections
+import org.skyluc.html.*
+import org.skyluc.neki_site.data.BandNews
+
+import Html.*
 
 object NewsBlock {
 
@@ -35,8 +36,7 @@ object NewsBlock {
               BandNewsCard.generate(news)*
             ),
           div().withClass(CLASS_NEWS_TAGS).appendElements(text("#拡散中 #ネキ界隈 #nekikaiwai")),
-        ),
-      script().setScript(s"""startLoopNewsItems(${news.size})"""),
+        )
     )
   }
 

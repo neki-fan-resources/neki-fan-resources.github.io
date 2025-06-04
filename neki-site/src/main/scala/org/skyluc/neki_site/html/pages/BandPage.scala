@@ -19,6 +19,8 @@ class BandPage(site: Site, description: PageDescription) extends SitePage(descri
 
   import BandPage._
 
+  override def javascriptFiles(): Seq[Url] = super.javascriptFiles() :+ Url(SitePage.SRC_NEWS_JAVASCRIPT)
+
   override def elementContent(): Seq[BodyElement[?]] = {
     List(
       div()

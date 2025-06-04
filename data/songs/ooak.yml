@@ -16,38 +16,99 @@ cover-image:
 multimedia:
   live:
   - postxvideo:
+      postid: 1930096228966248749
+      videoid: 54904afa-0889-4f5e-a1b1-fe705c2c671d
+  - postxvideo:
       postid: 1921828183369781385
       videoid: 890f9d50-48f5-4914-9d1f-223e9a52a452
   - youtubeshort: jZ2Dn5P3Fac
   short:
+  - youtubeshort: S5DQ7wjnoKA
   - youtubeshort: u41vd6yyGGk
   - youtubeshort: tabt75E-6tY
 
 lyrics:
   status:
-    code: na
-    description: song not released. partial lyrics from short.
+    code: warning
+    description: Data copied from the sources. Not checked.
   languages:
     - id: ol
-      name: original lyrics, from the Youtube Shorts
+      name: original lyrics
+      details: "(from LyricFind)"
       active: true
       fixed: true
       notranslation: true
+      source:
+        description: LyricFind
+        url: https://lyrics.lyricfind.com/lyrics/nek-ooak
   sections:
   - lines:
-    - oll: "[...]"
+    - oll: Hey 目を開いてこっちを見て
+    - oll: 小さい手の中？
+    - oll: そんなんじゃないわ
+    - oll: 見ていない 見ていたい 見られたい
+    - oll: そんなん That's not it.
+
+  - lines:
+    - oll: Hey そんなん面白いの？ねえ？
+    - oll: 体裁や形式で
+    - oll: 真似事ばっか
+    - oll: Not real, just fake, Cheating
+    - oll: Finally just for show
+
+  - lines:
+    - oll: 本物の猫は 私だけよ
     - oll: ただ一つよ
-    - oll: Yeah
-    - oll: 超えて行くんだ縦横無尽チューニングは出来てる
-    - oll: Hey
-    - oll: 世界を揺らす
-    - oll: 掻き鳴らすのゲームマスター
-    - oll: ドープで既視感のないリアル
-    - oll: 抜けられぬ世界ウェルカム
-    - oll: "[...]"
+  - lines:
+    - oll: Yeah 超えて行くんだ 縦横無尽
+    - oll: チューニングは出来てる
+    - oll: Hey 世界を揺らす 掻き鳴らすの
+    - oll: ゲームマスター
+    - oll: ドープで既視感のない
+    - oll: リアル 抜けられぬ世界 ウェルカム
+  - lines:
+    - oll: Hey 行き場なく集う界隈
+    - oll: つるみ合う退屈しのぎ
+    - oll: テンポラリーな
+    - oll: 見ていない 喋らない 聞いてない
+    - oll: そんなRelationで
+  - lines:
+    - oll: ただ踊らされてるだけなの 気付かないの
+  - lines:
+    - oll: Yeah 超えて行ける 変幻自在
+    - oll: 他所様のレールじゃない
+    - oll: Hey お好きにどうぞ
+    - oll: フォローはご自由に 後悔させない
+  - lines:
+    - oll: 指でなぞるだけで 本物を見ずに
+    - oll: 知った気の世の中
+    - oll: だから だから だから
+    - oll: Is it real or fake?
+  - lines:
+    - oll: Yeah 超えてみせる 新章開幕
+    - oll: ど真ん中で掻き鳴らしてく
+    - oll: Hey 私のストーリー
+    - oll: 60秒でショートさせるわ
+    - oll: Welcome to my world
+  - lines:
+    - oll: Yeah 超えてみせる 一切合切
+    - oll: あげてもいいから
+    - oll: Yeah ここで止まる気 さらさらないわ
+    - oll: ここから始まる
+    - oll: Never stop. The story is starting.
+    - oll: さあ ここから本当のshow time
+  - lines:
+    - oll: We can make you free so come with us now.
+    - oll: We can make you free so come with us now
+
 
 related:
 # YouTube shorts
+- type: youtubeshort
+  id: S5DQ7wjnoKA
+  label: Rehearsal
+  info: studio audio
+  published-date: 2025-06-04
 - type: youtubeshort
   id: u41vd6yyGGk
   label: Rehearsal
@@ -79,4 +140,23 @@ related:
   - id: GscBBL6bgAAwvmM
     label: OOAK image cover
     localCopy: true
+- type: postx
+  id: 1930096228966248749
+  account: nekiband_jp
+  published-date: 2025-06-04
+  label: everyone sings
+  text: |
+    New Single 「OOAK」
 
+    皆さんどぉでしょうか！
+
+    ライブではHey!やYeah！とみんな一緒に歌ってくれててちょー楽しいよ！
+
+    ライブ映像も少しお見せしちゃお🫶
+
+    #ネキ界隈  #拡散中  #NEKI
+  video:
+  - id: 54904afa-0889-4f5e-a1b1-fe705c2c671d
+    cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
+    label: Live
+    info: everyone sings

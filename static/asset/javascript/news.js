@@ -4,7 +4,6 @@ var newsItemManuallySelected = false
 
 function startLoopNewsItems() {
   numberNewsItems = document.querySelectorAll(".news-item").length
-  console.log(numberNewsItems)
   currentNewsItem = 0
   setTimeout(() => {
     loopNewsItems()

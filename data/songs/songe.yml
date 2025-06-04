@@ -11,8 +11,9 @@ description:
 - "Some of the shows where it has been played: TR!CK TAK!NG tour."
 
 cover-image:
-  imageid:
+  localImage:
     group: siteimages
     id: nekilogo
+  fromOtherElement: true
 
 

@@ -10,11 +10,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1765625866816803054
+    postximage:
+      postid: 1765625866816803054
+      imageid: GIDCvFoaEAARgCV
 
   related:
   - type: youtubeshort
@@ -24,6 +22,32 @@
     published-date: 2024-03-15
     related-to:
     - song: getover
+  - type: postx
+    id: 1765625866816803054
+    account: shibuya_eggman
+    published-date: 2024-03-07
+    label: today
+    text: |
+      🥠本日🥠
+
+      Girl's UP!!! vol.349
+
+      IrisaVior
+      EMANON
+      ES-TRUS
+      ЯeaL
+      優利香
+      NEK!
+
+      OPEN 17:30
+      START 18:00
+      TICKET ￥3,000-(+1D)  
+
+      ご来場お待ちしております！
+    image:
+    - id: GIDCvFoaEAARgCV
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -37,11 +61,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1777594109558952005
+    postximage:
+      postid: 1777594109558952005
+      imageid: GKtHu_waEAA2ryE
 
   multimedia:
     short:
@@ -54,6 +76,30 @@
     published-date: 2024-04-20
     related-to:
     - song: reigengirl
+  - type: postx
+    id: 1777594109558952005
+    account: shibuya_eggman
+    published-date: 2024-04-09
+    label: today
+    text: |
+      Girl's UP!!! vol.350
+
+      萠珈
+      はちみつコーヒー座 
+      EMANON
+      NEK!
+      日乃まそら
+      NANAO
+
+      OPEN 18:00
+      START 18:30
+      DOOR ￥3,000-(+1D)  
+
+      ご来場お待ちしております！
+    image:
+    - id: GKtHu_waEAA2ryE
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -67,11 +113,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1787740918298345982
+    postximage:
+      postid: 1787740918298345982
+      imageid: GM9UGEVbQAEGLaw
 
   related:
   - type: youtubeshort
@@ -81,6 +125,30 @@
     published-date: 2024-05-17
     related-to:
     - song: getover
+  - type: postx
+    id: 1787740918298345982
+    account: shibuya_eggman
+    published-date: 2024-05-07
+    label: today
+    text: |
+      Girl's UP!!! vol.351
+
+      NEK!
+      momoca
+      START TO BLING
+      東京ハテナバナナ
+      Qtwins
+      Riju
+
+      OPEN 18:00 
+      START 18:30
+      DOOR ¥3,000 + 1D¥600    
+
+      ご来場お待ちしております！
+    image:
+    - id: GM9UGEVbQAEGLaw
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -94,11 +162,36 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1788471211137306929
+      imageid: GNHsX4GbUAAlOcj
+
+  related:
+  - type: postx
+    id: 1788471211137306929
+    account: shibuya_eggman
+    published-date: 2024-05-09
+    label: today
+    text: |
+      🫧本日🫧
+
+      Girl's UP!!! vol.352
+
+      AND CALL. 
+      MARKET SHOP STORE
+      Joanna
+      NEK!
+      ビースト・アニマルズ
+
+      OPEN 18:00  
+      START 18:30      
+      DOOR ￥3,000＋1D
+
+      ご来場お待ちしております!
     image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1788471211137306929
+    - id: GNHsX4GbUAAlOcj
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -112,11 +205,37 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1797885211876970975
+      imageid: GPNeja6aUAEEo7h
+
+  related:
+  - type: postx
+    id: 1797885211876970975
+    account: shibuya_eggman
+    published-date: 2024-06-04
+    label: today
+    text: |
+      🐥本日🐥
+
+      Girl's UP!!! vol.354
+
+      萠珈 
+      川音希 
+      EMANON 
+      水谷若葉 
+      NEK! 
+      ヒダリ←イミテイト
+
+      OPEN 17:45
+      START 18:15
+      DOOR ¥3,000+1D  
+
+      お待ちしております！
     image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1797885211876970975
+    - id: GPNeja6aUAEEo7h
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -130,11 +249,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1802603553820643416
+    postximage:
+      postid: 1802603553820643416
+      imageid: GQQhU7gboAAgel1
 
   related:
   - type: youtubeshort
@@ -158,6 +275,31 @@
     published-date: 2024-06-26
     related-to:
     - song: reigengirl
+  - type: postx
+    id: 1802603553820643416
+    account: shibuya_eggman
+    published-date: 2024-06-17
+    label: today
+    text: |
+      🍜本日🍜
+
+      Girl's UP!!! vol.356
+
+      日乃まそら
+      AND CALL.
+      NEK!
+      AREINT
+      アンクレット
+
+      OPEN 18:00
+      START 18:30 
+      DOOR ￥3,000+1D  
+
+      ご来場お待ちしております！
+    image:
+    - id: GQQhU7gboAAgel1
+      label: sidewalk board
+      localCopy: true
   
 
 - type: show
@@ -172,11 +314,36 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1807675589555523709
+      imageid: GRYmoBmbgAAlnIh
+  
+  related:
+  - type: postx
+    id: 1807675589555523709
+    account: shibuya_eggman
+    published-date: 2024-07-01
+    label: today
+    text: |
+      本日！！
+
+      Girl’s UP!!! vol.357
+
+      NEK!
+      コウトウマリア
+      Buzzer01&.
+      キラナ
+      水谷若葉
+      ReBoom
+
+      OPEN 18:15 / START 18:45
+      DOOR 3000yen+1D
+
+      お待ちしております！
     image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1807675589555523709
+    - id: GRYmoBmbgAAlnIh
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -190,11 +357,36 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1833408179499372832
+      imageid: GXGQ23WbsAAyxNO
+  
+  related:
+  - type: postx
+    id: 1833408179499372832
+    account: shibuya_eggman
+    published-date: 2024-09-10
+    label: today
+    text: |
+      ☀️本日☀️
+
+      Girl's UP!!! vol.363
+
+      AND CALL. 
+      NEK!
+      EMANON
+      浮迷夜
+      ReBoom
+      メイビスレーヌ
+
+      OPEN 17:30 / START 18:00
+      TICKET ￥3,000-(+1D)
+
+      ご来場お待ちしております！
     image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1833408179499372832
+    - id: GXGQ23WbsAAyxNO
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -208,11 +400,36 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1838488577052913969
+      imageid: GYOeP9EbAAAVpUJ
+
+  related:
+  - type: postx
+    id: 1838488577052913969
+    account: shibuya_eggman
+    published-date: 2024-09-24
+    label: today
+    text: |
+      💫本日!!!💫
+
+      Girl's UP!!! vol.365
+
+      IrisaVior
+      NEK!
+      EMANON
+      LUMiRiSE
+      ※水谷若葉は体調不良の為、出演キャンセルになりました。
+
+      OPEN 18:30
+      START 19:00 
+      当日券 ￥3,000（+1D）  
+
+      ご来場お待ちしております！
     image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1838488577052913969
+    - id: GYOeP9EbAAAVpUJ
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -226,11 +443,40 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1841384260705624302
+      imageid: GY3ocH3bcAALiWN
     image:
       filename: cover400.png
       source:
         description: shibuya eggman X post
         url: https://x.com/shibuya_eggman/status/1841384260705624302
+
+  related:
+  - type: postx
+    id: 1841384260705624302
+    account: shibuya_eggman
+    published-date: 2024-10-02
+    label: today
+    text: |
+      🎈本日🎈
+
+      Girl's UP!!! vol.366
+
+      エイアイカ
+      EMANON
+      浮迷夜
+      NEK!
+      ミーマイナー
+
+      OPEN 18:00 / START 18:35
+      TICKET ￥3,000-(+1D)
+
+      ※水谷若葉さんが体調不良で出演キャンセルになりました
+    image:
+    - id: GY3ocH3bcAALiWN
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2024
@@ -250,13 +496,30 @@
         videoid: 302d989a-1b37-43e8-940d-ea87f157eb0f
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: NEK! X post
-        url: https://x.com/nekiband_jp/status/1847158761385070660 # wrong post ....
+    postximage:
+      postid: 1847190084451262858
+      imageid: GaKJl2Eb0AEjQl_
 
   related:
+  - type: postx
+    id: 1847190084451262858
+    account: shibuya_eggman
+    published-date: 2024-10-18
+    label: today
+    text: |
+      🔥本日🔥
+
+      「NEK!×Girl's UP!!! presents. FRIDAY 4MAN SHOW」
+      NEK! / ЯeaL / LUMiRiSE / MARKET SHOP STORE
+
+      OP18:00/ST 18:30 
+      DOOR ￥3,400+1D  
+
+      ご来場お待ちしております！
+    image:
+    - id: GaKJl2Eb0AEjQl_
+      label: sidewalk board
+      localCopy: true
   - type: postx
     id: 1925477926914728044
     account: cure_bass_baka
@@ -288,11 +551,37 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1864191582632583194
+      imageid: Gd7uUKFa0AAbSuw
+
+  related:
+  - type: postx
+    id: 1864191582632583194
+    account: shibuya_eggman
+    published-date: 2024-12-04
+    label: today
+    text: |
+      💖本日💖
+
+      Girl's UP!!! vol.369
+
+      ReBoom
+      Buzzer01&.
+      EMANON
+      AND CALL. 
+      4Chord
+      NEK!
+
+      OPEN17:30 
+      START18:00   
+      DOOR ¥3,000+1D 
+
+      ご来場お待ちしております！
     image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1864191582632583194
+    - id: Gd7uUKFa0AAbSuw
+      label: sidewalk board
+      localCopy: true
 
 - type: show
   year: 2025
@@ -306,11 +595,35 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1892129493306810798
+      imageid: GkIw1_zaAAA0kCd
+
+  related:
+  - type: postx
+    id: 1892129493306810798
+    account: shibuya_eggman
+    published-date: 2025-02-19
+    label: today
+    text: |
+      🎸本日🎸
+
+      Girl's UP!!! vol.375
+      〜スリーマンスペシャル〜
+
+      LUMiRiSE
+      BONE DAWN
+      NEK!
+
+      OPEN 18:15
+      START 18:45
+      DOOR ￥3,400+1D
+
+      ご来場お待ちしております！
     image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1892129493306810798
+    - id: GkIw1_zaAAA0kCd
+      label: sidewalk board
+      localCopy: true
 
 
 

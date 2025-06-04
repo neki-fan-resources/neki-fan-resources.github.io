@@ -36,31 +36,56 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
   override def processShowsPage(showsPage: ShowsPage): Seq[DatumEntry] = Nil
 
-  override def processAlbum(album: Album): Seq[DatumEntry] = Nil
+  override def processAlbum(album: Album): Seq[DatumEntry] = {
+    val sources = Seq(sourceFromCover(album.coverImage, generator)).flatten
 
-  override def processLocalImage(localImage: LocalImage): Seq[DatumEntry] = {
-    val compiledData = generator.getElement(localImage.id.itemId)
-    Seq(DatumEntry(compiledData, toSourceEntry(localImage.source, localImage.label.toLowerCase())))
+    val compiledData = generator.getElement(album)
+
+    sources.map { s => DatumEntry(compiledData, s) }
   }
 
-  override def processMediaAudio(mediaAudio: MediaAudio): Seq[DatumEntry] = Nil
+  override def processLocalImage(localImage: LocalImage): Seq[DatumEntry] = Nil
 
-  override def processMediaWritten(mediaWritten: MediaWritten): Seq[DatumEntry] = Nil
+  override def processMediaAudio(mediaAudio: MediaAudio): Seq[DatumEntry] = {
+    val sources = Seq(sourceFromCover(mediaAudio.coverImage, generator)).flatten
+
+    val compiledData = generator.getElement(mediaAudio)
+
+    sources.map { s => DatumEntry(compiledData, s) }
+  }
+
+  override def processMediaWritten(mediaWritten: MediaWritten): Seq[DatumEntry] = {
+    val sources = Seq(sourceFromCover(mediaWritten.coverImage, generator)).flatten
+
+    val compiledData = generator.getElement(mediaWritten)
+
+    sources.map { s => DatumEntry(compiledData, s) }
+  }
 
   override def processPostX(postX: PostX): Seq[DatumEntry] =
-    Nil // TODO: associate the usage of images to their item
+    Nil
 
   override def processPostXImage(postXImage: PostXImage): Seq[DatumEntry] =
-    Nil // TODO: associate the usage of images to their item
+    Nil
 
   override def processPostXVideo(postXVideo: PostXVideo): Seq[DatumEntry] =
-    Nil // TODO: associate the usage of images to their item
+    Nil
 
-  override def processShow(show: Show): Seq[DatumEntry] = Nil
+  override def processPostYouTube(postYouTube: PostYouTube): Seq[DatumEntry] = Nil
+
+  override def processPostYouTubeImage(postYouTubeImage: PostYouTubeImage): Seq[DatumEntry] = Nil
+
+  override def processShow(show: Show): Seq[DatumEntry] = {
+    val sources = Seq(sourceFromCover(show.coverImage, generator)).flatten
+
+    val compiledData = generator.getElement(show)
+
+    sources.map { s => DatumEntry(compiledData, s) }
+  }
 
   override def processSong(song: Song): Seq[DatumEntry] = {
 
-    val sources = Seq(sourceFromCredits(song.credits)).flatten
+    val sources = Seq(sourceFromCredits(song.credits), sourceFromCover(song.coverImage, generator)).flatten
       ++ sourcesFromLyrics(song.lyrics)
 
     val compiledData = generator.getElement(song)
@@ -68,7 +93,13 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
     sources.map { s => DatumEntry(compiledData, s) }
   }
 
-  override def processTour(tour: Tour): Seq[DatumEntry] = Nil
+  override def processTour(tour: Tour): Seq[DatumEntry] = {
+    val sources = Seq(sourceFromCover(tour.coverImage, generator)).flatten
+
+    val compiledData = generator.getElement(tour)
+
+    sources.map { s => DatumEntry(compiledData, s) }
+  }
 
   override def processTourMarker(tourMarker: TourMarker): Seq[DatumEntry] = Nil
 
@@ -102,6 +133,17 @@ object SourcesExtractor {
         }
       }
       .getOrElse(Nil)
+  }
+
+  private def sourceFromCover(coverImage: CoverImage, generator: CompiledDataGenerator): Option[SourceEntry] = {
+    if (coverImage.fromOtherElement) {
+      None
+    } else {
+      val coverCompiledData = generator.getMultiMedia(coverImage.image)
+      Some(
+        SourceEntry("cover image", coverCompiledData.sourceDescription, Some(coverCompiledData.targetUrl.toString()))
+      )
+    }
   }
 
   val CREDITS_LABEL = "credits"

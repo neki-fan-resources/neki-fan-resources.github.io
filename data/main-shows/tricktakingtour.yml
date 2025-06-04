@@ -9,11 +9,9 @@ last-date: 2024-03-16
 event-page: https://note.com/nekiband_jp/n/n41466bbb690c
 
 cover-image:
-  image:
-    filename: cover640.webp
-    source:
-      description: YouTube community post
-      url: https://www.youtube.com/post/Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+  postyoutubeimage:
+    postid: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+    imageid: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
 
 shows:
 - year: 2025
@@ -22,3 +20,35 @@ shows:
   id: tricktakingtouraichi
 - year: 2025
   id: tricktakingtourtokyo
+
+related:
+- type: postyoutube
+  id: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+  account: neki_official
+  label: announcement
+  published-date: 2025-01-01 # TODO: double check date with X post
+  text: |
+    NEK! 1stワンマンツアー 「TR!CK TAK!NG」開催決定！！！！
+
+    3/8(土) 大阪・アメリカ村DROP
+    3/9(日) 愛知・R.A.D
+    3/16(日) 東京・Spotify O-WEST
+
+    オフィシャル先行（抽選）はただいま20時から受付開始💨
+
+    詳細はこちら▼
+    https://note.com/nekiband_jp/n/nc703b...
+
+
+    NEK! 1st one man tour “TR!CK TAK!NG” will be held!!!!
+
+    3/8(Sat) Americamura DROP, Osaka
+    3/9(Sun) R.A.D, Aichi
+    3/16(Sun) Spotify O-WEST, Tokyo
+
+    Official advance orders (by lottery) are now being accepted from 20:00.
+    https://note.com/nekiband_jp/n/nc703b...
+  image:
+  - id: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
+    label: poster
+    localCopy: true

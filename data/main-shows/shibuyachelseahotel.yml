@@ -9,11 +9,9 @@ event-page: https://x.com/nekiband_jp/status/1770261360938746035
 setlistfm: nek/2024/chelsea-hotel-tokyo-japan-13561db5
 
 cover-image:
-  image:
-    filename: poster-01.png
-    source:
-      description: X post
-      url: https://x.com/nekiband_jp/status/1770261360938746035
+  postximage:
+    postid: 1770261360938746035
+    imageid: GJE7Uu6a4AAdiK5
 
 multimedia:
   short:
@@ -48,4 +46,29 @@ related:
   label: Show
   info: Before the show
   published-date: 2025-03-27
+# post X
+- type: postx
+  id: 1770261360938746035
+  account: nekiband_jp
+  published-date: 2024-03-20
+  label: show today
+  info: with merch info
+  text: |
+    本日3/20(水祝)
+    NEK! 単独フリーライブ
+    @ 渋谷チェルシーホテル
 
+    ついに開催！！！！
+    物販は各公演終演後におこないます！
+
+    楽しみすぎ！！！！
+    みなさまのご来場をお待ちしております🏃‍♀️
+
+    #NEKI
+  image:
+  - id: GJE7Uu6a4AAdiK5
+    label: poster
+    info: handmade
+    localCopy: true
+  - id: GJE7UvYbgAAG_3L
+    label: merch

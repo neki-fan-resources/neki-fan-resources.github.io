@@ -30,11 +30,11 @@
 # The host is either a great host, or a big fan (or both).
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: FANTASY RADIO webpage
-        url: https://www.nack5.co.jp/program/fantasyradio/
+    localImage:
+      media:
+        year: 2025
+        id: nack5fantasyradio
+      id: logo
 
   multimedia:
     short:
@@ -45,6 +45,18 @@
         imageid: Gmpr-0DaAAA6aKU
 
   related:
+  - type: localImage
+    media:
+      year: 2025
+      id: nack5fantasyradio
+    id: logo
+    filename: cover400.png
+    label: logo
+    published-date: 2025-01-01 # TODO: set a better date
+    source:
+      description: FANTASY RADIO webpage
+      url: https://www.nack5.co.jp/program/fantasyradio/
+
   - type: postx
     id: 1903452529729695755
     account: nekiband_jp
@@ -96,11 +108,11 @@
   - The interview was recorded on March 8th midday, before the TR!CK TAK!NG tour show in Osaka.
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: RADIO INFINITY webpage
-        url: https://funky802.com/infinity/
+    localImage:
+      media:
+        year: 2025
+        id: fm802infinityradio
+      id: logo
 
   multimedia:
     image:
@@ -165,6 +177,17 @@
     - label: "'Get Over' was played as an introduction for the interview. 'Dreams!!!!' was played right after the interview."
 
   related:
+  - type: localImage
+    media:
+      year: 2025
+      id: fm802infinityradio
+    id: logo
+    filename: cover400.png
+    label: logo
+    published-date: 2025-01-01 # TODO: set a better date
+    source:
+      description: RADIO INFINITY webpage
+      url: https://funky802.com/infinity/
   - type: postx
     id: 1910379084141801512
     account: RI_802
@@ -208,11 +231,12 @@
   - Natsu is interviewed in the May issue of Guitar magazine, in the 'OPENING ACT' section.
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: Guitar magazine webpage
-        url: https://guitarmagazine.jp/news/2025-0401-gm2505/
+    localImage:
+      media:
+        year: 2025
+        id: guitarmagazine05
+      id: cover
+
 
   multimedia:
     image:
@@ -223,7 +247,17 @@
         id: article
 
   related:
-  # TODO: add extra page for media
+  - type: localImage
+    media:
+      year: 2025
+      id: guitarmagazine05
+    id: cover
+    filename: cover400.png
+    label: cover
+    published-date: 2025-01-01 # TODO: set a better date
+    source:
+      description: Guitar magazine webpage
+      url: https://guitarmagazine.jp/news/2025-0401-gm2505/
   - type: youtubeshort
     id: E91CuO-MI1A
     label: It is out
@@ -279,11 +313,11 @@
   published-date: 2025-04-22
   
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: BAYFM78 webpage
-        url: https://program.bayfm.co.jp/curate/
+    localImage:
+      media:
+        year: 2025
+        id: bayfm78musicurate
+      id: logo
 
   multimedia:
     image:
@@ -292,6 +326,18 @@
         imageid: GpDoUyLb0AAbEYw
 
   related:
+  - type: localImage
+    media:
+      year: 2025
+      id: bayfm78musicurate
+    id: logo
+    filename: cover400.png
+    label: logo
+    published-date: 2025-01-01 # TODO: set a better date
+    source:
+      description: BAYFM78 webpage
+      url: https://program.bayfm.co.jp/curate/
+  # TODO: add extra page for media
   - type: postx
     id: 1914285297862598973
     account: nekiband_jp
@@ -356,13 +402,24 @@
   - They spoke about the songs of the second EP.
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: RADIO DRAGON-NEXT- radiko page
-        url: https://radiko.jp/#!/ts/FMT/20250503030000
+    localImage:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+      id: logo
 
   related:
+  - type: localImage
+    media:
+      year: 2025
+      id: tokyofmradiodragonnext
+    id: logo
+    filename: cover400.png
+    label: logo
+    published-date: 2025-01-01 # TODO: set a better date
+    source:
+      description: RADIO DRAGON-NEXT- radiko page
+      url: https://radiko.jp/#!/ts/FMT/20250503030000
   - type: youtubeshort
     id: NNc3Tau8YAY
     label: AI Beer

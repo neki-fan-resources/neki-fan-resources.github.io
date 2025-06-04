@@ -11,9 +11,10 @@ setlistfm: nek/2025/drop-osaka-japan-135a6d39
 event-page: https://clubdrop.jp/schedule/detail/36775
 
 cover-image:
-  imageid:
-    tour: tricktakingtour
-    id: cover
+  postyoutubeimage:
+    postid: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+    imageid: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
+  fromOtherElement: true
 
 tour: tricktakingtour
 

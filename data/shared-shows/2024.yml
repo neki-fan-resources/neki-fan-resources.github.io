@@ -11,11 +11,248 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1766243435357561130
+      imageid: GIL1CWga8AA1ryU
+
+  related:
+  # post X
+  - type: postx
+    id: 1766243435357561130
+    account: famime_rock
+    published-date: 2024-03-09
+    label: all the artists
+    text: |
+      🔥本日開催🔥
+
+      3月9日(土) 下北沢10会場
+      🌹LUPINUS ROCK FESTIVAL🌹
+
+      ✋ 当日券、出せます！
+      #ルピナスロック 4年目にして初…
+      ￥5400(D代別) ※下北沢ReGにて11:00から販売開始
+
+      総勢108組の極上ライブが下北沢で同時多発🔥
+
+      これだけいて全部強い！
+      怒涛の108組はこのアーティスト！
+      ⬇️⬇️⬇️
+
+      カノエラナ 
+      @kanoerana7
+
+      藤田恵名&ゆーやん 
+      @fujitaenamel
+
+      神使轟く、激情の如く。 
+      @shingeki_rock
+
+      ЯeaL 
+      @realofficial_12
+
+      優利香 
+      @N14Yrk
+
+      Bitter&Sweet 
+      @BandS_team
+
+      日乃まそら 
+      @msrir512
+
+      Disconnect Cendrillon 
+      @mino_Re_roll
+
+      てのひらえる 
+      @tenohirael_info
+
+      川音 希 
+      @kawaotonozomi
+
+      KOU 
+      @kou_aka_rani
+
+      Riju 
+      @Rijuriju0205
+
+      CHERRY GIRLS PROJECT 
+      @cgp_db
+
+      ちょこはち 
+      @chocol8band
+
+      SOMOSOMO 
+      @SOMO2_official
+
+      KONSOME+ 
+      @moemi_konsome
+
+      シュガーパレード 
+      @sugar_parade
+
+      MAZE 
+      @maze_idol
+
+      強くてニューゲーム。 
+      @tsuyonew_24
+
+      FrozeN CakE BaR 
+      @FrozenCakeBar
+
+      RED-i 
+      @RED_RED_RED_i
+
+      mistress 
+      @mistress_RL
+
+      YOLOZ 
+      @YOLOZ_info
+
+      かんのじゅリ。 
+      @juri_117
+
+      Pulse of Humanity 
+      @PulseOfHumanity
+
+      初音 
+      @hatsune1011
+
+      必殺エモモモモ7 
+      @emo7official
+
+      PLEVAIL 
+      @_PLEVAIL_
+
+      82回目の終身刑 
+      @82_shushinkei
+
+      DaNNY 
+      @akinko_danny
+
+      GANGDEMIC 
+      @gangdemic_info
+
+      POPPiNG EMO 
+      @popping_emo
+
+      WtB 
+      @WhotheBitch
+
+      KILLT MELT LAND 
+      @KILLTMELTLAND
+
+      仮面女子 
+      @Kamenjoshi_Info
+
+      8bitBRAIN 
+      @8bitBRAIN_info
+
+      会心ノ一撃 
+      @KISNnoichigeki
+
+      ウイバナ @We_BANA
+      IRIS MONDO 
+      @IRIS_MONDO
+
+      CANDY GO!GO! 
+      @onecandygogo
+
+      ASH FRAST 
+      @ASH_FRAST
+
+      Treble 
+      @treble_offi
+
+      AREINT 
+      @AREINT_jp
+
+      The Number Zero 
+      @ZeroBand0
+
+      Finally 
+      @Finally_Rock
+
+      ストロボサイダー 
+      @kanae_sc
+
+      妄想レプリカント 
+      @mousoureplicant
+
+      MARKET SHOP STORE 
+      @marketshopstore
+
+      momoca
+      AKIARIM
+      IZANAGI
+      Paradox Risk
+      aioi
+      RASCAL CLAN
+      THE+BETH
+      OMG
+      Wisteria
+      Caress Van End
+      AKARA
+      Free Aqua Butterfly
+      絶世のインペリアルコレクション
+      MANACLE
+      #東京花魁物語
+      はちみつBLACK
+      MALLOW BLUE
+      Lion net girl
+      NANONI
+      WORLD WAND WOOD
+      感覚ロヂック
+      カミツキ
+      CASPA
+      LYSM
+      猫の眼に宇宙
+      Cassie Te Light
+      FiDZ
+      ニーキューオメガ
+      CODE OF ZERO X
+      SPICE
+      EMANON
+      ByteSchwarz
+      Ska choco kick
+      Yum!Yum!ORANGE
+      Aqilla
+      ラストランプ
+      Karman
+      Gambit
+      東京ハテナバナナ
+      Buzzer01&.
+      ウタリ
+      太田家
+      バカは死ぬまでなおらない。
+      Mellows
+      AoAu
+      SHACALANDA
+      GUNGIRE
+      Ah ieba köh-iu.
+      リチカ
+      hakumei
+      ALMONDot
+      CASABLANCA
+      シュガースプレー
+      浮迷夜
+      月照ラス
+      IrisaVior
+      セブンス・ベガ
+      The Layers
+      青の流星群
+      NEK!
+
+      🏡https://famime.net
     image:
-      filename: cover400.png
-      source:
-        description: ファミメ！公式 X post
-        url: https://x.com/famime_rock/status/1766243435357561130
+    - id: GIL1CWga8AA1ryU
+      label: poster
+      info: all the artists
+      localCopy: true
+    - id: GIL1CWfbYAA9llo
+      label: full schedule
+    - id: GIL1CWebMAAyx6P
+      label: main venues schedule
+    - id: GIL1CWeaoAACz-Y
+      label: all artist logos
 
 - type: show
   year: 2024
@@ -28,11 +265,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: SHIBUYA THE GAME X post
-        url: https://x.com/SHIBUYATHEGAME/status/1776084527859061007
+    postximage:
+      postid: 1776084527859061007
+      imageid: GKXrVSDasAAOm0K
 
   related:
   - type: youtubeshort
@@ -49,6 +284,36 @@
     published-date: 2024-04-16
     related-to:
     - song: getover
+  # post X
+  - type: postx
+    id: 1776084527859061007
+    account: nekiband_jp
+    published-date: 2025-03-22
+    label: today
+    text: |
+      【🗓本日開催!!🗓】
+      04.05(FRI)
+      SHIBUYA THE GAME PRESENTS
+      『Area Liberated』
+
+      🔴入場料無料!! (別途2DRINK)🔴
+      🎫BAND予約受付
+
+      <ACT>
+      THENEWLEVEL
+      4 Roses
+      NEK!
+      WORSTRASH
+      Jaywock
+      ELLE
+
+      ご来場お待ちしております🔥
+
+      #TICKETFREE
+    image:
+    - id: GKXrVSDasAAOm0K
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -62,11 +327,37 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1790265744804216903
+      imageid: GNhNGEkbsAAEJ5A
+
+  related:
+  # post X
+  - type: postx
+    id: 1790265744804216903
+    account: shelter_1001
+    published-date: 2025-03-22
+    label: announcement
+    text: |
+      【来週！】
+      5/20(月)
+      ” Sweet！Sweet！Sweet！”
+
+      CASPA
+      はちみつコーヒー座
+      つじりお
+      IRIS MONDO
+      NEK!
+
+      OPEN 17:45 / START 18:15
+      前売¥2,400(1ドリンク別)
+      🎟️
+      Livepocketと、各出演者予約にて。是非っ
+      https://t.livepocket.jp/e/4qthf
     image:
-      filename: cover400.png
-      source:
-        description: 下北沢SHELTER X post
-        url: https://x.com/shelter_1001/status/1790265744804216903
+    - id: GNhNGEkbsAAEJ5A
+      label: flyer
+      localCopy: true
 
 - type: show
   year: 2024
@@ -80,11 +371,39 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1797140895449673780
+      imageid: GPC59ywaoAA_Sdl
+
+  related:
+  - type: postx
+    id: 1797140895449673780
+    account: SHIBUYATHEGAME
+    published-date: 2025-03-22
+    label: tomorrow
+    text: |
+      【🗓明日開催!!🗓】
+      06.03(MON)
+      SHIBUYA THE GAME presents
+      #FYP -DAY1- 
+      ~For You Place~
+
+      <ACT>
+      モウソウキリン
+      NEK!
+      Hijack Mind
+      HINONABE
+      Sleepless Endorphine
+
+      🎫各バンド📩予約
+      🎫Livepocket本日23:59まで発売!!
+      https://t.livepocket.jp/e/k6h5u
+
+      #fyp
     image:
-      filename: cover400.png
-      source:
-        description: SHIBUYA THE GAME X post
-        url: https://x.com/SHIBUYATHEGAME/status/1797140895449673780
+    - id: GPC59ywaoAA_Sdl
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -98,11 +417,47 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1780522894059299287
+      imageid: GLWvKs8bYAAHJQF
+
+  related:
+  - type: postx
+    id: 1780522894059299287
+    account: lastlamp_band
+    published-date: 2024-04-17
+    label: announcement
+    text: |
+      🔥主催ライブ解禁🔥
+
+      2024.6.7(金) 六本木unravel tokyo 
+      ラストランプpresents. 
+      『POP OUT!!vol.11』
+
+      【GUEST】
+      ✨Risky Melody
+      ✨NEK!
+      ✨unSea
+      ✨小原涼
+
+      OPEN/START 18:10/18:30
+
+      🎫4/18 18:00予約開始
+      https://tiget.net/events/314471
+
+      豪華アーティスト様にご出演いただきます！
+
+      久しぶりのPOP OUT!!でなんと...
+
+      ・新曲初披露！
+      ・重大発表あり！
+
+      絶対にお待ちしております🔥
+      #ラストランプ
     image:
-      filename: cover400.png
-      source:
-        description: lastlamp_band X post
-        url: https://x.com/lastlamp_band/status/1780522894059299287
+    - id: GLWvKs8bYAAHJQF
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -116,11 +471,40 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1799743432564654547
+      imageid: GPnhi6wbsAAbB-I
+
+  related:
+  - type: postx
+    id: 1799743432564654547
+    account: cozcoz_coz
+    published-date: 2024-06-09
+    label: one week
+    text: |
+      🎙Next Live⚡️
+
+      CODE OF ZERO X 🦋
+      東名阪TOUR
+      TOKYO
+
+      2024年6月15日(土)
+      下北沢ReG
+      OPEN 17:30 / START 18:00
+
+      18:00- EMANON
+      18:40- NEK!
+      19:25- MARKET SHOP STORE
+      20:05- KILLT MELT LAND
+      20:45- CODE OF ZERO X 🦋
+
+      🎟️http://w.pia.jp/t/coz/
     image:
-      filename: cover400.png
-      source:
-        description: CODE OF ZERO Official X post
-        url: https://x.com/cozcoz_coz/status/1799743432564654547
+    - id: GPnhi6wbsAAbB-I
+      label: poster
+      localCopy: true
+    - id: GPnhj7qaIAAtR_E
+      label: tour schedule
 
 - type: show
   year: 2024
@@ -133,11 +517,30 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1798608606579007863
+      imageid: GPXmT9iboAA09Sb
+  
+  related:
+  - type: postx
+    id: 1798608606579007863
+    account: nekiband_jp
+    published-date: 2024-06-06
+    label: announcement
+    text: |
+      6/24(月)開催
+      「Beyond The Singularity vol.6」
+      @初台DOORS
+
+      出演させていただくことが決定しました🎊
+
+      前売りチケットのご予約はNEK!公式XのDMにお願いいたします📮
+
+      #NEKI
     image:
-      filename: cover400.png
-      source:
-        description: NEK! X post
-        url: https://x.com/nekiband_jp/status/1798608606579007863
+    - id: GPXmT9iboAA09Sb
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -150,11 +553,30 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1801875706387042707
+      imageid: GQGMZ2dbEAIITAx
+  
+  related:
+  - type: postx
+    id: 1801875706387042707
+    account: nekiband_jp
+    published-date: 2024-06-15
+    label: announcement
+    text: |
+      7/3(水)開催
+      「Beyond The Singularity vol.7」
+      @初台DOORS
+
+      NEK!の出演が決定しました🎉
+
+      前売りチケットのご予約はNEK!公式XのDMにお願いいたします📩
+
+      #NEKI
     image:
-      filename: cover400.png
-      source:
-        description: NEK! X post
-        url: https://x.com/nekiband_jp/status/1798608606579007863
+    - id: GQGMZ2dbEAIITAx
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -168,11 +590,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: 彪 / AYA X post
-        url: https://x.com/Aya_Bas2/status/1784417275292143972
+    postximage:
+      postid: 1784417275292143972
+      imageid: GMOGC_5bAAAhTe9
 
   related:
   - type: youtubeshort
@@ -186,6 +606,38 @@
     - show:
         year: 2024
         id: 1stonemanlive
+  - type: postx
+    id: 1784417275292143972
+    account: Aya_Bas2
+    published-date: 2024-04-28
+    label: announcement
+    text: |
+      【情報解禁👏🏻❤️‍🔥】
+
+      2024.7.15(月祝)
+      両国SUNRIZE
+      彪presents
+      Drive You Crazy vol.7
+
+      w/
+      少女S
+      EITA(+TAKAEITA)
+      NEK!
+      MANATY
+
+      来場🎫
+      https://tiget.net/events/317099
+      ※入場順:TIGET→バンド予約→当日
+
+      配信🎫
+      https://twitcasting.tv/clubtenjiku/shopcart/306758
+      ※NEK!の配信出演はございません
+
+      両チケット共に5/12(日)12:00発売🔥
+    image:
+    - id: GMOGC_5bAAAhTe9
+      label: flyer
+      localCopy: true
 
 - type: show
   year: 2024
@@ -199,11 +651,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: SHIBUYA THE GAME X post
-        url: https://x.com/SHIBUYATHEGAME/status/1819198572111577421
+    postximage:
+      postid: 1819198572111577421
+      imageid: GT8XIEAb0AAJjSs
 
   related:
   - type: youtubeshort
@@ -213,6 +663,35 @@
     published-date: 2024-08-10
     related-to:
     - song: endlessgame
+  - type: postx
+    id: 1819198572111577421
+    account: SHIBUYATHEGAME
+    published-date: 2024-08-02
+    label: today
+    text: |
+      【🗓本日開催!!🗓】
+      08.02(FRI)
+      SHIBUYA THE GAME presents
+      #FYP『For You Place』vol.3
+      ⏰OPEN17:30/START18:00
+
+      <ACT>
+      NEK!
+      amour
+      アルクライオン
+      メイビスレーヌ
+      Wrath Resolution
+      Treble(BAND SET)
+
+      🎫各バンド予約
+      🎫Livepocket 本日16:30まで発売中!!
+      https://t.livepocket.jp/e/dybqz
+
+      #FYP
+    image:
+    - id: GT8XIEAb0AAJjSs
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -226,11 +705,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: NEK! X post
-        url: https://x.com/nekiband_jp/status/1804448780873519192
+    postximage:
+      postid: 1804448780873519192
+      imageid: GQqwmSwbYAAMkZ6
 
   related:
   - type: youtubeshort
@@ -240,6 +717,26 @@
     published-date: 2024-08-12
     related-to:
     - song: getover
+  - type: postx
+    id: 1804448780873519192
+    account: nekiband_jp
+    published-date: 2024-06-22
+    label: announcement
+    text: |
+      8/8(木)
+      「ハピコレ!!vol.530」
+      @ 六本木unravel tokyo
+
+      NEK!の出演が決定いたしました⚡️
+
+      チケットのご予約は明日6/23(日)12時から🎟️
+      https://tiget.net/events/328798
+
+      #NEKI
+    image:
+    - id: GQqwmSwbYAAMkZ6
+      label: flyer
+      localCopy: true
 
 - type: show
   year: 2024
@@ -253,11 +750,28 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1825843541756752006
+      imageid: GVay0webUAAAJ-4
+
+  related:
+  - type: postx
+    id: 1825843541756752006
+    account: LIVEHOUSE_VARON
+    published-date: 2024-08-20
+    label: tomorrow
+    text: |
+      明日の公演
+      2024.8.21(wed)
+      心斎橋VARON presents. Day Dreamer -4th night-
+      [ACT]
+      NEK! / husky(BAND SET) / Buzzer01&. / FiELDz / BlueVeil / CHi+KAZZ
+      [OPEN/START]18:00 / 18:30
+      [料金]ADV/DOOR ¥2,400/¥2,900(1D別)
     image:
-      filename: cover400.png
-      source:
-        description: 心斎橋 VARON X post
-        url: https://x.com/LIVEHOUSE_VARON/status/1825843541756752006
+    - id: GVay0webUAAAJ-4
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -272,11 +786,32 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1826512086530490829
+      imageid: GVkTDnRbgAMgdNP
+
+  related:
+  - type: postx
+    id: 1826512086530490829
+    account: nekiband_jp
+    published-date: 2024-08-22
+    label: today
+    text: |
+      「Girls,Girls,Girls -アメリカ村DROP 21th Anniversary 4MAN-」
+      @ アメリカ村DROP
+
+      本日出演いたします🔥
+      ご来場お待ちしております！
+
+      https://tiget.net/events/330888
+
+      #NEKI
     image:
-      filename: cover400.png
-      source:
-        description: NEK! X post
-        url: https://x.com/nekiband_jp/status/1826512086530490829
+    - id: GVkTDnRbgAMgdNP
+      label: poster
+      localCopy: true
+    - id: GVkTDnuXMAA3Sjv
+      label: tour poster
 
 - type: show
   year: 2024
@@ -291,11 +826,29 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1826867524035653715
+      imageid: GVpWTLoXMAAyp1r
+
+  related:
+  - type: postx
+    id: 1826867524035653715
+    account: nekiband_jp
+    published-date: 2024-08-23
+    label: today
+    text: |
+      「Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-」
+      @ アメリカ村 BEYOND
+
+      本日出演させていただきます！
+      NEK!と音で遊びましょう~❣️
+
+      #NEKI
     image:
-      filename: cover400.png
-      source:
-        description: NEK! X post
-        url: https://x.com/nekiband_jp/status/1826867524035653715
+    - id: GVpWTLoXMAAyp1r
+      label: flyer
+      localCopy: true
+    # TODO: link tour poster
 
 - type: show
   year: 2024
@@ -308,11 +861,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: CLUB UPSET X post
-        url: https://x.com/clubupset/status/1827255587870273643
+    postximage:
+      postid: 1827255587870273643
+      imageid: GVu3DSDXgAAEC5y
 
   related:
   - type: youtubeshort
@@ -329,6 +880,31 @@
     published-date: 2024-09-17
     related-to:
     - song: reigengirl
+  - type: postx
+    id: 1827255587870273643
+    account: clubupset
+    published-date: 2024-08-24
+    label: today
+    text: |
+      【 本日 】
+      8/24(土)
+      「winged it」
+      
+      Led Lobster
+      NEK!
+      リーガルアットサンズ
+      amis amants
+
+      open 18:00 /start 18:30
+      当日券.￥2,900-(D別)
+      開場後に販売いたします！
+
+      是非遊びにきてください！
+      お待ちしております！
+    image:
+    - id: GVu3DSDXgAAEC5y
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -343,11 +919,30 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1795757514870665423
+      imageid: GOvP8Swa0AAK1tW
+
+  related:
+  - type: postx
+    id: 1795757514870665423
+    account: nekiband_jp
+    published-date: 2024-05-29
+    label: announcement
+    text: |
+      8/27(火)開催
+      「SOUND SHOCK TOKYO 2024」
+
+      NEK!の出演が決定しました🎉
+
+      チケットご予約は下記TIGET or NEK!公式XのDMにお願いします📩
+      https://tiget.net/events/322991
+
+      #NEKI #SS_T24
     image:
-      filename: cover400.png
-      source:
-        description: NEK! X post
-        url: https://x.com/nekiband_jp/status/1795757514870665423
+    - id: GOvP8Swa0AAK1tW
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -361,11 +956,36 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1799063840925315512
+      imageid: GPePBkmbcAEVfyW
+
+  related:
+  - type: postx
+    id: 1799063840925315512
+    account: TOLAROCK_FES
+    published-date: 2024-06-07
+    label: announcement
+    text: |
+      ／
+      第一弾出演者発表！
+      ＼
+
+      ✨日乃まそら(@msrir512)
+      ✨Risky Melody(@_Risky_Melody_)
+      ✨unSea (@unSea_0616)
+      ✨NEK! (@nekiband_jp)
+      ✨Finally (@Finally_Rock)
+      ✨ジョナゴールド( @JONAGOLD_0323)
+      CASPA (@caspa_band)
+      ✨Rons week (@Ronsweek)
+      ✨小原涼 ( @obararyou)
+
+      #トラロックフェス
     image:
-      filename: cover400.png
-      source:
-        description: トラROCK FESTIVAL X post
-        url: https://x.com/TOLAROCK_FES/status/1799063840925315512
+    - id: GPePBkmbcAEVfyW
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -380,11 +1000,39 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1832614238424301660
+      imageid: GW7Ac3YbEAAYoku
+
+  related:
+  - type: postx
+    id: 1832614238424301660
+    account: nekiband_jp
+    published-date: 2024-09-08
+    label: today
+    text: |
+      【㊗️本日開催㊗️】
+      9/8(日)LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~
+      OPEN 18:30 / START 19:00
+
+      NEK! 
+      @nekiband_jp
+
+      2winkle wink 
+      @2winkle_wink
+
+      EMANON 
+      @EMANON_0308
+
+
+      前売 ￥3,000 / 当日 ￥3,500（D別）
+      ※入場順はTIGET A1〜→当日券の順です。
+      🎟️当日券の販売あり！
+      担当：石田
     image:
-      filename: cover400.png
-      source:
-        description: 下北沢LIVEHOLIC X post
-        url: https://x.com/liveholic_jp/status/1832614238424301660
+    - id: GW7Ac3YbEAAYoku
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -399,11 +1047,41 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1836637097840775291
+      imageid: GX0Lhdsa8AA1DHs
+  
+  related:
+  - type: postx
+    id: 1836637097840775291
+    account: SHIBUYATHEGAME
+    published-date: 2024-09-19
+    label: today
+    text: |
+      【🗓本日開催!!🗓】
+      09.19(THU)
+      SHIBUYA THE GAME presents
+      #FYP『For You Place』vol.5
+      ⏰OPEN17:30/START18:00
+
+      <ACT>
+      NEK!
+      Flat×Company
+      ReBoom
+      セブンス・ベガ
+      AND CALL.
+      AREINT
+
+      TICKET INFO
+      🎫各バンド📩予約
+      🎫Livepocket この後17:00まで!!お早めに🚨
+      https://t.livepocket.jp/e/3o_8u
+
+      #FYP
     image:
-      filename: cover400.png
-      source:
-        description: SHIBUYA THE GAME X post
-        url: https://x.com/SHIBUYATHEGAME/status/1836637097840775291
+    - id: GX0Lhdsa8AA1DHs
+      label: poster
+      localCopy: true
 
 - type: show
   year: 2024
@@ -418,11 +1096,39 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1833792678414463036
+      imageid: GXLwuK6b0AAsCaB
+  
+  related:
+  - type: postx
+    id: 1833792678414463036
+    account: minamiwheel
+    published-date: 2025-09-11
+    label: lineup
+    text: |
+      ／ 
+      FM802 MINAMI WHEEL 2024
+      第3弾出演者&日割り発表📣
+      ＼
+
+      Eggs presents
+      FM802 35th Anniversary
+      “Be FUNKY!!” MINAMI WHEEL 2024
+
+      第3弾出演アーティストと
+      日割りを発表しました‼️
+
+      詳しくはHPや
+      #ミナホ アプリをチェック👀
+
+      公式HP：http://minamiwheel.jp
+
+      #FM802 #MINAMIWHEEL
     image:
-      filename: cover400.png
-      source:
-        description: FM802 MINAMI WHEEL X post
-        url: https://x.com/minamiwheel/status/1833792678414463036
+    - id: GXLwuK6b0AAsCaB
+      label: flyer
+      localCopy: true
 
 - type: show
   year: 2024
@@ -436,11 +1142,38 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1854050886647173628
+      imageid: GbroRIOa8AAzJCY
+
+  related:
+  - type: postx
+    id: 1854050886647173628
+    account: CLUB251official
+    published-date: 2024-11-06
+    label: today
+    text: |
+      本日の251は…
+
+      251 presents Ignition!!!
+      〜Special Two Man Show〜
+      act/
+      Bray me
+      NEK!
+      OPEN 19:30 / START 20:00
+      当日 ¥4,500＋1D
+
+      以上です！
+      今年爆発したBray meのツーマンシリーズ！
+      年内ラストのお相手は話題急上昇中のNEK!です！
+      当日券若干出ます！
+      ご安全に〜！
+
+      by 仁侠
     image:
-      filename: cover400.png
-      source:
-        description: 下北沢CLUB251 X post
-        url: https://x.com/CLUB251official/status/1854050886647173628
+    - id: GbroRIOa8AAzJCY
+      label: flyer
+      localCopy: true
 
 - type: show
   year: 2024
@@ -454,11 +1187,33 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1854440185460879405
+      imageid: GbxLhFfbIAA1wRw
+
+  related:
+  - type: postx
+    id: 1854440185460879405
+    account: shelter_1001
+    published-date: 2024-11-07
+    label: today
+    text: |
+      【本日！🍹】
+      11/7(木)
+      “Sweet!Sweet!Sweet! “
+
+      EMNW
+      ジャムトハイボール
+      NEK!
+      ちゃんゆ胃
+
+      OPEN 19:00 / START 19:30
+      当日券(¥2,900+1 drink)は開場後に販売します！注目女性アーティスト目白押し✨
+      是非っ
     image:
-      filename: cover400.png
-      source:
-        description: 下北沢SHELTER X post
-        url: https://x.com/shelter_1001/status/1854440185460879405
+    - id: GbxLhFfbIAA1wRw
+      label: flyer
+      localCopy: true
 
 - type: show
   year: 2024
@@ -472,11 +1227,44 @@
   shared: true
 
   cover-image:
+    postximage:
+      postid: 1856985434020061342
+      imageid: GcPSyaLasAE0E3-
+
+  related:
+  - type: postx
+    id: 1856985434020061342
+    account: bazoo_official
+    published-date: 2024-11-14
+    label: presentation
+    text: |
+      11.27(水)『Diggin’ Sound Vol.2』
+      @下北沢近道
+
+      #ディグサ 開催まであと２週間を切りました📢
+      出演アーティストの出番はこちら👇
+
+      🎫はこちらから
+      https://r-t.jp/digginsound
+
+      @rassembler_band
+
+      @nekiband_jp
+
+      @komsume_com
+
+      @jamtohighball
+
+      @lalanchia_band
     image:
-      filename: cover400.png
-      source:
-        description: bazoo X post
-        url: https://x.com/bazoo_official/status/1856985434020061342
+    - id: GcPSyaLasAE0E3-
+      label: poster
+      localCopy: true
+    video:
+    - id: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
+      cover: 1856559489245425664/pu/img/SpsFR8nhXy8j_dZo.jpg
+      label: presentation
+      info: presentation of each band
 
 - type: show
   year: 2024
@@ -490,11 +1278,9 @@
   shared: true
 
   cover-image:
-    image:
-      filename: cover400.png
-      source:
-        description: SNAZZY TUNES 公式 X post
-        url: https://x.com/Snazzy_Tunes/status/1851932879170752613
+    postximage:
+      postid: 1851932879170752613
+      imageid: GbM3V_gbsAAOSAH
 
   related:
   - type: youtubeshort
@@ -504,4 +1290,36 @@
     published-date: 2024-12-14
     related-to:
     - song: fool
+  - type: postx
+    id: 1851932879170752613
+    account: Snazzy_Tunes
+    published-date: 2024-11-14
+    label: announcement
+    text: |
+      🎁#overfestプレゼント🎁
 
+      本アカウントをフォロー＆リポストいただいた方
+      抽選で1️⃣名様に…
+
+      ⚡️NEK! 
+      @nekiband_jp
+
+
+      🗃️サイン入り限定クリアファイル(非売品)と
+      📛#overfest コラボ缶バッジプレゼント！
+
+      ＼当日は15:30～ MOSAiC出演！／
+
+      11月30日(土) 下北沢11会場
+      SNAZZY TUNES × over print pre.
+      ⚡️over fest 2024⚡️
+    image:
+    - id: GbM3V_gbsAAOSAH
+      label: poster
+      localCopy: true
+    - id: GbM3MSXakAgJdbk
+      label: poster neki
+    - id: GbM3RQHasAAkpyS
+      label: badge neki
+    - id: GbM3YFiakAE0iM2
+      label: schedule

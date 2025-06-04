@@ -31,6 +31,7 @@ class MultiMediaCompiledDataGenerator(generator: fr.CompiledDataGenerator) exten
     Nil,
     false,
     MISSING_URL,
+    "missing",
   )
 }
 

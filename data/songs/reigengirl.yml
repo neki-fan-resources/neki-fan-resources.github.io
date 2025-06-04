@@ -8,11 +8,9 @@ album: exclamation
 release-date: 2024-07-03
 
 cover-image: 
-  image:
-    filename: cover640.webp
-    source:
-      description: YouTube community post
-      url: https://www.youtube.com/post/UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+  postyoutubeimage:
+    postid: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    imageid: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
 
 credits:
   lyricist: NEK!, KawaguchiTigerYusuke
@@ -169,6 +167,34 @@ related:
     info: intro, Hika, Kanade
     linked-to:
     - song: reigengirl
+# post YouTube
+- type: postyoutube
+  id: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+  account: neki_official
+  label: release MV
+  published-date: 2024-06-03 # TODO: double check date with X post
+  text: |
+    🌇 Music Video公開 🌇
+
+    New Song「令現少女」
+
+    🎬https://youtu.be/rq0dca9mFfI
+  image:
+  - id: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
+    label: cover
+    localCopy: true
+  - id: SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
+    label: Hika
+    info: Hika
+  - id: UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
+    label: Natsu
+    info: Natsu
+  - id: RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
+    label: Kanade
+    info: Kanade
+  - id: DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
+    label: Cocoro
+    info: Cocoro
 
 lyrics:
   status:

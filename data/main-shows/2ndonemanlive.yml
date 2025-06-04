@@ -9,12 +9,9 @@ setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b540020
 event-page: https://t.livepocket.jp/e/neki2ndoneman
 
 cover-image:
-  image:
-    filename: cover640.webp
-    source:
-      description: YouTube community post
-      url: https://www.youtube.com/post/Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
-
+  postyoutubeimage:
+    postid: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+    imageid: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
 
 multimedia:
   concert:
@@ -132,7 +129,27 @@ related:
   published-date: 2025-01-24
   related-to:
   - song: maze
+# post YouTube
+- type: postyoutube
+  id: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+  account: neki_official
+  label: announcement
+  published-date: 2024-06-03 # TODO: double check date with X post
+  text: |
+    11/24(日)開催
+    「NEK! 2ND ONE MAN LIVE」
+    @ Shibuya eggman 
 
+    ただいまよりWEBチケットの抽選受付がスタート💨
+
+    受付締切は7/31(水)23:59まで💡
+    ぜひお越しください!!!!
+
+    https://t.livepocket.jp/e/neki2ndoneman
+  image:
+  - id: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
+    label: poster
+    localCopy: true
 
 # old data for reference
 media:

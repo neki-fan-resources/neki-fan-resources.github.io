@@ -99,6 +99,10 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
 
   override def processPostXVideo(postXVideo: PostXVideo): Seq[SitePage] = NO_DATA
 
+  override def processPostYouTube(postYouTube: PostYouTube): Seq[SitePage] = NO_DATA
+
+  override def processPostYouTubeImage(postYouTubeImage: PostYouTubeImage): Seq[SitePage] = NO_DATA
+
   override def processShow(show: Show): Seq[SitePage] =
     ShowPage.pagesFor(show, site, generator)
 

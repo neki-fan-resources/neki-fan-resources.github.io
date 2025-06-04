@@ -6,12 +6,10 @@ album: tricktaking
 
 release-date: 2024-12-11
 
-cover-image: 
-  image:
-    filename: cover640.jpeg
-    source:
-      description: YouTube community post
-      url: https://www.youtube.com/post/UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+cover-image:
+  postyoutubeimage:
+    postid: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+    imageid: Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
 
 credits:
   lyricist: NEK!, KawaguchiTigerYusuke
@@ -90,7 +88,28 @@ related:
   label: Music Video
   info: off-shot, Hika, Natsu
   published-date: 2025-05-26
+# post YouTube
+- type: postyoutube
+  id: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+  account: neki_official
+  label: announcement
+  published-date: 2024-06-03 # TODO: double check date with X post
+  text: |
+    新曲「Dreams!!!!」
+    本日12/11(水)0時より楽曲配信スタート🎧
 
+    楽曲配信はこちら▼
+    https://ssm.lnk.to/Dreams_
+
+
+    New song "Dreams!!!!"
+    Song distribution starts from 12/11(Wed.) 0:00!
+    Click here to download the song
+    https://ssm.lnk.to/Dreams_
+  image:
+  - id: Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
+    label: cover
+    localCopy: true
 
 lyrics:
   status:

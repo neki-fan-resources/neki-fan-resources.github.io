@@ -7,9 +7,10 @@ album: exclamation
 release-date: 2024-07-24
 
 cover-image:
-  imageid:
-    album: exclamation
-    id: cover
+  postyoutubeimage:
+    postid: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+    imageid: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+  fromOtherElement: true
 
 credits:
   lyricist: NEK!, Kumoi Haruka

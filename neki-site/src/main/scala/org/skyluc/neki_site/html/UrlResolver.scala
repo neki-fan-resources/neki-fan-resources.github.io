@@ -48,6 +48,10 @@ object UrlResolver extends fr.UrlResolver with Processor[Url] {
 
   override def processPostXVideo(postXVideo: PostXVideo): Url = ???
 
+  override def processPostYouTube(postYouTube: PostYouTube): Url = ???
+
+  override def processPostYouTubeImage(postYouTubeImage: PostYouTubeImage): Url = ???
+
   override def processShow(show: Show): Url = generateBasic(show)
 
   override def processSong(song: Song): Url = generateBasic(song)

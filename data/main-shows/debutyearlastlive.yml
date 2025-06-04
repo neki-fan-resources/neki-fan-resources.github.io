@@ -9,11 +9,9 @@ setlistfm: nek/2024/shimokitazawa-shangri-la-tokyo-japan-352d1b3
 event-page: https://t.livepocket.jp/e/nekidebutyearlastlive
 
 cover-image:
-  image:
-    filename: cover640.webp
-    source:
-      description: YouTube community post
-      url: https://www.youtube.com/post/UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+  postyoutubeimage:
+    postid: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+    imageid: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
 
 multimedia:
   video:
@@ -61,4 +59,33 @@ related:
     cover: 1920434553241407488/img/uAlxHinMyhwYxyhR.jpg
     label: MC
     info: about the member's goals
+# post YouTube
+- type: postyoutube
+  id: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+  account: neki_official
+  label: announcement
+  published-date: 2024-06-03 # TODO: double check date with X post
+  text: |
+    12/29(日)
+    「NEK! DEBUT YEAR LAST LIVE」
+    ＠ 下北沢シャングリラ
 
+    ✨🎊開催決定🎊✨
+
+    チケット抽選販売受付は明日8/20(火)19時から開始！
+
+    詳細はこちらから▼
+    https://note.com/nekiband_jp/n/na58cc...
+
+
+    12/29 (Sun)
+    "NEK! DEBUT YEAR LAST LIVE"
+    @ Shimokitazawa Shangri-La
+    The event has been confirmed!
+    Ticket lottery sales will start from 8/20 (Tue) at 7:00 PM!
+    For more details, click here▼
+    https://note.com/nekiband_jp/n/na58cc...
+  image:
+  - id: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
+    label: cover
+    localCopy: true

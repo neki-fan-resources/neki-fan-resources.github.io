@@ -6,12 +6,10 @@ album: tricktaking
 
 release-date: 2024-10-09
 
-cover-image: 
-  image:
-    filename: cover640.webp
-    source:
-      description: YouTube community post
-      url: https://www.youtube.com/post/UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+cover-image:
+  postyoutubeimage:
+    postid: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+    imageid: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
 
 credits:
   lyricist: NEK!, Kumoi Haruka
@@ -116,6 +114,20 @@ related:
   label: Promo
   info: rehearsal room, studio audio
   published-date: 2025-04-19
+# post YouTube
+- type: postyoutube
+  id: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+  account: neki_official
+  label: jacket reveal
+  published-date: 2024-06-03 # TODO: double check date with X post
+  text: |
+    新曲「Loner」ジャケット公開🐺
+    New song “Loner” jacket revealed.
+  image:
+  - id: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
+    label: cover
+    localCopy: true
+
 
 
 lyrics:

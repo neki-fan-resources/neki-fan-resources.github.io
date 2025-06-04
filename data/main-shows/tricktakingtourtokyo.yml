@@ -11,9 +11,10 @@ event-page: 'https://shibuya-o.com/west/schedule/nek-1st%e3%83%af%e3%83%b3%e3%83
 setlistfm: nek/2025/spotify-o-west-tokyo-japan-3b595054
 
 cover-image:
-  imageid:
-    tour: tricktakingtour
-    id: cover
+  postyoutubeimage:
+    postid: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+    imageid: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
+  fromOtherElement: true
 
 tour: tricktakingtour
 

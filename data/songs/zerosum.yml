@@ -7,9 +7,10 @@ album: tricktaking
 release-date: 2025-02-12
 
 cover-image:
-  imageid:
+  localImage:
     album: tricktaking
     id: cover
+  fromOtherElement: true
 
 credits:
   lyricist: Lark, NEK!

@@ -11,9 +11,10 @@ description:
 - Videos without sound of rehearals and recording.
 
 cover-image:
-  imageid:
-    group: siteimages
-    id: nekilogo
+  postximage:
+    postid: 1929512124243411173
+    imageid: GscBBL6bgAAwvmM
+  fromOtherElement: true
 
 multimedia:
   video:

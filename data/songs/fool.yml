@@ -7,9 +7,10 @@ album: tricktaking
 release-date: 2025-03-05
 
 cover-image:
-  imageid:
-    album: tricktaking
-    id: cover
+  postyoutubeimage:
+    postid: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+    imageid: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
+  fromOtherElement: true
 
 multimedia:
   live:

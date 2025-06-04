@@ -7,12 +7,10 @@ date: 2024-07-20
 location: 下北沢 Shelter
 setlistfm: nek/2024/shelter-tokyo-japan-43561f6f
 
-cover-image: 
-  image:
-    filename: cover640.webp
-    source:
-      description: YouTube community post
-      url: https://www.youtube.com/post/UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+cover-image:
+  postyoutubeimage:
+    postid: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+    imageid: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
 
 multimedia:
   video:
@@ -71,3 +69,19 @@ related:
     - show:
         year: 2024
         id: 1stonemanlive
+# post YouTube
+- type: postyoutube
+  id: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+  account: neki_official
+  label: announcement
+  published-date: 2024-06-03 # TODO: double check date with X post
+  text: |
+    7/20(土)「NEK! 1ST ONE MAN LIVE」
+    @ 下北沢SHELTER
+
+    WEBチケットの2次先着受付を開始しました！
+    https://t.livepocket.jp/e/neki1stoneman
+  image:
+  - id: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
+    label: cover
+    localCopy: true

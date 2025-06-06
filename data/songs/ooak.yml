@@ -8,6 +8,9 @@ description:
 - Prior to this announcement, it had been played live without being named, at least since the 2ND ONE MAN LIVE show. It also has been teased in a couple of shorts.
 - "The song was part of the online version (Zaiko) of the 2ND ONE MAN LIVE show (song #6)."
 
+
+# TODO: add quote from Hika https://ototoy.jp/news/124081
+
 cover-image:
   postximage:
     postid: 1929512124243411173
@@ -105,20 +108,20 @@ lyrics:
 related:
 # YouTube shorts
 - type: youtubeshort
-  id: S5DQ7wjnoKA
+  id: tabt75E-6tY
   label: Rehearsal
   info: studio audio
-  published-date: 2025-06-04
+  published-date: 2025-05-03
 - type: youtubeshort
   id: u41vd6yyGGk
   label: Rehearsal
   info: studio audio
   published-date: 2025-05-24
 - type: youtubeshort
-  id: tabt75E-6tY
+  id: S5DQ7wjnoKA
   label: Rehearsal
   info: studio audio
-  published-date: 2025-05-03
+  published-date: 2025-06-04
 # X posts
 - type: postx
   id: 1929512124243411173

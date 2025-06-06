@@ -21,6 +21,9 @@ tour: tricktakingtour
 multimedia:
   short:
   - postxvideo:
+      postid: 1929106683978224117
+      videoid: 46203d6b-e5ae-48cd-8902-16d9a880869d
+  - postxvideo:
       postid: 1917865243080024340
       videoid: 56ad6b95-81f9-4c28-9588-416eda80eec0
   - youtubeshort: EzpPj7pVf6Y
@@ -159,8 +162,30 @@ related:
     cover: 1917865155645546496/img/vDh7ZkVxv93tKfNg.jpg
     label: Cocoro-cam
     info: right after anouncing the 1st Zepp concert
-    related-to:
+    linked-to:
     - song: getover
+- type: postx
+  id: 1929106683978224117
+  account: 46_hikaa
+  published-date: 2025-06-01
+  label: Loner accoustic Live
+  info: from the crowd, accoustic
+  text: |
+    O-WESTのライブ映像👀✨
+
+    アコースティック編成でLoner！！
+
+    #NEKI #ネキ界隈 #拡散中
+  video:
+  - id: 46203d6b-e5ae-48cd-8902-16d9a880869d
+    cover: 1929106621202153472/img/68yTv0Vr4lDzpTu4.jpg
+    label: Live
+    info: from the crowd, accoustic
+    linked-to:
+    - song: loner
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
 
 

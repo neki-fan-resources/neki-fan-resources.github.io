@@ -155,6 +155,24 @@ related:
     info: Cocoro
     linked-to:
       - song: maze
+- type: postx
+  id: 1929111367635603641
+  account: 46_hikaa
+  published-date: 2025-06-01
+  label: 300k views
+  text: |
+    「MAZE」Official Music Video
+    30万回再生ありがとうございます‼︎
+
+    懐かしい動画出てきたので
+    一緒に投稿しちゃお🫶
+  video:
+  - id: 8b76cee5-46f4-4336-9c6a-f5e2767298b3
+    cover: 1929111310907871232/img/kFvYTc3MGOs60gQu.jpg
+    label: Music Video
+    info: behind the scenes
+    linked-to:
+    - song: maze
 # post YouTube
 - type: postyoutube
   id: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV

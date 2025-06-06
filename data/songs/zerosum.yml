@@ -22,10 +22,17 @@ credits:
 multimedia:
   video:
   - youtubevideo: z3HM2COly2Q
+  - youtubevideo: Jr0cUhVnKiE
   - youtubeshort: uexxORqapQY
   live:
+  - postxvideo:
+      postid: 1928744673092292656
+      videoid: 01
   - youtubeshort: b2N2xThvZ-4
   short:
+  - postxvideo:
+      postid: 1927683575484199193
+      videoid: 01
   - youtubeshort: WRfdzk-02vY
   - youtubeshort: LoiUwaTk_2Q
   - youtubeshort: becPsUyrM_M
@@ -51,6 +58,11 @@ related:
   id: z3HM2COly2Q
   label: Official Music Video
   published-date: 2025-02-15
+- type: youtubevideo
+  id: Jr0cUhVnKiE
+  label: Kanade Bass play-through
+  info: with instructions
+  published-date: 2025-06-05
 # YouTube shorts
 - type: youtubeshort
   id: bXwDRz85Q94
@@ -119,6 +131,46 @@ related:
   label: Music Video
   info: behind the scenes, Cocoro
   published-date: 2025-05-27
+- type: youtubeshort
+  id: ACpiujWAlHg
+  label: Music Video
+  info: watching the rushes
+  published-date: 2025-06-03
+# post X
+- type: postx
+  id: 1927683575484199193
+  account: cure_bass_baka
+  published-date: 2025-05-28
+  label: rehearsal
+  info: close up video of Kanade's hand
+  text: |
+    究極の手元アップ動画！！
+    ちょっとミスったけどせっかく撮ったのであげます🙋🏻‍♀️
+    #NEKI  #拡散中  #ネキ界隈
+  video:
+  - id: 01
+    cover: 1927683147086651392/img/xt3oRj7KEnvvaTYj.jpg
+    label: Rehearsal
+    info: close up bass, intro, Kanade
+    linked-to:
+    - song: zerosum
+- type: postx
+  id: 1928744673092292656
+  account: cure_bass_baka
+  published-date: 2025-05-31
+  label: live
+  info: zero-sum bass solo
+  text: |
+    ベースソロ！！
+    #NEKI  #拡散中  #ネキ界隈
+  video:
+  - id: 01
+    cover: 1928744588002603008/img/zKxWxSvDhLkLUg71.jpg
+    label: Live
+    info: bass solo, Kanade
+    linked-to:
+    - song: zerosum
+    # TODO: check the location. Likely TR!CK TAK!NG tour Tokyo
 
 
 lyrics:

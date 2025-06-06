@@ -247,6 +247,9 @@
   multimedia:
     video:
     - postxvideo:
+        postid: 1929389485147721772
+        videoid: 01
+    - postxvideo:
         postid: 1926928034944213276
         videoid: d7408dbc-320f-41a5-8e45-5ce994c99049
     - postxvideo:
@@ -287,6 +290,13 @@
         imageid: GqA0m0ta0AAA-dL
 
   related:
+  - type: youtubeshort
+    id: AruvDV5MZAQ
+    published-date: 2025-06-05
+    label: Promo
+    info: studio audio, from the crowd
+    related-to:
+    - song: ooak
   - type: postx
     id: 1903038891042673069
     account: kakumei_holic
@@ -513,6 +523,27 @@
       info: solo, Natsu
       linked-to:
         - song: maze
+  - type: postx
+    id: 1929389485147721772
+    account: coco_102
+    published-date: 2025-06-02
+    label: live
+    info: Get Over
+    text: |
+      🪩 🪩 🪩 🪩 🪩 Get Over 🪩 🪩 🪩 🪩 🪩
+
+      今日も下北沢にてツーマンライブ！ソールド感謝！！
+      みんなで最高の夜にしましょう🥹🤘🏻🔥
+      またあとでねー！！
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 01
+      cover: 1929389340653912064/img/temN0bVjZ3xG2oFX.jpg
+      label: Live
+      info: Cocoro
+      linked-to:
+        - song: getover
 
 - type: show
   year: 2025
@@ -533,6 +564,17 @@
         id: nekikomsumetokyo
       id: cover
 
+  multimedia:
+    short:
+    - youtubeshort: mOyYGaolObY
+    image:
+    - postximage:
+        postid: 1929838014714597729
+        imageid: GsgpaTQb0AAv3Zr
+    - postximage:
+        postid: 1929531593523081226
+        imageid: GscSvrHbMAAqkrT
+
   related:
   - type: localImage
     show:
@@ -545,6 +587,18 @@
     source:
       description: NEK! note post
       url: https://note.com/nekiband_jp/n/nb50d1c0b1dd3
+  - type: youtubeshort
+    id: mOyYGaolObY
+    label: Entry
+    info: Hika getting on stage
+    published-date: 2025-06-02
+  - type: youtubeshort
+    id: wKpbdMANRTo
+    label: Promo
+    info: studio audio, from the side of the stage
+    published-date: 2025-06-06
+    related-to:
+    - song: maze
   - type: postx
     id: 1925839253633695948
     account: rakutenbooks
@@ -567,6 +621,92 @@
     - id: e0a878eb-034c-48b4-8db2-b37112a4e44a
       cover: 1925364265340559361/img/raHNEuNv4NJ7__RF.jpg
       label: NEK! presentation
+      linked-to:
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
+  - type: postx
+    id: 1929531593523081226
+    account: nekiband_jp
+    published-date: 2025-06-02
+    label: thank you
+    text: |
+      NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound
+      @下北沢シェルター　
+
+      ソールドアウト！！
+      激熱ツーマンありがとうございました🔥
+
+      かっこよすぎるkomsumeさんと7/18も大阪でお待ちしてます🫶
+
+      https://r-t.jp/neki-komsume-twoman
+
+      #NEKI #komsume
+    image:
+    - id: GscSvrHbMAAqkrT
+      label: The 2 bands
+      info: NEK! and konsume band members
+      related-to:
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
+  - type: postx
+    id: 1929838014714597729
+    account: PCIMUSIC
+    published-date: 2025-06-03
+    label: thank you
+    text: |
+      【NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound】GsgpaTQb0AAv3Zr
+
+      6/2(月) 東京公演 @下北沢シェルター
+
+      お越しいただいた皆様ありがとうございました！ 🙇
+
+      次は7/18(金) 大阪公演 @ LIVE SQUARE 2nd LINEでお待ちしております！🔥
+
+      チケットはこちら👇
+      https://r10.to/h53e44
+
+      📸
+      @_gmng_
+    image:
+    - id: GsgpaTQb0AAv3Zr
+      label: NEK! on stage
+      related-to:
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
+    - id: Gsgpa56bcAAoxCH
+      label: komsume on stage
+      related-to:
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
+  - type: postx
+    id: 1929717050664276154
+    account: natsu08_guitar
+    published-date: 2025-06-03
+    label: MC
+    text: |
+      昨日の煽り
+      💛楽しんでいけますか！
+      💜いけますかぁー？
+      ❤️いけるかぁぁ⁉️
+
+      の3段活用でおおくりしました🌟
+      昨日はみんなでMCたくさん喋った！楽しかったっ！！
+      （プレイ中の動画は見事振動でスマホが倒れ水の泡になりました(-_-)）
+
+      #ネキ界隈 #拡散中
+    video:
+    - id: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
+      cover: 1929716963892514817/img/rfjaFqLpGVjttuhQ.jpg
+      label: MC
+      info: Natsu
+      linked-to:
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
 
 - type: show
   year: 2025

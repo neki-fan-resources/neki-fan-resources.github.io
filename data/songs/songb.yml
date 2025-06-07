@@ -11,7 +11,7 @@ description:
 - "Some of the shows where it has been played: DEBUT YEAR LAST LIVE, TR!CK TAK!NG tour."
 
 cover-image:
-  localImage:
+  localimage:
     group: siteimages
     id: nekilogo
   fromOtherElement: true

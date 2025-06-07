@@ -2,7 +2,7 @@ type: group
 id: siteimages
 label: site images
 related:
-- type: localImage
+- type: localimage
   group: siteimages
   id: nekilogo
   filename: neki400.png

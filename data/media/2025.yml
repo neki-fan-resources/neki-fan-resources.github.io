@@ -30,7 +30,7 @@
 # The host is either a great host, or a big fan (or both).
 
   cover-image:
-    localImage:
+    localimage:
       media:
         year: 2025
         id: nack5fantasyradio
@@ -45,7 +45,7 @@
         imageid: Gmpr-0DaAAA6aKU
 
   related:
-  - type: localImage
+  - type: localimage
     media:
       year: 2025
       id: nack5fantasyradio
@@ -108,7 +108,7 @@
   - The interview was recorded on March 8th midday, before the TR!CK TAK!NG tour show in Osaka.
 
   cover-image:
-    localImage:
+    localimage:
       media:
         year: 2025
         id: fm802infinityradio
@@ -177,7 +177,7 @@
     - label: "'Get Over' was played as an introduction for the interview. 'Dreams!!!!' was played right after the interview."
 
   related:
-  - type: localImage
+  - type: localimage
     media:
       year: 2025
       id: fm802infinityradio
@@ -231,7 +231,7 @@
   - Natsu is interviewed in the May issue of Guitar magazine, in the 'OPENING ACT' section.
 
   cover-image:
-    localImage:
+    localimage:
       media:
         year: 2025
         id: guitarmagazine05
@@ -240,14 +240,14 @@
 
   multimedia:
     image:
-    - localImage:
+    - localimage:
         media:
           year: 2025
           id: guitarmagazine05
         id: article
 
   related:
-  - type: localImage
+  - type: localimage
     media:
       year: 2025
       id: guitarmagazine05
@@ -262,7 +262,7 @@
     id: E91CuO-MI1A
     label: It is out
     published-date: 2025-04-12
-  - type: localImage
+  - type: localimage
     media:
       year: 2025
       id: guitarmagazine05
@@ -313,7 +313,7 @@
   published-date: 2025-04-22
   
   cover-image:
-    localImage:
+    localimage:
       media:
         year: 2025
         id: bayfm78musicurate
@@ -326,7 +326,7 @@
         imageid: GpDoUyLb0AAbEYw
 
   related:
-  - type: localImage
+  - type: localimage
     media:
       year: 2025
       id: bayfm78musicurate
@@ -402,14 +402,14 @@
   - They spoke about the songs of the second EP.
 
   cover-image:
-    localImage:
+    localimage:
       media:
         year: 2025
         id: tokyofmradiodragonnext
       id: logo
 
   related:
-  - type: localImage
+  - type: localimage
     media:
       year: 2025
       id: tokyofmradiodragonnext

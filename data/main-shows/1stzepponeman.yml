@@ -9,7 +9,7 @@ location:  Zepp Shinjuku, Tokyo
 event-page: https://note.com/nekiband_jp/n/ne1cfc8d70c87
 
 cover-image:
-  localImage:
+  localimage:
     show:
       year: 2025
       id: 1stzepponeman
@@ -20,7 +20,7 @@ multimedia:
   - youtubeshort: 0hC9M6VeCJk
 
 related:
-- type: localImage
+- type: localimage
   show:
     year: 2025
     id: 1stzepponeman

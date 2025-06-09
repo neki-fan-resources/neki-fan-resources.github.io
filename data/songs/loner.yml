@@ -45,6 +45,15 @@ related:
   id: prWu9_Q5a5Y
   label: Music Video Teaser
   published-date: 2024-10-02
+- type: localimage
+  youtubevideo: prWu9_Q5a5Y
+  id: cover
+  label: Teaser cover
+  published-date: 2024-10-02
+  filename: cover.png
+  source:
+    description: YouTube video
+  hidden: true
 - type: youtubevideo
   id: uhy1HnFXTH8
   label: Official Music Video

@@ -34,6 +34,15 @@ related:
   published-date: 2025-05-04
   linked-to:
   - song: getover
+- type: localimage
+  youtubevideo: IeBks9yGO4A
+  id: cover
+  label: Teaser cover
+  published-date: 2025-05-04
+  filename: cover.png
+  source:
+    description: YouTube video
+  hidden: true
 - type: youtubeshort
   id: spUo9sWqs48
   label: Official Live Video

@@ -2,7 +2,6 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Path
-import org.skyluc.fan_resources.html.ImageCompiledData
 import org.skyluc.fan_resources.html.Url
 import org.skyluc.fan_resources.html.component.LargeImageCover
 import org.skyluc.fan_resources.html.component.SectionHeader
@@ -14,6 +13,7 @@ import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
+import org.skyluc.fan_resources.html.GenImageCompiledData
 
 class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(description, site) {
 
@@ -32,38 +32,34 @@ class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(de
             .withClass(CLASS_UPDATE_IMAGE)
             .appendElements(
               LargeImageCover.generate(
-                ImageCompiledData(
-                  Url(image2Path),
-                  "update 2025-06-06",
-                  Some(Url(image2Path)),
-                )
+                GenImageCompiledData(Url(image2Path), "update 2025-06-06")
               )
+            )
+        ),
+      div()
+        .withClass(CLASS_UPDATE_CONTENT)
+        .appendElements(
+          p().appendElements(
+            text("New single released: "),
+            a().withHref("/song/ooak.html").appendElements(text("OOKA")),
+            text(". Lyrics are available, as well as previously shared videos."),
+          ),
+          p().appendElements(
+            text("NEK! performed with komsume in a "),
+            a()
+              .withHref("/show/2025/nekikomsumetokyo.html")
+              .appendElements(text("TWO-MAN SHOW")),
+            text(", a few pictures and videos are available."),
+          ),
+          p().appendElements(
+            text("Kanade published a "),
+            a()
+              .withHref("/song/zerosum.html")
+              .appendElements(text("playthrough video for zero-sum")),
+            text(
+              ". She also goes through the parts of the song, and gives pointers for people who want to play it."
             ),
-          div()
-            .withClass(CLASS_UPDATE_CONTENT)
-            .appendElements(
-              p().appendElements(
-                text("New single released: "),
-                a().withHref("/song/ooak.html").appendElements(text("OOKA")),
-                text(". Lyrics are available, as well as previously shared videos."),
-              ),
-              p().appendElements(
-                text("NEK! performed with komsume in a "),
-                a()
-                  .withHref("/show/2025/nekikomsumetokyo.html")
-                  .appendElements(text("TWO-MAN SHOW")),
-                text(", a few pictures and videos are available."),
-              ),
-              p().appendElements(
-                text("Kanade published a "),
-                a()
-                  .withHref("/song/zerosum.html")
-                  .appendElements(text("playthrough video for zero-sum")),
-                text(
-                  ". She also goes through the parts of the song, and gives pointers for people who want to play it."
-                ),
-              ),
-            ),
+          ),
         ),
       SectionHeader.generate("Update 2025-05-20"),
       div()
@@ -73,10 +69,9 @@ class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(de
             .withClass(CLASS_UPDATE_IMAGE)
             .appendElements(
               LargeImageCover.generate(
-                ImageCompiledData(
+                GenImageCompiledData(
                   Url(image1Path),
                   "update 2025-05-20",
-                  Some(Url(image1Path)),
                 )
               )
             ),

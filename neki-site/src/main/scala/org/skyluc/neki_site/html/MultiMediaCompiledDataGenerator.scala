@@ -6,7 +6,6 @@ import org.skyluc.fan_resources.html as fr
 import org.skyluc.fan_resources.html.ImageWithOverlayCompiledData
 import org.skyluc.fan_resources.html.MultiMediaCompiledData
 import org.skyluc.fan_resources.html.Url
-import org.skyluc.neki_site.data.{Site as dSite, *}
 
 import fr.CompiledDataGenerator
 
@@ -37,17 +36,7 @@ class MultiMediaCompiledDataGenerator(generator: fr.CompiledDataGenerator) exten
 
 class MultiMediaCompiledDataGeneratorProcessor(generator: CompiledDataGenerator)
     extends fr.MultiMediaCompiledDataGeneratorProcessor(generator)
-    with Processor[MultiMediaCompiledData] {
-
-  override def processChronologyPage(chronologyPage: ChronologyPage): MultiMediaCompiledData = ???
-
-  override def processMusicPage(musicPage: MusicPage): MultiMediaCompiledData = ???
-
-  override def processSite(site: dSite): MultiMediaCompiledData = ???
-
-  override def processShowsPage(showsPage: ShowsPage): MultiMediaCompiledData = ???
-
-}
+    with ProcessorMultimedia[MultiMediaCompiledData] {}
 
 object MultiMediaCompiledDataGenerator {
 

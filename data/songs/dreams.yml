@@ -45,6 +45,15 @@ related:
   id: 0YlW7T5fVZ4
   label: Official Music Video
   published-date: 2025-03-05
+- type: localimage
+  youtubevideo: 0YlW7T5fVZ4
+  id: cover
+  label: Live cover
+  published-date: 2025-03-05
+  filename: cover.png
+  source:
+    description: YouTube video
+  hidden: true
 # YouTube short
 - type: youtubeshort
   id: ayi326KTswk

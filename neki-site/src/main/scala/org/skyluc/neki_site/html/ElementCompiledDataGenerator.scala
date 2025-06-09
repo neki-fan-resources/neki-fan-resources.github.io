@@ -4,11 +4,11 @@ import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.{Processor as _, *}
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.fan_resources.html.ElementCompiledData
-import org.skyluc.fan_resources.html.ImageCompiledData
 import org.skyluc.fan_resources.html.Url
 import org.skyluc.neki_site.data.{Site as dSite, *}
 
 import fr.CompiledDataGenerator
+import fr.LocalImageCopyCompiledData
 
 class ElementCompiledDataGenerator(generator: fr.CompiledDataGenerator) extends fr.ElementCompiledDataGenerator {
 
@@ -51,6 +51,6 @@ object ElementCompiledDataGenerator {
 
   val MISSING_URL = Url("/404")
   val MISSING_IMAGE_URL = Url(Site.BASE_IMAGE_ASSET_PATH.resolve(Path("site", "manekineko-200px.png")))
-  val MISSING_IMAGE = ImageCompiledData(MISSING_IMAGE_URL, Common.MISSING, None)
+  val MISSING_IMAGE = LocalImageCopyCompiledData(MISSING_IMAGE_URL, Common.MISSING)
 
 }

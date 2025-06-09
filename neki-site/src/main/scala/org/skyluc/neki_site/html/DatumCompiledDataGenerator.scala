@@ -1,6 +1,6 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.fan_resources.data.Datum
+import org.skyluc.fan_resources.data.Data
 import org.skyluc.fan_resources.data.Id
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.neki_site.data.ChronologyPage
@@ -13,8 +13,8 @@ import fr.DatumCompiledData
 import fr.CompiledDataAttributeText
 import org.skyluc.fan_resources.data.Path
 
-class DatumCompiledDataGenerator(datums: Seq[Datum[?]], backupPath: Path, generator: CompiledDataGenerator)
-    extends fr.DatumCompiledDataGenerator(datums, backupPath, generator)
+class DatumCompiledDataGenerator(data: Data, backupPath: Path, generator: CompiledDataGenerator)
+    extends fr.DatumCompiledDataGenerator(data, backupPath, generator)
     with Processor[DatumCompiledData] {
 
   override def missingCompiledData(id: Id[?]): DatumCompiledData = DatumCompiledData(

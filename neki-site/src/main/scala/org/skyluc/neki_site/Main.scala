@@ -12,6 +12,8 @@ import org.skyluc.neki_site.data2Page.DataToPage
 import org.skyluc.neki_site.element2data.ElementToData
 import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
 import org.skyluc.neki_site.yaml.NodeToElement
+import org.skyluc.fan_resources.{data => fr}
+import org.skyluc.neki_site.data.Data
 
 object Main {
 
@@ -54,13 +56,15 @@ object Main {
       false,
     )
 
+    val data = fr.Data.get(checkedData, Data.creator)
+
     println("CHECKS ERRORS: ")
     checkErrors.foreach { e =>
       println("  " + e)
     }
     println("--------------")
 
-    val generator = CompiledDataGeneratorBuilder.generator(checkedData)
+    val generator = CompiledDataGeneratorBuilder.generator(data)
 
     val site = generator.get(Site.ID)
 

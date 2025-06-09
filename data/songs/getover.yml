@@ -65,6 +65,15 @@ related:
   id: maFSgVE2vXg
   label: Music Video Teaser
   published-date: 2024-04-21
+- type: localimage
+  youtubevideo: maFSgVE2vXg
+  id: cover
+  label: Teaser cover
+  published-date: 2024-04-21
+  filename: cover.png
+  source:
+    description: YouTube video
+  hidden: true
 - type: youtubevideo
   id: TWbLqba3oag
   label: Official Music Video

@@ -53,6 +53,15 @@ related:
   id: pCqu9xyfFzE
   label: Music Video Teaser
   published-date: 2024-06-28
+- type: localimage
+  youtubevideo: pCqu9xyfFzE
+  id: cover
+  label: Teaser cover
+  published-date: 2024-06-28
+  filename: cover.png
+  source:
+    description: YouTube video
+  hidden: true
 - type: youtubevideo
   id: rq0dca9mFfI
   label: Official Music Video

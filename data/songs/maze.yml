@@ -56,6 +56,15 @@ related:
   id: AqVoa-PMl8I
   label: Music Video Teaser
   published-date: 2024-07-20
+- type: localimage
+  youtubevideo: AqVoa-PMl8I
+  id: cover
+  label: Teaser cover
+  published-date: 2024-06-28
+  filename: cover.png
+  source:
+    description: YouTube video
+  hidden: true
 - type: youtubevideo
   id: EHtWJmMybGY
   label: Official Music Video

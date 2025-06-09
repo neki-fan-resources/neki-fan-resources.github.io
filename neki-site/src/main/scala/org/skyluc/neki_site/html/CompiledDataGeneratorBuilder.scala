@@ -1,15 +1,16 @@
 package org.skyluc.neki_site.html
 
-import org.skyluc.fan_resources.data.Datum
+import org.skyluc.fan_resources.data.Data
 import org.skyluc.fan_resources.html as fr
 
 object CompiledDataGeneratorBuilder {
-  def generator(datums: Seq[Datum[?]]): fr.CompiledDataGenerator = {
+  def generator(data: Data): fr.CompiledDataGenerator = {
     new fr.CompiledDataGenerator(
-      datums,
+      data,
       UrlResolver,
       elementGeneratorBuilder,
       multimediaGeneratorBuilder,
+      localImageCopyGeneratorBuilder,
     )
   }
 
@@ -19,5 +20,9 @@ object CompiledDataGeneratorBuilder {
 
   def multimediaGeneratorBuilder(generator: fr.CompiledDataGenerator): fr.MultiMediaCompiledDataGenerator = {
     new MultiMediaCompiledDataGenerator(generator)
+  }
+
+  def localImageCopyGeneratorBuilder(generator: fr.CompiledDataGenerator): fr.LocalImageCopyCompiledDataGenerator = {
+    LocalImageCopyCompiledDataGenerator
   }
 }

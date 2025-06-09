@@ -52,6 +52,15 @@ related:
   published-date: 2025-01-24
   linked-to:
   - song: maze
+- type: localimage
+  youtubevideo: aylfQ09sa4I
+  id: cover
+  label: Live cover
+  published-date: 2025-01-24
+  filename: cover.png
+  source:
+    description: YouTube video
+  hidden: true
 # YouTube shorts
 - type: youtubeshort
   id: 25AE7t_8eEg

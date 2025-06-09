@@ -134,13 +134,13 @@
     label: Entry
     published-date: 2025-04-13
     # TODO: identify the song
-    # related-to:
+    # linked-to:
     # - song: getover
   - type: youtubeshort
     id: 8JNZl3nO2dM
     label: Let's play
     published-date: 2025-04-14
-    related-to:
+    linked-to:
     - song: maze
   - type: postx
     id: 1904825238870721005
@@ -295,7 +295,7 @@
     published-date: 2025-06-05
     label: Promo
     info: studio audio, from the crowd
-    related-to:
+    linked-to:
     - song: ooak
   - type: postx
     id: 1903038891042673069
@@ -413,7 +413,7 @@
     info: from the crowd
     published-date: 2025-05-07
     linked-to:
-      song: dreams
+    - song: dreams
   - type: postx
     id: 1919977679027372546
     account: 46_hikaa
@@ -597,7 +597,7 @@
     label: Promo
     info: studio audio, from the side of the stage
     published-date: 2025-06-06
-    related-to:
+    linked-to:
     - song: maze
   - type: postx
     id: 1925839253633695948
@@ -646,7 +646,7 @@
     - id: GscSvrHbMAAqkrT
       label: The 2 bands
       info: NEK! and konsume band members
-      related-to:
+      linked-to:
       - show:
           year: 2025
           id: nekikomsumetokyo
@@ -672,13 +672,13 @@
     image:
     - id: GsgpaTQb0AAv3Zr
       label: NEK! on stage
-      related-to:
+      linked-to:
       - show:
           year: 2025
           id: nekikomsumetokyo
     - id: Gsgpa56bcAAoxCH
       label: komsume on stage
-      related-to:
+      linked-to:
       - show:
           year: 2025
           id: nekikomsumetokyo

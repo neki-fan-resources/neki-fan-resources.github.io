@@ -7,7 +7,6 @@ import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceCategory
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceEntry
 import org.skyluc.neki_site.html.pages.SourcesPage.SourceItem
-
 // TODO: generalize
 class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[SourcesExtractor.DatumEntry]] {
 
@@ -17,6 +16,10 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
   // TODO: implement if local image
   override def processBaseMarker(baseMarker: BaseMarker): Seq[DatumEntry] = Nil
+
+  override def processEvent(event: Event): Seq[DatumEntry] = Nil
+
+  override def processEventMarker(eventMarker: EventMarker): Seq[DatumEntry] = Nil
 
   override def processGroup(group: Group): Seq[DatumEntry] = Nil
 

@@ -20,7 +20,7 @@
     label: Promo
     info: studio audio
     published-date: 2024-03-15
-    related-to:
+    linked-to:
     - song: getover
   - type: postx
     id: 1765625866816803054
@@ -74,7 +74,7 @@
     id: 6W-P3YBkybQ
     label: Live
     published-date: 2024-04-20
-    related-to:
+    linked-to:
     - song: reigengirl
   - type: postx
     id: 1777594109558952005
@@ -123,7 +123,7 @@
     label: Promo
     info: studio audio
     published-date: 2024-05-17
-    related-to:
+    linked-to:
     - song: getover
   - type: postx
     id: 1787740918298345982
@@ -259,21 +259,21 @@
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-18
-    related-to:
+    linked-to:
     - song: reigengirl
   - type: youtubeshort
     id: KDBBqw69Vus
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-22
-    related-to:
+    linked-to:
     - song: maze
   - type: youtubeshort
     id: ZGKbnmh52gw
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-26
-    related-to:
+    linked-to:
     - song: reigengirl
   - type: postx
     id: 1802603553820643416

@@ -91,9 +91,9 @@ related:
     label: Recording
     info: ピルん
     linked-to:
-      songid:
+    - songid:
         id: newsong202505
-        dark: yes
+        dark: true
 - type: postx
   id: 1923958028916883650
   account: coco_102

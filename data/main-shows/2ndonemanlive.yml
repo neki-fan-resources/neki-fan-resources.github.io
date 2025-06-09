@@ -44,13 +44,13 @@ related:
   id: _Oac92XPkyo
   label: Official Live Video
   published-date: 2024-12-18
-  related-to:
+  linked-to:
   - song: dreams
 - type: youtubevideo
   id: aylfQ09sa4I
   label: Official Live Video
   published-date: 2025-01-24
-  related-to:
+  linked-to:
   - song: maze
 # YouTube shorts
 - type: youtubeshort
@@ -58,62 +58,62 @@ related:
   label: Promo
   info: rehearsal room, studio audio
   published-date: 2024-11-23
-  related-to:
+  linked-to:
   - song: maze
 - type: youtubeshort
   id: AIM5rdixj4E
   label: Live
   published-date: 2024-12-18
-  related-to:
+  linked-to:
   - song: dreams
 - type: youtubeshort
   id: HfIoK8Qdv5I
   label: Live
   published-date: 2024-12-20
-  related-to:
+  linked-to:
   - song: dreams
 - type: youtubeshort
   id: 4NVfpFzmfMQ
   label: Live
   published-date: 2024-12-23
-  related-to:
+  linked-to:
   - song: dreams
 - type: youtubeshort
   id: qFiKgQ5mNgQ
   label: Live
   published-date: 2025-01-02
-  related-to:
+  linked-to:
   - song: getover
 - type: youtubeshort
   id: iQQoVDhI0E0
   label: Live
   published-date: 2025-01-03
-  related-to:
+  linked-to:
   - song: fool
 - type: youtubeshort
   id: 8jqBR2PyfAw
   label: Live
   published-date: 2025-01-05
-  related-to:
+  linked-to:
   - song: moon
 - type: youtubeshort
   id: MpR-vcWQAuQ
   label: Live
   published-date: 2025-01-06
-  related-to:
+  linked-to:
   - song: reigengirl
 - type: youtubeshort
   id: xy8VknaZ0QQ
   label: Live
   published-date: 2025-01-09
-  related-to:
+  linked-to:
   - song: loner
 - type: youtubeshort
   id: zWS1TQ1kP6A
   label: Live
   info: with lyrics
   published-date: 2025-01-13
-  related-to:
+  linked-to:
   - song: endlessgame
 - type: youtubeshort
   id: jZ2Dn5P3Fac
@@ -121,13 +121,13 @@ related:
   info: with lyrics
   published-date: 2025-01-16
   # TODO: add reference to song06 when its dark page is created
-  # related-to:
+  # linked-to:
   # - song: ---
 - type: youtubeshort
   id: WdcokauJMtU
   label: Live
   published-date: 2025-01-24
-  related-to:
+  linked-to:
   - song: maze
 # post YouTube
 - type: postyoutube

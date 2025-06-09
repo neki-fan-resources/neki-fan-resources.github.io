@@ -275,14 +275,14 @@
     label: Promo
     info: studio audio
     published-date: 2024-04-13
-    related-to:
+    linked-to:
     - song: getover
   - type: youtubeshort
     id: ChYZQj2s1Ik
     label: Promo
     info: studio audio
     published-date: 2024-04-16
-    related-to:
+    linked-to:
     - song: getover
   # post X
   - type: postx
@@ -600,7 +600,7 @@
     label: Promo
     info: studio audio
     published-date: 2024-07-19
-    related-to:
+    linked-to:
     - song: reigengirl
     # TODO: special entry for the show where it has been played at (when 2 related shows)
     - show:
@@ -661,7 +661,7 @@
     label: Promo
     info: studio audio
     published-date: 2024-08-10
-    related-to:
+    linked-to:
     - song: endlessgame
   - type: postx
     id: 1819198572111577421
@@ -715,7 +715,7 @@
     label: Promo
     info: studio audio
     published-date: 2024-08-12
-    related-to:
+    linked-to:
     - song: getover
   - type: postx
     id: 1804448780873519192
@@ -871,14 +871,14 @@
     label: Promo
     info: studio audio
     published-date: 2024-09-11
-    related-to:
+    linked-to:
     - song: maze
   - type: youtubeshort
     id: v16v2MvFJyM
     label: Promo
     info: studio audio
     published-date: 2024-09-17
-    related-to:
+    linked-to:
     - song: reigengirl
   - type: postx
     id: 1827255587870273643
@@ -1288,7 +1288,7 @@
     label: Promo
     info: studio audio
     published-date: 2024-12-14
-    related-to:
+    linked-to:
     - song: fool
   - type: postx
     id: 1851932879170752613

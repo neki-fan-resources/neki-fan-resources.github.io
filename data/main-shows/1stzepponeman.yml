@@ -35,7 +35,7 @@ related:
   id: 0hC9M6VeCJk
   label: Announcement
   published-date: 2025-03-16
-  related-to:
+  linked-to:
   # TODO: this doesn't show up because we filter all show references in show pages
   - show:
       year: 2025

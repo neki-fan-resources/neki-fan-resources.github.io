@@ -58,28 +58,28 @@ related:
   label: Rehearsal
   info: Natsu focus
   published-date: 2025-03-13
-  related-to:
+  linked-to:
   - song: zerosum
 - type: youtubeshort
   id: _8Jm4QV0mUw
   label: Rehearsal
   info: Cocoro focus
   published-date: 2025-03-14
-  related-to:
+  linked-to:
   - song: zerosum
 - type: youtubeshort
   id: nh7NiJ2vnHM
   label: Rehearsal
   info: Kanade focus
   published-date: 2025-03-14
-  related-to:
+  linked-to:
   - song: zerosum
 - type: youtubeshort
   id: 5TbpU2-WnIQ
   label: Rehearsal
   info: Hika focus
   published-date: 2025-03-15
-  related-to:
+  linked-to:
   - song: zerosum
 - type: youtubeshort
   id: 1JgqY5V6fCE
@@ -116,7 +116,7 @@ related:
   label: Live
   info: from the crowd
   published-date: 2025-03-22
-  related-to:
+  linked-to:
   - song: dreams
 - type: youtubeshort
   id: mvD68jTQrHs

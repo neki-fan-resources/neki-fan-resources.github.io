@@ -23,7 +23,6 @@ multimedia:
   video:
   - youtubevideo: z3HM2COly2Q
   - youtubevideo: Jr0cUhVnKiE
-  - youtubeshort: uexxORqapQY
   live:
   - postxvideo:
       postid: 1928744673092292656
@@ -111,11 +110,6 @@ related:
   label: Music Video
   info: music Video behind the scene
   published-date: 2025-03-01
-- type: youtubeshort
-  id: uexxORqapQY
-  label: Bass Intro
-  info: Kanade Bass play-through
-  published-date: 2025-03-19
 - type: youtubeshort
   id: WRfdzk-02vY
   label: Music Video

@@ -53,13 +53,6 @@
   vertical-align: baseline;
 }
 
-
-.large-details-description {
-  font-size: 1rem;
-  line-height: normal;
-  border-top: solid 1px var(--color-not-gray)
-}
-
 /* medium details styling */
 
 .medium-details {

@@ -2,6 +2,9 @@ package org.skyluc.neki_site.data
 
 import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data as fr
+import fr.CoverImage
+import fr.LocalImageId
+import fr.GroupId
 
 object PageId {
   private val GEN = "page"
@@ -22,6 +25,12 @@ case class MusicPage(
     hasError: Boolean = false,
 ) extends Page
     with WithProcessor {
+
+  override val coverImage: fr.CoverImage = CoverImage(
+    LocalImageId(GroupId("siteimages"), "manekineko_cover"),
+    true,
+  )
+
   override def errored(): MusicPage = copy(hasError = true)
   override def withLinkedTo(id: fr.Id[?]*): MusicPage = copy(linkedTo = mergeLinkedTo(id))
 
@@ -41,6 +50,12 @@ case class ShowsPage(
     hasError: Boolean = false,
 ) extends Page
     with WithProcessor {
+
+  override val coverImage: fr.CoverImage = CoverImage(
+    LocalImageId(GroupId("siteimages"), "manekineko_cover"),
+    true,
+  )
+
   override def errored(): ShowsPage = copy(hasError = true)
   override def withLinkedTo(id: fr.Id[?]*): ShowsPage = copy(linkedTo = mergeLinkedTo(id))
 
@@ -60,6 +75,12 @@ case class ChronologyPage(
     hasError: Boolean = false,
 ) extends Page
     with WithProcessor {
+
+  override val coverImage: fr.CoverImage = CoverImage(
+    LocalImageId(GroupId("siteimages"), "manekineko_cover"),
+    true,
+  )
+
   override def errored(): ChronologyPage = copy(hasError = true)
   override def withLinkedTo(id: fr.Id[?]*): ChronologyPage = copy(linkedTo = mergeLinkedTo(id))
 

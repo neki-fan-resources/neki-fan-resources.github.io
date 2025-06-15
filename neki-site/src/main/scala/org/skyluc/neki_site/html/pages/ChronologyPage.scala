@@ -152,7 +152,7 @@ object ChronologySvg {
     val line = path(s"M 0 0 h${(5 - inMod) * xSign} v${yMod} h${(5 + inMod) * xSign}")
 
     val elements: List[SvgElement[?]] = if (marker.short) {
-      val label = marker.sublabel.map(sublabel => marker.label + " - " + sublabel).getOrElse(marker.label)
+      val label = marker.sublabel.map(sublabel => marker.label).getOrElse(marker.label)
       List(svgText(12 * xSign, 0.25 + yMod, label).withClass(CLASS_CHRONOLOGY_MARKER_LABEL_SHORT))
     } else {
       List(

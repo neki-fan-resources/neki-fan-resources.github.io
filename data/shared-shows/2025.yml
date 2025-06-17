@@ -101,6 +101,9 @@
 
   multimedia:
     video:
+    - postxvideo:
+        postid: 1931999361577463823
+        videoid: 01
     - youtubeshort: 8JNZl3nO2dM
     - youtubeshort: 759NyQOQ1yg
     image:
@@ -226,6 +229,30 @@
     - id: GoUZ_awWQAAJLU0
       label: on stage
       info: Hika
+  - type: postx
+    id: 1931999361577463823
+    account: natsu08_guitar
+    published-date: 2025-06-09
+    label: 195 BPM
+    text: |
+      “Loner”より
+      BPM195のダウンピッキング🎸🎸
+
+      “Loner”は1Aはこんな感じで2Aで変形するのが好き🐺❤️‍🔥
+
+      （音質悪いのごめんね🥹🙏🏻特にイヤフォンで聴いたら悪いかも🙇🏻‍♀️）
+
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - id: 01
+      cover: 1931999263166492672/img/WfpdmHQJHaGNaTDp.jpg
+      label: Live
+      info: 195 BPM, Natsu
+      linked-to:
+      - show:
+          year: 2025
+          id: kogaderarock
+      - song: loner
 
 - type: show
   year: 2025
@@ -566,6 +593,9 @@
 
   multimedia:
     short:
+    - postxvideo:
+        postid: 1931252079353581736
+        videoid: 01
     - youtubeshort: mOyYGaolObY
     image:
     - postximage:
@@ -707,6 +737,71 @@
       - show:
           year: 2025
           id: nekikomsumetokyo
+  - type: postx
+    id: 1931252079353581736
+    account: coco_102
+    published-date: 2025-06-07
+    label: Live Loner
+    text: |
+      🐺Loner🐺
+
+      ちょっとムラすごいけど許して:( '-' ):
+      ワンマン走り切れるように体づくりも頑張りますっ
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 01
+      cover: 1931251684669583360/img/eelT-3_4Rphtrfmd.jpg
+      label: Live
+      info: Cocoro
+      linked-to:
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
+      - song: loner
+  - type: postx
+    id: 1933082505084809657
+    account: coco_102
+    published-date: 2025-06-12
+    label: Live Dreams!!!!
+    text: |
+      🌞 🧡 🌞 🧡 🌞 Dreams!!!! 🧡 🌞 🧡 🌞 🧡
+
+      サビ前にフロアのみんながやってるボーカルにエール送るやつ、私も一緒にやってみた！楽しいなこれ！
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 01
+      cover: 1933082405105274880/img/w9NPmPviB93AuYZW.jpg
+      label: Live
+      info: Cocoro
+      linked-to:
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
+      - song: dreams
+  - type: postx
+    id: 1934127859645419907
+    account: coco_102
+    published-date: 2025-06-15
+    label: Live OOAK
+    text: |
+      今月リリースした新曲OOAK、イントロとかサビももちろんいいけど、ここの雰囲気も結構好き🌻
+
+      2番サビからスムーズに落ちサビに移行するための架け橋的な役割を担ってるこのセクション！良き！！
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 01
+      cover: 1934127784982622208/img/SiHF4mRvqaOYV-zJ.jpg
+      label: Live
+      info: Cocoro
+      linked-to:
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
+      - song: ooak
+
 
 - type: show
   year: 2025
@@ -728,3 +823,143 @@
       id: cover
     fromOtherElement: true
 
+- type: show
+  year: 2025
+  id: sendaimusicfuse
+  fullname: Sendai music Fuse
+  date: 2025-06-28
+  location: darwin, Sendai
+  event-page: https://sendaimusicfuse.com
+  shared: true
+  cover-image:
+    postximage:
+      postid: 1933086980537225689
+      imageid: GtOzLBnbYAA_1f5
+  related:
+  - type: postx
+    id: 1933086980537225689
+    account: nekiband_jp
+    published-date: 2025-06-12
+    label: announcement
+    text: |
+      🔥情報解禁🔥
+
+      6/28(土)開催
+      「SENDAI MUSIC FUSE 2025」
+
+      NEK!の出演が決定&タイムテーブル公開💥
+
+      14:00~14:30
+      仙台darwinに出演❤️‍🔥
+
+      初の仙台でのライブです！
+      お待ちしております🫶
+
+      🔗http://sendaimusicfuse.com
+
+      #NEKI 
+      #SMF
+      #SMF2025
+      #FUSE
+    image:
+    - id: GtOzLBnbYAA_1f5
+      label: Poster
+      localCopy: true
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+    - id: GtOzLB3bMAAkuR1
+      label: Schedule
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+
+- type: show
+  year: 2025
+  id: internetbabies
+  fullname: 「INTERNET BaBIES -Face to Faith-」
+  date: 2025-07-27
+  location: Daikanyama UNIT, Tokyo
+  event-page: https://t.co/BpGhUev7VT
+  shared: true
+  cover-image:
+    postximage:
+      postid: 1933117154494427587
+      imageid: GtPQrgBasAA4sFp
+  related:
+  - type: postx
+    id: 1933117154494427587
+    account: nekiband_jp
+    published-date: 2025-06-12
+    label: announcement
+    text: |
+      ❤️‍🔥情報解禁❤️‍🔥
+
+      7/27(日)開催
+      「NTERNET BaBIES -Face to Faith-」
+      ＠ 代官山UNIT
+
+      浜野はるきさん(
+      @paruparu_86
+      )のライブに出演させていただきます🔥
+
+      チケット2次先行は明後日6/14(土)12:00より受付開始！
+
+      🔗https://l-tike.com/hamanoharuki/
+
+      #NEKI
+    image:
+    - id: GtPQrgBasAA4sFp
+      label: poster
+      localCopy: true
+      linked-to:
+      - show:
+          year: 2025
+          id: internetbabies
+
+- type: show
+  year: 2025
+  id: thetheoryofscience
+  fullname: '"The Theory of SCIENCE" ～Shinjuku club SCIENCE 10th Anniversary ～'
+  shortname: The Theory of SCIENCE
+  date: 2025-11-18
+  location: Shinjuku, Tokyo
+  event-page: https://club-science.com/detail/2025/11/18
+  shared: true
+  cover-image:
+    postximage:
+      postid: 1934083816131596730
+      imageid: Gtc-9etbYAAg1fO
+  related:
+  - type: postx
+    id: 1934083816131596730
+    account: nekiband_jp
+    published-date: 2025-06-15
+    label: announcement
+    text: |
+      🔥情報解禁🔥
+
+      11/18,19開催
+      ”The Theory of SCIENCE"
+      ～Shinjuku club SCIENCE 10th Anniversary ～
+
+      NEK!の出演が決定⚡️
+      18日(火)に出演させていただきます！
+
+      1日券▼
+      https://t.livepocket.jp/e/npe57
+
+      2日間通し券▼
+      https://t.livepocket.jp/e/u5z23
+
+      #NEKI
+    image:
+    - id: Gtc-9etbYAAg1fO
+      label: poster
+      localCopy: true
+      linked-to:
+      - show:
+          year: 2025
+          id: thetheoryofscience

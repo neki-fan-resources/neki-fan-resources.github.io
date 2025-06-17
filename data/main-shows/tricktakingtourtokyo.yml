@@ -20,6 +20,7 @@ tour: tricktakingtour
 
 multimedia:
   short:
+  - youtubeshort: FEwx6aYh3fU
   - postxvideo:
       postid: 1929106683978224117
       videoid: 46203d6b-e5ae-48cd-8902-16d9a880869d
@@ -37,6 +38,10 @@ multimedia:
   - youtubeshort: nh7NiJ2vnHM
   - youtubeshort: _8Jm4QV0mUw
   - youtubeshort: S2y9YcalKNw
+  image:
+  - postximage:
+      postid: 1931984997382316384
+      imageid: Gs_KDFfb0AAtXQ1
   additional:
   - youtubeshort: htz6Y0O53tM
   - youtubeshort: rtmMldJLh1k
@@ -186,6 +191,13 @@ related:
     - show:
         year: 2025
         id: tricktakingtourtokyo
+- type: youtubeshort
+  id: FEwx6aYh3fU
+  label: Rehearsal
+  info: on stage, accoustic
+  published-date: 2025-06-12
+  relalted-to:
+  - song: moon
 
 
 

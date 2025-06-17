@@ -493,3 +493,41 @@
     - id: Gp9_wtDagAAnCTL
       label: at the station
       info: Hika, Natsu
+
+
+- type: mediaaudio
+  year: 2025
+  id: yfmgodblesssaturday
+
+  designation: radio show
+  radio: Fm yokohama
+  show: God Bless Saturday
+  host: じゅんご (Jungo), 田﨑さくら (Tazaki Sakura)
+  member:
+    - Hika
+    - Natsu
+  webpage: https://www.fmyokohama.jp/gbs/
+  program: https://radiko.jp/#!/ts/YFM/20250621130000
+
+  published-date: 2025-06-17
+
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: yfmgodblesssaturday
+      id: cover
+
+
+  related:
+  - type: localimage
+    media:
+      year: 2025
+      id: yfmgodblesssaturday
+    id: cover
+    filename: cover.png
+    label: Cover
+    published-date: 2025-06-17
+    source:
+      description: God Bless Saturday website
+      url: https://www.fmyokohama.jp/gbs/

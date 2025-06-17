@@ -17,6 +17,10 @@ cover-image:
     imageid: GscBBL6bgAAwvmM
 
 multimedia:
+  video:
+  - postxvideo:
+      postid: 1932750181457670312
+      videoid: 01
   live:
   - postxvideo:
       postid: 1930096228966248749
@@ -163,3 +167,25 @@ related:
     cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
     label: Live
     info: everyone sings
+- type: postx
+  id: 1932750181457670312
+  account: natsu08_guitar
+  published-date: 2025-06-11
+  label: part I like
+  text: |
+    OOAK / NEK!
+
+    Hey!You!!!! 
+    新曲楽しんでくれてますかぁ❤️‍🔥❤️‍🔥❤️‍🔥
+
+    個人的にはここの
+    落ちサビ〜ラスサビ〜アウトロ（＋コーラス）部分が好きです🎸🎸💛
+
+    #ネキ界隈 #拡散中 #NEKI
+  video:
+  - id: 01
+    cover: 1932750062083559424/img/9AJ_yS8ikGI8Atcw.jpg
+    label: Chorus
+    info: Natsu
+    linked-to:
+    - song: ooak

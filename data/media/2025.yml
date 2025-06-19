@@ -518,7 +518,6 @@
         id: yfmgodblesssaturday
       id: cover
 
-
   related:
   - type: localimage
     media:
@@ -531,3 +530,38 @@
     source:
       description: God Bless Saturday website
       url: https://www.fmyokohama.jp/gbs/
+
+- type: mediaaudio
+  year: 2025
+  id: eradiocatch
+
+  designation: radio show
+  radio: e-radio
+  show: キャッチ！ (Catch!)
+  host: 矢野七絵 (Nanae Yano)
+  member:
+    - Hika
+    - Natsu
+  webpage: https://www.e-radio.co.jp/personality/%e7%9f%a2%e9%87%8e%e4%b8%83%e7%b5%b5/
+
+  published-date: 2025-06-25
+
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: eradiocatch
+      id: cover
+
+  related:
+  - type: localimage
+    media:
+      year: 2025
+      id: eradiocatch
+    id: cover
+    filename: cover.png
+    label: Cover
+    published-date: 2025-06-25
+    source:
+      description: Radiko webpage
+      url: https://radiko.jp/#!/ts/E-RADIO/20250625140000

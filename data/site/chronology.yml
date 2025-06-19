@@ -342,16 +342,19 @@ markers:
     id: nekikomsumetokyo
   short: true
 - song: ooak
-- show:
-    year: 2025
-    id: nekikomsumeosaka
-  short: true
 - media:
     year: 2025
     id: yfmgodblesssaturday
+- media:
+    year: 2025
+    id: eradiocatch
 - show:
     year: 2025
     id: sendaimusicfuse
+  short: true
+- show:
+    year: 2025
+    id: nekikomsumeosaka
   short: true
 - show:
     year: 2025

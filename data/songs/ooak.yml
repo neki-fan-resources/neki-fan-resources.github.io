@@ -19,9 +19,15 @@ cover-image:
 multimedia:
   video:
   - postxvideo:
+      postid: 1935646894207996161
+      videoid: 01
+  - postxvideo:
       postid: 1932750181457670312
       videoid: 01
   live:
+  - postxvideo:
+      postid: 1934127859645419907
+      videoid: 01
   - postxvideo:
       postid: 1930096228966248749
       videoid: 54904afa-0889-4f5e-a1b1-fe705c2c671d
@@ -33,6 +39,12 @@ multimedia:
   - youtubeshort: S5DQ7wjnoKA
   - youtubeshort: u41vd6yyGGk
   - youtubeshort: tabt75E-6tY
+  image:
+  - postximage:
+      postid: 1935668905244336459
+      imageid: GtzabMUXgAAmDvN
+  additional:
+  - youtubevideo: mP_33Vu4TL4
 
 lyrics:
   status:
@@ -110,6 +122,11 @@ lyrics:
 
 
 related:
+# YouTube videos
+- type: youtubevideo
+  id: mP_33Vu4TL4
+  label: Music Video Teaser
+  published-date: 2025-06-18
 # YouTube shorts
 - type: youtubeshort
   id: tabt75E-6tY
@@ -126,6 +143,10 @@ related:
   label: Rehearsal
   info: studio audio
   published-date: 2025-06-04
+- type: youtubeshort
+  id: 86Esxc1BKDM
+  label: MV Teaser
+  published-date: 2025-06-18
 # X posts
 - type: postx
   id: 1929512124243411173
@@ -189,3 +210,45 @@ related:
     info: Natsu
     linked-to:
     - song: ooak
+- type: postx
+  id: 1935668905244336459
+  account: nekiband_jp
+  published-date: 2025-06-19
+  label: MV premier ready on YouTube
+  text: |
+    ◥◣ #OOAK ◢◤
+
+    明日6/20(金)21:00
+    YouTubeにてプレミア公開💥
+
+    "OOAK" Official Music Video
+
+    あす21時はYouTubeに集合お願いします🎥
+
+    🔗https://youtu.be/qGEzCjYvWZw
+
+    #NEKI
+  image:
+  - id: GtzabMUXgAAmDvN
+    label: Music Video
+    info: the 4 members
+- type: postx
+  id: 1935646894207996161
+  account: natsu08_guitar
+  published-date: 2025-06-18
+  label: cut
+  text: |
+    みんなー！明日21:00-
+    「OOAK」のMV公開だよー🎥🎥
+    もう明日だね！ワクワク💛💛
+    チャットで待ってるよー💬！
+
+    ここのカッティング好きって言ってもらえてとっても嬉しい🫶🏻
+    ありがとうー！
+
+    #ネキ界隈 #拡散中 #NEKI
+  video:
+  - id: 01
+    cover: 1935646770916171776/img/CPlYL1IkO0VoV24N.jpg
+    label: Cut
+    info: Natsu

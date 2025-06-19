@@ -274,6 +274,9 @@
   multimedia:
     video:
     - postxvideo:
+        postid: 1935184418047672438
+        videoid: 01
+    - postxvideo:
         postid: 1929389485147721772
         videoid: 01
     - postxvideo:
@@ -571,6 +574,30 @@
       info: Cocoro
       linked-to:
         - song: getover
+  - type: postx
+    id: 1935184418047672438
+    account: coco_102
+    published-date: 2025-06-18
+    label: live
+    info: MAZE
+    text: |
+      ちょっと最近この衣装が恋しくなってきてます^._.^
+
+      そんなことよりMAZEやっぱいいね☝🏻🌀
+      ライブ中の私たちとフロアの一体感がダントツで気持ち良いです！
+      Zeppは一体どーなってしまうんでしょうか、、、！
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 01
+      cover: 1935184259150659584/img/6ddIJMGTVK-EkUor.jpg
+      label: Live
+      info: Cocoro
+      linked-to:
+      - show:
+          year: 2025
+          id: kakumeilogic2025
+      - song: maze
 
 - type: show
   year: 2025

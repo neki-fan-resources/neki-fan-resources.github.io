@@ -38,12 +38,14 @@ class ChronologyPage(
 
     val svgElement = ChronologySvg.generate(startDate, endDate, refDay, markersCompiledData)
 
-    val detailsData = ChronologyMarkerDetails.generateData(markersCompiledData)
+    val overlaysData = ChronologyMarkerDetails.generateOverlayContent(markersCompiledData)
+    val categorisData = ChronologyMarkerDetails.generateCategories(markersCompiledData)
 
     List(
       mainIntro,
       svgElement,
-      detailsData,
+      overlaysData,
+      categorisData,
     )
 
   }
@@ -141,7 +143,7 @@ object ChronologySvg {
   }
 
   private def generateMarkers(markers: Seq[MarkerCompiledData]): Seq[SvgElement[?]] = {
-    markers.map(marker => generateMarker(marker.id.shortUId(), marker.marker))
+    markers.map(marker => generateMarker(marker.id.uId(), marker.marker))
   }
 
   private def generateMarker(id: String, marker: MarkerCompiledDataMarker): SvgG = {

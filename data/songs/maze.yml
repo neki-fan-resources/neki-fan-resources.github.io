@@ -28,6 +28,9 @@ multimedia:
   live:
   - youtubevideo: aylfQ09sa4I
   - postxvideo:
+      postid: 1935184418047672438
+      videoid: 01
+  - postxvideo:
       postid: 1926928034944213276
       videoid: d7408dbc-320f-41a5-8e45-5ce994c99049
   - postxvideo:
@@ -208,6 +211,11 @@ related:
   label: Promo
   info: studio audio, rehearsal room
   published-date: 2025-06-14
+- type: youtubeshort
+  id: bBx938HIdB8
+  label: Music Video
+  info: behind the scenes, setting up the drums, Cocoro
+  published-date: 2025-06-17
 
 lyrics:
   status:

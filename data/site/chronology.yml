@@ -342,6 +342,12 @@ markers:
     id: nekikomsumetokyo
   short: true
 - song: ooak
+- youtubevideo: qGEzCjYvWZw
+  cover-image:
+    postximage:
+      postid: 1935668905244336459
+      imageid: GtzabMUXgAAmDvN
+  parent-key: song
 - media:
     year: 2025
     id: yfmgodblesssaturday

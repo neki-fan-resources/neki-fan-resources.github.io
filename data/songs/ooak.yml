@@ -296,6 +296,7 @@ related:
   - id: GtzabMUXgAAmDvN
     label: Music Video
     info: the 4 members
+    localCopy: true
 - type: postx
   id: 1935646894207996161
   account: natsu08_guitar

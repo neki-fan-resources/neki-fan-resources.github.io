@@ -101,7 +101,7 @@ class AboutPage(description: PageDescription, site: dSite) extends SitePage(desc
             text(" sound is '"),
             spanLyrics("招き猫"),
             text("': the '"),
-            spanLyrics("beckoming cat"),
+            spanLyrics("beckoning cat"),
             text("' which can be seen at the entrance of a lot of shops."),
           ),
           p().appendElements(

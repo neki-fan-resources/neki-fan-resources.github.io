@@ -55,7 +55,7 @@ lyrics:
   languages:
     - id: ol
       name: original lyrics
-      details: "(from YouTube Official Music Video description)"
+      details: "(from YouTube Official Music Video subtitles)"
       active: true
       fixed: true
       notranslation: true

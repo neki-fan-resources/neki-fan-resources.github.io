@@ -3,12 +3,14 @@
 :root {
   --color-cocoro: #2ba6e1;
   --color-cocoro-light: rgb(from var(--color-cocoro) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-cocoro-lighter: rgb(from var(--color-cocoro) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
   --color-cocoro-dark: rgb(from var(--color-cocoro) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-cocoro-darker: rgb(from var(--color-cocoro) calc(r/2) calc(g/2) calc(b/2));
   --color-cocoro-50: rgb(from var(--color-cocoro) r g b / 0.5);
   --color-cocoro-05: rgb(from var(--color-cocoro) r g b / 0.05);
   --color-hika: #e50112;
   --color-hika-light: rgb(from var(--color-hika) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-hika-lighter: rgb(from var(--color-hika) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
   --color-hika-dark: rgb(from var(--color-hika) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-hika-50: rgb(from var(--color-hika) r g b / 0.5);
   --color-hika-10: rgb(from var(--color-hika) r g b / 0.1);

@@ -6,6 +6,7 @@ release-date: 2025-06-04
 description:
 - Named and announced to be release on 2025-06-02, during the「NEK!/komsume TWO-MAN SHOW」in Tokyo.
 - Prior to this announcement, it had been played live without being named, at least since the 2ND ONE MAN LIVE show. It also has been teased in a couple of shorts.
+- The official music video was released on 2025-06-20. From their SNS posts, it looks like it was mostly filmed on 2025-06-10.
 - "The song was part of the online version (Zaiko) of the 2ND ONE MAN LIVE show (song #6)."
 
 
@@ -18,6 +19,7 @@ cover-image:
 
 multimedia:
   video:
+  - youtubevideo: qGEzCjYvWZw
   - postxvideo:
       postid: 1935646894207996161
       videoid: 01
@@ -53,69 +55,121 @@ lyrics:
   languages:
     - id: ol
       name: original lyrics
-      details: "(from LyricFind)"
+      details: "(from YouTube Official Music Video description)"
       active: true
       fixed: true
       notranslation: true
       source:
-        description: LyricFind
-        url: https://lyrics.lyricfind.com/lyrics/nek-ooak
+        description: from YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=qGEzCjYvWZw
+    - id: en
+      name: english translation
+      details: "(from YouTube Official Music Video subtitles)"
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=qGEzCjYvWZw
   sections:
   - lines:
     - oll: Hey 目を開いてこっちを見て
+      en: Hey, open your eyes, look over here
     - oll: 小さい手の中？
+      en: A tiny hand?
     - oll: そんなんじゃないわ
+      en: No way, not like that
     - oll: 見ていない 見ていたい 見られたい
+      en: You’re not seeing. I want to see, be seen
     - oll: そんなん That's not it.
+      en: That’s not what I mean, that’s not it.
 
   - lines:
     - oll: Hey そんなん面白いの？ねえ？
+      en: Hey, is that really fun to you?
     - oll: 体裁や形式で
+      en: All that form and formalities
     - oll: 真似事ばっか
+      en: Just mimicry, copycat play
     - oll: Not real, just fake, Cheating
     - oll: Finally just for show
 
   - lines:
     - oll: 本物の猫は 私だけよ
+      en: I’m the only real cat
     - oll: ただ一つよ
+      en: The one and only truth
+
   - lines:
     - oll: Yeah 超えて行くんだ 縦横無尽
+      en: Yeah, breaking through in every direction
     - oll: チューニングは出来てる
+      en: I’m tuned and ready to go
     - oll: Hey 世界を揺らす 掻き鳴らすの
+      en: Hey, I’ll shake the world, strum it loud
     - oll: ゲームマスター
+      en: I’m the game master
     - oll: ドープで既視感のない
+      en: Dope and fresh, no déjà vu
     - oll: リアル 抜けられぬ世界 ウェルカム
+      en: This real world — no escape, welcome in
+
   - lines:
     - oll: Hey 行き場なく集う界隈
+      en: Hey, gathering in dead-end corners
     - oll: つるみ合う退屈しのぎ
+      en: Clinging to boredom just to kill time
     - oll: テンポラリーな
+      en: It’s all temporary
     - oll: 見ていない 喋らない 聞いてない
+      en: Don’t see, don’t talk, don’t hear
     - oll: そんなRelationで
+      en: That kind of “relation”
+
   - lines:
     - oll: ただ踊らされてるだけなの 気付かないの
+      en: You're just being played don’t you get it?
+
   - lines:
     - oll: Yeah 超えて行ける 変幻自在
+      en: Yeah, I can break free, ever-changing
     - oll: 他所様のレールじゃない
+      en: I’m not running on someone else's rails
     - oll: Hey お好きにどうぞ
+      en: Hey, do what you want
     - oll: フォローはご自由に 後悔させない
+      en: Follow me if you like. no regrets
+
   - lines:
     - oll: 指でなぞるだけで 本物を見ずに
+      en: Just by tracing with your fingers
     - oll: 知った気の世の中
+      en: You think you know without seeing the real thing
     - oll: だから だから だから
+      en: That’s why that’s why that’s why
     - oll: Is it real or fake?
+
   - lines:
     - oll: Yeah 超えてみせる 新章開幕
+      en: Yeah, I’ll break through it’s a brand new chapter
     - oll: ど真ん中で掻き鳴らしてく
+      en: laying loud, dead center stage
     - oll: Hey 私のストーリー
+      en: Hey, this is my story
     - oll: 60秒でショートさせるわ
+      en: I’ll make it viral in 60 seconds
     - oll: Welcome to my world
+
   - lines:
     - oll: Yeah 超えてみせる 一切合切
+      en: Yeah, I’ll show you all of me everything
     - oll: あげてもいいから
+      en: I don’t mind giving it away
     - oll: Yeah ここで止まる気 さらさらないわ
+      en: Yeah, no intention of stopping now
     - oll: ここから始まる
+      en: It all begins here
     - oll: Never stop. The story is starting.
     - oll: さあ ここから本当のshow time
+      en: Now it’s the real show time
   - lines:
     - oll: We can make you free so come with us now.
     - oll: We can make you free so come with us now
@@ -127,6 +181,10 @@ related:
   id: mP_33Vu4TL4
   label: Music Video Teaser
   published-date: 2025-06-18
+- type: youtubevideo
+  id: qGEzCjYvWZw
+  label: Official Music Video
+  published-date: 2025-06-20
 # YouTube shorts
 - type: youtubeshort
   id: tabt75E-6tY
@@ -147,6 +205,12 @@ related:
   id: 86Esxc1BKDM
   label: MV Teaser
   published-date: 2025-06-18
+- type: youtubeshort
+  id: 1yFMVe5tCiA
+  label: Music Video
+  published-date: 2025-06-20
+
+  
 # X posts
 - type: postx
   id: 1929512124243411173

@@ -2,6 +2,7 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.html.GenImageCompiledData
 import org.skyluc.fan_resources.html.Url
 import org.skyluc.fan_resources.html.component.LargeImageCover
 import org.skyluc.fan_resources.html.component.SectionHeader
@@ -13,7 +14,6 @@ import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
-import org.skyluc.fan_resources.html.GenImageCompiledData
 
 class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(description, site) {
 
@@ -23,7 +23,61 @@ class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(de
 
     val image1Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250520.png")
     val image2Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250606.png")
+    val image3Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250620.png")
     Seq(
+      SectionHeader.generate("Update 2025-06-20"),
+      div()
+        .withClass(CLASS_UPDATES_SECTION)
+        .appendElements(
+          div()
+            .withClass(CLASS_UPDATE_IMAGE)
+            .appendElements(
+              LargeImageCover.generate(
+                GenImageCompiledData(Url(image3Path), "update 2025-06-20")
+              )
+            ),
+          div()
+            .withClass(CLASS_UPDATE_CONTENT)
+            .appendElements(
+              p().appendElements(
+                text("More "),
+                a().withHref("/song/ooak.html").appendElements(text("OOKA")),
+                text(
+                  " content is available. The official music video, english translation of the lyrics, playthrough sections by Natsu."
+                ),
+              ),
+              p().appendElements(
+                text("3 new shows have been announced: at the  "),
+                a()
+                  .withHref("/show/2025/sendaimusicfuse.html")
+                  .appendElements(text("Sendai music Fuse")),
+                text(" festival, at Hamane Haruki's "),
+                a()
+                  .withHref("/show/2025/internetbabies.html")
+                  .appendElements(text("「INTERNET BaBIES -Face to Faith-」")),
+                text(" show, and at the "),
+                a()
+                  .withHref("/show/2025/thetheoryofscience.html")
+                  .appendElements(text("The Theory of SCIENCE")),
+                text(" festival."),
+              ),
+              p().appendElements(
+                text("Radio appearances of Hika and Natsu on "),
+                a()
+                  .withHref("/media/2025/yfmgodblesssaturday.html")
+                  .appendElements(text("Fm yokohama")),
+                text(
+                  " and "
+                ),
+                a()
+                  .withHref("/media/2025/eradiocatch.html")
+                  .appendElements(text("e-radio")),
+                text(
+                  " were announced."
+                ),
+              ),
+            ),
+        ),
       SectionHeader.generate("Update 2025-06-06"),
       div()
         .withClass(CLASS_UPDATES_SECTION)
@@ -34,32 +88,32 @@ class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(de
               LargeImageCover.generate(
                 GenImageCompiledData(Url(image2Path), "update 2025-06-06")
               )
-            )
-        ),
-      div()
-        .withClass(CLASS_UPDATE_CONTENT)
-        .appendElements(
-          p().appendElements(
-            text("New single released: "),
-            a().withHref("/song/ooak.html").appendElements(text("OOKA")),
-            text(". Lyrics are available, as well as previously shared videos."),
-          ),
-          p().appendElements(
-            text("NEK! performed with komsume in a "),
-            a()
-              .withHref("/show/2025/nekikomsumetokyo.html")
-              .appendElements(text("TWO-MAN SHOW")),
-            text(", a few pictures and videos are available."),
-          ),
-          p().appendElements(
-            text("Kanade published a "),
-            a()
-              .withHref("/song/zerosum.html")
-              .appendElements(text("playthrough video for zero-sum")),
-            text(
-              ". She also goes through the parts of the song, and gives pointers for people who want to play it."
             ),
-          ),
+          div()
+            .withClass(CLASS_UPDATE_CONTENT)
+            .appendElements(
+              p().appendElements(
+                text("New single released: "),
+                a().withHref("/song/ooak.html").appendElements(text("OOKA")),
+                text(". Lyrics are available, as well as previously shared videos."),
+              ),
+              p().appendElements(
+                text("NEK! performed with komsume in a "),
+                a()
+                  .withHref("/show/2025/nekikomsumetokyo.html")
+                  .appendElements(text("TWO-MAN SHOW")),
+                text(", a few pictures and videos are available."),
+              ),
+              p().appendElements(
+                text("Kanade published a "),
+                a()
+                  .withHref("/song/zerosum.html")
+                  .appendElements(text("playthrough video for zero-sum")),
+                text(
+                  ". She also goes through the parts of the song, and gives pointers for people who want to play it."
+                ),
+              ),
+            ),
         ),
       SectionHeader.generate("Update 2025-05-20"),
       div()

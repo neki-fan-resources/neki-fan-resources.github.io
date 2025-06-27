@@ -304,6 +304,8 @@
     - postxvideo:
         postid: 1919328460532494808
         videoid: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
+    short:
+    - youtubeshort: 6waPnn_Bxis
     image:
     - postximage:
         postid: 1918967431936053416
@@ -393,6 +395,11 @@
       label: the band
     - id: GqGKtFwa0AACJVD
       label: from the back of the crowd
+  - type: youtubeshort
+    id: 6waPnn_Bxis
+    label: Backstage
+    info: huddle, stage entry
+    published-date: 2025-05-05
   - type: postx
     id: 1919328460532494808
     account: natsu08_guitar

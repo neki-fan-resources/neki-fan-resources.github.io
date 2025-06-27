@@ -78,6 +78,15 @@ related:
     - show:
         year: 2025
         id: kakumeilogic2025
+  - type: youtubeshort
+    id: sVdFEGNzZmM
+    label: Promo
+    info: studio audio
+    published-date: 2025-05-28
+    linked-to:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
 
 lyrics:
   status:

@@ -29,6 +29,7 @@ multimedia:
   - youtubeshort: CBPR9cp2urk
   - youtubeshort: u9-z9XkhpVw
   short:
+  - youtubeshort: Ejlq5EiRWO4
   - youtubeshort: rnvVMueRDCk
   - youtubeshort: MMCK7gW62zU
   additional:
@@ -88,6 +89,11 @@ related:
   info: reacting to the music video
   published-date: 2025-03-29
 - type: youtubeshort
+  id: 2S64RS8McUU
+  label: Promo
+  info: rehearsal room, studio audio
+  published-date: 2025-04-26
+- type: youtubeshort
   id: rnvVMueRDCk
   label: Music Video
   info: behind the scenes
@@ -97,6 +103,11 @@ related:
   label: Music Video
   info: off-shot, Hika, Natsu
   published-date: 2025-05-26
+- type: youtubeshort
+  id: Ejlq5EiRWO4
+  label: Music Video
+  info: behind the scenes
+  published-date: 2025-05-01
 # post YouTube
 - type: postyoutube
   id: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT

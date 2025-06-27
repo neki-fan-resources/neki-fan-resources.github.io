@@ -16,7 +16,7 @@ object UrlResolver extends fr.UrlResolver with Processor[Url] {
 
   override def processBaseMarker(baseMarker: BaseMarker): Url = ???
 
-  override def processEvent(event: Event): Url = ???
+  override def processEvent(event: Event): Url = generateBasic(event)
 
   override def processEventMarker(eventMarker: EventMarker): Url = ???
 

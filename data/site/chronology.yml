@@ -5,9 +5,7 @@ start-date: 2024-01-01
 end-date: 2025-12-15
 
 markers:
-- marker: Formation of NEK!
-  date: 2024-02-10
-  image: logo/neki.png
+- event: formationneki
 - show:
     year: 2024
     id: guvol349

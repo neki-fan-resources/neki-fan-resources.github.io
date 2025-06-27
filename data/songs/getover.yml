@@ -181,6 +181,23 @@ related:
   published-date: 2025-05-25
 # X post
 - type: postx
+  id: 1756877181698154611
+  account: nekiband_jp
+  published-date: 2024-02-12
+  label: working on the song
+  text: |
+    オリジナル曲進んでます
+    3人バージョンです！
+    https://vt.tiktok.com/ZSFYf2t2L/
+    #NEKI
+  video:
+  - id: 01
+    cover: 1756877146625376256/pu/img/3LM-WUtzAWegXPis.jpg
+    label: Early rehearsal
+    info: Hika, Kanade, Cocoro
+    linked-to:
+    - song: getover
+- type: postx
   id: 1918636722516373576
   account: nekiband_jp
   published-date: 2025-05-03

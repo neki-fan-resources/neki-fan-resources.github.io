@@ -145,6 +145,25 @@ related:
   label: Music Video
   info: behind the scenes, discovering the set
   published-date: 2025-05-22
+# postx
+- type: postx
+  id: 1757661923750052131
+  account: nekiband_jp
+  published-date: 2024-02-14
+  label: Early rehearsal
+  info: MAZE
+  text: |
+    また別の曲のイントロが出来ました！
+    どうかなー？？？？
+    https://vt.tiktok.com/ZSF2ygUDH/
+    #NEKI #ガールズバンド
+  video:
+  - id: 01
+    cover: 1757661877314912256/pu/img/IhTBfhIACRlH3lDE.jpg
+    label: Early rehearsal
+    info: Hika, Kanade, Cocoro
+    linked-to:
+    - song: maze
 - type: postx
   id: 1925772297672991117
   account: coco_102

@@ -518,6 +518,24 @@
         id: yfmgodblesssaturday
       id: cover
 
+  multimedia:
+    image:
+    - postximage:
+        postid: 1936310916737626390
+        imageid: Gt8oYqAbwAML8pq
+    - postximage:
+        postid: 1936301742964290030
+        imageid: Gt8gHF3XgAAazpl
+    - postximage:
+        postid: 1936243875687137663
+        imageid: Gt7rilaXoAAxHRl
+    - postximage:
+        postid: 1936314534777831611
+        imageid: Gt8rzbGWgAAikiR
+    - postximage:
+        postid: 1936315279094825472
+        imageid: Gt8settbwAAxGNd
+  
   related:
   - type: localimage
     media:
@@ -530,6 +548,121 @@
     source:
       description: God Bless Saturday website
       url: https://www.fmyokohama.jp/gbs/
+  - type: postx
+    id: 1936243875687137663
+    account: gbs847
+    published-date: 2025-05-21
+    label: _
+    text: |
+      この後13時からの #ゴブサタ は4人組ガールズバンド #NEK! からHikaさんとNatsuさんがゲストに登場！✨
+      リリース中のニューシングル「OOAK」についてお話を聞いていきます！
+      📩gbs@fmyokohama.jp
+
+      #FMヨコハマ
+    image:
+    - id: Gt7rilaXoAAxHRl
+      label: Welcome sign
+  - type: postx
+    id: 1936301742964290030
+    account: gbs847
+    published-date: 2025-05-21
+    label: At the station
+    text: |
+      この後、ゲストに4人組ガールズバンド・NEK!からHikaさんとNatsuさんが登場です✨
+      📻https://radiko.jp/share/?sid=YFM&t=20250621145127
+
+      リリース中のニューシングル「OOAK」についてお話を伺っていきます！！
+
+      #FMヨコハマ #ゴブサタ
+    image:
+    - id: Gt8gHF3XgAAazpl
+      label: At the station
+      info: Hika, Natsu
+  - type: postx
+    id: 1936310916737626390
+    account: gbs847
+    published-date: 2025-05-21
+    label: At the station
+    text: |
+      今日の #ゴブサタ は4人組ガールズバンド・NEK!から、HikaさんとNatsuさんにお越しいただきました✨
+      「OOAK」は現在好評リリース中です！
+
+      その他の詳しい情報はNEK!の各種SNSをチェックしてみてください👀
+      https://instagram.com/nekiband_jp/
+
+      #FMヨコハマ
+    image:
+    - id: Gt8oYqAbwAML8pq
+      label: In the studio
+      info: the hosts, Hika, Natsu
+  - type: postx
+    id: 1936313898661298282
+    account: nekiband_jp
+    published-date: 2025-05-21
+    label: At the station
+    text: |
+      Fm yokohama「God Bless Saturday」
+
+      お聴きいただきありがとうございました📻
+
+      新曲「OOAK」MV公開中▼
+      https://youtu.be/qGEzCjYvWZw
+
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+
+      チケット先着先行受付中▼
+      https://l-tike.com/nekiband/
+
+      #NEKI #FMヨコハマ #ゴブサタ
+    image:
+    - id: Gt8rOAnXoAADXyX
+      label: At the station
+      info: Hika, Natsu
+      linked-to:
+      - media:
+          year: 2025
+          id: yfmgodblesssaturday
+  - type: postx
+    id: 1936314534777831611
+    account: 46_hikaa
+    published-date: 2025-05-21
+    label: Thanks you for listening
+    text: |
+      すごい楽しかったぁー！！
+      お聴き頂きありがとうございました！！
+    image:
+    - id: Gt8rzbGWgAAikiR
+      label: Thanks you for listening
+      info: Hika, Natsu
+      linked-to:
+      - media:
+          year: 2025
+          id: yfmgodblesssaturday
+    linked-to:
+    - postx: 1936313898661298282
+  - type: postx
+    id: 1936315279094825472
+    account: natsu08_guitar
+    published-date: 2025-05-21
+    label: Thanks you for listening
+    text: |
+      Fm yokohama「God Bless Saturday」
+
+      お聴きいただきありがとうございましたー！！！
+      ずっっと楽しかった😂🌟🌟🌟
+    image:
+    - id: Gt8settbwAAxGNd
+      label: Thanks you for listening
+      info: Hika, Natsu
+      linked-to:
+      - media:
+          year: 2025
+          id: yfmgodblesssaturday
+    linked-to:
+    - postx: 1936313898661298282
+      
 
 - type: mediaaudio
   year: 2025
@@ -565,3 +698,17 @@
     source:
       description: Radiko webpage
       url: https://radiko.jp/#!/ts/E-RADIO/20250625140000
+  - type: postx
+    id: 1937893514588938621
+    account: 46_hikaa
+    published-date: 2025-06-25
+    label: Remote appearance
+    text: |
+      初のリモート出演楽しかった‼️
+    image:
+    - id: GuTH4QhbcAAsg-3
+      label: Remote appearance
+      linked-to: 
+      - media:
+          year: 2025
+          id: eradiocatch

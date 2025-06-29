@@ -30,6 +30,9 @@ multimedia:
   - youtubevideo: 7Neu9jJk-04
   live:
   - postxvideo:
+      postid: 1938863381467013260
+      videoid: 01
+  - postxvideo:
       postid: 1929389485147721772
       videoid: 01
   - youtubevideo: IeBks9yGO4A
@@ -179,6 +182,11 @@ related:
   label: Promo
   info: rehearsal room, studio audio, Kanade
   published-date: 2025-05-25
+- type: youtubeshort
+  id: 2ccoTpKr1zw
+  label: Promo
+  info: rehearsal room, studio audio
+  published-date: 2025-06-25
 # X post
 - type: postx
   id: 1756877181698154611
@@ -221,6 +229,22 @@ related:
   image:
   - id: GqBc0HhbYAA2VDy
     label: Natsu
+- type: postx
+  id: 1938475589318644015
+  account: 46_hikaa
+  published-date: 2025-06-27
+  label: testing gopro on guitar
+  text: |
+    はじめてGoPro付けたよ！
+
+    ライブでもやりた〜い🌟
+
+    #ネキ界隈  #GetOver
+  video:
+  - id: 01
+    cover: 1938475521194778624/img/vCtxzub80oRpOWEL.jpg
+    label: test gopro
+    info: rehearsal, Hika
 # post YouTube
 - type: postyoutube
   id: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X

@@ -869,7 +869,36 @@
     postximage:
       postid: 1933086980537225689
       imageid: GtOzLBnbYAA_1f5
+  multimedia:
+    video:
+    - postxvideo:
+        postid: 1938863381467013260
+        videoid: 01
+    image:
+    - postximage:
+        postid: 1938880954849992881
+        imageid: GuhJ7uKWcAA2JH3
+    - postximage:
+        postid: 1938868329671991307
+        imageid: Gug-aW9WkAA-x6F
+    - postximage:
+        postid: 1938868329671991307
+        imageid: Gug-aXFaoAMN_q3
+    - postximage:
+        postid: 1938868329671991307
+        imageid: Gug-aXNXYAALVaV
+    - postximage:
+        postid: 1938868329671991307
+        imageid: Gug-aW7XUAAt5w3
+    - postximage:
+        postid: 1938880954849992881
+        imageid: GuhJ7t9XEAAlg5u
   related:
+  - type: youtubeshort
+    id: d0xe6MdU3yI
+    label: Entry
+    info: huddle and entry
+    published-date: 2025-06-28
   - type: postx
     id: 1933086980537225689
     account: nekiband_jp
@@ -909,6 +938,128 @@
       - show:
           year: 2025
           id: sendaimusicfuse
+  - type: postx
+    id: 1938118631382258146
+    account: natsu08_guitar
+    published-date: 2025-06-26
+    label: in 2 days
+    text: |
+      明後日はついに初仙台❗️❗️❗️🥩
+
+      💥「SENDAI MUSIC FUSE2025」 💥
+      NEK!は仙台darwinにて、14:00~！
+
+      楽しむ準備できてますか！！
+      最高の思い出つくろーね〜！🫶🏻🫶🏻🫶🏻
+
+      #ネキ界隈 #拡散中 #NEKI
+    # TODO: live video, Dreams!!!. Where from ?
+  - type: postx
+    id: 1938863381467013260
+    account: coco_102
+    published-date: 2025-06-28
+    label: Thank you
+    info: Get Over
+    text: |
+      取り急ぎ初仙台ありがとうございましたー！！
+      アツアツな会場の雰囲気をちょこっとお届け！！
+
+      また来たいなー！楽しかった😌🫶🏻
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 01
+      cover: 1938863218115387392/img/2G4E7ni5SM3ACuk_.jpg
+      label: Live
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+      - song: getover
+  - type: postx
+    id: 1938868329671991307
+    account: sendaimusicfuse
+    published-date: 2025-06-28
+    label: Photo report
+    text: |
+      SMF2025  Photo Report！！！ 
+
+      -darwin-
+      NEK!
+
+      #darwin
+      #NEK!
+      #SMF
+      #SMF2025
+      #FUSE
+
+      Photo:村長（高橋卓也）
+      @son_tkhs
+    image:
+    - id: Gug-aW9WkAA-x6F
+      label: On stage
+      info: Kanade
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+    - id: Gug-aXFaoAMN_q3
+      label: On stage
+      info: Cocoro
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+    - id: Gug-aXNXYAALVaV
+      label: On stage
+      info: Natsu
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+    - id: Gug-aW7XUAAt5w3
+      label: On stage
+      info: Hika
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+  - type: postx
+    id: 1938880954849992881
+    account: nekiband_jp
+    published-date: 2025-06-28
+    label: Thank you
+    text: |
+      SENDAI MUSIC FUSE 2025
+      @ 仙台darwin
+
+      初仙台！
+      ありがとうございました❣️
+
+      本日撮影いただいた新曲「OOAK」やライブの感想は #NEKI をつけてポストお願いします🫶
+
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+
+      🎟️https://l-tike.com/nekiband/
+
+      #NEKI #SMF #SMF2025 #FUSE
+    image:
+    - id: GuhJ7uKWcAA2JH3
+      label: On stage
+      info: from the crowd
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+    - id: GuhJ7t9XEAAlg5u
+      label: The band
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+
 
 - type: show
   year: 2025

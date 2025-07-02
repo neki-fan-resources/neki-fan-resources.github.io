@@ -871,6 +871,11 @@
       imageid: GtOzLBnbYAA_1f5
   multimedia:
     video:
+    - youtubeshort: Yhu9_tyO1UY
+    - youtubeshort: FRbyFkaf9-A
+    - postxvideo:
+        postid: 1939993599997042981
+        videoid: 01
     - postxvideo:
         postid: 1938863381467013260
         videoid: 01
@@ -900,6 +905,25 @@
     label: Entry
     info: huddle and entry
     published-date: 2025-06-28
+  - type: youtubeshort
+    id: FRbyFkaf9-A
+    label: Live
+    published-date: 2025-07-01
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: endlessgame
+  - type: youtubeshort
+    id: Yhu9_tyO1UY
+    label: Live
+    info: Natsu
+    published-date: 2025-06-30
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: maze
   - type: postx
     id: 1933086980537225689
     account: nekiband_jp
@@ -1060,6 +1084,32 @@
       - show:
           year: 2025
           id: sendaimusicfuse
+  - type: postx
+    id: 1939993599997042981
+    account: natsu08_guitar
+    published-date: 2025-07-01
+    label: Reigen girl
+    text: |
+      仙台での
+
+      👧🏻令現少女👧🏻
+
+      あれじゃないこれじゃないって画角調整🎥
+      みんなのおかげで撮れた画角🎸🎸🎸
+      ありがとう〜！！
+      楽しかったー🫶🏻🫶🏻🫶🏻
+
+      #ネキ界隈 #拡散中 #NEKI #令現少女
+    video:
+    - id: 01
+      cover: 1939993483634262016/img/9R7TYqmQt_RNf9ye.jpg
+      label: Live
+      info: intro
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+      - song: reigengirl
 
 
 - type: show

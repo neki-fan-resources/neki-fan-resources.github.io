@@ -20,6 +20,12 @@ tour: tricktakingtour
 
 multimedia:
   short:
+  - postxvideo: 
+      postid: 1907340052666945675
+      videoid: 01
+  - postxvideo:
+      postid: 1901916392653537292
+      videoid: 01
   - youtubeshort: FEwx6aYh3fU
   - postxvideo:
       postid: 1929106683978224117
@@ -150,6 +156,49 @@ related:
   published-date: 2025-04-06
   relalted-to:
   - song: getover
+- type: postx
+  id: 1901916392653537292
+  account: natsu08_guitar
+  published-date: 2025-03-18
+  label: Reigen girl intro
+  text: |
+    熱が冷めないうちに、、とNEK!のライブの雰囲気をもっとわかってもらいたい!ということで、O-WESTの「令現少女」のイントロシーン❤️‍🔥
+    ここ、まじで最高すぎる！🫶🏻
+    みんなの掛け声でテンションぶち上がる！
+    これからはもっと定点カメラの映像も小出しにしていこうかな💭💭
+
+    #ネキ界隈 #拡散中 #NEKI
+  video:
+  - id: 01
+    cover: 1901916308243185664/img/UBEcndoZ5OxZYNht.jpg
+    label: Live
+    info: intro
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: reigengirl
+- type: postx
+  id: 1907340052666945675
+  account: coco_102
+  published-date: 2025-04-02
+  label: Cocoro-cam
+  text: |
+    令現少女ラストスパート🫶🏻
+
+    この曲何気にキックがずっと忙しいのよ。
+
+    #NEKI #拡散中 #ネキ界隈
+  video:
+  - id: 01
+    cover: 1907339920764796928/img/w_YX-j6ULyEvSQoU.jpg
+    label: Live
+    info: Cocoro
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: reigengirl
 - type: postx
   id: 1917865243080024340
   account: coco_102

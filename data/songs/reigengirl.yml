@@ -33,10 +33,19 @@ multimedia:
       videoid: d111e062-3a51-4d15-92d8-43dccd8534ba
   live:
   - postxvideo:
+      postid: 1901916392653537292
+      videoid: 01
+  - postxvideo: 
+      postid: 1907340052666945675
+      videoid: 01
+  - postxvideo:
       postid: 1939993599997042981
       videoid: 01
   - youtubeshort: YKmsB94XMb4
   - youtubeshort: MpR-vcWQAuQ
+  - postxvideo:
+      postid: 1848204505093144935
+      videoid: 01
   - youtubeshort: 6W-P3YBkybQ
   - youtubeshort: bBhvxwNWh3A
   - youtubeshort: gVUFjTcD3B4
@@ -203,18 +212,28 @@ related:
   - id: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
     label: cover
     localCopy: true
+    linked-to:
+    - song: reigengirl
   - id: SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
     label: Hika
     info: Hika
+    linked-to:
+    - song: reigengirl
   - id: UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
     label: Natsu
     info: Natsu
+    linked-to:
+    - song: reigengirl
   - id: RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
     label: Kanade
     info: Kanade
+    linked-to:
+    - song: reigengirl
   - id: DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
     label: Cocoro
     info: Cocoro
+    linked-to:
+    - song: reigengirl
 - type: youtubeshort
   id: bbcvEeB-i9Q
   label: Promo
@@ -237,6 +256,27 @@ related:
     info: Natsu
     linked-to:
     - song: reigengirl
+- type: postx
+  id: 1848204505093144935
+  account: coco_102
+  published-date: 2024-10-21
+  label: Cocoro-cam
+  text: |
+    令現少女💫
+
+    ここのパートラスサビに向けてみんなの心がひとつになってる感じがしてすごく好き。
+
+    (音小さいかも！ごめん！)
+  video:
+  - id: 01
+    cover: 1848203800752078848/pu/img/adebpog5s1TgG_9V.jpg
+    label: Live
+    info: Cocoro
+    linked-to:
+    - song: reigengirl
+    # TODO: find out which show it is from
+
+  
 
 lyrics:
   status:
@@ -318,6 +358,7 @@ lyrics:
       - oll: 淡い期待からの旅立ちに
         en: From Faint Expectations to Departure
       - oll: いい加減射してヒカリ
+        en: I want the light to shine already
     - lines:
       - oll: 五臓六腑に染み渡ってく 悲しみを誰か壊して
         en: It seeps into all of my internal organs, someone break that sadness

@@ -47,6 +47,13 @@ multimedia:
   - youtubeshort: XzfOs6kjtUs
   - youtubeshort: qR2yF3Jb4r4
   short:
+  - postxvideo:
+      postid: 1942870532166443144
+      videoid: 01
+  - postxvideo:
+      postid: 1942536099408060918
+      videoid: 01
+  - youtubeshort: JL79sxFFbAs
   - youtubeshort: fZaCODUXQ6k
   - youtubeshort: YyVP2j7Yw3c
   - youtubeshort: -WsoxfXBQgs
@@ -146,6 +153,11 @@ related:
   label: Music Video
   info: behind the scenes, discovering the set
   published-date: 2025-05-22
+- type: youtubeshort
+  id: JL79sxFFbAs
+  label: Music Video
+  info: behind the scenes, taking pictures of Hika
+  published-date: 2025-07-10
 # postx
 - type: postx
   id: 1757661923750052131
@@ -236,6 +248,42 @@ related:
   label: Music Video
   info: behind the scenes, setting up the drums, Cocoro
   published-date: 2025-06-17
+- type: postx
+  id: 1942536099408060918
+  account: natsu08_guitar
+  published-date: 2025-07-08
+  label: Rehearsal day
+  text: |
+    本日リハでしたん❗️❗️
+    たくさん話し合いしました❗️❗️❗️
+    そーゆう日も大事よねん✌︎
+
+    7/18が楽しみだーーーーー❤️‍🔥❤️‍🔥❤️‍🔥
+
+    #ネキ界隈 #拡散中
+  video:
+  - id: 01
+    cover: 1942535979392548864/img/oWINXZZka6Yxttd8.jpg
+    label: Rehearsal
+    info: Natsu
+    linked-to:
+    - song: maze
+- type: postx
+  id: 1942870532166443144
+  account: cure_bass_baka
+  published-date: 2025-07-09
+  label: Rehearsal
+  text: |
+    『MAZE／NEK!』
+    スタジオで撮ったのそのままアップ
+    #NEKI  #拡散中  #ネキ界隈
+  video:
+  - id: 01
+    cover: 1942870175277322240/img/mSDgdLuLIiF5v_I5.jpg
+    label: Rehearsal
+    info: Kanade
+    linked-to:
+    - song: maze
 
 lyrics:
   status:

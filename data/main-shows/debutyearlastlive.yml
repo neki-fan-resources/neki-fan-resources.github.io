@@ -15,6 +15,7 @@ cover-image:
 
 multimedia:
   video:
+  - youtubevideo: urGmtrd7zbA
   - youtubevideo: IeBks9yGO4A
   additional:
   - postxvideo:
@@ -43,6 +44,12 @@ related:
   source:
     description: YouTube video
   hidden: true
+- type: youtubevideo
+  id: urGmtrd7zbA
+  label: Official Live Video
+  published-date: 2025-07-12
+  linked-to:
+  - song: fool
 - type: youtubeshort
   id: spUo9sWqs48
   label: Official Live Video
@@ -54,6 +61,12 @@ related:
   label: MC
   info: about the member's goals
   published-date: 2025-05-08
+- type: youtubeshort
+  id: N5KVAUzJZXs
+  label: Live
+  published-date: 2025-07-12
+  linked-to:
+  - song: fool
 - type: postx
   id: 1920434632379580460
   account: nekiband_jp

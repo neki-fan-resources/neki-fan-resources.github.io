@@ -41,6 +41,7 @@ multimedia:
       videoid: 890f9d50-48f5-4914-9d1f-223e9a52a452
   - youtubeshort: jZ2Dn5P3Fac
   short:
+  - youtubeshort: GMLHhcxGZ3U
   - youtubeshort: wsPbR3xISFg
   - youtubeshort: s7rL0X1Zseg
   - youtubeshort: lXdRY7Da8OA
@@ -252,6 +253,11 @@ related:
   label: Music Video
   info: making off
   published-date: 2025-07-02
+- type: youtubeshort
+  id: GMLHhcxGZ3U
+  label: Music Video
+  info: making off
+  published-date: 2025-07-09
 
   
 # X posts

@@ -369,8 +369,18 @@ markers:
     id: 1stzepponeman
 - show:
     year: 2025
+    id: minamiwheel
+  short: true
+- show:
+    year: 2025
     id: thetheoryofscience
   short: true
+- youtubevideo: urGmtrd7zbA
+  cover-image:
+    postximage:
+      postid: 1943641464397062330
+      imageid: GvkzmwJWEAA9mgY
+  parent-key: song
 
 
 

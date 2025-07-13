@@ -22,6 +22,12 @@ multimedia:
   video:
   - youtubevideo: 0YlW7T5fVZ4
   live:
+  - postxvideo:
+      postid: 1943937653193543886
+      videoid: 01
+  - postxvideo:
+      postid: 1941695982032617731
+      videoid: 01
   - youtubevideo: _Oac92XPkyo
   - postxvideo:
       postid: 1920746869560430820

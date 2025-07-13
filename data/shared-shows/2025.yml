@@ -305,6 +305,7 @@
         postid: 1919328460532494808
         videoid: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
     short:
+    - youtubeshort: bFHCOVgFMKg
     - youtubeshort: 6waPnn_Bxis
     image:
     - postximage:
@@ -605,6 +606,11 @@
           year: 2025
           id: kakumeilogic2025
       - song: maze
+  - type: youtubeshort
+    id: bFHCOVgFMKg
+    label: Backstage
+    info: before the entry
+    published-date: 2025-07-06
 
 - type: show
   year: 2025
@@ -839,26 +845,6 @@
 
 - type: show
   year: 2025
-  id: nekikomsumeosaka
-
-  fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
-  shortname: 「NEK!/komsume TWO-MAN SHOW」
-  sublabel: Osaka
-  date: 2025-07-18
-  location: LIVE SQUARE 2nd LINE
-  # event-page: TODO: not yet listed at http://www.arm-live.com/2nd/schedule/schedule_2025_07.html
-  shared: true
-
-  cover-image:
-    localimage:
-      show:
-        year: 2025
-        id: nekikomsumetokyo
-      id: cover
-    fromOtherElement: true
-
-- type: show
-  year: 2025
   id: sendaimusicfuse
   fullname: Sendai music Fuse
   date: 2025-06-28
@@ -871,6 +857,18 @@
       imageid: GtOzLBnbYAA_1f5
   multimedia:
     video:
+    - postxvideo:
+        postid: 1943937653193543886
+        videoid: 01
+    - postxvideo:
+        postid: 1943530078891315228
+        videoid: 01
+    - postxvideo:
+        postid: 1941695982032617731
+        videoid: 01
+    - postxvideo:
+        postid: 1941062054896660964
+        videoid: 01
     - youtubeshort: Yhu9_tyO1UY
     - youtubeshort: FRbyFkaf9-A
     - postxvideo:
@@ -878,6 +876,9 @@
         videoid: 01
     - postxvideo:
         postid: 1938863381467013260
+        videoid: 01
+    - postxvideo:
+        postid: 1941384970066653472
         videoid: 01
     - youtubeshort: d0xe6MdU3yI
     image:
@@ -1110,6 +1111,155 @@
           year: 2025
           id: sendaimusicfuse
       - song: reigengirl
+  - type: postx
+    id: 1941062054896660964
+    account: natsu08_guitar
+    label: Hika having fun during Natsu'solo
+    published-date: 2025-07-04
+    text: |
+      ギソロで、Hikaが覗き込んできた👀
+      可愛いんですこの子🫶🏻
+
+      やっぱGet OverはNEK! にとっての原点！フロアとの一体感も最高🔥
+
+      #ネキ界隈 #拡散中
+    video:
+    - id: 01
+      cover: 1941061974755811330/img/NLb-6ldVo-_O1zee.jpg
+      label: Live
+      info: Natsu solo
+      linked-to:
+      - song: getover
+  - type: youtubeshort
+    id: ecPrF0wxFyU
+    label: Promo
+    info: studio audio
+    published-date: 2025-07-05
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: dreams
+  - type: youtubeshort
+    id: FYIzYR84jas
+    label: Promo
+    info: studio audio
+    published-date: 2025-07-10
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: reigengirl
+  - type: postx
+    id: 1941384970066653472
+    account: 46_hikaa
+    label: Everyone's excitement
+    published-date: 2025-07-05
+    text: |
+      みんなの盛り上がり最高すぎるぅ〜︎👍🏻 ̖́-
+
+      #GetOver  #ネキ界隈
+    video:
+    - id: 01
+      cover: 1941384859848671233/img/tCuNrkDCAUV5O9wb.jpg
+      label: Live
+      info: Hika
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+      - song: getover
+  - type: postx
+    id: 1941695982032617731
+    account: coco_102
+    label: Not in the stage uniform this time
+    published-date: 2025-07-06
+    text: |
+      こないだの仙台は初めてユニフォームじゃない服でステージに上がってみました！いい気分転換になったけど暑すぎた、、
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 01
+      cover: 1941695853950881792/img/AjliwzCakCirv_a1.jpg
+      label: Live
+      info: Cocoro
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+      - song: dreams
+  - type: postx
+    id: 1943530078891315228
+    account: coco_102
+    label: Live in Sendai
+    published-date: 2025-07-11
+    text: |
+      令現少女🪽
+
+      なんかライブの映像前半ほとんどぼやけてた、、泣
+      次の大阪では絶対綺麗に撮ってみせる！！！！
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - id: 01
+      cover: 1943529998046146560/img/hLG0rWujugoBBZzE.jpg
+      label: Live
+      info: Cocoro
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+      - song: reigengirl
+  - type: postx
+    id: 1943937653193543886
+    account: natsu08_guitar
+    label: Live in Sendai
+    published-date: 2025-07-12
+    text: |
+      ここで一人ひとりと目を合わせて
+      みんなの楽しそうな笑顔を見て
+      大きな声で歌ってくれるのを聴くのが好き
+
+      いつもみんなから元気をもらってます🫶🏻
+
+      Zeppでもみんなの最高の笑顔を見るために、そしてみんなにも最高の景色を見せるために全力で駆け抜けていきます！
+
+      #ネキ界隈 #拡散中
+    video:
+    - id: 01
+      cover: 1943937556623855616/img/vB6J779FswTY0X47.jpg
+      label: Live
+      info: Natsu
+      linked-to:
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+      - song: dreams
+
+
+
+
+
+
+- type: show
+  year: 2025
+  id: nekikomsumeosaka
+
+  fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+  shortname: 「NEK!/komsume TWO-MAN SHOW」
+  sublabel: Osaka
+  date: 2025-07-18
+  location: LIVE SQUARE 2nd LINE
+  # event-page: TODO: not yet listed at http://www.arm-live.com/2nd/schedule/schedule_2025_07.html
+  shared: true
+
+  cover-image:
+    localimage:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+      id: cover
+    fromOtherElement: true
 
 
 - type: show

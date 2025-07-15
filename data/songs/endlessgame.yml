@@ -32,6 +32,9 @@ multimedia:
   - youtubeshort: zWS1TQ1kP6A
   short:
   - postxvideo:
+      postid: 1944348020235292759
+      videoid: 01
+  - postxvideo:
       postid: 1917072614553751559
       videoid: bc491773-b07c-434d-aadd-06c5ae8679fa
 
@@ -88,6 +91,22 @@ related:
     - show:
         year: 2025
         id: kakumeilogic2025
+  - type: postx
+    id: 1944348020235292759
+    account: 46_hikaa
+    label: On a black Gibson Les Paul
+    published-date: 2025-07-13
+    text: |
+      今回は黒のGibsonレスポールで弾いてみました‼️
+
+      #ネキ界隈  #ギター
+    video:
+    - id: 01
+      cover: 1944347924609253376/img/M9GQjNSp-cODc8YR.jpg
+      label: On a black Gibson Les Paul
+      linked-to:
+      - song: endlessgame
+
 
 lyrics:
   status:

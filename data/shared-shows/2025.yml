@@ -1261,6 +1261,35 @@
       id: cover
     fromOtherElement: true
 
+  related:
+  - type: postx
+    id: 1944995676963922035
+    account: nekiband_jp
+    label: in 3 days
+    published-date: 2025-07-15
+    text: |
+      🔥今週末🔥
+
+      7/18(金)
+      「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+      @ 大阪・LIVE SQUARE 2nd LINE
+
+      開催まであと3日💥
+      ぜひお越しください！
+
+      🔗 https://ticket.rakuten.co.jp/music/jpop/RTG7551/
+
+      #NEKI
+    image:
+    - id: Gv4DQX6a8AAPdNi
+      label: Poster
+      info: sold out Tokyo
+      linked-to:
+      - show:
+          year: 2025
+          id: nekikomsumeosaka
+
+
 
 - type: show
   year: 2025

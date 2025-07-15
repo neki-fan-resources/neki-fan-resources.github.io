@@ -356,6 +356,18 @@ markers:
     year: 2025
     id: sendaimusicfuse
   short: true
+- media:
+    year: 2025
+    id: radiokansai
+  up: 18
+- media:
+    year: 2025
+    id: kissfmkobe
+  up: 12
+- media:
+    year: 2025
+    id: fmosaka
+  up: 6
 - show:
     year: 2025
     id: nekikomsumeosaka

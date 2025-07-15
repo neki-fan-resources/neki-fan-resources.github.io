@@ -30,15 +30,17 @@ object TitleAndDescription {
       shortName: Option[String],
       altName: Option[String],
   ): String = {
-    val chosen = baseOptions(designation, designationSuffix, fullname, fullnameEn, shortName)
-      .filter(_.length() < TITLE_LENGTH_MAX)
-      .sortBy(_.length())
-      .last
+    val allOptions = baseOptions(designation, designationSuffix, fullname, fullnameEn, shortName).sortBy(_.length())
+    val chosen =
+      allOptions
+        .filter(_.length() < TITLE_LENGTH_MAX)
+        .lastOption
+        .getOrElse(allOptions.head)
 
     val chosenLength = chosen.length()
     if (chosenLength > TITLE_LENGTH_MAX) {
       println(s"'$chosen' is too long for a title")
-      chosen.takeRight(TITLE_LENGTH_MAX)
+      chosen.take(TITLE_LENGTH_MAX)
     } else if (chosenLength < TITLE_LENGHT_MAX_12) {
       chosen + TITLE_SUFFIX_12
     } else if (chosenLength < TITLE_LENGTH_MAX_1) {

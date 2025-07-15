@@ -1,0 +1,37 @@
+- type: mediaaudio
+  year: 2025
+  id: fmosaka
+
+  designation: radio show
+  radio: FM大阪 (FM Osaka)
+  show: SMASH(ING) FRIDAY
+  host: 桜井雅斗 (Masato Sakurai)
+  member:
+    - Hika
+    - Cocoro
+  webpage: https://www.fmosaka.net/_sites/16783665
+  program: https://radiko.jp/#!/ts/FMO/20250718150000
+
+  published-date: 2025-07-18
+
+  description:
+  - Hika and Cocoro are guest of the show 'Viva la radio' on Kiss FM.
+
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: fmosaka
+      id: cover
+
+- type: localimage
+  media:
+    year: 2025
+    id: fmosaka
+  id: cover
+  filename: cover.png
+  label: cover
+  published-date: 2025-01-01
+  source:
+    description: RADICO page
+    url: https://radiko.jp/r_seasons/10022579

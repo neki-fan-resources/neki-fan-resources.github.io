@@ -1,0 +1,38 @@
+- type: mediaaudio
+  year: 2025
+  id: radiokansai
+
+  designation: radio show
+  radio: ラジオ出演 (radio Kansai)
+  show: 歌声は風にのって～ブランチ～ (Singing Voice on the Wind)
+  # TODO: support shortname for show ('~brunch~' was removed)
+  host: 芦田純子 (Junko Ashida)
+  member:
+    - Natsu
+    - Kanade
+  webpage: https://jocr.jp/programsite/utakaze/
+  program: https://radiko.jp/#!/ts/CRK/20250718100000
+
+  published-date: 2025-07-18
+
+  description:
+  - Natsu and Kanade are guest of the show 'Singing Voice on the Wind ~Brunch~' on radio Kansai.
+
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: radiokansai
+      id: cover
+
+- type: localimage
+  media:
+    year: 2025
+    id: radiokansai
+  id: cover
+  filename: cover.png
+  label: cover
+  published-date: 2025-01-01
+  source:
+    description: RADICO page
+    url: https://radiko.jp/#!/ts/CRK/20250718100000

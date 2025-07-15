@@ -1,19 +1,21 @@
 type: site
 
 news:
-- title: great show !!
+- title: show this Friday in Osaka
   content:
-  - Great NEK! performance at the 革命ロジック2025 (Kakumei Logic 2025) festival.
-  - Some videos and images are available.
-  url: /show/2025/kakumeilogic2025.html
-- title: next show
+  - TWO-MAN SHOW with komsume, at LIVE SQUARE 2nd LINE, in Osaka.
+  - Some tickets still available.
+  url: /show/2025/nekikomsumeosaka.html
+- title: 3 live Radio appearance
   content:
-  - NEK! next show is the NEK!/komsume TWO-MAN SHOW, at the 下北沢 Shelter, Tokyo, on June 2nd.
-  url: /show/2025/nekikomsumetokyo.html
+  - While they are in Osaka,
+  - Natsu and Kanade will appear on 2 radio shows in Kobe.
+  - Hika and Cocoro will appear on a radio show in Osaka.
+  url: /media.html
 - title: NEK! 1ST ZEPP ONE MAN
   content:
   - NEK! will do their first Zepp show, on August 30th, at Zepp Shinjuku in Tokyo.
-  - Ticket lotery is open !!
+  - GA tickets are available !!
   url: /show/2025/1stzepponeman.html
 
 band:

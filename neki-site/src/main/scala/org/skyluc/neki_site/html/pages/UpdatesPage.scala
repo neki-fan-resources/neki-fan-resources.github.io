@@ -24,7 +24,59 @@ class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(de
     val image1Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250520.png")
     val image2Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250606.png")
     val image3Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250620.png")
+    val image4Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250715.png")
     Seq(
+      SectionHeader.generate("Update 2025-07-15"),
+      div()
+        .withClass(CLASS_UPDATES_SECTION)
+        .appendElements(
+          div()
+            .withClass(CLASS_UPDATE_IMAGE)
+            .appendElements(
+              LargeImageCover.generate(
+                GenImageCompiledData(Url(image4Path), "update 2025-07-15")
+              )
+            ),
+          div()
+            .withClass(CLASS_UPDATE_CONTENT)
+            .appendElements(
+              p().appendElements(
+                text("Live Official Video for "),
+                a().withHref("/song/fool.html").appendElements(text("Fool")),
+                text(
+                  " released."
+                ),
+              ),
+              p().appendElements(
+                text("On Friday July 18th, 3 radio appearances on "),
+                a()
+                  .withHref("/media/2025/radiokansai.html")
+                  .appendElements(text("ラジオ出演 (radio Kansai)")),
+                text(", "),
+                a()
+                  .withHref("/media/2025/kissfmkobe.html")
+                  .appendElements(text("Kiss FM")),
+                text(", and "),
+                a()
+                  .withHref("/media/2025/fmosaka.html")
+                  .appendElements(text("FM Osaka")),
+                text(", in Kobe and Osaka. Then the "),
+                a()
+                  .withHref("/show/2025/nekikomsumeosaka.html")
+                  .appendElements(text("TWO-MAN SHOW with komsume")),
+                text(", at 	LIVE SQUARE 2nd LINE."),
+              ),
+              p().appendElements(
+                text("And NEK! will be performing this year again at "),
+                a()
+                  .withHref("/show/2025/minamiwheel.html")
+                  .appendElements(text("MINAMI WHEEL")),
+                text(
+                  "."
+                ),
+              ),
+            ),
+        ),
       SectionHeader.generate("Update 2025-06-20"),
       div()
         .withClass(CLASS_UPDATES_SECTION)
@@ -164,7 +216,7 @@ object UpdatesPage {
   val CLASS_UPDATE_CONTENT = "update-content"
 
   // TODO: get the image from yml data
-  val imagePath = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250520.png")
+  val imagePath = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250715.png")
 
   def pages(site: dSite): Seq[SitePage] = {
     val mainPage = UpdatesPage(

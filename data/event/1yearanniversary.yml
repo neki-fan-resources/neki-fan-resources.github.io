@@ -1,0 +1,8 @@
+type: event
+id: 1yearanniversary
+label: 1 year anniversary
+date: 2025-02-10
+coverImage:
+  localimage:
+    group: siteimages
+    id: nekilogo

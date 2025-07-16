@@ -261,9 +261,7 @@ markers:
     id: setallfree
   short: true
   up: 6
-- marker: 1 year anniversary
-  date: 2025-02-10
-  image: logo/neki.png
+- event: 1yearanniversary
   related-multimedia:
     youtubeshort: WI3yV-zKqMU
 - song: zerosum

@@ -8,7 +8,7 @@ case class Site(
     band: Band,
     youtubevideo: List[RefMediaIds],
     youtubeshort: List[RefMediaIds],
-    news: List[BandNews],
+    news: Seq[BandNews],
     linkedTo: Seq[Id[?]] = Nil,
     hasError: Boolean = false,
 ) extends Datum[Site]
@@ -58,14 +58,14 @@ case class Members(
 )
 
 case class Navigation(
-    main: List[NavigationItem],
-    support: List[NavigationItem],
+    main: Seq[NavigationItem],
+    support: Seq[NavigationItem],
 )
 
 case class NavigationItem(
     name: String,
     link: String,
-    highlight: List[String],
+    highlight: Seq[String],
 )
 
 case class SocialMedia(

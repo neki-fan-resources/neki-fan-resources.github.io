@@ -2,6 +2,7 @@ package org.skyluc.neki_site.data
 
 import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data as fr
+
 import fr.CoverImage
 import fr.LocalImageId
 import fr.GroupId
@@ -20,7 +21,7 @@ sealed trait Page extends fr.Element[Page] with WithProcessor with WithProcessor
 
 case class MusicPage(
     id: fr.ElementGenId[Page],
-    music: List[fr.AlbumId | fr.SongId],
+    music: Seq[fr.AlbumId | fr.SongId],
     linkedTo: Seq[fr.Id[?]],
     hasError: Boolean = false,
 ) extends Page
@@ -45,7 +46,7 @@ case class MusicPage(
 
 case class ShowsPage(
     id: fr.ElementGenId[Page],
-    shows: List[fr.ShowId | fr.TourId],
+    shows: Seq[fr.ShowId | fr.TourId],
     linkedTo: Seq[fr.Id[?]],
     hasError: Boolean = false,
 ) extends Page

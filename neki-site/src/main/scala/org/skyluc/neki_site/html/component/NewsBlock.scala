@@ -8,9 +8,9 @@ import Html.*
 
 object NewsBlock {
 
-  def generate(news: List[BandNews]): List[BodyElement[?]] = {
+  def generate(news: Seq[BandNews]): List[BodyElement[?]] = {
 
-    val dotDivs: List[Div] = Collections.applyToHead(
+    val dotDivs: Seq[Div] = Collections.applyToHead(
       Range(0, news.size)
         .map(i =>
           div()
@@ -62,7 +62,7 @@ object BandNewsCard {
 
   import NewsBlock._
 
-  def generate(bandNews: List[BandNews]): List[A] = {
+  def generate(bandNews: Seq[BandNews]): Seq[A] = {
     Collections.applyToTail(bandNews.zipWithIndex.map((e, i) => generate(e, i)))(_.withClass(CLASS_NEWS_ITEM_HIDDEN))
   }
 

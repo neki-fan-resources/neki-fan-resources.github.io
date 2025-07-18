@@ -126,7 +126,7 @@ object SourcesExtractor {
     }
   }
 
-  private def sourcesFromLyrics(lyrics: Option[Lyrics]): List[SourceEntry] = {
+  private def sourcesFromLyrics(lyrics: Option[Lyrics]): Seq[SourceEntry] = {
     lyrics
       .map { l =>
         l.languages.flatMap { ll =>

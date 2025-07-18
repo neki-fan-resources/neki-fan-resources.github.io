@@ -1,11 +1,12 @@
 package org.skyluc.neki_site.yaml
 
-import org.skyluc.fan_resources.{yaml => fr}
+import org.skyluc.fan_resources.yaml as fr
+
 import fr.YamlParser.NodeWithRef
 import fr.YamlReader.ParserError
 import fr.Iding
 
-class NodeToElement extends fr.NodeToElement {
+object NodeToElement extends fr.NodeToElement {
 
   override def toElement(node: NodeWithRef, typeId: String): Either[ParserError, fr.Element] = {
     typeId match {

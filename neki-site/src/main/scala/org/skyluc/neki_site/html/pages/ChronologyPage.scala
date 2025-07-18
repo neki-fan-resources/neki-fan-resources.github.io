@@ -62,7 +62,7 @@ object ChronologyPage {
 
     val processor = ChronoloyMarkerProcessor(refDay, generator)
 
-    val markersCompiledData = chronologyPage.chronology.markers.map(processor.process)
+    val markersCompiledData = chronologyPage.chronology.markers.map(id => processor.process(generator.get(id)))
 
     val mainPage =
       ChronologyPage(

@@ -31,7 +31,7 @@ object Main {
     val staticPiecesFolder = rootPath.resolve(STATIC_PIECES_PATH)
     val outputFolder = rootPath.resolve(Path(TARGET_PATH, SITE_PATH))
 
-    val (parserErrors, elements) = YamlReader.load(dataFolder.asFilePath(), new NodeToElement())
+    val (parserErrors, elements) = YamlReader.load(dataFolder.asFilePath(), NodeToElement)
 
     println("--------------")
 

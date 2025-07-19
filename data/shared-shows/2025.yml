@@ -1235,6 +1235,16 @@
           year: 2025
           id: sendaimusicfuse
       - song: dreams
+  - type: youtubeshort
+    id: FSgmKhViYjA
+    label: Promo
+    info: studio audio
+    published-date: 2025-07-16
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: ooak
 
 
 
@@ -1260,6 +1270,14 @@
         id: nekikomsumetokyo
       id: cover
     fromOtherElement: true
+
+  multimedia:
+    short:
+    - youtubeshort: zLd-nv4R2Xg
+    image:
+    - postximage:
+        postid: 1946195551969849807
+        imageid: GwJGgUJXcAES7vk
 
   related:
   - type: postx
@@ -1288,6 +1306,35 @@
       - show:
           year: 2025
           id: nekikomsumeosaka
+  - type: youtubeshort
+    id: zLd-nv4R2Xg
+    label: Backstage
+    info: huddle, entry
+    published-date: 2025-07-18
+  - type: postx
+    id: 1946195551969849807
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-07-18
+    text: |
+      NEK!/komsume TWO-MAN SHOW
+      powered by Diggin' Sound
+
+      @ LIVE SQUARE 2nd LINE
+
+      大阪編！！！！
+      熱い時間をありがとうございました🔥
+
+      #NEKI #komsume
+    image:
+    - id: GwJGgUJXcAES7vk
+      label: Backstage
+      info: komsume, NEK!
+      linked-to:
+      - show:
+          year: 2025
+          id: nekikomsumeosaka
+
 
 
 

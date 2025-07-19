@@ -24,6 +24,12 @@
         id: kissfmkobe
       id: cover
 
+  multimedia:
+    image:
+    - postximage:
+        postid: 1946059859910365569
+        imageid: GwHLHkEaoAA5dH1
+
 - type: localimage
   media:
     year: 2025
@@ -35,3 +41,26 @@
   source:
     description: RADICO page
     url: https://radiko.jp/#!/ts/KISSFMKOBE/20250718150000
+
+- type: postx
+  id: 1946059859910365569
+  account: nekiband_jp
+  label: Thanks you
+  published-date: 2025-07-18
+  text: |
+    Kiss FM KOBE「Viva la radio」
+
+    ご視聴ありがとうございました💋
+
+    新曲「OOAK」MV▼
+    🎥https://youtu.be/qGEzCjYvWZw
+
+    #NEKI #ビバラー #KissFMKOB
+  image:
+  - id: GwHLHkEaoAA5dH1
+    label: At the studio
+    linked-to:
+    - media:
+        year: 2025
+        id: kissfmkobe
+

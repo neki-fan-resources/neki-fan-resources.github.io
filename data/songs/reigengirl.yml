@@ -53,6 +53,12 @@ multimedia:
   - youtubeshort: bBhvxwNWh3A
   - youtubeshort: gVUFjTcD3B4
   short:
+  - postxvideo:
+      postid: 1946145450060288257
+      videoid: 01
+  - postxvideo:
+      postid: 1945413820660523501
+      videoid: 01
   - youtubeshort: 20oChc0jOIA
   - youtubeshort: yq6g2gUuoCI
   - youtubeshort: Dysq97Q0OVA
@@ -278,6 +284,43 @@ related:
     linked-to:
     - song: reigengirl
     # TODO: find out which show it is from
+- type: postx
+  id: 1945413820660523501
+  account: natsu08_guitar
+  label: GoPro debut
+  published-date: 2025-07-16
+  text: |
+    ついに私もGoProデビューしたよー🌟
+
+    Washburnのヘッドが小さすぎてつけられるかなぁと思ったけどさすがのグリップ力でつけられた🎸📹
+    ライブで付けたら躍動感すごそう❤️‍🔥
+
+    #ネキ界隈 #拡散中 #NEKI
+  video:
+  - id: 01
+    cover: 1945413732303020032/img/_VZeLD4lN76DjDcH.jpg
+    label: Rehearsal
+    info: Natsu
+    linked-to:
+    - song: reigengirl
+- type: postx
+  id: 1946145450060288257
+  account: 46_hikaa
+  label: Practice
+  published-date: 2025-07-18
+  text: |
+    練習風景✩.*˚
+
+    #ネキ界隈  #NEKI  #令現少女
+  video:
+  - id: 01
+    cover: 1946145194132549632/img/Qp9jyLHXgENne6Cg.jpg
+    label: Rehearsal
+    info: Hika
+    linked-to:
+    - song: reigengirl
+
+
 
   
 

@@ -24,6 +24,18 @@
         id: fmosaka
       id: cover
 
+  multimedia:
+    image:
+    - postximage:
+        postid: 1946096706078343193
+        imageid: GwHsTcHawAAH0pk
+    - postximage:
+        postid: 1946103119286550886
+        imageid: GwHyd8hagAA3MZ6
+    - postximage:
+        postid: 1946103934915166259
+        imageid: GwHzNCIWwAAilIt
+
 - type: localimage
   media:
     year: 2025
@@ -35,3 +47,93 @@
   source:
     description: RADICO page
     url: https://radiko.jp/r_seasons/10022579
+
+- type: postx
+  id: 1946096706078343193
+  account: SMASHING_FRIDAY
+  label: amemura requests
+  published-date: 2025-07-18
+  text: |
+    #アメ村リクエスト🇺🇸
+
+    到着しました！
+    ぜひお近くの方、ぜひー！
+
+    #fm大阪 
+    #スマフラ
+  image:
+  - id: GwHsTcHawAAH0pk
+    label: On big screen
+    info: Masato Sakurai, Hika, Cocoro
+    linked-to:
+    - media:
+        year: 2025
+        id: fmosaka
+  linked-to:
+  - media:
+      year: 2025
+      id: fmosaka
+
+- type: postx
+  id: 1946103119286550886
+  account: SMASHING_FRIDAY
+  label: At the studio
+  published-date: 2025-07-18
+  text: |
+    ／
+    　ゲストは #NEK! でした💖
+    ＼
+
+    6月4日に『 #OOAK 』をリリースしました🎉
+
+    『 NEK!/komsume TWO-MAN 
+      SHOW powered by Diggin' Sound 』
+    🗓️ 今日！！7月18日
+    📍 大阪・LIVE SQUARE 2nd LINE
+    🔗 https://note.com/nekiband_jp/n/nb50d1c0b1dd3
+
+    radiko📻🔗 https://radiko.jp/share/?sid=FMO&t=20250718153020
+
+    #FM大阪 #スマフラ
+  image:
+  - id: GwHyd8hagAA3MZ6
+    label: At the studio
+    info: Hika, Masato Sakurai, Cocoro
+    linked-to:
+    - media:
+        year: 2025
+        id: fmosaka
+  linked-to:
+  - media:
+      year: 2025
+      id: fmosaka
+
+- type: postx
+  id: 1946103934915166259
+  account: nekiband_jp
+  label: Thanks you
+  published-date: 2025-07-18
+  text: |
+    FM大阪「SMASH(ing) FRIDAY」
+
+    ご視聴ありがとうございました📻
+
+    今夜はツーマン🔥
+    "NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound"
+
+    18:30より若干数当日券の販売がございます🎟️
+
+    #NEKI
+  image:
+  - id: GwHzNCIWwAAilIt
+    label: At the studio
+    linked-to:
+    - media:
+        year: 2025
+        id: fmosaka
+  linked-to:
+  - media:
+      year: 2025
+      id: fmosaka
+
+

@@ -45,6 +45,7 @@ multimedia:
   - youtubeshort: EzpPj7pVf6Y
   - youtubeshort: qFiKgQ5mNgQ
   short:
+  - youtubeshort: NMkyE7_4wBQ
   - youtubeshort: BCMkj_OhBmo
   - youtubeshort: 1VU7-KQyOvg
   - youtubeshort: CUgtBUOxL1w
@@ -195,6 +196,11 @@ related:
   label: Promo
   info: rehearsal room, studio audio
   published-date: 2025-07-15
+- type: youtubeshort
+  id: NMkyE7_4wBQ
+  label: Rehearsal
+  info: intro, Hika, Natsu, Kanade
+  published-date: 2025-07-17
 # X post
 - type: postx
   id: 1756877181698154611

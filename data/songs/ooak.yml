@@ -41,6 +41,9 @@ multimedia:
       videoid: 890f9d50-48f5-4914-9d1f-223e9a52a452
   - youtubeshort: jZ2Dn5P3Fac
   short:
+  - postxvideo:
+      postid: 1945857878520475910
+      videoid: 01
   - youtubeshort: GMLHhcxGZ3U
   - youtubeshort: wsPbR3xISFg
   - youtubeshort: s7rL0X1Zseg
@@ -404,3 +407,23 @@ related:
     info: behind-the-scenes
     linked-to:
     - song: ooak
+- type: postx
+  id: 1945857878520475910
+  account: coco_102
+  label: GoPro from above
+  published-date: 2025-07-17
+  text: |
+    🦋OOAK🦋
+
+    最近はGoProを使って色んな画角で撮影するのにハマってます笑
+    今回は真上！！これはこれで見やすいね〜
+
+    #NEKI #拡散中 #ネキ界隈
+  video:
+  - id: 01
+    cover: 1945857800657080320/img/FGEXOrb6E_lM_DLK.jpg
+    label: Rehearsal
+    info: Cocoro
+    linked-to:
+    - song: ooak
+

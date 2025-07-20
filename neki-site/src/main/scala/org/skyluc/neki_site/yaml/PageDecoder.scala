@@ -2,20 +2,12 @@ package org.skyluc.neki_site.yaml
 
 import org.skyluc.fan_resources.data as dfr
 import org.skyluc.fan_resources.yaml as fr
+import org.skyluc.fan_resources.yaml.ParserError
 import org.skyluc.fan_resources.yaml.YamlKeys.*
-import org.skyluc.fan_resources.yaml.YamlReader.ParserError
 import org.skyluc.neki_site.data as d
 import org.skyluc.neki_site.yaml.YamlKeys.*
 import org.skyluc.scala.EitherOps
-import org.skyluc.yaml.BooleanDecoder
-import org.skyluc.yaml.DecoderContext
-import org.skyluc.yaml.DispatchDecoder
-import org.skyluc.yaml.ListDecoder
-import org.skyluc.yaml.ObjectBuilder
-import org.skyluc.yaml.StringDecoder
-import org.skyluc.yaml.YamlDecoder
-import org.skyluc.yaml.YamlObjectAttribute
-import org.skyluc.yaml.YamlObjectAttributeProcessor
+import org.skyluc.yaml.*
 
 import fr.DatumObjectDecoder
 import fr.FrDecoders

@@ -4,8 +4,8 @@ import org.skyluc.fan_resources.data.Datum
 import org.skyluc.fan_resources.data.GenId
 import org.skyluc.fan_resources.data.Id
 import org.skyluc.fan_resources.yaml.FrDecoders
+import org.skyluc.fan_resources.yaml.ParserError
 import org.skyluc.fan_resources.yaml.YamlKeys.*
-import org.skyluc.fan_resources.yaml.YamlReader.ParserError
 import org.skyluc.neki_site.data as d
 import org.skyluc.yaml.*
 

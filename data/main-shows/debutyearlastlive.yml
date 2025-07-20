@@ -1,113 +1,174 @@
-type: show
-year: 2024
-id: debutyearlastlive
+- show:
+    year: 2024
+    id: debutyearlastlive
+    fullname: DEBUT YEAR LAST LIVE
+    date: 2024-12-29
+    location: 下北沢シャングリラ, Tokyo
+    event-page: 'https://t.livepocket.jp/e/nekidebutyearlastlive'
+    setlistfm: nek/2024/shimokitazawa-shangri-la-tokyo-japan-352d1b3
+    cover-image:
+      postyoutubeimage:
+        post: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+        image: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
+    multimedia:
+      video:
+      - youtubevideo: urGmtrd7zbA
+      - youtubevideo: IeBks9yGO4A
+      addtional:
+      - postxvideo:
+          post: 1920434632379580460
+          video: daa90966-8453-41ab-843d-c8dc1283943a
+    linked-to:
+    - postximage:
+        post: 1918636722516373576
+        image: GqBc0HhbYAA2VDy
+    - youtubevideo: IeBks9yGO4A
+    - localimage:
+        youtubevideo: IeBks9yGO4A
+        id: cover
+    - youtubevideo: urGmtrd7zbA
+    - youtubeshort: spUo9sWqs48
+    - youtubeshort: l5CgBChBmwQ
+    - youtubeshort: N5KVAUzJZXs
+    - postx: 1920434632379580460
+    - postyoutube: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
 
-fullname: DEBUT YEAR LAST LIVE
-date: 2024-12-29
-location: 下北沢シャングリラ, Tokyo
-setlistfm: nek/2024/shimokitazawa-shangri-la-tokyo-japan-352d1b3
-event-page: https://t.livepocket.jp/e/nekidebutyearlastlive
+- youtubevideo:
+    id: IeBks9yGO4A
+    label: Official Live Video
+    published-date: 2025-05-04
+    linked-to:
+    - song: getover
+    - show:
+        year: 2024
+        id: debutyearlastlive
 
-cover-image:
-  postyoutubeimage:
-    postid: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
-    imageid: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
+- localimage:
+    youtubevideo: IeBks9yGO4A
+    id: cover
+    label: Teaser cover
+    filename: cover.png
+    published-date: 2025-05-04
+    source:
+      description: YouTube video
+    hidden: true
+    linked-to:
+    - show:
+        year: 2024
+        id: debutyearlastlive
 
-multimedia:
-  video:
-  - youtubevideo: urGmtrd7zbA
-  - youtubevideo: IeBks9yGO4A
-  additional:
-  - postxvideo:
-      postid: 1920434632379580460
-      videoid: daa90966-8453-41ab-843d-c8dc1283943a
+- youtubevideo:
+    id: urGmtrd7zbA
+    label: Official Live Video
+    published-date: 2025-07-12
+    linked-to:
+    - song: fool
+    - show:
+        year: 2024
+        id: debutyearlastlive
 
-linked-to:
-- postximage:
-    postid: 1918636722516373576
-    imageid: GqBc0HhbYAA2VDy
+- youtubeshort:
+    id: spUo9sWqs48
+    label: Official Live Video
+    published-date: 2025-05-04
+    linked-to:
+    - song: getover
+    - show:
+        year: 2024
+        id: debutyearlastlive
 
-related:
-# YouTube videos
-- type: youtubevideo
-  id: IeBks9yGO4A
-  label: Official Live Video
-  published-date: 2025-05-04
-  linked-to:
-  - song: getover
-- type: localimage
-  youtubevideo: IeBks9yGO4A
-  id: cover
-  label: Teaser cover
-  published-date: 2025-05-04
-  filename: cover.png
-  source:
-    description: YouTube video
-  hidden: true
-- type: youtubevideo
-  id: urGmtrd7zbA
-  label: Official Live Video
-  published-date: 2025-07-12
-  linked-to:
-  - song: fool
-- type: youtubeshort
-  id: spUo9sWqs48
-  label: Official Live Video
-  published-date: 2025-05-04
-  linked-to:
-  - song: getover
-- type: youtubeshort
-  id: l5CgBChBmwQ
-  label: MC
-  info: about the member's goals
-  published-date: 2025-05-08
-- type: youtubeshort
-  id: N5KVAUzJZXs
-  label: Live
-  published-date: 2025-07-12
-  linked-to:
-  - song: fool
-- type: postx
-  id: 1920434632379580460
-  account: nekiband_jp
-  published-date: 2025-05-08
-  label: DEBUT YEAR LAST LIVE MC
-  info: one of the member's goals was to do a Zepp
-  text: |
-    メンバー全員の1つの目標であった「ZEPPワンマン」が決まる前、年末ライブMCから。
-    #NEKI
-  video:
-  - id: daa90966-8453-41ab-843d-c8dc1283943a
-    cover: 1920434553241407488/img/uAlxHinMyhwYxyhR.jpg
+- youtubeshort:
+    id: l5CgBChBmwQ
     label: MC
     info: about the member's goals
-# post YouTube
-- type: postyoutube
-  id: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
-  account: neki_official
-  label: announcement
-  published-date: 2024-06-03 # TODO: double check date with X post
-  text: |
-    12/29(日)
-    「NEK! DEBUT YEAR LAST LIVE」
-    ＠ 下北沢シャングリラ
+    published-date: 2025-05-08
+    linked-to:
+    - show:
+        year: 2024
+        id: debutyearlastlive
 
-    ✨🎊開催決定🎊✨
+- youtubeshort:
+    id: N5KVAUzJZXs
+    label: Live
+    published-date: 2025-07-12
+    linked-to:
+    - song: fool
+    - show:
+        year: 2024
+        id: debutyearlastlive
 
-    チケット抽選販売受付は明日8/20(火)19時から開始！
+- postx:
+    id: 1920434632379580460
+    account: nekiband_jp
+    published-date: 2025-05-08
+    label: DEBUT YEAR LAST LIVE MC
+    info: one of the member's goals was to do a Zepp
+    text: |
+      メンバー全員の1つの目標であった「ZEPPワンマン」が決まる前、年末ライブMCから。
+      #NEKI
+      
+    video:
+    - daa90966-8453-41ab-843d-c8dc1283943a
+    linked-to:
+    - postxvideo:
+        post: 1920434632379580460
+        video: daa90966-8453-41ab-843d-c8dc1283943a
+    - show:
+        year: 2024
+        id: debutyearlastlive
 
-    詳細はこちらから▼
-    https://note.com/nekiband_jp/n/na58cc...
+- postxvideo:
+    post: 1920434632379580460
+    id: daa90966-8453-41ab-843d-c8dc1283943a
+    label: MC
+    cover: 1920434553241407488/img/uAlxHinMyhwYxyhR.jpg
+    published-date: 2025-05-08
+    info: about the member's goals
+    linked-to:
+    - postx: 1920434632379580460
 
+- postyoutube:
+    id: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+    account: neki_official
+    published-date: 2024-06-03
+    label: announcement
+    text: |
+      12/29(日)
+      「NEK! DEBUT YEAR LAST LIVE」
+      ＠ 下北沢シャングリラ
+      
+      ✨🎊開催決定🎊✨
+      
+      チケット抽選販売受付は明日8/20(火)19時から開始！
+      
+      詳細はこちらから▼
+      https://note.com/nekiband_jp/n/na58cc...
+      
+      
+      12/29 (Sun)
+      "NEK! DEBUT YEAR LAST LIVE"
+      @ Shimokitazawa Shangri-La
+      The event has been confirmed!
+      Ticket lottery sales will start from 8/20 (Tue) at 7:00 PM!
+      For more details, click here▼
+      https://note.com/nekiband_jp/n/na58cc...
+      
+    image:
+    - wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
+    linked-to:
+    - postyoutubeimage:
+        post: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+        image: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
+    - show:
+        year: 2024
+        id: debutyearlastlive
 
-    12/29 (Sun)
-    "NEK! DEBUT YEAR LAST LIVE"
-    @ Shimokitazawa Shangri-La
-    The event has been confirmed!
-    Ticket lottery sales will start from 8/20 (Tue) at 7:00 PM!
-    For more details, click here▼
-    https://note.com/nekiband_jp/n/na58cc...
-  image:
-  - id: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
+- postyoutubeimage:
+    post: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+    id: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
     label: cover
-    localCopy: true
+    published-date: 2024-06-03
+    local-copy: true
+    linked-to:
+    - postyoutube: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+

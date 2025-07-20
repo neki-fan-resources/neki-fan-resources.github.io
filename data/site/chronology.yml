@@ -1,400 +1,1315 @@
-type: page
-id: chronology
+- chronologypage:
+    id: chronology
+    start-date: 2024-01-01
+    end-date: 2025-12-15
+    markers:
+    - event: formationneki
+    - show:
+        year: 2024
+        id: guvol349
+    - show:
+        year: 2024
+        id: lupinus2024
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    - show:
+        year: 2024
+        id: arealiberated
+    - show:
+        year: 2024
+        id: guvol350
+    - youtubevideo: maFSgVE2vXg
+    - song: getover
+    - show:
+        year: 2024
+        id: guvol351
+    - show:
+        year: 2024
+        id: guvol352
+    - show:
+        year: 2024
+        id: sweetsweetsweet
+    - show:
+        year: 2024
+        id: fypday1
+    - youtubevideo: 387bkUm7Dko
+    - show:
+        year: 2024
+        id: guvol354
+    - show:
+        year: 2024
+        id: popoutvol11
+    - show:
+        year: 2024
+        id: codeofzerox
+    - show:
+        year: 2024
+        id: guvol356
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    - youtubevideo: pCqu9xyfFzE
+    - show:
+        year: 2024
+        id: guvol357
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    - youtubevideo: AqVoa-PMl8I
+    - song: maze
+    - album: exclamation
+    - song: endlessgame
+    - song: blink
+    - show:
+        year: 2024
+        id: fypvol3
+    - show:
+        year: 2024
+        id: hapikorevol350
+    - show:
+        year: 2024
+        id: daydreamer4night
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    - show:
+        year: 2024
+        id: wingedit
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
+    - show:
+        year: 2024
+        id: torarockfestival
+    - show:
+        year: 2024
+        id: ringringring
+    - show:
+        year: 2024
+        id: guvol363
+    - show:
+        year: 2024
+        id: fypvol5
+    - show:
+        year: 2024
+        id: guvol365
+    - show:
+        year: 2024
+        id: guvol366
+    - youtubevideo: prWu9_Q5a5Y
+    - song: loner
+    - show:
+        year: 2024
+        id: minamiwheel2024
+    - show:
+        year: 2024
+        id: nekigufriday
+    - show:
+        year: 2024
+        id: ignition
+    - show:
+        year: 2024
+        id: sweetsweetsweet2
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    - show:
+        year: 2024
+        id: overfest2024
+    - show:
+        year: 2024
+        id: guvol369
+    - song: dreams
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - youtubevideo: aylfQ09sa4I
+    - show:
+        year: 2025
+        id: youandi
+    - show:
+        year: 2025
+        id: setallfree
+    - event: 1yearanniversary
+    - song: zerosum
+    - show:
+        year: 2025
+        id: guvol375
+    - youtubevideo: 0YlW7T5fVZ4
+    - album: tricktaking
+    - song: fool
+    - song: moon
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - media:
+        year: 2025
+        id: nack5fantasyradio
+    - media:
+        year: 2025
+        id: fm802infinityradio
+    - show:
+        year: 2025
+        id: kogaderarock
+    - media:
+        year: 2025
+        id: guitarmagazine05
+    - media:
+        year: 2025
+        id: bayfm78musicurate
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - youtubevideo: IeBks9yGO4A
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - song: ooak
+    - youtubevideo: qGEzCjYvWZw
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
+    - media:
+        year: 2025
+        id: eradiocatch
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - media:
+        year: 2025
+        id: radiokansai
+    - media:
+        year: 2025
+        id: kissfmkobe
+    - media:
+        year: 2025
+        id: fmosaka
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - show:
+        year: 2025
+        id: internetbabies
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - show:
+        year: 2025
+        id: minamiwheel
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    - youtubevideo: urGmtrd7zbA
+    linked-to:
+    - marker:
+        event: formationneki
+    - marker:
+        show:
+          year: 2024
+          id: guvol349
+    - marker:
+        show:
+          year: 2024
+          id: lupinus2024
+    - marker:
+        show:
+          year: 2024
+          id: shibuyachelseahotel
+    - marker:
+        show:
+          year: 2024
+          id: arealiberated
+    - marker:
+        show:
+          year: 2024
+          id: guvol350
+    - marker:
+        youtubevideo: maFSgVE2vXg
+    - marker:
+        song: getover
+    - marker:
+        show:
+          year: 2024
+          id: guvol351
+    - marker:
+        show:
+          year: 2024
+          id: guvol352
+    - marker:
+        show:
+          year: 2024
+          id: sweetsweetsweet
+    - marker:
+        show:
+          year: 2024
+          id: fypday1
+    - marker:
+        youtubevideo: 387bkUm7Dko
+    - marker:
+        show:
+          year: 2024
+          id: guvol354
+    - marker:
+        show:
+          year: 2024
+          id: popoutvol11
+    - marker:
+        show:
+          year: 2024
+          id: codeofzerox
+    - marker:
+        show:
+          year: 2024
+          id: guvol356
+    - marker:
+        show:
+          year: 2024
+          id: beyondthesingularityvol6
+    - marker:
+        youtubevideo: pCqu9xyfFzE
+    - marker:
+        show:
+          year: 2024
+          id: guvol357
+    - marker:
+        show:
+          year: 2024
+          id: beyondthesingularityvol7
+    - marker:
+        song: reigengirl
+    - marker:
+        show:
+          year: 2024
+          id: driveyoucrazyvol7
+    - marker:
+        show:
+          year: 2024
+          id: 1stonemanlive
+    - marker:
+        youtubevideo: AqVoa-PMl8I
+    - marker:
+        song: maze
+    - marker:
+        album: exclamation
+    - marker:
+        song: endlessgame
+    - marker:
+        song: blink
+    - marker:
+        show:
+          year: 2024
+          id: fypvol3
+    - marker:
+        show:
+          year: 2024
+          id: hapikorevol350
+    - marker:
+        show:
+          year: 2024
+          id: daydreamer4night
+    - marker:
+        show:
+          year: 2024
+          id: girlsgirlsgirls
+    - marker:
+        show:
+          year: 2024
+          id: soundsgoodvol73
+    - marker:
+        show:
+          year: 2024
+          id: wingedit
+    - marker:
+        show:
+          year: 2024
+          id: soundshocktokyo2024
+    - marker:
+        show:
+          year: 2024
+          id: torarockfestival
+    - marker:
+        show:
+          year: 2024
+          id: ringringring
+    - marker:
+        show:
+          year: 2024
+          id: guvol363
+    - marker:
+        show:
+          year: 2024
+          id: fypvol5
+    - marker:
+        show:
+          year: 2024
+          id: guvol365
+    - marker:
+        show:
+          year: 2024
+          id: guvol366
+    - marker:
+        youtubevideo: prWu9_Q5a5Y
+    - marker:
+        song: loner
+    - marker:
+        show:
+          year: 2024
+          id: minamiwheel2024
+    - marker:
+        show:
+          year: 2024
+          id: nekigufriday
+    - marker:
+        show:
+          year: 2024
+          id: ignition
+    - marker:
+        show:
+          year: 2024
+          id: sweetsweetsweet2
+    - marker:
+        show:
+          year: 2024
+          id: 2ndonemanlive
+    - marker:
+        show:
+          year: 2024
+          id: digginsoundvol2
+    - marker:
+        show:
+          year: 2024
+          id: overfest2024
+    - marker:
+        show:
+          year: 2024
+          id: guvol369
+    - marker:
+        song: dreams
+    - marker:
+        show:
+          year: 2024
+          id: debutyearlastlive
+    - marker:
+        youtubevideo: aylfQ09sa4I
+    - marker:
+        show:
+          year: 2025
+          id: youandi
+    - marker:
+        show:
+          year: 2025
+          id: setallfree
+    - marker:
+        event: 1yearanniversary
+    - marker:
+        song: zerosum
+    - marker:
+        show:
+          year: 2025
+          id: guvol375
+    - marker:
+        youtubevideo: 0YlW7T5fVZ4
+    - marker:
+        album: tricktaking
+    - marker:
+        song: fool
+    - marker:
+        song: moon
+    - marker:
+        show:
+          year: 2025
+          id: tricktakingtourosaka
+    - marker:
+        show:
+          year: 2025
+          id: tricktakingtouraichi
+    - marker:
+        show:
+          year: 2025
+          id: tricktakingtourtokyo
+    - marker:
+        media:
+          year: 2025
+          id: nack5fantasyradio
+    - marker:
+        media:
+          year: 2025
+          id: fm802infinityradio
+    - marker:
+        show:
+          year: 2025
+          id: kogaderarock
+    - marker:
+        media:
+          year: 2025
+          id: guitarmagazine05
+    - marker:
+        media:
+          year: 2025
+          id: bayfm78musicurate
+    - marker:
+        media:
+          year: 2025
+          id: tokyofmradiodragonnext
+    - marker:
+        show:
+          year: 2025
+          id: kakumeilogic2025
+    - marker:
+        youtubevideo: IeBks9yGO4A
+    - marker:
+        show:
+          year: 2025
+          id: nekikomsumetokyo
+    - marker:
+        song: ooak
+    - marker:
+        youtubevideo: qGEzCjYvWZw
+    - marker:
+        media:
+          year: 2025
+          id: yfmgodblesssaturday
+    - marker:
+        media:
+          year: 2025
+          id: eradiocatch
+    - marker:
+        show:
+          year: 2025
+          id: sendaimusicfuse
+    - marker:
+        media:
+          year: 2025
+          id: radiokansai
+    - marker:
+        media:
+          year: 2025
+          id: kissfmkobe
+    - marker:
+        media:
+          year: 2025
+          id: fmosaka
+    - marker:
+        show:
+          year: 2025
+          id: nekikomsumeosaka
+    - marker:
+        show:
+          year: 2025
+          id: internetbabies
+    - marker:
+        show:
+          year: 2025
+          id: 1stzepponeman
+    - marker:
+        show:
+          year: 2025
+          id: minamiwheel
+    - marker:
+        show:
+          year: 2025
+          id: thetheoryofscience
+    - marker:
+        youtubevideo: urGmtrd7zbA
 
-start-date: 2024-01-01
-end-date: 2025-12-15
+- marker:
+    event: formationneki
+    linked-to:
+    - page: chronology
 
-markers:
-- event: formationneki
-- show:
-    year: 2024
-    id: guvol349
-  short: true
-  up: 2
-- show:
-    year: 2024
-    id: lupinus2024
-  short: true
-- show:
-    year: 2024
-    id: shibuyachelseahotel
-  related-multimedia:
-    youtubeshort: qR2yF3Jb4r4
-- show:
-    year: 2024
-    id: arealiberated
-  short: true
-- show:
-    year: 2024
-    id: guvol350
-  short: true
-  related-multimedia:
-    youtubeshort: 6W-P3YBkybQ
-- youtubevideo: maFSgVE2vXg
-  cover-image:
-    localimage:
-      youtubevideo: maFSgVE2vXg
-      id: cover
-  parent-key: song
-  up: 15
-- song: getover
-  related-multimedia:
-    youtubevideo: TWbLqba3oag
-- show:
-    year: 2024
-    id: guvol351
-  short: true
-- show:
-    year: 2024
-    id: guvol352
-  short: true
-  up: -1
-- show:
-    year: 2024
-    id: sweetsweetsweet
-  short: true
-- show:
-    year: 2024
-    id: fypday1
-  short: true
-  up: 3
-- youtubevideo: 387bkUm7Dko
-  cover-image:
-    localimage:
-      youtubevideo: 387bkUm7Dko
-      id: cover
-  parent-key: album
-- show:
-    year: 2024
-    id: guvol354
-  short: true
-- show:
-    year: 2024
-    id: popoutvol11
-  short: true
-- show:
-    year: 2024
-    id: codeofzerox
-  short: true
-- show:
-    year: 2024
-    id: guvol356
-  short: true
-  up: -2
-- show:
-    year: 2024
-    id: beyondthesingularityvol6
-  short: true
-- youtubevideo: pCqu9xyfFzE
-  cover-image:
-    localimage:
-      youtubevideo: pCqu9xyfFzE
-      id: cover
-  parent-key: song
-  up: 11
-- show:
-    year: 2024
-    id: guvol357
-  short: true
-- show:
-    year: 2024
-    id: beyondthesingularityvol7
-  short: true
-  up: -1
-- song: reigengirl
-  related-multimedia:
-    youtubevideo: rq0dca9mFfI
-- show:
-    year: 2024
-    id: driveyoucrazyvol7
-  short: true
-  up: 4
-- show:
-    year: 2024
-    id: 1stonemanlive
-  related-multimedia:
-    youtubeshort: XzfOs6kjtUs
-- youtubevideo: AqVoa-PMl8I
-  cover-image:
-    localimage:
-      youtubevideo: AqVoa-PMl8I
-      id: cover
-  parent-key: song
-  up: 13
-- song: maze
-  related-multimedia:
-    youtubevideo: EHtWJmMybGY
-- album: exclamation
-  up: -21
-- song: endlessgame
-  up: -42
-- song: blink
-  up: -63
-- show:
-    year: 2024
-    id: fypvol3
-  short: true
-- show:
-    year: 2024
-    id: hapikorevol350
-  short: true
-- show:
-    year: 2024
-    id: daydreamer4night
-  short: true
-  up: 11
-  in: 1
-- show:
-    year: 2024
-    id: girlsgirlsgirls
-  short: true
-  up: 7
-- show:
-    year: 2024
-    id: soundsgoodvol73
-  short: true
-  up: 3
-  in: -1
-- show:
-    year: 2024
-    id: wingedit
-  short: true
-- show:
-    year: 2024
-    id: soundshocktokyo2024
-  short: true
-- show:
-    year: 2024
-    id: torarockfestival
-  short: true
-- show:
-    year: 2024
-    id: ringringring
-  short: true
-- show:
-    year: 2024
-    id: guvol363
-  short: true
-  up: -2
-- show:
-    year: 2024
-    id: fypvol5
-  short: true
-- show:
-    year: 2024
-    id: guvol365
-  short: true
-- show:
-    year: 2024
-    id: guvol366
-  short: true
-- youtubevideo: prWu9_Q5a5Y
-  cover-image:
-    localimage:
-      youtubevideo: prWu9_Q5a5Y
-      id: cover
-  parent-key: song
-  up: 7
-- song: loner
-  related-multimedia:
-    youtubevideo: uhy1HnFXTH8
-- show:
-    year: 2024
-    id: minamiwheel2024
-  short: true
-- show:
-    year: 2024
-    id: nekigufriday
-  short: true
-- show:
-    year: 2024
-    id: ignition
-  short: true
-- show:
-    year: 2024
-    id: sweetsweetsweet2
-  short: true
-  up: -4
-- show:
-    year: 2024
-    id: 2ndonemanlive
-  related-multimedia:
-    youtubevideo: _Oac92XPkyo
-- show:
-    year: 2024
-    id: digginsoundvol2
-  short: true
-  up: -8
-  in: -1
-- show:
-    year: 2024
-    id: overfest2024
-  short: true
-  up: -8
-- show:
-    year: 2024
-    id: guvol369
-  short: true
-  up: -6
-  in: 1
-- song: dreams
-  related-multimedia:
-    youtubevideo: _Oac92XPkyo
-- show:
-    year: 2024
-    id: debutyearlastlive
+- marker:
+    show:
+      year: 2024
+      id: guvol349
+    short: true
+    position:
+      up: 2
+    linked-to:
+    - page: chronology
 
-# ===== 2025 =====
+- marker:
+    show:
+      year: 2024
+      id: lupinus2024
+    short: true
+    linked-to:
+    - page: chronology
 
-- youtubevideo: aylfQ09sa4I
-  cover-image:
-    localimage:
-      youtubevideo: aylfQ09sa4I
-      id: cover
-  parent-key: song
-- show:
-    year: 2025
-    id: youandi
-  short: true
-- show:
-    year: 2025
-    id: setallfree
-  short: true
-  up: 6
-- event: 1yearanniversary
-  related-multimedia:
-    youtubeshort: WI3yV-zKqMU
-- song: zerosum
-  related-multimedia:
-    youtubevideo: z3HM2COly2Q
-- show:
-    year: 2025
-    id: guvol375
-  short: true
-- youtubevideo: 0YlW7T5fVZ4
-  cover-image:
-    localimage:
-      youtubevideo: 0YlW7T5fVZ4
-      id: cover
-  parent-key: song
-  up: 11
-- album: tricktaking
-  up: -10
-- song: fool
-  up: -31
-- song: moon
-  up: -52
-- show:
-    year: 2025
-    id: tricktakingtourosaka
-  up: 19
-- show:
-    year: 2025
-    id: tricktakingtouraichi
-- show:
-    year: 2025
-    id: tricktakingtourtokyo
-  up: -7
-- media:
-    year: 2025
-    id: nack5fantasyradio
-  short: true
-  up: -8
-- media:
-    year: 2025
-    id: fm802infinityradio
-  short: true
-  up: 2
-- show:
-    year: 2025
-    id: kogaderarock
-  short: true
-- media:
-    year: 2025
-    id: guitarmagazine05
-  short: true
-  up: -6
-- media:
-    year: 2025
-    id: bayfm78musicurate
-  short: true
-- media:
-    year: 2025
-    id: tokyofmradiodragonnext
-  up: 2
-  short: true
-- show:
-    year: 2025
-    id: kakumeilogic2025
-  short: true
-- youtubevideo: IeBks9yGO4A
-  cover-image:
-    localimage:
-      youtubevideo: IeBks9yGO4A
-      id: cover
-  parent-key: song
-- show:
-    year: 2025
-    id: nekikomsumetokyo
-  short: true
-- song: ooak
-- youtubevideo: qGEzCjYvWZw
-  cover-image:
-    postximage:
-      postid: 1935668905244336459
-      imageid: GtzabMUXgAAmDvN
-  parent-key: song
-- media:
-    year: 2025
-    id: yfmgodblesssaturday
-- media:
-    year: 2025
-    id: eradiocatch
-- show:
-    year: 2025
-    id: sendaimusicfuse
-  short: true
-- media:
-    year: 2025
-    id: radiokansai
-  up: 18
-- media:
-    year: 2025
-    id: kissfmkobe
-  up: 12
-- media:
-    year: 2025
-    id: fmosaka
-  up: 6
-- show:
-    year: 2025
-    id: nekikomsumeosaka
-  short: true
-- show:
-    year: 2025
-    id: internetbabies
-  short: true
-- show:
-    year: 2025
-    id: 1stzepponeman
-- show:
-    year: 2025
-    id: minamiwheel
-  short: true
-- show:
-    year: 2025
-    id: thetheoryofscience
-  short: true
-- youtubevideo: urGmtrd7zbA
-  cover-image:
-    postximage:
-      postid: 1943641464397062330
-      imageid: GvkzmwJWEAA9mgY
-  parent-key: song
+- marker:
+    show:
+      year: 2024
+      id: shibuyachelseahotel
+    related-multimedia:
+      youtubeshort: qR2yF3Jb4r4
+    linked-to:
+    - page: chronology
 
+- marker:
+    show:
+      year: 2024
+      id: arealiberated
+    short: true
+    linked-to:
+    - page: chronology
 
+- marker:
+    show:
+      year: 2024
+      id: guvol350
+    short: true
+    related-multimedia:
+      youtubeshort: 6W-P3YBkybQ
+    linked-to:
+    - page: chronology
 
+- marker:
+    youtubevideo: maFSgVE2vXg
+    cover-image:
+      localimage:
+        youtubevideo: maFSgVE2vXg
+        id: cover
+    parent-key: song
+    position:
+      up: 15
+    linked-to:
+    - page: chronology
 
+- marker:
+    song: getover
+    related-multimedia:
+      youtubevideo: TWbLqba3oag
+    linked-to:
+    - page: chronology
 
+- marker:
+    show:
+      year: 2024
+      id: guvol351
+    short: true
+    linked-to:
+    - page: chronology
 
+- marker:
+    show:
+      year: 2024
+      id: guvol352
+    short: true
+    position:
+      up: -1
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: sweetsweetsweet
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: fypday1
+    short: true
+    position:
+      up: 3
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: 387bkUm7Dko
+    cover-image:
+      localimage:
+        youtubevideo: 387bkUm7Dko
+        id: cover
+    parent-key: album
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: guvol354
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: popoutvol11
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: codeofzerox
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: guvol356
+    short: true
+    position:
+      up: -2
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: beyondthesingularityvol6
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: pCqu9xyfFzE
+    cover-image:
+      localimage:
+        youtubevideo: pCqu9xyfFzE
+        id: cover
+    parent-key: song
+    position:
+      up: 11
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: guvol357
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: beyondthesingularityvol7
+    short: true
+    position:
+      up: -1
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: reigengirl
+    related-multimedia:
+      youtubevideo: rq0dca9mFfI
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: driveyoucrazyvol7
+    short: true
+    position:
+      up: 4
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: 1stonemanlive
+    related-multimedia:
+      youtubeshort: XzfOs6kjtUs
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: AqVoa-PMl8I
+    cover-image:
+      localimage:
+        youtubevideo: AqVoa-PMl8I
+        id: cover
+    parent-key: song
+    position:
+      up: 13
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: maze
+    related-multimedia:
+      youtubevideo: EHtWJmMybGY
+    linked-to:
+    - page: chronology
+
+- marker:
+    album: exclamation
+    position:
+      up: -21
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: endlessgame
+    position:
+      up: -42
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: blink
+    position:
+      up: -63
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: fypvol3
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: hapikorevol350
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: daydreamer4night
+    short: true
+    position:
+      up: 11
+      in: 1
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: girlsgirlsgirls
+    short: true
+    position:
+      up: 7
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: soundsgoodvol73
+    short: true
+    position:
+      up: 3
+      in: -1
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: wingedit
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: soundshocktokyo2024
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: torarockfestival
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: ringringring
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: guvol363
+    short: true
+    position:
+      up: -2
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: fypvol5
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: guvol365
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: guvol366
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: prWu9_Q5a5Y
+    cover-image:
+      localimage:
+        youtubevideo: prWu9_Q5a5Y
+        id: cover
+    parent-key: song
+    position:
+      up: 7
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: loner
+    related-multimedia:
+      youtubevideo: uhy1HnFXTH8
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: minamiwheel2024
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: nekigufriday
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: ignition
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: sweetsweetsweet2
+    short: true
+    position:
+      up: -4
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: 2ndonemanlive
+    related-multimedia:
+      youtubevideo: _Oac92XPkyo
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: digginsoundvol2
+    short: true
+    position:
+      up: -8
+      in: -1
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: overfest2024
+    short: true
+    position:
+      up: -8
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: guvol369
+    short: true
+    position:
+      up: -6
+      in: 1
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: dreams
+    related-multimedia:
+      youtubevideo: _Oac92XPkyo
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2024
+      id: debutyearlastlive
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: aylfQ09sa4I
+    cover-image:
+      localimage:
+        youtubevideo: aylfQ09sa4I
+        id: cover
+    parent-key: song
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: youandi
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: setallfree
+    short: true
+    position:
+      up: 6
+    linked-to:
+    - page: chronology
+
+- marker:
+    event: 1yearanniversary
+    related-multimedia:
+      youtubeshort: WI3yV-zKqMU
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: zerosum
+    related-multimedia:
+      youtubevideo: z3HM2COly2Q
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: guvol375
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: 0YlW7T5fVZ4
+    cover-image:
+      localimage:
+        youtubevideo: 0YlW7T5fVZ4
+        id: cover
+    parent-key: song
+    position:
+      up: 11
+    linked-to:
+    - page: chronology
+
+- marker:
+    album: tricktaking
+    position:
+      up: -10
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: fool
+    position:
+      up: -31
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: moon
+    position:
+      up: -52
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: tricktakingtourosaka
+    position:
+      up: 19
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: tricktakingtouraichi
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: tricktakingtourtokyo
+    position:
+      up: -7
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: nack5fantasyradio
+    short: true
+    position:
+      up: -8
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: fm802infinityradio
+    short: true
+    position:
+      up: 2
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: kogaderarock
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: guitarmagazine05
+    short: true
+    position:
+      up: -6
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: bayfm78musicurate
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: tokyofmradiodragonnext
+    short: true
+    position:
+      up: 2
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: kakumeilogic2025
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: IeBks9yGO4A
+    cover-image:
+      localimage:
+        youtubevideo: IeBks9yGO4A
+        id: cover
+    parent-key: song
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: nekikomsumetokyo
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    song: ooak
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: qGEzCjYvWZw
+    cover-image:
+      postximage:
+        post: 1935668905244336459
+        image: GtzabMUXgAAmDvN
+    parent-key: song
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: yfmgodblesssaturday
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: eradiocatch
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: sendaimusicfuse
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: radiokansai
+    position:
+      up: 18
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: kissfmkobe
+    position:
+      up: 12
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: fmosaka
+    position:
+      up: 6
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: nekikomsumeosaka
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: internetbabies
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: 1stzepponeman
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: minamiwheel
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    show:
+      year: 2025
+      id: thetheoryofscience
+    short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    youtubevideo: urGmtrd7zbA
+    cover-image:
+      postximage:
+        post: 1943641464397062330
+        image: GvkzmwJWEAA9mgY
+    parent-key: song
+    linked-to:
+    - page: chronology
 

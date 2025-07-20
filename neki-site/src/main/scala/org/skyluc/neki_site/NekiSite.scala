@@ -1,19 +1,19 @@
 package org.skyluc.neki_site
 
-import org.skyluc.neki_site.element2data.ElementToData
-import org.skyluc.neki_site.yaml.NekiSiteDecoders
-import org.skyluc.neki_site.yaml.NodeToElement
 import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data.Datum
 import org.skyluc.fan_resources.element2data.DataTransformer
 import org.skyluc.fan_resources.yaml.ItemDecoder
 import org.skyluc.fan_resources.yaml.YamlReader
 import org.skyluc.fan_resources.yaml.YamlReaderNew
+import org.skyluc.neki_site.element2data.ElementToData
+import org.skyluc.neki_site.yaml.NekiSiteDecoders
+import org.skyluc.neki_site.yaml.NodeToElement
 import org.skyluc.yaml.Parser
 
 import java.nio.file.Path
 
-object BabymetalSite {
+object NekiSite {
 
   object ParserOld extends Parser[Datum[?]] {
 

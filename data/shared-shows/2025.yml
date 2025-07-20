@@ -1,22 +1,20 @@
-- type: show
-  year: 2025
-  id: youandi
+- show:
+    year: 2025
+    id: youandi
+    fullname: 優利香Presents「You&I ～未来浮かべ浮かれSmile～」　てんこ盛り編
+    shortname: You&I ～未来浮かべ浮かれSmile～
+    date: 2025-01-26
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/schedule-27265/'
+    setlistfm: nek/2025/shibuya-eggman-tokyo-japan-35a6d47
+    cover-image:
+      postximage:
+        post: 1883065171922637290
+        image: GiH9iMsaUAAUAmv
+    linked-to:
+    - postx: 1883065171922637290
 
-  fullname: 優利香Presents「You&I ～未来浮かべ浮かれSmile～」　てんこ盛り編
-  shortname: You&I ～未来浮かべ浮かれSmile～
-  date: 2025-01-26
-  setlistfm: nek/2025/shibuya-eggman-tokyo-japan-35a6d47
-  event-page: http://eggman.jp/schedule/schedule-27265/
-  location: Shibuya eggman, Tokyo
-  shared: true
-
-  cover-image:
-    postximage:
-      postid: 1883065171922637290
-      imageid: GiH9iMsaUAAUAmv
-  
-  related:
-  - type: postx
+- postx:
     id: 1883065171922637290
     account: nekiband_jp
     published-date: 2025-01-25
@@ -25,149 +23,209 @@
       明日1/26(日)
       優利香Presents「You&I ～未来浮かべ浮かれSmile～」てんこ盛り編
       @ Shibuya eggman
-
+      
       NEK!は13:00~出演させていただきます❤️‍🔥
-
+      
       チケット受付は本日23:59まで🎫
-
+      
       詳細はこちらから▼
       https://note.com/nekiband_jp/n/n8288f3be1b16?sub_rt=share_pw
-
+      
       #NEKI
+      
     image:
-    - id: GiH9iMsaUAAUAmv
-      label: poster
-      localCopy: true
-    - id: GiH9iMsaQAAasNt
-      label: schedule
+    - GiH9iMsaUAAUAmv
+    - GiH9iMsaQAAasNt
+    linked-to:
+    - postximage:
+        post: 1883065171922637290
+        image: GiH9iMsaUAAUAmv
+    - postximage:
+        post: 1883065171922637290
+        image: GiH9iMsaQAAasNt
+    - show:
+        year: 2025
+        id: youandi
 
+- postximage:
+    post: 1883065171922637290
+    id: GiH9iMsaUAAUAmv
+    label: poster
+    published-date: 2025-01-25
+    local-copy: true
+    linked-to:
+    - postx: 1883065171922637290
 
-- type: show
-  year: 2025
-  id: setallfree
+- postximage:
+    post: 1883065171922637290
+    id: GiH9iMsaQAAasNt
+    label: schedule
+    published-date: 2025-01-25
+    linked-to:
+    - postx: 1883065171922637290
 
-  fullname: Wisteria×FOWS「Set All Free!!」
-  date: 2025-02-06
-  location: 渋谷FOWS, Tokyo
-  setlistfm: nek/2025/shibuya-fows-tokyo-japan-135a6d45
-  event-page: https://shibuya-fows.jp/events/25568
-  shared: true
+- show:
+    year: 2025
+    id: setallfree
+    fullname: Wisteria×FOWS「Set All Free!!」
+    date: 2025-02-06
+    location: 渋谷FOWS, Tokyo
+    event-page: 'https://shibuya-fows.jp/events/25568'
+    setlistfm: nek/2025/shibuya-fows-tokyo-japan-135a6d45
+    cover-image:
+      postximage:
+        post: 1887340383576989716
+        image: GjEuEpVbIAMzRlC
+    linked-to:
+    - postx: 1887340383576989716
 
-  cover-image:
-    postximage:
-      postid: 1887340383576989716
-      imageid: GjEuEpVbIAMzRlC
-  
-  related:
-  - type: postx
+- postx:
     id: 1887340383576989716
     account: Wisteria_tokyo
     published-date: 2025-02-06
     label: today
     text: |
       【🎉ついに本日 #セトフリ 開催🎉】
-
+      
       2025.2.6(木) SHIBUYA FOWS
       『Set All Free!!』
-
+      
       w/
       NEK!
       LOT SPiRiTS
       Are Square
       Creffy (O.A)
-
+      
       🎫当日券アリ！
       当日券/¥3,500(+1D)
-
+      
       #セトフリ 限定グッズも…🛒
-
+      
       ご来場お待ちしております☀️
+      
     image:
-    - id: GjEuEpVbIAMzRlC
-      label: poster
-      localCopy: true
+    - GjEuEpVbIAMzRlC
+    linked-to:
+    - postximage:
+        post: 1887340383576989716
+        image: GjEuEpVbIAMzRlC
+    - show:
+        year: 2025
+        id: setallfree
 
-- type: show
-  year: 2025
-  id: kogaderarock
+- postximage:
+    post: 1887340383576989716
+    id: GjEuEpVbIAMzRlC
+    label: poster
+    published-date: 2025-02-06
+    local-copy: true
+    linked-to:
+    - postx: 1887340383576989716
 
-  fullname: KOGA RECORDS presents 【下北沢こがでらロックフェスティバル2025】
-  shortname: 下北沢こがでらロックフェスティバル2025
-  date: 2025-04-12
-  location: Shimokitazawa , Tokyo
-  #setlistfm: nek/2025/shibuya-eggman-tokyo-japan-b5a6d3a
-  event-page: https://kogarecords.com/top/?p=1485
-  shared: true
-
-  multimedia:
-    video:
-    - postxvideo:
-        postid: 1931999361577463823
-        videoid: 01
-    - youtubeshort: 8JNZl3nO2dM
+- show:
+    year: 2025
+    id: kogaderarock
+    fullname: KOGA RECORDS presents 【下北沢こがでらロックフェスティバル2025】
+    shortname: 下北沢こがでらロックフェスティバル2025
+    date: 2025-04-12
+    location: Shimokitazawa , Tokyo
+    event-page: 'https://kogarecords.com/top/?p=1485'
+    cover-image:
+      postximage:
+        post: 1904825238870721005
+        image: Gm9MdCUbAAAS1Sq
+    multimedia:
+      video:
+      - postxvideo:
+          post: 1931999361577463823
+          video: 01
+      - youtubeshort: 8JNZl3nO2dM
+      - youtubeshort: 759NyQOQ1yg
+      image:
+      - postximage:
+          post: 1910979741756399623
+          image: GoUp719WUAADyfg
+      - postximage:
+          post: 1910979741756399623
+          image: GoUp719WkAAtlRX
+      - postximage:
+          post: 1910962202003275912
+          image: GoUZ_azXwAASE0E
+      - postximage:
+          post: 1910962202003275912
+          image: GoUZ_awWwAAkG5D
+      - postximage:
+          post: 1910962202003275912
+          image: GoUZ_axWoAA8BKE
+      - postximage:
+          post: 1910962202003275912
+          image: GoUZ_awWQAAJLU0
+    linked-to:
     - youtubeshort: 759NyQOQ1yg
-    image:
-    - postximage:
-        postid: 1910979741756399623
-        imageid: GoUp719WUAADyfg
-    - postximage:
-        postid: 1910979741756399623
-        imageid: GoUp719WkAAtlRX
-    - postximage:
-        postid: 1910962202003275912
-        imageid: GoUZ_azXwAASE0E
-    - postximage:
-        postid: 1910962202003275912
-        imageid: GoUZ_awWwAAkG5D
-    - postximage:
-        postid: 1910962202003275912
-        imageid: GoUZ_axWoAA8BKE
-    - postximage:
-        postid: 1910962202003275912
-        imageid: GoUZ_awWQAAJLU0
+    - youtubeshort: 8JNZl3nO2dM
+    - postx: 1904825238870721005
+    - postx: 1910979741756399623
+    - postx: 1910962202003275912
+    - postx: 1931999361577463823
 
-  cover-image:
-    postximage:
-      postid: 1904825238870721005
-      imageid: Gm9MdCUbAAAS1Sq
-  
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: 759NyQOQ1yg
     label: Entry
     published-date: 2025-04-13
-    # TODO: identify the song
-    # linked-to:
-    # - song: getover
-  - type: youtubeshort
+    linked-to:
+    - show:
+        year: 2025
+        id: kogaderarock
+
+- youtubeshort:
     id: 8JNZl3nO2dM
     label: Let's play
     published-date: 2025-04-14
     linked-to:
     - song: maze
-  - type: postx
+    - show:
+        year: 2025
+        id: kogaderarock
+
+- postx:
     id: 1904825238870721005
     account: nekiband_jp
     published-date: 2025-03-26
     label: announcement
     text: |
       ⚡️LIVE⚡️
-
+      
       4/12(土)開催
       「下北沢こがでらロックフェスティバル2025」
       @ 下北沢3会場 
-
+      
       NEK!の出演が決定❤️‍🔥
-
+      
       チケットはこちら▼
       https://eplus.jp/kogaderarockfes2025/
-
+      
       #NEKI
+      
     image:
-    - id: Gm9MdCUbAAAS1Sq
-      label: poster
-      localCopy: true
-  - type: postx
+    - Gm9MdCUbAAAS1Sq
+    linked-to:
+    - postximage:
+        post: 1904825238870721005
+        image: Gm9MdCUbAAAS1Sq
+    - show:
+        year: 2025
+        id: kogaderarock
+
+- postximage:
+    post: 1904825238870721005
+    id: Gm9MdCUbAAAS1Sq
+    label: poster
+    published-date: 2025-03-26
+    local-copy: true
+    linked-to:
+    - postx: 1904825238870721005
+
+- postx:
     id: 1910979741756399623
     account: nekiband_jp
     published-date: 2025-04-10
@@ -175,25 +233,61 @@
     text: |
       下北沢こがでらロックフェスティバル2025
       @ 下北沢SHELTER
-
+      
       ご来場ありがとうございました❣️
-
+      
       8/30(土)開催
       NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
       ＠ Zepp Shinjuku
-
+      
       チケットオフィシャル2次先行(抽選)受付中🎟️
       https://l-tike.com/nekiband/
-
+      
       #NEKI #こがでらロック
+      
     image:
-    - id: GoUp71yWsAIHbmh
-      label: the band
-    - id: GoUp719WkAAtlRX
-      label: on stage
-    - id: GoUp719WUAADyfg
-      label: sidewalk board
-  - type: postx
+    - GoUp71yWsAIHbmh
+    - GoUp719WkAAtlRX
+    - GoUp719WUAADyfg
+    linked-to:
+    - postximage:
+        post: 1910979741756399623
+        image: GoUp71yWsAIHbmh
+    - postximage:
+        post: 1910979741756399623
+        image: GoUp719WkAAtlRX
+    - postximage:
+        post: 1910979741756399623
+        image: GoUp719WUAADyfg
+    - show:
+        year: 2025
+        id: kogaderarock
+
+- postximage:
+    post: 1910979741756399623
+    id: GoUp71yWsAIHbmh
+    label: the band
+    published-date: 2025-04-10
+    linked-to:
+    - postx: 1910979741756399623
+
+- postximage:
+    post: 1910979741756399623
+    id: GoUp719WkAAtlRX
+    label: on stage
+    published-date: 2025-04-10
+    linked-to:
+    - postx: 1910979741756399623
+
+- postximage:
+    post: 1910979741756399623
+    id: GoUp719WUAADyfg
+    label: sidewalk board
+    published-date: 2025-04-10
+    linked-to:
+    - postx: 1910979741756399623
+
+- postx:
     id: 1910962202003275912
     account: KOGARECORDS
     published-date: 2025-04-10
@@ -201,35 +295,81 @@
     info: for performing at the show
     text: |
       【下北沢こがでらROCK FESTIVAL 2025】
-
+      
       📣  ライブ速報  📣
-
+      
       ⏰15:30〜  SHELTER
-
+      
       NEK!  ( 
       @nekiband_jp
       )
-
+      
       ご出演いただきありがとうございました！
-
+      
       📸 photo by てる 
       @ttetteteru
-
-
+      
+      
       #こがでらロック
+      
     image:
-    - id: GoUZ_azXwAASE0E
-      label: on stage
-    - id: GoUZ_awWwAAkG5D
-      label: on stage
-      info: Kanade
-    - id: GoUZ_axWoAA8BKE
-      label: on stage
-      info: from the side, Natsu
-    - id: GoUZ_awWQAAJLU0
-      label: on stage
-      info: Hika
-  - type: postx
+    - GoUZ_azXwAASE0E
+    - GoUZ_awWwAAkG5D
+    - GoUZ_axWoAA8BKE
+    - GoUZ_awWQAAJLU0
+    linked-to:
+    - postximage:
+        post: 1910962202003275912
+        image: GoUZ_azXwAASE0E
+    - postximage:
+        post: 1910962202003275912
+        image: GoUZ_awWwAAkG5D
+    - postximage:
+        post: 1910962202003275912
+        image: GoUZ_axWoAA8BKE
+    - postximage:
+        post: 1910962202003275912
+        image: GoUZ_awWQAAJLU0
+    - show:
+        year: 2025
+        id: kogaderarock
+
+- postximage:
+    post: 1910962202003275912
+    id: GoUZ_azXwAASE0E
+    label: on stage
+    published-date: 2025-04-10
+    linked-to:
+    - postx: 1910962202003275912
+
+- postximage:
+    post: 1910962202003275912
+    id: GoUZ_awWwAAkG5D
+    label: on stage
+    published-date: 2025-04-10
+    info: Kanade
+    linked-to:
+    - postx: 1910962202003275912
+
+- postximage:
+    post: 1910962202003275912
+    id: GoUZ_axWoAA8BKE
+    label: on stage
+    published-date: 2025-04-10
+    info: from the side, Natsu
+    linked-to:
+    - postx: 1910962202003275912
+
+- postximage:
+    post: 1910962202003275912
+    id: GoUZ_awWQAAJLU0
+    label: on stage
+    published-date: 2025-04-10
+    info: Hika
+    linked-to:
+    - postx: 1910962202003275912
+
+- postx:
     id: 1931999361577463823
     account: natsu08_guitar
     published-date: 2025-06-09
@@ -237,100 +377,129 @@
     text: |
       “Loner”より
       BPM195のダウンピッキング🎸🎸
-
+      
       “Loner”は1Aはこんな感じで2Aで変形するのが好き🐺❤️‍🔥
-
+      
       （音質悪いのごめんね🥹🙏🏻特にイヤフォンで聴いたら悪いかも🙇🏻‍♀️）
-
+      
       #ネキ界隈 #拡散中 #NEKI
+      
     video:
-    - id: 01
-      cover: 1931999263166492672/img/WfpdmHQJHaGNaTDp.jpg
-      label: Live
-      info: 195 BPM, Natsu
-      linked-to:
-      - show:
-          year: 2025
-          id: kogaderarock
-      - song: loner
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1931999361577463823
+        video: 01
+    - show:
+        year: 2025
+        id: kogaderarock
 
-- type: show
-  year: 2025
-  id: kakumeilogic2025
+- postxvideo:
+    post: 1931999361577463823
+    id: 01
+    label: Live
+    cover: 1931999263166492672/img/WfpdmHQJHaGNaTDp.jpg
+    published-date: 2025-06-09
+    info: 195 BPM, Natsu
+    linked-to:
+    - show:
+        year: 2025
+        id: kogaderarock
+    - song: loner
+    - postx: 1931999361577463823
 
-  fullname: LIVEHOLIC presents. "革命ロジック2025" supported by Skream! & 激ロック
-  shortname: LIVEHOLIC presents. "革命ロジック2025"
-  date: 2025-05-04
-  location: Shimokitazawa , Tokyo
-  #setlistfm: nek/2025/shibuya-eggman-tokyo-japan-b5a6d3a
-  event-page: https://liveholic.jp/schedule/2025/05/liveholic-presents-2025-supported-by-skream-4.php
-  shared: true
-
-  cover-image:
-    postximage:
-      postid: 1903038891042673069
-      imageid: GmjeK9zbIAAWwew
-
-  multimedia:
-    video:
-    - postxvideo:
-        postid: 1935184418047672438
-        videoid: 01
-    - postxvideo:
-        postid: 1929389485147721772
-        videoid: 01
-    - postxvideo:
-        postid: 1926928034944213276
-        videoid: d7408dbc-320f-41a5-8e45-5ce994c99049
-    - postxvideo:
-        postid: 1922588708026404968
-        videoid: 4c117af0-984b-4ba9-8a30-e82f968dd226
-    - postxvideo:
-        postid: 1921828183369781385
-        videoid: 890f9d50-48f5-4914-9d1f-223e9a52a452
-    - postxvideo:
-        postid: 1920746869560430820
-        videoid: 86e746a8-fd09-4141-979d-524ced4fa2f0
-    - postxvideo:
-        postid: 1920401532488724860
-        videoid: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
-    - postxvideo:
-        postid: 1919977679027372546
-        videoid: 37e3c46f-d463-4507-8090-19abc74c839b
-    - youtubeshort: CBPR9cp2urk
-    - postxvideo:
-        postid: 1919554837458399724
-        videoid: ab614f11-559a-4b05-9110-a93a478c49d9
-    - postxvideo:
-        postid: 1919328460532494808
-        videoid: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
-    short:
-    - youtubeshort: bFHCOVgFMKg
+- show:
+    year: 2025
+    id: kakumeilogic2025
+    fullname: LIVEHOLIC presents. "革命ロジック2025" supported by Skream! & 激ロック
+    shortname: LIVEHOLIC presents. "革命ロジック2025"
+    date: 2025-05-04
+    location: Shimokitazawa , Tokyo
+    event-page: 'https://liveholic.jp/schedule/2025/05/liveholic-presents-2025-supported-by-skream-4.php'
+    cover-image:
+      postximage:
+        post: 1903038891042673069
+        image: GmjeK9zbIAAWwew
+    multimedia:
+      video:
+      - postxvideo:
+          post: 1935184418047672438
+          video: 01
+      - postxvideo:
+          post: 1929389485147721772
+          video: 01
+      - postxvideo:
+          post: 1926928034944213276
+          video: d7408dbc-320f-41a5-8e45-5ce994c99049
+      - postxvideo:
+          post: 1922588708026404968
+          video: 4c117af0-984b-4ba9-8a30-e82f968dd226
+      - postxvideo:
+          post: 1921828183369781385
+          video: 890f9d50-48f5-4914-9d1f-223e9a52a452
+      - postxvideo:
+          post: 1920746869560430820
+          video: 86e746a8-fd09-4141-979d-524ced4fa2f0
+      - postxvideo:
+          post: 1920401532488724860
+          video: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
+      - postxvideo:
+          post: 1919977679027372546
+          video: 37e3c46f-d463-4507-8090-19abc74c839b
+      - youtubeshort: CBPR9cp2urk
+      - postxvideo:
+          post: 1919554837458399724
+          video: ab614f11-559a-4b05-9110-a93a478c49d9
+      - postxvideo:
+          post: 1919328460532494808
+          video: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
+      short:
+      - youtubeshort: bFHCOVgFMKg
+      - youtubeshort: 6waPnn_Bxis
+      image:
+      - postximage:
+          post: 1918967431936053416
+          image: GqGKtFtbsAAScbY
+      - postximage:
+          post: 1918967431936053416
+          image: GqGKtFwa0AACJVD
+    linked-to:
+    - postximage:
+        post: 1918591839306666269
+        image: GqA0mxha4AAZusD
+    - postximage:
+        post: 1918591839306666269
+        image: GqA0m0ta0AAA-dL
+    - youtubeshort: AruvDV5MZAQ
+    - postx: 1903038891042673069
+    - postx: 1918591839306666269
+    - postx: 1918967431936053416
     - youtubeshort: 6waPnn_Bxis
-    image:
-    - postximage:
-        postid: 1918967431936053416
-        imageid: GqGKtFtbsAAScbY
-    - postximage:
-        postid: 1918967431936053416
-        imageid: GqGKtFwa0AACJVD
-  linked-to:
-    - postximage:
-        postid: 1918591839306666269
-        imageid: GqA0mxha4AAZusD
-    - postximage:
-        postid: 1918591839306666269
-        imageid: GqA0m0ta0AAA-dL
+    - postx: 1919328460532494808
+    - postx: 1919554837458399724
+    - youtubeshort: CBPR9cp2urk
+    - postx: 1919977679027372546
+    - postx: 1920401532488724860
+    - postx: 1920746869560430820
+    - postx: 1921828183369781385
+    - postx: 1922588708026404968
+    - postx: 1926928034944213276
+    - postx: 1929389485147721772
+    - postx: 1935184418047672438
+    - youtubeshort: bFHCOVgFMKg
 
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: AruvDV5MZAQ
-    published-date: 2025-06-05
     label: Promo
     info: studio audio, from the crowd
+    published-date: 2025-06-05
     linked-to:
     - song: ooak
-  - type: postx
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postx:
     id: 1903038891042673069
     account: kakumei_holic
     published-date: 2025-03-21
@@ -338,46 +507,98 @@
     text: |
       🎉🎉🎉第5弾出演者解禁🎉🎉🎉
       5/4(日)LIVEHOLIC presents. “革命ロジック2025“ supported by Skream! & 激ロック
-
+      
       前売り ¥4,000 / 学生チケット¥3,000 (D別)
       ※当日券は+¥1,000UP
-
+      
       LivePocketにてチケット発売中↓
       https://t.livepocket.jp/e/kakumei2025
       ※チケット販売は5月3日23時59分まで
+      
     image:
-    - id: GmjeK9zbIAAWwew
-      label: poster
-      localCopy: true
+    - GmjeK9zbIAAWwew
     video:
-    - id: bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
-      cover: 1903015103253151744/pu/img/oUOZFvdLdiNzZp5q.jpg
-      label: artist presentations
-  - type: postx
+    - bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
+    linked-to:
+    - postximage:
+        post: 1903038891042673069
+        image: GmjeK9zbIAAWwew
+    - postxvideo:
+        post: 1903038891042673069
+        video: bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postximage:
+    post: 1903038891042673069
+    id: GmjeK9zbIAAWwew
+    label: poster
+    published-date: 2025-03-21
+    local-copy: true
+    linked-to:
+    - postx: 1903038891042673069
+
+- postxvideo:
+    post: 1903038891042673069
+    id: bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
+    label: artist presentations
+    cover: 1903015103253151744/pu/img/oUOZFvdLdiNzZp5q.jpg
+    published-date: 2025-03-21
+    linked-to:
+    - postx: 1903038891042673069
+
+- postx:
     id: 1918591839306666269
     account: nekiband_jp
     published-date: 2025-05-03
     label: Schedule
     text: |
       🔥明日出演🔥
-
+      
       あす5/4(日)開催
       「LIVEHOLIC presents. “革命ロジック2025“ supported by Skream! & 激ロック」
-
+      
       NEK!は下北沢シャングリラにて17:30から出演です💨
-
+      
       下北沢でお待ちしております🫶
-
+      
       前売りチケットはこちら▼
       https://t.livepocket.jp/e/kakumei2025
-
+      
       #NEKI #革命ロジック
+      
     image:
-    - id: GqA0mxha4AAZusD
-      label: シャングリラ schedule
-    - id: GqA0m0ta0AAA-dL
-      label: festival schedule
-  - type: postx
+    - GqA0mxha4AAZusD
+    - GqA0m0ta0AAA-dL
+    linked-to:
+    - postximage:
+        post: 1918591839306666269
+        image: GqA0mxha4AAZusD
+    - postximage:
+        post: 1918591839306666269
+        image: GqA0m0ta0AAA-dL
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postximage:
+    post: 1918591839306666269
+    id: GqA0mxha4AAZusD
+    label: シャングリラ schedule
+    published-date: 2025-05-03
+    linked-to:
+    - postx: 1918591839306666269
+
+- postximage:
+    post: 1918591839306666269
+    id: GqA0m0ta0AAA-dL
+    label: festival schedule
+    published-date: 2025-05-03
+    linked-to:
+    - postx: 1918591839306666269
+
+- postx:
     id: 1918967431936053416
     account: nekiband_jp
     published-date: 2025-05-04
@@ -385,44 +606,90 @@
     text: |
       LIVEHOLIC presents. “革命ロジック2025“ supported by Skream! & 激ロック
       @ 下北沢シャングリラ
-
+      
       ご来場ありがとうございました🎪
-
+      
       本日撮影いただいた「Get Over」やライブの感想は #NEKI をつけてポストよろしくお願いします🫶
-
+      
       #革命ロジック2025
+      
     image:
-    - id: GqGKtFtbsAAScbY
-      label: the band
-    - id: GqGKtFwa0AACJVD
-      label: from the back of the crowd
-  - type: youtubeshort
+    - GqGKtFtbsAAScbY
+    - GqGKtFwa0AACJVD
+    linked-to:
+    - postximage:
+        post: 1918967431936053416
+        image: GqGKtFtbsAAScbY
+    - postximage:
+        post: 1918967431936053416
+        image: GqGKtFwa0AACJVD
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postximage:
+    post: 1918967431936053416
+    id: GqGKtFtbsAAScbY
+    label: the band
+    published-date: 2025-05-04
+    linked-to:
+    - postx: 1918967431936053416
+
+- postximage:
+    post: 1918967431936053416
+    id: GqGKtFwa0AACJVD
+    label: from the back of the crowd
+    published-date: 2025-05-04
+    linked-to:
+    - postx: 1918967431936053416
+
+- youtubeshort:
     id: 6waPnn_Bxis
     label: Backstage
     info: huddle, stage entry
     published-date: 2025-05-05
-  - type: postx
+    linked-to:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postx:
     id: 1919328460532494808
     account: natsu08_guitar
     published-date: 2025-05-05
     label: Maze bridge
     text: |
       昨日のシャングリラから”MAZE”
-
+      
       “MAZE”のブリッジミュート部分めっちゃ好き！！￼重みが増す！！
-
+      
       （動画の画角上手くいかなくて、ほぼ足なのお許しください￼￼
       ズボンの柄楽しんでください( ◠‿◠ )）
-
+      
       #ネキ界隈 #拡散中 #NEKI #MAZE
+      
     video:
-    - id: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
-      cover: 1919328299047903232/img/dspFPFb7AhRXBwB4.jpg
-      label: MAZE bridge
-      info: Natsu
-      linked-to:
-      - song: maze
-  - type: postx
+    - bb4e888e-5f51-4d44-a6ce-3c57b86955ab
+    linked-to:
+    - postxvideo:
+        post: 1919328460532494808
+        video: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1919328460532494808
+    id: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
+    label: MAZE bridge
+    cover: 1919328299047903232/img/dspFPFb7AhRXBwB4.jpg
+    published-date: 2025-05-05
+    info: Natsu
+    linked-to:
+    - song: maze
+    - postx: 1919328460532494808
+
+- postx:
     id: 1919554837458399724
     account: coco_102
     published-date: 2025-05-06
@@ -430,29 +697,48 @@
     info: Cocoro-cam
     text: |
       👾 👾 👾 👾 ENDLESSGAME 👾 👾 👾 👾
-
+      
       手数多くて大変だけどかっこいいのよー！
       そして照明の色の組み合わせが好き🤤(特にAメロ)
-
+      
       てか毎度コーラスしてるときの顔がマヌケすぎる！笑
       虚無を見つめるのをやめたらいいのだろーか？？
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: ab614f11-559a-4b05-9110-a93a478c49d9
-      cover: 1919554682206486530/img/K1ZfrKm-qNiqu1IN.jpg
-      label: Cocoro-cam
-      info: Cocoro
-      linked-to:
-      - song: endlessgame
-  - type: youtubeshort
+    - ab614f11-559a-4b05-9110-a93a478c49d9
+    linked-to:
+    - postxvideo:
+        post: 1919554837458399724
+        video: ab614f11-559a-4b05-9110-a93a478c49d9
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1919554837458399724
+    id: ab614f11-559a-4b05-9110-a93a478c49d9
+    label: Cocoro-cam
+    cover: 1919554682206486530/img/K1ZfrKm-qNiqu1IN.jpg
+    published-date: 2025-05-06
+    info: Cocoro
+    linked-to:
+    - song: endlessgame
+    - postx: 1919554837458399724
+
+- youtubeshort:
     id: CBPR9cp2urk
     label: Live
     info: from the crowd
     published-date: 2025-05-07
     linked-to:
     - song: dreams
-  - type: postx
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postx:
     id: 1919977679027372546
     account: 46_hikaa
     published-date: 2025-05-06
@@ -461,18 +747,33 @@
     text: |
       一緒にサビとか歌ってくれてる方もいて
       みんなの掛け声はやっぱ最高ばい🔥
-
+      
       まだNEK!のライブ行ったことないよーって方！ぜひぜひ、遊びに来てくださいな︎👍🏻 ̖́-
-
+      
       #NEKI  #ネキ界隈  #拡散中
+      
     video:
-    - id: 37e3c46f-d463-4507-8090-19abc74c839b
-      cover: 1919977607212498946/img/LkMmps3g4daFxN3j.jpg
-      label: Live
-      info: Hika, from the stage
-      linked-to:
-        - song: maze
-  - type: postx
+    - 37e3c46f-d463-4507-8090-19abc74c839b
+    linked-to:
+    - postxvideo:
+        post: 1919977679027372546
+        video: 37e3c46f-d463-4507-8090-19abc74c839b
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1919977679027372546
+    id: 37e3c46f-d463-4507-8090-19abc74c839b
+    label: Live
+    cover: 1919977607212498946/img/LkMmps3g4daFxN3j.jpg
+    published-date: 2025-05-06
+    info: Hika, from the stage
+    linked-to:
+    - song: maze
+    - postx: 1919977679027372546
+
+- postx:
     id: 1920401532488724860
     account: cure_bass_baka
     published-date: 2025-05-08
@@ -481,14 +782,29 @@
     text: |
       反復横跳びベーシスト🎸
       #拡散中  #ネキ界隈  #NEKI
+      
     video:
-    - id: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
-      cover: 1920401419061833728/img/c47mejQ4bkeDGEiN.jpg
-      label: Live
-      info: Jumping Kanade
-      linked-to:
-        - song: maze
-  - type: postx
+    - a54c225e-6b58-47e6-a2b8-d7e90eeae28b
+    linked-to:
+    - postxvideo:
+        post: 1920401532488724860
+        video: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1920401532488724860
+    id: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
+    label: Live
+    cover: 1920401419061833728/img/c47mejQ4bkeDGEiN.jpg
+    published-date: 2025-05-08
+    info: Jumping Kanade
+    linked-to:
+    - song: maze
+    - postx: 1920401532488724860
+
+- postx:
     id: 1920746869560430820
     account: coco_102
     published-date: 2025-05-09
@@ -496,19 +812,34 @@
     info: let's sing together
     text: |
       🌈 🌈 🌈 🌈 🌈 Dreams!!!! 🌈 🌈 🌈 🌈 🌈
-
+      
       ライブの良さがギューッと詰まったこの曲が大好き！
       またみんなで一緒に歌おうー！！
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 86e746a8-fd09-4141-979d-524ced4fa2f0
-      cover: 1920746671652188160/img/cVITx_SpHeb9T00E.jpg
-      label: Live
-      info: Cocoro
-      linked-to:
-        - song: dreams
-  - type: postx
+    - 86e746a8-fd09-4141-979d-524ced4fa2f0
+    linked-to:
+    - postxvideo:
+        post: 1920746869560430820
+        video: 86e746a8-fd09-4141-979d-524ced4fa2f0
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1920746869560430820
+    id: 86e746a8-fd09-4141-979d-524ced4fa2f0
+    label: Live
+    cover: 1920746671652188160/img/cVITx_SpHeb9T00E.jpg
+    published-date: 2025-05-09
+    info: Cocoro
+    linked-to:
+    - song: dreams
+    - postx: 1920746869560430820
+
+- postx:
     id: 1921828183369781385
     account: natsu08_guitar
     published-date: 2025-05-12
@@ -516,19 +847,34 @@
     info: Song D live
     text: |
       本日も足元から失礼します🦵🙏🏻
-
+      
       ライブでここの”Yeah”と”Hey”をみんなで言えたら最高だなーーって思うんですけど、どうですかーー❤️‍🔥❤️‍🔥❤️‍🔥
       一緒に歌ってくれますか‼️‼️❓
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 890f9d50-48f5-4914-9d1f-223e9a52a452
-      cover: 1921828067770847232/img/fTtcpYm1zUWlb4uR.jpg
-      label: Live
-      info: Natsu
-      linked-to:
-        - song: ooak
-  - type: postx
+    - 890f9d50-48f5-4914-9d1f-223e9a52a452
+    linked-to:
+    - postxvideo:
+        post: 1921828183369781385
+        video: 890f9d50-48f5-4914-9d1f-223e9a52a452
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1921828183369781385
+    id: 890f9d50-48f5-4914-9d1f-223e9a52a452
+    label: Live
+    cover: 1921828067770847232/img/fTtcpYm1zUWlb4uR.jpg
+    published-date: 2025-05-12
+    info: Natsu
+    linked-to:
+    - song: ooak
+    - postx: 1921828183369781385
+
+- postx:
     id: 1922588708026404968
     account: cure_bass_baka
     published-date: 2025-05-14
@@ -537,14 +883,29 @@
     text: |
       ENDLESSGAME👾
       #拡散中  #ネキ界隈  #NEKI
+      
     video:
-    - id: 4c117af0-984b-4ba9-8a30-e82f968dd226
-      cover: 1922588402291249152/img/qMgNWg9u_DSfpOQr.jpg
-      label: Live
-      info: Kanade
-      linked-to:
-        - song: endlessgame
-  - type: postx
+    - 4c117af0-984b-4ba9-8a30-e82f968dd226
+    linked-to:
+    - postxvideo:
+        post: 1922588708026404968
+        video: 4c117af0-984b-4ba9-8a30-e82f968dd226
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1922588708026404968
+    id: 4c117af0-984b-4ba9-8a30-e82f968dd226
+    label: Live
+    cover: 1922588402291249152/img/qMgNWg9u_DSfpOQr.jpg
+    published-date: 2025-05-14
+    info: Kanade
+    linked-to:
+    - song: endlessgame
+    - postx: 1922588708026404968
+
+- postx:
     id: 1926928034944213276
     account: natsu08_guitar
     published-date: 2025-05-26
@@ -554,14 +915,29 @@
       5/4、革命ロジックからMAZEのギターソロの部分🌀
       照明がやばい！カッコ良すぎる！！
       #ネキ界隈 #拡散中 #MAZE
+      
     video:
-    - id: d7408dbc-320f-41a5-8e45-5ce994c99049
-      cover: 1926927934914228224/img/pZxdsLyZxhNFUdZ4.jpg
-      label: Live
-      info: solo, Natsu
-      linked-to:
-        - song: maze
-  - type: postx
+    - d7408dbc-320f-41a5-8e45-5ce994c99049
+    linked-to:
+    - postxvideo:
+        post: 1926928034944213276
+        video: d7408dbc-320f-41a5-8e45-5ce994c99049
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1926928034944213276
+    id: d7408dbc-320f-41a5-8e45-5ce994c99049
+    label: Live
+    cover: 1926927934914228224/img/pZxdsLyZxhNFUdZ4.jpg
+    published-date: 2025-05-26
+    info: solo, Natsu
+    linked-to:
+    - song: maze
+    - postx: 1926928034944213276
+
+- postx:
     id: 1929389485147721772
     account: coco_102
     published-date: 2025-06-02
@@ -569,20 +945,35 @@
     info: Get Over
     text: |
       🪩 🪩 🪩 🪩 🪩 Get Over 🪩 🪩 🪩 🪩 🪩
-
+      
       今日も下北沢にてツーマンライブ！ソールド感謝！！
       みんなで最高の夜にしましょう🥹🤘🏻🔥
       またあとでねー！！
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1929389340653912064/img/temN0bVjZ3xG2oFX.jpg
-      label: Live
-      info: Cocoro
-      linked-to:
-        - song: getover
-  - type: postx
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1929389485147721772
+        video: 01
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1929389485147721772
+    id: 01
+    label: Live
+    cover: 1929389340653912064/img/temN0bVjZ3xG2oFX.jpg
+    published-date: 2025-06-02
+    info: Cocoro
+    linked-to:
+    - song: getover
+    - postx: 1929389485147721772
+
+- postx:
     id: 1935184418047672438
     account: coco_102
     published-date: 2025-06-18
@@ -590,86 +981,128 @@
     info: MAZE
     text: |
       ちょっと最近この衣装が恋しくなってきてます^._.^
-
+      
       そんなことよりMAZEやっぱいいね☝🏻🌀
       ライブ中の私たちとフロアの一体感がダントツで気持ち良いです！
       Zeppは一体どーなってしまうんでしょうか、、、！
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1935184259150659584/img/6ddIJMGTVK-EkUor.jpg
-      label: Live
-      info: Cocoro
-      linked-to:
-      - show:
-          year: 2025
-          id: kakumeilogic2025
-      - song: maze
-  - type: youtubeshort
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1935184418047672438
+        video: 01
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
+    post: 1935184418047672438
+    id: 01
+    label: Live
+    cover: 1935184259150659584/img/6ddIJMGTVK-EkUor.jpg
+    published-date: 2025-06-18
+    info: Cocoro
+    linked-to:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: maze
+    - postx: 1935184418047672438
+
+- youtubeshort:
     id: bFHCOVgFMKg
     label: Backstage
     info: before the entry
     published-date: 2025-07-06
-
-- type: show
-  year: 2025
-  id: nekikomsumetokyo
-
-  fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
-  shortname: 「NEK!/komsume TWO-MAN SHOW」
-  sublabel: Tokyo
-  date: 2025-06-02
-  location: 下北沢 Shelter
-  # event-page: TODO: not yet listed at https://www.loft-prj.co.jp/schedule/shelter
-  shared: true
-
-  cover-image:
-    localimage:
-      show:
+    linked-to:
+    - show:
         year: 2025
-        id: nekikomsumetokyo
-      id: cover
+        id: kakumeilogic2025
 
-  multimedia:
-    short:
-    - postxvideo:
-        postid: 1931252079353581736
-        videoid: 01
+- show:
+    year: 2025
+    id: nekikomsumetokyo
+    fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+    shortname: 「NEK!/komsume TWO-MAN SHOW」
+    sublabel: Tokyo
+    date: 2025-06-02
+    location: 下北沢 Shelter
+    cover-image:
+      localimage:
+        show:
+          year: 2025
+          id: nekikomsumetokyo
+        id: cover
+    multimedia:
+      short:
+      - postxvideo:
+          post: 1931252079353581736
+          video: 01
+      - youtubeshort: mOyYGaolObY
+      image:
+      - postximage:
+          post: 1929838014714597729
+          image: GsgpaTQb0AAv3Zr
+      - postximage:
+          post: 1929531593523081226
+          image: GscSvrHbMAAqkrT
+    linked-to:
+    - localimage:
+        show:
+          year: 2025
+          id: nekikomsumetokyo
+        id: cover
     - youtubeshort: mOyYGaolObY
-    image:
-    - postximage:
-        postid: 1929838014714597729
-        imageid: GsgpaTQb0AAv3Zr
-    - postximage:
-        postid: 1929531593523081226
-        imageid: GscSvrHbMAAqkrT
+    - youtubeshort: wKpbdMANRTo
+    - postx: 1925839253633695948
+    - postx: 1929531593523081226
+    - postx: 1929838014714597729
+    - postx: 1929717050664276154
+    - postx: 1931252079353581736
+    - postx: 1933082505084809657
+    - postx: 1934127859645419907
 
-  related:
-  - type: localimage
+- localimage:
     show:
       year: 2025
       id: nekikomsumetokyo
     id: cover
-    filename: cover400.png
     label: cover
-    published-date: 2025-06-02 # TODO: better date
+    filename: cover400.png
+    published-date: 2025-06-02
     source:
       description: NEK! note post
-      url: https://note.com/nekiband_jp/n/nb50d1c0b1dd3
-  - type: youtubeshort
+      url: 'https://note.com/nekiband_jp/n/nb50d1c0b1dd3'
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- youtubeshort:
     id: mOyYGaolObY
     label: Entry
     info: Hika getting on stage
     published-date: 2025-06-02
-  - type: youtubeshort
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- youtubeshort:
     id: wKpbdMANRTo
     label: Promo
     info: studio audio, from the side of the stage
     published-date: 2025-06-06
     linked-to:
     - song: maze
-  - type: postx
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postx:
     id: 1925839253633695948
     account: rakutenbooks
     published-date: 2025-05-23
@@ -677,25 +1110,39 @@
     text: |
       【NEK!コメント動画🎥】 
       「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
-
+      
       NEK!(
       @nekiband_jp
       )
-
+      
       “スラングロックバンド”としてガールズバンド界に旋風を巻き起こすNEK!からコメントが届きました🎸
-
+      
       ▼チケット発売中♩
       https://r10.to/h53e44
-    # image of show poster
-    video: 
-    - id: e0a878eb-034c-48b4-8db2-b37112a4e44a
-      cover: 1925364265340559361/img/raHNEuNv4NJ7__RF.jpg
-      label: NEK! presentation
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumetokyo
-  - type: postx
+      
+    video:
+    - e0a878eb-034c-48b4-8db2-b37112a4e44a
+    linked-to:
+    - postxvideo:
+        post: 1925839253633695948
+        video: e0a878eb-034c-48b4-8db2-b37112a4e44a
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postxvideo:
+    post: 1925839253633695948
+    id: e0a878eb-034c-48b4-8db2-b37112a4e44a
+    label: NEK! presentation
+    cover: 1925364265340559361/img/raHNEuNv4NJ7__RF.jpg
+    published-date: 2025-05-23
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - postx: 1925839253633695948
+
+- postx:
     id: 1929531593523081226
     account: nekiband_jp
     published-date: 2025-06-02
@@ -703,56 +1150,95 @@
     text: |
       NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound
       @下北沢シェルター　
-
+      
       ソールドアウト！！
       激熱ツーマンありがとうございました🔥
-
+      
       かっこよすぎるkomsumeさんと7/18も大阪でお待ちしてます🫶
-
+      
       https://r-t.jp/neki-komsume-twoman
-
+      
       #NEKI #komsume
+      
     image:
-    - id: GscSvrHbMAAqkrT
-      label: The 2 bands
-      info: NEK! and konsume band members
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumetokyo
-  - type: postx
+    - GscSvrHbMAAqkrT
+    linked-to:
+    - postximage:
+        post: 1929531593523081226
+        image: GscSvrHbMAAqkrT
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postximage:
+    post: 1929531593523081226
+    id: GscSvrHbMAAqkrT
+    label: The 2 bands
+    published-date: 2025-06-02
+    info: NEK! and konsume band members
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - postx: 1929531593523081226
+
+- postx:
     id: 1929838014714597729
     account: PCIMUSIC
     published-date: 2025-06-03
     label: thank you
     text: |
       【NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound】GsgpaTQb0AAv3Zr
-
+      
       6/2(月) 東京公演 @下北沢シェルター
-
+      
       お越しいただいた皆様ありがとうございました！ 🙇
-
+      
       次は7/18(金) 大阪公演 @ LIVE SQUARE 2nd LINEでお待ちしております！🔥
-
+      
       チケットはこちら👇
       https://r10.to/h53e44
-
+      
       📸
       @_gmng_
+      
     image:
-    - id: GsgpaTQb0AAv3Zr
-      label: NEK! on stage
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumetokyo
-    - id: Gsgpa56bcAAoxCH
-      label: komsume on stage
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumetokyo
-  - type: postx
+    - GsgpaTQb0AAv3Zr
+    - Gsgpa56bcAAoxCH
+    linked-to:
+    - postximage:
+        post: 1929838014714597729
+        image: GsgpaTQb0AAv3Zr
+    - postximage:
+        post: 1929838014714597729
+        image: Gsgpa56bcAAoxCH
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postximage:
+    post: 1929838014714597729
+    id: GsgpaTQb0AAv3Zr
+    label: NEK! on stage
+    published-date: 2025-06-03
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - postx: 1929838014714597729
+
+- postximage:
+    post: 1929838014714597729
+    id: Gsgpa56bcAAoxCH
+    label: komsume on stage
+    published-date: 2025-06-03
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - postx: 1929838014714597729
+
+- postx:
     id: 1929717050664276154
     account: natsu08_guitar
     published-date: 2025-06-03
@@ -762,151 +1248,231 @@
       💛楽しんでいけますか！
       💜いけますかぁー？
       ❤️いけるかぁぁ⁉️
-
+      
       の3段活用でおおくりしました🌟
       昨日はみんなでMCたくさん喋った！楽しかったっ！！
       （プレイ中の動画は見事振動でスマホが倒れ水の泡になりました(-_-)）
-
+      
       #ネキ界隈 #拡散中
+      
     video:
-    - id: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
-      cover: 1929716963892514817/img/rfjaFqLpGVjttuhQ.jpg
-      label: MC
-      info: Natsu
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumetokyo
-  - type: postx
+    - d1410d59-583b-4a2a-8b72-7d7eef39d3e8
+    linked-to:
+    - postxvideo:
+        post: 1929717050664276154
+        video: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postxvideo:
+    post: 1929717050664276154
+    id: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
+    label: MC
+    cover: 1929716963892514817/img/rfjaFqLpGVjttuhQ.jpg
+    published-date: 2025-06-03
+    info: Natsu
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - postx: 1929717050664276154
+
+- postx:
     id: 1931252079353581736
     account: coco_102
     published-date: 2025-06-07
     label: Live Loner
     text: |
       🐺Loner🐺
-
+      
       ちょっとムラすごいけど許して:( '-' ):
       ワンマン走り切れるように体づくりも頑張りますっ
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1931251684669583360/img/eelT-3_4Rphtrfmd.jpg
-      label: Live
-      info: Cocoro
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumetokyo
-      - song: loner
-  - type: postx
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1931252079353581736
+        video: 01
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postxvideo:
+    post: 1931252079353581736
+    id: 01
+    label: Live
+    cover: 1931251684669583360/img/eelT-3_4Rphtrfmd.jpg
+    published-date: 2025-06-07
+    info: Cocoro
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - song: loner
+    - postx: 1931252079353581736
+
+- postx:
     id: 1933082505084809657
     account: coco_102
     published-date: 2025-06-12
     label: Live Dreams!!!!
     text: |
       🌞 🧡 🌞 🧡 🌞 Dreams!!!! 🧡 🌞 🧡 🌞 🧡
-
+      
       サビ前にフロアのみんながやってるボーカルにエール送るやつ、私も一緒にやってみた！楽しいなこれ！
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1933082405105274880/img/w9NPmPviB93AuYZW.jpg
-      label: Live
-      info: Cocoro
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumetokyo
-      - song: dreams
-  - type: postx
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1933082505084809657
+        video: 01
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postxvideo:
+    post: 1933082505084809657
+    id: 01
+    label: Live
+    cover: 1933082405105274880/img/w9NPmPviB93AuYZW.jpg
+    published-date: 2025-06-12
+    info: Cocoro
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - song: dreams
+    - postx: 1933082505084809657
+
+- postx:
     id: 1934127859645419907
     account: coco_102
     published-date: 2025-06-15
     label: Live OOAK
     text: |
       今月リリースした新曲OOAK、イントロとかサビももちろんいいけど、ここの雰囲気も結構好き🌻
-
+      
       2番サビからスムーズに落ちサビに移行するための架け橋的な役割を担ってるこのセクション！良き！！
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1934127784982622208/img/SiHF4mRvqaOYV-zJ.jpg
-      label: Live
-      info: Cocoro
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumetokyo
-      - song: ooak
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1934127859645419907
+        video: 01
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
 
+- postxvideo:
+    post: 1934127859645419907
+    id: 01
+    label: Live
+    cover: 1934127784982622208/img/SiHF4mRvqaOYV-zJ.jpg
+    published-date: 2025-06-15
+    info: Cocoro
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - song: ooak
+    - postx: 1934127859645419907
 
-- type: show
-  year: 2025
-  id: sendaimusicfuse
-  fullname: Sendai music Fuse
-  date: 2025-06-28
-  location: darwin, Sendai
-  event-page: https://sendaimusicfuse.com
-  shared: true
-  cover-image:
-    postximage:
-      postid: 1933086980537225689
-      imageid: GtOzLBnbYAA_1f5
-  multimedia:
-    video:
-    - postxvideo:
-        postid: 1943937653193543886
-        videoid: 01
-    - postxvideo:
-        postid: 1943530078891315228
-        videoid: 01
-    - postxvideo:
-        postid: 1941695982032617731
-        videoid: 01
-    - postxvideo:
-        postid: 1941062054896660964
-        videoid: 01
-    - youtubeshort: Yhu9_tyO1UY
-    - youtubeshort: FRbyFkaf9-A
-    - postxvideo:
-        postid: 1939993599997042981
-        videoid: 01
-    - postxvideo:
-        postid: 1938863381467013260
-        videoid: 01
-    - postxvideo:
-        postid: 1941384970066653472
-        videoid: 01
+- show:
+    year: 2025
+    id: sendaimusicfuse
+    fullname: Sendai music Fuse
+    date: 2025-06-28
+    location: darwin, Sendai
+    event-page: 'https://sendaimusicfuse.com'
+    cover-image:
+      postximage:
+        post: 1933086980537225689
+        image: GtOzLBnbYAA_1f5
+    multimedia:
+      video:
+      - postxvideo:
+          post: 1943937653193543886
+          video: 01
+      - postxvideo:
+          post: 1943530078891315228
+          video: 01
+      - postxvideo:
+          post: 1941695982032617731
+          video: 01
+      - postxvideo:
+          post: 1941062054896660964
+          video: 01
+      - youtubeshort: Yhu9_tyO1UY
+      - youtubeshort: FRbyFkaf9-A
+      - postxvideo:
+          post: 1939993599997042981
+          video: 01
+      - postxvideo:
+          post: 1938863381467013260
+          video: 01
+      - postxvideo:
+          post: 1941384970066653472
+          video: 01
+      - youtubeshort: d0xe6MdU3yI
+      image:
+      - postximage:
+          post: 1938880954849992881
+          image: GuhJ7uKWcAA2JH3
+      - postximage:
+          post: 1938868329671991307
+          image: Gug-aW9WkAA-x6F
+      - postximage:
+          post: 1938868329671991307
+          image: Gug-aXFaoAMN_q3
+      - postximage:
+          post: 1938868329671991307
+          image: Gug-aXNXYAALVaV
+      - postximage:
+          post: 1938868329671991307
+          image: Gug-aW7XUAAt5w3
+      - postximage:
+          post: 1938880954849992881
+          image: GuhJ7t9XEAAlg5u
+    linked-to:
     - youtubeshort: d0xe6MdU3yI
-    image:
-    - postximage:
-        postid: 1938880954849992881
-        imageid: GuhJ7uKWcAA2JH3
-    - postximage:
-        postid: 1938868329671991307
-        imageid: Gug-aW9WkAA-x6F
-    - postximage:
-        postid: 1938868329671991307
-        imageid: Gug-aXFaoAMN_q3
-    - postximage:
-        postid: 1938868329671991307
-        imageid: Gug-aXNXYAALVaV
-    - postximage:
-        postid: 1938868329671991307
-        imageid: Gug-aW7XUAAt5w3
-    - postximage:
-        postid: 1938880954849992881
-        imageid: GuhJ7t9XEAAlg5u
-  related:
-  - type: youtubeshort
+    - youtubeshort: FRbyFkaf9-A
+    - youtubeshort: Yhu9_tyO1UY
+    - postx: 1933086980537225689
+    - postx: 1938118631382258146
+    - postx: 1938863381467013260
+    - postx: 1938868329671991307
+    - postx: 1938880954849992881
+    - postx: 1939993599997042981
+    - postx: 1941062054896660964
+    - youtubeshort: ecPrF0wxFyU
+    - youtubeshort: FYIzYR84jas
+    - postx: 1941384970066653472
+    - postx: 1941695982032617731
+    - postx: 1943530078891315228
+    - postx: 1943937653193543886
+    - youtubeshort: FSgmKhViYjA
+
+- youtubeshort:
     id: d0xe6MdU3yI
     label: Entry
     info: huddle and entry
     published-date: 2025-06-28
-  - type: youtubeshort
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- youtubeshort:
     id: FRbyFkaf9-A
     label: Live
     published-date: 2025-07-01
@@ -915,7 +1481,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: endlessgame
-  - type: youtubeshort
+
+- youtubeshort:
     id: Yhu9_tyO1UY
     label: Live
     info: Natsu
@@ -925,62 +1492,92 @@
         year: 2025
         id: sendaimusicfuse
     - song: maze
-  - type: postx
+
+- postx:
     id: 1933086980537225689
     account: nekiband_jp
     published-date: 2025-06-12
     label: announcement
     text: |
       🔥情報解禁🔥
-
+      
       6/28(土)開催
       「SENDAI MUSIC FUSE 2025」
-
+      
       NEK!の出演が決定&タイムテーブル公開💥
-
+      
       14:00~14:30
       仙台darwinに出演❤️‍🔥
-
+      
       初の仙台でのライブです！
       お待ちしております🫶
-
+      
       🔗http://sendaimusicfuse.com
-
+      
       #NEKI 
       #SMF
       #SMF2025
       #FUSE
+      
     image:
-    - id: GtOzLBnbYAA_1f5
-      label: Poster
-      localCopy: true
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-    - id: GtOzLB3bMAAkuR1
-      label: Schedule
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-  - type: postx
+    - GtOzLBnbYAA_1f5
+    - GtOzLB3bMAAkuR1
+    linked-to:
+    - postximage:
+        post: 1933086980537225689
+        image: GtOzLBnbYAA_1f5
+    - postximage:
+        post: 1933086980537225689
+        image: GtOzLB3bMAAkuR1
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postximage:
+    post: 1933086980537225689
+    id: GtOzLBnbYAA_1f5
+    label: Poster
+    published-date: 2025-06-12
+    local-copy: true
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - postx: 1933086980537225689
+
+- postximage:
+    post: 1933086980537225689
+    id: GtOzLB3bMAAkuR1
+    label: Schedule
+    published-date: 2025-06-12
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - postx: 1933086980537225689
+
+- postx:
     id: 1938118631382258146
     account: natsu08_guitar
     published-date: 2025-06-26
     label: in 2 days
     text: |
       明後日はついに初仙台❗️❗️❗️🥩
-
+      
       💥「SENDAI MUSIC FUSE2025」 💥
       NEK!は仙台darwinにて、14:00~！
-
+      
       楽しむ準備できてますか！！
       最高の思い出つくろーね〜！🫶🏻🫶🏻🫶🏻
-
+      
       #ネキ界隈 #拡散中 #NEKI
-    # TODO: live video, Dreams!!!. Where from ?
-  - type: postx
+      
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postx:
     id: 1938863381467013260
     account: coco_102
     published-date: 2025-06-28
@@ -989,68 +1586,125 @@
     text: |
       取り急ぎ初仙台ありがとうございましたー！！
       アツアツな会場の雰囲気をちょこっとお届け！！
-
+      
       また来たいなー！楽しかった😌🫶🏻
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1938863218115387392/img/2G4E7ni5SM3ACuk_.jpg
-      label: Live
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-      - song: getover
-  - type: postx
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1938863381467013260
+        video: 01
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postxvideo:
+    post: 1938863381467013260
+    id: 01
+    label: Live
+    cover: 1938863218115387392/img/2G4E7ni5SM3ACuk_.jpg
+    published-date: 2025-06-28
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: getover
+    - postx: 1938863381467013260
+
+- postx:
     id: 1938868329671991307
     account: sendaimusicfuse
     published-date: 2025-06-28
     label: Photo report
     text: |
       SMF2025  Photo Report！！！ 
-
+      
       -darwin-
       NEK!
-
+      
       #darwin
       #NEK!
       #SMF
       #SMF2025
       #FUSE
-
+      
       Photo:村長（高橋卓也）
       @son_tkhs
+      
     image:
-    - id: Gug-aW9WkAA-x6F
-      label: On stage
-      info: Kanade
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-    - id: Gug-aXFaoAMN_q3
-      label: On stage
-      info: Cocoro
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-    - id: Gug-aXNXYAALVaV
-      label: On stage
-      info: Natsu
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-    - id: Gug-aW7XUAAt5w3
-      label: On stage
-      info: Hika
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-  - type: postx
+    - Gug-aW9WkAA-x6F
+    - Gug-aXFaoAMN_q3
+    - Gug-aXNXYAALVaV
+    - Gug-aW7XUAAt5w3
+    linked-to:
+    - postximage:
+        post: 1938868329671991307
+        image: Gug-aW9WkAA-x6F
+    - postximage:
+        post: 1938868329671991307
+        image: Gug-aXFaoAMN_q3
+    - postximage:
+        post: 1938868329671991307
+        image: Gug-aXNXYAALVaV
+    - postximage:
+        post: 1938868329671991307
+        image: Gug-aW7XUAAt5w3
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postximage:
+    post: 1938868329671991307
+    id: Gug-aW9WkAA-x6F
+    label: On stage
+    published-date: 2025-06-28
+    info: Kanade
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - postx: 1938868329671991307
+
+- postximage:
+    post: 1938868329671991307
+    id: Gug-aXFaoAMN_q3
+    label: On stage
+    published-date: 2025-06-28
+    info: Cocoro
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - postx: 1938868329671991307
+
+- postximage:
+    post: 1938868329671991307
+    id: Gug-aXNXYAALVaV
+    label: On stage
+    published-date: 2025-06-28
+    info: Natsu
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - postx: 1938868329671991307
+
+- postximage:
+    post: 1938868329671991307
+    id: Gug-aW7XUAAt5w3
+    label: On stage
+    published-date: 2025-06-28
+    info: Hika
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - postx: 1938868329671991307
+
+- postx:
     id: 1938880954849992881
     account: nekiband_jp
     published-date: 2025-06-28
@@ -1058,79 +1712,133 @@
     text: |
       SENDAI MUSIC FUSE 2025
       @ 仙台darwin
-
+      
       初仙台！
       ありがとうございました❣️
-
+      
       本日撮影いただいた新曲「OOAK」やライブの感想は #NEKI をつけてポストお願いします🫶
-
+      
       8/30(土)開催
       NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
       📍Zepp Shinjuku
-
+      
       🎟️https://l-tike.com/nekiband/
-
+      
       #NEKI #SMF #SMF2025 #FUSE
+      
     image:
-    - id: GuhJ7uKWcAA2JH3
-      label: On stage
-      info: from the crowd
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-    - id: GuhJ7t9XEAAlg5u
-      label: The band
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-  - type: postx
+    - GuhJ7uKWcAA2JH3
+    - GuhJ7t9XEAAlg5u
+    linked-to:
+    - postximage:
+        post: 1938880954849992881
+        image: GuhJ7uKWcAA2JH3
+    - postximage:
+        post: 1938880954849992881
+        image: GuhJ7t9XEAAlg5u
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postximage:
+    post: 1938880954849992881
+    id: GuhJ7uKWcAA2JH3
+    label: On stage
+    published-date: 2025-06-28
+    info: from the crowd
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - postx: 1938880954849992881
+
+- postximage:
+    post: 1938880954849992881
+    id: GuhJ7t9XEAAlg5u
+    label: The band
+    published-date: 2025-06-28
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - postx: 1938880954849992881
+
+- postx:
     id: 1939993599997042981
     account: natsu08_guitar
     published-date: 2025-07-01
     label: Reigen girl
     text: |
       仙台での
-
+      
       👧🏻令現少女👧🏻
-
+      
       あれじゃないこれじゃないって画角調整🎥
       みんなのおかげで撮れた画角🎸🎸🎸
       ありがとう〜！！
       楽しかったー🫶🏻🫶🏻🫶🏻
-
+      
       #ネキ界隈 #拡散中 #NEKI #令現少女
+      
     video:
-    - id: 01
-      cover: 1939993483634262016/img/9R7TYqmQt_RNf9ye.jpg
-      label: Live
-      info: intro
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-      - song: reigengirl
-  - type: postx
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1939993599997042981
+        video: 01
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postxvideo:
+    post: 1939993599997042981
+    id: 01
+    label: Live
+    cover: 1939993483634262016/img/9R7TYqmQt_RNf9ye.jpg
+    published-date: 2025-07-01
+    info: intro
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: reigengirl
+    - postx: 1939993599997042981
+
+- postx:
     id: 1941062054896660964
     account: natsu08_guitar
-    label: Hika having fun during Natsu'solo
     published-date: 2025-07-04
+    label: Hika having fun during Natsu'solo
     text: |
       ギソロで、Hikaが覗き込んできた👀
       可愛いんですこの子🫶🏻
-
+      
       やっぱGet OverはNEK! にとっての原点！フロアとの一体感も最高🔥
-
+      
       #ネキ界隈 #拡散中
+      
     video:
-    - id: 01
-      cover: 1941061974755811330/img/NLb-6ldVo-_O1zee.jpg
-      label: Live
-      info: Natsu solo
-      linked-to:
-      - song: getover
-  - type: youtubeshort
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1941062054896660964
+        video: 01
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postxvideo:
+    post: 1941062054896660964
+    id: 01
+    label: Live
+    cover: 1941061974755811330/img/NLb-6ldVo-_O1zee.jpg
+    published-date: 2025-07-04
+    info: Natsu solo
+    linked-to:
+    - song: getover
+    - postx: 1941062054896660964
+
+- youtubeshort:
     id: ecPrF0wxFyU
     label: Promo
     info: studio audio
@@ -1140,7 +1848,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: dreams
-  - type: youtubeshort
+
+- youtubeshort:
     id: FYIzYR84jas
     label: Promo
     info: studio audio
@@ -1150,92 +1859,153 @@
         year: 2025
         id: sendaimusicfuse
     - song: reigengirl
-  - type: postx
+
+- postx:
     id: 1941384970066653472
     account: 46_hikaa
-    label: Everyone's excitement
     published-date: 2025-07-05
+    label: Everyone's excitement
     text: |
       みんなの盛り上がり最高すぎるぅ〜︎👍🏻 ̖́-
-
+      
       #GetOver  #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1941384859848671233/img/tCuNrkDCAUV5O9wb.jpg
-      label: Live
-      info: Hika
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-      - song: getover
-  - type: postx
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1941384970066653472
+        video: 01
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postxvideo:
+    post: 1941384970066653472
+    id: 01
+    label: Live
+    cover: 1941384859848671233/img/tCuNrkDCAUV5O9wb.jpg
+    published-date: 2025-07-05
+    info: Hika
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: getover
+    - postx: 1941384970066653472
+
+- postx:
     id: 1941695982032617731
     account: coco_102
-    label: Not in the stage uniform this time
     published-date: 2025-07-06
+    label: Not in the stage uniform this time
     text: |
       こないだの仙台は初めてユニフォームじゃない服でステージに上がってみました！いい気分転換になったけど暑すぎた、、
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1941695853950881792/img/AjliwzCakCirv_a1.jpg
-      label: Live
-      info: Cocoro
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-      - song: dreams
-  - type: postx
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1941695982032617731
+        video: 01
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postxvideo:
+    post: 1941695982032617731
+    id: 01
+    label: Live
+    cover: 1941695853950881792/img/AjliwzCakCirv_a1.jpg
+    published-date: 2025-07-06
+    info: Cocoro
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: dreams
+    - postx: 1941695982032617731
+
+- postx:
     id: 1943530078891315228
     account: coco_102
-    label: Live in Sendai
     published-date: 2025-07-11
+    label: Live in Sendai
     text: |
       令現少女🪽
-
+      
       なんかライブの映像前半ほとんどぼやけてた、、泣
       次の大阪では絶対綺麗に撮ってみせる！！！！
-
+      
       #NEKI #拡散中 #ネキ界隈
+      
     video:
-    - id: 01
-      cover: 1943529998046146560/img/hLG0rWujugoBBZzE.jpg
-      label: Live
-      info: Cocoro
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-      - song: reigengirl
-  - type: postx
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1943530078891315228
+        video: 01
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postxvideo:
+    post: 1943530078891315228
+    id: 01
+    label: Live
+    cover: 1943529998046146560/img/hLG0rWujugoBBZzE.jpg
+    published-date: 2025-07-11
+    info: Cocoro
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: reigengirl
+    - postx: 1943530078891315228
+
+- postx:
     id: 1943937653193543886
     account: natsu08_guitar
-    label: Live in Sendai
     published-date: 2025-07-12
+    label: Live in Sendai
     text: |
       ここで一人ひとりと目を合わせて
       みんなの楽しそうな笑顔を見て
       大きな声で歌ってくれるのを聴くのが好き
-
+      
       いつもみんなから元気をもらってます🫶🏻
-
+      
       Zeppでもみんなの最高の笑顔を見るために、そしてみんなにも最高の景色を見せるために全力で駆け抜けていきます！
-
+      
       #ネキ界隈 #拡散中
+      
     video:
-    - id: 01
-      cover: 1943937556623855616/img/vB6J779FswTY0X47.jpg
-      label: Live
-      info: Natsu
-      linked-to:
-      - show:
-          year: 2025
-          id: sendaimusicfuse
-      - song: dreams
-  - type: youtubeshort
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1943937653193543886
+        video: 01
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postxvideo:
+    post: 1943937653193543886
+    id: 01
+    label: Live
+    cover: 1943937556623855616/img/vB6J779FswTY0X47.jpg
+    published-date: 2025-07-12
+    info: Natsu
+    linked-to:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: dreams
+    - postx: 1943937653193543886
+
+- youtubeshort:
     id: FSgmKhViYjA
     label: Promo
     info: studio audio
@@ -1246,182 +2016,237 @@
         id: sendaimusicfuse
     - song: ooak
 
-
-
-
-
-
-- type: show
-  year: 2025
-  id: nekikomsumeosaka
-
-  fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
-  shortname: 「NEK!/komsume TWO-MAN SHOW」
-  sublabel: Osaka
-  date: 2025-07-18
-  location: LIVE SQUARE 2nd LINE
-  # event-page: TODO: not yet listed at http://www.arm-live.com/2nd/schedule/schedule_2025_07.html
-  shared: true
-
-  cover-image:
-    localimage:
-      show:
-        year: 2025
-        id: nekikomsumetokyo
-      id: cover
-    fromOtherElement: true
-
-  multimedia:
-    short:
+- show:
+    year: 2025
+    id: nekikomsumeosaka
+    fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+    shortname: 「NEK!/komsume TWO-MAN SHOW」
+    sublabel: Osaka
+    date: 2025-07-18
+    location: LIVE SQUARE 2nd LINE
+    cover-image:
+      localimage:
+        show:
+          year: 2025
+          id: nekikomsumetokyo
+        id: cover
+      fromOtherElement: true
+    multimedia:
+      short:
+      - youtubeshort: zLd-nv4R2Xg
+      image:
+      - postximage:
+          post: 1946195551969849807
+          image: GwJGgUJXcAES7vk
+    linked-to:
+    - postx: 1944995676963922035
     - youtubeshort: zLd-nv4R2Xg
-    image:
-    - postximage:
-        postid: 1946195551969849807
-        imageid: GwJGgUJXcAES7vk
+    - postx: 1946195551969849807
 
-  related:
-  - type: postx
+- postx:
     id: 1944995676963922035
     account: nekiband_jp
-    label: in 3 days
     published-date: 2025-07-15
+    label: in 3 days
     text: |
       🔥今週末🔥
-
+      
       7/18(金)
       「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
       @ 大阪・LIVE SQUARE 2nd LINE
-
+      
       開催まであと3日💥
       ぜひお越しください！
-
+      
       🔗 https://ticket.rakuten.co.jp/music/jpop/RTG7551/
-
+      
       #NEKI
+      
     image:
-    - id: Gv4DQX6a8AAPdNi
-      label: Poster
-      info: sold out Tokyo
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumeosaka
-  - type: youtubeshort
+    - Gv4DQX6a8AAPdNi
+    linked-to:
+    - postximage:
+        post: 1944995676963922035
+        image: Gv4DQX6a8AAPdNi
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postximage:
+    post: 1944995676963922035
+    id: Gv4DQX6a8AAPdNi
+    label: Poster
+    published-date: 2025-07-15
+    info: sold out Tokyo
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - postx: 1944995676963922035
+
+- youtubeshort:
     id: zLd-nv4R2Xg
     label: Backstage
     info: huddle, entry
     published-date: 2025-07-18
-  - type: postx
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
     id: 1946195551969849807
     account: nekiband_jp
-    label: Thank you
     published-date: 2025-07-18
+    label: Thank you
     text: |
       NEK!/komsume TWO-MAN SHOW
       powered by Diggin' Sound
-
+      
       @ LIVE SQUARE 2nd LINE
-
+      
       大阪編！！！！
       熱い時間をありがとうございました🔥
-
+      
       #NEKI #komsume
+      
     image:
-    - id: GwJGgUJXcAES7vk
-      label: Backstage
-      info: komsume, NEK!
-      linked-to:
-      - show:
-          year: 2025
-          id: nekikomsumeosaka
+    - GwJGgUJXcAES7vk
+    linked-to:
+    - postximage:
+        post: 1946195551969849807
+        image: GwJGgUJXcAES7vk
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
 
+- postximage:
+    post: 1946195551969849807
+    id: GwJGgUJXcAES7vk
+    label: Backstage
+    published-date: 2025-07-18
+    info: komsume, NEK!
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - postx: 1946195551969849807
 
+- show:
+    year: 2025
+    id: internetbabies
+    fullname: 「INTERNET BaBIES -Face to Faith-」
+    date: 2025-07-27
+    location: Daikanyama UNIT, Tokyo
+    event-page: 'https://t.co/BpGhUev7VT'
+    cover-image:
+      postximage:
+        post: 1933117154494427587
+        image: GtPQrgBasAA4sFp
+    linked-to:
+    - postx: 1933117154494427587
 
-
-- type: show
-  year: 2025
-  id: internetbabies
-  fullname: 「INTERNET BaBIES -Face to Faith-」
-  date: 2025-07-27
-  location: Daikanyama UNIT, Tokyo
-  event-page: https://t.co/BpGhUev7VT
-  shared: true
-  cover-image:
-    postximage:
-      postid: 1933117154494427587
-      imageid: GtPQrgBasAA4sFp
-  related:
-  - type: postx
+- postx:
     id: 1933117154494427587
     account: nekiband_jp
     published-date: 2025-06-12
     label: announcement
     text: |
       ❤️‍🔥情報解禁❤️‍🔥
-
+      
       7/27(日)開催
       「NTERNET BaBIES -Face to Faith-」
       ＠ 代官山UNIT
-
+      
       浜野はるきさん(
       @paruparu_86
       )のライブに出演させていただきます🔥
-
+      
       チケット2次先行は明後日6/14(土)12:00より受付開始！
-
+      
       🔗https://l-tike.com/hamanoharuki/
-
+      
       #NEKI
+      
     image:
-    - id: GtPQrgBasAA4sFp
-      label: poster
-      localCopy: true
-      linked-to:
-      - show:
-          year: 2025
-          id: internetbabies
+    - GtPQrgBasAA4sFp
+    linked-to:
+    - postximage:
+        post: 1933117154494427587
+        image: GtPQrgBasAA4sFp
+    - show:
+        year: 2025
+        id: internetbabies
 
-- type: show
-  year: 2025
-  id: thetheoryofscience
-  fullname: '"The Theory of SCIENCE" ～Shinjuku club SCIENCE 10th Anniversary ～'
-  shortname: The Theory of SCIENCE
-  date: 2025-11-18
-  location: Shinjuku, Tokyo
-  event-page: https://club-science.com/detail/2025/11/18
-  shared: true
-  cover-image:
-    postximage:
-      postid: 1934083816131596730
-      imageid: Gtc-9etbYAAg1fO
-  related:
-  - type: postx
+- postximage:
+    post: 1933117154494427587
+    id: GtPQrgBasAA4sFp
+    label: poster
+    published-date: 2025-06-12
+    local-copy: true
+    linked-to:
+    - show:
+        year: 2025
+        id: internetbabies
+    - postx: 1933117154494427587
+
+- show:
+    year: 2025
+    id: thetheoryofscience
+    fullname: '"The Theory of SCIENCE" ～Shinjuku club SCIENCE 10th Anniversary ～'
+    shortname: The Theory of SCIENCE
+    date: 2025-11-18
+    location: Shinjuku, Tokyo
+    event-page: 'https://club-science.com/detail/2025/11/18'
+    cover-image:
+      postximage:
+        post: 1934083816131596730
+        image: Gtc-9etbYAAg1fO
+    linked-to:
+    - postx: 1934083816131596730
+
+- postx:
     id: 1934083816131596730
     account: nekiband_jp
     published-date: 2025-06-15
     label: announcement
     text: |
       🔥情報解禁🔥
-
+      
       11/18,19開催
       ”The Theory of SCIENCE"
       ～Shinjuku club SCIENCE 10th Anniversary ～
-
+      
       NEK!の出演が決定⚡️
       18日(火)に出演させていただきます！
-
+      
       1日券▼
       https://t.livepocket.jp/e/npe57
-
+      
       2日間通し券▼
       https://t.livepocket.jp/e/u5z23
-
+      
       #NEKI
+      
     image:
-    - id: Gtc-9etbYAAg1fO
-      label: poster
-      localCopy: true
-      linked-to:
-      - show:
-          year: 2025
-          id: thetheoryofscience
+    - Gtc-9etbYAAg1fO
+    linked-to:
+    - postximage:
+        post: 1934083816131596730
+        image: Gtc-9etbYAAg1fO
+    - show:
+        year: 2025
+        id: thetheoryofscience
+
+- postximage:
+    post: 1934083816131596730
+    id: Gtc-9etbYAAg1fO
+    label: poster
+    published-date: 2025-06-15
+    local-copy: true
+    linked-to:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    - postx: 1934083816131596730
+

@@ -1,69 +1,95 @@
-type: show
-year: 2025
-id: 1stzepponeman
+- show:
+    year: 2025
+    id: 1stzepponeman
+    fullname: 'NEK! 1ST ZEPP ONE MAN 【#拡散中 #ネキ界隈】'
+    shortname: 1ST ZEPP ONE MAN
+    date: 2025-08-30
+    location: Zepp Shinjuku, Tokyo
+    event-page: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
+    cover-image:
+      localimage:
+        show:
+          year: 2025
+          id: 1stzepponeman
+        id: cover
+    multimedia:
+      addtional:
+      - youtubeshort: 0hC9M6VeCJk
+    linked-to:
+    - localimage:
+        show:
+          year: 2025
+          id: 1stzepponeman
+        id: cover
+    - youtubeshort: 0hC9M6VeCJk
+    - postx: 1931984997382316384
 
-fullname: 'NEK! 1ST ZEPP ONE MAN 【#拡散中 #ネキ界隈】'
-shortname: '1ST ZEPP ONE MAN'
-date: 2025-08-30
-location:  Zepp Shinjuku, Tokyo
-event-page: https://note.com/nekiband_jp/n/ne1cfc8d70c87
-
-cover-image:
-  localimage:
+- localimage:
     show:
       year: 2025
       id: 1stzepponeman
     id: cover
+    label: cover
+    filename: cover640.png
+    published-date: 2025-01-01
+    source:
+      description: NEK! note post
+      url: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
+    linked-to:
+    - show:
+        year: 2025
+        id: 1stzepponeman
 
-multimedia:
-  additional:
-  - youtubeshort: 0hC9M6VeCJk
-
-related:
-- type: localimage
-  show:
-    year: 2025
-    id: 1stzepponeman
-  id: cover
-  filename: cover640.png
-  label: cover
-  published-date: 2025-01-01 # TODO: set a better date
-  source:
-    description: NEK! note post
-    url: https://note.com/nekiband_jp/n/ne1cfc8d70c87
-- type: youtubeshort
-  id: 0hC9M6VeCJk
-  label: Announcement
-  published-date: 2025-03-16
-  linked-to:
-  # TODO: this doesn't show up because we filter all show references in show pages
-  - show:
-      year: 2025
-      id: tricktakingtourtokyo
-- type: postx
-  id: 1931984997382316384
-  account: nekiband_jp
-  published-date: 2025-06-09
-  label: tickets available
-  text: |
-    ￼￼#ロックの日￼￼
-
-    8/30(土)
-    NEK!初のZEPP ONE MAN開催￼
-
-    Live at Zepp Shinjuku￼
-    チケット先着先行受付中！
-
-    ￼ https://l-tike.com/nekiband/
-
-    #NEKI #拡散中 #ネキ界隈
-  image:
-  - id: Gs_KDFfb0AAtXQ1
-    label: On stage
-    info: from the crowd
-    linked-to: 
+- youtubeshort:
+    id: 0hC9M6VeCJk
+    label: Announcement
+    published-date: 2025-03-16
+    linked-to:
     - show:
         year: 2025
         id: tricktakingtourtokyo
-  linked-to:
-  - youtubevideo: IeBks9yGO4A
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1931984997382316384
+    account: nekiband_jp
+    published-date: 2025-06-09
+    label: tickets available
+    text: |
+      ￼￼#ロックの日￼￼
+      
+      8/30(土)
+      NEK!初のZEPP ONE MAN開催￼
+      
+      Live at Zepp Shinjuku￼
+      チケット先着先行受付中！
+      
+      ￼ https://l-tike.com/nekiband/
+      
+      #NEKI #拡散中 #ネキ界隈
+      
+    image:
+    - Gs_KDFfb0AAtXQ1
+    linked-to:
+    - youtubevideo: IeBks9yGO4A
+    - postximage:
+        post: 1931984997382316384
+        image: Gs_KDFfb0AAtXQ1
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1931984997382316384
+    id: Gs_KDFfb0AAtXQ1
+    label: On stage
+    published-date: 2025-06-09
+    info: from the crowd
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - postx: 1931984997382316384
+

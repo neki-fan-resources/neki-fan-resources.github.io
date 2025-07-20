@@ -1,185 +1,181 @@
-- type: show
-  year: 2024
-  id: lupinus2024
+- show:
+    year: 2024
+    id: lupinus2024
+    fullname: LUPINUS ROCK FESTIVAL 2024
+    date: 2024-03-09
+    location: LIVE HOLIC, Tokyo
+    event-page: 'https://famime.net/'
+    setlistfm: nek/2024/liveholic-tokyo-japan-1b561db0
+    cover-image:
+      postximage:
+        post: 1766243435357561130
+        image: GIL1CWga8AA1ryU
+    linked-to:
+    - postx: 1766243435357561130
 
-  fullname: LUPINUS ROCK FESTIVAL 2024
-  date: 2024-03-09
-  location: LIVE HOLIC, Tokyo
-  # generic URL to check periodically
-  event-page: https://famime.net/
-  setlistfm: nek/2024/liveholic-tokyo-japan-1b561db0
-  shared: true
-
-  cover-image:
-    postximage:
-      postid: 1766243435357561130
-      imageid: GIL1CWga8AA1ryU
-
-  related:
-  # post X
-  - type: postx
+- postx:
     id: 1766243435357561130
     account: famime_rock
     published-date: 2024-03-09
     label: all the artists
     text: |
       🔥本日開催🔥
-
+      
       3月9日(土) 下北沢10会場
       🌹LUPINUS ROCK FESTIVAL🌹
-
+      
       ✋ 当日券、出せます！
       #ルピナスロック 4年目にして初…
       ￥5400(D代別) ※下北沢ReGにて11:00から販売開始
-
+      
       総勢108組の極上ライブが下北沢で同時多発🔥
-
+      
       これだけいて全部強い！
       怒涛の108組はこのアーティスト！
       ⬇️⬇️⬇️
-
+      
       カノエラナ 
       @kanoerana7
-
+      
       藤田恵名&ゆーやん 
       @fujitaenamel
-
+      
       神使轟く、激情の如く。 
       @shingeki_rock
-
+      
       ЯeaL 
       @realofficial_12
-
+      
       優利香 
       @N14Yrk
-
+      
       Bitter&Sweet 
       @BandS_team
-
+      
       日乃まそら 
       @msrir512
-
+      
       Disconnect Cendrillon 
       @mino_Re_roll
-
+      
       てのひらえる 
       @tenohirael_info
-
+      
       川音 希 
       @kawaotonozomi
-
+      
       KOU 
       @kou_aka_rani
-
+      
       Riju 
       @Rijuriju0205
-
+      
       CHERRY GIRLS PROJECT 
       @cgp_db
-
+      
       ちょこはち 
       @chocol8band
-
+      
       SOMOSOMO 
       @SOMO2_official
-
+      
       KONSOME+ 
       @moemi_konsome
-
+      
       シュガーパレード 
       @sugar_parade
-
+      
       MAZE 
       @maze_idol
-
+      
       強くてニューゲーム。 
       @tsuyonew_24
-
+      
       FrozeN CakE BaR 
       @FrozenCakeBar
-
+      
       RED-i 
       @RED_RED_RED_i
-
+      
       mistress 
       @mistress_RL
-
+      
       YOLOZ 
       @YOLOZ_info
-
+      
       かんのじゅリ。 
       @juri_117
-
+      
       Pulse of Humanity 
       @PulseOfHumanity
-
+      
       初音 
       @hatsune1011
-
+      
       必殺エモモモモ7 
       @emo7official
-
+      
       PLEVAIL 
       @_PLEVAIL_
-
+      
       82回目の終身刑 
       @82_shushinkei
-
+      
       DaNNY 
       @akinko_danny
-
+      
       GANGDEMIC 
       @gangdemic_info
-
+      
       POPPiNG EMO 
       @popping_emo
-
+      
       WtB 
       @WhotheBitch
-
+      
       KILLT MELT LAND 
       @KILLTMELTLAND
-
+      
       仮面女子 
       @Kamenjoshi_Info
-
+      
       8bitBRAIN 
       @8bitBRAIN_info
-
+      
       会心ノ一撃 
       @KISNnoichigeki
-
+      
       ウイバナ @We_BANA
       IRIS MONDO 
       @IRIS_MONDO
-
+      
       CANDY GO!GO! 
       @onecandygogo
-
+      
       ASH FRAST 
       @ASH_FRAST
-
+      
       Treble 
       @treble_offi
-
+      
       AREINT 
       @AREINT_jp
-
+      
       The Number Zero 
       @ZeroBand0
-
+      
       Finally 
       @Finally_Rock
-
+      
       ストロボサイダー 
       @kanae_sc
-
+      
       妄想レプリカント 
       @mousoureplicant
-
+      
       MARKET SHOP STORE 
       @marketshopstore
-
+      
       momoca
       AKIARIM
       IZANAGI
@@ -240,52 +236,104 @@
       The Layers
       青の流星群
       NEK!
-
+      
       🏡https://famime.net
+      
     image:
-    - id: GIL1CWga8AA1ryU
-      label: poster
-      info: all the artists
-      localCopy: true
-    - id: GIL1CWfbYAA9llo
-      label: full schedule
-    - id: GIL1CWebMAAyx6P
-      label: main venues schedule
-    - id: GIL1CWeaoAACz-Y
-      label: all artist logos
+    - GIL1CWga8AA1ryU
+    - GIL1CWfbYAA9llo
+    - GIL1CWebMAAyx6P
+    - GIL1CWeaoAACz-Y
+    linked-to:
+    - postximage:
+        post: 1766243435357561130
+        image: GIL1CWga8AA1ryU
+    - postximage:
+        post: 1766243435357561130
+        image: GIL1CWfbYAA9llo
+    - postximage:
+        post: 1766243435357561130
+        image: GIL1CWebMAAyx6P
+    - postximage:
+        post: 1766243435357561130
+        image: GIL1CWeaoAACz-Y
+    - show:
+        year: 2024
+        id: lupinus2024
 
-- type: show
-  year: 2024
-  id: arealiberated
+- postximage:
+    post: 1766243435357561130
+    id: GIL1CWga8AA1ryU
+    label: poster
+    published-date: 2024-03-09
+    info: all the artists
+    local-copy: true
+    linked-to:
+    - postx: 1766243435357561130
 
-  fullname: "Shibuya The Game presents: Area Liberated"
-  date: 2024-04-05
-  location: SHIBUYA THE GAME, Tokyo
-  setlistfm: nek/2024/the-game-tokyo-japan-3561dab
-  shared: true
+- postximage:
+    post: 1766243435357561130
+    id: GIL1CWfbYAA9llo
+    label: full schedule
+    published-date: 2024-03-09
+    linked-to:
+    - postx: 1766243435357561130
 
-  cover-image:
-    postximage:
-      postid: 1776084527859061007
-      imageid: GKXrVSDasAAOm0K
+- postximage:
+    post: 1766243435357561130
+    id: GIL1CWebMAAyx6P
+    label: main venues schedule
+    published-date: 2024-03-09
+    linked-to:
+    - postx: 1766243435357561130
 
-  related:
-  - type: youtubeshort
+- postximage:
+    post: 1766243435357561130
+    id: GIL1CWeaoAACz-Y
+    label: all artist logos
+    published-date: 2024-03-09
+    linked-to:
+    - postx: 1766243435357561130
+
+- show:
+    year: 2024
+    id: arealiberated
+    fullname: 'Shibuya The Game presents: Area Liberated'
+    date: 2024-04-05
+    location: SHIBUYA THE GAME, Tokyo
+    setlistfm: nek/2024/the-game-tokyo-japan-3561dab
+    cover-image:
+      postximage:
+        post: 1776084527859061007
+        image: GKXrVSDasAAOm0K
+    linked-to:
+    - youtubeshort: bRHcOHmtXhU
+    - youtubeshort: ChYZQj2s1Ik
+    - postx: 1776084527859061007
+
+- youtubeshort:
     id: bRHcOHmtXhU
     label: Promo
     info: studio audio
     published-date: 2024-04-13
     linked-to:
     - song: getover
-  - type: youtubeshort
+    - show:
+        year: 2024
+        id: arealiberated
+
+- youtubeshort:
     id: ChYZQj2s1Ik
     label: Promo
     info: studio audio
     published-date: 2024-04-16
     linked-to:
     - song: getover
-  # post X
-  - type: postx
+    - show:
+        year: 2024
+        id: arealiberated
+
+- postx:
     id: 1776084527859061007
     account: nekiband_jp
     published-date: 2025-03-22
@@ -295,10 +343,10 @@
       04.05(FRI)
       SHIBUYA THE GAME PRESENTS
       『Area Liberated』
-
+      
       🔴入場料無料!! (別途2DRINK)🔴
       🎫BAND予約受付
-
+      
       <ACT>
       THENEWLEVEL
       4 Roses
@@ -306,34 +354,46 @@
       WORSTRASH
       Jaywock
       ELLE
-
+      
       ご来場お待ちしております🔥
-
+      
       #TICKETFREE
+      
     image:
-    - id: GKXrVSDasAAOm0K
-      label: poster
-      localCopy: true
+    - GKXrVSDasAAOm0K
+    linked-to:
+    - postximage:
+        post: 1776084527859061007
+        image: GKXrVSDasAAOm0K
+    - show:
+        year: 2024
+        id: arealiberated
 
-- type: show
-  year: 2024
-  id: sweetsweetsweet
+- postximage:
+    post: 1776084527859061007
+    id: GKXrVSDasAAOm0K
+    label: poster
+    published-date: 2025-03-22
+    local-copy: true
+    linked-to:
+    - postx: 1776084527859061007
 
-  fullname: Sweet！Sweet！Sweet！
-  date: 2024-05-20
-  location: 下北沢SHELTER, Tokyo
-  setlistfm: nek/2024/shelter-tokyo-japan-2b561ca6
-  event-page: https://www.loft-prj.co.jp/schedule/shelter/282240
-  shared: true
+- show:
+    year: 2024
+    id: sweetsweetsweet
+    fullname: Sweet！Sweet！Sweet！
+    date: 2024-05-20
+    location: 下北沢SHELTER, Tokyo
+    event-page: 'https://www.loft-prj.co.jp/schedule/shelter/282240'
+    setlistfm: nek/2024/shelter-tokyo-japan-2b561ca6
+    cover-image:
+      postximage:
+        post: 1790265744804216903
+        image: GNhNGEkbsAAEJ5A
+    linked-to:
+    - postx: 1790265744804216903
 
-  cover-image:
-    postximage:
-      postid: 1790265744804216903
-      imageid: GNhNGEkbsAAEJ5A
-
-  related:
-  # post X
-  - type: postx
+- postx:
     id: 1790265744804216903
     account: shelter_1001
     published-date: 2025-03-22
@@ -342,41 +402,54 @@
       【来週！】
       5/20(月)
       ” Sweet！Sweet！Sweet！”
-
+      
       CASPA
       はちみつコーヒー座
       つじりお
       IRIS MONDO
       NEK!
-
+      
       OPEN 17:45 / START 18:15
       前売¥2,400(1ドリンク別)
       🎟️
       Livepocketと、各出演者予約にて。是非っ
       https://t.livepocket.jp/e/4qthf
+      
     image:
-    - id: GNhNGEkbsAAEJ5A
-      label: flyer
-      localCopy: true
+    - GNhNGEkbsAAEJ5A
+    linked-to:
+    - postximage:
+        post: 1790265744804216903
+        image: GNhNGEkbsAAEJ5A
+    - show:
+        year: 2024
+        id: sweetsweetsweet
 
-- type: show
-  year: 2024
-  id: fypday1
+- postximage:
+    post: 1790265744804216903
+    id: GNhNGEkbsAAEJ5A
+    label: flyer
+    published-date: 2025-03-22
+    local-copy: true
+    linked-to:
+    - postx: 1790265744804216903
 
-  fullname: '#FYP "For You Place" -DAY1-'
-  date: 2024-06-03
-  location: SHIBUYA THE GAME, Tokyo
-  setlistfm: nek/2024/the-game-tokyo-japan-33561c99
-  event-page: https://t.livepocket.jp/e/k6h5us
-  shared: true
+- show:
+    year: 2024
+    id: fypday1
+    fullname: '#FYP "For You Place" -DAY1-'
+    date: 2024-06-03
+    location: SHIBUYA THE GAME, Tokyo
+    event-page: 'https://t.livepocket.jp/e/k6h5us'
+    setlistfm: nek/2024/the-game-tokyo-japan-33561c99
+    cover-image:
+      postximage:
+        post: 1797140895449673780
+        image: GPC59ywaoAA_Sdl
+    linked-to:
+    - postx: 1797140895449673780
 
-  cover-image:
-    postximage:
-      postid: 1797140895449673780
-      imageid: GPC59ywaoAA_Sdl
-
-  related:
-  - type: postx
+- postx:
     id: 1797140895449673780
     account: SHIBUYATHEGAME
     published-date: 2025-03-22
@@ -387,142 +460,191 @@
       SHIBUYA THE GAME presents
       #FYP -DAY1- 
       ~For You Place~
-
+      
       <ACT>
       モウソウキリン
       NEK!
       Hijack Mind
       HINONABE
       Sleepless Endorphine
-
+      
       🎫各バンド📩予約
       🎫Livepocket本日23:59まで発売!!
       https://t.livepocket.jp/e/k6h5u
-
+      
       #fyp
+      
     image:
-    - id: GPC59ywaoAA_Sdl
-      label: poster
-      localCopy: true
+    - GPC59ywaoAA_Sdl
+    linked-to:
+    - postximage:
+        post: 1797140895449673780
+        image: GPC59ywaoAA_Sdl
+    - show:
+        year: 2024
+        id: fypday1
 
-- type: show
-  year: 2024
-  id: popoutvol11
+- postximage:
+    post: 1797140895449673780
+    id: GPC59ywaoAA_Sdl
+    label: poster
+    published-date: 2025-03-22
+    local-copy: true
+    linked-to:
+    - postx: 1797140895449673780
 
-  fullname: ラストランプpresents.『POP OUT!!vol.11』
-  date: 2024-06-07
-  location: 六本木unravel tokyo
-  setlistfm: nek/2024/unravel-tokyo-tokyo-japan-23561c8b
-  event-page: https://tiget.net/events/314471
-  shared: true
+- show:
+    year: 2024
+    id: popoutvol11
+    fullname: ラストランプpresents.『POP OUT!!vol.11』
+    date: 2024-06-07
+    location: 六本木unravel tokyo
+    event-page: 'https://tiget.net/events/314471'
+    setlistfm: nek/2024/unravel-tokyo-tokyo-japan-23561c8b
+    cover-image:
+      postximage:
+        post: 1780522894059299287
+        image: GLWvKs8bYAAHJQF
+    linked-to:
+    - postx: 1780522894059299287
 
-  cover-image:
-    postximage:
-      postid: 1780522894059299287
-      imageid: GLWvKs8bYAAHJQF
-
-  related:
-  - type: postx
+- postx:
     id: 1780522894059299287
     account: lastlamp_band
     published-date: 2024-04-17
     label: announcement
     text: |
       🔥主催ライブ解禁🔥
-
+      
       2024.6.7(金) 六本木unravel tokyo 
       ラストランプpresents. 
       『POP OUT!!vol.11』
-
+      
       【GUEST】
       ✨Risky Melody
       ✨NEK!
       ✨unSea
       ✨小原涼
-
+      
       OPEN/START 18:10/18:30
-
+      
       🎫4/18 18:00予約開始
       https://tiget.net/events/314471
-
+      
       豪華アーティスト様にご出演いただきます！
-
+      
       久しぶりのPOP OUT!!でなんと...
-
+      
       ・新曲初披露！
       ・重大発表あり！
-
+      
       絶対にお待ちしております🔥
       #ラストランプ
+      
     image:
-    - id: GLWvKs8bYAAHJQF
-      label: poster
-      localCopy: true
+    - GLWvKs8bYAAHJQF
+    linked-to:
+    - postximage:
+        post: 1780522894059299287
+        image: GLWvKs8bYAAHJQF
+    - show:
+        year: 2024
+        id: popoutvol11
 
-- type: show
-  year: 2024
-  id: codeofzerox
+- postximage:
+    post: 1780522894059299287
+    id: GLWvKs8bYAAHJQF
+    label: poster
+    published-date: 2024-04-17
+    local-copy: true
+    linked-to:
+    - postx: 1780522894059299287
 
-  fullname: CODE OF ZERO X 東名阪TOUR
-  date: 2024-06-15
-  location: 下北沢ReG, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b561c98
-  event-page: https://codeofzero.aremond.com/schedule/detail/index/112183
-  shared: true
+- show:
+    year: 2024
+    id: codeofzerox
+    fullname: CODE OF ZERO X 東名阪TOUR
+    date: 2024-06-15
+    location: 下北沢ReG, Tokyo
+    event-page: 'https://codeofzero.aremond.com/schedule/detail/index/112183'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b561c98
+    cover-image:
+      postximage:
+        post: 1799743432564654547
+        image: GPnhi6wbsAAbB-I
+    linked-to:
+    - postx: 1799743432564654547
 
-  cover-image:
-    postximage:
-      postid: 1799743432564654547
-      imageid: GPnhi6wbsAAbB-I
-
-  related:
-  - type: postx
+- postx:
     id: 1799743432564654547
     account: cozcoz_coz
     published-date: 2024-06-09
     label: one week
     text: |
       🎙Next Live⚡️
-
+      
       CODE OF ZERO X 🦋
       東名阪TOUR
       TOKYO
-
+      
       2024年6月15日(土)
       下北沢ReG
       OPEN 17:30 / START 18:00
-
+      
       18:00- EMANON
       18:40- NEK!
       19:25- MARKET SHOP STORE
       20:05- KILLT MELT LAND
       20:45- CODE OF ZERO X 🦋
-
+      
       🎟️http://w.pia.jp/t/coz/
+      
     image:
-    - id: GPnhi6wbsAAbB-I
-      label: poster
-      localCopy: true
-    - id: GPnhj7qaIAAtR_E
-      label: tour schedule
+    - GPnhi6wbsAAbB-I
+    - GPnhj7qaIAAtR_E
+    linked-to:
+    - postximage:
+        post: 1799743432564654547
+        image: GPnhi6wbsAAbB-I
+    - postximage:
+        post: 1799743432564654547
+        image: GPnhj7qaIAAtR_E
+    - show:
+        year: 2024
+        id: codeofzerox
 
-- type: show
-  year: 2024
-  id: beyondthesingularityvol6
+- postximage:
+    post: 1799743432564654547
+    id: GPnhi6wbsAAbB-I
+    label: poster
+    published-date: 2024-06-09
+    local-copy: true
+    linked-to:
+    - postx: 1799743432564654547
 
-  fullname: Beyond The Singularity vol.6
-  date: 2024-06-24
-  location: The DOORS, Tokyo
-  setlistfm: nek/2024/the-doors-tokyo-japan-735602ad
-  shared: true
+- postximage:
+    post: 1799743432564654547
+    id: GPnhj7qaIAAtR_E
+    label: tour schedule
+    published-date: 2024-06-09
+    linked-to:
+    - postx: 1799743432564654547
 
-  cover-image:
-    postximage:
-      postid: 1798608606579007863
-      imageid: GPXmT9iboAA09Sb
-  
-  related:
-  - type: postx
+- show:
+    year: 2024
+    id: beyondthesingularityvol6
+    fullname: Beyond The Singularity vol.6
+    date: 2024-06-24
+    location: The DOORS, Tokyo
+    setlistfm: nek/2024/the-doors-tokyo-japan-735602ad
+    cover-image:
+      postximage:
+        post: 1798608606579007863
+        image: GPXmT9iboAA09Sb
+    linked-to:
+    - postx: 1798608606579007863
+
+- postx:
     id: 1798608606579007863
     account: nekiband_jp
     published-date: 2024-06-06
@@ -531,34 +653,47 @@
       6/24(月)開催
       「Beyond The Singularity vol.6」
       @初台DOORS
-
+      
       出演させていただくことが決定しました🎊
-
+      
       前売りチケットのご予約はNEK!公式XのDMにお願いいたします📮
-
+      
       #NEKI
+      
     image:
-    - id: GPXmT9iboAA09Sb
-      label: poster
-      localCopy: true
+    - GPXmT9iboAA09Sb
+    linked-to:
+    - postximage:
+        post: 1798608606579007863
+        image: GPXmT9iboAA09Sb
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
 
-- type: show
-  year: 2024
-  id: beyondthesingularityvol7
+- postximage:
+    post: 1798608606579007863
+    id: GPXmT9iboAA09Sb
+    label: poster
+    published-date: 2024-06-06
+    local-copy: true
+    linked-to:
+    - postx: 1798608606579007863
 
-  fullname: Beyond The Singularity vol.7
-  date: 2024-07-03
-  location: The DOORS, Tokyo
-  setlistfm: nek/2024/the-doors-tokyo-japan-6b57f6b2
-  shared: true
+- show:
+    year: 2024
+    id: beyondthesingularityvol7
+    fullname: Beyond The Singularity vol.7
+    date: 2024-07-03
+    location: The DOORS, Tokyo
+    setlistfm: nek/2024/the-doors-tokyo-japan-6b57f6b2
+    cover-image:
+      postximage:
+        post: 1801875706387042707
+        image: GQGMZ2dbEAIITAx
+    linked-to:
+    - postx: 1801875706387042707
 
-  cover-image:
-    postximage:
-      postid: 1801875706387042707
-      imageid: GQGMZ2dbEAIITAx
-  
-  related:
-  - type: postx
+- postx:
     id: 1801875706387042707
     account: nekiband_jp
     published-date: 2024-06-15
@@ -567,103 +702,138 @@
       7/3(水)開催
       「Beyond The Singularity vol.7」
       @初台DOORS
-
+      
       NEK!の出演が決定しました🎉
-
+      
       前売りチケットのご予約はNEK!公式XのDMにお願いいたします📩
-
+      
       #NEKI
+      
     image:
-    - id: GQGMZ2dbEAIITAx
-      label: poster
-      localCopy: true
+    - GQGMZ2dbEAIITAx
+    linked-to:
+    - postximage:
+        post: 1801875706387042707
+        image: GQGMZ2dbEAIITAx
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
 
-- type: show
-  year: 2024
-  id: driveyoucrazyvol7
+- postximage:
+    post: 1801875706387042707
+    id: GQGMZ2dbEAIITAx
+    label: poster
+    published-date: 2024-06-15
+    local-copy: true
+    linked-to:
+    - postx: 1801875706387042707
 
-  fullname: 彪presents 【Drive You Crazy vol.7】
-  date: 2024-07-15
-  location: 両国SUNRIZE, Tokyo
-  setlistfm: nek/2024/sunrize-tokyo-japan-53561f75
-  event-page: https://livehousesunrize.jp/events/20189
-  shared: true
+- show:
+    year: 2024
+    id: driveyoucrazyvol7
+    fullname: 彪presents 【Drive You Crazy vol.7】
+    date: 2024-07-15
+    location: 両国SUNRIZE, Tokyo
+    event-page: 'https://livehousesunrize.jp/events/20189'
+    setlistfm: nek/2024/sunrize-tokyo-japan-53561f75
+    cover-image:
+      postximage:
+        post: 1784417275292143972
+        image: GMOGC_5bAAAhTe9
+    linked-to:
+    - youtubeshort: cdIhg5rSCvM
+    - postx: 1784417275292143972
 
-  cover-image:
-    postximage:
-      postid: 1784417275292143972
-      imageid: GMOGC_5bAAAhTe9
-
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: cdIhg5rSCvM
     label: Promo
     info: studio audio
     published-date: 2024-07-19
     linked-to:
     - song: reigengirl
-    # TODO: special entry for the show where it has been played at (when 2 related shows)
     - show:
         year: 2024
         id: 1stonemanlive
-  - type: postx
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
+
+- postx:
     id: 1784417275292143972
     account: Aya_Bas2
     published-date: 2024-04-28
     label: announcement
     text: |
       【情報解禁👏🏻❤️‍🔥】
-
+      
       2024.7.15(月祝)
       両国SUNRIZE
       彪presents
       Drive You Crazy vol.7
-
+      
       w/
       少女S
       EITA(+TAKAEITA)
       NEK!
       MANATY
-
+      
       来場🎫
       https://tiget.net/events/317099
       ※入場順:TIGET→バンド予約→当日
-
+      
       配信🎫
       https://twitcasting.tv/clubtenjiku/shopcart/306758
       ※NEK!の配信出演はございません
-
+      
       両チケット共に5/12(日)12:00発売🔥
+      
     image:
-    - id: GMOGC_5bAAAhTe9
-      label: flyer
-      localCopy: true
+    - GMOGC_5bAAAhTe9
+    linked-to:
+    - postximage:
+        post: 1784417275292143972
+        image: GMOGC_5bAAAhTe9
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
 
-- type: show
-  year: 2024
-  id: fypvol3
+- postximage:
+    post: 1784417275292143972
+    id: GMOGC_5bAAAhTe9
+    label: flyer
+    published-date: 2024-04-28
+    local-copy: true
+    linked-to:
+    - postx: 1784417275292143972
 
-  fullname: '#FYP『For You Place』vol.3'
-  date: 2024-08-02
-  location: SHIBUYA THE GAME, Tokyo
-  setlistfm: nek/2024/the-game-tokyo-japan-7357f6bd
-  event-page: https://t.livepocket.jp/e/dybqz
-  shared: true
+- show:
+    year: 2024
+    id: fypvol3
+    fullname: '#FYP『For You Place』vol.3'
+    date: 2024-08-02
+    location: SHIBUYA THE GAME, Tokyo
+    event-page: 'https://t.livepocket.jp/e/dybqz'
+    setlistfm: nek/2024/the-game-tokyo-japan-7357f6bd
+    cover-image:
+      postximage:
+        post: 1819198572111577421
+        image: GT8XIEAb0AAJjSs
+    linked-to:
+    - youtubeshort: KHPpxHWt-O4
+    - postx: 1819198572111577421
 
-  cover-image:
-    postximage:
-      postid: 1819198572111577421
-      imageid: GT8XIEAb0AAJjSs
-
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: KHPpxHWt-O4
     label: Promo
     info: studio audio
     published-date: 2024-08-10
     linked-to:
     - song: endlessgame
-  - type: postx
+    - show:
+        year: 2024
+        id: fypvol3
+
+- postx:
     id: 1819198572111577421
     account: SHIBUYATHEGAME
     published-date: 2024-08-02
@@ -674,7 +844,7 @@
       SHIBUYA THE GAME presents
       #FYP『For You Place』vol.3
       ⏰OPEN17:30/START18:00
-
+      
       <ACT>
       NEK!
       amour
@@ -682,42 +852,60 @@
       メイビスレーヌ
       Wrath Resolution
       Treble(BAND SET)
-
+      
       🎫各バンド予約
       🎫Livepocket 本日16:30まで発売中!!
       https://t.livepocket.jp/e/dybqz
-
+      
       #FYP
+      
     image:
-    - id: GT8XIEAb0AAJjSs
-      label: poster
-      localCopy: true
+    - GT8XIEAb0AAJjSs
+    linked-to:
+    - postximage:
+        post: 1819198572111577421
+        image: GT8XIEAb0AAJjSs
+    - show:
+        year: 2024
+        id: fypvol3
 
-- type: show
-  year: 2024
-  id: hapikorevol350
+- postximage:
+    post: 1819198572111577421
+    id: GT8XIEAb0AAJjSs
+    label: poster
+    published-date: 2024-08-02
+    local-copy: true
+    linked-to:
+    - postx: 1819198572111577421
 
-  fullname: ハピコレ!! vol.530
-  date: 2024-08-08
-  location: 六本木unravel tokyo
-  setlistfm: nek/2024/unravel-tokyo-tokyo-japan-2b57d09e
-  event-page: https://tiget.net/events/328798
-  shared: true
+- show:
+    year: 2024
+    id: hapikorevol350
+    fullname: ハピコレ!! vol.530
+    date: 2024-08-08
+    location: 六本木unravel tokyo
+    event-page: 'https://tiget.net/events/328798'
+    setlistfm: nek/2024/unravel-tokyo-tokyo-japan-2b57d09e
+    cover-image:
+      postximage:
+        post: 1804448780873519192
+        image: GQqwmSwbYAAMkZ6
+    linked-to:
+    - youtubeshort: E86WMvLxCms
+    - postx: 1804448780873519192
 
-  cover-image:
-    postximage:
-      postid: 1804448780873519192
-      imageid: GQqwmSwbYAAMkZ6
-
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: E86WMvLxCms
     label: Promo
     info: studio audio
     published-date: 2024-08-12
     linked-to:
     - song: getover
-  - type: postx
+    - show:
+        year: 2024
+        id: hapikorevol350
+
+- postx:
     id: 1804448780873519192
     account: nekiband_jp
     published-date: 2024-06-22
@@ -726,36 +914,49 @@
       8/8(木)
       「ハピコレ!!vol.530」
       @ 六本木unravel tokyo
-
+      
       NEK!の出演が決定いたしました⚡️
-
+      
       チケットのご予約は明日6/23(日)12時から🎟️
       https://tiget.net/events/328798
-
+      
       #NEKI
+      
     image:
-    - id: GQqwmSwbYAAMkZ6
-      label: flyer
-      localCopy: true
+    - GQqwmSwbYAAMkZ6
+    linked-to:
+    - postximage:
+        post: 1804448780873519192
+        image: GQqwmSwbYAAMkZ6
+    - show:
+        year: 2024
+        id: hapikorevol350
 
-- type: show
-  year: 2024
-  id: daydreamer4night
+- postximage:
+    post: 1804448780873519192
+    id: GQqwmSwbYAAMkZ6
+    label: flyer
+    published-date: 2024-06-22
+    local-copy: true
+    linked-to:
+    - postx: 1804448780873519192
 
-  fullname: 心斎橋VARON presents. Day Dreamer -4th night-
-  date: 2024-08-21
-  location: Shinsaibashi VARON, Osaka
-  setlistfm: nek/2024/varon-osaka-japan-2354e4b7
-  event-page: https://tiget.net/events/330531
-  shared: true
+- show:
+    year: 2024
+    id: daydreamer4night
+    fullname: 心斎橋VARON presents. Day Dreamer -4th night-
+    date: 2024-08-21
+    location: Shinsaibashi VARON, Osaka
+    event-page: 'https://tiget.net/events/330531'
+    setlistfm: nek/2024/varon-osaka-japan-2354e4b7
+    cover-image:
+      postximage:
+        post: 1825843541756752006
+        image: GVay0webUAAAJ-4
+    linked-to:
+    - postx: 1825843541756752006
 
-  cover-image:
-    postximage:
-      postid: 1825843541756752006
-      imageid: GVay0webUAAAJ-4
-
-  related:
-  - type: postx
+- postx:
     id: 1825843541756752006
     account: LIVEHOUSE_VARON
     published-date: 2024-08-20
@@ -768,30 +969,43 @@
       NEK! / husky(BAND SET) / Buzzer01&. / FiELDz / BlueVeil / CHi+KAZZ
       [OPEN/START]18:00 / 18:30
       [料金]ADV/DOOR ¥2,400/¥2,900(1D別)
+      
     image:
-    - id: GVay0webUAAAJ-4
-      label: poster
-      localCopy: true
+    - GVay0webUAAAJ-4
+    linked-to:
+    - postximage:
+        post: 1825843541756752006
+        image: GVay0webUAAAJ-4
+    - show:
+        year: 2024
+        id: daydreamer4night
 
-- type: show
-  year: 2024
-  id: girlsgirlsgirls
+- postximage:
+    post: 1825843541756752006
+    id: GVay0webUAAAJ-4
+    label: poster
+    published-date: 2024-08-20
+    local-copy: true
+    linked-to:
+    - postx: 1825843541756752006
 
-  fullname: Girls,Girls,Girls-アメリカ村DROP21th Anniversary 4MAN-
-  shortname: Girls,Girls,Girls-アメリカ村DROP21th Anniversary-
-  date: 2024-08-22
-  location: アメリカ村 DROP, Osaka
-  setlistfm: nek/2024/drop-osaka-japan-2354e4ab
-  event-page: https://tiget.net/events/330888
-  shared: true
+- show:
+    year: 2024
+    id: girlsgirlsgirls
+    fullname: Girls,Girls,Girls-アメリカ村DROP21th Anniversary 4MAN-
+    shortname: Girls,Girls,Girls-アメリカ村DROP21th Anniversary-
+    date: 2024-08-22
+    location: アメリカ村 DROP, Osaka
+    event-page: 'https://tiget.net/events/330888'
+    setlistfm: nek/2024/drop-osaka-japan-2354e4ab
+    cover-image:
+      postximage:
+        post: 1826512086530490829
+        image: GVkTDnRbgAMgdNP
+    linked-to:
+    - postx: 1826512086530490829
 
-  cover-image:
-    postximage:
-      postid: 1826512086530490829
-      imageid: GVkTDnRbgAMgdNP
-
-  related:
-  - type: postx
+- postx:
     id: 1826512086530490829
     account: nekiband_jp
     published-date: 2024-08-22
@@ -799,39 +1013,62 @@
     text: |
       「Girls,Girls,Girls -アメリカ村DROP 21th Anniversary 4MAN-」
       @ アメリカ村DROP
-
+      
       本日出演いたします🔥
       ご来場お待ちしております！
-
+      
       https://tiget.net/events/330888
-
+      
       #NEKI
+      
     image:
-    - id: GVkTDnRbgAMgdNP
-      label: poster
-      localCopy: true
-    - id: GVkTDnuXMAA3Sjv
-      label: tour poster
+    - GVkTDnRbgAMgdNP
+    - GVkTDnuXMAA3Sjv
+    linked-to:
+    - postximage:
+        post: 1826512086530490829
+        image: GVkTDnRbgAMgdNP
+    - postximage:
+        post: 1826512086530490829
+        image: GVkTDnuXMAA3Sjv
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
 
-- type: show
-  year: 2024
-  id: soundsgoodvol73
+- postximage:
+    post: 1826512086530490829
+    id: GVkTDnRbgAMgdNP
+    label: poster
+    published-date: 2024-08-22
+    local-copy: true
+    linked-to:
+    - postx: 1826512086530490829
 
-  fullname: Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-
-  shortname: Sounds good!! 73回目!!
-  date: 2024-08-23
-  location: アメリカ村 BEYOND, Osaka
-  setlistfm: nek/2024/beyond-osaka-japan-6357c6a3
-  event-page: https://t.livepocket.jp/e/soundsgood73
-  shared: true
+- postximage:
+    post: 1826512086530490829
+    id: GVkTDnuXMAA3Sjv
+    label: tour poster
+    published-date: 2024-08-22
+    linked-to:
+    - postx: 1826512086530490829
 
-  cover-image:
-    postximage:
-      postid: 1826867524035653715
-      imageid: GVpWTLoXMAAyp1r
+- show:
+    year: 2024
+    id: soundsgoodvol73
+    fullname: Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-
+    shortname: Sounds good!! 73回目!!
+    date: 2024-08-23
+    location: アメリカ村 BEYOND, Osaka
+    event-page: 'https://t.livepocket.jp/e/soundsgood73'
+    setlistfm: nek/2024/beyond-osaka-japan-6357c6a3
+    cover-image:
+      postximage:
+        post: 1826867524035653715
+        image: GVpWTLoXMAAyp1r
+    linked-to:
+    - postx: 1826867524035653715
 
-  related:
-  - type: postx
+- postx:
     id: 1826867524035653715
     account: nekiband_jp
     published-date: 2024-08-23
@@ -839,48 +1076,70 @@
     text: |
       「Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-」
       @ アメリカ村 BEYOND
-
+      
       本日出演させていただきます！
       NEK!と音で遊びましょう~❣️
-
+      
       #NEKI
+      
     image:
-    - id: GVpWTLoXMAAyp1r
-      label: flyer
-      localCopy: true
-    # TODO: link tour poster
+    - GVpWTLoXMAAyp1r
+    linked-to:
+    - postximage:
+        post: 1826867524035653715
+        image: GVpWTLoXMAAyp1r
+    - show:
+        year: 2024
+        id: soundsgoodvol73
 
-- type: show
-  year: 2024
-  id: wingedit
+- postximage:
+    post: 1826867524035653715
+    id: GVpWTLoXMAAyp1r
+    label: flyer
+    published-date: 2024-08-23
+    local-copy: true
+    linked-to:
+    - postx: 1826867524035653715
 
-  fullname: winged it
-  date: 2024-08-24
-  location: CLUB UPSET, Nagoya
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-4b561f7e
-  shared: true
+- show:
+    year: 2024
+    id: wingedit
+    fullname: winged it
+    date: 2024-08-24
+    location: CLUB UPSET, Nagoya
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-4b561f7e
+    cover-image:
+      postximage:
+        post: 1827255587870273643
+        image: GVu3DSDXgAAEC5y
+    linked-to:
+    - youtubeshort: OvaY9jENatI
+    - youtubeshort: v16v2MvFJyM
+    - postx: 1827255587870273643
 
-  cover-image:
-    postximage:
-      postid: 1827255587870273643
-      imageid: GVu3DSDXgAAEC5y
-
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: OvaY9jENatI
     label: Promo
     info: studio audio
     published-date: 2024-09-11
     linked-to:
     - song: maze
-  - type: youtubeshort
+    - show:
+        year: 2024
+        id: wingedit
+
+- youtubeshort:
     id: v16v2MvFJyM
     label: Promo
     info: studio audio
     published-date: 2024-09-17
     linked-to:
     - song: reigengirl
-  - type: postx
+    - show:
+        year: 2024
+        id: wingedit
+
+- postx:
     id: 1827255587870273643
     account: clubupset
     published-date: 2024-08-24
@@ -894,37 +1153,50 @@
       NEK!
       リーガルアットサンズ
       amis amants
-
+      
       open 18:00 /start 18:30
       当日券.￥2,900-(D別)
       開場後に販売いたします！
-
+      
       是非遊びにきてください！
       お待ちしております！
+      
     image:
-    - id: GVu3DSDXgAAEC5y
-      label: poster
-      localCopy: true
+    - GVu3DSDXgAAEC5y
+    linked-to:
+    - postximage:
+        post: 1827255587870273643
+        image: GVu3DSDXgAAEC5y
+    - show:
+        year: 2024
+        id: wingedit
 
-- type: show
-  year: 2024
-  id: soundshocktokyo2024
+- postximage:
+    post: 1827255587870273643
+    id: GVu3DSDXgAAEC5y
+    label: poster
+    published-date: 2024-08-24
+    local-copy: true
+    linked-to:
+    - postx: 1827255587870273643
 
-  fullname: BASS ON TOP ✕ ゼンミュー Presents SOUND SHOCK TOKYO2024
-  shortname: SOUND SHOCK TOKYO 2024
-  date: 2024-08-27
-  location: 下北沢ReG, Tokyo
-  setlistfm: nek/2024/shimokitazawa-reg-tokyo-japan-2355c8ab
-  event-page: https://prbassontop.com/sstokyo24_1/
-  shared: true
+- show:
+    year: 2024
+    id: soundshocktokyo2024
+    fullname: BASS ON TOP ✕ ゼンミュー Presents SOUND SHOCK TOKYO2024
+    shortname: SOUND SHOCK TOKYO 2024
+    date: 2024-08-27
+    location: 下北沢ReG, Tokyo
+    event-page: 'https://prbassontop.com/sstokyo24_1/'
+    setlistfm: nek/2024/shimokitazawa-reg-tokyo-japan-2355c8ab
+    cover-image:
+      postximage:
+        post: 1795757514870665423
+        image: GOvP8Swa0AAK1tW
+    linked-to:
+    - postx: 1795757514870665423
 
-  cover-image:
-    postximage:
-      postid: 1795757514870665423
-      imageid: GOvP8Swa0AAK1tW
-
-  related:
-  - type: postx
+- postx:
     id: 1795757514870665423
     account: nekiband_jp
     published-date: 2024-05-29
@@ -932,36 +1204,49 @@
     text: |
       8/27(火)開催
       「SOUND SHOCK TOKYO 2024」
-
+      
       NEK!の出演が決定しました🎉
-
+      
       チケットご予約は下記TIGET or NEK!公式XのDMにお願いします📩
       https://tiget.net/events/322991
-
+      
       #NEKI #SS_T24
+      
     image:
-    - id: GOvP8Swa0AAK1tW
-      label: poster
-      localCopy: true
+    - GOvP8Swa0AAK1tW
+    linked-to:
+    - postximage:
+        post: 1795757514870665423
+        image: GOvP8Swa0AAK1tW
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
 
-- type: show
-  year: 2024
-  id: torarockfestival
+- postximage:
+    post: 1795757514870665423
+    id: GOvP8Swa0AAK1tW
+    label: poster
+    published-date: 2024-05-29
+    local-copy: true
+    linked-to:
+    - postx: 1795757514870665423
 
-  fullname: ラストランプpresents.「トラROCK FESTIVAL」
-  date: 2024-08-31
-  location: 下北沢CLUB251
-  setlistfm: nek/2024/club-251-tokyo-japan-2b540036
-  event-page: https://t.livepocket.jp/e/torarockfes2024
-  shared: true
+- show:
+    year: 2024
+    id: torarockfestival
+    fullname: ラストランプpresents.「トラROCK FESTIVAL」
+    date: 2024-08-31
+    location: 下北沢CLUB251
+    event-page: 'https://t.livepocket.jp/e/torarockfes2024'
+    setlistfm: nek/2024/club-251-tokyo-japan-2b540036
+    cover-image:
+      postximage:
+        post: 1799063840925315512
+        image: GPePBkmbcAEVfyW
+    linked-to:
+    - postx: 1799063840925315512
 
-  cover-image:
-    postximage:
-      postid: 1799063840925315512
-      imageid: GPePBkmbcAEVfyW
-
-  related:
-  - type: postx
+- postx:
     id: 1799063840925315512
     account: TOLAROCK_FES
     published-date: 2024-06-07
@@ -970,7 +1255,7 @@
       ／
       第一弾出演者発表！
       ＼
-
+      
       ✨日乃まそら(@msrir512)
       ✨Risky Melody(@_Risky_Melody_)
       ✨unSea (@unSea_0616)
@@ -980,32 +1265,45 @@
       CASPA (@caspa_band)
       ✨Rons week (@Ronsweek)
       ✨小原涼 ( @obararyou)
-
+      
       #トラロックフェス
+      
     image:
-    - id: GPePBkmbcAEVfyW
-      label: poster
-      localCopy: true
+    - GPePBkmbcAEVfyW
+    linked-to:
+    - postximage:
+        post: 1799063840925315512
+        image: GPePBkmbcAEVfyW
+    - show:
+        year: 2024
+        id: torarockfestival
 
-- type: show
-  year: 2024
-  id: ringringring
+- postximage:
+    post: 1799063840925315512
+    id: GPePBkmbcAEVfyW
+    label: poster
+    published-date: 2024-06-07
+    local-copy: true
+    linked-to:
+    - postx: 1799063840925315512
 
-  fullname: LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~
-  shortname: LIVEHOLIC ~Ring! Ring! Ring!~
-  date: 2024-09-08
-  location: 下北沢LIVEHOLIC, Tokyo
-  setlistfm: nek/2024/liveholic-tokyo-japan-2b54e4b2
-  event-page: https://liveholic.jp/schedule/2024/09/liveholic-9th-anniversaryseriesring-ring-ring.php
-  shared: true
+- show:
+    year: 2024
+    id: ringringring
+    fullname: LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~
+    shortname: LIVEHOLIC ~Ring! Ring! Ring!~
+    date: 2024-09-08
+    location: 下北沢LIVEHOLIC, Tokyo
+    event-page: 'https://liveholic.jp/schedule/2024/09/liveholic-9th-anniversaryseriesring-ring-ring.php'
+    setlistfm: nek/2024/liveholic-tokyo-japan-2b54e4b2
+    cover-image:
+      postximage:
+        post: 1832614238424301660
+        image: GW7Ac3YbEAAYoku
+    linked-to:
+    - postx: 1832614238424301660
 
-  cover-image:
-    postximage:
-      postid: 1832614238424301660
-      imageid: GW7Ac3YbEAAYoku
-
-  related:
-  - type: postx
+- postx:
     id: 1832614238424301660
     account: nekiband_jp
     published-date: 2024-09-08
@@ -1014,45 +1312,57 @@
       【㊗️本日開催㊗️】
       9/8(日)LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~
       OPEN 18:30 / START 19:00
-
+      
       NEK! 
       @nekiband_jp
-
+      
       2winkle wink 
       @2winkle_wink
-
+      
       EMANON 
       @EMANON_0308
-
-
+      
+      
       前売 ￥3,000 / 当日 ￥3,500（D別）
       ※入場順はTIGET A1〜→当日券の順です。
       🎟️当日券の販売あり！
       担当：石田
+      
     image:
-    - id: GW7Ac3YbEAAYoku
-      label: poster
-      localCopy: true
+    - GW7Ac3YbEAAYoku
+    linked-to:
+    - postximage:
+        post: 1832614238424301660
+        image: GW7Ac3YbEAAYoku
+    - show:
+        year: 2024
+        id: ringringring
 
-- type: show
-  year: 2024
-  id: fypvol5
-  uid: 2024_fypvol5
+- postximage:
+    post: 1832614238424301660
+    id: GW7Ac3YbEAAYoku
+    label: poster
+    published-date: 2024-09-08
+    local-copy: true
+    linked-to:
+    - postx: 1832614238424301660
 
-  fullname: '#FYP "For You Place" vol.5'
-  date: 2024-09-19
-  location: SHIBUYA THE GAME, Tokyo
-  setlistfm: nek/2024/the-game-tokyo-japan-b52d1ba
-  event-page: https://t.livepocket.jp/e/3o_8u
-  shared: true
+- show:
+    year: 2024
+    id: fypvol5
+    fullname: '#FYP "For You Place" vol.5'
+    date: 2024-09-19
+    location: SHIBUYA THE GAME, Tokyo
+    event-page: 'https://t.livepocket.jp/e/3o_8u'
+    setlistfm: nek/2024/the-game-tokyo-japan-b52d1ba
+    cover-image:
+      postximage:
+        post: 1836637097840775291
+        image: GX0Lhdsa8AA1DHs
+    linked-to:
+    - postx: 1836637097840775291
 
-  cover-image:
-    postximage:
-      postid: 1836637097840775291
-      imageid: GX0Lhdsa8AA1DHs
-  
-  related:
-  - type: postx
+- postx:
     id: 1836637097840775291
     account: SHIBUYATHEGAME
     published-date: 2024-09-19
@@ -1063,7 +1373,7 @@
       SHIBUYA THE GAME presents
       #FYP『For You Place』vol.5
       ⏰OPEN17:30/START18:00
-
+      
       <ACT>
       NEK!
       Flat×Company
@@ -1071,37 +1381,50 @@
       セブンス・ベガ
       AND CALL.
       AREINT
-
+      
       TICKET INFO
       🎫各バンド📩予約
       🎫Livepocket この後17:00まで!!お早めに🚨
       https://t.livepocket.jp/e/3o_8u
-
+      
       #FYP
+      
     image:
-    - id: GX0Lhdsa8AA1DHs
-      label: poster
-      localCopy: true
+    - GX0Lhdsa8AA1DHs
+    linked-to:
+    - postximage:
+        post: 1836637097840775291
+        image: GX0Lhdsa8AA1DHs
+    - show:
+        year: 2024
+        id: fypvol5
 
-- type: show
-  year: 2024
-  id: minamiwheel2024
+- postximage:
+    post: 1836637097840775291
+    id: GX0Lhdsa8AA1DHs
+    label: poster
+    published-date: 2024-09-19
+    local-copy: true
+    linked-to:
+    - postx: 1836637097840775291
 
-  fullname: 'Eggs presents #FM802 35th Anniversary “Be FUNKY!!” MINAMI WHEEL 2024'
-  shortname: 'Eggs presents “Be FUNKY!!” MINAMI WHEEL 2024'
-  date: 2024-10-13
-  location: 心斎橋VARON, Osaka
-  setlistfm: nek/2024/varon-osaka-japan-1353d5b9
-  event-page: https://minamiwheel.jp/
-  shared: true
+- show:
+    year: 2024
+    id: minamiwheel2024
+    fullname: 'Eggs presents #FM802 35th Anniversary “Be FUNKY!!” MINAMI WHEEL 2024'
+    shortname: Eggs presents “Be FUNKY!!” MINAMI WHEEL 2024
+    date: 2024-10-13
+    location: 心斎橋VARON, Osaka
+    event-page: 'https://minamiwheel.jp/'
+    setlistfm: nek/2024/varon-osaka-japan-1353d5b9
+    cover-image:
+      postximage:
+        post: 1833792678414463036
+        image: GXLwuK6b0AAsCaB
+    linked-to:
+    - postx: 1833792678414463036
 
-  cover-image:
-    postximage:
-      postid: 1833792678414463036
-      imageid: GXLwuK6b0AAsCaB
-  
-  related:
-  - type: postx
+- postx:
     id: 1833792678414463036
     account: minamiwheel
     published-date: 2024-09-11
@@ -1111,50 +1434,63 @@
       FM802 MINAMI WHEEL 2024
       第3弾出演者&日割り発表📣
       ＼
-
+      
       Eggs presents
       FM802 35th Anniversary
       “Be FUNKY!!” MINAMI WHEEL 2024
-
+      
       第3弾出演アーティストと
       日割りを発表しました‼️
-
+      
       詳しくはHPや
       #ミナホ アプリをチェック👀
-
+      
       公式HP：http://minamiwheel.jp
-
+      
       #FM802 #MINAMIWHEEL
+      
     image:
-    - id: GXLwuK6b0AAsCaB
-      label: flyer
-      localCopy: true
+    - GXLwuK6b0AAsCaB
+    linked-to:
+    - postximage:
+        post: 1833792678414463036
+        image: GXLwuK6b0AAsCaB
+    - show:
+        year: 2024
+        id: minamiwheel2024
 
-- type: show
-  year: 2024
-  id: ignition
+- postximage:
+    post: 1833792678414463036
+    id: GXLwuK6b0AAsCaB
+    label: flyer
+    published-date: 2024-09-11
+    local-copy: true
+    linked-to:
+    - postx: 1833792678414463036
 
-  fullname: 251 presents Ignition!!! ~ Special Two Man Show ~
-  date: 2024-11-06
-  location: 下北沢CLUB251, Tokyo
-  setlistfm: nek/2024/club-251-tokyo-japan-7353e6f9
-  event-page: https://club251.com/schedule/241106/
-  shared: true
+- show:
+    year: 2024
+    id: ignition
+    fullname: 251 presents Ignition!!! ~ Special Two Man Show ~
+    date: 2024-11-06
+    location: 下北沢CLUB251, Tokyo
+    event-page: 'https://club251.com/schedule/241106/'
+    setlistfm: nek/2024/club-251-tokyo-japan-7353e6f9
+    cover-image:
+      postximage:
+        post: 1854050886647173628
+        image: GbroRIOa8AAzJCY
+    linked-to:
+    - postx: 1854050886647173628
 
-  cover-image:
-    postximage:
-      postid: 1854050886647173628
-      imageid: GbroRIOa8AAzJCY
-
-  related:
-  - type: postx
+- postx:
     id: 1854050886647173628
     account: CLUB251official
     published-date: 2024-11-06
     label: today
     text: |
       本日の251は…
-
+      
       251 presents Ignition!!!
       〜Special Two Man Show〜
       act/
@@ -1162,37 +1498,50 @@
       NEK!
       OPEN 19:30 / START 20:00
       当日 ¥4,500＋1D
-
+      
       以上です！
       今年爆発したBray meのツーマンシリーズ！
       年内ラストのお相手は話題急上昇中のNEK!です！
       当日券若干出ます！
       ご安全に〜！
-
+      
       by 仁侠
+      
     image:
-    - id: GbroRIOa8AAzJCY
-      label: flyer
-      localCopy: true
+    - GbroRIOa8AAzJCY
+    linked-to:
+    - postximage:
+        post: 1854050886647173628
+        image: GbroRIOa8AAzJCY
+    - show:
+        year: 2024
+        id: ignition
 
-- type: show
-  year: 2024
-  id: sweetsweetsweet2
+- postximage:
+    post: 1854050886647173628
+    id: GbroRIOa8AAzJCY
+    label: flyer
+    published-date: 2024-11-06
+    local-copy: true
+    linked-to:
+    - postx: 1854050886647173628
 
-  fullname: Sweet！Sweet！Sweet！
-  date: 2024-11-07
-  location: 下北沢SHELTER, Tokyo
-  setlistfm: nek/2024/shelter-tokyo-japan-7b53e6fc
-  event-page: https://www.loft-prj.co.jp/schedule/shelter/294411
-  shared: true
+- show:
+    year: 2024
+    id: sweetsweetsweet2
+    fullname: Sweet！Sweet！Sweet！
+    date: 2024-11-07
+    location: 下北沢SHELTER, Tokyo
+    event-page: 'https://www.loft-prj.co.jp/schedule/shelter/294411'
+    setlistfm: nek/2024/shelter-tokyo-japan-7b53e6fc
+    cover-image:
+      postximage:
+        post: 1854440185460879405
+        image: GbxLhFfbIAA1wRw
+    linked-to:
+    - postx: 1854440185460879405
 
-  cover-image:
-    postximage:
-      postid: 1854440185460879405
-      imageid: GbxLhFfbIAA1wRw
-
-  related:
-  - type: postx
+- postx:
     id: 1854440185460879405
     account: shelter_1001
     published-date: 2024-11-07
@@ -1201,38 +1550,51 @@
       【本日！🍹】
       11/7(木)
       “Sweet!Sweet!Sweet! “
-
+      
       EMNW
       ジャムトハイボール
       NEK!
       ちゃんゆ胃
-
+      
       OPEN 19:00 / START 19:30
       当日券(¥2,900+1 drink)は開場後に販売します！注目女性アーティスト目白押し✨
       是非っ
+      
     image:
-    - id: GbxLhFfbIAA1wRw
-      label: flyer
-      localCopy: true
+    - GbxLhFfbIAA1wRw
+    linked-to:
+    - postximage:
+        post: 1854440185460879405
+        image: GbxLhFfbIAA1wRw
+    - show:
+        year: 2024
+        id: sweetsweetsweet2
 
-- type: show
-  year: 2024
-  id: digginsoundvol2
+- postximage:
+    post: 1854440185460879405
+    id: GbxLhFfbIAA1wRw
+    label: flyer
+    published-date: 2024-11-07
+    local-copy: true
+    linked-to:
+    - postx: 1854440185460879405
 
-  fullname: Diggin’ Sound Vol.2
-  date: 2024-11-27
-  location: 下北沢 近道, Tokyo
-  setlistfm: nek/2024/chikamichi-tokyo-japan-6b53e6ea
-  event-page: https://chikamichi-otemae.com/chikamichi/1953/
-  shared: true
+- show:
+    year: 2024
+    id: digginsoundvol2
+    fullname: Diggin’ Sound Vol.2
+    date: 2024-11-27
+    location: 下北沢 近道, Tokyo
+    event-page: 'https://chikamichi-otemae.com/chikamichi/1953/'
+    setlistfm: nek/2024/chikamichi-tokyo-japan-6b53e6ea
+    cover-image:
+      postximage:
+        post: 1856985434020061342
+        image: GcPSyaLasAE0E3-
+    linked-to:
+    - postx: 1856985434020061342
 
-  cover-image:
-    postximage:
-      postid: 1856985434020061342
-      imageid: GcPSyaLasAE0E3-
-
-  related:
-  - type: postx
+- postx:
     id: 1856985434020061342
     account: bazoo_official
     published-date: 2024-11-14
@@ -1240,86 +1602,160 @@
     text: |
       11.27(水)『Diggin’ Sound Vol.2』
       @下北沢近道
-
+      
       #ディグサ 開催まであと２週間を切りました📢
       出演アーティストの出番はこちら👇
-
+      
       🎫はこちらから
       https://r-t.jp/digginsound
-
+      
       @rassembler_band
-
+      
       @nekiband_jp
-
+      
       @komsume_com
-
+      
       @jamtohighball
-
+      
       @lalanchia_band
+      
     image:
-    - id: GcPSyaLasAE0E3-
-      label: poster
-      localCopy: true
+    - GcPSyaLasAE0E3-
     video:
-    - id: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
-      cover: 1856559489245425664/pu/img/SpsFR8nhXy8j_dZo.jpg
-      label: presentation
-      info: presentation of each band
+    - d102d125-ebaf-44b4-a337-f9d5b48ee2cf
+    linked-to:
+    - postximage:
+        post: 1856985434020061342
+        image: GcPSyaLasAE0E3-
+    - postxvideo:
+        post: 1856985434020061342
+        video: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
+    - show:
+        year: 2024
+        id: digginsoundvol2
 
-- type: show
-  year: 2024
-  id: overfest2024
+- postximage:
+    post: 1856985434020061342
+    id: GcPSyaLasAE0E3-
+    label: poster
+    published-date: 2024-11-14
+    local-copy: true
+    linked-to:
+    - postx: 1856985434020061342
 
-  fullname: SNAZZY TUNES × over print presents over fest 2024
-  shortname: over fest 2024
-  date: 2024-11-30
-  location: 下北沢MOSAiC, Tokyo
-  event-page: https://tokytunes.com/topic-tunes-live-399/
-  shared: true
+- postxvideo:
+    post: 1856985434020061342
+    id: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
+    label: presentation
+    cover: 1856559489245425664/pu/img/SpsFR8nhXy8j_dZo.jpg
+    published-date: 2024-11-14
+    info: presentation of each band
+    linked-to:
+    - postx: 1856985434020061342
 
-  cover-image:
-    postximage:
-      postid: 1851932879170752613
-      imageid: GbM3V_gbsAAOSAH
+- show:
+    year: 2024
+    id: overfest2024
+    fullname: SNAZZY TUNES × over print presents over fest 2024
+    shortname: over fest 2024
+    date: 2024-11-30
+    location: 下北沢MOSAiC, Tokyo
+    event-page: 'https://tokytunes.com/topic-tunes-live-399/'
+    cover-image:
+      postximage:
+        post: 1851932879170752613
+        image: GbM3V_gbsAAOSAH
+    linked-to:
+    - youtubeshort: '-mmjisKakXU'
+    - postx: 1851932879170752613
 
-  related:
-  - type: youtubeshort
-    id: -mmjisKakXU
+- youtubeshort:
+    id: '-mmjisKakXU'
     label: Promo
     info: studio audio
     published-date: 2024-12-14
     linked-to:
     - song: fool
-  - type: postx
+    - show:
+        year: 2024
+        id: overfest2024
+
+- postx:
     id: 1851932879170752613
     account: Snazzy_Tunes
     published-date: 2024-11-14
     label: announcement
     text: |
       🎁#overfestプレゼント🎁
-
+      
       本アカウントをフォロー＆リポストいただいた方
       抽選で1️⃣名様に…
-
+      
       ⚡️NEK! 
       @nekiband_jp
-
-
+      
+      
       🗃️サイン入り限定クリアファイル(非売品)と
       📛#overfest コラボ缶バッジプレゼント！
-
+      
       ＼当日は15:30～ MOSAiC出演！／
-
+      
       11月30日(土) 下北沢11会場
       SNAZZY TUNES × over print pre.
       ⚡️over fest 2024⚡️
+      
     image:
-    - id: GbM3V_gbsAAOSAH
-      label: poster
-      localCopy: true
-    - id: GbM3MSXakAgJdbk
-      label: poster neki
-    - id: GbM3RQHasAAkpyS
-      label: badge neki
-    - id: GbM3YFiakAE0iM2
-      label: schedule
+    - GbM3V_gbsAAOSAH
+    - GbM3MSXakAgJdbk
+    - GbM3RQHasAAkpyS
+    - GbM3YFiakAE0iM2
+    linked-to:
+    - postximage:
+        post: 1851932879170752613
+        image: GbM3V_gbsAAOSAH
+    - postximage:
+        post: 1851932879170752613
+        image: GbM3MSXakAgJdbk
+    - postximage:
+        post: 1851932879170752613
+        image: GbM3RQHasAAkpyS
+    - postximage:
+        post: 1851932879170752613
+        image: GbM3YFiakAE0iM2
+    - show:
+        year: 2024
+        id: overfest2024
+
+- postximage:
+    post: 1851932879170752613
+    id: GbM3V_gbsAAOSAH
+    label: poster
+    published-date: 2024-11-14
+    local-copy: true
+    linked-to:
+    - postx: 1851932879170752613
+
+- postximage:
+    post: 1851932879170752613
+    id: GbM3MSXakAgJdbk
+    label: poster neki
+    published-date: 2024-11-14
+    linked-to:
+    - postx: 1851932879170752613
+
+- postximage:
+    post: 1851932879170752613
+    id: GbM3RQHasAAkpyS
+    label: badge neki
+    published-date: 2024-11-14
+    linked-to:
+    - postx: 1851932879170752613
+
+- postximage:
+    post: 1851932879170752613
+    id: GbM3YFiakAE0iM2
+    label: schedule
+    published-date: 2024-11-14
+    linked-to:
+    - postx: 1851932879170752613
+

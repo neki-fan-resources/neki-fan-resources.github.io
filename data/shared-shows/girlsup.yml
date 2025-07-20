@@ -1,626 +1,795 @@
-- type: show
-  year: 2024
-  id: guvol349
+- show:
+    year: 2024
+    id: guvol349
+    fullname: Girl's UP!!! vol.349
+    date: 2024-03-07
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-349/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-1b561d14
+    cover-image:
+      postximage:
+        post: 1765625866816803054
+        image: GIDCvFoaEAARgCV
+    linked-to:
+    - youtubeshort: TF3IDIX41Q0
+    - postx: 1765625866816803054
 
-  fullname: Girl's UP!!! vol.349
-  date: 2024-03-07
-  location: Shibuya eggman, Tokyo
-  event-page: http://eggman.jp/schedule/girls-up-vol-349/
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-1b561d14
-  shared: true
-
-  cover-image:
-    postximage:
-      postid: 1765625866816803054
-      imageid: GIDCvFoaEAARgCV
-
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: TF3IDIX41Q0
     label: Promo
     info: studio audio
     published-date: 2024-03-15
     linked-to:
     - song: getover
-  - type: postx
+    - show:
+        year: 2024
+        id: guvol349
+
+- postx:
     id: 1765625866816803054
     account: shibuya_eggman
     published-date: 2024-03-07
     label: today
     text: |
       🥠本日🥠
-
+      
       Girl's UP!!! vol.349
-
+      
       IrisaVior
       EMANON
       ES-TRUS
       ЯeaL
       優利香
       NEK!
-
+      
       OPEN 17:30
       START 18:00
       TICKET ￥3,000-(+1D)  
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: GIDCvFoaEAARgCV
-      label: sidewalk board
-      localCopy: true
+    - GIDCvFoaEAARgCV
+    linked-to:
+    - postximage:
+        post: 1765625866816803054
+        image: GIDCvFoaEAARgCV
+    - show:
+        year: 2024
+        id: guvol349
 
-- type: show
-  year: 2024
-  id: guvol350
+- postximage:
+    post: 1765625866816803054
+    id: GIDCvFoaEAARgCV
+    label: sidewalk board
+    published-date: 2024-03-07
+    local-copy: true
+    linked-to:
+    - postx: 1765625866816803054
 
-  fullname: Girl's UP!!! vol.350
-  date: 2024-04-09
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3561daf
-  event-page: http://eggman.jp/schedule/girls-up-vol-350/
-  shared: true
-
-  cover-image:
-    postximage:
-      postid: 1777594109558952005
-      imageid: GKtHu_waEAA2ryE
-
-  multimedia:
-    short:
+- show:
+    year: 2024
+    id: guvol350
+    fullname: Girl's UP!!! vol.350
+    date: 2024-04-09
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-350/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3561daf
+    cover-image:
+      postximage:
+        post: 1777594109558952005
+        image: GKtHu_waEAA2ryE
+    multimedia:
+      short:
+      - youtubeshort: 6W-P3YBkybQ
+    linked-to:
     - youtubeshort: 6W-P3YBkybQ
+    - postx: 1777594109558952005
 
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: 6W-P3YBkybQ
     label: Live
     published-date: 2024-04-20
     linked-to:
     - song: reigengirl
-  - type: postx
+    - show:
+        year: 2024
+        id: guvol350
+
+- postx:
     id: 1777594109558952005
     account: shibuya_eggman
     published-date: 2024-04-09
     label: today
     text: |
       Girl's UP!!! vol.350
-
+      
       萠珈
       はちみつコーヒー座 
       EMANON
       NEK!
       日乃まそら
       NANAO
-
+      
       OPEN 18:00
       START 18:30
       DOOR ￥3,000-(+1D)  
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: GKtHu_waEAA2ryE
-      label: sidewalk board
-      localCopy: true
+    - GKtHu_waEAA2ryE
+    linked-to:
+    - postximage:
+        post: 1777594109558952005
+        image: GKtHu_waEAA2ryE
+    - show:
+        year: 2024
+        id: guvol350
 
-- type: show
-  year: 2024
-  id: guvol351
+- postximage:
+    post: 1777594109558952005
+    id: GKtHu_waEAA2ryE
+    label: sidewalk board
+    published-date: 2024-04-09
+    local-copy: true
+    linked-to:
+    - postx: 1777594109558952005
 
-  fullname: Girl's UP!!! vol.351
-  date: 2024-05-07
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-33561cad
-  event-page: http://eggman.jp/schedule/girls-up-vol-351/
-  shared: true
+- show:
+    year: 2024
+    id: guvol351
+    fullname: Girl's UP!!! vol.351
+    date: 2024-05-07
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-351/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-33561cad
+    cover-image:
+      postximage:
+        post: 1787740918298345982
+        image: GM9UGEVbQAEGLaw
+    linked-to:
+    - youtubeshort: PkRKMkZCiIE
+    - postx: 1787740918298345982
 
-  cover-image:
-    postximage:
-      postid: 1787740918298345982
-      imageid: GM9UGEVbQAEGLaw
-
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: PkRKMkZCiIE
     label: Promo
     info: studio audio
     published-date: 2024-05-17
     linked-to:
     - song: getover
-  - type: postx
+    - show:
+        year: 2024
+        id: guvol351
+
+- postx:
     id: 1787740918298345982
     account: shibuya_eggman
     published-date: 2024-05-07
     label: today
     text: |
       Girl's UP!!! vol.351
-
+      
       NEK!
       momoca
       START TO BLING
       東京ハテナバナナ
       Qtwins
       Riju
-
+      
       OPEN 18:00 
       START 18:30
       DOOR ¥3,000 + 1D¥600    
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: GM9UGEVbQAEGLaw
-      label: sidewalk board
-      localCopy: true
+    - GM9UGEVbQAEGLaw
+    linked-to:
+    - postximage:
+        post: 1787740918298345982
+        image: GM9UGEVbQAEGLaw
+    - show:
+        year: 2024
+        id: guvol351
 
-- type: show
-  year: 2024
-  id: guvol352
+- postximage:
+    post: 1787740918298345982
+    id: GM9UGEVbQAEGLaw
+    label: sidewalk board
+    published-date: 2024-05-07
+    local-copy: true
+    linked-to:
+    - postx: 1787740918298345982
 
-  fullname: Girl's UP!!! vol.352
-  date: 2024-05-09
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-2b561ca2
-  event-page: http://eggman.jp/schedule/girls-up-vol-352/
-  shared: true
+- show:
+    year: 2024
+    id: guvol352
+    fullname: Girl's UP!!! vol.352
+    date: 2024-05-09
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-352/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-2b561ca2
+    cover-image:
+      postximage:
+        post: 1788471211137306929
+        image: GNHsX4GbUAAlOcj
+    linked-to:
+    - postx: 1788471211137306929
 
-  cover-image:
-    postximage:
-      postid: 1788471211137306929
-      imageid: GNHsX4GbUAAlOcj
-
-  related:
-  - type: postx
+- postx:
     id: 1788471211137306929
     account: shibuya_eggman
     published-date: 2024-05-09
     label: today
     text: |
       🫧本日🫧
-
+      
       Girl's UP!!! vol.352
-
+      
       AND CALL. 
       MARKET SHOP STORE
       Joanna
       NEK!
       ビースト・アニマルズ
-
+      
       OPEN 18:00  
       START 18:30      
       DOOR ￥3,000＋1D
-
+      
       ご来場お待ちしております!
+      
     image:
-    - id: GNHsX4GbUAAlOcj
-      label: sidewalk board
-      localCopy: true
+    - GNHsX4GbUAAlOcj
+    linked-to:
+    - postximage:
+        post: 1788471211137306929
+        image: GNHsX4GbUAAlOcj
+    - show:
+        year: 2024
+        id: guvol352
 
-- type: show
-  year: 2024
-  id: guvol354
+- postximage:
+    post: 1788471211137306929
+    id: GNHsX4GbUAAlOcj
+    label: sidewalk board
+    published-date: 2024-05-09
+    local-copy: true
+    linked-to:
+    - postx: 1788471211137306929
 
-  fullname: Girl's UP!!! vol.354
-  date: 2024-06-04
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b561c98
-  event-page: http://eggman.jp/schedule/girls-up-vol-354/
-  shared: true
+- show:
+    year: 2024
+    id: guvol354
+    fullname: Girl's UP!!! vol.354
+    date: 2024-06-04
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-354/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b561c98
+    cover-image:
+      postximage:
+        post: 1797885211876970975
+        image: GPNeja6aUAEEo7h
+    linked-to:
+    - postx: 1797885211876970975
 
-  cover-image:
-    postximage:
-      postid: 1797885211876970975
-      imageid: GPNeja6aUAEEo7h
-
-  related:
-  - type: postx
+- postx:
     id: 1797885211876970975
     account: shibuya_eggman
     published-date: 2024-06-04
     label: today
     text: |
       🐥本日🐥
-
+      
       Girl's UP!!! vol.354
-
+      
       萠珈 
       川音希 
       EMANON 
       水谷若葉 
       NEK! 
       ヒダリ←イミテイト
-
+      
       OPEN 17:45
       START 18:15
       DOOR ¥3,000+1D  
-
+      
       お待ちしております！
+      
     image:
-    - id: GPNeja6aUAEEo7h
-      label: sidewalk board
-      localCopy: true
+    - GPNeja6aUAEEo7h
+    linked-to:
+    - postximage:
+        post: 1797885211876970975
+        image: GPNeja6aUAEEo7h
+    - show:
+        year: 2024
+        id: guvol354
 
-- type: show
-  year: 2024
-  id: guvol356
+- postximage:
+    post: 1797885211876970975
+    id: GPNeja6aUAEEo7h
+    label: sidewalk board
+    published-date: 2024-06-04
+    local-copy: true
+    linked-to:
+    - postx: 1797885211876970975
 
-  fullname: Girl's UP!!! vol.356
-  date: 2024-06-17
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-6357f6d7
-  event-page: http://eggman.jp/schedule/girls-up-vol-356/
-  shared: true
+- show:
+    year: 2024
+    id: guvol356
+    fullname: Girl's UP!!! vol.356
+    date: 2024-06-17
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-356/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-6357f6d7
+    cover-image:
+      postximage:
+        post: 1802603553820643416
+        image: GQQhU7gboAAgel1
+    linked-to:
+    - youtubeshort: zTAY3PIWLIM
+    - youtubeshort: KDBBqw69Vus
+    - youtubeshort: ZGKbnmh52gw
+    - postx: 1802603553820643416
 
-  cover-image:
-    postximage:
-      postid: 1802603553820643416
-      imageid: GQQhU7gboAAgel1
-
-  related:
-  - type: youtubeshort
+- youtubeshort:
     id: zTAY3PIWLIM
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-18
     linked-to:
     - song: reigengirl
-  - type: youtubeshort
+    - show:
+        year: 2024
+        id: guvol356
+
+- youtubeshort:
     id: KDBBqw69Vus
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-22
     linked-to:
     - song: maze
-  - type: youtubeshort
+    - show:
+        year: 2024
+        id: guvol356
+
+- youtubeshort:
     id: ZGKbnmh52gw
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-26
     linked-to:
     - song: reigengirl
-  - type: postx
+    - show:
+        year: 2024
+        id: guvol356
+
+- postx:
     id: 1802603553820643416
     account: shibuya_eggman
     published-date: 2024-06-17
     label: today
     text: |
       🍜本日🍜
-
+      
       Girl's UP!!! vol.356
-
+      
       日乃まそら
       AND CALL.
       NEK!
       AREINT
       アンクレット
-
+      
       OPEN 18:00
       START 18:30 
       DOOR ￥3,000+1D  
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: GQQhU7gboAAgel1
-      label: sidewalk board
-      localCopy: true
-  
+    - GQQhU7gboAAgel1
+    linked-to:
+    - postximage:
+        post: 1802603553820643416
+        image: GQQhU7gboAAgel1
+    - show:
+        year: 2024
+        id: guvol356
 
-- type: show
-  year: 2024
-  id: guvol357
+- postximage:
+    post: 1802603553820643416
+    id: GQQhU7gboAAgel1
+    label: sidewalk board
+    published-date: 2024-06-17
+    local-copy: true
+    linked-to:
+    - postx: 1802603553820643416
 
-  fullname: Girl's UP!!! vol.357
-  date: 2024-07-01
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-4b561f7e
-  event-page: http://eggman.jp/schedule/girls-up-vol-357/
-  shared: true
+- show:
+    year: 2024
+    id: guvol357
+    fullname: Girl's UP!!! vol.357
+    date: 2024-07-01
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-357/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-4b561f7e
+    cover-image:
+      postximage:
+        post: 1807675589555523709
+        image: GRYmoBmbgAAlnIh
+    linked-to:
+    - postx: 1807675589555523709
 
-  cover-image:
-    postximage:
-      postid: 1807675589555523709
-      imageid: GRYmoBmbgAAlnIh
-  
-  related:
-  - type: postx
+- postx:
     id: 1807675589555523709
     account: shibuya_eggman
     published-date: 2024-07-01
     label: today
     text: |
       本日！！
-
+      
       Girl’s UP!!! vol.357
-
+      
       NEK!
       コウトウマリア
       Buzzer01&.
       キラナ
       水谷若葉
       ReBoom
-
+      
       OPEN 18:15 / START 18:45
       DOOR 3000yen+1D
-
+      
       お待ちしております！
+      
     image:
-    - id: GRYmoBmbgAAlnIh
-      label: sidewalk board
-      localCopy: true
+    - GRYmoBmbgAAlnIh
+    linked-to:
+    - postximage:
+        post: 1807675589555523709
+        image: GRYmoBmbgAAlnIh
+    - show:
+        year: 2024
+        id: guvol357
 
-- type: show
-  year: 2024
-  id: guvol363
+- postximage:
+    post: 1807675589555523709
+    id: GRYmoBmbgAAlnIh
+    label: sidewalk board
+    published-date: 2024-07-01
+    local-copy: true
+    linked-to:
+    - postx: 1807675589555523709
 
-  fullname: Girl's UP!!! vol.363
-  date: 2024-09-10
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-b52d1c6
-  event-page: http://eggman.jp/schedule/girls-up-vol-363/
-  shared: true
+- show:
+    year: 2024
+    id: guvol363
+    fullname: Girl's UP!!! vol.363
+    date: 2024-09-10
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-363/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-b52d1c6
+    cover-image:
+      postximage:
+        post: 1833408179499372832
+        image: GXGQ23WbsAAyxNO
+    linked-to:
+    - postx: 1833408179499372832
 
-  cover-image:
-    postximage:
-      postid: 1833408179499372832
-      imageid: GXGQ23WbsAAyxNO
-  
-  related:
-  - type: postx
+- postx:
     id: 1833408179499372832
     account: shibuya_eggman
     published-date: 2024-09-10
     label: today
     text: |
       ☀️本日☀️
-
+      
       Girl's UP!!! vol.363
-
+      
       AND CALL. 
       NEK!
       EMANON
       浮迷夜
       ReBoom
       メイビスレーヌ
-
+      
       OPEN 17:30 / START 18:00
       TICKET ￥3,000-(+1D)
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: GXGQ23WbsAAyxNO
-      label: sidewalk board
-      localCopy: true
+    - GXGQ23WbsAAyxNO
+    linked-to:
+    - postximage:
+        post: 1833408179499372832
+        image: GXGQ23WbsAAyxNO
+    - show:
+        year: 2024
+        id: guvol363
 
-- type: show
-  year: 2024
-  id: guvol365
+- postximage:
+    post: 1833408179499372832
+    id: GXGQ23WbsAAyxNO
+    label: sidewalk board
+    published-date: 2024-09-10
+    local-copy: true
+    linked-to:
+    - postx: 1833408179499372832
 
-  fullname: Girl's UP!!! vol.365
-  date: 2024-09-24
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-352d1bf
-  event-page: http://eggman.jp/schedule/girls-up-vol-365/
-  shared: true
+- show:
+    year: 2024
+    id: guvol365
+    fullname: Girl's UP!!! vol.365
+    date: 2024-09-24
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-365/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-352d1bf
+    cover-image:
+      postximage:
+        post: 1838488577052913969
+        image: GYOeP9EbAAAVpUJ
+    linked-to:
+    - postx: 1838488577052913969
 
-  cover-image:
-    postximage:
-      postid: 1838488577052913969
-      imageid: GYOeP9EbAAAVpUJ
-
-  related:
-  - type: postx
+- postx:
     id: 1838488577052913969
     account: shibuya_eggman
     published-date: 2024-09-24
     label: today
     text: |
       💫本日!!!💫
-
+      
       Girl's UP!!! vol.365
-
+      
       IrisaVior
       NEK!
       EMANON
       LUMiRiSE
       ※水谷若葉は体調不良の為、出演キャンセルになりました。
-
+      
       OPEN 18:30
       START 19:00 
       当日券 ￥3,000（+1D）  
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: GYOeP9EbAAAVpUJ
-      label: sidewalk board
-      localCopy: true
+    - GYOeP9EbAAAVpUJ
+    linked-to:
+    - postximage:
+        post: 1838488577052913969
+        image: GYOeP9EbAAAVpUJ
+    - show:
+        year: 2024
+        id: guvol365
 
-- type: show
-  year: 2024
-  id: guvol366
+- postximage:
+    post: 1838488577052913969
+    id: GYOeP9EbAAAVpUJ
+    label: sidewalk board
+    published-date: 2024-09-24
+    local-copy: true
+    linked-to:
+    - postx: 1838488577052913969
 
-  fullname: Girl's UP!!! vol.366
-  date: 2024-10-02
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-1b52056c
-  event-page: http://eggman.jp/schedule/girls-up-vol-366/
-  shared: true
+- show:
+    year: 2024
+    id: guvol366
+    fullname: Girl's UP!!! vol.366
+    date: 2024-10-02
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-366/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-1b52056c
+    cover-image:
+      postximage:
+        post: 1841384260705624302
+        image: GY3ocH3bcAALiWN
+    linked-to:
+    - postx: 1841384260705624302
 
-  cover-image:
-    postximage:
-      postid: 1841384260705624302
-      imageid: GY3ocH3bcAALiWN
-    image:
-      filename: cover400.png
-      source:
-        description: shibuya eggman X post
-        url: https://x.com/shibuya_eggman/status/1841384260705624302
-
-  related:
-  - type: postx
+- postx:
     id: 1841384260705624302
     account: shibuya_eggman
     published-date: 2024-10-02
     label: today
     text: |
       🎈本日🎈
-
+      
       Girl's UP!!! vol.366
-
+      
       エイアイカ
       EMANON
       浮迷夜
       NEK!
       ミーマイナー
-
+      
       OPEN 18:00 / START 18:35
       TICKET ￥3,000-(+1D)
-
+      
       ※水谷若葉さんが体調不良で出演キャンセルになりました
+      
     image:
-    - id: GY3ocH3bcAALiWN
-      label: sidewalk board
-      localCopy: true
+    - GY3ocH3bcAALiWN
+    linked-to:
+    - postximage:
+        post: 1841384260705624302
+        image: GY3ocH3bcAALiWN
+    - show:
+        year: 2024
+        id: guvol366
 
-- type: show
-  year: 2024
-  id: nekigufriday
+- postximage:
+    post: 1841384260705624302
+    id: GY3ocH3bcAALiWN
+    label: sidewalk board
+    published-date: 2024-10-02
+    local-copy: true
+    linked-to:
+    - postx: 1841384260705624302
 
-  fullname: NEK!×Girl's UP!!! presents. FRIDAY 4MAN SHOW
-  date: 2024-10-18
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-6353e6fb
-  event-page: http://eggman.jp/schedule/schedule-26342/
-  shared: true
+- show:
+    year: 2024
+    id: nekigufriday
+    fullname: NEK!×Girl's UP!!! presents. FRIDAY 4MAN SHOW
+    date: 2024-10-18
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/schedule-26342/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-6353e6fb
+    cover-image:
+      postximage:
+        post: 1847190084451262858
+        image: GaKJl2Eb0AEjQl_
+    linked-to:
+    - postx: 1847190084451262858
 
-  cover-image:
-    postximage:
-      postid: 1847190084451262858
-      imageid: GaKJl2Eb0AEjQl_
-
-  related:
-  - type: postx
+- postx:
     id: 1847190084451262858
     account: shibuya_eggman
     published-date: 2024-10-18
     label: today
     text: |
       🔥本日🔥
-
+      
       「NEK!×Girl's UP!!! presents. FRIDAY 4MAN SHOW」
       NEK! / ЯeaL / LUMiRiSE / MARKET SHOP STORE
-
+      
       OP18:00/ST 18:30 
       DOOR ￥3,400+1D  
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: GaKJl2Eb0AEjQl_
-      label: sidewalk board
-      localCopy: true
+    - GaKJl2Eb0AEjQl_
+    linked-to:
+    - postximage:
+        post: 1847190084451262858
+        image: GaKJl2Eb0AEjQl_
+    - show:
+        year: 2024
+        id: nekigufriday
 
-- type: show
-  year: 2024
-  id: guvol369
+- postximage:
+    post: 1847190084451262858
+    id: GaKJl2Eb0AEjQl_
+    label: sidewalk board
+    published-date: 2024-10-18
+    local-copy: true
+    linked-to:
+    - postx: 1847190084451262858
 
-  fullname: Girl's UP!!! vol.369
-  date: 2024-12-04
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2024/shibuya-eggman-tokyo-japan-7b515e38
-  event-page: http://eggman.jp/schedule/girls-up-vol-369/
-  shared: true
+- show:
+    year: 2024
+    id: guvol369
+    fullname: Girl's UP!!! vol.369
+    date: 2024-12-04
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/girls-up-vol-369/'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-7b515e38
+    cover-image:
+      postximage:
+        post: 1864191582632583194
+        image: Gd7uUKFa0AAbSuw
+    linked-to:
+    - postx: 1864191582632583194
 
-  cover-image:
-    postximage:
-      postid: 1864191582632583194
-      imageid: Gd7uUKFa0AAbSuw
-
-  related:
-  - type: postx
+- postx:
     id: 1864191582632583194
     account: shibuya_eggman
     published-date: 2024-12-04
     label: today
     text: |
       💖本日💖
-
+      
       Girl's UP!!! vol.369
-
+      
       ReBoom
       Buzzer01&.
       EMANON
       AND CALL. 
       4Chord
       NEK!
-
+      
       OPEN17:30 
       START18:00   
       DOOR ¥3,000+1D 
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: Gd7uUKFa0AAbSuw
-      label: sidewalk board
-      localCopy: true
+    - Gd7uUKFa0AAbSuw
+    linked-to:
+    - postximage:
+        post: 1864191582632583194
+        image: Gd7uUKFa0AAbSuw
+    - show:
+        year: 2024
+        id: guvol369
 
-- type: show
-  year: 2025
-  id: guvol375
+- postximage:
+    post: 1864191582632583194
+    id: Gd7uUKFa0AAbSuw
+    label: sidewalk board
+    published-date: 2024-12-04
+    local-copy: true
+    linked-to:
+    - postx: 1864191582632583194
 
-  fullname: Girl's UP!!! vol.375 ~Three Man Special~
-  date: 2025-02-19
-  location: Shibuya eggman, Tokyo
-  setlistfm: nek/2025/shibuya-eggman-tokyo-japan-b5a6d3a
-  event-page: http://eggman.jp/schedule/schedule-27346/
-  shared: true
+- show:
+    year: 2025
+    id: guvol375
+    fullname: Girl's UP!!! vol.375 ~Three Man Special~
+    date: 2025-02-19
+    location: Shibuya eggman, Tokyo
+    event-page: 'http://eggman.jp/schedule/schedule-27346/'
+    setlistfm: nek/2025/shibuya-eggman-tokyo-japan-b5a6d3a
+    cover-image:
+      postximage:
+        post: 1892129493306810798
+        image: GkIw1_zaAAA0kCd
+    linked-to:
+    - postx: 1892129493306810798
 
-  cover-image:
-    postximage:
-      postid: 1892129493306810798
-      imageid: GkIw1_zaAAA0kCd
-
-  related:
-  - type: postx
+- postx:
     id: 1892129493306810798
     account: shibuya_eggman
     published-date: 2025-02-19
     label: today
     text: |
       🎸本日🎸
-
+      
       Girl's UP!!! vol.375
       〜スリーマンスペシャル〜
-
+      
       LUMiRiSE
       BONE DAWN
       NEK!
-
+      
       OPEN 18:15
       START 18:45
       DOOR ￥3,400+1D
-
+      
       ご来場お待ちしております！
+      
     image:
-    - id: GkIw1_zaAAA0kCd
-      label: sidewalk board
-      localCopy: true
+    - GkIw1_zaAAA0kCd
+    linked-to:
+    - postximage:
+        post: 1892129493306810798
+        image: GkIw1_zaAAA0kCd
+    - show:
+        year: 2025
+        id: guvol375
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- postximage:
+    post: 1892129493306810798
+    id: GkIw1_zaAAA0kCd
+    label: sidewalk board
+    published-date: 2025-02-19
+    local-copy: true
+    linked-to:
+    - postx: 1892129493306810798
 

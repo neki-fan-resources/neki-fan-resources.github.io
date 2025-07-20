@@ -1,68 +1,89 @@
-type: album
-id: tricktaking
+- album:
+    id: tricktaking
+    fullname: TR!CK TAK!NG
+    alt-name: TRICK TAKING
+    designation: EP
+    description:
+    - NEK! second EP.
+    - It was announced on December 29th 2024, on the day of the 'DEBUT YEAR LAST LIVE' show, and released on March 3rd 2025, in the days leading to the start of the '1stワンマンツアー 「TR!CK TAK!NG」' tour.
+    - It followed the releases of the songs 'Loner' and 'Dreams!!!' as singles, and came with release of the music video for the song 'zero-sum'.
+    - The EP was charted in the Billboard JAPAN Top 100 for 2 weeks.
+    release-date: 2025-03-05
+    cover-image:
+      postyoutubeimage:
+        post: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+        image: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
+    songs:
+    - zerosum
+    - fool
+    - loner
+    - moon
+    - dreams
+    linked-to:
+    - postyoutube: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+    - youtubeshort: ieh_ai4aaP0
+    - youtubeshort: 8D7NYm0sa4w
+    - youtubeshort: vs7iqp4JGwQ
 
-fullname: TR!CK TAK!NG
-altname: TRICK TAKING
-designation: EP
+- postyoutube:
+    id: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+    account: neki_official
+    published-date: 2024-02-01
+    label: announcement
+    text: |
+      3/5(水)リリース
+      2nd EP「TR!CK TAK!NG」ジャケット公開💥
+      
+      さらに封入特典&ショップ別オリジナル特典の絵柄を解禁！
+      
+      EPご予約はこちらから▼
+      https://lnk.to/tricktaking_CD
+      
+      
+      NEK! 2nd EP “TR!CK TAK!NG”
+      Released on 2025/3/5(Wed)!!!!
+      The CD jacket is unveiled!
+      In addition, the design of the enclosed benefits and shop-specific original benefits have been unveiled.
+      EP can be pre-ordered here▼
+      https://lnk.to/tricktaking_CD
+      
+    image:
+    - T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
+    linked-to:
+    - postyoutubeimage:
+        post: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+        image: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
+    - album: tricktaking
 
-release-date: 2025-03-05
-
-cover-image:
-  postyoutubeimage:
-    postid: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
-    imageid: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
-
-description:
-- NEK! second EP.
-- It was announced on December 29th 2024, on the day of the 'DEBUT YEAR LAST LIVE' show, and released on March 3rd 2025, in the days leading to the start of the '1stワンマンツアー 「TR!CK TAK!NG」' tour.
-- It followed the releases of the songs 'Loner' and 'Dreams!!!' as singles, and came with release of the music video for the song 'zero-sum'.
-- The EP was charted in the Billboard JAPAN Top 100 for 2 weeks.
-
-songs:
-  - zerosum
-  - fool
-  - loner
-  - moon
-  - dreams
-
-
-related:
-- type: postyoutube
-  id: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
-  account: neki_official
-  label: announcement
-  published-date: 2024-02-01 # TODO: not sure exactly double check date with X post
-  text: |
-    3/5(水)リリース
-    2nd EP「TR!CK TAK!NG」ジャケット公開💥
-
-    さらに封入特典&ショップ別オリジナル特典の絵柄を解禁！
-
-    EPご予約はこちらから▼
-    https://lnk.to/tricktaking_CD
-
-
-    NEK! 2nd EP “TR!CK TAK!NG”
-    Released on 2025/3/5(Wed)!!!!
-    The CD jacket is unveiled!
-    In addition, the design of the enclosed benefits and shop-specific original benefits have been unveiled.
-    EP can be pre-ordered here▼
-    https://lnk.to/tricktaking_CD
-  image:
-  - id: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
+- postyoutubeimage:
+    post: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+    id: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
     label: EP cover
-    localCopy: true
-- type: youtubeshort
-  id: ieh_ai4aaP0
-  label: Release
-  info: display at Tower Records
-  published-date: 2025-03-05
-- type: youtubeshort
-  id: 8D7NYm0sa4w
-  label: Signing pictures
-  info: Signing pictures for the winners at Tower Records
-  published-date: 2025-04-21
-- type: youtubeshort
-  id: vs7iqp4JGwQ
-  label: Signing cards
-  published-date: 2025-05-20
+    published-date: 2024-02-01
+    local-copy: true
+    linked-to:
+    - postyoutube: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+
+- youtubeshort:
+    id: ieh_ai4aaP0
+    label: Release
+    info: display at Tower Records
+    published-date: 2025-03-05
+    linked-to:
+    - album: tricktaking
+
+- youtubeshort:
+    id: 8D7NYm0sa4w
+    label: Signing pictures
+    info: Signing pictures for the winners at Tower Records
+    published-date: 2025-04-21
+    linked-to:
+    - album: tricktaking
+
+- youtubeshort:
+    id: vs7iqp4JGwQ
+    label: Signing cards
+    published-date: 2025-05-20
+    linked-to:
+    - album: tricktaking
+

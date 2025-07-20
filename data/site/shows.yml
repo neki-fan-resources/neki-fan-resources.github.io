@@ -1,20 +1,19 @@
-type: page
-id: shows
-
-shows:
-- show:
-    year: 2024
-    id: shibuyachelseahotel
-- show:
-    year: 2024
-    id: 1stonemanlive
-- show:
-    year: 2024
-    id: 2ndonemanlive
-- show:
-    year: 2024
-    id: debutyearlastlive
-- tour: tricktakingtour
-- show:
-    year: 2025
-    id: 1stzepponeman
+showspage:
+  id: shows
+  shows:
+  - show:
+      year: 2024
+      id: shibuyachelseahotel
+  - show:
+      year: 2024
+      id: 1stonemanlive
+  - show:
+      year: 2024
+      id: 2ndonemanlive
+  - show:
+      year: 2024
+      id: debutyearlastlive
+  - tour: tricktakingtour
+  - show:
+      year: 2025
+      id: 1stzepponeman

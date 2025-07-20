@@ -1,66 +1,72 @@
-- type: mediaaudio
-  year: 2025
-  id: kissfmkobe
-
-  designation: radio show
-  radio: Kiss FM
-  show: Viva la radio
-  host: Skuku Mihoko, Kondo Gakuto
-  member:
-    - Natsu
-    - Kanade
-  webpage: https://www.kiss-fm.co.jp/viva/
-  program: https://radiko.jp/#!/ts/KISSFMKOBE/20250718150000
-
-  published-date: 2025-07-18
-
-  description:
-  - Natsu and Kanade are guest of the show 'Viva la radio' on Kiss FM.
-
-  cover-image:
-    localimage:
-      media:
-        year: 2025
-        id: kissfmkobe
-      id: cover
-
-  multimedia:
-    image:
-    - postximage:
-        postid: 1946059859910365569
-        imageid: GwHLHkEaoAA5dH1
-
-- type: localimage
-  media:
+- mediaaudio:
     year: 2025
     id: kissfmkobe
-  id: cover
-  filename: cover.png
-  label: cover
-  published-date: 2025-01-01
-  source:
-    description: RADICO page
-    url: https://radiko.jp/#!/ts/KISSFMKOBE/20250718150000
+    radio: Kiss FM
+    show: Viva la radio
+    designation: radio show
+    program: 'https://radiko.jp/#!/ts/KISSFMKOBE/20250718150000'
+    host: Skuku Mihoko, Kondo Gakuto
+    member:
+    - Natsu
+    - Kanade
+    webpage: 'https://www.kiss-fm.co.jp/viva/'
+    published-date: 2025-07-18
+    description:
+    - Natsu and Kanade are guest of the show 'Viva la radio' on Kiss FM.
+    cover-image:
+      localimage:
+        media:
+          year: 2025
+          id: kissfmkobe
+        id: cover
+    multimedia:
+      image:
+      - postximage:
+          post: 1946059859910365569
+          image: GwHLHkEaoAA5dH1
 
-- type: postx
-  id: 1946059859910365569
-  account: nekiband_jp
-  label: Thanks you
-  published-date: 2025-07-18
-  text: |
-    Kiss FM KOBE「Viva la radio」
+- localimage:
+    media:
+      year: 2025
+      id: kissfmkobe
+    id: cover
+    label: cover
+    filename: cover.png
+    published-date: 2025-01-01
+    source:
+      description: RADICO page
+      url: 'https://radiko.jp/#!/ts/KISSFMKOBE/20250718150000'
 
-    ご視聴ありがとうございました💋
+- postx:
+    id: 1946059859910365569
+    account: nekiband_jp
+    published-date: 2025-07-18
+    label: Thanks you
+    text: |
+      Kiss FM KOBE「Viva la radio」
+      
+      ご視聴ありがとうございました💋
+      
+      新曲「OOAK」MV▼
+      🎥https://youtu.be/qGEzCjYvWZw
+      
+      #NEKI #ビバラー #KissFMKOB
+      
+    image:
+    - GwHLHkEaoAA5dH1
+    linked-to:
+    - postximage:
+        post: 1946059859910365569
+        image: GwHLHkEaoAA5dH1
 
-    新曲「OOAK」MV▼
-    🎥https://youtu.be/qGEzCjYvWZw
-
-    #NEKI #ビバラー #KissFMKOB
-  image:
-  - id: GwHLHkEaoAA5dH1
+- postximage:
+    post: 1946059859910365569
+    id: GwHLHkEaoAA5dH1
     label: At the studio
+    published-date: 2025-07-18
     linked-to:
     - media:
         year: 2025
         id: kissfmkobe
+    - postx: 1946059859910365569
 

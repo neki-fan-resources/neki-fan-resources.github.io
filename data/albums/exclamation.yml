@@ -1,76 +1,99 @@
-type: album
-id: exclamation
+- album:
+    id: exclamation
+    fullname: EXCLAMAT!ON
+    alt-name: EXCLAMATION
+    designation: EP
+    description:
+    - NEK! first EP.
+    - It was announced on July 6th, and released on July 24th 2024, a few days after the '1ST ONE MAN LIVE' show.
+    - It followed the releases of the songs 'Get Over' and '令現少女' (REIGEN GIRL) as singles, and came with release of the music video for the song 'MAZE'.
+    - The EP was charted in the Billboard JAPAN Top 100 on release week.
+    release-date: 2024-07-24
+    cover-image:
+      postyoutubeimage:
+        post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+        image: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+    songs:
+    - maze
+    - reigengirl
+    - endlessgame
+    - blink
+    - getover
+    multimedia:
+      addtional:
+      - youtubevideo: 387bkUm7Dko
+    linked-to:
+    - youtubevideo: 387bkUm7Dko
+    - localimage:
+        youtubevideo: 387bkUm7Dko
+        id: cover
+    - youtubeshort: YRmeizMwd1Y
+    - postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 
-fullname: EXCLAMAT!ON
-altname: EXCLAMATION
-designation: EP
+- youtubevideo:
+    id: 387bkUm7Dko
+    label: Album Teaser
+    published-date: 2024-06-03
+    linked-to:
+    - album: exclamation
 
-release-date: 2024-07-24
+- localimage:
+    youtubevideo: 387bkUm7Dko
+    id: cover
+    label: Teaser cover
+    filename: cover.png
+    published-date: 2024-06-03
+    source:
+      description: YouTube video
+    hidden: true
+    linked-to:
+    - album: exclamation
 
-cover-image:
-  postyoutubeimage:
-    postid: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
-    imageid: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+- youtubeshort:
+    id: YRmeizMwd1Y
+    label: Album Teaser
+    published-date: 2024-06-03
+    linked-to:
+    - album: exclamation
 
-description:
-- NEK! first EP.
-- It was announced on July 6th, and released on July 24th 2024, a few days after the '1ST ONE MAN LIVE' show.
-- It followed the releases of the songs 'Get Over' and '令現少女' (REIGEN GIRL) as singles, and came with release of the music video for the song 'MAZE'.
-- The EP was charted in the Billboard JAPAN Top 100 on release week.
+- postyoutube:
+    id: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+    account: neki_official
+    published-date: 2024-06-03
+    label: announcement
+    text: |
+      ◤￣￣￣￣￣￣￣￣￣￣◥
+      　 ！！EPリリース！！
+      ◣＿＿＿＿＿＿＿＿＿＿◢
+      
+      2024/7/24(水)
+      1st EP「EXCLAMAT!ON」リリース決定🎊
+      
+      "エクスクラメーション"と読みます📣
+      
+      詳細はこちらから▼
+      https://note.com/nekiband_jp/n/n323cf...
+      
+      
+      2024/7/24(Wed)
+      We are pleased to announce the release of our 1st EP “EXCLAMAT!ON”!
+      For more information, please click here.
+      https://note.com/nekiband_jp/n/n323cf...
+      
+    image:
+    - yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+    linked-to:
+    - postyoutubeimage:
+        post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+        image: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+    - album: exclamation
 
-songs:
-- maze
-- reigengirl
-- endlessgame
-- blink
-- getover
-
-multimedia:
-  additional:
-  - youtubevideo: 387bkUm7Dko
-
-related:
-- type: youtubevideo
-  id: 387bkUm7Dko
-  label: Album Teaser
-  published-date: 2024-06-03 # TODO: check date
-- type: localimage
-  youtubevideo: 387bkUm7Dko
-  id: cover
-  label: Teaser cover
-  published-date: 2024-06-03  # TODO: check date
-  filename: cover.png
-  source:
-    description: YouTube video
-  hidden: true
-- type: youtubeshort
-  id: YRmeizMwd1Y
-  label: Album Teaser
-  published-date: 2024-06-03 # TODO: check date
-- type: postyoutube
-  id: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
-  account: neki_official
-  label: announcement
-  published-date: 2024-06-03 # TODO: double check date with X post
-  text: |
-    ◤￣￣￣￣￣￣￣￣￣￣◥
-    　 ！！EPリリース！！
-    ◣＿＿＿＿＿＿＿＿＿＿◢
-
-    2024/7/24(水)
-    1st EP「EXCLAMAT!ON」リリース決定🎊
-
-    "エクスクラメーション"と読みます📣
-
-    詳細はこちらから▼
-    https://note.com/nekiband_jp/n/n323cf...
-
-
-    2024/7/24(Wed)
-    We are pleased to announce the release of our 1st EP “EXCLAMAT!ON”!
-    For more information, please click here.
-    https://note.com/nekiband_jp/n/n323cf...
-  image:
-  - id: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+- postyoutubeimage:
+    post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+    id: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
     label: EP cover
-    localCopy: true
+    published-date: 2024-06-03
+    local-copy: true
+    linked-to:
+    - postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+

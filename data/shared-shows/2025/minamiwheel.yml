@@ -1,72 +1,103 @@
-- type: show
-  year: 2025
-  id: minamiwheel
-  fullname: FM802 MINAMI WHEEL 2025
-  shortname: MINAMI WHEEL
-  date: 2025-10-11
-  location: Minami, Osaka
-  event-page: https://minamiwheel.jp/
-  cover-image:
-    postximage:
-      postid: 1943145229357584494
-      imageid: GvdwSAWakAAlKdJ
+- show:
+    year: 2025
+    id: minamiwheel
+    fullname: FM802 MINAMI WHEEL 2025
+    shortname: MINAMI WHEEL
+    date: 2025-10-11
+    location: Minami, Osaka
+    event-page: 'https://minamiwheel.jp/'
+    cover-image:
+      postximage:
+        post: 1943145229357584494
+        image: GvdwSAWakAAlKdJ
 
+- postx:
+    id: 1943143169446822118
+    account: minamiwheel
+    published-date: 2025-07-10
+    label: First artits list
+    text: |
+      \\お待たせしました！！//
+      
+      #FM802 MINAMI WHEEL 2025 
+      第一弾出演者発表～！！🔥🔥
+      
+      今年は10/11(土),12(日),13(月・祝)開催！
+      
+      3日間を楽しみ尽くせるお得な3DAYS PASSのオフィシャル先行受付も開始！
+      売り切れ必至なのでお早めに！
+      
+      詳しくは #ミナホ 公式HPまで！！
+      https://minamiwheel.jp
+      
+    image:
+    - GvduaMoXgAAkU2_
+    linked-to:
+    - postximage:
+        post: 1943143169446822118
+        image: GvduaMoXgAAkU2_
 
-- type: postx
-  id: 1943143169446822118
-  account: minamiwheel
-  label: First artits list
-  published-date: 2025-07-10
-  text: |
-    \\お待たせしました！！//
-
-    #FM802 MINAMI WHEEL 2025 
-    第一弾出演者発表～！！🔥🔥
-
-    今年は10/11(土),12(日),13(月・祝)開催！
-
-    3日間を楽しみ尽くせるお得な3DAYS PASSのオフィシャル先行受付も開始！
-    売り切れ必至なのでお早めに！
-
-    詳しくは #ミナホ 公式HPまで！！
-    https://minamiwheel.jp
-  image:
-  - id: GvduaMoXgAAkU2_
+- postximage:
+    post: 1943143169446822118
+    id: GvduaMoXgAAkU2_
     label: First artists list
+    published-date: 2025-07-10
     linked-to:
     - show:
         year: 2025
         id: minamiwheel
+    - postx: 1943143169446822118
 
-- type: postx
-  id: 1943145229357584494
-  account: nekiband_jp
-  published-date: 2025-07-10
-  label: announcement
-  text: |
-    🔥情報解禁🔥
+- postx:
+    id: 1943145229357584494
+    account: nekiband_jp
+    published-date: 2025-07-10
+    label: announcement
+    text: |
+      🔥情報解禁🔥
+      
+      10/11~13開催
+      「#FM802 MINAMI WHEEL 2025」
+      
+      NEK!の出演が決定❤️‍🔥
+      
+      出演日時や会場は後日発表⚡️
+      
+      🔗https://minamiwheel.jp
+      
+      #NEKI #ミナホ
+      
+    image:
+    - GvdwSAWakAAlKdJ
+    - GvdwSAzWYAAl-Oo
+    linked-to:
+    - postximage:
+        post: 1943145229357584494
+        image: GvdwSAWakAAlKdJ
+    - postximage:
+        post: 1943145229357584494
+        image: GvdwSAzWYAAl-Oo
 
-    10/11~13開催
-    「#FM802 MINAMI WHEEL 2025」
-
-    NEK!の出演が決定❤️‍🔥
-
-    出演日時や会場は後日発表⚡️
-
-    🔗https://minamiwheel.jp
-
-    #NEKI #ミナホ
-  image:
-  - id: GvdwSAWakAAlKdJ
+- postximage:
+    post: 1943145229357584494
+    id: GvdwSAWakAAlKdJ
     label: Poster
-    localCopy: true
+    published-date: 2025-07-10
+    local-copy: true
     linked-to:
     - show:
         year: 2025
         id: minamiwheel
-  - id: GvdwSAzWYAAl-Oo
+    - postx: 1943145229357584494
+
+- postximage:
+    post: 1943145229357584494
+    id: GvdwSAzWYAAl-Oo
     label: First artists list
+    published-date: 2025-07-10
     linked-to:
     - show:
         year: 2025
         id: minamiwheel
+    - postx: 1943145229357584494
+

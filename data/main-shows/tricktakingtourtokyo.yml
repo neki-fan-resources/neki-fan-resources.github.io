@@ -1,252 +1,402 @@
-type: show
-year: 2025
-id: tricktakingtourtokyo
+- show:
+    year: 2025
+    id: tricktakingtourtokyo
+    fullname: 1stワンマンツアー 「TR!CK TAK!NG」
+    shortname: '"TR!CK TAK!NG" TOUR'
+    sublabel: Tokyo
+    date: 2025-03-16
+    tour: tricktakingtour
+    location: Spotify O-WEST, Tokyo
+    event-page: 'https://shibuya-o.com/west/schedule/nek-1st%e3%83%af%e3%83%b3%e3%83%9e%e3%83%b3%e3%83%84%e3%82%a2%e3%83%bc-%e3%80%8ctrck-takng%e3%80%8dfinal/'
+    setlistfm: nek/2025/spotify-o-west-tokyo-japan-3b595054
+    cover-image:
+      postyoutubeimage:
+        post: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+        image: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
+      fromOtherElement: true
+    multimedia:
+      short:
+      - postxvideo:
+          post: 1907340052666945675
+          video: 01
+      - postxvideo:
+          post: 1901916392653537292
+          video: 01
+      - youtubeshort: FEwx6aYh3fU
+      - postxvideo:
+          post: 1929106683978224117
+          video: 46203d6b-e5ae-48cd-8902-16d9a880869d
+      - postxvideo:
+          post: 1917865243080024340
+          video: 56ad6b95-81f9-4c28-9588-416eda80eec0
+      - youtubeshort: EzpPj7pVf6Y
+      - youtubeshort: dSX3EKmcRUc
+      - youtubeshort: YKmsB94XMb4
+      - youtubeshort: mvD68jTQrHs
+      - youtubeshort: u9-z9XkhpVw
+      - youtubeshort: 8HxPW2Pre0I
+      - youtubeshort: EG8WdNAMS5w
+      - youtubeshort: 5TbpU2-WnIQ
+      - youtubeshort: nh7NiJ2vnHM
+      - youtubeshort: _8Jm4QV0mUw
+      - youtubeshort: S2y9YcalKNw
+      image:
+      - postximage:
+          post: 1931984997382316384
+          image: Gs_KDFfb0AAtXQ1
+      addtional:
+      - youtubeshort: htz6Y0O53tM
+      - youtubeshort: rtmMldJLh1k
+    linked-to:
+    - youtubeshort: rIixubNAY2g
+    - youtubeshort: rla_ZLjIvmE
+    - youtubeshort: S2y9YcalKNw
+    - youtubeshort: _8Jm4QV0mUw
+    - youtubeshort: nh7NiJ2vnHM
+    - youtubeshort: 5TbpU2-WnIQ
+    - youtubeshort: 1JgqY5V6fCE
+    - youtubeshort: qEv4jcWXNmk
+    - youtubeshort: 8HxPW2Pre0I
+    - youtubeshort: rtmMldJLh1k
+    - youtubeshort: EG8WdNAMS5w
+    - youtubeshort: htz6Y0O53tM
+    - youtubeshort: u9-z9XkhpVw
+    - youtubeshort: mvD68jTQrHs
+    - youtubeshort: YKmsB94XMb4
+    - youtubeshort: dSX3EKmcRUc
+    - youtubeshort: EzpPj7pVf6Y
+    - postx: 1901916392653537292
+    - postx: 1907340052666945675
+    - postx: 1917865243080024340
+    - postx: 1929106683978224117
+    - youtubeshort: FEwx6aYh3fU
 
-fullname: 1stワンマンツアー 「TR!CK TAK!NG」
-shortname: '"TR!CK TAK!NG" TOUR'
-sublabel: Tokyo
-date: 2025-03-16
-location:  Spotify O-WEST, Tokyo
-event-page: 'https://shibuya-o.com/west/schedule/nek-1st%e3%83%af%e3%83%b3%e3%83%9e%e3%83%b3%e3%83%84%e3%82%a2%e3%83%bc-%e3%80%8ctrck-takng%e3%80%8dfinal/'
-setlistfm: nek/2025/spotify-o-west-tokyo-japan-3b595054
+- youtubeshort:
+    id: rIixubNAY2g
+    label: Promo
+    info: Cocoro
+    published-date: 2025-03-14
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
-cover-image:
-  postyoutubeimage:
-    postid: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
-    imageid: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
-  fromOtherElement: true
+- youtubeshort:
+    id: rla_ZLjIvmE
+    label: Promo
+    info: Natsu
+    published-date: 2025-03-14
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
-tour: tricktakingtour
+- youtubeshort:
+    id: S2y9YcalKNw
+    label: Rehearsal
+    info: Natsu focus
+    published-date: 2025-03-13
+    linked-to:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
-multimedia:
-  short:
-  - postxvideo: 
-      postid: 1907340052666945675
-      videoid: 01
-  - postxvideo:
-      postid: 1901916392653537292
-      videoid: 01
-  - youtubeshort: FEwx6aYh3fU
-  - postxvideo:
-      postid: 1929106683978224117
-      videoid: 46203d6b-e5ae-48cd-8902-16d9a880869d
-  - postxvideo:
-      postid: 1917865243080024340
-      videoid: 56ad6b95-81f9-4c28-9588-416eda80eec0
-  - youtubeshort: EzpPj7pVf6Y
-  - youtubeshort: dSX3EKmcRUc
-  - youtubeshort: YKmsB94XMb4
-  - youtubeshort: mvD68jTQrHs
-  - youtubeshort: u9-z9XkhpVw
-  - youtubeshort: 8HxPW2Pre0I
-  - youtubeshort: EG8WdNAMS5w
-  - youtubeshort: 5TbpU2-WnIQ
-  - youtubeshort: nh7NiJ2vnHM
-  - youtubeshort: _8Jm4QV0mUw
-  - youtubeshort: S2y9YcalKNw
-  image:
-  - postximage:
-      postid: 1931984997382316384
-      imageid: Gs_KDFfb0AAtXQ1
-  additional:
-  - youtubeshort: htz6Y0O53tM
-  - youtubeshort: rtmMldJLh1k
+- youtubeshort:
+    id: _8Jm4QV0mUw
+    label: Rehearsal
+    info: Cocoro focus
+    published-date: 2025-03-14
+    linked-to:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
-related:
-# YouTube Short
-- type: youtubeshort
-  id: rIixubNAY2g
-  label: Promo
-  info: Cocoro
-  published-date: 2025-03-14
-- type: youtubeshort
-  id: rla_ZLjIvmE
-  label: Promo
-  info: Natsu
-  published-date: 2025-03-14
-- type: youtubeshort
-  id: S2y9YcalKNw
-  label: Rehearsal
-  info: Natsu focus
-  published-date: 2025-03-13
-  linked-to:
-  - song: zerosum
-- type: youtubeshort
-  id: _8Jm4QV0mUw
-  label: Rehearsal
-  info: Cocoro focus
-  published-date: 2025-03-14
-  linked-to:
-  - song: zerosum
-- type: youtubeshort
-  id: nh7NiJ2vnHM
-  label: Rehearsal
-  info: Kanade focus
-  published-date: 2025-03-14
-  linked-to:
-  - song: zerosum
-- type: youtubeshort
-  id: 5TbpU2-WnIQ
-  label: Rehearsal
-  info: Hika focus
-  published-date: 2025-03-15
-  linked-to:
-  - song: zerosum
-- type: youtubeshort
-  id: 1JgqY5V6fCE
-  label: Promo
-  info: Hika
-  published-date: 2025-03-15
-- type: youtubeshort
-  id: qEv4jcWXNmk
-  label: Promo
-  info: Kanade
-  published-date: 2025-03-15
-- type: youtubeshort
-  id: 8HxPW2Pre0I
-  label: Show digest
-  info: images from the show
-  published-date: 2025-03-17
-- type: youtubeshort
-  id: rtmMldJLh1k
-  label: Before
-  info: rehearsal
-  published-date: 2025-03-18
-- type: youtubeshort
-  id: EG8WdNAMS5w
-  label: Thanks!!
-  info: With love!
-  published-date: 2025-03-19
-- type: youtubeshort
-  id: htz6Y0O53tM
-  label: Show
-  info: huddle
-  published-date: 2025-03-20
-- type: youtubeshort
-  id: u9-z9XkhpVw
-  label: Live
-  info: from the crowd
-  published-date: 2025-03-22
-  linked-to:
-  - song: dreams
-- type: youtubeshort
-  id: mvD68jTQrHs
-  label: Live
-  info: from the balcony
-  published-date: 2025-03-27
-  # unnamed song
-- type: youtubeshort
-  id: YKmsB94XMb4
-  label: Live
-  info: Natsu guitar intro
-  published-date: 2025-04-01
-  relalted-to:
-  - song: reigengirl
-- type: youtubeshort
-  id: dSX3EKmcRUc
-  label: Live
-  info: Natsu guitar solo
-  published-date: 2025-04-05
-  relalted-to:
-  - song: loner
-- type: youtubeshort
-  id: EzpPj7pVf6Y
-  label: Live
-  info: Kanade
-  published-date: 2025-04-06
-  relalted-to:
-  - song: getover
-- type: postx
-  id: 1901916392653537292
-  account: natsu08_guitar
-  published-date: 2025-03-18
-  label: Reigen girl intro
-  text: |
-    熱が冷めないうちに、、とNEK!のライブの雰囲気をもっとわかってもらいたい!ということで、O-WESTの「令現少女」のイントロシーン❤️‍🔥
-    ここ、まじで最高すぎる！🫶🏻
-    みんなの掛け声でテンションぶち上がる！
-    これからはもっと定点カメラの映像も小出しにしていこうかな💭💭
+- youtubeshort:
+    id: nh7NiJ2vnHM
+    label: Rehearsal
+    info: Kanade focus
+    published-date: 2025-03-14
+    linked-to:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
-    #ネキ界隈 #拡散中 #NEKI
-  video:
-  - id: 01
-    cover: 1901916308243185664/img/UBEcndoZ5OxZYNht.jpg
+- youtubeshort:
+    id: 5TbpU2-WnIQ
+    label: Rehearsal
+    info: Hika focus
+    published-date: 2025-03-15
+    linked-to:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: 1JgqY5V6fCE
+    label: Promo
+    info: Hika
+    published-date: 2025-03-15
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: qEv4jcWXNmk
+    label: Promo
+    info: Kanade
+    published-date: 2025-03-15
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: 8HxPW2Pre0I
+    label: Show digest
+    info: images from the show
+    published-date: 2025-03-17
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: rtmMldJLh1k
+    label: Before
+    info: rehearsal
+    published-date: 2025-03-18
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: EG8WdNAMS5w
+    label: Thanks!!
+    info: With love!
+    published-date: 2025-03-19
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: htz6Y0O53tM
+    label: Show
+    info: huddle
+    published-date: 2025-03-20
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: u9-z9XkhpVw
     label: Live
+    info: from the crowd
+    published-date: 2025-03-22
+    linked-to:
+    - song: dreams
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: mvD68jTQrHs
+    label: Live
+    info: from the balcony
+    published-date: 2025-03-27
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: YKmsB94XMb4
+    label: Live
+    info: Natsu guitar intro
+    published-date: 2025-04-01
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: dSX3EKmcRUc
+    label: Live
+    info: Natsu guitar solo
+    published-date: 2025-04-05
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: EzpPj7pVf6Y
+    label: Live
+    info: Kanade
+    published-date: 2025-04-06
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1901916392653537292
+    account: natsu08_guitar
+    published-date: 2025-03-18
+    label: Reigen girl intro
+    text: |
+      熱が冷めないうちに、、とNEK!のライブの雰囲気をもっとわかってもらいたい!ということで、O-WESTの「令現少女」のイントロシーン❤️‍🔥
+      ここ、まじで最高すぎる！🫶🏻
+      みんなの掛け声でテンションぶち上がる！
+      これからはもっと定点カメラの映像も小出しにしていこうかな💭💭
+      
+      #ネキ界隈 #拡散中 #NEKI
+      
+    video:
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1901916392653537292
+        video: 01
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postxvideo:
+    post: 1901916392653537292
+    id: 01
+    label: Live
+    cover: 1901916308243185664/img/UBEcndoZ5OxZYNht.jpg
+    published-date: 2025-03-18
     info: intro
     linked-to:
     - show:
         year: 2025
         id: tricktakingtourtokyo
     - song: reigengirl
-- type: postx
-  id: 1907340052666945675
-  account: coco_102
-  published-date: 2025-04-02
-  label: Cocoro-cam
-  text: |
-    令現少女ラストスパート🫶🏻
+    - postx: 1901916392653537292
 
-    この曲何気にキックがずっと忙しいのよ。
+- postx:
+    id: 1907340052666945675
+    account: coco_102
+    published-date: 2025-04-02
+    label: Cocoro-cam
+    text: |
+      令現少女ラストスパート🫶🏻
+      
+      この曲何気にキックがずっと忙しいのよ。
+      
+      #NEKI #拡散中 #ネキ界隈
+      
+    video:
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1907340052666945675
+        video: 01
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
-    #NEKI #拡散中 #ネキ界隈
-  video:
-  - id: 01
-    cover: 1907339920764796928/img/w_YX-j6ULyEvSQoU.jpg
+- postxvideo:
+    post: 1907340052666945675
+    id: 01
     label: Live
+    cover: 1907339920764796928/img/w_YX-j6ULyEvSQoU.jpg
+    published-date: 2025-04-02
     info: Cocoro
     linked-to:
     - show:
         year: 2025
         id: tricktakingtourtokyo
     - song: reigengirl
-- type: postx
-  id: 1917865243080024340
-  account: coco_102
-  published-date: 2025-05-01
-  label: Cocoro-cam Get Over
-  info: right after anouncing the 1st Zepp concert
-  text: |
-    Zeppワンマンを発表したあとのGet Over🔥
+    - postx: 1907340052666945675
 
-    発表を受けたフロアの笑顔がより一層輝いてて、喜んでもらえて良かった〜とこちらも嬉しくなりながら叩いていました☺️8/30はこの日を超える最高な夜にしよう！！(する！！)
+- postx:
+    id: 1917865243080024340
+    account: coco_102
+    published-date: 2025-05-01
+    label: Cocoro-cam Get Over
+    info: right after anouncing the 1st Zepp concert
+    text: |
+      Zeppワンマンを発表したあとのGet Over🔥
+      
+      発表を受けたフロアの笑顔がより一層輝いてて、喜んでもらえて良かった〜とこちらも嬉しくなりながら叩いていました☺️8/30はこの日を超える最高な夜にしよう！！(する！！)
+      
+      #NEKI #拡散中 #ネキ界隈
+      
+    video:
+    - 56ad6b95-81f9-4c28-9588-416eda80eec0
+    linked-to:
+    - postxvideo:
+        post: 1917865243080024340
+        video: 56ad6b95-81f9-4c28-9588-416eda80eec0
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
-    #NEKI #拡散中 #ネキ界隈
-  video:
-  - id: 56ad6b95-81f9-4c28-9588-416eda80eec0
-    cover: 1917865155645546496/img/vDh7ZkVxv93tKfNg.jpg
+- postxvideo:
+    post: 1917865243080024340
+    id: 56ad6b95-81f9-4c28-9588-416eda80eec0
     label: Cocoro-cam
+    cover: 1917865155645546496/img/vDh7ZkVxv93tKfNg.jpg
+    published-date: 2025-05-01
     info: right after anouncing the 1st Zepp concert
     linked-to:
     - song: getover
-- type: postx
-  id: 1929106683978224117
-  account: 46_hikaa
-  published-date: 2025-06-01
-  label: Loner accoustic Live
-  info: from the crowd, accoustic
-  text: |
-    O-WESTのライブ映像👀✨
+    - postx: 1917865243080024340
 
-    アコースティック編成でLoner！！
+- postx:
+    id: 1929106683978224117
+    account: 46_hikaa
+    published-date: 2025-06-01
+    label: Loner accoustic Live
+    info: from the crowd, accoustic
+    text: |
+      O-WESTのライブ映像👀✨
+      
+      アコースティック編成でLoner！！
+      
+      #NEKI #ネキ界隈 #拡散中
+      
+    video:
+    - 46203d6b-e5ae-48cd-8902-16d9a880869d
+    linked-to:
+    - postxvideo:
+        post: 1929106683978224117
+        video: 46203d6b-e5ae-48cd-8902-16d9a880869d
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 
-    #NEKI #ネキ界隈 #拡散中
-  video:
-  - id: 46203d6b-e5ae-48cd-8902-16d9a880869d
-    cover: 1929106621202153472/img/68yTv0Vr4lDzpTu4.jpg
+- postxvideo:
+    post: 1929106683978224117
+    id: 46203d6b-e5ae-48cd-8902-16d9a880869d
     label: Live
+    cover: 1929106621202153472/img/68yTv0Vr4lDzpTu4.jpg
+    published-date: 2025-06-01
     info: from the crowd, accoustic
     linked-to:
     - song: loner
     - show:
         year: 2025
         id: tricktakingtourtokyo
-- type: youtubeshort
-  id: FEwx6aYh3fU
-  label: Rehearsal
-  info: on stage, accoustic
-  published-date: 2025-06-12
-  relalted-to:
-  - song: moon
+    - postx: 1929106683978224117
 
-
+- youtubeshort:
+    id: FEwx6aYh3fU
+    label: Rehearsal
+    info: on stage, accoustic
+    published-date: 2025-06-12
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
 

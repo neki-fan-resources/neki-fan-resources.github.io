@@ -1,8 +1,8 @@
-type: event
-id: formationneki
-label: Formation of NEK!
-date: 2024-02-10
-coverImage:
-  localimage:
-    group: siteimages
-    id: nekilogo
+event:
+  id: formationneki
+  label: Formation of NEK!
+  date: 2024-02-10
+  cover-image:
+    localimage:
+      group: siteimages
+      id: nekilogo

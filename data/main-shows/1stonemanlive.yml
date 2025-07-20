@@ -1,87 +1,135 @@
-type: show
-year: 2024
-id: 1stonemanlive
+- show:
+    year: 2024
+    id: 1stonemanlive
+    fullname: 1ST ONE MAN LIVE
+    date: 2024-07-20
+    location: 下北沢 Shelter
+    setlistfm: nek/2024/shelter-tokyo-japan-43561f6f
+    cover-image:
+      postyoutubeimage:
+        post: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+        image: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
+    multimedia:
+      video:
+      - youtubeshort: EkRipluPvVg
+      - youtubeshort: XzfOs6kjtUs
+      - postxvideo:
+          post: 1926203870809608381
+          video: de045839-e5ef-4546-90d3-d6e3f4cb9f34
+    linked-to:
+    - youtubeshort: tmpUHr3F67k
+    - youtubeshort: XzfOs6kjtUs
+    - youtubeshort: JcCYNJoEoLI
+    - youtubeshort: EkRipluPvVg
+    - postx: 1926203870809608381
+    - postyoutube: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
 
-fullname: 1ST ONE MAN LIVE
-date: 2024-07-20
-location: 下北沢 Shelter
-setlistfm: nek/2024/shelter-tokyo-japan-43561f6f
+- youtubeshort:
+    id: tmpUHr3F67k
+    label: Promo
+    info: studio audio
+    published-date: 2024-08-04
+    linked-to:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: 1stonemanlive
 
-cover-image:
-  postyoutubeimage:
-    postid: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
-    imageid: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
+- youtubeshort:
+    id: XzfOs6kjtUs
+    label: Live
+    published-date: 2024-08-20
+    linked-to:
+    - song: maze
+    - show:
+        year: 2024
+        id: 1stonemanlive
 
-multimedia:
-  video:
-  - youtubeshort: EkRipluPvVg
-  - youtubeshort: XzfOs6kjtUs
-  - postxvideo:
-      postid: 1926203870809608381
-      videoid: de045839-e5ef-4546-90d3-d6e3f4cb9f34
+- youtubeshort:
+    id: JcCYNJoEoLI
+    label: Show
+    info: Through the venue monitor
+    published-date: 2024-03-30
+    linked-to:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: 1stonemanlive
 
-related:
-- type: youtubeshort
-  id: tmpUHr3F67k
-  label: Promo
-  info: studio audio
-  published-date: 2024-08-04
-  linked-to:
-  - song: endlessgame
-- type: youtubeshort
-  id: XzfOs6kjtUs
-  label: Live
-  published-date: 2024-08-20
-  linked-to:
-  - song: maze
-- type: youtubeshort
-  id: JcCYNJoEoLI
-  label: Show
-  info: Through the venue monitor
-  published-date: 2024-03-30
-  linked-to:
-  - song: endlessgame
-- type: youtubeshort
-  id: EkRipluPvVg
-  label: Opening
-  published-date: 2024-04-04
-  linked-to:
-  - song: fool
-- type: postx
-  id: 1926203870809608381
-  account: natsu08_guitar
-  published-date: 2025-05-23
-  label: cover ワンオクの”Wherever you are”
-  text: |
-    1st ワンマンのときのHikaちゃんと2人でワンオクの”Wherever you are”
-    カバーしたときの動画出てきたーー！！
+- youtubeshort:
+    id: EkRipluPvVg
+    label: Opening
+    published-date: 2024-04-04
+    linked-to:
+    - song: fool
+    - show:
+        year: 2024
+        id: 1stonemanlive
 
-    懐かしい❤️‍🔥❤️‍🔥チラ見せしちゃう🫣🫣🫣
+- postx:
+    id: 1926203870809608381
+    account: natsu08_guitar
+    published-date: 2025-05-23
+    label: cover ワンオクの”Wherever you are”
+    text: |
+      1st ワンマンのときのHikaちゃんと2人でワンオクの”Wherever you are”
+      カバーしたときの動画出てきたーー！！
+      
+      懐かしい❤️‍🔥❤️‍🔥チラ見せしちゃう🫣🫣🫣
+      
+      #ネキ界隈 #拡散中 #ワンオク
+      
+    video:
+    - de045839-e5ef-4546-90d3-d6e3f4cb9f34
+    linked-to:
+    - postxvideo:
+        post: 1926203870809608381
+        video: de045839-e5ef-4546-90d3-d6e3f4cb9f34
+    - show:
+        year: 2024
+        id: 1stonemanlive
 
-    #ネキ界隈 #拡散中 #ワンオク
-  # image of show poster
-  video: 
-  - id: de045839-e5ef-4546-90d3-d6e3f4cb9f34
-    cover: 1926203706065776641/img/jEr9SPtZbTqnTdWs.jpg
+- postxvideo:
+    post: 1926203870809608381
+    id: de045839-e5ef-4546-90d3-d6e3f4cb9f34
     label: cover ONE OK ROCK ”Wherever you are”
+    cover: 1926203706065776641/img/jEr9SPtZbTqnTdWs.jpg
+    published-date: 2025-05-23
     info: accoustic, Hika, Natsu
     linked-to:
     - show:
         year: 2024
         id: 1stonemanlive
-# post YouTube
-- type: postyoutube
-  id: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
-  account: neki_official
-  label: announcement
-  published-date: 2024-06-03 # TODO: double check date with X post
-  text: |
-    7/20(土)「NEK! 1ST ONE MAN LIVE」
-    @ 下北沢SHELTER
+    - postx: 1926203870809608381
 
-    WEBチケットの2次先着受付を開始しました！
-    https://t.livepocket.jp/e/neki1stoneman
-  image:
-  - id: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
+- postyoutube:
+    id: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+    account: neki_official
+    published-date: 2024-06-03
+    label: announcement
+    text: |
+      7/20(土)「NEK! 1ST ONE MAN LIVE」
+      @ 下北沢SHELTER
+      
+      WEBチケットの2次先着受付を開始しました！
+      https://t.livepocket.jp/e/neki1stoneman
+      
+    image:
+    - NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
+    linked-to:
+    - postyoutubeimage:
+        post: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+        image: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
+    - show:
+        year: 2024
+        id: 1stonemanlive
+
+- postyoutubeimage:
+    post: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+    id: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
     label: cover
-    localCopy: true
+    published-date: 2024-06-03
+    local-copy: true
+    linked-to:
+    - postyoutube: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+

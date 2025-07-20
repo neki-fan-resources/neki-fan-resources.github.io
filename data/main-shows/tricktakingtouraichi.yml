@@ -1,37 +1,44 @@
-type: show
-year: 2025
-id: tricktakingtouraichi
+- show:
+    year: 2025
+    id: tricktakingtouraichi
+    fullname: 1stワンマンツアー 「TR!CK TAK!NG」
+    shortname: '"TR!CK TAK!NG" TOUR'
+    sublabel: Aichi
+    date: 2025-03-09
+    tour: tricktakingtour
+    location: R.A.D, Aichi
+    event-page: 'https://rad.radcreation.jp/events/nek-1st%e3%83%af%e3%83%b3%e3%83%9e%e3%83%b3%e3%83%84%e3%82%a2%e3%83%bc-%e3%80%8ctrck-takng%e3%80%8d/'
+    cover-image:
+      postyoutubeimage:
+        post: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+        image: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
+      fromOtherElement: true
+    multimedia:
+      short:
+      - youtubeshort: b2N2xThvZ-4
+      addtional:
+      - youtubeshort: Lz0Fj4wCa-Y
+    linked-to:
+    - youtubeshort: b2N2xThvZ-4
+    - youtubeshort: Lz0Fj4wCa-Y
 
-fullname: 1stワンマンツアー 「TR!CK TAK!NG」
-shortname: '"TR!CK TAK!NG" TOUR'
-sublabel: Aichi
-date: 2025-03-09
-location:  R.A.D, Aichi
-event-page: 'https://rad.radcreation.jp/events/nek-1st%e3%83%af%e3%83%b3%e3%83%9e%e3%83%b3%e3%83%84%e3%82%a2%e3%83%bc-%e3%80%8ctrck-takng%e3%80%8d/'
+- youtubeshort:
+    id: b2N2xThvZ-4
+    label: Live
+    published-date: 2025-03-09
+    linked-to:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
 
-cover-image:
-  postyoutubeimage:
-    postid: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
-    imageid: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
-  fromOtherElement: true
+- youtubeshort:
+    id: Lz0Fj4wCa-Y
+    label: Show
+    info: huddle
+    published-date: 2025-03-09
+    linked-to:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
 
-tour: tricktakingtour
-
-multimedia:
-  short:
-  - youtubeshort: b2N2xThvZ-4
-  additional:
-  - youtubeshort: Lz0Fj4wCa-Y
-
-related:
-- type: youtubeshort
-  id: b2N2xThvZ-4
-  label: Live
-  published-date: 2025-03-09
-  linked-to:
-  - song: zerosum
-- type: youtubeshort
-  id: Lz0Fj4wCa-Y
-  label: Show
-  info: huddle
-  published-date: 2025-03-09

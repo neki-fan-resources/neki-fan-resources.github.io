@@ -1,1051 +1,1105 @@
-type: song
-id: fool
-
-fullname: Fool
-album: tricktaking
-
-release-date: 2025-03-05
-
-cover-image:
-  postyoutubeimage:
-    postid: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
-    imageid: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
-  fromOtherElement: true
-
-multimedia:
-  live:
-  - youtubevideo: urGmtrd7zbA
-  - youtubeshort: iQQoVDhI0E0
-  - youtubeshort: EkRipluPvVg
-  short:
-  - youtubeshort: QJzDlj_jpfE
-
-credits:
-  lyricist: KawaguchiTigerYusuke, NEK!
-  composer: NEK!, Yuki Tanabe
-  source:
-    description: 'JASRAC - work ID: 316-0411-1'
-    url: https://www2.jasrac.or.jp/
-
-
-lyrics:
-  status:
-    code: warning
-    description: Data copied from the sources. Checked against the studio version. Mostly LLM translation.
-  languages:
-    - id: ol
-      name: original lyrics
-      active: true
-      fixed: true
-      notranslation: true
+- song:
+    id: fool
+    fullname: Fool
+    album: tricktaking
+    release-date: 2025-03-05
+    credits:
+      lyricist: KawaguchiTigerYusuke, NEK!
+      composer: NEK!, Yuki Tanabe
       source:
-        description: Lyricfind
-        url: https://lyrics.lyricfind.com/lyrics/nek-fool
-    - id: ro
-      name: rōmaji
-      notranslation: true
-      active: true
-    - id: ww
-      name: word by word translation (using jisho.org)
-      baseurl: https://jisho.org/search/
-      urltext: J
-    - id: gg
-      name: english translation
-      details: aided by Google Gemini (2.0 Flash Thinking Experimental).
-  sections:
-  - lines:
-    - ol:
-      - お涙頂戴
-      - で
-      - イイね
-      ro:
-      - onamidachōdai
-      - de
-      - iine
-      ww:
-      - w: tearjerker
-        d: お涙頂戴
-      - w: with
-        d: で
-      - w: that's good
-        d: イイね
-      - d: お涙頂戴でイイね
-      gg: Playing the victim is good, right?
-    - ol:
-      - こうべ
-      - たれりゃ
-      - 万事
-      - オッケー
-      ro:
-      - kōbe
-      - tarerya
-      - banji
-      - okkē
-      ww:
-      - w: head
-        d: こうべ
-      - w: if lowering
-        d: たれりゃ
-      - w: everything
-        d: 万事
-      - w: okay
-        d: オッケー
-      - d: こうべたれりゃ万事オッケー
-      gg: If you just apologize, everything's okay.
-    - ol:
-      - 裏垢
-      - じゃ
-      - 相当
-      - 言ってる
-      ro:
-      - urāka
-      - ja
-      - sōtō
-      - itteru
-      ww:
-      - w: secret account
-        d: 裏垢
-      - w: in
-        d: じゃ
-      - w: considerably
-        d: 相当
-      - w: saying
-        d: 言ってる
-      - d: 裏垢じゃ相当言ってる
-      gg: But on their private accounts, they're saying a lot –
-    - ol:
-      - 「
-      - マジ
-      - ？
-      - 疑う
-      - わ
-      - " "
-      - 人格
-      - 」
-      ro:
-      - "'"
-      - maji
-      - "?"
-      - utagau
-      - wa
-      - ""
-      - jinkaku
-      - "'"
-      ww:
-      - w: "'"
-      - w: seriously
-        d: マジ
-      - w: "?"
-      - w: doubt
-        d: 疑う
-      - w: (emphasis)
-        d: わ
-      - w: ""
-      - w: character
-        d: 人格
-      - w: "'"
-      - d: 「マジ？疑うわ 人格」
-      gg: "'Seriously? I doubt their character!'"
-  - lines:
-    - ol:
-      - 誰か
-      - 見てる
-      - " "
-      - どこか
-      - 見てる
-      ro:
-      - dareka
-      - miteru
-      - ""
-      - dokoka
-      - miteru
-      ww:
-      - w: someone
-        d: 誰か
-      - w: watching
-        d: 見てる
-      - w: ""
-      - w: somewhere
-        d: どこか
-      - w: watching
-        d: 見てる
-      - d: 誰か見てる どこか見てる
-      gg: Someone is watching, somewhere is watching.
-    - ol:
-      - もはや
-      - 逃げ場所
-      - " "
-      - "NO"
-      ro:
-      - mohaya
-      - nibebasho
-      - ""
-      - ""
-      ww:
-      - w: no longer
-        d: もはや
-      - w: escape
-        d: 逃げ場所
-      - w: ""
-      - w: "NO"
-      - d: もはや逃げ場所 NO
-      gg: There's no escape anymore, NO.
-    - ol:
-      - だから と 言って
-      - 真っ白
-      - で
-      ro:
-      - dakara to itte
-      - masshiro
-      - de
-      ww:
-      - w: nevertheless
-        d: だから と 言って
-      - w: pure white
-        d: 真っ白
-      - w: in
-        d: で
-      - d: だからと言って真っ白で
-      gg: But even so, humanity
-    - ol: 
-      - いれる
-      - ほど
-      - 人類
-      - できてない
-      - や
-      - 嫌嫌
-      ro:
-      - ireru
-      - hodo
-      - jinrui
-      - dekitenai
-      - ya
-      - iyaiya
-      ww:
-      - w: be
-        d: いれる
-      - w: extent
-        d: ほど
-      - w: humanity
-        d: 人類
-      - w: not be made
-        d: できてない
-      - w: oh
-        d: や
-      - w: no no!
-        d: 嫌嫌
-      - d: いれるほど人類できてないや嫌嫌
-      gg: isn't made to be that pure, no no!
-  - lines:
-    - ol: 
-      - 嗚呼
-      - " "
-      - じれったい
-      - 真実
-      ro:
-      - aa
-      - ""
-      - jirettai
-      - shinjitsu
-      ww:
-      - w: ah!
-        d: 嗚呼
-      - w: ""
-      - w: frustrating
-        d: じれったい
-      - w: truth
-        d: 真実
-      - d: 嗚呼 じれったい真実
-      gg: Ah, this frustrating truth!
-    - ol:
-      - ブチ壊しちゃえ
-      - 既成概念
-      ro:
-      - buchikowashichae
-      - kiseigainen
-      ww:
-      - w: destroy!
-        d: ブチ壊しちゃえ
-      - w: preconceived notion​
-        d: 既成概念
-      - d: ブチ壊しちゃえ既成概念
-      gg: Destroy the established concepts!
-    - ol:
-      - 嗚呼
-      - " "
-      - ウザったい
-      ro:
-      - aa
-      - ""
-      - uzattai
-      ww:
-      - w: ah!
-        d: 嗚呼
-      - w: ""
-      - w: annoying
-        d: ウザったい
-      - d: 嗚呼 ウザったい
-      gg: Ah, how annoying!
-    - ol:
-      - モラル
-      - も
-      - ヘッタクレ
-      - も
-      - ない
-      - わ
-      ro:
-      - moraru
-      - mo
-      - hettakure
-      - mo
-      - nai
-      - wa
-      ww:
-      - w: morals
-        d: モラル
-      - w: (also)
-        d: も
-      - w: worthless
-        d: ヘッタクレ
-      - w: (also)
-        d: も
-      - w: useless
-        d: ない
-      - w: (emphasis)
-        d: わ
-      - d: モラルもヘッタクレもないわ
-      gg: Morals are utterly useless!
-    - ol: 
-      - 聖人
-      - も
-      - 極悪人
-      - も
-      - アタシ
-      - も
-      - アンタ
-      - も
-      ro:
-      - seijin
-      - mo
-      - gokuakunin
-      - mo
-      - atashi
-      - mo
-      - anta
-      - mo
-      ww:
-      - w: saint
-        d: 聖人
-      - w: (also)
-        d: も
-      - w: villain
-        d: 極悪人
-      - w: (also)
-        d: も
-      - w: me
-        d: アタシ
-      - w: (also)
-        d: も
-      - w: you
-        d: アンタ
-      - w: (also)
-        d: も
-      - d: 聖人も極悪人もアタシもアンタも
-      gg: Saints, villains, me, you -
-    - ol:
-      - 本能
-      - に
-      - 抗えない
-      ro:
-      - honnō
-      - ni
-      - aragaenai
-      ww:
-      - w: instinct
-        d: 本能
-      - w: on
-        d: に
-      - w: not resist
-        d: 抗えない
-      - d: 本能に抗えない
-      gg: Cannot resist instinct.
-    - ol:
-      - 所詮
-      - "、"
-      - 動物
-      - です
-      - ワン
-      ro:
-      - shosen
-      - ","
-      - dōbutsu
-      - desu
-      - wan
-      ww:
-      - w: after all
-        d: 所詮
-      - w: ","
-      - w: animal
-        d: 動物
-      - w: be
-        d: です
-      - w: woof
-        d: ワン
-      - d: 所詮、動物ですワン
-      gg: After all, we are animals, woof!
-  - lines:
-    - ol:
-      - ブレブレ
-      - の
-      - 焦点
-      - 脳天
-      - " "
-      - 狙い
-      - 定め
-      - 置き
-      - エイム
-      ro:
-      - burebure
-      - "no"
-      - shōten
-      - nōten
-      - ""
-      - nerai
-      - sadame
-      - oki
-      - eimu
-      ww:
-      - w: shaky
-        d: burebure
-      - w: ('s)
-        d: "no"
-      - w: focus
-        d: shōten
-      - w: brain
-        d: nōten
-      - w: ""
-      - w: aim
-        d: nerai
-      - w: fix
-        d: sadame
-      - w: set
-        d: oki
-      - w: aim
-        d: eimu
-      - d: ブレブレの焦点脳天 狙い定め置きエイム
-      gg: Wobbly brain focus. Fix your aim, set your aim.
-    - ol:
-      - ほら
-      - バレる
-      - ぞ
-      - 虚言
-      - 妄言
-      - " "
-      - 飼いならせ
-      - 承認欲求
-      ro:
-      - hora
-      - bareru
-      - zo
-      - kyogen
-      - mōgen
-      - ""
-      - kainarase
-      - shōniyokkyū
-      ww:
-      - w: look!
-        d: ほら
-      - w: will be exposed
-        d: バレる
-      - w: (emphasis)
-        d: ぞ
-      - w: lie
-        d: 虚言
-      - w: nonsense
-        d: 妄言
-      - w: ""
-      - w: tame!
-        d: 飼いならせ
-      - w: need for approval
-        d: 承認欲求
-      - d: ほらバレるぞ虚言妄言 飼いならせ承認欲求
-      gg: Look, your lies and nonsense will be exposed! Tame your need for approval!
-  - lines:
-    - ol:
-      - 明日
-      - は
-      - 我が身
-      - だ
-      - " "
-      - スベカラク
-      - 皆
-      ro:
-      - asu
-      - wa
-      - wagami
-      - da
-      - ""
-      - subekaraku
-      - mina
-      ww:
-      - w: tomorrow
-        d: 明日
-      - w: ""
-        d: は
-      - w: me
-        d: 我が身
-      - w: be
-        d: だ
-      - w: ""
-      - w: without exception
-        d: スベカラク
-      - w: everyone
-        d: 皆
-      - d: 明日は我が身だ スベカラク皆
-      gg: Tomorrow it could be me, absolutely everyone.
-    - ol: 
-      - 黒歴史
-      - は
-      - 背負う
-      - べき
-      - 業
-      - です
-      ro:
-      - kurorekishi
-      - wa
-      - seō
-      - beki
-      - gō
-      - desu
-      ww:
-      - w: dark past
-        d: 黒歴史
-      - w: ""
-        d: は
-      - w: carry
-        d: 背負う
-      - w: ought to
-        d: べき
-      - w: karma
-        d: 業
-      - w: be
-        d: です
-      - d: 黒歴史は背負うべき業です
-      gg: Dark history is a karma that should be carried.
-    - ol:
-      - 自分
-      - 自身
-      - を
-      - 守る
-      - 為
-      - なら
-      ro:
-      - jibun
-      - jishin
-      - o
-      - mamoru
-      - tame
-      - nara
-      ww:
-      - w: oneself
-        d: 自分
-      - w: oneself
-        d: 自身
-      - w: ""
-        d: を
-      - w: protect
-        d: 守る
-      - w: sake
-        d: 為
-      - w: as for
-        d: なら
-      - d: 自分自身を守る為なら
-      gg: For the sake of protecting oneself,
-    - ol:
-      - 怖や
-      - 怖や
-      - 人
-      - は
-      - 愛
-      - に
-      - でも
-      - 唾を吐く
-      ro:
-      - kowaya
-      - kowaya
-      - hito
-      - wa
-      - ai
-      - ni
-      - demo
-      - tsuba wo haku
-      ww:
-      - w: how dreadful
-        d: 怖や
-      - w: how dreadful
-        d: 怖や
-      - w: people
-        d: 人
-      - w: ""
-        d: は
-      - w: love
-        d: 愛
-      - w: to
-        d: に
-      - w: even
-        d: でも
-      - w: spit
-        d: 唾を吐く
-      - d: 怖や怖や人は愛にでも唾を吐く
-      gg: how dreadful, how dreadful people will even spit on love.
-  - lines:
-    - ol:
-      - 嗚呼
-      - " "
-      - 生温い
-      - 理想論
-      ro:
-      - aa
-      - ""
-      - namanurui
-      - risōron
-      ww:
-      - w: ah!
-        d: 嗚呼
-      - w: ""
-      - w: lukewarm
-        d: 生温い
-      - w: idealism
-        d: 理想論
-      - d: 嗚呼 生温い理想論
-      gg: Ah, lukewarm idealism.
-    - ol:
-      - 燃やして
-      - 得る
-      - 炎上商法
-      ro:
-      - moyashite
-      - eru
-      - enjōshōhō
-      ww:
-      - w: burn
-        d: 燃やして
-      - w: gain
-        d: 得る
-      - w: outrage marketing
-        d: 炎上商法
-      - d: 燃やして得る炎上商法
-      gg: Burning it up and getting rage-baiting
-    - ol:
-      - 嗚呼
-      - " "
-      - 地獄
-      - の
-      - 沙汰
-      - も
-      - 金
-      - 次第
-      - です
-      - わ
-      ro:
-      - aa
-      - ""
-      - jigoku
-      - "no"
-      - sata
-      - mo
-      - kane
-      - shidai
-      - desu
-      - wa
-      ww:
-      - w: ah!
-        d: 嗚呼
-      - w: ""
-      - w: hell
-        d: 地獄
-      - w: "('s)"
-        d: の
-      - w: judgement
-        d: 沙汰
-      - w: (also)
-        d: も
-      - w: money
-        d: 金
-      - w: depends on
-        d: 次第
-      - w: be
-        d: です
-      - w: (emphasis)
-        d: わ
-      - d: 嗚呼 地獄の沙汰も金次第ですわ
-      gg: Ah, even the judgment of hell depends on money.
-    - ol: 
-      - 夢
-      - "、"
-      - 希望
-      - " "
-      - なにもかも
-      ro:
-      - yume
-      - ","
-      - kibō
-      - ""
-      - nanimokamo
-      ww:
-      - w: dream
-        d: 夢
-      - w: ","
-      - w: hope
-        d: 希望
-      - w: ""
-      - w: everything
-        d: なにもかも
-      - d: 夢、希望 なにもかも
-      gg: Dreams, hopes, everything -
-    - ol:
-      - 信じてた
-      - あの
-      - 頃
-      - に
-      ro:
-      - shinjiteta
-      - ano
-      - koro
-      - ni
-      ww:
-      - w: believed
-        d: 信じてた
-      - w: those
-        d: あの
-      - w: time
-        d: 頃
-      - w: in
-        d: に
-      - d: 信じてたあの頃に
-      gg: To those times when I believed,
-    - ol:
-      - 戻りたい
-      - 戻れない
-      - " "
-      - もう
-      - 泥まみれ
-      - なの
-      ro:
-      - modoritai
-      - modorenai
-      - ""
-      - mō
-      - doromamire
-      - nano
-      ww:
-      - w: want to return
-        d: 戻りたい
-      - w: cannot return
-        d: 戻れない
-      - w: ""
-      - w: already
-        d: もう
-      - w: covered with mud
-        d: 泥まみれ
-      - w: (emphasis)
-        d: なの
-      - d: 戻りたい戻れない もう泥まみれなの
-      gg: I want to return but I can't anymore, I'm already covered in mud.
-  - lines:
-    - ol:
-      - 嗚呼
-      - " "
-      - 美しい
-      - もの
-      - ほど
-      ro:
-      - aa
-      - ""
-      - utsukushī
-      - mono
-      - hodo
-      ww:
-      - w: ah!
-        d: 嗚呼
-      - w: ""
-      - w: beautiful
-        d: 美しい
-      - w: things
-        d: もの
-      - w: the more
-        d: ほど
-      - d: 嗚呼 美しいものほど
-      gg: Ah, the more beautiful things are,
-    - ol:
-      - 醜く
-      - 見える
-      - 現状
-      - です
-      ro:
-      - miniku
-      - mieru
-      - genjō
-      - desu
-      ww:
-      - w: ugly
-        d: 醜く
-      - w: appear
-        d: 見える
-      - w: current reality
-        d: 現状
-      - w: be
-        d: です
-      - d: 醜く見える現状です
-      gg: the more ugly they appear to be in reality.
-    - ol:
-      - 嗚呼
-      - " "
-      - オトナ
-      - に
-      - なる
-      - って
-      - 愉快な
-      - もの
-      - ね
-      ro:
-      - aa
-      - ""
-      - otona
-      - ni
-      - naru
-      - tte
-      - yukaina
-      - mono
-      - ne
-      ww:
-      - w: ah!
-        d: 嗚呼
-      - w: ""
-      - w: adult
-        d: オトナ
-      - w: into
-        d: に
-      - w: become
-        d: なる
-      - w: (they say)
-        d: って
-      - w: pleasant
-        d: 愉快な
-      - w: thing
-        d: もの
-      - w: isn't it
-        d: ね
-      - d: 嗚呼 オトナになるって愉快なものね
-      gg: Ah, becoming an adult is a pleasant thing, isn't it?
-  - lines:
-    - ol: 
-      - 嗚呼
-      - " "
-      - じれったい
-      - 真実
-      ro:
-      - aa
-      - ""
-      - jirettai
-      - shinjitsu
-      ww:
-      - w: ah!
-        d: 嗚呼
-      - w: ""
-      - w: frustrating
-        d: じれったい
-      - w: truth
-        d: 真実
-      - d: 嗚呼 じれったい真実
-      gg: Ah, this frustrating truth!
-    - ol:
-      - ブチ壊しちゃえ
-      - 既成概念
-      ro:
-      - buchikowashichae
-      - kiseigainen
-      ww:
-      - w: destroy!
-        d: ブチ壊しちゃえ
-      - w: preconceived notion​
-        d: 既成概念
-      - d: ブチ壊しちゃえ既成概念
-      gg: Destroy the established concepts!
-    - ol:
-      - 嗚呼
-      - " "
-      - ウザったい
-      ro:
-      - aa
-      - ""
-      - uzattai
-      ww:
-      - w: ah!
-        d: 嗚呼
-      - w: ""
-      - w: annoying
-        d: ウザったい
-      - d: 嗚呼 ウザったい
-      gg: Ah, how annoying!
-    - ol:
-      - モラル
-      - も
-      - ヘッタクレ
-      - も
-      - ない
-      - わ
-      ro:
-      - moraru
-      - mo
-      - hettakure
-      - mo
-      - nai
-      - wa
-      ww:
-      - w: morals
-        d: モラル
-      - w: (also)
-        d: も
-      - w: worthless
-        d: ヘッタクレ
-      - w: (also)
-        d: も
-      - w: useless
-        d: ない
-      - w: (emphasis)
-        d: わ
-      - d: モラルもヘッタクレもないわ
-      gg: Morals are utterly useless!
-    - ol: 
-      - 聖人
-      - も
-      - 極悪人
-      - も
-      - アタシ
-      - も
-      - アンタ
-      - も
-      ro:
-      - seijin
-      - mo
-      - gokuakunin
-      - mo
-      - atashi
-      - mo
-      - anta
-      - mo
-      ww:
-      - w: saint
-        d: 聖人
-      - w: (also)
-        d: も
-      - w: villain
-        d: 極悪人
-      - w: (also)
-        d: も
-      - w: me
-        d: アタシ
-      - w: (also)
-        d: も
-      - w: you
-        d: アンタ
-      - w: (also)
-        d: も
-      - d: 聖人も極悪人もアタシもアンタも
-      gg: Saints, villains, me, you -
-    - ol:
-      - 本能
-      - に
-      - 抗えない
-      ro:
-      - honnō
-      - ni
-      - aragaenai
-      ww:
-      - w: instinct
-        d: 本能
-      - w: on
-        d: に
-      - w: not resist
-        d: 抗えない
-      - d: 本能に抗えない
-      gg: Cannot resist instinct.
-    - ol:
-      - 所詮
-      - "、"
-      - 動物
-      - です
-      - ワン
-      ro:
-      - shosen
-      - ","
-      - dōbutsu
-      - desu
-      - wan
-      ww:
-      - w: after all
-        d: 所詮
-      - w: ","
-      - w: animal
-        d: 動物
-      - w: be
-        d: です
-      - w: woof
-        d: ワン
-      - d: 所詮、動物ですワン
-      gg: After all, we are animals, woof!
+        description: 'JASRAC - work ID: 316-0411-1'
+        url: 'https://www2.jasrac.or.jp/'
+    cover-image:
+      postyoutubeimage:
+        post: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+        image: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
+      fromOtherElement: true
+    multimedia:
+      live:
+      - youtubevideo: urGmtrd7zbA
+      - youtubeshort: iQQoVDhI0E0
+      - youtubeshort: EkRipluPvVg
+      short:
+      - youtubeshort: QJzDlj_jpfE
+    lyrics:
+      status:
+        code: warning
+        description: Data copied from the sources. Checked against the studio version. Mostly LLM translation.
+      languages:
+      - id: ol
+        name: original lyrics
+        active: true
+        fixed: true
+        no-translation: true
+        source:
+          description: Lyricfind
+          url: 'https://lyrics.lyricfind.com/lyrics/nek-fool'
+      - id: ro
+        name: rōmaji
+        active: true
+        no-translation: true
+      - id: ww
+        name: word by word translation (using jisho.org)
+        base-url: 'https://jisho.org/search/'
+        url-text: J
+      - id: gg
+        name: english translation
+        details: aided by Google Gemini (2.0 Flash Thinking Experimental).
+      sections:
+      - lines:
+        - ol:
+          - お涙頂戴
+          - で
+          - イイね
+          ro:
+          - onamidachōdai
+          - de
+          - iine
+          ww:
+          - w: tearjerker
+            d: お涙頂戴
+          - w: with
+            d: で
+          - w: that's good
+            d: イイね
+          - d: お涙頂戴でイイね
+          gg:
+          - Playing the victim is good, right?
+        - ol:
+          - こうべ
+          - たれりゃ
+          - 万事
+          - オッケー
+          ro:
+          - kōbe
+          - tarerya
+          - banji
+          - okkē
+          ww:
+          - w: head
+            d: こうべ
+          - w: if lowering
+            d: たれりゃ
+          - w: everything
+            d: 万事
+          - w: okay
+            d: オッケー
+          - d: こうべたれりゃ万事オッケー
+          gg:
+          - If you just apologize, everything's okay.
+        - ol:
+          - 裏垢
+          - じゃ
+          - 相当
+          - 言ってる
+          ro:
+          - urāka
+          - ja
+          - sōtō
+          - itteru
+          ww:
+          - w: secret account
+            d: 裏垢
+          - w: in
+            d: じゃ
+          - w: considerably
+            d: 相当
+          - w: saying
+            d: 言ってる
+          - d: 裏垢じゃ相当言ってる
+          gg:
+          - But on their private accounts, they're saying a lot –
+        - ol:
+          - 「
+          - マジ
+          - ？
+          - 疑う
+          - わ
+          - ' '
+          - 人格
+          - 」
+          ro:
+          - "'"
+          - maji
+          - ?
+          - utagau
+          - wa
+          - ''
+          - jinkaku
+          - "'"
+          ww:
+          - "'"
+          - w: seriously
+            d: マジ
+          - ?
+          - w: doubt
+            d: 疑う
+          - w: (emphasis)
+            d: わ
+          - ''
+          - w: character
+            d: 人格
+          - "'"
+          - d: 「マジ？疑うわ 人格」
+          gg:
+          - "'Seriously? I doubt their character!'"
+      - lines:
+        - ol:
+          - 誰か
+          - 見てる
+          - ' '
+          - どこか
+          - 見てる
+          ro:
+          - dareka
+          - miteru
+          - ''
+          - dokoka
+          - miteru
+          ww:
+          - w: someone
+            d: 誰か
+          - w: watching
+            d: 見てる
+          - ''
+          - w: somewhere
+            d: どこか
+          - w: watching
+            d: 見てる
+          - d: 誰か見てる どこか見てる
+          gg:
+          - Someone is watching, somewhere is watching.
+        - ol:
+          - もはや
+          - 逃げ場所
+          - ' '
+          - NO
+          ro:
+          - mohaya
+          - nibebasho
+          - ''
+          - ''
+          ww:
+          - w: no longer
+            d: もはや
+          - w: escape
+            d: 逃げ場所
+          - ''
+          - NO
+          - d: もはや逃げ場所 NO
+          gg:
+          - There's no escape anymore, NO.
+        - ol:
+          - だから と 言って
+          - 真っ白
+          - で
+          ro:
+          - dakara to itte
+          - masshiro
+          - de
+          ww:
+          - w: nevertheless
+            d: だから と 言って
+          - w: pure white
+            d: 真っ白
+          - w: in
+            d: で
+          - d: だからと言って真っ白で
+          gg:
+          - But even so, humanity
+        - ol:
+          - いれる
+          - ほど
+          - 人類
+          - できてない
+          - や
+          - 嫌嫌
+          ro:
+          - ireru
+          - hodo
+          - jinrui
+          - dekitenai
+          - ya
+          - iyaiya
+          ww:
+          - w: be
+            d: いれる
+          - w: extent
+            d: ほど
+          - w: humanity
+            d: 人類
+          - w: not be made
+            d: できてない
+          - w: oh
+            d: や
+          - w: no no!
+            d: 嫌嫌
+          - d: いれるほど人類できてないや嫌嫌
+          gg:
+          - isn't made to be that pure, no no!
+      - lines:
+        - ol:
+          - 嗚呼
+          - ' '
+          - じれったい
+          - 真実
+          ro:
+          - aa
+          - ''
+          - jirettai
+          - shinjitsu
+          ww:
+          - w: ah!
+            d: 嗚呼
+          - ''
+          - w: frustrating
+            d: じれったい
+          - w: truth
+            d: 真実
+          - d: 嗚呼 じれったい真実
+          gg:
+          - Ah, this frustrating truth!
+        - ol:
+          - ブチ壊しちゃえ
+          - 既成概念
+          ro:
+          - buchikowashichae
+          - kiseigainen
+          ww:
+          - w: destroy!
+            d: ブチ壊しちゃえ
+          - w: preconceived notion​
+            d: 既成概念
+          - d: ブチ壊しちゃえ既成概念
+          gg:
+          - Destroy the established concepts!
+        - ol:
+          - 嗚呼
+          - ' '
+          - ウザったい
+          ro:
+          - aa
+          - ''
+          - uzattai
+          ww:
+          - w: ah!
+            d: 嗚呼
+          - ''
+          - w: annoying
+            d: ウザったい
+          - d: 嗚呼 ウザったい
+          gg:
+          - Ah, how annoying!
+        - ol:
+          - モラル
+          - も
+          - ヘッタクレ
+          - も
+          - ない
+          - わ
+          ro:
+          - moraru
+          - mo
+          - hettakure
+          - mo
+          - nai
+          - wa
+          ww:
+          - w: morals
+            d: モラル
+          - w: (also)
+            d: も
+          - w: worthless
+            d: ヘッタクレ
+          - w: (also)
+            d: も
+          - w: useless
+            d: ない
+          - w: (emphasis)
+            d: わ
+          - d: モラルもヘッタクレもないわ
+          gg:
+          - Morals are utterly useless!
+        - ol:
+          - 聖人
+          - も
+          - 極悪人
+          - も
+          - アタシ
+          - も
+          - アンタ
+          - も
+          ro:
+          - seijin
+          - mo
+          - gokuakunin
+          - mo
+          - atashi
+          - mo
+          - anta
+          - mo
+          ww:
+          - w: saint
+            d: 聖人
+          - w: (also)
+            d: も
+          - w: villain
+            d: 極悪人
+          - w: (also)
+            d: も
+          - w: me
+            d: アタシ
+          - w: (also)
+            d: も
+          - w: you
+            d: アンタ
+          - w: (also)
+            d: も
+          - d: 聖人も極悪人もアタシもアンタも
+          gg:
+          - Saints, villains, me, you -
+        - ol:
+          - 本能
+          - に
+          - 抗えない
+          ro:
+          - honnō
+          - ni
+          - aragaenai
+          ww:
+          - w: instinct
+            d: 本能
+          - w: on
+            d: に
+          - w: not resist
+            d: 抗えない
+          - d: 本能に抗えない
+          gg:
+          - Cannot resist instinct.
+        - ol:
+          - 所詮
+          - 、
+          - 動物
+          - です
+          - ワン
+          ro:
+          - shosen
+          - ','
+          - dōbutsu
+          - desu
+          - wan
+          ww:
+          - w: after all
+            d: 所詮
+          - ','
+          - w: animal
+            d: 動物
+          - w: be
+            d: です
+          - w: woof
+            d: ワン
+          - d: 所詮、動物ですワン
+          gg:
+          - After all, we are animals, woof!
+      - lines:
+        - ol:
+          - ブレブレ
+          - の
+          - 焦点
+          - 脳天
+          - ' '
+          - 狙い
+          - 定め
+          - 置き
+          - エイム
+          ro:
+          - burebure
+          - no
+          - shōten
+          - nōten
+          - ''
+          - nerai
+          - sadame
+          - oki
+          - eimu
+          ww:
+          - w: shaky
+            d: burebure
+          - w: ('s)
+            d: no
+          - w: focus
+            d: shōten
+          - w: brain
+            d: nōten
+          - ''
+          - w: aim
+            d: nerai
+          - w: fix
+            d: sadame
+          - w: set
+            d: oki
+          - w: aim
+            d: eimu
+          - d: ブレブレの焦点脳天 狙い定め置きエイム
+          gg:
+          - Wobbly brain focus. Fix your aim, set your aim.
+        - ol:
+          - ほら
+          - バレる
+          - ぞ
+          - 虚言
+          - 妄言
+          - ' '
+          - 飼いならせ
+          - 承認欲求
+          ro:
+          - hora
+          - bareru
+          - zo
+          - kyogen
+          - mōgen
+          - ''
+          - kainarase
+          - shōniyokkyū
+          ww:
+          - w: look!
+            d: ほら
+          - w: will be exposed
+            d: バレる
+          - w: (emphasis)
+            d: ぞ
+          - w: lie
+            d: 虚言
+          - w: nonsense
+            d: 妄言
+          - ''
+          - w: tame!
+            d: 飼いならせ
+          - w: need for approval
+            d: 承認欲求
+          - d: ほらバレるぞ虚言妄言 飼いならせ承認欲求
+          gg:
+          - Look, your lies and nonsense will be exposed! Tame your need for approval!
+      - lines:
+        - ol:
+          - 明日
+          - は
+          - 我が身
+          - だ
+          - ' '
+          - スベカラク
+          - 皆
+          ro:
+          - asu
+          - wa
+          - wagami
+          - da
+          - ''
+          - subekaraku
+          - mina
+          ww:
+          - w: tomorrow
+            d: 明日
+          - w: ''
+            d: は
+          - w: me
+            d: 我が身
+          - w: be
+            d: だ
+          - ''
+          - w: without exception
+            d: スベカラク
+          - w: everyone
+            d: 皆
+          - d: 明日は我が身だ スベカラク皆
+          gg:
+          - Tomorrow it could be me, absolutely everyone.
+        - ol:
+          - 黒歴史
+          - は
+          - 背負う
+          - べき
+          - 業
+          - です
+          ro:
+          - kurorekishi
+          - wa
+          - seō
+          - beki
+          - gō
+          - desu
+          ww:
+          - w: dark past
+            d: 黒歴史
+          - w: ''
+            d: は
+          - w: carry
+            d: 背負う
+          - w: ought to
+            d: べき
+          - w: karma
+            d: 業
+          - w: be
+            d: です
+          - d: 黒歴史は背負うべき業です
+          gg:
+          - Dark history is a karma that should be carried.
+        - ol:
+          - 自分
+          - 自身
+          - を
+          - 守る
+          - 為
+          - なら
+          ro:
+          - jibun
+          - jishin
+          - o
+          - mamoru
+          - tame
+          - nara
+          ww:
+          - w: oneself
+            d: 自分
+          - w: oneself
+            d: 自身
+          - w: ''
+            d: を
+          - w: protect
+            d: 守る
+          - w: sake
+            d: 為
+          - w: as for
+            d: なら
+          - d: 自分自身を守る為なら
+          gg:
+          - For the sake of protecting oneself,
+        - ol:
+          - 怖や
+          - 怖や
+          - 人
+          - は
+          - 愛
+          - に
+          - でも
+          - 唾を吐く
+          ro:
+          - kowaya
+          - kowaya
+          - hito
+          - wa
+          - ai
+          - ni
+          - demo
+          - tsuba wo haku
+          ww:
+          - w: how dreadful
+            d: 怖や
+          - w: how dreadful
+            d: 怖や
+          - w: people
+            d: 人
+          - w: ''
+            d: は
+          - w: love
+            d: 愛
+          - w: to
+            d: に
+          - w: even
+            d: でも
+          - w: spit
+            d: 唾を吐く
+          - d: 怖や怖や人は愛にでも唾を吐く
+          gg:
+          - how dreadful, how dreadful people will even spit on love.
+      - lines:
+        - ol:
+          - 嗚呼
+          - ' '
+          - 生温い
+          - 理想論
+          ro:
+          - aa
+          - ''
+          - namanurui
+          - risōron
+          ww:
+          - w: ah!
+            d: 嗚呼
+          - ''
+          - w: lukewarm
+            d: 生温い
+          - w: idealism
+            d: 理想論
+          - d: 嗚呼 生温い理想論
+          gg:
+          - Ah, lukewarm idealism.
+        - ol:
+          - 燃やして
+          - 得る
+          - 炎上商法
+          ro:
+          - moyashite
+          - eru
+          - enjōshōhō
+          ww:
+          - w: burn
+            d: 燃やして
+          - w: gain
+            d: 得る
+          - w: outrage marketing
+            d: 炎上商法
+          - d: 燃やして得る炎上商法
+          gg:
+          - Burning it up and getting rage-baiting
+        - ol:
+          - 嗚呼
+          - ' '
+          - 地獄
+          - の
+          - 沙汰
+          - も
+          - 金
+          - 次第
+          - です
+          - わ
+          ro:
+          - aa
+          - ''
+          - jigoku
+          - no
+          - sata
+          - mo
+          - kane
+          - shidai
+          - desu
+          - wa
+          ww:
+          - w: ah!
+            d: 嗚呼
+          - ''
+          - w: hell
+            d: 地獄
+          - w: ('s)
+            d: の
+          - w: judgement
+            d: 沙汰
+          - w: (also)
+            d: も
+          - w: money
+            d: 金
+          - w: depends on
+            d: 次第
+          - w: be
+            d: です
+          - w: (emphasis)
+            d: わ
+          - d: 嗚呼 地獄の沙汰も金次第ですわ
+          gg:
+          - Ah, even the judgment of hell depends on money.
+        - ol:
+          - 夢
+          - 、
+          - 希望
+          - ' '
+          - なにもかも
+          ro:
+          - yume
+          - ','
+          - kibō
+          - ''
+          - nanimokamo
+          ww:
+          - w: dream
+            d: 夢
+          - ','
+          - w: hope
+            d: 希望
+          - ''
+          - w: everything
+            d: なにもかも
+          - d: 夢、希望 なにもかも
+          gg:
+          - Dreams, hopes, everything -
+        - ol:
+          - 信じてた
+          - あの
+          - 頃
+          - に
+          ro:
+          - shinjiteta
+          - ano
+          - koro
+          - ni
+          ww:
+          - w: believed
+            d: 信じてた
+          - w: those
+            d: あの
+          - w: time
+            d: 頃
+          - w: in
+            d: に
+          - d: 信じてたあの頃に
+          gg:
+          - To those times when I believed,
+        - ol:
+          - 戻りたい
+          - 戻れない
+          - ' '
+          - もう
+          - 泥まみれ
+          - なの
+          ro:
+          - modoritai
+          - modorenai
+          - ''
+          - mō
+          - doromamire
+          - nano
+          ww:
+          - w: want to return
+            d: 戻りたい
+          - w: cannot return
+            d: 戻れない
+          - ''
+          - w: already
+            d: もう
+          - w: covered with mud
+            d: 泥まみれ
+          - w: (emphasis)
+            d: なの
+          - d: 戻りたい戻れない もう泥まみれなの
+          gg:
+          - I want to return but I can't anymore, I'm already covered in mud.
+      - lines:
+        - ol:
+          - 嗚呼
+          - ' '
+          - 美しい
+          - もの
+          - ほど
+          ro:
+          - aa
+          - ''
+          - utsukushī
+          - mono
+          - hodo
+          ww:
+          - w: ah!
+            d: 嗚呼
+          - ''
+          - w: beautiful
+            d: 美しい
+          - w: things
+            d: もの
+          - w: the more
+            d: ほど
+          - d: 嗚呼 美しいものほど
+          gg:
+          - Ah, the more beautiful things are,
+        - ol:
+          - 醜く
+          - 見える
+          - 現状
+          - です
+          ro:
+          - miniku
+          - mieru
+          - genjō
+          - desu
+          ww:
+          - w: ugly
+            d: 醜く
+          - w: appear
+            d: 見える
+          - w: current reality
+            d: 現状
+          - w: be
+            d: です
+          - d: 醜く見える現状です
+          gg:
+          - the more ugly they appear to be in reality.
+        - ol:
+          - 嗚呼
+          - ' '
+          - オトナ
+          - に
+          - なる
+          - って
+          - 愉快な
+          - もの
+          - ね
+          ro:
+          - aa
+          - ''
+          - otona
+          - ni
+          - naru
+          - tte
+          - yukaina
+          - mono
+          - ne
+          ww:
+          - w: ah!
+            d: 嗚呼
+          - ''
+          - w: adult
+            d: オトナ
+          - w: into
+            d: に
+          - w: become
+            d: なる
+          - w: (they say)
+            d: って
+          - w: pleasant
+            d: 愉快な
+          - w: thing
+            d: もの
+          - w: isn't it
+            d: ね
+          - d: 嗚呼 オトナになるって愉快なものね
+          gg:
+          - Ah, becoming an adult is a pleasant thing, isn't it?
+      - lines:
+        - ol:
+          - 嗚呼
+          - ' '
+          - じれったい
+          - 真実
+          ro:
+          - aa
+          - ''
+          - jirettai
+          - shinjitsu
+          ww:
+          - w: ah!
+            d: 嗚呼
+          - ''
+          - w: frustrating
+            d: じれったい
+          - w: truth
+            d: 真実
+          - d: 嗚呼 じれったい真実
+          gg:
+          - Ah, this frustrating truth!
+        - ol:
+          - ブチ壊しちゃえ
+          - 既成概念
+          ro:
+          - buchikowashichae
+          - kiseigainen
+          ww:
+          - w: destroy!
+            d: ブチ壊しちゃえ
+          - w: preconceived notion​
+            d: 既成概念
+          - d: ブチ壊しちゃえ既成概念
+          gg:
+          - Destroy the established concepts!
+        - ol:
+          - 嗚呼
+          - ' '
+          - ウザったい
+          ro:
+          - aa
+          - ''
+          - uzattai
+          ww:
+          - w: ah!
+            d: 嗚呼
+          - ''
+          - w: annoying
+            d: ウザったい
+          - d: 嗚呼 ウザったい
+          gg:
+          - Ah, how annoying!
+        - ol:
+          - モラル
+          - も
+          - ヘッタクレ
+          - も
+          - ない
+          - わ
+          ro:
+          - moraru
+          - mo
+          - hettakure
+          - mo
+          - nai
+          - wa
+          ww:
+          - w: morals
+            d: モラル
+          - w: (also)
+            d: も
+          - w: worthless
+            d: ヘッタクレ
+          - w: (also)
+            d: も
+          - w: useless
+            d: ない
+          - w: (emphasis)
+            d: わ
+          - d: モラルもヘッタクレもないわ
+          gg:
+          - Morals are utterly useless!
+        - ol:
+          - 聖人
+          - も
+          - 極悪人
+          - も
+          - アタシ
+          - も
+          - アンタ
+          - も
+          ro:
+          - seijin
+          - mo
+          - gokuakunin
+          - mo
+          - atashi
+          - mo
+          - anta
+          - mo
+          ww:
+          - w: saint
+            d: 聖人
+          - w: (also)
+            d: も
+          - w: villain
+            d: 極悪人
+          - w: (also)
+            d: も
+          - w: me
+            d: アタシ
+          - w: (also)
+            d: も
+          - w: you
+            d: アンタ
+          - w: (also)
+            d: も
+          - d: 聖人も極悪人もアタシもアンタも
+          gg:
+          - Saints, villains, me, you -
+        - ol:
+          - 本能
+          - に
+          - 抗えない
+          ro:
+          - honnō
+          - ni
+          - aragaenai
+          ww:
+          - w: instinct
+            d: 本能
+          - w: on
+            d: に
+          - w: not resist
+            d: 抗えない
+          - d: 本能に抗えない
+          gg:
+          - Cannot resist instinct.
+        - ol:
+          - 所詮
+          - 、
+          - 動物
+          - です
+          - ワン
+          ro:
+          - shosen
+          - ','
+          - dōbutsu
+          - desu
+          - wan
+          ww:
+          - w: after all
+            d: 所詮
+          - ','
+          - w: animal
+            d: 動物
+          - w: be
+            d: です
+          - w: woof
+            d: ワン
+          - d: 所詮、動物ですワン
+          gg:
+          - After all, we are animals, woof!
+    linked-to:
+    - youtubeshort: QJzDlj_jpfE
+    - youtubeshort: lPiXxWGgobU
+    - youtubeshort: g7vk_JnQveM
+    - postx: 1943641464397062330
+    - youtubeshort: gqs7cO3U4i4
 
-
-related:
-- type: youtubeshort
-  id: QJzDlj_jpfE
-  label: Rehearsal
-  info: rhythm section, 1 year apart, Kanade, Cocoro
-  published-date: 2025-04-15
-- type: youtubeshort
-  id: lPiXxWGgobU
-  label: Rehearsal
-  info: studio audio
-  published-date: 2025-06-07
-- type: youtubeshort
-  id: g7vk_JnQveM
-  label: Rehearsal
-  info: studio audio
-  published-date: 2025-07-08
-
-- type: postx
-  id: 1943641464397062330
-  account: nekiband_jp
-  label: Fool Live video announcement
-  published-date: 2025-07-11
-  text: |
-    💐LIVE VIDEO💐
-
-    明日7/12(土)21:00
-
-    昨年12月開催「NEK! DEBUT YEAR LAST LIVE」
-    @下北沢シャングリラ から
-
-    "Fool" Official Live Video
-    YouTubeにてプレミア公開🎥
-
-    公開時にはメンバーがチャット欄に参加します🏃‍♀️
-
-    🔗https://youtu.be/urGmtrd7zbA
-
-    #NEKI #Fool
-  
-  image:
-  - id: GvkzmwJWEAA9mgY
-    label: LMV frame
-    hidden: true
-    localCopy: true
+- youtubeshort:
+    id: QJzDlj_jpfE
+    label: Rehearsal
+    info: rhythm section, 1 year apart, Kanade, Cocoro
+    published-date: 2025-04-15
     linked-to:
     - song: fool
-- type: youtubeshort
-  id: gqs7cO3U4i4
-  label: Live Video
-  published-date: 2025-07-13
-  linked-to:
-  - song: fool
+
+- youtubeshort:
+    id: lPiXxWGgobU
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-06-07
+    linked-to:
+    - song: fool
+
+- youtubeshort:
+    id: g7vk_JnQveM
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-07-08
+    linked-to:
+    - song: fool
+
+- postx:
+    id: 1943641464397062330
+    account: nekiband_jp
+    published-date: 2025-07-11
+    label: Fool Live video announcement
+    text: |
+      💐LIVE VIDEO💐
+      
+      明日7/12(土)21:00
+      
+      昨年12月開催「NEK! DEBUT YEAR LAST LIVE」
+      @下北沢シャングリラ から
+      
+      "Fool" Official Live Video
+      YouTubeにてプレミア公開🎥
+      
+      公開時にはメンバーがチャット欄に参加します🏃‍♀️
+      
+      🔗https://youtu.be/urGmtrd7zbA
+      
+      #NEKI #Fool
+      
+    image:
+    - GvkzmwJWEAA9mgY
+    linked-to:
+    - postximage:
+        post: 1943641464397062330
+        image: GvkzmwJWEAA9mgY
+    - song: fool
+
+- postximage:
+    post: 1943641464397062330
+    id: GvkzmwJWEAA9mgY
+    label: LMV frame
+    published-date: 2025-07-11
+    local-copy: true
+    linked-to:
+    - song: fool
+    - postx: 1943641464397062330
+
+- youtubeshort:
+    id: gqs7cO3U4i4
+    label: Live Video
+    published-date: 2025-07-13
+    linked-to:
+    - song: fool
+

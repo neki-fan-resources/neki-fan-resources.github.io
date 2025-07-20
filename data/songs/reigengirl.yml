@@ -1,419 +1,683 @@
-type: song
-id: reigengirl
+- song:
+    id: reigengirl
+    fullname: 令現少女
+    fullname-en: REIGEN GIRL
+    album: exclamation
+    release-date: 2024-07-03
+    credits:
+      lyricist: NEK!, KawaguchiTigerYusuke
+      composer: NEK!, Yuki Tanabe
+      source:
+        description: 'JASRAC - work ID: 303-5428-5'
+        url: 'https://www2.jasrac.or.jp/'
+    cover-image:
+      postyoutubeimage:
+        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+        image: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
+    multimedia:
+      video:
+      - youtubevideo: rq0dca9mFfI
+      - postxvideo:
+          post: 1934565616020840560
+          video: 01
+      - postxvideo:
+          post: 1922955621957005543
+          video: 97bf656e-1306-4f01-b926-ec5e46b54cff
+      - postxvideo:
+          post: 1917515461727772903
+          video: d111e062-3a51-4d15-92d8-43dccd8534ba
+      live:
+      - postxvideo:
+          post: 1943530078891315228
+          video: 01
+      - postxvideo:
+          post: 1901916392653537292
+          video: 01
+      - postxvideo:
+          post: 1907340052666945675
+          video: 01
+      - postxvideo:
+          post: 1939993599997042981
+          video: 01
+      - youtubeshort: YKmsB94XMb4
+      - youtubeshort: MpR-vcWQAuQ
+      - postxvideo:
+          post: 1848204505093144935
+          video: 01
+      - youtubeshort: 6W-P3YBkybQ
+      - youtubeshort: bBhvxwNWh3A
+      - youtubeshort: gVUFjTcD3B4
+      short:
+      - postxvideo:
+          post: 1946145450060288257
+          video: 01
+      - postxvideo:
+          post: 1945413820660523501
+          video: 01
+      - youtubeshort: 20oChc0jOIA
+      - youtubeshort: yq6g2gUuoCI
+      - youtubeshort: Dysq97Q0OVA
+      - youtubeshort: 01U3dQi-hkw
+      - youtubeshort: 58AHgFVIMos
+      - youtubeshort: BtsWAi6cXws
+      addtional:
+      - postxvideo:
+          post: 1927221299337666934
+          video: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
+      - youtubevideo: pCqu9xyfFzE
+    lyrics:
+      status:
+        code: warning
+        description: Data copied from the sources. Not reviewed.
+      languages:
+      - id: ol
+        name: original lyrics
+        details: (from YouTube Official Music Video subtitles)
+        active: true
+        fixed: true
+        no-translation: true
+        source:
+          description: from YouTube Official Music Video subtitles
+          url: 'https://www.youtube.com/watch?v=rq0dca9mFfI'
+      - id: en
+        name: english translation
+        details: (from YouTube Official Music Video subtitles)
+        active: true
+        source:
+          description: from YouTube Official Music Video subtitles
+          url: 'https://www.youtube.com/watch?v=rq0dca9mFfI'
+      sections:
+      - lines:
+        - ol:
+          - 気狂イ喧騒 忘却情緒
+          en:
+          - Crazy fuss and forgotten emotions
+        - ol:
+          - 胡散臭い街で踊る
+          en:
+          - Dancing in a somewhat dubious city
+        - ol:
+          - 少女に可愛げは皆無
+          en:
+          - The girl has no cuteness at all
+        - ol:
+          - 割れたネイル 引っ掻いた傷
+          en:
+          - Broken nails, scratch
+        - ol:
+          - 赤く染まれいっそ全て
+          en:
+          - Let it all turn red
+        - ol:
+          - 思い出は何ひとつ アタシたちを救わない
+          en:
+          - No thought will save us
+        - ol:
+          - ねぇ神様 Take me away in chaos!
+          en:
+          - Hey, God. Take me away in chaos!
+      - lines:
+        - ol:
+          - 五臓六腑に染み渡ってく 悲しみを誰か壊して
+          en:
+          - It seeps into all of my internal organs, someone break that sadness
+        - ol:
+          - 伴う痛みならば厭わない 令現少女は泣いていた
+          en:
+          - I don't care if it's accompanied by pain, REIGENGIRL was crying
+        - ol:
+          - アスファルトに咲く薔薇になった
+          en:
+          - It became a rose on the asphalt
+        - ol:
+          - 夜空だけが ただそれを見てた
+          en:
+          - Just the night sky, I was just watching it
+      - lines:
+        - ol:
+          - 悪戯に剥がした瘡蓋
+          en:
+          - Scabs peeled off as a prank
+        - ol:
+          - 次第に癖になっていくわ
+          en:
+          - It gradually becomes a habit
+        - ol:
+          - 悲しみもそうであれと願い
+          en:
+          - Hopefully grief will do the same
+        - ol:
+          - ビルの間を蝶々は揺蕩う
+          en:
+          - Butterflies flutter between buildings
+        - ol:
+          - 何処に向かうわけでもないわ
+          en:
+          - Not heading anywhere in particular
+        - ol:
+          - 居場所ではなく ただ生きる意味を教えて
+          en:
+          - Not a place to stay, just tell me what it means to live
+        - ol:
+          - ねぇ神様 Show me the way to dark
+          en:
+          - Hey, God. Show me the way to dark
+      - lines:
+        - ol:
+          - 存在定義を掻きむしって 傷ダラケで愛を叫んでる
+          en:
+          - Scratch the definition of existence, he's covered in scars and crying out for love
+        - ol:
+          - 絶望などただのテンプレート
+          en:
+          - Despair is just a template
+        - ol:
+          - 令現少女は夢があった 輝かしい未来があった
+          en:
+          - REIGENGIRL had a dream,There was a bright future ahead
+        - ol:
+          - この街じゃ Nobody knows
+          en:
+          - In this city, Nobody knows
+      - lines:
+        - ol:
+          - Take me away in chaos
+        - ol:
+          - Show me the way to dark
+        - ol:
+          - ねぇ もうわかったから
+          en:
+          - Hey, I've got it all figured out
+        - ol:
+          - 何者でもないアタシ達に
+          en:
+          - For us who are nobody
+        - ol:
+          - 淡い期待からの旅立ちに
+          en:
+          - From Faint Expectations to Departure
+        - ol:
+          - いい加減射してヒカリ
+          en:
+          - I want the light to shine already
+      - lines:
+        - ol:
+          - 五臓六腑に染み渡ってく 悲しみを誰か壊して
+          en:
+          - It seeps into all of my internal organs, someone break that sadness
+        - ol:
+          - 伴う痛みならば厭わない 令現少女は輝いた
+          en:
+          - I don't care if it's accompanied by pain, REIGENGIRL was shining
+        - ol:
+          - 名も無き星のひとつになった
+          en:
+          - It became one of the nameless stars
+        - ol:
+          - 夜空だけがただそれを見てた
+          en:
+          - Just the night sky, I was just watching it
+        - ol:
+          - なにもかもなくなれ
+          en:
+          - I want it all to go away
+    linked-to:
+    - youtubevideo: pCqu9xyfFzE
+    - localimage:
+        youtubevideo: pCqu9xyfFzE
+        id: cover
+    - youtubevideo: rq0dca9mFfI
+    - youtubeshort: _oUd8BpbvE4
+    - youtubeshort: 0CR_lqZQ6N4
+    - youtubeshort: UrH4jAKEOGU
+    - youtubeshort: BtsWAi6cXws
+    - youtubeshort: 58AHgFVIMos
+    - youtubeshort: 01U3dQi-hkw
+    - youtubeshort: Dysq97Q0OVA
+    - youtubeshort: yq6g2gUuoCI
+    - youtubeshort: 20oChc0jOIA
+    - youtubeshort: Y-5kc3nAzXc
+    - youtubeshort: Bvri9sj_Ajw
+    - youtubeshort: me3p1i5Ddtc
+    - postx: 1917515461727772903
+    - postx: 1922955621957005543
+    - postx: 1927221299337666934
+    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    - youtubeshort: bbcvEeB-i9Q
+    - postx: 1934565616020840560
+    - postx: 1848204505093144935
+    - postx: 1945413820660523501
+    - postx: 1946145450060288257
 
-fullname: 令現少女
-fullname-en: REIGEN GIRL
-album: exclamation
+- youtubevideo:
+    id: pCqu9xyfFzE
+    label: Music Video Teaser
+    published-date: 2024-06-28
+    linked-to:
+    - song: reigengirl
 
-release-date: 2024-07-03
+- localimage:
+    youtubevideo: pCqu9xyfFzE
+    id: cover
+    label: Teaser cover
+    filename: cover.png
+    published-date: 2024-06-28
+    source:
+      description: YouTube video
+    hidden: true
+    linked-to:
+    - song: reigengirl
 
-cover-image: 
-  postyoutubeimage:
-    postid: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-    imageid: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
+- youtubevideo:
+    id: rq0dca9mFfI
+    label: Official Music Video
+    published-date: 2024-07-03
+    linked-to:
+    - song: reigengirl
 
-credits:
-  lyricist: NEK!, KawaguchiTigerYusuke
-  composer: NEK!, Yuki Tanabe
-  source:
-    description: 'JASRAC - work ID: 303-5428-5'
-    url: https://www2.jasrac.or.jp/
+- youtubeshort:
+    id: _oUd8BpbvE4
+    label: Promo
+    info: shibuya eggman, studio audio
+    published-date: 2024-06-11
+    linked-to:
+    - song: reigengirl
 
-multimedia:
-  video:
-  - youtubevideo: rq0dca9mFfI
-  - postxvideo:
-      postid: 1934565616020840560
-      videoid: 01
-  - postxvideo:
-      postid: 1922955621957005543
-      videoid: 97bf656e-1306-4f01-b926-ec5e46b54cff
-  - postxvideo:
-      postid: 1917515461727772903
-      videoid: d111e062-3a51-4d15-92d8-43dccd8534ba
-  live:
-  - postxvideo:
-      postid: 1943530078891315228
-      videoid: 01
-  - postxvideo:
-      postid: 1901916392653537292
-      videoid: 01
-  - postxvideo: 
-      postid: 1907340052666945675
-      videoid: 01
-  - postxvideo:
-      postid: 1939993599997042981
-      videoid: 01
-  - youtubeshort: YKmsB94XMb4
-  - youtubeshort: MpR-vcWQAuQ
-  - postxvideo:
-      postid: 1848204505093144935
-      videoid: 01
-  - youtubeshort: 6W-P3YBkybQ
-  - youtubeshort: bBhvxwNWh3A
-  - youtubeshort: gVUFjTcD3B4
-  short:
-  - postxvideo:
-      postid: 1946145450060288257
-      videoid: 01
-  - postxvideo:
-      postid: 1945413820660523501
-      videoid: 01
-  - youtubeshort: 20oChc0jOIA
-  - youtubeshort: yq6g2gUuoCI
-  - youtubeshort: Dysq97Q0OVA
-  - youtubeshort: 01U3dQi-hkw
-  - youtubeshort: 58AHgFVIMos
-  - youtubeshort: BtsWAi6cXws
-  additional:
-  - postxvideo:
-      postid: 1927221299337666934
-      videoid: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
-  - youtubevideo: pCqu9xyfFzE
+- youtubeshort:
+    id: 0CR_lqZQ6N4
+    label: Teaser
+    published-date: 2024-06-28
+    linked-to:
+    - song: reigengirl
 
-related:
-# YouTube videos
-- type: youtubevideo
-  id: pCqu9xyfFzE
-  label: Music Video Teaser
-  published-date: 2024-06-28
-- type: localimage
-  youtubevideo: pCqu9xyfFzE
-  id: cover
-  label: Teaser cover
-  published-date: 2024-06-28
-  filename: cover.png
-  source:
-    description: YouTube video
-  hidden: true
-- type: youtubevideo
-  id: rq0dca9mFfI
-  label: Official Music Video
-  published-date: 2024-07-03
-# YouTube shorts
-- type: youtubeshort
-  id: _oUd8BpbvE4
-  label: Promo
-  info: shibuya eggman, studio audio
-  published-date: 2024-06-11
-- type: youtubeshort
-  id: 0CR_lqZQ6N4
-  label: Teaser
-  published-date: 2024-06-28
-- type: youtubeshort
-  id: UrH4jAKEOGU
-  label: Music Video
-  published-date: 2024-07-03
-- type: youtubeshort
-  id: BtsWAi6cXws
-  label: Music Video
-  info: Cocoro focus, with lyrics
-  published-date: 2024-07-04
-- type: youtubeshort
-  id: 58AHgFVIMos
-  label: Music Video
-  info: Hika focus, with lyrics
-  published-date: 2024-07-05
-- type: youtubeshort
-  id: 01U3dQi-hkw
-  label: Music Video
-  info: Natsu focus, with lyrics
-  published-date: 2024-07-06
-- type: youtubeshort
-  id: Dysq97Q0OVA
-  label: Music Video
-  info: Kanade focus, with lyrics
-  published-date: 2024-07-07
-- type: youtubeshort
-  id: yq6g2gUuoCI
-  label: Music Video
-  info: In the sunset
-  published-date: 2024-07-10
-- type: youtubeshort
-  id: 20oChc0jOIA
-  label: Music Video
-  info: The girl had a dream
-  published-date: 2024-07-13
-- type: youtubeshort
-  id: Y-5kc3nAzXc
-  label: Promo
-  info: Shibuya eggman, studio audio
-  published-date: 2024-11-12
-- type: youtubeshort
-  id: Bvri9sj_Ajw
-  label: Promo
-  info: Rehearsal room, studio audio
-  published-date: 2025-05-19
-- type: youtubeshort
-  id: me3p1i5Ddtc
-  label: Promo
-  info: Rehearsal room, studio audio
-  published-date: 2025-05-31
-# post X
-- type: postx
-  id: 1917515461727772903
-  account: cure_bass_baka
-  published-date: 2025-04-30
-  label: Reigen girl video
-  text: |
-    スランプ抜けはまだ遠そうなので今回も動画撮れず、
-    生音で令現少女のイントロ！
+- youtubeshort:
+    id: UrH4jAKEOGU
+    label: Music Video
+    published-date: 2024-07-03
+    linked-to:
+    - song: reigengirl
 
-    奏法的にはシンプルだけれど、フレーズが好きでNEK!の中でも好きなアレンジです！
+- youtubeshort:
+    id: BtsWAi6cXws
+    label: Music Video
+    info: Cocoro focus, with lyrics
+    published-date: 2024-07-04
+    linked-to:
+    - song: reigengirl
 
-    #NEKI  #拡散中  #ネキ界隈
-  video:
-  - id: d111e062-3a51-4d15-92d8-43dccd8534ba
-    cover: 1917515345696546817/img/z7YArpECtZZ0NRzV.jpg
+- youtubeshort:
+    id: 58AHgFVIMos
+    label: Music Video
+    info: Hika focus, with lyrics
+    published-date: 2024-07-05
+    linked-to:
+    - song: reigengirl
+
+- youtubeshort:
+    id: 01U3dQi-hkw
+    label: Music Video
+    info: Natsu focus, with lyrics
+    published-date: 2024-07-06
+    linked-to:
+    - song: reigengirl
+
+- youtubeshort:
+    id: Dysq97Q0OVA
+    label: Music Video
+    info: Kanade focus, with lyrics
+    published-date: 2024-07-07
+    linked-to:
+    - song: reigengirl
+
+- youtubeshort:
+    id: yq6g2gUuoCI
+    label: Music Video
+    info: In the sunset
+    published-date: 2024-07-10
+    linked-to:
+    - song: reigengirl
+
+- youtubeshort:
+    id: 20oChc0jOIA
+    label: Music Video
+    info: The girl had a dream
+    published-date: 2024-07-13
+    linked-to:
+    - song: reigengirl
+
+- youtubeshort:
+    id: Y-5kc3nAzXc
+    label: Promo
+    info: Shibuya eggman, studio audio
+    published-date: 2024-11-12
+    linked-to:
+    - song: reigengirl
+
+- youtubeshort:
+    id: Bvri9sj_Ajw
+    label: Promo
+    info: Rehearsal room, studio audio
+    published-date: 2025-05-19
+    linked-to:
+    - song: reigengirl
+
+- youtubeshort:
+    id: me3p1i5Ddtc
+    label: Promo
+    info: Rehearsal room, studio audio
+    published-date: 2025-05-31
+    linked-to:
+    - song: reigengirl
+
+- postx:
+    id: 1917515461727772903
+    account: cure_bass_baka
+    published-date: 2025-04-30
+    label: Reigen girl video
+    text: |
+      スランプ抜けはまだ遠そうなので今回も動画撮れず、
+      生音で令現少女のイントロ！
+      
+      奏法的にはシンプルだけれど、フレーズが好きでNEK!の中でも好きなアレンジです！
+      
+      #NEKI  #拡散中  #ネキ界隈
+      
+    video:
+    - d111e062-3a51-4d15-92d8-43dccd8534ba
+    linked-to:
+    - postxvideo:
+        post: 1917515461727772903
+        video: d111e062-3a51-4d15-92d8-43dccd8534ba
+    - song: reigengirl
+
+- postxvideo:
+    post: 1917515461727772903
+    id: d111e062-3a51-4d15-92d8-43dccd8534ba
     label: Bass intro
+    cover: 1917515345696546817/img/z7YArpECtZZ0NRzV.jpg
+    published-date: 2025-04-30
     info: Kanade
-- type: postx
-  id: 1922955621957005543
-  account: natsu08_guitar
-  published-date: 2025-05-15
-  label: Reigen girl riff
-  text: |
-    令現少女 / NEK!
+    linked-to:
+    - postx: 1917515461727772903
 
-    “何もかもなくなれ！！！”
+- postx:
+    id: 1922955621957005543
+    account: natsu08_guitar
+    published-date: 2025-05-15
+    label: Reigen girl riff
+    text: |
+      令現少女 / NEK!
+      
+      “何もかもなくなれ！！！”
+      
+      このリフ、ヘビィでお気に入り( ˊ̱˂˃ˋ̱ )🎸
+      
+      #NEKI #ネキ界隈 #拡散中 #令現少女
+      
+    video:
+    - 97bf656e-1306-4f01-b926-ec5e46b54cff
+    linked-to:
+    - postxvideo:
+        post: 1922955621957005543
+        video: 97bf656e-1306-4f01-b926-ec5e46b54cff
+    - song: reigengirl
 
-    このリフ、ヘビィでお気に入り( ˊ̱˂˃ˋ̱ )🎸
-
-    #NEKI #ネキ界隈 #拡散中 #令現少女
-  video:
-  - id: 97bf656e-1306-4f01-b926-ec5e46b54cff
-    cover: 1922955546032066560/img/QwIcPX276foa_-KN.jpg
+- postxvideo:
+    post: 1922955621957005543
+    id: 97bf656e-1306-4f01-b926-ec5e46b54cff
     label: Riff
+    cover: 1922955546032066560/img/QwIcPX276foa_-KN.jpg
+    published-date: 2025-05-15
     info: Natsu
-- type: postx
-  id: 1927221299337666934
-  account: 46_hikaa
-  published-date: 2025-04-30
-  label: Reigen girl rehearsal intro
-  text: |
-    たまには！
+    linked-to:
+    - postx: 1922955621957005543
 
-    かなでひかコンビ！！
+- postx:
+    id: 1927221299337666934
+    account: 46_hikaa
+    published-date: 2025-04-30
+    label: Reigen girl rehearsal intro
+    text: |
+      たまには！
+      
+      かなでひかコンビ！！
+      
+      ご覧下さい✩.*˚
+      
+      #ネキ界隈  #拡散中  #令現少女
+      
+    video:
+    - 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
+    linked-to:
+    - postxvideo:
+        post: 1927221299337666934
+        video: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
+    - song: reigengirl
 
-    ご覧下さい✩.*˚
-
-    #ネキ界隈  #拡散中  #令現少女
-  video:
-  - id: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
-    cover: 1927221238486728704/img/E6Tir4SQER0UOXLd.jpg
+- postxvideo:
+    post: 1927221299337666934
+    id: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
     label: Rehearsal
+    cover: 1927221238486728704/img/E6Tir4SQER0UOXLd.jpg
+    published-date: 2025-04-30
     info: intro, Hika, Kanade
     linked-to:
     - song: reigengirl
-# post YouTube
-- type: postyoutube
-  id: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-  account: neki_official
-  label: release MV
-  published-date: 2024-06-03 # TODO: double check date with X post
-  text: |
-    🌇 Music Video公開 🌇
+    - postx: 1927221299337666934
 
-    New Song「令現少女」
+- postyoutube:
+    id: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    account: neki_official
+    published-date: 2024-06-03
+    label: release MV
+    text: |
+      🌇 Music Video公開 🌇
+      
+      New Song「令現少女」
+      
+      🎬https://youtu.be/rq0dca9mFfI
+      
+    image:
+    - EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
+    - SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
+    - UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
+    - RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
+    - DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
+    linked-to:
+    - postyoutubeimage:
+        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+        image: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
+    - postyoutubeimage:
+        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+        image: SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
+    - postyoutubeimage:
+        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+        image: UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
+    - postyoutubeimage:
+        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+        image: RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
+    - postyoutubeimage:
+        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+        image: DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
+    - song: reigengirl
 
-    🎬https://youtu.be/rq0dca9mFfI
-  image:
-  - id: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
+- postyoutubeimage:
+    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    id: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
     label: cover
-    localCopy: true
+    published-date: 2024-06-03
+    local-copy: true
     linked-to:
     - song: reigengirl
-  - id: SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
+    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+
+- postyoutubeimage:
+    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    id: SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
     label: Hika
     info: Hika
+    published-date: 2024-06-03
     linked-to:
     - song: reigengirl
-  - id: UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
+    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+
+- postyoutubeimage:
+    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    id: UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
     label: Natsu
     info: Natsu
+    published-date: 2024-06-03
     linked-to:
     - song: reigengirl
-  - id: RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
+    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+
+- postyoutubeimage:
+    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    id: RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
     label: Kanade
     info: Kanade
+    published-date: 2024-06-03
     linked-to:
     - song: reigengirl
-  - id: DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
+    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+
+- postyoutubeimage:
+    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    id: DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
     label: Cocoro
     info: Cocoro
+    published-date: 2024-06-03
     linked-to:
     - song: reigengirl
-- type: youtubeshort
-  id: bbcvEeB-i9Q
-  label: Promo
-  info: Rehearsal room, studio audio
-  published-date: 2025-06-13
-- type: postx
-  id: 1934565616020840560
-  account: natsu08_guitar
-  published-date: 2025-06-16
-  label: chorus
-  text: |
-    令現少女 / NEK!
+    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
 
-    ここのコーラスとギター、少女の叫びや儚さを感じられてとっても好きなところ😌
-    ライブでもいつも噛み締めながら演奏しています🎸
-  video:
-  - id: 01
-    cover: 1934565284192698368/img/xdTSyInkyhqfocrh.jpg
+- youtubeshort:
+    id: bbcvEeB-i9Q
+    label: Promo
+    info: Rehearsal room, studio audio
+    published-date: 2025-06-13
+    linked-to:
+    - song: reigengirl
+
+- postx:
+    id: 1934565616020840560
+    account: natsu08_guitar
+    published-date: 2025-06-16
+    label: chorus
+    text: |
+      令現少女 / NEK!
+      
+      ここのコーラスとギター、少女の叫びや儚さを感じられてとっても好きなところ😌
+      ライブでもいつも噛み締めながら演奏しています🎸
+      
+    video:
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1934565616020840560
+        video: 01
+    - song: reigengirl
+
+- postxvideo:
+    post: 1934565616020840560
+    id: 01
     label: Chorus
+    cover: 1934565284192698368/img/xdTSyInkyhqfocrh.jpg
+    published-date: 2025-06-16
     info: Natsu
     linked-to:
     - song: reigengirl
-- type: postx
-  id: 1848204505093144935
-  account: coco_102
-  published-date: 2024-10-21
-  label: Cocoro-cam
-  text: |
-    令現少女💫
+    - postx: 1934565616020840560
 
-    ここのパートラスサビに向けてみんなの心がひとつになってる感じがしてすごく好き。
+- postx:
+    id: 1848204505093144935
+    account: coco_102
+    published-date: 2024-10-21
+    label: Cocoro-cam
+    text: |
+      令現少女💫
+      
+      ここのパートラスサビに向けてみんなの心がひとつになってる感じがしてすごく好き。
+      
+      (音小さいかも！ごめん！)
+      
+    video:
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1848204505093144935
+        video: 01
+    - song: reigengirl
 
-    (音小さいかも！ごめん！)
-  video:
-  - id: 01
-    cover: 1848203800752078848/pu/img/adebpog5s1TgG_9V.jpg
+- postxvideo:
+    post: 1848204505093144935
+    id: 01
     label: Live
+    cover: 1848203800752078848/pu/img/adebpog5s1TgG_9V.jpg
+    published-date: 2024-10-21
     info: Cocoro
     linked-to:
     - song: reigengirl
-    # TODO: find out which show it is from
-- type: postx
-  id: 1945413820660523501
-  account: natsu08_guitar
-  label: GoPro debut
-  published-date: 2025-07-16
-  text: |
-    ついに私もGoProデビューしたよー🌟
+    - postx: 1848204505093144935
 
-    Washburnのヘッドが小さすぎてつけられるかなぁと思ったけどさすがのグリップ力でつけられた🎸📹
-    ライブで付けたら躍動感すごそう❤️‍🔥
+- postx:
+    id: 1945413820660523501
+    account: natsu08_guitar
+    published-date: 2025-07-16
+    label: GoPro debut
+    text: |
+      ついに私もGoProデビューしたよー🌟
+      
+      Washburnのヘッドが小さすぎてつけられるかなぁと思ったけどさすがのグリップ力でつけられた🎸📹
+      ライブで付けたら躍動感すごそう❤️‍🔥
+      
+      #ネキ界隈 #拡散中 #NEKI
+      
+    video:
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1945413820660523501
+        video: 01
+    - song: reigengirl
 
-    #ネキ界隈 #拡散中 #NEKI
-  video:
-  - id: 01
-    cover: 1945413732303020032/img/_VZeLD4lN76DjDcH.jpg
+- postxvideo:
+    post: 1945413820660523501
+    id: 01
     label: Rehearsal
+    cover: 1945413732303020032/img/_VZeLD4lN76DjDcH.jpg
+    published-date: 2025-07-16
     info: Natsu
     linked-to:
     - song: reigengirl
-- type: postx
-  id: 1946145450060288257
-  account: 46_hikaa
-  label: Practice
-  published-date: 2025-07-18
-  text: |
-    練習風景✩.*˚
+    - postx: 1945413820660523501
 
-    #ネキ界隈  #NEKI  #令現少女
-  video:
-  - id: 01
-    cover: 1946145194132549632/img/Qp9jyLHXgENne6Cg.jpg
+- postx:
+    id: 1946145450060288257
+    account: 46_hikaa
+    published-date: 2025-07-18
+    label: Practice
+    text: |
+      練習風景✩.*˚
+      
+      #ネキ界隈  #NEKI  #令現少女
+      
+    video:
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1946145450060288257
+        video: 01
+    - song: reigengirl
+
+- postxvideo:
+    post: 1946145450060288257
+    id: 01
     label: Rehearsal
+    cover: 1946145194132549632/img/Qp9jyLHXgENne6Cg.jpg
+    published-date: 2025-07-18
     info: Hika
     linked-to:
     - song: reigengirl
-
-
-
-  
-
-lyrics:
-  status:
-    code: warning
-    description: Data copied from the sources. Not reviewed.
-  languages:
-    - id: ol
-      name: original lyrics
-      details: (from YouTube Official Music Video subtitles)
-      active: true
-      fixed: true
-      notranslation: true
-      source:
-        description: from YouTube Official Music Video subtitles
-        url: https://www.youtube.com/watch?v=rq0dca9mFfI
-    - id: en
-      name: english translation
-      details: (from YouTube Official Music Video subtitles)
-      active: true
-      source:
-        description: from YouTube Official Music Video subtitles
-        url: https://www.youtube.com/watch?v=rq0dca9mFfI
-  sections:
-    - lines:
-      - oll: 気狂イ喧騒 忘却情緒
-        en: Crazy fuss and forgotten emotions
-      - oll: 胡散臭い街で踊る
-        en: Dancing in a somewhat dubious city
-      - oll: 少女に可愛げは皆無
-        en: The girl has no cuteness at all
-      - oll: 割れたネイル 引っ掻いた傷
-        en: Broken nails, scratch
-      - oll: 赤く染まれいっそ全て
-        en: Let it all turn red
-      - oll: 思い出は何ひとつ アタシたちを救わない
-        en: No thought will save us
-      - oll: ねぇ神様 Take me away in chaos!
-        en: Hey, God. Take me away in chaos!
-    - lines:
-      - oll: 五臓六腑に染み渡ってく 悲しみを誰か壊して
-        en: It seeps into all of my internal organs, someone break that sadness
-      - oll: 伴う痛みならば厭わない 令現少女は泣いていた
-        en: I don't care if it's accompanied by pain, REIGENGIRL was crying
-      - oll: アスファルトに咲く薔薇になった
-        en: It became a rose on the asphalt
-      - oll: 夜空だけが ただそれを見てた
-        en: Just the night sky, I was just watching it
-    - lines:
-      - oll: 悪戯に剥がした瘡蓋
-        en: Scabs peeled off as a prank
-      - oll: 次第に癖になっていくわ
-        en: It gradually becomes a habit
-      - oll: 悲しみもそうであれと願い
-        en: Hopefully grief will do the same
-      - oll: ビルの間を蝶々は揺蕩う
-        en: Butterflies flutter between buildings
-      - oll: 何処に向かうわけでもないわ
-        en: Not heading anywhere in particular
-      - oll: 居場所ではなく ただ生きる意味を教えて
-        en: Not a place to stay, just tell me what it means to live
-      - oll: ねぇ神様 Show me the way to dark
-        en: Hey, God. Show me the way to dark
-    - lines:
-      - oll: 存在定義を掻きむしって 傷ダラケで愛を叫んでる
-        en: Scratch the definition of existence, he's covered in scars and crying out for love
-      - oll: 絶望などただのテンプレート
-        en: Despair is just a template
-      - oll: 令現少女は夢があった 輝かしい未来があった
-        en: REIGENGIRL had a dream,There was a bright future ahead
-      - oll: この街じゃ Nobody knows
-        en: In this city, Nobody knows
-    - lines:
-      - oll: Take me away in chaos
-      - oll: Show me the way to dark
-      - oll: ねぇ もうわかったから
-        en: Hey, I've got it all figured out
-      - oll: 何者でもないアタシ達に
-        en: For us who are nobody
-      - oll: 淡い期待からの旅立ちに
-        en: From Faint Expectations to Departure
-      - oll: いい加減射してヒカリ
-        en: I want the light to shine already
-    - lines:
-      - oll: 五臓六腑に染み渡ってく 悲しみを誰か壊して
-        en: It seeps into all of my internal organs, someone break that sadness
-      - oll: 伴う痛みならば厭わない 令現少女は輝いた
-        en: I don't care if it's accompanied by pain, REIGENGIRL was shining
-      - oll: 名も無き星のひとつになった
-        en: It became one of the nameless stars
-      - oll: 夜空だけがただそれを見てた
-        en: Just the night sky, I was just watching it
-      - oll: なにもかもなくなれ
-        en: I want it all to go away
+    - postx: 1946145450060288257
 

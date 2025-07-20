@@ -1,20 +1,17 @@
 package org.skyluc.neki_site
 
+import org.skyluc.fan_resources.Main.displayErrors
 import org.skyluc.fan_resources.checks.DataCheck
 import org.skyluc.fan_resources.checks.MoreDataCheck
 import org.skyluc.fan_resources.data as fr
 import org.skyluc.fan_resources.data.Path
-import org.skyluc.fan_resources.element2data.DataTransformer
 import org.skyluc.fan_resources.html.SiteOutput
-import org.skyluc.fan_resources.yaml.YamlReader
 import org.skyluc.neki_site.checks.CheckLocalAssetExists
 import org.skyluc.neki_site.checks.PopulateRelatedTo
 import org.skyluc.neki_site.data.Data
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.data2Page.DataToPage
-import org.skyluc.neki_site.element2data.ElementToData
 import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
-import org.skyluc.neki_site.yaml.NodeToElement
 
 object Main {
 
@@ -31,24 +28,9 @@ object Main {
     val staticPiecesFolder = rootPath.resolve(STATIC_PIECES_PATH)
     val outputFolder = rootPath.resolve(Path(TARGET_PATH, SITE_PATH))
 
-    val (parserErrors, elements) = YamlReader.load(dataFolder.asFilePath(), NodeToElement)
+    val (parserErrors, datums) = NekiSite.Parser001.parseFolder(dataFolder.asFilePath())
 
-    println("--------------")
-
-    println("PARSER ERRORS: ")
-    parserErrors.foreach { e =>
-      println("  " + e)
-    }
-    println("--------------")
-
-    val (toDataErrors, datums) =
-      DataTransformer.toData(elements, ElementToData)
-
-    println("TODATA ERRORS: ")
-    toDataErrors.foreach { e =>
-      println("  " + e)
-    }
-    println("--------------")
+    displayErrors("TODATA ERRORS", parserErrors)
 
     val (checkErrors, checkedData) = DataCheck.check(
       datums,
@@ -61,11 +43,7 @@ object Main {
 
     val moreCheckerrors = MoreDataCheck.check(data)
 
-    println("CHECKS ERRORS: ")
-    (checkErrors ++ moreCheckerrors).foreach { e =>
-      println("  " + e)
-    }
-    println("--------------")
+    displayErrors("CHECKS ERRORS", checkErrors ++ moreCheckerrors)
 
     val generator = CompiledDataGeneratorBuilder.generator(data)
 

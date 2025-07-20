@@ -1,249 +1,393 @@
-type: song
-id: loner
+- song:
+    id: loner
+    fullname: Loner
+    album: tricktaking
+    release-date: 2024-10-09
+    credits:
+      lyricist: NEK!, Kumoi Haruka
+      composer: NEK!, Yuki Tanabe
+      source:
+        description: 'JASRAC - work ID: 790-9145-8'
+        url: 'https://www2.jasrac.or.jp/'
+    cover-image:
+      postyoutubeimage:
+        post: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+        image: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
+    multimedia:
+      video:
+      - youtubevideo: uhy1HnFXTH8
+      live:
+      - postxvideo:
+          post: 1931252079353581736
+          video: 01
+      - postxvideo:
+          post: 1931999361577463823
+          video: 01
+      - postxvideo:
+          post: 1929106683978224117
+          video: 46203d6b-e5ae-48cd-8902-16d9a880869d
+      - youtubeshort: dSX3EKmcRUc
+      - youtubeshort: xy8VknaZ0QQ
+      short:
+      - youtubeshort: X-45zTnjrcM
+      - youtubeshort: kh3KFur99mo
+      - youtubeshort: pInXexYRjJc
+      - youtubeshort: UMbFFhE5m74
+      - youtubeshort: uDKulvTRNjk
+      - youtubeshort: HS_wfsMj-2Y
+      - youtubeshort: dhMQMl7ogYs
+      - youtubeshort: wiu7XwluMX4
+      addtional:
+      - youtubevideo: prWu9_Q5a5Y
+    lyrics:
+      status:
+        code: warning
+        description: Data copied from the sources. Not reviewed.
+      languages:
+      - id: ol
+        name: original lyrics
+        details: (from YouTube Official Music Video subtitles)
+        active: true
+        fixed: true
+        no-translation: true
+        source:
+          description: from YouTube Official Music Video subtitles
+          url: 'https://www.youtube.com/watch?v=uhy1HnFXTH8'
+      - id: en
+        name: english translation
+        details: (from YouTube Official Music Video subtitles)
+        active: true
+        source:
+          description: from YouTube Official Music Video subtitles
+          url: 'https://www.youtube.com/watch?v=uhy1HnFXTH8'
+      sections:
+      - lines:
+        - ol:
+          - A lonely night 指先で繋がれるタイムライン
+          en:
+          - A lonely night Timelines connected at your fingertips
+        - ol:
+          - 顔のない言葉飛び交って 孤独をあおった
+          en:
+          - Words flit about expressionlessly, kindling loneliness.
+        - ol:
+          - あの子の叫びも泡と消えて 一瞬で埋もれる
+          en:
+          - That child's screams disappear like bubbles, drowned out in an instant.
+        - ol:
+          - There is nothing real.
+        - ol:
+          - A lonely night 指先で繋がれるタイムライン
+          en:
+          - A lonely night Timelines connected at your fingertips
+        - ol:
+          - 顔のない言葉飛び交って 孤独をあおった
+          en:
+          - Words flit about expressionlessly, kindling loneliness.
+        - ol:
+          - あの子の叫びも泡と消えて 一瞬で埋もれる
+          en:
+          - That child's screams disappear like bubbles, drowned out in an instant.
+        - ol:
+          - There is nothing real.
+        - ol:
+          - 「明日世界が終わっていればいいのに」と願う
+          en:
+          - I wish the world would end tomorrow.
+        - ol:
+          - おとぎ話は残酷なまま続いていくから
+          en:
+          - The fairy tale continues cruelly.
+        - ol:
+          - 別の誰かになりたいわけじゃない
+          en:
+          - I don't want to be someone else.
+        - ol:
+          - 自分を愛してみたいだけなのに
+          en:
+          - I just want to love myself.
+        - ol:
+          - People crying every night ハートを見せてよ
+          en:
+          - People crying every night Show me your heart.
+        - ol:
+          - People crying every night 無力で構わない
+          en:
+          - People crying every night I don't care if I'm powerless.
+        - ol:
+          - People crying every night 君の痛みを
+          en:
+          - People crying every night Your pain.
+        - ol:
+          - People crying every night 僕も知りたいんだ
+          en:
+          - People crying every night I want to know too.
+        - ol:
+          - A boring night 現実を塗り替えるタイムライン
+          en:
+          - A boring night Timelines that rewrite reality
+        - ol:
+          - くだらない理想に阻まれて 自分を呪った
+          en:
+          - I cursed myself for letting my stupid ideals get in the way.
+        - ol:
+          - ねえ 他人の不幸せに群がる害虫のよう
+          en:
+          - Like vermin swarming around other people's misery.
+        - ol:
+          - ここから抜け出したい
+          en:
+          - I want to get out of here.
+        - ol:
+          - Everything is fiction.
+        - ol:
+          - 少女は今日も歩き続ける 居場所を求めて
+          en:
+          - A girl continues to walk today in search of her place.
+        - ol:
+          - 空虚な嘘と分かっていても 何のために？
+          en:
+          - Even though you know it's an empty lie, for what?
+        - ol:
+          - たったひとりが抱きしめてくれれば
+          en:
+          - If only one person would give me a hug
+        - ol:
+          - 誰もが震えて愛に飢えてる
+          en:
+          - Everyone is trembling and hungry for love.
+        - ol:
+          - People crying every night 一番の夢は
+          en:
+          - People crying every night My biggest dream
+        - ol:
+          - People crying every night どうして叶わない？
+          en:
+          - People crying every night Why can't it come true?
+        - ol:
+          - People crying every night いつかわかるのか
+          en:
+          - People crying every night Will we know someday?
+        - ol:
+          - People crying every night 何が大切か
+          en:
+          - People crying every night What is important
+        - ol:
+          - (We are always feeling lonely. )
+        - ol:
+          - こんな寂しさがあの子に届いたらいいな (We are always looking for love.)
+          en:
+          - I hope this kind of loneliness reaches that girl. (We are always looking for love.)
+        - ol:
+          - だけど 出口の見えない暗闇の中で
+          en:
+          - But in the darkness with no way out
+        - ol:
+          - 誰もがもがいて今日を生きてる
+          en:
+          - Everyone struggles to live today.
+        - ol:
+          - People crying every night ハートを見せてよ
+          en:
+          - People crying every night Show me your heart.
+        - ol:
+          - People crying every night 無力で構わない
+          en:
+          - People crying every night I don't care if I'm powerless.
+        - ol:
+          - People crying every night 君の痛みを
+          en:
+          - People crying every night Your pain.
+        - ol:
+          - People crying every night 僕も知りたいんだ
+          en:
+          - People crying every night I want to know too.
+        - ol:
+          - (We are always feeling lonely. )
+        - ol:
+          - こんな寂しさがあの子に届いたらいいな (We are always looking for love.)
+          en:
+          - I hope this kind of loneliness reaches that girl. (We are always looking for love.)
+    linked-to:
+    - youtubevideo: prWu9_Q5a5Y
+    - localimage:
+        youtubevideo: prWu9_Q5a5Y
+        id: cover
+    - youtubevideo: uhy1HnFXTH8
+    - youtubeshort: RRrplpvGl6A
+    - youtubeshort: 3xgyiUaSGgI
+    - youtubeshort: 7M5v1yQp-rs
+    - youtubeshort: wiu7XwluMX4
+    - youtubeshort: dhMQMl7ogYs
+    - youtubeshort: HS_wfsMj-2Y
+    - youtubeshort: uDKulvTRNjk
+    - youtubeshort: UMbFFhE5m74
+    - youtubeshort: pInXexYRjJc
+    - youtubeshort: kh3KFur99mo
+    - youtubeshort: X-45zTnjrcM
+    - youtubeshort: OA5IkJ_zL1Y
+    - youtubeshort: z4ptr7fSMtQ
+    - youtubeshort: aazbw05PtgM
+    - postyoutube: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
 
-fullname: Loner
-album: tricktaking
+- youtubevideo:
+    id: prWu9_Q5a5Y
+    label: Music Video Teaser
+    published-date: 2024-10-02
+    linked-to:
+    - song: loner
 
-release-date: 2024-10-09
+- localimage:
+    youtubevideo: prWu9_Q5a5Y
+    id: cover
+    label: Teaser cover
+    filename: cover.png
+    published-date: 2024-10-02
+    source:
+      description: YouTube video
+    hidden: true
+    linked-to:
+    - song: loner
 
-cover-image:
-  postyoutubeimage:
-    postid: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
-    imageid: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
+- youtubevideo:
+    id: uhy1HnFXTH8
+    label: Official Music Video
+    published-date: 2024-10-09
+    linked-to:
+    - song: loner
 
-credits:
-  lyricist: NEK!, Kumoi Haruka
-  composer: NEK!, Yuki Tanabe
-  source:
-    description: 'JASRAC - work ID: 790-9145-8'
-    url: https://www2.jasrac.or.jp/
+- youtubeshort:
+    id: RRrplpvGl6A
+    label: Teaser
+    published-date: 2024-10-02
+    linked-to:
+    - song: loner
 
-multimedia:
-  video:
-  - youtubevideo: uhy1HnFXTH8
-  live:
-  - postxvideo:
-      postid: 1931252079353581736
-      videoid: 01
-  - postxvideo:
-      postid: 1931999361577463823
-      videoid: 01
-  - postxvideo:
-      postid: 1929106683978224117
-      videoid: 46203d6b-e5ae-48cd-8902-16d9a880869d
-  - youtubeshort: dSX3EKmcRUc
-  - youtubeshort: xy8VknaZ0QQ
-  short:
-  - youtubeshort: X-45zTnjrcM
-  - youtubeshort: kh3KFur99mo
-  - youtubeshort: pInXexYRjJc
-  - youtubeshort: UMbFFhE5m74
-  - youtubeshort: uDKulvTRNjk
-  - youtubeshort: HS_wfsMj-2Y
-  - youtubeshort: dhMQMl7ogYs
-  - youtubeshort: wiu7XwluMX4
-  additional:
-  - youtubevideo: prWu9_Q5a5Y
+- youtubeshort:
+    id: 3xgyiUaSGgI
+    label: Music Video
+    published-date: 2024-10-09
+    linked-to:
+    - song: loner
 
-related:
-# YouTube video
-- type: youtubevideo
-  id: prWu9_Q5a5Y
-  label: Music Video Teaser
-  published-date: 2024-10-02
-- type: localimage
-  youtubevideo: prWu9_Q5a5Y
-  id: cover
-  label: Teaser cover
-  published-date: 2024-10-02
-  filename: cover.png
-  source:
-    description: YouTube video
-  hidden: true
-- type: youtubevideo
-  id: uhy1HnFXTH8
-  label: Official Music Video
-  published-date: 2024-10-09
-# YouTube short
-- type: youtubeshort
-  id: RRrplpvGl6A
-  label: Teaser
-  published-date: 2024-10-02
-- type: youtubeshort
-  id: 3xgyiUaSGgI
-  label: Music Video
-  published-date: 2024-10-09
-- type: youtubeshort
-  id: 7M5v1yQp-rs
-  label: Music Video
-  published-date: 2024-10-10
-- type: youtubeshort
-  id: wiu7XwluMX4
-  label: Music Video
-  info: Hika focus
-  published-date: 2024-10-11
-- type: youtubeshort
-  id: dhMQMl7ogYs
-  label: Music Video
-  info: Natsu focus
-  published-date: 2024-10-12
-- type: youtubeshort
-  id: HS_wfsMj-2Y
-  label: Music Video
-  info: Cocoro focus
-  published-date: 2024-10-14
-- type: youtubeshort
-  id: uDKulvTRNjk
-  label: Music Video
-  info: Kanade focus
-  published-date: 2024-10-15
-- type: youtubeshort
-  id: UMbFFhE5m74
-  label: Music Video
-  info: Natsu focus
-  published-date: 2024-10-17
-- type: youtubeshort
-  id: pInXexYRjJc
-  label: Music Video
-  info: Cocoro focus
-  published-date: 2024-10-19
-- type: youtubeshort
-  id: kh3KFur99mo
-  label: Music Video
-  info: Kanade focus
-  published-date: 2024-10-20
-- type: youtubeshort
-  id: X-45zTnjrcM
-  label: Music Video
-  info: Hika focus
-  published-date: 2024-10-22
-- type: youtubeshort
-  id: OA5IkJ_zL1Y
-  label: Promo
-  info: studio audio
-  published-date: 2024-10-30
-- type: youtubeshort
-  id: z4ptr7fSMtQ
-  label: Promo
-  info: shibuya eggman, studio audio
-  published-date: 2024-11-04
-- type: youtubeshort
-  id: aazbw05PtgM
-  label: Promo
-  info: rehearsal room, studio audio
-  published-date: 2025-04-19
-# post YouTube
-- type: postyoutube
-  id: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
-  account: neki_official
-  label: jacket reveal
-  published-date: 2024-06-03 # TODO: double check date with X post
-  text: |
-    新曲「Loner」ジャケット公開🐺
-    New song “Loner” jacket revealed.
-  image:
-  - id: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
+- youtubeshort:
+    id: 7M5v1yQp-rs
+    label: Music Video
+    published-date: 2024-10-10
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: wiu7XwluMX4
+    label: Music Video
+    info: Hika focus
+    published-date: 2024-10-11
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: dhMQMl7ogYs
+    label: Music Video
+    info: Natsu focus
+    published-date: 2024-10-12
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: HS_wfsMj-2Y
+    label: Music Video
+    info: Cocoro focus
+    published-date: 2024-10-14
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: uDKulvTRNjk
+    label: Music Video
+    info: Kanade focus
+    published-date: 2024-10-15
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: UMbFFhE5m74
+    label: Music Video
+    info: Natsu focus
+    published-date: 2024-10-17
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: pInXexYRjJc
+    label: Music Video
+    info: Cocoro focus
+    published-date: 2024-10-19
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: kh3KFur99mo
+    label: Music Video
+    info: Kanade focus
+    published-date: 2024-10-20
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: X-45zTnjrcM
+    label: Music Video
+    info: Hika focus
+    published-date: 2024-10-22
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: OA5IkJ_zL1Y
+    label: Promo
+    info: studio audio
+    published-date: 2024-10-30
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: z4ptr7fSMtQ
+    label: Promo
+    info: shibuya eggman, studio audio
+    published-date: 2024-11-04
+    linked-to:
+    - song: loner
+
+- youtubeshort:
+    id: aazbw05PtgM
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-04-19
+    linked-to:
+    - song: loner
+
+- postyoutube:
+    id: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+    account: neki_official
+    published-date: 2024-06-03
+    label: jacket reveal
+    text: |
+      新曲「Loner」ジャケット公開🐺
+      New song “Loner” jacket revealed.
+      
+    image:
+    - AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
+    linked-to:
+    - postyoutubeimage:
+        post: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+        image: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
+    - song: loner
+
+- postyoutubeimage:
+    post: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+    id: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
     label: cover
-    localCopy: true
+    published-date: 2024-06-03
+    local-copy: true
+    linked-to:
+    - postyoutube: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
 
-
-
-lyrics:
-  status:
-    code: warning
-    description: Data copied from the sources. Not reviewed.
-  languages:
-    - id: ol
-      name: original lyrics
-      details: (from YouTube Official Music Video subtitles)
-      active: true
-      fixed: true
-      notranslation: true
-      source:
-        description: from YouTube Official Music Video subtitles
-        url: https://www.youtube.com/watch?v=uhy1HnFXTH8
-    - id: en
-      name: english translation
-      details: (from YouTube Official Music Video subtitles)
-      active: true
-      source:
-        description: from YouTube Official Music Video subtitles
-        url: https://www.youtube.com/watch?v=uhy1HnFXTH8
-  sections:
-    - lines:
-      - oll: A lonely night 指先で繋がれるタイムライン
-        en: A lonely night Timelines connected at your fingertips
-      - oll: 顔のない言葉飛び交って 孤独をあおった
-        en: Words flit about expressionlessly, kindling loneliness.
-      - oll: あの子の叫びも泡と消えて 一瞬で埋もれる
-        en: That child's screams disappear like bubbles, drowned out in an instant.
-      - oll: There is nothing real.
-      - oll: A lonely night 指先で繋がれるタイムライン
-        en: A lonely night Timelines connected at your fingertips
-      - oll: 顔のない言葉飛び交って 孤独をあおった
-        en: Words flit about expressionlessly, kindling loneliness.
-      - oll: あの子の叫びも泡と消えて 一瞬で埋もれる
-        en: That child's screams disappear like bubbles, drowned out in an instant.
-      - oll: There is nothing real.
-      - oll: 「明日世界が終わっていればいいのに」と願う
-        en: I wish the world would end tomorrow.
-      - oll: おとぎ話は残酷なまま続いていくから
-        en: The fairy tale continues cruelly.
-      - oll: 別の誰かになりたいわけじゃない
-        en: I don't want to be someone else.
-      - oll: 自分を愛してみたいだけなのに
-        en: I just want to love myself.
-      - oll: People crying every night ハートを見せてよ
-        en: People crying every night Show me your heart.
-      - oll: People crying every night 無力で構わない
-        en: People crying every night I don't care if I'm powerless.
-      - oll: People crying every night 君の痛みを
-        en: People crying every night Your pain.
-      - oll: People crying every night 僕も知りたいんだ
-        en: People crying every night I want to know too.
-      - oll: A boring night 現実を塗り替えるタイムライン
-        en: A boring night Timelines that rewrite reality
-      - oll: くだらない理想に阻まれて 自分を呪った
-        en: I cursed myself for letting my stupid ideals get in the way.
-      - oll: ねえ 他人の不幸せに群がる害虫のよう
-        en: Like vermin swarming around other people's misery.
-      - oll: ここから抜け出したい
-        en: I want to get out of here.
-      - oll: Everything is fiction.
-      - oll: 少女は今日も歩き続ける 居場所を求めて
-        en: A girl continues to walk today in search of her place.
-      - oll: 空虚な嘘と分かっていても 何のために？
-        en: Even though you know it's an empty lie, for what?
-      - oll: たったひとりが抱きしめてくれれば
-        en: If only one person would give me a hug
-      - oll: 誰もが震えて愛に飢えてる
-        en: Everyone is trembling and hungry for love.
-      - oll: People crying every night 一番の夢は
-        en: People crying every night My biggest dream
-      - oll: People crying every night どうして叶わない？
-        en: People crying every night Why can't it come true?
-      - oll: People crying every night いつかわかるのか
-        en: People crying every night Will we know someday?
-      - oll: People crying every night 何が大切か
-        en: People crying every night What is important
-      - oll: (We are always feeling lonely. )
-      - oll: こんな寂しさがあの子に届いたらいいな (We are always looking for love.)
-        en: I hope this kind of loneliness reaches that girl. (We are always looking for love.)
-      - oll: だけど 出口の見えない暗闇の中で
-        en: But in the darkness with no way out
-      - oll: 誰もがもがいて今日を生きてる
-        en: Everyone struggles to live today.
-      - oll: People crying every night ハートを見せてよ
-        en: People crying every night Show me your heart.
-      - oll: People crying every night 無力で構わない
-        en: People crying every night I don't care if I'm powerless.
-      - oll: People crying every night 君の痛みを
-        en: People crying every night Your pain.
-      - oll: People crying every night 僕も知りたいんだ
-        en: People crying every night I want to know too.
-      - oll: (We are always feeling lonely. )
-      - oll: こんな寂しさがあの子に届いたらいいな (We are always looking for love.)
-        en: I hope this kind of loneliness reaches that girl. (We are always looking for love.)
-
-
-  

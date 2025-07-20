@@ -1,78 +1,82 @@
-- type: mediaaudio
-  year: 2025
-  id: radiokansai
-
-  designation: radio show
-  radio: ラジオ出演 (radio Kansai)
-  show: 歌声は風にのって～ブランチ～ (Singing Voice on the Wind)
-  # TODO: support shortname for show ('~brunch~' was removed)
-  host: 芦田純子 (Junko Ashida)
-  member:
-    - Natsu
-    - Kanade
-  webpage: https://jocr.jp/programsite/utakaze/
-  program: https://radiko.jp/#!/ts/CRK/20250718100000
-
-  published-date: 2025-07-18
-
-  description:
-  - Natsu and Kanade are guest of the show 'Singing Voice on the Wind ~Brunch~' on radio Kansai.
-
-  cover-image:
-    localimage:
-      media:
-        year: 2025
-        id: radiokansai
-      id: cover
-
-  multimedia:
-    image:
-    - postximage:
-        postid: 1946033691547009324
-        imageid: GwGzUAJWAAIu7fG
-
-- type: localimage
-  media:
+- mediaaudio:
     year: 2025
     id: radiokansai
-  id: cover
-  filename: cover.png
-  label: cover
-  published-date: 2025-01-01
-  source:
-    description: RADICO page
-    url: https://radiko.jp/#!/ts/CRK/20250718100000
+    radio: ラジオ出演 (radio Kansai)
+    show: 歌声は風にのって～ブランチ～ (Singing Voice on the Wind)
+    designation: radio show
+    program: 'https://radiko.jp/#!/ts/CRK/20250718100000'
+    host: 芦田純子 (Junko Ashida)
+    member:
+    - Natsu
+    - Kanade
+    webpage: 'https://jocr.jp/programsite/utakaze/'
+    published-date: 2025-07-18
+    description:
+    - Natsu and Kanade are guest of the show 'Singing Voice on the Wind ~Brunch~' on radio Kansai.
+    cover-image:
+      localimage:
+        media:
+          year: 2025
+          id: radiokansai
+        id: cover
+    multimedia:
+      image:
+      - postximage:
+          post: 1946033691547009324
+          image: GwGzUAJWAAIu7fG
 
-- type: postx
-  id: 1946033691547009324
-  account: nekiband_jp
-  label: Thanks you
-  published-date: 2025-07-18
-  text: |
-    ラジオ関西「歌声は風にのって～ブランチ～」
+- localimage:
+    media:
+      year: 2025
+      id: radiokansai
+    id: cover
+    label: cover
+    filename: cover.png
+    published-date: 2025-01-01
+    source:
+      description: RADICO page
+      url: 'https://radiko.jp/#!/ts/CRK/20250718100000'
 
-    番組初ゲスト出演でした！
-    お聴きいただきありがとうございました📻
+- postx:
+    id: 1946033691547009324
+    account: nekiband_jp
+    published-date: 2025-07-18
+    label: Thanks you
+    text: |
+      ラジオ関西「歌声は風にのって～ブランチ～」
+      
+      番組初ゲスト出演でした！
+      お聴きいただきありがとうございました📻
+      
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+      
+      初Zeppワンマンのチケット一般発売中🎟️
+      
+      🔗https://note.com/nekiband_jp/n/ne1cfc8d70c87
+      
+      #NEKI #ラジオ関西
+      
+    image:
+    - GwGzUAJWAAIu7fG
+    linked-to:
+    - media:
+        year: 2025
+        id: radiokansai
+    - postximage:
+        post: 1946033691547009324
+        image: GwGzUAJWAAIu7fG
 
-    8/30(土)開催
-    NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
-    📍Zepp Shinjuku
-
-    初Zeppワンマンのチケット一般発売中🎟️
-
-    🔗https://note.com/nekiband_jp/n/ne1cfc8d70c87
-    
-    #NEKI #ラジオ関西
-  image:
-  - id: GwGzUAJWAAIu7fG
+- postximage:
+    post: 1946033691547009324
+    id: GwGzUAJWAAIu7fG
     label: At the station
+    published-date: 2025-07-18
     info: Kanade, Natsu
     linked-to:
     - media:
         year: 2025
         id: radiokansai
-  linked-to:
-  - media:
-      year: 2025
-      id: radiokansai
+    - postx: 1946033691547009324
 

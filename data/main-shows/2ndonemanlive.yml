@@ -1,169 +1,255 @@
-type: show
-year: 2024
-id: 2ndonemanlive
+- show:
+    year: 2024
+    id: 2ndonemanlive
+    fullname: 2ND ONE MAN LIVE
+    date: 2024-11-24
+    location: Shibuya eggman, Tokyo
+    event-page: 'https://t.livepocket.jp/e/neki2ndoneman'
+    setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b540020
+    cover-image:
+      postyoutubeimage:
+        post: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+        image: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
+    multimedia:
+      video:
+      - youtubevideo: aylfQ09sa4I
+      - youtubevideo: _Oac92XPkyo
+      concert:
+      - zaiko:
+          channel: nekiband
+          id: 368923
+      short:
+      - youtubeshort: jZ2Dn5P3Fac
+      - youtubeshort: zWS1TQ1kP6A
+      - youtubeshort: xy8VknaZ0QQ
+      - youtubeshort: MpR-vcWQAuQ
+      - youtubeshort: 8jqBR2PyfAw
+      - youtubeshort: iQQoVDhI0E0
+      - youtubeshort: qFiKgQ5mNgQ
+    linked-to:
+    - zaiko:
+        channel: nekiband
+        id: 368923
+    - youtubevideo: _Oac92XPkyo
+    - youtubevideo: aylfQ09sa4I
+    - localimage:
+        youtubevideo: aylfQ09sa4I
+        id: cover
+    - youtubeshort: 25AE7t_8eEg
+    - youtubeshort: AIM5rdixj4E
+    - youtubeshort: HfIoK8Qdv5I
+    - youtubeshort: 4NVfpFzmfMQ
+    - youtubeshort: qFiKgQ5mNgQ
+    - youtubeshort: iQQoVDhI0E0
+    - youtubeshort: 8jqBR2PyfAw
+    - youtubeshort: MpR-vcWQAuQ
+    - youtubeshort: xy8VknaZ0QQ
+    - youtubeshort: zWS1TQ1kP6A
+    - youtubeshort: jZ2Dn5P3Fac
+    - youtubeshort: WdcokauJMtU
+    - postyoutube: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
 
-fullname: 2ND ONE MAN LIVE
-date: 2024-11-24
-location: Shibuya eggman, Tokyo
-setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b540020
-event-page: https://t.livepocket.jp/e/neki2ndoneman
+- zaiko:
+    id: 368923
+    channel: nekiband
+    label: Streaming @ zaiko.io
+    cover-image: 'https://media.zaiko.io/zaiko/w_1200/1_477a9d107m1w49egamc3p'
+    published-date: 2024-12-30
+    expiration-date: 2025-01-29
+    linked-to:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
 
-cover-image:
-  postyoutubeimage:
-    postid: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
-    imageid: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
+- youtubevideo:
+    id: _Oac92XPkyo
+    label: Official Live Video
+    published-date: 2024-12-18
+    linked-to:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
 
-multimedia:
-  concert:
-  - zaiko:
-      channel: nekiband
-      id: 368923
-  video:
-  - youtubevideo: aylfQ09sa4I
-  - youtubevideo: _Oac92XPkyo
-  short:
-  - youtubeshort: jZ2Dn5P3Fac
-  - youtubeshort: zWS1TQ1kP6A
-  - youtubeshort: xy8VknaZ0QQ
-  - youtubeshort: MpR-vcWQAuQ
-  - youtubeshort: 8jqBR2PyfAw
-  - youtubeshort: iQQoVDhI0E0
-  - youtubeshort: qFiKgQ5mNgQ
+- youtubevideo:
+    id: aylfQ09sa4I
+    label: Official Live Video
+    published-date: 2025-01-24
+    linked-to:
+    - song: maze
+    - show:
+        year: 2024
+        id: 2ndonemanlive
 
-related:
-# Zaiko
-- type: zaiko
-  channel: nekiband
-  id: 368923
-  label: Streaming @ zaiko.io
-  cover-image: https://media.zaiko.io/zaiko/w_1200/1_477a9d107m1w49egamc3p
-  published-date: 2024-12-30
-  expiration-date: 2025-01-29
-# YouTube videos
-- type: youtubevideo
-  id: _Oac92XPkyo
-  label: Official Live Video
-  published-date: 2024-12-18
-  linked-to:
-  - song: dreams
-- type: youtubevideo
-  id: aylfQ09sa4I
-  label: Official Live Video
-  published-date: 2025-01-24
-  linked-to:
-  - song: maze
-- type: localimage
-  youtubevideo: aylfQ09sa4I
-  id: cover
-  label: Live cover
-  published-date: 2025-01-24
-  filename: cover.png
-  source:
-    description: YouTube video
-  hidden: true
-# YouTube shorts
-- type: youtubeshort
-  id: 25AE7t_8eEg
-  label: Promo
-  info: rehearsal room, studio audio
-  published-date: 2024-11-23
-  linked-to:
-  - song: maze
-- type: youtubeshort
-  id: AIM5rdixj4E
-  label: Live
-  published-date: 2024-12-18
-  linked-to:
-  - song: dreams
-- type: youtubeshort
-  id: HfIoK8Qdv5I
-  label: Live
-  published-date: 2024-12-20
-  linked-to:
-  - song: dreams
-- type: youtubeshort
-  id: 4NVfpFzmfMQ
-  label: Live
-  published-date: 2024-12-23
-  linked-to:
-  - song: dreams
-- type: youtubeshort
-  id: qFiKgQ5mNgQ
-  label: Live
-  published-date: 2025-01-02
-  linked-to:
-  - song: getover
-- type: youtubeshort
-  id: iQQoVDhI0E0
-  label: Live
-  published-date: 2025-01-03
-  linked-to:
-  - song: fool
-- type: youtubeshort
-  id: 8jqBR2PyfAw
-  label: Live
-  published-date: 2025-01-05
-  linked-to:
-  - song: moon
-- type: youtubeshort
-  id: MpR-vcWQAuQ
-  label: Live
-  published-date: 2025-01-06
-  linked-to:
-  - song: reigengirl
-- type: youtubeshort
-  id: xy8VknaZ0QQ
-  label: Live
-  published-date: 2025-01-09
-  linked-to:
-  - song: loner
-- type: youtubeshort
-  id: zWS1TQ1kP6A
-  label: Live
-  info: with lyrics
-  published-date: 2025-01-13
-  linked-to:
-  - song: endlessgame
-- type: youtubeshort
-  id: jZ2Dn5P3Fac
-  label: Live
-  info: with lyrics
-  published-date: 2025-01-16
-  # TODO: add reference to song06 when its dark page is created
-  # linked-to:
-  # - song: ---
-- type: youtubeshort
-  id: WdcokauJMtU
-  label: Live
-  published-date: 2025-01-24
-  linked-to:
-  - song: maze
-# post YouTube
-- type: postyoutube
-  id: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
-  account: neki_official
-  label: announcement
-  published-date: 2024-06-03 # TODO: double check date with X post
-  text: |
-    11/24(日)開催
-    「NEK! 2ND ONE MAN LIVE」
-    @ Shibuya eggman 
+- localimage:
+    youtubevideo: aylfQ09sa4I
+    id: cover
+    label: Live cover
+    filename: cover.png
+    published-date: 2025-01-24
+    source:
+      description: YouTube video
+    hidden: true
+    linked-to:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
 
-    ただいまよりWEBチケットの抽選受付がスタート💨
+- youtubeshort:
+    id: 25AE7t_8eEg
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2024-11-23
+    linked-to:
+    - song: maze
+    - show:
+        year: 2024
+        id: 2ndonemanlive
 
-    受付締切は7/31(水)23:59まで💡
-    ぜひお越しください!!!!
+- youtubeshort:
+    id: AIM5rdixj4E
+    label: Live
+    published-date: 2024-12-18
+    linked-to:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
 
-    https://t.livepocket.jp/e/neki2ndoneman
-  image:
-  - id: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
+- youtubeshort:
+    id: HfIoK8Qdv5I
+    label: Live
+    published-date: 2024-12-20
+    linked-to:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: 4NVfpFzmfMQ
+    label: Live
+    published-date: 2024-12-23
+    linked-to:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: qFiKgQ5mNgQ
+    label: Live
+    published-date: 2025-01-02
+    linked-to:
+    - song: getover
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: iQQoVDhI0E0
+    label: Live
+    published-date: 2025-01-03
+    linked-to:
+    - song: fool
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: 8jqBR2PyfAw
+    label: Live
+    published-date: 2025-01-05
+    linked-to:
+    - song: moon
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: MpR-vcWQAuQ
+    label: Live
+    published-date: 2025-01-06
+    linked-to:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: xy8VknaZ0QQ
+    label: Live
+    published-date: 2025-01-09
+    linked-to:
+    - song: loner
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: zWS1TQ1kP6A
+    label: Live
+    info: with lyrics
+    published-date: 2025-01-13
+    linked-to:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: jZ2Dn5P3Fac
+    label: Live
+    info: with lyrics
+    published-date: 2025-01-16
+    linked-to:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubeshort:
+    id: WdcokauJMtU
+    label: Live
+    published-date: 2025-01-24
+    linked-to:
+    - song: maze
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postyoutube:
+    id: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+    account: neki_official
+    published-date: 2024-06-03
+    label: announcement
+    text: |
+      11/24(日)開催
+      「NEK! 2ND ONE MAN LIVE」
+      @ Shibuya eggman 
+      
+      ただいまよりWEBチケットの抽選受付がスタート💨
+      
+      受付締切は7/31(水)23:59まで💡
+      ぜひお越しください!!!!
+      
+      https://t.livepocket.jp/e/neki2ndoneman
+      
+    image:
+    - vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
+    linked-to:
+    - postyoutubeimage:
+        post: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+        image: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postyoutubeimage:
+    post: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+    id: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
     label: poster
-    localCopy: true
+    published-date: 2024-06-03
+    local-copy: true
+    linked-to:
+    - postyoutube: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
 
-# old data for reference
-media:
-  concert:
-  - show:
-      year: 2024
-      id: 2ndonemanlive
-    zaiko: concert-01

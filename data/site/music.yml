@@ -1,7 +1,7 @@
-type: page
-id: music
-
-music:
-- album: exclamation
-- album: tricktaking
-- song: ooak
+musicpage:
+  id: music
+  dark: false
+  music:
+  - album: exclamation
+  - album: tricktaking
+  - song: ooak

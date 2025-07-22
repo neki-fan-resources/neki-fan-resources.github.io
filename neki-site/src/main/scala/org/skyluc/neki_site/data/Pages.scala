@@ -1,6 +1,5 @@
 package org.skyluc.neki_site.data
 
-import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data as fr
 
 import fr.CoverImage
@@ -38,10 +37,6 @@ case class MusicPage(
   override def process[T](processor: ProcessorElement[T]): T =
     processor.processMusicPage(this)
 
-  override def process[A](processor: ProcessorWithError[A]): Either[BaseError, A] = {
-    processor.processMusicPage(this)
-  }
-
 }
 
 case class ShowsPage(
@@ -63,10 +58,6 @@ case class ShowsPage(
   override def process[T](processor: ProcessorElement[T]): T =
     processor.processShowsPage(this)
 
-  override def process[A](processor: ProcessorWithError[A]): Either[BaseError, A] = {
-    processor.processShowsPage(this)
-  }
-
 }
 
 case class ChronologyPage(
@@ -87,10 +78,6 @@ case class ChronologyPage(
 
   override def process[T](processor: ProcessorElement[T]): T =
     processor.processChronologyPage(this)
-
-  override def process[A](processor: ProcessorWithError[A]): Either[BaseError, A] = {
-    processor.processChronologyPage(this)
-  }
 
 }
 

@@ -1,7 +1,5 @@
 package org.skyluc.neki_site.data
 
-import org.skyluc.fan_resources.BaseError
-import org.skyluc.fan_resources.TextError
 import org.skyluc.fan_resources.data as fr
 
 trait WithProcessor extends fr.WithProcessor {
@@ -16,17 +14,6 @@ trait WithProcessor extends fr.WithProcessor {
   }
 
   def process[T](processor: Processor[T]): T
-
-  override def process[A](processor: fr.ProcessorWithError[A]): Either[BaseError, A] = {
-    processor match {
-      case p: ProcessorWithError[A] =>
-        process(p)
-      case _ =>
-        Left(TextError("A processor for neki_site elements is required"))
-    }
-  }
-
-  def process[A](processor: ProcessorWithError[A]): Either[BaseError, A]
 }
 
 trait WithProcessorElement extends fr.WithProcessorElement {

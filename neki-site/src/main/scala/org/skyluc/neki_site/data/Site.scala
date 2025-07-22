@@ -1,7 +1,6 @@
 package org.skyluc.neki_site.data
 
-import org.skyluc.fan_resources.BaseError
-import org.skyluc.fan_resources.data.{Processor as _, ProcessorWithError as _, WithProcessor as _, *}
+import org.skyluc.fan_resources.data.{Processor as _, WithProcessor as _, *}
 
 case class Site(
     navigation: Navigation,
@@ -17,10 +16,6 @@ case class Site(
 
   override def process[T](processor: Processor[T]): T =
     processor.processSite(this)
-
-  override def process[A](processor: ProcessorWithError[A]): Either[BaseError, A] = {
-    processor.processSite(this)
-  }
 
   override def errored() = copy(hasError = true)
   override def withLinkedTo(id: Id[?]*): Site = copy(linkedTo = mergeLinkedTo(id))

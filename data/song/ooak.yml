@@ -12,6 +12,8 @@
         post: 1929512124243411173
         image: GscBBL6bgAAwvmM
     multimedia:
+      main:
+        youtubevideo: qGEzCjYvWZw
       video:
       - youtubevideo: qGEzCjYvWZw
       - postxvideo:
@@ -292,6 +294,16 @@
     published-date: 2025-06-20
     linked-to:
     - song: ooak
+        
+- multimedia-event:
+    id: ooakmv
+    youtubevideo: qGEzCjYvWZw
+    parent:
+      song: ooak
+    cover-image:
+      postximage:
+        post: 1935668905244336459
+        image: GtzabMUXgAAmDvN
 
 - youtubeshort:
     id: tabt75E-6tY

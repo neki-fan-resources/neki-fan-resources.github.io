@@ -11,6 +11,8 @@
         post: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
         image: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
     multimedia:
+      main:
+        youtubevideo: _Oac92XPkyo
       video:
       - youtubevideo: aylfQ09sa4I
       - youtubevideo: _Oac92XPkyo
@@ -94,6 +96,16 @@
     - show:
         year: 2024
         id: 2ndonemanlive
+        
+- multimedia-event:
+    id: mazelivev
+    youtubevideo: aylfQ09sa4I
+    parent:
+      song: maze
+    cover-image: 
+      localimage:
+        youtubevideo: aylfQ09sa4I
+        id: cover
 
 - youtubeshort:
     id: 25AE7t_8eEg

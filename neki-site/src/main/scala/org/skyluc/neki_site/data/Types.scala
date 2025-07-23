@@ -37,11 +37,4 @@ trait Processor[T] extends fr.Processor[T] with ProcessorElement[T] {
 
 }
 
-trait ProcessorElement[T] extends fr.ProcessorElement[T] {
-  def processChronologyPage(chronologyPage: ChronologyPage): T
-
-  def processMusicPage(musicPage: MusicPage): T
-
-  def processShowsPage(showsPage: ShowsPage): T
-
-}
+trait ProcessorElement[T] extends fr.ProcessorElement[T] {}

@@ -7,7 +7,6 @@ object CompiledDataGeneratorBuilder {
   def generator(data: Data): fr.CompiledDataGenerator = {
     new fr.CompiledDataGenerator(
       data,
-      UrlResolver,
       elementGeneratorBuilder,
       multimediaGeneratorBuilder,
       localImageCopyGeneratorBuilder,

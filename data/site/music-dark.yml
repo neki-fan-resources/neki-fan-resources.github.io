@@ -1,7 +1,15 @@
-musicpage:
+contentpage:
   id: music
   dark: true
-  music:
+  label: Music
+  description: Information about songs not yet released but already performed.
+  start-date: 2050-01-01
+  end-date: 2050-01-01
+  cover-image:
+    localimage:
+      group: siteimages
+      id: manekineko_cover
+  content:
   - song:
       id: newsong202505
       dark: true

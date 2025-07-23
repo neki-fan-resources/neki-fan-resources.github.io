@@ -1,0 +1,86 @@
+/* chronology page layout */
+
+/* #chronology-section {
+  width: fit-content;
+} */
+
+.chronology-caterogies {
+  margin: 0.25rem 3rem 1rem 3rem
+}
+
+.chronology-block {
+  width: 100%;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: max-content;
+  grid-template-areas: 'label content';
+  padding-top: 0.2rem;
+}
+
+.chronology-block-hidden {
+  display: none;
+}
+
+.chronology-block-label {
+  grid-area: label;
+  writing-mode: sideways-lr;
+  text-align: end;
+  margin-right: 0.2rem;
+  padding-top: 0.3rem;
+}
+
+.chronology-block-content {
+  grid-area: content;
+}
+
+.chronology-block-content .marker-card {
+  width: 100%;
+  padding-left: 0.1rem;
+  border-left: solid 0.3rem transparent;
+  box-sizing: border-box;
+  background-clip: padding-box;
+}
+
+.chronology-block-content>*:not(:first-child) {
+  margin-top: 0.2rem;
+}
+
+.chronology-block-content .card-selected .marker-card {
+  border-left: solid 0.3rem var(--color-text-red);
+}
+
+.chronology-block-content .line-card-list {
+  margin: 0.1rem 0 0 0.4rem;
+}
+
+/* chronology page styling */
+
+.chronology-block-label-bgdark {
+  background-color: var(--color-cocoro-light2);
+}
+
+.chronology-block-label-bglight {
+  background-color: var(--color-hika-light2);
+}
+
+.chronology-block-label {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-less);
+}
+
+.chronology-block-separator .chronology-block {
+  display: none;
+}
+
+.chronology-block-separator .chronology-block-label {
+  font-size: 0;
+  line-height: 0;
+  background-color: transparent;
+  color: transparent;
+  writing-mode: initial;
+  content: "";
+  padding-top: 0.4rem;
+}

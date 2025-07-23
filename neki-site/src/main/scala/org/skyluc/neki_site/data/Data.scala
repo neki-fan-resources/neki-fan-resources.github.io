@@ -16,15 +16,6 @@ object Data {
 
     override def processSite(site: Site): Unit =
       dataBuilder.addDatum(site)
-
-    override def processChronologyPage(chronologyPage: ChronologyPage): Unit =
-      dataBuilder.addElement(chronologyPage)
-
-    override def processMusicPage(musicPage: MusicPage): Unit =
-      dataBuilder.addElement(musicPage)
-
-    override def processShowsPage(showsPage: ShowsPage): Unit =
-      dataBuilder.addElement(showsPage)
   }
 
 }

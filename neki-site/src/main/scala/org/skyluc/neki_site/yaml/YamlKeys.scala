@@ -3,16 +3,14 @@ package org.skyluc.neki_site.yaml
 object YamlKeys {
   val BAND = "band"
   val CHRONOLOGYPAGE = "chronologypage"
-  val CONTENT = "content"
   val HIGHLIGHT = "highlight"
   val INSTAGRAM = "instagram"
   val LINK = "link"
-  val MAIN = "main"
   val MUSIC = "music"
   val MUSICPAGE = "musicpage"
   val NAVIGATION = "navigation"
   val NEWS = "news"
-  val PAGE = "page"
+  val NPAGE = "npage" // TODO: remove
   val ROLE = "role"
   val SITE = "site"
   val SHOWSPAGE = "showspage"

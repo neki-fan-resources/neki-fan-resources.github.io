@@ -79,27 +79,4 @@ class DataYamlWriter extends fr.DataYamlWriter with d.Processor[Unit] {
     elementEnd
   }
 
-  override def processChronologyPage(chronologyPage: d.ChronologyPage): Unit = {
-    elementStart(CHRONOLOGYPAGE)
-    attributeString(ID, chronologyPage.id.id)
-    processChronology(chronologyPage.chronology)
-    processLinkedTo(chronologyPage)
-    elementEnd
-  }
-
-  override def processMusicPage(musicPage: d.MusicPage): Unit = {
-    elementStart(MUSICPAGE)
-    attributeString(ID, musicPage.id.id)
-    attributeBoolean(DARK, musicPage.id.dark)
-    attributeListId(MUSIC, musicPage.music)
-    elementEnd
-  }
-
-  override def processShowsPage(showsPage: d.ShowsPage): Unit = {
-    elementStart(SHOWSPAGE)
-    attributeString(ID, showsPage.id.id)
-    attributeListId(SHOWS, showsPage.shows)
-    elementEnd
-  }
-
 }

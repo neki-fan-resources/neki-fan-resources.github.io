@@ -8,12 +8,7 @@ import org.skyluc.fan_resources.html.pages.SitemapPage
 import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.pages.SongPage
-import org.skyluc.neki_site.html.pages.{
-  ChronologyPage as pChronologyPage,
-  MusicPage as pMusicPage,
-  ShowsPage as pShowsPage,
-  *,
-}
+import org.skyluc.neki_site.html.pages.{CategoriesPage as pCategoriesPage, ContentPage as pContentPage, *}
 
 class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Site) extends Processor[Seq[SitePage]] {
 
@@ -46,6 +41,8 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
         Path("component", "overlay.css"),
         Path("component", "smallcard.css"),
         Path("component", "socialmediacard.css"),
+        Path("component", "chronology.css"),
+        Path("component", "markercard.css"),
       ),
       "styles.css",
     )
@@ -55,7 +52,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
         AboutPage.pages(site),
         BandPage.pages(site),
         LivePage.pages(datums, site, generator),
-        MediasPage.pages(datums, site, generator),
         SourcesPage.pages(datums, site, generator),
         UpdatesPage.pages(site),
       ).flatten
@@ -67,24 +63,17 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
     allPages :+ SitemapPage(allPages) :+ cssStyles
   }
 
-  override def processAlbumMarker(albumMarker: AlbumMarker): Seq[SitePage] = NO_DATA
+  override def processCategoriesPage(categoriesPage: CategoriesPage): Seq[SitePage] =
+    pCategoriesPage.pageFor(categoriesPage, site, generator)
 
-  override def processBaseMarker(baseMarker: BaseMarker): Seq[SitePage] = NO_DATA
+  override def processContentPage(contentPage: ContentPage): Seq[SitePage] =
+    pContentPage.pageFor(contentPage, site, generator)
 
   override def processEvent(event: Event): Seq[SitePage] = NO_DATA
 
-  override def processEventMarker(eventMarker: EventMarker): Seq[SitePage] = NO_DATA
-
   override def processGroup(group: Group): Seq[SitePage] = NO_DATA
 
-  override def processMediaMarker(mediaMarker: MediaMarker): Seq[SitePage] = NO_DATA
-
-  override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Seq[SitePage] =
-    NO_DATA
-
-  override def processShowMarker(showMarker: ShowMarker): Seq[SitePage] = NO_DATA
-
-  override def processSongMarker(songMarker: SongMarker): Seq[SitePage] = NO_DATA
+  override def processMultiMediaEvent(multimediaEvent: MultiMediaEvent): Seq[SitePage] = NO_DATA
 
   override def processAlbum(album: Album): Seq[SitePage] =
     AlbumPage.pagesFor(album, site, generator)
@@ -116,24 +105,13 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
   override def processTour(tour: Tour): Seq[SitePage] =
     TourPage.pagesFor(tour, site, generator)
 
-  override def processTourMarker(tourMarker: TourMarker): Seq[SitePage] = NO_DATA
-
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[SitePage] = NO_DATA
 
   override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Seq[SitePage] = NO_DATA
 
   override def processZaiko(zaiko: Zaiko): Seq[SitePage] = NO_DATA
 
-  override def processChronologyPage(chronologyPage: ChronologyPage): Seq[SitePage] =
-    pChronologyPage.pagesFor(chronologyPage, site, generator)
-
-  override def processMusicPage(musicPage: MusicPage): Seq[SitePage] =
-    pMusicPage.pagesFor(musicPage, site, generator)
-
   override def processSite(site: Site): Seq[SitePage] = NO_DATA
-
-  override def processShowsPage(showsPage: ShowsPage): Seq[SitePage] =
-    pShowsPage.pagesFor(showsPage, site, generator)
 
   // ----------
 

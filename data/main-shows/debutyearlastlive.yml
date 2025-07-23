@@ -46,7 +46,7 @@
 - localimage:
     youtubevideo: IeBks9yGO4A
     id: cover
-    label: Teaser cover
+    label: Cover
     filename: cover.png
     published-date: 2025-05-04
     source:
@@ -57,6 +57,16 @@
         year: 2024
         id: debutyearlastlive
 
+- multimedia-event:
+    id: getoverlivev
+    youtubevideo: IeBks9yGO4A
+    parent:
+      song: getover
+    cover-image: 
+      localimage:
+        youtubevideo: IeBks9yGO4A
+        id: cover
+
 - youtubevideo:
     id: urGmtrd7zbA
     label: Official Live Video
@@ -66,6 +76,16 @@
     - show:
         year: 2024
         id: debutyearlastlive
+
+- multimedia-event:
+    id: foollivev
+    youtubevideo: urGmtrd7zbA
+    parent:
+      song: fool
+    cover-image: 
+      postximage:
+        post: 1943641464397062330
+        image: GvkzmwJWEAA9mgY
 
 - youtubeshort:
     id: spUo9sWqs48

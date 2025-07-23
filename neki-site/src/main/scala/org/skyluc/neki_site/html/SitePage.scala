@@ -72,9 +72,10 @@ object SitePage {
   // javascript
   private val SRC_JAVASCRIPT = "/asset/javascript/main.js"
   val SRC_NEWS_JAVASCRIPT = "/asset/javascript/news.js"
+  val SRC_OVERLAY_JAVASCRIPT = "/asset/javascript/overlay.js"
+  val SRC_CONTENT_JAVASCRIPT = "/asset/javascript/content.js"
+  val SRC_FRMAIN_JAVASCRIPT = "/asset/javascript/frmain.js"
   val JAVASCRIPT_FILES = Seq(Url(SRC_JAVASCRIPT))
-
-  val DARK_PATH = Path("dark")
 
   def urlFor(path: Path): Url = Url(path.withExtension(Common.HTML_EXTENSION))
 
@@ -111,9 +112,9 @@ object SitePage {
     val oppositeDatum = generator.getOption(oppositeId)
 
     if (dark) {
-      (DARK_PATH.resolve(basePath), oppositeDatum.map(_ => basePath))
+      (Id.DARK_PATH.resolve(basePath), oppositeDatum.map(_ => basePath))
     } else {
-      (basePath, oppositeDatum.map(_ => DARK_PATH.resolve(basePath)))
+      (basePath, oppositeDatum.map(_ => Id.DARK_PATH.resolve(basePath)))
     }
   }
 

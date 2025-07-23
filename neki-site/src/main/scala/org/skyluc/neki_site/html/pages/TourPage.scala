@@ -4,8 +4,10 @@ import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Tour
 import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.html.Url
+import org.skyluc.fan_resources.html.component.ChronologySection
+import org.skyluc.fan_resources.html.component.ChronologySection.ChronologyYear
 import org.skyluc.fan_resources.html.component.LargeDetails
-import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data.Site
@@ -13,10 +15,16 @@ import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
-class TourPage(tour: ElementCompiledData, shows: Seq[ElementCompiledData], description: PageDescription, site: Site)
+class TourPage(tour: ElementCompiledData, shows: Seq[ChronologyYear], description: PageDescription, site: Site)
     extends SitePage(description, site) {
 
   import TourPage._
+
+  override def javascriptFiles(): Seq[Url] =
+    super.javascriptFiles()
+      :+ Url(SitePage.SRC_OVERLAY_JAVASCRIPT)
+      :+ Url(SitePage.SRC_FRMAIN_JAVASCRIPT)
+      :+ Url(SitePage.SRC_CONTENT_JAVASCRIPT)
 
   override def elementContent(): Seq[BodyElement[?]] = {
 
@@ -25,7 +33,8 @@ class TourPage(tour: ElementCompiledData, shows: Seq[ElementCompiledData], descr
 
     val showsSection: Seq[BodyElement[?]] = Seq(
       SectionHeader.generate(SECTION_SHOWS),
-      MediumCard.generateList(shows),
+      // MediumCard.generateList(shows),
+      ChronologySection.generate(shows, true, false),
     )
 
     Seq(
@@ -48,8 +57,12 @@ object TourPage {
 
     val compiledData = generator.getElement(tour)
 
-    val shows =
-      tour.shows.map(generator.getElement(_))
+    val shows = ChronologySection.compiledDataIds(
+      tour.firstDate,
+      tour.lastDate,
+      tour.shows,
+      generator,
+    )
 
     Seq(
       TourPage(

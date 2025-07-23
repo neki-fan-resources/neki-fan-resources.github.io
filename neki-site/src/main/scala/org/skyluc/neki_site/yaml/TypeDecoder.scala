@@ -6,6 +6,7 @@ import org.skyluc.fan_resources.data.Id
 import org.skyluc.fan_resources.yaml.FrDecoders
 import org.skyluc.fan_resources.yaml.ParserError
 import org.skyluc.fan_resources.yaml.YamlKeys.*
+import org.skyluc.fan_resources.yaml.YouTubeVideoIdDecoder
 import org.skyluc.neki_site.data as d
 import org.skyluc.yaml.*
 
@@ -14,15 +15,15 @@ import YamlKeys.*
 object NekiSiteDecoders extends FrDecoders {
 
   override def id: Map[String, YamlDecoder[? <: Id[?], FrDecoders]] = super.id +
-    ((PAGE, PageIdDecoder)) +
     ((SITE, SiteIdDecoder))
 
   override def item: Map[String, YamlDecoder[? <: Datum[?], FrDecoders]] =
     super.item
-      + ((CHRONOLOGYPAGE, ChronologyPageDecoder))
-      + ((MUSICPAGE, MusicPageDecoder))
-      + ((SHOWSPAGE, ShowsPageDecoder))
       + ((SITE, SiteDecoder))
+
+  override def markerItem: Map[String, YamlDecoder[? <: Id[?], FrDecoders]] =
+    super.markerItem
+      + ((YOUTUBEVIDEO, YouTubeVideoIdDecoder))
 }
 
 case class SiteBuilder(

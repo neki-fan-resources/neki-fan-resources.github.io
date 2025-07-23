@@ -3,6 +3,7 @@
 :root {
   --color-cocoro: #2ba6e1;
   --color-cocoro-light: rgb(from var(--color-cocoro) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-cocoro-light2: rgb(from var(--color-cocoro) calc((r + 511)/3) calc((g + 512)/3) calc((b + 512)/3));
   --color-cocoro-lighter: rgb(from var(--color-cocoro) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
   --color-cocoro-dark: rgb(from var(--color-cocoro) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-cocoro-darker: rgb(from var(--color-cocoro) calc(r/2) calc(g/2) calc(b/2));
@@ -10,6 +11,7 @@
   --color-cocoro-05: rgb(from var(--color-cocoro) r g b / 0.05);
   --color-hika: #e50112;
   --color-hika-light: rgb(from var(--color-hika) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-hika-light2: rgb(from var(--color-hika) calc((r + 511)/3) calc((g + 512)/3) calc((b + 512)/3));
   --color-hika-lighter: rgb(from var(--color-hika) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
   --color-hika-dark: rgb(from var(--color-hika) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-hika-50: rgb(from var(--color-hika) r g b / 0.5);
@@ -22,6 +24,7 @@
   --color-kanade-05: rgb(from var(--color-kanade) r g b / 0.05);
   --color-natsu: #fff001;
   --color-natsu-light: rgb(from var(--color-natsu) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
+  --color-natsu-light2: rgb(from var(--color-natsu) calc((r + 511)/3) calc((g + 512)/3) calc((b + 512)/3));
   --color-natsu-lighter: rgb(from var(--color-natsu) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
   --color-natsu-dark: rgb(from var(--color-natsu) calc((r)/2) calc((g)/2) calc((b)/2));
   --color-natsu-50: rgb(from var(--color-natsu) r g b / 0.5);

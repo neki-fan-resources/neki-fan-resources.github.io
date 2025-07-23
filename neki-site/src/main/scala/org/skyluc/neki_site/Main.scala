@@ -25,6 +25,8 @@ object Main {
 
     val dataFolder = rootPath.resolve(DATA_PATH)
     val staticFolder = rootPath.resolve(STATIC_PATH)
+    val frRootPath = rootPath.resolve(FAN_RESOURCES)
+    val frStaticFolder = frRootPath.resolve(STATIC_PATH)
     val staticPiecesFolder = rootPath.resolve(STATIC_PIECES_PATH)
     val outputFolder = rootPath.resolve(Path(TARGET_PATH, SITE_PATH))
 
@@ -54,11 +56,13 @@ object Main {
 
     println(s"nb of pages: ${pages.size}")
 
-    SiteOutput.generate(pages, Seq(staticFolder.asFilePath()), outputFolder.asFilePath())
+    SiteOutput.generate(pages, Seq(staticFolder.asFilePath(), frStaticFolder.asFilePath()), outputFolder.asFilePath())
 
   }
 
   // -----------
+
+  val FAN_RESOURCES = "fan-resources"
 
   val DATA_PATH = "data"
   val STATIC_PATH = "static"

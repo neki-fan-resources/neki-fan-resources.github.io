@@ -1,8 +1,8 @@
 package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
-import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.data.Song
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
 import org.skyluc.fan_resources.html.component.LargeDetails
@@ -13,7 +13,6 @@ import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class SongPage(
     song: Song,
@@ -47,8 +46,6 @@ object SongPage {
 
   val LABEL_LYRICIST = "lyricist"
   val LABEL_COMPOSER = "composer"
-
-  val DARK_PATH = Path("dark")
 
   def pagesFor(song: Song, site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
 

@@ -8,12 +8,6 @@ class CheckLocalAssetExists(imageBasePath: Path)
     extends fr.CheckLocalAssetExists(imageBasePath)
     with Processor[Seq[fr.CheckError]] {
 
-  override def processChronologyPage(chronologyPage: ChronologyPage): Seq[fr.CheckError] = Nil
-
-  override def processMusicPage(musicPage: MusicPage): Seq[fr.CheckError] = Nil
-
   override def processSite(site: dSite): Seq[fr.CheckError] = Nil
-
-  override def processShowsPage(showsPage: ShowsPage): Seq[fr.CheckError] = Nil
 
 }

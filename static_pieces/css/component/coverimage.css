@@ -33,11 +33,20 @@
   margin: 0 0.2rem 0 0;
 }
 
+.marker-image-cover {
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+  border: solid 0.5px var(--color-not-black);
+  margin: 0 0.4rem 0 0;
+}
+
 /* cover images styling */
 
 .large-image-cover,
 .medium-image-cover,
 .mediumsmall-image-cover,
+.marker-image-cover,
 .small-image-cover {
   background-color: var(--color-not-black);
 }

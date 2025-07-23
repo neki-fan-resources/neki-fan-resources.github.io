@@ -1,13 +1,12 @@
 categoriespage:
-  id: shows
-  label: Shows
-  start-date: 2024-02-10
+  id: media
+  label: Media
+  start-date: 2025-01-01
   end-date: 2025-12-31
-  description: The shows NEK! performed at.
+  description: The media and press events NEK! was part of.
   cover-image:
     localimage:
       group: siteimages
       id: manekineko_cover
   categories:
-  - show
-  - tour
+  - media

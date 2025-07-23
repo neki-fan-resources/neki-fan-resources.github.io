@@ -12,32 +12,17 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
   import SourcesExtractor.*
 
-  override def processAlbumMarker(albumMarker: AlbumMarker): Seq[DatumEntry] = Nil
+  override def processCategoriesPage(categoriesPage: CategoriesPage): Seq[DatumEntry] = Nil
 
-  // TODO: implement if local image
-  override def processBaseMarker(baseMarker: BaseMarker): Seq[DatumEntry] = Nil
+  override def processContentPage(contentPage: ContentPage): Seq[DatumEntry] = Nil
 
   override def processEvent(event: Event): Seq[DatumEntry] = Nil
 
-  override def processEventMarker(eventMarker: EventMarker): Seq[DatumEntry] = Nil
-
   override def processGroup(group: Group): Seq[DatumEntry] = Nil
 
-  override def processMediaMarker(mediaMarker: MediaMarker): Seq[DatumEntry] = Nil
-
-  override def processMultiMediaMarker(multiMediaMarker: MultiMediaMarker): Seq[DatumEntry] = Nil
-
-  override def processShowMarker(showMarker: ShowMarker): Seq[DatumEntry] = Nil
-
-  override def processSongMarker(songMarker: SongMarker): Seq[DatumEntry] = Nil
-
-  override def processChronologyPage(chronologyPage: ChronologyPage): Seq[DatumEntry] = Nil
-
-  override def processMusicPage(musicPage: MusicPage): Seq[DatumEntry] = Nil
+  override def processMultiMediaEvent(multimediaEvent: MultiMediaEvent): Seq[DatumEntry] = Nil
 
   override def processSite(site: Site): Seq[DatumEntry] = Nil
-
-  override def processShowsPage(showsPage: ShowsPage): Seq[DatumEntry] = Nil
 
   override def processAlbum(album: Album): Seq[DatumEntry] = {
     val sources = Seq(sourceFromCover(album.coverImage, generator)).flatten
@@ -103,8 +88,6 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
     sources.map { s => DatumEntry(compiledData, s) }
   }
-
-  override def processTourMarker(tourMarker: TourMarker): Seq[DatumEntry] = Nil
 
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[DatumEntry] = Nil
 

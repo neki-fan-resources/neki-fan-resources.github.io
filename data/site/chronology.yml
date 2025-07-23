@@ -210,6 +210,9 @@
     - show:
         year: 2025
         id: nekikomsumeosaka
+    - media:
+        year: 2025
+        id: nack5kirasuta
     - show:
         year: 2025
         id: internetbabies
@@ -1269,6 +1272,13 @@
       year: 2025
       id: nekikomsumeosaka
     short: true
+    linked-to:
+    - page: chronology
+
+- marker:
+    media:
+      year: 2025
+      id: nack5kirasuta
     linked-to:
     - page: chronology
 

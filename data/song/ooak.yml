@@ -22,9 +22,6 @@
           video: 01
       live:
       - postxvideo:
-          post: 1936043145646743631
-          video: 01
-      - postxvideo:
           post: 1934127859645419907
           video: 01
       - postxvideo:
@@ -35,6 +32,11 @@
           video: 890f9d50-48f5-4914-9d1f-223e9a52a452
       - youtubeshort: jZ2Dn5P3Fac
       short:
+      - postxvideo:
+          post: 1947639492552364472
+          video: 01
+      - youtubeshort: e_NBzXLLpfs
+      - youtubeshort: NHUB-t_D4Iw
       - postxvideo:
           post: 1945857878520475910
           video: 01
@@ -274,7 +276,6 @@
     - postx: 1932750181457670312
     - postx: 1935668905244336459
     - postx: 1935646894207996161
-    - postx: 1936043145646743631
     - postx: 1936646576686153867
     - postx: 1945857878520475910
 
@@ -566,35 +567,6 @@
     info: Natsu
     linked-to:
     - postx: 1935646894207996161
-
-- postx:
-    id: 1936043145646743631
-    account: cure_bass_baka
-    published-date: 2025-06-20
-    label: cut
-    text: |
-      先程公開された『OOAK』のライブ映像です！
-      ここいつも歌詞に合わせてネコちゃんやってるの気づいてくれてる人いますか￼
-      
-      #拡散中  #ネキ界隈
-      
-    video:
-    - 01
-    linked-to:
-    - postxvideo:
-        post: 1936043145646743631
-        video: 01
-    - song: ooak
-
-- postxvideo:
-    post: 1936043145646743631
-    id: 01
-    label: Live
-    cover: 1936043080852848640/img/qQHLJbvERi7j9eSF.jpg
-    published-date: 2025-06-20
-    info: Kanade cat-like
-    linked-to:
-    - postx: 1936043145646743631
 
 - postx:
     id: 1936646576686153867

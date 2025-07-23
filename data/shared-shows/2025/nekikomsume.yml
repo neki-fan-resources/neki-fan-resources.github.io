@@ -1,0 +1,226 @@
+- show:
+    year: 2025
+    id: nekikomsumeosaka
+    fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+    shortname: 「NEK!/komsume TWO-MAN SHOW」
+    sublabel: Osaka
+    date: 2025-07-18
+    location: LIVE SQUARE 2nd LINE
+    cover-image:
+      localimage:
+        show:
+          year: 2025
+          id: nekikomsumetokyo
+        id: cover
+      fromOtherElement: true
+    multimedia:
+      short:
+      - postxvideo:
+          post: 1947241076508488042
+          video: 01
+      - postxvideo:
+          post: 1946522055312331049
+          video: 01
+      - youtubeshort: zLd-nv4R2Xg
+      image:
+      - postximage:
+          post: 1946195551969849807
+          image: GwJGgUJXcAES7vk
+    linked-to:
+    - postx: 1944995676963922035
+    - youtubeshort: zLd-nv4R2Xg
+    - postx: 1946195551969849807
+
+- postx:
+    id: 1944995676963922035
+    account: nekiband_jp
+    published-date: 2025-07-15
+    label: in 3 days
+    text: |
+      🔥今週末🔥
+      
+      7/18(金)
+      「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+      @ 大阪・LIVE SQUARE 2nd LINE
+      
+      開催まであと3日💥
+      ぜひお越しください！
+      
+      🔗 https://ticket.rakuten.co.jp/music/jpop/RTG7551/
+      
+      #NEKI
+      
+    image:
+    - Gv4DQX6a8AAPdNi
+    linked-to:
+    - postximage:
+        post: 1944995676963922035
+        image: Gv4DQX6a8AAPdNi
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postximage:
+    post: 1944995676963922035
+    id: Gv4DQX6a8AAPdNi
+    label: Poster
+    published-date: 2025-07-15
+    info: sold out Tokyo
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - postx: 1944995676963922035
+
+- youtubeshort:
+    id: zLd-nv4R2Xg
+    label: Backstage
+    info: huddle, entry
+    published-date: 2025-07-18
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1946195551969849807
+    account: nekiband_jp
+    published-date: 2025-07-18
+    label: Thank you
+    text: |
+      NEK!/komsume TWO-MAN SHOW
+      powered by Diggin' Sound
+      
+      @ LIVE SQUARE 2nd LINE
+      
+      大阪編！！！！
+      熱い時間をありがとうございました🔥
+      
+      #NEKI #komsume
+      
+    image:
+    - GwJGgUJXcAES7vk
+    linked-to:
+    - postximage:
+        post: 1946195551969849807
+        image: GwJGgUJXcAES7vk
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postximage:
+    post: 1946195551969849807
+    id: GwJGgUJXcAES7vk
+    label: Backstage
+    published-date: 2025-07-18
+    info: komsume, NEK!
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - postx: 1946195551969849807
+
+- youtubeshort:
+    id: xv6kbJrnKfk
+    label: Promo
+    info: studio audio
+    published-date: 2025-07-20
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: dreams
+    
+- postx:
+    id: 1946522055312331049
+    account: cure_bass_baka
+    label: Intro
+    published-date: 2025-07-19
+    text: |
+      昨日の大阪公演より
+      ピックでガシガシ系
+      #NEKI  #ネキ界隈  #拡散中
+    video:
+    - 01
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postxvideo:
+    post: 1946522055312331049
+    id: 01
+    cover: 1946521487633973250/img/MDZtX2xEzKMoI4rG.jpg
+    label: Live
+    info: intro, Kanade
+    published-date: 2025-07-19
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: 
+        id: songa
+        dark: true
+
+- postx:
+    id: 1946903555937616050
+    account: natsu08_guitar
+    label: MAZE Live
+    published-date: 2025-07-20
+    text: |
+      前回の大阪の熱が冷めないうちに
+      MAZE〜！🌀
+      撮影OKだったけど、みんな撮影してるとは思えないぐらい盛り上がってくれて声出してくれてほんっとに嬉しかった！♡
+      撮影しながらだと盛り上がり下がっちゃうかなーとか思ったけど、ネキ界隈にそんな心配必要なかったね！
+      ありがとう！！
+      #ネキ界隈 #拡散中
+    video:
+    - 01
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postxvideo:
+    post: 1946903555937616050
+    id: 01
+    cover: 1946903420922658817/img/Obfd3Y2j6UgasqDM.jpg
+    label: Live
+    published-date: 2025-07-20
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: maze    
+
+- postx:
+    id: 1947241076508488042
+    account: cure_bass_baka
+    label: zero-sum Live
+    published-date: 2025-07-21
+    text: |
+      先日の大阪公演より
+      『zero-sum／NEK!』2サビ
+      #NEKI  #拡散中  #ネキ界隈
+    video:
+    - 01
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postxvideo:
+    post: 1947241076508488042
+    id: 01
+    cover: 1947240346624069632/img/3ErAiwwnm_oT1ig_.jpg
+    label: Live
+    info: Kanade
+    published-date: 2025-07-21
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: zerosum
+
+
+

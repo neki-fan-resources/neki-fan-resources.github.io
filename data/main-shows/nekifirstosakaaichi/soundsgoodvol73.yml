@@ -1,0 +1,50 @@
+- show:
+    year: 2024
+    id: soundsgoodvol73
+    fullname: Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-
+    shortname: Sounds good!! 73回目!!
+    sublabel: NEK!初の大阪・愛知
+    date: 2024-08-23
+    location: アメリカ村 BEYOND, Osaka
+    event-page: 'https://t.livepocket.jp/e/soundsgood73'
+    setlistfm: nek/2024/beyond-osaka-japan-6357c6a3
+    cover-image:
+      postximage:
+        post: 1826867524035653715
+        image: GVpWTLoXMAAyp1r
+    tour: nekifirstosakaaichi2024
+    linked-to:
+    - postx: 1826867524035653715
+
+- postx:
+    id: 1826867524035653715
+    account: nekiband_jp
+    published-date: 2024-08-23
+    label: today
+    text: |
+      「Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-」
+      @ アメリカ村 BEYOND
+      
+      本日出演させていただきます！
+      NEK!と音で遊びましょう~❣️
+      
+      #NEKI
+      
+    image:
+    - GVpWTLoXMAAyp1r
+    linked-to:
+    - postximage:
+        post: 1826867524035653715
+        image: GVpWTLoXMAAyp1r
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+
+- postximage:
+    post: 1826867524035653715
+    id: GVpWTLoXMAAyp1r
+    label: flyer
+    published-date: 2024-08-23
+    local-copy: true
+    linked-to:
+    - postx: 1826867524035653715

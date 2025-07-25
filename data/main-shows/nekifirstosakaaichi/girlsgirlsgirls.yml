@@ -1,0 +1,64 @@
+- show:
+    year: 2024
+    id: girlsgirlsgirls
+    fullname: Girls,Girls,Girls-アメリカ村DROP21th Anniversary 4MAN-
+    shortname: Girls,Girls,Girls-アメリカ村DROP21th Anniversary-
+    sublabel: NEK!初の大阪・愛知
+    date: 2024-08-22
+    location: アメリカ村 DROP, Osaka
+    event-page: 'https://tiget.net/events/330888'
+    setlistfm: nek/2024/drop-osaka-japan-2354e4ab
+    cover-image:
+      postximage:
+        post: 1826512086530490829
+        image: GVkTDnRbgAMgdNP
+    tour: nekifirstosakaaichi2024
+    linked-to:
+    - postx: 1826512086530490829
+
+- postx:
+    id: 1826512086530490829
+    account: nekiband_jp
+    published-date: 2024-08-22
+    label: today
+    text: |
+      「Girls,Girls,Girls -アメリカ村DROP 21th Anniversary 4MAN-」
+      @ アメリカ村DROP
+      
+      本日出演いたします🔥
+      ご来場お待ちしております！
+      
+      https://tiget.net/events/330888
+      
+      #NEKI
+      
+    image:
+    - GVkTDnRbgAMgdNP
+    - GVkTDnuXMAA3Sjv
+    linked-to:
+    - postximage:
+        post: 1826512086530490829
+        image: GVkTDnRbgAMgdNP
+    - postximage:
+        post: 1826512086530490829
+        image: GVkTDnuXMAA3Sjv
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
+
+- postximage:
+    post: 1826512086530490829
+    id: GVkTDnRbgAMgdNP
+    label: poster
+    published-date: 2024-08-22
+    local-copy: true
+    linked-to:
+    - postx: 1826512086530490829
+
+- postximage:
+    post: 1826512086530490829
+    id: GVkTDnuXMAA3Sjv
+    label: tour poster
+    published-date: 2024-08-22
+    linked-to:
+    - postx: 1826512086530490829

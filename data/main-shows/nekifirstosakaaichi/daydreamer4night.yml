@@ -1,0 +1,50 @@
+- show:
+    year: 2024
+    id: daydreamer4night
+    fullname: 心斎橋VARON presents. Day Dreamer -4th night-
+    sublabel: NEK!初の大阪・愛知
+    date: 2024-08-21
+    location: Shinsaibashi VARON, Osaka
+    event-page: 'https://tiget.net/events/330531'
+    setlistfm: nek/2024/varon-osaka-japan-2354e4b7
+    cover-image:
+      postximage:
+        post: 1825843541756752006
+        image: GVay0webUAAAJ-4
+    tour: nekifirstosakaaichi2024
+    linked-to:
+    - postx: 1825843541756752006
+
+- postx:
+    id: 1825843541756752006
+    account: LIVEHOUSE_VARON
+    published-date: 2024-08-20
+    label: tomorrow
+    text: |
+      明日の公演
+      2024.8.21(wed)
+      心斎橋VARON presents. Day Dreamer -4th night-
+      [ACT]
+      NEK! / husky(BAND SET) / Buzzer01&. / FiELDz / BlueVeil / CHi+KAZZ
+      [OPEN/START]18:00 / 18:30
+      [料金]ADV/DOOR ¥2,400/¥2,900(1D別)
+      
+    image:
+    - GVay0webUAAAJ-4
+    linked-to:
+    - postximage:
+        post: 1825843541756752006
+        image: GVay0webUAAAJ-4
+    - show:
+        year: 2024
+        id: daydreamer4night
+
+- postximage:
+    post: 1825843541756752006
+    id: GVay0webUAAAJ-4
+    label: poster
+    published-date: 2024-08-20
+    local-copy: true
+    linked-to:
+    - postx: 1825843541756752006
+  

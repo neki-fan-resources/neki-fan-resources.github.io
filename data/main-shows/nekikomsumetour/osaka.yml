@@ -1,11 +1,12 @@
 - show:
     year: 2025
     id: nekikomsumeosaka
-    fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
-    shortname: 「NEK!/komsume TWO-MAN SHOW」
-    sublabel: Osaka
+    fullname: Osaka - 「NEK!/komsume TWO-MAN SHOW」
+    shortname: Osaka
+    sublabel: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
     date: 2025-07-18
     location: LIVE SQUARE 2nd LINE
+    tour: nekikomsume2025
     cover-image:
       localimage:
         show:
@@ -66,6 +67,7 @@
     label: Poster
     published-date: 2025-07-15
     info: sold out Tokyo
+    local-copy: true
     linked-to:
     - show:
         year: 2025

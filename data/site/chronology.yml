@@ -265,10 +265,6 @@ contentpage:
     short: true
   - show:
       year: 2025
-      id: 1stzepponeman
-    left: false
-  - show:
-      year: 2025
       id: internetbabies
     short: true
   - multimedia-event: foollivev

@@ -17,6 +17,9 @@
     multimedia:
       short:
       - postxvideo:
+          post: 1947952383473954991
+          video: 01
+      - postxvideo:
           post: 1947241076508488042
           video: 01
       - postxvideo:
@@ -223,6 +226,38 @@
         year: 2025
         id: nekikomsumeosaka
     - song: zerosum
+
+- postx:
+    id: 1947952383473954991
+    account: coco_102
+    label: Transition between songs live
+    published-date: 2025-07-23
+    text: |
+      ライブ中の曲間のドキドキ感が好き❤️‍🔥
+
+      みんなの声援と拍手と次の曲への気合いの高まりが一気にごちゃまぜになるこの瞬間は音源では味わえない！！
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postxvideo:
+    post: 1947952383473954991
+    id: 01
+    cover: 1947951817641611264/img/UiAiX6HkH85m9u1x.jpg
+    label: Live
+    info: Cocoro
+    published-date: 2025-07-23
+    linked-to:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: zerosum
+    - song: getover
 
 
 

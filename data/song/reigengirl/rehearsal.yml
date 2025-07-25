@@ -1,0 +1,32 @@
+- youtubeshort:
+    id: VKpWF5pWIj4
+    label: Rehearsal
+    info: intro
+    published-date: 2025-07-23
+    linked-to:
+    - song: reigengirl
+
+- postx:
+    id: 1948675930446332316
+    account: 46_hikaa
+    label: Rehearsal
+    info: chorus
+    published-date: 2025-07-24
+    text: |
+      練習風景✩.*˚令現少女のサビ✩.*˚
+
+      #ネキ界隈  #令現少女
+    video:
+    - 01
+    linked-to:
+    - song: reigengirl
+
+- postxvideo:
+    post: 1948675930446332316
+    id: 01
+    cover: 1948675850733580288/img/SbAjX9aTkhgJUCg4.jpg
+    label: Rehearsal
+    info: chorus, Hika
+    published-date: 2025-07-24
+    linked-to:
+    - song: reigengirl

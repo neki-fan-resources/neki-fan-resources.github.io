@@ -1,0 +1,32 @@
+
+- postx:
+    id: 1948333854063841769
+    account: natsu08_guitar
+    label: Rehearsal
+    published-date: 2025-07-24
+    text: |
+      GoPro第二弾！！
+
+      ”Dreams!!!!”
+
+      今回はボディ側から撮ってみたよん🎥
+      前回の画角とどっちが好き〜？？？
+
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+    linked-to:
+    - song: dreams
+
+- postxvideo:
+    post: 1948333854063841769
+    id: 01
+    cover: 1948333660677251072/img/wDoQ8wtIjTp9gPJ5.jpg
+    label: Rehearsal
+    info: from the solo, Natsu
+    published-date: 2025-07-24
+    linked-to:
+    - song: dreams
+
+
+

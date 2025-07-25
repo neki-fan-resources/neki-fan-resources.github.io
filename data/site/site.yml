@@ -78,7 +78,7 @@ site:
       - show
       - tour
     - name: Media
-      link: /media.html
+      link: /medias.html
       highlight:
       - medias.html
       - media

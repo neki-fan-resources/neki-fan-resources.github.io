@@ -8,5 +8,5 @@ categoriespage:
     localimage:
       group: siteimages
       id: manekineko_cover
-  categories:
+  id-prefix:
   - media

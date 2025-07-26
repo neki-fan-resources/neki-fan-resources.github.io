@@ -39,7 +39,7 @@ object CategoriesPage {
     val byYears = ChronologySection.compiledDataCategories(
       categoriesPage.startDate,
       categoriesPage.endDate,
-      categoriesPage.categories,
+      categoriesPage.idPrefix,
       generator,
     )
 

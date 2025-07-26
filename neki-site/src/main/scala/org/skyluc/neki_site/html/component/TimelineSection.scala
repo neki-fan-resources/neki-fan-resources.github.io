@@ -4,7 +4,6 @@ import org.skyluc.fan_resources.data.Date
 import org.skyluc.fan_resources.data.Date.DateTick
 import org.skyluc.fan_resources.data.DisplayMetadata
 import org.skyluc.fan_resources.html.ElementCompiledData
-import org.skyluc.fan_resources.html.component.MarkerCard
 import org.skyluc.html.*
 
 import Html.*
@@ -70,6 +69,10 @@ object TimelineBlock {
     )
   }
 
+  private def designationToId(designation: String): String = {
+    designation.filterNot(_ == ' ').toLowerCase()
+  }
+
   private def generateMarker(
       compiledData: ElementCompiledData,
       metadata: DisplayMetadata,
@@ -104,7 +107,7 @@ object TimelineBlock {
     g()
       .withId(compiledData.uId)
       .withClass(if (metadata.left) CLASS_MARKER_LEFT else CLASS_MARKER_RIGHT)
-      .withClass(s"timeline_${MarkerCard.designationToId(compiledData.designation)}_marker")
+      .withClass(s"timeline_${designationToId(compiledData.designation)}_marker")
       .appendElements(line)
       .appendElements(
         g()

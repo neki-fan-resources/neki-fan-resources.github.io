@@ -13,9 +13,15 @@ import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import dfr.CategoryDescriptor
 
-class CategoriesPage(description: String, years: Seq[ChronologyYear], pageDescription: PageDescription, site: Site)
-    extends SitePage(pageDescription, site) {
+class CategoriesPage(
+    description: String,
+    years: Seq[ChronologyYear],
+    categories: Seq[CategoryDescriptor],
+    pageDescription: PageDescription,
+    site: Site,
+) extends SitePage(pageDescription, site) {
 
   override def javascriptFiles(): Seq[Url] =
     super.javascriptFiles()
@@ -26,7 +32,7 @@ class CategoriesPage(description: String, years: Seq[ChronologyYear], pageDescri
   override def elementContent(): Seq[BodyElement[?]] = {
     Seq(
       MainIntro.generate(description),
-      ChronologySection.generate(years, true, false),
+      ChronologySection.generate(years, categories, true, false),
     )
   }
 
@@ -49,6 +55,7 @@ object CategoriesPage {
       CategoriesPage(
         categoriesPage.description,
         byYears,
+        categoriesPage.categories,
         PageDescription(
           TitleAndDescription.formattedTitle(
             None,

@@ -13,6 +13,8 @@
           year: 2025
           id: nekikomsumetokyo
         id: cover
+    categories:
+      - mainshowtour
     multimedia:
       short:
       - postxvideo:

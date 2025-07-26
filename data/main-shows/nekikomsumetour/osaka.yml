@@ -14,6 +14,8 @@
           id: nekikomsumetokyo
         id: cover
       fromOtherElement: true
+    categories:
+      - mainshowtour
     multimedia:
       short:
       - postxvideo:

@@ -17,10 +17,12 @@ import org.skyluc.neki_site.html.TitleAndDescription
 import org.skyluc.neki_site.html.component.TimelineBlock
 
 import dfr.DisplayMetadata
+import dfr.CategoryDescriptor
 
 class ContentPage(
     description: String,
     years: Seq[ChronologyYear],
+    categories: Seq[CategoryDescriptor],
     withLinks: Boolean,
     withSubElements: Boolean,
     pageDescription: PageDescription,
@@ -36,7 +38,7 @@ class ContentPage(
   override def elementContent(): Seq[BodyElement[?]] = {
     Seq(
       MainIntro.generate(description),
-      ChronologySection.generate(years, withLinks, withSubElements),
+      ChronologySection.generate(years, categories, withLinks, withSubElements),
     )
   }
 
@@ -139,6 +141,7 @@ object ContentPage {
         ContentPage(
           contentPage.description,
           byYears,
+          Nil,
           withLinks,
           withSubElements,
           pageDescription,

@@ -31,6 +31,7 @@ class ElementCompiledDataGenerator(generator: fr.CompiledDataGenerator) extends 
     MISSING_URL,
     fr.DelayedElementCompiledDataSeq.EMPTY,
     fr.DelayedMultimediaCompiledData.EMPTY,
+    Nil,
   )
 }
 

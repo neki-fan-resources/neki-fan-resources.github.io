@@ -11,3 +11,10 @@ categoriespage:
   id-prefix:
   - show
   - tour
+  categories:
+  - id: show
+    label: Shows
+  - id: tour
+    label: Tours
+  - id: mainshowtour
+    label: Main shows and tours

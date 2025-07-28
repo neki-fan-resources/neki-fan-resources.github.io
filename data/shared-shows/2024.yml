@@ -268,6 +268,10 @@
     published-date: 2024-03-09
     info: all the artists
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
     linked-to:
     - postx: 1766243435357561130
 
@@ -276,6 +280,10 @@
     id: GIL1CWfbYAA9llo
     label: full schedule
     published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
     linked-to:
     - postx: 1766243435357561130
 
@@ -284,6 +292,10 @@
     id: GIL1CWebMAAyx6P
     label: main venues schedule
     published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
     linked-to:
     - postx: 1766243435357561130
 
@@ -292,6 +304,10 @@
     id: GIL1CWeaoAACz-Y
     label: all artist logos
     published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
     linked-to:
     - postx: 1766243435357561130
 
@@ -316,6 +332,11 @@
     label: Promo
     info: studio audio
     published-date: 2024-04-13
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: arealiberated
     linked-to:
     - song: getover
     - show:
@@ -327,6 +348,11 @@
     label: Promo
     info: studio audio
     published-date: 2024-04-16
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: arealiberated
     linked-to:
     - song: getover
     - show:
@@ -375,6 +401,10 @@
     label: poster
     published-date: 2025-03-22
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
     linked-to:
     - postx: 1776084527859061007
 
@@ -431,6 +461,10 @@
     label: flyer
     published-date: 2025-03-22
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet
     linked-to:
     - postx: 1790265744804216903
 
@@ -490,6 +524,10 @@
     label: poster
     published-date: 2025-03-22
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: fypday1
     linked-to:
     - postx: 1797140895449673780
 
@@ -557,6 +595,10 @@
     label: poster
     published-date: 2024-04-17
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
     linked-to:
     - postx: 1780522894059299287
 
@@ -619,6 +661,10 @@
     label: poster
     published-date: 2024-06-09
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: codeofzerox
     linked-to:
     - postx: 1799743432564654547
 
@@ -627,6 +673,10 @@
     id: GPnhj7qaIAAtR_E
     label: tour schedule
     published-date: 2024-06-09
+    context:
+    - show:
+        year: 2024
+        id: codeofzerox
     linked-to:
     - postx: 1799743432564654547
 
@@ -676,6 +726,10 @@
     label: poster
     published-date: 2024-06-06
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
     linked-to:
     - postx: 1798608606579007863
 
@@ -725,6 +779,10 @@
     label: poster
     published-date: 2024-06-15
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
     linked-to:
     - postx: 1801875706387042707
 
@@ -749,11 +807,13 @@
     label: Promo
     info: studio audio
     published-date: 2024-07-19
-    linked-to:
+    context:
     - song: reigengirl
     - show:
         year: 2024
-        id: 1stonemanlive
+        id: driveyoucrazyvol7
+    linked-to:
+    - song: reigengirl
     - show:
         year: 2024
         id: driveyoucrazyvol7
@@ -803,6 +863,10 @@
     label: flyer
     published-date: 2024-04-28
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
     linked-to:
     - postx: 1784417275292143972
 
@@ -827,6 +891,11 @@
     label: Promo
     info: studio audio
     published-date: 2024-08-10
+    context:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: fypvol3
     linked-to:
     - song: endlessgame
     - show:
@@ -875,6 +944,10 @@
     label: poster
     published-date: 2024-08-02
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
     linked-to:
     - postx: 1819198572111577421
 
@@ -899,6 +972,11 @@
     label: Promo
     info: studio audio
     published-date: 2024-08-12
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: hapikorevol350
     linked-to:
     - song: getover
     - show:
@@ -938,6 +1016,10 @@
     label: flyer
     published-date: 2024-06-22
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: hapikorevol350
     linked-to:
     - postx: 1804448780873519192
 
@@ -989,6 +1071,10 @@
     label: poster
     published-date: 2024-05-29
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
     linked-to:
     - postx: 1795757514870665423
 
@@ -1045,6 +1131,10 @@
     label: poster
     published-date: 2024-06-07
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
     linked-to:
     - postx: 1799063840925315512
 
@@ -1105,6 +1195,10 @@
     label: poster
     published-date: 2024-09-08
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: ringringring
     linked-to:
     - postx: 1832614238424301660
 
@@ -1166,6 +1260,10 @@
     label: poster
     published-date: 2024-09-19
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: fypvol5
     linked-to:
     - postx: 1836637097840775291
 
@@ -1226,6 +1324,10 @@
     label: flyer
     published-date: 2024-09-11
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
     linked-to:
     - postx: 1833792678414463036
 
@@ -1284,6 +1386,10 @@
     label: flyer
     published-date: 2024-11-06
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: ignition
     linked-to:
     - postx: 1854050886647173628
 
@@ -1337,6 +1443,10 @@
     label: flyer
     published-date: 2024-11-07
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet2
     linked-to:
     - postx: 1854440185460879405
 
@@ -1401,6 +1511,10 @@
     label: poster
     published-date: 2024-11-14
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
     linked-to:
     - postx: 1856985434020061342
 
@@ -1411,6 +1525,10 @@
     cover: 1856559489245425664/pu/img/SpsFR8nhXy8j_dZo.jpg
     published-date: 2024-11-14
     info: presentation of each band
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
     linked-to:
     - postx: 1856985434020061342
 
@@ -1435,6 +1553,11 @@
     label: Promo
     info: studio audio
     published-date: 2024-12-14
+    context:
+    - song: fool
+    - show:
+        year: 2024
+        id: overfest2024
     linked-to:
     - song: fool
     - show:
@@ -1493,6 +1616,10 @@
     label: poster
     published-date: 2024-11-14
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
     linked-to:
     - postx: 1851932879170752613
 
@@ -1501,6 +1628,10 @@
     id: GbM3MSXakAgJdbk
     label: poster neki
     published-date: 2024-11-14
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
     linked-to:
     - postx: 1851932879170752613
 
@@ -1509,6 +1640,10 @@
     id: GbM3RQHasAAkpyS
     label: badge neki
     published-date: 2024-11-14
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
     linked-to:
     - postx: 1851932879170752613
 
@@ -1517,6 +1652,10 @@
     id: GbM3YFiakAE0iM2
     label: schedule
     published-date: 2024-11-14
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
     linked-to:
     - postx: 1851932879170752613
 

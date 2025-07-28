@@ -52,6 +52,10 @@
     label: poster
     published-date: 2024-08-22
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
     linked-to:
     - postx: 1826512086530490829
 
@@ -60,5 +64,9 @@
     id: GVkTDnuXMAA3Sjv
     label: tour poster
     published-date: 2024-08-22
+    context:
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
     linked-to:
     - postx: 1826512086530490829

@@ -4,5 +4,5 @@ event:
   date: 2025-02-10
   cover-image:
     localimage:
-      group: siteimages
+      event: siteimages
       id: nekilogo

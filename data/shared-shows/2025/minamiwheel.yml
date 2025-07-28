@@ -42,6 +42,10 @@
     id: GvduaMoXgAAkU2_
     label: First artists list
     published-date: 2025-07-10
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
     linked-to:
     - show:
         year: 2025
@@ -84,6 +88,10 @@
     label: Poster
     published-date: 2025-07-10
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
     linked-to:
     - show:
         year: 2025
@@ -95,6 +103,10 @@
     id: GvdwSAzWYAAl-Oo
     label: First artists list
     published-date: 2025-07-10
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
     linked-to:
     - show:
         year: 2025

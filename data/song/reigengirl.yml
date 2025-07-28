@@ -230,8 +230,8 @@
     linked-to:
     - youtubevideo: pCqu9xyfFzE
     - localimage:
-        youtubevideo: pCqu9xyfFzE
-        id: cover
+        song: reigengirl
+        id: mvteasercover
     - youtubevideo: rq0dca9mFfI
     - youtubeshort: _oUd8BpbvE4
     - youtubeshort: 0CR_lqZQ6N4
@@ -259,14 +259,16 @@
     id: pCqu9xyfFzE
     label: Music Video Teaser
     published-date: 2024-06-28
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
 - localimage:
-    youtubevideo: pCqu9xyfFzE
-    id: cover
+    song: reigengirl
+    id: mvteasercover
     label: Teaser cover
-    filename: cover.png
+    filename: mvteasercover.png
     published-date: 2024-06-28
     source:
       description: YouTube video
@@ -278,6 +280,8 @@
     id: rq0dca9mFfI
     label: Official Music Video
     published-date: 2024-07-03
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -286,6 +290,8 @@
     label: Promo
     info: shibuya eggman, studio audio
     published-date: 2024-06-11
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -293,6 +299,8 @@
     id: 0CR_lqZQ6N4
     label: Teaser
     published-date: 2024-06-28
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -300,6 +308,8 @@
     id: UrH4jAKEOGU
     label: Music Video
     published-date: 2024-07-03
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -308,6 +318,8 @@
     label: Music Video
     info: Cocoro focus, with lyrics
     published-date: 2024-07-04
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -316,6 +328,8 @@
     label: Music Video
     info: Hika focus, with lyrics
     published-date: 2024-07-05
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -324,6 +338,8 @@
     label: Music Video
     info: Natsu focus, with lyrics
     published-date: 2024-07-06
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -332,6 +348,8 @@
     label: Music Video
     info: Kanade focus, with lyrics
     published-date: 2024-07-07
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -340,6 +358,8 @@
     label: Music Video
     info: In the sunset
     published-date: 2024-07-10
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -348,6 +368,8 @@
     label: Music Video
     info: The girl had a dream
     published-date: 2024-07-13
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -356,6 +378,8 @@
     label: Promo
     info: Shibuya eggman, studio audio
     published-date: 2024-11-12
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -364,6 +388,8 @@
     label: Promo
     info: Rehearsal room, studio audio
     published-date: 2025-05-19
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -372,6 +398,8 @@
     label: Promo
     info: Rehearsal room, studio audio
     published-date: 2025-05-31
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -403,6 +431,8 @@
     cover: 1917515345696546817/img/z7YArpECtZZ0NRzV.jpg
     published-date: 2025-04-30
     info: Kanade
+    context:
+    - song: reigengirl
     linked-to:
     - postx: 1917515461727772903
 
@@ -435,6 +465,8 @@
     cover: 1922955546032066560/img/QwIcPX276foa_-KN.jpg
     published-date: 2025-05-15
     info: Natsu
+    context:
+    - song: reigengirl
     linked-to:
     - postx: 1922955621957005543
 
@@ -467,6 +499,8 @@
     cover: 1927221238486728704/img/E6Tir4SQER0UOXLd.jpg
     published-date: 2025-04-30
     info: intro, Hika, Kanade
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postx: 1927221299337666934
@@ -513,6 +547,8 @@
     label: cover
     published-date: 2024-06-03
     local-copy: true
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -523,6 +559,8 @@
     label: Hika
     info: Hika
     published-date: 2024-06-03
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -533,6 +571,8 @@
     label: Natsu
     info: Natsu
     published-date: 2024-06-03
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -543,6 +583,8 @@
     label: Kanade
     info: Kanade
     published-date: 2024-06-03
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -553,6 +595,8 @@
     label: Cocoro
     info: Cocoro
     published-date: 2024-06-03
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -562,6 +606,8 @@
     label: Promo
     info: Rehearsal room, studio audio
     published-date: 2025-06-13
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -591,6 +637,8 @@
     cover: 1934565284192698368/img/xdTSyInkyhqfocrh.jpg
     published-date: 2025-06-16
     info: Natsu
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postx: 1934565616020840560
@@ -622,6 +670,8 @@
     cover: 1848203800752078848/pu/img/adebpog5s1TgG_9V.jpg
     published-date: 2024-10-21
     info: Cocoro
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postx: 1848204505093144935
@@ -654,6 +704,8 @@
     cover: 1945413732303020032/img/_VZeLD4lN76DjDcH.jpg
     published-date: 2025-07-16
     info: Natsu
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postx: 1945413820660523501
@@ -683,6 +735,8 @@
     cover: 1946145194132549632/img/Qp9jyLHXgENne6Cg.jpg
     published-date: 2025-07-18
     info: Hika
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
     - postx: 1946145450060288257

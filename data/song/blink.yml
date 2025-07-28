@@ -1191,6 +1191,8 @@
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-27
+    context:
+    - song: blink
     linked-to:
     - song: blink
 
@@ -1199,6 +1201,8 @@
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-08-29
+    context:
+    - song: blink
     linked-to:
     - song: blink
 
@@ -1207,6 +1211,8 @@
     label: Promo
     info: Osaka, studio audio, with lyrics
     published-date: 2024-08-29
+    context:
+    - song: blink
     linked-to:
     - song: blink
 
@@ -1215,6 +1221,8 @@
     label: Promo
     info: rehearsal room, studio audio, with lyrics
     published-date: 2024-10-07
+    context:
+    - song: blink
     linked-to:
     - song: blink
 

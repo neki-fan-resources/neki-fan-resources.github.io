@@ -551,8 +551,8 @@
     - youtubevideo: Vh5saxbTlvE
     - youtubevideo: 0YlW7T5fVZ4
     - localimage:
-        youtubevideo: 0YlW7T5fVZ4
-        id: cover
+        song: dreams
+        id: mvcover
     - youtubeshort: ayi326KTswk
     - youtubeshort: QcmApJ-dFgE
     - youtubeshort: 589kXdONCDo
@@ -569,6 +569,8 @@
     id: Vh5saxbTlvE
     label: Music Video Teaser
     published-date: 2025-03-04
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -576,14 +578,16 @@
     id: 0YlW7T5fVZ4
     label: Official Music Video
     published-date: 2025-03-05
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
 - localimage:
-    youtubevideo: 0YlW7T5fVZ4
-    id: cover
+    song: dreams
+    id: mvcover
     label: MV cover
-    filename: cover.png
+    filename: mvcover.png
     published-date: 2025-03-05
     source:
       description: YouTube video
@@ -598,14 +602,19 @@
       song: dreams
     cover-image: 
       localimage:
-        youtubevideo: 0YlW7T5fVZ4
-        id: cover
+        song: dreams
+        id: mvcover
     categories: video
 
 - youtubeshort:
     id: ayi326KTswk
     label: Teaser Live
     published-date: 2024-12-15
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - song: dreams
     linked-to:
     - show:
         year: 2024
@@ -617,6 +626,8 @@
     label: Promo
     info: studio audio
     published-date: 2025-02-07
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -624,6 +635,8 @@
     id: 589kXdONCDo
     label: Teaser
     published-date: 2025-03-04
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -631,6 +644,8 @@
     id: GeFi7F99oOw
     label: Music Video
     published-date: 2025-03-05
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -639,6 +654,8 @@
     label: Music Video
     info: behind the scenes
     published-date: 2025-03-10
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -647,6 +664,8 @@
     label: MV Reaction
     info: reacting to the music video
     published-date: 2025-03-29
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -655,6 +674,8 @@
     label: Promo
     info: rehearsal room, studio audio
     published-date: 2025-04-26
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -663,6 +684,8 @@
     label: Music Video
     info: behind the scenes
     published-date: 2025-05-17
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -671,6 +694,8 @@
     label: Music Video
     info: off-shot, Hika, Natsu
     published-date: 2025-05-26
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -679,6 +704,8 @@
     label: Music Video
     info: behind the scenes
     published-date: 2025-05-01
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 
@@ -714,6 +741,8 @@
     label: cover
     published-date: 2024-06-03
     local-copy: true
+    context:
+    - song: dreams
     linked-to:
     - postyoutube: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
 

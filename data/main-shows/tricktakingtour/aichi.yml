@@ -28,6 +28,11 @@
     id: b2N2xThvZ-4
     label: Live
     published-date: 2025-03-09
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
     linked-to:
     - song: zerosum
     - show:
@@ -39,6 +44,10 @@
     label: Show
     info: huddle
     published-date: 2025-03-09
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
     linked-to:
     - show:
         year: 2025

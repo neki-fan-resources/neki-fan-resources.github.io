@@ -61,6 +61,8 @@
     label: EP cover
     published-date: 2024-02-01
     local-copy: true
+    context:
+    - album: tricktaking
     linked-to:
     - postyoutube: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
 
@@ -69,6 +71,8 @@
     label: Release
     info: display at Tower Records
     published-date: 2025-03-05
+    context:
+    - album: tricktaking
     linked-to:
     - album: tricktaking
 
@@ -77,6 +81,8 @@
     label: Signing pictures
     info: Signing pictures for the winners at Tower Records
     published-date: 2025-04-21
+    context:
+    - album: tricktaking
     linked-to:
     - album: tricktaking
 
@@ -84,6 +90,8 @@
     id: vs7iqp4JGwQ
     label: Signing cards
     published-date: 2025-05-20
+    context:
+    - album: tricktaking
     linked-to:
     - album: tricktaking
 

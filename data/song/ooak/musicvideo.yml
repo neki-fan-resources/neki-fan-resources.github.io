@@ -3,6 +3,8 @@
     label: Music Video
     info: making off
     published-date: 2025-07-19
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -11,5 +13,7 @@
     label: Music Video
     info: making off
     published-date: 2025-07-22
+    context:
+    - song: ooak
     linked-to:
     - song: ooak

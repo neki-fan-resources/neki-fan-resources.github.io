@@ -29,6 +29,10 @@
     label: Before
     info: leaving for the tour
     published-date: 2025-03-04
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
     linked-to:
     - show:
         year: 2025
@@ -39,6 +43,10 @@
     label: Show
     info: huddle
     published-date: 2025-03-08
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
     linked-to:
     - show:
         year: 2025
@@ -49,6 +57,10 @@
     label: Before
     info: lunch
     published-date: 2025-03-11
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
     linked-to:
     - show:
         year: 2025

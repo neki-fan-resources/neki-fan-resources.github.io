@@ -285,6 +285,8 @@
     id: mP_33Vu4TL4
     label: Music Video Teaser
     published-date: 2025-06-18
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -292,6 +294,8 @@
     id: qGEzCjYvWZw
     label: Official Music Video
     published-date: 2025-06-20
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
         
@@ -311,6 +315,8 @@
     label: Rehearsal
     info: studio audio
     published-date: 2025-05-03
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -319,6 +325,8 @@
     label: Rehearsal
     info: studio audio
     published-date: 2025-05-24
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -327,6 +335,8 @@
     label: Rehearsal
     info: studio audio
     published-date: 2025-06-04
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -334,6 +344,8 @@
     id: 86Esxc1BKDM
     label: MV Teaser
     published-date: 2025-06-18
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -341,6 +353,8 @@
     id: 1yFMVe5tCiA
     label: Music Video
     published-date: 2025-06-20
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -348,6 +362,8 @@
     id: 5WK69VDgaBE
     label: Music Video
     published-date: 2025-06-21
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -356,6 +372,8 @@
     label: Music Video
     info: making off
     published-date: 2025-06-22
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -364,6 +382,8 @@
     label: Music Video
     info: making off, Kanade
     published-date: 2025-06-23
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -372,6 +392,8 @@
     label: Music Video
     info: making off
     published-date: 2025-06-24
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -380,6 +402,8 @@
     label: Music Video
     info: making off
     published-date: 2025-06-26
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -388,6 +412,8 @@
     label: Music Video
     info: making off
     published-date: 2025-06-29
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -396,6 +422,8 @@
     label: Music Video
     info: making off
     published-date: 2025-07-02
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -404,6 +432,8 @@
     label: Music Video
     info: making off
     published-date: 2025-07-09
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
 
@@ -438,6 +468,8 @@
     label: OOAK image cover
     published-date: 2025-06-02
     local-copy: true
+    context:
+    - song: ooak
     linked-to:
     - postx: 1929512124243411173
 
@@ -472,6 +504,8 @@
     cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
     published-date: 2025-06-04
     info: everyone sings
+    context:
+    - song: ooak
     linked-to:
     - postx: 1930096228966248749
 
@@ -506,6 +540,8 @@
     cover: 1932750062083559424/img/9AJ_yS8ikGI8Atcw.jpg
     published-date: 2025-06-11
     info: Natsu
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
     - postx: 1932750181457670312
@@ -544,6 +580,8 @@
     published-date: 2025-06-19
     info: the 4 members
     local-copy: true
+    context:
+    - song: ooak
     linked-to:
     - postx: 1935668905244336459
 
@@ -578,6 +616,8 @@
     cover: 1935646770916171776/img/CPlYL1IkO0VoV24N.jpg
     published-date: 2025-06-18
     info: Natsu
+    context:
+    - song: ooak
     linked-to:
     - postx: 1935646894207996161
 
@@ -611,6 +651,8 @@
     label: Music Video
     published-date: 2025-06-22
     info: behind-the-scenes, Cocoro
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
     - postx: 1936646576686153867
@@ -621,6 +663,8 @@
     label: Music Video
     published-date: 2025-06-22
     info: behind-the-scenes
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
     - postx: 1936646576686153867
@@ -653,6 +697,8 @@
     cover: 1945857800657080320/img/FGEXOrb6E_lM_DLK.jpg
     published-date: 2025-07-17
     info: Cocoro
+    context:
+    - song: ooak
     linked-to:
     - song: ooak
     - postx: 1945857878520475910

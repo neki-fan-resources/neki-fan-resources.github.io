@@ -73,6 +73,10 @@
     label: On big screen
     published-date: 2025-07-18
     info: Masato Sakurai, Hika, Cocoro
+    context:
+    - media:
+        year: 2025
+        id: fmosaka
     linked-to:
     - media:
         year: 2025
@@ -117,6 +121,10 @@
     label: At the studio
     published-date: 2025-07-18
     info: Hika, Masato Sakurai, Cocoro
+    context:
+    - media:
+        year: 2025
+        id: fmosaka
     linked-to:
     - media:
         year: 2025
@@ -155,6 +163,10 @@
     id: GwHzNCIWwAAilIt
     label: At the studio
     published-date: 2025-07-18
+    context:
+    - media:
+        year: 2025
+        id: fmosaka
     linked-to:
     - media:
         year: 2025

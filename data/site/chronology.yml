@@ -7,7 +7,7 @@ contentpage:
   end-date: 2025-12-15
   cover-image:
     localimage:
-      group: siteimages
+      event: siteimages
       id: manekineko_cover
   categories: []
   content:

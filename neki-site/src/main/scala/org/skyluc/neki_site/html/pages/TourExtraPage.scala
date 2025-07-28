@@ -9,7 +9,6 @@ import org.skyluc.html.*
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
-import org.skyluc.fan_resources.data.Tour
 
 class TourExtraPage(
     tour: ElementCompiledData,
@@ -22,7 +21,7 @@ class TourExtraPage(
     val mediaSection =
       MultiMediaCard.generateExtraMediaSection(
         multimediaBlock,
-        Tour.FROM_KEY,
+        tour.uId,
       )
 
     Seq(

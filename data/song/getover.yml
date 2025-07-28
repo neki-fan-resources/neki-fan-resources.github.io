@@ -267,8 +267,8 @@
         image: GqBc0HhbYAA2VDy
     - youtubevideo: maFSgVE2vXg
     - localimage:
-        youtubevideo: maFSgVE2vXg
-        id: cover
+        song: getover
+        id: mvteasercover
     - youtubevideo: TWbLqba3oag
     - youtubevideo: 7Neu9jJk-04
     - youtubeshort: mlR0Jeyhw8Y
@@ -303,14 +303,16 @@
     id: maFSgVE2vXg
     label: Music Video Teaser
     published-date: 2024-04-21
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
 - localimage:
-    youtubevideo: maFSgVE2vXg
-    id: cover
+    song: getover
+    id: mvteasercover
     label: Teaser cover
-    filename: cover.png
+    filename: mvteasercover.png
     published-date: 2024-04-21
     source:
       description: YouTube video
@@ -322,6 +324,8 @@
     id: TWbLqba3oag
     label: Official Music Video
     published-date: 2024-04-24
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -329,6 +333,8 @@
     id: 7Neu9jJk-04
     label: Kanade Bass play-through
     published-date: 2024-05-28
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -336,6 +342,8 @@
     id: mlR0Jeyhw8Y
     label: Promo
     published-date: 2024-03-17
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -343,6 +351,8 @@
     id: bJG9HXd0aUI
     label: Promo
     published-date: 2024-04-04
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -350,6 +360,8 @@
     id: SnjDhQFrSy0
     label: Teaser
     published-date: 2024-04-21
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -357,6 +369,8 @@
     id: sLMQ7FJlRlE
     label: Music Video
     published-date: 2024-04-24
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -365,6 +379,8 @@
     label: Music Video
     info: with lyrics
     published-date: 2024-04-25
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -373,6 +389,8 @@
     label: Music Video
     info: Kanade focus, with lyrics
     published-date: 2024-04-26
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -381,6 +399,8 @@
     label: Music Video
     info: Natsu focus, with lyrics
     published-date: 2024-04-27
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -389,6 +409,8 @@
     label: Music Video
     info: Cocoro focus, with lyrics
     published-date: 2024-04-28
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -397,6 +419,8 @@
     label: Music Video
     info: Hika focus, with lyrics
     published-date: 2024-04-29
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -405,6 +429,8 @@
     label: Music Video
     info: Natsu focus
     published-date: 2024-05-01
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -413,6 +439,8 @@
     label: Music Video
     info: Kanade focus
     published-date: 2024-05-02
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -421,6 +449,8 @@
     label: Music Video
     info: Hika focus
     published-date: 2024-05-03
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -429,6 +459,8 @@
     label: Music Video
     info: Cocoro focus
     published-date: 2024-05-04
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -437,6 +469,8 @@
     label: Promo
     info: rehearsal room, studio audio
     published-date: 2024-07-18
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -445,6 +479,8 @@
     label: Recording
     info: listening to early versions ?
     published-date: 2025-03-03
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -453,6 +489,8 @@
     label: Recording
     info: having fun with the camera
     published-date: 2025-04-08
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -461,6 +499,8 @@
     label: Reaction
     info: discovering the music video
     published-date: 2025-04-25
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -469,6 +509,8 @@
     label: Music Video
     info: behind the scenes, packing up
     published-date: 2025-05-18
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -477,6 +519,8 @@
     label: Rehearsal
     info: Hika, Natsu
     published-date: 2025-05-21
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -485,6 +529,8 @@
     label: Promo
     info: rehearsal room, studio audio, Kanade
     published-date: 2025-05-25
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -493,6 +539,8 @@
     label: Promo
     info: rehearsal room, studio audio
     published-date: 2025-06-25
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -501,6 +549,8 @@
     label: Promo
     info: rehearsal room, studio audio
     published-date: 2025-07-15
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -509,6 +559,8 @@
     label: Rehearsal
     info: intro, Hika, Natsu, Kanade
     published-date: 2025-07-17
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -517,6 +569,8 @@
     label: Release
     info: making CDs by hand
     published-date: 2025-07-24
+    context:
+    - song: getover
     linked-to:
     - song: getover
 
@@ -546,6 +600,8 @@
     cover: 1756877146625376256/pu/img/3LM-WUtzAWegXPis.jpg
     published-date: 2024-02-12
     info: Hika, Kanade, Cocoro
+    context:
+    - song: getover
     linked-to:
     - song: getover
     - postx: 1756877181698154611
@@ -585,6 +641,8 @@
     id: GqBc0HhbYAA2VDy
     label: Natsu
     published-date: 2025-05-03
+    context:
+    - song: getover
     linked-to:
     - postx: 1918636722516373576
 
@@ -615,6 +673,8 @@
     cover: 1938475521194778624/img/vCtxzub80oRpOWEL.jpg
     published-date: 2025-06-27
     info: rehearsal, Hika
+    context:
+    - song: getover
     linked-to:
     - postx: 1938475589318644015
 
@@ -646,6 +706,8 @@
     label: cover
     published-date: 2024-06-03
     local-copy: true
+    context:
+    - song: getover
     linked-to:
     - postyoutube: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
 

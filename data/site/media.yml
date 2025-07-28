@@ -6,7 +6,7 @@ categoriespage:
   description: The media and press events NEK! was part of.
   cover-image:
     localimage:
-      group: siteimages
+      event: siteimages
       id: manekineko_cover
   id-prefix:
   - media

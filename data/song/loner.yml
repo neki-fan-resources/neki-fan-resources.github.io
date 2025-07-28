@@ -213,8 +213,8 @@
     linked-to:
     - youtubevideo: prWu9_Q5a5Y
     - localimage:
-        youtubevideo: prWu9_Q5a5Y
-        id: cover
+        song: loner
+        id: mvteasercover
     - youtubevideo: uhy1HnFXTH8
     - youtubeshort: RRrplpvGl6A
     - youtubeshort: 3xgyiUaSGgI
@@ -236,14 +236,16 @@
     id: prWu9_Q5a5Y
     label: Music Video Teaser
     published-date: 2024-10-02
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
 - localimage:
-    youtubevideo: prWu9_Q5a5Y
-    id: cover
+    song: loner
+    id: mvteasercover
     label: Teaser cover
-    filename: cover.png
+    filename: mvteasercover.png
     published-date: 2024-10-02
     source:
       description: YouTube video
@@ -255,6 +257,8 @@
     id: uhy1HnFXTH8
     label: Official Music Video
     published-date: 2024-10-09
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -262,6 +266,8 @@
     id: RRrplpvGl6A
     label: Teaser
     published-date: 2024-10-02
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -269,6 +275,8 @@
     id: 3xgyiUaSGgI
     label: Music Video
     published-date: 2024-10-09
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -276,6 +284,8 @@
     id: 7M5v1yQp-rs
     label: Music Video
     published-date: 2024-10-10
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -284,6 +294,8 @@
     label: Music Video
     info: Hika focus
     published-date: 2024-10-11
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -292,6 +304,8 @@
     label: Music Video
     info: Natsu focus
     published-date: 2024-10-12
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -300,6 +314,8 @@
     label: Music Video
     info: Cocoro focus
     published-date: 2024-10-14
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -308,6 +324,8 @@
     label: Music Video
     info: Kanade focus
     published-date: 2024-10-15
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -316,6 +334,8 @@
     label: Music Video
     info: Natsu focus
     published-date: 2024-10-17
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -324,6 +344,8 @@
     label: Music Video
     info: Cocoro focus
     published-date: 2024-10-19
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -332,6 +354,8 @@
     label: Music Video
     info: Kanade focus
     published-date: 2024-10-20
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -340,6 +364,8 @@
     label: Music Video
     info: Hika focus
     published-date: 2024-10-22
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -348,6 +374,8 @@
     label: Promo
     info: studio audio
     published-date: 2024-10-30
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -356,6 +384,8 @@
     label: Promo
     info: shibuya eggman, studio audio
     published-date: 2024-11-04
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -364,6 +394,8 @@
     label: Promo
     info: rehearsal room, studio audio
     published-date: 2025-04-19
+    context:
+    - song: loner
     linked-to:
     - song: loner
 
@@ -390,6 +422,8 @@
     label: cover
     published-date: 2024-06-03
     local-copy: true
+    context:
+    - song: loner
     linked-to:
     - postyoutube: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
 

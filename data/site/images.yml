@@ -3,14 +3,25 @@
     label: site images
     linked-to:
     - localimage:
-        group: siteimages
+        event: siteimages
         id: nekilogo
     - localimage:
-        group: siteimages
+        event: siteimages
         id: manekineko_cover
 
+- event:
+    id: siteimages
+    label: Holder for site image
+    date: 2014-12-31
+    cover-image:
+      localimage:
+        event: siteimages
+        id: manekineko_cover
+    linked-to:
+    - group: siteimages
+
 - localimage:
-    group: siteimages
+    event: siteimages
     id: nekilogo
     label: Neki Logo
     filename: neki400.png
@@ -22,7 +33,7 @@
     - group: siteimages
 
 - localimage:
-    group: siteimages
+    event: siteimages
     id: manekineko_cover
     label: Manekineko Logo for cover
     filename: manekineko512.png

@@ -6,7 +6,7 @@ categoriespage:
   description: The shows NEK! performed at.
   cover-image:
     localimage:
-      group: siteimages
+      event: siteimages
       id: manekineko_cover
   id-prefix:
   - show

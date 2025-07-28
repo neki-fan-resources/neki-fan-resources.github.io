@@ -37,8 +37,10 @@
     - youtubevideo: _Oac92XPkyo
     - youtubevideo: aylfQ09sa4I
     - localimage:
-        youtubevideo: aylfQ09sa4I
-        id: cover
+        show:
+          year: 2024
+          id: 2ndonemanlive
+        id: mazelivecover
     - youtubeshort: 25AE7t_8eEg
     - youtubeshort: AIM5rdixj4E
     - youtubeshort: HfIoK8Qdv5I
@@ -60,6 +62,10 @@
     cover-image: 'https://media.zaiko.io/zaiko/w_1200/1_477a9d107m1w49egamc3p'
     published-date: 2024-12-30
     expiration-date: 2025-01-29
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - show:
         year: 2024
@@ -69,6 +75,11 @@
     id: _Oac92XPkyo
     label: Official Live Video
     published-date: 2024-12-18
+    context:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: dreams
     - show:
@@ -79,6 +90,11 @@
     id: aylfQ09sa4I
     label: Official Live Video
     published-date: 2025-01-24
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: maze
     - show:
@@ -86,10 +102,12 @@
         id: 2ndonemanlive
 
 - localimage:
-    youtubevideo: aylfQ09sa4I
-    id: cover
+    show:
+      year: 2024
+      id: 2ndonemanlive
+    id: mazelivecover
     label: Live cover
-    filename: cover.png
+    filename: mazelivecover.png
     published-date: 2025-01-24
     source:
       description: YouTube video
@@ -106,8 +124,10 @@
       song: maze
     cover-image: 
       localimage:
-        youtubevideo: aylfQ09sa4I
-        id: cover
+        show:
+          year: 2024
+          id: 2ndonemanlive
+        id: mazelivecover
     categories: video
 
 - youtubeshort:
@@ -115,6 +135,11 @@
     label: Promo
     info: rehearsal room, studio audio
     published-date: 2024-11-23
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: maze
     - show:
@@ -125,6 +150,11 @@
     id: AIM5rdixj4E
     label: Live
     published-date: 2024-12-18
+    context:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: dreams
     - show:
@@ -135,6 +165,11 @@
     id: HfIoK8Qdv5I
     label: Live
     published-date: 2024-12-20
+    context:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: dreams
     - show:
@@ -145,6 +180,11 @@
     id: 4NVfpFzmfMQ
     label: Live
     published-date: 2024-12-23
+    context:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: dreams
     - show:
@@ -155,6 +195,11 @@
     id: qFiKgQ5mNgQ
     label: Live
     published-date: 2025-01-02
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: getover
     - show:
@@ -165,6 +210,11 @@
     id: iQQoVDhI0E0
     label: Live
     published-date: 2025-01-03
+    context:
+    - song: fool
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: fool
     - show:
@@ -175,6 +225,11 @@
     id: 8jqBR2PyfAw
     label: Live
     published-date: 2025-01-05
+    context:
+    - song: moon
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: moon
     - show:
@@ -185,6 +240,11 @@
     id: MpR-vcWQAuQ
     label: Live
     published-date: 2025-01-06
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: reigengirl
     - show:
@@ -195,6 +255,11 @@
     id: xy8VknaZ0QQ
     label: Live
     published-date: 2025-01-09
+    context:
+    - song: loner
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: loner
     - show:
@@ -206,6 +271,11 @@
     label: Live
     info: with lyrics
     published-date: 2025-01-13
+    context:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: endlessgame
     - show:
@@ -217,6 +287,10 @@
     label: Live
     info: with lyrics
     published-date: 2025-01-16
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - show:
         year: 2024
@@ -226,6 +300,11 @@
     id: WdcokauJMtU
     label: Live
     published-date: 2025-01-24
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - song: maze
     - show:
@@ -265,6 +344,10 @@
     label: poster
     published-date: 2024-06-03
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     linked-to:
     - postyoutube: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
 

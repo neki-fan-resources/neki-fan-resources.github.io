@@ -8,6 +8,6 @@ song:
   - 'Some of the shows where it has been played: TR!CK TAK!NG tour.'
   cover-image:
     localimage:
-      group: siteimages
+      event: siteimages
       id: nekilogo
     fromOtherElement: true

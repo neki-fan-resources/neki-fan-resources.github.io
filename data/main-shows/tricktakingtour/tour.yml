@@ -60,6 +60,8 @@
     label: poster
     published-date: 2025-01-01
     local-copy: true
+    context:
+    - tour: tricktakingtour
     linked-to:
     - postyoutube: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
 

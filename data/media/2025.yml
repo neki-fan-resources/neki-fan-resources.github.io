@@ -86,6 +86,10 @@
     label: Hika and Natsu
     published-date: 2025-03-22
     info: with the show's blue ears
+    context:
+    - media:
+        year: 2025
+        id: nack5fantasyradio
     linked-to:
     - postx: 1903452529729695755
 
@@ -94,6 +98,10 @@
     label: On-Air
     info: Hika and Natsu praising each other
     published-date: 2025-04-17
+    context:
+    - media:
+        year: 2025
+        id: nack5fantasyradio
     linked-to:
     - media:
         year: 2025
@@ -244,6 +252,10 @@
     id: GoMHpd-bYAANMFt
     label: band members and show host
     published-date: 2025-04-10
+    context:
+    - media:
+        year: 2025
+        id: fm802infinityradio
     linked-to:
     - postx: 1910379084141801512
 
@@ -319,6 +331,10 @@
     id: E91CuO-MI1A
     label: It is out
     published-date: 2025-04-12
+    context:
+    - media:
+        year: 2025
+        id: guitarmagazine05
     linked-to:
     - media:
         year: 2025
@@ -428,6 +444,10 @@
     id: GpDoUyLb0AAbEYw
     label: band members
     published-date: 2025-04-21
+    context:
+    - media:
+        year: 2025
+        id: bayfm78musicurate
     linked-to:
     - postx: 1914285297862598973
 
@@ -435,6 +455,10 @@
     id: QxTlwAWRrBM
     label: Picture taking
     published-date: 2025-04-22
+    context:
+    - media:
+        year: 2025
+        id: bayfm78musicurate
     linked-to:
     - media:
         year: 2025
@@ -508,6 +532,10 @@
     label: AI Beer
     info: At the time of the recording ?
     published-date: 2025-04-28
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
     linked-to:
     - media:
         year: 2025
@@ -547,6 +575,10 @@
     label: with the host
     published-date: 2025-05-02
     info: Hika, Natsu, 菅野結以 (Yui Kanno)
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
     linked-to:
     - postx: 1918254606855074066
 
@@ -588,6 +620,10 @@
     label: host with the EP TR!CK TAK!NG
     published-date: 2025-05-02
     info: 菅野結以 (Yui Kanno)
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
     linked-to:
     - postx: 1918253217269596255
 
@@ -626,6 +662,10 @@
     label: at the station
     published-date: 2025-05-02
     info: Hika, Natsu
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
     linked-to:
     - postx: 1918392450269548896
 
@@ -721,6 +761,10 @@
     id: Gt7rilaXoAAxHRl
     label: Welcome sign
     published-date: 2025-05-21
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
     linked-to:
     - postx: 1936243875687137663
 
@@ -753,6 +797,10 @@
     label: At the station
     published-date: 2025-05-21
     info: Hika, Natsu
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
     linked-to:
     - postx: 1936301742964290030
 
@@ -786,6 +834,10 @@
     label: In the studio
     published-date: 2025-05-21
     info: the hosts, Hika, Natsu
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
     linked-to:
     - postx: 1936310916737626390
 
@@ -827,6 +879,10 @@
     label: At the station
     published-date: 2025-05-21
     info: Hika, Natsu
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
     linked-to:
     - media:
         year: 2025
@@ -859,6 +915,10 @@
     label: Thanks you for listening
     published-date: 2025-05-21
     info: Hika, Natsu
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
     linked-to:
     - media:
         year: 2025
@@ -893,6 +953,10 @@
     label: Thanks you for listening
     published-date: 2025-05-21
     info: Hika, Natsu
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
     linked-to:
     - media:
         year: 2025
@@ -964,6 +1028,10 @@
     id: GuTH4QhbcAAsg-3
     label: Remote appearance
     published-date: 2025-06-25
+    context:
+    - media:
+        year: 2025
+        id: eradiocatch
     linked-to:
     - media:
         year: 2025

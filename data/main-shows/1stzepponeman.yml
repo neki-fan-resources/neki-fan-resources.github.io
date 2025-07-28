@@ -47,6 +47,13 @@
     id: 0hC9M6VeCJk
     label: Announcement
     published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - show:
+        year: 2025
+        id: 1stzepponeman
     linked-to:
     - show:
         year: 2025
@@ -90,6 +97,10 @@
     label: On stage
     published-date: 2025-06-09
     info: from the crowd
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025

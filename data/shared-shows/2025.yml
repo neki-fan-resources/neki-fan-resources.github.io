@@ -53,6 +53,10 @@
     label: poster
     published-date: 2025-01-25
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: youandi
     linked-to:
     - postx: 1883065171922637290
 
@@ -61,6 +65,10 @@
     id: GiH9iMsaQAAasNt
     label: schedule
     published-date: 2025-01-25
+    context:
+    - show:
+        year: 2025
+        id: youandi
     linked-to:
     - postx: 1883065171922637290
 
@@ -119,6 +127,10 @@
     label: poster
     published-date: 2025-02-06
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: setallfree
     linked-to:
     - postx: 1887340383576989716
 
@@ -172,6 +184,10 @@
     id: 759NyQOQ1yg
     label: Entry
     published-date: 2025-04-13
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - show:
         year: 2025
@@ -181,6 +197,11 @@
     id: 8JNZl3nO2dM
     label: Let's play
     published-date: 2025-04-14
+    context:
+    - song: maze
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - song: maze
     - show:
@@ -222,6 +243,10 @@
     label: poster
     published-date: 2025-03-26
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - postx: 1904825238870721005
 
@@ -268,6 +293,10 @@
     id: GoUp71yWsAIHbmh
     label: the band
     published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - postx: 1910979741756399623
 
@@ -276,6 +305,10 @@
     id: GoUp719WkAAtlRX
     label: on stage
     published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - postx: 1910979741756399623
 
@@ -284,6 +317,10 @@
     id: GoUp719WUAADyfg
     label: sidewalk board
     published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - postx: 1910979741756399623
 
@@ -339,6 +376,10 @@
     id: GoUZ_azXwAASE0E
     label: on stage
     published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - postx: 1910962202003275912
 
@@ -346,8 +387,12 @@
     post: 1910962202003275912
     id: GoUZ_awWwAAkG5D
     label: on stage
-    published-date: 2025-04-10
     info: Kanade
+    published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - postx: 1910962202003275912
 
@@ -357,6 +402,10 @@
     label: on stage
     published-date: 2025-04-10
     info: from the side, Natsu
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - postx: 1910962202003275912
 
@@ -366,6 +415,10 @@
     label: on stage
     published-date: 2025-04-10
     info: Hika
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
     linked-to:
     - postx: 1910962202003275912
 
@@ -401,6 +454,11 @@
     cover: 1931999263166492672/img/WfpdmHQJHaGNaTDp.jpg
     published-date: 2025-06-09
     info: 195 BPM, Natsu
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    - song: loner
     linked-to:
     - show:
         year: 2025
@@ -493,6 +551,11 @@
     label: Promo
     info: studio audio, from the crowd
     published-date: 2025-06-05
+    context:
+    - song: ooak
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - song: ooak
     - show:
@@ -536,6 +599,10 @@
     label: poster
     published-date: 2025-03-21
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - postx: 1903038891042673069
 
@@ -545,6 +612,10 @@
     label: artist presentations
     cover: 1903015103253151744/pu/img/oUOZFvdLdiNzZp5q.jpg
     published-date: 2025-03-21
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - postx: 1903038891042673069
 
@@ -587,6 +658,10 @@
     id: GqA0mxha4AAZusD
     label: シャングリラ schedule
     published-date: 2025-05-03
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - postx: 1918591839306666269
 
@@ -595,6 +670,10 @@
     id: GqA0m0ta0AAA-dL
     label: festival schedule
     published-date: 2025-05-03
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - postx: 1918591839306666269
 
@@ -632,6 +711,10 @@
     id: GqGKtFtbsAAScbY
     label: the band
     published-date: 2025-05-04
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - postx: 1918967431936053416
 
@@ -640,6 +723,10 @@
     id: GqGKtFwa0AACJVD
     label: from the back of the crowd
     published-date: 2025-05-04
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - postx: 1918967431936053416
 
@@ -648,6 +735,10 @@
     label: Backstage
     info: huddle, stage entry
     published-date: 2025-05-05
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - show:
         year: 2025
@@ -685,6 +776,11 @@
     cover: 1919328299047903232/img/dspFPFb7AhRXBwB4.jpg
     published-date: 2025-05-05
     info: Natsu
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: maze
     linked-to:
     - song: maze
     - postx: 1919328460532494808
@@ -723,6 +819,11 @@
     cover: 1919554682206486530/img/K1ZfrKm-qNiqu1IN.jpg
     published-date: 2025-05-06
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: endlessgame
     linked-to:
     - song: endlessgame
     - postx: 1919554837458399724
@@ -732,6 +833,11 @@
     label: Live
     info: from the crowd
     published-date: 2025-05-07
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - song: dreams
     - show:
@@ -769,6 +875,11 @@
     cover: 1919977607212498946/img/LkMmps3g4daFxN3j.jpg
     published-date: 2025-05-06
     info: Hika, from the stage
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: maze
     linked-to:
     - song: maze
     - postx: 1919977679027372546
@@ -800,6 +911,11 @@
     cover: 1920401419061833728/img/c47mejQ4bkeDGEiN.jpg
     published-date: 2025-05-08
     info: Jumping Kanade
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: maze
     linked-to:
     - song: maze
     - postx: 1920401532488724860
@@ -835,6 +951,11 @@
     cover: 1920746671652188160/img/cVITx_SpHeb9T00E.jpg
     published-date: 2025-05-09
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: dreams
     linked-to:
     - song: dreams
     - postx: 1920746869560430820
@@ -870,6 +991,11 @@
     cover: 1921828067770847232/img/fTtcpYm1zUWlb4uR.jpg
     published-date: 2025-05-12
     info: Natsu
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: ooak
     linked-to:
     - song: ooak
     - postx: 1921828183369781385
@@ -901,6 +1027,11 @@
     cover: 1922588402291249152/img/qMgNWg9u_DSfpOQr.jpg
     published-date: 2025-05-14
     info: Kanade
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: endlessgame
     linked-to:
     - song: endlessgame
     - postx: 1922588708026404968
@@ -933,6 +1064,11 @@
     cover: 1926927934914228224/img/pZxdsLyZxhNFUdZ4.jpg
     published-date: 2025-05-26
     info: solo, Natsu
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: maze
     linked-to:
     - song: maze
     - postx: 1926928034944213276
@@ -969,6 +1105,11 @@
     cover: 1929389340653912064/img/temN0bVjZ3xG2oFX.jpg
     published-date: 2025-06-02
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: getover
     linked-to:
     - song: getover
     - postx: 1929389485147721772
@@ -1005,6 +1146,11 @@
     cover: 1935184259150659584/img/6ddIJMGTVK-EkUor.jpg
     published-date: 2025-06-18
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: maze
     linked-to:
     - show:
         year: 2025
@@ -1017,6 +1163,10 @@
     label: Backstage
     info: before the entry
     published-date: 2025-07-06
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
     linked-to:
     - show:
         year: 2025
@@ -1103,6 +1253,10 @@
     label: Entry
     info: huddle and entry
     published-date: 2025-06-28
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1112,6 +1266,11 @@
     id: FRbyFkaf9-A
     label: Live
     published-date: 2025-07-01
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: endlessgame
     linked-to:
     - show:
         year: 2025
@@ -1123,6 +1282,11 @@
     label: Live
     info: Natsu
     published-date: 2025-06-30
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: maze
     linked-to:
     - show:
         year: 2025
@@ -1175,6 +1339,10 @@
     label: Poster
     published-date: 2025-06-12
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1186,6 +1354,10 @@
     id: GtOzLB3bMAAkuR1
     label: Schedule
     published-date: 2025-06-12
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1243,6 +1415,11 @@
     label: Live
     cover: 1938863218115387392/img/2G4E7ni5SM3ACuk_.jpg
     published-date: 2025-06-28
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: getover
     linked-to:
     - show:
         year: 2025
@@ -1298,6 +1475,10 @@
     label: On stage
     published-date: 2025-06-28
     info: Kanade
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1310,6 +1491,10 @@
     label: On stage
     published-date: 2025-06-28
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1322,6 +1507,10 @@
     label: On stage
     published-date: 2025-06-28
     info: Natsu
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1334,6 +1523,10 @@
     label: On stage
     published-date: 2025-06-28
     info: Hika
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1382,6 +1575,10 @@
     label: On stage
     published-date: 2025-06-28
     info: from the crowd
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1393,6 +1590,10 @@
     id: GuhJ7t9XEAAlg5u
     label: The band
     published-date: 2025-06-28
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     linked-to:
     - show:
         year: 2025
@@ -1433,6 +1634,11 @@
     cover: 1939993483634262016/img/9R7TYqmQt_RNf9ye.jpg
     published-date: 2025-07-01
     info: intro
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: reigengirl
     linked-to:
     - show:
         year: 2025
@@ -1470,6 +1676,11 @@
     cover: 1941061974755811330/img/NLb-6ldVo-_O1zee.jpg
     published-date: 2025-07-04
     info: Natsu solo
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: getover
     linked-to:
     - song: getover
     - postx: 1941062054896660964
@@ -1479,6 +1690,11 @@
     label: Promo
     info: studio audio
     published-date: 2025-07-05
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: dreams
     linked-to:
     - show:
         year: 2025
@@ -1490,6 +1706,11 @@
     label: Promo
     info: studio audio
     published-date: 2025-07-10
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: reigengirl
     linked-to:
     - show:
         year: 2025
@@ -1523,6 +1744,11 @@
     cover: 1941384859848671233/img/tCuNrkDCAUV5O9wb.jpg
     published-date: 2025-07-05
     info: Hika
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: getover
     linked-to:
     - show:
         year: 2025
@@ -1557,6 +1783,11 @@
     cover: 1941695853950881792/img/AjliwzCakCirv_a1.jpg
     published-date: 2025-07-06
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: dreams
     linked-to:
     - show:
         year: 2025
@@ -1594,6 +1825,11 @@
     cover: 1943529998046146560/img/hLG0rWujugoBBZzE.jpg
     published-date: 2025-07-11
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: reigengirl
     linked-to:
     - show:
         year: 2025
@@ -1634,6 +1870,11 @@
     cover: 1943937556623855616/img/vB6J779FswTY0X47.jpg
     published-date: 2025-07-12
     info: Natsu
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: dreams
     linked-to:
     - show:
         year: 2025
@@ -1646,6 +1887,11 @@
     label: Promo
     info: studio audio
     published-date: 2025-07-16
+    context:
+    - show:
+        year: 2025
+        id: sendaimusicfuse
+    - song: ooak
     linked-to:
     - show:
         year: 2025
@@ -1706,6 +1952,10 @@
     label: poster
     published-date: 2025-06-12
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
     linked-to:
     - show:
         year: 2025
@@ -1766,6 +2016,10 @@
     label: poster
     published-date: 2025-06-15
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
     linked-to:
     - show:
         year: 2025

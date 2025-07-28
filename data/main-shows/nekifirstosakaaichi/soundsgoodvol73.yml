@@ -46,5 +46,9 @@
     label: flyer
     published-date: 2024-08-23
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
     linked-to:
     - postx: 1826867524035653715

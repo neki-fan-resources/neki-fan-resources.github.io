@@ -1,6 +1,5 @@
 package org.skyluc.neki_site.html.pages
 
-import org.skyluc.fan_resources.data.Media
 import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
 import org.skyluc.fan_resources.html.component.LineCard
@@ -22,7 +21,7 @@ class MediaExtraPage(
     val mediaSection =
       MultiMediaCard.generateExtraMediaSection(
         multimediaBlock,
-        Media.FROM_KEY,
+        media.uId,
       )
 
     Seq(

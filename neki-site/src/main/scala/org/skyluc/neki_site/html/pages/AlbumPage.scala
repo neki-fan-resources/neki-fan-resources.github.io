@@ -36,9 +36,9 @@ class AlbumPage(
       ),
     )
 
-    val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Album.FROM_KEY)
+    val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, album.uId)
 
-    val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, Album.FROM_KEY)
+    val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, album.uId)
 
     Seq(
       largeDetails

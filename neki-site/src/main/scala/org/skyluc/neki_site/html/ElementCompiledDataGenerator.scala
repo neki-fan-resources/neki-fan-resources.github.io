@@ -45,8 +45,6 @@ class ElementCompiledDataGeneratorProcessor(generator: CompiledDataGenerator)
 
 object ElementCompiledDataGenerator {
 
-  val MULTIMEDIA_FROM_KEY = "multimedia"
-
   val MISSING_URL = Url("/404")
   val MISSING_IMAGE_URL = Url(Site.BASE_IMAGE_ASSET_PATH.resolve(Path("site", "manekineko-200px.png")))
   val MISSING_IMAGE = LocalImageCopyCompiledData(MISSING_IMAGE_URL, Common.MISSING)

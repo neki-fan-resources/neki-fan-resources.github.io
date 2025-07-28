@@ -19,6 +19,11 @@
     label: Promo
     info: studio audio
     published-date: 2024-03-15
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: guvol349
     linked-to:
     - song: getover
     - show:
@@ -64,6 +69,10 @@
     label: sidewalk board
     published-date: 2024-03-07
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol349
     linked-to:
     - postx: 1765625866816803054
 
@@ -92,6 +101,11 @@
     id: 6W-P3YBkybQ
     label: Live
     published-date: 2024-04-20
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: guvol350
     linked-to:
     - song: reigengirl
     - show:
@@ -135,6 +149,10 @@
     label: sidewalk board
     published-date: 2024-04-09
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol350
     linked-to:
     - postx: 1777594109558952005
 
@@ -159,6 +177,11 @@
     label: Promo
     info: studio audio
     published-date: 2024-05-17
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: guvol351
     linked-to:
     - song: getover
     - show:
@@ -202,6 +225,10 @@
     label: sidewalk board
     published-date: 2024-05-07
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol351
     linked-to:
     - postx: 1787740918298345982
 
@@ -258,6 +285,10 @@
     label: sidewalk board
     published-date: 2024-05-09
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol352
     linked-to:
     - postx: 1788471211137306929
 
@@ -315,6 +346,10 @@
     label: sidewalk board
     published-date: 2024-06-04
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol354
     linked-to:
     - postx: 1797885211876970975
 
@@ -341,6 +376,11 @@
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-18
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: guvol356
     linked-to:
     - song: reigengirl
     - show:
@@ -352,6 +392,11 @@
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-22
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: guvol356
     linked-to:
     - song: maze
     - show:
@@ -363,6 +408,11 @@
     label: Promo
     info: studio audio, with lyrics
     published-date: 2024-06-26
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: guvol356
     linked-to:
     - song: reigengirl
     - show:
@@ -407,6 +457,10 @@
     label: sidewalk board
     published-date: 2024-06-17
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol356
     linked-to:
     - postx: 1802603553820643416
 
@@ -463,6 +517,10 @@
     label: sidewalk board
     published-date: 2024-07-01
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol357
     linked-to:
     - postx: 1807675589555523709
 
@@ -519,6 +577,10 @@
     label: sidewalk board
     published-date: 2024-09-10
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol363
     linked-to:
     - postx: 1833408179499372832
 
@@ -575,6 +637,10 @@
     label: sidewalk board
     published-date: 2024-09-24
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol365
     linked-to:
     - postx: 1838488577052913969
 
@@ -630,6 +696,10 @@
     label: sidewalk board
     published-date: 2024-10-02
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol366
     linked-to:
     - postx: 1841384260705624302
 
@@ -680,6 +750,10 @@
     label: sidewalk board
     published-date: 2024-10-18
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: nekigufriday
     linked-to:
     - postx: 1847190084451262858
 
@@ -737,6 +811,10 @@
     label: sidewalk board
     published-date: 2024-12-04
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol369
     linked-to:
     - postx: 1864191582632583194
 
@@ -792,6 +870,10 @@
     label: sidewalk board
     published-date: 2025-02-19
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: guvol375
     linked-to:
     - postx: 1892129493306810798
 

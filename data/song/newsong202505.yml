@@ -68,6 +68,10 @@
     cover: 1921051642474254336/img/hp95Ii6uif6RovzW.jpg
     published-date: 2025-05-10
     info: working on new phrases, Kanade
+    context:
+    - song:
+        id: newsong202505
+        dark: true
     linked-to:
     - postx: 1921051915636429162
 
@@ -102,6 +106,10 @@
     cover: 1922260231012130816/img/5mWiE_vSstcqBwIG.jpg
     published-date: 2025-05-13
     info: a few days before recording
+    context:
+    - song:
+        id: newsong202505
+        dark: true
     linked-to:
     - postx: 1922260308782887399
 
@@ -135,6 +143,10 @@
     label: Recording
     published-date: 2025-05-18
     info: ピルん
+    context:
+    - song:
+        id: newsong202505
+        dark: true
     linked-to:
     - song:
         id: newsong202505
@@ -171,6 +183,10 @@
     cover: 1923957908833701888/img/Rtc71v02-R15ZKmm.jpg
     published-date: 2025-05-18
     info: Cocoro
+    context:
+    - song:
+        id: newsong202505
+        dark: true
     linked-to:
     - postx: 1923958028916883650
 
@@ -203,6 +219,10 @@
     cover: 1924763425592508424/img/xc1Gc1I_5zi9qbQq.jpg
     published-date: 2025-05-20
     info: Natsu, Hika
+    context:
+    - song:
+        id: newsong202505
+        dark: true
     linked-to:
     - postx: 1924763496551743797
 
@@ -235,6 +255,10 @@
     cover: 1926604563953471488/img/LsvQBWyGGPFdD3aD.jpg
     published-date: 2025-05-25
     info: Cocoro
+    context:
+    - song:
+        id: newsong202505
+        dark: true
     linked-to:
     - postx: 1926604625936810264
 

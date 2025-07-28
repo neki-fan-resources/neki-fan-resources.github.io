@@ -26,9 +26,6 @@
           video: 01
       - youtubeshort: b2N2xThvZ-4
       short:
-      - postxvideo:
-          post: 1927683575484199193
-          video: 01
       - youtubeshort: WRfdzk-02vY
       - youtubeshort: LoiUwaTk_2Q
       - youtubeshort: becPsUyrM_M
@@ -1292,13 +1289,14 @@
     - youtubeshort: hWDR2ux5jFs
     - youtubeshort: ACpiujWAlHg
     - youtubeshort: 4t1yP9wsV88
-    - postx: 1927683575484199193
     - postx: 1928744673092292656
 
 - youtubevideo:
     id: 6YLIHyMl21k
     label: Music Video Teaser
     published-date: 2025-02-14
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1306,6 +1304,8 @@
     id: z3HM2COly2Q
     label: Official Music Video
     published-date: 2025-02-15
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1314,6 +1314,8 @@
     label: Kanade Bass play-through
     info: with instructions
     published-date: 2025-06-05
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1321,6 +1323,8 @@
     id: bXwDRz85Q94
     label: Teaser
     published-date: 2025-02-14
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1328,6 +1332,8 @@
     id: Tg21bnDB9Wg
     label: Music Video
     published-date: 2025-02-15
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1336,6 +1342,8 @@
     label: Music Video
     info: celebrating 10k views
     published-date: 2025-02-16
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1343,6 +1351,8 @@
     id: DLjUreGwB9c
     label: Music Video
     published-date: 2025-02-17
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1351,6 +1361,8 @@
     label: Music Video
     info: Music Video set, different clip
     published-date: 2025-02-18
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1359,6 +1371,8 @@
     label: Music Video
     info: Cocoro focus, with lyrics
     published-date: 2025-02-21
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1367,6 +1381,8 @@
     label: Music Video
     info: Natsu focus, with lyrics
     published-date: 2025-02-22
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1375,6 +1391,8 @@
     label: Music Video
     info: Hika focus, with lyrics
     published-date: 2025-02-23
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1383,6 +1401,8 @@
     label: Music Video
     info: Kanade focus, with lyrics
     published-date: 2025-02-24
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1391,6 +1411,8 @@
     label: Music Video
     info: music Video behind the scene
     published-date: 2025-03-01
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1399,6 +1421,8 @@
     label: Music Video
     info: music Video behind the scene, Cocoro focus
     published-date: 2025-04-07
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1407,6 +1431,8 @@
     label: Bass and guitar solos
     info: rehearsal room, Kanade, Natsu
     published-date: 2025-05-16
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1415,6 +1441,8 @@
     label: Music Video
     info: behind the scenes, Cocoro
     published-date: 2025-05-27
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1423,6 +1451,8 @@
     label: Music Video
     info: watching the rushes
     published-date: 2025-06-03
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
 
@@ -1431,38 +1461,10 @@
     label: Promo
     info: studio audio, rehearsal room
     published-date: 2025-07-04
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
-
-- postx:
-    id: 1927683575484199193
-    account: cure_bass_baka
-    published-date: 2025-05-28
-    label: rehearsal
-    info: close up video of Kanade's hand
-    text: |
-      究極の手元アップ動画！！
-      ちょっとミスったけどせっかく撮ったのであげます🙋🏻‍♀️
-      #NEKI  #拡散中  #ネキ界隈
-      
-    video:
-    - 01
-    linked-to:
-    - postxvideo:
-        post: 1927683575484199193
-        video: 01
-    - song: zerosum
-
-- postxvideo:
-    post: 1927683575484199193
-    id: 01
-    label: Rehearsal
-    cover: 1927683147086651392/img/xt3oRj7KEnvvaTYj.jpg
-    published-date: 2025-05-28
-    info: close up bass, intro, Kanade
-    linked-to:
-    - song: zerosum
-    - postx: 1927683575484199193
 
 - postx:
     id: 1928744673092292656
@@ -1489,6 +1491,8 @@
     cover: 1928744588002603008/img/zKxWxSvDhLkLUg71.jpg
     published-date: 2025-05-31
     info: bass solo, Kanade
+    context:
+    - song: zerosum
     linked-to:
     - song: zerosum
     - postx: 1928744673092292656

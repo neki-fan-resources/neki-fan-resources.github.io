@@ -74,6 +74,10 @@
     label: At the station
     published-date: 2025-07-18
     info: Kanade, Natsu
+    context:
+    - media:
+        year: 2025
+        id: radiokansai
     linked-to:
     - media:
         year: 2025

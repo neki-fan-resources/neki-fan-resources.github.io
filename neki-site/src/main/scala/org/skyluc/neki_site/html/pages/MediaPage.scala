@@ -31,11 +31,11 @@ class MediaPage(
     val largeDetails =
       LargeDetails.generate(mediaCompiledData)
 
-    val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Media.FROM_KEY)
+    val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, mediaCompiledData.uId)
 
     val summarySection = summaryContent()
 
-    val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, Media.FROM_KEY)
+    val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, mediaCompiledData.uId)
 
     Seq(
       largeDetails

@@ -24,9 +24,9 @@ class ShowPage(
     val largeDetails =
       LargeDetails.generate(show)
 
-    val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Show.FROM_KEY)
+    val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, show.uId)
 
-    val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, Show.FROM_KEY)
+    val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, show.uId)
 
     Seq(
       largeDetails

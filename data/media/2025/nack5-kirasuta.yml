@@ -80,6 +80,10 @@
     label: At the station
     info: hosts, Hika, Cororo
     published-date: 2025-07-21
+    context:
+    - media:
+        year: 2025
+        id: nack5kirasuta
     linked-to:
     - media:
         year: 2025
@@ -91,6 +95,10 @@
     label: At the station
     info: Hika, Cocoro
     published-date: 2025-07-21
+    context:
+    - media:
+        year: 2025
+        id: nack5kirasuta
     linked-to:
     - media:
         year: 2025
@@ -128,6 +136,10 @@
     label: At the station
     info: hosts, Hika, Cororo
     published-date: 2025-07-21
+    context:
+    - media:
+        year: 2025
+        id: nack5kirasuta
     linked-to:
     - media:
         year: 2025
@@ -138,6 +150,10 @@
     label: At the station
     info: Hika, Cocoro, NACK5 bunnies
     published-date: 2025-07-21
+    context:
+    - media:
+        year: 2025
+        id: nack5kirasuta
     linked-to:
     - media:
         year: 2025

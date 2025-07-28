@@ -31,21 +31,21 @@ class LivePage(content: LivePage.LiveMultiMedia, description: PageDescription, s
     val videoSection: Seq[BodyElement[?]] = content.videos.flatMap { s =>
       Seq(
         SectionHeader.generate(LineCard.generate(s.parent)),
-        MultiMediaCard.generateList(s.multimedias, Song.FROM_KEY),
+        MultiMediaCard.generateList(s.multimedias, s.parent.uId),
       )
     }
 
     val concertSection: Seq[BodyElement[?]] = content.concert.flatMap { s =>
       Seq(
         SectionHeader.generate(LineCard.generate(s.parent)),
-        MultiMediaCard.generateList(s.multimedias, Song.FROM_KEY),
+        MultiMediaCard.generateList(s.multimedias, s.parent.uId),
       )
     }
 
     val shortSection: Seq[BodyElement[?]] = content.short.flatMap { s =>
       Seq(
         SectionHeader.generate(LineCard.generate(s.parent)),
-        MultiMediaCard.generateList(s.multimedias, Song.FROM_KEY),
+        MultiMediaCard.generateList(s.multimedias, s.parent.uId),
       )
     }
 

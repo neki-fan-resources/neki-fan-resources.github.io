@@ -26,11 +26,11 @@ class SongPage(
     val largeDetails =
       LargeDetails.generate(songCompiledData)
 
-    val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, Song.FROM_KEY)
+    val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, songCompiledData.uId)
 
     val lyricsSection = song.lyrics.map(LyricsSection.generate).getOrElse(Seq())
 
-    val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, Song.FROM_KEY)
+    val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, songCompiledData.uId)
 
     Seq(
       largeDetails

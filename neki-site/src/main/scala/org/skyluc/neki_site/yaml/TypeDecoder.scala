@@ -37,7 +37,10 @@ case class SiteBuilder(
 
   override def setErrors(errs: Seq[ParserError]): SiteBuilder = copy(errors = errors :++ errs)
 
-  override protected def build(using context: DecoderContext[FrDecoders]): Either[Seq[ParserError], d.Site] = {
+  override protected def build(using
+      context: DecoderContext[FrDecoders],
+      range: Option[org.virtuslab.yaml.Range],
+  ): Either[Seq[ParserError], d.Site] = {
     for {
       navigation <- checkDefined(NAVIGATION, navigation)
       band <- checkDefined(BAND, band)
@@ -99,7 +102,10 @@ case class BandNewsBuilder(
 
   override def setErrors(errs: Seq[ParserError]): BandNewsBuilder = copy(errors = errors :++ errs)
 
-  override protected def build(using context: DecoderContext[FrDecoders]): Either[Seq[ParserError], d.BandNews] = {
+  override protected def build(using
+      context: DecoderContext[FrDecoders],
+      range: Option[org.virtuslab.yaml.Range],
+  ): Either[Seq[ParserError], d.BandNews] = {
     for {
       title <- checkDefined(TITLE, title)
       content <- checkDefined(CONTENT, content)
@@ -151,7 +157,10 @@ case class BandBuilder(
 
   override def setErrors(errs: Seq[ParserError]): BandBuilder = copy(errors = errors :++ errs)
 
-  override protected def build(using context: DecoderContext[FrDecoders]): Either[Seq[ParserError], d.Band] =
+  override protected def build(using
+      context: DecoderContext[FrDecoders],
+      range: Option[org.virtuslab.yaml.Range],
+  ): Either[Seq[ParserError], d.Band] =
     for {
       members <- checkDefined(MEMBER, members)
       socialMedia <- checkDefined(SOCIAL_MEDIA, socialMedia)
@@ -198,7 +207,10 @@ case class MembersBuilder(
 
   override def setErrors(errs: Seq[ParserError]): MembersBuilder = copy(errors = errors :++ errs)
 
-  override protected def build(using context: DecoderContext[FrDecoders]): Either[Seq[ParserError], d.Members] = {
+  override protected def build(using
+      context: DecoderContext[FrDecoders],
+      range: Option[org.virtuslab.yaml.Range],
+  ): Either[Seq[ParserError], d.Members] = {
     for {
       cocoro <- checkDefined(COCORO, cocoro)
       hika <- checkDefined(HIKA, hika)
@@ -268,7 +280,10 @@ case class MemberBuilder(
 
   override def setErrors(errs: Seq[ParserError]): MemberBuilder = copy(errors = errors :++ errs)
 
-  override protected def build(using context: DecoderContext[FrDecoders]): Either[Seq[ParserError], d.Member] = {
+  override protected def build(using
+      context: DecoderContext[FrDecoders],
+      range: Option[org.virtuslab.yaml.Range],
+  ): Either[Seq[ParserError], d.Member] = {
     for {
       id <- checkDefined(ID, id)
       name <- checkDefined(NAME, name)
@@ -327,7 +342,10 @@ case class SocialMediaBuilder(
 
   override def setErrors(errs: Seq[ParserError]): SocialMediaBuilder = copy(errors = errors :++ errs)
 
-  override protected def build(using context: DecoderContext[FrDecoders]): Either[Seq[ParserError], d.SocialMedia] = {
+  override protected def build(using
+      context: DecoderContext[FrDecoders],
+      range: Option[org.virtuslab.yaml.Range],
+  ): Either[Seq[ParserError], d.SocialMedia] = {
     Right(
       d.SocialMedia(
         instagram,
@@ -381,7 +399,10 @@ case class NavigationBuilder(
 
   override def setErrors(errs: Seq[ParserError]): NavigationBuilder = copy(errors = errors :++ errs)
 
-  override protected def build(using context: DecoderContext[FrDecoders]): Either[Seq[ParserError], d.Navigation] = {
+  override protected def build(using
+      context: DecoderContext[FrDecoders],
+      range: Option[org.virtuslab.yaml.Range],
+  ): Either[Seq[ParserError], d.Navigation] = {
     for {
       main <- checkDefined(MAIN, main)
       support <- checkDefined(SUPPORT, support)
@@ -428,7 +449,8 @@ case class NavigationItemBuilder(
   override def setErrors(errs: Seq[ParserError]): NavigationItemBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
-      context: DecoderContext[FrDecoders]
+      context: DecoderContext[FrDecoders],
+      range: Option[org.virtuslab.yaml.Range],
   ): Either[Seq[ParserError], d.NavigationItem] = {
     for {
       name <- checkDefined(NAME, name)

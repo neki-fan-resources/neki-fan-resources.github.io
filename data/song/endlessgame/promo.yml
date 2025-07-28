@@ -3,5 +3,7 @@
     label: Promo
     info: studio audio, rehearsal room
     published-date: 2025-07-23
+    context:
+    - song: endlessgame
     linked-to:
     - song: endlessgame

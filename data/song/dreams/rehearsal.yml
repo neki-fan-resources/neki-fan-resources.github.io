@@ -25,6 +25,8 @@
     label: Rehearsal
     info: from the solo, Natsu
     published-date: 2025-07-24
+    context:
+    - song: dreams
     linked-to:
     - song: dreams
 

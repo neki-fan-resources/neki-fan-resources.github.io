@@ -78,6 +78,10 @@
     label: Promo
     info: Cocoro
     published-date: 2025-03-14
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -88,6 +92,10 @@
     label: Promo
     info: Natsu
     published-date: 2025-03-14
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -98,6 +106,11 @@
     label: Rehearsal
     info: Natsu focus
     published-date: 2025-03-13
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - song: zerosum
     - show:
@@ -109,6 +122,11 @@
     label: Rehearsal
     info: Cocoro focus
     published-date: 2025-03-14
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - song: zerosum
     - show:
@@ -120,6 +138,11 @@
     label: Rehearsal
     info: Kanade focus
     published-date: 2025-03-14
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - song: zerosum
     - show:
@@ -131,6 +154,11 @@
     label: Rehearsal
     info: Hika focus
     published-date: 2025-03-15
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - song: zerosum
     - show:
@@ -142,6 +170,10 @@
     label: Promo
     info: Hika
     published-date: 2025-03-15
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -152,6 +184,10 @@
     label: Promo
     info: Kanade
     published-date: 2025-03-15
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -162,6 +198,10 @@
     label: Show digest
     info: images from the show
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -172,6 +212,10 @@
     label: Before
     info: rehearsal
     published-date: 2025-03-18
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -182,6 +226,10 @@
     label: Thanks!!
     info: With love!
     published-date: 2025-03-19
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -192,6 +240,10 @@
     label: Show
     info: huddle
     published-date: 2025-03-20
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -202,6 +254,11 @@
     label: Live
     info: from the crowd
     published-date: 2025-03-22
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - song: dreams
     - show:
@@ -213,6 +270,10 @@
     label: Live
     info: from the balcony
     published-date: 2025-03-27
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -223,6 +284,10 @@
     label: Live
     info: Natsu guitar intro
     published-date: 2025-04-01
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -233,6 +298,10 @@
     label: Live
     info: Natsu guitar solo
     published-date: 2025-04-05
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -243,6 +312,10 @@
     label: Live
     info: Kanade
     published-date: 2025-04-06
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025
@@ -278,6 +351,11 @@
     cover: 1901916308243185664/img/UBEcndoZ5OxZYNht.jpg
     published-date: 2025-03-18
     info: intro
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: reigengirl
     linked-to:
     - show:
         year: 2025
@@ -314,6 +392,11 @@
     cover: 1907339920764796928/img/w_YX-j6ULyEvSQoU.jpg
     published-date: 2025-04-02
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: reigengirl
     linked-to:
     - show:
         year: 2025
@@ -351,6 +434,11 @@
     cover: 1917865155645546496/img/vDh7ZkVxv93tKfNg.jpg
     published-date: 2025-05-01
     info: right after anouncing the 1st Zepp concert
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - song: getover
     - postx: 1917865243080024340
@@ -385,6 +473,11 @@
     cover: 1929106621202153472/img/68yTv0Vr4lDzpTu4.jpg
     published-date: 2025-06-01
     info: from the crowd, accoustic
+    context:
+    - song: loner
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - song: loner
     - show:
@@ -397,6 +490,10 @@
     label: Rehearsal
     info: on stage, accoustic
     published-date: 2025-06-12
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     linked-to:
     - show:
         year: 2025

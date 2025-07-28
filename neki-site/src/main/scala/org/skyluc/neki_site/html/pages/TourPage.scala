@@ -46,7 +46,7 @@ class TourPage(
     Seq(
       largeDetails
     ) ++ showsSection
-      ++ MultiMediaCard.generateMainSections(multimediaBlock, Tour.FROM_KEY)
+      ++ MultiMediaCard.generateMainSections(multimediaBlock, tour.uId)
   }
 }
 

@@ -73,6 +73,10 @@
     published-date: 2025-07-15
     info: sold out Tokyo
     local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
     linked-to:
     - show:
         year: 2025
@@ -84,6 +88,10 @@
     label: Backstage
     info: huddle, entry
     published-date: 2025-07-18
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
     linked-to:
     - show:
         year: 2025
@@ -121,6 +129,10 @@
     label: Backstage
     published-date: 2025-07-18
     info: komsume, NEK!
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
     linked-to:
     - show:
         year: 2025
@@ -132,6 +144,11 @@
     label: Promo
     info: studio audio
     published-date: 2025-07-20
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: dreams
     linked-to:
     - show:
         year: 2025
@@ -161,6 +178,13 @@
     label: Live
     info: intro, Kanade
     published-date: 2025-07-19
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: 
+        id: songa
+        dark: true
     linked-to:
     - show:
         year: 2025
@@ -194,6 +218,11 @@
     cover: 1946903420922658817/img/Obfd3Y2j6UgasqDM.jpg
     label: Live
     published-date: 2025-07-20
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: maze  
     linked-to:
     - show:
         year: 2025
@@ -223,6 +252,11 @@
     label: Live
     info: Kanade
     published-date: 2025-07-21
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: zerosum
     linked-to:
     - show:
         year: 2025
@@ -254,6 +288,12 @@
     label: Live
     info: Cocoro
     published-date: 2025-07-23
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: zerosum
+    - song: getover
     linked-to:
     - show:
         year: 2025

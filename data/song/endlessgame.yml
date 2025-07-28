@@ -1252,6 +1252,8 @@
     label: Promo
     info: Osaka, studio audio
     published-date: 2024-09-03
+    context:
+    - song: endlessgame
     linked-to:
     - song: endlessgame
 
@@ -1260,6 +1262,8 @@
     label: Promo
     info: rehearsal room, studio audio
     published-date: 2024-10-01
+    context:
+    - song: endlessgame
     linked-to:
     - song: endlessgame
 
@@ -1268,6 +1272,8 @@
     label: Promo
     info: studio audio
     published-date: 2024-11-16
+    context:
+    - song: endlessgame
     linked-to:
     - song: endlessgame
 
@@ -1299,6 +1305,8 @@
     cover: 1917072549030330368/img/siCMf5Eb930aWZ11.jpg
     published-date: 2025-04-29
     info: Hika, Natsu
+    context:
+    - song: endlessgame
     linked-to:
     - postx: 1917072614553751559
 
@@ -1307,6 +1315,11 @@
     label: Promo
     info: studio audio
     published-date: 2025-05-09
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: endlessgame
     linked-to:
     - show:
         year: 2025
@@ -1318,6 +1331,11 @@
     label: Promo
     info: studio audio
     published-date: 2025-05-28
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: endlessgame
     linked-to:
     - show:
         year: 2025
@@ -1348,6 +1366,8 @@
     label: On a black Gibson Les Paul
     cover: 1944347924609253376/img/M9GQjNSp-cODc8YR.jpg
     published-date: 2025-07-13
+    context:
+    - song: endlessgame
     linked-to:
     - song: endlessgame
     - postx: 1944348020235292759

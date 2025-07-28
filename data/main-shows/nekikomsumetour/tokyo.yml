@@ -65,6 +65,10 @@
     label: Entry
     info: Hika getting on stage
     published-date: 2025-06-02
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
     linked-to:
     - show:
         year: 2025
@@ -75,6 +79,11 @@
     label: Promo
     info: studio audio, from the side of the stage
     published-date: 2025-06-06
+    context:
+    - song: maze
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
     linked-to:
     - song: maze
     - show:
@@ -115,6 +124,10 @@
     label: NEK! presentation
     cover: 1925364265340559361/img/raHNEuNv4NJ7__RF.jpg
     published-date: 2025-05-23
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
     linked-to:
     - show:
         year: 2025
@@ -155,6 +168,10 @@
     label: The 2 bands
     published-date: 2025-06-02
     info: NEK! and konsume band members
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
     linked-to:
     - show:
         year: 2025
@@ -200,6 +217,10 @@
     id: GsgpaTQb0AAv3Zr
     label: NEK! on stage
     published-date: 2025-06-03
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
     linked-to:
     - show:
         year: 2025
@@ -211,6 +232,10 @@
     id: Gsgpa56bcAAoxCH
     label: komsume on stage
     published-date: 2025-06-03
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
     linked-to:
     - show:
         year: 2025
@@ -251,6 +276,10 @@
     cover: 1929716963892514817/img/rfjaFqLpGVjttuhQ.jpg
     published-date: 2025-06-03
     info: Natsu
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
     linked-to:
     - show:
         year: 2025
@@ -287,6 +316,11 @@
     cover: 1931251684669583360/img/eelT-3_4Rphtrfmd.jpg
     published-date: 2025-06-07
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - song: loner
     linked-to:
     - show:
         year: 2025
@@ -323,6 +357,11 @@
     cover: 1933082405105274880/img/w9NPmPviB93AuYZW.jpg
     published-date: 2025-06-12
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - song: dreams
     linked-to:
     - show:
         year: 2025
@@ -359,6 +398,11 @@
     cover: 1934127784982622208/img/SiHF4mRvqaOYV-zJ.jpg
     published-date: 2025-06-15
     info: Cocoro
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    - song: ooak
     linked-to:
     - show:
         year: 2025

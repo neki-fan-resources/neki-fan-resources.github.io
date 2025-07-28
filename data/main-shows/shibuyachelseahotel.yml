@@ -30,6 +30,11 @@
     id: gVUFjTcD3B4
     label: Live
     published-date: 2024-03-21
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
     linked-to:
     - song: reigengirl
     - show:
@@ -40,6 +45,11 @@
     id: bBhvxwNWh3A
     label: Live
     published-date: 2024-03-23
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
     linked-to:
     - song: reigengirl
     - show:
@@ -50,6 +60,11 @@
     id: qR2yF3Jb4r4
     label: Live
     published-date: 2024-03-27
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
     linked-to:
     - song: maze
     - show:
@@ -61,6 +76,10 @@
     label: Show
     info: Before the show
     published-date: 2025-03-27
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
     linked-to:
     - show:
         year: 2024
@@ -106,6 +125,10 @@
     published-date: 2024-03-20
     info: handmade
     local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
     linked-to:
     - postx: 1770261360938746035
 
@@ -114,6 +137,10 @@
     id: GJE7UvYbgAAG_3L
     label: merch
     published-date: 2024-03-20
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
     linked-to:
     - postx: 1770261360938746035
 

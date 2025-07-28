@@ -3,6 +3,8 @@
     label: Rehearsal
     info: intro
     published-date: 2025-07-23
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl
 
@@ -28,5 +30,7 @@
     label: Rehearsal
     info: chorus, Hika
     published-date: 2025-07-24
+    context:
+    - song: reigengirl
     linked-to:
     - song: reigengirl

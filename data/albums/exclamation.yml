@@ -25,8 +25,8 @@
     linked-to:
     - youtubevideo: 387bkUm7Dko
     - localimage:
-        youtubevideo: 387bkUm7Dko
-        id: cover
+        album: exclamation
+        id: teasercover
     - youtubeshort: YRmeizMwd1Y
     - postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 
@@ -34,14 +34,16 @@
     id: 387bkUm7Dko
     label: Album Teaser
     published-date: 2024-06-03
+    context:
+    - album: exclamation
     linked-to:
     - album: exclamation
 
 - localimage:
-    youtubevideo: 387bkUm7Dko
-    id: cover
+    album: exclamation
+    id: teasercover
     label: Teaser cover
-    filename: cover.png
+    filename: teasercover.png
     published-date: 2024-06-03
     source:
       description: YouTube video
@@ -53,6 +55,8 @@
     id: YRmeizMwd1Y
     label: Album Teaser
     published-date: 2024-06-03
+    context:
+    - album: exclamation
     linked-to:
     - album: exclamation
 
@@ -94,6 +98,8 @@
     label: EP cover
     published-date: 2024-06-03
     local-copy: true
+    context:
+    - album: exclamation
     linked-to:
     - postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 

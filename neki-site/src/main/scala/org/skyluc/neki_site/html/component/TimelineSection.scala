@@ -86,8 +86,10 @@ object TimelineBlock {
 
     val line = path(s"M 0 0 h${(5 - inMod) * xSign} v${yMod} h${(5 + inMod) * xSign}")
 
+    val label = compiledData.shortLabel.getOrElse(compiledData.label)
+
     val elements: List[SvgElement[?]] = if (metadata.short) {
-      List(svgText(12 * xSign, 0.25 + yMod, compiledData.label).withClass(CLASS_MARKER_LABEL_SHORT))
+      List(svgText(12 * xSign, 0.25 + yMod, label).withClass(CLASS_MARKER_LABEL_SHORT))
     } else {
       List(
         Some(rect(15 * xSign - 5, -5 + yMod, 10, 10)),
@@ -96,7 +98,7 @@ object TimelineBlock {
             .withPreserveAspectRatio("xMidYMid slice")
             .withClass(CLASS_MARKER_IMAGE)
         ),
-        Some(svgText(21 * xSign, 0.25 + yMod, compiledData.label).withClass(CLASS_MARKER_LABEL)),
+        Some(svgText(21 * xSign, 0.25 + yMod, label).withClass(CLASS_MARKER_LABEL)),
         Some(svgText(21.25 * xSign, -3 + yMod, compiledData.designation).withClass(CLASS_MARKER_DESIGNATION)),
         compiledData.sublabel.map(sublabel =>
           svgText(21.25 * xSign, 3.5 + yMod, sublabel).withClass(CLASS_MARKER_SUBLABEL)

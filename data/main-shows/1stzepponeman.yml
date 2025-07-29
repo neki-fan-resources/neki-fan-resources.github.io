@@ -17,6 +17,7 @@
       - mainshowtour
     multimedia:
       addtional:
+      - youtubeshort: He1zOmOk7b0
       - youtubeshort: 0hC9M6VeCJk
     linked-to:
     - localimage:
@@ -106,4 +107,15 @@
         year: 2025
         id: tricktakingtourtokyo
     - postx: 1931984997382316384
+
+- youtubeshort:
+    id: He1zOmOk7b0
+    label: About shows
+    info: Cocoro
+    published-date: 2025-07-28
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
 

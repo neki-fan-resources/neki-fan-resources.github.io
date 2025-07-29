@@ -16,6 +16,9 @@
       fromOtherElement: true
     multimedia:
       live:
+      - postxvideo:
+          post: 1949012927056658865
+          video: 01
       - youtubevideo: urGmtrd7zbA
       - youtubeshort: iQQoVDhI0E0
       - youtubeshort: EkRipluPvVg
@@ -36,15 +39,21 @@
           url: 'https://lyrics.lyricfind.com/lyrics/nek-fool'
       - id: ro
         name: rōmaji
-        active: true
         no-translation: true
       - id: ww
         name: word by word translation (using jisho.org)
         base-url: 'https://jisho.org/search/'
         url-text: J
-      - id: gg
+      # - id: gg
+      #   name: english translation
+      #   details: aided by Google Gemini (2.0 Flash Thinking Experimental).
+      - id: en
         name: english translation
-        details: aided by Google Gemini (2.0 Flash Thinking Experimental).
+        details: (from YouTube Official Live Video subtitles)
+        active: true
+        source:
+          description: from YouTube Official Live Video subtitles
+          url: 'https://www.youtube.com/watch?v=TWbLqba3oag'
       sections:
       - lines:
         - ol:
@@ -65,6 +74,8 @@
           - d: お涙頂戴でイイね
           gg:
           - Playing the victim is good, right?
+          en:
+          - Crocodile Tears? Sure, I'll Take a Like
         - ol:
           - こうべ
           - たれりゃ
@@ -87,6 +98,8 @@
           - d: こうべたれりゃ万事オッケー
           gg:
           - If you just apologize, everything's okay.
+          en:
+          - Bow your head, and everything's all right
         - ol:
           - 裏垢
           - じゃ
@@ -109,6 +122,8 @@
           - d: 裏垢じゃ相当言ってる
           gg:
           - But on their private accounts, they're saying a lot –
+          en:
+          - Behind your burner account, you’re talkin’ mad
         - ol:
           - 「
           - マジ
@@ -143,6 +158,8 @@
           - d: 「マジ？疑うわ 人格」
           gg:
           - "'Seriously? I doubt their character!'"
+          en:
+          - Seriously? That’s messed up—who even are you?
       - lines:
         - ol:
           - 誰か
@@ -169,6 +186,8 @@
           - d: 誰か見てる どこか見てる
           gg:
           - Someone is watching, somewhere is watching.
+          en:
+          - Someone’s watching, somewhere, always
         - ol:
           - もはや
           - 逃げ場所
@@ -189,6 +208,8 @@
           - d: もはや逃げ場所 NO
           gg:
           - There's no escape anymore, NO.
+          en:
+          - Nowhere left to run or hide
         - ol:
           - だから と 言って
           - 真っ白
@@ -207,6 +228,8 @@
           - d: だからと言って真っ白で
           gg:
           - But even so, humanity
+          en:
+          - Still, no one’s human enough
         - ol:
           - いれる
           - ほど
@@ -237,6 +260,8 @@
           - d: いれるほど人類できてないや嫌嫌
           gg:
           - isn't made to be that pure, no no!
+          en:
+          - To stay pure white, no way, no how
       - lines:
         - ol:
           - 嗚呼
@@ -259,6 +284,8 @@
           - d: 嗚呼 じれったい真実
           gg:
           - Ah, this frustrating truth!
+          en:
+          - Ah, this frustrating truth
         - ol:
           - ブチ壊しちゃえ
           - 既成概念
@@ -273,6 +300,8 @@
           - d: ブチ壊しちゃえ既成概念
           gg:
           - Destroy the established concepts!
+          en:
+          - Smash the chains of what’s “normal”
         - ol:
           - 嗚呼
           - ' '
@@ -290,6 +319,8 @@
           - d: 嗚呼 ウザったい
           gg:
           - Ah, how annoying!
+          en:
+          - Ah, what a pain
         - ol:
           - モラル
           - も
@@ -320,6 +351,8 @@
           - d: モラルもヘッタクレもないわ
           gg:
           - Morals are utterly useless!
+          en:
+          - Morals? Please, as if they matter
         - ol:
           - 聖人
           - も
@@ -358,6 +391,8 @@
           - d: 聖人も極悪人もアタシもアンタも
           gg:
           - Saints, villains, me, you -
+          en:
+          - Saints, sinners, me and you
         - ol:
           - 本能
           - に
@@ -376,6 +411,8 @@
           - d: 本能に抗えない
           gg:
           - Cannot resist instinct.
+          en:
+          - We all obey our instincts
         - ol:
           - 所詮
           - 、
@@ -401,6 +438,8 @@
           - d: 所詮、動物ですワン
           gg:
           - After all, we are animals, woof!
+          en:
+          - In the end, we're just animals—woof
       - lines:
         - ol:
           - ブレブレ
@@ -443,6 +482,8 @@
           - d: ブレブレの焦点脳天 狙い定め置きエイム
           gg:
           - Wobbly brain focus. Fix your aim, set your aim.
+          en:
+          - Fuzzy focus, shaky aim Still sniping like it’s second nature
         - ol:
           - ほら
           - バレる
@@ -480,6 +521,8 @@
           - d: ほらバレるぞ虚言妄言 飼いならせ承認欲求
           gg:
           - Look, your lies and nonsense will be exposed! Tame your need for approval!
+          en:
+          - Lies and delusions, caught red-handed Tamed by the need to be seen
       - lines:
         - ol:
           - 明日
@@ -514,6 +557,8 @@
           - d: 明日は我が身だ スベカラク皆
           gg:
           - Tomorrow it could be me, absolutely everyone.
+          en:
+          - Tomorrow, it could be you
         - ol:
           - 黒歴史
           - は
@@ -544,6 +589,8 @@
           - d: 黒歴史は背負うべき業です
           gg:
           - Dark history is a karma that should be carried.
+          en:
+          - We all carry skeletons we can't erase
         - ol:
           - 自分
           - 自身
@@ -574,6 +621,8 @@
           - d: 自分自身を守る為なら
           gg:
           - For the sake of protecting oneself,
+          en:
+          - To protect ourselves, we'd even
         - ol:
           - 怖や
           - 怖や
@@ -612,6 +661,8 @@
           - d: 怖や怖や人は愛にでも唾を吐く
           gg:
           - how dreadful, how dreadful people will even spit on love.
+          en:
+          - Spit on love, how terrifying
       - lines:
         - ol:
           - 嗚呼
@@ -634,6 +685,8 @@
           - d: 嗚呼 生温い理想論
           gg:
           - Ah, lukewarm idealism.
+          en:
+          - Ah, lukewarm ideals
         - ol:
           - 燃やして
           - 得る
@@ -652,6 +705,8 @@
           - d: 燃やして得る炎上商法
           gg:
           - Burning it up and getting rage-baiting
+          en:
+          - Burn ‘em up—ride the flame for clout
         - ol:
           - 嗚呼
           - ' '
@@ -697,6 +752,8 @@
           - d: 嗚呼 地獄の沙汰も金次第ですわ
           gg:
           - Ah, even the judgment of hell depends on money.
+          en:
+          - Ah, even judgment in hell has a price tag
         - ol:
           - 夢
           - 、
@@ -743,6 +800,8 @@
           - d: 信じてたあの頃に
           gg:
           - To those times when I believed,
+          en:
+          - Back when I believed in dreams and hope
         - ol:
           - 戻りたい
           - 戻れない
@@ -772,6 +831,8 @@
           - d: 戻りたい戻れない もう泥まみれなの
           gg:
           - I want to return but I can't anymore, I'm already covered in mud.
+          en:
+          - I wish I could go back, but I'm too far gone Covered in filth
       - lines:
         - ol:
           - 嗚呼
@@ -798,6 +859,8 @@
           - d: 嗚呼 美しいものほど
           gg:
           - Ah, the more beautiful things are,
+          en:
+          - Ah, the more beautiful it is
         - ol:
           - 醜く
           - 見える
@@ -820,6 +883,8 @@
           - d: 醜く見える現状です
           gg:
           - the more ugly they appear to be in reality.
+          en:
+          - The uglier it looks in this world
         - ol:
           - 嗚呼
           - ' '
@@ -861,6 +926,8 @@
           - d: 嗚呼 オトナになるって愉快なものね
           gg:
           - Ah, becoming an adult is a pleasant thing, isn't it?
+          en:
+          - Ah, growing up’s a real trip, huh? What a joke
       - lines:
         - ol:
           - 嗚呼
@@ -883,6 +950,8 @@
           - d: 嗚呼 じれったい真実
           gg:
           - Ah, this frustrating truth!
+          en:
+          - Ah, this frustrating truth
         - ol:
           - ブチ壊しちゃえ
           - 既成概念
@@ -892,11 +961,13 @@
           ww:
           - w: destroy!
             d: ブチ壊しちゃえ
-          - w: preconceived notion​
+          - w: preconceived notion
             d: 既成概念
           - d: ブチ壊しちゃえ既成概念
           gg:
           - Destroy the established concepts!
+          en:
+          - Smash the chains of what's “normal”
         - ol:
           - 嗚呼
           - ' '
@@ -914,6 +985,8 @@
           - d: 嗚呼 ウザったい
           gg:
           - Ah, how annoying!
+          en:
+          - Ah, what a pain
         - ol:
           - モラル
           - も
@@ -944,6 +1017,8 @@
           - d: モラルもヘッタクレもないわ
           gg:
           - Morals are utterly useless!
+          en:
+          - Morals? Please, as if they matter
         - ol:
           - 聖人
           - も
@@ -982,6 +1057,8 @@
           - d: 聖人も極悪人もアタシもアンタも
           gg:
           - Saints, villains, me, you -
+          en:
+          - Saints, sinners, me and you
         - ol:
           - 本能
           - に
@@ -1000,6 +1077,8 @@
           - d: 本能に抗えない
           gg:
           - Cannot resist instinct.
+          en:
+          - We all obey our instincts
         - ol:
           - 所詮
           - 、
@@ -1025,6 +1104,8 @@
           - d: 所詮、動物ですワン
           gg:
           - After all, we are animals, woof!
+          en:
+          - In the end, we're just animals—woof
     linked-to:
     - youtubeshort: QJzDlj_jpfE
     - youtubeshort: lPiXxWGgobU

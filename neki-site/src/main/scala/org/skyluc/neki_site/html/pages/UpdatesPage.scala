@@ -20,12 +20,53 @@ class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(de
   import UpdatesPage.*
 
   override def elementContent(): Seq[BodyElement[?]] = {
-
-    val image1Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250520.png")
-    val image2Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250606.png")
-    val image3Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250620.png")
-    val image4Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250715.png")
     Seq(
+      SectionHeader.generate("Update 2025-07-28"),
+      div()
+        .withClass(CLASS_UPDATES_SECTION)
+        .appendElements(
+          div()
+            .withClass(CLASS_UPDATE_IMAGE)
+            .appendElements(
+              LargeImageCover.generate(
+                GenImageCompiledData(Url(image5Path), "update 2025-07-15")
+              )
+            ),
+          div()
+            .withClass(CLASS_UPDATE_CONTENT)
+            .appendElements(
+              p().appendElements(
+                text("New song \""),
+                a().withHref("/song/ripoff.html").appendElements(text("rip-off")),
+                text(
+                  "\" to be released next week, on the 6th."
+                ),
+              ),
+              p().appendElements(
+                text("English translation for "),
+                a().withHref("/song/fool.html").appendElements(text("Fool")),
+                text(
+                  ", from the Live Official Video."
+                ),
+              ),
+              p().appendElements(
+                text("They performed at "),
+                a()
+                  .withHref("/show/2025/internetbabies.html")
+                  .appendElements(text("「INTERNET BaBIES -Face to Faith-」")),
+                text(" last Sunday. Some photos and videos from the show are already available."),
+              ),
+              p().appendElements(
+                text("Getting ready for the "),
+                a()
+                  .withHref("/show/2025/1stzepponeman.html")
+                  .appendElements(text("1ST ZEPP ONE MAN")),
+                text(
+                  ". This week is Cocoro's week. The first video is available."
+                ),
+              ),
+            ),
+        ),
       SectionHeader.generate("Update 2025-07-15"),
       div()
         .withClass(CLASS_UPDATES_SECTION)
@@ -216,7 +257,11 @@ object UpdatesPage {
   val CLASS_UPDATE_CONTENT = "update-content"
 
   // TODO: get the image from yml data
-  val imagePath = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250715.png")
+  val image1Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250520.png")
+  val image2Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250606.png")
+  val image3Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250620.png")
+  val image4Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250715.png")
+  val image5Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250728.png")
 
   def pages(site: dSite): Seq[SitePage] = {
     val mainPage = UpdatesPage(
@@ -237,7 +282,7 @@ object UpdatesPage {
           None,
           None,
         ),
-        SitePage.absoluteUrl(Url(imagePath)),
+        SitePage.absoluteUrl(Url(image5Path)),
         SitePage.canonicalUrlFor(PAGE_PATH),
         PAGE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

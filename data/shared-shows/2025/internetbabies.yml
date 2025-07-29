@@ -1,0 +1,315 @@
+- show:
+    year: 2025
+    id: internetbabies
+    fullname: 「INTERNET BaBIES -Face to Faith-」
+    date: 2025-07-27
+    location: Daikanyama UNIT, Tokyo
+    event-page: 'https://t.co/BpGhUev7VT'
+    cover-image:
+      postximage:
+        post: 1949060926738694295
+        image: Gwx0lJwb0AAO54g
+    multimedia:
+      main:
+        postximage:
+          post: 1949480491713003736
+          image: Gw3yKXybgAAvkF2
+      short:
+      - postxvideo:
+          post: 1949753645215412472
+          video: 01
+      - postxvideo:
+          post: 1949470948861894839
+          video: 01
+      - youtubeshort: Dy5UNGKd1ZA
+      image:
+      - postximage:
+          post: 1949480491713003736
+          image: Gw3yKXybsAAmjfa
+      - postximage:
+          post: 1949480491713003736
+          image: Gw3yKX3a0AA5OUn
+      - postximage:
+          post: 1949480491713003736
+          image: Gw3yKXybgAAvkF2
+      - postximage:
+          post: 1949482178628432379
+          image: Gw3zn6TaUAEpk50
+      - postximage:
+          post: 1949488433849933878
+          image: Gw35W4kagAApR75
+    linked-to:
+    - postx: 1933117154494427587
+
+- postx:
+    id: 1933117154494427587
+    account: nekiband_jp
+    published-date: 2025-06-12
+    label: announcement
+    text: |
+      ❤️‍🔥情報解禁❤️‍🔥
+      
+      7/27(日)開催
+      「NTERNET BaBIES -Face to Faith-」
+      ＠ 代官山UNIT
+      
+      浜野はるきさん(
+      @paruparu_86
+      )のライブに出演させていただきます🔥
+      
+      チケット2次先行は明後日6/14(土)12:00より受付開始！
+      
+      🔗https://l-tike.com/hamanoharuki/
+      
+      #NEKI
+      
+    image:
+    - GtPQrgBasAA4sFp
+    linked-to:
+    - postximage:
+        post: 1933117154494427587
+        image: GtPQrgBasAA4sFp
+    - show:
+        year: 2025
+        id: internetbabies
+
+- postximage:
+    post: 1933117154494427587
+    id: GtPQrgBasAA4sFp
+    label: poster
+    published-date: 2025-06-12
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    linked-to:
+    - show:
+        year: 2025
+        id: internetbabies
+    - postx: 1933117154494427587
+
+- youtubeshort:
+    id: Dy5UNGKd1ZA
+    label: Entry
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: maze
+
+- postx:
+    id: 1949060926738694295
+    account: nekiband_jp
+    label: Tommorrow night
+    published-date: 2025-07-26
+    text: |
+      ❤️‍🔥明日出演❤️‍🔥
+
+      7/27(日)開催
+      「NTERNET BaBIES -Face to Faith-」
+      ＠ 代官山UNIT
+
+      あす出演させていただきます🫶
+      ぜひお越しください！
+
+      チケット一般発売は本日23:59まで🎟️
+
+      🔗https://eplus.jp/hamanoharuki/
+
+      #NEKI
+    image:
+    - Gwx0lJwb0AAO54g
+
+- postximage:
+    post: 1949060926738694295
+    id: Gwx0lJwb0AAO54g
+    label: Poster
+    published-date: 2025-07-26
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+
+- postx:
+    id: 1949470948861894839
+    account: cure_bass_baka
+    label: Live reigen girl
+    published-date: 2025-07-27
+    text: |
+      『令現少女／NEK!』
+      サビのハモリがいつもより聞こえやすいのでアップしてみる。
+      #NEKI  #拡散中  #ネキ界隈
+    video:
+    - 01
+
+- postxvideo:
+    post: 1949470948861894839
+    id: 01
+    cover: 1949470634863697920/img/NSabqhCEsal9xue_.jpg
+    label: Live
+    info: Kanade
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: reigengirl
+
+- postx:
+    id: 1949480491713003736
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-07-27
+    text: |
+      INTERNET BaBIES -Face to Faith-
+      ＠ 代官山UNIT
+
+      ありがとうございました🫶🫶
+
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+
+      チケット一般発売中！
+      https://l-tike.com/nekiband/
+
+      #NEKI
+    image:
+    - Gw3yKXybsAAmjfa
+    - Gw3yKX3a0AA5OUn
+    - Gw3yKXybgAAvkF2
+
+- postximage:
+    post: 1949480491713003736
+    id: Gw3yKXybsAAmjfa
+    label: The bands
+    info: NEK!, Hamano Haruki, Wisteria
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+
+- postximage:
+    post: 1949480491713003736
+    id: Gw3yKX3a0AA5OUn
+    label: Backstage
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+
+- postximage:
+    post: 1949480491713003736
+    id: Gw3yKXybgAAvkF2
+    label: On stage
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+
+- postx:
+    id: 1949482178628432379
+    account: coco_102
+    label: Thank you
+    published-date: 2025-07-27
+    info: one selfie classified as perso
+    text: |
+      💜🩷INTERNET BaBIES -Face to Faith-🩷💜
+
+      お越しくださった皆さまありがとうございました！
+      最高の異文化交流となり、新鮮な気持ちで叩かせていただいてあっという間の40分でした！
+      代官山UNITにも初めて立てて嬉しかったです✌🏻
+
+      浜野はるきさんお誘いいただき本当にありがとうございました！🫶🏻
+    image:
+    - Gw3zn6TaUAEpk50
+    linked-to:
+    - postximage:
+        post: 1949480491713003736
+        image: Gw3yKXybsAAmjfa
+    - postximage:
+        post: 1949480491713003736
+        image: Gw3yKX3a0AA5OUn
+
+- postximage:
+    post: 1949482178628432379
+    id: Gw3zn6TaUAEpk50
+    label: The drums
+    info: Cocoro
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+
+- postx:
+    id: 1949488433849933878
+    account: 46_hikaa
+    label: Thank you
+    info: one selfie classified as perso
+    published-date: 2025-07-27
+    text: |
+      INTERNET BaBIES -Face to Faith-
+
+      本日は見に来てくださった皆さん!!
+      そして浜野はるきさん呼んで頂き
+      ありがとうございました🫶🏻 ̖́
+
+      今日はすっごいセトリぶっ飛んだｧ!🌎🚀
+      スリーマン熱々のライブで最高に楽しかったです!!
+
+      次回‼️8/30Zepp Shinjuku‼️
+      待ってます！
+    image:
+    - Gw35W4kagAApR75
+
+- postximage:
+    post: 1949488433849933878
+    id: Gw35W4kagAApR75
+    label: Pedal board
+    info: Hika
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+
+- postx:
+    id: 1949753645215412472
+    account: coco_102
+    label: Live ENDLESSGAME
+    published-date: 2025-07-28
+    text: |
+      ENDLESSGAMEのラスサビの疾走感は癖になる👾💨
+
+      最後のいたずらなエンドレスゲーム！！のあとのひかっちのフェイクも爽快で好き🫰🏻
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+
+- postxvideo:
+    post: 1949753645215412472
+    id: 01
+    cover: 1949753103731036160/img/AckuXyAjOwD0lhA1.jpg
+    label: Live
+    info: Cocoro
+    published-date: 2025-07-28
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: endlessgame
+
+
+
+
+
+
+

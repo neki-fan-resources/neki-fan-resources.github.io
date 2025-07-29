@@ -23,6 +23,7 @@ contentpage:
   - show:
       year: 2025
       id: 1stzepponeman
+  - song: ripoff
 # aug
   - show:
       year: 2025
@@ -256,6 +257,8 @@ contentpage:
 
 
   metadata:
+  - song: ripoff
+    left: false
   - show:
       year: 2025
       id: thetheoryofscience

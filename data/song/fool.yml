@@ -26,8 +26,8 @@
       - youtubeshort: QJzDlj_jpfE
     lyrics:
       status:
-        code: warning
-        description: Data copied from the sources. Checked against the studio version. Mostly LLM translation.
+        code: ok
+        description: Data copied from the sources. Checked against the studio version.
       languages:
       - id: ol
         name: original lyrics

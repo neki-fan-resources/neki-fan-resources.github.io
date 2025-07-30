@@ -7,7 +7,7 @@ case class Config(
 
 object Config {
   private val localConfig = Config(true, "http://nebula:4001/")
-  private val prodConfig = Config(false, "https://neki-fan-resources.github.io/")
+  private val prodConfig = Config(false, "https://neki.fan-resources.net/")
 
   var cached: Config = null
 

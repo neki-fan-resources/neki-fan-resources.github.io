@@ -59,7 +59,7 @@ class AboutPage(description: PageDescription, site: dSite) extends SitePage(desc
         p().appendElements(
           text("Notification about content updates, and other general updates, are done at "),
           SocialMediaCard
-            .generate("neki-fan-resources.github.io", "https://bsky.app/profile/", "bluesky", "bluesky.svg", true),
+            .generate("neki.fan-resources.net", "https://bsky.app/profile/", "bluesky", "bluesky.svg", true),
           text("."),
         )
       )
@@ -133,7 +133,7 @@ class AboutPage(description: PageDescription, site: dSite) extends SitePage(desc
           p().appendElements(
             text("For any questions, suggestions, requests, please use "),
             SocialMediaCard
-              .generate("neki-fan-resources.github.io", "https://bsky.app/profile/", "bluesky", "bluesky.svg", true),
+              .generate("neki.fan-resources.net", "https://bsky.app/profile/", "bluesky", "bluesky.svg", true),
             text(" or "),
             SocialMediaCard.generate(
               "neki-fan-resources.github.io/issues",

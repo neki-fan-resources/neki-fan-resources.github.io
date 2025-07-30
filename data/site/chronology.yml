@@ -18,6 +18,9 @@ contentpage:
   - show:
       year: 2025
       id: minamiwheel
+  - show:
+      year: 2025
+      id: recommendjunction
 # oct
 # sep
   - show:
@@ -266,6 +269,10 @@ contentpage:
   - show:
       year: 2025
       id: minamiwheel
+    short: true
+  - show:
+      year: 2025
+      id: recommendjunction
     short: true
   - show:
       year: 2025

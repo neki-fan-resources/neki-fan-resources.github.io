@@ -30,5 +30,33 @@
     linked-to:
     - song: dreams
 
+- postx:
+    id: 1950563193366954288
+    account: 46_hikaa
+    label: Rehearsal dreams
+    published-date: 2025-07-30
+    text: |
+      リハ映像👀🫶🏻 ̖́-
+
+      #ネキ界隈   #NEKI
+    video:
+    - 01
+
+- postxvideo:
+    post: 1950563193366954288
+    id: 01
+    cover: 1950563128963670016/img/DakJQTC9LcIAMDdT.jpg
+    label: Rehearsal
+    published-date: 2025-07-30
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    linked-to:
+    - song: dreams
+    - show:
+        year: 2025
+        id: 1stzepponeman
 
 

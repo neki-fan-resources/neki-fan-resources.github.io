@@ -17,6 +17,8 @@
       - mainshowtour
     multimedia:
       addtional:
+      - youtubeshort: xkn_J3iNANI
+      - youtubeshort: Nn2dWG_ZX4w
       - youtubeshort: He1zOmOk7b0
       - youtubeshort: 0hC9M6VeCJk
     linked-to:
@@ -110,9 +112,29 @@
 
 - youtubeshort:
     id: He1zOmOk7b0
-    label: About shows
-    info: Cocoro
+    label: Cocoro's week
+    info: About the evolution since the first show
     published-date: 2025-07-28
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: Nn2dWG_ZX4w
+    label: Cocoro's week
+    info: About the other members
+    published-date: 2025-07-29
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: xkn_J3iNANI
+    label: Cocoro's week
+    info: About NEK! 1ST ZEPP ONE MANE
+    published-date: 2025-07-30
     context:
     - show:
         year: 2025

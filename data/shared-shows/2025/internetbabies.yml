@@ -16,6 +16,9 @@
           image: Gw3yKXybgAAvkF2
       short:
       - postxvideo:
+          post: 1950564658236068172
+          video: 01
+      - postxvideo:
           post: 1949753645215412472
           video: 01
       - postxvideo:
@@ -306,6 +309,32 @@
         year: 2025
         id: internetbabies
     - song: endlessgame
+
+- postx:
+    id: 1950564658236068172
+    account: natsu08_guitar
+    label: Live
+    info: TODO - which song ?
+    published-date: 2025-07-30
+    text: |
+      この毎分毎秒、みんな歌ってくれててすげーーってなった!
+      ありがとう🫶🏻
+
+      #ネキ界隈 #拡散中
+    video:
+    - 01 
+
+- postxvideo:
+    post: 1950564658236068172
+    id: 01
+    cover: 1950564593027497986/img/js-nk9K5ROYHMahg.jpg
+    label: Live
+    info: Natsu
+    published-date:  2025-07-30
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
 
 
 

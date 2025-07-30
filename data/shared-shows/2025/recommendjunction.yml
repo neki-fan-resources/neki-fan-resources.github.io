@@ -1,0 +1,52 @@
+- show:
+    year: 2025
+    id: recommendjunction
+    fullname: RECOMMEND JUNCTION 「リコメンズジャンクション」
+    date: 2025-11-06
+    location: EXシアター六本木 (EX THEATER ROPPONGI), Tokyo
+    event-page: https://eplus.jp/recomen1106/
+    cover-image:
+      postximage:
+        post: 1950466437447111122
+        image: GxFvicdbMAAH0SF
+
+
+- postx:
+    id: 1950466437447111122
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-07-30
+    text: |
+      🖤🔥情報解禁🔥🖤
+
+      11/6(木)開催
+      「リコメンズジャンクション」
+      ＠ EXシアター六本木
+
+      NEK!の出演が決定‼️‼️
+
+      < ACT >
+      デラックス×デラックス
+      ロイヤルギャル 
+      NEK!
+      and more
+
+      🎫イベント最速先行(抽選)：
+      明日7/31(木)12:00-8/11(月祝)
+
+      🔗https://eplus.jp/recomen1106/
+
+      #NEKI
+    image:
+    - GxFvicdbMAAH0SF
+
+- postximage:
+    post: 1950466437447111122
+    id: GxFvicdbMAAH0SF
+    label: Poster
+    published-date: 2025-07-30
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction

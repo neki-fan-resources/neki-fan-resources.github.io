@@ -134,7 +134,7 @@ class AboutPage(description: PageDescription, site: dSite) extends SitePage(desc
             text("For any questions, suggestions, requests, please use "),
             SocialMediaCard
               .generate("neki-fan-resources.github.io", "https://bsky.app/profile/", "bluesky", "bluesky.svg", true),
-            text(" or the "),
+            text(" or "),
             SocialMediaCard.generate(
               "neki-fan-resources.github.io/issues",
               "https://github.com/neki-fan-resources/",

@@ -61,7 +61,7 @@ object SiteDecoder extends YamlObjectDecoder[d.Site, SiteBuilder, FrDecoders] {
 
   override def attributes(using
       context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[?, d.Site, SiteBuilder, FrDecoders]] =
+  ): Seq[YamlObjectAttributeProcessor[d.Site, SiteBuilder, FrDecoders]] =
     Seq(
       YamlObjectAttribute(
         NAVIGATION,
@@ -124,7 +124,7 @@ object BandNewsDecoder extends YamlObjectDecoder[d.BandNews, BandNewsBuilder, Fr
 
   override def attributes(using
       context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[?, d.BandNews, BandNewsBuilder, FrDecoders]] =
+  ): Seq[YamlObjectAttributeProcessor[d.BandNews, BandNewsBuilder, FrDecoders]] =
     Seq(
       YamlObjectAttribute(
         TITLE,
@@ -176,7 +176,7 @@ object BandDecoder extends YamlObjectDecoder[d.Band, BandBuilder, FrDecoders] {
 
   override def attributes(using
       context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[?, d.Band, BandBuilder, FrDecoders]] =
+  ): Seq[YamlObjectAttributeProcessor[d.Band, BandBuilder, FrDecoders]] =
     Seq(
       YamlObjectAttribute(
         SOCIAL_MEDIA,
@@ -240,7 +240,7 @@ object MembersDecoder extends YamlObjectDecoder[d.Members, MembersBuilder, FrDec
 
   override def attributes(using
       context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[?, d.Members, MembersBuilder, FrDecoders]] =
+  ): Seq[YamlObjectAttributeProcessor[d.Members, MembersBuilder, FrDecoders]] =
     Seq(
       YamlObjectAttribute(
         COCORO,
@@ -304,7 +304,7 @@ object MemberDecoder extends YamlObjectDecoder[d.Member, MemberBuilder, FrDecode
 
   override def attributes(using
       context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[?, d.Member, MemberBuilder, FrDecoders]] =
+  ): Seq[YamlObjectAttributeProcessor[d.Member, MemberBuilder, FrDecoders]] =
     Seq(
       YamlObjectAttribute(
         ID,
@@ -361,7 +361,7 @@ object SocialMediaDecoder extends YamlObjectDecoder[d.SocialMedia, SocialMediaBu
 
   override def attributes(using
       context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[?, d.SocialMedia, SocialMediaBuilder, FrDecoders]] =
+  ): Seq[YamlObjectAttributeProcessor[d.SocialMedia, SocialMediaBuilder, FrDecoders]] =
     Seq(
       YamlObjectAttribute(
         INSTAGRAM,
@@ -419,7 +419,7 @@ object NavigationDecoder extends YamlObjectDecoder[d.Navigation, NavigationBuild
 
   override def attributes(using
       context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[?, d.Navigation, NavigationBuilder, FrDecoders]] =
+  ): Seq[YamlObjectAttributeProcessor[d.Navigation, NavigationBuilder, FrDecoders]] =
     Seq(
       YamlObjectAttribute(
         MAIN,
@@ -470,7 +470,7 @@ object NavigationItemDecoder extends YamlObjectDecoder[d.NavigationItem, Navigat
 
   override def attributes(using
       context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[?, d.NavigationItem, NavigationItemBuilder, FrDecoders]] =
+  ): Seq[YamlObjectAttributeProcessor[d.NavigationItem, NavigationItemBuilder, FrDecoders]] =
     Seq(
       YamlObjectAttribute(
         NAME,

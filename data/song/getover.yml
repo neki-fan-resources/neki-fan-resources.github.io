@@ -26,6 +26,9 @@
       - youtubevideo: 7Neu9jJk-04
       live:
       - postxvideo:
+          post: 1950849248574263303
+          video: 01
+      - postxvideo:
           post: 1941062054896660964
           video: 01
       - postxvideo:
@@ -41,6 +44,7 @@
       - youtubeshort: EzpPj7pVf6Y
       - youtubeshort: qFiKgQ5mNgQ
       short:
+      - youtubeshort: ucrOIJfESpo
       - youtubeshort: NMkyE7_4wBQ
       - youtubeshort: BCMkj_OhBmo
       - youtubeshort: 1VU7-KQyOvg
@@ -710,4 +714,12 @@
     - song: getover
     linked-to:
     - postyoutube: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+
+- youtubeshort:
+    id: ucrOIJfESpo
+    label: Rehearsal
+    info: Cocoro, kick cam
+    published-date: 2025-07-31
+    context:
+    - song: getover
 

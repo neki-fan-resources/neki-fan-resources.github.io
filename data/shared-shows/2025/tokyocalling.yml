@@ -1,0 +1,44 @@
+- show:
+    year: 2025
+    id: tokyocalling
+    fullname: TOKYO CALLING 2025 -10th Anniversary-
+    shortname: TOKYO CALLING 2025
+    date: 2025-09-27
+    location: Metamorphoseコラボステージ, Tokyo
+    event-page: https://tokyo-calling.jp/
+    cover-image:
+      postximage:
+        post: 1950876603812376989
+        image: GxLn6-VaYAAS-O0
+
+- postx:
+    id: 1950876603812376989
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-07-31
+    text: |
+      9/27(土)開催
+      「TOKYO CALLING 2025」
+
+      出演決定❤️‍🔥
+
+      NEK!はMetamorphoseコラボステージに出演させていただきます！
+
+      チケットのオフィシャル ローーング先行(先着)受付は8/11(月)23:59まで🎟️
+
+      🔗https://w.pia.jp/t/tokyo-calling-2025/
+
+      #NEKI #トーキョーコーリング #TOKYOCALLING
+    image:
+    - GxLn6-VaYAAS-O0
+
+- postximage:
+    post: 1950876603812376989
+    id: GxLn6-VaYAAS-O0
+    label: Lineup
+    published-date: 2025-07-31
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling

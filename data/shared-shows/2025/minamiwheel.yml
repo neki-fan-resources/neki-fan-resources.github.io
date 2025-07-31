@@ -2,7 +2,7 @@
     year: 2025
     id: minamiwheel
     fullname: FM802 MINAMI WHEEL 2025
-    date: 2025-10-11
+    date: 2025-10-12
     location: Minami, Osaka
     event-page: 'https://minamiwheel.jp/'
     cover-image:
@@ -112,3 +112,37 @@
         id: minamiwheel
     - postx: 1943145229357584494
 
+- postx:
+    id: 1950844299064799526
+    account: nekiband_jp
+    label: day announcement
+    published-date: 2025-07-31
+    text: |
+      📅出演日発表📅
+
+      「#FM802 MINAMI WHEEL 2025」
+
+      NEK!の出演は10/13(月祝)に決定🔥
+
+      出演会場は後日発表となります！
+
+      チケット先行はこちら🎫
+      ▶︎https://w.pia.jp/t/mw-052
+
+      #NEKI #ミナホ
+    image:
+    - GxLKemBagAAsW-L
+
+- postximage:
+    post: 1950844299064799526
+    id: GxLKemBagAAsW-L
+    label: Days schedule
+    published-date: 2025-07-31
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    linked-to:
+    - show:
+        year: 2025
+        id: minamiwheel

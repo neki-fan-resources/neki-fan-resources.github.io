@@ -16,6 +16,9 @@
           image: Gw3yKXybgAAvkF2
       short:
       - postxvideo:
+          post: 1950849248574263303
+          video: 01
+      - postxvideo:
           post: 1950564658236068172
           video: 01
       - postxvideo:
@@ -336,8 +339,29 @@
         year: 2025
         id: internetbabies
 
+- postx:
+    id: 1950849248574263303
+    account: cure_bass_baka
+    label: Get Over Live
+    published-date: 2025-07-31
+    text: |
+      『Get Over／NEK!』ラスサビ
+      #NEKI  #拡散中  #ネキ界隈
+    video:
+    - 01
 
-
+- postxvideo:
+    post: 1950849248574263303
+    id: 01
+    cover: 1950848800610017280/img/PzFmOa1SDrjdAn15.jpg
+    label: Live
+    info: Kanade
+    published-date: 2025-07-31
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: getover
 
 
 

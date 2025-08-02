@@ -14,6 +14,11 @@
         post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
         image: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
       fromOtherElement: true
+    multimedia:
+      live:
+      - postxvideo:
+          post: 1951215513217994873
+          video: 01
     lyrics:
       status:
         code: warning

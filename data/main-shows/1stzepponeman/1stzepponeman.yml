@@ -16,10 +16,12 @@
     categories:
       - mainshowtour
     multimedia:
-      additional:
+      short:
       - youtubeshort: xkn_J3iNANI
       - youtubeshort: Nn2dWG_ZX4w
       - youtubeshort: He1zOmOk7b0
+      additional:
+      - youtubeshort: QTeKbH9GgqE
       - youtubeshort: 0hC9M6VeCJk
     linked-to:
     - localimage:

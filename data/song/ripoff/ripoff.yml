@@ -21,120 +21,1287 @@ song:
       source:
         description: from LyricFind
         url: 'https://lyrics.lyricfind.com/lyrics/nek-rip-off'
+    - id: ro
+      name: rōmaji
+      active: true
+      no-translation: true
+    - id: ww
+      name: word by word translation
+      details: (using jisho.org)
+      active: true
+      base-url: 'https://jisho.org/search/'
+      url-text: J
     sections:
     - lines:
       - ol:
-        - あ、かわいくないと0点です
+        - あ
+        - '、'
+        - かわいく ない
+        - と
+        - 0点
+        - です
+        ro:
+        - a
+        - ','
+        - kawaiku nai
+        - to
+        - zero-ten
+        - desu
+        ww:
+        - w: Ah
+          d: あ
+        - ''
+        - w: not cute
+          d: かわいくない
+        - w: and
+          d: と
+        - w: zero score
+          d: 0点
+        - w: is
+          d: です
+        - d: あ、かわいくないと0点です
       - ol:
-        - こんな世界ブスすぎる
+        - こんな
+        - 世界
+        - ブス
+        - すぎる
+        ro:
+        - konna
+        - sekai
+        - busu
+        - sugiru
+        ww:
+        - w: this kind
+          d: こんな
+        - w: world
+          d: 世界
+        - w: ugly
+          d: ブス 
+        - w: too much
+          d: すぎる
+        - d: こんな世界ブスすぎる
       - ol:
-        - それでも終わらせるのは NGみたいなんです
+        - それでも
+        - 終わらせる
+        - の
+        - は
+        - ' '
+        - NG
+        - みたいなんです
+        ro:
+        - soredemo
+        - owaraseru
+        - no
+        - wa
+        - ''
+        - ''
+        - mitai nan desu
+        ww:
+        - w: and yet
+          d: それでも
+        - w: to end
+          d: 終わらせる
+        - w: ''
+          d: の
+        - w: ''
+          d: は
+        - ' '
+        - w: not good
+          d: NG
+        - w: it seems like
+          d: みたいなんです
+        - d: それでも終わらせるのは NGみたいなんです
     - lines:
       - ol:
-        - できるだけ透明になって
+        - できるだけ
+        - 透明
+        - に
+        - なって
+        ro:
+        - dekiru dake
+        - toumei
+        - ni
+        - natte
+        ww:
+        - w: as much as possible
+          d: できるだけ
+        - w: invisible
+          d: 透明
+        - w: to
+          d: に
+        - w: becoming
+          d: なって
+        - d: できるだけ透明になって
       - ol:
-        - でも見つけられないのは嫌だ
+        - でも
+        - 見つけられない
+        - の
+        - は
+        - 嫌だ
+        ro:
+        - demo
+        - mitsukerarenai
+        - no
+        - wa
+        - iya da
+        ww:
+        - w: still
+          d: でも
+        - w: cannot be found
+          d: 見つけられない
+        - w: ''
+          d: の
+        - w: ''
+          d: は
+        - w: I hate it
+          d: 嫌だ
+        - d: でも見つけられないのは嫌だ
       - ol:
-        - 「どんな君でも」なんてよく聞くけれど
+        - 「どんな君でも」
+        - なんて
+        - よく
+        - 聞く
+        - けれど
+        ro:
+        - "'donna kimi demo'"
+        ww:
+        - w: "'any version of you'"
+          d: 「どんな君でも」
+        - w: (dismissive)
+          d: なんて
+        - w: often
+          d: よく
+        - w: hear
+          d: 聞く
+        - w: however
+          d: けれど
+        - d: 「どんな君でも」なんてよく聞くけれど
       - ol:
-        - …あれ、聞いたことないわ
+        - …
+        - あれ
+        - 聞いたことない
+        - わ
+        ro:
+        - ''
+        - are
+        - kiita koto nai
+        - wa
+        ww:
+        - ''
+        - w: Huh?
+          d: are
+        - w: never heard that
+          d: kiita koto nai
+        - w: (emphasis)
+          d: wa
+        - d: …あれ、聞いたことないわ
     - lines:
       - ol:
-        - あの子の真似して髪切って
+        - あの子
+        - の
+        - 真似して
+        - 髪
+        - 切って
+        ro:
+        - ano ko
+        - no
+        - mane shite
+        - kami
+        - kitte
+        ww:
+        - w: that girl
+          d: あの子
+        - w: "'s"
+          d: の
+        - w: copying
+          d: 真似して
+        - w: hair
+          d: 髪
+        - w: cut
+          d: 切って
+        - d: あの子の真似して髪切って
       - ol:
-        - あの子と同じリップ塗って
+        - あの子
+        - と
+        - 同じ
+        - リップ
+        - 塗って
+        ro:
+        - ano ko
+        - to
+        - onaji
+        - rippu
+        - nutte
+        ww:
+        - w: that girl
+          d: あの子
+        - w: also
+          d: と
+        - w: same
+          d: 同じ
+        - w: lip(stick)
+          d: リップ
+        - w: putting
+          d: 塗って
+        - d: あの子と同じリップ塗って
       - ol:
-        - なりたい自分なんてもんは お前らが捨てた
+        - なりたい自分
+        - なんて
+        - もん
+        - は
+        - " "
+        - お前ら
+        - が
+        - 捨てた
+        ro:
+        - naritai jibun
+        - nante
+        - mon
+        - wa
+        - ''
+        - omaera
+        - ga
+        - suteta
+        ww:
+        - w: the one I want to be
+          d: なりたい自分
+        - w: that
+          d: なんて
+        - w: thing
+          d: もん
+        - w: ''
+          d: は
+        - " "
+        - w: all of you
+          d: お前ら
+        - w: ''
+          d: が
+        - w: threw away
+          d: 捨てた
+        - d: なりたい自分なんてもんは お前らが捨てた
       - ol:
-        - みんな好きな"あの子"は今日も
+        - みんな
+        - 好きな
+        - '"あの子"'
+        - は
+        - 今日
+        - も
+        ro:
+        - minna
+        - suki na
+        - '"ano ko"'
+        - wa
+        - kyou
+        - mo
+        ww:
+        - w: everybody
+          d: みんな
+        - w: favourite
+          d: 好きな
+        - w: '"that girl"'
+          d: あの子
+        - w: ''
+          d: は
+        - w: today
+          d: 今日
+        - w: too
+          d: も
+        - d: みんな好きな%22あの子%22は今日も
       - ol:
-        - 同担拒否ミュート祭り
+        - 同担
+        - 拒否
+        - ミュート
+        - 祭り
+        ro:
+        - doutan
+        - kyohi
+        - myuuto
+        - matsuri
+        ww:
+        - w: same-fandom
+          d: 同担
+        - w: rejection
+          d: 拒否
+        - w: mutting
+          d: ミュート
+        - w: festival
+          d: 祭り
+        - d: 同担拒否ミュート祭り
       - ol:
-        - なんで？泣いてないでなんか言って
+        - なんで？
+        - 泣いてないで
+        - なんか
+        - 言って
+        ro:
+        - nande?
+        - naitenai de
+        - nanka
+        - itte
+        ww:
+        - w: why?
+          d: なんで
+        - w: don't cry
+          d: 泣いてないで
+        - w: something
+          d: なんか
+        - w: say
+          d: 言って
+        - d: なんで？泣いてないでなんか言って
     - lines:
       - ol:
-        - 不完全な世界 完全な依存
+        - 不完全
+        - な
+        - 世界
+        - " "
+        - 完全
+        - な
+        - 依存
+        ro:
+        - fukanzen
+        - na
+        - sekai
+        - ''
+        - kanzen
+        - na
+        - izon
+        ww:
+        - w: imperfect
+          d: 不完全
+        - w: ''
+          d: な
+        - w: world
+          d: 世界
+        - ''
+        - w: perfect
+          d: 完全
+        - w: ''
+          d: な
+        - w: addiction
+          d: 依存
+        - d: 不完全な世界 完全な依存
       - ol:
-        - 泥まみれで生きていたいわ
+        - 泥まみれ
+        - で
+        - 生きていたい
+        - わ
+        ro:
+        - doro manire
+        - de
+        - ikiteitai
+        - wa
+        ww:
+        - w: covered in mub
+          d: 泥まみれ
+        - w: ''
+          d: で
+        - w: I want to live
+          d: 生きていたい
+        - w: (emphasis)
+          d: わ
+        - d: 泥まみれで生きていたいわ
       - ol:
-        - それを綺麗だと笑って その手で撫でて
+        - それ
+        - を
+        - 綺麗
+        - だ
+        - と
+        - 笑って
+        - ' '
+        - その手
+        - で
+        - 撫でて
+        ro:
+        - sore
+        - o
+        - kirei
+        - da
+        - to
+        - waratte
+        - ''
+        - sono te
+        - de
+        - nadete
+        ww:
+        - w: that
+          d: それ
+        - w: ''
+          d: を
+        - w: pretry
+          d: 綺麗
+        - w: is
+          d: だ
+        - w: at
+          d: と
+        - w: laugh
+          d: 笑って
+        - ''
+        - w: that way
+          d: その手
+        - w: ''
+          d: で
+        - w: caress
+          d: 撫でて
+        - d: それを綺麗だと笑って その手で撫でて
       - ol:
-        - 不完全な世界 感染した理想
+        - 不完全
+        - な
+        - 世界
+        - ' '
+        - 感染した
+        - 理想
+        ro:
+        - fukanzen
+        - na
+        - sekai
+        - ''
+        - kansen shita
+        - risou
+        ww:
+        - w: imperfect
+          d: 不完全
+        - w: ''
+          d: な
+        - w: world
+          d: 世界
+        - ''
+        - w: infected
+          d: 感染した
+        - w: ideal
+          d: 理想
+        - d: 不完全な世界 感染した理想
       - ol:
-        - 治せないからもうこれでいいわ
+        - 治せない
+        - から
+        - もうこれでいい
+        - わ
+        ro:
+        - naosenai
+        - kara
+        - mou kore de ii
+        - wa
+        ww:
+        - w: incurable
+          d: 治せない
+        - w: since
+          d: から
+        - w: so this is fine
+          d: もうこれでいい
+        - w: (emphasis)
+          d: わ
+        - d: 治せないからもうこれでいいわ
       - ol:
-        - まだまだずっと先の未来なんて想像もしたくない
+        - まだまだ
+        - ずっと
+        - 先
+        - の
+        - 未来
+        - なんて
+        - 想像
+        - も
+        - したくない
+        ro:
+        - madamada
+        - zutto
+        - saki
+        - no
+        - mirai
+        - nante
+        - souzou
+        - mo
+        - shitakunai
+        ww:
+        - w: still
+          d: まだまだ
+        - w: far away
+          d: ずっと
+        - w: ahead
+          d: 先
+        - w: "'s"
+          d: の
+        - w: future
+          d: 未来
+        - w: such as
+          d: なんて
+        - w: imagine
+          d: 想像
+        - w: even
+          d: も
+        - w: don't want to
+          d: したくない
+        - d: まだまだずっと先の未来なんて想像もしたくない
     - lines:
       - ol:
-        - もう5秒後にスキップしたい
+        - もう
+        - 5秒後
+        - に
+        - スキップしたい
+        ro:
+        - mou
+        - go-byou go
+        - ni
+        - sukippu shitai
+        ww:
+        - w: already
+          d: もう
+        - w: 5 seconds later
+          d: 5秒後
+        - w: ''
+          d: に
+        - w: I want to skip
+          d: スキップしたい
+        - d: もう5秒後にスキップしたい
       - ol:
-        - それで1日終わっても
+        - それで
+        - 1日
+        - 終わって
+        - も
+        ro:
+        - sore de
+        - ichinichi
+        - owatte
+        - mo
+        ww:
+        - w: even
+          d: それで
+        - w: the day
+          d: 1日
+        - w: ends
+          d: 終わって
+        - w: if
+          d: も
+        - d: それで1日終わっても
       - ol:
-        - みんなそんなもんだからって諦められるよ
+        - みんな
+        - そんなもん
+        - だ
+        - からって
+        - 諦められる
+        - よ
+        ro:
+        - minna
+        - sonna mon
+        - da 
+        - kara tte
+        - akiramerareru
+        - yo
+        ww:
+        - w: everyone
+          d: みんな
+        - w: like that
+          d: そんなもん
+        - w: is
+          d: だ
+        - w: even so
+          d: からって
+        - w: I can give up
+          d: 諦められる
+        - w: (emphasis)
+          d: よ
+        - d: みんなそんなもんだからって諦められるよ
     - lines:
       - ol:
-        - できるだけ透明になって
+        - できるだけ
+        - 透明
+        - に
+        - なって
+        ro:
+        - dekiru dake
+        - toumei
+        - ni
+        - natte
+        ww:
+        - w: as much as possible
+          d: できるだけ
+        - w: invisible
+          d: 透明
+        - w: to
+          d: に
+        - w: becoming
+          d: なって
+        - d: できるだけ透明になって
       - ol:
-        - 変わり映えない明日を見た
+        - 変わり映えない
+        - 明日
+        - を
+        - 見た
+        ro:
+        - kawaribaenai
+        - ashita
+        - o
+        - mita
+        ww:
+        - w: unchanging
+          d: 変わり映えない
+        - w: tomorrow
+          d: 明日
+        - w: ''
+          d: を
+        - w: saw
+          d: 見た
+        - d: 変わり映えない明日を見た
       - ol:
-        - 「どんな僕でも」なんて笑わせないで
+        - 「
+        - どんな
+        - 僕
+        - でも
+        - 」
+        - なんて
+        - 笑わせないで
+        ro:
+        - 「
+        - donna
+        - boku
+        - demo
+        - 」
+        - nante
+        - warawasenaide
+        ww:
+        - "'"
+        - w: what kind
+          d: どんな
+        - w: I
+          d: 僕
+        - w: no matter
+          d: でも
+        - "'"
+        - w: what
+          d: なんて
+        - w: don't make me laugh
+          d: 笑わせないで
+        - d: 「どんな僕でも」なんて笑わせないで
       - ol:
-        - 3日で忘れるわ
+        - 3日
+        - で
+        - 忘れる
+        - わ
+        ro:
+        - mikka
+        - de
+        - wasureru
+        - wa
+        ww:
+        - w: 3 days
+          d: 3日
+        - w: in
+          d: で
+        - w: to forget
+          d: 忘れる
+        - w: (emphasis)
+          d: わ
+        - d: 3日で忘れるわ
     - lines:
       - ol:
-        - 四角にしか切り取れないよ
+        - 四角
+        - に
+        - しか
+        - 切り取れない
+        - よ
+        ro:
+        - shikaku
+        - ni
+        - shikaku
+        - kiritoenai
+        - yo
+        ww:
+        - w: square
+          d: 四角
+        - w: in
+          d: に
+        - w: nothing but
+          d: しか
+        - w: cannot be cut out
+          d: 切り取れない
+        - w: (emphasis)
+          d: よ
+        - d: 四角にしか切り取れないよ
       - ol:
-        - 空の色も覚えてないし
+        - 空
+        - の
+        - 色
+        - も
+        - 覚えてないし
+        ro:
+        - sora
+        - no
+        - iro
+        - mo
+        - oboetenaishi
+        ww:
+        - w: sky
+          d: 空
+        - w: "'s"
+          d: の
+        - w: colour
+          d: 色
+        - w: even
+          d: も
+        - w: not remember
+          d: 覚えてないし
+        - d: 空の色も覚えてないし
       - ol:
-        - 全然窮屈じゃないよって思い込ませて
+        - 全然
+        - 窮屈
+        - じゃない
+        - よ
+        - って
+        - 思い込ませて
+        ro:
+        - zenzen
+        - kyuukutsu
+        - ja nai
+        - yo
+        - tte
+        - omoikomasete
+        ww:
+        - w: at all
+          d: 全然
+        - w: cramped
+          d: 窮屈
+        - w: is not
+          d: じゃない
+        - w: ''
+          d: よ
+        - w: even
+          d: って
+        - w: make me think
+          d: 思い込ませて
+        - d: 全然窮屈じゃないよって思い込ませて
       - ol:
-        - みんなの好きな"あの子"なんて
+        - みんな
+        - の
+        - 好きな
+        - '"あの子"'
+        - なんて
+        ro:
+        - minna
+        - no
+        - suki na
+        - '"ano ko"'
+        - nante
+        ww:
+        - w: everyone
+          d: みんな
+        - w: "'s"
+          d: の
+        - w: favorite
+          d: 好きな
+        - w: '"that girl"'
+          d: あの子
+        - w: ''
+          d: なんて
+        - d: みんなの好きな%22あの子%22なんて
       - ol:
-        - 1人も存在しない
+        - 1人
+        - も
+        - 存在しない
+        ro: 
+        - hitori
+        - mo
+        - sonzai shinai
+        ww:
+        - w: one person
+          d: 1人
+        - w: even
+          d: も
+        - w: doesn't exist
+          d: 存在しない
+        - d: 1人も存在しない
       - ol:
-        - でもいないといないで不安でしょうがなくて
+        - でも
+        - いないといないで
+        - 不安でしょうがなくて
+        ro:
+        - demo
+        - inai to inai de
+        - fuan de shou ga nakute
+        ww:
+        - w: but
+          d: でも
+        - w: when not there
+          d: いないといないで
+        - w: can't help but feel anxious
+          d: 不安でしょうがなくて
+        - d: でもいないといないで不安でしょうがなくて
     - lines:
       - ol:
-        - 不安定だ世界 制限されてる
+        - 不安定
+        - だ
+        - 世界
+        - ' '
+        - 制限されてる
+        ro:
+        - fuantei
+        - da
+        - sekai
+        - ''
+        - seigen sareteru
+        ww:
+        - w: unstable
+          d: 不安定
+        - w: is
+          d: だ
+        - w: the world
+          d: 世界
+        - ''
+        - w: is being restricted
+          d: 制限されてる
+        - d: 不安定だ世界 制限されてる
       - ol:
-        - 借り物の顔じゃ生きていけないわ
+        - 借り物
+        - の
+        - 顔
+        - じゃ
+        - 生きていけない
+        - わ
+        ro:
+        - karimono
+        - no
+        - kao
+        - ja
+        - ikite ikenai
+        - wa
+        ww:
+        - w: borrowed
+          d: 借り物
+        - w: "'s"
+          d: の
+        - w: face
+          d: 顔
+        - w: with
+          d: じゃ
+        - w: could not live
+          d: 生きていけない
+        - w: (emphasis)
+          d: わ
+        - d: 借り物の顔じゃ生きていけないわ
       - ol:
-        - '"どれも綺麗だ"と歌っているくせに変ね'
+        - '"'
+        - どれも
+        - 綺麗
+        - だ
+        - '"'
+        - と
+        - 歌っている
+        - くせに
+        - 変ね
+        ro:
+        - '"'
+        - dore mo
+        - kirei
+        - da
+        - '"'
+        - to
+        - utatteiru
+        - kuse ni
+        - hen ne
+        ww:
+        - ''
+        - w: all
+          d: どれも
+        - w: pretty
+          d: 綺麗
+        - w: is 
+          d: だ
+        - ''
+        - w: with
+          d: と
+        - w: singing
+          d: 歌っている
+        - w: even though
+          d: くせに
+        - w: strange, isn't it
+          d: 変ね
+        - d: '%22どれも綺麗だ%22と歌っているくせに変ね'
       - ol:
-        - 不安定だ世界 更新されていく
+        - 不安定
+        - だ
+        - 世界
+        - " "
+        - 更新されていく
+        ww:
+        - w: unstable
+          d: 不安定
+        - w: is
+          d: だ
+        - w: the world
+          d: 世界
+        - ''
+        - w: constantly updated
+          d: 更新されていく
+        - d: 不安定だ世界 更新されていく
       - ol:
-        - 1日で消えてしまうアレみたい
+        - 1日
+        - で
+        - 消えてしまう
+        - アレ
+        - みたい
+        ro:
+        - ichinichi
+        - de
+        - kiete shimau
+        - are
+        - mitai
+        ww:
+        - w: one day
+          d: 1日
+        - w: in
+          d: で
+        - w: disappears
+          d: 消えてしまう
+        - w: that thing
+          d: アレ
+        - w: sort of
+          d: みたい
+        - d: 1日で消えてしまうアレみたい
       - ol:
-        - まだまだずっと先の明日を考える暇もない
+        - まだまだ
+        - ずっと
+        - 先
+        - の
+        - 明日
+        - を
+        - 考える
+        - 暇もない
+        ro:
+        - madamada
+        - zutto
+        - saki
+        - no
+        - ashita
+        - o
+        - kangearu
+        - hima mo nai
+        ww:
+        - w: still
+          d: まだまだ
+        - w: far
+          d: ずっと
+        - w: future
+          d: 先
+        - w: "'s"
+          d: の
+        - w: tomorrow
+          d: 明日
+        - w: ''
+          d: を
+        - w: to think
+          d: 考える
+        - w: don't even have time to
+          d: 暇もない
+        - d: まだまだずっと先の明日を考える暇もない
     - lines:
       - ol:
-        - あの子の真似して髪切って
+        - あの子
+        - の
+        - 真似して
+        - 髪
+        - 切って
+        ro:
+        - ano ko
+        - no
+        - mane shite
+        - kami
+        - kitte
+        ww:
+        - w: that girl
+          d: あの子
+        - w: "'s"
+          d: の
+        - w: copying
+          d: 真似して
+        - w: hair
+          d: 髪
+        - w: cut
+          d: 切って
+        - d: あの子の真似して髪切って
       - ol:
-        - あの子と同じリップ塗って
+        - あの子
+        - と
+        - 同じ
+        - リップ
+        - 塗って
+        ro:
+        - ano ko
+        - to
+        - onaji
+        - rippu
+        - nutte
+        ww:
+        - w: that girl
+          d: あの子
+        - w: also
+          d: と
+        - w: same
+          d: 同じ
+        - w: lip(stick)
+          d: リップ
+        - w: putting
+          d: 塗って
+        - d: あの子と同じリップ塗って
       - ol:
-        - なりたい自分なんてもんは お前らが捨てた
+        - なりたい自分
+        - なんて
+        - もん
+        - は
+        - " "
+        - お前ら
+        - が
+        - 捨てた
+        ro:
+        - naritai jibun
+        - nante
+        - mon
+        - wa
+        - ''
+        - omaera
+        - ga
+        - suteta
+        ww:
+        - w: the one I want to be
+          d: なりたい自分
+        - w: that
+          d: なんて
+        - w: thing
+          d: もん
+        - w: ''
+          d: は
+        - " "
+        - w: all of you
+          d: お前ら
+        - w: ''
+          d: が
+        - w: threw away
+          d: 捨てた
+        - d: なりたい自分なんてもんは お前らが捨てた
       - ol:
-        - あの子と一緒にはしないよ
+        - あの子
+        - と
+        - 一緒にはしない
+        - よ
+        ro:
+        - ano ko
+        - to
+        - issho ni wa shinai
+        - yo
+        ww:
+        - w: that girl
+          d: あの子
+        - w: with
+          d: と
+        - w: don't put me in with
+          d: 一緒にはしない
+        - w: (emphasis)
+          d: よ
+        - d: あの子と一緒にはしないよ
       - ol:
-        - 下位互換にすらなれないよ
+        - 下位互換
+        - にすらなれない
+        - よ
+        ro:
+        - kai gokan
+        - ni sura narenai
+        - yo
+        ww:
+        - w: inferior version
+          d: 下位互換
+        - w: can't even become
+          d: にすらなれない
+        - w: (emphasis)
+          d: よ
+        - d: 下位互換にすらなれないよ
       - ol:
-        - なんでなんでなんでなんでなんで
+        - なんで
+        - なんで
+        - なんで
+        - なんで
+        - なんで
+        ro:
+        - nande
+        - nande
+        - nande
+        - nande
+        - nande
+        ww:
+        - w: why
+          d: なんで
+        - w: why
+          d: なんで
+        - w: why
+          d: なんで
+        - w: why
+          d: なんで
+        - w: why
+          d: なんで
+        - d: なんでなんでなんでなんでなんで
     - lines:
       - ol:
-        - 目を閉じて見つけたのが
+        - 目
+        - を
+        - 閉じて
+        - 見つけた
+        - の
+        - が
+        ro:
+        - me
+        - o
+        - tojite
+        - mitsuketa
+        - no
+        - ga
+        ww:
+        - w: eyes
+          d: 目
+        - w: ''
+          d: を
+        - w: close
+          d: 閉じて
+        - w: found
+          d: 見つけた
+        - w: ''
+          d: の
+        - w: ''
+          d: が
+        - d: 目を閉じて見つけたのが
       - ol:
-        - 私でありますようにって
+        - 私
+        - でありますように
+        - って
+        ro:
+        - watashi
+        - de arimasu you ni
+        - tte
+        ww:
+        - w: me
+          d: 私
+        - w: may it be
+          d: でありますように
+        - w: ''
+          d: って
+        - d: 私でありますようにって
       - ol:
-        - まだ思ってしまうよ
+        - まだ
+        - 思ってしまう
+        - よ
+        ro:
+        - mada
+        - omotte shimau
+        - yo
+        ww:
+        - w: still
+          d: まだ
+        - w: end up thinking (of)
+          d: 思ってしまう
+        - w: (emphasis)
+          d: よ
+        - d: まだ思ってしまうよ
     - lines:
       - ol:
-        - 不完全な世界 完全な依存
+        - 不完全
+        - な
+        - 世界
+        - " "
+        - 完全
+        - な
+        - 依存
+        ro:
+        - fukanzen
+        - na
+        - sekai
+        - ''
+        - kanzen
+        - na
+        - izon
+        ww:
+        - w: imperfect
+          d: 不完全
+        - w: ''
+          d: な
+        - w: world
+          d: 世界
+        - ''
+        - w: perfect
+          d: 完全
+        - w: ''
+          d: な
+        - w: addiction
+          d: 依存
+        - d: 不完全な世界 完全な依存
       - ol:
-        - 泥まみれで生きていたいわ
+        - 泥まみれ
+        - で
+        - 生きていたい
+        - わ
+        ro:
+        - doro manire
+        - de
+        - ikiteitai
+        - wa
+        ww:
+        - w: covered in mub
+          d: 泥まみれ
+        - w: ''
+          d: で
+        - w: I want to live
+          d: 生きていたい
+        - w: (emphasis)
+          d: わ
+        - d: 泥まみれで生きていたいわ
       - ol:
-        - それを綺麗だと笑って
+        - それ
+        - を
+        - 綺麗
+        - だ
+        - と
+        - 笑って
+        ro:
+        - sore
+        - o
+        - kirei
+        - da
+        - to
+        - waratte
+        ww:
+        - w: that
+          d: それ
+        - w: ''
+          d: を
+        - w: pretry
+          d: 綺麗
+        - w: is
+          d: だ
+        - w: at
+          d: と
+        - w: laugh
+          d: 笑って
+        - d: それを綺麗だと笑って
       - ol:
-        - まだまだ先の未来だって終わらせてやらない
+        - まだまだ
+        - 先
+        - の
+        - 未来
+        - だって
+        - 終わらせてやらない
+        ro:
+        - madamada
+        - saki
+        - no
+        - mirai
+        - datte
+        - owarasete yaranai
+        ww:
+        - w: still
+          d: まだまだ
+        - w: ahead
+          d: 先
+        - w: "'s"
+          d: の
+        - w: future
+          d: 未来
+        - w: but
+          d: だって
+        - w: I won't let it end
+          d: 終わらせてやらない
+        - d: まだまだ先の未来だって終わらせてやらない
 
 
 

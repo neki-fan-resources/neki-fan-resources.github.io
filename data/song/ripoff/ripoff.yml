@@ -1,38 +1,140 @@
-- song:
-    id: ripoff
-    fullname: rip-off
-    release-date: 2025-08-06
-    cover-image:
-      postximage:
-        post: 1949439923565826120
-        image: Gw3NH3ubMAA1o7y
+song:
+  id: ripoff
+  fullname: rip-off
+  release-date: 2025-08-06
+  cover-image:
+    postximage:
+      post: 1949439923565826120
+      image: Gw3NH3ubMAA1o7y
+
+  lyrics:
+    status:
+      code: warning
+      description: Data copied from the sources. Not reviewed.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from lyricfind)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from LyricFind
+        url: 'https://lyrics.lyricfind.com/lyrics/nek-rip-off'
+    sections:
+    - lines:
+      - ol:
+        - あ、かわいくないと0点です
+      - ol:
+        - こんな世界ブスすぎる
+      - ol:
+        - それでも終わらせるのは NGみたいなんです
+    - lines:
+      - ol:
+        - できるだけ透明になって
+      - ol:
+        - でも見つけられないのは嫌だ
+      - ol:
+        - 「どんな君でも」なんてよく聞くけれど
+      - ol:
+        - …あれ、聞いたことないわ
+    - lines:
+      - ol:
+        - あの子の真似して髪切って
+      - ol:
+        - あの子と同じリップ塗って
+      - ol:
+        - なりたい自分なんてもんは お前らが捨てた
+      - ol:
+        - みんな好きな"あの子"は今日も
+      - ol:
+        - 同担拒否ミュート祭り
+      - ol:
+        - なんで？泣いてないでなんか言って
+    - lines:
+      - ol:
+        - 不完全な世界 完全な依存
+      - ol:
+        - 泥まみれで生きていたいわ
+      - ol:
+        - それを綺麗だと笑って その手で撫でて
+      - ol:
+        - 不完全な世界 感染した理想
+      - ol:
+        - 治せないからもうこれでいいわ
+      - ol:
+        - まだまだずっと先の未来なんて想像もしたくない
+    - lines:
+      - ol:
+        - もう5秒後にスキップしたい
+      - ol:
+        - それで1日終わっても
+      - ol:
+        - みんなそんなもんだからって諦められるよ
+    - lines:
+      - ol:
+        - できるだけ透明になって
+      - ol:
+        - 変わり映えない明日を見た
+      - ol:
+        - 「どんな僕でも」なんて笑わせないで
+      - ol:
+        - 3日で忘れるわ
+    - lines:
+      - ol:
+        - 四角にしか切り取れないよ
+      - ol:
+        - 空の色も覚えてないし
+      - ol:
+        - 全然窮屈じゃないよって思い込ませて
+      - ol:
+        - みんなの好きな"あの子"なんて
+      - ol:
+        - 1人も存在しない
+      - ol:
+        - でもいないといないで不安でしょうがなくて
+    - lines:
+      - ol:
+        - 不安定だ世界 制限されてる
+      - ol:
+        - 借り物の顔じゃ生きていけないわ
+      - ol:
+        - '"どれも綺麗だ"と歌っているくせに変ね'
+      - ol:
+        - 不安定だ世界 更新されていく
+      - ol:
+        - 1日で消えてしまうアレみたい
+      - ol:
+        - まだまだずっと先の明日を考える暇もない
+    - lines:
+      - ol:
+        - あの子の真似して髪切って
+      - ol:
+        - あの子と同じリップ塗って
+      - ol:
+        - なりたい自分なんてもんは お前らが捨てた
+      - ol:
+        - あの子と一緒にはしないよ
+      - ol:
+        - 下位互換にすらなれないよ
+      - ol:
+        - なんでなんでなんでなんでなんで
+    - lines:
+      - ol:
+        - 目を閉じて見つけたのが
+      - ol:
+        - 私でありますようにって
+      - ol:
+        - まだ思ってしまうよ
+    - lines:
+      - ol:
+        - 不完全な世界 完全な依存
+      - ol:
+        - 泥まみれで生きていたいわ
+      - ol:
+        - それを綺麗だと笑って
+      - ol:
+        - まだまだ先の未来だって終わらせてやらない
 
 
-- postx:
-    id: 1949439923565826120
-    account: nekiband_jp
-    label: Announcement
-    published-date: 2025-07-27
-    text: |
-      🎊情報解禁🎊
-
-      新曲「rip-off」
-
-      8/6(水)0時 配信リリース決定🎧
-      ジャケットも公開⚡️
-
-      🔗https://PCI.lnk.to/rip-off
-
-      #NEKI #ripoff
-    image:
-    - Gw3NH3ubMAA1o7y
-
-- postximage:
-    post: 1949439923565826120
-    id: Gw3NH3ubMAA1o7y
-    label: Cover
-    published-date: 2025-07-27
-    local-copy: true
-    context:
-    - song: ripoff
 

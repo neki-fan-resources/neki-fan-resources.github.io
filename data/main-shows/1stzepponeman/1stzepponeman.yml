@@ -1,145 +1,37 @@
-- show:
-    year: 2025
-    id: 1stzepponeman
-    fullname: NEK! 1ST ZEPP ONE MAN
-    shortname: 1ST ZEPP ONE MAN
-    sublabel: '【#拡散中 #ネキ界隈】'
-    date: 2025-08-30
-    location: Zepp Shinjuku, Tokyo
-    event-page: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
-    cover-image:
-      localimage:
-        show:
-          year: 2025
-          id: 1stzepponeman
-        id: cover
-    categories:
-      - mainshowtour
-    multimedia:
-      short:
-      - youtubeshort: xkn_J3iNANI
-      - youtubeshort: Nn2dWG_ZX4w
-      - youtubeshort: He1zOmOk7b0
-      additional:
-      - youtubeshort: QTeKbH9GgqE
-      - youtubeshort: 0hC9M6VeCJk
-    linked-to:
-    - localimage:
-        show:
-          year: 2025
-          id: 1stzepponeman
-        id: cover
+show:
+  year: 2025
+  id: 1stzepponeman
+  fullname: NEK! 1ST ZEPP ONE MAN
+  shortname: 1ST ZEPP ONE MAN
+  sublabel: '【#拡散中 #ネキ界隈】'
+  date: 2025-08-30
+  location: Zepp Shinjuku, Tokyo
+  event-page: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
+  cover-image:
+    localimage:
+      show:
+        year: 2025
+        id: 1stzepponeman
+      id: cover
+  categories:
+    - mainshowtour
+  multimedia:
+    short:
+    - youtubeshort: istRkTl16oM
+    - youtubeshort: 0OdFL28sLx0
+    - youtubeshort: mKQ7W51Xg-s
+    - youtubeshort: xkn_J3iNANI
+    - youtubeshort: Nn2dWG_ZX4w
+    - youtubeshort: He1zOmOk7b0
+    additional:
+    - youtubeshort: QTeKbH9GgqE
     - youtubeshort: 0hC9M6VeCJk
-    - postx: 1931984997382316384
-
-- localimage:
-    show:
-      year: 2025
-      id: 1stzepponeman
-    id: cover
-    label: cover
-    filename: cover640.png
-    published-date: 2025-01-01
-    source:
-      description: NEK! note post
-      url: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
-    linked-to:
-    - show:
+  linked-to:
+  - localimage:
+      show:
         year: 2025
         id: 1stzepponeman
-
-- youtubeshort:
-    id: 0hC9M6VeCJk
-    label: Announcement
-    published-date: 2025-03-16
-    context:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    linked-to:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    - show:
-        year: 2025
-        id: 1stzepponeman
-
-- postx:
-    id: 1931984997382316384
-    account: nekiband_jp
-    published-date: 2025-06-09
-    label: tickets available
-    text: |
-      ￼￼#ロックの日￼￼
-      
-      8/30(土)
-      NEK!初のZEPP ONE MAN開催￼
-      
-      Live at Zepp Shinjuku￼
-      チケット先着先行受付中！
-      
-      ￼ https://l-tike.com/nekiband/
-      
-      #NEKI #拡散中 #ネキ界隈
-      
-    image:
-    - Gs_KDFfb0AAtXQ1
-    linked-to:
-    - youtubevideo: IeBks9yGO4A
-    - postximage:
-        post: 1931984997382316384
-        image: Gs_KDFfb0AAtXQ1
-    - show:
-        year: 2025
-        id: 1stzepponeman
-
-- postximage:
-    post: 1931984997382316384
-    id: Gs_KDFfb0AAtXQ1
-    label: On stage
-    published-date: 2025-06-09
-    info: from the crowd
-    context:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    linked-to:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    - postx: 1931984997382316384
-
-- youtubeshort:
-    id: He1zOmOk7b0
-    label: Cocoro's week
-    info: About the evolution since the first show
-    published-date: 2025-07-28
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-
-- youtubeshort:
-    id: Nn2dWG_ZX4w
-    label: Cocoro's week
-    info: About the other members
-    published-date: 2025-07-29
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-
-- youtubeshort:
-    id: xkn_J3iNANI
-    label: Cocoro's week
-    info: About NEK! 1ST ZEPP ONE MANE
-    published-date: 2025-07-30
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-
+      id: cover
+  - youtubeshort: 0hC9M6VeCJk
+  - postx: 1931984997382316384
 

@@ -16,6 +16,12 @@
           image: Gw3yKXybgAAvkF2
       short:
       - postxvideo:
+          post: 1952670333594677367
+          video: 01
+      - postxvideo:
+          post: 1952355401271480375
+          video: 01
+      - postxvideo:
           post: 1951215513217994873
           video: 01
       - youtubeshort: ow3Ixze3MfI
@@ -407,5 +413,59 @@
         id: internetbabies
     - song: blink
 
+- postx:
+    id: 1952355401271480375
+    account: cure_bass_baka
+    label: Dreams!!!! live
+    published-date: 2025-08-04
+    text: |
+      『Dreams!!!!／NEK!』
+      撮影可だった日のラスサビ
+      #NEKI  #拡散中  #ネキ界隈
+    video:
+    - 01
+
+- postxvideo:
+    post: 1952355401271480375
+    id: 01
+    cover: 1952354814060634112/img/h_F85nPHwBmCj9Yh.jpg
+    label: Live
+    info: Kanade
+    published-date: 2025-08-04
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: dreams
 
 
+- postx:
+    id: 1952670333594677367
+    account: natsu08_guitar
+    label: Jumping during Fool
+    published-date: 2025-08-05
+    text: |
+      Foolのサビ！！
+      JUMPジャンプじゃんぷ❗️❗️
+      跳べーーーーーーーー‼️‼️‼️
+
+      それにしても、、あっっっつすぎる！！！！！！！☀️
+      みなさん、体調大丈夫ですか？！！
+      Zepp体調不良で来れないとかなったら寂しいので水分補給しっかりしてお過ごしてください🙇🏻‍♀️
+
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+
+- postxvideo:
+    post: 1952670333594677367
+    id: 01
+    cover: 1952670248618123264/img/3LAxE_aG0ildFLgJ.jpg
+    label: Live
+    info: Natsu
+    published-date: 2025-08-05
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: fool

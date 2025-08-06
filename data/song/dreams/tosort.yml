@@ -1,0 +1,180 @@
+- youtubevideo:
+    id: Vh5saxbTlvE
+    label: Music Video Teaser
+    published-date: 2025-03-04
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubevideo:
+    id: 0YlW7T5fVZ4
+    label: Official Music Video
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- localimage:
+    song: dreams
+    id: mvcover
+    label: MV cover
+    filename: mvcover.png
+    published-date: 2025-03-05
+    source:
+      description: YouTube video
+    hidden: true
+    linked-to:
+    - song: dreams
+        
+- multimedia-event:
+    id: dreamsmv
+    youtubevideo: 0YlW7T5fVZ4
+    parent:
+      song: dreams
+    cover-image: 
+      localimage:
+        song: dreams
+        id: mvcover
+    categories: video
+
+- youtubeshort:
+    id: ayi326KTswk
+    label: Teaser Live
+    published-date: 2024-12-15
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - song: dreams
+    linked-to:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - song: dreams
+
+- youtubeshort:
+    id: QcmApJ-dFgE
+    label: Promo
+    info: studio audio
+    published-date: 2025-02-07
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubeshort:
+    id: 589kXdONCDo
+    label: Teaser
+    published-date: 2025-03-04
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubeshort:
+    id: GeFi7F99oOw
+    label: Music Video
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubeshort:
+    id: MMCK7gW62zU
+    label: Music Video
+    info: behind the scenes
+    published-date: 2025-03-10
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubeshort:
+    id: n8e278VpxBo
+    label: MV Reaction
+    info: reacting to the music video
+    published-date: 2025-03-29
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubeshort:
+    id: 2S64RS8McUU
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-04-26
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubeshort:
+    id: rnvVMueRDCk
+    label: Music Video
+    info: behind the scenes
+    published-date: 2025-05-17
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubeshort:
+    id: zT_P-TfmG5w
+    label: Music Video
+    info: off-shot, Hika, Natsu
+    published-date: 2025-05-26
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- youtubeshort:
+    id: Ejlq5EiRWO4
+    label: Music Video
+    info: behind the scenes
+    published-date: 2025-05-01
+    context:
+    - song: dreams
+    linked-to:
+    - song: dreams
+
+- postyoutube:
+    id: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+    account: neki_official
+    published-date: 2024-06-03
+    label: announcement
+    text: |
+      新曲「Dreams!!!!」
+      本日12/11(水)0時より楽曲配信スタート🎧
+      
+      楽曲配信はこちら▼
+      https://ssm.lnk.to/Dreams_
+      
+      
+      New song "Dreams!!!!"
+      Song distribution starts from 12/11(Wed.) 0:00!
+      Click here to download the song
+      https://ssm.lnk.to/Dreams_
+      
+    image:
+    - Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
+    linked-to:
+    - postyoutubeimage:
+        post: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+        image: Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
+    - song: dreams
+
+- postyoutubeimage:
+    post: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+    id: Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
+    label: cover
+    published-date: 2024-06-03
+    local-copy: true
+    context:
+    - song: dreams
+    linked-to:
+    - postyoutube: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT

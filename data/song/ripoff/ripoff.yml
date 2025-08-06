@@ -7,6 +7,13 @@ song:
       post: 1949439923565826120
       image: Gw3NH3ubMAA1o7y
 
+  multimedia:
+    live:
+    - postxvideo:
+        post: 1953025441515921602
+        video: 01
+
+
   lyrics:
     status:
       code: warning

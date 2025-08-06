@@ -8,3 +8,30 @@
     - show:
         year: 2025
         id: 1stzepponeman
+
+- youtubeshort:
+    id: mKQ7W51Xg-s
+    label: Natsu's week
+    published-date: 2025-08-04
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: 0OdFL28sLx0
+    label: Natsu's week
+    published-date: 2025-08-05
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: istRkTl16oM
+    label: Natsu's week
+    published-date: 2025-08-06
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman

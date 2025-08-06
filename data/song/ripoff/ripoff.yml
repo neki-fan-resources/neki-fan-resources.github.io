@@ -28,7 +28,6 @@ song:
     - id: ww
       name: word by word translation
       details: (using jisho.org)
-      active: true
       base-url: 'https://jisho.org/search/'
       url-text: J
     sections:

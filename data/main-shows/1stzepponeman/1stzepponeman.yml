@@ -15,6 +15,10 @@ show:
       id: cover
   categories:
     - mainshowtour
+  description:
+  - The show was announced during the last stop of the TR!CK TAK!NG tour, on March 16th, at the Spotify O-WEST in Tokyo.
+  - It will be their first Zepp show, a major step in the band's story.
+  - In the weeks leading up to the show, one week is dedicated to focusing on each band member.
   multimedia:
     short:
     - youtubeshort: BrwBqAuLRRk
@@ -25,6 +29,7 @@ show:
     - youtubeshort: Nn2dWG_ZX4w
     - youtubeshort: He1zOmOk7b0
     additional:
+    - youtubeshort: 6Qn1ORYc7Eo
     - youtubeshort: QTeKbH9GgqE
     - youtubeshort: 0hC9M6VeCJk
   linked-to:

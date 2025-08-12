@@ -21,6 +21,58 @@ class UpdatesPage(description: PageDescription, site: dSite) extends SitePage(de
 
   override def elementContent(): Seq[BodyElement[?]] = {
     Seq(
+      SectionHeader.generate("Update 2025-08-12"),
+      div()
+        .withClass(CLASS_UPDATES_SECTION)
+        .appendElements(
+          div()
+            .withClass(CLASS_UPDATE_IMAGE)
+            .appendElements(
+              LargeImageCover.generate(
+                GenImageCompiledData(Url(image6Path), "update 2025-08-12")
+              )
+            ),
+          div()
+            .withClass(CLASS_UPDATE_CONTENT)
+            .appendElements(
+              p().appendElements(
+                text("New song \""),
+                a().withHref("/song/ripoff.html").appendElements(text("rip-off")),
+                text(
+                  "\" released. Lyrics and live videos are now available."
+                ),
+              ),
+              p().appendElements(
+                text("In the lead-up for the "),
+                a()
+                  .withHref("/show/2025/1stzepponeman.html")
+                  .appendElements(text("NEK! 1ST ZEPP ONE MAN")),
+                text(
+                  ", each member is answering a few questions. We now have English-subtitled versions of the Q&As."
+                ),
+              ),
+              p().appendElements(
+                text("More videos are available from their latest shows: "),
+                a()
+                  .withHref("/show/2025/internetbabies.html")
+                  .appendElements(text("「INTERNET BaBIES -Face to Faith-」")),
+                text(" and "),
+                a()
+                  .withHref("/show/2025/nekikomsumeosaka.html")
+                  .appendElements(text("TWO-MAN SHOW with komsume")),
+                text("."),
+              ),
+              p().appendElements(
+                text("More "),
+                a()
+                  .withHref("/shows.html")
+                  .appendElements(text("shows")),
+                text(
+                  " have also been announced."
+                ),
+              ),
+            ),
+        ),
       SectionHeader.generate("Update 2025-07-28"),
       div()
         .withClass(CLASS_UPDATES_SECTION)
@@ -262,6 +314,7 @@ object UpdatesPage {
   val image3Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250620.png")
   val image4Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250715.png")
   val image5Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250728.png")
+  val image6Path = Site.BASE_IMAGE_ASSET_PATH.resolve("updates", "updates-20250812.png")
 
   def pages(site: dSite): Seq[SitePage] = {
     val mainPage = UpdatesPage(
@@ -282,7 +335,7 @@ object UpdatesPage {
           None,
           None,
         ),
-        SitePage.absoluteUrl(Url(image5Path)),
+        SitePage.absoluteUrl(Url(image6Path)),
         SitePage.canonicalUrlFor(PAGE_PATH),
         PAGE_PATH.withExtension(Common.HTML_EXTENSION),
         None,

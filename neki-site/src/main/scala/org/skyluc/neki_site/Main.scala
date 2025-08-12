@@ -12,6 +12,7 @@ import org.skyluc.neki_site.data.Data
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.data2Page.DataToPage
 import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
+import org.skyluc.neki_site.checks.ReferenceCheckProcessor
 
 object Main {
 
@@ -34,9 +35,13 @@ object Main {
 
     displayErrors("TODATA ERRORS", parserErrors)
 
+    val d = fr.Data.get(datums, Data.creator)
+
     val (checkErrors, checkedData) = DataCheck.check(
       datums,
+      d,
       PopulateRelatedTo,
+      new ReferenceCheckProcessor(d.datums.keySet),
       new CheckLocalAssetExists(staticFolder.resolve(org.skyluc.neki_site.html.Site.BASE_IMAGE_ASSET_PATH)),
       false,
     )

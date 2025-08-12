@@ -14,6 +14,8 @@ case class Site(
     with WithProcessor {
   val id = Site.ID
 
+  val partOf: Id[?] = Id.ROOT
+
   override def process[T](processor: Processor[T]): T =
     processor.processSite(this)
 

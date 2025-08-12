@@ -1,0 +1,56 @@
+
+- postx:
+    id: 1953425358717591622
+    account: coco_102
+    label: About the drums
+    published-date: 2025-08-07
+    text: |
+      rip-off💋
+
+      サビ前のフィル、ギアひとつ上げまっせ感あって好き！笑 2サビ終わりのイントロを彷彿とさせる間奏もお気に入り❤️‍🔥
+
+      私フロア大好きなんだけど普段はあんまり注目してもらえないタムだからイントロと間奏はみんなに素敵な低音を聴いてもらうために目一杯叩く✊🏻
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1953425358717591622
+        video: 01
+
+- postxvideo:
+    post: 1953425358717591622
+    id: 01
+    cover: 1953424661146116096/img/fnEeCheYtlubUR0Z.jpg
+    label: Live
+    info: interlude, Cocoro
+    published-date: 2025-08-07
+    context:
+    - song: ripoff
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- postxvideo:
+    post: 1953710557393195152
+    id: 01
+    cover: 1953710492889096192/img/kpF56FobeSZ9bi0k.jpg
+    label: Live
+    published-date: 2025-08-08
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+
+

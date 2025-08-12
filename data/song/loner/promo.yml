@@ -1,0 +1,20 @@
+- group:
+    id: promo
+    label: Promo
+    part-of:
+      song: loner
+
+- youtubeshort:
+    id: fKilWDbCRDU
+    label: Promo
+    info: studio audio, Natsu taping
+    published-date: 2025-08-08
+    context:
+    - song: loner
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      group:
+        id: promo
+        song: loner

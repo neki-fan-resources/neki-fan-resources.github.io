@@ -1,3 +1,10 @@
+- group:
+    id: membersweek
+    label: Member's week
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
 
 - youtubeshort:
     id: QTeKbH9GgqE
@@ -35,3 +42,19 @@
     - show:
         year: 2025
         id: 1stzepponeman
+
+- youtubeshort:
+    id: BrwBqAuLRRk
+    label: Kanade's week
+    published-date: 2025-08-11
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      group:
+        id: membersweek
+        show:
+          year: 2025
+          id: 1stzepponeman
+

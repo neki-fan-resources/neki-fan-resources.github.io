@@ -25,6 +25,9 @@ contentpage:
   - show:
       year: 2025
       id: tokyocalling
+  - show:
+      year: 2025
+      id: inthefamilyfest
 # sep
   - show:
       year: 2025
@@ -276,6 +279,10 @@ contentpage:
   - show:
       year: 2025
       id: tokyocalling
+    short: true
+  - show:
+      year: 2025
+      id: inthefamilyfest
     short: true
   - show:
       year: 2025

@@ -1,0 +1,32 @@
+- group:
+    id: promo
+    label: Promo
+    part-of:
+      song: ripoff
+  
+- youtubeshort:
+    id: dRMAkblPWaI
+    label: Promo
+    info: studio audio, rehearsal room
+    published-date: 2025-08-09
+    context:
+    - song: ripoff
+    part-of:
+      group:
+        id: promo
+        song: ripoff
+
+- youtubeshort:
+    id: n9JoWcHOI9s
+    label: Promo
+    info: studio audio
+    published-date: 2025-08-10
+    context:
+    - song: ripoff
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      group:
+        id: promo
+        song: ripoff

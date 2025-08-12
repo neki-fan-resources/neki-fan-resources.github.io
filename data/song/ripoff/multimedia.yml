@@ -7,3 +7,7 @@
     local-copy: true
     context:
     - song: ripoff
+    part-of:
+      song: ripoff
+
+

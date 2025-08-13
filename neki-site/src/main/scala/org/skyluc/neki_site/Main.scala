@@ -29,6 +29,7 @@ object Main {
     val frRootPath = rootPath.resolve(FAN_RESOURCES)
     val frStaticFolder = frRootPath.resolve(STATIC_PATH)
     val staticPiecesFolder = rootPath.resolve(STATIC_PIECES_PATH)
+    val staticPiecesFrFolder = frRootPath.resolve(STATIC_PIECES_PATH)
     val outputFolder = rootPath.resolve(Path(TARGET_PATH, SITE_PATH))
 
     val (parserErrors, datums) = NekiSite.Parser001.parseFolder(dataFolder.asFilePath())
@@ -57,7 +58,7 @@ object Main {
     val site = generator.get(Site.ID)
 
     val pages =
-      DataToPage(generator, staticPiecesFolder, site).generate(checkedData)
+      DataToPage(generator, staticPiecesFolder, staticPiecesFrFolder, site).generate(checkedData)
 
     println(s"nb of pages: ${pages.size}")
 

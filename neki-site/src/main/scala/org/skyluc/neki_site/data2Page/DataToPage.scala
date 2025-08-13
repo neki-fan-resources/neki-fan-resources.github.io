@@ -4,48 +4,65 @@ import org.skyluc.fan_resources.data.{Processor as _, *}
 import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.Page
 import org.skyluc.fan_resources.html.pages.CssPage
+import org.skyluc.fan_resources.html.pages.PostXImagePage
 import org.skyluc.fan_resources.html.pages.SitemapPage
+import org.skyluc.neki_site.Config
 import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.pages.SongPage
 import org.skyluc.neki_site.html.pages.{CategoriesPage as pCategoriesPage, ContentPage as pContentPage, *}
 
-class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Site) extends Processor[Seq[SitePage]] {
+class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_pieces_fr: Path, site: Site)
+    extends Processor[Seq[SitePage]] {
 
   def generate(datums: Seq[Datum[?]]): Seq[Page] = {
 
-    val cssStyles = CssPage(
-      static_pieces.resolve("css"),
-      Seq(
-        Path("colors.css"),
-        Path("referenceunit.css"),
-        Path("pagelayout.css"),
-        Path("pagestyle.css"),
-        Path("maincontent.css"),
-        Path("navbar.css"),
-        Path("footer.css"),
-        Path("aboutpage.css"),
-        Path("bandpage.css"),
-        Path("chronologypage.css"),
-        Path("mediapages.css"),
-        Path("sourcespage.css"),
-        Path("updatespage.css"),
-        Path("component", "coverimage.css"),
-        Path("component", "largedetails.css"),
-        Path("component", "linecard.css"),
-        Path("component", "lyrics.css"),
-        Path("component", "mediumcard.css"),
-        Path("component", "mediumdetails.css"),
-        Path("component", "multimediacard.css"),
-        Path("component", "newsblock.css"),
-        Path("component", "overlay.css"),
-        Path("component", "smallcard.css"),
-        Path("component", "socialmediacard.css"),
-        Path("component", "chronology.css"),
-        Path("component", "markercard.css"),
+    val cssStyles = Seq(
+      CssPage(
+        static_pieces.resolve("css"),
+        Seq(
+          Path("colors.css"),
+          Path("referenceunit.css"),
+          Path("pagelayout.css"),
+          Path("pagestyle.css"),
+          Path("maincontent.css"),
+          Path("navbar.css"),
+          Path("footer.css"),
+          Path("aboutpage.css"),
+          Path("bandpage.css"),
+          Path("chronologypage.css"),
+          Path("mediapages.css"),
+          Path("sourcespage.css"),
+          Path("updatespage.css"),
+          Path("component", "coverimage.css"),
+          Path("component", "largedetails.css"),
+          Path("component", "linecard.css"),
+          Path("component", "lyrics.css"),
+          Path("component", "mediumcard.css"),
+          Path("component", "mediumdetails.css"),
+          Path("component", "multimediacard.css"),
+          Path("component", "newsblock.css"),
+          Path("component", "overlay.css"),
+          Path("component", "smallcard.css"),
+          Path("component", "socialmediacard.css"),
+          Path("component", "chronology.css"),
+          Path("component", "markercard.css"),
+        ),
+        "styles.css",
       ),
-      "styles.css",
+      CssPage(
+        static_pieces_fr.resolve("css"),
+        Seq(
+          Path("postximage.css")
+        ),
+        "styles-fr.css",
+      ),
     )
+
+    val cssPaths = cssStyles.map(_.outputPath)
+
+    val postXImagePage =
+      PostXImagePage(Config.current.baseUrl, cssPaths, Config.current.isLocal)
     // fix pages
     val fixPages: Seq[SitePage] =
       Seq(
@@ -60,7 +77,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, site: Si
 
     val allPages = fixPages ++ res
 
-    allPages :+ SitemapPage(allPages) :+ cssStyles
+    allPages ++ cssStyles :+ SitemapPage(allPages) :+ postXImagePage
   }
 
   override def processCategoriesPage(categoriesPage: CategoriesPage): Seq[SitePage] =

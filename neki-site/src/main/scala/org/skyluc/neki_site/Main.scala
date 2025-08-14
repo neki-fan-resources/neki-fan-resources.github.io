@@ -8,11 +8,12 @@ import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.SiteOutput
 import org.skyluc.neki_site.checks.CheckLocalAssetExists
 import org.skyluc.neki_site.checks.PopulateRelatedTo
+import org.skyluc.neki_site.checks.ReferenceCheckProcessor
 import org.skyluc.neki_site.data.Data
+import org.skyluc.neki_site.data.ImplicitDatum
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.data2Page.DataToPage
 import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
-import org.skyluc.neki_site.checks.ReferenceCheckProcessor
 
 object Main {
 
@@ -36,10 +37,12 @@ object Main {
 
     displayErrors("TODATA ERRORS", parserErrors)
 
-    val d = fr.Data.get(datums, Data.creator)
+    val implicitDatums = ImplicitDatum().generate(datums)
+
+    val d = fr.Data.get(datums ++ implicitDatums, Data.creator)
 
     val (checkErrors, checkedData) = DataCheck.check(
-      datums,
+      datums ++ implicitDatums,
       d,
       PopulateRelatedTo,
       new ReferenceCheckProcessor(d.datums.keySet),

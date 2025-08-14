@@ -47,3 +47,9 @@ footer {
 h1 {
   display: none;
 }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -8rem;
+}

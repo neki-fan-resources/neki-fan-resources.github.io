@@ -89,6 +89,8 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
     sources.map { s => DatumEntry(compiledData, s) }
   }
 
+  override def processUpdatePage(updatePage: UpdatePage): Seq[DatumEntry] = Nil
+
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[DatumEntry] = Nil
 
   override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Seq[DatumEntry] = Nil

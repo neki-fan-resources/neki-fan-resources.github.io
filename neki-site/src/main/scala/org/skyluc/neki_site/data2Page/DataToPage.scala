@@ -10,7 +10,12 @@ import org.skyluc.neki_site.Config
 import org.skyluc.neki_site.data.*
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.pages.SongPage
-import org.skyluc.neki_site.html.pages.{CategoriesPage as pCategoriesPage, ContentPage as pContentPage, *}
+import org.skyluc.neki_site.html.pages.{
+  CategoriesPage as pCategoriesPage,
+  ContentPage as pContentPage,
+  UpdatePage as pUpdatePage,
+  *,
+}
 
 class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_pieces_fr: Path, site: Site)
     extends Processor[Seq[SitePage]] {
@@ -33,7 +38,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
           Path("chronologypage.css"),
           Path("mediapages.css"),
           Path("sourcespage.css"),
-          Path("updatespage.css"),
           Path("component", "coverimage.css"),
           Path("component", "largedetails.css"),
           Path("component", "linecard.css"),
@@ -53,7 +57,8 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
       CssPage(
         static_pieces_fr.resolve("css"),
         Seq(
-          Path("postximage.css")
+          Path("postximage.css"),
+          Path("component", "updatessection.css"),
         ),
         "styles-fr.css",
       ),
@@ -70,7 +75,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
         BandPage.pages(site),
         LivePage.pages(datums, site, generator),
         SourcesPage.pages(datums, site, generator),
-        UpdatesPage.pages(site),
       ).flatten
     // pages from datums (without errors)
     val res = datums.filterNot(_.hasError).map(_.process(this)).flatten
@@ -121,6 +125,9 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
 
   override def processTour(tour: Tour): Seq[SitePage] =
     TourPage.pagesFor(tour, site, generator)
+
+  override def processUpdatePage(updatePage: UpdatePage): Seq[SitePage] =
+    pUpdatePage.pages(updatePage, site, generator)
 
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[SitePage] = NO_DATA
 

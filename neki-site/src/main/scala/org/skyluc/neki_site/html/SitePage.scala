@@ -32,9 +32,9 @@ abstract class SitePage(override val description: PageDescription, site: dSite) 
         HeadComponents.searchEngineVerification(GOOGLE_VERIFICATION_CODE, MICROSOFT_VERIFICATION_CODE)
       } else { Nil },
       if (description.isDark) {
-        HeadComponents.css(CSS_PATH, CSS_DARK_PATH)
+        HeadComponents.css(CSS_PATH, CSS_FR_PATH, CSS_DARK_PATH)
       } else {
-        HeadComponents.css(CSS_PATH)
+        HeadComponents.css(CSS_PATH, CSS_FR_PATH)
       },
       HeadComponents.icons(HREF_ICON_512),
       OpenGraphSection.generate(description),
@@ -61,6 +61,7 @@ object SitePage {
   val HREF_GOOGLE_FONT_NOTO = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
 
   val CSS_PATH = Url(Path("asset", "css", "styles.css"))
+  val CSS_FR_PATH = Url(Path("asset", "css", "styles-fr.css"))
   val CSS_DARK_PATH = Url(Path("asset", "css", "dark.css"))
 
   val HREF_ICON_512 = Url(Path("manekineko-512px.png"))

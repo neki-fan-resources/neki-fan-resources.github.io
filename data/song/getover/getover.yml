@@ -1,0 +1,307 @@
+song:
+  id: getover
+  fullname: Get Over
+  album: exclamation
+  release-date: 2024-04-24
+  description:
+  - "'Get Over' is the first single released by NEK!."
+  - It has been played live since their first show, as seen in a few shorts.
+  - Its release was announced, with a teaser for the music video, on april 21th.
+  - The song, with its music video, was released on april 24th, 2024.
+  - It is included in NEK!'s first EP 'EXCLAMAT!ON'
+  credits:
+    lyricist: NEK!
+    composer: NEK!, MAIMAI
+    source:
+      description: from the EXCLAMAT!ON EP booklet
+  cover-image:
+    postyoutubeimage:
+      post: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+      image: p2OVdh2QjQJG80H6SNAENZWls54Ky12ooG16av0yaF4o-L6QYeYO-YI1reWmT4qGYGkpKQSYIk1Cveo
+  multimedia:
+    main:
+      youtubevideo: TWbLqba3oag
+    video:
+    - youtubevideo: TWbLqba3oag
+    - youtubevideo: 7Neu9jJk-04
+    live:
+    - postxvideo:
+        post: 1950849248574263303
+        video: 01
+    - postxvideo:
+        post: 1941062054896660964
+        video: 01
+    - postxvideo:
+        post: 1938863381467013260
+        video: 01
+    - postxvideo:
+        post: 1929389485147721772
+        video: 01
+    - youtubevideo: IeBks9yGO4A
+    - postxvideo:
+        post: 1917865243080024340
+        video: 56ad6b95-81f9-4c28-9588-416eda80eec0
+    - youtubeshort: EzpPj7pVf6Y
+    - youtubeshort: qFiKgQ5mNgQ
+    short:
+    - postxvideo:
+        post: 1956194665641992559
+        video: 01
+    - youtubeshort: ucrOIJfESpo
+    - youtubeshort: NMkyE7_4wBQ
+    - youtubeshort: BCMkj_OhBmo
+    - youtubeshort: 1VU7-KQyOvg
+    - youtubeshort: CUgtBUOxL1w
+    - youtubeshort: nDKETw7zIX4
+    - youtubeshort: yzKuHzF-YNk
+    - youtubeshort: 2hdeizLF6LI
+    - youtubeshort: R5GI-cuX2xM
+    - youtubeshort: yPb_nnAC_io
+    - youtubeshort: RMbkWV9zpog
+    - youtubeshort: nh6S9mF-9Co
+    - youtubeshort: z2KKJtwO2Ig
+    additional:
+    - youtubevideo: maFSgVE2vXg
+    - youtubeshort: tQNJQF37lHM
+  lyrics:
+    status:
+      code: warning
+      description: Data copied from the sources. Not reviewed.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video description)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from YouTube Official Music Video description
+        url: 'https://www.youtube.com/watch?v=TWbLqba3oag'
+    - id: en
+      name: english translation
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=TWbLqba3oag'
+    sections:
+    - lines:
+      - ol:
+        - 完璧主義者の Falling down
+        en:
+        - Perfectionist’s Falling down
+      - ol:
+        - 完全体は脆いもの
+        en:
+        - Perfection is fragile
+      - ol:
+        - 最高潮に至ってしまえば Going down
+        en:
+        - Once the summit is reached,Going down
+    - lines:
+      - ol:
+        - 完成された Story line
+        en:
+        - A perfected story line
+      - ol:
+        - ここから何もイメージできやしない
+        en:
+        - I can't image anything from here
+      - ol:
+        - Do you think you need me?
+    - lines:
+      - ol:
+        - 関係性まで Organize
+        en:
+        - Organize even the relationships
+      - ol:
+        - 簡単に終わる今日みたい
+        en:
+        - It feels like a day that ends easily
+      - ol:
+        - 最高潮も終わってしまえば Breaking down
+        en:
+        - Even the peak ends up breaking down
+    - lines:
+      - ol:
+        - 関心ないなら Sorry, Bye
+        en:
+        - If you're not interested, sorry, bye
+      - ol:
+        - ここから何も始まりはしない
+        en:
+        - Nothing starts here
+      - ol:
+        - I don’t think you need me this time
+    - lines:
+      - ol:
+        - Oh now I just let you go.
+      - ol:
+        - I’m moving on and carrying on.
+      - ol:
+        - どうせ前にしか道は無い
+        en:
+        - There's only one way forward anyway
+      - ol:
+        - 絶望だって 拾い集めてさあ
+        en:
+        - Hopelessness Pick it up and collect it
+    - lines:
+      - ol:
+        - 壊しても行こうじゃない
+        en:
+        - We'll go even if we have to break it
+      - ol:
+        - I don’t say that you’re wasting my time
+      - ol:
+        - 後悔はない
+        en:
+        - No regrets
+      - ol:
+        - I kiss myself goodbye
+    - lines:
+      - ol:
+        - 関係ないの Crossing line
+        en:
+        - It doesn't matter, crossing line
+      - ol:
+        - 完成なんてしない様に
+        en:
+        - So that it never gets completed
+      - ol:
+        - 最高潮が分かんないくらいに Let’s get down
+        en:
+        - I don't even know what the highest peak is, Let’s get down
+    - lines:
+      - ol:
+        - 関心ないのは Sorry, Bye
+        en:
+        - Not interested in, sorry, bye
+      - ol:
+        - 全員認める者じゃなくて良い
+        en:
+        - Not everyone has to admit it
+      - ol:
+        - I don’t think I need you this time
+    - lines:
+      - ol:
+        - I’m walking on
+      - ol:
+        - And I don’t wanna shut these paths away
+    - lines:
+      - ol:
+        - Don’t tell me how
+      - ol:
+        - Cuz this is my life to live
+    - lines:
+      - ol:
+        - Again I just let you go.
+      - ol:
+        - I’m over you and carrying on
+      - ol:
+        - 止まってしまいたくは無い
+        en:
+        - I don't want to stop
+      - ol:
+        - 答えなんて 見つけなくていい
+        en:
+        - You don't have to find the answer
+    - lines:
+      - ol:
+        - 壊したら行けるじゃない
+        en:
+        - Because we can go if we break it
+      - ol:
+        - I can’t hold it back anymore
+      - ol:
+        - 後退はない
+        en:
+        - No setbacks
+      - ol:
+        - I kiss myself goodbye
+    - lines:
+      - ol:
+        - I’m walking on
+      - ol:
+        - And I don’t wanna shut these paths away
+    - lines:
+      - ol:
+        - Don’t tell me how
+      - ol:
+        - Cuz this is my life to live
+    - lines:
+      - ol:
+        - So now I just let you go.
+      - ol:
+        - I’m moving on and carrying on.
+      - ol:
+        - どうせ前にしか道は無い
+        en:
+        - There's only one way forward anyway
+      - ol:
+        - 絶望だって 拾い集めてさあ
+        en:
+        - Hopelessness Pick it up and collect it
+    - lines:
+      - ol:
+        - Now I can live my life.
+      - ol:
+        - I’m moving on and carrying on.
+      - ol:
+        - 止まってしまいたくは無い
+        en:
+        - I don't want to stop
+      - ol:
+        - 答えなんて見つけなくていい
+        en:
+        - You don't have to find the answer
+    - lines:
+      - ol:
+        - 壊れても行こうじゃない
+        en:
+        - Let’s go even if it breaks
+      - ol:
+        - I can’t hold it back anymore
+      - ol:
+        - 後退はない
+        en:
+        - No setbacks
+      - ol:
+        - I kiss myself goodbye
+  linked-to:
+  - postximage:
+      post: 1918636722516373576
+      image: GqBc0HhbYAA2VDy
+  - youtubevideo: maFSgVE2vXg
+  - localimage:
+      song: getover
+      id: mvteasercover
+  - youtubevideo: TWbLqba3oag
+  - youtubevideo: 7Neu9jJk-04
+  - youtubeshort: mlR0Jeyhw8Y
+  - youtubeshort: bJG9HXd0aUI
+  - youtubeshort: SnjDhQFrSy0
+  - youtubeshort: sLMQ7FJlRlE
+  - youtubeshort: tQNJQF37lHM
+  - youtubeshort: z2KKJtwO2Ig
+  - youtubeshort: nh6S9mF-9Co
+  - youtubeshort: RMbkWV9zpog
+  - youtubeshort: yPb_nnAC_io
+  - youtubeshort: R5GI-cuX2xM
+  - youtubeshort: 2hdeizLF6LI
+  - youtubeshort: yzKuHzF-YNk
+  - youtubeshort: nDKETw7zIX4
+  - youtubeshort: nLW93jahxIU
+  - youtubeshort: CAvOmtdiHwc
+  - youtubeshort: zwtr-8a_JlY
+  - youtubeshort: CUgtBUOxL1w
+  - youtubeshort: 1VU7-KQyOvg
+  - youtubeshort: BCMkj_OhBmo
+  - youtubeshort: xsnKWL8af5w
+  - youtubeshort: 2ccoTpKr1zw
+  - youtubeshort: 7zWTswPcTo0
+  - youtubeshort: NMkyE7_4wBQ
+  - postx: 1756877181698154611
+  - postx: 1918636722516373576
+  - postx: 1938475589318644015
+  - postyoutube: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X

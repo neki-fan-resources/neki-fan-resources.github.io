@@ -1,0 +1,421 @@
+
+- youtubevideo:
+    id: maFSgVE2vXg
+    label: Music Video Teaser
+    published-date: 2024-04-21
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- localimage:
+    song: getover
+    id: mvteasercover
+    label: Teaser cover
+    filename: mvteasercover.png
+    published-date: 2024-04-21
+    source:
+      description: YouTube video
+    hidden: true
+    linked-to:
+    - song: getover
+
+- youtubevideo:
+    id: TWbLqba3oag
+    label: Official Music Video
+    published-date: 2024-04-24
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubevideo:
+    id: 7Neu9jJk-04
+    label: Kanade Bass play-through
+    published-date: 2024-05-28
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: mlR0Jeyhw8Y
+    label: Promo
+    published-date: 2024-03-17
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: bJG9HXd0aUI
+    label: Promo
+    published-date: 2024-04-04
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: SnjDhQFrSy0
+    label: Teaser
+    published-date: 2024-04-21
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: sLMQ7FJlRlE
+    label: Music Video
+    published-date: 2024-04-24
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: tQNJQF37lHM
+    label: Music Video
+    info: with lyrics
+    published-date: 2024-04-25
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: z2KKJtwO2Ig
+    label: Music Video
+    info: Kanade focus, with lyrics
+    published-date: 2024-04-26
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: nh6S9mF-9Co
+    label: Music Video
+    info: Natsu focus, with lyrics
+    published-date: 2024-04-27
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: RMbkWV9zpog
+    label: Music Video
+    info: Cocoro focus, with lyrics
+    published-date: 2024-04-28
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: yPb_nnAC_io
+    label: Music Video
+    info: Hika focus, with lyrics
+    published-date: 2024-04-29
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: R5GI-cuX2xM
+    label: Music Video
+    info: Natsu focus
+    published-date: 2024-05-01
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: 2hdeizLF6LI
+    label: Music Video
+    info: Kanade focus
+    published-date: 2024-05-02
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: yzKuHzF-YNk
+    label: Music Video
+    info: Hika focus
+    published-date: 2024-05-03
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: nDKETw7zIX4
+    label: Music Video
+    info: Cocoro focus
+    published-date: 2024-05-04
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: nLW93jahxIU
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2024-07-18
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: CAvOmtdiHwc
+    label: Recording
+    info: listening to early versions ?
+    published-date: 2025-03-03
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: zwtr-8a_JlY
+    label: Recording
+    info: having fun with the camera
+    published-date: 2025-04-08
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: CUgtBUOxL1w
+    label: Reaction
+    info: discovering the music video
+    published-date: 2025-04-25
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: 1VU7-KQyOvg
+    label: Music Video
+    info: behind the scenes, packing up
+    published-date: 2025-05-18
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: BCMkj_OhBmo
+    label: Rehearsal
+    info: Hika, Natsu
+    published-date: 2025-05-21
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: xsnKWL8af5w
+    label: Promo
+    info: rehearsal room, studio audio, Kanade
+    published-date: 2025-05-25
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: 2ccoTpKr1zw
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-06-25
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: 7zWTswPcTo0
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-07-15
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: NMkyE7_4wBQ
+    label: Rehearsal
+    info: intro, Hika, Natsu, Kanade
+    published-date: 2025-07-17
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- youtubeshort:
+    id: A0xZ3iTWHTc
+    label: Release
+    info: making CDs by hand
+    published-date: 2025-07-24
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+
+- postx:
+    id: 1756877181698154611
+    account: nekiband_jp
+    published-date: 2024-02-12
+    label: working on the song
+    text: |
+      オリジナル曲進んでます
+      3人バージョンです！
+      https://vt.tiktok.com/ZSFYf2t2L/
+      #NEKI
+      
+    video:
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1756877181698154611
+        video: 01
+    - song: getover
+
+- postxvideo:
+    post: 1756877181698154611
+    id: 01
+    label: Early rehearsal
+    cover: 1756877146625376256/pu/img/3LM-WUtzAWegXPis.jpg
+    published-date: 2024-02-12
+    info: Hika, Kanade, Cocoro
+    context:
+    - song: getover
+    linked-to:
+    - song: getover
+    - postx: 1756877181698154611
+
+- postx:
+    id: 1918636722516373576
+    account: nekiband_jp
+    published-date: 2025-05-03
+    label: announcement Get Over live video
+    text: |
+      ❤️‍🔥LIVE VIDEO❤️‍🔥
+      
+      明日5/4(日)21:00
+      
+      「NEK! DEBUT YEAR LAST LIVE」
+      @下北沢シャングリラ から
+      
+      "Get Over" Official Live Video
+      YouTubeにてプレミア公開🎥
+      
+      公開時にはメンバーもチャット欄に参加します🙌
+      
+      ▶ https://youtu.be/IeBks9yGO4A
+      
+      #NEKI #GetOver
+      
+    image:
+    - GqBc0HhbYAA2VDy
+    linked-to:
+    - postximage:
+        post: 1918636722516373576
+        image: GqBc0HhbYAA2VDy
+    - song: getover
+
+- postximage:
+    post: 1918636722516373576
+    id: GqBc0HhbYAA2VDy
+    label: Natsu
+    published-date: 2025-05-03
+    context:
+    - song: getover
+    linked-to:
+    - postx: 1918636722516373576
+
+- postx:
+    id: 1938475589318644015
+    account: 46_hikaa
+    published-date: 2025-06-27
+    label: testing gopro on guitar
+    text: |
+      はじめてGoPro付けたよ！
+      
+      ライブでもやりた〜い🌟
+      
+      #ネキ界隈  #GetOver
+      
+    video:
+    - 01
+    linked-to:
+    - postxvideo:
+        post: 1938475589318644015
+        video: 01
+    - song: getover
+
+- postxvideo:
+    post: 1938475589318644015
+    id: 01
+    label: test gopro
+    cover: 1938475521194778624/img/vCtxzub80oRpOWEL.jpg
+    published-date: 2025-06-27
+    info: rehearsal, Hika
+    context:
+    - song: getover
+    linked-to:
+    - postx: 1938475589318644015
+
+- postyoutube:
+    id: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+    account: neki_official
+    published-date: 2024-06-03
+    label: release
+    text: |
+      NEK! 初のオリジナル曲
+      「Get Over」
+      
+      ただいまより配信開始！
+      たくさん聴いてください❣️
+      
+      https://lnk.to/HVGeas
+      
+    image:
+    - p2OVdh2QjQJG80H6SNAENZWls54Ky12ooG16av0yaF4o-L6QYeYO-YI1reWmT4qGYGkpKQSYIk1Cveo
+    linked-to:
+    - postyoutubeimage:
+        post: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+        image: p2OVdh2QjQJG80H6SNAENZWls54Ky12ooG16av0yaF4o-L6QYeYO-YI1reWmT4qGYGkpKQSYIk1Cveo
+    - song: getover
+
+- postyoutubeimage:
+    post: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+    id: p2OVdh2QjQJG80H6SNAENZWls54Ky12ooG16av0yaF4o-L6QYeYO-YI1reWmT4qGYGkpKQSYIk1Cveo
+    label: cover
+    published-date: 2024-06-03
+    local-copy: true
+    context:
+    - song: getover
+    linked-to:
+    - postyoutube: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+
+- youtubeshort:
+    id: ucrOIJfESpo
+    label: Rehearsal
+    info: Cocoro, kick cam
+    published-date: 2025-07-31
+    context:
+    - song: getover
+

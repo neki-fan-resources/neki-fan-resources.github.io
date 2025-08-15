@@ -52,5 +52,36 @@
         year: 2025
         id: internetbabies
 
+- postx:
+    id: 1955576715851575746
+    account: cure_bass_baka
+    label: Reigen Girl at INTERNET BaBIES
+    published-date: 2025-08-13
+    text: |
+      『令現少女-NEK!』
+      この前あげたのと同じ日の2サビさん
+      #NEKI  #ネキ界隈  #拡散中
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- postxvideo:
+    post: 1955576715851575746
+    id: 01
+    cover: 1955576083182682112/img/1wfw4szg8_HNenS5.jpg
+    label: Live
+    published-date: 2025-08-13
+    info: Kanade
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: reigengirl
+    part-of:
+      postx: 1955576715851575746
+
 
 

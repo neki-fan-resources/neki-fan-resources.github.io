@@ -1,0 +1,29 @@
+
+- postx:
+    id: 1956194665641992559
+    account: coco_102
+    label: Rehearsal Get Over
+    published-date: 2025-08-15
+    text: |
+      Zeppワンマンに向けての準備も着々と進んでます！
+      汗だく必至のガツガツ体力勝負セトリになってるので、みんなもしっかり最後までついてきてね〜✊🏻🔥
+
+      8/30の景色を想像しながらリハ頑張ります！！
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: getover
+
+- postxvideo:
+    post: 1956194665641992559
+    id: 01
+    cover: 1956194419071438848/img/0xt5ooWjeZYYZ1Eb.jpg
+    label: Rehearsal
+    info: Cocoro
+    published-date: 2025-08-15
+    context:
+    - song: getover
+    part-of:
+      postx: 1956194665641992559

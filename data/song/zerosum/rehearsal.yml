@@ -1,0 +1,28 @@
+- postx:
+    id: 1955168434913952216
+    account: coco_102
+    label: Rehearsal zero-sum
+    published-date: 2025-08-12
+    text: |
+      🙆🏻‍♀️zero-sum🙆🏻‍♀️
+
+      派手なおかずが目立つ曲だけど
+      1Aのいろんなビートてんこ盛りゾーンも好き👊🏻❤️‍🔥
+      右端の鏡に映る忙しない足もお楽しみください笑
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postxvideo:
+    post: 1955168434913952216
+    id: 01
+    cover: 1955168233520308224/img/nn5XMiKYzwZ1z9yR.jpg
+    label: Rehearsal
+    published-date: 2025-08-12
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1955168434913952216

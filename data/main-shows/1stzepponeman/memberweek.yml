@@ -74,5 +74,36 @@
           year: 2025
           id: 1stzepponeman
 
+- youtubeshort:
+    id: 23T_K9ejBUI
+    label: Kanade's week
+    published-date: 2025-08-12
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      group:
+        id: membersweek
+        show:
+          year: 2025
+          id: 1stzepponeman
+
+- youtubeshort:
+    id: DnMhjnkT3eo
+    label: Kanade's week
+    published-date: 2025-08-13
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      group:
+        id: membersweek
+        show:
+          year: 2025
+          id: 1stzepponeman
+
+
 
 

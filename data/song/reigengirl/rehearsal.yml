@@ -34,3 +34,29 @@
     - song: reigengirl
     linked-to:
     - song: reigengirl
+
+- postx:
+    id: 1955966782872936961
+    account: 46_hikaa
+    label: Rehearsal Reigen Girl
+    published-date: 2025-08-14
+    text: |
+      リハしてきたよ✌🏻
+
+      #ネキ界隈  #NEKI
+    video:
+    - 01
+    part-of:
+      song: reigengirl
+
+- postxvideo:
+    post: 1955966782872936961
+    id: 01
+    cover: 1955966717542457344/img/_Zsez2zszjDxZv1Y.jpg
+    label: Rehearsal
+    info: Hika, outro
+    published-date: 2025-08-14
+    context:
+    - song: reigengirl
+    part-of:
+      postx: 1955966782872936961

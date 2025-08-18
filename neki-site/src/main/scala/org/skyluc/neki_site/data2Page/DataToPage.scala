@@ -28,6 +28,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
         Seq(
           Path("postximage.css"),
           Path("component", "lyrics.css"),
+          Path("component", "socialmediacard.css"),
           Path("component", "updatessection.css"),
         ),
         "styles-fr.css",
@@ -56,7 +57,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
           Path("component", "newsblock.css"),
           Path("component", "overlay.css"),
           Path("component", "smallcard.css"),
-          Path("component", "socialmediacard.css"),
           Path("component", "chronology.css"),
           Path("component", "markercard.css"),
         ),

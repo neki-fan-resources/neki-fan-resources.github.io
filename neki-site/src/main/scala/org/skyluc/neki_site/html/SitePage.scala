@@ -32,9 +32,9 @@ abstract class SitePage(override val description: PageDescription, site: dSite) 
         HeadComponents.searchEngineVerification(GOOGLE_VERIFICATION_CODE, MICROSOFT_VERIFICATION_CODE)
       } else { Nil },
       if (description.isDark) {
-        HeadComponents.css(CSS_PATH, CSS_FR_PATH, CSS_DARK_PATH)
+        HeadComponents.css(CSS_FR_PATH, CSS_PATH, CSS_DARK_PATH)
       } else {
-        HeadComponents.css(CSS_PATH, CSS_FR_PATH)
+        HeadComponents.css(CSS_FR_PATH, CSS_PATH)
       },
       HeadComponents.icons(HREF_ICON_512),
       OpenGraphSection.generate(description),

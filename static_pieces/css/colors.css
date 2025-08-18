@@ -43,6 +43,19 @@
   --color-text: black;
   --color-text-red: darkred;
 
+  --color-lyrics-section-even: var(--color-natsu-05);
+  --color-lyrics-section-odd: var(--color-cocoro-05);
+  --color-lyrics-line-even: var(--color-kanade-05);
+  --color-lyrics-line-odd: var(--color-hika-10);
+
+  --color-lyrics-ro: var(--color-natsu-dark);
+  --color-lyrics-ww: var(--color-kanade);
+  --color-lyrics-en: var(--color-cocoro-dark);
+  --color-lyrics-gg: var(--color-cocoro-dark);
+  --color-lyrics-atr: var(--color-cocoro-dark);
+  --color-lyrics-aro: var(--color-cocoro);
+
+
   --gradient-bar: linear-gradient(120deg,
       var(--color-kanade-cocoro-light) 0%,
       var(--color-kanade-light) 5%,

@@ -24,6 +24,15 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
 
     val cssStyles = Seq(
       CssPage(
+        static_pieces_fr.resolve("css"),
+        Seq(
+          Path("postximage.css"),
+          Path("component", "lyrics.css"),
+          Path("component", "updatessection.css"),
+        ),
+        "styles-fr.css",
+      ),
+      CssPage(
         static_pieces.resolve("css"),
         Seq(
           Path("colors.css"),
@@ -41,7 +50,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
           Path("component", "coverimage.css"),
           Path("component", "largedetails.css"),
           Path("component", "linecard.css"),
-          Path("component", "lyrics.css"),
           Path("component", "mediumcard.css"),
           Path("component", "mediumdetails.css"),
           Path("component", "multimediacard.css"),
@@ -53,14 +61,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
           Path("component", "markercard.css"),
         ),
         "styles.css",
-      ),
-      CssPage(
-        static_pieces_fr.resolve("css"),
-        Seq(
-          Path("postximage.css"),
-          Path("component", "updatessection.css"),
-        ),
-        "styles-fr.css",
       ),
     )
 

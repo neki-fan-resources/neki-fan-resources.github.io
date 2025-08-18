@@ -1,0 +1,30 @@
+
+- youtubeshort:
+    id: XFmBGAFdnE0
+    label: Promo
+    info: studio audio, Kanade
+    published-date: 2025-08-15
+    part-of:
+      show: 
+        year: 2025
+        id: internetbabies
+    context:
+    - show: 
+        year: 2025
+        id: internetbabies
+    - song: ripoff
+
+- youtubeshort:
+    id: qQznYrBRzx0
+    label: Promo
+    info: studio audio
+    published-date: 2025-08-17
+    part-of:
+      show: 
+        year: 2025
+        id: internetbabies
+    context:
+    - show: 
+        year: 2025
+        id: internetbabies
+    - song: dreams

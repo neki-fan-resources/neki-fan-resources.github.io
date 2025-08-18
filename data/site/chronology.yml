@@ -32,6 +32,9 @@ contentpage:
   - show:
       year: 2025
       id: 1stzepponeman
+  - media:
+      year: 2025
+      id: radionippon-sweet
   - song: ripoff
 # aug
   - show:
@@ -287,6 +290,10 @@ contentpage:
   - show:
       year: 2025
       id: recommendjunction
+    short: true
+  - media:
+      year: 2025
+      id: radionippon-sweet
     short: true
   - show:
       year: 2025

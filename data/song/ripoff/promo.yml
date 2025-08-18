@@ -30,3 +30,18 @@
       group:
         id: promo
         song: ripoff
+
+- youtubeshort:
+    id: mR1bQ9K8qLM
+    label: Promo
+    info: studio audio, rehearsal room
+    published-date: 2025-08-16
+    part-of:
+      show: 
+        year: 2025
+        id: internetbabies
+    context:
+    - show: 
+        year: 2025
+        id: internetbabies
+    - song: ripoff

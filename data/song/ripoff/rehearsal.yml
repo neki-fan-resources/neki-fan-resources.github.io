@@ -1,0 +1,31 @@
+
+- postx:
+    id: 1957004284782055894
+    account: 46_hikaa
+    label: rehearsal rip-off
+    published-date: 2025-08-17
+    text: |
+      初のZeppワンマンまであと14日👀.ᐟ.ᐟ
+
+      ここから更にリハは本気モード
+
+      忘れられん一日にするぞぉ！
+
+      #ネキ界隈 #NEKI
+
+    part-of:
+      song: ripoff
+
+- postxvideo:
+    post: 1957004284782055894
+    id: 01
+    cover: 1957004215852908544/img/9sszIEGufGcbOmD1.jpg
+    label: Rehearsal
+    published-date: 2025-08-17
+    part-of: 
+      postx: 1957004284782055894
+    context:
+    - song: ripoff
+    - show:
+        year: 2025
+        id: 1stzepponeman

@@ -15,7 +15,10 @@ song:
     - postxvideo:
         post: 1953025441515921602
         video: 01
-
+    short:
+    - postxvideo:
+        post: 1957004284782055894
+        video: 01
 
   lyrics:
     status:

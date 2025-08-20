@@ -135,4 +135,33 @@
           year: 2025
           id: 1stzepponeman
 
+- youtubeshort:
+    id: 6BjdwHQ2ISY
+    label: Hika's week
+    published-date: 2025-08-19
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      group:
+        id: membersweek
+        show:
+          year: 2025
+          id: 1stzepponeman
+
+- youtubeshort:
+    id: voMXU8Owu3Q
+    label: Hika's week
+    published-date: 2025-08-19
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      group:
+        id: membersweek
+        show:
+          year: 2025
+          id: 1stzepponeman
 

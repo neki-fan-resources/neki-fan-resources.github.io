@@ -419,3 +419,34 @@
     context:
     - song: getover
 
+- postx:
+    id: 1957813871802216509
+    account: natsu08_guitar
+    label: Live
+    info: TODO - which show, sendai ?
+    published-date: 2025-08-19
+    text: |
+      Zeppまであと１１日……！
+
+      早くみんなの声が聞きたいー！！！
+      声枯らす準備、できてる？📣
+
+      #ネキ界隈 #拡散中
+    video:
+    - 01
+    part-of:
+      song: getover
+
+- postxvideo:
+    post: 1957813871802216509
+    id: 01
+    cover: 1957813790210445312/img/LMBCErFTb75g6hVD.jpg
+    label: Live
+    published-date: 2025-08-19
+    part-of:
+      postx: 1957813871802216509
+    context:
+    - song: getover
+
+
+

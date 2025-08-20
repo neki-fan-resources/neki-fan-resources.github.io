@@ -12,7 +12,8 @@
       忘れられん一日にするぞぉ！
 
       #ネキ界隈 #NEKI
-
+    video:
+    - 01
     part-of:
       song: ripoff
 
@@ -29,3 +30,33 @@
     - show:
         year: 2025
         id: 1stzepponeman
+
+- postx:
+    id: 1957416293554155743
+    account: cure_bass_baka
+    label: rip-off rehearsal
+    published-date: 2025-08-18
+    text: |
+      りっぷおふのリハ
+      #NEKI  #ネキ界隈  #拡散中
+    video:
+    - 01
+    part-of:
+      song: ripoff
+
+- postxvideo:
+    post: 1957416293554155743
+    id: 01
+    cover: 1957416134963236864/img/_tuOjyu29FAaMY4I.jpg
+    label: Rehearsal
+    published-date: 2025-08-18
+    part-of: 
+      postx: 1957416293554155743
+    context:
+    - song: ripoff
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+
+

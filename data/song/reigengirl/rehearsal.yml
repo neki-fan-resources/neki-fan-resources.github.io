@@ -60,3 +60,39 @@
     - song: reigengirl
     part-of:
       postx: 1955966782872936961
+
+- postx:
+    id: 1958088489481761213
+    account: coco_102
+    label: Rehearsal
+    published-date: 2025-08-20
+    text: |
+      初Zeppワンマンまであと10日になりました！
+      早いなー！ほんとあっという間！！
+      ギリギリまで調整してみんなに私たちらしい最高の音をお届けしたいと思います🔥
+
+      ※扇風機で煽られて黒死牟を彷彿とさせる感じになっていますがお気になさらず笑
+
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: reigengirl
+
+- postxvideo:
+    post: 1958088489481761213
+    id: 01
+    cover: 1958088353108377600/img/7nMnNOvaQxRK4Chx.jpg
+    label: Rehearsal
+    info: Cocoro
+    published-date: 2025-08-20
+    part-of:
+      postx: 1958088489481761213
+    context:
+    - song: reigengirl
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+
+

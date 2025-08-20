@@ -119,4 +119,20 @@
           year: 2025
           id: 1stzepponeman
 
+- youtubeshort:
+    id: vIKJuqDm-fE
+    label: Kanade's week
+    info: English-subtitled
+    published-date: 2025-08-20
+    context: 
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      group:
+        id: membersweek
+        show:
+          year: 2025
+          id: 1stzepponeman
+
 

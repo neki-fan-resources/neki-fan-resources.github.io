@@ -6,8 +6,14 @@ song:
     postximage:
       post: 1949439923565826120
       image: Gw3NH3ubMAA1o7y
+  description:
+  - '"rip-off" explores the pressure to conform to popular beauty standards while simultaneously longing to be seen for who you truly are, not for who society wants you to be. It also expresses the internal conflict of wanting to disappear and wanting to be found.'
+  - It is the second single release following the EP "TR!CK TAK!NG".
+  - The song was announced on July 27th, with a digital release on August 6th. The Official Music Video was announced on August 22th, with a video teaser, and released on August 23th.
 
   multimedia:
+    video:
+    - youtubevideo: OkQV2Vo9EgE
     live:
     - postxvideo:
         post: 1953425358717591622
@@ -22,6 +28,8 @@ song:
     - postxvideo:
         post: 1957004284782055894
         video: 01
+    additional:
+    - youtubevideo: pnJR-FNVILE
 
   lyrics:
     status:

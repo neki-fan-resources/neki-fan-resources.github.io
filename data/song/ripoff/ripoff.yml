@@ -7,11 +7,13 @@ song:
       post: 1949439923565826120
       image: Gw3NH3ubMAA1o7y
   description:
-  - '"rip-off" explores the pressure to conform to popular beauty standards while simultaneously longing to be seen for who you truly are, not for who society wants you to be. It also expresses the internal conflict of wanting to disappear but still wanting to be found.'
-  - It is the second single release following the EP "TR!CK TAK!NG".
+  - '"rip-off" addresses the pressure to conform to the popular beauty standards, the push to copy others, resulting in having a "borrowed face." The lyrics express a conflict between wanting to be "transparent" to avoid judgment, and the desire to still be seen by others, while staying yourself.'
+  - It is the second single released following the EP "TR!CK TAK!NG".
   - The song was announced on July 27th, with a digital release on August 6th. The Official Music Video was announced on August 22th, with a video teaser, and released on August 23th.
 
   multimedia:
+    main:
+      youtubevideo: OkQV2Vo9EgE
     video:
     - youtubevideo: OkQV2Vo9EgE
     live:
@@ -34,17 +36,17 @@ song:
   lyrics:
     status:
       code: warning
-      description: Data copied from the sources. Not reviewed.
+      description: Data copied from the sources. Not fully reviewed.
     languages:
     - id: ol
       name: original lyrics
-      details: (from lyricfind)
+      details: (from the YouTube Official Music Video subtitles)
       active: true
       fixed: true
       no-translation: true
       source:
-        description: from LyricFind
-        url: 'https://lyrics.lyricfind.com/lyrics/nek-rip-off'
+        description: from the YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=OkQV2Vo9EgE
     - id: ro
       name: rōmaji
       active: true
@@ -54,12 +56,19 @@ song:
       details: (using jisho.org)
       base-url: 'https://jisho.org/search/'
       url-text: J
+    - id: en
+      name: english translation
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: https://www.youtube.com/watch?v=OkQV2Vo9EgE
     sections:
     - lines:
       - ol:
         - あ
         - '、'
-        - かわいく ない
+        - かわいくない
         - と
         - 0点
         - です
@@ -83,6 +92,8 @@ song:
         - w: is
           d: です
         - d: あ、かわいくないと0点です
+      - en:
+        - Ah, if you’re not cute, you’re worth zero
       - ol:
         - こんな
         - 世界
@@ -103,6 +114,8 @@ song:
         - w: too much
           d: すぎる
         - d: こんな世界ブスすぎる
+        en:
+        - This world is just too ugly to bear
       - ol:
         - それでも
         - 終わらせる
@@ -134,6 +147,8 @@ song:
         - w: it seems like
           d: みたいなんです
         - d: それでも終わらせるのは NGみたいなんです
+        en:
+        - But it seems ending it all is still off-limits
     - lines:
       - ol:
         - できるだけ
@@ -155,6 +170,8 @@ song:
         - w: becoming
           d: なって
         - d: できるだけ透明になって
+        en:
+        - I try to be as transparent as I can
       - ol:
         - でも
         - 見つけられない
@@ -179,6 +196,8 @@ song:
         - w: I hate it
           d: 嫌だ
         - d: でも見つけられないのは嫌だ
+        en:
+        - Yet I hate it if no one ever finds me
       - ol:
         - 「どんな君でも」
         - なんて
@@ -199,25 +218,32 @@ song:
         - w: however
           d: けれど
         - d: 「どんな君でも」なんてよく聞くけれど
+        en:
+        - “You’re fine the way you are”. I’ve heard that line before
       - ol:
         - …
         - あれ
+        - '、'
         - 聞いたことない
         - わ
         ro:
         - ''
         - are
+        - ''
         - kiita koto nai
         - wa
         ww:
         - ''
         - w: Huh?
           d: are
+        - ''
         - w: never heard that
           d: kiita koto nai
         - w: (emphasis)
           d: wa
         - d: …あれ、聞いたことないわ
+        en:
+        - …Or maybe I never really have
     - lines:
       - ol:
         - あの子
@@ -243,6 +269,8 @@ song:
         - w: cut
           d: 切って
         - d: あの子の真似して髪切って
+        en:
+        - Cut my hair to copy her style
       - ol:
         - あの子
         - と
@@ -267,6 +295,8 @@ song:
         - w: putting
           d: 塗って
         - d: あの子と同じリップ塗って
+        en:
+        - Painted my lips the same shade she wears
       - ol:
         - なりたい自分
         - なんて
@@ -302,6 +332,8 @@ song:
         - w: threw away
           d: 捨てた
         - d: なりたい自分なんてもんは お前らが捨てた
+        en:
+        - That “self I want to be”? You all threw it away
       - ol:
         - みんな
         - 好きな
@@ -330,6 +362,8 @@ song:
         - w: too
           d: も
         - d: みんな好きな%22あの子%22は今日も
+        en:
+        - The girl everyone loves is once again
       - ol:
         - 同担
         - 拒否
@@ -350,6 +384,8 @@ song:
         - w: festival
           d: 祭り
         - d: 同担拒否ミュート祭り
+        en:
+        - Muting, blocking, shutting others out
       - ol:
         - なんで？
         - 泣いてないで
@@ -370,6 +406,8 @@ song:
         - w: say
           d: 言って
         - d: なんで？泣いてないでなんか言って
+        en:
+        - Why? Don’t just cry say something
     - lines:
       - ol:
         - 不完全
@@ -402,6 +440,8 @@ song:
         - w: addiction
           d: 依存
         - d: 不完全な世界 完全な依存
+        en:
+        - An imperfect world, a perfect dependence
       - ol:
         - 泥まみれ
         - で
@@ -422,6 +462,8 @@ song:
         - w: (emphasis)
           d: わ
         - d: 泥まみれで生きていたいわ
+        en:
+        - I want to live, even if I’m covered in mud
       - ol:
         - それ
         - を
@@ -465,6 +507,8 @@ song:
         - w: caress
           d: 撫でて
         - d: それを綺麗だと笑って その手で撫でて
+        en:
+        - Laugh at it, call it beautiful, and stroke me with those hands
       - ol:
         - 不完全
         - な
@@ -492,6 +536,8 @@ song:
         - w: ideal
           d: 理想
         - d: 不完全な世界 感染した理想
+        en:
+        - An imperfect world, a contagious ideal
       - ol:
         - 治せない
         - から
@@ -512,6 +558,8 @@ song:
         - w: (emphasis)
           d: わ
         - d: 治せないからもうこれでいいわ
+        en:
+        - It can’t be cured, so I’ll just leave it this way
       - ol:
         - まだまだ
         - ずっと
@@ -552,6 +600,8 @@ song:
         - w: don't want to
           d: したくない
         - d: まだまだずっと先の未来なんて想像もしたくない
+        en:
+        - I don’t even want to imagine some distant future ahead
     - lines:
       - ol:
         - もう
@@ -573,6 +623,8 @@ song:
         - w: I want to skip
           d: スキップしたい
         - d: もう5秒後にスキップしたい
+        en:
+        - I wish I could skip ahead five seconds
       - ol:
         - それで
         - 1日
@@ -593,6 +645,8 @@ song:
         - w: if
           d: も
         - d: それで1日終わっても
+        en:
+        - Even if that means losing the whole day
       - ol:
         - みんな
         - そんなもん
@@ -621,6 +675,8 @@ song:
         - w: (emphasis)
           d: よ
         - d: みんなそんなもんだからって諦められるよ
+        en:
+        - I could just give up, thinking everyone’s the same anyway
     - lines:
       - ol:
         - できるだけ
@@ -642,6 +698,8 @@ song:
         - w: becoming
           d: なって
         - d: できるだけ透明になって
+        en:
+        - I try to be as transparent as I can
       - ol:
         - 変わり映えない
         - 明日
@@ -662,6 +720,8 @@ song:
         - w: saw
           d: 見た
         - d: 変わり映えない明日を見た
+        en:
+        - But tomorrow looks no different than today
       - ol:
         - 「
         - どんな
@@ -692,6 +752,8 @@ song:
         - w: don't make me laugh
           d: 笑わせないで
         - d: 「どんな僕でも」なんて笑わせないで
+        en:
+        - “Love me as I am”? Don’t make me laugh
       - ol:
         - 3日
         - で
@@ -712,6 +774,8 @@ song:
         - w: (emphasis)
           d: わ
         - d: 3日で忘れるわ
+        en:
+        - I’ll forget it in three days
     - lines:
       - ol:
         - 四角
@@ -737,6 +801,8 @@ song:
         - w: (emphasis)
           d: よ
         - d: 四角にしか切り取れないよ
+        en:
+        - All I see are cropped-out squares
       - ol:
         - 空
         - の
@@ -761,6 +827,8 @@ song:
         - w: not remember
           d: 覚えてないし
         - d: 空の色も覚えてないし
+        en:
+        - I don’t even remember the color of the sky
       - ol:
         - 全然
         - 窮屈
@@ -789,6 +857,8 @@ song:
         - w: make me think
           d: 思い込ませて
         - d: 全然窮屈じゃないよって思い込ませて
+        en:
+        - Telling myself this box isn’t suffocating
       - ol:
         - みんな
         - の
@@ -813,6 +883,8 @@ song:
         - w: ''
           d: なんて
         - d: みんなの好きな%22あの子%22なんて
+        en:
+        - That “perfect girl” everyone adores
       - ol:
         - 1人
         - も
@@ -829,6 +901,8 @@ song:
         - w: doesn't exist
           d: 存在しない
         - d: 1人も存在しない
+        en:
+        - She doesn’t exist at all
       - ol:
         - でも
         - いないといないで
@@ -845,6 +919,8 @@ song:
         - w: can't help but feel anxious
           d: 不安でしょうがなくて
         - d: でもいないといないで不安でしょうがなくて
+        en:
+        - But if she didn’t, I’d feel unbearably uneasy
     - lines:
       - ol:
         - 不安定
@@ -869,6 +945,8 @@ song:
         - w: is being restricted
           d: 制限されてる
         - d: 不安定だ世界 制限されてる
+        en:
+        - Unstable world, bound by limits
       - ol:
         - 借り物
         - の
@@ -897,6 +975,8 @@ song:
         - w: (emphasis)
           d: わ
         - d: 借り物の顔じゃ生きていけないわ
+        en:
+        - I can’t live with a borrowed face
       - ol:
         - '"'
         - どれも
@@ -935,6 +1015,8 @@ song:
         - w: strange, isn't it
           d: 変ね
         - d: '%22どれも綺麗だ%22と歌っているくせに変ね'
+        en:
+        - “You’re all beautiful” funny how they sing that
       - ol:
         - 不安定
         - だ
@@ -952,6 +1034,8 @@ song:
         - w: constantly updated
           d: 更新されていく
         - d: 不安定だ世界 更新されていく
+        en:
+        - Unstable world, always updating
       - ol:
         - 1日
         - で
@@ -976,6 +1060,8 @@ song:
         - w: sort of
           d: みたい
         - d: 1日で消えてしまうアレみたい
+        en:
+        - Like a story that vanishes in a single day
       - ol:
         - まだまだ
         - ずっと
@@ -1012,6 +1098,8 @@ song:
         - w: don't even have time to
           d: 暇もない
         - d: まだまだずっと先の明日を考える暇もない
+        en:
+        - I don’t even have time to think of tomorrow ahead
     - lines:
       - ol:
         - あの子
@@ -1037,6 +1125,8 @@ song:
         - w: cut
           d: 切って
         - d: あの子の真似して髪切って
+        en:
+        - Cut my hair to copy her style
       - ol:
         - あの子
         - と
@@ -1061,6 +1151,8 @@ song:
         - w: putting
           d: 塗って
         - d: あの子と同じリップ塗って
+        en:
+        - Painted my lips the same shade she wears
       - ol:
         - なりたい自分
         - なんて
@@ -1096,6 +1188,8 @@ song:
         - w: threw away
           d: 捨てた
         - d: なりたい自分なんてもんは お前らが捨てた
+        en:
+        - That “self I want to be”? You all threw it away
       - ol:
         - あの子
         - と
@@ -1116,6 +1210,8 @@ song:
         - w: (emphasis)
           d: よ
         - d: あの子と一緒にはしないよ
+        en:
+        - But don’t you dare compare me with her
       - ol:
         - 下位互換
         - にすらなれない
@@ -1132,6 +1228,8 @@ song:
         - w: (emphasis)
           d: よ
         - d: 下位互換にすらなれないよ
+        en:
+        - I can’t even be her second-rate copy
       - ol:
         - なんで
         - なんで
@@ -1156,6 +1254,8 @@ song:
         - w: why
           d: なんで
         - d: なんでなんでなんでなんでなんで
+        en:
+        - Why, why, why, why, why...?
     - lines:
       - ol:
         - 目
@@ -1185,6 +1285,8 @@ song:
         - w: ''
           d: が
         - d: 目を閉じて見つけたのが
+        en:
+        - Close your eyes and if someone’s there
       - ol:
         - 私
         - でありますように
@@ -1201,6 +1303,8 @@ song:
         - w: ''
           d: って
         - d: 私でありますようにって
+        en:
+        - I wish the one you find is me
       - ol:
         - まだ
         - 思ってしまう
@@ -1217,6 +1321,8 @@ song:
         - w: (emphasis)
           d: よ
         - d: まだ思ってしまうよ
+        en:
+        - I still can’t help but wish for that
     - lines:
       - ol:
         - 不完全
@@ -1249,6 +1355,8 @@ song:
         - w: addiction
           d: 依存
         - d: 不完全な世界 完全な依存
+        en:
+        - An imperfect world, a perfect dependence
       - ol:
         - 泥まみれ
         - で
@@ -1269,6 +1377,8 @@ song:
         - w: (emphasis)
           d: わ
         - d: 泥まみれで生きていたいわ
+        en:
+        - I want to live, even if I’m covered in mud
       - ol:
         - それ
         - を
@@ -1297,6 +1407,8 @@ song:
         - w: laugh
           d: 笑って
         - d: それを綺麗だと笑って
+        en:
+        - Laugh at it, call it beautiful
       - ol:
         - まだまだ
         - 先
@@ -1325,6 +1437,8 @@ song:
         - w: I won't let it end
           d: 終わらせてやらない
         - d: まだまだ先の未来だって終わらせてやらない
+        en:
+        - And I won’t let this faraway future end just yet
 
 
 

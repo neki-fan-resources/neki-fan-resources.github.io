@@ -90,7 +90,8 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
   override def processContentPage(contentPage: ContentPage): Seq[SitePage] =
     pContentPage.pageFor(contentPage, site, generator)
 
-  override def processEvent(event: Event): Seq[SitePage] = NO_DATA
+  override def processEvent(event: Event): Seq[SitePage] =
+    EventPage.pagesFor(event, site, generator)
 
   override def processGroup(group: Group): Seq[SitePage] = NO_DATA
 

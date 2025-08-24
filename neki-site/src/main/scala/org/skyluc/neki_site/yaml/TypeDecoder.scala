@@ -3,6 +3,8 @@ package org.skyluc.neki_site.yaml
 import org.skyluc.fan_resources.data.Datum
 import org.skyluc.fan_resources.data.GenId
 import org.skyluc.fan_resources.data.Id
+import org.skyluc.fan_resources.yaml.DatumAttributesBuilderImpl
+import org.skyluc.fan_resources.yaml.DatumBuilder
 import org.skyluc.fan_resources.yaml.FrDecoders
 import org.skyluc.fan_resources.yaml.ParserError
 import org.skyluc.fan_resources.yaml.YamlKeys.*
@@ -27,15 +29,18 @@ object NekiSiteDecoders extends FrDecoders {
 }
 
 case class SiteBuilder(
+    attributesBuilder: DatumAttributesBuilderImpl = DatumAttributesBuilderImpl(),
     navigation: Option[d.Navigation] = None,
     band: Option[d.Band] = None,
     news: Option[List[d.BandNews]] = None,
-    errors: Seq[ParserError] = Seq(),
-) extends ObjectBuilder[d.Site, SiteBuilder, FrDecoders] {
+) extends DatumBuilder[d.Site, SiteBuilder] {
+
+  override def copyWithAttributesBuilder(attributesBuilder: DatumAttributesBuilderImpl) =
+    copy(attributesBuilder = attributesBuilder)
+
+  override def setLinkedTo(linkedTo: Option[Seq[Id[?]]]): SiteBuilder = this
 
   import ObjectBuilder.*
-
-  override def setErrors(errs: Seq[ParserError]): SiteBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
@@ -45,8 +50,10 @@ case class SiteBuilder(
       navigation <- checkDefined(NAVIGATION, navigation)
       band <- checkDefined(BAND, band)
       news <- checkDefined(NEWS, news)
+      attributes <- attributesBuilder.get()
     } yield {
       d.Site(
+        attributes,
         navigation,
         band,
         Nil,

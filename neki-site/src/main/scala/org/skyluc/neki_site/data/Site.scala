@@ -3,6 +3,7 @@ package org.skyluc.neki_site.data
 import org.skyluc.fan_resources.data.{Processor as _, WithProcessor as _, *}
 
 case class Site(
+    attributes: DatumAttributes,
     navigation: Navigation,
     band: Band,
     youtubevideo: List[RefMediaIds],
@@ -13,8 +14,6 @@ case class Site(
 ) extends Datum[Site]
     with WithProcessor {
   val id = Site.ID
-
-  val partOf: Id[?] = Id.ROOT
 
   override def process[T](processor: Processor[T]): T =
     processor.processSite(this)

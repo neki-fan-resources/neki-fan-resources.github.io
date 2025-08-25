@@ -287,6 +287,7 @@
     label: Live
     info: with lyrics
     published-date: 2025-01-16
+    todo: song ? song6
     context:
     - show:
         year: 2024
@@ -315,6 +316,7 @@
     id: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
     account: neki_official
     published-date: 2024-06-03
+    todo: double check published date with X post
     label: announcement
     text: |
       11/24(日)開催

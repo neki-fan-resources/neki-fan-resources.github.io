@@ -34,6 +34,7 @@
     id: 387bkUm7Dko
     label: Album Teaser
     published-date: 2024-06-03
+    todo: check date
     context:
     - album: exclamation
     linked-to:
@@ -45,6 +46,7 @@
     label: Teaser cover
     filename: teasercover.png
     published-date: 2024-06-03
+    todo: check date
     source:
       description: YouTube video
     hidden: true
@@ -55,6 +57,7 @@
     id: YRmeizMwd1Y
     label: Album Teaser
     published-date: 2024-06-03
+    todo: check date
     context:
     - album: exclamation
     linked-to:
@@ -64,6 +67,7 @@
     id: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
     account: neki_official
     published-date: 2024-06-03
+    todo: check date
     label: announcement
     text: |
       ◤￣￣￣￣￣￣￣￣￣￣◥

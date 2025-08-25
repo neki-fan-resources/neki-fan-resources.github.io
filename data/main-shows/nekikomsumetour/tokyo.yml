@@ -3,6 +3,7 @@
     id: nekikomsumetokyo
     fullname: Tokyo - 「NEK!/komsume TWO-MAN SHOW」
     sublabel: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+    todo: event-page
     date: 2025-06-02
     location: 下北沢 Shelter
     tour: nekikomsume2025
@@ -51,6 +52,7 @@
     label: cover
     filename: cover400.png
     published-date: 2025-06-02
+    todo: better published date
     source:
       description: NEK! note post
       url: 'https://note.com/nekiband_jp/n/nb50d1c0b1dd3'
@@ -94,6 +96,7 @@
     account: rakutenbooks
     published-date: 2025-05-23
     label: presentation of NEK!
+    todo: show poster
     text: |
       【NEK!コメント動画🎥】 
       「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」

@@ -9,6 +9,7 @@ song:
     source:
       description: 'JASRAC - work ID: 304-0228-0'
       url: 'https://www2.jasrac.or.jp/'
+  todo: in lyrics, notes about 
   cover-image:
     postyoutubeimage:
       post: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
@@ -66,6 +67,7 @@ song:
     - youtubeshort: AhqVr3xl4dE
     additional:
     - youtubevideo: AqVoa-PMl8I
+  todo: note about maneki-neko
   lyrics:
     status:
       code: na

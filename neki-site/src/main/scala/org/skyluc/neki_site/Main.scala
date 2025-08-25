@@ -63,8 +63,6 @@ object Main {
     val pages =
       DataToPage(generator, staticPiecesFolder, staticPiecesFrFolder, site).generate(checkedData)
 
-    println(s"nb of pages: ${pages.size}")
-
     SiteOutput.generate(pages, Seq(staticFolder.asFilePath(), frStaticFolder.asFilePath()), outputFolder.asFilePath())
 
   }

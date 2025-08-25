@@ -11,6 +11,7 @@
     - Natsu
     webpage: 'https://www.nack5.co.jp/program/fantasyradio/'
     published-date: 2025-03-23
+    todo: beginning of a summary available in tag:before-parser001
     description:
     - Hika and Natsu were guest of the show 'FANTASY RADIO' on NACK5.
     - The interview went over the general band info, then they spoke about the music of 'zero-sum'. In second part, the host did an analysis of the lyrics of 'Loner', 'moon' and 'Fool'.
@@ -45,6 +46,7 @@
     label: logo
     filename: cover400.png
     published-date: 2025-01-01
+    todo: better published date
     source:
       description: FANTASY RADIO webpage
       url: 'https://www.nack5.co.jp/program/fantasyradio/'
@@ -207,6 +209,7 @@
     label: logo
     filename: cover400.png
     published-date: 2025-01-01
+    todo: better published date
     source:
       description: RADIO INFINITY webpage
       url: 'https://funky802.com/infinity/'
@@ -265,6 +268,7 @@
     publication: Guitar magazine
     issue: May 2025
     designation: magazine
+    todo: check if article is available online
     member:
     - Natsu
     webpage: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
@@ -319,6 +323,7 @@
     label: cover
     filename: cover400.png
     published-date: 2025-01-01
+    todo: better published date
     source:
       description: Guitar magazine webpage
       url: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
@@ -401,6 +406,7 @@
     label: logo
     filename: cover400.png
     published-date: 2025-01-01
+    todo: better published date
     source:
       description: BAYFM78 webpage
       url: 'https://program.bayfm.co.jp/curate/'
@@ -519,6 +525,7 @@
     label: logo
     filename: cover400.png
     published-date: 2025-01-01
+    todo: better published date
     source:
       description: RADIO DRAGON-NEXT- radiko page
       url: 'https://radiko.jp/#!/ts/FMT/20250503030000'

@@ -28,6 +28,7 @@
     label: Before
     info: leaving for the tour
     published-date: 2025-03-04
+    todo: should go on the tour element ?
     context:
     - show:
         year: 2025

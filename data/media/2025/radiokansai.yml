@@ -6,6 +6,7 @@
     designation: radio show
     program: 'https://radiko.jp/#!/ts/CRK/20250718100000'
     host: 芦田純子 (Junko Ashida)
+    todo: support show short name ( ~brunch~ was removed)
     member:
     - Natsu
     - Kanade

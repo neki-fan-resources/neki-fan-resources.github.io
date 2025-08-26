@@ -27,3 +27,31 @@
     - song: getover
     part-of:
       postx: 1956194665641992559
+
+- postx:
+    id: 1958382817307750717
+    account: natsu08_guitar
+    label: 9 days to Zepp
+    published-date: 2025-08-21
+    text: |
+      Zeppまであと９日…！
+      ついに1桁台まできました、、、！😳
+      ラストスパート、、、駆け抜けますよ🏃‍♂️💨
+
+      #ネキ界隈 #拡散中 #NEKI
+    video: 
+    - 01
+    part-of:
+      song: getover
+
+- postxvideo:
+    post: 1958382817307750717
+    id: 01
+    cover: 1958382687322062848/img/ZbzKpjE1873at3hl.jpg
+    label: Rehearsal
+    published-date: 2025-08-21
+    part-of: 
+      postx: 1958382817307750717
+    context:
+    - song: getover
+

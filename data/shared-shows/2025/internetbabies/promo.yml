@@ -28,3 +28,19 @@
         year: 2025
         id: internetbabies
     - song: dreams
+
+- youtubeshort:
+    id: mBFMElsMh1s
+    label: Promo
+    info: studio audio
+    published-date: 2025-08-25
+    part-of:
+      show: 
+        year: 2025
+        id: internetbabies
+    context:
+    - show: 
+        year: 2025
+        id: internetbabies
+    - song: reigengirl
+

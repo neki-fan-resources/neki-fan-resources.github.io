@@ -1,0 +1,26 @@
+
+- postx:
+    id: 1959203686225445197
+    account: cure_bass_baka
+    label: Rehearsal
+    published-date: 2025-08-23
+    text: |
+      #NEKI  #ネキ界隈  #拡散中
+    part-of:
+      song: maze
+
+- postxvideo:
+    post: 1959203686225445197
+    id: 01
+    cover: 1959203487201583104/img/jo9JMWaN3PcsD7gK.jpg
+    label: Rehearsal
+    published-date: 2025-08-23
+    part-of:
+      postx: 1959203686225445197
+    context:
+    - song: maze
+
+
+
+
+

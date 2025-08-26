@@ -10,21 +10,3 @@
     part-of:
       song: ripoff
 
-- youtubevideo:
-    id: pnJR-FNVILE
-    label: Official Teaser
-    published-date: 2025-08-22
-    part-of:
-      song: ripoff
-    context:
-    - song: ripoff
-
-- youtubevideo:
-    id: OkQV2Vo9EgE
-    label: Official Music Video
-    published-date: 2025-08-23
-    part-of:
-      song: ripoff
-    context:
-    - song: ripoff
-

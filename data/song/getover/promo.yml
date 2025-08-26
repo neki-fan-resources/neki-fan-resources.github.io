@@ -1,0 +1,11 @@
+
+- youtubeshort:
+    id: QyDd3xQf88o
+    label: Promo
+    todo: which show ?
+    info: studio audio
+    published-date: 2025-08-22
+    part-of:
+      song: getover
+    context:
+    - song: getover

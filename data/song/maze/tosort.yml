@@ -7,18 +7,6 @@
     linked-to:
     - song: maze
 
-- localimage:
-    song: maze
-    id: mvteasercover
-    label: Teaser cover
-    filename: mvteasercover.png
-    published-date: 2024-06-28
-    source:
-      description: YouTube video
-    hidden: true
-    linked-to:
-    - song: maze
-
 - youtubevideo:
     id: EHtWJmMybGY
     label: Official Music Video

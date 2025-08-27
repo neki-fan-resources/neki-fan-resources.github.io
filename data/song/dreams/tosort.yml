@@ -17,16 +17,13 @@
     - song: dreams
 
 - localimage:
-    song: dreams
+    multimedia-event: dreamsmv
     id: mvcover
     label: MV cover
     filename: mvcover.png
     published-date: 2025-03-05
     source:
       description: YouTube video
-    hidden: true
-    linked-to:
-    - song: dreams
         
 - multimedia-event:
     id: dreamsmv
@@ -35,7 +32,7 @@
       song: dreams
     cover-image: 
       localimage:
-        song: dreams
+        multimedia-event: dreamsmv
         id: mvcover
     categories: video
 

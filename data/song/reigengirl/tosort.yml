@@ -8,18 +8,6 @@
     linked-to:
     - song: reigengirl
 
-- localimage:
-    song: reigengirl
-    id: mvteasercover
-    label: Teaser cover
-    filename: mvteasercover.png
-    published-date: 2024-06-28
-    source:
-      description: YouTube video
-    hidden: true
-    linked-to:
-    - song: reigengirl
-
 - youtubevideo:
     id: rq0dca9mFfI
     label: Official Music Video

@@ -215,9 +215,6 @@
           - I hope this kind of loneliness reaches that girl. (We are always looking for love.)
     linked-to:
     - youtubevideo: prWu9_Q5a5Y
-    - localimage:
-        song: loner
-        id: mvteasercover
     - youtubevideo: uhy1HnFXTH8
     - youtubeshort: RRrplpvGl6A
     - youtubeshort: 3xgyiUaSGgI
@@ -241,18 +238,6 @@
     published-date: 2024-10-02
     context:
     - song: loner
-    linked-to:
-    - song: loner
-
-- localimage:
-    song: loner
-    id: mvteasercover
-    label: Teaser cover
-    filename: mvteasercover.png
-    published-date: 2024-10-02
-    source:
-      description: YouTube video
-    hidden: true
     linked-to:
     - song: loner
 

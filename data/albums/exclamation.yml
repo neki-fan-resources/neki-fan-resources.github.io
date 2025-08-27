@@ -24,9 +24,6 @@
       - youtubevideo: 387bkUm7Dko
     linked-to:
     - youtubevideo: 387bkUm7Dko
-    - localimage:
-        album: exclamation
-        id: teasercover
     - youtubeshort: YRmeizMwd1Y
     - postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 
@@ -37,19 +34,6 @@
     todo: check date
     context:
     - album: exclamation
-    linked-to:
-    - album: exclamation
-
-- localimage:
-    album: exclamation
-    id: teasercover
-    label: Teaser cover
-    filename: teasercover.png
-    published-date: 2024-06-03
-    todo: check date
-    source:
-      description: YouTube video
-    hidden: true
     linked-to:
     - album: exclamation
 

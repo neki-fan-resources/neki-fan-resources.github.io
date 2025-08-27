@@ -8,18 +8,6 @@
     linked-to:
     - song: getover
 
-- localimage:
-    song: getover
-    id: mvteasercover
-    label: Teaser cover
-    filename: mvteasercover.png
-    published-date: 2024-04-21
-    source:
-      description: YouTube video
-    hidden: true
-    linked-to:
-    - song: getover
-
 - youtubevideo:
     id: TWbLqba3oag
     label: Official Music Video
@@ -343,6 +331,9 @@
     published-date: 2025-05-03
     context:
     - song: getover
+    - show:
+        year: 2024
+        id: debutyearlastlive
     linked-to:
     - postx: 1918636722516373576
 

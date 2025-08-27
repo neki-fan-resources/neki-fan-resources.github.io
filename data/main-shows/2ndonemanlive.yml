@@ -36,11 +36,6 @@
         id: 368923
     - youtubevideo: _Oac92XPkyo
     - youtubevideo: aylfQ09sa4I
-    - localimage:
-        show:
-          year: 2024
-          id: 2ndonemanlive
-        id: mazelivecover
     - youtubeshort: 25AE7t_8eEg
     - youtubeshort: AIM5rdixj4E
     - youtubeshort: HfIoK8Qdv5I
@@ -102,20 +97,13 @@
         id: 2ndonemanlive
 
 - localimage:
-    show:
-      year: 2024
-      id: 2ndonemanlive
+    multimedia-event: mazelivev
     id: mazelivecover
     label: Live cover
     filename: mazelivecover.png
     published-date: 2025-01-24
     source:
       description: YouTube video
-    hidden: true
-    linked-to:
-    - show:
-        year: 2024
-        id: 2ndonemanlive
         
 - multimedia-event:
     id: mazelivev
@@ -124,9 +112,7 @@
       song: maze
     cover-image: 
       localimage:
-        show:
-          year: 2024
-          id: 2ndonemanlive
+        multimedia-event: mazelivev
         id: mazelivecover
     categories: video
 

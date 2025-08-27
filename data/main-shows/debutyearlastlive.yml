@@ -25,11 +25,6 @@
         post: 1918636722516373576
         image: GqBc0HhbYAA2VDy
     - youtubevideo: IeBks9yGO4A
-    - localimage:
-        show:
-          year: 2024
-          id: debutyearlastlive
-        id: getoverlivecover
     - youtubevideo: urGmtrd7zbA
     - youtubeshort: spUo9sWqs48
     - youtubeshort: l5CgBChBmwQ
@@ -53,20 +48,13 @@
         id: debutyearlastlive
 
 - localimage:
-    show:
-      year: 2024
-      id: debutyearlastlive
+    multimedia-event: getoverlivev
     id: getoverlivecover
     label: Cover
     filename: getoverlivecover.png
     published-date: 2025-05-04
     source:
       description: YouTube video
-    hidden: true
-    linked-to:
-    - show:
-        year: 2024
-        id: debutyearlastlive
 
 - multimedia-event:
     id: getoverlivev
@@ -75,9 +63,7 @@
       song: getover
     cover-image: 
       localimage:
-        show:
-          year: 2024
-          id: debutyearlastlive
+        multimedia-event: getoverlivev
         id: getoverlivecover
     categories: video
 

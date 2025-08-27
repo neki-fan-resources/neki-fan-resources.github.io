@@ -18,7 +18,7 @@ import org.skyluc.neki_site.html.pages.{
 }
 
 class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_pieces_fr: Path, site: Site)
-    extends Processor[Seq[SitePage]] {
+    extends Processor[Seq[SitePage]] { // TODO: switch to ProcessorElement
 
   def generate(datums: Seq[Datum[?]]): Seq[Page] = {
 

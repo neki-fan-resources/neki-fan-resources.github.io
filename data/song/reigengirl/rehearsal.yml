@@ -5,8 +5,8 @@
     published-date: 2025-07-23
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postx:
     id: 1948675930446332316
@@ -20,8 +20,8 @@
       #ネキ界隈  #令現少女
     video:
     - 01
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postxvideo:
     post: 1948675930446332316
@@ -32,8 +32,8 @@
     published-date: 2025-07-24
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postx:
     id: 1955966782872936961

@@ -63,8 +63,6 @@
       - postximage:
           post: 1949488433849933878
           image: Gw35W4kagAApR75
-    linked-to:
-    - postx: 1933117154494427587
 
 - postx:
     id: 1933117154494427587
@@ -90,11 +88,8 @@
       
     image:
     - GtPQrgBasAA4sFp
-    linked-to:
-    - postximage:
-        post: 1933117154494427587
-        image: GtPQrgBasAA4sFp
-    - show:
+    part-of:
+      show:
         year: 2025
         id: internetbabies
 
@@ -108,11 +103,8 @@
     - show:
         year: 2025
         id: internetbabies
-    linked-to:
-    - show:
-        year: 2025
-        id: internetbabies
-    - postx: 1933117154494427587
+    part-of:
+      postx: 1933117154494427587
 
 - youtubeshort:
     id: Dy5UNGKd1ZA
@@ -254,13 +246,6 @@
       浜野はるきさんお誘いいただき本当にありがとうございました！🫶🏻
     image:
     - Gw3zn6TaUAEpk50
-    linked-to:
-    - postximage:
-        post: 1949480491713003736
-        image: Gw3yKXybsAAmjfa
-    - postximage:
-        post: 1949480491713003736
-        image: Gw3yKX3a0AA5OUn
 
 - postximage:
     post: 1949482178628432379

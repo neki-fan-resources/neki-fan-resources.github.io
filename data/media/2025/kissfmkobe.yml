@@ -54,10 +54,10 @@
       
     image:
     - GwHLHkEaoAA5dH1
-    linked-to:
-    - postximage:
-        post: 1946059859910365569
-        image: GwHLHkEaoAA5dH1
+    part-of:
+      media:
+        year: 2025
+        id: kissfmkobe
 
 - postximage:
     post: 1946059859910365569
@@ -68,9 +68,6 @@
     - media:
         year: 2025
         id: kissfmkobe
-    linked-to:
-    - media:
-        year: 2025
-        id: kissfmkobe
-    - postx: 1946059859910365569
+    part-of:
+      postx: 1946059859910365569
 

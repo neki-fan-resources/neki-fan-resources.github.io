@@ -1,13 +1,6 @@
 - group:
     id: siteimages
     label: site images
-    linked-to:
-    - localimage:
-        event: siteimages
-        id: nekilogo
-    - localimage:
-        event: siteimages
-        id: manekineko_cover
 
 - event:
     id: siteimages
@@ -17,8 +10,8 @@
       localimage:
         event: siteimages
         id: manekineko_cover
-    linked-to:
-    - group: siteimages
+    part-of:
+      group: siteimages
 
 - localimage:
     event: siteimages
@@ -29,8 +22,8 @@
     source:
       description: NEK! note.com page
       url: 'https://note.com/nekiband_jp'
-    linked-to:
-    - group: siteimages
+    part-of:
+      group: siteimages
 
 - localimage:
     event: siteimages
@@ -40,6 +33,6 @@
     published-date: 2025-01-01
     source:
       description: Created for the site
-    linked-to:
-    - group: siteimages
+    part-of:
+      group: siteimages
 

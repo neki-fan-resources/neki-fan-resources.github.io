@@ -35,10 +35,6 @@
       - postximage:
           post: 1946195551969849807
           image: GwJGgUJXcAES7vk
-    linked-to:
-    - postx: 1944995676963922035
-    - youtubeshort: zLd-nv4R2Xg
-    - postx: 1946195551969849807
 
 - postx:
     id: 1944995676963922035
@@ -61,11 +57,8 @@
       
     image:
     - Gv4DQX6a8AAPdNi
-    linked-to:
-    - postximage:
-        post: 1944995676963922035
-        image: Gv4DQX6a8AAPdNi
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumeosaka
 
@@ -80,11 +73,8 @@
     - show:
         year: 2025
         id: nekikomsumeosaka
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumeosaka
-    - postx: 1944995676963922035
+    part-of:
+      postx: 1944995676963922035
 
 - youtubeshort:
     id: zLd-nv4R2Xg
@@ -95,8 +85,8 @@
     - show:
         year: 2025
         id: nekikomsumeosaka
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumeosaka
 
@@ -118,11 +108,8 @@
       
     image:
     - GwJGgUJXcAES7vk
-    linked-to:
-    - postximage:
-        post: 1946195551969849807
-        image: GwJGgUJXcAES7vk
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumeosaka
 
@@ -136,11 +123,8 @@
     - show:
         year: 2025
         id: nekikomsumeosaka
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumeosaka
-    - postx: 1946195551969849807
+    part-of:
+      postx: 1946195551969849807
 
 - youtubeshort:
     id: xv6kbJrnKfk
@@ -152,11 +136,10 @@
         year: 2025
         id: nekikomsumeosaka
     - song: dreams
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumeosaka
-    - song: dreams
     
 - postx:
     id: 1946522055312331049
@@ -169,8 +152,8 @@
       #NEKI  #ネキ界隈  #拡散中
     video:
     - 01
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumeosaka
 
@@ -188,13 +171,8 @@
     - song: 
         id: songa
         dark: true
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumeosaka
-    - song: 
-        id: songa
-        dark: true
+    part-of:
+      postx: 1946522055312331049
 
 - postx:
     id: 1946903555937616050
@@ -210,8 +188,8 @@
       #ネキ界隈 #拡散中
     video:
     - 01
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumeosaka
 
@@ -226,11 +204,8 @@
         year: 2025
         id: nekikomsumeosaka
     - song: maze  
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumeosaka
-    - song: maze    
+    part-of:
+      postx: 1946903555937616050
 
 - postx:
     id: 1947241076508488042
@@ -243,8 +218,8 @@
       #NEKI  #拡散中  #ネキ界隈
     video:
     - 01
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumeosaka
 
@@ -260,11 +235,8 @@
         year: 2025
         id: nekikomsumeosaka
     - song: zerosum
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumeosaka
-    - song: zerosum
+    part-of:
+      postx: 1947241076508488042
 
 - postx:
     id: 1947952383473954991
@@ -279,8 +251,8 @@
       #NEKI #拡散中 #ネキ界隈
     video:
     - 01
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumeosaka
 
@@ -297,12 +269,8 @@
         id: nekikomsumeosaka
     - song: zerosum
     - song: getover
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumeosaka
-    - song: zerosum
-    - song: getover
+    part-of:
+      postx: 1947952383473954991
 
 - postx:
     id: 1949012927056658865

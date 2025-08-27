@@ -29,14 +29,6 @@
       - postximage:
           post: 1903452529729695755
           image: Gmpr-0DaAAA6aKU
-    linked-to:
-    - localimage:
-        media:
-          year: 2025
-          id: nack5fantasyradio
-        id: logo
-    - postx: 1903452529729695755
-    - youtubeshort: 2WXwyGdDMsM
 
 - localimage:
     media:
@@ -50,8 +42,8 @@
     source:
       description: FANTASY RADIO webpage
       url: 'https://www.nack5.co.jp/program/fantasyradio/'
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: nack5fantasyradio
 
@@ -74,11 +66,8 @@
       
     image:
     - Gmpr-0DaAAA6aKU
-    linked-to:
-    - postximage:
-        post: 1903452529729695755
-        image: Gmpr-0DaAAA6aKU
-    - media:
+    part-of:
+      media:
         year: 2025
         id: nack5fantasyradio
 
@@ -92,8 +81,8 @@
     - media:
         year: 2025
         id: nack5fantasyradio
-    linked-to:
-    - postx: 1903452529729695755
+    part-of:
+      postx: 1903452529729695755
 
 - youtubeshort:
     id: 2WXwyGdDMsM
@@ -104,8 +93,8 @@
     - media:
         year: 2025
         id: nack5fantasyradio
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: nack5fantasyradio
 
@@ -193,13 +182,6 @@
       - postximage:
           post: 1910379084141801512
           image: GoMHpd-bYAANMFt
-    linked-to:
-    - localimage:
-        media:
-          year: 2025
-          id: fm802infinityradio
-        id: logo
-    - postx: 1910379084141801512
 
 - localimage:
     media:
@@ -213,8 +195,8 @@
     source:
       description: RADIO INFINITY webpage
       url: 'https://funky802.com/infinity/'
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: fm802infinityradio
 
@@ -242,11 +224,8 @@
       
     image:
     - GoMHpd-bYAANMFt
-    linked-to:
-    - postximage:
-        post: 1910379084141801512
-        image: GoMHpd-bYAANMFt
-    - media:
+    part-of:
+      media:
         year: 2025
         id: fm802infinityradio
 
@@ -259,8 +238,8 @@
     - media:
         year: 2025
         id: fm802infinityradio
-    linked-to:
-    - postx: 1910379084141801512
+    part-of:
+      postx: 1910379084141801512
 
 - mediawritten:
     year: 2025
@@ -302,18 +281,6 @@
             year: 2025
             id: guitarmagazine05
           id: article
-    linked-to:
-    - localimage:
-        media:
-          year: 2025
-          id: guitarmagazine05
-        id: cover
-    - youtubeshort: E91CuO-MI1A
-    - localimage:
-        media:
-          year: 2025
-          id: guitarmagazine05
-        id: article
 
 - localimage:
     media:
@@ -327,8 +294,8 @@
     source:
       description: Guitar magazine webpage
       url: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: guitarmagazine05
 
@@ -340,8 +307,8 @@
     - media:
         year: 2025
         id: guitarmagazine05
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: guitarmagazine05
 
@@ -356,8 +323,8 @@
     source:
       description: Extracted from electronic version
       url: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: guitarmagazine05
 
@@ -389,14 +356,6 @@
       - postximage:
           post: 1914285297862598973
           image: GpDoUyLb0AAbEYw
-    linked-to:
-    - localimage:
-        media:
-          year: 2025
-          id: bayfm78musicurate
-        id: logo
-    - postx: 1914285297862598973
-    - youtubeshort: QxTlwAWRrBM
 
 - localimage:
     media:
@@ -410,8 +369,8 @@
     source:
       description: BAYFM78 webpage
       url: 'https://program.bayfm.co.jp/curate/'
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: bayfm78musicurate
 
@@ -437,11 +396,8 @@
       
     image:
     - GpDoUyLb0AAbEYw
-    linked-to:
-    - postximage:
-        post: 1914285297862598973
-        image: GpDoUyLb0AAbEYw
-    - media:
+    part-of:
+      media:
         year: 2025
         id: bayfm78musicurate
 
@@ -454,8 +410,8 @@
     - media:
         year: 2025
         id: bayfm78musicurate
-    linked-to:
-    - postx: 1914285297862598973
+    part-of:
+      postx: 1914285297862598973
 
 - youtubeshort:
     id: QxTlwAWRrBM
@@ -465,8 +421,8 @@
     - media:
         year: 2025
         id: bayfm78musicurate
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: bayfm78musicurate
 
@@ -506,16 +462,6 @@
       - postximage:
           post: 1918392450269548896
           image: Gp9_wtDagAAnCTL
-    linked-to:
-    - localimage:
-        media:
-          year: 2025
-          id: tokyofmradiodragonnext
-        id: logo
-    - youtubeshort: NNc3Tau8YAY
-    - postx: 1918254606855074066
-    - postx: 1918253217269596255
-    - postx: 1918392450269548896
 
 - localimage:
     media:
@@ -529,8 +475,8 @@
     source:
       description: RADIO DRAGON-NEXT- radiko page
       url: 'https://radiko.jp/#!/ts/FMT/20250503030000'
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: tokyofmradiodragonnext
 
@@ -543,8 +489,8 @@
     - media:
         year: 2025
         id: tokyofmradiodragonnext
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: tokyofmradiodragonnext
 
@@ -568,11 +514,8 @@
       
     image:
     - Gp8COrJbsAAsI0n
-    linked-to:
-    - postximage:
-        post: 1918254606855074066
-        image: Gp8COrJbsAAsI0n
-    - media:
+    part-of:
+      media:
         year: 2025
         id: tokyofmradiodragonnext
 
@@ -586,8 +529,8 @@
     - media:
         year: 2025
         id: tokyofmradiodragonnext
-    linked-to:
-    - postx: 1918254606855074066
+    part-of:
+      postx: 1918254606855074066
 
 - postx:
     id: 1918253217269596255
@@ -613,11 +556,8 @@
       
     image:
     - Gp8BIMjawAM-GEH
-    linked-to:
-    - postximage:
-        post: 1918253217269596255
-        image: Gp8BIMjawAM-GEH
-    - media:
+    part-of:
+      media:
         year: 2025
         id: tokyofmradiodragonnext
 
@@ -631,8 +571,8 @@
     - media:
         year: 2025
         id: tokyofmradiodragonnext
-    linked-to:
-    - postx: 1918253217269596255
+    part-of:
+      postx: 1918253217269596255
 
 - postx:
     id: 1918392450269548896
@@ -655,11 +595,8 @@
       
     image:
     - Gp9_wtDagAAnCTL
-    linked-to:
-    - postximage:
-        post: 1918392450269548896
-        image: Gp9_wtDagAAnCTL
-    - media:
+    part-of:
+      media:
         year: 2025
         id: tokyofmradiodragonnext
 
@@ -673,8 +610,8 @@
     - media:
         year: 2025
         id: tokyofmradiodragonnext
-    linked-to:
-    - postx: 1918392450269548896
+    part-of:
+      postx: 1918392450269548896
 
 - mediaaudio:
     year: 2025
@@ -712,18 +649,6 @@
       - postximage:
           post: 1936315279094825472
           image: Gt8settbwAAxGNd
-    linked-to:
-    - localimage:
-        media:
-          year: 2025
-          id: yfmgodblesssaturday
-        id: cover
-    - postx: 1936243875687137663
-    - postx: 1936301742964290030
-    - postx: 1936310916737626390
-    - postx: 1936313898661298282
-    - postx: 1936314534777831611
-    - postx: 1936315279094825472
 
 - localimage:
     media:
@@ -736,8 +661,8 @@
     source:
       description: God Bless Saturday website
       url: 'https://www.fmyokohama.jp/gbs/'
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: yfmgodblesssaturday
 
@@ -755,11 +680,8 @@
       
     image:
     - Gt7rilaXoAAxHRl
-    linked-to:
-    - postximage:
-        post: 1936243875687137663
-        image: Gt7rilaXoAAxHRl
-    - media:
+    part-of:
+      media:
         year: 2025
         id: yfmgodblesssaturday
 
@@ -772,8 +694,8 @@
     - media:
         year: 2025
         id: yfmgodblesssaturday
-    linked-to:
-    - postx: 1936243875687137663
+    part-of:
+      postx: 1936243875687137663
 
 - postx:
     id: 1936301742964290030
@@ -790,11 +712,8 @@
       
     image:
     - Gt8gHF3XgAAazpl
-    linked-to:
-    - postximage:
-        post: 1936301742964290030
-        image: Gt8gHF3XgAAazpl
-    - media:
+    part-of:
+      media:
         year: 2025
         id: yfmgodblesssaturday
 
@@ -808,8 +727,8 @@
     - media:
         year: 2025
         id: yfmgodblesssaturday
-    linked-to:
-    - postx: 1936301742964290030
+    part-of:
+      postx: 1936301742964290030
 
 - postx:
     id: 1936310916737626390
@@ -827,11 +746,8 @@
       
     image:
     - Gt8oYqAbwAML8pq
-    linked-to:
-    - postximage:
-        post: 1936310916737626390
-        image: Gt8oYqAbwAML8pq
-    - media:
+    part-of:
+      media:
         year: 2025
         id: yfmgodblesssaturday
 
@@ -845,8 +761,8 @@
     - media:
         year: 2025
         id: yfmgodblesssaturday
-    linked-to:
-    - postx: 1936310916737626390
+    part-of:
+      postx: 1936310916737626390
 
 - postx:
     id: 1936313898661298282
@@ -872,11 +788,8 @@
       
     image:
     - Gt8rOAnXoAADXyX
-    linked-to:
-    - postximage:
-        post: 1936313898661298282
-        image: Gt8rOAnXoAADXyX
-    - media:
+    part-of:
+      media:
         year: 2025
         id: yfmgodblesssaturday
 
@@ -890,11 +803,8 @@
     - media:
         year: 2025
         id: yfmgodblesssaturday
-    linked-to:
-    - media:
-        year: 2025
-        id: yfmgodblesssaturday
-    - postx: 1936313898661298282
+    part-of:
+      postx: 1936313898661298282
 
 - postx:
     id: 1936314534777831611
@@ -907,14 +817,8 @@
       
     image:
     - Gt8rzbGWgAAikiR
-    linked-to:
-    - postx: 1936313898661298282
-    - postximage:
-        post: 1936314534777831611
-        image: Gt8rzbGWgAAikiR
-    - media:
-        year: 2025
-        id: yfmgodblesssaturday
+    part-of:
+      postx: 1936313898661298282
 
 - postximage:
     post: 1936314534777831611
@@ -926,11 +830,8 @@
     - media:
         year: 2025
         id: yfmgodblesssaturday
-    linked-to:
-    - media:
-        year: 2025
-        id: yfmgodblesssaturday
-    - postx: 1936314534777831611
+    part-of:
+      postx: 1936314534777831611
 
 - postx:
     id: 1936315279094825472
@@ -945,14 +846,8 @@
       
     image:
     - Gt8settbwAAxGNd
-    linked-to:
-    - postx: 1936313898661298282
-    - postximage:
-        post: 1936315279094825472
-        image: Gt8settbwAAxGNd
-    - media:
-        year: 2025
-        id: yfmgodblesssaturday
+    part-of:
+      postx: 1936313898661298282
 
 - postximage:
     post: 1936315279094825472
@@ -964,11 +859,8 @@
     - media:
         year: 2025
         id: yfmgodblesssaturday
-    linked-to:
-    - media:
-        year: 2025
-        id: yfmgodblesssaturday
-    - postx: 1936315279094825472
+    part-of:
+      postx: 1936315279094825472
 
 - mediaaudio:
     year: 2025
@@ -988,13 +880,6 @@
           year: 2025
           id: eradiocatch
         id: cover
-    linked-to:
-    - localimage:
-        media:
-          year: 2025
-          id: eradiocatch
-        id: cover
-    - postx: 1937893514588938621
 
 - localimage:
     media:
@@ -1007,8 +892,8 @@
     source:
       description: Radiko webpage
       url: 'https://radiko.jp/#!/ts/E-RADIO/20250625140000'
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: eradiocatch
 
@@ -1022,11 +907,8 @@
       
     image:
     - GuTH4QhbcAAsg-3
-    linked-to:
-    - postximage:
-        post: 1937893514588938621
-        image: GuTH4QhbcAAsg-3
-    - media:
+    part-of:
+      media:
         year: 2025
         id: eradiocatch
 
@@ -1039,9 +921,6 @@
     - media:
         year: 2025
         id: eradiocatch
-    linked-to:
-    - media:
-        year: 2025
-        id: eradiocatch
-    - postx: 1937893514588938621
+    part-of:
+      postx: 1937893514588938621
 

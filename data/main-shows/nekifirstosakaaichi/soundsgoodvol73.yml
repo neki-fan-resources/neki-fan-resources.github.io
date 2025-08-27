@@ -13,8 +13,6 @@
         post: 1826867524035653715
         image: GVpWTLoXMAAyp1r
     tour: nekifirstosakaaichi2024
-    linked-to:
-    - postx: 1826867524035653715
 
 - postx:
     id: 1826867524035653715
@@ -33,11 +31,8 @@
       
     image:
     - GVpWTLoXMAAyp1r
-    linked-to:
-    - postximage:
-        post: 1826867524035653715
-        image: GVpWTLoXMAAyp1r
-    - show:
+    part-of:
+      show:
         year: 2024
         id: soundsgoodvol73
 
@@ -51,5 +46,5 @@
     - show:
         year: 2024
         id: soundsgoodvol73
-    linked-to:
-    - postx: 1826867524035653715
+    part-of:
+      postx: 1826867524035653715

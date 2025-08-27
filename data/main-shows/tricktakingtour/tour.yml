@@ -16,8 +16,6 @@
       id: tricktakingtouraichi
     - year: 2025
       id: tricktakingtourtokyo
-    linked-to:
-    - postyoutube: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
 
 - postyoutube:
     id: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
@@ -48,11 +46,8 @@
       
     image:
     - aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
-    linked-to:
-    - postyoutubeimage:
-        post: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
-        image: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
-    - tour: tricktakingtour
+    part-of:
+      tour: tricktakingtour
 
 - postyoutubeimage:
     post: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
@@ -63,6 +58,6 @@
     local-copy: true
     context:
     - tour: tricktakingtour
-    linked-to:
-    - postyoutube: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+    part-of:
+      postyoutube: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
 

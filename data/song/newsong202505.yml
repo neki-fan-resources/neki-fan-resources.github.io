@@ -33,13 +33,6 @@
       - postximage:
           post: 1923986423700652394
           image: GrNfc0sXoAAk6JN
-    linked-to:
-    - postx: 1921051915636429162
-    - postx: 1922260308782887399
-    - postx: 1923986423700652394
-    - postx: 1923958028916883650
-    - postx: 1924763496551743797
-    - postx: 1926604625936810264
 
 - postx:
     id: 1921051915636429162
@@ -54,11 +47,8 @@
       
     video:
     - 2a990e8d-5cc0-4c3e-bcf8-aa24f2a2ec53
-    linked-to:
-    - postxvideo:
-        post: 1921051915636429162
-        video: 2a990e8d-5cc0-4c3e-bcf8-aa24f2a2ec53
-    - song:
+    part-of:
+      song:
         id: newsong202505
         dark: true
 
@@ -73,8 +63,8 @@
     - song:
         id: newsong202505
         dark: true
-    linked-to:
-    - postx: 1921051915636429162
+    part-of:
+      postx: 1921051915636429162
 
 - postx:
     id: 1922260308782887399
@@ -92,11 +82,8 @@
       
     video:
     - 94a26956-efe7-4eba-8e5b-d69fb922bc95
-    linked-to:
-    - postxvideo:
-        post: 1922260308782887399
-        video: 94a26956-efe7-4eba-8e5b-d69fb922bc95
-    - song:
+    part-of:
+      song:
         id: newsong202505
         dark: true
 
@@ -111,8 +98,8 @@
     - song:
         id: newsong202505
         dark: true
-    linked-to:
-    - postx: 1922260308782887399
+    part-of:
+      postx: 1922260308782887399
 
 - postx:
     id: 1923986423700652394
@@ -130,11 +117,8 @@
       
     image:
     - GrNfc0sXoAAk6JN
-    linked-to:
-    - postximage:
-        post: 1923986423700652394
-        image: GrNfc0sXoAAk6JN
-    - song:
+    part-of:
+      song:
         id: newsong202505
         dark: true
 
@@ -148,11 +132,8 @@
     - song:
         id: newsong202505
         dark: true
-    linked-to:
-    - song:
-        id: newsong202505
-        dark: true
-    - postx: 1923986423700652394
+    part-of:
+      postx: 1923986423700652394
 
 - postx:
     id: 1923958028916883650
@@ -169,11 +150,8 @@
       
     video:
     - 6d791e00-ee17-4246-b248-d81ea7004287
-    linked-to:
-    - postxvideo:
-        post: 1923958028916883650
-        video: 6d791e00-ee17-4246-b248-d81ea7004287
-    - song:
+    part-of:
+      song:
         id: newsong202505
         dark: true
 
@@ -188,8 +166,8 @@
     - song:
         id: newsong202505
         dark: true
-    linked-to:
-    - postx: 1923958028916883650
+    part-of:
+      postx: 1923958028916883650
 
 - postx:
     id: 1924763496551743797
@@ -205,11 +183,8 @@
       
     video:
     - 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
-    linked-to:
-    - postxvideo:
-        post: 1924763496551743797
-        video: 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
-    - song:
+    part-of:
+      song:
         id: newsong202505
         dark: true
 
@@ -224,8 +199,8 @@
     - song:
         id: newsong202505
         dark: true
-    linked-to:
-    - postx: 1924763496551743797
+    part-of:
+      postx: 1924763496551743797
 
 - postx:
     id: 1926604625936810264
@@ -241,11 +216,8 @@
       
     video:
     - b0969558-f5d5-43d7-9200-0bf80227bfbf
-    linked-to:
-    - postxvideo:
-        post: 1926604625936810264
-        video: b0969558-f5d5-43d7-9200-0bf80227bfbf
-    - song:
+    part-of:
+      song:
         id: newsong202505
         dark: true
 
@@ -260,6 +232,6 @@
     - song:
         id: newsong202505
         dark: true
-    linked-to:
-    - postx: 1926604625936810264
+    part-of:
+      postx: 1926604625936810264
 

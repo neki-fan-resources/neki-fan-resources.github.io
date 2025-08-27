@@ -12,8 +12,6 @@
         post: 1825843541756752006
         image: GVay0webUAAAJ-4
     tour: nekifirstosakaaichi2024
-    linked-to:
-    - postx: 1825843541756752006
 
 - postx:
     id: 1825843541756752006
@@ -31,11 +29,8 @@
       
     image:
     - GVay0webUAAAJ-4
-    linked-to:
-    - postximage:
-        post: 1825843541756752006
-        image: GVay0webUAAAJ-4
-    - show:
+    part-of:
+      show:
         year: 2024
         id: daydreamer4night
 
@@ -49,6 +44,6 @@
     - show:
         year: 2024
         id: daydreamer4night
-    linked-to:
-    - postx: 1825843541756752006
+    part-of:
+      postx: 1825843541756752006
   

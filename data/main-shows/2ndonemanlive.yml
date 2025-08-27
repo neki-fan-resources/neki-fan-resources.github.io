@@ -30,25 +30,6 @@
       - youtubeshort: 8jqBR2PyfAw
       - youtubeshort: iQQoVDhI0E0
       - youtubeshort: qFiKgQ5mNgQ
-    linked-to:
-    - zaiko:
-        channel: nekiband
-        id: 368923
-    - youtubevideo: _Oac92XPkyo
-    - youtubevideo: aylfQ09sa4I
-    - youtubeshort: 25AE7t_8eEg
-    - youtubeshort: AIM5rdixj4E
-    - youtubeshort: HfIoK8Qdv5I
-    - youtubeshort: 4NVfpFzmfMQ
-    - youtubeshort: qFiKgQ5mNgQ
-    - youtubeshort: iQQoVDhI0E0
-    - youtubeshort: 8jqBR2PyfAw
-    - youtubeshort: MpR-vcWQAuQ
-    - youtubeshort: xy8VknaZ0QQ
-    - youtubeshort: zWS1TQ1kP6A
-    - youtubeshort: jZ2Dn5P3Fac
-    - youtubeshort: WdcokauJMtU
-    - postyoutube: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
 
 - zaiko:
     id: 368923
@@ -61,8 +42,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -75,9 +56,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: dreams
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -90,9 +70,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: maze
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -126,9 +105,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: maze
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -141,9 +119,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: dreams
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -156,9 +133,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: dreams
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -171,9 +147,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: dreams
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -186,9 +161,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: getover
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -201,9 +175,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: fool
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -216,9 +189,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: moon
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -231,9 +203,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: reigengirl
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -246,9 +217,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: loner
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -262,9 +232,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: endlessgame
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -278,8 +247,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -292,9 +261,8 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - song: maze
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -318,11 +286,8 @@
       
     image:
     - vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
-    linked-to:
-    - postyoutubeimage:
-        post: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
-        image: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
 
@@ -336,6 +301,6 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    linked-to:
-    - postyoutube: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+    part-of:
+      postyoutube: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
 

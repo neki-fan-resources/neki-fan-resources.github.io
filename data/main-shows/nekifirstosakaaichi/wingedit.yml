@@ -11,10 +11,6 @@
         post: 1827255587870273643
         image: GVu3DSDXgAAEC5y
     tour: nekifirstosakaaichi2024
-    linked-to:
-    - youtubeshort: OvaY9jENatI
-    - youtubeshort: v16v2MvFJyM
-    - postx: 1827255587870273643
 
 - youtubeshort:
     id: OvaY9jENatI
@@ -26,9 +22,8 @@
     - show:
         year: 2024
         id: wingedit
-    linked-to:
-    - song: maze
-    - show:
+    part-of:
+      show:
         year: 2024
         id: wingedit
 
@@ -42,9 +37,8 @@
     - show:
         year: 2024
         id: wingedit
-    linked-to:
-    - song: reigengirl
-    - show:
+    part-of:
+      show:
         year: 2024
         id: wingedit
 
@@ -72,11 +66,8 @@
       
     image:
     - GVu3DSDXgAAEC5y
-    linked-to:
-    - postximage:
-        post: 1827255587870273643
-        image: GVu3DSDXgAAEC5y
-    - show:
+    part-of:
+      show:
         year: 2024
         id: wingedit
 
@@ -90,5 +81,5 @@
     - show:
         year: 2024
         id: wingedit
-    linked-to:
-    - postx: 1827255587870273643
+    part-of:
+      postx: 1827255587870273643

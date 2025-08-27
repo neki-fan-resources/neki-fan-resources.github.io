@@ -6,8 +6,8 @@
     published-date: 2025-06-18
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubevideo:
     id: qGEzCjYvWZw
@@ -15,8 +15,8 @@
     published-date: 2025-06-20
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
         
 - multimedia-event:
     id: ooakmv
@@ -36,8 +36,8 @@
     published-date: 2025-05-03
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: u41vd6yyGGk
@@ -46,8 +46,8 @@
     published-date: 2025-05-24
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: S5DQ7wjnoKA
@@ -56,8 +56,8 @@
     published-date: 2025-06-04
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: 86Esxc1BKDM
@@ -65,8 +65,8 @@
     published-date: 2025-06-18
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: 1yFMVe5tCiA
@@ -74,8 +74,8 @@
     published-date: 2025-06-20
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: 5WK69VDgaBE
@@ -83,8 +83,8 @@
     published-date: 2025-06-21
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: n5YYx3i7gBg
@@ -93,8 +93,8 @@
     published-date: 2025-06-22
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: HFMzoMAZBFQ
@@ -103,8 +103,8 @@
     published-date: 2025-06-23
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: '-FTj1689vaY'
@@ -113,8 +113,8 @@
     published-date: 2025-06-24
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: lXdRY7Da8OA
@@ -123,8 +123,8 @@
     published-date: 2025-06-26
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: s7rL0X1Zseg
@@ -133,8 +133,8 @@
     published-date: 2025-06-29
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: wsPbR3xISFg
@@ -143,8 +143,8 @@
     published-date: 2025-07-02
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: GMLHhcxGZ3U
@@ -153,8 +153,8 @@
     published-date: 2025-07-09
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postx:
     id: 1929512124243411173
@@ -175,11 +175,8 @@
       
     image:
     - GscBBL6bgAAwvmM
-    linked-to:
-    - postximage:
-        post: 1929512124243411173
-        image: GscBBL6bgAAwvmM
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postximage:
     post: 1929512124243411173
@@ -189,8 +186,8 @@
     local-copy: true
     context:
     - song: ooak
-    linked-to:
-    - postx: 1929512124243411173
+    part-of:
+      postx: 1929512124243411173
 
 - postx:
     id: 1930096228966248749
@@ -210,11 +207,8 @@
       
     video:
     - 54904afa-0889-4f5e-a1b1-fe705c2c671d
-    linked-to:
-    - postxvideo:
-        post: 1930096228966248749
-        video: 54904afa-0889-4f5e-a1b1-fe705c2c671d
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postxvideo:
     post: 1930096228966248749
@@ -225,8 +219,8 @@
     info: everyone sings
     context:
     - song: ooak
-    linked-to:
-    - postx: 1930096228966248749
+    part-of:
+      postx: 1930096228966248749
 
 - postx:
     id: 1932750181457670312
@@ -246,11 +240,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1932750181457670312
-        video: 01
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postxvideo:
     post: 1932750181457670312
@@ -261,9 +252,8 @@
     info: Natsu
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
-    - postx: 1932750181457670312
+    part-of:
+      postx: 1932750181457670312
 
 - postx:
     id: 1935668905244336459
@@ -286,11 +276,8 @@
       
     image:
     - GtzabMUXgAAmDvN
-    linked-to:
-    - postximage:
-        post: 1935668905244336459
-        image: GtzabMUXgAAmDvN
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postximage:
     post: 1935668905244336459
@@ -301,8 +288,8 @@
     local-copy: true
     context:
     - song: ooak
-    linked-to:
-    - postx: 1935668905244336459
+    part-of:
+      postx: 1935668905244336459
 
 - postx:
     id: 1935646894207996161
@@ -322,11 +309,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1935646894207996161
-        video: 01
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postxvideo:
     post: 1935646894207996161
@@ -337,8 +321,8 @@
     info: Natsu
     context:
     - song: ooak
-    linked-to:
-    - postx: 1935646894207996161
+    part-of:
+      postx: 1935646894207996161
 
 - postx:
     id: 1936646576686153867
@@ -355,14 +339,8 @@
     image:
     - GuBZxw1XUAA8lrO
     - GuBZxwPaEAAI5wJ
-    linked-to:
-    - postximage:
-        post: 1936646576686153867
-        image: GuBZxw1XUAA8lrO
-    - postximage:
-        post: 1936646576686153867
-        image: GuBZxwPaEAAI5wJ
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postximage:
     post: 1936646576686153867
@@ -372,9 +350,8 @@
     info: behind-the-scenes, Cocoro
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
-    - postx: 1936646576686153867
+    part-of:
+      postx: 1936646576686153867
 
 - postximage:
     post: 1936646576686153867
@@ -384,9 +361,8 @@
     info: behind-the-scenes
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
-    - postx: 1936646576686153867
+    part-of:
+      postx: 1936646576686153867
 
 - postx:
     id: 1945857878520475910
@@ -403,11 +379,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1945857878520475910
-        video: 01
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postxvideo:
     post: 1945857878520475910
@@ -418,7 +391,6 @@
     info: Cocoro
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
-    - postx: 1945857878520475910
+    part-of:
+      postx: 1945857878520475910
 

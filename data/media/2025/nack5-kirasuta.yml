@@ -69,8 +69,8 @@
     image:
     - GwYCS9SaAAAWkcg
     - GwYCS9IbsAAnoPh
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: nack5kirasuta
 
@@ -84,10 +84,8 @@
     - media:
         year: 2025
         id: nack5kirasuta
-    linked-to:
-    - media:
-        year: 2025
-        id: nack5kirasuta
+    part-of:
+      postx: 1947246427605700942
 
 - postximage:
     post: 1947246427605700942
@@ -99,10 +97,8 @@
     - media:
         year: 2025
         id: nack5kirasuta
-    linked-to:
-    - media:
-        year: 2025
-        id: nack5kirasuta
+    part-of:
+      postx: 1947246427605700942
 
 - postx:
     id: 1947243502485827926
@@ -125,8 +121,8 @@
       #nack5
     image:
     - GwX9JI8akAAhy3E
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: nack5kirasuta
 
@@ -140,10 +136,8 @@
     - media:
         year: 2025
         id: nack5kirasuta
-    linked-to:
-    - media:
-        year: 2025
-        id: nack5kirasuta
+    part-of:
+      postx: 1947243502485827926
 
 - youtubeshort:
     id: FC2ESHWNU1M
@@ -155,9 +149,8 @@
         year: 2025
         id: nack5kirasuta
     - song: fool
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: nack5kirasuta
-    - song: fool
 

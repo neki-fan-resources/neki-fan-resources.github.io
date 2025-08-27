@@ -11,8 +11,6 @@
       postximage:
         post: 1766243435357561130
         image: GIL1CWga8AA1ryU
-    linked-to:
-    - postx: 1766243435357561130
 
 - postx:
     id: 1766243435357561130
@@ -245,20 +243,8 @@
     - GIL1CWfbYAA9llo
     - GIL1CWebMAAyx6P
     - GIL1CWeaoAACz-Y
-    linked-to:
-    - postximage:
-        post: 1766243435357561130
-        image: GIL1CWga8AA1ryU
-    - postximage:
-        post: 1766243435357561130
-        image: GIL1CWfbYAA9llo
-    - postximage:
-        post: 1766243435357561130
-        image: GIL1CWebMAAyx6P
-    - postximage:
-        post: 1766243435357561130
-        image: GIL1CWeaoAACz-Y
-    - show:
+    part-of:
+      show:
         year: 2024
         id: lupinus2024
 
@@ -273,8 +259,8 @@
     - show:
         year: 2024
         id: lupinus2024
-    linked-to:
-    - postx: 1766243435357561130
+    part-of:
+      postx: 1766243435357561130
 
 - postximage:
     post: 1766243435357561130
@@ -285,8 +271,8 @@
     - show:
         year: 2024
         id: lupinus2024
-    linked-to:
-    - postx: 1766243435357561130
+    part-of:
+      postx: 1766243435357561130
 
 - postximage:
     post: 1766243435357561130
@@ -297,8 +283,8 @@
     - show:
         year: 2024
         id: lupinus2024
-    linked-to:
-    - postx: 1766243435357561130
+    part-of:
+      postx: 1766243435357561130
 
 - postximage:
     post: 1766243435357561130
@@ -309,8 +295,8 @@
     - show:
         year: 2024
         id: lupinus2024
-    linked-to:
-    - postx: 1766243435357561130
+    part-of:
+      postx: 1766243435357561130
 
 - show:
     year: 2024
@@ -323,10 +309,6 @@
       postximage:
         post: 1776084527859061007
         image: GKXrVSDasAAOm0K
-    linked-to:
-    - youtubeshort: bRHcOHmtXhU
-    - youtubeshort: ChYZQj2s1Ik
-    - postx: 1776084527859061007
 
 - youtubeshort:
     id: bRHcOHmtXhU
@@ -338,9 +320,8 @@
     - show:
         year: 2024
         id: arealiberated
-    linked-to:
-    - song: getover
-    - show:
+    part-of:
+      show:
         year: 2024
         id: arealiberated
 
@@ -354,9 +335,8 @@
     - show:
         year: 2024
         id: arealiberated
-    linked-to:
-    - song: getover
-    - show:
+    part-of:
+      show:
         year: 2024
         id: arealiberated
 
@@ -388,11 +368,8 @@
       
     image:
     - GKXrVSDasAAOm0K
-    linked-to:
-    - postximage:
-        post: 1776084527859061007
-        image: GKXrVSDasAAOm0K
-    - show:
+    part-of:
+      show:
         year: 2024
         id: arealiberated
 
@@ -406,8 +383,8 @@
     - show:
         year: 2024
         id: arealiberated
-    linked-to:
-    - postx: 1776084527859061007
+    part-of:
+      postx: 1776084527859061007
 
 - show:
     year: 2024
@@ -421,8 +398,6 @@
       postximage:
         post: 1790265744804216903
         image: GNhNGEkbsAAEJ5A
-    linked-to:
-    - postx: 1790265744804216903
 
 - postx:
     id: 1790265744804216903
@@ -448,11 +423,8 @@
       
     image:
     - GNhNGEkbsAAEJ5A
-    linked-to:
-    - postximage:
-        post: 1790265744804216903
-        image: GNhNGEkbsAAEJ5A
-    - show:
+    part-of:
+      show:
         year: 2024
         id: sweetsweetsweet
 
@@ -466,8 +438,8 @@
     - show:
         year: 2024
         id: sweetsweetsweet
-    linked-to:
-    - postx: 1790265744804216903
+    part-of:
+      postx: 1790265744804216903
 
 - show:
     year: 2024
@@ -481,8 +453,6 @@
       postximage:
         post: 1797140895449673780
         image: GPC59ywaoAA_Sdl
-    linked-to:
-    - postx: 1797140895449673780
 
 - postx:
     id: 1797140895449673780
@@ -511,11 +481,8 @@
       
     image:
     - GPC59ywaoAA_Sdl
-    linked-to:
-    - postximage:
-        post: 1797140895449673780
-        image: GPC59ywaoAA_Sdl
-    - show:
+    part-of:
+      show:
         year: 2024
         id: fypday1
 
@@ -529,8 +496,8 @@
     - show:
         year: 2024
         id: fypday1
-    linked-to:
-    - postx: 1797140895449673780
+    part-of:
+      postx: 1797140895449673780
 
 - show:
     year: 2024
@@ -544,8 +511,6 @@
       postximage:
         post: 1780522894059299287
         image: GLWvKs8bYAAHJQF
-    linked-to:
-    - postx: 1780522894059299287
 
 - postx:
     id: 1780522894059299287
@@ -582,11 +547,8 @@
       
     image:
     - GLWvKs8bYAAHJQF
-    linked-to:
-    - postximage:
-        post: 1780522894059299287
-        image: GLWvKs8bYAAHJQF
-    - show:
+    part-of:
+      show:
         year: 2024
         id: popoutvol11
 
@@ -600,8 +562,8 @@
     - show:
         year: 2024
         id: popoutvol11
-    linked-to:
-    - postx: 1780522894059299287
+    part-of:
+      postx: 1780522894059299287
 
 - show:
     year: 2024
@@ -615,8 +577,6 @@
       postximage:
         post: 1799743432564654547
         image: GPnhi6wbsAAbB-I
-    linked-to:
-    - postx: 1799743432564654547
 
 - postx:
     id: 1799743432564654547
@@ -645,14 +605,8 @@
     image:
     - GPnhi6wbsAAbB-I
     - GPnhj7qaIAAtR_E
-    linked-to:
-    - postximage:
-        post: 1799743432564654547
-        image: GPnhi6wbsAAbB-I
-    - postximage:
-        post: 1799743432564654547
-        image: GPnhj7qaIAAtR_E
-    - show:
+    part-of:
+      show:
         year: 2024
         id: codeofzerox
 
@@ -666,8 +620,8 @@
     - show:
         year: 2024
         id: codeofzerox
-    linked-to:
-    - postx: 1799743432564654547
+    part-of:
+      postx: 1799743432564654547
 
 - postximage:
     post: 1799743432564654547
@@ -678,8 +632,8 @@
     - show:
         year: 2024
         id: codeofzerox
-    linked-to:
-    - postx: 1799743432564654547
+    part-of:
+      postx: 1799743432564654547
 
 - show:
     year: 2024
@@ -692,8 +646,6 @@
       postximage:
         post: 1798608606579007863
         image: GPXmT9iboAA09Sb
-    linked-to:
-    - postx: 1798608606579007863
 
 - postx:
     id: 1798608606579007863
@@ -713,11 +665,8 @@
       
     image:
     - GPXmT9iboAA09Sb
-    linked-to:
-    - postximage:
-        post: 1798608606579007863
-        image: GPXmT9iboAA09Sb
-    - show:
+    part-of:
+      show:
         year: 2024
         id: beyondthesingularityvol6
 
@@ -731,8 +680,8 @@
     - show:
         year: 2024
         id: beyondthesingularityvol6
-    linked-to:
-    - postx: 1798608606579007863
+    part-of:
+      postx: 1798608606579007863
 
 - show:
     year: 2024
@@ -745,8 +694,6 @@
       postximage:
         post: 1801875706387042707
         image: GQGMZ2dbEAIITAx
-    linked-to:
-    - postx: 1801875706387042707
 
 - postx:
     id: 1801875706387042707
@@ -766,11 +713,8 @@
       
     image:
     - GQGMZ2dbEAIITAx
-    linked-to:
-    - postximage:
-        post: 1801875706387042707
-        image: GQGMZ2dbEAIITAx
-    - show:
+    part-of:
+      show:
         year: 2024
         id: beyondthesingularityvol7
 
@@ -784,8 +728,8 @@
     - show:
         year: 2024
         id: beyondthesingularityvol7
-    linked-to:
-    - postx: 1801875706387042707
+    part-of:
+      postx: 1801875706387042707
 
 - show:
     year: 2024
@@ -799,9 +743,6 @@
       postximage:
         post: 1784417275292143972
         image: GMOGC_5bAAAhTe9
-    linked-to:
-    - youtubeshort: cdIhg5rSCvM
-    - postx: 1784417275292143972
 
 - youtubeshort:
     id: cdIhg5rSCvM
@@ -814,9 +755,8 @@
     - show:
         year: 2024
         id: driveyoucrazyvol7
-    linked-to:
-    - song: reigengirl
-    - show:
+    part-of:
+      show:
         year: 2024
         id: driveyoucrazyvol7
 
@@ -851,11 +791,8 @@
       
     image:
     - GMOGC_5bAAAhTe9
-    linked-to:
-    - postximage:
-        post: 1784417275292143972
-        image: GMOGC_5bAAAhTe9
-    - show:
+    part-of:
+      show:
         year: 2024
         id: driveyoucrazyvol7
 
@@ -869,8 +806,8 @@
     - show:
         year: 2024
         id: driveyoucrazyvol7
-    linked-to:
-    - postx: 1784417275292143972
+    part-of:
+      postx: 1784417275292143972
 
 - show:
     year: 2024
@@ -884,9 +821,6 @@
       postximage:
         post: 1819198572111577421
         image: GT8XIEAb0AAJjSs
-    linked-to:
-    - youtubeshort: KHPpxHWt-O4
-    - postx: 1819198572111577421
 
 - youtubeshort:
     id: KHPpxHWt-O4
@@ -898,9 +832,8 @@
     - show:
         year: 2024
         id: fypvol3
-    linked-to:
-    - song: endlessgame
-    - show:
+    part-of:
+      show:
         year: 2024
         id: fypvol3
 
@@ -932,11 +865,8 @@
       
     image:
     - GT8XIEAb0AAJjSs
-    linked-to:
-    - postximage:
-        post: 1819198572111577421
-        image: GT8XIEAb0AAJjSs
-    - show:
+    part-of:
+      show:
         year: 2024
         id: fypvol3
 
@@ -950,8 +880,8 @@
     - show:
         year: 2024
         id: fypvol3
-    linked-to:
-    - postx: 1819198572111577421
+    part-of:
+      postx: 1819198572111577421
 
 - show:
     year: 2024
@@ -965,9 +895,6 @@
       postximage:
         post: 1804448780873519192
         image: GQqwmSwbYAAMkZ6
-    linked-to:
-    - youtubeshort: E86WMvLxCms
-    - postx: 1804448780873519192
 
 - youtubeshort:
     id: E86WMvLxCms
@@ -979,9 +906,8 @@
     - show:
         year: 2024
         id: hapikorevol350
-    linked-to:
-    - song: getover
-    - show:
+    part-of:
+      show:
         year: 2024
         id: hapikorevol350
 
@@ -1004,11 +930,8 @@
       
     image:
     - GQqwmSwbYAAMkZ6
-    linked-to:
-    - postximage:
-        post: 1804448780873519192
-        image: GQqwmSwbYAAMkZ6
-    - show:
+    part-of:
+      show:
         year: 2024
         id: hapikorevol350
 
@@ -1022,8 +945,8 @@
     - show:
         year: 2024
         id: hapikorevol350
-    linked-to:
-    - postx: 1804448780873519192
+    part-of:
+      postx: 1804448780873519192
 
 - show:
     year: 2024
@@ -1038,8 +961,6 @@
       postximage:
         post: 1795757514870665423
         image: GOvP8Swa0AAK1tW
-    linked-to:
-    - postx: 1795757514870665423
 
 - postx:
     id: 1795757514870665423
@@ -1059,11 +980,8 @@
       
     image:
     - GOvP8Swa0AAK1tW
-    linked-to:
-    - postximage:
-        post: 1795757514870665423
-        image: GOvP8Swa0AAK1tW
-    - show:
+    part-of:
+      show:
         year: 2024
         id: soundshocktokyo2024
 
@@ -1077,8 +995,8 @@
     - show:
         year: 2024
         id: soundshocktokyo2024
-    linked-to:
-    - postx: 1795757514870665423
+    part-of:
+      postx: 1795757514870665423
 
 - show:
     year: 2024
@@ -1092,8 +1010,6 @@
       postximage:
         post: 1799063840925315512
         image: GPePBkmbcAEVfyW
-    linked-to:
-    - postx: 1799063840925315512
 
 - postx:
     id: 1799063840925315512
@@ -1119,11 +1035,8 @@
       
     image:
     - GPePBkmbcAEVfyW
-    linked-to:
-    - postximage:
-        post: 1799063840925315512
-        image: GPePBkmbcAEVfyW
-    - show:
+    part-of:
+      show:
         year: 2024
         id: torarockfestival
 
@@ -1137,8 +1050,8 @@
     - show:
         year: 2024
         id: torarockfestival
-    linked-to:
-    - postx: 1799063840925315512
+    part-of:
+      postx: 1799063840925315512
 
 - show:
     year: 2024
@@ -1153,8 +1066,6 @@
       postximage:
         post: 1832614238424301660
         image: GW7Ac3YbEAAYoku
-    linked-to:
-    - postx: 1832614238424301660
 
 - postx:
     id: 1832614238424301660
@@ -1183,11 +1094,8 @@
       
     image:
     - GW7Ac3YbEAAYoku
-    linked-to:
-    - postximage:
-        post: 1832614238424301660
-        image: GW7Ac3YbEAAYoku
-    - show:
+    part-of:
+      show:
         year: 2024
         id: ringringring
 
@@ -1201,8 +1109,8 @@
     - show:
         year: 2024
         id: ringringring
-    linked-to:
-    - postx: 1832614238424301660
+    part-of:
+      postx: 1832614238424301660
 
 - show:
     year: 2024
@@ -1216,8 +1124,6 @@
       postximage:
         post: 1836637097840775291
         image: GX0Lhdsa8AA1DHs
-    linked-to:
-    - postx: 1836637097840775291
 
 - postx:
     id: 1836637097840775291
@@ -1248,11 +1154,8 @@
       
     image:
     - GX0Lhdsa8AA1DHs
-    linked-to:
-    - postximage:
-        post: 1836637097840775291
-        image: GX0Lhdsa8AA1DHs
-    - show:
+    part-of:
+      show:
         year: 2024
         id: fypvol5
 
@@ -1266,8 +1169,8 @@
     - show:
         year: 2024
         id: fypvol5
-    linked-to:
-    - postx: 1836637097840775291
+    part-of:
+      postx: 1836637097840775291
 
 - show:
     year: 2024
@@ -1282,8 +1185,6 @@
       postximage:
         post: 1833792678414463036
         image: GXLwuK6b0AAsCaB
-    linked-to:
-    - postx: 1833792678414463036
 
 - postx:
     id: 1833792678414463036
@@ -1312,11 +1213,8 @@
       
     image:
     - GXLwuK6b0AAsCaB
-    linked-to:
-    - postximage:
-        post: 1833792678414463036
-        image: GXLwuK6b0AAsCaB
-    - show:
+    part-of:
+      show:
         year: 2024
         id: minamiwheel2024
 
@@ -1330,8 +1228,8 @@
     - show:
         year: 2024
         id: minamiwheel2024
-    linked-to:
-    - postx: 1833792678414463036
+    part-of:
+      postx: 1833792678414463036
 
 - show:
     year: 2024
@@ -1345,8 +1243,6 @@
       postximage:
         post: 1854050886647173628
         image: GbroRIOa8AAzJCY
-    linked-to:
-    - postx: 1854050886647173628
 
 - postx:
     id: 1854050886647173628
@@ -1374,11 +1270,8 @@
       
     image:
     - GbroRIOa8AAzJCY
-    linked-to:
-    - postximage:
-        post: 1854050886647173628
-        image: GbroRIOa8AAzJCY
-    - show:
+    part-of:
+      show:
         year: 2024
         id: ignition
 
@@ -1392,8 +1285,8 @@
     - show:
         year: 2024
         id: ignition
-    linked-to:
-    - postx: 1854050886647173628
+    part-of:
+      postx: 1854050886647173628
 
 - show:
     year: 2024
@@ -1407,8 +1300,6 @@
       postximage:
         post: 1854440185460879405
         image: GbxLhFfbIAA1wRw
-    linked-to:
-    - postx: 1854440185460879405
 
 - postx:
     id: 1854440185460879405
@@ -1431,11 +1322,8 @@
       
     image:
     - GbxLhFfbIAA1wRw
-    linked-to:
-    - postximage:
-        post: 1854440185460879405
-        image: GbxLhFfbIAA1wRw
-    - show:
+    part-of:
+      show:
         year: 2024
         id: sweetsweetsweet2
 
@@ -1449,8 +1337,8 @@
     - show:
         year: 2024
         id: sweetsweetsweet2
-    linked-to:
-    - postx: 1854440185460879405
+    part-of:
+      postx: 1854440185460879405
 
 - show:
     year: 2024
@@ -1464,8 +1352,6 @@
       postximage:
         post: 1856985434020061342
         image: GcPSyaLasAE0E3-
-    linked-to:
-    - postx: 1856985434020061342
 
 - postx:
     id: 1856985434020061342
@@ -1496,14 +1382,8 @@
     - GcPSyaLasAE0E3-
     video:
     - d102d125-ebaf-44b4-a337-f9d5b48ee2cf
-    linked-to:
-    - postximage:
-        post: 1856985434020061342
-        image: GcPSyaLasAE0E3-
-    - postxvideo:
-        post: 1856985434020061342
-        video: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
-    - show:
+    part-of:
+      show:
         year: 2024
         id: digginsoundvol2
 
@@ -1517,8 +1397,8 @@
     - show:
         year: 2024
         id: digginsoundvol2
-    linked-to:
-    - postx: 1856985434020061342
+    part-of:
+      postx: 1856985434020061342
 
 - postxvideo:
     post: 1856985434020061342
@@ -1531,8 +1411,8 @@
     - show:
         year: 2024
         id: digginsoundvol2
-    linked-to:
-    - postx: 1856985434020061342
+    part-of:
+      postx: 1856985434020061342
 
 - show:
     year: 2024
@@ -1546,9 +1426,6 @@
       postximage:
         post: 1851932879170752613
         image: GbM3V_gbsAAOSAH
-    linked-to:
-    - youtubeshort: '-mmjisKakXU'
-    - postx: 1851932879170752613
 
 - youtubeshort:
     id: '-mmjisKakXU'
@@ -1560,9 +1437,8 @@
     - show:
         year: 2024
         id: overfest2024
-    linked-to:
-    - song: fool
-    - show:
+    part-of:
+      show:
         year: 2024
         id: overfest2024
 
@@ -1595,20 +1471,8 @@
     - GbM3MSXakAgJdbk
     - GbM3RQHasAAkpyS
     - GbM3YFiakAE0iM2
-    linked-to:
-    - postximage:
-        post: 1851932879170752613
-        image: GbM3V_gbsAAOSAH
-    - postximage:
-        post: 1851932879170752613
-        image: GbM3MSXakAgJdbk
-    - postximage:
-        post: 1851932879170752613
-        image: GbM3RQHasAAkpyS
-    - postximage:
-        post: 1851932879170752613
-        image: GbM3YFiakAE0iM2
-    - show:
+    part-of:
+      show:
         year: 2024
         id: overfest2024
 
@@ -1622,8 +1486,8 @@
     - show:
         year: 2024
         id: overfest2024
-    linked-to:
-    - postx: 1851932879170752613
+    part-of:
+      postx: 1851932879170752613
 
 - postximage:
     post: 1851932879170752613
@@ -1634,8 +1498,8 @@
     - show:
         year: 2024
         id: overfest2024
-    linked-to:
-    - postx: 1851932879170752613
+    part-of:
+      postx: 1851932879170752613
 
 - postximage:
     post: 1851932879170752613
@@ -1646,8 +1510,8 @@
     - show:
         year: 2024
         id: overfest2024
-    linked-to:
-    - postx: 1851932879170752613
+    part-of:
+      postx: 1851932879170752613
 
 - postximage:
     post: 1851932879170752613
@@ -1658,6 +1522,6 @@
     - show:
         year: 2024
         id: overfest2024
-    linked-to:
-    - postx: 1851932879170752613
+    part-of:
+      postx: 1851932879170752613
 

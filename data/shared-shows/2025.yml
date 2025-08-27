@@ -11,8 +11,6 @@
       postximage:
         post: 1883065171922637290
         image: GiH9iMsaUAAUAmv
-    linked-to:
-    - postx: 1883065171922637290
 
 - postx:
     id: 1883065171922637290
@@ -36,14 +34,8 @@
     image:
     - GiH9iMsaUAAUAmv
     - GiH9iMsaQAAasNt
-    linked-to:
-    - postximage:
-        post: 1883065171922637290
-        image: GiH9iMsaUAAUAmv
-    - postximage:
-        post: 1883065171922637290
-        image: GiH9iMsaQAAasNt
-    - show:
+    part-of:
+      show:
         year: 2025
         id: youandi
 
@@ -57,8 +49,8 @@
     - show:
         year: 2025
         id: youandi
-    linked-to:
-    - postx: 1883065171922637290
+    part-of:
+      postx: 1883065171922637290
 
 - postximage:
     post: 1883065171922637290
@@ -69,8 +61,8 @@
     - show:
         year: 2025
         id: youandi
-    linked-to:
-    - postx: 1883065171922637290
+    part-of:
+      postx: 1883065171922637290
 
 - show:
     year: 2025
@@ -84,8 +76,6 @@
       postximage:
         post: 1887340383576989716
         image: GjEuEpVbIAMzRlC
-    linked-to:
-    - postx: 1887340383576989716
 
 - postx:
     id: 1887340383576989716
@@ -113,11 +103,8 @@
       
     image:
     - GjEuEpVbIAMzRlC
-    linked-to:
-    - postximage:
-        post: 1887340383576989716
-        image: GjEuEpVbIAMzRlC
-    - show:
+    part-of:
+      show:
         year: 2025
         id: setallfree
 
@@ -131,8 +118,8 @@
     - show:
         year: 2025
         id: setallfree
-    linked-to:
-    - postx: 1887340383576989716
+    part-of:
+      postx: 1887340383576989716
 
 - show:
     year: 2025
@@ -172,13 +159,6 @@
       - postximage:
           post: 1910962202003275912
           image: GoUZ_awWQAAJLU0
-    linked-to:
-    - youtubeshort: 759NyQOQ1yg
-    - youtubeshort: 8JNZl3nO2dM
-    - postx: 1904825238870721005
-    - postx: 1910979741756399623
-    - postx: 1910962202003275912
-    - postx: 1931999361577463823
 
 - youtubeshort:
     id: 759NyQOQ1yg
@@ -189,8 +169,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kogaderarock
 
@@ -203,9 +183,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - song: maze
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kogaderarock
 
@@ -230,11 +209,8 @@
       
     image:
     - Gm9MdCUbAAAS1Sq
-    linked-to:
-    - postximage:
-        post: 1904825238870721005
-        image: Gm9MdCUbAAAS1Sq
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kogaderarock
 
@@ -248,8 +224,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - postx: 1904825238870721005
+    part-of:
+      postx: 1904825238870721005
 
 - postx:
     id: 1910979741756399623
@@ -275,17 +251,8 @@
     - GoUp71yWsAIHbmh
     - GoUp719WkAAtlRX
     - GoUp719WUAADyfg
-    linked-to:
-    - postximage:
-        post: 1910979741756399623
-        image: GoUp71yWsAIHbmh
-    - postximage:
-        post: 1910979741756399623
-        image: GoUp719WkAAtlRX
-    - postximage:
-        post: 1910979741756399623
-        image: GoUp719WUAADyfg
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kogaderarock
 
@@ -298,8 +265,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - postx: 1910979741756399623
+    part-of:
+      postx: 1910979741756399623
 
 - postximage:
     post: 1910979741756399623
@@ -310,8 +277,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - postx: 1910979741756399623
+    part-of:
+      postx: 1910979741756399623
 
 - postximage:
     post: 1910979741756399623
@@ -322,8 +289,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - postx: 1910979741756399623
+    part-of:
+      postx: 1910979741756399623
 
 - postx:
     id: 1910962202003275912
@@ -355,20 +322,8 @@
     - GoUZ_awWwAAkG5D
     - GoUZ_axWoAA8BKE
     - GoUZ_awWQAAJLU0
-    linked-to:
-    - postximage:
-        post: 1910962202003275912
-        image: GoUZ_azXwAASE0E
-    - postximage:
-        post: 1910962202003275912
-        image: GoUZ_awWwAAkG5D
-    - postximage:
-        post: 1910962202003275912
-        image: GoUZ_axWoAA8BKE
-    - postximage:
-        post: 1910962202003275912
-        image: GoUZ_awWQAAJLU0
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kogaderarock
 
@@ -381,8 +336,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - postx: 1910962202003275912
+    part-of:
+      postx: 1910962202003275912
 
 - postximage:
     post: 1910962202003275912
@@ -394,8 +349,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - postx: 1910962202003275912
+    part-of:
+      postx: 1910962202003275912
 
 - postximage:
     post: 1910962202003275912
@@ -407,8 +362,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - postx: 1910962202003275912
+    part-of:
+      postx: 1910962202003275912
 
 - postximage:
     post: 1910962202003275912
@@ -420,8 +375,8 @@
     - show:
         year: 2025
         id: kogaderarock
-    linked-to:
-    - postx: 1910962202003275912
+    part-of:
+      postx: 1910962202003275912
 
 - postx:
     id: 1931999361577463823
@@ -440,11 +395,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1931999361577463823
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kogaderarock
 
@@ -460,12 +412,8 @@
         year: 2025
         id: kogaderarock
     - song: loner
-    linked-to:
-    - show:
-        year: 2025
-        id: kogaderarock
-    - song: loner
-    - postx: 1931999361577463823
+    part-of:
+      postx: 1931999361577463823
 
 - show:
     year: 2025
@@ -522,30 +470,6 @@
       - postximage:
           post: 1918967431936053416
           image: GqGKtFwa0AACJVD
-    linked-to:
-    - postximage:
-        post: 1918591839306666269
-        image: GqA0mxha4AAZusD
-    - postximage:
-        post: 1918591839306666269
-        image: GqA0m0ta0AAA-dL
-    - youtubeshort: AruvDV5MZAQ
-    - postx: 1903038891042673069
-    - postx: 1918591839306666269
-    - postx: 1918967431936053416
-    - youtubeshort: 6waPnn_Bxis
-    - postx: 1919328460532494808
-    - postx: 1919554837458399724
-    - youtubeshort: CBPR9cp2urk
-    - postx: 1919977679027372546
-    - postx: 1920401532488724860
-    - postx: 1920746869560430820
-    - postx: 1921828183369781385
-    - postx: 1922588708026404968
-    - postx: 1926928034944213276
-    - postx: 1929389485147721772
-    - postx: 1935184418047672438
-    - youtubeshort: bFHCOVgFMKg
 
 - youtubeshort:
     id: AruvDV5MZAQ
@@ -557,9 +481,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - song: ooak
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -583,14 +506,8 @@
     - GmjeK9zbIAAWwew
     video:
     - bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
-    linked-to:
-    - postximage:
-        post: 1903038891042673069
-        image: GmjeK9zbIAAWwew
-    - postxvideo:
-        post: 1903038891042673069
-        video: bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -604,8 +521,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - postx: 1903038891042673069
+    part-of:
+      postx: 1903038891042673069
 
 - postxvideo:
     post: 1903038891042673069
@@ -617,8 +534,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - postx: 1903038891042673069
+    part-of:
+      postx: 1903038891042673069
 
 - postx:
     id: 1918591839306666269
@@ -643,14 +560,8 @@
     image:
     - GqA0mxha4AAZusD
     - GqA0m0ta0AAA-dL
-    linked-to:
-    - postximage:
-        post: 1918591839306666269
-        image: GqA0mxha4AAZusD
-    - postximage:
-        post: 1918591839306666269
-        image: GqA0m0ta0AAA-dL
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -663,8 +574,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - postx: 1918591839306666269
+    part-of:
+      postx: 1918591839306666269
 
 - postximage:
     post: 1918591839306666269
@@ -675,8 +586,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - postx: 1918591839306666269
+    part-of:
+      postx: 1918591839306666269
 
 - postx:
     id: 1918967431936053416
@@ -696,14 +607,8 @@
     image:
     - GqGKtFtbsAAScbY
     - GqGKtFwa0AACJVD
-    linked-to:
-    - postximage:
-        post: 1918967431936053416
-        image: GqGKtFtbsAAScbY
-    - postximage:
-        post: 1918967431936053416
-        image: GqGKtFwa0AACJVD
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -716,8 +621,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - postx: 1918967431936053416
+    part-of:
+      postx: 1918967431936053416
 
 - postximage:
     post: 1918967431936053416
@@ -728,8 +633,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - postx: 1918967431936053416
+    part-of:
+      postx: 1918967431936053416
 
 - youtubeshort:
     id: 6waPnn_Bxis
@@ -740,8 +645,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -762,11 +667,8 @@
       
     video:
     - bb4e888e-5f51-4d44-a6ce-3c57b86955ab
-    linked-to:
-    - postxvideo:
-        post: 1919328460532494808
-        video: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -782,9 +684,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1919328460532494808
+    part-of:
+      postx: 1919328460532494808
 
 - postx:
     id: 1919554837458399724
@@ -805,11 +706,8 @@
       
     video:
     - ab614f11-559a-4b05-9110-a93a478c49d9
-    linked-to:
-    - postxvideo:
-        post: 1919554837458399724
-        video: ab614f11-559a-4b05-9110-a93a478c49d9
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -825,9 +723,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: endlessgame
-    linked-to:
-    - song: endlessgame
-    - postx: 1919554837458399724
+    part-of:
+      postx: 1919554837458399724
 
 - youtubeshort:
     id: CBPR9cp2urk
@@ -839,9 +736,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - song: dreams
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -861,11 +757,8 @@
       
     video:
     - 37e3c46f-d463-4507-8090-19abc74c839b
-    linked-to:
-    - postxvideo:
-        post: 1919977679027372546
-        video: 37e3c46f-d463-4507-8090-19abc74c839b
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -881,9 +774,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1919977679027372546
+    part-of:
+      postx: 1919977679027372546
 
 - postx:
     id: 1920401532488724860
@@ -897,11 +789,8 @@
       
     video:
     - a54c225e-6b58-47e6-a2b8-d7e90eeae28b
-    linked-to:
-    - postxvideo:
-        post: 1920401532488724860
-        video: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -917,9 +806,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1920401532488724860
+    part-of:
+      postx: 1920401532488724860
 
 - postx:
     id: 1920746869560430820
@@ -937,11 +825,8 @@
       
     video:
     - 86e746a8-fd09-4141-979d-524ced4fa2f0
-    linked-to:
-    - postxvideo:
-        post: 1920746869560430820
-        video: 86e746a8-fd09-4141-979d-524ced4fa2f0
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -957,9 +842,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: dreams
-    linked-to:
-    - song: dreams
-    - postx: 1920746869560430820
+    part-of:
+      postx: 1920746869560430820
 
 - postx:
     id: 1921828183369781385
@@ -977,11 +861,8 @@
       
     video:
     - 890f9d50-48f5-4914-9d1f-223e9a52a452
-    linked-to:
-    - postxvideo:
-        post: 1921828183369781385
-        video: 890f9d50-48f5-4914-9d1f-223e9a52a452
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -997,9 +878,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: ooak
-    linked-to:
-    - song: ooak
-    - postx: 1921828183369781385
+    part-of:
+      postx: 1921828183369781385
 
 - postx:
     id: 1922588708026404968
@@ -1013,11 +893,8 @@
       
     video:
     - 4c117af0-984b-4ba9-8a30-e82f968dd226
-    linked-to:
-    - postxvideo:
-        post: 1922588708026404968
-        video: 4c117af0-984b-4ba9-8a30-e82f968dd226
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -1033,9 +910,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: endlessgame
-    linked-to:
-    - song: endlessgame
-    - postx: 1922588708026404968
+    part-of:
+      postx: 1922588708026404968
 
 - postx:
     id: 1926928034944213276
@@ -1050,11 +926,8 @@
       
     video:
     - d7408dbc-320f-41a5-8e45-5ce994c99049
-    linked-to:
-    - postxvideo:
-        post: 1926928034944213276
-        video: d7408dbc-320f-41a5-8e45-5ce994c99049
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -1070,9 +943,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1926928034944213276
+    part-of:
+      postx: 1926928034944213276
 
 - postx:
     id: 1929389485147721772
@@ -1091,11 +963,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1929389485147721772
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -1111,9 +980,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: getover
-    linked-to:
-    - song: getover
-    - postx: 1929389485147721772
+    part-of:
+      postx: 1929389485147721772
 
 - postx:
     id: 1935184418047672438
@@ -1132,11 +1000,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1935184418047672438
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -1152,12 +1017,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: maze
-    linked-to:
-    - show:
-        year: 2025
-        id: kakumeilogic2025
-    - song: maze
-    - postx: 1935184418047672438
+    part-of:
+      postx: 1935184418047672438
 
 - youtubeshort:
     id: bFHCOVgFMKg
@@ -1168,8 +1029,8 @@
     - show:
         year: 2025
         id: kakumeilogic2025
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: kakumeilogic2025
 
@@ -1230,24 +1091,6 @@
       - postximage:
           post: 1938880954849992881
           image: GuhJ7t9XEAAlg5u
-    linked-to:
-    - youtubeshort: d0xe6MdU3yI
-    - youtubeshort: FRbyFkaf9-A
-    - youtubeshort: Yhu9_tyO1UY
-    - postx: 1933086980537225689
-    - postx: 1938118631382258146
-    - postx: 1938863381467013260
-    - postx: 1938868329671991307
-    - postx: 1938880954849992881
-    - postx: 1939993599997042981
-    - postx: 1941062054896660964
-    - youtubeshort: ecPrF0wxFyU
-    - youtubeshort: FYIzYR84jas
-    - postx: 1941384970066653472
-    - postx: 1941695982032617731
-    - postx: 1943530078891315228
-    - postx: 1943937653193543886
-    - youtubeshort: FSgmKhViYjA
 
 - youtubeshort:
     id: d0xe6MdU3yI
@@ -1258,8 +1101,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1272,11 +1115,10 @@
         year: 2025
         id: sendaimusicfuse
     - song: endlessgame
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
-    - song: endlessgame
 
 - youtubeshort:
     id: Yhu9_tyO1UY
@@ -1288,11 +1130,10 @@
         year: 2025
         id: sendaimusicfuse
     - song: maze
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
-    - song: maze
 
 - postx:
     id: 1933086980537225689
@@ -1323,14 +1164,8 @@
     image:
     - GtOzLBnbYAA_1f5
     - GtOzLB3bMAAkuR1
-    linked-to:
-    - postximage:
-        post: 1933086980537225689
-        image: GtOzLBnbYAA_1f5
-    - postximage:
-        post: 1933086980537225689
-        image: GtOzLB3bMAAkuR1
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1344,11 +1179,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - postx: 1933086980537225689
+    part-of:
+      postx: 1933086980537225689
 
 - postximage:
     post: 1933086980537225689
@@ -1359,11 +1191,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - postx: 1933086980537225689
+    part-of:
+      postx: 1933086980537225689
 
 - postx:
     id: 1938118631382258146
@@ -1382,8 +1211,8 @@
       
       #ネキ界隈 #拡散中 #NEKI
       
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1403,11 +1232,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1938863381467013260
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1422,12 +1248,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: getover
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - song: getover
-    - postx: 1938863381467013260
+    part-of:
+      postx: 1938863381467013260
 
 - postx:
     id: 1938868329671991307
@@ -1454,20 +1276,8 @@
     - Gug-aXFaoAMN_q3
     - Gug-aXNXYAALVaV
     - Gug-aW7XUAAt5w3
-    linked-to:
-    - postximage:
-        post: 1938868329671991307
-        image: Gug-aW9WkAA-x6F
-    - postximage:
-        post: 1938868329671991307
-        image: Gug-aXFaoAMN_q3
-    - postximage:
-        post: 1938868329671991307
-        image: Gug-aXNXYAALVaV
-    - postximage:
-        post: 1938868329671991307
-        image: Gug-aW7XUAAt5w3
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1481,11 +1291,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - postx: 1938868329671991307
+    part-of:
+      postx: 1938868329671991307
 
 - postximage:
     post: 1938868329671991307
@@ -1497,11 +1304,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - postx: 1938868329671991307
+    part-of:
+      postx: 1938868329671991307
 
 - postximage:
     post: 1938868329671991307
@@ -1513,11 +1317,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - postx: 1938868329671991307
+    part-of:
+      postx: 1938868329671991307
 
 - postximage:
     post: 1938868329671991307
@@ -1529,11 +1330,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - postx: 1938868329671991307
+    part-of:
+      postx: 1938868329671991307
 
 - postx:
     id: 1938880954849992881
@@ -1560,14 +1358,8 @@
     image:
     - GuhJ7uKWcAA2JH3
     - GuhJ7t9XEAAlg5u
-    linked-to:
-    - postximage:
-        post: 1938880954849992881
-        image: GuhJ7uKWcAA2JH3
-    - postximage:
-        post: 1938880954849992881
-        image: GuhJ7t9XEAAlg5u
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1581,11 +1373,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - postx: 1938880954849992881
+    part-of:
+      postx: 1938880954849992881
 
 - postximage:
     post: 1938880954849992881
@@ -1596,11 +1385,8 @@
     - show:
         year: 2025
         id: sendaimusicfuse
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - postx: 1938880954849992881
+    part-of:
+      postx: 1938880954849992881
 
 - postx:
     id: 1939993599997042981
@@ -1621,11 +1407,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1939993599997042981
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1641,12 +1424,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: reigengirl
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - song: reigengirl
-    - postx: 1939993599997042981
+    part-of:
+      postx: 1939993599997042981
 
 - postx:
     id: 1941062054896660964
@@ -1663,11 +1442,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1941062054896660964
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1683,9 +1459,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: getover
-    linked-to:
-    - song: getover
-    - postx: 1941062054896660964
+    part-of:
+      postx: 1941062054896660964
 
 - youtubeshort:
     id: ecPrF0wxFyU
@@ -1697,11 +1472,10 @@
         year: 2025
         id: sendaimusicfuse
     - song: dreams
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
-    - song: dreams
 
 - youtubeshort:
     id: FYIzYR84jas
@@ -1713,11 +1487,10 @@
         year: 2025
         id: sendaimusicfuse
     - song: reigengirl
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
-    - song: reigengirl
 
 - postx:
     id: 1941384970066653472
@@ -1731,11 +1504,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1941384970066653472
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1751,12 +1521,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: getover
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - song: getover
-    - postx: 1941384970066653472
+    part-of:
+      postx: 1941384970066653472
 
 - postx:
     id: 1941695982032617731
@@ -1770,11 +1536,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1941695982032617731
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1790,12 +1553,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: dreams
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - song: dreams
-    - postx: 1941695982032617731
+    part-of:
+      postx: 1941695982032617731
 
 - postx:
     id: 1943530078891315228
@@ -1812,11 +1571,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1943530078891315228
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1832,12 +1588,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: reigengirl
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - song: reigengirl
-    - postx: 1943530078891315228
+    part-of:
+      postx: 1943530078891315228
 
 - postx:
     id: 1943937653193543886
@@ -1857,11 +1609,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1943937653193543886
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
 
@@ -1877,12 +1626,8 @@
         year: 2025
         id: sendaimusicfuse
     - song: dreams
-    linked-to:
-    - show:
-        year: 2025
-        id: sendaimusicfuse
-    - song: dreams
-    - postx: 1943937653193543886
+    part-of:
+      postx: 1943937653193543886
 
 - youtubeshort:
     id: FSgmKhViYjA
@@ -1894,11 +1639,10 @@
         year: 2025
         id: sendaimusicfuse
     - song: ooak
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: sendaimusicfuse
-    - song: ooak
 
 - show:
     year: 2025
@@ -1912,8 +1656,6 @@
       postximage:
         post: 1934083816131596730
         image: Gtc-9etbYAAg1fO
-    linked-to:
-    - postx: 1934083816131596730
 
 - postx:
     id: 1934083816131596730
@@ -1940,11 +1682,8 @@
       
     image:
     - Gtc-9etbYAAg1fO
-    linked-to:
-    - postximage:
-        post: 1934083816131596730
-        image: Gtc-9etbYAAg1fO
-    - show:
+    part-of:
+      show:
         year: 2025
         id: thetheoryofscience
 
@@ -1958,9 +1697,6 @@
     - show:
         year: 2025
         id: thetheoryofscience
-    linked-to:
-    - show:
-        year: 2025
-        id: thetheoryofscience
-    - postx: 1934083816131596730
+    part-of:
+      postx: 1934083816131596730
 

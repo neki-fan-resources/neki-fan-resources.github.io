@@ -4,8 +4,8 @@
     published-date: 2025-03-04
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubevideo:
     id: 0YlW7T5fVZ4
@@ -13,8 +13,8 @@
     published-date: 2025-03-05
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - localimage:
     multimedia-event: dreamsmv
@@ -45,11 +45,10 @@
         year: 2024
         id: 2ndonemanlive
     - song: dreams
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 2ndonemanlive
-    - song: dreams
 
 - youtubeshort:
     id: QcmApJ-dFgE
@@ -59,8 +58,8 @@
     published-date: 2025-02-07
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubeshort:
     id: 589kXdONCDo
@@ -68,8 +67,8 @@
     published-date: 2025-03-04
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubeshort:
     id: GeFi7F99oOw
@@ -77,8 +76,8 @@
     published-date: 2025-03-05
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubeshort:
     id: MMCK7gW62zU
@@ -87,8 +86,8 @@
     published-date: 2025-03-10
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubeshort:
     id: n8e278VpxBo
@@ -97,8 +96,8 @@
     published-date: 2025-03-29
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubeshort:
     id: 2S64RS8McUU
@@ -107,8 +106,8 @@
     published-date: 2025-04-26
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubeshort:
     id: rnvVMueRDCk
@@ -117,8 +116,8 @@
     published-date: 2025-05-17
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubeshort:
     id: zT_P-TfmG5w
@@ -127,8 +126,8 @@
     published-date: 2025-05-26
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - youtubeshort:
     id: Ejlq5EiRWO4
@@ -137,8 +136,8 @@
     published-date: 2025-05-01
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - postyoutube:
     id: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
@@ -161,11 +160,8 @@
       
     image:
     - Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
-    linked-to:
-    - postyoutubeimage:
-        post: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
-        image: Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
-    - song: dreams
+    part-of:
+      song: dreams
 
 - postyoutubeimage:
     post: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
@@ -175,5 +171,5 @@
     local-copy: true
     context:
     - song: dreams
-    linked-to:
-    - postyoutube: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+    part-of:
+      postyoutube: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT

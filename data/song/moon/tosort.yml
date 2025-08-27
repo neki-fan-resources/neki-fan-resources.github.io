@@ -6,5 +6,5 @@
     published-date: 2025-05-10
     context:
     - song: moon
-    linked-to:
-    - song: moon
+    part-of:
+      song: moon

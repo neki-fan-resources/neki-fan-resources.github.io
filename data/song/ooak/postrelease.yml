@@ -10,8 +10,8 @@
       #ネキ界隈  #NEKI
     video:
     - 01
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - postxvideo:
     post: 1947639492552364472

@@ -27,5 +27,5 @@
     source:
       description: event page
       url: https://note.com/nekiband_jp/n/n4171192bfb28
-    linked-to:
-    - tour: nekifirstosakaaichi2024
+    part-of:
+      tour: nekifirstosakaaichi2024

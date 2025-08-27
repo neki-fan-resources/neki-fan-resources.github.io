@@ -1185,11 +1185,6 @@
           - d: 瞳の奥に焼きついてる
           gg:
           - Is burned into the depths of my eyes.
-    linked-to:
-    - youtubeshort: 5OUm1JsT0jA
-    - youtubeshort: pCTospiTveM
-    - youtubeshort: XM2krS3GLm0
-    - youtubeshort: '-S49UXHjBLY'
 
 - youtubeshort:
     id: 5OUm1JsT0jA
@@ -1198,8 +1193,8 @@
     published-date: 2024-06-27
     context:
     - song: blink
-    linked-to:
-    - song: blink
+    part-of:
+      song: blink
 
 - youtubeshort:
     id: pCTospiTveM
@@ -1208,8 +1203,8 @@
     published-date: 2024-08-29
     context:
     - song: blink
-    linked-to:
-    - song: blink
+    part-of:
+      song: blink
 
 - youtubeshort:
     id: XM2krS3GLm0
@@ -1219,8 +1214,8 @@
     published-date: 2024-08-29
     context:
     - song: blink
-    linked-to:
-    - song: blink
+    part-of:
+      song: blink
 
 - youtubeshort:
     id: '-S49UXHjBLY'
@@ -1229,6 +1224,6 @@
     published-date: 2024-10-07
     context:
     - song: blink
-    linked-to:
-    - song: blink
+    part-of:
+      song: blink
 

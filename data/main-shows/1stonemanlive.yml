@@ -18,13 +18,6 @@
       - postxvideo:
           post: 1926203870809608381
           video: de045839-e5ef-4546-90d3-d6e3f4cb9f34
-    linked-to:
-    - youtubeshort: tmpUHr3F67k
-    - youtubeshort: XzfOs6kjtUs
-    - youtubeshort: JcCYNJoEoLI
-    - youtubeshort: EkRipluPvVg
-    - postx: 1926203870809608381
-    - postyoutube: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
 
 - youtubeshort:
     id: tmpUHr3F67k
@@ -36,9 +29,8 @@
     - show:
         year: 2024
         id: 1stonemanlive
-    linked-to:
-    - song: endlessgame
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 1stonemanlive
 
@@ -51,9 +43,8 @@
     - show:
         year: 2024
         id: 1stonemanlive
-    linked-to:
-    - song: maze
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 1stonemanlive
 
@@ -67,9 +58,8 @@
     - show:
         year: 2024
         id: 1stonemanlive
-    linked-to:
-    - song: endlessgame
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 1stonemanlive
 
@@ -82,9 +72,8 @@
     - show:
         year: 2024
         id: 1stonemanlive
-    linked-to:
-    - song: fool
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 1stonemanlive
 
@@ -104,11 +93,8 @@
       
     video:
     - de045839-e5ef-4546-90d3-d6e3f4cb9f34
-    linked-to:
-    - postxvideo:
-        post: 1926203870809608381
-        video: de045839-e5ef-4546-90d3-d6e3f4cb9f34
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 1stonemanlive
 
@@ -123,11 +109,8 @@
     - show:
         year: 2024
         id: 1stonemanlive
-    linked-to:
-    - show:
-        year: 2024
-        id: 1stonemanlive
-    - postx: 1926203870809608381
+    part-of:
+      postx: 1926203870809608381
 
 - postyoutube:
     id: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
@@ -144,11 +127,8 @@
       
     image:
     - NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
-    linked-to:
-    - postyoutubeimage:
-        post: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
-        image: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
-    - show:
+    part-of:
+      show:
         year: 2024
         id: 1stonemanlive
 
@@ -162,6 +142,6 @@
     - show:
         year: 2024
         id: 1stonemanlive
-    linked-to:
-    - postyoutube: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
+    part-of:
+      postyoutube: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
 

@@ -22,10 +22,6 @@
     multimedia:
       additional:
       - youtubevideo: 387bkUm7Dko
-    linked-to:
-    - youtubevideo: 387bkUm7Dko
-    - youtubeshort: YRmeizMwd1Y
-    - postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 
 - youtubevideo:
     id: 387bkUm7Dko
@@ -34,8 +30,6 @@
     todo: check date
     context:
     - album: exclamation
-    linked-to:
-    - album: exclamation
 
 - youtubeshort:
     id: YRmeizMwd1Y
@@ -43,8 +37,6 @@
     published-date: 2024-06-03
     todo: check date
     context:
-    - album: exclamation
-    linked-to:
     - album: exclamation
 
 - postyoutube:
@@ -74,11 +66,8 @@
       
     image:
     - yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
-    linked-to:
-    - postyoutubeimage:
-        post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
-        image: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
-    - album: exclamation
+    part-of:
+      album: exclamation
 
 - postyoutubeimage:
     post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
@@ -88,6 +77,6 @@
     local-copy: true
     context:
     - album: exclamation
-    linked-to:
-    - postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+    part-of:
+      postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 

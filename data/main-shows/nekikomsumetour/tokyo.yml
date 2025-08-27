@@ -28,21 +28,6 @@
       - postximage:
           post: 1929531593523081226
           image: GscSvrHbMAAqkrT
-    linked-to:
-    - localimage:
-        show:
-          year: 2025
-          id: nekikomsumetokyo
-        id: cover
-    - youtubeshort: mOyYGaolObY
-    - youtubeshort: wKpbdMANRTo
-    - postx: 1925839253633695948
-    - postx: 1929531593523081226
-    - postx: 1929838014714597729
-    - postx: 1929717050664276154
-    - postx: 1931252079353581736
-    - postx: 1933082505084809657
-    - postx: 1934127859645419907
 
 - localimage:
     show:
@@ -56,8 +41,8 @@
     source:
       description: NEK! note post
       url: 'https://note.com/nekiband_jp/n/nb50d1c0b1dd3'
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -70,8 +55,8 @@
     - show:
         year: 2025
         id: nekikomsumetokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -85,9 +70,8 @@
     - show:
         year: 2025
         id: nekikomsumetokyo
-    linked-to:
-    - song: maze
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -112,11 +96,8 @@
       
     video:
     - e0a878eb-034c-48b4-8db2-b37112a4e44a
-    linked-to:
-    - postxvideo:
-        post: 1925839253633695948
-        video: e0a878eb-034c-48b4-8db2-b37112a4e44a
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -130,11 +111,8 @@
     - show:
         year: 2025
         id: nekikomsumetokyo
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumetokyo
-    - postx: 1925839253633695948
+    part-of:
+      postx: 1925839253633695948
 
 - postx:
     id: 1929531593523081226
@@ -156,11 +134,8 @@
       
     image:
     - GscSvrHbMAAqkrT
-    linked-to:
-    - postximage:
-        post: 1929531593523081226
-        image: GscSvrHbMAAqkrT
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -174,11 +149,8 @@
     - show:
         year: 2025
         id: nekikomsumetokyo
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumetokyo
-    - postx: 1929531593523081226
+    part-of:
+      postx: 1929531593523081226
 
 - postx:
     id: 1929838014714597729
@@ -203,14 +175,8 @@
     image:
     - GsgpaTQb0AAv3Zr
     - Gsgpa56bcAAoxCH
-    linked-to:
-    - postximage:
-        post: 1929838014714597729
-        image: GsgpaTQb0AAv3Zr
-    - postximage:
-        post: 1929838014714597729
-        image: Gsgpa56bcAAoxCH
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -223,11 +189,8 @@
     - show:
         year: 2025
         id: nekikomsumetokyo
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumetokyo
-    - postx: 1929838014714597729
+    part-of:
+      postx: 1929838014714597729
 
 - postximage:
     post: 1929838014714597729
@@ -238,11 +201,8 @@
     - show:
         year: 2025
         id: nekikomsumetokyo
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumetokyo
-    - postx: 1929838014714597729
+    part-of:
+      postx: 1929838014714597729
 
 - postx:
     id: 1929717050664276154
@@ -263,11 +223,8 @@
       
     video:
     - d1410d59-583b-4a2a-8b72-7d7eef39d3e8
-    linked-to:
-    - postxvideo:
-        post: 1929717050664276154
-        video: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -282,11 +239,8 @@
     - show:
         year: 2025
         id: nekikomsumetokyo
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumetokyo
-    - postx: 1929717050664276154
+    part-of:
+      postx: 1929717050664276154
 
 - postx:
     id: 1931252079353581736
@@ -303,11 +257,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1931252079353581736
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -323,12 +274,8 @@
         year: 2025
         id: nekikomsumetokyo
     - song: loner
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumetokyo
-    - song: loner
-    - postx: 1931252079353581736
+    part-of:
+      postx: 1931252079353581736
 
 - postx:
     id: 1933082505084809657
@@ -344,11 +291,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1933082505084809657
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -364,12 +308,8 @@
         year: 2025
         id: nekikomsumetokyo
     - song: dreams
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumetokyo
-    - song: dreams
-    - postx: 1933082505084809657
+    part-of:
+      postx: 1933082505084809657
 
 - postx:
     id: 1934127859645419907
@@ -385,11 +325,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1934127859645419907
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: nekikomsumetokyo
 
@@ -405,9 +342,5 @@
         year: 2025
         id: nekikomsumetokyo
     - song: ooak
-    linked-to:
-    - show:
-        year: 2025
-        id: nekikomsumetokyo
-    - song: ooak
-    - postx: 1934127859645419907
+    part-of:
+      postx: 1934127859645419907

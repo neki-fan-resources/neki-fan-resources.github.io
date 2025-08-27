@@ -15,8 +15,8 @@
       #ネキ界隈 #拡散中 #NEKI
     video:
     - 01
-    linked-to:
-    - song: dreams
+    part-of:
+      song: dreams
 
 - postxvideo:
     post: 1948333854063841769
@@ -27,8 +27,8 @@
     published-date: 2025-07-24
     context:
     - song: dreams
-    linked-to:
-    - song: dreams
+    part-of:
+      postx: 1948333854063841769
 
 - postx:
     id: 1950563193366954288
@@ -41,6 +41,10 @@
       #ネキ界隈   #NEKI
     video:
     - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
 
 - postxvideo:
     post: 1950563193366954288
@@ -53,10 +57,7 @@
     - show:
         year: 2025
         id: 1stzepponeman
-    linked-to:
-    - song: dreams
-    - show:
-        year: 2025
-        id: 1stzepponeman
+    part-of:
+      postx: 1950563193366954288
 
 

@@ -19,12 +19,6 @@
       - youtubeshort: gVUFjTcD3B4
       additional:
       - youtubeshort: Z-ju19kHofg
-    linked-to:
-    - youtubeshort: gVUFjTcD3B4
-    - youtubeshort: bBhvxwNWh3A
-    - youtubeshort: qR2yF3Jb4r4
-    - youtubeshort: Z-ju19kHofg
-    - postx: 1770261360938746035
 
 - youtubeshort:
     id: gVUFjTcD3B4
@@ -35,9 +29,8 @@
     - show:
         year: 2024
         id: shibuyachelseahotel
-    linked-to:
-    - song: reigengirl
-    - show:
+    part-of:
+      show:
         year: 2024
         id: shibuyachelseahotel
 
@@ -50,9 +43,8 @@
     - show:
         year: 2024
         id: shibuyachelseahotel
-    linked-to:
-    - song: reigengirl
-    - show:
+    part-of:
+      show:
         year: 2024
         id: shibuyachelseahotel
 
@@ -65,9 +57,8 @@
     - show:
         year: 2024
         id: shibuyachelseahotel
-    linked-to:
-    - song: maze
-    - show:
+    part-of:
+      show:
         year: 2024
         id: shibuyachelseahotel
 
@@ -80,8 +71,8 @@
     - show:
         year: 2024
         id: shibuyachelseahotel
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2024
         id: shibuyachelseahotel
 
@@ -107,14 +98,8 @@
     image:
     - GJE7Uu6a4AAdiK5
     - GJE7UvYbgAAG_3L
-    linked-to:
-    - postximage:
-        post: 1770261360938746035
-        image: GJE7Uu6a4AAdiK5
-    - postximage:
-        post: 1770261360938746035
-        image: GJE7UvYbgAAG_3L
-    - show:
+    part-of:
+      show:
         year: 2024
         id: shibuyachelseahotel
 
@@ -129,8 +114,8 @@
     - show:
         year: 2024
         id: shibuyachelseahotel
-    linked-to:
-    - postx: 1770261360938746035
+    part-of:
+      postx: 1770261360938746035
 
 - postximage:
     post: 1770261360938746035
@@ -141,6 +126,6 @@
     - show:
         year: 2024
         id: shibuyachelseahotel
-    linked-to:
-    - postx: 1770261360938746035
+    part-of:
+      postx: 1770261360938746035
 

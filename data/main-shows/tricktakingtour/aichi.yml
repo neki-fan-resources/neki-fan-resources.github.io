@@ -19,9 +19,6 @@
       - youtubeshort: b2N2xThvZ-4
       additional:
       - youtubeshort: Lz0Fj4wCa-Y
-    linked-to:
-    - youtubeshort: b2N2xThvZ-4
-    - youtubeshort: Lz0Fj4wCa-Y
 
 - youtubeshort:
     id: b2N2xThvZ-4
@@ -32,9 +29,8 @@
     - show:
         year: 2025
         id: tricktakingtouraichi
-    linked-to:
-    - song: zerosum
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtouraichi
 
@@ -47,8 +43,8 @@
     - show:
         year: 2025
         id: tricktakingtouraichi
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtouraichi
 

@@ -59,13 +59,10 @@
       
     image:
     - GwHsTcHawAAH0pk
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: fmosaka
-    - postximage:
-        post: 1946096706078343193
-        image: GwHsTcHawAAH0pk
 
 - postximage:
     post: 1946096706078343193
@@ -77,11 +74,8 @@
     - media:
         year: 2025
         id: fmosaka
-    linked-to:
-    - media:
-        year: 2025
-        id: fmosaka
-    - postx: 1946096706078343193
+    part-of:
+      postx: 1946096706078343193
 
 - postx:
     id: 1946103119286550886
@@ -107,13 +101,10 @@
       
     image:
     - GwHyd8hagAA3MZ6
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: fmosaka
-    - postximage:
-        post: 1946103119286550886
-        image: GwHyd8hagAA3MZ6
 
 - postximage:
     post: 1946103119286550886
@@ -125,11 +116,8 @@
     - media:
         year: 2025
         id: fmosaka
-    linked-to:
-    - media:
-        year: 2025
-        id: fmosaka
-    - postx: 1946103119286550886
+    part-of:
+      postx: 1946103119286550886
 
 - postx:
     id: 1946103934915166259
@@ -150,13 +138,10 @@
       
     image:
     - GwHzNCIWwAAilIt
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: fmosaka
-    - postximage:
-        post: 1946103934915166259
-        image: GwHzNCIWwAAilIt
 
 - postximage:
     post: 1946103934915166259
@@ -167,9 +152,6 @@
     - media:
         year: 2025
         id: fmosaka
-    linked-to:
-    - media:
-        year: 2025
-        id: fmosaka
-    - postx: 1946103934915166259
+    part-of:
+      postx: 1946103934915166259
 

@@ -61,13 +61,10 @@
       
     image:
     - GwGzUAJWAAIu7fG
-    linked-to:
-    - media:
+    part-of:
+      media:
         year: 2025
         id: radiokansai
-    - postximage:
-        post: 1946033691547009324
-        image: GwGzUAJWAAIu7fG
 
 - postximage:
     post: 1946033691547009324
@@ -79,9 +76,6 @@
     - media:
         year: 2025
         id: radiokansai
-    linked-to:
-    - media:
-        year: 2025
-        id: radiokansai
-    - postx: 1946033691547009324
+    part-of:
+      postx: 1946033691547009324
 

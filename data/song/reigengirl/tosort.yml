@@ -5,8 +5,8 @@
     published-date: 2024-06-28
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubevideo:
     id: rq0dca9mFfI
@@ -14,8 +14,8 @@
     published-date: 2024-07-03
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: _oUd8BpbvE4
@@ -24,8 +24,8 @@
     published-date: 2024-06-11
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: 0CR_lqZQ6N4
@@ -33,8 +33,8 @@
     published-date: 2024-06-28
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: UrH4jAKEOGU
@@ -42,8 +42,8 @@
     published-date: 2024-07-03
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: BtsWAi6cXws
@@ -52,8 +52,8 @@
     published-date: 2024-07-04
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: 58AHgFVIMos
@@ -62,8 +62,8 @@
     published-date: 2024-07-05
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: 01U3dQi-hkw
@@ -72,8 +72,8 @@
     published-date: 2024-07-06
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: Dysq97Q0OVA
@@ -82,8 +82,8 @@
     published-date: 2024-07-07
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: yq6g2gUuoCI
@@ -92,8 +92,8 @@
     published-date: 2024-07-10
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: 20oChc0jOIA
@@ -102,8 +102,8 @@
     published-date: 2024-07-13
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: Y-5kc3nAzXc
@@ -112,8 +112,8 @@
     published-date: 2024-11-12
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: Bvri9sj_Ajw
@@ -122,8 +122,8 @@
     published-date: 2025-05-19
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - youtubeshort:
     id: me3p1i5Ddtc
@@ -132,8 +132,8 @@
     published-date: 2025-05-31
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postx:
     id: 1917515461727772903
@@ -150,11 +150,8 @@
       
     video:
     - d111e062-3a51-4d15-92d8-43dccd8534ba
-    linked-to:
-    - postxvideo:
-        post: 1917515461727772903
-        video: d111e062-3a51-4d15-92d8-43dccd8534ba
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postxvideo:
     post: 1917515461727772903
@@ -165,8 +162,8 @@
     info: Kanade
     context:
     - song: reigengirl
-    linked-to:
-    - postx: 1917515461727772903
+    part-of:
+      postx: 1917515461727772903
 
 - postx:
     id: 1922955621957005543
@@ -184,11 +181,8 @@
       
     video:
     - 97bf656e-1306-4f01-b926-ec5e46b54cff
-    linked-to:
-    - postxvideo:
-        post: 1922955621957005543
-        video: 97bf656e-1306-4f01-b926-ec5e46b54cff
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postxvideo:
     post: 1922955621957005543
@@ -199,8 +193,8 @@
     info: Natsu
     context:
     - song: reigengirl
-    linked-to:
-    - postx: 1922955621957005543
+    part-of:
+      postx: 1922955621957005543
 
 - postx:
     id: 1927221299337666934
@@ -218,11 +212,8 @@
       
     video:
     - 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
-    linked-to:
-    - postxvideo:
-        post: 1927221299337666934
-        video: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postxvideo:
     post: 1927221299337666934
@@ -233,9 +224,8 @@
     info: intro, Hika, Kanade
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postx: 1927221299337666934
+    part-of:
+      postx: 1927221299337666934
 
 - postyoutube:
     id: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -256,23 +246,8 @@
     - UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
     - RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
     - DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
-    linked-to:
-    - postyoutubeimage:
-        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-        image: EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
-    - postyoutubeimage:
-        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-        image: SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
-    - postyoutubeimage:
-        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-        image: UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
-    - postyoutubeimage:
-        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-        image: RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
-    - postyoutubeimage:
-        post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-        image: DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postyoutubeimage:
     post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -282,9 +257,8 @@
     local-copy: true
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    part-of:
+      postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
 
 - postyoutubeimage:
     post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -294,9 +268,8 @@
     published-date: 2024-06-03
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    part-of:
+      postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
 
 - postyoutubeimage:
     post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -306,9 +279,8 @@
     published-date: 2024-06-03
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    part-of:
+      postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
 
 - postyoutubeimage:
     post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -318,9 +290,8 @@
     published-date: 2024-06-03
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    part-of:
+      postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
 
 - postyoutubeimage:
     post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -330,9 +301,8 @@
     published-date: 2024-06-03
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    part-of:
+      postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
 
 - youtubeshort:
     id: bbcvEeB-i9Q
@@ -341,8 +311,8 @@
     published-date: 2025-06-13
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postx:
     id: 1934565616020840560
@@ -357,11 +327,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1934565616020840560
-        video: 01
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postxvideo:
     post: 1934565616020840560
@@ -372,9 +339,8 @@
     info: Natsu
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postx: 1934565616020840560
+    part-of:
+      postx: 1934565616020840560
 
 - postx:
     id: 1848204505093144935
@@ -390,11 +356,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1848204505093144935
-        video: 01
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postxvideo:
     post: 1848204505093144935
@@ -405,9 +368,8 @@
     info: Cocoro
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postx: 1848204505093144935
+    part-of:
+      postx: 1848204505093144935
 
 - postx:
     id: 1945413820660523501
@@ -424,11 +386,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1945413820660523501
-        video: 01
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postxvideo:
     post: 1945413820660523501
@@ -439,9 +398,8 @@
     info: Natsu
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postx: 1945413820660523501
+    part-of:
+      postx: 1945413820660523501
 
 - postx:
     id: 1946145450060288257
@@ -455,11 +413,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1946145450060288257
-        video: 01
-    - song: reigengirl
+    part-of:
+      song: reigengirl
 
 - postxvideo:
     post: 1946145450060288257
@@ -470,7 +425,6 @@
     info: Hika
     context:
     - song: reigengirl
-    linked-to:
-    - song: reigengirl
-    - postx: 1946145450060288257
+    part-of:
+      postx: 1946145450060288257
 

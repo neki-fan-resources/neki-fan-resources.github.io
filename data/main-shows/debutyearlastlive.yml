@@ -20,17 +20,6 @@
       - postxvideo:
           post: 1920434632379580460
           video: daa90966-8453-41ab-843d-c8dc1283943a
-    linked-to:
-    - postximage:
-        post: 1918636722516373576
-        image: GqBc0HhbYAA2VDy
-    - youtubevideo: IeBks9yGO4A
-    - youtubevideo: urGmtrd7zbA
-    - youtubeshort: spUo9sWqs48
-    - youtubeshort: l5CgBChBmwQ
-    - youtubeshort: N5KVAUzJZXs
-    - postx: 1920434632379580460
-    - postyoutube: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
 
 - youtubevideo:
     id: IeBks9yGO4A
@@ -41,9 +30,8 @@
     - show:
         year: 2024
         id: debutyearlastlive
-    linked-to:
-    - song: getover
-    - show:
+    part-of:
+      show:
         year: 2024
         id: debutyearlastlive
 
@@ -76,9 +64,8 @@
     - show:
         year: 2024
         id: debutyearlastlive
-    linked-to:
-    - song: fool
-    - show:
+    part-of:
+      show:
         year: 2024
         id: debutyearlastlive
 
@@ -102,9 +89,8 @@
     - show:
         year: 2024
         id: debutyearlastlive
-    linked-to:
-    - song: getover
-    - show:
+    part-of:
+      show:
         year: 2024
         id: debutyearlastlive
 
@@ -117,8 +103,8 @@
     - show:
         year: 2024
         id: debutyearlastlive
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2024
         id: debutyearlastlive
 
@@ -131,9 +117,8 @@
     - show:
         year: 2024
         id: debutyearlastlive
-    linked-to:
-    - song: fool
-    - show:
+    part-of:
+      show:
         year: 2024
         id: debutyearlastlive
 
@@ -149,11 +134,8 @@
       
     video:
     - daa90966-8453-41ab-843d-c8dc1283943a
-    linked-to:
-    - postxvideo:
-        post: 1920434632379580460
-        video: daa90966-8453-41ab-843d-c8dc1283943a
-    - show:
+    part-of:
+      show:
         year: 2024
         id: debutyearlastlive
 
@@ -168,8 +150,8 @@
     - show:
         year: 2024
         id: debutyearlastlive
-    linked-to:
-    - postx: 1920434632379580460
+    part-of:
+      postx: 1920434632379580460
 
 - postyoutube:
     id: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
@@ -200,11 +182,8 @@
       
     image:
     - wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
-    linked-to:
-    - postyoutubeimage:
-        post: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
-        image: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
-    - show:
+    part-of:
+      show:
         year: 2024
         id: debutyearlastlive
 
@@ -218,6 +197,6 @@
     - show:
         year: 2024
         id: debutyearlastlive
-    linked-to:
-    - postyoutube: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+    part-of:
+      postyoutube: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
 

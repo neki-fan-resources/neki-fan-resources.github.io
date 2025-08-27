@@ -6,8 +6,8 @@
     published-date: 2025-02-14
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubevideo:
     id: z3HM2COly2Q
@@ -15,8 +15,8 @@
     published-date: 2025-02-15
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubevideo:
     id: Jr0cUhVnKiE
@@ -25,8 +25,8 @@
     published-date: 2025-06-05
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: bXwDRz85Q94
@@ -34,8 +34,8 @@
     published-date: 2025-02-14
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: Tg21bnDB9Wg
@@ -43,8 +43,8 @@
     published-date: 2025-02-15
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: 5WS8ZE-8chw
@@ -53,8 +53,8 @@
     published-date: 2025-02-16
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: DLjUreGwB9c
@@ -62,8 +62,8 @@
     published-date: 2025-02-17
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: swQC6Xm0uLA
@@ -72,8 +72,8 @@
     published-date: 2025-02-18
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: oSg3qLQDmtI
@@ -82,8 +82,8 @@
     published-date: 2025-02-21
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: M4ovXQcKfv0
@@ -92,8 +92,8 @@
     published-date: 2025-02-22
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: becPsUyrM_M
@@ -102,8 +102,8 @@
     published-date: 2025-02-23
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: LoiUwaTk_2Q
@@ -112,8 +112,8 @@
     published-date: 2025-02-24
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: f_7Wd4lCcXo
@@ -122,8 +122,8 @@
     published-date: 2025-03-01
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: WRfdzk-02vY
@@ -132,8 +132,8 @@
     published-date: 2025-04-07
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: ybFbLwDu-U4
@@ -142,8 +142,8 @@
     published-date: 2025-05-16
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: hWDR2ux5jFs
@@ -152,8 +152,8 @@
     published-date: 2025-05-27
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: ACpiujWAlHg
@@ -162,8 +162,8 @@
     published-date: 2025-06-03
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - youtubeshort:
     id: 4t1yP9wsV88
@@ -172,8 +172,8 @@
     published-date: 2025-07-04
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - postx:
     id: 1928744673092292656
@@ -187,11 +187,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1928744673092292656
-        video: 01
-    - song: zerosum
+    part-of:
+      song: zerosum
 
 - postxvideo:
     post: 1928744673092292656
@@ -203,7 +200,6 @@
     todo: location ? likely TTT tokyo
     context:
     - song: zerosum
-    linked-to:
-    - song: zerosum
-    - postx: 1928744673092292656
+    part-of:
+      postx: 1928744673092292656
 

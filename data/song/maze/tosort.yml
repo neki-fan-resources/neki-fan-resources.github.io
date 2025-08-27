@@ -4,8 +4,8 @@
     published-date: 2024-07-20
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubevideo:
     id: EHtWJmMybGY
@@ -13,8 +13,8 @@
     published-date: 2024-07-24
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubevideo:
     id: hXGPxYalJfk
@@ -22,8 +22,8 @@
     published-date: 2024-08-29
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: CoLNU-KhFRQ
@@ -32,8 +32,8 @@
     published-date: 2024-05-14
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: vaCGvTEI9yU
@@ -42,8 +42,8 @@
     published-date: 2024-05-19
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: 3Gv44hlzG10
@@ -52,8 +52,8 @@
     published-date: 2024-05-24
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: g4vw2DntZiI
@@ -62,8 +62,8 @@
     published-date: 2024-05-27
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: RRgKzA56H5k
@@ -72,8 +72,8 @@
     published-date: 2024-06-01
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: rY_z0WZr4l4
@@ -82,8 +82,8 @@
     published-date: 2024-06-13
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: wNkTokxYCug
@@ -91,8 +91,8 @@
     published-date: 2024-07-20
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: qiqSjNmuWSs
@@ -100,8 +100,8 @@
     published-date: 2024-07-24
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: AhqVr3xl4dE
@@ -110,8 +110,8 @@
     published-date: 2024-07-27
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: '-WsoxfXBQgs'
@@ -120,8 +120,8 @@
     published-date: 2024-07-28
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: YyVP2j7Yw3c
@@ -130,8 +130,8 @@
     published-date: 2024-07-29
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: fZaCODUXQ6k
@@ -140,8 +140,8 @@
     published-date: 2024-07-31
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: bKzG7cGdlkE
@@ -150,8 +150,8 @@
     published-date: 2025-05-13
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: SHzGrNQVW4c
@@ -160,8 +160,8 @@
     published-date: 2025-05-22
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: JL79sxFFbAs
@@ -170,8 +170,8 @@
     published-date: 2025-07-10
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - postx:
     id: 1757661923750052131
@@ -187,11 +187,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1757661923750052131
-        video: 01
-    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1757661923750052131
@@ -202,9 +199,8 @@
     info: Hika, Kanade, Cocoro
     context:
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1757661923750052131
+    part-of:
+      postx: 1757661923750052131
 
 - postx:
     id: 1925772297672991117
@@ -224,11 +220,8 @@
       
     video:
     - 07f45bf9-c67a-418b-9220-eca8a69b49c5
-    linked-to:
-    - postxvideo:
-        post: 1925772297672991117
-        video: 07f45bf9-c67a-418b-9220-eca8a69b49c5
-    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1925772297672991117
@@ -239,9 +232,8 @@
     info: Cocoro
     context:
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1925772297672991117
+    part-of:
+      postx: 1925772297672991117
 
 - postx:
     id: 1929111367635603641
@@ -257,11 +249,8 @@
       
     video:
     - 8b76cee5-46f4-4336-9c6a-f5e2767298b3
-    linked-to:
-    - postxvideo:
-        post: 1929111367635603641
-        video: 8b76cee5-46f4-4336-9c6a-f5e2767298b3
-    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1929111367635603641
@@ -272,9 +261,8 @@
     info: behind the scenes
     context:
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1929111367635603641
+    part-of:
+      postx: 1929111367635603641
 
 - postyoutube:
     id: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
@@ -291,11 +279,8 @@
       
     image:
     - 6bC7UjDfvJotHWo0r25BbIvnHrxDVHYGAbnqz3svBzhysW9DwB6rkxrTB31tt-SPP73STrQoZ51ofKE
-    linked-to:
-    - postyoutubeimage:
-        post: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
-        image: 6bC7UjDfvJotHWo0r25BbIvnHrxDVHYGAbnqz3svBzhysW9DwB6rkxrTB31tt-SPP73STrQoZ51ofKE
-    - song: maze
+    part-of:
+      song: maze
 
 - postyoutubeimage:
     post: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
@@ -305,8 +290,8 @@
     local-copy: true
     context:
     - song: maze
-    linked-to:
-    - postyoutube: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
+    part-of:
+      postyoutube: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
 
 - youtubeshort:
     id: RRLrjTPG_3w
@@ -315,8 +300,8 @@
     published-date: 2025-06-08
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: P31Jcb1ULXU
@@ -325,8 +310,8 @@
     published-date: 2025-06-14
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - youtubeshort:
     id: bBx938HIdB8
@@ -335,8 +320,8 @@
     published-date: 2025-06-17
     context:
     - song: maze
-    linked-to:
-    - song: maze
+    part-of:
+      song: maze
 
 - postx:
     id: 1942536099408060918
@@ -354,11 +339,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1942536099408060918
-        video: 01
-    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1942536099408060918
@@ -369,9 +351,8 @@
     info: Natsu
     context:
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1942536099408060918
+    part-of:
+      postx: 1942536099408060918
 
 - postx:
     id: 1942870532166443144
@@ -385,11 +366,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1942870532166443144
-        video: 01
-    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1942870532166443144
@@ -400,9 +378,8 @@
     info: Kanade
     context:
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1942870532166443144
+    part-of:
+      postx: 1942870532166443144
 
 - postx:
     id: 1944276413441532112
@@ -419,11 +396,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1944276413441532112
-        video: 01
-    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1944276413441532112
@@ -434,9 +408,8 @@
     info: solo, Cocoro
     context:
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1944276413441532112
+    part-of:
+      postx: 1944276413441532112
 
 - postx:
     id: 1944631818776637471
@@ -454,11 +427,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1944631818776637471
-        video: 01
-    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1944631818776637471
@@ -469,9 +439,8 @@
     info: outro, Cocoro
     context:
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1944631818776637471
+    part-of:
+      postx: 1944631818776637471
 
 - postx:
     id: 1945064752297680913
@@ -485,11 +454,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1945064752297680913
-        video: 01
-    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1945064752297680913
@@ -500,7 +466,6 @@
     info: Kanade
     context:
     - song: maze
-    linked-to:
-    - song: maze
-    - postx: 1945064752297680913
+    part-of:
+      postx: 1945064752297680913
 

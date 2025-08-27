@@ -54,29 +54,6 @@
       additional:
       - youtubeshort: htz6Y0O53tM
       - youtubeshort: rtmMldJLh1k
-    linked-to:
-    - youtubeshort: rIixubNAY2g
-    - youtubeshort: rla_ZLjIvmE
-    - youtubeshort: S2y9YcalKNw
-    - youtubeshort: _8Jm4QV0mUw
-    - youtubeshort: nh7NiJ2vnHM
-    - youtubeshort: 5TbpU2-WnIQ
-    - youtubeshort: 1JgqY5V6fCE
-    - youtubeshort: qEv4jcWXNmk
-    - youtubeshort: 8HxPW2Pre0I
-    - youtubeshort: rtmMldJLh1k
-    - youtubeshort: EG8WdNAMS5w
-    - youtubeshort: htz6Y0O53tM
-    - youtubeshort: u9-z9XkhpVw
-    - youtubeshort: mvD68jTQrHs
-    - youtubeshort: YKmsB94XMb4
-    - youtubeshort: dSX3EKmcRUc
-    - youtubeshort: EzpPj7pVf6Y
-    - postx: 1901916392653537292
-    - postx: 1907340052666945675
-    - postx: 1917865243080024340
-    - postx: 1929106683978224117
-    - youtubeshort: FEwx6aYh3fU
 
 - youtubeshort:
     id: rIixubNAY2g
@@ -87,8 +64,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -101,8 +78,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -116,9 +93,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - song: zerosum
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -132,9 +108,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - song: zerosum
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -148,9 +123,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - song: zerosum
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -164,9 +138,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - song: zerosum
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -179,8 +152,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -193,8 +166,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -207,8 +180,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -221,8 +194,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -235,8 +208,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -249,8 +222,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -264,9 +237,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - song: dreams
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -280,8 +252,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -294,8 +266,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -308,8 +280,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -322,8 +294,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -342,11 +314,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1901916392653537292
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -362,12 +331,8 @@
         year: 2025
         id: tricktakingtourtokyo
     - song: reigengirl
-    linked-to:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    - song: reigengirl
-    - postx: 1901916392653537292
+    part-of:
+      postx: 1901916392653537292
 
 - postx:
     id: 1907340052666945675
@@ -383,11 +348,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1907340052666945675
-        video: 01
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -403,12 +365,8 @@
         year: 2025
         id: tricktakingtourtokyo
     - song: reigengirl
-    linked-to:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    - song: reigengirl
-    - postx: 1907340052666945675
+    part-of:
+      postx: 1907340052666945675
 
 - postx:
     id: 1917865243080024340
@@ -425,11 +383,8 @@
       
     video:
     - 56ad6b95-81f9-4c28-9588-416eda80eec0
-    linked-to:
-    - postxvideo:
-        post: 1917865243080024340
-        video: 56ad6b95-81f9-4c28-9588-416eda80eec0
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -445,9 +400,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - song: getover
-    - postx: 1917865243080024340
+    part-of:
+      postx: 1917865243080024340
 
 - postx:
     id: 1929106683978224117
@@ -464,11 +418,8 @@
       
     video:
     - 46203d6b-e5ae-48cd-8902-16d9a880869d
-    linked-to:
-    - postxvideo:
-        post: 1929106683978224117
-        video: 46203d6b-e5ae-48cd-8902-16d9a880869d
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 
@@ -484,12 +435,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - song: loner
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    - postx: 1929106683978224117
+    part-of:
+      postx: 1929106683978224117
 
 - youtubeshort:
     id: FEwx6aYh3fU
@@ -500,8 +447,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: tricktakingtourtokyo
 

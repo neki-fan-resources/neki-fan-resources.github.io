@@ -13,8 +13,6 @@
         post: 1826512086530490829
         image: GVkTDnRbgAMgdNP
     tour: nekifirstosakaaichi2024
-    linked-to:
-    - postx: 1826512086530490829
 
 - postx:
     id: 1826512086530490829
@@ -35,14 +33,8 @@
     image:
     - GVkTDnRbgAMgdNP
     - GVkTDnuXMAA3Sjv
-    linked-to:
-    - postximage:
-        post: 1826512086530490829
-        image: GVkTDnRbgAMgdNP
-    - postximage:
-        post: 1826512086530490829
-        image: GVkTDnuXMAA3Sjv
-    - show:
+    part-of:
+      show:
         year: 2024
         id: girlsgirlsgirls
 
@@ -56,8 +48,8 @@
     - show:
         year: 2024
         id: girlsgirlsgirls
-    linked-to:
-    - postx: 1826512086530490829
+    part-of:
+      postx: 1826512086530490829
 
 - postximage:
     post: 1826512086530490829
@@ -68,5 +60,5 @@
     - show:
         year: 2024
         id: girlsgirlsgirls
-    linked-to:
-    - postx: 1826512086530490829
+    part-of:
+      postx: 1826512086530490829

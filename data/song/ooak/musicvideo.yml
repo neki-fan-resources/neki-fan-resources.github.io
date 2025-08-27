@@ -5,8 +5,8 @@
     published-date: 2025-07-19
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak
 
 - youtubeshort:
     id: e_NBzXLLpfs
@@ -15,5 +15,5 @@
     published-date: 2025-07-22
     context:
     - song: ooak
-    linked-to:
-    - song: ooak
+    part-of:
+      song: ooak

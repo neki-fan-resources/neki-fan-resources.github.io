@@ -1241,14 +1241,6 @@
           - d: 夜はまた更けてゆく。いたずらなエンドレスゲーム
           gg:
           - The night deepens again. A pointless endlessgame.
-    linked-to:
-    - youtubeshort: XurqnHu8140
-    - youtubeshort: jcyN-PNIzBw
-    - youtubeshort: 8Aue5D-fPkc
-    - postx: 1917072614553751559
-    - youtubeshort: oUm5oU0O0Z4
-    - youtubeshort: sVdFEGNzZmM
-    - postx: 1944348020235292759
 
 - youtubeshort:
     id: XurqnHu8140
@@ -1258,8 +1250,8 @@
     published-date: 2024-09-03
     context:
     - song: endlessgame
-    linked-to:
-    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - youtubeshort:
     id: jcyN-PNIzBw
@@ -1268,8 +1260,8 @@
     published-date: 2024-10-01
     context:
     - song: endlessgame
-    linked-to:
-    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - youtubeshort:
     id: 8Aue5D-fPkc
@@ -1279,8 +1271,8 @@
     published-date: 2024-11-16
     context:
     - song: endlessgame
-    linked-to:
-    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - postx:
     id: 1917072614553751559
@@ -1297,11 +1289,8 @@
       
     video:
     - bc491773-b07c-434d-aadd-06c5ae8679fa
-    linked-to:
-    - postxvideo:
-        post: 1917072614553751559
-        video: bc491773-b07c-434d-aadd-06c5ae8679fa
-    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - postxvideo:
     post: 1917072614553751559
@@ -1312,8 +1301,8 @@
     info: Hika, Natsu
     context:
     - song: endlessgame
-    linked-to:
-    - postx: 1917072614553751559
+    part-of:
+      postx: 1917072614553751559
 
 - youtubeshort:
     id: oUm5oU0O0Z4
@@ -1325,11 +1314,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: endlessgame
-    linked-to:
-    - show:
-        year: 2025
-        id: kakumeilogic2025
-    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - youtubeshort:
     id: sVdFEGNzZmM
@@ -1341,11 +1327,8 @@
         year: 2025
         id: kakumeilogic2025
     - song: endlessgame
-    linked-to:
-    - show:
-        year: 2025
-        id: kakumeilogic2025
-    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - postx:
     id: 1944348020235292759
@@ -1359,11 +1342,8 @@
       
     video:
     - 01
-    linked-to:
-    - postxvideo:
-        post: 1944348020235292759
-        video: 01
-    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - postxvideo:
     post: 1944348020235292759
@@ -1373,7 +1353,6 @@
     published-date: 2025-07-13
     context:
     - song: endlessgame
-    linked-to:
-    - song: endlessgame
-    - postx: 1944348020235292759
+    part-of:
+      postx: 1944348020235292759
 

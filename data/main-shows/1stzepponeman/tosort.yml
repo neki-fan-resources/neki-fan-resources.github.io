@@ -10,8 +10,8 @@
     source:
       description: NEK! note post
       url: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
-    linked-to:
-    - show:
+    part-of:
+      show:
         year: 2025
         id: 1stzepponeman
 
@@ -26,11 +26,8 @@
     - show:
         year: 2025
         id: 1stzepponeman
-    linked-to:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    - show:
+    part-of:
+      show:
         year: 2025
         id: 1stzepponeman
 
@@ -54,14 +51,8 @@
       
     image:
     - Gs_KDFfb0AAtXQ1
-    linked-to:
-    - youtubevideo: IeBks9yGO4A
-    - postximage:
-        post: 1931984997382316384
-        image: Gs_KDFfb0AAtXQ1
-    - show:
-        year: 2025
-        id: 1stzepponeman
+    part-of:
+      youtubevideo: IeBks9yGO4A
 
 - postximage:
     post: 1931984997382316384
@@ -73,11 +64,8 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    linked-to:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    - postx: 1931984997382316384
+    part-of:
+      postx: 1931984997382316384
 
 - youtubeshort:
     id: He1zOmOk7b0

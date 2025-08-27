@@ -11,8 +11,6 @@
     published-date: 2025-07-23
     context:
     - song: endlessgame
-    linked-to:
-    - song: endlessgame
     part-of:
       group:
         id: promo

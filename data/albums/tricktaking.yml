@@ -19,11 +19,6 @@
     - loner
     - moon
     - dreams
-    linked-to:
-    - postyoutube: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
-    - youtubeshort: ieh_ai4aaP0
-    - youtubeshort: 8D7NYm0sa4w
-    - youtubeshort: vs7iqp4JGwQ
 
 - postyoutube:
     id: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
@@ -50,11 +45,8 @@
       
     image:
     - T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
-    linked-to:
-    - postyoutubeimage:
-        post: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
-        image: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
-    - album: tricktaking
+    part-of:
+      album: tricktaking
 
 - postyoutubeimage:
     post: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
@@ -65,8 +57,8 @@
     local-copy: true
     context:
     - album: tricktaking
-    linked-to:
-    - postyoutube: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+    part-of:
+      postyoutube: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
 
 - youtubeshort:
     id: ieh_ai4aaP0
@@ -75,8 +67,8 @@
     published-date: 2025-03-05
     context:
     - album: tricktaking
-    linked-to:
-    - album: tricktaking
+    part-of:
+      album: tricktaking
 
 - youtubeshort:
     id: 8D7NYm0sa4w
@@ -85,8 +77,8 @@
     published-date: 2025-04-21
     context:
     - album: tricktaking
-    linked-to:
-    - album: tricktaking
+    part-of:
+      album: tricktaking
 
 - youtubeshort:
     id: vs7iqp4JGwQ
@@ -94,6 +86,6 @@
     published-date: 2025-05-20
     context:
     - album: tricktaking
-    linked-to:
-    - album: tricktaking
+    part-of:
+      album: tricktaking
 

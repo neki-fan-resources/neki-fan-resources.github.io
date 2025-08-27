@@ -38,8 +38,6 @@ case class SiteBuilder(
   override def copyWithAttributesBuilder(attributesBuilder: DatumAttributesBuilderImpl) =
     copy(attributesBuilder = attributesBuilder)
 
-  override def setLinkedTo(linkedTo: Option[Seq[Id[?]]]): SiteBuilder = this
-
   import ObjectBuilder.*
 
   override protected def build(using

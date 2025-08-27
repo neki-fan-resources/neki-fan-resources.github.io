@@ -26,7 +26,6 @@ class DatumCompiledDataGenerator(data: Data, backupPath: Path, generator: Compil
       "Site",
       generator.missingElement.cover,
       attributes,
-      site.linkedTo,
     )
   }
 

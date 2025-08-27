@@ -9,7 +9,6 @@ case class Site(
     youtubevideo: List[RefMediaIds],
     youtubeshort: List[RefMediaIds],
     news: Seq[BandNews],
-    linkedTo: Seq[Id[?]] = Nil,
     hasError: Boolean = false,
 ) extends Datum[Site]
     with WithProcessor {
@@ -19,7 +18,6 @@ case class Site(
     processor.processSite(this)
 
   override def errored() = copy(hasError = true)
-  override def withLinkedTo(id: Id[?]*): Site = copy(linkedTo = mergeLinkedTo(id))
 }
 
 object Site {

@@ -7,7 +7,6 @@ import org.skyluc.fan_resources.data as fr
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.SiteOutput
 import org.skyluc.neki_site.checks.CheckLocalAssetExists
-import org.skyluc.neki_site.checks.PopulateRelatedTo
 import org.skyluc.neki_site.checks.ReferenceCheckProcessor
 import org.skyluc.neki_site.data.Data
 import org.skyluc.neki_site.data.ImplicitDatum
@@ -44,10 +43,8 @@ object Main {
     val (checkErrors, checkedData) = DataCheck.check(
       datums ++ implicitDatums,
       d,
-      PopulateRelatedTo,
       new ReferenceCheckProcessor(d.datums.keySet),
       new CheckLocalAssetExists(staticFolder.resolve(org.skyluc.neki_site.html.Site.BASE_IMAGE_ASSET_PATH)),
-      false,
     )
 
     val data = fr.Data.get(checkedData, Data.creator)

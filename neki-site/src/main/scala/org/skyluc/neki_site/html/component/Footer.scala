@@ -1,8 +1,9 @@
 package org.skyluc.neki_site.html.component
 
-import org.skyluc.html._
-import Html._
 import org.skyluc.fan_resources.html.Url
+import org.skyluc.html.*
+
+import Html.*
 
 object Footer {
 
@@ -47,13 +48,12 @@ object Footer {
         div()
           .withClass(CLASS_FOOTER_CONTENT)
           .appendElements(
-            text(TEXT_FOOTER_3)
-          ),
-        a()
-          .withClass(CLASS_FOOTER_BOTTOM_RIGHT)
-          .withHref(ABOUT_PATH)
-          .appendElements(
-            text(TEXT_FOOTER_4)
+            text(TEXT_FOOTER_3),
+            a()
+              .withHref(ABOUT_PATH)
+              .appendElements(
+                text(TEXT_FOOTER_4)
+              ),
           ),
       )
   }

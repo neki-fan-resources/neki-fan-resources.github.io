@@ -43,7 +43,7 @@ object Main {
     val (checkErrors, checkedData) = DataCheck.check(
       datums ++ implicitDatums,
       d,
-      new ReferenceCheckProcessor(d.datums.keySet),
+      new ReferenceCheckProcessor(d.datums.keySet, d),
       new CheckLocalAssetExists(staticFolder.resolve(org.skyluc.neki_site.html.Site.BASE_IMAGE_ASSET_PATH)),
     )
 

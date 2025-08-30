@@ -30,6 +30,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
           Path("component", "lyrics.css"),
           Path("component", "socialmediacard.css"),
           Path("component", "updatessection.css"),
+          Path("component", "frncard.css"),
         ),
         "styles-fr.css",
       ),

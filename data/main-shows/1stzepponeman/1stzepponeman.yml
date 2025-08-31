@@ -22,6 +22,7 @@ show:
   - Versions of the Q&A videos are also available with English subtitles.
   multimedia:
     short:
+    - youtubeshort: 8_JxedDmPIc
     - youtubeshort: voMXU8Owu3Q
     - youtubeshort: 6BjdwHQ2ISY
     - youtubeshort: 7PDPcKbpwUQ
@@ -34,6 +35,10 @@ show:
     - youtubeshort: xkn_J3iNANI
     - youtubeshort: Nn2dWG_ZX4w
     - youtubeshort: He1zOmOk7b0
+    image:
+    - postximage:
+        post: 1961015583069335728
+        image: GzbtRUjbUAAj0pI
     additional:
     - youtubeshort: vIKJuqDm-fE
     - youtubeshort: 6Qn1ORYc7Eo

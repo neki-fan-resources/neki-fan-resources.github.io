@@ -55,3 +55,33 @@
     part-of:
       postx: 1959533059923128628
 
+- postx:
+    id: 1960678576212308384
+    account: cure_bass_baka
+    label: Rehearsal rip-off
+    published-date: 2025-08-27
+    text: |
+      今日はZepp前最後のリハーサルでした。
+      あとは当日を迎えるだけです🪽
+      （画面真っ暗）
+      #拡散中  #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1960678576212308384
+    id: 01
+    cover: 1960678472357175298/img/iPjUZFofanG30wNr.jpg
+    label: Rehearsal
+    info: black video, kanade
+    published-date: 2025-08-27
+    part-of:
+      postx: 1960678576212308384
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: 1stzepponeman
+

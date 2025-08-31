@@ -1,0 +1,36 @@
+- postx:
+    id: 1961739772080136281
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-08-30
+    text: |
+      ◤ ◤ワンマン決定 ◢ ◢
+
+      11/28(金)
+      NEK! 1st アルバム「MEME」リリース記念ワンマンライブ
+      ＠ 横浜ReNY beta
+
+      開催決定🔥
+
+      このあと8/30(土)21:00からチケットオフィシャル先行(抽選)受付スタート🎟️
+
+      🔗 https://l-tike.com/nekiband/
+
+      #NEKI #MEME
+    image:
+    - Gzl_6IcbMAAX62f
+
+- postximage:
+    post: 1961739772080136281
+    id: Gzl_6IcbMAAX62f
+    label: Poster
+    published-date: 2025-08-30
+    local-copy: true
+    part-of:
+      postx: 1961739772080136281
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+
+

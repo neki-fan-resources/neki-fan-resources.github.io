@@ -1,0 +1,283 @@
+- postx:
+    id: 1961765828870996016
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-08-30
+    text: |
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      @ Zepp Shinjuku
+
+      ありがとうございました💫
+
+      夢の舞台、Zeppワンマン。
+
+      この景色とともにNEK!は次のステージへ向かいます！
+
+      本日の感想や今後のNEK!への期待などはハッシュタグをつけてぜひポストよろしくお願いします🫶
+
+      #NEKI #ネキメジャーデビュー
+    image:
+    - GzmXl6vbkAA0r0J
+    - GzmXl6jbMAAtlNY
+    - GzmXl6fbYAASFb3
+    - GzmXl6pa0AAavhd
+
+- postximage:
+    post: 1961765828870996016
+    id: GzmXl6vbkAA0r0J
+    label: Venue
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961765828870996016
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961765828870996016
+    id: GzmXl6jbMAAtlNY
+    label: On stage
+    info: Hika
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961765828870996016
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961765828870996016
+    id: GzmXl6fbYAASFb3
+    label: On stage
+    info: from behind Cocoro
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961765828870996016
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961765828870996016
+    id: GzmXl6pa0AAavhd
+    label: Encore
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961765828870996016
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961803764794622273
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-08-30
+    text: |
+      取り急ぎ、ZEPPワンマンありがとうございました。
+      色々な発表もあり、メジャーデビューも決まりました。
+      ずっと憧れてたステージに立てて本当に幸せでした。
+      でもまだ夢の第1歩に過ぎません。
+      みなさんと一緒に大きくなっていく｢NEK!｣に
+      これからも付いてきて欲しいです！
+      #NEKI  #ネキ界隈
+    image:
+    - Gzm6F7waMAANvQ6
+    - Gzm6F7naUAE1V-I
+
+- postximage:
+    post: 1961803764794622273
+    id: Gzm6F7waMAANvQ6
+    label: Backstage
+    info: Kanade
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961803764794622273
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961803764794622273
+    id: Gzm6F7naUAE1V-I
+    label: On stage
+    info: Kanade
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961803764794622273
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961807893306699826
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-08-30
+    text: |
+      本日はNEK!初のZEPPワンマンにお越しくださりありがとうございました🙇🏻‍♀️
+
+      とにかく今日は感謝を伝えたいです‼️
+      ずっと憧れていたZeppに皆さんとたどり着けたこと、幸せでした。
+      ついてきてくれてありがとう。
+
+      メジャーデビューも決まりました。
+      これからもNEK!をよろしくお願いします！
+
+      #ネキ界隈
+    image:
+    - Gzm94CQbQAATcAD
+    - Gzm94CGasAIv7PE
+    - Gzm94CPaQAAkyrR
+    - Gzm94CIaUAAEAp6
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CQbQAATcAD
+    label: Backstage
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961807893306699826
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CGasAIv7PE
+    label: On stage
+    info: Natsu
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961807893306699826
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CPaQAAkyrR
+    label: On stage
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961807893306699826
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CIaUAAEAp6
+    label: Backstage
+    info: Natsu
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961807893306699826
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961812414485459420
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-08-30
+    text: |
+      NEK! 1ST ZEPP ONE MAN
+
+      夢のステージで歌えたこと
+      心から嬉しい気持ちでいっぱいです。
+
+      ありがとうございました！！
+
+      来年はメジャーデビューも決まり
+      これから、このNEK!メンバーと皆さんと
+      大きなステージを見ていきたいです！
+
+      みんなに出会えて良かった！
+
+      #ネキ界隈
+    image:
+    - GznB_baboAAZECx
+    - GznB_bebQAAf7Hn
+    reference:
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6fbYAASFb3
+    - postximage:
+        post: 1961807893306699826
+        image: Gzm94CQbQAATcAD
+
+
+- postximage:
+    post: 1961812414485459420
+    id: GznB_baboAAZECx
+    label: Venue
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961812414485459420
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961812414485459420
+    id: GznB_bebQAAf7Hn
+    label: On stage
+    info: Hika
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961812414485459420
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961819558362444002
+    account: coco_102
+    label: Thank you
+    published-date: 2025-08-30
+    text: |
+      NEK!初Zeppワンマンライブ無事終了しましたー！
+
+      間違いなく人生でいちばんの景色でした！！
+      皆さんのおかげで最高に幸せなドラマー人生です！！
+
+      メジャーの名に恥じぬようプレイヤーとしてもっと成長するのでこれからも応援よろしくお願いします🙇🏻‍♀️🔥
+
+      本当にありがとうございました！！
+
+      #NEKI
+    image:
+    - GznIYpna4AAgbSQ
+    reference:
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6fbYAASFb3
+
+- postximage:
+    post: 1961819558362444002
+    id: GznIYpna4AAgbSQ
+    label: On stage
+    info: Cocoro
+    published-date: 2025-08-30
+    part-of:
+      postx: 1961819558362444002
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+

@@ -4,13 +4,22 @@ contentpage:
   label: Chronology
   display-type: timeline
   start-date: 2024-01-01
-  end-date: 2025-12-15
+  end-date: 2026-03-31
   cover-image:
     localimage:
       event: siteimages
       id: manekineko_cover
   categories: []
   content:
+  - tour: 2ndanniversarytour
+# feb
+# jan
+# 2026
+# dec
+  - show:
+      year: 2025
+      id: 1stalbummeme
+  - album: meme
   - show:
       year: 2025
       id: thetheoryofscience
@@ -269,6 +278,8 @@ contentpage:
 
 
   metadata:
+  - album: meme
+    left: false
   - song: ripoff
     left: false
   - show:

@@ -79,7 +79,8 @@
   background: linear-gradient(160deg, transparent 0rem, transparent 20%, var(--color-kanade-light));
 }
 
-.marker-card-type-ep {
+.marker-card-type-ep,
+.marker-card-type-album {
   background-color: #202060;
   background: linear-gradient(160deg, transparent 0rem, transparent 20%, var(--color-kanade));
 }

@@ -42,6 +42,14 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
     sources.map { s => DatumEntry(compiledData, s) }
   }
 
+  override def processMediaVideo(mediaVideo: MediaVideo): Seq[DatumEntry] = {
+    val sources = Seq(sourceFromCover(mediaVideo.coverImage, generator)).flatten
+
+    val compiledData = generator.getElement(mediaVideo)
+
+    sources.map { s => DatumEntry(compiledData, s) }
+  }
+
   override def processMediaWritten(mediaWritten: MediaWritten): Seq[DatumEntry] = {
     val sources = Seq(sourceFromCover(mediaWritten.coverImage, generator)).flatten
 

@@ -106,6 +106,9 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
   override def processMediaAudio(mediaAudio: MediaAudio): Seq[SitePage] =
     MediaPage.pageFor(mediaAudio, site, generator)
 
+  override def processMediaVideo(mediaVideo: MediaVideo): Seq[SitePage] =
+    MediaPage.pageFor(mediaVideo, site, generator)
+
   override def processMediaWritten(mediaWritten: MediaWritten): Seq[SitePage] =
     MediaPage.pageFor(mediaWritten, site, generator)
 

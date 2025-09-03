@@ -2,6 +2,7 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.html.component.Kofi
 import org.skyluc.fan_resources.html.component.SectionHeader
 import org.skyluc.fan_resources.html.component.SocialMediaCard
 import org.skyluc.html.*
@@ -25,7 +26,7 @@ class AboutPage(description: PageDescription, site: dSite) extends SitePage(desc
       manekineko() ::: List(
         SectionHeader.generate("Updates"),
         update(),
-      ) ::: questions()
+      ) ++ support() ++ questions()
   }
 
   private def siteSection(): Div = {
@@ -147,6 +148,46 @@ class AboutPage(description: PageDescription, site: dSite) extends SitePage(desc
         ),
     )
   }
+
+  private def support(): Seq[BodyElement[?]] = Seq(
+    a().withName("support"),
+    SectionHeader.generate("Support"),
+    div()
+      .withClass(CLASS_ABOUT_SECTION)
+      .appendElements(
+        p().appendElements(
+          text(
+            "While I'm doing the work because I like NEK! and want to support them, it does take a fair bit of time and resources to create, improve, and update the site."
+          )
+        ),
+        p().appendElements(
+          text(
+            "Any level of support will be greatly appreciated. Use the Fan Resources page, and don't forget to indicate in the message that you're a NEK! fan."
+          )
+        ),
+        Kofi.generateBadge(),
+      )
+      .appendElements(supporters()*),
+  )
+
+  private def supporters(): Seq[BodyElement[?]] = Seq(
+    ul().appendElements(
+      li().appendElements(
+        text("NEK! supporters"),
+        ul().appendElements(
+          li().appendElements(text("SkyLuc"))
+        ),
+      ),
+      li().appendElements(
+        text("Fan Resources network"),
+        ul().appendElements(
+          li().appendElements(text("mab21")),
+          li().appendElements(text("flomdo")),
+          li().appendElements(text("ombe_toul")),
+        ),
+      ),
+    )
+  )
 
 }
 

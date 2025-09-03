@@ -27,6 +27,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
         static_pieces_fr.resolve("css"),
         Seq(
           Path("postximage.css"),
+          Path("component", "kofi.css"),
           Path("component", "lyrics.css"),
           Path("component", "socialmediacard.css"),
           Path("component", "updatessection.css"),

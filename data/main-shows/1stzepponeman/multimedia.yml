@@ -1,0 +1,135 @@
+
+- youtubeshort:
+    id: lFPBSexcRHM
+    label: Live
+    info: intro
+    published-date: 2025-09-02
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: getover
+
+- postx:
+    id: 1962831188181311881
+    account: 46_hikaa
+    label: Image from the show
+    published-date: 2025-09-02
+    text: |
+      2025.08.30  NEK! 1ST ZEPP ONE MAN
+
+      #NEKI #ネキ界隈
+    image:
+    - Gz1gj5nbMAAQ2Qc
+
+- postximage:
+    post: 1962831188181311881
+    id: Gz1gj5nbMAAQ2Qc
+    label: On stage
+    info: Hika
+    published-date: 2025-09-02
+    part-of:
+      postx: 1962831188181311881
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1963165822089879925
+    account: realsoundjp
+    label: Article report on the show + great images
+    todo: extract new images, extract new songs
+    published-date: 2025-09-02
+    text: |
+      ══ ⚡️ NEK! ライブレポート ⚡️  ══
+
+      📎https://realsound.jp/2025/09/post-2144607.html
+
+      NEK!は今、凄まじい勢いで数々の夢を叶えようとしている
+      バンド結成から1年半で到達した初のZeppワンマン
+
+      ／
+      📷ライブ写真一覧はこちら！
+      https://realsound.jp/2025/09/post-2144607.html/photo
+      ＼
+
+      #NEKI 
+      @nekiband_jp
+
+      #ネキ界隈 #ネキメジャーデビュー
+
+
+- postx:
+    id: 1963245027179540838
+    account: coco_102
+    label: Fool live - outro
+    published-date: 2025-09-03
+    text: |
+      Fool⚡️
+
+      いちばん後ろまでしっかり見えてたよ〜〜
+      そしてみんなの声ほんとによく聞こえた！！
+      全身使って楽しんでくれてありがとう😈❤️‍🔥
+
+      #NEKI
+    video:
+    - 01
+
+- postxvideo:
+    post: 1963245027179540838
+    id: 01
+    cover: 1963244699713773568/img/lqZShif-gkR5etUG.jpg
+    label: Live
+    info: Cocoro, outro
+    published-date: 2025-09-03
+    part-of:
+      postx: 1963245027179540838
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: fool
+
+- postx:
+    id: 1963942446318125451
+    account: coco_102
+    label: Wider sound from toms and kick drums
+    published-date: 2025-09-05
+    text: |
+      タムとかキックの反響がいつもより広いからすごく気持ちよかった😌🥁💚
+    image:
+    - G0FTKPDa0AAaKht
+    - G0FTKPAaMAAP9kZ
+   
+- postximage:
+    post: 1963942446318125451
+    id: G0FTKPDa0AAaKht
+    label: At the drums
+    info: Cocoro, before the show
+    published-date: 2025-09-05
+    part-of:
+      postx: 1963942446318125451
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+   
+- postximage:
+    post: 1963942446318125451
+    id: G0FTKPAaMAAP9kZ
+    label: Drum kit
+    published-date: 2025-09-05
+    part-of:
+      postx: 1963942446318125451
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+
+ 
+

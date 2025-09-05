@@ -29,6 +29,9 @@ contentpage:
       id: minamiwheel
   - show:
       year: 2025
+      id: ignition
+  - show:
+      year: 2025
       id: recommendjunction
 # oct
   - show:
@@ -288,11 +291,15 @@ contentpage:
     short: true
   - show:
       year: 2025
-      id: minamiwheel
+      id: ignition
     short: true
   - show:
       year: 2025
-      id: tokyocalling
+      id: recommendjunction
+    short: true
+  - show:
+      year: 2025
+      id: minamiwheel
     short: true
   - show:
       year: 2025
@@ -300,7 +307,7 @@ contentpage:
     short: true
   - show:
       year: 2025
-      id: recommendjunction
+      id: tokyocalling
     short: true
   - media:
       year: 2025

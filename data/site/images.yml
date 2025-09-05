@@ -17,7 +17,6 @@
     event: siteimages
     id: nekilogo
     label: Neki Logo
-    filename: neki400.png
     published-date: 2024-02-10
     source:
       description: NEK! note.com page
@@ -29,7 +28,6 @@
     event: siteimages
     id: manekineko_cover
     label: Manekineko Logo for cover
-    filename: manekineko512.png
     published-date: 2025-01-01
     source:
       description: Created for the site

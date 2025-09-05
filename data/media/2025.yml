@@ -36,7 +36,6 @@
       id: nack5fantasyradio
     id: logo
     label: logo
-    filename: cover400.png
     published-date: 2025-01-01
     todo: better published date
     source:
@@ -189,7 +188,6 @@
       id: fm802infinityradio
     id: logo
     label: logo
-    filename: cover400.png
     published-date: 2025-01-01
     todo: better published date
     source:
@@ -288,7 +286,6 @@
       id: guitarmagazine05
     id: cover
     label: cover
-    filename: cover400.png
     published-date: 2025-01-01
     todo: better published date
     source:
@@ -318,7 +315,6 @@
       id: guitarmagazine05
     id: article
     label: Article
-    filename: image400.png
     published-date: 2025-04-12
     source:
       description: Extracted from electronic version
@@ -363,7 +359,6 @@
       id: bayfm78musicurate
     id: logo
     label: logo
-    filename: cover400.png
     published-date: 2025-01-01
     todo: better published date
     source:
@@ -469,7 +464,6 @@
       id: tokyofmradiodragonnext
     id: logo
     label: logo
-    filename: cover400.png
     published-date: 2025-01-01
     todo: better published date
     source:
@@ -656,7 +650,6 @@
       id: yfmgodblesssaturday
     id: cover
     label: Cover
-    filename: cover.png
     published-date: 2025-06-17
     source:
       description: God Bless Saturday website
@@ -887,7 +880,6 @@
       id: eradiocatch
     id: cover
     label: Cover
-    filename: cover.png
     published-date: 2025-06-25
     source:
       description: Radiko webpage

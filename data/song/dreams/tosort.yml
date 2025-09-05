@@ -20,7 +20,6 @@
     multimedia-event: dreamsmv
     id: mvcover
     label: MV cover
-    filename: mvcover.png
     published-date: 2025-03-05
     source:
       description: YouTube video

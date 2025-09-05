@@ -60,7 +60,7 @@ object Main {
     val pages =
       DataToPage(generator, staticPiecesFolder, staticPiecesFrFolder, site).generate(checkedData)
 
-    SiteOutput.generate(pages, Seq(staticFolder.asFilePath(), frStaticFolder.asFilePath()), outputFolder.asFilePath())
+    SiteOutput.generate(pages, Seq(staticFolder, frStaticFolder), outputFolder)
 
   }
 

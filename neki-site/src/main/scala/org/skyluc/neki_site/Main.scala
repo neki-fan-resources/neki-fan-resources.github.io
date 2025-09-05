@@ -32,7 +32,7 @@ object Main {
     val staticPiecesFrFolder = frRootPath.resolve(STATIC_PIECES_PATH)
     val outputFolder = rootPath.resolve(Path(TARGET_PATH, SITE_PATH))
 
-    val (parserErrors, datums) = NekiSite.Parser001.parseFolder(dataFolder.asFilePath())
+    val (parserErrors, datums) = NekiSite.Parser001.parseFolder(dataFolder)
 
     displayErrors("TODATA ERRORS", parserErrors)
 

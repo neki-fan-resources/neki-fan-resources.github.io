@@ -2,12 +2,11 @@ package org.skyluc.neki_site
 
 import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data.Datum
+import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.yaml.ItemDecoder
 import org.skyluc.fan_resources.yaml.YamlReader
 import org.skyluc.neki_site.yaml.NekiSiteDecoders
 import org.skyluc.yaml.Parser
-
-import java.nio.file.Path
 
 object NekiSite {
 

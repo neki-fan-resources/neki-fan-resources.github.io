@@ -99,6 +99,10 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
   override def processUpdatePage(updatePage: UpdatePage): Seq[DatumEntry] = Nil
 
+  override def processWebImage(webImage: WebImage): Seq[DatumEntry] = Nil
+
+  override def processWebPage(webPage: WebPage): Seq[DatumEntry] = Nil
+
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[DatumEntry] = Nil
 
   override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Seq[DatumEntry] = Nil

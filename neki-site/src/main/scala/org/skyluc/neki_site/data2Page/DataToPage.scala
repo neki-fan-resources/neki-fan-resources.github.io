@@ -135,6 +135,10 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
   override def processUpdatePage(updatePage: UpdatePage): Seq[SitePage] =
     pUpdatePage.pages(updatePage, site, generator)
 
+  override def processWebImage(webImage: WebImage): Seq[SitePage] = NO_DATA
+
+  override def processWebPage(webPage: WebPage): Seq[SitePage] = NO_DATA
+
   override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[SitePage] = NO_DATA
 
   override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Seq[SitePage] = NO_DATA

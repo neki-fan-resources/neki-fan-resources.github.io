@@ -1,5 +1,6 @@
 package org.skyluc.neki_site
 
+import org.skyluc.fan_resources.ErrorsHolder
 import org.skyluc.fan_resources.Main.displayErrors
 import org.skyluc.fan_resources.checks.DataCheck
 import org.skyluc.fan_resources.checks.MoreDataCheck
@@ -9,10 +10,13 @@ import org.skyluc.fan_resources.html.SiteOutput
 import org.skyluc.neki_site.checks.CheckLocalAssetExists
 import org.skyluc.neki_site.checks.ReferenceCheckProcessor
 import org.skyluc.neki_site.data.Data
-import org.skyluc.neki_site.data.ImplicitDatum
 import org.skyluc.neki_site.data.Site
+import org.skyluc.neki_site.data.op.ImplicitDatumExpander
 import org.skyluc.neki_site.data2Page.DataToPage
 import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
+import org.skyluc.neki_site.yaml.NekiSiteDecoders
+
+import fr.op.DataLoader
 
 object Main {
 
@@ -32,26 +36,30 @@ object Main {
     val staticPiecesFrFolder = frRootPath.resolve(STATIC_PIECES_PATH)
     val outputFolder = rootPath.resolve(Path(TARGET_PATH, SITE_PATH))
 
-    val (parserErrors, datums) = NekiSite.Parser001.parseFolder(dataFolder)
+    val errors = ErrorsHolder()
 
-    displayErrors("TODATA ERRORS", parserErrors)
+    val (parserErrors, d) = DataLoader.load(dataFolder, NekiSiteDecoders, Data.creator, ImplicitDatumExpander())
 
-    val implicitDatums = ImplicitDatum().generate(datums)
-
-    val d = fr.Data.get(datums ++ implicitDatums, Data.creator)
+    errors.append("DATA LOADING ERRORS", parserErrors, true)
 
     val (checkErrors, checkedData) = DataCheck.check(
-      datums ++ implicitDatums,
+      d.datums.values.toSeq,
       d,
       new ReferenceCheckProcessor(d.datums.keySet, d),
       new CheckLocalAssetExists(staticFolder.resolve(org.skyluc.neki_site.html.Site.BASE_IMAGE_ASSET_PATH)),
     )
 
-    val data = fr.Data.get(checkedData, Data.creator)
+    val (toDataError, data) = fr.Data.get(checkedData, Data.creator)
 
     val moreCheckerrors = MoreDataCheck.check(data)
 
-    displayErrors("CHECKS ERRORS", checkErrors ++ moreCheckerrors)
+    errors.append("CHECKS ERRORS", checkErrors ++ toDataError ++ moreCheckerrors, true)
+
+    displayErrors(errors, 10)
+
+    if (errors.hasCriticalErrors) {
+      System.exit(2)
+    }
 
     val generator = CompiledDataGeneratorBuilder.generator(data)
 

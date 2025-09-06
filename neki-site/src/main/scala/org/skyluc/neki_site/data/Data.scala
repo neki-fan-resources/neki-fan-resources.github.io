@@ -10,6 +10,8 @@ object Data {
 
   }
 
+  val implicitDatumExpander = op.ImplicitDatumExpander()
+
   class DataBuilderProcessor(dataBuilder: fr.Data.DataBuilder)
       extends fr.Data.DataBuilderProcessor(dataBuilder)
       with Processor[Unit] {

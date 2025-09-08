@@ -79,7 +79,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
         SourcesPage.pages(datums, site, generator),
       ).flatten
     // pages from datums (without errors)
-    val res = datums.filterNot(_.hasError).map(_.process(this)).flatten
+    val res = datums.flatMap(_.process(this))
 
     val allPages = fixPages ++ res
 

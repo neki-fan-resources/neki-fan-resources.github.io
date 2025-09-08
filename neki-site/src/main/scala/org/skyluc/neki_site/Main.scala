@@ -43,11 +43,11 @@ object Main {
         Data.defaultPopulaters,
       )
 
-    errors.append("DATA LOADING ERRORS", loaderErrors, true)
+    errors.append("DATA LOADING ERRORS", loaderErrors)
 
     val checkErrors = DataCheck.check(data, (Data.defaultCheckers(staticFolder)))
 
-    errors.append("CHECKS ERRORS", checkErrors, true)
+    errors.append("CHECKS ERRORS", checkErrors)
 
     displayErrors(errors, 10)
 

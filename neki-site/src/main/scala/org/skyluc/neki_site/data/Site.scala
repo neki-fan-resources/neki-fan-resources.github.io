@@ -9,15 +9,12 @@ case class Site(
     youtubevideo: List[RefMediaIds],
     youtubeshort: List[RefMediaIds],
     news: Seq[BandNews],
-    hasError: Boolean = false,
 ) extends Datum[Site]
     with WithProcessor {
   val id = Site.ID
 
   override def process[T](processor: Processor[T]): T =
     processor.processSite(this)
-
-  override def errored() = copy(hasError = true)
 }
 
 object Site {

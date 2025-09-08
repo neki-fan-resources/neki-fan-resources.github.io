@@ -1,23 +1,29 @@
 package org.skyluc.neki_site.data
 
 import org.skyluc.fan_resources.data as fr
+import org.skyluc.fan_resources.data.checks.DataCheck
+import org.skyluc.neki_site.data.checks.LocalAssetExistsChecker
+import org.skyluc.neki_site.data.checks.ReferencesChecker
+
+import fr.Path
 
 object Data {
 
-  val creator = new fr.Data.DataBuilderProcessorCreator {
-    def create(dataBuilder: fr.Data.DataBuilder): fr.Data.DataBuilderProcessor =
-      DataBuilderProcessor(dataBuilder)
+  val dispatcherBuilder = new fr.op.DataDispatcherBuilder {
+
+    override def build(dataBuilder: fr.op.DataBuilder): fr.op.DataDispatcher =
+      op.DataDispatcher(dataBuilder)
 
   }
 
-  val implicitDatumExpander = op.ImplicitDatumExpander()
+  val defaultExpanders = fr.op.DataLoader.defaultExpanders(op.ImplicitDatumExpander())
 
-  class DataBuilderProcessor(dataBuilder: fr.Data.DataBuilder)
-      extends fr.Data.DataBuilderProcessor(dataBuilder)
-      with Processor[Unit] {
+  val defaultPopulaters =
+    fr.op.DataLoader.defaultPopulaters(fr.op.MultimediaExtraPopulater(fr.op.MultimediaExtraProcessBuilder()))
 
-    override def processSite(site: Site): Unit =
-      dataBuilder.addDatum(site)
-  }
+  def defaultCheckers(staticFolderPath: Path) = DataCheck.defaultCheckers(
+    ReferencesChecker,
+    LocalAssetExistsChecker(staticFolderPath),
+  )
 
 }

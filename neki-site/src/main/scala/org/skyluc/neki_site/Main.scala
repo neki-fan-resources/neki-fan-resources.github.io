@@ -2,16 +2,12 @@ package org.skyluc.neki_site
 
 import org.skyluc.fan_resources.ErrorsHolder
 import org.skyluc.fan_resources.Main.displayErrors
-import org.skyluc.fan_resources.checks.DataCheck
-import org.skyluc.fan_resources.checks.MoreDataCheck
 import org.skyluc.fan_resources.data as fr
 import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.data.checks.DataCheck
 import org.skyluc.fan_resources.html.SiteOutput
-import org.skyluc.neki_site.checks.CheckLocalAssetExists
-import org.skyluc.neki_site.checks.ReferenceCheckProcessor
 import org.skyluc.neki_site.data.Data
 import org.skyluc.neki_site.data.Site
-import org.skyluc.neki_site.data.op.ImplicitDatumExpander
 import org.skyluc.neki_site.data2Page.DataToPage
 import org.skyluc.neki_site.html.CompiledDataGeneratorBuilder
 import org.skyluc.neki_site.yaml.NekiSiteDecoders
@@ -38,22 +34,20 @@ object Main {
 
     val errors = ErrorsHolder()
 
-    val (parserErrors, d) = DataLoader.load(dataFolder, NekiSiteDecoders, Data.creator, ImplicitDatumExpander())
+    val (loaderErrors, data) =
+      DataLoader.load(
+        dataFolder,
+        NekiSiteDecoders,
+        Data.dispatcherBuilder,
+        Data.defaultExpanders,
+        Data.defaultPopulaters,
+      )
 
-    errors.append("DATA LOADING ERRORS", parserErrors, true)
+    errors.append("DATA LOADING ERRORS", loaderErrors, true)
 
-    val (checkErrors, checkedData) = DataCheck.check(
-      d.datums.values.toSeq,
-      d,
-      new ReferenceCheckProcessor(d.datums.keySet, d),
-      new CheckLocalAssetExists(staticFolder.resolve(org.skyluc.neki_site.html.Site.BASE_IMAGE_ASSET_PATH)),
-    )
+    val checkErrors = DataCheck.check(data, (Data.defaultCheckers(staticFolder)))
 
-    val (toDataError, data) = fr.Data.get(checkedData, Data.creator)
-
-    val moreCheckerrors = MoreDataCheck.check(data)
-
-    errors.append("CHECKS ERRORS", checkErrors ++ toDataError ++ moreCheckerrors, true)
+    errors.append("CHECKS ERRORS", checkErrors, true)
 
     displayErrors(errors, 10)
 
@@ -66,7 +60,7 @@ object Main {
     val site = generator.get(Site.ID)
 
     val pages =
-      DataToPage(generator, staticPiecesFolder, staticPiecesFrFolder, site).generate(checkedData)
+      DataToPage(generator, staticPiecesFolder, staticPiecesFrFolder, site).generate(data)
 
     SiteOutput.generate(pages, Seq(staticFolder, frStaticFolder), outputFolder)
 

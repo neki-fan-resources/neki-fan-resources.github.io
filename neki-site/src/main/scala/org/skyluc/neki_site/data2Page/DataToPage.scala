@@ -20,7 +20,7 @@ import org.skyluc.neki_site.html.pages.{
 class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_pieces_fr: Path, site: Site)
     extends Processor[Seq[SitePage]] { // TODO: switch to ProcessorElement
 
-  def generate(datums: Seq[Datum[?]]): Seq[Page] = {
+  def generate(data: Data): Seq[Page] = {
 
     val cssStyles = Seq(
       CssPage(
@@ -67,6 +67,8 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
     )
 
     val cssPaths = cssStyles.map(_.outputPath)
+
+    val datums = data.datums.values.toSeq // TODO: stop using Seq[Datum[?]]
 
     val postXImagePage =
       PostXImagePage(Config.current.baseUrl, cssPaths, Config.current.isLocal)

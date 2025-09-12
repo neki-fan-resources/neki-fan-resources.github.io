@@ -3,9 +3,16 @@ show:
   id: minamiwheel
   fullname: FM802 MINAMI WHEEL 2025
   date: 2025-10-13
-  location: Minami, Osaka
+  location: 心斎橋BRONZE, Minami, Osaka
   event-page: 'https://minamiwheel.jp/'
   cover-image:
     postximage:
       post: 1943145229357584494
       image: GvdwSAWakAAlKdJ
+  multimedia:
+    image:
+    - postximage:
+        post: 1966064930890854845
+        image: G0jdogsaMAcz72C
+
+

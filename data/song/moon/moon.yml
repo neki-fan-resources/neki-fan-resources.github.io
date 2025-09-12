@@ -16,6 +16,9 @@ song:
     fromOtherElement: true
   multimedia:
     video:
+    - postxvideo:
+        post: 1964676334128693400
+        video: 01
     - youtubeshort: FEwx6aYh3fU
     - youtubeshort: w5iL7GzElXU
     live:

@@ -124,3 +124,47 @@
         id: minamiwheel
     part-of:
       postx: 1950844299064799526
+
+- postx:
+    id: 1966064930890854845
+    account: minamiwheel
+    label: Schedule
+    published-date: 2025-09-11
+    text: |
+      ついに来月開催！
+
+      🗓️10/11(土)・12(日)・13(月祝)の3日間
+      今年もミナミエリアが音楽でアツくなる🔥
+
+      🎸#FM802 MINAMI WHEEL 2025 🍞
+
+      ／
+      #ミナホ タイムテーブル解禁📣💥
+      ＼
+
+      見たいライブが多すぎる…！
+      みんなはどう回る？👀
+
+      詳細はここからチェック💨
+      ▶http://minamiwheel.jp
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+    image:
+    - G0jdogsaMAcz72C
+
+- postximage:
+    post: 1966064930890854845
+    id: G0jdogsaMAcz72C
+    label: Schedule
+    published-date: 2025-09-11
+    part-of:
+      postx: 1966064930890854845
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+
+
+

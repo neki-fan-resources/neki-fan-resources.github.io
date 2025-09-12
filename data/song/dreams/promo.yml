@@ -6,3 +6,14 @@
     published-date: 2025-08-02
     context:
     - song: dreams
+
+- youtubeshort:
+    id: ib_vEcMxjCg
+    label: Promo
+    info: studio audio
+    published-date: 2025-09-11
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: 1stzepponeman

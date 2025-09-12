@@ -395,7 +395,38 @@
     - show:
         year: 2025
         id: 1stzepponeman
-    
+  
 
+- postx:
+    id: 1964676334128693400
+    account: coco_102
+    label: moon, for the upcoming full moon
+    published-date: 2025-09-07
+    text: |
+      明日満月なんだって🌕
+      コーンムーンって呼ぶらしいよ、なんか美味しそう🌽
+
+      たまにはゆっくり夜空を見上げてみようかな
+
+      (moonの1サビ終わりのフィル、他楽器とがっつりユニゾンしてて好き)
+
+      #NEKI
+    video:
+    - 01
+
+- postxvideo:
+    post: 1964676334128693400
+    id: 01
+    cover: 1964676210174357504/img/AeZO_IK0_FjbFI7t.jpg
+    label: Live
+    info: Cocoro
+    published-date: 2025-09-07
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: moon
+    part-of: 
+      postx: 1964676334128693400
 
 

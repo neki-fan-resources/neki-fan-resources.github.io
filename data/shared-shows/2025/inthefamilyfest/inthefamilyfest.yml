@@ -4,7 +4,7 @@ show:
   fullname: ZEPHYREN × SHIBUYA THE GAME presents 『In The Family FEST 2025』
   shortname: In The Family FEST 2025
   date: 2025-10-04
-  location: Shibuya, Tokyo
+  location: Shibuya Milkyway, Tokyo
   cover-image:
     postximage:
       post: 1954845457206624572
@@ -12,6 +12,9 @@ show:
   event-page: https://t.livepocket.jp/e/itff2025
   multimedia:
     image:
+    - postximage:
+        post: 1964992098836664505
+        image: G0UH9XuaEAEOX-x
     - postximage:
         post: 1954845457206624572
         image: GyEBiwTbAAA-nJp

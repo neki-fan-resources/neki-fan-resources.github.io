@@ -33,6 +33,9 @@ contentpage:
   - show:
       year: 2025
       id: recommendjunction
+  - show:
+      year: 2025
+      id: buzzrhythmlive
 # oct
   - show:
       year: 2025
@@ -296,6 +299,10 @@ contentpage:
   - show:
       year: 2025
       id: recommendjunction
+    short: true
+  - show:
+      year: 2025
+      id: buzzrhythmlive
     short: true
   - show:
       year: 2025

@@ -1,21 +1,26 @@
 package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.NewsItem
 import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.html.CompiledDataGenerator
+import org.skyluc.fan_resources.html.NewsItemCompiledData
+import org.skyluc.fan_resources.html.TextCompiledData
 import org.skyluc.fan_resources.html.Url
+import org.skyluc.fan_resources.html.component.NewsBlock
 import org.skyluc.fan_resources.html.component.SocialMediaCard
 import org.skyluc.html.*
 import org.skyluc.neki_site.data.Member
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.data.SocialMedia
-import org.skyluc.neki_site.html.NewsBlock
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 import Html.*
 
-class BandPage(site: Site, description: PageDescription) extends SitePage(description, site) {
+class BandPage(site: Site, newsItems: Seq[NewsItemCompiledData], description: PageDescription)
+    extends SitePage(description, site) {
 
   import BandPage._
 
@@ -47,7 +52,7 @@ class BandPage(site: Site, description: PageDescription) extends SitePage(descri
               ),
             ),
         )
-        .appendElements(NewsBlock.generate(site.news)*),
+        .appendElements(NewsBlock.generate(newsItems)*),
       bandPanel(),
       div().withClass(CLASS_BAND_SOCIALS).appendElements(socials(site.band.socialMedia)*),
     )
@@ -137,9 +142,17 @@ object BandPage {
   val SOCIALMEDIA_BASE_URL_YOUTUBE = "https://www.youtube.com/@"
   val CLASS_BAND_SOCIALS = "band-socials"
 
-  def pages(site: Site): Seq[SitePage] = {
+  def pages(site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
+
+    val newsItems =
+      generator
+        .getWithType[NewsItem](NewsItem.ID_BASE_PATH)
+        .filter(_.active)
+        .map(n => TextCompiledData.toCompiledData(n, generator))
+
     val mainPage = BandPage(
       site,
+      newsItems,
       PageDescription(
         TitleAndDescription.formattedTitle(
           None,

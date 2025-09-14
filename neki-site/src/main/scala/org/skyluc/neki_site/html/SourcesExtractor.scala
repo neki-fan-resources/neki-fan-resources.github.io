@@ -58,6 +58,8 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
     sources.map { s => DatumEntry(compiledData, s) }
   }
 
+  override def processNewsItem(newsItem: NewsItem): Seq[DatumEntry] = Nil
+
   override def processPostX(postX: PostX): Seq[DatumEntry] =
     Nil
 

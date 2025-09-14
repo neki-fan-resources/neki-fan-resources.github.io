@@ -11,6 +11,7 @@ import org.skyluc.neki_site.data as d
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
+import org.skyluc.fan_resources.html.TextCompiledData
 
 class UpdatePage(updates: Seq[UpdateCompiledData], pageDescription: PageDescription, site: d.Site)
     extends SitePage(pageDescription, site) {
@@ -27,7 +28,7 @@ object UpdatePage {
 
     val path = Path(updatePage.id.id)
 
-    val updates = UpdatesSection.toCompiledData(updatePage.id, updatePage.updates, generator)
+    val updates = TextCompiledData.toCompiledData(updatePage.id, updatePage.updates, generator)
 
     val pageDescription =
       PageDescription(

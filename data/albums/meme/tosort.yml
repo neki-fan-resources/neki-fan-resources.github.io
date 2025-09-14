@@ -1,0 +1,10 @@
+- newsitem:
+    id: upcoming
+    album: meme
+    title: NEK! first album
+    text:
+    - line:
+      - text: 'NEK! will release their first album "'
+      - album: meme
+      - text: '" on November 11th.'
+    active: true

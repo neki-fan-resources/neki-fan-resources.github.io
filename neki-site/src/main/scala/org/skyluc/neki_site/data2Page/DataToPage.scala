@@ -31,6 +31,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
           Path("component", "lyrics.css"),
           Path("component", "socialmediacard.css"),
           Path("component", "updatessection.css"),
+          Path("component", "newsblock.css"),
           Path("component", "frncard.css"),
         ),
         "styles-fr.css",
@@ -56,7 +57,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
           Path("component", "mediumcard.css"),
           Path("component", "mediumdetails.css"),
           Path("component", "multimediacard.css"),
-          Path("component", "newsblock.css"),
           Path("component", "overlay.css"),
           Path("component", "smallcard.css"),
           Path("component", "chronology.css"),
@@ -76,7 +76,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
     val fixPages: Seq[SitePage] =
       Seq(
         AboutPage.pages(site),
-        BandPage.pages(site),
+        BandPage.pages(site, generator),
         LivePage.pages(datums, site, generator),
         SourcesPage.pages(datums, site, generator),
       ).flatten
@@ -114,6 +114,8 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
 
   override def processMediaWritten(mediaWritten: MediaWritten): Seq[SitePage] =
     MediaPage.pageFor(mediaWritten, site, generator)
+
+  override def processNewsItem(newsItem: NewsItem): Seq[SitePage] = NO_DATA
 
   override def processPostX(postX: PostX): Seq[SitePage] = NO_DATA
 

@@ -17,7 +17,6 @@ object YamlKeys {
   val SOCIAL_MEDIA = "social-media"
   val SUPPORT = "support"
   val TIKTOK = "tiktok"
-  val TITLE = "title"
   val X = "x"
   val YOUTUBE = "youtube"
 }

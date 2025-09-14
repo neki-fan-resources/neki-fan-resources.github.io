@@ -55,6 +55,34 @@ show:
     - youtubeshort: He1zOmOk7b0
     image:
     - webimage:
+        domain: barks.jp
+        page: 1019083
+        id: v1-1
+    - webimage:
+        domain: barks.jp
+        page: 1019083
+        id: v2-1
+    - webimage:
+        domain: barks.jp
+        page: 1019083
+        id: g1-1
+    - webimage:
+        domain: barks.jp
+        page: 1019083
+        id: g2
+    - webimage:
+        domain: barks.jp
+        page: 1019083
+        id: b1-3
+    - webimage:
+        domain: barks.jp
+        page: 1019083
+        id: d1-1
+    - webimage:
+        domain: barks.jp
+        page: 1019083
+        id: 0-3
+    - webimage:
         domain: realsound.jp
         page: 2025.09.2144607
         id: 02

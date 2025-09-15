@@ -106,6 +106,8 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
 
   override def processLocalImage(localImage: LocalImage): Seq[SitePage] = NO_DATA
 
+  override def processLyrics(lyrics: Lyrics): Seq[SitePage] = NO_DATA
+
   override def processMediaAudio(mediaAudio: MediaAudio): Seq[SitePage] =
     MediaPage.pageFor(mediaAudio, site, generator)
 

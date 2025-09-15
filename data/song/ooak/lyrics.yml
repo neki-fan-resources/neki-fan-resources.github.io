@@ -1,0 +1,201 @@
+- lyrics:
+    song: ooak
+    id: main
+    status:
+      code: warning
+      description: Data copied from the sources. Not checked.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=qGEzCjYvWZw'
+    - id: en
+      name: english translation
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=qGEzCjYvWZw'
+    sections:
+    - lines:
+      - ol:
+        - Hey 目を開いてこっちを見て
+        en:
+        - Hey, open your eyes, look over here
+      - ol:
+        - 小さい手の中？
+        en:
+        - A tiny hand?
+      - ol:
+        - そんなんじゃないわ
+        en:
+        - No way, not like that
+      - ol:
+        - 見ていない 見ていたい 見られたい
+        en:
+        - You’re not seeing. I want to see, be seen
+      - ol:
+        - そんなん That's not it.
+        en:
+        - That’s not what I mean, that’s not it.
+    - lines:
+      - ol:
+        - Hey そんなん面白いの？ねえ？
+        en:
+        - Hey, is that really fun to you?
+      - ol:
+        - 体裁や形式で
+        en:
+        - All that form and formalities
+      - ol:
+        - 真似事ばっか
+        en:
+        - Just mimicry, copycat play
+      - ol:
+        - Not real, just fake, Cheating
+      - ol:
+        - Finally just for show
+    - lines:
+      - ol:
+        - 本物の猫は 私だけよ
+        en:
+        - I’m the only real cat
+      - ol:
+        - ただ一つよ
+        en:
+        - The one and only truth
+    - lines:
+      - ol:
+        - Yeah 超えて行くんだ 縦横無尽
+        en:
+        - Yeah, breaking through in every direction
+      - ol:
+        - チューニングは出来てる
+        en:
+        - I’m tuned and ready to go
+      - ol:
+        - Hey 世界を揺らす 掻き鳴らすの
+        en:
+        - Hey, I’ll shake the world, strum it loud
+      - ol:
+        - ゲームマスター
+        en:
+        - I’m the game master
+      - ol:
+        - ドープで既視感のない
+        en:
+        - Dope and fresh, no déjà vu
+      - ol:
+        - リアル 抜けられぬ世界 ウェルカム
+        en:
+        - This real world — no escape, welcome in
+    - lines:
+      - ol:
+        - Hey 行き場なく集う界隈
+        en:
+        - Hey, gathering in dead-end corners
+      - ol:
+        - つるみ合う退屈しのぎ
+        en:
+        - Clinging to boredom just to kill time
+      - ol:
+        - テンポラリーな
+        en:
+        - It’s all temporary
+      - ol:
+        - 見ていない 喋らない 聞いてない
+        en:
+        - Don’t see, don’t talk, don’t hear
+      - ol:
+        - そんなRelationで
+        en:
+        - That kind of “relation”
+    - lines:
+      - ol:
+        - ただ踊らされてるだけなの 気付かないの
+        en:
+        - You're just being played don’t you get it?
+    - lines:
+      - ol:
+        - Yeah 超えて行ける 変幻自在
+        en:
+        - Yeah, I can break free, ever-changing
+      - ol:
+        - 他所様のレールじゃない
+        en:
+        - I’m not running on someone else's rails
+      - ol:
+        - Hey お好きにどうぞ
+        en:
+        - Hey, do what you want
+      - ol:
+        - フォローはご自由に 後悔させない
+        en:
+        - Follow me if you like. no regrets
+    - lines:
+      - ol:
+        - 指でなぞるだけで 本物を見ずに
+        en:
+        - Just by tracing with your fingers
+      - ol:
+        - 知った気の世の中
+        en:
+        - You think you know without seeing the real thing
+      - ol:
+        - だから だから だから
+        en:
+        - That’s why that’s why that’s why
+      - ol:
+        - Is it real or fake?
+    - lines:
+      - ol:
+        - Yeah 超えてみせる 新章開幕
+        en:
+        - Yeah, I’ll break through it’s a brand new chapter
+      - ol:
+        - ど真ん中で掻き鳴らしてく
+        en:
+        - laying loud, dead center stage
+      - ol:
+        - Hey 私のストーリー
+        en:
+        - Hey, this is my story
+      - ol:
+        - 60秒でショートさせるわ
+        en:
+        - I’ll make it viral in 60 seconds
+      - ol:
+        - Welcome to my world
+    - lines:
+      - ol:
+        - Yeah 超えてみせる 一切合切
+        en:
+        - Yeah, I’ll show you all of me everything
+      - ol:
+        - あげてもいいから
+        en:
+        - I don’t mind giving it away
+      - ol:
+        - Yeah ここで止まる気 さらさらないわ
+        en:
+        - Yeah, no intention of stopping now
+      - ol:
+        - ここから始まる
+        en:
+        - It all begins here
+      - ol:
+        - Never stop. The story is starting.
+      - ol:
+        - さあ ここから本当のshow time
+        en:
+        - Now it’s the real show time
+    - lines:
+      - ol:
+        - We can make you free so come with us now.
+      - ol:
+        - We can make you free so come with us now

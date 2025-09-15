@@ -1,6 +1,7 @@
 package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
+import org.skyluc.fan_resources.data.Lyrics
 import org.skyluc.fan_resources.data.Song
 import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.ElementCompiledData
@@ -15,9 +16,9 @@ import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
 
 class SongPage(
-    song: Song,
     songCompiledData: ElementCompiledData,
     multimediaBlock: MultiMediaBlockCompiledData,
+    lyrics: Option[Lyrics],
     description: PageDescription,
     site: Site,
 ) extends SitePage(description, site) {
@@ -28,7 +29,7 @@ class SongPage(
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, songCompiledData.uId)
 
-    val lyricsSection = song.lyrics.map(LyricsSection.generate).getOrElse(Seq())
+    val lyricsSection = lyrics.map(LyricsSection.generate).getOrElse(Seq())
 
     val additionalSection = MultiMediaCard.generateAdditionalSection(multimediaBlock, songCompiledData.uId)
 
@@ -62,9 +63,9 @@ object SongPage {
       SitePage.pageAndOppositePagePath(song.id, song.id.copy(dark = !song.id.dark), song.id.dark, generator)
 
     val mainPage = SongPage(
-      song,
       compiledData,
       multimediaBlock,
+      song.lyrics.headOption.map(generator.get(_)),
       PageDescription(
         TitleAndDescription.formattedTitle(
           Some(compiledData.designation),

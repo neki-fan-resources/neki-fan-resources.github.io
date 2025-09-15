@@ -1,0 +1,1274 @@
+- lyrics:
+    song: maze
+    id: main
+    status:
+      code: na
+      description: Data copied from the sources. Added rōmaji and words translation.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=EHtWJmMybGY'
+    - id: ro
+      name: rōmaji
+      no-translation: true
+    - id: ww
+      name: word by word translation
+      details: (using jisho.org)
+      base-url: 'https://jisho.org/search/'
+      url-text: J
+    - id: en
+      name: english translation
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=EHtWJmMybGY'
+    sections:
+    - lines:
+      - ol:
+        - 混ぜ
+        - 混ぜ
+        - ' '
+        - 素人
+        ro:
+        - maze
+        - maze
+        - ' '
+        - shirotō
+        ww:
+        - w: mixing
+          d: 混ぜ
+        - w: mixing
+          d: 混ぜ
+        - ' '
+        - w: amateur
+          d: 素人
+        - d: 混ぜ混ぜ 素人
+        en:
+        - Mix up, Mix up, Amateur
+      - ol:
+        - 混ぜ
+        - 混ぜ
+        - ' '
+        - 素人
+        ro:
+        - maze
+        - maze
+        - ' '
+        - shirotō
+        ww:
+        - w: mixing
+          d: 混ぜ
+        - w: mixing
+          d: 混ぜ
+        - ' '
+        - w: amateur
+          d: 素人
+        - d: 混ぜ混ぜ 素人
+        en:
+        - Mix up, Mix up, Amateur
+      - ol:
+        - 混ぜこぜ
+        - ' '
+        - マリオネット
+        - 東京
+        ro:
+        - mazekoze
+        - ''
+        - marionetto
+        - tōkyō
+        ww:
+        - w: mishmash
+          d: 混ぜこぜ
+        - ''
+        - w: marionette
+          d: マリオネット
+        - w: Tokyo
+          d: 東京
+        - d: 混ぜこぜ マリオネット東京
+        en:
+        - Mix and Match Marionette Tokyo
+      - ol:
+        - 飽きたら
+        - ' '
+        - 捨て去りなはれ
+        ro:
+        - akitara
+        - ''
+        - sutesarinahare
+        ww:
+        - w: when getting tired
+          d: 飽きたら
+        - ''
+        - w: throw away (imperative, archaic form)
+          d: 捨て去りなはれ
+        - d: 飽きたら 捨て去りなはれ
+        en:
+        - When you get tired of it, you throw it away
+      - ol:
+        - 無秩序
+        - シルエット
+        - ' '
+        - やるかやられるか
+        ro:
+        - muchitsujo
+        - shiruetto
+        - ''
+        - yaru ka yarareru ka
+        ww:
+        - w: chaos
+          d: 無秩序
+        - w: silhouette
+          d: シルエット
+        - ''
+        - w: do or be done to (exp)
+          d: やるかやられるか
+        - d: 無秩序シルエット やるかやられるか
+        en:
+        - Anarchic silhouette Do or be done
+    - lines:
+      - ol:
+        - こんがらがって
+        - ' '
+        - 這いつくばって
+        ro:
+        - kongaragatte
+        - ''
+        - haitsukubatte
+        ww:
+        - w: become entangled
+          d: こんがらがって
+        - ' '
+        - w: crawl
+          d: 這いつくばって
+        - d: こんがらがって 這いつくばって
+        en:
+        - Getting tangled up, crawling
+      - ol:
+        - 真正面
+        - から
+        - 攻めたら
+        - サンドバック
+        ro:
+        - masshōmen
+        - kara
+        - semetara
+        - sandobakku
+        ww:
+        - w: head-on
+          d: 真正面
+        - w: from
+          d: から
+        - w: attack
+          d: 攻めたら
+        - w: punshing bag
+          d: サンドバック
+        - d: 真正面から攻めたらサンドバック
+        en:
+        - If you attack head-on, you get sandbagged
+      - ol:
+        - いい子
+        - ぶって
+        - ' '
+        - ぶりっ子
+        - 正義
+        - の
+        - 鉄槌
+        ro:
+        - iiko
+        - butte
+        - ''
+        - burikko
+        - seigi
+        - no
+        - tettsui
+        ww:
+        - w: good girl
+          d: いい子
+        - w: pose as
+          d: ぶって
+        - ''
+        - w: cutesy playing girl
+          d: ぶりっ子
+        - w: justice
+          d: 正義
+        - w: ('s)
+          d: の
+        - w: hammer
+          d: 鉄槌
+        - d: いい子ぶって ぶりっ子正義の鉄槌
+        en:
+        - Pretending to be a good girl, a hypocrite wielding the hammer of justice
+      - ol:
+        - アブラカタブラ
+        ro:
+        - aburakatabura
+        ww:
+        - w: abracadabra
+          d: アブラカタブラ
+        - d: アブラカタブラ
+        en:
+        - Abracadabra
+    - lines:
+      - ol:
+        - 信じたら
+        - ' '
+        - おしまい
+        - なのです
+        ro:
+        - shinjitara
+        - ''
+        - oshimai
+        - na no desu
+        ww:
+        - w: if believe
+          d: 信じたら
+        - ''
+        - w: the end
+          d: おしまい
+        - w: it is (fact)
+          d: なのです
+        - d: 信じたら おしまいなのです
+        en:
+        - If you believe it, it's over
+      - ol:
+        - 今日
+        - の
+        - 敵
+        - は
+        - 明日
+        - も
+        - 敵
+        - です
+        ro:
+        - kyō
+        - no
+        - teki
+        - wa
+        - ashita
+        - mo
+        - teki
+        - desu
+        ww:
+        - w: today
+          d: 今日
+        - w: ('s)
+          d: の
+        - w: enemy
+          d: 敵
+        - w: ''
+          d: は
+        - w: tomorrow
+          d: 明日
+        - w: also
+          d: も
+        - w: enemy
+          d: 敵
+        - w: be
+          d: です
+        - d: 今日の敵は明日も敵です
+        en:
+        - Today's enemy is tomorrow's enemy
+      - ol:
+        - 友情
+        - ハイ
+        - ブラ
+        - ' '
+        - 心
+        - バラバラ
+        ro:
+        - yūjō
+        - hai
+        - bura
+        - ''
+        - kokoro
+        - barabara
+        ww:
+        - w: friendship
+          d: 友情
+        - w: high
+          d: ハイ
+        - w: brand (shortened)
+          d: ブラ
+        - ''
+        - w: mind
+          d: 心
+        - w: disconnected
+          d: バラバラ
+        - d: 友情ハイブラ 心バラバラ
+        en:
+        - Friendship is high brand. Minds are disjointed
+      - ol:
+        - 燃え
+        - 散らかして
+        ro:
+        - moe
+        - chirakashita
+        ww:
+        - w: burn
+          d: 燃え
+        - w: scattered
+          d: 散らかして
+        - d: 燃え散らかして
+        en:
+        - Burning everything down
+      - ol:
+        - 今日
+        - も
+        - 生きていきましょう
+        ro:
+        - kyō
+        - mo
+        - ikiteikimashō
+        ww:
+        - w: today
+          d: 今日
+        - w: also
+          d: も
+        - w: let's be living
+          d: 生きていきましょう
+        - d: 今日も生きていきましょう
+        en:
+        - Let's live through today as well
+    - lines:
+      - ol:
+        - 間違い探し
+        - 疑心暗鬼
+        - Dope
+        ro:
+        - machigai sagashi
+        - gashin'anki
+        - ''
+        ww:
+        - w: spot the difference (game)
+          d: 間違い探し
+        - w: suspicion
+          d: 疑心暗鬼
+        - ''
+        - d: 間違い探し 疑心暗鬼 Dope
+        en:
+        - Spot the difference Suspicion Dope
+      - ol:
+        - 憧れ
+        - スパイシー
+        ro:
+        - akogare
+        - supaishī
+        ww:
+        - w: longing
+          d: 憧れ
+        - w: spicy
+          d: スパイシー
+        - d: 憧れスパイシー
+        en:
+        - Longing Spicy
+      - ol:
+        - 足元
+        - お
+        - 気を付け
+        - ください
+        - ' '
+        - ください
+        ro:
+        - ashimoto
+        - a
+        - kiotsuke
+        - kudasai
+        - ''
+        - kudasai
+        ww:
+        - w: step
+          d: 足元
+        - w: ''
+          d: お
+        - w: attention!
+          d: 気を付け
+        - w: please
+          d: ください
+        - ''
+        - w: please
+          d: ください
+        - d: 足元お気を付けください ください
+        en:
+        - Watch your step, Please
+      - ol:
+        - 全て
+        - を
+        - ください
+        ro:
+        - sugete
+        - o
+        - kudasai
+        ww:
+        - w: everything
+          d: 全て
+        - w: ''
+          d: を
+        - w: please
+          d: ください
+        - d: 全てをください
+        en:
+        - Give me everything
+      - ol:
+        - 遊びましょう
+        ro:
+        - asobimashō
+        ww:
+        - w: let's play
+          d: 遊びましょう
+        - d: 遊びましょう
+        en:
+        - Let's play
+    - lines:
+      - ol:
+        - あーあーあーあーあ
+        ro:
+        - a-a-a-a-a
+        en:
+        - Ah-ah-ah-ah-ah
+      - ol:
+        - どいつもこいつも
+        - シャカリキ
+        - 鬼
+        - ダルい
+        ro:
+        - doitsu mo koitsu mo
+        - shakariki
+        - oni
+        - darui
+        ww:
+        - w: every single one
+          d: どいつもこいつも
+        - w: energetic
+          d: シャカリキ
+        - w: extremely
+          d: 鬼
+        - w: tiresome
+          d: ダルい
+        - d: どいつもこいつも シャカリキ鬼ダルい
+        en:
+        - Everyone is annoyingly overenthusiastic
+      - ol:
+        - 愛
+        - だの
+        - 恋
+        - だの
+        ro:
+        - ai
+        - dano
+        - koi
+        - dano
+        ww:
+        - w: affection
+          d: 愛
+        - w: and such
+          d: だの
+        - w: love
+          d: 恋
+        - w: and such
+          d: だの
+        - d: 愛だの恋だの
+        en:
+        - Love and affection
+      - ol:
+        - 欲まみれ
+        - で
+        - ごめんなさいな
+        ro:
+        - yokumamire
+        - de
+        - gomennasai na
+        ww:
+        - w: greedy
+          d: 欲まみれ
+        - w: with
+          d: で
+        - w: I'm sorry
+          d: ごめんなさいな
+        - d: 欲まみれでごめんなさいな
+        en:
+        - Sorry for being full of greed
+      - ol:
+        - 我ら
+        - は
+        - 魔
+        - NEK!
+        - 猫
+        ro:
+        - warera
+        - wa
+        - ma
+        - neki
+        - neko
+        ww:
+        - w: we
+          d: 我ら
+        - w: ''
+          d: は
+        - w: demon
+          d: 魔
+        - NEK!
+        - w: cat
+          d: 猫
+        - d: 我らは魔NEK!猫
+        en:
+        - We are the "MA NEK! NEKO"
+      - ol:
+        - 騙し絵
+        - ' '
+        - 踏み絵
+        ro:
+        - damajie
+        - ''
+        - fumi-e
+        ww:
+        - w: trompe l'oeil
+          d: 騙し絵
+        - ''
+        - w: loyalty test
+          d: 踏み絵
+        - d: 騙し絵 踏み絵
+        en:
+        - Trick art, Fumi-e
+      - ol:
+        - 地獄
+        - へ
+        - ようこそ
+        - ♡
+        ro:
+        - jigoku
+        - he
+        - yōkoso
+        - ''
+        ww:
+        - w: hell
+          d: 地獄
+        - w: to
+          d: へ
+        - w: welcome
+          d: ようこそ
+        - ''
+        - d: 地獄へようこそ♡
+        en:
+        - Welcome to Hell♡
+    - lines:
+      - ol:
+        - 回れ
+        - 回れ
+        - ' '
+        - 右
+        - に
+        ro:
+        - maware
+        - maware
+        - ''
+        - migi
+        - in
+        ww:
+        - w: turn
+          d: 回れ
+        - w: turn
+          d: 回れ
+        - ''
+        - w: right
+          d: 右
+        - w: to
+          d: に
+        - d: 回れ回れ 右に
+        en:
+        - Turn turn To the right
+      - ol:
+        - 回れ
+        - 回れ
+        - ' '
+        - お
+        - 次
+        - は
+        - 左
+        ro:
+        - maware
+        - maware
+        - ''
+        - o
+        - tsuki
+        - wa
+        - hidari
+        ww:
+        - w: turn
+          d: 回れ
+        - w: turn
+          d: 回れ
+        - ''
+        - w: ''
+          d: お
+        - w: next
+          d: 次
+        - w: ''
+          d: は
+        - w: left
+          d: 左
+        - d: 回れ回れ お次は左
+        en:
+        - Turn turn Next left
+      - ol:
+        - 感覚的
+        - 支配
+        - は
+        - ' '
+        - お手の物
+        ro:
+        - kankakuteki
+        - shihai
+        - wa
+        - ''
+        - ote no mono
+        ww:
+        - w: sensori
+          d: 感覚的
+        - w: control
+          d: 支配
+        - w: ''
+          d: は
+        - ''
+        - w: one's speciality
+          d: お手の物
+        - d: 感覚的支配は お手の物
+        en:
+        - Sensory control is easy
+      - ol:
+        - 華麗なる
+        - ウィンク
+        - で
+        ro:
+        - kareinaru
+        - winku
+        - de
+        ww:
+        - w: magnificient
+          d: 華麗なる
+        - w: wink
+          d: ウィンク
+        - w: with
+          d: で
+        - d: 華麗なるウィンクで
+        en:
+        - With a brilliant wink
+    - lines:
+      - ol:
+        - 間違い探し
+        - 疑心暗鬼
+        - Dope
+        ro:
+        - machigai sagashi
+        - gashin'anki
+        - ''
+        ww:
+        - w: spot the difference (game)
+          d: 間違い探し
+        - w: suspicion
+          d: 疑心暗鬼
+        - ''
+        - d: 間違い探し 疑心暗鬼 Dope
+        en:
+        - Spot the difference Suspicion Dope
+      - ol:
+        - 憧れ
+        - スパイシー
+        ro:
+        - akogare
+        - supaishī
+        ww:
+        - w: longing
+          d: 憧れ
+        - w: spicy
+          d: スパイシー
+        - d: 憧れスパイシー
+        en:
+        - Longing Spicy
+      - ol:
+        - 足元
+        - お
+        - 気を付け
+        - ください
+        - ' '
+        - ください
+        ro:
+        - ashimoto
+        - a
+        - kiotsuke
+        - kudasai
+        - ''
+        - kudasai
+        ww:
+        - w: step
+          d: 足元
+        - w: ''
+          d: お
+        - w: attention!
+          d: 気を付け
+        - w: please
+          d: ください
+        - ''
+        - w: please
+          d: ください
+        - d: 足元お気を付けください ください
+        en:
+        - Watch your step, Please
+      - ol:
+        - 全て
+        - を
+        - ください
+        ro:
+        - sugete
+        - o
+        - kudasai
+        ww:
+        - w: everything
+          d: 全て
+        - w: ''
+          d: を
+        - w: please
+          d: ください
+        - d: 全てをください
+        en:
+        - Give me everything
+      - ol:
+        - 遊びましょう
+        ro:
+        - asobimashō
+        ww:
+        - w: let's play
+          d: 遊びましょう
+        - d: 遊びましょう
+        en:
+        - Let's play
+    - lines:
+      - ol:
+        - あら
+        - やだ
+        - やだ
+        - やだ
+        ro:
+        - ara
+        - yada
+        - yada
+        - yada
+        ww:
+        - w: oh!
+          d: あら
+        - w: no way
+          d: やだ
+        - w: no way
+          d: やだ
+        - w: no way
+          d: やだ
+        - d: あらやだやだやだ
+        en:
+        - Oh, no no no
+      - ol:
+        - 行き場
+        - の
+        - 無い
+        - 怒りったら
+        - ' '
+        - 反吐
+        - が
+        - 出る
+        - わ
+        ro:
+        - ikiba
+        - no
+        - nai
+        - ikarittara
+        - ''
+        - hedo
+        - ga
+        - doru
+        - wa
+        ww:
+        - w: place to go
+          d: ikiba
+        - w: ('s')
+          d: no
+        - w: nonexistant
+          d: nai
+        - w: gotten angry
+          d: ikarittara
+        - ''
+        - w: vomit
+          d: hedo
+        - w: ''
+          d: ga
+        - w: come out
+          d: doru
+        - w: (emphasis)
+          d: wa
+        - d: 行き場の無い怒りったら 反吐が出るわ
+        en:
+        - To anger that has no place to go,It makes me uncomfortable
+      - ol:
+        - あっちっち
+        - の
+        ro:
+        - acchicchi
+        - no
+        ww:
+        - w: hot, hot, hot
+          d: あっちっち
+        - w: ''
+          d: の
+        - d: あっちっちの
+        en:
+        - Hot, hot
+      - ol:
+        - 地
+        - の
+        - 利
+        - を
+        - 活かした
+        - ' '
+        - 理想郷
+        - 完成
+        ro:
+        - chi
+        - no
+        - ri
+        - o
+        - ikashita
+        - ''
+        - risōkyō
+        - kansei
+        ww:
+        - w: place
+          d: 地
+        - w: ('s)
+          d: の
+        - w: advantage
+          d: 利
+        - w: ''
+          d: を
+        - w: leveraged
+          d: 活かした
+        - ''
+        - w: utopia
+          d: 理想郷
+        - w: completion
+          d: 完成
+        - d: 地の利を活かした 理想郷完成
+        en:
+        - Utopia completed by taking advantage of the geographical location
+      - ol:
+        - 秒
+        - で
+        - Swipe
+        - Block
+        ro:
+        - byō
+        - de
+        - ''
+        - ''
+        ww:
+        - w: second
+          d: 秒
+        - w: within
+          d: で
+        - ''
+        - ''
+        - d: 秒で Swipe Block
+        en:
+        - In a flash Swipe Block
+      - ol:
+        - いいとこ
+        - 切り取り
+        - マーメイド
+        ro:
+        - iitoko
+        - kiritori
+        - māmeido
+        ww:
+        - w: good thing
+          d: いいとこ
+        - w: cutting off
+          d: 切り取り
+        - w: mermaid
+          d: マーメイド
+        - d: いいとこ切り取りマーメイド
+        en:
+        - Mermaid with the best part cut out
+      - ol:
+        - 全て
+        - は
+        - あげません
+        - ♡
+        ro:
+        - sugete
+        - wa
+        - agemasen
+        - ''
+        ww:
+        - w: everything
+          d: 全て
+        - w: ''
+          d: は
+        - d: あげません
+        - not give
+        - d: 全てはあげません♡
+        en:
+        - I won't give you everything♡
+    - lines:
+      - ol:
+        - ハイエナ
+        - チック
+        - ' '
+        - キミ
+        - と
+        - マッチング
+        ro:
+        - haiena
+        - chikku
+        - ''
+        - kimi
+        - to
+        - macchingu
+        ww:
+        - w: hyena
+          d: ハイエナ
+        - w: '-like'
+          d: チック
+        - ''
+        - w: you
+          d: キミ
+        - w: with
+          d: と
+        - w: matching
+          d: マッチング
+        - d: ハイエナチック キミとマッチング
+        en:
+        - Hyena-like, Matching you
+      - ol:
+        - バードウォッチング
+        - ' '
+        - 上
+        - から
+        - 下
+        - まで
+        ro:
+        - bādowotchingu
+        - ''
+        - ue
+        - kara
+        - shita
+        - made
+        ww:
+        - w: birdwatching
+          d: バードウォッチング
+        - ''
+        - w: top
+          d: 上
+        - w: from
+          d: から
+        - w: bottom
+          d: 下
+        - w: to
+          d: まで
+        - d: バードウォッチング 上から下まで
+        en:
+        - Birdwatching From top to bottom
+      - ol:
+        - 顔
+        - じゃ無い
+        - なんて
+        - ' '
+        - バカ
+        - 言うな
+        - っての
+        ro:
+        - kao
+        - janai
+        - nante
+        - ''
+        - baka
+        - iuna
+        - tteno
+        ww:
+        - w: looks
+          d: 顔
+        - w: is not
+          d: じゃ無い
+        - w: things like
+          d: なんて
+        - ''
+        - w: foolish
+          d: バカ
+        - w: don't say
+          d: 言うな
+        - w: (emphasis)
+          d: っての
+        - d: 顔じゃ無いなんて バカ言うなっての
+        en:
+        - Don't be silly and say it's not about the face
+      - ol:
+        - 所詮
+        - 見せびらかし
+        - の
+        - 類
+        ro:
+        - shosen
+        - misebirakashi
+        - no
+        - tagui
+        ww:
+        - w: after all
+          d: 所詮
+        - w: show off
+          d: 見せびらかし
+        - w: ('s)
+          d: の
+        - w: kind
+          d: 類
+        - d: 所詮見せびらかしの類
+        en:
+        - It's just a show-off kind of thing
+      - ol:
+        - 羨望
+        - 眼差し
+        ro:
+        - senbō
+        - manazashi
+        ww:
+        - w: envy
+          d: 羨望
+        - w: gaze
+          d: 眼差し
+        - d: 羨望眼差し
+        en:
+        - Eyes of envy
+      - ol:
+        - キンキラキン
+        - ギンギラギン
+        ro:
+        - kinkirakin
+        - gingiragin
+        ww:
+        - w: sparkly
+          d: キンキラキン
+        - w: sparkly
+          d: ギンギラギン
+        - d: キンキラキン ギンギラギン
+        en:
+        - Bright bright
+      - ol:
+        - 美しく
+        - も
+        - 儚い
+        - 瞳
+        - は
+        - ' '
+        - 哀れ
+        - です
+        ro:
+        - utsukujiku
+        - mo
+        - hakanai
+        - hitomi
+        - wa
+        - ''
+        - aware
+        - desu
+        ww:
+        - w: beautiful
+          d: 美しく
+        - w: also
+          d: も
+        - w: ephemeral
+          d: 儚い
+        - w: eyes
+          d: 瞳
+        - w: ''
+          d: は
+        - ''
+        - w: pathetic
+          d: 哀れ
+        - w: be
+          d: です
+        - d: 美しくも儚い瞳は 哀れです
+        en:
+        - Beautiful but fragile eyes, so pathetic
+    - lines:
+      - ol:
+        - どこ
+        - まで
+        - ？？
+        ro:
+        - doko
+        - made
+        - ''
+        ww:
+        - w: how far
+          d: どこ
+        - w: until
+          d: まで
+        - ''
+        - d: どこまで？？
+        en:
+        - How far ??
+      - ol:
+        - 果て
+        - まで
+        - しがみついてやる
+        - わ
+        ro:
+        - hate
+        - made
+        - shigamitsuiteyaru
+        - wa
+        ww:
+        - w: end
+          d: 果て
+        - w: until
+          d: まで
+        - w: cling (strong)
+          d: しがみついてやる
+        - w: (emphasis)
+          d: わ
+        - d: 果てまでしがみついてやるわ
+        en:
+        - I'll cling on until the end
+    - lines:
+      - ol:
+        - あーあーあーあーあ
+        ro:
+        - a-a-a-a-a
+        en:
+        - Ah-ah-ah-ah-ah
+      - ol:
+        - どいつもこいつも
+        - シャカリキ
+        - 鬼
+        - ダルい
+        ro:
+        - doitsu mo koitsu mo
+        - shakariki
+        - oni
+        - darui
+        ww:
+        - w: every single one
+          d: どいつもこいつも
+        - w: energetic
+          d: シャカリキ
+        - w: extremely
+          d: 鬼
+        - w: tiresome
+          d: ダルい
+        - d: どいつもこいつも シャカリキ鬼ダルい
+        en:
+        - Everyone is annoyingly overenthusiastic
+      - ol:
+        - 愛
+        - だの
+        - 恋
+        - だの
+        ro:
+        - ai
+        - dano
+        - koi
+        - dano
+        ww:
+        - w: affection
+          d: 愛
+        - w: and such
+          d: だの
+        - w: love
+          d: 恋
+        - w: and such
+          d: だの
+        - d: 愛だの恋だの
+        en:
+        - Love and affection
+      - ol:
+        - 欲まみれ
+        - で
+        - ごめんなさいな
+        ro:
+        - yokumamire
+        - de
+        - gomennasai na
+        ww:
+        - w: greedy
+          d: 欲まみれ
+        - w: with
+          d: で
+        - w: I'm sorry
+          d: ごめんなさいな
+        - d: 欲まみれでごめんなさいな
+        en:
+        - Sorry for being full of greed
+      - ol:
+        - 我ら
+        - は
+        - 魔
+        - NEK!
+        - 猫
+        ro:
+        - warera
+        - wa
+        - ma
+        - neki
+        - neko
+        ww:
+        - w: we
+          d: 我ら
+        - w: ''
+          d: は
+        - w: demon
+          d: 魔
+        - NEK!
+        - w: cat
+          d: 猫
+        - d: 我らは魔NEK!猫
+        en:
+        - We are the "MA NEK! NEKO"
+      - ol:
+        - 騙し絵
+        - ' '
+        - 踏み絵
+        ro:
+        - damajie
+        - ''
+        - fumi-e
+        ww:
+        - w: trompe l'oeil
+          d: 騙し絵
+        - ''
+        - w: loyalty test
+          d: 踏み絵
+        - d: 騙し絵 踏み絵
+        en:
+        - Trick art, Fumi-e
+      - ol:
+        - 地獄
+        - へ
+        - ようこそ
+        - ♡
+        ro:
+        - jigoku
+        - he
+        - yōkoso
+        - ''
+        ww:
+        - w: hell
+          d: 地獄
+        - w: to
+          d: へ
+        - w: welcome
+          d: ようこそ
+        - ''
+        - d: 地獄へようこそ♡
+        en:
+        - Welcome to Hell♡
+

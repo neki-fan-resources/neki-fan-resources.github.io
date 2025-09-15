@@ -34,6 +34,8 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
   override def processLocalImage(localImage: LocalImage): Seq[DatumEntry] = Nil
 
+  override def processLyrics(lyrics: Lyrics): Seq[DatumEntry] = Nil
+
   override def processMediaAudio(mediaAudio: MediaAudio): Seq[DatumEntry] = {
     val sources = Seq(sourceFromCover(mediaAudio.coverImage, generator)).flatten
 
@@ -84,7 +86,7 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   override def processSong(song: Song): Seq[DatumEntry] = {
 
     val sources = Seq(sourceFromCredits(song.credits), sourceFromCover(song.coverImage, generator)).flatten
-      ++ sourcesFromLyrics(song.lyrics)
+      ++ song.lyrics.flatMap(lyricsId => sourcesFromLyrics(generator.get(lyricsId)))
 
     val compiledData = generator.getElement(song)
 
@@ -125,16 +127,12 @@ object SourcesExtractor {
     }
   }
 
-  private def sourcesFromLyrics(lyrics: Option[Lyrics]): Seq[SourceEntry] = {
-    lyrics
-      .map { l =>
-        l.languages.flatMap { ll =>
-          ll.source.map { s =>
-            toSourceEntry(s, ll.name)
-          }
-        }
+  private def sourcesFromLyrics(lyrics: Lyrics): Seq[SourceEntry] = {
+    lyrics.languages.flatMap { ll =>
+      ll.source.map { s =>
+        toSourceEntry(s, ll.name)
       }
-      .getOrElse(Nil)
+    }
   }
 
   private def sourceFromCover(coverImage: CoverImage, generator: CompiledDataGenerator): Option[SourceEntry] = {

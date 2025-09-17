@@ -135,15 +135,11 @@ object SourcesExtractor {
     }
   }
 
-  private def sourceFromCover(coverImage: CoverImage, generator: CompiledDataGenerator): Option[SourceEntry] = {
-    if (coverImage.fromOtherElement) {
-      None
-    } else {
-      val coverCompiledData = generator.getMultiMedia(coverImage.image)
-      Some(
-        SourceEntry("cover image", coverCompiledData.sourceDescription, Some(coverCompiledData.targetUrl.toString()))
-      )
-    }
+  private def sourceFromCover(coverImage: ImageId[?], generator: CompiledDataGenerator): Option[SourceEntry] = {
+    val coverCompiledData = generator.getMultiMedia(coverImage)
+    Some(
+      SourceEntry("cover image", coverCompiledData.sourceDescription, Some(coverCompiledData.targetUrl.toString()))
+    )
   }
 
   val CREDITS_LABEL = "credits"

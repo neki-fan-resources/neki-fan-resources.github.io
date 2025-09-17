@@ -99,7 +99,7 @@ object ContentPage {
           None,
           None,
         ),
-        SitePage.absoluteUrl(generator.getMultiMedia(contentPage.coverImage.image).image.source),
+        SitePage.absoluteUrl(generator.getMultiMedia(contentPage.coverImage).image.source),
         SitePage.canonicalUrlFor(pagePath),
         pagePath.withExtension(Common.HTML_EXTENSION),
         oppositePagePath.map(SitePage.urlFor(_)),

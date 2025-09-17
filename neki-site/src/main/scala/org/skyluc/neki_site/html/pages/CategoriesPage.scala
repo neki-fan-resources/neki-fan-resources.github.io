@@ -73,7 +73,7 @@ object CategoriesPage {
             None,
             None,
           ),
-          SitePage.absoluteUrl(generator.getMultiMedia(categoriesPage.coverImage.image).image.source),
+          SitePage.absoluteUrl(generator.getMultiMedia(categoriesPage.coverImage).image.source),
           SitePage.canonicalUrlFor(path),
           path.withExtension(Common.HTML_EXTENSION),
           None,

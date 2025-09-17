@@ -4,7 +4,7 @@
     fullname: 優利香Presents「You&I ～未来浮かべ浮かれSmile～」　てんこ盛り編
     shortname: You&I ～未来浮かべ浮かれSmile～
     date: 2025-01-26
-    location: Shibuya eggman, Tokyo
+    venue: Shibuya eggman, Tokyo
     event-page: 'http://eggman.jp/schedule/schedule-27265/'
     setlistfm: nek/2025/shibuya-eggman-tokyo-japan-35a6d47
     cover-image:
@@ -69,7 +69,7 @@
     id: setallfree
     fullname: Wisteria×FOWS「Set All Free!!」
     date: 2025-02-06
-    location: 渋谷FOWS, Tokyo
+    venue: 渋谷FOWS, Tokyo
     event-page: 'https://shibuya-fows.jp/events/25568'
     setlistfm: nek/2025/shibuya-fows-tokyo-japan-135a6d45
     cover-image:
@@ -127,7 +127,7 @@
     fullname: KOGA RECORDS presents 【下北沢こがでらロックフェスティバル2025】
     shortname: 下北沢こがでらロックフェスティバル2025
     date: 2025-04-12
-    location: Shimokitazawa , Tokyo
+    venue: Shimokitazawa , Tokyo
     event-page: 'https://kogarecords.com/top/?p=1485'
     cover-image:
       postximage:
@@ -421,7 +421,7 @@
     fullname: LIVEHOLIC presents. "革命ロジック2025" supported by Skream! & 激ロック
     shortname: LIVEHOLIC presents. "革命ロジック2025"
     date: 2025-05-04
-    location: Shimokitazawa , Tokyo
+    venue: Shimokitazawa , Tokyo
     event-page: 'https://liveholic.jp/schedule/2025/05/liveholic-presents-2025-supported-by-skream-4.php'
     cover-image:
       postximage:
@@ -1040,7 +1040,7 @@
     id: sendaimusicfuse
     fullname: Sendai music Fuse
     date: 2025-06-28
-    location: darwin, Sendai
+    venue: darwin, Sendai
     event-page: 'https://sendaimusicfuse.com'
     cover-image:
       postximage:

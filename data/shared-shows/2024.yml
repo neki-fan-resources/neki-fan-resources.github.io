@@ -3,7 +3,7 @@
     id: lupinus2024
     fullname: LUPINUS ROCK FESTIVAL 2024
     date: 2024-03-09
-    location: LIVE HOLIC, Tokyo
+    venue: LIVE HOLIC, Tokyo
     todo: generic event page. check periodically
     event-page: 'https://famime.net/'
     setlistfm: nek/2024/liveholic-tokyo-japan-1b561db0
@@ -303,7 +303,7 @@
     id: arealiberated
     fullname: 'Shibuya The Game presents: Area Liberated'
     date: 2024-04-05
-    location: SHIBUYA THE GAME, Tokyo
+    venue: SHIBUYA THE GAME, Tokyo
     setlistfm: nek/2024/the-game-tokyo-japan-3561dab
     cover-image:
       postximage:
@@ -391,7 +391,7 @@
     id: sweetsweetsweet
     fullname: Sweet！Sweet！Sweet！
     date: 2024-05-20
-    location: 下北沢SHELTER, Tokyo
+    venue: 下北沢SHELTER, Tokyo
     event-page: 'https://www.loft-prj.co.jp/schedule/shelter/282240'
     setlistfm: nek/2024/shelter-tokyo-japan-2b561ca6
     cover-image:
@@ -446,7 +446,7 @@
     id: fypday1
     fullname: '#FYP "For You Place" -DAY1-'
     date: 2024-06-03
-    location: SHIBUYA THE GAME, Tokyo
+    venue: SHIBUYA THE GAME, Tokyo
     event-page: 'https://t.livepocket.jp/e/k6h5us'
     setlistfm: nek/2024/the-game-tokyo-japan-33561c99
     cover-image:
@@ -504,7 +504,7 @@
     id: popoutvol11
     fullname: ラストランプpresents.『POP OUT!!vol.11』
     date: 2024-06-07
-    location: 六本木unravel tokyo
+    venue: 六本木unravel tokyo
     event-page: 'https://tiget.net/events/314471'
     setlistfm: nek/2024/unravel-tokyo-tokyo-japan-23561c8b
     cover-image:
@@ -570,7 +570,7 @@
     id: codeofzerox
     fullname: CODE OF ZERO X 東名阪TOUR
     date: 2024-06-15
-    location: 下北沢ReG, Tokyo
+    venue: 下北沢ReG, Tokyo
     event-page: 'https://codeofzero.aremond.com/schedule/detail/index/112183'
     setlistfm: nek/2024/shibuya-eggman-tokyo-japan-3b561c98
     cover-image:
@@ -640,7 +640,7 @@
     id: beyondthesingularityvol6
     fullname: Beyond The Singularity vol.6
     date: 2024-06-24
-    location: The DOORS, Tokyo
+    venue: The DOORS, Tokyo
     setlistfm: nek/2024/the-doors-tokyo-japan-735602ad
     cover-image:
       postximage:
@@ -688,7 +688,7 @@
     id: beyondthesingularityvol7
     fullname: Beyond The Singularity vol.7
     date: 2024-07-03
-    location: The DOORS, Tokyo
+    venue: The DOORS, Tokyo
     setlistfm: nek/2024/the-doors-tokyo-japan-6b57f6b2
     cover-image:
       postximage:
@@ -736,7 +736,7 @@
     id: driveyoucrazyvol7
     fullname: 彪presents 【Drive You Crazy vol.7】
     date: 2024-07-15
-    location: 両国SUNRIZE, Tokyo
+    venue: 両国SUNRIZE, Tokyo
     event-page: 'https://livehousesunrize.jp/events/20189'
     setlistfm: nek/2024/sunrize-tokyo-japan-53561f75
     cover-image:
@@ -814,7 +814,7 @@
     id: fypvol3
     fullname: '#FYP『For You Place』vol.3'
     date: 2024-08-02
-    location: SHIBUYA THE GAME, Tokyo
+    venue: SHIBUYA THE GAME, Tokyo
     event-page: 'https://t.livepocket.jp/e/dybqz'
     setlistfm: nek/2024/the-game-tokyo-japan-7357f6bd
     cover-image:
@@ -888,7 +888,7 @@
     id: hapikorevol350
     fullname: ハピコレ!! vol.530
     date: 2024-08-08
-    location: 六本木unravel tokyo
+    venue: 六本木unravel tokyo
     event-page: 'https://tiget.net/events/328798'
     setlistfm: nek/2024/unravel-tokyo-tokyo-japan-2b57d09e
     cover-image:
@@ -954,7 +954,7 @@
     fullname: BASS ON TOP ✕ ゼンミュー Presents SOUND SHOCK TOKYO2024
     shortname: SOUND SHOCK TOKYO 2024
     date: 2024-08-27
-    location: 下北沢ReG, Tokyo
+    venue: 下北沢ReG, Tokyo
     event-page: 'https://prbassontop.com/sstokyo24_1/'
     setlistfm: nek/2024/shimokitazawa-reg-tokyo-japan-2355c8ab
     cover-image:
@@ -1003,7 +1003,7 @@
     id: torarockfestival
     fullname: ラストランプpresents.「トラROCK FESTIVAL」
     date: 2024-08-31
-    location: 下北沢CLUB251
+    venue: 下北沢CLUB251
     event-page: 'https://t.livepocket.jp/e/torarockfes2024'
     setlistfm: nek/2024/club-251-tokyo-japan-2b540036
     cover-image:
@@ -1059,7 +1059,7 @@
     fullname: LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~
     shortname: LIVEHOLIC ~Ring! Ring! Ring!~
     date: 2024-09-08
-    location: 下北沢LIVEHOLIC, Tokyo
+    venue: 下北沢LIVEHOLIC, Tokyo
     event-page: 'https://liveholic.jp/schedule/2024/09/liveholic-9th-anniversaryseriesring-ring-ring.php'
     setlistfm: nek/2024/liveholic-tokyo-japan-2b54e4b2
     cover-image:
@@ -1117,7 +1117,7 @@
     id: fypvol5
     fullname: '#FYP "For You Place" vol.5'
     date: 2024-09-19
-    location: SHIBUYA THE GAME, Tokyo
+    venue: SHIBUYA THE GAME, Tokyo
     event-page: 'https://t.livepocket.jp/e/3o_8u'
     setlistfm: nek/2024/the-game-tokyo-japan-b52d1ba
     cover-image:
@@ -1178,7 +1178,7 @@
     fullname: 'Eggs presents #FM802 35th Anniversary “Be FUNKY!!” MINAMI WHEEL 2024'
     shortname: Eggs presents “Be FUNKY!!” MINAMI WHEEL 2024
     date: 2024-10-13
-    location: 心斎橋VARON, Osaka
+    venue: 心斎橋VARON, Osaka
     event-page: 'https://minamiwheel.jp/'
     setlistfm: nek/2024/varon-osaka-japan-1353d5b9
     cover-image:
@@ -1236,7 +1236,7 @@
     id: ignition
     fullname: 251 presents Ignition!!! ~ Special Two Man Show ~
     date: 2024-11-06
-    location: 下北沢CLUB251, Tokyo
+    venue: 下北沢CLUB251, Tokyo
     event-page: 'https://club251.com/schedule/241106/'
     setlistfm: nek/2024/club-251-tokyo-japan-7353e6f9
     cover-image:
@@ -1293,7 +1293,7 @@
     id: sweetsweetsweet2
     fullname: Sweet！Sweet！Sweet！
     date: 2024-11-07
-    location: 下北沢SHELTER, Tokyo
+    venue: 下北沢SHELTER, Tokyo
     event-page: 'https://www.loft-prj.co.jp/schedule/shelter/294411'
     setlistfm: nek/2024/shelter-tokyo-japan-7b53e6fc
     cover-image:
@@ -1345,7 +1345,7 @@
     id: digginsoundvol2
     fullname: Diggin’ Sound Vol.2
     date: 2024-11-27
-    location: 下北沢 近道, Tokyo
+    venue: 下北沢 近道, Tokyo
     event-page: 'https://chikamichi-otemae.com/chikamichi/1953/'
     setlistfm: nek/2024/chikamichi-tokyo-japan-6b53e6ea
     cover-image:
@@ -1420,7 +1420,7 @@
     fullname: SNAZZY TUNES × over print presents over fest 2024
     shortname: over fest 2024
     date: 2024-11-30
-    location: 下北沢MOSAiC, Tokyo
+    venue: 下北沢MOSAiC, Tokyo
     event-page: 'https://tokytunes.com/topic-tunes-live-399/'
     cover-image:
       postximage:

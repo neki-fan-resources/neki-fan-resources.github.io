@@ -1,5 +1,6 @@
 package org.skyluc.neki_site.yaml
 
+import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.data.Datum
 import org.skyluc.fan_resources.data.GenId
 import org.skyluc.fan_resources.data.Id
@@ -100,12 +101,12 @@ case class BandNewsBuilder(
     title: Option[String] = None,
     content: Option[List[String]] = None,
     url: Option[String] = None,
-    errors: Seq[ParserError] = Seq(),
+    errors: Seq[BaseError] = Seq(),
 ) extends ObjectBuilder[d.BandNews, BandNewsBuilder, FrDecoders] {
 
   import ObjectBuilder.*
 
-  override def setErrors(errs: Seq[ParserError]): BandNewsBuilder = copy(errors = errors :++ errs)
+  override def setErrors(errs: Seq[BaseError]): BandNewsBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
@@ -155,12 +156,12 @@ object BandNewsDecoder extends YamlObjectDecoder[d.BandNews, BandNewsBuilder, Fr
 case class BandBuilder(
     members: Option[d.Members] = None,
     socialMedia: Option[d.SocialMedia] = None,
-    errors: Seq[ParserError] = Seq(),
+    errors: Seq[BaseError] = Seq(),
 ) extends ObjectBuilder[d.Band, BandBuilder, FrDecoders] {
 
   import ObjectBuilder.*
 
-  override def setErrors(errs: Seq[ParserError]): BandBuilder = copy(errors = errors :++ errs)
+  override def setErrors(errs: Seq[BaseError]): BandBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
@@ -204,13 +205,13 @@ case class MembersBuilder(
     hika: Option[d.Member] = None,
     kanade: Option[d.Member] = None,
     natsu: Option[d.Member] = None,
-    errors: Seq[ParserError] = Seq(),
+    errors: Seq[BaseError] = Seq(),
 ) extends ObjectBuilder[d.Members, MembersBuilder, FrDecoders] {
 
   import ObjectBuilder.*
   import MembersBuilder.*
 
-  override def setErrors(errs: Seq[ParserError]): MembersBuilder = copy(errors = errors :++ errs)
+  override def setErrors(errs: Seq[BaseError]): MembersBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
@@ -278,12 +279,12 @@ case class MemberBuilder(
     name: Option[String] = None,
     role: Option[String] = None,
     socialMedia: Option[d.SocialMedia] = None,
-    errors: Seq[ParserError] = Seq(),
+    errors: Seq[BaseError] = Seq(),
 ) extends ObjectBuilder[d.Member, MemberBuilder, FrDecoders] {
 
   import ObjectBuilder.*
 
-  override def setErrors(errs: Seq[ParserError]): MemberBuilder = copy(errors = errors :++ errs)
+  override def setErrors(errs: Seq[BaseError]): MemberBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
@@ -342,10 +343,10 @@ case class SocialMediaBuilder(
     tiktok: Option[String] = None,
     youtube: Option[String] = None,
     x: Option[String] = None,
-    errors: Seq[ParserError] = Seq(),
+    errors: Seq[BaseError] = Seq(),
 ) extends ObjectBuilder[d.SocialMedia, SocialMediaBuilder, FrDecoders] {
 
-  override def setErrors(errs: Seq[ParserError]): SocialMediaBuilder = copy(errors = errors :++ errs)
+  override def setErrors(errs: Seq[BaseError]): SocialMediaBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
@@ -397,12 +398,12 @@ object SocialMediaDecoder extends YamlObjectDecoder[d.SocialMedia, SocialMediaBu
 case class NavigationBuilder(
     main: Option[Seq[d.NavigationItem]] = None,
     support: Option[Seq[d.NavigationItem]] = None,
-    errors: Seq[ParserError] = Seq(),
+    errors: Seq[BaseError] = Seq(),
 ) extends ObjectBuilder[d.Navigation, NavigationBuilder, FrDecoders] {
 
   import ObjectBuilder.*
 
-  override def setErrors(errs: Seq[ParserError]): NavigationBuilder = copy(errors = errors :++ errs)
+  override def setErrors(errs: Seq[BaseError]): NavigationBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
@@ -446,12 +447,12 @@ case class NavigationItemBuilder(
     name: Option[String] = None,
     link: Option[String] = None,
     highlight: Option[Seq[String]] = None,
-    errors: Seq[ParserError] = Seq(),
+    errors: Seq[BaseError] = Seq(),
 ) extends ObjectBuilder[d.NavigationItem, NavigationItemBuilder, FrDecoders] {
 
   import ObjectBuilder.*
 
-  override def setErrors(errs: Seq[ParserError]): NavigationItemBuilder = copy(errors = errors :++ errs)
+  override def setErrors(errs: Seq[BaseError]): NavigationItemBuilder = copy(errors = errors :++ errs)
 
   override protected def build(using
       context: DecoderContext[FrDecoders],

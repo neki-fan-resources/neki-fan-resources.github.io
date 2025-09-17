@@ -11,7 +11,7 @@ object Data {
 
   val dispatcherBuilder = new fr.op.DataDispatcherBuilder {
 
-    override def build(dataBuilder: fr.op.DataBuilder): fr.op.DataDispatcher =
+    override def build(dataBuilder: fr.op.DataProcessor): fr.op.DataDispatcher =
       op.DataDispatcher(dataBuilder)
 
   }

@@ -6,6 +6,7 @@ import org.skyluc.neki_site.data.checks.LocalAssetExistsChecker
 import org.skyluc.neki_site.data.checks.ReferencesChecker
 
 import fr.Path
+import org.skyluc.reference.html.edit.EditSupportContext
 
 object Data {
 
@@ -25,5 +26,7 @@ object Data {
     ReferencesChecker,
     LocalAssetExistsChecker(staticFolderPath),
   )
+
+  val editSupportContext = new EditSupportContext() {}
 
 }

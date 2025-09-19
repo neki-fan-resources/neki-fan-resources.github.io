@@ -16,7 +16,7 @@ class MultiMediaCompiledDataGenerator(generator: fr.CompiledDataGenerator) exten
   val processor: MultiMediaCompiledDataGeneratorProcessor = new MultiMediaCompiledDataGeneratorProcessor(generator)
 
   val missingCompiledData: MultiMediaCompiledData = MultiMediaCompiledData(
-    Common.SPACE,
+    Common.HTML_SPACE,
     Common.MISSING,
     Date(2000, 1, 1),
     ImageWithOverlayCompiledData(

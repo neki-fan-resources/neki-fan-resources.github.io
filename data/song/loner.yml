@@ -3,9 +3,13 @@
     fullname: Loner
     album: tricktaking
     release-date: 2024-10-09
-    credits:
-      lyricist: NEK!, Kumoi Haruka
-      composer: NEK!, Yuki Tanabe
+    lyricist:
+      value: NEK!, Kumoi Haruka
+      source:
+        description: 'JASRAC - work ID: 790-9145-8'
+        url: 'https://www2.jasrac.or.jp/'
+    composer:
+      value: NEK!, Yuki Tanabe
       source:
         description: 'JASRAC - work ID: 790-9145-8'
         url: 'https://www2.jasrac.or.jp/'

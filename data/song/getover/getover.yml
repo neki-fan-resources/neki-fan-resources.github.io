@@ -9,9 +9,12 @@ song:
   - Its release was announced, with a teaser for the music video, on april 21th.
   - The song, with its music video, was released on april 24th, 2024.
   - It is included in NEK!'s first EP 'EXCLAMAT!ON'
-  credits:
-    lyricist: NEK!
-    composer: NEK!, MAIMAI
+  lyricist: 
+    value: NEK!
+    source:
+      description: from the EXCLAMAT!ON EP booklet
+  composer: 
+    value: NEK!, MAIMAI
     source:
       description: from the EXCLAMAT!ON EP booklet
   cover-image:

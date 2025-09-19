@@ -25,7 +25,7 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   override def processSite(site: Site): Seq[DatumEntry] = Nil
 
   override def processAlbum(album: Album): Seq[DatumEntry] = {
-    val sources = Seq(sourceFromCover(album.coverImage, generator)).flatten
+    val sources = sourcesForElement(album, generator)
 
     val compiledData = generator.getElement(album)
 
@@ -37,7 +37,7 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   override def processLyrics(lyrics: Lyrics): Seq[DatumEntry] = Nil
 
   override def processMediaAudio(mediaAudio: MediaAudio): Seq[DatumEntry] = {
-    val sources = Seq(sourceFromCover(mediaAudio.coverImage, generator)).flatten
+    val sources = sourcesForElement(mediaAudio, generator)
 
     val compiledData = generator.getElement(mediaAudio)
 
@@ -45,7 +45,7 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   }
 
   override def processMediaVideo(mediaVideo: MediaVideo): Seq[DatumEntry] = {
-    val sources = Seq(sourceFromCover(mediaVideo.coverImage, generator)).flatten
+    val sources = sourcesForElement(mediaVideo, generator)
 
     val compiledData = generator.getElement(mediaVideo)
 
@@ -53,7 +53,7 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   }
 
   override def processMediaWritten(mediaWritten: MediaWritten): Seq[DatumEntry] = {
-    val sources = Seq(sourceFromCover(mediaWritten.coverImage, generator)).flatten
+    val sources = sourcesForElement(mediaWritten, generator)
 
     val compiledData = generator.getElement(mediaWritten)
 
@@ -76,7 +76,7 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   override def processPostYouTubeImage(postYouTubeImage: PostYouTubeImage): Seq[DatumEntry] = Nil
 
   override def processShow(show: Show): Seq[DatumEntry] = {
-    val sources = Seq(sourceFromCover(show.coverImage, generator)).flatten
+    val sources = sourcesForElement(show, generator)
 
     val compiledData = generator.getElement(show)
 
@@ -84,17 +84,21 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
   }
 
   override def processSong(song: Song): Seq[DatumEntry] = {
+    if (song.id.dark) {
+      Nil
+    } else {
+      val sources = sourcesForElement(song, generator)
+        ++ song.lyrics.flatMap(lyricsId => sourcesFromLyrics(generator.get(lyricsId)))
 
-    val sources = Seq(sourceFromCredits(song.credits), sourceFromCover(song.coverImage, generator)).flatten
-      ++ song.lyrics.flatMap(lyricsId => sourcesFromLyrics(generator.get(lyricsId)))
+      val compiledData = generator.getElement(song)
 
-    val compiledData = generator.getElement(song)
+      sources.map { s => DatumEntry(compiledData, s) }
+    }
 
-    sources.map { s => DatumEntry(compiledData, s) }
   }
 
   override def processTour(tour: Tour): Seq[DatumEntry] = {
-    val sources = Seq(sourceFromCover(tour.coverImage, generator)).flatten
+    val sources = sourcesForElement(tour, generator)
 
     val compiledData = generator.getElement(tour)
 
@@ -118,15 +122,6 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
 object SourcesExtractor {
 
-  private def sourceFromCredits(credits: Option[Credits]): Option[SourceEntry] = {
-    credits.flatMap { c =>
-      c.source.map { s =>
-        toSourceEntry(s, CREDITS_LABEL)
-
-      }
-    }
-  }
-
   private def sourcesFromLyrics(lyrics: Lyrics): Seq[SourceEntry] = {
     lyrics.languages.flatMap { ll =>
       ll.source.map { s =>
@@ -135,11 +130,16 @@ object SourcesExtractor {
     }
   }
 
-  private def sourceFromCover(coverImage: ImageId[?], generator: CompiledDataGenerator): Option[SourceEntry] = {
-    val coverCompiledData = generator.getMultiMedia(coverImage)
-    Some(
+  private def sourcesForElement(element: Element[?], generator: CompiledDataGenerator): Seq[SourceEntry] = {
+    val attributeSources = element.attributes.infoAttributes.flatMap { attribute =>
+      attribute.source.map(s => toSourceEntry(s, attribute.definition.label))
+    }
+
+    val coverCompiledData = generator.getMultiMedia(element.coverImage)
+    val coverSource =
       SourceEntry("cover image", coverCompiledData.sourceDescription, Some(coverCompiledData.targetUrl.toString()))
-    )
+
+    attributeSources :+ coverSource
   }
 
   val CREDITS_LABEL = "credits"

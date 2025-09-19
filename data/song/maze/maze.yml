@@ -3,9 +3,13 @@ song:
   fullname: MAZE
   album: exclamation
   release-date: 2024-07-24
-  credits:
-    lyricist: NEK!, MUGI
-    composer: NEK!, MUGI
+  lyricist:
+    value: NEK!, MUGI
+    source:
+      description: 'JASRAC - work ID: 304-0228-0'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, MUGI
     source:
       description: 'JASRAC - work ID: 304-0228-0'
       url: 'https://www2.jasrac.or.jp/'

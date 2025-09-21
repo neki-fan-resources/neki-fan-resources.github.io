@@ -17,7 +17,7 @@ object Data {
 
   }
 
-  val defaultExpanders = fr.op.DataLoader.defaultExpanders(op.ImplicitDatumExpander())
+  val defaultExpanders = fr.op.DataLoader.defaultExpanders(op.ImplicitDataExpander)
 
   val defaultPopulaters =
     fr.op.DataLoader.defaultPopulaters(fr.op.MultimediaExtraPopulater(fr.op.MultimediaExtraProcessBuilder()))

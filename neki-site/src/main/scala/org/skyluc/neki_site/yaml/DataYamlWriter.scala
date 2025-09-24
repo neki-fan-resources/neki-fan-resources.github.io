@@ -6,6 +6,10 @@ import org.skyluc.neki_site.data as d
 import YamlKeys.*
 import fr.YamlKeys.*
 
+object DataYamlWriterBuilder extends fr.DataYamlWriterBuilder {
+  override def newWriter(): DataYamlWriter = DataYamlWriter()
+}
+
 class DataYamlWriter extends fr.DataYamlWriter with d.Processor[Unit] {
 
   private def processBand(band: d.Band): Unit = {

@@ -9,11 +9,18 @@
         image: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
     lyrics:
     - main
+    part-of:
+      group: dedup1
 
 - lyrics:
     song:
       id: moon
       dark: true
+    id: main
+    part-of:
+      song: 
+        id: moon
+        dark: true
     id: main
     status:
       code: danger

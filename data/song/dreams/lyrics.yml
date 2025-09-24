@@ -1,6 +1,8 @@
 - lyrics:
     song: dreams
     id: main
+    part-of:
+      song: dreams
     status:
       code: warning
       description: data copied from the sources.

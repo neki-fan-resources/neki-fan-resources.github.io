@@ -18,7 +18,7 @@ import Html.*
 import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class MediaPage(
-    media: Media,
+    media: Media[?],
     mediaCompiledData: ElementCompiledData,
     multimediaBlock: MultiMediaBlockCompiledData,
     description: PageDescription,
@@ -93,7 +93,7 @@ object MediaPage {
   val VALUE_PUBLICATION_PAGE = "publication page"
   val VALUE_ARTICLE = "article"
 
-  def pageFor(media: Media, site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
+  def pageFor(media: Media[?], site: Site, generator: CompiledDataGenerator): Seq[SitePage] = {
     val multimediaBlock = generator.getMultiMediaBlock(media)
 
     val extraPath = if (multimediaBlock.extra.isEmpty) {

@@ -12,3 +12,7 @@
           id: tokyocalling
       - text: ", on september 27th in Shinjuku."
     active: true
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling

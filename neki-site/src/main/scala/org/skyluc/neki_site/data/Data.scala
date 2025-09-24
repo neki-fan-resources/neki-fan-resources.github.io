@@ -4,11 +4,15 @@ import org.skyluc.fan_resources.data as fr
 import org.skyluc.fan_resources.data.checks.DataCheck
 import org.skyluc.neki_site.data.checks.LocalAssetExistsChecker
 import org.skyluc.neki_site.data.checks.ReferencesChecker
-
-import fr.Path
+import org.skyluc.neki_site.yaml.DataYamlWriterBuilder
+import org.skyluc.neki_site.yaml.NekiSiteDecoders
 import org.skyluc.reference.html.edit.EditSupportContext
 
+import fr.Path
+
 object Data {
+
+  val decoders = NekiSiteDecoders
 
   val dispatcherBuilder = new fr.op.DataDispatcherBuilder {
 
@@ -28,5 +32,7 @@ object Data {
   )
 
   val editSupportContext = new EditSupportContext() {}
+
+  val yamlWriterBuilder = DataYamlWriterBuilder
 
 }

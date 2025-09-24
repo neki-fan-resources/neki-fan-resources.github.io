@@ -36,7 +36,11 @@
     source:
       description: RADICO page
       url: 'https://radiko.jp/#!/ts/CRK/20250718100000'
-
+    part-of:
+      media:
+        year: 2025
+        id: radiokansai
+      
 - postx:
     id: 1946033691547009324
     account: nekiband_jp

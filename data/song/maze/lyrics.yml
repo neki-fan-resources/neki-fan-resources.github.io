@@ -1,6 +1,8 @@
 - lyrics:
     song: maze
     id: main
+    part-of:
+      song: maze
     status:
       code: na
       description: Data copied from the sources. Added rōmaji and words translation.

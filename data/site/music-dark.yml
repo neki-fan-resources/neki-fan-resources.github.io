@@ -1,6 +1,8 @@
 contentpage:
   id: music
   dark: true
+  part-of:
+    group: dedup1
   label: Music
   description: Information about songs not yet released but already performed.
   start-date: 2050-01-01

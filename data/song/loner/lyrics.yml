@@ -1,6 +1,8 @@
 - lyrics:
     song: loner
     id: main
+    part-of:
+      song: loner
     status:
       code: warning
       description: Data copied from the sources. Not reviewed.

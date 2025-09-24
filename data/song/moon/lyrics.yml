@@ -1,6 +1,8 @@
 - lyrics:
     song: moon
     id: main
+    part-of:
+      song: moon
     status:
       code: warning
       description: Data copied from the sources. Unofficial translation.

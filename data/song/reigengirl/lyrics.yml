@@ -1,6 +1,8 @@
 - lyrics:
     song: reigengirl
     id: main
+    part-of:
+      song: reigengirl
     status:
       code: warning
       description: Data copied from the sources. Not reviewed.

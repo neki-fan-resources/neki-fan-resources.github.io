@@ -1,6 +1,8 @@
 - lyrics:
     song: ooak
     id: main
+    part-of:
+      song: ooak
     status:
       code: warning
       description: Data copied from the sources. Not checked.

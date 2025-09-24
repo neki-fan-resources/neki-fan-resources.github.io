@@ -44,6 +44,10 @@
     source:
       description: show page
       url: https://www.nack5.co.jp/program/kirasuta795/
+    part-of:
+      media:
+        year: 2025
+        id: nack5kirasuta
 
 - postx:
     id: 1947246427605700942

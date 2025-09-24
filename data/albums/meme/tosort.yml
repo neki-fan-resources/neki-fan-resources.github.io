@@ -8,3 +8,5 @@
       - album: meme
       - text: '" on November 26th.'
     active: true
+    part-of:
+      album: meme

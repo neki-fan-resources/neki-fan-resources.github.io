@@ -1,6 +1,8 @@
 - lyrics:
     song: endlessgame
     id: main
+    part-of:
+      song: endlessgame
     status:
       code: warning
       description: Lyrics from the EP booklet. Translation using jisho.org and Google Gemini.

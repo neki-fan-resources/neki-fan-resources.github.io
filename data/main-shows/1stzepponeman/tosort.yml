@@ -174,6 +174,11 @@
     - line:
       - text: GA tickets are available !!
     active: false
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
 
 - newsitem:
     id: done
@@ -191,3 +196,7 @@
     - line:
       - text: The images and videos shared by the band are available.
     active: true
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman

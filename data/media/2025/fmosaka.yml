@@ -41,6 +41,10 @@
     source:
       description: RADICO page
       url: 'https://radiko.jp/r_seasons/10022579'
+    part-of:
+      media:
+        year: 2025
+        id: fmosaka
 
 - postx:
     id: 1946096706078343193

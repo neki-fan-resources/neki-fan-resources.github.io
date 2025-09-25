@@ -4,6 +4,7 @@ import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data as dfr
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html.CompiledDataGenerator
+import org.skyluc.fan_resources.html.TextCompiledData
 import org.skyluc.fan_resources.html.UpdateCompiledData
 import org.skyluc.fan_resources.html.component.UpdatesSection
 import org.skyluc.html.*
@@ -11,13 +12,19 @@ import org.skyluc.neki_site.data as d
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.fan_resources.html.TextCompiledData
+import org.skyluc.fan_resources.html.ElementUpdateCompiledData
+import org.skyluc.fan_resources.html.component.ElementUpdatesSection
 
-class UpdatePage(updates: Seq[UpdateCompiledData], pageDescription: PageDescription, site: d.Site)
-    extends SitePage(pageDescription, site) {
+class UpdatePage(
+    updates: Seq[UpdateCompiledData],
+    elementUpdates: Seq[ElementUpdateCompiledData],
+    pageDescription: PageDescription,
+    site: d.Site,
+) extends SitePage(pageDescription, site) {
 
   override def elementContent(): Seq[BodyElement[?]] = {
-    UpdatesSection.generate(updates)
+    ElementUpdatesSection.generate(elementUpdates) ++
+      UpdatesSection.generate(updates)
   }
 
 }
@@ -29,6 +36,16 @@ object UpdatePage {
     val path = Path(updatePage.id.id)
 
     val updates = TextCompiledData.toCompiledData(updatePage.id, updatePage.updates, generator)
+
+    val elementUpdates = generator.getWithType[dfr.ElementUpdate](dfr.ElementUpdate.ID_BASE)
+
+    val elementUpdatesCompiledData = elementUpdates.map { elementUpdate =>
+      ElementUpdateCompiledData(
+        generator.getElement(elementUpdate.id.elementId),
+        elementUpdate.id.date,
+        elementUpdate.text,
+      )
+    }
 
     val pageDescription =
       PageDescription(
@@ -56,7 +73,7 @@ object UpdatePage {
         updatePage.id.dark,
       )
 
-    Seq(UpdatePage(updates, pageDescription, site))
+    Seq(UpdatePage(updates, elementUpdatesCompiledData, pageDescription, site))
   }
 
 }

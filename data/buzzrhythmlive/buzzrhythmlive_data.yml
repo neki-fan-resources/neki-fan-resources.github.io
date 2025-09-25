@@ -82,6 +82,40 @@
         year: 2025
         id: buzzrhythmlive
 
+- postx:
+    id: 1967921415404789905
+    account: BUZZRHYTHM_NTV
+    label: NEK!'s profile
+    published-date: 2025-09-16
+    text: |-
+      バズリズム 𝙇𝙄𝙑𝙀 2025 -𝘽𝙐𝙕𝙕𝙀𝙍 𝙎𝙏𝘼𝙂𝙀-
+      出演者紹介
+      
+      ◤￣￣￣￣￣￣
+      　　  NEK!
+      ＿＿＿＿＿＿＿◢
+      
+      結成わずか1年半でZeppワンマン到達
+      "頼れる存在のアネキ"＝"ネキ" がバンド名の由来
+      ロックをベースに印象的な歌詞で存在感を放つ
+      ネット発 技巧派4人組ガールズバンド！
+      
+      ▼出演日：11/2(日)
+      
+      ▼NEK! 公式YouTube
+      https://youtube.com/@neki_official
+      
+      ▼#バズライブ 公式HP
+      https://buzzrhythm.live
+      
+      @nekiband_jp
+    image:
+    - G0uq9-QbcAMV7Hg
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
 - postximage:
     post: 1966335966437929047
     id: G0jA10Va8AAl_wd
@@ -145,4 +179,28 @@
         id: buzzrhythmlive
     part-of:
       postx: 1966336018229121319
+
+- postximage:
+    post: 1967921415404789905
+    id: G0uq9-QbcAMV7Hg
+    label: Profile card
+    published-date: 2025-09-16
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1967921415404789905
+
+- update:
+    show:
+      year: 2025
+      id: buzzrhythmlive
+    date: 2025-09-16
+    text:
+    - BUZZ RHYTHM LIVE published a profile card for NEK!
+    part-of:
+      postximage:
+        post: 1967921415404789905
+        image: G0uq9-QbcAMV7Hg
 

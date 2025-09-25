@@ -35,6 +35,8 @@
   --color-kanade-cocoro-dark: color-mix(in oklab, var(--color-kanade-dark), var(--color-cocoro-dark));
 
   --color-not-black: darkslategray;
+  --color-text-soft: darkslategray;
+  --color-text-less: darkslategray;
   --color-not-gray: #d0d0d0;
   --color-designation: gray;
 

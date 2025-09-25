@@ -38,6 +38,16 @@
     part-of:
       album: meme
 
+- postx:
+    id: 1969026474951786643
+    account: cure_bass_baka
+    label: meme for MEME
+    published-date: 2025-09-19
+    text: |-
+      私は綺麗に収まっちゃうんだよね(๑•̀ᴗ- )☆
+    part-of:
+      album: meme
+
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
@@ -81,4 +91,15 @@
     - album: meme
     part-of:
       postx: 1961737876066168993
+
+- postximage:
+    post: 1969026474951786643
+    id: G1NjIuDbUAEPEkd
+    label: It fits perfectly
+    published-date: 2025-09-25
+    context:
+    - album: meme
+    todo: Find a way to reference the original meme
+    part-of:
+      postx: 1969026474951786643
 

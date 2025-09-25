@@ -19,6 +19,9 @@ song:
     - youtubevideo: OkQV2Vo9EgE
     live:
     - postxvideo:
+        post: 1970827214980874512
+        video: 01
+    - postxvideo:
         post: 1953425358717591622
         video: 01
     - postxvideo:
@@ -33,6 +36,9 @@ song:
         post: 1957004284782055894
         video: 01
     image:
+    - postximage:
+        post: 1968563113944564085
+        image: G1G9tQMbQAAt5-S
     - postximage:
         post: 1960529877574279264
         image: GzUzhFka4AAopmC

@@ -17,6 +17,18 @@
         song: endlessgame
 
 - youtubeshort:
+    id: HBq5ngFucyU
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-09-18
+    context:
+    - song: endlessgame
+    part-of:
+      group:
+        id: promo
+        song: endlessgame
+
+- youtubeshort:
     id: NHEqpkzeOdc
     label: Promo
     info: studio audio, rehearsal room, Natsu solo

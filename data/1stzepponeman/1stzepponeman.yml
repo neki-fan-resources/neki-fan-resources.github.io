@@ -30,6 +30,10 @@ show:
         image: Gzm94CPaQAAkyrR
     video:
     - postxvideo:
+        post: 1967554049408135190
+        video: 01
+    - youtubeshort: '-tZ_hveWReA'
+    - postxvideo:
         post: 1964676334128693400
         video: 01
     - youtubeshort: '-f1iJu5MuRU'
@@ -54,6 +58,9 @@ show:
     - youtubeshort: Nn2dWG_ZX4w
     - youtubeshort: He1zOmOk7b0
     image:
+    - postximage:
+        post: 1969298971727212878
+        image: G1Ra9_2bQAAkfUH
     - webimage:
         domain: barks.jp
         page: 1019083

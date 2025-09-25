@@ -1,0 +1,409 @@
+- postx:
+    id: 1901916392653537292
+    account: natsu08_guitar
+    label: Reigen girl intro
+    published-date: 2025-03-18
+    text: |-
+      熱が冷めないうちに、、とNEK!のライブの雰囲気をもっとわかってもらいたい!ということで、O-WESTの「令現少女」のイントロシーン❤️‍🔥
+      ここ、まじで最高すぎる！🫶🏻
+      みんなの掛け声でテンションぶち上がる！
+      これからはもっと定点カメラの映像も小出しにしていこうかな💭💭
+      
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1907340052666945675
+    account: coco_102
+    label: Cocoro-cam
+    published-date: 2025-04-02
+    text: |-
+      令現少女ラストスパート🫶🏻
+      
+      この曲何気にキックがずっと忙しいのよ。
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1917865243080024340
+    account: coco_102
+    label: Cocoro-cam Get Over
+    info: right after anouncing the 1st Zepp concert
+    published-date: 2025-05-01
+    text: |-
+      Zeppワンマンを発表したあとのGet Over🔥
+      
+      発表を受けたフロアの笑顔がより一層輝いてて、喜んでもらえて良かった〜とこちらも嬉しくなりながら叩いていました☺️8/30はこの日を超える最高な夜にしよう！！(する！！)
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 56ad6b95-81f9-4c28-9588-416eda80eec0
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1929106683978224117
+    account: 46_hikaa
+    label: Loner accoustic Live
+    info: from the crowd, accoustic
+    published-date: 2025-06-01
+    text: |-
+      O-WESTのライブ映像👀✨
+      
+      アコースティック編成でLoner！！
+      
+      #NEKI #ネキ界隈 #拡散中
+    video:
+    - 46203d6b-e5ae-48cd-8902-16d9a880869d
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postxvideo:
+    post: 1901916392653537292
+    id: 01
+    label: Live
+    info: intro
+    published-date: 2025-03-18
+    cover: 1901916308243185664/img/UBEcndoZ5OxZYNht.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: reigengirl
+    part-of:
+      postx: 1901916392653537292
+
+- postxvideo:
+    post: 1907340052666945675
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-04-02
+    cover: 1907339920764796928/img/w_YX-j6ULyEvSQoU.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: reigengirl
+    part-of:
+      postx: 1907340052666945675
+
+- postxvideo:
+    post: 1917865243080024340
+    id: 56ad6b95-81f9-4c28-9588-416eda80eec0
+    label: Cocoro-cam
+    info: right after anouncing the 1st Zepp concert
+    published-date: 2025-05-01
+    cover: 1917865155645546496/img/vDh7ZkVxv93tKfNg.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1917865243080024340
+
+- postxvideo:
+    post: 1929106683978224117
+    id: 46203d6b-e5ae-48cd-8902-16d9a880869d
+    label: Live
+    info: from the crowd, accoustic
+    published-date: 2025-06-01
+    cover: 1929106621202153472/img/68yTv0Vr4lDzpTu4.jpg
+    context:
+    - song: loner
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1929106683978224117
+
+- postxvideo:
+    post: 1954447291294822589
+    id: 01
+    label: Live
+    published-date: 2025-08-10
+    cover: 1954447172633776128/img/Lep2PYsh46-RZUQF.jpg
+    context:
+    - song: loner
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: 1JgqY5V6fCE
+    label: Promo
+    info: Hika
+    published-date: 2025-03-15
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: 5TbpU2-WnIQ
+    label: Rehearsal
+    info: Hika focus
+    published-date: 2025-03-15
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: 8HxPW2Pre0I
+    label: Show digest
+    info: images from the show
+    published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: EG8WdNAMS5w
+    label: Thanks!!
+    info: With love!
+    published-date: 2025-03-19
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: EzpPj7pVf6Y
+    label: Live
+    info: Kanade
+    published-date: 2025-04-06
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: FEwx6aYh3fU
+    label: Rehearsal
+    info: on stage, accoustic
+    published-date: 2025-06-12
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: S2y9YcalKNw
+    label: Rehearsal
+    info: Natsu focus
+    published-date: 2025-03-13
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: YKmsB94XMb4
+    label: Live
+    info: Natsu guitar intro
+    published-date: 2025-04-01
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: _8Jm4QV0mUw
+    label: Rehearsal
+    info: Cocoro focus
+    published-date: 2025-03-14
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: dSX3EKmcRUc
+    label: Live
+    info: Natsu guitar solo
+    published-date: 2025-04-05
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: htz6Y0O53tM
+    label: Show
+    info: huddle
+    published-date: 2025-03-20
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: mvD68jTQrHs
+    label: Live
+    info: from the balcony
+    published-date: 2025-03-27
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    todo: song name ?
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: nh7NiJ2vnHM
+    label: Rehearsal
+    info: Kanade focus
+    published-date: 2025-03-14
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: qEv4jcWXNmk
+    label: Promo
+    info: Kanade
+    published-date: 2025-03-15
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: rIixubNAY2g
+    label: Promo
+    info: Cocoro
+    published-date: 2025-03-14
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: rla_ZLjIvmE
+    label: Promo
+    info: Natsu
+    published-date: 2025-03-14
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: rtmMldJLh1k
+    label: Before
+    info: rehearsal
+    published-date: 2025-03-18
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: u9-z9XkhpVw
+    label: Live
+    info: from the crowd
+    published-date: 2025-03-22
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+

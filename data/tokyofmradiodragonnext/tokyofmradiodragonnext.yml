@@ -1,0 +1,36 @@
+mediaaudio:
+  year: 2025
+  id: tokyofmradiodragonnext
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+      id: logo
+  radio: TOKYO FM
+  show: RADIO DRAGON-NEXT-
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-05-02
+  host: 菅野結以 (Yui Kanno)
+  program: 'https://radiko.jp/#!/ts/FMT/20250503030000'
+  webpage: 'https://www.tfm.co.jp/dragon/'
+  description:
+  - Hika and Natsu were guests of the show 'RADIO DRAGON-NEXT-' on TOKYO FM.
+  - They spoke about how Hika gathered everyone to form the band.
+  - They spoke about the songs of the second EP.
+  multimedia:
+    short:
+    - youtubeshort: NNc3Tau8YAY
+    image:
+    - postximage:
+        post: 1918254606855074066
+        image: Gp8COrJbsAAsI0n
+    - postximage:
+        post: 1918253217269596255
+        image: Gp8BIMjawAM-GEH
+    - postximage:
+        post: 1918392450269548896
+        image: Gp9_wtDagAAnCTL

@@ -1,0 +1,31 @@
+mediaaudio:
+  year: 2025
+  id: nack5fantasyradio
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: nack5fantasyradio
+      id: logo
+  radio: NACK5
+  show: FANTASY RADIO
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-03-23
+  host: 春日萌花 (Haruhi Moeka)
+  program: 'https://www.nack5.co.jp/blog/fantasyradio/16477/'
+  webpage: 'https://www.nack5.co.jp/program/fantasyradio/'
+  todo: 'beginning of a summary available in tag:before-parser001'
+  description:
+  - Hika and Natsu were guest of the show 'FANTASY RADIO' on NACK5.
+  - The interview went over the general band info, then they spoke about the music of 'zero-sum'. In second part, the host did an analysis of the lyrics of 'Loner', 'moon' and 'Fool'.
+  - "'zero-sum' and 'Dreams!!!!' were played during the program."
+  multimedia:
+    short:
+    - youtubeshort: 2WXwyGdDMsM
+    image:
+    - postximage:
+        post: 1903452529729695755
+        image: Gmpr-0DaAAA6aKU

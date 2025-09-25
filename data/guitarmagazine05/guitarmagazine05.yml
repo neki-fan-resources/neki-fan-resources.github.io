@@ -1,0 +1,40 @@
+mediawritten:
+  year: 2025
+  id: guitarmagazine05
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: guitarmagazine05
+      id: cover
+  publication: Guitar magazine
+  issue: May 2025
+  designation: magazine
+  member:
+  - Natsu
+  published-date: 2025-04-12
+  webpage: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
+  todo: check if article is available online
+  description:
+  - Natsu is interviewed in the May issue of Guitar magazine, in the 'OPENING ACT' section.
+  summary:
+    status:
+      code: warning
+      description: Translation done using LLM tools.
+    items:
+    - label: She started to play guitar in elementary school, on her father's Fender Stratocaster.
+    - label: Her early influences were Eric Clapton, the Rolling Stones, Deep Purple.
+    - label: The first solo she ever practiced was "Layla" by Eric Clapton.
+    - label: Then she encountered BABYMETAL's Kami Band. She was shocked by the heavy sound produced by their guitars.
+    - label: Takayoshi Ohmura from BABYMETAL's Kami Band is the guitarist who influenced her the most.
+    - label: She got her current main guitar (Washburn PXS-10EC - matte black body) in 2017, as she was looking for a 24-fret electric guitar, to play all the phrases in BABYMETAL's music.
+    - label: She loves her guitar. "I think this will probably be my partner for life."
+    - label: The second part of the interview touches on the guitar play in different NEK! songs.
+    - label: '"I have a desire to play guitar that sings. I hope it can become like a second singing voice."'
+  multimedia:
+    image:
+    - localimage:
+        media:
+          year: 2025
+          id: guitarmagazine05
+        id: article

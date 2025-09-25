@@ -1,0 +1,97 @@
+- postx:
+    id: 1851932879170752613
+    account: Snazzy_Tunes
+    label: announcement
+    published-date: 2024-11-14
+    text: |-
+      🎁#overfestプレゼント🎁
+      
+      本アカウントをフォロー＆リポストいただいた方
+      抽選で1️⃣名様に…
+      
+      ⚡️NEK! 
+      @nekiband_jp
+      
+      
+      🗃️サイン入り限定クリアファイル(非売品)と
+      📛#overfest コラボ缶バッジプレゼント！
+      
+      ＼当日は15:30～ MOSAiC出演！／
+      
+      11月30日(土) 下北沢11会場
+      SNAZZY TUNES × over print pre.
+      ⚡️over fest 2024⚡️
+    image:
+    - GbM3V_gbsAAOSAH
+    - GbM3MSXakAgJdbk
+    - GbM3RQHasAAkpyS
+    - GbM3YFiakAE0iM2
+    part-of:
+      show:
+        year: 2024
+        id: overfest2024
+
+- postximage:
+    post: 1851932879170752613
+    id: GbM3MSXakAgJdbk
+    label: poster neki
+    published-date: 2024-11-14
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
+    part-of:
+      postx: 1851932879170752613
+
+- postximage:
+    post: 1851932879170752613
+    id: GbM3RQHasAAkpyS
+    label: badge neki
+    published-date: 2024-11-14
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
+    part-of:
+      postx: 1851932879170752613
+
+- postximage:
+    post: 1851932879170752613
+    id: GbM3V_gbsAAOSAH
+    label: poster
+    published-date: 2024-11-14
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
+    part-of:
+      postx: 1851932879170752613
+
+- postximage:
+    post: 1851932879170752613
+    id: GbM3YFiakAE0iM2
+    label: schedule
+    published-date: 2024-11-14
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
+    part-of:
+      postx: 1851932879170752613
+
+- youtubeshort:
+    id: '-mmjisKakXU'
+    label: Promo
+    info: studio audio
+    published-date: 2024-12-14
+    context:
+    - song: fool
+    - show:
+        year: 2024
+        id: overfest2024
+    part-of:
+      show:
+        year: 2024
+        id: overfest2024
+

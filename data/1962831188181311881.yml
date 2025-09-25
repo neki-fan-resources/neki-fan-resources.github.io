@@ -1,0 +1,25 @@
+- postx:
+    id: 1962831188181311881
+    account: 46_hikaa
+    label: Image from the show
+    published-date: 2025-09-02
+    text: |-
+      2025.08.30  NEK! 1ST ZEPP ONE MAN
+      
+      #NEKI #ネキ界隈
+    image:
+    - Gz1gj5nbMAAQ2Qc
+
+- postximage:
+    post: 1962831188181311881
+    id: Gz1gj5nbMAAQ2Qc
+    label: On stage
+    info: Hika
+    published-date: 2025-09-02
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1962831188181311881
+

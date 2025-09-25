@@ -1,0 +1,28 @@
+mediaaudio:
+  year: 2025
+  id: bayfm78musicurate
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: bayfm78musicurate
+      id: logo
+  radio: BAYFM78
+  show: 78musi-curate
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2025-04-22
+  host: 佐々木 千暁 (Sasaki Chiaki)
+  program: 'https://radiko.jp/#!/ts/BAYFM78/20250423030000'
+  webpage: 'https://program.bayfm.co.jp/curate/'
+  description:
+  - The whole band, Hika, Kanade, Natsu and Cocoro, will be guest on the show '78 musi-curate' on BAYFM78.
+  multimedia:
+    image:
+    - postximage:
+        post: 1914285297862598973
+        image: GpDoUyLb0AAbEYw

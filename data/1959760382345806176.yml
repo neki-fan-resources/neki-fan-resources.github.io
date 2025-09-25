@@ -1,0 +1,24 @@
+- postx:
+    id: 1959760382345806176
+    account: natsu08_guitar
+    label: Behind the scenes
+    published-date: 2025-08-25
+    text: |-
+      “rip-off”
+      オフショット①📸
+      暑かったかったけど、めっちゃ楽しかったぁ🫶🏻🫶🏻
+      MVまだまだ観てねーぇ👀💖
+    image:
+    - GzH8F6HbkAA8Lxi
+
+- postximage:
+    post: 1959760382345806176
+    id: GzH8F6HbkAA8Lxi
+    label: MV
+    info: Behind the scenes, Natsu
+    published-date: 2025-08-25
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1959760382345806176
+

@@ -1,0 +1,195 @@
+- postx:
+    id: 1921051915636429162
+    account: cure_bass_baka
+    label: Rehearsing
+    info: working on new phrases
+    published-date: 2025-05-10
+    text: |-
+      最近は今月のレコーディングに向けて、新しいフレーズを詰めてます！
+      (フレーズはまだ秘密だから音消してます🤫)
+      #拡散中  #ネキ界隈  #NEKI
+    video:
+    - 2a990e8d-5cc0-4c3e-bcf8-aa24f2a2ec53
+    part-of:
+      song:
+        id: newsong202505
+        dark: true
+
+- postx:
+    id: 1922260308782887399
+    account: 46_hikaa
+    label: Rehearsal
+    info: a few days before recording
+    published-date: 2025-05-13
+    text: |-
+      今日はネキリハでした！
+      
+      今週はレコーディングやけん皆んなで
+      新しい曲を合わせてきたよぉ✌︎('ω'✌︎ )
+      
+      #ネキ界隈 #拡散中
+    video:
+    - 94a26956-efe7-4eba-8e5b-d69fb922bc95
+    part-of:
+      song:
+        id: newsong202505
+        dark: true
+
+- postx:
+    id: 1923958028916883650
+    account: coco_102
+    label: Recording
+    published-date: 2025-05-18
+    text: |-
+      新曲レコーディングしてきたよ￼￼
+      
+      かっこいい曲になるように魂込めてぶっ叩きました！
+      みんなにも早く聴いてもらいたいなー！お楽しみに！
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 6d791e00-ee17-4246-b248-d81ea7004287
+    part-of:
+      song:
+        id: newsong202505
+        dark: true
+
+- postx:
+    id: 1923986423700652394
+    account: cure_bass_baka
+    label: Recording
+    info: ピルん
+    published-date: 2025-05-18
+    text: |-
+      今日はネキリハでした！
+      
+      今週はレコーディングやけん皆んなで
+      新しい曲を合わせてきたよぉ✌︎('ω'✌︎ )
+      
+      #ネキ界隈 #拡散中
+    image:
+    - GrNfc0sXoAAk6JN
+    part-of:
+      song:
+        id: newsong202505
+        dark: true
+
+- postx:
+    id: 1924763496551743797
+    account: natsu08_guitar
+    label: Practicing
+    published-date: 2025-05-20
+    text: |-
+      こんなに陽気な格好してますが、新曲練習中だよーー！！
+      早くみんなに聴いて欲しい🫣❤️‍🔥
+      （流れている曲は関係ないよん）
+      
+      #ネキ界隈 #拡散中
+    video:
+    - 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
+    part-of:
+      song:
+        id: newsong202505
+        dark: true
+
+- postx:
+    id: 1926604625936810264
+    account: coco_102
+    label: Recording
+    published-date: 2025-05-25
+    text: |-
+      この前のレコーディングをまたまたチラ見せ👀❤️‍🔥
+      
+      各パートかっこいいフレーズ盛り沢山！お楽しみに〜！
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - b0969558-f5d5-43d7-9200-0bf80227bfbf
+    part-of:
+      song:
+        id: newsong202505
+        dark: true
+
+- postximage:
+    post: 1923986423700652394
+    id: GrNfc0sXoAAk6JN
+    label: Recording
+    info: ピルん
+    published-date: 2025-05-18
+    context:
+    - song:
+        id: newsong202505
+        dark: true
+    part-of:
+      postx: 1923986423700652394
+
+- postxvideo:
+    post: 1921051915636429162
+    id: 2a990e8d-5cc0-4c3e-bcf8-aa24f2a2ec53
+    label: Rehearsing
+    info: working on new phrases, Kanade
+    published-date: 2025-05-10
+    cover: 1921051642474254336/img/hp95Ii6uif6RovzW.jpg
+    context:
+    - song:
+        id: newsong202505
+        dark: true
+    part-of:
+      postx: 1921051915636429162
+
+- postxvideo:
+    post: 1922260308782887399
+    id: 94a26956-efe7-4eba-8e5b-d69fb922bc95
+    label: Rehearsal
+    info: a few days before recording
+    published-date: 2025-05-13
+    cover: 1922260231012130816/img/5mWiE_vSstcqBwIG.jpg
+    context:
+    - song:
+        id: newsong202505
+        dark: true
+    part-of:
+      postx: 1922260308782887399
+
+- postxvideo:
+    post: 1923958028916883650
+    id: 6d791e00-ee17-4246-b248-d81ea7004287
+    label: Recording
+    info: Cocoro
+    published-date: 2025-05-18
+    cover: 1923957908833701888/img/Rtc71v02-R15ZKmm.jpg
+    context:
+    - song:
+        id: newsong202505
+        dark: true
+    part-of:
+      postx: 1923958028916883650
+
+- postxvideo:
+    post: 1924763496551743797
+    id: 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
+    label: Practicing
+    info: Natsu, Hika
+    published-date: 2025-05-20
+    cover: 1924763425592508424/img/xc1Gc1I_5zi9qbQq.jpg
+    context:
+    - song:
+        id: newsong202505
+        dark: true
+    part-of:
+      postx: 1924763496551743797
+
+- postxvideo:
+    post: 1926604625936810264
+    id: b0969558-f5d5-43d7-9200-0bf80227bfbf
+    label: Recording
+    info: Cocoro
+    published-date: 2025-05-25
+    cover: 1926604563953471488/img/LsvQBWyGGPFdD3aD.jpg
+    context:
+    - song:
+        id: newsong202505
+        dark: true
+    part-of:
+      postx: 1926604625936810264
+

@@ -1,0 +1,34 @@
+mediaaudio:
+  year: 2025
+  id: nack5kirasuta
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: nack5kirasuta
+      id: cover
+  radio: NACK5
+  show: キラスタ (kirasuka)
+  designation: radio show
+  member:
+  - Hika
+  - Cocoro
+  published-date: 2025-07-21
+  host: 桜井雅斗 (Sakai Naoto), 斉藤百香 (Momoka Saito)
+  program: 'https://www.nack5.co.jp/blog/kirasuta795/17430/'
+  webpage: 'https://www.nack5.co.jp/program/kirasuta795/'
+  description:
+  - Hika and Cocoro are guest of the show 'キラスタ (kirasuka)' on NACK5.
+  multimedia:
+    short:
+    - youtubeshort: FC2ESHWNU1M
+    image:
+    - postximage:
+        post: 1947246427605700942
+        image: GwYCS9IbsAAnoPh
+    - postximage:
+        post: 1947243502485827926
+        image: GwX9JI8akAAhy3E
+    - postximage:
+        post: 1947246427605700942
+        image: GwYCS9SaAAAWkcg

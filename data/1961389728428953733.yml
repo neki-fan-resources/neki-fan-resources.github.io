@@ -1,0 +1,36 @@
+- postx:
+    id: 1961389728428953733
+    account: nekiband_jp
+    label: livestreaming announcement
+    published-date: 2025-08-29
+    text: |-
+      【おしらせ】
+      
+      明日Zepp Shinjukuにて開催のワンマンライブにて
+      公演の一部を緊急生配信いたします🎊
+      
+      ★YouTube
+      ★Instagram 
+      ★TikTok
+      
+      18時以降開始予定
+      10~15分程の定点映像配信となります⚡️
+      
+      ※進行状況により配信開始が前後するため、開始10分前頃を目安に各SNSでお知らせいたします。
+      
+      #NEKI
+    image:
+    - GzhA8PbbsAA3ZUq
+
+- postximage:
+    post: 1961389728428953733
+    id: GzhA8PbbsAA3ZUq
+    label: Livestreaming poster
+    published-date: 2025-08-29
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961389728428953733
+

@@ -1,0 +1,30 @@
+song:
+  id: blink
+  cover-image:
+    postyoutubeimage:
+      post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+      image: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+  fullname: Blink
+  album: exclamation
+  release-date: 2024-07-24
+  lyrics:
+  - main
+  lyricist:
+    value: NEK!, Kumoi Haruka
+    source:
+      description: 'JASRAC - work ID: 303-5430-7'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, Yuki Tanabe
+    source:
+      description: 'JASRAC - work ID: 303-5430-7'
+      url: 'https://www2.jasrac.or.jp/'
+  multimedia:
+    live:
+    - postxvideo:
+        post: 1951215513217994873
+        video: 01
+    short:
+    - postxvideo:
+        post: 1960237149292306895
+        video: 01

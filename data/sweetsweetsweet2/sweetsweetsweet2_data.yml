@@ -1,0 +1,38 @@
+- postx:
+    id: 1854440185460879405
+    account: shelter_1001
+    label: today
+    published-date: 2024-11-07
+    text: |-
+      【本日！🍹】
+      11/7(木)
+      “Sweet!Sweet!Sweet! “
+      
+      EMNW
+      ジャムトハイボール
+      NEK!
+      ちゃんゆ胃
+      
+      OPEN 19:00 / START 19:30
+      当日券(¥2,900+1 drink)は開場後に販売します！注目女性アーティスト目白押し✨
+      是非っ
+    image:
+    - GbxLhFfbIAA1wRw
+    part-of:
+      show:
+        year: 2024
+        id: sweetsweetsweet2
+
+- postximage:
+    post: 1854440185460879405
+    id: GbxLhFfbIAA1wRw
+    label: flyer
+    published-date: 2024-11-07
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet2
+    part-of:
+      postx: 1854440185460879405
+

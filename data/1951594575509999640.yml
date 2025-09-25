@@ -1,0 +1,28 @@
+- postx:
+    id: 1951594575509999640
+    account: natsu08_guitar
+    label: Moon solo
+    published-date: 2025-08-02
+    text: |-
+      moon / NEK!
+      
+      NEK!の曲の中でかなり好きなギターソロ🌙 
+      弦飛ばしタッピングが難しい‼️
+      この曲は夜に聴くことを強くおすすめします😌
+      
+      #ネキ界隈 #拡散中 #NEKI #moon
+    video:
+    - 01
+
+- postxvideo:
+    post: 1951594575509999640
+    id: 01
+    label: Solo
+    info: Natsu
+    published-date: 2025-08-02
+    cover: 1951580037976924160/img/740-1qMzglOFA97Y.jpg
+    context:
+    - song: moon
+    part-of:
+      postx: 1951594575509999640
+

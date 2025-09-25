@@ -1,0 +1,75 @@
+- postx:
+    id: 1776084527859061007
+    account: nekiband_jp
+    label: today
+    published-date: 2025-03-22
+    text: |-
+      【🗓本日開催!!🗓】
+      04.05(FRI)
+      SHIBUYA THE GAME PRESENTS
+      『Area Liberated』
+      
+      🔴入場料無料!! (別途2DRINK)🔴
+      🎫BAND予約受付
+      
+      <ACT>
+      THENEWLEVEL
+      4 Roses
+      NEK!
+      WORSTRASH
+      Jaywock
+      ELLE
+      
+      ご来場お待ちしております🔥
+      
+      #TICKETFREE
+    image:
+    - GKXrVSDasAAOm0K
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+
+- postximage:
+    post: 1776084527859061007
+    id: GKXrVSDasAAOm0K
+    label: poster
+    published-date: 2025-03-22
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postx: 1776084527859061007
+
+- youtubeshort:
+    id: ChYZQj2s1Ik
+    label: Promo
+    info: studio audio
+    published-date: 2024-04-16
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+
+- youtubeshort:
+    id: bRHcOHmtXhU
+    label: Promo
+    info: studio audio
+    published-date: 2024-04-13
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+

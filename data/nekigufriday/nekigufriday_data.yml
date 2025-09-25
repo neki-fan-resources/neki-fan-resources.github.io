@@ -1,0 +1,35 @@
+- postx:
+    id: 1847190084451262858
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-10-18
+    text: |-
+      🔥本日🔥
+      
+      「NEK!×Girl's UP!!! presents. FRIDAY 4MAN SHOW」
+      NEK! / ЯeaL / LUMiRiSE / MARKET SHOP STORE
+      
+      OP18:00/ST 18:30 
+      DOOR ￥3,400+1D  
+      
+      ご来場お待ちしております！
+    image:
+    - GaKJl2Eb0AEjQl_
+    part-of:
+      show:
+        year: 2024
+        id: nekigufriday
+
+- postximage:
+    post: 1847190084451262858
+    id: GaKJl2Eb0AEjQl_
+    label: sidewalk board
+    published-date: 2024-10-18
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: nekigufriday
+    part-of:
+      postx: 1847190084451262858
+

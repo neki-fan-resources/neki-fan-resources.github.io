@@ -1,0 +1,41 @@
+- postx:
+    id: 1788471211137306929
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-05-09
+    text: |-
+      🫧本日🫧
+      
+      Girl's UP!!! vol.352
+      
+      AND CALL. 
+      MARKET SHOP STORE
+      Joanna
+      NEK!
+      ビースト・アニマルズ
+      
+      OPEN 18:00  
+      START 18:30      
+      DOOR ￥3,000＋1D
+      
+      ご来場お待ちしております!
+    image:
+    - GNHsX4GbUAAlOcj
+    part-of:
+      show:
+        year: 2024
+        id: guvol352
+
+- postximage:
+    post: 1788471211137306929
+    id: GNHsX4GbUAAlOcj
+    label: sidewalk board
+    published-date: 2024-05-09
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol352
+    part-of:
+      postx: 1788471211137306929
+

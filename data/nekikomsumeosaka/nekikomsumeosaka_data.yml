@@ -1,0 +1,234 @@
+- postx:
+    id: 1944995676963922035
+    account: nekiband_jp
+    label: in 3 days
+    published-date: 2025-07-15
+    text: |-
+      🔥今週末🔥
+      
+      7/18(金)
+      「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+      @ 大阪・LIVE SQUARE 2nd LINE
+      
+      開催まであと3日💥
+      ぜひお越しください！
+      
+      🔗 https://ticket.rakuten.co.jp/music/jpop/RTG7551/
+      
+      #NEKI
+    image:
+    - Gv4DQX6a8AAPdNi
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1946195551969849807
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-07-18
+    text: |-
+      NEK!/komsume TWO-MAN SHOW
+      powered by Diggin' Sound
+      
+      @ LIVE SQUARE 2nd LINE
+      
+      大阪編！！！！
+      熱い時間をありがとうございました🔥
+      
+      #NEKI #komsume
+    image:
+    - GwJGgUJXcAES7vk
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1946522055312331049
+    account: cure_bass_baka
+    label: Intro
+    published-date: 2025-07-19
+    text: |-
+      昨日の大阪公演より
+      ピックでガシガシ系
+      #NEKI  #ネキ界隈  #拡散中
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1946903555937616050
+    account: natsu08_guitar
+    label: MAZE Live
+    published-date: 2025-07-20
+    text: |-
+      前回の大阪の熱が冷めないうちに
+      MAZE〜！🌀
+      撮影OKだったけど、みんな撮影してるとは思えないぐらい盛り上がってくれて声出してくれてほんっとに嬉しかった！♡
+      撮影しながらだと盛り上がり下がっちゃうかなーとか思ったけど、ネキ界隈にそんな心配必要なかったね！
+      ありがとう！！
+      #ネキ界隈 #拡散中
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1947241076508488042
+    account: cure_bass_baka
+    label: zero-sum Live
+    published-date: 2025-07-21
+    text: |-
+      先日の大阪公演より
+      『zero-sum／NEK!』2サビ
+      #NEKI  #拡散中  #ネキ界隈
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1947952383473954991
+    account: coco_102
+    label: Transition between songs live
+    published-date: 2025-07-23
+    text: |-
+      ライブ中の曲間のドキドキ感が好き❤️‍🔥
+      
+      みんなの声援と拍手と次の曲への気合いの高まりが一気にごちゃまぜになるこの瞬間は音源では味わえない！！
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postximage:
+    post: 1944995676963922035
+    id: Gv4DQX6a8AAPdNi
+    label: Poster
+    info: sold out Tokyo
+    published-date: 2025-07-15
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1944995676963922035
+
+- postximage:
+    post: 1946195551969849807
+    id: GwJGgUJXcAES7vk
+    label: Backstage
+    info: komsume, NEK!
+    published-date: 2025-07-18
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946195551969849807
+
+- postxvideo:
+    post: 1946522055312331049
+    id: 01
+    label: Live
+    info: intro, Kanade
+    published-date: 2025-07-19
+    cover: 1946521487633973250/img/MDZtX2xEzKMoI4rG.jpg
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song:
+        id: songa
+        dark: true
+    part-of:
+      postx: 1946522055312331049
+
+- postxvideo:
+    post: 1946903555937616050
+    id: 01
+    label: Live
+    published-date: 2025-07-20
+    cover: 1946903420922658817/img/Obfd3Y2j6UgasqDM.jpg
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: maze
+    part-of:
+      postx: 1946903555937616050
+
+- postxvideo:
+    post: 1947241076508488042
+    id: 01
+    label: Live
+    info: Kanade
+    published-date: 2025-07-21
+    cover: 1947240346624069632/img/3ErAiwwnm_oT1ig_.jpg
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: zerosum
+    part-of:
+      postx: 1947241076508488042
+
+- postxvideo:
+    post: 1947952383473954991
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-07-23
+    cover: 1947951817641611264/img/UiAiX6HkH85m9u1x.jpg
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: zerosum
+    - song: getover
+    part-of:
+      postx: 1947952383473954991
+
+- youtubeshort:
+    id: xv6kbJrnKfk
+    label: Promo
+    info: studio audio
+    published-date: 2025-07-20
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: dreams
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- youtubeshort:
+    id: zLd-nv4R2Xg
+    label: Backstage
+    info: huddle, entry
+    published-date: 2025-07-18
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+

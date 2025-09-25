@@ -1,0 +1,20 @@
+- youtubeshort:
+    id: NbwbMT30zDc
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-08-02
+    context:
+    - song: dreams
+
+- postx:
+    id: 1951623320107114715
+    account: nekiband_jp
+    label: Dreams!!!! rehearsal
+    published-date: 2025-08-02
+    text: |-
+      Let's say my name together! 
+      
+      #NEKI #拡散中 #ネキ界隈 #ガールズバンド
+    part-of:
+      youtubeshort: NbwbMT30zDc
+

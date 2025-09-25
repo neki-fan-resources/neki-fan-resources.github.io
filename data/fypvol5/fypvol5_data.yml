@@ -1,0 +1,46 @@
+- postx:
+    id: 1836637097840775291
+    account: SHIBUYATHEGAME
+    label: today
+    published-date: 2024-09-19
+    text: |-
+      【🗓本日開催!!🗓】
+      09.19(THU)
+      SHIBUYA THE GAME presents
+      #FYP『For You Place』vol.5
+      ⏰OPEN17:30/START18:00
+      
+      <ACT>
+      NEK!
+      Flat×Company
+      ReBoom
+      セブンス・ベガ
+      AND CALL.
+      AREINT
+      
+      TICKET INFO
+      🎫各バンド📩予約
+      🎫Livepocket この後17:00まで!!お早めに🚨
+      https://t.livepocket.jp/e/3o_8u
+      
+      #FYP
+    image:
+    - GX0Lhdsa8AA1DHs
+    part-of:
+      show:
+        year: 2024
+        id: fypvol5
+
+- postximage:
+    post: 1836637097840775291
+    id: GX0Lhdsa8AA1DHs
+    label: poster
+    published-date: 2024-09-19
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: fypvol5
+    part-of:
+      postx: 1836637097840775291
+

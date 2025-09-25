@@ -1,0 +1,64 @@
+- postx:
+    id: 1784417275292143972
+    account: Aya_Bas2
+    label: announcement
+    published-date: 2024-04-28
+    text: |-
+      【情報解禁👏🏻❤️‍🔥】
+      
+      2024.7.15(月祝)
+      両国SUNRIZE
+      彪presents
+      Drive You Crazy vol.7
+      
+      w/
+      少女S
+      EITA(+TAKAEITA)
+      NEK!
+      MANATY
+      
+      来場🎫
+      https://tiget.net/events/317099
+      ※入場順:TIGET→バンド予約→当日
+      
+      配信🎫
+      https://twitcasting.tv/clubtenjiku/shopcart/306758
+      ※NEK!の配信出演はございません
+      
+      両チケット共に5/12(日)12:00発売🔥
+    image:
+    - GMOGC_5bAAAhTe9
+    part-of:
+      show:
+        year: 2024
+        id: driveyoucrazyvol7
+
+- postximage:
+    post: 1784417275292143972
+    id: GMOGC_5bAAAhTe9
+    label: flyer
+    published-date: 2024-04-28
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
+    part-of:
+      postx: 1784417275292143972
+
+- youtubeshort:
+    id: cdIhg5rSCvM
+    label: Promo
+    info: studio audio
+    published-date: 2024-07-19
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
+    todo: related to 2 shows ? (maybe from a X post)
+    part-of:
+      show:
+        year: 2024
+        id: driveyoucrazyvol7
+

@@ -1,0 +1,636 @@
+- lyrics:
+    id: main
+    song: ooak
+    part-of:
+      song: ooak
+    status:
+      code: warning
+      description: Data copied from the sources. Not checked.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=qGEzCjYvWZw'
+    - id: en
+      name: english translation
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=qGEzCjYvWZw'
+    sections:
+    - lines:
+      - ol:
+        - Hey 目を開いてこっちを見て
+        en:
+        - Hey, open your eyes, look over here
+      - ol:
+        - 小さい手の中？
+        en:
+        - A tiny hand?
+      - ol:
+        - そんなんじゃないわ
+        en:
+        - No way, not like that
+      - ol:
+        - 見ていない 見ていたい 見られたい
+        en:
+        - You’re not seeing. I want to see, be seen
+      - ol:
+        - そんなん That's not it.
+        en:
+        - That’s not what I mean, that’s not it.
+    - lines:
+      - ol:
+        - Hey そんなん面白いの？ねえ？
+        en:
+        - Hey, is that really fun to you?
+      - ol:
+        - 体裁や形式で
+        en:
+        - All that form and formalities
+      - ol:
+        - 真似事ばっか
+        en:
+        - Just mimicry, copycat play
+      - ol:
+        - Not real, just fake, Cheating
+      - ol:
+        - Finally just for show
+    - lines:
+      - ol:
+        - 本物の猫は 私だけよ
+        en:
+        - I’m the only real cat
+      - ol:
+        - ただ一つよ
+        en:
+        - The one and only truth
+    - lines:
+      - ol:
+        - Yeah 超えて行くんだ 縦横無尽
+        en:
+        - Yeah, breaking through in every direction
+      - ol:
+        - チューニングは出来てる
+        en:
+        - I’m tuned and ready to go
+      - ol:
+        - Hey 世界を揺らす 掻き鳴らすの
+        en:
+        - Hey, I’ll shake the world, strum it loud
+      - ol:
+        - ゲームマスター
+        en:
+        - I’m the game master
+      - ol:
+        - ドープで既視感のない
+        en:
+        - Dope and fresh, no déjà vu
+      - ol:
+        - リアル 抜けられぬ世界 ウェルカム
+        en:
+        - This real world — no escape, welcome in
+    - lines:
+      - ol:
+        - Hey 行き場なく集う界隈
+        en:
+        - Hey, gathering in dead-end corners
+      - ol:
+        - つるみ合う退屈しのぎ
+        en:
+        - Clinging to boredom just to kill time
+      - ol:
+        - テンポラリーな
+        en:
+        - It’s all temporary
+      - ol:
+        - 見ていない 喋らない 聞いてない
+        en:
+        - Don’t see, don’t talk, don’t hear
+      - ol:
+        - そんなRelationで
+        en:
+        - That kind of “relation”
+    - lines:
+      - ol:
+        - ただ踊らされてるだけなの 気付かないの
+        en:
+        - You're just being played don’t you get it?
+    - lines:
+      - ol:
+        - Yeah 超えて行ける 変幻自在
+        en:
+        - Yeah, I can break free, ever-changing
+      - ol:
+        - 他所様のレールじゃない
+        en:
+        - I’m not running on someone else's rails
+      - ol:
+        - Hey お好きにどうぞ
+        en:
+        - Hey, do what you want
+      - ol:
+        - フォローはご自由に 後悔させない
+        en:
+        - Follow me if you like. no regrets
+    - lines:
+      - ol:
+        - 指でなぞるだけで 本物を見ずに
+        en:
+        - Just by tracing with your fingers
+      - ol:
+        - 知った気の世の中
+        en:
+        - You think you know without seeing the real thing
+      - ol:
+        - だから だから だから
+        en:
+        - That’s why that’s why that’s why
+      - ol:
+        - Is it real or fake?
+    - lines:
+      - ol:
+        - Yeah 超えてみせる 新章開幕
+        en:
+        - Yeah, I’ll break through it’s a brand new chapter
+      - ol:
+        - ど真ん中で掻き鳴らしてく
+        en:
+        - laying loud, dead center stage
+      - ol:
+        - Hey 私のストーリー
+        en:
+        - Hey, this is my story
+      - ol:
+        - 60秒でショートさせるわ
+        en:
+        - I’ll make it viral in 60 seconds
+      - ol:
+        - Welcome to my world
+    - lines:
+      - ol:
+        - Yeah 超えてみせる 一切合切
+        en:
+        - Yeah, I’ll show you all of me everything
+      - ol:
+        - あげてもいいから
+        en:
+        - I don’t mind giving it away
+      - ol:
+        - Yeah ここで止まる気 さらさらないわ
+        en:
+        - Yeah, no intention of stopping now
+      - ol:
+        - ここから始まる
+        en:
+        - It all begins here
+      - ol:
+        - Never stop. The story is starting.
+      - ol:
+        - さあ ここから本当のshow time
+        en:
+        - Now it’s the real show time
+    - lines:
+      - ol:
+        - We can make you free so come with us now.
+      - ol:
+        - We can make you free so come with us now
+
+- postx:
+    id: 1929512124243411173
+    account: nekiband_jp
+    label: announcement OOAK release
+    published-date: 2025-06-02
+    text: |-
+      🎊情報解禁🎊
+      
+      新曲「OOAK」
+      
+      6/4(水)0時 配信リリース決定🎧
+      ジャケットも公開💥
+      
+      🔗https://pci.lnk.to/nek_ooak
+      
+      #NEKI #OOAK
+    image:
+    - GscBBL6bgAAwvmM
+    part-of:
+      song: ooak
+
+- postx:
+    id: 1930096228966248749
+    account: nekiband_jp
+    label: everyone sings
+    published-date: 2025-06-04
+    text: |-
+      New Single 「OOAK」
+      
+      皆さんどぉでしょうか！
+      
+      ライブではHey!やYeah！とみんな一緒に歌ってくれててちょー楽しいよ！
+      
+      ライブ映像も少しお見せしちゃお🫶
+      
+      #ネキ界隈  #拡散中  #NEKI
+    video:
+    - 54904afa-0889-4f5e-a1b1-fe705c2c671d
+    part-of:
+      song: ooak
+
+- postx:
+    id: 1932750181457670312
+    account: natsu08_guitar
+    label: part I like
+    published-date: 2025-06-11
+    text: |-
+      OOAK / NEK!
+      
+      Hey!You!!!! 
+      新曲楽しんでくれてますかぁ❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      個人的にはここの
+      落ちサビ〜ラスサビ〜アウトロ（＋コーラス）部分が好きです🎸🎸💛
+      
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+    part-of:
+      song: ooak
+
+- postx:
+    id: 1935646894207996161
+    account: natsu08_guitar
+    label: cut
+    published-date: 2025-06-18
+    text: |-
+      みんなー！明日21:00-
+      「OOAK」のMV公開だよー🎥🎥
+      もう明日だね！ワクワク💛💛
+      チャットで待ってるよー💬！
+      
+      ここのカッティング好きって言ってもらえてとっても嬉しい🫶🏻
+      ありがとうー！
+      
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+    part-of:
+      song: ooak
+
+- postx:
+    id: 1935668905244336459
+    account: nekiband_jp
+    label: MV premier ready on YouTube
+    published-date: 2025-06-19
+    text: |-
+      ◥◣ #OOAK ◢◤
+      
+      明日6/20(金)21:00
+      YouTubeにてプレミア公開💥
+      
+      "OOAK" Official Music Video
+      
+      あす21時はYouTubeに集合お願いします🎥
+      
+      🔗https://youtu.be/qGEzCjYvWZw
+      
+      #NEKI
+    image:
+    - GtzabMUXgAAmDvN
+    part-of:
+      song: ooak
+
+- postx:
+    id: 1936646576686153867
+    account: coco_102
+    label: MV 10k views
+    published-date: 2025-06-22
+    text: |-
+      OOAK Music Video 1万回再生突破ー！！！！
+      
+      早すぎ！！本当にありがとうございます🙏🏻🩷
+      
+      感謝の気持ちを込めてインスタの方にたくさんオフショット載せたのでぜひ観てねー！
+    image:
+    - GuBZxw1XUAA8lrO
+    - GuBZxwPaEAAI5wJ
+    part-of:
+      song: ooak
+
+- postx:
+    id: 1945857878520475910
+    account: coco_102
+    label: GoPro from above
+    published-date: 2025-07-17
+    text: |-
+      🦋OOAK🦋
+      
+      最近はGoProを使って色んな画角で撮影するのにハマってます笑
+      今回は真上！！これはこれで見やすいね〜
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: ooak
+
+- postx:
+    id: 1947639492552364472
+    account: 46_hikaa
+    label: 2 persons guitar
+    published-date: 2025-07-22
+    text: |-
+      休憩時間にふたりでOOAKのリフ弾いてみた！！(息がピッタリだね🤣)
+      
+      #ネキ界隈  #NEKI
+    video:
+    - 01
+    part-of:
+      song: ooak
+
+- postximage:
+    post: 1929512124243411173
+    id: GscBBL6bgAAwvmM
+    label: OOAK image cover
+    published-date: 2025-06-02
+    local-copy: true
+    context:
+    - song: ooak
+    part-of:
+      postx: 1929512124243411173
+
+- postximage:
+    post: 1935668905244336459
+    id: GtzabMUXgAAmDvN
+    label: Music Video
+    info: the 4 members
+    published-date: 2025-06-19
+    local-copy: true
+    context:
+    - song: ooak
+    part-of:
+      postx: 1935668905244336459
+
+- postximage:
+    post: 1936646576686153867
+    id: GuBZxw1XUAA8lrO
+    label: Music Video
+    info: behind-the-scenes, Cocoro
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      postx: 1936646576686153867
+
+- postximage:
+    post: 1936646576686153867
+    id: GuBZxwPaEAAI5wJ
+    label: Music Video
+    info: behind-the-scenes
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      postx: 1936646576686153867
+
+- postxvideo:
+    post: 1930096228966248749
+    id: 54904afa-0889-4f5e-a1b1-fe705c2c671d
+    label: Live
+    info: everyone sings
+    published-date: 2025-06-04
+    cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
+    context:
+    - song: ooak
+    part-of:
+      postx: 1930096228966248749
+
+- postxvideo:
+    post: 1932750181457670312
+    id: 01
+    label: Chorus
+    info: Natsu
+    published-date: 2025-06-11
+    cover: 1932750062083559424/img/9AJ_yS8ikGI8Atcw.jpg
+    context:
+    - song: ooak
+    part-of:
+      postx: 1932750181457670312
+
+- postxvideo:
+    post: 1935646894207996161
+    id: 01
+    label: Cut
+    info: Natsu
+    published-date: 2025-06-18
+    cover: 1935646770916171776/img/CPlYL1IkO0VoV24N.jpg
+    context:
+    - song: ooak
+    part-of:
+      postx: 1935646894207996161
+
+- postxvideo:
+    post: 1945857878520475910
+    id: 01
+    label: Rehearsal
+    info: Cocoro
+    published-date: 2025-07-17
+    cover: 1945857800657080320/img/FGEXOrb6E_lM_DLK.jpg
+    context:
+    - song: ooak
+    part-of:
+      postx: 1945857878520475910
+
+- postxvideo:
+    post: 1947639492552364472
+    id: 01
+    label: Rehearsal
+    info: riff, Natsu, Hika, 2-persons guitar
+    published-date: 2025-07-22
+    cover: 1947639429159669760/img/Q1RW7U1ded7CRDlb.jpg
+    context:
+    - song: ooak
+    part-of:
+      postx: 1947639492552364472
+
+- youtubeshort:
+    id: '-FTj1689vaY'
+    label: Music Video
+    info: making off
+    published-date: 2025-06-24
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: 1yFMVe5tCiA
+    label: Music Video
+    published-date: 2025-06-20
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: 5WK69VDgaBE
+    label: Music Video
+    published-date: 2025-06-21
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: 86Esxc1BKDM
+    label: MV Teaser
+    published-date: 2025-06-18
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: GMLHhcxGZ3U
+    label: Music Video
+    info: making off
+    published-date: 2025-07-09
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: HFMzoMAZBFQ
+    label: Music Video
+    info: making off, Kanade
+    published-date: 2025-06-23
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: NHUB-t_D4Iw
+    label: Music Video
+    info: making off
+    published-date: 2025-07-19
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: S5DQ7wjnoKA
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-06-04
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: c2BeYww0AAU
+    label: Rehearsal
+    info: studio audio, rehearsal room
+    published-date: 2025-08-21
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: e_NBzXLLpfs
+    label: Music Video
+    info: making off
+    published-date: 2025-07-22
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: lXdRY7Da8OA
+    label: Music Video
+    info: making off
+    published-date: 2025-06-26
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: n5YYx3i7gBg
+    label: Music Video
+    info: making off
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: s7rL0X1Zseg
+    label: Music Video
+    info: making off
+    published-date: 2025-06-29
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: tabt75E-6tY
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-05-03
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: u41vd6yyGGk
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-05-24
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: wsPbR3xISFg
+    label: Music Video
+    info: making off
+    published-date: 2025-07-02
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubevideo:
+    id: mP_33Vu4TL4
+    label: Music Video Teaser
+    published-date: 2025-06-18
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubevideo:
+    id: qGEzCjYvWZw
+    label: Official Music Video
+    published-date: 2025-06-20
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+

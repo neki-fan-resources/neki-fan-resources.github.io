@@ -1,0 +1,683 @@
+- lyrics:
+    id: main
+    song: dreams
+    part-of:
+      song: dreams
+    status:
+      code: warning
+      description: data copied from the sources.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Live Video subtitles)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from YouTube Official Live Video subtitles
+        url: 'https://www.youtube.com/watch?v=_Oac92XPkyo'
+    - id: en
+      name: english translation
+      details: (from YouTube Live Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Live Video subtitles
+        url: 'https://www.youtube.com/watch?v=_Oac92XPkyo'
+    sections:
+    - lines:
+      - ol:
+        - アナタ
+        - の
+        - 眼
+        - ん
+        - 中
+        - 映ってる
+        ro:
+        - anata
+        - no
+        - me
+        - n
+        - naka
+        - utsutteru
+        ww:
+        - w: you
+          d: 貴方
+        - w: "'s"
+          d: の
+        - w: eye
+          d: 眼
+        - w: "'s"
+          d: ん
+        - w: within
+          d: 中
+        - w: being reflected
+          d: 映ってる
+        - d: 貴方の眼ん中映ってる
+        en:
+        - Reflected in your eyes
+      - ol:
+        - アタシ
+        - を
+        - どうぞ
+        - よく
+        - 見せて
+        ro:
+        - atachi
+        - o
+        - doozo
+        - yoku
+        - misete
+        ww:
+        - w: me
+          d: アタシ
+        - w: ' '
+          d: を
+        - w: (please)
+          d: どうぞ
+        - w: nice
+          d: よく
+        - w: make .. look
+          d: 見 せて
+        - d: アタシをどうぞよく見せて
+        en:
+        - Make me look good.
+      - ol:
+        - ⼀番
+        - 輝いている
+        - 筈
+        - だから
+        - なんて
+        ro:
+        - ichiban
+        - kagaiteiru
+        - hazu
+        - dakara
+        - nante
+        ww:
+        - w: most
+          d: 一番
+        - w: shine
+          d: 輝いている
+        - w: should (be)
+          d: 筈
+        - w: because
+          d: だから
+        - w: (?)
+          d: なんて
+        - d: 一番輝いている筈だからなんて
+        en:
+        - Because I'm supposed to shine the brightest, just kidding.
+    - lines:
+      - ol:
+        - 稚拙な
+        - ワード
+        - で
+        - 御免
+        - ね
+        ro:
+        - chisetsuna
+        - waado
+        - de
+        - gomen
+        - ne
+        en:
+        - Sorry for my clumsy words
+      - ol:
+        - たま
+        - に
+        - は
+        - いい
+        - でしょ
+        - 許
+        - して
+        ro:
+        - tama
+        - ni
+        - wa
+        - ii
+        - desho
+        - moto
+        - shite
+        en:
+        - But it's okay sometimes, right? Forgive me.
+      - ol:
+        - 思考的
+        - ロック
+        - ばかり
+        - じゃ
+        ro:
+        - shikooteki
+        - rokku
+        - bakari
+        - ja
+        en:
+        - If it's always intellectual rock,
+      - ol:
+        - 飽きちゃう
+        - でしょう
+        - ？
+        ro:
+        - akichau
+        - deshau
+        - ?
+        en:
+        - You get bored, don't you?
+    - lines:
+      - ol:
+        - アタシ
+        - を
+        - アタシ
+        - たらしめる
+        - もの
+        ro:
+        - atashi
+        - o
+        - atashi
+        - natoshimeru
+        - mono
+        en:
+        - What makes me who I am
+      - ol:
+        - 疑う
+        - 余地
+        - も
+        - ない
+        - わ
+        ro:
+        - utagau
+        - yoshi
+        - mo
+        - nai
+        - wa
+        en:
+        - There's no room for doubt.
+    - lines:
+      - ol:
+        - Please breathe me in
+      - ol:
+        - Breathe me shout! oh oh!
+      - ol:
+        - ⼼
+        - が
+        - ⾛り出したく
+        - なっちゃう
+        - くらい
+        - に
+        ro:
+        - kokoro
+        - ga
+        - hashiridashitaku
+        - natchau
+        - kurai
+        - ni
+        en:
+        - To the point where my heart wants to start running,
+      - ol:
+        - 夢の
+        - まま
+        - 終われない
+        - よ
+        ro:
+        - yumeno
+        - mama
+        - owarenai
+        - yo
+        en:
+        - I can't let this end as just a dream.
+      - ol:
+        - 本気で
+        - キテ
+        - bring it on!
+        ro:
+        - honkide
+        - kite
+        - ''
+        en:
+        - Come at me for real, bring it on!
+      - ol:
+        - Fly over! Wanna beeee!!!!
+    - lines:
+      - ol:
+        - アタシ
+        - の
+        - 眼ん
+        - 中
+        - 映ってる
+        ro:
+        - atashi
+        - no
+        - men
+        - naka
+        - utsutteru
+        en:
+        - Reflected in your eyes
+      - ol:
+        - アナタ
+        - を
+        - どうぞ
+        - よく
+        - ⾒
+        - せて
+        ro:
+        - anata
+        - o
+        - doozo
+        - yoku
+        - mi
+        - sete
+        en:
+        - Make me look good.
+      - ol:
+        - ⼀番
+        - 輝いている
+        - 筈
+        - だから
+        - なんて
+        ro:
+        - ichiban
+        - kagaiteiru
+        - hazu
+        - dakara
+        - nante
+        en:
+        - Because I'm supposed to shine the brightest, just kidding.
+    - lines:
+      - ol:
+        - 決して
+        - ⼿
+        - を
+        - 抜いた
+        - ん
+        - じゃない
+        - わっ
+        ro:
+        - kesshite
+        - te
+        - o
+        - nuita
+        - n
+        - janai
+        - watsu
+        en:
+        - It's not like I slacked off, okay?
+      - en:
+        - Write it, erase it, write it again.
+      - ol:
+        - 結局
+        - これ
+        - が
+        - 伝えたかった
+        - の
+        - です
+        - かしこ
+        ro:
+        - kekkyoku
+        - kore
+        - ga
+        - tsutaetakatta
+        - no
+        - desu
+        - kashiko
+        en:
+        - In the end, this is what I wanted to say. Sincerely yours.
+    - lines:
+      - ol:
+        - 吸い
+        - も
+        - sai
+        - ⽢い
+        - music music
+        ro:
+        - も
+        - mo
+        - amai
+        - mo
+        - ''
+        en:
+        - The sweet and the bitter, music, music,
+      - ol:
+        - 奏でろ
+        - アタシ
+        - の
+        - イノセンス
+        ro:
+        - kanadero
+        - atashi
+        - no
+        - inosensu
+        en:
+        - Play it—my innocence.
+    - lines:
+      - ol:
+        - You found me,
+      - ol:
+        - Now I stay here today oh oh
+      - ol:
+        - チート級
+        - の
+        - 愛
+        - で
+        - オーバー
+        - ドライブ
+        ro:
+        - chiitokyuu
+        - no
+        - ai
+        - de
+        - oobaa
+        - doraibu
+        en:
+        - Overdrive with cheat-grade love
+      - ol:
+        - 駆け抜けろ
+        - 時代
+        - を
+        ro:
+        - kakenukero
+        - jidai
+        - o
+        en:
+        - Run through the times.
+      - ol:
+        - Don't think, feel!
+      - ol:
+        - これ
+        - ⾔いたかった
+        ro:
+        - kore
+        - iitakatta
+        en:
+        - I just wanted to say that.
+      - ol:
+        - Let's say my name together!
+    - lines:
+      - ol:
+        - 夏休み
+        - が
+        - 終わって
+        - も
+        ro:
+        - natsuyasumi
+        - ga
+        - owatte
+        - mo
+        en:
+        - Even after the summer vacation is over.
+      - ol:
+        - 終わりたくない
+        - ⻘春
+        - が
+        - 此処に
+        - ある
+        - の
+        ro:
+        - owaritakunai
+        - seishun
+        - go
+        - kokoni
+        - aru
+        - no
+        en:
+        - I have a youth here that I don't want to end.
+    - lines:
+      - ol:
+        - ⾒失いそう
+        - な
+        - 時
+        - は
+        ro:
+        - miushinaisou
+        - na
+        - tosa
+        - wa
+        en:
+        - When I feel like I’m losing my way,
+      - ol:
+        - If you sing for me,
+      - ol:
+        - I can stay strong no matter what.
+    - lines:
+      - ol:
+        - Please breathe me in
+      - ol:
+        - Breathe me shout! oh oh!
+      - ol:
+        - 光
+        - を
+        - 集めて
+        - 起こせ
+        - 科学
+        - 反応
+        ro:
+        - hikari
+        - o
+        - atsumete
+        - okise
+        - kagaku
+        - hannoo
+        en:
+        - Collect light and create scientific reactions.
+      - ol:
+        - 夢のまた夢
+        - じゃない
+        - よ
+        ro:
+        - yumenomatayume
+        - janai
+        - yo
+        en:
+        - It's not just a dream.
+      - ol:
+        - 叶いそう
+        - な
+        - 気
+        - が
+        - する
+        - んだ
+        ro:
+        - kanaisoo
+        - na
+        - ki
+        - ga
+        - suru
+        - nda
+        en:
+        - I feel like it could really come true.
+      - ol:
+        - Fly over! Wanna beeee!!!!
+    - lines:
+      - ol:
+        - Please breathe me in
+      - ol:
+        - Breathe me shout! oh oh!
+      - ol:
+        - Please breathe me in
+      - ol:
+        - Breathe me shout! oh oh!
+      - ol:
+        - これ
+        - が
+        - アタシ達
+        - です
+        ro:
+        - kore
+        - ga
+        - atashitachi
+        - desu
+        en:
+        - This is who we are.
+      - ol:
+        - Let's say my name together!
+
+- postx:
+    id: 1948333854063841769
+    account: natsu08_guitar
+    label: Rehearsal
+    published-date: 2025-07-24
+    text: |-
+      GoPro第二弾！！
+      
+      ”Dreams!!!!”
+      
+      今回はボディ側から撮ってみたよん🎥
+      前回の画角とどっちが好き〜？？？
+      
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+    part-of:
+      song: dreams
+
+- postxvideo:
+    post: 1948333854063841769
+    id: 01
+    label: Rehearsal
+    info: from the solo, Natsu
+    published-date: 2025-07-24
+    cover: 1948333660677251072/img/wDoQ8wtIjTp9gPJ5.jpg
+    context:
+    - song: dreams
+    part-of:
+      postx: 1948333854063841769
+
+- postyoutube:
+    id: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+    account: neki_official
+    published-date: 2024-06-03
+    label: announcement
+    text: |-
+      新曲「Dreams!!!!」
+      本日12/11(水)0時より楽曲配信スタート🎧
+      
+      楽曲配信はこちら▼
+      https://ssm.lnk.to/Dreams_
+      
+      
+      New song "Dreams!!!!"
+      Song distribution starts from 12/11(Wed.) 0:00!
+      Click here to download the song
+      https://ssm.lnk.to/Dreams_
+    image:
+    - Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
+    todo: double check published-date with post X
+    part-of:
+      song: dreams
+
+- postyoutubeimage:
+    post: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+    id: Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
+    label: cover
+    published-date: 2024-06-03
+    local-copy: true
+    context:
+    - song: dreams
+    part-of:
+      postyoutube: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+
+- youtubeshort:
+    id: 2S64RS8McUU
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-04-26
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubeshort:
+    id: 589kXdONCDo
+    label: Teaser
+    published-date: 2025-03-04
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubeshort:
+    id: Ejlq5EiRWO4
+    label: Music Video
+    info: behind the scenes
+    published-date: 2025-05-01
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubeshort:
+    id: GeFi7F99oOw
+    label: Music Video
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubeshort:
+    id: MMCK7gW62zU
+    label: Music Video
+    info: behind the scenes
+    published-date: 2025-03-10
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubeshort:
+    id: QcmApJ-dFgE
+    label: Promo
+    info: studio audio
+    published-date: 2025-02-07
+    context:
+    - song: dreams
+    todo: shibuya eggman ?
+    part-of:
+      song: dreams
+
+- youtubeshort:
+    id: n8e278VpxBo
+    label: MV Reaction
+    info: reacting to the music video
+    published-date: 2025-03-29
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubeshort:
+    id: rnvVMueRDCk
+    label: Music Video
+    info: behind the scenes
+    published-date: 2025-05-17
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubeshort:
+    id: zT_P-TfmG5w
+    label: Music Video
+    info: off-shot, Hika, Natsu
+    published-date: 2025-05-26
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubevideo:
+    id: 0YlW7T5fVZ4
+    label: Official Music Video
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubevideo:
+    id: Vh5saxbTlvE
+    label: Music Video Teaser
+    published-date: 2025-03-04
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+

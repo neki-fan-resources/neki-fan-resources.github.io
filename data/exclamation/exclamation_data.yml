@@ -1,0 +1,40 @@
+- postyoutube:
+    id: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+    account: neki_official
+    published-date: 2024-06-03
+    label: announcement
+    text: |-
+      ◤￣￣￣￣￣￣￣￣￣￣◥
+      　 ！！EPリリース！！
+      ◣＿＿＿＿＿＿＿＿＿＿◢
+      
+      2024/7/24(水)
+      1st EP「EXCLAMAT!ON」リリース決定🎊
+      
+      "エクスクラメーション"と読みます📣
+      
+      詳細はこちらから▼
+      https://note.com/nekiband_jp/n/n323cf...
+      
+      
+      2024/7/24(Wed)
+      We are pleased to announce the release of our 1st EP “EXCLAMAT!ON”!
+      For more information, please click here.
+      https://note.com/nekiband_jp/n/n323cf...
+    image:
+    - yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+    todo: check date
+    part-of:
+      album: exclamation
+
+- postyoutubeimage:
+    post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+    id: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+    label: EP cover
+    published-date: 2024-06-03
+    local-copy: true
+    context:
+    - album: exclamation
+    part-of:
+      postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+

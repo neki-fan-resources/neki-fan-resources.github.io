@@ -1,0 +1,36 @@
+- postx:
+    id: 1961819558362444002
+    account: coco_102
+    label: Thank you
+    published-date: 2025-08-30
+    text: |-
+      NEK!初Zeppワンマンライブ無事終了しましたー！
+      
+      間違いなく人生でいちばんの景色でした！！
+      皆さんのおかげで最高に幸せなドラマー人生です！！
+      
+      メジャーの名に恥じぬようプレイヤーとしてもっと成長するのでこれからも応援よろしくお願いします🙇🏻‍♀️🔥
+      
+      本当にありがとうございました！！
+      
+      #NEKI
+    image:
+    - GznIYpna4AAgbSQ
+    reference:
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6fbYAASFb3
+
+- postximage:
+    post: 1961819558362444002
+    id: GznIYpna4AAgbSQ
+    label: On stage
+    info: Cocoro
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961819558362444002
+

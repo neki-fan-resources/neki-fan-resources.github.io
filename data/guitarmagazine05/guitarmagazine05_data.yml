@@ -1,0 +1,44 @@
+- localimage:
+    media:
+      year: 2025
+      id: guitarmagazine05
+    id: article
+    label: Article
+    published-date: 2025-04-12
+    source:
+      description: Extracted from electronic version
+      url: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
+    part-of:
+      media:
+        year: 2025
+        id: guitarmagazine05
+
+- localimage:
+    media:
+      year: 2025
+      id: guitarmagazine05
+    id: cover
+    label: cover
+    published-date: 2025-01-01
+    source:
+      description: Guitar magazine webpage
+      url: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
+    todo: better published date
+    part-of:
+      media:
+        year: 2025
+        id: guitarmagazine05
+
+- youtubeshort:
+    id: E91CuO-MI1A
+    label: It is out
+    published-date: 2025-04-12
+    context:
+    - media:
+        year: 2025
+        id: guitarmagazine05
+    part-of:
+      media:
+        year: 2025
+        id: guitarmagazine05
+

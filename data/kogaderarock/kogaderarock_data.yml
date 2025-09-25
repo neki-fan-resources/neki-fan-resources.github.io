@@ -1,0 +1,251 @@
+- postx:
+    id: 1904825238870721005
+    account: nekiband_jp
+    label: announcement
+    published-date: 2025-03-26
+    text: |-
+      ⚡️LIVE⚡️
+      
+      4/12(土)開催
+      「下北沢こがでらロックフェスティバル2025」
+      @ 下北沢3会場 
+      
+      NEK!の出演が決定❤️‍🔥
+      
+      チケットはこちら▼
+      https://eplus.jp/kogaderarockfes2025/
+      
+      #NEKI
+    image:
+    - Gm9MdCUbAAAS1Sq
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
+
+- postx:
+    id: 1910962202003275912
+    account: KOGARECORDS
+    label: Thank you
+    info: for performing at the show
+    published-date: 2025-04-10
+    text: |-
+      【下北沢こがでらROCK FESTIVAL 2025】
+      
+      📣  ライブ速報  📣
+      
+      ⏰15:30〜  SHELTER
+      
+      NEK!  ( 
+      @nekiband_jp
+      )
+      
+      ご出演いただきありがとうございました！
+      
+      📸 photo by てる 
+      @ttetteteru
+      
+      
+      #こがでらロック
+    image:
+    - GoUZ_azXwAASE0E
+    - GoUZ_awWwAAkG5D
+    - GoUZ_axWoAA8BKE
+    - GoUZ_awWQAAJLU0
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
+
+- postx:
+    id: 1910979741756399623
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-04-10
+    text: |-
+      下北沢こがでらロックフェスティバル2025
+      @ 下北沢SHELTER
+      
+      ご来場ありがとうございました❣️
+      
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      ＠ Zepp Shinjuku
+      
+      チケットオフィシャル2次先行(抽選)受付中🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #こがでらロック
+    image:
+    - GoUp71yWsAIHbmh
+    - GoUp719WkAAtlRX
+    - GoUp719WUAADyfg
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
+
+- postx:
+    id: 1931999361577463823
+    account: natsu08_guitar
+    label: 195 BPM
+    published-date: 2025-06-09
+    text: |-
+      “Loner”より
+      BPM195のダウンピッキング🎸🎸
+      
+      “Loner”は1Aはこんな感じで2Aで変形するのが好き🐺❤️‍🔥
+      
+      （音質悪いのごめんね🥹🙏🏻特にイヤフォンで聴いたら悪いかも🙇🏻‍♀️）
+      
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
+
+- postximage:
+    post: 1904825238870721005
+    id: Gm9MdCUbAAAS1Sq
+    label: poster
+    published-date: 2025-03-26
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      postx: 1904825238870721005
+
+- postximage:
+    post: 1910962202003275912
+    id: GoUZ_awWQAAJLU0
+    label: on stage
+    info: Hika
+    published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      postx: 1910962202003275912
+
+- postximage:
+    post: 1910962202003275912
+    id: GoUZ_awWwAAkG5D
+    label: on stage
+    info: Kanade
+    published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      postx: 1910962202003275912
+
+- postximage:
+    post: 1910962202003275912
+    id: GoUZ_axWoAA8BKE
+    label: on stage
+    info: from the side, Natsu
+    published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      postx: 1910962202003275912
+
+- postximage:
+    post: 1910962202003275912
+    id: GoUZ_azXwAASE0E
+    label: on stage
+    published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      postx: 1910962202003275912
+
+- postximage:
+    post: 1910979741756399623
+    id: GoUp719WUAADyfg
+    label: sidewalk board
+    published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      postx: 1910979741756399623
+
+- postximage:
+    post: 1910979741756399623
+    id: GoUp719WkAAtlRX
+    label: on stage
+    published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      postx: 1910979741756399623
+
+- postximage:
+    post: 1910979741756399623
+    id: GoUp71yWsAIHbmh
+    label: the band
+    published-date: 2025-04-10
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      postx: 1910979741756399623
+
+- postxvideo:
+    post: 1931999361577463823
+    id: 01
+    label: Live
+    info: 195 BPM, Natsu
+    published-date: 2025-06-09
+    cover: 1931999263166492672/img/WfpdmHQJHaGNaTDp.jpg
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    - song: loner
+    part-of:
+      postx: 1931999361577463823
+
+- youtubeshort:
+    id: 759NyQOQ1yg
+    label: Entry
+    published-date: 2025-04-13
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    todo: song ?
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
+
+- youtubeshort:
+    id: 8JNZl3nO2dM
+    label: Let's play
+    published-date: 2025-04-14
+    context:
+    - song: maze
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
+

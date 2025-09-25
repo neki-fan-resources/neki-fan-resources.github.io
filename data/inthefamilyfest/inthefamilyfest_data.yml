@@ -1,0 +1,95 @@
+- postx:
+    id: 1954845457206624572
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-08-11
+    text: |-
+      ⚡️情報解禁⚡️
+      
+      10/4(土)
+      ZEPHYREN × SHIBUYA THE GAME presents
+      『In The Family FEST 2025』
+      
+      📍 渋谷6会場サーキット開催
+      
+      NEK!の出演が決定いたしました💥
+      
+      チケット一般発売中▼
+      🔗https://t.livepocket.jp/e/itff2025
+      
+      #NEKI
+    image:
+    - GyEBiwJaAAAVDe8
+    - GyEBiwTbAAA-nJp
+    part-of:
+      postximage:
+        post: 1954845457206624572
+        image: GyEBiwJaAAAVDe8
+
+- postx:
+    id: 1964992098836664505
+    account: SHIBUYATHEGAME
+    label: Schedule
+    published-date: 2025-09-08
+    text: |-
+      ╭━━━━━━━━━━━╮
+      \⏰タイムテーブル発表!!⏰/
+      ╰━━━━━ｖ━━━━━╯
+      10.04(SAT)
+      ZEPHYREN × SHIBUYA THE GAME presents
+      『In The Family FEST 2025』
+      
+      🏃‍渋谷のライブハウスを全力で駆け抜けて下さい!!🏃‍
+      
+      🎫TICKET一般発売中!!
+      ➡️http://t.livepocket.jp/e/itff2025
+      
+      #ITFF2025
+    image:
+    - G0UH9XuaEAEOX-x
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+
+- postximage:
+    post: 1954845457206624572
+    id: GyEBiwJaAAAVDe8
+    label: Poster
+    published-date: 2025-08-11
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+
+- postximage:
+    post: 1954845457206624572
+    id: GyEBiwTbAAA-nJp
+    label: Poster NEK!
+    published-date: 2025-08-11
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+
+- postximage:
+    post: 1964992098836664505
+    id: G0UH9XuaEAEOX-x
+    label: Schedule
+    published-date: 2025-09-08
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1964992098836664505
+

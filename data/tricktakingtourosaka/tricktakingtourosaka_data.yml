@@ -1,0 +1,43 @@
+- youtubeshort:
+    id: CCDQdwNBias
+    label: Show
+    info: huddle
+    published-date: 2025-03-08
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourosaka
+
+- youtubeshort:
+    id: DRODkWCbwu0
+    label: Before
+    info: leaving for the tour
+    published-date: 2025-03-04
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    todo: should go on the tour element ?
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourosaka
+
+- youtubeshort:
+    id: bIMpGBpQaRE
+    label: Before
+    info: lunch
+    published-date: 2025-03-11
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourosaka
+

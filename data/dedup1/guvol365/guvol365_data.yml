@@ -1,0 +1,41 @@
+- postx:
+    id: 1838488577052913969
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-09-24
+    text: |-
+      💫本日!!!💫
+      
+      Girl's UP!!! vol.365
+      
+      IrisaVior
+      NEK!
+      EMANON
+      LUMiRiSE
+      ※水谷若葉は体調不良の為、出演キャンセルになりました。
+      
+      OPEN 18:30
+      START 19:00 
+      当日券 ￥3,000（+1D）  
+      
+      ご来場お待ちしております！
+    image:
+    - GYOeP9EbAAAVpUJ
+    part-of:
+      show:
+        year: 2024
+        id: guvol365
+
+- postximage:
+    post: 1838488577052913969
+    id: GYOeP9EbAAAVpUJ
+    label: sidewalk board
+    published-date: 2024-09-24
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol365
+    part-of:
+      postx: 1838488577052913969
+

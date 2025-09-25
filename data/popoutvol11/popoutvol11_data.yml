@@ -1,0 +1,52 @@
+- postx:
+    id: 1780522894059299287
+    account: lastlamp_band
+    label: announcement
+    published-date: 2024-04-17
+    text: |-
+      🔥主催ライブ解禁🔥
+      
+      2024.6.7(金) 六本木unravel tokyo 
+      ラストランプpresents. 
+      『POP OUT!!vol.11』
+      
+      【GUEST】
+      ✨Risky Melody
+      ✨NEK!
+      ✨unSea
+      ✨小原涼
+      
+      OPEN/START 18:10/18:30
+      
+      🎫4/18 18:00予約開始
+      https://tiget.net/events/314471
+      
+      豪華アーティスト様にご出演いただきます！
+      
+      久しぶりのPOP OUT!!でなんと...
+      
+      ・新曲初披露！
+      ・重大発表あり！
+      
+      絶対にお待ちしております🔥
+      #ラストランプ
+    image:
+    - GLWvKs8bYAAHJQF
+    part-of:
+      show:
+        year: 2024
+        id: popoutvol11
+
+- postximage:
+    post: 1780522894059299287
+    id: GLWvKs8bYAAHJQF
+    label: poster
+    published-date: 2024-04-17
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
+    part-of:
+      postx: 1780522894059299287
+

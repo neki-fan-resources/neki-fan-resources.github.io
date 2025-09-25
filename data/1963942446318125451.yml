@@ -1,0 +1,36 @@
+- postx:
+    id: 1963942446318125451
+    account: coco_102
+    label: Wider sound from toms and kick drums
+    published-date: 2025-09-05
+    text: |-
+      タムとかキックの反響がいつもより広いからすごく気持ちよかった😌🥁💚
+    image:
+    - G0FTKPDa0AAaKht
+    - G0FTKPAaMAAP9kZ
+
+- postximage:
+    post: 1963942446318125451
+    id: G0FTKPAaMAAP9kZ
+    label: Drum kit
+    published-date: 2025-09-05
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1963942446318125451
+
+- postximage:
+    post: 1963942446318125451
+    id: G0FTKPDa0AAaKht
+    label: At the drums
+    info: Cocoro, before the show
+    published-date: 2025-09-05
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1963942446318125451
+

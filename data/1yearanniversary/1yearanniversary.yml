@@ -1,0 +1,11 @@
+event:
+  id: 1yearanniversary
+  cover-image:
+    localimage:
+      event: siteimages
+      id: nekilogo
+  label: 1 year anniversary
+  date: 2025-02-10
+  multimedia:
+    short:
+    - youtubeshort: WI3yV-zKqMU

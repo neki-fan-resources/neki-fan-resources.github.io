@@ -1,0 +1,40 @@
+- postx:
+    id: 1841384260705624302
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-10-02
+    text: |-
+      🎈本日🎈
+      
+      Girl's UP!!! vol.366
+      
+      エイアイカ
+      EMANON
+      浮迷夜
+      NEK!
+      ミーマイナー
+      
+      OPEN 18:00 / START 18:35
+      TICKET ￥3,000-(+1D)
+      
+      ※水谷若葉さんが体調不良で出演キャンセルになりました
+    image:
+    - GY3ocH3bcAALiWN
+    part-of:
+      show:
+        year: 2024
+        id: guvol366
+
+- postximage:
+    post: 1841384260705624302
+    id: GY3ocH3bcAALiWN
+    label: sidewalk board
+    published-date: 2024-10-02
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol366
+    part-of:
+      postx: 1841384260705624302
+

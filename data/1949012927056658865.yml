@@ -1,0 +1,30 @@
+- postx:
+    id: 1949012927056658865
+    account: coco_102
+    label: Live Fool
+    published-date: 2025-07-26
+    text: |-
+      Fool❤️‍🔥
+      
+      9曲目だからもう汗がすごい笑 首が光り輝いてますね
+      ライブはいい運動！！明日も汗かきまくるぞー👊🏻💦
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+
+- postxvideo:
+    post: 1949012927056658865
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-07-26
+    cover: 1949012819019792384/img/cTaeF8m3YXr13Zvo.jpg
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: fool
+    part-of:
+      postx: 1949012927056658865
+

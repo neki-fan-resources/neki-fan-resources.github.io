@@ -1,0 +1,43 @@
+- postx:
+    id: 1887340383576989716
+    account: Wisteria_tokyo
+    label: today
+    published-date: 2025-02-06
+    text: |-
+      【🎉ついに本日 #セトフリ 開催🎉】
+      
+      2025.2.6(木) SHIBUYA FOWS
+      『Set All Free!!』
+      
+      w/
+      NEK!
+      LOT SPiRiTS
+      Are Square
+      Creffy (O.A)
+      
+      🎫当日券アリ！
+      当日券/¥3,500(+1D)
+      
+      #セトフリ 限定グッズも…🛒
+      
+      ご来場お待ちしております☀️
+    image:
+    - GjEuEpVbIAMzRlC
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+
+- postximage:
+    post: 1887340383576989716
+    id: GjEuEpVbIAMzRlC
+    label: poster
+    published-date: 2025-02-06
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: setallfree
+    part-of:
+      postx: 1887340383576989716
+

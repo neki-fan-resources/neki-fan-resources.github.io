@@ -1,0 +1,38 @@
+- postx:
+    id: 1962461001246502990
+    account: nekiband_jp
+    label: Schedule
+    published-date: 2025-09-01
+    text: |-
+      ⚡️タイムテール公開⚡️
+      
+      11/18(火)出演
+      「”The Theory of SCIENCE"～Shinjuku club SCIENCE 10th Anniversary ～」
+      
+      NEK!の出演は@ CLUB SCIENCE 
+      19:15~🔥
+      
+      お待ちしております！
+      
+      🎟️https://t.livepocket.jp/e/npe57
+      
+      #NEKI
+    image:
+    - GzwPpOzbcAEE3jO
+    reference:
+    - postximage:
+        post: 1961987308070240564
+        image: GzktTajbkAAtiOe
+
+- postximage:
+    post: 1962461001246502990
+    id: GzwPpOzbcAEE3jO
+    label: Bands poster
+    published-date: 2025-09-01
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1962461001246502990
+

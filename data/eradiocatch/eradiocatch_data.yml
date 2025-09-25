@@ -1,0 +1,41 @@
+- localimage:
+    media:
+      year: 2025
+      id: eradiocatch
+    id: cover
+    label: Cover
+    published-date: 2025-06-25
+    source:
+      description: Radiko webpage
+      url: 'https://radiko.jp/#!/ts/E-RADIO/20250625140000'
+    part-of:
+      media:
+        year: 2025
+        id: eradiocatch
+
+- postx:
+    id: 1937893514588938621
+    account: 46_hikaa
+    label: Remote appearance
+    published-date: 2025-06-25
+    text: |-
+      初のリモート出演楽しかった‼️
+    image:
+    - GuTH4QhbcAAsg-3
+    part-of:
+      media:
+        year: 2025
+        id: eradiocatch
+
+- postximage:
+    post: 1937893514588938621
+    id: GuTH4QhbcAAsg-3
+    label: Remote appearance
+    published-date: 2025-06-25
+    context:
+    - media:
+        year: 2025
+        id: eradiocatch
+    part-of:
+      postx: 1937893514588938621
+

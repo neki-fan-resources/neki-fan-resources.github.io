@@ -1,0 +1,27 @@
+- postx:
+    id: 1953025441515921602
+    account: cure_bass_baka
+    label: rip-off intro
+    published-date: 2025-08-06
+    text: |-
+      『rip-off／NEK!』初めて披露した日。
+      短くてごめんねだけど、スラップとドラム聞いて欲しい！
+      #NEKI  #拡散中 #ネキ界隈
+    video:
+    - 01
+
+- postxvideo:
+    post: 1953025441515921602
+    id: 01
+    label: Live
+    info: Kanade
+    published-date: 2025-08-06
+    cover: 1953025374969053185/img/P--PvgqmeRfaZQUp.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: ripoff
+    part-of:
+      postx: 1953025441515921602
+

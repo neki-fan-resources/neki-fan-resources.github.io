@@ -1,0 +1,285 @@
+- postx:
+    id: 1766243435357561130
+    account: famime_rock
+    label: all the artists
+    published-date: 2024-03-09
+    text: |-
+      🔥本日開催🔥
+      
+      3月9日(土) 下北沢10会場
+      🌹LUPINUS ROCK FESTIVAL🌹
+      
+      ✋ 当日券、出せます！
+      #ルピナスロック 4年目にして初…
+      ￥5400(D代別) ※下北沢ReGにて11:00から販売開始
+      
+      総勢108組の極上ライブが下北沢で同時多発🔥
+      
+      これだけいて全部強い！
+      怒涛の108組はこのアーティスト！
+      ⬇️⬇️⬇️
+      
+      カノエラナ 
+      @kanoerana7
+      
+      藤田恵名&ゆーやん 
+      @fujitaenamel
+      
+      神使轟く、激情の如く。 
+      @shingeki_rock
+      
+      ЯeaL 
+      @realofficial_12
+      
+      優利香 
+      @N14Yrk
+      
+      Bitter&Sweet 
+      @BandS_team
+      
+      日乃まそら 
+      @msrir512
+      
+      Disconnect Cendrillon 
+      @mino_Re_roll
+      
+      てのひらえる 
+      @tenohirael_info
+      
+      川音 希 
+      @kawaotonozomi
+      
+      KOU 
+      @kou_aka_rani
+      
+      Riju 
+      @Rijuriju0205
+      
+      CHERRY GIRLS PROJECT 
+      @cgp_db
+      
+      ちょこはち 
+      @chocol8band
+      
+      SOMOSOMO 
+      @SOMO2_official
+      
+      KONSOME+ 
+      @moemi_konsome
+      
+      シュガーパレード 
+      @sugar_parade
+      
+      MAZE 
+      @maze_idol
+      
+      強くてニューゲーム。 
+      @tsuyonew_24
+      
+      FrozeN CakE BaR 
+      @FrozenCakeBar
+      
+      RED-i 
+      @RED_RED_RED_i
+      
+      mistress 
+      @mistress_RL
+      
+      YOLOZ 
+      @YOLOZ_info
+      
+      かんのじゅリ。 
+      @juri_117
+      
+      Pulse of Humanity 
+      @PulseOfHumanity
+      
+      初音 
+      @hatsune1011
+      
+      必殺エモモモモ7 
+      @emo7official
+      
+      PLEVAIL 
+      @_PLEVAIL_
+      
+      82回目の終身刑 
+      @82_shushinkei
+      
+      DaNNY 
+      @akinko_danny
+      
+      GANGDEMIC 
+      @gangdemic_info
+      
+      POPPiNG EMO 
+      @popping_emo
+      
+      WtB 
+      @WhotheBitch
+      
+      KILLT MELT LAND 
+      @KILLTMELTLAND
+      
+      仮面女子 
+      @Kamenjoshi_Info
+      
+      8bitBRAIN 
+      @8bitBRAIN_info
+      
+      会心ノ一撃 
+      @KISNnoichigeki
+      
+      ウイバナ @We_BANA
+      IRIS MONDO 
+      @IRIS_MONDO
+      
+      CANDY GO!GO! 
+      @onecandygogo
+      
+      ASH FRAST 
+      @ASH_FRAST
+      
+      Treble 
+      @treble_offi
+      
+      AREINT 
+      @AREINT_jp
+      
+      The Number Zero 
+      @ZeroBand0
+      
+      Finally 
+      @Finally_Rock
+      
+      ストロボサイダー 
+      @kanae_sc
+      
+      妄想レプリカント 
+      @mousoureplicant
+      
+      MARKET SHOP STORE 
+      @marketshopstore
+      
+      momoca
+      AKIARIM
+      IZANAGI
+      Paradox Risk
+      aioi
+      RASCAL CLAN
+      THE+BETH
+      OMG
+      Wisteria
+      Caress Van End
+      AKARA
+      Free Aqua Butterfly
+      絶世のインペリアルコレクション
+      MANACLE
+      #東京花魁物語
+      はちみつBLACK
+      MALLOW BLUE
+      Lion net girl
+      NANONI
+      WORLD WAND WOOD
+      感覚ロヂック
+      カミツキ
+      CASPA
+      LYSM
+      猫の眼に宇宙
+      Cassie Te Light
+      FiDZ
+      ニーキューオメガ
+      CODE OF ZERO X
+      SPICE
+      EMANON
+      ByteSchwarz
+      Ska choco kick
+      Yum!Yum!ORANGE
+      Aqilla
+      ラストランプ
+      Karman
+      Gambit
+      東京ハテナバナナ
+      Buzzer01&.
+      ウタリ
+      太田家
+      バカは死ぬまでなおらない。
+      Mellows
+      AoAu
+      SHACALANDA
+      GUNGIRE
+      Ah ieba köh-iu.
+      リチカ
+      hakumei
+      ALMONDot
+      CASABLANCA
+      シュガースプレー
+      浮迷夜
+      月照ラス
+      IrisaVior
+      セブンス・ベガ
+      The Layers
+      青の流星群
+      NEK!
+      
+      🏡https://famime.net
+    image:
+    - GIL1CWga8AA1ryU
+    - GIL1CWfbYAA9llo
+    - GIL1CWebMAAyx6P
+    - GIL1CWeaoAACz-Y
+    part-of:
+      show:
+        year: 2024
+        id: lupinus2024
+
+- postximage:
+    post: 1766243435357561130
+    id: GIL1CWeaoAACz-Y
+    label: all artist logos
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postx: 1766243435357561130
+
+- postximage:
+    post: 1766243435357561130
+    id: GIL1CWebMAAyx6P
+    label: main venues schedule
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postx: 1766243435357561130
+
+- postximage:
+    post: 1766243435357561130
+    id: GIL1CWfbYAA9llo
+    label: full schedule
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postx: 1766243435357561130
+
+- postximage:
+    post: 1766243435357561130
+    id: GIL1CWga8AA1ryU
+    label: poster
+    info: all the artists
+    published-date: 2024-03-09
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postx: 1766243435357561130
+

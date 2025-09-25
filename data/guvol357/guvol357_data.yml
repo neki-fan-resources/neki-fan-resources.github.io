@@ -1,0 +1,41 @@
+- postx:
+    id: 1807675589555523709
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-07-01
+    text: |-
+      本日！！
+      
+      Girl’s UP!!! vol.357
+      
+      NEK!
+      コウトウマリア
+      Buzzer01&.
+      キラナ
+      水谷若葉
+      ReBoom
+      
+      OPEN 18:15 / START 18:45
+      DOOR 3000yen+1D
+      
+      お待ちしております！
+    image:
+    - GRYmoBmbgAAlnIh
+    part-of:
+      show:
+        year: 2024
+        id: guvol357
+
+- postximage:
+    post: 1807675589555523709
+    id: GRYmoBmbgAAlnIh
+    label: sidewalk board
+    published-date: 2024-07-01
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol357
+    part-of:
+      postx: 1807675589555523709
+

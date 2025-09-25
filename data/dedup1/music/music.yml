@@ -1,0 +1,31 @@
+contentpage:
+  id: music
+  dark: true
+  cover-image:
+    localimage:
+      event: siteimages
+      id: manekineko_cover
+  label: Music
+  display-type: content
+  start-date: 2050-01-01
+  end-date: 2050-01-01
+  description: Information about songs not yet released but already performed.
+  categories: []
+  part-of:
+    group: dedup1
+  content:
+  - song:
+      id: newsong202505
+      dark: true
+  - song:
+      id: songa
+      dark: true
+  - song:
+      id: songb
+      dark: true
+  - song:
+      id: songc
+      dark: true
+  - song:
+      id: songe
+      dark: true

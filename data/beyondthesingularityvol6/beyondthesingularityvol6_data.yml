@@ -1,0 +1,35 @@
+- postx:
+    id: 1798608606579007863
+    account: nekiband_jp
+    label: announcement
+    published-date: 2024-06-06
+    text: |-
+      6/24(月)開催
+      「Beyond The Singularity vol.6」
+      @初台DOORS
+      
+      出演させていただくことが決定しました🎊
+      
+      前売りチケットのご予約はNEK!公式XのDMにお願いいたします📮
+      
+      #NEKI
+    image:
+    - GPXmT9iboAA09Sb
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol6
+
+- postximage:
+    post: 1798608606579007863
+    id: GPXmT9iboAA09Sb
+    label: poster
+    published-date: 2024-06-06
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    part-of:
+      postx: 1798608606579007863
+

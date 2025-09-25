@@ -1,0 +1,146 @@
+- localimage:
+    media:
+      year: 2025
+      id: tokyofmradiodragonnext
+    id: logo
+    label: logo
+    published-date: 2025-01-01
+    source:
+      description: RADIO DRAGON-NEXT- radiko page
+      url: 'https://radiko.jp/#!/ts/FMT/20250503030000'
+    todo: better published date
+    part-of:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+
+- postx:
+    id: 1918253217269596255
+    account: RADIO_DRAGON
+    label: NEK! at TOKYO FM RADIO DRAGON-NEXT-
+    published-date: 2025-05-02
+    text: |-
+      #菅野結以 ちゃん(
+      @Yuikanno
+      )が
+      深夜3時からお届けする #radiodragon 
+      
+      ▼27時台 
+      スペースシャワー：飯塚健斗さん
+      
+      ▼28時台 
+      ゲスト： #NEKI (
+      @nekiband_jp
+        )
+      
+      https://radiko.jp/share/?sid=FMT&t=20250503030000
+      #tokyofm
+    image:
+    - Gp8BIMjawAM-GEH
+    part-of:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+
+- postx:
+    id: 1918254606855074066
+    account: RADIO_DRAGON
+    label: NEK! at TOKYO FM RADIO DRAGON-NEXT-
+    published-date: 2025-05-02
+    text: |-
+      【28時台】
+      今夜のゲストは、
+      去年結成されたばかりの4人組ガールズバンド #NEKI から、
+      Hikaさん、Natsuさんです‼️
+      
+      お二人のルーツや、
+      2nd EP『TR!CK TAK!NG』についてのお話などをお伺いしました✨
+      
+      お楽しみに‼️
+      
+      #radiodragon #TOKYOFM #菅野結以
+    image:
+    - Gp8COrJbsAAsI0n
+    part-of:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+
+- postx:
+    id: 1918392450269548896
+    account: nekiband_jp
+    label: thank you TOKYO FM RADIO DRAGON-NEXT-
+    published-date: 2025-05-02
+    text: |-
+      TOKYO FM「RADIO DRAGON -NEXT-」
+      
+      ご視聴ありがとうございました！
+      
+      8/30(土)開催
+      NEK!初のZEPPワンマン
+      現在オフィシャル2次先行受付中❤️‍🔥
+      
+      チケットはこちら▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #radiodragon #TOKYOFM #radiko
+    image:
+    - Gp9_wtDagAAnCTL
+    part-of:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+
+- postximage:
+    post: 1918253217269596255
+    id: Gp8BIMjawAM-GEH
+    label: host with the EP TR!CK TAK!NG
+    info: 菅野結以 (Yui Kanno)
+    published-date: 2025-05-02
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
+    part-of:
+      postx: 1918253217269596255
+
+- postximage:
+    post: 1918254606855074066
+    id: Gp8COrJbsAAsI0n
+    label: with the host
+    info: Hika, Natsu, 菅野結以 (Yui Kanno)
+    published-date: 2025-05-02
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
+    part-of:
+      postx: 1918254606855074066
+
+- postximage:
+    post: 1918392450269548896
+    id: Gp9_wtDagAAnCTL
+    label: at the station
+    info: Hika, Natsu
+    published-date: 2025-05-02
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
+    part-of:
+      postx: 1918392450269548896
+
+- youtubeshort:
+    id: NNc3Tau8YAY
+    label: AI Beer
+    info: At the time of the recording ?
+    published-date: 2025-04-28
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext
+    part-of:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+

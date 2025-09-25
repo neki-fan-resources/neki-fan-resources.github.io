@@ -1,0 +1,35 @@
+show:
+  year: 2025
+  id: nekikomsumeosaka
+  cover-image:
+    localimage:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+      id: cover
+  fullname: Osaka
+  date: 2025-07-18
+  tour: nekikomsume2025
+  categories:
+  - mainshowtour
+  venue: LIVE SQUARE 2nd LINE
+  todo: event-page
+  multimedia:
+    short:
+    - postxvideo:
+        post: 1949012927056658865
+        video: 01
+    - postxvideo:
+        post: 1947952383473954991
+        video: 01
+    - postxvideo:
+        post: 1947241076508488042
+        video: 01
+    - postxvideo:
+        post: 1946522055312331049
+        video: 01
+    - youtubeshort: zLd-nv4R2Xg
+    image:
+    - postximage:
+        post: 1946195551969849807
+        image: GwJGgUJXcAES7vk

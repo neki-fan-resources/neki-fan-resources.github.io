@@ -1,0 +1,108 @@
+- postx:
+    id: 1770261360938746035
+    account: nekiband_jp
+    label: show today
+    info: with merch info
+    published-date: 2024-03-20
+    text: |-
+      本日3/20(水祝)
+      NEK! 単独フリーライブ
+      @ 渋谷チェルシーホテル
+      
+      ついに開催！！！！
+      物販は各公演終演後におこないます！
+      
+      楽しみすぎ！！！！
+      みなさまのご来場をお待ちしております🏃‍♀️
+      
+      #NEKI
+    image:
+    - GJE7Uu6a4AAdiK5
+    - GJE7UvYbgAAG_3L
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postximage:
+    post: 1770261360938746035
+    id: GJE7Uu6a4AAdiK5
+    label: poster
+    info: handmade
+    published-date: 2024-03-20
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postx: 1770261360938746035
+
+- postximage:
+    post: 1770261360938746035
+    id: GJE7UvYbgAAG_3L
+    label: merch
+    published-date: 2024-03-20
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postx: 1770261360938746035
+
+- youtubeshort:
+    id: Z-ju19kHofg
+    label: Show
+    info: Before the show
+    published-date: 2025-03-27
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- youtubeshort:
+    id: bBhvxwNWh3A
+    label: Live
+    published-date: 2024-03-23
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- youtubeshort:
+    id: gVUFjTcD3B4
+    label: Live
+    published-date: 2024-03-21
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- youtubeshort:
+    id: qR2yF3Jb4r4
+    label: Live
+    published-date: 2024-03-27
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+

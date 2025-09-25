@@ -1,0 +1,26 @@
+mediaaudio:
+  year: 2025
+  id: kissfmkobe
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: kissfmkobe
+      id: cover
+  radio: Kiss FM
+  show: Viva la radio
+  designation: radio show
+  member:
+  - Natsu
+  - Kanade
+  published-date: 2025-07-18
+  host: Skuku Mihoko, Kondo Gakuto
+  program: 'https://radiko.jp/#!/ts/KISSFMKOBE/20250718150000'
+  webpage: 'https://www.kiss-fm.co.jp/viva/'
+  description:
+  - Natsu and Kanade are guest of the show 'Viva la radio' on Kiss FM.
+  multimedia:
+    image:
+    - postximage:
+        post: 1946059859910365569
+        image: GwHLHkEaoAA5dH1

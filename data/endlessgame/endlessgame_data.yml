@@ -1,0 +1,1324 @@
+- lyrics:
+    id: main
+    song: endlessgame
+    part-of:
+      song: endlessgame
+    status:
+      code: warning
+      description: Lyrics from the EP booklet. Translation using jisho.org and Google Gemini.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from EXCLAMAT!ON EP booklet)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from EXCLAMAT!ON EP booklet
+    - id: ro
+      name: rōmaji
+      active: true
+      no-translation: true
+    - id: ww
+      name: word by word translation
+      details: (using jisho.org)
+      base-url: 'https://jisho.org/search/'
+      url-text: J
+    - id: gg
+      name: Google Gemini translation
+      details: (2.0 Flash Experimental), with some manual tweaks.
+    sections:
+    - lines:
+      - ol:
+        - 人間
+        - の
+        - 仮面
+        - を
+        - 被って
+        - ''
+        - 嘘
+        - 吐いている
+        - の
+        - は
+        - だあれ
+        - ?
+        ro:
+        - ningen
+        - no
+        - kamen
+        - o
+        - koomutte
+        - ''
+        - uso
+        - haitteiru
+        - no
+        - wa
+        - daare
+        - ?
+        ww:
+        - w: human
+          d: 人間
+        - w: ('s)
+          d: の
+        - w: mask
+          d: 仮面
+        - w: ''
+          d: を
+        - w: wearing
+          d: 被って
+        - ''
+        - w: lie
+          d: 嘘
+        - w: telling
+          d: 吐いている
+        - w: ('s)
+          d: の
+        - w: ''
+          d: は
+        - w: who?
+          d: だあれ
+        - ?
+        - d: 人間の仮面を被って 嘘吐いているのはだあれ%3f
+        gg:
+        - Who is wearing a human mask, telling lies?
+      - ol:
+        - 優しい
+        - 顔
+        - で
+        - 近づいて
+        - ''
+        - その
+        - 牙
+        - を
+        - 隠してる
+        ro:
+        - yasashii
+        - kao
+        - de
+        - chikadzuite
+        - ''
+        - sono
+        - kiba
+        - o
+        - kakushiteru
+        ww:
+        - w: gentle
+          d: 優しい
+        - w: face
+          d: 顔
+        - w: (with)
+          d: で
+        - w: approaching
+          d: 近づいて
+        - ''
+        - w: that
+          d: その
+        - w: fang
+          d: 牙
+        - w: ''
+          d: を
+        - w: hiding
+          d: 隠してる
+        - d: 優しい顔で近づいて その牙を隠してる
+        gg:
+        - Approaching with a gentle face, hiding their fangs.
+      - ol:
+        - ほら
+        - ね
+        - ''
+        - 君
+        - も
+        - 共犯者
+        - ''
+        - 真実
+        - は
+        - 見えなく
+        - なって
+        ro:
+        - hora
+        - re
+        - ''
+        - kimi
+        - mo
+        - kyoohansha
+        - ''
+        - shinjitsu
+        - wa
+        - mienaku
+        - natte
+        ww:
+        - w: look!
+          d: ほら
+        - w: (will you)
+          d: ね
+        - ''
+        - w: you
+          d: 君
+        - w: also
+          d: も
+        - w: accomplice
+          d: 共犯者
+        - ''
+        - w: the truth
+          d: 真実
+        - w: ''
+          d: は
+        - w: not being seen
+          d: 見えなく
+        - w: become
+          d: なって
+        - d: ほらね 君も共犯者 真実は見えなくなって
+        gg:
+        - Look? You're complicit too, the truth now hidden.
+      - ol:
+        - 腹
+        - の
+        - 底
+        - じゃ
+        - 欲望
+        - が
+        - ''
+        - ドロドロ
+        - と
+        - 渦
+        - を
+        - 巻く
+        ro:
+        - hara
+        - no
+        - soko
+        - ja
+        - yokuboo
+        - ga
+        - ''
+        - dorodoro
+        - to
+        - uzu
+        - o
+        - maku
+        ww:
+        - w: belly
+          d: 腹
+        - w: ('s)
+          d: の
+        - w: depth
+          d: 底
+        - w: (in)
+          d: じゃ
+        - w: desire
+          d: 欲望
+        - w: ''
+          d: が
+        - ''
+        - w: mud
+          d: ドロドロ
+        - w: with
+          d: と
+        - w: swirl
+          d: 渦
+        - w: ''
+          d: を
+        - w: roll
+          d: 巻く
+        - d: 腹の底じゃ欲望が ドロドロと渦を巻く
+        gg:
+        - Deep inside, desires swirl and churn.
+    - lines:
+      - ol:
+        - 裏切り合い
+        - ''
+        - 自分
+        - を
+        - 守りたい
+        ro:
+        - oragiriai
+        - ''
+        - jibun
+        - o
+        - mamoritai
+        ww:
+        - w: betraying each other
+          d: 裏切り合い
+        - ''
+        - w: oneself
+          d: 自分
+        - w: ''
+          d: を
+        - w: protecting
+          d: 守りたい
+        - d: 裏切り合い 自分を守りたい
+        gg:
+        - Betraying each other, protecting yourself
+      - ol:
+        - 誰か
+        - を
+        - 犠牲
+        - に
+        - 生き残る
+        - ため
+        ro:
+        - dareka
+        - o
+        - gisei
+        - ni
+        - ikinokoru
+        - tame
+        ww:
+        - w: someone
+          d: 誰か
+        - w: ''
+          d: を
+        - w: sacrifice
+          d: 犠牲
+        - w: (as)
+          d: に
+        - w: survive
+          d: 生き残る
+        - w: (in order to)
+          d: ため
+        - d: 誰かを犠牲に生き残るため
+        gg:
+        - sacrifying someone else to survive
+    - lines:
+      - ol:
+        - 安定
+        - 信仰
+        - ぶち壊せ
+        - ''
+        - 勝負
+        - を
+        - かけろ
+        ro:
+        - antei
+        - shinkoo
+        - buchikowase
+        - ''
+        - shoobu
+        - o
+        - kakero
+        ww:
+        - w: stability
+          d: 安定
+        - w: belief
+          d: 信仰
+        - w: destroy
+          d: ぶち壊せ
+        - ''
+        - w: contest
+          d: 勝負
+        - w: ''
+          d: を
+        - w: wager
+          d: かけろ
+        - d: 安定信仰ぶち壊せ 勝負をかけろ
+        gg:
+        - Smash the blind faith, take a gamble!
+      - ol:
+        - 完全犯罪
+        - 笑う
+        - のは
+        - ''
+        - 敵
+        - か
+        - 味方
+        - か
+        - ?
+        ro:
+        - kanzenhanzai
+        - warau
+        - nowa
+        - ''
+        - teki
+        - ka
+        - mikata
+        - ka
+        - ?
+        ww:
+        - w: perfect crime
+          d: 完全犯罪
+        - w: laugh
+          d: 笑う
+        - w: the one
+          d: のは
+        - ''
+        - w: rival
+          d: 敵
+        - w: or
+          d: か
+        - w: ally
+          d: 味方
+        - w: or
+          d: か
+        - ?
+        - d: 完全犯罪笑うのは 敵か味方か%3f
+        gg:
+        - Who's laughing at the perfect crime? friend or foe?
+      - ol:
+        - 夜
+        - は
+        - また
+        - 更けてゆく
+        - ''
+        - さあ
+        - 化けの皮
+        - を
+        - 剥がす
+        - まで
+        ro:
+        - yoru
+        - wa
+        - mata
+        - fuketeyuku
+        - ''
+        - saa
+        - bakenokawa
+        - o
+        - hagasu
+        - made
+        ww:
+        - w: night
+          d: 夜
+        - w: ''
+          d: は
+        - w: again
+          d: また
+        - w: advance
+          d: 更けてゆく
+        - ''
+        - w: now
+          d: さあ
+        - w: disguise
+          d: 化けの皮
+        - w: ''
+          d: を
+        - w: peel off
+          d: 剥がす
+        - w: until
+          d: まで
+        - d: 夜はまた更けてゆく さあ化けの皮を剥がすまで
+        gg:
+        - The night deepens again, until we peel off the disguise
+      - ol:
+        - 朝
+        - が
+        - きて
+        - 繰り返す
+        - ''
+        - 終わらない
+        - エンドレスゲーム
+        ro:
+        - asa
+        - ga
+        - kite
+        - kurikaesu
+        - ''
+        - owaranai
+        - endoresugeemu
+        ww:
+        - w: morning
+          d: 朝
+        - w: ''
+          d: が
+        - w: coming
+          d: きて
+        - w: over again
+          d: 繰り返す
+        - ''
+        - w: not ending
+          d: 終わらない
+        - w: endlessgame
+          d: エンドレスゲーム
+        - d: 朝がきて繰り返す 終わらないエンドレスゲーム
+        gg:
+        - Morning comes, repeating an eternal endlessgame
+    - lines:
+      - ol:
+        - どうせ
+        - 人
+        - は
+        - 残酷
+        - で
+        - ''
+        - 最後
+        - には
+        - 見放す
+        - なんて
+        ro:
+        - doose
+        - hito
+        - wa
+        - zankoku
+        - de
+        - ''
+        - saigo
+        - niwa
+        - mihanasu
+        - nante
+        ww:
+        - w: after all
+          d: どうせ
+        - w: person
+          d: 人
+        - w: ''
+          d: は
+        - w: cruel
+          d: 残酷
+        - w: ''
+          d: で
+        - ''
+        - w: end
+          d: 最後
+        - w: (emphasis)
+          d: には
+        - w: abandon
+          d: 見放す
+        - w: (negative emotion)
+          d: なんて
+        - d: どうせ人は残酷で 最後には見放すなんて
+        gg:
+        - After all, people are cruel, they will abandon you at the end
+      - ol:
+        - 悲しい
+        - 洗脳
+        - に
+        - 染まって
+        - 諦めて
+        - 生きたくない
+        ro:
+        - kanashii
+        - sennoo
+        - ni
+        - somatte
+        - akiramete
+        - ikitakunai
+        ww:
+        - w: sad
+          d: 悲しい
+        - w: brainwashing
+          d: 洗脳
+        - w: by
+          d: に
+        - w: being tainted
+          d: 染まって
+        - w: giving up
+          d: 諦めて
+        - w: don't want living
+          d: 生きたくない
+        - d: 悲しい洗脳に染まって諦めて生きたくない
+        gg:
+        - I don't want to live giving up, tainted by this sad brainwashing.
+    - lines:
+      - ol:
+        - 「
+        - こんな
+        - 時代
+        - 」
+        - ''
+        - イカサマ
+        - だらけ
+        - で
+        ro:
+        - '"'
+        - konna
+        - jidai
+        - '"'
+        - ''
+        - ikasama
+        - darake
+        - de
+        ww:
+        - '"'
+        - w: this kind of
+          d: こんな
+        - w: era
+          d: 時代
+        - '"'
+        - ''
+        - w: scams
+          d: イカサマ
+        - w: full of
+          d: だらけ
+        - w: with
+          d: で
+        - d: 「こんな時代」 イカサマだらけで
+        gg:
+        - '"This era" is full of scams'
+      - ol:
+        - それでも
+        - 誰
+        - か
+        - を
+        - 信じたい
+        - から
+        ro:
+        - soredemo
+        - dare
+        - ka
+        - o
+        - shinjitai
+        - kara
+        ww:
+        - w: nevertheless
+          d: それでも
+        - w: who
+          d: 誰
+        - w: ''
+          d: か
+        - w: ''
+          d: を
+        - w: want to believe
+          d: 信じたい
+        - w: since
+          d: から
+        - d: それでも誰かを信じたいから
+        gg:
+        - But still, I want to believe in someone
+    - lines:
+      - ol:
+        - 正真正銘
+        - ''
+        - 僕
+        - だって
+        - 神
+        - に
+        - 誓って
+      - ro:
+        - shooshinshoomei
+        - ''
+        - boku
+        - datte
+        - kami
+        - ni
+        - chikatte
+        ww:
+        - w: genuine
+          d: 正真正銘
+        - ''
+        - w: me
+          d: 僕
+        - w: even
+          d: だって
+        - w: god
+          d: 神
+        - w: by
+          d: に
+        - w: upon my word
+          d: 誓って
+        - d: 正真正銘 僕だって神に誓って
+        gg:
+        - Truly, even I, swearing to gods
+      - ol:
+        - 清廉潔白
+        - ''
+        - 「
+        - 無実
+        - だ
+        - 」
+        - と
+        - 言い切れる
+        - の
+        - か
+        - ?
+        ro:
+        - seirenkeppaku
+        - ''
+        - '"'
+        - mujitsu
+        - da
+        - '"'
+        - to
+        - iikireru
+        - no
+        - ka
+        - ?
+        ww:
+        - w: absolute honesty
+          d: 清廉潔白
+        - ''
+        - '"'
+        - w: innocence
+          d: 無実
+        - w: be
+          d: だ
+        - '"'
+        - w: also
+          d: と
+        - w: declaring
+          d: 言い切れる
+        - d: の
+        - d: か
+        - ?
+        - d: 清廉潔白 「無実だ」と言い切れるのか%3f
+        gg:
+        - Can I call myself completely innocent?
+      - ol:
+        - 間違い
+        - を
+        - 問い詰めて
+        - ''
+        - 疑う
+        - ばかり
+        - じゃ
+        - 進めない
+        ro:
+        - machigai
+        - o
+        - toitsumete
+        - ''
+        - utagau
+        - bakari
+        - ja
+        - susumenai
+        ww:
+        - w: mistakes
+          d: 間違い
+        - d: を
+        - w: is questioned
+          d: 問い詰めて
+        - ''
+        - w: doubting
+          d: 疑う
+        - w: only
+          d: ばかり
+        - w: then
+          d: じゃ
+        - w: cannot move forward
+          d: 進めない
+        - d: 間違いを問い詰めて 疑うばかりじゃ進めない
+        gg:
+        - Questioning mistakes, only doubting won't get us anywhere.
+      - ol:
+        - そこ
+        - に
+        - 何
+        - が
+        - 残る
+        - の
+        - ?
+        - ''
+        - いたずらな
+        - ホープレスゲーム
+        ro:
+        - soko
+        - ni
+        - nani
+        - ga
+        - nokoru
+        - no
+        - ?
+        - ''
+        - itazurana
+        - hoopuresugeemu
+        ww:
+        - w: there
+          d: そこ
+        - w: ''
+          d: に
+        - w: what
+          d: 何
+        - w: ''
+          d: が
+        - w: be left
+          d: 残る
+        - w: ('s)
+          d: の
+        - ?
+        - ''
+        - w: pointless
+          d: いたずらな
+        - w: hopelessgame
+          d: ホープレスゲーム
+        - d: そこに何が残るの%3f いたずらなホープレスゲーム
+        gg:
+        - What remains there? A pointless, hopeless game.
+    - lines:
+      - ol:
+        - You believe me now?
+      - ol:
+        - 本当に
+        - 恐ろしい
+        - のは
+        ro:
+        - hontooni
+        - osoroshii
+        - nowa
+        ww:
+        - w: truly
+          d: 本当に
+        - w: terrifying
+          d: 恐ろしい
+        - w: the one
+          d: のは
+        - d: 本当に恐ろしいのは
+        gg:
+        - What is truly terrifying?
+      - ol:
+        - You believe me now?
+      - ol:
+        - 狼
+        - か
+        - 人間
+        - の
+        - 方
+        - か
+        - ?
+        ro:
+        - ookami
+        - ka
+        - ningen
+        - no
+        - kata
+        - ka
+        - ?
+        ww:
+        - w: wolf
+          d: 狼
+        - w: (or)
+          d: か
+        - w: human
+          d: 人間
+        - w: ('s)
+          d: の
+        - w: type
+          d: 方
+        - w: ''
+          d: か
+        - ?
+        - d: 狼か人間の方か%3f
+        gg:
+        - Is it the wolf, or the human?
+    - lines:
+      - ol:
+        - 「
+        - こんな
+        - 時代
+        - 」
+        - ''
+        - イカサマ
+        - だらけ
+        - で
+        ro:
+        - '"'
+        - konna
+        - jidai
+        - '"'
+        - ''
+        - ikasama
+        - darake
+        - de
+        ww:
+        - '"'
+        - w: this kind of
+          d: こんな
+        - w: era
+          d: 時代
+        - '"'
+        - ''
+        - w: scams
+          d: イカサマ
+        - w: full of
+          d: だらけ
+        - w: with
+          d: で
+        - d: 「こんな時代」 イカサマだらけで
+        gg:
+        - '"This era" is full of scams'
+      - ol:
+        - それでも
+        - 誰
+        - か
+        - を
+        - 信じたい
+        - から
+        ro:
+        - soredemo
+        - dare
+        - ka
+        - o
+        - shinjitai
+        - kara
+        ww:
+        - w: nevertheless
+          d: それでも
+        - w: who
+          d: 誰
+        - w: ''
+          d: か
+        - w: ''
+          d: を
+        - w: want to believe
+          d: 信じたい
+        - w: since
+          d: から
+        - d: それでも誰かを信じたいから
+        gg:
+        - But still, I want to believe in someone
+    - lines:
+      - ol:
+        - 安定
+        - 信仰
+        - ぶち壊せ
+        - ''
+        - 勝負
+        - を
+        - かけろ
+        ro:
+        - antei
+        - shinkoo
+        - buchikowase
+        - ''
+        - shoobu
+        - o
+        - kakero
+        ww:
+        - w: stability
+          d: 安定
+        - w: belief
+          d: 信仰
+        - w: destroy
+          d: ぶち壊せ
+        - ''
+        - w: contest
+          d: 勝負
+        - w: ''
+          d: を
+        - w: wager
+          d: かけろ
+        - d: 安定信仰ぶち壊せ 勝負をかけろ
+        gg:
+        - Smash the blind faith, take a gamble!
+      - ol:
+        - 完全犯罪
+        - 笑う
+        - の
+        - は
+        - ''
+        - 敵
+        - か
+        - 味方
+        - か
+        - ?
+        ro:
+        - kanzenhanzai
+        - warau
+        - no
+        - wa
+        - ''
+        - teki
+        - ka
+        - mikata
+        - ka
+        - ?
+        ww:
+        - w: perfect crime
+          d: 完全犯罪
+        - w: laugh
+          d: 笑う
+        - w: the one
+          d: のは
+        - ''
+        - w: rival
+          d: 敵
+        - w: or
+          d: か
+        - w: ally
+          d: 味方
+        - w: or
+          d: か
+        - ?
+        - d: 完全犯罪笑うのは 敵か味方か%3f
+        gg:
+        - Who's laughing at the perfect crime? friend or foe?
+      - ol:
+        - 夜
+        - は
+        - また
+        - 更けてゆく
+        - ''
+        - ああ
+        - 化けの皮
+        - を
+        - 剥がす
+        - まで
+        ro:
+        - yoru
+        - wa
+        - mata
+        - fuketeyuku
+        - ''
+        - aa
+        - bakenokawa
+        - o
+        - hagasu
+        - made
+        ww:
+        - w: night
+          d: 夜
+        - w: ''
+          d: は
+        - w: again
+          d: また
+        - w: advance
+          d: 更けてゆく
+        - ''
+        - w: now
+          d: さあ
+        - w: disguise
+          d: 化けの皮
+        - w: ''
+          d: を
+        - w: peel off
+          d: 剥がす
+        - w: until
+          d: まで
+        - d: 夜はまた更けてゆく さあ化けの皮を剥がすまで
+        gg:
+        - The night deepens again, until we peel off the disguise
+      - ol:
+        - 朝
+        - が
+        - きて
+        - 繰り返す
+        - ''
+        - 終わり
+        - など
+        - ない
+        ro:
+        - asa
+        - ga
+        - kite
+        - kurikaesu
+        - ''
+        - owari
+        - nado
+        - nai
+        ww:
+        - w: morning
+          d: 朝
+        - w: ''
+          d: が
+        - w: coming
+          d: きて
+        - w: over again
+          d: 繰り返す
+        - ''
+        - w: end
+          d: 終わり
+        - w: (such things)
+          d: など
+        - w: there is not
+          d: ない
+        - d: 朝がきて繰り返す 終わりなどない
+        gg:
+        - Morning comes, repeating, there is no end.
+    - lines:
+      - ol:
+        - 正真正銘
+        - ''
+        - 僕
+        - だって
+        - 神
+        - に
+        - 誓って
+      - ro:
+        - shooshinshoomei
+        - ''
+        - boku
+        - datte
+        - kami
+        - ni
+        - chikatte
+        ww:
+        - w: genuine
+          d: 正真正銘
+        - ''
+        - w: me
+          d: 僕
+        - w: even
+          d: だって
+        - w: god
+          d: 神
+        - w: by
+          d: に
+        - w: upon my word
+          d: 誓って
+        - d: 正真正銘 僕だって神に誓って
+        gg:
+        - Truly, even I, swearing to gods
+      - ol:
+        - 清廉潔白
+        - ''
+        - 「
+        - 無実
+        - だ
+        - 」
+        - と
+        - 言い切れる
+        - の
+        - か
+        - ?
+        ro:
+        - seirenkeppaku
+        - ''
+        - '"'
+        - mujitsu
+        - da
+        - '"'
+        - to
+        - iikireru
+        - no
+        - ka
+        - ?
+        ww:
+        - w: absolute honesty
+          d: 清廉潔白
+        - ''
+        - '"'
+        - w: innocence
+          d: 無実
+        - w: be
+          d: だ
+        - '"'
+        - w: also
+          d: と
+        - w: declaring
+          d: 言い切れる
+        - d: の
+        - d: か
+        - ?
+        - d: 清廉潔白 「無実だ」と言い切れるのか%3f
+        gg:
+        - Can I call myself completely innocent?
+      - ol:
+        - 間違い
+        - を
+        - 問い詰めて
+        - ''
+        - 疑う
+        - ばかり
+        - じゃ
+        - 進めない
+        ro:
+        - machigai
+        - o
+        - toitsumete
+        - ''
+        - utagau
+        - bakari
+        - ja
+        - susumenai
+        ww:
+        - w: mistakes
+          d: 間違い
+        - d: を
+        - w: is questioned
+          d: 問い詰めて
+        - ''
+        - w: doubting
+          d: 疑う
+        - w: only
+          d: ばかり
+        - w: then
+          d: じゃ
+        - w: cannot move forward
+          d: 進めない
+        - d: 間違いを問い詰めて 疑うばかりじゃ進めない
+        gg:
+        - Questioning mistakes, only doubting won't get us anywhere.
+      - ol:
+        - そこ
+        - に
+        - 何
+        - が
+        - 残る
+        - の
+        - ?
+        - ''
+        - 終わり
+        - に
+        - する
+        - わ
+        ro:
+        - soko
+        - ni
+        - nani
+        - ga
+        - nokoru
+        - no
+        - ?
+        - ''
+        - owari
+        - ni
+        - suru
+        - wa
+        ww:
+        - w: there
+          d: そこ
+        - w: ''
+          d: に
+        - w: what
+          d: 何
+        - w: ''
+          d: が
+        - w: be left
+          d: 残る
+        - w: ('s)
+          d: の
+        - ?
+        - ''
+        - w: end
+          d: 終わり
+        - w: to
+          d: に
+        - w: make
+          d: する
+        - d: わ
+        - d: そこに何が残るの%3f 終わりにするわ
+        gg:
+        - What remains there? I'll put an end to it.
+      - ol:
+        - 夜
+        - は
+        - また
+        - 更けてゆく
+        - 。
+        - いたずらな
+        - エンドレスゲーム
+        ro:
+        - yoru
+        - wa
+        - mata
+        - fuketeyuku
+        - .
+        - itazurana
+        - endoresugeemu
+        ww:
+        - w: night
+          d: 夜
+        - w: ''
+          d: は
+        - w: again
+          d: また
+        - w: advance
+          d: 更けてゆく
+        - 。
+        - w: pointless
+          d: いたずらな
+        - w: endlessgame
+          d: エンドレスゲーム
+        - d: 夜はまた更けてゆく。いたずらなエンドレスゲーム
+        gg:
+        - The night deepens again. A pointless endlessgame.
+
+- postx:
+    id: 1917072614553751559
+    account: 46_hikaa
+    label: guitar rehearsal
+    info: Hika and Natsu, ENDLESSGAME
+    published-date: 2025-04-29
+    text: |-
+      Hika and Natsu 
+      
+      guitar rehearsal short video🌱 ͛.*
+      
+      #NEKI #ネキ界隈  #ENDLESSGAME
+    video:
+    - bc491773-b07c-434d-aadd-06c5ae8679fa
+    part-of:
+      song: endlessgame
+
+- postx:
+    id: 1944348020235292759
+    account: 46_hikaa
+    label: On a black Gibson Les Paul
+    published-date: 2025-07-13
+    text: |-
+      今回は黒のGibsonレスポールで弾いてみました‼️
+      
+      #ネキ界隈  #ギター
+    video:
+    - 01
+    part-of:
+      song: endlessgame
+
+- postxvideo:
+    post: 1917072614553751559
+    id: bc491773-b07c-434d-aadd-06c5ae8679fa
+    label: Guitar rehersal
+    info: Hika, Natsu
+    published-date: 2025-04-29
+    cover: 1917072549030330368/img/siCMf5Eb930aWZ11.jpg
+    context:
+    - song: endlessgame
+    part-of:
+      postx: 1917072614553751559
+
+- postxvideo:
+    post: 1944348020235292759
+    id: 01
+    label: On a black Gibson Les Paul
+    published-date: 2025-07-13
+    cover: 1944347924609253376/img/M9GQjNSp-cODc8YR.jpg
+    context:
+    - song: endlessgame
+    part-of:
+      postx: 1944348020235292759
+
+- youtubeshort:
+    id: 8Aue5D-fPkc
+    label: Promo
+    info: studio audio
+    published-date: 2024-11-16
+    context:
+    - song: endlessgame
+    todo: which venue ?
+    part-of:
+      song: endlessgame
+
+- youtubeshort:
+    id: XurqnHu8140
+    label: Promo
+    info: Osaka, studio audio
+    published-date: 2024-09-03
+    context:
+    - song: endlessgame
+    todo: which venue in Osaka ?
+    part-of:
+      song: endlessgame
+
+- youtubeshort:
+    id: jcyN-PNIzBw
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2024-10-01
+    context:
+    - song: endlessgame
+    part-of:
+      song: endlessgame
+
+- youtubeshort:
+    id: oUm5oU0O0Z4
+    label: Promo
+    info: studio audio
+    published-date: 2025-05-09
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: endlessgame
+    part-of:
+      song: endlessgame
+
+- youtubeshort:
+    id: sVdFEGNzZmM
+    label: Promo
+    info: studio audio
+    published-date: 2025-05-28
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: endlessgame
+    part-of:
+      song: endlessgame
+

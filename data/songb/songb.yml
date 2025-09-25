@@ -1,0 +1,12 @@
+song:
+  id: songb
+  dark: true
+  cover-image:
+    localimage:
+      event: siteimages
+      id: nekilogo
+  fullname: Song B
+  release-date: 2050-01-01
+  description:
+  - Unnamed song which has been played live.
+  - 'Some of the shows where it has been played: DEBUT YEAR LAST LIVE, TR!CK TAK!NG tour.'

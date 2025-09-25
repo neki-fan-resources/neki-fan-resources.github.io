@@ -1,0 +1,24 @@
+contentpage:
+  id: music
+  cover-image:
+    localimage:
+      event: siteimages
+      id: manekineko_cover
+  label: Music
+  display-type: content
+  start-date: 2024-04-01
+  end-date: 2025-12-15
+  description: The albums and songs released by NEK!.
+  categories: []
+  content:
+  - album: meme
+  - song: ripoff
+  - song: ooak
+  - album: tricktaking
+  - song: zerosum
+  - song: dreams
+  - song: loner
+  - album: exclamation
+  - song: maze
+  - song: reigengirl
+  - song: getover

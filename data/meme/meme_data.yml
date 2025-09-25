@@ -1,0 +1,84 @@
+- newsitem:
+    id: upcoming
+    album: meme
+    title: NEK! first album
+    active: true
+    part-of:
+      album: meme
+    text:
+    - line:
+      - text: NEK! will release their first album "
+      - album: meme
+      - text: '" on November 26th.'
+
+- postx:
+    id: 1961737876066168993
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-08-30
+    text: |-
+      2025/11/26(水)
+      NEK! 1st Album「MEME」
+      リリース決定🎊
+      
+      “ミーム”と読みます🐈
+      
+      アルバム詳細はこちら▼
+      https://note.com/nekiband_jp/n/n828855136334?sub_rt=share_sb
+      
+      さらに！
+      新アー写公開💥
+      
+      #NEKI #MEME
+    image:
+    - Gzl99vsacAA6bCZ
+    - Gzl-A0MaAAAtcNa
+    - Gzl-C69aoAADilM
+    - Gzl-Eg6boAEMEc0
+    part-of:
+      album: meme
+
+- postximage:
+    post: 1961737876066168993
+    id: Gzl-A0MaAAAtcNa
+    label: 初回盤A
+    info: First Press Edition A
+    published-date: 2025-08-30
+    local-copy: true
+    context:
+    - album: meme
+    part-of:
+      postx: 1961737876066168993
+
+- postximage:
+    post: 1961737876066168993
+    id: Gzl-C69aoAADilM
+    label: 初回盤B
+    info: First Press Edition B
+    published-date: 2025-08-30
+    context:
+    - album: meme
+    part-of:
+      postx: 1961737876066168993
+
+- postximage:
+    post: 1961737876066168993
+    id: Gzl-Eg6boAEMEc0
+    label: 通常盤
+    info: Regular edition
+    published-date: 2025-08-30
+    context:
+    - album: meme
+    part-of:
+      postx: 1961737876066168993
+
+- postximage:
+    post: 1961737876066168993
+    id: Gzl99vsacAA6bCZ
+    label: Band image
+    published-date: 2025-08-30
+    context:
+    - album: meme
+    part-of:
+      postx: 1961737876066168993
+

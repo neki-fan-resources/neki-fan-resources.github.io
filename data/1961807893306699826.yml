@@ -1,0 +1,72 @@
+- postx:
+    id: 1961807893306699826
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-08-30
+    text: |-
+      本日はNEK!初のZEPPワンマンにお越しくださりありがとうございました🙇🏻‍♀️
+      
+      とにかく今日は感謝を伝えたいです‼️
+      ずっと憧れていたZeppに皆さんとたどり着けたこと、幸せでした。
+      ついてきてくれてありがとう。
+      
+      メジャーデビューも決まりました。
+      これからもNEK!をよろしくお願いします！
+      
+      #ネキ界隈
+    image:
+    - Gzm94CQbQAATcAD
+    - Gzm94CGasAIv7PE
+    - Gzm94CPaQAAkyrR
+    - Gzm94CIaUAAEAp6
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CGasAIv7PE
+    label: On stage
+    info: Natsu
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961807893306699826
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CIaUAAEAp6
+    label: Backstage
+    info: Natsu
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961807893306699826
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CPaQAAkyrR
+    label: On stage
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961807893306699826
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CQbQAATcAD
+    label: Backstage
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961807893306699826
+

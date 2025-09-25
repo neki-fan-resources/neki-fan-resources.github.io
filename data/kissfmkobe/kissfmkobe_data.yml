@@ -1,0 +1,33 @@
+- postx:
+    id: 1946059859910365569
+    account: nekiband_jp
+    label: Thanks you
+    published-date: 2025-07-18
+    text: |-
+      Kiss FM KOBE「Viva la radio」
+      
+      ご視聴ありがとうございました💋
+      
+      新曲「OOAK」MV▼
+      🎥https://youtu.be/qGEzCjYvWZw
+      
+      #NEKI #ビバラー #KissFMKOB
+    image:
+    - GwHLHkEaoAA5dH1
+    part-of:
+      media:
+        year: 2025
+        id: kissfmkobe
+
+- postximage:
+    post: 1946059859910365569
+    id: GwHLHkEaoAA5dH1
+    label: At the studio
+    published-date: 2025-07-18
+    context:
+    - media:
+        year: 2025
+        id: kissfmkobe
+    part-of:
+      postx: 1946059859910365569
+

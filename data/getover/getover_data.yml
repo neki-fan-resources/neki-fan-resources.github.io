@@ -1,0 +1,693 @@
+- lyrics:
+    id: main
+    song: getover
+    part-of:
+      song: getover
+    status:
+      code: warning
+      description: Data copied from the sources. Not reviewed.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video description)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from YouTube Official Music Video description
+        url: 'https://www.youtube.com/watch?v=TWbLqba3oag'
+    - id: en
+      name: english translation
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=TWbLqba3oag'
+    sections:
+    - lines:
+      - ol:
+        - 完璧主義者の Falling down
+        en:
+        - Perfectionist’s Falling down
+      - ol:
+        - 完全体は脆いもの
+        en:
+        - Perfection is fragile
+      - ol:
+        - 最高潮に至ってしまえば Going down
+        en:
+        - Once the summit is reached,Going down
+    - lines:
+      - ol:
+        - 完成された Story line
+        en:
+        - A perfected story line
+      - ol:
+        - ここから何もイメージできやしない
+        en:
+        - I can't image anything from here
+      - ol:
+        - Do you think you need me?
+    - lines:
+      - ol:
+        - 関係性まで Organize
+        en:
+        - Organize even the relationships
+      - ol:
+        - 簡単に終わる今日みたい
+        en:
+        - It feels like a day that ends easily
+      - ol:
+        - 最高潮も終わってしまえば Breaking down
+        en:
+        - Even the peak ends up breaking down
+    - lines:
+      - ol:
+        - 関心ないなら Sorry, Bye
+        en:
+        - If you're not interested, sorry, bye
+      - ol:
+        - ここから何も始まりはしない
+        en:
+        - Nothing starts here
+      - ol:
+        - I don’t think you need me this time
+    - lines:
+      - ol:
+        - Oh now I just let you go.
+      - ol:
+        - I’m moving on and carrying on.
+      - ol:
+        - どうせ前にしか道は無い
+        en:
+        - There's only one way forward anyway
+      - ol:
+        - 絶望だって 拾い集めてさあ
+        en:
+        - Hopelessness Pick it up and collect it
+    - lines:
+      - ol:
+        - 壊しても行こうじゃない
+        en:
+        - We'll go even if we have to break it
+      - ol:
+        - I don’t say that you’re wasting my time
+      - ol:
+        - 後悔はない
+        en:
+        - No regrets
+      - ol:
+        - I kiss myself goodbye
+    - lines:
+      - ol:
+        - 関係ないの Crossing line
+        en:
+        - It doesn't matter, crossing line
+      - ol:
+        - 完成なんてしない様に
+        en:
+        - So that it never gets completed
+      - ol:
+        - 最高潮が分かんないくらいに Let’s get down
+        en:
+        - I don't even know what the highest peak is, Let’s get down
+    - lines:
+      - ol:
+        - 関心ないのは Sorry, Bye
+        en:
+        - Not interested in, sorry, bye
+      - ol:
+        - 全員認める者じゃなくて良い
+        en:
+        - Not everyone has to admit it
+      - ol:
+        - I don’t think I need you this time
+    - lines:
+      - ol:
+        - I’m walking on
+      - ol:
+        - And I don’t wanna shut these paths away
+    - lines:
+      - ol:
+        - Don’t tell me how
+      - ol:
+        - Cuz this is my life to live
+    - lines:
+      - ol:
+        - Again I just let you go.
+      - ol:
+        - I’m over you and carrying on
+      - ol:
+        - 止まってしまいたくは無い
+        en:
+        - I don't want to stop
+      - ol:
+        - 答えなんて 見つけなくていい
+        en:
+        - You don't have to find the answer
+    - lines:
+      - ol:
+        - 壊したら行けるじゃない
+        en:
+        - Because we can go if we break it
+      - ol:
+        - I can’t hold it back anymore
+      - ol:
+        - 後退はない
+        en:
+        - No setbacks
+      - ol:
+        - I kiss myself goodbye
+    - lines:
+      - ol:
+        - I’m walking on
+      - ol:
+        - And I don’t wanna shut these paths away
+    - lines:
+      - ol:
+        - Don’t tell me how
+      - ol:
+        - Cuz this is my life to live
+    - lines:
+      - ol:
+        - So now I just let you go.
+      - ol:
+        - I’m moving on and carrying on.
+      - ol:
+        - どうせ前にしか道は無い
+        en:
+        - There's only one way forward anyway
+      - ol:
+        - 絶望だって 拾い集めてさあ
+        en:
+        - Hopelessness Pick it up and collect it
+    - lines:
+      - ol:
+        - Now I can live my life.
+      - ol:
+        - I’m moving on and carrying on.
+      - ol:
+        - 止まってしまいたくは無い
+        en:
+        - I don't want to stop
+      - ol:
+        - 答えなんて見つけなくていい
+        en:
+        - You don't have to find the answer
+    - lines:
+      - ol:
+        - 壊れても行こうじゃない
+        en:
+        - Let’s go even if it breaks
+      - ol:
+        - I can’t hold it back anymore
+      - ol:
+        - 後退はない
+        en:
+        - No setbacks
+      - ol:
+        - I kiss myself goodbye
+
+- postx:
+    id: 1756877181698154611
+    account: nekiband_jp
+    label: working on the song
+    published-date: 2024-02-12
+    text: |-
+      オリジナル曲進んでます
+      3人バージョンです！
+      https://vt.tiktok.com/ZSFYf2t2L/
+      #NEKI
+    video:
+    - 01
+    part-of:
+      song: getover
+
+- postx:
+    id: 1918636722516373576
+    account: nekiband_jp
+    label: announcement Get Over live video
+    published-date: 2025-05-03
+    text: |-
+      ❤️‍🔥LIVE VIDEO❤️‍🔥
+      
+      明日5/4(日)21:00
+      
+      「NEK! DEBUT YEAR LAST LIVE」
+      @下北沢シャングリラ から
+      
+      "Get Over" Official Live Video
+      YouTubeにてプレミア公開🎥
+      
+      公開時にはメンバーもチャット欄に参加します🙌
+      
+      ▶ https://youtu.be/IeBks9yGO4A
+      
+      #NEKI #GetOver
+    image:
+    - GqBc0HhbYAA2VDy
+    part-of:
+      song: getover
+
+- postx:
+    id: 1938475589318644015
+    account: 46_hikaa
+    label: testing gopro on guitar
+    published-date: 2025-06-27
+    text: |-
+      はじめてGoPro付けたよ！
+      
+      ライブでもやりた〜い🌟
+      
+      #ネキ界隈  #GetOver
+    video:
+    - 01
+    part-of:
+      song: getover
+
+- postx:
+    id: 1956194665641992559
+    account: coco_102
+    label: Rehearsal Get Over
+    published-date: 2025-08-15
+    text: |-
+      Zeppワンマンに向けての準備も着々と進んでます！
+      汗だく必至のガツガツ体力勝負セトリになってるので、みんなもしっかり最後までついてきてね〜✊🏻🔥
+      
+      8/30の景色を想像しながらリハ頑張ります！！
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: getover
+
+- postx:
+    id: 1957813871802216509
+    account: natsu08_guitar
+    label: Live
+    published-date: 2025-08-19
+    text: |-
+      Zeppまであと１１日……！
+      
+      早くみんなの声が聞きたいー！！！
+      声枯らす準備、できてる？📣
+      
+      #ネキ界隈 #拡散中
+    video:
+    - 01
+    todo: which show, sendai ?
+    part-of:
+      song: getover
+
+- postx:
+    id: 1958382817307750717
+    account: natsu08_guitar
+    label: 9 days to Zepp
+    published-date: 2025-08-21
+    text: |-
+      Zeppまであと９日…！
+      ついに1桁台まできました、、、！😳
+      ラストスパート、、、駆け抜けますよ🏃‍♂️💨
+      
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+    part-of:
+      song: getover
+
+- postximage:
+    post: 1918636722516373576
+    id: GqBc0HhbYAA2VDy
+    label: Natsu
+    published-date: 2025-05-03
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1918636722516373576
+
+- postxvideo:
+    post: 1756877181698154611
+    id: 01
+    label: Early rehearsal
+    info: Hika, Kanade, Cocoro
+    published-date: 2024-02-12
+    cover: 1756877146625376256/pu/img/3LM-WUtzAWegXPis.jpg
+    context:
+    - song: getover
+    part-of:
+      postx: 1756877181698154611
+
+- postxvideo:
+    post: 1938475589318644015
+    id: 01
+    label: test gopro
+    info: rehearsal, Hika
+    published-date: 2025-06-27
+    cover: 1938475521194778624/img/vCtxzub80oRpOWEL.jpg
+    context:
+    - song: getover
+    part-of:
+      postx: 1938475589318644015
+
+- postxvideo:
+    post: 1956194665641992559
+    id: 01
+    label: Rehearsal
+    info: Cocoro
+    published-date: 2025-08-15
+    cover: 1956194419071438848/img/0xt5ooWjeZYYZ1Eb.jpg
+    context:
+    - song: getover
+    part-of:
+      postx: 1956194665641992559
+
+- postxvideo:
+    post: 1957813871802216509
+    id: 01
+    label: Live
+    published-date: 2025-08-19
+    cover: 1957813790210445312/img/LMBCErFTb75g6hVD.jpg
+    context:
+    - song: getover
+    part-of:
+      postx: 1957813871802216509
+
+- postxvideo:
+    post: 1958382817307750717
+    id: 01
+    label: Rehearsal
+    published-date: 2025-08-21
+    cover: 1958382687322062848/img/ZbzKpjE1873at3hl.jpg
+    context:
+    - song: getover
+    part-of:
+      postx: 1958382817307750717
+
+- postyoutube:
+    id: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+    account: neki_official
+    published-date: 2024-06-03
+    label: release
+    text: |-
+      NEK! 初のオリジナル曲
+      「Get Over」
+      
+      ただいまより配信開始！
+      たくさん聴いてください❣️
+      
+      https://lnk.to/HVGeas
+    image:
+    - p2OVdh2QjQJG80H6SNAENZWls54Ky12ooG16av0yaF4o-L6QYeYO-YI1reWmT4qGYGkpKQSYIk1Cveo
+    todo: double check published date
+    part-of:
+      song: getover
+
+- postyoutubeimage:
+    post: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+    id: p2OVdh2QjQJG80H6SNAENZWls54Ky12ooG16av0yaF4o-L6QYeYO-YI1reWmT4qGYGkpKQSYIk1Cveo
+    label: cover
+    published-date: 2024-06-03
+    local-copy: true
+    context:
+    - song: getover
+    part-of:
+      postyoutube: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+
+- youtubeshort:
+    id: 1VU7-KQyOvg
+    label: Music Video
+    info: behind the scenes, packing up
+    published-date: 2025-05-18
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: 2ccoTpKr1zw
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-06-25
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: 2hdeizLF6LI
+    label: Music Video
+    info: Kanade focus
+    published-date: 2024-05-02
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: 7zWTswPcTo0
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-07-15
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: A0xZ3iTWHTc
+    label: Release
+    info: making CDs by hand
+    published-date: 2025-07-24
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: BCMkj_OhBmo
+    label: Rehearsal
+    info: Hika, Natsu
+    published-date: 2025-05-21
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: CAvOmtdiHwc
+    label: Recording
+    info: listening to early versions ?
+    published-date: 2025-03-03
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: CUgtBUOxL1w
+    label: Reaction
+    info: discovering the music video
+    published-date: 2025-04-25
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: NMkyE7_4wBQ
+    label: Rehearsal
+    info: intro, Hika, Natsu, Kanade
+    published-date: 2025-07-17
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: QyDd3xQf88o
+    label: Promo
+    info: studio audio
+    published-date: 2025-08-22
+    context:
+    - song: getover
+    todo: which show ?
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: R5GI-cuX2xM
+    label: Music Video
+    info: Natsu focus
+    published-date: 2024-05-01
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: RMbkWV9zpog
+    label: Music Video
+    info: Cocoro focus, with lyrics
+    published-date: 2024-04-28
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: SnjDhQFrSy0
+    label: Teaser
+    published-date: 2024-04-21
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: bJG9HXd0aUI
+    label: Promo
+    published-date: 2024-04-04
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: mlR0Jeyhw8Y
+    label: Promo
+    published-date: 2024-03-17
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: nDKETw7zIX4
+    label: Music Video
+    info: Cocoro focus
+    published-date: 2024-05-04
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: nLW93jahxIU
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2024-07-18
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: nh6S9mF-9Co
+    label: Music Video
+    info: Natsu focus, with lyrics
+    published-date: 2024-04-27
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: sLMQ7FJlRlE
+    label: Music Video
+    published-date: 2024-04-24
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: tQNJQF37lHM
+    label: Music Video
+    info: with lyrics
+    published-date: 2024-04-25
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: xsnKWL8af5w
+    label: Promo
+    info: rehearsal room, studio audio, Kanade
+    published-date: 2025-05-25
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: yPb_nnAC_io
+    label: Music Video
+    info: Hika focus, with lyrics
+    published-date: 2024-04-29
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: yzKuHzF-YNk
+    label: Music Video
+    info: Hika focus
+    published-date: 2024-05-03
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: z2KKJtwO2Ig
+    label: Music Video
+    info: Kanade focus, with lyrics
+    published-date: 2024-04-26
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
+    id: zwtr-8a_JlY
+    label: Recording
+    info: having fun with the camera
+    published-date: 2025-04-08
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubevideo:
+    id: 7Neu9jJk-04
+    label: Kanade Bass play-through
+    published-date: 2024-05-28
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubevideo:
+    id: TWbLqba3oag
+    label: Official Music Video
+    published-date: 2024-04-24
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubevideo:
+    id: maFSgVE2vXg
+    label: Music Video Teaser
+    published-date: 2024-04-21
+    context:
+    - song: getover
+    part-of:
+      song: getover
+

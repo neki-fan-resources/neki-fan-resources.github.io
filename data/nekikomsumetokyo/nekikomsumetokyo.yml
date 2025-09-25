@@ -1,0 +1,29 @@
+show:
+  year: 2025
+  id: nekikomsumetokyo
+  cover-image:
+    localimage:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+      id: cover
+  fullname: Tokyo
+  date: 2025-06-02
+  tour: nekikomsume2025
+  categories:
+  - mainshowtour
+  venue: 下北沢 Shelter
+  todo: event-page
+  multimedia:
+    short:
+    - postxvideo:
+        post: 1931252079353581736
+        video: 01
+    - youtubeshort: mOyYGaolObY
+    image:
+    - postximage:
+        post: 1929838014714597729
+        image: GsgpaTQb0AAv3Zr
+    - postximage:
+        post: 1929531593523081226
+        image: GscSvrHbMAAqkrT

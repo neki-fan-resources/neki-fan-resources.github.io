@@ -1,0 +1,44 @@
+- postx:
+    id: 1832614238424301660
+    account: nekiband_jp
+    label: today
+    published-date: 2024-09-08
+    text: |-
+      【㊗️本日開催㊗️】
+      9/8(日)LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~
+      OPEN 18:30 / START 19:00
+      
+      NEK! 
+      @nekiband_jp
+      
+      2winkle wink 
+      @2winkle_wink
+      
+      EMANON 
+      @EMANON_0308
+      
+      
+      前売 ￥3,000 / 当日 ￥3,500（D別）
+      ※入場順はTIGET A1〜→当日券の順です。
+      🎟️当日券の販売あり！
+      担当：石田
+    image:
+    - GW7Ac3YbEAAYoku
+    part-of:
+      show:
+        year: 2024
+        id: ringringring
+
+- postximage:
+    post: 1832614238424301660
+    id: GW7Ac3YbEAAYoku
+    label: poster
+    published-date: 2024-09-08
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: ringringring
+    part-of:
+      postx: 1832614238424301660
+

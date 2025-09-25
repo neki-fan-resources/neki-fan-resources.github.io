@@ -1,0 +1,33 @@
+- postx:
+    id: 1825843541756752006
+    account: LIVEHOUSE_VARON
+    label: tomorrow
+    published-date: 2024-08-20
+    text: |-
+      明日の公演
+      2024.8.21(wed)
+      心斎橋VARON presents. Day Dreamer -4th night-
+      [ACT]
+      NEK! / husky(BAND SET) / Buzzer01&. / FiELDz / BlueVeil / CHi+KAZZ
+      [OPEN/START]18:00 / 18:30
+      [料金]ADV/DOOR ¥2,400/¥2,900(1D別)
+    image:
+    - GVay0webUAAAJ-4
+    part-of:
+      show:
+        year: 2024
+        id: daydreamer4night
+
+- postximage:
+    post: 1825843541756752006
+    id: GVay0webUAAAJ-4
+    label: poster
+    published-date: 2024-08-20
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: daydreamer4night
+    part-of:
+      postx: 1825843541756752006
+

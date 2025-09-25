@@ -1,0 +1,68 @@
+- postyoutube:
+    id: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+    account: neki_official
+    published-date: 2024-02-01
+    label: announcement
+    text: |-
+      3/5(水)リリース
+      2nd EP「TR!CK TAK!NG」ジャケット公開💥
+      
+      さらに封入特典&ショップ別オリジナル特典の絵柄を解禁！
+      
+      EPご予約はこちらから▼
+      https://lnk.to/tricktaking_CD
+      
+      
+      NEK! 2nd EP “TR!CK TAK!NG”
+      Released on 2025/3/5(Wed)!!!!
+      The CD jacket is unveiled!
+      In addition, the design of the enclosed benefits and shop-specific original benefits have been unveiled.
+      EP can be pre-ordered here▼
+      https://lnk.to/tricktaking_CD
+    image:
+    - T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
+    todo: double check date
+    part-of:
+      album: tricktaking
+
+- postyoutubeimage:
+    post: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+    id: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
+    label: EP cover
+    published-date: 2024-02-01
+    local-copy: true
+    context:
+    - album: tricktaking
+    todo: double check date
+    part-of:
+      postyoutube: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+
+- youtubeshort:
+    id: 8D7NYm0sa4w
+    label: Signing pictures
+    info: Signing pictures for the winners at Tower Records
+    published-date: 2025-04-21
+    context:
+    - album: tricktaking
+    part-of:
+      album: tricktaking
+
+- youtubeshort:
+    id: ieh_ai4aaP0
+    label: Release
+    info: display at Tower Records
+    published-date: 2025-03-05
+    context:
+    - album: tricktaking
+    part-of:
+      album: tricktaking
+
+- youtubeshort:
+    id: vs7iqp4JGwQ
+    label: Signing cards
+    published-date: 2025-05-20
+    context:
+    - album: tricktaking
+    part-of:
+      album: tricktaking
+

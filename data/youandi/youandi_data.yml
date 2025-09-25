@@ -1,0 +1,51 @@
+- postx:
+    id: 1883065171922637290
+    account: nekiband_jp
+    label: tomorrow
+    published-date: 2025-01-25
+    text: |-
+      明日1/26(日)
+      優利香Presents「You&I ～未来浮かべ浮かれSmile～」てんこ盛り編
+      @ Shibuya eggman
+      
+      NEK!は13:00~出演させていただきます❤️‍🔥
+      
+      チケット受付は本日23:59まで🎫
+      
+      詳細はこちらから▼
+      https://note.com/nekiband_jp/n/n8288f3be1b16?sub_rt=share_pw
+      
+      #NEKI
+    image:
+    - GiH9iMsaUAAUAmv
+    - GiH9iMsaQAAasNt
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+
+- postximage:
+    post: 1883065171922637290
+    id: GiH9iMsaQAAasNt
+    label: schedule
+    published-date: 2025-01-25
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postx: 1883065171922637290
+
+- postximage:
+    post: 1883065171922637290
+    id: GiH9iMsaUAAUAmv
+    label: poster
+    published-date: 2025-01-25
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postx: 1883065171922637290
+

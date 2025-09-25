@@ -1,0 +1,60 @@
+- postx:
+    id: 1856985434020061342
+    account: bazoo_official
+    label: presentation
+    published-date: 2024-11-14
+    text: |-
+      11.27(水)『Diggin’ Sound Vol.2』
+      @下北沢近道
+      
+      #ディグサ 開催まであと２週間を切りました📢
+      出演アーティストの出番はこちら👇
+      
+      🎫はこちらから
+      https://r-t.jp/digginsound
+      
+      @rassembler_band
+      
+      @nekiband_jp
+      
+      @komsume_com
+      
+      @jamtohighball
+      
+      @lalanchia_band
+    image:
+    - GcPSyaLasAE0E3-
+    video:
+    - d102d125-ebaf-44b4-a337-f9d5b48ee2cf
+    part-of:
+      show:
+        year: 2024
+        id: digginsoundvol2
+
+- postximage:
+    post: 1856985434020061342
+    id: GcPSyaLasAE0E3-
+    label: poster
+    published-date: 2024-11-14
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      postx: 1856985434020061342
+
+- postxvideo:
+    post: 1856985434020061342
+    id: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
+    label: presentation
+    info: presentation of each band
+    published-date: 2024-11-14
+    cover: 1856559489245425664/pu/img/SpsFR8nhXy8j_dZo.jpg
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      postx: 1856985434020061342
+

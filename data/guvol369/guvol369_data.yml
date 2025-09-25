@@ -1,0 +1,42 @@
+- postx:
+    id: 1864191582632583194
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-12-04
+    text: |-
+      💖本日💖
+      
+      Girl's UP!!! vol.369
+      
+      ReBoom
+      Buzzer01&.
+      EMANON
+      AND CALL. 
+      4Chord
+      NEK!
+      
+      OPEN17:30 
+      START18:00   
+      DOOR ¥3,000+1D 
+      
+      ご来場お待ちしております！
+    image:
+    - Gd7uUKFa0AAbSuw
+    part-of:
+      show:
+        year: 2024
+        id: guvol369
+
+- postximage:
+    post: 1864191582632583194
+    id: Gd7uUKFa0AAbSuw
+    label: sidewalk board
+    published-date: 2024-12-04
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol369
+    part-of:
+      postx: 1864191582632583194
+

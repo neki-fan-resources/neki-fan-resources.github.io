@@ -1,0 +1,16 @@
+tour:
+  id: nekikomsume2025
+  cover-image:
+    postximage:
+      post: 1944995676963922035
+      image: Gv4DQX6a8AAPdNi
+  fullname: 「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」
+  shortname: 「NEK!/komsume TWO-MAN SHOW」
+  first-date: 2025-06-02
+  last-date: 2025-07-18
+  shows:
+  - year: 2025
+    id: nekikomsumetokyo
+  - year: 2025
+    id: nekikomsumeosaka
+  event-page: 'https://note.com/nekiband_jp/n/nb50d1c0b1dd3'

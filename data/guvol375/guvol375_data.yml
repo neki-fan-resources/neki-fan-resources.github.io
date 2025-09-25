@@ -1,0 +1,40 @@
+- postx:
+    id: 1892129493306810798
+    account: shibuya_eggman
+    label: today
+    published-date: 2025-02-19
+    text: |-
+      🎸本日🎸
+      
+      Girl's UP!!! vol.375
+      〜スリーマンスペシャル〜
+      
+      LUMiRiSE
+      BONE DAWN
+      NEK!
+      
+      OPEN 18:15
+      START 18:45
+      DOOR ￥3,400+1D
+      
+      ご来場お待ちしております！
+    image:
+    - GkIw1_zaAAA0kCd
+    part-of:
+      show:
+        year: 2025
+        id: guvol375
+
+- postximage:
+    post: 1892129493306810798
+    id: GkIw1_zaAAA0kCd
+    label: sidewalk board
+    published-date: 2025-02-19
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postx: 1892129493306810798
+

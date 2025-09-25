@@ -1,0 +1,52 @@
+song:
+  id: loner
+  cover-image:
+    postyoutubeimage:
+      post: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+      image: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
+  fullname: Loner
+  album: tricktaking
+  release-date: 2024-10-09
+  lyrics:
+  - main
+  lyricist:
+    value: NEK!, Kumoi Haruka
+    source:
+      description: 'JASRAC - work ID: 790-9145-8'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, Yuki Tanabe
+    source:
+      description: 'JASRAC - work ID: 790-9145-8'
+      url: 'https://www2.jasrac.or.jp/'
+  multimedia:
+    main:
+      youtubevideo: uhy1HnFXTH8
+    video:
+    - youtubevideo: uhy1HnFXTH8
+    live:
+    - postxvideo:
+        post: 1954447291294822589
+        video: 01
+    - postxvideo:
+        post: 1931252079353581736
+        video: 01
+    - postxvideo:
+        post: 1931999361577463823
+        video: 01
+    - postxvideo:
+        post: 1929106683978224117
+        video: 46203d6b-e5ae-48cd-8902-16d9a880869d
+    - youtubeshort: dSX3EKmcRUc
+    - youtubeshort: xy8VknaZ0QQ
+    short:
+    - youtubeshort: X-45zTnjrcM
+    - youtubeshort: kh3KFur99mo
+    - youtubeshort: pInXexYRjJc
+    - youtubeshort: UMbFFhE5m74
+    - youtubeshort: uDKulvTRNjk
+    - youtubeshort: HS_wfsMj-2Y
+    - youtubeshort: dhMQMl7ogYs
+    - youtubeshort: wiu7XwluMX4
+    additional:
+    - youtubevideo: prWu9_Q5a5Y

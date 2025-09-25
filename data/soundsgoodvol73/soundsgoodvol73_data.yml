@@ -1,0 +1,34 @@
+- postx:
+    id: 1826867524035653715
+    account: nekiband_jp
+    label: today
+    published-date: 2024-08-23
+    text: |-
+      「Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-」
+      @ アメリカ村 BEYOND
+      
+      本日出演させていただきます！
+      NEK!と音で遊びましょう~❣️
+      
+      #NEKI
+    image:
+    - GVpWTLoXMAAyp1r
+    todo: tour poster
+    part-of:
+      show:
+        year: 2024
+        id: soundsgoodvol73
+
+- postximage:
+    post: 1826867524035653715
+    id: GVpWTLoXMAAyp1r
+    label: flyer
+    published-date: 2024-08-23
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    part-of:
+      postx: 1826867524035653715
+

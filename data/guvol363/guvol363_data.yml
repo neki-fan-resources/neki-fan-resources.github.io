@@ -1,0 +1,41 @@
+- postx:
+    id: 1833408179499372832
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-09-10
+    text: |-
+      ☀️本日☀️
+      
+      Girl's UP!!! vol.363
+      
+      AND CALL. 
+      NEK!
+      EMANON
+      浮迷夜
+      ReBoom
+      メイビスレーヌ
+      
+      OPEN 17:30 / START 18:00
+      TICKET ￥3,000-(+1D)
+      
+      ご来場お待ちしております！
+    image:
+    - GXGQ23WbsAAyxNO
+    part-of:
+      show:
+        year: 2024
+        id: guvol363
+
+- postximage:
+    post: 1833408179499372832
+    id: GXGQ23WbsAAyxNO
+    label: sidewalk board
+    published-date: 2024-09-10
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol363
+    part-of:
+      postx: 1833408179499372832
+

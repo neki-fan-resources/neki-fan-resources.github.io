@@ -1,0 +1,63 @@
+- postx:
+    id: 1962470508890657030
+    account: tokyo__calling
+    label: Schedule
+    published-date: 2025-09-01
+    text: |-
+      【⏰タイムテーブル 解禁📷】
+      
+      〜〜〜 
+      9/23(火)27(土)28(日) 開催  
+      TOKYO CALLING 2025
+      -10th Anniversary-
+      〜〜〜
+      
+      🎊タイムテーブル解禁です🎊
+      
+      チケットはこちら！
+      https://t.pia.jp/pia/event/event.do?eventCd=2501061
+      
+      皆様のご来場、お待ちしてます📷  
+      #TOKYOCALLING
+      #トーキョーコーリング
+    image:
+    - GzwYhdZaIAA6XLZ
+    - GzwYhdXawAArF2M
+    - GzwYhdvbYAI9nwF
+
+- postximage:
+    post: 1962470508890657030
+    id: GzwYhdXawAArF2M
+    label: Schedule 9/27
+    published-date: 2025-09-01
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1962470508890657030
+
+- postximage:
+    post: 1962470508890657030
+    id: GzwYhdZaIAA6XLZ
+    label: Schedule 9/23
+    published-date: 2025-09-01
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1962470508890657030
+
+- postximage:
+    post: 1962470508890657030
+    id: GzwYhdvbYAI9nwF
+    label: Schedule 9/28
+    published-date: 2025-09-01
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1962470508890657030
+

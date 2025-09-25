@@ -1,0 +1,71 @@
+- postx:
+    id: 1827255587870273643
+    account: clubupset
+    label: today
+    published-date: 2024-08-24
+    text: |-
+      【 本日 】
+      8/24(土)
+      「winged it」
+      
+      Led Lobster
+      NEK!
+      リーガルアットサンズ
+      amis amants
+      
+      open 18:00 /start 18:30
+      当日券.￥2,900-(D別)
+      開場後に販売いたします！
+      
+      是非遊びにきてください！
+      お待ちしております！
+    image:
+    - GVu3DSDXgAAEC5y
+    part-of:
+      show:
+        year: 2024
+        id: wingedit
+
+- postximage:
+    post: 1827255587870273643
+    id: GVu3DSDXgAAEC5y
+    label: poster
+    published-date: 2024-08-24
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: wingedit
+    part-of:
+      postx: 1827255587870273643
+
+- youtubeshort:
+    id: OvaY9jENatI
+    label: Promo
+    info: studio audio
+    published-date: 2024-09-11
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: wingedit
+    part-of:
+      show:
+        year: 2024
+        id: wingedit
+
+- youtubeshort:
+    id: v16v2MvFJyM
+    label: Promo
+    info: studio audio
+    published-date: 2024-09-17
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: wingedit
+    part-of:
+      show:
+        year: 2024
+        id: wingedit
+

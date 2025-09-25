@@ -1,0 +1,56 @@
+- postx:
+    id: 1961812414485459420
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-08-30
+    text: |-
+      NEK! 1ST ZEPP ONE MAN
+      
+      夢のステージで歌えたこと
+      心から嬉しい気持ちでいっぱいです。
+      
+      ありがとうございました！！
+      
+      来年はメジャーデビューも決まり
+      これから、このNEK!メンバーと皆さんと
+      大きなステージを見ていきたいです！
+      
+      みんなに出会えて良かった！
+      
+      #ネキ界隈
+    image:
+    - GznB_baboAAZECx
+    - GznB_bebQAAf7Hn
+    reference:
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6fbYAASFb3
+    - postximage:
+        post: 1961807893306699826
+        image: Gzm94CQbQAATcAD
+
+- postximage:
+    post: 1961812414485459420
+    id: GznB_baboAAZECx
+    label: Venue
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961812414485459420
+
+- postximage:
+    post: 1961812414485459420
+    id: GznB_bebQAAf7Hn
+    label: On stage
+    info: Hika
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961812414485459420
+

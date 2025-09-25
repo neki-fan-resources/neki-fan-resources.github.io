@@ -1,0 +1,143 @@
+update-page:
+  id: updates
+  updates:
+  - date: 2025-08-12
+    lines:
+    - line:
+      - text: New song "
+      - song: ripoff
+      - text: '" released. Lyrics and live videos are now available.'
+    - line:
+      - text: 'In the lead-up for the '
+      - show:
+          year: 2025
+          id: 1stzepponeman
+      - text: ', each member is answering a few questions. We now have English-subtitled versions of the Q&As.'
+    - line:
+      - text: 'More videos are available from their latest shows: '
+      - show:
+          year: 2025
+          id: internetbabies
+      - text: ' and '
+      - show:
+          year: 2025
+          id: nekikomsumeosaka
+      - text: .
+    - line:
+      - text: 'More '
+      - page: shows
+      - text: ' have also been announced.'
+  - date: 2025-07-28
+    lines:
+    - line:
+      - text: New song "
+      - song: ripoff
+      - text: '" to be released next week, on the 6th.'
+    - line:
+      - text: 'English translation for '
+      - song: fool
+      - text: ', from the Live Official Video.'
+    - line:
+      - text: 'They performed at '
+      - show:
+          year: 2025
+          id: internetbabies
+      - text: ' last Sunday. Some photos and videos from the show are already available.'
+    - line:
+      - text: 'Getting ready for the '
+      - show:
+          year: 2025
+          id: 1stzepponeman
+      - text: . This week is Cocoro's week. The first video is available.
+  - date: 2025-07-15
+    lines:
+    - line:
+      - text: 'Live Official Video for '
+      - song: ooak
+      - text: ' released.'
+    - line:
+      - text: 'On Friday July 18th, 3 radio appearances on '
+      - media:
+          year: 2025
+          id: radiokansai
+      - text: ', '
+      - media:
+          year: 2025
+          id: kissfmkobe
+      - text: ', and '
+      - media:
+          year: 2025
+          id: fmosaka
+      - text: ', in Kobe and Osaka. Then the '
+      - show:
+          year: 2025
+          id: nekikomsumeosaka
+      - text: ', at 	LIVE SQUARE 2nd LINE.'
+    - line:
+      - text: 'And NEK! will be performing this year again at '
+      - show:
+          year: 2025
+          id: minamiwheel
+      - text: .
+  - date: 2025-06-20
+    lines:
+    - line:
+      - text: 'More '
+      - song: ooak
+      - text: ' content is available. The official music video, english translation of the lyrics, playthrough sections by Natsu.'
+    - line:
+      - text: '3 new shows have been announced: at the '
+      - show:
+          year: 2025
+          id: sendaimusicfuse
+      - text: " festival, at Hamane Haruki's "
+      - show:
+          year: 2025
+          id: internetbabies
+      - text: ' show, and at the '
+      - show:
+          year: 2025
+          id: thetheoryofscience
+      - text: ' festival.'
+    - line:
+      - text: 'Radio appearances of Hika and Natsu on '
+      - media:
+          year: 2025
+          id: yfmgodblesssaturday
+      - text: ' and '
+      - media:
+          year: 2025
+          id: eradiocatch
+      - text: ' were announced.'
+  - date: 2025-06-06
+    lines:
+    - line:
+      - text: 'New single released: '
+      - song: ooak
+      - text: . Lyrics are available, as well as previously shared videos.
+    - line:
+      - text: NEK! performed with komsume in at the
+      - show:
+          year: 2025
+          id: nekikomsumetokyo
+      - text: ', a few pictures and videos are available.'
+    - line:
+      - text: 'Kanade published a playthrough video for '
+      - song: zerosum
+      - text: . She also goes through the parts of the song, and gives pointers for people who want to play it.
+  - date: 2025-05-20
+    lines:
+    - line:
+      - text: The band members have been sharing more videos on their personal accounts.
+    - line:
+      - text: 'There are several videos from the '
+      - show:
+          year: 2025
+          id: kakumeilogic2025
+      - text: ' show, by each band member on stage, for different songs.'
+    - line:
+      - text: 'They also shared teasers for a '
+      - song:
+          id: newsong202505
+          dark: true
+      - text: ' they are recording, from rehearsals and recording studio.'

@@ -1,0 +1,57 @@
+- postx:
+    id: 1765625866816803054
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-03-07
+    text: |-
+      🥠本日🥠
+      
+      Girl's UP!!! vol.349
+      
+      IrisaVior
+      EMANON
+      ES-TRUS
+      ЯeaL
+      優利香
+      NEK!
+      
+      OPEN 17:30
+      START 18:00
+      TICKET ￥3,000-(+1D)  
+      
+      ご来場お待ちしております！
+    image:
+    - GIDCvFoaEAARgCV
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- postximage:
+    post: 1765625866816803054
+    id: GIDCvFoaEAARgCV
+    label: sidewalk board
+    published-date: 2024-03-07
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1765625866816803054
+
+- youtubeshort:
+    id: TF3IDIX41Q0
+    label: Promo
+    info: studio audio
+    published-date: 2024-03-15
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+

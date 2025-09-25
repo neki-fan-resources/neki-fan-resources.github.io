@@ -1,0 +1,1826 @@
+- lyrics:
+    id: main
+    song: maze
+    part-of:
+      song: maze
+    status:
+      code: na
+      description: Data copied from the sources. Added rōmaji and words translation.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=EHtWJmMybGY'
+    - id: ro
+      name: rōmaji
+      no-translation: true
+    - id: ww
+      name: word by word translation
+      details: (using jisho.org)
+      base-url: 'https://jisho.org/search/'
+      url-text: J
+    - id: en
+      name: english translation
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=EHtWJmMybGY'
+    sections:
+    - lines:
+      - ol:
+        - 混ぜ
+        - 混ぜ
+        - ' '
+        - 素人
+        ro:
+        - maze
+        - maze
+        - ' '
+        - shirotō
+        ww:
+        - w: mixing
+          d: 混ぜ
+        - w: mixing
+          d: 混ぜ
+        - ' '
+        - w: amateur
+          d: 素人
+        - d: 混ぜ混ぜ 素人
+        en:
+        - Mix up, Mix up, Amateur
+      - ol:
+        - 混ぜ
+        - 混ぜ
+        - ' '
+        - 素人
+        ro:
+        - maze
+        - maze
+        - ' '
+        - shirotō
+        ww:
+        - w: mixing
+          d: 混ぜ
+        - w: mixing
+          d: 混ぜ
+        - ' '
+        - w: amateur
+          d: 素人
+        - d: 混ぜ混ぜ 素人
+        en:
+        - Mix up, Mix up, Amateur
+      - ol:
+        - 混ぜこぜ
+        - ' '
+        - マリオネット
+        - 東京
+        ro:
+        - mazekoze
+        - ''
+        - marionetto
+        - tōkyō
+        ww:
+        - w: mishmash
+          d: 混ぜこぜ
+        - ''
+        - w: marionette
+          d: マリオネット
+        - w: Tokyo
+          d: 東京
+        - d: 混ぜこぜ マリオネット東京
+        en:
+        - Mix and Match Marionette Tokyo
+      - ol:
+        - 飽きたら
+        - ' '
+        - 捨て去りなはれ
+        ro:
+        - akitara
+        - ''
+        - sutesarinahare
+        ww:
+        - w: when getting tired
+          d: 飽きたら
+        - ''
+        - w: throw away (imperative, archaic form)
+          d: 捨て去りなはれ
+        - d: 飽きたら 捨て去りなはれ
+        en:
+        - When you get tired of it, you throw it away
+      - ol:
+        - 無秩序
+        - シルエット
+        - ' '
+        - やるかやられるか
+        ro:
+        - muchitsujo
+        - shiruetto
+        - ''
+        - yaru ka yarareru ka
+        ww:
+        - w: chaos
+          d: 無秩序
+        - w: silhouette
+          d: シルエット
+        - ''
+        - w: do or be done to (exp)
+          d: やるかやられるか
+        - d: 無秩序シルエット やるかやられるか
+        en:
+        - Anarchic silhouette Do or be done
+    - lines:
+      - ol:
+        - こんがらがって
+        - ' '
+        - 這いつくばって
+        ro:
+        - kongaragatte
+        - ''
+        - haitsukubatte
+        ww:
+        - w: become entangled
+          d: こんがらがって
+        - ' '
+        - w: crawl
+          d: 這いつくばって
+        - d: こんがらがって 這いつくばって
+        en:
+        - Getting tangled up, crawling
+      - ol:
+        - 真正面
+        - から
+        - 攻めたら
+        - サンドバック
+        ro:
+        - masshōmen
+        - kara
+        - semetara
+        - sandobakku
+        ww:
+        - w: head-on
+          d: 真正面
+        - w: from
+          d: から
+        - w: attack
+          d: 攻めたら
+        - w: punshing bag
+          d: サンドバック
+        - d: 真正面から攻めたらサンドバック
+        en:
+        - If you attack head-on, you get sandbagged
+      - ol:
+        - いい子
+        - ぶって
+        - ' '
+        - ぶりっ子
+        - 正義
+        - の
+        - 鉄槌
+        ro:
+        - iiko
+        - butte
+        - ''
+        - burikko
+        - seigi
+        - no
+        - tettsui
+        ww:
+        - w: good girl
+          d: いい子
+        - w: pose as
+          d: ぶって
+        - ''
+        - w: cutesy playing girl
+          d: ぶりっ子
+        - w: justice
+          d: 正義
+        - w: ('s)
+          d: の
+        - w: hammer
+          d: 鉄槌
+        - d: いい子ぶって ぶりっ子正義の鉄槌
+        en:
+        - Pretending to be a good girl, a hypocrite wielding the hammer of justice
+      - ol:
+        - アブラカタブラ
+        ro:
+        - aburakatabura
+        ww:
+        - w: abracadabra
+          d: アブラカタブラ
+        - d: アブラカタブラ
+        en:
+        - Abracadabra
+    - lines:
+      - ol:
+        - 信じたら
+        - ' '
+        - おしまい
+        - なのです
+        ro:
+        - shinjitara
+        - ''
+        - oshimai
+        - na no desu
+        ww:
+        - w: if believe
+          d: 信じたら
+        - ''
+        - w: the end
+          d: おしまい
+        - w: it is (fact)
+          d: なのです
+        - d: 信じたら おしまいなのです
+        en:
+        - If you believe it, it's over
+      - ol:
+        - 今日
+        - の
+        - 敵
+        - は
+        - 明日
+        - も
+        - 敵
+        - です
+        ro:
+        - kyō
+        - no
+        - teki
+        - wa
+        - ashita
+        - mo
+        - teki
+        - desu
+        ww:
+        - w: today
+          d: 今日
+        - w: ('s)
+          d: の
+        - w: enemy
+          d: 敵
+        - w: ''
+          d: は
+        - w: tomorrow
+          d: 明日
+        - w: also
+          d: も
+        - w: enemy
+          d: 敵
+        - w: be
+          d: です
+        - d: 今日の敵は明日も敵です
+        en:
+        - Today's enemy is tomorrow's enemy
+      - ol:
+        - 友情
+        - ハイ
+        - ブラ
+        - ' '
+        - 心
+        - バラバラ
+        ro:
+        - yūjō
+        - hai
+        - bura
+        - ''
+        - kokoro
+        - barabara
+        ww:
+        - w: friendship
+          d: 友情
+        - w: high
+          d: ハイ
+        - w: brand (shortened)
+          d: ブラ
+        - ''
+        - w: mind
+          d: 心
+        - w: disconnected
+          d: バラバラ
+        - d: 友情ハイブラ 心バラバラ
+        en:
+        - Friendship is high brand. Minds are disjointed
+      - ol:
+        - 燃え
+        - 散らかして
+        ro:
+        - moe
+        - chirakashita
+        ww:
+        - w: burn
+          d: 燃え
+        - w: scattered
+          d: 散らかして
+        - d: 燃え散らかして
+        en:
+        - Burning everything down
+      - ol:
+        - 今日
+        - も
+        - 生きていきましょう
+        ro:
+        - kyō
+        - mo
+        - ikiteikimashō
+        ww:
+        - w: today
+          d: 今日
+        - w: also
+          d: も
+        - w: let's be living
+          d: 生きていきましょう
+        - d: 今日も生きていきましょう
+        en:
+        - Let's live through today as well
+    - lines:
+      - ol:
+        - 間違い探し
+        - 疑心暗鬼
+        - Dope
+        ro:
+        - machigai sagashi
+        - gashin'anki
+        - ''
+        ww:
+        - w: spot the difference (game)
+          d: 間違い探し
+        - w: suspicion
+          d: 疑心暗鬼
+        - ''
+        - d: 間違い探し 疑心暗鬼 Dope
+        en:
+        - Spot the difference Suspicion Dope
+      - ol:
+        - 憧れ
+        - スパイシー
+        ro:
+        - akogare
+        - supaishī
+        ww:
+        - w: longing
+          d: 憧れ
+        - w: spicy
+          d: スパイシー
+        - d: 憧れスパイシー
+        en:
+        - Longing Spicy
+      - ol:
+        - 足元
+        - お
+        - 気を付け
+        - ください
+        - ' '
+        - ください
+        ro:
+        - ashimoto
+        - a
+        - kiotsuke
+        - kudasai
+        - ''
+        - kudasai
+        ww:
+        - w: step
+          d: 足元
+        - w: ''
+          d: お
+        - w: attention!
+          d: 気を付け
+        - w: please
+          d: ください
+        - ''
+        - w: please
+          d: ください
+        - d: 足元お気を付けください ください
+        en:
+        - Watch your step, Please
+      - ol:
+        - 全て
+        - を
+        - ください
+        ro:
+        - sugete
+        - o
+        - kudasai
+        ww:
+        - w: everything
+          d: 全て
+        - w: ''
+          d: を
+        - w: please
+          d: ください
+        - d: 全てをください
+        en:
+        - Give me everything
+      - ol:
+        - 遊びましょう
+        ro:
+        - asobimashō
+        ww:
+        - w: let's play
+          d: 遊びましょう
+        - d: 遊びましょう
+        en:
+        - Let's play
+    - lines:
+      - ol:
+        - あーあーあーあーあ
+        ro:
+        - a-a-a-a-a
+        en:
+        - Ah-ah-ah-ah-ah
+      - ol:
+        - どいつもこいつも
+        - シャカリキ
+        - 鬼
+        - ダルい
+        ro:
+        - doitsu mo koitsu mo
+        - shakariki
+        - oni
+        - darui
+        ww:
+        - w: every single one
+          d: どいつもこいつも
+        - w: energetic
+          d: シャカリキ
+        - w: extremely
+          d: 鬼
+        - w: tiresome
+          d: ダルい
+        - d: どいつもこいつも シャカリキ鬼ダルい
+        en:
+        - Everyone is annoyingly overenthusiastic
+      - ol:
+        - 愛
+        - だの
+        - 恋
+        - だの
+        ro:
+        - ai
+        - dano
+        - koi
+        - dano
+        ww:
+        - w: affection
+          d: 愛
+        - w: and such
+          d: だの
+        - w: love
+          d: 恋
+        - w: and such
+          d: だの
+        - d: 愛だの恋だの
+        en:
+        - Love and affection
+      - ol:
+        - 欲まみれ
+        - で
+        - ごめんなさいな
+        ro:
+        - yokumamire
+        - de
+        - gomennasai na
+        ww:
+        - w: greedy
+          d: 欲まみれ
+        - w: with
+          d: で
+        - w: I'm sorry
+          d: ごめんなさいな
+        - d: 欲まみれでごめんなさいな
+        en:
+        - Sorry for being full of greed
+      - ol:
+        - 我ら
+        - は
+        - 魔
+        - NEK!
+        - 猫
+        ro:
+        - warera
+        - wa
+        - ma
+        - neki
+        - neko
+        ww:
+        - w: we
+          d: 我ら
+        - w: ''
+          d: は
+        - w: demon
+          d: 魔
+        - NEK!
+        - w: cat
+          d: 猫
+        - d: 我らは魔NEK!猫
+        en:
+        - We are the "MA NEK! NEKO"
+      - ol:
+        - 騙し絵
+        - ' '
+        - 踏み絵
+        ro:
+        - damajie
+        - ''
+        - fumi-e
+        ww:
+        - w: trompe l'oeil
+          d: 騙し絵
+        - ''
+        - w: loyalty test
+          d: 踏み絵
+        - d: 騙し絵 踏み絵
+        en:
+        - Trick art, Fumi-e
+      - ol:
+        - 地獄
+        - へ
+        - ようこそ
+        - ♡
+        ro:
+        - jigoku
+        - he
+        - yōkoso
+        - ''
+        ww:
+        - w: hell
+          d: 地獄
+        - w: to
+          d: へ
+        - w: welcome
+          d: ようこそ
+        - ''
+        - d: 地獄へようこそ♡
+        en:
+        - Welcome to Hell♡
+    - lines:
+      - ol:
+        - 回れ
+        - 回れ
+        - ' '
+        - 右
+        - に
+        ro:
+        - maware
+        - maware
+        - ''
+        - migi
+        - in
+        ww:
+        - w: turn
+          d: 回れ
+        - w: turn
+          d: 回れ
+        - ''
+        - w: right
+          d: 右
+        - w: to
+          d: に
+        - d: 回れ回れ 右に
+        en:
+        - Turn turn To the right
+      - ol:
+        - 回れ
+        - 回れ
+        - ' '
+        - お
+        - 次
+        - は
+        - 左
+        ro:
+        - maware
+        - maware
+        - ''
+        - o
+        - tsuki
+        - wa
+        - hidari
+        ww:
+        - w: turn
+          d: 回れ
+        - w: turn
+          d: 回れ
+        - ''
+        - w: ''
+          d: お
+        - w: next
+          d: 次
+        - w: ''
+          d: は
+        - w: left
+          d: 左
+        - d: 回れ回れ お次は左
+        en:
+        - Turn turn Next left
+      - ol:
+        - 感覚的
+        - 支配
+        - は
+        - ' '
+        - お手の物
+        ro:
+        - kankakuteki
+        - shihai
+        - wa
+        - ''
+        - ote no mono
+        ww:
+        - w: sensori
+          d: 感覚的
+        - w: control
+          d: 支配
+        - w: ''
+          d: は
+        - ''
+        - w: one's speciality
+          d: お手の物
+        - d: 感覚的支配は お手の物
+        en:
+        - Sensory control is easy
+      - ol:
+        - 華麗なる
+        - ウィンク
+        - で
+        ro:
+        - kareinaru
+        - winku
+        - de
+        ww:
+        - w: magnificient
+          d: 華麗なる
+        - w: wink
+          d: ウィンク
+        - w: with
+          d: で
+        - d: 華麗なるウィンクで
+        en:
+        - With a brilliant wink
+    - lines:
+      - ol:
+        - 間違い探し
+        - 疑心暗鬼
+        - Dope
+        ro:
+        - machigai sagashi
+        - gashin'anki
+        - ''
+        ww:
+        - w: spot the difference (game)
+          d: 間違い探し
+        - w: suspicion
+          d: 疑心暗鬼
+        - ''
+        - d: 間違い探し 疑心暗鬼 Dope
+        en:
+        - Spot the difference Suspicion Dope
+      - ol:
+        - 憧れ
+        - スパイシー
+        ro:
+        - akogare
+        - supaishī
+        ww:
+        - w: longing
+          d: 憧れ
+        - w: spicy
+          d: スパイシー
+        - d: 憧れスパイシー
+        en:
+        - Longing Spicy
+      - ol:
+        - 足元
+        - お
+        - 気を付け
+        - ください
+        - ' '
+        - ください
+        ro:
+        - ashimoto
+        - a
+        - kiotsuke
+        - kudasai
+        - ''
+        - kudasai
+        ww:
+        - w: step
+          d: 足元
+        - w: ''
+          d: お
+        - w: attention!
+          d: 気を付け
+        - w: please
+          d: ください
+        - ''
+        - w: please
+          d: ください
+        - d: 足元お気を付けください ください
+        en:
+        - Watch your step, Please
+      - ol:
+        - 全て
+        - を
+        - ください
+        ro:
+        - sugete
+        - o
+        - kudasai
+        ww:
+        - w: everything
+          d: 全て
+        - w: ''
+          d: を
+        - w: please
+          d: ください
+        - d: 全てをください
+        en:
+        - Give me everything
+      - ol:
+        - 遊びましょう
+        ro:
+        - asobimashō
+        ww:
+        - w: let's play
+          d: 遊びましょう
+        - d: 遊びましょう
+        en:
+        - Let's play
+    - lines:
+      - ol:
+        - あら
+        - やだ
+        - やだ
+        - やだ
+        ro:
+        - ara
+        - yada
+        - yada
+        - yada
+        ww:
+        - w: oh!
+          d: あら
+        - w: no way
+          d: やだ
+        - w: no way
+          d: やだ
+        - w: no way
+          d: やだ
+        - d: あらやだやだやだ
+        en:
+        - Oh, no no no
+      - ol:
+        - 行き場
+        - の
+        - 無い
+        - 怒りったら
+        - ' '
+        - 反吐
+        - が
+        - 出る
+        - わ
+        ro:
+        - ikiba
+        - no
+        - nai
+        - ikarittara
+        - ''
+        - hedo
+        - ga
+        - doru
+        - wa
+        ww:
+        - w: place to go
+          d: ikiba
+        - w: ('s')
+          d: no
+        - w: nonexistant
+          d: nai
+        - w: gotten angry
+          d: ikarittara
+        - ''
+        - w: vomit
+          d: hedo
+        - w: ''
+          d: ga
+        - w: come out
+          d: doru
+        - w: (emphasis)
+          d: wa
+        - d: 行き場の無い怒りったら 反吐が出るわ
+        en:
+        - To anger that has no place to go,It makes me uncomfortable
+      - ol:
+        - あっちっち
+        - の
+        ro:
+        - acchicchi
+        - no
+        ww:
+        - w: hot, hot, hot
+          d: あっちっち
+        - w: ''
+          d: の
+        - d: あっちっちの
+        en:
+        - Hot, hot
+      - ol:
+        - 地
+        - の
+        - 利
+        - を
+        - 活かした
+        - ' '
+        - 理想郷
+        - 完成
+        ro:
+        - chi
+        - no
+        - ri
+        - o
+        - ikashita
+        - ''
+        - risōkyō
+        - kansei
+        ww:
+        - w: place
+          d: 地
+        - w: ('s)
+          d: の
+        - w: advantage
+          d: 利
+        - w: ''
+          d: を
+        - w: leveraged
+          d: 活かした
+        - ''
+        - w: utopia
+          d: 理想郷
+        - w: completion
+          d: 完成
+        - d: 地の利を活かした 理想郷完成
+        en:
+        - Utopia completed by taking advantage of the geographical location
+      - ol:
+        - 秒
+        - で
+        - Swipe
+        - Block
+        ro:
+        - byō
+        - de
+        - ''
+        - ''
+        ww:
+        - w: second
+          d: 秒
+        - w: within
+          d: で
+        - ''
+        - ''
+        - d: 秒で Swipe Block
+        en:
+        - In a flash Swipe Block
+      - ol:
+        - いいとこ
+        - 切り取り
+        - マーメイド
+        ro:
+        - iitoko
+        - kiritori
+        - māmeido
+        ww:
+        - w: good thing
+          d: いいとこ
+        - w: cutting off
+          d: 切り取り
+        - w: mermaid
+          d: マーメイド
+        - d: いいとこ切り取りマーメイド
+        en:
+        - Mermaid with the best part cut out
+      - ol:
+        - 全て
+        - は
+        - あげません
+        - ♡
+        ro:
+        - sugete
+        - wa
+        - agemasen
+        - ''
+        ww:
+        - w: everything
+          d: 全て
+        - w: ''
+          d: は
+        - d: あげません
+        - not give
+        - d: 全てはあげません♡
+        en:
+        - I won't give you everything♡
+    - lines:
+      - ol:
+        - ハイエナ
+        - チック
+        - ' '
+        - キミ
+        - と
+        - マッチング
+        ro:
+        - haiena
+        - chikku
+        - ''
+        - kimi
+        - to
+        - macchingu
+        ww:
+        - w: hyena
+          d: ハイエナ
+        - w: '-like'
+          d: チック
+        - ''
+        - w: you
+          d: キミ
+        - w: with
+          d: と
+        - w: matching
+          d: マッチング
+        - d: ハイエナチック キミとマッチング
+        en:
+        - Hyena-like, Matching you
+      - ol:
+        - バードウォッチング
+        - ' '
+        - 上
+        - から
+        - 下
+        - まで
+        ro:
+        - bādowotchingu
+        - ''
+        - ue
+        - kara
+        - shita
+        - made
+        ww:
+        - w: birdwatching
+          d: バードウォッチング
+        - ''
+        - w: top
+          d: 上
+        - w: from
+          d: から
+        - w: bottom
+          d: 下
+        - w: to
+          d: まで
+        - d: バードウォッチング 上から下まで
+        en:
+        - Birdwatching From top to bottom
+      - ol:
+        - 顔
+        - じゃ無い
+        - なんて
+        - ' '
+        - バカ
+        - 言うな
+        - っての
+        ro:
+        - kao
+        - janai
+        - nante
+        - ''
+        - baka
+        - iuna
+        - tteno
+        ww:
+        - w: looks
+          d: 顔
+        - w: is not
+          d: じゃ無い
+        - w: things like
+          d: なんて
+        - ''
+        - w: foolish
+          d: バカ
+        - w: don't say
+          d: 言うな
+        - w: (emphasis)
+          d: っての
+        - d: 顔じゃ無いなんて バカ言うなっての
+        en:
+        - Don't be silly and say it's not about the face
+      - ol:
+        - 所詮
+        - 見せびらかし
+        - の
+        - 類
+        ro:
+        - shosen
+        - misebirakashi
+        - no
+        - tagui
+        ww:
+        - w: after all
+          d: 所詮
+        - w: show off
+          d: 見せびらかし
+        - w: ('s)
+          d: の
+        - w: kind
+          d: 類
+        - d: 所詮見せびらかしの類
+        en:
+        - It's just a show-off kind of thing
+      - ol:
+        - 羨望
+        - 眼差し
+        ro:
+        - senbō
+        - manazashi
+        ww:
+        - w: envy
+          d: 羨望
+        - w: gaze
+          d: 眼差し
+        - d: 羨望眼差し
+        en:
+        - Eyes of envy
+      - ol:
+        - キンキラキン
+        - ギンギラギン
+        ro:
+        - kinkirakin
+        - gingiragin
+        ww:
+        - w: sparkly
+          d: キンキラキン
+        - w: sparkly
+          d: ギンギラギン
+        - d: キンキラキン ギンギラギン
+        en:
+        - Bright bright
+      - ol:
+        - 美しく
+        - も
+        - 儚い
+        - 瞳
+        - は
+        - ' '
+        - 哀れ
+        - です
+        ro:
+        - utsukujiku
+        - mo
+        - hakanai
+        - hitomi
+        - wa
+        - ''
+        - aware
+        - desu
+        ww:
+        - w: beautiful
+          d: 美しく
+        - w: also
+          d: も
+        - w: ephemeral
+          d: 儚い
+        - w: eyes
+          d: 瞳
+        - w: ''
+          d: は
+        - ''
+        - w: pathetic
+          d: 哀れ
+        - w: be
+          d: です
+        - d: 美しくも儚い瞳は 哀れです
+        en:
+        - Beautiful but fragile eyes, so pathetic
+    - lines:
+      - ol:
+        - どこ
+        - まで
+        - ？？
+        ro:
+        - doko
+        - made
+        - ''
+        ww:
+        - w: how far
+          d: どこ
+        - w: until
+          d: まで
+        - ''
+        - d: どこまで？？
+        en:
+        - How far ??
+      - ol:
+        - 果て
+        - まで
+        - しがみついてやる
+        - わ
+        ro:
+        - hate
+        - made
+        - shigamitsuiteyaru
+        - wa
+        ww:
+        - w: end
+          d: 果て
+        - w: until
+          d: まで
+        - w: cling (strong)
+          d: しがみついてやる
+        - w: (emphasis)
+          d: わ
+        - d: 果てまでしがみついてやるわ
+        en:
+        - I'll cling on until the end
+    - lines:
+      - ol:
+        - あーあーあーあーあ
+        ro:
+        - a-a-a-a-a
+        en:
+        - Ah-ah-ah-ah-ah
+      - ol:
+        - どいつもこいつも
+        - シャカリキ
+        - 鬼
+        - ダルい
+        ro:
+        - doitsu mo koitsu mo
+        - shakariki
+        - oni
+        - darui
+        ww:
+        - w: every single one
+          d: どいつもこいつも
+        - w: energetic
+          d: シャカリキ
+        - w: extremely
+          d: 鬼
+        - w: tiresome
+          d: ダルい
+        - d: どいつもこいつも シャカリキ鬼ダルい
+        en:
+        - Everyone is annoyingly overenthusiastic
+      - ol:
+        - 愛
+        - だの
+        - 恋
+        - だの
+        ro:
+        - ai
+        - dano
+        - koi
+        - dano
+        ww:
+        - w: affection
+          d: 愛
+        - w: and such
+          d: だの
+        - w: love
+          d: 恋
+        - w: and such
+          d: だの
+        - d: 愛だの恋だの
+        en:
+        - Love and affection
+      - ol:
+        - 欲まみれ
+        - で
+        - ごめんなさいな
+        ro:
+        - yokumamire
+        - de
+        - gomennasai na
+        ww:
+        - w: greedy
+          d: 欲まみれ
+        - w: with
+          d: で
+        - w: I'm sorry
+          d: ごめんなさいな
+        - d: 欲まみれでごめんなさいな
+        en:
+        - Sorry for being full of greed
+      - ol:
+        - 我ら
+        - は
+        - 魔
+        - NEK!
+        - 猫
+        ro:
+        - warera
+        - wa
+        - ma
+        - neki
+        - neko
+        ww:
+        - w: we
+          d: 我ら
+        - w: ''
+          d: は
+        - w: demon
+          d: 魔
+        - NEK!
+        - w: cat
+          d: 猫
+        - d: 我らは魔NEK!猫
+        en:
+        - We are the "MA NEK! NEKO"
+      - ol:
+        - 騙し絵
+        - ' '
+        - 踏み絵
+        ro:
+        - damajie
+        - ''
+        - fumi-e
+        ww:
+        - w: trompe l'oeil
+          d: 騙し絵
+        - ''
+        - w: loyalty test
+          d: 踏み絵
+        - d: 騙し絵 踏み絵
+        en:
+        - Trick art, Fumi-e
+      - ol:
+        - 地獄
+        - へ
+        - ようこそ
+        - ♡
+        ro:
+        - jigoku
+        - he
+        - yōkoso
+        - ''
+        ww:
+        - w: hell
+          d: 地獄
+        - w: to
+          d: へ
+        - w: welcome
+          d: ようこそ
+        - ''
+        - d: 地獄へようこそ♡
+        en:
+        - Welcome to Hell♡
+
+- postx:
+    id: 1757661923750052131
+    account: nekiband_jp
+    label: Early rehearsal
+    info: MAZE
+    published-date: 2024-02-14
+    text: |-
+      また別の曲のイントロが出来ました！
+      どうかなー？？？？
+      https://vt.tiktok.com/ZSF2ygUDH/
+      #NEKI #ガールズバンド
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postx:
+    id: 1925772297672991117
+    account: coco_102
+    label: Rehearsal
+    info: MAZE
+    published-date: 2025-05-23
+    text: |-
+      MAZE、真上から撮ってみた🥁
+      
+      角度ちょっと見にくい？こりゃ改善の余地ありだな！
+      
+      てかMAZEのここめっちゃ好きなのよ😏🫶🏻
+      (リズム隊の練習のときに撮ったからクリックの音がめっちゃ入っちゃってるけど気にしないで笑)
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 07f45bf9-c67a-418b-9220-eca8a69b49c5
+    part-of:
+      song: maze
+
+- postx:
+    id: 1929111367635603641
+    account: 46_hikaa
+    label: 300k views
+    published-date: 2025-06-01
+    text: |-
+      「MAZE」Official Music Video
+      30万回再生ありがとうございます‼︎
+      
+      懐かしい動画出てきたので
+      一緒に投稿しちゃお🫶
+    video:
+    - 8b76cee5-46f4-4336-9c6a-f5e2767298b3
+    part-of:
+      song: maze
+
+- postx:
+    id: 1942536099408060918
+    account: natsu08_guitar
+    label: Rehearsal day
+    published-date: 2025-07-08
+    text: |-
+      本日リハでしたん❗️❗️
+      たくさん話し合いしました❗️❗️❗️
+      そーゆう日も大事よねん✌︎
+      
+      7/18が楽しみだーーーーー❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      #ネキ界隈 #拡散中
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postx:
+    id: 1942870532166443144
+    account: cure_bass_baka
+    label: Rehearsal
+    published-date: 2025-07-09
+    text: |-
+      『MAZE／NEK!』
+      スタジオで撮ったのそのままアップ
+      #NEKI  #拡散中  #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postx:
+    id: 1944276413441532112
+    account: coco_102
+    label: Trying GoPro at rehearsal
+    published-date: 2025-07-13
+    text: |-
+      GoPro使って初めての画角で撮ってみた！
+      なんか新鮮…！！
+      
+      続きはまた今度😎🔥
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postx:
+    id: 1944631818776637471
+    account: coco_102
+    label: More MAZE rehearsal
+    published-date: 2025-07-14
+    text: |-
+      昨日の続き！MAZEのラスサビ〜Outroです❤️‍🔥
+      
+      いつもライブのときは今日もMAZEやりきったぞー！って顔して叩いてる部分です笑
+      
+      今週末の大阪も楽しみだな🤤
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postx:
+    id: 1945064752297680913
+    account: cure_bass_baka
+    label: Rehearsal
+    published-date: 2025-07-15
+    text: |-
+      『MAZE-NEK!』ラスサビ〜アウトロ
+      この間の動画の続き
+      #NEKI  #拡散中  #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postx:
+    id: 1955168434913952216
+    account: coco_102
+    label: Rehearsal zero-sum
+    published-date: 2025-08-12
+    text: |-
+      🙆🏻‍♀️zero-sum🙆🏻‍♀️
+      
+      派手なおかずが目立つ曲だけど
+      1Aのいろんなビートてんこ盛りゾーンも好き👊🏻❤️‍🔥
+      右端の鏡に映る忙しない足もお楽しみください笑
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postx:
+    id: 1959203686225445197
+    account: cure_bass_baka
+    label: Rehearsal
+    published-date: 2025-08-23
+    text: |-
+      #NEKI  #ネキ界隈  #拡散中
+    part-of:
+      song: maze
+
+- postx:
+    id: 1959533059923128628
+    account: coco_102
+    label: Rehearsal
+    published-date: 2025-08-24
+    text: |-
+      この2番サビ入りのキメめっちゃ好きー！！
+      本当に全パートかっこいいから、ライブのときはファンの皆さんにどうにか目を増やしてもらって全員のことを見てほしい😂
+      
+      NEK!の楽曲はどれもかっこいいフレーズが盛りだくさんなので8月30日は1秒たりとも油断しないでくださいね！
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+    part-of:
+      song: maze
+
+- postxvideo:
+    post: 1757661923750052131
+    id: 01
+    label: Early rehearsal
+    info: Hika, Kanade, Cocoro
+    published-date: 2024-02-14
+    cover: 1757661877314912256/pu/img/IhTBfhIACRlH3lDE.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1757661923750052131
+
+- postxvideo:
+    post: 1925772297672991117
+    id: 07f45bf9-c67a-418b-9220-eca8a69b49c5
+    label: Rehearsal
+    info: Cocoro
+    published-date: 2025-05-23
+    cover: 1925772201610883073/img/F7RzU8u86kmiQYRn.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1925772297672991117
+
+- postxvideo:
+    post: 1929111367635603641
+    id: 8b76cee5-46f4-4336-9c6a-f5e2767298b3
+    label: Music Video
+    info: behind the scenes
+    published-date: 2025-06-01
+    cover: 1929111310907871232/img/kFvYTc3MGOs60gQu.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1929111367635603641
+
+- postxvideo:
+    post: 1942536099408060918
+    id: 01
+    label: Rehearsal
+    info: Natsu
+    published-date: 2025-07-08
+    cover: 1942535979392548864/img/oWINXZZka6Yxttd8.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1942536099408060918
+
+- postxvideo:
+    post: 1942870532166443144
+    id: 01
+    label: Rehearsal
+    info: Kanade
+    published-date: 2025-07-09
+    cover: 1942870175277322240/img/mSDgdLuLIiF5v_I5.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1942870532166443144
+
+- postxvideo:
+    post: 1944276413441532112
+    id: 01
+    label: Reheasal
+    info: solo, Cocoro
+    published-date: 2025-07-13
+    cover: 1944276091398660096/img/5J_L1dD-sf2wHZKz.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1944276413441532112
+
+- postxvideo:
+    post: 1944631818776637471
+    id: 01
+    label: Rehearsal
+    info: outro, Cocoro
+    published-date: 2025-07-14
+    cover: 1944631713948438528/img/FfqQ8pVCxP9_i-Qv.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1944631818776637471
+
+- postxvideo:
+    post: 1945064752297680913
+    id: 01
+    label: Rehearsal
+    info: Kanade
+    published-date: 2025-07-15
+    cover: 1945063800652156928/img/C-0H_dSLh3ZDmt5H.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1945064752297680913
+
+- postxvideo:
+    post: 1955168434913952216
+    id: 01
+    label: Rehearsal
+    published-date: 2025-08-12
+    cover: 1955168233520308224/img/nn5XMiKYzwZ1z9yR.jpg
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1955168434913952216
+
+- postxvideo:
+    post: 1959203686225445197
+    id: 01
+    label: Rehearsal
+    published-date: 2025-08-23
+    cover: 1959203487201583104/img/jo9JMWaN3PcsD7gK.jpg
+    context:
+    - song: maze
+    part-of:
+      postx: 1959203686225445197
+
+- postxvideo:
+    post: 1959533059923128628
+    id: 01
+    label: Rehearsal
+    published-date: 2025-08-12
+    cover: 1959532949168394240/img/dGDvkdVTI7NCMrMk.jpg
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1959533059923128628
+
+- postyoutube:
+    id: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
+    account: neki_official
+    published-date: 2024-06-03
+    label: release MV
+    text: |-
+      🌀 Music Video公開 🌀
+      
+      "MAZE"
+      
+      https://youtu.be/EHtWJmMybGY
+    image:
+    - 6bC7UjDfvJotHWo0r25BbIvnHrxDVHYGAbnqz3svBzhysW9DwB6rkxrTB31tt-SPP73STrQoZ51ofKE
+    todo: double check published-date with X post
+    part-of:
+      song: maze
+
+- postyoutubeimage:
+    post: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
+    id: 6bC7UjDfvJotHWo0r25BbIvnHrxDVHYGAbnqz3svBzhysW9DwB6rkxrTB31tt-SPP73STrQoZ51ofKE
+    label: MV frame
+    published-date: 2024-06-03
+    local-copy: true
+    context:
+    - song: maze
+    part-of:
+      postyoutube: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
+
+- youtubeshort:
+    id: '-WsoxfXBQgs'
+    label: Music Video
+    info: Natsu focus
+    published-date: 2024-07-28
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: 3Gv44hlzG10
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2024-05-24
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: AhqVr3xl4dE
+    label: Music Video
+    info: Kanade focus
+    published-date: 2024-07-27
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: CoLNU-KhFRQ
+    label: Promo
+    info: Shibuya eggman, studio audio
+    published-date: 2024-05-14
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: JL79sxFFbAs
+    label: Music Video
+    info: behind the scenes, taking pictures of Hika
+    published-date: 2025-07-10
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: P31Jcb1ULXU
+    label: Promo
+    info: studio audio, rehearsal room
+    published-date: 2025-06-14
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: RRLrjTPG_3w
+    label: Music Video
+    info: behind the scenes, trying ideas
+    published-date: 2025-06-08
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: RRgKzA56H5k
+    label: Promo
+    info: Shibuya eggman, studio audio, with lyrics
+    published-date: 2024-06-01
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: SHzGrNQVW4c
+    label: Music Video
+    info: behind the scenes, discovering the set
+    published-date: 2025-05-22
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: YyVP2j7Yw3c
+    label: Music Video
+    info: Cocoro focus
+    published-date: 2024-07-29
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: Z3FmAWbz8KM
+    label: Promo
+    info: studio audio, rehearsal room
+    published-date: 2025-08-14
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: bBx938HIdB8
+    label: Music Video
+    info: behind the scenes, setting up the drums, Cocoro
+    published-date: 2025-06-17
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: bKzG7cGdlkE
+    label: Promo
+    info: Reheasal room, studio audio
+    published-date: 2025-05-13
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: fZaCODUXQ6k
+    label: Music Video
+    info: Hika focus
+    published-date: 2024-07-31
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: g4vw2DntZiI
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2024-05-27
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: qiqSjNmuWSs
+    label: Music Video
+    published-date: 2024-07-24
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: rY_z0WZr4l4
+    label: Promo
+    info: Shibuya eggman, studio audio
+    published-date: 2024-06-13
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: vaCGvTEI9yU
+    label: Promo
+    info: Shibuya eggman, studio audio, with lyrics
+    published-date: 2024-05-19
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
+    id: wNkTokxYCug
+    label: Teaser
+    published-date: 2024-07-20
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubevideo:
+    id: AqVoa-PMl8I
+    label: Music Video Teaser
+    published-date: 2024-07-20
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubevideo:
+    id: EHtWJmMybGY
+    label: Official Music Video
+    published-date: 2024-07-24
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubevideo:
+    id: hXGPxYalJfk
+    label: Kanade Bass play-through
+    published-date: 2024-08-29
+    context:
+    - song: maze
+    part-of:
+      song: maze
+

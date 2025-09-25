@@ -1,0 +1,41 @@
+song:
+  id: endlessgame
+  cover-image:
+    postyoutubeimage:
+      post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+      image: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+  fullname: ENDLESSGAME
+  album: exclamation
+  release-date: 2024-07-24
+  lyrics:
+  - main
+  lyricist:
+    value: NEK!, Kumoi Haruka
+    source:
+      description: 'JASRAC - work ID: 303-5429-3'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, Yuki Tanabe
+    source:
+      description: 'JASRAC - work ID: 303-5429-3'
+      url: 'https://www2.jasrac.or.jp/'
+  multimedia:
+    live:
+    - postxvideo:
+        post: 1949753645215412472
+        video: 01
+    - youtubeshort: FRbyFkaf9-A
+    - postxvideo:
+        post: 1922588708026404968
+        video: 4c117af0-984b-4ba9-8a30-e82f968dd226
+    - postxvideo:
+        post: 1919554837458399724
+        video: ab614f11-559a-4b05-9110-a93a478c49d9
+    - youtubeshort: zWS1TQ1kP6A
+    short:
+    - postxvideo:
+        post: 1944348020235292759
+        video: 01
+    - postxvideo:
+        post: 1917072614553751559
+        video: bc491773-b07c-434d-aadd-06c5ae8679fa

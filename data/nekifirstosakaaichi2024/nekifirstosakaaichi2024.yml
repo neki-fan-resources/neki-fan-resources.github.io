@@ -1,0 +1,19 @@
+tour:
+  id: nekifirstosakaaichi2024
+  cover-image:
+    localimage:
+      tour: nekifirstosakaaichi2024
+      id: cover
+  fullname: NEK!初の大阪・愛知
+  first-date: 2024-08-21
+  last-date: 2024-08-24
+  shows:
+  - year: 2024
+    id: daydreamer4night
+  - year: 2024
+    id: girlsgirlsgirls
+  - year: 2024
+    id: soundsgoodvol73
+  - year: 2024
+    id: wingedit
+  event-page: 'https://note.com/nekiband_jp/n/n4171192bfb28'

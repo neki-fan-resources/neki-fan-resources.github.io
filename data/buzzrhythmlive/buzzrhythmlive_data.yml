@@ -1,0 +1,148 @@
+- postx:
+    id: 1966335966437929047
+    account: BUZZRHYTHM_NTV
+    label: Announcement
+    published-date: 2025-09-12
+    text: |-
+      出演アーティスト解禁！！！
+      チケット先着受付もスタート！
+      
+      ◤￣￣￣￣￣￣￣￣￣￣
+      バズリズム 𝗟𝗜𝗩𝗘  新ステージ
+      　　  𝘽𝙐𝙕𝙕𝙀𝙍 𝙎𝙏𝘼𝙂𝙀
+      ＿＿＿＿＿＿＿＿＿＿◢
+      
+      11/1(土) 𝐃𝐀𝐘𝟏
+      ◼︎KI_EN
+      ◼︎KOIAI
+      ◼︎Billyrrom
+      
+      11/2(日) 𝐃𝐀𝐘𝟐
+      ◼︎NEK!
+      and more...
+      
+      11/3(月・祝) 𝐃𝐀𝐘𝟑
+      ◼︎終活クラブ
+      ◼︎猫背のネイビーセゾン
+      ◼︎Baby Canta
+      
+      バズリズムのアンテナで
+      未来のスターアーティストの激アツライブを
+      自信を持ってお届けします📡⚡️
+      https://buzzrhythm.live
+      
+      ----BUZZER STAGEとは----
+      ✔️ ライブの時間は13時〜15時の
+      　  メインアリーナライブ開場前の時間
+      ✔️メインアリーナとBUZZER STAGE
+      　   開演時間は被っていないので
+      　   安心してじっくりと楽しめる！
+      　  ※チケットはそれぞれ必要です
+      ✔️ 約500人キャパ
+      ✔️ ライブハウス感覚の新しいステージ
+      ✔️ チケット代 ¥2,500（税込）
+      ✔️ in 横浜アリーナ 2F センテニアルホール
+      ✔️ よみかた：ブザーステージ
+    image:
+    - G0jA10Va8AAl_wd
+    - G0jA1z1bIAAHBld
+    - G0jA1z7bsAA0lDq
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1966336018229121319
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-09-12
+    text: |-
+      🚨⚡️情報解禁⚡️🚨
+      
+      11/2(日)
+      バズリズム LIVE 2025 -BUZZER STAGE-
+      ＠ 横浜アリーナ 2Fセンテニアルホール
+      
+      +ﾟ*｡:ﾟ+✧+━━━
+      バズリズム LIVE 新ステージ
+      NEK!の出演が決定🔥
+      　　　　　━━━+✧+ﾟ:｡*ﾟ+
+      
+      🎫オフィシャル先着先行受付スタート！
+      
+      🔗https://buzzrhythm.live
+      
+      #NEKI #バズライブ
+    image:
+    - G0nPdRUaYAAaVrH
+    - G0nPfDKaMAgZmN1
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postximage:
+    post: 1966335966437929047
+    id: G0jA10Va8AAl_wd
+    label: Bands
+    info: BUZZER stage - day 1
+    published-date: 2025-09-12
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1966335966437929047
+
+- postximage:
+    post: 1966335966437929047
+    id: G0jA1z1bIAAHBld
+    label: Bands
+    info: BUZZER stage - day 2
+    published-date: 2025-09-12
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1966335966437929047
+
+- postximage:
+    post: 1966335966437929047
+    id: G0jA1z7bsAA0lDq
+    label: Bands
+    info: BUZZER stage - day 3
+    published-date: 2025-09-12
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1966335966437929047
+
+- postximage:
+    post: 1966336018229121319
+    id: G0nPdRUaYAAaVrH
+    label: Flyer
+    published-date: 2025-09-12
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1966336018229121319
+
+- postximage:
+    post: 1966336018229121319
+    id: G0nPfDKaMAgZmN1
+    label: NEK! Poster
+    published-date: 2025-09-12
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1966336018229121319
+

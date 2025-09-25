@@ -1,0 +1,183 @@
+- localimage:
+    show:
+      year: 2025
+      id: 1stzepponeman
+    id: cover
+    label: cover
+    published-date: 2025-01-01
+    source:
+      description: NEK! note post
+      url: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
+    todo: better published date
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- newsitem:
+    id: done
+    show:
+      year: 2025
+      id: 1stzepponeman
+    title: NEK! 1ST ZEPP ONE MAN
+    active: true
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    text:
+    - line:
+      - text: 'NEK! did their '
+      - show:
+          year: 2025
+          id: 1stzepponeman
+      - text: ' show, on August 30th, at Zepp Shinjuku in Tokyo.'
+    - line:
+      - text: The images and videos shared by the band are available.
+
+- newsitem:
+    id: upcoming
+    show:
+      year: 2025
+      id: 1stzepponeman
+    title: NEK! 1ST ZEPP ONE MAN
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    text:
+    - line:
+      - text: NEK! will do their first Zepp show, on August 30th, at Zepp Shinjuku in Tokyo.
+    - line:
+      - text: GA tickets are available !!
+
+- postx:
+    id: 1950563193366954288
+    account: 46_hikaa
+    label: Rehearsal dreams
+    published-date: 2025-07-30
+    text: |-
+      リハ映像👀🫶🏻 ̖́-
+      
+      #ネキ界隈   #NEKI
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1956675862444769366
+    account: natsu08_guitar
+    label: Fun at the rehearsal
+    published-date: 2025-08-16
+    text: |-
+      わちゃわちゃネキ！！
+      Zeppに向けてリハしてますよん🫶🏻
+      なんと今日であと2週間✌🏻
+      悔いのない日々を過ごしたいね🔥
+      
+      #ネキ界隈 #拡散中
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961015583069335728
+    account: nekiband_jp
+    label: last day for tickets
+    published-date: 2025-08-28
+    text: |-
+      💫初Zeppワンマンまであと2日💫
+      
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+      
+      チケット一般発売は明日8/29(金)23:59まで❗️
+      
+      🔗https://note.com/nekiband_jp/n/nced90123f587
+      
+      #NEKI
+    image:
+    - GzbtRUjbUAAj0pI
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postximage:
+    post: 1961015583069335728
+    id: GzbtRUjbUAAj0pI
+    label: Merch
+    published-date: 2025-08-28
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961015583069335728
+
+- postxvideo:
+    post: 1950563193366954288
+    id: 01
+    label: Rehearsal
+    published-date: 2025-07-30
+    cover: 1950563128963670016/img/DakJQTC9LcIAMDdT.jpg
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1950563193366954288
+
+- postxvideo:
+    post: 1956675862444769366
+    id: 01
+    label: Rehearsal
+    info: some fun
+    published-date: 2025-08-16
+    cover: 1956675794098622464/img/ECUT7C3BAKZ1NFos.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1956675862444769366
+
+- youtubeshort:
+    id: 0hC9M6VeCJk
+    label: Announcement
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: lFPBSexcRHM
+    label: Live
+    info: intro
+    published-date: 2025-09-02
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: getover
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+

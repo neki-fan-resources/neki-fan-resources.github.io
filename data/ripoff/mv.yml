@@ -1,0 +1,199 @@
+- group:
+    id: mv
+    label: Music Video
+    part-of:
+      song: ripoff
+
+- postx:
+    id: 1960317535112597659
+    account: coco_102
+    label: 10k views
+    published-date: 2025-08-26
+    text: |-
+      "rip-off" Music Video 1万回再生突破！ありがとう🌞
+      
+      思想強めでパンチの効いた見所満載なMVになってるので、ぜひ何度でもお楽しみください〜〜〜
+      
+      私のお気に入りは、手持ちカメラを用いた各パートの激しい演奏シーンと4人で円になって手繋いでるところ
+    image:
+    - GzRyTBxbcAA87rM
+    - GzRyTB-aQAAgkcY
+    part-of:
+      group:
+        id: mv
+        song: ripoff
+
+- postx:
+    id: 1960333645996232799
+    account: natsu08_guitar
+    label: 10k views
+    published-date: 2025-08-26
+    text: |-
+      “rip-off” 1万回再生ありがと~！
+      と言うことで、オフショット②
+      
+      ふりふりスカートお気に入り⭐︎
+      まだまだたくさん観て聴いてほしいです📹🔥
+      
+      https://youtu.be/OkQV2Vo9EgE?si=rAAK6k1Wexp-Q761
+    image:
+    - GzSBCPNaAAArcMt
+    - GzSBCPBaMAASLd4
+    - GzSBCOtaAAAPzFp
+    - GzSBCPOaEAAbz_t
+    part-of:
+      group:
+        id: mv
+        song: ripoff
+
+- postx:
+    id: 1960529877574279264
+    account: 46_hikaa
+    label: 10k
+    published-date: 2025-08-26
+    text: |-
+      「rip-off」 Official Music Video📷´-
+      
+      Thank you for 10,000 Views🤍🫧
+    image:
+    - GzUzhFka4AAopmC
+    part-of:
+      group:
+        id: mv
+        song: ripoff
+
+- postximage:
+    post: 1960317535112597659
+    id: GzRyTB-aQAAgkcY
+    label: MV
+    info: behind the scenes, Cocoro
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    todo: image has alt
+    part-of:
+      postx: 1960317535112597659
+
+- postximage:
+    post: 1960317535112597659
+    id: GzRyTBxbcAA87rM
+    label: MV
+    info: behind the scenes, Cocoro
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    todo: image has alt
+    part-of:
+      postx: 1960317535112597659
+
+- postximage:
+    post: 1960333645996232799
+    id: GzSBCOtaAAAPzFp
+    label: MV
+    info: behind the scenes, Natsu
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960333645996232799
+
+- postximage:
+    post: 1960333645996232799
+    id: GzSBCPBaMAASLd4
+    label: MV
+    info: behind the scenes, Natsu
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960333645996232799
+
+- postximage:
+    post: 1960333645996232799
+    id: GzSBCPNaAAArcMt
+    label: MV
+    info: behind the scenes, Natsu
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960333645996232799
+
+- postximage:
+    post: 1960333645996232799
+    id: GzSBCPOaEAAbz_t
+    label: MV
+    info: behind the scenes, cake time
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960333645996232799
+
+- postximage:
+    post: 1960529877574279264
+    id: GzUzhFka4AAopmC
+    label: MV
+    info: behind the scenes, Hika
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960529877574279264
+
+- youtubeshort:
+    id: AMBbAX1kjp4
+    label: Music Video
+    published-date: 2025-08-24
+    context:
+    - song: ripoff
+    part-of:
+      group:
+        id: mv
+        song: ripoff
+
+- youtubeshort:
+    id: D0uRZRg6dm0
+    label: MV
+    info: Extra clips
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      group:
+        id: mv
+        song: ripoff
+
+- youtubeshort:
+    id: RN4Ijrh0wSs
+    label: Music Video
+    published-date: 2025-08-23
+    context:
+    - song: ripoff
+    part-of:
+      group:
+        id: mv
+        song: ripoff
+
+- youtubeshort:
+    id: tUn954N0b0c
+    label: MV Teaser
+    published-date: 2025-08-22
+    context:
+    - song: ripoff
+    part-of:
+      group:
+        id: mv
+        song: ripoff
+
+- youtubevideo:
+    id: pnJR-FNVILE
+    label: Official Teaser
+    published-date: 2025-08-22
+    context:
+    - song: ripoff
+    part-of:
+      group:
+        id: mv
+        song: ripoff
+

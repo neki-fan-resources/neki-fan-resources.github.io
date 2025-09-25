@@ -1,0 +1,31 @@
+- postx:
+    id: 1951215513217994873
+    account: coco_102
+    label: Blink live
+    published-date: 2025-08-01
+    text: |-
+      久しく載せていなかったBlink🫰🏻🤍
+      
+      そもそもライブでも長らくやってなかったから叩きながら「やっぱいい曲だなぁ、、」としみじみしてました
+      
+      NEK!は激しめの曲が目立つけどバラードもとても良いのでぜひ聴きに来てね！
+      
+      #NEKI #拡散中 #ネキ界隈
+    video:
+    - 01
+
+- postxvideo:
+    post: 1951215513217994873
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-08-01
+    cover: 1951215284448292864/img/9dcLD7LXg-RbbEkG.jpg
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: blink
+    part-of:
+      postx: 1951215513217994873
+

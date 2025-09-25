@@ -1,0 +1,66 @@
+- localimage:
+    media:
+      year: 2025
+      id: nack5fantasyradio
+    id: logo
+    label: logo
+    published-date: 2025-01-01
+    source:
+      description: FANTASY RADIO webpage
+      url: 'https://www.nack5.co.jp/program/fantasyradio/'
+    todo: better published date
+    part-of:
+      media:
+        year: 2025
+        id: nack5fantasyradio
+
+- postx:
+    id: 1903452529729695755
+    account: nekiband_jp
+    label: NEK! at NACK5 FANTASY RADIO
+    published-date: 2025-03-22
+    text: |-
+      本日25:30〜放送！
+      NACK5「FANTSY RADIO」
+      
+      NEK!はこのあと26時台に出演させていただきます📻
+      
+      ぜひお聴きください！
+      
+      https://radiko.jp/share/?t=20250322253000&sid=NACK5 
+      
+      #NEKI #ファンラジ795 #nack5
+    image:
+    - Gmpr-0DaAAA6aKU
+    part-of:
+      media:
+        year: 2025
+        id: nack5fantasyradio
+
+- postximage:
+    post: 1903452529729695755
+    id: Gmpr-0DaAAA6aKU
+    label: Hika and Natsu
+    info: with the show's blue ears
+    published-date: 2025-03-22
+    context:
+    - media:
+        year: 2025
+        id: nack5fantasyradio
+    part-of:
+      postx: 1903452529729695755
+
+- youtubeshort:
+    id: 2WXwyGdDMsM
+    label: On-Air
+    info: Hika and Natsu praising each other
+    published-date: 2025-04-17
+    context:
+    - media:
+        year: 2025
+        id: nack5fantasyradio
+    part-of:
+      media:
+        year: 2025
+        id: nack5fantasyradio
+

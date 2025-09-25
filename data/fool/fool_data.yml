@@ -1,0 +1,76 @@
+- postx:
+    id: 1943641464397062330
+    account: nekiband_jp
+    label: Fool Live video announcement
+    published-date: 2025-07-11
+    text: |-
+      💐LIVE VIDEO💐
+      
+      明日7/12(土)21:00
+      
+      昨年12月開催「NEK! DEBUT YEAR LAST LIVE」
+      @下北沢シャングリラ から
+      
+      "Fool" Official Live Video
+      YouTubeにてプレミア公開🎥
+      
+      公開時にはメンバーがチャット欄に参加します🏃‍♀️
+      
+      🔗https://youtu.be/urGmtrd7zbA
+      
+      #NEKI #Fool
+    image:
+    - GvkzmwJWEAA9mgY
+    part-of:
+      song: fool
+
+- postximage:
+    post: 1943641464397062330
+    id: GvkzmwJWEAA9mgY
+    label: LMV frame
+    published-date: 2025-07-11
+    local-copy: true
+    context:
+    - song: fool
+    part-of:
+      postx: 1943641464397062330
+
+- youtubeshort:
+    id: QJzDlj_jpfE
+    label: Rehearsal
+    info: rhythm section, 1 year apart, Kanade, Cocoro
+    published-date: 2025-04-15
+    context:
+    - song: fool
+    part-of:
+      song: fool
+
+- youtubeshort:
+    id: g7vk_JnQveM
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-07-08
+    context:
+    - song: fool
+    part-of:
+      song: fool
+
+- youtubeshort:
+    id: gqs7cO3U4i4
+    label: Live Video
+    published-date: 2025-07-13
+    context:
+    - song: fool
+    part-of:
+      song: fool
+
+- youtubeshort:
+    id: lPiXxWGgobU
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-06-07
+    context:
+    - song: fool
+    part-of:
+      song: fool
+

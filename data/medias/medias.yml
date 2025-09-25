@@ -1,0 +1,14 @@
+categoriespage:
+  id: medias
+  cover-image:
+    localimage:
+      event: siteimages
+      id: manekineko_cover
+  label: Media
+  display-type: content
+  start-date: 2025-01-01
+  end-date: 2025-12-31
+  description: The media and press events NEK! was part of.
+  id-prefix:
+  - media
+  categories: []

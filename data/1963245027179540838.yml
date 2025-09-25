@@ -1,0 +1,31 @@
+- postx:
+    id: 1963245027179540838
+    account: coco_102
+    label: Fool live - outro
+    published-date: 2025-09-03
+    text: |-
+      Fool⚡️
+      
+      いちばん後ろまでしっかり見えてたよ〜〜
+      そしてみんなの声ほんとによく聞こえた！！
+      全身使って楽しんでくれてありがとう😈❤️‍🔥
+      
+      #NEKI
+    video:
+    - 01
+
+- postxvideo:
+    post: 1963245027179540838
+    id: 01
+    label: Live
+    info: Cocoro, outro
+    published-date: 2025-09-03
+    cover: 1963244699713773568/img/lqZShif-gkR5etUG.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: fool
+    part-of:
+      postx: 1963245027179540838
+

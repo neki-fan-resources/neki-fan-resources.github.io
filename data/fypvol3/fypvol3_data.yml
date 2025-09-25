@@ -1,0 +1,60 @@
+- postx:
+    id: 1819198572111577421
+    account: SHIBUYATHEGAME
+    label: today
+    published-date: 2024-08-02
+    text: |-
+      【🗓本日開催!!🗓】
+      08.02(FRI)
+      SHIBUYA THE GAME presents
+      #FYP『For You Place』vol.3
+      ⏰OPEN17:30/START18:00
+      
+      <ACT>
+      NEK!
+      amour
+      アルクライオン
+      メイビスレーヌ
+      Wrath Resolution
+      Treble(BAND SET)
+      
+      🎫各バンド予約
+      🎫Livepocket 本日16:30まで発売中!!
+      https://t.livepocket.jp/e/dybqz
+      
+      #FYP
+    image:
+    - GT8XIEAb0AAJjSs
+    part-of:
+      show:
+        year: 2024
+        id: fypvol3
+
+- postximage:
+    post: 1819198572111577421
+    id: GT8XIEAb0AAJjSs
+    label: poster
+    published-date: 2024-08-02
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postx: 1819198572111577421
+
+- youtubeshort:
+    id: KHPpxHWt-O4
+    label: Promo
+    info: studio audio
+    published-date: 2024-08-10
+    context:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      show:
+        year: 2024
+        id: fypvol3
+

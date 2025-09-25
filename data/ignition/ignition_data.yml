@@ -1,0 +1,43 @@
+- postx:
+    id: 1854050886647173628
+    account: CLUB251official
+    label: today
+    published-date: 2024-11-06
+    text: |-
+      本日の251は…
+      
+      251 presents Ignition!!!
+      〜Special Two Man Show〜
+      act/
+      Bray me
+      NEK!
+      OPEN 19:30 / START 20:00
+      当日 ¥4,500＋1D
+      
+      以上です！
+      今年爆発したBray meのツーマンシリーズ！
+      年内ラストのお相手は話題急上昇中のNEK!です！
+      当日券若干出ます！
+      ご安全に〜！
+      
+      by 仁侠
+    image:
+    - GbroRIOa8AAzJCY
+    part-of:
+      show:
+        year: 2024
+        id: ignition
+
+- postximage:
+    post: 1854050886647173628
+    id: GbroRIOa8AAzJCY
+    label: flyer
+    published-date: 2024-11-06
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      postx: 1854050886647173628
+

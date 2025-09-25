@@ -1,0 +1,56 @@
+- localimage:
+    media:
+      year: 2025
+      id: fm802infinityradio
+    id: logo
+    label: logo
+    published-date: 2025-01-01
+    source:
+      description: RADIO INFINITY webpage
+      url: 'https://funky802.com/infinity/'
+    todo: better published date
+    part-of:
+      media:
+        year: 2025
+        id: fm802infinityradio
+
+- postx:
+    id: 1910379084141801512
+    account: RI_802
+    label: NEK! at FM802 RADIO INFINITY
+    published-date: 2025-04-10
+    text: |-
+      👤NEK!
+      (
+      @nekiband_jp
+      
+      💿Dreams!!!
+      
+      初めて #RI802 に遊びにきてくれました🎊
+      
+      メンバー全員の1分間自己紹介をお届け！
+      4人の魅力が伝わりましたか？✨
+      
+      トークの詳細は↓
+      https://radiko.jp/share/?t=20250410254202&sid=802
+      
+      #FM802
+    image:
+    - GoMHpd-bYAANMFt
+    part-of:
+      media:
+        year: 2025
+        id: fm802infinityradio
+
+- postximage:
+    post: 1910379084141801512
+    id: GoMHpd-bYAANMFt
+    label: band members and show host
+    published-date: 2025-04-10
+    context:
+    - media:
+        year: 2025
+        id: fm802infinityradio
+    part-of:
+      postx: 1910379084141801512
+

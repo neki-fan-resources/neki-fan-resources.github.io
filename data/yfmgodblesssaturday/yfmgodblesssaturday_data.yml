@@ -1,0 +1,205 @@
+- localimage:
+    media:
+      year: 2025
+      id: yfmgodblesssaturday
+    id: cover
+    label: Cover
+    published-date: 2025-06-17
+    source:
+      description: God Bless Saturday website
+      url: 'https://www.fmyokohama.jp/gbs/'
+    part-of:
+      media:
+        year: 2025
+        id: yfmgodblesssaturday
+
+- postx:
+    id: 1936243875687137663
+    account: gbs847
+    label: _
+    published-date: 2025-05-21
+    text: |-
+      この後13時からの #ゴブサタ は4人組ガールズバンド #NEK! からHikaさんとNatsuさんがゲストに登場！✨
+      リリース中のニューシングル「OOAK」についてお話を聞いていきます！
+      📩gbs@fmyokohama.jp
+      
+      #FMヨコハマ
+    image:
+    - Gt7rilaXoAAxHRl
+    part-of:
+      media:
+        year: 2025
+        id: yfmgodblesssaturday
+
+- postx:
+    id: 1936301742964290030
+    account: gbs847
+    label: At the station
+    published-date: 2025-05-21
+    text: |-
+      この後、ゲストに4人組ガールズバンド・NEK!からHikaさんとNatsuさんが登場です✨
+      📻https://radiko.jp/share/?sid=YFM&t=20250621145127
+      
+      リリース中のニューシングル「OOAK」についてお話を伺っていきます！！
+      
+      #FMヨコハマ #ゴブサタ
+    image:
+    - Gt8gHF3XgAAazpl
+    part-of:
+      media:
+        year: 2025
+        id: yfmgodblesssaturday
+
+- postx:
+    id: 1936310916737626390
+    account: gbs847
+    label: At the station
+    published-date: 2025-05-21
+    text: |-
+      今日の #ゴブサタ は4人組ガールズバンド・NEK!から、HikaさんとNatsuさんにお越しいただきました✨
+      「OOAK」は現在好評リリース中です！
+      
+      その他の詳しい情報はNEK!の各種SNSをチェックしてみてください👀
+      https://instagram.com/nekiband_jp/
+      
+      #FMヨコハマ
+    image:
+    - Gt8oYqAbwAML8pq
+    part-of:
+      media:
+        year: 2025
+        id: yfmgodblesssaturday
+
+- postx:
+    id: 1936313898661298282
+    account: nekiband_jp
+    label: At the station
+    published-date: 2025-05-21
+    text: |-
+      Fm yokohama「God Bless Saturday」
+      
+      お聴きいただきありがとうございました📻
+      
+      新曲「OOAK」MV公開中▼
+      https://youtu.be/qGEzCjYvWZw
+      
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+      
+      チケット先着先行受付中▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #FMヨコハマ #ゴブサタ
+    image:
+    - Gt8rOAnXoAADXyX
+    part-of:
+      media:
+        year: 2025
+        id: yfmgodblesssaturday
+
+- postx:
+    id: 1936314534777831611
+    account: 46_hikaa
+    label: Thanks you for listening
+    published-date: 2025-05-21
+    text: |-
+      すごい楽しかったぁー！！
+      お聴き頂きありがとうございました！！
+    image:
+    - Gt8rzbGWgAAikiR
+    part-of:
+      postx: 1936313898661298282
+
+- postx:
+    id: 1936315279094825472
+    account: natsu08_guitar
+    label: Thanks you for listening
+    published-date: 2025-05-21
+    text: |-
+      Fm yokohama「God Bless Saturday」
+      
+      お聴きいただきありがとうございましたー！！！
+      ずっっと楽しかった😂🌟🌟🌟
+    image:
+    - Gt8settbwAAxGNd
+    part-of:
+      postx: 1936313898661298282
+
+- postximage:
+    post: 1936243875687137663
+    id: Gt7rilaXoAAxHRl
+    label: Welcome sign
+    published-date: 2025-05-21
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
+    part-of:
+      postx: 1936243875687137663
+
+- postximage:
+    post: 1936301742964290030
+    id: Gt8gHF3XgAAazpl
+    label: At the station
+    info: Hika, Natsu
+    published-date: 2025-05-21
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
+    part-of:
+      postx: 1936301742964290030
+
+- postximage:
+    post: 1936310916737626390
+    id: Gt8oYqAbwAML8pq
+    label: In the studio
+    info: the hosts, Hika, Natsu
+    published-date: 2025-05-21
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
+    part-of:
+      postx: 1936310916737626390
+
+- postximage:
+    post: 1936313898661298282
+    id: Gt8rOAnXoAADXyX
+    label: At the station
+    info: Hika, Natsu
+    published-date: 2025-05-21
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
+    part-of:
+      postx: 1936313898661298282
+
+- postximage:
+    post: 1936314534777831611
+    id: Gt8rzbGWgAAikiR
+    label: Thanks you for listening
+    info: Hika, Natsu
+    published-date: 2025-05-21
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
+    part-of:
+      postx: 1936314534777831611
+
+- postximage:
+    post: 1936315279094825472
+    id: Gt8settbwAAxGNd
+    label: Thanks you for listening
+    info: Hika, Natsu
+    published-date: 2025-05-21
+    context:
+    - media:
+        year: 2025
+        id: yfmgodblesssaturday
+    part-of:
+      postx: 1936315279094825472
+

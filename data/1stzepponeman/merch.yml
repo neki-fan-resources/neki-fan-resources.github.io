@@ -1,0 +1,65 @@
+- group:
+    id: merch
+    label: Merch
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1959904093104918959
+    account: nekiband_jp
+    label: Merch
+    published-date: 2025-08-25
+    text: |-
+      📢ワンマン詳細更新📢
+      
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+      
+      ★新グッズ情報公開🎁
+      ★当日のグッズ先行販売は13:00~開始！
+      ★女性・子供専用エリアを設置！
+      
+      初のZeppワンマンまであと5日🔥
+      チケット一般発売中です🎟️
+      
+      🔗https://note.com/nekiband_jp/n/nced90123f587
+      
+      #NEKI
+    image:
+    - GzL5Y08aoAAY1Tm
+    - GzL5Z5hbUAAbrZI
+    todo: show poster
+    part-of:
+      group:
+        id: merch
+        show:
+          year: 2025
+          id: 1stzepponeman
+
+- postximage:
+    post: 1959904093104918959
+    id: GzL5Y08aoAAY1Tm
+    label: Merch
+    published-date: 2025-08-25
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1959904093104918959
+
+- postximage:
+    post: 1959904093104918959
+    id: GzL5Z5hbUAAbrZI
+    label: Merch
+    published-date: 2025-08-25
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1959904093104918959
+

@@ -1,0 +1,34 @@
+song:
+  id: newsong202505
+  dark: true
+  cover-image:
+    postximage:
+      post: 1929512124243411173
+      image: GscBBL6bgAAwvmM
+  fullname: New song recorded May 2025
+  shortname: new song
+  release-date: 2050-01-01
+  description:
+  - New song.
+  - Videos without sound of rehearals and recording.
+  multimedia:
+    video:
+    - postxvideo:
+        post: 1926604625936810264
+        video: b0969558-f5d5-43d7-9200-0bf80227bfbf
+    - postxvideo:
+        post: 1924763496551743797
+        video: 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
+    - postxvideo:
+        post: 1923958028916883650
+        video: 6d791e00-ee17-4246-b248-d81ea7004287
+    - postxvideo:
+        post: 1922260308782887399
+        video: 94a26956-efe7-4eba-8e5b-d69fb922bc95
+    - postxvideo:
+        post: 1921051915636429162
+        video: 2a990e8d-5cc0-4c3e-bcf8-aa24f2a2ec53
+    image:
+    - postximage:
+        post: 1923986423700652394
+        image: GrNfc0sXoAAk6JN

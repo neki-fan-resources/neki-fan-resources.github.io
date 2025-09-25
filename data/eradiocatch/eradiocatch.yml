@@ -1,0 +1,18 @@
+mediaaudio:
+  year: 2025
+  id: eradiocatch
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: eradiocatch
+      id: cover
+  radio: e-radio
+  show: キャッチ！ (Catch!)
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-06-25
+  host: 矢野七絵 (Nanae Yano)
+  webpage: 'https://www.e-radio.co.jp/personality/%e7%9f%a2%e9%87%8e%e4%b8%83%e7%b5%b5/'

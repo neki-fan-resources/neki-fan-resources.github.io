@@ -1,0 +1,29 @@
+album:
+  id: meme
+  cover-image:
+    postximage:
+      post: 1961737876066168993
+      image: Gzl-A0MaAAAtcNa
+  fullname: MEME
+  designation: album
+  release-date: 2025-11-26
+  description:
+  - NEK!'s first album.
+  - It was announced during the "1ST ZEPP ONE MAN" concert, on August 30th, to be released on November 26th.
+  - It will be their last indie release, before joining a major label in 2026.
+  songs: []
+  todo: add show party info
+  multimedia:
+    image:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-A0MaAAAtcNa
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-C69aoAADilM
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-Eg6boAEMEc0
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ

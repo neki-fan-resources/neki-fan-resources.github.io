@@ -1,0 +1,55 @@
+- postx:
+    id: 1787740918298345982
+    account: shibuya_eggman
+    label: today
+    published-date: 2024-05-07
+    text: |-
+      Girl's UP!!! vol.351
+      
+      NEK!
+      momoca
+      START TO BLING
+      東京ハテナバナナ
+      Qtwins
+      Riju
+      
+      OPEN 18:00 
+      START 18:30
+      DOOR ¥3,000 + 1D¥600    
+      
+      ご来場お待ちしております！
+    image:
+    - GM9UGEVbQAEGLaw
+    part-of:
+      show:
+        year: 2024
+        id: guvol351
+
+- postximage:
+    post: 1787740918298345982
+    id: GM9UGEVbQAEGLaw
+    label: sidewalk board
+    published-date: 2024-05-07
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol351
+    part-of:
+      postx: 1787740918298345982
+
+- youtubeshort:
+    id: PkRKMkZCiIE
+    label: Promo
+    info: studio audio
+    published-date: 2024-05-17
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: guvol351
+    part-of:
+      show:
+        year: 2024
+        id: guvol351
+

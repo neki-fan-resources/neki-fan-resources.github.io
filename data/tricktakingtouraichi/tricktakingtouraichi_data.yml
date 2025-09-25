@@ -1,0 +1,28 @@
+- youtubeshort:
+    id: Lz0Fj4wCa-Y
+    label: Show
+    info: huddle
+    published-date: 2025-03-09
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtouraichi
+
+- youtubeshort:
+    id: b2N2xThvZ-4
+    label: Live
+    published-date: 2025-03-09
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtouraichi
+

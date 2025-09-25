@@ -1,0 +1,16 @@
+newsitem:
+  id: upcoming
+  show:
+    year: 2025
+    id: 1stalbummeme
+  title: 1st album MEME release one-man show
+  active: true
+  text:
+  - line:
+    - text: To celebrate the release of their first album "
+    - album: meme
+    - text: '", NEK! will have a one-man show '
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    - text: ', on November 28th in Yokohama.'

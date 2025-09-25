@@ -1,0 +1,51 @@
+- postx:
+    id: 1961987308070240564
+    account: S_club_SCIENCE
+    label: schedule
+    published-date: 2025-08-31
+    text: |-
+      【🔥10周年 タイムテーブル解禁🔥】
+      
+      2025.11.18(TUE)・19(WED)
+      The Theory of SCIENCE
+      Shinjuku club SCIENCE 10th Anniversary 
+      
+      ‼️2日間で11会場同時開催サーキットイベント‼️
+      
+      🎫 
+      11.18(TUE)
+      https://t.livepocket.jp/e/npe57
+      
+      11.19(WED)
+      https://t.livepocket.jp/e/ezuda
+      
+      2日間通し券
+      https://t.livepocket.jp/e/u5z23
+    image:
+    - GzktTajbkAAtiOe
+    - GzktVWObQAAB4zy
+
+- postximage:
+    post: 1961987308070240564
+    id: GzktTajbkAAtiOe
+    label: Schedule 11.18
+    published-date: 2025-08-31
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1961987308070240564
+
+- postximage:
+    post: 1961987308070240564
+    id: GzktVWObQAAB4zy
+    label: Schedule 11.19
+    published-date: 2025-08-31
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1961987308070240564
+

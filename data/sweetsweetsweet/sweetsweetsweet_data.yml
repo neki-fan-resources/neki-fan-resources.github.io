@@ -1,0 +1,41 @@
+- postx:
+    id: 1790265744804216903
+    account: shelter_1001
+    label: announcement
+    published-date: 2025-03-22
+    text: |-
+      【来週！】
+      5/20(月)
+      ” Sweet！Sweet！Sweet！”
+      
+      CASPA
+      はちみつコーヒー座
+      つじりお
+      IRIS MONDO
+      NEK!
+      
+      OPEN 17:45 / START 18:15
+      前売¥2,400(1ドリンク別)
+      🎟️
+      Livepocketと、各出演者予約にて。是非っ
+      https://t.livepocket.jp/e/4qthf
+    image:
+    - GNhNGEkbsAAEJ5A
+    part-of:
+      show:
+        year: 2024
+        id: sweetsweetsweet
+
+- postximage:
+    post: 1790265744804216903
+    id: GNhNGEkbsAAEJ5A
+    label: flyer
+    published-date: 2025-03-22
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet
+    part-of:
+      postx: 1790265744804216903
+

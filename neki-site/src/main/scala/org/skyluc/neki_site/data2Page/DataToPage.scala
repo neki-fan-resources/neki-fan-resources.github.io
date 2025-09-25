@@ -1,6 +1,6 @@
 package org.skyluc.neki_site.data2Page
 
-import org.skyluc.fan_resources.data.{Processor as _, *}
+import org.skyluc.fan_resources.data.{ProcessorElement as _, *}
 import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.Page
 import org.skyluc.fan_resources.html.pages.CssPage
@@ -18,7 +18,7 @@ import org.skyluc.neki_site.html.pages.{
 }
 
 class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_pieces_fr: Path, site: Site)
-    extends Processor[Seq[SitePage]] { // TODO: switch to ProcessorElement
+    extends ProcessorElement[Seq[SitePage]] {
 
   def generate(data: Data): Seq[Page] = {
 
@@ -81,7 +81,7 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
         SourcesPage.pages(datums, site, generator),
       ).flatten
     // pages from datums (without errors)
-    val res = datums.flatMap(_.process(this))
+    val res = data.elements.values.flatMap(_.process(this))
 
     val allPages = fixPages ++ res
 
@@ -97,16 +97,10 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
   override def processEvent(event: Event): Seq[SitePage] =
     EventPage.pagesFor(event, site, generator)
 
-  override def processGroup(group: Group): Seq[SitePage] = NO_DATA
-
   override def processMultiMediaEvent(multimediaEvent: MultiMediaEvent): Seq[SitePage] = NO_DATA
 
   override def processAlbum(album: Album): Seq[SitePage] =
     AlbumPage.pagesFor(album, site, generator)
-
-  override def processLocalImage(localImage: LocalImage): Seq[SitePage] = NO_DATA
-
-  override def processLyrics(lyrics: Lyrics): Seq[SitePage] = NO_DATA
 
   override def processMediaAudio(mediaAudio: MediaAudio): Seq[SitePage] =
     MediaPage.pageFor(mediaAudio, site, generator)
@@ -116,18 +110,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
 
   override def processMediaWritten(mediaWritten: MediaWritten): Seq[SitePage] =
     MediaPage.pageFor(mediaWritten, site, generator)
-
-  override def processNewsItem(newsItem: NewsItem): Seq[SitePage] = NO_DATA
-
-  override def processPostX(postX: PostX): Seq[SitePage] = NO_DATA
-
-  override def processPostXImage(postXImage: PostXImage): Seq[SitePage] = NO_DATA
-
-  override def processPostXVideo(postXVideo: PostXVideo): Seq[SitePage] = NO_DATA
-
-  override def processPostYouTube(postYouTube: PostYouTube): Seq[SitePage] = NO_DATA
-
-  override def processPostYouTubeImage(postYouTubeImage: PostYouTubeImage): Seq[SitePage] = NO_DATA
 
   override def processShow(show: Show): Seq[SitePage] =
     ShowPage.pagesFor(show, site, generator)
@@ -140,18 +122,6 @@ class DataToPage(generator: CompiledDataGenerator, static_pieces: Path, static_p
 
   override def processUpdatePage(updatePage: UpdatePage): Seq[SitePage] =
     pUpdatePage.pages(updatePage, site, generator)
-
-  override def processWebImage(webImage: WebImage): Seq[SitePage] = NO_DATA
-
-  override def processWebPage(webPage: WebPage): Seq[SitePage] = NO_DATA
-
-  override def processYouTubeShort(youtubeShort: YouTubeShort): Seq[SitePage] = NO_DATA
-
-  override def processYouTubeVideo(youtubeVideo: YouTubeVideo): Seq[SitePage] = NO_DATA
-
-  override def processZaiko(zaiko: Zaiko): Seq[SitePage] = NO_DATA
-
-  override def processSite(site: Site): Seq[SitePage] = NO_DATA
 
   // ----------
 

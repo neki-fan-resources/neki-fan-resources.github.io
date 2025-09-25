@@ -18,6 +18,8 @@ class SourcesExtractor(generator: CompiledDataGenerator) extends Processor[Seq[S
 
   override def processEvent(event: Event): Seq[DatumEntry] = Nil
 
+  override def processElementUpdate(elementUpdate: ElementUpdate): Seq[DatumEntry] = Nil
+
   override def processGroup(group: Group): Seq[DatumEntry] = Nil
 
   override def processMultiMediaEvent(multimediaEvent: MultiMediaEvent): Seq[DatumEntry] = Nil

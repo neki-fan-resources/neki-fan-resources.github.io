@@ -2,10 +2,17 @@ show:
   year: 2025
   id: recommendjunction
   cover-image:
-    postximage:
-      post: 1950466437447111122
-      image: GxFvicdbMAAH0SF
+    webimage:
+      domain: ex-entertainment.co.jp
+      page: 0012
+      id: IM9safD4DY
   fullname: RECOMMEND JUNCTION 「リコメンズジャンクション」
   date: 2025-11-06
+  description:
+  - 'The show is described as:'
+  - '[RE・CO・MENS] = Rebirth: Collaboration: Momentum'
+  - Rebirth (Breaking out of the shell of the past and reinventing the music scene)
+  - Collaboration (collaboration between recommenders and artists)
+  - Momentum (a new generation of artists with momentum)
   venue: EXシアター六本木 (EX THEATER ROPPONGI), Tokyo
-  event-page: 'https://eplus.jp/recomen1106/'
+  event-page: 'https://ex-entertainment.co.jp/events/0012/index.html'

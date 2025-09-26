@@ -1,0 +1,30 @@
+- webimage:
+    domain: ex-entertainment.co.jp
+    page: 0012
+    id: IM9safD4DY
+    label: Poster
+    published-date: 2025-09-26
+    url: 'https://ex-entertainment.co.jp/events/0012/images/IM9safD4DY.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      webpage:
+        domain: ex-entertainment.co.jp
+        id: 0012
+
+- webpage:
+    domain: ex-entertainment.co.jp
+    id: 0012
+    label: Page for Recommends Junction
+    published-date: 2025-09-26
+    url: 'https://ex-entertainment.co.jp/events/0012/index.html'
+    image:
+    - IM9safD4DY
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+

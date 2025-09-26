@@ -1,18 +1,60 @@
-newsitem:
-  id: upcoming
-  show:
-    year: 2025
-    id: tokyocalling
-  title: TOKYO CALLING
-  active: true
-  part-of:
+- newsitem:
+    id: upcoming
     show:
       year: 2025
       id: tokyocalling
-  text:
-  - line:
-    - text: "NEK!'s next show will be "
+    title: TOKYO CALLING
+    active: true
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+    text:
+    - line:
+      - text: "NEK!'s next show will be "
+      - show:
+          year: 2025
+          id: tokyocalling
+      - text: ', on september 27th in Shinjuku.'
+
+- postx:
+    id: 1971514796249133057
+    account: nekiband_jp
+    label: Show tomorrow
+    published-date: 2025-09-26
+    text: |-
+      🔥明日出演🔥
+      
+      9/27(土)開催
+      「TOKYO CALLING 2025」
+      
+      📍新宿・Zirco Tokyo
+      ⏰20:30~21:00
+      
+      Zirco Tokyoのトリで出演をさせていただきます💥
+      ぜひ観に来てください👀❤️‍🔥
+      
+      🔗https://t.pia.jp/pia/event/event.do?eventCd=2501061
+      
+      #NEKI
+      #TOKYOCALLING
+      #トーキョーコーリング
+    image:
+    - G1wdzAvaAAARSaN
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postximage:
+    post: 1971514796249133057
+    id: G1wdzAvaAAARSaN
+    label: Schedule 9/27
+    published-date: 2025-09-26
+    context:
     - show:
         year: 2025
         id: tokyocalling
-    - text: ', on september 27th in Shinjuku.'
+    part-of:
+      postx: 1971514796249133057
+

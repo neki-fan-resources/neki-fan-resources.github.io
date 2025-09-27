@@ -18,6 +18,34 @@
       - text: ', on september 27th in Shinjuku.'
 
 - postx:
+    id: 1971180905709625391
+    account: Meta_Fes
+    label: In 2 days
+    info: 3 other images - schedule, tokyo calling merch, buttons
+    published-date: 2025-09-25
+    text: |-
+      🎉明後日開催🎉
+      
+      /／
+      　　『 TOKYO CALLING 2025 』
+      　Metamorphoseコラボステージ
+      \＼
+      
+      もうチケットはGETしましたか❓
+      公式グッズも是非チェックしてください✅
+      
+      【ぴあ】
+      https://w.pia.jp/t/tokyo-calling-2025/
+      【e+】
+      https://eplus.jp/tokyo-calling-2025/
+      【ローチケ】
+      https://l-tike.com/tokyo-calling/
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postx:
     id: 1971514796249133057
     account: nekiband_jp
     label: Show tomorrow
@@ -45,6 +73,19 @@
       show:
         year: 2025
         id: tokyocalling
+
+- postximage:
+    post: 1971180905709625391
+    id: G1sKeAqaAAEUyBA
+    label: Venue poster
+    published-date: 2025-09-27
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971180905709625391
 
 - postximage:
     post: 1971514796249133057

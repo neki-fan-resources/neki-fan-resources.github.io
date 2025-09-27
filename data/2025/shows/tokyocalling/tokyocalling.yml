@@ -3,13 +3,20 @@ show:
   id: tokyocalling
   cover-image:
     postximage:
-      post: 1950876603812376989
-      image: GxLn6-VaYAAS-O0
+      post: 1971180905709625391
+      image: G1sKeAqaAAEUyBA
   fullname: TOKYO CALLING 2025 -10th Anniversary-
   shortname: TOKYO CALLING 2025
   date: 2025-09-27
-  venue: Metamorphoseコラボステージ, Tokyo
+  description:
+  - NEK! is performing in the Shinjuku part of "TOKYO CALLING 2025".
+  - They are headlining the METAMORPHOSE stage, at Zirco Tokyo.
+  venue: Zirco Tokyo, Tokyo
   event-page: 'https://tokyo-calling.jp/'
+  part-of:
+    group:
+      id: shows
+      group: 2025
   multimedia:
     main:
       postximage:

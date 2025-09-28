@@ -8,8 +8,15 @@ show:
   fullname: ZEPHYREN × SHIBUYA THE GAME presents 『In The Family FEST 2025』
   shortname: In The Family FEST 2025
   date: 2025-10-04
+  description:
+  - NEK! will be part of "In The Family FEST" in Shibuya.
+  - They will be performing early in the afternoon, at Shibuya Milkyway.
   venue: Shibuya Milkyway, Tokyo
   event-page: 'https://t.livepocket.jp/e/itff2025'
+  part-of:
+    group:
+      id: shows
+      group: 2025
   multimedia:
     image:
     - postximage:

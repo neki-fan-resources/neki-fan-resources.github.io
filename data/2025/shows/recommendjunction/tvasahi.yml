@@ -1,0 +1,53 @@
+- group:
+    id: tvasahi
+    label: tv asahi - recommand
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- postx:
+    id: 1971969583360999680
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-09-28
+    text: |-
+      テレビ朝日「リコメンズ」
+      ご視聴ありがとうございました🫶
+      
+      11/6(木)開催
+      「リコメンズジャンクション」
+      @ EXシアター六本木
+      
+      出演させていただきます🔥
+       
+      チケット先着先行受付中🎫
+      ▶︎https://eplus.jp/sf/detail/4375690001-P0030001
+      
+      #NEKI
+    image:
+    - G13X3u8aUAAgOGP
+    part-of:
+      group:
+        id: tvasahi
+        show:
+          year: 2025
+          id: recommendjunction
+    reference:
+    - postximage:
+        post: 1960597489242792085
+        image: GzVuQXBa4AMbecJ
+
+- postximage:
+    post: 1971969583360999680
+    id: G13X3u8aUAAgOGP
+    label: リコメンズ show
+    info: on tv asahi
+    published-date: 2025-09-28
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postx: 1971969583360999680
+

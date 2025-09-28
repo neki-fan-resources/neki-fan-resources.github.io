@@ -1,0 +1,7 @@
+group:
+  id: tickets
+  label: Tickets
+  part-of:
+    show:
+      year: 2025
+      id: 1stalbummeme

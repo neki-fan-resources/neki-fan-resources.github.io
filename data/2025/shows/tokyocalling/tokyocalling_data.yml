@@ -1,10 +1,28 @@
 - newsitem:
-    id: upcoming
+    id: done
     show:
       year: 2025
       id: tokyocalling
     title: TOKYO CALLING
     active: true
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+    text:
+    - line:
+      - text: "NEK!'s performed at "
+      - show:
+          year: 2025
+          id: tokyocalling
+      - text: . The first of pictures are available.
+
+- newsitem:
+    id: upcoming
+    show:
+      year: 2025
+      id: tokyocalling
+    title: TOKYO CALLING
     part-of:
       show:
         year: 2025
@@ -98,4 +116,16 @@
         id: tokyocalling
     part-of:
       postx: 1971514796249133057
+
+- update:
+    show:
+      year: 2025
+      id: tokyocalling
+    date: 2025-09-28
+    text:
+    - Already a nice set of pictures from the show.
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
 

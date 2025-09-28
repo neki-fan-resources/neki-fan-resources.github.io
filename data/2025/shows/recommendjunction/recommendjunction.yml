@@ -14,5 +14,10 @@ show:
   - Rebirth (Breaking out of the shell of the past and reinventing the music scene)
   - Collaboration (collaboration between recommenders and artists)
   - Momentum (a new generation of artists with momentum)
+  - NEK! was recommended for the show by Kubota-san, from Shibuya eggman
   venue: EXシアター六本木 (EX THEATER ROPPONGI), Tokyo
   event-page: 'https://ex-entertainment.co.jp/events/0012/index.html'
+  part-of:
+    group:
+      id: shows
+      group: 2025

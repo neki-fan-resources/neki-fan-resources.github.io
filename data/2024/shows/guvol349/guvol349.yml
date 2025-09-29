@@ -7,9 +7,14 @@ show:
       image: GIDCvFoaEAARgCV
   fullname: Girl's UP!!! vol.349
   date: 2024-03-07
+  description:
+  - NEK!'s first concert. As the most junior band, they opened the show.
+  - 'They played three original songs: "Get Over", "MAZE" and "Reigen Girl", as well as two covers of BAND-MAID: "DICE" and "Choose me".'
+  - Following this performance, they were invited to the next "Girl's UP!!!" show, on April 9th.
   venue: Shibuya eggman, Tokyo
   event-page: 'http://eggman.jp/schedule/girls-up-vol-349/'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shibuya-eggman-tokyo-japan-1b561d14.html'
+  todo: Add information they shared about this show in the videos for the 1st Zepp Show
   part-of:
     group:
       id: shows

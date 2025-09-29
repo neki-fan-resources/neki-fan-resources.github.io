@@ -11,3 +11,12 @@ show:
   event-page: 'https://famime.net/'
   setlistfm: nek/2024/liveholic-tokyo-japan-1b561db0
   todo: generic event page. check periodically
+  part-of:
+    group:
+      id: shows
+      group: 2024
+  multimedia:
+    additional:
+    - postxvideo:
+        post: 1765981020535333110
+        video: 01

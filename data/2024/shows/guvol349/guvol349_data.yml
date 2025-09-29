@@ -1,0 +1,266 @@
+- postx:
+    id: 1765304060088115356
+    account: kubota_eggman
+    label: Tomorrow
+    published-date: 2024-03-06
+    text: |-
+      【明日開催！！】
+      3/7（木） @ eggman
+      Girl's UP!!! vol.349
+      
+      出演
+      IrisaVior
+      EMANON
+      ES-TRUS
+      ЯeaL
+      優利香
+      NEK!I
+      
+      開場：17:30　開演：18:00
+      チケット代：￥3,000
+      予約：TIGET（https://tiget.net/events/300063）にて受付中
+    translation: |-
+      [Happening Tomorrow!!]
+      3/7 (Thu) @ eggman
+      Girl's UP!!! vol.349
+      
+      Performers:
+      IrisaVior
+      EMANON
+      ES-TRUS
+      ЯeaL
+      Yurika
+      NEK!
+      
+      Doors Open: 5:30 PM / Show Starts: 6:00 PM
+      Ticket price: ¥3,000
+      Reservations: Now accepting via TIGET (https://tiget.net/events/300063)
+    image:
+    - GH-dwBEbYAE40vt
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- postx:
+    id: 1765625866816803054
+    account: shibuya_eggman
+    label: Today
+    published-date: 2024-03-07
+    text: |-
+      🥠本日🥠
+      
+      Girl's UP!!! vol.349
+      
+      IrisaVior
+      EMANON
+      ES-TRUS
+      ЯeaL
+      優利香
+      NEK!
+      
+      OPEN 17:30
+      START 18:00
+      TICKET ￥3,000-(+1D)  
+      
+      ご来場お待ちしております！
+    translation: |-
+      🥠Today🥠
+      
+      Girl's UP!!! vol.349
+      
+      IrisaVior
+      EMANON
+      ES-TRUS
+      ЯeaL
+      Yurika
+      NEK!
+      
+      Doors Open 5:30 PM
+      Show Starts 6:00 PM
+      TICKET ¥3,000 (+1 drink)
+      
+      We look forward to your visit!
+    image:
+    - GIDCvFoaEAARgCV
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- postx:
+    id: 1765733615722467497
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-03-07
+    text: |-
+      「Girl's UP!!! vol.349」
+      @ Shibuya eggman
+      
+      NEK! 初ライブありがとうございました！
+      #NEKI
+    translation: |-
+      "Girl's UP!!! vol.349"
+      @ Shibuya eggman
+      
+      Thank you for NEK!'s first live show!
+      #NEKI
+    image:
+    - GIElXLRb0AAgpaY
+    - GIElXLRacAAzZEQ
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- postx:
+    id: 1765774728294461468
+    account: yuuki_228
+    label: NEK! at Girl's UP!!!
+    info: +1 image, signed t-shirt
+    published-date: 2024-03-07
+    text: |-
+      Girl’s UP!!! vol.349@shibuya eggman
+      めちゃ楽しかった🔥
+      衝撃的だったのが、トッパーで本日初ライブというNEK!
+      初とかウソやろってぐらいの完成度の高さで、オリジナル3曲＋カバー2曲を披露！
+      カバーはなんと #bandmaid！
+      バンメが大好きらしい🤩
+      オリジナルも王道系ロックでかなりいい感じ！
+      #NEKI
+    translation: |-
+      Girl’s UP!!! vol.349@shibuya eggman
+      It was super fun 🔥
+      What was shocking was NEK!, who were the first act and having their first live show today!
+      Their performance level was so high it made you think there's no way it was their first show; they performed 3 original songs + 2 covers!
+      The covers were none other than #bandmaid!
+      It seems they love Band-Maid 🤩
+      Their original songs are also very good, in the style of classic rock!
+      #NEKI
+    image:
+    - GIFKWQXakAAGDMb
+    video:
+    - 01
+    - 02
+    todo: images and videos
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- postximage:
+    post: 1765304060088115356
+    id: GH-dwBEbYAE40vt
+    label: Poster
+    published-date: 2024-03-06
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1765304060088115356
+
+- postximage:
+    post: 1765625866816803054
+    id: GIDCvFoaEAARgCV
+    label: sidewalk board
+    published-date: 2024-03-07
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1765625866816803054
+
+- postximage:
+    post: 1765733615722467497
+    id: GIElXLRacAAzZEQ
+    label: The band
+    published-date: 2024-03-07
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1765733615722467497
+
+- postximage:
+    post: 1765733615722467497
+    id: GIElXLRb0AAgpaY
+    label: On stage
+    published-date: 2024-03-07
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1765733615722467497
+
+- postximage:
+    post: 1765774728294461468
+    id: GIFKWQXakAAGDMb
+    label: Sidewalk board
+    published-date: 2025-09-29
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1765774728294461468
+
+- postxvideo:
+    post: 1765774728294461468
+    id: 01
+    label: Dice / BAND-MAID
+    info: cover
+    published-date: 2024-03-07
+    cover: 1765774275120959488/pu/img/FZLg31xMdkls_moJ.jpg
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1765774728294461468
+
+- postxvideo:
+    post: 1765774728294461468
+    id: 02
+    label: Choose me / BAND-MAID
+    info: cover
+    published-date: 2024-03-07
+    cover: 1765774275208998912/pu/img/zCl1drNllVR3ZZyE.jpg
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1765774728294461468
+
+- update:
+    show:
+      year: 2024
+      id: guvol349
+    date: 2025-09-29
+    text:
+    - (backlog) added photos and short videos from the show
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- youtubeshort:
+    id: TF3IDIX41Q0
+    label: Promo
+    info: studio audio
+    published-date: 2024-03-15
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+

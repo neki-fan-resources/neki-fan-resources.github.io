@@ -1,0 +1,34 @@
+show:
+  year: 2024
+  id: guvol349
+  cover-image:
+    postximage:
+      post: 1765625866816803054
+      image: GIDCvFoaEAARgCV
+  fullname: Girl's UP!!! vol.349
+  date: 2024-03-07
+  venue: Shibuya eggman, Tokyo
+  event-page: 'http://eggman.jp/schedule/girls-up-vol-349/'
+  setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shibuya-eggman-tokyo-japan-1b561d14.html'
+  part-of:
+    group:
+      id: shows
+      group: 2024
+  multimedia:
+    short:
+    - postxvideo:
+        post: 1765774728294461468
+        video: 01
+    - postxvideo:
+        post: 1765774728294461468
+        video: 02
+    image:
+    - postximage:
+        post: 1765774728294461468
+        image: GIFKWQXakAAGDMb
+    - postximage:
+        post: 1765733615722467497
+        image: GIElXLRb0AAgpaY
+    - postximage:
+        post: 1765733615722467497
+        image: GIElXLRacAAzZEQ

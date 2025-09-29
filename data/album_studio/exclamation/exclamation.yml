@@ -19,6 +19,8 @@ album:
   - endlessgame
   - blink
   - getover
+  part-of:
+    group: album_studio
   multimedia:
     additional:
     - youtubevideo: 387bkUm7Dko

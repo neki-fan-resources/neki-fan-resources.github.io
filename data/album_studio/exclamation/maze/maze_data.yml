@@ -1277,7 +1277,7 @@
 - postx:
     id: 1757661923750052131
     account: nekiband_jp
-    label: Early rehearsal
+    label: Early rehearsal of intro
     info: MAZE
     published-date: 2024-02-14
     text: |-
@@ -1285,6 +1285,11 @@
       どうかなー？？？？
       https://vt.tiktok.com/ZSF2ygUDH/
       #NEKI #ガールズバンド
+    translation: |-
+      The intro to another song is finished!
+      What do you think????
+      https://vt.tiktok.com/ZSF2ygUDH/
+      #NEKI #girls_band
     video:
     - 01
     part-of:
@@ -1461,6 +1466,7 @@
     cover: 1757661877314912256/pu/img/IhTBfhIACRlH3lDE.jpg
     context:
     - song: maze
+    todo: redownload ?
     part-of:
       postx: 1757661923750052131
 

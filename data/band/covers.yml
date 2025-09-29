@@ -1,0 +1,5 @@
+group:
+  id: covers
+  label: Covers
+  part-of:
+    group: band

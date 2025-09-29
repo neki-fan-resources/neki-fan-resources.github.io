@@ -1,4 +1,43 @@
 - postx:
+    id: 1765981020535333110
+    account: famime_rock
+    label: 7 second video
+    published-date: 2024-03-08
+    text: |-
+      ✋#7秒ください
+      
+      🌹NEK! 
+      @nekiband_jp
+      
+      
+      #7秒動画 で一瞬の表現！
+      
+      3月9日(土)下北沢10会場
+      🌹LUPINUS ROCK FESTIVAL🌹
+      #ルピナスロック
+      
+      ＼当日は12:00～LIVE HOLIC出演！／
+    translation: |-
+      ✋#GiveMe7Seconds
+      
+      🌹NEK!
+      @nekiband_jp
+      
+      An expression of a moment in a #7SecondVideo!
+      
+      March 9th (Sat) Shimokitazawa 10 Venues
+      🌹LUPINUS ROCK FESTIVAL🌹
+      #LupinusRock
+      
+      ＼On the day of the event, they will perform at LIVE HOLIC from 12:00 PM!／
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1765981020535333110
+        video: 01
+
+- postx:
     id: 1766243435357561130
     account: famime_rock
     label: all the artists
@@ -282,4 +321,20 @@
         id: lupinus2024
     part-of:
       postx: 1766243435357561130
+
+- postxvideo:
+    post: 1765981020535333110
+    id: 01
+    label: 7 second video
+    info: band presentation
+    published-date: 2024-03-08
+    cover: 1765896205954105344/pu/img/cdaeTH9p6M734oYJ.jpg
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      show:
+        year: 2024
+        id: lupinus2024
 

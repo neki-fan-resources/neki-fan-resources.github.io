@@ -1,0 +1,5 @@
+group:
+  id: shows
+  label: Shows
+  part-of:
+    group: 2024

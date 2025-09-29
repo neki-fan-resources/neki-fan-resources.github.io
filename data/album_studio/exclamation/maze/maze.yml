@@ -20,6 +20,8 @@ song:
       description: 'JASRAC - work ID: 304-0228-0'
       url: 'https://www2.jasrac.or.jp/'
   todo: note about maneki-neko
+  part-of:
+    album: exclamation
   multimedia:
     main:
       youtubevideo: EHtWJmMybGY

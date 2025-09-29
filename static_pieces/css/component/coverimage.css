@@ -33,6 +33,12 @@
   margin: 0 0.2rem 0 0;
 }
 
+.small-icon {
+  height: 2rem;
+  width: 2rem;
+  object-fit: contain;
+}
+
 .marker-image-cover {
   height: 3rem;
   width: 3rem;

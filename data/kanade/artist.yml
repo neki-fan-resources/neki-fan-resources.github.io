@@ -1,0 +1,5 @@
+group:
+  id: artist
+  label: Artist
+  part-of:
+    group: kanade

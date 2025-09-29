@@ -23,6 +23,8 @@ song:
     value: NEK!, MAIMAI
     source:
       description: from the EXCLAMAT!ON EP booklet
+  part-of:
+    album: exclamation
   multimedia:
     main:
       youtubevideo: TWbLqba3oag

@@ -211,11 +211,16 @@
 - postx:
     id: 1756877181698154611
     account: nekiband_jp
-    label: working on the song
+    label: Working on the song
     published-date: 2024-02-12
     text: |-
       オリジナル曲進んでます
       3人バージョンです！
+      https://vt.tiktok.com/ZSFYf2t2L/
+      #NEKI
+    translation: |-
+      Our original song is progressing.
+      It's a three-person version!
       https://vt.tiktok.com/ZSFYf2t2L/
       #NEKI
     video:
@@ -338,6 +343,7 @@
     cover: 1756877146625376256/pu/img/3LM-WUtzAWegXPis.jpg
     context:
     - song: getover
+    todo: redownload ?
     part-of:
       postx: 1756877181698154611
 

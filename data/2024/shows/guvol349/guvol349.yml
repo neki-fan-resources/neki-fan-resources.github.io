@@ -20,6 +20,11 @@ show:
       id: shows
       group: 2024
   multimedia:
+    main:
+      webimage:
+        domain: instagram.com
+        page: C4QGFf5xRlI
+        id: 02
     short:
     - postxvideo:
         post: 1765774728294461468
@@ -29,11 +34,24 @@ show:
         video: 02
     image:
     - postximage:
-        post: 1765774728294461468
-        image: GIFKWQXakAAGDMb
-    - postximage:
         post: 1765733615722467497
         image: GIElXLRb0AAgpaY
+    - webimage:
+        domain: instagram.com
+        page: C4QGFf5xRlI
+        id: 02
+    - webimage:
+        domain: instagram.com
+        page: C4QGFf5xRlI
+        id: 03
+    - webimage:
+        domain: instagram.com
+        page: C4QGFf5xRlI
+        id: 06
     - postximage:
         post: 1765733615722467497
         image: GIElXLRacAAzZEQ
+    - webimage:
+        domain: instagram.com
+        page: C4QGFf5xRlI
+        id: 05

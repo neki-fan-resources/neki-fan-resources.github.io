@@ -249,6 +249,89 @@
         year: 2024
         id: guvol349
 
+- webimage:
+    domain: instagram.com
+    page: C4QGFf5xRlI
+    id: 02
+    label: On stage
+    published-date: 2025-03-08
+    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: C4QGFf5xRlI
+
+- webimage:
+    domain: instagram.com
+    page: C4QGFf5xRlI
+    id: 03
+    label: On stage
+    info: Cocoro
+    published-date: 2024-03-07
+    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: C4QGFf5xRlI
+
+- webimage:
+    domain: instagram.com
+    page: C4QGFf5xRlI
+    id: 05
+    label: Sidewalk board
+    published-date: 2025-03-08
+    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: C4QGFf5xRlI
+
+- webimage:
+    domain: instagram.com
+    page: C4QGFf5xRlI
+    id: 06
+    label: Backstage
+    published-date: 2024-03-08
+    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: C4QGFf5xRlI
+
+- webpage:
+    domain: instagram.com
+    id: C4QGFf5xRlI
+    label: Cocoro report
+    published-date: 2024-03-07
+    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
+    image:
+    - 02
+    todo: support additional backstage video
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
 - youtubeshort:
     id: TF3IDIX41Q0
     label: Promo

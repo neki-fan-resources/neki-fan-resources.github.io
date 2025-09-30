@@ -70,7 +70,7 @@ object SitePage {
   val HREF_ICON_512 = Url(Path("manekineko-512px.png"))
   val DOMAIN_NAME_NIFR = "neki.fan-resources.net"
 
-  val GOOGLE_VERIFICATION_CODE = "DrE-ZbcyBV3lPatFCBja2O4ymKzfqFXDZjkfkTpvY_8"
+  val GOOGLE_VERIFICATION_CODE = "5DUf4g9lYSa_jzwy0JIrwsfTppM2uM5culgvgkbXj7U"
   val MICROSOFT_VERIFICATION_CODE = "B6C2BBE1BBDED01F740330EB10DEAEF8"
 
   // javascript

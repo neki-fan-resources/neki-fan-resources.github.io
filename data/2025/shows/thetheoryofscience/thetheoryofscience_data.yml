@@ -1,0 +1,180 @@
+- postx:
+    id: 1934083816131596730
+    account: nekiband_jp
+    label: announcement
+    published-date: 2025-06-15
+    text: |-
+      🔥情報解禁🔥
+      
+      11/18,19開催
+      ”The Theory of SCIENCE"
+      ～Shinjuku club SCIENCE 10th Anniversary ～
+      
+      NEK!の出演が決定⚡️
+      18日(火)に出演させていただきます！
+      
+      1日券▼
+      https://t.livepocket.jp/e/npe57
+      
+      2日間通し券▼
+      https://t.livepocket.jp/e/u5z23
+      
+      #NEKI
+    image:
+    - Gtc-9etbYAAg1fO
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- postx:
+    id: 1961987308070240564
+    account: S_club_SCIENCE
+    label: schedule
+    published-date: 2025-08-31
+    text: |-
+      【🔥10周年 タイムテーブル解禁🔥】
+      
+      2025.11.18(TUE)・19(WED)
+      The Theory of SCIENCE
+      Shinjuku club SCIENCE 10th Anniversary 
+      
+      ‼️2日間で11会場同時開催サーキットイベント‼️
+      
+      🎫 
+      11.18(TUE)
+      https://t.livepocket.jp/e/npe57
+      
+      11.19(WED)
+      https://t.livepocket.jp/e/ezuda
+      
+      2日間通し券
+      https://t.livepocket.jp/e/u5z23
+    image:
+    - GzktTajbkAAtiOe
+    - GzktVWObQAAB4zy
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- postx:
+    id: 1962461001246502990
+    account: nekiband_jp
+    label: Schedule
+    published-date: 2025-09-01
+    text: |-
+      ⚡️タイムテール公開⚡️
+      
+      11/18(火)出演
+      「”The Theory of SCIENCE"～Shinjuku club SCIENCE 10th Anniversary ～」
+      
+      NEK!の出演は@ CLUB SCIENCE 
+      19:15~🔥
+      
+      お待ちしております！
+      
+      🎟️https://t.livepocket.jp/e/npe57
+      
+      #NEKI
+    image:
+    - GzwPpOzbcAEE3jO
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+    reference:
+    - postximage:
+        post: 1961987308070240564
+        image: GzktTajbkAAtiOe
+
+- postx:
+    id: 1972621729647546763
+    account: S_club_SCIENCE
+    label: Lineup information
+    published-date: 2025-09-29
+    text: |-
+      【club SCIENCE 10th Anniversary】
+      2025.11.18 TUE
+      #THETHEORYOFSCIENCE
+      ⚡️Day.1 LINEUP⚡️
+      
+      🥁NEK!
+      🥁ジュウ
+      🥁the twenties
+      🥁トップシークレットマン
+      
+      🎫Now on Sale!!!🔥
+      <18日 1Day Ticket>
+      http://t.livepocket.jp/e/npe57
+      
+      <2Days Ticket>
+      http://t.livepocket.jp/e/u5z23
+    image:
+    - G2ApADSbwAA9bsY
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- postximage:
+    post: 1934083816131596730
+    id: Gtc-9etbYAAg1fO
+    label: poster
+    published-date: 2025-06-15
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1934083816131596730
+
+- postximage:
+    post: 1961987308070240564
+    id: GzktTajbkAAtiOe
+    label: Schedule 11.18
+    published-date: 2025-08-31
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1961987308070240564
+
+- postximage:
+    post: 1961987308070240564
+    id: GzktVWObQAAB4zy
+    label: Schedule 11.19
+    published-date: 2025-08-31
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1961987308070240564
+
+- postximage:
+    post: 1962461001246502990
+    id: GzwPpOzbcAEE3jO
+    label: Bands poster
+    published-date: 2025-09-01
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1962461001246502990
+
+- postximage:
+    post: 1972621729647546763
+    id: G2ApADSbwAA9bsY
+    label: NEK! poster
+    published-date: 2025-09-29
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1972621729647546763
+

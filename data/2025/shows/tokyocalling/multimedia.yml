@@ -196,6 +196,31 @@
           year: 2025
           id: tokyocalling
 
+- postx:
+    id: 1972588102490456172
+    account: coco_102
+    label: Photos
+    published-date: 2025-09-29
+    text: |-
+      先日のTOKYO CALLINGで素敵すぎるお写真を撮っていただいたのでみんなにもお裾分け😈🩷
+    translation: |-
+      I had some absolutely lovely photos taken at the recent TOKYO CALLING, so I'm sharing them with everyone 😈🩷
+    image:
+    - G2AKaoUaEAAfEQg
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: tokyocalling
+    reference:
+    - postximage:
+        post: 1971925623133425704
+        image: G12v5sLb0AIOljm
+    - postximage:
+        post: 1971925623133425704
+        image: G12v5sJaoAAIx8N
+
 - postximage:
     post: 1971918444418453926
     id: G12pUcua8AEO3t3
@@ -383,4 +408,16 @@
         id: tokyocalling
     part-of:
       postx: 1971946181770334695
+
+- postximage:
+    post: 1972588102490456172
+    id: G2AKaoUaEAAfEQg
+    label: On stage
+    published-date: 2025-09-29
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1972588102490456172
 

@@ -129,6 +129,42 @@
         year: 2025
         id: minamiwheel
 
+- postx:
+    id: 1972979618727801058
+    account: minamiwheel
+    label: Favorite of your own song?
+    published-date: 2025-09-30
+    text: |-
+      ミナホ公式TikTok企画
+      『#ミナホ質問バトン』
+      
+      ミナホ出演者の誰に回ってくるか分からない質問バトン🔥
+      
+      UNFAIR RULE(
+      @UNFAIR_RULE
+       )からの“自分たちの曲の中で、1番好きな曲は？”という質問にNEK!(
+      @nekiband_jp
+       )が回答‼️
+      
+      続きはコチラ⬇️
+      【https://vt.tiktok.com/ZSDvGPvLT/ 】
+    translation: |-
+      MINAMI WHEEL Official TikTok Project
+      " #MinahoQuestionBaton"
+      
+      A question baton that can go to any MINAMI WHEEL performer 🔥
+      
+      NEK! (@nekiband_jp ) answers the question from UNFAIR RULE (@UNFAIR_RULE ): "What is your favorite song among your own songs?" ‼️
+      
+      Continue here ⬇️
+      【https://vt.tiktok.com/ZSDvGPvLT/ 】
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
 - postximage:
     post: 1943143169446822118
     id: GvduaMoXgAAkU2_
@@ -189,4 +225,30 @@
         id: minamiwheel
     part-of:
       postx: 1966064930890854845
+
+- postxvideo:
+    post: 1972979618727801058
+    id: 01
+    label: Question from other band
+    info: Favorite of your own song?
+    published-date: 2025-09-30
+    cover: 1972979545432375298/img/cphtnkg6HwcLNIzf.jpg
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postx: 1972979618727801058
+
+- update:
+    show:
+      year: 2025
+      id: minamiwheel
+    date: 2025-10-02
+    text:
+    - 'Question from an other band: favorite from you own songs?'
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
 

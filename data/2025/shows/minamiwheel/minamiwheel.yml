@@ -9,7 +9,15 @@ show:
   date: 2025-10-13
   venue: 心斎橋BRONZE, Minami, Osaka
   event-page: 'https://minamiwheel.jp/'
+  part-of:
+    group:
+      id: shows
+      group: 2025
   multimedia:
+    short:
+    - postxvideo:
+        post: 1972979618727801058
+        video: 01
     image:
     - postximage:
         post: 1966064930890854845

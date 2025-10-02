@@ -15,3 +15,7 @@ show:
   - mainshowtour
   venue: 横浜ReNY beta, Yokohama
   event-page: 'https://note.com/nekiband_jp/n/nfccd782e1ba0'
+  part-of:
+    group:
+      id: shows
+      group: 2025

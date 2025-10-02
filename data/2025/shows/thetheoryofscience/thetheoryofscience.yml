@@ -10,12 +10,19 @@ show:
   date: 2025-11-18
   venue: Shinjuku, Tokyo
   event-page: 'https://club-science.com/detail/2025/11/18'
+  part-of:
+    group:
+      id: shows
+      group: 2025
   multimedia:
     main:
       postximage:
         post: 1962461001246502990
         image: GzwPpOzbcAEE3jO
     image:
+    - postximage:
+        post: 1972621729647546763
+        image: G2ApADSbwAA9bsY
     - postximage:
         post: 1962461001246502990
         image: GzwPpOzbcAEE3jO

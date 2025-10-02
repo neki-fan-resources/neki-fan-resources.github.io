@@ -129,3 +129,15 @@
         year: 2025
         id: tokyocalling
 
+- update:
+    show:
+      year: 2025
+      id: tokyocalling
+    date: 2025-10-02
+    text:
+    - One more image
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+

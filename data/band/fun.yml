@@ -1,0 +1,5 @@
+group:
+  id: fun
+  label: Fun
+  part-of:
+    group: band

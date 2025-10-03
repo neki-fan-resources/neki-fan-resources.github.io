@@ -277,6 +277,18 @@
     part-of:
       postx: 1934127859645419907
 
+- update:
+    show:
+      year: 2025
+      id: nekikomsumetokyo
+    date: 2025-10-03
+    text:
+    - New great backstage group picture from Natsu
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+
 - youtubeshort:
     id: mOyYGaolObY
     label: Entry

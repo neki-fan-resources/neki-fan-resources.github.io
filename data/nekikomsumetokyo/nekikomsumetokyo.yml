@@ -15,11 +15,24 @@ show:
   venue: 下北沢 Shelter
   todo: event-page
   multimedia:
+    main:
+      postximage:
+        post: 1929531593523081226
+        image: GscSvrHbMAAqkrT
     short:
+    - postxvideo:
+        post: 1934127859645419907
+        video: 01
     - postxvideo:
         post: 1931252079353581736
         video: 01
+    - postxvideo:
+        post: 1933082505084809657
+        video: 01
     - youtubeshort: mOyYGaolObY
+    - postxvideo:
+        post: 1929717050664276154
+        video: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
     image:
     - postximage:
         post: 1929838014714597729
@@ -27,3 +40,6 @@ show:
     - postximage:
         post: 1929531593523081226
         image: GscSvrHbMAAqkrT
+    - postximage:
+        post: 1973742259104591986
+        image: G2QkHgsbUAA2O63

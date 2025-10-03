@@ -1,0 +1,39 @@
+- webimage:
+    domain: tower.jp
+    page: 2025.10.03.0706
+    id: 0706
+    label: Poster
+    published-date: 2025-10-03
+    url: 'https://cdfront.tower.jp/~/media/Images/Tol/pc/article/feature_item/J-Pop/2025/10/03/0706.jpg'
+    local-copy: true
+    context:
+    - event: iwanttostartaband
+    part-of:
+      event: iwanttostartaband
+
+- webimage:
+    domain: tower.jp
+    page: 2025.10.03.0706
+    id: 10127538
+    label: Stickers
+    published-date: 2025-10-03
+    url: 'https://cdfront.tower.jp/~/media/Images/Tol/pc/article/feature_item/J-Pop/2025/10/03/10127538.jpg'
+    context:
+    - event: iwanttostartaband
+    part-of:
+      webpage:
+        domain: tower.jp
+        id: 2025.10.03.0706
+
+- webpage:
+    domain: tower.jp
+    id: 2025.10.03.0706
+    label: 'I want to be in a band! #13'
+    published-date: 2025-10-03
+    url: 'https://tower.jp/article/feature_item/2025/10/03/0706'
+    image:
+    - 0706
+    - 10127538
+    part-of:
+      event: iwanttostartaband
+

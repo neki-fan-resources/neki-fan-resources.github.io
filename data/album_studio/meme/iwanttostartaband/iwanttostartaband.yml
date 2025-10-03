@@ -1,0 +1,30 @@
+event:
+  id: iwanttostartaband
+  cover-image:
+    webimage:
+      domain: tower.jp
+      page: 2025.10.03.0706
+      id: 0706
+  label: ああバンドやりたい！
+  date: 2025-11-25
+  description:
+  - NEK! has been selected as the 13th ambassador for Tower Records' "Ah, I Want to Start a Band!" project.
+  - The project has for objective to promote Japanese band culture, by highlighting new bands.
+  - Poster will be displayed at Tower Records store nationwide, and bonus giveaways will be held.
+  part-of:
+    album: meme
+  multimedia:
+    main:
+      webimage:
+        domain: tower.jp
+        page: 2025.10.03.0706
+        id: 10127538
+    image:
+    - webimage:
+        domain: tower.jp
+        page: 2025.10.03.0706
+        id: 0706
+    - webimage:
+        domain: tower.jp
+        page: 2025.10.03.0706
+        id: 10127538

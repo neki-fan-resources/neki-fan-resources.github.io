@@ -5,6 +5,7 @@ song:
       post: 1949439923565826120
       image: Gw3NH3ubMAA1o7y
   fullname: rip-off
+  album: meme
   release-date: 2025-08-06
   description:
   - '"rip-off" expresses the struggle to maintain your own identity against the pressure to conform to popular beauty standards. The lyrics describe the push to copy others, which results in a "borrowed face." This creates a conflict where a wish to be "transparent" to avoid judgment clashes with the desire to still be seen by others.'
@@ -12,6 +13,8 @@ song:
   - The song was announced on July 27th, with a digital release on August 6th. The Official Music Video was announced on August 22th, with a video teaser, and released on August 23th.
   lyrics:
   - main
+  part-of:
+    album: meme
   multimedia:
     main:
       youtubevideo: OkQV2Vo9EgE

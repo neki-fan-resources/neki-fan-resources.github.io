@@ -52,6 +52,7 @@ contentpage:
       year: 2025
       id: 1stalbummeme
   - album: meme
+  - event: iwanttostartaband
   - show:
       year: 2025
       id: thetheoryofscience
@@ -290,65 +291,13 @@ contentpage:
       id: guvol349
   - event: formationneki
   metadata:
-  - show:
-      year: 2026
-      id: 2ndtokyo2
+  - event: iwanttostartaband
     short: true
+    forward: -5
   - show:
-      year: 2026
-      id: 2ndosaka
-    short: true
-    forward: 2
-  - show:
-      year: 2026
-      id: 2ndhyogo
-    short: true
-    forward: -1
-  - show:
-      year: 2026
-      id: 2ndfukuoka
-    short: true
-    forward: 2
-  - show:
-      year: 2026
-      id: 2ndkumamoto
-    short: true
-    forward: -1
-  - show:
-      year: 2026
-      id: 2ndaichi2
-    short: true
-    forward: 2
-  - show:
-      year: 2026
-      id: 2ndaichi1
-    short: true
-    forward: -1
-  - show:
-      year: 2026
-      id: 2ndfukushima
-    short: true
-    forward: 2
-  - show:
-      year: 2026
-      id: 2ndmiyagi
-    forward: -1
-    short: true
-  - show:
-      year: 2026
-      id: 2ndsaitama
-    short: true
-  - show:
-      year: 2026
-      id: 2ndkanagawa
-    short: true
-  - show:
-      year: 2026
-      id: 2ndtokyo1
-    short: true
-    forward: 7
-  - tour: 2ndanniversarytour
-    forward: -7
+      year: 2025
+      id: 1stalbummeme
+    forward: 4
   - show:
       year: 2024
       id: girlsgirlsgirls
@@ -368,19 +317,21 @@ contentpage:
     short: true
   - show:
       year: 2024
-      id: beyondthesingularityvol7
-    forward: 1
-    short: true
-  - song: maze
-    left: false
-    forward: -21
-  - show:
-      year: 2024
       id: codeofzerox
+    short: true
+  - show:
+      year: 2026
+      id: 2ndfukushima
+    forward: 2
     short: true
   - show:
       year: 2024
       id: sweetsweetsweet
+    short: true
+  - show:
+      year: 2026
+      id: 2ndaichi2
+    forward: 2
     short: true
   - show:
       year: 2024
@@ -418,6 +369,11 @@ contentpage:
   - show:
       year: 2025
       id: kogaderarock
+    short: true
+  - show:
+      year: 2026
+      id: 2ndhyogo
+    forward: -1
     short: true
   - show:
       year: 2025
@@ -479,6 +435,11 @@ contentpage:
     in: 1
     short: true
   - show:
+      year: 2026
+      id: 2ndkumamoto
+    forward: -1
+    short: true
+  - show:
       year: 2025
       id: thetheoryofscience
     short: true
@@ -509,6 +470,10 @@ contentpage:
       id: setallfree
     forward: -6
     short: true
+  - show:
+      year: 2026
+      id: 2ndtokyo2
+    short: true
   - media:
       year: 2025
       id: nack5fantasyradio
@@ -518,6 +483,11 @@ contentpage:
       year: 2025
       id: kissfmkobe
     forward: -12
+    short: true
+  - show:
+      year: 2026
+      id: 2ndfukuoka
+    forward: 2
     short: true
   - show:
       year: 2024
@@ -554,6 +524,11 @@ contentpage:
   - album: meme
     left: false
   - show:
+      year: 2026
+      id: 2ndtokyo1
+    forward: 7
+    short: true
+  - show:
       year: 2025
       id: recommendjunction
     short: true
@@ -574,6 +549,10 @@ contentpage:
   - show:
       year: 2024
       id: guvol351
+    short: true
+  - show:
+      year: 2026
+      id: 2ndsaitama
     short: true
   - show:
       year: 2024
@@ -605,6 +584,8 @@ contentpage:
       year: 2024
       id: guvol349
     short: true
+  - tour: 2ndanniversarytour
+    forward: -7
   - multimedia-event: getoverlivev
     left: false
   - media:
@@ -616,16 +597,21 @@ contentpage:
       year: 2024
       id: guvol365
     short: true
-  - show:
-      year: 2025
-      id: youandi
-    short: true
   - album: exclamation
     left: false
   - show:
       year: 2025
       id: tricktakingtourtokyo
     forward: 7
+  - show:
+      year: 2025
+      id: youandi
+    short: true
+  - show:
+      year: 2026
+      id: 2ndaichi1
+    forward: -1
+    short: true
   - show:
       year: 2024
       id: arealiberated
@@ -655,6 +641,15 @@ contentpage:
     short: true
   - song: ooak
     left: false
+  - show:
+      year: 2024
+      id: beyondthesingularityvol7
+    forward: 1
+    short: true
+  - show:
+      year: 2026
+      id: 2ndkanagawa
+    short: true
   - media:
       year: 2025
       id: tokyofmradiodragonnext
@@ -677,6 +672,19 @@ contentpage:
   - show:
       year: 2024
       id: fypvol5
+    short: true
+  - show:
+      year: 2026
+      id: 2ndosaka
+    forward: 2
+    short: true
+  - song: maze
+    left: false
+    forward: -21
+  - show:
+      year: 2026
+      id: 2ndmiyagi
+    forward: -1
     short: true
   - show:
       year: 2024

@@ -10,9 +10,25 @@ album:
   description:
   - NEK!'s first album.
   - It was announced during the "1ST ZEPP ONE MAN" concert, on August 30th, to be released on November 26th.
+  - The tracklist was revealed on October 3rd.
   - It will be their last indie release, before joining a major label in 2026.
-  songs: []
+  songs:
+  - frogflog
+  - gimmick
+  - bitbybit
+  - jumping
+  - tictactoe
+  - marinesnow
+  - scrapbook
+  - ripoff
+  - dearme
+  - ooak
+  - fake
+  - clockup
+  - colorchord
   todo: add show party info
+  part-of:
+    group: album_studio
   multimedia:
     image:
     - postximage:

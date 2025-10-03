@@ -2,22 +2,26 @@ package org.skyluc.neki_site.html.pages
 
 import org.skyluc.fan_resources.Common
 import org.skyluc.fan_resources.data.Album
+import org.skyluc.fan_resources.html.CompiledDataGenerator
 import org.skyluc.fan_resources.html.ElementCompiledData
 import org.skyluc.fan_resources.html.MultiMediaBlockCompiledData
+import org.skyluc.fan_resources.html.component.ChronologySection
+import org.skyluc.fan_resources.html.component.ChronologySection.ChronologyYear
 import org.skyluc.fan_resources.html.component.LargeDetails
-import org.skyluc.fan_resources.html.component.MediumCard
 import org.skyluc.fan_resources.html.component.MultiMediaCard
 import org.skyluc.fan_resources.html.component.SectionHeader
+import org.skyluc.fan_resources.html.component.SmallCard
 import org.skyluc.html.BodyElement
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.PageDescription
 import org.skyluc.neki_site.html.SitePage
 import org.skyluc.neki_site.html.TitleAndDescription
-import org.skyluc.fan_resources.html.CompiledDataGenerator
 
 class AlbumPage(
     album: ElementCompiledData,
+    isStudio: Boolean,
     songs: Seq[ElementCompiledData],
+    songsByYears: Seq[ChronologyYear],
     multimediaBlock: MultiMediaBlockCompiledData,
     description: PageDescription,
     site: Site,
@@ -29,12 +33,25 @@ class AlbumPage(
     val largeDetails =
       LargeDetails.generate(album)
 
-    val songsSection: Seq[BodyElement[?]] = Seq(
-      SectionHeader.generate(SECTION_SONGS),
-      MediumCard.generateList(
-        songs
-      ),
-    )
+    // val songsSection: Seq[BodyElement[?]] = Seq(
+    //   SectionHeader.generate(SECTION_SONGS),
+    //   MediumCard.generateList(
+    //     songs
+    //   ),
+    // )
+
+    val songsSection: Seq[BodyElement[?]] = if (isStudio) {
+      Seq(
+        SectionHeader.generate(SECTION_SONGS),
+        ChronologySection.generate(songsByYears, Nil, true, false),
+      )
+    } else {
+      Seq(
+        SectionHeader.generate(SECTION_SONGS),
+        SmallCard.generateList(songs),
+      )
+
+    }
 
     val multiMediaMainSections = MultiMediaCard.generateMainSections(multimediaBlock, album.uId)
 
@@ -57,7 +74,7 @@ object AlbumPage {
 
     val compiledData = generator.getElement(album)
 
-    val songs = album.songs.map(generator.getElement)
+    val songsCompiledData = album.songs.map(generator.getElement)
 
     val multimediaBlock = generator.getMultiMediaBlock(album)
 
@@ -72,9 +89,22 @@ object AlbumPage {
     // val (pagePath, oppositePagePath) =
     //   SitePage.pageAndOppositePagePath(album.id, album.id.copy(dark = !album.id.dark), album.id.dark, compilers)
 
+    val songs = album.songs.map(generator.get)
+
+    val ordered = songs.sortBy(_.releaseDate)
+
+    val songByYears = ChronologySection.compiledData(
+      ordered.head.releaseDate,
+      ordered.last.releaseDate,
+      songs,
+      generator,
+    )
+
     val mainPage = AlbumPage(
       compiledData,
-      songs,
+      album.isStudio,
+      songsCompiledData,
+      songByYears,
       multimediaBlock,
       PageDescription(
         TitleAndDescription.formattedTitle(

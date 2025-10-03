@@ -5,6 +5,7 @@ song:
       post: 1929512124243411173
       image: GscBBL6bgAAwvmM
   fullname: OOAK
+  album: meme
   release-date: 2025-06-04
   description:
   - Named and announced to be release on 2025-06-02, during the「NEK!/komsume TWO-MAN SHOW」in Tokyo.
@@ -14,6 +15,8 @@ song:
   lyrics:
   - main
   todo: 'add quote from Hika https://ototoy.jp/news/124081'
+  part-of:
+    album: meme
   multimedia:
     main:
       youtubevideo: qGEzCjYvWZw

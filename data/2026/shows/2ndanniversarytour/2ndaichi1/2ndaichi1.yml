@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: 2ndaichi1
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n3d37c2c897c8
+      id: poster01
+  fullname: Aichi
+  date: 2026-03-28
+  tour: 2ndanniversarytour
+  description:
+  - This show is the sixth concert of the national tour.
+  venue: NAGOYA JAMMIN’
+  event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
+  part-of:
+    tour: 2ndanniversarytour

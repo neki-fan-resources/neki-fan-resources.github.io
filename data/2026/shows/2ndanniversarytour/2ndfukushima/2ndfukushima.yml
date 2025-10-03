@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: 2ndfukushima
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n3d37c2c897c8
+      id: poster01
+  fullname: Fukushima
+  date: 2026-03-21
+  tour: 2ndanniversarytour
+  description:
+  - This show is the fifth stop on the national tour.
+  venue: club SONIC iwaki
+  event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
+  part-of:
+    tour: 2ndanniversarytour

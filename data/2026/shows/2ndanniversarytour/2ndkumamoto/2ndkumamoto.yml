@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: 2ndkumamoto
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n3d37c2c897c8
+      id: poster01
+  fullname: Kumamoto
+  date: 2026-04-10
+  tour: 2ndanniversarytour
+  description:
+  - This show is the eighth stop on the national tour.
+  venue: Kumamoto B.9 V2
+  event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
+  part-of:
+    tour: 2ndanniversarytour

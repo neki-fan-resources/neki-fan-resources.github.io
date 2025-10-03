@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: 2ndosaka
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n3d37c2c897c8
+      id: poster01
+  fullname: Osaka
+  date: 2026-04-19
+  tour: 2ndanniversarytour
+  description:
+  - This show is the eleventh stop on the national tour.
+  venue: Umeda Shangri-La
+  event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
+  part-of:
+    tour: 2ndanniversarytour

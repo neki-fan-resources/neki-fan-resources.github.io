@@ -1,0 +1,45 @@
+tour:
+  id: 2ndanniversarytour
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n3d37c2c897c8
+      id: poster01
+  fullname: NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+  shortname: 2nd ANNIVERSARY LIVE TOUR
+  first-date: 2026-02-08
+  last-date: 2026-04-26
+  description:
+  - This first national tour for NEK!, celebrating the band's 2nd anniversary, kicks off on February 8th, just two days before the anniversary date of February 10th.
+  - The tour is composed of twelve dates, spread over three months. The tour starts in Tokyo, goes through Honshu and Kyushu, before finally returning to Tokyo.
+  - The tour was teased during the "1ST ZEPP ONE MAN" concert, on August 30th. The list of dates was announced on October 3rd.
+  shows:
+  - year: 2026
+    id: 2ndtokyo1
+  - year: 2026
+    id: 2ndkanagawa
+  - year: 2026
+    id: 2ndsaitama
+  - year: 2026
+    id: 2ndmiyagi
+  - year: 2026
+    id: 2ndfukushima
+  - year: 2026
+    id: 2ndaichi1
+  - year: 2026
+    id: 2ndaichi2
+  - year: 2026
+    id: 2ndkumamoto
+  - year: 2026
+    id: 2ndfukuoka
+  - year: 2026
+    id: 2ndhyogo
+  - year: 2026
+    id: 2ndosaka
+  - year: 2026
+    id: 2ndtokyo2
+  event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
+  part-of:
+    group:
+      id: shows
+      group: 2026

@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: 2ndmiyagi
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n3d37c2c897c8
+      id: poster01
+  fullname: Miyagi
+  date: 2026-03-20
+  tour: 2ndanniversarytour
+  description:
+  - This show is the fourth stop on the national tour.
+  venue: Sendai ROCKATERIA
+  event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
+  part-of:
+    tour: 2ndanniversarytour

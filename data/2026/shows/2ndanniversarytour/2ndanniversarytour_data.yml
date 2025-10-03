@@ -1,0 +1,26 @@
+- webimage:
+    domain: note.com.nekiband
+    page: n3d37c2c897c8
+    id: poster01
+    label: Poster
+    published-date: 2025-10-03
+    url: 'https://assets.st-note.com/img/1759486637-QVF0NRnKP37cmyYTw9go6qBt.jpg'
+    local-copy: true
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n3d37c2c897c8
+
+- webpage:
+    domain: note.com.nekiband
+    id: n3d37c2c897c8
+    label: NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+    published-date: 2025-10-03
+    url: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
+    image:
+    - poster01
+    part-of:
+      tour: 2ndanniversarytour
+

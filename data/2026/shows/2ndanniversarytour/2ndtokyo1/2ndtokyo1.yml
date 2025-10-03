@@ -1,0 +1,19 @@
+show:
+  year: 2026
+  id: 2ndtokyo1
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n3d37c2c897c8
+      id: poster01
+  fullname: Tokyo
+  date: 2026-02-08
+  tour: 2ndanniversarytour
+  description:
+  - NEK! is back at Shibuya eggman for the first show of the tour.
+  - Shibuya eggman is the venue where the band first performed and has returned multiple times since, including their "2ND ONE MAN LIVE".
+  - This show should be a great celebration of their 2nd anniversary, which falls two days later.
+  venue: Shibuya eggman, Tokyo
+  event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
+  part-of:
+    tour: 2ndanniversarytour

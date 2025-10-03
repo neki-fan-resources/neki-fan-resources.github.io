@@ -7,10 +7,46 @@ contentpage:
   label: Chronology
   display-type: timeline
   start-date: 2024-01-01
-  end-date: 2026-03-31
+  end-date: 2026-05-31
   description: The main events in the NEK! story. Song and EP releases, shows, tours, interviews, ...
   categories: []
   content:
+  - show:
+      year: 2026
+      id: 2ndtokyo2
+  - show:
+      year: 2026
+      id: 2ndosaka
+  - show:
+      year: 2026
+      id: 2ndhyogo
+  - show:
+      year: 2026
+      id: 2ndfukuoka
+  - show:
+      year: 2026
+      id: 2ndkumamoto
+  - show:
+      year: 2026
+      id: 2ndaichi2
+  - show:
+      year: 2026
+      id: 2ndaichi1
+  - show:
+      year: 2026
+      id: 2ndfukushima
+  - show:
+      year: 2026
+      id: 2ndmiyagi
+  - show:
+      year: 2026
+      id: 2ndsaitama
+  - show:
+      year: 2026
+      id: 2ndkanagawa
+  - show:
+      year: 2026
+      id: 2ndtokyo1
   - tour: 2ndanniversarytour
   - show:
       year: 2025
@@ -254,6 +290,65 @@ contentpage:
       id: guvol349
   - event: formationneki
   metadata:
+  - show:
+      year: 2026
+      id: 2ndtokyo2
+    short: true
+  - show:
+      year: 2026
+      id: 2ndosaka
+    short: true
+    forward: 2
+  - show:
+      year: 2026
+      id: 2ndhyogo
+    short: true
+    forward: -1
+  - show:
+      year: 2026
+      id: 2ndfukuoka
+    short: true
+    forward: 2
+  - show:
+      year: 2026
+      id: 2ndkumamoto
+    short: true
+    forward: -1
+  - show:
+      year: 2026
+      id: 2ndaichi2
+    short: true
+    forward: 2
+  - show:
+      year: 2026
+      id: 2ndaichi1
+    short: true
+    forward: -1
+  - show:
+      year: 2026
+      id: 2ndfukushima
+    short: true
+    forward: 2
+  - show:
+      year: 2026
+      id: 2ndmiyagi
+    forward: -1
+    short: true
+  - show:
+      year: 2026
+      id: 2ndsaitama
+    short: true
+  - show:
+      year: 2026
+      id: 2ndkanagawa
+    short: true
+  - show:
+      year: 2026
+      id: 2ndtokyo1
+    short: true
+    forward: 7
+  - tour: 2ndanniversarytour
+    forward: -7
   - show:
       year: 2024
       id: girlsgirlsgirls

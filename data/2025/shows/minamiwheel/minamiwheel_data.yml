@@ -1,3 +1,22 @@
+- newsitem:
+    id: upcoming
+    show:
+      year: 2025
+      id: minamiwheel
+    title: MINAMI WHEEL
+    active: true
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+    text:
+    - line:
+      - text: "NEK!'s next show will be "
+      - show:
+          year: 2025
+          id: minamiwheel
+      - text: ', on october 13th in Osaka.'
+
 - postx:
     id: 1943143169446822118
     account: minamiwheel

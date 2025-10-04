@@ -1,0 +1,186 @@
+- group:
+    id: multimedia
+    label: Multimedia
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+
+- postx:
+    id: 1974387155205296495
+    account: SHIBUYATHEGAME
+    label: Live report
+    published-date: 2025-10-04
+    text: |-
+      【📸ライブレポ📸】
+      10.04(SAT)
+      Zephyren(
+      @Zephyren_
+      ) × THE GAME Presents
+      『In The Family FEST 2025』
+      
+      🏟Milkyway
+      🎸NEK!(
+      @nekiband_jp
+      )
+      
+      ご出演いただき有難うございました!!
+      
+      📷by(
+      @703CG
+      )
+      
+      #ITFF2025
+    translation: |-
+      【📸Live Report📸】
+      10.04 (SAT)
+      Zephyren (
+      @Zephyren_
+      ) × THE GAME Presents
+      "In The Family FEST 2025"
+      
+      🏟Milkyway
+      🎸NEK! (
+      @nekiband_jp
+      )
+      
+      Thank you for your performance!!
+      
+      📷by (
+      @703CG
+      )
+      
+      #ITFF2025
+    image:
+    - G2ZunFTa8AAUg4y
+    - G2ZunFWbEAAHee_
+    - G2ZunFibYAAz5JQ
+    - G2ZunHWbMAEVGJB
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: inthefamilyfest
+
+- postx:
+    id: 1974401449116532981
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-10-04
+    text: |-
+      ZEPHYREN × SHIBUYA THE GAME presents
+      『In The Family FEST 2025』
+      @ Shibuya Milkyway
+      
+      Thanks🎮✨
+      
+      🔥11/28(金)
+      アルバムリリース記念ワンマン
+      @ 横浜ReNY beta
+      &
+      🔥来年2月から全国ツアー
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      チケット受付中⚡️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #ITFF2025
+    translation: |-
+      ZEPHYREN × SHIBUYA THE GAME presents
+      "In The Family FEST 2025"
+      @ Shibuya Milkyway
+      
+      Thanks🎮✨
+      
+      🔥11/28 (Fri)
+      Album Release Celebration One-Man Live
+      @ Yokohama ReNY beta
+      &
+      🔥Nationwide tour starting next February
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      Tickets now available ⚡️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #ITFF2025
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: inthefamilyfest
+
+- postximage:
+    post: 1974387155205296495
+    id: G2ZunFTa8AAUg4y
+    label: On stage
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974387155205296495
+
+- postximage:
+    post: 1974387155205296495
+    id: G2ZunFWbEAAHee_
+    label: On stage
+    info: Hika
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974387155205296495
+
+- postximage:
+    post: 1974387155205296495
+    id: G2ZunFibYAAz5JQ
+    label: The band
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974387155205296495
+
+- postximage:
+    post: 1974387155205296495
+    id: G2ZunHWbMAEVGJB
+    label: On stage
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974387155205296495
+
+- postximage:
+    post: 1974401449116532981
+    id: G2Z7njobgAE8QTS
+    label: On stage
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974401449116532981
+
+- postximage:
+    post: 1974401449116532981
+    id: G2Z7njpaIAA1yyK
+    label: Backstage
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974401449116532981
+

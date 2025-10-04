@@ -1,3 +1,11 @@
+- update:
+    event: iwanttostartaband
+    date: 2025-10-03
+    text:
+    - NEK! named as the 13th ambassador for Tower Records' "Ah, I Want to Start a Band!" project.
+    part-of:
+      event: iwanttostartaband
+
 - webimage:
     domain: tower.jp
     page: 2025.10.03.0706
@@ -9,7 +17,9 @@
     context:
     - event: iwanttostartaband
     part-of:
-      event: iwanttostartaband
+      webpage:
+        domain: tower.jp
+        id: 2025.10.03.0706
 
 - webimage:
     domain: tower.jp

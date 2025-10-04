@@ -103,3 +103,52 @@
     part-of:
       postx: 1969026474951786643
 
+- update:
+    album: meme
+    date: 2025-10-03
+    text:
+    - Tracklist, song names and release bonuses
+    part-of:
+      album: meme
+
+- webimage:
+    domain: note.com.nekiband
+    page: n828855136334
+    id: bonuses
+    label: Bonuses
+    info: for the different stores
+    published-date: 2025-10-03
+    url: 'https://assets.st-note.com/img/1759484392-sfGE7NLOSYFmZjn4UtuXkW6g.jpg'
+    context:
+    - album: meme
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n828855136334
+
+- webimage:
+    domain: note.com.nekiband
+    page: n828855136334
+    id: stickers
+    label: Bonus stickers
+    published-date: 2025-10-03
+    url: 'https://assets.st-note.com/img/1759484378-zKnijkd7WPRMp243g6LQrCay.jpg'
+    context:
+    - album: meme
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n828855136334
+
+- webpage:
+    domain: note.com.nekiband
+    id: n828855136334
+    label: Album MEME
+    published-date: 2025-08-30
+    url: 'https://note.com/nekiband_jp/n/n828855136334'
+    image:
+    - stickers
+    - bonuses
+    part-of:
+      album: meme
+

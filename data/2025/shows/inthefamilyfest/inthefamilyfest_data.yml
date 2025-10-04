@@ -1,10 +1,30 @@
 - newsitem:
-    id: upcoming
+    id: done
     show:
       year: 2025
       id: inthefamilyfest
     title: In the Family Fest
     active: true
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+    text:
+    - line:
+      - text: "NEK!'s last show was "
+      - show:
+          year: 2025
+          id: inthefamilyfest
+      - text: ', on october 4th in Shibuya.'
+    - line:
+      - text: The first pictures are available.
+
+- newsitem:
+    id: upcoming
+    show:
+      year: 2025
+      id: inthefamilyfest
+    title: In the Family Fest
     part-of:
       show:
         year: 2025
@@ -71,6 +91,51 @@
         year: 2025
         id: inthefamilyfest
 
+- postx:
+    id: 1974020534053568626
+    account: nekiband_jp
+    label: Tomorrow
+    published-date: 2025-10-03
+    text: |-
+      💥あす出演💥
+      
+      10/4(土)
+      ZEPHYREN × SHIBUYA THE GAME presents
+      『In The Family FEST 2025』
+      
+      ⏰出演時間：16:15~16:45
+      📍会場：Shibuya Milkyway
+      
+      お待ちしております🔥
+      
+      チケット残りわずか⚠️
+      ▶︎https://t.livepocket.jp/e/itff2025
+      
+      #NEKI #ITFF2025
+    translation: |-
+      💥Appearing Tomorrow💥
+      
+      10/4 (Sat)
+      ZEPHYREN × SHIBUYA THE GAME presents
+      "In The Family FEST 2025"
+      
+      ⏰Performance Time: 16:15~16:45
+      📍Venue: Shibuya Milkyway
+      
+      We will be waiting for you 🔥
+      
+      Tickets running low ⚠️
+      ▶︎https://t.livepocket.jp/e/itff2025
+      
+      #NEKI #ITFF2025
+    image:
+    - G2Ug11VawAAShou
+    - G2Ug2l_bAAA5XlD
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+
 - postximage:
     post: 1954845457206624572
     id: GyEBiwJaAAAVDe8
@@ -103,7 +168,7 @@
 - postximage:
     post: 1964992098836664505
     id: G0UH9XuaEAEOX-x
-    label: Schedule
+    label: Timetable
     published-date: 2025-09-08
     context:
     - show:
@@ -111,4 +176,40 @@
         id: inthefamilyfest
     part-of:
       postx: 1964992098836664505
+
+- postximage:
+    post: 1974020534053568626
+    id: G2Ug11VawAAShou
+    label: Timetable
+    published-date: 2025-10-03
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974020534053568626
+
+- postximage:
+    post: 1974020534053568626
+    id: G2Ug2l_bAAA5XlD
+    label: Line up
+    published-date: 2025-10-03
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974020534053568626
+
+- update:
+    show:
+      year: 2025
+      id: inthefamilyfest
+    date: 2025-10-04
+    text:
+    - First images from the show
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
 

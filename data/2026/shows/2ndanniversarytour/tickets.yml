@@ -1,0 +1,5 @@
+group:
+  id: tickets
+  label: Tickets
+  part-of:
+    tour: 2ndanniversarytour

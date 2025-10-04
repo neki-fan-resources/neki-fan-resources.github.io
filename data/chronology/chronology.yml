@@ -291,21 +291,10 @@ contentpage:
       id: guvol349
   - event: formationneki
   metadata:
-  - event: iwanttostartaband
-    short: true
-    forward: -5
-  - show:
-      year: 2025
-      id: 1stalbummeme
-    forward: 4
   - show:
       year: 2024
       id: girlsgirlsgirls
     forward: -7
-    short: true
-  - media:
-      year: 2025
-      id: eradiocatch
     short: true
   - show:
       year: 2025
@@ -369,6 +358,14 @@ contentpage:
   - show:
       year: 2025
       id: kogaderarock
+    short: true
+  - show:
+      year: 2025
+      id: 1stalbummeme
+    forward: 4
+  - media:
+      year: 2025
+      id: eradiocatch
     short: true
   - show:
       year: 2026
@@ -641,6 +638,9 @@ contentpage:
     short: true
   - song: ooak
     left: false
+  - event: iwanttostartaband
+    forward: -5
+    short: true
   - show:
       year: 2024
       id: beyondthesingularityvol7

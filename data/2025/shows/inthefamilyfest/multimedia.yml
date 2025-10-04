@@ -111,6 +111,150 @@
           year: 2025
           id: inthefamilyfest
 
+- postx:
+    id: 1974406428967465407
+    account: coco_102
+    label: Thank you
+    published-date: 2025-10-04
+    text: |-
+      🖤In The Family FEST 2025🖤
+      
+      お越しくださった皆さんありがとうございました！！
+      いやー！とにかくアツかった！！！
+      短い時間でしたが楽しんでくれてたら嬉しいです！
+      
+      そして今日NEK!と出会ってくれた方🤚🏻
+      自信もってかっこいいと言える楽曲たくさんあるので、ぜひワンマンにも遊びに来てください！
+    translation: |-
+      🖤In The Family FEST 2025🖤
+      
+      Thank you to everyone who came!!
+      Man, it was so hot!!!
+      I hope you enjoyed the short time we had!
+      
+      And to those who discovered NEK! today 🤚🏻
+      We have so many songs we can confidently call cool, so please come join us at our one-man show!
+    image:
+    - G2aALKtbEAAoYTX
+    - G2aALKubYAAtpGD
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: inthefamilyfest
+
+- postx:
+    id: 1974413644357362075
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-10-04
+    text: |-
+      In The Family FEST 2025✩.*˚
+      @ Shibuya Milkyway
+      
+      最初から最後まで熱かったぁー！
+      みんなの声にいつもパワーもらってます！ありがとうございました！
+      
+      良かったら
+      11/28にワンマンライブがあり
+      来年2月から初全国ツアーを行います！
+      ぜひ遊びに来てください！
+      
+      #ネキミーム
+    translation: |-
+      In The Family FEST 2025✩.*˚
+      @ Shibuya Milkyway
+      
+      It was hot from start to finish!
+      We always get power from everyone's voices! Thank you very much!
+      
+      If you're interested,
+      we have a one-man live show on 11/28,
+      and our first nationwide tour will start next February!
+      Please come and join us!
+      
+      #NekiMeme
+    image:
+    - G2aGuNUboAAmSty
+    - G2aGuNYaMAAZ2Ok
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: inthefamilyfest
+
+- postx:
+    id: 1974414418764321002
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-10-04
+    text: |-
+      ZEPHYREN × SHIBUYA THE GAME presents『In The Family FEST 2025』
+      @ Shibuya Milkyway
+      
+      ありがとうございました(｡•̀ᴗ-)☆
+      不安定で肌寒いお天気でしたが、
+      ライブ暑すぎてびっくらこきました💧
+      
+      アルバムリリース記念ワンマンと、全国ツアーもよろしくお願いします！
+    translation: |-
+      ZEPHYREN × SHIBUYA THE GAME presents "In The Family FEST 2025"
+      @ Shibuya Milkyway
+      
+      Thank you very much (｡•̀ᴗ-)☆
+      Although the weather was unstable and chilly,
+      the live show was so hot it was surprising 💧
+      
+      Please come to the album release celebration one-man show and the nationwide tour as well!
+    image:
+    - G2aHXP4a4AEwq0X
+    - G2aHXPObQAAtugk
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: inthefamilyfest
+
+- postx:
+    id: 1974414868846653748
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-10-04
+    text: |-
+      ZEPHYREN × SHIBUYA THE GAME presents
+      『In The Family FEST 2025』
+      
+      ありがとうございました！！
+      あっという間で熱々でした！！🔥
+      
+      あっという間すぎたので、もっとみんなと遊びたい！！
+      11/28のワンマン遊びに来てください！
+      全国ツアーもやります！
+      お待ちしております💪🏻💪🏻💪🏻💪🏻
+    translation: |-
+      ZEPHYREN × SHIBUYA THE GAME presents
+      "In The Family FEST 2025"
+      
+      Thank you very much!!
+      It was over in a flash and super hot!! 🔥
+      
+      It went by too quickly, so I want to hang out with everyone more!!
+      Please come to the one-man live on 11/28!
+      We're also doing a nationwide tour!
+      We'll be waiting for you 💪🏻💪🏻💪🏻💪🏻
+    image:
+    - G2aH2qQbAAAtwS8
+    - G2aH2qXbQAAYsXq
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: inthefamilyfest
+
 - postximage:
     post: 1974387155205296495
     id: G2ZunFTa8AAUg4y
@@ -183,4 +327,119 @@
         id: inthefamilyfest
     part-of:
       postx: 1974401449116532981
+
+- postximage:
+    post: 1974406428967465407
+    id: G2aALKtbEAAoYTX
+    label: Backstage
+    info: Cocoro
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974406428967465407
+
+- postximage:
+    post: 1974406428967465407
+    id: G2aALKubYAAtpGD
+    label: Backstage
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974406428967465407
+
+- postximage:
+    post: 1974413644357362075
+    id: G2aGuNUboAAmSty
+    label: On stage
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974413644357362075
+
+- postximage:
+    post: 1974413644357362075
+    id: G2aGuNYaMAAZ2Ok
+    label: On stage
+    info: Hika
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974413644357362075
+
+- postximage:
+    post: 1974414418764321002
+    id: G2aHXP4a4AEwq0X
+    label: On stage
+    info: Kanade
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974414418764321002
+
+- postximage:
+    post: 1974414418764321002
+    id: G2aHXPObQAAtugk
+    label: On stage
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974414418764321002
+
+- postximage:
+    post: 1974414868846653748
+    id: G2aH2qQbAAAtwS8
+    label: On stage
+    info: Natsu
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974414868846653748
+
+- postximage:
+    post: 1974414868846653748
+    id: G2aH2qXbQAAYsXq
+    label: On stage
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974414868846653748
+
+- youtubeshort:
+    id: L84GK2JEgjY
+    label: Live
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: inthefamilyfest
 

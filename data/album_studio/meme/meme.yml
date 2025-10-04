@@ -10,7 +10,7 @@ album:
   description:
   - NEK!'s first album.
   - It was announced during the "1ST ZEPP ONE MAN" concert, on August 30th, to be released on November 26th.
-  - The tracklist was revealed on October 3rd.
+  - The album will contain 13 songs, including the singles "OOAK" and "rip-off". The tracklist was revealed on October 3rd.
   - It will be their last indie release, before joining a major label in 2026.
   songs:
   - frogflog
@@ -43,3 +43,12 @@ album:
     - postximage:
         post: 1961737876066168993
         image: Gzl99vsacAA6bCZ
+    additional:
+    - webimage:
+        domain: note.com.nekiband
+        page: n828855136334
+        id: stickers
+    - webimage:
+        domain: note.com.nekiband
+        page: n828855136334
+        id: bonuses

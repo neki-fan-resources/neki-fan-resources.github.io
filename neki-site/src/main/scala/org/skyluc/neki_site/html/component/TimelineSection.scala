@@ -1,17 +1,19 @@
 package org.skyluc.neki_site.html.component
 
+import org.skyluc.fan_resources.data.ContentPage
 import org.skyluc.fan_resources.data.Date
 import org.skyluc.fan_resources.data.Date.DateTick
 import org.skyluc.fan_resources.data.DisplayMetadata
-import org.skyluc.fan_resources.html.ElementCompiledData
+import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.html as fr
 import org.skyluc.html.*
 
 import Html.*
 import SvgElement.{text as svgText, *}
 
-object TimelineBlock {
+object TimelineSection {
 
-  val CLASS_BLOCK = "timeline-block"
+  val CLASS_BLOCK = "timeline-section"
 
   case class Tick(
       tick: DateTick,
@@ -19,15 +21,17 @@ object TimelineBlock {
       left: Boolean,
   )
 
-  def generate(
-      startDate: Date,
-      endDate: Date,
-      compiledData: Seq[ElementCompiledData],
-      metadata: Map[String, DisplayMetadata],
-  ): Svg = {
+  def generate(configuration: TimelineSectionConfiguration): Seq[BodyElement[?]] = {
+    Seq(
+      generateSvg(configuration),
+      fr.component.CompiledDataJavascript.generateOverlayContent(configuration.elements),
+    )
+  }
 
-    val refDay = startDate.epochDay()
-    val endDay = endDate.fromRefDay(refDay)
+  def generateSvg(configuration: TimelineSectionConfiguration): Svg = {
+
+    val refDay = configuration.startDate.epochDay()
+    val endDay = configuration.endDate.fromRefDay(refDay)
 
     svg()
       .withClass(CLASS_BLOCK)
@@ -35,37 +39,38 @@ object TimelineBlock {
       .withViewBox(-90, -endDay - 15, 180, endDay + 25)
       .appendElements(line(0, -endDay, 0, 0).withStroke("black").withClass(CLASS_LINE))
       .appendElements(
-        generateTicks(startDate, endDate, refDay)
+        generateTicks(configuration, refDay)
       )
       .appendElements(
-        generateMarkers(compiledData, refDay, metadata)*
+        generateMarkers(configuration, refDay)*
       )
 
   }
 
-  def generateTicks(startDate: Date, endDate: Date, refDay: Int): SvgG = {
+  private def generateTicks(configuration: TimelineSectionConfiguration, refDay: Int): SvgG = {
 
     val ticks =
-      Date.yearIntervals(startDate, endDate, refDay).map(Tick(_, CLASS_TICK_YEAR, false))
-        ::: Date.monthIntervals(startDate, endDate, refDay).map(Tick(_, CLASS_TICK_MONTH, true))
+      Date.yearIntervals(configuration.startDate, configuration.endDate, refDay).map(Tick(_, CLASS_TICK_YEAR, false))
+        ::: Date
+          .monthIntervals(configuration.startDate, configuration.endDate, refDay)
+          .map(Tick(_, CLASS_TICK_MONTH, true))
 
     g().appendElements(
       ticks.map(generateTick)*
     )
   }
 
-  def generateTick(tick: Tick): SvgText = {
+  private def generateTick(tick: Tick): SvgText = {
     val x = if (tick.left) -3 else 4
     svgText(x, -tick.tick.day, tick.tick.label).withClass(tick.`class`)
   }
 
   private def generateMarkers(
-      compiledData: Seq[ElementCompiledData],
+      configuration: TimelineSectionConfiguration,
       refDay: Int,
-      metadata: Map[String, DisplayMetadata],
   ): Seq[SvgElement[?]] = {
-    compiledData.map(compiledData =>
-      generateMarker(compiledData, metadata.getOrElse(compiledData.uId, DisplayMetadata.ZERO), refDay)
+    configuration.elements.map(compiledData =>
+      generateMarker(compiledData, configuration.metadata.getOrElse(compiledData.id.path, DisplayMetadata.ZERO), refDay)
     )
   }
 
@@ -74,7 +79,7 @@ object TimelineBlock {
   }
 
   private def generateMarker(
-      compiledData: ElementCompiledData,
+      compiledData: fr.compileddata.ElementCompiledData,
       metadata: DisplayMetadata,
       refDay: Int,
   ): SvgG = {
@@ -86,7 +91,7 @@ object TimelineBlock {
 
     val line = path(s"M 0 0 h${(5 - inMod) * xSign} v${yMod} h${(5 + inMod) * xSign}")
 
-    val label = compiledData.shortLabel.getOrElse(compiledData.label)
+    val label = compiledData.shortLabel
 
     val elements: List[SvgElement[?]] = if (metadata.short) {
       List(svgText(12 * xSign, 0.25 + yMod, label).withClass(CLASS_MARKER_LABEL_SHORT))
@@ -94,7 +99,7 @@ object TimelineBlock {
       List(
         Some(rect(15 * xSign - 5, -5 + yMod, 10, 10)),
         Some(
-          image(15 * xSign - 5, -5 + yMod, 10, 10, compiledData.cover.source.toString())
+          image(15 * xSign - 5, -5 + yMod, 10, 10, compiledData.cover.imageUrl)
             .withPreserveAspectRatio("xMidYMid slice")
             .withClass(CLASS_MARKER_IMAGE)
         ),
@@ -107,7 +112,7 @@ object TimelineBlock {
     }
 
     g()
-      .withId(compiledData.uId)
+      .withId(compiledData.uId.replace('/', '_'))
       .withClass(if (metadata.left) CLASS_MARKER_LEFT else CLASS_MARKER_RIGHT)
       .withClass(s"timeline_${designationToId(compiledData.designation)}_marker")
       .appendElements(line)
@@ -223,4 +228,25 @@ object TimelineBlock {
 }
 
   """
+}
+
+case class TimelineSectionConfiguration(
+    startDate: Date,
+    endDate: Date,
+    elements: Seq[fr.compileddata.ElementCompiledData],
+    metadata: Map[Path, DisplayMetadata],
+)
+
+object TimelineSectionConfiguration {
+  def createFrom(
+      contentPage: ContentPage,
+      generator: fr.compileddata.CompiledDataGenerator,
+  ): TimelineSectionConfiguration = {
+    TimelineSectionConfiguration(
+      contentPage.startDate,
+      contentPage.endDate,
+      contentPage.content.map(generator.getElementCompiledData(_)),
+      contentPage.metadata.map(t => (t._1.path, t._2)),
+    )
+  }
 }

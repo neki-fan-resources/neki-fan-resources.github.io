@@ -1,0 +1,21 @@
+.header-logo-img {
+  height: 6rem;
+}
+
+.header-navigation {
+  padding-left: 5rem;
+  border-bottom: none;
+  mask-image: linear-gradient(black, black calc(100% - 0.3rem), transparent);
+  /* taller, for the fuzzy edge */
+  padding-bottom: 0.6rem;
+}
+
+.header-navigation-title {
+  color: var(--color-not-black)
+}
+
+.footer-content {
+  border-top: none;
+  mask-image: linear-gradient(transparent, black 0.2rem, black);
+  padding-top: 0.3rem;
+}

@@ -1,5 +1,3 @@
-/* Colors */
-
 :root {
   --color-cocoro: #2ba6e1;
   --color-cocoro-light: rgb(from var(--color-cocoro) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
@@ -35,30 +33,36 @@
   --color-kanade-cocoro-dark: color-mix(in oklab, var(--color-kanade-dark), var(--color-cocoro-dark));
 
   --color-not-black: darkslategray;
-  --color-text-soft: darkslategray;
-  --color-text-less: darkslategray;
-  --color-not-gray: #d0d0d0;
-  --color-designation: gray;
 
-  --color-group-border: black;
+  /* fr colors */
 
   --color-text: black;
-  --color-text-red: darkred;
+  --color-text-highlight: darkred;
+  --color-text-soft: var(--color-not-black);
+  --color-text-nav: var(--color-not-black);
 
-  --color-lyrics-section-even: var(--color-natsu-05);
-  --color-lyrics-section-odd: var(--color-cocoro-05);
-  --color-lyrics-line-even: var(--color-kanade-05);
-  --color-lyrics-line-odd: var(--color-hika-10);
+  --color-designation-text: gray;
 
-  --color-lyrics-ro: var(--color-natsu-dark);
-  --color-lyrics-ww: var(--color-kanade);
-  --color-lyrics-en: var(--color-cocoro-dark);
-  --color-lyrics-gg: var(--color-cocoro-dark);
-  --color-lyrics-atr: var(--color-cocoro-dark);
-  --color-lyrics-aro: var(--color-cocoro);
+  --color-border-cover: var(--color-not-black);
+  --color-bg-cover: var(--color-not-black);
+
+  --color-border-light: #c0c0c0;
+
+  --color-bg-news: var(--color-natsu-10);
+
+  --color-bg-page: var(--color-kanade-lighter);
+  --color-bg2-page: var(--color-natsu-lighter);
+
+  --gradient-bg-page: repeating-linear-gradient(170deg,
+      var(--color-kanade-lighter) 0%,
+      var(--color-natsu-lighter) 60vh,
+      var(--color-kanade-lighter) 120vh);
 
 
-  --gradient-bar: linear-gradient(120deg,
+  --color-bg-bar: var(--color-kanade-light);
+  --color-bg2-bar: var(--color-hika-light);
+
+  --gradient-bg-bar: linear-gradient(120deg,
       var(--color-kanade-cocoro-light) 0%,
       var(--color-kanade-light) 5%,
       var(--color-kanade-light) 20%,
@@ -70,8 +74,29 @@
       var(--color-cocoro-light) 95%,
       var(--color-kanade-cocoro-light) 100%);
 
-  --gradient-page: repeating-linear-gradient(170deg,
-      var(--color-kanade-lighter) 0%,
-      var(--color-natsu-lighter) 60vh,
-      var(--color-kanade-lighter) 120vh);
+
+  --color-lyrics-section-bg-even: var(--color-natsu-05);
+  --color-lyrics-section-bg-odd: var(--color-cocoro-05);
+  --color-lyrics-line-bg-even: var(--color-kanade-05);
+  --color-lyrics-line-bg-odd: var(--color-hika-10);
+
+  --color-lyrics-ro: var(--color-natsu-dark);
+  --color-lyrics-ww: var(--color-kanade);
+  --color-lyrics-en: var(--color-cocoro-dark);
+  --color-lyrics-gg: var(--color-cocoro-dark);
+  --color-lyrics-atr: var(--color-cocoro-dark);
+  --color-lyrics-aro: var(--color-cocoro);
+
+
+  --bg-album: linear-gradient(160deg, transparent 0rem, transparent 20%, var(--color-kanade));
+  --bg-group: linear-gradient(160deg, transparent 0rem, transparent 20%, #204020);
+  --bg-multimedia: linear-gradient(160deg, transparent 0rem, transparent 20%, #204020);
+  --bg-show: linear-gradient(160deg, transparent 0rem, transparent 20%, var(--color-cocoro-light));
+  --bg-song: linear-gradient(160deg, transparent 0rem, transparent 20%, var(--color-kanade-light));
+  --bg-tour: linear-gradient(160deg, transparent 0rem, transparent 20%, var(--color-cocoro));
+
+
+  --color-chronology-bg-light: var(--color-hika-light2);
+  --color-chronology-bg-dark: var(--color-cocoro-light2);
+  --color-chronology-label: var(--color-not-black);
 }

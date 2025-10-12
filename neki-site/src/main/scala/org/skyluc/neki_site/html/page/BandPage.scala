@@ -23,7 +23,7 @@ class BandPage(site: Site, newsItems: Seq[fr.compileddata.NewsItemCompiledData])
       TitleGenerator.generateTitle("Band"),
       TitleGenerator.generateDescription("Band"),
       "/",
-      MainSitePage.imageLogo.imageUrl,
+      URL_IMAGE_PATH.toAbsoluteString(),
       true,
     )
 
@@ -130,7 +130,9 @@ object BandPage {
 
   private val TEXT_SUBLABEL = """Read as "Neki""""
 
-  val URL_LOGO = Path("asset", "image", "logo", "neki-tight.png").toAbsoluteString()
+  private val URL_IMAGE_PATH = Path("asset", "image", "site", "band-getover-01.png")
+
+  private val URL_LOGO = Path("asset", "image", "logo", "neki-tight.png").toAbsoluteString()
 
   def pagesFor(site: Site, generator: fr.compileddata.CompiledDataGenerator): Seq[fr.page.MainSitePage] = {
 

@@ -38,7 +38,7 @@ abstract class MainSitePage extends fr.page.MainSitePage {
   import MainSitePage.*
 
   override def headerContent(): Seq[BodyElement[?]] = fr.component.Header.generate(
-    MainSitePage.imageLogo,
+    MainSitePage.headerLogo,
     "NEK!",
     mainNavItems,
     supportNavItems,
@@ -79,7 +79,7 @@ object MainSitePage {
   val CSS_PATHS =
     Seq(Path("asset", "css", "fr-styles.css"), Path("asset", "css", "styles.css"))
 
-  val imageLogo = fr.compileddata.MultimediaCompiledData(
+  val headerLogo = fr.compileddata.MultimediaCompiledData(
     "image",
     "logo",
     Path("asset", "image", "site", "manekineko-200px.png").toAbsoluteString(),
@@ -93,10 +93,24 @@ object MainSitePage {
     fr.compileddata.Overlay(Common.MISSING_URL, Common.MISSING, false),
   )
 
+  val imageLogo = fr.compileddata.MultimediaCompiledData(
+    "image",
+    "logo",
+    Path("manekineko-512px.png").toAbsoluteString(),
+    "NEK! Fan Resources logo",
+    Common.MISSING_URL,
+    Common.MISSING_DATE,
+    "Designed for the site",
+    true,
+    None,
+    Nil,
+    fr.compileddata.Overlay(Common.MISSING_URL, Common.MISSING, false),
+  )
+
   val HREF_FONT_NOTO = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
 
-  val GOOGLE_VERIFICATION_CODE = "google"
-  val MICROSOFT_VERIFICATION_CODE = "microsoft"
+  val GOOGLE_VERIFICATION_CODE = "5DUf4g9lYSa_jzwy0JIrwsfTppM2uM5culgvgkbXj7U"
+  val MICROSOFT_VERIFICATION_CODE = "B6C2BBE1BBDED01F740330EB10DEAEF8"
 
   val mainNavItems = Seq(
     NavigationItem(

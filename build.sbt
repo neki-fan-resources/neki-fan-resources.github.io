@@ -8,7 +8,7 @@ lazy val `neki-site` = project
   .settings(
     name := "neki-site",
     version := "0.1.0-SNAPSHOT",
-
+    resolvers += "Akka library repository".at("https://repo.akka.io/maven"),
     // 2.13 compatibility
     libraryDependencies ++= Seq(
       "com.typesafe" % "config" % "1.4.3"

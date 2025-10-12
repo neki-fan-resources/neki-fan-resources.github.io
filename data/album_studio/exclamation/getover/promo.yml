@@ -5,6 +5,19 @@
       song: getover
 
 - youtubeshort:
+    id: Irt9PmVz_iw
+    label: Promo
+    info: studio audio, Kanade
+    published-date: 2025-10-07
+    context:
+    - song: getover
+    todo: which show ?
+    part-of:
+      group:
+        id: promo
+        song: getover
+
+- youtubeshort:
     id: VXh9xsPO1uE
     label: Promo
     info: studio audio

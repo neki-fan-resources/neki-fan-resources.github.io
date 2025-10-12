@@ -161,6 +161,18 @@
         year: 2025
         id: 1stzepponeman
 
+- update:
+    show:
+      year: 2025
+      id: 1stzepponeman
+    date: 2025-10-12
+    text:
+    - One additional image of Cocoro
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
 - youtubeshort:
     id: 0hC9M6VeCJk
     label: Announcement

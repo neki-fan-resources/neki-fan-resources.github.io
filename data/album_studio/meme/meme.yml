@@ -30,7 +30,12 @@ album:
   part-of:
     group: album_studio
   multimedia:
+    short:
+    - youtubeshort: anmutrUMA8Y
     image:
+    - postximage:
+        post: 1976221883000594481
+        image: G2zzUsDaAAIfTbf
     - postximage:
         post: 1961737876066168993
         image: Gzl-A0MaAAAtcNa

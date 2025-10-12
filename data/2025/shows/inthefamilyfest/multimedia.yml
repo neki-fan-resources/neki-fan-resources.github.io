@@ -255,6 +255,28 @@
           year: 2025
           id: inthefamilyfest
 
+- postx:
+    id: 1974859127206879477
+    account: 46_hikaa
+    label: Video live
+    published-date: 2025-10-05
+    text: |-
+      NEK!のライブ✩.*˚
+      
+       #ネキミーム
+    translation: |-
+      NEK!'s live show ✩.*˚
+      
+      #NekiMeme
+    video:
+    - 01
+    part-of:
+      group:
+        id: multimedia
+        show:
+          year: 2025
+          id: inthefamilyfest
+
 - postximage:
     post: 1974387155205296495
     id: G2ZunFTa8AAUg4y
@@ -427,6 +449,20 @@
         id: inthefamilyfest
     part-of:
       postx: 1974414868846653748
+
+- postxvideo:
+    post: 1974859127206879477
+    id: 01
+    label: Live
+    info: Hika
+    published-date: 2025-10-12
+    cover: 1974859071187775488/img/wS2AxhB3w-sfxHtX.jpg
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1974859127206879477
 
 - youtubeshort:
     id: L84GK2JEgjY

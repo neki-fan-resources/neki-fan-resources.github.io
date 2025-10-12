@@ -1,5 +1,85 @@
-group:
-  id: tickets
-  label: Tickets
-  part-of:
-    tour: 2ndanniversarytour
+- group:
+    id: tickets
+    label: Tickets
+    part-of:
+      tour: 2ndanniversarytour
+
+- postx:
+    id: 1976200916698267749
+    account: nekiband_jp
+    label: Lottery
+    published-date: 2025-10-12
+    text: |-
+      💫🎟️受付中🎟️💫
+      
+      全12箇所で開催🔥
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      ただいまオフィシャル先行(抽選)受付中⚡️
+      
+      初の全国ツアーです！
+      各地でお会いしましょう🫶✨
+      
+      🔗https://l-tike.com/nekiband/ 
+      
+      #NEKI
+    translation: |-
+      💫🎟️Now Accepting Applications🎟️💫
+      
+      Held in all 12 locations 🔥
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      Official advance ticket sale (lottery) is currently accepting applications ⚡️
+      
+      This is our first nationwide tour!
+      Let's meet in every city 🫶✨
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    part-of:
+      group:
+        id: tickets
+        tour: 2ndanniversarytour
+
+- postx:
+    id: 1976295615287132520
+    account: coco_102
+    label: Get Over live
+    published-date: 2025-10-09
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      ただいまチケット受付中です🏁
+      
+      NEK!初となる全国ツアー！！
+      いちばん熱く盛り上がれるフロアはどこかな？？
+      今からとても楽しみです✊🏻🔥
+      
+      #NEKI #GetOver
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      Ticket applications are currently being accepted 🏁
+      
+      NEK!'s first-ever nationwide tour!!
+      Which floor will be the most passionately hyped up??
+      We're already really looking forward to it ✊🏻🔥
+      
+      #NEKI #GetOver
+    part-of:
+      postx: 1976200916698267749
+
+- postxvideo:
+    post: 1976295615287132520
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-10-09
+    cover: 1976295332163223553/img/CnVAAPxOQ5xZoQXG.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1976295615287132520
+

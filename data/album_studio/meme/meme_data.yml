@@ -48,6 +48,18 @@
     part-of:
       album: meme
 
+- postx:
+    id: 1976221883000594481
+    account: natsu08_guitar
+    label: Recording new songs
+    published-date: 2025-10-09
+    text: |-
+      アルバムほぼ新曲なのでみんなに聴いてもらえるのとっても楽しみ☺︎
+    translation: |-
+      Since the album is almost entirely new songs, I'm really looking forward to everyone getting to hear it ☺︎
+    part-of:
+      album: meme
+
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
@@ -103,11 +115,30 @@
     part-of:
       postx: 1969026474951786643
 
+- postximage:
+    post: 1976221883000594481
+    id: G2zzUsDaAAIfTbf
+    label: Recording
+    info: Natsu with acoustic guitar
+    published-date: 2025-10-12
+    context:
+    - album: meme
+    part-of:
+      postx: 1976221883000594481
+
 - update:
     album: meme
     date: 2025-10-03
     text:
     - Tracklist, song names and release bonuses
+    part-of:
+      album: meme
+
+- update:
+    album: meme
+    date: 2025-10-12
+    text:
+    - A few note of one of the new songs, and a picture of Natsu with an acoustic guitar at the recording studio
     part-of:
       album: meme
 
@@ -149,6 +180,17 @@
     image:
     - stickers
     - bonuses
+    part-of:
+      album: meme
+
+- youtubeshort:
+    id: anmutrUMA8Y
+    label: Rehearsal
+    info: new song
+    published-date: 2025-10-09
+    context:
+    - album: meme
+    todo: link to song after release
     part-of:
       album: meme
 

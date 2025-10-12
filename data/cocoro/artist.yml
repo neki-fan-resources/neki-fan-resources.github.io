@@ -1,0 +1,49 @@
+- group:
+    id: artist
+    label: Artist
+    part-of:
+      group: cocoro
+
+- postx:
+    id: 1976524281870979098
+    account: coco_102
+    label: Drum day
+    published-date: 2025-10-10
+    text: |-
+      今日はドラムの日🥁💚
+      
+      この楽器と出会い私の人生は大きく変わりました。
+      今私の周りにいる仲間もみんな、ドラムをしているからこそ出会えました。
+      
+      この楽器が繋げてくれた無数の縁を大切に、これからもこの魅力的なドラムという楽器に見合うドラマー目指して邁進してまいります🔥
+      
+      #ドラムの日
+    translation: |-
+      Today is Drum Day 🥁💚
+      
+      My life changed completely after I encountered this instrument.
+      All the friends I have around me now, I met precisely because I play the drums.
+      
+      Cherishing the countless bonds this instrument has forged, I will continue to push forward to become a drummer worthy of this captivating instrument called the drums 🔥
+      
+      #DrumDay
+    image:
+    - G24GWMtagAA45gl
+    part-of:
+      group:
+        id: artist
+        group: cocoro
+
+- postximage:
+    post: 1976524281870979098
+    id: G24GWMtagAA45gl
+    label: On stage
+    info: Cocoro
+    published-date: 2025-10-10
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1976524281870979098
+

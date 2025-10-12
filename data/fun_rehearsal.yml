@@ -1,0 +1,45 @@
+- group:
+    id: fun_rehearsal
+    label: Fun at the rehearsal
+
+- postx:
+    id: 1976924049721983364
+    account: 46_hikaa
+    label: Old digital cam
+    published-date: 2025-10-11
+    text: |-
+      どの瞬間も、特別な1枚。
+      
+      #ネキミーム  #neki
+    translation: |-
+      Every moment is a special shot.
+      
+      #NekiMeme #neki
+    image:
+    - G29x8debwAUwy5K
+    - G29x8dhb0AAcxCA
+    part-of:
+      group: fun_rehearsal
+
+- postximage:
+    post: 1976924049721983364
+    id: G29x8debwAUwy5K
+    label: Old digital cam
+    info: rehearsal room, before 1st Zepp show
+    published-date: 2025-10-11
+    part-of:
+      postx: 1976924049721983364
+
+- postximage:
+    post: 1976924049721983364
+    id: G29x8dhb0AAcxCA
+    label: Rehearsal
+    info: Using an old digital camera
+    published-date: 2025-10-11
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1976924049721983364
+

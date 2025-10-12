@@ -40,3 +40,18 @@
         id: promo
         song: endlessgame
 
+- youtubeshort:
+    id: yRpUEEvvtBA
+    label: Promo
+    info: studio audio
+    published-date: 2025-10-12
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    - song: endlessgame
+    part-of:
+      group:
+        id: promo
+        song: endlessgame
+

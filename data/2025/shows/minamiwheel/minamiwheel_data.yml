@@ -184,6 +184,52 @@
         year: 2025
         id: minamiwheel
 
+- postx:
+    id: 1976560204960629077
+    account: nekiband_jp
+    label: '#MinahoIfIWereYouThisIsHowIWouldTour'
+    published-date: 2025-10-10
+    text: |-
+      「#FM802 MINAMI WHEEL 2025」
+      @minamiwheel
+      
+       
+      NEK!の #ミナホ私ならこう回る タイムテーブル公開💥
+      
+      ⏰10/13(月祝)17:00~
+      📍心斎橋BRONZE
+      
+      出演いたします🔥
+      ぜひ観に来てください🫶
+      
+      🔗https://minamiwheel.jp
+      
+      #NEKI #MINAMIWHEEL #ミナホ
+    translation: |-
+      " #FM802 MINAMI WHEEL 2025"
+      @minamiwheel
+      
+      NEK!'s #MinahoIfIWereYouThisIsHowIWouldTour timetable revealed 💥
+      
+      ⏰10/13 (Mon, public holiday) 17:00~
+      📍Shinsaibashi BRONZE
+      
+      We will be performing 🔥
+      Please come and see us 🫶
+      
+      🔗https://minamiwheel.jp
+      
+      #NEKI #MINAMIWHEEL #Minaho
+    image:
+    - G24nBzJbwAA5DkZ
+    - G24nBzMaQAAEt7R
+    - G24nBzUbMAAXNzN
+    - G24nBzUbgAAf4qq
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
 - postximage:
     post: 1943143169446822118
     id: GvduaMoXgAAkU2_
@@ -244,6 +290,58 @@
         id: minamiwheel
     part-of:
       postx: 1966064930890854845
+
+- postximage:
+    post: 1976560204960629077
+    id: G24nBzJbwAA5DkZ
+    label: Bands card
+    info: '#MinahoIfIWereYouThisIsHowIWouldTour, Kanade'
+    published-date: 2025-10-10
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postx: 1976560204960629077
+
+- postximage:
+    post: 1976560204960629077
+    id: G24nBzMaQAAEt7R
+    label: Bands card
+    info: '#MinahoIfIWereYouThisIsHowIWouldTour, Hika'
+    published-date: 2025-10-10
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postx: 1976560204960629077
+
+- postximage:
+    post: 1976560204960629077
+    id: G24nBzUbMAAXNzN
+    label: Bands card
+    info: '#MinahoIfIWereYouThisIsHowIWouldTour, Natsu'
+    published-date: 2025-10-10
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postx: 1976560204960629077
+
+- postximage:
+    post: 1976560204960629077
+    id: G24nBzUbgAAf4qq
+    label: Bands card
+    info: '#MinahoIfIWereYouThisIsHowIWouldTour, Cocoro'
+    published-date: 2025-10-10
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postx: 1976560204960629077
 
 - postxvideo:
     post: 1972979618727801058

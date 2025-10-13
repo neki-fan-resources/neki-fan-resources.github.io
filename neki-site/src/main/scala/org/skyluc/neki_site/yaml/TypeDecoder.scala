@@ -14,7 +14,7 @@ import org.skyluc.yaml.*
 
 import YamlKeys.*
 
-object NekiSiteDecoders extends FrDecoders {
+object NekiSiteDecoders extends FrDecoders with d.NekiDataContext {
 
   override def id: Map[String, YamlDecoder[? <: Id[?], FrDecoders]] = super.id +
     ((SITE, SiteIdDecoder))

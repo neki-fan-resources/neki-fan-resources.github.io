@@ -31,7 +31,7 @@ object Data {
     LocalAssetExistsChecker(staticFolderPath),
   )
 
-  val editSupportContext = new EditSupportContext() {}
+  val editSupportContext = new EditSupportContext() with NekiDataContext {}
 
   val yamlWriterBuilder = DataYamlWriterBuilder
 

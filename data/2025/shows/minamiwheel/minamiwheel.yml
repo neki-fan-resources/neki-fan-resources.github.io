@@ -8,8 +8,9 @@ show:
   fullname: FM802 MINAMI WHEEL 2025
   date: 2025-10-13
   description:
-  - NEK! is back at MINAMI WHEEL, the large circuit in the Minami area of Osaka.
-  - 'NEK! will perform at the 心斎橋BRONZE (Shinsaibashi BRONZE), at 17:00'
+  - NEK! played the MINAMI WHEEL circuit in the Minami area of Osaka for the second year in a row.
+  - The band performed at 心斎橋BRONZE (Shinsaibashi BRONZE) in the late afternoon.
+  - The venue was at capacity, and Cocoro apparently broke a snare drum!
   venue: 心斎橋BRONZE, Minami, Osaka
   event-page: 'https://minamiwheel.jp/'
   part-of:
@@ -17,11 +18,45 @@ show:
       id: shows
       group: 2025
   multimedia:
+    main:
+      postximage:
+        post: 1977674300330250596
+        image: G3IcRTxbcAAO0HG
     short:
+    - postxvideo:
+        post: 1977688947678687617
+        video: 01
+    - postxvideo:
+        post: 1977618535334739998
+        video: 01
     - postxvideo:
         post: 1972979618727801058
         video: 01
     image:
     - postximage:
-        post: 1966064930890854845
-        image: G0jdogsaMAcz72C
+        post: 1977674300330250596
+        image: G3IcRTxbcAAO0HG
+    - postximage:
+        post: 1977673863468319087
+        image: G3Ib5IgbAAE1Tyz
+    - postximage:
+        post: 1977675187459162437
+        image: G3IdGKiaIAILO0x
+    - postximage:
+        post: 1977673015585624508
+        image: G3IbHmEaMAARPBY
+    - postximage:
+        post: 1977673390971564442
+        image: G3IbdvobMAAAYPR
+    - postximage:
+        post: 1977675187459162437
+        image: G3IdGKUawAEA3k6
+    - postximage:
+        post: 1977673015585624508
+        image: G3IbHmJaUAAgskC
+    - postximage:
+        post: 1977674300330250596
+        image: G3IcRT3aAAAJjhU
+    - postximage:
+        post: 1977636304314863708
+        image: G3H5ttbaUAA2ya1

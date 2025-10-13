@@ -7,6 +7,7 @@ import org.skyluc.neki_site.Config
 import org.skyluc.neki_site.data.ProcessorElement
 import org.skyluc.neki_site.data.Site
 import org.skyluc.neki_site.html.page.MainSitePage
+import org.skyluc.neki_site.html.page.MainSitePageBuilder
 
 import d.Path
 import fr.page.PostXImagePage
@@ -30,6 +31,7 @@ object ElementToPage {
     )
       ++ page.BandPage.pagesFor(site, generator)
       ++ page.SourcesPage.pagesFor(data, generator)
+      ++ fr.page.UpdatePagePage.pagesFor(generator, page.MainSitePageBuilder)
 
     val indexedPages = elementPages ++ singlePages
 
@@ -88,39 +90,40 @@ object ElementToPage {
       extends ProcessorElement[Seq[fr.page.MainSitePage]] {
 
     override def processAlbum(album: d.Album): Seq[fr.page.MainSitePage] =
-      page.AlbumPage.pagesFor(album, generator)
+      fr.page.element.AlbumBlockPages(album).build(page.ElementContentPageBuilder, generator)
 
     override def processCategoriesPage(categoriesPage: d.CategoriesPage): Seq[fr.page.MainSitePage] =
-      page.CategoriesPage.pagesFor(categoriesPage, generator)
+      fr.page.CategoriesPagePage.pagesFor(categoriesPage, generator, MainSitePageBuilder)
 
     override def processContentPage(contentPage: d.ContentPage): Seq[fr.page.MainSitePage] =
-      page.ContentPage.pagesFor(contentPage, generator)
+      if (contentPage.displayType == fr.component.ChronologySectionConfiguration.DISPLAY_TYPE_TIMELINE) {
+        page.TimelinePage.pagesFor(contentPage, generator)
+      } else {
+        fr.page.ContentPagePage.pagesFor(contentPage, generator, MainSitePageBuilder)
+      }
 
     override def processEvent(event: d.Event): Seq[fr.page.MainSitePage] =
-      page.EventPage.pagesFor(event, generator)
+      fr.page.element.EventBlockPages(event).build(page.ElementContentPageBuilder, generator)
 
     override def processMediaAudio(mediaAudio: d.MediaAudio): Seq[fr.page.MainSitePage] =
-      page.MediaPage.pagesFor(mediaAudio, generator)
+      fr.page.element.MediaBlockPages(mediaAudio).build(page.ElementContentPageBuilder, generator)
 
     override def processMediaVideo(mediaVideo: d.MediaVideo): Seq[fr.page.MainSitePage] =
-      page.MediaPage.pagesFor(mediaVideo, generator)
+      fr.page.element.MediaBlockPages(mediaVideo).build(page.ElementContentPageBuilder, generator)
 
     override def processMediaWritten(mediaWritten: d.MediaWritten): Seq[fr.page.MainSitePage] =
-      page.MediaPage.pagesFor(mediaWritten, generator)
+      fr.page.element.MediaBlockPages(mediaWritten).build(page.ElementContentPageBuilder, generator)
 
     override def processMultiMediaEvent(multimediaEvent: d.MultiMediaEvent): Seq[fr.page.MainSitePage] = Nil
 
     override def processShow(show: d.Show): Seq[fr.page.MainSitePage] =
-      page.ShowPage.pagesFor(show, generator)
+      fr.page.element.ShowBlockPages(show).build(page.ElementContentPageBuilder, generator)
 
     override def processSong(song: d.Song): Seq[fr.page.MainSitePage] =
-      page.SongPage.pagesFor(song, generator)
+      fr.page.element.SongBlockPages(song).build(page.ElementContentPageBuilder, generator)
 
     override def processTour(tour: d.Tour): Seq[fr.page.MainSitePage] =
-      page.TourPage.pagesFor(tour, generator)
-
-    override def processUpdatePage(updatePage: d.UpdatePage): Seq[fr.page.MainSitePage] =
-      page.UpdatePage.pagesFor(updatePage, generator)
+      fr.page.element.TourBlockPages(tour).build(page.ElementContentPageBuilder, generator)
 
   }
 

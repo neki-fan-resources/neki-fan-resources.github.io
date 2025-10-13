@@ -88,8 +88,6 @@ class SourcesExtractor(generator: fr.compileddata.CompiledDataGenerator)
     sources.map { s => DatumEntry(compiledData, s) }
   }
 
-  override def processUpdatePage(updatePage: UpdatePage): Seq[DatumEntry] = Nil
-
   // ------------------
 }
 

@@ -1,3 +1,100 @@
+- display:
+    show:
+      year: 2025
+      id: minamiwheel
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Tuk-Tuk ride in Osaka before the show
+            subsections:
+            - multimedia:
+              - postxvideo:
+                  post: 1977618535334739998
+                  video: 01
+              - postximage:
+                  post: 1977636304314863708
+                  image: G3H5ttbaUAA2ya1
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimedia:
+              - postxvideo:
+                  post: 1977688947678687617
+                  video: 01
+            - multimedia:
+              - postximage:
+                  post: 1977674300330250596
+                  image: G3IcRTxbcAAO0HG
+              - postximage:
+                  post: 1977673863468319087
+                  image: G3Ib5IgbAAE1Tyz
+              - postximage:
+                  post: 1977675187459162437
+                  image: G3IdGKiaIAILO0x
+              - postximage:
+                  post: 1977673015585624508
+                  image: G3IbHmEaMAARPBY
+              - postximage:
+                  post: 1977673390971564442
+                  image: G3IbdvobMAAAYPR
+            - multimedia:
+              - postximage:
+                  post: 1977675187459162437
+                  image: G3IdGKUawAEA3k6
+              - postximage:
+                  post: 1977673015585624508
+                  image: G3IbHmJaUAAgskC
+              - postximage:
+                  post: 1977674300330250596
+                  image: G3IcRT3aAAAJjhU
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimedia:
+              - postximage:
+                  post: 1977674300330250596
+                  image: G3IcRTtbcAAjGc4
+              - postximage:
+                  post: 1977650722348159190
+                  image: G3IGwcObUAAT_uX
+              - postximage:
+                  post: 1977650722348159190
+                  image: G3IGwcWbQAA1XiY
+    - basicblock:
+        id: before
+        label: before the event
+        sections:
+        - basicsection:
+            label: '#MinahoIfIWereYouThisIsHowIWouldTour'
+            subsections:
+            - multimedia:
+              - postximage:
+                  post: 1976560204960629077
+                  image: G24nBzJbwAA5DkZ
+              - postximage:
+                  post: 1976560204960629077
+                  image: G24nBzMaQAAEt7R
+              - postximage:
+                  post: 1976560204960629077
+                  image: G24nBzUbMAAXNzN
+              - postximage:
+                  post: 1976560204960629077
+                  image: G24nBzUbgAAf4qq
+        - basicsection:
+            label: Question from an other band
+            subsections:
+            - multimedia:
+              - postxvideo:
+                  post: 1972979618727801058
+                  video: 01
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
 - newsitem:
     id: upcoming
     show:
@@ -636,7 +733,7 @@
     post: 1976560204960629077
     id: G24nBzJbwAA5DkZ
     label: Bands card
-    info: '#MinahoIfIWereYouThisIsHowIWouldTour, Kanade'
+    info: Kanade
     published-date: 2025-10-10
     context:
     - show:
@@ -649,7 +746,7 @@
     post: 1976560204960629077
     id: G24nBzMaQAAEt7R
     label: Bands card
-    info: '#MinahoIfIWereYouThisIsHowIWouldTour, Hika'
+    info: Hika
     published-date: 2025-10-10
     context:
     - show:
@@ -662,7 +759,7 @@
     post: 1976560204960629077
     id: G24nBzUbMAAXNzN
     label: Bands card
-    info: '#MinahoIfIWereYouThisIsHowIWouldTour, Natsu'
+    info: Natsu
     published-date: 2025-10-10
     context:
     - show:
@@ -675,7 +772,7 @@
     post: 1976560204960629077
     id: G24nBzUbgAAf4qq
     label: Bands card
-    info: '#MinahoIfIWereYouThisIsHowIWouldTour, Cocoro'
+    info: Cocoro
     published-date: 2025-10-10
     context:
     - show:
@@ -687,7 +784,7 @@
 - postximage:
     post: 1977636304314863708
     id: G3H5ttbaUAA2ya1
-    label: Tuk-tuk ride
+    label: Tuk-Tuk ride
     info: in Osaka
     published-date: 2025-10-13
     context:
@@ -863,7 +960,7 @@
 - postxvideo:
     post: 1977618535334739998
     id: 01
-    label: Tuk-tuk ride
+    label: Tuk-Tuk ride
     info: in Osaka
     published-date: 2025-10-13
     cover: 1977618468582326272/img/qbUG9OqyE5vjhXo9.jpg

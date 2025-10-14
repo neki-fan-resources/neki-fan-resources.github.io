@@ -37,7 +37,7 @@ object AboutPage extends MainSitePage {
 
   object SiteSection extends fr.page.ContentSection {
 
-    override val label: String = "What is this site?"
+    override val label: Option[String] = Some("What is this site?")
 
     override def mainContent(): BodyElement[?] = {
       div()
@@ -67,7 +67,7 @@ object AboutPage extends MainSitePage {
 
   object ManekinekoSection extends fr.page.ContentSection {
 
-    override val label: String = "What about the 🐈 ?"
+    override val label: Option[String] = Some("What about the 🐈 ?")
 
     override def customContent(): Seq[BodyElement[?]] = {
       Seq(
@@ -130,7 +130,7 @@ object AboutPage extends MainSitePage {
 
   object UpdatesSection extends fr.page.ContentSection {
 
-    override val label: String = "Updates"
+    override val label: Option[String] = Some("Updates")
 
     override def mainContent(): BodyElement[?] = {
       div()
@@ -155,7 +155,7 @@ object AboutPage extends MainSitePage {
 
   object SupportSection extends fr.page.ContentSection {
 
-    override val label: String = "Support"
+    override val label: Option[String] = Some("Support")
 
     override def anchor(): Option[String] = Some("support")
 
@@ -201,7 +201,7 @@ object AboutPage extends MainSitePage {
 
   object QuestionsSection extends fr.page.ContentSection {
 
-    override val label: String = "Questions - Suggestions - Requests - Contact"
+    override val label: Option[String] = Some("Questions - Suggestions - Requests - Contact")
 
     override def anchor(): Option[String] = Some("questions")
 

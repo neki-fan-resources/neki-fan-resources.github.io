@@ -14,20 +14,11 @@ class MainSiteConfiguration(override val rootFolder: Path) extends fr.MainSiteCo
 
   override val dispatcherBuilder: fr.data.op.DataDispatcherBuilder = DispatcherBuilder
 
-  override def implicitDataExpander: fr.data.op.ImplicitDataExpander = ImplicitDataExpander
-
   override def referenceChecker: fr.data.checks.ReferencesChecker = d.checks.ReferencesChecker
 
 }
 
 object MainSiteConfiguration {
-
-  object ImplicitDataExpander extends fr.data.op.ImplicitDataExpander {
-
-    override val expanderProcessor: fr.data.op.ImplicitDatumExpanderProcessor =
-      d.op.ImplicitDatumExpanderProcessor()
-
-  }
 
   object DispatcherBuilder extends fr.data.op.DataDispatcherBuilder {
 

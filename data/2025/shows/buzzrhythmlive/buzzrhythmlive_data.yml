@@ -1,3 +1,22 @@
+- newsitem:
+    id: upcoming
+    show:
+      year: 2025
+      id: buzzrhythmlive
+    title: MINAMI WHEEL
+    active: true
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+    text:
+    - line:
+      - text: "NEK!'s next show will be on the \"BUZZER STAGE\", a satellite event for "
+      - show:
+          year: 2025
+          id: buzzrhythmlive
+      - text: ', on November 02th, at the Yokohama Arena.'
+
 - postx:
     id: 1966335966437929047
     account: BUZZRHYTHM_NTV

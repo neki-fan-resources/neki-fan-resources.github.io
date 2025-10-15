@@ -11,6 +11,10 @@ show:
   - NEK! will be performing on the "BUZZER STAGE", a satellite show happening in a smaller hall of the Yokohama Arena, before the main "BUZZ RHYTHM LIVE" show, in the main arena.
   venue: Yokohama Arena, Yokohama
   event-page: 'https://buzzrhythm.live/'
+  part-of:
+    group:
+      id: shows
+      group: 2025
   multimedia:
     image:
     - postximage:

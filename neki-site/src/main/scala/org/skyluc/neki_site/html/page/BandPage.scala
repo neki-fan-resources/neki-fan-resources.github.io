@@ -139,7 +139,8 @@ object BandPage {
     val newsItems =
       generator.getWithPrefix[NewsItem](NewsItem.ID_BASE_PATH).filter(_.active)
 
-    val newsItemCompiledData = newsItems.map(fr.compileddata.RichTextCompiledData.toCompiledData(_, generator))
+    val newsItemCompiledData =
+      newsItems.map(fr.compileddata.RichTextCompiledData.toCompiledData(_, generator)).sortBy(_.element.date)
 
     Seq(
       BandPage(site, newsItemCompiledData)

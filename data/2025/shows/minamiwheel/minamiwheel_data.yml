@@ -106,12 +106,32 @@
         id: minamiwheel
 
 - newsitem:
-    id: upcoming
+    id: done
     show:
       year: 2025
       id: minamiwheel
     title: MINAMI WHEEL
     active: true
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+    text:
+    - line:
+      - text: "NEK!'s last show was "
+      - show:
+          year: 2025
+          id: minamiwheel
+      - text: ', on october 13th in Osaka.'
+    - line:
+      - text: A Tuk-Tuk ride, a venue at full capacity... the first pictures are available.
+
+- newsitem:
+    id: upcoming
+    show:
+      year: 2025
+      id: minamiwheel
+    title: MINAMI WHEEL
     part-of:
       show:
         year: 2025
@@ -1015,6 +1035,18 @@
     date: 2025-10-13
     text:
     - First images and videos from the show in Osaka
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
+- update:
+    show:
+      year: 2025
+      id: minamiwheel
+    date: 2025-10-15
+    text:
+    - More Tuk-Tuk video
     part-of:
       show:
         year: 2025

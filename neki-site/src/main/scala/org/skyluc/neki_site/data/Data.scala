@@ -21,9 +21,6 @@ object Data {
 
   }
 
-  val defaultPopulaters =
-    fr.op.DataLoader.defaultPopulaters(fr.op.MultimediaExtraPopulater(fr.op.MultimediaExtraProcessBuilder()))
-
   def defaultCheckers(staticFolderPath: Path) = DataCheck.defaultCheckers(
     ReferencesChecker,
     LocalAssetExistsChecker(staticFolderPath),

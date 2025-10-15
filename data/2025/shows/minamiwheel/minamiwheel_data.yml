@@ -11,6 +11,7 @@
             label: Tuk-Tuk ride in Osaka before the show
             subsections:
             - multimedia:
+              - youtubeshort: KtH0us6dPH4
               - postxvideo:
                   post: 1977618535334739998
                   video: 01
@@ -90,6 +91,15 @@
               - postxvideo:
                   post: 1972979618727801058
                   video: 01
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimedia:
+              - youtubeshort: tuv8q0Or2qs
     part-of:
       show:
         year: 2025
@@ -1005,6 +1015,36 @@
     date: 2025-10-13
     text:
     - First images and videos from the show in Osaka
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
+- youtubeshort:
+    id: KtH0us6dPH4
+    label: Tuk-Tuk ride
+    info: a bit of live
+    published-date: 2025-10-15
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    - song: dreams
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
+- youtubeshort:
+    id: tuv8q0Or2qs
+    label: On stage
+    info: studio audio
+    published-date: 2025-10-14
+    context:
+    - song: ooak
+    - show:
+        year: 2025
+        id: minamiwheel
     part-of:
       show:
         year: 2025

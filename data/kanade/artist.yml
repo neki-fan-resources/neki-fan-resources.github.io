@@ -1,5 +1,36 @@
-group:
-  id: artist
-  label: Artist
-  part-of:
-    group: kanade
+- group:
+    id: artist
+    label: Artist
+    part-of:
+      group: kanade
+
+- postx:
+    id: 1978027375901188409
+    account: cure_bass_baka
+    label: Kanade's gear for the Zepp show
+    published-date: 2025-10-15
+    text: |-
+      Zeppワンマンの機材レシピ(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠☆
+      シンプルめー！
+    translation: |-
+      The gear recipe for the Zepp one-man show (⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠☆
+      It's on the simpler side!
+    image:
+    - G3NdZ3lbYAAYK8P
+    part-of:
+      group:
+        id: artist
+        group: kanade
+
+- postximage:
+    post: 1978027375901188409
+    id: G3NdZ3lbYAAYK8P
+    label: Kanade's gear
+    published-date: 2025-10-14
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1978027375901188409
+

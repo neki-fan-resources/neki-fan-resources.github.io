@@ -6,3 +6,5 @@ event:
       id: nekilogo
   label: Formation of NEK!
   date: 2024-02-10
+  part-of:
+    group: 2024

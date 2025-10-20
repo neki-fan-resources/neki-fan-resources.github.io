@@ -69,6 +69,7 @@ object ElementToPage {
           Path("component", "socialmediacard.css"),
           Path("component", "summarysection.css"),
           Path("component", "tabs.css"),
+          Path("component", "textsection.css"),
         ),
         "fr-styles.css",
       ),

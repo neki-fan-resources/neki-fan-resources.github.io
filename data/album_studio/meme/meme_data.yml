@@ -184,6 +184,16 @@
       album: meme
 
 - youtubeshort:
+    id: 7DuE0uzMGoE
+    label: New song
+    published-date: 2025-10-20
+    context:
+    - album: meme
+    todo: attach to the song after release
+    part-of:
+      album: meme
+
+- youtubeshort:
     id: anmutrUMA8Y
     label: Rehearsal
     info: new song

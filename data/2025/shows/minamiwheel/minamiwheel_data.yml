@@ -25,6 +25,9 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 1978807279471284652
+                    video: 01
+                - postxvideo:
                     post: 1977688947678687617
                     video: 01
             - multimediasubsection:
@@ -107,6 +110,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: tBvCNjkpJdI
                 - youtubeshort: tuv8q0Or2qs
     part-of:
       show:
@@ -706,6 +710,26 @@
         year: 2025
         id: minamiwheel
 
+- postx:
+    id: 1978807279471284652
+    account: coco_102
+    label: Blink live
+    published-date: 2025-10-16
+    text: |-
+      Blinkラスサビ、沁みるねぇ🍂
+      
+      #NEKI #ネキミーム
+    translation: |-
+      Blink's final chorus really tugs at the heartstrings 🍂
+      
+      #NEKI #NekiMeme
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
 - postximage:
     post: 1943143169446822118
     id: GvduaMoXgAAkU2_
@@ -1024,6 +1048,21 @@
     part-of:
       postx: 1977688947678687617
 
+- postxvideo:
+    post: 1978807279471284652
+    id: 01
+    label: Live
+    info: outro, Cocoro
+    published-date: 2025-10-16
+    cover: 1978807145828364288/img/aSsgHZAs92ounTiR.jpg
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    - song: blink
+    part-of:
+      postx: 1978807279471284652
+
 - update:
     show:
       year: 2025
@@ -1060,6 +1099,18 @@
         year: 2025
         id: minamiwheel
 
+- update:
+    show:
+      year: 2025
+      id: minamiwheel
+    date: 2025-10-20
+    text:
+    - Cocoro-cam video, of the last part of Blink
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
 - youtubeshort:
     id: KtH0us6dPH4
     label: Tuk-Tuk ride
@@ -1070,6 +1121,21 @@
         year: 2025
         id: minamiwheel
     - song: dreams
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
+- youtubeshort:
+    id: tBvCNjkpJdI
+    label: On stage
+    info: studio audio
+    published-date: 2025-10-18
+    context:
+    - song: reigengirl
+    - show:
+        year: 2025
+        id: minamiwheel
     part-of:
       show:
         year: 2025

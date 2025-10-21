@@ -19,3 +19,15 @@
         id: promo
         song: loner
 
+- youtubeshort:
+    id: gR99f1W6VIU
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-10-19
+    context:
+    - song: loner
+    part-of:
+      group:
+        id: promo
+        song: loner
+

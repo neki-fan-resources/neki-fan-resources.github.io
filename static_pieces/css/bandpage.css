@@ -30,94 +30,64 @@
 }
 
 
-.band-panel {
-  width: 100%;
-  max-width: 1500px;
-  aspect-ratio: 1500 / 802;
-  background-image: url(/asset/image/site/band-getover-01.png);
-  background-size: contain;
+.band-panel2 {
   display: grid;
-  grid-auto-columns: minmax(0, 1fr);
-  grid-template-rows: 1fr auto;
-  grid-template-areas:
-    'kanade-info hika-info cocoro-info natsu-info'
-    'kanade-summary hika-summary cocoro-summary natsu-summary';
-  container-type: size;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 'hika central kanade' 'cocoro central natsu';
+  min-height: 10rem;
+  max-width: 62rem;
 }
 
+.band-panel2-section>img {
+  width: 100%;
+  vertical-align: middle;
+}
 
-.band-panel-member-info {
+.band-panel2-central {
+  grid-area: central;
+}
+
+.band-panel2-member-hika {
+  grid-area: hika;
+}
+
+.band-panel2-member-kanade {
+  grid-area: kanade;
+}
+
+.band-panel2-member-cocoro {
+  grid-area: cocoro;
+}
+
+.band-panel2-member-natsu {
+  grid-area: natsu;
+}
+
+.band-panel2-member-summary {
+  align-self: end;
+}
+
+.band-panel2-member-summary-name {
+  text-align: center;
+}
+
+.band-panel2-member-summary-role {
+  text-align: center;
+  margin: 0 0 0.2cqw 0;
+}
+
+.band-panel2-member-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  gap: 0.7cqw;
+  gap: 0.4cqw;
 }
 
-.band-panel-member-summary {
-  padding: 2cqw 0 2cqw 0;
-}
-
-.band-panel-member-summary-name {
-  text-align: center;
-}
-
-.band-panel-member-summary-role {
-  text-align: center;
-}
-
-.band-panel-member-kanade.band-panel-member-info {
-  grid-area: kanade-info;
+.band-panel2-member-info.band-panel2-member-info-hidden {
   display: none;
-}
-
-.band-panel-member-kanade.band-panel-member-summary {
-  grid-area: kanade-summary;
-}
-
-.band-panel-member-hika.band-panel-member-info {
-  grid-area: hika-info;
-  display: none;
-}
-
-.band-panel-member-hika.band-panel-member-summary {
-  grid-area: hika-summary;
-}
-
-.band-panel-member-cocoro.band-panel-member-info {
-  grid-area: cocoro-info;
-  display: none;
-}
-
-.band-panel-member-cocoro.band-panel-member-summary {
-  grid-area: cocoro-summary;
-}
-
-.band-panel-member-natsu.band-panel-member-info {
-  grid-area: natsu-info;
-  display: none;
-}
-
-.band-panel-member-natsu.band-panel-member-summary {
-  grid-area: natsu-summary;
-}
-
-.band-panel-member-kanade.band-panel-member-info.band-panel-member-selected {
-  display: flex;
-}
-
-
-.band-panel-member-hika.band-panel-member-info.band-panel-member-selected {
-  display: flex;
-}
-
-.band-panel-member-cocoro.band-panel-member-info.band-panel-member-selected {
-  display: flex;
-}
-
-.band-panel-member-natsu.band-panel-member-info.band-panel-member-selected {
-  display: flex;
 }
 
 .band-socials {
@@ -149,54 +119,36 @@
   text-align: justify;
 }
 
-
-
-.band-panel-member-summary {
-  text-shadow: 0.1cqw 0.1cqw white, -0.1cqw -0.1cqw white;
+.band-panel2-member-summary {
+  text-shadow: 0 0 0.2cqw white, 0 0 0.1cqw white, 0 0 0.4cqw black;
 }
 
-.band-panel-member-summary-name {
-  font-size: 4cqw;
-  line-height: 4cqw;
+.band-panel2-member-summary-name {
+  font-size: 3.5cqw;
+  line-height: 3.5cqw;
   font-weight: 700;
   cursor: pointer;
 }
 
-.band-panel-member-summary-role {
+.band-panel2-member-summary-role {
   font-size: 2cqw;
   line-height: 2cqw;
   font-weight: 600;
   cursor: pointer;
 }
 
-.band-panel-member-kanade.band-panel-member-info {
-  background-color: var(--color-kanade-50);
-}
-
-.band-panel-member-hika.band-panel-member-info {
+.band-panel2-member-info.band-panel2-member-hika {
   background-color: var(--color-hika-50);
 }
 
-.band-panel-member-cocoro.band-panel-member-info {
-  background-color: var(--color-cocoro-50);
-}
-
-.band-panel-member-natsu.band-panel-member-info {
-  background-color: var(--color-natsu-50);
-}
-
-.band-panel-member-kanade.band-panel-member-summary.band-panel-member-selected {
+.band-panel2-member-info.band-panel2-member-kanade {
   background-color: var(--color-kanade-50);
 }
 
-.band-panel-member-hika.band-panel-member-summary.band-panel-member-selected {
-  background-color: var(--color-hika-50);
-}
-
-.band-panel-member-cocoro.band-panel-member-summary.band-panel-member-selected {
+.band-panel2-member-info.band-panel2-member-cocoro {
   background-color: var(--color-cocoro-50);
 }
 
-.band-panel-member-natsu.band-panel-member-summary.band-panel-member-selected {
+.band-panel2-member-info.band-panel2-member-natsu {
   background-color: var(--color-natsu-50);
 }

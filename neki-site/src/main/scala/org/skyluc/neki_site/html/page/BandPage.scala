@@ -157,7 +157,7 @@ object BandPage {
 
   private val TEXT_SUBLABEL = """Read as "Neki""""
 
-  private val URL_IMAGE_PATH = Path("asset", "image", "site", "band-getover-01.png")
+  private val URL_IMAGE_PATH = Path("asset", "image", "site", "band.png")
 
   private val URL_LOGO = Path("asset", "image", "logo", "neki-tight.png").toAbsoluteString()
 

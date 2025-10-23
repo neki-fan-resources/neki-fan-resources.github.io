@@ -37,7 +37,7 @@
   grid-template-areas: 'hika central kanade' 'cocoro central natsu';
   min-height: 10rem;
   max-width: 62rem;
-  container-type: size;
+  container-type: inline-size;
 }
 
 .band-panel2-section>img {

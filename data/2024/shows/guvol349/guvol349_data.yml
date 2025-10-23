@@ -1,3 +1,88 @@
+- display:
+    show:
+      year: 2024
+      id: guvol349
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The band participation in "Girl's UP!!! vol.349" was announced at the same time as the band's creation on February 10th.
+                - line:
+                  - text: As the most junior band, NEK! opened the show.
+                - line:
+                  - text: 'The band played three original songs: "Get Over", "MAZE", and "Reigen Girl," as well as two covers of BAND-MAID: "DICE" and "Choose me."'
+                - line:
+                  - text: Following this performance, the band was invited to the next "Girl's UP!!!" show on April 9th.
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1765733615722467497
+                    image: GIElXLRb0AAgpaY
+                - webimage:
+                    domain: instagram.com
+                    page: C4QGFf5xRlI
+                    id: 02
+                - webimage:
+                    domain: instagram.com
+                    page: C4QGFf5xRlI
+                    id: 03
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: instagram.com
+                    page: C4QGFf5xRlI
+                    id: 06
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: instagram.com
+                    page: C4QGFf5xRlI
+                    id: 05
+                - postximage:
+                    post: 1765733615722467497
+                    image: GIElXLRacAAzZEQ
+    - basicblock:
+        id: covers
+        label: covers
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: On stage, they completed their set with 2 covers of BAND-MAID songs.
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1765774728294461468
+                    video: 01
+                - postxvideo:
+                    post: 1765774728294461468
+                    video: 02
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: TF3IDIX41Q0
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
 - postx:
     id: 1765304060088115356
     account: kubota_eggman
@@ -163,7 +248,7 @@
 - postximage:
     post: 1765625866816803054
     id: GIDCvFoaEAARgCV
-    label: sidewalk board
+    label: Sidewalk board
     published-date: 2024-03-07
     local-copy: true
     context:
@@ -337,7 +422,7 @@
 
 - youtubeshort:
     id: TF3IDIX41Q0
-    label: Promo
+    label: On stage
     info: studio audio
     published-date: 2024-03-15
     context:

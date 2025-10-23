@@ -70,6 +70,7 @@ object MainSitePage {
       CSS_PATHS,
       GOOGLE_VERIFICATION_CODE,
       MICROSOFT_VERIFICATION_CODE,
+      PLAUSIBLE_SCRIPT_ID,
       HREF_FONT_NOTO,
       isRoot,
       Config.current.isLocal,
@@ -111,6 +112,7 @@ object MainSitePage {
 
   val GOOGLE_VERIFICATION_CODE = "5DUf4g9lYSa_jzwy0JIrwsfTppM2uM5culgvgkbXj7U"
   val MICROSOFT_VERIFICATION_CODE = "B6C2BBE1BBDED01F740330EB10DEAEF8"
+  val PLAUSIBLE_SCRIPT_ID = "UtUVlnWHE1BKmZqHXkwtl"
 
   val mainNavItems = Seq(
     NavigationItem(

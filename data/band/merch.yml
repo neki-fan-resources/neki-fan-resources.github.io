@@ -1,0 +1,5 @@
+group:
+  id: merch
+  label: Merch
+  part-of:
+    group: band

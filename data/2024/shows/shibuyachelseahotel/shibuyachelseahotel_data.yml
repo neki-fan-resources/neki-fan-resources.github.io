@@ -1,4 +1,34 @@
 - postx:
+    id: 1766464470363324596
+    account: natsu08_guitar
+    label: Next is the free live show
+    published-date: 2024-03-09
+    text: |-
+      3/7 Shibuya eggman❤️‍🔥❤️‍🔥❤️‍🔥
+      3/9 下北沢 LIVE HOLIC❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      次は3月20日のフリーライブで！！！👋🏻
+      
+      #NEKI
+    translation: |-
+      3/7 Shibuya eggman ❤️‍🔥❤️‍🔥❤️‍🔥
+      3/9 Shimokitazawa LIVE HOLIC ❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      Next is the free live show on March 20th!!! 👋🏻
+      
+      #NEKI
+    image:
+    - GIO92J7b0AAOR0t
+    - GIO92J5bMAAe4Il
+    - GIO92KpbEAAAZDw
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postx:
     id: 1770261360938746035
     account: nekiband_jp
     label: show today
@@ -25,6 +55,42 @@
         id: shibuyachelseahotel
 
 - postximage:
+    post: 1766464470363324596
+    id: GIO92J5bMAAe4Il
+    label: Backstage
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1766464470363324596
+
+- postximage:
+    post: 1766464470363324596
+    id: GIO92J7b0AAOR0t
+    label: Sidewalk board
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1766464470363324596
+
+- postximage:
+    post: 1766464470363324596
+    id: GIO92KpbEAAAZDw
+    label: On stage
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postx: 1766464470363324596
+
+- postximage:
     post: 1770261360938746035
     id: GJE7Uu6a4AAdiK5
     label: poster
@@ -49,6 +115,22 @@
         id: shibuyachelseahotel
     part-of:
       postx: 1770261360938746035
+
+- postxvideo:
+    post: 1766464470363324596
+    id: 01
+    label: Distributing flyers
+    published-date: 2024-03-09
+    cover: 1766464216935100416/pu/img/bcUGlwWe0YVM_dvk.jpg
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postx: 1766464470363324596
 
 - youtubeshort:
     id: Z-ju19kHofg

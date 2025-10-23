@@ -41,12 +41,18 @@
                     domain: instagram.com
                     page: C4QGFf5xRlI
                     id: 06
+                - postximage:
+                    post: 1766464470363324596
+                    image: GIO92J5bMAAe4Il
             - multimediasubsection:
                 multimedia:
                 - webimage:
                     domain: instagram.com
                     page: C4QGFf5xRlI
                     id: 05
+                - postximage:
+                    post: 1766464470363324596
+                    image: GIO92J7b0AAOR0t
                 - postximage:
                     post: 1765733615722467497
                     image: GIElXLRacAAzZEQ
@@ -329,6 +335,18 @@
     date: 2025-09-29
     text:
     - (back in time) added photos and short videos from the show
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- update:
+    show:
+      year: 2024
+      id: guvol349
+    date: 2025-10-23
+    text:
+    - More pictures added. Customized the presentation.
     part-of:
       show:
         year: 2024

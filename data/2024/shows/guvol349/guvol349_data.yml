@@ -27,29 +27,28 @@
                 - postximage:
                     post: 1765733615722467497
                     image: GIElXLRb0AAgpaY
-                - webimage:
-                    domain: instagram.com
-                    page: C4QGFf5xRlI
-                    id: 02
-                - webimage:
-                    domain: instagram.com
-                    page: C4QGFf5xRlI
-                    id: 03
+                - postinstagramimage:
+                    post: C4QGFf5xRlI
+                    image: 02
+                - postinstagramimage:
+                    post: C4QGFf5xRlI
+                    image: 03
             - multimediasubsection:
                 multimedia:
-                - webimage:
-                    domain: instagram.com
-                    page: C4QGFf5xRlI
-                    id: 06
+                - postinstagramimage:
+                    post: C4QGFf5xRlI
+                    image: 06
                 - postximage:
                     post: 1766464470363324596
                     image: GIO92J5bMAAe4Il
+                - postinstagramvideo:
+                    post: C4QGFf5xRlI
+                    video: 07
             - multimediasubsection:
                 multimedia:
-                - webimage:
-                    domain: instagram.com
-                    page: C4QGFf5xRlI
-                    id: 05
+                - postinstagramimage:
+                    post: C4QGFf5xRlI
+                    image: 05
                 - postximage:
                     post: 1766464470363324596
                     image: GIO92J7b0AAOR0t
@@ -88,6 +87,104 @@
       show:
         year: 2024
         id: guvol349
+
+- postinstagram:
+    id: C4QGFf5xRlI
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-03-08
+    text: |-
+      2024.03.07
+      
+      Girl's UP!!! Vol.349に出演させていただきました！！
+      中学のときからずっと憧れていた場所でNEK!の初ライブを迎えられて本当に胸熱でした。
+      お越しくださった皆さんありがとうございました🥰
+      
+      明日のLUPINUS ROCK FESTIVAL 2024も楽しむぞ！！
+      
+      #neki #nekiband #girlsband #shibuya #eggman
+    translation: |-
+      2024.03.07
+      
+      We had the pleasure of performing at Girl's UP!!! Vol.349!!
+      It was a truly exciting moment to have NEK!'s first live show at a venue I had admired since middle school.
+      Thank you to everyone who came to see us 🥰
+      
+      We're going to have fun at LUPINUS ROCK FESTIVAL 2024 tomorrow too!!
+      
+      #neki #nekiband #girlsband #shibuya #eggman
+    image:
+    - 02
+    - 03
+    - 05
+    - 06
+    video:
+    - 07
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- postinstagramimage:
+    post: C4QGFf5xRlI
+    id: 02
+    label: On stage
+    published-date: 2024-03-08
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QGFf5xRlI
+
+- postinstagramimage:
+    post: C4QGFf5xRlI
+    id: 03
+    label: On stage
+    info: Cocoro
+    published-date: 2024-03-08
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QGFf5xRlI
+
+- postinstagramimage:
+    post: C4QGFf5xRlI
+    id: 05
+    label: Sidewalk board
+    published-date: 2024-03-08
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QGFf5xRlI
+
+- postinstagramimage:
+    post: C4QGFf5xRlI
+    id: 06
+    label: Backstage
+    published-date: 2024-03-08
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QGFf5xRlI
+
+- postinstagramvideo:
+    post: C4QGFf5xRlI
+    id: 07
+    label: Backstage
+    published-date: 2024-03-08
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QGFf5xRlI
 
 - postx:
     id: 1765304060088115356
@@ -347,92 +444,6 @@
     date: 2025-10-23
     text:
     - More pictures added. Customized the presentation.
-    part-of:
-      show:
-        year: 2024
-        id: guvol349
-
-- webimage:
-    domain: instagram.com
-    page: C4QGFf5xRlI
-    id: 02
-    label: On stage
-    published-date: 2025-03-08
-    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
-    local-copy: true
-    context:
-    - show:
-        year: 2024
-        id: guvol349
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: C4QGFf5xRlI
-
-- webimage:
-    domain: instagram.com
-    page: C4QGFf5xRlI
-    id: 03
-    label: On stage
-    info: Cocoro
-    published-date: 2024-03-07
-    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
-    local-copy: true
-    context:
-    - show:
-        year: 2024
-        id: guvol349
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: C4QGFf5xRlI
-
-- webimage:
-    domain: instagram.com
-    page: C4QGFf5xRlI
-    id: 05
-    label: Sidewalk board
-    published-date: 2025-03-08
-    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
-    local-copy: true
-    context:
-    - show:
-        year: 2024
-        id: guvol349
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: C4QGFf5xRlI
-
-- webimage:
-    domain: instagram.com
-    page: C4QGFf5xRlI
-    id: 06
-    label: Backstage
-    published-date: 2024-03-08
-    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
-    local-copy: true
-    context:
-    - show:
-        year: 2024
-        id: guvol349
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: C4QGFf5xRlI
-
-- webpage:
-    domain: instagram.com
-    id: C4QGFf5xRlI
-    label: Cocoro report
-    published-date: 2024-03-07
-    url: 'https://www.instagram.com/p/C4QGFf5xRlI'
-    image:
-    - 02
-    - 03
-    - 05
-    - 06
-    todo: support additional backstage video
     part-of:
       show:
         year: 2024

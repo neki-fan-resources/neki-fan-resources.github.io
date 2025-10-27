@@ -1,0 +1,18 @@
+- update:
+    song: clockup
+    date: 2025-10-27
+    text:
+    - First short teasing the song
+    part-of:
+      song: clockup
+
+- youtubeshort:
+    id: df7tbLp6n4k
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-10-27
+    context:
+    - song: clockup
+    part-of:
+      song: clockup
+

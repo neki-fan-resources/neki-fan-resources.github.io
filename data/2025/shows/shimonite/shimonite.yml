@@ -1,0 +1,24 @@
+show:
+  year: 2025
+  id: shimonite
+  cover-image:
+    webimage:
+      domain: shimonite.com
+      page: index
+      id: poster
+  fullname: Shimokitazawa Nite
+  date: 2025-12-06
+  venue: Shimokitazawa, Tokyo
+  event-page: 'https://www.shimonite.com/'
+  part-of:
+    group:
+      id: shows
+      group: 2025
+  multimedia:
+    image:
+    - postximage:
+        post: 1982055276930011353
+        image: G4GsvB1WwAAcUUS
+    - postximage:
+        post: 1982055276930011353
+        image: G4GsvB-WwAALdCK

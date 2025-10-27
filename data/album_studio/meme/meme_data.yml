@@ -60,6 +60,85 @@
     part-of:
       album: meme
 
+- postx:
+    id: 1980973984511557877
+    account: cure_bass_baka
+    label: Filming today
+    published-date: 2025-10-22
+    text: |-
+      撮影日でした(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠☆
+    translation: |-
+      It was a filming shoot day (⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠☆
+    image:
+    - G33VVb_WkAEJI_9
+    todo: move to the song when we know
+    part-of:
+      album: meme
+
+- postx:
+    id: 1980974929249218933
+    account: coco_102
+    label: Filming today
+    published-date: 2025-10-22
+    text: |-
+      撮影してきたよ、お楽しみに🫶🏻
+    translation: |-
+      We finished the video shoot, look forward to it 🫶🏻
+    image:
+    - G33WMQoXAAAn8WU
+    part-of:
+      album: meme
+
+- postx:
+    id: 1980987266681262190
+    account: natsu08_guitar
+    label: Filming today
+    published-date: 2025-10-22
+    text: |-
+      撮影でぃ！！🎥
+      楽しかった！！！！！
+      お楽しみにだよ！！！！！🤍💛
+    translation: |-
+      Filming Shoot Day!! 🎥
+      It was fun!!!!!!
+      Look forward to it!!!!!! 🤍💛
+    image:
+    - G33hagoWoAAitgP
+    part-of:
+      album: meme
+
+- postx:
+    id: 1981624049173488100
+    account: coco_102
+    label: Broken snare drum
+    info: likely while filming the MV
+    published-date: 2025-10-24
+    text: |-
+      ライブ中はやめてくれよォ、、🥲
+    translation: |-
+      Don't do that during the live show,, 🥲
+    todo: attach to the correct song
+    part-of:
+      album: meme
+
+- postx:
+    id: 1982277313711808645
+    account: 46_hikaa
+    label: Filming
+    published-date: 2025-10-26
+    text: |-
+      急に寒くなりすぎやろ！ぴーす！
+      
+      #撮影の日
+    translation: |-
+      It suddenly got way too cold! Peace!
+      
+      #FilmingDay
+    image:
+    - G4J2tTqWMAALmdk
+    part-of:
+      album: meme
+
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
@@ -126,6 +205,75 @@
     part-of:
       postx: 1976221883000594481
 
+- postximage:
+    post: 1980973984511557877
+    id: G33VVb_WkAEJI_9
+    label: Filming
+    info: Kanade
+    published-date: 2025-10-22
+    context:
+    - album: meme
+    todo: move to the song, adds context
+    part-of:
+      postx: 1980973984511557877
+
+- postximage:
+    post: 1980974929249218933
+    id: G33WMQoXAAAn8WU
+    label: Filming
+    info: drum set
+    published-date: 2025-10-22
+    context:
+    - album: meme
+    todo: attach to song when we know
+    part-of:
+      postx: 1980974929249218933
+
+- postximage:
+    post: 1980987266681262190
+    id: G33hagoWoAAitgP
+    label: Filming
+    info: Natsu
+    published-date: 2025-10-22
+    context:
+    - album: meme
+    part-of:
+      postx: 1980987266681262190
+
+- postximage:
+    post: 1981624049173488100
+    id: G4Akjf2WAAAni4N
+    label: Broken snare drum
+    info: behind the scenes
+    published-date: 2025-10-24
+    context:
+    - album: meme
+    part-of:
+      postx: 1981624049173488100
+
+- postximage:
+    post: 1981624049173488100
+    id: G4AkjfxW8AEFeH2
+    label: Broken drum
+    info: behind the scenes
+    published-date: 2025-10-24
+    context:
+    - album: meme
+    todo: attach to the correct song
+    part-of:
+      postx: 1981624049173488100
+
+- postximage:
+    post: 1982277313711808645
+    id: G4J2tTqWMAALmdk
+    label: Filming
+    info: Hika
+    published-date: 2025-10-26
+    context:
+    - album: meme
+    part-of:
+      album: meme
+
 - update:
     album: meme
     date: 2025-10-03
@@ -139,6 +287,15 @@
     date: 2025-10-12
     text:
     - A few note of one of the new songs, and a picture of Natsu with an acoustic guitar at the recording studio
+    part-of:
+      album: meme
+
+- update:
+    album: meme
+    date: 2025-10-27
+    text:
+    - Images from the filming of a music video
+    - Mone teasing of songs, Kanade bass line
     part-of:
       album: meme
 
@@ -186,6 +343,7 @@
 - youtubeshort:
     id: 7DuE0uzMGoE
     label: New song
+    info: drums, Cocoro
     published-date: 2025-10-20
     context:
     - album: meme
@@ -194,9 +352,20 @@
       album: meme
 
 - youtubeshort:
+    id: DtmXXwNOFN0
+    label: New song
+    info: bass line, Kanade
+    published-date: 2025-10-22
+    context:
+    - album: meme
+    todo: attach to the correct song
+    part-of:
+      album: meme
+
+- youtubeshort:
     id: anmutrUMA8Y
-    label: Rehearsal
-    info: new song
+    label: New song
+    info: guitar line, Natsu
     published-date: 2025-10-09
     context:
     - album: meme

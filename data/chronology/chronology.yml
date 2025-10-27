@@ -50,6 +50,9 @@ contentpage:
   - tour: 2ndanniversarytour
   - show:
       year: 2025
+      id: shimonite
+  - show:
+      year: 2025
       id: 1stalbummeme
   - album: meme
   - event: iwanttostartaband
@@ -300,10 +303,6 @@ contentpage:
       year: 2025
       id: tricktakingtourosaka
     forward: -19
-  - show:
-      year: 2024
-      id: wingedit
-    short: true
   - show:
       year: 2024
       id: codeofzerox
@@ -638,6 +637,15 @@ contentpage:
     short: true
   - song: ooak
     left: false
+  - show:
+      year: 2024
+      id: wingedit
+    short: true
+  - show:
+      year: 2025
+      id: shimonite
+    forward: 3
+    short: true
   - event: iwanttostartaband
     forward: -5
     short: true

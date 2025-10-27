@@ -1,0 +1,42 @@
+- group:
+    id: perso
+    label: Perso SNS
+    part-of:
+      group: kanade
+
+- postx:
+    id: 1515837628029206528
+    account: cure_bass_baka
+    label: Kanade going to school with her bass for the first time
+    info: Picture of Kanade carrying her bass
+    published-date: 2022-04-18
+    text: |-
+      -
+    part-of:
+      group:
+        id: perso
+        group: kanade
+
+- postx:
+    id: 1981271568736276738
+    account: cure_bass_baka
+    label: 3.5 years later, still loves bass, still want to do the same thing
+    published-date: 2025-10-23
+    text: |-
+      -
+    part-of:
+      postx: 1515837628029206528
+
+- postximage:
+    post: 1981271568736276738
+    id: G37j_GyWwAA2oxI
+    label: On stage
+    info: Kanade
+    published-date: 2025-10-23
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1981271568736276738
+

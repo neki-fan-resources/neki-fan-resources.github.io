@@ -33,6 +33,9 @@
                 - postinstagramimage:
                     post: C4QGFf5xRlI
                     image: 03
+                - postinstagramimage:
+                    post: C4QGFf5xRlI
+                    image: 01
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -118,12 +121,29 @@
     - 03
     - 05
     - 06
+    - 01
     video:
     - 07
     part-of:
       show:
         year: 2024
         id: guvol349
+    reference:
+    - postximage:
+        post: 1765733615722467497
+        image: GIElXLRacAAzZEQ
+
+- postinstagramimage:
+    post: C4QGFf5xRlI
+    id: 01
+    label: On stage
+    published-date: 2025-10-25
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QGFf5xRlI
 
 - postinstagramimage:
     post: C4QGFf5xRlI
@@ -330,7 +350,6 @@
     video:
     - 01
     - 02
-    todo: images and videos
     part-of:
       show:
         year: 2024

@@ -1,3 +1,88 @@
+- postinstagram:
+    id: C4Sh0puxkc6
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-03-09
+    text: |-
+      2024.03.09
+      
+      下北沢で行われているLUPINUS ROCK FESTIVAL 2024にトップバッターで出場しました！！
+      公演後にはNEK!初の、人生初のビラ配りをしました😳
+      下北のライブハウスさんをたくさん巡ることができて楽しかったです！
+      
+      次回は3/20(木･祝)の
+      NEK!初単独フリーライブ@渋谷チェルシーホテル💪🏻🔥
+      
+      #neki #nekiband #girlsband #liveholic #下北沢
+    translation: |-
+      2024.03.09
+      
+      We performed as the top act at LUPINUS ROCK FESTIVAL 2024 held in Shimokitazawa!!
+      After the performance, we did NEK!'s first, and my life's first, flyer distribution 😳
+      It was fun being able to visit many of the live music clubs in Shimokitazawa!
+      
+      Next up is the
+      NEK! first solo free live show on 3/20 (Thu, a public holiday) @ Shibuya Chelsea Hotel 💪🏻🔥
+      
+      #neki #nekiband #girlsband #liveholic #shimokitazawa
+    image:
+    - 03
+    - 04
+    video:
+    - 05
+    part-of:
+      show:
+        year: 2024
+        id: lupinus2024
+    reference:
+    - postximage:
+        post: 1766464470363324596
+        image: GIO92KpbEAAAZDw
+    - postximage:
+        post: 1766325171030564920
+        image: GIM_YLhbcAAWN0m
+
+- postinstagramimage:
+    post: C4Sh0puxkc6
+    id: 03
+    label: On stage
+    info: Cocoro
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postinstagram: C4Sh0puxkc6
+
+- postinstagramimage:
+    post: C4Sh0puxkc6
+    id: 04
+    label: Sidewalk board
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postinstagram: C4Sh0puxkc6
+
+- postinstagramvideo:
+    post: C4Sh0puxkc6
+    id: 05
+    label: Flyer distribution
+    info: in Shimokitazawa
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postinstagram: C4Sh0puxkc6
+
 - postx:
     id: 1765981020535333110
     account: famime_rock
@@ -701,6 +786,20 @@
     label: Members presentation
     published-date: 2024-03-08
     cover: 1765899287886729216/pu/img/ZZe2vPYvsy6iELJx.jpg
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      show:
+        year: 2024
+        id: lupinus2024
+
+- youtubeshort:
+    id: HD5eo78IMNk
+    label: Choose me / BAND-MAID
+    info: cover
+    published-date: 2024-03-15
     context:
     - show:
         year: 2024

@@ -29,6 +29,104 @@
         id: shibuyachelseahotel
 
 - postx:
+    id: 1768976059159167425
+    account: nekiband_jp
+    label: Show in 4 days
+    published-date: 2024-03-16
+    text: |-
+      3/20(水祝)
+      @ 渋谷チェルシーホテル
+      
+      NEK! 単独フリーライブまであと4日！
+      
+      本日のカウントダウン動画はこころ( 
+      @coco_102
+       )❤️‍🔥
+      
+      #NEKI
+    translation: |-
+      3/20 (Wed, a public holiday)
+      @ Shibuya Chelsea Hotel
+      
+      Only 4 days left until the NEK! Solo Free Live Show!
+      
+      Today's countdown video features Kokoro (
+      @coco_102
+      ) ❤️‍🔥
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1768976059159167425
+        video: 01
+
+- postx:
+    id: 1769320176183599179
+    account: nekiband_jp
+    label: Show in 3 days
+    published-date: 2024-03-17
+    text: |-
+      3/20(水祝)
+      @ 渋谷チェルシーホテル
+      
+      NEK! 単独フリーライブまであと3日！
+      
+      本日のカウントダウン動画はベースのかなで！
+      @bass_baka_Jk
+      
+      #NEKI
+    translation: |-
+      3/20 (Wed, a public holiday)
+      @ Shibuya Chelsea Hotel
+      
+      Only 3 days left until the NEK! Solo Free Live Show!
+      
+      Today's countdown video features the bassist, Kanade!
+      @bass_baka_Jk
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1769320176183599179
+        video: 01
+
+- postx:
+    id: 1769667166465650700
+    account: nekiband_jp
+    label: Show in 2 days
+    published-date: 2024-03-18
+    text: |-
+      3/20(水祝)
+      @ 渋谷チェルシーホテル
+      
+      NEK! 単独フリーライブまであと2日！
+      
+      本日のカウントダウン動画はギターのNATSU！
+      @natsu08_guitar
+      
+      #NEKI
+    translation: |-
+      3/20 (Wed, a public holiday)
+      @ Shibuya Chelsea Hotel
+      
+      Only 2 days left until the NEK! Solo Free Live Show!
+      
+      Today's countdown video features the guitarist, NATSU!
+      @natsu08_guitar
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1769667166465650700
+        video: 01
+
+- postx:
     id: 1770261360938746035
     account: nekiband_jp
     label: show today
@@ -131,6 +229,54 @@
         id: shibuyachelseahotel
     part-of:
       postx: 1766464470363324596
+
+- postxvideo:
+    post: 1768976059159167425
+    id: 01
+    label: Show in 4 days
+    info: Cocoro
+    published-date: 2024-03-16
+    cover: 1768976039240409088/pu/img/xSeMBv1yk0evdiKo.jpg
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postxvideo:
+    post: 1769320176183599179
+    id: 01
+    label: Show in 3 days
+    info: Kanade
+    published-date: 2024-03-17
+    cover: 1769320147364581376/pu/img/ds_zyPVDLxToQtlC.jpg
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postxvideo:
+    post: 1769667166465650700
+    id: 01
+    label: show in 2 days
+    info: Natsu
+    published-date: 2024-03-18
+    cover: 1769667145494077440/pu/img/t8ZV2bOTedUjCb0u.jpg
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
 
 - youtubeshort:
     id: Z-ju19kHofg

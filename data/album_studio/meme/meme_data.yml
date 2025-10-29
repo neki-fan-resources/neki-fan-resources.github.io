@@ -139,6 +139,48 @@
     part-of:
       album: meme
 
+- postx:
+    id: 1983159440678510938
+    account: nekiband_jp
+    label: Live stream announcement
+    published-date: 2025-10-28
+    text: |-
+      🎊生配信決定🎊
+      
+      10/30(木)20時〜
+      NEK!公式Instagramアカウントより生配信決定‼️
+      
+      1st アルバム「MEME」リリースまであと1ヶ月！
+      アルバム内容の紹介や新情報解禁も…🤭✨
+      
+      アカウントをフォローしてお待ちください⚡️
+      
+      🔗 https://instagram.com/nekiband_jp
+      
+      #NEKI 
+      
+      ↓↓撮りたてのほやほやの動画↓↓
+    translation: |-
+      🎊 Live Stream Confirmed 🎊
+      
+      10/30 (Thu) 20:00~
+      Live stream confirmed from the NEK! official Instagram account ‼️
+      
+      1 month left until the release of the 1st album "MEME"!
+      We will introduce the album content and unveil new information as well...🤭✨
+      
+      Please follow the account and wait for the stream ⚡️
+      
+      🔗 https://instagram.com/nekiband_jp
+      
+      #NEKI
+      
+      ↓↓ Freshly recorded video ↓↓
+    video:
+    - 01
+    part-of:
+      album: meme
+
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
@@ -274,6 +316,17 @@
     part-of:
       album: meme
 
+- postxvideo:
+    post: 1983159440678510938
+    id: 01
+    label: Announcement
+    published-date: 2025-10-29
+    cover: 1983159348747759616/img/QHFXz09g9hd4Ie0d.jpg
+    context:
+    - album: meme
+    part-of:
+      album: meme
+
 - update:
     album: meme
     date: 2025-10-03
@@ -348,6 +401,16 @@
     context:
     - album: meme
     todo: attach to the song after release
+    part-of:
+      album: meme
+
+- youtubeshort:
+    id: AUCsQ9SAS8I
+    label: Band
+    info: what you want to eat after rehearsal
+    published-date: 2025-10-28
+    context:
+    - album: meme
     part-of:
       album: meme
 

@@ -110,6 +110,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: 5UNdo6bif-o
                 - youtubeshort: Aj96P8c6Tpc
                 - youtubeshort: tBvCNjkpJdI
                 - youtubeshort: tuv8q0Or2qs
@@ -1107,6 +1108,21 @@
     date: 2025-10-20
     text:
     - Cocoro-cam video, of the last part of Blink
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
+- youtubeshort:
+    id: 5UNdo6bif-o
+    label: On stage
+    info: studio audio
+    published-date: 2025-10-29
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: minamiwheel
     part-of:
       show:
         year: 2025

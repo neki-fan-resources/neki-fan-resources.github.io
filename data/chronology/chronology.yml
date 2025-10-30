@@ -53,6 +53,9 @@ contentpage:
       id: shimonite
   - show:
       year: 2025
+      id: memetowershibuya
+  - show:
+      year: 2025
       id: 1stalbummeme
   - album: meme
   - event: iwanttostartaband
@@ -361,7 +364,8 @@ contentpage:
   - show:
       year: 2025
       id: 1stalbummeme
-    forward: 4
+    forward: 1
+    in: -1
   - media:
       year: 2025
       id: eradiocatch
@@ -498,9 +502,6 @@ contentpage:
       id: guvol356
     forward: 2
     short: true
-  - multimedia-event: dreamsmv
-    left: false
-    forward: -11
   - show:
       year: 2025
       id: inthefamilyfest
@@ -511,6 +512,14 @@ contentpage:
   - show:
       year: 2024
       id: guvol354
+    short: true
+  - multimedia-event: dreamsmv
+    left: false
+    forward: -11
+  - show:
+      year: 2025
+      id: memetowershibuya
+    forward: 13
     short: true
   - show:
       year: 2024
@@ -644,10 +653,10 @@ contentpage:
   - show:
       year: 2025
       id: shimonite
-    forward: 3
+    forward: 4
     short: true
   - event: iwanttostartaband
-    forward: -5
+    forward: -7
     short: true
   - show:
       year: 2024

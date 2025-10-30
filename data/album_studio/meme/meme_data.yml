@@ -11,6 +11,31 @@
       - album: meme
       - text: '" on November 26th.'
 
+- postinstagram:
+    id: DQbox4-kjh8
+    account: nekiband_jp
+    label: Live stream
+    published-date: 2025-10-30
+    text: |-
+      インスタライブするネキ
+    translation: |-
+      NEKI will be doing an Instagram Live
+    video:
+    - 01
+    part-of:
+      album: meme
+
+- postinstagramvideo:
+    post: DQbox4-kjh8
+    id: 01
+    label: Live stream
+    info: the album versions, the bonus, acoustic mini-live
+    published-date: 2025-10-30
+    context:
+    - album: meme
+    part-of:
+      postinstagram: DQbox4-kjh8
+
 - postx:
     id: 1961737876066168993
     account: nekiband_jp
@@ -181,6 +206,23 @@
     part-of:
       album: meme
 
+- postx:
+    id: 1983908062110085217
+    account: 46_hikaa
+    label: Thank you for watching
+    published-date: 2025-10-30
+    text: |-
+      インスタライブ見て下さった方
+      ありがとうございましたっ✩.*
+      
+       #ネキミーム
+    translation: |-
+      To everyone who watched the Instagram Live, thank you very much ✩.*
+      
+      #NekiMeme
+    part-of:
+      postinstagram: DQbox4-kjh8
+
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
@@ -326,6 +368,17 @@
     - album: meme
     part-of:
       album: meme
+
+- postxvideo:
+    post: 1983908062110085217
+    id: 01
+    label: Thank you for watching
+    published-date: 2025-10-30
+    cover: 1983908002509033472/img/M99pMxiucM5A-cIb.jpg
+    context:
+    - album: meme
+    part-of:
+      postx: 1983908062110085217
 
 - update:
     album: meme

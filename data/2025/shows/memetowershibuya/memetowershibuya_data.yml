@@ -1,0 +1,62 @@
+- display:
+    show:
+      year: 2025
+      id: memetowershibuya
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: This will be NEK!'s first in-store event.
+                - line:
+                  - text: The performance will also mark the band's first fully acoustic set. NEK! often includes a brief acoustic section in their concerts, but this will be the first time they perform an entire set acoustically.
+                - line:
+                  - text: The event was announced on October 30 during a livestream about the upcoming album.
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- update:
+    show:
+      year: 2025
+      id: memetowershibuya
+    date: 2025-10-30
+    text:
+    - Added the event with some details
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- webimage:
+    domain: note.com.nekiband
+    page: n2084dc95cb47
+    id: towerlogo
+    label: Tower Record Shibuya logo
+    published-date: 2025-10-30
+    url: 'https://assets.st-note.com/production/uploads/images/225862820/rectangle_large_type_2_90e355a152679987ada039c0fcf83309.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n2084dc95cb47
+
+- webpage:
+    domain: note.com.nekiband
+    id: n2084dc95cb47
+    label: Album release event at Tower Record Shibuya
+    published-date: 2025-10-30
+    url: 'https://note.com/nekiband_jp/n/n2084dc95cb47'
+    image:
+    - towerlogo
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+

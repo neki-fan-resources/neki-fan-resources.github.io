@@ -1,0 +1,26 @@
+- display:
+    event: memeexhibition
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The exhibition will run from November 25th to December 1st.
+                - line:
+                  - text: Fans who purchase a copy of the album at these stores during this period can enter a raffle to win the signed display panels at the end of the exhibition.
+    part-of:
+      event: memeexhibition
+
+- update:
+    event: memeexhibition
+    date: 2025-10-30
+    text:
+    - Added the exhibition, with some information
+    part-of:
+      event: memeexhibition
+

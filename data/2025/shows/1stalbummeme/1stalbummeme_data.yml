@@ -1,3 +1,24 @@
+- newsitem:
+    id: upcoming
+    show:
+      year: 2025
+      id: 1stalbummeme
+    title: 1st album MEME release one-man show
+    active: true
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+    text:
+    - line:
+      - text: To celebrate the release of their first album "
+      - album: meme
+      - text: '", NEK! will have a one-man show '
+      - show:
+          year: 2025
+          id: 1stalbummeme
+      - text: ', on November 28th in Yokohama.'
+
 - postx:
     id: 1961739772080136281
     account: nekiband_jp
@@ -24,6 +45,45 @@
         year: 2025
         id: 1stalbummeme
 
+- postx:
+    id: 1984204555832397939
+    account: nekiband_jp
+    label: Thank you sold out
+    published-date: 2025-10-31
+    text: |-
+      💥THANK YOU SOLD OUT💥
+      
+      11/28(金)開催
+      NEK! 1st アルバム「MEME」
+      リリース記念ワンマンライブ
+      📍横浜ReNY beta
+      
+      チケットはソールドアウトとなりました❗️
+      ありがとうございます🫶
+      
+      1st Albumリリース&ワンマンをお楽しみに🔥
+      
+      アルバム詳細💿
+      🔗https://note.com/nekiband_jp/n/n828855136334
+      
+      #NEKI #MEME #ネキミーム
+    translation: |-
+      💥THANK YOU SOLD OUT💥
+      
+      Held on 11/28 (Fri) NEK! 1st Album "MEME" Release Celebration One-Man Live 📍Yokohama ReNY beta
+      
+      Tickets are officially sold out❗️ Thank you very much 🫶
+      
+      Look forward to the 1st Album release & one-man show 🔥
+      
+      Album Details 💿 🔗https://note.com/nekiband_jp/n/n828855136334
+      
+      #NEKI #MEME #NekiMeme
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
 - postximage:
     post: 1961739772080136281
     id: Gzl_6IcbMAAX62f
@@ -36,4 +96,17 @@
         id: 1stalbummeme
     part-of:
       postx: 1961739772080136281
+
+- postximage:
+    post: 1984204555832397939
+    id: G4lNm20aAAAHFKv
+    label: Poster sold out
+    published-date: 2025-10-31
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1984204555832397939
 

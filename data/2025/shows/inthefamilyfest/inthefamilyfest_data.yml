@@ -224,3 +224,18 @@
         year: 2025
         id: inthefamilyfest
 
+- youtubeshort:
+    id: crMGqtPMQNI
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-01
+    context:
+    - song: ripoff
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+

@@ -1,0 +1,159 @@
+- display:
+    media:
+      year: 2025
+      id: eggman11
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Covers
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1984215197004042333
+                    image: G4lZM-Ub0AErRPS
+                - postximage:
+                    post: 1984215197004042333
+                    image: G4lZM-aaAAEzKg-
+        - basicsection:
+            label: Promo
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1984283088168591452
+                    image: G4mW80ubIAABGZR
+                - postximage:
+                    post: 1984283088168591452
+                    image: G4mW82ebIAEGRKk
+    part-of:
+      media:
+        year: 2025
+        id: eggman11
+
+- postx:
+    id: 1984215197004042333
+    account: eggman_magazine
+    label: Announcement
+    published-date: 2025-10-31
+    text: |-
+      📕フリーマガジンeggman11月号📕
+      
+      eggman店頭他全国のライブハウス・スタジオ・タワーレコード(一部除く)で、明日11月1日から順次無料配布スタート！  
+      
+      11月号の表紙は 
+      桃色ドロシー
+      @momoiro_dorothy
+       
+      
+      裏表紙は
+      NEK!
+      @nekiband_jp
+       
+      
+      是非手に入れてください✨
+    translation: |-
+      📕Free Magazine eggman November Issue📕
+      
+      Starting tomorrow, November 1st, free distribution will begin sequentially at the eggman store, other live music clubs/studios nationwide, and Tower Records (excluding some stores)!
+      
+      The cover of the November issue is Momoiro Dorothy @momoiro_dorothy
+      
+      The back cover is NEK! @nekiband_jp
+      
+      Please be sure to get a copy ✨
+    image:
+    - G4lZM-Ub0AErRPS
+    - G4lZM-aaAAEzKg-
+    part-of:
+      media:
+        year: 2025
+        id: eggman11
+
+- postx:
+    id: 1984283088168591452
+    account: shibuya_eggman
+    label: Announcement
+    published-date: 2025-10-31
+    text: |-
+      🍳11月号フリーマガジンカバーアーティスト🍳
+      
+      eggman店頭では本日から配布開始！      
+      
+      11月号の表紙は    
+      桃色ドロシー（ 
+      @momoiro_dorothy
+        ）            
+      
+      裏表紙は   NEK!（ 
+      @nekiband_jp
+        ）    
+      
+      カバーアーティストポスターも掲示中🎃
+    translation: |-
+      🍳11th Month Free Magazine Cover Artist🍳
+      
+      Distribution starts today at the eggman store!
+      
+      The cover of the November issue is Momoiro Dorothy (@momoiro_dorothy)
+      
+      The back cover is NEK! (@nekiband_jp)
+      
+      The cover artist poster is also currently displayed 🎃
+    part-of:
+      media:
+        year: 2025
+        id: eggman11
+
+- postximage:
+    post: 1984215197004042333
+    id: G4lZM-Ub0AErRPS
+    label: Back cover
+    published-date: 2025-11-02
+    local-copy: true
+    context:
+    - media:
+        year: 2025
+        id: eggman11
+    part-of:
+      postx: 1984215197004042333
+
+- postximage:
+    post: 1984215197004042333
+    id: G4lZM-aaAAEzKg-
+    label: Front cover
+    published-date: 2025-10-31
+    context:
+    - media:
+        year: 2025
+        id: eggman11
+    part-of:
+      postx: 1984215197004042333
+
+- postximage:
+    post: 1984283088168591452
+    id: G4mW80ubIAABGZR
+    label: Covers
+    published-date: 2025-10-31
+    context:
+    - media:
+        year: 2025
+        id: eggman11
+    part-of:
+      postx: 1984283088168591452
+
+- postximage:
+    post: 1984283088168591452
+    id: G4mW82ebIAEGRKk
+    label: Sidewalk board
+    published-date: 2025-10-31
+    context:
+    - media:
+        year: 2025
+        id: eggman11
+    part-of:
+      postx: 1984283088168591452
+

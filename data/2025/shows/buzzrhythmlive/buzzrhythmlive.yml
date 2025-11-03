@@ -8,21 +8,11 @@ show:
   fullname: BUZZ RHYTHM LIVE
   date: 2025-11-02
   description:
-  - NEK! will be performing on the "BUZZER STAGE", a satellite show happening in a smaller hall of the Yokohama Arena, before the main "BUZZ RHYTHM LIVE" show, in the main arena.
+  - NEK! performed on the BUZZER STAGE, a satellite show for the "BUZZ RHYTHM LIVE" show.
+  - The band performed the unreleased song "GiMMiCK" for the first time.
   venue: Yokohama Arena, Yokohama
   event-page: 'https://buzzrhythm.live/'
   part-of:
     group:
       id: shows
       group: 2025
-  multimedia:
-    image:
-    - postximage:
-        post: 1967921415404789905
-        image: G0uq9-QbcAMV7Hg
-    - postximage:
-        post: 1966335966437929047
-        image: G0jA1z1bIAAHBld
-    - postximage:
-        post: 1966336018229121319
-        image: G0nPfDKaMAgZmN1

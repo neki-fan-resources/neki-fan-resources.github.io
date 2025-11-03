@@ -123,9 +123,29 @@
     id: done
     show:
       year: 2025
-      id: minamiwheel
+      id: buzzrhythmlive
     title: MINAMI WHEEL
     active: true
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+    text:
+    - line:
+      - text: "NEK!'s last show was "
+      - show:
+          year: 2025
+          id: buzzrhythmlive
+      - text: ', on November 2nd.'
+    - line:
+      - text: They played "GiMMiCK" for the first time, the first pictures are available.
+
+- newsitem:
+    id: done
+    show:
+      year: 2025
+      id: minamiwheel
+    title: MINAMI WHEEL
     part-of:
       show:
         year: 2025

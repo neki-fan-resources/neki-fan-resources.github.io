@@ -1,10 +1,105 @@
+- display:
+    show:
+      year: 2025
+      id: buzzrhythmlive
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The "BUZZER STAGE" is a satellite show intended to showcase new groups. The show happens each day in a smaller hall of the Yokohama Arena, preceding the main "BUZZ RHYTHM LIVE" show happening in the main arena.
+                - line:
+                  - text: NEK! opened the stage on the second day, followed by the idol groups Straight Angeli and KAWAII LAB. MATES.
+                - line:
+                  - text: The band's set included the first performance of the song "GiMMiCK". The band also announced the release date for the song, ahead of the album "MEME".
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1984959064703652298
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1984885753453891858
+                    image: G4u7EkaaIAAAv6w
+                - postximage:
+                    post: 1985191533449285818
+                    image: G4zQaaka4AA_6Ep
+                - postximage:
+                    post: 1984882882473836774
+                    image: G4u4deFaYAAD-6f
+                - postximage:
+                    post: 1984885071434956975
+                    image: G4u6c0sbQAI0SIh
+                - postximage:
+                    post: 1984877391978905779
+                    image: G4uzcEXbQAAx1pc
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1984879105540813293
+                    image: G4u1Bh8aAAAMYUe
+                - postximage:
+                    post: 1984885753453891858
+                    image: G4u7EkdbQAMCBbo
+                - postximage:
+                    post: 1984882882473836774
+                    image: G4u4deIbcAAKmYh
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1984877391978905779
+                    image: G4uzcEPbQAUE80u
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1985183804479377444
+                    image: G4zKJFebkAANgd5
+                - postximage:
+                    post: 1984953943756259480
+                    image: G4v5FlVasAAjuUD
+                - postximage:
+                    post: 1985218438021976367
+                    image: G4zpojvbUAAZcnd
+                - postximage:
+                    post: 1985199684454125732
+                    image: G4zYlt5awAACzaJ
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1984877391978905779
+                    image: G4uzcEUbQAAOv6C
+                - postximage:
+                    post: 1984877391978905779
+                    image: G4uzcERbQAIjlcC
+                - postximage:
+                    post: 1984885071434956975
+                    image: G4u6c0ubQAA70De
+                - postximage:
+                    post: 1984879105540813293
+                    image: G4u1Bh6asAAzrD6
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
 - newsitem:
     id: upcoming
     show:
       year: 2025
       id: buzzrhythmlive
-    title: MINAMI WHEEL
-    active: true
+    title: BUZZ RHYTHM LIVE
     part-of:
       show:
         year: 2025
@@ -135,6 +230,423 @@
         year: 2025
         id: buzzrhythmlive
 
+- postx:
+    id: 1984583590974538100
+    account: nekiband_jp
+    label: Tomorrow
+    published-date: 2025-11-01
+    text: |-
+      🔥⚡️明日出演⚡️🔥
+      
+      11/2(日)開催
+      バズリズム LIVE 2025 -BUZZER STAGE-
+      📍横浜アリーナ 2Fセンテニアルホール
+      @BUZZRHYTHM_NTV
+      
+      
+      あす出演させていただきます💥
+      
+      気合い十分！！
+      ご来場お待ちしております🎸✨
+      
+      https://buzzrhythm.live
+      
+      #NEKI #バズライブ #バスリズムLIVE
+    translation: |-
+      🔥⚡️Appearing Tomorrow⚡️🔥
+      
+      Held on 11/2 (Sun) BUZZRHYTHM LIVE 2025 -BUZZER STAGE- 📍Yokohama Arena 2F Centennial Hall @BUZZRHYTHM_NTV
+      
+      We will be performing tomorrow 💥
+      
+      We are completely fired up!! We look forward to your visit 🎸✨
+      
+      https://buzzrhythm.live
+      
+      #NEKI #BuzzLive #BuzzRhythmLIVE
+    image:
+    - G4qoQbebMAAaiFI
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1984877391978905779
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-02
+    text: |-
+      🖤Thanks🖤
+      
+      バズリズム LIVE 2025 -BUZZER STAGE-
+      @ 横浜アリーナ 2Fセンテニアルホール
+      
+      ありがとうございました🫶
+      会場全体で最高の盛り上がりでした🔥
+      
+      来年2月スタートの全国ワンマンツアーでぜひまたお会いしましょう👋✨
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI #バズライブ 
+      @BUZZRHYTHM_NTV
+    translation: |-
+      🖤Thanks🖤
+      
+      BUZZRHYTHM LIVE 2025 -BUZZER STAGE- @ Yokohama Arena 2F Centennial Hall
+      
+      Thank you very much 🫶 The entire venue was hyped up in the best way 🔥
+      
+      Let's meet again on our nationwide one-man tour starting next February 👋✨
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI #BuzzLive @BUZZRHYTHM_NTV
+    image:
+    - G4uzcEPbQAUE80u
+    - G4uzcERbQAIjlcC
+    - G4uzcEUbQAAOv6C
+    - G4uzcEXbQAAx1pc
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1984879105540813293
+    account: coco_102
+    label: Went by in a flash
+    published-date: 2025-11-02
+    text: |-
+      💚バズリズム LIVE 2025 -BUZZER STAGE-❤️
+      
+      25分あっという間だったけどめっちゃ楽しかった！
+      初披露の新曲"GiMMiCK"はどうだったかな？
+      19日の先行配信もお楽しみにね🥹
+      
+      今日初めて観てくれた方はNEK!という名前だけでも覚えて帰ってもらえたら嬉しいです！
+      またライブハウスで遊ぼうね✌🏻🔥
+      
+      #NEKI
+    translation: |-
+      💚BUZZRHYTHM LIVE 2025 -BUZZER STAGE-❤️
+      
+      25 minutes went by in a flash, but it was so much fun! How was the new song "GiMMiCK," which we performed for the first time? Look forward to the pre-release distribution on the 19th 🥹
+      
+      To those who saw us for the first time today, I would be happy if you could just remember the name NEK! Let's hang out at a live music club again ✌🏻🔥
+      
+      #NEKI
+    image:
+    - G4u1Bh6asAAzrD6
+    - G4u1Bh8aAAAMYUe
+    - G4u1Bh9bQAEuppo
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1984882882473836774
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-11-02
+    text: |-
+      バズリズムLIVE 2025 -BUZZER STAGE-
+      @ 横浜アリーナ 2Fセンテニアルホール
+      
+      盛り上がってくださりありがとうございました(๑•̀ᴗ- )☆ 
+      照明なども綺麗で素敵なステージでした🌟
+      またパワーアップしてメインステージ立てるように頑張ります❤️‍🔥
+       #バズライブ
+    translation: |-
+      BUZZRHYTHM LIVE 2025 -BUZZER STAGE- @ Yokohama Arena 2F Centennial Hall
+      
+      Thank you for cheering us on (๑•̀ᴗ- )☆ It was a wonderful stage with beautiful lighting 🌟 We'll work hard to power up and stand on the main stage someday ❤️‍🔥 #BuzzLive
+    image:
+    - G4u4deFaYAAD-6f
+    - G4u4deIbcAAKmYh
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1984885071434956975
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-11-02
+    text: |-
+      バズリズム LIVE 2025 -BUZZER STAGE-
+      
+      めちゃめちゃ最高のイベントに出演させていただけて、本当に嬉しかったです😭💛
+      声もすごく届いてたよー！！！
+      新曲「GiMMiCK」も初披露しました🔥
+      11/19に先行リリースします！お楽しみに！
+      最高の時間をありがとうございました！！
+      
+      #NEKI #バズライブ
+    translation: |-
+      BUZZRHYTHM LIVE 2025 -BUZZER STAGE-
+      
+      We were truly so happy to be able to perform at such an amazing event 😭💛 Your voices reached us so clearly!!! We also performed the new song "GiMMiCK" for the first time 🔥 It will be pre-released on 11/19! Please look forward to it! Thank you for the best time!!
+      
+      #NEKI #BuzzLive
+    image:
+    - G4u6c0sbQAI0SIh
+    - G4u6c0ubQAA70De
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1984885753453891858
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-11-02
+    text: |-
+      本日はありがとうございました✩.*
+      バズリズム LIVE 2025 -BUZZER STAGE-
+      
+      今回！初披露の曲「GiMMiCK」を皆さんにライブでお届けしましたが
+      11/19に先行リリースします！
+      
+      来年2月からは全国ワンマンツアー
+      初めての人も気になった人は
+      ぜひネキのライブへ！
+      
+       #バズライブ
+    translation: |-
+      Thank you for today ✩.* BUZZRHYTHM LIVE 2025 -BUZZER STAGE-
+      
+      Today! We presented the song "GiMMiCK" for the first time live, and it will be pre-released on 11/19!
+      
+      Our nationwide one-man tour starts next February, so if you're curious, even if you've never been before, please come to a NEKI live show!
+      
+      #BuzzLive
+    image:
+    - G4u7EkaaIAAAv6w
+    - G4u7EkdbQAMCBbo
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1984953943756259480
+    account: stan__staff
+    label: Thank you
+    published-date: 2025-11-02
+    text: |-
+      📸🪽
+      
+      ⋰
+      
+      ｢バズリズム LIVE 2025 -BUZZER STAGE-｣
+      #NEK! (
+      @nekiband_jp
+       )の皆さんとの写真をお届け🪽
+      
+      ⋱
+      
+      ありがとうございました👼🏻🎸⚡️
+      
+      #バズライブ #StraightAngeli #ストアン
+    translation: |-
+      📸🪽
+      
+      ⋰
+      
+      Here's a photo with the members of ｢BUZZRHYTHM LIVE 2025 -BUZZER STAGE-｣ #NEK! ( @nekiband_jp ) 🪽
+      
+      ⋱
+      
+      Thank you very much 👼🏻🎸⚡️
+      
+      #BuzzLive #StraightAngeli #SutoAn
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1984959064703652298
+    account: coco_102
+    label: ENDLESSGAME live
+    published-date: 2025-11-02
+    text: |-
+      🎮ENDLESSGAME🎮
+      
+      今日スマホスタンド持って行ってなかったから(いつもそう)隠し撮りみたいな画角になっちゃったけど、少しでも会場の空気感が伝われば嬉しいです！！
+      
+      今日もみんなの声たくさん聞こえたよ〜ありがとう☺️
+      
+      #NEKI
+    translation: |-
+      🎮ENDLESS GAME🎮
+      
+      I didn't bring my phone stand today (like always), so the angle ended up looking like a candid shot, but I hope it conveys even a little bit of the venue's atmosphere!!
+      
+      I heard all of your voices clearly today too~ Thank you ☺️
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1984971197457784999
+    account: stan__staff
+    label: Video Straight Angeli and NEK!
+    published-date: 2025-11-02
+    text: |-
+      🎶🪽
+      
+      ⋱  TikTok更新🤍🪽 ⋰
+      
+      NEK!(
+      @nekiband_jp
+       )さんとコンココンコンココンコンコン👊🏻‼️‼️
+      
+      🤍https://vt.tiktok.com/ZSyhvXqh7/
+      
+      #NEKI #StraightAngeli #ストアン
+    translation: |-
+      🎶🪽
+      
+      ⋱ TikTok update 🤍🪽 ⋰
+      
+      With NEK! ( @nekiband_jp ) we go konkonkonkonkonkonkon👊🏻‼️‼️
+      
+      🤍https://vt.tiktok.com/ZSyhvXqh7/
+      
+      #NEKI #StraightAngeli #SutoAn
+    todo: attach to the video on TikTok
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1985183804479377444
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-03
+    text: |-
+      "バズリズム LIVE 2025 -BUZZER STAGE-"
+      
+      #StraightAngeli さん📸
+      @stan__staff
+       
+      
+      ありがとうございました🪽
+      
+      #NEKI #バズライブ #ストアン
+    translation: |-
+      "BUZZRHYTHM LIVE 2025 -BUZZER STAGE-"
+      
+      #StraightAngeli - photo 📸 @stan__staff
+      
+      Thank you very much 🪽
+      
+      #NEKI #BuzzLive #SutoAn
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1985191533449285818
+    account: BUZZRHYTHM_NTV
+    label: Live photo
+    published-date: 2025-11-03
+    text: |-
+      ▰▱▰▱▰▱▰▱▰▱
+      バズリズム LIVE 2025【DAY2】
+      LIVE PHOTO🎧
+      ▰▱▰▱▰▱▰▱▰▱
+      
+      〚BUZZER STAGE〛
+      NEK!
+      #NEKI
+      @nekiband_jp
+      
+      
+      photo by 山下深礼(PROGRESS-M)
+    translation: |-
+      ▰▱▰▱▰▱▰▱▰▱ BUZZRHYTHM LIVE 2025【DAY2】 LIVE PHOTO 🎧 ▰▱▰▱▰▱▰▱▰▱
+      
+      〚BUZZER STAGE〛 NEK! #NEKI @nekiband_jp
+      
+      photo by Mirei Yamashita (PROGRESS-M)
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1985199684454125732
+    account: KAWAII__LAB
+    label: Thank you
+    published-date: 2025-11-03
+    text: |-
+      🤍🥁🎸 #NEKI さんとお写真🎸🥁🤍
+      
+      お写真ありがとうございました📸✨
+      
+      11/2(⽇)
+      『 バズリズム LIVE 2025 -BUZZER STAGE- DAY2 』
+      📍横浜アリーナ 2F センテニアルホール
+      
+      @nekiband_jp
+       
+      #KAWAIILAB  #カワラボ 
+      #KAWAIILABMATES #カワラボメイツ
+    translation: |-
+      🤍🥁🎸 Photo with #NEKI -san 🎸🥁🤍
+      
+      Thank you for the photo 📸✨
+      
+      11/2 (Sun) 『 BUZZRHYTHM LIVE 2025 -BUZZER STAGE- DAY2 』 📍Yokohama Arena 2F Centennial Hall
+      
+      @nekiband_jp
+      
+      #KAWAIILAB #KawaLabo #KAWAIILABMATES #KawaLaboMates
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postx:
+    id: 1985218438021976367
+    account: nekiband_jp
+    label: Backstage
+    published-date: 2025-11-03
+    text: |-
+      "バズリズム LIVE 2025 -BUZZER STAGE-"
+      
+      #KAWAIILABMATES さん📸
+      @KAWAII__LAB
+       
+      
+      ありがとうございました🤍
+      
+      #NEKI #バズライブ #カワラボメイツ
+    translation: |-
+      "BUZZRHYTHM LIVE 2025 -BUZZER STAGE-"
+      
+      #KAWAIILABMATES - photo 📸 @KAWAII__LAB
+      
+      Thank you very much 🤍
+      
+      #NEKI #BuzzLive #KawaLaboMates
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
 - postximage:
     post: 1966335966437929047
     id: G0jA10Va8AAl_wd
@@ -211,6 +723,258 @@
     part-of:
       postx: 1967921415404789905
 
+- postximage:
+    post: 1984583590974538100
+    id: G4qoQbebMAAaiFI
+    label: Bands
+    published-date: 2025-11-01
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984583590974538100
+
+- postximage:
+    post: 1984877391978905779
+    id: G4uzcEPbQAUE80u
+    label: Venue
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984877391978905779
+
+- postximage:
+    post: 1984877391978905779
+    id: G4uzcERbQAIjlcC
+    label: Band
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984877391978905779
+
+- postximage:
+    post: 1984877391978905779
+    id: G4uzcEUbQAAOv6C
+    label: Band
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984877391978905779
+
+- postximage:
+    post: 1984877391978905779
+    id: G4uzcEXbQAAx1pc
+    label: On stage
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984877391978905779
+
+- postximage:
+    post: 1984879105540813293
+    id: G4u1Bh6asAAzrD6
+    label: Band
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984879105540813293
+
+- postximage:
+    post: 1984879105540813293
+    id: G4u1Bh8aAAAMYUe
+    label: Backstage
+    info: Cocoro
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984879105540813293
+
+- postximage:
+    post: 1984879105540813293
+    id: G4u1Bh9bQAEuppo
+    label: On stage
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984879105540813293
+
+- postximage:
+    post: 1984882882473836774
+    id: G4u4deFaYAAD-6f
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984882882473836774
+
+- postximage:
+    post: 1984882882473836774
+    id: G4u4deIbcAAKmYh
+    label: Backstage
+    info: Kanade
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984882882473836774
+
+- postximage:
+    post: 1984885071434956975
+    id: G4u6c0sbQAI0SIh
+    label: On stage
+    info: Natsu
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984885071434956975
+
+- postximage:
+    post: 1984885071434956975
+    id: G4u6c0ubQAA70De
+    label: Band
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984885071434956975
+
+- postximage:
+    post: 1984885753453891858
+    id: G4u7EkaaIAAAv6w
+    label: On stage
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984885753453891858
+
+- postximage:
+    post: 1984885753453891858
+    id: G4u7EkdbQAMCBbo
+    label: Backstage
+    info: Hika
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984885753453891858
+
+- postximage:
+    post: 1984953943756259480
+    id: G4v5FlVasAAjuUD
+    label: Backstage
+    info: Straight Angeli, NEK!
+    published-date: 2025-11-03
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1984953943756259480
+
+- postximage:
+    post: 1985183804479377444
+    id: G4zKJFebkAANgd5
+    label: Backstage
+    info: Straight Angeli, NEK!
+    published-date: 2025-11-03
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1985183804479377444
+
+- postximage:
+    post: 1985191533449285818
+    id: G4zQaaka4AA_6Ep
+    label: On stage
+    published-date: 2025-11-03
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1985191533449285818
+
+- postximage:
+    post: 1985199684454125732
+    id: G4zYlt5awAACzaJ
+    label: Backstage
+    info: KAWAII LAB. MATES, NEK!
+    published-date: 2025-11-03
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1985199684454125732
+
+- postximage:
+    post: 1985218438021976367
+    id: G4zpojvbUAAZcnd
+    label: Backstage
+    info: KAWAII LAB. MATES, NEK!
+    published-date: 2025-11-03
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 1985218438021976367
+
+- postxvideo:
+    post: 1984959064703652298
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-11-02
+    cover: 1984958984563101696/img/tE-iMdojy6Yj-_1G.jpg
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    - song: endlessgame
+    part-of:
+      postx: 1984959064703652298
+
 - update:
     show:
       year: 2025
@@ -222,4 +986,17 @@
       postximage:
         post: 1967921415404789905
         image: G0uq9-QbcAMV7Hg
+
+- update:
+    show:
+      year: 2025
+      id: buzzrhythmlive
+    date: 2025-11-03
+    text:
+    - Update following the show
+    - Pictures and one video already
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
 

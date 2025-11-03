@@ -1,0 +1,63 @@
+- postx:
+    id: 1984817802424041686
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-11-02
+    text: |-
+      🔥情報解禁🔥
+      
+      2026/1/4(日)
+      「Girl's UP!!! vol.395-NEW YEAR SPECIAL TWO MAN SHOW!!-」
+      @ Shibuya eggman
+      
+      < ACT >
+      TRiDENT
+      NEK!
+      
+      チケット受付(先着)は明日11/3(月祝)12時から開始🎟️
+      
+      🔗https://eplus.jp/sf/detail/4423370001-P0030001
+      
+      #NEKI
+    translation: |-
+      🔥Information Unveiling🔥
+      
+      2026/1/4 (Sun) "Girl's UP!!! vol.395 -NEW YEAR SPECIAL TWO MAN SHOW!!-" @ Shibuya eggman
+      
+      < ACT > TRiDENT NEK!
+      
+      Ticket application (first-come, first-served) starts tomorrow, 11/3 (Mon, a public holiday) at 12:00 PM 🎟️
+      
+      🔗https://eplus.jp/sf/detail/4423370001-P0030001
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- postximage:
+    post: 1984817802424041686
+    id: G4t9RFVbQAUtDkn
+    label: Flyer
+    published-date: 2025-11-02
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 1984817802424041686
+
+- update:
+    show:
+      year: 2026
+      id: guvol395
+    date: 2025-11-03
+    text:
+    - New show announced, a special two-man "Girls Up!!!" with TRiDENT
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+

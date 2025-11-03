@@ -49,6 +49,9 @@ contentpage:
       id: 2ndtokyo1
   - tour: 2ndanniversarytour
   - show:
+      year: 2026
+      id: guvol395
+  - show:
       year: 2025
       id: shimonite
   - show:
@@ -357,6 +360,10 @@ contentpage:
   - song: moon
     left: false
     forward: 52
+  - show:
+      year: 2026
+      id: guvol395
+    short: true
   - show:
       year: 2025
       id: kogaderarock

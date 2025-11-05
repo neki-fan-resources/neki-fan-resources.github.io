@@ -51,6 +51,7 @@ object ElementToPage {
           Path("mainsitepage.css"),
           Path("maincontent.css"),
           Path("component", "chronology.css"),
+          Path("component", "content.css"),
           Path("component", "cover.css"),
           Path("component", "elementupdatessection.css"),
           Path("component", "footer.css"),

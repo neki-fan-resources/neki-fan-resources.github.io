@@ -8,6 +8,12 @@
         label: main
         sections:
         - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: In the interview, NEK! speaks about the activities of the band so far, the upcoming album "MEME", the band's relationship with the Shibuya eggman live house, and their upcoming national tour.
+        - basicsection:
             label: Covers
             subsections:
             - multimediasubsection:
@@ -29,6 +35,147 @@
                 - postximage:
                     post: 1984283088168591452
                     image: G4mW82ebIAEGRKk
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The interview was conducted by 窪田雄紀 (Yuki Kubota), the organizer of the "Girl's Up" shows at Shibuya eggman.
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+            - interviewsubsection:
+                label: Translation
+                lines:
+                - text: This time you're featured on the back cover of the eggman free magazine, and we're also doing this interview. Thank you for your time!
+                  isinterviewer: true
+                - text: Thank you for having us!
+                  participant: All
+                - text: Being featured in this free magazine has been one of my dreams, so I'm extremely happy!
+                  participant: Cocoro
+                - text: I'm so glad to hear you say that. Thank you. Looking over your band profile again, you've had an incredibly dense period of activity ever since your first live show, haven't you? Things like your abnormally fast-paced releases and one-man shows. Did you ever imagine this situation for yourselves?
+                  isinterviewer: true
+                - text: No, not at all (laughs).
+                  participant: Kanade
+                - text: I had this strong desire to form a band with people my own age, so when Hika reached out to me, I was just so grateful.
+                  participant: Cocoro
+                - text: So Hika-chan, you were the one who started it all.
+                  isinterviewer: true
+                - text: I was the one who reached out via DM and such to everyone I found online, but I started from a point where I didn't even know if I'd get any replies. So at that time, I couldn't imagine any of this at all. But then one reply came, and then another, and it looked like we could form a band. That's when we went into the studio for the first time; that was our start. I just had this feeling that the four of us could go all the way. Of course, I knew reality wouldn't be easy, but I had this unexplained confidence that we would definitely play at Zepp. Because that was the band's first goal.
+                  participant: Hika
+                - text: And to think that we actually played at Zepp... it's like a dream, isn't it? I mean, we certainly didn't think we'd be able to do it in just a year and a half when we started.
+                  participant: Natsu
+                - text: I don't think it's an overstatement to say that everything has gone incredibly well for you over the past year and a half. Does it feel that way?
+                  isinterviewer: true
+                - text: Of course, it's not that I don't feel a sense of accomplishment, but I just feel that I can't be satisfied with where we are now.
+                  participant: Cocoro
+                - text: That's right. We can't let ourselves be satisfied.
+                  participant: Natsu
+                - text: Yeah. I absolutely can't be.
+                  participant: Cocoro
+                - text: You're very driven, aren't you.
+                  isinterviewer: true
+                - text: I do think we're in a very good situation, but that is entirely thanks to the people around us. There's no way we would be in this position by our own strength alone.
+                  participant: Cocoro
+                - text: I think that's a very good attitude. So, "MEME" is being released in this situation where the band has a sense of accomplishment, yet you're still not satisfied and want to keep pushing forward. To put it bluntly, what kind of work is it?
+                  isinterviewer: true
+                - text: It feels like... a new beginning for NEK!, a new first step, perhaps.
+                  participant: Hika
+                - text: Like a new chapter?
+                  participant: Cocoro
+                - text: Huh? When did Chapter 1 end!? (laughs).
+                  participant: Natsu
+                - text: No, it's not like that (laughs). But it is an album where we've taken on a lot of challenges, including with our musical style, right?
+                  participant: Cocoro
+                - text: That's definitely true.
+                  participant: Kanade
+                - text: I definitely felt that. And the thing that made me feel it the most was the sheer number of new songs. I thought it was amazing that you barely included any of your previously released tracks. It felt like a very bold move.
+                  isinterviewer: true
+                - text: We just have this strong desire to meet—and even exceed—everyone's expectations.
+                  participant: Cocoro
+                - text: There are a lot of new songs on it that we haven't even played live yet.
+                  participant: Natsu
+                - text: With this many new songs, recording must have been tough, wasn't it?
+                  isinterviewer: true
+                - text: It was tough! (laughs).
+                  participant: All
+                - text: So you're all in agreement on that, then (laughs).
+                  isinterviewer: true
+                - text: I don't even want to think about it (laughs).
+                  participant: Kanade
+                - text: So you were really pushed to the limit. I'd like to ask each of you about a memorable moment from the recording sessions.
+                  isinterviewer: true
+                - text: On one particular day, I pushed myself so hard I was in a state of oxygen deprivation.
+                  participant: Hika
+                - text: That was actually my fault. My amp was in the same booth where Hika was recording her vocals, so the room temperature just skyrocketed.
+                  participant: Natsu
+                - text: It was so hot! (laughs).
+                  participant: Hika
+                - text: Every time she came out for a break, her face was bright red (laughs).
+                  participant: Natsu
+                - text: But I think because I pushed myself in that extreme situation, I was able to record some really good vocals!
+                  participant: Hika
+                - text: During the recording for "rip-off," I forgot to bring a lot of spare drumsticks. I was worried right from the start, and just as I feared, I ran out. There were no music shops nearby or anything, so I started to panic. I managed to get through it by borrowing some from the person who was helping us with the recording that day, but it really made me realize anew that I have to bring plenty of spares.
+                  participant: Cocoro
+                - text: For me, it was the first song, "Frog Flog." I actually haven't told anyone this, but I cried on the way home from that recording session. It was a song with a rhythm I really hadn't played much before, and I just got to a point where I felt like, "I'm useless." I managed to finish the recording safely in the end, but I just couldn't hold it in after... But when I heard the finished track, it sounded so cool that I felt redeemed (laughs).
+                  participant: Kanade
+                - text: For me, I poured all my energy into the guitar solos for each song. As a guitarist, that's my chance to shine, so I was really particular about them. I'd be happy if people paid special attention to that part.
+                  participant: Natsu
+                - text: So, after all that hard recording, the new work is finally complete. I'd like each of you to pick your favorite track and tell us its best points.
+                  isinterviewer: true
+                - text: I'll go with the third song, "biT bY biT." I mentioned the guitar solos earlier, but I especially love the solo in this song. It came out really well, so I'd be happy if people paid attention to that.
+                  participant: Natsu
+                - text: I was really torn between two songs... but I've decided! I'll pick the eighth track, "rip-off." I am a huge fan of slap bass, and this song contains the fastest slap bass in any NEK! song. It's a track that really gets you pumped up.
+                  participant: Kanade
+                - text: I chose the fifth song, "Tic Tac Toe." It has this really fast, driving two-beat feel that I love. There's this part in the second verse, in particular, where it's just vocals and drums, and the drums there are just incredible, so I want people to listen for that. And also the double-pedal work in the chorus. I'm sure it will be a huge hit at live shows, so I can't wait to play it live.
+                  participant: Cocoro
+                - text: I love all the songs so much, I'm really having trouble picking just one. For every song, we went through so much trial and error, changing the nuances as we recorded... but if I absolutely have to choose, I'll go with the second track, "GiMMiCK"!
+                  participant: Hika
+                - text: This song has a few phrases where I think you might not be able to catch the lyrics clearly on just one listen. That's intentional this time; I'm singing them in a more native-like, English-like way, so I'd like people to pay attention to that aspect. The vocal range also really suits me, and the instruments are all just insane. I mean, that's true for every song, but in this one especially, every part gets to be the star.
+                  participant: Hika
+                - text: "\"Every part gets to be the star\" is a great phrase. It's perfect for NEK!. I think the best way to experience NEK!'s appeal is, more than anything, at a live show. Your first national tour starts next February, doesn't it? I'm so glad you're starting at your home base, eggman. Thank you."
+                  isinterviewer: true
+                - text: No, thank you!
+                  participant: All
+                - text: It's a very important place for us, where we played our first-ever live show last March.
+                  participant: Hika
+                - text: My strap came off during that first show, but I honestly don't remember anything else about it (laughs).
+                  participant: Kanade
+                - text: I still remember that too (laughs).
+                  isinterviewer: true
+                - text: Our first live show being at eggman was a really big deal for me. I was always thinking, "Once I form a band, I will definitely play at eggman!" but then, unbelievably, we got to play our very first show there. It was the moment my dream came true.
+                  participant: Cocoro
+                - text: Even after our first show, we got to play there so many more times, and that became our foundation. I really feel that's what led to us being where we are today. Since this is the first band I've ever been in, I had, of course, never done things like playing a show with other bands. Getting to perform at "Girl's UP!!!" was so exciting. It has helped me grow every single time.
+                  participant: Hika
+                - text: It's just such a happy time. The little things during our downtime, like eating food we bought at the nearby convenience store on the steep dressing room stairs... and more than anything, the view from the stage... eggman is an inseparable part of my memories with this band. It's also, by far, the place we've played live the most.
+                  participant: Natsu
+                - text: I still have the performer's pass sticker from our first live show, of course. I've carefully saved all the ones from the other days, too.
+                  participant: Hika
+                - text: That makes me so happy. I'll do my best so we can continue to be that kind of place for you. Alright then, I'd like to hear about your enthusiasm for the upcoming tour from each of you.
+                  isinterviewer: true
+                - text: Since it's our first national tour, there are a lot of places we've never been to. I'm just so happy and incredibly excited that we'll get to create our live show together with the fans in each of those places. I want this to be a step toward bringing NEK!'s music to all of Japan. And finally, I'm absolutely determined to grow on this tour!
+                  participant: Cocoro
+                - text: They always say that bands grow when they're on tour. It might be an old-fashioned way of thinking that doesn't quite fit the current times, but that's something I absolutely believe is true.
+                  isinterviewer: true
+                - text: We've received so many comments over time from people outside the Tokyo-Nagoya-Osaka area, where we've played a lot, asking us to come and play. I'm just so excited that we're finally able to make that happen. Especially in places like Kyushu, which are hard for us to get to. I really want to connect with everyone who comes to see us at the show.
+                  participant: Natsu
+                - text: First of all, I just want to get through the tour healthily and energetically.
+                  participant: Kanade
+                - text: That's important (laughs).
+                  participant: Natsu
+                - text: If we don't, we can't deliver NEK!'s music! I'm sure there will be a lot of things to learn from, but I just want to enjoy it while showing everyone NEK! at our absolute best in that moment.
+                  participant: Kanade
+                - text: Let's enjoy it!
+                  participant: Cocoro
+                - text: We want to be able to keep doing national tours like this, so we will absolutely make this tour—the very first step toward that goal—a success.
+                  participant: Hika
+                - text: So you're already looking even further ahead.
+                  isinterviewer: true
+                - text: Right now, our closest goal as a band is to conquer all the Zepp venues, so I think this tour will be an important step toward that. And our biggest goal is to become the fastest girl band in history to play at the Budokan. We want to keep accelerating NEK! more and more from here on out, so we'd be thrilled if you continue to support us!
+                  participant: Hika
     part-of:
       media:
         year: 2025

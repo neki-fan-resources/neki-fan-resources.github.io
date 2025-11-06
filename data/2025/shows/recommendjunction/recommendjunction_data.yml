@@ -1,3 +1,90 @@
+- display:
+    show:
+      year: 2025
+      id: recommendjunction
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: 'The show is described by its acronym:'
+                - line:
+                  - text: '[RE・CO・MENS] = Rebirth: Collaboration: Momentum'
+                - line:
+                  - text: ・Rebirth (Breaking out of the shell of the past and reinventing the music scene)
+                - line:
+                  - text: ・Collaboration (Collaboration between recommenders and artists)
+                - line:
+                  - text: ・Momentum (A new generation of artists with momentum)
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1986438947548070290
+                    image: G5E_nUlaUAALd1Y
+                - postximage:
+                    post: 1986446471756128526
+                    image: G5FGhR9bIAAqh9L
+                - postximage:
+                    post: 1986450399201820950
+                    image: G5FKGbtb0AAQlP2
+                - postximage:
+                    post: 1986463217003249752
+                    image: G5FVxFXbIAAVzuu
+                - postximage:
+                    post: 1986450399201820950
+                    image: G5FKGbtakAAVn2_
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1986446471756128526
+                    image: G5FGhSCakAA1KRC
+                - postximage:
+                    post: 1986438947548070290
+                    image: G5E_nUdaYAAceML
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1986431090874306723
+                    image: G5E4XdyaEAAaCja
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1986431090874306723
+                    image: G5E4XdZbIAEtzpg
+    - basicblock:
+        id: tvshow
+        label: tv show
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  postximage:
+                    post: 1971969583360999680
+                    image: G13X3u8aUAAgOGP
+                lines:
+                - line:
+                  - text: '&nbsp;'
+                - line:
+                  - text: The production company behind the concert had a show on TV Asahi presenting its activity a couple of weeks before the concert. A segment of the show was about the RECOMMEND JUNCTION concert.
+                - line:
+                  - text: Kubuto-san, the organizer of the "Girl's Up!!!" shows at Shibuya eggman, spoke about his recommendation of NEK!.
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
 - newsitem:
     id: upcoming
     show:
@@ -321,6 +408,18 @@
         id: recommendjunction
     part-of:
       postx: 1986463217003249752
+
+- update:
+    show:
+      year: 2025
+      id: recommendjunction
+    date: 2025-11-06
+    text:
+    - Initial set of pictures from the show
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
 
 - webimage:
     domain: ex-entertainment.co.jp

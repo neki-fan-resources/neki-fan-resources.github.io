@@ -1,0 +1,197 @@
+- display:
+    song: colorchord
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Teasers
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: z0vyRccVHk0
+    - lyricsblock: '-'
+    part-of:
+      song: colorchord
+
+- lyrics:
+    id: main
+    song: colorchord
+    part-of:
+      song: colorchord
+    status:
+      code: warning
+      description: partial lyrics extracted from YouTube short video
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from YouTube Short )
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from YouTube Short
+        url: 'https://www.youtube.com/shorts/z0vyRccVHk0'
+    - id: ro
+      name: rōmaji
+      no-translation: true
+    - id: ww
+      name: word by word translation
+      details: (using jisho.org)
+      base-url: 'https://jisho.org/search/'
+      url-text: J
+    sections:
+    - lines:
+      - ol:
+        - 前髪
+        - 浮いちゃった
+        - まんま
+        ro:
+        - maegami
+        - uichatta
+        - manma
+        ww:
+        - w: bangs (hair)
+          d: 前髪
+        - w: floating up
+          d: 浮いちゃった
+        - w: (unchanged)
+          d: まんま
+        - d: 前髪浮いちゃったまんま
+      - ol:
+        - もう
+        - どうでもいい
+        - や
+        ro:
+        - mō
+        - dō demo ii
+        - ya
+        ww:
+        - w: anymore
+          d: もう
+        - w: I don't care
+          d: どうでもいい
+        - w: (emphasys)
+          d: や
+        - d: もうどうでもいいや
+      - ol:
+        - モノクローム
+        - な
+        - 世界
+        - に
+        ro:
+        - monokurōmu
+        - na
+        - sekai
+        - ni
+        ww:
+        - w: monochrome
+          d: モノクローム
+        - w: ''
+          d: な
+        - w: world
+          d: 世界
+        - w: in
+          d: に
+        - d: モノクロームな世界に
+      - ol:
+        - 絵の具
+        - を
+        - ぶち
+        - 撒ける
+        - ように
+        ro:
+        - enogu
+        - o
+        - buchi
+        - makeru
+        - yōni
+        ww:
+        - w: colors
+          d: 絵の具
+        - w: ''
+          d: を
+        - w: (with force)
+          d: ぶち
+        - w: splatter
+          d: 撒ける
+        - w: as if
+          d: ように
+        - d: 絵の具をぶち撒けるように
+      - ol:
+        - (hey hey hey)
+      - ol:
+        - Cuz I wanna jump over the moon
+      - ol:
+        - いま
+        - 自由な
+        - イメージ
+        - で
+        ro:
+        - ima
+        - jiyūna
+        - imēji
+        - de
+        ww:
+        - w: now
+          d: いま
+        - w: free
+          d: 自由な
+        - w: image
+          d: イメージ
+        - w: with
+          d: で
+        - d: いま自由なイメージで
+      - ol:
+        - 飛び越えて
+        - 行きたい
+        - んだ
+        ro:
+        - tobinieru
+        - ikitai
+        - nda
+        ww:
+        - w: to jump over
+          d: 飛び越えて
+        - w: want to go
+          d: 行きたい
+        - w: (emphasys)
+          d: んだ
+        - d: 飛び越えて行きたいんだ
+      - ol:
+        - (yes yes yes)
+      - ol:
+        - 筋書き
+        - のない
+        - in my life
+        ro:
+        - sujigaki
+        - nonai
+        - ''
+        ww:
+        - w: script
+          d: 筋書き
+        - w: without
+          d: のない
+        - ''
+        - d: 筋書きのない
+
+- update:
+    song: colorchord
+    date: 2025-11-06
+    text:
+    - Added partial lyrics from the short video
+    part-of:
+      song: colorchord
+
+- youtubeshort:
+    id: z0vyRccVHk0
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-11-04
+    context:
+    - song: colorchord
+    part-of:
+      song: colorchord
+

@@ -1656,6 +1656,16 @@
       song: maze
 
 - youtubeshort:
+    id: FpmqW_rheI4
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-11-05
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- youtubeshort:
     id: JL79sxFFbAs
     label: Music Video
     info: behind the scenes, taking pictures of Hika

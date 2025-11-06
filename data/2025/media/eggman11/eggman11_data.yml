@@ -304,3 +304,27 @@
     part-of:
       postx: 1984283088168591452
 
+- update:
+    media:
+      year: 2025
+      id: eggman11
+    date: 2025-11-03
+    text:
+    - Added with some pictures
+    part-of:
+      media:
+        year: 2025
+        id: eggman11
+
+- update:
+    media:
+      year: 2025
+      id: eggman11
+    date: 2025-11-05
+    text:
+    - Added translation
+    part-of:
+      media:
+        year: 2025
+        id: eggman11
+

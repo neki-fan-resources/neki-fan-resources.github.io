@@ -60,8 +60,23 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
+                    post: 1986454059474428185
+                    image: G5FNbpkaEAEboOK
+                - postximage:
                     post: 1986431090874306723
                     image: G5E4XdZbIAEtzpg
+                - postximage:
+                    post: 1986661560945942557
+                    image: G5IKJwTbIAITGul
+                - postximage:
+                    post: 1986661560945942557
+                    image: G5IKJwPbIAMSQ4Q
+                - postximage:
+                    post: 1986661560945942557
+                    image: G5IKJwPbIAIx76s
+                - postximage:
+                    post: 1986661560945942557
+                    image: G5IKJwJbIAEsnpf
     - basicblock:
         id: tvshow
         label: tv show
@@ -244,6 +259,48 @@
         id: recommendjunction
 
 - postx:
+    id: 1986454059474428185
+    account: recommed_
+    label: Thank you
+    published-date: 2025-11-06
+    text: |-
+      【本日ご来場の皆様】
+      
+      各アーティストの魅力が詰まったLIVEを
+      お楽しみ頂けましたでしょうか🎸
+      
+      本日の感想や皆様のリコメンズアーティストを、#リコメンズ で教えてください🙇
+      
+      ご来場頂き、ありがとうございました。
+      
+      #大渕野々花
+      #デラックスデラックス
+      #チョーキューメイ
+      #NEKI
+      #ロイヤルギャル
+    translation: |-
+      【To everyone who attended today】
+      
+      We hope you enjoyed the LIVE,
+      which was packed with the charm of each artist 🎸
+      
+      Please tell us your thoughts on today and your recommended artists using #Recommends 🙇
+      
+      Thank you for attending.
+      
+      #ObuchiNonoka
+      #DELUXExDELUXE
+      #ChoQMay
+      #NEKI
+      #RoyalGirl
+    image:
+    - G5FNbpkaEAEboOK
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- postx:
     id: 1986463217003249752
     account: 46_hikaa
     label: Thank you
@@ -282,6 +339,62 @@
     - postximage:
         post: 1986431090874306723
         image: G5E4XdyaEAAaCja
+
+- postx:
+    id: 1986661560945942557
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-07
+    text: |-
+      "リコメンズジャンクション"
+      EX THEATER ROPPONGI
+      
+      #デラックスデラックス さん
+      @deradera0513
+       
+      
+      #チョーキューメイ さん
+      @Cho_Q_May
+       
+      
+      #ロイヤルギャル さん
+      @royalgal_JP
+       
+      
+      #大渕野々花 さん
+      @tiny_WildFlor
+       
+      
+      ご一緒させていただきありがとうございました🫶✨
+      
+      #NEKI #リコメンズ
+    translation: |-
+      "Recommends Junction"
+      EX THEATER ROPPONGI
+      
+      #DELUXExDELUXE
+      @deradera0513
+      
+      
+      #ChoQMay
+      @Cho_Q_May
+      
+      
+      #RoyalGirl
+      @royalgal_JP
+      
+      
+      #ObuchiNonoka
+      @tiny_WildFlor
+      
+      
+      Thank you for performing with us 🫶✨
+      
+      #NEKI #Recommends
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
 
 - postximage:
     post: 1986431090874306723
@@ -397,6 +510,19 @@
       postx: 1986450399201820950
 
 - postximage:
+    post: 1986454059474428185
+    id: G5FNbpkaEAEboOK
+    label: All the bands and MC
+    info: デラックスデラックス, チョーキューメイ, ロイヤルギャル, NEK!, 大渕野々花
+    published-date: 2025-11-06
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postx: 1986454059474428185
+
+- postximage:
     post: 1986463217003249752
     id: G5FVxFXbIAAVzuu
     label: On stage
@@ -409,6 +535,58 @@
     part-of:
       postx: 1986463217003249752
 
+- postximage:
+    post: 1986661560945942557
+    id: G5IKJwJbIAEsnpf
+    label: Bands
+    info: ロイヤルギャル, NEK!
+    published-date: 2025-11-07
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postx: 1986661560945942557
+
+- postximage:
+    post: 1986661560945942557
+    id: G5IKJwPbIAIx76s
+    label: Bands
+    info: チョーキューメイ, NEK!
+    published-date: 2025-11-07
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postx: 1986661560945942557
+
+- postximage:
+    post: 1986661560945942557
+    id: G5IKJwPbIAMSQ4Q
+    label: Bands
+    info: デラックスデラックス, NEK!
+    published-date: 2025-11-07
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postx: 1986661560945942557
+
+- postximage:
+    post: 1986661560945942557
+    id: G5IKJwTbIAITGul
+    label: Band and MC
+    info: 大渕野々花, NEK!
+    published-date: 2025-11-07
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postx: 1986661560945942557
+
 - update:
     show:
       year: 2025
@@ -416,6 +594,18 @@
     date: 2025-11-06
     text:
     - Initial set of pictures from the show
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- update:
+    show:
+      year: 2025
+      id: recommendjunction
+    date: 2025-11-07
+    text:
+    - Added pictures with the other band and the MC
     part-of:
       show:
         year: 2025

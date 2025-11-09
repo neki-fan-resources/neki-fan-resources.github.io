@@ -47,6 +47,9 @@
                 - postinstagramvideo:
                     post: C4QGFf5xRlI
                     video: 07
+        - basicsection:
+            label: At the venue
+            subsections:
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -76,6 +79,27 @@
                 - postxvideo:
                     post: 1765774728294461468
                     video: 02
+    - basicblock:
+        id: report
+        label: Cocoro's report
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: After most concerts, Cocoro publishes her thoughts and impressions of the show.
+                - line:
+                  - text: Here is the translation of Cocoro's message for "Girl's UP!!! vol.349."
+            - textsubsection:
+                label: Translation
+                lines:
+                - line:
+                  - text: We performed at Girl's UP!!! Vol.349!!
+                - line:
+                  - text: To be able to have NEK!'s debut show at a venue I've dreamed of since junior high school was truly moving. Thank you so much to everyone who came 🥰
+                - line:
+                  - text: Going to have a blast at LUPINUS ROCK FESTIVAL 2024 tomorrow, too!!
     - basicblock:
         id: multimedia
         label: image / video
@@ -463,6 +487,18 @@
     date: 2025-10-23
     text:
     - More pictures added. Customized the presentation.
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+
+- update:
+    show:
+      year: 2024
+      id: guvol349
+    date: 2025-11-08
+    text:
+    - Added translation of "Cocoro's report"
     part-of:
       show:
         year: 2024

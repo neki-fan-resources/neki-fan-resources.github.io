@@ -1,0 +1,60 @@
+- display:
+    media:
+      year: 2025
+      id: fm802eveningtap
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The previous interview was recorded when the band was in Osaka for a concert and broadcast a month later.
+                - line:
+                  - text: This time Hika and Natsu will be live in the studio.
+    part-of:
+      media:
+        year: 2025
+        id: fm802eveningtap
+
+- update:
+    media:
+      year: 2025
+      id: fm802eveningtap
+    date: 2025-11-10
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fm802eveningtap
+
+- webimage:
+    domain: funky802.com
+    page: et
+    id: logo
+    label: Logo
+    published-date: 2025-11-10
+    url: 'https://funky802.com/et/shared/img/ogimg.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: funky802.com
+        id: et
+
+- webpage:
+    domain: funky802.com
+    id: et
+    label: Evening Tap
+    published-date: 2025-11-10
+    url: 'https://funky802.com/et/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2025
+        id: fm802eveningtap
+

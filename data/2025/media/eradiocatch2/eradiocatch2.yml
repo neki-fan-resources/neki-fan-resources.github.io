@@ -1,0 +1,25 @@
+mediaaudio:
+  year: 2025
+  id: eradiocatch2
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: eradiocatch
+      id: cover
+  radio: e-radio
+  show: キャッチ！ (Catch!)
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-11-17
+  host: 久世サトシ（Satoshi Kuze）
+  webpage: 'https://www.e-radio.co.jp/personality/%e4%b9%85%e4%b8%96%e3%82%b5%e3%83%88%e3%82%b7/'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - Hika and Natsu will appear on the e-radio show "キャッチ！" (Catch!).
+  - This will be Hika and Natsu's second appearance on this show. The previous one was on June 25th.

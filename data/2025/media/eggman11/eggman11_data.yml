@@ -255,6 +255,22 @@
         year: 2025
         id: eggman11
 
+- postx:
+    id: 1986797834231071231
+    account: cure_bass_baka
+    label: I read it
+    published-date: 2025-11-07
+    text: |-
+      読んだ🥹💙
+    translation: |-
+      I read it 🥹💙
+    image:
+    - G5KGGLSasAAjMSI
+    part-of:
+      media:
+        year: 2025
+        id: eggman11
+
 - postximage:
     post: 1984215197004042333
     id: G4lZM-Ub0AErRPS
@@ -303,6 +319,19 @@
         id: eggman11
     part-of:
       postx: 1984283088168591452
+
+- postximage:
+    post: 1986797834231071231
+    id: G5KGGLSasAAjMSI
+    label: In hand
+    info: Kanade
+    published-date: 2025-11-10
+    context:
+    - media:
+        year: 2025
+        id: eggman11
+    part-of:
+      postx: 1986797834231071231
 
 - update:
     media:

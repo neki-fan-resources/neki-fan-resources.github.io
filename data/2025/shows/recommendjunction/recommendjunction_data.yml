@@ -26,6 +26,11 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 1987453821082304748
+                    video: 01
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1986438947548070290
                     image: G5E_nUlaUAALd1Y
@@ -396,6 +401,28 @@
         year: 2025
         id: recommendjunction
 
+- postx:
+    id: 1987453821082304748
+    account: coco_102
+    label: Gimmick, Cocoro-cam
+    published-date: 2025-11-09
+    text: |-
+      新曲GiMMiCKをちょい見せ🫢💥
+      
+      サビの前半はこんな感じ！疾走感マシマシ！！
+      
+      #NEKI #ネキミーム
+    translation: |-
+      A sneak peek of the new song GiMMiCK 🫢💥
+      
+      The first half of the chorus is like this! Increased feeling of speed!!
+      
+      #NEKI #NekiMeme
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
 - postximage:
     post: 1986431090874306723
     id: G5E4XdZbIAEtzpg
@@ -587,6 +614,21 @@
     part-of:
       postx: 1986661560945942557
 
+- postxvideo:
+    post: 1987453821082304748
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-09
+    cover: 1987453680740950016/img/9L6DGU2Qewuy8yNs.jpg
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    - song: gimmick
+    part-of:
+      postx: 1987453821082304748
+
 - update:
     show:
       year: 2025
@@ -636,6 +678,21 @@
     url: 'https://ex-entertainment.co.jp/events/0012/index.html'
     image:
     - IM9safD4DY
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- youtubeshort:
+    id: 5KJ2jh2-2_Q
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-08
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    - song: getover
     part-of:
       show:
         year: 2025

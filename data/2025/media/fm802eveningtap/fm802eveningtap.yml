@@ -1,0 +1,24 @@
+mediaaudio:
+  year: 2025
+  id: fm802eveningtap
+  cover-image:
+    webimage:
+      domain: funky802.com
+      page: et
+      id: logo
+  radio: FM802
+  show: EVENING TAP
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-11-17
+  host: Asai Hiroaki
+  webpage: 'https://funky802.com/et/'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - Hika and Natsu will appear on the FM802 show "EVENING TAP".
+  - It will be the second appearance for NEK! on FM820; an interview with the whole band was broadcast on April 10th.

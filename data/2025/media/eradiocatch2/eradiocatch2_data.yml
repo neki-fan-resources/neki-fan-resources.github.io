@@ -1,0 +1,32 @@
+- display:
+    media:
+      year: 2025
+      id: eradiocatch2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: Hika and Natsu will be in the studio for the interview. The previous time, they were remote from Tokyo.
+    part-of:
+      media:
+        year: 2025
+        id: eradiocatch2
+
+- update:
+    media:
+      year: 2025
+      id: eradiocatch2
+    date: 2025-11-10
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: eradiocatch2
+

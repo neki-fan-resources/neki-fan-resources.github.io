@@ -62,9 +62,16 @@ contentpage:
       id: 1stalbummeme
   - album: meme
   - event: iwanttostartaband
+  - song: gimmick
   - show:
       year: 2025
       id: thetheoryofscience
+  - media:
+      year: 2025
+      id: fm802eveningtap
+  - media:
+      year: 2025
+      id: eradiocatch2
   - show:
       year: 2025
       id: minamiwheel
@@ -301,11 +308,6 @@ contentpage:
   - event: formationneki
   metadata:
   - show:
-      year: 2024
-      id: girlsgirlsgirls
-    forward: -7
-    short: true
-  - show:
       year: 2025
       id: tricktakingtourosaka
     forward: -19
@@ -368,6 +370,14 @@ contentpage:
       year: 2025
       id: kogaderarock
     short: true
+  - song: gimmick
+    left: false
+    forward: -7
+  - show:
+      year: 2024
+      id: girlsgirlsgirls
+    forward: -7
+    short: true
   - show:
       year: 2025
       id: 1stalbummeme
@@ -385,6 +395,7 @@ contentpage:
   - show:
       year: 2025
       id: ignition
+    forward: -3
     short: true
   - song: blink
     left: false
@@ -396,6 +407,11 @@ contentpage:
   - show:
       year: 2025
       id: internetbabies
+    short: true
+  - media:
+      year: 2025
+      id: eradiocatch2
+    forward: -6
     short: true
   - show:
       year: 2024
@@ -449,6 +465,7 @@ contentpage:
   - show:
       year: 2025
       id: thetheoryofscience
+    forward: 2
     short: true
   - song: getover
     left: false
@@ -641,6 +658,11 @@ contentpage:
   - show:
       year: 2024
       id: guvol350
+    short: true
+  - media:
+      year: 2025
+      id: fm802eveningtap
+    forward: -1
     short: true
   - show:
       year: 2024

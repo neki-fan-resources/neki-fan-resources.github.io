@@ -6,6 +6,14 @@
         label: main
         sections:
         - basicsection:
+            label: Teasers
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1987453821082304748
+                    video: 01
+        - basicsection:
             label: Possible behind the scenes pictures from an upcoming music video
             subsections:
             - multimediasubsection:
@@ -202,6 +210,14 @@
     date: 2025-11-03
     text:
     - First performance at the "BUZZ RHYTHM LIVE" show, and release date announced
+    part-of:
+      song: gimmick
+
+- update:
+    song: gimmick
+    date: 2025-11-10
+    text:
+    - Short live video from Cocoro
     part-of:
       song: gimmick
 

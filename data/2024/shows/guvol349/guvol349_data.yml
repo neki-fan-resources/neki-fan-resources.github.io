@@ -90,7 +90,11 @@
                 - line:
                   - text: After most concerts, Cocoro publishes her thoughts and impressions of the show.
                 - line:
-                  - text: Here is the translation of Cocoro's message for "Girl's UP!!! vol.349."
+                  - text: "Here is the translation of Cocoro's "
+                  - webitem:
+                      postinstagram: C4QGFf5xRlI
+                      text: message
+                  - text: " for the \"Girl's UP!!! vol.349\" show."
             - textsubsection:
                 label: Translation
                 lines:

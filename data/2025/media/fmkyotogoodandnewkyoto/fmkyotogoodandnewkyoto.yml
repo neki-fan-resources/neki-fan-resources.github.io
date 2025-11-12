@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2025
+  id: fmkyotogoodandnewkyoto
+  cover-image:
+    webimage:
+      domain: fm-kyoto.jp
+      page: good_and_new_kyoto
+      id: logo
+  radio: α-STATION
+  show: Good & New Kyoto
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-11-17
+  host: 平野聡 (Satoshi Hirano)
+  program: 'https://fm-kyoto.jp/blog/good_and_new_kyoto/'
+  part-of:
+    group:
+      id: media
+      group: 2025

@@ -1,0 +1,124 @@
+- postx:
+    id: 1963195271380439131
+    account: CLUB251official
+    label: Announcement
+    published-date: 2025-09-03
+    text: |-
+      [ライブ情報]
+      11/13(木)
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      -act-
+      Bray me
+      NEK!
+      op 19:00 / st 19:30
+      adv ¥4,000+1D
+      
+      ▼ご予約　9/7(土)12:00〜
+      https://t.livepocket.jp/e/251251113
+    image:
+    - GzqEJ3Ja0AM3eBA
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+
+- postx:
+    id: 1988530477892792731
+    account: nekiband_jp
+    label: Tomorrow
+    published-date: 2025-11-12
+    text: |-
+      🔥明日開催🔥
+      
+      11/13(木)
+      「251 presents Ignition!!! ～ Special Two Man Show ～」
+      @ 下北沢CLUB251
+      
+      ＜ ACT ＞
+      Bray me
+      NEK!
+      
+      1年振りのBray meさんとのツーマン❤️‍🔥
+      よろしくお願いします💥
+      
+      ▼チケット受付は本日23:59まで🎫
+      https://t.livepocket.jp/e/251251113
+      
+      #NEKI
+    translation: |-
+      🔥Happening Tomorrow🔥
+      
+      11/13 (Thu)
+      "251 presents Ignition!!! ～ Special Two Man Show ～"
+      @ Shimokitazawa CLUB 251
+      
+      ＜ ACT ＞
+      Bray me
+      NEK!
+      
+      Our first two-man show with Bray me in a year❤️‍🔥
+      We look forward to it💥
+      
+      ▼Ticket sales close today at 23:59🎫
+      https://t.livepocket.jp/e/251251113
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+    reference:
+    - postximage:
+        post: 1963195271380439131
+        image: GzqEJ3Ja0AM3eBA
+
+- postx:
+    id: 1988550113870897593
+    account: coco_102
+    label: Tomorrow
+    published-date: 2025-11-12
+    text: |-
+      明日はこちら！
+      Bray me姉さんとの約１年ぶりのツーマンです✌🏻🤍
+      前売りは本日の23:59まで！まだ間に合うよー！
+      
+      明日限定のオリカクもめーっちゃ楽しみ🍹🌟
+      NEK!のMAZEドリ!!!!はノンアルコールなので、運転される方やお酒が苦手な方、20歳以下の方でも楽しめます♡私はどっちも楽しみます♡
+    translation: |-
+      Tomorrow is this one!
+      Our first two-man show with Bray me sisters in about a year✌🏻🤍
+      Advance tickets are available until 23:59 tonight! You can still make it!
+      
+      I'm also super excited for the limited-time original cocktail tomorrow🍹🌟
+      NEK!'s MAZE Drink!!!! is non-alcoholic, so those driving, those who don't like alcohol, and those under 20 can all enjoy it too♡ I'm going to enjoy both♡
+    image:
+    - G5i_yaGa8AA8SOI
+    part-of:
+      postx: 1988530477892792731
+
+- postximage:
+    post: 1963195271380439131
+    id: GzqEJ3Ja0AM3eBA
+    label: Flyer
+    published-date: 2025-09-03
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1963195271380439131
+
+- postximage:
+    post: 1988550113870897593
+    id: G5i_yaGa8AA8SOI
+    label: NEK!'s MAZE Drink
+    published-date: 2025-11-12
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1988550113870897593
+

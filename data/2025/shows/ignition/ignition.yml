@@ -10,4 +10,6 @@ show:
   date: 2025-11-13
   venue: CLUB251, Tokyo
   part-of:
-    group: dedup1
+    group:
+      id: shows
+      group: 2025

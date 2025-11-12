@@ -98,6 +98,18 @@
                   - text: The production company behind the concert had a show on TV Asahi presenting its activity a couple of weeks before the concert. A segment of the show was about the RECOMMEND JUNCTION concert.
                 - line:
                   - text: Kubuto-san, the organizer of the "Girl's Up!!!" shows at Shibuya eggman, spoke about his recommendation of NEK!.
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: iOHZ6WsqMoQ
+                - youtubeshort: KbsoiZszT6M
+                - youtubeshort: 5KJ2jh2-2_Q
     part-of:
       show:
         year: 2025
@@ -691,6 +703,21 @@
         year: 2025
         id: recommendjunction
     - song: getover
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- youtubeshort:
+    id: iOHZ6WsqMoQ
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-12
+    context:
+    - song: maze
+    - show:
+        year: 2025
+        id: recommendjunction
     part-of:
       show:
         year: 2025

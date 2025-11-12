@@ -10,6 +10,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: KbsoiZszT6M
                 - youtubeshort: z0vyRccVHk0
     - lyricsblock: '-'
     part-of:
@@ -182,6 +183,27 @@
     date: 2025-11-06
     text:
     - Added partial lyrics from the short video
+    part-of:
+      song: colorchord
+
+- update:
+    song: colorchord
+    date: 2025-11-12
+    text:
+    - New teaser
+    part-of:
+      song: colorchord
+
+- youtubeshort:
+    id: KbsoiZszT6M
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-11
+    context:
+    - song: colorchord
+    - show:
+        year: 2025
+        id: recommendjunction
     part-of:
       song: colorchord
 

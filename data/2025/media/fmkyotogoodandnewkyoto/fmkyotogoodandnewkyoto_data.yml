@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2025
+      id: fmkyotogoodandnewkyoto
+    date: 2025-11-12
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fmkyotogoodandnewkyoto
+
+- webimage:
+    domain: fm-kyoto.jp
+    page: good_and_new_kyoto
+    id: logo
+    label: Logo
+    published-date: 2025-11-12
+    url: 'https://ehlktlgh.user.webaccel.jp/wp-content/themes/fm-kyoto/images/programs/good_and_new_kyoto_thum.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fm-kyoto.jp
+        id: good_and_new_kyoto
+
+- webpage:
+    domain: fm-kyoto.jp
+    id: good_and_new_kyoto
+    label: Good & New Kyoto blog
+    published-date: 2025-11-12
+    url: 'https://fm-kyoto.jp/blog/good_and_new_kyoto/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2025
+        id: fmkyotogoodandnewkyoto
+

@@ -10,6 +10,10 @@ show:
   venue: Shibuya eggman, Tokyo
   event-page: 'http://eggman.jp/schedule/girls-up-vol-350/'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shibuya-eggman-tokyo-japan-3561daf'
+  part-of:
+    group:
+      id: shows
+      group: 2024
   multimedia:
     main:
       youtubeshort: 6W-P3YBkybQ

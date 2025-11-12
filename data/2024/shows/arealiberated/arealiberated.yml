@@ -9,3 +9,7 @@ show:
   date: 2024-04-05
   venue: SHIBUYA THE GAME, Tokyo
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/the-game-tokyo-japan-3561dab'
+  part-of:
+    group:
+      id: shows
+      group: 2024

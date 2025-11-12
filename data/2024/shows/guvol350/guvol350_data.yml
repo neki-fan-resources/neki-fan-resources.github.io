@@ -1,0 +1,197 @@
+- postx:
+    id: 1777586723876147363
+    account: nekiband_jp
+    label: Today
+    published-date: 2024-04-09
+    text: |-
+      本日4/9(火)
+      「Girl's UP!!! vol.350」
+      @ Shibuya eggman
+      
+      出演させていただきます！
+      お待ちしております🔥
+      
+      https://tiget.net/events/305536
+      
+      #NEKI
+    translation: |-
+      Today, 4/9 (Tue)
+      "Girl's UP!!! vol.350"
+      @ Shibuya eggman
+      
+      We will be performing!
+      We are waiting for you 🔥
+      
+      https://tiget.net/events/305536
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2024
+        id: guvol350
+
+- postx:
+    id: 1777594109558952005
+    account: shibuya_eggman
+    label: Today
+    published-date: 2024-04-09
+    text: |-
+      🐈本日🐈
+      
+      Girl's UP!!! vol.350
+      
+      萠珈
+      はちみつコーヒー座 
+      EMANON
+      NEK!
+      日乃まそら
+      NANAO
+      
+      OPEN 18:00
+      START 18:30
+      DOOR ￥3,000-(+1D)  
+      
+      ご来場お待ちしております！
+    translation: |-
+      🐈 Today 🐈
+      
+      Girl's UP!!! vol.350
+      
+      Moka
+      Hachimitsu Coffeeza
+      EMANON
+      NEK!
+      Hino Masora
+      NANAO
+      
+      OPEN 18:00
+      START 18:30
+      DOOR ￥3,000-(+1D)  
+      
+      We are looking forward to your visit!
+    image:
+    - GKtHu_waEAA2ryE
+    part-of:
+      show:
+        year: 2024
+        id: guvol350
+
+- postx:
+    id: 1777609719974187465
+    account: cure_bass_baka
+    label: Today
+    published-date: 2024-04-09
+    text: |-
+      18時開場待ってまーす！！
+    translation: |-
+      Doors open at 18:00, we'll be waitingー!!
+    image:
+    - GKtWnW3aIAAmvRc
+    part-of:
+      postx: 1777586723876147363
+
+- postx:
+    id: 1777695998347010219
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-04-09
+    text: |-
+      「Girl's UP!!! vol.350」
+      @ Shibuya eggman
+      
+      ありがとうございました❤️‍🔥
+      
+      #NEKI
+    translation: |-
+      "Girl's UP!!! vol.350"
+      @ Shibuya eggman
+      
+      Thank you very much ❤️‍🔥
+      
+      #NEKI
+    image:
+    - GKulFQXasAAGnVf
+    - GKulFQPaQAA_vQf
+    - GKulFQVbkAEr1t-
+    part-of:
+      show:
+        year: 2024
+        id: guvol350
+
+- postximage:
+    post: 1777594109558952005
+    id: GKtHu_waEAA2ryE
+    label: sidewalk board
+    published-date: 2024-04-09
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postx: 1777594109558952005
+
+- postximage:
+    post: 1777609719974187465
+    id: GKtWnW3aIAAmvRc
+    label: On stage
+    info: Kanade's bass
+    published-date: 2024-04-09
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    todo: bass name
+    part-of:
+      postx: 1777609719974187465
+
+- postximage:
+    post: 1777695998347010219
+    id: GKulFQPaQAA_vQf
+    label: On stage
+    published-date: 2024-04-09
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postx: 1777695998347010219
+
+- postximage:
+    post: 1777695998347010219
+    id: GKulFQVbkAEr1t-
+    label: Sidewalk board
+    published-date: 2024-04-09
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postx: 1777695998347010219
+
+- postximage:
+    post: 1777695998347010219
+    id: GKulFQXasAAGnVf
+    label: On stage
+    published-date: 2024-04-09
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postx: 1777695998347010219
+
+- youtubeshort:
+    id: 6W-P3YBkybQ
+    label: Live
+    published-date: 2024-04-20
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      show:
+        year: 2024
+        id: guvol350
+

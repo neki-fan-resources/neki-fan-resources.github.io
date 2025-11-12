@@ -5,12 +5,17 @@ show:
     postyoutubeimage:
       post: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP
       image: NXpzMQxJMTLI1qoKxdKmXJOE85qsJkwadWBeNxSf0JXhU-b-iq5da5iy6NXVk5ZpRdhvAdQR1qsAqA
-  fullname: 1ST ONE MAN LIVE
+  fullname: NEK! 1ST ONE MAN LIVE
+  shortname: 1ST ONE MAN LIVE
   date: 2024-07-20
   categories:
   - mainshowtour
   venue: 下北沢 Shelter
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shelter-tokyo-japan-43561f6f'
+  part-of:
+    group:
+      id: shows
+      group: 2024
   multimedia:
     video:
     - youtubeshort: EkRipluPvVg

@@ -1,0 +1,348 @@
+- postinstagram:
+    id: C5Z3flFR4W9
+    account: cocoro_drum
+    label: Report
+    published-date: 2024-04-06
+    text: |-
+      2024.04.05
+      
+      SHIBUYA THE GAME PRESENTS『Area Liberated』
+      
+      お越しいただいた皆様ありがとうございました！！
+      初めての箱で、初めましての出演者さんたちに囲まれてのワクワクドキドキの1日でした❤️‍🔥
+      課題もたっっっくさん見つかってやる気もたっっっくさん出たので、明日からまた全力で頑張っていきます！！
+      
+      次回は4/9(火)のGirl's UP!!! vol.350 @ Shibuya eggman
+      渾身の爆音を準備してお待ちしております😌🚿‪🎶‬
+      
+      #neki #nekiband #girlsband #girldrummer #femaledrummer #shibuyathegame #arealiberated
+    translation: |-
+      2024.04.05
+      
+      SHIBUYA THE GAME PRESENTS "Area Liberated"
+      
+      Thank you to everyone who came!!
+      It was an exciting and thrilling day, as it was our first time at this venue and we were surrounded by performers we were meeting for the first time ❤️‍🔥
+      We found a tonnnn of things to work on and got a tonnnn of motivation, so we will keep giving it our all starting tomorrow!!
+      
+      Next time will be 4/9 (Tue) for Girl's UP!!! vol.350 @ Shibuya eggman
+      We are preparing our maximum explosive sound and waiting for you 😌🚿‪🎶‬
+      
+      #neki #nekiband #girlsband #girldrummer #femaledrummer #shibuyathegame #arealiberated
+    image:
+    - 01
+    - 04
+    - 05
+    - 06
+    - 07
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+    reference:
+    - postximage:
+        post: 1776244955574607972
+        image: GKZ9XogaYAAIQ3m
+    - postximage:
+        post: 1776244955574607972
+        image: GKZ9XogbsAAU7ny
+
+- postinstagramimage:
+    post: C5Z3flFR4W9
+    id: 01
+    label: On stage
+    published-date: 2024-04-06
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postinstagram: C5Z3flFR4W9
+
+- postinstagramimage:
+    post: C5Z3flFR4W9
+    id: 04
+    label: Band
+    published-date: 2024-04-06
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postinstagram: C5Z3flFR4W9
+
+- postinstagramimage:
+    post: C5Z3flFR4W9
+    id: 05
+    label: Band
+    published-date: 2024-04-06
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postinstagram: C5Z3flFR4W9
+
+- postinstagramimage:
+    post: C5Z3flFR4W9
+    id: 06
+    label: Members
+    info: Hika, Cocoro
+    published-date: 2024-04-06
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postinstagram: C5Z3flFR4W9
+
+- postinstagramimage:
+    post: C5Z3flFR4W9
+    id: 07
+    label: Backstage
+    info: Cocoro
+    published-date: 2024-04-06
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postinstagram: C5Z3flFR4W9
+
+- postx:
+    id: 1773981785367654682
+    account: nekiband_jp
+    label: Schedule
+    published-date: 2024-03-30
+    text: |-
+      【NEK!の予定！】
+      ⚡️4/5(金)
+      「Area Liberated」@ 渋谷THE GAME
+      https://shibuyathegame.com/schedule/2024/04/
+      
+      ⚡️4/9(火)
+      「Girl's UP!!! vol.350」 @ 渋谷eggman
+      https://tiget.net/events/305536
+      
+      🔥7/20(土)
+      「NEK! 1ST ONE MAN LIVE」@ 下北沢SHELTER
+      https://t.livepocket.jp/e/neki1stoneman
+      
+      #NEKI
+    translation: |-
+      [NEK!'s Schedule!]
+      ⚡️4/5 (Fri)
+      "Area Liberated" @ SHIBUYA THE GAME
+      https://shibuyathegame.com/schedule/2024/04/
+      
+      ⚡️4/9 (Tue)
+      "Girl's UP!!! vol.350" @ Shibuya eggman
+      https://tiget.net/events/305536
+      
+      🔥7/20 (Sat)
+      "NEK! 1ST ONE MAN LIVE" @ Shimokitazawa SHELTER
+      https://t.livepocket.jp/e/neki1stoneman
+      
+      #NEKI
+    image:
+    - GJ5UwuCawAAnJqr
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+    reference:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    - show:
+        year: 2024
+        id: guvol350
+
+- postx:
+    id: 1776084527859061007
+    account: SHIBUYATHEGAME
+    label: Today
+    published-date: 2024-04-05
+    text: |-
+      【🗓本日開催!!🗓】
+      04.05(FRI)
+      SHIBUYA THE GAME PRESENTS
+      『Area Liberated』
+      
+      🔴入場料無料!! (別途2DRINK)🔴
+      🎫BAND予約受付
+      
+      <ACT>
+      THENEWLEVEL
+      4 Roses
+      NEK!
+      WORSTRASH
+      Jaywock
+      ELLE
+      
+      ご来場お待ちしております🔥
+      
+      #TICKETFREE
+    translation: |-
+      【🗓 Held Today!! 🗓】
+      04.05 (FRI)
+      SHIBUYA THE GAME PRESENTS
+      "Area Liberated"
+      
+      🔴 Admission Free!! (Plus 2 DRINKS) 🔴
+      🎫 BAND reservation accepted
+      
+      <ACT>
+      THENEWLEVEL
+      4 Roses
+      NEK!
+      WORSTRASH
+      Jaywock
+      ELLE
+      
+      We are looking forward to your visit 🔥
+      
+      #TICKETFREE
+    image:
+    - GKXrVSDasAAOm0K
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+
+- postx:
+    id: 1776160113885114827
+    account: nekiband_jp
+    label: Soon
+    published-date: 2024-04-05
+    text: |-
+      まもなく開場！
+      ライブ頑張るぞ〜〜🫶
+      #NEKI
+    translation: |-
+      Doors are opening soon!
+      Gonna do our best at the live show〜〜🫶
+      #NEKI
+    image:
+    - GKYwNR2agAAdNxR
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+
+- postx:
+    id: 1776244955574607972
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-04-05
+    text: |-
+      「Area Liberated」
+      @ SHIBUYA THE GAME
+      
+      お越しいただきありがとうございました！
+      #NEKI
+    translation: |-
+      "Area Liberated"
+      @ SHIBUYA THE GAME
+      
+      Thank you for coming!
+      #NEKI
+    image:
+    - GKZ9XogbsAAU7ny
+    - GKZ9XogaYAAIQ3m
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+
+- postximage:
+    post: 1773981785367654682
+    id: GJ5UwuCawAAnJqr
+    label: On stage
+    published-date: 2024-03-30
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1773981785367654682
+
+- postximage:
+    post: 1776084527859061007
+    id: GKXrVSDasAAOm0K
+    label: poster
+    published-date: 2025-03-22
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postx: 1776084527859061007
+
+- postximage:
+    post: 1776160113885114827
+    id: GKYwNR2agAAdNxR
+    label: Band
+    published-date: 2024-04-05
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postx: 1776160113885114827
+
+- postximage:
+    post: 1776244955574607972
+    id: GKZ9XogaYAAIQ3m
+    label: Posters
+    published-date: 2024-04-05
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postx: 1776244955574607972
+
+- postximage:
+    post: 1776244955574607972
+    id: GKZ9XogbsAAU7ny
+    label: On stage
+    published-date: 2024-04-05
+    context:
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      postx: 1776244955574607972
+
+- youtubeshort:
+    id: ChYZQj2s1Ik
+    label: Promo
+    info: studio audio
+    published-date: 2024-04-16
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+
+- youtubeshort:
+    id: bRHcOHmtXhU
+    label: Promo
+    info: studio audio
+    published-date: 2024-04-13
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: arealiberated
+    part-of:
+      show:
+        year: 2024
+        id: arealiberated
+

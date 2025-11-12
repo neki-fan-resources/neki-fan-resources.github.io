@@ -24,7 +24,7 @@ object AboutPage extends MainSitePage {
 
   override def mainContent(): Seq[BodyElement[?]] = {
 
-    val sections: Seq[fr.page.ContentSection] = Seq(
+    val sections: Seq[fr.component.ContentSection] = Seq(
       SiteSection,
       ManekinekoSection,
       UpdatesSection,
@@ -35,7 +35,7 @@ object AboutPage extends MainSitePage {
     sections.flatMap(_.content())
   }
 
-  object SiteSection extends fr.page.ContentSection {
+  object SiteSection extends fr.component.ContentSection {
 
     override val label: Option[String] = Some("What is this site?")
 
@@ -65,7 +65,7 @@ object AboutPage extends MainSitePage {
 
   }
 
-  object ManekinekoSection extends fr.page.ContentSection {
+  object ManekinekoSection extends fr.component.ContentSection {
 
     override val label: Option[String] = Some("What about the 🐈 ?")
 
@@ -128,7 +128,7 @@ object AboutPage extends MainSitePage {
 
   }
 
-  object UpdatesSection extends fr.page.ContentSection {
+  object UpdatesSection extends fr.component.ContentSection {
 
     override val label: Option[String] = Some("Updates")
 
@@ -153,7 +153,7 @@ object AboutPage extends MainSitePage {
 
   }
 
-  object SupportSection extends fr.page.ContentSection {
+  object SupportSection extends fr.component.ContentSection {
 
     override val label: Option[String] = Some("Support")
 
@@ -199,7 +199,7 @@ object AboutPage extends MainSitePage {
     )
   )
 
-  object QuestionsSection extends fr.page.ContentSection {
+  object QuestionsSection extends fr.component.ContentSection {
 
     override val label: Option[String] = Some("Questions - Suggestions - Requests - Contact")
 

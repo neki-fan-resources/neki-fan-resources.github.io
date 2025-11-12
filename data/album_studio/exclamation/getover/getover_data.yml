@@ -229,6 +229,24 @@
       song: getover
 
 - postx:
+    id: 1770318613091602634
+    account: nekiband_jp
+    label: Making CDs
+    published-date: 2024-03-20
+    text: |-
+      手焼きCD詰めてるよーーー💿
+      #NEKI
+    translation: |-
+      We're packing the hand-burned CDsーーー💿
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1770318613091602634
+        video: 01
+
+- postx:
     id: 1918636722516373576
     account: nekiband_jp
     label: announcement Get Over live video
@@ -346,6 +364,20 @@
     todo: redownload ?
     part-of:
       postx: 1756877181698154611
+
+- postxvideo:
+    post: 1770318613091602634
+    id: 01
+    label: Making Get Over CDs
+    published-date: 2024-03-20
+    cover: 1770318570456756224/pu/img/lzwV-Vdt-gMQr8Yl.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      song: getover
 
 - postxvideo:
     post: 1938475589318644015
@@ -555,7 +587,8 @@
 
 - youtubeshort:
     id: bJG9HXd0aUI
-    label: Promo
+    label: Rehearsal
+    info: studio audio
     published-date: 2024-04-04
     context:
     - song: getover

@@ -1,3 +1,162 @@
+- display:
+    show:
+      year: 2024
+      id: lupinus2024
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: NEK! opened the stage at LIVE HOLIC.
+                - line:
+                  - text: Not much information was shared about this show.
+                - line:
+                  - text: After the show, the members distributed flyers in the area.
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1766464470363324596
+                    image: GIO92KpbEAAAZDw
+                - postximage:
+                    post: 1766358235748110623
+                    image: GINdcN-bgAEl9zU
+                - postximage:
+                    post: 1766325171030564920
+                    image: GIM_YLhbcAAWN0m
+                - postximage:
+                    post: 1766356697961165080
+                    image: GINcDdHawAAWX0B
+                - postinstagramimage:
+                    post: C4Sh0puxkc6
+                    image: 03
+                - postinstagramimage:
+                    post: C4Sb3qchJew
+                    image: 01
+        - basicsection:
+            label: At the venue
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C4Sh0puxkc6
+                    image: 04
+    - basicblock:
+        id: covers
+        label: covers
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: NEK! complemented their set with covers.
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: HD5eo78IMNk
+    - basicblock:
+        id: report
+        label: Cocoro's report
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: After most concerts, Cocoro publishes her thoughts and impressions of the show.
+                - line:
+                  - text: "Here is the translation of Cocoro's "
+                  - webitem:
+                      postinstagram: C4Sh0puxkc6
+                      text: message
+                  - text: ' for the "LUPINUS ROCK FESTIVAL 2024" show.'
+            - textsubsection:
+                label: Translation
+                lines:
+                - line:
+                  - text: We performed as the top batter (first act) at the LUPINUS ROCK FESTIVAL 2024 held in Shimokitazawa!!
+                - line:
+                  - text: After the performance, we did our first-ever flyer distribution, which was also a first in my life! 😳 It was fun being able to visit many live music venues in Shimokitazawa!
+                - line:
+                  - text: 'Our next event will be the: NEK! First Solo Free Live @ Shibuya Chelsea Hotel on 3/20 (Thu/Holiday) 💪🏻🔥'
+    - basicblock:
+        id: aftershow
+        label: after the show
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  postinstagramvideo:
+                    post: C4Sh0puxkc6
+                    video: 05
+                lines:
+                - line:
+                  - text: After the band's set, the members went to the other venues of the festival, distributing flyers for their upcoming shows.
+    - basicblock:
+        id: beforeevent
+        label: before the event
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: A couple of videos with the band members were published before the event.
+            - textsubsection:
+                multimedia:
+                  postxvideo:
+                    post: 1765981020535333110
+                    video: 01
+                lines:
+                - line:
+                  - text: In the first video, Hika presents the band and invites people to come to LIVE HOLIC for their set.
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  postxvideo:
+                    post: 1766065326050206120
+                    video: 01
+                lines:
+                - line:
+                  - text: In the second video, each member presents herself and explain why people should come see NEK!.
+    part-of:
+      show:
+        year: 2024
+        id: lupinus2024
+
+- postinstagram:
+    id: C4Sb3qchJew
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2024-03-09
+    text: |-
+      2024.03.09
+      「LUPINUS ROCK FESTIVAL 2024」
+      ありがとうございました！
+    translation: |-
+      2024.03.09
+      "LUPINUS ROCK FESTIVAL 2024"
+      Thank you very much!
+    image:
+    - 01
+    part-of:
+      show:
+        year: 2024
+        id: lupinus2024
+    reference:
+    - postximage:
+        post: 1766325171030564920
+        image: GIM_YLhbcAAWN0m
+
 - postinstagram:
     id: C4Sh0puxkc6
     account: cocoro_drum
@@ -43,6 +202,18 @@
         image: GIM_YLhbcAAWN0m
 
 - postinstagramimage:
+    post: C4Sb3qchJew
+    id: 01
+    label: On stage
+    published-date: 2025-11-12
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postinstagram: C4Sb3qchJew
+
+- postinstagramimage:
     post: C4Sh0puxkc6
     id: 03
     label: On stage
@@ -71,7 +242,6 @@
     post: C4Sh0puxkc6
     id: 05
     label: Flyer distribution
-    info: in Shimokitazawa
     published-date: 2024-03-09
     context:
     - show:
@@ -677,6 +847,36 @@
         year: 2024
         id: lupinus2024
 
+- postx:
+    id: 1766464470363324596
+    account: natsu08_guitar
+    label: Next is the free live show
+    published-date: 2024-03-09
+    text: |-
+      3/7 Shibuya eggman❤️‍🔥❤️‍🔥❤️‍🔥
+      3/9 下北沢 LIVE HOLIC❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      次は3月20日のフリーライブで！！！👋🏻
+      
+      #NEKI
+    translation: |-
+      3/7 Shibuya eggman ❤️‍🔥❤️‍🔥❤️‍🔥
+      3/9 Shimokitazawa LIVE HOLIC ❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      Next is the free live show on March 20th!!! 👋🏻
+      
+      #NEKI
+    image:
+    - GIO92J7b0AAOR0t
+    - GIO92J5bMAAe4Il
+    - GIO92KpbEAAAZDw
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2024
+        id: lupinus2024
+
 - postximage:
     post: 1766243435357561130
     id: GIL1CWeaoAACz-Y
@@ -764,6 +964,42 @@
     part-of:
       postx: 1766358235748110623
 
+- postximage:
+    post: 1766464470363324596
+    id: GIO92J5bMAAe4Il
+    label: Backstage
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1766464470363324596
+
+- postximage:
+    post: 1766464470363324596
+    id: GIO92J7b0AAOR0t
+    label: Sidewalk board
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postx: 1766464470363324596
+
+- postximage:
+    post: 1766464470363324596
+    id: GIO92KpbEAAAZDw
+    label: On stage
+    published-date: 2024-03-09
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    part-of:
+      postx: 1766464470363324596
+
 - postxvideo:
     post: 1765981020535333110
     id: 01
@@ -790,6 +1026,36 @@
     - show:
         year: 2024
         id: lupinus2024
+    part-of:
+      show:
+        year: 2024
+        id: lupinus2024
+
+- postxvideo:
+    post: 1766464470363324596
+    id: 01
+    label: Distributing flyers
+    published-date: 2024-03-09
+    cover: 1766464216935100416/pu/img/bcUGlwWe0YVM_dvk.jpg
+    context:
+    - show:
+        year: 2024
+        id: lupinus2024
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postx: 1766464470363324596
+
+- update:
+    show:
+      year: 2024
+      id: lupinus2024
+    date: 2025-11-12
+    text:
+    - Updated information
+    - Organized photos and videos
+    - Added translation of Cocoro's report
     part-of:
       show:
         year: 2024

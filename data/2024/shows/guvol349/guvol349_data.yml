@@ -36,6 +36,12 @@
                 - postinstagramimage:
                     post: C4QGFf5xRlI
                     image: 01
+                - postinstagramimage:
+                    post: C4QqsyphCuv
+                    image: 02
+                - postximage:
+                    post: 1773981785367654682
+                    image: GJ5UwuCawAAnJqr
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -44,9 +50,15 @@
                 - postximage:
                     post: 1766464470363324596
                     image: GIO92J5bMAAe4Il
+                - postinstagramimage:
+                    post: C4QqsyphCuv
+                    image: 05
                 - postinstagramvideo:
                     post: C4QGFf5xRlI
                     video: 07
+                - postinstagramvideo:
+                    post: C4QqsyphCuv
+                    video: 06
         - basicsection:
             label: At the venue
             subsections:
@@ -161,6 +173,47 @@
         post: 1765733615722467497
         image: GIElXLRacAAzZEQ
 
+- postinstagram:
+    id: C4QqsyphCuv
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2024-03-08
+    text: |-
+      2024.03.07
+      
+      NEK！の始まり!❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      初ライブ、ありがとうございました！！！
+      
+      #NEKI #初ライブ #ガールズバンド #girlsband
+    translation: |-
+      2024.03.07
+      
+      The beginning of NEK! ❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      Thank you for our first live show!!!
+      
+      #NEKI #FirstLive #GirlsBand #girlsband
+    image:
+    - 02
+    - 05
+    video:
+    - 06
+    part-of:
+      show:
+        year: 2024
+        id: guvol349
+    reference:
+    - postinstagramimage:
+        post: C4QGFf5xRlI
+        image: 02
+    - postximage:
+        post: 1765733615722467497
+        image: GIElXLRb0AAgpaY
+    - postximage:
+        post: 1765733615722467497
+        image: GIElXLRacAAzZEQ
+
 - postinstagramimage:
     post: C4QGFf5xRlI
     id: 01
@@ -222,6 +275,30 @@
     part-of:
       postinstagram: C4QGFf5xRlI
 
+- postinstagramimage:
+    post: C4QqsyphCuv
+    id: 02
+    label: On stage
+    published-date: 2024-03-08
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QqsyphCuv
+
+- postinstagramimage:
+    post: C4QqsyphCuv
+    id: 05
+    label: Backstage
+    published-date: 2024-03-07
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QqsyphCuv
+
 - postinstagramvideo:
     post: C4QGFf5xRlI
     id: 07
@@ -233,6 +310,18 @@
         id: guvol349
     part-of:
       postinstagram: C4QGFf5xRlI
+
+- postinstagramvideo:
+    post: C4QqsyphCuv
+    id: 06
+    label: Backstage
+    published-date: 2024-03-07
+    context:
+    - show:
+        year: 2024
+        id: guvol349
+    part-of:
+      postinstagram: C4QqsyphCuv
 
 - postx:
     id: 1765304060088115356

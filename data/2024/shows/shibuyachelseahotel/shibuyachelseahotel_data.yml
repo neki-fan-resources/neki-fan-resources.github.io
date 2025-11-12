@@ -1,32 +1,103 @@
-- postx:
-    id: 1766464470363324596
-    account: natsu08_guitar
-    label: Next is the free live show
-    published-date: 2024-03-09
+- postinstagram:
+    id: C4wjU64xReF
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-03-21
     text: |-
-      3/7 Shibuya eggman❤️‍🔥❤️‍🔥❤️‍🔥
-      3/9 下北沢 LIVE HOLIC❤️‍🔥❤️‍🔥❤️‍🔥
+      2024.03.20
       
-      次は3月20日のフリーライブで！！！👋🏻
+      NEK!の初単独フリーライブが昨日無事終了いたしましたーーー！！
+      1部も2部もたくさんの方にご来場いただいて最高に嬉しかったです🔥
+      昨日から発売開始した私たちのオリジナル曲GetOverの手焼きCDもとうとう私たちの手元から巣立ち、昨日ご購入いただいた多くの皆さんの耳に届いたのかと思うとなんだか感慨深いです。本当にありがとうございます！！！！
       
-      #NEKI
+      毎回"かっこいい"を更新できるようこれからも日々精進いたします🔥
+      
+      次は4/9(Tue)、渋谷eggmanのGirl'sUP!!!でお待ちしています！またね！！
+      
+      #neki #nekiband #girlsband #femaledrummer #femalemusician #chelseahotel #shibuya
     translation: |-
-      3/7 Shibuya eggman ❤️‍🔥❤️‍🔥❤️‍🔥
-      3/9 Shimokitazawa LIVE HOLIC ❤️‍🔥❤️‍🔥❤️‍🔥
+      2024.03.20
       
-      Next is the free live show on March 20th!!! 👋🏻
+      NEK!'s first solo free live show successfully concluded yesterdayーーー!!
+      We were incredibly happy to have so many people attend both the 1st and 2nd performances 🔥
+      The hand-burned CD of our original song "Get Over," which went on sale yesterday, finally left our hands, and it's quite moving to think it has reached the ears of the many people who purchased it yesterday. Thank you so much!!!!
       
-      #NEKI
+      We will continue to work hard every day so we can always raise our level of "coolness" 🔥
+      
+      Next, we will be waiting for you at Girl's UP!!! at Shibuya eggman on 4/9 (Tue)! See you later!!
+      
+      #neki #nekiband #girlsband #femaledrummer #femalemusician #chelseahotel #shibuya
     image:
-    - GIO92J7b0AAOR0t
-    - GIO92J5bMAAe4Il
-    - GIO92KpbEAAAZDw
-    video:
     - 01
+    - 02
+    - 03
+    - 04
+    - 05
     part-of:
       show:
         year: 2024
         id: shibuyachelseahotel
+
+- postinstagramimage:
+    post: C4wjU64xReF
+    id: 01
+    label: Band
+    published-date: 2024-03-21
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postinstagram: C4wjU64xReF
+
+- postinstagramimage:
+    post: C4wjU64xReF
+    id: 02
+    label: On stage
+    published-date: 2024-03-21
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postinstagram: C4wjU64xReF
+
+- postinstagramimage:
+    post: C4wjU64xReF
+    id: 03
+    label: On stage
+    published-date: 2024-03-21
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postinstagram: C4wjU64xReF
+
+- postinstagramimage:
+    post: C4wjU64xReF
+    id: 04
+    label: On stage
+    published-date: 2024-03-21
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postinstagram: C4wjU64xReF
+
+- postinstagramimage:
+    post: C4wjU64xReF
+    id: 05
+    label: On stage
+    info: drum kit, sound check
+    published-date: 2024-03-21
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postinstagram: C4wjU64xReF
 
 - postx:
     id: 1768976059159167425
@@ -127,9 +198,63 @@
         video: 01
 
 - postx:
+    id: 1770020192674091266
+    account: nekiband_jp
+    label: show tomorrow
+    published-date: 2024-03-19
+    text: |-
+      3/20(水祝)
+      @ 渋谷チェルシーホテル
+      
+      NEK! 単独フリーライブ
+      いよいよ明日開催！！！
+      
+      本日のカウントダウン動画はボーカルのHika！
+      @46_hikaa
+       
+      
+      #NEKI
+    translation: |-
+      3/20 (Wed, Holiday)
+      @ Shibuya Chelsea Hotel
+      
+      NEK! Solo Free Live
+      Finally happening tomorrow!!!
+      
+      Today's countdown video is by the vocalist, Hika!
+      @46_hikaa
+      
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1770020192674091266
+        video: 01
+
+- postx:
+    id: 1770067246448275734
+    account: nekiband_jp
+    label: Get Over CDs
+    published-date: 2024-03-19
+    text: |-
+      明日の単独フリーライブでオリジナル曲「Get Over」の手焼きCDを販売します！
+      #NEKI
+    translation: |-
+      We will be selling hand-burned CDs of our original song "Get Over" at tomorrow's solo free live!
+      #NEKI
+    image:
+    - GJCKxZbaYAAbbsT
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postx:
     id: 1770261360938746035
     account: nekiband_jp
-    label: show today
+    label: Show today
     info: with merch info
     published-date: 2024-03-20
     text: |-
@@ -144,6 +269,18 @@
       みなさまのご来場をお待ちしております🏃‍♀️
       
       #NEKI
+    translation: |-
+      Today, 3/20 (Wed, Holiday)
+      NEK! Solo Free Live
+      @ Shibuya Chelsea Hotel
+      
+      Finally happening!!!!
+      Merchandise sales will take place after each performance!
+      
+      So excited!!!!
+      We are looking forward to everyone's arrival 🏃‍♀️
+      
+      #NEKI
     image:
     - GJE7Uu6a4AAdiK5
     - GJE7UvYbgAAG_3L
@@ -152,41 +289,121 @@
         year: 2024
         id: shibuyachelseahotel
 
-- postximage:
-    post: 1766464470363324596
-    id: GIO92J5bMAAe4Il
-    label: Backstage
-    published-date: 2024-03-09
-    context:
-    - show:
-        year: 2024
-        id: guvol349
+- postx:
+    id: 1770308489857909073
+    account: nekiband_jp
+    label: Distributing flyers
+    published-date: 2024-03-20
+    text: |-
+      フリーライブ前にビラ配りしました！
+      
+      本日の優先入場券は各公演開場の15分前まで受付中です！
+      
+      ぜひ来てください🏟️
+      
+      15:30開場 16:00開演
+      https://t.livepocket.jp/e/nekifree1
+      
+      20:00開場 20:30開演
+      https://t.livepocket.jp/e/nekifree2
+      
+      #NEKI
+    translation: |-
+      We handed out flyers before the free live!
+      
+      Today's priority entry tickets are available until 15 minutes before the doors open for each performance!
+      
+      Please come and join us 🏟️
+      
+      Doors open 15:30 / Show starts 16:00
+      https://t.livepocket.jp/e/nekifree1
+      
+      Doors open 20:00 / Show starts 20:30
+      https://t.livepocket.jp/e/nekifree2
+      
+      #NEKI
+    image:
+    - GJFmL2Xa0AA3Nof
     part-of:
-      postx: 1766464470363324596
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postx:
+    id: 1770448008477610078
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-03-20
+    text: |-
+      「NEK! 単独フリーライブ」
+      @ 渋谷チェルシーホテル
+      
+      初の単独ライブ！
+      ありがとうございました！
+      #NEKI
+    translation: |-
+      "NEK! Solo Free Live"
+      @ Shibuya Chelsea Hotel
+      
+      Our first solo live show!
+      Thank you very much!
+      #NEKI
+    image:
+    - GJHlErjaMAA_Q5t
+    - GJHlErkasAAlAl7
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postx:
+    id: 1770751059876561362
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-03-21
+    text: |-
+      昨日の単独フリーライブ、1回目も2回目もたくさん観に来てくださって嬉しかったなあ
+      #NEKI
+    translation: |-
+      I was so happy that so many people came to watch both the first and second performances of yesterday's solo free live
+      #NEKI
+    image:
+    - GJL4s59XgAA5Jj8
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postx:
+    id: 1772570854037361045
+    account: cure_bass_baka
+    label: Get Over Kanade
+    published-date: 2024-03-26
+    text: |-
+      この前のフリーライブで撮影OKだった曲の動画もらったー！！
+      ベース弾きながらハモるの大好き！ 🫶
+    translation: |-
+      I got the video of the song that was okay to film at the previous free live!
+      I love harmonizing while playing the bass! 🫶
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1772570854037361045
+        video: 01
 
 - postximage:
-    post: 1766464470363324596
-    id: GIO92J7b0AAOR0t
-    label: Sidewalk board
-    published-date: 2024-03-09
+    post: 1770067246448275734
+    id: GJCKxZbaYAAbbsT
+    label: Get Over single CDs
+    published-date: 2024-03-19
     context:
+    - song: getover
     - show:
         year: 2024
-        id: guvol349
+        id: shibuyachelseahotel
     part-of:
-      postx: 1766464470363324596
-
-- postximage:
-    post: 1766464470363324596
-    id: GIO92KpbEAAAZDw
-    label: On stage
-    published-date: 2024-03-09
-    context:
-    - show:
-        year: 2024
-        id: lupinus2024
-    part-of:
-      postx: 1766464470363324596
+      postx: 1770067246448275734
 
 - postximage:
     post: 1770261360938746035
@@ -214,21 +431,54 @@
     part-of:
       postx: 1770261360938746035
 
-- postxvideo:
-    post: 1766464470363324596
-    id: 01
+- postximage:
+    post: 1770308489857909073
+    id: GJFmL2Xa0AA3Nof
     label: Distributing flyers
-    published-date: 2024-03-09
-    cover: 1766464216935100416/pu/img/bcUGlwWe0YVM_dvk.jpg
+    published-date: 2024-03-20
     context:
-    - show:
-        year: 2024
-        id: lupinus2024
     - show:
         year: 2024
         id: shibuyachelseahotel
     part-of:
-      postx: 1766464470363324596
+      postx: 1770308489857909073
+
+- postximage:
+    post: 1770448008477610078
+    id: GJHlErjaMAA_Q5t
+    label: On stage
+    published-date: 2024-03-20
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postx: 1770448008477610078
+
+- postximage:
+    post: 1770448008477610078
+    id: GJHlErkasAAlAl7
+    label: Band
+    published-date: 2024-03-20
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      postx: 1770448008477610078
+
+- postximage:
+    post: 1770751059876561362
+    id: GJL4s59XgAA5Jj8
+    label: On stage
+    published-date: 2024-03-21
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    todo: show
+    part-of:
+      postx: 1770751059876561362
 
 - postxvideo:
     post: 1768976059159167425
@@ -270,6 +520,39 @@
     published-date: 2024-03-18
     cover: 1769667145494077440/pu/img/t8ZV2bOTedUjCb0u.jpg
     context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postxvideo:
+    post: 1770020192674091266
+    id: 01
+    label: show tomorrow
+    info: Hika
+    published-date: 2024-03-19
+    cover: 1770020162068185088/pu/img/kQbkSNLBWPQC8b3j.jpg
+    context:
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
+- postxvideo:
+    post: 1772570854037361045
+    id: 01
+    label: On stage
+    info: Kanade
+    published-date: 2024-03-26
+    cover: 1772570680082812928/pu/img/TOD6HBASR7M6VLWi.jpg
+    context:
+    - song: getover
     - show:
         year: 2024
         id: shibuyachelseahotel

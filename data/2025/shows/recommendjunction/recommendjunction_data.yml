@@ -32,28 +32,48 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
-                    post: 1986438947548070290
-                    image: G5E_nUlaUAALd1Y
-                - postximage:
-                    post: 1986446471756128526
-                    image: G5FGhR9bIAAqh9L
-                - postximage:
-                    post: 1986450399201820950
-                    image: G5FKGbtb0AAQlP2
-                - postximage:
-                    post: 1986463217003249752
-                    image: G5FVxFXbIAAVzuu
-                - postximage:
                     post: 1986450399201820950
                     image: G5FKGbtakAAVn2_
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DQt-qyPkhEb
+                    image: 02
+                - postximage:
+                    post: 1986438947548070290
+                    image: G5E_nUlaUAALd1Y
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1986446471756128526
-                    image: G5FGhSCakAA1KRC
+                    image: G5FGhR9bIAAqh9L
+                - postinstagramimage:
+                    post: DQt-qyPkhEb
+                    image: 06
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DQt-qyPkhEb
+                    image: 03
+                - postximage:
+                    post: 1986450399201820950
+                    image: G5FKGbtb0AAQlP2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1986463217003249752
+                    image: G5FVxFXbIAAVzuu
+                - postinstagramimage:
+                    post: DQt-qyPkhEb
+                    image: 05
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1986438947548070290
                     image: G5E_nUdaYAAceML
+                - postximage:
+                    post: 1986446471756128526
+                    image: G5FGhSCakAA1KRC
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -83,6 +103,37 @@
                     post: 1986661560945942557
                     image: G5IKJwJbIAEsnpf
     - basicblock:
+        id: report
+        label: Cocoro's report
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: After most concerts, Cocoro publishes her thoughts and impressions of the show.
+                - line:
+                  - text: "Here is the translation of Cocoro's "
+                  - webitem:
+                      postinstagram: DQyxtV_krcV
+                      text: message
+                  - text: ' for the "RECOMMEND JUNCTION" show.'
+            - textsubsection:
+                label: Translation
+                multimedia:
+                  postinstagramimage:
+                    post: DQt-qyPkhEb
+                    image: 02
+                lines:
+                - line:
+                  - text: The "RECOMMEND JUNCTION" show has successfully concluded! Thank you so much to everyone who came ❤️‍🔥
+                - line:
+                  - text: We were able to spend a wonderful evening with all of you who gathered at EX THEATER ROPPONGI, a venue I’ve always dreamed of performing at! Thank you for raising your hands and singing along so much, not just to our standard live songs, but even to our two unreleased tracks! Your willingness to enjoy the moment together truly lifted our spirits 🥲🙏🏻
+                - line:
+                  - text: Royal Gal , Choqmay, and Deluxe x Deluxe all wrapped the floor in a sophisticated and complete world-view while simultaneously making their individual personalities absolutely explode. I received so much inspiration from them all 💥
+                - line:
+                  - text: NEK! is going to become an even BIGGER band!!! ✊🏻🔥
+    - basicblock:
         id: tvshow
         label: tv show
         sections:
@@ -110,6 +161,17 @@
                 - youtubeshort: iOHZ6WsqMoQ
                 - youtubeshort: KbsoiZszT6M
                 - youtubeshort: 5KJ2jh2-2_Q
+        - basicsection:
+            label: More from the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DQyxtV_krcV
+                    image: 04
+                - postinstagramimage:
+                    post: DQyxtV_krcV
+                    image: 05
     part-of:
       show:
         year: 2025
@@ -133,6 +195,205 @@
           year: 2025
           id: recommendjunction
       - text: ', on November 06th, at EX THEATER ROPPONGI, Tokyo.'
+
+- postinstagram:
+    id: DQt-qyPkhEb
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-06
+    text: |-
+      リコメンズジャンクション
+      Live at EX THEATER ROPPONGI
+      
+      Thanks🖤✨
+      
+      #NEKI
+    translation: |-
+      Recommends Junction
+      Live at EX THEATER ROPPONGI
+      
+      Thanks🖤✨
+      
+      #NEKI
+    image:
+    - 02
+    - 03
+    - 04
+    - 05
+    - 06
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+    reference:
+    - postximage:
+        post: 1986431090874306723
+        image: G5E4XdZbIAEtzpg
+    - postximage:
+        post: 1986431090874306723
+        image: G5E4XdyaEAAaCja
+
+- postinstagram:
+    id: DQyxtV_krcV
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-11-08
+    text: |-
+      2025.11.06
+      
+      リコメンズジャンクション無事終了いたしました！
+      お越しくださった皆様本当にありがとうございました❤️‍🔥
+      
+      EX THEATER ROPPONGIという憧れの場所で、集まってくれた皆様と楽しい夜を過ごすことができました！
+      ライブ定番曲は勿論、未リリース曲でもたくさん手上げてくれたり、一緒に歌ってくれてありがとうございました！
+      皆さんの一緒に楽しもうという心持ちに救われました🥲🙏🏻
+      
+      ロイヤルギャルさんもチョーキューメイさんもデラックス×デラックスさんも、それぞれの個性を大爆発させながらも洗練された完璧な世界観でフロアを包んでいて、たくさん刺激をいただきました💥
+      
+      NEK!ももっとBIGなバンドになるぞーーー✊🏻🔥
+      
+      #neki #neki_band #drum #drummer
+    translation: |-
+      Recommends Junction has safely concluded!
+      Thank you very much to everyone who came❤️‍🔥
+      
+      We were able to spend a fun night with everyone who gathered at the longed-for venue, EX THEATER ROPPONGI!
+      Thank you for raising your hands a lot and singing along, not only for our standard live songs but also for the unreleased songs!
+      I was saved by everyone's willingness to enjoy themselves together🥲🙏🏻
+      
+      ROYAL GIRL, ChoQMay, and DELUXE DELUXE all wrapped the floor in a refined, perfect world view while exploding their respective personalities, and I was very much inspired💥
+      
+      NEKI will become a BIGGER band tooーーー✊🏻🔥
+    image:
+    - 02
+    - 04
+    - 05
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+    reference:
+    - postximage:
+        post: 1986431090874306723
+        image: G5E4XdyaEAAaCja
+    - postximage:
+        post: 1986661560945942557
+        image: G5IKJwJbIAEsnpf
+    - postximage:
+        post: 1986661560945942557
+        image: G5IKJwPbIAIx76s
+    - postximage:
+        post: 1986661560945942557
+        image: G5IKJwPbIAMSQ4Q
+    - postximage:
+        post: 1986661560945942557
+        image: G5IKJwTbIAITGul
+    - postximage:
+        post: 1986454059474428185
+        image: G5FNbpkaEAEboOK
+    - postximage:
+        post: 1986438947548070290
+        image: G5E_nUlaUAALd1Y
+
+- postinstagramimage:
+    post: DQt-qyPkhEb
+    id: 02
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-06
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postinstagram: DQt-qyPkhEb
+
+- postinstagramimage:
+    post: DQt-qyPkhEb
+    id: 03
+    label: On stage
+    info: Natsu
+    published-date: 2025-11-06
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postinstagram: DQt-qyPkhEb
+
+- postinstagramimage:
+    post: DQt-qyPkhEb
+    id: 04
+    label: On stage
+    published-date: 2025-11-06
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postinstagram: DQt-qyPkhEb
+
+- postinstagramimage:
+    post: DQt-qyPkhEb
+    id: 05
+    label: On stage
+    info: Hika
+    published-date: 2025-11-06
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postinstagram: DQt-qyPkhEb
+
+- postinstagramimage:
+    post: DQt-qyPkhEb
+    id: 06
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-06
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postinstagram: DQt-qyPkhEb
+
+- postinstagramimage:
+    post: DQyxtV_krcV
+    id: 02
+    label: On stage
+    published-date: 2025-11-08
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postinstagram: DQyxtV_krcV
+
+- postinstagramimage:
+    post: DQyxtV_krcV
+    id: 04
+    label: Drum set
+    published-date: 2025-11-08
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postinstagram: DQyxtV_krcV
+
+- postinstagramimage:
+    post: DQyxtV_krcV
+    id: 05
+    label: Backstage
+    published-date: 2025-11-08
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postinstagram: DQyxtV_krcV
 
 - postx:
     id: 1986431090874306723
@@ -429,9 +690,9 @@
       
       #NEKI #NekiMeme
     part-of:
-      show:
-        year: 2025
-        id: recommendjunction
+      postxvideo:
+        post: 1987453821082304748
+        video: 01
 
 - postximage:
     post: 1986431090874306723
@@ -637,7 +898,9 @@
         id: recommendjunction
     - song: gimmick
     part-of:
-      postx: 1987453821082304748
+      show:
+        year: 2025
+        id: recommendjunction
 
 - update:
     show:
@@ -658,6 +921,19 @@
     date: 2025-11-07
     text:
     - Added pictures with the other band and the MC
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- update:
+    show:
+      year: 2025
+      id: recommendjunction
+    date: 2025-11-13
+    text:
+    - Additional pictures
+    - Translation of Cocoro's report
     part-of:
       show:
         year: 2025
@@ -703,6 +979,21 @@
         year: 2025
         id: recommendjunction
     - song: getover
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- youtubeshort:
+    id: KbsoiZszT6M
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-11
+    context:
+    - song: colorchord
+    - show:
+        year: 2025
+        id: recommendjunction
     part-of:
       show:
         year: 2025

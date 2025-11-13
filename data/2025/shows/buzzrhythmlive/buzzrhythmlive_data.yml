@@ -34,27 +34,56 @@
                     post: 1985191533449285818
                     image: G4zQaaka4AA_6Ep
                 - postximage:
-                    post: 1984882882473836774
-                    image: G4u4deFaYAAD-6f
-                - postximage:
-                    post: 1984885071434956975
-                    image: G4u6c0sbQAI0SIh
-                - postximage:
                     post: 1984877391978905779
                     image: G4uzcEXbQAAx1pc
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DQjAnAEEV-K
+                    image: 06
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DQjAnAEEV-K
+                    image: 05
+                - postinstagramimage:
+                    post: DQq-UYsEm-W
+                    image: 06
+                - postinstagramimage:
+                    post: DQq-UYsEm-W
+                    image: 05
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DQjAnAEEV-K
+                    image: 02
                 - postximage:
-                    post: 1984879105540813293
-                    image: G4u1Bh8aAAAMYUe
+                    post: 1984885071434956975
+                    image: G4u6c0sbQAI0SIh
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1984882882473836774
+                    image: G4u4deFaYAAD-6f
+                - postinstagramimage:
+                    post: DQjAnAEEV-K
+                    image: 03
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1984885753453891858
                     image: G4u7EkdbQAMCBbo
+                - postximage:
+                    post: 1984879105540813293
+                    image: G4u1Bh8aAAAMYUe
                 - postximage:
                     post: 1984882882473836774
                     image: G4u4deIbcAAKmYh
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DQjAnAEEV-K
+                    image: 04
                 - postximage:
                     post: 1984877391978905779
                     image: G4uzcEPbQAUE80u
@@ -89,6 +118,72 @@
                 - postximage:
                     post: 1984879105540813293
                     image: G4u1Bh6asAAzrD6
+                - postinstagramimage:
+                    post: DQqTuzlkUn5
+                    image: 01
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DQjkKMiElGe
+                    image: 01
+                - postinstagramimage:
+                    post: DQq-V9WkuXh
+                    image: 01
+                - postinstagramimage:
+                    post: DQq-V9WkuXh
+                    image: 02
+    - basicblock:
+        id: report
+        label: Cocoro's report
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: After most concerts, Cocoro publishes her thoughts and impressions of the show.
+                - line:
+                  - text: "Here is the translation of Cocoro's "
+                  - webitem:
+                      postinstagram: DQq-UYsEm-W
+                      text: message
+                  - text: ' for the "BUZZ RHYTHM LIVE" show.'
+            - textsubsection:
+                label: Translation
+                multimedia:
+                  postinstagramimage:
+                    post: DQq-UYsEm-W
+                    image: 06
+                lines:
+                - line:
+                  - text: We performed at "Buzz Rhythm LIVE 2025 -BUZZER STAGE-"! Thank you so much to everyone who came to see NEK!'s stage ❤️‍🔥
+                - line:
+                  - text: I have always watched Buzz Rhythm (the show), and it's one of my favorite music programs, so I was incredibly happy to be able to participate this time as a performer!! Furthermore, the BUZZER STAGE was just created this year, and I am genuinely grateful that we were invited to be part of such a momentous first installment 🥲🙏🏻
+                - line:
+                  - text: It was truly unbelievable to perform a live show at Yokohama Arena, a venue where I usually go to watch many different artists' concerts. I felt like I was dreaming the entire time 🫢 It was an even stranger sensation to be performing at the Centennial Hall, which is where I usually go to buy merchandise!
+                - line:
+                  - text: On the second day, the BUZZER STAGE, where we performed, had two idol groups besides us. It was a very valuable experience to have people from a different scene watch NEK!'s live show! I was happy to see the audience enjoying themselves during our performance 🥰
+                - line:
+                  - text: Both the KAWAII LAB. MATES and Straight Angeli members were so incredibly cute and sparkling ✨🥹🫶🏻
+                - line:
+                  - text: We also shot a TikTok with Straight Angeli, so please go and watch it if you haven't yet ✊🏻
+                - line:
+                  - text: We have set the goal of definitely standing on the main stage the next time we return to Buzz Rhythm LIVE. We will continue to work hard to become an appealing band worthy of the main stage!!
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: More from the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DQq-UYsEm-W
+                    image: 04
+                - postinstagramimage:
+                    post: DQq-UYsEm-W
+                    image: 03
     part-of:
       show:
         year: 2025
@@ -111,6 +206,340 @@
           year: 2025
           id: buzzrhythmlive
       - text: ', on November 02th, at the Yokohama Arena.'
+
+- postinstagram:
+    id: DQjAnAEEV-K
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-02
+    text: |-
+      Thanks!!!!
+      
+      バズリズム LIVE 2025 -BUZZER STAGE-
+      横浜アリーナ 2Fセンテニアルホール
+      
+      #NEKI #バズライブ
+    translation: |-
+      Thanks!!!!
+      
+      Buzzrhythm LIVE 2025 -BUZZER STAGE-
+      Yokohama Arena 2F Centennial Hall
+      
+      #NEKI #BuzzLive
+    image:
+    - 02
+    - 03
+    - 04
+    - 05
+    - 06
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+    reference:
+    - postximage:
+        post: 1984877391978905779
+        image: G4uzcERbQAIjlcC
+
+- postinstagram:
+    id: DQjkKMiElGe
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-11-02
+    text: |-
+      バズリズムのBUZZER STAGEに立ってきました。
+      次はメインステージで歌いたい。
+      
+      がんばるぞっ
+      
+      #バズライブ
+      #neki
+    translation: |-
+      We stood on Buzzrhythm's BUZZER STAGE.
+      Next, we want to sing on the main stage.
+      
+      We'll do our best!
+      
+      #BuzzLive
+      #neki
+    image:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postinstagram:
+    id: DQq-UYsEm-W
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-11-05
+    text: |-
+      「バズリズム LIVE 2025 -BUZZER STAGE-」に出演しました！
+      NEK!のステージを観てくださった皆さま本当にありがとうございました❤️‍🔥
+      
+      バズリズムさんは以前から拝見させていただいてて、大好きな歌番組のひとつなので今回こうやって出演者として参加できてとっても嬉しかったです！！
+      しかもBUZZER STAGEは今年から誕生したステージだそうで、そんな記念すべき初回にお呼びいただき本当にありがとうございました🥲🙏🏻
+      
+      いつも色々なアーティストさんのライブを観に行っている横浜アリーナに自分がライブをしに行くというのが本当に信じ難くてずっと夢見心地な気分でした🫢
+      そしていつも物販を買いに行くセンテニアルホールで自分たちがライブをするというのも更に不思議な感覚がしました！
+      
+      私たちが出演した2日目のBUZZER STAGEは、私たち以外2組ともアイドルさんだったので、普段とは違う界隈の皆さんにもNEK!のライブを観てもらえてとても貴重な経験をさせていただきました！ライブ中も楽しんでくれてる姿が見えて嬉しかったです🥰
+      
+      KAWAII LAB. MATESの皆さんもStraight Angeliの皆さんもすーーーっごく可愛くてキラキラ輝いてました🥹🫶🏻
+      
+      Straight Angeliさんとは一緒にTikTokも撮影したので、まだ見てない方はぜひ見に行ってください✊🏻
+      
+      次バズリズムLIVEに戻ってくるときにはメインステージに必ず立つということを目標に掲げ、メインステージに見合う魅力的なバンドを目指してこれからも頑張ります！！
+      
+      #neki #neki_band #drum #femaledrummer #バズリズム #ネキミーム
+    translation: |-
+      We performed at "Buzzrhythm LIVE 2025 -BUZZER STAGE-"!
+      Thank you very much to everyone who watched NEKI's performance❤️‍🔥
+      
+      I've been watching Buzzrhythm for a while now, and it's one of my favorite music shows, so I was really happy to be able to participate as a performer this time!!
+      And the BUZZER STAGE was born this year, so thank you so much for inviting us to this memorable first edition🥲🙏🏻
+      
+      It was truly unbelievable to go and perform a show at Yokohama Arena, where I usually go to watch various artists' concerts, and I felt like I was dreaming the whole time🫢
+      And performing in the Centennial Hall, where I usually go to buy merchandise, felt even stranger!
+      
+      The BUZZER STAGE on the second day, which we performed on, featured two idol groups besides us, so it was a very valuable experience to have people from a different scene watch NEKI's performance! I was happy to see them enjoying themselves during the live show🥰
+      
+      Both the members of KAWAII LAB. MATES and Straight Angeli were exxxxtremely cute and sparkling🥹🫶🏻
+      
+      We also shot a TikTok with Straight Angeli, so if you haven't seen it yet, please go check it out✊🏻
+      
+      We've set the goal of definitely standing on the main stage when we return to Buzzrhythm LIVE next time, and we'll keep working hard to become a charming band worthy of the main stage!!
+      
+      #neki #neki_band #drum #femaledrummer #Buzzrhythm #NekiMEME
+    image:
+    - 03
+    - 04
+    - 05
+    - 06
+    - 07
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+    reference:
+    - postximage:
+        post: 1984879105540813293
+        image: G4u1Bh8aAAAMYUe
+    - postximage:
+        post: 1984885071434956975
+        image: G4u6c0ubQAA70De
+    - postximage:
+        post: 1985183804479377444
+        image: G4zKJFebkAANgd5
+    - postximage:
+        post: 1985218438021976367
+        image: G4zpojvbUAAZcnd
+
+- postinstagram:
+    id: DQq-V9WkuXh
+    account: natsu08_guitar
+    label: With Yokoari-kun
+    published-date: 2025-11-05
+    text: |-
+      ヨコアリくんとパシャリ📷
+    translation: |-
+      Took a photo with Yokoari-kun📷
+    image:
+    - 01
+    - 02
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postinstagram:
+    id: DQqTuzlkUn5
+    account: nekiband_jp
+    label: Selfies
+    published-date: 2025-11-05
+    text: |-
+      🤳✨
+    image:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- postinstagramimage:
+    post: DQjAnAEEV-K
+    id: 02
+    label: On stage
+    info: Natsu
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQjAnAEEV-K
+
+- postinstagramimage:
+    post: DQjAnAEEV-K
+    id: 03
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQjAnAEEV-K
+
+- postinstagramimage:
+    post: DQjAnAEEV-K
+    id: 04
+    label: Venue
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQjAnAEEV-K
+
+- postinstagramimage:
+    post: DQjAnAEEV-K
+    id: 05
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQjAnAEEV-K
+
+- postinstagramimage:
+    post: DQjAnAEEV-K
+    id: 06
+    label: On stage
+    info: Hika
+    published-date: 2025-11-02
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQjAnAEEV-K
+
+- postinstagramimage:
+    post: DQjkKMiElGe
+    id: 01
+    label: Hika
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQjkKMiElGe
+
+- postinstagramimage:
+    post: DQq-UYsEm-W
+    id: 03
+    label: Backstage
+    published-date: 2025-11-05
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQq-UYsEm-W
+
+- postinstagramimage:
+    post: DQq-UYsEm-W
+    id: 04
+    label: Drum set
+    published-date: 2025-11-05
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQq-UYsEm-W
+
+- postinstagramimage:
+    post: DQq-UYsEm-W
+    id: 05
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-05
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQq-UYsEm-W
+
+- postinstagramimage:
+    post: DQq-UYsEm-W
+    id: 06
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-05
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQq-UYsEm-W
+
+- postinstagramimage:
+    post: DQq-UYsEm-W
+    id: 07
+    label: On stage
+    published-date: 2025-11-05
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQq-UYsEm-W
+
+- postinstagramimage:
+    post: DQq-V9WkuXh
+    id: 01
+    label: Natsu
+    published-date: 2025-11-05
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQq-V9WkuXh
+
+- postinstagramimage:
+    post: DQq-V9WkuXh
+    id: 02
+    label: Natsu
+    published-date: 2025-11-05
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQq-V9WkuXh
+
+- postinstagramimage:
+    post: DQqTuzlkUn5
+    id: 01
+    label: Band
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postinstagram: DQqTuzlkUn5
 
 - postx:
     id: 1966335966437929047
@@ -995,6 +1424,19 @@
     text:
     - Update following the show
     - Pictures and one video already
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- update:
+    show:
+      year: 2025
+      id: buzzrhythmlive
+    date: 2025-11-13
+    text:
+    - Additional pictures
+    - Translation of Cocoro's report
     part-of:
       show:
         year: 2025

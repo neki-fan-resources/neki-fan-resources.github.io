@@ -195,19 +195,6 @@
       song: colorchord
 
 - youtubeshort:
-    id: KbsoiZszT6M
-    label: On stage
-    info: studio audio
-    published-date: 2025-11-11
-    context:
-    - song: colorchord
-    - show:
-        year: 2025
-        id: recommendjunction
-    part-of:
-      song: colorchord
-
-- youtubeshort:
     id: z0vyRccVHk0
     label: Rehearsal
     info: studio audio

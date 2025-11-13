@@ -24,6 +24,52 @@
         id: ignition
 
 - postx:
+    id: 1985300927234912650
+    account: CLUB251official
+    label: Limited Edition Original Cocktails
+    published-date: 2025-11-03
+    text: |-
+      [当日限定オリジナルカクテル！]
+      11/13(木)
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      ドリンクチケット or ¥600
+      
+      Bray me pre！
+      🍵帰ってきた卍ハイ
+      
+      NEK! pre！
+      🍹MAZEドリ!!!!(ノンアル)
+      
+      ▼チケット予約
+      https://t.livepocket.jp/e/251251113
+    translation: |-
+      [Limited Edition Original Cocktail!]
+      11/13 (Thu)
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      Drink Ticket or ¥600
+      
+      Bray me pre!
+      🍵The Returned Manji High
+      
+      NEK! pre!
+      🍹MAZE Drink!!!! (Non-Alcoholic)
+      
+      ▼Ticket Reservation
+      https://t.livepocket.jp/e/251251113
+    image:
+    - G4u_x9ybQAET-_K
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+    reference:
+    - postximage:
+        post: 1963195271380439131
+        image: GzqEJ3Ja0AM3eBA
+
+- postx:
     id: 1988530477892792731
     account: nekiband_jp
     label: Tomorrow
@@ -109,6 +155,18 @@
         id: ignition
     part-of:
       postx: 1963195271380439131
+
+- postximage:
+    post: 1985300927234912650
+    id: G4u_x9ybQAET-_K
+    label: Limited Edition Original Cocktails
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1985300927234912650
 
 - postximage:
     post: 1988550113870897593

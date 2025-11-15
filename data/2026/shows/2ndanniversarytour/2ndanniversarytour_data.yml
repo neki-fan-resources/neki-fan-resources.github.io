@@ -21,6 +21,20 @@
 
 - webimage:
     domain: note.com.nekiband
+    page: n24f4c4a23534
+    id: tourperks
+    label: Tour perks
+    published-date: 2025-11-15
+    url: 'https://assets.st-note.com/img/1763203301-vlqRuw3hMgDFIHWUCpr8ydz2.jpg?width=2000&height=2000&fit=bounds&quality=85'
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n24f4c4a23534
+
+- webimage:
+    domain: note.com.nekiband
     page: n3d37c2c897c8
     id: poster01
     label: Poster
@@ -33,6 +47,17 @@
       webpage:
         domain: note.com.nekiband
         id: n3d37c2c897c8
+
+- webpage:
+    domain: note.com.nekiband
+    id: n24f4c4a23534
+    label: 2nd anniversary tour perks
+    published-date: 2025-11-15
+    url: 'https://note.com/nekiband_jp/n/n24f4c4a23534'
+    image:
+    - tourperks
+    part-of:
+      tour: 2ndanniversarytour
 
 - webpage:
     domain: note.com.nekiband

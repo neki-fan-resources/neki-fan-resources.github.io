@@ -143,6 +143,190 @@
     part-of:
       postx: 1988530477892792731
 
+- postx:
+    id: 1988970473615684061
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-13
+    text: |-
+      251 presents Ignition!!! 
+      ～ Special Two Man Show ～
+      @ 下北沢CLUB251
+      
+      ありがとうございました⚡️✨
+      
+      初の全国ツアー🔥
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      ▶︎https://l-tike.com/nekiband/
+      
+      #Brayme さん🫶
+      #NEKI
+    translation: |-
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ Shimokitazawa CLUB251
+      
+      Thank you very much ⚡️✨
+      
+      First national tour 🔥
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      ▶︎https://l-tike.com/nekiband/
+      
+      #Brayme 🫶
+      #NEKI
+    image:
+    - G5o-GHaacAQmmz4
+    - G5o-GHcacAQslRe
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+
+- postx:
+    id: 1988979794927813063
+    account: nekiband_jp
+    label: Reigen Girl live
+    published-date: 2025-11-13
+    text: |-
+      2025.11.13(Thu.)
+      251 presents Ignition!!! 
+      ～ Special Two Man Show ～
+      SHIMOKITAZAWA CLUB251
+      #NEKI
+    part-of:
+      postxvideo:
+        post: 1988979794927813063
+        video: 01
+
+- postx:
+    id: 1988991929821151489
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-11-13
+    text: |-
+      251 presents Ignition!!! 
+      ～ Special Two Man Show ～
+      @ 下北沢CLUB251
+      
+      お越しくださりありがとうございました🌟
+      今年もBray meさんと251でツーマンできて本当に嬉しかったし、
+      Bray meさんは私たちにとってのアネキです👩💙
+      この先もまたツーマンできたら嬉しく思います(｡•̀ᴗ-)☆
+    translation: |-
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ Shimokitazawa CLUB251
+      
+      Thank you for coming 🌟
+      We were genuinely happy to have a two-man show with Bray me-san at 251 again this year, and
+      Bray me-san is like an older sister (aneki) to us 👩💙
+      We would be delighted if we can have another two-man show in the future (｡•̀ᴗ-)☆
+    image:
+    - G5pRmkyacAA0pB9
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+    reference:
+    - postximage:
+        post: 1988970473615684061
+        image: G5o-GHaacAQmmz4
+
+- postx:
+    id: 1988995037615853822
+    account: coco_102
+    label: Thank you
+    published-date: 2025-11-13
+    text: |-
+      Bray meさんとのツーマン無事終演しました❤️‍🔥
+      お越しくださった皆様ありがとうございました！！
+      フロアの熱量に圧倒されてるうちに気づいたらライブが終わってました！笑
+      今日も暑かった！これぞライブ！ありがとう！！
+      
+      Bray me姉さん、これからもNEK!のネキとしてよろしくお願いいたします！！！👊🏻🔥
+    translation: |-
+      Our two-man show with Bray me-san safely concluded ❤️‍🔥
+      Thank you to everyone who came!!
+      I was so overwhelmed by the heat of the floor that before I knew it, the show was over! lol
+      It was hot again today! That's what a live show is all about! Thank you!!
+      
+      Bray me big sister (aneki), please continue to look out for NEK! (neki) from now on!!! 👊🏻🔥
+    image:
+    - G5pUb1-bIAAzVHh
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+    reference:
+    - postximage:
+        post: 1988970473615684061
+        image: G5o-GHcacAQslRe
+    - postximage:
+        post: 1988970473615684061
+        image: G5o-GHaacAQmmz4
+
+- postx:
+    id: 1988999123501216092
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-11-13
+    text: |-
+      251 presents Ignition!!! 
+      ～ Special Two Man Show ～
+      
+      平日なのに多くの方が足を運んでくださり嬉しかったです！
+      1年ぶりのBray meさんとのツーマン！🔥
+      痺れました、、、ほんまにカッコ良すぎる姉貴様です、、、
+      食らいついていけるようもっと頑張ります！！！
+      今後ともよろしくお願いします😭🤍
+    translation: |-
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      
+      I was happy that so many people came out even though it was a weekday!
+      Our first two-man show with Bray me-san in a year! 🔥
+      We were thrilled/stunned... they really are too cool, our big sisters (aneki)...
+      We will work harder so we can keep up!!!
+      Please continue to support us 😭🤍
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+    reference:
+    - postximage:
+        post: 1988970473615684061
+        image: G5o-GHaacAQmmz4
+
+- postx:
+    id: 1989011716701843707
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-11-13
+    text: |-
+      本日!!お越しくださった皆様
+      ありがとうございました！
+      
+      下北沢CLUB251さんで一年ぶりの
+      Bray meさんとのツーマンライブ。
+      本当に嬉しかったです！
+      すごく楽しかったし、少しでも進化したNEK!をお届けできたのかなと思ってます！
+      
+      最高の夜をありがとうございました！
+    translation: |-
+      To everyone who came today!!
+      Thank you very much!
+      
+      Our two-man live with Bray me-san at Shimokitazawa CLUB251
+      after one year.
+      We were truly happy!
+      It was so much fun, and I hope we were able to deliver a NEK! that has evolved even a little!
+      
+      Thank you for a great night!
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+
 - postximage:
     post: 1963195271380439131
     id: GzqEJ3Ja0AM3eBA
@@ -179,4 +363,125 @@
         id: ignition
     part-of:
       postx: 1988550113870897593
+
+- postximage:
+    post: 1988970473615684061
+    id: G5o-GHaacAQmmz4
+    label: Bands
+    info: Bray me, NEK!
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1988970473615684061
+
+- postximage:
+    post: 1988970473615684061
+    id: G5o-GHcacAQslRe
+    label: On stage
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1988970473615684061
+
+- postximage:
+    post: 1988991929821151489
+    id: G5pRmkyacAA0pB9
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1988991929821151489
+
+- postximage:
+    post: 1988995037615853822
+    id: G5pUb1-bIAAzVHh
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1988995037615853822
+
+- postximage:
+    post: 1988999123501216092
+    id: G5pYJ_bbkAAkuOE
+    label: On stage
+    info: Natsu
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1988999123501216092
+
+- postximage:
+    post: 1989011716701843707
+    id: G5pjnS3bIAACOis
+    label: On stage
+    info: Hika
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1989011716701843707
+
+- postximage:
+    post: 1989011716701843707
+    id: G5pjnS5bUAA7vng
+    label: On stage
+    published-date: 2025-11-13
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      postx: 1989011716701843707
+
+- postxvideo:
+    post: 1988979794927813063
+    id: 01
+    label: On stage
+    info: intro
+    published-date: 2025-11-13
+    cover: 1988979706524495874/img/njZFG3wvedPeHiNy.jpg
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    - song: reigengirl
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+
+- youtubeshort:
+    id: HoKEGiLelNA
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-14
+    context:
+    - song: blink
+    - show:
+        year: 2025
+        id: ignition
+    part-of:
+      show:
+        year: 2025
+        id: ignition
 

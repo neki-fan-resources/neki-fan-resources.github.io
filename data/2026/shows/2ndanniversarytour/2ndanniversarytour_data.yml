@@ -1,3 +1,48 @@
+- display:
+    tour: 2ndanniversarytour
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The tour kicks off on February 8th, just two days before the band's anniversary on February 10th.
+                - line:
+                  - text: The tour is composed of twelve dates, spread over three months. The tour starts in Tokyo, goes through Honshu and Kyushu, before finally returning to Tokyo.
+                - line:
+                  - text: The tour was teased during the "1ST ZEPP ONE MAN" concert, on August 30th. The list of dates was announced on October 3rd.
+        - subschronologysection:
+            label: Shows
+    - basicblock:
+        id: perks
+        label: tour perks
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: ⚠️⚠️ the translation may not be accurate. Please refer to the original poster for the exact details ⚠️⚠️
+            - textsubsection:
+                multimedia:
+                  webimage:
+                    domain: note.com.nekiband
+                    page: n24f4c4a23534
+                    id: tourperks
+                lines:
+                - line:
+                  - text: The rewards available depend on the number of attended shows.
+                - line:
+                  - text: Fans who attend at least 6 shows, including the finale at CLUB QUATTRO, will receive a limited-edition T-shirt, signed by the band members.
+                - line:
+                  - text: Fans who attend all 12 shows of the tour will participate in a Meet and Greet with the band members after the show at CLUB QUATTRO. These fans will receive a limited-edition T-shirt, which will be signed and presented by the band members.
+    part-of:
+      tour: 2ndanniversarytour
+
 - newsitem:
     id: upcoming
     tour: 2ndanniversarytour

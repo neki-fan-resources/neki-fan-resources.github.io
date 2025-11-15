@@ -247,6 +247,42 @@
         video: 01
 
 - postx:
+    id: 1781986268097991165
+    account: nekiband_jp
+    label: Release announcement
+    published-date: 2024-04-21
+    text: |-
+      NEK! 初のオリジナル曲
+      「Get Over」
+      
+      4/24(水)
+      0:00 配信リリース🎧
+      &
+      19:00 Music Video公開決定🔥
+      
+      配信リンクはこちら▼
+      https://lnk.to/HVGeas
+      
+      #NEKI #GetOver
+    translation: |-
+      NEK!'s first original song
+      "Get Over"
+      
+      4/24 (Wed)
+      0:00 Digital Release 🎧
+      &
+      19:00 Music Video Premiere Decided 🔥
+      
+      Distribution link is here ▼
+      https://lnk.to/HVGeas
+      
+      #NEKI #GetOver
+    part-of:
+      postxvideo:
+        post: 1781986268097991165
+        video: 01
+
+- postx:
     id: 1918636722516373576
     account: nekiband_jp
     label: announcement Get Over live video
@@ -378,6 +414,17 @@
         id: shibuyachelseahotel
     part-of:
       song: getover
+
+- postxvideo:
+    post: 1781986268097991165
+    id: 01
+    label: Music Video Teaser
+    published-date: 2024-04-21
+    cover: 1781986241212551168/pu/img/bfb34FbRGMVS2mG_.jpg
+    context:
+    - song: getover
+    part-of:
+      youtubevideo: maFSgVE2vXg
 
 - postxvideo:
     post: 1938475589318644015
@@ -725,8 +772,6 @@
     id: maFSgVE2vXg
     label: Music Video Teaser
     published-date: 2024-04-21
-    context:
-    - song: getover
     part-of:
       song: getover
 

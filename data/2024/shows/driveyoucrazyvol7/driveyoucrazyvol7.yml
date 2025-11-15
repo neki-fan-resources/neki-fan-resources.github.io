@@ -10,3 +10,7 @@ show:
   venue: 両国SUNRIZE, Tokyo
   event-page: 'https://livehousesunrize.jp/events/20189'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/sunrize-tokyo-japan-53561f75'
+  part-of:
+    group:
+      id: shows
+      group: 2024

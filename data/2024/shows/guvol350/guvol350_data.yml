@@ -1,3 +1,143 @@
+- postinstagram:
+    id: C5j_-YTxWES
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-04-10
+    text: |-
+      2024.04.09
+      
+      昨日、Girl's UP!!! Vol.350に出演させていただきました！
+      いつにも増してフロアが盛り上がってくれていて、ステージから見ていて最高に楽しかったです❤️‍🔥
+      
+      とあるお客様からeggmanのフロアの中心にある柱はサークルをするための柱だと教えていただきました(本当かな？笑)
+      いつか私たちNEK!のライブで皆さんがグルグル回る光景を見れたらいいな〜
+      もっともっともっともっと激アツなライブができるよう頑張っていきます！！！
+      
+      これからも応援よろしくお願いします🔥
+      
+      次回は5/7(Tue) Girl's UP!!! Vol.351で待ってます！またね！
+      
+      #neki #nekiband #girlsband #shibuyaeggman #shibuya #eggman #girldrummer #femaledrummer
+    translation: |-
+      We performed at Girl's UP!!! Vol.350 yesterday!
+      The floor was more energized than ever, and it was incredibly fun to see from the stage ❤️‍🔥
+      
+      One audience member told me that the pillar in the center of the eggman floor is for doing circles (is that true? lol)
+      I hope to one day see everyone spinning around at a NEK! show~
+      We will work hard to be able to put on even more, more, more, more intensely exciting live shows!!!
+      
+      Please continue to support us 🔥
+      
+      Next time, we'll be waiting for you at Girl's UP!!! Vol.351 on 5/7 (Tue)! See you then!
+    image:
+    - 02
+    - 06
+    part-of:
+      show:
+        year: 2024
+        id: guvol350
+    reference:
+    - postximage:
+        post: 1777882436648816864
+        image: GKxOpceaQAAtkFe
+    - postximage:
+        post: 1777695998347010219
+        image: GKulFQXasAAGnVf
+    - postinstagramimage:
+        post: C5kENsoBTkC
+        image: 02
+    - postximage:
+        post: 1777882436648816864
+        image: GKxOpcgbQAAThmD
+    - postximage:
+        post: 1777695998347010219
+        image: GKulFQVbkAEr1t-
+
+- postinstagram:
+    id: C5kENsoBTkC
+    account: natsu08_guitar
+    label: Report
+    published-date: 2024-04-10
+    text: |-
+      2024.04.09「Girl's UP!!! vol.350」@ Shibuya eggman
+      
+      ありがとうございました!
+      
+      フロアのお客さまの盛り上がりが凄くて楽しかったーー‼️‼️
+      皆さんに負けないぐらいパフォーマンスができるように成長したい💪🏻
+      そして、演奏面もね❤️‍🔥❤️‍🔥
+      
+      次はまたまたShibuya eggmanさんにて「Girl’s UP!!! vol.351」に出演させていただきます！
+      またみなさまとお会いできますよーに!
+      
+      #neki #girlsband #ロックバンド
+    translation: |-
+      2024.04.09 "Girl's UP!!! vol.350" @ Shibuya eggman
+      
+      Thank you very much!
+      
+      The audience's excitement on the floor was amazing, and we had so much fun!! ‼️‼️
+      I want to grow so that we can perform just as well as you all cheered 💪🏻
+      And improve our playing too ❤️‍🔥❤️‍🔥
+      
+      Next, we will be performing at "Girl's UP!!! vol.351" at Shibuya eggman again!
+      Hope to see you all again!
+      
+      #neki #girlsband #rockband
+    image:
+    - 02
+    part-of:
+      postx: 1777882436648816864
+    reference:
+    - postximage:
+        post: 1777882436648816864
+        image: GKxOpceaQAAtkFe
+    - postximage:
+        post: 1777882436648816864
+        image: GKxOpcgbQAAThmD
+    - postximage:
+        post: 1777882436648816864
+        image: GKxOpcdbQAAid1_
+    - postximage:
+        post: 1777882436648816864
+        image: GKxOpcdacAAcvaD
+
+- postinstagramimage:
+    post: C5j_-YTxWES
+    id: 02
+    label: On stage
+    published-date: 2024-04-10
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postinstagram: C5j_-YTxWES
+
+- postinstagramimage:
+    post: C5j_-YTxWES
+    id: 06
+    label: Drum set
+    published-date: 2024-04-10
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postinstagram: C5j_-YTxWES
+
+- postinstagramimage:
+    post: C5kENsoBTkC
+    id: 02
+    label: Band
+    published-date: 2024-04-10
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postinstagram: C5kENsoBTkC
+
 - postx:
     id: 1777586723876147363
     account: nekiband_jp
@@ -118,6 +258,28 @@
         year: 2024
         id: guvol350
 
+- postx:
+    id: 1777882436648816864
+    account: natsu08_guitar
+    label: Report
+    published-date: 2024-04-10
+    text: |-
+      2024.04.09 @ Shibuya eggman
+      インスタにあげた写真Twitterにもあげよっと🌟
+    translation: |-
+      2024.04.09 @ Shibuya eggman
+      I'll upload the pictures I posted on Instagram to Twitter too 🌟
+    image:
+    - GKxOpcgbQAAThmD
+    - GKxOpcdbQAAid1_
+    - GKxOpcdacAAcvaD
+    - GKxOpceaQAAtkFe
+    todo: more pictures on instagram ?
+    part-of:
+      show:
+        year: 2024
+        id: guvol350
+
 - postximage:
     post: 1777594109558952005
     id: GKtHu_waEAA2ryE
@@ -181,9 +343,86 @@
     part-of:
       postx: 1777695998347010219
 
+- postximage:
+    post: 1777882436648816864
+    id: GKxOpcdacAAcvaD
+    label: Sidewalk board
+    published-date: 2024-04-10
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postx: 1777882436648816864
+
+- postximage:
+    post: 1777882436648816864
+    id: GKxOpcdbQAAid1_
+    label: Natsu, Hika
+    published-date: 2024-04-10
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postx: 1777882436648816864
+
+- postximage:
+    post: 1777882436648816864
+    id: GKxOpceaQAAtkFe
+    label: On stage
+    published-date: 2024-04-10
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postx: 1777882436648816864
+
+- postximage:
+    post: 1777882436648816864
+    id: GKxOpcgbQAAThmD
+    label: Band
+    published-date: 2024-04-10
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      postx: 1777882436648816864
+
+- webimage:
+    domain: eggman.jp
+    page: guvol350
+    id: poster
+    label: Poster
+    published-date: 2024-03-09
+    url: 'http://eggman.jp/eggwp/wp-content/uploads/2024/03/GID5_IIaEAE0URt.jpeg'
+    context:
+    - show:
+        year: 2024
+        id: guvol350
+    part-of:
+      webpage:
+        domain: eggman.jp
+        id: guvol350
+
+- webpage:
+    domain: eggman.jp
+    id: guvol350
+    label: Event page
+    published-date: 2024-03-09
+    url: 'http://eggman.jp/schedule/girls-up-vol-350/'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2024
+        id: guvol350
+
 - youtubeshort:
     id: 6W-P3YBkybQ
-    label: Live
+    label: On stage
     published-date: 2024-04-20
     context:
     - song: reigengirl

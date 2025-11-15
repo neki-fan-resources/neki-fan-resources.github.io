@@ -10,3 +10,7 @@ show:
   venue: 六本木unravel tokyo
   event-page: 'https://tiget.net/events/314471'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/unravel-tokyo-tokyo-japan-23561c8b'
+  part-of:
+    group:
+      id: shows
+      group: 2024

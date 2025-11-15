@@ -1,7 +1,7 @@
 - postx:
     id: 1784417275292143972
     account: Aya_Bas2
-    label: announcement
+    label: Announcement
     published-date: 2024-04-28
     text: |-
       【情報解禁👏🏻❤️‍🔥】
@@ -26,6 +26,29 @@
       ※NEK!の配信出演はございません
       
       両チケット共に5/12(日)12:00発売🔥
+    translation: |-
+      【Information Released 👏🏻❤️‍🔥】
+      
+      2024.7.15 (Mon/Holiday)
+      Ryogoku SUNRIZE
+      Hyo presents
+      Drive You Crazy vol.7
+      
+      w/
+      Shoujo S
+      EITA (+TAKAEITA)
+      NEK!
+      MANATY
+      
+      In-person Tickets 🎫
+      https://tiget.net/events/317099
+      *Entry Order: TIGET → Band Reservation → Same-day
+      
+      Streaming Tickets 🎫
+      https://twitcasting.tv/clubtenjiku/shopcart/306758
+      *NEK! will not be appearing in the stream
+      
+      Both ticket types go on sale 5/12 (Sun) at 12:00 PM 🔥
     image:
     - GMOGC_5bAAAhTe9
     part-of:
@@ -36,7 +59,7 @@
 - postximage:
     post: 1784417275292143972
     id: GMOGC_5bAAAhTe9
-    label: flyer
+    label: Flyer
     published-date: 2024-04-28
     local-copy: true
     context:

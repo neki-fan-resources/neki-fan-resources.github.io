@@ -10,3 +10,7 @@ show:
   venue: 下北沢SHELTER, Tokyo
   event-page: 'https://www.loft-prj.co.jp/schedule/shelter/282240'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shelter-tokyo-japan-2b561ca6'
+  part-of:
+    group:
+      id: shows
+      group: 2024

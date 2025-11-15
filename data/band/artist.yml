@@ -1,0 +1,5 @@
+group:
+  id: artist
+  label: Artists
+  part-of:
+    group: band

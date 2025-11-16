@@ -1,3 +1,73 @@
+- display:
+    show:
+      year: 2025
+      id: ignition
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1988979794927813063
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1988970473615684061
+                    image: G5o-GHcacAQslRe
+                - postximage:
+                    post: 1989011716701843707
+                    image: G5pjnS5bUAA7vng
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1988991929821151489
+                    image: G5pRmkyacAA0pB9
+                - postximage:
+                    post: 1989011716701843707
+                    image: G5pjnS3bIAACOis
+                - postximage:
+                    post: 1988995037615853822
+                    image: G5pUb1-bIAAzVHh
+                - postximage:
+                    post: 1988999123501216092
+                    image: G5pYJ_bbkAAkuOE
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1988970473615684061
+                    image: G5o-GHaacAQmmz4
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: HoKEGiLelNA
+        - basicsection:
+            label: More from the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1985300927234912650
+                    image: G4u_x9ybQAET-_K
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+
 - postx:
     id: 1963195271380439131
     account: CLUB251official
@@ -465,6 +535,18 @@
         year: 2025
         id: ignition
     - song: reigengirl
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+
+- update:
+    show:
+      year: 2025
+      id: ignition
+    date: 2025-11-15
+    text:
+    - Added videos and pictures from the show
     part-of:
       show:
         year: 2025

@@ -64,6 +64,14 @@
     part-of:
       tour: 2ndanniversarytour
 
+- update:
+    tour: 2ndanniversarytour
+    date: 2025-11-14
+    text:
+    - Added information about attendance perks
+    part-of:
+      tour: 2ndanniversarytour
+
 - webimage:
     domain: note.com.nekiband
     page: n24f4c4a23534

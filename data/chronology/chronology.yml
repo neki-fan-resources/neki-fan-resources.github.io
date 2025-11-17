@@ -62,7 +62,13 @@ contentpage:
       id: 1stalbummeme
   - album: meme
   - event: iwanttostartaband
+  - media:
+      year: 2025
+      id: fm802802palette
   - song: gimmick
+  - media:
+      year: 2025
+      id: fmosakaloveflap
   - show:
       year: 2025
       id: thetheoryofscience

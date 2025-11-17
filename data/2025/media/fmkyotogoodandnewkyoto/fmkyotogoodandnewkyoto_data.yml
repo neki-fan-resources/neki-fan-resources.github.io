@@ -1,3 +1,101 @@
+- postx:
+    id: 1990285250300408042
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-17
+    text: |-
+      α-STATION「GOOD & NEW KYOTO」
+      
+      ゲスト出演させていただきました！
+      お聴きいただきありがとうございました📻
+      
+      「GiMMiCK」をOAいただきました⚡️
+      
+      11/26(水)リリース
+      NEK! 1st Album「MEME」
+      💿ご予約：https://pcim.lnk.to/meme_CD
+      🎧11/19「GiMMiCK」先行配信：https://lnk.to/NEKI_MEME
+       
+      #NEKI
+    translation: |-
+      α-STATION "GOOD & NEW KYOTO"
+      
+      We appeared as guests!
+      Thank you for listening 📻
+      
+      "GiMMiCK" was played on air ⚡️
+      
+      NEK! 1st Album "MEME"
+      Releasing 11/26 (Wed)
+      💿Pre-order: https://pcim.lnk.to/meme_CD
+      🎧11/19 "GiMMiCK" Pre-release stream: https://lnk.to/NEKI_MEME
+       
+      #NEKI
+    image:
+    - G57p4dTbkAAvG3S
+    part-of:
+      media:
+        year: 2025
+        id: fmkyotogoodandnewkyoto
+
+- postx:
+    id: 1990295324972446133
+    account: GOODandNEWALPHA
+    label: Thank you
+    published-date: 2025-11-17
+    text: |-
+      ガールズバンド NEK! からHikaさん、Natsuさんにスタジオ生出演していただきました🗣️
+      @nekiband_jp
+      
+      
+      💿11/26ファーストアルバム「MEME」リリース🌟
+      
+      🎤「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」関西は来年4月にライブがあります→https://note.com/nekiband_jp/n/n3d37c2c897c8
+      
+      #グッドニュー
+    translation: |-
+      Hika-san and Natsu-san from the girl band NEK! appeared live in the studio 🗣️
+      @nekiband_jp
+      
+      
+      💿11/26 First album "MEME" release 🌟
+      
+      🎤"NEK! 2nd ANNIVERSARY LIVE TOUR 2026" There will be a concert in Kansai next April →https://note.com/nekiband_jp/n/n3d37c2c897c8
+      
+      #GoodNew
+    image:
+    - G57zDBqbUAAysh7
+    part-of:
+      media:
+        year: 2025
+        id: fmkyotogoodandnewkyoto
+
+- postximage:
+    post: 1990285250300408042
+    id: G57p4dTbkAAvG3S
+    label: At the station
+    info: Hika, Natsu
+    published-date: 2025-11-17
+    context:
+    - media:
+        year: 2025
+        id: fmkyotogoodandnewkyoto
+    part-of:
+      postx: 1990285250300408042
+
+- postximage:
+    post: 1990295324972446133
+    id: G57zDBqbUAAysh7
+    label: In studio
+    info: Hika, Satoshi Hirano, Natsu
+    published-date: 2025-11-17
+    context:
+    - media:
+        year: 2025
+        id: fmkyotogoodandnewkyoto
+    part-of:
+      postx: 1990295324972446133
+
 - update:
     media:
       year: 2025
@@ -5,6 +103,18 @@
     date: 2025-11-12
     text:
     - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fmkyotogoodandnewkyoto
+
+- update:
+    media:
+      year: 2025
+      id: fmkyotogoodandnewkyoto
+    date: 2025-11-17
+    text:
+    - Added photos from the appearance
     part-of:
       media:
         year: 2025

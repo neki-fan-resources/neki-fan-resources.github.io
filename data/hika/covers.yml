@@ -1,5 +1,53 @@
-group:
-  id: covers
-  label: Covers
-  part-of:
-    group: hika
+- group:
+    id: covers
+    label: Covers
+    part-of:
+      group: hika
+
+- postx:
+    id: 1990374513595552039
+    account: 46_hikaa
+    label: Blink / NEK!
+    info: cover
+    published-date: 2025-11-17
+    text: |-
+      Blink / NEK!
+      
+       #踊るシンガーソングライター
+      紗耶華ちゃんがNEK!の曲を
+      一緒に歌ってくれましたー！！！！
+      
+      @sayaka_626_
+       ありがとうぉおお𖤐 ̖́-
+      
+       #紗耶華  #踊るシンガーソングライター 
+       #ネキミーム  #neki  #hika
+    translation: |-
+      Blink / NEK!
+      
+      The dancing singer-songwriter,
+      Sayaka-chan, sang a NEK! song
+      with me!!!!
+      
+      @sayaka_626_
+      Thank you so much 𖤐 ̖́-
+      
+      #Sayaka #DancingSingerSongwriter
+      #NekiMeme #neki #hika
+    part-of:
+      group:
+        id: covers
+        group: hika
+
+- postxvideo:
+    post: 1990374513595552039
+    id: 01
+    label: Blink / NEK!
+    info: cover, Sayaka, Hika
+    published-date: 2025-11-17
+    cover: 1990374402069073920/img/ujJgClNzB7XPdzE6.jpg
+    context:
+    - song: blink
+    part-of:
+      postx: 1990374513595552039
+

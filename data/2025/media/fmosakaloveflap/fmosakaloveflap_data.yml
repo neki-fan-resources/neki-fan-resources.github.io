@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2025
+      id: fmosakaloveflap
+    date: 2025-11-17
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fmosakaloveflap
+
+- webimage:
+    domain: radiko.jp
+    page: 10001979
+    id: flyer
+    label: Flyer
+    published-date: 2025-11-13
+    url: 'https://radiko.jp/mobile/_next/image?url=https%3A%2F%2Fprogram-static.cf.radiko.jp%2Ffb10c3a2-b967-48fb-a264-c0cf8f4a38bd.jpeg&w=640;q=75'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: radiko.jp
+        id: 10001979
+
+- webpage:
+    domain: radiko.jp
+    id: 10001979
+    label: Radiko page
+    published-date: 2025-11-13
+    url: 'https://radiko.jp/r_seasons/10001979'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2025
+        id: fmosakaloveflap
+

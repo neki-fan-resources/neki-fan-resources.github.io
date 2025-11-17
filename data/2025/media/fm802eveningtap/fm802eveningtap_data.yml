@@ -12,9 +12,80 @@
             - textsubsection:
                 lines:
                 - line:
-                  - text: The previous interview was recorded when the band was in Osaka for a concert and broadcast a month later.
+                  - text: The previous interview was recorded when the band was in Osaka for a concert and was broadcast a month later.
                 - line:
-                  - text: This time Hika and Natsu will be live in the studio.
+                  - text: This time, Hika and Natsu were live in the studio.
+            - multimediasubsection:
+                label: Pictures
+                multimedia:
+                - postximage:
+                    post: 1990387787246252466
+                    image: G59HIQBaIAAqZQk
+    part-of:
+      media:
+        year: 2025
+        id: fm802eveningtap
+
+- postx:
+    id: 1990387787246252466
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-17
+    text: |-
+      #FM802  「EVENING TAP」
+      
+      ゲスト出演させていただきました⚡️
+      お聴きいただきありがとうございました📻
+      
+      11/26(水)リリース
+      NEK! 1st Album「MEME」
+      💿詳細はこちら: https://note.com/nekiband_jp/n/n828855136334
+      
+      初の全国ツアーチケット受付は明日11/18(火)23:59まで🎟️
+      https://l-tike.com/nekiband/
+       
+      #NEKI #802TAP
+    translation: |-
+      #FM802 "EVENING TAP"
+      
+      We appeared as guests ⚡️
+      Thank you for listening 📻
+      
+      NEK! 1st Album "MEME"
+      Releasing 11/26 (Wed)
+      💿Details here: https://note.com/nekiband_jp/n/n828855136334
+      
+      Pre-sale tickets for the first national tour close tomorrow, 11/18 (Tues) at 23:59 🎟️
+      https://l-tike.com/nekiband/
+       
+      #NEKI #802TAP
+    image:
+    - G59HIQBaIAAqZQk
+    part-of:
+      media:
+        year: 2025
+        id: fm802eveningtap
+
+- postximage:
+    post: 1990387787246252466
+    id: G59HIQBaIAAqZQk
+    label: At the station
+    info: Natsu, Hika
+    published-date: 2025-11-17
+    context:
+    - media:
+        year: 2025
+        id: fm802eveningtap
+    part-of:
+      postx: 1990387787246252466
+
+- update:
+    media:
+      year: 2025
+      id: fm802eveningtap
+    date: 2025-11-10
+    text:
+    - Added the appearance
     part-of:
       media:
         year: 2025
@@ -24,9 +95,9 @@
     media:
       year: 2025
       id: fm802eveningtap
-    date: 2025-11-10
+    date: 2025-11-17
     text:
-    - Added the appearance
+    - Added photos from the appearance
     part-of:
       media:
         year: 2025

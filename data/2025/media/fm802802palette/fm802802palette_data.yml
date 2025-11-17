@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2025
+      id: fm802802palette
+    date: 2025-11-17
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fm802802palette
+
+- webimage:
+    domain: funky802.com
+    page: 1625
+    id: flyer
+    label: Flyer
+    published-date: 2025-11-13
+    url: 'https://funky802.com/site/ogp/1625.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: funky802.com
+        id: 1625
+
+- webpage:
+    domain: funky802.com
+    id: 1625
+    label: Show page
+    published-date: 2025-11-13
+    url: 'https://funky802.com/site/blog/1625'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2025
+        id: fm802802palette
+

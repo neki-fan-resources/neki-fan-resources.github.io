@@ -1,0 +1,23 @@
+mediaaudio:
+  year: 2025
+  id: fmosakaloveflap
+  cover-image:
+    webimage:
+      domain: radiko.jp
+      page: 10001979
+      id: flyer
+  radio: FM大阪 (FM Osaka)
+  show: LOVE FLAP
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-11-19
+  host: 下埜正太 (Shota Shimono)
+  program: 'https://www.fmosaka.net/_sites/16782357'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - Hika and Natsu will appear on the FM Osaka show "LOVE FLAP".

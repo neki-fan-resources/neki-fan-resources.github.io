@@ -12,7 +12,134 @@
             - textsubsection:
                 lines:
                 - line:
-                  - text: Hika and Natsu will be in the studio for the interview. The previous time, they were remote from Tokyo.
+                  - text: For this interview, Hika and Natsu were present in the studio. For the previous appearance, they participated remotely from Tokyo.
+            - multimediasubsection:
+                label: Pictures
+                multimedia:
+                - postximage:
+                    post: 1990322913774653728
+                    image: G58MIzpbsAAvoPe
+                - postximage:
+                    post: 1990321949135028312
+                    image: G58LQwYaYAECkeT
+    part-of:
+      media:
+        year: 2025
+        id: eradiocatch2
+
+- postx:
+    id: 1990321949135028312
+    account: eradio_official
+    label: Thank you
+    published-date: 2025-11-17
+    text: |-
+      #キャッチ月曜日
+      
+      本日ゲストにガールズロックバンド
+       #NEK! の
+      #Hika さん #Natsu さんを
+      スタジオにお迎えしました🎶
+      
+      聴き逃した方は
+      #radiko のタイムフリーで
+      https://radiko.jp/share/?t=20251117160000&sid=E-RADIO
+      
+      #NEKI #久世サトシ
+      #fm滋賀 #eradio #キャッチ770
+    translation: |-
+      #CatchMonday
+      
+      Today we welcomed the members of the girls rock band
+      #NEK!
+      #Hika-san and #Natsu-san
+      to the studio 🎶
+      
+      If you missed it, listen on
+      #radiko Time-Free
+      https://radiko.jp/share/?t=20251117160000&sid=E-RADIO
+      
+      #NEKI #SatoshiKuze
+      #fmShiga #eradio #Catch770
+    image:
+    - G58LQwYaYAECkeT
+    part-of:
+      media:
+        year: 2025
+        id: eradiocatch2
+
+- postx:
+    id: 1990322913774653728
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-17
+    text: |-
+      FM滋賀  e-radio「キャッチ!」
+      
+      サテライトスタジオにてゲスト出演させていただきました🎙️
+      
+      お聴きいただきありがとうございました👓
+      
+      11/26(水)リリース
+      NEK! 1st Album「MEME」
+      💿ご予約：https://pcim.lnk.to/meme_CD
+      🎧11/19「GiMMiCK」先行配信：https://lnk.to/NEKI_MEME
+       
+      #NEKI 
+      #FM滋賀
+      #eradio
+    translation: |-
+      FM Shiga e-radio "Catch!"
+      
+      We appeared as guests at the satellite studio 🎙️
+      
+      Thank you for listening 👓
+      
+      NEK! 1st Album "MEME"
+      Releasing 11/26 (Wed)
+      💿Pre-order: https://pcim.lnk.to/meme_CD
+      🎧11/19 "GiMMiCK" Pre-release stream: https://lnk.to/NEKI_MEME
+       
+      #NEKI 
+      #FMShiga
+      #eradio
+    image:
+    - G58MIzpbsAAvoPe
+    part-of:
+      postx: 1990321949135028312
+
+- postximage:
+    post: 1990321949135028312
+    id: G58LQwYaYAECkeT
+    label: In studio
+    info: Hika, Satoshi Kuze, Natsu
+    published-date: 2025-11-17
+    context:
+    - media:
+        year: 2025
+        id: eradiocatch2
+    part-of:
+      postx: 1990321949135028312
+
+- postximage:
+    post: 1990322913774653728
+    id: G58MIzpbsAAvoPe
+    label: In studio
+    info: Hika, Satoshi Kuze, Natsu
+    published-date: 2025-11-17
+    context:
+    - media:
+        year: 2025
+        id: eradiocatch2
+    part-of:
+      postx: 1990322913774653728
+
+- update:
+    media:
+      year: 2025
+      id: eradiocatch2
+    date: 2025-11-10
+    text:
+    - Added the appearance
     part-of:
       media:
         year: 2025
@@ -22,9 +149,9 @@
     media:
       year: 2025
       id: eradiocatch2
-    date: 2025-11-10
+    date: 2025-11-17
     text:
-    - Added the appearance
+    - Added photos from the appearance
     part-of:
       media:
         year: 2025

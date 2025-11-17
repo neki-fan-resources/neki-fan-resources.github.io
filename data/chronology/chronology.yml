@@ -6,7 +6,7 @@ contentpage:
       id: manekineko_cover
   label: Chronology
   display-type: timeline
-  start-date: 2024-01-01
+  start-date: 2024-02-01
   end-date: 2026-05-31
   description: The main events in the NEK! story. Song and EP releases, shows, tours, interviews, ...
   categories: []
@@ -72,6 +72,9 @@ contentpage:
   - media:
       year: 2025
       id: eradiocatch2
+  - media:
+      year: 2025
+      id: fmkyotogoodandnewkyoto
   - show:
       year: 2025
       id: minamiwheel
@@ -140,12 +143,12 @@ contentpage:
   - media:
       year: 2025
       id: bayfm78musicurate
-  - media:
-      year: 2025
-      id: guitarmagazine05
   - show:
       year: 2025
       id: kogaderarock
+  - media:
+      year: 2025
+      id: guitarmagazine05
   - media:
       year: 2025
       id: fm802infinityradio
@@ -161,9 +164,10 @@ contentpage:
   - show:
       year: 2025
       id: tricktakingtourosaka
+  - tour: tricktakingtour
+  - album: tricktaking
   - song: moon
   - song: fool
-  - album: tricktaking
   - multimedia-event: dreamsmv
   - show:
       year: 2025
@@ -245,9 +249,9 @@ contentpage:
   - show:
       year: 2024
       id: fypvol3
+  - album: exclamation
   - song: blink
   - song: endlessgame
-  - album: exclamation
   - song: maze
   - show:
       year: 2024

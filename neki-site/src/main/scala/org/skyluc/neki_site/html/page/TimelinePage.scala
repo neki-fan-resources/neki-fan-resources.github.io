@@ -10,7 +10,7 @@ import dfr.Path
 
 class TimelinePage(
     contentPage: fr.compileddata.ElementCompiledData,
-    configuration: component.TimelineSectionConfiguration,
+    configuration: fr.component.ChronologySectionConfiguration,
 ) extends MainSitePage {
 
   override val outputPath: Path = contentPage.id.path.tailSegments().withExtension(Common.HTML_EXTENSION)
@@ -27,7 +27,7 @@ class TimelinePage(
     contentPage.description.map { d =>
       fr.component.MainIntro.generate(d)
     }.toSeq
-      ++ component.TimelineSection.generate(configuration)
+      ++ fr.component.TimelineSection.generate(configuration)
   }
 
 }
@@ -40,7 +40,14 @@ object TimelinePage {
   ): Seq[fr.page.MainSitePage] = {
     val compiledData = generator.getElementCompiledData(contentPage)
 
-    val configuration = component.TimelineSectionConfiguration.createFrom(contentPage, generator)
+    val configuration = fr.component.ChronologySectionConfiguration.createFromIds(
+      contentPage.content,
+      contentPage.startDate,
+      contentPage.endDate,
+      contentPage.categories,
+      contentPage.displayType,
+      generator,
+    )
 
     Seq(
       TimelinePage(compiledData, configuration)

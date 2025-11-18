@@ -26,6 +26,9 @@ contentpage:
   - show
   - tour
   - writtenmedia
+  isAltColorMarker:
+  - audiomedia
+  - writtenmedia
   content:
   - show:
       year: 2026

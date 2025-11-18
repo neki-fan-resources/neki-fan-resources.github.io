@@ -10,6 +10,10 @@ contentpage:
   end-date: 2025-12-15
   description: The albums and songs released by NEK!.
   categories: []
+  isLargeMarker: []
+  isWithSubsMarker: []
+  isSmallMarker: []
+  isLeftMarker: []
   content:
   - album: meme
   - song: gimmick

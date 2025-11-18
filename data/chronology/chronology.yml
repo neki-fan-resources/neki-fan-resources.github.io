@@ -10,6 +10,22 @@ contentpage:
   end-date: 2026-05-31
   description: The main events in the NEK! story. Song and EP releases, shows, tours, interviews, ...
   categories: []
+  isLargeMarker:
+  - album
+  - event
+  - maintourshow
+  - song
+  - video
+  isWithSubsMarker:
+  - album
+  isSmallMarker:
+  - show
+  isLeftMarker:
+  - audiomedia
+  - event
+  - show
+  - tour
+  - writtenmedia
   content:
   - show:
       year: 2026

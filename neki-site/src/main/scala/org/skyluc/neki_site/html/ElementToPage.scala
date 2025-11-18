@@ -98,11 +98,7 @@ object ElementToPage {
       fr.page.CategoriesPagePage.pagesFor(categoriesPage, generator, MainSitePageBuilder)
 
     override def processContentPage(contentPage: d.ContentPage): Seq[fr.page.MainSitePage] =
-      if (contentPage.displayType == fr.component.ChronologySectionConfiguration.DISPLAY_TYPE_TIMELINE) {
-        page.TimelinePage.pagesFor(contentPage, generator)
-      } else {
-        fr.page.ContentPagePage.pagesFor(contentPage, generator, MainSitePageBuilder)
-      }
+      fr.page.ContentPagePage.pagesFor(contentPage, generator, MainSitePageBuilder)
 
     override def processEvent(event: d.Event): Seq[fr.page.MainSitePage] =
       fr.page.element.EventBlockPages(event).build(page.ElementContentPageBuilder, generator)

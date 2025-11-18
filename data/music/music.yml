@@ -5,15 +5,16 @@ contentpage:
       event: siteimages
       id: manekineko_cover
   label: Music, songs and albums
-  display-type: contentwithsub
   start-date: 2024-04-01
   end-date: 2025-12-15
   description: The albums and songs released by NEK!.
-  categories: []
-  isLargeMarker: []
-  isWithSubsMarker: []
-  isSmallMarker: []
-  isLeftMarker: []
+  withlinks: true
+  compressed: true
+  isLargeMarker:
+  - album
+  - song
+  isWithSubsMarker:
+  - album
   content:
   - album: meme
   - song: gimmick
@@ -24,6 +25,5 @@ contentpage:
   - song: dreams
   - song: loner
   - album: exclamation
-  - song: maze
   - song: reigengirl
   - song: getover

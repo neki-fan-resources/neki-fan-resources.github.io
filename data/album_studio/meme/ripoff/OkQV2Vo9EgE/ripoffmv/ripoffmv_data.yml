@@ -1,0 +1,9 @@
+localimage:
+  multimedia-event: ripoffmv
+  id: mvcover
+  label: MV cover
+  published-date: 2025-08-23
+  source:
+    description: YouTube video
+  part-of:
+    multimedia-event: ripoffmv

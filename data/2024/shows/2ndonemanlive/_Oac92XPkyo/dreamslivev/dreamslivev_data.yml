@@ -1,0 +1,9 @@
+localimage:
+  multimedia-event: dreamslivev
+  id: livevcover
+  label: Live Video cover
+  published-date: 2024-12-18
+  source:
+    description: YouTube video
+  part-of:
+    multimedia-event: dreamslivev

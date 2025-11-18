@@ -1,0 +1,9 @@
+localimage:
+  multimedia-event: getovermv
+  id: mvcover
+  label: MV cover
+  published-date: 2024-04-24
+  source:
+    description: YouTube video
+  part-of:
+    multimedia-event: getovermv

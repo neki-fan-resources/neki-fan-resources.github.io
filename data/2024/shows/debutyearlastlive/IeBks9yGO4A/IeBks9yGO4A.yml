@@ -1,0 +1,59 @@
+- youtubevideo:
+    id: IeBks9yGO4A
+    label: Official Live Video
+    published-date: 2025-05-04
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- localimage:
+    multimedia-event: getoverlivev
+    id: getoverlivecover
+    label: Cover
+    published-date: 2025-05-04
+    source:
+      description: YouTube video
+    part-of:
+      youtubevideo: IeBks9yGO4A
+
+- postx:
+    id: 1931984997382316384
+    account: nekiband_jp
+    label: tickets available
+    published-date: 2025-06-09
+    text: |-
+      ￼￼#ロックの日￼￼
+      
+      8/30(土)
+      NEK!初のZEPP ONE MAN開催￼
+      
+      Live at Zepp Shinjuku￼
+      チケット先着先行受付中！
+      
+      ￼ https://l-tike.com/nekiband/
+      
+      #NEKI #拡散中 #ネキ界隈
+    image:
+    - Gs_KDFfb0AAtXQ1
+    part-of:
+      youtubevideo: IeBks9yGO4A
+
+- postximage:
+    post: 1931984997382316384
+    id: Gs_KDFfb0AAtXQ1
+    label: On stage
+    info: from the crowd
+    published-date: 2025-06-09
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1931984997382316384
+

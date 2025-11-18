@@ -1,0 +1,9 @@
+localimage:
+  multimedia-event: mazemv
+  id: mvcover
+  label: MV cover
+  published-date: 2024-07-24
+  source:
+    description: YouTube video
+  part-of:
+    multimedia-event: mazemv

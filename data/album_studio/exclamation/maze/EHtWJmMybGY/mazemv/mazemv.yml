@@ -1,0 +1,13 @@
+multimedia-event:
+  id: mazemv
+  cover-image:
+    localimage:
+      multimedia-event: mazemv
+      id: mvcover
+  youtubevideo: EHtWJmMybGY
+  parent:
+    song: maze
+  categories:
+  - video
+  part-of:
+    youtubevideo: EHtWJmMybGY

@@ -1823,15 +1823,6 @@
       song: maze
 
 - youtubevideo:
-    id: EHtWJmMybGY
-    label: Official Music Video
-    published-date: 2024-07-24
-    context:
-    - song: maze
-    part-of:
-      song: maze
-
-- youtubevideo:
     id: hXGPxYalJfk
     label: Kanade Bass play-through
     published-date: 2024-08-29

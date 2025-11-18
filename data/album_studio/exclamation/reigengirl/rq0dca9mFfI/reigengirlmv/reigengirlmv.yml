@@ -1,0 +1,13 @@
+multimedia-event:
+  id: reigengirlmv
+  cover-image:
+    localimage:
+      multimedia-event: reigengirlmv
+      id: mvcover
+  youtubevideo: rq0dca9mFfI
+  parent:
+    song: reigengirl
+  categories:
+  - video
+  part-of:
+    youtubevideo: rq0dca9mFfI

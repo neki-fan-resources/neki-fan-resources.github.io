@@ -105,6 +105,7 @@ contentpage:
   - media:
       year: 2025
       id: radionippon-sweet
+  - multimedia-event: ripoffmv
   - song: ripoff
   - show:
       year: 2025
@@ -172,12 +173,11 @@ contentpage:
       id: tricktakingtourosaka
   - tour: tricktakingtour
   - album: tricktaking
-  - song: moon
-  - song: fool
   - multimedia-event: dreamsmv
   - show:
       year: 2025
       id: guvol375
+  - multimedia-event: zerosummv
   - song: zerosum
   - event: 1yearanniversary
   - show:
@@ -190,6 +190,7 @@ contentpage:
   - show:
       year: 2024
       id: debutyearlastlive
+  - multimedia-event: dreamslivev
   - song: dreams
   - show:
       year: 2024
@@ -216,6 +217,7 @@ contentpage:
       year: 2024
       id: minamiwheel2024
   - song: loner
+  - multimedia-event: lonermv
   - show:
       year: 2024
       id: guvol366
@@ -256,9 +258,7 @@ contentpage:
       year: 2024
       id: fypvol3
   - album: exclamation
-  - song: blink
-  - song: endlessgame
-  - song: maze
+  - multimedia-event: mazemv
   - show:
       year: 2024
       id: 1stonemanlive
@@ -266,6 +266,7 @@ contentpage:
       year: 2024
       id: driveyoucrazyvol7
   - song: reigengirl
+  - multimedia-event: reigengirlmv
   - show:
       year: 2024
       id: beyondthesingularityvol7
@@ -300,6 +301,7 @@ contentpage:
       year: 2024
       id: guvol351
   - song: getover
+  - multimedia-event: getovermv
   - show:
       year: 2024
       id: guvol350

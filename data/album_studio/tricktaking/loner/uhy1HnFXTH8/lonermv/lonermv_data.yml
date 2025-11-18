@@ -1,0 +1,9 @@
+localimage:
+  multimedia-event: lonermv
+  id: mvcover
+  label: MV cover
+  published-date: 2024-10-09
+  source:
+    description: YouTube video
+  part-of:
+    multimedia-event: lonermv

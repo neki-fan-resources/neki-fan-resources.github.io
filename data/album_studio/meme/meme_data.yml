@@ -144,6 +144,50 @@
     part-of:
       postinstagram: DQbox4-kjh8
 
+- postx:
+    id: 1990798932306505823
+    account: nekiband_jp
+    label: Streaming Campaign
+    published-date: 2025-11-19
+    text: |-
+      🎧CAMPAIGN🎧
+      
+      NEK! 1st Album『MEME』
+      ストリーミングキャンペーン実施決定🎊
+      
+      ★「GiMMiCK」ストリーミングシェアキャンペーン
+      &
+      ★「MEME」Pre-add/Pre-saveキャンペーン
+      
+      詳しくは添付画像とリンクから🔗
+      ぜひご参加お願いします🎶
+      
+      詳細はこちら▼
+      https://note.com/nekiband_jp/n/nca8668de5106
+      
+      #NEKI #MEME
+    translation: |-
+      🎧CAMPAIGN🎧
+      
+      NEK! 1st Album 『MEME』
+      Streaming Campaign decided🎊
+      
+      ★ "GiMMiCK" Streaming Share Campaign
+      &
+      ★ "MEME" Pre-add/Pre-save Campaign
+      
+      See the attached image and link for details🔗
+      Please join us🎶
+      
+      Details here▼
+      https://note.com/nekiband_jp/n/nca8668de5106
+      
+      #NEKI #MEME
+    image:
+    - G6C5QdUboAAjvwX
+    part-of:
+      album: meme
+
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
@@ -209,6 +253,16 @@
     - album: meme
     part-of:
       postx: 1976221883000594481
+
+- postximage:
+    post: 1990798932306505823
+    id: G6C5QdUboAAjvwX
+    label: Streaming Campaign
+    published-date: 2025-11-19
+    context:
+    - album: meme
+    part-of:
+      postx: 1990798932306505823
 
 - postxvideo:
     post: 1983159440678510938

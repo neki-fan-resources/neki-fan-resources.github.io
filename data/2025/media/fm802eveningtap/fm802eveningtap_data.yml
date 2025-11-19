@@ -19,6 +19,9 @@
                 label: Pictures
                 multimedia:
                 - postximage:
+                    post: 1990421782176612546
+                    image: G59mDogaYAAprra
+                - postximage:
                     post: 1990387787246252466
                     image: G59HIQBaIAAqZQk
     part-of:
@@ -66,6 +69,24 @@
         year: 2025
         id: fm802eveningtap
 
+- postx:
+    id: 1990421782176612546
+    account: FM802_PR
+    label: Blog article
+    published-date: 2025-11-17
+    text: |-
+      《EVENING TAP》
+      GUEST: NEK! 
+      @nekiband_jp
+      
+      #802TAP #FM802
+      
+      Blog: https://funky802.com/et/article/155923
+    part-of:
+      webpage:
+        domain: funky802.com
+        id: et155923
+
 - postximage:
     post: 1990387787246252466
     id: G59HIQBaIAAqZQk
@@ -78,6 +99,18 @@
         id: fm802eveningtap
     part-of:
       postx: 1990387787246252466
+
+- postximage:
+    post: 1990421782176612546
+    id: G59mDogaYAAprra
+    label: In studio
+    published-date: 2025-11-17
+    context:
+    - media:
+        year: 2025
+        id: fm802eveningtap
+    part-of:
+      postx: 1990421782176612546
 
 - update:
     media:
@@ -124,6 +157,18 @@
     url: 'https://funky802.com/et/'
     image:
     - logo
+    part-of:
+      media:
+        year: 2025
+        id: fm802eveningtap
+
+- webpage:
+    domain: funky802.com
+    id: et155923
+    label: blog article
+    published-date: 2025-11-17
+    url: 'https://funky802.com/et/article/155923'
+    image: []
     part-of:
       media:
         year: 2025

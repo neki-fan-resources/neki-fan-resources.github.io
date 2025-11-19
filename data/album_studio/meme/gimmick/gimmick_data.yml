@@ -6,13 +6,19 @@
         label: main
         sections:
         - basicsection:
-            label: Teasers
+            label: Live
             subsections:
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
                     post: 1987453821082304748
                     video: 01
+        - basicsection:
+            label: Teasers
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 6_0t0q1LBpw
         - basicsection:
             label: Possible behind the scenes pictures from an upcoming music video
             subsections:
@@ -39,6 +45,16 @@
                 - postximage:
                     post: 1981624049173488100
                     image: G4AkjfxW8AEFeH2
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: JiBQIqwpMzc
     part-of:
       song: gimmick
 
@@ -218,6 +234,32 @@
     date: 2025-11-10
     text:
     - Short live video from Cocoro
+    part-of:
+      song: gimmick
+
+- update:
+    song: gimmick
+    date: 2025-11-19
+    text:
+    - Music Video teaser
+    part-of:
+      song: gimmick
+
+- youtubeshort:
+    id: 6_0t0q1LBpw
+    label: MV teaser
+    published-date: 2025-11-19
+    context:
+    - song: gimmick
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- youtubevideo:
+    id: js9WXQHa5J0
+    label: Official Music Video
+    published-date: 2025-11-21
+    context:
+    - song: gimmick
     part-of:
       song: gimmick
 

@@ -1,3 +1,66 @@
+- display:
+    show:
+      year: 2025
+      id: thetheoryofscience
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1990756757828980764
+                    image: G6CWsLraoAAGm3v
+                - postximage:
+                    post: 1990747279180116232
+                    image: G6COFuEbMAID7KA
+                - postximage:
+                    post: 1990791246206677287
+                    image: G6C2FOJbMAIkcJS
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1990790079674290383
+                    image: G6C1AjpbsAAF74y
+                - postximage:
+                    post: 1990794774702604628
+                    image: G6C5SVdasAAkSq2
+                - postximage:
+                    post: 1990791246206677287
+                    image: G6C2FOAbMAADAHC
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1990791246206677287
+                    image: G6C2FOHaIAAqfEL
+                - postximage:
+                    post: 1990794774702604628
+                    image: G6C5SVnasAA8ODq
+                - postximage:
+                    post: 1990790079674290383
+                    image: G6C1AjsaIAA-8pv
+                - postximage:
+                    post: 1990756757828980764
+                    image: G6CWsLmbMAcPVxw
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: JiBQIqwpMzc
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
 - postx:
     id: 1934083816131596730
     account: nekiband_jp
@@ -175,6 +238,259 @@
         post: 1961987308070240564
         image: GzktVWObQAAB4zy
 
+- postx:
+    id: 1990672017583190153
+    account: nekiband_jp
+    label: Today
+    published-date: 2025-11-18
+    text: |-
+      🔥本日出演🔥
+      
+      11/18(火)
+      「”The Theory of SCIENCE"～Shinjuku club SCIENCE 10th Anniversary ～」
+      
+      ＜ DAY1 ＞
+      📍CLUB SCIENCE 
+      ⏰19:15-19:45
+      
+      🎟️当日券は総合受付にて！
+      
+      新宿に集合お願いします🫶
+      
+      #NEKI #THETHEORYOFSCIENCE
+    translation: |-
+      🔥Appearing Today🔥
+      
+      11/18 (Tue)
+      "The Theory of SCIENCE" ~ Shinjuku club SCIENCE 10th Anniversary ~"
+      
+      < DAY1 >
+      📍CLUB SCIENCE 
+      ⏰19:15-19:45
+      
+      🎟️Same-day tickets available at the main reception!
+      
+      See you in Shinjuku🫶
+      
+      #NEKI #THETHEORYOFSCIENCE
+    image:
+    - G6BJpLwaUAA7GDH
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+    reference:
+    - postximage:
+        post: 1972621729647546763
+        image: G2ApADSbwAA9bsY
+    - postximage:
+        post: 1961987308070240564
+        image: GzktTajbkAAtiOe
+
+- postx:
+    id: 1990747279180116232
+    account: S_club_SCIENCE
+    label: Thank you
+    published-date: 2025-11-18
+    text: |-
+      【club SCIENCE 10th Anniversary】
+      ⚡️2025.11.18 TUE & 11.19 WED⚡️
+      #THETHEORYOFSCIENCE
+      📷LIVE REPORT📷
+      
+      🏟️club SCIENCE
+      🥁NEK!(
+      @nekiband_jp
+       )
+      
+      ご出演頂き有難うございました🎉‼️
+      
+      📷by(
+      @AaaSpy
+       )
+    translation: |-
+      [club SCIENCE 10th Anniversary]
+      ⚡️2025.11.18 TUE & 11.19 WED⚡️
+      #THETHEORYOFSCIENCE
+      📷LIVE REPORT📷
+      
+      🏟️club SCIENCE
+      🥁NEK! (@nekiband_jp)
+      
+      Thank you very much for performing🎉‼️
+      
+      📷by (@AaaSpy)
+    image:
+    - G6COFuEbMAID7KA
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- postx:
+    id: 1990756757828980764
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-18
+    text: |-
+      "The Theory of SCIENCE"
+      ～Shinjuku club SCIENCE 10th Anniversary ～
+      
+      📍CLUB SCIENCE 
+      
+      ご来場ありがとうございました💥
+      
+      初の全国ツアー🔥
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      チケットお申込みは本日23:59まで⚠️
+      ▶︎https://l-tike.com/nekiband/
+      
+      #NEKI 
+      #THETHEORYOFSCIENCE
+    translation: |-
+      "The Theory of SCIENCE"
+      ～Shinjuku club SCIENCE 10th Anniversary ～
+      
+      📍CLUB SCIENCE 
+      
+      Thank you for coming💥
+      
+      First nationwide tour🔥
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Ticket applications are only until 23:59 tonight⚠️
+      ▶︎https://l-tike.com/nekiband/
+      
+      #NEKI 
+      #THETHEORYOFSCIENCE
+    image:
+    - G6CWsLmbMAcPVxw
+    - G6CWsLraoAAGm3v
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- postx:
+    id: 1990790079674290383
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-11-18
+    text: |-
+      本日もありがとうございました‼️
+      皆さんとの距離が近くて熱気を感じられて熱々のライブでした🔥
+      そして新曲披露いたしました〜！！
+      どうでしたかー？？
+      みなさんとまたこの曲をライブで作り上げて行けたらいいなと思っております！🫶🏻
+    translation: |-
+      Thank you for today as well‼️
+      The distance with everyone was close, and I could feel the passion, making it a super-heated live show🔥
+      And we performed a new song today!!
+      How was it??
+      I hope we can continue to build up this song together with all of you at future shows!🫶🏻
+    image:
+    - G6C1AjpbsAAF74y
+    - G6C1AjsaIAA-8pv
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+    reference:
+    - postximage:
+        post: 1990756757828980764
+        image: G6CWsLmbMAcPVxw
+
+- postx:
+    id: 1990790843184394572
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-11-18
+    text: |-
+      ご来場ありがとうございました𖤐 ̖́-
+      めちゃ楽しかったぁあ！
+      
+      このあと！！24時から
+      「GiMMiCK」楽曲配信スタートします！
+      
+      そして‼︎
+      初の全国ツアーのチケットお申し込みが
+      本日の23:59まで！
+      
+      #ネキミーム
+    translation: |-
+      Thank you for coming𖤐 ̖́-
+      It was so much fun!
+      
+      After this!! From 24:00
+      The song "GiMMiCK" streaming will start!
+      
+      And!!
+      Applications for tickets for our first nationwide tour
+      are only until 23:59 tonight!
+      
+      #NekiMEME
+    image:
+    - G6C1sMWbMAIp5HO
+    - G6C1sMgaUAAScQ-
+    part-of:
+      postx: 1990756757828980764
+
+- postx:
+    id: 1990791246206677287
+    account: coco_102
+    label: Thank you
+    published-date: 2025-11-18
+    text: |-
+      "The Theory of SCIENCE"
+      ~Shinjuku club SCIENCE 10th Anniversary ~
+      
+      本日もありがとうございました！！
+      新曲だらけの攻めに攻めた激アツライブ、とても楽しかったです🔥
+      初披露曲もみんなノってくれてて嬉しかった！
+      
+      このあと0時からは新曲GiMMiCKの配信が始まりますので、そちらもお楽しみに😎
+    translation: |-
+      "The Theory of SCIENCE"
+      ~Shinjuku club SCIENCE 10th Anniversary ~
+      
+      Thank you for today as well!!
+      The super-heated live show, which was an aggressive attack full of new songs, was a lot of fun🔥
+      I was happy everyone was grooving along to the song we performed for the first time!
+      
+      After this, the new song GiMMiCK will start streaming from midnight, so please look forward to that too😎
+    image:
+    - G6C2FOAbMAADAHC
+    - G6C2FOHaIAAqfEL
+    - G6C2FOJbMAIkcJS
+    part-of:
+      postx: 1990756757828980764
+
+- postx:
+    id: 1990794774702604628
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-11-18
+    text: |-
+      "The Theory of SCIENCE" ~ Shinjuku club SCIENCE 10th Anniversary ~DAYI
+      @ Shinjuku club SCIENCE
+      
+      24時からリリース開始の『GiMMiCK』と、初披露の曲もありましたがどうでしたかー？🌟
+      
+      そしてツアーのチケット受付も本日23時59分までですので、滑り込みもお待ちしてます！
+    translation: |-
+      "The Theory of SCIENCE" ~ Shinjuku club SCIENCE 10th Anniversary ~DAY1
+      @ Shinjuku club SCIENCE
+      
+      How was "GiMMiCK," which starts releasing at 24:00, and the song we performed for the first time?🌟
+      
+      Also, ticket applications for the tour are only until 23:59 tonight, so we're waiting for your last-minute entry!
+    image:
+    - G6C5SVdasAAkSq2
+    - G6C5SVnasAA8ODq
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
 - postximage:
     post: 1934083816131596730
     id: Gtc-9etbYAAg1fO
@@ -247,4 +563,194 @@
         id: thetheoryofscience
     part-of:
       postx: 1979472544098037887
+
+- postximage:
+    post: 1990672017583190153
+    id: G6BJpLwaUAA7GDH
+    label: Map poster
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990672017583190153
+
+- postximage:
+    post: 1990747279180116232
+    id: G6COFuEbMAID7KA
+    label: On stage
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990747279180116232
+
+- postximage:
+    post: 1990756757828980764
+    id: G6CWsLmbMAcPVxw
+    label: Band
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990756757828980764
+
+- postximage:
+    post: 1990756757828980764
+    id: G6CWsLraoAAGm3v
+    label: On stage
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990756757828980764
+
+- postximage:
+    post: 1990790079674290383
+    id: G6C1AjpbsAAF74y
+    label: On stage
+    info: Natsu
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990790079674290383
+
+- postximage:
+    post: 1990790079674290383
+    id: G6C1AjsaIAA-8pv
+    label: Backstage
+    info: Natsu
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990790079674290383
+
+- postximage:
+    post: 1990790843184394572
+    id: G6C1sMWbMAIp5HO
+    label: On stage
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990790843184394572
+
+- postximage:
+    post: 1990790843184394572
+    id: G6C1sMgaUAAScQ-
+    label: On stage
+    info: Hika
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990790843184394572
+
+- postximage:
+    post: 1990791246206677287
+    id: G6C2FOAbMAADAHC
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990791246206677287
+
+- postximage:
+    post: 1990791246206677287
+    id: G6C2FOHaIAAqfEL
+    label: Backstage
+    info: Cocoro
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990791246206677287
+
+- postximage:
+    post: 1990791246206677287
+    id: G6C2FOJbMAIkcJS
+    label: On stage
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990791246206677287
+
+- postximage:
+    post: 1990794774702604628
+    id: G6C5SVdasAAkSq2
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990794774702604628
+
+- postximage:
+    post: 1990794774702604628
+    id: G6C5SVnasAA8ODq
+    label: Backstage
+    info: Kanade
+    published-date: 2025-11-18
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      postx: 1990794774702604628
+
+- update:
+    show:
+      year: 2025
+      id: thetheoryofscience
+    date: 2025-11-19
+    text:
+    - Initial set of pictures from the show
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- youtubeshort:
+    id: JiBQIqwpMzc
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-19
+    context:
+    - song: gimmick
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
 

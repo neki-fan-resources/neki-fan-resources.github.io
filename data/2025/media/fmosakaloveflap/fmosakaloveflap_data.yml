@@ -1,3 +1,124 @@
+- display:
+    media:
+      year: 2025
+      id: fmosakaloveflap
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Pictures
+                multimedia:
+                - postximage:
+                    post: 1990972324003393724
+                    image: G6FamfEacAA1ixr
+                - postximage:
+                    post: 1991021885984063594
+                    image: G6GH2JKbMAAWpOe
+    part-of:
+      media:
+        year: 2025
+        id: fmosakaloveflap
+
+- postx:
+    id: 1990972324003393724
+    account: LOVEFLAP
+    label: Today
+    published-date: 2025-11-19
+    text: |-
+      【11/19（水）】
+      ✯MENU①✯
+      ⏰12時台【🎙️ゲストメッセージ🎙️】
+      2024年結成の4人組ガールズバンド
+      NEK!からメッセージ到着！
+      
+      #FM大阪 #LOVEFLAP #radiko #NEKI
+    translation: |-
+      [11/19 (Wed)]
+      ✯MENU①✯
+      ⏰Around 12:00 [🎙️Guest Message🎙️]
+      A message has arrived from the four-member girl band
+      NEK!, formed in 2024!
+      
+      #FM_OSAKA #LOVEFLAP #radiko #NEKI
+    image:
+    - G6FamfEacAA1ixr
+    part-of:
+      media:
+        year: 2025
+        id: fmosakaloveflap
+
+- postx:
+    id: 1991021885984063594
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-19
+    text: |-
+      FM大阪「LOVE FLAP」
+      
+      Hika & Natsu
+      出演させていただきました❣️
+      
+      お聴きいただきありがとうございました📻
+      
+      新曲「GiMMiCK」
+      楽曲先行配信中🎧
+      ▶︎https://lnk.to/NEKI_MEME
+      
+      11/26(水)リリース
+      NEK! 1st Album『MEME』💿
+      ▶︎https://pcim.lnk.to/meme_CD　
+      
+      #NEKI #FM大阪
+    translation: |-
+      FM Osaka "LOVE FLAP"
+      
+      Hika & Natsu
+      made an appearance❣️
+      
+      Thank you for listening📻
+      
+      New song "GiMMiCK"
+      now streaming in advance🎧
+      ▶︎https://lnk.to/NEKI_MEME
+      
+      Releasing 11/26 (Wed)
+      NEK! 1st Album 『MEME』💿
+      ▶︎https://pcim.lnk.to/meme_CD　
+      
+      #NEKI #FM_OSAKA
+    part-of:
+      media:
+        year: 2025
+        id: fmosakaloveflap
+
+- postximage:
+    post: 1990972324003393724
+    id: G6FamfEacAA1ixr
+    label: In studio
+    published-date: 2025-11-19
+    context:
+    - media:
+        year: 2025
+        id: fmosakaloveflap
+    part-of:
+      postx: 1990972324003393724
+
+- postximage:
+    post: 1991021885984063594
+    id: G6GH2JKbMAAWpOe
+    label: At the station
+    published-date: 2025-11-19
+    context:
+    - media:
+        year: 2025
+        id: fmosakaloveflap
+    part-of:
+      postx: 1991021885984063594
+
 - update:
     media:
       year: 2025
@@ -5,6 +126,18 @@
     date: 2025-11-17
     text:
     - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fmosakaloveflap
+
+- update:
+    media:
+      year: 2025
+      id: fmosakaloveflap
+    date: 2025-11-19
+    text:
+    - Added photos from the appearance
     part-of:
       media:
         year: 2025

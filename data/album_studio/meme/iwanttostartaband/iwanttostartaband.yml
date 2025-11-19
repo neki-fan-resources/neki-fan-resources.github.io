@@ -2,9 +2,9 @@ event:
   id: iwanttostartaband
   cover-image:
     webimage:
-      domain: tower.jp
-      page: 2025.10.03.0706
-      id: 0706
+      domain: note.com.nekiband
+      page: n994b00505e6c
+      id: poster
   label: ああバンドやりたい！
   date: 2025-11-25
   description:
@@ -19,11 +19,15 @@ event:
         domain: tower.jp
         page: 2025.10.03.0706
         id: 10127538
+    video:
+    - postxvideo:
+        post: 1991071615577149847
+        video: 01
     image:
     - webimage:
-        domain: tower.jp
-        page: 2025.10.03.0706
-        id: 0706
+        domain: note.com.nekiband
+        page: n994b00505e6c
+        id: poster
     - webimage:
         domain: tower.jp
         page: 2025.10.03.0706

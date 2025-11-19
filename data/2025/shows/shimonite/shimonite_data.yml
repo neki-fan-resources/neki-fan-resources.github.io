@@ -37,6 +37,50 @@
         year: 2025
         id: shimonite
 
+- postx:
+    id: 1990658695475442164
+    account: nekiband_jp
+    label: Schedule
+    published-date: 2025-11-18
+    text: |-
+      ⚡️タイムテーブル公開⚡️
+      
+      12/6(土)開催
+      「下北沢にて'25」
+      
+      📍Flowers Loft
+      ⏰13:00-13:30
+       
+      下北沢でお待ちしております💥
+      
+      🔗 https://shimonite.com
+      
+      #NEKI #下北沢にて
+    translation: |-
+      ⚡️Time Table Revealed⚡️
+      
+      Held on 12/6 (Sat)
+      "Shimo-Kitazawa Nite '25"
+      
+      📍Flowers Loft
+      ⏰13:00-13:30
+       
+      We'll be waiting for you in Shimo-Kitazawa💥
+      
+      🔗 https://shimonite.com
+      
+      #NEKI #ShimoKitazawaNite
+    image:
+    - G6A9hz_bMAMnK-L
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+    reference:
+    - postximage:
+        post: 1982055276930011353
+        image: G4GsvB-WwAALdCK
+
 - postximage:
     post: 1982055276930011353
     id: G4GsvB-WwAALdCK
@@ -60,6 +104,18 @@
         id: shimonite
     part-of:
       postx: 1982055276930011353
+
+- postximage:
+    post: 1990658695475442164
+    id: G6A9hz_bMAMnK-L
+    label: Schedule
+    published-date: 2025-11-19
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postx: 1990658695475442164
 
 - update:
     show:

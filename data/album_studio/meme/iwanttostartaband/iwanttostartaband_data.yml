@@ -1,3 +1,46 @@
+- postx:
+    id: 1991071615577149847
+    account: TOWER_Jrock
+    label: Comment video
+    published-date: 2025-11-19
+    text: |-
+      【#NEK! × タワレコ】 
+      
+      \ 『MEME』リリースまであと1週間 /
+      
+      SNSコラボ開催中の「ああバンドやりたい！」第13弾アンバサダー #NEK! の皆様からコメント動画をいただきました✨
+      
+      🔽1stフルアルバム『MEME』ご予約受付中🔽
+      https://tower.jp/article/news/2025/11/12/n101
+      (
+      @nekiband_jp
+      )
+    translation: |-
+      [#NEK! × Tower Records] 
+      
+      \ 1 Week until the release of 『MEME』 /
+      
+      We received a comment video from #NEK!, the 13th ambassador of "Ah, I Want to Be in a Band!" whose SNS collaboration is currently running✨
+      
+      🔽1st Full Album 『MEME』 currently accepting pre-orders🔽
+      https://tower.jp/article/news/2025/11/12/n101
+      (@nekiband_jp)
+    video:
+    - 01
+    part-of:
+      event: iwanttostartaband
+
+- postxvideo:
+    post: 1991071615577149847
+    id: 01
+    label: Video comment
+    published-date: 2025-11-19
+    cover: 1991069649614802944/img/tiFlxKN4-5SI8GD1.jpg
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postx: 1991071615577149847
+
 - update:
     event: iwanttostartaband
     date: 2025-10-03
@@ -5,6 +48,21 @@
     - NEK! named as the 13th ambassador for Tower Records' "Ah, I Want to Start a Band!" project.
     part-of:
       event: iwanttostartaband
+
+- webimage:
+    domain: note.com.nekiband
+    page: n994b00505e6c
+    id: poster
+    label: Poster
+    published-date: 2025-11-18
+    url: 'https://assets.st-note.com/img/1759491330-tGM0yS7s9i4bXABCgEHPven1.jpg'
+    local-copy: true
+    context:
+    - event: iwanttostartaband
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n994b00505e6c
 
 - webimage:
     domain: tower.jp
@@ -34,6 +92,17 @@
       webpage:
         domain: tower.jp
         id: 2025.10.03.0706
+
+- webpage:
+    domain: note.com.nekiband
+    id: n994b00505e6c
+    label: Event page
+    published-date: 2025-10-03
+    url: 'https://note.com/nekiband_jp/n/n994b00505e6c'
+    image:
+    - poster
+    part-of:
+      event: iwanttostartaband
 
 - webpage:
     domain: tower.jp

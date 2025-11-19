@@ -5,17 +5,16 @@ categoriespage:
       event: siteimages
       id: manekineko_cover
   label: Shows and tours
-  display-type: content
   start-date: 2024-02-10
   end-date: 2026-05-31
   description: The shows NEK! performed at.
   id-prefix:
   - show
   - tour
-  categories:
-  - id: show
-    label: Shows
-  - id: tour
-    label: Tours
-  - id: mainshowtour
-    label: Main shows and tours
+  withlinks: true
+  compressed: true
+  isLargeMarker:
+  - mainshow
+  - tour
+  isSmallMarker:
+  - show

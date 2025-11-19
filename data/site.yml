@@ -72,7 +72,7 @@ site:
       highlight:
       - live.html
     - name: Shows
-      link: /shows.html?cats=mainshowtour
+      link: /shows.html
       highlight:
       - shows.html
       - show

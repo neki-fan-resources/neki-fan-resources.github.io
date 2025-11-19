@@ -11,8 +11,9 @@ contentpage:
   isLargeMarker:
   - album
   - event
-  - maintourshow
+  - mainshow
   - song
+  - tour
   - video
   isWithSubsMarker:
   - album

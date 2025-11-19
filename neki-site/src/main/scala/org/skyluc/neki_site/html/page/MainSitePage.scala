@@ -127,7 +127,7 @@ object MainSitePage {
     ),
     NavigationItem(
       "Shows",
-      "/shows.html?cats=mainshowtour",
+      "/shows.html",
       List("shows.html", "show", "tour"),
     ),
     NavigationItem(

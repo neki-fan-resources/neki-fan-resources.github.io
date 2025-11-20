@@ -17,6 +17,8 @@
                   - text: The tour was teased during the "1ST ZEPP ONE MAN" concert, on August 30th. The list of dates was announced on October 3rd.
         - subschronologysection:
             label: Shows
+            isLargeMarker:
+            - show
     - basicblock:
         id: perks
         label: tour perks

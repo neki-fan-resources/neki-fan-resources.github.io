@@ -17,10 +17,44 @@
                   - text: The performance will also mark the band's first fully acoustic set. NEK! often includes a brief acoustic section in their concerts, but this will be the first time they perform an entire set acoustically.
                 - line:
                   - text: The event was announced on October 30 during a livestream about the upcoming album.
+            - multimediasubsection:
+                label: Before the show
+                multimedia:
+                - postxvideo:
+                    post: 1991367994325561515
+                    video: 01
     part-of:
       show:
         year: 2025
         id: memetowershibuya
+
+- postx:
+    id: 1991367994325561515
+    account: coco_102
+    label: Looking forward
+    published-date: 2025-11-21
+    text: |-
+      アコースティックリリイベ楽しみ😌
+    translation: |-
+      Looking forward to the acoustic release event 😌
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- postxvideo:
+    post: 1991367994325561515
+    id: 01
+    label: Rehearsal
+    published-date: 2025-11-20
+    cover: 1991367932233109504/img/0HZA0tZvsw8OIB8S.jpg
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    todo: try to find which song it is for
+    part-of:
+      postx: 1991367994325561515
 
 - update:
     show:

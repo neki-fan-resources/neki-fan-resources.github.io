@@ -2,8 +2,8 @@ song:
   id: gimmick
   cover-image:
     postximage:
-      post: 1961737876066168993
-      image: Gzl-A0MaAAAtcNa
+      post: 1991773376944435215
+      image: G6QySs3acAEhueE
   fullname: GiMMiCK
   album: meme
   release-date: 2025-11-19
@@ -11,6 +11,8 @@ song:
   - The name of this song was revealed on October 3rd, when the tracklist for the album "MEME" was announced.
   - NEK! performed the song for the first time at the "BUZZ RHYTHM LIVE" show on November 2nd.
   - During the show, the band announced that the song would be released on November 19th, likely accompanied by the music video they were filming recently.
+  lyrics:
+  - main
   part-of:
     album: meme
   multimedia:

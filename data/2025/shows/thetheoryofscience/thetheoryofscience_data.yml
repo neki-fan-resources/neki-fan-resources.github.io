@@ -12,6 +12,11 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 1991492012319936946
+                    video: 01
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1990756757828980764
                     image: G6CWsLraoAAGm3v
@@ -491,6 +496,25 @@
         year: 2025
         id: thetheoryofscience
 
+- postx:
+    id: 1991492012319936946
+    account: coco_102
+    label: MAZE live
+    info: Cocoro
+    published-date: 2025-11-20
+    text: |-
+      照明がすごいー！！💡🩷
+      
+      #NEKI #MAZE #ネキミーム
+    translation: |-
+      The lighting is amazing!! 💡🩷
+      
+      #NEKI #MAZE #NEKIMEME
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
 - postximage:
     post: 1934083816131596730
     id: Gtc-9etbYAAg1fO
@@ -726,6 +750,21 @@
         id: thetheoryofscience
     part-of:
       postx: 1990794774702604628
+
+- postxvideo:
+    post: 1991492012319936946
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-21
+    cover: 1991491913699192839/img/jtHTkCqxRAqFrRQn.jpg
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    - song: maze
+    part-of:
+      postx: 1991492012319936946
 
 - update:
     show:

@@ -6,6 +6,11 @@
         label: main
         sections:
         - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: js9WXQHa5J0
+        - basicsection:
             label: Live
             subsections:
             - multimediasubsection:
@@ -13,29 +18,31 @@
                 - postxvideo:
                     post: 1987453821082304748
                     video: 01
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
         - basicsection:
-            label: Teasers
             subsections:
             - multimediasubsection:
                 multimedia:
-                - youtubeshort: 6_0t0q1LBpw
-        - basicsection:
-            label: Possible behind the scenes pictures from an upcoming music video
-            subsections:
+                - youtubevideo: js9WXQHa5J0
             - multimediasubsection:
+                label: Behind the scenes
                 multimedia:
                 - postximage:
                     post: 1980973984511557877
                     image: G33VVb_WkAEJI_9
+                - postximage:
+                    post: 1980974929249218933
+                    image: G33WMQoXAAAn8WU
                 - postximage:
                     post: 1980987266681262190
                     image: G33hagoWoAAitgP
                 - postximage:
                     post: 1982277313711808645
                     image: G4J2tTqWMAALmdk
-                - postximage:
-                    post: 1980974929249218933
-                    image: G33WMQoXAAAn8WU
             - multimediasubsection:
                 label: Ouch
                 multimedia:
@@ -57,6 +64,232 @@
                 - youtubeshort: JiBQIqwpMzc
     part-of:
       song: gimmick
+
+- lyrics:
+    id: main
+    song: gimmick
+    part-of:
+      song: gimmick
+    status:
+      code: warning
+      description: Data copied from the sources. Not fully reviewed.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=js9WXQHa5J0'
+    - id: en
+      name: english translation
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=js9WXQHa5J0'
+    sections:
+    - lines:
+      - ol:
+        - 世界はお芝居だ
+      - en:
+        - The world is just a stage
+      - ol:
+        - 皆真剣ごっこ
+        en:
+        - Everyone's pretending to be serious
+      - ol:
+        - 始まりはあのシーンからね
+        en:
+        - It all began with that one scene
+      - ol:
+        - 何者でもないことを知ったから
+        en:
+        - I found freedom in knowing I was no one
+    - lines:
+      - ol:
+        - 自由を得られる
+        en:
+        - That's when I became free
+      - ol:
+        - それではここまでサヨナラバイバイ
+        en:
+        - And so, this is goodbye for now
+      - ol:
+        - スポットライトが眩しい
+        en:
+        - The spotlight burns bright
+      - ol:
+        - 絶対的キッカケ
+        en:
+        - A trigger beyond reason
+    - lines:
+      - ol:
+        - クライマックスへ
+        en:
+        - Leading to the climax
+      - ol:
+        - 辻褄合わせ
+        en:
+        - Trying to make sense of it all
+      - ol:
+        - 孤独を超え
+        en:
+        - Beyond loneliness
+      - ol:
+        - 視聴率は不要
+        en:
+        - I don't need your ratings
+      - ol:
+        - 眩し現 見据え
+        en:
+        - I face the dazzling reality
+      - ol:
+        - 得られないものがそこにあるんだ
+        en:
+        - What I can't grasp is right there before me
+    - lines:
+      - ol:
+        - 私の声を聴いて
+        en:
+        - Listen to my voice
+      - ol:
+        - まだまだまだ解っちゃいないね
+        en:
+        - You still don't understand, do you?
+      - ol:
+        - 普通なんてシナリオ通り
+        en:
+        - “Normal” is just following the script
+      - ol:
+        - 全てはまがいもの
+        en:
+        - Everything's an imitation
+    - lines:
+      - ol:
+        - 世界は残酷だ
+        en:
+        - The world can be cruel
+      - ol:
+        - ずっと主役なんて
+        en:
+        - No one stays the lead forever
+      - ol:
+        - 即興劇が連なるまま
+        en:
+        - One improvised act after another
+      - ol:
+        - ラストシーンはきちんとあるのかな
+        en:
+        - I wonder if there's a proper final scene
+    - lines:
+      - ol:
+        - めでたしめでたし
+        en:
+        - Happily ever after, they say
+      - ol:
+        - ほらもういいかな？バイバイバイバイ
+        en:
+        - I guess that's enough now—bye, bye, bye, bye
+      - ol:
+        - ハッピーエンドは確定でヒロイン降臨
+        en:
+        - Happy end sealed - heroine arrives
+      - ol:
+        - 全てが明転
+        en:
+        - The lights fade to black
+    - lines:
+      - ol:
+        - クライマックスへ
+        en:
+        - Heading toward the climax
+      - ol:
+        - 辻褄合わせ
+        en:
+        - Piecing the story together
+      - ol:
+        - 孤独を超え
+        en:
+        - Rising beyond solitude
+      - ol:
+        - 視聴率は不要
+        en:
+        - I don't need an audience
+      - ol:
+        - 眩し現 見据え
+        en:
+        - Eyes fixed on the blinding truth
+      - ol:
+        - 得られないものがそこにあるんだ
+        en:
+        - What I can1t reach still shines ahead
+    - lines:
+      - ol:
+        - 私の声を聴いて
+        en:
+        - Hear my voice
+      - ol:
+        - まだまだまだ解っちゃいないね
+        en:
+        - You still don't get it
+      - ol:
+        - 普通なんてシナリオ通り
+        en:
+        - “Ordinary” is just what's been written
+      - ol:
+        - 全てはまがいもの
+        en:
+        - Everything's an imitation
+    - lines:
+      - ol:
+        - クライマックスへ
+        en:
+        - Leading to the climax
+      - ol:
+        - 辻褄合わせ
+        en:
+        - Piecing the story together
+      - ol:
+        - 孤独を超え
+        en:
+        - Rising beyond solitude
+      - ol:
+        - 視聴率は不要
+        en:
+        - I don't need an audience
+      - ol:
+        - 眩し現 見据え
+        en:
+        - Eyes fixed on the blinding truth
+      - ol:
+        - 得られないものがそこにあるんだ
+        en:
+        - What I can't reach still shines ahead
+    - lines:
+      - ol:
+        - 私の声を聴いて
+        en:
+        - Hear my voice
+      - ol:
+        - まだまだまだ解っちゃいないね
+        en:
+        - You still don't get it
+      - ol:
+        - 普通なんてシナリオ通り
+        en:
+        - “Ordinary” is just what's been written
+      - ol:
+        - 全部自分がジャッジを下すのよ
+        en:
+        - I'm the one who makes the final call
+    - lines:
+      - ol:
+        - 何がまがいもの
+        en:
+        - What's real, and what's a lie?
 
 - newsitem:
     id: release
@@ -152,6 +385,43 @@
     part-of:
       song: gimmick
 
+- postx:
+    id: 1991773376944435215
+    account: nekiband_jp
+    label: Today
+    published-date: 2025-11-21
+    text: |-
+      🎥本日公開✨
+      
+      “GiMMiCK” Official Music Video
+      
+      20:30頃~
+      MV公開直前インスタライブ📣
+      ▶︎https://instagram.com/nekiband_jp/
+      
+      21:00~
+      YouTubeプレミア公開🎞️
+      ▶︎https://youtu.be/js9WXQHa5J0
+      
+      今夜の公開をぜひ一緒に楽しみましょう🫶
+      
+      #NEKI #MEME #ネキミーム
+    translation: |-
+      🎥 Releasing Today ✨
+      “GiMMiCK” Official Music Video
+      Around 20:30 (8:30 PM)~
+      Insta Live right before the MV release 📣
+      ▶︎https://instagram.com/nekiband_jp/
+      21:00 (9 PM)~
+      YouTube Premiere Screening 🎞️
+      ▶︎https://youtu.be/js9WXQHa5J0
+      Let's all enjoy the release tonight 🫶
+      #NEKI #MEME #NEKIMEME
+    image:
+    - G6QySs3acAEhueE
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
 - postximage:
     post: 1980973984511557877
     id: G33VVb_WkAEJI_9
@@ -221,6 +491,15 @@
     part-of:
       postx: 1982277313711808645
 
+- postximage:
+    post: 1991773376944435215
+    id: G6QySs3acAEhueE
+    label: Cover
+    published-date: 2025-11-21
+    local-copy: true
+    part-of:
+      postx: 1991773376944435215
+
 - update:
     song: gimmick
     date: 2025-11-03
@@ -242,6 +521,15 @@
     date: 2025-11-19
     text:
     - Music Video teaser
+    part-of:
+      song: gimmick
+
+- update:
+    song: gimmick
+    date: 2025-11-21
+    text:
+    - Release of the music video
+    - Lyrics and English translation from the music video
     part-of:
       song: gimmick
 

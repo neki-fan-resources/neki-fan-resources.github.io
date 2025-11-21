@@ -30,6 +30,46 @@
     part-of:
       event: iwanttostartaband
 
+- postx:
+    id: 1991431325463769517
+    account: TOWER_Jrock
+    label: Stickers and posters
+    published-date: 2025-11-20
+    text: |-
+      【#NEK! × タワレコ】
+      
+      11/25(火)～開始のタワーレコード独自企画「ああバンドやりたい!」
+      
+      ①タワーレコード全店で掲示するコラボポスター
+      ②11/26リリース『MEME』購入特典「NEK! コラボ絵柄ステッカー」
+      
+      NEK!メンバーからご紹介✨
+      
+      🔽企画詳細はこちら🔽
+      https://tower.jp/article/news/2025/11/12/n101
+      
+      (
+      @nekiband_jp
+      )
+    translation: |-
+      【#NEK! × TOWER RECORDS】
+      
+      Tower Records' original campaign "Ah, I want to be in a band!" starting from 11/25 (Tue)
+      
+      ① Collaboration poster displayed at all Tower Records stores
+      ② Purchase bonus for 'MEME' releasing on 11/26: "NEK! Collaboration design sticker"
+      
+      Introduced by NEK! members ✨
+      
+      🔽Details about the campaign here🔽
+      https://tower.jp/article/news/2025/11/12/n101
+      
+      (
+      @nekiband_jp
+      )
+    part-of:
+      event: iwanttostartaband
+
 - postxvideo:
     post: 1991071615577149847
     id: 01
@@ -40,6 +80,17 @@
     - event: iwanttostartaband
     part-of:
       postx: 1991071615577149847
+
+- postxvideo:
+    post: 1991431325463769517
+    id: 01
+    label: Stickers and posters
+    published-date: 2025-11-20
+    cover: 1991077649641598976/img/0SPupEq7buhh2ijl.jpg
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postx: 1991431325463769517
 
 - update:
     event: iwanttostartaband

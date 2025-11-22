@@ -194,3 +194,15 @@
     part-of:
       postx: 1992171561001034018
 
+- update:
+    show:
+      year: 2025
+      id: 1stalbummeme
+    date: 2025-11-22
+    text:
+    - Information about merch
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+

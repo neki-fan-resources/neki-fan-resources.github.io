@@ -2,10 +2,9 @@ mediaaudio:
   year: 2025
   id: fm802802palette
   cover-image:
-    webimage:
-      domain: funky802.com
-      page: 1625
-      id: flyer
+    postximage:
+      post: 1991845692902637923
+      image: G6R1DkAacAAzO-j
   radio: FM802
   show: 802 Palette
   designation: radio show
@@ -22,3 +21,8 @@ mediaaudio:
   description:
   - Hika and Natsu will appear on the FM802 show "802 Palette".
   - The members also announced that the unreleased song "Scrap Book" from the upcoming album "MEME" will be aired for the first time.
+  multimedia:
+    image:
+    - postximage:
+        post: 1992226077100646748
+        image: G6XPDoyaMAE_Sgj

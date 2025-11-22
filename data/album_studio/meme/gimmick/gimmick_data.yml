@@ -29,6 +29,14 @@
                 multimedia:
                 - youtubevideo: js9WXQHa5J0
             - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1992086222408454198
+                    image: G6VP222bAAA436i
+                - postximage:
+                    post: 1992086222408454198
+                    image: G6VP23DaMAAVFs-
+            - multimediasubsection:
                 label: Behind the scenes
                 multimedia:
                 - postximage:
@@ -43,6 +51,29 @@
                 - postximage:
                     post: 1982277313711808645
                     image: G4J2tTqWMAALmdk
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1991887814766817351
+                    image: G6SbaKKagAI-Xbe
+                - postximage:
+                    post: 1991887814766817351
+                    image: G6SbaKFaUAA2eg8
+                - postximage:
+                    post: 1992071842669199491
+                    image: G6VCxzNaQAIe6NW
+                - postximage:
+                    post: 1991874006962864186
+                    image: G6SO2DNaUAEdNii
+                - postximage:
+                    post: 1991844227953946722
+                    image: G6Rzw8KbMAEtwmA
+                - postximage:
+                    post: 1992123612602757154
+                    image: G6Vx288aIAAAwAv
+                - postximage:
+                    post: 1992123612602757154
+                    image: G6Vx288awAAteOh
             - multimediasubsection:
                 label: Ouch
                 multimedia:
@@ -422,6 +453,160 @@
     part-of:
       youtubevideo: js9WXQHa5J0
 
+- postx:
+    id: 1991829736260251688
+    account: coco_102
+    label: Insta live soon
+    published-date: 2025-11-21
+    text: |-
+      このあと20:30からインスタライブ！
+      待ってます🫶🏻
+    translation: |-
+      Insta Live from 20:30 (8:30 PM) after this!
+      We're waiting for you🫶🏻
+    video:
+    - 01
+    part-of:
+      postx: 1991773376944435215
+
+- postx:
+    id: 1991841822394749233
+    account: nekiband_jp
+    label: Out now
+    info: small cut of the MV
+    published-date: 2025-11-21
+    text: |-
+      ◥◣ OUT NOW ◢◤
+      
+      NEK! − “GiMMiCK” Official MV
+      
+      🎬Music Video 
+      ▶︎ https://youtu.be/js9WXQHa5J0
+      
+      🎧Streaming&Download
+      ▶︎ https://lnk.to/NEKI_MEME
+      
+      #NEKI #GiMMiCK
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postx:
+    id: 1991844227953946722
+    account: cure_bass_baka
+    label: Out now
+    published-date: 2025-11-21
+    text: |-
+      新曲「GiMMiCK」のMV沢山見てね(๑•̀ᴗ- )☆
+      
+      かなでさん青緑が映てるねー💙💚
+      頭にいるひかなつさんとMGさん。
+    translation: |-
+      Please watch the new song "GiMMiCK" MV a lot (๑•̀ᴗ- )☆
+      
+      Kanade-san's blue-green really stands out💙💚
+      Hikanatsu-san and MG-san are on her head.
+    part-of:
+      postx: 1991841822394749233
+
+- postx:
+    id: 1991874006962864186
+    account: coco_102
+    label: Out now
+    published-date: 2025-11-21
+    text: |-
+      NEK! 「GiMMiCK」 Music Video公開しました💚
+      
+      最初から最後までフルスロットルで駆け抜ける疾走感と、NEK!の代名詞とも言えるような色彩美が随所に感じられるエモーショナルな作品です！
+      
+      ぜひ細部まで何度でもお楽しみください🫶🏻
+      
+      #NEKI #GiMMiCK #ネキミーム
+    translation: |-
+      NEK!'s "GiMMiCK" Music Video has been released💚
+      
+      It is an emotional work where you can feel the sense of speed that sprints at full throttle from start to finish, and the chromatic beauty that is synonymous with NEK! is felt throughout!
+      
+      Please enjoy every detail again and again🫶🏻
+      
+      #NEKI #GiMMiCK #ネキミーム
+    part-of:
+      postx: 1991841822394749233
+
+- postx:
+    id: 1991887814766817351
+    account: 46_hikaa
+    label: Behind the scenes
+    published-date: 2025-11-21
+    text: |-
+      オフショット𖤐 ̖́-
+      
+       #GiMMiCK #ネキミーム
+    translation: |-
+      Off-shots 𖤐 ̖́-
+      
+      #GiMMiCK #ネキミーム
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postx:
+    id: 1992071842669199491
+    account: natsu08_guitar
+    label: Behind the scenes
+    published-date: 2025-11-21
+    text: |-
+      おそよー☀️
+      “GiMMiCK”のMVもうみんな見たー?
+      オフショット📸
+    translation: |-
+      Good morning/afternoon☀️
+      Has everyone watched the "GiMMiCK" MV yet?
+      Off-shot photos📸
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postx:
+    id: 1992086222408454198
+    account: nekiband_jp
+    label: Music Video
+    published-date: 2025-11-22
+    text: |-
+      "GiMMiCK"
+      Music Video公開中🔥
+      
+      ▼場面カット📸
+      https://instagram.com/p/DRWDX-5kWrw/?igsh=MXE5d280OHBtMGN1eQ==
+      
+      ▼MV🎥
+      https://youtu.be/js9WXQHa5J0?si=Lq4enVp8eZG_j0uz
+      
+      #NEKI
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postx:
+    id: 1992123612602757154
+    account: coco_102
+    label: Behind the scenes
+    published-date: 2025-11-22
+    text: |-
+      GiMMiCK Music Video 早速1万回再生突破！！
+      みんなの感想たくさん届いてます！ありがとう😌🫶🏻
+      
+      この日編み込みツインの中にキラキラを入れ込んでもらったの！派手派手で可愛いでしょ🫢✨
+      2枚目はじっとモニター見てたらおなつに撮られた😶
+      
+      #NEKI #GiMMiCK #ネキミーム
+    translation: |-
+      GiMMiCK Music Video has already surpassed 10,000 views!!
+      We've received so many of your thoughts! Thank you😌🫶🏻
+      
+      On that day, I had glitter put into my braided pigtails! It's super flashy and cute, right🫢✨
+      The second picture is me being captured by Onatsu while I was staring at the monitor😶
+      
+      #NEKI #GiMMiCK #ネキミーム
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
 - postximage:
     post: 1980973984511557877
     id: G33VVb_WkAEJI_9
@@ -500,6 +685,114 @@
     part-of:
       postx: 1991773376944435215
 
+- postximage:
+    post: 1991844227953946722
+    id: G6Rzw8KbMAEtwmA
+    label: Behind the scenes
+    info: Kanade
+    published-date: 2025-11-21
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1991844227953946722
+
+- postximage:
+    post: 1991874006962864186
+    id: G6SO2DNaUAEdNii
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1991874006962864186
+
+- postximage:
+    post: 1991887814766817351
+    id: G6SbaKFaUAA2eg8
+    label: Behind the scenes
+    info: Hika
+    published-date: 2025-11-21
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1991887814766817351
+
+- postximage:
+    post: 1991887814766817351
+    id: G6SbaKKagAI-Xbe
+    label: Behind the scenes
+    info: Hika
+    published-date: 2025-11-21
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1991887814766817351
+
+- postximage:
+    post: 1992071842669199491
+    id: G6VCxzNaQAIe6NW
+    label: Behind the scenes
+    info: Natsu
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992071842669199491
+
+- postximage:
+    post: 1992086222408454198
+    id: G6VP222bAAA436i
+    label: MV image
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992086222408454198
+
+- postximage:
+    post: 1992086222408454198
+    id: G6VP23DaMAAVFs-
+    label: MV image
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992086222408454198
+
+- postximage:
+    post: 1992123612602757154
+    id: G6Vx288aIAAAwAv
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992123612602757154
+
+- postximage:
+    post: 1992123612602757154
+    id: G6Vx288awAAteOh
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992123612602757154
+
+- postxvideo:
+    post: 1991829736260251688
+    id: 01
+    label: Insta live soon
+    published-date: 2025-11-21
+    cover: 1991829671969972224/img/k2VXtwAylArM5lZc.jpg
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1991829736260251688
+
 - update:
     song: gimmick
     date: 2025-11-03
@@ -532,6 +825,15 @@
     - Lyrics and English translation from the music video
     part-of:
       song: gimmick
+
+- youtubeshort:
+    id: 2RLrJP3MB1w
+    label: Music Video
+    published-date: 2025-11-21
+    context:
+    - song: gimmick
+    part-of:
+      youtubevideo: js9WXQHa5J0
 
 - youtubeshort:
     id: 6_0t0q1LBpw

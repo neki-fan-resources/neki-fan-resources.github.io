@@ -1,3 +1,107 @@
+- postx:
+    id: 1991845692902637923
+    account: 802Palette
+    label: Tomorrow
+    published-date: 2025-11-21
+    text: |-
+      ＼11/22(土)25時～🌈／
+      FM802『802 Palette』🎨
+      
+      ✔︎ハンブレッダーズが4人揃って
+         #レディクレ“書き納めレイジー🖌️
+      ✔︎楠木ともりの新曲
+         「それでも」初オンエア💎
+      ✔︎NEK! インタビュー！
+         「Scrap Book」初オンエア🔥
+      
+      #ハチパレ 聴く👂http://radiko.jp/share/?sid=802&t=20251122250000
+      
+      聴き方はリプ欄にあり🔻
+    translation: |-
+      \ Saturday, 11/22, 25:00 (1:00 AM) start 🌈/
+      FM802 "802 Palette" 🎨
+      
+      ✔︎ All 4 members of Humbreaders together for
+         #RadiCra "Kakizome Lazy"🖌️
+      ✔︎ Tomori Kusunoki's new song
+         "Soredemo" first on air 💎
+      ✔︎ NEK! Interview!
+         "Scrap Book" first on air 🔥
+      
+      #Hachipare listen here 👂http://radiko.jp/share/?sid=802&t=20251122250000
+      
+      How to listen is in the reply section🔻
+    part-of:
+      media:
+        year: 2025
+        id: fm802802palette
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- postx:
+    id: 1992226077100646748
+    account: 802Palette
+    label: Tonight
+    published-date: 2025-11-22
+    text: |-
+      ＼11/22(土)25時～🌈／
+      FM802『802 Palette』🎨
+      
+      ◆❖◇━━━━
+      ゲストに❮ NEK! ❯が初登場！⚡️
+      1stアルバム「MEME」から
+      新曲「Scrap Book」初オンエア🔥
+      　　　　　　            ━━━━◇❖◆
+      
+      #ハチパレ 聴く👂→http://radiko.jp/share/?sid=802&t=20251122250000
+      
+      聴き方はリプ欄にあり🔻
+      #NEKI 
+      @nekiband_jp
+    translation: |-
+      \ Saturday, 11/22, 25:00 (1:00 AM) start 🌈/
+      FM802 "802 Palette" 🎨
+      
+      ◆❖◇━━━━
+      Special guests ❮ NEK! ❯ are making their first appearance!⚡️
+      New song "Scrap Book" from their 1st album "MEME"
+      will be aired for the first time🔥
+                              ━━━━◇❖◆
+      
+      Listen to #Hachipare 👂→http://radiko.jp/share/?sid=802&t=20251122250000
+      
+      How to listen is in the reply section🔻
+      #NEKI
+      @nekiband_jp
+    part-of:
+      media:
+        year: 2025
+        id: fm802802palette
+
+- postximage:
+    post: 1991845692902637923
+    id: G6R1DkAacAAzO-j
+    label: Flyer
+    published-date: 2025-11-21
+    local-copy: true
+    part-of:
+      postx: 1991845692902637923
+
+- postximage:
+    post: 1992226077100646748
+    id: G6XPDoyaMAE_Sgj
+    label: In studio
+    info: Hika, Honoka Toyota, Natsu
+    published-date: 2025-11-22
+    context:
+    - media:
+        year: 2025
+        id: fm802802palette
+    part-of:
+      postx: 1992226077100646748
+
 - update:
     media:
       year: 2025

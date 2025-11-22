@@ -70,6 +70,79 @@
     part-of:
       event: iwanttostartaband
 
+- postx:
+    id: 1991816358368330178
+    account: TOWER_Jrock
+    label: Cocoro's video
+    published-date: 2025-11-21
+    text: |-
+      【#NEK! × タワレコ】
+      
+         \ 『MEME』フラゲ日まであと4⃣日  /
+      
+      本日より4日間、NEK!メンバーが1stフルアルバム『MEME』の魅力を語っていきます🔥
+      
+      本日の担当はDr.Cocoro🥁
+      (
+      @coco_102
+      )
+      
+      ドラム担当ならではの注目ポイントとは💿
+      
+      (
+      @nekiband_jp
+      )
+    translation: |-
+      [#NEK! x Tower Records]
+         \ 4 more days until the early release day for "MEME" /
+      For the next 4 days starting today, NEK! members will be talking about the appeal of their 1st full album "MEME"🔥
+      Today's person in charge is Dr. Cocoro🥁
+      (@coco_102)
+      What are the points of interest unique to a drummer? 💿
+      (@nekiband_jp)
+    video:
+    - 01
+    part-of:
+      event: iwanttostartaband
+
+- postx:
+    id: 1992178870293053831
+    account: TOWER_Jrock
+    label: Kanade's video
+    published-date: 2025-11-22
+    text: |-
+      【#NEK! × タワレコ】
+      
+      \ 『MEME』フラゲ日まであと3⃣日  /
+      
+      NEK!メンバーが1stフルアルバム『MEME』の魅力を語っていきます🔥
+      
+      本日の担当はBa.Kanade☀️
+      (
+      @cure_bass_baka
+      )
+      
+      「ベースがヤバいです！」と思わず連呼してしまう楽曲とは💿
+      
+      (
+      @nekiband_jp
+      )
+    translation: |-
+      [#NEK! x Tower Records]
+      
+      \ 3 more days until the early release day for "MEME" /
+      
+      NEK! members will be talking about the appeal of their 1st full album "MEME"🔥
+      
+      Today's person in charge is Ba. Kanade☀️
+      (@cure_bass_baka)
+      
+      Which song will make you repeatedly exclaim, "The bass is insane!"? 💿
+      
+      (@nekiband_jp)
+    part-of:
+      event: iwanttostartaband
+
 - postxvideo:
     post: 1991071615577149847
     id: 01
@@ -91,6 +164,30 @@
     - event: iwanttostartaband
     part-of:
       postx: 1991431325463769517
+
+- postxvideo:
+    post: 1991816358368330178
+    id: 01
+    label: Cocoro's video
+    info: What are the points of interest unique to a drummer?
+    published-date: 2025-11-21
+    cover: 1991815332022169600/img/Yp5DQdeR0bTglEcA.jpg
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postx: 1991816358368330178
+
+- postxvideo:
+    post: 1992178870293053831
+    id: 01
+    label: Kanade's video
+    info: Which song will make you repeatedly exclaim, "The bass is insane!"?
+    published-date: 2025-11-22
+    cover: 1991813978679554049/img/BH2_yux3syws0-eU.jpg
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postx: 1992178870293053831
 
 - update:
     event: iwanttostartaband

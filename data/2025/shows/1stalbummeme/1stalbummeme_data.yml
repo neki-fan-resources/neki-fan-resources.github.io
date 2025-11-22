@@ -84,6 +84,54 @@
         year: 2025
         id: 1stalbummeme
 
+- postx:
+    id: 1992171561001034018
+    account: nekiband_jp
+    label: Merch
+    published-date: 2025-11-22
+    text: |-
+      ◤ ワンマン情報 ◢
+      
+      11/28(金)開催
+      NEK! 1st アルバム「MEME」リリース記念ワンマンライブ
+      📍横浜ReNY beta
+      
+      ★グッズラインナップ&販売時間情報
+      ★1stアルバム「MEME」会場限定購入特典
+      ★当日券について
+      
+      開催まであと6日！
+      横浜でお待ちしております🔥
+      
+      🔗https://note.com/nekiband_jp/n/nfccd782e1ba0
+      
+      #NEKI #MEME
+    translation: |-
+      ◤ One-Man Live Info ◢
+      
+      Happening on 11/28 (Fri)
+      NEK! 1st Album "MEME" Release Commemorative One-Man Live
+      📍Yokohama ReNY beta
+      
+      ★Merchandise lineup & sales time info
+      ★1st Album "MEME" venue-limited purchase bonus
+      ★Information about same-day tickets
+      
+      6 days left until the event!
+      We are waiting for you in Yokohama🔥
+      
+      🔗https://note.com/nekiband_jp/n/nfccd782e1ba0
+      
+      #NEKI #MEME
+    image:
+    - G6WddXMbAAArgNc
+    - G6WddXNagAAIE21
+    - G6WddXPaQAA_0Gp
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
 - postximage:
     post: 1961739772080136281
     id: Gzl_6IcbMAAX62f
@@ -109,4 +157,40 @@
         id: 1stalbummeme
     part-of:
       postx: 1984204555832397939
+
+- postximage:
+    post: 1992171561001034018
+    id: G6WddXMbAAArgNc
+    label: Merch
+    published-date: 2025-11-22
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1992171561001034018
+
+- postximage:
+    post: 1992171561001034018
+    id: G6WddXNagAAIE21
+    label: Merch
+    published-date: 2025-11-22
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1992171561001034018
+
+- postximage:
+    post: 1992171561001034018
+    id: G6WddXPaQAA_0Gp
+    label: Merch
+    published-date: 2025-11-22
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1992171561001034018
 

@@ -38,6 +38,7 @@
                 - postxvideo:
                     post: 1992541134132744663
                     video: 01
+                - youtubevideo: ewUNxZDva90
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
@@ -447,5 +448,17 @@
     part-of:
       postxvideo:
         post: 1991816358368330178
+        video: 01
+
+- youtubevideo:
+    id: ewUNxZDva90
+    label: Natsu's video (English-subtitled)
+    info: Introducing a song where you should "pay attention to the guitar solo!"
+    published-date: 2025-11-24
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postxvideo:
+        post: 1992541134132744663
         video: 01
 

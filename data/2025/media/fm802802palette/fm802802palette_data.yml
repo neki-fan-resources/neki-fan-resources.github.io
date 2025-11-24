@@ -80,6 +80,46 @@
         year: 2025
         id: fm802802palette
 
+- postx:
+    id: 1992301169503535260
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-22
+    text: |-
+      FM802「802 Palette」
+      お聴きいただきありがとうございました🫶✨
+      
+      初OA「Scrap Book」はいかがでしたでしょうか💥
+      
+      来週11/26(水)発売🎧
+      1st アルバム『MEME』
+      ▶︎https://pcim.lnk.to/meme_CD
+      
+      NEK!初の全国ツアー🔥
+      チケット先行(抽選)受付中！
+      ▶︎https://l-tike.com/nekiband/
+      
+      #NEKI #FM802 #ハチパレ
+    translation: |-
+      FM802 "802 Palette"
+      Thank you for listening🫶✨
+      
+      How was the first on-air of "Scrap Book"?💥
+      
+      Releasing next week on 11/26 (Wed)🎧
+      1st Album "MEME"
+      ▶︎https://pcim.lnk.to/meme_CD
+      
+      NEK!'s first national tour🔥
+      Advance ticket lottery is currently open!
+      ▶︎https://l-tike.com/nekiband/
+      
+      #NEKI #FM802 #Hachipare
+    part-of:
+      media:
+        year: 2025
+        id: fm802802palette
+
 - postximage:
     post: 1991845692902637923
     id: G6R1DkAacAAzO-j
@@ -101,6 +141,18 @@
         id: fm802802palette
     part-of:
       postx: 1992226077100646748
+
+- postximage:
+    post: 1992301169503535260
+    id: G6YTWXKbYAASHrl
+    label: At the station
+    published-date: 2025-11-22
+    context:
+    - media:
+        year: 2025
+        id: fm802802palette
+    part-of:
+      postx: 1992301169503535260
 
 - update:
     media:

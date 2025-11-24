@@ -24,11 +24,13 @@
         label: Music Video
         sections:
         - basicsection:
+            label: Music Video
             subsections:
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: js9WXQHa5J0
             - multimediasubsection:
+                label: Images
                 multimedia:
                 - postximage:
                     post: 1992086222408454198
@@ -36,8 +38,19 @@
                 - postximage:
                     post: 1992086222408454198
                     image: G6VP23DaMAAVFs-
+                - postximage:
+                    post: 1992848424241451046
+                    image: G6gFEyhaYAA3PlI
+                - postximage:
+                    post: 1992848424241451046
+                    image: G6gFEyfbgAAjQdF
+                - postximage:
+                    post: 1992848424241451046
+                    image: G6gFEypbsAA7TCo
+        - basicsection:
+            label: Behind the scenes
+            subsections:
             - multimediasubsection:
-                label: Behind the scenes
                 multimedia:
                 - postximage:
                     post: 1980973984511557877
@@ -51,6 +64,9 @@
                 - postximage:
                     post: 1982277313711808645
                     image: G4J2tTqWMAALmdk
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: PNLPXORtGNY
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -92,6 +108,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: ziKDdkQZzJU
                 - youtubeshort: JiBQIqwpMzc
     part-of:
       song: gimmick
@@ -607,6 +624,53 @@
     part-of:
       youtubevideo: js9WXQHa5J0
 
+- postx:
+    id: 1992845303440159142
+    account: nekiband_jp
+    label: 20k views
+    published-date: 2025-11-24
+    text: |-
+      “GiMMiCK”
+      Official Music Video
+      
+      20,000 views — thank you￼
+      
+      https://youtu.be/js9WXQHa5J0
+      
+      #NEKI #MEME
+    image:
+    - G6gCPYSbsAAlga9
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postx:
+    id: 1992848424241451046
+    account: natsu08_guitar
+    label: 20k views
+    published-date: 2025-11-24
+    text: |-
+      なんと！GiMMiCK、2万回再生です…！
+      本当に本当にありがとうございます！！🙇🏻‍♀️🤍
+      たくさんのコメントや拡散もとっても励みになっております🥹
+      改めてありがとうございます！！
+      今後ともGiMMiCKをよろしくお願いします🙇🏻‍♀️
+    translation: |-
+      What?! GiMMiCK has reached 20,000 views...!
+      Thank you so, so much!! 🙇🏻‍♀️🤍
+      All the comments and shares are also incredibly encouraging🥹
+      Thank you again!!
+      Please continue to support GiMMiCK🙇🏻‍♀️
+    image:
+    - G6gFEyfbgAAjQdF
+    - G6gFEyhaYAA3PlI
+    - G6gFEypbsAA7TCo
+    part-of:
+      postx: 1992845303440159142
+    reference:
+    - postximage:
+        post: 1992086222408454198
+        image: G6VP222bAAA436i
+
 - postximage:
     post: 1980973984511557877
     id: G33VVb_WkAEJI_9
@@ -782,6 +846,48 @@
     part-of:
       postx: 1992123612602757154
 
+- postximage:
+    post: 1992845303440159142
+    id: G6gCPYSbsAAlga9
+    label: 20k views
+    published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992845303440159142
+
+- postximage:
+    post: 1992848424241451046
+    id: G6gFEyfbgAAjQdF
+    label: MV image
+    info: Natsu
+    published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992848424241451046
+
+- postximage:
+    post: 1992848424241451046
+    id: G6gFEyhaYAA3PlI
+    label: MV image
+    published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992848424241451046
+
+- postximage:
+    post: 1992848424241451046
+    id: G6gFEypbsAA7TCo
+    label: MV image
+    info: Hika
+    published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1992848424241451046
+
 - postxvideo:
     post: 1991829736260251688
     id: 01
@@ -834,6 +940,14 @@
     part-of:
       song: gimmick
 
+- update:
+    song: gimmick
+    date: 2025-11-24
+    text:
+    - More behind the scenes pictures
+    part-of:
+      song: gimmick
+
 - youtubeshort:
     id: 2RLrJP3MB1w
     label: Music Video
@@ -851,6 +965,34 @@
     - song: gimmick
     part-of:
       youtubevideo: js9WXQHa5J0
+
+- youtubeshort:
+    id: KIGEH_wdrY8
+    label: Music Video
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- youtubeshort:
+    id: PNLPXORtGNY
+    label: Behind the scenes
+    published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
+
+- youtubeshort:
+    id: ziKDdkQZzJU
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-11-23
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
 
 - youtubevideo:
     id: js9WXQHa5J0

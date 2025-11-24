@@ -143,6 +143,82 @@
     part-of:
       event: iwanttostartaband
 
+- postx:
+    id: 1992541134132744663
+    account: TOWER_Jrock
+    label: Natsu's Video
+    published-date: 2025-11-23
+    text: |-
+      【#NEK! × タワレコ】
+      
+      \ 『MEME』フラゲ日まであと2⃣日  /
+      
+      NEK!メンバーが1stフルアルバム『MEME』の魅力を語っていきます🔥
+      
+      本日の担当はGt.Natsu🎸
+      (
+      @natsu08_guitar
+      )
+      
+      「ギターソロに注目！」な楽曲を紹介🌟
+      
+      (
+      @nekiband_jp
+      )
+    translation: |-
+      [#NEK! x Tower Records]
+      
+      \ 2 more days until the early release day for "MEME" /
+      
+      NEK! members will be talking about the appeal of their 1st full album "MEME"🔥
+      
+      Today's person in charge is Gt. Natsu🎸
+      (@natsu08_guitar)
+      
+      Introducing a song where you should "pay attention to the guitar solo!"🌟
+      
+      (@nekiband_jp)
+    part-of:
+      event: iwanttostartaband
+
+- postx:
+    id: 1992903522992398746
+    account: TOWER_Jrock
+    label: Hika's video
+    published-date: 2025-11-24
+    text: |-
+      【#NEK! × タワレコ】
+      
+      \ 『MEME』フラゲ日まで遂にあと1⃣日  /
+      
+      NEK!メンバーが1stフルアルバム『MEME』の魅力を語っていきます🔥
+      
+      本日の担当はVo/Gt.Hika🎙️
+      (
+      @46_hikaa
+      )
+      
+      「感謝の気持ち」を込めて歌った今作の注目楽曲をご紹介✨
+      
+      (
+      @nekiband_jp
+      )
+    translation: |-
+      [#NEK! x Tower Records]
+      
+      \ Only 1 day left until the early release day for "MEME" /
+      
+      NEK! members will be talking about the appeal of their 1st full album "MEME"🔥
+      
+      Today's person in charge is Vo/Gt. Hika🎙️
+      (@46_hikaa)
+      
+      Introducing the spotlight song on this work, sung with "a feeling of gratitude"✨
+      
+      (@nekiband_jp)
+    part-of:
+      event: iwanttostartaband
+
 - postxvideo:
     post: 1991071615577149847
     id: 01
@@ -188,6 +264,30 @@
     - event: iwanttostartaband
     part-of:
       postx: 1992178870293053831
+
+- postxvideo:
+    post: 1992541134132744663
+    id: 01
+    label: Natsu's Video
+    info: Introducing a song where you should "pay attention to the guitar solo!"
+    published-date: 2025-11-23
+    cover: 1991816079455539200/img/4pvzC8T21pH-5dqn.jpg
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postx: 1992541134132744663
+
+- postxvideo:
+    post: 1992903522992398746
+    id: 01
+    label: Hika's video
+    info: Introducing the spotlight song on this work, sung with "a feeling of gratitude"✨
+    published-date: 2025-11-24
+    cover: 1991816406900568065/img/szaccs8wee5I-j0V.jpg
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postx: 1992903522992398746
 
 - update:
     event: iwanttostartaband

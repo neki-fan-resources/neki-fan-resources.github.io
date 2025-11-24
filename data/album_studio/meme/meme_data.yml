@@ -188,6 +188,28 @@
     part-of:
       album: meme
 
+- postx:
+    id: 1992921351557202148
+    account: natsu08_guitar
+    label: 1 day left
+    published-date: 2025-11-24
+    text: |-
+      NEK! 1st Album『MEME』
+      フラゲ日まであと1日だよぉぉ！
+      明日には私たちのアルバムが届いている人がいるのかと思ったらドキドキワクワクで仕方がないです🫶🏻🫶🏻
+      どの曲が好きかなぁどんな反応くれるかなぁとか考えただけで幸せ
+      チョー最高のアルバムになったと胸を張って言えるのでお楽しみに！
+    translation: |-
+      NEK! 1st Album "MEME"
+      Only 1 day left until the early release day!
+      The thought that some people will have our album tomorrow makes me so excited and nervous🫶🏻🫶🏻
+      Just thinking about which songs you'll like and what kind of reaction you'll give makes me happy
+      I can proudly say it turned out to be the absolute best album, so please look forward to it!
+    image:
+    - G6hHZwwawAEHhCI
+    part-of:
+      album: meme
+
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
@@ -263,6 +285,16 @@
     - album: meme
     part-of:
       postx: 1990798932306505823
+
+- postximage:
+    post: 1992921351557202148
+    id: G6hHZwwawAEHhCI
+    label: Albums
+    published-date: 2025-11-24
+    context:
+    - album: meme
+    part-of:
+      postx: 1992921351557202148
 
 - postxvideo:
     post: 1983159440678510938

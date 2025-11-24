@@ -32,6 +32,12 @@ event:
     - postxvideo:
         post: 1992178870293053831
         video: 01
+    - postxvideo:
+        post: 1992541134132744663
+        video: 01
+    - postxvideo:
+        post: 1992903522992398746
+        video: 01
     image:
     - webimage:
         domain: note.com.nekiband

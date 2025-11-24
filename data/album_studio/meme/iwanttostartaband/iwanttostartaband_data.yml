@@ -44,6 +44,7 @@
                 - postxvideo:
                     post: 1992903522992398746
                     video: 01
+                - youtubevideo: axhhF1ldUzs
         - basicsection:
             label: Bonus
             subsections:
@@ -448,6 +449,18 @@
     part-of:
       postxvideo:
         post: 1991816358368330178
+        video: 01
+
+- youtubevideo:
+    id: axhhF1ldUzs
+    label: Hika's video (English-subtitled)
+    info: Introducing the spotlight song on this work, sung with "a feeling of gratitude"✨
+    published-date: 2025-11-24
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postxvideo:
+        post: 1992903522992398746
         video: 01
 
 - youtubevideo:

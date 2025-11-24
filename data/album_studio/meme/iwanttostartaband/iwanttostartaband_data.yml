@@ -32,6 +32,7 @@
                 - postxvideo:
                     post: 1992178870293053831
                     video: 01
+                - youtubevideo: 6y2lBltLq4I
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
@@ -423,6 +424,18 @@
     - 10127538
     part-of:
       event: iwanttostartaband
+
+- youtubevideo:
+    id: 6y2lBltLq4I
+    label: Kanade's video (English-subtitled)
+    info: Which song will make you repeatedly exclaim, "The bass is insane!"?
+    published-date: 2025-11-24
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postxvideo:
+        post: 1992178870293053831
+        video: 01
 
 - youtubevideo:
     id: _5Ha6G6Lu2M

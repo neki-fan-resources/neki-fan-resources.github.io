@@ -63,6 +63,7 @@ object ElementToPage {
           Path("component", "markercard.css"),
           Path("component", "mediumdetails.css"),
           Path("component", "multimediacard.css"),
+          Path("component", "multimedialarge.css"),
           Path("component", "newsblock.css"),
           Path("component", "overlay.css"),
           Path("component", "postximagepage.css"),

@@ -39,6 +39,22 @@
         id: covers
         group: hika
 
+- postx:
+    id: 1993273861744578879
+    account: 46_hikaa
+    label: GiMMiCK / NEK!
+    info: cover
+    published-date: 2025-11-25
+    text: |-
+      GiMMiCK / NEK!
+      
+      #ネキミーム #GiMMiCK 
+      #本人弾いてみた  #ギタボ
+    part-of:
+      group:
+        id: covers
+        group: hika
+
 - postxvideo:
     post: 1990374513595552039
     id: 01
@@ -50,4 +66,16 @@
     - song: blink
     part-of:
       postx: 1990374513595552039
+
+- postxvideo:
+    post: 1993273861744578879
+    id: 01
+    label: Cover
+    info: Hika
+    published-date: 2025-11-25
+    cover: 1993273595246837761/img/a_XSY4LoTNunU5MS.jpg
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1993273861744578879
 

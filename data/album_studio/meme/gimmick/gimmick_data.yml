@@ -10,6 +10,9 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: js9WXQHa5J0
+                - postxvideo:
+                    post: 1993273861744578879
+                    video: 01
         - basicsection:
             label: Live
             subsections:
@@ -69,6 +72,12 @@
                 - youtubeshort: PNLPXORtGNY
             - multimediasubsection:
                 multimedia:
+                - postximage:
+                    post: 1993268941666353391
+                    image: G6mDhAIaAAA8tFn
+                - postximage:
+                    post: 1993103746851823683
+                    image: G6jtSjHbwAIri4K
                 - postximage:
                     post: 1991887814766817351
                     image: G6SbaKKagAI-Xbe
@@ -945,6 +954,14 @@
     date: 2025-11-24
     text:
     - More behind the scenes pictures
+    part-of:
+      song: gimmick
+
+- update:
+    song: gimmick
+    date: 2025-11-25
+    text:
+    - Cover by Hika
     part-of:
       song: gimmick
 

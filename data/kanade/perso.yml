@@ -27,6 +27,20 @@
     part-of:
       postx: 1515837628029206528
 
+- postx:
+    id: 1993103746851823683
+    account: cure_bass_baka
+    label: I am 19
+    published-date: 2025-11-25
+    text: |-
+      -
+    image:
+    - G6jtSjHbwAIri4K
+    part-of:
+      group:
+        id: perso
+        group: kanade
+
 - postximage:
     post: 1981271568736276738
     id: G37j_GyWwAA2oxI
@@ -39,4 +53,15 @@
         id: 1stzepponeman
     part-of:
       postx: 1981271568736276738
+
+- postximage:
+    post: 1993103746851823683
+    id: G6jtSjHbwAIri4K
+    label: Behind the scenes
+    info: Kanade
+    published-date: 2025-11-25
+    context:
+    - song: gimmick
+    part-of:
+      postx: 1993103746851823683
 

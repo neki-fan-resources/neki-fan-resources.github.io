@@ -1,0 +1,42 @@
+- update:
+    media:
+      year: 2025
+      id: fmyokohamakissandride
+    date: 2025-11-25
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamakissandride
+
+- webimage:
+    domain: fmyokohama.co.jp
+    page: kissandride
+    id: flyer
+    label: Flyer
+    published-date: 2025-11-25
+    url: 'https://www.fmyokohama.co.jp/sites/default/files/program/Kiss%20%EF%BC%86%20Ride_radiko%E3%83%90%E3%83%8A%E3%83%BC.jpg'
+    local-copy: true
+    context:
+    - media:
+        year: 2025
+        id: fmyokohamakissandride
+    part-of:
+      webpage:
+        domain: fmyokohama.co.jp
+        id: kissandride
+
+- webpage:
+    domain: fmyokohama.co.jp
+    id: kissandride
+    label: Show page
+    published-date: 2025-11-25
+    url: 'https://www.fmyokohama.co.jp/program/kissandride'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamakissandride
+

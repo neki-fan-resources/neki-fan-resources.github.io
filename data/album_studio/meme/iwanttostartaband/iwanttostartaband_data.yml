@@ -360,6 +360,14 @@
     part-of:
       event: iwanttostartaband
 
+- update:
+    event: iwanttostartaband
+    date: 2025-11-24
+    text:
+    - Added English-subtitled version of the band members videos
+    part-of:
+      event: iwanttostartaband
+
 - webimage:
     domain: note.com.nekiband
     page: n994b00505e6c

@@ -1,0 +1,23 @@
+mediaaudio:
+  year: 2025
+  id: fmyokohamakissandride
+  cover-image:
+    webimage:
+      domain: fmyokohama.co.jp
+      page: kissandride
+      id: flyer
+  radio: Fm yokohama
+  show: Kiss & Ride
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-11-26
+  host: 小林大河 (Taiga Kobayashi)
+  program: 'https://www.fmyokohama.co.jp/program/kissandride'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - Hika and Natsu will appear on the Fm yokohama show "Kiss & Ride".

@@ -1,3 +1,202 @@
+- display:
+    album: meme
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - albumsongssection: '-'
+        - basicsection:
+            label: Editions
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1961737876066168993
+                    image: Gzl-Eg6boAEMEc0
+                - postximage:
+                    post: 1961737876066168993
+                    image: Gzl-A0MaAAAtcNa
+                - postximage:
+                    post: 1961737876066168993
+                    image: Gzl-C69aoAADilM
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993208642196455910
+                    image: G6lMsZNaoAAZZyJ
+                - postximage:
+                    post: 1992921351557202148
+                    image: G6hHZwwawAEHhCI
+                - postximage:
+                    post: 1993268941666353391
+                    image: G6mDg_2bwAACD1F
+                - postximage:
+                    post: 1993242458977955921
+                    image: G6lrbavbwAkY5K8
+                - postximage:
+                    post: 1993242458977955921
+                    image: G6lrba4bwAA3FWN
+    - basicblock:
+        id: visit
+        label: visiting stores
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: On release day, NEK! visited multiple stores in the Tokyo area, writing messages, signing cards and taking pictures.
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993598161303343158
+                    image: G6qu9P6bwAQJXnO
+                - postximage:
+                    post: 1993685933745668416
+                    image: G6r-tyvaAAA2kpx
+            - multimediasubsection:
+                label: Tower Record Yokohama
+                multimedia:
+                - postximage:
+                    post: 1993554052475764966
+                    image: G6qFY4ybYAAfLqL
+            - multimediasubsection:
+                label: Tower Records Machida
+                multimedia:
+                - postximage:
+                    post: 1993685933745668416
+                    image: G6r-tyzakAAAqjz
+                - postximage:
+                    post: 1993590175050744106
+                    image: G6qngiQbwAA7NWe
+                - postximage:
+                    post: 1993590175050744106
+                    image: G6qnflNbEAAfBjt
+            - multimediasubsection:
+                label: HMV Shibuya
+                multimedia:
+                - postximage:
+                    post: 1993643729824133383
+                    image: G6rYZ6SaUAAlunE
+                - postximage:
+                    post: 1993643729824133383
+                    image: G6rYZ6WaIAAviIh
+                - postximage:
+                    post: 1993643729824133383
+                    image: G6rYZ6RbUAAzAeg
+            - multimediasubsection:
+                label: Tower Records Shibuya
+                multimedia:
+                - postximage:
+                    post: 1993600744059191783
+                    image: G6qwPL8aIAA82sz
+                - postximage:
+                    post: 1993600744059191783
+                    image: G6qwTEEa0AApFBe
+            - multimediasubsection:
+                label: Tower Records Shinjuku
+                multimedia:
+                - postximage:
+                    post: 1993643777966399738
+                    image: G6rYcrZaEAAuWC3
+                - postximage:
+                    post: 1993646142891167993
+                    image: G6rY7SZaYAAuE79
+    - basicblock:
+        id: display
+        label: In-store display
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993221150751813701
+                    image: G6lX2K9agAAaVEv
+                - postximage:
+                    post: 1993221150751813701
+                    image: G6lX2jja0AAAdol
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993279477162688586
+                    image: G6mMxNZbwAkKY6j
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993292641644212626
+                    image: G6mYv4KbEAAHt_2
+                - postxvideo:
+                    post: 1993685933745668416
+                    video: 01
+                - postximage:
+                    post: 1993167197976641766
+                    image: G6klzUQbUAA1Cqs
+                - postximage:
+                    post: 1993167197976641766
+                    image: G6kl0LKaQAABQlX
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993554149125112120
+                    image: G6qG6kKbwAIovvE
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993221274383138890
+                    image: G6lYLOCbwAYzpHg
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993505665332265070
+                    image: G6pa0bAaEAAU8zi
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993547062546452658
+                    image: G6p9xZWawAAtMNX
+                - postximage:
+                    post: 1993547062546452658
+                    image: G6p9vrWbMAAqAqV
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993505069980172580
+                    image: G6paSpmbMAEMoKB
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993548230764990918
+                    image: G6qBbV3bwAEZ4k0
+                - postximage:
+                    post: 1993548230764990918
+                    image: G6qBcAxaMAAeXeC
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993519692619936194
+                    image: G6pnl9ubwAEitVg
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993165331645542578
+                    image: G6kkdZia0AAMvMo
+                - postximage:
+                    post: 1993165331645542578
+                    image: G6kkegRaQAAWJuu
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993538605424558161
+                    image: G6p4y0gbQAAqUxF
+                - postximage:
+                    post: 1993538605424558161
+                    image: G6p4y03bwAMu3Q2
+    todo: Put text about the different editions, more multimedia to sort
+    part-of:
+      album: meme
+
 - newsitem:
     id: upcoming
     album: meme
@@ -211,6 +410,43 @@
       album: meme
 
 - postx:
+    id: 1993165331645542578
+    account: TOWER_Shibuya
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【NEK!】
+      
+      1st Full Album『MEME』
+      入荷いたしました❤️‍🔥
+      
+      3Fにてサイン入りパネル展示を開催中✨
+      ☞https://towershibuya.jp/news/2025/10/30/221327
+      11/29(土) 渋谷店5Fにて
+      発売記念イベントも開催！
+      ☞https://towershibuya.jp/2025/10/30/221190
+      
+      是非checkしてみてください☺️🫶🏻(mh)
+    translation: |-
+      【NEK!】
+      
+      1st Full Album "MEME"
+      Has arrived❤️‍🔥
+      
+      We are holding a signed panel exhibition on the 3rd floor✨
+      ☞https://towershibuya.jp/news/2025/10/30/221327
+      A release commemorative event will also be held
+      on 11/29 (Sat) on the 5th floor of the Shibuya store!
+      ☞https://towershibuya.jp/2025/10/30/221190
+      
+      Please be sure to check it out☺️🫶🏻(mh)
+    image:
+    - G6kkdZia0AAMvMo
+    - G6kkegRaQAAWJuu
+    part-of:
+      album: meme
+
+- postx:
     id: 1993167197976641766
     account: TOWER_Shinjuku
     label: In-store display
@@ -296,6 +532,69 @@
       album: meme
 
 - postx:
+    id: 1993221150751813701
+    account: TOWER_Yokohama
+    label: In-store display
+    published-date: 2025-11-25
+    text: |-
+      【#NEKI 】
+      1stフルアルバム『MEME』入荷いたしました‼️
+      
+      🎁特典🎁
+      「ああバンドやりたい！」×NEK! コラボ絵柄ステッカー
+      
+      タワーレコードの独自企画「ああバンドやりたい！」(https://tower.jp/site/series/aabandyaritai)第13弾アンバサダーのNEK!🔥
+      
+      コラボ企画詳細はこちら🔽
+      https://tower.jp/article/feature_item/2025/08/30/0701
+    translation: |-
+      【#NEKI 】
+      1st full album "MEME" has arrived‼️
+      
+      🎁Bonus🎁
+      "Ah, I Want to Start a Band!" × NEK! Collaboration Sticker Design
+      
+      NEK! is the 13th ambassador for Tower Records' original project "Ah, I Want to Start a Band!" (https://tower.jp/site/series/aabandyaritai)🔥
+      
+      Details on the collaboration project here🔽
+      https://tower.jp/article/feature_item/2025/08/30/0701
+    image:
+    - G6lX2K9agAAaVEv
+    - G6lX2jja0AAAdol
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993221274383138890
+    account: TOWER_Laketown
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【#CD入荷情報】【#NEKI】 
+      "ネキミーム！"の到来！？スラングロックバンドNEK!
+      待望の1stフルアルバム『#MEME』が入荷いたしました🙌
+      
+      彼女たちのアイデンティを示すかのように「スラングソング」や、王道ロックにバラードなど振り幅の広い楽曲が並ぶ一枚💥
+      
+      https://tower.jp/article/feature_item/2025/08/30/0701
+      
+      @nekiband_jp
+    translation: |-
+      【#CDArrivalInfo】【#NEKI】
+      The arrival of "NEK!MEME!"!? Slang rock band NEK!'s
+      long-awaited 1st full album "#MEME" has arrived🙌
+      
+      A single album featuring a wide range of tracks, from "slang songs" which seem to showcase their identity, to mainstream rock and ballads💥
+      
+      https://tower.jp/article/feature_item/2025/08/30/0701
+      
+      @nekiband_jp
+    image:
+    - G6lYLOCbwAYzpHg
+    part-of:
+      album: meme
+
+- postx:
     id: 1993239628674167035
     account: coco_102
     label: Pre-release today
@@ -372,6 +671,735 @@
     - G6mDhAIaAAA8tFn
     part-of:
       postx: 1993208642196455910
+
+- postx:
+    id: 1993279477162688586
+    account: TOWER_Machida
+    label: In-store display
+    published-date: 2025-11-25
+    text: |-
+      【NEK!】
+      
+      ／
+      11/26発売
+      1stフルアルバム『MEME』
+      本日入荷しました🌟
+      ＼
+      
+      "ネキミーム！"の到来⁉️ガールズバンド界隈に旋風を巻き起こしてきた彼女達の真骨頂を詰め込んだ待望の1stフルアルバム😈❤️‍🔥
+      
+      ご来店お待ちしております🫶
+      🔗https://tower.jp/article/feature_item/2025/08/30/0701?srsltid=AfmBOops0t40XL9AYw2B9E0zxXYjBeP7OPmoPnjkAcpSN6b8Li-nFlbw
+      #NEKI
+    translation: |-
+      【NEK!】
+      
+      ／
+      Released 11/26
+      1st full album "MEME"
+      Arrived today🌟
+      ＼
+      
+      The arrival of "NEK!MEME!"⁉️ This long-awaited 1st full album is packed with the true essence of the band, who have caused a sensation in the girls' band scene😈❤️‍🔥
+      
+      We are looking forward to your visit🫶
+      🔗https://tower.jp/article/feature_item/2025/08/30/0701?srsltid=AfmBOops0t40XL9AYw2B9E0zxXYjBeP7OPmoPnjkAcpSN6b8Li-nFlbw
+      #NEKI
+    image:
+    - G6mMxNZbwAkKY6j
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993292641644212626
+    account: TOWER_Shinjuku
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【#NEKI】　
+      
+      ／
+      #ネキミーム!の波に君は乗れるか🌊
+      ＼
+      NEK!1stフルアルバム
+      『MEME』本日 #フラゲ日 🙌
+      
+      どこを切り取っても釘付けな１枚😍
+      
+      新宿店ではサイン入りパネルが当たる抽選券
+      ＆「#ああバンドやりたい！」×NEK! コラボ絵柄ステッカーの特典をお渡し中🎮
+      
+      https://tower.jp/article/news/2025/11/12/n101
+      
+       #MEME
+    translation: |-
+      【#NEKI】
+      
+      ／
+      Can you ride the #NEK!MEME! wave🌊
+      ＼
+      NEK!'s 1st full album
+      "MEME" is available for purchase a day early today! #EarlyReleaseDay 🙌
+      
+      No matter where you look, it's a captivating album😍
+      
+      At the Shinjuku store, we are giving out a lottery ticket to win a signed panel
+      & the "#AhIWantToStartABand!" × NEK! collaboration sticker design as a bonus🎮
+      
+      https://tower.jp/article/news/2025/11/12/n101
+      
+      #MEME
+    image:
+    - G6mYv4KbEAAHt_2
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993333867969978652
+    account: nekiband_jp
+    label: Available on streaming
+    published-date: 2025-11-25
+    text: |-
+      ✨🎀RELEASE🎀✨
+      
+      ✧･ﾟ: *✧･ﾟ:*━━━
+        NEK! 1st Album『MEME』
+      　　　　　━━━*:･ﾟ✧*:･ﾟ✧
+      
+      ただいま11/26(水)0時より
+      収録楽曲の配信がスタート🎉
+      
+      🎧Streaming&Download
+      https://lnk.to/NEKI_MEME
+      
+      💿CDご購入
+      https://pcim.lnk.to/meme_CD
+      
+      #NEKI #MEME  #ネキミーム
+    translation: |-
+      ✨🎀RELEASE🎀✨
+      
+      ✧･ﾟ: *✧･ﾟ:*━━━
+      NEK! 1st Album "MEME"
+      　　　　　━━━*:･ﾟ✧*:･ﾟ✧
+      
+      Distribution of the included songs
+      has just started at 0:00 (12:00 AM JST) on 11/26 (Wed)🎉
+      
+      🎧Streaming&Download
+      https://lnk.to/NEKI_MEME
+      
+      💿CD Purchase
+      https://pcim.lnk.to/meme_CD
+      
+      #NEKI #MEME #NEK!MEME
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-Eg6boAEMEc0
+
+- postx:
+    id: 1993335913980842126
+    account: nekiband_jp
+    label: iTune Campaign
+    published-date: 2025-11-25
+    text: |-
+      🎧CAMPAIGN🎧
+      
+      NEK! 1st Album『MEME』
+      iTunesダウンロードキャンペーン実施決定🎊
+      
+      期間内にiTunesにてアルバムをご購入いただいた方へオリジナル特典のプレゼントが決定しました🎁
+      
+      ぜひご参加お願いします✅
+      
+      ▼購入ページ
+      https://itunes.apple.com/jp/album/1849350430?app=itunes
+      
+      ▼CP詳細
+      https://note.com/nekiband_jp/n/nca8668de5106
+      
+      #NEKI #MEME
+    translation: |-
+      🎧CAMPAIGN🎧
+      
+      NEK! 1st Album "MEME"
+      iTunes Download Campaign Implementation Decided🎊
+      
+      We've decided to give an original bonus to those who purchase the album on iTunes during the campaign period🎁
+      
+      We encourage you to participate✅
+      
+      ▼Purchase Page
+      https://itunes.apple.com/jp/album/1849350430?app=itunes
+      
+      ▼CP Details
+      https://note.com/nekiband_jp/n/nca8668de5106
+      
+      #NEKI #MEME
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993368968099512674
+    account: coco_102
+    label: Available on streaming
+    published-date: 2025-11-25
+    text: |-
+      NEK! 1st Album 『MEME』本日リリースです🔥
+      
+      ネットが普及した現代に生きる私たちが日々感じていることをありのままに詰め込んだ渾身の一作です。
+      私たちの想いがみなさんの希望となり、そしてネットミームのように世界に広がり末永く愛される作品となりますように！
+      
+      #NEKI #MEME #ネキミーム
+    translation: |-
+      NEK! 1st Album "MEME" is released today🔥
+      
+      This is a passionate work that candidly packs in everything we feel living in the modern, internet-saturated world.
+      We hope that our feelings become hope for all of you, and that this work spreads across the world like an internet meme and is loved for a long time!
+      
+      #NEKI #MEME #NEK!MEME
+    image:
+    - G6negc_bwAIPAmj
+    part-of:
+      postx: 1993333867969978652
+
+- postx:
+    id: 1993505069980172580
+    account: TOWER_Namba
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【NEK!】
+      
+      🎮1st Full Album『MEME』発売日🏁
+      
+      「ああバンドやりたい！」第13弾はNEK!💥
+      🔻コラボポスター掲出＆抽選プレゼント
+      🔻SNSコラボ
+      🔻特別レシート
+      🔗https://tower.jp/article/news/2025/11/12/n101
+      
+      🎁特典🎁
+      「ああバンドやりたい！」×NEK! コラボ絵柄ステッカー
+      
+      #ネキ #ネキミーム
+    translation: |-
+      【NEK!】
+      
+      🎮1st Full Album "MEME" Release Day🏁
+      
+      The 13th "Ah, I Want to Start a Band!" is NEK!💥
+      🔻Collaboration poster display & lottery present
+      🔻SNS collaboration
+      🔻Special receipt
+      🔗https://tower.jp/article/news/2025/11/12/n101
+      
+      🎁Bonus🎁
+      "Ah, I Want to Start a Band!" × NEK! Collaboration Sticker Design
+      
+      #NEKI #NEK!MEME
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993505665332265070
+    account: TOWER_AbenoHoop
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【NEK!】
+      1st フルアルバム 『#MEME』本日発売🎸💥
+      
+      🎁タワレコ特典🎁
+      コラボ絵柄ステッカー(ランダム)
+      
+      「#ああバンドやりたい！」
+      キャンペーン開催中✨
+      🏁コラボポスター掲出
+      🏁特別レシート　など
+      詳細：https://tower.jp/article/news/2025/11/12/n101
+      
+      #NEKI
+    translation: |-
+      【NEK!】
+      1st Full Album "#MEME" released today🎸💥
+      
+      🎁Tower Records Bonus🎁
+      Collaboration design sticker (random)
+      
+      "#AhIWantToStartABand!"
+      Campaign currently running✨
+      🏁Collaboration poster display
+      🏁Special receipt, etc.
+      Details: https://tower.jp/article/news/2025/11/12/n101
+      
+      #NEKI
+    image:
+    - G6pa0bAaEAAU8zi
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993519692619936194
+    account: HmvBooksShibuya
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【#NEKI】
+      
+      スラングロックバンド NEK!
+       待望の1stフルアルバム
+      「#MEME」本日発売日です🎉
+      
+      結成から1年半で「ネットミーム」の如くガールズバンド界隈に旋風を巻き起こしてきたネット発である彼女達の真骨頂を詰め込んだ作品！
+      
+      🎁HMV限定特典
+      A5クリアファイル
+    translation: |-
+      【#NEKI】
+      
+      Slang rock band NEK!
+      Their long-awaited 1st full album
+      "#MEME" is released today🎉
+      
+      This work is packed with the true essence of the band, who started online and have caused a sensation in the girls' band scene, like an "internet meme," in just a year and a half since their formation!
+      
+      🎁HMV Exclusive Bonus
+      A5 Clear File
+    image:
+    - G6pnl9ubwAEitVg
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993538605424558161
+    account: TOWER_Kinshicho
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【NEK!】
+      
+      ＼"#ネキミーム!"の到来!?／
+      1stフルアルバム
+      『MEME』(読み方:ミーム)
+      本日発売=^_^=🐾💿
+      
+      🎁特典🎁
+      「#ああバンドやりたい！」×NEK! コラボ絵柄ステッカー
+      
+      ああバンドやりたい！第13弾アンバサダー選出✨
+      コラボポスター掲出中っ
+      🔗https://tower.jp/article/news/2025/11/12/n101
+    translation: |-
+      【NEK!】
+      
+      ＼The arrival of "#NEK!MEME!"!?／
+      1st full album
+      "MEME" (Reading: Meme)
+      Released Today=^_^=🐾💿
+      
+      🎁Bonus🎁
+      "#AhIWantToStartABand!" × NEK! Collaboration Sticker Design
+      
+      Selected as the 13th Ambassador for Ah, I Want to Start a Band!✨
+      Collaboration poster currently on display
+      🔗https://tower.jp/article/news/2025/11/12/n101
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993547062546452658
+    account: TOWER_Kagoshima
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【#NEKI】 
+      
+      "ネキミーム!"の到来!?
+      スラングロックバンドNEK!
+      待望の1stフルアルバム『#MEME』発売中!!
+      
+      彼女たちのアイデンティを示すかのようなスラングソングや、王道ロックにバラードなど振り幅の広い楽曲が並ぶ1枚!
+      めちゃかっこいいです、バンドやりたくなります🎸⚡
+      
+      https://tower.jp/article/feature_item/2025/08/30/0701
+    translation: |-
+      【#NEKI】
+      
+      The arrival of "NEK!MEME!"!?
+      Slang rock band NEK!'s
+      long-awaited 1st full album "#MEME" is now on sale!!
+      
+      This album features a wide range of tracks, including slang songs that seem to show their identity, mainstream rock, and ballads!
+      It's super cool, it makes you want to start a band🎸⚡
+      
+      https://tower.jp/article/feature_item/2025/08/30/0701
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993548230764990918
+    account: TOWER_Fukuoka
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【NEK!】
+      
+      スラングロックバンドNEK!
+      1st Album「#MEME」本日発売日！🐱
+      
+      初回盤にはCDでしか聴くことが
+      できないボーナストラックを収録！✨
+      
+      発売を記念して
+      「#ああバンドやりたい！」に登場！🎸
+      店頭にてポスター掲出中です！💥
+      
+      🎁コラボ絵柄ステッカー
+      🔗https://tower.jp/article/feature_item/2025/10/03/0706?srsltid=AfmBOopjz4aiKxsyg7XY64iAdw7TjQ6ho_fmJDC96GUmHbFZpUMfgsiU
+      
+      #NEKI
+    translation: |-
+      【NEK!】
+      
+      Slang rock band NEK!
+      1st Album "#MEME" is released today!🐱
+      
+      The first pressing includes a bonus track
+      that can only be heard on the CD!✨
+      
+      To celebrate the release,
+      they are featured in "#AhIWantToStartABand!"!🎸
+      The poster is displayed in stores!💥
+      
+      🎁Collaboration Sticker Design
+      🔗https://tower.jp/article/feature_item/2025/10/03/0706?srsltid=AfmBOopjz4aiKxsyg7XY64iAdw7TjQ6ho_fmJDC96GUmHbFZpUMfgsiU
+      
+      #NEKI
+    image:
+    - G6qBbV3bwAEZ4k0
+    - G6qBcAxaMAAeXeC
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993554052475764966
+    account: TOWER_Yokohama
+    label: Visiting the store
+    published-date: 2025-11-26
+    text: |-
+      【🩷🖤NEK!🩷🖤】
+      
+      1stフルアルバム『MEME』をリリースされたNEK!のお二人が訪店されました！✨
+      
+      展開前にてお写真、コメントカードをいただいています👀
+      タワレコオリジナル施策「ああバンドやりたい！」にも抜てき！
+      詳細↓
+      https://tower.jp/article/news/2025/11/12/n101
+      
+      @nekiband_jp
+       
+      @46_hikaa
+       
+      @natsu08_guitar
+    translation: |-
+      【🩷🖤NEK!🩷🖤】
+      
+      The two members of NEK!, who released their 1st full album "MEME", visited our store!✨
+      
+      We received a photo and a comment card at the display area👀
+      They were also selected for Tower Records' original project "Ah, I Want to Start a Band!"
+      Details↓
+      https://tower.jp/article/news/2025/11/12/n101
+      
+      @nekiband_jp
+       
+      @46_hikaa
+       
+      @natsu08_guitar
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993554149125112120
+    account: TOWER_Iwata
+    label: In-store display
+    published-date: 2025-11-26
+    text: |-
+      【#NEK!】
+      
+      1stフルアルバム
+      「MEME」
+      🎸本日発売日🎸
+      
+      🎁タワレコ特典🎁
+      コラボ絵柄ステッカー(ランダム)
+      
+      ˗ˏˋ💗「#ああバンドやりたい！」
+                        キャンペーン開催中💗 ˎˊ˗
+      🏁コラボポスター掲出
+      🏁特別レシート　など‼️
+      詳細⬇️
+      🔗https://tower.jp/article/news/2025/11/12/n101
+      
+      @nekiband_jp
+    translation: |-
+      【#NEK!】
+      
+      1st full album
+      "MEME"
+      🎸Released Today🎸
+      
+      🎁Tower Records Bonus🎁
+      Collaboration design sticker (random)
+      
+      ˗ˏˋ💗"#AhIWantToStartABand!"
+                        Campaign Running💗 ˎˊ˗
+      🏁Collaboration poster display
+      🏁Special receipt, etc.‼️
+      Details⬇️
+      🔗https://tower.jp/article/news/2025/11/12/n101
+      
+      @nekiband_jp
+    image:
+    - G6qG6kKbwAIovvE
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993590175050744106
+    account: TOWER_Machida
+    label: Visiting the store
+    published-date: 2025-11-26
+    text: |-
+      【NEK!】
+      
+      1stフルアルバム『#MEME』発売日の本日、
+      メンバーのお二人がご来店❣️✨
+      
+      展開場所にサインやコメントカード、
+      ポスターをいただきました🙌🏻
+      
+      お忙しい中ありがとうございました☺️💓
+      
+      インスタではコメント動画を公開してます💕
+      🔗https://instagram.com/p/DRgxaEHCaWZ/
+      
+      町田店激プッシュ展開中👊🏻💥
+      #NEKI
+    translation: |-
+      【NEK!】
+      
+      Today, the release day of their 1st full album "#MEME",
+      two of the members visited our store❣️✨
+      
+      They gave us their signatures, a comment card,
+      and a poster for the display area🙌🏻
+      
+      Thank you for coming despite your busy schedule☺️💓
+      
+      We have released a comment video on Instagram💕
+      🔗https://instagram.com/p/DRgxaEHCaWZ/
+      
+      Machida store is heavily promoting them👊🏻💥
+      #NEKI
+    todo: video in instagram link
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993598161303343158
+    account: nekiband_jp
+    label: Visiting the stores
+    published-date: 2025-11-26
+    text: |-
+      NEK! 1st Album『MEME』
+      本日リリース日‼️
+      
+      各地CDショップなどにお邪魔させていただいております💿✨
+      
+      来店店舗はInstagramのストーリーズをぜひご覧ください🤳
+      
+      🔗https://instagram.com/nekiband_jp
+      
+      #NEKI #MEME
+    translation: |-
+      NEK! 1st Album "MEME"
+      Release Day Today‼️
+      
+      We are visiting CD shops in various locations💿✨
+      
+      Please check our Instagram Stories to see which stores we visited🤳
+      
+      🔗https://instagram.com/nekiband_jp
+      
+      #NEKI #MEME
+    todo: posts on Instagram
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993600744059191783
+    account: TOWER_Shibuya
+    label: Visiting the store
+    published-date: 2025-11-26
+    text: |-
+      【#タワ渋訪店】
+      1stフルアルバム『#MEME』をリリースした
+      NEK!の皆様がご訪店👾✨
+      
+      ありがとうございます🥹
+      サインとコメントカードは3F展開にて掲出中💫
+      
+      11/29(土)にはリリースイベントも開催☟
+      https://towershibuya.jp/2025/10/30/221190
+      
+      この機会にぜひお越しください🌈(Yz)
+      #タワレコ渋谷30th
+      #NEKI #ネキミーム
+    translation: |-
+      【#TOWERShibuyaVisit】
+      NEK!, who released their 1st full album "#MEME",
+      visited our store👾✨
+      
+      Thank you so much🥹
+      Their signatures and comment card are displayed on the 3rd floor💫
+      
+      A release event will also be held on 11/29 (Sat)☟
+      https://towershibuya.jp/2025/10/30/221190
+      
+      Please take this opportunity to come visit us🌈(Yz)
+      #TowerRecordsShibuya30th
+      #NEKI #NEK!MEME
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993643729824133383
+    account: HmvBooksShibuya
+    label: Visiting the store
+    published-date: 2025-11-26
+    text: |-
+      【NEK!】
+      
+      1stフルアルバム『#MEME』を本日リリースした、
+      NEK!のみなさんがご来店❗️
+      
+      サインやコメントカードを頂きました😊
+      5FのCDコーナーにて展開中です❗️
+      
+      前回に引き続き、当店限定で特典クリアファイルと一緒にサイン入り色紙をプレゼント🎁
+      ⚠️色紙はランダムでのお渡しになります。
+      #NEKI
+    translation: |-
+      【NEK!】
+      
+      NEK!, who released their 1st full album "#MEME" today,
+      visited our store❗️
+      
+      We received signatures and a comment card😊
+      They are currently displayed in the 5F CD corner❗️
+      
+      Continuing from last time, we are giving away a signed shikishi (colored paper) along with the exclusive bonus clear file🎁
+      ⚠️The shikishi will be handed out randomly.
+      #NEKI
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993643777966399738
+    account: coco_102
+    label: Visiting the stores
+    published-date: 2025-11-26
+    text: |-
+      本日何店舗か訪問させていただきました🫡❤️‍🔥
+      メッセージやサインもたくさん書かせていただいたので、ぜひみなさんも各店舗遊びに行ってみてくださいー！！
+    translation: |-
+      I visited several stores today🫡❤️‍🔥
+      I wrote lots of messages and signatures, so please visit each store too!!
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993646142891167993
+    account: TOWER_Shinjuku
+    label: Visiting the store
+    published-date: 2025-11-26
+    text: |-
+      【#NEKI】　
+      
+      本日1stフルアルバム
+      『MEME』をリリースしたNEK!の皆様がご来店
+      
+      後ほど当店インスタグラムには動画コメントも頂いたのでアップいたします😉
+      
+      新宿店ではサイン入りパネルが当たる抽選券
+      ＆「#ああバンドやりたい！」×NEK! コラボ絵柄ステッカーの特典をお渡し中🎮
+      
+       #MEME　#ネキミーム
+    translation: |-
+      【#NEKI】
+      
+      NEK!, who released their 1st full album
+      "MEME" today, visited our store
+      
+      We will upload a video comment later on our store's Instagram😉
+      
+      At the Shinjuku store, we are giving out a lottery ticket to win a signed panel
+      & the "#AhIWantToStartABand!" × NEK! collaboration sticker design as a bonus🎮
+      
+      #MEME #NEK!MEME
+    image:
+    - G6rY7SZaYAAuE79
+    todo: video in instagram
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993685933745668416
+    account: 46_hikaa
+    label: Visiting the stores
+    published-date: 2025-11-26
+    text: |-
+      各地CDショップなどにお邪魔させていただきました𖤐 ̖́-
+      
+      愛を込めてサインとメッセージを書かせて頂きましたので、ぜひ！見てほしい♡.*･ﾟ
+    translation: |-
+      We visited CD shops in various locations𖤐 ̖́-
+      
+      We wrote signatures and messages with love, so please! I hope you see them♡.*･ﾟ
+    image:
+    - G6r-tyvaAAA2kpx
+    - G6r-tyzakAAAqjz
+    video:
+    - 01
+    part-of:
+      postx: 1993598161303343158
+
+- postx:
+    id: 1993687445703942373
+    account: dai_dai_m
+    label: Bonus stickers
+    published-date: 2025-11-26
+    text: |-
+      達成感😌
+      
+      #NEKI
+      #MEME
+      #ネキミーム
+    translation: |-
+      Sense of accomplishment😌
+      
+      #NEKI
+      #MEME
+      #NEK!MEME
+    image:
+    - G6sAKbhbEAA5YV5
+    part-of:
+      album: meme
 
 - postximage:
     post: 1961737876066168993
@@ -460,13 +1488,35 @@
       postx: 1992921351557202148
 
 - postximage:
+    post: 1993165331645542578
+    id: G6kkdZia0AAMvMo
+    label: In-store display
+    info: Tower Records Shibuya
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993165331645542578
+
+- postximage:
+    post: 1993165331645542578
+    id: G6kkegRaQAAWJuu
+    label: In-store display
+    info: Tower Records Shibuya
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993165331645542578
+
+- postximage:
     post: 1993167197976641766
     id: G6kl0LKaQAABQlX
     label: In-store display
-    info: Exhibition
+    info: Tower Records Shinjuku
     published-date: 2025-11-25
     context:
-    - event: iwanttostartaband
+    - album: meme
     part-of:
       postx: 1993167197976641766
 
@@ -474,9 +1524,10 @@
     post: 1993167197976641766
     id: G6klzUQbUAA1Cqs
     label: In-store display
+    info: Tower Records Shinjuku
     published-date: 2025-11-25
     context:
-    - event: iwanttostartaband
+    - album: meme
     part-of:
       postx: 1993167197976641766
 
@@ -489,6 +1540,39 @@
     - album: meme
     part-of:
       postx: 1993208642196455910
+
+- postximage:
+    post: 1993221150751813701
+    id: G6lX2K9agAAaVEv
+    label: In-store display
+    info: Tower Records Yokohama
+    published-date: 2025-11-25
+    context:
+    - album: meme
+    part-of:
+      postx: 1993221150751813701
+
+- postximage:
+    post: 1993221150751813701
+    id: G6lX2jja0AAAdol
+    label: In-store display
+    info: Tower Records Yokohama
+    published-date: 2025-11-25
+    context:
+    - album: meme
+    part-of:
+      postx: 1993221150751813701
+
+- postximage:
+    post: 1993221274383138890
+    id: G6lYLOCbwAYzpHg
+    label: In-store display
+    info: Tower Records Laketown
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993221274383138890
 
 - postximage:
     post: 1993242458977955921
@@ -532,6 +1616,308 @@
     part-of:
       postx: 1993268941666353391
 
+- postximage:
+    post: 1993279477162688586
+    id: G6mMxNZbwAkKY6j
+    label: In-store display
+    info: Tower Records Machida
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993279477162688586
+
+- postximage:
+    post: 1993292641644212626
+    id: G6mYv4KbEAAHt_2
+    label: In-store display
+    info: Tower Records Shinjuku
+    published-date: 2025-11-25
+    context:
+    - album: meme
+    part-of:
+      postx: 1993292641644212626
+
+- postximage:
+    post: 1993335913980842126
+    id: G6m3rhkbcAAZDOq
+    label: iTune Campaign
+    published-date: 2025-11-25
+    context:
+    - album: meme
+    part-of:
+      postx: 1993335913980842126
+
+- postximage:
+    post: 1993368968099512674
+    id: G6negc_bwAIPAmj
+    label: Cocoro
+    published-date: 2025-11-25
+    todo: find a place for it
+    part-of:
+      postx: 1993368968099512674
+
+- postximage:
+    post: 1993505069980172580
+    id: G6paSpmbMAEMoKB
+    label: In-store display
+    info: Tower Records Namba
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993505069980172580
+
+- postximage:
+    post: 1993505665332265070
+    id: G6pa0bAaEAAU8zi
+    label: In-store display
+    info: Tower Records Abeno Hoop
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993505665332265070
+
+- postximage:
+    post: 1993519692619936194
+    id: G6pnl9ubwAEitVg
+    label: In-store display
+    info: HMV Shibuya
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993519692619936194
+
+- postximage:
+    post: 1993538605424558161
+    id: G6p4y03bwAMu3Q2
+    label: In-store display
+    info: Tower Records Kinshicho
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993538605424558161
+
+- postximage:
+    post: 1993538605424558161
+    id: G6p4y0gbQAAqUxF
+    label: In-store display
+    info: Tower Records Kinshicho
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993538605424558161
+
+- postximage:
+    post: 1993547062546452658
+    id: G6p9vrWbMAAqAqV
+    label: In-store display
+    info: Tower Records Kagoshima
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993547062546452658
+
+- postximage:
+    post: 1993547062546452658
+    id: G6p9xZWawAAtMNX
+    label: In-store display
+    info: Tower Records Kagoshima
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993547062546452658
+
+- postximage:
+    post: 1993548230764990918
+    id: G6qBbV3bwAEZ4k0
+    label: In-store display
+    info: Tower Records Fukuoka
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993548230764990918
+
+- postximage:
+    post: 1993548230764990918
+    id: G6qBcAxaMAAeXeC
+    label: In-store display
+    info: Tower Records Fukuoka
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993548230764990918
+
+- postximage:
+    post: 1993554052475764966
+    id: G6qFY4ybYAAfLqL
+    label: At the store
+    info: Tower Record Yokohama, Natsu, Hika
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993554052475764966
+
+- postximage:
+    post: 1993554149125112120
+    id: G6qG6kKbwAIovvE
+    label: In-store display
+    info: Tower Records Iwata
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993554149125112120
+
+- postximage:
+    post: 1993590175050744106
+    id: G6qnflNbEAAfBjt
+    label: At the store
+    info: Tower Records Machida, Natsu, Hika
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993590175050744106
+
+- postximage:
+    post: 1993590175050744106
+    id: G6qngiQbwAA7NWe
+    label: At the store
+    info: Tower Records Machida, Natsu, Hika
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993590175050744106
+
+- postximage:
+    post: 1993598161303343158
+    id: G6qu9P6bwAQJXnO
+    label: Band
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993598161303343158
+
+- postximage:
+    post: 1993600744059191783
+    id: G6qwPL8aIAA82sz
+    label: At the store
+    info: Tower Records Shibuya
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993600744059191783
+
+- postximage:
+    post: 1993600744059191783
+    id: G6qwTEEa0AApFBe
+    label: At the store
+    info: Tower Records Shibuya
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993600744059191783
+
+- postximage:
+    post: 1993643729824133383
+    id: G6rYZ6RbUAAzAeg
+    label: Cards
+    info: HMV Shibuya
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993643729824133383
+
+- postximage:
+    post: 1993643729824133383
+    id: G6rYZ6SaUAAlunE
+    label: At the store
+    info: HMV Shibuya
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993643729824133383
+
+- postximage:
+    post: 1993643729824133383
+    id: G6rYZ6WaIAAviIh
+    label: At the store
+    info: HMV Shibuya
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993643729824133383
+
+- postximage:
+    post: 1993643777966399738
+    id: G6rYcrZaEAAuWC3
+    label: At the store
+    info: Tower Records Shinjuku
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993643777966399738
+
+- postximage:
+    post: 1993646142891167993
+    id: G6rY7SZaYAAuE79
+    label: At the store
+    info: Tower Records Shinjuku
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postx: 1993646142891167993
+
+- postximage:
+    post: 1993685933745668416
+    id: G6r-tyvaAAA2kpx
+    label: At a store
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    todo: which store ?
+    part-of:
+      postx: 1993685933745668416
+
+- postximage:
+    post: 1993685933745668416
+    id: G6r-tyzakAAAqjz
+    label: At the store
+    info: Tower Records Machida, Natsu, Hika
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    todo: which store ?
+    part-of:
+      postx: 1993685933745668416
+
+- postximage:
+    post: 1993687445703942373
+    id: G6sAKbhbEAA5YV5
+    label: Bonus stickers
+    published-date: 2025-11-26
+    part-of:
+      postx: 1993687445703942373
+
 - postxvideo:
     post: 1983159440678510938
     id: 01
@@ -553,6 +1939,19 @@
     - album: meme
     part-of:
       postx: 1983908062110085217
+
+- postxvideo:
+    post: 1993685933745668416
+    id: 01
+    label: Display
+    info: Tower Records Shinjuku
+    published-date: 2025-11-26
+    cover: 1993685847733051392/img/v9gdzUR_RqttGiLN.jpg
+    context:
+    - album: meme
+    todo: which store ?
+    part-of:
+      postx: 1993685933745668416
 
 - update:
     album: meme
@@ -576,6 +1975,14 @@
     text:
     - Images from the filming of a music video
     - Mone teasing of songs, Kanade bass line
+    part-of:
+      album: meme
+
+- update:
+    album: meme
+    date: 2025-11-26
+    text:
+    - Organized some of the media from the release
     part-of:
       album: meme
 

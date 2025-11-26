@@ -11,6 +11,7 @@ contentpage:
   isLargeMarker:
   - album
   - event
+  - mainmedia
   - mainshow
   - song
   - tour
@@ -77,6 +78,9 @@ contentpage:
       id: memetowershibuya
   - media:
       year: 2025
+      id: mikikimeme
+  - media:
+      year: 2025
       id: fmyokohamakissandride
   - show:
       year: 2025
@@ -114,6 +118,9 @@ contentpage:
   - show:
       year: 2025
       id: buzzrhythmlive
+  - media:
+      year: 2025
+      id: eggman11
   - show:
       year: 2025
       id: tokyocalling

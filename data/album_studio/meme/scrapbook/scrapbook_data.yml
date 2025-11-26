@@ -1,9 +1,28 @@
-youtubeshort:
-  id: XePvfo8uMFc
-  label: Rehearsal
-  info: studio audio
-  published-date: 2025-11-16
-  context:
-  - song: scrapbook
-  part-of:
+- update:
     song: scrapbook
+    date: 2025-11-26
+    text:
+    - New short video
+    part-of:
+      song: scrapbook
+
+- youtubeshort:
+    id: H8lIROkXNLE
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-26
+    context:
+    - song: scrapbook
+    part-of:
+      song: scrapbook
+
+- youtubeshort:
+    id: XePvfo8uMFc
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-11-16
+    context:
+    - song: scrapbook
+    part-of:
+      song: scrapbook
+

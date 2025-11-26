@@ -1,3 +1,183 @@
+- postx:
+    id: 1993537664394662212
+    account: kr_staff
+    label: Thank you
+    published-date: 2025-11-26
+    text: |-
+      🚙今日の #キスライ PICK UP💨
+      
+      📻スラングロックバンド #NEKI から、Hikaさん、Natsuさんが来てくれました✨
+      
+      アルバム「MEME」の話だけでなく、楽曲の作り方、バンド名、ライブの話など・・・色々伺いました🎶
+      
+      #radiko はこちら👇
+      https://radiko.jp/share/?sid=YFM&t=20251126130557
+      #キスライ
+    translation: |-
+      🚙Today's #KissRide PICK UP💨
+      
+      📻From the slang rock band #NEKI, Hika and Natsu came to visit us✨
+      
+      We talked about not only the album "MEME", but also how they make music, the band name, and live shows... we asked them about various things🎶
+      
+      #radiko link is here👇
+      https://radiko.jp/share/?sid=YFM&t=20251126130557
+      #KissRide
+    image:
+    - G6p330JbwAEpza6
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamakissandride
+
+- postx:
+    id: 1993541736006811759
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-26
+    text: |-
+      FM yokohama「Kiss & Ride」
+      
+      お聴きいただきありがとうございました📻✨
+      
+      1st アルバム『MEME』本日リリース‼️
+      楽曲配信はコチラ▼
+      https://lnk.to/NEKI_MEME
+      
+      来年2月より開催
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026❤️‍🔥
+      チケット受付中▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #キスライ
+    translation: |-
+      FM yokohama "Kiss & Ride"
+      
+      Thank you for listening📻✨
+      
+      1st Album "MEME" released today‼️
+      Music streaming here▼
+      https://lnk.to/NEKI_MEME
+      
+      Starting next February
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026❤️‍🔥
+      Tickets currently available▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #KissRide
+    image:
+    - G6p7oz-acAA5rBO
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamakissandride
+
+- postx:
+    id: 1993556066672726364
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-11-26
+    text: |-
+      FM yokohama「Kiss & Ride」
+      お聴きいただきありがとうございました☀️
+    translation: |-
+      FM yokohama "Kiss & Ride"
+      Thank you for listening☀️
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamakissandride
+
+- postx:
+    id: 1993556722968154273
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-11-26
+    text: |-
+      FM yokohama「Kiss & Ride」
+      
+      お聴きいただきありがとうございました！！
+      景色も綺麗で目も耳も楽しいラジオでした📻🤍🤍
+      横浜最高！！！
+      明後日もツアーでも横浜お邪魔するので遊びに来てくださると嬉しいです！
+      ぜひアーカイブでもお聴きください👂🏻
+    translation: |-
+      FM yokohama "Kiss & Ride"
+      
+      Thank you for listening!!
+      It was a radio show where both my eyes and ears had fun with the beautiful scenery📻🤍🤍
+      Yokohama is the best!!!
+      I'll be visiting Yokohama again the day after tomorrow for the tour, so I'd be happy if you come to see us!
+      Please listen to the archive as well👂🏻
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamakissandride
+
+- postximage:
+    post: 1993537664394662212
+    id: G6p330JbwAEpza6
+    label: In studio
+    info: Natsu, Taiga Kobayashi, Hika
+    published-date: 2025-11-26
+    context:
+    - media:
+        year: 2025
+        id: fmyokohamakissandride
+    part-of:
+      postx: 1993537664394662212
+
+- postximage:
+    post: 1993541736006811759
+    id: G6p7oz-acAA5rBO
+    label: At the station
+    info: Hika, Natsu
+    published-date: 2025-11-26
+    context:
+    - media:
+        year: 2025
+        id: fmyokohamakissandride
+    part-of:
+      postx: 1993541736006811759
+
+- postximage:
+    post: 1993556066672726364
+    id: G6qIqy8aoAArVJz
+    label: At the station
+    info: Natsu, Hika
+    published-date: 2025-11-26
+    context:
+    - media:
+        year: 2025
+        id: fmyokohamakissandride
+    part-of:
+      postx: 1993556066672726364
+
+- postximage:
+    post: 1993556066672726364
+    id: G6qIqy_bwAQd9OD
+    label: At the station
+    info: Natsu, Hika
+    published-date: 2025-11-26
+    context:
+    - media:
+        year: 2025
+        id: fmyokohamakissandride
+    part-of:
+      postx: 1993556066672726364
+
+- postximage:
+    post: 1993556722968154273
+    id: G6qJRW2aMAAibSL
+    label: At the station
+    published-date: 2025-11-26
+    context:
+    - media:
+        year: 2025
+        id: fmyokohamakissandride
+    part-of:
+      postx: 1993556722968154273
+
 - update:
     media:
       year: 2025
@@ -5,6 +185,18 @@
     date: 2025-11-25
     text:
     - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamakissandride
+
+- update:
+    media:
+      year: 2025
+      id: fmyokohamakissandride
+    date: 2025-11-26
+    text:
+    - Added pictures from the appearance
     part-of:
       media:
         year: 2025

@@ -1,0 +1,30 @@
+mediawritten:
+  year: 2025
+  id: mikikimeme
+  cover-image:
+    webimage:
+      domain: mikiki.tokyo.jp
+      page: 43282
+      id: banner
+  publication: Mikiki
+  issue: MEME release
+  designation: Interview
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2025-11-26
+  journalist: 天野史彬
+  article-page: 'https://mikiki.tokyo.jp/articles/-/43282'
+  todo: translate
+  part-of:
+    group:
+      id: media
+      group: 2025
+  reference:
+  - album: meme
+  description:
+  - As part of the release of their 1st album "MEME", NEK! answered to an interview on Mikiki, a publication by Tower Records.
+  categories:
+  - mainmedia

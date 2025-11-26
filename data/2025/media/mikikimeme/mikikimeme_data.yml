@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2025
+      id: mikikimeme
+    date: 2025-11-26
+    text:
+    - Added the article
+    part-of:
+      media:
+        year: 2025
+        id: mikikimeme
+
+- webimage:
+    domain: mikiki.tokyo.jp
+    page: 43282
+    id: banner
+    label: Banner
+    published-date: 2025-11-26
+    url: 'https://mikiki.tokyo.jp/common/images/ogp_image.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: mikiki.tokyo.jp
+        id: 43282
+
+- webpage:
+    domain: mikiki.tokyo.jp
+    id: 43282
+    label: Release interview
+    published-date: 2025-11-26
+    url: 'https://mikiki.tokyo.jp/articles/-/43282'
+    image:
+    - banner
+    part-of:
+      media:
+        year: 2025
+        id: mikikimeme
+

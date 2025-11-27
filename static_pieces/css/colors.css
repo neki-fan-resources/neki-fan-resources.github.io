@@ -16,14 +16,15 @@
   --color-hika-10: rgb(from var(--color-hika) r g b / 0.1);
   --color-kanade: #e2007e;
   --color-kanade-light: rgb(from var(--color-kanade) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
-  --color-kanade-lighter: rgb(from var(--color-kanade) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
+  --color-kanade-lighter: rgb(from var(--color-kanade) calc((r + 3803)/16) calc((g + 3803)/16) calc((b + 3803)/16));
   --color-kanade-dark: rgb(from var(--color-kanade) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-kanade-50: rgb(from var(--color-kanade) r g b / 0.5);
   --color-kanade-05: rgb(from var(--color-kanade) r g b / 0.05);
   --color-natsu: #fff001;
   --color-natsu-light: rgb(from var(--color-natsu) calc((r + 255)/2) calc((g + 255)/2) calc((b + 255)/2));
   --color-natsu-light2: rgb(from var(--color-natsu) calc((r + 511)/3) calc((g + 512)/3) calc((b + 512)/3));
-  --color-natsu-lighter: rgb(from var(--color-natsu) calc((r + 2303)/10) calc((g + 2303)/10) calc((b + 2303)/10));
+  --color-natsu-lighter: rgb(from var(--color-natsu) calc((r + 3803)/16) calc((g + 3803)/16) calc((b + 3803)/16));
+  --color-natsu-darkish: rgb(from var(--color-natsu) calc((r + 128)/2) calc((g + 128)/2) calc((b + 128)/2));
   --color-natsu-dark: rgb(from var(--color-natsu) calc((r)/2) calc((g)/2) calc((b)/2));
   --color-natsu-50: rgb(from var(--color-natsu) r g b / 0.5);
   --color-natsu-10: rgb(from var(--color-natsu) r g b / 0.1);

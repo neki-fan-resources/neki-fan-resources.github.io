@@ -83,6 +83,7 @@ object ElementToPage {
           Path("bandpage.css"),
           Path("sourcespage.css"),
           Path("overwrites.css"),
+          Path("interview.css"),
         ),
         "styles.css",
       ),

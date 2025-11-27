@@ -1,3 +1,309 @@
+- display:
+    media:
+      year: 2025
+      id: mikikimeme
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: This interview was conducted as part of the "I want to start a band!" (
+                  - event: iwanttostartaband
+                  - text: ) project, a campaign by Tower Records aimed at revitalizing band culture and encouraging listeners to pick up instruments. With the release of their first album MEME, NEK! was selected as the 13th ambassador for this initiative.
+                - line:
+                  - text: "The conversation traces the band's modern formation story: how vocalist Hika recruited three \"cute and talented\" strangers via social media DMs, leading to their first chaotic studio session and an immediate bond over pancakes."
+                - line:
+                  - text: Each member delves into their personal musical history, revealing a diverse mix of influences ranging from the anime K-On! and classic rock like Eric Clapton, to Japanese legends like X JAPAN and Gacharic Spin. They discuss the pivotal moments where they chose music as their "career path" over traditional schooling.
+                - line:
+                  - text: "Finally, the interview explores the creation of their 1st full album, MEME. The members break down their technical ambitions—including complex time signatures and slap bass challenges—and explain the album's core theme: the duality of the internet as a place of both suffocating toxicity and miraculous connection."
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: This interview was published on Mikiki, the music culture website operated by Tower Records Japan. It was conducted as part of the "I want to start a band!" (
+                  - event: iwanttostartaband
+                  - text: ) project, a campaign by Tower Records aimed at revitalizing band culture and encouraging listeners to pick up instruments. With the release of their first album MEME, NEK! was selected as the 13th ambassador for this initiative.
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+        - basicsection:
+            label: Translation
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: Formed in February 2024. Although they have only been active for about a year and a half, the four-piece band NEK! (pronounced "Neki") is currently tearing up the live house scene with ferocious momentum.
+                - line:
+                  - text: Before forming the band, the four members individually shared their music through social media and YouTube. The appeal of their songs—driven by their high level of musicianship, the frantic energy with which they celebrate the joy of playing together in a band, and a free-spirited sensibility that flexibly blends heaviness with pop elements—is sure to be discovered by even more listeners through the release of their 1st full album, MEME.
+                - line:
+                  - text: In this interview, we focused mainly on the story behind NEK!'s formation and each member's musical roots. Reading this, you will see that despite their youth, all four members possess rich musical backgrounds. You will also feel the power of these four musicians who live their lives utterly faithful to what they "love" and "want to do," never ceasing in their hunger for music.
+            - interviewsubsection:
+                label: "\"I want to see sights we haven't seen yet\""
+                lines:
+                - text: It has only been about a year and a half since NEK! formed, but in that time, between recording and live shows, I imagine you have gained a lot of experience. First, please tell us how you feel looking back on the time from your formation until now.
+                  isinterviewer: true
+                - text: Before starting NEK!, I was active as a solo singer-songwriter, so being in a rock band is actually a first for me.
+                  participant: Hika
+                - text: Since starting NEK!, I have been taking on new challenges one after another, and we have been able to work on a much larger scale than when I was doing it alone. Right now, I have a strong desire to go see sights we haven't seen yet with the four of us.
+                - text: For me, in this year and a half, I realized the joy of delivering our music. I had joined bands in school clubs and circles before, but those were strictly copy bands [cover bands].
+                  participant: Natsu
+                - text: But now, we create the songs ourselves, the fans receive them and feel something from them, and they come to see us live or watch our music videos. How should I put it... thanks to everyone, it has been a year and a half where I’ve just constantly felt the weight of this amazing experience.
+                - text: I think it was a year and a half of growth. Until then, I was posting 'played it' [instrumental cover] videos by myself, but back then I was fixated on the Vocaloid songs that I liked.
+                  participant: Kanade
+                - text: However, since starting activity as NEK!, making music with bandmates who have various roots has allowed me to challenge myself with song atmospheres and genres I had never played before. Also, since I was previously only active online, the sight of fans actually being there right in front of me brings me joy.
+                - text: I had always played music with people much older than me. Senior musicians used to tell me, 'If you form a band with your own generation, you can make music from a different perspective, and you will grow as a player.' But the high school I attended was a regular school, so there weren’t any musicians my age around. So, I kept wondering, 'How can I form a band with musicians of my own generation?'
+                  participant: Cocoro
+                - text: That was exactly when Hika reached out to me, and we decided to do NEK!. When I was playing with older people, it felt like I was just 'following along,' but since joining NEK!, I have experienced creating songs together with everyone in my generation, and I feel like I have grown more as an individual player. Also, as we continue our activities with NEK!, I feel like I am gradually getting closer to the ideal drummer I want to be.
+            - interviewsubsection:
+                label: '"Three cute and talented musicians found on social media"'
+                lines:
+                - text: As Cocoro just mentioned, Hika, you were the initiator of the band. How exactly did NEK! get started?
+                  isinterviewer: true
+                - text: I just wanted to form a band so badly (laughs). Since I had no other way to find bandmates other than social media, I sent a DM to each of their accounts asking, 'Won't you form a band with me?'
+                  participant: Hika
+                - text: So, Hika, you were checking out the three of them on social media.
+                  isinterviewer: true
+                - text: I was watching them. YouTube as well.
+                  participant: Hika
+                - text: What was your motivation for wanting to play with these three specifically?
+                  isinterviewer: true
+                - text: Honestly... because they’re cute (laughs).
+                  participant: Hika
+                - text: (Laughs)
+                  participant: all 3
+                - text: "'Cute' came first (laughs). And on top of that, they are skilled. With those visuals combined with that level of skill, I just felt a spark—like, 'Don't I have no choice but to get in the studio and jam with them?' So I reached out immediately."
+                  participant: Hika
+                - text: My response was an immediate 'Yes, please!'
+                  participant: Cocoro
+                - text: I answered immediately too. Though, honestly, I was also surprised. I knew she usually performed acoustic sets, so I thought, 'Wait, she wants to do a rock band?!'
+                  participant: Kanade
+                - text: Natsu, did you reply immediately too?
+                  isinterviewer: true
+                - text: ...I actually didn't notice it at first (laughs). Hika sent the DM on X [formerly Twitter], but I just happened not to have opened X in a while. When I finally opened it, the message was there, and I was like, 'Oh my god!'
+                  participant: Natsu
+                - text: I was thinking, 'She's not replying at all~'.
+                  participant: Hika
+                - text: I was playing solo too and really wanted to try a band. So I immediately sent a long message like, 'I'm so sorry, I didn't notice...' and told her, 'But I love your singing voice, Hika. I want to do this.' She replied that the guitarist spot wasn't filled yet, so I wrote back, 'Please let me join the studio next time!' So, I actually joined from the second studio session.
+                  participant: Natsu
+            - interviewsubsection:
+                label: '"When the four of us are together, it feels calm and reassuring"'
+                lines:
+                - text: So, let’s start by hearing about that first studio day when just the three of you—Hika, Kanade, and Cocoro—went in.
+                  isinterviewer: true
+                - text: Hika had a rough morning that day, didn't she?
+                  participant: Cocoro
+                - text: That’s right. My friend ended up getting taken away in an ambulance, and it turned into a situation where I absolutely had to accompany them. So, my morning was complete chaos, and I barely managed to rush into the studio saying, 'I'm so sorry I'm late!' (laughs). So, I think my first impression was probably terrible.
+                  participant: Hika
+                - text: That’s not true at all (laughs).
+                  participant: Kanade
+                - text: ...You’re so kind.
+                  participant: Hika
+                - text: (Laughs). What did you play during that first studio session?
+                  isinterviewer: true
+                - text: "We had decided on two cover songs via LINE: 'Usotsuki wa Katte' by Alstake and 'Don’t you tell ME' by BAND-MAID. We jammed on those two tracks. It was the first time I heard everyone’s sound live. I just thought... 'So cool!' and 'I’m so glad I asked them!'"
+                  participant: Hika
+                - text: After that, Natsu joined for the second studio session.
+                  isinterviewer: true
+                - text: "I was insanely nervous! I had already heard that the three of them had met up once, so I felt like I was joining as a 'new member,' you know? I got so nervous that I arrived at the studio super early and just hid in the restroom (laughs). Then I heard laughter coming from the stairs. Looking back, it was Hika and Kanade, but at the time I thought, '...Oh god. They’ve already formed a clique.' When I actually met the three of them, I remember trembling as I said my first words: 'Please be nice to me' (laughs)."
+                  participant: Natsu
+                - text: I’ve never seen someone look that terrified before (laughs).
+                  participant: Hika
+                - text: But everyone was just so sweet. We broke the ice immediately. After the studio, we all went to eat together.
+                  participant: Natsu
+                - text: Where did you go?
+                  isinterviewer: true
+                - text: Royal Host!
+                  participant: all 4
+                - text: And we all ordered the same pancake set (laughs).
+                  participant: Hika
+                - text: That’s lovely (laughs). So at that point, you already felt solidified, like 'We can make this work with these four.'
+                  isinterviewer: true
+                - text: Yes. It felt like our chemistry just matched.
+                  participant: Cocoro
+                - text: I feel like our atmosphere is the same. From the moment we first met face-to-face, I thought, 'We’re four people with a similar vibe.' Even though the artists we admire and our favorite genres are different.
+                  participant: Hika
+                - text: I wonder if it’s our personalities that match? Hika gathered us by watching our performance videos, but there’s no one who goes off doing their own thing. When the four of us are together, there’s a good sense of unity; everything just falls into place. Being together feels calm and reassuring. It feels strange, almost like we’ve been friends for a long time.
+                  participant: Natsu
+                - text: It certainly doesn't feel like people we just met in the last few years.
+                  participant: Kanade
+                - text: That just shows how amazing Hika's insight was. Thank you.
+                  participant: Natsu
+                - text: Thank you.
+                  participant: Hika
+            - interviewsubsection:
+                label: A miraculous turn of fate, reached through the desire to "start a band after all"
+                lines:
+                - text: I’d also like to hear how the four of you became interested in music and awakened to the idea of playing an instrument. First, Hika, how did you get started with music?
+                  isinterviewer: true
+                - text: I think I was just surrounded by music a lot. I started piano in early childhood, and I grew up listening to Hikaru Utada and Masaharu Fukuyama.
+                  participant: Hika
+                - text: When I was in elementary school, I encountered an anime called K-On!, and watching it made me think, 'I want to start a band!' But at the time, there was no one around me playing music, so my dream of a band sort of fizzled out. I thought, 'I have no choice but to do it alone,' so I started performing acoustic sets in my first year of high school. Thinking, 'I want more people to hear my singing voice,' I started posting my performances on TikTok.
+                - text: After that—I’m originally from Nagasaki—I moved to Tokyo. Around that time, I thought once again, 'I really do want to start a band after all.' So, using the social media presence I had built up as my weapon, I reached out to these bandmates, even though I didn’t know if I’d get a reply. And that led to the formation of this band. It really is a miraculous turn of fate.
+                - text: '"A miraculous turn of fate"—that sounds like the ultimate outcome. When you came to Tokyo from Nagasaki, did you come carrying the dream of music on your shoulders?'
+                  isinterviewer: true
+                - text: Yes. I came to Tokyo with the drive of, 'I am going to make it on music alone!' I had to persuade my parents to let me go.
+                  participant: Hika
+                - text: What kind of music influenced you?
+                  isinterviewer: true
+                - text: I have a huge amount of respect for Taka from ONE OK ROCK as a vocalist. Of course, his singing voice is wonderful, but I also deeply respect the humanity that you can feel within it.
+                  participant: Hika
+            - interviewsubsection:
+                label: An invitation that came just as I rediscovered the joy of being in a band
+                lines:
+                - text: How about you, Natsu? How did you first awaken to music?
+                  isinterviewer: true
+                - text: My father had a guitar at home, and it all started when he asked me, 'Why don't you give it a try?' My dad had bought it just to jump on a trend, but he barely played it, so there was no one around to teach me. So, I just practiced earnestly while watching videos on YouTube.
+                  participant: Natsu
+                - text: The first artist my dad taught me about was Eric Clapton, so I would watch nothing but Clapton videos. I’d study them, thinking, 'Okay, this finger is pressing down here,' and I just kept practicing songs like 'Layla' over and over.
+                - text: Was there a specific moment when you decided you wanted to make a living through music?
+                - text: Well, there is another guitarist I really love—Takayoshi Ohmura from the Kami Band (BABYMETAL’s backing band). I have always loved the Kami Band, and it wouldn't be an exaggeration to say that I played guitar aiming to be like them.
+                  participant: Natsu
+                - text: But, when Mr. (Mikio) Fujioka passed away, that passion sort of cut off. Instead of pursuing a path in music, I just went on to university.
+                - text: But at university, I thought, 'Well, I can play guitar, so why not?' and I joined a light music club. When I formed a band there, I felt the joy of playing music together with everyone.
+                - text: Tracing the footsteps of someone you admire and working hard to be like them is fun, but I realized then that doing what I personally find fun is the most important thing. From that point on, I started thinking, 'I really want to do a band!' And that was exactly the moment when the message came from Hika. That’s why I really think it’s fate.
+            - interviewsubsection:
+                label: Amidst anxiety, I decided on the "career path" called "a band"
+                lines:
+                - text: How did you get hooked on music, Kanade?
+                  isinterviewer: true
+                - text: My father has played bass for a long time, so I had many opportunities to be around music from a young age. But for the longest time, I had no desire to be on the player's side. My father plays punk, so it felt like I was just constantly listening to the punk CDs he played at home.
+                  participant: Kanade
+                - text: However, when I was in sixth grade, he introduced me to the so-called 'Visual Kei' bands of the 1990s that he loved. That was where I encountered X JAPAN. Since my father is a bassist, I had a habit of listening for the bass line whenever I listened to music, but when I heard X’s CD—specifically TAIJI’s bass on 'BLUE BLOOD'—I thought, 'I want to play this bass!' From there, I started playing the bass we had at home.
+                - text: After that, I came to admire F Chopper KOGA from Gacharic Spin, which led me to the slap bass technique. I thought a bassist who uses slap as a weapon was so cool, and rapidly, the music I liked shifted closer to my current style.
+                - text: Was there a specific moment when you decided you were going to live by music?
+                  isinterviewer: true
+                - text: I got the invitation to join NEK! when I was in my second year of high school. That’s exactly the time when you start having to think about your future path, isn’t it? Since junior high, I had decided—vaguely—that 'I won’t go to college. I’m going to do a band!' But I didn't have the opportunity to do a band. There weren't any kids playing guitar around me either.
+                  participant: Kanade
+                - text: So, just as it was becoming time where I really had to think about my future, I was carrying this anxiety of, 'Even if I say I want to do a band, what am I supposed to do from here?' That was when Hika reached out to me. I felt like, finally, a 'career path' called 'doing a band' had opened up for me. Honestly, it was a lifesaver (laughs).
+                - text: No way. Thank you.
+                  participant: Hika
+            - interviewsubsection:
+                label: Right now, what I want to do most is music
+                lines:
+                - text: How about your musical background, Cocoro?
+                  isinterviewer: true
+                - text: I had been dancing all through elementary school, but the junior high I entered didn't have a dance club. But... I just wanted to keep the beat (laughs).
+                  participant: Cocoro
+                - text: (Laughs)
+                  participant: all
+                - text: I wanted to do something that had rhythm. I like drawing, but you can't really 'keep a beat' with drawing, right? And I can't do sports. So, I ended up joining the brass band club. I had seen my older brother's childhood friend playing drums in the brass band back when I was in elementary school, so somewhere in the back of my mind, I always thought, 'Drums are cool.'
+                  participant: Cocoro
+                - text: So I joined the club and requested the percussion section. But there was only one drum set, so I was constantly competing for it with the other kids in my grade.
+                - text: I wanted to practice more than the other kids and win that percussion seat, so in my first year of junior high, I started attending a local music studio taught by professional musicians. It was actually the same place where I used to learn dance, but they taught drums too.
+                - text: The professional musicians there were mostly people in rock bands. While I was learning from them and covering various songs, I started to feel that free-spirited rock songs suited me better than the orchestral pieces we played in the school brass band. From there, I started aiming to become a drummer active in a rock band.
+                - text: Do you have a favorite drummer?
+                  isinterviewer: true
+                - text: There are sooo many, but the first person who made me realize, 'Drums can be this cool!' was Shane Gaalaas, who has been the support drummer for B'z for decades. My brother is a huge B'z fan, and our family of four went to see them live once. That’s when I thought, 'So cool! I want to be like that!'
+                  participant: Cocoro
+                - text: Shane Gaalaas is a man, and he is absolutely ripped (laughs), but I thought, 'I want to be able to produce the same sound as this person!' So, I bought the same sticks, and I even bought—and still use—the same drum pedal.
+                - text: When you mentioned earlier that you "played music with older people," were you referring to the people at that music school?
+                  isinterviewer: true
+                - text: That's right. I met yuri, the drummer from Gacharic Spin—who Kanade mentioned earlier—when I was in my first year of junior high, and we are still close today. Also, HIDEHIRO, who plays in GACKT's band, has been looking after me for a long time.
+                  participant: Cocoro
+                - text: So, while learning drums in that environment, you entered the path of living with music.
+                  isinterviewer: true
+                - text: Just like Kanade said, around my second or third year of high school, watching most of the kids around me choose the path of going to university, I thought, 'There isn't really anything specific I want to study at university.'
+                  participant: Cocoro
+                - text: Besides, if I find something I want to study later, I can always go to university then, even if I don't go straight out of high school. More than that, I realized that what I want to do most right now is music.
+            - interviewsubsection:
+                label: 'The conviction at our first live show: "NEK! begins here"'
+                lines:
+                - text: So, NEK! was truly born from each of your four individual journeys and your love for music. Is there a shared dream that the four of you hold as NEK!?
+                  isinterviewer: true
+                - text: It’s that one, right?
+                  participant: Natsu
+                - text: Hika, go ahead and say it!
+                  participant: Kanade
+                - text: Our goal is... the Budokan!
+                  participant: Hika
+                - text: ...Eh?
+                  participant: all 3
+                - text: It seems that’s different from what the other three were thinking (laughs).
+                  isinterviewer: true
+                - text: Eh, which one was it?
+                  participant: Hika
+                - text: Our immediate dream. First, it’s conquering all the Zepp venues.
+                  participant: Kanade
+                - text: We were allowed to stand on the stage of Zepp Shinjuku (TOKYO) for the first time at the end of August this year, and it made me want to perform in even more locations.
+                  participant: Cocoro
+                - text: We want to grow big enough that playing at Zepp becomes the norm for us.
+                  participant: Natsu
+                - text: We will become Zeppers!
+                  participant: Hika
+                - text: That’s great. Do you remember your first live show together?
+                  isinterviewer: true
+                - text: Our first live show was at eggman. I had actually been to eggman about twice before to see the band that yuri from Gacharic Spin—who I mentioned earlier—was in before. Since then, I had always thought, 'Someday, I want to stand here with my own band.' So, when it was decided that NEK! would stand on the eggman stage, I was overcome with emotion. On top of that, yuri actually came to watch us that day.
+                  participant: Cocoro
+                - text: I remember getting goosebumps when I said, 'We are NEK! Nice to meet you!' for the first time. I thought, 'This is where NEK! begins.
+                  participant: Hika
+                - text: I was so nervous that day that my mind went blank. I don't even remember what the floor looked like; I just remember being incredibly nervous (laughs).
+                  participant: Kanade
+                - text: However, we have performed countless live shows since that first one, and amidst that, I really feel that our individual skills are improving. We always watch the footage of our performance after every show, and when we do, I notice various changes, including in myself. The moments where I think, 'Could I sing this well before?' or 'I can play this now!' have gradually increased.
+                  participant: Hika
+                - text: Also, simply put, I’ve learned to enjoy live shows. Looking at the expressions of my bandmates, I increasingly feel that we are becoming a band that can create the live experience together with the audience. At first, I was full of nerves and anxiety, but as we stack up more shows, I feel like we are slowly reaching a state where I can think, 'This is fun,' and purely enjoy the music.
+                  participant: Natsu
+            - interviewsubsection:
+                label: The brilliance and suffocation of the internet
+                lines:
+                - text: Now that your 1st full album MEME has been released, I noticed that the lyrics contain—shall we call it "frustrations with internet society"?—a lot of anger toward the current state of social media, but also declarations of "how we want to live" on top of that.
+                  isinterviewer: true
+                - text: I think that’s because we are the generation that has been tossed around by the internet. We have a strong desire to say, 'Let's sound out the frustrations and things we can't usually say!'
+                  participant: Natsu
+                - text: Besides, the four of us met on the internet, so we know for a fact that 'the internet is a wonderful thing.' It is precisely because the internet exists that this miraculous, destined band of four exists. However, there is also the 'on the other hand...' aspect, and we use our music to express that 'on the other hand.'
+                - text: I think the brilliance of NEK!’s worldview lies in the fact that while there is anger and gloom, there is also hope. The album’s closing track, 'OOAK,' is incredibly powerful.
+                  isinterviewer: true
+                - text: "'OOAK' stands for 'One Of A Kind,' and I want everyone listening to be one of a kind, too. There is a section in this song where we all sing the chorus together, and it creates a real sense of unity at our live shows. It’s a song that sings about things like, 'Let's overcome this together!' and 'Let's break out of this suffocating world of SNS and look forward together!'"
+                  participant: Hika
+                - text: While you have that powerful and aggressive side, I think another key point of the album MEME is the inclusion of "Dear me," a very delicate and beautiful ballad. What kind of song is this to you, Hika?
+                  isinterviewer: true
+                - text: "'Dear me' is... I had the hope that it would become a song that could serve as emotional support even for myself. I wrote it with the wish that whenever I sing it, it will be the kind of presence that continues to support me forever."
+                  participant: Hika
+            - interviewsubsection:
+                label: The charm, challenges, and ambition packed into our 1st album
+                lines:
+                - text: I think MEME is a substantial work, packed with songs that will feel fresh even to those who have followed NEK! up to this point. How do you feel about the outcome of this album?
+                  isinterviewer: true
+                - text: It became an album containing a wide range of songs, unbound by any specific genre. The recording process was so hard that I’ve actually lost my memory of it... (laughs).
+                  participant: Hika
+                - text: I was very particular about recording the vocals for each and every song. Before singing, I always place importance on visualizing the lyrics and the atmosphere of the track. For example, on the song 'Scrap Book,' I sang the Japanese lyrics to sound like English, and I really put my spirit into the vocalization so as not to lose out to the band's sound. From intense tracks to ballads, I adapted my singing style to fit each song, so please, please, I want everyone to listen to it...!
+                  participant: Hika
+                - text: I can definitely feel your strong passion (laughs). How about you, Natsu?
+                  isinterviewer: true
+                - text: It turned out to be a super cool album, and I think it’s one you won't get tired of. Being 'genre-less' is something NEK! values, so it includes everything from fierce, gritty rock, to songs incorporating a 90s-style band sound, to ballads that make the most of Hika’s singing voice—which shines precisely because of her background in acoustic performance.
+                  participant: Natsu
+                - text: On top of that, most of the tracks are brand new songs. I hope that including so many new songs gives people a chance to know the new NEK!. I am confident that this album successfully expresses the true appeal of the band called NEK!.
+                - text: How about you, Kanade?
+                  isinterviewer: true
+                - text: Speaking of the recording, it was crazy (laughs). I did a lot of things that felt like I was digging my own grave. For example, the first track, 'Frog Flog,' starts with an irregular slap bass line right from the intro, and I was like, 'Oh no, I've created something dangerous.' I really struggled with the recording.
+                  participant: Kanade
+                - text: The other tracks also have plenty of bass lines that are difficult in a different way from 'Frog Flog,' so I think it turned out to be an interesting album even for fellow players to listen to. It’s not exactly a 'letter of challenge' from me (laughs), but I want people to listen to it and try to copy it. The album is full of songs where I think, 'I really want you to try playing this.'
+                - text: What is the driving force behind your desire to challenge yourself with more difficult and new things, Kanade?
+                  isinterviewer: true
+                - text: I hate staying the same. It’s like, I don't really want to use phrases I've used in past songs. I want to challenge myself with new things and upgrade my skills. So, my driving force is technical improvement and the feeling of, 'I hate giving the same impression twice!
+                  participant: Kanade
+                - text: Cocoro, how do you feel about the album?
+                  isinterviewer: true
+                - text: For example, the lead track 'GiMMiCK' includes a 5/4 time signature in the middle. Since I don't sing, the only way I can convey my feelings is through sound. So, hoping to convey my thoughts and frustrations with internet society through sound, there are many songs where the drums attack aggressively.
+                  participant: Cocoro
+                - text: Also, I think it became an album with many songs designed with live performance in mind—like the third track, 'biT bY biT'—where we can sing along with the audience.
+                - text: Rather than a culmination of your work so far, it feels like a 1st album that shows a new face of the band.
+                  isinterviewer: true
+                - text: I think so. We are always making songs while aiming for 'just a little bit above' the line of what we can currently do, and with every song we release, we want to improve our skills. I feel like we were able to level up even more with this album.
+                  participant: Cocoro
+    part-of:
+      media:
+        year: 2025
+        id: mikikimeme
+
 - update:
     media:
       year: 2025

@@ -1,0 +1,18 @@
+- update:
+    song: tictactoe
+    date: 2025-11-29
+    text:
+    - Rehearsal video
+    part-of:
+      song: tictactoe
+
+- youtubeshort:
+    id: sSuHiv9vB6Q
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-11-28
+    context:
+    - song: tictactoe
+    part-of:
+      song: tictactoe
+

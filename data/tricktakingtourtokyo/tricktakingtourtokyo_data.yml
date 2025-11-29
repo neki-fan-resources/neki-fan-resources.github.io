@@ -149,6 +149,18 @@
         year: 2025
         id: tricktakingtourtokyo
 
+- update:
+    show:
+      year: 2025
+      id: tricktakingtourtokyo
+    date: 2025-11-29
+    text:
+    - One new picture
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
 - youtubeshort:
     id: 1JgqY5V6fCE
     label: Promo

@@ -42,6 +42,189 @@
         year: 2025
         id: memetowershibuya
 
+- postx:
+    id: 1993953602004771062
+    account: nekiband_jp
+    label: In 2 days
+    published-date: 2025-11-27
+    text: |-
+      🎸#MEME イベント🎸
+      
+      11/29(土)16時開演
+      1st Album「MEME」発売記念イベント
+      @タワーレコード渋谷店
+      
+      アコースティックミニライブ&CDサイン会を開催⚡️
+      
+      整理番号付イベント入場券は配布終了店舗もございますのでお早めに💨
+      
+      詳しくは各店舗へお問い合わせください💿
+      
+      🔗https://note.com/nekiband_jp/n/n2084dc95cb47
+      
+      #NEKI
+    translation: |-
+      🎸#MEME Event🎸
+      
+      Nov 29th (Sat) 4:00 PM Start
+      1st Album "MEME" Release Commemoration Event
+      @Tower Records Shibuya Store
+      
+      Acoustic mini-live & CD signing event will be held ⚡️
+      
+      Some stores have finished distributing event admission tickets with serial numbers, so please hurry 💨
+      
+      Please contact each store for details 💿
+      
+      🔗https://note.com/nekiband_jp/n/n2084dc95cb47
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- postx:
+    id: 1994605574785568784
+    account: natsu08_guitar
+    label: Today
+    published-date: 2025-11-29
+    text: |-
+      おはよー！
+      本日はアコースティックミニライブとCDサイン会!📝
+      
+      みんなとお話しするの久々でとっても楽しみ過ぎる！！！！何話そうかなぁワクワク！
+      お気をつけてお越しください！！
+    translation: |-
+      Good morning!
+      Today is the acoustic mini-live and CD signing event!📝
+      
+      It's been a while since we've gotten to talk with everyone, so I'm incredibly excited!!!! I wonder what we'll talk about, I'm thrilled!
+      Please be careful when you come!!
+    image:
+    - G65DMI5aEAA81ez
+    - G65DMI8aEAEiVdD
+    part-of:
+      postx: 1993953602004771062
+
+- postx:
+    id: 1994613971161419785
+    account: cure_bass_baka
+    label: Today
+    published-date: 2025-11-29
+    text: |-
+      今日はタワレコ渋谷でリリイベ🌟
+      お話できるの楽しみ！
+    translation: |-
+      Today is the release event at Tower Records Shibuya 🌟
+      Looking forward to getting to talk with you all!
+    image:
+    - G65K0JnbkAMshtC
+    - G65K0JqakAAbZIt
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- postx:
+    id: 1994628356743323907
+    account: nekiband_jp
+    label: Today
+    published-date: 2025-11-29
+    text: |-
+      🎸本日開催🎸
+      
+      1st Album「MEME」発売記念イベント
+      @タワーレコード渋谷店
+      
+      アコースティックミニライブ&CDサイン会開催⚡️
+      
+      16時から！タワレコ渋谷でお待ちしております❤️‍🔥
+      
+      🔗https://towershibuya.jp/2025/10/30/221190
+      
+      #NEKI
+    translation: |-
+      🎸Held Today🎸
+      
+      1st Album "MEME" Release Commemoration Event
+      @Tower Records Shibuya Store
+      
+      Acoustic mini-live & CD signing event will be held ⚡️
+      
+      From 4 PM! We are waiting for you at Tower Records Shibuya ❤️‍🔥
+      
+      🔗https://towershibuya.jp/2025/10/30/221190
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- postximage:
+    post: 1994605574785568784
+    id: G65DMI5aEAA81ez
+    label: Signing towel
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994605574785568784
+
+- postximage:
+    post: 1994605574785568784
+    id: G65DMI8aEAEiVdD
+    label: Band
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994605574785568784
+
+- postximage:
+    post: 1994613971161419785
+    id: G65K0JnbkAMshtC
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994613971161419785
+
+- postximage:
+    post: 1994613971161419785
+    id: G65K0JqakAAbZIt
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994613971161419785
+
+- postximage:
+    post: 1994628356743323907
+    id: G65X500bkAAecjn
+    label: On stage
+    info: acoustic
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1994628356743323907
+
 - postxvideo:
     post: 1991367994325561515
     id: 01

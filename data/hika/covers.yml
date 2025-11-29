@@ -51,9 +51,9 @@
       #ネキミーム #GiMMiCK 
       #本人弾いてみた  #ギタボ
     part-of:
-      group:
-        id: covers
-        group: hika
+      postxvideo:
+        post: 1993273861744578879
+        video: 01
 
 - postxvideo:
     post: 1990374513595552039
@@ -77,5 +77,7 @@
     context:
     - song: gimmick
     part-of:
-      postx: 1993273861744578879
+      group:
+        id: covers
+        group: hika
 

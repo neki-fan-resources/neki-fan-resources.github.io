@@ -1,0 +1,26 @@
+mediawritten:
+  year: 2025
+  id: rockinonmeme
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: rockinonmeme
+      id: logo
+  publication: rockin'on
+  issue: MEME release
+  designation: Interview
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2025-11-28
+  journalist: 杉浦美恵 (Mie Sugiura)
+  article-page: 'https://rockinon.com/interview/detail/213730'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - As part of the release of their 1st album "MEME", NEK! answered to an interview on rockin'on.com.

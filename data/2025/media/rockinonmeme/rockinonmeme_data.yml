@@ -1,0 +1,14 @@
+localimage:
+  media:
+    year: 2025
+    id: rockinonmeme
+  id: logo
+  label: Logo
+  published-date: 2025-11-28
+  source:
+    description: X page
+    url: 'https://x.com/rockinon_com'
+  part-of:
+    media:
+      year: 2025
+      id: rockinonmeme

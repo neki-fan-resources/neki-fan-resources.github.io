@@ -112,6 +112,23 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
+                    post: 1993890262326919315
+                    image: G6u4ePLbQAAGjhq
+                - postximage:
+                    post: 1993890262326919315
+                    image: G6u4lR2bUAA4Bn1
+                - postximage:
+                    post: 1993890262326919315
+                    image: G6u4kaHb0AAKYKi
+                - postximage:
+                    post: 1993890262326919315
+                    image: G6u4feta0AEigRX
+                - postximage:
+                    post: 1993165331645542578
+                    image: G6kkdZia0AAMvMo
+            - multimediasubsection:
+                multimedia:
+                - postximage:
                     post: 1993221150751813701
                     image: G6lX2K9agAAaVEv
                 - postximage:
@@ -177,14 +194,6 @@
                 - postximage:
                     post: 1993519692619936194
                     image: G6pnl9ubwAEitVg
-            - multimediasubsection:
-                multimedia:
-                - postximage:
-                    post: 1993165331645542578
-                    image: G6kkdZia0AAMvMo
-                - postximage:
-                    post: 1993165331645542578
-                    image: G6kkegRaQAAWJuu
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -1401,6 +1410,77 @@
     part-of:
       album: meme
 
+- postx:
+    id: 1993890262326919315
+    account: TOWER_Shibuya
+    label: In-store display
+    published-date: 2025-11-29
+    text: |-
+      【NEK!】
+      
+      1st Full Album『MEME』
+      大好評発売中❤️‍🔥
+      
+      3Fにてサイン入りパネル展示を開催中✨
+      ☞https://towershibuya.jp/news/2025/10/30/221327
+      11/29(土) 渋谷店5Fにて
+      発売記念イベントも開催！
+      ☞https://towershibuya.jp/2025/10/30/221190
+      
+      ご訪店時にいただいたサイン、コメントカード
+      ポスターも3Fにて掲出中⚡️⚡️
+      是非checkを～！(美)
+    translation: |-
+      [NEK!]
+      
+      1st Full Album "MEME"
+      Now on sale to great acclaim ❤️‍🔥
+      
+      A signed panel exhibition is currently being held on the 3rd floor ✨
+      ☞https://towershibuya.jp/news/2025/10/30/221327
+      On Nov 29th (Sat) at the Shibuya Store 5F,
+      The release commemoration event will also be held!
+      ☞https://towershibuya.jp/2025/10/30/221190
+      
+      The signatures and comment cards received during their store visit
+      and posters are also displayed on the 3rd floor ⚡️⚡️
+      Be sure to check it out! (Bi)
+    image:
+    - G6u4ePLbQAAGjhq
+    - G6u4feta0AEigRX
+    - G6u4kaHb0AAKYKi
+    - G6u4lR2bUAA4Bn1
+    part-of:
+      album: meme
+
+- postx:
+    id: 1993947612781924573
+    account: coco_102
+    label: NEK! MEME Radio
+    published-date: 2025-11-27
+    text: |-
+      『MEME』の初回盤Bに収録している
+      NEK!のミームラジオはもう聴きましたか？？
+      
+      メンバーのみで録った初のラジオ😂💥
+      4人の視点から収録曲についてたくさんお話しているので、聴いていただけたらより深くMEMEがお楽しみいただけると思います！
+      
+      それぞれのレコーディング秘話も🫢
+      
+      #NEKI #ネキミーム
+    translation: |-
+      Included in the First Press Limited Edition B of "MEME"
+      Have you listened to NEK! Meme Radio yet??
+      
+      The first radio show recorded with just the members😂💥
+      We talk a lot about the tracks from the 4 members' perspectives, so if you listen, I think you can enjoy MEME even more deeply!
+      
+      Also, secret stories from each of our recordings🫢
+      
+      #NEKI #NEKMEME
+    part-of:
+      album: meme
+
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
@@ -1918,6 +1998,60 @@
     part-of:
       postx: 1993687445703942373
 
+- postximage:
+    post: 1993890262326919315
+    id: G6u4ePLbQAAGjhq
+    label: In-store display
+    info: Tower Records Shibuya
+    published-date: 2025-11-27
+    context:
+    - album: meme
+    part-of:
+      postx: 1993890262326919315
+
+- postximage:
+    post: 1993890262326919315
+    id: G6u4feta0AEigRX
+    label: In-store display
+    info: Tower Records Shibuya
+    published-date: 2025-11-27
+    context:
+    - album: meme
+    part-of:
+      postx: 1993890262326919315
+
+- postximage:
+    post: 1993890262326919315
+    id: G6u4kaHb0AAKYKi
+    label: In-store display
+    info: Tower Records Shibuya
+    published-date: 2025-11-27
+    context:
+    - album: meme
+    part-of:
+      postx: 1993890262326919315
+
+- postximage:
+    post: 1993890262326919315
+    id: G6u4lR2bUAA4Bn1
+    label: In-store display
+    info: Tower Records Shibuya
+    published-date: 2025-11-27
+    context:
+    - album: meme
+    part-of:
+      postx: 1993890262326919315
+
+- postximage:
+    post: 1993947612781924573
+    id: G6vsyMca0AAl0Ui
+    label: NEK! MEME Radio
+    published-date: 2025-11-27
+    context:
+    - album: meme
+    part-of:
+      postx: 1993947612781924573
+
 - postxvideo:
     post: 1983159440678510938
     id: 01
@@ -1983,6 +2117,14 @@
     date: 2025-11-26
     text:
     - Organized some of the media from the release
+    part-of:
+      album: meme
+
+- update:
+    album: meme
+    date: 2025-11-29
+    text:
+    - More in-store display pictures
     part-of:
       album: meme
 

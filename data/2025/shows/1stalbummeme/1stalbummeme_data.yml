@@ -1,3 +1,79 @@
+- display:
+    show:
+      year: 2025
+      id: 1stalbummeme
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1994395046867784181
+                    video: 01
+                - postxvideo:
+                    post: 1994416759160668354
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994416759160668354
+                    image: G62XZExaAAAmgPY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994405565590913446
+                    image: G62NR5qaMAAqX4L
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994613971161419785
+                    image: G65K0JnbkAMshtC
+                - postximage:
+                    post: 1994613971161419785
+                    image: G65K0JqakAAbZIt
+                - postximage:
+                    post: 1994411946570133609
+                    image: G62TEVqbwAAJQAf
+                - postximage:
+                    post: 1994411946570133609
+                    image: G62TEVwb0AAOjB6
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994413491135173104
+                    image: G62UfaNaQAEDGX6
+                - postximage:
+                    post: 1994413491135173104
+                    image: G62UfaNbYAEJ2Jx
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994381696935027104
+                    image: G613JWSb0AAJE7z
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994381696935027104
+                    image: G613HQSaIAAMpc_
+                - postximage:
+                    post: 1994605574785568784
+                    image: G65DMI8aEAEiVdD
+                - postximage:
+                    post: 1994605574785568784
+                    image: G65DMI5aEAA81ez
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
 - newsitem:
     id: upcoming
     show:
@@ -136,6 +212,212 @@
         post: 1984204555832397939
         image: G4lNm20aAAAHFKv
 
+- postx:
+    id: 1994381696935027104
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-28
+    text: |-
+      1st Album『#MEME』
+      リリース記念ワンマンライブ
+      📍横浜ReNY beta
+      
+      THANK YOU SOLD OUT!!
+      ご来場ありがとうございました🫶✨
+      
+      アルバム曲はこちらから🎧
+      ▶︎https://lnk.to/NEKI_MEME
+      
+      来年2月より開催
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026🔥
+      チケット受付中！
+      ▶︎https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      1st Album "#MEME"
+      Release Commemoration One Man Live
+      📍Yokohama ReNY beta
+      
+      THANK YOU SOLD OUT!!
+      Thank you for coming 🫶✨
+      
+      Album tracks available here 🎧
+      ▶︎https://lnk.to/NEKI_MEME
+      
+      Starting next February
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026🔥
+      Tickets now available!
+      ▶︎https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - G613HQSaIAAMpc_
+    - G613JWSb0AAJE7z
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- postx:
+    id: 1994395046867784181
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-28
+    text: |-
+      2025.11.28(Fri.)
+      NEK! 1st Album『MEME』
+      Release ONE MAN LIVE
+      Live at Yokohama ReNY beta
+      THANK YOU SOLD OUT!!
+      #NEKI #MEME
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- postx:
+    id: 1994405565590913446
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-11-28
+    text: |-
+      本日はありがとうございました！
+      
+      平日という貴重なお時間とこの日を選んで
+      ライブハウスに足を運んで下さって
+      感謝の気持ちでいっぱいです。
+      
+      最初から皆さんの笑顔と熱気のある声に
+      会場が一つになっていて本当に楽しくて
+      たまらない時間でした‼︎
+      
+      ありがとうございました！
+    translation: |-
+      Thank you very much for today!
+      
+      Choosing this day and taking time out of your valuable weekday schedule,
+      and coming all the way to the live house,
+      I am filled with gratitude.
+      
+      From the very start, with all your smiles and energetic voices,
+      the venue became one, and it was a truly fun and
+      unforgettable time‼︎
+      
+      Thank you very much!
+    part-of:
+      postx: 1994381696935027104
+
+- postx:
+    id: 1994411946570133609
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-11-28
+    text: |-
+      1st Album『MEME』リリース記念ワンマンライブ
+      @ 横浜ReNY beta
+      ありがとうございました🌟
+      
+      はじめても披露する曲がたくさんで、
+      すごいライブしてて楽しかったです！！
+      みなさんも楽しんで頂けましたか？💭
+      
+      明日はタワレコ渋谷でリリイベやりますよー！
+      また素敵な1日になりますように💫
+    translation: |-
+      1st Album "MEME" Release Commemoration One Man Live
+      @ Yokohama ReNY beta
+      Thank you very much 🌟
+      
+      There were many songs we performed for the first time,
+      it was an amazing live show and I had so much fun!!
+      Did everyone enjoy it too? 💭
+      
+      Tomorrow, we're doing a release event at Tower Records Shibuya!
+      Here's hoping for another wonderful day 💫
+    image:
+    - G62TEVqbwAAJQAf
+    - G62TEVwb0AAOjB6
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- postx:
+    id: 1994413491135173104
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-11-28
+    text: |-
+      1st Album『#MEME』
+      リリース記念ワンマンライブ
+      ありがとうございました！
+      
+      始まりから熱気がすごすぎた!
+      改めてみんなに力をもらっていることを実感した1日でした❤️‍🔥
+      平日なのにたくさん集まってくれて本当に感謝でいっぱいです！
+      
+      みんなの笑顔最高だったよ!
+      大好きです！
+      改めてありがとう！
+    translation: |-
+      1st Album "#MEME"
+      Release Commemoration One Man Live
+      Thank you very much!
+      
+      The energy from the start was incredible!
+      It was a day that made me realize anew how much strength everyone gives us ❤️‍🔥
+      I am truly filled with gratitude that so many of you gathered despite it being a weekday!
+      
+      Everyone's smiles were the best!
+      I love you all!
+      Thank you again!
+    image:
+    - G62UfaNaQAEDGX6
+    - G62UfaNbYAEJ2Jx
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- postx:
+    id: 1994416759160668354
+    account: coco_102
+    label: Thank you
+    published-date: 2025-11-28
+    text: |-
+      NEK! 1st Album MEMEリリース記念ワンマンライブ
+      
+      お越しいただきありがとうございました！！
+      とにかく熱気がすごかった！！
+      最初から最後までずっとノってくれてて最高でした！
+      これからもMEMEの楽曲を末長くよろしくね🤟🏻❤️‍🔥
+      
+      明日はアコースティックミニライブ！！楽しみだね🌞
+      
+      #NEKI #ネキミーム
+    translation: |-
+      NEK! 1st Album MEME Release Commemoration One Man Live
+      
+      Thank you for coming!!
+      The energy was incredible!!
+      You kept the energy up from start to finish—it was the best!
+      Please continue to support the MEME tracks for a long time to come 🤟🏻❤️‍🔥
+      
+      Tomorrow is the acoustic mini-live!! We're excited, aren't we 🌞
+      
+      #NEKI #NEKMEME
+    image:
+    - G62XZExaAAAmgPY
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
 - postximage:
     post: 1961739772080136281
     id: Gzl_6IcbMAAX62f
@@ -198,6 +480,136 @@
     part-of:
       postx: 1992171561001034018
 
+- postximage:
+    post: 1994381696935027104
+    id: G613HQSaIAAMpc_
+    label: At the venue
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994381696935027104
+
+- postximage:
+    post: 1994381696935027104
+    id: G613JWSb0AAJE7z
+    label: Venue
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994381696935027104
+
+- postximage:
+    post: 1994405565590913446
+    id: G62NR5qaMAAqX4L
+    label: On stage
+    info: Hika
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994405565590913446
+
+- postximage:
+    post: 1994411946570133609
+    id: G62TEVqbwAAJQAf
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994411946570133609
+
+- postximage:
+    post: 1994411946570133609
+    id: G62TEVwb0AAOjB6
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994411946570133609
+
+- postximage:
+    post: 1994413491135173104
+    id: G62UfaNaQAEDGX6
+    label: On stage
+    info: Natsu
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994413491135173104
+
+- postximage:
+    post: 1994413491135173104
+    id: G62UfaNbYAEJ2Jx
+    label: On stage
+    info: Natsu
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994413491135173104
+
+- postximage:
+    post: 1994416759160668354
+    id: G62XZExaAAAmgPY
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994416759160668354
+
+- postxvideo:
+    post: 1994395046867784181
+    id: 01
+    label: On stage
+    published-date: 2025-11-28
+    cover: 1994394358574100480/img/PzpabKKucJSb7WGd.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    - song: maze
+    part-of:
+      postx: 1994395046867784181
+
+- postxvideo:
+    post: 1994416759160668354
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-28
+    cover: 1994416667049574400/img/nAgttaLoN3U6TG71.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 1994416759160668354
+
 - update:
     show:
       year: 2025
@@ -205,6 +617,18 @@
     date: 2025-11-22
     text:
     - Information about merch
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- update:
+    show:
+      year: 2025
+      id: 1stalbummeme
+    date: 2025-11-29
+    text:
+    - First pictures and videos from the show
     part-of:
       show:
         year: 2025

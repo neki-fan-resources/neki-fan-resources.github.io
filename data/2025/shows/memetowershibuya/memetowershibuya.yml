@@ -7,14 +7,21 @@ show:
       page: n2084dc95cb47
       id: towerlogo
   fullname: 1st Album「MEME」発売記念イベント@タワーレコード
-  shortname: 「MEME」 event @ Tower Record Shibuya
+  shortname: 「MEME」 event @ Tower Record
   sublabel: Acoustic mini-live performance + CD signing session
   date: 2025-11-29
   description:
-  - In celebration of the release of their first album, NEK! will perform a mini acoustic set at Tower Records Shibuya, followed by a CD signing session.
+  - In celebration of the release of their first album, NEK! performed a mini acoustic set at Tower Records Shibuya, followed by a CD signing session.
+  categories:
+  - mainshow
   venue: Tower Records Shibuya, Tokyo
   event-page: 'https://towershibuya.jp/2025/11/1/221190'
   part-of:
     group:
       id: shows
       group: 2025
+  multimedia:
+    main:
+      postximage:
+        post: 1994721944856662230
+        image: G66tBqebEAA2CUs

@@ -1,0 +1,28 @@
+mediawritten:
+  year: 2025
+  id: skreammeme
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: skreammeme
+      id: logo
+  publication: Skream!
+  issue: MEME release
+  designation: Interview
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2025-11-29
+  journalist: 宮﨑 大樹 (Miyazaki Hiroki)
+  article-page: 'https://skream.jp/interview/2025/11/neki.php'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - As part of the release of their 1st album "MEME", NEK! answered to an interview on skream.jp.
+  categories:
+  - mainmedia

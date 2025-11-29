@@ -20,6 +20,10 @@ show:
       id: shows
       group: 2025
   multimedia:
+    main:
+      postxvideo:
+        post: 1994395046867784181
+        video: 01
     image:
     - postximage:
         post: 1992171561001034018

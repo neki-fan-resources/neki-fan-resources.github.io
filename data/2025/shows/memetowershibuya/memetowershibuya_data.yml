@@ -12,13 +12,57 @@
             - textsubsection:
                 lines:
                 - line:
-                  - text: This will be NEK!'s first in-store event.
+                  - text: This was NEK!'s first in-store event.
                 - line:
-                  - text: The performance will also mark the band's first fully acoustic set. NEK! often includes a brief acoustic section in their concerts, but this will be the first time they perform an entire set acoustically.
+                  - text: The performance also mark the band's first fully acoustic set. NEK! often includes a brief acoustic section in their concerts, but this was be the first time they perform an entire set acoustically.
                 - line:
                   - text: The event was announced on October 30 during a livestream about the upcoming album.
+        - basicsection:
+            label: At the show
+            subsections:
             - multimediasubsection:
-                label: Before the show
+                multimedia:
+                - youtubeshort: Q5QgPBuOekU
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994737853839151585
+                    image: G667gHDbkAUE1aJ
+                - postximage:
+                    post: 1994716575962943586
+                    image: G66oJpKaMAAblwi
+                - postximage:
+                    post: 1994721944856662230
+                    image: G66tBqbacAAxII8
+                - postximage:
+                    post: 1994739933953888651
+                    image: G669WbmbkAcE7y8
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994709931984130091
+                    image: G66iEP6bkAAdjFc
+                - postximage:
+                    post: 1994721944856662230
+                    image: G66tBqebEAA2CUs
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1994739933953888651
+                    image: G669Wa-bkAAWeK7
+                - postximage:
+                    post: 1994739933953888651
+                    image: G669WbJbkAgw3FJ
+                - postximage:
+                    post: 1994739933953888651
+                    image: G669Wb9bkAMcydk
+        - basicsection:
+            label: Before the show
+            subsections:
+            - multimediasubsection:
                 multimedia:
                 - postxvideo:
                     post: 1991367994325561515
@@ -162,6 +206,177 @@
         year: 2025
         id: memetowershibuya
 
+- postx:
+    id: 1994709931984130091
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-29
+    text: |-
+      NEK! 1st Album「MEME」
+      発売記念イベント
+      📍タワーレコード渋谷店
+      
+      アコースティックライブ&CDサイン会
+      ありがとうございました💐
+      
+      アルバム曲はこちらからお聴きいただけます🎧
+      ▶︎https://lnk.to/NEKI_MEME
+      
+      "GiMMiCK" Official MV🎥
+      ▶︎https://youtu.be/js9WXQHa5J0
+      
+      #NEKI #MEME
+    translation: |-
+      NEK! 1st Album "MEME"
+      Release Commemoration Event
+      📍Tower Records Shibuya Store
+      
+      Acoustic Live & CD Signing Event
+      Thank you very much 💐
+      
+      You can listen to the album tracks here 🎧
+      ▶︎https://lnk.to/NEKI_MEME
+      
+      "GiMMiCK" Official MV🎥
+      ▶︎https://youtu.be/js9WXQHa5J0
+      
+      #NEKI #MEME
+    image:
+    - G66iEP6bkAAdjFc
+    - G66iEPwbkAIohA0
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- postx:
+    id: 1994716575962943586
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-11-29
+    text: |-
+      NEK! 1st Album「MEME」発売記念イベント
+      @ タワーレコード渋谷店
+      
+      初のリリイベありがとうございました！
+      久しぶりにあずきちゃんとライブできた🎸🫘
+      サイン会でもたくさんの方と楽しくお話出来て、すごく素敵な1日になりました🌟
+      アルバムもたっくさん聞いてね(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠☆
+    translation: |-
+      NEK! 1st Album "MEME" Release Commemoration Event
+      @ Tower Records Shibuya Store
+      
+      Thank you for our first release event!
+      It's been a while since I was able to perform live with Azuki-chan 🎸🫘
+      I was able to have fun talking with so many people at the signing event too, it turned into a really wonderful day 🌟
+      Please listen to the album a whole lot (⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠☆
+    image:
+    - G66oJpKaMAAblwi
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+    reference:
+    - postximage:
+        post: 1994709931984130091
+        image: G66iEPwbkAIohA0
+
+- postx:
+    id: 1994721944856662230
+    account: coco_102
+    label: Thank you
+    published-date: 2025-11-29
+    text: |-
+      NEK! 1st Album『MEME』発売記念イベント
+      アコースティックミニライブ＆サイン会
+      
+      お越しくださった皆様ありがとうございました！💫
+      サイン会でアルバムやライブの感想など直接聞けてとても嬉しかったです！ありがとう！！
+      
+      また2月から始まる全国ツアーも楽しみにしててね✌🏻
+      
+      #NEKI #ネキミーム
+    translation: |-
+      NEK! 1st Album "MEME" Release Commemoration Event
+      Acoustic Mini-Live & Signing Event
+      
+      Thank you to everyone who came!💫
+      I was very happy to hear your thoughts on the album and the live shows directly at the signing event! Thank you!!
+      
+      Please look forward to the national tour starting again in February too ✌🏻
+      
+      #NEKI #NEKMEME
+    image:
+    - G66tBqbacAAxII8
+    - G66tBqebEAA2CUs
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- postx:
+    id: 1994737853839151585
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-11-29
+    text: |-
+      NEK! 1st Album「MEME」
+      発売記念イベント
+      
+      みなさんに直接ありがとうを伝えられて本当に嬉しかった〜！
+      幸せな時間をありがとうございました！
+      アコースティックも新曲をアレンジしてお届けいたしましたがいかがでしたでしょうか？
+      
+      アルバムたくさん聴いてくださると嬉しいです！🫶🏻
+    translation: |-
+      NEK! 1st Album "MEME"
+      Release Commemoration Event
+      
+      I was truly happy to be able to thank everyone directly!
+      Thank you for the wonderful time!
+      We also arranged and performed a new song acoustically; how was it?
+      
+      We'd be happy if you listen to the album a lot!🫶🏻
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- postx:
+    id: 1994739933953888651
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-11-29
+    text: |-
+      本日は！！
+      NEK! 1st AL「MEME」発売記念イベント
+      お越し下さりありがとうございました！
+      
+      皆さんとお話できたこと！
+      とても嬉しかったです！ドキドキしたぁ！
+      
+      2月からは全国ツアーも始まります！
+      お楽しみに𖤐 ̖́-
+    translation: |-
+      Today!!
+      NEK! 1st AL "MEME" Release Commemoration Event
+      Thank you for coming!
+      
+      Getting to talk with everyone!
+      I was so happy! I was nervous!
+      
+      The national tour also starts from February!
+      Please look forward to it 𖤐 ̖́-
+    image:
+    - G669Wa-bkAAWeK7
+    - G669Wb9bkAMcydk
+    - G669WbJbkAgw3FJ
+    - G669WbmbkAcE7y8
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
 - postximage:
     post: 1994605574785568784
     id: G65DMI5aEAA81ez
@@ -225,6 +440,133 @@
     part-of:
       postx: 1994628356743323907
 
+- postximage:
+    post: 1994709931984130091
+    id: G66iEP6bkAAdjFc
+    label: Band
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994709931984130091
+
+- postximage:
+    post: 1994709931984130091
+    id: G66iEPwbkAIohA0
+    label: Name tags
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994709931984130091
+
+- postximage:
+    post: 1994716575962943586
+    id: G66oJpKaMAAblwi
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994716575962943586
+
+- postximage:
+    post: 1994721944856662230
+    id: G66tBqbacAAxII8
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994721944856662230
+
+- postximage:
+    post: 1994721944856662230
+    id: G66tBqebEAA2CUs
+    label: Band
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994721944856662230
+
+- postximage:
+    post: 1994737853839151585
+    id: G667gHDbkAUE1aJ
+    label: On stage
+    info: Natsu
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994737853839151585
+
+- postximage:
+    post: 1994739933953888651
+    id: G669Wa-bkAAWeK7
+    label: Backstage
+    info: Natsu, Hika
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994739933953888651
+
+- postximage:
+    post: 1994739933953888651
+    id: G669Wb9bkAMcydk
+    label: Backstage
+    info: Hika, Cocoro
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994739933953888651
+
+- postximage:
+    post: 1994739933953888651
+    id: G669WbJbkAgw3FJ
+    label: Backstage
+    info: Kanade, Hika
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994739933953888651
+
+- postximage:
+    post: 1994739933953888651
+    id: G669WbmbkAcE7y8
+    label: On stage
+    info: Hika
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994739933953888651
+
 - postxvideo:
     post: 1991367994325561515
     id: 01
@@ -272,6 +614,21 @@
     url: 'https://note.com/nekiband_jp/n/n2084dc95cb47'
     image:
     - towerlogo
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- youtubeshort:
+    id: Q5QgPBuOekU
+    label: On stage
+    info: acoustic
+    published-date: 2025-11-29
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    - song: dearme
     part-of:
       show:
         year: 2025

@@ -69,6 +69,16 @@
                 - postximage:
                     post: 1994605574785568784
                     image: G65DMI5aEAA81ez
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: aIdQUiCJV60
     part-of:
       show:
         year: 2025
@@ -629,6 +639,21 @@
     date: 2025-11-29
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: aIdQUiCJV60
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    - song: gimmick
     part-of:
       show:
         year: 2025

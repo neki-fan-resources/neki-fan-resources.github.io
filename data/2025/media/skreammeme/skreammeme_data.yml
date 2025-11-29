@@ -1,0 +1,55 @@
+- localimage:
+    media:
+      year: 2025
+      id: skreammeme
+    id: logo
+    label: Logo
+    published-date: 2025-11-29
+    source:
+      description: X page
+      url: 'https://x.com/skream_japan'
+    part-of:
+      media:
+        year: 2025
+        id: skreammeme
+
+- postx:
+    id: 1994694260587991125
+    account: skream_japan
+    label: Give away announcement
+    published-date: 2025-11-29
+    text: |-
+      【フォロー＆RPで応募】
+      NEK!メンバー全員直筆サイン色紙プレゼント。
+      国内外で人気上昇中の"スラングロックバンド"の1stアルバム『MEME』に迫ったインタビュー公開
+      【12/13まで何度でも応募可】
+      #NEKI
+      #MEME
+      #ネキミーム 
+      https://skream.jp/news/2025/11/neki_interview.php
+    translation: |-
+      [Follow & RP to Apply]
+      Presenting a handwritten autograph board signed by all NEK! members.
+      Interview unveiled, exploring the 1st Album "MEME" from the "slang rock band" whose popularity is rising both domestically and internationally
+      [Apply any number of times until 12/13]#NEKI#MEME#NEKMEME https://
+      skream.jp/news/2025/11/neki_interview.php
+    image:
+    - G66T2TpasAAbQUQ
+    part-of:
+      media:
+        year: 2025
+        id: skreammeme
+
+- postximage:
+    post: 1994694260587991125
+    id: G66T2TpasAAbQUQ
+    label: Give away
+    info: handwritten autograph board signed by all NEK! members.
+    published-date: 2025-11-29
+    context:
+    - media:
+        year: 2025
+        id: skreammeme
+    part-of:
+      postx: 1994694260587991125
+

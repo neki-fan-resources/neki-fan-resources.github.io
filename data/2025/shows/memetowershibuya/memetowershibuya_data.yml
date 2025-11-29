@@ -593,6 +593,18 @@
         year: 2025
         id: memetowershibuya
 
+- update:
+    show:
+      year: 2025
+      id: memetowershibuya
+    date: 2025-11-29
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
 - webimage:
     domain: note.com.nekiband
     page: n2084dc95cb47

@@ -1,0 +1,27 @@
+- localimage:
+    media:
+      year: 2025
+      id: musicru
+    id: flyer
+    label: Flyer
+    published-date: 2025-12-01
+    source:
+      description: Show webpage
+      url: 'https://www.music-ru.com/index.html'
+    part-of:
+      media:
+        year: 2025
+        id: musicru
+
+- update:
+    media:
+      year: 2025
+      id: musicru
+    date: 2025-11-30
+    text:
+    - Added the tv show
+    part-of:
+      media:
+        year: 2025
+        id: musicru
+

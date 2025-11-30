@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: o0s7Z_X5yp0
                 - postxvideo:
                     post: 1994395046867784181
                     video: 01
@@ -644,6 +645,18 @@
         year: 2025
         id: 1stalbummeme
 
+- update:
+    show:
+      year: 2025
+      id: 1stalbummeme
+    date: 2025-11-30
+    text:
+    - Added digest movie
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
 - youtubeshort:
     id: aIdQUiCJV60
     label: On stage
@@ -654,6 +667,20 @@
         year: 2025
         id: 1stalbummeme
     - song: gimmick
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: o0s7Z_X5yp0
+    label: Digest movie
+    published-date: 2025-11-30
+    context:
+    - song: tictactoe
+    - show:
+        year: 2025
+        id: 1stalbummeme
     part-of:
       show:
         year: 2025

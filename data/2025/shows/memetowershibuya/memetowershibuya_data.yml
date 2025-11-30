@@ -377,6 +377,20 @@
         year: 2025
         id: memetowershibuya
 
+- postx:
+    id: 1994986918594187638
+    account: cure_bass_baka
+    label: Really fun
+    published-date: 2025-11-30
+    text: |-
+      本当に楽しかったからまた出来たら嬉しい！
+    translation: |-
+      It was really fun, so I'd be happy if we could do it again!
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
 - postximage:
     post: 1994605574785568784
     id: G65DMI5aEAA81ez
@@ -566,6 +580,32 @@
         id: memetowershibuya
     part-of:
       postx: 1994739933953888651
+
+- postximage:
+    post: 1994986918594187638
+    id: G6-eBrtbkAI39UK
+    label: At the venue
+    info: Kanade
+    published-date: 2025-11-30
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994986918594187638
+
+- postximage:
+    post: 1994986918594187638
+    id: G6-eBrvbAAAsQnM
+    label: At the venue
+    info: Kanade
+    published-date: 2025-11-30
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1994986918594187638
 
 - postxvideo:
     post: 1991367994325561515

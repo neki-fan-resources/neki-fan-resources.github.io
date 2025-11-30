@@ -25,9 +25,11 @@ contentpage:
   - event
   - show
   - tour
+  - videomedia
   - writtenmedia
   isAltColorMarker:
   - audiomedia
+  - videomedia
   - writtenmedia
   content:
   - show:
@@ -73,6 +75,9 @@ contentpage:
   - show:
       year: 2025
       id: shimonite
+  - media:
+      year: 2025
+      id: musicru
   - show:
       year: 2025
       id: memetowershibuya

@@ -1,0 +1,22 @@
+mediavideo:
+  year: 2025
+  id: musicru
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: musicru
+      id: flyer
+  channel: musicるTV
+  show: December
+  designation: tv show
+  member:
+  - NEK!
+  published-date: 2025-12-01
+  program: 'https://www.music-ru.com/index.html'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - '"GiMMiCK" is being used as the opening songs for the December shows.'

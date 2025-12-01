@@ -1,9 +1,111 @@
-youtubeshort:
-  id: tPDwvM6mu14
-  label: Rehearsal
-  info: studio audio
-  published-date: 2025-11-20
-  context:
-  - song: jumping
-  part-of:
+- lyrics:
+    id: main
     song: jumping
+    part-of:
+      song: jumping
+    status:
+      code: warning
+      description: Data copied from the sources. Not reviewed.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from uta-net.com)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from the uta-net.com
+        url: 'https://www.uta-net.com/song/383747/'
+    sections:
+    - lines:
+      - ol:
+        - 不安な気持ちにとどめを刺して
+      - ol:
+        - 無くしものは散歩中だわ
+      - ol:
+        - ゆっくりゆっくり会えばいい
+      - ol:
+        - 待ち合わせなんて必要ない
+    - lines:
+      - ol:
+        - 夜の扉は異世界へと
+      - ol:
+        - ひっそり暗闇が街包む
+      - ol:
+        - さあ　毎晩こっそり出かけるのよ
+    - lines:
+      - ol:
+        - スニーカーの紐をしっかり手繰り寄せて
+      - ol:
+        - 駆け抜ける　街灯下
+      - ol:
+        - 曲がり角過ぎてもうすぐあの場所
+    - lines:
+      - ol:
+        - Turn and turn
+      - ol:
+        - 今さあ　スキップしながら回って靴を鳴らすのよ
+      - ol:
+        - 夜の闇に恋して
+      - ol:
+        - Step by step
+      - ol:
+        - 秘めたこの場所は私だけのもの
+      - ol:
+        - 両足で飛び上がろう
+    - lines:
+      - ol:
+        - 不穏な世界とはここでお別れ
+      - ol:
+        - 色とりどりの魔法かけ
+      - ol:
+        - チョコレートつまみ食いしながら
+    - lines:
+      - ol:
+        - 両足ハイヒールに押し込んで始まる
+      - ol:
+        - 可憐なステップ　スポットライト
+      - ol:
+        - そうすればもう始まる
+      - ol:
+        - 自由へのダンシングタイム
+    - lines:
+      - ol:
+        - 空に手を掲げ　雲を塗りつぶして進む
+      - ol:
+        - (回る　夜の街)
+      - ol:
+        - そう　星と星を指でつまんで縫ってとめる
+      - ol:
+        - 私は止まらないのよ
+      - ol:
+        - 止まらないのよ
+    - lines:
+      - ol:
+        - Turn and turn
+      - ol:
+        - 今さあ　スキップしながら回って靴を鳴らすのよ
+      - ol:
+        - 夜の闇に恋して
+      - ol:
+        - Step by step
+      - ol:
+        - 秘めたこの場所は私だけのもの
+      - ol:
+        - 両足で飛び上がろう
+      - ol:
+        - 両足で飛び上がろう
+    - lines:
+      - ol:
+        - Jump
+
+- youtubeshort:
+    id: tPDwvM6mu14
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-11-20
+    context:
+    - song: jumping
+    part-of:
+      song: jumping
+

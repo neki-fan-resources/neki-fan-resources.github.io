@@ -1,0 +1,17 @@
+show:
+  year: 2024
+  id: wingedit
+  cover-image:
+    postximage:
+      post: 1827255587870273643
+      image: GVu3DSDXgAAEC5y
+  fullname: winged it
+  sublabel: NEK!初の大阪・愛知
+  date: 2024-08-24
+  tour: nekifirstosakaaichi2024
+  venue: CLUB UPSET, Nagoya
+  setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shibuya-eggman-tokyo-japan-4b561f7e'
+  part-of:
+    group:
+      id: shows
+      group: 2024

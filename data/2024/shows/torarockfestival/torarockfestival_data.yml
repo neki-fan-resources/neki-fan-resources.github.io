@@ -1,0 +1,93 @@
+- postx:
+    id: 1799063840925315512
+    account: TOLAROCK_FES
+    label: Announcement
+    published-date: 2024-06-07
+    text: |-
+      ／
+      第一弾出演者発表！
+      ＼
+      
+      ✨日乃まそら(
+      @msrir512
+       )
+      ✨Risky Melody(
+      @_Risky_Melody_
+       )
+      ✨unSea (
+      @unSea_0616
+       )
+      ✨NEK! (
+      @nekiband_jp
+       )
+      ✨Finally (
+      @Finally_Rock
+       )
+      ✨ジョナゴールド(
+      @JONAGOLD_0323
+       )
+      CASPA (
+      @caspa_band
+       )
+      ✨Rons week (
+      @Ronsweek
+       )
+      ✨小原涼 (
+      @obararyou
+       )
+      
+      #トラロックフェス
+    translation: |-
+      /
+      First round of performers announced!
+      \
+      
+      ✨Masora Hino (
+      @msrir512
+      )
+      ✨Risky Melody (
+      @_Risky_Melody_
+      )
+      ✨unSea (
+      @unSea_0616
+      )
+      ✨NEK! (
+      @nekiband_jp
+      )
+      ✨Finally (
+      @Finally_Rock
+      )
+      ✨Jonagold (
+      @JONAGOLD_0323
+      )
+      CASPA (
+      @caspa_band
+      )
+      ✨Rons week (
+      @Ronsweek
+      )
+      ✨Ryo Obara (
+      @obararyou
+      )
+      
+      #TorarockFes
+    image:
+    - GPePBkmbcAEVfyW
+    part-of:
+      show:
+        year: 2024
+        id: torarockfestival
+
+- postximage:
+    post: 1799063840925315512
+    id: GPePBkmbcAEVfyW
+    label: poster
+    published-date: 2024-06-07
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
+    part-of:
+      postx: 1799063840925315512
+

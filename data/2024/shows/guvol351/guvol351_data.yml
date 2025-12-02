@@ -1,9 +1,11 @@
 - postx:
     id: 1787740918298345982
     account: shibuya_eggman
-    label: today
+    label: Today
     published-date: 2024-05-07
     text: |-
+      🐸本日🐸
+      
       Girl's UP!!! vol.351
       
       NEK!
@@ -18,6 +20,23 @@
       DOOR ¥3,000 + 1D¥600    
       
       ご来場お待ちしております！
+    translation: |-
+      🐸Today🐸
+      
+      Girl's UP!!! vol.351
+      
+      NEK!
+      momoca
+      START TO BLING
+      Tokyo Hatena Banana
+      Qtwins
+      Riju
+      
+      OPEN 18:00
+      START 18:30
+      DOOR ¥3,000 + 1D¥600
+      
+      We are looking forward to your visit!
     image:
     - GM9UGEVbQAEGLaw
     part-of:

@@ -1,0 +1,5 @@
+group:
+  id: schedule
+  label: Schedule
+  part-of:
+    group: band

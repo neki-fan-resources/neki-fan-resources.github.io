@@ -1,0 +1,63 @@
+- postx:
+    id: 1797140895449673780
+    account: SHIBUYATHEGAME
+    label: Tomorrow
+    published-date: 2025-03-22
+    text: |-
+      【🗓明日開催!!🗓】
+      06.03(MON)
+      SHIBUYA THE GAME presents
+      #FYP -DAY1- 
+      ~For You Place~
+      
+      <ACT>
+      モウソウキリン
+      NEK!
+      Hijack Mind
+      HINONABE
+      Sleepless Endorphine
+      
+      🎫各バンド📩予約
+      🎫Livepocket本日23:59まで発売!!
+      https://t.livepocket.jp/e/k6h5u
+      
+      #fyp
+    translation: |-
+      【🗓Held Tomorrow!!🗓】
+      06.03(MON)
+      SHIBUYA THE GAME presents
+      #FYP -DAY1-
+      ~For You Place~
+      
+      <ACT>
+      Mousou Kirin
+      NEK!
+      Hijack Mind
+      HINONABE
+      Sleepless Endorphine
+      
+      🎫Reservations via each band's📩
+      🎫Livepocket tickets on sale until 23:59 today!!
+      https://t.livepocket.jp/e/k6h5u
+      
+      #fyp
+    image:
+    - GPC59ywaoAA_Sdl
+    part-of:
+      show:
+        year: 2024
+        id: fypday1
+
+- postximage:
+    post: 1797140895449673780
+    id: GPC59ywaoAA_Sdl
+    label: poster
+    published-date: 2025-03-22
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: fypday1
+    part-of:
+      postx: 1797140895449673780
+

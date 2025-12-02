@@ -1,0 +1,45 @@
+- postx:
+    id: 1801875706387042707
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-06-15
+    text: |-
+      7/3(水)開催
+      「Beyond The Singularity vol.7」
+      @初台DOORS
+      
+      NEK!の出演が決定しました🎉
+      
+      前売りチケットのご予約はNEK!公式XのDMにお願いいたします📩
+      
+      #NEKI
+    translation: |-
+      Scheduled for 7/3 (Wed)
+      "Beyond The Singularity vol.7"
+      @Hatsudai DOORS
+      
+      NEK!'s performance has been confirmed 🎉
+      
+      Please reserve advance tickets via NEK!'s official X DM 📩
+      
+      #NEKI
+    image:
+    - GQGMZ2dbEAIITAx
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol7
+
+- postximage:
+    post: 1801875706387042707
+    id: GQGMZ2dbEAIITAx
+    label: poster
+    published-date: 2024-06-15
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
+    part-of:
+      postx: 1801875706387042707
+

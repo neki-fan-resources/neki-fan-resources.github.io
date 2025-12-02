@@ -1,3 +1,220 @@
+- display:
+    media:
+      year: 2025
+      id: skreammeme
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: This interview was published online shortly following the release of NEK!'s first album "MEME".
+                - line:
+                  - text: It begins by exploring the band's unique identity as a "Slang Rock" group—a band born from the internet that simultaneously satirizes the state of online society. The members discuss their collaborative, "music-first" songwriting process, emphasizing that while they prioritize a technical, band-centric sound, they also aim to turn the negativity of the modern world into a positive message.
+                - line:
+                  - text: The conversation then dives deep into the album itself. The band analyzes key tracks, including the slang-heavy anthem "Frog Flog," the experimental rap-style "Scrap Book," and the emotional rock ballad "Marine Snow." The interview concludes with a look at their upcoming national tour and their ambitious goal to become the fastest girls' band to stand on the stage of the Nippon Budokan.
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: This interview was published online shortly following the release of NEK!'s first album "MEME".
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+        - basicsection:
+            label: Translation
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: "Formed in 2024, NEK! (pronounced: Neki) is a \"Slang Rock Band\" whose popularity is surging both in Japan and abroad. A rising star in the girls' band scene, they radiate a unique presence with a highly technical sound and lyrics that sing satirically about internet society—while being a band born from the internet."
+                - line:
+                  - text: We conducted our first-ever interview with NEK!. We asked them in depth about the band's songwriting, their 1st album "MEME", their future goals, and more.
+            - interviewsubsection:
+                lines:
+                - text: I understand that the band name "NEK!" is derived from "Neki," an internet slang term meaning a "reliable big sister" (Aneki). Why did you settle on this word?
+                  isinterviewer: true
+                - text: Since we are a girls' band that connected through the internet, we were searching through internet slang wondering if there was a name that would fit [that origin]. That's when 'reliable big sister' came up. We decided on NEK! based on that.
+                  participant: Hika
+                - text: Do you sense that "reliable big sister" vibe within the group?
+                  isinterviewer: true
+                - text: Not at all (laughs). We don't, but we’re hoping to become that kind of "reliable big sister" presence.
+                  participant: Hika
+                - text: If you had to say, who is the "Neki"?
+                  isinterviewer: true
+                - text: Hika, Natsu and Kanade look at Cocoro.
+                - text: I'm being watched (laughs). In many bands, the drummer often becomes the leader, so maybe it's something peculiar to drummers. I don't intend to try to be the leader, but I have a tendency to look at everyone's opinions from a bird's-eye view, so perhaps it just ends up that way as a result. But really, everyone is reliable in their own right.
+                  participant: Cocoro
+                - text: Cocoro's smile saves the world (laughs).
+                  participant: Hika
+                - text: From music video view counts to attendance at your self-organized shows, the band has truly unstoppable momentum right now. What do you analyze as the main factor behind this surge?
+                  isinterviewer: true
+                - text: We live in an internet society right now, don't we? Everything starts online, takes root as culture, and I think that cycle just keeps repeating. People see the conflicts happening within that internet space, and even if they aren't directly involved, they go through life thinking, "Man, I don't know about this..." We wanted to cast a stone into that situation—or rather, we’re turning that satire into songs. The internet has good sides and bad sides, but our songs carry the desire for everyone to keep looking forward despite that. I feel like people all over the world feel the same way, and maybe that's why our feelings are reaching them... but what do you guys think?
+                  participant: Cocoro
+                - text: I think that’s right. You don't really see bands writing these kinds of lyrics often.
+                  participant: Kanade
+                - text: Yeah. We consider ourselves to be a "new" kind of band. As you can tell when you listen to the tracks—with the aggressive slap bass, the guitar, and the drums—it’s become a band where everyone is like a main character. We think that aspect is also something new.
+                  participant: Hika
+                - text: It has been announced that you will make your major debut with PONY CANYON in 2026. Since it hasn't been long since you formed, do you feel pressure regarding the major debut?
+                  isinterviewer: true
+                - text: Yes. The anxiety regarding the major debut is huge. But, I feel that as a band, we can go anywhere.
+                  participant: Hika
+                - text: That's reassuring. Now, NEK! is known as a "Slang Rock Band." Sound-wise, one can sense elements of garage rock, and depending on the song, even melodic hardcore. How did this musical style come about?
+                  isinterviewer: true
+                - text: I think the most accurate way to put it is... this is just what happened when we gave shape to the music we wanted to play. When we write songs, we usually go into the studio and build a track together by throwing around little seeds of ideas. The result of that process just happened to become this genre of music.
+                  participant: Natsu
+                - text: So, rather than primarily reflecting the musical roots of just one of you, it’s a mix of everyone’s elements.
+                  isinterviewer: true
+                - text: Exactly.
+                  participant: Natsu
+                - text: In that case, does the songwriting process come "music-first"?
+                  isinterviewer: true
+                - text: Yes. It's mostly music-first.
+                  participant: Cocoro
+                - text: What is the most important thing for NEK! when it comes to songwriting?
+                  isinterviewer: true
+                - text: We each have our own specific focus depending on the instrument. For example, with the drums, I try not to stand out too much, but still properly embody the lyrics through the sound. If the lyrics are hurling anger at SNS society, I try to express that anger through the drumming as well. I always try to create phrases that align with the content of the song.
+                  participant: Cocoro
+                - text: For the bass, since there are songs that start with flashy things in the intro, in those moments I try to create memorable phrases or pack in a lot of notes. But conversely, in the chorus, I want to support the vocal melody, so I don't come forward too much there; I switch to a role of supporting from the bottom. I’m always conscious of knowing when to take the spotlight and when to pull back.
+                  participant: Kanade
+                - text: I play lead guitar, and I'm always crafting phrases while thinking about what sounds I can express because Hika is playing backing—what can be played because it's lead. Within that, I think making a statement is absolutely necessary, so I work while thinking about that fine line between how to blend in and how to assert myself. I’m always searching for the kind of guitar solo that fits the song best, creating it with a lot of care.
+                  participant: Natsu
+                - text: The songwriting credits are listed as the band, aren't they? Do all of you come up with the lyrics and melody together?
+                  isinterviewer: true
+                - text: Since we create the music first, we basically have a discussion about the lyrics after the track is finished. We brainstorm ideas like, "Doesn't this song fit perfectly with that thing we wanted to say?" From there, Hika eventually pulls it all together, or we work on it alongside a co-writer.
+                  participant: Natsu
+                - text: By the way, how do you weigh the lyrics versus the sound? What is the ratio?
+                  isinterviewer: true
+                - text: It's 50-50. Though since the vocalist is the one actually singing, it might be different for her.
+                  participant: Cocoro
+                - text: I value both equally. I cherish the feelings each member puts into their respective parts... but I also have this desire to sing with enough nuance so that I don't lose out to that [instrumental intensity]. So, I’m actually in conflict whenever I sing, no matter the song. Both are vital—if they weren't, I feel like it wouldn't be NEK!.
+                  participant: Hika
+                - text: Right. The reason I asked that is because I got the impression you weren't compromising on either front. The message is there, but precisely because each of you has a background as a musician, you're also thoroughly particular about the push-and-pull and the phrasing.
+                  isinterviewer: true
+                - text: Thank you very much!
+                  participant: all
+                - text: Okay, let's move on to talk about your 1st album, "MEME." Despite being a band born on the internet, your stance of being satirical about the web—or singing about the conflicts and struggles of living online—has been consistent since your early days. Is this something you want to keep singing about as a band?
+                  isinterviewer: true
+                - text: Hmm...
+                  participant: Hika
+                - text: It feels like that's just "for now," doesn't it? At this stage, that might be a central focus for us. Of course, we might go down a different path in the future, but since we started from the idea that "there's music we can create precisely because we gathered online," isn't it interesting to flip that around and sing about it ironically? Like, "Even though we met on the internet." I think that gives us a certain individuality or identity.
+                  participant: Natsu
+                - text: That reaction just confirmed my hunch. Even though this is still only your 1st album as a band, I got the impression that you created it with a lot of thought given to change and evolution. Like there was a conflict between cherishing the "NEK!" identity while also feeling the need to try new things...
+                  isinterviewer: true
+                - text: That is exactly right.
+                  participant: Kanade
+                - text: We are constantly incorporating new things—one after another—so I think the album contains songs that are truly new for NEK!.
+                  participant: Hika
+                - text: Did you find the production process difficult compared to your previous EPs?
+                  isinterviewer: true
+                - text: Quite a bit... (laughs).
+                  participant: Cocoro
+                - text: This is our first time producing a full album, but since we absolutely couldn't cut corners on a single track, dealing with the high number of songs plus that internal conflict made it really hard, didn't it?
+                  participant: Natsu
+                - text: It was hard. I was recording to the point of running out of oxygen (laughs). But I hope that level of intensity gets across.
+                  participant: Hika
+                - text: "[Note: The band touched on this anecdote in the interview in eggman magazine #141. Natsu's amp was in Hika's booth, and it got really hot in there]"
+                - text: What kind of album is "MEME" to you?
+                  isinterviewer: true
+                - text: I have this feeling that everyone grew significantly through this album. Our range has really widened. I changed my singing style for each track—there are rap-style songs, and others where I sing with a voice that sounds like it's about to break at any moment. From hard-hitting, aggressive songs to ballads, we were able to pack it all in properly.
+                  participant: Hika
+                - text: There are approaches I've never tried before, different grooves, and various types of tracks, so I think this album led to significant personal growth for me.
+                  participant: Kanade
+                - text: We've released two EPs so far (2024's EXCLAMAT!ON and 2025's TR!CK TAK!NG), but this album is full of songs with a different flavor from those. I think it’s an album that allows people to discover a new side of NEK!.
+                  participant: Cocoro
+                - text: It makes you think, "Oh, they can pull off this kind of song too?" or "I wonder what kind of NEK! will be uncovered next?" I think it became a work that will make people excited for the future of NEK!.
+                  participant: Natsu
+                - text: The track that carries on the lineage of your previous EPs and feels the most "NEK!" is "Frog Flog," isn't it? From the slap bass intro to that driving, propulsive feel, it’s just thoroughly NEK!.
+                  isinterviewer: true
+                - text: That's right. I think the "hook"—where you hear it and immediately think, "Ah, NEK! has started"—is really important. We prioritized that NEK! identity the most, in both the lyrics and the sound.
+                  participant: Natsu
+                - text: It uses the most internet slang out of any NEK! song. Words like "Kyapai" (Overwhelmed/Too much), "Merokunai?" (Isn't that swoon-worthy?), and "Kaeruka" (The 'Frog Phenomenon' / The Ick). If I started listing them all, there would be no end to it.
+                  participant: Cocoro
+                - text: I have this image of high school students often saying things like "Kyapai," so I decided to try singing in a tone that sounds like a high schooler speaking—bringing out that "Gal" vibe or "JK" (High School Girl) vibe. Since the instrumental team is playing so aggressively, I was conscious of delivering a vocal quality and nuance that wouldn't lose out to them. I used a catchy tone that sticks in your ear, and the backing vocals in the second verse are sung almost like spoken dialogue, so I want people to pay attention to that as well.
+                  participant: Hika
+                - text: The slap bass in the intro of this song really catches your ear.
+                  isinterviewer: true
+                - text: It’s a bold move, like I'm saying, "I won't let you call the bass plain." The rhythm is insane. I really dug my own grave with that one (laughs). It was the song I struggled with the most during recording—maybe I went a little overboard (laughs). It turned out really cool in the result, so I play it with confidence now, but... it’s intense.
+                  participant: Kanade
+                - text: Right before and after those crazy bass phrases, there’s a part that goes "Dun-dun-dun!"—we play that in unison. That phrase comes up several times in the song, and for that "Dun-dun-dun!", I played with the specific intent of carving it directly into everyone’s brains. Also, in the first phrase of the second verse, I’m playing 16th notes on the hi-hat. I played that part in a detached, mechanical way to express the feeling of how trends in this internet society just keep passing by one after another.
+                  participant: Cocoro
+                - text: For the guitar, I focused on the clean cutting [rhythmic strumming] in the first verse. I was conscious of making sure my guitar meshed well with Hika's vocals. And for the guitar solo, I cranked it to high-gain so it wouldn't lose out to the sound we’d built up to that point. I recorded it while thinking through all those details.
+                  participant: Natsu
+                - text: If 'Frog Flog' is the song that is most typical of NEK!, conversely, which song was the biggest adventure?
+                  isinterviewer: true
+                - text: That's a tough one! There are quite a few, aren't there?
+                  participant: Natsu
+                - text: For me, it’s probably "Scrap Book." We layered a lot of vocals, and the singing is in a rap style pretty much the whole way through. It felt like a new challenge—or rather, I think it became a song that lets people know a completely new face of NEK!.
+                  participant: Cocoro
+                - text: It feels modern because of the rap, but the sound actually has a touch of nostalgia to it. That balance makes it a really interesting track.
+                  participant: Natsu
+                - text: The pronunciation for the spoken word sections in English was incredibly difficult in this song. I really worked hard on the recording, so I hope people pay attention to that part too.
+                  participant: Hika
+                - text: Personally, I like "Tic Tac Toe." The lyrics are sharp, and there's a lot of anger there.
+                  isinterviewer: true
+                - text: It is angry (laughs).
+                  participant: Natsu
+                - text: Do you check social media often?
+                  isinterviewer: true
+                - text: I check it constantly.
+                  participant: Kanade
+                - text: All the members of NEK! are like that, but I check social media often too. When you look at it, it's not just positive opinions; there are plenty of comments that act as a wake-up call. So, we take that "reality" of the social media landscape and incorporate it into our lyrics.
+                  participant: Cocoro
+                - text: So, songs like "Tic Tac Toe" are born from those real emotions.
+                  isinterviewer: true
+                - text: The song "Tic Tac Toe" itself is actually quite upbeat. It’s not just about being angry; it has a vibe of looking forward and finding hope, like saying, "Let's try to love this hopeless world."
+                  participant: Cocoro
+                - text: You really value that approach—turning the negative into the positive.
+                  isinterviewer: true
+                - text: I feel like you just can't survive in this world if you don't end up being positive eventually (laughs). I want the fans who listen to us to keep smiling, so I make sure the lyrics look forward.
+                  participant: Hika
+                - text: That’s a strong mindset. While you have those intense songs, you've also included rock ballads, and I get the feeling these tracks will really shine in a live setting. "マリンスノウ" (Marine Snow), for example—that is such a great song, isn't it?
+                  isinterviewer: true
+                - text: Precisely because we are a band, we wanted to cherish that 'band sound' even when doing a ballad. We have another ballad called "Dear me" that starts with an acoustic guitar to really highlight Hika's strengths, so for this one, we felt, "Maybe it's okay to start with the full band right from the top." We shaped it to ensure it didn't just end up being the same as an acoustic ballad, while still keeping that ballad sentiment in mind.
+                  participant: Natsu
+                - text: I actually consider ballads to be one of NEK!'s strengths. With "マリンスノウ" (Marine Snow), I feel I was really able to utilize my singing voice to the fullest. At the very end, where I sing "Tabi wo tsuzukete irun darou" ["I guess I'll keep continuing this journey"], the instrumentation stops and only the vocal remains. I think that arrangement really expresses the feeling that [our story] is going to continue from here on out.
+                  participant: Hika
+                - text: The lyrics are beautiful; they really conjure up a scene.
+                  isinterviewer: true
+                - text: I feel like our world resembles the deep sea—that aspect where light shines through the darkness. One day, I stumbled upon the word "Marine Snow." It refers to the phenomenon where debris in the deep sea looks like falling snow. Using that as a base, we wove a connection between our world and the deep sea.
+                  participant: Natsu
+                - text: How do you hope people will receive this album, 'MEME'?
+                  isinterviewer: true
+                - text: Since it contains a lot of songs satirizing today's internet society, I hope that listening to it helps clear people's minds a little, or makes them feel refreshed. Also, I want the message that "We are here" and "We are by your side" to get across. I would be happy if that sentiment of "Let's move forward together"—which we sing about through the ballads and other tracks—reaches everyone.
+                  participant: Cocoro
+                - text: I want this album, "MEME", to spread just like a meme. I would be so happy if people listen to this album and then come out to see a NEK! live show.
+                  participant: Hika
+                - text: After the release, you have the "NEK! 1st Album 'MEME' Release Commemorative One-Man Live," and next year in 2026, the national tour "NEK! 2nd ANNIVERSARY LIVE TOUR 2026" is also scheduled.
+                  isinterviewer: true
+                - text: Since it is our first national tour, there are many places we are visiting for the first time. I would be happy if we could get even just a few more people to get to know NEK!.
+                  participant: Natsu
+                - text: I am happy that we can go to various regions, and I'm really looking forward to it. I want to do it without leaving any regrets. But first and foremost, I want us all to stay healthy.
+                  participant: Hika
+                - text: Health is the most important thing. I pray we can complete the whole tour without a single band member dropping out.
+                  participant: Natsu
+                - text: I absolutely want to see it through to the end. I would be happy if the fans come to see us in good health, too.
+                  participant: Cocoro
+                - text: Looking beyond that, what is NEK! aiming for?
+                  isinterviewer: true
+                - text: That would be... the (Nippon) Budokan!
+                  participant: Hika
+                - text: And not only that, we have a goal to be the fastest girls' band to ever stand on the Budokan stage!
+                  participant: Natsu
+                - text: We'll give it our all!
+                  participant: Hika
+    part-of:
+      media:
+        year: 2025
+        id: skreammeme
+
 - localimage:
     media:
       year: 2025

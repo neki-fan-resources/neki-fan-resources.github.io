@@ -38,3 +38,12 @@
     part-of:
       postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 
+- youtubevideo:
+    id: 387bkUm7Dko
+    label: Album Teaser
+    published-date: 2024-06-03
+    context:
+    - album: exclamation
+    part-of:
+      album: exclamation
+

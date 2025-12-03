@@ -1,7 +1,7 @@
 - postx:
     id: 1807675589555523709
     account: shibuya_eggman
-    label: today
+    label: Today
     published-date: 2024-07-01
     text: |-
       本日！！
@@ -19,6 +19,22 @@
       DOOR 3000yen+1D
       
       お待ちしております！
+    translation: |-
+      Today!!
+      
+      Girl’s UP!!! vol.357
+      
+      NEK!
+      Koutou Maria
+      Buzzer01&.
+      Kirana
+      Mizutani Wakaba
+      ReBoom
+      
+      OPEN 18:15 / START 18:45
+      DOOR 3000yen+1D
+      
+      We are waiting for you!
     image:
     - GRYmoBmbgAAlnIh
     part-of:

@@ -10,3 +10,7 @@ show:
   venue: SHIBUYA THE GAME, Tokyo
   event-page: 'https://t.livepocket.jp/e/3o_8u'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/the-game-tokyo-japan-b52d1ba'
+  part-of:
+    group:
+      id: shows
+      group: 2024

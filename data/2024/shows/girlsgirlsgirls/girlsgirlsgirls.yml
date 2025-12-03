@@ -12,3 +12,7 @@ show:
   venue: アメリカ村 DROP, Osaka
   event-page: 'https://tiget.net/events/330888'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/drop-osaka-japan-2354e4ab'
+  part-of:
+    group:
+      id: shows
+      group: 2024

@@ -11,3 +11,7 @@ show:
   venue: 下北沢LIVEHOLIC, Tokyo
   event-page: 'https://liveholic.jp/schedule/2024/09/liveholic-9th-anniversaryseriesring-ring-ring.php'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/liveholic-tokyo-japan-2b54e4b2'
+  part-of:
+    group:
+      id: shows
+      group: 2024

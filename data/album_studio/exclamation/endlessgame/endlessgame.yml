@@ -19,6 +19,8 @@ song:
     source:
       description: 'JASRAC - work ID: 303-5429-3'
       url: 'https://www2.jasrac.or.jp/'
+  part-of:
+    album: exclamation
   multimedia:
     live:
     - postxvideo:

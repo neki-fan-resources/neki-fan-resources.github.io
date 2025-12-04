@@ -10,3 +10,7 @@ show:
   venue: 下北沢 近道, Tokyo
   event-page: 'https://chikamichi-otemae.com/chikamichi/1953/'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/chikamichi-tokyo-japan-6b53e6ea'
+  part-of:
+    group:
+      id: shows
+      group: 2024

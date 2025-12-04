@@ -1,13 +1,13 @@
 - postx:
     id: 1827255587870273643
     account: clubupset
-    label: today
+    label: Today
     published-date: 2024-08-24
     text: |-
       【 本日 】
       8/24(土)
       「winged it」
-      
+       
       Led Lobster
       NEK!
       リーガルアットサンズ
@@ -19,6 +19,22 @@
       
       是非遊びにきてください！
       お待ちしております！
+    translation: |-
+      【 Today 】
+      8/24 (Sat)
+      "winged it"
+      
+      Led Lobster
+      NEK!
+      Legal at Suns
+      amis amants
+      
+      open 18:00 / start 18:30
+      Same-day ticket. ¥2,900- (Excluding D)
+      Will be sold after doors open!
+      
+      Please come and hang out!
+      We are waiting for you!
     image:
     - GVu3DSDXgAAEC5y
     part-of:

@@ -1,7 +1,7 @@
 - postx:
     id: 1825843541756752006
     account: LIVEHOUSE_VARON
-    label: tomorrow
+    label: Tomorrow
     published-date: 2024-08-20
     text: |-
       明日の公演
@@ -11,6 +11,14 @@
       NEK! / husky(BAND SET) / Buzzer01&. / FiELDz / BlueVeil / CHi+KAZZ
       [OPEN/START]18:00 / 18:30
       [料金]ADV/DOOR ¥2,400/¥2,900(1D別)
+    translation: |-
+      Tomorrow's Show
+      2024.8.21 (Wed)
+      Shinsaibashi VARON presents. Day Dreamer -4th night-
+      [ACT]
+      NEK! / husky(BAND SET) / Buzzer01&. / FiELDz / BlueVeil / CHi+KAZZ
+      [OPEN/START] 18:00 / 18:30
+      [Price] ADV/DOOR ¥2,400/¥2,900 (1D required)
     image:
     - GVay0webUAAAJ-4
     part-of:

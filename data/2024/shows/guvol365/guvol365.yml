@@ -11,4 +11,6 @@ show:
   event-page: 'http://eggman.jp/schedule/girls-up-vol-365/'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shibuya-eggman-tokyo-japan-352d1bf'
   part-of:
-    group: dedup1
+    group:
+      id: shows
+      group: 2024

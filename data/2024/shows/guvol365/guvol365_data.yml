@@ -1,7 +1,7 @@
 - postx:
     id: 1838488577052913969
     account: shibuya_eggman
-    label: today
+    label: Today
     published-date: 2024-09-24
     text: |-
       💫本日!!!💫
@@ -19,6 +19,22 @@
       当日券 ￥3,000（+1D）  
       
       ご来場お待ちしております！
+    translation: |-
+      💫Today!!!💫
+      
+      Girl's UP!!! vol.365
+      
+      IrisaVior
+      NEK!
+      EMANON
+      LUMiRiSE
+      *Mizutani Wakaba has canceled her appearance due to poor health.
+      
+      OPEN 18:30
+      START 19:00 
+      Same-day Ticket ¥3,000 (+1D) 
+      
+      We look forward to your visit!
     image:
     - GYOeP9EbAAAVpUJ
     part-of:

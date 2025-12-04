@@ -11,3 +11,7 @@ show:
   venue: 心斎橋VARON, Osaka
   event-page: 'https://minamiwheel.jp/'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/varon-osaka-japan-1353d5b9'
+  part-of:
+    group:
+      id: shows
+      group: 2024

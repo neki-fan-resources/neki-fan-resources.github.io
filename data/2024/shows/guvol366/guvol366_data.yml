@@ -1,7 +1,7 @@
 - postx:
     id: 1841384260705624302
     account: shibuya_eggman
-    label: today
+    label: Today
     published-date: 2024-10-02
     text: |-
       🎈本日🎈
@@ -18,6 +18,21 @@
       TICKET ￥3,000-(+1D)
       
       ※水谷若葉さんが体調不良で出演キャンセルになりました
+    translation: |-
+      🎈Today🎈
+      
+      Girl's UP!!! vol.366
+      
+      AIKA
+      EMANON
+      Ukimeya
+      NEK!
+      Me Minor
+      
+      OPEN 18:00 / START 18:35
+      TICKET ￥3,000-(+1D)
+      
+      *Mizutani Wakaba has canceled her appearance due to poor health
     image:
     - GY3ocH3bcAALiWN
     part-of:

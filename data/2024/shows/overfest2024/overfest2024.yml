@@ -10,3 +10,7 @@ show:
   date: 2024-11-30
   venue: 下北沢MOSAiC, Tokyo
   event-page: 'https://tokytunes.com/topic-tunes-live-399/'
+  part-of:
+    group:
+      id: shows
+      group: 2024

@@ -1,0 +1,35 @@
+mediaaudio:
+  year: 2025
+  id: tokyofmradiodragonnext1212
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+      id: logo
+  radio: TOKYO FM
+  show: RADIO DRAGON-NEXT-
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-12-12
+  host: 菅野結以 (Yui Kanno)
+  webpage: 'https://www.tfm.co.jp/dragon/'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - "\"MEME\" has been chosen as the album of the month on TOKYO FM's \"RADIO DRAGON-NEXT-\"."
+  - The band members,Hika and Natsu, will appear in the show each week in December, in a dialog format.
+  - This is the second-week show.
+  multimedia:
+    main:
+      postximage:
+        post: 1999420851473801689
+        image: G79eYC8agAAfAzP
+    image:
+    - postximage:
+        post: 1999420851473801689
+        image: G79eYC8agAAfAzP

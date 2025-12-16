@@ -1,3 +1,131 @@
+- display:
+    show:
+      year: 2025
+      id: shimonite
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: yTiLfgNImuc
+                - postxvideo:
+                    post: 1997213795253674395
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1997198312131481624
+                    image: G7d5Rh2asAAlhAe
+                - postximage:
+                    post: 1997204547014742348
+                    image: G7d-7Zbb0AUWzwP
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1997204547014742348
+                    image: G7d-7ZiawAAcJP4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1997265889742503940
+                    image: G7e2uIXbsAAY4XH
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1997209846706590175
+                    image: G7eDxN8bUAAKvMg
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1997229962416521622
+                    image: G7eWEBrbgAARyKO
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DR8h2nMkt7s
+                    image: 03
+                - postximage:
+                    post: 1997198312131481624
+                    image: G7d5Rhxb0AA3SK0
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: rjFwvcesqg0
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- postinstagram:
+    id: DR8h2nMkt7s
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-12-07
+    text: |-
+      2025.12.06
+      ⁡
+      下北沢にて'25ありがとうございました💜
+      初めましてのイベントに初めましての会場、初めてづくしでとても楽しかったです！
+      Flowers Loftさんはフロアとの距離がとても近くて、みなさんの熱気を直に感じられました！私たちの空気感や気合いもみなさんに届いてたら嬉しいです🔥
+      ⁡
+      フェスやサーキットのいいところは、NEK!を気になってくれている方にNEK!の良さをライブでありのまま伝えられるところだと思っています😌
+      今回NEK!と出会ってくれた方も、来年の2月からNEK!初の全国ツアーが始まるので(チケット先行受付今日の23:59まで…！)ぜひゲットしてワンマンも遊びに来てほしいです🔥
+      
+      最近本格的に寒くなってきたのでぜひみなさん温かくしてお過ごしください❄
+      またお互い元気な状態で次のライブ会えますように！！
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2025.12.06
+      ⁡
+      Thank you for Shimokitazawa Nite '25 💜
+      It was a first-time event and a first-time venue, and I really enjoyed all the firsts!
+      The distance to the floor at Flowers Loft was very close, and I could directly feel everyone's enthusiasm! I hope our atmosphere and spirit reached everyone too 🔥
+      ⁡
+      I believe the great thing about festivals and circuit events is that we can convey the true appeal of NEK! through a live performance to those who are curious about us 😌
+      For those who discovered NEK! this time, our first national tour starts in February next year (ticket pre-sale ends today at 23:59...!) so please grab tickets and come to a one-man show too 🔥
+      
+      It's gotten genuinely cold recently, so please keep warm, everyone ❄
+      May we both be well and see each other at the next show!!
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 03
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+    reference:
+    - postximage:
+        post: 1997265889742503940
+        image: G7e2uIXbsAAY4XH
+    - postximage:
+        post: 1997204547014742348
+        image: G7d-7Zbb0AUWzwP
+
+- postinstagramimage:
+    post: DR8h2nMkt7s
+    id: 03
+    label: Backstage
+    published-date: 2025-12-07
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postinstagram: DR8h2nMkt7s
+
 - postx:
     id: 1982055276930011353
     account: nekiband_jp
@@ -81,6 +209,198 @@
         post: 1982055276930011353
         image: G4GsvB-WwAALdCK
 
+- postx:
+    id: 1997198312131481624
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-12-06
+    text: |-
+      下北沢にて'25
+      📍Flowers Loft 
+      
+      お越しいただきありがとうございました💝
+      
+      初の全国ツアー🔥
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      チケット先行(抽選)受付中▼
+      https://l-tike.com/nekiband/
+      
+      1st Album「MEME」🎧
+      AL曲はこちらからcheck▼
+      https://lnk.to/NEKI_MEME
+      
+      #NEKI #下北沢にて
+      @shimokita_nite
+    translation: |-
+      Shimokitazawa Nite '25
+      📍Flowers Loft
+      
+      Thank you for coming💝
+      
+      First nationwide tour🔥
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      Ticket pre-sale (lottery) currently accepting applications▼
+      https://l-tike.com/nekiband/
+      
+      1st Album "MEME"🎧
+      Check out the album tracks here▼
+      https://lnk.to/NEKI_MEME
+      
+      #NEKI #下北沢にて
+      @shimokita_nite
+    image:
+    - G7d5Rh2asAAlhAe
+    - G7d5Rhxb0AA3SK0
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- postx:
+    id: 1997204547014742348
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-12-06
+    text: |-
+      「下北沢にて'25」@ Flowers Loft 
+      
+      ありがとうございました(๑•̀ᴗ- )☆
+      奥の方までたくさんの方が集まってくださり嬉しかったです🌟
+      ステージとフロアもすごく近かったから、
+      ライブ感すごくて楽しかった！
+      
+      引き続き下北沢にてイベントをお楽しみください💭
+      ツアーも待ってますよーー！！
+    translation: |-
+      "Shimokitazawa Nite '25" @ Flowers Loft
+      
+      Thank you very much(๑•̀ᴗ- )☆
+      I was happy that so many people gathered even in the back🌟
+      The stage and floor were also really close,
+      so the live atmosphere was amazing and fun!
+      
+      Please continue to enjoy the Shimokitazawa Nite event💭
+      The tour is waiting for you too!!
+    image:
+    - G7d-7Zbb0AUWzwP
+    - G7d-7ZiawAAcJP4
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- postx:
+    id: 1997209846706590175
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-12-06
+    text: |-
+      下北沢にて'25  Flowers Loft 
+      
+      熱い拳と声、最高でした！  
+      ありがとうございました！
+      
+      NEK!のライブ少しでもいいなって思ってくれた方は来年2月から初の全国ツアーやるんで皆んな！遊びに来てねっ𖤐 ̖́-
+      
+      また次のステージで会いましょ！
+    translation: |-
+      Shimokitazawa Nite '25 Flowers Loft
+      
+      The passionate fists and voices were the best!
+      Thank you very much!
+      
+      To everyone who thought NEK!'s live show was even a little bit good, we're doing our first national tour starting next February, so everyone! Come and hang out𖤐 ̖́-
+      
+      See you at the next stage!
+    image:
+    - G7eDxN8bUAAKvMg
+    part-of:
+      postx: 1997198312131481624
+    reference:
+    - postximage:
+        post: 1997204547014742348
+        image: G7d-7Zbb0AUWzwP
+
+- postx:
+    id: 1997213795253674395
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-12-06
+    text: |-
+      2025.12.06(Sat.)
+      下北沢にて'25
+      Live at Flowers Loft 
+      THANK YOU!!
+      #NEKI
+    translation: |-
+      2025.12.06(Sat.)
+      Shimokitazawa Nite '25
+      Live at Flowers Loft
+      THANK YOU!!
+      #NEKI
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- postx:
+    id: 1997229962416521622
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-12-06
+    text: |-
+      下北沢にて'25
+      
+      ありがとうございましたー！
+      お昼からみんなの声が聴けて笑顔が見られて最高でした！❤️‍🔥
+      
+      2月から始まるツアーにもぜひ足を運んでくださると嬉しいです🌟
+      お待ちしておりますっ!
+    translation: |-
+      Shimokitazawa Nite '25
+      
+      Thank you so much!
+      Hearing everyone's voices and seeing your smiles starting from noon was the best! ❤️‍🔥
+      
+      We would be happy if you would also come to the tour starting in February🌟
+      We are waiting for you!
+    image:
+    - G7eWEBrbgAARyKO
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- postx:
+    id: 1997265889742503940
+    account: coco_102
+    label: Thank you
+    published-date: 2025-12-06
+    text: |-
+      下北沢にて'25ありがとうございました😈💜
+      初めましてのイベントに初めましての会場と、初めてづくしで楽しかったです！
+      やっぱりライブをしているときがいちばん生きてる実感がある。本当に感謝！！
+      
+      2月からの全国ツアーでもみなさんと一緒にアツい時間共有したいです！各地でお待ちしております🔥
+    translation: |-
+      Thank you for Shimokitazawa Nite '25 😈💜
+      It was a lot of fun, with a first-time venue and a first-time event!
+      I really feel the most alive when I'm performing a live show. Truly thankful!!
+      
+      I want to share that passionate time with everyone on the national tour starting in February! Looking forward to seeing you all in every city 🔥
+    image:
+    - G7e2uIXbsAAY4XH
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+    reference:
+    - postximage:
+        post: 1997265889742503940
+        image: G7e2uIXbsAAY4XH
+
 - postximage:
     post: 1982055276930011353
     id: G4GsvB-WwAALdCK
@@ -117,6 +437,108 @@
     part-of:
       postx: 1990658695475442164
 
+- postximage:
+    post: 1997198312131481624
+    id: G7d5Rh2asAAlhAe
+    label: On stage
+    published-date: 2025-12-06
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postx: 1997198312131481624
+
+- postximage:
+    post: 1997198312131481624
+    id: G7d5Rhxb0AA3SK0
+    label: Backstage
+    published-date: 2025-12-06
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postx: 1997198312131481624
+
+- postximage:
+    post: 1997204547014742348
+    id: G7d-7Zbb0AUWzwP
+    label: On stage
+    published-date: 2025-12-06
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postx: 1997204547014742348
+
+- postximage:
+    post: 1997204547014742348
+    id: G7d-7ZiawAAcJP4
+    label: On stage
+    info: Kanade
+    published-date: 2025-12-06
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postx: 1997204547014742348
+
+- postximage:
+    post: 1997209846706590175
+    id: G7eDxN8bUAAKvMg
+    label: On stage
+    info: Hika
+    published-date: 2025-12-06
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postx: 1997209846706590175
+
+- postximage:
+    post: 1997229962416521622
+    id: G7eWEBrbgAARyKO
+    label: Backstage
+    info: Natsu
+    published-date: 2025-12-06
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postx: 1997229962416521622
+
+- postximage:
+    post: 1997265889742503940
+    id: G7e2uIXbsAAY4XH
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-06
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      postx: 1997265889742503940
+
+- postxvideo:
+    post: 1997213795253674395
+    id: 01
+    label: On stage
+    published-date: 2025-12-06
+    cover: 1997213734021050368/img/Rxy0wEqhds-W2FeZ.jpg
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    - song: endlessgame
+    part-of:
+      postx: 1997213795253674395
+
 - update:
     show:
       year: 2025
@@ -124,6 +546,18 @@
     date: 2025-10-27
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- update:
+    show:
+      year: 2025
+      id: shimonite
+    date: 2025-12-16
+    text:
+    - Added videos and pictures from the show
     part-of:
       show:
         year: 2025
@@ -154,6 +588,35 @@
     url: 'https://www.shimonite.com/'
     image:
     - poster
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- youtubeshort:
+    id: rjFwvcesqg0
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-15
+    context:
+    - song: marinesnow
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- youtubeshort:
+    id: yTiLfgNImuc
+    label: Huddle
+    published-date: 2025-12-06
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    - song: fool
     part-of:
       show:
         year: 2025

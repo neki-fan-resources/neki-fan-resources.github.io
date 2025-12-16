@@ -1,0 +1,22 @@
+mediaaudio:
+  year: 2025
+  id: bayfm78musicurate2
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: bayfm78musicurate
+      id: logo
+  radio: BAYFM78
+  show: 78musi-curate
+  designation: radio show
+  member:
+  - Hika
+  published-date: 2025-12-15
+  webpage: 'https://program.bayfm.co.jp/curate/'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - "\"GiMMiCK\" was played during BAYFM78's \"78musi-curate\", with a short introduction by Hika."

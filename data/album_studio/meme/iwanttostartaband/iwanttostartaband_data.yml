@@ -16,6 +16,9 @@
                 - postxvideo:
                     post: 1991431325463769517
                     video: 01
+                - postxvideo:
+                    post: 1995417595290210659
+                    video: 01
             - textsubsection:
                 label: Band members' highlights
                 lines:
@@ -282,6 +285,42 @@
     part-of:
       event: iwanttostartaband
 
+- postx:
+    id: 1995417595290210659
+    account: TOWER_Jrock
+    label: Final message from the members
+    published-date: 2025-12-01
+    text: |-
+      【#NEKI× タワレコ】
+      
+      NEK! SNSコラボ本日最終日💧
+      メンバーより締めくくりのメッセージをいただきました✨
+      
+      コラボポスター掲出や特別レシートのお渡し期間、ポスタープレゼント応募期間は12/8(月)まで！
+      https://tower.jp/article/feature_item/2025/10/03/0706
+      
+      引き続きNEK!をタワーレコードは応援し続けます🔥
+      
+      (
+      @nekiband_jp
+      )
+    translation: |-
+      【#NEKI×TOWERRECORDS】
+      
+      The NEK! SNS collaboration ends today💧
+      We received a final message from the members✨
+      
+      The period for displaying the collaboration poster, receiving the special receipt, and applying for the poster giveaway is until 12/8 (Mon)!
+      https://tower.jp/article/feature_item/2025/10/03/0706
+      
+      Tower Records will continue to support NEK! 🔥
+      
+      (
+      @nekiband_jp
+      )
+    part-of:
+      event: iwanttostartaband
+
 - postxvideo:
     post: 1991071615577149847
     id: 01
@@ -351,6 +390,17 @@
     - event: iwanttostartaband
     part-of:
       postx: 1992903522992398746
+
+- postxvideo:
+    post: 1995417595290210659
+    id: 01
+    label: Final message
+    published-date: 2025-12-01
+    cover: 1993622372499505152/img/P_xGFb_l1K8tbABS.jpg
+    context:
+    - event: iwanttostartaband
+    part-of:
+      postx: 1995417595290210659
 
 - update:
     event: iwanttostartaband

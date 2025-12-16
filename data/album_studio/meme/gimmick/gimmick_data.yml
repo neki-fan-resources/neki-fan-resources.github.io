@@ -10,6 +10,14 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: js9WXQHa5J0
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1995852341493596505
+                    video: 01
+                - postxvideo:
+                    post: 1996143103410061620
+                    video: 01
                 - postxvideo:
                     post: 1993273861744578879
                     video: 01
@@ -35,21 +43,65 @@
             - multimediasubsection:
                 label: Images
                 multimedia:
+                - postinstagramimage:
+                    post: DRWDX-5kWrw
+                    image: 10
+                - postinstagramimage:
+                    post: DRWDX-5kWrw
+                    image: 08
                 - postximage:
                     post: 1992086222408454198
                     image: G6VP222bAAA436i
                 - postximage:
-                    post: 1992086222408454198
-                    image: G6VP23DaMAAVFs-
-                - postximage:
                     post: 1992848424241451046
                     image: G6gFEyhaYAA3PlI
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DRWDX-5kWrw
+                    image: 05
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1992848424241451046
                     image: G6gFEyfbgAAjQdF
+                - postinstagramimage:
+                    post: DRWDX-5kWrw
+                    image: 03
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DRWDX-5kWrw
+                    image: 07
+                - postinstagramimage:
+                    post: DRWDX-5kWrw
+                    image: 06
+                - postinstagramimage:
+                    post: DRWDX-5kWrw
+                    image: 09
+                - postinstagramimage:
+                    post: DRfG19DEqEV
+                    image: 02
+                - postinstagramimage:
+                    post: DRhZlhrEoXB
+                    image: 01
+                - postinstagramimage:
+                    post: DRWDX-5kWrw
+                    image: 02
                 - postximage:
                     post: 1992848424241451046
                     image: G6gFEypbsAA7TCo
+                - postinstagramimage:
+                    post: DRfG19DEqEV
+                    image: 01
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DRWNdHvD73I
+                    image: 01
+                - postximage:
+                    post: 1992086222408454198
+                    image: G6VP23DaMAAVFs-
         - basicsection:
             label: Behind the scenes
             subsections:
@@ -72,33 +124,68 @@
                 - youtubeshort: PNLPXORtGNY
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DSCSCFSkQjw
+                    image: 03
+                - postinstagramimage:
+                    post: DSCSCFSkQjw
+                    image: 04
+                - postinstagramimage:
+                    post: DSCSCFSkQjw
+                    image: 02
+                - postinstagramimage:
+                    post: DSCSCFSkQjw
+                    image: 01
                 - postximage:
                     post: 1993268941666353391
                     image: G6mDhAIaAAA8tFn
+            - multimediasubsection:
+                multimedia:
                 - postximage:
-                    post: 1993103746851823683
-                    image: G6jtSjHbwAIri4K
+                    post: 1991874006962864186
+                    image: G6SO2DNaUAEdNii
+                - postximage:
+                    post: 1992123612602757154
+                    image: G6Vx288awAAteOh
+                - postximage:
+                    post: 1992123612602757154
+                    image: G6Vx288aIAAAwAv
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1992071842669199491
+                    image: G6VCxzNaQAIe6NW
+                - postinstagramimage:
+                    post: DRUpxsqEjn6
+                    image: 02
+                - postinstagramimage:
+                    post: DRcJ-SaEl2r
+                    image: 01
+                - postinstagramimage:
+                    post: DRcJ-SaEl2r
+                    image: 03
+                - postinstagramimage:
+                    post: DRcJ-SaEl2r
+                    image: 02
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1991887814766817351
                     image: G6SbaKKagAI-Xbe
                 - postximage:
                     post: 1991887814766817351
                     image: G6SbaKFaUAA2eg8
+                - postinstagramimage:
+                    post: DRPixBckmZT
+                    image: 01
+            - multimediasubsection:
+                multimedia:
                 - postximage:
-                    post: 1992071842669199491
-                    image: G6VCxzNaQAIe6NW
-                - postximage:
-                    post: 1991874006962864186
-                    image: G6SO2DNaUAEdNii
+                    post: 1993103746851823683
+                    image: G6jtSjHbwAIri4K
                 - postximage:
                     post: 1991844227953946722
                     image: G6Rzw8KbMAEtwmA
-                - postximage:
-                    post: 1992123612602757154
-                    image: G6Vx288aIAAAwAv
-                - postximage:
-                    post: 1992123612602757154
-                    image: G6Vx288awAAteOh
             - multimediasubsection:
                 label: Ouch
                 multimedia:
@@ -118,8 +205,14 @@
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: aIdQUiCJV60
-                - youtubeshort: ziKDdkQZzJU
                 - youtubeshort: JiBQIqwpMzc
+        - basicsection:
+            label: Rehearsal video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: LAjdWGeyfRw
+                - youtubeshort: ziKDdkQZzJU
     part-of:
       song: gimmick
 
@@ -363,6 +456,448 @@
       - text: '" will be release on November 19th, in advance of the album "'
       - album: meme
       - text: '"".'
+
+- postinstagram:
+    id: DRPixBckmZT
+    account: 46_hikaa
+    label: Announcement
+    published-date: 2025-11-19
+    text: |-
+      “GiMMiCK” Official Music Video
+      
+      11/21(金)21:00
+      YouTubeにてプレミア公開決定！
+      
+      ばりかっこいい、、、
+    translation: |-
+      “GiMMiCK” Official Music Video
+      
+      Premiering on YouTube at 21:00 on 11/21 (Fri)!
+      
+      It's seriously cool...
+    image:
+    - 01
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postinstagram:
+    id: DRUpxsqEjn6
+    account: natsu08_guitar
+    label: Behind the scenes
+    published-date: 2025-11-21
+    text: |-
+      .
+      “GiMMiCK”
+      MV公開しましたーー！
+      いかがでしたでしょうか、、、！！！ﾄﾞｷﾄﾞｷ
+      儚さとエモーショナルを感じられる
+      どこか切ないけれど力強さも共存した
+      最高にかっこいいMVに仕上がっております！🎥
+      NEK!の世界観にどっぷり浸かってくださると嬉しいです♡
+      
+      本当に見どころ満載なのでスマホに穴が空くぐらい観てください！👀
+      
+      感想もたくさんお待ちしておりますヨォ〜！！
+      
+      #neki #guitarist #GiMMiCK
+    translation: |-
+      .
+      The “GiMMiCK”
+      MV has been releasedーー!
+      What did you think of it...!!! *Pitter-patter*
+      It feels fleeting and emotional
+      It's an incredibly cool MV that is somehow sad yet coexists with strength! 🎥
+      I hope you'll fully immerse yourselves in the world of NEK! ♡
+      
+      It's truly packed with highlights, so watch it until you burn a hole in your phone screen! 👀
+      
+      We are waiting for lots of your feedback too!!
+      
+      #neki #guitarist #GiMMiCK
+    image:
+    - 02
+    part-of:
+      postx: 1992071842669199491
+    reference:
+    - postximage:
+        post: 1992071842669199491
+        image: G6VCxzNaQAIe6NW
+
+- postinstagram:
+    id: DRUqvhHksYL
+    account: 46_hikaa
+    label: Behind the scenes
+    published-date: 2025-11-21
+    text: |-
+      “GiMMiCK” Official Music Video公開
+      
+      オフショットっ‎𖤐 ̖́-‬
+      
+      #GiMMiCK #neki #ギタボ
+    translation: |-
+      "GiMMiCK" Official Music Video Released
+      
+      Off-shots ‎𖤐 ̖́-
+      
+      #GiMMiCK #neki #Gitabo (Guitar Vocalist)
+    part-of:
+      youtubevideo: js9WXQHa5J0
+    reference:
+    - postximage:
+        post: 1991887814766817351
+        image: G6SbaKKagAI-Xbe
+
+- postinstagram:
+    id: DRWDX-5kWrw
+    account: nekiband_jp
+    label: Music Video
+    published-date: 2025-11-22
+    text: |-
+      "GiMMiCK" Official Music Video OUT NOW💬 #NEKI #MEME #ガールズバンド #ネキミーム
+    image:
+    - 02
+    - 03
+    - 05
+    - 06
+    - 07
+    - 08
+    - 09
+    - 10
+    part-of:
+      youtubevideo: js9WXQHa5J0
+    reference:
+    - postximage:
+        post: 1992086222408454198
+        image: G6VP222bAAA436i
+    - postximage:
+        post: 1992086222408454198
+        image: G6VP23DaMAAVFs-
+
+- postinstagram:
+    id: DRWNdHvD73I
+    account: cure_bass_baka
+    label: Watch the MV
+    published-date: 2025-11-22
+    text: |-
+      ･
+      
+      MV見てね✩.*˚
+      ⁡
+      ･
+      #NEKI
+    translation: |-
+      ･
+      
+      Watch the MV ✩.*˚
+      ⁡
+      ･
+      #NEKI
+    image:
+    - 01
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postinstagram:
+    id: DRcJ-SaEl2r
+    account: natsu08_guitar
+    label: Behind the scenes
+    published-date: 2025-12-08
+    text: |-
+      .
+      💛
+    image:
+    - 01
+    - 02
+    - 03
+    part-of:
+      youtubeshort: 2RLrJP3MB1w
+
+- postinstagram:
+    id: DRfG19DEqEV
+    account: 46_hikaa
+    label: MV image
+    published-date: 2025-11-25
+    text: |-
+      どんな瞬間も選ぶのは自分自身だ。
+      
+      #GiMMiCK
+      #neki
+    translation: |-
+      The one who chooses is always yourself, in any moment.
+      
+      #GiMMiCK
+      #neki
+    image:
+    - 01
+    - 02
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postinstagram:
+    id: DRhZlhrEoXB
+    account: 46_hikaa
+    label: MV image
+    published-date: 2025-11-26
+    text: |-
+      世界は残酷に見える瞬間もあるけど、
+      ハッピーエンドにするかどうかは自分次第だ。
+      
+      #GiMMiCK
+      #neki
+    translation: |-
+      There are moments when the world seems cruel,
+      but whether it's a happy ending is up to you.
+      
+      #GiMMiCK
+      #neki
+    image:
+    - 01
+    part-of:
+      youtubevideo: js9WXQHa5J0
+
+- postinstagram:
+    id: DSCSCFSkQjw
+    account: nekiband_jp
+    label: 60k views
+    published-date: 2025-12-09
+    text: |-
+      GiMMiCK | MV Off Shots📸
+      
+      60,000 views — thank you🫶✨
+      
+      #NEKI #MEME #ネキミーム
+    image:
+    - 01
+    - 02
+    - 03
+    - 04
+    part-of:
+      song: gimmick
+
+- postinstagramimage:
+    post: DRPixBckmZT
+    id: 01
+    label: Behind the scenes
+    info: Hika
+    published-date: 2025-11-19
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRPixBckmZT
+
+- postinstagramimage:
+    post: DRUpxsqEjn6
+    id: 02
+    label: Behind the scenes
+    info: Natsu
+    published-date: 2025-11-21
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRUpxsqEjn6
+
+- postinstagramimage:
+    post: DRWDX-5kWrw
+    id: 02
+    label: MV image
+    info: Hika
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWDX-5kWrw
+
+- postinstagramimage:
+    post: DRWDX-5kWrw
+    id: 03
+    label: MV image
+    info: Natsu
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWDX-5kWrw
+
+- postinstagramimage:
+    post: DRWDX-5kWrw
+    id: 05
+    label: MV image
+    info: Cocoro
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWDX-5kWrw
+
+- postinstagramimage:
+    post: DRWDX-5kWrw
+    id: 06
+    label: MV image
+    info: Hika
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWDX-5kWrw
+
+- postinstagramimage:
+    post: DRWDX-5kWrw
+    id: 07
+    label: MV image
+    info: Hika
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWDX-5kWrw
+
+- postinstagramimage:
+    post: DRWDX-5kWrw
+    id: 08
+    label: MV image
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWDX-5kWrw
+
+- postinstagramimage:
+    post: DRWDX-5kWrw
+    id: 09
+    label: MV image
+    info: Hika
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWDX-5kWrw
+
+- postinstagramimage:
+    post: DRWDX-5kWrw
+    id: 10
+    label: MV image
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWDX-5kWrw
+
+- postinstagramimage:
+    post: DRWNdHvD73I
+    id: 01
+    label: MV image
+    info: Kanade
+    published-date: 2025-11-22
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRWNdHvD73I
+
+- postinstagramimage:
+    post: DRcJ-SaEl2r
+    id: 01
+    label: Behind the scenes
+    info: Natsu
+    published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRcJ-SaEl2r
+
+- postinstagramimage:
+    post: DRcJ-SaEl2r
+    id: 02
+    label: Behind the scenes
+    info: Natsu
+    published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRcJ-SaEl2r
+
+- postinstagramimage:
+    post: DRcJ-SaEl2r
+    id: 03
+    label: Behind the scenes
+    info: Natsu
+    published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRcJ-SaEl2r
+
+- postinstagramimage:
+    post: DRfG19DEqEV
+    id: 01
+    label: MV image
+    info: Hika
+    published-date: 2025-11-25
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRfG19DEqEV
+
+- postinstagramimage:
+    post: DRfG19DEqEV
+    id: 02
+    label: MV image
+    info: Hika
+    published-date: 2025-11-25
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRfG19DEqEV
+
+- postinstagramimage:
+    post: DRhZlhrEoXB
+    id: 01
+    label: MV image
+    info: Hika
+    published-date: 2025-11-26
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DRhZlhrEoXB
+
+- postinstagramimage:
+    post: DSCSCFSkQjw
+    id: 01
+    label: Behind the scenes
+    published-date: 2025-12-09
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DSCSCFSkQjw
+
+- postinstagramimage:
+    post: DSCSCFSkQjw
+    id: 02
+    label: Behind the scenes
+    published-date: 2025-12-09
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DSCSCFSkQjw
+
+- postinstagramimage:
+    post: DSCSCFSkQjw
+    id: 03
+    label: Behind the scenes
+    published-date: 2025-12-09
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DSCSCFSkQjw
+
+- postinstagramimage:
+    post: DSCSCFSkQjw
+    id: 04
+    label: Behind the scenes
+    published-date: 2025-12-09
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DSCSCFSkQjw
 
 - postx:
     id: 1980973984511557877
@@ -828,6 +1363,7 @@
     post: 1992086222408454198
     id: G6VP23DaMAAVFs-
     label: MV image
+    info: Kanade
     published-date: 2025-11-22
     context:
     - song: gimmick
@@ -966,6 +1502,14 @@
     part-of:
       song: gimmick
 
+- update:
+    song: gimmick
+    date: 2025-12-16
+    text:
+    - New videos and behind the scenes pictures
+    part-of:
+      song: gimmick
+
 - youtubeshort:
     id: 2RLrJP3MB1w
     label: Music Video
@@ -992,6 +1536,16 @@
     - song: gimmick
     part-of:
       youtubevideo: js9WXQHa5J0
+
+- youtubeshort:
+    id: LAjdWGeyfRw
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-12-03
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
 
 - youtubeshort:
     id: PNLPXORtGNY

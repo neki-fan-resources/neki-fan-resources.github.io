@@ -12,6 +12,15 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 1997644296204210265
+                    video: 01
+                - postxvideo:
+                    post: 1996909339790151834
+                    video: 01
+                - postxvideo:
+                    post: 1996143103410061620
+                    video: 01
                 - youtubeshort: o0s7Z_X5yp0
                 - postxvideo:
                     post: 1994395046867784181
@@ -21,19 +30,37 @@
                     video: 01
             - multimediasubsection:
                 multimedia:
-                - postximage:
-                    post: 1994416759160668354
-                    image: G62XZExaAAAmgPY
+                - postinstagramimage:
+                    post: DRtO4c2Etfo
+                    image: 06
+                - postinstagramimage:
+                    post: DRtO4c2Etfo
+                    image: 03
+                - postinstagramimage:
+                    post: DRmr_TDEj8V
+                    image: 03
+                - postinstagramimage:
+                    post: DRtO4c2Etfo
+                    image: 05
+                - postinstagramimage:
+                    post: DRtO4c2Etfo
+                    image: 02
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 1994405565590913446
                     image: G62NR5qaMAAqX4L
+                - postinstagramimage:
+                    post: DRmr_TDEj8V
+                    image: 05
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 1994613971161419785
                     image: G65K0JnbkAMshtC
+                - postinstagramimage:
+                    post: DRmr_TDEj8V
+                    image: 04
                 - postximage:
                     post: 1994613971161419785
                     image: G65K0JqakAAbZIt
@@ -51,11 +78,19 @@
                 - postximage:
                     post: 1994413491135173104
                     image: G62UfaNbYAEJ2Jx
+                - postinstagramimage:
+                    post: DSFNSS1E3xK
+                    image: 02
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 1994381696935027104
                     image: G613JWSb0AAJE7z
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DRreO_ZEvDZ
+                    image: 01
         - basicsection:
             label: At the event
             subsections:
@@ -64,12 +99,26 @@
                 - postximage:
                     post: 1994381696935027104
                     image: G613HQSaIAAMpc_
+                - postinstagramimage:
+                    post: DRtO4c2Etfo
+                    image: 09
+                - postinstagramimage:
+                    post: DRtO4c2Etfo
+                    image: 10
                 - postximage:
                     post: 1994605574785568784
                     image: G65DMI8aEAEiVdD
+                - postinstagramimage:
+                    post: DRmr_TDEj8V
+                    image: 07
                 - postximage:
                     post: 1994605574785568784
                     image: G65DMI5aEAA81ez
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DRtO4c2Etfo
+                    image: 08
     - basicblock:
         id: multimedia
         label: image / video
@@ -79,6 +128,10 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: Dl778ia4NYU
+                - youtubeshort: HL0ubCAb9Ek
+                - youtubeshort: FoofEnRp8NI
+                - youtubeshort: mZ2vH9xMLy8
                 - youtubeshort: aIdQUiCJV60
     part-of:
       show:
@@ -105,6 +158,334 @@
           year: 2025
           id: 1stalbummeme
       - text: ', on November 28th in Yokohama.'
+
+- postinstagram:
+    id: DRmr_TDEj8V
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-11-28
+    text: |-
+      2025.11.28(Fri.)
+      NEK! 1st Album『MEME』リリース記念ワンマンライブ
+      @ 横浜ReNY beta
+      
+      THANK YOU SOLD OUT!!
+      ご来場いただきありがとうございました🔥
+      
+      ➡︎NEXT ONE MAN
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      #NEKI #MEME
+    image:
+    - 03
+    - 04
+    - 05
+    - 07
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+    reference:
+    - postximage:
+        post: 1994381696935027104
+        image: G613HQSaIAAMpc_
+    - postximage:
+        post: 1994413491135173104
+        image: G62UfaNaQAEDGX6
+    - postximage:
+        post: 1994381696935027104
+        image: G613JWSb0AAJE7z
+
+- postinstagram:
+    id: DRreO_ZEvDZ
+    account: natsu08_guitar
+    label: I love absolutely all of you!
+    published-date: 2025-11-30
+    text: |-
+      .
+      11/28-29
+      幸せな二日間でした🫶🏻
+      みんなのことまるっと大好き！！！
+    translation: |-
+      .
+      11/28-29
+      It was two happy days 🫶🏻
+      I love absolutely all of you!!!
+    image:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- postinstagram:
+    id: DRtO4c2Etfo
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-12-01
+    text: |-
+      NEK! 1st Album『MEME』リリース記念ワンマンライブ
+      📍YOKOHAMA RaNY beta
+      
+      お越しくださった皆様ありがとうございました！
+      
+      ソールドアウトしたパンッパンのフロアと共に最高にアツい時間を過ごすことができました🔥
+      アルバム収録曲を中心につくったセットリストでいくつか初披露の楽曲もありましたが、前から後ろまでみんなが拳上げたり一緒に歌ってくれてて、終始フロアの熱がビシビシ伝わって来て嬉しかったです！！1曲目から汗だくでした！笑
+      会場を包み込む熱気と一体感が堪らなく心地よかったです❤️‍🔥
+      
+      お手紙やプレゼントもたくさんありがとうございます！！
+      メンバー一同とても励みになっています🥲✨️
+      
+      MEMEの楽曲が仲間入りしたこれからのライブが自分のことながらとても楽しみです！
+      NEK!を更にレベルアップさせてくれる強者揃いの今作をこれからもたくさん聴いて、末永く愛していただけたら嬉しいです！よろしくお願いします🙂‍↕️🫶🏻
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      NEK! 1st Album 『MEME』 Release Commemoration One-Man Live
+      📍YOKOHAMA RaNY beta
+      
+      Thank you to everyone who came!
+      
+      We were able to spend an incredibly passionate time with a sold-out, packed floor 🔥
+      The setlist was centered around the album tracks and included some songs performed for the first time, but everyone from the front to the back was raising their fists and singing along with us, and I was happy that the heat from the floor was strongly conveyed throughout the entire show!! I was sweating from the very first song! lol
+      The passion and sense of unity that enveloped the venue was unbearably comforting ❤️‍🔥
+      
+      Thank you also for the many letters and presents!!
+      It's a great encouragement for all the members 🥲✨️
+      
+      I'm really looking forward to our future shows with the addition of the MEME songs!
+      I'd be happy if you continue to listen to this work, filled with powerful songs that will level up NEK! even further, and love it for a long time! Thank you in advance 🙂‍↕️🫶🏻
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 02
+    - 03
+    - 04
+    - 05
+    - 06
+    - 07
+    - 08
+    - 09
+    - 10
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+    reference:
+    - postximage:
+        post: 1994416759160668354
+        image: G62XZExaAAAmgPY
+
+- postinstagram:
+    id: DSFNSS1E3xK
+    account: natsu08_guitar
+    label: Guitar solo
+    published-date: 2025-12-10
+    text: |-
+      .
+      Guitar solo🎸
+      
+      #guitarist #neki
+    image:
+    - 02
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+    reference:
+    - postximage:
+        post: 1994413491135173104
+        image: G62UfaNaQAEDGX6
+
+- postinstagramimage:
+    post: DRmr_TDEj8V
+    id: 03
+    label: On stage
+    info: Cocoro
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRmr_TDEj8V
+
+- postinstagramimage:
+    post: DRmr_TDEj8V
+    id: 04
+    label: On stage
+    info: Kanade
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRmr_TDEj8V
+
+- postinstagramimage:
+    post: DRmr_TDEj8V
+    id: 05
+    label: On stage
+    info: Hika
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRmr_TDEj8V
+
+- postinstagramimage:
+    post: DRmr_TDEj8V
+    id: 07
+    label: Band
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRmr_TDEj8V
+
+- postinstagramimage:
+    post: DRreO_ZEvDZ
+    id: 01
+    label: Backstage
+    info: Natsu
+    published-date: 2025-11-30
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRreO_ZEvDZ
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 02
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 03
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 04
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 05
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 06
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 07
+    label: On stage
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 08
+    label: Drum set
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 09
+    label: Band
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRtO4c2Etfo
+    id: 10
+    label: Band
+    published-date: 2025-12-01
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DSFNSS1E3xK
+    id: 02
+    label: On stage
+    info: Natsu
+    published-date: 2025-12-15
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DSFNSS1E3xK
 
 - postx:
     id: 1961739772080136281
@@ -429,6 +810,86 @@
         year: 2025
         id: 1stalbummeme
 
+- postx:
+    id: 1996143103410061620
+    account: coco_102
+    label: 50k views
+    published-date: 2025-12-03
+    text: |-
+      GiMMiCK Music Video 5万回再生ありがとう🥹🫶🏻
+      
+      ライブでも皆盛り上がってくれてて嬉しかったです🔥
+      音源もライブもMVでも楽しめるGiMMiCK強し！！
+      これからもたくさん観て、聴いてください！！
+      
+      #NEKI #ネキミーム
+    translation: |-
+      GiMMiCK Music Video 50,000 views, thank you🥹🫶🏻
+      
+      I was happy that everyone got so excited at the live shows too🔥
+      GiMMiCK is strong, enjoyable through the audio, live performance, and MV!!
+      Please continue to watch and listen a lot!!
+      
+      #NEKI #ネキミーム
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- postx:
+    id: 1996909339790151834
+    account: coco_102
+    label: Frog Flog on stage
+    published-date: 2025-12-05
+    text: |-
+      アルバム1曲目に収録しているFrog Flog😈❤️‍🔥
+      ラスサビ前のキメがちょっぴりトリッキーで好き
+      
+      #NEKI #ネキミーム
+    translation: |-
+      Frog Flog is the first track on the album😈❤️‍🔥
+      I like the final chorus's cue that's a little tricky
+      
+      #NEKI #ネキミーム
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1996909339790151834
+        video: 01
+
+- postx:
+    id: 1997644296204210265
+    account: coco_102
+    label: 3rd pre-sale ends today
+    published-date: 2025-12-07
+    text: |-
+      ⚠️NEK!初の全国ツアーチケット受付は本日まで⚠️
+      
+      NEK!が生み出す最高にアツくて最高にピースフルなライブを一度は体感しに来て✌🏻🌈
+      
+      color chordのかけ声みんなで一緒に言いたいー！
+      全国ツアーでも全力のhey!とyes!を期待してます🫶🏻
+      
+      #NEKI #ネキミーム
+    translation: |-
+      ⚠️Applications for NEK!'s first nationwide tour tickets end today⚠️
+      
+      Please come and experience the hottest and most peaceful live show that NEK! creates at least once✌🏻🌈
+      
+      I want to say the color chord call-and-response together with everyone!
+      I'm looking forward to your full-power hey! and yes! on the nationwide tour🫶🏻
+      
+      #NEKI #NEKIMEME
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1997644296204210265
+        video: 01
+
 - postximage:
     post: 1961739772080136281
     id: Gzl_6IcbMAAX62f
@@ -494,7 +955,7 @@
 - postximage:
     post: 1994381696935027104
     id: G613HQSaIAAMpc_
-    label: At the venue
+    label: Band
     published-date: 2025-11-28
     context:
     - show:
@@ -618,8 +1079,58 @@
     - show:
         year: 2025
         id: 1stalbummeme
+    todo: which song ?
     part-of:
       postx: 1994416759160668354
+
+- postxvideo:
+    post: 1996143103410061620
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-03
+    cover: 1996142773448343552/img/_dnnWf9En5I97JAX.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    - song: gimmick
+    part-of:
+      postx: 1996143103410061620
+
+- postxvideo:
+    post: 1996909339790151834
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-05
+    cover: 1996909106570174464/img/nAEClxAr-gxPkvSn.jpg
+    context:
+    - song: frogflog
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- postxvideo:
+    post: 1997644296204210265
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-07
+    cover: 1997644103157489664/img/VcgX9TnvnhT9JRy_.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    - song: colorchord
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
 
 - update:
     show:
@@ -657,6 +1168,63 @@
         year: 2025
         id: 1stalbummeme
 
+- update:
+    show:
+      year: 2025
+      id: 1stalbummeme
+    date: 2025-12-16
+    text:
+    - Additional pictures and videos
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: Dl778ia4NYU
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-14
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: FoofEnRp8NI
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-04
+    context:
+    - song: tictactoe
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: HL0ubCAb9Ek
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-05
+    context:
+    - song: scrapbook
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
 - youtubeshort:
     id: aIdQUiCJV60
     label: On stage
@@ -667,6 +1235,21 @@
         year: 2025
         id: 1stalbummeme
     - song: gimmick
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: mZ2vH9xMLy8
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-02
+    context:
+    - song: colorchord
+    - show:
+        year: 2025
+        id: 1stalbummeme
     part-of:
       show:
         year: 2025

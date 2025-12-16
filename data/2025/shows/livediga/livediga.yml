@@ -1,0 +1,18 @@
+show:
+  year: 2025
+  id: livediga
+  cover-image:
+    postximage:
+      post: 1996867357894234264
+      image: G7ZMO7FaYAAnEmW
+  fullname: 'LIVE DI:GA JUDGEMENT 2025'
+  shortname: 'LIVE DI:GA JUDGEMENT'
+  date: 2025-12-30
+  description:
+  - 'NEK! will perform at LIVE DI:GA JUDGEMENT 2025 on December the 30th.'
+  - 'LIVE DI:GA JUDGEMENT 2025 is a two-days event organized in two neighboring venues in Shibuya.'
+  event-page: 'https://livedigajudgement.net/2025/'
+  part-of:
+    group:
+      id: shows
+      group: 2025

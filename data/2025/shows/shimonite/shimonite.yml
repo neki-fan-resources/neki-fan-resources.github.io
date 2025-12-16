@@ -8,20 +8,17 @@ show:
       id: poster
   fullname: Shimokitazawa Nite
   date: 2025-12-06
-  venue: Flowers loft, Shimokitazawa, Tokyo
+  description:
+  - NEK! took part in Shimokitazawa Nite, a circuit festival in Shimokitazawa, Tokyo.
+  - The band performed early in the afternoon, at Flowers Loft.
+  venue: Flowers Loft, Shimokitazawa, Tokyo
   event-page: 'https://www.shimonite.com/'
   part-of:
     group:
       id: shows
       group: 2025
   multimedia:
-    image:
-    - postximage:
-        post: 1982055276930011353
-        image: G4GsvB1WwAAcUUS
-    - postximage:
-        post: 1982055276930011353
-        image: G4GsvB-WwAALdCK
-    - postximage:
-        post: 1990658695475442164
-        image: G6A9hz_bMAMnK-L
+    main:
+      postxvideo:
+        post: 1997213795253674395
+        video: 01

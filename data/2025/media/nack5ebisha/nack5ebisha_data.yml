@@ -1,0 +1,123 @@
+- postx:
+    id: 1996937198969803243
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-12-05
+    text: |-
+      📣ラジオ出演📣
+      
+      12/6(土)24:30~放送
+      NACK5『えびしゃの「ばくばく」』
+      
+      VoGt. Hika & Gt. Natsuの出演が決定📻
+      
+      ぜひお聴きください！
+      
+      https://nack5.co.jp/program/ebisha_bakubaku/
+      
+      #NEKI #ばくばく795 #nack5
+    translation: |-
+      📣Radio Appearance📣
+      
+      Airing 12/6 (Sat) 24:30~ (12:30 AM)
+      NACK5 "Ebisha no 'Bakubaku'"
+      
+      VoGt. Hika & Gt. Natsu are confirmed to appear📻
+      
+      Please be sure to listen!
+      
+      https://nack5.co.jp/program/ebisha_bakubaku/
+      
+      #NEKI #ばくばく795 #nack5
+    part-of:
+      media:
+        year: 2025
+        id: nack5ebisha
+
+- postx:
+    id: 1997330134882529745
+    account: nekiband_jp
+    label: Soon
+    published-date: 2025-12-06
+    text: |-
+      NACK5『えびしゃの「ばくばく」』
+      @bakubaku_795
+       
+      
+      このあと26時台に出演させていただきます📻
+      
+      < 出演 >
+      VoGt. Hika 
+      @46_hikaa
+       
+      Gt. Natsu 
+      @natsu08_guitar
+       
+      
+      ぜひお聴きください❣️
+      
+      https://nack5.co.jp/program/ebisha_bakubaku/20251206.html
+      
+      #NEKI #ばくばく795 #nack5
+    translation: |-
+      NACK5 "Ebisha no 'Bakubaku'"
+      @bakubaku_795
+      
+      We will be appearing on the show later, starting around 26:00 (2:00 AM) 📻
+      
+      < Appearance >
+      VoGt. Hika
+      @46_hikaa
+      
+      Gt. Natsu
+      @natsu08_guitar
+      
+      Please tune in and listen! ❣️
+      
+      https://nack5.co.jp/program/ebisha_bakubaku/20251206.html
+      
+      #NEKI #bakubaku795 #nack5
+    image:
+    - G7fxKlxaEAAzRX9
+    part-of:
+      postx: 1996937198969803243
+
+- postximage:
+    post: 1997330134882529745
+    id: G7fxKlxaEAAzRX9
+    label: At the station
+    info: Natsu, Hika
+    published-date: 2025-12-06
+    context:
+    - media:
+        year: 2025
+        id: nack5ebisha
+    part-of:
+      postx: 1997330134882529745
+
+- webimage:
+    domain: nack5.co.jp
+    page: ebisha_bakubaku
+    id: flyer
+    label: Flyer
+    published-date: 2025-12-05
+    url: 'https://www.nack5.co.jp/program/ebisha_bakubaku/cover.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: nack5.co.jp
+        id: ebisha_bakubaku
+
+- webpage:
+    domain: nack5.co.jp
+    id: ebisha_bakubaku
+    label: Show page
+    published-date: 2025-12-05
+    url: 'https://www.nack5.co.jp/program/ebisha_bakubaku/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2025
+        id: nack5ebisha
+

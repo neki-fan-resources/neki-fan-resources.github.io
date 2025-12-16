@@ -17,6 +17,11 @@
                   - text: It begins by exploring the band's unique identity as a "Slang Rock" group—a band born from the internet that simultaneously satirizes the state of online society. The members discuss their collaborative, "music-first" songwriting process, emphasizing that while they prioritize a technical, band-centric sound, they also aim to turn the negativity of the modern world into a positive message.
                 - line:
                   - text: The conversation then dives deep into the album itself. The band analyzes key tracks, including the slang-heavy anthem "Frog Flog," the experimental rap-style "Scrap Book," and the emotional rock ballad "Marine Snow." The interview concludes with a look at their upcoming national tour and their ambitious goal to become the fastest girls' band to stand on the stage of the Nippon Budokan.
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1999038338599371214
+                    image: G74CxYqacAATAOR
     - basicblock:
         id: translation
         label: translation
@@ -257,6 +262,51 @@
         year: 2025
         id: skreammeme
 
+- postx:
+    id: 1999038338599371214
+    account: nekiband_jp
+    label: Print version
+    published-date: 2025-12-11
+    text: |-
+      📕掲載情報📕
+      
+      「Skream!12月号」
+      @skream_japan
+       
+      
+      NEK!のインタビュー記事が掲載🎉
+      
+      全国のCDショップやライヴハウス、スタジオ等にて順次無料配布スタート！  
+      
+      TAKE FREEです！
+      ぜひゲットしてください📚
+      
+      🔗https://skream.jp/news/2025/12/skream_magazine.php
+      
+      #NEKI
+    translation: |-
+      📕Publication Info📕
+      
+      "Skream! December Issue"
+      @skream_japan
+      
+      NEK!'s interview article is featured🎉
+      
+      Free distribution is starting sequentially at CD shops, live houses, studios, etc. nationwide!
+      
+      It's TAKE FREE!
+      Be sure to get a copy📚
+      
+      🔗https://skream.jp/news/2025/12/skream_magazine.php
+      
+      #NEKI
+    image:
+    - G74CxYqacAATAOR
+    part-of:
+      media:
+        year: 2025
+        id: skreammeme
+
 - postximage:
     post: 1994694260587991125
     id: G66T2TpasAAbQUQ
@@ -269,6 +319,18 @@
         id: skreammeme
     part-of:
       postx: 1994694260587991125
+
+- postximage:
+    post: 1999038338599371214
+    id: G74CxYqacAATAOR
+    label: Cover
+    published-date: 2025-12-11
+    context:
+    - media:
+        year: 2025
+        id: skreammeme
+    part-of:
+      postx: 1999038338599371214
 
 - update:
     media:

@@ -29,6 +29,9 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
+                    post: 1990790843184394572
+                    image: G6C1sMgaUAAScQ-
+                - postximage:
                     post: 1990790079674290383
                     image: G6C1AjpbsAAF74y
                 - postximage:
@@ -60,6 +63,8 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: H8lIROkXNLE
+                - youtubeshort: vH2XH93Lpd0
                 - youtubeshort: JiBQIqwpMzc
     part-of:
       show:
@@ -779,12 +784,42 @@
         id: thetheoryofscience
 
 - youtubeshort:
+    id: H8lIROkXNLE
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-26
+    context:
+    - song: scrapbook
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- youtubeshort:
     id: JiBQIqwpMzc
     label: On stage
     info: studio audio
-    published-date: 2025-11-19
+    published-date: 2025-11-18
     context:
     - song: gimmick
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- youtubeshort:
+    id: vH2XH93Lpd0
+    label: On stage
+    info: studio audio
+    published-date: 2025-11-25
+    context:
+    - song: frogflog
     - show:
         year: 2025
         id: thetheoryofscience

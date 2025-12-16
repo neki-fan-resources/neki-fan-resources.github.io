@@ -37,6 +37,11 @@
                 - postximage:
                     post: 1994739933953888651
                     image: G669WbmbkAcE7y8
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DR1d7rvkgoa
+                    image: 02
         - basicsection:
             label: At the event
             subsections:
@@ -59,6 +64,23 @@
                 - postximage:
                     post: 1994739933953888651
                     image: G669Wb9bkAMcydk
+                - postinstagramimage:
+                    post: DR1d7rvkgoa
+                    image: 04
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1996461176130351354
+                    video: 01
+                - postinstagramimage:
+                    post: DR1d7rvkgoa
+                    image: 03
+                - postximage:
+                    post: 1994986918594187638
+                    image: G6-eBrvbAAAsQnM
+                - postximage:
+                    post: 1994986918594187638
+                    image: G6-eBrtbkAI39UK
         - basicsection:
             label: Before the show
             subsections:
@@ -71,6 +93,98 @@
       show:
         year: 2025
         id: memetowershibuya
+
+- postinstagram:
+    id: DR1d7rvkgoa
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-12-04
+    text: |-
+      2025.11.29
+      
+      NEK! 1st Album『MEME』発売記念イベント
+      アコースティックミニライブ＆サイン会
+      
+      お越しくださった皆様本当にありがとうございました！
+      
+      今年の春以来のアコースティック編成で、そもそもアコースティックだけのライブは今回が初めてだったので終始ソワソワしていましたが、新鮮な気持ちで楽しめました🌱
+      
+      アルバムに収録しているバラードの楽曲とアルバムリード曲であるGiMMiCKのアコースティックver.などをやってみて、前日に開催したバンド編成のワンマンライブとはひと味もふた味も違うちょっぴり落ち着いた雰囲気のNEK!をお届けできたんじゃないかなと思っています🌿
+      
+      久しぶりに愛しのマイカホンと一緒にステージ上がれたのがより嬉しかった！心做しかカホンも楽しそうにしてた気がする☺️
+      
+      サイン会ではファンのみなさんから直接、アルバムやライブの感想を聞けてとても嬉しかったし最高に楽しかったです🫶🏻
+      
+      みなさんと話しているとNEK!に対する愛がヒシヒシと伝わってきて幸せだなと心から思うし、これからもみなさんの推しバンドでいられるように頑張り続けたいなと強く思いました🔥
+      
+      #neki #neki_band #girlsband #cajon #drum
+    translation: |-
+      2025.11.29
+      
+      NEK! 1st Album『MEME』Release Commemoration Event
+      Acoustic Mini-Live & Signing Session
+      
+      Thank you so much to everyone who came!
+      
+      It was our first acoustic-only show, and since it was our first acoustic setup since this spring, I was restless the whole time, but I enjoyed the fresh feeling 🌱
+      
+      By performing the ballad track included in the album and the acoustic version of the album's lead song, GiMMiCK, I think we were able to deliver a slightly calmer side of NEK! that was different from the band-style one-man show held the day before 🌿
+      
+      I was extra happy to be on stage with my beloved cajon again after a long time! I feel like the cajon also seemed to be enjoying itself ☺️
+      
+      During the signing session, I was so happy and had the best time being able to hear direct feedback from the fans about the album and the live show 🫶🏻
+      
+      When I talk with everyone, I sincerely feel happy that your love for NEK! is strongly conveyed, and I strongly feel that I want to continue working hard so that we can remain your favorite band 🔥
+      
+      #neki #neki_band #girlsband #cajon #drum
+    image:
+    - 02
+    - 03
+    - 04
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+    reference:
+    - postximage:
+        post: 1994721944856662230
+        image: G66tBqbacAAxII8
+
+- postinstagramimage:
+    post: DR1d7rvkgoa
+    id: 02
+    label: On stage
+    published-date: 2025-12-04
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postinstagram: DR1d7rvkgoa
+
+- postinstagramimage:
+    post: DR1d7rvkgoa
+    id: 03
+    label: Cajon
+    published-date: 2025-12-04
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postinstagram: DR1d7rvkgoa
+
+- postinstagramimage:
+    post: DR1d7rvkgoa
+    id: 04
+    label: Backstage
+    published-date: 2025-12-04
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postinstagram: DR1d7rvkgoa
 
 - postx:
     id: 1991367994325561515
@@ -640,6 +754,18 @@
     date: 2025-11-29
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+
+- update:
+    show:
+      year: 2025
+      id: memetowershibuya
+    date: 2025-12-16
+    text:
+    - Additional pictures
     part-of:
       show:
         year: 2025

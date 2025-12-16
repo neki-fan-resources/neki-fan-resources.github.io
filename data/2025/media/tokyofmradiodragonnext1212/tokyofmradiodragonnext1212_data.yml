@@ -1,0 +1,46 @@
+- postx:
+    id: 1999420851473801689
+    account: RADIO_DRAGON
+    label: Tonight
+    published-date: 2025-12-12
+    text: |-
+      【28時台】MONTHLY DISC
+      今月は・・・
+      NEK!‼️
+       
+      先月リリースになった、 
+      1stフルアルバム『MEME』を1ヶ月間、
+      メンバーのHikaさん、Natsuさんとの対談形式でお届けしていきます✨
+      
+      今夜はその第2回です🌃
+      
+      #radiodragon #TOKYOFM #ネキミーム #NEKI
+    translation: |-
+      [28:00 Hour] MONTHLY DISC
+      This month is...
+      NEK!‼️
+      
+      Their 1st full album 『MEME』, which was released last month,
+      will be delivered over the course of a month in a discussion format with members Hika and Natsu✨
+      
+      Tonight is the second installment🌃
+      
+      #radiodragon #TOKYOFM #NEKIMEME #NEKI
+    part-of:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext1212
+
+- postximage:
+    post: 1999420851473801689
+    id: G79eYC8agAAfAzP
+    label: In studio
+    info: Yui Kanno, Hika, Natsu
+    published-date: 2025-12-12
+    context:
+    - media:
+        year: 2025
+        id: tokyofmradiodragonnext1212
+    part-of:
+      postx: 1999420851473801689
+

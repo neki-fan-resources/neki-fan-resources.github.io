@@ -1,5 +1,33 @@
-group:
-  id: artist
-  label: Artist
-  part-of:
-    group: hika
+- group:
+    id: artist
+    label: Artist
+    part-of:
+      group: hika
+
+- postx:
+    id: 1996461176130351354
+    account: 46_hikaa
+    label: Stickers
+    published-date: 2025-12-04
+    text: |-
+      NEK!とMEMEステッカーを追加👍🏻 ̖́-
+    translation: |-
+      Added NEK! and MEME stickers👍🏻 ̖́-
+    part-of:
+      group:
+        id: artist
+        group: hika
+
+- postxvideo:
+    post: 1996461176130351354
+    id: 01
+    label: Stickers
+    published-date: 2025-12-06
+    cover: 1996461118093676544/img/TuOCdSdN7MAC4I-F.jpg
+    context:
+    - show:
+        year: 2025
+        id: memetowershibuya
+    part-of:
+      postx: 1996461176130351354
+

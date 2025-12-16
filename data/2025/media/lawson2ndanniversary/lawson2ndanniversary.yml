@@ -1,0 +1,24 @@
+mediawritten:
+  year: 2025
+  id: lawson2ndanniversary
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: lawson2ndanniversary
+      id: logo
+  publication: l-tike
+  issue: NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+  designation: Interview
+  member:
+  - Hika, Natsu, Kanade, Cocoro
+  published-date: 2025-12-15
+  journalist: ヤコウリュウジ (Ryuji Yakou)
+  webpage: 'https://l-tike.com/feature/'
+  article-page: 'https://l-tike.com/concert/feature/neki/25121500/?'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - Short interview with band members about the album "MEME" and the upcoming tour.

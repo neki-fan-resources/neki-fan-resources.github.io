@@ -1,0 +1,30 @@
+mediaaudio:
+  year: 2025
+  id: nack5ebisha
+  cover-image:
+    webimage:
+      domain: nack5.co.jp
+      page: ebisha_bakubaku
+      id: flyer
+  radio: NACK5
+  show: えびしゃの「ばくばく」
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-12-06
+  host: Ebisha
+  webpage: 'https://www.nack5.co.jp/program/ebisha_bakubaku/'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  multimedia:
+    main:
+      postximage:
+        post: 1997330134882529745
+        image: G7fxKlxaEAAzRX9
+    image:
+    - postximage:
+        post: 1997330134882529745
+        image: G7fxKlxaEAAzRX9

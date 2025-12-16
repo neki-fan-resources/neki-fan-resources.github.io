@@ -1,0 +1,63 @@
+- postx:
+    id: 1996867357894234264
+    account: livediga
+    label: Announcement
+    published-date: 2025-12-05
+    text: |-
+      ／
+      📢第2弾出演アーティスト発表💫
+      🎟️12/6(土)10:00〜チケット一般発売スタート！
+      ＼
+      
+      12/30🆕
+      ザ・シスターズハイ／SpecialThanks／NEK!
+      12/31🆕
+      クジラ夜の街／The Cheserasera／リュックと添い寝ごはん
+      
+      #LDJ #ジャッジメント
+      
+      🔽オフィシャルサイト
+      https://livedigajudgement.net
+    translation: |-
+      ／
+      📢2nd Round of Performing Artists Announced💫
+      🎟️Ticket general sale starts 12/6 (Sat) 10:00 AM!
+      ＼
+      
+      12/30🆕
+      THE SISTERS HIGH / SpecialThanks / NEK!
+      12/31🆕
+      Kujira Yoru no Machi / The Cheserasera / Ruck and Lullaby
+      
+      #LDJ #ジャッジメント
+      
+      🔽Official Site
+      https://livedigajudgement.net
+    image:
+    - G7ZMO7FaYAAnEmW
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+
+- postximage:
+    post: 1996867357894234264
+    id: G7ZMO7FaYAAnEmW
+    label: Flyer
+    published-date: 2025-12-05
+    local-copy: true
+    part-of:
+      postx: 1996867357894234264
+
+- update:
+    show:
+      year: 2025
+      id: livediga
+    date: 2025-12-16
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+

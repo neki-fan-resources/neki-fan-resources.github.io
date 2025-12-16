@@ -1,0 +1,98 @@
+- localimage:
+    media:
+      year: 2025
+      id: lawson2ndanniversary
+    id: logo
+    label: Logo
+    published-date: 2025-12-15
+    source:
+      description: Lawson Ticket website
+      url: 'https://l-tike.com/'
+    part-of:
+      media:
+        year: 2025
+        id: lawson2ndanniversary
+
+- postx:
+    id: 2000438888586965233
+    account: nekiband_jp
+    label: Print version
+    published-date: 2025-12-15
+    text: |-
+      フリーペーパー「月刊ローチケ」
+      
+      NEK!のインタビュー記事が掲載📚
+      
+      本日12/15(月)より全国のローソン、HMV、ミニストップ等で配布開始！
+      
+      ぜひチェックお願いします✅
+      
+      ▼月刊ローチケ詳細📘
+      https://l-tike.com/loppi/
+      
+      ▼インタビューはWEBでもお読みいただけます📝
+      https://l-tike.com/concert/feature/neki/25121500/
+      
+      #NEKI
+    translation: |-
+      Free Paper "Monthly Lawson Ticket"
+      
+      NEK!'s interview article is featured📚
+      
+      Distribution starts today, 12/15 (Mon), at Lawson, HMV, Ministop, etc. nationwide!
+      
+      Please be sure to check it out✅
+      
+      ▼Details on Monthly Lawson Ticket📘
+      https://l-tike.com/loppi/
+      
+      ▼The interview can also be read on the web📝
+      https://l-tike.com/concert/feature/neki/25121500/
+      
+      #NEKI
+    image:
+    - G8L71wJa8AAwxNu
+    part-of:
+      media:
+        year: 2025
+        id: lawson2ndanniversary
+
+- postx:
+    id: 2000487978238705811
+    account: 46_hikaa
+    label: Get
+    published-date: 2025-12-15
+    text: |-
+      GET！！！！
+    image:
+    - G8MpNk-bEAAgkdP
+    part-of:
+      media:
+        year: 2025
+        id: lawson2ndanniversary
+
+- postximage:
+    post: 2000438888586965233
+    id: G8L71wJa8AAwxNu
+    label: Cover
+    published-date: 2025-12-15
+    context:
+    - media:
+        year: 2025
+        id: lawson2ndanniversary
+    part-of:
+      postx: 2000438888586965233
+
+- postximage:
+    post: 2000487978238705811
+    id: G8MpNk-bEAAgkdP
+    label: Print version
+    info: Hika
+    published-date: 2025-12-15
+    context:
+    - media:
+        year: 2025
+        id: lawson2ndanniversary
+    part-of:
+      postx: 2000487978238705811
+

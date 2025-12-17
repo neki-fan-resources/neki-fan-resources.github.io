@@ -233,6 +233,72 @@
     part-of:
       album: meme
 
+- postinstagram:
+    id: DRgxaEHCaWZ
+    account: tower_machida
+    label: Visiting the store
+    published-date: 2025-11-26
+    text: |-
+      【NEK!】
+      
+      1stフルアルバム『#MEME』発売日の本日、
+      メンバーのお二人がご来店❣️✨
+      
+      展開場所にサインやコメントカード、
+      ポスターをいただきました🙌🏻
+      
+      お忙しい中ありがとうございました☺️💓
+      
+      町田店公式Ｘではお写真を載せているので、
+      こちらもぜひチェックしてみてください👀✨
+      👉🏻https://x.com/TOWER_Machida/status/1993590175050744106
+      
+      1stフルアルバム『MEME』
+      ✨🐱好評発売中🐱✨
+      
+      「ああバンドやりたい！」×NEK! キャンペーン開催中❣️
+      🔗https://tower.jp/article/news/2025/11/12/n101
+      
+      町田店では、発売を記念して
+      サイン入りパネル展＆抽選プレゼントも開催中🎉✨
+      
+      ぜひご来店お待ちしております🫶🏻💕
+      
+      @nekiband_jp 
+      #NEKI
+    translation: |-
+      【NEK!】
+      
+      Today, the release date of the 1st full album "#MEME",
+      the two members visited our store❣️✨
+      
+      They gave us signatures, comment cards,
+      and posters at the display location🙌🏻
+      
+      Thank you so much for coming during your busy schedule☺️💓
+      
+      We have posted photos on the Machida store official X,
+      so please be sure to check them out as well👀✨
+      👉🏻https://x.com/TOWER_Machida/status/1993590175050744106
+      
+      1st full album "MEME"
+      ✨🐱Now on sale🐱✨
+      
+      "Ah, I want to start a band!" x NEK! Campaign in progress❣️
+      🔗https://tower.jp/article/news/2025/11/12/n101
+      
+      To celebrate the release, the Machida store is also holding
+      a signed panel exhibition & prize lottery🎉✨
+      
+      We look forward to your visit🫶🏻💕
+      
+      @nekiband_jp 
+      #NEK!
+    video:
+    - 01
+    part-of:
+      album: meme
+
 - postinstagramvideo:
     post: DQbox4-kjh8
     id: 01
@@ -243,6 +309,18 @@
     - album: meme
     part-of:
       postinstagram: DQbox4-kjh8
+
+- postinstagramvideo:
+    post: DRgxaEHCaWZ
+    id: 01
+    label: Visiting the store
+    info: Hika, Natsu
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    todo: to process and display
+    part-of:
+      postinstagram: DRgxaEHCaWZ
 
 - postx:
     id: 1961737876066168993

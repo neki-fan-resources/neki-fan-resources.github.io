@@ -13,6 +13,9 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 2001242203549786245
+                    video: 01
+                - postxvideo:
                     post: 1997644296204210265
                     video: 01
                 - postxvideo:
@@ -890,6 +893,36 @@
         post: 1997644296204210265
         video: 01
 
+- postx:
+    id: 2001242203549786245
+    account: coco_102
+    label: Clock up! on stage
+    published-date: 2025-12-17
+    text: |-
+      Clock up!
+      ⁡
+      BPM210の疾走感抜群な楽曲！
+      毎分毎秒のコールアンドレスポンスが楽しいよね^^
+      
+      NEK! 1st Album『MEME』の初回盤Aにボーナストラックとして収録しているので、ぜひ聴いてみてください👂🏻💫
+      
+      #NEKI #ネキミーム
+    translation: |-
+      Clock up!
+      ⁡
+      A song with an outstanding sense of speed at 210 BPM!
+      The call and response every minute and second is fun, isn't it^^
+      
+      It's included as a bonus track on the Limited Edition A of NEK!'s 1st Album "MEME," so please give it a listen👂🏻💫
+      
+      #NEKI #NEKIMEME
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
 - postximage:
     post: 1961739772080136281
     id: Gzl_6IcbMAAX62f
@@ -1131,6 +1164,21 @@
       show:
         year: 2025
         id: 1stalbummeme
+
+- postxvideo:
+    post: 2001242203549786245
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-17
+    cover: 2001242082015596544/img/5R9wffPPMfS6EEbN.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    - song: clockup
+    part-of:
+      postx: 2001242203549786245
 
 - update:
     show:

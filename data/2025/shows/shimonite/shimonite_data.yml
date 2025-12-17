@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: PpGQnSlWc-k
                 - youtubeshort: yTiLfgNImuc
                 - postxvideo:
                     post: 1997213795253674395
@@ -588,6 +589,20 @@
     url: 'https://www.shimonite.com/'
     image:
     - poster
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- youtubeshort:
+    id: PpGQnSlWc-k
+    label: On stage
+    published-date: 2025-12-17
+    context:
+    - song: fool
+    - show:
+        year: 2025
+        id: shimonite
     part-of:
       show:
         year: 2025

@@ -9,7 +9,6 @@ object YamlKeys {
   val MUSIC = "music"
   val MUSICPAGE = "musicpage"
   val NAVIGATION = "navigation"
-  val NEWS = "news"
   val NPAGE = "npage" // TODO: remove
   val ROLE = "role"
   val SITE = "site"

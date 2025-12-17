@@ -29,7 +29,6 @@ case class SiteBuilder(
     attributesBuilder: DatumAttributesBuilderImpl = DatumAttributesBuilderImpl(),
     navigation: Option[d.Navigation] = None,
     band: Option[d.Band] = None,
-    news: Option[List[d.BandNews]] = None,
 ) extends DatumBuilder[d.Site, SiteBuilder] {
 
   override def copyWithAttributesBuilder(attributesBuilder: DatumAttributesBuilderImpl) =
@@ -44,7 +43,6 @@ case class SiteBuilder(
     for {
       navigation <- checkDefined(NAVIGATION, navigation)
       band <- checkDefined(BAND, band)
-      news <- checkDefined(NEWS, news)
       attributes <- attributesBuilder.get()
     } yield {
       d.Site(
@@ -53,7 +51,6 @@ case class SiteBuilder(
         band,
         Nil,
         Nil,
-        news,
       )
     }
   }
@@ -75,11 +72,6 @@ object SiteDecoder extends YamlObjectDecoder[d.Site, SiteBuilder, FrDecoders] {
         BandDecoder,
         (b, v) => b.copy(band = v),
       ),
-      YamlObjectAttribute(
-        NEWS,
-        ListDecoder(BandNewsDecoder),
-        (b, v) => b.copy(news = v),
-      ),
     )
 
   override def zero(): SiteBuilder = SiteBuilder()
@@ -90,62 +82,6 @@ object SiteIdDecoder extends FromStringDecoder[GenId[?], FrDecoders] {
 
   override def fromString(s: String): GenId[?] =
     GenId(SITE, s)
-
-}
-
-case class BandNewsBuilder(
-    title: Option[String] = None,
-    content: Option[List[String]] = None,
-    url: Option[String] = None,
-    errors: Seq[BaseError] = Seq(),
-) extends ObjectBuilder[d.BandNews, BandNewsBuilder, FrDecoders] {
-
-  import ObjectBuilder.*
-
-  override def setErrors(errs: Seq[BaseError]): BandNewsBuilder = copy(errors = errors :++ errs)
-
-  override protected def build(using
-      context: DecoderContext[FrDecoders],
-      range: Option[org.virtuslab.yaml.Range],
-  ): Either[Seq[ParserError], d.BandNews] = {
-    for {
-      title <- checkDefined(TITLE, title)
-      content <- checkDefined(CONTENT, content)
-      url <- checkDefined(URL, url)
-    } yield {
-      d.BandNews(
-        title,
-        content,
-        url,
-      )
-    }
-  }
-}
-
-object BandNewsDecoder extends YamlObjectDecoder[d.BandNews, BandNewsBuilder, FrDecoders] {
-
-  override def attributes(using
-      context: DecoderContext[FrDecoders]
-  ): Seq[YamlObjectAttributeProcessor[d.BandNews, BandNewsBuilder, FrDecoders]] =
-    Seq(
-      YamlObjectAttribute(
-        TITLE,
-        StringDecoder(),
-        (b, v) => b.copy(title = v),
-      ),
-      YamlObjectAttribute(
-        CONTENT,
-        ListDecoder(StringDecoder()),
-        (b, v) => b.copy(content = v),
-      ),
-      YamlObjectAttribute(
-        URL,
-        StringDecoder(),
-        (b, v) => b.copy(url = v),
-      ),
-    )
-
-  override def zero(): BandNewsBuilder = BandNewsBuilder()
 
 }
 

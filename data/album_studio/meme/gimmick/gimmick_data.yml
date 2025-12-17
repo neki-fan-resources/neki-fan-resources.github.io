@@ -442,21 +442,6 @@
         en:
         - What's real, and what's a lie?
 
-- newsitem:
-    id: release
-    song: gimmick
-    title: GiMMiCK
-    active: true
-    part-of:
-      song: gimmick
-    text:
-    - line:
-      - text: The song "
-      - song: gimmick
-      - text: '" will be release on November 19th, in advance of the album "'
-      - album: meme
-      - text: '"".'
-
 - postinstagram:
     id: DRPixBckmZT
     account: 46_hikaa

@@ -177,25 +177,6 @@
         year: 2025
         id: recommendjunction
 
-- newsitem:
-    id: upcoming
-    show:
-      year: 2025
-      id: recommendjunction
-    title: RECOMMEND JUNCTION
-    active: true
-    part-of:
-      show:
-        year: 2025
-        id: recommendjunction
-    text:
-    - line:
-      - text: "NEK!'s next show will be "
-      - show:
-          year: 2025
-          id: recommendjunction
-      - text: ', on November 06th, at EX THEATER ROPPONGI, Tokyo.'
-
 - postinstagram:
     id: DQt-qyPkhEb
     account: nekiband_jp

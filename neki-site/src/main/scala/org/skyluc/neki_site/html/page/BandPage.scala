@@ -1,6 +1,5 @@
 package org.skyluc.neki_site.html.page
 
-import org.skyluc.fan_resources.data.NewsItem
 import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.html.*
@@ -10,13 +9,11 @@ import org.skyluc.neki_site.data.SocialMedia
 
 import Html.*
 
-class BandPage(site: Site, newsItems: Seq[fr.compileddata.NewsItemCompiledData]) extends MainSitePage {
+class BandPage(site: Site) extends MainSitePage {
 
   import BandPage.*
 
   override val outputPath: Path = Path("index.html")
-
-  override def javascriptFiles(): Seq[Path] = super.javascriptFiles() :+ fr.page.MainSitePage.JAVASCRIPT_NEWS_FILE
 
   override val pageConfiguration: fr.page.MainSitePageConfiguration =
     MainSitePageConfiguration(
@@ -48,17 +45,16 @@ class BandPage(site: Site, newsItems: Seq[fr.compileddata.NewsItemCompiledData])
               ),
               p().appendElements(
                 text(
-                  "Now in their second year, the band has released a second EP, completed a three-cities tour in Japan, and held their first Zepp concert in August at Zepp Shinjuku in Tokyo."
+                  "In their second year, the band has released a second EP, completed a three-cities tour in Japan, and held their first Zepp concert in August at Zepp Shinjuku in Tokyo."
                 )
               ),
               p().appendElements(
                 text(
-                  "NEK! will release their first full album on November 26th, with a nation-wide tour already scheduled for early next year."
+                  "NEK! released their first full album on November 26th, continues to perform at local show, and will go on a nation-wide tour early next year."
                 )
               ),
             ),
-        )
-        .appendElements(fr.component.NewsBlock.generate(newsItems)*),
+        ),
       bandPanel2(),
       div().withClass(CLASS_BAND_SOCIALS).appendElements(socials(site.band.socialMedia)*),
     )
@@ -163,14 +159,8 @@ object BandPage {
 
   def pagesFor(site: Site, generator: fr.compileddata.CompiledDataGenerator): Seq[fr.page.MainSitePage] = {
 
-    val newsItems =
-      generator.getWithPrefix[NewsItem](NewsItem.ID_BASE_PATH).filter(_.active)
-
-    val newsItemCompiledData =
-      newsItems.map(fr.compileddata.RichTextCompiledData.toCompiledData(_, generator)).sortBy(_.element.date)
-
     Seq(
-      BandPage(site, newsItemCompiledData)
+      BandPage(site)
     )
   }
 }

@@ -189,24 +189,6 @@
         year: 2025
         id: buzzrhythmlive
 
-- newsitem:
-    id: upcoming
-    show:
-      year: 2025
-      id: buzzrhythmlive
-    title: BUZZ RHYTHM LIVE
-    part-of:
-      show:
-        year: 2025
-        id: buzzrhythmlive
-    text:
-    - line:
-      - text: "NEK!'s next show will be on the \"BUZZER STAGE\", a satellite event for "
-      - show:
-          year: 2025
-          id: buzzrhythmlive
-      - text: ', on November 02th, at the Yokohama Arena.'
-
 - postinstagram:
     id: DQjAnAEEV-K
     account: nekiband_jp

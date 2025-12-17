@@ -14,42 +14,6 @@
         year: 2025
         id: 1stzepponeman
 
-- newsitem:
-    id: done
-    show:
-      year: 2025
-      id: 1stzepponeman
-    title: NEK! 1ST ZEPP ONE MAN
-    part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
-    text:
-    - line:
-      - text: 'NEK! did their '
-      - show:
-          year: 2025
-          id: 1stzepponeman
-      - text: ' show, on August 30th, at Zepp Shinjuku in Tokyo.'
-    - line:
-      - text: The images and videos shared by the band are available.
-
-- newsitem:
-    id: upcoming
-    show:
-      year: 2025
-      id: 1stzepponeman
-    title: NEK! 1ST ZEPP ONE MAN
-    part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
-    text:
-    - line:
-      - text: NEK! will do their first Zepp show, on August 30th, at Zepp Shinjuku in Tokyo.
-    - line:
-      - text: GA tickets are available !!
-
 - postx:
     id: 1950563193366954288
     account: 46_hikaa

@@ -8,7 +8,6 @@ case class Site(
     band: Band,
     youtubevideo: List[RefMediaIds],
     youtubeshort: List[RefMediaIds],
-    news: Seq[BandNews],
 ) extends Datum[Site]
     with WithProcessor {
   val id = Site.ID
@@ -26,12 +25,6 @@ object Site {
 case class Band(
     member: Members,
     socialMedia: SocialMedia,
-)
-
-case class BandNews(
-    title: String,
-    content: List[String],
-    url: String,
 )
 
 case class Member(

@@ -52,18 +52,6 @@ class DataYamlWriter extends fr.DataYamlWriter with d.Processor[Unit] {
     inList.pop()
   }
 
-  private def processNews(news: Seq[d.BandNews]): Unit = {
-    elementStart(NEWS, true)
-    news.foreach { newsItem =>
-      attributeString(TITLE, newsItem.title)
-      inList.push(false)
-      attributeListString(CONTENT, newsItem.content)
-      attributeString(URL, newsItem.url)
-      inList.pop()
-    }
-    elementEnd
-  }
-
   private def processSocialMedia(socialMedia: d.SocialMedia): Unit = {
     elementStart(SOCIAL_MEDIA)
     attributeString(YOUTUBE, socialMedia.youtube)
@@ -75,7 +63,6 @@ class DataYamlWriter extends fr.DataYamlWriter with d.Processor[Unit] {
 
   override def processSite(site: d.Site): Unit = {
     elementStart(SITE)
-    processNews(site.news)
     processBand(site.band)
     processNavigation(site.navigation)
     attributeListStringOpt(YOUTUBESHORT, Nil)

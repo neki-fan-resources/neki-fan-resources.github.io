@@ -45,19 +45,6 @@
     part-of:
       tour: 2ndanniversarytour
 
-- newsitem:
-    id: upcoming
-    tour: 2ndanniversarytour
-    title: 2ND ANNIVERSARY TOUR
-    active: true
-    part-of:
-      tour: 2ndanniversarytour
-    text:
-    - line:
-      - text: 'NEK! will do their first national tour '
-      - tour: 2ndanniversarytour
-      - text: ' starting in February 2026 in Tokyo.'
-
 - update:
     tour: 2ndanniversarytour
     date: 2025-10-03

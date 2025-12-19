@@ -71,6 +71,48 @@
         year: 2025
         id: lawson2ndanniversary
 
+- postx:
+    id: 2001490241614729575
+    account: l_tike_live
+    label: Give away
+    published-date: 2025-12-18
+    text: |-
+      🌟プレゼントキャンペーン🌟
+      #NEKI
+      サイン入りタオルを
+      3名様にプレゼント🎁
+      
+      🗳️応募方法
+      ①
+      @l_tike_live
+      をフォロー
+      ②この投稿をリポスト
+      締切:12/31(水)まで
+      
+      月刊ローチケ12/15号に🎙️インタビュー掲載🎶
+      🎟️チケット情報はこちら
+      https://l-tike.com/nekiband/
+    translation: |-
+      🌟Giveaway Campaign🌟
+      #NEKI
+      Signed towels
+      for 3 lucky winners🎁
+      
+      🗳️How to Enter
+      ① Follow @l_tike_live
+      ② Repost this post
+      Deadline: Until 12/31(Wed)
+      
+      🎙️Interview featured in Monthly Lawson Ticket 12/15 issue🎶
+      🎟️Click here for ticket information
+      https://l-tike.com/nekiband/
+    image:
+    - G8a4w8UakAMdhJ2
+    part-of:
+      media:
+        year: 2025
+        id: lawson2ndanniversary
+
 - postximage:
     post: 2000438888586965233
     id: G8L71wJa8AAwxNu
@@ -95,4 +137,16 @@
         id: lawson2ndanniversary
     part-of:
       postx: 2000487978238705811
+
+- postximage:
+    post: 2001490241614729575
+    id: G8a4w8UakAMdhJ2
+    label: Give away
+    published-date: 2025-12-18
+    context:
+    - media:
+        year: 2025
+        id: lawson2ndanniversary
+    part-of:
+      postx: 2001490241614729575
 

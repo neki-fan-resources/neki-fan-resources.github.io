@@ -1201,6 +1201,43 @@
         post: 1992086222408454198
         image: G6VP222bAAA436i
 
+- postx:
+    id: 2001567212373717145
+    account: nekiband_jp
+    label: Karaoke Release
+    published-date: 2025-12-18
+    text: |-
+      🎙️カラオケ配信🎙️
+      
+      NEK! 1st アルバム『MEME』から
+      
+      "GiMMiCK"
+      
+      全国のJOYSOUNDにて配信決定🎊
+      
+      本日より順次配信スタート！
+      
+      ぜひアルバムと合わせてカラオケでもお楽しみください💝
+      
+      #NEKI #MEME
+    translation: |-
+      🎙️Karaoke Release🎙️
+      
+      From NEK! 1st Album "MEME"
+      
+      "GiMMiCK"
+      
+      Now available at JOYSOUND nationwide🎊
+      
+      Releases starting sequentially today!
+      
+      Please enjoy it at karaoke along with the album💝
+      
+      #NEKI #MEME
+    todo: remove instagram equivalent image (if better quality)
+    part-of:
+      song: gimmick
+
 - postximage:
     post: 1980973984511557877
     id: G33VVb_WkAEJI_9
@@ -1418,6 +1455,16 @@
     - song: gimmick
     part-of:
       postx: 1992848424241451046
+
+- postximage:
+    post: 2001567212373717145
+    id: G8b-vPFbQAAB7JD
+    label: Behind the scenes
+    published-date: 2025-12-18
+    context:
+    - song: gimmick
+    part-of:
+      postx: 2001567212373717145
 
 - postxvideo:
     post: 1991829736260251688

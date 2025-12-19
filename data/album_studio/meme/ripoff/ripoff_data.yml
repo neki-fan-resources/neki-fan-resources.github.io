@@ -1480,3 +1480,13 @@
     part-of:
       postx: 1957416293554155743
 
+- youtubeshort:
+    id: 0oger2CvQP0
+    label: Rehearsal
+    info: Kanade, Cocoro
+    published-date: 2025-12-18
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+

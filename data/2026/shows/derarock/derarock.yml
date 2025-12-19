@@ -1,0 +1,16 @@
+show:
+  year: 2026
+  id: derarock
+  cover-image:
+    postximage:
+      post: 2001932447198642313
+      image: G8hKhnMacAAxzDn
+  fullname: でらロックフェスティバル TOKYO 2026
+  shortname: でらROCK
+  date: 2026-01-18
+  venue: Shimokitazawa, Tokyo
+  event-page: 'https://derarockfes.radcreation.jp/'
+  part-of:
+    group:
+      id: shows
+      group: 2026

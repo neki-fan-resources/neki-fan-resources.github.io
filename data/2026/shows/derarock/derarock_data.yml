@@ -1,0 +1,78 @@
+- postx:
+    id: 2001932447198642313
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-12-19
+    text: |-
+      ⚡️情報解禁⚡️
+      
+      1/18(日)開催
+      「でらロックフェスティバル TOKYO 2026」
+      📍下北沢ライブハウス6会場
+      
+      #でらロック 東京編にNEK!の出演が決定🔥
+      
+      ▼チケット一般発売中🎫
+      https://w.pia.jp/t/derarockfes2026/
+      
+      #NEKI 
+      @derarockfes
+    translation: |-
+      ⚡️Information Reveal⚡️
+      
+      Held on 1/18 (Sun)
+      "Dera Rock Festival TOKYO 2026"
+      📍6 venues in Shimokitazawa Live House
+      
+      NEK! is confirmed to perform at #DeraRock Tokyo Edition🔥
+      
+      ▼Tickets now on general sale🎫
+      https://w.pia.jp/t/derarockfes2026/
+      
+      #NEKI 
+      @derarockfes
+    image:
+    - G8hKhnMacAAxzDn
+    - G8hKjQOakAADur3
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- postximage:
+    post: 2001932447198642313
+    id: G8hKhnMacAAxzDn
+    label: Poster
+    published-date: 2025-12-19
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2001932447198642313
+
+- postximage:
+    post: 2001932447198642313
+    id: G8hKjQOakAADur3
+    label: Lineup
+    published-date: 2025-12-19
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2001932447198642313
+
+- update:
+    show:
+      year: 2026
+      id: derarock
+    date: 2025-12-19
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+

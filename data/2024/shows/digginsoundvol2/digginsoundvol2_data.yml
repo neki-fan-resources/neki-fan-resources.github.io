@@ -1,4 +1,36 @@
 - postx:
+    id: 1851187227730358585
+    account: bazoo_official
+    label: Video comment
+    published-date: 2024-10-29
+    text: |-
+      【#ディグサ 出演者コメント動画🎥】
+       11.27(水)『Diggin’ Sound Vol.2』 
+      下北沢 近道 
+      
+      NEK!からコメント動画到着しました☺
+      今年ネットから生まれた話題の“スラングロックバンド”
+      が意気込みを語ってくれています🎸
+      
+      @nekiband_jp
+    translation: |-
+      【#Digsa Performer Comment Video🎥】
+       11.27(Wed) "Diggin’ Sound Vol.2"
+      Shimokitazawa Chikamichi
+      
+      A comment video has arrived from NEK!☺
+      The trending "Slang Rock Band" born from the internet this year
+      tells us about their enthusiasm🎸
+      
+      @nekiband_jp
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2024
+        id: digginsoundvol2
+
+- postx:
     id: 1856985434020061342
     account: bazoo_official
     label: presentation
@@ -43,6 +75,19 @@
         id: digginsoundvol2
     part-of:
       postx: 1856985434020061342
+
+- postxvideo:
+    post: 1851187227730358585
+    id: 01
+    label: Band presentaiton
+    published-date: 2024-10-29
+    cover: 1848915186138419202/pu/img/Pbg-xEml4-zgQG76.jpg
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      postx: 1851187227730358585
 
 - postxvideo:
     post: 1856985434020061342

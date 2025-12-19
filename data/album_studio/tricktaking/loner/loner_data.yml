@@ -172,6 +172,38 @@
         en:
         - I hope this kind of loneliness reaches that girl. (We are always looking for love.)
 
+- postx:
+    id: 1849313941895381437
+    account: coco_102
+    label: Loner on stage
+    published-date: 2024-10-24
+    text: |-
+      Lonerのギターソロ辺り最高にアツい🔥
+      
+      (6日までライブないからここで参戦気分味わってくだされ🥲)
+    translation: |-
+      The guitar solo part of Loner is incredibly hot🔥
+      
+      (Since there are no lives until the 6th, please enjoy the feeling of being at a show here🥲)
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1849313941895381437
+        video: 01
+
+- postxvideo:
+    post: 1849313941895381437
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2024-10-24
+    cover: 1849313871133388800/pu/img/5CkA0YrQe-SDDc04.jpg
+    context:
+    - song: loner
+    part-of:
+      song: loner
+
 - postyoutube:
     id: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
     account: neki_official

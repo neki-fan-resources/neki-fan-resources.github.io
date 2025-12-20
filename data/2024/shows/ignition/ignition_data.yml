@@ -1,7 +1,7 @@
 - postx:
     id: 1854050886647173628
     account: CLUB251official
-    label: today
+    label: Today
     published-date: 2024-11-06
     text: |-
       本日の251は…
@@ -21,8 +21,58 @@
       ご安全に〜！
       
       by 仁侠
+    translation: |-
+      Today at 251...
+      
+      251 presents Ignition!!!
+      〜Special Two Man Show〜
+      act/
+      Bray me
+      NEK!
+      OPEN 19:30 / START 20:00
+      Door ¥4,500 + 1D
+      
+      That's all!
+      Bray me's two-man series that exploded this year!
+      The last partner of the year is the rapidly rising NEK!
+      A few door tickets will be available!
+      Stay safe~!
+      
+      by Ninkyo
     image:
     - GbroRIOa8AAzJCY
+    part-of:
+      show:
+        year: 2024
+        id: ignition
+
+- postx:
+    id: 1854174702820007947
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-11-06
+    text: |-
+      251 presents Ignition!!!
+      〜 Special Two Man Show 〜
+      @ 下北沢CLUB251
+      
+      #Brayme さんとのツーマン❗️❗️
+      ありがとうございました🫶
+      
+      #NEKI
+    translation: |-
+      251 presents Ignition!!!
+      〜 Special Two Man Show 〜
+      @ Shimokitazawa CLUB251
+      
+      Two-man show with #Brayme ❗️❗️
+      Thank you so much🫶
+      
+      #NEK!
+    image:
+    - GbtaEEGbgAA4158
+    - GbtaEEHbAAA6VzN
+    todo: board image
     part-of:
       show:
         year: 2024
@@ -40,4 +90,28 @@
         id: ignition
     part-of:
       postx: 1854050886647173628
+
+- postximage:
+    post: 1854174702820007947
+    id: GbtaEEGbgAA4158
+    label: On stage
+    published-date: 2024-11-06
+    context:
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      postx: 1854174702820007947
+
+- postximage:
+    post: 1854174702820007947
+    id: GbtaEEHbAAA6VzN
+    label: On stage
+    published-date: 2024-11-06
+    context:
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      postx: 1854174702820007947
 

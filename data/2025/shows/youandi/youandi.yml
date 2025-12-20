@@ -11,3 +11,7 @@ show:
   venue: Shibuya eggman, Tokyo
   event-page: 'http://eggman.jp/schedule/schedule-27265/'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2025/shibuya-eggman-tokyo-japan-35a6d47'
+  part-of:
+    group:
+      id: shows
+      group: 2025

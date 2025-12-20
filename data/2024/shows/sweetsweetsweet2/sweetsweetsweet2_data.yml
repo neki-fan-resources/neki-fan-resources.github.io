@@ -1,7 +1,7 @@
 - postx:
     id: 1854440185460879405
     account: shelter_1001
-    label: today
+    label: Today
     published-date: 2024-11-07
     text: |-
       【本日！🍹】
@@ -16,6 +16,19 @@
       OPEN 19:00 / START 19:30
       当日券(¥2,900+1 drink)は開場後に販売します！注目女性アーティスト目白押し✨
       是非っ
+    translation: |-
+      【Today!🍹】
+      11/7(Thu)
+      “Sweet!Sweet!Sweet! “
+      
+      EMNW
+      Jam to Highball
+      NEK!
+      Chanyu-i
+      
+      OPEN 19:00 / START 19:30
+      Door tickets (¥2,900 + 1 drink) will be sold after opening! A line-up of must-see female artists✨
+      Please come check it out
     image:
     - GbxLhFfbIAA1wRw
     part-of:

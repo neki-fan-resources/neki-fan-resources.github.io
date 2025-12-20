@@ -16,3 +16,7 @@ tour:
   - year: 2025
     id: tricktakingtourtokyo
   event-page: 'https://note.com/nekiband_jp/n/n41466bbb690c'
+  part-of:
+    group:
+      id: shows
+      group: 2025

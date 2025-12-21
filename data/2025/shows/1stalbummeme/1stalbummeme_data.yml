@@ -131,6 +131,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: _h4lqFr9oZ8
                 - youtubeshort: Dl778ia4NYU
                 - youtubeshort: HL0ubCAb9Ek
                 - youtubeshort: FoofEnRp8NI
@@ -1207,6 +1208,18 @@
         year: 2025
         id: 1stalbummeme
 
+- update:
+    show:
+      year: 2025
+      id: 1stalbummeme
+    date: 2025-12-21
+    text:
+    - Short video of Tic Tac Toe
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
 - youtubeshort:
     id: Dl778ia4NYU
     label: On stage
@@ -1244,6 +1257,21 @@
     published-date: 2025-12-05
     context:
     - song: scrapbook
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: _h4lqFr9oZ8
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-20
+    context:
+    - song: tictactoe
     - show:
         year: 2025
         id: 1stalbummeme

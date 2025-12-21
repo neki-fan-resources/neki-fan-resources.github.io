@@ -6,6 +6,8 @@ event:
       id: nekilogo
   label: 1 year anniversary
   date: 2025-02-10
+  part-of:
+    group: 2025
   multimedia:
     short:
     - youtubeshort: WI3yV-zKqMU

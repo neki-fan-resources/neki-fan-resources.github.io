@@ -375,6 +375,102 @@
     part-of:
       song: getover
 
+- postx:
+    id: 2003059716516352264
+    account: nekiband_jp
+    label: 500k views
+    published-date: 2025-12-22
+    text: |-
+      💥 500,000+ views💥
+      
+      "Get Over"
+      Official Music Video
+      
+      MVが50万回再生を突破‼️
+      
+      NEK!の始まりの曲をたくさん愛していただきありがとうございます💖
+      
+      これからもよろしくお願いします🫶✨
+      
+      https://youtu.be/TWbLqba3oag
+      
+      #NEKI #GetOver
+    translation: |-
+      💥 500,000+ views💥
+      
+      "Get Over"
+      Official Music Video
+      
+      The MV has surpassed 500,000 views‼️
+      
+      Thank you for giving so much love to NEK!'s first song💖
+      
+      We look forward to your continued support🫶✨
+      
+      https://youtu.be/TWbLqba3oag
+      
+      #NEKI #GetOver
+    part-of:
+      song: getover
+
+- postx:
+    id: 2003117289814835576
+    account: coco_102
+    label: 500k views
+    published-date: 2025-12-22
+    text: |-
+      Get Over Official Music Video 50万回再生突破！！
+      たくさん観てくれてありがとうございます🙂‍↕️🙏🏻❤️‍🔥
+      
+      昨年の5月、NEK!はここから始まった！！産声がわりのこの楽曲をこれからも愛してください👶🏻🍼
+      
+      #NEKI #GetOver
+    translation: |-
+      Get Over Official Music Video has surpassed 500,000 views!!
+      Thank you so much for watching it a lot🙂‍↕️🙏🏻❤️‍🔥
+      
+      Last May, NEK! started from here!! Please continue to love this song, which served as our first cry👶🏻🍼
+      
+      #NEKI #GetOver
+    part-of:
+      postx: 2003059716516352264
+
+- postx:
+    id: 2003122686164451580
+    account: natsu08_guitar
+    label: 500k views
+    published-date: 2025-12-22
+    text: |-
+      「Get Over」50万回再生突破💥
+      みなさんのおかげです…！！
+      本当にありがとうございます🙇🤍
+      
+      NEK!にとって始まりの曲！！
+      大切なこの曲が50万回再生突破ということで、、ひたすら嬉しいです！！
+      今後ともGet Overを愛してくださると嬉しいです♡
+    translation: |-
+      "Get Over" has surpassed 500,000 views💥
+      It's all thanks to everyone...!!
+      Thank you so much🙇🤍
+      
+      The starting song for NEK! !!
+      This precious song has surpassed 500,000 views, and I'm just so incredibly happy!!
+      I'd be glad if you continue to love Get Over♡
+    part-of:
+      postx: 2003059716516352264
+
+- postx:
+    id: 2003125205439549880
+    account: natsu08_guitar
+    label: Old hair color and hairstyle
+    published-date: 2025-12-22
+    text: |-
+      懐かしい髪色と髪型だなぁ
+    translation: |-
+      What a nostalgic hair color and hairstyle
+    part-of:
+      postx: 2003122686164451580
+
 - postximage:
     post: 1918636722516373576
     id: GqBc0HhbYAA2VDy
@@ -387,6 +483,38 @@
         id: debutyearlastlive
     part-of:
       postx: 1918636722516373576
+
+- postximage:
+    post: 2003059716516352264
+    id: G8xML__bAAAxWn2
+    label: 500k views
+    published-date: 2025-12-22
+    context:
+    - song: getover
+    part-of:
+      postx: 2003059716516352264
+
+- postximage:
+    post: 2003059716516352264
+    id: G8xMMAIaEAA30yU
+    label: Band
+    published-date: 2025-12-22
+    context:
+    - song: getover
+    todo: check if taken during MV filming
+    part-of:
+      postx: 2003059716516352264
+
+- postximage:
+    post: 2003125205439549880
+    id: G8yHwK9bIAM0YXL
+    label: Natsu
+    published-date: 2025-12-22
+    context:
+    - song: getover
+    todo: check if from the MV BtS
+    part-of:
+      postx: 2003125205439549880
 
 - postxvideo:
     post: 1756877181698154611
@@ -471,6 +599,21 @@
     - song: getover
     part-of:
       postx: 1958382817307750717
+
+- postxvideo:
+    post: 2003117289814835576
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-22
+    cover: 2003116833717751808/img/yywQWKYttIULsXpN.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 2003117289814835576
 
 - postyoutube:
     id: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X

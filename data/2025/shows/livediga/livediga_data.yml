@@ -40,6 +40,48 @@
         year: 2025
         id: livediga
 
+- postx:
+    id: 2003303427045290087
+    account: nekiband_jp
+    label: Schedule
+    published-date: 2025-12-23
+    text: |-
+      📣タイムテーブル公開📣
+      
+      12/30(火)出演
+      「LIVE DI:GA JUDGEMENT 2025」
+      
+      📍TAKE OFF 7
+      ⏰19:20~
+      
+      年末ライブ！
+      ご来場お待ちしております⚡️
+      
+      🔗https://livedigajudgement.net/2025/
+      
+      #NEKI #LDJ #ジャッジメント
+      @livediga
+    translation: |-
+      📣 Timetable Released 📣
+      
+      Performing on 12/30 (Tue)
+      "LIVE DI:GA JUDGEMENT 2025"
+      
+      📍 TAKE OFF 7
+      ⏰ 19:20~
+      
+      Year-end live!
+      We look forward to seeing you there⚡️
+      
+      🔗 https://livedigajudgement.net/2025/
+      
+      #NEKI #LDJ #Judgement
+      @livediga
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+
 - postximage:
     post: 1996867357894234264
     id: G7ZMO7FaYAAnEmW
@@ -48,6 +90,30 @@
     local-copy: true
     part-of:
       postx: 1996867357894234264
+
+- postximage:
+    post: 2003303427045290087
+    id: G80pw0Pb0AApOBd
+    label: Schedule
+    published-date: 2025-12-23
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postx: 2003303427045290087
+
+- postximage:
+    post: 2003303427045290087
+    id: G80pybgbkAAkv2c
+    label: Lineup
+    published-date: 2025-12-23
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postx: 2003303427045290087
 
 - update:
     show:

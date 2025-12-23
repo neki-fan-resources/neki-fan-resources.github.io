@@ -13,6 +13,9 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 2003117289814835576
+                    video: 01
+                - postxvideo:
                     post: 2001242203549786245
                     video: 01
                 - postxvideo:
@@ -1215,6 +1218,18 @@
     date: 2025-12-21
     text:
     - Short video of Tic Tac Toe
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- update:
+    show:
+      year: 2025
+      id: 1stalbummeme
+    date: 2025-12-22
+    text:
+    - Cocoro-cam on Get Over
     part-of:
       show:
         year: 2025

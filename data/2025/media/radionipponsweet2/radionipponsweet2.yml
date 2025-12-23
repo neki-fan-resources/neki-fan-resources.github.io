@@ -1,0 +1,22 @@
+mediaaudio:
+  year: 2025
+  id: radionippon-sweet2
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: radionippon-sweet
+      id: cover
+  radio: ラジオ日本 (Radio Nippon)
+  show: SWEET!!
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-12-24
+  host: 瀬名葉月 (Hazuki Sena), 三遊亭楽生 (Rakusei Sanyutei)
+  webpage: 'https://www.jorf.co.jp/?program=sw'
+  part-of:
+    group:
+      id: media
+      group: 2025

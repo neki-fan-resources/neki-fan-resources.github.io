@@ -1,11 +1,135 @@
-update:
-  media:
-    year: 2025
-    id: radionippon-sweet2
-  date: 2025-12-23
-  text:
-  - Added the appearance
-  part-of:
+- postx:
+    id: 2003646737039421647
+    account: sweet924_1422
+    label: Guests
+    published-date: 2025-12-24
+    text: |-
+      【10時台ゲスト】
+      スラングロックバンド"NEK!" ネキ
+      @nekiband_jp
+      
+      Vo/Gt. Hikaさん、Gt. Natsuさん
+      
+      ニューアルバム「MEME」発売中！
+      来年2月から全国１２ヶ所を巡る、
+      NEK!史上最長ツアーも開催されます！
+      #スイート924 #ラジオ日本 #jorf #radiko
+    translation: |-
+      [10:00 AM Guests]
+      Slang Rock Band "NEK!"
+      @nekiband_jp
+      
+      Vo/Gt. Hika-san, Gt. Natsu-san
+      
+      New album "MEME" is now on sale!
+      Starting next February, they will visit 12 locations nationwide
+      for NEK!'s longest tour ever!
+      #スイート924 #RadioNippon #jorf #radiko
+    image:
+    - G85gSJCagAEyQj1
+    part-of:
+      media:
+        year: 2025
+        id: radionippon-sweet2
+
+- postx:
+    id: 2003648916345241997
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-12-24
+    text: |-
+      ラジオ日本「SWEET!!」
+      @sweet924_1422
+       
+      
+      お聴きいただきありがとうございました💖
+      
+      初の全国ツアー🔥
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      ▼チケット受付中🎫
+      https://l-tike.com/nekiband/
+      
+      1st AL『MEME』
+      ▼Streaming&Download🎧
+      https://lnk.to/NEKI_MEME
+      
+      #NEKI #ラジオ日本 #スイート924
+    translation: |-
+      Radio Nippon "SWEET!!"
+      @sweet924_1422
+       
+      
+      Thank you so much for listening💖
+      
+      Our first nationwide tour🔥
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      ▼Tickets now available🎫
+      https://l-tike.com/nekiband/
+      
+      1st AL "MEME"
+      ▼Streaming & Download🎧
+      https://lnk.to/NEKI_MEME
+      
+      #NEKI #RadioNippon #スイート924
+    image:
+    - G85kD4obYAA61eu
+    part-of:
+      media:
+        year: 2025
+        id: radionippon-sweet2
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n3d37c2c897c8
+        id: poster01
+
+- postximage:
+    post: 2003646737039421647
+    id: G85gSJCagAEyQj1
+    label: At the station
+    info: Natsu, 棚橋麻衣, Hika
+    published-date: 2025-12-24
+    context:
+    - media:
+        year: 2025
+        id: radionippon-sweet2
+    part-of:
+      postx: 2003646737039421647
+
+- postximage:
+    post: 2003648916345241997
+    id: G85kD4obYAA61eu
+    label: At the station
+    info: Hika, Natsu
+    published-date: 2025-12-24
+    context:
+    - media:
+        year: 2025
+        id: radionippon-sweet2
+    part-of:
+      postx: 2003648916345241997
+
+- update:
     media:
       year: 2025
       id: radionippon-sweet2
+    date: 2025-12-23
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: radionippon-sweet2
+
+- update:
+    media:
+      year: 2025
+      id: radionippon-sweet2
+    date: 2025-12-24
+    text:
+    - Pictures from the appearance
+    part-of:
+      media:
+        year: 2025
+        id: radionippon-sweet2
+

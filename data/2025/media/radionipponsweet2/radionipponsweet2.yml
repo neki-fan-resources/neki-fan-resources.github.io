@@ -14,9 +14,21 @@ mediaaudio:
   - Hika
   - Natsu
   published-date: 2025-12-24
-  host: 瀬名葉月 (Hazuki Sena), 三遊亭楽生 (Rakusei Sanyutei)
+  host: 棚橋麻衣 (Mai Tanahashi)
   webpage: 'https://www.jorf.co.jp/?program=sw'
   part-of:
     group:
       id: media
       group: 2025
+  multimedia:
+    main:
+      postximage:
+        post: 2003646737039421647
+        image: G85gSJCagAEyQj1
+    image:
+    - postximage:
+        post: 2003646737039421647
+        image: G85gSJCagAEyQj1
+    - postximage:
+        post: 2003648916345241997
+        image: G85kD4obYAA61eu

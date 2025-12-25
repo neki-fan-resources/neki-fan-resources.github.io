@@ -6,11 +6,29 @@
     part-of:
       song: clockup
 
+- update:
+    song: clockup
+    date: 2025-12-25
+    text:
+    - Rhythm section rehearsal video
+    part-of:
+      song: clockup
+
 - youtubeshort:
     id: df7tbLp6n4k
     label: Rehearsal
     info: studio audio
     published-date: 2025-10-27
+    context:
+    - song: clockup
+    part-of:
+      song: clockup
+
+- youtubeshort:
+    id: uT0FJdwTZW0
+    label: Rehearsal
+    info: studio audio
+    published-date: 2025-12-16
     context:
     - song: clockup
     part-of:

@@ -134,6 +134,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: jjYDQhDteIg
                 - youtubeshort: _h4lqFr9oZ8
                 - youtubeshort: Dl778ia4NYU
                 - youtubeshort: HL0ubCAb9Ek
@@ -1305,6 +1306,21 @@
         year: 2025
         id: 1stalbummeme
     - song: gimmick
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: jjYDQhDteIg
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-24
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: 1stalbummeme
     part-of:
       show:
         year: 2025

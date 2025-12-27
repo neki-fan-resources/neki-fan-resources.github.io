@@ -1434,6 +1434,7 @@
     published-date: 2025-02-18
     context:
     - song: zerosum
+    todo: From the MV set, not directly from the MV
     part-of:
       song: zerosum
 
@@ -1453,6 +1454,7 @@
     published-date: 2025-02-14
     context:
     - song: zerosum
+    todo: replace with video from X
     part-of:
       song: zerosum
 

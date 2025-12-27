@@ -1,7 +1,7 @@
 - postx:
     id: 1892129493306810798
     account: shibuya_eggman
-    label: today
+    label: Today
     published-date: 2025-02-19
     text: |-
       🎸本日🎸
@@ -18,6 +18,21 @@
       DOOR ￥3,400+1D
       
       ご来場お待ちしております！
+    translation: |-
+      🎸Today🎸
+      
+      Girl's UP!!! vol.375
+      〜Three-Man Special〜
+      
+      LUMiRiSE
+      BONE DAWN
+      NEK!
+      
+      OPEN 18:15
+      START 18:45
+      DOOR ¥3,400+1D
+      
+      We look forward to seeing you there!
     image:
     - GkIw1_zaAAA0kCd
     part-of:

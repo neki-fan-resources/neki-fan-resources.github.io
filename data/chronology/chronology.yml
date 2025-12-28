@@ -32,6 +32,9 @@ contentpage:
   - videomedia
   - writtenmedia
   content:
+  - media:
+      year: 2025
+      id: fmyokohamatresen
   - show:
       year: 2026
       id: 2ndtokyo2

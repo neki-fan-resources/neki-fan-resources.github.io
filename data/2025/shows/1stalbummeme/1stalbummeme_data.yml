@@ -134,6 +134,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: wSWAMOCQ_pI
                 - youtubeshort: jjYDQhDteIg
                 - youtubeshort: _h4lqFr9oZ8
                 - youtubeshort: Dl778ia4NYU
@@ -1347,6 +1348,21 @@
     published-date: 2025-11-30
     context:
     - song: tictactoe
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: wSWAMOCQ_pI
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-27
+    context:
+    - song: clockup
     - show:
         year: 2025
         id: 1stalbummeme

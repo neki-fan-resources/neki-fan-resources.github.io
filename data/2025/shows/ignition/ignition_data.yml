@@ -75,6 +75,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: dompps9gFj4
                 - youtubeshort: HoKEGiLelNA
         - basicsection:
             label: More from the event
@@ -679,6 +680,21 @@
     - show:
         year: 2025
         id: ignition
+    part-of:
+      show:
+        year: 2025
+        id: ignition
+
+- youtubeshort:
+    id: dompps9gFj4
+    label: On stage
+    info: studio audio
+    published-date: 2025-12-25
+    context:
+    - show:
+        year: 2025
+        id: ignition
+    - song: maze
     part-of:
       show:
         year: 2025

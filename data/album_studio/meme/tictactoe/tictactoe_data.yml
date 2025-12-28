@@ -7,6 +7,16 @@
       song: tictactoe
 
 - youtubeshort:
+    id: K86MAnRQpXQ
+    label: Drums only
+    info: cocoro
+    published-date: 2025-12-26
+    context:
+    - song: tictactoe
+    part-of:
+      song: tictactoe
+
+- youtubeshort:
     id: sSuHiv9vB6Q
     label: Rehearsal
     info: studio audio

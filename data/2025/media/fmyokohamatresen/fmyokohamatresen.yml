@@ -1,0 +1,24 @@
+mediaaudio:
+  year: 2025
+  id: fmyokohamatresen
+  cover-image:
+    webimage:
+      domain: fmyokohama.jp
+      page: tresen
+      id: flyer
+  radio: Fm yokohama
+  show: Tresen
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2025-12-31
+  host: 植松哲平 (Teppei Uematsu), 平沢あくび (Hirasawa Akubi)
+  program: 'https://tresen.fmyokohama.jp/47439/'
+  webpage: 'https://tresen.fmyokohama.jp/'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  description:
+  - Hika and Natsu will appear live on the Fm yokohama show "Tresen".

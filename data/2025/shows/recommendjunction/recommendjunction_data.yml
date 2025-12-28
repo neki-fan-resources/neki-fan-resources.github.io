@@ -675,6 +675,48 @@
         post: 1987453821082304748
         video: 01
 
+- postx:
+    id: 2004236824873783710
+    account: nekiband_jp
+    label: Thank you for watching
+    published-date: 2025-12-25
+    text: |-
+      テレビ朝日「リコメンズ」
+      
+      ご視聴ありがとうございました📺
+      ※BS朝日では12/28(日)26時より放送！
+      
+      NEK!は来年2月から初の全国ツアーを開催します🔥
+      
+      全国各地でお待ちしております🌏
+      
+      🎫現在チケット受付中▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #リコメンズ
+    translation: |-
+      TV Asahi "Recommends"
+      
+      Thank you for watching📺
+      *Broadcasting on BS Asahi from 26:00 on 12/28 (Sun)!
+      
+      NEK! will hold their first nationwide tour starting next February🔥
+      
+      We’ll be waiting for you all over the country🌏
+      
+      🎫Tickets currently available▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #Recommends
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+    reference:
+    - postximage:
+        post: 1986431090874306723
+        image: G5E4XdZbIAEtzpg
+
 - postximage:
     post: 1986431090874306723
     id: G5E4XdZbIAEtzpg
@@ -865,6 +907,18 @@
         id: recommendjunction
     part-of:
       postx: 1986661560945942557
+
+- postximage:
+    post: 2004236824873783710
+    id: G9B6wuBaUAAvvwl
+    label: TV show
+    published-date: 2025-12-25
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postx: 2004236824873783710
 
 - postxvideo:
     post: 1987453821082304748

@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2025
+      id: fmyokohamatresen
+    date: 2025-12-28
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamatresen
+
+- webimage:
+    domain: fmyokohama.jp
+    page: tresen
+    id: flyer
+    label: Flyer
+    published-date: 2025-12-28
+    url: 'https://tresen.fmyokohama.jp/wpct/wp-content/themes/tresen2017/images/ogplogo.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmyokohama.jp
+        id: tresen
+
+- webpage:
+    domain: fmyokohama.jp
+    id: tresen
+    label: Tresen homepage
+    published-date: 2025-12-28
+    url: 'https://tresen.fmyokohama.jp/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamatresen
+

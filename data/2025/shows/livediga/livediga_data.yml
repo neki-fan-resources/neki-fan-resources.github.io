@@ -1,3 +1,49 @@
+- display:
+    show:
+      year: 2025
+      id: livediga
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2006004818280952078
+                    image: G9bCv4nbMAA0Fl9
+                - postximage:
+                    post: 2005969008470954167
+                    image: G9aiLL9bcAAeMsr
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2006011375294775688
+                    image: G9bIr3vaYAEXH1A
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2006024061676028190
+                    image: G9bUQA-bIAAVLWr
+                - postximage:
+                    post: 2006007521472045524
+                    image: G9bFM8IakAAIitJ
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2005966499958382930
+                    image: G9af4zab0AA2lgk
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+
 - postx:
     id: 1996867357894234264
     account: livediga
@@ -82,6 +128,188 @@
         year: 2025
         id: livediga
 
+- postx:
+    id: 2005966499958382930
+    account: livediga
+    label: Message from NEK!
+    published-date: 2025-12-30
+    text: |-
+      2025.12.30（Tue）
+      『LIVE DI:GA JUDGMENT 2025』 
+      
+      TAKE OFF 7の4組目
+      【NEK!】よりメッセージを頂きました⸜🌷︎⸝‍
+      
+      ーーーーーーーーーーーー
+      
+      2026年もさらに高く飛び上がります！！！！
+      
+      ーーーーーーーーーーーー
+      
+       #NEK! 
+       #LDJ #ジャッジメント
+    translation: |-
+      2025.12.30（Tue）
+      『LIVE DI:GA JUDGMENT 2025』 
+      
+      We received a message from the 4th act at TAKE OFF 7,
+      【NEK!】⸜🌷︎⸝‍
+      
+      ーーーーーーーーーーーー
+      
+      We're going to leap even higher in 2026!!!!
+      
+      ーーーーーーーーーーーー
+      
+       #NEK! 
+       #LDJ #Judgement
+    image:
+    - G9af4zab0AA2lgk
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+
+- postx:
+    id: 2005969008470954167
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-12-30
+    text: |-
+      "LIVE DI:GA JUDGEMENT 2025"
+      📍SHIBUYA TAKE OFF 7
+      
+      2025年ラストライブでした！
+      
+      ご来場いただきありがとうございました🫶✨
+      
+      2026年2月からスタート⚡️
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      ▼現在チケット先行受付中🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #LDJ #ジャッジメント
+      @livediga
+    translation: |-
+      "LIVE DI:GA JUDGEMENT 2025"
+      📍SHIBUYA TAKE OFF 7
+      
+      That was our last live show of 2025!
+      
+      Thank you so much for coming🫶✨
+      
+      Starting from February 2026⚡️
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      ▼Advance tickets now available🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #LDJ #Judgement
+      @livediga
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+    reference:
+    - postximage:
+        post: 2005966499958382930
+        image: G9af4zab0AA2lgk
+
+- postx:
+    id: 2006004818280952078
+    account: 46_hikaa
+    label: Show
+    published-date: 2025-12-30
+    text: |-
+      2025.12.30
+    image:
+    - G9bCv4nbMAA0Fl9
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+
+- postx:
+    id: 2006007521472045524
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-12-30
+    text: |-
+      2025ラストライブ！！
+      
+      みなさんの声にパワーをもらい、最高の年末を過ごせました！！
+      本当にありがとうございました❤️‍🔥
+      これにてNEK!は、今年のライブが全て終了いたしました！！どのライブも全部楽しかった‼️‼️
+      来年もたくさんライブでお会いしましょう〜！良いお年を〜！！！🤍
+    translation: |-
+      2025 last live!!
+      
+      I got so much power from everyone's voices, and was able to spend the best year-end!!
+      Thank you so truly much❤️‍🔥
+      With this, all of NEK!'s live shows for this year have concluded!! Every single show was so much fun‼️‼️
+      Let's meet at many more live shows next year too~! Have a great new year~!!!🤍
+    image:
+    - G9bFM8IakAAIitJ
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+    reference:
+    - postximage:
+        post: 2006004818280952078
+        image: G9bCv4nbMAA0Fl9
+
+- postx:
+    id: 2006011375294775688
+    account: coco_102
+    label: Thank you
+    published-date: 2025-12-30
+    text: |-
+      💜🤍 LIVE DI:GA JUDGEMENT 2025 🤍🩵
+      
+      年内最後のライブでしたが、観に来てくれた皆さんと一緒に最高にアツく楽しくやらせていただきました🔥
+      
+      今年のライブも全部楽しかったなー！
+      どれもこれも応援してくれる皆さんのおかげです！
+      本当にありがとう！！来年もよろしくお願いします🫶🏻
+    translation: |-
+      💜🤍 LIVE DI:GA JUDGEMENT 2025 🤍🩵
+      
+      It was our last live show of the year, but we had an incredibly hot and fun time together with everyone who came to see us🔥
+      
+      Every single live show this year was so much fun!
+      It's all thanks to everyone who supports us!
+      Thank you truly!! Please continue to support us next year too🫶🏻
+    image:
+    - G9bIr3vaYAEXH1A
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+    reference:
+    - postximage:
+        post: 2005966499958382930
+        image: G9af4zab0AA2lgk
+
+- postx:
+    id: 2006024061676028190
+    account: 46_hikaa
+    label: Curled hair and pink Adidas shoes
+    published-date: 2025-12-30
+    text: |-
+      今日のライブは髪巻いて靴は照明で光る
+      ピンクのadidasにしました✌🏻 ̖́-
+    translation: |-
+      I curled my hair for today's live and wore
+      pink Adidas shoes that glow under the lights✌🏻 ̖́-
+    image:
+    - G9bUQA-bIAAVLWr
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+
 - postximage:
     post: 1996867357894234264
     id: G7ZMO7FaYAAnEmW
@@ -115,6 +343,81 @@
     part-of:
       postx: 2003303427045290087
 
+- postximage:
+    post: 2005966499958382930
+    id: G9af4zab0AA2lgk
+    label: Band
+    published-date: 2025-12-30
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postx: 2005966499958382930
+
+- postximage:
+    post: 2005969008470954167
+    id: G9aiLL9bcAAeMsr
+    label: On stage
+    published-date: 2025-12-30
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postx: 2005969008470954167
+
+- postximage:
+    post: 2006004818280952078
+    id: G9bCv4nbMAA0Fl9
+    label: On stage
+    published-date: 2025-12-30
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postx: 2006004818280952078
+
+- postximage:
+    post: 2006007521472045524
+    id: G9bFM8IakAAIitJ
+    label: Backstage
+    info: Natsu
+    published-date: 2025-12-30
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postx: 2006007521472045524
+
+- postximage:
+    post: 2006011375294775688
+    id: G9bIr3vaYAEXH1A
+    label: On stage
+    info: Cocoro
+    published-date: 2025-12-30
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postx: 2006011375294775688
+
+- postximage:
+    post: 2006024061676028190
+    id: G9bUQA-bIAAVLWr
+    label: Backstage
+    info: Hika
+    published-date: 2025-12-30
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postx: 2006024061676028190
+
 - update:
     show:
       year: 2025
@@ -122,6 +425,18 @@
     date: 2025-12-16
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+
+- update:
+    show:
+      year: 2025
+      id: livediga
+    date: 2025-12-30
+    text:
+    - Added the first images from the show
     part-of:
       show:
         year: 2025

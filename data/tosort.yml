@@ -1,3 +1,14 @@
-group:
-  id: tosort
-  label: To sort
+- group:
+    id: tosort
+    label: To sort
+
+- youtubeshort:
+    id: 70vdgE0Plro
+    label: 2025 MV summary
+    published-date: 2025-12-30
+    context:
+    - song: zerosum
+    todo: where to put it
+    part-of:
+      group: tosort
+

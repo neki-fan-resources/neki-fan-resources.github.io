@@ -100,10 +100,28 @@
         - Jump
 
 - youtubeshort:
+    id: 5kzh2H9res4
+    label: MV teaser
+    published-date: 2025-12-30
+    context:
+    - song: jumping
+    part-of:
+      song: jumping
+
+- youtubeshort:
     id: tPDwvM6mu14
     label: Rehearsal
     info: studio audio
     published-date: 2025-11-20
+    context:
+    - song: jumping
+    part-of:
+      song: jumping
+
+- youtubevideo:
+    id: EUuiBgbxtZI
+    label: Official Music Video
+    published-date: 2026-01-01
     context:
     - song: jumping
     part-of:

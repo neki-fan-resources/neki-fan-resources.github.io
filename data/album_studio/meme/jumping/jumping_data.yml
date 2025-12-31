@@ -118,12 +118,3 @@
     part-of:
       song: jumping
 
-- youtubevideo:
-    id: EUuiBgbxtZI
-    label: Official Music Video
-    published-date: 2026-01-01
-    context:
-    - song: jumping
-    part-of:
-      song: jumping
-

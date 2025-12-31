@@ -1,0 +1,13 @@
+multimedia-event:
+  id: gimmickmv
+  cover-image:
+    localimage:
+      multimedia-event: gimmickmv
+      id: mvcover
+  youtubevideo: js9WXQHa5J0
+  parent:
+    song: gimmick
+  categories:
+  - video
+  part-of:
+    youtubevideo: js9WXQHa5J0

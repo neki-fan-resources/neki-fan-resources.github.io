@@ -1,0 +1,10 @@
+localimage:
+  multimedia-event: jumpingmv
+  id: mvcover
+  label: MV cover
+  published-date: 2026-01-01
+  source:
+    description: YouTube video
+    url: 'https://www.youtube.com/watch?v=EUuiBgbxtZI'
+  part-of:
+    multimedia-event: jumpingmv

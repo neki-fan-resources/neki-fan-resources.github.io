@@ -78,6 +78,7 @@ contentpage:
   - show:
       year: 2026
       id: guvol395
+  - multimedia-event: jumpingmv
   - show:
       year: 2025
       id: livediga
@@ -134,6 +135,7 @@ contentpage:
   - media:
       year: 2025
       id: fm802802palette
+  - multimedia-event: gimmickmv
   - song: gimmick
   - media:
       year: 2025

@@ -1,0 +1,10 @@
+localimage:
+  multimedia-event: gimmickmv
+  id: mvcover
+  label: MV cover
+  published-date: 2025-11-21
+  source:
+    description: YouTube video
+    url: 'https://www.youtube.com/watch?v=js9WXQHa5J0'
+  part-of:
+    multimedia-event: gimmickmv

@@ -617,6 +617,36 @@
     part-of:
       song: gimmick
 
+- postx:
+    id: 2006227983917539641
+    account: nekiband_jp
+    label: 100k views
+    published-date: 2025-12-31
+    text: |-
+      💥100K+ OVER💥
+      
+      NEK! – GiMMiCK
+      Official Music Video
+      
+      thank you 🎥✨
+      
+      ▶︎ http://youtu.be/js9WXQHa5J0
+      
+      #NEKI #MEME
+    translation: |-
+      💥100K+ OVER💥
+      
+      NEK! – GiMMiCK
+      Official Music Video
+      
+      Thank you 🎥✨
+      
+      ▶︎ http://youtu.be/js9WXQHa5J0
+      
+      #NEKI #MEME
+    part-of:
+      song: gimmick
+
 - postximage:
     post: 1980973984511557877
     id: G33VVb_WkAEJI_9
@@ -695,6 +725,16 @@
     - song: gimmick
     part-of:
       postx: 2001567212373717145
+
+- postximage:
+    post: 2006227983917539641
+    id: G9eNtcoaEAA6OmR
+    label: 100k views
+    published-date: 2025-12-31
+    context:
+    - song: gimmick
+    part-of:
+      postx: 2006227983917539641
 
 - update:
     song: gimmick

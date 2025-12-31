@@ -39,6 +39,48 @@
         year: 2026
         id: derarock
 
+- postx:
+    id: 2006193330703450433
+    account: nekiband_jp
+    label: Schedule
+    published-date: 2025-12-31
+    text: |-
+      ⚡️タイムテーブル公開⚡️
+      
+      1/18(日)開催
+      「でらロックフェスティバル TOKYO 2026」
+      
+      📍下北沢MOSAiC
+      ⏰20:15-20:45
+      
+      出演させていただきます🔥
+      
+      ▼チケット一般発売中🎫
+      https://w.pia.jp/t/derarockfes2026/
+      
+      #NEKI #でらロック
+      @derarockfes
+    translation: |-
+      ⚡️Timetable Released⚡️
+      
+      To be held 1/18 (Sun)
+      "Derarock Festival TOKYO 2026"
+      
+      📍Shimokitazawa MOSAiC
+      ⏰20:15-20:45
+      
+      We will be performing🔥
+      
+      ▼Tickets on general sale now🎫
+      https://w.pia.jp/t/derarockfes2026/
+      
+      #NEKI #Derarock
+      @derarockfes
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
 - postximage:
     post: 2001932447198642313
     id: G8hKhnMacAAxzDn
@@ -63,6 +105,30 @@
         id: derarock
     part-of:
       postx: 2001932447198642313
+
+- postximage:
+    post: 2006193330703450433
+    id: G9duMMKaYAEQfG6
+    label: Schedule
+    published-date: 2025-12-31
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2006193330703450433
+
+- postximage:
+    post: 2006193330703450433
+    id: G9duMMKbsAAkU6E
+    label: Lineup
+    published-date: 2025-12-31
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2006193330703450433
 
 - update:
     show:

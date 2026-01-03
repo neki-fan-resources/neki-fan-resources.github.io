@@ -18,6 +18,54 @@
         id: artist
         group: hika
 
+- postx:
+    id: 2006379318264651995
+    account: 46_hikaa
+    label: Thank you 2025
+    published-date: 2025-12-31
+    text: |-
+      2025もまた1つ大きな夢が叶った年でした。
+      
+      毎年想う。
+      このメンバーに出会えたことも、
+      皆に出会えたことも本当に奇跡。
+      支えてくれる仲間や応援してくれる
+      みんなのおかげで音楽をやれています。
+      
+      本当にありがとう。
+      来年もよろしくお願いします！
+       
+       #neki
+    translation: |-
+      2025 was another year where a big dream came true.
+      
+      I think this every year.
+      The fact that I met these members,
+      and the fact that I met all of you, is truly a miracle.
+      I'm able to do music thanks to my friends who support me
+      and everyone who cheers me on.
+      
+      Thank you so truly much.
+      Please look forward to working with me next year too!
+      
+      #neki
+    part-of:
+      group:
+        id: artist
+        group: hika
+
+- postximage:
+    post: 2006379318264651995
+    id: G9gXWORaAAAsPN8
+    label: Backstage
+    published-date: 2026-12-31
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 2006379318264651995
+
 - postxvideo:
     post: 1996461176130351354
     id: 01

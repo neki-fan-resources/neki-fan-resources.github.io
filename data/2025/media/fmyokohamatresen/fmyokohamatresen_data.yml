@@ -1,3 +1,61 @@
+- postx:
+    id: 2006274379995570280
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-12-31
+    text: |-
+      FMヨコハマ「Tresen」
+      @tresen_Fyoko
+       
+      
+      お聴きいただきありがとうございました💝
+      
+      ▼今夜！2026/1/1(木)0時
+      1st AL『MEME』収録
+      「Jumping」MV公開🎥
+      https://youtu.be/EUuiBgbxtZI
+      
+      ▼全12箇所で開催、初の全国ツアー🔥
+      現在オフィシャル先行(抽選)受付中🎫
+      https://l-tike.com/nekiband/
+      
+      #NEKI #とれせん
+    translation: |-
+      FM Yokohama "Tresen"
+      @tresen_Fyoko
+      
+      Thank you very much for listening💝
+      
+      ▼Tonight! 2026/1/1 (Thu) 0:00
+      From 1st AL "MEME"
+      "Jumping" MV Release🎥
+      https://youtu.be/EUuiBgbxtZI
+      
+      ▼Held at 12 locations total, first national tour🔥
+      Official advance (lottery) reception is now open🎫
+      https://l-tike.com/nekiband/
+      
+      #NEKI #Tresen
+    image:
+    - G9e3pZMaYAIwnKI
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamatresen
+
+- postximage:
+    post: 2006274379995570280
+    id: G9e3pZMaYAIwnKI
+    label: At the station
+    info: Hika, Natsu
+    published-date: 2025-12-31
+    context:
+    - media:
+        year: 2025
+        id: fmyokohamatresen
+    part-of:
+      postx: 2006274379995570280
+
 - update:
     media:
       year: 2025
@@ -23,6 +81,23 @@
         domain: fmyokohama.jp
         id: tresen
 
+- webimage:
+    domain: fmyokohama.jp
+    page: tresen47494
+    id: 01
+    label: At the station
+    info: 植松哲平, Hika, Natsu, 平沢あくび
+    published-date: 2025-12-31
+    url: 'https://tresen.fmyokohama.jp/wpct/wp-content/uploads/2025/12/20251231_164635153-768x432.jpg'
+    context:
+    - media:
+        year: 2025
+        id: fmyokohamatresen
+    part-of:
+      webpage:
+        domain: fmyokohama.jp
+        id: tresen47494
+
 - webpage:
     domain: fmyokohama.jp
     id: tresen
@@ -31,6 +106,19 @@
     url: 'https://tresen.fmyokohama.jp/'
     image:
     - flyer
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamatresen
+
+- webpage:
+    domain: fmyokohama.jp
+    id: tresen47494
+    label: Show summary
+    published-date: 2025-12-31
+    url: 'https://tresen.fmyokohama.jp/47494/'
+    image:
+    - 01
     part-of:
       media:
         year: 2025

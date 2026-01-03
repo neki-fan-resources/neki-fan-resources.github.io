@@ -13,13 +13,16 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
-                    post: 1995852341493596505
-                    video: 01
-                - postxvideo:
                     post: 1996143103410061620
                     video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: 6Af0hgyIm8k
                 - postxvideo:
                     post: 1993273861744578879
+                    video: 01
+                - postxvideo:
+                    post: 1995852341493596505
                     video: 01
         - basicsection:
             label: Live
@@ -647,6 +650,26 @@
     part-of:
       song: gimmick
 
+- postx:
+    id: 2006281030660247686
+    account: coco_102
+    label: 100k views
+    published-date: 2026-01-02
+    text: |-
+      GiMMiCKのMVが10万回再生を突破しました🎉
+      たくさん観ていただきありがとうございます！！
+      みなさんのおかげで今年の最後に嬉しいご報告ができました！！
+      
+      スプレーアートの場面のオフショ載せときます🥁💚
+    translation: |-
+      The MV for GiMMiCK has passed 100,000 views🎉
+      Thank you so much for watching!!
+      Thanks to everyone, I was able to make a happy announcement at the end of the year!!
+      
+      I'm posting an off-shot from the spray art scene🥁💚
+    part-of:
+      postx: 2006227983917539641
+
 - postximage:
     post: 1980973984511557877
     id: G33VVb_WkAEJI_9
@@ -736,6 +759,39 @@
     part-of:
       postx: 2006227983917539641
 
+- postximage:
+    post: 2006281030660247686
+    id: G9e9uq7boAABgyt
+    label: Behind the scenes
+    info: drum set
+    published-date: 2025-12-31
+    context:
+    - song: gimmick
+    part-of:
+      postx: 2006281030660247686
+
+- postximage:
+    post: 2006281030660247686
+    id: G9e9uq9aYAM6OQ3
+    label: Behind the scenes
+    info: drum set
+    published-date: 2025-12-31
+    context:
+    - song: gimmick
+    part-of:
+      postx: 2006281030660247686
+
+- postximage:
+    post: 2006281030660247686
+    id: G9e9urQbkAAKVHq
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-12-31
+    context:
+    - song: gimmick
+    part-of:
+      postx: 2006281030660247686
+
 - update:
     song: gimmick
     date: 2025-11-03
@@ -801,6 +857,15 @@
     part-of:
       song: gimmick
 
+- update:
+    song: gimmick
+    date: 2026-01-03
+    text:
+    - 100k views for the Official Music Video
+    - playthrough from Natsu
+    part-of:
+      song: gimmick
+
 - youtubeshort:
     id: LAjdWGeyfRw
     label: Rehearsal
@@ -825,6 +890,16 @@
     label: Rehearsal
     info: studio audio
     published-date: 2025-11-23
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
+
+- youtubevideo:
+    id: 6Af0hgyIm8k
+    label: Playthrough
+    info: Natsu
+    published-date: 2025-12-31
     context:
     - song: gimmick
     part-of:

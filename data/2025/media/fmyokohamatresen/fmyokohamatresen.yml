@@ -22,3 +22,17 @@ mediaaudio:
       group: 2025
   description:
   - Hika and Natsu will appear live on the Fm yokohama show "Tresen".
+  multimedia:
+    main:
+      webimage:
+        domain: fmyokohama.jp
+        page: tresen47494
+        id: 01
+    image:
+    - postximage:
+        post: 2006274379995570280
+        image: G9e3pZMaYAIwnKI
+    - webimage:
+        domain: fmyokohama.jp
+        page: tresen47494
+        id: 01

@@ -1,3 +1,71 @@
+- display:
+    song: jumping
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: EUuiBgbxtZI
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: ' music video'
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: EUuiBgbxtZI
+        - basicsection:
+            label: Behind the scenes
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2006946474081530286
+                    image: G9obLHSboAAzC4U
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2006382350528377083
+                    image: G9gaHC3aMAAkeRG
+                - postximage:
+                    post: 2006946474081530286
+                    image: G9obLHYaEAE_kFj
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2006386521562361959
+                    image: G9gd5m8aIAAjEW8
+                - postximage:
+                    post: 2006386521562361959
+                    image: G9gd5m4agAAyc4R
+                - postximage:
+                    post: 2006946474081530286
+                    image: G9obLHXaMAYbhwp
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2006384807752946106
+                    image: G9gcVIebgAA457T
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Rehearsal video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: tPDwvM6mu14
+    part-of:
+      song: jumping
+
 - lyrics:
     id: main
     song: jumping
@@ -99,10 +167,266 @@
       - ol:
         - Jump
 
+- postx:
+    id: 2006381637408596400
+    account: nekiband_jp
+    label: MV released
+    published-date: 2026-01-01
+    text: |-
+      🎊🎍Happy New Year 2026🎍🎊
+      
+      NEK! − “Jumping” Official MV
+      OUT NOW ⚡️
+      
+      ▼ Music Video 🎬
+      https://youtu.be/EUuiBgbxtZI
+      
+      ▼ Streaming & Download 🎧
+      https://lnk.to/NEKI_MEME
+      
+      2026年もNEK!とJumping🎉
+      
+      #NEKI #MEME #ネキミーム
+    translation: |-
+      🎊🎍Happy New Year 2026🎍🎊
+      
+      NEK! − “Jumping” Official MV
+      OUT NOW ⚡️
+      
+      ▼ Music Video 🎬
+      https://youtu.be/EUuiBgbxtZI
+      
+      ▼ Streaming & Download 🎧
+      https://lnk.to/NEKI_MEME
+      
+      Jumping with NEK! in 2026 too🎉
+      
+      #NEKI #MEME #NEKIMEME
+    part-of:
+      song: jumping
+
+- postx:
+    id: 2006382350528377083
+    account: co
+    label: MV released
+    published-date: 2026-01-01
+    text: |-
+      "Jumping"Official Music Video公開となりました🌞
+      
+      両足で飛び上がりたくなるくらいカラフルでハッピーな映像になっています！
+      
+      夜の公園で4人が自由に遊ぶシーンや夜景を見ながら佇んでいるシーンなど今回も見所たくさんなので、ぜひ何度でもお楽しみください🛝🤍
+      
+      #NEKI #ネキミーム
+    translation: |-
+      The "Jumping" Official Music Video has been released🌞
+      
+      It's a colorful and happy video that makes you want to jump up with both feet!
+      
+      There are many highlights again this time, such as the scene where the four of us play freely in a park at night and the scene where we stand still while looking at the night view, so please enjoy it over and over again🛝🤍
+      
+      #NEKI #NEKIMEME
+    image:
+    - G9gaHC3aMAAkeRG
+    part-of:
+      postx: 2006381637408596400
+
+- postx:
+    id: 2006384807752946106
+    account: 46_hikaa
+    label: Happy new year
+    published-date: 2026-01-01
+    text: |-
+      あけましておめでとうございます！
+      2026年もよろしくお願いします！
+      
+      MV公開したので観てね♡.*･ﾟ
+    translation: |-
+      Happy New Year!
+      Please look forward to working with me in 2026 too!
+      
+      The MV has been released, so please watch it♡.*･ﾟ
+    part-of:
+      postx: 2006381637408596400
+
+- postx:
+    id: 2006386521562361959
+    account: natsu08_guitar
+    label: MV released
+    published-date: 2026-01-01
+    text: |-
+      📹“Jumping” Official MV📹
+      ❤️‍🔥❤️‍🔥公開いたしました❤️‍🔥❤️‍🔥
+      
+      思わずジャンプしたくなっちゃうようなhappyなMVになっております💛
+      ぜひたくさん観てください🫶🏻
+      2026、飛び跳ねて行くぞー🔥
+    translation: |-
+      📹“Jumping” Official MV📹
+      ❤️‍🔥❤️‍🔥It has been released❤️‍🔥❤️‍🔥
+      
+      It's a happy MV that makes you want to jump without thinking💛
+      Please watch it a lot🫶🏻
+      2026, let's go jumping forward🔥
+    part-of:
+      postx: 2006381637408596400
+
+- postx:
+    id: 2006697179986145576
+    account: nekiband_jp
+    label: 10k views
+    published-date: 2026-01-01
+    text: |-
+      “Jumping”
+      Official Music Video
+      
+      10,000 views — thank you💖
+      
+      https://youtu.be/EUuiBgbxtZI
+      
+      #NEKI #MEME
+    part-of:
+      song: jumping
+
+- postx:
+    id: 2006946474081530286
+    account: 46_hikaa
+    label: 10k views
+    published-date: 2026-01-02
+    text: |-
+      “Jumping”Official Music Video
+      
+      もう1万回再生超え凄い、、、
+      
+      最高のスタートだっ
+      ありがとうございます。
+      
+      今年のNEK!は更に勢い止まらんぞぉ！
+    translation: |-
+      “Jumping” Official Music Video
+      
+      Over 10,000 views already, amazing...
+      
+      It's the best start
+      Thank you.
+      
+      NEK!'s momentum won't be stopping this year!
+    image:
+    - G9obLHSboAAzC4U
+    - G9obLHXaMAYbhwp
+    - G9obLHYaEAE_kFj
+    part-of:
+      postx: 2006697179986145576
+
+- postximage:
+    post: 2006382350528377083
+    id: G9gaHC3aMAAkeRG
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2026-01-02
+    context:
+    - song: jumping
+    part-of:
+      postx: 2006382350528377083
+
+- postximage:
+    post: 2006384807752946106
+    id: G9gcVIebgAA457T
+    label: Behind the scenes
+    info: Hika
+    published-date: 2026-01-01
+    context:
+    - song: jumping
+    part-of:
+      postx: 2006384807752946106
+
+- postximage:
+    post: 2006386521562361959
+    id: G9gd5m4agAAyc4R
+    label: Behind the scenes
+    info: Natsu
+    published-date: 2026-01-01
+    context:
+    - song: jumping
+    part-of:
+      postx: 2006386521562361959
+
+- postximage:
+    post: 2006386521562361959
+    id: G9gd5m8aIAAjEW8
+    label: Behind the scenes
+    info: Natsu
+    published-date: 2026-01-01
+    context:
+    - song: jumping
+    part-of:
+      postx: 2006386521562361959
+
+- postximage:
+    post: 2006946474081530286
+    id: G9obLHSboAAzC4U
+    label: Behind the scenes
+    info: Hika, Kanade
+    published-date: 2026-01-02
+    context:
+    - song: jumping
+    part-of:
+      postx: 2006946474081530286
+
+- postximage:
+    post: 2006946474081530286
+    id: G9obLHXaMAYbhwp
+    label: Behind the scenes
+    info: Hika, Natsu
+    published-date: 2026-01-02
+    context:
+    - song: jumping
+    part-of:
+      postx: 2006946474081530286
+
+- postximage:
+    post: 2006946474081530286
+    id: G9obLHYaEAE_kFj
+    label: Behind the scenes
+    info: Hika, Cocoro
+    published-date: 2026-01-02
+    context:
+    - song: jumping
+    part-of:
+      postx: 2006946474081530286
+
+- update:
+    song: jumping
+    date: 2026-01-03
+    text:
+    - 10k views for the Offficial Music Video
+    - First "behind the scene" pictures
+    part-of:
+      song: jumping
+
 - youtubeshort:
     id: 5kzh2H9res4
     label: MV teaser
     published-date: 2025-12-30
+    context:
+    - song: jumping
+    part-of:
+      song: jumping
+
+- youtubeshort:
+    id: JcNdlFZl3EE
+    label: Music Video
+    info: Intro
+    published-date: 2026-01-01
+    context:
+    - song: jumping
+    part-of:
+      song: jumping
+
+- youtubeshort:
+    id: agVIjdhFoJA
+    label: Music Video
+    published-date: 2026-01-01
     context:
     - song: jumping
     part-of:

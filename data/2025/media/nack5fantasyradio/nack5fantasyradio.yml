@@ -18,6 +18,10 @@ mediaaudio:
   program: 'https://www.nack5.co.jp/blog/fantasyradio/16477/'
   webpage: 'https://www.nack5.co.jp/program/fantasyradio/'
   todo: 'beginning of a summary available in tag:before-parser001'
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - Hika and Natsu were guest of the show 'FANTASY RADIO' on NACK5.
   - The interview went over the general band info, then they spoke about the music of 'zero-sum'. In second part, the host did an analysis of the lyrics of 'Loner', 'moon' and 'Fool'.

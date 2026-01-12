@@ -29,7 +29,8 @@
     label: Colors page
     published-date: 2026-01-06
     url: 'https://www.fmnagasaki.co.jp/program/colors/'
-    image: []
+    image:
+    - banner
     part-of:
       media:
         year: 2026

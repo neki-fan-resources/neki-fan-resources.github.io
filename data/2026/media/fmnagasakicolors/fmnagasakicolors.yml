@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmnagasakicolors
+  cover-image:
+    webimage:
+      domain: fmnagasaki.co.jp
+      page: colors
+      id: banner
+  radio: FM Nagasaki
+  show: Colors
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-01-06
+  program: 'https://www.fmnagasaki.co.jp/program/colors/'
+  todo: cover image
+  part-of:
+    group:
+      id: media
+      group: 2026

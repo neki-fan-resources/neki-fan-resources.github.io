@@ -1,0 +1,50 @@
+- update:
+    media:
+      year: 2026
+      id: sbcradiosundaymusicbox
+    date: 2026-01-12
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: sbcradiosundaymusicbox
+
+- webimage:
+    domain: sbc21.co.jp
+    page: musicbox
+    id: banner
+    label: Banner
+    published-date: 2026-01-10
+    url: 'https://sbc21.co.jp/blogwp/musicbox/wp-content/themes/sunday-musicbox/common/img/img_mv_musicbox.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: sbc21.co.jp
+        id: musicbox
+
+- webpage:
+    domain: sbc21.co.jp
+    id: musicbox
+    label: Sunday Music BOX page
+    published-date: 2026-01-10
+    url: 'https://sbc21.co.jp/blogwp/musicbox/'
+    image:
+    - banner
+    part-of:
+      media:
+        year: 2026
+        id: sbcradiosundaymusicbox
+
+- webpage:
+    domain: sbc21.co.jp
+    id: musicbox.133
+    label: Show page
+    published-date: 2026-01-10
+    url: 'https://sbc21.co.jp/blogwp/musicbox/133/'
+    image: []
+    part-of:
+      media:
+        year: 2026
+        id: sbcradiosundaymusicbox
+

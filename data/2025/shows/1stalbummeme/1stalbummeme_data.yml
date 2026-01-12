@@ -134,6 +134,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: UTW1j6w0qIw
                 - youtubeshort: wSWAMOCQ_pI
                 - youtubeshort: jjYDQhDteIg
                 - youtubeshort: _h4lqFr9oZ8
@@ -1274,6 +1275,21 @@
     published-date: 2025-12-05
     context:
     - song: scrapbook
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- youtubeshort:
+    id: UTW1j6w0qIw
+    label: On stage
+    info: studio audio
+    published-date: 2026-01-03
+    context:
+    - song: jumping
     - show:
         year: 2025
         id: 1stalbummeme

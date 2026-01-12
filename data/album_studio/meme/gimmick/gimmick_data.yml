@@ -12,6 +12,7 @@
                 - youtubevideo: js9WXQHa5J0
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: R5MUqk22jP8
                 - postxvideo:
                     post: 1996143103410061620
                     video: 01
@@ -153,6 +154,18 @@
                 - postximage:
                     post: 1992123612602757154
                     image: G6Vx288aIAAAwAv
+                - postximage:
+                    post: 2006281030660247686
+                    image: G9e9uq9aYAM6OQ3
+                - postximage:
+                    post: 2006281030660247686
+                    image: G9e9urQbkAAKVHq
+                - postximage:
+                    post: 2006281030660247686
+                    image: G9e9uq7boAABgyt
+                - postxvideo:
+                    post: 2006281030660247686
+                    video: 01
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -667,6 +680,12 @@
       Thanks to everyone, I was able to make a happy announcement at the end of the year!!
       
       I'm posting an off-shot from the spray art scene🥁💚
+    image:
+    - G9e9uq7boAABgyt
+    - G9e9uq9aYAM6OQ3
+    - G9e9urQbkAAKVHq
+    video:
+    - 01
     part-of:
       postx: 2006227983917539641
 
@@ -792,6 +811,18 @@
     part-of:
       postx: 2006281030660247686
 
+- postxvideo:
+    post: 2006281030660247686
+    id: 01
+    label: Behind the scenes
+    info: drum set
+    published-date: 2026-01-02
+    cover: 2006280768625250304/img/49mJJIJIJWGY6LcK.jpg
+    context:
+    - song: gimmick
+    part-of:
+      postx: 2006281030660247686
+
 - update:
     song: gimmick
     date: 2025-11-03
@@ -880,6 +911,16 @@
     id: PNLPXORtGNY
     label: Behind the scenes
     published-date: 2025-11-24
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
+
+- youtubeshort:
+    id: R5MUqk22jP8
+    label: Rehearsal
+    info: Hika, Kanade
+    published-date: 2026-01-06
     context:
     - song: gimmick
     part-of:

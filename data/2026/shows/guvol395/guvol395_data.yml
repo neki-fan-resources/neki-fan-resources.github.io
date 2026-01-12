@@ -1,3 +1,77 @@
+- display:
+    show:
+      year: 2026
+      id: guvol395
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2007776383121117691
+                    image: G90N-N4akAAw_RD
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2007776383121117691
+                    image: G90N-N5acAANp1Z
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2007837909957939342
+                    image: G91F7u5aYAACIc0
+                - postximage:
+                    post: 2007834717736071473
+                    image: G91DBPebEAA3ZM_
+                - postxvideo:
+                    post: 2007837190412468312
+                    video: 01
+                - postximage:
+                    post: 2008115409028014307
+                    image: G95CSsbbMAACDfG
+                - postximage:
+                    post: 2008115409028014307
+                    image: G95CSsebUAAp1IE
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2007831566270296293
+                    image: G91AJ5SbkAA3sx4
+                - postximage:
+                    post: 2007827776326545900
+                    image: G908t3BakAA-Lv7
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2007776383121117691
+                    image: G90N-N3awAAmOt-
+                - postximage:
+                    post: 2007698283565854834
+                    image: G9zG8pSbIAArE4D
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 9RACyv2_ARo
+                - youtubeshort: tgPY-FoOtWk
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
 - postx:
     id: 1984817802424041686
     account: nekiband_jp
@@ -36,6 +110,254 @@
         year: 2026
         id: guvol395
 
+- postx:
+    id: 2007698283565854834
+    account: shibuya_eggman
+    label: Today
+    published-date: 2026-01-04
+    text: |-
+      ⚡本日⚡
+      
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      
+      TRiDENT
+      NEK!
+      
+      OPEN 16:00
+      START 16:30
+      
+      THANK YOU SOLD OUT!!!
+      
+      当日券は若干数販売いたします。
+      ※前売りチケットお持ちの方が全てご入場後に販売となります。
+      
+      ご来場お待ちしております！
+    translation: |-
+      ⚡Today⚡
+      
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      
+      TRiDENT
+      NEK!
+      
+      OPEN 16:00
+      START 16:30
+      
+      THANK YOU SOLD OUT!!!
+      
+      A limited number of same-day tickets will be available.
+      *Sales will begin after all advanced ticket holders have entered.
+      
+      We look forward to seeing you there!
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- postx:
+    id: 2007776383121117691
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-01-04
+    text: |-
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      @ Shibuya eggman
+      
+      THANK YOU SOLD OUT!!!!
+      
+      2026年1本目、激熱ツーマンでした🔥
+      ご来場ありがとうございました🫶
+      
+      NEK!初の全国ツアー開催！
+      来月2/8(日)渋谷eggmanからスタート⚡️
+      🔗https://l-tike.com/nekiband/
+      
+      #TRiDENTJP さん
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      @ Shibuya eggman
+      
+      THANK YOU SOLD OUT!!!!
+      
+      The first show of 2026 was an incredibly intense two-man live🔥
+      Thank you for coming🫶
+      
+      NEK!'s first nationwide tour is happening!
+      Starting next month on 2/8 (Sun) at Shibuya eggman⚡️
+      🔗https://l-tike.com/nekiband/
+      
+      #TRiDENTJP
+      #NEKI
+    image:
+    - G90N-N3awAAmOt-
+    - G90N-N4akAAw_RD
+    - G90N-N5acAANp1Z
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- postx:
+    id: 2007827776326545900
+    account: nekiband_jp
+    label: Thank you TRiDENT
+    published-date: 2026-01-04
+    text: |-
+      Big thanks🖤
+      @TRiDENT_japan
+       
+      
+      #NEKI
+    image:
+    - G908t3BakAA-Lv7
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- postx:
+    id: 2007831566270296293
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-01-04
+    text: |-
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      @ Shibuya eggman
+      
+      新年一発目のソールド激アツツーマンを見届けていただきありがとうございました🌟
+      憧れていたTRiDENTさんとの対バンで、ずっとやりたいと思っていたので実現できて嬉しかったです🥹
+      またご一緒できるよう頑張ります！！
+    translation: |-
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      @ Shibuya eggman
+      
+      Thank you for witnessing the super hot, sold-out two-man show to kick off the new year🌟
+      It was a dream come true to play a show with TRiDENT, whom I’ve always looked up to, so I'm so happy we made it happen🥹
+      I'll do my best so we can perform together again!!
+    image:
+    - G91AJ5SbkAA3sx4
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+    reference:
+    - postximage:
+        post: 2007776383121117691
+        image: G90N-N4akAAw_RD
+
+- postx:
+    id: 2007834717736071473
+    account: coco_102
+    label: Thank you
+    published-date: 2026-01-04
+    text: |-
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      
+      念願のTRiDENTさんとのツーマンライブ！！
+      こんなぺーぺーな私たちと対バンしてくださったことに本当に心から感謝いたします、、！！本当にありがとうございました🥲🙏🏻✨
+      
+      姉さんたちの背中追っかけてこれからも頑張ります🔥
+    translation: |-
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      
+      The long-awaited two-man live with TRiDENT!!
+      I am truly grateful from the bottom of my heart that they did a show with newcomers like us...!! Thank you so much🥲🙏🏻✨
+      
+      I'll keep doing my best as I chase after our seniors' backs🔥
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+    reference:
+    - postximage:
+        post: 2007827776326545900
+        image: G908t3BakAA-Lv7
+
+- postx:
+    id: 2007837190412468312
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-01-04
+    text: |-
+      今年初のライブが念願のTRiDENTさんとの
+      ツーマンライブで激アツライブすぎました。
+      
+      フロアもめちゃめちゃ盛り上がってて、
+      後ろの方まで沢山の方が来てくださっていて本当に最高の夜でした。
+      
+      ありがとうございました‼︎
+    translation: |-
+      Our first live of the year was a long-awaited
+      two-man live with TRiDENT, and it was such an intense show.
+      
+      The floor was pumping,
+      and so many people came out even to the back, making it a truly perfect night.
+      
+      Thank you very much!!
+    part-of:
+      postx: 2007827776326545900
+    reference:
+    - postximage:
+        post: 2007776383121117691
+        image: G90N-N4akAAw_RD
+
+- postx:
+    id: 2007837909957939342
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-01-04
+    text: |-
+      TRiDENTさんとのツーマン🔥🔥
+      ありがとうございました！！
+      
+      ついに実現しましたよー😭
+      ずっと夢の中にいるような感覚で…
+      それだけ幸せな時間でした😭😭
+      はぁぁ本当かっこよすぎました！！
+      フロアもすごかったー！💥
+      
+      スキルアップしてまた同じステージに立てるよう頑張ります💪🏻🔥
+    translation: |-
+      The two-man live with TRiDENT🔥🔥
+      Thank you so much!!
+      
+      It finally happened—😭
+      It felt like I was in a dream the whole time...
+      That's how happy of a time it was😭😭
+      Haaa, they were seriously too cool!!
+      The floor was amazing too!💥
+      
+      I'll do my best to level up my skills so I can stand on the same stage again💪🏻🔥
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+    reference:
+    - postximage:
+        post: 2007831566270296293
+        image: G91AJ5SbkAA3sx4
+
+- postx:
+    id: 2008115409028014307
+    account: cure_bass_baka
+    label: Jumping
+    published-date: 2026-01-05
+    text: |-
+      Jumping🍓
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
 - postximage:
     post: 1984817802424041686
     id: G4t9RFVbQAUtDkn
@@ -49,6 +371,145 @@
     part-of:
       postx: 1984817802424041686
 
+- postximage:
+    post: 2007698283565854834
+    id: G9zG8pSbIAArE4D
+    label: Sidewalk board
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007698283565854834
+
+- postximage:
+    post: 2007776383121117691
+    id: G90N-N3awAAmOt-
+    label: Sidewalk board
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007776383121117691
+
+- postximage:
+    post: 2007776383121117691
+    id: G90N-N4akAAw_RD
+    label: On stage
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007776383121117691
+
+- postximage:
+    post: 2007776383121117691
+    id: G90N-N5acAANp1Z
+    label: Backstage
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007776383121117691
+
+- postximage:
+    post: 2007827776326545900
+    id: G908t3BakAA-Lv7
+    label: Bands
+    info: NEK!, TRiDENT
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007827776326545900
+
+- postximage:
+    post: 2007831566270296293
+    id: G91AJ5SbkAA3sx4
+    label: Bands
+    info: NEK!, TRiDENT
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007831566270296293
+
+- postximage:
+    post: 2007834717736071473
+    id: G91DBPebEAA3ZM_
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007834717736071473
+
+- postximage:
+    post: 2007837909957939342
+    id: G91F7u5aYAACIc0
+    label: Backstage
+    info: Natsu
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007837909957939342
+
+- postximage:
+    post: 2008115409028014307
+    id: G95CSsbbMAACDfG
+    label: Backstage
+    info: Kanade
+    published-date: 2026-01-05
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2008115409028014307
+
+- postximage:
+    post: 2008115409028014307
+    id: G95CSsebUAAp1IE
+    label: Backstage
+    info: Kanade
+    published-date: 2026-01-05
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2008115409028014307
+
+- postxvideo:
+    post: 2007837190412468312
+    id: 01
+    label: Backstage
+    published-date: 2026-01-04
+    cover: 2007837180069294082/img/oQMezbLagoUCSzvS.jpg
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postx: 2007837190412468312
+
 - update:
     show:
       year: 2026
@@ -56,6 +517,48 @@
     date: 2025-11-03
     text:
     - New show announced, a special two-man "Girls Up!!!" with TRiDENT
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- update:
+    show:
+      year: 2026
+      id: guvol395
+    date: 2026-01-12
+    text:
+    - Images and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- youtubeshort:
+    id: 9RACyv2_ARo
+    label: On stage
+    info: studio audio
+    published-date: 2026-01-08
+    context:
+    - song: zerosum
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- youtubeshort:
+    id: tgPY-FoOtWk
+    label: On stage
+    info: studio audio
+    published-date: 2026-01-05
+    context:
+    - song: reigengirl
+    - show:
+        year: 2026
+        id: guvol395
     part-of:
       show:
         year: 2026

@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: sbcradiosundaymusicbox
+  cover-image:
+    webimage:
+      domain: sbc21.co.jp
+      page: musicbox
+      id: banner
+  radio: SBC Radio
+  show: サンデーミュージック BOX
+  designation: radio show
+  member:
+  - Natsu
+  - Hika
+  published-date: 2026-01-11
+  program: 'https://sbc21.co.jp/blogwp/musicbox/133/'
+  webpage: 'https://sbc21.co.jp/blogwp/musicbox/'
+  part-of:
+    group:
+      id: media
+      group: 2026

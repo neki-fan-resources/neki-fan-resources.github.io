@@ -19,6 +19,10 @@ mediaaudio:
   host: DJ ハタノ ユウスケ (DJ Hatano Yusuke)
   program: 'https://radiko.jp/#!/ts/802/20250411000000'
   webpage: 'https://funky802.com/infinity/'
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - The whole band, Hika, Kanade, Natsu and Cocoro, were guest of the show 'RADIO INFINITY' on FM802.
   - The show has been playing NEK! songs regularly, and 'Dreams!!!!' quite often since its release.

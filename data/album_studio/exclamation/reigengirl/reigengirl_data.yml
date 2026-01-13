@@ -185,7 +185,7 @@
 - postx:
     id: 1917515461727772903
     account: cure_bass_baka
-    label: Reigen girl video
+    label: Reigen girl bass intro
     published-date: 2025-04-30
     text: |-
       スランプ抜けはまだ遠そうなので今回も動画撮れず、
@@ -193,7 +193,14 @@
       
       奏法的にはシンプルだけれど、フレーズが好きでNEK!の中でも好きなアレンジです！
       
-      #NEKI  #拡散中  #ネキ界隈
+       #NEKI  #拡散中  #ネキ界隈
+    translation: |-
+      Getting out of this slump still seems far off, so I couldn't film a video this time either,
+      Here's the intro of Reigen Shoujo with raw sound!
+      
+      The technique is simple, but I love the phrase and it's one of my favorite arrangements in NEK!!
+      
+      #NEKI #SpreadingTheWord #NEK!Community
     video:
     - d111e062-3a51-4d15-92d8-43dccd8534ba
     part-of:
@@ -343,8 +350,8 @@
 - postxvideo:
     post: 1917515461727772903
     id: d111e062-3a51-4d15-92d8-43dccd8534ba
-    label: Bass intro
-    info: Kanade
+    label: Playthrough
+    info: Kanade, bass intro, raw sound
     published-date: 2025-04-30
     cover: 1917515345696546817/img/z7YArpECtZZ0NRzV.jpg
     context:

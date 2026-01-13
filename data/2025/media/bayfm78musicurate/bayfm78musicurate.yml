@@ -19,6 +19,10 @@ mediaaudio:
   host: 佐々木 千暁 (Sasaki Chiaki)
   program: 'https://radiko.jp/#!/ts/BAYFM78/20250423030000'
   webpage: 'https://program.bayfm.co.jp/curate/'
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - The whole band, Hika, Kanade, Natsu and Cocoro, will be guest on the show '78 musi-curate' on BAYFM78.
   multimedia:

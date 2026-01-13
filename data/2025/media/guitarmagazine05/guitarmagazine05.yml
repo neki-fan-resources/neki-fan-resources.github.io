@@ -14,6 +14,10 @@ mediawritten:
   - Natsu
   published-date: 2025-04-12
   webpage: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - Natsu is interviewed in the May issue of Guitar magazine, in the 'OPENING ACT' section.
   summary:

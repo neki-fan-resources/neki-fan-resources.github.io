@@ -10,6 +10,10 @@ show:
   date: 2025-04-12
   venue: Shimokitazawa , Tokyo
   event-page: 'https://kogarecords.com/top/?p=1485'
+  part-of:
+    group:
+      id: shows
+      group: 2025
   multimedia:
     video:
     - postxvideo:

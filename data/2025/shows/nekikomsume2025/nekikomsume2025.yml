@@ -14,3 +14,7 @@ tour:
   - year: 2025
     id: nekikomsumeosaka
   event-page: 'https://note.com/nekiband_jp/n/nb50d1c0b1dd3'
+  part-of:
+    group:
+      id: shows
+      group: 2025

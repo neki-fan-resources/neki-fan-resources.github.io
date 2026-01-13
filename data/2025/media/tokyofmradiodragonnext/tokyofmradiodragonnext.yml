@@ -17,6 +17,10 @@ mediaaudio:
   host: 菅野結以 (Yui Kanno)
   program: 'https://radiko.jp/#!/ts/FMT/20250503030000'
   webpage: 'https://www.tfm.co.jp/dragon/'
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - Hika and Natsu were guests of the show 'RADIO DRAGON-NEXT-' on TOKYO FM.
   - They spoke about how Hika gathered everyone to form the band.

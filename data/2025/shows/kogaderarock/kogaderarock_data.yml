@@ -40,7 +40,6 @@
     id: 1910962202003275912
     account: KOGARECORDS
     label: Thank you
-    info: for performing at the show
     published-date: 2025-04-10
     text: |-
       【下北沢こがでらROCK FESTIVAL 2025】
@@ -51,7 +50,7 @@
       
       NEK!  ( 
       @nekiband_jp
-      )
+       )
       
       ご出演いただきありがとうございました！
       
@@ -60,6 +59,20 @@
       
       
       #こがでらロック
+    translation: |-
+      【Shimokitazawa Kogadera ROCK FESTIVAL 2025】
+      
+      📣 Live Flash Report 📣
+      
+      ⏰15:30〜 SHELTER
+      
+      NEK! ( @nekiband_jp )
+      
+      Thank you very much for your performance!
+      
+      📸 photo by Teru @ttetteteru
+      
+      #KogaderaRock
     image:
     - GoUZ_azXwAASE0E
     - GoUZ_awWwAAkG5D
@@ -89,6 +102,20 @@
       https://l-tike.com/nekiband/
       
       #NEKI #こがでらロック
+    translation: |-
+      Shimokitazawa Kogadera Rock Festival 2025
+      @ Shimokitazawa SHELTER
+      
+      Thank you for coming❣️
+      
+      Held on 8/30 (Sat)
+      NEK! 1ST ZEPP ONE MAN 【#NowSpreading #NekiNeighborhood】
+      ＠ Zepp Shinjuku
+      
+      Official secondary advance tickets (lottery) now accepting applications🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #KogaderaRock
     image:
     - GoUp71yWsAIHbmh
     - GoUp719WkAAtlRX
@@ -242,7 +269,7 @@
     - show:
         year: 2025
         id: kogaderarock
-    todo: song ?
+    - song: clockup
     part-of:
       show:
         year: 2025

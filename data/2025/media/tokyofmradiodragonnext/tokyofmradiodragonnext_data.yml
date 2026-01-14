@@ -17,13 +17,13 @@
 - postx:
     id: 1918253217269596255
     account: RADIO_DRAGON
-    label: NEK! at TOKYO FM RADIO DRAGON-NEXT-
+    label: Tonight
     published-date: 2025-05-02
     text: |-
       #菅野結以 ちゃん(
       @Yuikanno
       )が
-      深夜3時からお届けする #radiodragon 
+       深夜3時からお届けする #radiodragon 
       
       ▼27時台 
       スペースシャワー：飯塚健斗さん
@@ -32,6 +32,18 @@
       ゲスト： #NEKI (
       @nekiband_jp
         )
+      
+      https://radiko.jp/share/?sid=FMT&t=20250503030000
+      #tokyofm
+    translation: |-
+      #YuiKanno (@Yuikanno)
+      delivers #radiodragon from 3 AM
+      
+      ▼27:00 slot
+      Space Shower: Kento Iizuka
+      
+      ▼28:00 slot
+      Guest: #NEKI (@nekiband_jp)
       
       https://radiko.jp/share/?sid=FMT&t=20250503030000
       #tokyofm
@@ -45,7 +57,7 @@
 - postx:
     id: 1918254606855074066
     account: RADIO_DRAGON
-    label: NEK! at TOKYO FM RADIO DRAGON-NEXT-
+    label: Tonight
     published-date: 2025-05-02
     text: |-
       【28時台】
@@ -59,6 +71,18 @@
       お楽しみに‼️
       
       #radiodragon #TOKYOFM #菅野結以
+    translation: |-
+      【28:00 slot】
+      Tonight's guests are
+      Hika and Natsu from the 4-piece girls' band #NEKI, 
+      which was just formed last year‼️
+      
+      We talked about their roots and
+      their 2nd EP "TR!CK TAK!NG"✨
+      
+      Look forward to it‼️
+      
+      #radiodragon #TOKYOFM #YuiKanno
     image:
     - Gp8COrJbsAAsI0n
     part-of:
@@ -69,7 +93,7 @@
 - postx:
     id: 1918392450269548896
     account: nekiband_jp
-    label: thank you TOKYO FM RADIO DRAGON-NEXT-
+    label: Thank you
     published-date: 2025-05-02
     text: |-
       TOKYO FM「RADIO DRAGON -NEXT-」
@@ -81,6 +105,19 @@
       現在オフィシャル2次先行受付中❤️‍🔥
       
       チケットはこちら▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #radiodragon #TOKYOFM #radiko
+    translation: |-
+      TOKYO FM "RADIO DRAGON -NEXT-"
+      
+      Thank you for listening!
+      
+      To be held on 8/30 (Sat)
+      NEK!'s first ZEPP solo show
+      Official 2nd advance ticket sales currently open❤️‍🔥
+      
+      Tickets here▼
       https://l-tike.com/nekiband/
       
       #NEKI #radiodragon #TOKYOFM #radiko

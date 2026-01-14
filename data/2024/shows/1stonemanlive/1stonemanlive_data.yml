@@ -1,7 +1,8 @@
 - postx:
     id: 1926203870809608381
     account: natsu08_guitar
-    label: cover ワンオクの”Wherever you are”
+    label: Wherever you are / ワンオク
+    info: cover
     published-date: 2025-05-23
     text: |-
       1st ワンマンのときのHikaちゃんと2人でワンオクの”Wherever you are”
@@ -10,9 +11,14 @@
       懐かしい❤️‍🔥❤️‍🔥チラ見せしちゃう🫣🫣🫣
       
       #ネキ界隈 #拡散中 #ワンオク
+    translation: |-
+      Found a video from our 1st one-man live of Hika-chan and I covering ONE OK ROCK's "Wherever you are"!!
+      
+      So nostalgic❤️‍🔥❤️‍🔥 I'll give you a little peek🫣🫣🫣
+      
+      #NEKIKAIWAI #Spreading #ONEOKROCK
     video:
     - de045839-e5ef-4546-90d3-d6e3f4cb9f34
-    todo: show poster
     part-of:
       show:
         year: 2024

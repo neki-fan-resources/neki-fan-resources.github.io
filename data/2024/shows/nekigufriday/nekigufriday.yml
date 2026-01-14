@@ -10,3 +10,7 @@ show:
   venue: Shibuya eggman, Tokyo
   event-page: 'http://eggman.jp/schedule/schedule-26342/'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shibuya-eggman-tokyo-japan-6353e6fb'
+  part-of:
+    group:
+      id: shows
+      group: 2024

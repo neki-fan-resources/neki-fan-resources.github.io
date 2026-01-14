@@ -1236,14 +1236,18 @@
 - postx:
     id: 1928744673092292656
     account: cure_bass_baka
-    label: live
-    info: zero-sum bass solo
+    label: zero-sum on stage
+    info: bass solo
     published-date: 2025-05-31
     text: |-
       ベースソロ！！
-      #NEKI  #拡散中  #ネキ界隈
+       #NEKI  #拡散中  #ネキ界隈
+    translation: |-
+      Bass solo!!
+       #NEKI  #Spreading  #NEKIKAIWAI
     video:
     - 01
+    todo: 'which show ? '
     part-of:
       song: zerosum
 

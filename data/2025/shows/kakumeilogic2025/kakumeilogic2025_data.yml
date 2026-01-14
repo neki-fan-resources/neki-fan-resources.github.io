@@ -35,7 +35,7 @@
 - postx:
     id: 1918591839306666269
     account: nekiband_jp
-    label: Schedule
+    label: Tomorrow
     published-date: 2025-05-03
     text: |-
       🔥明日出演🔥
@@ -51,6 +51,20 @@
       https://t.livepocket.jp/e/kakumei2025
       
       #NEKI #革命ロジック
+    translation: |-
+      🔥 Performing Tomorrow 🔥
+      
+      Held tomorrow, 5/4 (Sun)
+      "LIVEHOLIC presents. 'Kakumei Logic 2025' supported by Skream! & Geki-Rock"
+      
+      NEK! will be performing at Shimokitazawa Shangri-la from 17:30💨
+      
+      We'll be waiting for you in Shimokitazawa🫶
+      
+      Advance tickets here ▼
+      https://t.livepocket.jp/e/kakumei2025
+      
+      #NEKI #KakumeiLogic
     image:
     - GqA0mxha4AAZusD
     - GqA0m0ta0AAA-dL
@@ -73,9 +87,19 @@
       本日撮影いただいた「Get Over」やライブの感想は #NEKI をつけてポストよろしくお願いします🫶
       
       #革命ロジック2025
+    translation: |-
+      LIVEHOLIC presents. “Kakumei Logic 2025“ supported by Skream! & Geki-Rock
+      @ Shimokitazawa Shangri-la
+      
+      Thank you for coming 🎪
+      
+      Please post your videos of "Get Over" filmed today and your thoughts on the live show using the hashtag #NEKI 🫶
+      
+      #KakumeiLogic2025
     image:
     - GqGKtFtbsAAScbY
     - GqGKtFwa0AACJVD
+    todo: gather Get Over videos
     part-of:
       show:
         year: 2025
@@ -84,17 +108,26 @@
 - postx:
     id: 1919328460532494808
     account: natsu08_guitar
-    label: Maze bridge
+    label: MAZE on stage
     published-date: 2025-05-05
     text: |-
       昨日のシャングリラから”MAZE”
       
-      “MAZE”のブリッジミュート部分めっちゃ好き！！￼重みが増す！！
+      “MAZE”のブリッジミュート部分めっちゃ好き！！❤️‍🔥重みが増す！！
       
-      （動画の画角上手くいかなくて、ほぼ足なのお許しください￼￼
+      （動画の画角上手くいかなくて、ほぼ足なのお許しください🙏🏻🙏🏻
       ズボンの柄楽しんでください( ◠‿◠ )）
       
       #ネキ界隈 #拡散中 #NEKI #MAZE
+    translation: |-
+      "MAZE" from yesterday at Shangri-La
+      
+      I really love the palm mute part of "MAZE"!!❤️‍🔥 It adds so much weight!!
+      
+      (The video angle didn't work out well, so please forgive the fact that it's mostly my legs🙏🏻🙏🏻
+      Please enjoy the pattern on my pants( ◠‿◠ ))
+      
+      #NekiKaiwai #SpreadingNow #NEKI #MAZE
     video:
     - bb4e888e-5f51-4d44-a6ce-3c57b86955ab
     part-of:
@@ -105,7 +138,7 @@
 - postx:
     id: 1919554837458399724
     account: coco_102
-    label: ENDLESSGAME
+    label: ENDLESSGAME on stage
     info: Cocoro-cam
     published-date: 2025-05-06
     text: |-
@@ -118,6 +151,16 @@
       虚無を見つめるのをやめたらいいのだろーか？？
       
       #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      👾 👾 👾 👾 ENDLESSGAME 👾 👾 👾 👾
+      
+      It's hard because there are so many notes, but it's so cool!
+      And I love the combination of the lighting colors🤤(especially the verse)
+      
+      I mean, my face while doing chorus is always too goofy! lol
+      Should I stop staring into the void??
+      
+      #NEKI #SpreadingNow #NekiKaiwai
     video:
     - ab614f11-559a-4b05-9110-a93a478c49d9
     part-of:
@@ -128,8 +171,7 @@
 - postx:
     id: 1919977679027372546
     account: 46_hikaa
-    label: MAZE live
-    info: Come see us live
+    label: MAZE on stage
     published-date: 2025-05-06
     text: |-
       一緒にサビとか歌ってくれてる方もいて
@@ -138,6 +180,13 @@
       まだNEK!のライブ行ったことないよーって方！ぜひぜひ、遊びに来てくださいな︎👍🏻 ̖́-
       
       #NEKI  #ネキ界隈  #拡散中
+    translation: |-
+      There were people singing along during the chorus and stuff
+      And everyone's chants are the best after all🔥
+      
+      For those who haven't been to a NEK! live yet! Please, please come and hang out︎👍🏻 ̖́-
+      
+      #NEKI  #NekiKaiwai  #SpreadingNow
     video:
     - 37e3c46f-d463-4507-8090-19abc74c839b
     part-of:
@@ -148,12 +197,15 @@
 - postx:
     id: 1920401532488724860
     account: cure_bass_baka
-    label: Jumping bassist
-    info: MAZE
+    label: MAZE on stage
+    info: Jumping bassist
     published-date: 2025-05-08
     text: |-
       反復横跳びベーシスト🎸
-      #拡散中  #ネキ界隈  #NEKI
+       #拡散中  #ネキ界隈  #NEKI
+    translation: |-
+      Repeated side-step bassist🎸
+       #SpreadingNow #NekiKaiwai #NEKI
     video:
     - a54c225e-6b58-47e6-a2b8-d7e90eeae28b
     part-of:
@@ -164,8 +216,7 @@
 - postx:
     id: 1920746869560430820
     account: coco_102
-    label: Dreams!!!!
-    info: let's sing together
+    label: Dreams!!!! on stage
     published-date: 2025-05-09
     text: |-
       🌈 🌈 🌈 🌈 🌈 Dreams!!!! 🌈 🌈 🌈 🌈 🌈
@@ -174,6 +225,13 @@
       またみんなで一緒に歌おうー！！
       
       #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      🌈 🌈 🌈 🌈 🌈 Dreams!!!! 🌈 🌈 🌈 🌈 🌈
+      
+      I love this song because it's packed tight with all the best parts of a live show!
+      Let's all sing together again!!
+      
+      #NEKI #SpreadingNow #NekiKaiwai
     video:
     - 86e746a8-fd09-4141-979d-524ced4fa2f0
     part-of:
@@ -184,8 +242,7 @@
 - postx:
     id: 1921828183369781385
     account: natsu08_guitar
-    label: Sing along, thanks
-    info: Song D live
+    label: OOAK on stage
     published-date: 2025-05-12
     text: |-
       本日も足元から失礼します🦵🙏🏻
@@ -194,6 +251,13 @@
       一緒に歌ってくれますか‼️‼️❓
       
       #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Apologies for starting from the feet again today 🦵🙏🏻
+      
+      I think it would be amazing if we could all say "Yeah" and "Hey" right here during the live show—what do you think? ❤️‍🔥❤️‍🔥❤️‍🔥
+      Will you sing along with me‼️‼️❓
+      
+      #NEKI #Spreading #NEKICircle
     video:
     - 890f9d50-48f5-4914-9d1f-223e9a52a452
     part-of:
@@ -204,12 +268,14 @@
 - postx:
     id: 1922588708026404968
     account: cure_bass_baka
-    label: live
-    info: ENDLESSGAME
+    label: ENDLESSGAME on stage
     published-date: 2025-05-14
     text: |-
       ENDLESSGAME👾
-      #拡散中  #ネキ界隈  #NEKI
+       #拡散中  #ネキ界隈  #NEKI
+    translation: |-
+      ENDLESSGAME👾
+       #Spreading #NEKICircle #NEKI
     video:
     - 4c117af0-984b-4ba9-8a30-e82f968dd226
     part-of:
@@ -220,13 +286,16 @@
 - postx:
     id: 1926928034944213276
     account: natsu08_guitar
-    label: live
-    info: MAZE
+    label: MAZE on stage
     published-date: 2025-05-26
     text: |-
       5/4、革命ロジックからMAZEのギターソロの部分🌀
       照明がやばい！カッコ良すぎる！！
       #ネキ界隈 #拡散中 #MAZE
+    translation: |-
+      5/4, the guitar solo part of MAZE from Kakumei Logic🌀
+      The lighting is insane! Too cool!!
+      #NEKIKAIWAI #Spreading #MAZE
     video:
     - d7408dbc-320f-41a5-8e45-5ce994c99049
     part-of:

@@ -1,5 +1,26 @@
-group:
-  id: media
-  label: Media
-  part-of:
-    group: 2026
+- group:
+    id: media
+    label: Media
+    part-of:
+      group: 2026
+
+- webpage:
+    domain: mikiki.tokyo.jp
+    id: 43753
+    label: 16 new Japanese artists to watch in 2026
+    published-date: 2026-01-13
+    url: 'https://mikiki.tokyo.jp/articles/-/43753?page=2'
+    image: []
+    part-of:
+      group:
+        id: media
+        group: 2026
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - youtubevideo: js9WXQHa5J0
+    - webpage:
+        domain: mikiki.tokyo.jp
+        id: 43282
+

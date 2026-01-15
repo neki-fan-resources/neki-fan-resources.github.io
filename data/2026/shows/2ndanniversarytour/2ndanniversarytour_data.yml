@@ -45,6 +45,120 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postx:
+    id: 2011393045510643983
+    account: cure_bass_baka
+    label: Tour preparations
+    published-date: 2026-01-14
+    text: |-
+      ツアーの準備進んでるよ
+      かっこいい音もできた！
+    translation: |-
+      Tour preparations are moving along
+      I've made some cool sounds too!
+    image:
+    - G-nnTLOaQAAqT1s
+    part-of:
+      tour: 2ndanniversarytour
+
+- postx:
+    id: 2011674201158283267
+    account: nekiband_jp
+    label: Tickets lottery
+    published-date: 2026-01-15
+    text: |-
+      💫🎫TICKET🎫💫
+      
+      全12か所を巡る初の全国ツアー🔥
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026 」
+      
+      チケットは現在、各プレイガイド先行申込（抽選）受付中！
+      
+      🎟️ローチケ
+      https://l-tike.com/nekiband/
+      
+      🎟️e+
+      https://eplus.jp/nekiband/
+      
+      🎟️ぴあ
+      https://w.pia.jp/t/nekiband/
+      
+      ぜひお申込みください✅
+      
+      #NEKI
+    translation: |-
+      TICKET
+      
+      The first nationwide tour visiting 12 locations
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      Tickets are now available for advance application (lottery) at each play guide!
+      Lawson Ticket: https://l-tike.com/nekiband/
+      e+: https://eplus.jp/nekiband/
+      Pia: https://w.pia.jp/t/nekiband/
+      
+      Please be sure to apply #NEKI
+    part-of:
+      tour: 2ndanniversarytour
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n3d37c2c897c8
+        id: poster01
+
+- postx:
+    id: 2011772300887273544
+    account: nekiband_jp
+    label: Ticket lottery
+    published-date: 2026-01-15
+    text: |-
+      NEK!初の全国ツアーがあと3週間で始まるよ🚗³₃
+      
+      各プレイガイドで先行申込受付しています！！
+      強烈に尖ってて最高にフレッシュなスラングロックを生で体感してみませんか？？
+      一緒にアツい空間を楽しみましょう✊🏻🔥
+      
+      #NEKI
+    translation: |-
+      NEK!'s first nationwide tour starts in just 3 weeks 🚗³₃
+      
+      Advance applications are now being accepted at each play guide!!
+      Why not come and experience our intensely sharp and perfectly fresh "slang rock" live??
+      Let’s enjoy a heated atmosphere together ✊🏻🔥
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postx: 2011674201158283267
+
+- postximage:
+    post: 2011393045510643983
+    id: G-nnTLOaQAAqT1s
+    label: Rehearsal
+    info: Kanade
+    published-date: 2026-01-15
+    context:
+    - tour: 2ndanniversarytour
+    todo: name of the bass
+    part-of:
+      postx: 2011393045510643983
+
+- postxvideo:
+    post: 2011772300887273544
+    id: 01
+    label: On stage
+    info: Cocoro, encore
+    published-date: 2026-01-15
+    cover: 2011772193181741057/img/QmCsMak3PBm5SOH2.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 2011772300887273544
+
 - update:
     tour: 2ndanniversarytour
     date: 2025-10-03

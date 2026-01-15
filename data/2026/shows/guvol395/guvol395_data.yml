@@ -65,6 +65,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: hSCPj-QyOSM
                 - youtubeshort: 9RACyv2_ARo
                 - youtubeshort: tgPY-FoOtWk
     part-of:
@@ -557,6 +558,21 @@
     - show:
         year: 2026
         id: guvol395
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- youtubeshort:
+    id: hSCPj-QyOSM
+    label: On stage
+    info: studio audio
+    published-date: 2026-01-15
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    - song: getover
     part-of:
       show:
         year: 2026

@@ -15,11 +15,22 @@
                 - postximage:
                     post: 2007776383121117691
                     image: G90N-N4akAAw_RD
+                - postinstagramimage:
+                    post: DTFz2woEVJ7
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DTGFSKhkhiq
+                    image: 3
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 2007776383121117691
                     image: G90N-N5acAANp1Z
+                - postinstagramimage:
+                    post: DTGFSKhkhiq
+                    image: 2
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -72,6 +83,212 @@
       show:
         year: 2026
         id: guvol395
+
+- postinstagram:
+    id: DTFz2woEVJ7
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-01-04
+    text: |-
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      @ Shibuya eggman
+      
+      THANK YOU SOLD OUT!!!!
+      
+      2026年1本目、激熱ツーマンでした🔥
+      ご来場ありがとうございました🫶
+      
+      NEK!初の全国ツアー開催！
+      来月2/8(日)渋谷eggmanからスタート⚡️
+      
+      #TRiDENT さん
+      #TRiDENTJP
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      @ Shibuya eggman
+      
+      THANK YOU SOLD OUT!!!!
+      
+      The first show of 2026 was an intensely hot two-man live 🔥
+      Thank you for coming 🫶
+      
+      NEK!'s first nationwide tour is happening!
+      Starting next month on 2/8 (Sun) at Shibuya eggman ⚡️
+      
+      #TRiDENT
+      #TRiDENTJP
+      #NEKI
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+    reference:
+    - postximage:
+        post: 2007776383121117691
+        image: G90N-N5acAANp1Z
+    - postximage:
+        post: 2007776383121117691
+        image: G90N-N3awAAmOt-
+
+- postinstagram:
+    id: DTGFSKhkhiq
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-01-16
+    text: |-
+      2026.01.04
+      ⁡
+      Girl's UP!!! vol.395 
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      
+      念願のTRiDENTさんとのツーマンライブ！！
+      こんなぺーぺーな私たちと対バンしてくださったことに本当に心から感謝いたします、、！！
+      本当にありがとうございました🥲🙏🏻✨️
+      そして企画してくださった窪田さんにも大感謝です！！
+      
+      裏でもたくさんお話できて嬉しかった！優しすぎた〜〜！！
+      
+      姉さんたちのかっこいい背中追っかけて少しでも近づけるように頑張ります🔥
+      ⁡
+      #NEKI #TRiDENT #girlsband #drum #femaledrummer
+    translation: |-
+      2026.01.04
+      ⁡
+      Girl's UP!!! vol.395 
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      
+      The long-awaited two-man live with TRiDENT!!
+      I am truly grateful from the bottom of my heart that they did a joint gig with rookies like us...!!
+      Thank you so much🥲🙏🏻✨️
+      And a huge thank you to Kubota-san for planning this!!
+      
+      I was so happy we got to talk a lot backstage too! They were way too kind~~!!
+      
+      I’ll do my best to chase after our seniors' cool examples and get even a little bit closer to them🔥
+      ⁡
+      #NEKI #TRiDENT #girlsband #drum #femaledrummer
+    image:
+    - 2
+    - 3
+    todo: process report
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+    reference:
+    - postximage:
+        post: 2007827776326545900
+        image: G908t3BakAA-Lv7
+    - postximage:
+        post: 2007831566270296293
+        image: G91AJ5SbkAA3sx4
+
+- postinstagram:
+    id: DTVJ0xvEqX5
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2026-01-10
+    text: |-
+      .
+      2026.01.04
+      新年一発目のライブ
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      @ Shibuya eggman
+      
+      夢のような夢のようなTRiDENTさんとのツーマン！！✌🏻❤️‍🔥
+      このツーマンを実現できて、本当に幸せでした！！
+      TRiDENT姉様、みなさんとっても優しくて、、、
+      たくさんお話しもできて、嬉しかったです！！
+      
+      また対バンできるよう背中を追いかけ続けます🔱🔱
+      来てくださった皆さん！ありがとうございました！！
+    translation: |-
+      .
+      2026.01.04
+      The first live of the new year
+      Girl's UP!!! vol.395
+      -NEW YEAR SPECIAL TWO MAN SHOW!!-
+      @ Shibuya eggman
+      
+      A dream-like, dream-like two-man show with TRiDENT!!✌🏻❤️‍🔥
+      I was truly happy that we could make this two-man show happen!!
+      The TRiDENT ladies were all so kind...
+      I was so happy we got to talk a lot too!!
+      
+      I’ll keep chasing their lead so we can play together again🔱🔱
+      To everyone who came! Thank you so much!!
+    image:
+    - 3
+    todo: process report
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+    reference:
+    - postximage:
+        post: 2007837909957939342
+        image: G91F7u5aYAACIc0
+    - postximage:
+        post: 2007827776326545900
+        image: G908t3BakAA-Lv7
+    - postximage:
+        post: 2007831566270296293
+        image: G91AJ5SbkAA3sx4
+
+- postinstagramimage:
+    post: DTFz2woEVJ7
+    id: 2
+    label: On stage
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postinstagram: DTFz2woEVJ7
+
+- postinstagramimage:
+    post: DTGFSKhkhiq
+    id: 2
+    label: Backstage
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postinstagram: DTGFSKhkhiq
+
+- postinstagramimage:
+    post: DTGFSKhkhiq
+    id: 3
+    label: On stage
+    info: drums
+    published-date: 2026-01-04
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postinstagram: DTGFSKhkhiq
+
+- postinstagramimage:
+    post: DTVJ0xvEqX5
+    id: 3
+    label: On stage
+    published-date: 2026-01-16
+    context:
+    - show:
+        year: 2026
+        id: guvol395
+    part-of:
+      postinstagram: DTVJ0xvEqX5
 
 - postx:
     id: 1984817802424041686
@@ -543,6 +760,18 @@
     date: 2026-01-12
     text:
     - Images and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: guvol395
+
+- update:
+    show:
+      year: 2026
+      id: guvol395
+    date: 2026-01-17
+    text:
+    - Additional pictures from the show
     part-of:
       show:
         year: 2026

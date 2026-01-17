@@ -676,6 +676,68 @@
       - ol:
         - Where am I going？
 
+- postinstagram:
+    id: DM4_Ms8yuU3
+    account: natsu08_guitar
+    label: Moon playthrough
+    published-date: 2025-08-03
+    text: |-
+      .
+      moon / NEK!
+      
+      moonのギターソロ🌙
+      NEK!の曲の中でかなり好きなギターソロ 🎸
+      弦飛ばしのタッピングが聴きどころです✨
+      
+      この曲は夜に聴くことをおすすめします😌🌙
+      
+      #ネキ界隈 #拡散中 #guitarist #girlsband #moon
+    translation: |-
+      .
+      moon / NEK!
+      
+      Guitar solo from moon🌙
+      One of my absolute favorite guitar solos among NEK! songs 🎸
+      The string-skipping tapping is the highlight✨
+      
+      I recommend listening to this song at night😌🌙
+      
+      #NekiNeighborhood #NowSpreading #guitarist #girlsband #moon
+    part-of:
+      postxvideo:
+        post: 1951594575509999640
+        video: 01
+
+- postx:
+    id: 1951594575509999640
+    account: natsu08_guitar
+    label: Moon solo
+    published-date: 2025-08-02
+    text: |-
+      moon / NEK!
+      
+      NEK!の曲の中でかなり好きなギターソロ🌙 
+      弦飛ばしタッピングが難しい‼️
+      この曲は夜に聴くことを強くおすすめします😌
+      
+      #ネキ界隈 #拡散中 #NEKI #moon
+    video:
+    - 01
+    part-of:
+      song: moon
+
+- postxvideo:
+    post: 1951594575509999640
+    id: 01
+    label: Solo
+    info: Natsu
+    published-date: 2025-08-02
+    cover: 1951580037976924160/img/740-1qMzglOFA97Y.jpg
+    context:
+    - song: moon
+    part-of:
+      postx: 1951594575509999640
+
 - youtubeshort:
     id: w5iL7GzElXU
     label: Rehearsal

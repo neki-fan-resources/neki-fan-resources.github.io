@@ -81,6 +81,9 @@
                     post: DRWDX-5kWrw
                     image: 06
                 - postinstagramimage:
+                    post: DS7l9A0kl-K
+                    image: 1
+                - postinstagramimage:
                     post: DRWDX-5kWrw
                     image: 09
                 - postinstagramimage:
@@ -459,6 +462,30 @@
         - What's real, and what's a lie?
 
 - postinstagram:
+    id: DS7l9A0kl-K
+    account: 46_hikaa
+    label: 100k views
+    published-date: 2025-12-31
+    text: |-
+      「GiMMiCK」MV10万回再生突破‎っ‎‎✩.*
+      
+      2025もたくさんNEK!の曲を聴いてくれてありがとう。
+      来年は更に良い歌と音を世界に届けていくぞっ
+      
+       #neki
+    translation: |-
+      "GiMMiCK" MV surpassed 100,000 viewsっ‎‎✩.*
+      
+      Thank you for listening to NEK!'s songs so much in 2025.
+      Next year, we're going to deliver even better singing and sound to the world!
+      
+       #neki
+    image:
+    - 1
+    part-of:
+      postx: 2006227983917539641
+
+- postinstagram:
     id: DSCSCFSkQjw
     account: nekiband_jp
     label: 60k views
@@ -476,6 +503,17 @@
     - 04
     part-of:
       song: gimmick
+
+- postinstagramimage:
+    post: DS7l9A0kl-K
+    id: 1
+    label: MV image
+    info: Hika
+    published-date: 2025-12-31
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DS7l9A0kl-K
 
 - postinstagramimage:
     post: DSCSCFSkQjw

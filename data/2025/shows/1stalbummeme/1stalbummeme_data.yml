@@ -87,16 +87,28 @@
                 - postinstagramimage:
                     post: DSFNSS1E3xK
                     image: 02
+                - postinstagramimage:
+                    post: DRzcyQUkgt3
+                    image: 3
+                - postinstagramimage:
+                    post: DRzcyQUkgt3
+                    image: 2
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 1994381696935027104
                     image: G613JWSb0AAJE7z
+                - postinstagramimage:
+                    post: DRm1Kr-ktOU
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
                     post: DRreO_ZEvDZ
                     image: 01
+                - postinstagramimage:
+                    post: DRzcyQUkgt3
+                    image: 4
         - basicsection:
             label: At the event
             subsections:
@@ -125,6 +137,9 @@
                 - postinstagramimage:
                     post: DRtO4c2Etfo
                     image: 08
+                - postinstagramimage:
+                    post: DRm1Kr-ktOU
+                    image: 2
     - basicblock:
         id: multimedia
         label: image / video
@@ -143,6 +158,29 @@
                 - youtubeshort: FoofEnRp8NI
                 - youtubeshort: mZ2vH9xMLy8
                 - youtubeshort: aIdQUiCJV60
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- postinstagram:
+    id: DRm1Kr-ktOU
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-11-28
+    text: |-
+      1st Album『#MEME』リリース記念ワンマンライブ
+      📍横浜ReNY beta
+      
+      ソールドアウトありがとうございました！
+    translation: |-
+      1st Album『#MEME』Release Commemorative One-Man Live
+      📍Yokohama ReNY beta
+      
+      Thank you for the sell-out!
+    image:
+    - 1
+    - 2
     part-of:
       show:
         year: 2025
@@ -266,6 +304,78 @@
         image: G62XZExaAAAmgPY
 
 - postinstagram:
+    id: DRzcyQUkgt3
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2025-12-03
+    text: |-
+      .
+      NEK! 1st Album『MEME』
+      リリース記念ワンマンライブ
+       @ 横浜ReNY beta
+      改めてありがとうございました🌟
+      
+      たくさんの新曲を引っさげて挑んだリリースワンマン！
+      盛り上がってくれるかなと少し不安もありましたが、
+      そんな気持ちは一瞬で吹き飛ぶほどの熱気で、もう最高でした❤️‍🔥❤️‍🔥
+      本当に楽しかったーーーーー！！！
+      
+      ライブをするたびに思うんだけど、
+      ほんとにねー！！いつもみんなから元気をもらっています！！！
+      ありがとうございますございます❤️‍🔥
+      
+      「MEME」はNEK!にとって初のアルバム
+      これからのNEK!にとって欠かせない存在になっていく作品なので、
+      ずっとずっと愛し続けてもらえたら嬉しいです！💿
+      すでにライブや次の日のリリイベで、
+      みなさんがこのアルバムへの想いを、愛を伝えてくださって
+      思わずニマニマしちゃいましたけどね☺︎
+      これからも末長くよろしくお願いします🫶🏻🫶🏻
+      
+      #neki #guitarist #girlsband
+    translation: |-
+      .
+      NEK! 1st Album "MEME"
+      Release Commemorative One-Man Live
+       @ Yokohama ReNY beta
+      Thank you once again🌟
+      
+      A release one-man show where we challenged ourselves with many new songs!
+      I was a little worried if everyone would get into it,
+      but that feeling was blown away in an instant by the heat—it was just the best❤️‍🔥❤️‍🔥
+      It was seriously so much funーーーーー!!!
+      
+      I think this every time we do a live show,
+      but really!! I always get so much energy from all of you!!!
+      Thank you so so much❤️‍🔥
+      
+      "MEME" is NEK!'s first album.
+      Since it’s a work that will become indispensable for NEK! moving forward,
+      I’d be happy if you continue to love it forever and ever!💿
+      Already at the live and the release event the next day,
+      everyone expressed their thoughts and love for this album,
+      which honestly made me grin from ear to ear☺︎
+      I look forward to our long relationship ahead🫶🏻🫶🏻
+      
+      #neki #guitarist #girlsband
+    image:
+    - 2
+    - 3
+    - 4
+    todo: process report
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+    reference:
+    - postximage:
+        post: 1994413491135173104
+        image: G62UfaNbYAEJ2Jx
+    - postinstagramimage:
+        post: DRmr_TDEj8V
+        image: 07
+
+- postinstagram:
     id: DSFNSS1E3xK
     account: natsu08_guitar
     label: Guitar solo
@@ -285,6 +395,30 @@
     - postximage:
         post: 1994413491135173104
         image: G62UfaNaQAEDGX6
+
+- postinstagramimage:
+    post: DRm1Kr-ktOU
+    id: 1
+    label: Backstage
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRm1Kr-ktOU
+
+- postinstagramimage:
+    post: DRm1Kr-ktOU
+    id: 2
+    label: Screens
+    published-date: 2025-11-28
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRm1Kr-ktOU
 
 - postinstagramimage:
     post: DRmr_TDEj8V
@@ -462,6 +596,45 @@
         id: 1stalbummeme
     part-of:
       postinstagram: DRtO4c2Etfo
+
+- postinstagramimage:
+    post: DRzcyQUkgt3
+    id: 2
+    label: On stage
+    info: Natsu
+    published-date: 2025-12-03
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRzcyQUkgt3
+
+- postinstagramimage:
+    post: DRzcyQUkgt3
+    id: 3
+    label: On stage
+    info: Natsu
+    published-date: 2025-12-03
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRzcyQUkgt3
+
+- postinstagramimage:
+    post: DRzcyQUkgt3
+    id: 4
+    label: Backstage
+    info: Natsu
+    published-date: 2025-12-03
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postinstagram: DRzcyQUkgt3
 
 - postinstagramimage:
     post: DSFNSS1E3xK
@@ -1237,6 +1410,18 @@
     date: 2025-12-22
     text:
     - Cocoro-cam on Get Over
+    part-of:
+      show:
+        year: 2025
+        id: 1stalbummeme
+
+- update:
+    show:
+      year: 2025
+      id: 1stalbummeme
+    date: 2026-01-17
+    text:
+    - A few more Natsu pictures
     part-of:
       show:
         year: 2025

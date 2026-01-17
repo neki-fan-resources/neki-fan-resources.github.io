@@ -39,10 +39,58 @@
                 - postximage:
                     post: 2005966499958382930
                     image: G9af4zab0AA2lgk
+                - postinstagramimage:
+                    post: DS6ohbTkW_f
+                    image: 01
     part-of:
       show:
         year: 2025
         id: livediga
+
+- postinstagram:
+    id: DS6ohbTkW_f
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-12-31
+    text: |-
+      2025.12.30(Tue.)
+      「LIVE DI:GA JUDGEMENT 2025」
+      @ SHIBUYA TAKE OFF 7
+      
+      thank you!!!!
+      
+      NEXT LIVE➡︎
+      2026/1/4(Sun.)
+      「Girl's UP!!! vol.395-NEW YEAR SPECIAL TWO MAN SHOW!!-」
+      @ Shibuya eggman
+      w/ TRiDENT
+      
+      #NEKI
+    image:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: livediga
+    reference:
+    - postximage:
+        post: 2005966499958382930
+        image: G9af4zab0AA2lgk
+    - postximage:
+        post: 2006004818280952078
+        image: G9bCv4nbMAA0Fl9
+
+- postinstagramimage:
+    post: DS6ohbTkW_f
+    id: 01
+    label: Band
+    published-date: 2025-12-31
+    context:
+    - show:
+        year: 2025
+        id: livediga
+    part-of:
+      postinstagram: DS6ohbTkW_f
 
 - postx:
     id: 1996867357894234264

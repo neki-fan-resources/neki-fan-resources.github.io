@@ -16,7 +16,7 @@
 - postx:
     id: 1936243875687137663
     account: gbs847
-    label: _
+    label: Soon
     published-date: 2025-05-21
     text: |-
       この後13時からの #ゴブサタ は4人組ガールズバンド #NEK! からHikaさんとNatsuさんがゲストに登場！✨
@@ -24,6 +24,12 @@
       📩gbs@fmyokohama.jp
       
       #FMヨコハマ
+    translation: |-
+      Coming up at 13:00 on #Gobusata, Hika and Natsu from the 4-piece girl band #NEK! will appear as guests! ✨
+      We'll be asking them all about their new single "OOAK" currently on sale!
+      📩gbs@fmyokohama.jp
+      
+      #FMYokohama
     image:
     - Gt7rilaXoAAxHRl
     part-of:
@@ -34,7 +40,7 @@
 - postx:
     id: 1936301742964290030
     account: gbs847
-    label: At the station
+    label: Up next
     published-date: 2025-05-21
     text: |-
       この後、ゲストに4人組ガールズバンド・NEK!からHikaさんとNatsuさんが登場です✨
@@ -43,6 +49,13 @@
       リリース中のニューシングル「OOAK」についてお話を伺っていきます！！
       
       #FMヨコハマ #ゴブサタ
+    translation: |-
+      Up next, Hika and Natsu from the 4-piece girl band NEK! will appear as guests ✨
+      📻 https://radiko.jp/share/?sid=YFM&t=20250621145127
+      
+      We'll be asking them all about their new single "OOAK" currently on sale!!
+      
+      #FMYokohama #Gobusata
     image:
     - Gt8gHF3XgAAazpl
     part-of:
@@ -63,6 +76,14 @@
       https://instagram.com/nekiband_jp/
       
       #FMヨコハマ
+    translation: |-
+      On today's #Gobusata, we were joined by Hika and Natsu from the 4-piece girl band NEK! ✨
+      "OOAK" is currently out now to great acclaim!
+      
+      For more detailed information, please check out NEK!'s various social media accounts 👀
+      https://instagram.com/nekiband_jp/
+      
+      #FMYokohama
     image:
     - Gt8oYqAbwAML8pq
     part-of:
@@ -73,7 +94,7 @@
 - postx:
     id: 1936313898661298282
     account: nekiband_jp
-    label: At the station
+    label: Thank you
     published-date: 2025-05-21
     text: |-
       Fm yokohama「God Bless Saturday」
@@ -91,6 +112,22 @@
       https://l-tike.com/nekiband/
       
       #NEKI #FMヨコハマ #ゴブサタ
+    translation: |-
+      Fm yokohama "God Bless Saturday"
+      
+      Thank you for listening 📻
+      
+      New song "OOAK" MV now available▼
+      https://youtu.be/qGEzCjYvWZw
+      
+      Holding on 8/30 (Sat)
+      NEK! 1ST ZEPP ONE MAN【#NowTrending #NekiCircle】
+      📍Zepp Shinjuku
+      
+      First-come, first-served advance tickets now available▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #FMYokohama #Gobusata
     image:
     - Gt8rOAnXoAADXyX
     part-of:
@@ -101,11 +138,14 @@
 - postx:
     id: 1936314534777831611
     account: 46_hikaa
-    label: Thanks you for listening
+    label: Thanks you
     published-date: 2025-05-21
     text: |-
       すごい楽しかったぁー！！
       お聴き頂きありがとうございました！！
+    translation: |-
+      That was so much fun!!
+      Thank you for listening!!
     image:
     - Gt8rzbGWgAAikiR
     part-of:
@@ -114,13 +154,18 @@
 - postx:
     id: 1936315279094825472
     account: natsu08_guitar
-    label: Thanks you for listening
+    label: Thanks you
     published-date: 2025-05-21
     text: |-
       Fm yokohama「God Bless Saturday」
       
       お聴きいただきありがとうございましたー！！！
       ずっっと楽しかった😂🌟🌟🌟
+    translation: |-
+      Fm yokohama "God Bless Saturday"
+      
+      Thank you so much for listening—!!!
+      It was fun the whole time 😂🌟🌟🌟
     image:
     - Gt8settbwAAxGNd
     part-of:

@@ -9,6 +9,10 @@ show:
   date: 2025-06-28
   venue: darwin, Sendai
   event-page: 'https://sendaimusicfuse.com'
+  part-of:
+    group:
+      id: shows
+      group: 2025
   multimedia:
     video:
     - postxvideo:

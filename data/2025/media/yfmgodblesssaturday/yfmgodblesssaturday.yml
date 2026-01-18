@@ -17,6 +17,10 @@ mediaaudio:
   host: じゅんご (Jungo), 田﨑さくら (Tazaki Sakura)
   program: 'https://www.fmyokohama.jp/gbs/2025/06/nek.html'
   webpage: 'https://www.fmyokohama.jp/gbs/'
+  part-of:
+    group:
+      id: media
+      group: 2025
   multimedia:
     image:
     - postximage:

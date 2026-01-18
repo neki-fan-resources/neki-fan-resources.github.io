@@ -16,3 +16,7 @@ mediaaudio:
   published-date: 2025-06-25
   host: 矢野七絵 (Nanae Yano)
   webpage: 'https://www.e-radio.co.jp/personality/%e7%9f%a2%e9%87%8e%e4%b8%83%e7%b5%b5/'
+  part-of:
+    group:
+      id: media
+      group: 2025

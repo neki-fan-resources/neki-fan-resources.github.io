@@ -304,31 +304,10 @@
         id: kakumeilogic2025
 
 - postx:
-    id: 1929389485147721772
-    account: coco_102
-    label: live
-    info: Get Over
-    published-date: 2025-06-02
-    text: |-
-      🪩 🪩 🪩 🪩 🪩 Get Over 🪩 🪩 🪩 🪩 🪩
-      
-      今日も下北沢にてツーマンライブ！ソールド感謝！！
-      みんなで最高の夜にしましょう🥹🤘🏻🔥
-      またあとでねー！！
-      
-      #NEKI #拡散中 #ネキ界隈
-    video:
-    - 01
-    part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
-
-- postx:
     id: 1935184418047672438
     account: coco_102
-    label: live
-    info: MAZE
+    label: MAZE on stage
+    info: Cocoro
     published-date: 2025-06-18
     text: |-
       ちょっと最近この衣装が恋しくなってきてます^._.^
@@ -338,6 +317,14 @@
       Zeppは一体どーなってしまうんでしょうか、、、！
       
       #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      I've been missing this outfit a little bit lately^._.^
+      
+      More importantly, MAZE is really great after all☝🏻🌀
+      The sense of unity between us and the floor during the live feels the best by far!
+      I wonder what's going to happen at Zepp... !
+      
+      #NEKI #CurrentlySpreading #NEKICircle
     video:
     - 01
     part-of:
@@ -538,21 +525,6 @@
     - song: maze
     part-of:
       postx: 1926928034944213276
-
-- postxvideo:
-    post: 1929389485147721772
-    id: 01
-    label: Live
-    info: Cocoro
-    published-date: 2025-06-02
-    cover: 1929389340653912064/img/temN0bVjZ3xG2oFX.jpg
-    context:
-    - show:
-        year: 2025
-        id: kakumeilogic2025
-    - song: getover
-    part-of:
-      postx: 1929389485147721772
 
 - postxvideo:
     post: 1935184418047672438

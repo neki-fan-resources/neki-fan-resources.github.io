@@ -1,7 +1,7 @@
 - postx:
     id: 1933086980537225689
     account: nekiband_jp
-    label: announcement
+    label: Announcement
     published-date: 2025-06-12
     text: |-
       🔥情報解禁🔥
@@ -23,6 +23,26 @@
       #SMF
       #SMF2025
       #FUSE
+    translation: |-
+      🔥Info Released🔥
+      
+      Held on 6/28 (Sat)
+      "SENDAI MUSIC FUSE 2025"
+      
+      NEK! appearance confirmed & timetable released💥
+      
+      14:00~14:30
+      Performing at Sendai darwin❤️‍🔥
+      
+      This is our first-ever live in Sendai!
+      We'll be waiting for you🫶
+      
+      🔗http://sendaimusicfuse.com
+      
+      #NEKI 
+      #SMF
+      #SMF2025
+      #FUSE
     image:
     - GtOzLBnbYAA_1f5
     - GtOzLB3bMAAkuR1
@@ -34,7 +54,7 @@
 - postx:
     id: 1938118631382258146
     account: natsu08_guitar
-    label: in 2 days
+    label: In 2 days
     published-date: 2025-06-26
     text: |-
       明後日はついに初仙台❗️❗️❗️🥩
@@ -46,6 +66,16 @@
       最高の思い出つくろーね〜！🫶🏻🫶🏻🫶🏻
       
       #ネキ界隈 #拡散中 #NEKI
+    translation: |-
+      Day after tomorrow is finally the first Sendai❗️❗️❗️🥩
+      
+      💥 "SENDAI MUSIC FUSE2025" 💥
+      NEK! is at Sendai darwin, from 14:00~!
+      
+      Are you ready to have fun!!
+      Let's make the best memories~! 🫶🏻🫶🏻🫶🏻
+      
+      #NEKI-kaiwai #SpreadingNow #NEKI
     todo: dream video, where from ?
     part-of:
       show:
@@ -65,6 +95,13 @@
       また来たいなー！楽しかった😌🫶🏻
       
       #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Thank you for our first Sendai live!!
+      Here's a little clip of the hot atmosphere at the venue!!
+      
+      I want to come back again! It was so much fun 😌🫶🏻
+      
+      #NEKI #SpreadingNow #NEKI-kaiwai
     video:
     - 01
     part-of:
@@ -122,9 +159,26 @@
       🎟️https://l-tike.com/nekiband/
       
       #NEKI #SMF #SMF2025 #FUSE
+    translation: |-
+      SENDAI MUSIC FUSE 2025
+      @ Sendai darwin
+      
+      Our first Sendai!
+      Thank you so much❣️
+      
+      Please post your thoughts on the new song "OOAK" (which was filmed today) and the live show using #NEKI 🫶
+      
+      Held on 8/30 (Sat)
+      NEK! 1ST ZEPP ONE MAN【#SpreadingNow #NEKI-kaiwai】
+      📍Zepp Shinjuku
+      
+      🎟️https://l-tike.com/nekiband/
+      
+      #NEKI #SMF #SMF2025 #FUSE
     image:
     - GuhJ7uKWcAA2JH3
     - GuhJ7t9XEAAlg5u
+    todo: SNS videos of OOAK ?
     part-of:
       show:
         year: 2025

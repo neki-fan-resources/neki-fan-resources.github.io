@@ -205,7 +205,7 @@
 - postx:
     id: 1929512124243411173
     account: nekiband_jp
-    label: announcement OOAK release
+    label: Announcement
     published-date: 2025-06-02
     text: |-
       🎊情報解禁🎊
@@ -218,6 +218,17 @@
       🔗https://pci.lnk.to/nek_ooak
       
       #NEKI #OOAK
+    translation: |-
+      🎊Information Unveiled🎊
+      
+      New Song "OOAK"
+      
+      Digital Release Confirmed for 6/4 (Wed) at 0:00🎧
+      Cover Art Also Revealed💥
+      
+      🔗https://pci.lnk.to/nek_ooak
+      
+      #NEKI #OOAK
     image:
     - GscBBL6bgAAwvmM
     part-of:
@@ -226,7 +237,7 @@
 - postx:
     id: 1930096228966248749
     account: nekiband_jp
-    label: everyone sings
+    label: OOAK on stage
     published-date: 2025-06-04
     text: |-
       New Single 「OOAK」
@@ -237,7 +248,17 @@
       
       ライブ映像も少しお見せしちゃお🫶
       
-      #ネキ界隈  #拡散中  #NEKI
+       #ネキ界隈  #拡散中  #NEKI
+    translation: |-
+      New Single "OOAK"
+      
+      What does everyone think!
+      
+      It's super fun at live shows because everyone sings "Hey!" and "Yeah!" together with us!
+      
+      I'll show you a little bit of the live footage too 🫶
+      
+       #NEKI community #spreading #NEKI
     video:
     - 54904afa-0889-4f5e-a1b1-fe705c2c671d
     part-of:
@@ -246,7 +267,7 @@
 - postx:
     id: 1932750181457670312
     account: natsu08_guitar
-    label: part I like
+    label: OOAK Playthrough
     published-date: 2025-06-11
     text: |-
       OOAK / NEK!
@@ -258,6 +279,16 @@
       落ちサビ〜ラスサビ〜アウトロ（＋コーラス）部分が好きです🎸🎸💛
       
       #ネキ界隈 #拡散中 #NEKI
+    translation: |-
+      OOAK / NEK!
+      
+      Hey!You!!!! 
+      Are you all enjoying the new song?❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      Personally, I like this part
+      from the bridge ~ final chorus ~ outro (+ chorus)🎸🎸💛
+      
+      #NEKIcommunity #SpreadingTheWord #NEKI
     video:
     - 01
     part-of:
@@ -286,7 +317,7 @@
 - postx:
     id: 1935668905244336459
     account: nekiband_jp
-    label: MV premier ready on YouTube
+    label: MV premiere tomorrow
     published-date: 2025-06-19
     text: |-
       ◥◣ #OOAK ◢◤
@@ -301,15 +332,47 @@
       🔗https://youtu.be/qGEzCjYvWZw
       
       #NEKI
+    translation: |-
+      ◥◣ #OOAK ◢◤
+      
+      Tomorrow 6/20 (Fri) 21:00
+      Premiere release on YouTube💥
+      
+      "OOAK" Official Music Video
+      
+      Please gather on YouTube tomorrow at 21:00🎥
+      
+      🔗https://youtu.be/qGEzCjYvWZw
+      
+      #NEKI
     image:
     - GtzabMUXgAAmDvN
     part-of:
       song: ooak
 
 - postx:
+    id: 1936641866231120142
+    account: nekiband_jp
+    label: 10k views
+    published-date: 2025-06-22
+    text: |-
+      "OOAK"
+      Official Music Video
+      
+      10,000 VIEWS THANK YOU☝️
+      
+      https://youtu.be/qGEzCjYvWZw
+      
+      #NEKI #OOAK
+    image:
+    - GuBVgppXoAAIvxG
+    part-of:
+      song: ooak
+
+- postx:
     id: 1936646576686153867
     account: coco_102
-    label: MV 10k views
+    label: 10k views
     published-date: 2025-06-22
     text: |-
       OOAK Music Video 1万回再生突破ー！！！！
@@ -317,11 +380,17 @@
       早すぎ！！本当にありがとうございます🙏🏻🩷
       
       感謝の気持ちを込めてインスタの方にたくさんオフショット載せたのでぜひ観てねー！
+    translation: |-
+      OOAK Music Video has surpassed 10,000 views!!!!
+      
+      So fast!! Thank you so so much 🙏🏻🩷
+      
+      I posted a lot of off-shots on Instagram to show my gratitude, so please go check them out!
     image:
     - GuBZxw1XUAA8lrO
     - GuBZxwPaEAAI5wJ
     part-of:
-      song: ooak
+      postx: 1936641866231120142
 
 - postx:
     id: 1945857878520475910
@@ -378,6 +447,16 @@
       postx: 1935668905244336459
 
 - postximage:
+    post: 1936641866231120142
+    id: GuBVgppXoAAIvxG
+    label: 10k views
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      postx: 1936641866231120142
+
+- postximage:
     post: 1936646576686153867
     id: GuBZxw1XUAA8lrO
     label: Music Video
@@ -408,6 +487,7 @@
     cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
     context:
     - song: ooak
+    todo: which show ?
     part-of:
       postx: 1930096228966248749
 

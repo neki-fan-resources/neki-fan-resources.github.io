@@ -22,38 +22,3 @@
     part-of:
       youtubevideo: IeBks9yGO4A
 
-- postx:
-    id: 1931984997382316384
-    account: nekiband_jp
-    label: tickets available
-    published-date: 2025-06-09
-    text: |-
-      ￼￼#ロックの日￼￼
-      
-      8/30(土)
-      NEK!初のZEPP ONE MAN開催￼
-      
-      Live at Zepp Shinjuku￼
-      チケット先着先行受付中！
-      
-      ￼ https://l-tike.com/nekiband/
-      
-      #NEKI #拡散中 #ネキ界隈
-    image:
-    - Gs_KDFfb0AAtXQ1
-    part-of:
-      youtubevideo: IeBks9yGO4A
-
-- postximage:
-    post: 1931984997382316384
-    id: Gs_KDFfb0AAtXQ1
-    label: On stage
-    info: from the crowd
-    published-date: 2025-06-09
-    context:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
-    part-of:
-      postx: 1931984997382316384
-

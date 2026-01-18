@@ -9,6 +9,10 @@ show:
   date: 2025-07-27
   venue: Daikanyama UNIT, Tokyo
   event-page: 'https://t.co/BpGhUev7VT'
+  part-of:
+    group:
+      id: shows
+      group: 2025
   multimedia:
     main:
       postximage:

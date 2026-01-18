@@ -1324,6 +1324,25 @@
       song: maze
 
 - postx:
+    id: 1927692644982898863
+    account: nekiband_jp
+    label: 300k views
+    published-date: 2025-05-28
+    text: |-
+      "MAZE"
+      Official Music Video
+      
+      300,000 VIEWS THANK YOU🌀
+      
+      https://youtu.be/EHtWJmMybGY
+      
+      #NEKI #MAZE
+    image:
+    - GsCKPH6awAAuZoh
+    part-of:
+      song: maze
+
+- postx:
     id: 1929111367635603641
     account: 46_hikaa
     label: 300k views
@@ -1334,10 +1353,16 @@
       
       懐かしい動画出てきたので
       一緒に投稿しちゃお🫶
+    translation: |-
+      "MAZE" Official Music Video
+      Thank you for 300,000 views!!
+      
+      Since I found a nostalgic video
+      I'll post it together with this 🫶
     video:
     - 8b76cee5-46f4-4336-9c6a-f5e2767298b3
     part-of:
-      song: maze
+      postx: 1927692644982898863
 
 - postx:
     id: 1942536099408060918
@@ -1466,6 +1491,16 @@
     - 01
     part-of:
       song: maze
+
+- postximage:
+    post: 1927692644982898863
+    id: GsCKPH6awAAuZoh
+    label: 300k views
+    published-date: 2025-05-28
+    context:
+    - song: maze
+    part-of:
+      postx: 1927692644982898863
 
 - postxvideo:
     post: 1757661923750052131

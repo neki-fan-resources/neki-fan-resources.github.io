@@ -98,6 +98,44 @@
         id: 1stzepponeman
 
 - postx:
+    id: 1931984997382316384
+    account: nekiband_jp
+    label: Tickets available
+    published-date: 2025-06-09
+    text: |-
+      💥🎸#ロックの日🎸💥
+      
+      8/30(土)
+      NEK!初のZEPP ONE MAN開催🔥
+      
+      Live at Zepp Shinjuku⚡️
+      チケット先着先行受付中！
+      
+      🔗 https://l-tike.com/nekiband/
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      💥🎸#RockDay🎸💥
+      
+      8/30 (Sat)
+      NEK! first ZEPP ONE MAN to be held🔥
+      
+      Live at Zepp Shinjuku⚡️
+      First-come, first-served advance tickets now available!
+      
+      🔗 https://l-tike.com/nekiband/
+      
+      #NEKI #SpreadingTheWord #NEKIcommunity
+    image:
+    - Gs_KDFfb0AAtXQ1
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    reference:
+    - youtubevideo: IeBks9yGO4A
+
+- postx:
     id: 1950563193366954288
     account: 46_hikaa
     label: Rehearsal dreams
@@ -155,6 +193,19 @@
       show:
         year: 2025
         id: 1stzepponeman
+
+- postximage:
+    post: 1931984997382316384
+    id: Gs_KDFfb0AAtXQ1
+    label: On stage
+    info: from the crowd
+    published-date: 2025-06-09
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1931984997382316384
 
 - postximage:
     post: 1961015583069335728

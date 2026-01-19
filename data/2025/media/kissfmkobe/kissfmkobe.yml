@@ -17,6 +17,10 @@ mediaaudio:
   host: Skuku Mihoko, Kondo Gakuto
   program: 'https://radiko.jp/#!/ts/KISSFMKOBE/20250718150000'
   webpage: 'https://www.kiss-fm.co.jp/viva/'
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - Natsu and Kanade are guest of the show 'Viva la radio' on Kiss FM.
   multimedia:

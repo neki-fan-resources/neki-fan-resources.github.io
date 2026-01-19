@@ -122,7 +122,7 @@
 - postx:
     id: 1943143169446822118
     account: minamiwheel
-    label: First artits list
+    label: Announcement lineup
     published-date: 2025-07-10
     text: |-
       \\お待たせしました！！//
@@ -137,6 +137,19 @@
       
       詳しくは #ミナホ 公式HPまで！！
       https://minamiwheel.jp
+    translation: |-
+      \\ Sorry for the wait!! //
+      
+      #FM802 MINAMI WHEEL 2025 
+      First wave of performers announced!! 🔥🔥
+      
+      This year, it's being held on 10/11(Sat), 12(Sun), and 13(Mon, Holiday)!
+      
+      Official early bird ticket sales for the great value 3-DAY PASS, which lets you enjoy all three days to the fullest, have also begun!
+      They're sure to sell out, so get yours early!
+      
+      For details, check the #Minaho official website!!
+      https://minamiwheel.jp
     image:
     - GvduaMoXgAAkU2_
     part-of:
@@ -147,7 +160,7 @@
 - postx:
     id: 1943145229357584494
     account: nekiband_jp
-    label: announcement
+    label: Announcement
     published-date: 2025-07-10
     text: |-
       🔥情報解禁🔥
@@ -162,6 +175,19 @@
       🔗https://minamiwheel.jp
       
       #NEKI #ミナホ
+    translation: |-
+      🔥 Information Release 🔥
+      
+      Held from 10/11 to 10/13
+      " #FM802 MINAMI WHEEL 2025"
+      
+      NEK! is confirmed to perform ❤️‍🔥
+      
+      Performance date, time, and venue will be announced later ⚡️
+      
+      🔗https://minamiwheel.jp
+      
+      #NEKI #Minaho
     image:
     - GvdwSAWakAAlKdJ
     - GvdwSAzWYAAl-Oo
@@ -173,7 +199,7 @@
 - postx:
     id: 1950844299064799526
     account: nekiband_jp
-    label: day announcement
+    label: Day announcement
     published-date: 2025-07-31
     text: |-
       📅出演日発表📅
@@ -188,6 +214,19 @@
       ▶︎https://w.pia.jp/t/mw-052
       
       #NEKI #ミナホ
+    translation: |-
+      📅 Performance date announcement 📅
+      
+      "#FM802 MINAMI WHEEL 2025"
+      
+      NEK!'s performance is set for 10/13 (Mon/Holiday) 🔥
+      
+      The performance venue will be announced at a later date!
+      
+      Get advance tickets here 🎫
+      ▶︎https://w.pia.jp/t/mw-052
+      
+      #NEKI #Minaho
     image:
     - GxLKemBagAAsW-L
     part-of:

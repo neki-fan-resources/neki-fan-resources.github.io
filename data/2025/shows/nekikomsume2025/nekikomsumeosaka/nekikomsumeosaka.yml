@@ -14,6 +14,8 @@ show:
   - mainshow
   venue: LIVE SQUARE 2nd LINE
   todo: event-page
+  part-of:
+    tour: nekikomsume2025
   multimedia:
     short:
     - postxvideo:

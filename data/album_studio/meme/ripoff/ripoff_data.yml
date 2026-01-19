@@ -1410,6 +1410,38 @@
         - And I won’t let this faraway future end just yet
 
 - postx:
+    id: 1949439923565826120
+    account: nekiband_jp
+    label: Release announcement
+    published-date: 2025-07-27
+    text: |-
+      🎊情報解禁🎊
+      
+      新曲「rip-off」
+      
+      8/6(水)0時 配信リリース決定🎧
+      ジャケットも公開⚡️
+      
+      🔗https://PCI.lnk.to/rip-off
+      
+      #NEKI #ripoff
+    translation: |-
+      🎊Information Reveal🎊
+      
+      New Song "rip-off"
+      
+      Digital release set for 8/6 (Wed) at 0:00🎧
+      Cover art also revealed⚡️
+      
+      🔗https://PCI.lnk.to/rip-off
+      
+      #NEKI #ripoff
+    image:
+    - Gw3NH3ubMAA1o7y
+    part-of:
+      song: ripoff
+
+- postx:
     id: 1957004284782055894
     account: 46_hikaa
     label: rehearsal rip-off

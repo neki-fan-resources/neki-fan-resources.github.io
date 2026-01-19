@@ -16,7 +16,7 @@
 - postx:
     id: 1946096706078343193
     account: SMASHING_FRIDAY
-    label: amemura requests
+    label: On Amemura Vision
     published-date: 2025-07-18
     text: |-
       #アメ村リクエスト🇺🇸
@@ -26,6 +26,14 @@
       
       #fm大阪 
       #スマフラ
+    translation: |-
+      #AmemuraRequest🇺🇸
+      
+      We've arrived!
+      If you're nearby, please come by—!
+      
+      #FMOsaka 
+      #SmaFla
     image:
     - GwHsTcHawAAH0pk
     part-of:
@@ -46,7 +54,7 @@
       6月4日に『 #OOAK 』をリリースしました🎉
       
       『 NEK!/komsume TWO-MAN 
-        SHOW powered by Diggin' Sound 』
+         SHOW powered by Diggin' Sound 』
       🗓️ 今日！！7月18日
       📍 大阪・LIVE SQUARE 2nd LINE
       🔗 https://note.com/nekiband_jp/n/nb50d1c0b1dd3
@@ -54,6 +62,22 @@
       radiko📻🔗 https://radiko.jp/share/?sid=FMO&t=20250718153020
       
       #FM大阪 #スマフラ
+    translation: |-
+      ／
+      　Our guests were #NEK! 💖
+      ＼
+      
+      They released " #OOAK " on June 4th🎉
+      
+      " NEK!/komsume TWO-MAN 
+         SHOW powered by Diggin' Sound "
+      🗓️ TODAY!! July 18th
+      📍 Osaka・LIVE SQUARE 2nd LINE
+      🔗 https://note.com/nekiband_jp/n/nb50d1c0b1dd3
+      
+      radiko📻🔗 https://radiko.jp/share/?sid=FMO&t=20250718153020
+      
+      #FMOsaka #SmaFla
     image:
     - GwHyd8hagAA3MZ6
     part-of:
@@ -64,7 +88,7 @@
 - postx:
     id: 1946103934915166259
     account: nekiband_jp
-    label: Thanks you
+    label: Thank you
     published-date: 2025-07-18
     text: |-
       FM大阪「SMASH(ing) FRIDAY」
@@ -77,6 +101,17 @@
       18:30より若干数当日券の販売がございます🎟️
       
       #NEKI
+    translation: |-
+      FM Osaka "SMASH(ing) FRIDAY"
+      
+      Thank you for listening📻
+      
+      Tonight is the two-man show🔥
+      "NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound"
+      
+      A limited number of same-day tickets will be on sale starting at 18:30🎟️
+      
+      #NEK!
     image:
     - GwHzNCIWwAAilIt
     part-of:

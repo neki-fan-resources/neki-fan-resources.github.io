@@ -136,22 +136,6 @@
     - youtubevideo: IeBks9yGO4A
 
 - postx:
-    id: 1950563193366954288
-    account: 46_hikaa
-    label: Rehearsal dreams
-    published-date: 2025-07-30
-    text: |-
-      リハ映像👀🫶🏻 ̖́-
-      
-      #ネキ界隈   #NEKI
-    video:
-    - 01
-    part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
-
-- postx:
     id: 1956675862444769366
     account: natsu08_guitar
     label: Fun at the rehearsal
@@ -220,20 +204,6 @@
       postx: 1961015583069335728
 
 - postxvideo:
-    post: 1950563193366954288
-    id: 01
-    label: Rehearsal
-    published-date: 2025-07-30
-    cover: 1950563128963670016/img/DakJQTC9LcIAMDdT.jpg
-    context:
-    - song: dreams
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      postx: 1950563193366954288
-
-- postxvideo:
     post: 1956675862444769366
     id: 01
     label: Rehearsal
@@ -292,6 +262,34 @@
         id: tricktakingtourtokyo
 
 - youtubeshort:
+    id: He1zOmOk7b0
+    label: Cocoro's week
+    info: About the evolution since the first show
+    published-date: 2025-07-28
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: Nn2dWG_ZX4w
+    label: Cocoro's week
+    info: About the other members
+    published-date: 2025-07-29
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
     id: lFPBSexcRHM
     label: Live
     info: intro
@@ -301,6 +299,20 @@
         year: 2025
         id: 1stzepponeman
     - song: getover
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: xkn_J3iNANI
+    label: Cocoro's week
+    info: About NEK! 1ST ZEPP ONE MAN
+    published-date: 2025-07-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
     part-of:
       show:
         year: 2025

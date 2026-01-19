@@ -282,7 +282,8 @@
 - postx:
     id: 1945413820660523501
     account: natsu08_guitar
-    label: GoPro debut
+    label: Reigen Girl rehearsal
+    info: GoPro debut
     published-date: 2025-07-16
     text: |-
       ついに私もGoProデビューしたよー🌟
@@ -291,6 +292,13 @@
       ライブで付けたら躍動感すごそう❤️‍🔥
       
       #ネキ界隈 #拡散中 #NEKI
+    translation: |-
+      I've finally made my GoPro debut! 🌟
+      
+      I wondered if it would fit since the Washburn head is so small, but it worked thanks to that amazing grip strength 🎸📹
+      The sense of dynamism is going to be incredible if I wear it during a live show ❤️‍🔥
+      
+      #NEKI_Community #SpreadingTheWord #NEK!
     video:
     - 01
     part-of:
@@ -299,12 +307,16 @@
 - postx:
     id: 1946145450060288257
     account: 46_hikaa
-    label: Practice
+    label: Reigen Girl rehearsal
     published-date: 2025-07-18
     text: |-
       練習風景✩.*˚
       
-      #ネキ界隈  #NEKI  #令現少女
+       #ネキ界隈  #NEKI  #令現少女
+    translation: |-
+      Practice footage✩.*˚
+      
+       #NEKI_Community #NEK! #Reigen_Shojo
     video:
     - 01
     part-of:
@@ -313,17 +325,23 @@
 - postx:
     id: 1948675930446332316
     account: 46_hikaa
-    label: Rehearsal
+    label: Reigen Girl rehearsal
     info: chorus
     published-date: 2025-07-24
     text: |-
       練習風景✩.*˚令現少女のサビ✩.*˚
       
-      #ネキ界隈  #令現少女
+       #ネキ界隈  #令現少女
+    translation: |-
+      Practice scene✩.*˚ Chorus of Reigen Shoujo✩.*˚
+      
+       #NEKcommunity #ReigenShoujo
     video:
     - 01
     part-of:
-      song: reigengirl
+      postxvideo:
+        post: 1948675930446332316
+        video: 01
 
 - postx:
     id: 1955966782872936961

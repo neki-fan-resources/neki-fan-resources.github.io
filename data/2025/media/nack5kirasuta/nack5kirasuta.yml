@@ -17,6 +17,10 @@ mediaaudio:
   host: 桜井雅斗 (Sakai Naoto), 斉藤百香 (Momoka Saito)
   program: 'https://www.nack5.co.jp/blog/kirasuta795/17430/'
   webpage: 'https://www.nack5.co.jp/program/kirasuta795/'
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - Hika and Cocoro are guest of the show 'キラスタ (kirasuka)' on NACK5.
   multimedia:

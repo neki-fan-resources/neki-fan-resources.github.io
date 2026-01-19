@@ -18,6 +18,10 @@ mediaaudio:
   program: 'https://radiko.jp/#!/ts/CRK/20250718100000'
   webpage: 'https://jocr.jp/programsite/utakaze/'
   todo: support show short name ( ~brunch~ was removed)
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - Natsu and Kanade are guest of the show 'Singing Voice on the Wind ~Brunch~' on radio Kansai.
   multimedia:

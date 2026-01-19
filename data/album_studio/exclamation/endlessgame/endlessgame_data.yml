@@ -1230,12 +1230,16 @@
 - postx:
     id: 1944348020235292759
     account: 46_hikaa
-    label: On a black Gibson Les Paul
+    label: ENDLESSGAME playthrough
     published-date: 2025-07-13
     text: |-
       今回は黒のGibsonレスポールで弾いてみました‼️
       
-      #ネキ界隈  #ギター
+       #ネキ界隈  #ギター
+    translation: |-
+      I tried playing with a black Gibson Les Paul this time‼️
+      
+      #NEKICircle #Guitar
     video:
     - 01
     part-of:
@@ -1263,6 +1267,16 @@
     - song: endlessgame
     part-of:
       postx: 1944348020235292759
+
+- youtubeshort:
+    id: 3-CHiuCBCfY
+    label: Promo
+    info: studio audio, rehearsal room
+    published-date: 2025-07-23
+    context:
+    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - youtubeshort:
     id: 8Aue5D-fPkc

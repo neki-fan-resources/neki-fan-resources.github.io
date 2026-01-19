@@ -1,7 +1,7 @@
 - postx:
     id: 1944995676963922035
     account: nekiband_jp
-    label: in 3 days
+    label: This weekend
     published-date: 2025-07-15
     text: |-
       🔥今週末🔥
@@ -12,6 +12,19 @@
       
       開催まであと3日💥
       ぜひお越しください！
+      
+      🔗 https://ticket.rakuten.co.jp/music/jpop/RTG7551/
+      
+      #NEKI
+    translation: |-
+      🔥This Weekend🔥
+      
+      7/18 (Fri)
+      "NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound"
+      @ Osaka LIVE SQUARE 2nd LINE
+      
+      Only 3 days until the show💥
+      Please come join us!
       
       🔗 https://ticket.rakuten.co.jp/music/jpop/RTG7551/
       
@@ -38,6 +51,16 @@
       熱い時間をありがとうございました🔥
       
       #NEKI #komsume
+    translation: |-
+      NEK!/komsume TWO-MAN SHOW
+      powered by Diggin' Sound
+      
+      @ LIVE SQUARE 2nd LINE
+      
+      The Osaka edition!!!!
+      Thank you for such an intense time🔥
+      
+      #NEK! #komsume
     image:
     - GwJGgUJXcAES7vk
     part-of:
@@ -53,9 +76,14 @@
     text: |-
       昨日の大阪公演より
       ピックでガシガシ系
-      #NEKI  #ネキ界隈  #拡散中
+       #NEKI  #ネキ界隈  #拡散中
+    translation: |-
+      From yesterday's Osaka performance
+      Going hard with the pick-style playing
+       #NEK! #NEKI_Community #SpreadingTheWord
     video:
     - 01
+    todo: which song ?
     part-of:
       show:
         year: 2025
@@ -64,7 +92,7 @@
 - postx:
     id: 1946903555937616050
     account: natsu08_guitar
-    label: MAZE Live
+    label: MAZE on stage
     published-date: 2025-07-20
     text: |-
       前回の大阪の熱が冷めないうちに
@@ -73,8 +101,16 @@
       撮影しながらだと盛り上がり下がっちゃうかなーとか思ったけど、ネキ界隈にそんな心配必要なかったね！
       ありがとう！！
       #ネキ界隈 #拡散中
+    translation: |-
+      Before the heat from the previous Osaka show cools down
+      MAZE~!🌀
+      Filming was allowed, but I was so happy that everyone got so hyped and raised their voices so much that I couldn't even tell you were filming!♡
+      I was worried that the energy might drop if people were filming, but there was no need for such worries with the NEK! community!
+      Thank you!!
+      #NEKcommunity #SpreadingTheWord
     video:
     - 01
+    todo: people film MAZE, check for images
     part-of:
       show:
         year: 2025
@@ -83,12 +119,16 @@
 - postx:
     id: 1947241076508488042
     account: cure_bass_baka
-    label: zero-sum Live
+    label: zero-sum on stage
     published-date: 2025-07-21
     text: |-
       先日の大阪公演より
       『zero-sum／NEK!』2サビ
-      #NEKI  #拡散中  #ネキ界隈
+       #NEKI  #拡散中  #ネキ界隈
+    translation: |-
+      From the other day's Osaka performance
+      "zero-sum／NEK!" 2nd Chorus
+       #NEKI #SpreadingTheWord #NEKcommunity
     video:
     - 01
     part-of:
@@ -107,6 +147,39 @@
       みんなの声援と拍手と次の曲への気合いの高まりが一気にごちゃまぜになるこの瞬間は音源では味わえない！！
       
       #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      I love that heart-pounding feeling between songs during a live show❤️‍🔥
+      
+      That moment when everyone's cheers, applause, and the rising excitement for the next song all get mixed together at once is something you can't experience from a recording!!
+      
+      #NEKI #SpreadingTheWord #NEKcommunity
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1949012927056658865
+    account: coco_102
+    label: Fool on stage
+    info: Cocoro
+    published-date: 2025-07-26
+    text: |-
+      Fool❤️‍🔥
+      
+      9曲目だからもう汗がすごい笑 首が光り輝いてますね
+      ライブはいい運動！！明日も汗かきまくるぞー👊🏻💦
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Fool❤️‍🔥
+      
+      Since it's the 9th song, the sweat is already crazy lol My neck is practically shining
+      Lives are such good exercise!! Gonna sweat a ton tomorrow too👊🏻💦
+      
+      #NEKI #SpreadingTheWord #NEKcommunity
     video:
     - 01
     part-of:
@@ -202,6 +275,21 @@
     - song: getover
     part-of:
       postx: 1947952383473954991
+
+- postxvideo:
+    post: 1949012927056658865
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-07-26
+    cover: 1949012819019792384/img/cTaeF8m3YXr13Zvo.jpg
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: fool
+    part-of:
+      postx: 1949012927056658865
 
 - youtubeshort:
     id: xv6kbJrnKfk

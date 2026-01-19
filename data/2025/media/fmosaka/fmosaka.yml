@@ -17,6 +17,10 @@ mediaaudio:
   host: 桜井雅斗 (Masato Sakurai)
   program: 'https://radiko.jp/#!/ts/FMO/20250718150000'
   webpage: 'https://www.fmosaka.net/_sites/16783665'
+  part-of:
+    group:
+      id: media
+      group: 2025
   description:
   - Hika and Cocoro are guest of the show 'Viva la radio' on Kiss FM.
   multimedia:

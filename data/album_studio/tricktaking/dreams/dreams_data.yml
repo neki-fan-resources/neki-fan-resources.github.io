@@ -512,7 +512,7 @@
 - postx:
     id: 1948333854063841769
     account: natsu08_guitar
-    label: Rehearsal
+    label: Dreams!!!! rehearsal
     published-date: 2025-07-24
     text: |-
       GoPro第二弾！！
@@ -523,8 +523,36 @@
       前回の画角とどっちが好き〜？？？
       
       #ネキ界隈 #拡散中 #NEKI
+    translation: |-
+      GoPro Part 2!!
+      
+      ”Dreams!!!!”
+      
+      This time I tried filming from the body side🎥
+      Which angle do you like better compared to the last one~???
+      
+      #NEKcommunity #SpreadingTheWord #NEKI
     video:
     - 01
+    part-of:
+      song: dreams
+
+- postx:
+    id: 1950563193366954288
+    account: 46_hikaa
+    label: Dreams!!!! rehearsal
+    published-date: 2025-07-30
+    text: |-
+      リハ映像👀🫶🏻 ̖́-
+      
+      #ネキ界隈   #NEKI
+    translation: |-
+      Rehearsal footage👀🫶🏻 ̖́-
+      
+      #NEKIKaiwai   #NEKI
+    video:
+    - 01
+    todo: before 1st zepp ?
     part-of:
       song: dreams
 
@@ -539,6 +567,20 @@
     - song: dreams
     part-of:
       postx: 1948333854063841769
+
+- postxvideo:
+    post: 1950563193366954288
+    id: 01
+    label: Rehearsal
+    published-date: 2025-07-30
+    cover: 1950563128963670016/img/DakJQTC9LcIAMDdT.jpg
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1950563193366954288
 
 - postyoutube:
     id: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT

@@ -877,6 +877,16 @@
       song: getover
 
 - youtubeshort:
+    id: ucrOIJfESpo
+    label: Rehearsal
+    info: Cocoro, kick cam
+    published-date: 2025-07-31
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubeshort:
     id: xsnKWL8af5w
     label: Promo
     info: rehearsal room, studio audio, Kanade

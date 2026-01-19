@@ -108,7 +108,7 @@
 
 - postx:
     id: 2011772300887273544
-    account: nekiband_jp
+    account: coco_102
     label: Ticket lottery
     published-date: 2026-01-15
     text: |-
@@ -132,6 +132,28 @@
     part-of:
       postx: 2011674201158283267
 
+- postx:
+    id: 2012118908707451306
+    account: natsu08_guitar
+    label: Ticket lottery
+    published-date: 2026-01-16
+    text: |-
+      NEK!初の全国ツアー！
+      現在プレイガイド先行申込（抽選）受付中！🎫
+      初日が近づいてまいりました…！！！
+      ワクワクが止まりません！
+      心よりお待ちしております❤️‍🔥❤️‍🔥❤️‍🔥
+    translation: |-
+      NEK!'s first nationwide tour!
+      Advance ticket applications (lottery) are currently open at play guides! 🎫
+      The first day is getting closer...!!!
+      I can't stop the excitement!
+      We are waiting for you from the bottom of our hearts ❤️‍🔥❤️‍🔥❤️‍🔥
+    image:
+    - G-x7eczbIAAf-fw
+    part-of:
+      postx: 2011674201158283267
+
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
@@ -143,6 +165,18 @@
     todo: name of the bass
     part-of:
       postx: 2011393045510643983
+
+- postximage:
+    post: 2012118908707451306
+    id: G-x7eczbIAAf-fw
+    label: Backstage
+    published-date: 2026-01-16
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postx: 2012118908707451306
 
 - postxvideo:
     post: 2011772300887273544

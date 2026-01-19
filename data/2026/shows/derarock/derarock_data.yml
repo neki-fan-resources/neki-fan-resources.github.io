@@ -1,3 +1,82 @@
+- display:
+    show:
+      year: 2026
+      id: derarock
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2012893509011783718
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2012879160021229739
+                    image: G-8u6XHXEAAhMYD
+                - postximage:
+                    post: 2012869138457219149
+                    image: G-8lzoFWEAA825H
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2012869138457219149
+                    image: G-8lziVXUAAPb1P
+                - postximage:
+                    post: 2012884418378031356
+                    image: G-8ztA3WkAAWCwS
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2012881700187963512
+                    image: G-8xOo4WkAAqJbY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2012869138457219149
+                    image: G-8lziQXYAEB85F
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2012869138457219149
+                    image: G-8lziTXMAA0Ksn
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2012879160021229739
+                    image: G-8u6XMWwAAt19C
+                - postximage:
+                    post: 2012888595376590891
+                    image: G-83gJxWIAAcbrh
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2012881700187963512
+                    image: G-8xOo-WkAAqted
+                - postximage:
+                    post: 2012888595376590891
+                    image: G-83gJqXIAAthCA
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: w-tn1Dj8KUs
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
 - postx:
     id: 2001932447198642313
     account: nekiband_jp
@@ -84,6 +163,223 @@
         year: 2026
         id: derarock
 
+- postx:
+    id: 2012869138457219149
+    account: derarockfes
+    label: Thank you
+    published-date: 2026-01-18
+    text: |-
+      【でらロックフェスティバル2026】
+      
+      MOSAiC
+      
+      NEK!(
+      @nekiband_jp
+      )
+      
+      ご出演ありがとうございました🐙
+      
+      📸(
+      @onoshuugo_photo
+       )
+      
+      #でらロック
+    translation: |-
+      【Dera Rock Festival 2026】
+      
+      MOSAiC
+      
+      NEK!(
+      @nekiband_jp
+      )
+      
+      Thank you for your performance 🐙
+      
+      📸(
+      @onoshuugo_photo
+       )
+      
+      #DeraRock
+    image:
+    - G-8lziQXYAEB85F
+    - G-8lziTXMAA0Ksn
+    - G-8lziVXUAAPb1P
+    - G-8lzoFWEAA825H
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- postx:
+    id: 2012879160021229739
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-01-18
+    text: |-
+      でらロックフェスティバル TOKYO 2026
+      @ 下北沢MOSAiC
+      
+      お越しいただきありがとうございました🔥
+      
+      2月より全国ツアー開催！
+      ファイナル公演は4/26(日)渋谷 CLUB QUATTRO💥
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI #でらロック
+    translation: |-
+      Dera Rock Festival TOKYO 2026
+      @ Shimokitazawa MOSAiC
+      
+      Thank you for coming 🔥
+      
+      Nationwide tour starts in February!
+      The final performance is on 4/26 (Sun) at Shibuya CLUB QUATTRO 💥
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI #DeraRock
+    image:
+    - G-8u6XHXEAAhMYD
+    - G-8u6XMWwAAt19C
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n3d37c2c897c8
+        id: poster01
+
+- postx:
+    id: 2012881700187963512
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-01-18
+    text: |-
+      でらロックフェスティバル TOKYO 2026
+      @ 下北沢MOSAiC
+      
+      ありがとうございました！！
+      ツアー前最後ということで、セトリも少し攻めてみたんだけど、どうだったかな💭
+      新しいエフェクターも良い感じで、ベース弾いてて楽しかった🌟
+      次はまたツアーで会いましょっ(｡•̀ᴗ-)☆
+    translation: |-
+      Dera Rock Festival TOKYO 2026
+      @ Shimokitazawa MOSAiC
+      
+      Thank you so much!!
+      Since it was our last show before the tour, I tried to be a bit aggressive with the setlist—how was it? 💭
+      The new effects pedal felt great, and I had so much fun playing bass 🌟
+      Let's meet again on the tour (｡•̀ᴗ-)☆
+    image:
+    - G-8xOo-WkAAqted
+    - G-8xOo4WkAAqJbY
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- postx:
+    id: 2012884418378031356
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-01-18
+    text: |-
+      でらロックフェスティバル TOKYO 2026
+      @ 下北沢MOSAiC
+      ありがとうございました✩.*˚
+      
+      最初からピンボでカマしたよっ❤️‍🔥
+      ホントみんなの笑顔と歓声ｻｲｺｳｫｵだった！
+      
+      来月から全国ツアーがはじまるよっ
+      気合い入れて音楽を一緒にたのしもーね！
+    translation: |-
+      Dera Rock Festival TOKYO 2026
+      @ Shimokitazawa MOSAiC
+      Thank you so much✩.*˚
+      
+      We crushed it from the very first note❤️‍🔥
+      Everyone's smiles and cheers were seriously the best!
+      
+      Our nationwide tour starts next month
+      Let's fire it up and enjoy the music together!
+    image:
+    - G-8ztA3WkAAWCwS
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- postx:
+    id: 2012888595376590891
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-01-18
+    text: |-
+      でらロックフェスティバル TOKYO 2026
+      @ 下北沢MOSAiC
+      
+      外は真冬だけどNEK!のフロアは真夏かな？と思うほど熱々でしたね！🔥🔥
+      最高に楽しかったよー！！
+      ありがとう！！！！
+      
+      次はついに！ツアー初日です❤️‍🔥
+      ドキドキっっ！！
+      ぜひぜひお越しくださいっ！🫶🏻
+    translation: |-
+      Dera Rock Festival TOKYO 2026
+      @ Shimokitazawa MOSAiC
+      
+      It's midwinter outside, but NEK!'s floor was so hot I thought it was midsummer! 🔥🔥
+      That was the most fun ever!!
+      Thank you!!!!
+      
+      Next up is finally! The first day of the tour❤️‍🔥
+      My heart is racing!!
+      Please, please come join us! 🫶🏻
+    image:
+    - G-83gJqXIAAthCA
+    - G-83gJxWIAAcbrh
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- postx:
+    id: 2012893509011783718
+    account: coco_102
+    label: Thank you
+    published-date: 2026-01-18
+    text: |-
+      #でらロック ありがとうございました❤️‍🔥
+      MOSAiCに集まってくれたみなさんとアツく楽しい時間を過ごせました！ありがとう！
+      今日の思い出としてrip-offのお気に入りフィル貼っときます🥁
+      
+      そして次回はとうとうNEK!初の全国ツアー初日！
+      我々の思い出が沢山詰まったeggmanで最高の幕開けを！楽しみじゃ🔥
+      
+      alt:
+      今日ライブ前に買ったリムレスメガネ`⎚⩊⎚´ -✧
+    translation: |-
+      #DeraRock Thank you so much❤️‍🔥
+      I had such a hot and fun time with everyone who gathered at MOSAiC! Thank you!
+      I'm posting my favorite fill from rip-off as a memory of today🥁
+      
+      And next time is finally the first day of NEK!'s first nationwide tour!
+      Let's have the best opening at eggman, a place filled with so many of our memories! I can't wait🔥
+      
+      alt:
+      Rimless glasses I bought before the show today`⎚⩊⎚´ -✧
+    image:
+    - G-87wfXWkAACGgR
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
 - postximage:
     post: 2001932447198642313
     id: G8hKhnMacAAxzDn
@@ -133,6 +429,169 @@
     part-of:
       postx: 2006193330703450433
 
+- postximage:
+    post: 2012869138457219149
+    id: G-8lziQXYAEB85F
+    label: On stage
+    info: Cocoro
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012869138457219149
+
+- postximage:
+    post: 2012869138457219149
+    id: G-8lziTXMAA0Ksn
+    label: On stage
+    info: Natsu
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012869138457219149
+
+- postximage:
+    post: 2012869138457219149
+    id: G-8lziVXUAAPb1P
+    label: On stage
+    info: Hika
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012869138457219149
+
+- postximage:
+    post: 2012869138457219149
+    id: G-8lzoFWEAA825H
+    label: On stage
+    info: Hika, Natsu
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012869138457219149
+
+- postximage:
+    post: 2012879160021229739
+    id: G-8u6XHXEAAhMYD
+    label: On stage
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012879160021229739
+
+- postximage:
+    post: 2012879160021229739
+    id: G-8u6XMWwAAt19C
+    label: Backstage
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012879160021229739
+
+- postximage:
+    post: 2012881700187963512
+    id: G-8xOo-WkAAqted
+    label: Backstage
+    info: Kanade
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012881700187963512
+
+- postximage:
+    post: 2012881700187963512
+    id: G-8xOo4WkAAqJbY
+    label: On stage
+    info: Kanade
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012881700187963512
+
+- postximage:
+    post: 2012884418378031356
+    id: G-8ztA3WkAAWCwS
+    label: On stage
+    info: Hika
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012884418378031356
+
+- postximage:
+    post: 2012888595376590891
+    id: G-83gJqXIAAthCA
+    label: Backstage
+    info: Natsu
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012888595376590891
+
+- postximage:
+    post: 2012888595376590891
+    id: G-83gJxWIAAcbrh
+    label: Backstage
+    published-date: 2026-01-18
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    part-of:
+      postx: 2012888595376590891
+
+- postximage:
+    post: 2012893509011783718
+    id: G-87wfXWkAACGgR
+    label: New glasses
+    published-date: 2026-01-18
+    part-of:
+      postx: 2012893509011783718
+
+- postxvideo:
+    post: 2012893509011783718
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-01-18
+    cover: 2012893447993049088/img/C6MWW1b5B3tJ9AJV.jpg
+    context:
+    - show:
+        year: 2026
+        id: derarock
+    - song: ripoff
+    part-of:
+      postx: 2012893509011783718
+
 - update:
     show:
       year: 2026
@@ -140,6 +599,33 @@
     date: 2025-12-19
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- update:
+    show:
+      year: 2026
+      id: derarock
+    date: 2026-01-19
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- youtubeshort:
+    id: w-tn1Dj8KUs
+    label: On stage
+    info: studio audio
+    published-date: 2026-01-18
+    context:
+    - song: dreams
+    - show:
+        year: 2026
+        id: derarock
     part-of:
       show:
         year: 2026

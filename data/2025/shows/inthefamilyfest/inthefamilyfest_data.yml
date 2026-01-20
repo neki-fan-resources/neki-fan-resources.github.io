@@ -18,13 +18,28 @@
       🔗https://t.livepocket.jp/e/itff2025
       
       #NEKI
+    translation: |-
+      ⚡️Information Release⚡️
+      
+      10/4(Sat)
+      ZEPHYREN × SHIBUYA THE GAME presents
+      『In The Family FEST 2025』
+      
+      📍 Held across 6 venues in Shibuya
+      
+      NEK!'s appearance has been confirmed💥
+      
+      Tickets on general sale now▼
+      🔗https://t.livepocket.jp/e/itff2025
+      
+      #NEKI
     image:
     - GyEBiwJaAAAVDe8
     - GyEBiwTbAAA-nJp
     part-of:
-      postximage:
-        post: 1954845457206624572
-        image: GyEBiwJaAAAVDe8
+      show:
+        year: 2025
+        id: inthefamilyfest
 
 - postx:
     id: 1964992098836664505
@@ -108,9 +123,7 @@
         year: 2025
         id: inthefamilyfest
     part-of:
-      show:
-        year: 2025
-        id: inthefamilyfest
+      postx: 1954845457206624572
 
 - postximage:
     post: 1954845457206624572
@@ -122,9 +135,7 @@
         year: 2025
         id: inthefamilyfest
     part-of:
-      show:
-        year: 2025
-        id: inthefamilyfest
+      postx: 1954845457206624572
 
 - postximage:
     post: 1964992098836664505

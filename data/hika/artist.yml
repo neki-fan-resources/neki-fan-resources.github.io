@@ -5,6 +5,38 @@
       group: hika
 
 - postx:
+    id: 1953710557393195152
+    account: 46_hikaa
+    label: Happy birthday Natsu
+    published-date: 2025-08-08
+    text: |-
+      なっちゃん
+      
+      お誕生日おめでとう！！！！
+      
+      これからもよろしく(∩´∀｀＠)⊃♡
+      
+      #ネキ界隈  #NEKI
+    translation: |-
+      Nacchan
+      
+      Happy Birthday!!!!
+      
+      Looking forward to more good times with you(∩´∀｀＠)⊃♡
+      
+      #NEKIsphere #NEKI
+    video:
+    - 01
+    part-of:
+      group:
+        id: artist
+        group: hika
+    reference:
+    - postxvideo:
+        post: 1953710557393195152
+        video: 01
+
+- postx:
     id: 1996461176130351354
     account: 46_hikaa
     label: Stickers

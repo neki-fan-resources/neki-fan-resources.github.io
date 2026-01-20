@@ -1252,15 +1252,70 @@
       song: zerosum
 
 - postx:
+    id: 1955168434913952216
+    account: coco_102
+    label: zero-sum rehearsal
+    published-date: 2025-08-12
+    text: |-
+      🙆🏻‍♀️zero-sum🙆🏻‍♀️
+      
+      派手なおかずが目立つ曲だけど
+      1Aのいろんなビートてんこ盛りゾーンも好き👊🏻❤️‍🔥
+      右端の鏡に映る忙しない足もお楽しみください笑
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      🙆🏻‍♀️zero-sum🙆🏻‍♀️
+      
+      It's a song where the flashy flourishes stand out,
+      but I also love the zone in 1A packed with various beats👊🏻❤️‍🔥
+      Please enjoy my busy feet reflected in the mirror on the far right lol
+      
+      #NEKI #NowSpreading #NEKIsphere
+    video:
+    - 01
+    part-of:
+      song: zerosum
+
+- postx:
+    id: 1959533059923128628
+    account: coco_102
+    label: zero-sum rehearsal
+    published-date: 2025-08-24
+    text: |-
+      この2番サビ入りのキメめっちゃ好きー！！
+      本当に全パートかっこいいから、ライブのときはファンの皆さんにどうにか目を増やしてもらって全員のことを見てほしい😂
+      
+      NEK!の楽曲はどれもかっこいいフレーズが盛りだくさんなので8月30日は1秒たりとも油断しないでくださいね！
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      I really love the hook leading into the second chorus!!
+      Every part is truly so cool, so for the live show, I want the fans to somehow grow more eyes and watch everyone 😂
+      
+      NEK!'s songs are all packed with cool phrases, so don't let your guard down for even a second on August 30th!
+      
+      #NEKI #SpreadingTheWord #NEKICommunity
+    video:
+    - 01
+    part-of:
+      song: zerosum
+
+- postx:
     id: 1960678576212308384
     account: cure_bass_baka
-    label: Rehearsal rip-off
+    label: rip-off rehearsal
     published-date: 2025-08-27
     text: |-
       今日はZepp前最後のリハーサルでした。
       あとは当日を迎えるだけです🪽
       （画面真っ暗）
-      #拡散中  #ネキ界隈
+       #拡散中  #ネキ界隈
+    translation: |-
+      Today was the last rehearsal before Zepp.
+      All that's left is to wait for the day itself🪽
+      (The screen is pitch black)
+       #SpreadingTheWord #NEKIKaiwai
     video:
     - 01
     part-of:
@@ -1278,6 +1333,28 @@
     todo: location ? likely TTT tokyo
     part-of:
       postx: 1928744673092292656
+
+- postxvideo:
+    post: 1955168434913952216
+    id: 01
+    label: Rehearsal
+    published-date: 2025-08-12
+    cover: 1955168233520308224/img/nn5XMiKYzwZ1z9yR.jpg
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1955168434913952216
+
+- postxvideo:
+    post: 1959533059923128628
+    id: 01
+    label: Rehearsal
+    published-date: 2025-08-12
+    cover: 1959532949168394240/img/dGDvkdVTI7NCMrMk.jpg
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1959533059923128628
 
 - postxvideo:
     post: 1960678576212308384

@@ -431,6 +431,52 @@
         id: recommendjunction
 
 - postx:
+    id: 1960597489242792085
+    account: nekiband_jp
+    label: Additional artists
+    published-date: 2025-08-27
+    text: |-
+      🖤追加出演アーティスト解禁🖤
+      
+      11/6(木)開催
+      「リコメンズジャンクション」
+      ＠ EXシアター六本木
+      
+      < ACT >
+      デラックス×デラックス
+      チョーキューメイ
+      ロイヤルギャル
+      NEK!
+      
+      オフィシャル先行受付は8/31(日)23:59まで🎫
+      https://eplus.jp/recomen1106/
+      
+      #NEKI
+    translation: |-
+      🖤Additional performing artists announced🖤
+      
+      Held on 11/6 (Thu)
+      "Recommend Junction"
+      @ EX THEATER ROPPONGI
+      
+      < ACT >
+      Deluxe x Deluxe
+      Choqmay
+      Royal Gal
+      NEK!
+      
+      Official advance ticket applications are open until 8/31 (Sun) 23:59🎫
+      https://eplus.jp/recomen1106/
+      
+      #NEK!
+    image:
+    - GzVuQXBa4AMbecJ
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- postx:
     id: 1986431090874306723
     account: nekiband_jp
     label: Thank you

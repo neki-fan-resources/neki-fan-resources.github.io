@@ -215,6 +215,45 @@
         year: 2025
         id: tricktakingtourtokyo
 
+- postx:
+    id: 1953025441515921602
+    account: cure_bass_baka
+    label: rip-off on stage
+    info: intro
+    published-date: 2025-08-06
+    text: |-
+      『rip-off／NEK!』初めて披露した日。
+      短くてごめんねだけど、スラップとドラム聞いて欲しい！
+       #NEKI  #拡散中 #ネキ界隈
+    translation: |-
+      The day we performed "rip-off／NEK!" for the first time.
+      Sorry it's short, but I want you to hear the slap bass and the drums!
+       #NEKI  #CurrentlySpreading #NEKICommunity
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1954447291294822589
+    account: cure_bass_baka
+    label: Loner on stage
+    published-date: 2025-08-10
+    text: |-
+      Zeppでもみんなの声待ってるよ
+       #NEKI  #拡散中  #ネキ界隈
+    translation: |-
+      I'm waiting to hear all your voices at Zepp too
+       #NEKI  #NowSpreading  #NEKIsphere
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1954447291294822589
+        video: 01
+
 - postxvideo:
     post: 1901916392653537292
     id: 01
@@ -274,6 +313,21 @@
         id: tricktakingtourtokyo
     part-of:
       postx: 1929106683978224117
+
+- postxvideo:
+    post: 1953025441515921602
+    id: 01
+    label: Live
+    info: Kanade
+    published-date: 2025-08-06
+    cover: 1953025374969053185/img/P--PvgqmeRfaZQUp.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: ripoff
+    part-of:
+      postx: 1953025441515921602
 
 - postxvideo:
     post: 1954447291294822589

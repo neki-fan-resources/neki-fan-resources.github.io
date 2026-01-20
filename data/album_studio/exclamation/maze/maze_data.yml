@@ -1478,47 +1478,14 @@
       song: maze
 
 - postx:
-    id: 1955168434913952216
-    account: coco_102
-    label: Rehearsal zero-sum
-    published-date: 2025-08-12
-    text: |-
-      🙆🏻‍♀️zero-sum🙆🏻‍♀️
-      
-      派手なおかずが目立つ曲だけど
-      1Aのいろんなビートてんこ盛りゾーンも好き👊🏻❤️‍🔥
-      右端の鏡に映る忙しない足もお楽しみください笑
-      
-      #NEKI #拡散中 #ネキ界隈
-    video:
-    - 01
-    part-of:
-      song: maze
-
-- postx:
     id: 1959203686225445197
     account: cure_bass_baka
-    label: Rehearsal
+    label: MAZE rehearsal
     published-date: 2025-08-23
     text: |-
       #NEKI  #ネキ界隈  #拡散中
-    video:
-    - 01
-    part-of:
-      song: maze
-
-- postx:
-    id: 1959533059923128628
-    account: coco_102
-    label: Rehearsal
-    published-date: 2025-08-24
-    text: |-
-      この2番サビ入りのキメめっちゃ好きー！！
-      本当に全パートかっこいいから、ライブのときはファンの皆さんにどうにか目を増やしてもらって全員のことを見てほしい😂
-      
-      NEK!の楽曲はどれもかっこいいフレーズが盛りだくさんなので8月30日は1秒たりとも油断しないでくださいね！
-      
-      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      #NEKI #NEKICommunity #SpreadingTheWord
     video:
     - 01
     part-of:
@@ -1632,17 +1599,6 @@
       postx: 1945064752297680913
 
 - postxvideo:
-    post: 1955168434913952216
-    id: 01
-    label: Rehearsal
-    published-date: 2025-08-12
-    cover: 1955168233520308224/img/nn5XMiKYzwZ1z9yR.jpg
-    context:
-    - song: zerosum
-    part-of:
-      postx: 1955168434913952216
-
-- postxvideo:
     post: 1959203686225445197
     id: 01
     label: Rehearsal
@@ -1652,17 +1608,6 @@
     - song: maze
     part-of:
       postx: 1959203686225445197
-
-- postxvideo:
-    post: 1959533059923128628
-    id: 01
-    label: Rehearsal
-    published-date: 2025-08-12
-    cover: 1959532949168394240/img/dGDvkdVTI7NCMrMk.jpg
-    context:
-    - song: zerosum
-    part-of:
-      postx: 1959533059923128628
 
 - postyoutube:
     id: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV

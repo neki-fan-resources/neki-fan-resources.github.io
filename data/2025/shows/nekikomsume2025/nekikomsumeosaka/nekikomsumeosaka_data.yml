@@ -292,6 +292,37 @@
       postx: 1949012927056658865
 
 - youtubeshort:
+    id: SCponaBgD8U
+    label: Promo
+    info: studio audio
+    published-date: 2025-08-28
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    - song: dreams
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- youtubeshort:
+    id: fKilWDbCRDU
+    label: Promo
+    info: studio audio, Natsu taping
+    published-date: 2025-08-08
+    context:
+    - song: loner
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    todo: check show
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- youtubeshort:
     id: xv6kbJrnKfk
     label: Promo
     info: studio audio

@@ -215,6 +215,18 @@
       group: tosort
 
 - youtubeshort:
+    id: JS_Soyv5qJc
+    label: Announcement
+    info: joining a major
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      group: tosort
+
+- youtubeshort:
     id: u53KcxTUrKE
     label: Combination of MVs
     published-date: 2026-01-09

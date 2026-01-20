@@ -1444,7 +1444,7 @@
 - postx:
     id: 1957004284782055894
     account: 46_hikaa
-    label: rehearsal rip-off
+    label: rip-off rehearsal
     published-date: 2025-08-17
     text: |-
       初のZeppワンマンまであと14日👀.ᐟ.ᐟ
@@ -1454,6 +1454,14 @@
       忘れられん一日にするぞぉ！
       
       #ネキ界隈 #NEKI
+    translation: |-
+      Only 14 days until our first Zepp one-man show👀.ᐟ.ᐟ
+      
+      From here on, rehearsals go into serious mode
+      
+      I'm going to make this an unforgettable day!
+      
+      #NekiVibes #NEK!
     video:
     - 01
     part-of:
@@ -1466,9 +1474,108 @@
     published-date: 2025-08-18
     text: |-
       りっぷおふのリハ
-      #NEKI  #ネキ界隈  #拡散中
+       #NEKI  #ネキ界隈  #拡散中
+    translation: |-
+      rip-off rehearsal
+       #NEK!  #NekiVibes  #SpreadingTheWord
     video:
     - 01
+    part-of:
+      song: ripoff
+
+- postx:
+    id: 1959760382345806176
+    account: natsu08_guitar
+    label: Behind the scenes
+    published-date: 2025-08-25
+    text: |-
+      おはよ〜☀️
+      
+      “rip-off”
+      オフショット①📸
+      暑かったかったけど、めっちゃ楽しかったぁ🫶🏻🫶🏻
+      MVまだまだ観てねーぇ👀💖
+    translation: |-
+      Good morning〜☀️
+      
+      “rip-off”
+      Off-shot ①📸
+      It was hot, but so much fun🫶🏻🫶🏻
+      Keep watching the MV, okayー👀💖
+    image:
+    - GzH8F6HbkAA8Lxi
+    part-of:
+      song: ripoff
+
+- postx:
+    id: 1960317535112597659
+    account: coco_102
+    label: 10k views
+    published-date: 2025-08-26
+    text: |-
+      "rip-off" Music Video 1万回再生突破！ありがとう🌞
+      
+      思想強めでパンチの効いた見所満載なMVになってるので、ぜひ何度でもお楽しみください〜〜〜
+      
+      私のお気に入りは、手持ちカメラを用いた各パートの激しい演奏シーンと4人で円になって手繋いでるところ
+    translation: |-
+      "rip-off" Music Video exceeded 10,000 views! Thank you🌞
+      
+      The MV is full of strong messages and impactful highlights, so please enjoy it over and over again~~~
+      
+      My favorites are the intense performance scenes for each part using a handheld camera, and the part where the four of us stand in a circle holding hands.
+    image:
+    - GzRyTBxbcAA87rM
+    - GzRyTB-aQAAgkcY
+    part-of:
+      song: ripoff
+
+- postx:
+    id: 1960333645996232799
+    account: natsu08_guitar
+    label: 10k views
+    published-date: 2025-08-26
+    text: |-
+      “rip-off” 1万回再生ありがと~！
+      と言うことで、オフショット②
+      
+      ふりふりスカートお気に入り⭐︎
+      まだまだたくさん観て聴いてほしいです📹🔥
+      
+      https://youtu.be/OkQV2Vo9EgE?si=rAAK6k1Wexp-Q761
+      
+      alt:
+      チーズケーキ美味しかったぁ！
+    translation: |-
+      Thanks for 10,000 views on "rip-off"!
+      So, here's an off-shot ②
+      
+      The frilly skirt is my favorite⭐︎
+      I want you to keep watching and listening a lot more📹🔥
+      
+      https://youtu.be/OkQV2Vo9EgE?si=rAAK6k1Wexp-Q761
+      
+      alt:
+      The cheesecake was delicious!
+    image:
+    - GzSBCPNaAAArcMt
+    - GzSBCPBaMAASLd4
+    - GzSBCOtaAAAPzFp
+    - GzSBCPOaEAAbz_t
+    part-of:
+      song: ripoff
+
+- postx:
+    id: 1960529877574279264
+    account: 46_hikaa
+    label: 10k views
+    published-date: 2025-08-26
+    text: |-
+      「rip-off」 Official Music Video📷´-
+      
+      Thank you for 10,000 Views🤍🫧
+    image:
+    - GzUzhFka4AAopmC
     part-of:
       song: ripoff
 
@@ -1482,6 +1589,96 @@
     - song: ripoff
     part-of:
       song: ripoff
+
+- postximage:
+    post: 1959760382345806176
+    id: GzH8F6HbkAA8Lxi
+    label: MV
+    info: Behind the scenes, Natsu
+    published-date: 2025-08-25
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1959760382345806176
+
+- postximage:
+    post: 1960317535112597659
+    id: GzRyTB-aQAAgkcY
+    label: MV
+    info: behind the scenes, Cocoro
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    todo: image has alt
+    part-of:
+      postx: 1960317535112597659
+
+- postximage:
+    post: 1960317535112597659
+    id: GzRyTBxbcAA87rM
+    label: MV
+    info: behind the scenes, Cocoro
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    todo: image has alt
+    part-of:
+      postx: 1960317535112597659
+
+- postximage:
+    post: 1960333645996232799
+    id: GzSBCOtaAAAPzFp
+    label: MV
+    info: behind the scenes, Natsu
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960333645996232799
+
+- postximage:
+    post: 1960333645996232799
+    id: GzSBCPBaMAASLd4
+    label: MV
+    info: behind the scenes, Natsu
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960333645996232799
+
+- postximage:
+    post: 1960333645996232799
+    id: GzSBCPNaAAArcMt
+    label: MV
+    info: behind the scenes, Natsu
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960333645996232799
+
+- postximage:
+    post: 1960333645996232799
+    id: GzSBCPOaEAAbz_t
+    label: MV
+    info: behind the scenes, cake time
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960333645996232799
+
+- postximage:
+    post: 1960529877574279264
+    id: GzUzhFka4AAopmC
+    label: MV
+    info: behind the scenes, Hika
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960529877574279264
 
 - postxvideo:
     post: 1957004284782055894
@@ -1517,6 +1714,72 @@
     label: Rehearsal
     info: Kanade, Cocoro
     published-date: 2025-12-18
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubeshort:
+    id: AMBbAX1kjp4
+    label: Music Video
+    published-date: 2025-08-24
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubeshort:
+    id: D0uRZRg6dm0
+    label: MV
+    info: Extra clips
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubeshort:
+    id: RN4Ijrh0wSs
+    label: Music Video
+    published-date: 2025-08-23
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubeshort:
+    id: dRMAkblPWaI
+    label: Promo
+    info: studio audio, rehearsal room
+    published-date: 2025-08-09
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubeshort:
+    id: mR1bQ9K8qLM
+    label: Promo
+    info: studio audio, rehearsal room
+    published-date: 2025-08-16
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubeshort:
+    id: tUn954N0b0c
+    label: MV Teaser
+    published-date: 2025-08-22
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubevideo:
+    id: pnJR-FNVILE
+    label: Official Teaser
+    published-date: 2025-08-22
     context:
     - song: ripoff
     part-of:

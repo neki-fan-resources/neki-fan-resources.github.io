@@ -308,9 +308,64 @@
         id: internetbabies
 
 - postx:
+    id: 1952355401271480375
+    account: cure_bass_baka
+    label: Dreams!!!! on stage
+    published-date: 2025-08-04
+    text: |-
+      『Dreams!!!!／NEK!』
+      撮影可だった日のラスサビ
+       #NEKI  #拡散中  #ネキ界隈
+    translation: |-
+      『Dreams!!!!／NEK!』
+      The final chorus from the day filming was allowed
+       #NEKI  #CurrentlySpreading  #NEKICommunity
+    video:
+    - 01
+    todo: fan filming Dreams ?
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- postx:
+    id: 1952670333594677367
+    account: natsu08_guitar
+    label: Fool on stage
+    info: Jumping during Fool
+    published-date: 2025-08-05
+    text: |-
+      Foolのサビ！！
+      JUMPジャンプじゃんぷ❗️❗️
+      跳べーーーーーーーー‼️‼️‼️
+      
+      それにしても、、あっっっつすぎる！！！！！！！☀️
+      みなさん、体調大丈夫ですか？！！
+      Zepp体調不良で来れないとかなったら寂しいので水分補給しっかりしてお過ごしてください🙇🏻‍♀️
+      
+      #ネキ界隈 #拡散中 #NEKI
+    translation: |-
+      Chorus of Fool!!
+      JUMP Jump Jump❗️❗️
+      JUMPーーーーーーーー‼️‼️‼️
+      
+      By the way... it's tooooooo hot!!!!!!!☀️
+      Is everyone doing okay?!!
+      I'll be lonely if you can't come to Zepp because you're feeling unwell, so please make sure to stay hydrated🙇🏻‍♀️
+      
+      #NEKICommunity #CurrentlySpreading #NEKI
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- postx:
     id: 1953425358717591622
     account: coco_102
-    label: About the drums
+    label: rip-off on stage
+    info: About the drums
     published-date: 2025-08-07
     text: |-
       rip-off💋
@@ -320,6 +375,14 @@
       私フロア大好きなんだけど普段はあんまり注目してもらえないタムだからイントロと間奏はみんなに素敵な低音を聴いてもらうために目一杯叩く✊🏻
       
       #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      rip-off💋
+      
+      I love the fill before the chorus, it feels like shifting up a gear! lol Also a fan of the interlude after the 2nd chorus that reminds me of the intro❤️‍🔥
+      
+      I love the floor tom, but usually it doesn't get much attention, so during the intro and interlude I hit it with everything I've got so everyone can hear those cool low tones✊🏻
+      
+      #NEKI #NowSpreading #NEKIsphere
     video:
     - 01
     part-of:
@@ -330,12 +393,16 @@
 - postx:
     id: 1955576715851575746
     account: cure_bass_baka
-    label: Reigen Girl at INTERNET BaBIES
+    label: Reigen Girl on stage
     published-date: 2025-08-13
     text: |-
       『令現少女-NEK!』
       この前あげたのと同じ日の2サビさん
-      #NEKI  #ネキ界隈  #拡散中
+       #NEKI  #ネキ界隈  #拡散中
+    translation: |-
+      『Reigen Shojo - NEK!』
+      The 2nd chorus from the same day as the one I posted recently
+       #NEKI  #NEKIsphere  #NowSpreading
     video:
     - 01
     part-of:
@@ -346,7 +413,7 @@
 - postx:
     id: 1959970796442427746
     account: nekiband_jp
-    label: Reigen Girl Live
+    label: Reigen Girl on stage
     published-date: 2025-08-25
     text: |-
       初のZeppワンマンまであと5日💥
@@ -357,6 +424,15 @@
       🔗 https://note.com/nekiband_jp/n/nced90123f587
       
       #NEKI #ネキ界隈
+    translation: |-
+      5 days left until our first Zepp one-man 💥
+      
+      "I was just watching that"
+      
+      8/30 (Sat) 1ST ZEPP ONE MAN▼
+      🔗 https://note.com/nekiband_jp/n/nced90123f587
+      
+      #NEKI #NEKI_KAIWAI
     part-of:
       youtubeshort: mBFMElsMh1s
 
@@ -515,6 +591,36 @@
       postx: 1951215513217994873
 
 - postxvideo:
+    post: 1952355401271480375
+    id: 01
+    label: Live
+    info: Kanade
+    published-date: 2025-08-04
+    cover: 1952354814060634112/img/h_F85nPHwBmCj9Yh.jpg
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: dreams
+    part-of:
+      postx: 1952355401271480375
+
+- postxvideo:
+    post: 1952670333594677367
+    id: 01
+    label: Live
+    info: Natsu
+    published-date: 2025-08-05
+    cover: 1952670248618123264/img/3LAxE_aG0ildFLgJ.jpg
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: fool
+    part-of:
+      postx: 1952670333594677367
+
+- postxvideo:
     post: 1953425358717591622
     id: 01
     label: Live
@@ -593,15 +699,30 @@
         id: internetbabies
 
 - youtubeshort:
-    id: mR1bQ9K8qLM
+    id: n9JoWcHOI9s
     label: Promo
-    info: studio audio, rehearsal room
-    published-date: 2025-08-16
+    info: studio audio
+    published-date: 2025-08-10
+    context:
+    - song: ripoff
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- youtubeshort:
+    id: ow3Ixze3MfI
+    label: Live
+    info: Cocoro
+    published-date: 2025-08-01
     context:
     - show:
         year: 2025
         id: internetbabies
-    - song: ripoff
+    - song: reigengirl
     part-of:
       show:
         year: 2025

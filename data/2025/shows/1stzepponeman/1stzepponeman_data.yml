@@ -147,6 +147,13 @@
       悔いのない日々を過ごしたいね🔥
       
       #ネキ界隈 #拡散中
+    translation: |-
+      Noisy and fun NEK!!
+      We’re rehearsing for Zepp🫶🏻
+      Unbelievably, only 2 weeks left as of today✌🏻
+      I want to spend every day without any regrets🔥
+      
+      #NekiVibes #SpreadingTheWord
     video:
     - 01
     part-of:
@@ -155,9 +162,57 @@
         id: 1stzepponeman
 
 - postx:
+    id: 1959904093104918959
+    account: nekiband_jp
+    label: Merch & info
+    published-date: 2025-08-25
+    text: |-
+      📢ワンマン詳細更新📢
+      
+      8/30(土)開催
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+      
+      ★新グッズ情報公開🎁
+      ★当日のグッズ先行販売は13:00~開始！
+      ★女性・子供専用エリアを設置！
+      
+      初のZeppワンマンまであと5日🔥
+      チケット一般発売中です🎟️
+      
+      🔗https://note.com/nekiband_jp/n/nced90123f587
+      
+      #NEKI
+    translation: |-
+      📢 One-man Details Updated 📢
+      
+      Held on 8/30 (Sat)
+      NEK! 1ST ZEPP ONE MAN 【#NowSpreading #NEKI_KAIWAI】
+      📍 Zepp Shinjuku
+      
+      ★ New merchandise info released 🎁
+      ★ Advance merch sales start at 13:00 on the day!
+      ★ Women & Children only area will be available!
+      
+      Only 5 days left until our first Zepp one-man 🔥
+      General tickets are now on sale 🎟️
+      
+      🔗 https://note.com/nekiband_jp/n/nced90123f587
+      
+      #NEKI
+    image:
+    - GzL5Y08aoAAY1Tm
+    - GzL5Z5hbUAAbrZI
+    todo: show poster
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
     id: 1961015583069335728
     account: nekiband_jp
-    label: last day for tickets
+    label: 2 days
     published-date: 2025-08-28
     text: |-
       💫初Zeppワンマンまであと2日💫
@@ -171,8 +226,338 @@
       🔗https://note.com/nekiband_jp/n/nced90123f587
       
       #NEKI
+    translation: |-
+      💫 Only 2 days left until the first Zepp one-man 💫
+      
+      Held on 8/30 (Sat)
+      NEK! 1ST ZEPP ONE MAN【#SpreadingTheWord #NEKIKaiwai】
+      📍Zepp Shinjuku
+      
+      General ticket sales are open until tomorrow 8/29 (Fri) 23:59❗️
+      
+      🔗https://note.com/nekiband_jp/n/nced90123f587
+      
+      #NEK!
     image:
     - GzbtRUjbUAAj0pI
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961389728428953733
+    account: nekiband_jp
+    label: Live stream announcement
+    published-date: 2025-08-29
+    text: |-
+      【おしらせ】
+      
+      明日Zepp Shinjukuにて開催のワンマンライブにて
+      公演の一部を緊急生配信いたします🎊
+      
+      ★YouTube
+      ★Instagram 
+      ★TikTok
+      
+      18時以降開始予定
+      10~15分程の定点映像配信となります⚡️
+      
+      ※進行状況により配信開始が前後するため、開始10分前頃を目安に各SNSでお知らせいたします。
+      
+      #NEKI
+    translation: |-
+      【Notice】
+      
+      We will be conducting an emergency live stream of a portion of
+      tomorrow's one-man live at Zepp Shinjuku🎊
+      
+      ★YouTube
+      ★Instagram 
+      ★TikTok
+      
+      Scheduled to start after 18:00
+      It will be a fixed-point video stream of about 10-15 minutes⚡️
+      
+      *Since the start time may shift depending on progress, we will announce on each SNS approximately 10 minutes before the start.
+      
+      #NEK!
+    image:
+    - GzhA8PbbsAA3ZUq
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961644768393392374
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2025-08-30
+    text: |-
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      @ Zepp Shinjuku
+      
+      前売りチケット分SOLD OUT‼️
+      ありがとうございます🫶🫶
+      
+      前売り分はソールドとなりましたが、
+      当日券は1階入場口 当日券売り場にて16時より販売予定です🎫
+      
+      開演まであと4時間！
+      いよいよ初のZeppワンマン開幕です🔥
+      
+      #NEKI
+    translation: |-
+      NEK! 1ST ZEPP ONE MAN【#SpreadingTheWord #NEKIKaiwai】
+      @ Zepp Shinjuku
+      
+      Advance tickets are SOLD OUT‼️
+      Thank you so much🫶🫶
+      
+      While advance tickets are sold out,
+      same-day tickets are scheduled to be sold at the 1st floor entrance same-day ticket booth from 16:00🎫
+      
+      4 hours until the show starts!
+      Finally, our first Zepp one-man kicks off🔥
+      
+      #NEK!
+    image:
+    - Gzknca0acAAY3FC
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961765828870996016
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-08-30
+    text: |-
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      @ Zepp Shinjuku
+      
+      ありがとうございました💫
+      
+      夢の舞台、Zeppワンマン。
+      
+      この景色とともにNEK!は次のステージへ向かいます！
+      
+      本日の感想や今後のNEK!への期待などはハッシュタグをつけてぜひポストよろしくお願いします🫶
+      
+      #NEKI #ネキメジャーデビュー
+    translation: |-
+      NEK! 1ST ZEPP ONE MAN [#Spreading #NEKIKaiwai]
+      @ Zepp Shinjuku
+      
+      Thank you very much 💫
+      
+      The stage of our dreams, a Zepp solo live.
+      
+      Together with this view, NEK! moves toward the next stage!
+      
+      Please post your thoughts on today and your expectations for NEK! moving forward using the hashtag 🫶
+      
+      #NEKI #NEKIMajorDebut
+    image:
+    - GzmXl6vbkAA0r0J
+    - GzmXl6jbMAAtlNY
+    - GzmXl6fbYAASFb3
+    - GzmXl6pa0AAavhd
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961794022449774874
+    account: nekiband_jp
+    label: Show setlist
+    published-date: 2025-08-30
+    text: |-
+      初Zeppワンマンのセットリストプレイリストはこちらから！
+      
+      🎧https://pcim.lnk.to/NEKI1STZEPPONEMAN
+      
+      #NEKI
+    translation: |-
+      Click here for the setlist playlist from our first Zepp solo live!
+      
+      🎧https://pcim.lnk.to/NEKI1STZEPPONEMAN
+      
+      #NEKI
+    todo: get setlist cover image, if not share somewhere else
+    part-of:
+      postx: 1961765828870996016
+
+- postx:
+    id: 1961803764794622273
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-08-30
+    text: |-
+      取り急ぎ、ZEPPワンマンありがとうございました。
+      色々な発表もあり、メジャーデビューも決まりました。
+      ずっと憧れてたステージに立てて本当に幸せでした。
+      でもまだ夢の第1歩に過ぎません。
+      みなさんと一緒に大きくなっていく｢NEK!｣に
+      これからも付いてきて欲しいです！
+       #NEKI  #ネキ界隈
+    translation: |-
+      For now, thank you so much for the ZEPP solo live.
+      With various announcements, our major debut has also been set.
+      I was truly happy to stand on the stage I've always admired.
+      But this is still just the first step of the dream.
+      I want you to keep following "NEK!" 
+      as we grow bigger together with all of you!
+       #NEKI #NEKIKaiwai
+    image:
+    - Gzm6F7waMAANvQ6
+    - Gzm6F7naUAE1V-I
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961807893306699826
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-08-30
+    text: |-
+      本日はNEK!初のZEPPワンマンにお越しくださりありがとうございました🙇🏻‍♀️
+      
+      とにかく今日は感謝を伝えたいです‼️
+      ずっと憧れていたZeppに皆さんとたどり着けたこと、幸せでした。
+      ついてきてくれてありがとう。
+      
+      メジャーデビューも決まりました。
+      これからもNEK!をよろしくお願いします！
+      
+      #ネキ界隈
+    translation: |-
+      Thank you so much for coming to NEK!'s first ZEPP solo live today 🙇🏻‍♀️
+      
+      Anyway, I just want to express my gratitude today‼️
+      I was so happy to have reached Zepp, a place I've always admired, together with all of you.
+      Thank you for following us.
+      
+      Our major debut has also been set.
+      Please continue to support NEK! from now on!
+      
+      #NEKIKaiwai
+    image:
+    - Gzm94CQbQAATcAD
+    - Gzm94CGasAIv7PE
+    - Gzm94CPaQAAkyrR
+    - Gzm94CIaUAAEAp6
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961812414485459420
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-08-30
+    text: |-
+      NEK! 1ST ZEPP ONE MAN
+      
+      夢のステージで歌えたこと
+      心から嬉しい気持ちでいっぱいです。
+      
+      ありがとうございました！！
+      
+      来年はメジャーデビューも決まり
+      これから、このNEK!メンバーと皆さんと
+      大きなステージを見ていきたいです！
+      
+      みんなに出会えて良かった！
+      
+       #ネキ界隈
+    translation: |-
+      NEK! 1ST ZEPP ONE MAN
+      
+      Getting to sing on the stage of my dreams
+      fills my heart with pure joy.
+      
+      Thank you so much!!
+      
+      With our major debut set for next year,
+      I want to see even bigger stages
+      with these NEK! members and all of you from now on!
+      
+      I'm so glad I met everyone!
+      
+       #NEKIKaiwai
+    image:
+    - GznB_baboAAZECx
+    - GznB_bebQAAf7Hn
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    reference:
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6fbYAASFb3
+    - postximage:
+        post: 1961807893306699826
+        image: Gzm94CQbQAATcAD
+
+- postx:
+    id: 1961819558362444002
+    account: coco_102
+    label: Thank you
+    published-date: 2025-08-30
+    text: |-
+      NEK!初Zeppワンマンライブ無事終了しましたー！
+      
+      間違いなく人生でいちばんの景色でした！！
+      皆さんのおかげで最高に幸せなドラマー人生です！！
+      
+      メジャーの名に恥じぬようプレイヤーとしてもっと成長するのでこれからも応援よろしくお願いします🙇🏻‍♀️🔥
+      
+      本当にありがとうございました！！
+      
+      #NEKI
+    translation: |-
+      NEK!'s first Zepp solo live has finished successfully!
+      
+      It was without a doubt the best view of my life!!
+      Thanks to everyone, I'm having the happiest life as a drummer!!
+      
+      I will grow even more as a player so as not to shame the name of a major artist, so please keep supporting me 🙇🏻‍♀️🔥
+      
+      Thank you truly so much!!
+      
+      #NEKI
+    image:
+    - GznIYpna4AAgbSQ
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    reference:
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6fbYAASFb3
+
+- postx:
+    id: 1962192489680683267
+    account: coco_102
+    label: Sore after the show
+    published-date: 2025-08-31
+    text: |-
+      全身が壮絶な筋肉痛に襲われてマス🫨
+      これがZeppか、、、(違う)
+    translation: |-
+      My whole body is being attacked by intense muscle pain 🫨
+      So this is Zepp... (wait, no)
+    image:
+    - GzsbqmqbgAANlPV
     part-of:
       show:
         year: 2025
@@ -192,6 +577,30 @@
       postx: 1931984997382316384
 
 - postximage:
+    post: 1959904093104918959
+    id: GzL5Y08aoAAY1Tm
+    label: Merch
+    published-date: 2025-08-25
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1959904093104918959
+
+- postximage:
+    post: 1959904093104918959
+    id: GzL5Z5hbUAAbrZI
+    label: Merch
+    published-date: 2025-08-25
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1959904093104918959
+
+- postximage:
     post: 1961015583069335728
     id: GzbtRUjbUAAj0pI
     label: Merch
@@ -202,6 +611,208 @@
         id: 1stzepponeman
     part-of:
       postx: 1961015583069335728
+
+- postximage:
+    post: 1961389728428953733
+    id: GzhA8PbbsAA3ZUq
+    label: Livestreaming poster
+    published-date: 2025-08-29
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961389728428953733
+
+- postximage:
+    post: 1961644768393392374
+    id: Gzknca0acAAY3FC
+    label: Sold out flyer
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    todo: replace current cover
+    part-of:
+      postx: 1961644768393392374
+
+- postximage:
+    post: 1961765828870996016
+    id: GzmXl6fbYAASFb3
+    label: On stage
+    info: from behind Cocoro
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961765828870996016
+
+- postximage:
+    post: 1961765828870996016
+    id: GzmXl6jbMAAtlNY
+    label: On stage
+    info: Hika
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961765828870996016
+
+- postximage:
+    post: 1961765828870996016
+    id: GzmXl6pa0AAavhd
+    label: Encore
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961765828870996016
+
+- postximage:
+    post: 1961765828870996016
+    id: GzmXl6vbkAA0r0J
+    label: Venue
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961765828870996016
+
+- postximage:
+    post: 1961803764794622273
+    id: Gzm6F7naUAE1V-I
+    label: On stage
+    info: Kanade
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961803764794622273
+
+- postximage:
+    post: 1961803764794622273
+    id: Gzm6F7waMAANvQ6
+    label: Backstage
+    info: Kanade
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961803764794622273
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CGasAIv7PE
+    label: On stage
+    info: Natsu
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961807893306699826
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CIaUAAEAp6
+    label: Backstage
+    info: Natsu
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961807893306699826
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CPaQAAkyrR
+    label: On stage
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961807893306699826
+
+- postximage:
+    post: 1961807893306699826
+    id: Gzm94CQbQAATcAD
+    label: Backstage
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961807893306699826
+
+- postximage:
+    post: 1961812414485459420
+    id: GznB_baboAAZECx
+    label: Venue
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961812414485459420
+
+- postximage:
+    post: 1961812414485459420
+    id: GznB_bebQAAf7Hn
+    label: On stage
+    info: Hika
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961812414485459420
+
+- postximage:
+    post: 1961819558362444002
+    id: GznIYpna4AAgbSQ
+    label: On stage
+    info: Cocoro
+    published-date: 2025-08-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1961819558362444002
+
+- postximage:
+    post: 1962192489680683267
+    id: GzsbqmqbgAANlPV
+    label: Drum kit
+    info: before the show
+    published-date: 2025-08-31
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1962192489680683267
 
 - postxvideo:
     post: 1956675862444769366
@@ -242,6 +853,19 @@
         id: 1stzepponeman
 
 - youtubeshort:
+    id: 0OdFL28sLx0
+    label: Natsu's week
+    published-date: 2025-08-05
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
     id: 0hC9M6VeCJk
     label: Announcement
     published-date: 2025-03-16
@@ -260,6 +884,95 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: 23T_K9ejBUI
+    label: Kanade's week
+    published-date: 2025-08-12
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: 6BjdwHQ2ISY
+    label: Hika's week
+    published-date: 2025-08-19
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: 6Qn1ORYc7Eo
+    label: Natsu's week
+    info: English-subtitled
+    published-date: 2025-08-12
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: 7PDPcKbpwUQ
+    label: Hika's week
+    published-date: 2025-08-18
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: 8_JxedDmPIc
+    label: Road to 1st Zeep
+    info: Recap NEK! so far
+    published-date: 2025-08-29
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: BrwBqAuLRRk
+    label: Kanade's week
+    published-date: 2025-08-11
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: DnMhjnkT3eo
+    label: Kanade's week
+    published-date: 2025-08-13
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
 
 - youtubeshort:
     id: He1zOmOk7b0
@@ -290,6 +1003,19 @@
         id: 1stzepponeman
 
 - youtubeshort:
+    id: istRkTl16oM
+    label: Natsu's week
+    published-date: 2025-08-06
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
     id: lFPBSexcRHM
     label: Live
     info: intro
@@ -299,6 +1025,46 @@
         year: 2025
         id: 1stzepponeman
     - song: getover
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: mKQ7W51Xg-s
+    label: Natsu's week
+    published-date: 2025-08-04
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: vIKJuqDm-fE
+    label: Kanade's week
+    info: English-subtitled
+    published-date: 2025-08-20
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: voMXU8Owu3Q
+    label: Hika's week
+    published-date: 2025-08-19
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
     part-of:
       show:
         year: 2025

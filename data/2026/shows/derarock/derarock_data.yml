@@ -71,6 +71,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: KsMLKhWlKuc
                 - youtubeshort: w-tn1Dj8KUs
     part-of:
       show:
@@ -611,6 +612,21 @@
     date: 2026-01-19
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- youtubeshort:
+    id: KsMLKhWlKuc
+    label: On stage
+    info: studio audio
+    published-date: 2026-01-20
+    context:
+    - song: frogflog
+    - show:
+        year: 2026
+        id: derarock
     part-of:
       show:
         year: 2026

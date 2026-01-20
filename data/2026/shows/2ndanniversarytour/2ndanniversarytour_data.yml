@@ -8,6 +8,11 @@
         - basicsection:
             subsections:
             - textsubsection:
+                multimedia:
+                  localimage:
+                    tour: 2ndanniversarytour
+                    id: tour-map
+                ismultimedialeft: false
                 lines:
                 - line:
                   - text: The tour kicks off on February 8th, just two days before the band's anniversary on February 10th.
@@ -42,6 +47,18 @@
                   - text: Fans who attend at least 6 shows, including the finale at CLUB QUATTRO, will receive a limited-edition T-shirt, signed by the band members.
                 - line:
                   - text: Fans who attend all 12 shows of the tour will participate in a Meet and Greet with the band members after the show at CLUB QUATTRO. These fans will receive a limited-edition T-shirt, which will be signed and presented by the band members.
+    part-of:
+      tour: 2ndanniversarytour
+
+- localimage:
+    tour: 2ndanniversarytour
+    id: tour-map
+    label: Tour map
+    published-date: 2026-01-20
+    source:
+      description: Based on wikimedia map
+    context:
+    - tour: 2ndanniversarytour
     part-of:
       tour: 2ndanniversarytour
 

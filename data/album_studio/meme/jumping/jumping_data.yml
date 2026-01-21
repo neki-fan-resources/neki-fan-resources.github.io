@@ -90,96 +90,165 @@
       song: jumping
     status:
       code: warning
-      description: Data copied from the sources. Not reviewed.
+      description: Data copied from the sources. Minimal reviewed.
     languages:
     - id: ol
       name: original lyrics
-      details: (from uta-net.com)
+      details: (from the YouTube Official Music Video subtitles)
       active: true
       fixed: true
       no-translation: true
       source:
-        description: from the uta-net.com
-        url: 'https://www.uta-net.com/song/383747/'
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=EUuiBgbxtZI'
+    - id: en
+      name: english translation
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=EUuiBgbxtZI'
     sections:
     - lines:
       - ol:
         - 不安な気持ちにとどめを刺して
+        en:
+        - I put an end to my anxious thoughts
       - ol:
         - 無くしものは散歩中だわ
+        en:
+        - What I’ve lost is somewhere on my walk
       - ol:
         - ゆっくりゆっくり会えばいい
+        en:
+        - Slowly, slowly, we’ll meet someday
       - ol:
         - 待ち合わせなんて必要ない
+        en:
+        - No need for promises or rendezvous
     - lines:
       - ol:
         - 夜の扉は異世界へと
+        en:
+        - The door of night leads to another world
       - ol:
         - ひっそり暗闇が街包む
+        en:
+        - Silent darkness wraps the city tight
       - ol:
-        - さあ　毎晩こっそり出かけるのよ
+        - さあ毎晩こっそり出かけるのよ
+        en:
+        - Come on, every night I sneak away
     - lines:
       - ol:
         - スニーカーの紐をしっかり手繰り寄せて
+        en:
+        - Pull my sneaker laces tight
       - ol:
-        - 駆け抜ける　街灯下
+        - 駆け抜ける 街灯下
+        en:
+        - I run beneath the streetlights
       - ol:
         - 曲がり角過ぎてもうすぐあの場所
+        en:
+        - Past the corner — that place is near
     - lines:
       - ol:
         - Turn and turn
       - ol:
         - 今さあ　スキップしながら回って靴を鳴らすのよ
+        en:
+        - Now I spin and skip, letting my shoes ring out
       - ol:
         - 夜の闇に恋して
+        en:
+        - Falling in love with the night
       - ol:
         - Step by step
       - ol:
         - 秘めたこの場所は私だけのもの
+        en:
+        - This hidden place belongs only to me
       - ol:
-        - 両足で飛び上がろう
+        - 両足で　飛び上がろう
+        en:
+        - Jump up with both feet
     - lines:
       - ol:
         - 不穏な世界とはここでお別れ
+        en:
+        - Goodbye to this unsettling world
       - ol:
         - 色とりどりの魔法かけ
+        en:
+        - I cast colorful spells
       - ol:
         - チョコレートつまみ食いしながら
+        en:
+        - Stealing bites of chocolate
     - lines:
       - ol:
         - 両足ハイヒールに押し込んで始まる
+        en:
+        - Slip my feet into high heels
       - ol:
         - 可憐なステップ　スポットライト
+        en:
+        - A graceful step begins under the spotlight
       - ol:
-        - そうすればもう始まる
+        - そうすればもう　始まる
+        en:
+        - And then it starts
       - ol:
         - 自由へのダンシングタイム
+        en:
+        - A dancing time toward freedom
     - lines:
       - ol:
         - 空に手を掲げ　雲を塗りつぶして進む
+        en:
+        - I raise my hands to the sky. Painting over the clouds as I go
       - ol:
-        - (回る　夜の街)
+        - （回る　夜の街）
+        en:
+        - (Spinning through the night streets)
       - ol:
         - そう　星と星を指でつまんで縫ってとめる
+        en:
+        - I pinch the stars, stitch them together
       - ol:
         - 私は止まらないのよ
+        en:
+        - I won’t stop
       - ol:
         - 止まらないのよ
+        en:
+        - I won’t stop
     - lines:
       - ol:
         - Turn and turn
       - ol:
         - 今さあ　スキップしながら回って靴を鳴らすのよ
+        en:
+        - Spin and skip, let the shoes ring out
       - ol:
         - 夜の闇に恋して
+        en:
+        - Falling in love with the night
       - ol:
         - Step by step
       - ol:
         - 秘めたこの場所は私だけのもの
+        en:
+        - This hidden place belongs only to me
       - ol:
-        - 両足で飛び上がろう
+        - 両足で　飛び上がろう
+        en:
+        - Jump up with both feet
       - ol:
-        - 両足で飛び上がろう
+        - 両足で　飛び上がろう
+        en:
+        - Jump up with both feet
     - lines:
       - ol:
         - Jump
@@ -526,6 +595,14 @@
     date: 2026-01-17
     text:
     - More behind the scenes pictures from the MV
+    part-of:
+      song: jumping
+
+- update:
+    song: jumping
+    date: 2026-01-21
+    text:
+    - Added the English translation of the lyrics from the YouTube video
     part-of:
       song: jumping
 

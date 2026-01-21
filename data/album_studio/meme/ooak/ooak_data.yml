@@ -434,6 +434,25 @@
     part-of:
       song: ooak
 
+- postx:
+    id: 1966025588482969699
+    account: nekiband_jp
+    label: 50k views
+    published-date: 2025-09-11
+    text: |-
+      “OOAK”
+      Official Music Video
+      
+      50,000 views — thank you🫶
+      
+      https://youtu.be/qGEzCjYvWZw
+      
+      #NEKI
+    image:
+    - G0i52DEaMAAlNX-
+    part-of:
+      song: ooak
+
 - postximage:
     post: 1929512124243411173
     id: GscBBL6bgAAwvmM
@@ -488,6 +507,16 @@
     - song: ooak
     part-of:
       postx: 1936646576686153867
+
+- postximage:
+    post: 1966025588482969699
+    id: G0i52DEaMAAlNX-
+    label: Music Video
+    published-date: 2025-09-11
+    context:
+    - song: ooak
+    part-of:
+      postx: 1966025588482969699
 
 - postxvideo:
     post: 1930096228966248749

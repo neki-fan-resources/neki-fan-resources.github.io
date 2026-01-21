@@ -7,23 +7,6 @@
         id: tokyocalling
 
 - youtubeshort:
-    id: 1YP2n89ZgJ0
-    label: Promo
-    info: studio audio, Kanade & Natsu solos
-    published-date: 2025-09-29
-    context:
-    - show:
-        year: 2025
-        id: tokyocalling
-    - song: zerosum
-    part-of:
-      group:
-        id: promo
-        show:
-          year: 2025
-          id: tokyocalling
-
-- youtubeshort:
     id: GxJg2931yjc
     label: Promo
     published-date: 2025-10-01

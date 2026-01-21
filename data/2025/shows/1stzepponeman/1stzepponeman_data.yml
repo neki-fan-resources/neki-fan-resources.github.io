@@ -563,6 +563,175 @@
         year: 2025
         id: 1stzepponeman
 
+- postx:
+    id: 1962831188181311881
+    account: 46_hikaa
+    label: Image from the show
+    published-date: 2025-09-02
+    text: |-
+      2025.08.30  NEK! 1ST ZEPP ONE MAN
+      
+       #NEKI #ネキ界隈
+    image:
+    - Gz1gj5nbMAAQ2Qc
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1963165822089879925
+    account: realsoundjp
+    label: Article report on the show + great images
+    published-date: 2025-09-02
+    text: |-
+      ══ ⚡️ NEK! ライブレポート ⚡️  ══
+      
+      📎https://realsound.jp/2025/09/post-2144607.html
+      
+      NEK!は今、凄まじい勢いで数々の夢を叶えようとしている
+      バンド結成から1年半で到達した初のZeppワンマン
+      
+      ／
+      📷ライブ写真一覧はこちら！
+      https://realsound.jp/2025/09/post-2144607.html/photo
+      ＼
+      
+      #NEKI 
+      @nekiband_jp
+      
+      #ネキ界隈 #ネキメジャーデビュー
+    translation: |-
+      ══ ⚡️ NEK! Live Report ⚡️  ══
+      
+      📎https://realsound.jp/2025/09/post-2144607.html
+      
+      NEK! is now fulfilling numerous dreams with incredible momentum
+      The first Zepp solo show reached just 1.5 years after band formation
+      
+      ／
+      📷Click here for the live photo list!
+      https://realsound.jp/2025/09/post-2144607.html/photo
+      ＼
+      
+      #NEKI 
+      @nekiband_jp
+      
+      #Nekikaiwai #NekiMajorDebut
+    todo: extract new images, extract new songs
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1963245027179540838
+    account: coco_102
+    label: Fool on stage
+    info: outro
+    published-date: 2025-09-03
+    text: |-
+      Fool⚡️
+      
+      いちばん後ろまでしっかり見えてたよ〜〜
+      そしてみんなの声ほんとによく聞こえた！！
+      全身使って楽しんでくれてありがとう😈❤️‍🔥
+      
+      #NEKI
+    translation: |-
+      Fool⚡️
+      
+      I could see clearly all the way to the very back~~
+      And I could hear everyone's voices so well!!
+      Thank you for using your whole body to have fun😈❤️‍🔥
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1963942446318125451
+    account: coco_102
+    label: Wider sound from toms and kick drums
+    published-date: 2025-09-05
+    text: |-
+      タムとかキックの反響がいつもより広いからすごく気持ちよかった😌🥁💚
+    translation: |-
+      The resonance of the toms and kick felt more spacious than usual, so it felt really good 😌🥁💚
+    image:
+    - G0FTKPDa0AAaKht
+    - G0FTKPAaMAAP9kZ
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1964676334128693400
+    account: coco_102
+    label: moon on stage
+    info: for the upcoming full moon
+    published-date: 2025-09-07
+    text: |-
+      明日満月なんだって🌕
+      コーンムーンって呼ぶらしいよ、なんか美味しそう🌽
+      
+      たまにはゆっくり夜空を見上げてみようかな
+      
+      (moonの1サビ終わりのフィル、他楽器とがっつりユニゾンしてて好き)
+      
+      #NEKI
+    translation: |-
+      Tomorrow is a full moon 🌕
+      Apparently it's called a Corn Moon, sounds kind of delicious 🌽
+      
+      Maybe I'll take a moment to look up at the night sky
+      
+      (I love the fill at the end of the first chorus in "moon," it's in total unison with the other instruments)
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1967554049408135190
+    account: coco_102
+    label: Dreams on stage
+    info: Cocoro
+    published-date: 2025-09-15
+    text: |-
+      連打連打連打‼️
+      
+      2BがDreams!!!!の中でいちばん私たちらしくて好き
+      
+      てかみんなの声が大きすぎる〜〜🫨❤️‍🔥
+      バッチバチに愛を感じた！！本当にありがとう！！
+      
+      #NEKI
+    translation: |-
+      Strike, strike, strike‼️
+      
+      The 2B section is my favorite because it feels the most like us out of all of Dreams!!!!
+      
+      I mean, everyone's voices are so loud~~🫨❤️‍🔥
+      I felt the love so intensely!! Thank you so much!!
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
 - postximage:
     post: 1931984997382316384
     id: Gs_KDFfb0AAtXQ1
@@ -814,6 +983,44 @@
     part-of:
       postx: 1962192489680683267
 
+- postximage:
+    post: 1962831188181311881
+    id: Gz1gj5nbMAAQ2Qc
+    label: On stage
+    info: Hika
+    published-date: 2025-09-02
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1962831188181311881
+
+- postximage:
+    post: 1963942446318125451
+    id: G0FTKPAaMAAP9kZ
+    label: Drum kit
+    published-date: 2025-09-05
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1963942446318125451
+
+- postximage:
+    post: 1963942446318125451
+    id: G0FTKPDa0AAaKht
+    label: At the drums
+    info: Cocoro, before the show
+    published-date: 2025-09-05
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1963942446318125451
+
 - postxvideo:
     post: 1956675862444769366
     id: 01
@@ -827,6 +1034,73 @@
         id: 1stzepponeman
     part-of:
       postx: 1956675862444769366
+
+- postxvideo:
+    post: 1963245027179540838
+    id: 01
+    label: Live
+    info: Cocoro, outro
+    published-date: 2025-09-03
+    cover: 1963244699713773568/img/lqZShif-gkR5etUG.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: fool
+    part-of:
+      postx: 1963245027179540838
+
+- postxvideo:
+    post: 1964676334128693400
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-09-07
+    cover: 1964676210174357504/img/AeZO_IK0_FjbFI7t.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: moon
+    part-of:
+      postx: 1964676334128693400
+
+- postxvideo:
+    post: 1967554049408135190
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2025-09-25
+    cover: 1967553924350803968/img/6BSuvIH52RB2hM6A.jpg
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 1967554049408135190
+
+- update:
+    show:
+      year: 2025
+      id: 1stzepponeman
+    date: 2025-09-13
+    text:
+    - Short video of the intro of "zero-sum"
+    part-of:
+      youtubeshort: '-tZ_hveWReA'
+
+- update:
+    show:
+      year: 2025
+      id: 1stzepponeman
+    date: 2025-09-15
+    text:
+    - Short video of "Dreams!!!!" from Cocoro
+    part-of:
+      postxvideo:
+        post: 1967554049408135190
+        video: 01
 
 - update:
     show:
@@ -847,6 +1121,594 @@
     date: 2025-10-12
     text:
     - One additional image of Cocoro
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- webimage:
+    domain: barks.jp
+    page: 1019083
+    id: 0-3
+    label: On stage
+    info: Kanade
+    published-date: 2025-09-13
+    url: 'https://new-img.barks.jp/wp-content/uploads/2025/09/12205309/0-3.jpg'
+    page-url: 'https://barks.jp/news/1019083/3/'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1019083
+
+- webimage:
+    domain: barks.jp
+    page: 1019083
+    id: b1-3
+    label: On stage
+    info: Kanade
+    published-date: 2025-09-13
+    url: 'https://new-img.barks.jp/wp-content/uploads/2025/09/12205154/b1-3.jpg'
+    page-url: 'https://barks.jp/news/1019083/2/'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1019083
+
+- webimage:
+    domain: barks.jp
+    page: 1019083
+    id: d1-1
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-13
+    url: 'https://new-img.barks.jp/wp-content/uploads/2025/09/12205203/d1-1.jpg'
+    page-url: 'https://barks.jp/news/1019083/2/'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1019083
+
+- webimage:
+    domain: barks.jp
+    page: 1019083
+    id: g1-1
+    label: On stage
+    info: Natsu
+    published-date: 2025-09-13
+    url: 'https://new-img.barks.jp/wp-content/uploads/2025/09/12205145/g1-1.jpg'
+    page-url: 'https://barks.jp/news/1019083/2/'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1019083
+
+- webimage:
+    domain: barks.jp
+    page: 1019083
+    id: g2
+    label: On stage
+    info: Natsu
+    published-date: 2025-09-13
+    url: 'https://new-img.barks.jp/wp-content/uploads/2025/09/12205147/g2.jpg'
+    page-url: 'https://barks.jp/news/1019083/2/'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1019083
+
+- webimage:
+    domain: barks.jp
+    page: 1019083
+    id: v1-1
+    label: On stage
+    info: Hika, Cocoro
+    published-date: 2025-09-13
+    url: 'https://new-img.barks.jp/wp-content/uploads/2025/09/12205139/v1-1.jpg'
+    page-url: 'https://barks.jp/news/1019083/2/'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1019083
+
+- webimage:
+    domain: barks.jp
+    page: 1019083
+    id: v2-1
+    label: On stage
+    info: Hika
+    published-date: 2025-09-13
+    url: 'https://new-img.barks.jp/wp-content/uploads/2025/09/12205139/v2-1.jpg'
+    page-url: 'https://barks.jp/news/1019083/2/'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1019083
+
+- webimage:
+    domain: instagram.com
+    page: DPN6aGzETNX
+    id: 3
+    label: On stage
+    info: Kanade
+    published-date: 2025-09-30
+    url: 'https://www.instagram.com/p/DPN6aGzETNX'
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: DPN6aGzETNX
+
+- webimage:
+    domain: instagram.com
+    page: DPN6aGzETNX
+    id: 4
+    label: On stage
+    published-date: 2025-09-30
+    url: 'https://www.instagram.com/p/DPN6aGzETNX'
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: DPN6aGzETNX
+
+- webimage:
+    domain: instagram.com
+    page: DPN6aGzETNX
+    id: 5
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-30
+    url: 'https://www.instagram.com/p/DPN6aGzETNX'
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: DPN6aGzETNX
+
+- webimage:
+    domain: instagram.com
+    page: DPN6aGzETNX
+    id: 7
+    label: On stage
+    info: Kanade, Hika
+    published-date: 2025-09-30
+    url: 'https://www.instagram.com/p/DPN6aGzETNX'
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: DPN6aGzETNX
+
+- webimage:
+    domain: instagram.com
+    page: DPN6aGzETNX
+    id: 8
+    label: On stage
+    info: Hika
+    published-date: 2025-09-30
+    url: 'https://www.instagram.com/p/DPN6aGzETNX'
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: DPN6aGzETNX
+
+- webimage:
+    domain: instagram.com
+    page: DPN6aGzETNX
+    id: 9
+    label: On stage
+    info: from behind Cocoro
+    published-date: 2025-09-30
+    url: 'https://www.instagram.com/p/DPN6aGzETNX'
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: instagram.com
+        id: DPN6aGzETNX
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 02
+    label: On stage
+    info: Hika
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-02.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-02'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 03
+    label: On stage
+    info: Natsu
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-03.jpeg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-03'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 04
+    label: On stage
+    info: Kanade, encore
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-04.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-04'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 05
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-05.jpeg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-05'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 06
+    label: On stage
+    info: Kanade, Hika
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-06.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-06'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 10
+    label: On stage
+    info: from behind Cocoro
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-10.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-10'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 11
+    label: On stage
+    info: Hika, encore
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-11.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-11'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 12
+    label: On stage
+    info: Natsu
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-12.jpeg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-12'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 13
+    label: On stage
+    info: Kanade
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-13.jpeg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-13'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 14
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-14.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-14'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 15
+    label: Encore
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-15.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-15'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 16
+    label: Backstage
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-16.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-16'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webimage:
+    domain: realsound.jp
+    page: 2025.09.2144607
+    id: 99
+    label: On stage
+    info: Hika
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-99.jpg.webp'
+    page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-99'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
+
+- webpage:
+    domain: barks.jp
+    id: 1019083
+    label: Recap article
+    published-date: 2025-09-13
+    url: 'https://barks.jp/news/1019083/'
+    image:
+    - v1-1
+    - v2-1
+    - g1-1
+    - g2
+    - b1-3
+    - d1-1
+    - 0-3
+    todo: link to X post
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    reference:
+    - webimage:
+        domain: realsound.jp
+        page: 2025.09.2144607
+        id: 13
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6vbkAA0r0J
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6jbMAAtlNY
+    - webimage:
+        domain: realsound.jp
+        page: 2025.09.2144607
+        id: 10
+    - webimage:
+        domain: realsound.jp
+        page: 2025.09.2144607
+        id: 15
+    - webimage:
+        domain: realsound.jp
+        page: 2025.09.2144607
+        id: 16
+
+- webpage:
+    domain: instagram.com
+    id: DPN6aGzETNX
+    label: Photos
+    published-date: 2025-09-30
+    url: 'https://www.instagram.com/p/DPN6aGzETNX'
+    image:
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 9
+    todo: transfer to instagram support
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- webpage:
+    domain: realsound.jp
+    id: 2025.09.2144607
+    label: Recap article
+    published-date: 2025-09-03
+    url: 'https://realsound.jp/2025/09/post-2144607.html'
+    image:
+    - 02
+    - 03
+    - 04
+    - 05
+    - 06
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 99
+    part-of:
+      postx: 1963165822089879925
+    reference:
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6vbkAA0r0J
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6jbMAAtlNY
+    - postximage:
+        post: 1962831188181311881
+        image: Gz1gj5nbMAAQ2Qc
+
+- youtubeshort:
+    id: '-f1iJu5MuRU'
+    label: Digest Movie
+    published-date: 2025-09-09
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: getover
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: '-tZ_hveWReA'
+    label: Live Intro
+    published-date: 2025-09-13
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: zerosum
     part-of:
       show:
         year: 2025
@@ -994,6 +1856,36 @@
     info: About the other members
     published-date: 2025-07-29
     context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: VXh9xsPO1uE
+    label: Promo
+    info: studio audio
+    published-date: 2025-09-15
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: ib_vEcMxjCg
+    label: Promo
+    info: studio audio
+    published-date: 2025-09-11
+    context:
+    - song: dreams
     - show:
         year: 2025
         id: 1stzepponeman

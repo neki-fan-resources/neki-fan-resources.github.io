@@ -37,6 +37,54 @@
         id: tokyocalling
 
 - postx:
+    id: 1962470508890657030
+    account: tokyo__calling
+    label: Timetable
+    published-date: 2025-09-01
+    text: |-
+      【⏰タイムテーブル 解禁📷】
+      
+      〜〜〜 
+      9/23(火)27(土)28(日) 開催  
+      TOKYO CALLING 2025
+      -10th Anniversary-
+      〜〜〜
+      
+      🎊タイムテーブル解禁です🎊
+      
+      チケットはこちら！
+      https://t.pia.jp/pia/event/event.do?eventCd=2501061
+      
+      皆様のご来場、お待ちしてます📷  
+      #TOKYOCALLING
+      #トーキョーコーリング
+    translation: |-
+      【⏰Timetable Released📷】
+      
+      〜〜〜 
+      Held on 9/23(Tue), 27(Sat), 28(Sun)  
+      TOKYO CALLING 2025
+      -10th Anniversary-
+      〜〜〜
+      
+      🎊The timetable is finally out🎊
+      
+      Tickets here!
+      https://t.pia.jp/pia/event/event.do?eventCd=2501061
+      
+      We're looking forward to seeing everyone there📷  
+      #TOKYOCALLING
+      #TokyoCalling
+    image:
+    - GzwYhdZaIAA6XLZ
+    - GzwYhdXawAArF2M
+    - GzwYhdvbYAI9nwF
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postx:
     id: 1971180905709625391
     account: Meta_Fes
     label: In 2 days
@@ -59,6 +107,23 @@
       https://eplus.jp/tokyo-calling-2025/
       【ローチケ】
       https://l-tike.com/tokyo-calling/
+    translation: |-
+      🎉Happening the day after tomorrow🎉
+      
+      /／
+      　　"TOKYO CALLING 2025"
+      　Metamorphose Collaboration Stage
+      \＼
+      
+      Have you gotten your tickets yet❓
+      Please check out the official goods too✅
+      
+      【Pia】
+      https://w.pia.jp/t/tokyo-calling-2025/
+      【e+】
+      https://eplus.jp/tokyo-calling-2025/
+      【Lawson Ticket】
+      https://l-tike.com/tokyo-calling/
     image:
     - G1sKeAqaAAEUyBA
     todo: more pictures
@@ -70,7 +135,7 @@
 - postx:
     id: 1971514796249133057
     account: nekiband_jp
-    label: Show tomorrow
+    label: Tomorrow
     published-date: 2025-09-26
     text: |-
       🔥明日出演🔥
@@ -89,12 +154,304 @@
       #NEKI
       #TOKYOCALLING
       #トーキョーコーリング
+    translation: |-
+      🔥Performing tomorrow🔥
+      
+      Held on 9/27 (Sat)
+      "TOKYO CALLING 2025"
+      
+      📍Shinjuku・Zirco Tokyo
+      ⏰20:30~21:00
+      
+      We will be performing as the headliner for Zirco Tokyo💥
+      Please come and see us👀❤️‍🔥
+      
+      🔗https://t.pia.jp/pia/event/event.do?eventCd=2501061
+      
+      #NEKI
+      #TOKYOCALLING
+      #TokyoCalling
     image:
     - G1wdzAvaAAARSaN
     part-of:
       show:
         year: 2025
         id: tokyocalling
+
+- postx:
+    id: 1971918444418453926
+    account: Meta_Fes
+    label: Photos
+    published-date: 2025-09-27
+    text: |-
+      /／
+      
+      『 TOKYO CALLING 2025 』
+      〜Metamorphoseコラボステージ〜
+      
+      Official camera photo 📸
+      
+      \＼
+      
+      NEK!(
+      @nekiband_jp
+      )
+      
+      photo by 悠希(
+      @yuuki_camera_
+      )
+      
+      #TOKYOCALLING #トーキョーコーリング
+      #MetamorphoseFestival #MetaFes
+    image:
+    - G12pUcua8AEO3t3
+    - G12pUf_b0AAaATF
+    - G12pUg1b0AUs2d8
+    - G12pWYdbIAAp8Ib
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postx:
+    id: 1971925623133425704
+    account: tokyo__calling
+    label: Photos
+    published-date: 2025-09-27
+    text: |-
+      【📷live photo📷】
+      
+      TOKYO CALLING 2025
+      Metamorphoseコラボステージ
+      Zirco Tokyo
+      
+      NEK!
+      
+      ご出演いただき、ありがとうございました！
+      
+      photo by(
+      @yuuki_camera_
+      )
+      
+      #トーキョーコーリング
+      #TOKYOCALLING2025
+    translation: |-
+      【📷live photo📷】
+      
+      TOKYO CALLING 2025
+      Metamorphose Collaboration Stage
+      Zirco Tokyo
+      
+      NEK!
+      
+      Thank you so much for your performance!
+      
+      photo by(
+      @yuuki_camera_
+      )
+      
+      #TOKYOCALLING
+      #TOKYOCALLING2025
+    image:
+    - G12v5sIa4AABkXE
+    - G12v5sJaoAAIx8N
+    - G12v5sLb0AIOljm
+    - G12v5sQb0AIm4dt
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postx:
+    id: 1971928063769534779
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-09-27
+    text: |-
+      TOKYO CALLING 2025
+      @ Zirco Tokyo
+      
+      ありがとうございました❤️‍🔥
+      
+      11/28(金)
+      @ 横浜ReNY beta
+      
+      アルバムリリース記念ワンマンのチケットオフィシャル2次先行受付中⚡️
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI 
+      #TOKYOCALLING
+      #トーキョーコーリング
+    translation: |-
+      TOKYO CALLING 2025
+      @ Zirco Tokyo
+      
+      Thank you so much❤️‍🔥
+      
+      11/28 (Fri)
+      @ Yokohama ReNY beta
+      
+      Official 2nd advance ticket applications for our album release memorial one-man are now open⚡️
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI 
+      #TOKYOCALLING
+      #TOKYOCALLING
+    image:
+    - G12yHh4bgAAMFpJ
+    - G12yHhua8AA--GH
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postx:
+    id: 1971939704607330507
+    account: coco_102
+    label: Thank you
+    published-date: 2025-09-27
+    text: |-
+      ❤️‍🔥TOKYO CALLING 2025❤️‍🔥
+      
+      お越しくださった皆様ありがとうございましたー！！
+      Zirco Tokyoのトリを飾らせていただきました！
+      フロアも盛り上がってくれてて嬉しかったです^^
+      
+      念願のTOKYO CALLING最高に楽しかった！
+      また出演できるように頑張ります✊🏻🔥
+    translation: |-
+      ❤️‍🔥TOKYO CALLING 2025❤️‍🔥
+      
+      Thank you so much to everyone who came!!
+      We were honored to perform as the headliner at Zirco Tokyo!
+      I was so happy to see the floor getting so hyped up ^^
+      
+      My first long-awaited TOKYO CALLING was the best fun ever!
+      I'll do my best so we can perform here again ✊🏻🔥
+    image:
+    - G128R3ca8AAtXAF
+    - G128TQAakAAVDf7
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postx:
+    id: 1971940313058177412
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-09-28
+    text: |-
+      TOKYO CALLING 2025 @ Zirco Tokyo
+      トリで出演させて頂きました！
+      30分の中で最大限楽しめるセトリで、涼しい季節になった今でも
+      汗かいて楽しめました(｡•̀ᴗ-)☆
+      
+      ありがとうございました！
+    translation: |-
+      TOKYO CALLING 2025 @ Zirco Tokyo
+      We performed as the headliner!
+      With a setlist designed for maximum fun in 30 minutes, I had a blast
+      and worked up a sweat even now that the season has cooled down (｡•̀ᴗ-)☆
+      
+      Thank you very much!
+    image:
+    - G129QPzb0AIqsay
+    todo: other picture
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postx:
+    id: 1971943435419746395
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-09-27
+    text: |-
+      一つ一つのライブが特別で、大切で、
+      私をつくってる。
+      
+      ライブハウスに足を運んで下さって
+      いつも楽しんでくれるファンの皆さん!!
+      今日のライブも幸せでした✩.*˚
+      
+      ありがとうございました！！
+       
+       #ネキミーム  #neki
+    translation: |-
+      Every single live show is special and precious,
+      it's what makes me who I am.
+      
+      To all the fans who come out to the live houses
+      and always have a great time!!
+      Today's live was pure happiness too✩.*˚
+      
+      Thank you so much!!
+       
+       #NEKIMEME #neki
+    image:
+    - G13AGZrbcAAi-3S
+    part-of:
+      postx: 1971928063769534779
+
+- postx:
+    id: 1971946181770334695
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-09-27
+    text: |-
+      TOKYO CALLING 2025
+      
+      めちゃめちゃ楽しかった！！
+      ありがとうございました！！
+      ずっと出たかったサーキットなので本当に幸せでした…！
+      ファンの皆さんとの距離も近くて直に熱を感じられて最高でした🔥🔥
+      
+      やっぱみんな最強だよ！！！👊🏻👊🏻
+      たくさん声聞かせてくれてありがとう！
+    translation: |-
+      TOKYO CALLING 2025
+      
+      That was so much fun!!
+      Thank you so much!!
+      It's a circuit festival I've always wanted to play, so I was truly happy...!
+      The distance between us and the fans was so close, and being able to feel the heat directly was the best🔥🔥
+      
+      You guys really are the strongest!!!👊🏻👊🏻
+      Thank you for letting me hear your voices so much!
+    image:
+    - G13CjL-boAEclEX
+    todo: other picture
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- postx:
+    id: 1972588102490456172
+    account: coco_102
+    label: Photos
+    published-date: 2025-09-29
+    text: |-
+      先日のTOKYO CALLINGで素敵すぎるお写真を撮っていただいたのでみんなにもお裾分け😈🩷
+    translation: |-
+      I'm sharing some amazing photos taken at TOKYO CALLING the other day with everyone 😈🩷
+    image:
+    - G2AKaoUaEAAfEQg
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+    reference:
+    - postximage:
+        post: 1971925623133425704
+        image: G12v5sLb0AIOljm
+    - postximage:
+        post: 1971925623133425704
+        image: G12v5sJaoAAIx8N
 
 - postximage:
     post: 1950876603812376989
@@ -108,6 +465,42 @@
         id: tokyocalling
     part-of:
       postx: 1950876603812376989
+
+- postximage:
+    post: 1962470508890657030
+    id: GzwYhdXawAArF2M
+    label: Schedule 9/27
+    published-date: 2025-09-01
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1962470508890657030
+
+- postximage:
+    post: 1962470508890657030
+    id: GzwYhdZaIAA6XLZ
+    label: Schedule 9/23
+    published-date: 2025-09-01
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1962470508890657030
+
+- postximage:
+    post: 1962470508890657030
+    id: GzwYhdvbYAI9nwF
+    label: Schedule 9/28
+    published-date: 2025-09-01
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1962470508890657030
 
 - postximage:
     post: 1971180905709625391
@@ -134,6 +527,206 @@
     part-of:
       postx: 1971514796249133057
 
+- postximage:
+    post: 1971918444418453926
+    id: G12pUcua8AEO3t3
+    label: On stage
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971918444418453926
+
+- postximage:
+    post: 1971918444418453926
+    id: G12pUf_b0AAaATF
+    label: On stage
+    info: Natsu
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971918444418453926
+
+- postximage:
+    post: 1971918444418453926
+    id: G12pUg1b0AUs2d8
+    label: On stage
+    info: Kanade
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971918444418453926
+
+- postximage:
+    post: 1971918444418453926
+    id: G12pWYdbIAAp8Ib
+    label: On stage
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971918444418453926
+
+- postximage:
+    post: 1971925623133425704
+    id: G12v5sIa4AABkXE
+    label: On stage
+    info: Hika
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971925623133425704
+
+- postximage:
+    post: 1971925623133425704
+    id: G12v5sJaoAAIx8N
+    label: On stage
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971925623133425704
+
+- postximage:
+    post: 1971925623133425704
+    id: G12v5sLb0AIOljm
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971925623133425704
+
+- postximage:
+    post: 1971925623133425704
+    id: G12v5sQb0AIm4dt
+    label: On stage
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971925623133425704
+
+- postximage:
+    post: 1971928063769534779
+    id: G12yHh4bgAAMFpJ
+    label: On stage
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971928063769534779
+
+- postximage:
+    post: 1971928063769534779
+    id: G12yHhua8AA--GH
+    label: Backstage
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971928063769534779
+
+- postximage:
+    post: 1971939704607330507
+    id: G128R3ca8AAtXAF
+    label: Backstage
+    info: Cocoro
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971939704607330507
+
+- postximage:
+    post: 1971939704607330507
+    id: G128TQAakAAVDf7
+    label: On stage
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971939704607330507
+
+- postximage:
+    post: 1971940313058177412
+    id: G129QPzb0AIqsay
+    label: Backstage
+    info: Kanade
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971940313058177412
+
+- postximage:
+    post: 1971943435419746395
+    id: G13AGZrbcAAi-3S
+    label: Backstage
+    info: Hika
+    published-date: 2025-09-28
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971943435419746395
+
+- postximage:
+    post: 1971946181770334695
+    id: G13CjL-boAEclEX
+    label: Backstage
+    info: Natsu
+    published-date: 2025-09-27
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1971946181770334695
+
+- postximage:
+    post: 1972588102490456172
+    id: G2AKaoUaEAAfEQg
+    label: On stage
+    published-date: 2025-09-29
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      postx: 1972588102490456172
+
 - update:
     show:
       year: 2025
@@ -153,6 +746,21 @@
     date: 2025-10-02
     text:
     - One more image
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- youtubeshort:
+    id: 1YP2n89ZgJ0
+    label: Promo
+    info: studio audio, Kanade & Natsu solos
+    published-date: 2025-09-29
+    context:
+    - show:
+        year: 2025
+        id: tokyocalling
+    - song: zerosum
     part-of:
       show:
         year: 2025

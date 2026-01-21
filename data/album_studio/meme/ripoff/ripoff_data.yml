@@ -1579,6 +1579,64 @@
     part-of:
       song: ripoff
 
+- postx:
+    id: 1968563113944564085
+    account: nekiband_jp
+    label: Karaoke release
+    published-date: 2025-09-18
+    text: |-
+      ━━━━━━━━━━
+         🎤カラオケ配信🎤
+      ━━━━━━━━━━
+      
+      NEK! - rip-off
+      
+      全国のJOYSOUNDにて配信決定🎉
+      
+      順次配信スタートしております！
+      ぜひカラオケでたくさん歌ってください🫶
+      
+      #NEKI #ripoff
+    translation: |-
+      ━━━━━━━━━━
+          🎤Karaoke Release🎤
+      ━━━━━━━━━━
+      
+      NEK! - rip-off
+      
+      Now confirmed for release at JOYSOUND nationwide🎉
+      
+      Distribution is starting sequentially!
+      Please sing it a lot at karaoke🫶
+      
+      #NEKI #ripoff
+    image:
+    - G1G9tQMbQAAt5-S
+    part-of:
+      song: ripoff
+
+- postx:
+    id: 1970827214980874512
+    account: 46_hikaa
+    label: rip-off karaoke
+    published-date: 2025-09-24
+    text: |-
+      *rip-off*歌ってきたよ！
+      
+      みんなもカラオケで歌ってみてね✩.*˚
+      
+       #ネキミーム  #neki
+    translation: |-
+      I went to sing "rip-off"!
+      
+      Everyone, please try singing it at karaoke too✩.*˚
+      
+       #NekiMeme #neki_
+    video:
+    - 01
+    part-of:
+      song: ripoff
+
 - postximage:
     post: 1949439923565826120
     id: Gw3NH3ubMAA1o7y
@@ -1680,6 +1738,17 @@
     part-of:
       postx: 1960529877574279264
 
+- postximage:
+    post: 1968563113944564085
+    id: G1G9tQMbQAAt5-S
+    label: MV
+    info: behind the scenes
+    published-date: 2025-09-18
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1968563113944564085
+
 - postxvideo:
     post: 1957004284782055894
     id: 01
@@ -1708,6 +1777,28 @@
         id: 1stzepponeman
     part-of:
       postx: 1957416293554155743
+
+- postxvideo:
+    post: 1970827214980874512
+    id: 01
+    label: Karaoke
+    info: Hika
+    published-date: 2025-09-24
+    cover: 1970827139407859712/img/7qm8OSkbr80oUH03.jpg
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1970827214980874512
+
+- update:
+    song: ripoff
+    date: 2025-09-24
+    text:
+    - Great version of "rip-off" by Hika at a karaoke, featuring mostly her voice with limited backing music
+    part-of:
+      postxvideo:
+        post: 1970827214980874512
+        video: 01
 
 - youtubeshort:
     id: 0oger2CvQP0

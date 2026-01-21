@@ -17,18 +17,3 @@
         id: promo
         song: getover
 
-- youtubeshort:
-    id: VXh9xsPO1uE
-    label: Promo
-    info: studio audio
-    published-date: 2025-09-15
-    context:
-    - song: getover
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      group:
-        id: promo
-        song: getover
-

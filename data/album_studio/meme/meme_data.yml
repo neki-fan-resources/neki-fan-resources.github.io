@@ -357,8 +357,28 @@
     published-date: 2025-09-19
     text: |-
       私は綺麗に収まっちゃうんだよね(๑•̀ᴗ- )☆
+    translation: |-
+      I end up fitting in perfectly(๑•̀ᴗ- )☆
     image:
     - G1NjIuDbUAEPEkd
+    part-of:
+      album: meme
+
+- postx:
+    id: 1969298971727212878
+    account: coco_102
+    label: drums, good fun exercise
+    published-date: 2025-09-20
+    text: |-
+      この世でいちばん楽しい運動🔍
+      
+      もしかして：ドラム
+    translation: |-
+      The most fun exercise in the world🔍
+      
+      Did you mean: Drums
+    image:
+    - G1Ra9_2bQAAkfUH
     part-of:
       album: meme
 
@@ -1653,6 +1673,20 @@
       postx: 1969026474951786643
 
 - postximage:
+    post: 1969298971727212878
+    id: G1Ra9_2bQAAkfUH
+    label: At the drums
+    info: Cocoro
+    published-date: 2025-09-20
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    todo: Is it part of a meme for the album?
+    part-of:
+      postx: 1969298971727212878
+
+- postximage:
     post: 1976221883000594481
     id: G2zzUsDaAAIfTbf
     label: Recording
@@ -2243,6 +2277,18 @@
     - More in-store display pictures
     part-of:
       album: meme
+
+- update:
+    show:
+      year: 2025
+      id: 1stzepponeman
+    date: 2025-09-20
+    text:
+    - A great black and white image of Cocoro at the drums
+    part-of:
+      postximage:
+        post: 1969298971727212878
+        image: G1Ra9_2bQAAkfUH
 
 - webimage:
     domain: note.com.nekiband

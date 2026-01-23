@@ -439,6 +439,7 @@
       🔗 https://minamiwheel.jp
       
       #NEKI #MINAMIWHEEL
+    todo: timetable
     part-of:
       show:
         year: 2025
@@ -523,7 +524,7 @@
 - postx:
     id: 1977650722348159190
     account: 802wannabes
-    label: Band pictures
+    label: Band determinations
     published-date: 2025-10-13
     text: |-
       📷 #フォトホイール #FM802 #ミナホ #ええ声とどけ 📷
@@ -1099,6 +1100,7 @@
         year: 2025
         id: minamiwheel
     - song: blink
+    todo: check show
     part-of:
       postx: 1978807279471284652
 

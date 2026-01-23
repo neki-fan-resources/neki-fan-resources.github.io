@@ -766,3 +766,30 @@
         year: 2025
         id: tokyocalling
 
+- youtubeshort:
+    id: GxJg2931yjc
+    label: Promo
+    published-date: 2025-10-01
+    context:
+    - song: ripoff
+    - show:
+        year: 2025
+        id: tokyocalling
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
+- youtubeshort:
+    id: Irt9PmVz_iw
+    label: Promo
+    info: studio audio, Kanade
+    published-date: 2025-10-07
+    context:
+    - song: getover
+    todo: which show ? tokyo calling ?
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+

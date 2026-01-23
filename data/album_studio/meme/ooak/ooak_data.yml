@@ -453,6 +453,18 @@
     part-of:
       song: ooak
 
+- postx:
+    id: 1973726192525300212
+    account: nekiband_jp
+    label: OOAK rehersal
+    published-date: 2025-10-02
+    text: |-
+      OOAK – Studio Cam🎥 
+      
+      #NEKI #ガールズバンド
+    part-of:
+      youtubeshort: Aw_KwQbWfE8
+
 - postximage:
     post: 1929512124243411173
     id: GscBBL6bgAAwvmM
@@ -619,6 +631,16 @@
     id: 86Esxc1BKDM
     label: MV Teaser
     published-date: 2025-06-18
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
+    id: Aw_KwQbWfE8
+    label: Promo
+    info: studio audio, rehearsal room
+    published-date: 2025-10-02
     context:
     - song: ooak
     part-of:

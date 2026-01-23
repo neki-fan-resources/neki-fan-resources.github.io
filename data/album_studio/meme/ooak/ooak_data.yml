@@ -619,6 +619,16 @@
       song: ooak
 
 - youtubeshort:
+    id: 3dwH1LNEaDU
+    label: Rehearsal
+    info: studio audio
+    published-date: 2026-01-21
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubeshort:
     id: 5WK69VDgaBE
     label: Music Video
     published-date: 2025-06-21

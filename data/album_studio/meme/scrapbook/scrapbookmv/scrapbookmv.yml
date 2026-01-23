@@ -1,0 +1,13 @@
+multimedia-event:
+  id: scrapbookmv
+  cover-image:
+    localimage:
+      multimedia-event: scrapbookmv
+      id: mvcover
+  youtubevideo: PRszdbt0wdg
+  parent:
+    song: scrapbook
+  categories:
+  - video
+  part-of:
+    song: scrapbook

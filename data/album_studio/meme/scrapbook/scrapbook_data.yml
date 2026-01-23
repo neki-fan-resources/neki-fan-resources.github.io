@@ -6,6 +6,14 @@
     part-of:
       song: scrapbook
 
+- update:
+    song: scrapbook
+    date: 2026-01-23
+    text:
+    - Added the upcoming Music Video
+    part-of:
+      song: scrapbook
+
 - youtubeshort:
     id: 76QHtJpuMe8
     label: Rehearsal
@@ -21,6 +29,24 @@
     label: Rehearsal
     info: studio audio
     published-date: 2025-11-16
+    context:
+    - song: scrapbook
+    part-of:
+      song: scrapbook
+
+- youtubeshort:
+    id: hqU7IhEmW4U
+    label: Teaser
+    published-date: 2026-01-23
+    context:
+    - song: scrapbook
+    part-of:
+      song: scrapbook
+
+- youtubevideo:
+    id: PRszdbt0wdg
+    label: Official Music Video
+    published-date: 2026-01-24
     context:
     - song: scrapbook
     part-of:

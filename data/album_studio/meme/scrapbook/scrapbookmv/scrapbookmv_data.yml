@@ -1,0 +1,10 @@
+localimage:
+  multimedia-event: scrapbookmv
+  id: mvcover
+  label: Cover
+  published-date: 2026-01-24
+  source:
+    description: YouTube video
+    url: 'https://www.youtube.com/watch?v=PRszdbt0wdg'
+  part-of:
+    multimedia-event: scrapbookmv

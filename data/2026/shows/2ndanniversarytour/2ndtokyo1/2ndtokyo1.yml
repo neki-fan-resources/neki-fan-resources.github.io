@@ -2,10 +2,9 @@ show:
   year: 2026
   id: 2ndtokyo1
   cover-image:
-    webimage:
-      domain: note.com.nekiband
-      page: n3d37c2c897c8
-      id: poster01
+    postximage:
+      post: 2014972494361645385
+      image: G_adQ2YbAAIeZhI
   fullname: Tokyo
   date: 2026-02-08
   tour: 2ndanniversarytour

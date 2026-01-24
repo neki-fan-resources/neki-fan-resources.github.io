@@ -1,0 +1,55 @@
+- postx:
+    id: 2014972494361645385
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-01-24
+    text: |-
+      🎉🎸🔥SOLD OUT🔥🎸🎉
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      📍2/8(日) @ Shibuya eggman
+      ✨✨THANK YOU SOLD OUT✨✨
+      
+      ツアー初日ソールドアウト🎊
+      本当にありがとうございます🫶💖
+      
+      ▼他11会場はチケット一般発売中🎟️
+      https://note.com/nekiband_jp/n/n3d37c2c897c8?sub_rt=share_pb
+      
+      #NEKI
+    translation: |-
+      🎉🎸🔥SOLD OUT🔥🎸🎉
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      📍2/8(Sun) @ Shibuya eggman
+      ✨✨THANK YOU SOLD OUT✨✨
+      
+      Tour opening day is sold out🎊
+      Thank you so very much🫶💖
+      
+      ▼General ticket sales are underway for the other 11 venues🎟️
+      https://note.com/nekiband_jp/n/n3d37c2c897c8?sub_rt=share_pb
+      
+      #NEKI
+    image:
+    - G_adQ2YbAAIeZhI
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- postximage:
+    post: 2014972494361645385
+    id: G_adQ2YbAAIeZhI
+    label: Poster sold out
+    published-date: 2026-01-24
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2014972494361645385
+

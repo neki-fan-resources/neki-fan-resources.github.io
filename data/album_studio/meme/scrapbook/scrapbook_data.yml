@@ -1,3 +1,303 @@
+- lyrics:
+    id: main
+    song: scrapbook
+    part-of:
+      song: scrapbook
+    status:
+      code: warning
+      description: Data copied from the sources. Not reviewed.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=PRszdbt0wdg'
+    - id: en
+      name: english translation
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=PRszdbt0wdg'
+    sections:
+    - lines:
+      - ol:
+        - Type one雑なクオリティー
+        en:
+        - Type one, sloppy quality
+      - ol:
+        - ゴーサインは誰が出してる？
+        en:
+        - Who gave the go sign anyway?
+    - lines:
+      - ol:
+        - Type two凌いだギルティー
+        en:
+        - Type two, surviving the guilt
+      - ol:
+        - 紙のフタをして
+        en:
+        - Cover it up with a paper lid
+    - lines:
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+    - lines:
+      - ol:
+        - Type three軽快なセンテンス
+        en:
+        - Type three, catchy sentences
+      - ol:
+        - 皮肉なライムが誰を刺してる？
+        en:
+        - Who gets stabbed by these ironic rhymes?
+    - lines:
+      - ol:
+        - Type four豪快にバーニング
+        en:
+        - Type four, burn it loud
+      - ol:
+        - 灰も飲み込んだ
+        en:
+        - Even swallow the ashes
+    - lines:
+      - ol:
+        - スキビディ　どうもどうも　異常ですか？
+        en:
+        - Skibidi, hello hello — is this abnormal?
+      - ol:
+        - 小気味のいい音はスキップで
+        en:
+        - Nice-sounding noise, skipping along
+      - ol:
+        - ダレダレI
+        en:
+        - Who’s who? I, I
+      - ol:
+        - ナレナレ合い
+        en:
+        - Getting used to each other
+      - ol:
+        - 何かの免疫異常でしょうか
+        en:
+        - Is this some kind of immune disorder?
+    - lines:
+      - ol:
+        - どうだい昨今のMoral？
+        en:
+        - So tell me, how’s today’s Moral?
+      - ol:
+        - 読解力どん詰まり
+        en:
+        - Reading comprehension at a dead end
+      - ol:
+        - 公開的エクセキューション
+        en:
+        - Public executions on display
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+      - ol:
+        - 完全自動のOral
+        en:
+        - Fully automated voices, Oral
+      - ol:
+        - 想像上だけのEnemy
+        en:
+        - Enemies existing only in imagination, Enemy
+      - ol:
+        - 後悔前に一息ついて
+        en:
+        - Take a breath before you regret it
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+        en:
+        - Talk Talk? No, Talk Talk No More
+    - lines:
+      - ol:
+        - 禍々しく美しく騙してく
+        en:
+        - Grotesque yet beautiful lies
+      - ol:
+        - 碌でも無い気休めにKick out！
+        en:
+        - Kick out those useless comforts, comfort
+    - lines:
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+    - lines:
+      - ol:
+        - Wait
+      - ol:
+        - どこに戻せばいいんだっけ？
+        en:
+        - Where was I supposed to return?
+      - ol:
+        - 黒に混ざれば消える
+        en:
+        - Blend into black and disappear, black
+      - ol:
+        - 厄介毎回Overload
+        en:
+        - Every time it’s overload, overload
+      - ol:
+        - 業界散会Overdrivin'
+        en:
+        - The industry scattering, overdrivin’
+    - lines:
+      - ol:
+        - 最悪とぼけた顔で
+        en:
+        - At worst, play dumb and smile
+      - ol:
+        - 損害をミニマイズ
+        en:
+        - Minimize the loss
+      - ol:
+        - 残念誤魔化せないよ
+        en:
+        - Sorry — this one can’t be faked, truth
+      - ol:
+        - 強制退場です
+        en:
+        - You’re forced to exit
+    - lines:
+      - ol:
+        - スキビディ　どうもどうも　異常ですか？
+        en:
+        - Skibidi, hello hello is this abnormal?
+      - ol:
+        - 気味の悪い人も素敵ですね
+        en:
+        - Creepy people can be charming too
+      - ol:
+        - ダレダレI
+        en:
+        - Who’s who? I, I
+      - ol:
+        - ナレナレ合い
+        en:
+        - Getting used to each other
+      - ol:
+        - どこから上昇気流でしょうか
+        en:
+        - Where does this updraft even start?
+    - lines:
+      - ol:
+        - コード不完全なModal
+        en:
+        - Incomplete codes, broken modal
+      - ol:
+        - 善人面のNobody
+        en:
+        - A nobody wearing a good-person face, Nobody
+      - ol:
+        - 独占的メディテーション
+        en:
+        - Exclusive self-meditation, Meditation
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+      - ol:
+        - 失敗が不安なSocial
+        en:
+        - Fear of failure defines this Social
+      - ol:
+        - 想像上だけのEnemy
+        en:
+        - Enemies existing only in imagination, Enemy
+      - ol:
+        - 後悔前に一息ついて
+        en:
+        - Take a breath before regret hits
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+    - lines:
+      - ol:
+        - 軽々しく簡単に声をあげ
+        en:
+        - Raise your voice so easily, voice
+      - ol:
+        - 結局は濁して＆ゴースティングで
+        en:
+        - In the end it’s blurred and ghosted, ghosting
+    - lines:
+      - ol:
+        - “Do you want to talk？
+      - ol:
+        - Be careful what you wish for.
+      - ol:
+        - You know, sometimes your mind plays tricks on you.”
+    - lines:
+      - ol:
+        - スキビディ　どうもどうも　異常ですか？
+        en:
+        - Skibidi, hello hello is this abnormal?
+      - ol:
+        - 小気味のいい音はスキップで
+        en:
+        - Nice-sounding noise, skipping along, abnormal
+      - ol:
+        - ダレダレI
+        en:
+        - Who’s who? I, I
+      - ol:
+        - ナレナレ合い
+        en:
+        - Getting used to each other
+      - ol:
+        - 何かの免疫異常でしょうか
+        en:
+        - Is this some kind of immune disorder
+    - lines:
+      - ol:
+        - どうだい昨今のMoral？
+        en:
+        - So tell me, how’s today’s Moral?
+      - ol:
+        - 読解力どん詰まり
+        en:
+        - Reading comprehension at a dead end
+      - ol:
+        - 公開的エクセキューション
+        en:
+        - Public executions on display
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+      - ol:
+        - 完全自動のOral
+        en:
+        - Fully automated voices, Oral
+      - ol:
+        - 想像上だけのEnemy
+        en:
+        - Enemies existing only in imagination, Enemy
+      - ol:
+        - 後悔前に一息ついて
+        en:
+        - Take a breath before you regret it
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+    - lines:
+      - ol:
+        - 禍々しく美しく騙してく
+        en:
+        - Grotesque yet beautiful deception
+      - ol:
+        - 碌でも無い気休めにKick out！
+        en:
+        - Kick out those worthless comforts, Kick out!
+    - lines:
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+      - ol:
+        - Talk Talk？ No, Talk Talk No More
+
 - update:
     song: scrapbook
     date: 2025-11-26
@@ -11,6 +311,14 @@
     date: 2026-01-23
     text:
     - Added the upcoming Music Video
+    part-of:
+      song: scrapbook
+
+- update:
+    song: scrapbook
+    date: 2026-01-24
+    text:
+    - English translation of the lyrics from the Music Video
     part-of:
       song: scrapbook
 

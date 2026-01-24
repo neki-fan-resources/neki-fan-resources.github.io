@@ -9,6 +9,8 @@ song:
   release-date: 2025-11-26
   description:
   - The name of this song was revealed on October 3rd, when the tracklist for album "MEME" was announced.
+  lyrics:
+  - main
   part-of:
     album: meme
   multimedia:

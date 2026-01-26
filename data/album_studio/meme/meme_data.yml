@@ -460,7 +460,7 @@
 - postx:
     id: 1990798932306505823
     account: nekiband_jp
-    label: Streaming Campaign
+    label: Streaming campaign
     published-date: 2025-11-19
     text: |-
       🎧CAMPAIGN🎧
@@ -564,6 +564,7 @@
     id: 1993167197976641766
     account: TOWER_Shinjuku
     label: In-store display
+    info: deleted post
     published-date: 2025-11-25
     text: |-
       【#NEKI】
@@ -874,7 +875,7 @@
 - postx:
     id: 1993333867969978652
     account: nekiband_jp
-    label: Available on streaming
+    label: Streaming release
     published-date: 2025-11-25
     text: |-
       ✨🎀RELEASE🎀✨

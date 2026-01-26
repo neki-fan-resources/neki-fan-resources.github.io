@@ -14,6 +14,16 @@ song:
   - 'The song was part of the online version (Zaiko) of the 2ND ONE MAN LIVE show (song #6).'
   lyrics:
   - main
+  lyricist:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 800-3524-8'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 800-3524-8'
+      url: 'https://www2.jasrac.or.jp/'
   todo: 'add quote from Hika https://ototoy.jp/news/124081'
   part-of:
     album: meme

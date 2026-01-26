@@ -12,6 +12,16 @@ song:
   - The Official Music Video was released on January 1st 2026
   lyrics:
   - main
+  lyricist:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 333-7369-8'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 333-7369-8'
+      url: 'https://www2.jasrac.or.jp/'
   part-of:
     album: meme
   multimedia:

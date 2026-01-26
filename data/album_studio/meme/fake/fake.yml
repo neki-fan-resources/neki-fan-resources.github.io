@@ -10,5 +10,15 @@ song:
   description:
   - '"fake?" has been played at multiple shows, before being named in the articles following the 1ST ZEPP ONE MAN show.'
   - The song will be release in the album "MEME".
+  lyricist:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 333-7374-4'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 333-7374-4'
+      url: 'https://www2.jasrac.or.jp/'
   part-of:
     album: meme

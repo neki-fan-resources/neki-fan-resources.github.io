@@ -9,5 +9,15 @@ song:
   release-date: 2025-11-26
   description:
   - The name of this song was revealed on October 3rd, when the tracklist for album "MEME" was announced.
+  lyricist:
+    value: NEK!, Taiyo Takeuchi
+    source:
+      description: 'JASRAC - work ID: 333-7373-6'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 333-7373-6'
+      url: 'https://www2.jasrac.or.jp/'
   part-of:
     album: meme

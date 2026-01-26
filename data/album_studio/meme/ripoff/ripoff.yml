@@ -13,6 +13,16 @@ song:
   - The song was announced on July 27th, with a digital release on August 6th. The Official Music Video was announced on August 22th, with a video teaser, and released on August 23th.
   lyrics:
   - main
+  lyricist:
+    value: NEK!, rio.
+    source:
+      description: 'JASRAC - work ID: 803-9071-4'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 803-9071-4'
+      url: 'https://www2.jasrac.or.jp/'
   part-of:
     album: meme
   multimedia:

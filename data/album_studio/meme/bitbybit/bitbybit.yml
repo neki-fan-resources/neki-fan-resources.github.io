@@ -10,6 +10,16 @@ song:
   description:
   - '"biT bY biT" was played for the first time at the 1ST ZEPP ONE MAN show.'
   - The song will be release in the album "MEME".
+  lyricist:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 333-7368-0'
+      url: 'https://www2.jasrac.or.jp/'
+  composer:
+    value: NEK!, MAIMAI
+    source:
+      description: 'JASRAC - work ID: 333-7368-0'
+      url: 'https://www2.jasrac.or.jp/'
   part-of:
     album: meme
   multimedia:

@@ -34,9 +34,26 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postximage:
+                    post: 2015400555619975430
+                    image: G_gkFbgXQAAGly6
                 - postinstagramimage:
-                    post: DT5NWFgEvri
+                    post: DT7vHYbkoOh
+                    image: 2
+                - postxvideo:
+                    post: 2015400555619975430
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DT-Ab7jkjpZ
                     image: 1
+                - postximage:
+                    post: 2016080544820597022
+                    image: G_qOkOBbAAEjmBh
+                - postximage:
+                    post: 2015719529528320078
+                    image: G_lGOQ0aIAAf3KV
                 - postinstagramimage:
                     post: DT5NWFgEvri
                     image: 2
@@ -45,6 +62,11 @@
                 - postinstagramimage:
                     post: DT5ST9ikpsa
                     image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2015224197447135249
+                    image: G_eDtlKXAAApShT
     part-of:
       song: scrapbook
 
@@ -347,6 +369,20 @@
         - Talk Talk? No, Talk Talk No More
 
 - postinstagram:
+    id: DT-Ab7jkjpZ
+    account: 46_hikaa
+    label: Behind the scenes
+    published-date: 2026-01-26
+    text: |-
+      MVたくさんみてねー⸝⸝ ⭑
+    translation: |-
+      Watch the MV a lot, okay?⸝⸝ ⭑
+    image:
+    - 1
+    part-of:
+      song: scrapbook
+
+- postinstagram:
     id: DT5NWFgEvri
     account: 46_hikaa
     label: Behind the scenes
@@ -360,7 +396,6 @@
       
       #ScrapBook #neki
     image:
-    - 1
     - 2
     part-of:
       song: scrapbook
@@ -381,15 +416,15 @@
       song: scrapbook
 
 - postinstagramimage:
-    post: DT5NWFgEvri
+    post: DT-Ab7jkjpZ
     id: 1
     label: Behind the scenes
     info: Hika
-    published-date: 2026-01-24
+    published-date: 2026-01-26
     context:
     - song: scrapbook
     part-of:
-      postinstagram: DT5NWFgEvri
+      postinstagram: DT-Ab7jkjpZ
 
 - postinstagramimage:
     post: DT5NWFgEvri
@@ -412,6 +447,109 @@
     - song: scrapbook
     part-of:
       postinstagram: DT5ST9ikpsa
+
+- postx:
+    id: 2015033969675534563
+    account: nekiband_jp
+    label: MV released
+    published-date: 2026-01-24
+    text: |-
+      ◢◤ OUT NOW ◢◤
+      
+      NEK! − “Scrap Book” Official MV
+      
+      🎬Music Video 
+      ▶︎ https://youtu.be/PRszdbt0wdg
+      
+      🎧Streaming&Download
+      ▶︎ https://lnk.to/NEKI_MEME
+      
+      #NEKI #ScrapBook
+    part-of:
+      youtubevideo: PRszdbt0wdg
+
+- postx:
+    id: 2015224197447135249
+    account: cure_bass_baka
+    label: Check out the MV
+    published-date: 2026-01-25
+    text: |-
+      「Scrap Book」のMV見てね🖤🤍
+    translation: |-
+      Check out the "Scrap Book" MV🖤🤍
+    image:
+    - G_eDtlKXAAApShT
+    part-of:
+      postx: 2015033969675534563
+
+- postx:
+    id: 2015719529528320078
+    account: 46_hikaa
+    label: Behind the scenes
+    published-date: 2026-01-26
+    text: |-
+      オフショットฅ( •ω• ฅ)ｶﾞｵ-
+      
+       #neki
+    translation: |-
+      Off-shot ฅ( •ω• ฅ)GAO-
+      
+       #neki
+    image:
+    - G_lGOQ0aIAAf3KV
+    part-of:
+      song: scrapbook
+
+- postx:
+    id: 2016080544820597022
+    account: 46_hikaa
+    label: Behind the scenes
+    published-date: 2026-01-27
+    text: |-
+      Scrap Bookの衣装ばりかわいくない！？
+      
+       #neki #ScrapBook
+    translation: |-
+      Aren't the Scrap Book outfits super cute!?
+      
+       #neki #ScrapBook
+    image:
+    - G_qOkOBbAAEjmBh
+    part-of:
+      song: scrapbook
+
+- postximage:
+    post: 2015224197447135249
+    id: G_eDtlKXAAApShT
+    label: Behind the scenes
+    info: Kanade
+    published-date: 2026-01-25
+    context:
+    - song: scrapbook
+    part-of:
+      postx: 2015224197447135249
+
+- postximage:
+    post: 2015719529528320078
+    id: G_lGOQ0aIAAf3KV
+    label: Behind the scenes
+    info: Hika
+    published-date: 2026-01-27
+    context:
+    - song: scrapbook
+    part-of:
+      postx: 2015719529528320078
+
+- postximage:
+    post: 2016080544820597022
+    id: G_qOkOBbAAEjmBh
+    label: Behind the scenes
+    info: Hika
+    published-date: 2026-01-27
+    context:
+    - song: scrapbook
+    part-of:
+      postx: 2016080544820597022
 
 - update:
     song: scrapbook
@@ -471,6 +609,15 @@
     id: hqU7IhEmW4U
     label: Teaser
     published-date: 2026-01-23
+    context:
+    - song: scrapbook
+    part-of:
+      song: scrapbook
+
+- youtubeshort:
+    id: iWrjb2v-KXM
+    label: Music Video
+    published-date: 2026-01-25
     context:
     - song: scrapbook
     part-of:

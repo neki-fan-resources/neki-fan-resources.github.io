@@ -4,6 +4,38 @@
     part-of:
       group: cocoro
 
+- postinstagram:
+    id: DT7vHYbkoOh
+    account: cocoro_drum
+    label: Gaoo
+    published-date: 2026-01-25
+    text: |-
+      ガオー🐆‪‪❤︎‬
+    translation: |-
+      Gaoo🐆‪‪❤︎‬
+    image:
+    - 2
+    part-of:
+      postx: 2015400555619975430
+    reference:
+    - postximage:
+        post: 2015400555619975430
+        image: G_gkFbgXQAAGly6
+    - postxvideo:
+        post: 2015400555619975430
+        video: 01
+
+- postinstagramimage:
+    post: DT7vHYbkoOh
+    id: 2
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2026-01-25
+    context:
+    - song: scrapbook
+    part-of:
+      postinstagram: DT7vHYbkoOh
+
 - postx:
     id: 1976524281870979098
     account: coco_102
@@ -34,6 +66,24 @@
         id: artist
         group: cocoro
 
+- postx:
+    id: 2015400555619975430
+    account: coco_102
+    label: Carnivorous drummer ?
+    published-date: 2026-01-25
+    text: |-
+      肉食系ドラマーです(？)
+    translation: |-
+      I'm a carnivorous drummer(?)
+    image:
+    - G_gkFbgXQAAGly6
+    video:
+    - 01
+    part-of:
+      group:
+        id: artist
+        group: cocoro
+
 - postximage:
     post: 1976524281870979098
     id: G24GWMtagAA45gl
@@ -46,4 +96,27 @@
         id: 1stzepponeman
     part-of:
       postx: 1976524281870979098
+
+- postximage:
+    post: 2015400555619975430
+    id: G_gkFbgXQAAGly6
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2026-01-27
+    context:
+    - song: scrapbook
+    part-of:
+      postx: 2015400555619975430
+
+- postxvideo:
+    post: 2015400555619975430
+    id: 01
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2026-01-25
+    cover: 2015400508777984001/img/M4L-uUfgDvqeECNZ.jpg
+    context:
+    - song: scrapbook
+    part-of:
+      postx: 2015400555619975430
 

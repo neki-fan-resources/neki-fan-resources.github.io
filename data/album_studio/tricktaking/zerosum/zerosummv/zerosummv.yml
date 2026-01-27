@@ -1,0 +1,13 @@
+multimedia-event:
+  id: zerosummv
+  cover-image:
+    localimage:
+      multimedia-event: zerosummv
+      id: mvcover
+  youtubevideo: z3HM2COly2Q
+  parent:
+    song: zerosum
+  categories:
+  - video
+  part-of:
+    song: zerosum

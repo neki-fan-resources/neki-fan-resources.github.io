@@ -1,0 +1,13 @@
+multimedia-event:
+  id: dreamslivev
+  cover-image:
+    localimage:
+      multimedia-event: dreamslivev
+      id: livevcover
+  youtubevideo: _Oac92XPkyo
+  parent:
+    song: dreams
+  categories:
+  - video
+  part-of:
+    song: dreams

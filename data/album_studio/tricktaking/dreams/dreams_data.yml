@@ -1,3 +1,13 @@
+- localimage:
+    multimedia-event: dreamsmv
+    id: mvcover
+    label: MV cover
+    published-date: 2025-03-05
+    source:
+      description: YouTube video
+    part-of:
+      youtubevideo: 0YlW7T5fVZ4
+
 - lyrics:
     id: main
     song: dreams
@@ -788,6 +798,15 @@
     label: Music Video
     info: off-shot, Hika, Natsu
     published-date: 2025-05-26
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- youtubevideo:
+    id: 0YlW7T5fVZ4
+    label: Official Music Video
+    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:

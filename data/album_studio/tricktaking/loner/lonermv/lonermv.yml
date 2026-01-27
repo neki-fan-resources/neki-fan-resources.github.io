@@ -1,0 +1,13 @@
+multimedia-event:
+  id: lonermv
+  cover-image:
+    localimage:
+      multimedia-event: lonermv
+      id: mvcover
+  youtubevideo: uhy1HnFXTH8
+  parent:
+    song: loner
+  categories:
+  - video
+  part-of:
+    song: loner

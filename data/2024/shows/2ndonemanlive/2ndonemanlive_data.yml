@@ -220,6 +220,34 @@
         year: 2024
         id: 2ndonemanlive
 
+- youtubevideo:
+    id: _Oac92XPkyo
+    label: Official Live Video
+    published-date: 2024-12-18
+    context:
+    - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- youtubevideo:
+    id: aylfQ09sa4I
+    label: Official Live Video
+    published-date: 2025-01-24
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
 - zaiko:
     channel: nekiband
     id: 368923

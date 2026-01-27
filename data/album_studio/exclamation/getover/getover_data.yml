@@ -966,6 +966,15 @@
       song: getover
 
 - youtubevideo:
+    id: TWbLqba3oag
+    label: Official Music Video
+    published-date: 2024-04-24
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- youtubevideo:
     id: maFSgVE2vXg
     label: Music Video Teaser
     published-date: 2024-04-21

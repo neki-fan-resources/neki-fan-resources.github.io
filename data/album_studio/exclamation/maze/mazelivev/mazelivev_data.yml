@@ -1,0 +1,9 @@
+localimage:
+  multimedia-event: mazelivev
+  id: mazelivecover
+  label: Live cover
+  published-date: 2025-01-24
+  source:
+    description: YouTube video
+  part-of:
+    multimedia-event: mazelivev

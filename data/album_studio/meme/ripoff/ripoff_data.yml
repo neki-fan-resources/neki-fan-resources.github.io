@@ -1868,6 +1868,15 @@
       song: ripoff
 
 - youtubevideo:
+    id: OkQV2Vo9EgE
+    label: Official Music Video
+    published-date: 2025-08-23
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubevideo:
     id: pnJR-FNVILE
     label: Official Teaser
     published-date: 2025-08-22

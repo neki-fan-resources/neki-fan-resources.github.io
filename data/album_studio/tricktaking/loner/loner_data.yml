@@ -386,3 +386,12 @@
     part-of:
       song: loner
 
+- youtubevideo:
+    id: uhy1HnFXTH8
+    label: Official Music Video
+    published-date: 2024-10-09
+    context:
+    - song: loner
+    part-of:
+      song: loner
+

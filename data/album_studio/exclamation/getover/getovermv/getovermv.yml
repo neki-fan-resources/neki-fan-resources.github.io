@@ -1,0 +1,13 @@
+multimedia-event:
+  id: getovermv
+  cover-image:
+    localimage:
+      multimedia-event: getovermv
+      id: mvcover
+  youtubevideo: TWbLqba3oag
+  parent:
+    song: getover
+  categories:
+  - video
+  part-of:
+    song: getover

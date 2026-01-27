@@ -1,0 +1,13 @@
+multimedia-event:
+  id: jumpingmv
+  cover-image:
+    localimage:
+      multimedia-event: jumpingmv
+      id: mvcover
+  youtubevideo: EUuiBgbxtZI
+  parent:
+    song: jumping
+  categories:
+  - video
+  part-of:
+    song: jumping

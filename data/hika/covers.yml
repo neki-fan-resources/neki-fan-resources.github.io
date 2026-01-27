@@ -59,27 +59,6 @@
         post: 1993273861744578879
         video: 01
 
-- postx:
-    id: 1995852341493596505
-    account: 46_hikaa
-    label: GiMMiCK / NEK!
-    info: cover
-    published-date: 2025-12-02
-    text: |-
-      ここのフレーズ好き！
-      
-      #GiMMiCK #neki
-    translation: |-
-      I love this phrase!
-      
-      #GiMMiCK #neki
-    video:
-    - 01
-    part-of:
-      postxvideo:
-        post: 1995852341493596505
-        video: 01
-
 - postxvideo:
     post: 1990374513595552039
     id: 01
@@ -99,20 +78,6 @@
     info: Hika
     published-date: 2025-11-25
     cover: 1993273595246837761/img/a_XSY4LoTNunU5MS.jpg
-    context:
-    - song: gimmick
-    part-of:
-      group:
-        id: covers
-        group: hika
-
-- postxvideo:
-    post: 1995852341493596505
-    id: 01
-    label: Cover
-    info: Hika
-    published-date: 2025-12-02
-    cover: 1995852264796528640/img/exwvg1IhgIZIrMhJ.jpg
     context:
     - song: gimmick
     part-of:

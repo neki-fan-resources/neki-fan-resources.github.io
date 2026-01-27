@@ -1290,6 +1290,27 @@
         image: G6VP222bAAA436i
 
 - postx:
+    id: 1995852341493596505
+    account: 46_hikaa
+    label: GiMMiCK / NEK!
+    info: cover
+    published-date: 2025-12-02
+    text: |-
+      ここのフレーズ好き！
+      
+      #GiMMiCK #neki
+    translation: |-
+      I love this phrase!
+      
+      #GiMMiCK #neki
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1995852341493596505
+        video: 01
+
+- postx:
     id: 2001567212373717145
     account: nekiband_jp
     label: Karaoke Release
@@ -1364,7 +1385,7 @@
     id: 2006281030660247686
     account: coco_102
     label: 100k views
-    published-date: 2026-01-02
+    published-date: 2025-12-31
     text: |-
       GiMMiCKのMVが10万回再生を突破しました🎉
       たくさん観ていただきありがとうございます！！
@@ -1667,6 +1688,18 @@
     - song: gimmick
     part-of:
       postx: 1991829736260251688
+
+- postxvideo:
+    post: 1995852341493596505
+    id: 01
+    label: Cover
+    info: Hika
+    published-date: 2025-12-02
+    cover: 1995852264796528640/img/exwvg1IhgIZIrMhJ.jpg
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
 
 - postxvideo:
     post: 2006281030660247686

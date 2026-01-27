@@ -512,6 +512,19 @@
     part-of:
       postx: 1949482178628432379
 
+- postximage:
+    post: 1949488433849933878
+    id: Gw35W4kagAApR75
+    label: Pedal board
+    info: Hika
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      postx: 1949488433849933878
+
 - postxvideo:
     post: 1949470948861894839
     id: 01
@@ -669,6 +682,20 @@
       postx: 1955576715851575746
 
 - youtubeshort:
+    id: Dy5UNGKd1ZA
+    label: Entry
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    - song: maze
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- youtubeshort:
     id: XFmBGAFdnE0
     label: Promo
     info: studio audio, Kanade
@@ -678,6 +705,21 @@
         year: 2025
         id: internetbabies
     - song: ripoff
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- youtubeshort:
+    id: lD9WOsi_8bE
+    label: Promo
+    info: studio audio
+    published-date: 2025-08-03
+    context:
+    - song: maze
+    - show:
+        year: 2025
+        id: internetbabies
     part-of:
       show:
         year: 2025

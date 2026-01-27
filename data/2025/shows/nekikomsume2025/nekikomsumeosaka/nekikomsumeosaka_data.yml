@@ -225,9 +225,7 @@
     - show:
         year: 2025
         id: nekikomsumeosaka
-    - song:
-        id: songa
-        dark: true
+    - song: clockup
     part-of:
       postx: 1946522055312331049
 

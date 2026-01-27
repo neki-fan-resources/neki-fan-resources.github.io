@@ -1865,6 +1865,20 @@
         id: 1stzepponeman
 
 - youtubeshort:
+    id: QTeKbH9GgqE
+    label: Cocoro's week
+    info: English-subtitled
+    published-date: 2025-08-04
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
     id: VXh9xsPO1uE
     label: Promo
     info: studio audio
@@ -1968,6 +1982,21 @@
     info: About NEK! 1ST ZEPP ONE MAN
     published-date: 2025-07-30
     context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubevideo:
+    id: 8m3m8emgkXM
+    label: Livestream
+    info: thanks, announcements
+    published-date: 2025-08-30
+    context:
+    - song: getover
     - show:
         year: 2025
         id: 1stzepponeman

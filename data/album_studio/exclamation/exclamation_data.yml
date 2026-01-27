@@ -38,6 +38,16 @@
     part-of:
       postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
 
+- youtubeshort:
+    id: YRmeizMwd1Y
+    label: Album Teaser
+    published-date: 2024-06-03
+    context:
+    - album: exclamation
+    todo: check date
+    part-of:
+      album: exclamation
+
 - youtubevideo:
     id: 387bkUm7Dko
     label: Album Teaser

@@ -885,6 +885,19 @@
       postx: 1950466437447111122
 
 - postximage:
+    post: 1960597489242792085
+    id: GzVuQXBa4AMbecJ
+    label: Poster
+    published-date: 2025-08-27
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    todo: update main poster
+    part-of:
+      postx: 1960597489242792085
+
+- postximage:
     post: 1971969583360999680
     id: G13X3u8aUAAgOGP
     label: リコメンズ show

@@ -1290,6 +1290,16 @@
       song: endlessgame
 
 - youtubeshort:
+    id: HBq5ngFucyU
+    label: Promo
+    info: rehearsal room, studio audio
+    published-date: 2025-09-18
+    context:
+    - song: endlessgame
+    part-of:
+      song: endlessgame
+
+- youtubeshort:
     id: NHEqpkzeOdc
     label: Promo
     info: studio audio, rehearsal room, Natsu solo
@@ -1342,6 +1352,19 @@
     - show:
         year: 2025
         id: kakumeilogic2025
+    - song: endlessgame
+    part-of:
+      song: endlessgame
+
+- youtubeshort:
+    id: yRpUEEvvtBA
+    label: Promo
+    info: studio audio
+    published-date: 2025-10-12
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
     - song: endlessgame
     part-of:
       song: endlessgame

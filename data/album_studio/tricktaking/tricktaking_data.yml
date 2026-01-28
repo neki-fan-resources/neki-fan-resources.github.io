@@ -1,7 +1,54 @@
+- postx:
+    id: 1883804554007093275
+    account: TOWER_Jrock
+    label: Tower Records bonuses
+    published-date: 2025-01-27
+    text: |-
+      【NEK!】
+      
+      New EP『TR!CK TAK!NG』3月5日発売
+      
+      🎁タワレコ早期予約特典
+      「NEK!オリジナルタロットカード(タワレコver.)」
+      ご予約対象期間は1月31日(金)23:59まで‼✨
+      
+      #NEKI #TRICKTAKING
+      
+      🔻
+      https://tower.jp/article/feature_item/2024/12/29/0701?kid=psmontw&sc_camp=64C5FF08E2C141F287F3D4140BE44AE5
+    translation: |-
+      【NEK!】
+      
+      New EP "TR!CK TAK!NG" on sale March 5th
+      
+      🎁 Tower Records Early Pre-order Bonus
+      "NEK! Original Tarot Card (Tower Records ver.)"
+      The pre-order eligibility period is until January 31st (Fri) 23:59!!✨
+      
+      #NEKI #TRICKTAKING
+      
+      🔻
+      https://tower.jp/article/feature_item/2024/12/29/0701?kid=psmontw&sc_camp=64C5FF08E2C141F287F3D4140BE44AE5
+    image:
+    - GiSd5qfa4AAG0W8
+    todo: image EP bonus tarot 1, tarot 2
+    part-of:
+      album: tricktaking
+
+- postximage:
+    post: 1883804554007093275
+    id: GiSd5qfa4AAG0W8
+    label: Tower Records bonus
+    published-date: 2025-01-27
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1883804554007093275
+
 - postyoutube:
     id: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
     account: neki_official
-    published-date: 2024-02-01
+    published-date: 2025-01-24
     label: announcement
     text: |-
       3/5(水)リリース
@@ -19,23 +66,77 @@
       In addition, the design of the enclosed benefits and shop-specific original benefits have been unveiled.
       EP can be pre-ordered here▼
       https://lnk.to/tricktaking_CD
-    image:
-    - T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
-    todo: double check date
     part-of:
       album: tricktaking
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n35921564900b
+        id: epcover
+    - webimage:
+        domain: note.com.nekiband
+        page: n35921564900b
+        id: tarotbonus
+    - webimage:
+        domain: note.com.nekiband
+        page: n35921564900b
+        id: storebonuses
 
-- postyoutubeimage:
-    post: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
-    id: T-R3XMs66-X0V5ZRt_3gYrJGxgORAvTIXvjJSaiIqSYxF-OroMnaN-hXPV5xhabqodnksUbL6wos0QM
-    label: EP cover
-    published-date: 2024-02-01
+- webimage:
+    domain: note.com.nekiband
+    page: n35921564900b
+    id: epcover
+    label: Cover
+    published-date: 2025-01-24
+    url: 'https://assets.st-note.com/img/1737718124-KEwWlYhp7bgBrGAMi2Qcm54x.jpg'
     local-copy: true
     context:
     - album: tricktaking
-    todo: double check date
     part-of:
-      postyoutube: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
+      webpage:
+        domain: note.com.nekiband
+        id: n35921564900b
+
+- webimage:
+    domain: note.com.nekiband
+    page: n35921564900b
+    id: storebonuses
+    label: Store Bonuses
+    published-date: 2025-01-24
+    url: 'https://assets.st-note.com/img/1737718103-U4XBnF7DkwIuve8GNpaLPoEM.jpg'
+    context:
+    - album: tricktaking
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n35921564900b
+
+- webimage:
+    domain: note.com.nekiband
+    page: n35921564900b
+    id: tarotbonus
+    label: Bonus
+    published-date: 2025-01-24
+    url: 'https://assets.st-note.com/img/1737718087-25gTciVr48ZetCb9fMPW6YJj.jpg'
+    context:
+    - album: tricktaking
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n35921564900b
+
+- webpage:
+    domain: note.com.nekiband
+    id: n35921564900b
+    label: 「TR!CK TAK!NG」 information
+    published-date: 2024-12-29
+    url: 'https://note.com/nekiband_jp/n/n35921564900b'
+    image:
+    - epcover
+    - tarotbonus
+    - storebonuses
+    part-of:
+      album: tricktaking
 
 - youtubeshort:
     id: 8D7NYm0sa4w

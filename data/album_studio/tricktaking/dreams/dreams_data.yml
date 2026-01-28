@@ -1,13 +1,3 @@
-- localimage:
-    multimedia-event: dreamsmv
-    id: mvcover
-    label: MV cover
-    published-date: 2025-03-05
-    source:
-      description: YouTube video
-    part-of:
-      youtubevideo: 0YlW7T5fVZ4
-
 - lyrics:
     id: main
     song: dreams
@@ -520,6 +510,160 @@
         - Let's say my name together!
 
 - postx:
+    id: 1860656200343502968
+    account: nekiband_jp
+    label: Release announcement
+    published-date: 2024-11-24
+    text: |-
+      ||◤　　　　　　　 ◥||
+      　       情報解禁
+      ||◣　　　　　　　 ◢||
+      
+      新曲「Dreams!!!!」
+      
+      12/11(水)0:00より楽曲配信が決定💭
+      
+      Pre-add/Pre-save▼
+      https://ssm.lnk.to/Dreams_
+      
+      #NEKI
+    translation: |-
+      ||◤　　　　　　　 ◥||
+      　 Information Release
+      ||◣　　　　　　　 ◢||
+      
+      New Song "Dreams!!!!"
+      
+      Streaming release confirmed for 12/11 (Wed) 0:00 💭
+      
+      Pre-add/Pre-save▼
+      https://ssm.lnk.to/Dreams_
+      
+      #NEKI
+    image:
+    - GdJg8vraoAAn08v
+    todo: jacket image
+    part-of:
+      song: dreams
+
+- postx:
+    id: 1868264750905446879
+    account: nekiband_jp
+    label: Live Video announcement
+    published-date: 2024-12-15
+    text: |-
+      NEK!初の・・・！
+      
+      #NEKI
+    translation: |-
+      NEK!'s first ever...!
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1868264750905446879
+        video: 01
+
+- postx:
+    id: 1868989699446260040
+    account: nekiband_jp
+    label: Live video tomorrow
+    published-date: 2024-12-17
+    text: |-
+      ❤️‍🔥LIVE VIDEO❤️‍🔥
+      
+      明日12/18(水)21:00
+      
+      新曲「Dreams!!!!」
+      Live Videoをプレミア公開🎥
+      
+      メンバーもチャット欄に登場します！
+      NEK!初のライブ映像を一緒に観ましょう〜🫶
+      
+      https://youtu.be/_Oac92XPkyo
+      
+      #NEKI
+    translation: |-
+      ❤️‍🔥LIVE VIDEO❤️‍🔥
+      
+      Tomorrow 12/18 (Wed) 21:00
+      
+      New song "Dreams!!!!"
+      Live Video premiere 🎥
+      
+      The members will also appear in the chat!
+      Let's watch NEK!'s first live video together~🫶
+      
+      https://youtu.be/_Oac92XPkyo
+      
+      #NEKI
+    image:
+    - Ge_5YQ1bwAMEUka
+    part-of:
+      song: dreams
+
+- postx:
+    id: 1896939044342481315
+    account: nekiband_jp
+    label: MV announcement
+    published-date: 2025-03-04
+    text: |-
+      🎥MUSIC VIDEO🎥
+      
+      明日3/5(水)21:00
+      
+      "Dreams!!!!" Official Music Video
+      YouTubeにてプレミア公開🎬
+      
+      公開時のチャット欄にはメンバーも参加します🫶
+      
+      ▶︎ https://youtu.be/0YlW7T5fVZ4
+      
+      #NEKI
+    translation: |-
+      🎥MUSIC VIDEO🎥
+      
+      明日3/5(水)21:00
+      
+      "Dreams!!!!" Official Music Video
+      YouTubeにてプレミア公開🎬
+      
+      公開時のチャット欄にはメンバーも参加します🫶
+      
+      ▶︎ https://youtu.be/0YlW7T5fVZ4
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1896939044342481315
+        video: 01
+
+- postx:
+    id: 1897498888921342444
+    account: skream_japan
+    label: Article on the MV release
+    published-date: 2025-03-06
+    text: |-
+      "スラングロックバンド"NEK!、2nd EP『TR!CK TAK!NG』より"青春真っただ中のNEK!の輝きを感じることができる"収録曲「Dreams!!!!」MV公開 https://skream.jp/news/2025/03/neki_dreams_mv.php
+      
+      #NEKI
+      #TRICKTAKING
+    translation: |-
+      "Slang Rock Band" NEK! releases "Dreams!!!!" MV from 2nd EP "TR!CK TAK!NG", a track where you can "feel the brilliance of NEK! in the midst of their youth" https://skream.jp/news/2025/03/neki_dreams_mv.php
+      
+      #NEKI
+      #TRICKTAKING
+    image:
+    - GlVFBh7a4AQgG9E
+    todo: image band image, webpage
+    part-of:
+      song: dreams
+
+- postx:
     id: 1948333854063841769
     account: natsu08_guitar
     label: Dreams!!!! rehearsal
@@ -613,6 +757,60 @@
     part-of:
       song: dreams
 
+- postximage:
+    post: 1860656200343502968
+    id: GdJg8vraoAAn08v
+    label: Cover
+    published-date: 2024-11-24
+    local-copy: true
+    context:
+    - song: dreams
+    part-of:
+      postx: 1860656200343502968
+
+- postximage:
+    post: 1868989699446260040
+    id: Ge_5YQ1bwAMEUka
+    label: Live Video frame
+    published-date: 2026-01-28
+    context:
+    - song: dreams
+    part-of:
+      postx: 1868989699446260040
+
+- postximage:
+    post: 1897498888921342444
+    id: GlVFBh7a4AQgG9E
+    label: MV cover
+    published-date: 2025-03-06
+    local-copy: true
+    context:
+    - song: dreams
+    part-of:
+      postx: 1897498888921342444
+
+- postxvideo:
+    post: 1868264750905446879
+    id: 01
+    label: Live Video teaser
+    published-date: 2024-12-15
+    cover: 1868256578581020672/pu/img/PVgkYQq95seHBBw4.jpg
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- postxvideo:
+    post: 1896939044342481315
+    id: 01
+    label: MV Teaser
+    published-date: 2025-03-04
+    cover: 1896937675929821184/pu/img/3KFtDMeghJ75j7dj.jpg
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
 - postxvideo:
     post: 1948333854063841769
     id: 01
@@ -655,7 +853,7 @@
 - postyoutube:
     id: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
     account: neki_official
-    published-date: 2024-06-03
+    published-date: 2024-11-24
     label: announcement
     text: |-
       新曲「Dreams!!!!」
@@ -669,22 +867,12 @@
       Song distribution starts from 12/11(Wed.) 0:00!
       Click here to download the song
       https://ssm.lnk.to/Dreams_
-    image:
-    - Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
-    todo: double check published-date with post X
     part-of:
       song: dreams
-
-- postyoutubeimage:
-    post: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
-    id: Hh4m8ymWntX6mSUGJ15ZUK_5OYl2LsAqyF0yS-bGviamMiFsqWCVTAh83vWXxhyHZKVNZ3_VEDVkhvM
-    label: cover
-    published-date: 2024-06-03
-    local-copy: true
-    context:
-    - song: dreams
-    part-of:
-      postyoutube: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
+    reference:
+    - postximage:
+        post: 1860656200343502968
+        image: GdJg8vraoAAn08v
 
 - update:
     song: dreams
@@ -815,10 +1003,12 @@
 - youtubevideo:
     id: Vh5saxbTlvE
     label: Music Video Teaser
+    info: video deleted
     published-date: 2025-03-04
     context:
     - song: dreams
-    todo: replace with video from X
     part-of:
-      song: dreams
+      postxvideo:
+        post: 1896939044342481315
+        video: 01
 

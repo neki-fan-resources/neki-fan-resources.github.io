@@ -1,9 +1,9 @@
 multimedia-event:
   id: dreamsmv
   cover-image:
-    localimage:
-      multimedia-event: dreamsmv
-      id: mvcover
+    postximage:
+      post: 1897498888921342444
+      image: GlVFBh7a4AQgG9E
   youtubevideo: 0YlW7T5fVZ4
   parent:
     song: dreams

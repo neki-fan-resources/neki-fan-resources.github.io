@@ -21,22 +21,85 @@
       We are pleased to announce the release of our 1st EP “EXCLAMAT!ON”!
       For more information, please click here.
       https://note.com/nekiband_jp/n/n323cf...
-    image:
-    - yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
-    todo: check date
     part-of:
       album: exclamation
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n323cfbbfa77f
+        id: epcover
 
-- postyoutubeimage:
-    post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
-    id: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
-    label: EP cover
+- webimage:
+    domain: note.com.nekiband
+    page: n323cfbbfa77f
+    id: epcover
+    label: Cover
     published-date: 2024-06-03
+    url: 'https://assets.st-note.com/img/1717311437120-vdzJNb8Gb9.jpg'
     local-copy: true
     context:
     - album: exclamation
     part-of:
-      postyoutube: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
+      webpage:
+        domain: note.com.nekiband
+        id: n323cfbbfa77f
+
+- webimage:
+    domain: note.com.nekiband
+    page: n323cfbbfa77f
+    id: pcibonus
+    label: PCI MUSIC bonus
+    published-date: 2024-06-21
+    url: 'https://assets.st-note.com/img/1720427058157-awuLCCGcCV.jpg'
+    context:
+    - album: exclamation
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n323cfbbfa77f
+
+- webimage:
+    domain: note.com.nekiband
+    page: n323cfbbfa77f
+    id: title
+    label: Title frame
+    published-date: 2024-06-03
+    url: 'https://assets.st-note.com/production/uploads/images/142724981/rectangle_large_type_2_6531a15d722887e3890188cf5677a60b.jpeg'
+    context:
+    - album: exclamation
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n323cfbbfa77f
+
+- webimage:
+    domain: note.com.nekiband
+    page: n323cfbbfa77f
+    id: towerbonus
+    label: Tower Records bonus
+    published-date: 2024-06-03
+    url: 'https://assets.st-note.com/img/1717311386873-tslC3zZ26A.png'
+    context:
+    - album: exclamation
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n323cfbbfa77f
+
+- webpage:
+    domain: note.com.nekiband
+    id: n323cfbbfa77f
+    label: 「EXCLAMAT!ON」 information
+    published-date: 2024-06-03
+    url: 'https://note.com/nekiband_jp/n/n323cfbbfa77f'
+    image:
+    - epcover
+    - towerbonus
+    - title
+    - pcibonus
+    todo: sticker, card images
+    part-of:
+      album: exclamation
 
 - youtubeshort:
     id: YRmeizMwd1Y

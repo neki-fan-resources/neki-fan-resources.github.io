@@ -1,9 +1,10 @@
 album:
   id: exclamation
   cover-image:
-    postyoutubeimage:
-      post: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
-      image: yVZMJMS1qI7RdKFR43OhtoRUJjibZqZJ93ow4MK6p0Zi8EgVEblAj2T9kx7R71rxWPjQvZ3MIv6waq4
+    webimage:
+      domain: note.com.nekiband
+      page: n323cfbbfa77f
+      id: epcover
   fullname: EXCLAMAT!ON
   alt-name: EXCLAMATION
   designation: EP

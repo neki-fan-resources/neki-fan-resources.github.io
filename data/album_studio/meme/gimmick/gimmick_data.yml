@@ -12,12 +12,6 @@
                 - youtubevideo: js9WXQHa5J0
             - multimediasubsection:
                 multimedia:
-                - youtubeshort: R5MUqk22jP8
-                - postxvideo:
-                    post: 1996143103410061620
-                    video: 01
-            - multimediasubsection:
-                multimedia:
                 - youtubevideo: 6Af0hgyIm8k
                 - postxvideo:
                     post: 1993273861744578879
@@ -31,8 +25,17 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 1996143103410061620
+                    video: 01
+                - postxvideo:
                     post: 1987453821082304748
                     video: 01
+        - basicsection:
+            label: Rehearsal
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: R5MUqk22jP8
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo

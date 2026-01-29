@@ -1,0 +1,22 @@
+mediaaudio:
+  year: 2026
+  id: rhythmstationrecomend
+  cover-image:
+    webimage:
+      domain: rfm.co.jp
+      page: recomend
+      id: banner
+  radio: Rhythm Station
+  show: RECOMEND!!
+  designation: radio comment
+  member:
+  - Hika
+  published-date: 2026-01-29
+  program: 'https://rfm.co.jp/blog/recomend/p0108395'
+  webpage: 'https://rfm.co.jp/program/recomend'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  description:
+  - Hika presented the episode of the short program "RECOMEND!!" on Rhythm Station.

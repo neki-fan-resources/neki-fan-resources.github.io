@@ -34,6 +34,9 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: 5CvwxCKTcV0
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2015400555619975430
                     image: G_gkFbgXQAAGly6
@@ -573,6 +576,15 @@
     text:
     - English translation of the lyrics from the Music Video
     - First "behind the scene" pictures
+    part-of:
+      song: scrapbook
+
+- youtubeshort:
+    id: 5CvwxCKTcV0
+    label: Behind the scenes
+    published-date: 2026-01-28
+    context:
+    - song: scrapbook
     part-of:
       song: scrapbook
 

@@ -1,0 +1,75 @@
+- display:
+    media:
+      year: 2026
+      id: rhythmstationrecomend
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  youtubevideo: 4yVHsJiMcnA
+                lines:
+                - line:
+                  - text: Hika presented NEK!, spoke about the upcoming shows in the Tohoku region, and then launched the song "Scrap Book".
+    part-of:
+      media:
+        year: 2026
+        id: rhythmstationrecomend
+
+- update:
+    media:
+      year: 2026
+      id: rhythmstationrecomend
+    date: 2026-01-29
+    text:
+    - Added the appearance
+    - Added the video with English subtitles
+    part-of:
+      media:
+        year: 2026
+        id: rhythmstationrecomend
+
+- webimage:
+    domain: rfm.co.jp
+    page: recomend
+    id: banner
+    label: Banner
+    published-date: 2026-01-28
+    url: 'https://rfm.co.jp/cms/wp-content/uploads/2022/04/a73e7d84866c157861c3d335075103fc.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: rfm.co.jp
+        id: recomend
+
+- webpage:
+    domain: rfm.co.jp
+    id: recomend
+    label: RECOMEND!! webpage
+    published-date: 2026-01-28
+    url: 'https://rfm.co.jp/program/recomend'
+    image:
+    - banner
+    part-of:
+      media:
+        year: 2026
+        id: rhythmstationrecomend
+
+- youtubevideo:
+    id: 4yVHsJiMcnA
+    label: Hika's comment
+    info: English-subtitled
+    published-date: 2026-01-29
+    context:
+    - media:
+        year: 2026
+        id: rhythmstationrecomend
+    part-of:
+      media:
+        year: 2026
+        id: rhythmstationrecomend
+

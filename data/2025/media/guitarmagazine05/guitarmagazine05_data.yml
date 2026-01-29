@@ -13,17 +13,100 @@
         year: 2025
         id: guitarmagazine05
 
-- localimage:
-    media:
-      year: 2025
-      id: guitarmagazine05
+- postx:
+    id: 1910995521373970440
+    account: nekiband_jp
+    label: Released
+    published-date: 2025-04-12
+    text: |-
+      📚本日発売📚
+      
+      「ギター・マガジン5月号」
+      
+      OPENING ACTコーナーにて
+      Gt.Natsu( 
+      @natsu08_guitar
+       )のインタビュー記事が掲載🎸
+      
+      ぜひチェックお願いします❣️
+      
+      https://amzn.asia/d/4pmYyFK
+      
+      #NEKI #Natsu #ギタマガ
+    translation: |-
+      📚 On Sale Today 📚
+      
+      "Guitar Magazine May Issue"
+      
+      An interview article with Gt. Natsu (@natsu08_guitar) 
+      is featured in the OPENING ACT corner🎸
+      
+      Please be sure to check it out❣️
+      
+      https://amzn.asia/d/4pmYyFK
+      
+      #NEKI #Natsu #Guitamag
+    todo: natsu photoshoot image
+    part-of:
+      media:
+        year: 2025
+        id: guitarmagazine05
+    reference:
+    - webimage:
+        domain: guitarmagazine.jp
+        page: 2025-0401-gm2505
+        id: cover
+
+- postx:
+    id: 1911007047002603549
+    account: 46_hikaa
+    label: Spread the word
+    published-date: 2025-04-12
+    text: |-
+      なっちゃんギタマガ出たって伝えなきゃ!!
+      ｴｯﾎｴｯﾎ　　🐶🐾　　ｴｯﾎｴｯﾎ!!
+    translation: |-
+      Gotta let everyone know Nacchan is in Guitar Magazine!!
+      Heave-ho, heave-ho　　🐶🐾　　Heave-ho, heave-ho!!
+    image:
+    - GoVCwlLWwAA9fPr
+    part-of:
+      postx: 1910995521373970440
+
+- postximage:
+    post: 1911007047002603549
+    id: GoVCwlLWwAA9fPr
+    label: Selfie
+    info: Hika, Natsu
+    published-date: 2025-04-12
+    part-of:
+      postx: 1911007047002603549
+
+- webimage:
+    domain: guitarmagazine.jp
+    page: 2025-0401-gm2505
     id: cover
-    label: cover
-    published-date: 2025-01-01
-    source:
-      description: Guitar magazine webpage
-      url: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
-    todo: better published date
+    label: Cover
+    published-date: 2025-04-01
+    url: 'https://guitarmagazine.jp/wp-content/uploads/2025/04/GM202505_h1_re_250405.jpg'
+    local-copy: true
+    context:
+    - media:
+        year: 2025
+        id: guitarmagazine05
+    part-of:
+      webpage:
+        domain: guitarmagazine.jp
+        id: 2025-0401-gm2505
+
+- webpage:
+    domain: guitarmagazine.jp
+    id: 2025-0401-gm2505
+    label: Announcement
+    published-date: 2025-04-01
+    url: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
+    image:
+    - cover
     part-of:
       media:
         year: 2025

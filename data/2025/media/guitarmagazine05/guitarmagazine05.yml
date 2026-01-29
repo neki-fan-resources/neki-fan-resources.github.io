@@ -2,10 +2,9 @@ mediawritten:
   year: 2025
   id: guitarmagazine05
   cover-image:
-    localimage:
-      media:
-        year: 2025
-        id: guitarmagazine05
+    webimage:
+      domain: guitarmagazine.jp
+      page: 2025-0401-gm2505
       id: cover
   publication: Guitar magazine
   issue: May 2025

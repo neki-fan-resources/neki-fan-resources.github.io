@@ -387,9 +387,12 @@
       🎧https://pcim.lnk.to/NEKI1STZEPPONEMAN
       
       #NEKI
-    todo: get setlist cover image, if not share somewhere else
     part-of:
       postx: 1961765828870996016
+    reference:
+    - webpage:
+        domain: pcim.lnk.to
+        id: NEKI1STZEPPONEMAN
 
 - postx:
     id: 1961803764794622273
@@ -1360,6 +1363,22 @@
         id: DPN6aGzETNX
 
 - webimage:
+    domain: pcim.lnk.to
+    page: NEKI1STZEPPONEMAN
+    id: playlistcover
+    label: Playlist cover
+    published-date: 2026-01-29
+    url: 'https://linkstorage.linkfire.com/medialinks/images/b4bc157d-6025-45ba-ba97-dc1a4f07809a/artwork-440x440.jpg'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: pcim.lnk.to
+        id: NEKI1STZEPPONEMAN
+
+- webimage:
     domain: realsound.jp
     page: 2025.09.2144607
     id: 02
@@ -1648,6 +1667,19 @@
     - 8
     - 9
     todo: transfer to instagram support
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- webpage:
+    domain: pcim.lnk.to
+    id: NEKI1STZEPPONEMAN
+    label: Playlist links
+    published-date: 2025-08-30
+    url: 'https://pcim.lnk.to/NEKI1STZEPPONEMAN'
+    image:
+    - playlistcover
     part-of:
       show:
         year: 2025

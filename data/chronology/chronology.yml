@@ -32,9 +32,9 @@ contentpage:
   - videomedia
   - writtenmedia
   content:
-  - media:
-      year: 2025
-      id: fmyokohamatresen
+  - show:
+      year: 2026
+      id: musafes
   - show:
       year: 2026
       id: 2ndtokyo2
@@ -44,6 +44,9 @@ contentpage:
   - show:
       year: 2026
       id: 2ndhyogo
+  - show:
+      year: 2026
+      id: gigantictownmeeting
   - show:
       year: 2026
       id: 2ndfukuoka
@@ -67,6 +70,9 @@ contentpage:
       id: 2ndsaitama
   - show:
       year: 2026
+      id: avestvol19
+  - show:
+      year: 2026
       id: 2ndkanagawa
   - show:
       year: 2026
@@ -80,6 +86,9 @@ contentpage:
       year: 2026
       id: guvol395
   - multimedia-event: jumpingmv
+  - media:
+      year: 2025
+      id: fmyokohamatresen
   - show:
       year: 2025
       id: livediga

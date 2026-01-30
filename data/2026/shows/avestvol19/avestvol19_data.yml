@@ -1,0 +1,101 @@
+- postx:
+    id: 2017175957581300033
+    account: Zephyren_
+    label: Final lineup
+    published-date: 2026-01-30
+    text: |-
+      【最終出演アーティスト解禁🔥🔥】
+      
+      🎫チケット一般発売 1/31 10:00開始！
+      http://eplus.jp/avest19/
+      
+      ZEPHYREN Presents
+      『A.V.E.S.T project vol.19』
+      
+      《 ✨NEW ARTISTS 》
+      CVLTE
+      Dimrays
+      G-FREAK-FACTORY
+      RED in BLUE
+      ROTTENGRAFFTY
+      NEK!
+      NOISEMAKER
+      びわ湖くん
+       
+      🎪6会場サーキット開催
+      Spotify O-EAST
+      Spotify O-WEST
+      Spotify O-Crest
+      Spotify O-nest
+      duo MUSIC EXCHANGE
+      club asia
+      
+      🎫チケット一般発売 1/31 10:00開始！
+      http://eplus.jp/avest19/
+      
+      #avest
+      #アベスト
+    translation: |-
+      【Final Lineup Reveal🔥🔥】
+      
+      🎫General Ticket Sales start 1/31 at 10:00!
+      http://eplus.jp/avest19/
+      
+      ZEPHYREN Presents
+      "A.V.E.S.T project vol.19"
+      
+      《 ✨NEW ARTISTS 》
+      CVLTE
+      Dimrays
+      G-FREAK-FACTORY
+      RED in BLUE
+      ROTTENGRAFFTY
+      NEK!
+      NOISEMAKER
+      Biwako-kun
+       
+      🎪6-Venue Circuit Event
+      Spotify O-EAST
+      Spotify O-WEST
+      Spotify O-Crest
+      Spotify O-nest
+      duo MUSIC EXCHANGE
+      club asia
+      
+      🎫General Ticket Sales start 1/31 at 10:00!
+      http://eplus.jp/avest19/
+      
+      #avest
+      #Abesto
+    image:
+    - G_5HtpfakAAut9F
+    part-of:
+      show:
+        year: 2026
+        id: avestvol19
+
+- postximage:
+    post: 2017175957581300033
+    id: G_5HtpfakAAut9F
+    label: Poster
+    published-date: 2026-01-30
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: avestvol19
+    part-of:
+      postx: 2017175957581300033
+
+- update:
+    show:
+      year: 2026
+      id: avestvol19
+    date: 2026-01-30
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: avestvol19
+

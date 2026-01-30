@@ -1172,6 +1172,57 @@
         year: 2025
         id: buzzrhythmlive
 
+- postx:
+    id: 2017205804773028027
+    account: nekiband_jp
+    label: Recap on Nippon TV
+    published-date: 2026-01-30
+    text: |-
+      ✨📡 本日オンエア 📡✨
+      
+      今夜1/30(金)25:19〜放送
+      日本テレビ「バズリズム02」
+      
+      昨年11月に出演させていただきました
+      「バズリズム LIVE 2025 -BUZZER STAGE-」
+      ライブの模様がオンエアとなります📺
+      
+      ぜひご覧ください✅
+      
+      ▼予告動画はこちら💫
+      https://youtu.be/kXoLxd8T79g
+      
+      #NEKI 
+      @BUZZRHYTHM_NTV
+    translation: |-
+      ✨📡 Airing Today 📡✨
+      
+      Broadcasting tonight 1/30 (Fri) from 25:19~
+      Nippon TV "Buzz Rhythm 02"
+      
+      The live performance from
+      "Buzz Rhythm LIVE 2025 -BUZZER STAGE-"
+      where we appeared last November will be aired📺
+      
+      Please be sure to watch✅
+      
+      ▼Click here for the trailer video💫
+      https://youtu.be/kXoLxd8T79g
+      
+      #NEKI 
+      @BUZZRHYTHM_NTV
+    image:
+    - G_6N8vZbUAAt-aG
+    todo: video only available in Japan ?
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+    reference:
+    - postximage:
+        post: 1984877391978905779
+        image: G4uzcERbQAIjlcC
+
 - postximage:
     post: 1966335966437929047
     id: G0jA10Va8AAl_wd
@@ -1484,6 +1535,18 @@
         id: buzzrhythmlive
     part-of:
       postx: 1985218438021976367
+
+- postximage:
+    post: 2017205804773028027
+    id: G_6N8vZbUAAt-aG
+    label: Recap on TV
+    published-date: 2026-01-30
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      postx: 2017205804773028027
 
 - postxvideo:
     post: 1984959064703652298

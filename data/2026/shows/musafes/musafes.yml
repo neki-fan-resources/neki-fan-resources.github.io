@@ -1,0 +1,16 @@
+show:
+  year: 2026
+  id: musafes
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: nf28b4e5952d6
+      id: cover
+  fullname: 武蔵野音楽祭蓮の音カーニバル2026
+  shortname: Musashino Music Festival
+  date: 2026-05-16
+  venue: Kichijoji, Tokyo
+  part-of:
+    group:
+      id: shows
+      group: 2026

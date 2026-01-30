@@ -1,0 +1,59 @@
+- update:
+    show:
+      year: 2026
+      id: musafes
+    date: 2026-01-30
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+
+- webimage:
+    domain: note.com.nekiband
+    page: nf28b4e5952d6
+    id: 2ndlineup
+    label: 2nd lineup
+    published-date: 2026-01-30
+    url: 'https://assets.st-note.com/img/1769761312-2JRe6MlXNIKvLHrWjD9stYuE.jpg'
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nf28b4e5952d6
+
+- webimage:
+    domain: note.com.nekiband
+    page: nf28b4e5952d6
+    id: cover
+    label: Cover
+    published-date: 2026-01-30
+    url: 'https://assets.st-note.com/img/1769761303-ypziMRkfmY7jaSQKB0ndF1gI.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nf28b4e5952d6
+
+- webpage:
+    domain: note.com.nekiband
+    id: nf28b4e5952d6
+    label: MUSAFES webpage
+    published-date: 2026-01-30
+    url: 'https://note.com/nekiband_jp/n/nf28b4e5952d6'
+    image:
+    - cover
+    - 2ndlineup
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+

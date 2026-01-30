@@ -1,0 +1,162 @@
+- postx:
+    id: 2011743468692156620
+    account: giga_osaka
+    label: Announcement
+    published-date: 2026-01-15
+    text: |-
+      🏙GIGANTIC TOWN MEETING🏃💨
+      
+      チケットオフィシャル先着先行は
+      【1月19日(月)AM10:00まで！！】
+      
+      ▼詳細はHPをチェック！
+      https://the-bonds-osaka.com/gtm/
+      
+      📅4/12(SUN)
+      📍梅田BANGBOO/Banana Hall/梅田Zeela
+      
+      注目アーティストのライブを実際に観て
+      夏のジャイガ出演アーティストを皆様の投票で決定！是非ご参加ください✊
+      
+      #ジャイガ #ボンズ
+    translation: |-
+      🏙GIGANTIC TOWN MEETING🏃💨
+      
+      Official first-come, first-served ticket pre-order is
+      [Until January 19 (Mon) 10:00 AM!!]
+      
+      ▼Check the HP for details!
+      https://the-bonds-osaka.com/gtm/
+      
+      📅4/12 (SUN)
+      📍Umeda BANGBOO/Banana Hall/Umeda Zeela
+      
+      See live performances by notable artists
+      and decide the artists for this summer's GIGA through your votes! Please join us✊
+      
+      #Giga #Bonds
+    image:
+    - G-slOf5bMAANpD2
+    - G-slSD6aMAAZS8n
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- postx:
+    id: 2017145767408869828
+    account: giga_osaka
+    label: 2nd lineup
+    published-date: 2026-01-30
+    text: |-
+      第２弾アーティスト発表💨
+      * * * * * * * * * * * * * * * * * *
+      GIGANTIC TOWN MEETING
+      * * * * * * * * * * * * * * * * * *
+      ⭐ACE COLLECTION
+      ⭐EMNW
+      ⭐おもかげ
+      ⭐カネヨリマサル
+      ⭐至福ぽんちょ
+      ⭐すいそうぐらし
+      ⭐すりぃ
+      ⭐セブンス・ベガ
+      ⭐月追う彼方
+      ⭐NEK!
+      ⭐Baby Canta
+      ⭐らそんぶる
+      ⭐レトロマイガール!!
+      and more…!
+      
+      街のライブシーンをつなぐ、毎年恒例のライブイベント🎶
+      注目のニューカマーから、シーンを支える実力派バンドまでが集結し、ライブを通して、夏の祭典 #ジャイガ への流れを一緒に作っていきます。
+      10年分の熱い思いを伝える今年のジャイガを、みんなで一緒にお祝いしましょう！🎉
+      
+      📅4/12(SUN)
+      🏟梅田BANGBOO/Banana Hall/梅田Zeela
+      
+      詳細はHPをチェック！👉https://the-bonds-osaka.com
+    translation: |-
+      2nd Batch of Artists Announced💨
+      * * * * * * * * * * * * * * * * * *
+      GIGANTIC TOWN MEETING
+      * * * * * * * * * * * * * * * * * *
+      ⭐ACE COLLECTION
+      ⭐EMNW
+      ⭐Omokage
+      ⭐Kaneyorimasaru
+      ⭐Shifuku Poncho
+      ⭐Suisougurashi
+      ⭐Three
+      ⭐Seventh Vega
+      ⭐Tsukiou Kanata
+      ⭐NEK!
+      ⭐Baby Canta
+      ⭐Rasomble
+      ⭐Retro My Girl!!
+      and more…!
+      
+      An annual live event that connects the city's live music scene🎶
+      From notable newcomers to talented bands that support the scene, they gather to create the flow together toward the summer festival #Giga through these live performances.
+      Let’s all celebrate this year's Giga together as it conveys 10 years of passionate feelings!🎉
+      
+      📅4/12 (SUN)
+      🏟Umeda BANGBOO / Banana Hall / Umeda Zeela
+      
+      Check the HP for details!👉https://the-bonds-osaka.com
+    image:
+    - G_5Tz_nbsAAuN0j
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- postximage:
+    post: 2011743468692156620
+    id: G-slOf5bMAANpD2
+    label: 1st lineup
+    published-date: 2026-01-15
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2011743468692156620
+
+- postximage:
+    post: 2011743468692156620
+    id: G-slSD6aMAAZS8n
+    label: Poster
+    published-date: 2026-01-15
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2011743468692156620
+
+- postximage:
+    post: 2017145767408869828
+    id: G_5Tz_nbsAAuN0j
+    label: 2nd lineup
+    published-date: 2026-01-30
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2017145767408869828
+
+- update:
+    show:
+      year: 2026
+      id: gigantictownmeeting
+    date: 2026-01-30
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+

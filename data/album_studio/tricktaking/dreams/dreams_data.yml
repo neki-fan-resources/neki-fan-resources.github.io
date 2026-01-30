@@ -659,9 +659,13 @@
       #TRICKTAKING
     image:
     - GlVFBh7a4AQgG9E
-    todo: image band image, webpage
+    todo: webpage
     part-of:
       song: dreams
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - postx:
     id: 1948333854063841769

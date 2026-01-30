@@ -1,4 +1,46 @@
 - postx:
+    id: 1873309518450548860
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-12-29
+    text: |-
+      2025/3/5(水)
+      2nd EP「TR!CK TAK!NG」
+      リリース決定🎊🎊
+      
+      "トリック テイキング"と読みます☑️
+      
+      EP詳細はこちら▼
+      https://note.com/nekiband_jp/n/n35921564900b
+      
+      さらに！！！！
+      NEK!新アー写公開💥
+      
+      #NEKI #TRICKTAKING
+    translation: |-
+      2025/3/5 (Wed)
+      2nd EP "TR!CK TAK!NG"
+      Release Confirmed🎊🎊
+      
+      It's read as "Trick Taking"☑️
+      
+      EP details here▼
+      https://note.com/nekiband_jp/n/n35921564900b
+      
+      And there's more!!!!
+      NEK! new artist photo revealed💥
+      
+      #NEKI #TRICKTAKING
+    image:
+    - Gf9DBuxb0AAbeCQ
+    part-of:
+      album: tricktaking
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+
+- postx:
     id: 1883804554007093275
     account: TOWER_Jrock
     label: Tower Records bonuses
@@ -34,6 +76,14 @@
     todo: image EP bonus tarot 1, tarot 2
     part-of:
       album: tricktaking
+
+- postximage:
+    post: 1873309518450548860
+    id: Gf9DBuxb0AAbeCQ
+    label: Artist Photo
+    published-date: 2026-01-29
+    part-of:
+      postx: 1873309518450548860
 
 - postximage:
     post: 1883804554007093275

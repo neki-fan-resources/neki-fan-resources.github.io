@@ -116,6 +116,75 @@
         id: tricktakingtourtokyo
 
 - postx:
+    id: 1901082018882179433
+    account: nekiband_jp
+    label: Today
+    published-date: 2025-03-16
+    text: |-
+      ❤️‍🔥TOUR FINAL❤️‍🔥
+      
+      NEK! 1stワンマンツアー「TR!CK TAK!NG」
+      @ 東京・Spotify O-WEST
+      
+      ついにツアーファイナル！
+      本日開催🔥
+      
+      グッズ先行販売は14:00〜開始予定です🎁
+      
+      当日券は前売チケットをお持ちの方のご入場後にご案内いたします。
+      
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    translation: |-
+      ❤️‍🔥TOUR FINAL❤️‍🔥
+      
+      NEK! 1st One-Man Tour "TR!CK TAK!NG"
+      @ Tokyo · Spotify O-WEST
+      
+      Finally, the tour final!
+      Happening today🔥
+      
+      Pre-show merchandise sales are scheduled to start at 14:00🎁
+      
+      Same-day tickets will be available after those with advance tickets have entered.
+      
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    todo: tour poster
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1901126409017536965
+    account: nekiband_jp
+    label: Merch
+    published-date: 2025-03-16
+    text: |-
+      新商品も要チェック！👀✨
+      
+      ・TRICKTAKING_T
+      ・NEKI_ZIP-UP HOODIE
+      
+       #NEKI
+    translation: |-
+      Check out the new items too! 👀✨
+      
+      ・TRICKTAKING_T
+      ・NEKI_ZIP-UP HOODIE
+      
+       #NEKI
+    image:
+    - GmIoYQibcAEY3-n
+    - GmIoYQlaQAExmu2
+    - GmIoYQlbcAAkN5g
+    part-of:
+      postx: 1901082018882179433
+
+- postx:
     id: 1901916392653537292
     account: natsu08_guitar
     label: Reigen girl intro
@@ -253,6 +322,33 @@
       postxvideo:
         post: 1954447291294822589
         video: 01
+
+- postximage:
+    post: 1901126409017536965
+    id: GmIoYQibcAEY3-n
+    label: Merch
+    info: Natsu
+    published-date: 2025-03-16
+    part-of:
+      postx: 1901126409017536965
+
+- postximage:
+    post: 1901126409017536965
+    id: GmIoYQlaQAExmu2
+    label: Merch
+    info: Natsu
+    published-date: 2025-03-16
+    part-of:
+      postx: 1901126409017536965
+
+- postximage:
+    post: 1901126409017536965
+    id: GmIoYQlbcAAkN5g
+    label: Merch
+    info: Natsu
+    published-date: 2025-03-16
+    part-of:
+      postx: 1901126409017536965
 
 - postxvideo:
     post: 1901916392653537292

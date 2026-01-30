@@ -169,11 +169,18 @@
       Haruki Hamano-san, thank you so much for inviting us!🫶🏻
     image:
     - Gw3zn6TaUAEpk50
-    todo: other pictures
+    - Gw3zn51bAAEvtWX
     part-of:
       show:
         year: 2025
         id: internetbabies
+    reference:
+    - postximage:
+        post: 1949480491713003736
+        image: Gw3yKXybsAAmjfa
+    - postximage:
+        post: 1949480491713003736
+        image: Gw3yKX3a0AA5OUn
 
 - postx:
     id: 1949488433849933878
@@ -206,7 +213,7 @@
       I'll be waiting for you!
     image:
     - Gw35W4kagAApR75
-    todo: pictures
+    - Gw35W4abAAESNI9
     part-of:
       show:
         year: 2025
@@ -501,6 +508,18 @@
 
 - postximage:
     post: 1949482178628432379
+    id: Gw3zn51bAAEvtWX
+    label: Backstage
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      postx: 1949482178628432379
+
+- postximage:
+    post: 1949482178628432379
     id: Gw3zn6TaUAEpk50
     label: The drums
     info: Cocoro
@@ -511,6 +530,19 @@
         id: internetbabies
     part-of:
       postx: 1949482178628432379
+
+- postximage:
+    post: 1949488433849933878
+    id: Gw35W4abAAESNI9
+    label: Backstage
+    info: Hika
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      postx: 1949488433849933878
 
 - postximage:
     post: 1949488433849933878

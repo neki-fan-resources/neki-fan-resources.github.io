@@ -88,7 +88,7 @@
     id: 1971180905709625391
     account: Meta_Fes
     label: In 2 days
-    info: 3 other images - schedule, tokyo calling merch, buttons
+    info: 2 other images - tokyo calling merch, buttons
     published-date: 2025-09-25
     text: |-
       🎉明後日開催🎉
@@ -126,11 +126,14 @@
       https://l-tike.com/tokyo-calling/
     image:
     - G1sKeAqaAAEUyBA
-    todo: more pictures
     part-of:
       show:
         year: 2025
         id: tokyocalling
+    reference:
+    - postximage:
+        post: 1971514796249133057
+        image: G1wdzAvaAAARSaN
 
 - postx:
     id: 1971514796249133057
@@ -359,11 +362,14 @@
       Thank you very much!
     image:
     - G129QPzb0AIqsay
-    todo: other picture
     part-of:
       show:
         year: 2025
         id: tokyocalling
+    reference:
+    - postximage:
+        post: 1971939704607330507
+        image: G128TQAakAAVDf7
 
 - postx:
     id: 1971943435419746395
@@ -424,11 +430,14 @@
       Thank you for letting me hear your voices so much!
     image:
     - G13CjL-boAEclEX
-    todo: other picture
     part-of:
       show:
         year: 2025
         id: tokyocalling
+    reference:
+    - postximage:
+        post: 1971928063769534779
+        image: G12yHh4bgAAMFpJ
 
 - postx:
     id: 1972588102490456172

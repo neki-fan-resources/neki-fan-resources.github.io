@@ -1,5 +1,42 @@
-group:
-  id: artist
-  label: Artists
-  part-of:
-    group: band
+- group:
+    id: artist
+    label: Artists
+    part-of:
+      group: band
+
+- postx:
+    id: 1783077452518150229
+    account: nekiband_jp
+    label: First Artist Photos
+    published-date: 2024-04-24
+    text: |-
+      NEK! 初代アーティスト写真公開！
+      
+      公式Instagramも開設しました💭
+      https://instagram.com/nekiband_jp/
+      
+      #NEKI
+    translation: |-
+      NEK! First Artist Photo released!
+      
+      We have also launched our official Instagram 💭
+      https://instagram.com/nekiband_jp/
+      
+      #NEKI
+    image:
+    - GL7DHUnbUAAsyRj
+    part-of:
+      postximage:
+        post: 1783077452518150229
+        image: GL7DHUnbUAAsyRj
+
+- postximage:
+    post: 1783077452518150229
+    id: GL7DHUnbUAAsyRj
+    label: Artist Photo
+    published-date: 2024-04-24
+    part-of:
+      group:
+        id: artist
+        group: band
+

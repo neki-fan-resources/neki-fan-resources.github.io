@@ -78,16 +78,92 @@
         year: 2024
         id: torarockfestival
 
+- postx:
+    id: 1814905384324505953
+    account: nekiband_jp
+    label: Schedule
+    published-date: 2024-07-21
+    text: |-
+      8/31(土) 出演
+      ラストランプpresents.
+      「トラROCK FESTIVAL」
+      
+      出演会場&時間決定❗️
+      
+      13:00〜13:30
+      @ 下北沢CLUB251🔥
+      
+      https://t.livepocket.jp/e/torarockfes2024
+      
+      #NEKI #トラロックフェス
+    translation: |-
+      Appearing on 8/31 (Sat)
+      Last Lamp presents.
+      "Tora ROCK FESTIVAL"
+      
+      Venue & Time decided❗️
+      
+      13:00〜13:30
+      @ Shimokitazawa CLUB251🔥
+      
+      https://t.livepocket.jp/e/torarockfes2024
+      
+      #NEKI #ToraRockFes
+    image:
+    - GS_W0ArbIAEHPDE
+    - GS_W0AsbIAECCyx
+    - GS_W0AwbIAIETZw
+    part-of:
+      show:
+        year: 2024
+        id: torarockfestival
+
 - postximage:
     post: 1799063840925315512
     id: GPePBkmbcAEVfyW
     label: poster
     published-date: 2024-06-07
-    local-copy: true
     context:
     - show:
         year: 2024
         id: torarockfestival
     part-of:
       postx: 1799063840925315512
+
+- postximage:
+    post: 1814905384324505953
+    id: GS_W0ArbIAEHPDE
+    label: Band poster
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
+    part-of:
+      postx: 1814905384324505953
+
+- postximage:
+    post: 1814905384324505953
+    id: GS_W0AsbIAECCyx
+    label: Poster
+    published-date: 2024-07-21
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
+    part-of:
+      postx: 1814905384324505953
+
+- postximage:
+    post: 1814905384324505953
+    id: GS_W0AwbIAIETZw
+    label: Timetable
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
+    part-of:
+      postx: 1814905384324505953
 

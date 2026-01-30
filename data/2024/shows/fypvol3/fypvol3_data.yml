@@ -1,4 +1,42 @@
 - postx:
+    id: 1803369809566113904
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-06-19
+    text: |-
+      8/2(金)
+      「SHIBUYA THE GAME presents
+      #FYP - For You Place - vol.3」
+      @ SHIBUYA THE GAME
+      
+      出演させていただきます💥
+      
+      チケット予約受付中です🎟️
+      ご予約は下記リンクから or NEK!公式XのDMにお願いします📩
+      https://t.livepocket.jp/e/dybqz
+      
+      #NEKI
+    translation: |-
+      8/2 (Fri)
+      "SHIBUYA THE GAME presents
+      #FYP - For You Place - vol.3"
+      @ SHIBUYA THE GAME
+      
+      We will be performing 💥
+      
+      Ticket reservations are now open 🎟️
+      Please reserve via the link below or NEK!'s official X DM 📩
+      https://t.livepocket.jp/e/dybqz
+      
+      #NEKI
+    image:
+    - GQbaKq-aIAM7xgd
+    part-of:
+      show:
+        year: 2024
+        id: fypvol3
+
+- postx:
     id: 1819198572111577421
     account: SHIBUYATHEGAME
     label: Today
@@ -49,6 +87,18 @@
       show:
         year: 2024
         id: fypvol3
+
+- postximage:
+    post: 1803369809566113904
+    id: GQbaKq-aIAM7xgd
+    label: Poster
+    published-date: 2024-06-19
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postx: 1803369809566113904
 
 - postximage:
     post: 1819198572111577421

@@ -1,0 +1,59 @@
+- update:
+    show:
+      year: 2026
+      id: 2ndanniversaryevent
+    date: 2026-01-31
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
+- webimage:
+    domain: note.com.nekiband
+    page: n9564ec6e11a5
+    id: poster
+    label: Poster
+    published-date: 2026-01-31
+    url: 'https://assets.st-note.com/img/1769858173-lMpcbykfsYDmGBqwt8rWN31x.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n9564ec6e11a5
+
+- webimage:
+    domain: note.com.nekiband
+    page: n9564ec6e11a5
+    id: posteren
+    label: Poster
+    published-date: 2026-01-31
+    url: 'https://assets.st-note.com/img/1769858185-PRTfl0LoeyuES2cJrAvUWaYx.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n9564ec6e11a5
+
+- webpage:
+    domain: note.com.nekiband
+    id: n9564ec6e11a5
+    label: show information
+    published-date: 2026-01-31
+    url: 'https://note.com/nekiband_jp/n/n9564ec6e11a5'
+    image:
+    - poster
+    - posteren
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+

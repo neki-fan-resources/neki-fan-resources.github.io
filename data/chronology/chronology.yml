@@ -76,6 +76,9 @@ contentpage:
       id: 2ndkanagawa
   - show:
       year: 2026
+      id: 2ndanniversaryevent
+  - show:
+      year: 2026
       id: 2ndtokyo1
   - tour: 2ndanniversarytour
   - multimedia-event: scrapbookmv

@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: 2ndanniversaryevent
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n9564ec6e11a5
+      id: poster
+  fullname: NEK!結成2周年記念イベント
+  shortname: 2nd Anniversary Event
+  date: 2026-02-11
+  description:
+  - Free short set + Signing
+  part-of:
+    group:
+      id: shows
+      group: 2026

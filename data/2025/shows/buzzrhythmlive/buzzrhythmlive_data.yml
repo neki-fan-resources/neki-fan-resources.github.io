@@ -174,6 +174,12 @@
         label: image / video
         sections:
         - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: j5TiARezTNA
+        - basicsection:
             label: More from the show
             subsections:
             - multimediasubsection:
@@ -1596,6 +1602,21 @@
     text:
     - Additional pictures
     - Translation of Cocoro's report
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- youtubeshort:
+    id: j5TiARezTNA
+    label: On stage
+    info: studio audio
+    published-date: 2026-01-31
+    context:
+    - song: maze
+    - show:
+        year: 2025
+        id: buzzrhythmlive
     part-of:
       show:
         year: 2025

@@ -40,6 +40,82 @@
         year: 2026
         id: 2ndtokyo1
 
+- postx:
+    id: 2017932429278023990
+    account: nekiband_jp
+    label: Merch
+    published-date: 2026-02-01
+    text: |-
+      📢ツアー情報更新📢
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      2/8(日)@東京・shibuya eggman
+      💥TICKET SOLD OUT💥
+      
+      ★新グッズ情報公開🎁
+      ★当日のグッズ先行販売は15:00~開始！
+      
+      ツアー初日まであと1週間🔥
+      ご来場お待ちしております！
+      
+      🔗https://note.com/nekiband_jp/n/n67510ac0749d
+      
+      #NEKI
+    translation: |-
+      📢 Tour Info Update 📢
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      2/8 (Sun) @ Tokyo / shibuya eggman
+      💥 TICKET SOLD OUT 💥
+      
+      ★ New merch info revealed 🎁
+      ★ Advance merch sales on the day start at 15:00!
+      
+      1 week left until the first day of the tour 🔥
+      We look forward to seeing you there!
+      
+      🔗 https://note.com/nekiband_jp/n/n67510ac0749d
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+    reference:
+    - postximage:
+        post: 2014972494361645385
+        image: G_adQ2YbAAIeZhI
+    - webimage:
+        domain: note.com.nekiband
+        page: n67510ac0749d
+        id: merch
+    - webimage:
+        domain: note.com.nekiband
+        page: n67510ac0749d
+        id: merchlottery
+
+- postx:
+    id: 2017936963970699641
+    account: nekiband_jp
+    label: Merch
+    published-date: 2026-02-01
+    text: |-
+      🖤NEW MERCH🖤
+      
+      #TOUR_T
+      #TOUR_TOWEL
+      #TOUR_TOTE
+      #NEKI 
+      #NewInNEKI
+    image:
+    - HAEm-ESaMAAziQu
+    - HAEm-EdaMAAlt7o
+    - HAEm-EobkAAr4v-
+    part-of:
+      postx: 2017932429278023990
+
 - postximage:
     post: 2014972494361645385
     id: G_adQ2YbAAIeZhI
@@ -52,4 +128,86 @@
         id: 2ndtokyo1
     part-of:
       postx: 2014972494361645385
+
+- postximage:
+    post: 2017936963970699641
+    id: HAEm-ESaMAAziQu
+    label: Towel
+    published-date: 2026-02-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2017936963970699641
+
+- postximage:
+    post: 2017936963970699641
+    id: HAEm-EdaMAAlt7o
+    label: Tote bag
+    published-date: 2026-02-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2017936963970699641
+
+- postximage:
+    post: 2017936963970699641
+    id: HAEm-EobkAAr4v-
+    label: Tour T-shirt
+    published-date: 2026-02-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2017936963970699641
+
+- webimage:
+    domain: note.com.nekiband
+    page: n67510ac0749d
+    id: merch
+    label: Merch
+    published-date: 2026-02-01
+    url: 'https://assets.st-note.com/img/1769943066-8PaTcY73eU1EQnjRLhKZ42Xb.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n67510ac0749d
+
+- webimage:
+    domain: note.com.nekiband
+    page: n67510ac0749d
+    id: merchlottery
+    label: Merch lottery
+    published-date: 2026-02-01
+    url: 'https://assets.st-note.com/img/1769943283-qnMxLvpi1EWlAjKFyU098bke.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n67510ac0749d
+
+- webpage:
+    domain: note.com.nekiband
+    id: n67510ac0749d
+    label: Merch info
+    published-date: 2026-02-01
+    url: 'https://note.com/nekiband_jp/n/n67510ac0749d'
+    image:
+    - merch
+    - merchlottery
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
 

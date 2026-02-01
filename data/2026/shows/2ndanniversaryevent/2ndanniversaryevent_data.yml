@@ -1,3 +1,88 @@
+- postx:
+    id: 2017903857268064334
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-02-01
+    text: |-
+      🎉❤️‍🔥SOLD OUT❤️‍🔥🎉
+      
+      2/11(水祝) 開催
+      「NEK! 結成2周年記念イベント」
+      @ shibuya eggman
+      
+      THANK YOU SOLD OUT💥
+      沢山のお申込ありがとうございます💖
+      
+      ⚠️フリーライブ「優先入場券」がお申し込みにて完売につき、
+      当日入場の可否は入場完了後の状況により判断となります！
+      
+      #NEKI
+    translation: |-
+      🎉❤️‍🔥SOLD OUT❤️‍🔥🎉
+      
+      2/11(Wed/Holiday)
+      "NEK! 2nd Anniversary Event"
+      @ shibuya eggman
+      
+      THANK YOU SOLD OUT💥
+      Thank you for so many applications💖
+      
+      ⚠️Since the free live "Priority Admission Tickets" are sold out through applications,
+      whether or not same-day entry is possible will be decided based on the situation after priority entry is complete!
+      
+      #NEKI
+    image:
+    - HAEI29xa0AAxPmL
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
+- postx:
+    id: 2017906532525252727
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-02-01
+    text: |-
+      📅 Feb 11 (Wed, Holiday)
+      NEK! 2nd Anniversary Event
+      📍 shibuya eggman
+      
+      💥 THANK YOU — SOLD OUT! 💥
+      Thank you so much for all the applications 💖
+      
+      ⚠️ As Free Live Priority Entry tickets are now sold out,
+      same-day admission will be decided based on the entry situation on the day.
+    image:
+    - HAELQdkbUAA1gKk
+    part-of:
+      postx: 2017903857268064334
+
+- postximage:
+    post: 2017903857268064334
+    id: HAEI29xa0AAxPmL
+    label: Poster sold out
+    published-date: 2026-02-01
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2017903857268064334
+
+- postximage:
+    post: 2017906532525252727
+    id: HAELQdkbUAA1gKk
+    label: Poster sold out
+    published-date: 2026-02-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2017906532525252727
+
 - update:
     show:
       year: 2026
@@ -17,7 +102,6 @@
     label: Poster
     published-date: 2026-01-31
     url: 'https://assets.st-note.com/img/1769858173-lMpcbykfsYDmGBqwt8rWN31x.jpg'
-    local-copy: true
     context:
     - show:
         year: 2026

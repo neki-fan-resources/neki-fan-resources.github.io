@@ -304,6 +304,20 @@
     part-of:
       postx: 2011674201158283267
 
+- postx:
+    id: 2017925656517197950
+    account: 46_hikaa
+    label: Big screen at Shibuya Crossing
+    published-date: 2026-02-01
+    text: |-
+      渋谷スクランブル交差点にNEK!が居た！！
+    translation: |-
+      NEK! was at Shibuya Scramble Crossing!!
+    video:
+    - 01
+    part-of:
+      tour: 2ndanniversarytour
+
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
@@ -370,6 +384,17 @@
         id: 1stzepponeman
     part-of:
       postx: 2011772300887273544
+
+- postxvideo:
+    post: 2017925656517197950
+    id: 01
+    label: Shibuya Crossing
+    published-date: 2026-02-01
+    cover: 2017925589307707392/img/B0djRfyyoDoue6Bn.jpg
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postx: 2017925656517197950
 
 - update:
     tour: 2ndanniversarytour

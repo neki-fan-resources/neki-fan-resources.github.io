@@ -1,4 +1,43 @@
 - postx:
+    id: 1804826253255667992
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-06-23
+    text: |-
+      8/23(金)
+      「Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-」
+      @ アメリカ村 BEYOND
+      
+      出演させていただきます🔥
+      
+      チケット受付開始はこのあと22時からLivepocketにて開始🎫
+      https://t.livepocket.jp/e/soundsgood73
+      
+      大阪でNEK!と遊びましょう？
+      
+      #NEKI
+    translation: |-
+      8/23 (Fri)
+      "Sounds good!! 73rd Time!! - A MEMURA with A NEK! and A SOBU -"
+      @ Amerika-mura BEYOND
+      
+      We will be performing 🔥
+      
+      Ticket reception starts at 10 PM tonight on Livepocket 🎫
+      https://t.livepocket.jp/e/soundsgood73
+      
+      Shall we hang out with NEK! in Osaka?
+      
+      #NEKI
+    image:
+    - GQwGBNrb0AAuARr
+    todo: tour poster
+    part-of:
+      show:
+        year: 2024
+        id: soundsgoodvol73
+
+- postx:
     id: 1826867524035653715
     account: nekiband_jp
     label: Today
@@ -26,6 +65,18 @@
       show:
         year: 2024
         id: soundsgoodvol73
+
+- postximage:
+    post: 1804826253255667992
+    id: GQwGBNrb0AAuARr
+    label: Flyer
+    published-date: 2024-06-23
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    part-of:
+      postx: 1804826253255667992
 
 - postximage:
     post: 1826867524035653715

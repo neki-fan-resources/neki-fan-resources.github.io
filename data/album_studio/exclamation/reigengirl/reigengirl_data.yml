@@ -160,6 +160,20 @@
         - I want it all to go away
 
 - postx:
+    id: 1806667280643936516
+    account: nekiband_jp
+    label: Official teaser
+    published-date: 2024-06-28
+    text: |-
+      "令現少女" Official Teaser❤️‍🔥
+      https://youtu.be/pCqu9xyfFzE
+      #NEKI #令現少女
+    image:
+    - GRKSUKLaAAE3tKO
+    part-of:
+      youtubevideo: pCqu9xyfFzE
+
+- postx:
     id: 1848204505093144935
     account: coco_102
     label: Cocoro-cam
@@ -386,6 +400,16 @@
     - 01
     part-of:
       song: reigengirl
+
+- postximage:
+    post: 1806667280643936516
+    id: GRKSUKLaAAE3tKO
+    label: MV image
+    published-date: 2024-06-28
+    context:
+    - song: reigengirl
+    part-of:
+      postx: 1806667280643936516
 
 - postxvideo:
     post: 1848204505093144935

@@ -1296,6 +1296,44 @@
       song: maze
 
 - postx:
+    id: 1815718604295577659
+    account: nekiband_jp
+    label: Tomorrow
+    published-date: 2024-07-23
+    text: |-
+      明日7/24(水)21:00
+      
+      1st EP「EXCLAMAT!ON」収録曲
+      「MAZE」
+      
+      Music Videoプレミア公開🎬
+      
+      メンバーもチャット欄に登場します💭
+      みんなで一緒に観て盛り上がりましょう〜🫶
+      
+      https://youtu.be/EHtWJmMybGY
+      
+      #NEKI #MAZE
+    translation: |-
+      Tomorrow, 7/24 (Wed) at 21:00
+      
+      The song included in the 1st EP "EXCLAMAT!ON"
+      "MAZE"
+      
+      Music Video Premiere Release 🎬
+      
+      Members will also appear in the chat section💭
+      Let's watch it together and get excited〜🫶
+      
+      https://youtu.be/EHtWJmMybGY
+      
+      #NEKI #MAZE
+    image:
+    - GTK6bxwa4AAeLVB
+    part-of:
+      youtubevideo: EHtWJmMybGY
+
+- postx:
     id: 1925772297672991117
     account: coco_102
     label: MAZE rehearsal
@@ -1492,6 +1530,17 @@
       song: maze
 
 - postximage:
+    post: 1815718604295577659
+    id: GTK6bxwa4AAeLVB
+    label: MV image
+    published-date: 2024-07-23
+    local-copy: true
+    context:
+    - song: maze
+    part-of:
+      postx: 1815718604295577659
+
+- postximage:
     post: 1927692644982898863
     id: GsCKPH6awAAuZoh
     label: 300k views
@@ -1620,22 +1669,13 @@
       "MAZE"
       
       https://youtu.be/EHtWJmMybGY
-    image:
-    - 6bC7UjDfvJotHWo0r25BbIvnHrxDVHYGAbnqz3svBzhysW9DwB6rkxrTB31tt-SPP73STrQoZ51ofKE
     todo: double check published-date with X post
     part-of:
       song: maze
-
-- postyoutubeimage:
-    post: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
-    id: 6bC7UjDfvJotHWo0r25BbIvnHrxDVHYGAbnqz3svBzhysW9DwB6rkxrTB31tt-SPP73STrQoZ51ofKE
-    label: MV frame
-    published-date: 2024-06-03
-    local-copy: true
-    context:
-    - song: maze
-    part-of:
-      postyoutube: Ugkxi0lwEh-cjiRo3Mly4Ihc5SG4PLQY7RiV
+    reference:
+    - postximage:
+        post: 1815718604295577659
+        image: GTK6bxwa4AAeLVB
 
 - youtubeshort:
     id: '-WsoxfXBQgs'

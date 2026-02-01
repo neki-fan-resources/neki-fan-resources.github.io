@@ -1,4 +1,48 @@
 - postx:
+    id: 1808470843703664913
+    account: clubdrop
+    label: Announcement
+    published-date: 2024-07-03
+    text: |-
+      DROP21周年🍻解禁
+      
+      2024.08.22(Thu)
+      Girls,Girls,Girls-アメリカ村DROP21th Anniversary 4MAN-
+      [ACT]
+      LUMiRiSE / NEK! / LETITOUT-lelia- / and more
+      18:00/18:30
+      前売￥3,000（+1D¥600-）
+      
+      TiGET：https://tiget.net/events/330888
+      @_LUMiRiSE
+       
+      @nekiband_jp
+       
+      @Letitout_Japan
+    translation: |-
+      DROP 21st Anniversary🍻 Announcement
+      
+      2024.08.22 (Thu)
+      Girls,Girls,Girls -Amerikamura DROP 21th Anniversary 4MAN-
+      [ACT]
+      LUMiRiSE / NEK! / LETITOUT-lelia- / and more
+      18:00/18:30
+      Advance ¥3,000 (+1D¥600-)
+      
+      TiGET: https://tiget.net/events/330888
+      @_LUMiRiSE
+      
+      @nekiband_jp
+      
+      @Letitout_Japan
+    image:
+    - GRj6pTubQAACieD
+    part-of:
+      show:
+        year: 2024
+        id: girlsgirlsgirls
+
+- postx:
     id: 1826512086530490829
     account: nekiband_jp
     label: Today
@@ -30,6 +74,18 @@
       show:
         year: 2024
         id: girlsgirlsgirls
+
+- postximage:
+    post: 1808470843703664913
+    id: GRj6pTubQAACieD
+    label: Poster
+    published-date: 2024-07-03
+    context:
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
+    part-of:
+      postx: 1808470843703664913
 
 - postximage:
     post: 1826512086530490829

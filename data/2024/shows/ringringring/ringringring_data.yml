@@ -1,4 +1,42 @@
 - postx:
+    id: 1811718141904585180
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-07-12
+    text: |-
+      9/8(日)
+      「LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~」
+      @ 下北沢LIVEHOLIC
+      
+      NEK!の出演が決定しました💥
+      
+      チケットはTIGETにてただいまより受付開始🎟️
+      https://tiget.net/events/333406
+      
+      #NEKI
+    translation: |-
+      9/8 (Sun)
+      "LIVEHOLIC 9th Anniversary series ~Ring! Ring! Ring!~"
+      @ Shimokitazawa LIVEHOLIC
+      
+      NEK!'s appearance has been confirmed💥
+      
+      Tickets are now available on TIGET🎟️
+      https://tiget.net/events/333406
+      
+      #NEKI
+    image:
+    - GSSEBGlbgAAjIR2
+    part-of:
+      show:
+        year: 2024
+        id: ringringring
+    reference:
+    - postximage:
+        post: 1832614238424301660
+        image: GW7Ac3YbEAAYoku
+
+- postx:
     id: 1832614238424301660
     account: nekiband_jp
     label: Today
@@ -47,6 +85,18 @@
       show:
         year: 2024
         id: ringringring
+
+- postximage:
+    post: 1811718141904585180
+    id: GSSEBGlbgAAjIR2
+    label: Bands poster
+    published-date: 2024-07-12
+    context:
+    - show:
+        year: 2024
+        id: ringringring
+    part-of:
+      postx: 1811718141904585180
 
 - postximage:
     post: 1832614238424301660

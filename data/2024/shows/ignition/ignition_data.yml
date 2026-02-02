@@ -72,7 +72,7 @@
     image:
     - GbtaEEGbgAA4158
     - GbtaEEHbAAA6VzN
-    todo: board image
+    - GbtaEEHakAAv-OI
     part-of:
       show:
         year: 2024
@@ -95,6 +95,18 @@
     post: 1854174702820007947
     id: GbtaEEGbgAA4158
     label: On stage
+    published-date: 2024-11-06
+    context:
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      postx: 1854174702820007947
+
+- postximage:
+    post: 1854174702820007947
+    id: GbtaEEHakAAv-OI
+    label: Board
     published-date: 2024-11-06
     context:
     - show:

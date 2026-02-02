@@ -41,6 +41,59 @@
         image: Gf9DBuxb0AAbeCQ
 
 - postx:
+    id: 1873309523106259279
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-12-29
+    text: |-
+      2025/3/5(Wed)
+      We are pleased to announce the release of our 2nd EP “TR!CK TAK!NG”!
+      For more information, please click here.
+      https://note.com/nekiband_jp/n/n35921564900b
+      
+      In addition!
+      New Artist Photos Released!
+      
+      #NEKI #TRICKTAKING
+    part-of:
+      postx: 1873309518450548860
+
+- postx:
+    id: 1873309528680501738
+    account: nekiband_jp
+    label: Pre-orders
+    published-date: 2024-12-29
+    text: |-
+      2nd EP「TR!CK TAK!NG」先行予約受付開始！
+      
+      本日のワンマン終演後にも会場にて先行予約を実施しております💿
+      
+      ご予約いただいた方には「Dreams!!!!」のジャケットステッカーの特典付！！
+      
+      さらに抽選でご当選された方にはソロアー写ポスターをプレゼント🎁
+      
+      ぜひチェックお願いします！
+      
+      #NEKI
+    translation: |-
+      Pre-orders for the 2nd EP "TR!CK TAK!NG" have started!
+      
+      Pre-orders are also being taken at the venue today after the solo live show ends💿
+      
+      Those who pre-order will receive a "Dreams!!!!" cover art sticker as a bonus!!
+      
+      Furthermore, winners of the lottery will receive a solo artist photo poster as a gift🎁
+      
+      Please be sure to check it out!
+      
+      #NEKI
+    image:
+    - Gf9DhGxa4AA1ZA-
+    - Gf9DhGxboAEg8DV
+    part-of:
+      postx: 1873309523106259279
+
+- postx:
     id: 1883804554007093275
     account: TOWER_Jrock
     label: Tower Records bonuses
@@ -84,6 +137,26 @@
     published-date: 2026-01-29
     part-of:
       postx: 1873309518450548860
+
+- postximage:
+    post: 1873309528680501738
+    id: Gf9DhGxa4AA1ZA-
+    label: Lottery bonus
+    published-date: 2026-02-02
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1873309528680501738
+
+- postximage:
+    post: 1873309528680501738
+    id: Gf9DhGxboAEg8DV
+    label: Bonus
+    published-date: 2026-02-02
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1873309528680501738
 
 - postximage:
     post: 1883804554007093275

@@ -1,4 +1,38 @@
 - postx:
+    id: 1862471067115430271
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-11-29
+    text: |-
+      2025/1/26(日)
+      優利香Presents「You&I ～未来浮かべ浮かれSmile～」てんこ盛り編
+      @ Shibuya eggman
+      
+      NEK!の出演が決定いたしました❣️
+      
+      詳細はこちらから▼
+      https://note.com/nekiband_jp/n/n8288f3be1b16?sub_rt=share_pw
+      
+      #NEKI
+    translation: |-
+      2025/1/26 (Sun)
+      Yurika Presents "You & I ~Future Visions, Floating Smile~" Jam-packed Edition
+      @ Shibuya eggman
+      
+      NEK! is confirmed to perform❣️
+      
+      Details here ▼
+      https://note.com/nekiband_jp/n/n8288f3be1b16?sub_rt=share_pw
+      
+      #NEKI
+    image:
+    - GdjTje-WMAA_rfZ
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+
+- postx:
     id: 1883065171922637290
     account: nekiband_jp
     label: Tomorrow
@@ -36,6 +70,18 @@
       show:
         year: 2025
         id: youandi
+
+- postximage:
+    post: 1862471067115430271
+    id: GdjTje-WMAA_rfZ
+    label: Poster
+    published-date: 2024-11-29
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postx: 1862471067115430271
 
 - postximage:
     post: 1883065171922637290

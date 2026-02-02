@@ -1,3 +1,59 @@
+- postx:
+    id: 1897543126019137799
+    account: nekiband_jp
+    label: Aichi soldout
+    published-date: 2025-03-06
+    text: |-
+      NEK! 1stワンマンツアー
+      「TR!CK TAK!NG」
+      
+      愛知公演ソールドアウト💥
+      
+      3/8大阪&3/16東京のチケットは現在一般発売中です🎟️
+      
+      ローソンチケット
+      https://l-tike.com/nekiband/
+                 
+      イープラス
+      https://eplus.jp/nekiband/
+              
+      チケットぴあ
+      https://w.pia.jp/t/neki-tricktaking/
+      
+      #NEKI
+    translation: |-
+      NEK! 1st One-Man Tour
+      "TR!CK TAK!NG"
+      
+      Aichi performance SOLD OUT💥
+      
+      Tickets for 3/8 Osaka & 3/16 Tokyo are currently on general sale🎟️
+      
+      Lawson Ticket
+      https://l-tike.com/nekiband/
+      
+      e-plus
+      https://eplus.jp/nekiband/
+      
+      Ticket Pia
+      https://w.pia.jp/t/neki-tricktaking/
+      
+      #NEKI
+    image:
+    - GlVs5tkb0AAUj3g
+    part-of:
+      tour: tricktakingtour
+
+- postximage:
+    post: 1897543126019137799
+    id: GlVs5tkb0AAUj3g
+    label: Poster sold out
+    published-date: 2025-03-06
+    context:
+    - tour: tricktakingtour
+    part-of:
+      postx: 1897543126019137799
+
 - postyoutube:
     id: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
     account: neki_official
@@ -24,20 +80,122 @@
       
       Official advance orders (by lottery) are now being accepted from 20:00.
       https://note.com/nekiband_jp/n/nc703b...
-    image:
-    - aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
     part-of:
       tour: tricktakingtour
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nc703bb1d82c8
+        id: poster
 
-- postyoutubeimage:
-    post: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
-    id: aeuz_RMdFrob6Idy0TI1zoymjjJ1-TE9yD_5Y8m673HhwxscbaJMsmP7F5O3J7_o3My_qTFN449aLA
-    label: poster
-    published-date: 2025-01-01
+- webimage:
+    domain: note.com.nekiband
+    page: n41466bbb690c
+    id: merch
+    label: Merch
+    published-date: 2025-03-04
+    url: 'https://assets.st-note.com/img/1741247030-1uet8S7FxwzXdEaUNRTKCs0c.jpg'
+    context:
+    - tour: tricktakingtour
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n41466bbb690c
+
+- webimage:
+    domain: note.com.nekiband
+    page: n41466bbb690c
+    id: merchep
+    label: Merch EP sticker
+    published-date: 2025-03-04
+    url: 'https://assets.st-note.com/img/1741247058-5MvHBt7pZw3r1dFaDSjTyNx4.jpg'
+    context:
+    - tour: tricktakingtour
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n41466bbb690c
+
+- webimage:
+    domain: note.com.nekiband
+    page: n41466bbb690c
+    id: merchhoodie
+    label: Merch hoodie
+    published-date: 2025-03-04
+    url: 'https://assets.st-note.com/img/1741085099-7rANja8GVOgxB0Pkf19QJ3C4.png'
+    context:
+    - tour: tricktakingtour
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n41466bbb690c
+
+- webimage:
+    domain: note.com.nekiband
+    page: n41466bbb690c
+    id: merchlottery
+    label: Merch lottery
+    published-date: 2025-03-04
+    url: 'https://assets.st-note.com/img/1741247051-iNHI0k7QaeqvPc8ortpEYSGx.jpg'
+    context:
+    - tour: tricktakingtour
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n41466bbb690c
+
+- webimage:
+    domain: note.com.nekiband
+    page: n41466bbb690c
+    id: merchtshirt
+    label: Merch t-shirt
+    published-date: 2025-03-04
+    url: 'https://assets.st-note.com/img/1741085089-MOb9mzD6nQdPtShAN8ogZisF.png'
+    context:
+    - tour: tricktakingtour
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n41466bbb690c
+
+- webimage:
+    domain: note.com.nekiband
+    page: nc703bb1d82c8
+    id: poster
+    label: Poster
+    published-date: 2024-12-29
+    url: 'https://assets.st-note.com/img/1735467017-DLljkyJeQnw3x19sfuAZOPm0.jpg'
     local-copy: true
     context:
     - tour: tricktakingtour
-    todo: better published date
     part-of:
-      postyoutube: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
+      webpage:
+        domain: note.com.nekiband
+        id: nc703bb1d82c8
+
+- webpage:
+    domain: note.com.nekiband
+    id: n41466bbb690c
+    label: Merch info
+    published-date: 2025-03-04
+    url: 'https://note.com/nekiband_jp/n/n41466bbb690c'
+    image:
+    - merch
+    - merchtshirt
+    - merchhoodie
+    - merchlottery
+    - merchep
+    part-of:
+      tour: tricktakingtour
+
+- webpage:
+    domain: note.com.nekiband
+    id: nc703bb1d82c8
+    label: Tour info
+    published-date: 2024-12-29
+    url: 'https://note.com/nekiband_jp/n/nc703bb1d82c8'
+    image:
+    - poster
+    part-of:
+      tour: tricktakingtour
 

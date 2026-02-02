@@ -38,6 +38,50 @@
         year: 2024
         id: 2ndonemanlive
 
+- postx:
+    id: 1873309201130574236
+    account: nekiband_jp
+    label: Zaiko announcement
+    published-date: 2024-12-29
+    text: |-
+      NEK!初の・・・！
+      
+      ライブ映像のオンライン配信がZAIKOにて決定🔥
+      
+      「NEK! 2ND ONE MAN LIVE @ shibuya eggman Online」
+      
+      配信期間：
+      2024/12/30(月)19:00~2025/1/29(水)23:59
+       
+      配信チケットは本日よりご購入いただけます🎟️
+      
+      詳細はこちら▼
+      https://nekiband.zaiko.io/item/368923
+      
+      #NEKI
+    translation: |-
+      NEK!'s first ever...!
+      
+      Online streaming of live footage has been confirmed on ZAIKO🔥
+      
+      "NEK! 2ND ONE MAN LIVE @ shibuya eggman Online"
+      
+      Streaming Period:
+      2024/12/30 (Mon) 19:00 ~ 2025/1/29 (Wed) 23:59
+       
+      Streaming tickets are available for purchase starting today🎟️
+      
+      Details here▼
+      https://nekiband.zaiko.io/item/368923
+      
+      #NEKI
+    image:
+    - Gf9BZBVbEAAyUEE
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
 - postximage:
     post: 1821788560518987888
     id: GUhLCZPa8AEcBlF
@@ -50,6 +94,18 @@
         id: 2ndonemanlive
     part-of:
       postx: 1821788560518987888
+
+- postximage:
+    post: 1873309201130574236
+    id: Gf9BZBVbEAAyUEE
+    label: Zaiko flyer
+    published-date: 2024-12-29
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postx: 1873309201130574236
 
 - postyoutube:
     id: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov

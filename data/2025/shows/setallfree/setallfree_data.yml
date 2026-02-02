@@ -1,4 +1,90 @@
 - postx:
+    id: 1861350709448622349
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-11-26
+    text: |-
+      2025/2/6(木)
+      Wisteria×FOWS「Set All Free!!」
+      ＠ 渋谷FOWS
+      
+      NEK!の出演が決定いたしました！
+      
+      渋谷で新たにオープンするSHIBUYA FOWSにて
+      Wisteriaさんにお呼びいただき出演させていただきます🔥
+      
+      詳細はこちら▼
+      https://note.com/nekiband_jp/n/nc8bd6738f906
+      
+      #NEKI
+    translation: |-
+      2025/2/6 (Thu)
+      Wisteria×FOWS "Set All Free!!"
+      @ Shibuya FOWS
+      
+      NEK!'s appearance has been confirmed!
+      
+      We will be performing at the newly opened SHIBUYA FOWS in Shibuya,
+      having been invited by Wisteria 🔥
+      
+      Details here ▼
+      https://note.com/nekiband_jp/n/nc8bd6738f906
+      
+      #NEKI
+    image:
+    - GdTYWPOaEAAltGr
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+
+- postx:
+    id: 1867147470134001882
+    account: Wisteria_tokyo
+    label: Lineup reveal
+    published-date: 2024-12-12
+    text: |-
+      【🎉 #セトフリ 対バン解禁🎉】
+      
+      第2弾解禁ACTは…
+      
+      🔥🔥 LOT SPiRiTS 
+      @LOT_SPiRiTS
+       🔥🔥
+      
+      2025.2.6(木) SHIBUYA FOWS
+      『Set All Free!!』
+      
+      新体制初の企画イベントであり、
+      渋谷で新たにオープンするSHIBUYA FOWSとの共同主催です🎉
+      
+      【🎫】
+      https://eplus.jp/sf/detail/4221070001-P0030001
+    translation: |-
+      [🎉 #SetFree battle of the bands reveal 🎉]
+      
+      The 2nd round reveal ACT is...
+      
+      🔥🔥 LOT SPiRiTS 
+      @LOT_SPiRiTS 
+      🔥🔥
+      
+      2025.2.6(Thu) SHIBUYA FOWS
+      『Set All Free!!』
+      
+      This is the first planned event under the new system,
+      and is co-hosted with the newly opened SHIBUYA FOWS in Shibuya🎉
+      
+      【🎫】
+      https://eplus.jp/sf/detail/4221070001-P0030001
+    image:
+    - GelwukrbMAAJinX
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+
+- postx:
     id: 1887340383576989716
     account: Wisteria_tokyo
     label: Today
@@ -46,6 +132,30 @@
       show:
         year: 2025
         id: setallfree
+
+- postximage:
+    post: 1861350709448622349
+    id: GdTYWPOaEAAltGr
+    label: Poster
+    published-date: 2024-11-26
+    context:
+    - show:
+        year: 2025
+        id: setallfree
+    part-of:
+      postx: 1861350709448622349
+
+- postximage:
+    post: 1867147470134001882
+    id: GelwukrbMAAJinX
+    label: Poster
+    published-date: 2026-02-02
+    context:
+    - show:
+        year: 2025
+        id: setallfree
+    part-of:
+      postx: 1867147470134001882
 
 - postximage:
     post: 1887340383576989716

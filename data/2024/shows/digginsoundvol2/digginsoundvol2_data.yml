@@ -1,4 +1,86 @@
 - postx:
+    id: 1829353768691089610
+    account: bazoo_official
+    label: Announcement
+    published-date: 2024-08-30
+    text: |-
+      ＼DigginSound vol.2開催決定🎉🎉🎉／
+      
+      11.27(水)『Diggin’ Sound Vol.2』 
+      下北沢 近道 
+      
+      第一弾出演アーティスト
+      ・NEK!(
+      @nekiband_jp
+      )
+      ・らそんぶる(
+      @rassembler_band
+      )
+      ・komsume(
+      @komsume_com
+      )
+      
+      の3組の出演が決定！
+      
+      🎟️チケットはこちらから
+      https://r-t.jp/digginsound
+    translation: |-
+      ＼DigginSound vol.2 announced／
+      
+      11.27 (Wed) 'Diggin’ Sound Vol.2'
+      Shimokitazawa Chikamichi
+      
+      First round of performing artists
+      ・NEK! (@nekiband_jp)
+      ・rassembler (@rassembler_band)
+      ・komsume (@komsume_com)
+      
+      The appearance of these 3 acts has been confirmed! Tickets here: https://
+      r-t.jp/digginsound
+    image:
+    - GWMra3YbIAARNIP
+    part-of:
+      show:
+        year: 2024
+        id: digginsoundvol2
+
+- postx:
+    id: 1839512246881558643
+    account: nekiband_jp
+    label: Announcement lineup
+    published-date: 2024-09-27
+    text: |-
+      💡追加情報💡
+      
+      11/27(水)
+      「Diggin’ Sound Vol.2」
+      @ 下北沢 近道 
+      
+      出演者さま追加発表❣️
+      
+      https://ticket.rakuten.co.jp/music/jpop/jrock/RTG7004/
+      
+      #NEKI
+    translation: |-
+      💡Additional Information💡
+      
+      11/27 (Wed)
+      "Diggin’ Sound Vol.2"
+      @ Shimokitazawa Chikamichi 
+      
+      Additional artist announcement ❣️
+      
+      https://ticket.rakuten.co.jp/music/jpop/jrock/RTG7004/
+      
+      #NEKI
+    image:
+    - GYdCo30bcAEG1TL
+    part-of:
+      show:
+        year: 2024
+        id: digginsoundvol2
+
+- postx:
     id: 1851187227730358585
     account: bazoo_official
     label: Video comment
@@ -75,6 +157,30 @@
       show:
         year: 2024
         id: digginsoundvol2
+
+- postximage:
+    post: 1829353768691089610
+    id: GWMra3YbIAARNIP
+    label: Flyer
+    published-date: 2024-08-30
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      postx: 1829353768691089610
+
+- postximage:
+    post: 1839512246881558643
+    id: GYdCo30bcAEG1TL
+    label: Flyer
+    published-date: 2024-09-27
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      postx: 1839512246881558643
 
 - postximage:
     post: 1856985434020061342

@@ -55,3 +55,32 @@
     part-of:
       postx: 1838488577052913969
 
+- webimage:
+    domain: eggman.jp
+    page: girls-up-vol-365
+    id: poster
+    label: Poster
+    published-date: 2024-08-09
+    url: 'http://eggman.jp/eggwp/wp-content/uploads/2024/08/a9671c784c5b0135c86049e76e885a32.jpg'
+    context:
+    - show:
+        year: 2024
+        id: guvol365
+    part-of:
+      webpage:
+        domain: eggman.jp
+        id: girls-up-vol-365
+
+- webpage:
+    domain: eggman.jp
+    id: girls-up-vol-365
+    label: Event page
+    published-date: 2024-08-09
+    url: 'http://eggman.jp/schedule/girls-up-vol-365/'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2024
+        id: guvol365
+

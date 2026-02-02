@@ -1,8 +1,61 @@
+- postx:
+    id: 1821788560518987888
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2024-08-09
+    text: |-
+      11/24(日)開催
+      「NEK! 2ND ONE MAN LIVE」
+      @ SHIBUYA EGGMAN
+      
+      TICKET ALL SOLD OUT!!!!
+      
+      沢山のお申し込みをいただいて本当にありがとうございました❣️
+      
+      年内、皆さまとまたワンマンでお会いできるように早急に会場をあたっています💨
+      
+      続報をお待ちください🫶✨
+      
+      #NEKI
+    translation: |-
+      Holding on 11/24 (Sun)
+      "NEK! 2ND ONE MAN LIVE"
+      @ SHIBUYA EGGMAN
+      
+      TICKET ALL SOLD OUT!!!!
+      
+      Thank you so much for the large number of applications ❣️
+      
+      We are urgently looking for a venue so that we can meet all of you at another one-man live this year 💨
+      
+      Please wait for further updates 🫶✨
+      
+      #NEKI
+    image:
+    - GUhLCZPa8AEcBlF
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postximage:
+    post: 1821788560518987888
+    id: GUhLCZPa8AEcBlF
+    label: Poster sold out
+    published-date: 2024-08-09
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postx: 1821788560518987888
+
 - postyoutube:
     id: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
     account: neki_official
-    published-date: 2024-06-03
-    label: announcement
+    published-date: 2024-07-24
+    label: Lottery
     text: |-
       11/24(日)開催
       「NEK! 2ND ONE MAN LIVE」
@@ -14,26 +67,141 @@
       ぜひお越しください!!!!
       
       https://t.livepocket.jp/e/neki2ndoneman
-    image:
-    - vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
-    todo: double check published date with X post
     part-of:
       show:
         year: 2024
         id: 2ndonemanlive
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n4e4f81eab503
+        id: poster
 
-- postyoutubeimage:
-    post: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
-    id: vfu4N_84VPrJnuVJ2b9Fh3jIP-h8v7Mj5PqX6LjaUlERNpUfUOqmwI6UG-UkKWy2VJJdV5ckxVu-BQ
-    label: poster
-    published-date: 2024-06-03
-    local-copy: true
+- webimage:
+    domain: note.com.nekiband
+    page: n4e4f81eab503
+    id: poster
+    label: Poster
+    published-date: 2024-07-24
+    url: 'https://assets.st-note.com/img/1721830226275-7IO0Y8yDmV.jpg'
     context:
     - show:
         year: 2024
         id: 2ndonemanlive
     part-of:
-      postyoutube: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov
+      webpage:
+        domain: note.com.nekiband
+        id: n4e4f81eab503
+
+- webimage:
+    domain: note.com.nekiband
+    page: n57c0f6d0f8bd
+    id: merch
+    label: Merch
+    published-date: 2024-11-18
+    url: 'https://assets.st-note.com/img/1731938340-zGiWlXmOtEpoAN59MgQUjaYe.jpg'
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n57c0f6d0f8bd
+
+- webimage:
+    domain: note.com.nekiband
+    page: n57c0f6d0f8bd
+    id: merchep
+    label: Merch EP sticker
+    published-date: 2024-11-18
+    url: 'https://assets.st-note.com/img/1731927424-XRcYmLhqV9fJ5NUPSo0DG3pr.jpg'
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n57c0f6d0f8bd
+
+- webimage:
+    domain: note.com.nekiband
+    page: n57c0f6d0f8bd
+    id: merchlottery
+    label: Merch lottery
+    published-date: 2024-11-18
+    url: 'https://assets.st-note.com/img/1731927412-bRfwQ2OmPLB8CXHvztYZpkqa.jpg'
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n57c0f6d0f8bd
+
+- webimage:
+    domain: note.com.nekiband
+    page: n57c0f6d0f8bd
+    id: merchtowel
+    label: Merch towel
+    published-date: 2024-11-18
+    url: 'https://assets.st-note.com/img/1731928448-CkuR3BeHMmPQEYhqad4U8zby.jpg'
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n57c0f6d0f8bd
+
+- webimage:
+    domain: note.com.nekiband
+    page: n57c0f6d0f8bd
+    id: merchtshirt
+    label: Merch t-shirt
+    published-date: 2024-11-18
+    url: 'https://assets.st-note.com/img/1731928440-xeDG0rNg6KMTacLXVntqBwOb.jpg'
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n57c0f6d0f8bd
+
+- webpage:
+    domain: note.com.nekiband
+    id: n4e4f81eab503
+    label: Show information
+    published-date: 2024-07-24
+    url: 'https://note.com/nekiband_jp/n/n4e4f81eab503'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- webpage:
+    domain: note.com.nekiband
+    id: n57c0f6d0f8bd
+    label: Merch info
+    published-date: 2024-11-18
+    url: 'https://note.com/nekiband_jp/n/n57c0f6d0f8bd'
+    image:
+    - merch
+    - merchtshirt
+    - merchtowel
+    - merchlottery
+    - merchep
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
 
 - youtubeshort:
     id: 25AE7t_8eEg

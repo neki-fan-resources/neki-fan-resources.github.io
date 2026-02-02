@@ -48,6 +48,138 @@
         year: 2024
         id: minamiwheel2024
 
+- postx:
+    id: 1833792919649890740
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-09-11
+    text: |-
+      🔥情報解禁🔥
+      
+      10/12~14開催
+      「FM802 MINAMI WHEEL 2024」
+      
+      出演決定❤️‍🔥❤️‍🔥
+      
+      NEK!は【10/13(日)】に出演させていただきます！
+      出演会場や時間は後日解禁✅
+      
+      詳細・チケットはこちら▼
+      https://minamiwheel.jp
+      
+      #NEKI #MINAMIWHEEL #ミナホ #FM802
+    translation: |-
+      🔥Info Release🔥
+      
+      Held 10/12~14
+      "FM802 MINAMI WHEEL 2024"
+      
+      Performance confirmed❤️‍🔥❤️‍🔥
+      
+      NEK! will be performing on【10/13 (Sun)】!
+      The venue and time will be announced later✅
+      
+      Details and tickets here▼
+      https://minamiwheel.jp
+      
+      #NEKI #MINAMIWHEEL #ミナホ #FM802
+    image:
+    - GXLwLBraIAAKGp_
+    part-of:
+      show:
+        year: 2024
+        id: minamiwheel2024
+    reference:
+    - postximage:
+        post: 1833792678414463036
+        image: GXLwuK6b0AAsCaB
+
+- postx:
+    id: 1836706808997822852
+    account: FM802_PR
+    label: Timetable
+    published-date: 2024-09-19
+    text: |-
+      ◤￣￣￣￣￣￣￣￣￣￣
+      　タイムテーブル発表🔥
+      　＿＿＿＿＿＿＿＿＿＿◢
+      
+      🎸Eggs presents 
+      #FM802 35th Anniversary “Be FUNKY!!”
+      MINAMI WHEEL 2024
+      
+      \\10/12(土)・13(日)・14(月)で開催//
+      
+      #ミナホ タイムテーブルを発表しました🔥
+      
+      チケット一般発売中！
+      👉http://minamiwheel.jp
+    translation: |-
+      ◤￣￣￣￣￣￣￣￣￣￣
+      　Time Table Announced 🔥
+      　＿＿＿＿＿＿＿＿＿＿◢
+      
+      🎸Eggs presents
+      #FM802 35th Anniversary “Be FUNKY!!”
+      MINAMI WHEEL 2024
+      
+      \\ Happening 10/12 (Sat), 13 (Sun), 14 (Mon) //
+      
+      The #MinamiWheel time table has been announced 🔥
+      
+      Tickets are now generally available!
+      👉http://minamiwheel.jp
+    image:
+    - GX1KOAVa0AAF1lj
+    part-of:
+      show:
+        year: 2024
+        id: minamiwheel2024
+
+- postx:
+    id: 1845257839994151227
+    account: nekiband_jp
+    label: Today
+    published-date: 2024-10-13
+    text: |-
+      🔥本日🔥
+      
+      Eggs presents 
+      #FM802 35th Anniversary “Be FUNKY!!”
+      MINAMI WHEEL 2024
+      
+      NEK!の出演は
+      本日10/13(日)19:00~
+      @心斎橋VARON❤️‍🔥
+      
+      https://minamiwheel.jp
+      
+      #NEKI 
+      #MINAMIWHEEL 
+      #ミナホ
+    translation: |-
+      🔥Today🔥
+      
+      Eggs presents
+      #FM802 35th Anniversary "Be FUNKY!!"
+      MINAMI WHEEL 2024
+      
+      NEK!'s performance is
+      Today, 10/13 (Sun) from 19:00~
+      @ Shinsaibashi VARON ❤️‍🔥
+      
+      https://minamiwheel.jp
+      
+      #NEKI
+      #MINAMIWHEEL
+      #MINAHO
+    image:
+    - GZusOO1aAAId_cH
+    part-of:
+      show:
+        year: 2024
+        id: minamiwheel2024
+
 - postximage:
     post: 1833792678414463036
     id: GXLwuK6b0AAsCaB
@@ -60,4 +192,40 @@
         id: minamiwheel2024
     part-of:
       postx: 1833792678414463036
+
+- postximage:
+    post: 1833792919649890740
+    id: GXLwLBraIAAKGp_
+    label: Flyer sunday
+    published-date: 2024-09-11
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
+    part-of:
+      postx: 1833792919649890740
+
+- postximage:
+    post: 1836706808997822852
+    id: GX1KOAVa0AAF1lj
+    label: Timetable
+    published-date: 2024-09-19
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
+    part-of:
+      postx: 1836706808997822852
+
+- postximage:
+    post: 1845257839994151227
+    id: GZusOO1aAAId_cH
+    label: Timetable
+    published-date: 2024-10-13
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
+    part-of:
+      postx: 1845257839994151227
 

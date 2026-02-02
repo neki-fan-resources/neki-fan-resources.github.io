@@ -114,6 +114,67 @@
         id: debutyearlastlive
 
 - postx:
+    id: 1872916409728287239
+    account: coco_102
+    label: Looking back
+    published-date: 2024-12-28
+    text: |-
+      年内ラストワンマンが明日に迫った私が今想っていることを綴りました。
+      
+      ぜひ皆さんに読んでいただきたいです😌
+      
+      https://instagram.com/p/DEHp4DtP1AS/?igsh=MmVob2Y0NHA2Mmk4
+    translation: |-
+      I wrote down my current thoughts as our last one-man live of the year approaches tomorrow.
+      
+      I would truly love for everyone to read it.😌
+    image:
+    - Gf3vi7lawAEJbQF
+    todo: larger text in instagram
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postx:
+    id: 1872962594677649515
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2024-12-28
+    text: |-
+      あす12/29(日)開催
+      「NEK! DEBUT YEAR LAST LIVE」
+      ＠ 下北沢シャングリラ
+      
+      前売チケットはSOLD OUTしました🔥
+      ありがとうございます！
+      
+      明日は下北沢でお待ちしております🏃‍♀️
+      
+      https://note.com/nekiband_jp/n/n5f72c39f7ced
+      
+      #NEKI #デビューイヤーラストライブ
+    translation: |-
+      Held tomorrow, 12/29 (Sun)
+      "NEK! DEBUT YEAR LAST LIVE"
+      @ Shimokitazawa Shangri-La
+      
+      Advance tickets are SOLD OUT🔥
+      Thank you very much!
+      
+      We look forward to seeing you in Shimokitazawa tomorrow🏃‍♀️
+      
+      https://note.com/nekiband_jp/n/n5f72c39f7ced
+      
+      #NEKI #DebutYearLastLive
+    image:
+    - Gf4ZjHBbwAAzMkS
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postx:
     id: 1920434632379580460
     account: nekiband_jp
     label: MC
@@ -130,6 +191,29 @@
       show:
         year: 2024
         id: debutyearlastlive
+
+- postximage:
+    post: 1872916409728287239
+    id: Gf3vi7lawAEJbQF
+    label: Behind the scenes
+    published-date: 2024-12-28
+    context:
+    - song: reigengirl
+    part-of:
+      postx: 1872916409728287239
+
+- postximage:
+    post: 1872962594677649515
+    id: Gf4ZjHBbwAAzMkS
+    label: Poster sold out
+    published-date: 2024-12-28
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1872962594677649515
 
 - postxvideo:
     post: 1920434632379580460
@@ -148,7 +232,7 @@
 - postyoutube:
     id: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
     account: neki_official
-    published-date: 2024-06-03
+    published-date: 2024-08-19
     label: announcement
     text: |-
       12/29(日)
@@ -170,26 +254,91 @@
       Ticket lottery sales will start from 8/20 (Tue) at 7:00 PM!
       For more details, click here▼
       https://note.com/nekiband_jp/n/na58cc...
-    image:
-    - wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
     todo: check published date with X post
     part-of:
       show:
         year: 2024
         id: debutyearlastlive
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: na58cc43261e7
+        id: poster
 
-- postyoutubeimage:
-    post: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
-    id: wMlLBrJ_iTwi2lIeMkkLKeo4wYz5KLxYsv9gX7_zf0g6SI2p3ju7Hw4L9dNyg69AhY5f6LYUNV4TVxg
-    label: cover
-    published-date: 2024-06-03
-    local-copy: true
+- webimage:
+    domain: note.com.nekiband
+    page: n5f72c39f7ced
+    id: merch
+    label: Merch
+    published-date: 2024-12-26
+    url: 'https://assets.st-note.com/img/1735204642-1KAXpquz0johcQMrFnNRxOTs.jpg'
     context:
     - show:
         year: 2024
         id: debutyearlastlive
     part-of:
-      postyoutube: UgkxbbC33BrZPEWLI0GQavz1xsoFlU2DOVZA
+      webpage:
+        domain: note.com.nekiband
+        id: n5f72c39f7ced
+
+- webimage:
+    domain: note.com.nekiband
+    page: n5f72c39f7ced
+    id: merchlottery
+    label: Merch lottery
+    published-date: 2024-12-26
+    url: 'https://assets.st-note.com/img/1735204658-DEtl0eumW2MNHjcYf8nRdrpZ.jpg'
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n5f72c39f7ced
+
+- webimage:
+    domain: note.com.nekiband
+    page: na58cc43261e7
+    id: poster
+    label: Poster
+    published-date: 2024-08-19
+    url: 'https://assets.st-note.com/img/1724061259390-uP7JRP6ow7.jpg'
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: na58cc43261e7
+
+- webpage:
+    domain: note.com.nekiband
+    id: n5f72c39f7ced
+    label: Merch info
+    published-date: 2024-12-26
+    url: 'https://note.com/nekiband_jp/n/n5f72c39f7ced'
+    image:
+    - merch
+    - merchlottery
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- webpage:
+    domain: note.com.nekiband
+    id: na58cc43261e7
+    label: Show information
+    published-date: 2024-08-19
+    url: 'https://note.com/nekiband_jp/n/na58cc43261e7'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
 
 - youtubeshort:
     id: N5KVAUzJZXs

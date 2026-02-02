@@ -43,3 +43,32 @@
     part-of:
       postx: 1847190084451262858
 
+- webimage:
+    domain: eggman.jp
+    page: schedule-26342
+    id: poster
+    label: Poster
+    published-date: 2024-09-07
+    url: 'http://eggman.jp/eggwp/wp-content/uploads/2024/09/f9aa7008cfe8f63acf21eda67abbe8d2.jpg'
+    context:
+    - show:
+        year: 2024
+        id: nekigufriday
+    part-of:
+      webpage:
+        domain: eggman.jp
+        id: schedule-26342
+
+- webpage:
+    domain: eggman.jp
+    id: schedule-26342
+    label: Event page
+    published-date: 2024-09-07
+    url: 'http://eggman.jp/schedule/schedule-26342/'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2024
+        id: nekigufriday
+

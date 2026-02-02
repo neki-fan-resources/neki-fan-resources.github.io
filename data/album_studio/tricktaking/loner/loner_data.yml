@@ -173,6 +173,28 @@
         - I hope this kind of loneliness reaches that girl. (We are always looking for love.)
 
 - postx:
+    id: 1841452746416767292
+    account: nekiband_jp
+    label: Jacket reveal
+    published-date: 2024-10-02
+    text: |-
+      新曲「Loner」 ジャケット公開🐺
+      
+      https://lnk.to/9yHX6d
+      
+      #NEKI #Loner
+    translation: |-
+      New song "Loner" jacket revealed 🐺
+      
+      https://lnk.to/9yHX6d
+      
+      #NEKI #Loner
+    image:
+    - GY4ngpVbQAA_HQ9
+    part-of:
+      song: loner
+
+- postx:
     id: 1849313941895381437
     account: coco_102
     label: Loner on stage
@@ -192,6 +214,17 @@
         post: 1849313941895381437
         video: 01
 
+- postximage:
+    post: 1841452746416767292
+    id: GY4ngpVbQAA_HQ9
+    label: Cover
+    published-date: 2024-10-02
+    local-copy: true
+    context:
+    - song: loner
+    part-of:
+      postx: 1841452746416767292
+
 - postxvideo:
     post: 1849313941895381437
     id: 01
@@ -207,27 +240,17 @@
 - postyoutube:
     id: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
     account: neki_official
-    published-date: 2024-06-03
+    published-date: 2024-10-02
     label: jacket reveal
     text: |-
       新曲「Loner」ジャケット公開🐺
       New song “Loner” jacket revealed.
-    image:
-    - AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
-    todo: double check published date
     part-of:
       song: loner
-
-- postyoutubeimage:
-    post: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
-    id: AJZIX1lke0OETXtLyBUHlJ298e5iiZI7Ka_Ih6-I1xueVm9Hqis8eU1t02nHoR3UHXowfVo6DQsm4A
-    label: cover
-    published-date: 2024-06-03
-    local-copy: true
-    context:
-    - song: loner
-    part-of:
-      postyoutube: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
+    reference:
+    - postximage:
+        post: 1841452746416767292
+        image: GY4ngpVbQAA_HQ9
 
 - youtubeshort:
     id: 3xgyiUaSGgI

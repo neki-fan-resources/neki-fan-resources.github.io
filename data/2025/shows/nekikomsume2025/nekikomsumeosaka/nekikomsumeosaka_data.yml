@@ -69,6 +69,69 @@
         id: nekikomsumeosaka
 
 - postx:
+    id: 1946216562014208089
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-07-18
+    text: |-
+      komsume × NEK!
+      
+      最っ高で最っ強に熱いツーマン
+      
+      もうほんとずっと楽しかったです
+      komsume さんはやはり最高のアネキでした
+      
+      ありがとうございました！！
+      
+      8/30、Zepp Shinjuku でお待ちしております
+      
+      #NEKI
+    image:
+    - GwJZpB_bYAA-QKV
+    - GwJZpCoXEAEFORY
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+    reference:
+    - postximage:
+        post: 1946195551969849807
+        image: GwJGgUJXcAES7vk
+
+- postx:
+    id: 1946340941599555651
+    account: 46_hikaa
+    label: Pictures at the show with komsume
+    published-date: 2025-07-19
+    text: |-
+      NEK! 📷💭 ̖́-
+    image:
+    - GwLKw54X0AAj4kl
+    - GwLKw5MaYAAfMsy
+    - GwLKw5MakAAwFX4
+    - GwLKw5daMAA_NCa
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1946467395964408259
+    account: coco_102
+    label: The venue was red and cute
+    published-date: 2025-07-19
+    text: |-
+      セカラン初めて行ったけどあちこち赤で可愛かった❤️‍🔥
+    translation: |-
+      It was my first time going to 2nd LINE, and it was so cute with red everywhere❤️‍🔥
+    image:
+    - GwM9xpKXAAAYFqa
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
     id: 1946522055312331049
     account: cure_bass_baka
     label: Intro
@@ -213,6 +276,95 @@
         id: nekikomsumeosaka
     part-of:
       postx: 1946195551969849807
+
+- postximage:
+    post: 1946216562014208089
+    id: GwJZpB_bYAA-QKV
+    label: Backstage
+    published-date: 2025-07-18
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946216562014208089
+
+- postximage:
+    post: 1946216562014208089
+    id: GwJZpCoXEAEFORY
+    label: Backstage
+    info: Natsu
+    published-date: 2025-07-18
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946216562014208089
+
+- postximage:
+    post: 1946340941599555651
+    id: GwLKw54X0AAj4kl
+    label: Backstage
+    info: Hika, Natsu
+    published-date: 2025-07-19
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946340941599555651
+
+- postximage:
+    post: 1946340941599555651
+    id: GwLKw5MaYAAfMsy
+    label: Backstage
+    info: Kanade, Hika
+    published-date: 2025-07-19
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946340941599555651
+
+- postximage:
+    post: 1946340941599555651
+    id: GwLKw5MakAAwFX4
+    label: Backstage
+    published-date: 2025-07-19
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946340941599555651
+
+- postximage:
+    post: 1946340941599555651
+    id: GwLKw5daMAA_NCa
+    label: Backstage
+    info: Cocoro, Hika
+    published-date: 2025-07-19
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946340941599555651
+
+- postximage:
+    post: 1946467395964408259
+    id: GwM9xpKXAAAYFqa
+    label: Backstage
+    info: Cocoro
+    published-date: 2025-07-19
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946467395964408259
 
 - postxvideo:
     post: 1946522055312331049

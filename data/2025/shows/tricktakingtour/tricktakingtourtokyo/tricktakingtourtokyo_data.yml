@@ -152,11 +152,14 @@
       https://note.com/nekiband_jp/n/n41466bbb690c
       
       #NEKI
-    todo: tour poster
     part-of:
       show:
         year: 2025
         id: tricktakingtourtokyo
+    reference:
+    - postximage:
+        post: 1897543126019137799
+        image: GlVs5tkb0AAUj3g
 
 - postx:
     id: 1901126409017536965
@@ -183,6 +186,40 @@
     - GmIoYQlbcAAkN5g
     part-of:
       postx: 1901082018882179433
+
+- postx:
+    id: 1901181401925337290
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2025-03-16
+    text: |-
+      NEK! 1stワンマンツアー「TR!CK TAK!NG」
+      @ 東京・Spotify O-WEST
+      
+      当日券含めチケットソールドアウトしました💥
+      ありがとうございます🫶
+      
+      ツアーファイナル！！！！
+      まもなく開演！！！！🔥
+      
+      #NEKI
+    translation: |-
+      NEK! 1st One-Man Tour "TR!CK TAK!NG"
+      @ Tokyo · Spotify O-WEST
+      
+      Tickets, including same-day tickets, are sold out💥
+      Thank you🫶
+      
+      Tour Final!!!!
+      Starting soon!!!!🔥
+      
+      #NEKI
+    image:
+    - GmJaZ9jb0AER3UP
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
 
 - postx:
     id: 1901916392653537292
@@ -349,6 +386,19 @@
     published-date: 2025-03-16
     part-of:
       postx: 1901126409017536965
+
+- postximage:
+    post: 1901181401925337290
+    id: GmJaZ9jb0AER3UP
+    label: Poster sold out
+    published-date: 2025-03-16
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1901181401925337290
 
 - postxvideo:
     post: 1901916392653537292

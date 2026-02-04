@@ -2,11 +2,9 @@ show:
   year: 2025
   id: 1stzepponeman
   cover-image:
-    localimage:
-      show:
-        year: 2025
-        id: 1stzepponeman
-      id: cover
+    postximage:
+      post: 1961644768393392374
+      image: Gzknca0acAAY3FC
   fullname: NEK! 1ST ZEPP ONE MAN
   shortname: 1ST ZEPP ONE MAN
   sublabel: '【#拡散中 #ネキ界隈】'

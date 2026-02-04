@@ -2,10 +2,9 @@ show:
   year: 2025
   id: tricktakingtourtokyo
   cover-image:
-    webimage:
-      domain: note.com.nekiband
-      page: nc703bb1d82c8
-      id: poster
+    postximage:
+      post: 1901181401925337290
+      image: GmJaZ9jb0AER3UP
   fullname: Tokyo
   date: 2025-03-16
   tour: tricktakingtour

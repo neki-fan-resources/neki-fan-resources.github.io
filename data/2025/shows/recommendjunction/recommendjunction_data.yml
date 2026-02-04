@@ -521,6 +521,62 @@
         image: GzVuQXBa4AMbecJ
 
 - postx:
+    id: 1974402024918958183
+    account: recommed_
+    label: tv asahi re-broadcast
+    published-date: 2025-10-04
+    text: |-
+      【本日放送！！】
+      
+      10月4日（土）深夜25:30分〜
+      #BS朝日 にて『リコメンズ』放送！！
+      
+      MC #大渕野々花 #アサガオ
+      SPゲスト #なえなの
+      ナレーター #みの
+      
+      お見逃しなく💨
+      
+      #BS朝日
+      #音楽
+      #音楽番組
+      #デラックスデラックス
+      #チョーキューメイ
+      #NEKI
+      #ロイヤルギャル
+      #川谷絵音 
+      #サバシスター
+      #るみなす
+    translation: |-
+      【Broadcasting Today!!】
+      
+      October 4th (Sat) 25:30 (1:30 AM) ~
+      "Recomen's" will be broadcast on #BSAsahi !!
+      
+      MC #NonokaObuchi #Asagao
+      SP Guest #Naenano
+      Narrator #Mino
+      
+      Don't miss it 💨
+      
+      #BSAsahi
+      #Music
+      #MusicProgram
+      #DeluxeDeluxe
+      #ChōQmay
+      #NEKI
+      #RoyalGyar
+      #EnonKawatani
+      #SabaSister
+      #Ruminasu
+    image:
+    - G2Z8LS2bkAAXSVY
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- postx:
     id: 1986431090874306723
     account: nekiband_jp
     label: Thank you
@@ -909,6 +965,18 @@
         id: recommendjunction
     part-of:
       postx: 1971969583360999680
+
+- postximage:
+    post: 1974402024918958183
+    id: G2Z8LS2bkAAXSVY
+    label: TV program
+    published-date: 2025-10-04
+    context:
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      postx: 1974402024918958183
 
 - postximage:
     post: 1986431090874306723

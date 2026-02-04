@@ -281,6 +281,47 @@
         id: minamiwheel
 
 - postx:
+    id: 1963622184414302280
+    account: RI_802
+    label: Hyping NEK!
+    published-date: 2025-09-04
+    text: |-
+      👤NEK!
+      (
+      @nekiband_jp
+      
+      💿rip-off
+      
+      8/30、ポニーキャニオンより
+      メジャーデビュー決定を発表しました！🎊
+      
+      #ミナホ は3日目、10/13(月祝)に登場！
+      
+      #NEKI #ネキメジャーデビュー
+      #FM802  
+      #RI802
+    translation: |-
+      👤NEK!
+      (@nekiband_jp)
+      
+      💿rip-off
+      
+      On 8/30, they announced their
+      major debut with Pony Canyon! 🎊
+      
+      Appearing on the 3rd day of #Minaho, 10/13 (Mon/Holiday)!
+      
+      #NEKI #NekiMajorDebut
+      #FM802  
+      #RI802
+    image:
+    - G0Av9v0b0AAyrub
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
+- postx:
     id: 1966064930890854845
     account: minamiwheel
     label: Timetable
@@ -439,11 +480,14 @@
       🔗 https://minamiwheel.jp
       
       #NEKI #MINAMIWHEEL
-    todo: timetable
     part-of:
       show:
         year: 2025
         id: minamiwheel
+    reference:
+    - postximage:
+        post: 1966064930890854845
+        image: G0jdogsaMAcz72C
 
 - postx:
     id: 1977363049481646458
@@ -818,6 +862,18 @@
         id: minamiwheel
     part-of:
       postx: 1950844299064799526
+
+- postximage:
+    post: 1963622184414302280
+    id: G0Av9v0b0AAyrub
+    label: 3rd artists list
+    published-date: 2025-09-04
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postx: 1963622184414302280
 
 - postximage:
     post: 1966064930890854845

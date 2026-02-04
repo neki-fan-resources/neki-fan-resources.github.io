@@ -33,6 +33,39 @@
         id: kakumeilogic2025
 
 - postx:
+    id: 1910649028033011882
+    account: kakumei_holic
+    label: Timetable
+    published-date: 2025-04-11
+    text: |-
+      🎉🎉タイムテーブル公開🎉🎉
+      5月4日開催される総勢81組出演のサーキット
+      LIVEHOLIC presents. “革命ロジック2025“ supported by Skream! & 激ロックタイムテーブル公開！
+      
+      11:00~シャングリラにてリストバンド交換スタート！
+      
+      LivePocketにてチケット発売中↓
+      https://t.livepocket.jp/e/kakumei2025
+    translation: |-
+      🎉🎉 Timetable Released 🎉🎉
+      The timetable for "Kakumei Logic 2025" supported by Skream! & Gekirock, a circuit event featuring 81 artists held on May 4th, has been released!
+      
+      Wristband exchange starts at 11:00 at Shangri-La!
+      
+      Tickets now on sale via LivePocket↓
+      https://t.livepocket.jp/e/kakumei2025
+    image:
+    - GoPVpIWagAAewAc
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+    reference:
+    - postximage:
+        post: 1918591839306666269
+        image: GqA0m0ta0AAA-dL
+
+- postx:
     id: 1918591839306666269
     account: nekiband_jp
     label: Tomorrow
@@ -344,6 +377,18 @@
         id: kakumeilogic2025
     part-of:
       postx: 1903038891042673069
+
+- postximage:
+    post: 1910649028033011882
+    id: GoPVpIWagAAewAc
+    label: Timetable
+    published-date: 2025-04-11
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    part-of:
+      postx: 1910649028033011882
 
 - postximage:
     post: 1918591839306666269

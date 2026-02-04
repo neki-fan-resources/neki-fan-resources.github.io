@@ -2,11 +2,9 @@ show:
   year: 2025
   id: nekikomsumeosaka
   cover-image:
-    localimage:
-      show:
-        year: 2025
-        id: nekikomsumetokyo
-      id: cover
+    postximage:
+      post: 1944995676963922035
+      image: Gv4DQX6a8AAPdNi
   fullname: Osaka
   date: 2025-07-18
   tour: nekikomsume2025

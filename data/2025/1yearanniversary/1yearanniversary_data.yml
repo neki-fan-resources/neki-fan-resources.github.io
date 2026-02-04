@@ -1,9 +1,56 @@
-youtubeshort:
-  id: WI3yV-zKqMU
-  label: profile images
-  info: Changing profile images, on Instagram
-  published-date: 2025-02-12
-  context:
-  - event: 1yearanniversary
-  part-of:
-    event: 1yearanniversary
+- postx:
+    id: 1888173899994837474
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2025-02-08
+    text: |-
+      🤍インスタライブ配信決定🤍
+      
+      日頃より応援してくださる皆さまのおかげでNEK!は2/10で結成1周年を迎えます❣️
+      
+      結成記念日の2/10(月)17:00からInstagramにてライブ配信が決定⚡️
+      
+      NEK!公式Instagramアカウントをフォローしてお待ちください！
+      
+      https://instagram.com/nekiband_jp?igsh=MWh1czNxbzl0aDZrOQ%3D%3D&utm_source=qr
+      
+      #NEKI
+    translation: |-
+      🤍 Instagram Live Stream Decided 🤍
+      
+      Thanks to everyone who supports us daily, NEK! will celebrate its 1st anniversary on 2/10 ❣️
+      
+      A live stream has been scheduled on Instagram for the anniversary date, 2/10 (Mon) at 17:00 ⚡️
+      
+      Please follow the official NEK! Instagram account and stay tuned!
+      
+      https://instagram.com/nekiband_jp?igsh=MWh1czNxbzl0aDZrOQ%3D%3D&utm_source=qr
+      
+      #NEKI
+    image:
+    - GjQkJQKaYAAKJAU
+    part-of:
+      event: 1yearanniversary
+
+- postximage:
+    post: 1888173899994837474
+    id: GjQkJQKaYAAKJAU
+    label: Band
+    published-date: 2025-02-08
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1888173899994837474
+
+- youtubeshort:
+    id: WI3yV-zKqMU
+    label: profile images
+    info: Changing profile images, on Instagram
+    published-date: 2025-02-12
+    context:
+    - event: 1yearanniversary
+    part-of:
+      event: 1yearanniversary
+

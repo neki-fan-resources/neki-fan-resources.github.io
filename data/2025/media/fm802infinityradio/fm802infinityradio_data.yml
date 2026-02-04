@@ -15,6 +15,44 @@
         id: fm802infinityradio
 
 - postx:
+    id: 1909909511084875800
+    account: RI_802
+    label: Tomorrow
+    published-date: 2025-04-09
+    text: |-
+      明日、木曜深夜12時から💥
+      大阪のラジオ局 #FM802
+      ハタノユウスケの #RI802 ✨
+      
+      🎖予告①
+      【NEK! インタビュー】
+      メンバー全員で番組初登場💨
+      
+      #NEKI 全員での初ラジオ出演です🎉🎉
+      
+      聞く⇒
+      https://radiko.jp/share/?t=20250410240000&sid=802
+    translation: |-
+      Tomorrow, Thursday late night from 12:00 💥
+      Osaka radio station #FM802
+      Hatano Yusuke's #RI802 ✨
+      
+      🎖Preview ①
+      【NEK! Interview】
+      All members appearing on the program for the first time 💨
+      
+      It's the first radio appearance for all of #NEKI 🎉🎉
+      
+      Listen here⇒
+      https://radiko.jp/share/?t=20250410240000&sid=802
+    image:
+    - GoFcizqb0AEgODm
+    part-of:
+      media:
+        year: 2025
+        id: fm802infinityradio
+
+- postx:
     id: 1910379084141801512
     account: RI_802
     label: Dreams!!! on air
@@ -57,6 +95,18 @@
       media:
         year: 2025
         id: fm802infinityradio
+
+- postximage:
+    post: 1909909511084875800
+    id: GoFcizqb0AEgODm
+    label: Flyer
+    published-date: 2025-04-09
+    context:
+    - media:
+        year: 2025
+        id: fm802infinityradio
+    part-of:
+      postx: 1909909511084875800
 
 - postximage:
     post: 1910379084141801512

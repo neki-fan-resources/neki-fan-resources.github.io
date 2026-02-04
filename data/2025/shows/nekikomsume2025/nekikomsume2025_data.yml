@@ -1,0 +1,25 @@
+- webimage:
+    domain: note.com.nekiband
+    page: nb50d1c0b1dd3
+    id: poster
+    label: Poster
+    published-date: 2025-04-25
+    url: 'https://assets.st-note.com/img/1745572359-pIYXLWbmUvDVHzjuQrkewonl.jpg'
+    context:
+    - tour: nekikomsume2025
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nb50d1c0b1dd3
+
+- webpage:
+    domain: note.com.nekiband
+    id: nb50d1c0b1dd3
+    label: Show information
+    published-date: 2025-04-25
+    url: 'https://note.com/nekiband_jp/n/nb50d1c0b1dd3'
+    image:
+    - poster
+    part-of:
+      tour: nekikomsume2025
+

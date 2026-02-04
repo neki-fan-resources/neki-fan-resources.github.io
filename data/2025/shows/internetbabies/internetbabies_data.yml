@@ -147,6 +147,48 @@
         id: internetbabies
 
 - postx:
+    id: 1949481209484169322
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-07-27
+    text: |-
+      INTERNET BaBIES -Face to Faith-
+      
+      トラブルありきのライブでしたが皆さんの温かさに救われました🙇🏻‍♀️
+      ありがとうございました！
+      そして素敵なイベントに呼んでくださった浜野さん、ありがとうございました！🫶🏻
+      
+      次はついにZepp Shinjuku
+      憧れの地で皆様をお待ちしております⭐︎
+      チケット受付中です！🎫
+      
+      alt:
+      浜野さんにいただいた可愛いグッズ🫶🏻みんなでライブでつけさせていただきました✌︎
+    translation: |-
+      INTERNET BaBIES -Face to Faith-
+      
+      It was a live show with some trouble, but I was saved by everyone's warmth🙇🏻‍♀️
+      Thank you so much!
+      And Hamano-san, thank you for inviting us to such a wonderful event!🫶🏻
+      
+      Next up is finally Zepp Shinjuku
+      I’ll be waiting for you all at the place I’ve always dreamed of⭐︎
+      Tickets are now available!🎫
+      
+      alt:
+      Cute merch we received from Hamano-san🫶🏻 We all wore them during the live✌︎
+    image:
+    - Gw3y0xGbEAADFoo
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+    reference:
+    - postximage:
+        post: 1949480491713003736
+        image: Gw3yKXybsAAmjfa
+
+- postx:
     id: 1949482178628432379
     account: coco_102
     label: Thank you
@@ -505,6 +547,19 @@
         id: internetbabies
     part-of:
       postx: 1949480491713003736
+
+- postximage:
+    post: 1949481209484169322
+    id: Gw3y0xGbEAADFoo
+    label: Backstage
+    info: Natsu
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      postx: 1949481209484169322
 
 - postximage:
     post: 1949482178628432379

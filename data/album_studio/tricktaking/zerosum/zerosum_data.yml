@@ -1234,6 +1234,38 @@
         - Want you gone?
 
 - postx:
+    id: 1886059230479979000
+    account: cure_bass_baka
+    label: photoshoot day
+    info: selfie with the stage outfit
+    published-date: 2025-02-02
+    text: |-
+      本日は撮影日でした〜〜！！
+      青×ピンクな色合いがお気に入り✌️
+    translation: |-
+      Today was a photoshoot day~~!!
+      I love the blue x pink color scheme ✌️
+    image:
+    - Giyg3xYbUAALTII
+    part-of:
+      song: zerosum
+
+- postx:
+    id: 1886082209200914442
+    account: natsu08_guitar
+    label: Loves the hair style
+    info: selfie
+    published-date: 2025-02-02
+    text: |-
+      この髪型お気に入り‼️❤️
+    translation: |-
+      この髪型お気に入り‼️❤️
+    image:
+    - Giy1xTNaUAAOP80
+    part-of:
+      song: zerosum
+
+- postx:
     id: 1928744673092292656
     account: cure_bass_baka
     label: zero-sum on stage
@@ -1320,6 +1352,26 @@
     - 01
     part-of:
       song: zerosum
+
+- postximage:
+    post: 1886059230479979000
+    id: Giyg3xYbUAALTII
+    label: Outfit
+    published-date: 2025-02-02
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1886059230479979000
+
+- postximage:
+    post: 1886082209200914442
+    id: Giy1xTNaUAAOP80
+    label: Behind the scenes
+    published-date: 2025-02-02
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1886082209200914442
 
 - postxvideo:
     post: 1928744673092292656
@@ -1505,6 +1557,7 @@
     published-date: 2025-02-21
     context:
     - song: zerosum
+    todo: maybe behind the scene
     part-of:
       song: zerosum
 

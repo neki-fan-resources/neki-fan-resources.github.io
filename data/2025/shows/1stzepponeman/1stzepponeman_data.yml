@@ -1,19 +1,3 @@
-- localimage:
-    show:
-      year: 2025
-      id: 1stzepponeman
-    id: cover
-    label: cover
-    published-date: 2025-01-01
-    source:
-      description: NEK! note post
-      url: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
-    todo: better published date
-    part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
-
 - postinstagram:
     id: DOD-RjkEmDB
     account: cocoro_drum
@@ -203,11 +187,15 @@
     image:
     - GzL5Y08aoAAY1Tm
     - GzL5Z5hbUAAbrZI
-    todo: show poster
     part-of:
       show:
         year: 2025
         id: 1stzepponeman
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: ne1cfc8d70c87
+        id: flyer
 
 - postx:
     id: 1961015583069335728
@@ -240,6 +228,38 @@
       #NEK!
     image:
     - GzbtRUjbUAAj0pI
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postx:
+    id: 1961334337271685577
+    account: natsu08_guitar
+    label: Tomorrow
+    published-date: 2025-08-29
+    text: |-
+      明日はついに…初のZepp ONEMANLIVE
+      
+      ずっと憧れていた夢の舞台に皆さんと一緒に行けることが心から嬉しいです。
+      明日はたくさんのありがとうを私たちの音楽で伝えたい。
+      そして、それを受け取ってほしいです。
+      
+      皆さんと一緒にZepp Shinjukuを地球でいちばん熱い場所にしちゃおうぜ！🌏🔥
+      
+      #ネキ界隈
+    translation: |-
+      Tomorrow is finally… our first Zepp ONEMAN LIVE
+      
+      I am truly happy from the bottom of my heart that I can go to this dream stage I've always looked up to together with all of you.
+      Tomorrow, I want to convey many "thank yous" through our music.
+      And, I want you to receive them.
+      
+      Together with everyone, let's make Zepp Shinjuku the hottest place on Earth! 🌏🔥
+      
+      #NEKIKaiwai
+    image:
+    - GzgPLpwbkAEbIPV
     part-of:
       show:
         year: 2025
@@ -785,6 +805,18 @@
       postx: 1961015583069335728
 
 - postximage:
+    post: 1961334337271685577
+    id: GzgPLpwbkAEbIPV
+    label: Band
+    published-date: 2025-08-29
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1961334337271685577
+
+- postximage:
     post: 1961389728428953733
     id: GzhA8PbbsAA3ZUq
     label: Livestreaming poster
@@ -799,13 +831,13 @@
 - postximage:
     post: 1961644768393392374
     id: Gzknca0acAAY3FC
-    label: Sold out flyer
+    label: Cover sold out
     published-date: 2025-08-30
+    local-copy: true
     context:
     - show:
         year: 2025
         id: 1stzepponeman
-    todo: replace current cover
     part-of:
       postx: 1961644768393392374
 
@@ -1363,6 +1395,55 @@
         id: DPN6aGzETNX
 
 - webimage:
+    domain: note.com.nekiband
+    page: nced90123f587
+    id: merch
+    label: Merch
+    published-date: 2025-08-25
+    url: 'https://assets.st-note.com/img/1756108391-Rqun0w8GcW43oHeps6kAlhd5.jpg'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nced90123f587
+
+- webimage:
+    domain: note.com.nekiband
+    page: nced90123f587
+    id: merchlottery
+    label: Merch lottery
+    published-date: 2025-08-25
+    url: 'https://assets.st-note.com/img/1756108433-NInJYkFMzl74iSjXbmCqQKaE.jpg'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nced90123f587
+
+- webimage:
+    domain: note.com.nekiband
+    page: ne1cfc8d70c87
+    id: flyer
+    label: Flyer
+    published-date: 2025-03-16
+    url: 'https://assets.st-note.com/img/1742100765-McZ95CbSohvwydjKkf78RGt4.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: ne1cfc8d70c87
+
+- webimage:
     domain: pcim.lnk.to
     page: NEKI1STZEPPONEMAN
     id: playlistcover
@@ -1667,6 +1748,33 @@
     - 8
     - 9
     todo: transfer to instagram support
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- webpage:
+    domain: note.com.nekiband
+    id: nced90123f587
+    label: Merch info
+    published-date: 2025-08-25
+    url: 'https://note.com/nekiband_jp/n/nced90123f587'
+    image:
+    - merch
+    - merchlottery
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- webpage:
+    domain: note.com.nekiband
+    id: ne1cfc8d70c87
+    label: Show information
+    published-date: 2025-03-16
+    url: 'https://note.com/nekiband_jp/n/ne1cfc8d70c87'
+    image:
+    - flyer
     part-of:
       show:
         year: 2025

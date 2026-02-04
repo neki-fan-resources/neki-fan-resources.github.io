@@ -53,3 +53,32 @@
     part-of:
       postx: 1892129493306810798
 
+- webimage:
+    domain: eggman.jp
+    page: schedule-27346
+    id: poster
+    label: Poster
+    published-date: 2024-12-30
+    url: 'http://eggman.jp/eggwp/wp-content/uploads/2025/01/747ab61029afc1ef9f5e69043037cab5.jpg'
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      webpage:
+        domain: eggman.jp
+        id: schedule-27346
+
+- webpage:
+    domain: eggman.jp
+    id: schedule-27346
+    label: Show page
+    published-date: 2024-12-30
+    url: 'http://eggman.jp/schedule/schedule-27346/'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2025
+        id: guvol375
+

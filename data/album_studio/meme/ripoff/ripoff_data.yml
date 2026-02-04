@@ -1442,6 +1442,21 @@
       song: ripoff
 
 - postx:
+    id: 1954020833908953357
+    account: coco_102
+    label: Most summery day of the year
+    published-date: 2025-08-09
+    text: |-
+      今年いちばん夏を感じた日でした🐘
+    translation: |-
+      It was the day I felt summer the most this year🐘
+    image:
+    - Gx4Tk8zaAAANRho
+    - Gx4Tk9GaUAA-Skv
+    part-of:
+      song: ripoff
+
+- postx:
     id: 1957004284782055894
     account: 46_hikaa
     label: rip-off rehearsal
@@ -1504,6 +1519,34 @@
       Keep watching the MV, okayー👀💖
     image:
     - GzH8F6HbkAA8Lxi
+    part-of:
+      song: ripoff
+
+- postx:
+    id: 1960243704293404954
+    account: nekiband_jp
+    label: 10k views
+    published-date: 2025-08-26
+    text: |-
+      “rip-off”
+      Official Music Video
+      
+      10,000 views — thank you🫶
+      
+      https://youtu.be/OkQV2Vo9EgE
+      
+      #NEKI #ripoff
+    translation: |-
+      “rip-off”
+      Official Music Video
+      
+      10,000 views — thank you🫶
+      
+      https://youtu.be/OkQV2Vo9EgE
+      
+      #NEKI #ripoff
+    image:
+    - GzQvPumX0AAMr03
     part-of:
       song: ripoff
 
@@ -1649,6 +1692,28 @@
       song: ripoff
 
 - postximage:
+    post: 1954020833908953357
+    id: Gx4Tk8zaAAANRho
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-08-09
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1954020833908953357
+
+- postximage:
+    post: 1954020833908953357
+    id: Gx4Tk9GaUAA-Skv
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-08-09
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1954020833908953357
+
+- postximage:
     post: 1959760382345806176
     id: GzH8F6HbkAA8Lxi
     label: MV
@@ -1658,6 +1723,16 @@
     - song: ripoff
     part-of:
       postx: 1959760382345806176
+
+- postximage:
+    post: 1960243704293404954
+    id: GzQvPumX0AAMr03
+    label: 10k views
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1960243704293404954
 
 - postximage:
     post: 1960317535112597659

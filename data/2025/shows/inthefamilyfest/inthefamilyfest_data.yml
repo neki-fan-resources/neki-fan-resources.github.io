@@ -82,6 +82,35 @@
         id: inthefamilyfest
 
 - postx:
+    id: 1970343297093902562
+    account: SHIBUYATHEGAME
+    label: Presenting the acts
+    info: image of the poster of the 3 other bands
+    published-date: 2025-09-23
+    text: |-
+      【🎸LINE UP⑨🎸】
+      10.04(SAT)
+      ZEPHYREN × SHIBUYA THE GAME presents.
+      『In The Family FEST 2025』
+      
+      <ACT>
+      🎸NEK!
+      🎸RED in BLUE
+      🎸skaskaskaclub
+      🎸きみとバンド
+      
+      🎫livepocketチケット一般発売中!!🔥
+      ➡️https://t.livepocket.jp/e/itff2025
+      
+      #ITFF2025
+    image:
+    - G1gQhFwboAAiY3M
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+
+- postx:
     id: 1974020534053568626
     account: nekiband_jp
     label: Tomorrow
@@ -422,6 +451,18 @@
         id: inthefamilyfest
     part-of:
       postx: 1964992098836664505
+
+- postximage:
+    post: 1970343297093902562
+    id: G1gQhFwboAAiY3M
+    label: Poster NEK!
+    published-date: 2025-09-23
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    part-of:
+      postx: 1970343297093902562
 
 - postximage:
     post: 1974020534053568626

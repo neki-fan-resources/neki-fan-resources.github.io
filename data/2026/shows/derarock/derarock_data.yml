@@ -71,6 +71,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: FDHIXwhdRM4
                 - youtubeshort: KsMLKhWlKuc
                 - youtubeshort: w-tn1Dj8KUs
     part-of:
@@ -612,6 +613,21 @@
     date: 2026-01-19
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: derarock
+
+- youtubeshort:
+    id: FDHIXwhdRM4
+    label: On stage
+    info: studio audio
+    published-date: 2026-02-04
+    context:
+    - song: ripoff
+    - show:
+        year: 2026
+        id: derarock
     part-of:
       show:
         year: 2026

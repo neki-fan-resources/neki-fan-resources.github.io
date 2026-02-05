@@ -1,3 +1,73 @@
+- postinstagram:
+    id: C7Mq24GBNPA
+    account: natsu08_guitar
+    label: Short report
+    published-date: 2024-05-20
+    text: |-
+      .
+      2024.05.20
+      初下北沢SHELTERさま！
+      たっくさんのお客さまがいてさいっっこうでした💥💥
+      かなでんが学校のため、先に帰宅してしまったので今度は4人で写真撮りたい！
+      
+      #nekiband #girlsband #shelter #shimokitazawashelter
+    translation: |-
+      .
+      2024.05.20
+      First time at Shimokitazawa SHELTER!
+      There were so many people and it was the beeeest💥💥
+      Kanaden had to head home early for school, so next time I want to take a photo with all four of us!
+      
+      #nekiband #girlsband #shelter #shimokitazawashelter
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2024
+        id: sweetsweetsweet
+    reference:
+    - postximage:
+        post: 1792569210633441746
+        image: GOB8MWDbsAEx48x
+
+- postinstagramimage:
+    post: C7Mq24GBNPA
+    id: 1
+    label: Venue
+    published-date: 2024-05-20
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet
+    part-of:
+      postinstagram: C7Mq24GBNPA
+
+- postinstagramimage:
+    post: C7Mq24GBNPA
+    id: 2
+    label: On stage
+    published-date: 2024-05-20
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet
+    part-of:
+      postinstagram: C7Mq24GBNPA
+
+- postinstagramimage:
+    post: C7Mq24GBNPA
+    id: 3
+    label: Backstage
+    published-date: 2024-05-20
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet
+    part-of:
+      postinstagram: C7Mq24GBNPA
+
 - postx:
     id: 1790265744804216903
     account: shelter_1001
@@ -42,6 +112,33 @@
         year: 2024
         id: sweetsweetsweet
 
+- postx:
+    id: 1792569210633441746
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-05-20
+    text: |-
+      Sweet！Sweet！Sweet！
+      @下北沢SHELTER
+      
+      ありがとうございました💘
+      
+      #NEKI
+    translation: |-
+      Sweet! Sweet! Sweet!
+      @Shimokitazawa SHELTER
+      
+      Thank you very much 💘
+      
+      #NEKI
+    image:
+    - GOB8MWEaAAAV2FW
+    - GOB8MWDbsAEx48x
+    part-of:
+      show:
+        year: 2024
+        id: sweetsweetsweet
+
 - postximage:
     post: 1790265744804216903
     id: GNhNGEkbsAAEJ5A
@@ -54,4 +151,20 @@
         id: sweetsweetsweet
     part-of:
       postx: 1790265744804216903
+
+- postximage:
+    post: 1792569210633441746
+    id: GOB8MWDbsAEx48x
+    label: Sidewalk board
+    published-date: 2024-05-20
+    part-of:
+      postx: 1792569210633441746
+
+- postximage:
+    post: 1792569210633441746
+    id: GOB8MWEaAAAV2FW
+    label: On stage
+    published-date: 2024-05-20
+    part-of:
+      postx: 1792569210633441746
 

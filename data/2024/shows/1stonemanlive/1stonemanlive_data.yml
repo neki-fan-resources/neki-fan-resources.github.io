@@ -1,3 +1,37 @@
+- postinstagram:
+    id: C9qssR0y2PC
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2024-07-21
+    text: |-
+      .
+      NEK! 1 ST ONE MAN LIVE
+      ありがとうございました🫶🏻
+      #girlsband
+    translation: |-
+      .
+      NEK! 1ST ONE MAN LIVE
+      Thank you so much🫶🏻
+      #girlsband
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+
+- postinstagramimage:
+    post: C9qssR0y2PC
+    id: 1
+    label: On stage
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9qssR0y2PC
+
 - postx:
     id: 1770439921956012126
     account: nekiband_jp

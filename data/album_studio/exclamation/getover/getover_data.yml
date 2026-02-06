@@ -285,6 +285,36 @@
         video: 01
 
 - postx:
+    id: 1782787160690786614
+    account: nekiband_jp
+    label: Now on streaming
+    published-date: 2024-04-24
+    text: |-
+      NEK! 初のオリジナル曲
+      「Get Over」
+      
+      ただいまより配信開始！
+      たくさん聴いてください❣️
+      
+      https://lnk.to/HVGeas
+      
+      #NEKI
+    translation: |-
+      NEK!'s first original song
+      "Get Over"
+      
+      Starts streaming right now!
+      Please listen to it a lot ❣️
+      
+      https://lnk.to/HVGeas
+      
+      #NEKI
+    image:
+    - GL27d42bUAA--t9
+    part-of:
+      song: getover
+
+- postx:
     id: 1918636722516373576
     account: nekiband_jp
     label: Announcement Live Video
@@ -524,6 +554,17 @@
       postx: 2003122686164451580
 
 - postximage:
+    post: 1782787160690786614
+    id: GL27d42bUAA--t9
+    label: Cover
+    published-date: 2026-02-06
+    local-copy: true
+    context:
+    - song: getover
+    part-of:
+      postx: 1782787160690786614
+
+- postximage:
     post: 1918636722516373576
     id: GqBc0HhbYAA2VDy
     label: Natsu
@@ -670,7 +711,7 @@
 - postyoutube:
     id: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
     account: neki_official
-    published-date: 2024-06-03
+    published-date: 2024-04-24
     label: release
     text: |-
       NEK! 初のオリジナル曲
@@ -680,22 +721,13 @@
       たくさん聴いてください❣️
       
       https://lnk.to/HVGeas
-    image:
-    - p2OVdh2QjQJG80H6SNAENZWls54Ky12ooG16av0yaF4o-L6QYeYO-YI1reWmT4qGYGkpKQSYIk1Cveo
     todo: double check published date
     part-of:
       song: getover
-
-- postyoutubeimage:
-    post: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
-    id: p2OVdh2QjQJG80H6SNAENZWls54Ky12ooG16av0yaF4o-L6QYeYO-YI1reWmT4qGYGkpKQSYIk1Cveo
-    label: cover
-    published-date: 2024-06-03
-    local-copy: true
-    context:
-    - song: getover
-    part-of:
-      postyoutube: Ugkxre_r-CJix3Q2mb5CwU1eOZEbRH-8nv3X
+    reference:
+    - postximage:
+        post: 1782787160690786614
+        image: GL27d42bUAA--t9
 
 - youtubeshort:
     id: 1VU7-KQyOvg

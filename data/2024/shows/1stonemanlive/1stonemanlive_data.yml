@@ -1,4 +1,25 @@
 - postinstagram:
+    id: C9pSuQtJP3m
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-07-20
+    text: |-
+      2024.7.20 NEK! 1ST ONE MAN LIVE @ 下北沢SHELTER
+      THANK YOU SOLD OUT!
+      THANKS!! #NEKI #ネキ
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+    reference:
+    - postximage:
+        post: 1814548778395054082
+        image: GS6SaeFbMAMPdm3
+
+- postinstagram:
     id: C9qssR0y2PC
     account: natsu08_guitar
     label: Thank you
@@ -19,6 +40,30 @@
       show:
         year: 2024
         id: 1stonemanlive
+
+- postinstagramimage:
+    post: C9pSuQtJP3m
+    id: 1
+    label: Stage
+    published-date: 2024-07-20
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9pSuQtJP3m
+
+- postinstagramimage:
+    post: C9pSuQtJP3m
+    id: 2
+    label: On stage
+    published-date: 2024-07-20
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9pSuQtJP3m
 
 - postinstagramimage:
     post: C9qssR0y2PC
@@ -71,6 +116,54 @@
         id: 1stonemanlive
 
 - postx:
+    id: 1814548778395054082
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-07-20
+    text: |-
+      NEK! 1ST ONE MAN LIVE
+      @ 下北沢SHELTER
+      
+      皆さまありがとうございました🫶🫶
+      
+      そして・・・！！！！
+      
+      11/24(日)
+      「NEK! 2ND ONE MAN LIVE」
+      @ Shibuya eggman
+      17:30 OPEN / 18:00 START
+      開催決定🔥
+      
+      詳細は後日発表いたします！
+      
+      #NEKI
+    translation: |-
+      NEK! 1ST ONE MAN LIVE
+      @ Shimokitazawa SHELTER
+      
+      Thank you everyone🫶🫶
+      
+      And... !!!!
+      
+      11/24 (Sun)
+      "NEK! 2ND ONE MAN LIVE"
+      @ Shibuya eggman
+      17:30 OPEN / 18:00 START
+      Date set for the show🔥
+      
+      Details will be announced at a later date!
+      
+      #NEKI
+    image:
+    - GS6SaeSbgAAkY_U
+    - GS6SaeFbMAMPdm3
+    - GS6SaeCbMAI7xpQ
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+
+- postx:
     id: 1926203870809608381
     account: natsu08_guitar
     label: Wherever you are / ワンオク
@@ -107,6 +200,30 @@
         id: 1stonemanlive
     part-of:
       postx: 1770439921956012126
+
+- postximage:
+    post: 1814548778395054082
+    id: GS6SaeCbMAI7xpQ
+    label: Sidewalk board
+    published-date: 2024-07-20
+    part-of:
+      postx: 1814548778395054082
+
+- postximage:
+    post: 1814548778395054082
+    id: GS6SaeFbMAMPdm3
+    label: On stage
+    published-date: 2024-07-20
+    part-of:
+      postx: 1814548778395054082
+
+- postximage:
+    post: 1814548778395054082
+    id: GS6SaeSbgAAkY_U
+    label: On stage
+    published-date: 2024-07-20
+    part-of:
+      postx: 1814548778395054082
 
 - postxvideo:
     post: 1926203870809608381

@@ -1232,7 +1232,9 @@
     published-date: 2024-08-29
     context:
     - song: blink
-    todo: which club in Osaka ?
+    - show:
+        year: 2024
+        id: soundsgoodvol73
     part-of:
       song: blink
 
@@ -1240,9 +1242,10 @@
     id: pCTospiTveM
     label: Promo
     info: studio audio, with lyrics
-    published-date: 2024-08-29
+    published-date: 2024-11-20
     context:
     - song: blink
+    todo: which show ?
     part-of:
       song: blink
 

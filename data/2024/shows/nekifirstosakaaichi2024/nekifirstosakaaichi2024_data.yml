@@ -1,10 +1,167 @@
-localimage:
-  tour: nekifirstosakaaichi2024
-  id: cover
-  label: Poster
-  published-date: 2024-06-20
-  source:
-    description: event page
-    url: 'https://note.com/nekiband_jp/n/n4171192bfb28'
-  part-of:
+- localimage:
     tour: nekifirstosakaaichi2024
+    id: cover
+    label: Poster
+    published-date: 2024-06-20
+    source:
+      description: event page
+      url: 'https://note.com/nekiband_jp/n/n4171192bfb28'
+    part-of:
+      tour: nekifirstosakaaichi2024
+
+- postinstagram:
+    id: C_DqIeXSVEq
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-24
+    text: |-
+      大阪・愛知
+      
+      心斎橋VARON
+      アメリカ村DROP
+      アメリカ村BEYOND
+      池下CLUB UPSET
+      
+      Thank you🫶
+      
+      #NEKI #ネキ
+    translation: |-
+      Osaka・Aichi
+      
+      Shinsaibashi VARON
+      Amerikamura DROP
+      Amerikamura BEYOND
+      Ikeshita CLUB UPSET
+      
+      Thank you🫶
+      
+      #NEKI #Neki
+    image:
+    - 1
+    - 6
+    part-of:
+      tour: nekifirstosakaaichi2024
+    reference:
+    - postximage:
+        post: 1827357268658286768
+        image: GVwTue4aUAAIxfq
+    - postximage:
+        post: 1827357268658286768
+        image: GVwTueQa8AIR0ys
+    - postximage:
+        post: 1827357268658286768
+        image: GVwTuegbgAA8IhI
+    - postximage:
+        post: 1827357268658286768
+        image: GVwTueiacAA5A3z
+
+- postinstagramimage:
+    post: C_DqIeXSVEq
+    id: 1
+    label: On stage
+    published-date: 2024-08-24
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    part-of:
+      postinstagram: C_DqIeXSVEq
+
+- postinstagramimage:
+    post: C_DqIeXSVEq
+    id: 6
+    label: Backstage
+    published-date: 2024-08-24
+    todo: which venue ?
+    part-of:
+      postinstagram: C_DqIeXSVEq
+
+- postx:
+    id: 1827357268658286768
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-24
+    text: |-
+      2024.8.21 ~ 8.24
+      大阪・愛知
+      
+      心斎橋VARON
+      アメリカ村DROP
+      アメリカ村BEYOND
+      池下CLUB UPSET
+      
+      Thank you🫶
+      
+      #NEKI
+    translation: |-
+      2024.8.21 ~ 8.24
+      Osaka・Aichi
+      
+      Shinsaibashi VARON
+      America Mura DROP
+      America Mura BEYOND
+      Ikeshita CLUB UPSET
+      
+      Thank you🫶
+      
+      #NEKI
+    image:
+    - GVwTueiacAA5A3z
+    - GVwTueQa8AIR0ys
+    - GVwTuegbgAA8IhI
+    - GVwTue4aUAAIxfq
+    part-of:
+      tour: nekifirstosakaaichi2024
+
+- postximage:
+    post: 1827357268658286768
+    id: GVwTue4aUAAIxfq
+    label: On stage
+    info: Cocoro
+    published-date: 2024-08-24
+    context:
+    - show:
+        year: 2024
+        id: wingedit
+    part-of:
+      postx: 1827357268658286768
+
+- postximage:
+    post: 1827357268658286768
+    id: GVwTueQa8AIR0ys
+    label: On stage
+    info: Natsu
+    published-date: 2024-08-24
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    part-of:
+      postx: 1827357268658286768
+
+- postximage:
+    post: 1827357268658286768
+    id: GVwTuegbgAA8IhI
+    label: On stage
+    info: Kanade
+    published-date: 2024-08-24
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    part-of:
+      postx: 1827357268658286768
+
+- postximage:
+    post: 1827357268658286768
+    id: GVwTueiacAA5A3z
+    label: On stage
+    info: Hika
+    published-date: 2024-08-24
+    context:
+    - show:
+        year: 2024
+        id: daydreamer4night
+    part-of:
+      postx: 1827357268658286768
+

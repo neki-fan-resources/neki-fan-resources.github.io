@@ -1298,6 +1298,26 @@
     part-of:
       song: maze
 
+- postinstagram:
+    id: C9zpcNgvMWy
+    account: nekiband_jp
+    label: Release
+    published-date: 2024-07-24
+    text: |-
+      "MAZE" Music Video!!!!
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    part-of:
+      youtubevideo: EHtWJmMybGY
+    reference:
+    - postximage:
+        post: 1815718604295577659
+        image: GTK6bxwa4AAeLVB
+
 - postinstagramimage:
     post: C-On6T8SqH1
     id: 1
@@ -1329,6 +1349,60 @@
     - song: maze
     part-of:
       postinstagram: C-On6T8SqH1
+
+- postinstagramimage:
+    post: C9zpcNgvMWy
+    id: 2
+    label: MV image
+    info: Natsu
+    published-date: 2024-07-24
+    context:
+    - song: maze
+    part-of:
+      postinstagram: C9zpcNgvMWy
+
+- postinstagramimage:
+    post: C9zpcNgvMWy
+    id: 3
+    label: MV image
+    info: Kanade
+    published-date: 2024-07-24
+    context:
+    - song: maze
+    part-of:
+      postinstagram: C9zpcNgvMWy
+
+- postinstagramimage:
+    post: C9zpcNgvMWy
+    id: 4
+    label: MV image
+    info: Cocoro
+    published-date: 2024-07-24
+    context:
+    - song: maze
+    part-of:
+      postinstagram: C9zpcNgvMWy
+
+- postinstagramimage:
+    post: C9zpcNgvMWy
+    id: 5
+    label: MV image
+    published-date: 2024-07-24
+    context:
+    - song: maze
+    part-of:
+      postinstagram: C9zpcNgvMWy
+
+- postinstagramimage:
+    post: C9zpcNgvMWy
+    id: 6
+    label: MV image
+    info: Hika
+    published-date: 2024-07-24
+    context:
+    - song: maze
+    part-of:
+      postinstagram: C9zpcNgvMWy
 
 - postx:
     id: 1757661923750052131

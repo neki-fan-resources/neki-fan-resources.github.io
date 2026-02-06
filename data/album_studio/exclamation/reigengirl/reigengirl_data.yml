@@ -159,6 +159,76 @@
         en:
         - I want it all to go away
 
+- postinstagram:
+    id: C89dVLhJ2Qd
+    account: nekiband_jp
+    label: MV release
+    published-date: 2024-07-03
+    text: |-
+      "令現少女" Music Video!!!!
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      song: reigengirl
+
+- postinstagramimage:
+    post: C89dVLhJ2Qd
+    id: 1
+    label: MV image
+    info: Hika
+    published-date: 2024-07-03
+    context:
+    - song: reigengirl
+    part-of:
+      postinstagram: C89dVLhJ2Qd
+
+- postinstagramimage:
+    post: C89dVLhJ2Qd
+    id: 2
+    label: MV image
+    info: Natsu
+    published-date: 2024-07-03
+    context:
+    - song: reigengirl
+    part-of:
+      postinstagram: C89dVLhJ2Qd
+
+- postinstagramimage:
+    post: C89dVLhJ2Qd
+    id: 3
+    label: MV image
+    info: Kanade
+    published-date: 2024-07-03
+    context:
+    - song: reigengirl
+    part-of:
+      postinstagram: C89dVLhJ2Qd
+
+- postinstagramimage:
+    post: C89dVLhJ2Qd
+    id: 4
+    label: MV image
+    info: Cocoro
+    published-date: 2024-07-03
+    context:
+    - song: reigengirl
+    part-of:
+      postinstagram: C89dVLhJ2Qd
+
+- postinstagramimage:
+    post: C89dVLhJ2Qd
+    id: 5
+    label: MV image
+    published-date: 2024-07-03
+    context:
+    - song: reigengirl
+    part-of:
+      postinstagram: C89dVLhJ2Qd
+
 - postx:
     id: 1806667280643936516
     account: nekiband_jp
@@ -551,7 +621,7 @@
     - UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
     - RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
     - DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
-    todo: check published date (as well for the images)
+    todo: check published date (as well for the images). switch to instagram images
     part-of:
       song: reigengirl
 

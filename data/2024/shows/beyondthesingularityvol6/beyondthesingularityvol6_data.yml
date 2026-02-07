@@ -1,3 +1,95 @@
+- postinstagram:
+    id: C8mlPbtpUHu
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-06-24
+    text: |-
+      2024.06.24
+      
+      「Beyond The Singularity vol.6」に出演いたしました！
+      観に来てくださった皆様ありがとうございました⚡️
+      
+      初箱の初台DOORSさん！駅からめっちゃ近くて最高でした！！もちろん音も照明も最高でした！！！
+      
+      物販せっかく皆さんとお話できる機会なのに今回はお休みしてしまってすみませんでした🥲
+      また今日の分も今度の物販でお話しましょうねー！
+      
+      次回は7/1(Mon)、Shibuya eggmanの「Girl's UP!!! vol.357」で待ってます👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.06.24
+      
+      We performed at "Beyond The Singularity vol.6"!
+      Thank you to everyone who came to watch⚡️
+      
+      Our first time at Hatsudai DOORS! It was super close to the station, which was great!! Of course, the sound and lighting were awesome too!!!
+      
+      I'm sorry I had to miss the merch booth session this time, even though it's a precious chance to talk with you all🥲
+      Let's make up for today and talk at the next merch session!
+      
+      Next time is 7/1 (Mon), waiting for you at "Girl's UP!!! vol.357" at Shibuya eggman👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol6
+
+- postinstagramimage:
+    post: C8mlPbtpUHu
+    id: 1
+    label: On stage
+    published-date: 2024-06-24
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    part-of:
+      postinstagram: C8mlPbtpUHu
+
+- postinstagramimage:
+    post: C8mlPbtpUHu
+    id: 2
+    label: On stage
+    published-date: 2024-06-24
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    part-of:
+      postinstagram: C8mlPbtpUHu
+
+- postinstagramimage:
+    post: C8mlPbtpUHu
+    id: 3
+    label: On stage
+    info: Cocoro
+    published-date: 2024-06-24
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    part-of:
+      postinstagram: C8mlPbtpUHu
+
+- postinstagramimage:
+    post: C8mlPbtpUHu
+    id: 4
+    label: Backstage
+    published-date: 2024-06-24
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    part-of:
+      postinstagram: C8mlPbtpUHu
+
 - postx:
     id: 1798608606579007863
     account: nekiband_jp

@@ -20,6 +20,23 @@
         image: GS6SaeFbMAMPdm3
 
 - postinstagram:
+    id: C9pgUc8vc0L
+    account: cure_bass_baka
+    label: Photo
+    published-date: 2024-07-20
+    text: |-
+      7/20『NEK! 1ST ONE MAN LIVE』
+      @ 下北沢SHELTER📸
+      
+      #NEKI
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+
+- postinstagram:
     id: C9qssR0y2PC
     account: natsu08_guitar
     label: Thank you
@@ -40,6 +57,103 @@
       show:
         year: 2024
         id: 1stonemanlive
+
+- postinstagram:
+    id: C9qvhGtPgO4
+    account: cure_bass_baka
+    label: Bass & Drums
+    published-date: 2024-07-21
+    text: |-
+      アコースティックの裏側
+      べードラツーショ💜💙📸
+      
+      #NEKI
+    translation: |-
+      Behind the scenes of the acoustic set
+      Bass & Drums two-shot💜💙📸
+      
+      #NEKI
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+
+- postinstagram:
+    id: C9rwnPPpPTP
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-07-21
+    text: |-
+      2024.07.20
+      
+      NEK! 1ST ONE MAN LIVE @ 下北沢SHELTER
+      
+      昨日無事、終了いたしました！！！
+      お越しくださった皆様本当にありがとうございました❤️‍🔥
+      
+      初めに客席を見て思ったことは、、人多っ！！！
+      これだけ多くの方がNEK!の音を聴きにSHELTERに集まってくれたんだと思うとすごく感慨深かったです。
+      曲が始まるとイヤモニを通り越して耳に届くくらい大きな声を出してくれててめちゃめちゃ嬉しかったー！
+      
+      当日どんな客席が見られるのだろう？って想像しながら日々練習してたけど、SHELTERにいる全員の笑顔がキラッキラ輝いてて、想像より何倍も何十倍も素敵な光景でした🥹
+      
+      色々なアーティストさんの楽曲をカバーさせていただいたり(聖地でぼざろできたの嬉しかったな^^)、激ムズ新曲も披露したり、今までやってきたライブの中でいちばんの楽曲数で超楽しかった！！！
+      
+      またMC中にも発表させていただいたのですが、11/24(日)に2ND ONE MAN LIVEをShibuya eggmanさんでやらせていただくことになりました！！😭✨
+      初ライブのときから幾度となく出演させていただいているeggmanさんでワンマンライブを開催できること、心から嬉しいです。詳細はまた後日ご案内しますのでお楽しみに☺️
+      
+      1st EP 「EXCLAMAT!ON」のリリースと「MAZE」のMusic Videoフル公開もお楽しみに🫶🏻(あと3日だね！わくわく！)
+      
+      NEK!は旅を始めたばかりですが、これからも新しい景色をたくさん見ていきたい！！皆さんの応援がエネルギーとなり進み続けることができます。引き続き応援よろしくお願いします🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer #下北沢shelter
+    translation: |-
+      2024.07.20
+      
+      NEK! 1ST ONE MAN LIVE @ Shimokitazawa SHELTER
+      
+      It ended successfully yesterday!!!
+      To everyone who came, thank you so much❤️‍🔥
+      
+      The first thing I thought when I saw the audience was... so many people!!!
+      Thinking that this many people gathered at SHELTER to hear NEK!'s sound made me really emotional.
+      When the songs started, I was so happy to hear voices so loud they reached my ears right through my in-ear monitors!
+      
+      I practiced every day while imagining what the audience would look like that day, but everyone's smiles at SHELTER were sparkling so brightly—it was a scene tens of times more wonderful than I imagined🥹
+      
+      We covered songs from various artists (I was happy to play Bocchi the Rock at the holy land ^^), performed a super difficult new song, and it was the most songs we've ever played in a live show, so it was tons of fun!!!
+      
+      Also, as announced during the MC, we will be holding our 2ND ONE MAN LIVE at Shibuya eggman on 11/24 (Sun)!!😭✨
+      I'm sincerely happy to be able to hold a one-man live at eggman, a place we've performed at many times since our first live. Details will be provided at a later date, so please look forward to it☺️
+      
+      Please also look forward to the release of our 1st EP "EXCLAMAT!ON" and the full Music Video release for "MAZE"🫶🏻 (3 days left! So excited!)
+      
+      NEK! has only just begun its journey, but I want to keep seeing many new sights from here on!! Your support becomes our energy and allows us to keep moving forward. Please continue to support us🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer #ShimokitazawaSHELTER
+    image:
+    - 1
+    - 4
+    - 5
+    - 6
+    - 7
+    - 9
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+    reference:
+    - postximage:
+        post: 1814548778395054082
+        image: GS6SaeSbgAAkY_U
+    - postinstagramimage:
+        post: C9pSuQtJP3m
+        image: 2
+    - postximage:
+        post: 1814848169022530039
+        image: GS-iyRYbIAIhCZj
 
 - postinstagramimage:
     post: C9pSuQtJP3m
@@ -66,6 +180,15 @@
       postinstagram: C9pSuQtJP3m
 
 - postinstagramimage:
+    post: C9pgUc8vc0L
+    id: 1
+    label: On stage
+    info: Kanade
+    published-date: 2024-07-20
+    part-of:
+      postinstagram: C9pgUc8vc0L
+
+- postinstagramimage:
     post: C9qssR0y2PC
     id: 1
     label: On stage
@@ -76,6 +199,96 @@
         id: 1stonemanlive
     part-of:
       postinstagram: C9qssR0y2PC
+
+- postinstagramimage:
+    post: C9qvhGtPgO4
+    id: 1
+    label: Backstage
+    info: Kanade, Cocoro
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    todo: dup image
+    part-of:
+      postinstagram: C9qvhGtPgO4
+
+- postinstagramimage:
+    post: C9rwnPPpPTP
+    id: 1
+    label: On stage
+    info: drum set
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9rwnPPpPTP
+
+- postinstagramimage:
+    post: C9rwnPPpPTP
+    id: 4
+    label: On stage
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9rwnPPpPTP
+
+- postinstagramimage:
+    post: C9rwnPPpPTP
+    id: 5
+    label: On stage
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9rwnPPpPTP
+
+- postinstagramimage:
+    post: C9rwnPPpPTP
+    id: 6
+    label: On stage
+    info: Cocoro
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9rwnPPpPTP
+
+- postinstagramimage:
+    post: C9rwnPPpPTP
+    id: 7
+    label: On stage
+    info: Cocoro
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9rwnPPpPTP
+
+- postinstagramimage:
+    post: C9rwnPPpPTP
+    id: 9
+    label: Backstage
+    info: Cocoro
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postinstagram: C9rwnPPpPTP
 
 - postx:
     id: 1770439921956012126
@@ -164,6 +377,24 @@
         id: 1stonemanlive
 
 - postx:
+    id: 1814848169022530039
+    account: cure_bass_baka
+    label: Backstage
+    published-date: 2024-07-21
+    text: |-
+      アコースティックの裏側
+      べードラツーショ久々💜💙📸
+    translation: |-
+      Behind the scenes of the acoustic set
+      Bass and drum two-shot after a long time💜💙📸
+    image:
+    - GS-iyRYbIAIhCZj
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+
+- postx:
     id: 1926203870809608381
     account: natsu08_guitar
     label: Wherever you are / ワンオク
@@ -224,6 +455,16 @@
     published-date: 2024-07-20
     part-of:
       postx: 1814548778395054082
+
+- postximage:
+    post: 1814848169022530039
+    id: GS-iyRYbIAIhCZj
+    label: Backstage
+    info: Kanade, Cocoro
+    published-date: 2024-07-21
+    todo: link to show
+    part-of:
+      postx: 1814848169022530039
 
 - postxvideo:
     post: 1926203870809608381

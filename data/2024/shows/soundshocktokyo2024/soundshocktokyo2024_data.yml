@@ -1,3 +1,129 @@
+- postinstagram:
+    id: C_LjefVyMK0
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-08-27
+    text: |-
+      2024.08.27
+      
+      「SOUND SHOCK TOKYO 2024」にお越しくださった皆様ありがとうございました！！
+      NEK!は17:45~下北沢ReGさんでの出演でした⚡️
+      
+      学生バンドのサーキットイベントだから同い歳くらいのお客さんがたくさんいて、初めてNEK!のライブを観てくれる方が多かったので、普段あまり聞かないジャンルの楽曲かもしれないけどなにかハートに届けられたらなと思いながら叩きました😌❤️‍🔥
+      
+      遠征中はお家でお留守番してもらってたマイスネアのクロミちゃん(ブラックビューティー)とPaisteのチャイナシンバルを久々に連れてきたけど、やっぱり終始いい音で鳴ってくれててめちゃめちゃ安心感あったなあ🔥
+      
+      途中PCの不具合で少しお時間いただいてしまってごめんなさいでした🥲
+      実は今回のライブ他にもやばいことたくさん起きてて笑、冒頭からツインペダル外れちゃってたり、チャイナシンバルがどんどん縦になっていってたりしましたが(ほら、写真を見てみて…)、全部なんとかリカバリーできたので結果オーライかな！！！笑
+      
+      こういう苦い経験を通して人は成長するんだ😌と凹みまくりの自分に言い聞かせてこれからも頑張ります笑
+      
+      ReGのトリを務められていたアルステイクさんのステージもメンバーみんなで観させていただいて、激アツライブに聴き惚れていたらまさかの曲フリで私たちNEK!の名前を挙げてくださって、メンバーみんなで大興奮😳嬉しすぎるサプライズでした！
+      
+      実は少し前にアルステイクさんの楽曲、「嘘つきは勝手」をカバーする機会があったので、それも生で聴けて嬉しかったなぁ。
+      
+      夏の思い出がまたひとつできました🌻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer #soundshocktokyo2024
+    translation: |-
+      2024.08.27
+      
+      Thank you so much to everyone who came out to "SOUND SHOCK TOKYO 2024"!!
+      NEK! performed at Shimokitazawa ReG from 17:45⚡️
+      
+      Since it's a student band circuit event, there were lots of people around our age, and many were seeing NEK! for the first time, so I played while hoping to deliver something to their hearts, even if it's a genre they might not usually listen to😌❤️‍🔥
+      
+      I brought along my snare Kuromi-chan (Black Beauty) and my Paiste China cymbal, who were staying home while we were on tour, for the first time in a while, and as expected they sounded great from start to finish and felt so reassuring🔥
+      
+      I'm sorry for taking a bit of time due to a PC glitch midway through🥲
+      Actually, a lot of other crazy things happened during this show lol, like my twin pedals coming off right at the start, and the China cymbal gradually turning vertical (look, check the photos...), but I managed to recover from it all so I guess it's all good!!! lol
+      
+      People grow through these bitter experiences😌 is what I'm telling my super depressed self as I keep doing my best lol
+      
+      All the members watched Alstake's set, who were the headliners at ReG, and while we were captivated by their intense live performance, they actually mentioned NEK! in their song intro, which got us all so hyped😳 It was such a happy surprise!
+      
+      Actually, a little while ago I had the chance to cover Alstake's song "Usotsuki wa Katte," so I was happy to hear that live too.
+      
+      Another summer memory was made🌻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer #soundshocktokyo2024
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    part-of:
+      show:
+        year: 2024
+        id: soundshocktokyo2024
+    reference:
+    - postximage:
+        post: 1828377003390906504
+        image: GV-zMCPaoAEXFgz
+
+- postinstagramimage:
+    post: C_LjefVyMK0
+    id: 2
+    label: On stage
+    published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
+    part-of:
+      postinstagram: C_LjefVyMK0
+
+- postinstagramimage:
+    post: C_LjefVyMK0
+    id: 3
+    label: On stage
+    published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
+    part-of:
+      postinstagram: C_LjefVyMK0
+
+- postinstagramimage:
+    post: C_LjefVyMK0
+    id: 4
+    label: On stage
+    info: Cocoro
+    published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
+    part-of:
+      postinstagram: C_LjefVyMK0
+
+- postinstagramimage:
+    post: C_LjefVyMK0
+    id: 5
+    label: On stage
+    info: Cocoro
+    published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
+    part-of:
+      postinstagram: C_LjefVyMK0
+
+- postinstagramimage:
+    post: C_LjefVyMK0
+    id: 6
+    label: Sidewalk board
+    published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
+    part-of:
+      postinstagram: C_LjefVyMK0
+
 - postx:
     id: 1795757514870665423
     account: nekiband_jp
@@ -106,6 +232,34 @@
     part-of:
       postx: 1795757514870665423
 
+- postx:
+    id: 1828377003390906504
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-27
+    text: |-
+      SOUND SHOCK TOKYO 2024
+      @ 下北沢ReG
+      
+      ありがとうございました❤️‍🔥
+      
+      #NEKI
+    translation: |-
+      SOUND SHOCK TOKYO 2024
+      @ Shimokitazawa ReG
+      
+      Thank you so much❤️‍🔥
+      
+      #NEKI
+    image:
+    - GV-zMCPaoAEXFgz
+    - GV-zMCRaoAAYcqr
+    - GV-zMCuWcAAtYbY
+    part-of:
+      show:
+        year: 2024
+        id: soundshocktokyo2024
+
 - postximage:
     post: 1795757514870665423
     id: GOvP8Swa0AAK1tW
@@ -142,4 +296,28 @@
         id: soundshocktokyo2024
     part-of:
       postx: 1821128826476183935
+
+- postximage:
+    post: 1828377003390906504
+    id: GV-zMCPaoAEXFgz
+    label: On stage
+    published-date: 2024-08-27
+    part-of:
+      postx: 1828377003390906504
+
+- postximage:
+    post: 1828377003390906504
+    id: GV-zMCRaoAAYcqr
+    label: On stage
+    published-date: 2024-08-27
+    part-of:
+      postx: 1828377003390906504
+
+- postximage:
+    post: 1828377003390906504
+    id: GV-zMCuWcAAtYbY
+    label: Sidewalk board
+    published-date: 2024-08-27
+    part-of:
+      postx: 1828377003390906504
 

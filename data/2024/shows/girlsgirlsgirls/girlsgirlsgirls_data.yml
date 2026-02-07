@@ -75,6 +75,33 @@
         year: 2024
         id: girlsgirlsgirls
 
+- postx:
+    id: 1826624665139511742
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-22
+    text: |-
+      Girls,Girls,Girls -アメリカ村DROP 21th Anniversary 4MAN-
+      @ アメリカ村DROP
+      
+      ありがとうございました💟
+      
+      #NEKI
+    translation: |-
+      Girls,Girls,Girls -America Mura DROP 21th Anniversary 4MAN-
+      @ America Mura DROP
+      
+      Thank you 💟
+      
+      #NEKI
+    image:
+    - GVl5cqmbgAMZX8l
+    - GVl5cqUbgAggXB8
+    part-of:
+      show:
+        year: 2024
+        id: girlsgirlsgirls
+
 - postximage:
     post: 1808470843703664913
     id: GRj6pTubQAACieD
@@ -111,4 +138,20 @@
         id: girlsgirlsgirls
     part-of:
       postx: 1826512086530490829
+
+- postximage:
+    post: 1826624665139511742
+    id: GVl5cqUbgAggXB8
+    label: Sidewalk board
+    published-date: 2024-08-22
+    part-of:
+      postx: 1826624665139511742
+
+- postximage:
+    post: 1826624665139511742
+    id: GVl5cqmbgAMZX8l
+    label: On stage
+    published-date: 2024-08-22
+    part-of:
+      postx: 1826624665139511742
 

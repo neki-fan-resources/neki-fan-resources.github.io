@@ -1,3 +1,107 @@
+- postinstagram:
+    id: C9eMEN7RVZV
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-07-16
+    text: |-
+      2024.07.15
+      
+      「彪presents Drive You Crazy vol.7」@ 両国SUNRISEに出演させていただきました！
+      見に来てくださった皆様ありがとうございました⚡️
+      
+      今回はEPにも収録している新曲ENDLESS GAMEの解禁もあって、それに伴い初めて同期を使用したドキドキワクワクだらけのライブとなりました！！(同期出しは私のお仕事なので失敗しないかヒヤヒヤしたけど無事ノーミスで終われました😂)
+      
+      今回たくさん海外からのお客様が来てくださって、皆肩組みながら満面の笑みで見てくれてて、ピースフルなフロアで激アツ＆最高でした✌🏻🔥
+      物販にも多くの方が寄ってくださって、タオルもTシャツ全サイズも完売してしまうという事態…！せっかく並んでくれていたのに買えなかった方ごめんなさい🥲🙏🏻
+      
+      次回はとうとう今週末に迫ってきました下北沢SHELTERさんでの初ワンマン！！！！準備たくさんしてるよ〜〜
+      来れる方は楽しみにしててくださいね❤️‍🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.07.15
+      
+      We performed at "Aya presents Drive You Crazy vol.7" @ Ryogoku SUNRIZE!
+      Thank you to everyone who came to see us⚡️
+      
+      This time we premiered our new song "ENDLESS GAME," which is also on the EP, and with that came our first live using backing tracks, so it was full of excitement and nerves!! (Starting the tracks is my job, so I was worried about making a mistake, but I finished without any errors😂)
+      
+      We had many guests from overseas today, and seeing everyone watching with big smiles while putting their arms around each other's shoulders made for a peaceful floor that was super hot and the best✌🏻🔥
+      So many people stopped by the merch booth that our towels and all T-shirt sizes sold out...! I'm so sorry to those who lined up but couldn't buy anything🥲🙏🏻
+      
+      The next one is finally our first solo show at Shimokitazawa SHELTER coming up this weekend!!!! We're doing so much prep~~
+      For those coming, please look forward to it❤️‍🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    - 7
+    part-of:
+      show:
+        year: 2024
+        id: driveyoucrazyvol7
+    reference:
+    - postximage:
+        post: 1812843895589650878
+        image: GSiD565aoAER_oO
+    - postximage:
+        post: 1813062901760205295
+        image: GSlLGQhbIAAIqk4
+    - postximage:
+        post: 1812858834458976320
+        image: GSiRfMEawAAno3m
+
+- postinstagramimage:
+    post: C9eMEN7RVZV
+    id: 2
+    label: On stage
+    published-date: 2024-07-16
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
+    part-of:
+      postinstagram: C9eMEN7RVZV
+
+- postinstagramimage:
+    post: C9eMEN7RVZV
+    id: 3
+    label: On stage
+    published-date: 2024-07-16
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
+    part-of:
+      postinstagram: C9eMEN7RVZV
+
+- postinstagramimage:
+    post: C9eMEN7RVZV
+    id: 4
+    label: On stage
+    info: Cocoro
+    published-date: 2024-07-16
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
+    part-of:
+      postinstagram: C9eMEN7RVZV
+
+- postinstagramimage:
+    post: C9eMEN7RVZV
+    id: 7
+    label: Sidewalk board
+    published-date: 2024-07-16
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
+    part-of:
+      postinstagram: C9eMEN7RVZV
+
 - postx:
     id: 1784417275292143972
     account: Aya_Bas2
@@ -56,6 +160,104 @@
         year: 2024
         id: driveyoucrazyvol7
 
+- postx:
+    id: 1812843895589650878
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-07-15
+    text: |-
+      彪presents Drive You Crazy vol.7
+      @ 両国SUNRIZE
+      
+      ありがとうございました❣️
+      
+      次回ライブは今週末──
+      ついにNEK! 1ST ONE MAN LIVE開催🔥
+      
+      #NEKI
+    translation: |-
+      Hyou presents Drive You Crazy vol.7
+      @ Ryogoku SUNRIZE
+      
+      Thank you very much❣️
+      
+      The next live show is this weekend──
+      NEK! 1ST ONE MAN LIVE is finally happening🔥
+      
+      #NEKI
+    image:
+    - GSiD565aoAER_oO
+    - GSiD564bQAA-s2S
+    part-of:
+      show:
+        year: 2024
+        id: driveyoucrazyvol7
+
+- postx:
+    id: 1812858834458976320
+    account: Aya_Bas2
+    label: Thank you
+    published-date: 2024-07-15
+    text: |-
+      取り急ぎですが！！！
+      Drive You Crazy Vol.7
+      大成功でした！！
+      ご来場、配信で熱く盛り上げてくれた皆さん。出演してくれたMANATY、NEK!、少女S、EITA(+TAKAEITA)さんっ！ずっとこのイベントに寄り添ってくれている両国SUNRIZE！！！
+      全ての皆さんに感謝です。
+      ワンマンまで突っ走るからついてきてね。
+      
+      #Team彪 #彪
+    translation: |-
+      Just a quick note for now!!!
+      Drive You Crazy Vol.7
+      Was a huge success!!
+      To everyone who heated things up at the venue and on the stream. MANATY, NEK!, Shojo S, and EITA(+TAKAEITA) who performed! Ryogoku SUNRIZE who has been supporting this event all along!!!
+      My gratitude goes out to everyone.
+      I'm going to keep sprinting until the solo show, so please follow me.
+      
+      #TeamAya #Aya
+    image:
+    - GSiRfMEawAAno3m
+    part-of:
+      show:
+        year: 2024
+        id: driveyoucrazyvol7
+
+- postx:
+    id: 1813062901760205295
+    account: Aya_Bas2
+    label: Bands
+    info: pictures with other bands
+    published-date: 2024-07-16
+    text: |-
+      【Drive You Crazy vol.7】
+      マナさん❤️‍🔥
+      NEK!❤️‍🔥
+      少女S❤️‍🔥
+      EITAさん❤️‍🔥
+      ALTいっぱい書きました！
+      
+      -- Image alt text --
+      
+      スーパーフレッシュでパワフルでキュートでとってもカッコよかったNEK!🔥今後ワンマンライブを控えているようで、ますます期待やワクワクが止まらないのではないでしょうか？今回出演していただいて本当に嬉しかったです❣️またお互いに進化を遂げて再会する日が来ますように。
+    translation: |-
+      [Drive You Crazy vol.7]
+      Mana-san❤️‍🔥
+      NEK!❤️‍🔥
+      Shoujo S❤️‍🔥
+      EITA-san❤️‍🔥
+      I wrote a lot of ALT text!
+      
+      -- Image alt text
+      
+      NEK! was super fresh, powerful, cute, and so cool! 🔥 It seems like you have a one-man live coming up, so I'm sure the anticipation and excitement are only increasing! I was truly happy to have you perform this time❣️ I hope the day comes when we can reunite after both of us have evolved even further.
+    image:
+    - GSlLGQhbIAAIqk4
+    part-of:
+      show:
+        year: 2024
+        id: driveyoucrazyvol7
+
 - postximage:
     post: 1784417275292143972
     id: GMOGC_5bAAAhTe9
@@ -68,6 +270,40 @@
         id: driveyoucrazyvol7
     part-of:
       postx: 1784417275292143972
+
+- postximage:
+    post: 1812843895589650878
+    id: GSiD564bQAA-s2S
+    label: Sidewalk board
+    published-date: 2024-07-15
+    part-of:
+      postx: 1812843895589650878
+
+- postximage:
+    post: 1812843895589650878
+    id: GSiD565aoAER_oO
+    label: On stage
+    published-date: 2024-07-15
+    part-of:
+      postx: 1812843895589650878
+
+- postximage:
+    post: 1812858834458976320
+    id: GSiRfMEawAAno3m
+    label: All bands
+    published-date: 2024-07-15
+    part-of:
+      postx: 1812858834458976320
+
+- postximage:
+    post: 1813062901760205295
+    id: GSlLGQhbIAAIqk4
+    label: With AYA
+    info: NEK!, AYA
+    published-date: 2024-07-16
+    todo: check Aya name
+    part-of:
+      postx: 1813062901760205295
 
 - youtubeshort:
     id: cdIhg5rSCvM

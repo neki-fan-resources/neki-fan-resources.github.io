@@ -1,3 +1,97 @@
+- postinstagram:
+    id: C763Z2tP7DD
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-06-07
+    text: |-
+      2024.06.07
+      
+      POP OUT!! vol.11にお越しいただきありがとうございました🔥
+      フロア激アツで楽しかったーーー！！初めましてだったunravel tokyoさんの会場、音響、照明全てが超絶素晴らしくて、めっちゃ気持ち良い演奏ができました🌱
+      
+      出演者の皆様も優しい方ばかりで、帰り際にたくさん話しかけてくださいました…！女性ミュージシャンとの繋がりが増えてめちゃくちゃ嬉しい涙
+      
+      そして今日に続けて、8/31のラストランプさん主催サーキットイベント「トラROCK FESTIVAL」にもお誘いいただきました！こちらもとても楽しみですね🐯🔥
+      
+      次回のライブは6/15(Sat)「CODE OF ZERO X 東名阪TOUR」@ 下北沢ReG！待ってるね！
+      
+      #neki #neki_band #girlsband #girldrummer #femaledrummer #unraveltokyo
+    translation: |-
+      2024.06.07
+      
+      Thank you for coming to POP OUT!! vol.11🔥
+      The floor was super hot and it was so much funーーー!! It was my first time at unravel tokyo, and the venue, sound, and lighting were all absolutely wonderful, so I was able to play feeling really good🌱
+      
+      The other performers were all such kind people and talked to me a lot on the way out...! I'm so incredibly happy to have more connections with female musicians tears
+      
+      And following today, we've also been invited to Last Lamp's hosted circuit event "Tora ROCK FESTIVAL" on 8/31! I'm really looking forward to this too🐯🔥
+      
+      The next live is 6/15 (Sat) "CODE OF ZERO X Tomeihan TOUR" @ Shimokitazawa ReG! See you there!
+      
+      #neki #neki_band #girlsband #girldrummer #femaledrummer #unraveltokyo
+    image:
+    - 1
+    - 2
+    - 3
+    - 5
+    part-of:
+      show:
+        year: 2024
+        id: popoutvol11
+    reference:
+    - postximage:
+        post: 1799084157886460002
+        image: GPehcB0bMAAvs-e
+
+- postinstagramimage:
+    post: C763Z2tP7DD
+    id: 1
+    label: On stage
+    published-date: 2024-06-07
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
+    part-of:
+      postinstagram: C763Z2tP7DD
+
+- postinstagramimage:
+    post: C763Z2tP7DD
+    id: 2
+    label: On stage
+    published-date: 2024-06-07
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
+    part-of:
+      postinstagram: C763Z2tP7DD
+
+- postinstagramimage:
+    post: C763Z2tP7DD
+    id: 3
+    label: Backstage
+    published-date: 2024-06-07
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
+    part-of:
+      postinstagram: C763Z2tP7DD
+
+- postinstagramimage:
+    post: C763Z2tP7DD
+    id: 5
+    label: On stage
+    info: drum set
+    published-date: 2024-06-07
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
+    part-of:
+      postinstagram: C763Z2tP7DD
+
 - postx:
     id: 1780522894059299287
     account: lastlamp_band
@@ -64,6 +158,62 @@
         year: 2024
         id: popoutvol11
 
+- postx:
+    id: 1799084157886460002
+    account: lastlamp_band
+    label: Thank you
+    published-date: 2024-06-07
+    text: |-
+      ／
+      POP OUT!!vol.11
+      ＼
+      
+      ご来場の皆様
+      
+      Risky Melodyさん
+      unSeaさん
+      NEK!さん
+      小原涼さん
+      
+      ありがとうございました！！✨
+      アツい1日になりましたね🔥
+      
+      8/31サーキットも発表！
+      ガンガン進んでいきます⚡️
+      
+      photo by 
+      @style_k_
+       
+      #ラストランプ
+    translation: |-
+      /
+      POP OUT!! vol.11
+      \
+      
+      To everyone who attended
+      
+      Risky Melody-san
+      unSea-san
+      NEK!-san
+      Ryo Obara-san
+      
+      Thank you very much!! ✨
+      It was a heated day 🔥
+      
+      The 8/31 circuit event was also announced!
+      We're moving forward aggressively ⚡️
+      
+      photo by
+      @style_k_
+      
+      #LastLamp
+    image:
+    - GPehcB0bMAAvs-e
+    part-of:
+      show:
+        year: 2024
+        id: popoutvol11
+
 - postximage:
     post: 1780522894059299287
     id: GLWvKs8bYAAHJQF
@@ -76,4 +226,12 @@
         id: popoutvol11
     part-of:
       postx: 1780522894059299287
+
+- postximage:
+    post: 1799084157886460002
+    id: GPehcB0bMAAvs-e
+    label: The bands
+    published-date: 2024-06-07
+    part-of:
+      postx: 1799084157886460002
 

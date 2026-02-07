@@ -42,6 +42,35 @@
         year: 2024
         id: wingedit
 
+- postx:
+    id: 1827348186039775708
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-24
+    text: |-
+      「winged it」
+      @ NAGOYA CLUB UPSET
+      
+      初愛知！
+      ありがとうございました🫶
+      
+      #NEKI
+    translation: |-
+      "winged it"
+      @ NAGOYA CLUB UPSET
+      
+      Our first time in Aichi!
+      Thank you 🫶
+      
+      #NEKI
+    image:
+    - GVwLfHSa8AQz_Zv
+    - GVwLfHQa8AQ0NgO
+    part-of:
+      show:
+        year: 2024
+        id: wingedit
+
 - postximage:
     post: 1827255587870273643
     id: GVu3DSDXgAAEC5y
@@ -54,6 +83,22 @@
         id: wingedit
     part-of:
       postx: 1827255587870273643
+
+- postximage:
+    post: 1827348186039775708
+    id: GVwLfHQa8AQ0NgO
+    label: Poster
+    published-date: 2024-08-24
+    part-of:
+      postx: 1827348186039775708
+
+- postximage:
+    post: 1827348186039775708
+    id: GVwLfHSa8AQz_Zv
+    label: On stage
+    published-date: 2024-08-24
+    part-of:
+      postx: 1827348186039775708
 
 - youtubeshort:
     id: OvaY9jENatI

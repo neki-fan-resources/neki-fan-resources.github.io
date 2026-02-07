@@ -10,6 +10,22 @@
       tour: nekifirstosakaaichi2024
 
 - postinstagram:
+    id: C-oJxX6zKVy
+    account: 46_hikaa
+    label: Looking forward to the shows
+    published-date: 2024-08-14
+    text: |-
+      大阪・名古屋でのライブが待ち遠しい！
+      たのしみ
+    translation: |-
+      Can't wait for the live shows in Osaka and Nagoya!
+      Looking forward to it
+    image:
+    - 1
+    part-of:
+      tour: nekifirstosakaaichi2024
+
+- postinstagram:
     id: C_DqIeXSVEq
     account: nekiband_jp
     label: Thank you
@@ -55,6 +71,99 @@
         post: 1827357268658286768
         image: GVwTueiacAA5A3z
 
+- postinstagram:
+    id: C_LQWySylRt
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-08-27
+    text: |-
+      2024.08.21-24
+      
+      「心斎橋VARON presents. Day Dreamer -4th night-」
+      @ 心斎橋VARON
+      「Girls,Girls,Girls -アメリカ村DROP 21th Anniversary 4MAN-」
+      @ アメリカ村DROP
+      「Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-」
+      @ アメリカ村 BEYOND
+      「winged it」
+      @ NAGOYA CLUB UPSET
+      
+      NEK!初の大阪・愛知遠征、4日間無事完走しましたーーー！！
+      お越しくださった皆様本当にありがとうございました🙏🏻✨
+      
+      連日たくさんのNEK!ファンに会えてすごく嬉しかったです！
+      物販はみーんな関西弁だったから、あっ今関西でライブしてるんだっていう実感が沸いたし、両親が関西人で普段は関西弁を話している私からしたら安心感すごかったです😂
+      
+      NEK!のライブに初めて参加するという方が多かったのに、かけ声とか手拍子とかたくさんしてくれて、4日とも最高に激アツな空間がつくれましたｻﾝｷｭｯ🔥
+      
+      大阪は3日間あったからたこ焼きとかうなぎバターとか串焼きとか名物たくさん食べたよー！どれも美味しかった🤤
+      グリコともしっかり撮ってきたの📷✨ ザ・観光客って感じw
+      
+      愛知はスケジュールの都合で長くいられなかったから、今度来たときはゆっくり観光したいな！あ、味噌カツは食べたよ🐷
+      
+      今回の遠征でたくさんのファンの方からパワーをいただいたので、引き続きもっともっと鍛錬して、また大阪・愛知に戻ってきたときにひとまわりもふたまわりも成長した姿を見てもらえるようにこれからも頑張ります🔥応援よろしくね！
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.08.21-24
+      
+      "心斎橋VARON presents. Day Dreamer -4th night-"
+      @ Shinsaibashi VARON
+      "Girls,Girls,Girls -Amerikamura DROP 21th Anniversary 4MAN-"
+      @ Amerikamura DROP
+      "Sounds good!! Vol. 73 -Play with NEK! in Amemura-"
+      @ Amerikamura BEYOND
+      "winged it"
+      @ NAGOYA CLUB UPSET
+      
+      NEK!'s first Osaka/Aichi tour, we successfully finished all 4 days!!!
+      To everyone who came, thank you so much🙏🏻✨
+      
+      I was so happy to see so many NEK! fans every day!
+      At the merch booth, everyone was speaking in Kansai dialect, so it really hit me that "Ah, I'm performing in Kansai right now," and since both my parents are from Kansai and I usually speak the dialect, it felt incredibly comforting😂
+      
+      Even though there were many people attending a NEK! live for the first time, there were so many cheers and handclaps, and we created a super intense atmosphere all 4 days. Thank you🔥
+      
+      Since we were in Osaka for 3 days, I ate lots of specialties like takoyaki, eel butter, and kushiyaki! Everything was delicious🤤
+      I also made sure to take a photo with the Glico sign📷✨ Total tourist vibes lol
+      
+      We couldn't stay long in Aichi due to the schedule, so next time we come I want to do some proper sightseeing! Oh, I did eat miso katsu though🐷
+      
+      I received so much power from many fans during this tour, so I’ll keep training harder and harder to show everyone a much more grown-up version of myself when we return to Osaka and Aichi. Please keep supporting us!🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 3
+    - 7
+    - 8
+    - 9
+    part-of:
+      tour: nekifirstosakaaichi2024
+    reference:
+    - postximage:
+        post: 1827357268658286768
+        image: GVwTue4aUAAIxfq
+    - postximage:
+        post: 1826990576136540351
+        image: GVrGPOpawAAkdj6
+    - postximage:
+        post: 1827348186039775708
+        image: GVwLfHSa8AQz_Zv
+    - postximage:
+        post: 1826624665139511742
+        image: GVl5cqmbgAMZX8l
+
+- postinstagramimage:
+    post: C-oJxX6zKVy
+    id: 1
+    label: On stage
+    info: Hika
+    published-date: 2024-08-14
+    todo: 'which show ? '
+    part-of:
+      postinstagram: C-oJxX6zKVy
+
 - postinstagramimage:
     post: C_DqIeXSVEq
     id: 1
@@ -75,6 +184,54 @@
     todo: which venue ?
     part-of:
       postinstagram: C_DqIeXSVEq
+
+- postinstagramimage:
+    post: C_LQWySylRt
+    id: 1
+    label: In Osaka
+    published-date: 2024-08-27
+    context:
+    - tour: nekifirstosakaaichi2024
+    part-of:
+      postinstagram: C_LQWySylRt
+
+- postinstagramimage:
+    post: C_LQWySylRt
+    id: 3
+    label: On stage
+    info: Cocoro
+    published-date: 2024-08-27
+    todo: which show ?
+    part-of:
+      postinstagram: C_LQWySylRt
+
+- postinstagramimage:
+    post: C_LQWySylRt
+    id: 7
+    label: On stage
+    published-date: 2024-08-27
+    todo: which show ?
+    part-of:
+      postinstagram: C_LQWySylRt
+
+- postinstagramimage:
+    post: C_LQWySylRt
+    id: 8
+    label: Local food
+    published-date: 2024-08-27
+    todo: to sort
+    part-of:
+      postinstagram: C_LQWySylRt
+
+- postinstagramimage:
+    post: C_LQWySylRt
+    id: 9
+    label: In Osaka
+    published-date: 2024-08-27
+    context:
+    - tour: nekifirstosakaaichi2024
+    part-of:
+      postinstagram: C_LQWySylRt
 
 - postx:
     id: 1827357268658286768

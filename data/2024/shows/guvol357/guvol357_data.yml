@@ -1,3 +1,118 @@
+- postinstagram:
+    id: C84kmPhJcnb
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-07-01
+    text: |-
+      2024.07.01
+      
+      本日、Girl's UP!!! vol.357に出演いたしました！！
+      お越しくださった皆様ありがとうございました🌻
+      
+      朝からジメジメのムシムシのどんよ〜りした冴えないお天気でしたが、フロアはそんなの関係ねぇ(cv.小島よしお)ってくらい激アツに仕上がってて最高に楽しかった🔥🔥🔥
+      
+      物販で話した感じだと今日初めてNEK!のライブに来てくださったという方が結構いて、NEK!の輪が広まってきてるのを実感できて嬉しかったです^^
+      気になってるそこのあなたも、ぜひ一度生NEK!を体感しに来てみてください❤️‍🔥絶対トリコにさせますので❤️‍🔥
+      
+      次回のライブは明後日7/3(Wed)初台DOORSさんでお待ちしてます！！またねー！
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.07.01
+      
+      We performed at Girl's UP!!! vol.357 today!!
+      Thank you to everyone who came sunflower
+      
+      From the morning, the weather was damp, humid, and gloomy, but the floor was so hot it felt like "that doesn't matter" (cv. Yoshio Kojima), and it was the most fun ever🔥🔥🔥
+      
+      From talking at the merch booth, it felt like quite a few people came to a NEK! live for the first time today, and I was happy to feel the NEK! circle expanding^^
+      To those of you who are curious, please come experience NEK! live at least once❤️‍🔥 I promise we'll make you a fan❤️‍🔥
+      
+      The next live is the day after tomorrow, 7/3 (Wed), waiting for you at Hatsudai DOORS!! See you then!
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2024
+        id: guvol357
+    reference:
+    - postximage:
+        post: 1807779104399520011
+        image: GRaFgtwacAA-6Hg
+
+- postinstagram:
+    id: C9kTT0IJ7SZ
+    account: 46_hikaa
+    label: New outfit
+    info: and Natsu
+    published-date: 2024-07-18
+    text: |-
+      2024/07/01
+      こちらは僕の新衣装とNatsu
+    translation: |-
+      2024/07/01
+      This is my new outfit and Natsu
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: guvol357
+
+- postinstagramimage:
+    post: C84kmPhJcnb
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2024-07-01
+    context:
+    - show:
+        year: 2024
+        id: guvol357
+    part-of:
+      postinstagram: C84kmPhJcnb
+
+- postinstagramimage:
+    post: C84kmPhJcnb
+    id: 2
+    label: On stage
+    published-date: 2024-07-01
+    context:
+    - show:
+        year: 2024
+        id: guvol357
+    part-of:
+      postinstagram: C84kmPhJcnb
+
+- postinstagramimage:
+    post: C84kmPhJcnb
+    id: 3
+    label: Backstage
+    published-date: 2024-07-01
+    context:
+    - show:
+        year: 2024
+        id: guvol357
+    part-of:
+      postinstagram: C84kmPhJcnb
+
+- postinstagramimage:
+    post: C9kTT0IJ7SZ
+    id: 1
+    label: Backstage
+    info: Hika, Natsu
+    published-date: 2024-07-18
+    context:
+    - show:
+        year: 2024
+        id: guvol357
+    part-of:
+      postinstagram: C9kTT0IJ7SZ
+
 - postx:
     id: 1807675589555523709
     account: shibuya_eggman
@@ -42,6 +157,33 @@
         year: 2024
         id: guvol357
 
+- postx:
+    id: 1807779104399520011
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-07-01
+    text: |-
+      Girl's UP!!! vol.357
+      @ Shibuya eggman
+      
+      ありがとうございました💝
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.357
+      @ Shibuya eggman
+      
+      Thank you very much💝
+      
+      #NEKI
+    image:
+    - GRaFgtuaUAAGh-u
+    - GRaFgtwacAA-6Hg
+    part-of:
+      show:
+        year: 2024
+        id: guvol357
+
 - postximage:
     post: 1807675589555523709
     id: GRYmoBmbgAAlnIh
@@ -54,4 +196,20 @@
         id: guvol357
     part-of:
       postx: 1807675589555523709
+
+- postximage:
+    post: 1807779104399520011
+    id: GRaFgtuaUAAGh-u
+    label: On stage
+    published-date: 2024-07-01
+    part-of:
+      postx: 1807779104399520011
+
+- postximage:
+    post: 1807779104399520011
+    id: GRaFgtwacAA-6Hg
+    label: Sidewalk board
+    published-date: 2024-07-01
+    part-of:
+      postx: 1807779104399520011
 

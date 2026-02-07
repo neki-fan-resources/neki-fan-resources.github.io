@@ -1,3 +1,130 @@
+- postinstagram:
+    id: C6wJE4LPVvE
+    account: cure_bass_baka
+    label: Photo
+    published-date: 2024-05-09
+    text: |-
+      5/7『Girl's UP!!! vol.351』
+      5/9『Girl's UP!!! vol.352』
+      @ Shibuya eggman
+      
+      📸✨️
+      
+      #NEKI #bass
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: guvol352
+
+- postinstagram:
+    id: C6wWNttRmfK
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-05-09
+    text: |-
+      2024.05.09
+      
+      本日はGirl's UP!!!Vol.352 に出演させていただきました🤘🏻
+      お越しくださった皆さんありがとうございました！！
+      
+      いつにも増してステージ上から新しいお顔がたくさん見えた気がして、物販で話を聞くと、初めてNEK!のライブに足を運んでくださった方も多かったみたいで本当に嬉しかったです！
+      
+      そしてGirl's UP!!!に来てくださる皆さんはいつも仏のような顔で見守ってくれるからすごく心強いのです…！！いつも本当にありがとう😂
+      
+      もっともっと色々極めていきたい所存！！これからも頑張るね！！！応援よろしく！！！！！今日はありがとう！！！おやすみ！！！！！！！
+      
+      次回は5/20(Mon)、「Sweet！Sweet！Sweet！」@下北沢SHELTERでお待ちしてます！またね❤️‍🔥
+      
+      #neki #nekiband #girlsband #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.05.09
+      
+      We performed at Girl's UP!!! Vol.352 today🤘🏻
+      Thank you to everyone who came!
+      
+      I felt like I saw more new faces from the stage than usual, and talking to people at the merch booth, it seems many came to a NEK! live for the first time, which made me really happy!
+      
+      And everyone who comes to Girl's UP!!! always watches over us with such kind, Buddha-like faces, so it's very encouraging...!! Thank you so much as always😂
+      
+      I want to keep mastering more and more things!! I'll keep doing my best!!! Thanks for your support!!!!! Thank you for today!!! Good night!!!!!!!
+      
+      Next time is 5/20 (Mon), waiting for you at "Sweet! Sweet! Sweet!" @ Shimokitazawa SHELTER! See you❤️‍🔥
+      
+      #neki #nekiband #girlsband #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2024
+        id: guvol352
+
+- postinstagramimage:
+    post: C6wJE4LPVvE
+    id: 1
+    label: On stage
+    info: Kanade
+    published-date: 2024-05-09
+    context:
+    - show:
+        year: 2024
+        id: guvol352
+    part-of:
+      postinstagram: C6wJE4LPVvE
+
+- postinstagramimage:
+    post: C6wWNttRmfK
+    id: 1
+    label: On stage
+    published-date: 2024-05-09
+    context:
+    - show:
+        year: 2024
+        id: guvol352
+    part-of:
+      postinstagram: C6wWNttRmfK
+
+- postinstagramimage:
+    post: C6wWNttRmfK
+    id: 2
+    label: On stage
+    published-date: 2024-05-09
+    context:
+    - show:
+        year: 2024
+        id: guvol352
+    part-of:
+      postinstagram: C6wWNttRmfK
+
+- postinstagramimage:
+    post: C6wWNttRmfK
+    id: 3
+    label: On stage
+    info: Cocoro
+    published-date: 2024-05-09
+    context:
+    - show:
+        year: 2024
+        id: guvol352
+    part-of:
+      postinstagram: C6wWNttRmfK
+
+- postinstagramimage:
+    post: C6wWNttRmfK
+    id: 4
+    label: Backstage
+    published-date: 2024-05-09
+    context:
+    - show:
+        year: 2024
+        id: guvol352
+    part-of:
+      postinstagram: C6wWNttRmfK
+
 - postx:
     id: 1788471211137306929
     account: shibuya_eggman

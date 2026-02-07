@@ -4,6 +4,31 @@
     part-of:
       group: hika
 
+- postinstagram:
+    id: C_JH_6YyOLY
+    account: 46_hikaa
+    label: Hairstyle
+    published-date: 2024-08-26
+    text: |-
+      ฅ^•ω•^ฅおだんご
+    translation: |-
+      ฅ^•ω•^ฅ Hair buns
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: hika
+
+- postinstagramimage:
+    post: C_JH_6YyOLY
+    id: 1
+    label: Hair buns
+    info: Hika
+    published-date: 2024-08-26
+    part-of:
+      postinstagram: C_JH_6YyOLY
+
 - postx:
     id: 1953710557393195152
     account: 46_hikaa

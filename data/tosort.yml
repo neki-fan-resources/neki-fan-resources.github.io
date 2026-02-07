@@ -2,6 +2,27 @@
     id: tosort
     label: To sort
 
+- postinstagram:
+    id: C-AnEGSSlC3
+    account: 46_hikaa
+    label: On stage
+    published-date: 2024-07-29
+    text: |-
+      -
+    image:
+    - 1
+    part-of:
+      group: tosort
+
+- postinstagramimage:
+    post: C-AnEGSSlC3
+    id: 1
+    label: On stage
+    info: Hika
+    published-date: 2024-07-29
+    part-of:
+      postinstagram: C-AnEGSSlC3
+
 - postx:
     id: 1921051915636429162
     account: cure_bass_baka

@@ -1,3 +1,109 @@
+- postinstagram:
+    id: C-MVV08Jo2T
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-08-03
+    text: |-
+      2024.08.02
+      
+      #FYP『For You Place』vol.3 @ SHIBUYA THE GAME
+      にお越しくださった皆さまありがとうございました！！
+      
+      NEK!初のトリを務めさせていただき、感無量でした🥲✨
+      THE GAMEさんは3度目の出演になるのですが、毎回いろんなジャンルの演者さんたちと共演するのでいつも新鮮な気持ちで挑んでいます🔥
+      
+      スティックは宙に舞うし、同期も色々と問題発生するわで終始バッタバタな私でしたが笑、そういうハプニングもライブの醍醐味だ！と愛おしく思い昇華しようと思います😂
+      
+      来週は完璧に仕上げてお届けできるよう頑張るよー！！！笑
+      8/8(Thu)「ハピコレ!! vol.530」@ 六本木unravel tokyoで待ってます👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.08.02
+      
+      Thank you to everyone who came to #FYP "For You Place" vol.3 @ SHIBUYA THE GAME!!
+      
+      It was an overwhelming feeling to serve as the headliner for the first time as NEK!🥲✨
+      This was our third time performing at THE GAME, but since we co-star with performers of various genres every time, I always go into it with a fresh mindset🔥
+      
+      My sticks were flying through the air, and various issues popped up with the backing tracks, so I was in a total frantic rush from start to finish lol, but I'll try to embrace those kinds of mishaps as the real thrill of a live show and turn them into something positive!😂
+      
+      I'll do my best to make next week perfect for you guys!!! lol
+      I'll be waiting for you on 8/8 (Thu) at "Hapikore!! vol.530" @ Roppongi unravel tokyo👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2024
+        id: fypvol3
+
+- postinstagramimage:
+    post: C-MVV08Jo2T
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2024-08-03
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postinstagram: C-MVV08Jo2T
+
+- postinstagramimage:
+    post: C-MVV08Jo2T
+    id: 2
+    label: On stage
+    published-date: 2024-08-03
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postinstagram: C-MVV08Jo2T
+
+- postinstagramimage:
+    post: C-MVV08Jo2T
+    id: 3
+    label: Poster
+    published-date: 2024-08-03
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postinstagram: C-MVV08Jo2T
+
+- postinstagramimage:
+    post: C-MVV08Jo2T
+    id: 4
+    label: Backstage
+    published-date: 2024-08-03
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postinstagram: C-MVV08Jo2T
+
+- postinstagramimage:
+    post: C-MVV08Jo2T
+    id: 5
+    label: Backstage
+    published-date: 2024-08-03
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postinstagram: C-MVV08Jo2T
+
 - postx:
     id: 1803369809566113904
     account: nekiband_jp

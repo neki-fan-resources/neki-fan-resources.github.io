@@ -1,3 +1,70 @@
+- postinstagram:
+    id: C6rA8WmpOvY
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-05-07
+    text: |-
+      2024.05.07
+      
+      本日Girl's UP!!! Vol.351に出演させていただきました！
+      お越しいただいた皆さんありがとうございましたー！
+      新曲初披露したよ！盛り上がってくださって嬉しかったです🔥
+      
+      Ludwig様のブラックビューティーも初出動！！
+      パー！っと弾けるような明るいサウンドで頑張ってくれました🌟
+      
+      次回は明後日5/9(Thu)今日と同じshibuya eggmanさんのGirl's UP!!!Vol.352です！気合い入れてお待ちしてます🤘🏻🔥
+      
+      #neki #nekiband #girlsband #japanesegirl #drum #drummer #girlsdrummer #femaledrummer #ludwigdrums #blackbeauty
+    translation: |-
+      2024.05.07
+      
+      We performed at Girl's UP!!! Vol.351 today!
+      Thank you to everyone who came out!
+      We debuted our new song! I was so happy you all got fired up for it🔥
+      
+      Ludwig's Black Beauty also made its first appearance!!
+      It did a great job with a bright, popping sound🌟
+      
+      Next time is the day after tomorrow, 5/9 (Thu), at shibuya eggman for Girl's UP!!! Vol.352 just like today! We'll be waiting for you with full energy🤘🏻🔥
+      
+      #neki #nekiband #girlsband #japanesegirl #drum #drummer #girlsdrummer #femaledrummer #ludwigdrums #blackbeauty
+    image:
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2024
+        id: guvol351
+    reference:
+    - postximage:
+        post: 1787844360329105565
+        image: GM-y9eqbMAAgrQg
+
+- postinstagramimage:
+    post: C6rA8WmpOvY
+    id: 2
+    label: Backstage
+    published-date: 2024-05-07
+    context:
+    - show:
+        year: 2024
+        id: guvol351
+    part-of:
+      postinstagram: C6rA8WmpOvY
+
+- postinstagramimage:
+    post: C6rA8WmpOvY
+    id: 3
+    label: Sidewalk board
+    published-date: 2024-05-07
+    context:
+    - show:
+        year: 2024
+        id: guvol351
+    part-of:
+      postinstagram: C6rA8WmpOvY
+
 - postx:
     id: 1787740918298345982
     account: shibuya_eggman
@@ -44,6 +111,33 @@
         year: 2024
         id: guvol351
 
+- postx:
+    id: 1787844360329105565
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-05-07
+    text: |-
+      Girl's UP!!! vol.351
+      @ Shibuya eggman
+      
+      ありがとうございました✌️
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.351
+      @ Shibuya eggman
+      
+      Thank you very much ✌️
+      
+      #NEKI
+    image:
+    - GM-y9eqbMAAgrQg
+    - GM-y9eua8AAKU1h
+    part-of:
+      show:
+        year: 2024
+        id: guvol351
+
 - postximage:
     post: 1787740918298345982
     id: GM9UGEVbQAEGLaw
@@ -56,6 +150,22 @@
         id: guvol351
     part-of:
       postx: 1787740918298345982
+
+- postximage:
+    post: 1787844360329105565
+    id: GM-y9eqbMAAgrQg
+    label: On stage
+    published-date: 2024-05-07
+    part-of:
+      postx: 1787844360329105565
+
+- postximage:
+    post: 1787844360329105565
+    id: GM-y9eua8AAKU1h
+    label: Sidewalk board
+    published-date: 2024-05-07
+    part-of:
+      postx: 1787844360329105565
 
 - webimage:
     domain: eggman.jp

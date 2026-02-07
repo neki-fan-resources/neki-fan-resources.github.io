@@ -66,6 +66,33 @@
         year: 2024
         id: soundsgoodvol73
 
+- postx:
+    id: 1826990576136540351
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-23
+    text: |-
+      Sounds good!! 73回目!! -アMEMURAでアNEK!とアSOBU-
+      @ アメリカ村 BEYOND
+      
+      遊んでくださりありがとうございました🌀
+      
+      #NEKI
+    translation: |-
+      Sounds good!! 73rd Time!! -A MEMURA de A NEK! to A SOBU-
+      @ America Mura BEYOND
+      
+      Thank you for playing with us 🌀
+      
+      #NEKI
+    image:
+    - GVrGPOpawAAkdj6
+    - GVrGPOpbAAAhx3u
+    part-of:
+      show:
+        year: 2024
+        id: soundsgoodvol73
+
 - postximage:
     post: 1804826253255667992
     id: GQwGBNrb0AAuARr
@@ -90,4 +117,20 @@
         id: soundsgoodvol73
     part-of:
       postx: 1826867524035653715
+
+- postximage:
+    post: 1826990576136540351
+    id: GVrGPOpawAAkdj6
+    label: On stage
+    published-date: 2024-08-23
+    part-of:
+      postx: 1826990576136540351
+
+- postximage:
+    post: 1826990576136540351
+    id: GVrGPOpbAAAhx3u
+    label: Sidewalk board
+    published-date: 2024-08-23
+    part-of:
+      postx: 1826990576136540351
 

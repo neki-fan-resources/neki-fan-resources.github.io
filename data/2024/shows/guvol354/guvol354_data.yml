@@ -44,6 +44,33 @@
         year: 2024
         id: guvol354
 
+- postx:
+    id: 1798005661328159120
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-06-04
+    text: |-
+      Girl's UP!!! vol.354
+      @ Shibuya eggman
+      
+      ありがとうございました⚡️
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.354
+      @ Shibuya eggman
+      
+      Thank you very much ⚡️
+      
+      #NEKI
+    image:
+    - GPPMnXDbMAAPIdL
+    - GPPMnXHbQAA_j6b
+    part-of:
+      show:
+        year: 2024
+        id: guvol354
+
 - postximage:
     post: 1797885211876970975
     id: GPNeja6aUAEEo7h
@@ -56,6 +83,22 @@
         id: guvol354
     part-of:
       postx: 1797885211876970975
+
+- postximage:
+    post: 1798005661328159120
+    id: GPPMnXDbMAAPIdL
+    label: On stage
+    published-date: 2024-06-04
+    part-of:
+      postx: 1798005661328159120
+
+- postximage:
+    post: 1798005661328159120
+    id: GPPMnXHbQAA_j6b
+    label: Sidewalk board
+    published-date: 2024-06-04
+    part-of:
+      postx: 1798005661328159120
 
 - webimage:
     domain: eggman.jp

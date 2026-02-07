@@ -1,3 +1,121 @@
+- postinstagram:
+    id: C-fsxWgSCgy
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-08-10
+    text: |-
+      2024.08.08
+      
+      「ハピコレ!! vol.530」@ 六本木unravel tokyo
+      に出演させていただきました⚡️
+      お越しくださった皆さまありがとうございました！！
+      
+      この日はNatsu(Gt.)の誕生日当日で、会って直接おめでとうと伝えられたのが嬉しかったな〜〜！✌🏻🌟
+      
+      ライブの最後にはファンの皆さんからなっちゃんへのハッピーバースデーの合唱もあって、幸せのおすそ分けをしてもらって心がぽかぽか暖かくなりました🌞
+      
+      NEK!を始めたからこそ出会えたメンバーと、そしてファンの皆さんと、これからはこういう人生の節目節目を一緒にお祝いできるんだ、、、それってすごく素敵なことだなぁ、、としみじみ感じながら帰路に着きました😂
+      
+      そして、この日のMC中にもご報告させていただきましたが、11/24に開催する「NEK! 2ND ONE MAN LIVE」@ Shibuya eggmanのチケットがなんとソールドしました🥲💥
+      申し込んでくれた皆さん本当に本当にありがとうございました！！！まさかのスピードでメンバーみんなとても喜んでいます！！
+      
+      もっと多くの方と一緒に遊びたいなと思っているので、年内にもう一度ワンマンライブを開催できるように今会場を探しています！続報をお待ちくださいませ🔥
+      
+      これからもいろんなことを叶えていって、その度にみんなでお祝いして、ワーキャー言い合いたいね🤝🏻
+      
+      気合いが高まる一方！頑張るぞーーー
+      
+      (最後の動画は、Hikaが撮った本番直前にイヤモニが絡まりまくってちょっと焦ってる私😂)
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.08.08
+      
+      We performed at "Hapikore!! vol.530" @ Roppongi unravel tokyo⚡️
+      Thank you to everyone who came!!
+      
+      This day was Natsu's (Gt.) actual birthday, and I was so happy I could see her and say congratulations in person!✌🏻🌟
+      
+      At the end of the live, the fans sang Happy Birthday to Nacchan, and getting to share in that happiness made my heart feel all warm and fuzzy🌞
+      
+      The members I met because I started NEK!, and the fans too—from now on, we can celebrate these life milestones together... I felt so deeply on my way home that it’s such a wonderful thing😂
+      
+      Also, as reported during the MC today, tickets for "NEK! 2ND ONE MAN LIVE" @ Shibuya eggman on 11/24 have actually sold out🥲💥
+      To everyone who applied, thank you so, so much!!! It happened at an unexpected speed and all the members are very happy!!
+      
+      Since we want to hang out with even more people, we are currently looking for a venue so that we can hold another one-man live within the year! Please wait for further news🔥
+      
+      I want to keep making various things come true, celebrate every time with everyone, and keep getting excited together🤝🏻
+      
+      My motivation just keeps rising! I’m gonna give it my all—
+      
+      (The last video is me, filmed by Hika, getting a bit panicked right before the show because my in-ear monitors were totally tangled😂)
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 4
+    video:
+    - 5
+    part-of:
+      show:
+        year: 2024
+        id: hapikorevol350
+    reference:
+    - postximage:
+        post: 1821551135074979992
+        image: GUdzGZ2W4AA9fDw
+
+- postinstagramimage:
+    post: C-fsxWgSCgy
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2024-08-10
+    context:
+    - show:
+        year: 2024
+        id: hapikorevol350
+    part-of:
+      postinstagram: C-fsxWgSCgy
+
+- postinstagramimage:
+    post: C-fsxWgSCgy
+    id: 2
+    label: On stage
+    published-date: 2024-08-10
+    context:
+    - show:
+        year: 2024
+        id: hapikorevol350
+    part-of:
+      postinstagram: C-fsxWgSCgy
+
+- postinstagramimage:
+    post: C-fsxWgSCgy
+    id: 4
+    label: Backstage
+    published-date: 2024-08-10
+    context:
+    - show:
+        year: 2024
+        id: hapikorevol350
+    part-of:
+      postinstagram: C-fsxWgSCgy
+
+- postinstagramvideo:
+    post: C-fsxWgSCgy
+    id: 5
+    label: On stage
+    published-date: 2024-08-10
+    context:
+    - show:
+        year: 2024
+        id: hapikorevol350
+    part-of:
+      postinstagram: C-fsxWgSCgy
+
 - postx:
     id: 1804448780873519192
     account: nekiband_jp
@@ -32,6 +150,32 @@
         year: 2024
         id: hapikorevol350
 
+- postx:
+    id: 1821551135074979992
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-08
+    text: |-
+      ハピコレ!!vol.530
+      @ 六本木unravel tokyo
+      
+      ありがとうございました❤️‍🔥
+      
+      #NEKI
+    translation: |-
+      Hapikore!! vol.530
+      @ Roppongi unravel tokyo
+      
+      Thank you very much ❤️‍🔥
+      
+      #NEKI
+    image:
+    - GUdzGZ2W4AA9fDw
+    part-of:
+      show:
+        year: 2024
+        id: hapikorevol350
+
 - postximage:
     post: 1804448780873519192
     id: GQqwmSwbYAAMkZ6
@@ -44,6 +188,14 @@
         id: hapikorevol350
     part-of:
       postx: 1804448780873519192
+
+- postximage:
+    post: 1821551135074979992
+    id: GUdzGZ2W4AA9fDw
+    label: On stage
+    published-date: 2024-08-08
+    part-of:
+      postx: 1821551135074979992
 
 - youtubeshort:
     id: E86WMvLxCms

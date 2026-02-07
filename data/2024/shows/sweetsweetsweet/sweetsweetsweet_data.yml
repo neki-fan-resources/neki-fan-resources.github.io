@@ -1,4 +1,56 @@
 - postinstagram:
+    id: C7MjVPeRGlL
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-05-20
+    text: |-
+      2024.05.20
+      
+      本日はSweet!Sweet!Sweet! に出演させていただきました！
+      お越しくださった皆様ありがとうございました！！
+      いつにも増してグローバルな空間で、物販にもたくさん海外の方が来てくださって嬉しかったです🌏🤘🏻
+      終始Thank you!とSorry...!しか言えなくて、ちゃんと英語勉強しなきゃなと思った笑
+      
+      7/20(月)もここでやるのかー！と思いながら今日ステージに立ってて、イメージが少しずつ膨らんできてよりワンマンが楽しみになりました🔥
+      
+      課題も山ほどあるし、もっともっと皆さんに楽しんでいただけるライブができるように引き続き頑張ります！！
+      
+      次回は6/3(月)、SHIBUYA THE GAMEさんにて行われる対バンライブ「#FYP ~For You Place~ DAY1」でお待ちしてます！！またねー！！
+      
+      ※3枚目 かなでん早退したので不在です！🙏🏻
+      
+      #neki #nekiband #girlsband #shelter #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.05.20
+      
+      We performed at Sweet!Sweet!Sweet! today!
+      Thank you to everyone who came!!
+      It was a more global atmosphere than usual, and I was happy that many people from overseas came to the merch booth🌏🤘🏻
+      I could only say "Thank you!" and "Sorry...!" the whole time, so I thought I really need to study English lol
+      
+      I stood on stage today thinking, "We're doing it here on 7/20 (Mon) too!" and as my vision for it grew bit by bit, I got even more excited for the solo show🔥
+      
+      There are a mountain of challenges, and I'll continue to do my best so we can put on lives that everyone can enjoy even more!!
+      
+      Next time is 6/3 (Mon), we'll be waiting for you at the battle-of-the-bands live "#FYP ~For You Place~ DAY1" at SHIBUYA THE GAME!! See you!!
+      
+      *3rd photo: Kanaden is missing because she had to leave early!🙏🏻
+      
+      #neki #nekiband #girlsband #shelter #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2024
+        id: sweetsweetsweet
+    reference:
+    - postximage:
+        post: 1792569210633441746
+        image: GOB8MWDbsAEx48x
+
+- postinstagram:
     id: C7Mq24GBNPA
     account: natsu08_guitar
     label: Short report
@@ -21,8 +73,6 @@
       #nekiband #girlsband #shelter #shimokitazawashelter
     image:
     - 1
-    - 2
-    - 3
     part-of:
       show:
         year: 2024
@@ -31,21 +81,27 @@
     - postximage:
         post: 1792569210633441746
         image: GOB8MWDbsAEx48x
+    - postinstagramimage:
+        post: C7MjVPeRGlL
+        image: 1
+    - postinstagramimage:
+        post: C7MjVPeRGlL
+        image: 3
 
 - postinstagramimage:
-    post: C7Mq24GBNPA
+    post: C7MjVPeRGlL
     id: 1
-    label: Venue
+    label: On stage
     published-date: 2024-05-20
     context:
     - show:
         year: 2024
         id: sweetsweetsweet
     part-of:
-      postinstagram: C7Mq24GBNPA
+      postinstagram: C7MjVPeRGlL
 
 - postinstagramimage:
-    post: C7Mq24GBNPA
+    post: C7MjVPeRGlL
     id: 2
     label: On stage
     published-date: 2024-05-20
@@ -54,12 +110,24 @@
         year: 2024
         id: sweetsweetsweet
     part-of:
-      postinstagram: C7Mq24GBNPA
+      postinstagram: C7MjVPeRGlL
+
+- postinstagramimage:
+    post: C7MjVPeRGlL
+    id: 3
+    label: Backstage
+    published-date: 2024-05-20
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet
+    part-of:
+      postinstagram: C7MjVPeRGlL
 
 - postinstagramimage:
     post: C7Mq24GBNPA
-    id: 3
-    label: Backstage
+    id: 1
+    label: Venue
     published-date: 2024-05-20
     context:
     - show:

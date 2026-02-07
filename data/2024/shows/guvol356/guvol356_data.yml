@@ -1,3 +1,86 @@
+- postinstagram:
+    id: C8UuJVjSLSm
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-06-17
+    text: |-
+      2024.06.17
+      
+      Girl's UP!!! Vol.356に出演させていただきました！
+      お越しくださった皆様ありがとうございました🌷
+      
+      週あたまからたくさんの方にお越しいただいて、すごく嬉しかったです！
+      今日からまた１週間頑張れ〜！！という思いを音に乗せて送らせていただきました🥁届いてたらいいなっ
+      
+      今月はたくさんライブに出演させていただいてて、すごく充実した日々を過ごしています。1ヶ月経つのがすごく早い。
+      
+      ライブ本数が増えてきたからこそよりひとつひとつのライブを大切に、これからも張り切っていきますので応援よろしくお願いします🔥
+      
+      次のライブは、6/24(Mon)「Beyond The Singularity vol.6」@ 初台DOORSです！お待ちしてます👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.06.17
+      
+      We performed at Girl's UP!!! Vol.356!
+      Thank you to everyone who came🌷
+      
+      I was so happy that so many people came out at the start of the week!
+      I put my feelings into the sound to say, "Good luck with your week starting today~!!" 🥁 I hope it reached you.
+      
+      We're performing in many lives this month, and I'm spending very fulfilling days. The month is going by so fast.
+      
+      Precisely because the number of lives is increasing, I will cherish each and every show and continue to give it my all, so please keep supporting us🔥
+      
+      The next live is 6/24 (Mon) "Beyond The Singularity vol.6" @ Hatsudai DOORS! We'll be waiting for you👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2024
+        id: guvol356
+
+- postinstagramimage:
+    post: C8UuJVjSLSm
+    id: 1
+    label: On stage
+    published-date: 2024-06-17
+    context:
+    - show:
+        year: 2024
+        id: guvol356
+    part-of:
+      postinstagram: C8UuJVjSLSm
+
+- postinstagramimage:
+    post: C8UuJVjSLSm
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2024-06-17
+    context:
+    - show:
+        year: 2024
+        id: guvol356
+    part-of:
+      postinstagram: C8UuJVjSLSm
+
+- postinstagramimage:
+    post: C8UuJVjSLSm
+    id: 3
+    label: Backstage
+    published-date: 2024-06-17
+    context:
+    - show:
+        year: 2024
+        id: guvol356
+    part-of:
+      postinstagram: C8UuJVjSLSm
+
 - postx:
     id: 1802603553820643416
     account: shibuya_eggman

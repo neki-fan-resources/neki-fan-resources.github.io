@@ -1,3 +1,85 @@
+- postinstagram:
+    id: C9AJPAFJTbm
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-07-04
+    text: |-
+      2024.07.03
+      
+      「Beyond The Singularity vol.7」に出演いたしました🥀
+      お越しくださった皆様ありがとうございました！！
+      
+      2度目ましての初台DOORSさん！ステージが高いから皆さんの表情がよく見えて楽しかったです！
+      MCで、令現少女のMusic Videoをこのあと21:00に公開するっていうことを直接伝えられて嬉しかったし、そのあと物販で皆さんの感想を直接聴けたのもリアルタイムで令現少女という楽曲を共有し合っている実感がして嬉しかったな🤤
+      
+      ライブをする度に課題が見つかる日々。これからもひたむきに努力を重ねて理想の姿になってやるぞー。成長期の我々をこれからもよろしくね🌱
+      
+      次回のライブは7/15(Mon)両国SUNRIZEで行われる「Drive You Crazy vol.7」です！またね👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.07.03
+      
+      We performed at "Beyond The Singularity vol.7"🥀
+      Thank you to everyone who came!!
+      
+      Our second time at Hatsudai DOORS! The stage is high, so I could see all of your expressions clearly, and it was fun!
+      I was happy to announce directly during the MC that the Music Video for "Reigen Shoujo" would be released afterward at 21:00, and hearing your impressions in person at the merch booth after made me feel like we were sharing the song in real-time, which was great🤤
+      
+      Every time we play a live, I find new challenges. I'm going to keep putting in the effort to become my ideal self. Please keep supporting us in our growth period🌱
+      
+      The next live is "Drive You Crazy vol.7" at Ryogoku SUNRIZE on 7/15 (Mon)! See you then👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol7
+    reference:
+    - postximage:
+        post: 1808509524602724490
+        image: GRkd0p9acAAJY-7
+
+- postinstagramimage:
+    post: C9AJPAFJTbm
+    id: 2
+    label: On stage
+    published-date: 2024-07-04
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
+    part-of:
+      postinstagram: C9AJPAFJTbm
+
+- postinstagramimage:
+    post: C9AJPAFJTbm
+    id: 3
+    label: Backstage
+    published-date: 2024-07-04
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
+    part-of:
+      postinstagram: C9AJPAFJTbm
+
+- postinstagramimage:
+    post: C9AJPAFJTbm
+    id: 4
+    label: Sidewalk board
+    published-date: 2024-07-04
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
+    part-of:
+      postinstagram: C9AJPAFJTbm
+
 - postx:
     id: 1801875706387042707
     account: nekiband_jp
@@ -30,6 +112,33 @@
         year: 2024
         id: beyondthesingularityvol7
 
+- postx:
+    id: 1808509524602724490
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-07-03
+    text: |-
+      Beyond The Singularity vol.7
+      @初台DOORS
+      
+      ありがとうございました🎂
+      
+      #NEKI
+    translation: |-
+      Beyond The Singularity vol.7
+      @ Hatsudai DOORS
+      
+      Thank you very much🎂
+      
+      #NEKI
+    image:
+    - GRkd0p9acAAJY-7
+    - GRkd0p8agAEcffW
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol7
+
 - postximage:
     post: 1801875706387042707
     id: GQGMZ2dbEAIITAx
@@ -42,4 +151,20 @@
         id: beyondthesingularityvol7
     part-of:
       postx: 1801875706387042707
+
+- postximage:
+    post: 1808509524602724490
+    id: GRkd0p8agAEcffW
+    label: Sidewalk board
+    published-date: 2024-07-03
+    part-of:
+      postx: 1808509524602724490
+
+- postximage:
+    post: 1808509524602724490
+    id: GRkd0p9acAAJY-7
+    label: On stage
+    published-date: 2024-07-03
+    part-of:
+      postx: 1808509524602724490
 

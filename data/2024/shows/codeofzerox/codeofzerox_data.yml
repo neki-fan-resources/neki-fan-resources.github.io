@@ -1,3 +1,71 @@
+- postinstagram:
+    id: C8PVZAzpNQG
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-06-15
+    text: |-
+      2024.06.15
+      
+      CODE OF ZERO X 東名阪TOUR@ 下北沢ReGに出演いたしました！
+      お越しくださった皆様ありがとうございました🙏🏻🔥
+      フロアは今日も激アツだったねー！！初モッシュも起こってて嬉しかったです。体張ってくれてありがとう笑
+      
+      今回ツアーに呼んでくださったCODE OF ZERO Xさん本当にありがとうございました！
+      
+      次回のライブは明後日Girl's UP!!! vol.356！Shibuya eggmanでお待ちしております👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.06.15
+      
+      We performed at CODE OF ZERO X Tomeihan TOUR @ Shimokitazawa ReG!
+      Thank you to everyone who came!!🙏🏻🔥
+      The floor was super hot again today!! I was happy to see the first mosh pit happening. Thanks for putting your bodies on the line lol
+      
+      Thank you so much to CODE OF ZERO X for inviting us on this tour!
+      
+      The next live is the day after tomorrow, Girl's UP!!! vol.356! We'll be waiting for you at Shibuya eggman👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2024
+        id: codeofzerox
+    reference:
+    - postximage:
+        post: 1801973573202190647
+        image: GQHlZ-HbQAAGhlb
+    - postximage:
+        post: 1801973573202190647
+        image: GQHlZ-IasAAKNyN
+
+- postinstagramimage:
+    post: C8PVZAzpNQG
+    id: 2
+    label: On stage
+    published-date: 2024-06-15
+    context:
+    - show:
+        year: 2024
+        id: codeofzerox
+    part-of:
+      postinstagram: C8PVZAzpNQG
+
+- postinstagramimage:
+    post: C8PVZAzpNQG
+    id: 3
+    label: Backstage
+    published-date: 2024-06-15
+    context:
+    - show:
+        year: 2024
+        id: codeofzerox
+    part-of:
+      postinstagram: C8PVZAzpNQG
+
 - postx:
     id: 1799743432564654547
     account: cozcoz_coz
@@ -47,6 +115,33 @@
         year: 2024
         id: codeofzerox
 
+- postx:
+    id: 1801973573202190647
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-06-15
+    text: |-
+      「CODE OF ZERO X 東名阪TOUR」
+      @下北沢ReG
+      
+      ありがとうございました🦋
+      
+      #codeofzero #NEKI
+    translation: |-
+      "CODE OF ZERO X Tokyo/Nagoya/Osaka TOUR"
+      @Shimokitazawa ReG
+      
+      Thank you very much 🦋
+      
+      #codeofzero #NEKI
+    image:
+    - GQHlZ-HbQAAGhlb
+    - GQHlZ-IasAAKNyN
+    part-of:
+      show:
+        year: 2024
+        id: codeofzerox
+
 - postximage:
     post: 1799743432564654547
     id: GPnhi6wbsAAbB-I
@@ -71,4 +166,20 @@
         id: codeofzerox
     part-of:
       postx: 1799743432564654547
+
+- postximage:
+    post: 1801973573202190647
+    id: GQHlZ-HbQAAGhlb
+    label: On stage
+    published-date: 2024-06-15
+    part-of:
+      postx: 1801973573202190647
+
+- postximage:
+    post: 1801973573202190647
+    id: GQHlZ-IasAAKNyN
+    label: Sidewalk board
+    published-date: 2024-06-15
+    part-of:
+      postx: 1801973573202190647
 

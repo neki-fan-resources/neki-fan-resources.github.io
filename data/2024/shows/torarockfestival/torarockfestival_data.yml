@@ -1,3 +1,106 @@
+- postinstagram:
+    id: C_Vf6t8SRBg
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-08-31
+    text: |-
+      2024.08.31
+      
+      「ラストランプpresents. トラROCK FESTIVAL」
+      に出演いたしました！
+      お越しくださった皆様ありがとうございました🐯⚡️
+      
+      まず、、開催できてよかったねーーー！！！！
+      当日までどうなるかわからない天候だったけど、みんなの願いが届いたのか晴れたね🌞
+      
+      火曜日に引き続き、本日もサーキットイベントに参加させていただきましたがやっぱりサーキットは楽しい！！
+      なんと言うか、NEK!のファンになりきってない。でも気になってはいる。みたいな方がたくさん集まっている空間でNEK!の音をお届けできるという状況が、、いい意味でヒリヒリして最高な感覚で、もはや病みつきになってきてる😂
+      
+      物販にも初めてNEK!のライブを観に来たという方がたくさんいらっしゃってて、特に今日はいろんな国から観に来てくださってて、NEK!の輪がだんだん広まっていっているのを実感しました！嬉し〜
+      
+      今後もありがたいことに各地で対バン出演し続けるし、年末にはワンマンが2回もあるから、NEK!のこと気になってる人はどんどん会いに来てほしいなと思ってます！！てか私たちが会いたい！！！気合い入れて待ってます！！！
+      
+      今回お呼びくださった主催のラストランプさん、本当にありがとうございました！！これからもいろんなところでお会いできたら嬉しいです🥹
+      
+      次のライブは、9/8(Sun)
+      「LIVEHOLIC 9th Anniversaryseries~Ring! Ring! Ring!~」
+      @ 下北沢LIVEHOLIC です！またね👋🏻❤️‍🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.08.31
+      
+      We appeared at
+      "Last Lamp presents. Tora ROCK FESTIVAL"!
+      Thank you so much to everyone who came out🐯⚡️
+      
+      First of all... I'm so glad we could hold the event!!!!
+      The weather was unpredictable until the day of, but maybe everyone's wishes reached the sky because it cleared up🌞
+      
+      Following Tuesday, we participated in another circuit event today, and as I thought, circuits are so fun!!
+      How should I put it... performing in a space filled with people who aren't fully NEK! fans yet, but are interested—being able to deliver NEK!'s sound in that situation gives me a thrilling sensation in a good way, and it's becoming addictive😂
+      
+      Lots of people who saw NEK! live for the first time came to the merch booth, and today especially, people from many different countries came to watch, so I really felt the circle of NEK! gradually expanding! So happy~
+      
+      Thankfully, we’ll continue to play joint shows in various places, and we have two one-man live shows at the end of the year, so I want people who are curious about NEK! to come see us more and more!! Actually, we want to see you!!! We'll be waiting with full spirit!!!
+      
+      To the organizers, Last Lamp-san, who invited us this time, thank you so much!! I hope we can meet again in many different places🥹
+      
+      The next live is 9/8(Sun)
+      "LIVEHOLIC 9th Anniversary series~Ring! Ring! Ring!~"
+      @ Shimokitazawa LIVEHOLIC! See you later👋🏻❤️‍🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    part-of:
+      show:
+        year: 2024
+        id: torarockfestival
+    reference:
+    - postximage:
+        post: 1829787584555586011
+        image: GWS2G-SWgAAH7Ld
+    - postximage:
+        post: 1829787584555586011
+        image: GWS2G-MW8AImdM_
+
+- postinstagramimage:
+    post: C_Vf6t8SRBg
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2024-08-31
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
+    part-of:
+      postinstagram: C_Vf6t8SRBg
+
+- postinstagramimage:
+    post: C_Vf6t8SRBg
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2024-08-31
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
+    part-of:
+      postinstagram: C_Vf6t8SRBg
+
+- postinstagramimage:
+    post: C_Vf6t8SRBg
+    id: 5
+    label: Backstage
+    published-date: 2024-08-31
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
+    part-of:
+      postinstagram: C_Vf6t8SRBg
+
 - postx:
     id: 1799063840925315512
     account: TOLAROCK_FES
@@ -118,6 +221,33 @@
         year: 2024
         id: torarockfestival
 
+- postx:
+    id: 1829787584555586011
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-31
+    text: |-
+      ラストランプpresents. トラROCK FESTIVAL
+      @ 下北沢CLUB251
+      
+      ありがとうございました🫶
+      
+      #NEKI #トラロックフェス
+    translation: |-
+      Last Lamp presents. Tora ROCK FESTIVAL
+      @ Shimokitazawa CLUB251
+      
+      Thank you🫶
+      
+      #NEKI #ToraRockFes
+    image:
+    - GWS2G-MW8AImdM_
+    - GWS2G-SWgAAH7Ld
+    part-of:
+      show:
+        year: 2024
+        id: torarockfestival
+
 - postximage:
     post: 1799063840925315512
     id: GPePBkmbcAEVfyW
@@ -166,4 +296,20 @@
         id: torarockfestival
     part-of:
       postx: 1814905384324505953
+
+- postximage:
+    post: 1829787584555586011
+    id: GWS2G-MW8AImdM_
+    label: On stage
+    published-date: 2024-08-31
+    part-of:
+      postx: 1829787584555586011
+
+- postximage:
+    post: 1829787584555586011
+    id: GWS2G-SWgAAH7Ld
+    label: On stage
+    published-date: 2024-08-31
+    part-of:
+      postx: 1829787584555586011
 

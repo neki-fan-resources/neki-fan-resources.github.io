@@ -1,3 +1,136 @@
+- postinstagram:
+    id: C70dE55RG08
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-06-05
+    text: |-
+      2024.06.03 / 2024.06.04
+      
+      「#FYP『For You Place』 -DAY1-」@ SHIBUYA THE GAME
+      「Girl's UP!!! Vol.354」@ Shibuya eggman
+      
+      にお越しくださった皆様ありがとうございました！
+      対バンライブに連日出演させていただいて、とても充実した2日間でした🔥
+      ライブしていると皆さんのステージに向ける屈託のない笑顔から本当にパワーをいただいているなと実感します。
+      私たちも皆さんにたくさんのパワーをお届けできるよう、ひとつひとつのライブを大切にしてこれからも精一杯頑張ります！！！！
+      
+      NEK! 1st EP「EXCLAMAT!ON」のリリースも発表しました！発売に先がけて早速ティザーも公開し、皆さんの反応が嬉しい日々です☺️
+      
+      次回は6/7(Fri) 「POP OUT!!vol.11」@六本木unravel tokyoです❤️‍🔥 初箱楽しみ！お待ちしてます！！
+      
+      そして、7/20ワンマンのチケットがもうすぐソールドします！手売りチケットは残りわずかですが数枚残っているので、駆け込み間に合いますよー！
+      ぜひぜひNEK!と一緒に夏の思い出を作りましょう🌻
+      
+      #neki #neki_band #girlsband #drum #drummer #femaledrummer #girldrummer #thegame #eggman
+    translation: |-
+      2024.06.03 / 2024.06.04
+      
+      Thank you to everyone who came to
+      "#FYP『For You Place』 -DAY1-" @ SHIBUYA THE GAME
+      and "Girl's UP!!! Vol.354" @ Shibuya eggman!
+      
+      It was a very fulfilling two days performing in battle-of-the-bands events back-to-back🔥
+      When we're performing, I truly feel like I'm receiving power from all of your carefree smiles directed at the stage.
+      To make sure we deliver plenty of power back to you, we'll continue to do our absolute best and cherish every single live show!!!!
+      
+      We also announced the release of NEK! 1st EP "EXCLAMAT!ON"! We released the teaser right away ahead of the sale, and seeing your reactions every day makes me happy☺️
+      
+      Next time is 6/7 (Fri) "POP OUT!!vol.11" @ Roppongi unravel tokyo❤️‍🔥 Excited for our first time at this venue! We'll be waiting for you!!
+      
+      Also, tickets for the 7/20 solo show are almost sold out! There are only a few hand-sold tickets left, so you can still make it in time!
+      Let's definitely make some summer memories together with NEK!🌻
+      
+      #neki #neki_band #girlsband #drum #drummer #femaledrummer #girldrummer #thegame #eggman
+    image:
+    - 2
+    - 5
+    part-of:
+      show:
+        year: 2024
+        id: fypday1
+    reference:
+    - show:
+        year: 2024
+        id: guvol354
+    - postximage:
+        post: 1797630863351709848
+        image: GPJ3vKGbEAEs0-Q
+    - postximage:
+        post: 1797630863351709848
+        image: GPJ3vKGaQAAR7bp
+    - postximage:
+        post: 1798005661328159120
+        image: GPPMnXDbMAAPIdL
+    - postximage:
+        post: 1798005661328159120
+        image: GPPMnXHbQAA_j6b
+    - webimage:
+        domain: note.com.nekiband
+        page: n323cfbbfa77f
+        id: epcover
+    - webimage:
+        domain: note.com.nekiband
+        page: n323cfbbfa77f
+        id: title
+
+- postinstagram:
+    id: C7x1LblvKPz
+    account: cure_bass_baka
+    label: Photos
+    published-date: 2024-06-04
+    text: |-
+      6/3『#FYP』 -DAY1-
+      @ SHIBUYA THE GAME
+      
+      📸✨️
+      
+      #NEKI #bassplayer
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: fypday1
+
+- postinstagramimage:
+    post: C70dE55RG08
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2024-06-05
+    context:
+    - show:
+        year: 2024
+        id: fypday1
+    part-of:
+      postinstagram: C70dE55RG08
+
+- postinstagramimage:
+    post: C70dE55RG08
+    id: 5
+    label: On stage
+    info: Cocoro
+    published-date: 2024-06-05
+    context:
+    - show:
+        year: 2024
+        id: guvol354
+    part-of:
+      postinstagram: C70dE55RG08
+
+- postinstagramimage:
+    post: C7x1LblvKPz
+    id: 1
+    label: On stage
+    info: Kanade
+    published-date: 2024-06-04
+    context:
+    - show:
+        year: 2024
+        id: fypday1
+    part-of:
+      postinstagram: C7x1LblvKPz
+
 - postx:
     id: 1797140895449673780
     account: SHIBUYATHEGAME
@@ -48,6 +181,27 @@
         year: 2024
         id: fypday1
 
+- postx:
+    id: 1797630863351709848
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-06-03
+    text: |-
+      SHIBUYA THE GAME presents
+      #FYP「For You Place」-DAY1-
+      @ SHIBUYA THE GAME
+      
+      ありがとうございました❣️
+      
+      #NEKI
+    image:
+    - GPJ3vKGbEAEs0-Q
+    - GPJ3vKGaQAAR7bp
+    part-of:
+      show:
+        year: 2024
+        id: fypday1
+
 - postximage:
     post: 1797140895449673780
     id: GPC59ywaoAA_Sdl
@@ -60,4 +214,20 @@
         id: fypday1
     part-of:
       postx: 1797140895449673780
+
+- postximage:
+    post: 1797630863351709848
+    id: GPJ3vKGaQAAR7bp
+    label: Posters
+    published-date: 2024-06-03
+    part-of:
+      postx: 1797630863351709848
+
+- postximage:
+    post: 1797630863351709848
+    id: GPJ3vKGbEAEs0-Q
+    label: On stage
+    published-date: 2024-06-03
+    part-of:
+      postx: 1797630863351709848
 

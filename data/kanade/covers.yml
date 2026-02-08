@@ -1,5 +1,16 @@
-group:
-  id: covers
-  label: Covers
-  part-of:
-    group: kanade
+- group:
+    id: covers
+    label: Covers
+    part-of:
+      group: kanade
+
+- youtubeshort:
+    id: czCzPEMToME
+    label: 残機 / ずっと真夜中でいいのに。
+    info: cover
+    published-date: 2024-01-14
+    part-of:
+      group:
+        id: covers
+        group: kanade
+

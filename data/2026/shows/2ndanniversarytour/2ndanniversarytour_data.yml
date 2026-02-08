@@ -62,6 +62,49 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postinstagram:
+    id: DUczOG9EZm-
+    account: nekiband_jp
+    label: Tomorrow
+    published-date: 2026-02-07
+    text: |-
+      初の全国ツアー初日公演まで…
+      あと1日🔥
+      
+      いよいよ明日開幕です！
+      各地で皆さまにお会いできることを楽しみにしています🫶✨
+      
+      #NewInNEKI
+      #NEKI
+      #ネキミーム
+      #ガールズバンド
+      #NewMerch
+    translation: |-
+      Only 1 day left...
+      until the first performance of our first national tour🔥
+      
+      It finally opens tomorrow!
+      We are looking forward to seeing everyone in each location🫶✨
+      
+      #NewInNEKI
+      #NEKI
+      #NEKI_MEME
+      #GIRLSBAND
+      #NewMerch
+    part-of:
+      tour: 2ndanniversarytour
+
+- postinstagramimage:
+    post: DUczOG9EZm-
+    id: 1
+    label: Merch
+    info: t-shirt, towel
+    published-date: 2026-02-07
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postinstagram: DUczOG9EZm-
+
 - postx:
     id: 1976200916698267749
     account: nekiband_jp
@@ -318,6 +361,36 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postx:
+    id: 2020105591847256092
+    account: nekiband_jp
+    label: Special Sticker
+    published-date: 2026-02-07
+    text: |-
+      💿GOODS INFO💿
+      
+      全国ツアーの各会場にて
+      対象のCDをご購入いただきました方に特製ステッカーをプレゼント🎁
+      
+      ぜひチェックお願いいたします☑️
+      
+      #NEKI
+    translation: |-
+      💿GOODS INFO💿
+      
+      At each venue of the national tour,
+      those who purchase eligible CDs will receive a special sticker as a gift🎁
+      
+      Please be sure to check it out☑️
+      
+      #NEKI
+    image:
+    - HAjbUzjacAA-Q6p
+    part-of:
+      tour: 2ndanniversarytour
+    reference:
+    - postx: 2020058478690349279
+
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
@@ -341,6 +414,16 @@
         id: minamiwheel
     part-of:
       postx: 2012118908707451306
+
+- postximage:
+    post: 2020105591847256092
+    id: HAjbUzjacAA-Q6p
+    label: Special sticker
+    published-date: 2026-02-07
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postx: 2020105591847256092
 
 - postxvideo:
     post: 1976295615287132520

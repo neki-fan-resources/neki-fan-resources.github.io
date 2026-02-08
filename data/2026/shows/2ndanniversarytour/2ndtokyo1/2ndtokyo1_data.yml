@@ -116,6 +116,54 @@
     part-of:
       postx: 2017932429278023990
 
+- postx:
+    id: 2020058478690349279
+    account: nekiband_jp
+    label: Weather should be better in the afternoon
+    published-date: 2026-02-07
+    text: |-
+      2/8(日) @ 東京・shibuya eggman
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      全国ツアー初日！
+      THANK YOU SOLD OUT🔥
+      
+      明日の公演につきまして、
+      午後には天気が回復する予報のため、
+      予定通り開催いたします。
+      
+      ご来場の皆さま、
+      お足元にお気をつけてお越しください🔔
+      
+      https://note.com/nekiband_jp/n/n67510ac0749d
+      
+      #NEKI
+    translation: |-
+      2/8(Sun) @ Tokyo・shibuya eggman
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      First day of the national tour!
+      THANK YOU SOLD OUT🔥
+      
+      Regarding tomorrow's performance,
+      as the weather is forecast to improve in the afternoon,
+      it will be held as scheduled.
+      
+      To everyone attending,
+      please watch your step as you come to the venue🔔
+      
+      https://note.com/nekiband_jp/n/n67510ac0749d
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+    reference:
+    - postximage:
+        post: 2014972494361645385
+        image: G_adQ2YbAAIeZhI
+
 - postximage:
     post: 2014972494361645385
     id: G_adQ2YbAAIeZhI

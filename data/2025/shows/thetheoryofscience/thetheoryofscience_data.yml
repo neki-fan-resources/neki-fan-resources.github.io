@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: QXo4xKZNEH0
                 - postxvideo:
                     post: 1991492012319936946
                     video: 01
@@ -877,6 +878,20 @@
     - show:
         year: 2025
         id: thetheoryofscience
+    part-of:
+      show:
+        year: 2025
+        id: thetheoryofscience
+
+- youtubeshort:
+    id: QXo4xKZNEH0
+    label: On stage
+    published-date: 2026-02-06
+    context:
+    - show:
+        year: 2025
+        id: thetheoryofscience
+    - song: maze
     part-of:
       show:
         year: 2025

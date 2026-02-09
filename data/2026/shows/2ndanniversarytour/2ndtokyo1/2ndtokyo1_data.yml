@@ -1,3 +1,186 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndtokyo1
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 9iFTX1omYIY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020466429263294841
+                    image: HAoiWkUaQAA_n-v
+                - postinstagramimage:
+                    post: DUgCu6vkjnl
+                    image: 2
+                - postinstagramimage:
+                    post: DUgCu6vkjnl
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020518012026060854
+                    image: HApSajiagAA6b1O
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020510409585729857
+                    image: HApLgZZbUAACtE0
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020706932638859334
+                    image: HAr-Olza0AA8x7t
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020505544453484875
+                    image: HApHE15bYAAn9Vt
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020518012026060854
+                    image: HApSajibcAALBcC
+                - postinstagramimage:
+                    post: DUgCu6vkjnl
+                    image: 3
+                - postinstagramimage:
+                    post: DUgCu6vkjnl
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020527061924761982
+                    image: HApapWfaQAEfO9k
+                - postximage:
+                    post: 2020466429263294841
+                    image: HAoiVg0asAAJUV4
+                - postximage:
+                    post: 2020510409585729857
+                    image: HApLgZXboAAaZ3m
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020527061924761982
+                    image: HApapWgbAAAI8FX
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2020405221999226922
+                    image: HAnrhAlacAAW7SI
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- postinstagram:
+    id: DUgCu6vkjnl
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-02-08
+    text: |-
+      2026.2.8(Sun.)
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @東京・shibuya eggman
+      
+      💥THANK YOU SOLD OUT💥
+      
+      初の全国ツアー初日🫶✨
+      ご来場いただきありがとうございました💖
+      
+      今後の全国11公演
+      チケット一般発売中🎪
+      
+      #NEKI #ネキミーム
+    translation: |-
+      2026.2.8(Sun.)
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @Tokyo · shibuya eggman
+      
+      💥THANK YOU SOLD OUT💥
+      
+      The first day of our first nationwide tour🫶✨
+      Thank you so much for coming💖
+      
+      Upcoming 11 nationwide performances
+      Tickets now on general sale🎪
+      
+      #NEKI #NEKIMeme
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+    reference:
+    - postximage:
+        post: 2020466429263294841
+        image: HAoiVg0asAAJUV4
+
+- postinstagramimage:
+    post: DUgCu6vkjnl
+    id: 2
+    label: On stage
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUgCu6vkjnl
+
+- postinstagramimage:
+    post: DUgCu6vkjnl
+    id: 3
+    label: On stage
+    info: encore
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUgCu6vkjnl
+
+- postinstagramimage:
+    post: DUgCu6vkjnl
+    id: 4
+    label: On stage
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUgCu6vkjnl
+
+- postinstagramimage:
+    post: DUgCu6vkjnl
+    id: 5
+    label: On stage
+    info: t-shirt
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUgCu6vkjnl
+
 - postx:
     id: 2014972494361645385
     account: nekiband_jp
@@ -164,6 +347,236 @@
         post: 2014972494361645385
         image: G_adQ2YbAAIeZhI
 
+- postx:
+    id: 2020405221999226922
+    account: shibuya_eggman
+    label: Today
+    published-date: 2026-02-08
+    text: |-
+      ☃本日☃
+      
+      NEK! 2ND ANNIVERSARY LIVE TOUR 2026
+      
+      OPEN 17:30
+      START 18:15
+      
+      THANK YOU SOLD OUT!!!!
+      ※当日券の販売はございません。
+      
+      ご来場お待ちしております！
+      お気をつけてお越しください。
+    translation: |-
+      ☃Today☃
+      
+      NEK! 2ND ANNIVERSARY LIVE TOUR 2026
+      
+      OPEN 17:30
+      START 18:15
+      
+      THANK YOU SOLD OUT!!!!
+      *No tickets will be sold at the door.
+      
+      We look forward to seeing you there!
+      Please travel safely.
+    image:
+    - HAnrhAlacAAW7SI
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- postx:
+    id: 2020466429263294841
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-02-08
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 東京・shibuya eggman
+      
+      初の全国ツアー初日🫶✨
+      ご来場いただきありがとうございました💖
+      
+      今後の全国11公演のチケット
+      一般発売中🎪
+      
+      🎫ローチケ
+      https://l-tike.com/nekiband/
+      
+      🎫e+
+      https://eplus.jp/nekiband/
+      
+      🎫ぴあ
+      https://w.pia.jp/t/nekiband/
+      
+      #NEKI
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ Tokyo · shibuya eggman
+      
+      The first day of our first nationwide tour🫶✨
+      Thank you so much for coming💖
+      
+      Tickets for the upcoming 11 nationwide performances
+      Are now on general sale🎪
+      
+      🎫 Lawson Ticket
+      https://l-tike.com/nekiband/
+      
+      🎫 e+
+      https://eplus.jp/nekiband/
+      
+      🎫 Pia
+      https://w.pia.jp/t/nekiband/
+      
+      #NEKI
+    image:
+    - HAoiVg0asAAJUV4
+    - HAoiWkUaQAA_n-v
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- postx:
+    id: 2020505544453484875
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-02-08
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 東京・shibuya eggman
+      初日ソールド公演ありがとうございました🌟
+      雪も降ってて寒い中でしたが、南国かってくらいに熱いライブになった！！
+      みんなの声もすごく聴こえてきて、
+      たくさんの方に支えてもらっているのを改めて感じました。
+      次は横浜で会おーね！
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ Tokyo · shibuya eggman
+      Thank you for the sold-out show on the first day🌟
+      Even though it was freezing with the snow falling, the show was as hot as the tropics!!
+      I could hear everyone's voices so clearly,
+      and it made me feel once again how much support we receive from so many people.
+      See you in Yokohama next time!
+    image:
+    - HApHE15bYAAn9Vt
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+    reference:
+    - postximage:
+        post: 2020466429263294841
+        image: HAoiVg0asAAJUV4
+
+- postx:
+    id: 2020510409585729857
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-02-08
+    text: |-
+      NEK!初の全国ツアー初日！！
+      
+      みんな、ほんと最高の笑顔と歓声で
+      私たちも凄く楽しくて最高の時間でした。
+      本当にありがとうございました！
+      
+      あと11箇所っ！
+      NEK!の音楽を全国に届けていくぞぉ✌🏻 ̖́-
+    translation: |-
+      NEK!'s first nationwide tour start!!
+      
+      Everyone, with your truly amazing smiles and cheers
+      it was an incredible time and so much fun for us too.
+      Thank you so very much!
+      
+      11 more locations to go!
+      We're going to deliver NEK!'s music all across the country✌🏻 ̖́-
+    image:
+    - HApLgZXboAAaZ3m
+    - HApLgZZbUAACtE0
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- postx:
+    id: 2020518012026060854
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-02-08
+    text: |-
+      🔥ツアー初日！🔥
+      
+      足元の悪い中、eggmanに集まってくださり本当にありがとうこざいました！⛄️
+      
+      みなさんの歌声がとにかくすごくて感動しました…😭みんなでライブを作り上げるって本当に幸せだなとしみじみ感じました
+      ありがとう！！
+      
+      ファイナル、クアトロまで突き進みます！行ってきます！！
+    translation: |-
+      🔥Tour First Day! 🔥
+      
+      Thank you so much for gathering at eggman despite the bad weather! ⛄️
+      
+      Everyone's singing voices were just incredible, I was moved... 😭 I deeply felt how happy it is to create a live show together with everyone.
+      Thank you!!
+      
+      We're pushing forward all the way to the final at Quattro! Here we go!!
+    image:
+    - HApSajiagAA6b1O
+    - HApSajibcAALBcC
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- postx:
+    id: 2020527061924761982
+    account: coco_102
+    label: Thank you
+    published-date: 2026-02-08
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      初日Shibuya eggmanありがとうございました🩷
+      雪の中頑張って来てくれたみなさんに本当に感謝の気持ちでいっぱいです！！
+      
+      NEK!史上いちばん長い旅が本日幕を明けました！
+      色々な経験をして、とびっきり成長した姿で渋谷に戻って来られるよう頑張るぞ✊🏻🔥
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      Thank you so much for the first day at Shibuya eggman🩷
+      I'm truly filled with gratitude for everyone who braved the snow to come see us!!
+      
+      NEK!'s longest journey ever kicked off today!
+      I'll do my best to gain all sorts of experiences and return to Shibuya having grown like crazy✊🏻🔥
+    image:
+    - HApapWfaQAEfO9k
+    - HApapWgbAAAI8FX
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- postx:
+    id: 2020706932638859334
+    account: coco_102
+    label: During MC
+    published-date: 2026-02-09
+    text: |-
+      MCのときめっちゃみんなのこと見てます👀笑
+    translation: |-
+      I'm looking at everyone so much during the MC👀 lol
+    image:
+    - HAr-Olza0AA8x7t
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
 - postximage:
     post: 2014972494361645385
     id: G_adQ2YbAAIeZhI
@@ -213,6 +626,156 @@
     part-of:
       postx: 2017936963970699641
 
+- postximage:
+    post: 2020405221999226922
+    id: HAnrhAlacAAW7SI
+    label: Sidewalk board
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020405221999226922
+
+- postximage:
+    post: 2020466429263294841
+    id: HAoiVg0asAAJUV4
+    label: Backstage
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020466429263294841
+
+- postximage:
+    post: 2020466429263294841
+    id: HAoiWkUaQAA_n-v
+    label: On stage
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020466429263294841
+
+- postximage:
+    post: 2020505544453484875
+    id: HApHE15bYAAn9Vt
+    label: On stage
+    info: Kanade
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020505544453484875
+
+- postximage:
+    post: 2020510409585729857
+    id: HApLgZXboAAaZ3m
+    label: Backstage
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020510409585729857
+
+- postximage:
+    post: 2020510409585729857
+    id: HApLgZZbUAACtE0
+    label: On stage
+    info: Hika
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020510409585729857
+
+- postximage:
+    post: 2020518012026060854
+    id: HApSajiagAA6b1O
+    label: On stage
+    info: Natsu
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020518012026060854
+
+- postximage:
+    post: 2020518012026060854
+    id: HApSajibcAALBcC
+    label: On stage
+    info: encore
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020518012026060854
+
+- postximage:
+    post: 2020527061924761982
+    id: HApapWfaQAEfO9k
+    label: Backstage
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020527061924761982
+
+- postximage:
+    post: 2020527061924761982
+    id: HApapWgbAAAI8FX
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020527061924761982
+
+- postximage:
+    post: 2020706932638859334
+    id: HAr-Olza0AA8x7t
+    label: On stage
+    info: Cocoro, MC
+    published-date: 2026-02-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2020706932638859334
+
+- update:
+    show:
+      year: 2026
+      id: 2ndtokyo1
+    date: 2026-02-09
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
 - webimage:
     domain: note.com.nekiband
     page: n67510ac0749d
@@ -254,6 +817,20 @@
     image:
     - merch
     - merchlottery
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- youtubeshort:
+    id: 9iFTX1omYIY
+    label: Exit
+    info: encore
+    published-date: 2026-02-08
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
     part-of:
       show:
         year: 2026

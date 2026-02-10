@@ -172,6 +172,69 @@
         en:
         - I hope this kind of loneliness reaches that girl. (We are always looking for love.)
 
+- postinstagram:
+    id: DA50T5IziVl
+    account: nekiband_jp
+    label: Music Video
+    published-date: 2024-10-09
+    text: |-
+      "Loner" Music Video!!!! #NEKI #Loner
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      song: loner
+    reference:
+    - localimage:
+        multimedia-event: lonermv
+        id: mvcover
+
+- postinstagramimage:
+    post: DA50T5IziVl
+    id: 2
+    label: MV image
+    info: Cocoro
+    published-date: 2024-10-09
+    context:
+    - song: loner
+    part-of:
+      postinstagram: DA50T5IziVl
+
+- postinstagramimage:
+    post: DA50T5IziVl
+    id: 3
+    label: MV image
+    info: Kanade
+    published-date: 2024-10-09
+    context:
+    - song: loner
+    part-of:
+      postinstagram: DA50T5IziVl
+
+- postinstagramimage:
+    post: DA50T5IziVl
+    id: 4
+    label: MV image
+    info: Natsu
+    published-date: 2024-10-09
+    context:
+    - song: loner
+    part-of:
+      postinstagram: DA50T5IziVl
+
+- postinstagramimage:
+    post: DA50T5IziVl
+    id: 5
+    label: MV image
+    info: Hika
+    published-date: 2024-10-09
+    context:
+    - song: loner
+    part-of:
+      postinstagram: DA50T5IziVl
+
 - postx:
     id: 1841452746416767292
     account: nekiband_jp
@@ -275,16 +338,6 @@
     label: Music Video
     info: Cocoro focus
     published-date: 2024-10-14
-    context:
-    - song: loner
-    part-of:
-      song: loner
-
-- youtubeshort:
-    id: OA5IkJ_zL1Y
-    label: Promo
-    info: studio audio
-    published-date: 2024-10-30
     context:
     - song: loner
     part-of:

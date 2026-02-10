@@ -101,6 +101,21 @@
       postx: 1827348186039775708
 
 - youtubeshort:
+    id: OA5IkJ_zL1Y
+    label: Promo
+    info: studio audio
+    published-date: 2024-10-30
+    context:
+    - song: loner
+    - show:
+        year: 2024
+        id: wingedit
+    part-of:
+      show:
+        year: 2024
+        id: wingedit
+
+- youtubeshort:
     id: OvaY9jENatI
     label: Promo
     info: studio audio

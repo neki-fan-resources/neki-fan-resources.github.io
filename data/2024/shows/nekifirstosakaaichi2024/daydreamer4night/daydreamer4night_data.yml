@@ -1,3 +1,37 @@
+- postinstagram:
+    id: C_LNw7jvczd
+    account: cure_bass_baka
+    label: Bass-Vocals
+    info: Kanade
+    published-date: 2024-08-27
+    text: |-
+      ベースボーカルみたいなお写真。
+      
+      #NEKI #bassist
+    translation: |-
+      A photo that looks like a bass vocalist.
+      
+      #NEKI #bassist
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: daydreamer4night
+
+- postinstagramimage:
+    post: C_LNw7jvczd
+    id: 1
+    label: On stage
+    info: Kanade
+    published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: daydreamer4night
+    part-of:
+      postinstagram: C_LNw7jvczd
+
 - postx:
     id: 1825843541756752006
     account: LIVEHOUSE_VARON

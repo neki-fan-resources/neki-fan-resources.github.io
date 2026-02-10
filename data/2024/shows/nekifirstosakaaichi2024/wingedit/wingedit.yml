@@ -12,6 +12,4 @@ show:
   venue: CLUB UPSET, Nagoya
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/shibuya-eggman-tokyo-japan-4b561f7e'
   part-of:
-    group:
-      id: shows
-      group: 2024
+    tour: nekifirstosakaaichi2024

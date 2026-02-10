@@ -1,3 +1,36 @@
+- postinstagram:
+    id: C_IKLcVPFMc
+    account: cure_bass_baka
+    label: Cool photo
+    published-date: 2024-08-26
+    text: |-
+      いつもは楽しそうな写真が多いけど、たまにはクールかなでんも！
+      
+      #NEKI #bassist
+    translation: |-
+      Usually there are a lot of fun photos, but once in a while, cool Kanaden too!
+      
+      #NEKI #bassist
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: soundsgoodvol73
+
+- postinstagramimage:
+    post: C_IKLcVPFMc
+    id: 1
+    label: On stage
+    info: Kanade
+    published-date: 2026-02-09
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    part-of:
+      postinstagram: C_IKLcVPFMc
+
 - postx:
     id: 1804826253255667992
     account: nekiband_jp
@@ -133,4 +166,19 @@
     published-date: 2024-08-23
     part-of:
       postx: 1826990576136540351
+
+- youtubeshort:
+    id: XurqnHu8140
+    label: On stage
+    info: studio audio
+    published-date: 2024-09-03
+    context:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    part-of:
+      show:
+        year: 2024
+        id: soundsgoodvol73
 

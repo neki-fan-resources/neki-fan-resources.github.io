@@ -13,6 +13,4 @@ show:
   event-page: 'https://t.livepocket.jp/e/soundsgood73'
   setlistfm: 'https://www.setlist.fm/setlist/nek/2024/beyond-osaka-japan-6357c6a3'
   part-of:
-    group:
-      id: shows
-      group: 2024
+    tour: nekifirstosakaaichi2024

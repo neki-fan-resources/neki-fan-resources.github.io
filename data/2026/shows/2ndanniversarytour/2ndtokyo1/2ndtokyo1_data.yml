@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: mah36yxP8FM
                 - youtubeshort: 9iFTX1omYIY
             - multimediasubsection:
                 multimedia:
@@ -36,6 +37,12 @@
                     image: HApLgZZbUAACtE0
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DUimwdmGmOe
+                    image: 1
+                - postinstagramimage:
+                    post: DUimwdmGmOe
+                    image: 2
                 - postximage:
                     post: 2020706932638859334
                     image: HAr-Olza0AA8x7t
@@ -44,6 +51,9 @@
                 - postximage:
                     post: 2020505544453484875
                     image: HApHE15bYAAn9Vt
+                - postinstagramimage:
+                    post: DUiY3uUj_G0
+                    image: 3
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -68,9 +78,19 @@
                     image: HApLgZXboAAaZ3m
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DUivDI-khXr
+                    image: 2
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2020527061924761982
                     image: HApapWgbAAAI8FX
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DUiY3uUj_G0
+                    image: 1
         - basicsection:
             label: At the event
             subsections:
@@ -131,6 +151,188 @@
         post: 2020466429263294841
         image: HAoiVg0asAAJUV4
 
+- postinstagram:
+    id: DUiY3uUj_G0
+    account: cure_bass_baka
+    label: Kanade's report
+    published-date: 2026-02-09
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 東京・shibuya eggman⁡
+      ⁡
+      全国ツアー初日、ソールドアウトありがとうございました！
+      雪降ってて電車とか止まっちゃったり、車とかも大変だった中来てくれて嬉しかった！
+      しかも外は冷凍庫みたいな寒さしてたのに、フロア南国かと思うくらい熱かったし
+      みんなとの距離も近くて、やっぱりライブハウス大好き。
+      4/26クアトロでのファイナルは更にパワーアップして東京に帰ってきたい！
+      残り11公演、みんなからもらったパワーで頑張る！
+      ありがとー！！
+      
+      次は2/28横浜BAYSIS🌟
+      ⁡
+       #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ Tokyo・shibuya eggman⁡
+      ⁡
+      Thank you for the sold out first day of the national tour!
+      Even though the snow was falling and trains were stopped and cars were having a hard time, I was so happy you came!
+      Plus, while it was freezing like a walk-in freezer outside, the floor was so hot I thought I was in the tropics
+      We were so close to everyone, I really love live houses after all.
+      I want to come back to Tokyo even more powered up for the final at Quattro on 4/26!
+      For the remaining 11 performances, I’ll do my best with the power I got from everyone!
+      Thank you!!
+      
+      Next is 2/28 Yokohama BAYSIS
+    image:
+    - 1
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+    reference:
+    - postximage:
+        post: 2020505544453484875
+        image: HApHE15bYAAn9Vt
+
+- postinstagram:
+    id: DUimwdmGmOe
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-02-09
+    text: |-
+      2026.02.08
+      
+      🇯🇵NEK! 2nd ANNIVERSARY LIVE TOUR 2026🇯🇵
+      
+      初日Shibuya eggmanありがとうございましたー！！
+      まさかの雪景色に包まれながらの初日となりました⛄️
+      
+      凍えそうな寒さの中、私たちのライブを観に頑張ってeggmanまで来てくれて、開場するまで寒い中外で待っていてくれたり、本当に心から感謝の気持ちでいっぱいです！
+      お越しくださり本当にありがとうございました！！
+      皆さんのおかげで最高のスタートを切ることができました！
+      
+      初の全国ツアー、各地でどんな景色が見られるのか、日々どんな感情と出会えるのか、今からとても楽しみです🚗🎶
+      
+      ツアーファイナルでまた渋谷に戻ってきたときに、ひとまわりもふたまわりも成長したNEK!を皆さんにお届けできるよう残り11公演、ひとつひとつを大切にしながら乗り越えていきます！！
+      ⁡
+      次回は横浜BAYSISで遊びましょう🚢🤍
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.02.08
+      
+      🇯🇵NEK! 2nd ANNIVERSARY LIVE TOUR 2026🇯🇵
+      
+      Thank you so much for the first day at Shibuya eggman!!
+      It turned into an opening day wrapped in an unexpected snowy landscape⛄️
+      
+      In this freezing cold, I am truly filled with gratitude from the bottom of my heart for everyone who did their best to come to eggman to see our live show and waited outside in the cold until the doors opened!
+      Thank you so very much for coming!!
+      Thanks to all of you, we were able to get off to the best start!
+      
+      I'm really looking forward to seeing what kind of views we'll see in each region and what kind of emotions we'll encounter every day on our first nationwide tour🚗🎶
+      
+      By the time we return to Shibuya for the tour final, we'll get through the remaining 11 performances while cherishing each and every one, so that we can show everyone a NEK! that has grown much, much stronger!!
+      ⁡
+      Let's hang out at Yokohama BAYSIS next time🚢🤍
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+    reference:
+    - postximage:
+        post: 2020466429263294841
+        image: HAoiVg0asAAJUV4
+
+- postinstagram:
+    id: DUivDI-khXr
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2026-02-09
+    text: |-
+      .
+      2026.02.08
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026 
+      @ shibuya eggman
+      
+      ツアー初日！！！！eggman！！！
+      
+      まずは、足元の悪い中お越しくださり、本当にありがとうございました。
+      大変な思いをしながら来てくださった方もたくさんいたと思います。
+      そんなみなさんのおかげで、無事にツアー初日を迎えることができました！
+      
+      みんなの熱気、すごかった！！
+      eggman周辺の雪が溶けるんじゃないかって思うくらいの勢いで、
+      ステージから見たみなさんの姿に、たくさんのパワーをもらいました🔥
+      
+      そしてシンガロング、みんな練習してきた？！と思うぐらいすごくて
+      本当に感動したなぁ
+      たくさん声を出して、手をあげてくれて、
+      改めてライブっていいなぁと感じました。
+      
+      もうすでに、この先のツアーが楽しみで仕方がない！！！
+      NEK!にとって、きっと忘れられない思い出になると思います。
+      
+      残り11箇所
+      たくさん成長して、また東京に戻ってこられるよう全力で頑張ります！！
+      
+      そして今回、来られなかった方もいると思います。
+      残りのツアーで、もしご都合が合えばぜひ会いに来てくれたら嬉しいです！
+      
+      残りのツアーも、全力で駆け抜けるぞ！！🔥
+      
+      #NEKI #guitarist
+    translation: |-
+      .
+      2026.02.08
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026 
+      @ shibuya eggman
+      
+      Tour opening day!!!! eggman!!!
+      
+      First of all, thank you so much for coming despite the terrible weather.
+      I think many of you went through a lot of trouble just to get here.
+      Thanks to all of you, we were able to successfully kick off the tour!
+      
+      Everyone's energy was incredible!!
+      It felt powerful enough to melt the snow around eggman,
+      and I received so much power from seeing all of you from the stage🔥
+      
+      And the sing-alongs—I wondered if everyone had been practicing?! It was so amazing
+      I was truly moved.
+      Hearing all your voices and seeing your hands up,
+      it reminded me once again how great live shows are.
+      
+      I'm already so excited for the rest of the tour, I can't help it!!!
+      I'm sure this will become an unforgettable memory for NEK!.
+      
+      11 locations left
+      I'll do my absolute best to grow a lot and return to Tokyo even stronger!!
+      
+      Also, I know there are some people who couldn't make it this time.
+      If you can make it to any of the remaining tour dates, I'd be so happy if you came to see us!
+      
+      We’re going to run through the rest of this tour with everything we've got!!🔥
+      
+      #NEKI #guitarist
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+    reference:
+    - postximage:
+        post: 2020518012026060854
+        image: HApSajiagAA6b1O
+
 - postinstagramimage:
     post: DUgCu6vkjnl
     id: 2
@@ -180,6 +382,71 @@
         id: 2ndtokyo1
     part-of:
       postinstagram: DUgCu6vkjnl
+
+- postinstagramimage:
+    post: DUiY3uUj_G0
+    id: 1
+    label: Backstage
+    info: Kanade
+    published-date: 2026-02-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUiY3uUj_G0
+
+- postinstagramimage:
+    post: DUiY3uUj_G0
+    id: 3
+    label: On stage
+    info: Azuki-chan
+    published-date: 2026-02-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUiY3uUj_G0
+
+- postinstagramimage:
+    post: DUimwdmGmOe
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2026-02-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUimwdmGmOe
+
+- postinstagramimage:
+    post: DUimwdmGmOe
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2026-02-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUimwdmGmOe
+
+- postinstagramimage:
+    post: DUivDI-khXr
+    id: 2
+    label: Backstage
+    info: Natsu
+    published-date: 2026-02-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUivDI-khXr
 
 - postx:
     id: 2014972494361645385
@@ -831,6 +1098,20 @@
     - show:
         year: 2026
         id: 2ndtokyo1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- youtubeshort:
+    id: mah36yxP8FM
+    label: Digest movie
+    published-date: 2026-02-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    - song: gimmick
     part-of:
       show:
         year: 2026

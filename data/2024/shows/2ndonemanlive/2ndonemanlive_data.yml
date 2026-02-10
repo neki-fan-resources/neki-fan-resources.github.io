@@ -1,3 +1,233 @@
+- postinstagram:
+    id: DCyaou3Rhvq
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-11-25
+    text: |-
+      2024.11.24 NEK! 2ND ONE MAN LIVE
+      @ shibuya eggman
+      THANK YOU SOLD OUT❣️
+      #NEKI #ネキ
+    image:
+    - 2
+    - 3
+    - 5
+    - 7
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+    reference:
+    - postximage:
+        post: 1860700294226838000
+        image: GdKJDdoaAAAgzF1
+    - postximage:
+        post: 1860887418322493470
+        image: GdMzPcLbsAIzyLF
+    - postximage:
+        post: 1860642399242084838
+        image: GdJUX0vaMAAfwff
+
+- postinstagram:
+    id: DDuC3s5TSkN
+    account: nekiband_jp
+    label: Live video release
+    published-date: 2024-12-18
+    text: |-
+      "Dreams!!!!" Live Video OUT NOW!!!!
+      #NEKI
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+    reference:
+    - postximage:
+        post: 1868989699446260040
+        image: Ge_5YQ1bwAMEUka
+
+- postinstagram:
+    id: DEKi3nHTTGW
+    account: nekiband_jp
+    label: Zaiko announcement
+    published-date: 2024-12-29
+    text: |-
+      NEK!初！
+      ライブ映像のオンライン配信がZAIKOにて決定🔥
+      
+      「NEK! 2ND ONE MAN LIVE @ shibuya eggman Online」
+      
+      配信期間：
+      2024/12/30(月)19:00~2025/1/29(水)23:59
+      
+      配信チケット販売期間；
+      2024/12/29(日)19:00~2025/1/29(水)21:59
+      https://nekiband.zaiko.io/item/368923
+      
+      "NEK! 2ND ONE MAN LIVE @ shibuya eggman Online"
+      Live video streaming will be available online at ZAIKO.
+      Delivery period: 2024/12/30(Thu.)
+      2024/12/30(Mon) 19:00~2025/1/29(Wed) 23:59
+      Tickets can be purchased now!
+    translation: |-
+      NEK!'s first ever!
+      Live footage online streaming decided on ZAIKO🔥
+      
+      "NEK! 2ND ONE MAN LIVE @ shibuya eggman Online"
+      
+      Streaming Period:
+      2024/12/30(Mon) 19:00 ~ 2025/1/29(Wed) 23:59
+      
+      Streaming Ticket Sales Period:
+      2024/12/29(Sun) 19:00 ~ 2025/1/29(Wed) 21:59
+      https://nekiband.zaiko.io/item/368923
+      
+      "NEK! 2ND ONE MAN LIVE @ shibuya eggman Online"
+      Live video streaming will be available online at ZAIKO.
+      Delivery period: 2024/12/30(Thu.)
+      2024/12/30(Mon) 19:00~2025/1/29(Wed) 23:59
+      Tickets can be purchased now!
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postinstagramimage:
+    post: DCyaou3Rhvq
+    id: 2
+    label: On stage
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DCyaou3Rhvq
+
+- postinstagramimage:
+    post: DCyaou3Rhvq
+    id: 3
+    label: On stage
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DCyaou3Rhvq
+
+- postinstagramimage:
+    post: DCyaou3Rhvq
+    id: 5
+    label: Backstage
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DCyaou3Rhvq
+
+- postinstagramimage:
+    post: DCyaou3Rhvq
+    id: 7
+    label: On stage
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DCyaou3Rhvq
+
+- postinstagramimage:
+    post: DDuC3s5TSkN
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2024-12-18
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - song: dreams
+    part-of:
+      postinstagram: DDuC3s5TSkN
+
+- postinstagramimage:
+    post: DDuC3s5TSkN
+    id: 3
+    label: On stage
+    info: Kanade
+    published-date: 2024-12-18
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - song: dreams
+    part-of:
+      postinstagram: DDuC3s5TSkN
+
+- postinstagramimage:
+    post: DDuC3s5TSkN
+    id: 4
+    label: On stage
+    info: Natsu
+    published-date: 2024-12-18
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - song: dreams
+    part-of:
+      postinstagram: DDuC3s5TSkN
+
+- postinstagramimage:
+    post: DDuC3s5TSkN
+    id: 5
+    label: On stage
+    info: Hika
+    published-date: 2024-12-18
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - song: dreams
+    part-of:
+      postinstagram: DDuC3s5TSkN
+
+- postinstagramimage:
+    post: DDuC3s5TSkN
+    id: 6
+    label: On stage
+    published-date: 2024-12-18
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    - song: dreams
+    part-of:
+      postinstagram: DDuC3s5TSkN
+
+- postinstagramimage:
+    post: DEKi3nHTTGW
+    id: 1
+    label: Zaiko cover
+    published-date: 2024-12-29
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DEKi3nHTTGW
+
 - postx:
     id: 1821788560518987888
     account: nekiband_jp
@@ -37,6 +267,65 @@
       show:
         year: 2024
         id: 2ndonemanlive
+
+- postx:
+    id: 1860642399242084838
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-11-24
+    text: |-
+      NEK! 2ND ONE MAN LIVE
+      @ shibuya eggman
+      
+      Thank you for all fans❤️‍🔥
+      
+      #NEKI
+    image:
+    - GdJUX0yaIAAyel4
+    - GdJUX0zaMAAnLAP
+    - GdJUX0vaMAAfwff
+    - GdJUX1DbQAAIRJv
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postx:
+    id: 1860700294226838000
+    account: nekiband_jp
+    label: NEK! SOUND t-shirts
+    published-date: 2024-11-24
+    text: |-
+      💜💙❤️💛
+      #NEKI
+    image:
+    - GdKJDdoaAAAgzF1
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postx:
+    id: 1860887418322493470
+    account: natsu08_guitar
+    label: NEK! SOUND t-shirts
+    published-date: 2024-11-25
+    text: |-
+      デザインちょーーかわいい新グッズのTシャツ🫶🏻
+      ゲットしてくれたかなぁ💭
+      アンコールで着れて嬉しかったなぁ❤️‍🔥
+      この写真は急遽決まったおかわり曲決めてるときの写真📷💖
+      Tシャツが映えてる😻😻
+    translation: |-
+      The new T-shirt merch with the super cute design 🫶🏻
+      I wonder if you got yours 💭
+      I was so happy to wear it during the encore ❤️‍🔥
+      This photo was taken while we were deciding on the sudden encore song 📷💖
+      The T-shirt looks great 😻😻
+    image:
+    - GdMzPcLbsAIzyLF
+    part-of:
+      postx: 1860700294226838000
 
 - postx:
     id: 1873309201130574236
@@ -94,6 +383,55 @@
         id: 2ndonemanlive
     part-of:
       postx: 1821788560518987888
+
+- postximage:
+    post: 1860642399242084838
+    id: GdJUX0vaMAAfwff
+    label: Stage setup
+    published-date: 2024-11-24
+    part-of:
+      postx: 1860642399242084838
+
+- postximage:
+    post: 1860642399242084838
+    id: GdJUX0yaIAAyel4
+    label: Backstage
+    info: NEK!
+    published-date: 2024-11-24
+    part-of:
+      postx: 1860642399242084838
+
+- postximage:
+    post: 1860642399242084838
+    id: GdJUX0zaMAAnLAP
+    label: On stage
+    published-date: 2024-11-24
+    part-of:
+      postx: 1860642399242084838
+
+- postximage:
+    post: 1860642399242084838
+    id: GdJUX1DbQAAIRJv
+    label: Sidewalk board
+    published-date: 2024-11-24
+    part-of:
+      postx: 1860642399242084838
+
+- postximage:
+    post: 1860700294226838000
+    id: GdKJDdoaAAAgzF1
+    label: NEK! Sound
+    published-date: 2024-11-24
+    part-of:
+      postx: 1860700294226838000
+
+- postximage:
+    post: 1860887418322493470
+    id: GdMzPcLbsAIzyLF
+    label: Encore
+    published-date: 2024-11-25
+    part-of:
+      postx: 1860887418322493470
 
 - postximage:
     post: 1873309201130574236
@@ -395,7 +733,7 @@
     - show:
         year: 2024
         id: 2ndonemanlive
-    todo: song ? song6
+    - song: ooak
     part-of:
       show:
         year: 2024

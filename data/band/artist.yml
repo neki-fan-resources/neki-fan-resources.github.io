@@ -19,6 +19,22 @@
         id: artist
         group: band
 
+- postinstagram:
+    id: DG5HTMkxoSx
+    account: nekiband_jp
+    label: Other Artist Visual
+    published-date: 2025-03-07
+    text: |-
+      NEK! Other Artist Visual📚
+      #NEKI #ネキ #Kanade #Hika #Natsu #Cocoro
+    image:
+    - 1
+    - 2
+    part-of:
+      group:
+        id: artist
+        group: band
+
 - postinstagramimage:
     post: C6ncbOBRuEw
     id: 1
@@ -26,6 +42,22 @@
     published-date: 2024-05-06
     part-of:
       postinstagram: C6ncbOBRuEw
+
+- postinstagramimage:
+    post: DG5HTMkxoSx
+    id: 1
+    label: Artist Visual
+    published-date: 2025-03-07
+    part-of:
+      postinstagram: DG5HTMkxoSx
+
+- postinstagramimage:
+    post: DG5HTMkxoSx
+    id: 2
+    label: Artist Visual
+    published-date: 2025-03-07
+    part-of:
+      postinstagram: DG5HTMkxoSx
 
 - postx:
     id: 1783077452518150229

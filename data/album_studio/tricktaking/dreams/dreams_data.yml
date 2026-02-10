@@ -509,6 +509,110 @@
       - ol:
         - Let's say my name together!
 
+- postinstagram:
+    id: DG0aE4Kp5sC
+    account: nekiband_jp
+    label: MV released
+    published-date: 2025-03-05
+    text: |-
+      "Dreams!!!!" Music Video OUT NOW💭 #NEKI
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    part-of:
+      song: dreams
+
+- postinstagramimage:
+    post: DG0aE4Kp5sC
+    id: 1
+    label: MV image
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      postinstagram: DG0aE4Kp5sC
+
+- postinstagramimage:
+    post: DG0aE4Kp5sC
+    id: 2
+    label: MV image
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      postinstagram: DG0aE4Kp5sC
+
+- postinstagramimage:
+    post: DG0aE4Kp5sC
+    id: 3
+    label: MV image
+    info: Natsu
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      postinstagram: DG0aE4Kp5sC
+
+- postinstagramimage:
+    post: DG0aE4Kp5sC
+    id: 4
+    label: MV image
+    info: Cocoro
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      postinstagram: DG0aE4Kp5sC
+
+- postinstagramimage:
+    post: DG0aE4Kp5sC
+    id: 5
+    label: MV image
+    info: Kanade
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      postinstagram: DG0aE4Kp5sC
+
+- postinstagramimage:
+    post: DG0aE4Kp5sC
+    id: 6
+    label: MV image
+    info: Hika
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      postinstagram: DG0aE4Kp5sC
+
+- postinstagramimage:
+    post: DG0aE4Kp5sC
+    id: 7
+    label: MV image
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      postinstagram: DG0aE4Kp5sC
+
+- postinstagramimage:
+    post: DG0aE4Kp5sC
+    id: 8
+    label: MV image
+    info: Hika
+    published-date: 2025-03-05
+    context:
+    - song: dreams
+    part-of:
+      postinstagram: DG0aE4Kp5sC
+
 - postx:
     id: 1860656200343502968
     account: nekiband_jp

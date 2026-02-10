@@ -1233,6 +1233,102 @@
       - ol:
         - Want you gone?
 
+- postinstagram:
+    id: DGGFEfVpdvD
+    account: nekiband_jp
+    label: MV released
+    published-date: 2025-02-15
+    text: |-
+      "zero-sum" Music Video OUT NOW🎮 #NEKI
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    part-of:
+      song: zerosum
+    reference:
+    - localimage:
+        multimedia-event: zerosummv
+        id: mvcover
+
+- postinstagramimage:
+    post: DGGFEfVpdvD
+    id: 1
+    label: MV image
+    published-date: 2025-02-15
+    context:
+    - song: zerosum
+    part-of:
+      postinstagram: DGGFEfVpdvD
+
+- postinstagramimage:
+    post: DGGFEfVpdvD
+    id: 2
+    label: MV image
+    info: Kanade
+    published-date: 2025-02-15
+    context:
+    - song: zerosum
+    part-of:
+      postinstagram: DGGFEfVpdvD
+
+- postinstagramimage:
+    post: DGGFEfVpdvD
+    id: 3
+    label: MV image
+    info: Hika
+    published-date: 2025-02-15
+    context:
+    - song: zerosum
+    part-of:
+      postinstagram: DGGFEfVpdvD
+
+- postinstagramimage:
+    post: DGGFEfVpdvD
+    id: 4
+    label: MV image
+    info: Cocoro
+    published-date: 2025-02-15
+    context:
+    - song: zerosum
+    part-of:
+      postinstagram: DGGFEfVpdvD
+
+- postinstagramimage:
+    post: DGGFEfVpdvD
+    id: 5
+    label: MV image
+    info: Natsu
+    published-date: 2025-02-15
+    context:
+    - song: zerosum
+    part-of:
+      postinstagram: DGGFEfVpdvD
+
+- postinstagramimage:
+    post: DGGFEfVpdvD
+    id: 6
+    label: MV image
+    published-date: 2025-02-15
+    context:
+    - song: zerosum
+    part-of:
+      postinstagram: DGGFEfVpdvD
+
+- postinstagramimage:
+    post: DGGFEfVpdvD
+    id: 7
+    label: MV image
+    published-date: 2025-02-15
+    context:
+    - song: zerosum
+    part-of:
+      postinstagram: DGGFEfVpdvD
+
 - postx:
     id: 1886059230479979000
     account: cure_bass_baka

@@ -115,6 +115,132 @@
         year: 2025
         id: tricktakingtourtokyo
 
+- postinstagram:
+    id: DHTDrMZRjhM
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-03-17
+    text: |-
+      2025.3.16 NEK! 1st ONE MAN TORU「TR!CK TAK!NG」FINAL @ Spotify O-WEST
+      
+      THANK YOU SOLD OUT❤️‍🔥
+      
+      NEXT ONE MAN
+      ➡︎8/30(土)
+      「NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】」
+      ＠ Zepp Shinjuku
+      
+      photo by @ryuji_kinmruj
+      
+      #NEKI #ネキ
+    translation: |-
+      2025.3.16 NEK! 1st ONE MAN TOUR「TR!CK TAK!NG」FINAL @ Spotify O-WEST
+      
+      THANK YOU SOLD OUT❤️‍🔥
+      
+      NEXT ONE MAN
+      ➡︎8/30(Sat)
+      「NEK! 1ST ZEPP ONE MAN【#Spreading #NekiNeighborhood】」
+      ＠ Zepp Shinjuku
+      
+      photo by @ryuji_kinmruj
+      
+      #NEKI #Neki
+    image:
+    - 4
+    - 5
+    - 9
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+    reference:
+    - postximage:
+        post: 1901237824059564330
+        image: GmKNtB1aEAASeIz
+    - postximage:
+        post: 1901237824059564330
+        image: GmKNtB7a4AAf8JX
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOQ-qacAAAPmN
+    - postximage:
+        post: 1901572243064553567
+        image: GmO9323boAAPy59
+    - postximage:
+        post: 1901237824059564330
+        image: GmKNtBzbkAAxecj
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOOzfbEAA3Ocq
+
+- postinstagram:
+    id: DHswbbCxvOW
+    account: nekiband_jp
+    label: Clock up! on stage
+    published-date: 2025-03-27
+    text: |-
+      ワンマンの素敵な景色
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Beautiful view of the one-man live
+      #NEKI #Spreading #NekiNeighborhood
+    video:
+    - 1
+    part-of:
+      youtubeshort: mvD68jTQrHs
+
+- postinstagramimage:
+    post: DHTDrMZRjhM
+    id: 4
+    label: On stage
+    info: Kanade
+    published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHTDrMZRjhM
+
+- postinstagramimage:
+    post: DHTDrMZRjhM
+    id: 5
+    label: On stage
+    info: Natsu
+    published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHTDrMZRjhM
+
+- postinstagramimage:
+    post: DHTDrMZRjhM
+    id: 9
+    label: Backstage
+    published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHTDrMZRjhM
+
+- postinstagramvideo:
+    post: DHswbbCxvOW
+    id: 1
+    label: On stage
+    published-date: 2025-03-27
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: clockup
+    part-of:
+      postinstagram: DHswbbCxvOW
+
 - postx:
     id: 1901082018882179433
     account: nekiband_jp
@@ -220,6 +346,110 @@
       show:
         year: 2025
         id: tricktakingtourtokyo
+
+- postx:
+    id: 1901237824059564330
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-03-16
+    text: |-
+      NEK! 1stワンマンツアー「TR!CK TAK!NG」ファイナル
+      @ Spotify O-WEST
+      
+      THANK YOU SOLD OUT‼️
+      ありがとうございました🫶
+      
+      NEXT ONE MAN💥
+      ➡︎8/30(土)
+      「NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】」
+      ＠ Zepp Shinjuku
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      NEK! 1st One-Man Tour "TR!CK TAK!NG" Final
+      @ Spotify O-WEST
+      
+      THANK YOU SOLD OUT‼️
+      Thank you so much🫶
+      
+      NEXT ONE MAN💥
+      ➡︎8/30 (Sat)
+      "NEK! 1ST ZEPP ONE MAN【#SpreadingNow #NEKI_Community】"
+      ＠ Zepp Shinjuku
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - GmKNtB1aEAASeIz
+    - GmKNtB7a4AAf8JX
+    - GmKNtBzbkAAxecj
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1901449578177765487
+    account: skream_japan
+    label: Article on the show
+    published-date: 2025-03-17
+    text: |-
+      NEK!、結成2年目にして初となるZeppワンマン・ライヴ8/30開催 https://skream.jp/news/2025/03/nek_zepp_oneman.php
+      
+      #NEKI
+      #拡散中
+      #ネキ界隈
+    translation: |-
+      NEK! to hold first-ever Zepp solo live on 8/30 in their second year since forming https://skream.jp/news/2025/03/nek_zepp_oneman.php
+      
+      #NEKI
+      #SpreadingTheWord
+      #NEKIKaiwai
+    image:
+    - GmNOOzfbEAA3Ocq
+    - GmNOQD1b0AAeAez
+    - GmNOQ-qacAAAPmN
+    todo: show poster, webpage, about Zepp ? tag image correctly
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1901572243064553567
+    account: coco_102
+    label: Report on Instagram
+    published-date: 2025-03-17
+    text: |-
+      インスタに昨日の感想とZeppへの想いを綴りました
+      読んでもらえたら嬉しいです❤️‍🔥
+      
+      https://instagram.com/p/DHS7gafPqYZ/?igsh=MWY4d2p0ZnZsMm53dA==
+    translation: |-
+      I wrote down my thoughts on yesterday and my feelings about Zepp on Instagram
+      I'd be happy if you could read it ❤️‍🔥
+      
+      https://instagram.com/p/DHS7gafPqYZ/?igsh=MWY4d2p0ZnZsMm53dA==
+    image:
+    - GmO9323boAAPy59
+    todo: post on instagram
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+    reference:
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOOzfbEAA3Ocq
+    - postximage:
+        post: 1901237824059564330
+        image: GmKNtBzbkAAxecj
+    - postximage:
+        post: 1901237824059564330
+        image: GmKNtB1aEAASeIz
 
 - postx:
     id: 1901916392653537292
@@ -399,6 +629,64 @@
         id: tricktakingtourtokyo
     part-of:
       postx: 1901181401925337290
+
+- postximage:
+    post: 1901237824059564330
+    id: GmKNtB1aEAASeIz
+    label: The band
+    published-date: 2025-03-16
+    part-of:
+      postx: 1901237824059564330
+
+- postximage:
+    post: 1901237824059564330
+    id: GmKNtB7a4AAf8JX
+    label: On stage
+    published-date: 2025-03-16
+    part-of:
+      postx: 1901237824059564330
+
+- postximage:
+    post: 1901237824059564330
+    id: GmKNtBzbkAAxecj
+    label: On stage
+    published-date: 2025-03-16
+    part-of:
+      postx: 1901237824059564330
+
+- postximage:
+    post: 1901449578177765487
+    id: GmNOOzfbEAA3Ocq
+    label: On stage
+    published-date: 2025-03-17
+    part-of:
+      postx: 1901449578177765487
+
+- postximage:
+    post: 1901449578177765487
+    id: GmNOQ-qacAAAPmN
+    label: On stage
+    info: Hika
+    published-date: 2025-03-17
+    part-of:
+      postx: 1901449578177765487
+
+- postximage:
+    post: 1901449578177765487
+    id: GmNOQD1b0AAeAez
+    label: On stage
+    published-date: 2025-03-17
+    part-of:
+      postx: 1901449578177765487
+
+- postximage:
+    post: 1901572243064553567
+    id: GmO9323boAAPy59
+    label: On stage
+    info: Cocoro
+    published-date: 2025-03-17
+    part-of:
+      postx: 1901572243064553567
 
 - postxvideo:
     post: 1901916392653537292
@@ -655,6 +943,7 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
+    todo: wrong show. old huddle
     part-of:
       show:
         year: 2025
@@ -669,7 +958,7 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
-    todo: song name ?
+    - song: clockup
     part-of:
       show:
         year: 2025

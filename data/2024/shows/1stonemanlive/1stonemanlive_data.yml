@@ -155,6 +155,30 @@
         post: 1814848169022530039
         image: GS-iyRYbIAIhCZj
 
+- postinstagram:
+    id: DJ_hDhxS3YB
+    account: nekiband_jp
+    label: Entrance
+    published-date: 2025-05-23
+    text: |-
+      1ST ONE MAN LIVEの思い出
+      
+      初のZeppワンマンの先着先行受付はじまったよー⚡️
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Memories of the 1ST ONE MAN LIVE
+      
+      The first-come, first-served pre-order for our first Zepp solo show has started!⚡️
+      
+      #NEKI #SpreadingTheWord #NEKICommunity
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DJ_hDhxS3YB
+        video: 1
+
 - postinstagramimage:
     post: C9pSuQtJP3m
     id: 1
@@ -289,6 +313,21 @@
         id: 1stonemanlive
     part-of:
       postinstagram: C9rwnPPpPTP
+
+- postinstagramvideo:
+    post: DJ_hDhxS3YB
+    id: 1
+    label: Entrance
+    published-date: 2025-05-23
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    - song: fool
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
 
 - postx:
     id: 1770439921956012126
@@ -597,7 +636,7 @@
 - youtubeshort:
     id: EkRipluPvVg
     label: Opening
-    published-date: 2024-04-04
+    published-date: 2025-04-04
     context:
     - song: fool
     - show:
@@ -612,7 +651,7 @@
     id: JcCYNJoEoLI
     label: Show
     info: Through the venue monitor
-    published-date: 2024-03-30
+    published-date: 2025-03-30
     context:
     - song: endlessgame
     - show:

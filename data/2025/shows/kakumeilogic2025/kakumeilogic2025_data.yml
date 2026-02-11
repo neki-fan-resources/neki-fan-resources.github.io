@@ -644,3 +644,33 @@
         year: 2025
         id: kakumeilogic2025
 
+- youtubeshort:
+    id: oUm5oU0O0Z4
+    label: Promo
+    info: studio audio
+    published-date: 2025-05-09
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: endlessgame
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+
+- youtubeshort:
+    id: sVdFEGNzZmM
+    label: Promo
+    info: studio audio
+    published-date: 2025-05-28
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: endlessgame
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+

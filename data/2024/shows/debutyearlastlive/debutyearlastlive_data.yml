@@ -249,6 +249,27 @@
         year: 2024
         id: debutyearlastlive
 
+- postinstagram:
+    id: DJO4LpSJkzO
+    account: nekiband_jp
+    label: Live video release
+    published-date: 2025-05-04
+    text: |-
+      "Get Over" Official Live Video OUT NOW💥
+      #NEKI #拡散中 #ネキ界隈 #ガールズバンド
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
 - postinstagramimage:
     post: DEKj3fzz9qj
     id: 2
@@ -323,6 +344,102 @@
         id: debutyearlastlive
     part-of:
       postinstagram: DEOr2Jlvoqg
+
+- postinstagramimage:
+    post: DJO4LpSJkzO
+    id: 1
+    label: On stage
+    info: Natsu
+    published-date: 2025-05-04
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: getover
+    part-of:
+      postinstagram: DJO4LpSJkzO
+
+- postinstagramimage:
+    post: DJO4LpSJkzO
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2025-05-04
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: getover
+    part-of:
+      postinstagram: DJO4LpSJkzO
+
+- postinstagramimage:
+    post: DJO4LpSJkzO
+    id: 3
+    label: On stage
+    published-date: 2025-05-04
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: getover
+    part-of:
+      postinstagram: DJO4LpSJkzO
+
+- postinstagramimage:
+    post: DJO4LpSJkzO
+    id: 4
+    label: On stage
+    info: Kanade
+    published-date: 2025-05-04
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: getover
+    part-of:
+      postinstagram: DJO4LpSJkzO
+
+- postinstagramimage:
+    post: DJO4LpSJkzO
+    id: 5
+    label: On stage
+    info: Kanade, Hika
+    published-date: 2025-05-04
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: getover
+    part-of:
+      postinstagram: DJO4LpSJkzO
+
+- postinstagramimage:
+    post: DJO4LpSJkzO
+    id: 6
+    label: On stage
+    info: Hika
+    published-date: 2025-05-04
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: getover
+    part-of:
+      postinstagram: DJO4LpSJkzO
+
+- postinstagramimage:
+    post: DJO4LpSJkzO
+    id: 7
+    label: On stage
+    published-date: 2025-05-04
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: getover
+    part-of:
+      postinstagram: DJO4LpSJkzO
 
 - postx:
     id: 1872916409728287239

@@ -1,3 +1,96 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndanniversaryevent
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2021478185259684273
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021479793557172454
+                    image: HA2891QaAAMp1ak
+                - postximage:
+                    post: 2021469930814836901
+                    image: HA20LoCaAAQpCBp
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021488151446028791
+                    image: HA3EwQraAAQVZ5C
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021469930814836901
+                    image: HA20LoEaAAkD8cP
+                - postximage:
+                    post: 2021488151446028791
+                    image: HA3EwQkaAAQeYnZ
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021479793557172454
+                    image: HA2890ybQAAHFPX
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021487604550844447
+                    image: HA3EQmLaEAALdca
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021488151446028791
+                    image: HA3EwQoboAAqKN5
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021490914993242261
+                    image: HA3HRQQaAAE8376
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021394806325510372
+                    image: HA1vsQdaAAEiIle
+    - basicblock:
+        id: bandmaid
+        label: Meeting BAND-MAID
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: After their own show and signing event, the members of NEK! crossed the street to attend the “Sessions Selection” show by BAND-MAID.
+                - line:
+                  - text: Following the BAND-MAID show, the members of NEK! met with the members of BAND-MAID.
+                - line:
+                  - text: The members of NEK! expressed admiration and gratitude to BAND-MAID on SNS.
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2021568213436498320
+                    image: HA4Nkr-bUAAjyQN
+                - postximage:
+                    post: 2021568213436498320
+                    image: HA4Nkr3aYAA5gw0
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
 - postx:
     id: 2017903857268064334
     account: nekiband_jp
@@ -58,6 +151,281 @@
     part-of:
       postx: 2017903857268064334
 
+- postx:
+    id: 2021394806325510372
+    account: shibuya_eggman
+    label: Today
+    published-date: 2026-02-11
+    text: |-
+      🔥本日🔥
+       NEK!結成２周年記念イベント 
+      フリーライブ＆サイン会 
+      
+      OPEN 11:00 
+      START 11:30 
+      
+      サイン会 
+      OPEN 12:15  
+      
+      DOOR ￥600  
+      
+      状況により当日券の販売を行います。
+      
+       ご来場お待ちしております！
+       お気をつけてお越しください。
+    translation: |-
+      🔥Today🔥
+       NEK! 2nd Anniversary Event 
+      Free Live & Signing Event 
+      
+      OPEN 11:00 
+      START 11:30 
+      
+      Signing Event 
+      OPEN 12:15  
+      
+      DOOR ¥600  
+      
+      Same-day tickets will be sold depending on the situation.
+      
+       We look forward to seeing you!
+       Please travel safely.
+    image:
+    - HA1vsQdaAAEiIle
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
+- postx:
+    id: 2021469930814836901
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-02-11
+    text: |-
+      🖤THANK YOU🖤
+      
+      「NEK! 結成2周年記念イベント」 
+      @ shibuya eggman
+      
+      ご来場いただきありがとうございました🎪
+      
+      現在NEK!は全国ツアー開催中！
+      
+      NEXT ONE MAN💝
+      ➡︎2/28(土) ＠神奈川・横浜BAYSIS​
+      
+      ➡︎ファイナルは4/26(日) @渋谷CLUB QUATTRO🔥
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      🖤THANK YOU🖤
+      
+      "NEK! 2nd Anniversary Event" 
+      @ shibuya eggman
+      
+      Thank you for coming🎪
+      
+      NEK! is currently on a nationwide tour!
+      
+      NEXT ONE MAN💝
+      ➡︎2/28 (Sat) @ Kanagawa, Yokohama BAYSIS
+      
+      ➡︎The Final is 4/26 (Sun) @ Shibuya CLUB QUATTRO🔥
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HA20LoCaAAQpCBp
+    - HA20LoEaAAkD8cP
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
+- postx:
+    id: 2021478185259684273
+    account: nekiband_jp
+    label: Scrap Book on stage
+    published-date: 2026-02-11
+    text: |-
+      2026.2.11(Wed.)
+      NEK! 結成2周年記念イベント
+      @ shibuya eggman
+      "Scrap Book"
+      #NEKI #ネキミーム
+    translation: |-
+      2026.2.11(Wed.)
+      NEK! 2nd Anniversary Event
+      @ shibuya eggman
+      "Scrap Book"
+      #NEKI #NEKIMeme
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2021478185259684273
+        video: 01
+
+- postx:
+    id: 2021479793557172454
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-02-11
+    text: |-
+      「NEK! 結成2周年記念イベント」 
+      @ shibuya eggman
+      ソールドアウトもありがとうございました🌟⋆꙳
+      ライブも楽しかったし、サイン会でまたみなさんとお話もできて嬉しかった！
+      こういう機会がもっと増えたら楽しいな💭
+      色んなイベントができるように頑張ります！
+    translation: |-
+      "NEK! 2nd Anniversary Event" 
+      @ shibuya eggman
+      Thank you so much for the sell-out too🌟⋆꙳
+      The live was fun, and I was happy to talk with everyone again at the signing event!
+      It would be fun if there were more opportunities like this💭
+      I'll do my best so we can hold various events!
+    image:
+    - HA2890ybQAAHFPX
+    - HA2891QaAAMp1ak
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
+- postx:
+    id: 2021487604550844447
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-02-11
+    text: |-
+      NEK! 結成2周年記念イベント
+      
+      ありがとうございました！！
+      SOLD OUTということもありパンパンのeggmanは気持ちよきでした❤️‍🔥
+      
+      なによりみなさんとサイン会で近くでお話しできたのがとっても嬉しかったー!!
+      みなさんがくれる言葉一言一言がとっても嬉しかった😭🫶🏻
+      改めてこれからもよろしくね！！
+    translation: |-
+      NEK! 2nd Anniversary Event
+      
+      Thank you so much!!
+      With it being SOLD OUT, the packed eggman felt so good❤️‍🔥
+      
+      Above all, I was so happy to be able to talk with everyone up close at the signing event!!
+      Every single word you gave me made me so happy😭🫶🏻
+      Once again, let's keep it going from here on out!!
+    image:
+    - HA3EQmLaEAALdca
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+    reference:
+    - postximage:
+        post: 2021479793557172454
+        image: HA2891QaAAMp1ak
+
+- postx:
+    id: 2021488151446028791
+    account: coco_102
+    label: Thank you
+    published-date: 2026-02-11
+    text: |-
+      結成2周年記念イベント✌🏻💖
+      
+      フリーライブとサイン会ありがとうございました！！
+      ソールドアウトのeggmanはやっぱり最高だ！！！
+      サイン会もたくさんの方に来ていただいて色々お話できて楽しかったですヽ(^^)ﾉ
+      
+      3年目もNEK!張り切っていきます！！押忍👊🏻
+    translation: |-
+      2nd Anniversary Event✌🏻💖
+      
+      Thank you for the free live and signing session!!
+      A sold-out eggman is truly the best!!!
+      I had a blast talking about all sorts of things with so many people who came to the signing sessionヽ(^^)ﾉ
+      
+      NEK! is going to give it our all in our 3rd year too!! Osu👊🏻
+    image:
+    - HA3EwQkaAAQeYnZ
+    - HA3EwQoboAAqKN5
+    - HA3EwQraAAQVZ5C
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
+- postx:
+    id: 2021490914993242261
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-02-11
+    text: |-
+      NEK! 結成2周年記念イベントっ！
+      ライブとお話もできて幸せすぎたっ✩.*
+      
+      ありがとうございました！！
+    translation: |-
+      NEK! 2nd Anniversary Event!
+      I was so happy to be able to do the live and talk with you all too✩.*
+      
+      Thank you so much!!
+    image:
+    - HA3HRQQaAAE8376
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+    reference:
+    - postximage:
+        post: 2021479793557172454
+        image: HA2891QaAAMp1ak
+
+- postx:
+    id: 2021568213436498320
+    account: nekiband_jp
+    label: Meeting BAND-MAID
+    published-date: 2026-02-11
+    text: |-
+      BAND-MAID 番外編お給仕
+      “Sessions Selection”
+      
+      本日ライブを拝見し、
+      終演後にご挨拶のお時間もいただきました。
+      
+      私たちが大きなリスペクトを抱く皆さまの圧巻のパフォーマンスに、終始感激と刺激をいただきました。
+      
+      一つひとつのライブを大切にこれからも歩んでまいります。
+      
+      #bandmaid さん
+      #NEKI
+    translation: |-
+      BAND-MAID Extra Edition Service
+      “Sessions Selection”
+      
+      I watched the live performance today,
+      and was given time to say hello after the show.
+      
+      We were deeply moved and inspired throughout by the stunning performance of everyone, for whom we hold immense respect.
+      
+      We will continue to move forward, treasuring each and every live performance.
+      
+      #bandmaid
+      #NEKI
+    image:
+    - HA4Nkr-bUAAjyQN
+    - HA4Nkr3aYAA5gw0
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
 - postximage:
     post: 2017903857268064334
     id: HAEI29xa0AAxPmL
@@ -83,6 +451,172 @@
     part-of:
       postx: 2017906532525252727
 
+- postximage:
+    post: 2021394806325510372
+    id: HA1vsQdaAAEiIle
+    label: Sidewalk board
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021394806325510372
+
+- postximage:
+    post: 2021469930814836901
+    id: HA20LoCaAAQpCBp
+    label: On stage
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021469930814836901
+
+- postximage:
+    post: 2021469930814836901
+    id: HA20LoEaAAkD8cP
+    label: Backstage
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021469930814836901
+
+- postximage:
+    post: 2021479793557172454
+    id: HA2890ybQAAHFPX
+    label: Backstage
+    info: Kanade
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021479793557172454
+
+- postximage:
+    post: 2021479793557172454
+    id: HA2891QaAAMp1ak
+    label: On stage
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021479793557172454
+
+- postximage:
+    post: 2021487604550844447
+    id: HA3EQmLaEAALdca
+    label: Backstage
+    info: Natsu
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021487604550844447
+
+- postximage:
+    post: 2021488151446028791
+    id: HA3EwQkaAAQeYnZ
+    label: Backstage
+    info: Cocoro, Natsu
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021488151446028791
+
+- postximage:
+    post: 2021488151446028791
+    id: HA3EwQoboAAqKN5
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021488151446028791
+
+- postximage:
+    post: 2021488151446028791
+    id: HA3EwQraAAQVZ5C
+    label: On stage
+    info: drum set
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021488151446028791
+
+- postximage:
+    post: 2021490914993242261
+    id: HA3HRQQaAAE8376
+    label: Backstage
+    info: Hika
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021490914993242261
+
+- postximage:
+    post: 2021568213436498320
+    id: HA4Nkr-bUAAjyQN
+    label: Backstage
+    info: BAND-MAID, NEK!
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021568213436498320
+
+- postximage:
+    post: 2021568213436498320
+    id: HA4Nkr3aYAA5gw0
+    label: Backstage
+    info: BAND-MAID, NEK!
+    published-date: 2026-02-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postx: 2021568213436498320
+
+- postxvideo:
+    post: 2021478185259684273
+    id: 01
+    label: On stage
+    published-date: 2026-02-11
+    cover: 2021477686082969601/img/cE_jjxJZWlYOjZD0.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    - song: scrapbook
+    part-of:
+      youtubeshort: 7ylb29QTaro
+
 - update:
     show:
       year: 2026
@@ -90,6 +624,18 @@
     date: 2026-01-31
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
+- update:
+    show:
+      year: 2026
+      id: 2ndanniversaryevent
+    date: 2026-02-13
+    text:
+    - First pictures and videos from the show
     part-of:
       show:
         year: 2026
@@ -136,6 +682,20 @@
     image:
     - poster
     - posteren
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+
+- youtubeshort:
+    id: 7ylb29QTaro
+    label: On stage
+    published-date: 2026-02-11
+    context:
+    - song: scrapbook
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
     part-of:
       show:
         year: 2026

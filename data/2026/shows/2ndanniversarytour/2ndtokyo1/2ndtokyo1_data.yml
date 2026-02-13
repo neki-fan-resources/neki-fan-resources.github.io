@@ -16,6 +16,11 @@
                 - youtubeshort: 9iFTX1omYIY
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 2021231476574929121
+                    video: 01
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2020466429263294841
                     image: HAoiWkUaQAA_n-v
@@ -59,9 +64,9 @@
                 - postximage:
                     post: 2020518012026060854
                     image: HApSajibcAALBcC
-                - postinstagramimage:
-                    post: DUgCu6vkjnl
-                    image: 3
+                - postximage:
+                    post: 2021162954540945426
+                    image: HAyc_H1acAAhe0d
                 - postinstagramimage:
                     post: DUgCu6vkjnl
                     image: 5
@@ -73,6 +78,9 @@
                 - postximage:
                     post: 2020466429263294841
                     image: HAoiVg0asAAJUV4
+                - postinstagramimage:
+                    post: DUki5USkTHv
+                    image: 2
                 - postximage:
                     post: 2020510409585729857
                     image: HApLgZXboAAaZ3m
@@ -81,6 +89,14 @@
                 - postinstagramimage:
                     post: DUivDI-khXr
                     image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DUkxdAwEurf
+                    image: 2
+                - postinstagramimage:
+                    post: DUkxdAwEurf
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -99,6 +115,16 @@
                 - postximage:
                     post: 2020405221999226922
                     image: HAnrhAlacAAW7SI
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: OEYklTvEBak
     part-of:
       show:
         year: 2026
@@ -139,7 +165,6 @@
       #NEKI #NEKIMeme
     image:
     - 2
-    - 3
     - 4
     - 5
     part-of:
@@ -150,6 +175,9 @@
     - postximage:
         post: 2020466429263294841
         image: HAoiVg0asAAJUV4
+    - postximage:
+        post: 2021162954540945426
+        image: HAyc_H1acAAhe0d
 
 - postinstagram:
     id: DUiY3uUj_G0
@@ -333,23 +361,31 @@
         post: 2020518012026060854
         image: HApSajiagAA6b1O
 
+- postinstagram:
+    id: DUkxdAwEurf
+    account: 46_hikaa
+    label: Photos
+    published-date: 2026-02-10
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      2026.02.08（sun）
+      
+      @ 東京・shibuya eggman
+      
+      #neki
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
 - postinstagramimage:
     post: DUgCu6vkjnl
     id: 2
     label: On stage
-    published-date: 2026-02-08
-    context:
-    - show:
-        year: 2026
-        id: 2ndtokyo1
-    part-of:
-      postinstagram: DUgCu6vkjnl
-
-- postinstagramimage:
-    post: DUgCu6vkjnl
-    id: 3
-    label: On stage
-    info: encore
     published-date: 2026-02-08
     context:
     - show:
@@ -447,6 +483,32 @@
         id: 2ndtokyo1
     part-of:
       postinstagram: DUivDI-khXr
+
+- postinstagramimage:
+    post: DUkxdAwEurf
+    id: 1
+    label: Backstage
+    info: Hika
+    published-date: 2026-02-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUkxdAwEurf
+
+- postinstagramimage:
+    post: DUkxdAwEurf
+    id: 2
+    label: Backstage
+    info: Hika
+    published-date: 2026-02-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUkxdAwEurf
 
 - postx:
     id: 2014972494361645385
@@ -844,6 +906,36 @@
         year: 2026
         id: 2ndtokyo1
 
+- postx:
+    id: 2021231476574929121
+    account: coco_102
+    label: Reigen Girl on stage
+    published-date: 2026-02-10
+    text: |-
+      令現少女近距離バージョン\(ᯅ̈ )/
+      
+      広角にし忘れてめっちゃ距離近くなってもた、、
+      シンバルに反射してる照明がカラフルでめっちゃ可愛いな〜って思いながら叩いてました🌈
+      
+      てか上腕二頭筋めっちゃ育ってる😂💪🏻💖
+      
+      #NEKI #ネキミーム
+    translation: |-
+      Reigen Shojo close-up version\(ᯅ̈ )/
+      
+      I forgot to use the wide-angle lens so the distance ended up being super close,,
+      I was drumming while thinking how the lights reflecting off the cymbals were colorful and super cute~🌈
+      
+      By the way, my biceps have grown so much😂💪🏻💖
+      
+      #NEKI #NEKIMeme
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2021231476574929121
+        video: 01
+
 - postximage:
     post: 2014972494361645385
     id: G_adQ2YbAAIeZhI
@@ -1031,6 +1123,23 @@
     part-of:
       postx: 2020706932638859334
 
+- postxvideo:
+    post: 2021231476574929121
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-02-10
+    cover: 2021231382094282758/img/k_dTbTEvM6Hh-XYg.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    - song: reigengirl
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
 - update:
     show:
       year: 2026
@@ -1038,6 +1147,18 @@
     date: 2026-02-09
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- update:
+    show:
+      year: 2026
+      id: 2ndtokyo1
+    date: 2026-02-13
+    text:
+    - Additional pictures and videos
     part-of:
       show:
         year: 2026
@@ -1098,6 +1219,21 @@
     - show:
         year: 2026
         id: 2ndtokyo1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- youtubeshort:
+    id: OEYklTvEBak
+    label: On stage
+    info: studio audio
+    published-date: 2026-02-12
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    - song: tictactoe
     part-of:
       show:
         year: 2026

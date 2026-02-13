@@ -8,9 +8,14 @@ show:
   fullname: ZEPHYREN Presents 『A.V.E.S.T project vol.19』
   shortname: A.V.E.S.T project vol.19
   date: 2026-03-01
-  venue: Shibuya, Tokyo
+  venue: Spotify O-nest, Tokyo
   event-page: 'https://zephyren.com/info/3553/'
   part-of:
     group:
       id: shows
       group: 2026
+  multimedia:
+    video:
+    - postxvideo:
+        post: 2022143709437919582
+        video: 01

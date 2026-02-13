@@ -1,0 +1,22 @@
+mediaaudio:
+  year: 2026
+  id: fmakitamix
+  cover-image:
+    localimage:
+      media:
+        year: 2026
+        id: fmakitamix
+      id: logo
+  radio: FM Akita
+  show: M!X
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-02-12
+  part-of:
+    group:
+      id: media
+      group: 2026

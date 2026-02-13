@@ -1,0 +1,370 @@
+- postinstagram:
+    id: DUkb34XEsG0
+    account: 46_hikaa
+    label: 2nd anniversary
+    published-date: 2026-02-10
+    text: |-
+      2月10日はNEK!の結成記念日。
+      
+      今日でNEK!は2周年を迎えました。
+      
+      改めてこのメンバーに出会えてよかった。
+      そして、NEK!と出会ってくれて
+      いつも応援して下さる皆様が居たから
+      2周年を迎えることができました！
+      
+      本当にありがとうございます。
+      
+      これからもNEK!らしくNEK!の音楽を届けていきます！
+      よろしくお願いします！
+    translation: |-
+      February 10th is NEK!'s formation anniversary.
+      
+      Today, NEK! celebrates its 2nd anniversary.
+      
+      I'm so glad I met these members.
+      And because all of you met NEK!
+      and have always supported us,
+      we were able to reach this 2nd anniversary!
+      
+      Thank you so very much.
+      
+      From here on, we will keep delivering NEK!'s music in our own way!
+      We look forward to your continued support!
+    image:
+    - 1
+    part-of:
+      event: 2yearanniversary
+    reference:
+    - postximage:
+        post: 2020510409585729857
+        image: HApLgZXboAAaZ3m
+
+- postinstagram:
+    id: DUki5USkTHv
+    account: nekiband_jp
+    label: 2nd anniversary
+    published-date: 2026-02-10
+    text: |-
+      ⚡️🖤 NEK! 2nd Anniversary 🖤⚡️
+      
+      本日2月10日はNEK!の結成記念日！
+      
+      皆さまの応援のおかげで 
+      2周年を迎えることができました💖 
+      いつも本当にありがとうございます。
+      
+      これからもNEK!をよろしくお願いします🫶
+      
+      Today, February 10, marks NEK!’s anniversary!
+      
+      Thanks to all of your incredible support, 
+      NEK! has reached its 2nd anniversary.
+      Thank you so much, always.
+      
+      We hope you’ll continue to support NEK! 🫶
+      
+      #NEKI
+    image:
+    - 1
+    - 2
+    - 3
+    todo: check shows
+    part-of:
+      event: 2yearanniversary
+
+- postinstagram:
+    id: DUkxRDAEtct
+    account: natsu08_guitar
+    label: 2nd anniversary
+    published-date: 2026-02-10
+    text: |-
+      .
+      2026.02.10
+      NEK!は結成2周年を迎えました。
+      
+      いつも応援してくださっているファンの皆さんのおかげです。
+      本当にありがとうございます！
+      
+      毎日が本当に濃すぎて、まだ2年しか経っていないのかと思う気持ちと
+      もう2年経ったのかと思う気持ちの
+      二つの感情に挟まれています。
+      
+      メンバーと出会い、そしてファンの皆さんと出会い、
+      この2年間でたくさんの大切な宝物ができました。
+      NEK!として、皆さんと出会えたことを心から幸せに思います。
+      
+      これからもNEK!をよろしくお願いします🙇🏻‍♀️
+      
+      #NEKI #girlsband
+    translation: |-
+      .
+      2026.02.10
+      NEK! celebrated its 2nd anniversary since formation.
+      
+      It is all thanks to the fans who always support us.
+      Thank you so truly much!
+      
+      Every day is so incredibly intense that I'm caught
+      between the feeling that only two years have passed
+      and the feeling that two years have already gone by.
+      
+      Meeting the members, and meeting all of the fans,
+      I have gained many precious treasures over these two years.
+      As a member of NEK!, I am sincerely happy to have met you all.
+      
+      Please continue to look after NEK!🙇🏻‍♀️
+      
+      #NEKI #girlsband
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 9
+    video:
+    - 6
+    todo: check context and dups images
+    part-of:
+      event: 2yearanniversary
+    reference:
+    - postximage:
+        post: 2020527061924761982
+        image: HApapWfaQAEfO9k
+    - postximage:
+        post: 2021162954540945426
+        image: HAyc_H1acAAhe0d
+
+- postinstagramimage:
+    post: DUkb34XEsG0
+    id: 1
+    label: Backstage
+    published-date: 2026-02-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUkb34XEsG0
+
+- postinstagramimage:
+    post: DUki5USkTHv
+    id: 1
+    label: On stage
+    published-date: 2026-02-10
+    part-of:
+      postinstagram: DUki5USkTHv
+
+- postinstagramimage:
+    post: DUki5USkTHv
+    id: 2
+    label: Backstage
+    published-date: 2026-02-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DUki5USkTHv
+
+- postinstagramimage:
+    post: DUki5USkTHv
+    id: 3
+    label: On stage
+    published-date: 2026-02-10
+    part-of:
+      postinstagram: DUki5USkTHv
+
+- postinstagramimage:
+    post: DUkxRDAEtct
+    id: 2
+    label: With filter
+    published-date: 2026-02-10
+    part-of:
+      postinstagram: DUkxRDAEtct
+
+- postinstagramimage:
+    post: DUkxRDAEtct
+    id: 3
+    label: To sort
+    published-date: 2026-02-10
+    part-of:
+      postinstagram: DUkxRDAEtct
+
+- postinstagramimage:
+    post: DUkxRDAEtct
+    id: 4
+    label: To sort
+    published-date: 2026-02-10
+    part-of:
+      postinstagram: DUkxRDAEtct
+
+- postinstagramimage:
+    post: DUkxRDAEtct
+    id: 5
+    label: To sort
+    published-date: 2026-02-10
+    part-of:
+      postinstagram: DUkxRDAEtct
+
+- postinstagramimage:
+    post: DUkxRDAEtct
+    id: 7
+    label: To sort
+    published-date: 2026-02-10
+    part-of:
+      postinstagram: DUkxRDAEtct
+
+- postinstagramimage:
+    post: DUkxRDAEtct
+    id: 8
+    label: Behind the scenes
+    published-date: 2026-02-10
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DUkxRDAEtct
+
+- postinstagramimage:
+    post: DUkxRDAEtct
+    id: 9
+    label: On stage
+    published-date: 2026-02-10
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DUkxRDAEtct
+
+- postinstagramvideo:
+    post: DUkxRDAEtct
+    id: 6
+    label: Backstage
+    published-date: 2026-02-10
+    todo: eggman. Early show, likely not the first one
+    part-of:
+      postinstagram: DUkxRDAEtct
+
+- postx:
+    id: 2021162954540945426
+    account: cure_bass_baka
+    label: 2nd anniversary
+    published-date: 2026-02-10
+    text: |-
+      NEK!2周年、いつも応援してくれてありがとう。
+      どーせ前にしか道はないんだから、
+      4人で行けるとこまで行っちゃおー✌🏻
+       #NEKI
+    translation: |-
+      NEK! 2nd Anniversary, thank you for always supporting us.
+      Since the only way is forward anyway,
+      let's the four of us go as far as we can go✌🏻
+       #NEKI
+    image:
+    - HAyc_H1acAAhe0d
+    part-of:
+      event: 2yearanniversary
+
+- postx:
+    id: 2021172953186988253
+    account: coco_102
+    label: 2nd anniversary
+    published-date: 2026-02-10
+    text: |-
+      本日NEK!は結成2周年を迎えました✌🏻💖
+      
+      いつも応援してくださる皆さんの存在は私たちが活動を続けていく意味そのものです。
+      本当にいつも応援ありがとうございます！！
+      
+      3年目も毎分毎秒進化しながらがむしゃらに突っ走っていきます！！これからもよろしくお願いします！！
+      
+      #NEKI
+    translation: |-
+      Today NEK! celebrated its 2nd anniversary since formation✌🏻💖
+      
+      The existence of everyone who always supports us is the very reason why we continue our activities.
+      Thank you so truly much for your constant support!!
+      
+      In our 3rd year, we will continue to sprint recklessly while evolving every minute and every second!! Please continue to look after us!!
+      
+      #NEKI
+    image:
+    - HAymFh9aAAMuY7M
+    part-of:
+      event: 2yearanniversary
+
+- postx:
+    id: 2021178607230435394
+    account: 46_hikaa
+    label: 2nd anniversary
+    published-date: 2026-02-10
+    text: |-
+      本日はNEK!の結成記念日。
+      
+      2周年を迎えました。
+      
+      改めてこのメンバーに出会えてよかった。
+      
+      そして、NEK!と出会ってくれて
+      いつも応援して下さる皆様が居たから
+      2周年を迎えることができました！
+      
+      本当にありがとうございます。
+      
+      これからも夢に向かって走り続けます！
+    translation: |-
+      Today is the anniversary of NEK!'s formation.
+      
+      We have reached our 2nd anniversary.
+      
+      Once again, I'm glad I met these members.
+      
+      And, because there are all of you who found NEK!
+      and always support us,
+      we were able to reach our 2nd anniversary!
+      
+      Thank you so very much.
+      
+      We will continue to run toward our dreams!
+    image:
+    - HAyrOctbUAA0v38
+    part-of:
+      event: 2yearanniversary
+
+- postximage:
+    post: 2021162954540945426
+    id: HAyc_H1acAAhe0d
+    label: On stage
+    info: encore
+    published-date: 2026-02-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2021162954540945426
+
+- postximage:
+    post: 2021172953186988253
+    id: HAymFh9aAAMuY7M
+    label: On stage
+    published-date: 2026-02-10
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 2021172953186988253
+
+- postximage:
+    post: 2021178607230435394
+    id: HAyrOctbUAA0v38
+    label: Backstage
+    published-date: 2026-02-10
+    todo: match to shows
+    part-of:
+      postx: 2021178607230435394
+

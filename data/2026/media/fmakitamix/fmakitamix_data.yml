@@ -1,0 +1,65 @@
+- localimage:
+    media:
+      year: 2026
+      id: fmakitamix
+    id: logo
+    label: Logo
+    published-date: 2026-02-12
+    source:
+      description: Show radiko page
+      url: 'https://radiko.jp/#!/ts/AFM/20260212150000'
+    part-of:
+      media:
+        year: 2026
+        id: fmakitamix
+
+- postx:
+    id: 2021795002545058048
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-02-12
+    text: |-
+      📣ラジオ出演📣
+      
+      本日2/12(木)15:00~放送
+      FM秋田「mix」
+      
+      4人でコメント出演させていただきます📻
+      
+      ぜひお聴きください！
+      
+      https://fm-akita.co.jp/program/
+      
+      #NEKI 
+      @mixafm
+    translation: |-
+      📣Radio Appearance📣
+      
+      Today 2/12 (Thu) 15:00~ Broadcast
+      FM Akita "mix"
+      
+      The four of us will be appearing via recorded commentary📻
+      
+      Please give it a listen!
+      
+      https://fm-akita.co.jp/program/
+      
+      #NEKI
+      @mixafm
+    part-of:
+      media:
+        year: 2026
+        id: fmakitamix
+
+- update:
+    media:
+      year: 2026
+      id: fmakitamix
+    date: 2026-02-13
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmakitamix
+

@@ -96,6 +96,29 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postinstagram:
+    id: DUp_lcUGusn
+    account: cocoro_drum
+    label: Tour goods
+    published-date: 2026-02-12
+    text: |-
+      🖤
+      ⁡
+      ツアーグッズめっちゃ可愛いからみんなでお揃いにしよー🫶🏻
+      
+      デザインや色味はシンプルだから結構使いやすくて優秀！！
+    translation: |-
+      🖤
+      ⁡
+      The tour goods are so cute, let's all get matching ones🫶🏻
+      
+      The design and colors are simple, so they're actually really easy to use and great!!
+    image:
+    - 1
+    - 2
+    part-of:
+      tour: 2ndanniversarytour
+
 - postinstagramimage:
     post: DUczOG9EZm-
     id: 1
@@ -106,6 +129,26 @@
     - tour: 2ndanniversarytour
     part-of:
       postinstagram: DUczOG9EZm-
+
+- postinstagramimage:
+    post: DUp_lcUGusn
+    id: 1
+    label: Tour goods
+    published-date: 2026-02-12
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postinstagram: DUp_lcUGusn
+
+- postinstagramimage:
+    post: DUp_lcUGusn
+    id: 2
+    label: Tour goods
+    published-date: 2026-02-12
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postinstagram: DUp_lcUGusn
 
 - postx:
     id: 1976200916698267749

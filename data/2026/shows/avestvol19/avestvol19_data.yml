@@ -74,6 +74,128 @@
         year: 2026
         id: avestvol19
 
+- postx:
+    id: 2021887005697937552
+    account: Zephyren_
+    label: Timetable
+    published-date: 2026-02-12
+    text: |-
+      【タイムテーブル解禁🔥🔥】
+      
+      🎫チケット一般発売中！
+      http://eplus.jp/avest19/
+      
+      ZEPHYREN Presents
+      『A.V.E.S.T project vol.19』
+      
+      《 ✨NEW ARTIST 》
+      アフロ
+      
+      《O-EAST / club asia DJ》
+      Kazu(Letters To You)
+      みりてん(NVLDISC)
+      爆裂(CRXSH)
+      DJ まっつ
+      
+      《MC》
+      ヘリオス たいき（オトむしゃ）
+       
+      🎪6会場サーキット開催
+      Spotify O-EAST
+      Spotify O-WEST
+      Spotify O-Crest
+      Spotify O-nest
+      duo MUSIC EXCHANGE
+      club asia
+      
+      🎫チケット一般発売中！
+      http://eplus.jp/avest19/
+      
+      #avest
+      #アベスト
+    translation: |-
+      【Timetable Released🔥🔥】
+      
+      🎫Tickets on general sale now!
+      http://eplus.jp/avest19/
+      
+      ZEPHYREN Presents
+      『A.V.E.S.T project vol.19』
+      
+      《 ✨NEW ARTIST 》
+      Afro
+      
+      《O-EAST / club asia DJ》
+      Kazu(Letters To You)
+      Miriten(NVLDISC)
+      Bakuretsu(CRXSH)
+      DJ Mattsu
+      
+      《MC》
+      Helios Taiki (Otomusha)
+       
+      🎪Held across 6 circuit venues
+      Spotify O-EAST
+      Spotify O-WEST
+      Spotify O-Crest
+      Spotify O-nest
+      duo MUSIC EXCHANGE
+      club asia
+      
+      🎫Tickets on general sale now!
+      http://eplus.jp/avest19/
+      
+      #avest
+      #アベスト
+    image:
+    - HA79T5ObsAQB1xX
+    - HA79UnjaEAAaSdM
+    part-of:
+      show:
+        year: 2026
+        id: avestvol19
+
+- postx:
+    id: 2022143709437919582
+    account: Zephyren_
+    label: Video comment
+    published-date: 2026-02-13
+    text: |-
+      ＼2026.3.1(日)全6会場で開催／ #AVEST 
+      ZEPHYREN Presents A.V.E.S.T project vol.19
+      
+      Spotify O-nestに出演の【NEK!】さん（
+      @nekiband_jp
+      ）から
+      コメントが届きました！
+      
+      🎫チケット一般発売中！
+      http://eplus.jp/avest19/
+      
+      @Zephyren_gen
+      
+      #アベスト
+    translation: |-
+      ＼2026.3.1(Sun) Held at all 6 venues／ #AVEST 
+      ZEPHYREN Presents A.V.E.S.T project vol.19
+      
+      A comment has arrived from 【NEK!】 (
+      @nekiband_jp
+      ) who will be performing at Spotify O-nest!
+      
+      🎫Tickets now on general sale!
+      http://eplus.jp/avest19/
+      
+      @Zephyren_gen
+      
+      #Avest
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2022143709437919582
+        video: 01
+
 - postximage:
     post: 2017175957581300033
     id: G_5HtpfakAAut9F
@@ -86,6 +208,50 @@
         id: avestvol19
     part-of:
       postx: 2017175957581300033
+
+- postximage:
+    post: 2021887005697937552
+    id: HA79T5ObsAQB1xX
+    label: Poster
+    published-date: 2026-02-12
+    context:
+    - show:
+        year: 2026
+        id: avestvol19
+    todo: replace cover ?
+    part-of:
+      postx: 2021887005697937552
+
+- postximage:
+    post: 2021887005697937552
+    id: HA79UnjaEAAaSdM
+    label: Timetable
+    published-date: 2026-02-12
+    context:
+    - show:
+        year: 2026
+        id: avestvol19
+    part-of:
+      postx: 2021887005697937552
+
+- postxvideo:
+    post: 2022143709437919582
+    id: 01
+    label: Video comment
+    published-date: 2026-02-13
+    cover: 2021830686777491456/img/LEYbqdSMUGInDC-p.jpg
+    context:
+    - show:
+        year: 2026
+        id: avestvol19
+    part-of:
+      show:
+        year: 2026
+        id: avestvol19
+    reference:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
 
 - update:
     show:

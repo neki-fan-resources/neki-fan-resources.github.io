@@ -14,48 +14,6 @@
     part-of:
       group: tosort
 
-- postinstagram:
-    id: DUkb34XEsG0
-    account: 46_hikaa
-    label: 2nd anniversary
-    published-date: 2026-02-10
-    text: |-
-      2月10日はNEK!の結成記念日。
-      
-      今日でNEK!は2周年を迎えました。
-      
-      改めてこのメンバーに出会えてよかった。
-      そして、NEK!と出会ってくれて
-      いつも応援して下さる皆様が居たから
-      2周年を迎えることができました！
-      
-      本当にありがとうございます。
-      
-      これからもNEK!らしくNEK!の音楽を届けていきます！
-      よろしくお願いします！
-    translation: |-
-      February 10th is NEK!'s formation anniversary.
-      
-      Today, NEK! celebrates its 2nd anniversary.
-      
-      I'm so glad I met these members.
-      And because all of you met NEK!
-      and have always supported us,
-      we were able to reach this 2nd anniversary!
-      
-      Thank you so very much.
-      
-      From here on, we will keep delivering NEK!'s music in our own way!
-      We look forward to your continued support!
-    image:
-    - 1
-    part-of:
-      group: tosort
-    reference:
-    - postximage:
-        post: 2020510409585729857
-        image: HApLgZXboAAaZ3m
-
 - postinstagramimage:
     post: C-AnEGSSlC3
     id: 1
@@ -64,18 +22,6 @@
     published-date: 2024-07-29
     part-of:
       postinstagram: C-AnEGSSlC3
-
-- postinstagramimage:
-    post: DUkb34XEsG0
-    id: 1
-    label: Backstage
-    published-date: 2026-02-10
-    context:
-    - show:
-        year: 2026
-        id: 2ndtokyo1
-    part-of:
-      postinstagram: DUkb34XEsG0
 
 - postx:
     id: 1921051915636429162

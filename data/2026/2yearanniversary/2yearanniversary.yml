@@ -1,0 +1,10 @@
+event:
+  id: 2yearanniversary
+  cover-image:
+    localimage:
+      event: siteimages
+      id: nekilogo
+  label: 2 years anniversary
+  date: 2026-02-10
+  part-of:
+    group: 2026

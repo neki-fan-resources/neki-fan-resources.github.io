@@ -10,7 +10,15 @@ show:
   date: 2026-02-11
   description:
   - Free short set + Signing
+  categories:
+  - mainshow
+  venue: Shibuya eggman, Tokyo
   part-of:
     group:
       id: shows
       group: 2026
+  multimedia:
+    main:
+      postximage:
+        post: 2021469930814836901
+        image: HA20LoCaAAQpCBp

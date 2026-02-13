@@ -41,15 +41,22 @@
                 - postximage:
                     post: 1977675187459162437
                     image: G3IdGKiaIAILO0x
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DP51jPeEdKx
+                    image: 1
                 - postximage:
-                    post: 1977673015585624508
-                    image: G3IbHmEaMAARPBY
+                    post: 2012118908707451306
+                    image: G-x7eczbIAAf-fw
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1977673390971564442
                     image: G3IbdvobMAAAYPR
                 - postximage:
-                    post: 2012118908707451306
-                    image: G-x7eczbIAAf-fw
+                    post: 1977673015585624508
+                    image: G3IbHmEaMAARPBY
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -75,6 +82,11 @@
                 - postximage:
                     post: 1977650722348159190
                     image: G3IGwcWbQAA1XiY
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DP51jPeEdKx
+                    image: 2
     - basicblock:
         id: before
         label: before the event
@@ -121,6 +133,47 @@
       show:
         year: 2025
         id: minamiwheel
+
+- postinstagram:
+    id: DP51jPeEdKx
+    account: nekiband_jp
+    label: Photos
+    published-date: 2025-10-17
+    text: |-
+      📸
+      
+      #NEKI #MEME #ネキミーム #ガールズバンド
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
+- postinstagramimage:
+    post: DP51jPeEdKx
+    id: 1
+    label: Backstage
+    published-date: 2025-10-17
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postinstagram: DP51jPeEdKx
+
+- postinstagramimage:
+    post: DP51jPeEdKx
+    id: 2
+    label: Outside
+    published-date: 2025-10-17
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postinstagram: DP51jPeEdKx
 
 - postx:
     id: 1943143169446822118

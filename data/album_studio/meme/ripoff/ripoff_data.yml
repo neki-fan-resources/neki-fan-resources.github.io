@@ -1409,6 +1409,112 @@
         en:
         - And I won’t let this faraway future end just yet
 
+- postinstagram:
+    id: DN2cToQYm4u
+    account: nekiband_jp
+    label: Behind the scenes
+    published-date: 2025-08-26
+    text: |-
+      “rip-off" MV snapshots⚡️ #NEKI #ripoff #ガールズバンド #girlsband
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      song: ripoff
+
+- postinstagram:
+    id: DNsrQfw5AFX
+    account: nekiband_jp
+    label: MV released
+    published-date: 2025-08-23
+    text: |-
+      NEK! - rip-off (Official Music Video) OUT NOW🔥 #NEKI #ripoff #ガールズバンド
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1959224099332637131
+        image: GzBo-8pacAAYgMf
+
+- postinstagramimage:
+    post: DN2cToQYm4u
+    id: 1
+    label: Behind the scenes
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DN2cToQYm4u
+
+- postinstagramimage:
+    post: DN2cToQYm4u
+    id: 2
+    label: Behind the scenes
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DN2cToQYm4u
+
+- postinstagramimage:
+    post: DN2cToQYm4u
+    id: 3
+    label: Behind the scenes
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DN2cToQYm4u
+
+- postinstagramimage:
+    post: DNsrQfw5AFX
+    id: 2
+    label: MV image
+    info: Cocoro
+    published-date: 2025-08-23
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DNsrQfw5AFX
+
+- postinstagramimage:
+    post: DNsrQfw5AFX
+    id: 3
+    label: MV image
+    info: Kanade
+    published-date: 2025-08-23
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DNsrQfw5AFX
+
+- postinstagramimage:
+    post: DNsrQfw5AFX
+    id: 4
+    label: MV image
+    info: Natsu
+    published-date: 2025-08-23
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DNsrQfw5AFX
+
+- postinstagramimage:
+    post: DNsrQfw5AFX
+    id: 5
+    label: MV image
+    published-date: 2025-08-23
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DNsrQfw5AFX
+
 - postx:
     id: 1949439923565826120
     account: nekiband_jp
@@ -1497,6 +1603,31 @@
     - 01
     part-of:
       song: ripoff
+
+- postx:
+    id: 1959224099332637131
+    account: skream_japan
+    label: Article on the MV release
+    published-date: 2025-08-23
+    text: |-
+      NEK!、最新曲「rip-off」MV公開。"ハードながらも最後に背中を押してくれるこの楽曲にさらなる力を与える"映像が完成 https://skream.jp/news/2025/08/nek_rip-off_mv.php
+      
+      #NEKI 
+      #ripoff
+    translation: |-
+      NEK!, latest song "rip-off" MV released. A video has been completed that "gives even more power to this song, which is hard-hitting yet pushes you forward at the end" https://skream.jp/news/2025/08/nek_rip-off_mv.php
+      
+      #NEKI 
+      #ripoff
+    image:
+    - GzBo-8pacAAYgMf
+    todo: check article
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - postx:
     id: 1959760382345806176
@@ -1689,7 +1820,7 @@
     context:
     - song: ripoff
     part-of:
-      song: ripoff
+      postx: 1949439923565826120
 
 - postximage:
     post: 1954020833908953357
@@ -1712,6 +1843,16 @@
     - song: ripoff
     part-of:
       postx: 1954020833908953357
+
+- postximage:
+    post: 1959224099332637131
+    id: GzBo-8pacAAYgMf
+    label: MV image
+    published-date: 2026-01-30
+    context:
+    - song: ripoff
+    part-of:
+      postx: 1959224099332637131
 
 - postximage:
     post: 1959760382345806176

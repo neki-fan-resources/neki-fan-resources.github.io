@@ -1,3 +1,77 @@
+- postinstagram:
+    id: DMUiCxHRubY
+    account: nekiband_jp
+    label: Photos
+    published-date: 2025-07-20
+    text: |-
+      2025.07.18 大阪‼️
+      
+      NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound
+      Live at LIVE SQUARE 2nd LINE
+      
+      #NEKI
+      #拡散中
+      #ネキ界隈
+    translation: |-
+      2025.07.18 Osaka‼️
+      
+      NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound
+      Live at LIVE SQUARE 2nd LINE
+      
+      #NEKI
+      #SpreadingTheWord
+      #NEKILocality
+    image:
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+    reference:
+    - postximage:
+        post: 1946216562014208089
+        image: GwJZpB_bYAA-QKV
+    - postximage:
+        post: 1946195551969849807
+        image: GwJGgUJXcAES7vk
+
+- postinstagramimage:
+    post: DMUiCxHRubY
+    id: 2
+    label: ???
+    info: Natsu, Kanade
+    published-date: 2025-07-20
+    todo: find location. attach to radio appearancne
+    part-of:
+      postinstagram: DMUiCxHRubY
+
+- postinstagramimage:
+    post: DMUiCxHRubY
+    id: 3
+    label: At the studio
+    info: Hika, Cocoro
+    published-date: 2025-07-20
+    context:
+    - media:
+        year: 2025
+        id: fmosaka
+    part-of:
+      postinstagram: DMUiCxHRubY
+
+- postinstagramimage:
+    post: DMUiCxHRubY
+    id: 4
+    label: On stage
+    published-date: 2025-07-20
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postinstagram: DMUiCxHRubY
+
 - postx:
     id: 1944995676963922035
     account: nekiband_jp

@@ -30,6 +30,91 @@
         id: 1stzepponeman
 
 - postinstagram:
+    id: DN5VMqmEbYq
+    account: nekiband_jp
+    label: Merch
+    published-date: 2025-08-28
+    text: |-
+      #NewInNEKI
+      #NEKI
+      #拡散中
+      #ネキ界隈
+      #ガールズバンド
+      #NewMerch
+    image:
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    reference:
+    - postximage:
+        post: 1961015583069335728
+        image: GzbtRUjbUAAj0pI
+
+- postinstagram:
+    id: DOADb5VErTw
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-08-31
+    text: |-
+      2025.8.30 NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】 @ Zepp Shinjuku
+      
+      Thank you to all our fans🫶
+      
+      NEXT ONE MAN
+      ➡︎11/28(金)
+      NEK! 1st アルバム「MEME」リリース記念ワンマンライブ
+      ＠ 横浜ReNY beta
+      
+      #NEKI #ネキ #MEME
+      
+      Photo by @seijiro243
+    translation: |-
+      2025.8.30 NEK! 1ST ZEPP ONE MAN【#NowSpreading #NekiCircle】 @ Zepp Shinjuku
+      
+      Thank you to all our fans🫶
+      
+      NEXT ONE MAN
+      ➡︎11/28(Fri)
+      NEK! 1st Album "MEME" Release Memorial One-Man Live
+      ＠ Yokohama ReNY beta
+      
+      #NEKI #Neki #MEME
+      
+      Photo by @seijiro243
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    reference:
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6jbMAAtlNY
+    - postximage:
+        post: 1961807893306699826
+        image: Gzm94CGasAIv7PE
+    - postximage:
+        post: 1961803764794622273
+        image: Gzm6F7naUAE1V-I
+    - postximage:
+        post: 1961819558362444002
+        image: GznIYpna4AAgbSQ
+    - postximage:
+        post: 1962831188181311881
+        image: Gz1gj5nbMAAQ2Qc
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6vbkAA0r0J
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6pa0AAavhd
+
+- postinstagram:
     id: DOD-RjkEmDB
     account: cocoro_drum
     label: Cocoro's report
@@ -112,6 +197,72 @@
         year: 2025
         id: 1stzepponeman
 
+- postinstagram:
+    id: DPN6aGzETNX
+    account: nekiband_jp
+    label: One month ago
+    published-date: 2025-09-29
+    text: |-
+      夢の舞台、初のZeppワンマンから1ヶ月。
+      
+      2025.8.30
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      📍Zepp Shinjuku
+      
+      🎧NEW ALBUM🎧
+      11/26(水) release
+      NEK! 1st Album「MEME」
+      
+      🔥NEXT ONE MAN🔥
+      11/28(金)開催
+      NEK! 1st アルバム「MEME」
+      リリース記念ワンマンライブ
+      📍横浜ReNY beta
+      
+      #NEKI #ネキ #MEME #ネキミーム
+    translation: |-
+      One month since our dream stage, the first Zepp one-man.
+      
+      2025.8.30
+      NEK! 1ST ZEPP ONE MAN【#NowSpreading #NekiCircle】
+      📍Zepp Shinjuku
+      
+      🎧NEW ALBUM🎧
+      11/26(Wed) release
+      NEK! 1st Album "MEME"
+      
+      🔥NEXT ONE MAN🔥
+      To be held 11/28(Fri)
+      NEK! 1st Album "MEME"
+      Release Memorial One-Man Live
+      📍Yokohama ReNY beta
+      
+      #NEKI #Neki #MEME #NekiMeme
+    image:
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 9
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    reference:
+    - webimage:
+        domain: realsound.jp
+        page: 2025.09.2144607
+        id: 16
+    - webimage:
+        domain: realsound.jp
+        page: 2025.09.2144607
+        id: 11
+    - webimage:
+        domain: barks.jp
+        page: 1019083
+        id: g2
+
 - postinstagramimage:
     post: DHQiyZfx7JJ
     id: 1
@@ -124,6 +275,134 @@
     todo: switch to this cover ?
     part-of:
       postinstagram: DHQiyZfx7JJ
+
+- postinstagramimage:
+    post: DN5VMqmEbYq
+    id: 2
+    label: Merch
+    info: t-shirt
+    published-date: 2025-08-28
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DN5VMqmEbYq
+
+- postinstagramimage:
+    post: DN5VMqmEbYq
+    id: 3
+    label: Merch
+    info: wristband
+    published-date: 2025-08-28
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DN5VMqmEbYq
+
+- postinstagramimage:
+    post: DN5VMqmEbYq
+    id: 4
+    label: Merch
+    info: towel
+    published-date: 2025-08-28
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DN5VMqmEbYq
+
+- postinstagramimage:
+    post: DOADb5VErTw
+    id: 2
+    label: On stage
+    published-date: 2025-08-31
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DOADb5VErTw
+
+- postinstagramimage:
+    post: DPN6aGzETNX
+    id: 3
+    label: On stage
+    info: Kanade
+    published-date: 2025-09-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DPN6aGzETNX
+
+- postinstagramimage:
+    post: DPN6aGzETNX
+    id: 4
+    label: On stage
+    published-date: 2025-09-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DPN6aGzETNX
+
+- postinstagramimage:
+    post: DPN6aGzETNX
+    id: 5
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DPN6aGzETNX
+
+- postinstagramimage:
+    post: DPN6aGzETNX
+    id: 7
+    label: On stage
+    info: Kanade, Hika
+    published-date: 2025-09-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DPN6aGzETNX
+
+- postinstagramimage:
+    post: DPN6aGzETNX
+    id: 8
+    label: On stage
+    info: Hika
+    published-date: 2025-09-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DPN6aGzETNX
+
+- postinstagramimage:
+    post: DPN6aGzETNX
+    id: 9
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DPN6aGzETNX
 
 - postx:
     id: 1931984997382316384
@@ -2080,7 +2359,7 @@
 - youtubeshort:
     id: ib_vEcMxjCg
     label: Promo
-    info: studio audio
+    info: encore, studio audio
     published-date: 2025-09-11
     context:
     - song: dreams

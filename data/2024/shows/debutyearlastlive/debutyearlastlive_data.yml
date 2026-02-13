@@ -270,6 +270,32 @@
         year: 2024
         id: debutyearlastlive
 
+- postinstagram:
+    id: DMApYE6Rkns
+    account: nekiband_jp
+    label: Live video release
+    published-date: 2025-07-12
+    text: |-
+      "Fool" Official Live Video OUT NOW⚡️
+      #NEKI #拡散中 #ネキ界隈 #ガールズバンド
+    translation: |-
+      "Fool" Official Live Video OUT NOW⚡️
+      #NEKI #SpreadingTheWord #NekiCircle #GirlsBand
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+    reference:
+    - postximage:
+        post: 1943641464397062330
+        image: GvkzmwJWEAA9mgY
+
 - postinstagramimage:
     post: DEKj3fzz9qj
     id: 2
@@ -440,6 +466,76 @@
     - song: getover
     part-of:
       postinstagram: DJO4LpSJkzO
+
+- postinstagramimage:
+    post: DMApYE6Rkns
+    id: 2
+    label: On stage
+    info: Cocoro, Hika
+    published-date: 2025-07-12
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: fool
+    part-of:
+      postinstagram: DMApYE6Rkns
+
+- postinstagramimage:
+    post: DMApYE6Rkns
+    id: 3
+    label: On stage
+    info: Kanade
+    published-date: 2025-07-12
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: fool
+    part-of:
+      postinstagram: DMApYE6Rkns
+
+- postinstagramimage:
+    post: DMApYE6Rkns
+    id: 4
+    label: On stage
+    info: Natsu
+    published-date: 2025-07-12
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: fool
+    part-of:
+      postinstagram: DMApYE6Rkns
+
+- postinstagramimage:
+    post: DMApYE6Rkns
+    id: 5
+    label: On stage
+    info: Cocoro
+    published-date: 2025-07-12
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: fool
+    part-of:
+      postinstagram: DMApYE6Rkns
+
+- postinstagramimage:
+    post: DMApYE6Rkns
+    id: 6
+    label: On stage
+    info: Hika
+    published-date: 2025-07-12
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    - song: fool
+    part-of:
+      postinstagram: DMApYE6Rkns
 
 - postx:
     id: 1872916409728287239
@@ -698,6 +794,20 @@
     id: N5KVAUzJZXs
     label: Live
     published-date: 2025-07-12
+    context:
+    - song: fool
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- youtubeshort:
+    id: gqs7cO3U4i4
+    label: Live Video
+    published-date: 2025-07-13
     context:
     - song: fool
     - show:

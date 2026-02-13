@@ -202,6 +202,128 @@
       - ol:
         - We can make you free so come with us now
 
+- postinstagram:
+    id: DLKd6GARjyE
+    account: nekiband_jp
+    label: MV released
+    published-date: 2025-06-21
+    text: |-
+      "OOAK" Official Music Video OUT NOW💫
+      
+      #NEKI
+      #OOAK
+      #ガールズバンド
+      #ロックバンド
+      #girlsband
+      #rockband
+      #拡散中
+      #ネキ界隈
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1935668905244336459
+        image: GtzabMUXgAAmDvN
+
+- postinstagram:
+    id: DLMox6Jxk1i
+    account: nekiband_jp
+    label: Behind the scenes
+    published-date: 2025-06-22
+    text: |-
+      「OOAK」Music Video オフショット🎥
+      今までにない感じのMVになったのでみてね🫶
+      
+      #NEKI #OOAK
+      #拡散中 #ネキ界隈
+    translation: |-
+      "OOAK" Music Video Off-shot 🎥
+      It turned out to be an MV with a vibe like never before, so please check it out 🫶
+      
+      #NEKI #OOAK
+      #SpreadingTheWord #NekiCircle
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DLMox6Jxk1i
+        video: 1
+
+- postinstagram:
+    id: DLZkTZ0xUTW
+    account: nekiband_jp
+    label: Behind the scenes
+    published-date: 2025-06-27
+    text: |-
+      蝶々のシーンの裏側🦋
+      
+      #NEKI #OOAK #拡散中 #ネキ界隈
+    translation: |-
+      Behind the scenes of the butterfly scene 🦋
+      
+      #NEKI #OOAK #SpreadingTheWord #NekiCircle
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DLZkTZ0xUTW
+        video: 1
+
+- postinstagramimage:
+    post: DLKd6GARjyE
+    id: 1
+    label: Behind the scenes
+    published-date: 2025-06-21
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLKd6GARjyE
+
+- postinstagramimage:
+    post: DLKd6GARjyE
+    id: 2
+    label: Behind the scenes
+    published-date: 2025-06-21
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLKd6GARjyE
+
+- postinstagramimage:
+    post: DLKd6GARjyE
+    id: 3
+    label: Behind the scenes
+    published-date: 2025-06-21
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLKd6GARjyE
+
+- postinstagramvideo:
+    post: DLMox6Jxk1i
+    id: 1
+    label: Behind the scenes
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- postinstagramvideo:
+    post: DLZkTZ0xUTW
+    id: 1
+    label: Behind the scenes
+    info: butterfly scene
+    published-date: 2025-06-27
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
 - postx:
     id: 1929512124243411173
     account: nekiband_jp

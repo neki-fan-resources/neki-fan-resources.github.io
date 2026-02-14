@@ -164,9 +164,9 @@
     video:
     - bb4e888e-5f51-4d44-a6ce-3c57b86955ab
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      postxvideo:
+        post: 1919328460532494808
+        video: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
 
 - postx:
     id: 1919554837458399724
@@ -464,7 +464,9 @@
         id: kakumeilogic2025
     - song: maze
     part-of:
-      postx: 1919328460532494808
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - postxvideo:
     post: 1919554837458399724

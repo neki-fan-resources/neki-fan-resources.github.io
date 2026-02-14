@@ -154,6 +154,48 @@
         post: 1826624665139511742
         image: GVl5cqmbgAMZX8l
 
+- postinstagram:
+    id: C_cBCEkyHbf
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2024-09-03
+    text: |-
+      ．
+      8/21-8/24
+      遅ればせながら、大阪愛知、ありがとうございました❤️‍🔥
+      楽しかったヨォ！最高だったヨォ！！
+      NEK!の音楽が色々な場所に届いているんだと実感できた4日間でした！
+      学びも多くあり、NEK!にとっても自分にとってもすごく意味のある濃い遠征で、今後忘れることのないであろう大切な思い出を作ることができました☺︎
+      
+      必ずもっともっと成長して、経験を積んで戻ってきますので、そのときはまた一緒に遊んでくださると嬉しいです🫶🏻
+      
+      #girlsband
+    translation: |-
+      .
+      8/21-8/24
+      Better late than never, thank you so much Osaka and Aichi ❤️‍🔥
+      It was so fun! It was the best!!
+      These 4 days really made me feel that NEK!'s music is reaching so many different places!
+      There was a lot to learn, and it was such a meaningful and intense tour for both NEK! and myself; I was able to make precious memories that I'll probably never forget ☺︎
+      
+      We'll definitely grow much more, gain more experience, and come back, so I'd be happy if you'd hang out with us again then 🫶🏻
+      
+      #girlsband
+    image:
+    - 1
+    - 4
+    - 5
+    - 6
+    part-of:
+      tour: nekifirstosakaaichi2024
+    reference:
+    - postximage:
+        post: 1826624665139511742
+        image: GVl5cqmbgAMZX8l
+    - postinstagramimage:
+        post: C_LQWySylRt
+        image: 7
+
 - postinstagramimage:
     post: C-oJxX6zKVy
     id: 1
@@ -232,6 +274,50 @@
     - tour: nekifirstosakaaichi2024
     part-of:
       postinstagram: C_LQWySylRt
+
+- postinstagramimage:
+    post: C_cBCEkyHbf
+    id: 1
+    label: On stage
+    published-date: 2024-09-03
+    context:
+    - tour: nekifirstosakaaichi2024
+    todo: which show ?
+    part-of:
+      postinstagram: C_cBCEkyHbf
+
+- postinstagramimage:
+    post: C_cBCEkyHbf
+    id: 4
+    label: Backstage
+    published-date: 2024-09-03
+    context:
+    - tour: nekifirstosakaaichi2024
+    todo: which show ?
+    part-of:
+      postinstagram: C_cBCEkyHbf
+
+- postinstagramimage:
+    post: C_cBCEkyHbf
+    id: 5
+    label: Backstage
+    published-date: 2024-09-03
+    context:
+    - tour: nekifirstosakaaichi2024
+    todo: which show ?
+    part-of:
+      postinstagram: C_cBCEkyHbf
+
+- postinstagramimage:
+    post: C_cBCEkyHbf
+    id: 6
+    label: Backstage
+    published-date: 2024-09-03
+    context:
+    - tour: nekifirstosakaaichi2024
+    todo: which show ?
+    part-of:
+      postinstagram: C_cBCEkyHbf
 
 - postx:
     id: 1827357268658286768

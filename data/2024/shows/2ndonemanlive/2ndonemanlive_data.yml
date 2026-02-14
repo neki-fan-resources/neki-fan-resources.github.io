@@ -29,6 +29,79 @@
         image: GdJUX0vaMAAfwff
 
 - postinstagram:
+    id: DCydGK4ThAr
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2024-11-25
+    text: |-
+      .
+      2024.11.24 NEK! 2ND ONE MAN LIVE
+      ありがとうございました🌟
+      #girlsband
+    translation: |-
+      .
+      2024.11.24 NEK! 2ND ONE MAN LIVE
+      Thank you so much 🌟
+      #girlsband
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postinstagram:
+    id: DCzOZCST6qI
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2024-11-25
+    text: |-
+      .
+      大好きな場所で大好きなメンバーと、そして大好きなお客さんと見れたこの景色は宝物‼️😌💫💫
+      最高の景色をありがとう😻😻
+      これからもみなさんと色々な景色が見られるよう頑張ります🔥
+      #NEKI
+    translation: |-
+      .
+      This view that I saw in my favorite place with my favorite members and my favorite audience is a treasure‼️😌💫💫
+      Thank you for the best view😻😻
+      I'll keep doing my best so that I can see many more different views with everyone🔥
+      #NEKI
+    image:
+    - 6
+    - 7
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+    reference:
+    - postximage:
+        post: 1860642399242084838
+        image: GdJUX0yaIAAyel4
+    - postinstagramimage:
+        post: DCyaou3Rhvq
+        image: 5
+    - postximage:
+        post: 1860887418322493470
+        image: GdMzPcLbsAIzyLF
+    - postinstagramimage:
+        post: DCyaou3Rhvq
+        image: 3
+    - postinstagramimage:
+        post: DCyaou3Rhvq
+        image: 2
+    - postximage:
+        post: 1860700294226838000
+        image: GdKJDdoaAAAgzF1
+    - postinstagramimage:
+        post: DCyaou3Rhvq
+        image: 7
+    - postximage:
+        post: 1860642399242084838
+        image: GdJUX1DbQAAIRJv
+
+- postinstagram:
     id: DDuC3s5TSkN
     account: nekiband_jp
     label: Live video release
@@ -146,6 +219,57 @@
         id: 2ndonemanlive
     part-of:
       postinstagram: DCyaou3Rhvq
+
+- postinstagramimage:
+    post: DCydGK4ThAr
+    id: 1
+    label: On stage
+    info: Natsu
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DCydGK4ThAr
+
+- postinstagramimage:
+    post: DCydGK4ThAr
+    id: 2
+    label: On stage
+    info: Natsu
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DCydGK4ThAr
+
+- postinstagramimage:
+    post: DCzOZCST6qI
+    id: 6
+    label: On stage
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DCzOZCST6qI
+
+- postinstagramimage:
+    post: DCzOZCST6qI
+    id: 7
+    label: On stage
+    info: encore
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postinstagram: DCzOZCST6qI
 
 - postinstagramimage:
     post: DDuC3s5TSkN

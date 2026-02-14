@@ -314,7 +314,9 @@
     video:
     - 97bf656e-1306-4f01-b926-ec5e46b54cff
     part-of:
-      song: reigengirl
+      postxvideo:
+        post: 1922955621957005543
+        video: 97bf656e-1306-4f01-b926-ec5e46b54cff
 
 - postx:
     id: 1927221299337666934
@@ -386,7 +388,9 @@
     video:
     - 01
     part-of:
-      song: reigengirl
+      postxvideo:
+        post: 1945413820660523501
+        video: 01
 
 - postx:
     id: 1946145450060288257
@@ -515,7 +519,7 @@
     context:
     - song: reigengirl
     part-of:
-      postx: 1922955621957005543
+      song: reigengirl
 
 - postxvideo:
     post: 1927221299337666934
@@ -551,7 +555,7 @@
     context:
     - song: reigengirl
     part-of:
-      postx: 1945413820660523501
+      song: reigengirl
 
 - postxvideo:
     post: 1946145450060288257

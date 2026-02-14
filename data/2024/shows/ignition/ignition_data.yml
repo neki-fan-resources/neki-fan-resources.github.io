@@ -1,3 +1,36 @@
+- postinstagram:
+    id: DCJ0t1fzArq
+    account: natsu08_guitar
+    label: Smiles
+    published-date: 2024-11-09
+    text: |-
+      ニコニコ☺︎☺︎
+      
+      #girlsband #guitarplayer
+    translation: |-
+      Smile smile ☺︎☺︎
+      
+      #girlsband #guitarplayer
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: ignition
+
+- postinstagramimage:
+    post: DCJ0t1fzArq
+    id: 1
+    label: On stage
+    info: Natsu
+    published-date: 2024-11-09
+    context:
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      postinstagram: DCJ0t1fzArq
+
 - postx:
     id: 1854050886647173628
     account: CLUB251official

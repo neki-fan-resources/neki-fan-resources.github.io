@@ -203,6 +203,27 @@
         - We can make you free so come with us now
 
 - postinstagram:
+    id: DLH5AVtyRoV
+    account: natsu08_guitar
+    label: MV released
+    published-date: 2025-06-20
+    text: |-
+      .
+      ☂️☂️✨
+      「OOAK」
+      The Music Video has been released!🎞
+      たくさん観て、聴いてください🎥
+    translation: |-
+      ☂️☂️✨
+      “OOAK”
+      The Music Video has been released!🎞
+      Please watch and listen to it a lot🎥
+    image:
+    - 1
+    part-of:
+      song: ooak
+
+- postinstagram:
     id: DLKd6GARjyE
     account: nekiband_jp
     label: MV released
@@ -254,6 +275,28 @@
         video: 1
 
 - postinstagram:
+    id: DLPphDEysX6
+    account: natsu08_guitar
+    label: Just cute
+    published-date: 2025-06-23
+    text: |-
+      .
+      どこを切り取ってもかわいい☂️🛹✨
+      
+      #OOAK #ガールズバンド
+    translation: |-
+      It’s cute no matter where you clip it ☂️🛹✨
+      
+      #OOAK #GirlsBand
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      song: ooak
+
+- postinstagram:
     id: DLZkTZ0xUTW
     account: nekiband_jp
     label: Behind the scenes
@@ -272,6 +315,17 @@
       postinstagramvideo:
         post: DLZkTZ0xUTW
         video: 1
+
+- postinstagramimage:
+    post: DLH5AVtyRoV
+    id: 1
+    label: Behind the scenes
+    info: Natsu
+    published-date: 2025-06-20
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLH5AVtyRoV
 
 - postinstagramimage:
     post: DLKd6GARjyE
@@ -302,6 +356,41 @@
     - song: ooak
     part-of:
       postinstagram: DLKd6GARjyE
+
+- postinstagramimage:
+    post: DLPphDEysX6
+    id: 1
+    label: MV image
+    info: Natsu
+    published-date: 2025-06-23
+    part-of:
+      postinstagram: DLPphDEysX6
+
+- postinstagramimage:
+    post: DLPphDEysX6
+    id: 2
+    label: MV image
+    published-date: 2025-06-23
+    todo: on BtS
+    part-of:
+      postinstagram: DLPphDEysX6
+
+- postinstagramimage:
+    post: DLPphDEysX6
+    id: 3
+    label: MV image
+    published-date: 2025-06-23
+    todo: on BtS
+    part-of:
+      postinstagram: DLPphDEysX6
+
+- postinstagramimage:
+    post: DLPphDEysX6
+    id: 4
+    label: Behind the scenes
+    published-date: 2025-06-23
+    part-of:
+      postinstagram: DLPphDEysX6
 
 - postinstagramvideo:
     post: DLMox6Jxk1i
@@ -414,7 +503,9 @@
     video:
     - 01
     part-of:
-      song: ooak
+      postxvideo:
+        post: 1932750181457670312
+        video: 01
 
 - postx:
     id: 1935646894207996161
@@ -675,7 +766,7 @@
     context:
     - song: ooak
     part-of:
-      postx: 1932750181457670312
+      song: ooak
 
 - postxvideo:
     post: 1935646894207996161

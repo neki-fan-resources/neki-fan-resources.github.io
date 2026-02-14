@@ -151,6 +151,63 @@
         year: 2025
         id: minamiwheel
 
+- postinstagram:
+    id: DP77INSEorT
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2025-10-18
+    text: |-
+      .
+      #FM802 MINAMI WHEEL 2025
+      @ BRONZE
+      
+      ありがとうございました！！
+      入場規制も本当にありがとうございました😭🤍
+      始まる前にお客さんでパンパンという話を聞いてワクワク止まらなかったけど、ステージに立ったら本当にたっくさんの人がBRONZEに集まってくれてて幸せすぎたよ😭😭😭
+      
+      入場規制で観られなかった人もいるみたいで、、、🙇
+      今回ライブを観られなかった方も観に来てくださった方も！
+      来年から全国ツアー回りますので、ぜひ遊びに来てくださると嬉しいです🤍
+      お待ちしております🫶🏻🫶🏻
+      
+      ミナホサイコー！！
+      来年もまた大きくなってミナホに戻って来られるよう頑張ります💪🏻
+      
+      #ミナホ #minamiwheel #neki #girlsband #guitarist
+    translation: |-
+      #FM802 MINAMI WHEEL 2025
+      @ BRONZE
+      
+      Thank you so much!!
+      Thank you truly for the admission restrictions too 😭🤍
+      Before it started, I heard the place was packed with people and I couldn't stop being excited, but once I stood on stage and saw so many people gathered at BRONZE, I felt too happy 😭😭😭
+      
+      It seems like some people couldn't get in due to the restrictions... 🙇
+      Whether you missed the show this time or were able to make it!
+      We’ll be touring nationwide starting next year, so I'd be so happy if you came to visit us 🤍
+      We'll be waiting for you 🫶🏻🫶🏻
+      
+      Minaho is the best!!
+      I'll do my best to grow even bigger and come back to Minaho next year 💪🏻
+      
+      #Minaho #minamiwheel #neki #girlsband #guitarist
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+    reference:
+    - postximage:
+        post: 1977673390971564442
+        image: G3IbdvobMAAAYPR
+    - postximage:
+        post: 1977674300330250596
+        image: G3IcRT3aAAAJjhU
+    - postximage:
+        post: 1977673015585624508
+        image: G3IbHmJaUAAgskC
+
 - postinstagramimage:
     post: DP51jPeEdKx
     id: 1
@@ -174,6 +231,19 @@
         id: minamiwheel
     part-of:
       postinstagram: DP51jPeEdKx
+
+- postinstagramimage:
+    post: DP77INSEorT
+    id: 1
+    label: On stage
+    info: Natsu
+    published-date: 2025-10-18
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postinstagram: DP77INSEorT
 
 - postx:
     id: 1943143169446822118

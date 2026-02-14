@@ -250,6 +250,80 @@
         id: debutyearlastlive
 
 - postinstagram:
+    id: DEPHvlPypM2
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2024-12-31
+    text: |-
+      .
+      2024年、、今年ももう終わっちゃうね！
+      
+      まずは「NEK! DEBUT YEAR LAST LIVE」ありがとうございました！
+      29日ということもあり、初めはNEK!を選んでくれた人はどれだけいるのだろうかと少し不安でした、
+      でも、幕が開いてフロアを見るとたっっくさんのファンのみなさんが見えて、ほんっとに嬉しかったと同時に泣きそうになりました。
+      きっとこの景色はこれからわたしがバンドを続けていく中で一生忘れられない景色になると思います。
+      
+      2024年は、長いようであっという間でした。
+      人生が180度変わった1年。
+      
+      わたしはNEK!の活動が始まる前、バンドマンになるという夢を諦めかけていました。
+      バンドは大好きだけどそれだけではうまく行かないことも多くて、だからNEK!に出会えたことは私にとって奇跡でした。
+      
+      MCでも少し話しましたが、初ライブのときは10人いるかいないかのフロアで、そこから約40回のライブを経て、シャングリラがパンパンになるまでのファンの皆様に出会うことができました。
+      自分のバンドマンとしての足りなさに何度も何度も悩み、反省を繰り返し、そして落ち込むこともありました。
+      でもそんな時にはいつもファンの皆様がそばにいて、優しく見守ってくださり、温かい言葉をかけて応援してくださいました。皆さまが私にとっての原動力になっていました。本当にありがとうございました。
+      
+      そして、この3人のバンドメンバーとバンドを組めて幸せでした！！
+      3人とも魅力に溢れすぎていて、3人について書き出したらキリがないくらい素敵な人たちです。
+      いつもありがとう🫶🏻
+      
+      幸せすぎた2024年でしたが、来年はみなさんと一緒にもっともっと最高な景色を見れたらいいなって思っています。
+      私自身、本当に足りないところが多くギタリストとしてまだまだですが、これからもっともっとNEK!とともに高みを目指せるよう頑張ります🔥🔥🔥🔥
+      NEK!の夢はまだ始まったばかり！
+      2025年もよろしくお願いします！💛💛
+      
+      Photo by @tm_livephoto
+      
+      #NEKI #girlsband #guitarist
+    translation: |-
+      .
+      2024... this year is already ending!
+      
+      First of all, thank you for "NEK! DEBUT YEAR LAST LIVE"!
+      Since it was the 29th, I was a little anxious at first about how many people would choose NEK!,
+      But when the curtain opened and I looked at the floor, I saw sooooo many fans, and I was so happy I almost cried.
+      I'm sure this is a sight I'll never forget for the rest of my life as I continue being in a band.
+      
+      2024 felt long yet went by in a flash.
+      A year where my life changed 180 degrees.
+      
+      Before NEK! started, I was about to give up on my dream of becoming a band member.
+      I love bands, but there are many things that don't go well just with that alone, so finding NEK! was a miracle for me.
+      
+      As I mentioned a bit during the MC, at our first live show there were barely 10 people on the floor, and from there, through about 40 shows, I was able to meet enough fans to pack Shangri-La.
+      I worried over and over again about my shortcomings as a band member, reflected repeatedly, and sometimes felt down.
+      But in those times, the fans were always by my side, watching over me kindly and supporting me with warm words. You all were my driving force. Thank you so much.
+      
+      Also, I was so happy to be in a band with these three members!!
+      All three are so full of charm that there's no end to it if I start writing about them; they are wonderful people.
+      Thank you always 🫶🏻
+      
+      2024 was too happy, but I hope to see even more amazing sights together with everyone next year.
+      Personally, I still have many shortcomings and a long way to go as a guitarist, but I will do my best to aim higher and higher together with NEK! from here on 🔥🔥🔥🔥
+      NEK!'s dream has only just begun!
+      Please look forward to 2025! 💛💛
+      
+      Photo by @tm_livephoto
+      
+      #NEKI #girlsband #guitarist
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postinstagram:
     id: DJO4LpSJkzO
     account: nekiband_jp
     label: Live video release
@@ -370,6 +444,19 @@
         id: debutyearlastlive
     part-of:
       postinstagram: DEOr2Jlvoqg
+
+- postinstagramimage:
+    post: DEPHvlPypM2
+    id: 1
+    label: On stage
+    info: Natsu
+    published-date: 2026-02-14
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postinstagram: DEPHvlPypM2
 
 - postinstagramimage:
     post: DJO4LpSJkzO

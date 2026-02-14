@@ -1,3 +1,53 @@
+- postinstagram:
+    id: DKe1PAkSew9
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-06-04
+    text: |-
+      .
+      2025.06.02
+      komsumeさん最強で最高でした
+      最高のフロアを作り上げてくれたみんなもありがとう❤️‍🔥
+      
+      #girlsband
+    translation: |-
+      2025.06.02
+      komsume-san was the strongest and the best
+      Thank you to everyone for creating the best floor ever ❤️‍🔥
+      
+      #girlsband
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postinstagramimage:
+    post: DKe1PAkSew9
+    id: 1
+    label: Backstage
+    published-date: 2025-06-04
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      postinstagram: DKe1PAkSew9
+
+- postinstagramimage:
+    post: DKe1PAkSew9
+    id: 2
+    label: The 2 bands
+    published-date: 2025-06-04
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      postinstagram: DKe1PAkSew9
+
 - postx:
     id: 1925839253633695948
     account: rakutenbooks

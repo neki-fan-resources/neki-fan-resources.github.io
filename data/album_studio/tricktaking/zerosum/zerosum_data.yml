@@ -1234,6 +1234,23 @@
         - Want you gone?
 
 - postinstagram:
+    id: DF9_gO3PCkn
+    account: cocoro_drum
+    label: Bass and drums
+    info: intro
+    published-date: 2025-02-12
+    text: |-
+      💜zero-sum💙
+      
+      #neki #neki_band #girlsband #bass #bassplayer #bassist #girlbassist #femalebassist #drum #drummer #girldrummer #femaledrummer #drumandbass #drumnbass
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DF9_gO3PCkn
+        video: 1
+
+- postinstagram:
     id: DGGFEfVpdvD
     account: nekiband_jp
     label: MV released
@@ -1328,6 +1345,17 @@
     - song: zerosum
     part-of:
       postinstagram: DGGFEfVpdvD
+
+- postinstagramvideo:
+    post: DF9_gO3PCkn
+    id: 1
+    label: Rehearsal
+    info: Kanade, Cocoro, intro
+    published-date: 2025-02-12
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
 
 - postx:
     id: 1886059230479979000

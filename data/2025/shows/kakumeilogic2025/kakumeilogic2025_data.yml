@@ -242,9 +242,7 @@
     video:
     - a54c225e-6b58-47e6-a2b8-d7e90eeae28b
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      youtubeshort: CU3Vqkdf3bs
 
 - postx:
     id: 1920746869560430820
@@ -510,6 +508,7 @@
         year: 2025
         id: kakumeilogic2025
     - song: maze
+    todo: likely to remove
     part-of:
       postx: 1920401532488724860
 
@@ -624,6 +623,20 @@
     published-date: 2025-05-07
     context:
     - song: dreams
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+
+- youtubeshort:
+    id: CU3Vqkdf3bs
+    label: On stage
+    info: Kanade
+    published-date: 2025-05-08
+    context:
     - show:
         year: 2025
         id: kakumeilogic2025

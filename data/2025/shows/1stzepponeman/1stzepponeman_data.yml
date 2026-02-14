@@ -222,6 +222,28 @@
         id: 1stzepponeman
 
 - postinstagram:
+    id: DOvVNxbj21l
+    account: cure_bass_baka
+    label: Photo
+    published-date: 2025-09-18
+    text: |-
+      2025.8.30 NEK! 1ST ZEPP ONE MAN 【 #拡散中 #ネキ界隈 】
+      @ Zepp Shinjuku
+      
+      #bassist #NEKI
+    translation: |-
+      2025.8.30 NEK! 1ST ZEPP ONE MAN 【 #spreading #NEKIcommunity 】
+      @ Zepp Shinjuku
+      
+      #bassist #NEKI
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postinstagram:
     id: DPN6aGzETNX
     account: nekiband_jp
     label: One month ago
@@ -402,6 +424,19 @@
         id: 1stzepponeman
     part-of:
       postinstagram: DOADb5VErTw
+
+- postinstagramimage:
+    post: DOvVNxbj21l
+    id: 1
+    label: On stage
+    info: Kanade
+    published-date: 2025-09-18
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postinstagram: DOvVNxbj21l
 
 - postinstagramimage:
     post: DPN6aGzETNX

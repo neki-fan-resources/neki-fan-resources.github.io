@@ -414,6 +414,89 @@
         image: GmNOOzfbEAA3Ocq
 
 - postinstagram:
+    id: DHTrTp7h-Pg
+    account: 46_hikaa
+    label: Hika's report
+    published-date: 2025-03-17
+    text: |-
+      2025.03.16 TOKYO Spotify O-WEST
+      
+      3/8 OSAKA DROP
+      3/9 AICHI R.A.D
+      
+      NEK!初の東名阪ワンマンツアー〝TR!CK TAK!NG〟
+      
+      ホント楽しい時間ってあっという間だ！
+      この3日間ありがとうございました！
+      
+      NEK!と出会う前とは違う楽しさと景色があり
+      一つ一つ夢が叶ってる気がしてます。
+      いつもNEK!を応援して下さる皆様には
+      本当に感謝でいっぱいです。
+      
+      ありがとう。
+      
+      そして最終日に皆様にお伝えした
+      夢でもあり一つの通過点でもある場所
+      Zepp新宿でのワンマンライブ。
+      
+      胸を張ってこれが私たちだと言える景色と
+      いつも支えて下さってる皆様の背中を少しでも押せるような
+      ライブに絶対にする。
+      
+      これからも進化し続けるNEK!をよろしくお願いします！
+      Zepp新宿でお会いしましょう！
+      
+      Photo by @ryuji_kinmruj
+      
+      #NEKI #ネキ界隈 #拡散中 #ロックバンド
+    translation: |-
+      2025.03.16 TOKYO Spotify O-WEST
+      
+      3/8 OSAKA DROP
+      3/9 AICHI R.A.D
+      
+      NEK!'s first Tokyo-Nagoya-Osaka one-man tour "TR!CK TAK!NG"
+      
+      Truly, fun times go by in the blink of an eye!
+      Thank you so much for these 3 days!
+      
+      There's a fun and scenery different from before I met NEK!
+      I feel like my dreams are coming true one by one.
+      To everyone who always supports NEK!,
+      I am truly full of gratitude.
+      
+      Thank you.
+      
+      And, what we told everyone on the final day—
+      the place that is both a dream and a milestone,
+      a one-man live at Zepp Shinjuku.
+      
+      A scene where we can hold our heads high and say this is who we are,
+      and a live show that will definitely give a little push to the backs
+      of everyone who always supports us.
+      
+      Please continue to support NEK! as we keep evolving!
+      See you at Zepp Shinjuku!
+      
+      Photo by @ryuji_kinmruj
+      
+      #NEKI #NekiNeighborhood #Spreading #RockBand
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+    reference:
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOQ-qacAAAPmN
+    - postinstagramimage:
+        post: DHS-UjUyV-F
+        image: 7
+
+- postinstagram:
     id: DHswbbCxvOW
     account: nekiband_jp
     label: Clock up! on stage
@@ -528,6 +611,18 @@
         id: tricktakingtourtokyo
     part-of:
       postinstagram: DHTDrMZRjhM
+
+- postinstagramimage:
+    post: DHTrTp7h-Pg
+    id: 2
+    label: On stage
+    published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHTrTp7h-Pg
 
 - postinstagramvideo:
     post: DHswbbCxvOW

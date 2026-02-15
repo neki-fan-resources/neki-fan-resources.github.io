@@ -24,6 +24,22 @@
         year: 2025
         id: nekikomsumetokyo
 
+- postinstagram:
+    id: DKivwffpbA4
+    account: 46_hikaa
+    label: Favorite clothes
+    published-date: 2025-06-06
+    text: |-
+      お気に入りのお洋服でこの前ライブやったよ✩.*˚
+    translation: |-
+      I did a live show the other day in my favorite clothes!✩.*˚
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+
 - postinstagramimage:
     post: DKe1PAkSew9
     id: 1
@@ -47,6 +63,19 @@
         id: nekikomsumetokyo
     part-of:
       postinstagram: DKe1PAkSew9
+
+- postinstagramimage:
+    post: DKivwffpbA4
+    id: 1
+    label: Backstage
+    info: Hika
+    published-date: 2025-06-06
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      postinstagram: DKivwffpbA4
 
 - postx:
     id: 1925839253633695948

@@ -1272,6 +1272,22 @@
         multimedia-event: zerosummv
         id: mvcover
 
+- postinstagram:
+    id: DHh8PD_pLKJ
+    account: 46_hikaa
+    label: zero-sum rehearsal
+    published-date: 2025-03-23
+    text: |-
+      ジャーン∠(　˙-˙ )／ #zero-sum #ネキ界隈
+    translation: |-
+      Ta-da!∠(　˙-˙ )／ #zero-sum #NekiNeighborhood
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DHh8PD_pLKJ
+        video: 1
+
 - postinstagramimage:
     post: DGGFEfVpdvD
     id: 1
@@ -1352,6 +1368,17 @@
     label: Rehearsal
     info: Kanade, Cocoro, intro
     published-date: 2025-02-12
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postinstagramvideo:
+    post: DHh8PD_pLKJ
+    id: 1
+    label: Rehearsal
+    info: intro
+    published-date: 2025-03-23
     context:
     - song: zerosum
     part-of:

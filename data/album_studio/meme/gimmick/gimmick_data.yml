@@ -465,6 +465,32 @@
         - What's real, and what's a lie?
 
 - postinstagram:
+    id: DQq9TFNErQD
+    account: 46_hikaa
+    label: GiMMiCK rehearsal
+    published-date: 2025-11-05
+    text: |-
+      すこーしだけ|´-`)ﾁﾗｯ
+      
+      11/19に先行リリースする「GiMMiCK」
+      おたのしみにっ
+      
+      #neki #ネキミーム #ギターボーカル
+    translation: |-
+      Just a little peek |´-`)Peek
+      
+      Look forward to "GiMMiCK"
+      getting a pre-release on 11/19
+      
+      #neki #NekiMeme #GuitarVocal
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DQq9TFNErQD
+        video: 1
+
+- postinstagram:
     id: DRPixBckmZT
     account: 46_hikaa
     label: Announcement
@@ -941,6 +967,16 @@
     part-of:
       postinstagram: DSCSCFSkQjw
 
+- postinstagramvideo:
+    post: DQq9TFNErQD
+    id: 1
+    label: Rehearsal
+    published-date: 2025-11-05
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
+
 - postx:
     id: 1980973984511557877
     account: cure_bass_baka
@@ -1291,6 +1327,24 @@
     - postximage:
         post: 1992086222408454198
         image: G6VP222bAAA436i
+
+- postx:
+    id: 1993273861744578879
+    account: 46_hikaa
+    label: GiMMiCK / NEK!
+    info: cover
+    published-date: 2025-11-25
+    text: |-
+      GiMMiCK / NEK!
+      
+      #ネキミーム #GiMMiCK 
+      #本人弾いてみた  #ギタボ
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1993273861744578879
+        video: 01
 
 - postx:
     id: 1995852341493596505
@@ -1691,6 +1745,18 @@
     - song: gimmick
     part-of:
       postx: 1991829736260251688
+
+- postxvideo:
+    post: 1993273861744578879
+    id: 01
+    label: Cover
+    info: Hika
+    published-date: 2025-11-25
+    cover: 1993273595246837761/img/a_XSY4LoTNunU5MS.jpg
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
 
 - postxvideo:
     post: 1995852341493596505

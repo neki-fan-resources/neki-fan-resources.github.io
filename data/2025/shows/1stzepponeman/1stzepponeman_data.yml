@@ -309,6 +309,22 @@
         page: 1019083
         id: g2
 
+- postinstagram:
+    id: DPRV1RQkv7h
+    account: 46_hikaa
+    label: Loner on stage
+    published-date: 2025-10-01
+    text: |-
+      誰もがもがいて今日を生きてる。
+    translation: |-
+      Everyone is struggling just to live through today.
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
 - postinstagramimage:
     post: DHQiyZfx7JJ
     id: 1
@@ -514,6 +530,20 @@
         id: 1stzepponeman
     part-of:
       postinstagram: DPN6aGzETNX
+
+- postinstagramimage:
+    post: DPRV1RQkv7h
+    id: 1
+    label: On stage
+    info: Hika
+    published-date: 2025-10-01
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: loner
+    part-of:
+      postinstagram: DPRV1RQkv7h
 
 - postx:
     id: 1931984997382316384

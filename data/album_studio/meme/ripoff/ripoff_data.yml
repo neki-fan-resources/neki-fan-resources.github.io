@@ -1410,6 +1410,23 @@
         - And I won’t let this faraway future end just yet
 
 - postinstagram:
+    id: DN0qDEFZBcy
+    account: 46_hikaa
+    label: 10k views
+    published-date: 2025-08-26
+    text: |-
+      「rip-off」 Official Music Video📷´-
+      
+      Thank you for 10,000 Views🤍🫧
+      
+      #neki
+    image:
+    - 1
+    - 2
+    part-of:
+      song: ripoff
+
+- postinstagram:
     id: DN2cToQYm4u
     account: nekiband_jp
     label: Behind the scenes
@@ -1441,6 +1458,68 @@
     - postximage:
         post: 1959224099332637131
         image: GzBo-8pacAAYgMf
+
+- postinstagram:
+    id: DOzrgxCEqwG
+    account: 46_hikaa
+    label: rip-off rehearsal
+    published-date: 2025-09-20
+    text: |-
+      ネキリハ練習風景👀
+      
+      #neki #ネキミーム
+    translation: |-
+      Neki rehearsal practice scene👀
+      
+      #neki #NekiMeme
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DOzrgxCEqwG
+        video: 1
+
+- postinstagram:
+    id: DPEOOQQktta
+    account: 46_hikaa
+    label: zero-sum at home
+    published-date: 2025-09-26
+    text: |-
+      変わり映えない明日を見た。
+      
+      #rip-off #neki #ネキミーム
+    translation: |-
+      I saw an unchanging tomorrow.
+      
+      #rip-off #neki #NekiMeme
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DPEOOQQktta
+        video: 1
+
+- postinstagramimage:
+    post: DN0qDEFZBcy
+    id: 1
+    label: Behind the scenes
+    info: Hika
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DN0qDEFZBcy
+
+- postinstagramimage:
+    post: DN0qDEFZBcy
+    id: 2
+    label: Behind the scenes
+    info: Hika
+    published-date: 2025-08-26
+    context:
+    - song: ripoff
+    part-of:
+      postinstagram: DN0qDEFZBcy
 
 - postinstagramimage:
     post: DN2cToQYm4u
@@ -1514,6 +1593,27 @@
     - song: ripoff
     part-of:
       postinstagram: DNsrQfw5AFX
+
+- postinstagramvideo:
+    post: DOzrgxCEqwG
+    id: 1
+    label: Rehearsal
+    info: Hika
+    published-date: 2025-09-20
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- postinstagramvideo:
+    post: DPEOOQQktta
+    id: 1
+    label: At home
+    published-date: 2025-09-26
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
 
 - postx:
     id: 1949439923565826120
@@ -1809,7 +1909,9 @@
     video:
     - 01
     part-of:
-      song: ripoff
+      postxvideo:
+        post: 1970827214980874512
+        video: 01
 
 - postximage:
     post: 1949439923565826120
@@ -2004,7 +2106,7 @@
     context:
     - song: ripoff
     part-of:
-      postx: 1970827214980874512
+      song: ripoff
 
 - update:
     song: ripoff

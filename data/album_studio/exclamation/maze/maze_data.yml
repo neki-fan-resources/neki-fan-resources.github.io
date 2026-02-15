@@ -1377,6 +1377,22 @@
         post: 1815718604295577659
         image: GTK6bxwa4AAeLVB
 
+- postinstagram:
+    id: DRFKDXvkhPR
+    account: 46_hikaa
+    label: MAZE rehearsal
+    published-date: 2025-11-15
+    text: |-
+      リハの様子
+      
+      #neki #ネキミーム #MAZE #ギターボーカル
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DRFKDXvkhPR
+        video: 1
+
 - postinstagramimage:
     post: C-FzALTyXJ1
     id: 1
@@ -1538,6 +1554,17 @@
     - song: maze
     part-of:
       postinstagram: C-Pr8M_xX_H
+
+- postinstagramvideo:
+    post: DRFKDXvkhPR
+    id: 1
+    label: Rehearsal
+    info: Hika
+    published-date: 2025-11-15
+    context:
+    - song: maze
+    part-of:
+      song: maze
 
 - postx:
     id: 1757661923750052131

@@ -20,6 +20,117 @@
         id: artist
         group: hika
 
+- postinstagram:
+    id: DEHsnt3pfwc
+    account: 46_hikaa
+    label: Looking back
+    published-date: 2024-12-28
+    text: |-
+      明日はいよいよ！！
+      「NEK! DEBUT YEAR LAST LIVE」
+      
+      今年は凄く濃い一年でした。
+      2月にNEK!は結成し3月に初ライブと
+      あっという間に楽しい時間も辛くて苦しかった時間もすぎて
+      ホントあっという間だったなぁ💭
+      沢山の人に支えられてたぁーくさん初めての経験と景色を見させて頂きました。
+      
+      NEK!に出会って下さったファンの皆様
+      そして出会ってくれたNEK!メンバー
+      本当に感謝しています！
+      ありがとう！！そしてこれからもよろしくです·͜·ᰔᩚ
+      
+      明日はね！もうね！
+      心のモヤモヤもぜ〜んぶ吹き飛ぶくらい
+      一緒にたぁーくさん声出して楽しも！
+    translation: |-
+      Tomorrow is finally the day!!
+      "NEK! DEBUT YEAR LAST LIVE"
+      
+      This year has been a very intense one.
+      NEK! formed in February, followed by our first live in March,
+      and in the blink of an eye, both the fun times and the painful, difficult times passed—
+      it really went by so fast 💭
+      Supported by so many people, I was able to have so many first experiences and see so many new sights.
+      
+      To all the fans who encountered NEK!
+      and to the NEK! members who met me,
+      I am truly grateful!
+      Thank you!! And I look forward to our future together ·͜·ᰔᩚ
+      
+      Tomorrow! Listen!
+      Let's shout out loud and have so much fun together
+      that all the fog in our hearts just blows away!
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: hika
+
+- postinstagram:
+    id: DEPGJCXplMw
+    account: 46_hikaa
+    label: Thank you for 2024
+    published-date: 2024-12-31
+    text: |-
+      Thank you so much for 2024!!!!
+      
+      今スマホのアルバム見返そうと思って開いたら
+      NEK!でいっぱいだった!!👀✨️
+      
+      NEK!と出会う前までは、バンド組んだり1人で路上ライブ、各ライブハウスでギター持って歌って
+      沢山オーディション受けてみたりと
+      なかなか上手くいかない事の方が多かったかなぁ💭
+      
+      今年、NEK!と出会って初めて経験する事も多く
+      あれがやりたい、これしたいってことが実現して行ってて
+      夢に少しづつやけど近づいてる気がしてます！
+      
+      NEK!メンバーKanade、Cocoro、Natsuに
+      出会えたことそして、NEK!に出会って応援して下さる皆様
+      本当に心から感謝の気持ちでいっぱいです！
+      ありがとうぉおおお！
+      
+      NEK!はまだ始まったばっか！！！
+      このメンバーとファンの皆さんで
+      色々な場所で最高の景色をみたい！
+      来年も再来年もよろしくお願いします·͜·ᰔᩚ
+      
+      Photo by @tm_livephoto
+    translation: |-
+      Thank you so much for 2024!!!!
+      
+      I just opened my smartphone album to look back on the year
+      and it was full of NEK!!👀✨️
+      
+      Before I met NEK!, I was forming bands, doing street lives on my own, 
+      singing with my guitar at various live houses, 
+      and taking lots of auditions—
+      there were definitely more times when things didn't go well💭
+      
+      This year, meeting NEK!, I've experienced many things for the first time,
+      and the things I’ve wanted to do are actually becoming a reality;
+      I feel like I'm getting closer to my dreams little by little!
+      
+      To the NEK! members Kanade, Cocoro, and Natsu
+      whom I was able to meet, and to everyone who met NEK! and supports us,
+      I am truly filled with feelings of gratitude from the bottom of my heart!
+      Thank you sooooo much!
+      
+      NEK! has only just begun!!!
+      With these members and all the fans,
+      I want to see the best views in all sorts of places!
+      Please stick with us next year and the year after too·͜·ᰔᩚ
+      
+      Photo by @tm_livephoto
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: hika
+
 - postinstagramimage:
     post: C_JH_6YyOLY
     id: 1
@@ -28,6 +139,30 @@
     published-date: 2024-08-26
     part-of:
       postinstagram: C_JH_6YyOLY
+
+- postinstagramimage:
+    post: DEHsnt3pfwc
+    id: 1
+    label: Behind the scenes
+    info: Hika
+    published-date: 2024-12-28
+    context:
+    - song: getover
+    part-of:
+      postinstagram: DEHsnt3pfwc
+
+- postinstagramimage:
+    post: DEPGJCXplMw
+    id: 1
+    label: On stage
+    info: Hika, acoustic
+    published-date: 2024-12-31
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postinstagram: DEPGJCXplMw
 
 - postx:
     id: 1953710557393195152

@@ -324,6 +324,21 @@
         id: debutyearlastlive
 
 - postinstagram:
+    id: DGGQ5ZSTWs2
+    account: 46_hikaa
+    label: Photo
+    published-date: 2025-02-15
+    text: |-
+      -
+    image:
+    - 1
+    todo: double check show
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postinstagram:
     id: DJO4LpSJkzO
     account: nekiband_jp
     label: Live video release
@@ -339,6 +354,42 @@
     - 5
     - 6
     - 7
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postinstagram:
+    id: DK_d4uupGv-
+    account: 46_hikaa
+    label: Nostalgic photo
+    published-date: 2025-06-17
+    text: |-
+      懐かしの写真📸
+      
+      8/30（土）NEK! 1ST ZEPP ONE MAN
+      
+      みんなー！遊びに来てねー！！
+      
+      待っとるよー✌︎
+      
+      #ネキ界隈 #neki
+      
+      photo by @tm_livephoto
+    translation: |-
+      Nostalgic photo📸
+      
+      8/30 (Sat) NEK! 1ST ZEPP ONE MAN
+      
+      Everyone! Come hang out!!
+      
+      I'll be waiting for you—✌︎
+      
+      #NekiNeighborhood #neki
+      
+      photo by @tm_livephoto
+    image:
+    - 1
     part-of:
       show:
         year: 2024
@@ -459,6 +510,19 @@
       postinstagram: DEPHvlPypM2
 
 - postinstagramimage:
+    post: DGGQ5ZSTWs2
+    id: 1
+    label: On stage
+    info: Hika
+    published-date: 2025-02-15
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postinstagram: DGGQ5ZSTWs2
+
+- postinstagramimage:
     post: DJO4LpSJkzO
     id: 1
     label: On stage
@@ -553,6 +617,18 @@
     - song: getover
     part-of:
       postinstagram: DJO4LpSJkzO
+
+- postinstagramimage:
+    post: DK_d4uupGv-
+    id: 1
+    label: On stage
+    published-date: 2025-06-17
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postinstagram: DK_d4uupGv-
 
 - postinstagramimage:
     post: DMApYE6Rkns

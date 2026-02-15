@@ -343,7 +343,9 @@
     video:
     - 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
     part-of:
-      song: reigengirl
+      postxvideo:
+        post: 1927221299337666934
+        video: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
 
 - postx:
     id: 1934565616020840560
@@ -447,7 +449,9 @@
     video:
     - 01
     part-of:
-      song: reigengirl
+      postxvideo:
+        post: 1955966782872936961
+        video: 01
 
 - postx:
     id: 1958088489481761213
@@ -526,12 +530,12 @@
     id: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
     label: Rehearsal
     info: intro, Hika, Kanade
-    published-date: 2025-04-30
+    published-date: 2025-05-27
     cover: 1927221238486728704/img/E6Tir4SQER0UOXLd.jpg
     context:
     - song: reigengirl
     part-of:
-      postx: 1927221299337666934
+      song: reigengirl
 
 - postxvideo:
     post: 1934565616020840560
@@ -591,7 +595,7 @@
     context:
     - song: reigengirl
     part-of:
-      postx: 1955966782872936961
+      song: reigengirl
 
 - postxvideo:
     post: 1958088489481761213

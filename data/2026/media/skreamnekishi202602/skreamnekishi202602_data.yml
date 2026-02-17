@@ -16,7 +16,9 @@
                     image: HBRcv-5a0AAw249
                 lines:
                 - line:
-                  - text: a
+                  - text: In this first column, NEK!'s members discuss the creation of the band and their first impressions of one another.
+                - line:
+                  - text: The band members also share stories and express thoughts regarding the next steps for NEK!
     - basicblock:
         id: translation
         label: translation
@@ -32,7 +34,7 @@
                 lines:
                 - text: Nice to meet you! We are NEK! !
                   participant: All
-                - text: "Our very first serialized column, \"NEK!'s #Nekishi\" [Note: A play on the band's name and \"rekishi\" (history)], has officially begun! In this column, we'll be writing about our journey so that everyone can get to know us better!"
+                - text: "Our very first serialized column, \"NEK!'s #Nekishi\" [Note: A play on the band's name and \"rekishi\" (history), #nekistory], has officially begun! In this column, we'll be writing about our journey so that everyone can get to know us better!"
                   participant: Hika
                 - text: Should we start with some self-introductions? Let's kick things off with Coco-chan!
                 - text: Okay! I'm Cocoro on drums. I love comedy and animals, and I have a pet hedgehog. The animals I'm really obsessed with lately are the rock hyrax and the marmot! Next up is Kanaden!

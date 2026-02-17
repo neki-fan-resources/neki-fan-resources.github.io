@@ -1,3 +1,132 @@
+- display:
+    media:
+      year: 2026
+      id: skreamnekishi202602
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  postximage:
+                    post: 2023344120002154684
+                    image: HBRcv-5a0AAw249
+                lines:
+                - line:
+                  - text: a
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+            - interviewsubsection:
+                label: Translation
+                lines:
+                - text: Nice to meet you! We are NEK! !
+                  participant: All
+                - text: "Our very first serialized column, \"NEK!'s #Nekishi\" [Note: A play on the band's name and \"rekishi\" (history)], has officially begun! In this column, we'll be writing about our journey so that everyone can get to know us better!"
+                  participant: Hika
+                - text: Should we start with some self-introductions? Let's kick things off with Coco-chan!
+                - text: Okay! I'm Cocoro on drums. I love comedy and animals, and I have a pet hedgehog. The animals I'm really obsessed with lately are the rock hyrax and the marmot! Next up is Kanaden!
+                  participant: Cocoro
+                - text: I'm Kanade on bass. I'm an otaku who always carries gummies around and absolutely loves 2D culture [anime/manga] and the bass. Lately, I've been really into chatting with AI like a friend. Next is Natchan!
+                  participant: Kanade
+                - text: I'm Natsu on guitar! I love dramas and manga, especially the romance genre. I'm always swooning over them! Well then, last but not least, Hikacchi!
+                  participant: Natsu
+                - text: I'm Hika on guitar and vocals! My hobby is fishing, and my special skill is soft tennis.
+                  participant: Hika
+                - text: '&nbsp;'
+                - text: So that's the four of us in NEK!, but if you're wondering how we actually met...
+                  participant: Cocoro
+                - text: Simply put, through social media!
+                  participant: Hika
+                - text: When I decided I wanted to form a band, I started looking for members online. While doing that, I saw the content everyone was posting individually, reached out to them, and that's how we all got together.
+                - text: What did you guys think when you got my message? (laughs)
+                - text: I was just purely surprised. But actually, I didn't even notice the DM at first... (laughs)
+                  participant: Natsu
+                - text: I remember thinking, "She's not replying." (laughs)
+                  participant: Hika
+                - text: The moment I saw it, I thought, "Oh my gosh! I got a message from such an amazing girl!" and I remember rushing to reply.
+                  participant: Natsu
+                - text: For me, up until we went to the studio and met in person, I was kind of like, "Do these people actually exist?"... I was a little skeptical. But when I walked into the studio, there were these cute girls, and I was filled with so much excitement and anticipation thinking, "Am I really going to make music with them from now on?"
+                  participant: Cocoro
+                - text: " I wanted to be in a band too, but it's hard to find members around the same age. So when I got the message, I was like, \"It's finally happening!\""
+                  participant: Kanade
+                - text: That's true. And because we met that way, we took our band name from common internet slang—specifically, "Neki," which means a reliable "aneki" (older sister figure)...
+                  participant: Hika
+                - text: Explaining it all over again brings back my first impressions of everyone. Natsu was playing so intensely in her videos, so I figured she might be kind of edgy. But when we met, she had such a lovely smile and a really soft personality, which surprised me. With Cocoro on drums, I thought her smile was like the sun. She looked like the kind of person who could blow away any gloomy feelings. And as for Kanade, the Reels she posted were so incredibly cool and intense, and she was getting a ton of views. I thought, "Wow! I want to hear her play live!" so I reached out to her... She was just a high schooler at the time, so I was thinking, "I can't believe someone like her actually exists."
+                - text: Honestly, it felt like I had known all of you from way back. I knew I wanted to form a band with this specific group, and I don't think my intuition back then was wrong!
+                - text: Aww, we're so happy to hear that!
+                  participant: Others
+                - text: '&nbsp;'
+                - text: Now then, I'd like us to talk a bit more so everyone can get to know us on a deeper level. We formed the band on February 10, 2024, so it's been two years since we started. How have these past two years been for everyone?
+                  participant: Hika
+                - text: Let's see... I think I'd like to hear about the moments that left the biggest impression on everyone, or your favorite memories.
+                  participant: Natsu
+                - text: For me, it would probably be a memory with Kanaden from when we were traveling for a show. (laughs)
+                  participant: Cocoro
+                - text: What was that again?
+                  participant: Natsu
+                - text: When we went to Osaka for a gig, Kanaden and I shared the same hotel room. It had one of those panels by the bed with a ton of light switches. When we were going to sleep, I was clicking them on and off, but I just couldn't get the specific lights I wanted to turn off... Then, I hit one switch and everything went pitch black. I clicked one back on, and it lit up exactly where Kanaden was, like a spotlight! She was drinking water right at that moment and did a massive spit-take. (laughs)
+                  participant: Cocoro
+                - text: Oh yeah, that totally happened! (laughs) We have a lot of private, behind-the-scenes memories like that too, don't we?
+                  participant: Kanade
+                - text: Also, there was that time the hotel had a Pop-up Pirate game, and no matter how many times we played, Kanaden was always the one who made the pirate pop up. (laughs)
+                  participant: Natsu
+                - text: That was so fun. And of course, we also have a lot of memorable live shows.
+                  participant: Hika
+                - text: Yeah. For me, during our first solo show [*], my bass strap pin came undone and I almost dropped my bass. The nervousness on top of that little accident made my mind go completely blank... But once I calmed down, I was so moved to see the venue packed with people right in front of me. Up until then, we had only ever played to a camera and posted it online, so it was a surreal feeling to have the audience who had been reacting to those videos actually right there in front of our eyes.
+                  participant: Kanade
+                - text: That really made me happy. What I feel not just at our first show, but at every show, is the pure joy that the audience "came to hear NEK!". It makes me so incredibly happy that there are so many people who want to hear our songs enough to come all the way out to see us.
+                  participant: Hika
+                - text: "I'll never forget the atmosphere when Hikacchi was singing a cappella at the very beginning of the show [Note: \"NEK! 1ST ZEPP ONE MAN\"] ! There were fans crying right from the start. That was also where we announced our major label debut."
+                  participant: Natsu
+                - text: '&nbsp;'
+                - text: So, what are we looking forward to the most right now as NEK!? For me, it's definitely traveling to different regions and playing live on our first nationwide tour that just kicked off. My hometown is in Nagasaki, so I'm incredibly happy that we get to go to Kyushu for the first time on this tour.
+                  participant: Hika
+                - text: Aside from that, I guess it's making even more new connections. I really want to expand our network, especially with other musicians!
+                  participant: Natsu
+                - text: That's so true. Over these past two years, we've learned a ton and made so many discoveries just by meeting various other bands.
+                  participant: Hika
+                - text: It's about connections with our peers, but also with veteran bands, right? I want us to work hard so we can share the stage with the senior artists we look up to!
+                  participant: Cocoro
+                - text: We definitely want to expand the "NEK! kaiwai" within the industry.
+                  participant: Kanade
+                - text: We want to expand it!
+                  participant: Others
+                - text: '&nbsp;'
+                - text: With all that said, we released our very first album, MEME, last year on November 26th! This album is packed tightly with everything that makes NEK! who we are, from rock tracks to ballads. It's a record I absolutely want everyone reading this column to listen to!
+                  participant: Hika
+                - text: And just the other day, our first nationwide tour officially started! It's a 12-show tour across the country, mostly in towns we're visiting for the very first time! We might even be dropping by the town of whoever is reading this right now...!? So we really hope you'll check it out!
+                  participant: Natsu
+                - text: Since we're on the topic, should I ask everyone for their tour resolutions?
+                - text: I think NEK! is absolutely going to grow an insane amount by the time this tour is over, so I am going to achieve personal growth that completely exceeds my own imagination!
+                  participant: Cocoro
+                - text: I am absolutely going to make one good memory in every single region! Whether it's during the live shows or outside of them, whatever it is, I want to make 12 distinct memories.
+                  participant: Kanade
+                - text: I'm hoping we can make this a tour where we deepen our bond with each other and really speed up our growth as NEK!.
+                  participant: Natsu
+                - text: "And with that... how was the first installment of \"NEK!'s #Nekishi\"? We'll be bringing you the column in this kind of format from now on! Starting next time, each member will take turns talking about themselves and the band one by one!"
+                  participant: Kanade
+                - text: Thank you so much for reading this far! One, two, three...
+                  participant: Hika
+                - text: This has been NEK! !
+                  participant: All
+                - text: '&nbsp;'
+                - text: ' [*] Kanade might have misspoken here. The story has been told before as being during their 1st live show, not their 1st one-man show.'
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202602
+
 - postx:
     id: 2023344120002154684
     account: nekiband_jp

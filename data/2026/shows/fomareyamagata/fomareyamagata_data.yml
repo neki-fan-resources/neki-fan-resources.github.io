@@ -1,0 +1,11 @@
+update:
+  show:
+    year: 2026
+    id: fomareyamagata
+  date: 2026-02-17
+  text:
+  - Added the show
+  part-of:
+    show:
+      year: 2026
+      id: fomareyamagata

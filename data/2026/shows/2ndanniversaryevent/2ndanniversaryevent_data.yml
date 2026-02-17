@@ -33,6 +33,9 @@
                 - postximage:
                     post: 2021469930814836901
                     image: HA20LoEaAAkD8cP
+                - postinstagramimage:
+                    post: DUsfJ72Eq7P
+                    image: 2
                 - postximage:
                     post: 2021488151446028791
                     image: HA3EwQkaAAQeYnZ
@@ -90,6 +93,78 @@
       show:
         year: 2026
         id: 2ndanniversaryevent
+
+- postinstagram:
+    id: DUsfJ72Eq7P
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2026-02-13
+    text: |-
+      .
+      2026.02.11
+      
+      「NEK! 結成2周年記念イベント」 
+      @ shibuya eggman
+      
+      ありがとうございました🫶🏻
+      結成2周年イベントということで、たくさんの人がおめでとうを伝えにきてくれて
+      とっても嬉しかったです🌟
+      
+      サイン会では直接ファンの皆様とたくさんお話しできて
+      本当に幸せでした🥲🫶🏻
+      みなさんからいただいた言葉をパワーに変えてこの後のツアーも頑張っていきます💪🏻
+      改めてNEK! のファンは最高だなと思わせてくれるイベントでした❤️‍🔥
+      みんないつもありがとう！！！
+      これからもよろしくお願いします✌︎
+      
+      #neki #girlsband
+    translation: |-
+      .
+      2026.02.11
+      
+      "NEK! 2nd Anniversary Event" 
+      @ shibuya eggman
+      
+      Thank you so much🫶🏻
+      Since it was our 2nd anniversary event, so many people came to say congratulations,
+      and I was so happy🌟
+      
+      I was truly happy to talk directly with all the fans 
+      at the signing session🥲🫶🏻
+      I'll turn the words I received from everyone into power and do my best for the rest of the tour💪🏻
+      It was an event that made me think once again that NEK! fans are the best❤️‍🔥
+      Thank you all, as always!!!
+      Please continue to support us✌︎
+      
+      #neki #girlsband
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndanniversaryevent
+    reference:
+    - postximage:
+        post: 2021487604550844447
+        image: HA3EQmLaEAALdca
+    - postximage:
+        post: 2021469930814836901
+        image: HA20LoCaAAQpCBp
+    - postximage:
+        post: 2021479793557172454
+        image: HA2891QaAAMp1ak
+
+- postinstagramimage:
+    post: DUsfJ72Eq7P
+    id: 2
+    label: Backstage
+    published-date: 2026-02-13
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    part-of:
+      postinstagram: DUsfJ72Eq7P
 
 - postx:
     id: 2017903857268064334

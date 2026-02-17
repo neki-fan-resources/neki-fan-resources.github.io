@@ -164,6 +164,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: OD9aNEu-d5o
                 - youtubeshort: 5UzWBF1b-Q8
                 - youtubeshort: iOHZ6WsqMoQ
                 - youtubeshort: KbsoiZszT6M
@@ -1403,6 +1404,21 @@
     label: On stage
     info: studio audio
     published-date: 2025-11-11
+    context:
+    - song: colorchord
+    - show:
+        year: 2025
+        id: recommendjunction
+    part-of:
+      show:
+        year: 2025
+        id: recommendjunction
+
+- youtubeshort:
+    id: OD9aNEu-d5o
+    label: On stage
+    info: studio audio
+    published-date: 2026-02-16
     context:
     - song: colorchord
     - show:

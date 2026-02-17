@@ -1,0 +1,18 @@
+show:
+  year: 2026
+  id: fomareyamagata
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: nd2cd773b5ebe
+      id: poster
+  fullname: FOMARE "OVER TOUR 25-26" - Yamagata
+  date: 2026-03-25
+  description:
+  - NEK! is the guest artist for the FOMARE "OVER TOUR 25-26" show in Yamagata
+  venue: 酒田MUSIC FACTORY, Yamagata
+  event-page: 'https://fomare.com/live/a5e4eaa4-6530-47d3-9199-8b5a1bd5cff6'
+  part-of:
+    group:
+      id: shows
+      group: 2026

@@ -61,6 +61,12 @@ contentpage:
       id: 2ndaichi1
   - show:
       year: 2026
+      id: fomareyamagata
+  - show:
+      year: 2026
+      id: fomareakita
+  - show:
+      year: 2026
       id: 2ndfukushima
   - show:
       year: 2026
@@ -74,6 +80,9 @@ contentpage:
   - show:
       year: 2026
       id: 2ndkanagawa
+  - media:
+      year: 2026
+      id: skreamnekishi202602
   - show:
       year: 2026
       id: 2ndanniversaryevent

@@ -104,9 +104,9 @@
                     image: HApapWgbAAAI8FX
             - multimediasubsection:
                 multimedia:
-                - postinstagramimage:
-                    post: DUiY3uUj_G0
-                    image: 1
+                - postximage:
+                    post: 2022266928430297372
+                    image: HBCJDThbYAA2bt1
         - basicsection:
             label: At the event
             subsections:
@@ -124,6 +124,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: 7LsZB3CQSRg
                 - youtubeshort: OEYklTvEBak
     part-of:
       show:
@@ -213,7 +214,6 @@
       
       Next is 2/28 Yokohama BAYSIS
     image:
-    - 1
     - 3
     part-of:
       show:
@@ -223,6 +223,9 @@
     - postximage:
         post: 2020505544453484875
         image: HApHE15bYAAn9Vt
+    - postximage:
+        post: 2022266928430297372
+        image: HBCJDThbYAA2bt1
 
 - postinstagram:
     id: DUimwdmGmOe
@@ -418,19 +421,6 @@
         id: 2ndtokyo1
     part-of:
       postinstagram: DUgCu6vkjnl
-
-- postinstagramimage:
-    post: DUiY3uUj_G0
-    id: 1
-    label: Backstage
-    info: Kanade
-    published-date: 2026-02-09
-    context:
-    - show:
-        year: 2026
-        id: 2ndtokyo1
-    part-of:
-      postinstagram: DUiY3uUj_G0
 
 - postinstagramimage:
     post: DUiY3uUj_G0
@@ -936,6 +926,22 @@
         post: 2021231476574929121
         video: 01
 
+- postx:
+    id: 2022266928430297372
+    account: cure_bass_baka
+    label: Tour merch
+    published-date: 2026-02-13
+    text: |-
+      ツアーT🌟
+    translation: |-
+      Tour T🌟
+    image:
+    - HBCJDThbYAA2bt1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
 - postximage:
     post: 2014972494361645385
     id: G_adQ2YbAAIeZhI
@@ -1123,6 +1129,19 @@
     part-of:
       postx: 2020706932638859334
 
+- postximage:
+    post: 2022266928430297372
+    id: HBCJDThbYAA2bt1
+    label: Backstage
+    info: Kanade
+    published-date: 2026-02-13
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postx: 2022266928430297372
+
 - postxvideo:
     post: 2021231476574929121
     id: 01
@@ -1205,6 +1224,21 @@
     image:
     - merch
     - merchlottery
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- youtubeshort:
+    id: 7LsZB3CQSRg
+    label: On stage
+    info: studio audio
+    published-date: 2026-02-13
+    context:
+    - song: loner
+    - show:
+        year: 2026
+        id: 2ndtokyo1
     part-of:
       show:
         year: 2026

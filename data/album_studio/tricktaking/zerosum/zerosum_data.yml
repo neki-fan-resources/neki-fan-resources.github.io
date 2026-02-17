@@ -1458,7 +1458,9 @@
     video:
     - 01
     part-of:
-      song: zerosum
+      postxvideo:
+        post: 1955168434913952216
+        video: 01
 
 - postx:
     id: 1959533059923128628
@@ -1482,12 +1484,14 @@
     video:
     - 01
     part-of:
-      song: zerosum
+      postxvideo:
+        post: 1959533059923128628
+        video: 01
 
 - postx:
     id: 1960678576212308384
     account: cure_bass_baka
-    label: rip-off rehearsal
+    label: zero-sum rehearsal
     published-date: 2025-08-27
     text: |-
       今日はZepp前最後のリハーサルでした。
@@ -1502,7 +1506,9 @@
     video:
     - 01
     part-of:
-      song: zerosum
+      postxvideo:
+        post: 1960678576212308384
+        video: 01
 
 - postximage:
     post: 1886059230479979000
@@ -1546,18 +1552,18 @@
     context:
     - song: zerosum
     part-of:
-      postx: 1955168434913952216
+      song: zerosum
 
 - postxvideo:
     post: 1959533059923128628
     id: 01
     label: Rehearsal
-    published-date: 2025-08-12
+    published-date: 2025-08-24
     cover: 1959532949168394240/img/dGDvkdVTI7NCMrMk.jpg
     context:
     - song: zerosum
     part-of:
-      postx: 1959533059923128628
+      song: zerosum
 
 - postxvideo:
     post: 1960678576212308384
@@ -1572,7 +1578,7 @@
         year: 2025
         id: 1stzepponeman
     part-of:
-      postx: 1960678576212308384
+      song: zerosum
 
 - youtubeshort:
     id: 4t1yP9wsV88

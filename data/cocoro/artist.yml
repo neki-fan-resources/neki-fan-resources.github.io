@@ -37,6 +37,36 @@
       postinstagram: DT7vHYbkoOh
 
 - postx:
+    id: 1917457790253293837
+    account: coco_102
+    label: Where her spirit resides
+    published-date: 2025-04-30
+    text: |-
+      My spirit resides here.
+      
+      東名阪のファイナルで撮ってもらった1枚。
+      手元の写真今まであんまなかったからお気に入り🫶🏻
+      
+      スティックが程よい削れ具合なのも割と貴重です笑
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      My spirit resides here.
+      
+      A photo taken at the final show of our Tokyo-Nagoya-Osaka tour.
+      I haven't had many photos of my hands until now, so it's a favorite🫶🏻
+      
+      It's also pretty rare to see the sticks worn down just the right amount lol
+      
+      #NEKI #SpreadingTheWord #NEK!Community
+    image:
+    - GpwtsbTaYAAlBd8
+    part-of:
+      group:
+        id: artist
+        group: cocoro
+
+- postx:
     id: 1976524281870979098
     account: coco_102
     label: Drum day
@@ -83,6 +113,18 @@
       group:
         id: artist
         group: cocoro
+
+- postximage:
+    post: 1917457790253293837
+    id: GpwtsbTaYAAlBd8
+    label: Drums
+    published-date: 2025-04-30
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1917457790253293837
 
 - postximage:
     post: 1976524281870979098

@@ -1,3 +1,105 @@
+- postinstagram:
+    id: DAOPx7cT2s9
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-09-22
+    text: |-
+      2024.09.19
+      
+      #FYP『For You Place』vol.5 @ SHIBUYA THE GAME
+      に出演いたしました！
+      お越しくださった皆さんありがとうございました！
+      
+      少しバタバタしてて更新遅くなっちゃった🥲🙏🏻
+      
+      今回はENDLESS GAMEとかLonerとか、最近できた曲はやらずに、少し前のライブでやってたみたいなセトリにしてみました！たまには初心に戻るのも大切だね😌(何年か経ってもっと楽曲増えたらより強く感じそう)
+      
+      あと最近のライブで強く感じるのは、お客さんたちのノリ方が日に日に個性出てきてめっちゃ楽しい！笑
+      首やっちゃうんじゃない…！？ってくらいずっと激しく頭振ってくれてる方もいれば、軽くモッシュみたいなのが起きていたり、お客さんオリジナルのまぜまぜダンスをしてくれてる方とかもいて、、
+      本来は私たちが皆さんのことを楽しませる側なのですが、正直私は皆さんにめっちゃ楽しませてもらってます😂
+      これからも自由にライブを楽しんでいってくださいね🤝🏻
+      
+      次回のライブは明後日の9/24「Girl's UP!!!vol.365」
+      @ Shibuya eggmanです！また一緒に楽しみましょ❤️‍🔥
+      
+      ※最後の写真はかなでん入り前に撮ったやつなのでかなでん不在です…！！泣
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer
+    translation: |-
+      2024.09.19
+      
+      We performed at
+      #FYP "For You Place" vol.5 @ SHIBUYA THE GAME!
+      Thank you to everyone who came!
+      
+      Things have been a bit hectic, so my update is late🥲🙏🏻
+      
+      This time, we didn't play "ENDLESS GAME" or "Loner" or any of the recent songs, and instead tried a setlist like the ones we used to do a little while back! It's important to go back to your roots once in a while😌 (I feel like I'll feel that even more strongly in a few years when we have more songs)
+      
+      Also, what I've been feeling strongly at recent lives is that the way the audience gets into it is becoming more unique every day, and it's so much fun! Lol
+      There are people shaking their heads so hard I worry they'll hurt their necks...!? and others starting light mosh pits, or people doing their own original "Maze-Maze" dances...
+      Originally, we are the ones supposed to be entertaining you, but honestly, I'm being entertained so much by all of you😂
+      Please continue to enjoy the shows freely🤝🏻
+      
+      Our next live is the day after tomorrow, 9/24, "Girl's UP!!! vol.365"
+      @ Shibuya eggman! Let's have fun together again❤️‍🔥
+      
+      *The last photo was taken before Kanaden arrived, so she is missing...!! Crying
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer
+    image:
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2024
+        id: fypvol5
+    reference:
+    - postximage:
+        post: 1836763022674575746
+        image: GX1-NI8a0AAJtCZ
+    - postximage:
+        post: 1836763022674575746
+        image: GX1-NI7aMAAhIdv
+
+- postinstagramimage:
+    post: DAOPx7cT2s9
+    id: 2
+    label: On stage
+    published-date: 2025-09-22
+    context:
+    - show:
+        year: 2024
+        id: fypvol5
+    part-of:
+      postinstagram: DAOPx7cT2s9
+
+- postinstagramimage:
+    post: DAOPx7cT2s9
+    id: 3
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-22
+    context:
+    - show:
+        year: 2024
+        id: fypvol5
+    part-of:
+      postinstagram: DAOPx7cT2s9
+
+- postinstagramimage:
+    post: DAOPx7cT2s9
+    id: 4
+    label: Backstage
+    published-date: 2025-09-22
+    context:
+    - show:
+        year: 2024
+        id: fypvol5
+    part-of:
+      postinstagram: DAOPx7cT2s9
+
 - postx:
     id: 1836637097840775291
     account: SHIBUYATHEGAME
@@ -52,6 +154,35 @@
         year: 2024
         id: fypvol5
 
+- postx:
+    id: 1836763022674575746
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-09-19
+    text: |-
+      SHIBUYA THE GAME presents
+      #FYP - For You Place - vol.5
+      @ SHIBUYA THE GAME
+      
+      ありがとうございました🎮
+      
+      #NEKI
+    translation: |-
+      SHIBUYA THE GAME presents
+      #FYP - For You Place - vol.5
+      @ SHIBUYA THE GAME
+      
+      Thank you very much 🎮
+      
+      #NEKI
+    image:
+    - GX1-NI8a0AAJtCZ
+    - GX1-NI7aMAAhIdv
+    part-of:
+      show:
+        year: 2024
+        id: fypvol5
+
 - postximage:
     post: 1836637097840775291
     id: GX0Lhdsa8AA1DHs
@@ -64,4 +195,20 @@
         id: fypvol5
     part-of:
       postx: 1836637097840775291
+
+- postximage:
+    post: 1836763022674575746
+    id: GX1-NI7aMAAhIdv
+    label: Poster
+    published-date: 2024-09-19
+    part-of:
+      postx: 1836763022674575746
+
+- postximage:
+    post: 1836763022674575746
+    id: GX1-NI8a0AAJtCZ
+    label: On stage
+    published-date: 2024-09-19
+    part-of:
+      postx: 1836763022674575746
 

@@ -67,30 +67,6 @@
       group: tosort
 
 - postx:
-    id: 1923958028916883650
-    account: coco_102
-    label: Recording
-    published-date: 2025-05-18
-    text: |-
-      新曲レコーディングしてきたよ👊🏻❤️‍🔥
-      
-      かっこいい曲になるように魂込めてぶっ叩きました！
-      みんなにも早く聴いてもらいたいなー！お楽しみに！
-      
-      #NEKI #拡散中 #ネキ界隈
-    translation: |-
-      Finished recording a new song! 👊🏻❤️‍🔥
-      
-      I put my heart and soul into smashing those drums to make it a cool track!
-      I want everyone to hear it soon! Look forward to it!
-      
-      #NEKI #Spreading #NEKICircle
-    video:
-    - 6d791e00-ee17-4246-b248-d81ea7004287
-    part-of:
-      group: tosort
-
-- postx:
     id: 1923986423700652394
     account: cure_bass_baka
     label: Recording
@@ -124,28 +100,6 @@
       #NEKICircle #Spreading
     video:
     - 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
-    part-of:
-      group: tosort
-
-- postx:
-    id: 1926604625936810264
-    account: coco_102
-    label: Recording
-    published-date: 2025-05-25
-    text: |-
-      この前のレコーディングをまたまたチラ見せ👀❤️‍🔥
-      
-      各パートかっこいいフレーズ盛り沢山！お楽しみに〜！
-      
-      #NEKI #拡散中 #ネキ界隈
-    translation: |-
-      Another little peek at the recording from the other day👀❤️‍🔥
-      
-      Tons of cool phrases for every part! Look forward to it~!
-      
-      #NEKI #Spreading #NEKIKAIWAI
-    video:
-    - b0969558-f5d5-43d7-9200-0bf80227bfbf
     part-of:
       group: tosort
 
@@ -184,20 +138,6 @@
       postx: 1922260308782887399
 
 - postxvideo:
-    post: 1923958028916883650
-    id: 6d791e00-ee17-4246-b248-d81ea7004287
-    label: Recording
-    info: Cocoro
-    published-date: 2025-05-18
-    cover: 1923957908833701888/img/Rtc71v02-R15ZKmm.jpg
-    context:
-    - song:
-        id: newsong202505
-        dark: true
-    part-of:
-      postx: 1923958028916883650
-
-- postxvideo:
     post: 1924763496551743797
     id: 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
     label: Practicing
@@ -210,20 +150,6 @@
         dark: true
     part-of:
       postx: 1924763496551743797
-
-- postxvideo:
-    post: 1926604625936810264
-    id: b0969558-f5d5-43d7-9200-0bf80227bfbf
-    label: Recording
-    info: Cocoro
-    published-date: 2025-05-25
-    cover: 1926604563953471488/img/LsvQBWyGGPFdD3aD.jpg
-    context:
-    - song:
-        id: newsong202505
-        dark: true
-    part-of:
-      postx: 1926604625936810264
 
 - youtubeshort:
     id: 70vdgE0Plro

@@ -1,3 +1,103 @@
+- postinstagram:
+    id: DBz3uWWz_Bu
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-11-01
+    text: |-
+      2024.10.18
+      
+      「NEK!×Girl's UP!!! presents. FRIDAY 4MAN SHOW」
+      @ Shibuya eggman
+      
+      無事、終了しましたーーーーー！！！(いつの話やねん)
+      すっかりうっかりしていてとてつもない時差投稿になってしまいました、、すいません😂
+      
+      初めての主催イベントということで、不安なことも色々ありましたが、とても心強い先輩バンドさんたちに集まっていただいて、激アツすぎる対バンライブとなりました🔥
+      平日なのに超満員で開場時間からめちゃめちゃ嬉しかったな〜
+      観に来てくださった方、本当にありがとうございました！！
+      
+      皆さんのステージをしっかり目に焼き付けようとずっとフロアから観させていただいていたのですが、LUMiRiSEさんもMARKET SHOP STOREさんもЯeaLさんもかっこよすぎ！！！！！！こんなそうそうたるメンツの中で私たちがトリ務めるのやばくないか！？🫨ｱﾜｱﾜってなるくらい、ステージングも楽曲も全て完璧でかっこよくて、リスペクトの気持ちが更に高まりました。
+      
+      私たちが出る頃にはお客さんたちはみんなもう温まりまくってて、１曲目からめちゃくちゃ盛り上がってくれてたし、かけ声もいつも以上の声量で、圧縮もダイブも多かった気がした！！これぞライブって感じの中でできて本当に幸せでした❤️‍🔥
+      
+      途中でハイハットのクラッチが取れちゃって一切開かなくなったりとかのトラブルもあったけど、みんなハイハットコールしてくれて盛り上がったし、結果MCしながら直せたし、もうそんなトラブルどうでもいいくらいとにかくライブが楽しかった！！！！
+      
+      6日のBray meさんとのツーマンライブもこの日に負けないくらい激アツなフロアをつくりたいな🫶🏻🔥251で待ってます！！！
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.10.18
+      
+      "NEK!×Girl's UP!!! presents. FRIDAY 4MAN SHOW"
+      @ Shibuya eggman
+      
+      Finished safelyーーーーー!!! (How long ago was this)
+      I completely forgot and it's become a massive time-lag post,, sorry😂
+      
+      As our first self-organized event, I had various anxieties, but we had such reliable senior bands gather, and it became an incredibly hot multi-band live🔥
+      The floor was packed even for a weekday, and I was so happy from the moment doors opened~
+      To everyone who came to watch, thank you so much!!
+      
+      I was watching from the floor the whole time to burn everyone's stages into my eyes, and LUMiRiSE, MARKET SHOP STORE, and ЯeaL were all too cool!!!!!! I was like, is it okay for us to play the closing set among such a distinguished lineup!?🫨*panics*, their staging and songs were all perfect and cool, and my feelings of respect grew even more.
+      
+      By the time we went on, the audience was already warmed up to the max, they were hyped from the very first song, the chants were louder than usual, and I felt like there was more crushing and diving!! I was truly happy to perform in an atmosphere that felt like "this is what a live show is"❤️‍🔥
+      
+      There was some trouble in the middle where the hi-hat clutch came off and it wouldn't open at all, but everyone did a hi-hat call and got hyped, and in the end I was able to fix it while doing the MC, so the live was so fun that troubles like that didn't even matter anyway!!!!
+      
+      For the two-man live with Bray me on the 6th, I want to create a floor just as hot as this day🫶🏻🔥 Waiting for you at 251!!!
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 4
+    part-of:
+      show:
+        year: 2024
+        id: nekigufriday
+    reference:
+    - postximage:
+        post: 1847280924775641370
+        image: GaLcNR9a0AEXUbo
+
+- postinstagramimage:
+    post: DBz3uWWz_Bu
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2024-11-01
+    context:
+    - show:
+        year: 2024
+        id: nekigufriday
+    part-of:
+      postinstagram: DBz3uWWz_Bu
+
+- postinstagramimage:
+    post: DBz3uWWz_Bu
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2024-11-01
+    context:
+    - show:
+        year: 2024
+        id: nekigufriday
+    part-of:
+      postinstagram: DBz3uWWz_Bu
+
+- postinstagramimage:
+    post: DBz3uWWz_Bu
+    id: 4
+    label: Sidewalk board
+    published-date: 2024-11-01
+    context:
+    - show:
+        year: 2024
+        id: nekigufriday
+    part-of:
+      postinstagram: DBz3uWWz_Bu
+
 - postx:
     id: 1847190084451262858
     account: shibuya_eggman
@@ -30,6 +130,93 @@
         year: 2024
         id: nekigufriday
 
+- postx:
+    id: 1847280924775641370
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-10-18
+    text: |-
+      NEK!×Girl's UP!!! presents. 
+      FRIDAY 4MAN SHOW
+      @ Shibuya eggman
+      
+      初主催！！！！
+      ご来場ありがとうございました🫶
+      
+      LUMiRiSEさん
+      MARKET SHOP STOREさん
+      ЯeaLさん
+      
+      みなさん格好良すぎましたありがとうございました😭❣️
+      
+      #NEKI
+    translation: |-
+      NEK!×Girl's UP!!! presents.
+      FRIDAY 4MAN SHOW
+      @ Shibuya eggman
+      
+      Our first time hosting!!!!
+      Thank you for coming 🫶
+      
+      LUMiRiSE
+      MARKET SHOP STORE
+      ЯeaL
+      
+      Everyone was too cool, thank you so much 😭❣️
+      
+      #NEKI
+    image:
+    - GaLcNR9a0AEXUbo
+    - GaLcNSCacAApUEa
+    part-of:
+      show:
+        year: 2024
+        id: nekigufriday
+
+- postx:
+    id: 1848204505093144935
+    account: coco_102
+    label: Cocoro-cam
+    published-date: 2024-10-21
+    text: |-
+      令現少女💫
+      
+      ここのパートラスサビに向けてみんなの心がひとつになってる感じがしてすごく好き。
+      
+      (音小さいかも！ごめん！)
+    translation: |-
+      Reigen Shoujo 💫
+      
+      I really like how everyone's hearts feel like they're becoming one in this part leading up to the final chorus.
+      
+      (The sound might be quiet! Sorry!)
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1848204505093144935
+        video: 01
+
+- postx:
+    id: 1849313941895381437
+    account: coco_102
+    label: Loner on stage
+    published-date: 2024-10-24
+    text: |-
+      Lonerのギターソロ辺り最高にアツい🔥
+      
+      (6日までライブないからここで参戦気分味わってくだされ🥲)
+    translation: |-
+      The guitar solo part of Loner is incredibly hot🔥
+      
+      (Since there are no lives until the 6th, please enjoy the feeling of being at a show here🥲)
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1849313941895381437
+        video: 01
+
 - postximage:
     post: 1847190084451262858
     id: GaKJl2Eb0AEjQl_
@@ -42,6 +229,56 @@
         id: nekigufriday
     part-of:
       postx: 1847190084451262858
+
+- postximage:
+    post: 1847280924775641370
+    id: GaLcNR9a0AEXUbo
+    label: On stage
+    published-date: 2024-10-18
+    part-of:
+      postx: 1847280924775641370
+
+- postximage:
+    post: 1847280924775641370
+    id: GaLcNSCacAApUEa
+    label: Sidewalk board
+    published-date: 2024-10-18
+    part-of:
+      postx: 1847280924775641370
+
+- postxvideo:
+    post: 1848204505093144935
+    id: 01
+    label: Live
+    info: Cocoro
+    published-date: 2024-10-21
+    cover: 1848203800752078848/pu/img/adebpog5s1TgG_9V.jpg
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: nekigufriday
+    part-of:
+      show:
+        year: 2024
+        id: nekigufriday
+
+- postxvideo:
+    post: 1849313941895381437
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2024-10-24
+    cover: 1849313871133388800/pu/img/5CkA0YrQe-SDDc04.jpg
+    context:
+    - song: loner
+    - show:
+        year: 2024
+        id: nekigufriday
+    part-of:
+      show:
+        year: 2024
+        id: nekigufriday
 
 - webimage:
     domain: eggman.jp

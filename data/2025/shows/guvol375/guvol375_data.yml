@@ -1,3 +1,111 @@
+- postinstagram:
+    id: DGRjbgwzXBn
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-02-20
+    text: |-
+      2025.02.19
+      
+      「Girl's UP!!! vol.375 〜スリーマンスペシャル〜」
+      に出演いたしました！お越しくださった皆様ありがとうございました🤝🏻💫
+      
+      平日のど真ん中だったのにも関わらずたくさんの方に来ていただいて、フロアは週末みたいにパンっパンで激アツ！本当にありがとうございました🔥
+      
+      今回はLUMiRiSEさんとBONEDAWNさんのお2組と対バンさせていただいて、どちらもじっくり見させていただきましたが本当に言葉にできないくらいめちゃくちゃかっこよくて刺激受けまくりでした…！！
+      
+      特にBONEDAWNのシシドカフカさんは、私がドラムを始めた中学生の頃からずっと憧れている女性ドラマーの1人だったので、生で演奏聞けて感極まりました🥲
+      十何年ずっと見てきたあのフォームと髪のなびかせ方を目の前で見れてもう最高すぎた、、、
+      裏でちょこっとお話させていただいたときは緊張と嬉しさで声が震えまくりました笑
+      
+      憧れの人にいつかお会いしたいと願い続けていたら本当に叶うんだなと、必死にドラムやっててよかったな〜と強く思う一日でした。
+      
+      NEK!の対バン出演はひとまず今日でお休みで、次回はとうとう東名阪ワンマンツアー💥
+      その前には2nd EP「TR!CK TAK!NG」の発売もあるし、3月も楽しみなことだらけ！
+      
+      また東名阪で皆に会えるのを楽しみに練習頑張ります💪🏻🩵
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2025.02.19
+      
+      We performed at "Girl's UP!!! vol.375 ~Three-Man Special~"!
+      Thank you so much to everyone who came 🤝🏻💫
+      
+      Even though it was the middle of a weekday, so many people showed up, and the floor was packed and super hot just like a weekend! Thank you truly 🔥
+      
+      This time we shared the stage with LUMiRiSE and BONEDAWN. I watched both of them closely, and they were so incredibly cool I can't even put it into words... I was so inspired...!!
+      
+      In particular, Shishido Kavka from BONEDAWN has been one of the female drummers I've admired since I started drumming in middle school, so I was overwhelmed with emotion hearing her play live 🥲
+      Seeing that form and the way her hair flows—which I've watched for over a decade—right in front of my eyes was just the best...
+      When I got to talk to her a little bit backstage, my voice was shaking like crazy from nerves and happiness lol
+      
+      It was a day that made me strongly feel that if you keep wishing to meet someone you admire, it really can come true, and I'm so glad I've been working so hard at drumming.
+      
+      NEK!'s guest appearances are taking a break for now after today, and next up is finally the Tokyo-Nagoya-Osaka one-man tour 💥
+      Before that, our 2nd EP "TR!CK TAK!NG" will be released, and March is full of things to look forward to!
+      
+      I'll work hard at practice, looking forward to seeing everyone again in Tokyo, Nagoya, and Osaka 💪🏻🩵
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2025
+        id: guvol375
+
+- postinstagramimage:
+    post: DGRjbgwzXBn
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2025-02-20
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postinstagram: DGRjbgwzXBn
+
+- postinstagramimage:
+    post: DGRjbgwzXBn
+    id: 2
+    label: On stage
+    published-date: 2025-02-20
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postinstagram: DGRjbgwzXBn
+
+- postinstagramimage:
+    post: DGRjbgwzXBn
+    id: 3
+    label: Backstage
+    published-date: 2025-02-20
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postinstagram: DGRjbgwzXBn
+
+- postinstagramimage:
+    post: DGRjbgwzXBn
+    id: 4
+    label: Sidewalk board
+    published-date: 2025-02-20
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postinstagram: DGRjbgwzXBn
+
 - postx:
     id: 1892129493306810798
     account: shibuya_eggman

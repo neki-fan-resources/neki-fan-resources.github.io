@@ -1,0 +1,74 @@
+- postx:
+    id: 1923958028916883650
+    account: coco_102
+    label: Recording
+    published-date: 2025-05-18
+    text: |-
+      新曲レコーディングしてきたよ👊🏻❤️‍🔥
+      
+      かっこいい曲になるように魂込めてぶっ叩きました！
+      みんなにも早く聴いてもらいたいなー！お楽しみに！
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Finished recording a new song! 👊🏻❤️‍🔥
+      
+      I put my heart and soul into smashing those drums to make it a cool track!
+      I want everyone to hear it soon! Look forward to it!
+      
+      #NEKI #Spreading #NEKICircle
+    video:
+    - 6d791e00-ee17-4246-b248-d81ea7004287
+    part-of:
+      postxvideo:
+        post: 1923958028916883650
+        video: 6d791e00-ee17-4246-b248-d81ea7004287
+
+- postx:
+    id: 1926604625936810264
+    account: coco_102
+    label: Recording
+    published-date: 2025-05-25
+    text: |-
+      この前のレコーディングをまたまたチラ見せ👀❤️‍🔥
+      
+      各パートかっこいいフレーズ盛り沢山！お楽しみに〜！
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Another little peek at the recording from the other day👀❤️‍🔥
+      
+      Tons of cool phrases for every part! Look forward to it~!
+      
+      #NEKI #Spreading #NEKIKAIWAI
+    video:
+    - b0969558-f5d5-43d7-9200-0bf80227bfbf
+    part-of:
+      postxvideo:
+        post: 1926604625936810264
+        video: b0969558-f5d5-43d7-9200-0bf80227bfbf
+
+- postxvideo:
+    post: 1923958028916883650
+    id: 6d791e00-ee17-4246-b248-d81ea7004287
+    label: Recording
+    info: Cocoro
+    published-date: 2025-05-18
+    cover: 1923957908833701888/img/Rtc71v02-R15ZKmm.jpg
+    context:
+    - song: frogflog
+    part-of:
+      song: frogflog
+
+- postxvideo:
+    post: 1926604625936810264
+    id: b0969558-f5d5-43d7-9200-0bf80227bfbf
+    label: Recording
+    info: Cocoro
+    published-date: 2025-05-25
+    cover: 1926604563953471488/img/LsvQBWyGGPFdD3aD.jpg
+    context:
+    - song: frogflog
+    part-of:
+      song: frogflog
+

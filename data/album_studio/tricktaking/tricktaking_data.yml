@@ -1,3 +1,42 @@
+- postinstagram:
+    id: DGmRFA-hwqw
+    account: cocoro_drum
+    label: Tarot cards
+    published-date: 2025-02-28
+    text: |-
+      TR!CK TAK!NGに付いてくるタロットカード全種！🃏🔮
+      
+      ほんっっっとに可愛い！！！！
+      
+      裏面のディティールも細かくて更にかわいい🥹❤️‍🔥
+      
+      みんなの手元に届く日が楽しみだ〜！！！
+      
+      ※全員(タワーレコード)ver.は受付終了しています
+      
+      #neki #neki_band #girlsband #tricktaking #tarotcards
+    translation: |-
+      All the tarot cards that come with TR!CK TAK!NG! 🃏🔮
+      
+      They are soooo cute!!!!
+      
+      The details on the back are so fine and make them even cuter 🥹❤️‍🔥
+      
+      I can't wait for the day they reach everyone's hands~!!!
+      
+      *The "everyone" (Tower Records) ver. is no longer accepting orders.
+      
+      #neki #neki_band #girlsband #tricktaking #tarotcards
+    part-of:
+      album: tricktaking
+    reference:
+    - postximage:
+        post: 1895283964631490896
+        image: Gk1ms5WXwAAIEdG
+    - postximage:
+        post: 1895283964631490896
+        image: Gk1ms5RX0AAjgiJ
+
 - postx:
     id: 1873309518450548860
     account: nekiband_jp
@@ -125,6 +164,36 @@
     part-of:
       album: tricktaking
 
+- postx:
+    id: 1895283964631490896
+    account: coco_102
+    label: Tarot cards
+    published-date: 2025-02-28
+    text: |-
+      TR!CK TAK!NGに付いてくる
+      NEK!オリジナルタロットカード全種！🃏🔮
+      
+      ほんっっっとに可愛い！！！！
+      裏面のディティールも細かくて更にかわいい🥹❤️‍🔥
+      
+      みんなの手元に届く日が楽しみだ〜！！！
+      
+      ※全員(タワーレコード)ver.は受付終了しています
+    translation: |-
+      All types of NEK! original tarot cards included with TR!CK TAK!NG! 🃏🔮
+      
+      They are reaaaaally cute!!!!
+      The details on the back are intricate and even cuter 🥹❤️‍🔥
+      
+      I'm looking forward to the day they reach everyone's hands~!!!
+      
+      *The "All Members (Tower Records)" ver. is no longer available.
+    image:
+    - Gk1ms5WXwAAIEdG
+    - Gk1ms5RX0AAjgiJ
+    part-of:
+      album: tricktaking
+
 - postximage:
     post: 1873309518450548860
     id: Gf9DBuxb0AAbeCQ
@@ -162,6 +231,24 @@
     - album: tricktaking
     part-of:
       postx: 1883804554007093275
+
+- postximage:
+    post: 1895283964631490896
+    id: Gk1ms5RX0AAjgiJ
+    label: Tarot cards
+    info: 4 members, back
+    published-date: 2025-02-28
+    part-of:
+      postx: 1895283964631490896
+
+- postximage:
+    post: 1895283964631490896
+    id: Gk1ms5WXwAAIEdG
+    label: Tarot cards
+    info: Natsu, Cocoro, Kanade, Hika, 4 members
+    published-date: 2025-02-28
+    part-of:
+      postx: 1895283964631490896
 
 - postyoutube:
     id: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD

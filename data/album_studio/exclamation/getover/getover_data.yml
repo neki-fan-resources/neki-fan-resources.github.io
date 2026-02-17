@@ -401,7 +401,9 @@
     video:
     - 01
     part-of:
-      song: getover
+      postxvideo:
+        post: 1956194665641992559
+        video: 01
 
 - postx:
     id: 1957813871802216509
@@ -669,7 +671,7 @@
     context:
     - song: getover
     part-of:
-      postx: 1956194665641992559
+      song: getover
 
 - postxvideo:
     post: 1957813871802216509

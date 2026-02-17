@@ -1,3 +1,79 @@
+- postinstagram:
+    id: DBOarqyzqNy
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-10-17
+    text: |-
+      2024.10.13
+      
+      「FM802 MINAMI WHEEL 2024」に出演いたしました！！
+      2ヶ月前の大阪遠征のときに初日に訪れた心斎橋VARONさんで今回もやらせていただきました🐙
+      
+      フロア超満員！！！！！自分が思っていたよりもたくさん観に来てくださってて、幕が開いた瞬間泣きそうになった🥲✨初めてNEK!のライブを観に来てくださったという方も多くいて、最高に嬉しかったです！
+      
+      憧れのミナホに結成してから半年ちょっとで出場できたこと、本当に嬉しく思います。
+      反省することは相変わらず今回もたくさーーーんあるけど笑、とにかく楽しかった！！
+      
+      また来年も出たいな〜〜〜というか必ず出る！！
+      今年よりも大きなステージで必ず戻ってきます🔥
+      
+      今回は大阪といえばの粉もん、お好み焼きをライブ前にみんなで食べに行ったよ〜〜！めっちゃ美味しかった🤤
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.10.13
+      
+      We performed at "FM802 MINAMI WHEEL 2024"!!
+      We got to play at Shinsaibashi VARON again, which was the first place we visited during our Osaka trip 2 months ago🐙
+      
+      The floor was completely packed!!!!! So many more people came to see us than I expected, and I almost cried the moment the curtain opened🥲✨ There were many people who came to see a NEK! live for the first time, and it made me so incredibly happy!
+      
+      I'm truly happy that we were able to appear at the Minaho I've always admired just over half a year after forming the band.
+      As usual, there are soooooo many things to reflect on this time too lol, but anyway, it was fun!!
+      
+      I want to appear again next year~~~ or rather, I definitely will!!
+      I'll definitely be back on a bigger stage than this year🔥
+      
+      This time, we all went to eat okonomiyaki—a classic Osaka soul food—before the live~~! It was so delicious🤤
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    video:
+    - 4
+    part-of:
+      show:
+        year: 2024
+        id: minamiwheel2024
+    reference:
+    - postximage:
+        post: 1845457121418395899
+        image: GZxheApaAAQ6567
+    - postximage:
+        post: 1845457121418395899
+        image: GZxheAtbEAAV9f7
+
+- postinstagramimage:
+    post: DBOarqyzqNy
+    id: 1
+    label: On stage
+    published-date: 2024-10-17
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
+    part-of:
+      postinstagram: DBOarqyzqNy
+
+- postinstagramvideo:
+    post: DBOarqyzqNy
+    id: 4
+    label: Weird effect
+    info: backstage ?
+    published-date: 2024-10-17
+    part-of:
+      postinstagram: DBOarqyzqNy
+
 - postx:
     id: 1833792678414463036
     account: minamiwheel
@@ -180,6 +256,28 @@
         year: 2024
         id: minamiwheel2024
 
+- postx:
+    id: 1845457121418395899
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-10-13
+    text: |-
+      Eggs presents 
+      #FM802 35th Anniversary “Be FUNKY!!”
+      MINAMI WHEEL 2024
+      @ 心斎橋VARON 満員！
+      
+      ありがとうございました❣️
+      
+      #NEKI #ミナホ
+    image:
+    - GZxheApaAAQ6567
+    - GZxheAtbEAAV9f7
+    part-of:
+      show:
+        year: 2024
+        id: minamiwheel2024
+
 - postximage:
     post: 1833792678414463036
     id: GXLwuK6b0AAsCaB
@@ -228,4 +326,20 @@
         id: minamiwheel2024
     part-of:
       postx: 1845257839994151227
+
+- postximage:
+    post: 1845457121418395899
+    id: GZxheApaAAQ6567
+    label: On stage
+    published-date: 2024-10-13
+    part-of:
+      postx: 1845457121418395899
+
+- postximage:
+    post: 1845457121418395899
+    id: GZxheAtbEAAV9f7
+    label: Venue sign
+    published-date: 2024-10-13
+    part-of:
+      postx: 1845457121418395899
 

@@ -1,3 +1,89 @@
+- postinstagram:
+    id: DAscO8xRKg3
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-10-04
+    text: |-
+      2024.10.02
+      
+      「Girl's UP!!! vol.366」@ Shibuya eggmanに出演しました🌞
+      お越しくださった皆様本当にありがとうございました！！
+      
+      私事ですがライブ当日に誕生日を迎え、たくさんの方にお祝いしていただきました！プレゼントもありがとうございます🌼
+      ライブ中に最前のファンの方たちが中腰になってドラムセットの隙間から覗き込んでくれて私もシンバルの下からひょいと覗き返してみたり、メンバーが途中で近くに来てくれたり、みんなと同じ空間を共有して楽しんでいることを強く実感するライブでした！やっぱりいくらやってもライブは楽しいね🥹
+      
+      21歳も健康に気をつけて、なんどきも楽しむ心を忘れずに駆け抜けたいと思います✊🏻🔥
+      
+      そして10/9に新曲「Loner」の配信リリースとMusic Videoの公開が決定しました！！切なさと激しさが織り交ざる楽曲です！
+      ティザーも公開していますので、ぜひ公式SNSのチェックお願いします🐺
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.10.02
+      
+      We performed at "Girl's UP!!! vol.366" @ Shibuya eggman🌞
+      To everyone who came, thank you so much!!
+      
+      On a personal note, I celebrated my birthday on the day of the live, and so many people congratulated me! Thank you for the presents too🌼
+      During the live, the fans in the front row crouched down to peek at me through the gaps in the drum set, so I peeked back from under the cymbals, and the members came close to me during the set—it was a show where I really felt like we were all sharing and enjoying the same space! No matter how many times I do it, live shows are just so much fun🥹
+      
+      As a 21-year-old, I want to stay healthy and run through this year without ever forgetting to have a heart that enjoys every moment✊🏻🔥
+      
+      Also, the digital release and Music Video for our new song "Loner" have been set for 10/9!! It's a song that weaves together sadness and intensity!
+      The teaser is out now, so please check the official SNS🐺
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2024
+        id: guvol366
+    reference:
+    - postximage:
+        post: 1841479718878793982
+        image: GY5ACklbAAEorEy
+
+- postinstagramimage:
+    post: DAscO8xRKg3
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2024-10-04
+    context:
+    - show:
+        year: 2024
+        id: guvol366
+    part-of:
+      postinstagram: DAscO8xRKg3
+
+- postinstagramimage:
+    post: DAscO8xRKg3
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2024-10-04
+    context:
+    - show:
+        year: 2024
+        id: guvol366
+    part-of:
+      postinstagram: DAscO8xRKg3
+
+- postinstagramimage:
+    post: DAscO8xRKg3
+    id: 3
+    label: On stage
+    published-date: 2024-10-04
+    context:
+    - show:
+        year: 2024
+        id: guvol366
+    part-of:
+      postinstagram: DAscO8xRKg3
+
 - postx:
     id: 1841384260705624302
     account: shibuya_eggman
@@ -40,6 +126,33 @@
         year: 2024
         id: guvol366
 
+- postx:
+    id: 1841479718878793982
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-10-02
+    text: |-
+      Girl's UP!!! vol.366
+      @ Shibuya eggman
+      
+      ありがとうございました💙
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.366
+      @ Shibuya eggman
+      
+      Thank you very much 💙
+      
+      #NEKI
+    image:
+    - GY5ACknbUAA87gW
+    - GY5ACklbAAEorEy
+    part-of:
+      show:
+        year: 2024
+        id: guvol366
+
 - postximage:
     post: 1841384260705624302
     id: GY3ocH3bcAALiWN
@@ -52,6 +165,22 @@
         id: guvol366
     part-of:
       postx: 1841384260705624302
+
+- postximage:
+    post: 1841479718878793982
+    id: GY5ACklbAAEorEy
+    label: Sidewalk board
+    published-date: 2024-10-02
+    part-of:
+      postx: 1841479718878793982
+
+- postximage:
+    post: 1841479718878793982
+    id: GY5ACknbUAA87gW
+    label: On stage
+    published-date: 2024-10-02
+    part-of:
+      postx: 1841479718878793982
 
 - webimage:
     domain: eggman.jp

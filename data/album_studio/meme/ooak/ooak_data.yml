@@ -251,6 +251,51 @@
         image: GtzabMUXgAAmDvN
 
 - postinstagram:
+    id: DLLxx-mh0Bu
+    account: cocoro_drum
+    label: 10k views, BtS talk
+    published-date: 2025-06-22
+    text: |-
+      🌳🤍
+      
+      "OOAK" Music Video 1万回再生ありがとう！早すぎ！！
+      
+      感謝の気持ちを込めて私のお気に入りのカットと、オフショット公開します🫶🏻
+      
+      撮影日は生憎の雨でしたが、そのお陰でかわいい傘も小道具として使えたし、これから雨の匂いを嗅ぐとこの日の楽しかった記憶が鮮明に蘇りそうで結果ラッキー！楽しい雨の思い出がひとつできました^^
+      
+      初めて楽器を一切持たずに挑んだ今回のMV。私たちの新境地をこうやってひとつの映像作品として残せたことが何よりも嬉しいです！これからもたくさんの方に届きますように🦋
+      
+      #neki #neki_band #girlsband #ooak #film
+    translation: |-
+      🌳🤍
+      
+      Thank you for 10,000 views on the "OOAK" Music Video! That was so fast!!
+      
+      To show my gratitude, I'm releasing my favorite cuts and some off-shots🫶🏻
+      
+      Unfortunately, it was raining on the day of the shoot, but thanks to that, we were able to use cute umbrellas as props, and now whenever I smell rain, the happy memories of this day will probably come back vividly, so in the end, it was lucky! I made a happy rain memory^^
+      
+      This was our first MV where we took on the challenge without holding any instruments at all. More than anything, I'm happy that we were able to leave behind our new frontier as a piece of visual art like this! I hope it continues to reach many people🦋
+      
+      #neki #neki_band #girlsband #ooak #film
+    image:
+    - 1
+    - 2
+    - 4
+    - 5
+    - 6
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1936646576686153867
+        image: GuBZxw1XUAA8lrO
+    - postximage:
+        post: 1936646576686153867
+        image: GuBZxwPaEAAI5wJ
+
+- postinstagram:
     id: DLMox6Jxk1i
     account: nekiband_jp
     label: Behind the scenes
@@ -376,6 +421,59 @@
     - song: ooak
     part-of:
       postinstagram: DLKd6GARjyE
+
+- postinstagramimage:
+    post: DLLxx-mh0Bu
+    id: 1
+    label: MV image
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLLxx-mh0Bu
+
+- postinstagramimage:
+    post: DLLxx-mh0Bu
+    id: 2
+    label: MV image
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLLxx-mh0Bu
+
+- postinstagramimage:
+    post: DLLxx-mh0Bu
+    id: 4
+    label: Behind the scenes
+    info: Hika, Cocoro
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLLxx-mh0Bu
+
+- postinstagramimage:
+    post: DLLxx-mh0Bu
+    id: 5
+    label: Behind the scenes
+    info: Kanade, Cocoro
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLLxx-mh0Bu
+
+- postinstagramimage:
+    post: DLLxx-mh0Bu
+    id: 6
+    label: Behind the scenes
+    info: Natsu, Cocoro
+    published-date: 2025-06-22
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DLLxx-mh0Bu
 
 - postinstagramimage:
     post: DLPphDEysX6
@@ -657,7 +755,9 @@
     video:
     - 01
     part-of:
-      song: ooak
+      postxvideo:
+        post: 1945857878520475910
+        video: 01
 
 - postx:
     id: 1947639492552364472
@@ -675,7 +775,9 @@
     video:
     - 01
     part-of:
-      song: ooak
+      postxvideo:
+        post: 1947639492552364472
+        video: 01
 
 - postx:
     id: 1966025588482969699
@@ -820,7 +922,7 @@
     context:
     - song: ooak
     part-of:
-      postx: 1945857878520475910
+      song: ooak
 
 - postxvideo:
     post: 1947639492552364472
@@ -832,7 +934,7 @@
     context:
     - song: ooak
     part-of:
-      postx: 1947639492552364472
+      song: ooak
 
 - update:
     song: ooak

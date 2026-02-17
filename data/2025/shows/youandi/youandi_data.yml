@@ -1,3 +1,103 @@
+- postinstagram:
+    id: DFSLXg4PRqH
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-01-26
+    text: |-
+      2025.01.26
+      
+      優利香Presents「You&I ～未来浮かべ浮かれSmile～」てんこ盛り編
+      に出演いたしました❤️‍🔥
+      お越しくださった皆様ありがとうございました！！
+      
+      主催の優利香さんとはNEK!の初ライブ以来の再会！
+      こんな大切なツアーファイナルにお誘いいただいて本当にありがとうございました🥹✨️出演できて嬉しかったです！
+      出番終わりにお写真も撮らせていただきました📸(5枚目)
+      
+      早めの時間のトッパーでしたがフロアも埋まってて、ファンの皆さんの声援もすごく大きくて、最高の2025年ライブ初めとなりました👊🏻🔥ありがとう！！
+      
+      今回のセトリはイベントのニュアンスに合わせて、激しめ楽曲を若干封印しつつ爽やか系のロックとかミディアムバラード曲を多めにお届けしてみました！
+      
+      楽しんでいただけましたか？？🌞
+      
+      次回のライブは、2/6(木) Wisteria×FOWS「Set All Free!!」
+      初めての渋谷FOWS、楽しみだな〜〜
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2025.01.26
+      
+      We performed at Yurika Presents "You&I ~Mirai Ukabe Ukare Smile~" Tenkomori Edition❤️‍🔥
+      Thank you so much to everyone who came!!
+      
+      Reunited with the organizer, Yurika-san, for the first time since NEK!'s first live!
+      Thank you so much for inviting us to such an important tour final🥹✨️ I was so happy we could perform!
+      We even took a photo together after our set📸 (5th slide)
+      
+      Even though we were the early openers, the floor was packed and the fans' cheers were so loud, making it the best first live of 2025👊🏻🔥 Thank you!!
+      
+      To match the vibe of the event, we kept the heavy tracks tucked away a bit and delivered a set with more refreshing rock and medium ballads!
+      
+      Did you enjoy it??🌞
+      
+      Our next live is 2/6 (Thu) Wisteria×FOWS "Set All Free!!"
+      My first time at Shibuya FOWS, I'm looking forward to it~~
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 3
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+    reference:
+    - postximage:
+        post: 1883412170689679481
+        image: GiM5YBlbIAAzYD9
+    - postximage:
+        post: 1883412170689679481
+        image: GiM5YBjaAAALbCy
+
+- postinstagramimage:
+    post: DFSLXg4PRqH
+    id: 3
+    label: On stage
+    published-date: 2025-01-26
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postinstagram: DFSLXg4PRqH
+
+- postinstagramimage:
+    post: DFSLXg4PRqH
+    id: 4
+    label: On stage
+    info: Cocoro
+    published-date: 2025-01-26
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postinstagram: DFSLXg4PRqH
+
+- postinstagramimage:
+    post: DFSLXg4PRqH
+    id: 5
+    label: Backstage
+    info: 優利香, NEK!
+    published-date: 2025-01-26
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postinstagram: DFSLXg4PRqH
+
 - postx:
     id: 1862471067115430271
     account: nekiband_jp
@@ -71,6 +171,33 @@
         year: 2025
         id: youandi
 
+- postx:
+    id: 1883412170689679481
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-01-26
+    text: |-
+      優利香Presents「You&I ～未来浮かべ浮かれSmile～」てんこ盛り編
+      @ Shibuya eggman
+      
+      ありがとうございました❣️
+      
+      #NEKI
+    translation: |-
+      Yurika Presents "You & I ~Mirai Ukabe Ukare Smile~" Tenkomori Edition
+      @ Shibuya eggman
+      
+      Thank you so much❣️
+      
+      #NEKI
+    image:
+    - GiM5YBlbIAAzYD9
+    - GiM5YBjaAAALbCy
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+
 - postximage:
     post: 1862471067115430271
     id: GdjTje-WMAA_rfZ
@@ -107,4 +234,20 @@
         id: youandi
     part-of:
       postx: 1883065171922637290
+
+- postximage:
+    post: 1883412170689679481
+    id: GiM5YBjaAAALbCy
+    label: On stage
+    published-date: 2025-01-26
+    part-of:
+      postx: 1883412170689679481
+
+- postximage:
+    post: 1883412170689679481
+    id: GiM5YBlbIAAzYD9
+    label: Backstage
+    published-date: 2025-01-26
+    part-of:
+      postx: 1883412170689679481
 

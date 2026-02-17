@@ -244,29 +244,6 @@
       youtubevideo: pCqu9xyfFzE
 
 - postx:
-    id: 1848204505093144935
-    account: coco_102
-    label: Cocoro-cam
-    published-date: 2024-10-21
-    text: |-
-      令現少女💫
-      
-      ここのパートラスサビに向けてみんなの心がひとつになってる感じがしてすごく好き。
-      
-      (音小さいかも！ごめん！)
-    translation: |-
-      Reigen Shoujo 💫
-      
-      I really like how everyone's hearts feel like they're becoming one in this part leading up to the final chorus.
-      
-      (The sound might be quiet! Sorry!)
-    video:
-    - 01
-    todo: 'which show ? '
-    part-of:
-      song: reigengirl
-
-- postx:
     id: 1917515461727772903
     account: cure_bass_baka
     label: Reigen girl bass intro
@@ -477,7 +454,9 @@
     video:
     - 01
     part-of:
-      song: reigengirl
+      postxvideo:
+        post: 1958088489481761213
+        video: 01
 
 - postximage:
     post: 1806667280643936516
@@ -488,18 +467,6 @@
     - song: reigengirl
     part-of:
       postx: 1806667280643936516
-
-- postxvideo:
-    post: 1848204505093144935
-    id: 01
-    label: Live
-    info: Cocoro
-    published-date: 2024-10-21
-    cover: 1848203800752078848/pu/img/adebpog5s1TgG_9V.jpg
-    context:
-    - song: reigengirl
-    part-of:
-      postx: 1848204505093144935
 
 - postxvideo:
     post: 1917515461727772903
@@ -610,7 +577,7 @@
         year: 2025
         id: 1stzepponeman
     part-of:
-      postx: 1958088489481761213
+      song: reigengirl
 
 - postyoutube:
     id: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A

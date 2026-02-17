@@ -293,9 +293,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: nekikomsumeosaka
+      postxvideo:
+        post: 1947952383473954991
+        video: 01
 
 - postx:
     id: 1949012927056658865
@@ -320,9 +320,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: nekikomsumeosaka
+      postxvideo:
+        post: 1949012927056658865
+        video: 01
 
 - postximage:
     post: 1944995676963922035
@@ -498,7 +498,9 @@
     - song: zerosum
     - song: getover
     part-of:
-      postx: 1947952383473954991
+      show:
+        year: 2025
+        id: nekikomsumeosaka
 
 - postxvideo:
     post: 1949012927056658865
@@ -513,7 +515,9 @@
         id: nekikomsumeosaka
     - song: fool
     part-of:
-      postx: 1949012927056658865
+      show:
+        year: 2025
+        id: nekikomsumeosaka
 
 - youtubeshort:
     id: SCponaBgD8U

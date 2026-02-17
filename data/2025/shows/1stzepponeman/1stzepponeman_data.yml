@@ -1136,9 +1136,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
+      postxvideo:
+        post: 1963245027179540838
+        video: 01
 
 - postx:
     id: 1963942446318125451
@@ -1184,9 +1184,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
+      postxvideo:
+        post: 1964676334128693400
+        video: 01
 
 - postx:
     id: 1967554049408135190
@@ -1215,9 +1215,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
+      postxvideo:
+        post: 1967554049408135190
+        video: 01
 
 - postximage:
     post: 1931984997382316384
@@ -1547,7 +1547,9 @@
         id: 1stzepponeman
     - song: fool
     part-of:
-      postx: 1963245027179540838
+      show:
+        year: 2025
+        id: 1stzepponeman
 
 - postxvideo:
     post: 1964676334128693400
@@ -1562,7 +1564,9 @@
         id: 1stzepponeman
     - song: moon
     part-of:
-      postx: 1964676334128693400
+      show:
+        year: 2025
+        id: 1stzepponeman
 
 - postxvideo:
     post: 1967554049408135190
@@ -1577,7 +1581,9 @@
         year: 2025
         id: 1stzepponeman
     part-of:
-      postx: 1967554049408135190
+      show:
+        year: 2025
+        id: 1stzepponeman
 
 - update:
     show:

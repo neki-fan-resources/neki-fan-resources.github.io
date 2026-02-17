@@ -1189,7 +1189,9 @@
     video:
     - 01
     part-of:
-      song: blink
+      postxvideo:
+        post: 1960237149292306895
+        video: 01
 
 - postxvideo:
     post: 1960237149292306895
@@ -1203,7 +1205,7 @@
         year: 2025
         id: 1stzepponeman
     part-of:
-      postx: 1960237149292306895
+      song: blink
 
 - youtubeshort:
     id: '-S49UXHjBLY'

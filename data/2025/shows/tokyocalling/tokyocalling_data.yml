@@ -1,4 +1,46 @@
 - postinstagram:
+    id: DPLiBBZkuRW
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-09-29
+    text: |-
+      2025.09.27
+      
+      「TOKYO CALLING 2025」出演させていただきました！
+      お越しくださった皆様本当にありがとうございました🩷
+      
+      記念すべき初のTOKYO CALLINGはZirco Tokyoでトリを務めさせていただきました！！
+      素敵な演者さんが各地でトリを飾っている中でNEK!の音楽を選んで聴きに来てくれたみなさんと熱い時間を過ごすことができてとても嬉しかったです！
+      
+      やっぱりライブハウスの距離感は熱気が直で伝わる！！
+      フロアを埋めるみなさんの声と拳と表情がライブの熱を高めてくれて、みなさんのおかげで私たちのライブが成り立ってい
+    translation: |-
+      2025.09.27
+      
+      We performed at "TOKYO CALLING 2025"!
+      Thank you so much to everyone who came🩷
+      
+      For our memorable first TOKYO CALLING, we had the honor of being the headliner at Zirco Tokyo!!
+      With so many wonderful performers headlining at various venues, I was so happy to spend such a passionate time with everyone who chose NEK!'s music and came to listen!
+      
+      As expected, the proximity of a live house lets the heat transmit directly!!
+      The voices, fists, and expressions of everyone filling the floor heightened the intensity of the show, and it's thanks to all of you that our live performance came together
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+    reference:
+    - postximage:
+        post: 1971925623133425704
+        image: G12v5sLb0AIOljm
+    - postximage:
+        post: 1972588102490456172
+        image: G2AKaoUaEAAfEQg
+    - postximage:
+        post: 1971925623133425704
+        image: G12v5sJaoAAIx8N
+
+- postinstagram:
     id: DPLtNPpElQH
     account: natsu08_guitar
     label: Thank you

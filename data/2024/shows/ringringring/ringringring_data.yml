@@ -1,3 +1,105 @@
+- postinstagram:
+    id: C_uN9I0TT8Y
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-09-10
+    text: |-
+      2024.09.08
+      
+      「LIVEHOLIC 9th Anniversaryseries ~Ring! Ring! Ring!~」に出演させていただきました🦋💙
+      
+      お越しくださった皆さまありがとうございました！！
+      MCでも言っていたように、NEK!初めてのサーキットイベントで立たせていただいた3/9から半年ぶりのLIVEHOLICさんで、しかもトリを務めさせていただけてとても嬉しかったです⚡️
+      LIVE HOLICさん9周年本当におめでとうございます！！
+      これからも末永くよろしくお願いいたします🙇🏻‍♀️✨
+      
+      対バンの方たちともたくさんお話できて嬉しかったな〜
+      Twitterの方で一緒に撮ってくださったお写真RTしてるので、ぜひご覧ください☺️
+      
+      そして本日はShibuya eggmanさんのGirl's UP!!!です🔥
+      久しぶりのeggman楽しむぞー！
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.09.08
+      
+      We performed at "LIVEHOLIC 9th Anniversaryseries ~Ring! Ring! Ring!~"🦋💙
+      
+      To everyone who came, thank you very much!!
+      As I mentioned during the MC, it's been half a year since we performed at LIVEHOLIC on 3/9 for NEK!'s first-ever circuit event, and I was so happy that we got to play the closing set⚡️
+      A huge congratulations to LIVEHOLIC on your 9th anniversary!!
+      We look forward to working with you for a long time to come🙇🏻‍♀️✨
+      
+      I was so happy to talk a lot with the other bands on the lineup~
+      I'm RT-ing the photos we took together on Twitter, so please check them out☺️
+      
+      And today is Girl's UP!!! at Shibuya eggman🔥
+      I'm going to enjoy eggman for the first time in a while!
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2024
+        id: ringringring
+    reference:
+    - postximage:
+        post: 1832774653900947846
+        image: GW9S0LYagAEnBpP
+
+- postinstagramimage:
+    post: C_uN9I0TT8Y
+    id: 2
+    label: On stage
+    published-date: 2024-09-10
+    context:
+    - show:
+        year: 2024
+        id: ringringring
+    part-of:
+      postinstagram: C_uN9I0TT8Y
+
+- postinstagramimage:
+    post: C_uN9I0TT8Y
+    id: 3
+    label: On stage
+    info: Cocoro
+    published-date: 2024-09-10
+    context:
+    - show:
+        year: 2024
+        id: ringringring
+    part-of:
+      postinstagram: C_uN9I0TT8Y
+
+- postinstagramimage:
+    post: C_uN9I0TT8Y
+    id: 4
+    label: At the venue
+    published-date: 2024-09-10
+    context:
+    - show:
+        year: 2024
+        id: ringringring
+    part-of:
+      postinstagram: C_uN9I0TT8Y
+
+- postinstagramimage:
+    post: C_uN9I0TT8Y
+    id: 5
+    label: Backstage
+    published-date: 2024-09-10
+    context:
+    - show:
+        year: 2024
+        id: ringringring
+    part-of:
+      postinstagram: C_uN9I0TT8Y
+
 - postx:
     id: 1811718141904585180
     account: nekiband_jp
@@ -86,6 +188,35 @@
         year: 2024
         id: ringringring
 
+- postx:
+    id: 1832774653900947846
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-09-08
+    text: |-
+      LIVEHOLIC 9th Anniversaryseries
+      ~Ring! Ring! Ring!~
+      @ 下北沢LIVEHOLIC
+      
+      ありがとうございました🚲
+      
+      #NEKI
+    translation: |-
+      LIVEHOLIC 9th Anniversary series
+      ~Ring! Ring! Ring!~
+      @ Shimokitazawa LIVEHOLIC
+      
+      Thank you very much🚲
+      
+      #NEKI
+    image:
+    - GW9S0LYagAEnBpP
+    - GW9S0LXaYAAvn-w
+    part-of:
+      show:
+        year: 2024
+        id: ringringring
+
 - postximage:
     post: 1811718141904585180
     id: GSSEBGlbgAAjIR2
@@ -110,4 +241,20 @@
         id: ringringring
     part-of:
       postx: 1832614238424301660
+
+- postximage:
+    post: 1832774653900947846
+    id: GW9S0LXaYAAvn-w
+    label: Poster
+    published-date: 2024-09-08
+    part-of:
+      postx: 1832774653900947846
+
+- postximage:
+    post: 1832774653900947846
+    id: GW9S0LYagAEnBpP
+    label: On stage
+    published-date: 2024-09-08
+    part-of:
+      postx: 1832774653900947846
 

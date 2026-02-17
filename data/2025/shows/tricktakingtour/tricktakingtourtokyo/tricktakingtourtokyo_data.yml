@@ -497,6 +497,30 @@
         image: 7
 
 - postinstagram:
+    id: DHhoNI4P6ob
+    account: cocoro_drum
+    label: Cajon is fun
+    published-date: 2025-03-23
+    text: |-
+      カホン楽しい🪽
+      
+      NEK!とアコースティックの化学反応、今後もお楽しみに
+      
+      #neki #neki_band #girlsband #拡散中 #ネキ界隈 #cajon
+    translation: |-
+      Cajon is fun🪽
+      
+      Look forward to the chemical reaction between NEK! and acoustics in the future
+      
+      #neki #neki_band #girlsband #spreading #neki_community #cajon
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postinstagram:
     id: DHswbbCxvOW
     account: nekiband_jp
     label: Clock up! on stage
@@ -623,6 +647,19 @@
         id: tricktakingtourtokyo
     part-of:
       postinstagram: DHTrTp7h-Pg
+
+- postinstagramimage:
+    post: DHhoNI4P6ob
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2025-03-23
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHhoNI4P6ob
 
 - postinstagramvideo:
     post: DHswbbCxvOW
@@ -957,9 +994,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: tricktakingtourtokyo
+      postxvideo:
+        post: 1907340052666945675
+        video: 01
 
 - postx:
     id: 1917865243080024340
@@ -982,9 +1019,9 @@
     video:
     - 56ad6b95-81f9-4c28-9588-416eda80eec0
     part-of:
-      show:
-        year: 2025
-        id: tricktakingtourtokyo
+      postxvideo:
+        post: 1917865243080024340
+        video: 56ad6b95-81f9-4c28-9588-416eda80eec0
 
 - postx:
     id: 1929106683978224117
@@ -1232,7 +1269,9 @@
         id: tricktakingtourtokyo
     - song: reigengirl
     part-of:
-      postx: 1907340052666945675
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
 
 - postxvideo:
     post: 1917865243080024340
@@ -1247,7 +1286,9 @@
         year: 2025
         id: tricktakingtourtokyo
     part-of:
-      postx: 1917865243080024340
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
 
 - postxvideo:
     post: 1929106683978224117

@@ -1,4 +1,69 @@
 - postinstagram:
+    id: DCDg45hvvob
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-11-07
+    text: |-
+      2024.11.06
+      
+      「251 presents Ignition!!! 〜 Special Two Man Show 〜」
+      に出演いたしました！
+      お越しくださったみなさん本当にありがとうございました⚡️
+      
+      念願のBray meさんとのツーマンライブ！！最高だったー！
+      これぞまさに"ネキ"というようなとても力強い貫禄のあるステージを目の当たりにして超絶胸熱でした❤️‍🔥
+      裏でも気さくにたくさんお話してくださって、めちゃくちゃ優しくて素敵な方たちでした🥲✨️
+      
+      NEK!はなんと新曲を初披露しました！！今までとはちょっと毛色の違う感じで、また新しいNEK!の一面が見られる曲になってます。(ドラムの見せ場たくさんあるし、いつもよりコーラスも結構やってます笑)
+      みなさんの反応がどんな感じになるか予想できない楽曲だったので、少し披露する上で少し不安もあったけど、いいリアクションを沢山もらえたので安心しました！
+      これからもライブでやっていくから昨日来れなかった方はぜひ聴ける日を楽しみにしててくださいね🌿
+      
+      ツーマンは今回が初めてだったけど、たくさん刺激を受けたし学ぶこともたくさんあった！！これからもいろんなバンドさんとやっていきたいなと思いました🤘🏻
+      
+      そして日付が変わり本日は、下北沢SHELTERで対バンライブ「Sweet!Sweet!Sweet!」に出演します！
+      今回の演者さんは全員初共演なのですごく楽しみです🤝🏻🔥
+      昨日を超えるライブぶっかまします！！ぜひお待ちしてます！！
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.11.06
+      
+      We performed at
+      "251 presents Ignition!!! 〜 Special Two Man Show 〜"!
+      To everyone who came, thank you so much⚡️
+      
+      The long-awaited two-man live with Bray me!! It was the best!
+      Witnessing such a powerful and dignified stage presence that truly defined "Neki" was incredibly moving❤️‍🔥
+      They were such kind and wonderful people who talked with us casually behind the scenes as well🥲✨️
+      
+      NEK! actually performed a new song for the first time!! It has a slightly different vibe than before, showing a new side of NEK!. (The drums have a lot of highlights, and I'm doing more chorus parts than usual lol)
+      Since it's a song where I couldn't predict what the reaction would be, I was a bit anxious about performing it, but I felt relieved because we got so many great reactions!
+      We'll keep playing it at lives, so for those who couldn't come yesterday, please look forward to the day you can hear it🌿
+      
+      This was our first two-man live, and it was so stimulating and I learned a lot!! It made me want to keep performing with many different bands🤘🏻
+      
+      And now that the date has changed, today we'll be performing at the multi-band live "Sweet!Sweet!Sweet!" at Shimokitazawa SHELTER!
+      I'm really looking forward to it since it's our first time co-starring with all of today's performers🤝🏻🔥
+      We're going to blow everyone away with a live that tops yesterday!! We'll be waiting for you!!
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2024
+        id: ignition
+    reference:
+    - postximage:
+        post: 1854206872095797427
+        image: Gbt3Ud4a8AAHfTE
+    - postximage:
+        post: 1854174702820007947
+        image: GbtaEEHakAAv-OI
+
+- postinstagram:
     id: DCJ0t1fzArq
     account: natsu08_guitar
     label: Smiles
@@ -17,6 +82,44 @@
       show:
         year: 2024
         id: ignition
+
+- postinstagramimage:
+    post: DCDg45hvvob
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2024-11-07
+    context:
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      postinstagram: DCDg45hvvob
+
+- postinstagramimage:
+    post: DCDg45hvvob
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2024-11-07
+    context:
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      postinstagram: DCDg45hvvob
+
+- postinstagramimage:
+    post: DCDg45hvvob
+    id: 3
+    label: On stage
+    published-date: 2024-11-07
+    context:
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      postinstagram: DCDg45hvvob
 
 - postinstagramimage:
     post: DCJ0t1fzArq
@@ -111,6 +214,41 @@
         year: 2024
         id: ignition
 
+- postx:
+    id: 1854206872095797427
+    account: brayme_official
+    label: Thank you
+    info: 1 other images, band
+    published-date: 2024-11-06
+    text: |-
+      2024/11/6(水)下北沢CLUB251
+      251 presents Ignition!!!
+       〜 Special Two Man Show 〜
+      
+      w/NEK!
+      
+      ありがとうございました！
+      
+      📸 
+      @_marikinoshita
+    translation: |-
+      2024/11/6(Wed) Shimokitazawa CLUB251
+      251 presents Ignition!!!
+       〜 Special Two Man Show 〜
+      
+      w/NEK!
+      
+      Thank you very much!
+      
+      📸 
+      @_marikinoshita_
+    image:
+    - Gbt3Ud4a8AAHfTE
+    part-of:
+      show:
+        year: 2024
+        id: ignition
+
 - postximage:
     post: 1854050886647173628
     id: GbroRIOa8AAzJCY
@@ -159,4 +297,14 @@
         id: ignition
     part-of:
       postx: 1854174702820007947
+
+- postximage:
+    post: 1854206872095797427
+    id: Gbt3Ud4a8AAHfTE
+    label: Bands
+    info: NEK!, Bray me
+    published-date: 2024-11-06
+    todo: check band name
+    part-of:
+      postx: 1854206872095797427
 

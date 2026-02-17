@@ -1,3 +1,107 @@
+- postinstagram:
+    id: DJQ-mDkvfG9
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-05-05
+    text: |-
+      2025.05.04
+      
+      LIVEHOLIC presents. “革命ロジック2025“ supported by Skream! & 激ロック に出演いたしました！
+      
+      お越しくださった皆さまありがとうございました⚡️
+      
+      革命ロジックは今回初めて出演させていただいたイベントで、朝から晩まで豪華なバンドが勢揃いしている中に私たちも入れていただいて、本当に感謝の気持ちでいっぱいです！お呼びいただきありがとうございました！
+      
+      NEK!はちょっぴり久々のライブだったということもあり、溜まりに溜まったみんなのパワーに負けないように必死にぶっ叩きました！
+      サウンドチェックのときにMAZEをちょこっとやったら、幕越しに聞こえてきたかけ声がでかすぎて思わず笑っちゃいました😂
+      
+      そして、昨年3/20のフリーライブぶりに撮影OKな曲を設けて、たくさんカメラを向けてもらいながら不思議な気持ちでGet Overを演奏しました！
+      SNSに載せてくれたみなさん、ありがとうございます^^
+      
+      昨日NEK!公式YouTubeチャンネルで公開したGet Overのライブ映像と、みなさんに撮ってもらった動画たちを観て、8/30の初ZEPPワンマンを観に行きたいと思う人がより増えたら嬉しいな〜
+      
+      ライブ恒例のDrum Camも撮ったのでまた後日載せますね！
+      お楽しみに🫶🏻
+      
+      次回は6/2(月)「NEK!/komsume TWO-MAN SHOW」@下北沢SHELTERです！
+      久々のツーマンだー！気合い入れてお待ちしてます🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer #拡散中 #ネキ界隈
+    translation: |-
+      2025.05.04
+      
+      We appeared at LIVEHOLIC presents. "Kakumei Logic 2025" supported by Skream! & Gekirock!
+      
+      Thank you to everyone who came out⚡️
+      
+      Kakumei Logic was an event we performed at for the first time, and I'm truly filled with gratitude to have been included among such a gorgeous lineup of bands from morning till night! Thank you so much for having us!
+      
+      Since it had been a little while since NEK!'s last live, I drummed desperately to keep up with everyone's pent-up power!
+      When we did a bit of MAZE during soundcheck, the cheers I heard through the curtain were so loud I couldn't help but laugh😂
+      
+      Also, for the first time since the free live on March 20th last year, we had a song where filming was allowed, and I played Get Over with a strange feeling while so many cameras were pointed at me!
+      Thank you to everyone who posted it on SNS^^
+      
+      I hope that by watching the Get Over live footage released on the NEK! official YouTube channel yesterday and the videos everyone took, more people will want to come see our first ZEPP solo show on August 30th~
+      
+      I also filmed the usual Drum Cam from the live, so I'll post that at a later date!
+      Look forward to it🫶🏻
+      
+      Next time is June 2nd (Mon) "NEK!/komsume TWO-MAN SHOW" @ Shimokitazawa SHELTER!
+      It's our first two-man in a while! We'll be waiting for you with full spirit🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer #spreading #NEKIKaiwai
+    image:
+    - 1
+    - 2
+    - 4
+    todo: find Get Over fan footage
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+    reference:
+    - postximage:
+        post: 1918967431936053416
+        image: GqGKtFtbsAAScbY
+
+- postinstagramimage:
+    post: DJQ-mDkvfG9
+    id: 1
+    label: On stage
+    published-date: 2025-05-05
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    part-of:
+      postinstagram: DJQ-mDkvfG9
+
+- postinstagramimage:
+    post: DJQ-mDkvfG9
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2025-05-05
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    part-of:
+      postinstagram: DJQ-mDkvfG9
+
+- postinstagramimage:
+    post: DJQ-mDkvfG9
+    id: 4
+    label: Backstage
+    published-date: 2025-05-05
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    part-of:
+      postinstagram: DJQ-mDkvfG9
+
 - postx:
     id: 1903038891042673069
     account: kakumei_holic
@@ -197,9 +301,9 @@
     video:
     - ab614f11-559a-4b05-9110-a93a478c49d9
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      postxvideo:
+        post: 1919554837458399724
+        video: ab614f11-559a-4b05-9110-a93a478c49d9
 
 - postx:
     id: 1919977679027372546
@@ -266,9 +370,9 @@
     video:
     - 86e746a8-fd09-4141-979d-524ced4fa2f0
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      postxvideo:
+        post: 1920746869560430820
+        video: 86e746a8-fd09-4141-979d-524ced4fa2f0
 
 - postx:
     id: 1921828183369781385
@@ -335,6 +439,39 @@
         id: kakumeilogic2025
 
 - postx:
+    id: 1929389485147721772
+    account: coco_102
+    label: Sold out
+    info: Get Over on stage
+    published-date: 2025-06-02
+    text: |-
+      🪩 🪩 🪩 🪩 🪩 Get Over 🪩 🪩 🪩 🪩 🪩
+      
+      今日も下北沢にてツーマンライブ！ソールド感謝！！
+      みんなで最高の夜にしましょう🥹🤘🏻🔥
+      またあとでねー！！
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      🪩 🪩 🪩 🪩 🪩 Get Over 🪩 🪩 🪩 🪩 🪩
+      
+      Another two-man live in Shimokitazawa today! Thanks for the sold out!!
+      Let's make it the best night together🥹🤘🏻🔥
+      See you later!!
+      
+      #NEKI #NowSpreading #NEKIVicinity
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1929389485147721772
+        video: 01
+    reference:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postx:
     id: 1935184418047672438
     account: coco_102
     label: MAZE on stage
@@ -359,9 +496,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      postxvideo:
+        post: 1935184418047672438
+        video: 01
 
 - postximage:
     post: 1903038891042673069
@@ -479,7 +616,9 @@
         id: kakumeilogic2025
     - song: endlessgame
     part-of:
-      postx: 1919554837458399724
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - postxvideo:
     post: 1919977679027372546
@@ -525,7 +664,9 @@
         id: kakumeilogic2025
     - song: dreams
     part-of:
-      postx: 1920746869560430820
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - postxvideo:
     post: 1921828183369781385
@@ -573,6 +714,23 @@
       postx: 1926928034944213276
 
 - postxvideo:
+    post: 1929389485147721772
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-06-02
+    cover: 1929389340653912064/img/temN0bVjZ3xG2oFX.jpg
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    - song: getover
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+
+- postxvideo:
     post: 1935184418047672438
     id: 01
     label: Live
@@ -585,7 +743,9 @@
         id: kakumeilogic2025
     - song: maze
     part-of:
-      postx: 1935184418047672438
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - youtubeshort:
     id: 6waPnn_Bxis

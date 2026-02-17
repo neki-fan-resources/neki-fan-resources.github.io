@@ -213,10 +213,13 @@
                 multimedia:
                 - postximage:
                     post: 1981624049173488100
-                    image: G4Akjf2WAAAni4N
+                    image: G4AkjfxW8AEFeH2
                 - postximage:
                     post: 1981624049173488100
-                    image: G4AkjfxW8AEFeH2
+                    image: G4Akjf2WAAAni4N
+                - postinstagramimage:
+                    post: DQLwCqfEmmX
+                    image: 3
     - basicblock:
         id: multimedia
         label: image / video
@@ -463,6 +466,31 @@
         - 何がまがいもの
         en:
         - What's real, and what's a lie?
+
+- postinstagram:
+    id: DQLwCqfEmmX
+    account: cocoro_drum
+    label: Broken snare drum
+    published-date: 2025-10-24
+    text: |-
+      🥲🥲🥲🥲🥲🥲
+      
+      ライブ中はやめてくれよォ、、
+    translation: |-
+      🥲🥲🥲🥲🥲🥲
+      
+      Please don't do that during the live show...
+    image:
+    - 3
+    part-of:
+      song: gimmick
+    reference:
+    - postximage:
+        post: 1981624049173488100
+        image: G4AkjfxW8AEFeH2
+    - postximage:
+        post: 1981624049173488100
+        image: G4Akjf2WAAAni4N
 
 - postinstagram:
     id: DQq9TFNErQD
@@ -730,6 +758,16 @@
     - 04
     part-of:
       song: gimmick
+
+- postinstagramimage:
+    post: DQLwCqfEmmX
+    id: 3
+    label: Broken snare drum
+    published-date: 2025-10-24
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DQLwCqfEmmX
 
 - postinstagramimage:
     post: DRPixBckmZT

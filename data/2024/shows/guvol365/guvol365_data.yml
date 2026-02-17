@@ -1,3 +1,123 @@
+- postinstagram:
+    id: DAUo9EkT8r9
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-09-25
+    text: |-
+      2024.09.24
+      
+      「Girl's UP!!! vol.365」@ Shibuya eggmanに出演いたしました！
+      お越しくださった皆様ありがとうございました❤️‍🔥
+      
+      いつにも増してすごい盛り上がりでしたね！！eggman窪田さんのX情報によると昨日の来場者数は100人を超えていたとのこと…！！人の力をひしひしと感じるライブでした🔥(圧縮してた皆さんはお身体大丈夫だったでしょうか？！)
+      
+      激しめの曲オンパレードでやらせていただきましたが、やっぱりNEK!の楽曲は楽しいねー！！
+      基本激しいからこそ途中にある令現少女とかBlinkとかが映えるし、刺さるよね😌
+      これからもより多くの方にNEK!の楽曲をお届けできるように頑張ります✊🏻
+      
+      そして今回初めて個人的に定点カメラを置いてみたのですが、画角調整する暇なかったからほとんど私写ってないんだけどまた後でちょろっとだけ載せてみますので、お楽しみに🫶🏻
+      
+      次回は10/2(Wed) Shibuya eggmanのGirl's UP!!!です！！
+      こんなに毎回出させていただけるの本当にありがたい、、🥲✨
+      誕生日当日に皆さんと一緒に過ごせることがめちゃくちゃ幸せ！！楽しみだな〜！またお待ちしてます👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.09.24
+      
+      We performed at "Girl's UP!!! vol.365" @ Shibuya eggman!
+      Thank you to everyone who came out❤️‍🔥
+      
+      The excitement was even more incredible than usual!! According to X info from Mr. Kubota at eggman, the number of attendees yesterday exceeded 100...!! It was a live where I really felt the power of the people🔥 (To everyone in the crush, is your body okay?!)
+      
+      We played a parade of intense songs, but NEK!'s music is just so much fun!!
+      Because it's basically intense, songs like Reigen Shojo or Blink in the middle really shine and hit home, don't they😌
+      I'll keep doing my best to deliver NEK!'s music to even more people✊🏻
+      
+      Also, I tried setting up a personal fixed-point camera for the first time, but since I didn't have time to adjust the angle, I'm hardly in the shot, but I'll post a little bit of it later, so look forward to it🫶🏻
+      
+      Next time is 10/2 (Wed) Girl's UP!!! at Shibuya eggman!!
+      I'm so grateful to be able to perform every single time like this...🥲✨
+      I'm so incredibly happy to be able to spend my actual birthday with all of you!! I'm looking forward to it~! See you then👋🏻
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    part-of:
+      show:
+        year: 2024
+        id: guvol365
+    reference:
+    - postximage:
+        post: 1838573638817300719
+        image: GYPs-DMakAMi3eu
+
+- postinstagramimage:
+    post: DAUo9EkT8r9
+    id: 2
+    label: On stage
+    published-date: 2025-09-25
+    context:
+    - show:
+        year: 2024
+        id: guvol365
+    part-of:
+      postinstagram: DAUo9EkT8r9
+
+- postinstagramimage:
+    post: DAUo9EkT8r9
+    id: 3
+    label: On stage
+    info: Cocoro
+    published-date: 2025-09-25
+    context:
+    - show:
+        year: 2024
+        id: guvol365
+    part-of:
+      postinstagram: DAUo9EkT8r9
+
+- postinstagramimage:
+    post: DAUo9EkT8r9
+    id: 4
+    label: Backstage
+    published-date: 2025-09-25
+    context:
+    - show:
+        year: 2024
+        id: guvol365
+    part-of:
+      postinstagram: DAUo9EkT8r9
+
+- postinstagramimage:
+    post: DAUo9EkT8r9
+    id: 5
+    label: Backstage
+    info: Natsu, Cocoro
+    published-date: 2025-09-25
+    context:
+    - show:
+        year: 2024
+        id: guvol365
+    part-of:
+      postinstagram: DAUo9EkT8r9
+
+- postinstagramimage:
+    post: DAUo9EkT8r9
+    id: 6
+    label: Sidewalk board
+    published-date: 2025-09-25
+    context:
+    - show:
+        year: 2024
+        id: guvol365
+    part-of:
+      postinstagram: DAUo9EkT8r9
+
 - postx:
     id: 1838488577052913969
     account: shibuya_eggman
@@ -42,6 +162,53 @@
         year: 2024
         id: guvol365
 
+- postx:
+    id: 1838573638817300719
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-09-24
+    text: |-
+      Girl's UP!!! vol.365
+      @ Shibuya eggman
+      
+      ありがとうございました🫶
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.365
+      @ Shibuya eggman
+      
+      Thank you very much 🫶
+      
+      #NEKI
+    image:
+    - GYPs-DMakAMi3eu
+    - GYPs-DHakAEasuh
+    part-of:
+      show:
+        year: 2024
+        id: guvol365
+
+- postx:
+    id: 1839289051259744538
+    account: coco_102
+    label: GetOver Cocoro cam
+    published-date: 2024-09-26
+    text: |-
+      GetOver🔥
+      
+      一昨日のライブで初めて個人的に定点を撮ってみたんだけど、画角調整下手くそすぎてほぼ写ってなかった〜〜！また次回リベンジします！！
+    translation: |-
+      GetOver🔥
+      
+      I personally tried recording a fixed-point video for the first time at the concert two days ago, but I was so bad at adjusting the angle that I was barely in the shot~~! I'll try again next time!!
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1839289051259744538
+        video: 01
+
 - postximage:
     post: 1838488577052913969
     id: GYOeP9EbAAAVpUJ
@@ -54,6 +221,38 @@
         id: guvol365
     part-of:
       postx: 1838488577052913969
+
+- postximage:
+    post: 1838573638817300719
+    id: GYPs-DHakAEasuh
+    label: Sidewalk board
+    published-date: 2024-09-24
+    part-of:
+      postx: 1838573638817300719
+
+- postximage:
+    post: 1838573638817300719
+    id: GYPs-DMakAMi3eu
+    label: On stage
+    published-date: 2024-09-24
+    part-of:
+      postx: 1838573638817300719
+
+- postxvideo:
+    post: 1839289051259744538
+    id: 01
+    label: Cocoro-cam
+    published-date: 2024-09-26
+    cover: 1839288928849084416/pu/img/rA3QdqfxexTxstaD.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: guvol365
+    part-of:
+      show:
+        year: 2024
+        id: guvol365
 
 - webimage:
     domain: eggman.jp

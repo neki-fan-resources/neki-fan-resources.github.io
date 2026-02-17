@@ -1,3 +1,77 @@
+- postinstagram:
+    id: DMoNx7wzlap
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-07-27
+    text: |-
+      2025.07.27
+      
+      初、代官山UNIT❕初、アクリル板囲まれ❕
+      
+      初めてづくしの対バンライブ最ッ高に楽しかった
+      ライブ中はアクリル板に反射する自分と終始向かい合っててずっとちょっと気まずかった^^自分に人見知りしていつもよりあんまり前向けなかった気がします、すみません！！
+      
+      主催の浜野はるきさんにめっちゃかわいいグッズのバンダナをいただいたので早速身につけて叩いたよ🥷🏻🖤
+      たくさんお話してくださって素敵な人柄を知れて、より一層好きになりました🥹🫶🏻
+      呼んでいただきありがとうございました！
+      
+      そして今回のライブでは今年の春に行った東名阪ツアーぶりに新曲rip-offをセトリに組み込み、8/6(水)0時から同曲配信リリースすることを発表させていただきました！
+      ストーリーにも書いたけど、ドラムは過去イチ複雑なフレーズが盛りだくさんなので楽しみにしていただけたらなと！
+      
+      次回のライブはついにやってきました、、、
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】！！
+      
+      結成から約一年半、今まで経験してきたことの全てを個々の力に変えてみなさんに最高のライブをお届けします！！
+      
+      Zepp Shinjukuで待ってます👊🏻🔥
+    translation: |-
+      2025.07.27
+      
+      First time at Daikanyama UNIT❕ First time surrounded by acrylic panels❕
+      
+      This co-headlining live full of "firsts" was the absolute best time
+      During the live, I was facing my own reflection in the acrylic panels the whole time, so it was a bit awkward throughout^^ I felt like I was shy toward myself and couldn't look forward as much as usual, sorry!!
+      
+      Haruki Hamano, the organizer, gave me a super cute bandana from the merch, so I put it on right away to play🥷🏻🖤
+      We talked a lot and getting to know her wonderful personality made me like her even more🥹🫶🏻
+      Thank you so much for inviting us!
+      
+      Also, for this live, we included our new song "rip-off" in the setlist for the first time since the Tomeihan tour we did this spring, and we announced that the song will be released on streaming services starting at midnight on August 6th (Wed)!
+      Like I wrote in my story, the drums are packed with the most complex phrases I've ever done, so I hope you look forward to it!
+      
+      And finally, our next live is...
+      NEK! 1ST ZEPP ONE MAN【#Spreading #NEKIKaiwai】!!
+      
+      It's been about a year and a half since we formed, and we're going to turn everything we've experienced into our individual strengths to deliver the best live show to all of you!!
+      
+      We'll be waiting for you at Zepp Shinjuku👊🏻🔥
+    image:
+    - 3
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+    reference:
+    - postximage:
+        post: 1949482178628432379
+        image: Gw3zn51bAAEvtWX
+    - postximage:
+        post: 1949482178628432379
+        image: Gw3zn6TaUAEpk50
+
+- postinstagramimage:
+    post: DMoNx7wzlap
+    id: 3
+    label: On stage
+    info: Cocoro
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      postinstagram: DMoNx7wzlap
+
 - postx:
     id: 1933117154494427587
     account: nekiband_jp
@@ -352,9 +426,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: internetbabies
+      postxvideo:
+        post: 1951215513217994873
+        video: 01
 
 - postx:
     id: 1952355401271480375
@@ -688,7 +762,9 @@
         id: internetbabies
     - song: blink
     part-of:
-      postx: 1951215513217994873
+      show:
+        year: 2025
+        id: internetbabies
 
 - postxvideo:
     post: 1952355401271480375

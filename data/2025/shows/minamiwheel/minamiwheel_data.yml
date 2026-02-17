@@ -16,9 +16,15 @@
                 - postxvideo:
                     post: 1977618535334739998
                     video: 01
+                - postinstagramvideo:
+                    post: DP1ZLSykmFe
+                    video: 5
                 - postximage:
                     post: 1977636304314863708
                     image: G3H5ttbaUAA2ya1
+                - postinstagramimage:
+                    post: DP1ZLSykmFe
+                    image: 2
         - basicsection:
             label: At the show
             subsections:
@@ -38,9 +44,15 @@
                 - postximage:
                     post: 1977673863468319087
                     image: G3Ib5IgbAAE1Tyz
+                - postinstagramimage:
+                    post: DP77INSEorT
+                    image: 1
                 - postximage:
                     post: 1977675187459162437
                     image: G3IdGKiaIAILO0x
+                - postinstagramimage:
+                    post: DP1ZLSykmFe
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -135,6 +147,55 @@
         id: minamiwheel
 
 - postinstagram:
+    id: DP1ZLSykmFe
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-10-15
+    text: |-
+      2025.10.13
+      
+      今年もミナホ楽しかったーーーー！！
+      ほんとあっという間に終わってしまいました🥲🩵
+      
+      2年連続で出演させていただいただけでもとても嬉しいのに、さらに今回はお客様から入場規制という特大プレゼントまでいただいちゃいました…！！本当に本当にありがとう！
+      
+      パンッパンのフロア、前から後ろまでみんなが全力で楽しんでくれてて最高に嬉しかったです！みんなの声や拳から伝わってくるパワーに私たちも音やパフォーマンスで絶対に応えたいと思うからいつも最後まで駆け抜けることができます！！みんなの存在はみんなが思っている以上に大きい！本当にいつも支えてくれてありがとう🔥
+      
+      来年はもっと大きなステージに立てるよう頑張ります👊🏻
+      
+      トゥクトゥクに乗ったり美味しいものたくさん食べたり、朝から晩まで大大大満足な一日でした！
+      やっぱ大阪好っきゃーーー！！(これ行くたび言ってる笑)
+      
+      来年2月から始まる全国ツアーでまたみんなの心踊らせに行くので、ぜひそちらにも遊びに来てね😌🫶🏻
+    translation: |-
+      2025.10.13
+      
+      Minaho was so much fun again this year~~~~!!
+      It really ended in the blink of an eye🥲🩵
+      
+      I was already so happy just to be able to perform two years in a row, but this time we even received an extra-large gift from the audience: an admission restriction...!! Thank you so, so much!
+      
+      The floor was packed to capacity, and I was incredibly happy to see everyone from the front to the back enjoying themselves with everything they had! Because of the power we feel from everyone's voices and fists, we always want to respond with our sound and performance, which allows us to sprint through until the very end!! Your presence is even bigger than you think! Thank you so much for always supporting us🔥
+      
+      I'll do my best so that we can stand on an even bigger stage next year👊🏻
+      
+      Riding in a tuk-tuk, eating lots of delicious food—it was a super, super, super satisfying day from morning till night!
+      I really do love Osaka!! (I say this every time I go lol)
+      
+      We'll be heading out to make everyone's hearts dance again during the nationwide tour starting next February, so please come visit us there too😌🫶🏻
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    video:
+    - 5
+    part-of:
+      show:
+        year: 2025
+        id: minamiwheel
+
+- postinstagram:
     id: DP51jPeEdKx
     account: nekiband_jp
     label: Photos
@@ -209,6 +270,55 @@
         image: G3IbHmJaUAAgskC
 
 - postinstagramimage:
+    post: DP1ZLSykmFe
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2025-10-15
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postinstagram: DP1ZLSykmFe
+
+- postinstagramimage:
+    post: DP1ZLSykmFe
+    id: 2
+    label: Tuk-Tuk ride
+    published-date: 2025-10-15
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postinstagram: DP1ZLSykmFe
+
+- postinstagramimage:
+    post: DP1ZLSykmFe
+    id: 3
+    label: Food
+    published-date: 2025-10-15
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postinstagram: DP1ZLSykmFe
+
+- postinstagramimage:
+    post: DP1ZLSykmFe
+    id: 4
+    label: Milk drink
+    published-date: 2025-10-15
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postinstagram: DP1ZLSykmFe
+
+- postinstagramimage:
     post: DP51jPeEdKx
     id: 1
     label: Backstage
@@ -244,6 +354,18 @@
         id: minamiwheel
     part-of:
       postinstagram: DP77INSEorT
+
+- postinstagramvideo:
+    post: DP1ZLSykmFe
+    id: 5
+    label: Tuk-Tuk ride
+    published-date: 2025-10-15
+    context:
+    - show:
+        year: 2025
+        id: minamiwheel
+    part-of:
+      postinstagram: DP1ZLSykmFe
 
 - postx:
     id: 1943143169446822118
@@ -933,9 +1055,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: minamiwheel
+      postxvideo:
+        post: 1978807279471284652
+        video: 01
 
 - postximage:
     post: 1943143169446822118
@@ -1281,7 +1403,9 @@
     - song: blink
     todo: check show
     part-of:
-      postx: 1978807279471284652
+      show:
+        year: 2025
+        id: minamiwheel
 
 - update:
     show:

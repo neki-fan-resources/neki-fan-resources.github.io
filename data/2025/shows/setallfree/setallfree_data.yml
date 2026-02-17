@@ -1,3 +1,81 @@
+- postinstagram:
+    id: DFxll0XvRzD
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-02-07
+    text: |-
+      2025.02.06
+      
+      Wisteria×FOWS「Set All Free!!」に出演いたしました！
+      お越しくださった皆様ありがとうございました💙
+      
+      初めての箱で、初めての企画、対バン相手は全員初めましてという初めて尽くしの今回は終始ソワソワ気味でしたが、新鮮な気持ちでとても楽しめました！
+      
+      渋谷FOWSさんは先月オープンしたばかりのライブハウスで、色々とどんな感じなんだろう…！？とステージに立たせていただく日をずっと楽しみにしていました。
+      個人的にはドラムセットがアクリル製で、タムも独立しているタイプなのに驚きました！さすが次世代のライブハウスって感じ👽
+      ずっとアクリルドラム叩いてみたかったから、ライブという実践的な環境で経験できて嬉しかった😌
+      
+      対バン相手のみなさんとても優しくて、リハ終わりとかライブ終わりとかに楽屋でたくさん話しかけてくれたりして、バンド交流ってこんな感じか！！と痛感😂❤️‍🔥(今までも話してなかった訳じゃないけどね！笑)
+      
+      全員スキルが高くて、バンドマンとして刺激をたくさん受けました。演者としていろんな理想像がある中で、今回の対バンは"こうなりたい"が少し整理できる機会だったと思う😌
+      
+      個人としてもバンドとしてもまだまだ伸びしろしかないから、しっかり向き合って着実に成長していきたいな🌱
+      
+      こんな素敵な対バンに呼んでくださった主催のWisteriaさん本当にありがとうございました☺️
+      またご一緒できる日を楽しみにしつつ自分磨き頑張るぞー！
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2025.02.06
+      
+      We performed at Wisteria×FOWS "Set All Free!!"
+      Thank you so much to everyone who came!! 💙
+      
+      This time was full of firsts—a first-time venue, a first-time project, and meeting all the other bands for the first time—so I was a bit restless throughout, but I had a great time with a fresh mindset!
+      
+      Shibuya FOWS just opened last month, and I had been looking forward to the day I could stand on that stage, wondering what it would be like...!?
+      Personally, I was surprised that the drum set was made of acrylic and the toms were the independent type! It really felt like a next-generation live house 👽
+      I've always wanted to play acrylic drums, so I was happy to experience it in a practical live setting 😌
+      
+      The other bands were so kind, talking to us a lot in the dressing room after rehearsals and after the show, and it really hit me—so this is what band networking is like!! 😂❤️‍🔥 (Not that we weren't talking before! lol)
+      
+      Everyone was so skilled, and I received a lot of inspiration as a band member. While I have various ideals as a performer, I think this event was an opportunity to organize my "what I want to become" a little better 😌
+      
+      Since there's still nothing but room for growth for me personally and for the band, I want to face things head-on and grow steadily 🌱
+      
+      Thank you so much to the organizers, Wisteria, for inviting us to such a wonderful event ☺️
+      I'll work hard on improving myself while looking forward to the day we can play together again!
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 3
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+    reference:
+    - postximage:
+        post: 1887519908155826210
+        image: GjHRWWzbIAUVD2p
+    - postximage:
+        post: 1887521792929247243
+        image: GjHTD_CbIAEbKRR
+    - postximage:
+        post: 1887521792929247243
+        image: GjHTD_BbIAEuTMa
+
+- postinstagramimage:
+    post: DFxll0XvRzD
+    id: 3
+    label: On stage
+    published-date: 2025-02-07
+    context:
+    - show:
+        year: 2025
+        id: setallfree
+    part-of:
+      postinstagram: DFxll0XvRzD
+
 - postx:
     id: 1861350709448622349
     account: nekiband_jp
@@ -133,6 +211,60 @@
         year: 2025
         id: setallfree
 
+- postx:
+    id: 1887519908155826210
+    account: coco_102
+    label: Thank you
+    published-date: 2025-02-06
+    text: |-
+      今日はWisteriaさん主催の「Set All Free!!」に出演させていただきました！❤️‍🔥
+      一緒にやったバンドさんたち全員めちゃくちゃかっこよくて、たくさん刺激もらった🥹
+      
+      呼んでいただいたWisteriaさん本当にありがとうございました！
+      
+      また落ち着いたら私のインスタ恒例のライブレポ？更新するね🤝🏻
+    translation: |-
+      Today we performed at "Set All Free!!" hosted by Wisteria! ❤️‍🔥
+      All the bands we played with were so cool, and I got so much inspiration 🥹
+      
+      Thank you so much to Wisteria for inviting us!
+      
+      Once things settle down, I'll update my usual live report? on Instagram 🤝🏻
+    image:
+    - GjHRWW2bIAQ7ezT
+    - GjHRWWzbIAUVD2p
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+
+- postx:
+    id: 1887521792929247243
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2025-02-06
+    text: |-
+      Wisteria×FOWS「Set All Free!!」
+      
+      本日は呼んでいただきありがとうございました！！💌
+      
+      どの出演者さんもカッコ良すぎてフロアもちょぉ〜！激熱でしたね！！
+      楽しすぎたぁ！！🔥
+    translation: |-
+      Wisteria×FOWS "Set All Free!!"
+      
+      Thank you so much for inviting us today!! 💌
+      
+      Every performer was so cool and the floor was super! intense!!
+      It was way too much fun!! 🔥
+    image:
+    - GjHTD_CbIAEbKRR
+    - GjHTD_BbIAEuTMa
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+
 - postximage:
     post: 1861350709448622349
     id: GdTYWPOaEAAltGr
@@ -169,4 +301,36 @@
         id: setallfree
     part-of:
       postx: 1887340383576989716
+
+- postximage:
+    post: 1887519908155826210
+    id: GjHRWW2bIAQ7ezT
+    label: Backstage
+    published-date: 2025-02-06
+    part-of:
+      postx: 1887519908155826210
+
+- postximage:
+    post: 1887519908155826210
+    id: GjHRWWzbIAUVD2p
+    label: All the bands
+    published-date: 2025-02-06
+    part-of:
+      postx: 1887519908155826210
+
+- postximage:
+    post: 1887521792929247243
+    id: GjHTD_BbIAEuTMa
+    label: Poster
+    published-date: 2025-02-06
+    part-of:
+      postx: 1887521792929247243
+
+- postximage:
+    post: 1887521792929247243
+    id: GjHTD_CbIAEbKRR
+    label: On stage
+    published-date: 2025-02-06
+    part-of:
+      postx: 1887521792929247243
 

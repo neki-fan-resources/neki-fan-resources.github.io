@@ -1,3 +1,127 @@
+- postinstagram:
+    id: C_0OCR1z1hp
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-09-12
+    text: |-
+      2024.09.10
+      
+      「Girl's UP!!! vol.363」@ Shibuya eggmanに出演いたしました🌈 お越しくださった皆さまありがとうございました！
+      
+      3/7にNEK!デビューライブで初めてGirl's UP!!!さんに出演してから半年が経ち、、、とうとうトリを務めさせていただくことができました🥲✨
+      
+      たくさんのNEK!ファンが集まって一緒にお祝いしてくれてとても嬉しかったです🫶🏻
+      フロアの盛り上がりやばかったねー！！過去イチ汗かいたんじゃないかってくらい熱気がすごかった😂🔥
+      
+      最近いろいろなイベントでトリを務めさせていただくことが増えてきて本当に嬉しいです！これもひとえに応援してくださる皆さんのおかげ…！いつもありがとうございます😌
+      
+      これからもいろんな体験を通して、バンドとしても個人としても経験値をあげていけたらいいなと思います💪🏻
+      
+      そして10/12~14開催「FM802 MINAMI WHEEL 2024」出演決定しました！！
+      NEK!は10/13(日)に出演いたします🎊
+      先月初遠征で上陸した大阪で、またすぐにライブできることがとても嬉しいですし、初ミナホなので今からとても楽しみです！出演時間や会場は後日解禁になります！続報をお待ちください❤️‍🔥
+      
+      今後も楽しみなイベントがてんこ盛りのNEK!ちゃんですが、体調管理に気をつけて全力で駆け抜けたいと思います！！みんなも季節の変わり目だから風邪とか気をつけてねー！
+      
+      #neki #neki_band #girlsband #
+    translation: |-
+      2024.09.10
+      
+      We performed at "Girl's UP!!! vol.363" @ Shibuya eggman🌈 Thank you to everyone who came out!
+      
+      It's been half a year since NEK! performed at Girl's UP!!! for the first time for our debut live on 3/7... and we finally got to play the closing set🥲✨
+      
+      I was so happy that so many NEK! fans gathered to celebrate with us🫶🏻
+      The energy on the floor was insane!! It was so hot, I think I sweated more than ever before😂🔥
+      
+      I'm really happy that we've been getting more opportunities to play the closing slot at various events lately! This is all thanks to everyone who supports us...! Thank you as always😌
+      
+      I hope to keep gaining experience through various events and level up both as a band and as an individual💪🏻
+      
+      Also, we've been confirmed to perform at "FM802 MINAMI WHEEL 2024" held from 10/12 to 10/14!!
+      NEK! will perform on 10/13 (Sun)🎊
+      I'm so happy to be able to play in Osaka again so soon after our first tour there last month, and since it's our first Minaho, I'm already looking forward to it! Performance times and venues will be announced later! Please wait for further updates❤️‍🔥
+      
+      NEK! has a ton of exciting events coming up, so I want to take care of my health and run through them at full speed!! It's the change of seasons, so everyone please be careful not to catch a cold!
+      
+      #neki #neki_band #girlsband #
+    image:
+    - 1
+    - 2
+    - 4
+    - 5
+    - 6
+    part-of:
+      show:
+        year: 2024
+        id: guvol363
+    reference:
+    - postximage:
+        post: 1833508790463041957
+        image: GXHuhl0bEAUm3Jj
+
+- postinstagramimage:
+    post: C_0OCR1z1hp
+    id: 1
+    label: On stage
+    published-date: 2026-02-15
+    context:
+    - show:
+        year: 2024
+        id: guvol363
+    part-of:
+      postinstagram: C_0OCR1z1hp
+
+- postinstagramimage:
+    post: C_0OCR1z1hp
+    id: 2
+    label: On stage
+    published-date: 2026-02-15
+    context:
+    - show:
+        year: 2024
+        id: guvol363
+    part-of:
+      postinstagram: C_0OCR1z1hp
+
+- postinstagramimage:
+    post: C_0OCR1z1hp
+    id: 4
+    label: On stage
+    info: Cocoro
+    published-date: 2026-02-15
+    context:
+    - show:
+        year: 2024
+        id: guvol363
+    part-of:
+      postinstagram: C_0OCR1z1hp
+
+- postinstagramimage:
+    post: C_0OCR1z1hp
+    id: 5
+    label: On stage
+    info: Cocoro
+    published-date: 2026-02-15
+    context:
+    - show:
+        year: 2024
+        id: guvol363
+    part-of:
+      postinstagram: C_0OCR1z1hp
+
+- postinstagramimage:
+    post: C_0OCR1z1hp
+    id: 6
+    label: Sidewalk board
+    published-date: 2026-02-15
+    context:
+    - show:
+        year: 2024
+        id: guvol363
+    part-of:
+      postinstagram: C_0OCR1z1hp
+
 - postx:
     id: 1833408179499372832
     account: shibuya_eggman
@@ -42,6 +166,32 @@
         year: 2024
         id: guvol363
 
+- postx:
+    id: 1833508790463041957
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-09-10
+    text: |-
+      Girl's UP!!! vol.363
+      @ Shibuya eggman
+      
+      ありがとうございました❤️‍🔥
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.363
+      @ Shibuya eggman
+      
+      Thank you very much❤️‍🔥
+      
+      #NEKI
+    image:
+    - GXHuhl0bEAUm3Jj
+    part-of:
+      show:
+        year: 2024
+        id: guvol363
+
 - postximage:
     post: 1833408179499372832
     id: GXGQ23WbsAAyxNO
@@ -54,4 +204,12 @@
         id: guvol363
     part-of:
       postx: 1833408179499372832
+
+- postximage:
+    post: 1833508790463041957
+    id: GXHuhl0bEAUm3Jj
+    label: On stage
+    published-date: 2024-09-10
+    part-of:
+      postx: 1833508790463041957
 

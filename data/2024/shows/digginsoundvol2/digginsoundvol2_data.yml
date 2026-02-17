@@ -1,3 +1,91 @@
+- postinstagram:
+    id: DC_uUelvxBs
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2024-11-30
+    text: |-
+      2024.11.27
+      
+      「Diggin’ Sound vol.2」に出演いたしました⚡️
+      お越しくださった皆様ありがとうございました！！
+      
+      初めて訪れた下北沢 近道さん、あちこちお洒落でとても落ち着く空間でした〜！
+      まんまるの照明も月みたいで可愛かった🌕
+      
+      「いつか下北のライブハウスを制覇したい」ってNEK!が初めて下北でライブやったときにMCで話したんだけど、こうやって新しい会場でやらせてもらうと少しずつその夢に近づいていっている感じがしてすごく嬉しいです🥹
+      
+      これからもいろんなライブハウスと出会ってそれぞれの空気感を楽しんでいきたいな〜！！
+      
+      今回の対バンライブは同世代の演者さんがたくさんいて、みんな頑張ってるな〜私も頑張らないとな〜と自然と気合い注入されました😌🔥
+      
+      やっぱりバンドってそれぞれの良さがあるけど、NEK!はNEK!らしく、NEK!のペースでNEK!にしか出せない良さを伸ばしていけたなと🌱
+      
+      これからも応援よろしくお願いします！
+      
+      (最後のはかなでん帰った後に撮ったので不在です😢sorry)
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2024.11.27
+      
+      We appeared in "Diggin’ Sound vol.2" ⚡️
+      Thank you to everyone who came!!
+      
+      Shimokitazawa Chikamichi, which I visited for the first time, was a very relaxing space with stylish touches everywhere!
+      The round lighting was also cute, like the moon 🌕
+      
+      During NEK!'s first live in Shimokitazawa, we said in our MC that "we want to conquer the live houses in Shimokita someday," and getting to play at a new venue like this makes me so happy because it feels like we're getting closer to that dream bit by bit 🥹
+      
+      I want to keep encountering various live houses and enjoying their unique atmospheres!!
+      
+      This battle-of-the-bands live had many performers from the same generation, which naturally fired me up, thinking "everyone is working so hard—I have to work hard too" 😌🔥
+      
+      Every band has its own strengths, but I want NEK! to stay true to NEK!, and at NEK!'s own pace, develop the unique qualities that only NEK! can produce 🌱
+      
+      Please keep supporting us!
+      
+      (Kanaden had already left when the last photo was taken, so she's missing 😢 sorry)
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 2
+    - 4
+    part-of:
+      show:
+        year: 2024
+        id: digginsoundvol2
+    reference:
+    - postximage:
+        post: 1861777970496737413
+        image: GdZdMhdaoAARviY
+    - postximage:
+        post: 1861777970496737413
+        image: GdZdMhdbgAA1c76
+
+- postinstagramimage:
+    post: DC_uUelvxBs
+    id: 2
+    label: On stage
+    published-date: 2024-11-30
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      postinstagram: DC_uUelvxBs
+
+- postinstagramimage:
+    post: DC_uUelvxBs
+    id: 4
+    label: Backstage
+    published-date: 2024-11-30
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      postinstagram: DC_uUelvxBs
+
 - postx:
     id: 1829353768691089610
     account: bazoo_official
@@ -158,6 +246,33 @@
         year: 2024
         id: digginsoundvol2
 
+- postx:
+    id: 1861777970496737413
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-11-27
+    text: |-
+      Diggin’ Sound Vol.2
+      @ 下北沢 近道 
+      
+      ありがとうございました🖤
+      
+      #NEKI #ディグサ
+    translation: |-
+      Diggin’ Sound Vol.2
+      @ Shimokitazawa Chikamichi 
+      
+      Thank you so much🖤
+      
+      #NEKI #Digsa
+    image:
+    - GdZdMhdbgAA1c76
+    - GdZdMhdaoAARviY
+    part-of:
+      show:
+        year: 2024
+        id: digginsoundvol2
+
 - postximage:
     post: 1829353768691089610
     id: GWMra3YbIAARNIP
@@ -194,6 +309,22 @@
         id: digginsoundvol2
     part-of:
       postx: 1856985434020061342
+
+- postximage:
+    post: 1861777970496737413
+    id: GdZdMhdaoAARviY
+    label: On stage
+    published-date: 2024-11-27
+    part-of:
+      postx: 1861777970496737413
+
+- postximage:
+    post: 1861777970496737413
+    id: GdZdMhdbgAA1c76
+    label: On stage
+    published-date: 2024-11-27
+    part-of:
+      postx: 1861777970496737413
 
 - postxvideo:
     post: 1851187227730358585

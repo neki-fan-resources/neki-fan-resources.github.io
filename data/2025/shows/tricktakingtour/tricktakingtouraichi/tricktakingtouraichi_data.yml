@@ -1,3 +1,41 @@
+- postx:
+    id: 1899104358958342641
+    account: coco_102
+    label: Dream come true
+    published-date: 2025-03-10
+    text: |-
+      いつか立ってみたかった箱、栄R.A.D
+      
+      NEK!になってからどんどん夢叶ってる🌞
+      これからもメンバーといろんな場所に行きたいな。
+    translation: |-
+      Sakae R.A.D, a venue I’ve always wanted to stand in one day.
+      
+      Since becoming a member of NEK!, my dreams have been coming true one after another🌞 I want to keep going to all sorts of places with the members from now on.
+    image:
+    - Glr5U1MXcAEIcgx
+    - Glr5U1NXgAAXye0
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtouraichi
+
+- postximage:
+    post: 1899104358958342641
+    id: Glr5U1MXcAEIcgx
+    label: Selfie
+    published-date: 2025-03-10
+    part-of:
+      postx: 1899104358958342641
+
+- postximage:
+    post: 1899104358958342641
+    id: Glr5U1NXgAAXye0
+    label: Drums
+    published-date: 2025-03-10
+    part-of:
+      postx: 1899104358958342641
+
 - youtubeshort:
     id: Lz0Fj4wCa-Y
     label: Show

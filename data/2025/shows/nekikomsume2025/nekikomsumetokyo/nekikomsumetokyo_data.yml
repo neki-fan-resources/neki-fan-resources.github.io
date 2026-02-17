@@ -1,4 +1,73 @@
 - postinstagram:
+    id: DKdwjfZvq_r
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2025-06-04
+    text: |-
+      2025.06.02
+      
+      「NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound」東京公演が無事終了いたしましたー！
+      お越しくださった皆さま本当にありがとうございました❤️‍🔥
+      
+      約半年前に初めてkomsumeと対バンする機会があって、そのときは出番が前後だったからあまり話したりはできなかったけど、舞台袖で聴いててめちゃめちゃ熱いライブをする関西のガールズバンドがいる！！と知って、いつかツーマンとかやってみたいなあとそのときは漠然と思っていました。だから今回やっと実現できて嬉しかった^^
+      
+      komsumeのパフォーマンスに鼓舞されて私たちもいつも以上に昂ってたと思います😂音を武器に闘うガールズバンドの相乗効果ってすごいなって改めて実感した！！
+      私たちにとって収穫盛りだくさんの対バンとなりました🌞
+      
+      ライブ中ずっと袖からkomsumeのメンバーとスタッフさんが見ててくれて嬉しかった〜Foolとかめっちゃ飛んでくれてたのよ^^ ほんとにありがとうございました！！
+      
+      NEK!ちゃんは約1ヶ月振りのライブだったので、転換リハから既にフロアもめちゃめちゃ盛り上がってくれてたし(最近ライブ久々なことが多いからこれ毎回言ってる気がする笑)、本編でMAZEが終わったら暗闇のフロアから「はぁー！！🥵💦」って声がたくさん聞こえてきて、思わず笑っちゃいました笑
+      最後までバテずにその熱さキープしててくれて嬉しかったです！！本当にみんなのおかげで最高のライブになりました🔥
+      また後日ライブ映像も載せますのでお楽しみに〜
+      
+      打ち上げでもたくさんお話しできて嬉しかった〜〜〜！
+      3人ともめっちゃ接しやすくて、特にジンちゃんとは終電ギリまで残っていっぱい話したけど、話せば話すほど話したいことが増えて全然時間足りんかった🥲❤️‍🔥
+      
+      komsumeとのツーマン、残すは7/18(金)大阪公演！！
+      場所は福島のLIVE SQUARE 2nd LINE！！
+      東京公演に負けないくらいの激アツライブかましますので、ぜひその目で目撃しに来てください！待ってます😈🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    translation: |-
+      2025.06.02
+      
+      "NEK!/komsume TWO-MAN SHOW powered by Diggin' Sound" Tokyo performance ended successfully!
+      Thank you so much to everyone who came out❤️‍🔥
+      
+      We had our first chance to play with komsume about half a year ago, and back then our slots were back-to-back so we couldn't talk much, but listening from the wings I knew there was a Kansai girls band putting on an incredibly passionate live show!! At the time, I vaguely thought I'd love to do a two-man show with them someday. So I was happy we could finally make it happen this time^^
+      
+      Inspired by komsume's performance, I think we were more fired up than usual too😂 I truly felt once again how amazing the synergy of girls bands fighting with sound as their weapon can be!!
+      It was a co-headlining show with many takeaways for us🌞
+      
+      I was so happy that the komsume members and staff were watching us from the wings throughout the live—they were jumping so much during Fool and everything^^ Thank you so much!!
+      
+      Since it was NEK!'s first live in about a month, the floor was already super hyped from the changeover rehearsal (I feel like I say this every time lately because our lives have been spaced out lol), and when MAZE ended during the main set, I could hear lots of "Haa—!!🥵💦" voices from the dark floor, which made me burst out laughing lol
+      I was happy you kept that heat up without getting exhausted until the end!! It truly became the best live thanks to everyone🔥
+      I'll post live footage later too, so look forward to it~
+      
+      I was so happy we could talk a lot at the after-party too~~~!
+      All three of them were so easy to talk to, especially Jin-chan—I stayed until nearly the last train talking to her, but the more we talked, the more things I wanted to talk about, so there wasn't nearly enough time🥲❤️‍🔥
+      
+      The remaining two-man with komsume is the Osaka performance on July 18th (Fri)!!
+      The venue is Fukushima LIVE SQUARE 2nd LINE!!
+      We'll put on a super intense live that won't lose to the Tokyo show, so please come witness it with your own eyes! I'm waiting for you😈🔥
+      
+      #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+    reference:
+    - postximage:
+        post: 1929531593523081226
+        image: GscSvrHbMAAqkrT
+
+- postinstagram:
     id: DKe1PAkSew9
     account: natsu08_guitar
     label: Thank you
@@ -39,6 +108,55 @@
       show:
         year: 2025
         id: nekikomsumetokyo
+
+- postinstagramimage:
+    post: DKdwjfZvq_r
+    id: 2
+    label: Backstage
+    info: 'Cocoro, ジンちゃん '
+    published-date: 2025-06-04
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      postinstagram: DKdwjfZvq_r
+
+- postinstagramimage:
+    post: DKdwjfZvq_r
+    id: 3
+    label: Backstage
+    published-date: 2025-06-04
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      postinstagram: DKdwjfZvq_r
+
+- postinstagramimage:
+    post: DKdwjfZvq_r
+    id: 4
+    label: On stage
+    published-date: 2025-06-04
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      postinstagram: DKdwjfZvq_r
+
+- postinstagramimage:
+    post: DKdwjfZvq_r
+    id: 5
+    label: Sidewalk board
+    published-date: 2025-06-04
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      postinstagram: DKdwjfZvq_r
 
 - postinstagramimage:
     post: DKe1PAkSew9
@@ -117,35 +235,6 @@
         domain: note.com.nekiband
         page: nb50d1c0b1dd3
         id: poster
-
-- postx:
-    id: 1929389485147721772
-    account: coco_102
-    label: Sold out
-    info: Get Over on stage
-    published-date: 2025-06-02
-    text: |-
-      🪩 🪩 🪩 🪩 🪩 Get Over 🪩 🪩 🪩 🪩 🪩
-      
-      今日も下北沢にてツーマンライブ！ソールド感謝！！
-      みんなで最高の夜にしましょう🥹🤘🏻🔥
-      またあとでねー！！
-      
-      #NEKI #拡散中 #ネキ界隈
-    translation: |-
-      🪩 🪩 🪩 🪩 🪩 Get Over 🪩 🪩 🪩 🪩 🪩
-      
-      Another two-man live in Shimokitazawa today! Thanks for the sold out!!
-      Let's make it the best night together🥹🤘🏻🔥
-      See you later!!
-      
-      #NEKI #NowSpreading #NEKIVicinity
-    video:
-    - 01
-    part-of:
-      show:
-        year: 2025
-        id: nekikomsumetokyo
 
 - postx:
     id: 1929531593523081226
@@ -282,9 +371,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: nekikomsumetokyo
+      postxvideo:
+        post: 1931252079353581736
+        video: 01
 
 - postx:
     id: 1933082505084809657
@@ -307,9 +396,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: nekikomsumetokyo
+      postxvideo:
+        post: 1933082505084809657
+        video: 01
 
 - postx:
     id: 1934127859645419907
@@ -332,9 +421,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: nekikomsumetokyo
+      postxvideo:
+        post: 1934127859645419907
+        video: 01
 
 - postximage:
     post: 1929531593523081226
@@ -387,21 +476,6 @@
       postx: 1925839253633695948
 
 - postxvideo:
-    post: 1929389485147721772
-    id: 01
-    label: On stage
-    info: Cocoro
-    published-date: 2025-06-02
-    cover: 1929389340653912064/img/temN0bVjZ3xG2oFX.jpg
-    context:
-    - show:
-        year: 2025
-        id: kakumeilogic2025
-    - song: getover
-    part-of:
-      postx: 1929389485147721772
-
-- postxvideo:
     post: 1929717050664276154
     id: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
     label: MC
@@ -428,7 +502,9 @@
         id: nekikomsumetokyo
     - song: loner
     part-of:
-      postx: 1931252079353581736
+      show:
+        year: 2025
+        id: nekikomsumetokyo
 
 - postxvideo:
     post: 1933082505084809657
@@ -443,7 +519,9 @@
         id: nekikomsumetokyo
     - song: dreams
     part-of:
-      postx: 1933082505084809657
+      show:
+        year: 2025
+        id: nekikomsumetokyo
 
 - postxvideo:
     post: 1934127859645419907
@@ -458,7 +536,9 @@
         id: nekikomsumetokyo
     - song: ooak
     part-of:
-      postx: 1934127859645419907
+      show:
+        year: 2025
+        id: nekikomsumetokyo
 
 - update:
     show:

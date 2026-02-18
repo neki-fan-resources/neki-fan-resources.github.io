@@ -269,9 +269,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: nekikomsumeosaka
+      postxvideo:
+        post: 1947241076508488042
+        video: 01
 
 - postx:
     id: 1947952383473954991
@@ -472,7 +472,7 @@
 - postxvideo:
     post: 1947241076508488042
     id: 01
-    label: Live
+    label: On stage
     info: Kanade
     published-date: 2025-07-21
     cover: 1947240346624069632/img/3ErAiwwnm_oT1ig_.jpg
@@ -482,12 +482,14 @@
         id: nekikomsumeosaka
     - song: zerosum
     part-of:
-      postx: 1947241076508488042
+      show:
+        year: 2025
+        id: nekikomsumeosaka
 
 - postxvideo:
     post: 1947952383473954991
     id: 01
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-07-23
     cover: 1947951817641611264/img/UiAiX6HkH85m9u1x.jpg

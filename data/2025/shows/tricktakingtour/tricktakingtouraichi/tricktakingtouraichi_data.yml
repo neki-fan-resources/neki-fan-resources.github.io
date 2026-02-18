@@ -20,6 +20,38 @@
         year: 2025
         id: tricktakingtouraichi
 
+- postx:
+    id: 1901057755311731067
+    account: coco_102
+    label: zero-sum Cocoro cam, show today
+    published-date: 2025-03-16
+    text: |-
+      本日は「TR!CK TAK!NG」ツアーファイナルです！！
+      
+      NEK!にとって初めての東名阪ワンマンツアー、毎回色々あったけど楽しかった！ほんと始まっちゃうとあっという間！
+      今日も悔いのないように楽しみまくるぞ〜〜💪🏻🎶
+      
+      天気悪いからみんな気をつけてきてね！
+      Spotify O-WESTで待ってます❤️‍🔥
+    translation: |-
+      Today is the "TR!CK TAK!NG" tour final!!
+      
+      NEK!'s first Tokyo-Nagoya-Osaka one-man tour—there was a lot happening every time, but it was fun! Once it starts, it really goes by in a flash!
+      I'm going to enjoy myself to the fullest today so there are no regrets~~💪🏻🎶
+      
+      The weather is bad, so everyone please be careful on your way!
+      Waiting for you at Spotify O-WEST❤️‍🔥
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1901057755311731067
+        video: 01
+    reference:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+
 - postximage:
     post: 1899104358958342641
     id: Glr5U1MXcAEIcgx
@@ -35,6 +67,23 @@
     published-date: 2025-03-10
     part-of:
       postx: 1899104358958342641
+
+- postxvideo:
+    post: 1901057755311731067
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-03-16
+    cover: 1901057663397752832/img/qO7uVY6uWDq8Sekb.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    - song: zerosum
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtouraichi
 
 - youtubeshort:
     id: Lz0Fj4wCa-Y
@@ -52,7 +101,8 @@
 
 - youtubeshort:
     id: b2N2xThvZ-4
-    label: Live
+    label: On stage
+    info: Kanade
     published-date: 2025-03-09
     context:
     - song: zerosum

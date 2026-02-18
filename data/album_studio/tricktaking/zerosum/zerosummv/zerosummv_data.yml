@@ -1,9 +1,11 @@
 localimage:
   multimedia-event: zerosummv
   id: mvcover
-  label: MV cover
+  label: MV image
   published-date: 2025-02-15
   source:
     description: YouTube video
+  context:
+  - song: zerosum
   part-of:
     multimedia-event: zerosummv

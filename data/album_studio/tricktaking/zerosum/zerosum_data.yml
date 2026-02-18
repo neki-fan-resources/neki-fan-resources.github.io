@@ -1,3 +1,249 @@
+- display:
+    song: zerosum
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The band performed "zero-sum" live for the first time at NEK!'s "
+                  - show:
+                      year: 2024
+                      id: 2ndonemanlive
+                  - text: ."
+                - line:
+                  - text: NEK's released the song digitally as the lead single for the second EP "
+                  - album: tricktaking
+                  - text: '" on February 12. This digital launch occurred a few weeks ahead of the EP release.'
+                - line:
+                  - text: The music video was released several days later on February 15.
+                - line:
+                  - text: '&nbsp;'
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: z3HM2COly2Q
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: Jr0cUhVnKiE
+                - postxvideo:
+                    post: 1902264694557045093
+                    video: 01
+        - basicsection:
+            label: Recording
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1842049599319769285
+                    video: 01
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: '-tZ_hveWReA'
+                - postxvideo:
+                    post: 1947241076508488042
+                    video: 01
+                - postxvideo:
+                    post: 1947952383473954991
+                    video: 01
+                - postxvideo:
+                    post: 1928744673092292656
+                    video: 01
+                - postxvideo:
+                    post: 1901057755311731067
+                    video: 01
+                - youtubeshort: b2N2xThvZ-4
+        - basicsection:
+            label: Karaoke
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1910603130699735147
+                    video: 01
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: ybFbLwDu-U4
+                - postinstagramvideo:
+                    post: DHh8PD_pLKJ
+                    video: 1
+                - postxvideo:
+                    post: 1903792061901320277
+                    video: 01
+                - postinstagramvideo:
+                    post: DF9_gO3PCkn
+                    video: 1
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1977363049481646458
+                    video: 01
+                - postxvideo:
+                    post: 1903025511728812075
+                    video: 01
+                - postxvideo:
+                    post: 1895487026054693005
+                    video: 01
+                - postxvideo:
+                    post: 1879115388132438380
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1959533059923128628
+                    video: 01
+                - postxvideo:
+                    post: 1955168434913952216
+                    video: 01
+            - multimediasubsection:
+                label: before "1ST ZEPP ONE MAN"
+                multimedia:
+                - postxvideo:
+                    post: 1960678576212308384
+                    video: 01
+            - multimediasubsection:
+                label: before "1stワンマンツアー 「TR!CK TAK!NG」 - Tokyo"
+                multimedia:
+                - youtubeshort: 5TbpU2-WnIQ
+                - youtubeshort: nh7NiJ2vnHM
+                - youtubeshort: _8Jm4QV0mUw
+                - youtubeshort: S2y9YcalKNw
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 9RACyv2_ARo
+                - youtubeshort: jjYDQhDteIg
+                - youtubeshort: Aj96P8c6Tpc
+                - youtubeshort: 1YP2n89ZgJ0
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 4t1yP9wsV88
+                - youtubeshort: jJ6grW2Xdw0
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: z3HM2COly2Q
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DGGFEfVpdvD
+                    image: 1
+                - postinstagramimage:
+                    post: DGGFEfVpdvD
+                    image: 7
+                - postinstagramimage:
+                    post: DGGFEfVpdvD
+                    image: 6
+                - localimage:
+                    multimedia-event: zerosummv
+                    id: mvcover
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DGGFEfVpdvD
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DGGFEfVpdvD
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DGGFEfVpdvD
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DGGFEfVpdvD
+                    image: 4
+            - multimediasubsection:
+                label: Uncut shots
+                multimedia:
+                - youtubeshort: swQC6Xm0uLA
+                - youtubeshort: M4ovXQcKfv0
+                - youtubeshort: becPsUyrM_M
+                - youtubeshort: LoiUwaTk_2Q
+                - youtubeshort: oSg3qLQDmtI
+            - multimediasubsection:
+                label: Filming
+                multimedia:
+                - youtubeshort: f_7Wd4lCcXo
+                - youtubeshort: hWDR2ux5jFs
+                - youtubeshort: WRfdzk-02vY
+                - youtubeshort: ACpiujWAlHg
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1895827960420319434
+                    image: Gk9Vef1a4AALHZM
+                - postximage:
+                    post: 1900102636562678243
+                    image: Gl6FRK_bYAAvsj3
+                - postximage:
+                    post: 1895827960420319434
+                    image: Gk9Vef0bAAATBUH
+                - postximage:
+                    post: 1900102636562678243
+                    image: Gl6FRK5bYAI7tX5
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1886053926912635319
+                    image: GiycDGdbQAA3w4c
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1886082209200914442
+                    image: Giy1xTNaUAAOP80
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1900439521717842426
+                    image: Gl-3q_9aYAASYiE
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1886059230479979000
+                    image: Giyg3xYbUAALTII
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1900102636562678243
+                    image: Gl6FRK5aMAArHbX
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1890370527937663137
+                    video: 01
+    part-of:
+      song: zerosum
+
 - lyrics:
     id: main
     song: zerosum
@@ -1377,10 +1623,79 @@
     post: DHh8PD_pLKJ
     id: 1
     label: Rehearsal
-    info: intro
+    info: Hika, Natsu, intro
     published-date: 2025-03-23
     context:
     - song: zerosum
+    part-of:
+      song: zerosum
+
+- postx:
+    id: 1842049599319769285
+    account: coco_102
+    label: zero-sum recording
+    published-date: 2024-10-04
+    text: |-
+      昨日はレコーディングをしてきたよ🥁
+      
+      ここはチャイナシンバルをしばき倒すゾーン！
+      真剣な顔してる笑
+    translation: |-
+      Yesterday I did some recording 🥁
+      
+      This is the zone where I bash the china cymbal!
+      I have such a serious face lol
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1842049599319769285
+        video: 01
+
+- postx:
+    id: 1879115388132438380
+    account: coco_102
+    label: zero-sum rehearsal
+    published-date: 2025-01-14
+    text: |-
+      本日はNEK! 2025年初リハでした🎍⚡️
+      
+      こちら、2ndワンマンで初解禁した新曲。
+      
+      年末ワンマンでも本編のラストにやって、ジワジワ人気を集めてきてる😎
+      めちゃめちゃかっこいいのよこの曲、、、
+      早く音源聴いてもらいたい！！！続報をお待ちくださいね！！
+      
+      (ハイハットの音割れうるさくてごめんね…！)
+    translation: |-
+      Today was NEK!'s first rehearsal of 2025🎍⚡️
+      
+      This is the new song we premiered for the first time at our 2nd one-man live.
+      
+      We also played it as the last song of the main set at the year-end one-man show, and it's gradually gaining popularity😎
+      This song is just so cool...
+      I want you to hear the studio version soon!!! Please wait for further news!!
+      
+      (Sorry for the loud hi-hat distortion...!)
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1879115388132438380
+        video: 01
+
+- postx:
+    id: 1886053926912635319
+    account: coco_102
+    label: MV shoot
+    published-date: 2025-02-02
+    text: |-
+      本日は撮影でした🪩❤️‍🔥
+    translation: |-
+      Had a photoshoot today 🪩❤️‍🔥
+    image:
+    - GiycDGdbQAA3w4c
+    todo: zero-sum ?
     part-of:
       song: zerosum
 
@@ -1417,22 +1732,270 @@
       song: zerosum
 
 - postx:
-    id: 1928744673092292656
-    account: cure_bass_baka
-    label: zero-sum on stage
-    info: bass solo
-    published-date: 2025-05-31
+    id: 1890370527937663137
+    account: nekiband_jp
+    label: MV announcement
+    published-date: 2025-02-14
     text: |-
-      ベースソロ！！
-       #NEKI  #拡散中  #ネキ界隈
+      🎬MUSIC VIDEO🎬
+      
+      明日2/15(土)21:00~
+      
+      "zero-sum" Official Music Video
+      YouTubeにてプレミア公開💥
+      
+      公開時のチャット欄にはメンバーも参加します✍️
+      
+      ▶︎ https://youtu.be/z3HM2COly2Q
+      
+      #NEKI #zerosum
     translation: |-
-      Bass solo!!
-       #NEKI  #Spreading  #NEKIKAIWAI
+      🎬MUSIC VIDEO🎬
+      
+      Tomorrow 2/15 (Sat) 21:00~
+      
+      "zero-sum" Official Music Video
+      Premiering on YouTube💥
+      
+      Members will also participate in the chat during the premiere✍️
+      
+      ▶︎ https://youtu.be/z3HM2COly2Q
+      
+      #NEKI #zerosum
     video:
     - 01
-    todo: 'which show ? '
+    part-of:
+      postxvideo:
+        post: 1890370527937663137
+        video: 01
+
+- postx:
+    id: 1895487026054693005
+    account: coco_102
+    label: zero-sum rehearsal
+    published-date: 2025-02-28
+    text: |-
+      zero-sumでいちばん足が忙しなく動いてるところ🐾
+      
+      高速4連打が何度も出てくるこのフレーズ、、イントロとBaソロのときにやっているのですが、どうしてもハイハットやスネアの音にかき消されがちなのでぜひバスドラの音にも注目して聴いてみてほしい🥹
+      
+      来週末の東名阪に向けて最終調整頑張るぞーーー
+    translation: |-
+      The part in zero-sum where my feet are moving most busily🐾
+      
+      This phrase where high-speed quadruple hits appear over and over... I'm doing it during the intro and the bass solo, but since it tends to get drowned out by the hi-hat and snare sounds, I'd really like you to try and focus on the kick drum sound while listening 🥹
+      
+      I'll do my best with final adjustments for the Tokyo-Nagoya-Osaka tour next weekend!
+    video:
+    - 01
+    todo: attach to tour for rehearsal ?
+    part-of:
+      postxvideo:
+        post: 1895487026054693005
+        video: 01
+
+- postx:
+    id: 1895827960420319434
+    account: natsu08_guitar
+    label: MV off shots
+    published-date: 2025-03-01
+    text: |-
+      最近NEK!公式インスタ、YouTube、TikTokでMV、アー写撮影のオフショットとか上げてるから是非みてねー！❤️‍🔥
+      私は写真オフショットあげちゃおっと！📸
+      
+      そしてそして、ついに1週間後となりました！NEK!初の東名阪ツアー!
+      なんとなんと愛知は残りわずか🏃
+      迷ってる方はお急ぎください！！
+    translation: |-
+      Recently we've been posting off-shots from the MV and artist photo shoots on NEK!'s official Instagram, YouTube, and TikTok, so please check them out! ❤️‍🔥
+      I'll go ahead and post some photo off-shots! 📸
+      
+      And and, it's finally just one week away! NEK!'s first Tokyo-Nagoya-Osaka tour!
+      Believe it or not, there are only a few tickets left for Aichi 🏃
+      If you're on the fence, please hurry!!
+    image:
+    - Gk9Vef0bAAATBUH
+    - Gk9Vef1a4AALHZM
+    todo: check second image is from zerosum
     part-of:
       song: zerosum
+
+- postx:
+    id: 1900100672437313743
+    account: nekiband_jp
+    label: 100k views
+    published-date: 2025-03-13
+    text: |-
+      "zero-sum"
+      Official Music Video
+      
+      100,000 VIEWS THANK YOU🎮
+      
+      https://youtu.be/z3HM2COly2Q?si=y8J2UnFezVdRiJrg
+      
+      #NEKI #zerosum
+    image:
+    - Gl6DfEYbYAIMhZW
+    part-of:
+      song: zerosum
+
+- postx:
+    id: 1900102636562678243
+    account: coco_102
+    label: 100k views
+    published-date: 2025-03-13
+    text: |-
+      zero-sum のMV10万回再生突破しました🎉
+      
+      本当に本当にありがとう！！！！
+      感謝の気持ちを込めてオフショをお届け🪩
+      インスタの方には解説文もつけてるのでそちらもぜひ🫶🏻
+      
+      https://instagram.com/p/DHHxmnxhuzZ/?igsh=ZTQ4dGVkZ200bjlt
+    translation: |-
+      The zero-sum MV has surpassed 100,000 views 🎉
+      
+      Thank you so, so much!!!!
+      Sending some off-shots to show my gratitude 🪩
+      I’ve added commentary on Instagram as well, so please check that out too 🫶🏻
+      
+      https://instagram.com/p/DHHxmnxhuzZ/?igsh=ZTQ4dGVkZ200bjlt
+    image:
+    - Gl6FRK5bYAI7tX5
+    - Gl6FRK_bYAAvsj3
+    - Gl6FRK5aMAArHbX
+    todo: more on instagram
+    part-of:
+      postx: 1900100672437313743
+
+- postx:
+    id: 1900439521717842426
+    account: 46_hikaa
+    label: 100k views
+    published-date: 2025-03-14
+    text: |-
+      〝zero-sum〟10万回再生！！
+      ありがとうございます👀✨
+      
+      こんなに聴いてもらえて嬉しいです！
+      最強のリード曲になってますので
+      たくさん聴いてね·͜·ᰔᩚ
+    translation: |-
+      "zero-sum" 100,000 views!!
+      Thank you so much 👀✨
+      
+      I'm so happy it's being listened to this much!
+      It's become our strongest lead track
+      So please listen to it a lot ·͜·ᰔᩚ
+    image:
+    - Gl-3q_9aYAASYiE
+    part-of:
+      postx: 1900100672437313743
+
+- postx:
+    id: 1902264694557045093
+    account: cure_bass_baka
+    label: zero-sum playthrough
+    published-date: 2025-03-19
+    text: |-
+      ガールズバンドのスラップソロお届けします！！
+       #拡散中 #ネキ界隈  #NEKI
+    translation: |-
+      Bringing you a girls' band slap solo!!
+       #SpreadingTheWord #NEKIKaiwai #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1902264694557045093
+        video: 01
+
+- postx:
+    id: 1903025511728812075
+    account: coco_102
+    label: zero-sum rehearsal
+    published-date: 2025-03-21
+    text: |-
+      本日もリハでした✊🏻🔥
+      (これはべードラ練習のときのです)
+      
+      ※ハイハットの音割れ酷くてごめんなさい！
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Rehearsal today as well✊🏻🔥
+      (This is from when the bass and drums were practicing)
+      
+      *Sorry the hi-hat sound is clipping so badly!
+      
+      #NEKI #SpreadingTheWord #NEKIFandom
+    video:
+    - 01
+    todo: double check song
+    part-of:
+      postxvideo:
+        post: 1903025511728812075
+        video: 01
+
+- postx:
+    id: 1903792061901320277
+    account: 46_hikaa
+    label: zero-sum rehearsal
+    published-date: 2025-03-23
+    text: |-
+      3・2・1
+      #ネキ界隈  #NEKI #ギター
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1903792061901320277
+        video: 01
+
+- postx:
+    id: 1910603130699735147
+    account: 46_hikaa
+    label: Karaoke
+    published-date: 2025-04-11
+    text: |-
+      zero-sumカラオケで歌ってきたよぉ🤍
+      
+      #NEKI #ネキ界隈 #拡散中
+    translation: |-
+      I sang zero-sum at karaoke🤍
+      
+      #NEKI #NekiNeighborhood #NowSpreading
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1910603130699735147
+        video: 01
+
+- postx:
+    id: 1934537704458600771
+    account: TOWER_Info
+    label: zero-sum cover
+    published-date: 2025-06-16
+    text: |-
+      ギャップ大勝利バンド🤘
+      音源あり：https://vt.tiktok.com/ZSkV8MdVf/
+      NEK! - zero-sum
+      #タワレコ寺浦の叩いてみた
+      #タワレコメン
+    translation: |-
+      Gap for the win band🤘
+      Audio available: https://vt.tiktok.com/ZSkV8MdVf/
+      NEK! - zero-sum
+      #TowerRecordsTeraura'sDrumCover
+      #TowerRecomen
+    video:
+    - 01
+    todo: check tiktok
+    part-of:
+      postxvideo:
+        post: 1934537704458600771
+        video: 01
 
 - postx:
     id: 1955168434913952216
@@ -1511,9 +2074,20 @@
         video: 01
 
 - postximage:
+    post: 1886053926912635319
+    id: GiycDGdbQAA3w4c
+    label: Behind the scenes
+    published-date: 2025-02-02
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1886053926912635319
+
+- postximage:
     post: 1886059230479979000
     id: Giyg3xYbUAALTII
-    label: Outfit
+    label: Behind the scenes
+    info: Kanade
     published-date: 2025-02-02
     context:
     - song: zerosum
@@ -1524,29 +2098,194 @@
     post: 1886082209200914442
     id: Giy1xTNaUAAOP80
     label: Behind the scenes
+    info: Natsu
     published-date: 2025-02-02
     context:
     - song: zerosum
     part-of:
       postx: 1886082209200914442
 
-- postxvideo:
-    post: 1928744673092292656
-    id: 01
-    label: Live
-    info: bass solo, Kanade
-    published-date: 2025-05-31
-    cover: 1928744588002603008/img/zKxWxSvDhLkLUg71.jpg
+- postximage:
+    post: 1895827960420319434
+    id: Gk9Vef0bAAATBUH
+    label: Behind the scenes
+    published-date: 2025-03-01
     context:
     - song: zerosum
-    todo: location ? likely TTT tokyo
     part-of:
-      postx: 1928744673092292656
+      postx: 1895827960420319434
+
+- postximage:
+    post: 1895827960420319434
+    id: Gk9Vef1a4AALHZM
+    label: Behind the scenes
+    published-date: 2025-03-01
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1895827960420319434
+
+- postximage:
+    post: 1900100672437313743
+    id: Gl6DfEYbYAIMhZW
+    label: 100k views
+    published-date: 2025-03-13
+    part-of:
+      postx: 1900100672437313743
+
+- postximage:
+    post: 1900102636562678243
+    id: Gl6FRK5aMAArHbX
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-03-13
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1900102636562678243
+
+- postximage:
+    post: 1900102636562678243
+    id: Gl6FRK5bYAI7tX5
+    label: Behind the scenes
+    published-date: 2025-03-13
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1900102636562678243
+
+- postximage:
+    post: 1900102636562678243
+    id: Gl6FRK_bYAAvsj3
+    label: Behind the scenes
+    published-date: 2025-03-13
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1900102636562678243
+
+- postximage:
+    post: 1900439521717842426
+    id: Gl-3q_9aYAASYiE
+    label: Behind the scenes
+    info: Hika
+    published-date: 2025-03-14
+    context:
+    - song: zerosum
+    part-of:
+      postx: 1900439521717842426
+
+- postxvideo:
+    post: 1842049599319769285
+    id: 01
+    label: Recording
+    info: Cocoro
+    published-date: 2024-10-04
+    cover: 1842049372403728385/pu/img/G9YbYpOISVPQUUx7.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1879115388132438380
+    id: 01
+    label: Rehearsal
+    info: Cocoro
+    published-date: 2025-01-14
+    cover: 1879115264622739456/pu/img/K-5WWSJVZJx51M-H.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1890370527937663137
+    id: 01
+    label: Music Video Teaser
+    published-date: 2025-02-14
+    cover: 1890367740856397824/pu/img/wrk3ud-QTTbNzLz4.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1895487026054693005
+    id: 01
+    label: Rehearsal
+    info: Cocoro
+    published-date: 2025-02-28
+    cover: 1895486915656425472/img/7bjWYLHDNxlB9Gwg.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1902264694557045093
+    id: 01
+    label: Intro
+    info: Kanade
+    published-date: 2025-03-19
+    cover: 1902264562352844800/img/od_vAsJonxEgWuTP.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1903025511728812075
+    id: 01
+    label: Rehearsal
+    info: Cocoro
+    published-date: 2025-03-21
+    cover: 1903025337493229570/img/9mAYqsjaavUKj4i3.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1903792061901320277
+    id: 01
+    label: Rehearsal
+    info: Hika, Natsu, 3-2-1
+    published-date: 2025-03-23
+    cover: 1903791983820435456/img/WoHa0c0Ml--LFRpM.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1910603130699735147
+    id: 01
+    label: Karaoke
+    info: Hika
+    published-date: 2025-04-11
+    cover: 1910603034281037824/img/iGAqYtMAJSHyv86W.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
+
+- postxvideo:
+    post: 1934537704458600771
+    id: 01
+    label: Cover
+    published-date: 2025-06-16
+    cover: 1934536126859292672/img/VXT5wndzPndm9P1P.jpg
+    context:
+    - song: zerosum
+    part-of:
+      song: zerosum
 
 - postxvideo:
     post: 1955168434913952216
     id: 01
     label: Rehearsal
+    info: Cocoro
     published-date: 2025-08-12
     cover: 1955168233520308224/img/nn5XMiKYzwZ1z9yR.jpg
     context:
@@ -1558,6 +2297,7 @@
     post: 1959533059923128628
     id: 01
     label: Rehearsal
+    info: Cocoro
     published-date: 2025-08-24
     cover: 1959532949168394240/img/dGDvkdVTI7NCMrMk.jpg
     context:
@@ -1580,6 +2320,14 @@
     part-of:
       song: zerosum
 
+- update:
+    song: zerosum
+    date: 2026-02-18
+    text:
+    - Refreshed and organized the data
+    part-of:
+      song: zerosum
+
 - youtubeshort:
     id: 4t1yP9wsV88
     label: Promo
@@ -1593,7 +2341,6 @@
 - youtubeshort:
     id: 5WS8ZE-8chw
     label: Music Video
-    info: celebrating 10k views
     published-date: 2025-02-16
     context:
     - song: zerosum
@@ -1602,7 +2349,7 @@
 
 - youtubeshort:
     id: ACpiujWAlHg
-    label: Music Video
+    label: Behind the scenes
     info: watching the rushes
     published-date: 2025-06-03
     context:
@@ -1622,7 +2369,7 @@
 - youtubeshort:
     id: LoiUwaTk_2Q
     label: Music Video
-    info: Kanade focus, with lyrics
+    info: Kanade, lyrics
     published-date: 2025-02-24
     context:
     - song: zerosum
@@ -1632,7 +2379,7 @@
 - youtubeshort:
     id: M4ovXQcKfv0
     label: Music Video
-    info: Natsu focus, with lyrics
+    info: Natsu, lyrics
     published-date: 2025-02-22
     context:
     - song: zerosum
@@ -1650,8 +2397,8 @@
 
 - youtubeshort:
     id: WRfdzk-02vY
-    label: Music Video
-    info: music Video behind the scene, Cocoro focus
+    label: Behind the scenes
+    info: Cocoro
     published-date: 2025-04-07
     context:
     - song: zerosum
@@ -1670,7 +2417,7 @@
 - youtubeshort:
     id: becPsUyrM_M
     label: Music Video
-    info: Hika focus, with lyrics
+    info: Hika, lyrics
     published-date: 2025-02-23
     context:
     - song: zerosum
@@ -1679,8 +2426,7 @@
 
 - youtubeshort:
     id: f_7Wd4lCcXo
-    label: Music Video
-    info: music Video behind the scene
+    label: Behind the scenes
     published-date: 2025-03-01
     context:
     - song: zerosum
@@ -1689,8 +2435,8 @@
 
 - youtubeshort:
     id: hWDR2ux5jFs
-    label: Music Video
-    info: behind the scenes, Cocoro
+    label: Behind the scenes
+    info: Cocoro
     published-date: 2025-05-27
     context:
     - song: zerosum
@@ -1710,42 +2456,30 @@
 - youtubeshort:
     id: oSg3qLQDmtI
     label: Music Video
-    info: Cocoro focus, with lyrics
+    info: Cocoro, lyrics
     published-date: 2025-02-21
     context:
     - song: zerosum
-    todo: maybe behind the scene
     part-of:
       song: zerosum
 
 - youtubeshort:
     id: swQC6Xm0uLA
     label: Music Video
-    info: Music Video set, different clip
+    info: lyrics
     published-date: 2025-02-18
     context:
     - song: zerosum
-    todo: From the MV set, not directly from the MV
     part-of:
       song: zerosum
 
 - youtubeshort:
     id: ybFbLwDu-U4
-    label: Bass and guitar solos
-    info: rehearsal room, Kanade, Natsu
+    label: Rehearsal
+    info: Kanade, Natsu, bass and guitar solos
     published-date: 2025-05-16
     context:
     - song: zerosum
-    part-of:
-      song: zerosum
-
-- youtubevideo:
-    id: 6YLIHyMl21k
-    label: Music Video Teaser
-    published-date: 2025-02-14
-    context:
-    - song: zerosum
-    todo: replace with video from X
     part-of:
       song: zerosum
 

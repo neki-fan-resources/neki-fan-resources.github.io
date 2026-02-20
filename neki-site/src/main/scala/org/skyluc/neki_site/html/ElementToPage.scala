@@ -29,6 +29,7 @@ object ElementToPage {
     val singlePages = Seq(
       page.AboutPage
     )
+      ++ page.CommunityPage.pagesFor(generator)
       ++ page.BandPage.pagesFor(site, generator)
       ++ page.SourcesPage.pagesFor(data, generator)
       ++ fr.page.UpdatePagePage.pagesFor(generator, page.MainSitePageBuilder)

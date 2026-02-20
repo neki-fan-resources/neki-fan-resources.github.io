@@ -1,0 +1,40 @@
+- localimage:
+    event: community
+    id: nfr_youtube
+    label: ' '
+    published-date: 2026-02-20
+    source:
+      description: YouTube channel
+    part-of:
+      event: community
+
+- localimage:
+    event: community
+    id: skyluc_youtube
+    label: ' '
+    published-date: 2026-02-20
+    source:
+      description: YouTube channel
+    part-of:
+      event: community
+
+- webpage:
+    domain: youtube.com
+    id: lucbourlier
+    label: YouTube channel
+    published-date: 2026-02-20
+    url: 'https://www.youtube.com/@lucbourlier'
+    image: []
+    part-of:
+      event: community
+
+- webpage:
+    domain: youtube.com
+    id: nfr
+    label: YouTube channel
+    published-date: 2026-02-20
+    url: 'https://www.youtube.com/@neki-fan-resources'
+    image: []
+    part-of:
+      event: community
+

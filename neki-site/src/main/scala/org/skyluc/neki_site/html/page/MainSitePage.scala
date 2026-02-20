@@ -140,6 +140,11 @@ object MainSitePage {
       "/chronology.html",
       List("chronology.html"),
     ),
+    NavigationItem(
+      "Community",
+      "/community.html",
+      List("community.html"),
+    ),
   )
 
   val supportNavItems = Seq(

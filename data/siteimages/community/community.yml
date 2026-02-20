@@ -1,0 +1,10 @@
+event:
+  id: community
+  cover-image:
+    localimage:
+      event: siteimages
+      id: manekineko_cover
+  label: Holder for community page
+  date: 2014-12-31
+  part-of:
+    group: siteimages

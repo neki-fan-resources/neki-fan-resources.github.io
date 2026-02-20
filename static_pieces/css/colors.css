@@ -98,5 +98,5 @@
   --color-chronology-bg-light: var(--color-hika-light2);
   --color-chronology-bg-dark: var(--color-cocoro-light2);
   --color-chronology-label: var(--color-not-black);
-  --color-chronology-altcolor: darkblue;
+  --color-chronology-altcolor: #565682;
 }

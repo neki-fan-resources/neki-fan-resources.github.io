@@ -1,3 +1,93 @@
+- display:
+    song: fool
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: urGmtrd7zbA
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: PpGQnSlWc-k
+                - postxvideo:
+                    post: 1952670333594677367
+                    video: 01
+                - postxvideo:
+                    post: 1949012927056658865
+                    video: 01
+                - postxvideo:
+                    post: 1914179728975823349
+                    video: 01
+                - postxvideo:
+                    post: 1963245027179540838
+                    video: 01
+                - postxvideo:
+                    post: 1875769615437197318
+                    video: 01
+                - youtubeshort: iQQoVDhI0E0
+                - youtubeshort: EkRipluPvVg
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: QJzDlj_jpfE
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: '-mmjisKakXU'
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: mtlxbPLr3ZQ
+                - youtubeshort: lPiXxWGgobU
+                - youtubeshort: g7vk_JnQveM
+    - lyricsblock: '-'
+    - basicblock:
+        id: livevideo
+        label: Live Video
+        sections:
+        - basicsection:
+            label: Live Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: urGmtrd7zbA
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 2
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 5
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 4
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 3
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 6
+                - postximage:
+                    post: 1943641464397062330
+                    image: GvkzmwJWEAA9mgY
+    part-of:
+      song: fool
+
 - lyrics:
     id: main
     song: fool
@@ -1125,7 +1215,8 @@
 - postximage:
     post: 1943641464397062330
     id: GvkzmwJWEAA9mgY
-    label: LMV frame
+    label: On stage
+    info: Hika
     published-date: 2025-07-11
     local-copy: true
     context:
@@ -1135,6 +1226,14 @@
         id: debutyearlastlive
     part-of:
       postx: 1943641464397062330
+
+- update:
+    song: fool
+    date: 2026-02-20
+    text:
+    - Refreshed and organized the videos and images
+    part-of:
+      song: fool
 
 - youtubeshort:
     id: QJzDlj_jpfE
@@ -1168,9 +1267,11 @@
 
 - youtubeshort:
     id: mtlxbPLr3ZQ
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-09-25
+    context:
+    - song: fool
     part-of:
       song: fool
 

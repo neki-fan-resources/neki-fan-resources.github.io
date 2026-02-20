@@ -1082,6 +1082,31 @@
         id: debutyearlastlive
 
 - postx:
+    id: 1875769615437197318
+    account: coco_102
+    label: Fool on stage
+    info: Cocoro
+    published-date: 2025-01-05
+    text: |-
+      最近公式ショートにもちらほら出現しだしているライブではお馴染みのあの曲！
+      
+      終始イケイケで楽しいよね〜〜✊🏻❤️‍🔥ご覧の通りレスポールから開放されたひかっちも奥で踊り狂ってます笑
+      
+      あーーーーライブしたい。
+    translation: |-
+      That song everyone knows from our live shows is starting to pop up here and there in official shorts!
+      
+      It's so cool and fun from start to finish, isn't it~~ ✊🏻❤️‍🔥 As you can see, Hikatchi, freed from her Les Paul, is also dancing like crazy in the back lol
+      
+      Aaaaah I want to play a show.
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1875769615437197318
+        video: 01
+
+- postx:
     id: 1920434632379580460
     account: nekiband_jp
     label: MC
@@ -1138,6 +1163,24 @@
     published-date: 2024-12-31
     part-of:
       postx: 1873932155568742631
+
+- postxvideo:
+    post: 1875769615437197318
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-01-05
+    cover: 1875769326244077568/pu/img/hprONE5lMMbSQvd5.jpg
+    context:
+    - song: fool
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    todo: double check show
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
 
 - postxvideo:
     post: 1920434632379580460
@@ -1266,7 +1309,7 @@
 
 - youtubeshort:
     id: N5KVAUzJZXs
-    label: Live
+    label: Live Video
     published-date: 2025-07-12
     context:
     - song: fool

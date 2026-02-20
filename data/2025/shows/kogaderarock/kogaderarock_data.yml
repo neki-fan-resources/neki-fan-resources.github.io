@@ -303,6 +303,30 @@
       postx: 1910979741756399623
 
 - postx:
+    id: 1914179728975823349
+    account: coco_102
+    label: Fool on stage
+    published-date: 2025-04-21
+    text: |-
+      後半にかけて畳み掛けていくFoolの2番😈💸❤️‍🔥
+      
+      割と最初のシンプルな裏打ち8ビートがいちばん叩いてて楽しかったりする笑
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      The second verse of Fool builds up the intensity toward the latter half😈💸❤️‍🔥
+      
+      The relatively simple backbeat 8-beat at the beginning is actually what I find most fun to play lol
+      
+      #NEKI #NowSpreading #NEKICircle
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1914179728975823349
+        video: 01
+
+- postx:
     id: 1931999361577463823
     account: natsu08_guitar
     label: 195 BPM
@@ -467,6 +491,23 @@
         id: kogaderarock
     part-of:
       postx: 1911004487399129107
+
+- postxvideo:
+    post: 1914179728975823349
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-04-21
+    cover: 1914179529431781377/img/VM8VNH60tVc0EfFz.jpg
+    context:
+    - song: fool
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
 
 - postxvideo:
     post: 1931999361577463823

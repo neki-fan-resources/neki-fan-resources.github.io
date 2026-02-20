@@ -480,9 +480,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: internetbabies
+      postxvideo:
+        post: 1952670333594677367
+        video: 01
 
 - postx:
     id: 1953425358717591622
@@ -784,7 +784,7 @@
 - postxvideo:
     post: 1952670333594677367
     id: 01
-    label: Live
+    label: On stage
     info: Natsu
     published-date: 2025-08-05
     cover: 1952670248618123264/img/3LAxE_aG0ildFLgJ.jpg
@@ -794,7 +794,9 @@
         id: internetbabies
     - song: fool
     part-of:
-      postx: 1952670333594677367
+      show:
+        year: 2025
+        id: internetbabies
 
 - postxvideo:
     post: 1953425358717591622

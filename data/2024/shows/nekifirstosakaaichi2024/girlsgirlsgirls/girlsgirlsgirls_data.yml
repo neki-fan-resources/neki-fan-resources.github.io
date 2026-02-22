@@ -144,6 +144,10 @@
     id: GVl5cqUbgAggXB8
     label: Sidewalk board
     published-date: 2024-08-22
+    context:
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
     part-of:
       postx: 1826624665139511742
 
@@ -152,6 +156,10 @@
     id: GVl5cqmbgAMZX8l
     label: On stage
     published-date: 2024-08-22
+    context:
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
     part-of:
       postx: 1826624665139511742
 

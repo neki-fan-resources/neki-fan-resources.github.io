@@ -202,7 +202,10 @@
     label: On stage
     info: Hika
     published-date: 2024-08-14
-    todo: 'which show ? '
+    context:
+    - show:
+        year: 2024
+        id: hapikorevol350
     part-of:
       postinstagram: C-oJxX6zKVy
 
@@ -223,7 +226,10 @@
     id: 6
     label: Backstage
     published-date: 2024-08-24
-    todo: which venue ?
+    context:
+    - show:
+        year: 2024
+        id: wingedit
     part-of:
       postinstagram: C_DqIeXSVEq
 
@@ -243,7 +249,10 @@
     label: On stage
     info: Cocoro
     published-date: 2024-08-27
-    todo: which show ?
+    context:
+    - show:
+        year: 2024
+        id: wingedit
     part-of:
       postinstagram: C_LQWySylRt
 
@@ -252,7 +261,10 @@
     id: 7
     label: On stage
     published-date: 2024-08-27
-    todo: which show ?
+    context:
+    - show:
+        year: 2024
+        id: daydreamer4night
     part-of:
       postinstagram: C_LQWySylRt
 

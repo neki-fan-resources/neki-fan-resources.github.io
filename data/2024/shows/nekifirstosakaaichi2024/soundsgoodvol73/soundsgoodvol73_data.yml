@@ -156,6 +156,10 @@
     id: GVrGPOpawAAkdj6
     label: On stage
     published-date: 2024-08-23
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
     part-of:
       postx: 1826990576136540351
 
@@ -164,6 +168,10 @@
     id: GVrGPOpbAAAhx3u
     label: Sidewalk board
     published-date: 2024-08-23
+    context:
+    - show:
+        year: 2024
+        id: soundsgoodvol73
     part-of:
       postx: 1826990576136540351
 

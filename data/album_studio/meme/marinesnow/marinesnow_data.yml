@@ -1,0 +1,905 @@
+- display:
+    song: marinesnow
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The name of the song was revealed on October 3rd, when the tracklist for album "MEME" was announced.
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: rjFwvcesqg0
+    - lyricsblock: '-'
+    part-of:
+      song: marinesnow
+
+- lyrics:
+    id: main
+    song: marinesnow
+    part-of:
+      song: marinesnow
+    status:
+      code: na
+      description: Data copied from the sources. Added rōmaji and words translation.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from Uta-Net)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from Uta-Net
+        url: 'https://www.uta-net.com/song/383745/'
+    - id: ro
+      name: rōmaji
+      no-translation: true
+    - id: ww
+      name: word by word translation
+      details: (using jisho.org)
+      base-url: 'https://jisho.org/search/'
+      url-text: J
+    sections:
+    - lines:
+      - ol:
+        - フォルダ
+        - 眠ってた
+        - いつか
+        - の
+        - 景色
+        - が
+        ro:
+        - foruda
+        - nemutteta
+        - itsutka
+        - no
+        - keshiki
+        - ga
+        ww:
+        - w: folder
+          d: フォルダ
+        - w: was sleeping
+          d: 眠ってた
+        - w: from that day
+          d: いつか
+        - w: "'s"
+          d: の
+        - w: scenery
+          d: 景色
+        - w: ''
+          d: が
+        - d: フォルダ眠ってたいつかの景色が
+      - ol:
+        - 未だに
+        - 解像度
+        - 高くて
+        ro:
+        - imada ni
+        - kaizōdo
+        - takakute
+        ww:
+        - w: still
+          d: 未だに
+        - w: resolution
+          d: 解像度
+        - w: is high
+          d: 高くて
+        - d: 未だに解像度高くて
+      - ol:
+        - 白昼夢
+        - が
+        - チラついちゃって
+        - さ
+        ro:
+        - hakuchūmu
+        - ga
+        - chiratsuichatte
+        - sa
+        ww:
+        - w: daydream
+          d: 白昼夢
+        - w: ''
+          d: が
+        - w: keep flickering
+          d: チラついちゃって
+        - w: (emphasis)
+          d: さ
+        - d: 白昼夢がチラついちゃってさ
+      - ol:
+        - 止まった
+        - まま
+        - じゃいけない
+        - ね
+        ro:
+        - tomatta
+        - mama
+        - jaikenai
+        - ne
+        ww:
+        - w: stopped
+          d: 止まった
+        - w: remaining
+          d: まま
+        - w: must not
+          d: じゃいけない
+        - w: right?
+          d: ね
+        - d: 止まったままじゃいけないね
+    - lines:
+      - ol:
+        - 深海
+        - で
+        - 酸欠
+        - です
+        - '　'
+        - モチベ
+        - も
+        - 氷点下
+        ro:
+        - shinkai
+        - de
+        - sanketsu
+        - desu
+        - ''
+        - mochibe
+        - mo
+        - hyōtenka
+        ww:
+        - w: deep see
+          d: 深海
+        - w: in
+          d: で
+        - w: lack of oxygen
+          d: 酸欠
+        - w: be
+          d: です
+        - ''
+        - w: motivation
+          d: モチベ
+        - w: also
+          d: も
+        - w: below freezing
+          d: 氷点下
+        - d: 深海で酸欠です モチベも氷点下
+      - ol:
+        - 諦めて
+        - 押し殺して
+        ro:
+        - akiramete
+        - oshikoroshite
+        ww:
+        - w: giving up
+          d: 諦めて
+        - w: repressing emotions
+          d: 押し殺して
+        - d: 諦めて押し殺して
+      - ol:
+        - 「
+        - 仕方ない
+        - さ
+        - 、
+        - 仕方ない
+        - …」
+        - って
+        - 唱えても
+        ro:
+        - 「
+        - shikatanai
+        - sa
+        - 、
+        - shikatanai
+        - …」
+        - tte
+        - tonaete mo
+        ww:
+        - ''
+        - w: it can't be helped
+          d: 仕方ない
+        - w: ''
+          d: さ
+        - ''
+        - w: it can't be helped
+          d: 仕方ない
+        - ''
+        - w: ''
+          d: って
+        - w: even if I chant
+          d: 唱えても
+        - d: 「仕方ないさ、仕方ない…」って唱えても
+      - ol:
+        - 手放せない
+        - よ
+        - ね
+        ro:
+        - tebanasenai
+        - yo
+        - ne
+        ww:
+        - w: cannot let go
+          d: 手放せない
+        - w: (emphasis)
+          d: よ
+        - w: right?
+          d: ね
+        - d: 手放せないよね
+    - lines:
+      - ol:
+        - マリンスノウ
+        - '　'
+        - 夢
+        - に
+        - 還ろうよ
+        ro:
+        - marin sunō
+        - ''
+        - yume
+        - ni
+        - kaerou yo
+        ww:
+        - w: marine snow
+          d: マリンスノウ
+        - ''
+        - w: dream
+          d: 夢
+        - w: in
+          d: に
+        - w: let's return
+          d: 還ろうよ
+        - d: マリンスノウ　夢に還ろうよ
+      - ol:
+        - 透明
+        - で
+        - 深い
+        - 海
+        - の
+        - 底
+        - に
+        - 隠した
+        ro:
+        - tōmei
+        - de
+        - fukai
+        - umi
+        - no
+        - soko
+        - ni
+        - kakushita
+        ww:
+        - w: transparent
+          d: 透明
+        - w: in
+          d: で
+        - w: deep
+          d: 深い
+        - w: sea
+          d: 海
+        - w: "'s"
+          d: の
+        - w: bottom
+          d: 底
+        - w: in
+          d: に
+        - w: hid
+          d: 隠した
+        - d: 透明で深い海の底に隠した
+      - ol:
+        - 少女
+        - の
+        - 想い
+        - が
+        ro:
+        - shōjo
+        - no
+        - omai
+        - ga
+        ww:
+        - w: girl
+          d: 少女
+        - w: "'s"
+          d: の
+        - w: feelings
+          d: 想い
+        - w: ''
+          d: が
+        - d: 少女の想いが
+    - lines:
+      - ol:
+        - この
+        - 時代
+        - の
+        - '　'
+        - この
+        - 場所
+        - から
+        ro:
+        - kono
+        - jidai
+        - no
+        - ''
+        - kono
+        - basho
+        - kara
+        ww:
+        - w: this
+          d: この
+        - w: era
+          d: 時代
+        - w: of
+          d: の
+        - ''
+        - w: this
+          d: この
+        - w: place
+          d: 場所
+        - w: from
+          d: から
+        - d: この時代の　この場所から
+      - ol:
+        - 生まれ
+        - 消える
+        - だけ
+        - だったとしても
+        ro:
+        - umare
+        - kieru
+        - dake
+        - datta to shite mo
+        ww:
+        - w: be born
+          d: 生まれ
+        - w: fade away
+          d: 消える
+        - w: only
+          d: だけ
+        - w: Even if it was
+          d: だったとしても
+        - d: 生まれ消えるだけだったとしても
+      - ol:
+        - 簡単に
+        - 捨てられない
+        - から
+        ro:
+        - kantan ni
+        - suterarenai
+        - kara
+        ww:
+        - w: simply
+          d: 簡単に
+        - w: cannot throw away
+          d: 捨てられない
+        - w: so
+          d: から
+        - d: 簡単に捨てられないから
+      - ol:
+        - 言葉
+        - が
+        - 降り積もる
+        - んだろう
+        ro:
+        - kotoba
+        - ga
+        - furitsumoru
+        - n darō
+        ww:
+        - w: word
+          d: 言葉
+        - w: ''
+          d: が
+        - w: fall and pile up
+          d: 降り積もる
+        - w: probably
+          d: んだろう
+        - d: 言葉が降り積もるんだろう
+    - lines:
+      - ol:
+        - 想い出
+        - の
+        - あの
+        - 店
+        - が
+        - 無くなる
+        - みたい
+        ro:
+        - omoide
+        - no
+        - ano
+        - mise
+        - ga
+        - nakunaru
+        - mitai
+        ww:
+        - w: memories
+          d: 想い出
+        - w: from
+          d: の
+        - w: that
+          d: あの
+        - w: store
+          d: 店
+        - w: ''
+          d: が
+        - w: be gone
+          d: 無くなる
+        - w: looks like
+          d: みたい
+        - d: 想い出のあの店が無くなるみたい
+      - ol:
+        - 大がかりな
+        - フェンス
+        - の
+        - 中で
+        ro:
+        - ōgakarina
+        - fensu
+        - no
+        - naka de
+        ww:
+        - w: large-scale
+          d: 大がかりな
+        - w: fence
+          d: フェンス
+        - w: "'s"
+          d: の
+        - w: within
+          d: 中で
+        - d: 大がかりなフェンスの中で
+      - ol:
+        - 跡形なく
+        - 壊されちゃって
+        - さ
+        ro:
+        - atokata naku
+        - kowasarechatte
+        - sa
+        ww:
+        - w: without a trace
+          d: 跡形なく
+        - w: destroyed
+          d: 壊されちゃって
+        - w: (emphasis)
+          d: さ
+        - d: 跡形なく壊されちゃってさ
+      - ol:
+        - 止まった
+        - まま
+        - じゃいけない
+        - ね
+        ro:
+        - tomatta
+        - mama
+        - jaikenai
+        - ne
+        ww:
+        - w: stopped
+          d: 止まった
+        - w: remaining
+          d: まま
+        - w: must not
+          d: じゃいけない
+        - w: right?
+          d: ね
+        - d: 止まったままじゃいけないね
+    - lines:
+      - ol:
+        - 最先端技術
+        - で
+        - '　'
+        - 得られた
+        - 「
+        - 正解
+        - 」
+        - は
+        ro:
+        - saisentan gijutsu
+        - de
+        - ''
+        - erareta
+        - 「
+        - seikai
+        - 」
+        - wa
+        ww:
+        - w: cuting-edge technology
+          d: 最先端技術
+        - w: by
+          d: で
+        - ''
+        - w: acquired
+          d: 得られた
+        - ''
+        - w: correct answer
+          d: 正解
+        - ''
+        - w: ''
+          d: は
+        - d: 最先端技術で　得られた「正解」は
+      - ol:
+        - 至極
+        - 当然
+        - の
+        - アドバイス
+        ro:
+        - shigoku
+        - tōzen
+        - no
+        - adobaisu
+        ww:
+        - w: extremely
+          d: 至極
+        - w: obvious
+          d: 当然
+        - w: "'s"
+          d: の
+        - w: advice
+          d: アドバイス
+        - d: 至極当然のアドバイス
+      - ol:
+        - 「
+        - 仰る通り
+        - 、
+        - その通り
+        - …」
+        - なんだけど
+        ro:
+        - 「
+        - ossharu tōri
+        - 、
+        - sonotōri
+        - …」
+        - nandakedo
+        ww:
+        - ''
+        - w: as you say
+          d: 仰る通り
+        - ''
+        - w: exactly right
+          d: その通り
+        - ''
+        - w: however
+          d: なんだけど
+        - d: 「仰る通り、その通り…」なんだけど
+      - ol:
+        - 飲み込めない
+        - から
+        - さ
+        ro:
+        - nomikomenai
+        - kara
+        - sa
+        ww:
+        - w: cannot swallow (accept)
+          d: 飲み込めない
+        - w: from
+          d: から
+        - w: (emphasis)
+          d: さ
+        - d: 飲み込めないからさ
+    - lines:
+      - ol:
+        - 目一杯
+        - の
+        - 青
+        - を
+        - '　'
+        - 吸い込んで
+        - 泳いでた
+        ro:
+        - meippai
+        - no
+        - ao
+        - o
+        - ''
+        - suikonde
+        - oyoideta
+        ww:
+        - w: to the fullest
+          d: 目一杯
+        - w: "'s"
+          d: の
+        - w: blue
+          d: 青
+        - w: ''
+          d: を
+        - ''
+        - w: breathing
+          d: 吸い込んで
+        - w: was swimming
+          d: 泳いでた
+        - d: 目一杯の青を　吸い込んで泳いでた
+      - ol:
+        - あの
+        - 日
+        - あの
+        - 子
+        - は
+        - 確かに
+        - '　'
+        - 命
+        - を
+        - 燃やしていた
+        ro:
+        - ano
+        - hita
+        - ano
+        - ko
+        - wa
+        - tashika ni
+        - ''
+        - inochi
+        - o
+        - moyashiteita
+        ww:
+        - w: that
+          d: あの
+        - w: day
+          d: 日
+        - w: that
+          d: あの
+        - w: child
+          d: 子
+        - w: ''
+          d: は
+        - w: surely
+          d: 確かに
+        - ''
+        - w: life
+          d: 命
+        - w: ''
+          d: を
+        - w: burning
+          d: 燃やしていた
+        - d: あの日あの子は確かに　命を燃やしていた
+      - ol:
+        - いま
+        - でも
+        - そう
+        - '　'
+        - この
+        - 心臓
+        ro:
+        - ima
+        - demo
+        - sō
+        - ''
+        - kono
+        - shinzō
+        ww:
+        - w: now
+          d: いま
+        - w: even
+          d: でも
+        - w: sush
+          d: そう
+        - ''
+        - w: this
+          d: この
+        - w: heart
+          d: 心臓
+        - d: いまでもそう　この心臓
+      - ol:
+        - 幾星霜
+        - '　'
+        - 燻ってしまった
+        - 理想
+        ro:
+        - ikuseisō
+        - ''
+        - ibutte shimatta
+        - risō
+        ww:
+        - w: many months and years​
+          d: 幾星霜
+        - ''
+        - w: have been smoldering
+          d: 燻ってしまった
+        - w: ideals
+          d: 理想
+        - d: 幾星霜　燻ってしまった理想
+      - ol:
+        - 情熱
+        - の
+        - 火
+        - を
+        - また
+        - 灯して
+        ro:
+        - jōnetsu
+        - no
+        - hi
+        - o
+        - mata
+        - tomoshite
+        ww:
+        - w: passion
+          d: 情熱
+        - w: "'s"
+          d: の
+        - w: fire
+          d: 火
+        - w: ''
+          d: を
+        - w: again
+          d: また
+        - w: light (action)
+          d: 灯して
+        - d: 情熱の火をまた灯して
+    - lines:
+      - ol:
+        - マリンスノウ
+        - '　'
+        - 夢
+        - を
+        - 叫ぼうよ
+        ro:
+        - marin sunō
+        - ''
+        - yume
+        - o
+        - sakebō yo
+        ww:
+        - w: marine snow
+          d: マリンスノウ
+        - ''
+        - w: dream
+          d: 夢
+        - w: ''
+          d: を
+        - w: let's shout
+          d: 叫ぼうよ
+        - d: マリンスノウ　夢を叫ぼうよ
+      - ol:
+        - 透明
+        - で
+        - 深い
+        - 海の底
+        - に
+        - 隠した
+        ro:
+        - t mei
+        - de
+        - fukai
+        - uminosoko
+        - kakushita
+        ww:
+        - w: transparent
+          d: 透明
+        - w: in
+          d: で
+        - w: deep
+          d: 深い
+        - w: sea
+          d: 海
+        - w: "'s"
+          d: の
+        - w: bottom
+          d: 底
+        - w: in
+          d: に
+        - w: hid
+          d: 隠した
+        - d: 透明で深い海の底に隠した
+      - ol:
+        - 少女
+        - の
+        - 想い
+        - が
+        ro:
+        - shōjo
+        - no
+        - omai
+        - ga
+        ww:
+        - w: girl
+          d: 少女
+        - w: "'s"
+          d: の
+        - w: feelings
+          d: 想い
+        - w: ''
+          d: が
+        - d: 少女の想いが
+    - lines:
+      - ol:
+        - この
+        - 世界
+        - の
+        - '　'
+        - この
+        - 光
+        - が
+        ro:
+        - kono
+        - sekai
+        - no
+        - ''
+        - kono
+        - hikari
+        - ga
+        ww:
+        - w: this
+          d: この
+        - w: world
+          d: 世界
+        - w: "'s"
+          d: の
+        - ''
+        - w: this
+          d: この
+        - w: light
+          d: 光
+        - w: ''
+          d: が
+        - d: この世界の　この光が
+      - ol:
+        - ひととき
+        - の
+        - 存在
+        - だったとしても
+        ro:
+        - hitotoki
+        - no
+        - sonzai
+        - datta to shite mo
+        ww:
+        - w: brief time
+          d: ひととき
+        - w: "'s"
+          d: の
+        - w: existence
+          d: 存在
+        - w: Even if it was
+          d: だったとしても
+        - d: ひとときの候在だったとしても
+      - ol:
+        - その
+        - 煌めき
+        - を
+        - 求めて
+        - は
+        ro:
+        - sono
+        - kirameki
+        - o
+        - motomete
+        - wa
+        ww:
+        - w: that
+          d: その
+        - w: sparkle
+          d: 煌めき
+        - w: ''
+          d: を
+        - w: searching for
+          d: 求めて
+        - w: ''
+          d: は
+        - d: その煌めきを求めては
+      - ol:
+        - 旅
+        - を
+        - 続けている
+        - んだろう
+        ro:
+        - tabi
+        - o
+        - tsuzukete iru
+        - n darō
+        ww:
+        - w: journey
+          d: 旅
+        - w: ''
+          d: を
+        - w: continuing
+          d: 続けている
+        - w: I guess
+          d: んだろう
+        - d: 旅を続けているんだろう
+

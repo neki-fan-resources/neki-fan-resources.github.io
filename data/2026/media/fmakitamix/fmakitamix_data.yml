@@ -1,3 +1,27 @@
+- display:
+    media:
+      year: 2026
+      id: fmakitamix
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  youtubevideo: EVHGjlAS3t8
+                lines:
+                - line:
+                  - text: NEK! discusses Kanade turning 20 later this year.
+                - line:
+                  - text: Additionally, Hika provided details regarding the upcoming shows in the Tohoku region and introduced the song "OOAK."
+    part-of:
+      media:
+        year: 2026
+        id: fmakitamix
+
 - localimage:
     media:
       year: 2026
@@ -58,6 +82,20 @@
     date: 2026-02-13
     text:
     - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmakitamix
+
+- youtubevideo:
+    id: EVHGjlAS3t8
+    label: NEK!'s comment
+    info: English-subtitled
+    published-date: 2026-02-22
+    context:
+    - media:
+        year: 2026
+        id: fmakitamix
     part-of:
       media:
         year: 2026

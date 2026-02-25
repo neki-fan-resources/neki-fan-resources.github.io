@@ -124,6 +124,8 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: tMfA47U4p9k
+                - youtubeshort: 1v5z59HYB4c
                 - youtubeshort: 7LsZB3CQSRg
                 - youtubeshort: OEYklTvEBak
     part-of:
@@ -1230,6 +1232,21 @@
         id: 2ndtokyo1
 
 - youtubeshort:
+    id: 1v5z59HYB4c
+    label: On stage
+    info: studio audio
+    published-date: 2026-02-21
+    context:
+    - song: jumping
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- youtubeshort:
     id: 7LsZB3CQSRg
     label: On stage
     info: studio audio
@@ -1282,6 +1299,21 @@
         year: 2026
         id: 2ndtokyo1
     - song: gimmick
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo1
+
+- youtubeshort:
+    id: tMfA47U4p9k
+    label: On stage
+    info: studio audio
+    published-date: 2026-02-25
+    context:
+    - song: ooak
+    - show:
+        year: 2026
+        id: 2ndtokyo1
     part-of:
       show:
         year: 2026

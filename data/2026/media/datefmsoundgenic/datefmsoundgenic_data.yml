@@ -1,0 +1,64 @@
+- display:
+    media:
+      year: 2026
+      id: datefmsoundgenic
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  youtubevideo: fjLuT1PGyaI
+                lines:
+                - line:
+                  - text: NEK! discusses the show the band will perform in Sendai as part of the band national tour.
+                - line:
+                  - text: Hika concludes the segment by introducing the song "Get Over."
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic
+
+- webimage:
+    domain: radiko.jp
+    page: 10002278
+    id: flyer
+    label: Flyer
+    published-date: 2026-02-26
+    url: 'https://program-static.cf.radiko.jp/o4df4px56t.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: radiko.jp
+        id: 10002278
+
+- webpage:
+    domain: radiko.jp
+    id: 10002278
+    label: Radiko page
+    published-date: 2026-02-26
+    url: 'https://radiko.jp/r_seasons/10002278'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic
+
+- youtubevideo:
+    id: fjLuT1PGyaI
+    label: NEK!'s comment
+    info: English-subtitled
+    published-date: 2026-02-27
+    context:
+    - media:
+        year: 2026
+        id: datefmsoundgenic
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic
+

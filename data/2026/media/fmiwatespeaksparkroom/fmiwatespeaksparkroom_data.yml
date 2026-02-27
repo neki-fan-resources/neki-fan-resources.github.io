@@ -1,0 +1,64 @@
+- display:
+    media:
+      year: 2026
+      id: fmiwatespeaksparkroom
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  youtubevideo: mc9VYvKh_L4
+                lines:
+                - line:
+                  - text: NEK! discusses the local noodle specialties the band members would try if visiting Iwate and the two shows the band will perform in the Tohoku region.
+                - line:
+                  - text: Hika concludes the segment by introducing the song "MAZE."
+    part-of:
+      media:
+        year: 2026
+        id: fmiwatespeaksparkroom
+
+- webimage:
+    domain: fmii.co.jp
+    page: index
+    id: logo
+    label: Logo
+    published-date: 2026-02-26
+    url: 'https://www.fmii.co.jp/wp-content/themes/fmiiWP/images/logo_e.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmii.co.jp
+        id: index
+
+- webpage:
+    domain: fmii.co.jp
+    id: index
+    label: Main page
+    published-date: 2026-02-26
+    url: 'https://www.fmii.co.jp/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: fmiwatespeaksparkroom
+
+- youtubevideo:
+    id: mc9VYvKh_L4
+    label: NEK!'s comment
+    info: English-subtitled
+    published-date: 2026-02-27
+    context:
+    - media:
+        year: 2026
+        id: fmiwatespeaksparkroom
+    part-of:
+      media:
+        year: 2026
+        id: fmiwatespeaksparkroom
+

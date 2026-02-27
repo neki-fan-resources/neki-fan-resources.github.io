@@ -1,0 +1,22 @@
+mediaaudio:
+  year: 2026
+  id: fmiwatespeaksparkroom
+  cover-image:
+    webimage:
+      domain: fmii.co.jp
+      page: index
+      id: logo
+  radio: FM Iwate
+  show: Speak Spark ROOM
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-02-26
+  program: 'https://www.fmii.co.jp/youcanradio/index.html'
+  part-of:
+    group:
+      id: media
+      group: 2026

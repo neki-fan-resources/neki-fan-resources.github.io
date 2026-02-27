@@ -1,0 +1,22 @@
+mediaaudio:
+  year: 2026
+  id: datefmsoundgenic
+  cover-image:
+    webimage:
+      domain: radiko.jp
+      page: 10002278
+      id: flyer
+  radio: Date fm
+  show: SOUND GENIC
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-02-26
+  program: 'https://datefm.jp/pgm/genic/'
+  part-of:
+    group:
+      id: media
+      group: 2026

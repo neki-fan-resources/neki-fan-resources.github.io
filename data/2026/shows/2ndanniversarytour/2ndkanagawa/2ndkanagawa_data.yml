@@ -1,0 +1,220 @@
+- postx:
+    id: 2026925741292839329
+    account: nekiband_jp
+    label: Low tickets
+    published-date: 2026-02-26
+    text: |-
+      💫🗾全国ツアー🗾💫
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      2/28 (土) ＠神奈川・横浜BAYSIS
+      今週末開催🔥
+      
+      DAY2・横浜BAYSISのチケット受付は
+      【本日2/26(木)】まで⚠️
+      
+      チケット残り少なくなっておりますのでお早めに💨
+      ご来場お待ちしております🎪
+      
+      🔗https://note.com/nekiband_jp/n/nb295fbe586ca
+      
+      #NEKI
+    translation: |-
+      💫🗾National Tour🗾💫
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      2/28 (Sat) @ Kanagawa・Yokohama BAYSIS
+      Held this weekend🔥
+      
+      Ticket registration for DAY 2・Yokohama BAYSIS is
+      Until 【Today 2/26 (Thu)】⚠️
+      
+      Tickets are running low, so please get yours early💨
+      We look forward to seeing you there🎪
+      
+      🔗https://note.com/nekiband_jp/n/nb295fbe586ca
+      
+      #NEKI
+    image:
+    - HCEVEmUaMA4kqcR
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postx:
+    id: 2026933828049318063
+    account: coco_102
+    label: Low tickets
+    published-date: 2026-02-27
+    text: |-
+      初の全国ツアー第二の地は、、、横浜BAYSIS！！
+      なんとチケット残りわずか⚠️
+      
+      どんどんレベルアップするNEK!をお見逃しなく👀🔥
+      今週末開催です！お待ちしてます！！
+    translation: |-
+      The second location of our first national tour is... Yokohama BAYSIS!!
+      Surprisingly, only a few tickets remain⚠️
+      
+      Don't miss NEK! as we keep leveling up👀🔥
+      It's happening this weekend! We're waiting for you!!
+    image:
+    - HCEdj_IaMAEexDU
+    part-of:
+      postx: 2026925741292839329
+
+- postx:
+    id: 2027310607029207129
+    account: cure_bass_baka
+    label: Tomorrow
+    published-date: 2026-02-27
+    text: |-
+      明日横浜でねー！
+    translation: |-
+      See you in Yokohama tomorrow!
+    image:
+    - HCJ0PAFbEAA0FyP
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postx:
+    id: 2027322328162689148
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-02-27
+    text: |-
+      2/28 (土) ＠神奈川・横浜BAYSIS
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      明日、全国ツアーDAY2 開催🔥
+      
+      前売りチケット
+      🎊THANK YOU SOLD OUT🎊
+      
+      横浜でお待ちしております！
+      
+      ▼明日の詳細📝
+      https://note.com/nekiband_jp/n/nb295fbe586ca
+      
+      ▼他10会場前売チケット一般発売中🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      2/28 (Sat) @ Kanagawa・Yokohama BAYSIS
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      Tomorrow, National Tour DAY 2 will be held🔥
+      
+      Advance Tickets
+      🎊THANK YOU SOLD OUT🎊
+      
+      We'll be waiting for you in Yokohama!
+      
+      ▼Details for tomorrow📝
+      https://note.com/nekiband_jp/n/nb295fbe586ca
+      
+      ▼Advance tickets for 10 other venues now on general sale🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HCJ-VQAaQAAH1Qt
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postx:
+    id: 2027343804341289447
+    account: natsu08_guitar
+    label: Thank you sold out
+    published-date: 2026-02-27
+    text: |-
+      ツアー２日目！横浜！！
+      ソールドありがとうございます！！！
+      初日に続いてソールドということで、とっても嬉しいです！
+      ギアあげていくぞぉぉ🔥🔥
+      
+      みなさんと明日会場でお会いできること楽しみにしております！
+      ２日目もよろしくどうぞ❤️‍🔥❤️‍🔥
+    translation: |-
+      Tour Day 2! Yokohama!!
+      Thank you for the sell-out!!!
+      Following the first day, another sell-out makes me so happy!
+      We're gonna shift into high gear🔥🔥
+      
+      Looking forward to seeing everyone at the venue tomorrow!
+      Best regards for Day 2 too❤️‍🔥❤️‍🔥
+    image:
+    - HCKScIuasAAKH_2
+    part-of:
+      postx: 2027322328162689148
+
+- postximage:
+    post: 2026925741292839329
+    id: HCEVEmUaMA4kqcR
+    label: Poster
+    published-date: 2026-02-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2026925741292839329
+
+- postximage:
+    post: 2026933828049318063
+    id: HCEdj_IaMAEexDU
+    label: Backstage
+    published-date: 2026-02-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndanniversaryevent
+    todo: double check show
+    part-of:
+      postx: 2026933828049318063
+
+- postximage:
+    post: 2027310607029207129
+    id: HCJ0PAFbEAA0FyP
+    label: Leading to the show
+    published-date: 2026-02-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027310607029207129
+
+- postximage:
+    post: 2027322328162689148
+    id: HCJ-VQAaQAAH1Qt
+    label: Poster sold out
+    published-date: 2026-02-27
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027322328162689148
+
+- postximage:
+    post: 2027343804341289447
+    id: HCKScIuasAAKH_2
+    label: Leading to the show
+    published-date: 2026-02-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027343804341289447
+

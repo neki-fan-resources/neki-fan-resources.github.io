@@ -654,7 +654,7 @@
 - postxvideo:
     post: 1920746869560430820
     id: 86e746a8-fd09-4141-979d-524ced4fa2f0
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-05-09
     cover: 1920746671652188160/img/cVITx_SpHeb9T00E.jpg
@@ -778,8 +778,7 @@
 
 - youtubeshort:
     id: CBPR9cp2urk
-    label: Live
-    info: from the crowd
+    label: On stage
     published-date: 2025-05-07
     context:
     - song: dreams

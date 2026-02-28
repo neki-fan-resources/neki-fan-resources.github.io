@@ -1,0 +1,14 @@
+- group:
+    id: band_promo
+    label: Band promo
+
+- youtubeshort:
+    id: aQbW8ymy3cY
+    label: What song are you listening to?
+    info: Natsu, Dreams !!!!
+    published-date: 2025-04-27
+    context:
+    - song: dreams
+    part-of:
+      group: band_promo
+

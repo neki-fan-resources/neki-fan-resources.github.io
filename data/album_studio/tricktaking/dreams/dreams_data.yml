@@ -1,3 +1,214 @@
+- display:
+    song: dreams
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: 0YlW7T5fVZ4
+                - youtubevideo: _Oac92XPkyo
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1903390047459770711
+                    video: 01
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: KtH0us6dPH4
+                - postxvideo:
+                    post: 1967554049408135190
+                    video: 01
+                - postxvideo:
+                    post: 1952355401271480375
+                    video: 01
+                - postxvideo:
+                    post: 1953710557393195152
+                    video: 01
+                - postxvideo:
+                    post: 1941695982032617731
+                    video: 01
+                - postxvideo:
+                    post: 1943937653193543886
+                    video: 01
+                - youtubeshort: u9-z9XkhpVw
+                - postxvideo:
+                    post: 1933082505084809657
+                    video: 01
+                - youtubeshort: CBPR9cp2urk
+                - postxvideo:
+                    post: 1920746869560430820
+                    video: 86e746a8-fd09-4141-979d-524ced4fa2f0
+                - postxvideo:
+                    post: 1911633089014731008
+                    video: 01
+                - postxvideo:
+                    post: 1903384727689761129
+                    video: 01
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1950563193366954288
+                    video: 01
+                - postxvideo:
+                    post: 1948333854063841769
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: w-tn1Dj8KUs
+                - youtubeshort: 5UNdo6bif-o
+                - youtubeshort: ib_vEcMxjCg
+                - youtubeshort: qQznYrBRzx0
+                - youtubeshort: SCponaBgD8U
+                - youtubeshort: xv6kbJrnKfk
+                - youtubeshort: ecPrF0wxFyU
+                - youtubeshort: QcmApJ-dFgE
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: Exy1-GoxGls
+                - youtubeshort: NbwbMT30zDc
+                - youtubeshort: 2S64RS8McUU
+    - lyricsblock: '-'
+    - basicblock:
+        id: livevideo
+        label: Live Video
+        sections:
+        - basicsection:
+            label: Live Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: _Oac92XPkyo
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 6
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1868989699446260040
+                    image: Ge_5YQ1bwAMEUka
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 3
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1868264750905446879
+                    video: 01
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: 0YlW7T5fVZ4
+            - multimediasubsection:
+                label: Reaction
+                multimedia:
+                - youtubeshort: n8e278VpxBo
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DG0aE4Kp5sC
+                    image: 1
+                - postinstagramimage:
+                    post: DG0aE4Kp5sC
+                    image: 2
+                - postinstagramimage:
+                    post: DG0aE4Kp5sC
+                    image: 7
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DG0aE4Kp5sC
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DG0aE4Kp5sC
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DG0aE4Kp5sC
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DG0aE4Kp5sC
+                    image: 6
+                - postximage:
+                    post: 1897498888921342444
+                    image: GlVFBh7a4AQgG9E
+                - postinstagramimage:
+                    post: DG0aE4Kp5sC
+                    image: 8
+            - multimediasubsection:
+                label: Filming
+                multimedia:
+                - youtubeshort: zT_P-TfmG5w
+                - youtubeshort: MMCK7gW62zU
+                - youtubeshort: OEAXjTTVgzU
+                - youtubeshort: rnvVMueRDCk
+                - youtubeshort: Ejlq5EiRWO4
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1896939044342481315
+                    video: 01
+    - basicblock:
+        id: community
+        label: Community
+        sections:
+        - basicsection:
+            label: SkyLuc
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: SyMp6mHnAug
+                - youtubevideo: _3igE_ASgEE
+    part-of:
+      song: dreams
+
 - lyrics:
     id: main
     song: dreams
@@ -771,6 +982,156 @@
         image: Gf9DBuxb0AAbeCQ
 
 - postx:
+    id: 1899396797149356382
+    account: nekiband_jp
+    label: 30k views
+    published-date: 2025-03-11
+    text: |-
+      "Dreams!!!!"
+      Official Music Video
+      
+      30,000 VIEWS THANK YOU💭
+      
+      https://youtu.be/0YlW7T5fVZ4?si=KiVjjYozmP5obCPJ
+      
+      #NEKI
+    image:
+    - GlwDTXHasAAp_Y4
+    part-of:
+      song: dreams
+
+- postx:
+    id: 1899432271826112969
+    account: coco_102
+    label: 30k views
+    published-date: 2025-03-11
+    text: |-
+      Dreams!!!! MV 3万回再生突破しました🎉
+      (もう間もなく4万！)
+      
+      本当にありがとうございます！！
+      見所満載でキャッチーなこのMusic Videoがこれからもたくさんの人に愛されますように🌈
+    translation: |-
+      Dreams!!!! MV has surpassed 30,000 views 🎉
+      (And it’s almost at 40,000!)
+      
+      Thank you so much!!
+      I hope this catchy Music Video, which is full of highlights, will continue to be loved by many people 🌈
+    image:
+    - GlwjlGiagAA09cH
+    part-of:
+      postx: 1899396797149356382
+
+- postx:
+    id: 1899803191417676287
+    account: 46_hikaa
+    label: 30k views
+    published-date: 2025-03-12
+    text: |-
+      「Dreams!!!!」 Official Music Video
+      もう4万回再生越えたね👀✨
+      
+      皆様、ありがとうございます⸜🙌🏻⸝‍💕
+      
+      まだまだ！ここからどんどん！
+      多くの人にNEK!の音楽が届きますように!!
+    translation: |-
+      "Dreams!!!!" Official Music Video
+      It's already surpassed 40,000 views 👀✨
+      
+      Thank you, everyone ⸜🙌🏻⸝‍💕
+      
+      Not done yet! More and more from here!
+      I hope NEK!'s music reaches many people!!
+    image:
+    - Gl107ojXEAAmULi
+    part-of:
+      postx: 1899396797149356382
+
+- postx:
+    id: 1902190826362659121
+    account: natsu08_guitar
+    label: 50k views
+    published-date: 2025-03-19
+    text: |-
+      おはよー！！☀️
+      “Dreams!!!!” 5万回突破ありがとう〜🫶🏻（もう6万回行ってた😳）
+      ってなわけでお約束のオフショット！
+      遅くなってしまったァァ🙇🏻‍♀️ｽﾏﾅｲ
+      ライブでも欠かせない曲！
+      これからもみんなの掛け声ライブで聞かせてくださいね🫶🏻
+      
+      https://youtu.be/0YlW7T5fVZ4?si=4JX0gj1U-V5CI1bN
+    translation: |-
+      Morning!! ☀️
+      Thank you for over 50k views on “Dreams!!!!” 〜🫶🏻 (It’s already hit 60k 😳)
+      So, here are the promised off-shots!
+      Sorry it took so long 🙇🏻‍♀️MY BAD
+      This song is essential at our lives!
+      Please keep letting us hear your chants during the shows 🫶🏻
+      
+      https://youtu.be/0YlW7T5fVZ4?si=4JX0gj1U-V5CI1bN
+    image:
+    - GmXwd3XaUAA5lqh
+    - GmXwd3cb0AATojm
+    - GmXwd3Ya8AENknq
+    - GmXwd3WbQAAqOD8
+    part-of:
+      song: dreams
+
+- postx:
+    id: 1903390047459770711
+    account: 46_hikaa
+    label: Playthrough
+    info: Hika
+    published-date: 2025-03-22
+    text: |-
+      叶いそうな気がする！
+      #NEKI #ネキ界隈 #拡散中
+    translation: |-
+      I feel like it's going to come true!
+      #NEKI #NEKIFandom #SpreadingTheWord
+    video:
+    - 01
+    todo: redo 1 year video with this
+    part-of:
+      postxvideo:
+        post: 1903390047459770711
+        video: 01
+
+- postx:
+    id: 1905935712228364541
+    account: nekiband_jp
+    label: 100k views
+    published-date: 2025-03-29
+    text: |-
+      "Dreams!!!!"
+      Official Music Video
+      
+      100,000 VIEWS THANK YOU✨
+      
+      https://youtu.be/0YlW7T5fVZ4?si=tV3BWZ7eDtiws8Ol
+      
+      10万回再生を記念してMVリアクション動画を公開🎬
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      "Dreams!!!!"
+      Official Music Video
+      
+      100,000 VIEWS THANK YOU✨
+      
+      https://youtu.be/0YlW7T5fVZ4?si=tV3BWZ7eDtiws8Ol
+      
+      Releasing an MV reaction video to celebrate 100,000 views🎬
+      
+      #NEKI #Spreading #NEKICommunity
+    image:
+    - GnM-VwibcAAm4c_
+    part-of:
+      youtubeshort: n8e278VpxBo
+
+- postx:
     id: 1948333854063841769
     account: natsu08_guitar
     label: Dreams!!!! rehearsal
@@ -796,7 +1157,9 @@
     video:
     - 01
     part-of:
-      song: dreams
+      postxvideo:
+        post: 1948333854063841769
+        video: 01
 
 - postx:
     id: 1950563193366954288
@@ -815,7 +1178,9 @@
     - 01
     todo: before 1st zepp ?
     part-of:
-      song: dreams
+      postxvideo:
+        post: 1950563193366954288
+        video: 01
 
 - postx:
     id: 1951623320107114715
@@ -862,7 +1227,9 @@
     video:
     - 01
     part-of:
-      song: dreams
+      postxvideo:
+        post: 1961002624607785102
+        video: 01
 
 - postximage:
     post: 1860656200343502968
@@ -878,23 +1245,92 @@
 - postximage:
     post: 1868989699446260040
     id: Ge_5YQ1bwAMEUka
-    label: Live Video frame
-    published-date: 2026-01-28
+    label: On stage
+    published-date: 2024-12-17
     context:
     - song: dreams
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     part-of:
       postx: 1868989699446260040
 
 - postximage:
     post: 1897498888921342444
     id: GlVFBh7a4AQgG9E
-    label: MV cover
+    label: MV image
+    info: Hika
     published-date: 2025-03-06
     local-copy: true
     context:
     - song: dreams
     part-of:
       postx: 1897498888921342444
+
+- postximage:
+    post: 1899396797149356382
+    id: GlwDTXHasAAp_Y4
+    label: 30k views
+    published-date: 2025-03-11
+    part-of:
+      postx: 1899396797149356382
+
+- postximage:
+    post: 1899432271826112969
+    id: GlwjlGiagAA09cH
+    label: On set
+    info: Cocoro
+    published-date: 2025-03-11
+    part-of:
+      postx: 1899432271826112969
+
+- postximage:
+    post: 1899803191417676287
+    id: Gl107ojXEAAmULi
+    label: Behind-the-scenes
+    published-date: 2025-03-12
+    part-of:
+      postx: 1899803191417676287
+
+- postximage:
+    post: 1902190826362659121
+    id: GmXwd3WbQAAqOD8
+    label: Behind-the-scenes
+    published-date: 2025-03-19
+    part-of:
+      postx: 1902190826362659121
+
+- postximage:
+    post: 1902190826362659121
+    id: GmXwd3XaUAA5lqh
+    label: Behind-the-scenes
+    published-date: 2025-03-19
+    part-of:
+      postx: 1902190826362659121
+
+- postximage:
+    post: 1902190826362659121
+    id: GmXwd3Ya8AENknq
+    label: Editing
+    published-date: 2025-03-19
+    part-of:
+      postx: 1902190826362659121
+
+- postximage:
+    post: 1902190826362659121
+    id: GmXwd3cb0AATojm
+    label: Behind-the-scenes
+    published-date: 2025-03-19
+    part-of:
+      postx: 1902190826362659121
+
+- postximage:
+    post: 1905935712228364541
+    id: GnM-VwibcAAm4c_
+    label: 100k views
+    published-date: 2025-03-29
+    part-of:
+      postx: 1905935712228364541
 
 - postxvideo:
     post: 1868264750905446879
@@ -910,9 +1346,21 @@
 - postxvideo:
     post: 1896939044342481315
     id: 01
-    label: MV Teaser
+    label: Music Video Teaser
     published-date: 2025-03-04
     cover: 1896937675929821184/pu/img/3KFtDMeghJ75j7dj.jpg
+    context:
+    - song: dreams
+    part-of:
+      song: dreams
+
+- postxvideo:
+    post: 1903390047459770711
+    id: 01
+    label: Playthrough
+    info: Hika
+    published-date: 2025-03-22
+    cover: 1903389948247764992/img/GOh4Urw3hjM2oNjw.jpg
     context:
     - song: dreams
     part-of:
@@ -922,13 +1370,13 @@
     post: 1948333854063841769
     id: 01
     label: Rehearsal
-    info: from the solo, Natsu
+    info: Natsu
     published-date: 2025-07-24
     cover: 1948333660677251072/img/wDoQ8wtIjTp9gPJ5.jpg
     context:
     - song: dreams
     part-of:
-      postx: 1948333854063841769
+      song: dreams
 
 - postxvideo:
     post: 1950563193366954288
@@ -942,20 +1390,19 @@
         year: 2025
         id: 1stzepponeman
     part-of:
-      postx: 1950563193366954288
+      song: dreams
 
 - postxvideo:
     post: 1961002624607785102
     id: 01
-    label: Live
-    info: Natsu, multicam
+    label: On stage
+    info: Natsu, multi-show
     published-date: 2025-08-28
     cover: 1961002519607586816/img/NQPOewr1xZd9qEoZ.jpg
     context:
     - song: dreams
-    todo: which show ? TT tour Tokyo ?
     part-of:
-      postx: 1961002624607785102
+      song: dreams
 
 - postyoutube:
     id: UgkxQKc7C0ISVO2Q-n7kOhzCPRL5MkpkqlHT
@@ -989,10 +1436,18 @@
     part-of:
       song: dreams
 
+- update:
+    song: dreams
+    date: 2026-02-28
+    text:
+    - Refreshed and organized the videos and images
+    part-of:
+      song: dreams
+
 - youtubeshort:
     id: 2S64RS8McUU
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-04-26
     context:
     - song: dreams
@@ -1010,8 +1465,7 @@
 
 - youtubeshort:
     id: Ejlq5EiRWO4
-    label: Music Video
-    info: behind the scenes
+    label: Behind the scenes
     published-date: 2025-05-01
     context:
     - song: dreams
@@ -1039,8 +1493,7 @@
 
 - youtubeshort:
     id: MMCK7gW62zU
-    label: Music Video
-    info: behind the scenes
+    label: Behind the scenes
     published-date: 2025-03-10
     context:
     - song: dreams
@@ -1049,8 +1502,8 @@
 
 - youtubeshort:
     id: NbwbMT30zDc
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-08-02
     context:
     - song: dreams
@@ -1058,13 +1511,12 @@
       song: dreams
 
 - youtubeshort:
-    id: QcmApJ-dFgE
-    label: Promo
-    info: studio audio
-    published-date: 2025-02-07
+    id: OEAXjTTVgzU
+    label: Behind the scenes
+    info: Hika
+    published-date: 2025-05-12
     context:
     - song: dreams
-    todo: shibuya eggman ?
     part-of:
       song: dreams
 
@@ -1080,8 +1532,7 @@
 
 - youtubeshort:
     id: rnvVMueRDCk
-    label: Music Video
-    info: behind the scenes
+    label: Behind the scenes
     published-date: 2025-05-17
     context:
     - song: dreams
@@ -1090,8 +1541,8 @@
 
 - youtubeshort:
     id: zT_P-TfmG5w
-    label: Music Video
-    info: off-shot, Hika, Natsu
+    label: Behind the scenes
+    info: Hika, Natsu
     published-date: 2025-05-26
     context:
     - song: dreams
@@ -1106,16 +1557,4 @@
     - song: dreams
     part-of:
       song: dreams
-
-- youtubevideo:
-    id: Vh5saxbTlvE
-    label: Music Video Teaser
-    info: video deleted
-    published-date: 2025-03-04
-    context:
-    - song: dreams
-    part-of:
-      postxvideo:
-        post: 1896939044342481315
-        video: 01
 

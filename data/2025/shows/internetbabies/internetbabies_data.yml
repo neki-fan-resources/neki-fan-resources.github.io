@@ -447,9 +447,9 @@
     - 01
     todo: fan filming Dreams ?
     part-of:
-      show:
-        year: 2025
-        id: internetbabies
+      postxvideo:
+        post: 1952355401271480375
+        video: 01
 
 - postx:
     id: 1952670333594677367
@@ -769,7 +769,7 @@
 - postxvideo:
     post: 1952355401271480375
     id: 01
-    label: Live
+    label: On stage
     info: Kanade
     published-date: 2025-08-04
     cover: 1952354814060634112/img/h_F85nPHwBmCj9Yh.jpg
@@ -779,7 +779,9 @@
         id: internetbabies
     - song: dreams
     part-of:
-      postx: 1952355401271480375
+      show:
+        year: 2025
+        id: internetbabies
 
 - postxvideo:
     post: 1952670333594677367
@@ -818,7 +820,7 @@
 - postxvideo:
     post: 1953710557393195152
     id: 01
-    label: Live
+    label: On stage
     published-date: 2025-08-08
     cover: 1953710492889096192/img/kpF56FobeSZ9bi0k.jpg
     context:
@@ -830,6 +832,8 @@
       show:
         year: 2025
         id: internetbabies
+    reference:
+    - postx: 1953710557393195152
 
 - postxvideo:
     post: 1955576715851575746
@@ -937,7 +941,7 @@
 
 - youtubeshort:
     id: qQznYrBRzx0
-    label: Promo
+    label: On stage
     info: studio audio
     published-date: 2025-08-17
     context:

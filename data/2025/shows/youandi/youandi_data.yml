@@ -251,3 +251,18 @@
     part-of:
       postx: 1883412170689679481
 
+- youtubeshort:
+    id: QcmApJ-dFgE
+    label: On stage
+    info: studio audio
+    published-date: 2025-02-07
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+

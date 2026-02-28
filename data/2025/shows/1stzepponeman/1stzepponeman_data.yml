@@ -1571,7 +1571,7 @@
 - postxvideo:
     post: 1967554049408135190
     id: 01
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-09-25
     cover: 1967553924350803968/img/6BSuvIH52RB2hM6A.jpg
@@ -2506,8 +2506,8 @@
 
 - youtubeshort:
     id: ib_vEcMxjCg
-    label: Promo
-    info: encore, studio audio
+    label: On stage
+    info: studio audio, encore
     published-date: 2025-09-11
     context:
     - song: dreams

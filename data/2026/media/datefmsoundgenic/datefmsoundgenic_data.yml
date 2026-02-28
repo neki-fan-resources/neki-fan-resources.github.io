@@ -22,6 +22,19 @@
         year: 2026
         id: datefmsoundgenic
 
+- update:
+    media:
+      year: 2026
+      id: datefmsoundgenic
+    date: 2026-02-27
+    text:
+    - Added the comment
+    - Added subtitled video
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic
+
 - webimage:
     domain: radiko.jp
     page: 10002278

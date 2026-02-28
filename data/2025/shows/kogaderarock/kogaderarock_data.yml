@@ -303,6 +303,34 @@
       postx: 1910979741756399623
 
 - postx:
+    id: 1911633089014731008
+    account: coco_102
+    label: Dreams!!!! Cocoro-cam
+    published-date: 2025-04-14
+    text: |-
+      ひかっちが途中でファンサしに来てくれた✌🏻❤️
+      
+      Dreams!!!!はいつもみんなの声がしっかり聞こえるから嬉しい〜 自然と笑顔になっちゃう^^
+      
+      Zeppワンマンでもとびっきり大きな声聴かせてね！！
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Hikacchi came over to give some fan service in the middle ✌🏻❤️
+      
+      I'm so happy because I can always hear everyone's voices clearly during Dreams!!!!~ It naturally makes me smile^^
+      
+      Let me hear your extra big voices at the Zepp one-man too!!
+      
+      #NEKI #NowSpreading #NEKICircle
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1911633089014731008
+        video: 01
+
+- postx:
     id: 1914179728975823349
     account: coco_102
     label: Fool on stage
@@ -491,6 +519,23 @@
         id: kogaderarock
     part-of:
       postx: 1911004487399129107
+
+- postxvideo:
+    post: 1911633089014731008
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-04-14
+    cover: 1911632915626139648/img/3pfz41ID4LG6Qht2.jpg
+    context:
+    - song: dreams
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
 
 - postxvideo:
     post: 1914179728975823349

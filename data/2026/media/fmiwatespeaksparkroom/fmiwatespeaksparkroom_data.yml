@@ -22,6 +22,19 @@
         year: 2026
         id: fmiwatespeaksparkroom
 
+- update:
+    media:
+      year: 2026
+      id: fmiwatespeaksparkroom
+    date: 2026-02-27
+    text:
+    - Added the comment
+    - Added subtitled video
+    part-of:
+      media:
+        year: 2026
+        id: fmiwatespeaksparkroom
+
 - webimage:
     domain: fmii.co.jp
     page: index

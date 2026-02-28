@@ -1,0 +1,28 @@
+- group:
+    id: skyluc
+    label: SkyLuc
+    part-of:
+      group: community
+
+- youtubevideo:
+    id: SyMp6mHnAug
+    label: 1 year of videos
+    published-date: 2025-12-19
+    context:
+    - song: dreams
+    part-of:
+      group:
+        id: skyluc
+        group: community
+
+- youtubevideo:
+    id: _3igE_ASgEE
+    label: The couch cut
+    published-date: 2025-03-07
+    context:
+    - song: dreams
+    part-of:
+      group:
+        id: skyluc
+        group: community
+

@@ -341,9 +341,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: sendaimusicfuse
+      postxvideo:
+        post: 1943937653193543886
+        video: 01
 
 - postximage:
     post: 1933086980537225689
@@ -511,7 +511,7 @@
 - postxvideo:
     post: 1941695982032617731
     id: 01
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-07-06
     cover: 1941695853950881792/img/AjliwzCakCirv_a1.jpg
@@ -545,7 +545,7 @@
 - postxvideo:
     post: 1943937653193543886
     id: 01
-    label: Live
+    label: On stage
     info: Natsu
     published-date: 2025-07-12
     cover: 1943937556623855616/img/vB6J779FswTY0X47.jpg
@@ -555,7 +555,9 @@
         id: sendaimusicfuse
     - song: dreams
     part-of:
-      postx: 1943937653193543886
+      show:
+        year: 2025
+        id: sendaimusicfuse
 
 - youtubeshort:
     id: FRbyFkaf9-A
@@ -632,7 +634,7 @@
 
 - youtubeshort:
     id: ecPrF0wxFyU
-    label: Promo
+    label: On stage
     info: studio audio
     published-date: 2025-07-05
     context:

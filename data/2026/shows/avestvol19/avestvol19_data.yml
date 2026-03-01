@@ -1,3 +1,88 @@
+- display:
+    show:
+      year: 2026
+      id: avestvol19
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028010765064740993
+                    image: HCTxCPKbsAA2gtU
+                - postximage:
+                    post: 2027997395917934787
+                    image: HCTk3csbEAIIAbX
+                - postximage:
+                    post: 2027997395917934787
+                    image: HCTk3cvbEAARjNv
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028010765064740993
+                    image: HCTxCPMaAAAQTaN
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028056162734936370
+                    image: HCUaTI4aAAADaLP
+                - postximage:
+                    post: 2028010765064740993
+                    image: HCTxCPMbUAANE3H
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028010765064740993
+                    image: HCTxCPEaUAAApFh
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028056429354217608
+                    image: HCUakVoa8AAmFy8
+                - postximage:
+                    post: 2027997395917934787
+                    image: HCTk3cuasAA5vcs
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028056429354217608
+                    image: HCUakVeaMAAKhw1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028053414060716433
+                    image: HCUX0AzbYAA15pd
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028056162734936370
+                    image: HCUaTJDaIAA5FBu
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2028079247492067451
+                    image: HCUvUmJbQAAtGTV
+    - basicblock:
+        id: before
+        label: Before the show
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2022143709437919582
+                    video: 01
+    part-of:
+      show:
+        year: 2026
+        id: avestvol19
+
 - postx:
     id: 2017175957581300033
     account: Zephyren_
@@ -670,6 +755,7 @@
     post: 2028079247492067451
     id: HCUvUmJbQAAtGTV
     label: Backstage
+    info: Cocoro
     published-date: 2026-03-01
     context:
     - show:

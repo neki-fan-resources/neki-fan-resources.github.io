@@ -15,7 +15,7 @@ show:
       id: shows
       group: 2026
   multimedia:
-    video:
-    - postxvideo:
-        post: 2022143709437919582
-        video: 01
+    main:
+      postximage:
+        post: 2028010765064740993
+        image: HCTxCPKbsAA2gtU

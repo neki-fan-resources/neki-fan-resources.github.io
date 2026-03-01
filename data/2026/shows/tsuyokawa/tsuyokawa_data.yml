@@ -1,0 +1,73 @@
+- postx:
+    id: 2028062840817664094
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-03-01
+    text: |-
+      💫❤️‍🔥情報解禁❤️‍🔥💫
+      
+      6/5(金)開催
+      「TSUYOKAWA」
+      ＠ 京都MOJO
+      
+      NEK!の出演が決定💥
+      
+      ＜出演＞
+      セブンス・ベガ
+      NEK!
+      
+      ▼チケットは本日21:00〜受付開始🎫
+      https://tiget.net/events/457520
+      
+      #NEKI #セブンスベガ
+      @7th_Vega
+    translation: |-
+      💫❤️‍🔥Information Reveal❤️‍🔥💫
+      
+      Held on 6/5 (Fri)
+      "TSUYOKAWA"
+      @ Kyoto MOJO
+      
+      NEK!'s appearance has been confirmed💥
+      
+      <Lineup>
+      7th Vega
+      NEK!
+      
+      ▼Tickets are available starting today at 21:00🎫
+      https://tiget.net/events/457520
+      
+      #NEKI #7thVega
+      @7th_Vega
+    image:
+    - HCUgZoEa8AABKp4
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
+- postximage:
+    post: 2028062840817664094
+    id: HCUgZoEa8AABKp4
+    label: Poster
+    published-date: 2026-03-01
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2028062840817664094
+
+- update:
+    show:
+      year: 2026
+      id: tsuyokawa
+    date: 2026-03-01
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+

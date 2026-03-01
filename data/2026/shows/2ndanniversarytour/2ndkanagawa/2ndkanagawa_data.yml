@@ -1,3 +1,136 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndkanagawa
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: vrMBJB6XEJw
+                - youtubeshort: e98GTXBqxjw
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2027701696261198176
+                    image: HCPX75CbEAQw86x
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2027706351045251271
+                    image: HCPcLWvbEAA2hsk
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2027712474494210268
+                    image: HCPhvO2bsAAKYC-
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2027704855088009601
+                    image: HCPazr9bEAMTueY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2027705794993787272
+                    image: HCPbqwtbEAIgc0k
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DVUyFbOEgM_
+                    image: 1
+                - postximage:
+                    post: 2027712474494210268
+                    image: HCPhvO4aUAA8dHO
+                - postximage:
+                    post: 2027705794993787272
+                    image: HCPbqwsbEAEH7d5
+                - postximage:
+                    post: 2027701696261198176
+                    image: HCPX75CbEAADjII
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2027706351045251271
+                    image: HCPcLWybMAA5CI6
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2027712474494210268
+                    image: HCPhvO5bIAEKSPt
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postinstagram:
+    id: DVUyFbOEgM_
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-01
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 神奈川・横浜BAYSIS
+      
+      💥THANK YOU SOLD OUT💥
+      
+      全国ツアー2日目🫶✨
+      ご来場ありがとうございました！
+      
+      ▼NEXT ONE MAN▼
+      
+      3/15(日) @ 埼玉・HEAVEN'S ROCK さいたま新都心 VJ-3
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI #ネキミーム
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ Kanagawa・Yokohama BAYSIS
+      
+      💥THANK YOU SOLD OUT💥
+      
+      2nd day of the nationwide tour🫶✨
+      Thank you for coming!
+      
+      ▼NEXT ONE MAN▼
+      
+      3/15(Sun) @ Saitama・HEAVEN'S ROCK Saitama Shintoshin VJ-3
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI #NEKIMEME
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+    reference:
+    - postximage:
+        post: 2027701696261198176
+        image: HCPX75CbEAADjII
+    - postximage:
+        post: 2027701696261198176
+        image: HCPX75CbEAQw86x
+
+- postinstagramimage:
+    post: DVUyFbOEgM_
+    id: 1
+    label: Backstage
+    published-date: 2026-03-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVUyFbOEgM_
+
 - postx:
     id: 2026925741292839329
     account: nekiband_jp
@@ -156,6 +289,177 @@
     part-of:
       postx: 2027322328162689148
 
+- postx:
+    id: 2027701696261198176
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-02-28
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 神奈川・横浜BAYSIS
+      
+      💥ALL TICKETS SOLD OUT💥
+      
+      全国ツアー2日目🫶✨
+      ご来場ありがとうございました！
+      
+      ▼NEXT ONE MAN▼
+      
+      3/15(日) @ 埼玉・HEAVEN'S ROCK さいたま新都心 VJ-3
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ Kanagawa・Yokohama BAYSIS
+      
+      💥ALL TICKETS SOLD OUT💥
+      
+      2nd day of the nationwide tour🫶✨
+      Thank you for coming!
+      
+      ▼NEXT ONE MAN▼
+      
+      3/15(Sun) @ Saitama・HEAVEN'S ROCK Saitama Shintoshin VJ-3
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HCPX75CbEAADjII
+    - HCPX75CbEAQw86x
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postx:
+    id: 2027704855088009601
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-02-28
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 神奈川・横浜BAYSIS
+      ソールドアウトありがとうございました🌟
+      パンパンのフロアで前から後ろの方まで、盛り上がってくれて楽しかったし
+      声も最後までたくさん聞こえて嬉しくて
+      最高な2日目でした✌🏻
+      次は埼玉で会おーね！
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ Kanagawa・Yokohama BAYSIS
+      Thank you for the sold out show🌟
+      It was so much fun seeing the packed floor from the front all the way to the back getting hyped up
+      I was so happy to hear all your voices until the very end
+      It was the best 2nd day✌🏻
+      See you next time in Saitama!
+    image:
+    - HCPazr9bEAMTueY
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+    reference:
+    - postximage:
+        post: 2027701696261198176
+        image: HCPX75CbEAADjII
+
+- postx:
+    id: 2027705794993787272
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-02-28
+    text: |-
+      NEK!全国ツアー２日目！！横浜ー🔥
+      さいっこうに楽しかった！！
+      
+      パンッパンだったねー！
+      終始幸せでした！！！
+      みんなの笑顔も歌声も全部ちょー最高で、すごくパワーもらいました！！！
+      本当にありがとうございます🙇🏻‍♀️❤️‍🔥
+      
+      ツアー３日目は〜埼玉！！
+      よろしくお願いします！！
+    translation: |-
+      NEK! nationwide tour day 2!! Yokohama—🔥
+      It was the absolute best fun!!
+      
+      It was packed, wasn't it!
+      I was happy from beginning to end!!!
+      Everyone's smiles and singing voices were all super awesome, and I got so much power from it!!!
+      Thank you so much🙇🏻‍♀️❤️‍🔥
+      
+      The 3rd day of the tour is~ Saitama!!
+      Looking forward to seeing you there!!
+    image:
+    - HCPbqwsbEAEH7d5
+    - HCPbqwtbEAIgc0k
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postx:
+    id: 2027706351045251271
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-02-28
+    text: |-
+      全国ツアー2日目っ！
+      
+      @ 神奈川・横浜BAYSIS
+      ソールドアウトありがとうございます！
+      
+      楽しすぎてホントあっという間やったぁ！
+      みんな最高の笑顔やったよっ✩.*
+    translation: |-
+      Nationwide tour day 2!
+      
+      @ Kanagawa・Yokohama BAYSIS
+      Thank you for the sold out show!
+      
+      It was so much fun, it really went by in the blink of an eye!
+      Everyone had the best smiles!✩.*
+    image:
+    - HCPcLWvbEAA2hsk
+    - HCPcLWybMAA5CI6
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postx:
+    id: 2027712474494210268
+    account: coco_102
+    label: Thank you
+    published-date: 2026-02-28
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      
+      横浜BAYSISありがとうございました✌🏻🩷
+      途中白目向きそうになるくらい最高にアツかった！！大感謝です！！
+      ライブっていいなーと改めて素直に思った！
+      みんなも同じ気持ちだったら嬉しいな〜
+      
+      次は埼玉！！お楽しみに🫶🏻
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      
+      Thank you so much, Yokohama BAYSIS✌🏻🩷
+      It was so intensely hot I almost passed out!! Huge thanks!!
+      It honestly made me realize all over again how great live shows are!
+      I'd be happy if everyone feels the same way~
+      
+      Next up is Saitama!! Look forward to it🫶🏻
+    image:
+    - HCPhvO4aUAA8dHO
+    - HCPhvO5bIAEKSPt
+    - HCPhvO2bsAAKYC-
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
 - postximage:
     post: 2026925741292839329
     id: HCEVEmUaMA4kqcR
@@ -217,4 +521,169 @@
         id: 2ndkanagawa
     part-of:
       postx: 2027343804341289447
+
+- postximage:
+    post: 2027701696261198176
+    id: HCPX75CbEAADjII
+    label: On stage
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027701696261198176
+
+- postximage:
+    post: 2027701696261198176
+    id: HCPX75CbEAQw86x
+    label: On stage
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027701696261198176
+
+- postximage:
+    post: 2027704855088009601
+    id: HCPazr9bEAMTueY
+    label: On stage
+    info: Kanade
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027704855088009601
+
+- postximage:
+    post: 2027705794993787272
+    id: HCPbqwsbEAEH7d5
+    label: On stage
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027705794993787272
+
+- postximage:
+    post: 2027705794993787272
+    id: HCPbqwtbEAIgc0k
+    label: On stage
+    info: Natsu
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027705794993787272
+
+- postximage:
+    post: 2027706351045251271
+    id: HCPcLWvbEAA2hsk
+    label: On stage
+    info: Hika
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027706351045251271
+
+- postximage:
+    post: 2027706351045251271
+    id: HCPcLWybMAA5CI6
+    label: Backstage
+    info: Hika
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027706351045251271
+
+- postximage:
+    post: 2027712474494210268
+    id: HCPhvO2bsAAKYC-
+    label: On stage
+    info: Cocoro
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027712474494210268
+
+- postximage:
+    post: 2027712474494210268
+    id: HCPhvO4aUAA8dHO
+    label: On stage
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027712474494210268
+
+- postximage:
+    post: 2027712474494210268
+    id: HCPhvO5bIAEKSPt
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postx: 2027712474494210268
+
+- update:
+    show:
+      year: 2026
+      id: 2ndkanagawa
+    date: 2026-03-01
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- youtubeshort:
+    id: e98GTXBqxjw
+    label: Getting off stage
+    published-date: 2026-02-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- youtubeshort:
+    id: vrMBJB6XEJw
+    label: Digest movie
+    published-date: 2026-03-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    - song: clockup
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
 

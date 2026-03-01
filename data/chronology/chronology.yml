@@ -6,7 +6,7 @@ contentpage:
       id: manekineko_cover
   label: Chronology
   start-date: 2024-02-01
-  end-date: 2026-05-31
+  end-date: 2026-06-30
   description: The main events in the NEK! story. Song and EP releases, shows, tours, interviews, ...
   isLargeMarker:
   - album
@@ -32,6 +32,9 @@ contentpage:
   - videomedia
   - writtenmedia
   content:
+  - show:
+      year: 2026
+      id: tsuyokawa
   - show:
       year: 2026
       id: musafes

@@ -19,6 +19,9 @@
                 - postximage:
                     post: 2027701696261198176
                     image: HCPX75CbEAQw86x
+                - postinstagramimage:
+                    post: DVYOSJ0krXB
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -26,6 +29,9 @@
                     image: HCPcLWvbEAA2hsk
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DVXmdsIEvgS
+                    image: 1
                 - postximage:
                     post: 2027712474494210268
                     image: HCPhvO2bsAAKYC-
@@ -42,6 +48,9 @@
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
+                    post: DVXmdsIEvgS
+                    image: 4
+                - postinstagramimage:
                     post: DVUyFbOEgM_
                     image: 1
                 - postximage:
@@ -55,14 +64,36 @@
                     image: HCPX75CbEAADjII
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DVYOSJ0krXB
+                    image: 2
+                - postinstagramimage:
+                    post: DVYOSJ0krXB
+                    image: 3
+                - postinstagramimage:
+                    post: DVYOSJ0krXB
+                    image: 4
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2027706351045251271
                     image: HCPcLWybMAA5CI6
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DVXmdsIEvgS
+                    image: 5
                 - postximage:
                     post: 2027712474494210268
                     image: HCPhvO5bIAEKSPt
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DVYAthPj5QM
+                    image: 1
+                - postinstagramimage:
+                    post: DVYAthPj5QM
+                    image: 3
     part-of:
       show:
         year: 2026
@@ -119,6 +150,158 @@
         post: 2027701696261198176
         image: HCPX75CbEAQw86x
 
+- postinstagram:
+    id: DVXmdsIEvgS
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-03-02
+    text: |-
+      2026.02.28
+      ⁡
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026" Day2
+      ⁡横浜BAYSISにお越しくださりありがとうございました🚢
+      
+      いやー！アツかったーーーー！！笑
+      初日がかなりの盛り上がりだったのであれを越えられるかな…と少し不安に思っていたのですが、始まった瞬間何の心配もいらなかったなと思いました😂
+      完全ソールドのぎゅーぎゅーに詰まったフロアと共に作り上げたライブならではの一体感が終始気持ちよかったです🔥
+      ずっと一緒に歌ってくれて、MCでみんなの近くに行ったときもたくさんリアクションしてくれて、みなさんの素敵な笑顔と歓声からたくさんのパワーをいただきました！！
+      
+      純粋にライブっていいな〜と改めて実感するライブができたと思う！みんなのおかげです！本当にありがとう！！
+      
+      最近はちょくちょく横浜でもライブすることが増えてきて、神奈川県出身としてはとても嬉しいですヽ(^^)ﾉ
+      これからも全国各地でいろんな思い出を作っていきたいな〜
+      
+      次は3/15(日)埼玉HEAVEN'S ROCKさいたま新都心VJ-3！
+      初埼玉ライブ！めちゃんこ楽しみです🫶🏻
+      ⁡
+      #NEKI #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.02.28
+      ⁡
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026" Day2
+      ⁡Thank you so much for coming to Yokohama BAYSIS🚢
+      
+      Man! It was so hot!! lol
+      Since the first day was such a huge blast, I was a little worried if we could top it... but the moment it started, I realized there was absolutely nothing to worry about😂
+      The sense of unity created throughout the show with the packed, completely sold-out floor felt amazing🔥
+      You sang along the whole time, gave so many reactions when I got close to you during the MC, and I received so much power from everyone's wonderful smiles and cheers!!
+      
+      I think we had a show where I truly felt once again how great live performances are! It's all thanks to everyone! Thank you so much!!
+      
+      Recently we've been playing in Yokohama more often, and as a Kanagawa native, it makes me very happyヽ(^^)ﾉ
+      I want to keep making many memories all across the country~
+      
+      Next is 3/15 (Sun) Saitama HEAVEN'S ROCK Saitama Shintoshin VJ-3!
+      Our first Saitama live! I'm super looking forward to it🫶🏻
+      ⁡
+      #NEKI #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+    reference:
+    - postximage:
+        post: 2027712474494210268
+        image: HCPhvO2bsAAKYC-
+    - postinstagramimage:
+        post: DVYOSJ0krXB
+        image: 1
+
+- postinstagram:
+    id: DVYAthPj5QM
+    account: nekiband_jp
+    label: Kanade's report
+    published-date: 2026-03-02
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 神奈川・横浜BAYSIS⁡
+      ⁡
+      改めて、全国ツアー2日目もソールドありがとうございました！
+      いい汗かいたー！
+      セトリは1日目とかなり変えてみました。
+      あと髪の毛色入れてなくてめちゃ金髪でした👱‍♀️
+      次のライブまでにはまた青入れる！
+      （1枚目の写真はトイカメラ？で撮ってもらった📷💭）
+      
+      次は3/15埼玉HEAVEN'S ROCK🌟
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ Kanagawa Yokohama BAYSIS⁡
+      ⁡
+      Once again, thank you for the sold out show on day 2 of the nationwide tour!
+      I worked up a good sweat!
+      We changed the setlist quite a bit from day 1.
+      Also, I hadn't put color in my hair so it was super blonde👱‍♀️
+      I'll put blue back in before the next live!
+      (The first photo was taken with a toy camera?📷💭)
+      
+      Next is 3/15 Saitama HEAVEN'S ROCK🌟
+      
+      #NEKI
+    image:
+    - 1
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+    reference:
+    - postximage:
+        post: 2027704855088009601
+        image: HCPazr9bEAMTueY
+
+- postinstagram:
+    id: DVYOSJ0krXB
+    account: 46_hikaa
+    label: Hika's photos
+    published-date: 2026-03-02
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      2026.02.28（Sat)
+      
+      @ 横浜BAYSIS
+      
+      #neki
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+    reference:
+    - postximage:
+        post: 2027712474494210268
+        image: HCPhvO4aUAA8dHO
+
+- postinstagram:
+    id: DVYasm-knnc
+    account: 46_hikaa
+    label: Photos
+    published-date: 2026-03-02
+    text: |-
+      -
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+    reference:
+    - postximage:
+        post: 2027706351045251271
+        image: HCPcLWvbEAA2hsk
+    - postximage:
+        post: 2027706351045251271
+        image: HCPcLWybMAA5CI6
+
 - postinstagramimage:
     post: DVUyFbOEgM_
     id: 1
@@ -130,6 +313,122 @@
         id: 2ndkanagawa
     part-of:
       postinstagram: DVUyFbOEgM_
+
+- postinstagramimage:
+    post: DVXmdsIEvgS
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVXmdsIEvgS
+
+- postinstagramimage:
+    post: DVXmdsIEvgS
+    id: 4
+    label: Backstage
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVXmdsIEvgS
+
+- postinstagramimage:
+    post: DVXmdsIEvgS
+    id: 5
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVXmdsIEvgS
+
+- postinstagramimage:
+    post: DVYAthPj5QM
+    id: 1
+    label: Backstage
+    info: Kanade
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVYAthPj5QM
+
+- postinstagramimage:
+    post: DVYAthPj5QM
+    id: 3
+    label: Backstage
+    info: Bass
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    todo: bass name ?
+    part-of:
+      postinstagram: DVYAthPj5QM
+
+- postinstagramimage:
+    post: DVYOSJ0krXB
+    id: 1
+    label: On stage
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVYOSJ0krXB
+
+- postinstagramimage:
+    post: DVYOSJ0krXB
+    id: 2
+    label: Backstage
+    info: Hika, Kanade
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVYOSJ0krXB
+
+- postinstagramimage:
+    post: DVYOSJ0krXB
+    id: 3
+    label: Backstage
+    info: Cocoro, Hika
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVYOSJ0krXB
+
+- postinstagramimage:
+    post: DVYOSJ0krXB
+    id: 4
+    label: Backstage
+    info: Natsu, Hika
+    published-date: 2026-03-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DVYOSJ0krXB
 
 - postx:
     id: 2026925741292839329
@@ -655,6 +954,18 @@
     date: 2026-03-01
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- update:
+    show:
+      year: 2026
+      id: 2ndkanagawa
+    date: 2026-03-02
+    text:
+    - More pictures from the show
     part-of:
       show:
         year: 2026

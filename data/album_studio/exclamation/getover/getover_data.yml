@@ -1,3 +1,262 @@
+- display:
+    song: getover
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: IeBks9yGO4A
+                - youtubevideo: TWbLqba3oag
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: 7Neu9jJk-04
+                - postxvideo:
+                    post: 1914986201485807985
+                    video: 01
+                - postxvideo:
+                    post: 1902607201648439307
+                    video: 01
+                - postxvideo:
+                    post: 1915372962762678766
+                    video: 01
+            - multimediasubsection:
+                label: Recording
+                multimedia:
+                - postximage:
+                    post: 1770067246448275734
+                    image: GJCKxZbaYAAbbsT
+                - youtubeshort: A0xZ3iTWHTc
+                - postxvideo:
+                    post: 1770318613091602634
+                    video: 01
+                - youtubeshort: zwtr-8a_JlY
+                - youtubeshort: CAvOmtdiHwc
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2003117289814835576
+                    video: 01
+                - postxvideo:
+                    post: 1976295615287132520
+                    video: 01
+                - postxvideo:
+                    post: 2011772300887273544
+                    video: 01
+                - youtubeshort: lFPBSexcRHM
+                - postxvideo:
+                    post: 1950849248574263303
+                    video: 01
+                - postxvideo:
+                    post: 1947952383473954991
+                    video: 01
+                - postxvideo:
+                    post: 1957813871802216509
+                    video: 01
+                - postxvideo:
+                    post: 1941062054896660964
+                    video: 01
+                - postxvideo:
+                    post: 1938863381467013260
+                    video: 01
+                - postxvideo:
+                    post: 1941384970066653472
+                    video: 01
+                - postxvideo:
+                    post: 1929389485147721772
+                    video: 01
+                - postxvideo:
+                    post: 1917865243080024340
+                    video: 56ad6b95-81f9-4c28-9588-416eda80eec0
+                - youtubeshort: EzpPj7pVf6Y
+                - postxvideo:
+                    post: 1902679460371186133
+                    video: 01
+                - youtubeshort: qFiKgQ5mNgQ
+                - postxvideo:
+                    post: 1863871086141865998
+                    video: 01
+                - postxvideo:
+                    post: 1839289051259744538
+                    video: 01
+                - postxvideo:
+                    post: 1772570854037361045
+                    video: 01
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1958382817307750717
+                    video: 01
+                - postxvideo:
+                    post: 1956194665641992559
+                    video: 01
+                - youtubeshort: NMkyE7_4wBQ
+                - postxvideo:
+                    post: 1938475589318644015
+                    video: 01
+                - youtubeshort: BCMkj_OhBmo
+                - postxvideo:
+                    post: 1756877181698154611
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: hSCPj-QyOSM
+                - youtubeshort: Dl778ia4NYU
+                - youtubeshort: 5KJ2jh2-2_Q
+                - youtubeshort: 5UzWBF1b-Q8
+                - youtubeshort: Irt9PmVz_iw
+                - youtubeshort: VXh9xsPO1uE
+                - youtubeshort: QyDd3xQf88o
+                - youtubeshort: E86WMvLxCms
+                - youtubeshort: ChYZQj2s1Ik
+                - youtubeshort: bRHcOHmtXhU
+                - youtubeshort: PkRKMkZCiIE
+                - youtubeshort: TF3IDIX41Q0
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: ucrOIJfESpo
+                - youtubeshort: 7zWTswPcTo0
+                - youtubeshort: 2ccoTpKr1zw
+                - youtubeshort: xsnKWL8af5w
+                - youtubeshort: nLW93jahxIU
+                - youtubeshort: bJG9HXd0aUI
+                - youtubeshort: mlR0Jeyhw8Y
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: TWbLqba3oag
+            - multimediasubsection:
+                label: Reaction
+                multimedia:
+                - youtubeshort: CUgtBUOxL1w
+            - multimediasubsection:
+                label: Uncut shots
+                multimedia:
+                - youtubeshort: 2hdeizLF6LI
+                - youtubeshort: yzKuHzF-YNk
+                - youtubeshort: R5GI-cuX2xM
+                - youtubeshort: nDKETw7zIX4
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: z2KKJtwO2Ig
+                - youtubeshort: yPb_nnAC_io
+                - youtubeshort: nh6S9mF-9Co
+                - youtubeshort: RMbkWV9zpog
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1782695971169993118
+                    image: GL1oiNdaMAERNNG
+            - multimediasubsection:
+                label: Behind the scenes
+                multimedia:
+                - youtubeshort: 1VU7-KQyOvg
+                - postxvideo:
+                    post: 1915596660648141313
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2003059716516352264
+                    image: G8xMMAIaEAA30yU
+                - postximage:
+                    post: 1915355946655899782
+                    image: GpS2EtcbAAAy4dw
+                - postinstagramimage:
+                    post: DEHsnt3pfwc
+                    image: 1
+                - postximage:
+                    post: 1893534653031579985
+                    image: GkcvudzWAAAp4_I
+                - postximage:
+                    post: 2003125205439549880
+                    image: G8yHwK9bIAM0YXL
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1781986268097991165
+                    video: 01
+    - basicblock:
+        id: livevideo
+        label: Live Video
+        sections:
+        - basicsection:
+            label: Live Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: IeBks9yGO4A
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 7
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 6
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1918636722516373576
+                    image: GqBc0HhbYAA2VDy
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 2
+    - basicblock:
+        id: community
+        label: Community
+        sections:
+        - basicsection:
+            label: SkyLuc
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: WxzKCnDHcOw
+    part-of:
+      song: getover
+
 - lyrics:
     id: main
     song: getover
@@ -226,7 +485,9 @@
     video:
     - 01
     part-of:
-      song: getover
+      postxvideo:
+        post: 1756877181698154611
+        video: 01
 
 - postx:
     id: 1770318613091602634
@@ -285,6 +546,34 @@
         video: 01
 
 - postx:
+    id: 1782695971169993118
+    account: nekiband_jp
+    label: Starts streaming at midnight
+    published-date: 2024-04-23
+    text: |-
+      NEK! 初のオリジナル曲
+      「Get Over」
+      
+      本日24:00(明日0:00)配信スタート💨
+      
+      https://lnk.to/HVGeas
+      
+      #NEKI
+    translation: |-
+      NEK!'s first original song
+      "Get Over"
+      
+      Starts streaming today at 24:00 (tomorrow at 0:00) 💨
+      
+      https://lnk.to/HVGeas
+      
+      #NEKI
+    image:
+    - GL1oiNdaMAERNNG
+    part-of:
+      song: getover
+
+- postx:
     id: 1782787160690786614
     account: nekiband_jp
     label: Now on streaming
@@ -313,6 +602,164 @@
     - GL27d42bUAA--t9
     part-of:
       song: getover
+
+- postx:
+    id: 1893534653031579985
+    account: 46_hikaa
+    label: Photo from MV filming
+    published-date: 2025-02-23
+    text: |-
+      Get OverのMV撮影の時の懐かしの写真🍒
+    translation: |-
+      Nostalgic photo from when we were filming the "Get Over" MV 🍒
+    image:
+    - GkcvudzWAAAp4_I
+    part-of:
+      song: getover
+
+- postx:
+    id: 1902607201648439307
+    account: 46_hikaa
+    label: Playthrough
+    info: Hika
+    published-date: 2025-03-20
+    text: |-
+      どうせ前にしか道は無い！
+      #NEKI #ネキ界隈  #拡散中
+    translation: |-
+      Either way, the only path is forward!
+      #NEKI #NEKIKaiwai #SpreadingTheWord
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1902607201648439307
+        video: 01
+
+- postx:
+    id: 1914986201485807985
+    account: cure_bass_baka
+    label: Get Over raw
+    published-date: 2025-04-23
+    text: |-
+      大絶賛スランプなうで動画が撮れなかったので、
+      生音でGet Over弾いたのをのせます！！
+      
+       #拡散中  #ネキ界隈  #NEKI
+    translation: |-
+      I'm in the middle of a huge slump right now and couldn't film a proper video, so here's a clip of me playing "Get Over" with raw audio!!
+      
+      #NowSpreading #NEKICircle #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1914986201485807985
+        video: 01
+
+- postx:
+    id: 1915338460073804082
+    account: nekiband_jp
+    label: MV reaction
+    published-date: 2025-04-24
+    text: |-
+      初オリジナル曲「Get Over」をリリースしてから今日で1年💥
+      
+      日頃から応援いただきありがとうございます！
+      
+      1周年の記念にNEK!初MV完成時の初見リアクションをお届けします🎥
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      It’s been exactly one year today since we released our first original song, "Get Over"💥
+      
+      Thank you all so much for your constant support!
+      
+      To celebrate the 1st anniversary, here is our first-time reaction when we saw the finished version of NEK!'s first MV🎥
+      
+      #NEKI #NowSpreading #NEKICircle
+    part-of:
+      youtubeshort: CUgtBUOxL1w
+
+- postx:
+    id: 1915355946655899782
+    account: cure_bass_baka
+    label: Behind the scenes
+    published-date: 2025-04-24
+    text: |-
+      NEK!始まりの曲、『Get Over』をリリースしてから1年経ったよーーーー！！
+      いつもNEK!の曲をたくさん愛してくれてありがとうございます🙌🏻
+      
+      これはMV撮った日のメロンパン頬張るベース馬鹿🍈🍞
+    translation: |-
+      It’s been a whole year since we released "Get Over," the song that started it all for NEK!————!!
+      Thank you so much for always showing so much love to NEK!’s music🙌🏻
+      
+      Here’s a photo of this "bass idiot" stuffing her face with melon bread on the day we shot the MV🍈🍞
+    image:
+    - GpS2EtcbAAAy4dw
+    part-of:
+      postx: 1915338460073804082
+
+- postx:
+    id: 1915372962762678766
+    account: natsu08_guitar
+    label: Get Over / NEK!
+    published-date: 2025-04-24
+    text: |-
+      Get Over /NEK!
+      
+      本日でNEK!初のMV、”Get Over”公開からちょうど一年！
+      ということでワーミーペダルを使ったギターソロ🎸🎸
+      NEK!にとってとっても大切な曲😌❤️‍🔥
+      これからもこの曲をたくさん愛してくださると嬉しいです🫶🏻
+      
+      #ネキ界隈 #拡散中 #NEKI  #getover
+    translation: |-
+      Get Over / NEK!
+      
+      Today marks exactly one year since the release of NEK!'s first MV, "Get Over"!
+      To celebrate, here’s the guitar solo using the Whammy pedal🎸🎸
+      This is such a precious song for NEK!😌❤️‍🔥
+      We'd be so happy if you continue to show this song lots of love🫶🏻
+      
+      #NEKICircle #NowSpreading #NEKI #getover
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1915372962762678766
+        video: 01
+
+- postx:
+    id: 1915596660648141313
+    account: natsu08_guitar
+    label: 1 year since MV release
+    published-date: 2025-04-25
+    text: |-
+      改めまして！
+      Get Over リリースから1年経ちました！
+      この曲で多くの人がNEK!を知ってくださった気がします❤️‍🔥
+      
+      そして再生回数40万回ありがとうございます！
+      リリース当初は10万回達成がまず夢の話だと思っていました…感謝でいっぱいです🙇🏻‍♀️
+      これからもよろしくね🫶🏻
+      
+      MV撮影時のかなでんでてきたかわい
+    translation: |-
+      Once again!
+      It’s been one year since the release of "Get Over"!
+      I feel like this is the song that helped so many people discover NEK!❤️‍🔥
+      
+      Also, thank you for 400,000 views!
+      When it was first released, reaching 100,000 felt like a distant dream... I’m filled with gratitude🙇🏻‍♀️
+      Please keep supporting us 🫶🏻
+      
+      Found a clip of Kanaden during the MV shoot—so cute
+    video:
+    - 01
+    part-of:
+      postx: 1915338460073804082
 
 - postx:
     id: 1918636722516373576
@@ -377,7 +824,9 @@
     video:
     - 01
     part-of:
-      song: getover
+      postxvideo:
+        post: 1938475589318644015
+        video: 01
 
 - postx:
     id: 1956194665641992559
@@ -406,31 +855,6 @@
         video: 01
 
 - postx:
-    id: 1957813871802216509
-    account: natsu08_guitar
-    label: Get Over on stage
-    published-date: 2025-08-19
-    text: |-
-      Zeppまであと１１日……！
-      
-      早くみんなの声が聞きたいー！！！
-      声枯らす準備、できてる？📣
-      
-      #ネキ界隈 #拡散中
-    translation: |-
-      11 days until Zepp......!
-      
-      I want to hear everyone's voices soon!!!
-      Are you ready to scream your lungs out?📣
-      
-      #NekiVibes #SpreadingTheWord
-    video:
-    - 01
-    todo: which show, sendai ?
-    part-of:
-      song: getover
-
-- postx:
     id: 1958382817307750717
     account: natsu08_guitar
     label: Get Over rehearsal
@@ -450,7 +874,9 @@
     video:
     - 01
     part-of:
-      song: getover
+      postxvideo:
+        post: 1958382817307750717
+        video: 01
 
 - postx:
     id: 2003059716516352264
@@ -556,6 +982,16 @@
       postx: 2003122686164451580
 
 - postximage:
+    post: 1782695971169993118
+    id: GL1oiNdaMAERNNG
+    label: MV image
+    published-date: 2024-04-23
+    context:
+    - song: getover
+    part-of:
+      postx: 1782695971169993118
+
+- postximage:
     post: 1782787160690786614
     id: GL27d42bUAA--t9
     label: Cover
@@ -567,9 +1003,32 @@
       postx: 1782787160690786614
 
 - postximage:
+    post: 1893534653031579985
+    id: GkcvudzWAAAp4_I
+    label: Behind the scenes
+    info: Hika
+    published-date: 2025-02-23
+    context:
+    - song: getover
+    part-of:
+      postx: 1893534653031579985
+
+- postximage:
+    post: 1915355946655899782
+    id: GpS2EtcbAAAy4dw
+    label: Behind the scenes
+    info: Kanade
+    published-date: 2025-04-24
+    context:
+    - song: getover
+    part-of:
+      postx: 1915355946655899782
+
+- postximage:
     post: 1918636722516373576
     id: GqBc0HhbYAA2VDy
-    label: Natsu
+    label: MV image
+    info: Natsu
     published-date: 2025-05-03
     context:
     - song: getover
@@ -592,7 +1051,7 @@
 - postximage:
     post: 2003059716516352264
     id: G8xMMAIaEAA30yU
-    label: Band
+    label: Behind the scenes
     published-date: 2025-12-22
     context:
     - song: getover
@@ -603,7 +1062,8 @@
 - postximage:
     post: 2003125205439549880
     id: G8yHwK9bIAM0YXL
-    label: Natsu
+    label: Behind the scenes
+    info: Natsu
     published-date: 2025-12-22
     context:
     - song: getover
@@ -622,7 +1082,7 @@
     - song: getover
     todo: redownload ?
     part-of:
-      postx: 1756877181698154611
+      song: getover
 
 - postxvideo:
     post: 1770318613091602634
@@ -650,6 +1110,53 @@
       youtubevideo: maFSgVE2vXg
 
 - postxvideo:
+    post: 1902607201648439307
+    id: 01
+    label: Playthrough
+    info: Hika
+    published-date: 2025-03-20
+    cover: 1902607125337272325/img/DHkmN8aMG7E_T-4L.jpg
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- postxvideo:
+    post: 1914986201485807985
+    id: 01
+    label: Playthrough
+    info: raw audio
+    published-date: 2025-04-23
+    cover: 1914986055490826240/img/-Lxe72_f6ELD9DtT.jpg
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- postxvideo:
+    post: 1915372962762678766
+    id: 01
+    label: Playthrough
+    published-date: 2025-04-24
+    cover: 1915372843535392774/img/xGYHyF28M-Guxvrc.jpg
+    context:
+    - song: getover
+    part-of:
+      song: getover
+
+- postxvideo:
+    post: 1915596660648141313
+    id: 01
+    label: Behind the scenes
+    info: Kanade
+    published-date: 2025-04-25
+    cover: 1915596593103060992/img/Z7tXjYyx7wkqIdeI.jpg
+    context:
+    - song: getover
+    part-of:
+      postx: 1915596660648141313
+
+- postxvideo:
     post: 1938475589318644015
     id: 01
     label: test gopro
@@ -659,7 +1166,7 @@
     context:
     - song: getover
     part-of:
-      postx: 1938475589318644015
+      song: getover
 
 - postxvideo:
     post: 1956194665641992559
@@ -670,19 +1177,11 @@
     cover: 1956194419071438848/img/0xt5ooWjeZYYZ1Eb.jpg
     context:
     - song: getover
+    - show:
+        year: 2025
+        id: 1stzepponeman
     part-of:
       song: getover
-
-- postxvideo:
-    post: 1957813871802216509
-    id: 01
-    label: Live
-    published-date: 2025-08-19
-    cover: 1957813790210445312/img/LMBCErFTb75g6hVD.jpg
-    context:
-    - song: getover
-    part-of:
-      postx: 1957813871802216509
 
 - postxvideo:
     post: 1958382817307750717
@@ -692,8 +1191,11 @@
     cover: 1958382687322062848/img/ZbzKpjE1873at3hl.jpg
     context:
     - song: getover
+    - show:
+        year: 2025
+        id: 1stzepponeman
     part-of:
-      postx: 1958382817307750717
+      song: getover
 
 - postxvideo:
     post: 2003117289814835576
@@ -731,10 +1233,18 @@
         post: 1782787160690786614
         image: GL27d42bUAA--t9
 
+- update:
+    song: getover
+    date: 2026-03-02
+    text:
+    - Refreshed and organized the videos and images
+    part-of:
+      song: getover
+
 - youtubeshort:
     id: 1VU7-KQyOvg
-    label: Music Video
-    info: behind the scenes, packing up
+    label: Behind the scenes
+    info: packing up
     published-date: 2025-05-18
     context:
     - song: getover
@@ -743,8 +1253,8 @@
 
 - youtubeshort:
     id: 2ccoTpKr1zw
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-06-25
     context:
     - song: getover
@@ -763,8 +1273,8 @@
 
 - youtubeshort:
     id: 7zWTswPcTo0
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-07-15
     context:
     - song: getover
@@ -773,8 +1283,7 @@
 
 - youtubeshort:
     id: A0xZ3iTWHTc
-    label: Release
-    info: making CDs by hand
+    label: Get Over CDs
     published-date: 2025-07-24
     context:
     - song: getover
@@ -814,21 +1323,10 @@
 - youtubeshort:
     id: NMkyE7_4wBQ
     label: Rehearsal
-    info: intro, Hika, Natsu, Kanade
+    info: Hika, Natsu, Kanade, intro
     published-date: 2025-07-17
     context:
     - song: getover
-    part-of:
-      song: getover
-
-- youtubeshort:
-    id: QyDd3xQf88o
-    label: Promo
-    info: studio audio
-    published-date: 2025-08-22
-    context:
-    - song: getover
-    todo: which show ?
     part-of:
       song: getover
 
@@ -873,10 +1371,14 @@
 
 - youtubeshort:
     id: mlR0Jeyhw8Y
-    label: Promo
+    label: Recording
+    info: studio audio
     published-date: 2024-03-17
     context:
     - song: getover
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
     part-of:
       song: getover
 
@@ -892,12 +1394,14 @@
 
 - youtubeshort:
     id: nLW93jahxIU
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2024-07-18
     context:
     - song: getover
-    todo: associate to show
+    - show:
+        year: 2024
+        id: 1stonemanlive
     part-of:
       song: getover
 
@@ -942,8 +1446,8 @@
 
 - youtubeshort:
     id: xsnKWL8af5w
-    label: Promo
-    info: rehearsal room, studio audio, Kanade
+    label: Rehearsal
+    info: studio audio, Kanade
     published-date: 2025-05-25
     context:
     - song: getover

@@ -16,6 +16,17 @@
         group: community
 
 - youtubevideo:
+    id: WxzKCnDHcOw
+    label: 1 year of videos
+    published-date: 2025-04-23
+    context:
+    - song: getover
+    part-of:
+      group:
+        id: skyluc
+        group: community
+
+- youtubevideo:
     id: _3igE_ASgEE
     label: The couch cut
     published-date: 2025-03-07

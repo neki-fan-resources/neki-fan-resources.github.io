@@ -70,6 +70,30 @@
         year: 2025
         id: fm802infinityradio
 
+- postx:
+    id: 1902679460371186133
+    account: coco_102
+    label: Get Over Cocoro cam
+    published-date: 2025-03-20
+    text: |-
+      Cocoro豆知識☝🏻🩵
+      
+      実は、Get Overがいちばんしっぽ揺れます🫢
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Cocoro Trivia☝🏻🩵
+      
+      Actually, Get Over makes my tail wag the most🫢
+      
+      #NEKI #SpreadingTheWord #NEKIFandom
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1902679460371186133
+        video: 01
+
 - postximage:
     post: 1898350113669652494
     id: GlhLSvnbEAEpAZA
@@ -117,6 +141,23 @@
         id: tricktakingtourosaka
     part-of:
       postx: 1898352550006460752
+
+- postxvideo:
+    post: 1902679460371186133
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-03-20
+    cover: 1902679128681398272/img/eIJAwL5LpLBwN0wZ.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourosaka
 
 - youtubeshort:
     id: CCDQdwNBias

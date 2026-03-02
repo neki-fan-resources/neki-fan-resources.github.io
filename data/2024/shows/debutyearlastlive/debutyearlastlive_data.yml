@@ -515,7 +515,6 @@
       "Get Over" Official Live Video OUT NOW💥
       #NEKI #拡散中 #ネキ界隈 #ガールズバンド
     image:
-    - 1
     - 2
     - 3
     - 4
@@ -526,6 +525,10 @@
       show:
         year: 2024
         id: debutyearlastlive
+    reference:
+    - postximage:
+        post: 1918636722516373576
+        image: GqBc0HhbYAA2VDy
 
 - postinstagram:
     id: DK_d4uupGv-
@@ -803,20 +806,6 @@
         id: debutyearlastlive
     part-of:
       postinstagram: DGGQ5ZSTWs2
-
-- postinstagramimage:
-    post: DJO4LpSJkzO
-    id: 1
-    label: On stage
-    info: Natsu
-    published-date: 2025-05-04
-    context:
-    - show:
-        year: 2024
-        id: debutyearlastlive
-    - song: getover
-    part-of:
-      postinstagram: DJO4LpSJkzO
 
 - postinstagramimage:
     post: DJO4LpSJkzO
@@ -1594,7 +1583,7 @@
 
 - youtubeshort:
     id: spUo9sWqs48
-    label: Official Live Video
+    label: Live Video
     published-date: 2025-05-04
     context:
     - song: getover

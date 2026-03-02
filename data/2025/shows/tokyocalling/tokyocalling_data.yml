@@ -904,12 +904,14 @@
 
 - youtubeshort:
     id: Irt9PmVz_iw
-    label: Promo
+    label: On stage
     info: studio audio, Kanade
     published-date: 2025-10-07
     context:
     - song: getover
-    todo: which show ? tokyo calling ?
+    - show:
+        year: 2025
+        id: tokyocalling
     part-of:
       show:
         year: 2025

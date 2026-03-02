@@ -953,7 +953,8 @@
 - postxvideo:
     post: 1863871086141865998
     id: 01
-    label: Cocoro-cam
+    label: On stage
+    info: Cocoro
     published-date: 2024-12-03
     cover: 1863870821871353856/pu/img/LbKNcBLCX_CNyWMF.jpg
     context:
@@ -1177,7 +1178,7 @@
 
 - youtubeshort:
     id: HfIoK8Qdv5I
-    label: Live Video
+    label: On stage
     published-date: 2024-12-20
     context:
     - song: dreams
@@ -1262,7 +1263,7 @@
 
 - youtubeshort:
     id: qFiKgQ5mNgQ
-    label: Live
+    label: On stage
     published-date: 2025-01-02
     context:
     - song: getover

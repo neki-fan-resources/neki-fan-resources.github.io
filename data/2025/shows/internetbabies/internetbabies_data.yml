@@ -775,7 +775,7 @@
 - postxvideo:
     post: 1950849248574263303
     id: 01
-    label: Live
+    label: On stage
     info: Kanade
     published-date: 2025-07-31
     cover: 1950848800610017280/img/PzFmOa1SDrjdAn15.jpg
@@ -901,6 +901,21 @@
         year: 2025
         id: internetbabies
     - song: maze
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- youtubeshort:
+    id: QyDd3xQf88o
+    label: On stage
+    info: studio audio
+    published-date: 2025-08-22
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: internetbabies
     part-of:
       show:
         year: 2025

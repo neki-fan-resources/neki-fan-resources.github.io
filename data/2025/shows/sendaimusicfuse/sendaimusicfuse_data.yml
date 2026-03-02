@@ -345,6 +345,33 @@
         post: 1943937653193543886
         video: 01
 
+- postx:
+    id: 1957813871802216509
+    account: natsu08_guitar
+    label: Get Over on stage
+    published-date: 2025-08-19
+    text: |-
+      Zeppまであと１１日……！
+      
+      早くみんなの声が聞きたいー！！！
+      声枯らす準備、できてる？📣
+      
+      #ネキ界隈 #拡散中
+    translation: |-
+      11 days until Zepp......!
+      
+      I want to hear everyone's voices soon!!!
+      Are you ready to scream your lungs out?📣
+      
+      #NekiVibes #SpreadingTheWord
+    video:
+    - 01
+    todo: which show, sendai ?
+    part-of:
+      postxvideo:
+        post: 1957813871802216509
+        video: 01
+
 - postximage:
     post: 1933086980537225689
     id: GtOzLB3bMAAkuR1
@@ -450,7 +477,8 @@
 - postxvideo:
     post: 1938863381467013260
     id: 01
-    label: Live
+    label: 'On stage '
+    info: Cocoro
     published-date: 2025-06-28
     cover: 1938863218115387392/img/2G4E7ni5SM3ACuk_.jpg
     context:
@@ -483,8 +511,8 @@
 - postxvideo:
     post: 1941062054896660964
     id: 01
-    label: Live
-    info: Natsu solo
+    label: On stage
+    info: Natsu, solo
     published-date: 2025-07-04
     cover: 1941061974755811330/img/NLb-6ldVo-_O1zee.jpg
     context:
@@ -500,7 +528,7 @@
 - postxvideo:
     post: 1941384970066653472
     id: 01
-    label: Live
+    label: On stage
     info: Hika
     published-date: 2025-07-05
     cover: 1941384859848671233/img/tCuNrkDCAUV5O9wb.jpg
@@ -560,6 +588,22 @@
         year: 2025
         id: sendaimusicfuse
     - song: dreams
+    part-of:
+      show:
+        year: 2025
+        id: sendaimusicfuse
+
+- postxvideo:
+    post: 1957813871802216509
+    id: 01
+    label: On stage
+    published-date: 2025-08-19
+    cover: 1957813790210445312/img/LMBCErFTb75g6hVD.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2025
+        id: sendaimusicfuse
     part-of:
       show:
         year: 2025

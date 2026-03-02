@@ -102,6 +102,31 @@
         year: 2024
         id: girlsgirlsgirls
 
+- postx:
+    id: 1826859497824158049
+    account: LUMiRiSE_oto
+    label: See you again
+    published-date: 2024-08-23
+    text: |-
+      NEKiさんと。。（´ω｀）💙
+      
+      タイミングあわずめんばーかけとりますが☺︎
+      
+      また来週もよろしゅうでつ！
+    translation: |-
+      With NEKi-san... ('ω`)💙
+      
+      The timing was off so a member is missing ☺︎
+      
+      See you again next week!
+    image:
+    - GVpPBX1bgAQ0f2o
+    - GVpPBX4bgAEz8tV
+    part-of:
+      show:
+        year: 2024
+        id: girlsgirlsgirls
+
 - postximage:
     post: 1808470843703664913
     id: GRj6pTubQAACieD
@@ -136,6 +161,7 @@
     - show:
         year: 2024
         id: girlsgirlsgirls
+    todo: context to tour
     part-of:
       postx: 1826512086530490829
 
@@ -162,4 +188,32 @@
         id: girlsgirlsgirls
     part-of:
       postx: 1826624665139511742
+
+- postximage:
+    post: 1826859497824158049
+    id: GVpPBX1bgAQ0f2o
+    label: Backstage
+    info: Kanade, Natsu, Cocoro, Lumirise
+    published-date: 2024-08-23
+    context:
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
+    todo: exact name of band members
+    part-of:
+      postx: 1826859497824158049
+
+- postximage:
+    post: 1826859497824158049
+    id: GVpPBX4bgAEz8tV
+    label: Backstage
+    info: Kanade, Lumirise
+    published-date: 2024-08-23
+    context:
+    - show:
+        year: 2024
+        id: girlsgirlsgirls
+    todo: exact name of band members
+    part-of:
+      postx: 1826859497824158049
 

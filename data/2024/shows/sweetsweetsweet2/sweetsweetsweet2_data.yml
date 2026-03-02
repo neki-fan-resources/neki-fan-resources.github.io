@@ -36,6 +36,33 @@
         year: 2024
         id: sweetsweetsweet2
 
+- postx:
+    id: 1854526414764245160
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-11-07
+    text: |-
+      Sweet!Sweet!Sweet!
+      @ 下北沢SHELTER
+      
+      ありがとうございました💝
+      
+      #NEKI
+    translation: |-
+      Sweet!Sweet!Sweet!
+      @ Shimokitazawa SHELTER
+      
+      Thank you very much💝
+      
+      #NEK!
+    image:
+    - GbyZ8JebIAAgPCQ
+    - GbyZ8JebAAAuzkn
+    part-of:
+      show:
+        year: 2024
+        id: sweetsweetsweet2
+
 - postximage:
     post: 1854440185460879405
     id: GbxLhFfbIAA1wRw
@@ -48,4 +75,28 @@
         id: sweetsweetsweet2
     part-of:
       postx: 1854440185460879405
+
+- postximage:
+    post: 1854526414764245160
+    id: GbyZ8JebAAAuzkn
+    label: Sidewalk board
+    published-date: 2024-11-07
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet2
+    part-of:
+      postx: 1854526414764245160
+
+- postximage:
+    post: 1854526414764245160
+    id: GbyZ8JebIAAgPCQ
+    label: On stage
+    published-date: 2024-11-07
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet2
+    part-of:
+      postx: 1854526414764245160
 

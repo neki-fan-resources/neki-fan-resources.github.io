@@ -18,7 +18,7 @@ show:
       id: shows
       group: 2024
   multimedia:
-    additional:
-    - postxvideo:
-        post: 1765981020535333110
-        video: 01
+    main:
+      postximage:
+        post: 1766356697961165080
+        image: GINcDdHawAAWX0B

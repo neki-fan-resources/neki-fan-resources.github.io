@@ -44,6 +44,68 @@
         year: 2024
         id: guvol369
 
+- postx:
+    id: 1864322318232899874
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-12-04
+    text: |-
+      Girl's UP!!! vol.369
+      @ Shibuya eggman
+      
+      ありがとうございました❤️‍🔥
+      
+      NEXT LIVE👉12/29(日)
+      「NEK! DEBUT YEAR LAST LIVE」
+      ＠ 下北沢シャングリラ
+      
+      🎫 https://t.livepocket.jp/e/nekidebutyearlastlive
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.369
+      @ Shibuya eggman
+      
+      Thank you very much❤️‍🔥
+      
+      NEXT LIVE👉12/29 (Sun)
+      "NEK! DEBUT YEAR LAST LIVE"
+      @ Shimokitazawa Shangri-La
+      
+      🎫 https://t.livepocket.jp/e/nekidebutyearlastlive
+      
+      #NEKI
+    image:
+    - Gd9nQ1pa0AIyIiI
+    - Gd9nQ1pawAAb3MU
+    - Gd9nQ1oa0AEUwgY
+    part-of:
+      show:
+        year: 2024
+        id: guvol369
+
+- postx:
+    id: 1872885369127240103
+    account: coco_102
+    label: MAZE on stage
+    published-date: 2024-12-28
+    text: |-
+      MAZEの2コーラス目サビ前フィル！
+      やってることは簡単なんだけど耳に残るよね👂🏻🩵
+      
+      そしてご注目ください、、奥でかなでんが回っております🌀ぴょんぴょんしててかわいい😂
+    translation: |-
+      The fill before the 2nd chorus of "MAZE"!
+      What I’m doing is actually quite simple, but it really sticks in your ears, doesn't it?👂🏻🩵
+      
+      And please pay attention... Kanaden is spinning in the background🌀 She’s hopping around and looks so cute😂
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1872885369127240103
+        video: 01
+
 - postximage:
     post: 1864191582632583194
     id: Gd7uUKFa0AAbSuw
@@ -56,6 +118,58 @@
         id: guvol369
     part-of:
       postx: 1864191582632583194
+
+- postximage:
+    post: 1864322318232899874
+    id: Gd9nQ1oa0AEUwgY
+    label: Sidewalk board
+    published-date: 2024-12-04
+    context:
+    - show:
+        year: 2024
+        id: guvol369
+    part-of:
+      postx: 1864322318232899874
+
+- postximage:
+    post: 1864322318232899874
+    id: Gd9nQ1pa0AIyIiI
+    label: On stage
+    published-date: 2024-12-04
+    context:
+    - show:
+        year: 2024
+        id: guvol369
+    part-of:
+      postx: 1864322318232899874
+
+- postximage:
+    post: 1864322318232899874
+    id: Gd9nQ1pawAAb3MU
+    label: On stage
+    published-date: 2024-12-04
+    context:
+    - show:
+        year: 2024
+        id: guvol369
+    part-of:
+      postx: 1864322318232899874
+
+- postxvideo:
+    post: 1872885369127240103
+    id: 01
+    label: Cocoro-cam
+    published-date: 2024-12-28
+    cover: 1872885339498659842/pu/img/q6DBlm4D731SHAAr.jpg
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: guvol369
+    part-of:
+      show:
+        year: 2024
+        id: guvol369
 
 - webimage:
     domain: eggman.jp

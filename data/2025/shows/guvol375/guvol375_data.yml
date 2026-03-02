@@ -148,6 +148,108 @@
         year: 2025
         id: guvol375
 
+- postx:
+    id: 1892211756384039323
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-02-19
+    text: |-
+      Girl's UP!!! vol.375
+      〜スリーマンスペシャル〜
+      @ shibuya eggman
+      
+      ありがとうございました🫶
+      
+      次のライブは…！
+      NEK!初の東名阪ワンマンツアーに突入🔥
+      
+      チケット一般発売中です！
+      ▶︎ https://note.com/nekiband_jp/n/nc703bb1d82c8
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.375
+      〜Three-Man Special〜
+      @ shibuya eggman
+      
+      Thank you very much🫶
+      
+      The next live is...!
+      We're heading into NEK!'s first Tokyo-Nagoya-Osaka one-man tour🔥
+      
+      Tickets are now on general sale!
+      ▶︎ https://note.com/nekiband_jp/n/nc703bb1d82c8
+      
+      #NEKI
+    image:
+    - GkJ8jdDbwAAvhjI
+    - GkJ8jdjXMAAUqIG
+    part-of:
+      show:
+        year: 2025
+        id: guvol375
+
+- postx:
+    id: 1892233094603649039
+    account: 46_hikaa
+    label: Glowing shoes
+    published-date: 2025-02-19
+    text: |-
+      今日、靴が光っとる事気づいてくれてた方いて嬉しかった·͜·ᰔᩚ
+      
+      照明あたると光って見えるとよぉ！🌟
+    translation: |-
+      I was happy that some people noticed my shoes were glowing today·͜·ᰔᩚ
+      
+      They look like they're glowing when the stage lights hit them!🌟
+    image:
+    - GkKP-BOWAAEg9BA
+    part-of:
+      show:
+        year: 2025
+        id: guvol375
+
+- postx:
+    id: 1892265678943768627
+    account: coco_102
+    label: Met 寺沢リョータ (BONE DAWN)
+    published-date: 2025-02-19
+    text: |-
+      今日は寺沢リョータさん(
+      @ryota_terasawa
+       )にもお会いできて嬉しかった🤝🏻💫
+      
+      実は約2年前にセッションさせていただいたことがあって、、まさかスリーマンで対バンする日が来るとは思ってなかった！！
+      本当にありがとうございました🥹
+    translation: |-
+      I was happy to meet Ryota Terasawa-san (@ryota_terasawa) today as well🤝🏻💫
+      
+      Actually, we had a session together about 2 years ago... I never thought the day would come where we'd play together in a three-man show!!
+      Thank you so much🥹
+    image:
+    - GkKtmCtbkAAH0QO
+    part-of:
+      show:
+        year: 2025
+        id: guvol375
+
+- postx:
+    id: 1894380886764011977
+    account: coco_102
+    label: Cocoro cam
+    published-date: 2025-02-25
+    text: |-
+      19日の動画またもや画角ミスってて私ほぼ映ってなかった、、
+    translation: |-
+      I messed up the camera angle again for the video on the 19th, so I'm barely in it...
+    video:
+    - 01
+    todo: which song
+    part-of:
+      postxvideo:
+        post: 1894380886764011977
+        video: 01
+
 - postximage:
     post: 1892129493306810798
     id: GkIw1_zaAAA0kCd
@@ -160,6 +262,72 @@
         id: guvol375
     part-of:
       postx: 1892129493306810798
+
+- postximage:
+    post: 1892211756384039323
+    id: GkJ8jdDbwAAvhjI
+    label: Backstage
+    published-date: 2025-02-19
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postx: 1892211756384039323
+
+- postximage:
+    post: 1892211756384039323
+    id: GkJ8jdjXMAAUqIG
+    label: On stage
+    published-date: 2025-02-19
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postx: 1892211756384039323
+
+- postximage:
+    post: 1892233094603649039
+    id: GkKP-BOWAAEg9BA
+    label: Glowing shoes
+    published-date: 2025-02-19
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postx: 1892233094603649039
+
+- postximage:
+    post: 1892265678943768627
+    id: GkKtmCtbkAAH0QO
+    label: Backstage
+    info: Cocoro, 寺沢 リョータ (Ryota Terasawa)
+    published-date: 2025-02-19
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    part-of:
+      postx: 1892265678943768627
+
+- postxvideo:
+    post: 1894380886764011977
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-02-25
+    cover: 1894380764659388416/img/keThjP_PwIdud1-5.jpg
+    context:
+    - show:
+        year: 2025
+        id: guvol375
+    - song: reigengirl
+    part-of:
+      show:
+        year: 2025
+        id: guvol375
 
 - webimage:
     domain: eggman.jp

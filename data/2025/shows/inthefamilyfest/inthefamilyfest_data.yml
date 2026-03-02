@@ -411,9 +411,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: inthefamilyfest
+      postxvideo:
+        post: 1974859127206879477
+        video: 01
 
 - postximage:
     post: 1954845457206624572
@@ -674,7 +674,9 @@
         id: inthefamilyfest
     todo: which song ?
     part-of:
-      postx: 1974859127206879477
+      show:
+        year: 2025
+        id: inthefamilyfest
 
 - update:
     show:

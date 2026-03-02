@@ -302,6 +302,10 @@
     id: GV-zMCPaoAEXFgz
     label: On stage
     published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
     part-of:
       postx: 1828377003390906504
 
@@ -310,6 +314,10 @@
     id: GV-zMCRaoAAYcqr
     label: On stage
     published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
     part-of:
       postx: 1828377003390906504
 
@@ -318,6 +326,10 @@
     id: GV-zMCuWcAAtYbY
     label: Sidewalk board
     published-date: 2024-08-27
+    context:
+    - show:
+        year: 2024
+        id: soundshocktokyo2024
     part-of:
       postx: 1828377003390906504
 

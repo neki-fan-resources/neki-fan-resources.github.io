@@ -677,6 +677,120 @@
       postinstagram: DHswbbCxvOW
 
 - postx:
+    id: 1891353098263622008
+    account: nekiband_jp
+    label: Advertised on screens around the SHIBUYA O-Group live houses
+    published-date: 2025-02-17
+    text: |-
+      NEK! 1stワンマンツアー
+      「TR!CK TAK!NG」
+      
+      SHIBUYA Oグループライブハウス周辺のビジョンにてSPOT映像が2/28(金)まで放映中⚡️
+      
+      現在チケット一般発売中🎟️
+      
+      ローチケ
+      https://l-tike.com/nekiband/
+                 
+      イープラス
+      https://eplus.jp/nekiband/
+              
+      チケットぴあ
+      https://w.pia.jp/t/neki-tricktaking/
+      
+      #NEKI
+    translation: |-
+      NEK! 1st One-Man Tour
+      "TR!CK TAK!NG"
+      
+      SPOT footage is now airing on screens around the SHIBUYA O-Group live houses until 2/28 (Fri) ⚡️
+      
+      General ticket sales are currently underway 🎟️
+      
+      Lawson Ticket
+      https://l-tike.com/nekiband/
+                 
+      e-plus
+      https://eplus.jp/nekiband/
+              
+      Ticket Pia
+      https://w.pia.jp/t/neki-tricktaking/
+      
+      #NEKI
+    image:
+    - Gj9vnfNagAA-TIe
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1899793009899892982
+    account: cure_bass_baka
+    label: Dress rehearsal
+    published-date: 2025-03-12
+    text: |-
+      ゲネちゃんでした💫
+      O-WEST楽しみにしててください！！！
+    translation: |-
+      It was the dress rehearsal 💫
+      Please look forward to O-WEST!!!
+    image:
+    - Gl1rpgOagAAhcVg
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1899795479229317149
+    account: natsu08_guitar
+    label: Dress rehearsal
+    published-date: 2025-03-12
+    text: |-
+      本日ゲネでしたー！❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      ツアーファイナル東京の日を想像してワクワクしながらやってきたよー‼️
+      O-WEST楽しみ！🫶🏻🫶🏻🫶🏻
+    translation: |-
+      Today was the dress rehearsal! ❤️‍🔥❤️‍🔥❤️‍🔥
+      
+      I did it while feeling so excited imagining the day of the tour final in Tokyo‼️
+      Looking forward to O-WEST! 🫶🏻🫶🏻🫶🏻
+    image:
+    - Gl1t6KGXIAA2iwp
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1900919310698377256
+    account: natsu08_guitar
+    label: Tomorrow
+    published-date: 2025-03-15
+    text: |-
+      ついに明日ですね!ツアーファイナル東京！！！
+      
+      盛り上がる準備できてますかぁぁぁ‼️‼️‼️‼️🔥🔥🔥🔥🔥
+      
+      次の日のことは忘れてとりあえず楽しみましょうね！！！悔いのない1日を🔥
+      声出してこーぜぇぇ！❤️‍🔥❤️‍🔥
+    translation: |-
+      It’s finally tomorrow! Tour Final Tokyo!!!
+      
+      Are you ready to get fired up?!!‼️‼️‼️‼️🔥🔥🔥🔥🔥
+      
+      Let's forget about the next day for now and just have fun!!! Make it a day with no regrets🔥
+      Let's hear those voices!❤️‍🔥❤️‍🔥
+    image:
+    - GmFsCO0bcAA582o
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
     id: 1901082018882179433
     account: nekiband_jp
     label: Today
@@ -721,6 +835,20 @@
     - postximage:
         post: 1897543126019137799
         image: GlVs5tkb0AAUj3g
+
+- postx:
+    id: 1901110542825386260
+    account: cure_bass_baka
+    label: at WEST!
+    published-date: 2025-03-16
+    text: |-
+      ついにWEST来たよ！！！！
+    translation: |-
+      I'm finally at WEST!!!!
+    image:
+    - GmIZ9OSbcAAdCBk
+    part-of:
+      postx: 1901082018882179433
 
 - postx:
     id: 1901126409017536965
@@ -821,6 +949,42 @@
     - GmKNtB1aEAASeIz
     - GmKNtB7a4AAf8JX
     - GmKNtBzbkAAxecj
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1901243685569962210
+    account: nekiband_jp
+    label: Checking feedback
+    published-date: 2025-03-16
+    text: |-
+      #NEKI でワンマンの感想ポストをみんなで全て見ています👀
+      
+      たくさんポストありがとうございます💝
+    translation: |-
+      We are all looking at everyone's posts about their thoughts on the solo live show using #NEKI 👀
+      
+      Thank you so much for all the posts 💝
+    image:
+    - GmKTBdhacAAdePn
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
+    id: 1901305153342615668
+    account: coco_102
+    label: Cat ears in top form
+    published-date: 2025-03-16
+    text: |-
+      猫耳、今日も絶好調でした🐱🩵
+    translation: |-
+      Cat ears, they were in top form today too 🐱🩵
+    image:
+    - GmLK9HzbkAAIsse
     part-of:
       show:
         year: 2025
@@ -932,6 +1096,31 @@
         id: tricktakingtourtokyo
 
 - postx:
+    id: 1901828246163116168
+    account: 46_hikaa
+    label: More on Instagram
+    published-date: 2025-03-18
+    text: |-
+      みんなのワンマンでのツイートやリプ全部見てます！！ありがとうございます！！
+      
+      インスタにも写真と想いを書いとるけん
+      是非、観てください⭐︎
+      https://instagram.com/46_hikaa
+    translation: |-
+      I'm looking at everyone's tweets and replies from the solo live!! Thank you so much!!
+      
+      I've posted photos and my thoughts on Instagram too
+      So please go take a look ⭐︎
+      https://instagram.com/46_hikaa
+    image:
+    - GmSmtbracAAUUqq
+    todo: 3 images in previous posts, instagram psot
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
     id: 1901916392653537292
     account: natsu08_guitar
     label: Reigen girl intro
@@ -982,6 +1171,30 @@
         video: 01
 
 - postx:
+    id: 1904081359431413941
+    account: coco_102
+    label: MAZE on stage
+    published-date: 2025-03-24
+    text: |-
+      ❤️‍🔥🌀💥MAZE💥🌀❤️‍🔥
+      
+      どこの会場も盛り上がってくれて嬉しかったなー！
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      ❤️‍🔥🌀💥MAZE💥🌀❤️‍🔥
+      
+      I was so happy that every venue got so pumped up!
+      
+      #NEKI #SpreadingTheWord #NEKIFandom
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1904081359431413941
+        video: 01
+
+- postx:
     id: 1904095847400505553
     account: natsu08_guitar
     label: The view from here
@@ -999,6 +1212,51 @@
       show:
         year: 2025
         id: tricktakingtourtokyo
+
+- postx:
+    id: 1904398190973272390
+    account: 46_hikaa
+    label: ENDLESSGAME on stage
+    published-date: 2025-03-25
+    text: |-
+      3公演とも皆んなの掛け声が最高すぎた!!
+      
+      この“ENDLESSGAME”とかテンション上がってアレンジしちゃった!!✩.*˚
+      
+       #ネキ界隈  #拡散中
+    translation: |-
+      Everyone's chanting across all three shows was just way too good!!
+      
+      For "ENDLESSGAME," I got so hyped up that I even ended up doing an arrangement!!✩.*˚
+      
+      #NEKIFandom #SpreadingTheWord
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1904398190973272390
+        video: 01
+
+- postx:
+    id: 1905158934169887138
+    account: coco_102
+    label: OOAK on stage
+    published-date: 2025-03-27
+    text: |-
+      ここのドラムブレイク好き🤤🩵
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      I love this drum break🤤🩵
+      
+      #NEKI #SpreadingNow #NEKIKaiwai
+    video:
+    - 01
+    todo: which show?
+    part-of:
+      postxvideo:
+        post: 1905158934169887138
+        video: 01
 
 - postx:
     id: 1907340052666945675
@@ -1022,6 +1280,52 @@
     part-of:
       postxvideo:
         post: 1907340052666945675
+        video: 01
+
+- postx:
+    id: 1912482224114458921
+    account: nekiband_jp
+    label: MC
+    published-date: 2025-04-16
+    text: |-
+      ライブMC中になんか出た。
+    translation: |-
+      Something came out during the live MC.
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1912482224114458921
+        video: 01
+
+- postx:
+    id: 1913837204386070919
+    account: coco_102
+    label: Blink on stage
+    published-date: 2025-04-20
+    text: |-
+      今まで載せたことがなかったNEK!渾身のバラード曲、
+      BlinkのDrum Camをお届け💫
+      
+      ライブだと音源よりエモさ増し増しで、
+      魅力も増し増しなんです。
+      ぜひZepp Shinjukuに聴きに来ていただきたいっ！
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Delivering the Drum Cam for Blink, NEK!'s powerful ballad 
+      that we've never posted before💫
+      
+      In a live setting, it's even more emotional than the recording, 
+      and its charm is even greater. 
+      I really want you to come and hear it at Zepp Shinjuku!
+      
+      #NEKI #NowSpreading #NEKICircle
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1913837204386070919
         video: 01
 
 - postx:
@@ -1090,9 +1394,9 @@
     video:
     - 46203d6b-e5ae-48cd-8902-16d9a880869d
     part-of:
-      show:
-        year: 2025
-        id: tricktakingtourtokyo
+      postxvideo:
+        post: 1929106683978224117
+        video: 46203d6b-e5ae-48cd-8902-16d9a880869d
 
 - postx:
     id: 1953025441515921602
@@ -1111,9 +1415,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: tricktakingtourtokyo
+      postxvideo:
+        post: 1953025441515921602
+        video: 01
 
 - postx:
     id: 1954447291294822589
@@ -1132,6 +1436,66 @@
       postxvideo:
         post: 1954447291294822589
         video: 01
+
+- postximage:
+    post: 1891353098263622008
+    id: Gj9vnfNagAA-TIe
+    label: O-west ad
+    published-date: 2025-02-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1891353098263622008
+
+- postximage:
+    post: 1899793009899892982
+    id: Gl1rpgOagAAhcVg
+    label: Rehearsal
+    published-date: 2025-03-12
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1899793009899892982
+
+- postximage:
+    post: 1899795479229317149
+    id: Gl1t6KGXIAA2iwp
+    label: Rehearsal
+    published-date: 2025-03-12
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1899795479229317149
+
+- postximage:
+    post: 1900919310698377256
+    id: GmFsCO0bcAA582o
+    label: Rehearsal
+    published-date: 2025-03-15
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1900919310698377256
+
+- postximage:
+    post: 1901110542825386260
+    id: GmIZ9OSbcAAdCBk
+    label: AAA pass
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1901110542825386260
 
 - postximage:
     post: 1901126409017536965
@@ -1178,6 +1542,10 @@
     id: GmKNtB1aEAASeIz
     label: The band
     published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901237824059564330
 
@@ -1186,6 +1554,10 @@
     id: GmKNtB7a4AAf8JX
     label: On stage
     published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901237824059564330
 
@@ -1194,14 +1566,46 @@
     id: GmKNtBzbkAAxecj
     label: On stage
     published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901237824059564330
+
+- postximage:
+    post: 1901243685569962210
+    id: GmKTBdhacAAdePn
+    label: Checking posts
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1901243685569962210
+
+- postximage:
+    post: 1901305153342615668
+    id: GmLK9HzbkAAIsse
+    label: Cocoro outfit
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1901305153342615668
 
 - postximage:
     post: 1901449578177765487
     id: GmNOOzfbEAA3Ocq
     label: On stage
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901449578177765487
 
@@ -1211,6 +1615,10 @@
     label: On stage
     info: Hika
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901449578177765487
 
@@ -1228,6 +1636,10 @@
     label: On stage
     info: Cocoro
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901572243064553567
 
@@ -1237,6 +1649,10 @@
     label: On stage
     info: Natsu
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901583979649872081
 
@@ -1246,6 +1662,10 @@
     label: On stage
     info: Natsu
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901583979649872081
 
@@ -1255,6 +1675,10 @@
     label: Backstage
     info: the band
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901583979649872081
 
@@ -1264,8 +1688,25 @@
     label: On stage
     info: Kanade
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901590701571203518
+
+- postximage:
+    post: 1901828246163116168
+    id: GmSmtbracAAUUqq
+    label: On stage
+    info: Hika
+    published-date: 2025-03-18
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1901828246163116168
 
 - postximage:
     post: 1904095847400505553
@@ -1273,6 +1714,10 @@
     label: On stage
     info: Natsu
     published-date: 2025-03-24
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1904095847400505553
 
@@ -1282,6 +1727,10 @@
     label: On stage
     info: Natsu
     published-date: 2025-03-24
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1904095847400505553
 
@@ -1319,6 +1768,54 @@
         id: tricktakingtourtokyo
 
 - postxvideo:
+    post: 1904081359431413941
+    id: 01
+    label: Cocoro-cam
+    published-date: 2025-03-24
+    cover: 1904081069059842048/img/w0_b2X10ZN67FgNb.jpg
+    context:
+    - song: maze
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postxvideo:
+    post: 1904398190973272390
+    id: 01
+    label: Live
+    published-date: 2025-03-25
+    cover: 1904398132735258624/img/GpS_b9l9149utGtm.jpg
+    context:
+    - song: endlessgame
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postxvideo:
+    post: 1905158934169887138
+    id: 01
+    label: Cocoro-cam
+    published-date: 2025-03-27
+    cover: 1905158821359792128/img/SKFqsvQ7wnRy4nFr.jpg
+    context:
+    - song: ooak
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postxvideo:
     post: 1907340052666945675
     id: 01
     label: Live
@@ -1330,6 +1827,37 @@
         year: 2025
         id: tricktakingtourtokyo
     - song: reigengirl
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postxvideo:
+    post: 1912482224114458921
+    id: 01
+    label: MC
+    published-date: 2025-04-16
+    cover: 1912482122985517056/img/Nrp9ZkDgeExRuDP4.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postxvideo:
+    post: 1913837204386070919
+    id: 01
+    label: Cocoro-cam
+    published-date: 2025-04-20
+    cover: 1913836655263547392/img/Zg6PmS5JFzhNPEBV.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    - song: blink
     part-of:
       show:
         year: 2025
@@ -1382,7 +1910,9 @@
         year: 2025
         id: tricktakingtourtokyo
     part-of:
-      postx: 1929106683978224117
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
 
 - postxvideo:
     post: 1953025441515921602
@@ -1397,7 +1927,9 @@
         id: tricktakingtourtokyo
     - song: ripoff
     part-of:
-      postx: 1953025441515921602
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
 
 - postxvideo:
     post: 1954447291294822589
@@ -1465,6 +1997,7 @@
     - show:
         year: 2025
         id: tricktakingtourtokyo
+    - song: dreams
     part-of:
       show:
         year: 2025
@@ -1509,6 +2042,19 @@
         year: 2025
         id: tricktakingtourtokyo
     - song: moon
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- youtubeshort:
+    id: PRE1nQEW69g
+    label: Moment during MC
+    published-date: 2025-04-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       show:
         year: 2025

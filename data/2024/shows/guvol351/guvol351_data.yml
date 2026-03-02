@@ -138,6 +138,26 @@
         year: 2024
         id: guvol351
 
+- postx:
+    id: 1787870911796023598
+    account: chiemi_chiiiii
+    label: Thank you
+    published-date: 2024-05-07
+    text: |-
+      一緒に撮ってもらったー✨✨
+      ありがとうございます🧡💛
+      楽屋でみんなで話している姿がすごい可愛かった！！！スイカバー持ってるのも可愛い！！！
+    translation: |-
+      We got to take a picture togetherー✨✨
+      Thank you very much 🧡💛
+      They looked so cute talking together in the dressing room!!! Them holding the Suikaba (watermelon popsicle) is also cute!!!
+    image:
+    - GM_LHhCbQAIEDRm
+    part-of:
+      show:
+        year: 2024
+        id: guvol351
+
 - postximage:
     post: 1787740918298345982
     id: GM9UGEVbQAEGLaw
@@ -156,6 +176,10 @@
     id: GM-y9eqbMAAgrQg
     label: On stage
     published-date: 2024-05-07
+    context:
+    - show:
+        year: 2024
+        id: guvol351
     part-of:
       postx: 1787844360329105565
 
@@ -164,8 +188,26 @@
     id: GM-y9eua8AAKU1h
     label: Sidewalk board
     published-date: 2024-05-07
+    context:
+    - show:
+        year: 2024
+        id: guvol351
     part-of:
       postx: 1787844360329105565
+
+- postximage:
+    post: 1787870911796023598
+    id: GM_LHhCbQAIEDRm
+    label: Backstage
+    info: NEK!
+    published-date: 2024-05-07
+    context:
+    - show:
+        year: 2024
+        id: guvol351
+    todo: find the correct name of artist
+    part-of:
+      postx: 1787870911796023598
 
 - webimage:
     domain: eggman.jp

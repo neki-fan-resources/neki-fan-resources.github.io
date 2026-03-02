@@ -257,6 +257,31 @@
         id: minamiwheel2024
 
 - postx:
+    id: 1845404922059358388
+    account: 802wannabes
+    label: Photowheel
+    published-date: 2024-10-13
+    text: |-
+      📷 #PHOTOWHEEL #FM802 #ミナホ #ええ声とどけ 📷
+      
+      🟣19:00～ VARON
+      
+      NEK!
+    translation: |-
+      📷 #PHOTOWHEEL #FM802 #MINAHO #EETOKETODOKE 📷
+      
+      🟣 19:00～ VARON
+      
+      NEK!
+    image:
+    - GZwx_EFbgAAmjcJ
+    - GZwx_EDaAAIc_iK
+    part-of:
+      show:
+        year: 2024
+        id: minamiwheel2024
+
+- postx:
     id: 1845457121418395899
     account: nekiband_jp
     label: Thank you
@@ -328,10 +353,38 @@
       postx: 1845257839994151227
 
 - postximage:
+    post: 1845404922059358388
+    id: GZwx_EDaAAIc_iK
+    label: Backstage
+    published-date: 2024-10-13
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
+    part-of:
+      postx: 1845404922059358388
+
+- postximage:
+    post: 1845404922059358388
+    id: GZwx_EFbgAAmjcJ
+    label: Backstage
+    published-date: 2024-10-13
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
+    part-of:
+      postx: 1845404922059358388
+
+- postximage:
     post: 1845457121418395899
     id: GZxheApaAAQ6567
     label: On stage
     published-date: 2024-10-13
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
     part-of:
       postx: 1845457121418395899
 
@@ -340,6 +393,10 @@
     id: GZxheAtbEAAV9f7
     label: Venue sign
     published-date: 2024-10-13
+    context:
+    - show:
+        year: 2024
+        id: minamiwheel2024
     part-of:
       postx: 1845457121418395899
 

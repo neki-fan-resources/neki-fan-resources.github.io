@@ -225,6 +225,10 @@
     id: GOB8MWDbsAEx48x
     label: Sidewalk board
     published-date: 2024-05-20
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet
     part-of:
       postx: 1792569210633441746
 
@@ -233,6 +237,10 @@
     id: GOB8MWEaAAAV2FW
     label: On stage
     published-date: 2024-05-20
+    context:
+    - show:
+        year: 2024
+        id: sweetsweetsweet
     part-of:
       postx: 1792569210633441746
 

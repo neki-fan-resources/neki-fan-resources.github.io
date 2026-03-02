@@ -54,6 +54,77 @@
         year: 2025
         id: bayfm78musicurate
 
+- postx:
+    id: 1914753335703560310
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-04-22
+    text: |-
+      BAYFM 「78 musi-curate」
+      ご視聴ありがとうございました📻
+      
+      番組アーカイブはこちら▼
+      https://radiko.jp/share/?t=20250422273754&sid=BAYFM78
+      
+      8/30(土)開催
+      NEK!の初ZEPPワンマンは現在チケットオフィシャル2次先行受付中❣️
+      
+      チケットはこちら▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #bayfm #78タワレコゾーン #拡散中 #ネキ界隈
+    translation: |-
+      BAYFM "78 musi-curate"
+      Thank you for listening📻
+      
+      Program archive here▼
+      https://radiko.jp/share/?t=20250422273754&sid=BAYFM78
+      
+      Official 2nd pre-order (lottery) tickets are now available for
+      NEK!'s first ZEPP one-man live on 8/30 (Sat)❣️
+      
+      Tickets here▼
+      https://l-tike.com/nekiband/
+      
+      #NEKI #bayfm #78TowerRecordsZone #NowSpreading #NEKICircle
+    image:
+    - GpKSAXXa4AIVkqj
+    part-of:
+      media:
+        year: 2025
+        id: bayfm78musicurate
+
+- postx:
+    id: 1914850685176480128
+    account: TOWER_Info
+    label: Recap
+    published-date: 2025-04-23
+    text: |-
+      ＼#bayfm 78 musi-curate／
+       タワーレコードゾーン
+       4/22(火)26:00～27:55OA
+       タイムフリー配信中📶
+      
+      今月はタワーレコード オンライン所属の佐々木が #タワレコメン 大プッシュのNEK!にスタジオインタビュー！バチバチのサウンドで圧巻する楽曲、聞き逃し配信で聴いてみてください
+      
+      #78タワレコゾーン
+    translation: |-
+      ＼#bayfm 78 musi-curate／
+      Tower Records Zone
+      4/22 (Tue) 26:00～27:55 OA
+      Now available on Time Free 📶
+      
+      This month, Sasaki from Tower Records Online interviews NEK!—a band highly recommended by #Tawarecomen—in the studio! Be sure to catch the broadcast archive to hear their music, which overwhelms with its intense sound.
+      
+      #78TowerRecordsZone
+    image:
+    - GpLqISVa4AQTDba
+    - GpLqKMBacAAiX9N
+    part-of:
+      media:
+        year: 2025
+        id: bayfm78musicurate
+
 - postximage:
     post: 1914285297862598973
     id: GpDoUyLb0AAbEYw
@@ -65,6 +136,42 @@
         id: bayfm78musicurate
     part-of:
       postx: 1914285297862598973
+
+- postximage:
+    post: 1914753335703560310
+    id: GpKSAXXa4AIVkqj
+    label: The band
+    published-date: 2025-04-22
+    context:
+    - media:
+        year: 2025
+        id: bayfm78musicurate
+    part-of:
+      postx: 1914753335703560310
+
+- postximage:
+    post: 1914850685176480128
+    id: GpLqISVa4AQTDba
+    label: In studio
+    published-date: 2025-04-23
+    context:
+    - media:
+        year: 2025
+        id: bayfm78musicurate
+    part-of:
+      postx: 1914850685176480128
+
+- postximage:
+    post: 1914850685176480128
+    id: GpLqKMBacAAiX9N
+    label: With host
+    published-date: 2025-04-23
+    context:
+    - media:
+        year: 2025
+        id: bayfm78musicurate
+    part-of:
+      postx: 1914850685176480128
 
 - youtubeshort:
     id: QxTlwAWRrBM

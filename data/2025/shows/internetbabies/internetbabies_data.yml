@@ -159,6 +159,30 @@
         id: internetbabies
 
 - postx:
+    id: 1949466891803922715
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2025-07-27
+    text: |-
+      NTERNET BaBIES -Face to Faith-
+      ありがとうございました。
+      主催の浜野はるきさん、Wisteriaさん
+      そしてはじめての場所で新鮮で楽しいスリーマンになりました！
+      本日はお誘いいただきありがとうございました！
+    translation: |-
+      NTERNET BaBIES -Face to Faith-
+      Thank you very much.
+      To the organizer Haruki Hamano, Wisteria,
+      and this new venue, it was a fresh and fun three-man live!
+      Thank you for inviting us today!
+    image:
+    - Gw3lzMNbAAASOiw
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
+- postx:
     id: 1949470948861894839
     account: cure_bass_baka
     label: Reigen Girl on stage
@@ -174,9 +198,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: internetbabies
+      postxvideo:
+        post: 1949470948861894839
+        video: 01
 
 - postx:
     id: 1949480491713003736
@@ -379,9 +403,9 @@
     - 01
     todo: which song ?
     part-of:
-      show:
-        year: 2025
-        id: internetbabies
+      postxvideo:
+        post: 1950564658236068172
+        video: 01
 
 - postx:
     id: 1950849248574263303
@@ -529,9 +553,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: internetbabies
+      postxvideo:
+        post: 1955576715851575746
+        video: 01
 
 - postx:
     id: 1959970796442427746
@@ -584,6 +608,18 @@
         id: internetbabies
     part-of:
       postx: 1949060926738694295
+
+- postximage:
+    post: 1949466891803922715
+    id: Gw3lzMNbAAASOiw
+    label: Backstage
+    published-date: 2025-07-27
+    context:
+    - show:
+        year: 2025
+        id: internetbabies
+    part-of:
+      postx: 1949466891803922715
 
 - postximage:
     post: 1949480491713003736
@@ -699,7 +735,9 @@
         id: internetbabies
     - song: reigengirl
     part-of:
-      postx: 1949470948861894839
+      show:
+        year: 2025
+        id: internetbabies
 
 - postxvideo:
     post: 1949753645215412472
@@ -730,7 +768,9 @@
         year: 2025
         id: internetbabies
     part-of:
-      postx: 1950564658236068172
+      show:
+        year: 2025
+        id: internetbabies
 
 - postxvideo:
     post: 1950849248574263303
@@ -848,7 +888,9 @@
         id: internetbabies
     - song: reigengirl
     part-of:
-      postx: 1955576715851575746
+      show:
+        year: 2025
+        id: internetbabies
 
 - youtubeshort:
     id: Dy5UNGKd1ZA

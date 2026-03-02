@@ -1,4 +1,44 @@
 - postx:
+    id: 1898709692844826892
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-03-09
+    text: |-
+      NEK! 1stワンマンツアー「TR!CK TAK!NG」
+      @ 愛知・R.A.D
+      
+      初の愛知ワンマン！ソールドアウト！
+      ご来場ありがとうございました🫶
+      
+      来週はいよいよツアーファイナル🔥
+      3/16は東京・O-WESTでお待ちしています👊
+      
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    translation: |-
+      NEK! 1st One-Man Tour 「TR!CK TAK!NG」
+      @ Aichi・R.A.D
+      
+      First Aichi one-man! Sold out!
+      Thank you for coming🫶
+      
+      Next week is finally the tour final🔥
+      We'll be waiting for you on 3/16 at Tokyo・O-WEST👊
+      
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    image:
+    - GlmSZN7akAAXKx2
+    - GlmSZN8acAALMPB
+    - GlmSZN9asAAYgoM
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtouraichi
+
+- postx:
     id: 1899104358958342641
     account: coco_102
     label: Dream come true
@@ -19,6 +59,50 @@
       show:
         year: 2025
         id: tricktakingtouraichi
+
+- postx:
+    id: 1899444185104863629
+    account: coco_102
+    label: OOAK on stage
+    published-date: 2025-03-11
+    text: |-
+      本物の猫は私だけよ🐈‍⬛🩵
+    translation: |-
+      I'm the only real cat 🐈‍⬛🩵
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1899444185104863629
+        video: 01
+
+- postx:
+    id: 1900151935120138758
+    account: coco_102
+    label: ENDLESSGAME Cocoro cam
+    published-date: 2025-03-13
+    text: |-
+      ENDLESSGAME👾
+      
+      大阪も愛知もみんなの掛け声すごかったーーー！！
+      イヤモニ越しでもしっかり聴こえたよ🥹
+      さて、ツアーファイナルはどうなることやら、、
+      
+      私達のコーラスも負けてられんぞ！！！笑
+    translation: |-
+      ENDLESSGAME👾
+      
+      Everyone's chants in Osaka and Aichi were amazing!!!
+      I could hear them clearly even through my in-ear monitors 🥹
+      Now, I wonder how the tour final will be...
+      
+      Our choruses can't afford to lose either!!! lol
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1900151935120138758
+        video: 01
 
 - postx:
     id: 1901057755311731067
@@ -53,10 +137,50 @@
         id: tricktakingtourtokyo
 
 - postximage:
+    post: 1898709692844826892
+    id: GlmSZN7akAAXKx2
+    label: On stage
+    published-date: 2025-03-09
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    part-of:
+      postx: 1898709692844826892
+
+- postximage:
+    post: 1898709692844826892
+    id: GlmSZN8acAALMPB
+    label: On stage
+    published-date: 2025-03-09
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    part-of:
+      postx: 1898709692844826892
+
+- postximage:
+    post: 1898709692844826892
+    id: GlmSZN9asAAYgoM
+    label: On stage
+    published-date: 2025-03-09
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    part-of:
+      postx: 1898709692844826892
+
+- postximage:
     post: 1899104358958342641
     id: Glr5U1MXcAEIcgx
     label: Selfie
     published-date: 2025-03-10
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
     part-of:
       postx: 1899104358958342641
 
@@ -65,8 +189,44 @@
     id: Glr5U1NXgAAXye0
     label: Drums
     published-date: 2025-03-10
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
     part-of:
       postx: 1899104358958342641
+
+- postxvideo:
+    post: 1899444185104863629
+    id: 01
+    label: Cocoro-cam
+    published-date: 2025-03-11
+    cover: 1899443974399774720/img/ev3Hp18IODXNFhWJ.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    - song: ooak
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtouraichi
+
+- postxvideo:
+    post: 1900151935120138758
+    id: 01
+    label: Cocoro-cam
+    published-date: 2025-03-13
+    cover: 1900151774658596864/img/0fHQ8tyCuqSfdBVR.jpg
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtouraichi
+    - song: endlessgame
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtouraichi
 
 - postxvideo:
     post: 1901057755311731067

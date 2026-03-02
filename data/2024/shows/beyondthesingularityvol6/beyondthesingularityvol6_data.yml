@@ -122,6 +122,70 @@
         year: 2024
         id: beyondthesingularityvol6
 
+- postx:
+    id: 1805236054989136217
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-06-24
+    text: |-
+      Beyond The Singularity vol.6
+      @初台DOORS
+      
+      ありがとうございました💘
+      
+      #NEKI
+    translation: |-
+      Beyond The Singularity vol.6
+      @ Hatsudai DOORS
+      
+      Thank you very much 💘
+      
+      #NEKI
+    image:
+    - GQ18njgbIAE5MR-
+    - GQ18njfaoAA7l3q
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol6
+
+- postx:
+    id: 1805328812106039713
+    account: mariyaCOMezik
+    label: Guitar girls
+    published-date: 2024-06-24
+    text: |-
+      Monochrome  Cinderella 
+      @mono_cinderella
+       
+      NEK！
+      @nekiband_jp
+       
+      劇団Moyashi 
+      @Gekidan_moyashi
+       
+      
+      ギタ女！
+      ありがとうございました❤️
+    translation: |-
+      Monochrome Cinderella
+      @mono_cinderella
+      
+      NEK!
+      @nekiband_jp
+      
+      Gekidan Moyashi
+      @Gekidan_moyashi
+      
+      Guitar Girl!
+      Thank you very much ❤️
+    image:
+    - GQ3Q-y4aQAEqVdX
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol6
+
 - postximage:
     post: 1798608606579007863
     id: GPXmT9iboAA09Sb
@@ -134,4 +198,41 @@
         id: beyondthesingularityvol6
     part-of:
       postx: 1798608606579007863
+
+- postximage:
+    post: 1805236054989136217
+    id: GQ18njfaoAA7l3q
+    label: Sidewalk board
+    published-date: 2024-06-24
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    part-of:
+      postx: 1805236054989136217
+
+- postximage:
+    post: 1805236054989136217
+    id: GQ18njgbIAE5MR-
+    label: On stage
+    published-date: 2024-06-24
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    part-of:
+      postx: 1805236054989136217
+
+- postximage:
+    post: 1805328812106039713
+    id: GQ3Q-y4aQAEqVdX
+    label: Guitars
+    published-date: 2024-06-24
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    todo: artists name
+    part-of:
+      postx: 1805328812106039713
 

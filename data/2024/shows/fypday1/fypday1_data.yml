@@ -220,6 +220,10 @@
     id: GPJ3vKGaQAAR7bp
     label: Posters
     published-date: 2024-06-03
+    context:
+    - show:
+        year: 2024
+        id: fypday1
     part-of:
       postx: 1797630863351709848
 
@@ -228,6 +232,10 @@
     id: GPJ3vKGbEAEs0-Q
     label: On stage
     published-date: 2024-06-03
+    context:
+    - show:
+        year: 2024
+        id: fypday1
     part-of:
       postx: 1797630863351709848
 

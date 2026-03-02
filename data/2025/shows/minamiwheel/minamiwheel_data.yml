@@ -1035,9 +1035,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: minamiwheel
+      postxvideo:
+        post: 1977688947678687617
+        video: 01
 
 - postx:
     id: 1978807279471284652
@@ -1387,7 +1387,9 @@
         id: minamiwheel
     - song: maze
     part-of:
-      postx: 1977688947678687617
+      show:
+        year: 2025
+        id: minamiwheel
 
 - postxvideo:
     post: 1978807279471284652

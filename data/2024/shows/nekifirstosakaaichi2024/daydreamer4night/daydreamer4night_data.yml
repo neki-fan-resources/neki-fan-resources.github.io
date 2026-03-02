@@ -60,6 +60,35 @@
         year: 2024
         id: daydreamer4night
 
+- postx:
+    id: 1826267838006337964
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-21
+    text: |-
+      心斎橋VARON presents. Day Dreamer -4th night-
+      @ 心斎橋VARON
+      
+      初大阪！
+      ありがとうございました❤️‍🔥
+      
+      #NEKI
+    translation: |-
+      Shinsaibashi VARON presents. Day Dreamer -4th night-
+      @ Shinsaibashi VARON
+      
+      Our first time in Osaka!
+      Thank you very much ❤️‍🔥
+      
+      #NEKI
+    image:
+    - GVg06iLbMAAy0f2
+    - GVg06iIbsAAqz5k
+    part-of:
+      show:
+        year: 2024
+        id: daydreamer4night
+
 - postximage:
     post: 1825843541756752006
     id: GVay0webUAAAJ-4
@@ -72,4 +101,28 @@
         id: daydreamer4night
     part-of:
       postx: 1825843541756752006
+
+- postximage:
+    post: 1826267838006337964
+    id: GVg06iIbsAAqz5k
+    label: Posters
+    published-date: 2024-08-21
+    context:
+    - show:
+        year: 2024
+        id: daydreamer4night
+    part-of:
+      postx: 1826267838006337964
+
+- postximage:
+    post: 1826267838006337964
+    id: GVg06iLbMAAy0f2
+    label: On stage
+    published-date: 2024-08-21
+    context:
+    - show:
+        year: 2024
+        id: daydreamer4night
+    part-of:
+      postx: 1826267838006337964
 

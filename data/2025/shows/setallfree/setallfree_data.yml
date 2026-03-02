@@ -212,6 +212,26 @@
         id: setallfree
 
 - postx:
+    id: 1887502798696423474
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-02-06
+    text: |-
+      Wisteria×FOWS「Set All Free!!」
+      ＠ 渋谷FOWS
+      
+      ありがとうございました🫶
+      
+      #NEKI
+    image:
+    - GjHByXVa0AAOiGR
+    - GjHByXUbIAQCjPP
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+
+- postx:
     id: 1887519908155826210
     account: coco_102
     label: Thank you
@@ -265,6 +285,34 @@
         year: 2025
         id: setallfree
 
+- postx:
+    id: 1887549367550419131
+    account: coco_102
+    label: Drummers
+    published-date: 2025-02-06
+    text: |-
+      WisteriaサポのSORA (Dr.)さんと🫶🏻
+      
+      ユニフォーム仲間でしかも同い歳！！
+      2枚目はSORAさんがライブ中に飛ばしてしまったビーターを一緒に持たせていただきました😂🩵
+      
+      (背番号の並びが123だ、、！！すごい奇遇！)
+    translation: |-
+      With Wisteria support SORA-san (Dr.) 🫶🏻
+      
+      Uniform buddies and we're the same age!!
+      In the second photo, she let me hold the beater that she sent flying during the live show 😂🩵
+      
+      (The jersey numbers are lined up 1-2-3..!! What a coincidence!)
+    image:
+    - GjHsI4CbAAAHsw5
+    - GjHsI37aQAAROpf
+    todo: check exact name for SORA
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+
 - postximage:
     post: 1861350709448622349
     id: GdTYWPOaEAAltGr
@@ -303,10 +351,38 @@
       postx: 1887340383576989716
 
 - postximage:
+    post: 1887502798696423474
+    id: GjHByXUbIAQCjPP
+    label: Poster
+    published-date: 2025-02-06
+    context:
+    - show:
+        year: 2025
+        id: setallfree
+    part-of:
+      postx: 1887502798696423474
+
+- postximage:
+    post: 1887502798696423474
+    id: GjHByXVa0AAOiGR
+    label: On stage
+    published-date: 2025-02-06
+    context:
+    - show:
+        year: 2025
+        id: setallfree
+    part-of:
+      postx: 1887502798696423474
+
+- postximage:
     post: 1887519908155826210
     id: GjHRWW2bIAQ7ezT
     label: Backstage
     published-date: 2025-02-06
+    context:
+    - show:
+        year: 2025
+        id: setallfree
     part-of:
       postx: 1887519908155826210
 
@@ -315,6 +391,10 @@
     id: GjHRWWzbIAUVD2p
     label: All the bands
     published-date: 2025-02-06
+    context:
+    - show:
+        year: 2025
+        id: setallfree
     part-of:
       postx: 1887519908155826210
 
@@ -323,6 +403,10 @@
     id: GjHTD_BbIAEuTMa
     label: Poster
     published-date: 2025-02-06
+    context:
+    - show:
+        year: 2025
+        id: setallfree
     part-of:
       postx: 1887521792929247243
 
@@ -331,6 +415,36 @@
     id: GjHTD_CbIAEbKRR
     label: On stage
     published-date: 2025-02-06
+    context:
+    - show:
+        year: 2025
+        id: setallfree
     part-of:
       postx: 1887521792929247243
+
+- postximage:
+    post: 1887549367550419131
+    id: GjHsI37aQAAROpf
+    label: Drummers
+    info: Cocoro, SORA
+    published-date: 2025-02-06
+    context:
+    - show:
+        year: 2025
+        id: setallfree
+    part-of:
+      postx: 1887549367550419131
+
+- postximage:
+    post: 1887549367550419131
+    id: GjHsI4CbAAAHsw5
+    label: Drummers
+    info: Cocoro, SORA
+    published-date: 2025-02-06
+    context:
+    - show:
+        year: 2025
+        id: setallfree
+    part-of:
+      postx: 1887549367550419131
 

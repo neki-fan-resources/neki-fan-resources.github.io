@@ -209,6 +209,10 @@
     label: On stage
     info: Kanade
     published-date: 2024-07-20
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
     part-of:
       postinstagram: C9pgUc8vc0L
 
@@ -434,6 +438,32 @@
         id: 1stonemanlive
 
 - postx:
+    id: 1815020650278637844
+    account: coco_102
+    label: More on Instagram
+    published-date: 2024-07-21
+    text: |-
+      昨日のワンマンについてインスタでちょこっと語りました🫶🏻写真もたくさん載せてるからぜひ見てね〜
+      
+      ここにはインスタに載せきれなかった初のNEK!バックドロップとともにエイエイオー！をしてる写真を添えます！めっちゃ笑顔😂✊🏻
+      
+      (📸 by @bass_baka_Jk )
+    translation: |-
+      I talked a little bit about yesterday's one-man live on Instagram🫶🏻 I've posted lots of photos, so please check it out~
+      
+      Here, I'm adding a photo of us shouting "Eieioh!" (a cheer) with NEK!'s first backdrop that I couldn't fit on Instagram! Such big smiles😂✊🏻
+      
+      (📸 by @bass_baka_Jk )
+    image:
+    - GTA_pcHaUAAaI04
+    - GTA_pcCaAAAOAh-
+    todo: more on instagram
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+
+- postx:
     id: 1926203870809608381
     account: natsu08_guitar
     label: Wherever you are / ワンオク
@@ -455,9 +485,9 @@
     video:
     - de045839-e5ef-4546-90d3-d6e3f4cb9f34
     part-of:
-      show:
-        year: 2024
-        id: 1stonemanlive
+      postxvideo:
+        post: 1926203870809608381
+        video: de045839-e5ef-4546-90d3-d6e3f4cb9f34
 
 - postximage:
     post: 1770439921956012126
@@ -476,6 +506,10 @@
     id: GS6SaeCbMAI7xpQ
     label: Sidewalk board
     published-date: 2024-07-20
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
     part-of:
       postx: 1814548778395054082
 
@@ -484,6 +518,10 @@
     id: GS6SaeFbMAMPdm3
     label: On stage
     published-date: 2024-07-20
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
     part-of:
       postx: 1814548778395054082
 
@@ -492,6 +530,10 @@
     id: GS6SaeSbgAAkY_U
     label: On stage
     published-date: 2024-07-20
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
     part-of:
       postx: 1814548778395054082
 
@@ -501,9 +543,39 @@
     label: Backstage
     info: Kanade, Cocoro
     published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
     todo: link to show
     part-of:
       postx: 1814848169022530039
+
+- postximage:
+    post: 1815020650278637844
+    id: GTA_pcCaAAAOAh-
+    label: Drum kit
+    info: Cocoro
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postx: 1815020650278637844
+
+- postximage:
+    post: 1815020650278637844
+    id: GTA_pcHaUAAaI04
+    label: Drum kit
+    info: Cocoro
+    published-date: 2024-07-21
+    context:
+    - show:
+        year: 2024
+        id: 1stonemanlive
+    part-of:
+      postx: 1815020650278637844
 
 - postxvideo:
     post: 1926203870809608381
@@ -517,7 +589,9 @@
         year: 2024
         id: 1stonemanlive
     part-of:
-      postx: 1926203870809608381
+      show:
+        year: 2024
+        id: 1stonemanlive
 
 - postyoutube:
     id: UgkxqAnpOEvogdg4EMucH3hcBmjSn7Ni-HRP

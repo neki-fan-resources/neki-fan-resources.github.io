@@ -249,6 +249,22 @@
         year: 2024
         id: ignition
 
+- postx:
+    id: 1855050058334716223
+    account: coco_102
+    label: ENDLESSGAME ? on stage
+    published-date: 2024-11-09
+    text: |-
+      このアウトロ前の一連の流れ楽しい🎮🔥
+    translation: |-
+      This whole sequence before the outro is so much fun🎮🔥
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1855050058334716223
+        video: 01
+
 - postximage:
     post: 1854050886647173628
     id: GbroRIOa8AAzJCY
@@ -304,7 +320,27 @@
     label: Bands
     info: NEK!, Bray me
     published-date: 2024-11-06
+    context:
+    - show:
+        year: 2024
+        id: ignition
     todo: check band name
     part-of:
       postx: 1854206872095797427
+
+- postxvideo:
+    post: 1855050058334716223
+    id: 01
+    label: Cocoro-cam
+    published-date: 2024-11-09
+    cover: 1855049998918205441/pu/img/jomFUnsE-IaybRUZ.jpg
+    context:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      show:
+        year: 2024
+        id: ignition
 

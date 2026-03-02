@@ -25,21 +25,27 @@
                 - postximage:
                     post: 1766464470363324596
                     image: GIO92KpbEAAAZDw
-                - postximage:
-                    post: 1766358235748110623
-                    image: GINdcN-bgAEl9zU
+                - postinstagramimage:
+                    post: C4Sb3qchJew
+                    image: 01
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1766325171030564920
                     image: GIM_YLhbcAAWN0m
                 - postximage:
+                    post: 1766358235748110623
+                    image: GINdcN-bgAEl9zU
+            - multimediasubsection:
+                multimedia:
+                - postximage:
                     post: 1766356697961165080
                     image: GINcDdHawAAWX0B
+            - multimediasubsection:
+                multimedia:
                 - postinstagramimage:
                     post: C4Sh0puxkc6
                     image: 03
-                - postinstagramimage:
-                    post: C4Sb3qchJew
-                    image: 01
         - basicsection:
             label: At the venue
             subsections:

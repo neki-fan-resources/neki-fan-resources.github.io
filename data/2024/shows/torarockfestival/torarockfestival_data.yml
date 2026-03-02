@@ -306,6 +306,10 @@
     id: GWS2G-MW8AImdM_
     label: On stage
     published-date: 2024-08-31
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
     part-of:
       postx: 1829787584555586011
 
@@ -314,6 +318,10 @@
     id: GWS2G-SWgAAH7Ld
     label: On stage
     published-date: 2024-08-31
+    context:
+    - show:
+        year: 2024
+        id: torarockfestival
     part-of:
       postx: 1829787584555586011
 

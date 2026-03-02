@@ -14,6 +14,56 @@
         id: eradiocatch
 
 - postx:
+    id: 1937752512972587323
+    account: eradio_official
+    label: After the show
+    published-date: 2025-06-25
+    text: |-
+      🎸#キャッチ水曜日 🎸
+      
+      ネット発のスラングロックバンド
+      NEK! (
+      @nekiband_jp
+      ) から
+      #Hika (
+      @46_hikaa
+      ) さんと 
+      #Natsu (
+      @Natsu08_guitar
+      ) さんにリモート生出演していただきました❗️
+      
+      今日の放送はこちら💁▼  https://radiko.jp/share/?t=20250625142410&sid=E-RADIO 
+      
+      #FM滋賀 #eardio
+      #キャッチ770 
+      #NEKI
+    translation: |-
+      🎸#CatchWednesday 🎸
+      
+      From the net-born slang rock band
+      NEK! (
+      @nekiband_jp
+      ),
+      #Hika (
+      @46_hikaa
+      ) and 
+      #Natsu (
+      @Natsu08_guitar
+      ) appeared live remotely❗️
+      
+      Listen to today's broadcast here💁▼  https://radiko.jp/share/?t=20250625142410&sid=E-RADIO 
+      
+      #FMShiga #eradio
+      #Catch770 
+      #NEKI
+    image:
+    - GuRHoosbYAAzfIJ
+    part-of:
+      media:
+        year: 2025
+        id: eradiocatch
+
+- postx:
     id: 1937893514588938621
     account: 46_hikaa
     label: Remote appearance
@@ -28,6 +78,20 @@
       media:
         year: 2025
         id: eradiocatch
+
+- postximage:
+    post: 1937752512972587323
+    id: GuRHoosbYAAzfIJ
+    label: _
+    info: Hika, Natsu
+    published-date: 2025-06-25
+    context:
+    - media:
+        year: 2025
+        id: eradiocatch
+    todo: put in main section
+    part-of:
+      postx: 1937752512972587323
 
 - postximage:
     post: 1937893514588938621

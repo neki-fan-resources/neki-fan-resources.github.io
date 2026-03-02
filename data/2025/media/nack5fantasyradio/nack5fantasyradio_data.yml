@@ -48,6 +48,42 @@
         year: 2025
         id: nack5fantasyradio
 
+- postx:
+    id: 1903504110907015360
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-03-22
+    text: |-
+      NACK5「FANTSY RADIO」 📻
+      ありがとうございました☺︎
+      
+      色々とお話しできて嬉しかったです❤️‍🔥
+      アーカイブもあるので聴き逃した方はぜひ聴いてくださいね🎧
+      
+      https://radiko.jp/share/?t=20250322253000&sid=NACK5
+      
+      遅い時間まで起きててくださり、ありがとうございました！！💤
+      
+      #ファンラジ795 #nack5
+    translation: |-
+      NACK5 "FANTSY RADIO" 📻
+      Thank you very much☺︎
+      
+      I was happy to be able to talk about various things❤️‍🔥
+      There is an archive, so if you missed it, please give it a listen🎧
+      
+      https://radiko.jp/share/?t=20250322253000&sid=NACK5
+      
+      Thank you for staying up late with us!!💤
+      
+      #FanRadi795 #nack5
+    image:
+    - Gmqa5YYbwAAztGi
+    part-of:
+      media:
+        year: 2025
+        id: nack5fantasyradio
+
 - postximage:
     post: 1903452529729695755
     id: Gmpr-0DaAAA6aKU
@@ -60,6 +96,19 @@
         id: nack5fantasyradio
     part-of:
       postx: 1903452529729695755
+
+- postximage:
+    post: 1903504110907015360
+    id: Gmqa5YYbwAAztGi
+    label: Blue ears
+    info: Hika, Natsu
+    published-date: 2025-03-22
+    context:
+    - media:
+        year: 2025
+        id: nack5fantasyradio
+    part-of:
+      postx: 1903504110907015360
 
 - youtubeshort:
     id: 2WXwyGdDMsM

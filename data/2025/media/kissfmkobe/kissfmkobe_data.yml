@@ -1,3 +1,18 @@
+- localimage:
+    media:
+      year: 2025
+      id: kissfmkobe
+    id: cover
+    label: cover
+    published-date: 2025-01-01
+    source:
+      description: RADICO page
+      url: 'https://radiko.jp/#!/ts/KISSFMKOBE/20250718150000'
+    part-of:
+      media:
+        year: 2025
+        id: kissfmkobe
+
 - postx:
     id: 1946059859910365569
     account: nekiband_jp

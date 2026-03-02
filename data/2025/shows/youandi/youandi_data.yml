@@ -198,6 +198,58 @@
         year: 2025
         id: youandi
 
+- postx:
+    id: 1883474280253665528
+    account: cure_bass_baka
+    label: Picture playing with a pick
+    published-date: 2025-01-26
+    text: |-
+      ライブではほぼ毎回ピックを使ってるけど、
+      写真に収めてもらったのは初めてだからレアに感じる！
+      
+      形はずっとおにぎり派🍙
+    translation: |-
+      I use a pick at almost every live show,
+      but this is the first time it's been captured in a photo, so it feels rare!
+      
+      I've always been a fan of the triangle shape🍙
+    image:
+    - GiNx3d2b0AAUFy7
+    todo: double check show
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+
+- postx:
+    id: 1884890104277459227
+    account: coco_102
+    label: MAZE on stage
+    info: Cocoro
+    published-date: 2025-01-30
+    text: |-
+      💥🌀MAZE🌀💥
+      
+      まじここの一連の流れ楽しすぎる〜〜！！
+      終始各パート最高な動きしてるんだけど、特に"秒でスワイプブロック"の後ろでやってるベースラインのうねり具合が聴いてて最高に気持ちいい🤘❤️‍🔥
+      フロアの掛け声もいい味出してる！！ほんと最高！
+      
+      続きも聴きたくなるけど、それはまた今度ね😈
+    translation: |-
+      💥🌀MAZE🌀💥
+      
+      This whole sequence here is just too much fun~~!!
+      Every part is doing amazing things from start to finish, but that swelling bassline playing behind "Swipe block in a sec" feels especially good to listen to🤘❤️‍🔥
+      The shouts from the floor add a great touch too!! Truly the best!
+      
+      I know it makes you want to hear the rest, but that's for next time😈
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1884890104277459227
+        video: 01
+
 - postximage:
     post: 1862471067115430271
     id: GdjTje-WMAA_rfZ
@@ -240,6 +292,10 @@
     id: GiM5YBjaAAALbCy
     label: On stage
     published-date: 2025-01-26
+    context:
+    - show:
+        year: 2025
+        id: youandi
     part-of:
       postx: 1883412170689679481
 
@@ -248,8 +304,40 @@
     id: GiM5YBlbIAAzYD9
     label: Backstage
     published-date: 2025-01-26
+    context:
+    - show:
+        year: 2025
+        id: youandi
     part-of:
       postx: 1883412170689679481
+
+- postximage:
+    post: 1883474280253665528
+    id: GiNx3d2b0AAUFy7
+    label: On stage
+    published-date: 2025-01-26
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postx: 1883474280253665528
+
+- postxvideo:
+    post: 1884890104277459227
+    id: 01
+    label: Cocoro-cam
+    published-date: 2025-01-30
+    cover: 1884889506333229056/img/IIEdH7IB8PecnPJ6.jpg
+    context:
+    - song: maze
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      show:
+        year: 2025
+        id: youandi
 
 - youtubeshort:
     id: QcmApJ-dFgE

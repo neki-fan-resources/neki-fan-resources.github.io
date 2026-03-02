@@ -73,14 +73,43 @@
     part-of:
       postx: 1910995521373970440
 
+- postx:
+    id: 1911062523048235361
+    account: coco_102
+    label: Go get it
+    published-date: 2025-04-12
+    text: |-
+      みんな今日発売のギタマガ絶対ゲットしてー！！
+      かっこいい写真と共に音楽愛がぎゅーっと詰まった長文インタビュー記事で、更になっちゃんの虜になること間違いなし🤤💛
+    translation: |-
+      Everyone, you've absolutely gotta get the Guitar Mag released today!!
+      With cool photos and a long interview article packed with love for music, there's no doubt you'll be even more captivated by Nacchan🤤💛
+    image:
+    - GoV1OrCXUAAj8cB
+    part-of:
+      postx: 1910995521373970440
+
 - postximage:
     post: 1911007047002603549
     id: GoVCwlLWwAA9fPr
     label: Selfie
     info: Hika, Natsu
     published-date: 2025-04-12
+    todo: where from ?
     part-of:
       postx: 1911007047002603549
+
+- postximage:
+    post: 1911062523048235361
+    id: GoV1OrCXUAAj8cB
+    label: Pointing up
+    published-date: 2025-04-12
+    context:
+    - media:
+        year: 2025
+        id: guitarmagazine05
+    part-of:
+      postx: 1911062523048235361
 
 - webimage:
     domain: guitarmagazine.jp

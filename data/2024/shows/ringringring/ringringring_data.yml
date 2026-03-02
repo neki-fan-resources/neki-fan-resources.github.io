@@ -217,6 +217,68 @@
         year: 2024
         id: ringringring
 
+- postx:
+    id: 1832778813283225804
+    account: EMANON_0308
+    label: Thank you
+    info: 1 extra image with 2winkle_wink
+    published-date: 2024-09-08
+    text: |-
+      LIVEHOLIC 9th Anniversaryseries
+      ~Ring! Ring! Ring!~
+      
+      本日御一緒させて頂いた、
+      
+      NEK! さん
+      2winkle wink さん
+      
+      ありがとうございました❤️‍🔥
+      
+      #EMANON
+    translation: |-
+      LIVEHOLIC 9th Anniversary series
+      ~Ring! Ring! Ring!~
+      
+      To those we performed with today,
+      
+      NEK!
+      2winkle wink
+      
+      Thank you very much❤️‍🔥
+      
+      #EMANON
+    image:
+    - GW9WnF1b0AAwDrP
+    part-of:
+      show:
+        year: 2024
+        id: ringringring
+
+- postx:
+    id: 1832792903313453332
+    account: hannalyne_gt
+    label: Thank you
+    info: 2 other pictures. Selfie. with EMANON
+    published-date: 2024-09-08
+    text: |-
+      下北沢LIVEHOLIC9周年おめでとうございます！
+      
+      ライブありがとうございました〜🤍
+      
+      ご一緒したEMANONさんNEK!さんと📸
+    translation: |-
+      Congratulations on the 9th Anniversary of Shimokitazawa LIVEHOLIC!
+      
+      Thank you for the live show〜🤍
+      
+      With EMANON and NEK! who we performed with📸
+    image:
+    - GW9jbhubwAA_gk-
+    part-of:
+      show:
+        year: 2024
+        id: ringringring
+
 - postximage:
     post: 1811718141904585180
     id: GSSEBGlbgAAjIR2
@@ -247,6 +309,10 @@
     id: GW9S0LXaYAAvn-w
     label: Poster
     published-date: 2024-09-08
+    context:
+    - show:
+        year: 2024
+        id: ringringring
     part-of:
       postx: 1832774653900947846
 
@@ -255,6 +321,38 @@
     id: GW9S0LYagAEnBpP
     label: On stage
     published-date: 2024-09-08
+    context:
+    - show:
+        year: 2024
+        id: ringringring
     part-of:
       postx: 1832774653900947846
+
+- postximage:
+    post: 1832778813283225804
+    id: GW9WnF1b0AAwDrP
+    label: Backstage
+    info: NEK!, EMANON
+    published-date: 2024-09-08
+    context:
+    - show:
+        year: 2024
+        id: ringringring
+    todo: check band name
+    part-of:
+      postx: 1832778813283225804
+
+- postximage:
+    post: 1832792903313453332
+    id: GW9jbhubwAA_gk-
+    label: Backstage
+    info: NEK!,
+    published-date: 2024-09-08
+    context:
+    - show:
+        year: 2024
+        id: ringringring
+    todo: who are the other artists
+    part-of:
+      postx: 1832792903313453332
 

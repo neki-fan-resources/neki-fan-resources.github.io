@@ -327,9 +327,9 @@
     video:
     - 37e3c46f-d463-4507-8090-19abc74c839b
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      postxvideo:
+        post: 1919977679027372546
+        video: 37e3c46f-d463-4507-8090-19abc74c839b
 
 - postx:
     id: 1920401532488724860
@@ -396,9 +396,9 @@
     video:
     - 890f9d50-48f5-4914-9d1f-223e9a52a452
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      postxvideo:
+        post: 1921828183369781385
+        video: 890f9d50-48f5-4914-9d1f-223e9a52a452
 
 - postx:
     id: 1922588708026404968
@@ -414,9 +414,9 @@
     video:
     - 4c117af0-984b-4ba9-8a30-e82f968dd226
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      postxvideo:
+        post: 1922588708026404968
+        video: 4c117af0-984b-4ba9-8a30-e82f968dd226
 
 - postx:
     id: 1926928034944213276
@@ -434,9 +434,9 @@
     video:
     - d7408dbc-320f-41a5-8e45-5ce994c99049
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      postxvideo:
+        post: 1926928034944213276
+        video: d7408dbc-320f-41a5-8e45-5ce994c99049
 
 - postx:
     id: 1929389485147721772
@@ -470,6 +470,29 @@
     - show:
         year: 2025
         id: nekikomsumetokyo
+
+- postx:
+    id: 1929825611658543471
+    account: skream_japan
+    label: Show report
+    published-date: 2025-06-03
+    text: |-
+      下北沢LIVEHOLIC主催"革命ロジック2025"のライヴ・レポート公開。NEK!、終活クラブ、shallm、梟note、PompadollS等編集部イチオシアーティスト集結"Skream! STAGE"をレポート
+      https://skream.jp/news/2025/06/kakumeilogic_livereport.php
+      
+      #革命ロジック2025
+    translation: |-
+      Live report for "Kakumei Logic 2025" hosted by Shimokitazawa LIVEHOLIC has been released. Reporting on "Skream! STAGE" where editorial-recommended artists like NEK!, Shukatsu Club, shallm, Fukurow Note, PompadollS, and more gathered
+      https://skream.jp/news/2025/06/kakumeilogic_livereport.php
+      
+      #KakumeiLogic2025
+    image:
+    - GsgdTzXawAAeCzx
+    todo: check report.
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - postx:
     id: 1935184418047672438
@@ -573,6 +596,20 @@
     part-of:
       postx: 1918967431936053416
 
+- postximage:
+    post: 1929825611658543471
+    id: GsgdTzXawAAeCzx
+    label: flyer
+    info: picture of the bands singers
+    published-date: 2025-06-03
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    todo: move to main
+    part-of:
+      postx: 1929825611658543471
+
 - postxvideo:
     post: 1903038891042673069
     id: bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
@@ -633,7 +670,9 @@
         id: kakumeilogic2025
     - song: maze
     part-of:
-      postx: 1919977679027372546
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - postxvideo:
     post: 1920401532488724860
@@ -681,7 +720,9 @@
         id: kakumeilogic2025
     - song: ooak
     part-of:
-      postx: 1921828183369781385
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - postxvideo:
     post: 1922588708026404968
@@ -696,7 +737,9 @@
         id: kakumeilogic2025
     - song: endlessgame
     part-of:
-      postx: 1922588708026404968
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - postxvideo:
     post: 1926928034944213276
@@ -711,7 +754,9 @@
         id: kakumeilogic2025
     - song: maze
     part-of:
-      postx: 1926928034944213276
+      show:
+        year: 2025
+        id: kakumeilogic2025
 
 - postxvideo:
     post: 1929389485147721772
@@ -799,6 +844,7 @@
     - show:
         year: 2025
         id: kakumeilogic2025
+    - song: maze
     part-of:
       show:
         year: 2025

@@ -1046,9 +1046,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: 1stalbummeme
+      postxvideo:
+        post: 1996143103410061620
+        video: 01
 
 - postx:
     id: 1996909339790151834
@@ -1128,9 +1128,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: 1stalbummeme
+      postxvideo:
+        post: 2001242203549786245
+        video: 01
 
 - postximage:
     post: 1961739772080136281
@@ -1350,7 +1350,9 @@
         id: 1stalbummeme
     - song: gimmick
     part-of:
-      postx: 1996143103410061620
+      show:
+        year: 2025
+        id: 1stalbummeme
 
 - postxvideo:
     post: 1996909339790151834
@@ -1399,7 +1401,9 @@
         id: 1stalbummeme
     - song: clockup
     part-of:
-      postx: 2001242203549786245
+      show:
+        year: 2025
+        id: 1stalbummeme
 
 - update:
     show:

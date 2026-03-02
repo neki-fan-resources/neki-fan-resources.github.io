@@ -57,6 +57,7 @@
     - media:
         year: 2025
         id: fmosaka
+    todo: 'dup from radio show '
     part-of:
       postinstagram: DMUiCxHRubY
 
@@ -143,6 +144,59 @@
         id: nekikomsumeosaka
 
 - postx:
+    id: 1946211690053505475
+    account: cure_bass_baka
+    label: Thank you
+    info: selfie backstage at NEK!xkomsume Osaka
+    published-date: 2025-07-18
+    text: |-
+      NEK!×komsumeのツーマンライブ2公演終了しました。
+      2公演どちらもたくさんの人にお越しいただき嬉しかったし、komsumeさんとも仲良くお話できて本当に嬉しかったです！
+      見に来てくれた方や、関わって下さった方もありがとうございました！
+      
+      P.S.髪を切りすぎた隠しで初帽子ライブでした🧢
+    translation: |-
+      The two NEK! x komsume two-man live shows have come to an end.
+      I was so happy that so many people came to both performances, and I was really glad I got to chat and become friends with everyone from komsume!
+      To everyone who came to see us and everyone involved, thank you so much!
+      
+      P.S. It was my first live show wearing a hat because I cut my hair too short and was hiding it🧢
+    image:
+    - GwJVNGlboAAgHRY
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
+    id: 1946214112306069505
+    account: coco_102
+    label: Thank you
+    published-date: 2025-07-18
+    text: |-
+      komsume × NEK!ツーマン大阪編終了しました‼️💥
+      フロアを盛り上げてくれた皆さん本当にありがとう！
+      大阪も溶けちゃいそうなくらい最高にアツかったね🫠
+      komsumeさん今日もバチバチでかっこよかったー！
+      
+      今日初めて知ってくれた方はぜひ8/30のZeppワンマンも遊びに来てね🔥
+    translation: |-
+      The komsume × NEK! two-man show Osaka edition has ended‼️💥
+      Thank you so much to everyone who hyped up the floor!
+      Osaka was incredibly hot, felt like I was going to melt🫠
+      komsume were super sharp and cool today too—!
+      
+      If you just found out about us today, please come hang out at our Zepp solo show on 8/30 too🔥
+    image:
+    - GwJXZfnaMAAULly
+    - GwJXZgPXQAACj8v
+    - GwJXZgUXcAAGupz
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
+- postx:
     id: 1946216562014208089
     account: natsu08_guitar
     label: Thank you
@@ -222,9 +276,9 @@
     - 01
     todo: which song ?
     part-of:
-      show:
-        year: 2025
-        id: nekikomsumeosaka
+      postxvideo:
+        post: 1946522055312331049
+        video: 01
 
 - postx:
     id: 1946903555937616050
@@ -249,9 +303,9 @@
     - 01
     todo: people film MAZE, check for images
     part-of:
-      show:
-        year: 2025
-        id: nekikomsumeosaka
+      postxvideo:
+        post: 1946903555937616050
+        video: 01
 
 - postx:
     id: 1947241076508488042
@@ -350,6 +404,58 @@
         id: nekikomsumeosaka
     part-of:
       postx: 1946195551969849807
+
+- postximage:
+    post: 1946211690053505475
+    id: GwJVNGlboAAgHRY
+    label: Backstage
+    info: Kanade
+    published-date: 2025-07-18
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946211690053505475
+
+- postximage:
+    post: 1946214112306069505
+    id: GwJXZfnaMAAULly
+    label: Backstage
+    published-date: 2026-01-30
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946214112306069505
+
+- postximage:
+    post: 1946214112306069505
+    id: GwJXZgPXQAACj8v
+    label: Backstage
+    info: Cocoro, Komsume drummer
+    published-date: 2026-01-30
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    todo: Komsume drummer name
+    part-of:
+      postx: 1946214112306069505
+
+- postximage:
+    post: 1946214112306069505
+    id: GwJXZgUXcAAGupz
+    label: Backstage
+    info: Komsume, NEK!
+    published-date: 2026-01-30
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumeosaka
+    part-of:
+      postx: 1946214112306069505
 
 - postximage:
     post: 1946216562014208089
@@ -453,7 +559,9 @@
         id: nekikomsumeosaka
     - song: clockup
     part-of:
-      postx: 1946522055312331049
+      show:
+        year: 2025
+        id: nekikomsumeosaka
 
 - postxvideo:
     post: 1946903555937616050
@@ -467,7 +575,9 @@
         id: nekikomsumeosaka
     - song: maze
     part-of:
-      postx: 1946903555937616050
+      show:
+        year: 2025
+        id: nekikomsumeosaka
 
 - postxvideo:
     post: 1947241076508488042

@@ -315,6 +315,10 @@
     id: GdZdMhdaoAARviY
     label: On stage
     published-date: 2024-11-27
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
     part-of:
       postx: 1861777970496737413
 
@@ -323,6 +327,10 @@
     id: GdZdMhdbgAA1c76
     label: On stage
     published-date: 2024-11-27
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
     part-of:
       postx: 1861777970496737413
 

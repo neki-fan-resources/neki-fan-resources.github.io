@@ -159,6 +159,35 @@
         id: popoutvol11
 
 - postx:
+    id: 1799078045346894197
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-06-07
+    text: |-
+      ラストランプpresents.
+      「POP OUT!!vol.11」
+      @ 六本木unravel tokyo
+      
+      ありがとうございました🫶
+      
+      #NEKI
+    translation: |-
+      Last Lamp presents.
+      "POP OUT!! vol.11"
+      @ Roppongi unravel tokyo
+      
+      Thank you very much 🫶
+      
+      #NEKI
+    image:
+    - GPeb7_jaAAIxU5q
+    - GPeb7_kbgAALvRQ
+    part-of:
+      show:
+        year: 2024
+        id: popoutvol11
+
+- postx:
     id: 1799084157886460002
     account: lastlamp_band
     label: Thank you
@@ -228,10 +257,38 @@
       postx: 1780522894059299287
 
 - postximage:
+    post: 1799078045346894197
+    id: GPeb7_jaAAIxU5q
+    label: On stage
+    published-date: 2024-06-07
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
+    part-of:
+      postx: 1799078045346894197
+
+- postximage:
+    post: 1799078045346894197
+    id: GPeb7_kbgAALvRQ
+    label: Venue logo
+    published-date: 2024-06-07
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
+    part-of:
+      postx: 1799078045346894197
+
+- postximage:
     post: 1799084157886460002
     id: GPehcB0bMAAvs-e
     label: The bands
     published-date: 2024-06-07
+    context:
+    - show:
+        year: 2024
+        id: popoutvol11
     part-of:
       postx: 1799084157886460002
 

@@ -636,6 +636,33 @@
         year: 2024
         id: overfest2024
 
+- postx:
+    id: 1862783388379427135
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-11-30
+    text: |-
+      SNAZZY TUNES × over print presents over fest 2024
+      @ 下北沢MOSAiC
+      
+      ありがとうございました❤️‍🔥
+      
+      #NEKI
+    translation: |-
+      SNAZZY TUNES × over print presents over fest 2024
+      @ Shimokitazawa MOSAiC
+      
+      Thank you so much❤️‍🔥
+      
+      #NEKI
+    image:
+    - Gdnvm7pWoAAfx3P
+    - Gdnvm7fW0AAPIlZ
+    part-of:
+      show:
+        year: 2024
+        id: overfest2024
+
 - postximage:
     post: 1849767870085070976
     id: Gauxt5FaEAAI_Kp
@@ -720,6 +747,30 @@
         id: overfest2024
     part-of:
       postx: 1861718358452056477
+
+- postximage:
+    post: 1862783388379427135
+    id: Gdnvm7fW0AAPIlZ
+    label: Signed card
+    published-date: 2024-11-30
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
+    part-of:
+      postx: 1862783388379427135
+
+- postximage:
+    post: 1862783388379427135
+    id: Gdnvm7pWoAAfx3P
+    label: On stage
+    published-date: 2024-11-30
+    context:
+    - show:
+        year: 2024
+        id: overfest2024
+    part-of:
+      postx: 1862783388379427135
 
 - youtubeshort:
     id: '-mmjisKakXU'

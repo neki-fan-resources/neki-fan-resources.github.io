@@ -184,6 +184,35 @@
         year: 2024
         id: guvol357
 
+- postx:
+    id: 1807812700061495298
+    account: mariakoutou777
+    label: Thank you
+    info: other images with ReBoom
+    published-date: 2024-07-01
+    text: |-
+      共演者様と📸
+      
+      #ReBoom 今日初ライブなんだって！
+      そう思えないくらい、みんなのグルーブ凄かった😆楽屋でも仲良くしてくれてありがとう♥️
+      サブスク解禁されたらしいよ🤩
+      
+      #NEKI 実は目元キラキラをお揃いでつけちゃった✨ライブめっちゃかっこよかった😎キラナさんがラメくれたんだ♡
+    translation: |-
+      With our fellow performers📸
+      
+      #ReBoom They had their first live show today!
+      Their groove was incredible, you wouldn't think it was their first😆 Thanks for being friendly in the dressing room too♥️
+      It seems their music has been released for subscription🤩
+      
+      #NEKI We actually put on matching sparkle makeup around our eyes✨ The live show was really cool😎 Kirana-san gave me the glitter♡
+    image:
+    - GRakD3hbIAA3Vx5
+    part-of:
+      show:
+        year: 2024
+        id: guvol357
+
 - postximage:
     post: 1807675589555523709
     id: GRYmoBmbgAAlnIh
@@ -202,6 +231,10 @@
     id: GRaFgtuaUAAGh-u
     label: On stage
     published-date: 2024-07-01
+    context:
+    - show:
+        year: 2024
+        id: guvol357
     part-of:
       postx: 1807779104399520011
 
@@ -210,6 +243,24 @@
     id: GRaFgtwacAA-6Hg
     label: Sidewalk board
     published-date: 2024-07-01
+    context:
+    - show:
+        year: 2024
+        id: guvol357
     part-of:
       postx: 1807779104399520011
+
+- postximage:
+    post: 1807812700061495298
+    id: GRakD3hbIAA3Vx5
+    label: Backstage
+    info: NEK!
+    published-date: 2024-07-01
+    context:
+    - show:
+        year: 2024
+        id: guvol357
+    todo: other artist name
+    part-of:
+      postx: 1807812700061495298
 

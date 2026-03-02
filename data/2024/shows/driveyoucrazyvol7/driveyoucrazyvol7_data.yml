@@ -276,6 +276,10 @@
     id: GSiD564bQAA-s2S
     label: Sidewalk board
     published-date: 2024-07-15
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
     part-of:
       postx: 1812843895589650878
 
@@ -284,6 +288,10 @@
     id: GSiD565aoAER_oO
     label: On stage
     published-date: 2024-07-15
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
     part-of:
       postx: 1812843895589650878
 
@@ -292,6 +300,10 @@
     id: GSiRfMEawAAno3m
     label: All bands
     published-date: 2024-07-15
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
     part-of:
       postx: 1812858834458976320
 
@@ -301,6 +313,10 @@
     label: With AYA
     info: NEK!, AYA
     published-date: 2024-07-16
+    context:
+    - show:
+        year: 2024
+        id: driveyoucrazyvol7
     todo: check Aya name
     part-of:
       postx: 1813062901760205295

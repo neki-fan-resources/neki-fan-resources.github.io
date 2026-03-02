@@ -1,3 +1,123 @@
+- postx:
+    id: 1898350113669652494
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2025-03-08
+    text: |-
+      NEK! 1stワンマンツアー
+      「TR!CK TAK!NG」
+      @ アメリカ村DROP
+      
+      あっちぃ〜ツアー初日！！！！
+      ご来場ありがとうございました🔥
+      
+      明日は愛知にて🎸
+      
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    translation: |-
+      NEK! 1st One-Man Tour
+      「TR!CK TAK!NG」
+      @ Amerikamura DROP
+      
+      Such a hot tour opening day!!!!
+      Thank you for coming🔥
+      
+      Tomorrow in Aichi🎸
+      
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    image:
+    - GlhLSvob0AA33ON
+    - GlhLSvnbEAEpAZA
+    - GlhLSvqaQAAiEC_
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourosaka
+
+- postx:
+    id: 1898352550006460752
+    account: Hatano_dj
+    label: About the band progression
+    published-date: 2025-03-08
+    text: |-
+      NEK! 1stワンマンツアー「TR!CK TAK!NG」@ アメリカ村DROP
+      
+      トリックテイキングは、小さな勝負を繰り返してポイントを獲得していくゲームだけど、着実に1歩ずつ階段を上がる4人の強さを見ました！
+      
+      MCで「今日は初めてのことをしました」って言ってくれたのは……また告知します🥹
+      
+      #NEKI  #RI802
+    translation: |-
+      NEK! 1st One-Man Tour 「TR!CK TAK!NG」 @ Amerikamura DROP
+      
+      Trick-taking is a game where you gain points by winning small rounds repeatedly, and I saw the strength of the four members as they steadily climb the stairs one step at a time!
+      
+      The thing they said in the MC, "We did something for the first time today"... I will announce that later🥹
+      
+      #NEKI #RI802
+    image:
+    - GlhMWylbUAAyJK5
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourosaka
+    reference:
+    - media:
+        year: 2025
+        id: fm802infinityradio
+
+- postximage:
+    post: 1898350113669652494
+    id: GlhLSvnbEAEpAZA
+    label: On stage
+    published-date: 2025-03-08
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    part-of:
+      postx: 1898350113669652494
+
+- postximage:
+    post: 1898350113669652494
+    id: GlhLSvob0AA33ON
+    label: Backstage
+    published-date: 2025-03-08
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    part-of:
+      postx: 1898350113669652494
+
+- postximage:
+    post: 1898350113669652494
+    id: GlhLSvqaQAAiEC_
+    label: On stage
+    published-date: 2025-03-08
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    part-of:
+      postx: 1898350113669652494
+
+- postximage:
+    post: 1898352550006460752
+    id: GlhMWylbUAAyJK5
+    label: Sidewalk board
+    published-date: 2025-03-08
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourosaka
+    part-of:
+      postx: 1898352550006460752
+
 - youtubeshort:
     id: CCDQdwNBias
     label: Show

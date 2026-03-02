@@ -983,6 +983,52 @@
       postinstagram: DMApYE6Rkns
 
 - postx:
+    id: 1868274064198090786
+    account: nekiband_jp
+    label: Tickets
+    published-date: 2024-12-15
+    text: |-
+      ❣️ONE MAN LIVE❣️
+      
+      12/29(日)
+      「NEK! DEBUT YEAR LAST LIVE」
+      ＠ 下北沢シャングリラ
+      
+      チケット先着販売受付中❤️‍🔥
+      
+      ご来場お待ちしています！
+      
+      詳細・受付はこちら▼
+      https://t.livepocket.jp/e/nekidebutyearlastlive
+      
+      #NEKI #デビューイヤーラストライブ
+    translation: |-
+      ❣️ONE MAN LIVE❣️
+      
+      12/29(Sun)
+      「NEK! DEBUT YEAR LAST LIVE」
+      @ Shimokitazawa Shangri-La
+      
+      First-come, first-served ticket sales now open❤️‍🔥
+      
+      We are looking forward to seeing you there!
+      
+      Details and registration here▼
+      https://t.livepocket.jp/e/nekidebutyearlastlive
+      
+      #NEKI #DebutYearLastLive
+    image:
+    - Ge1xW0-bUAAtAs1
+    - Ge1xW0_akAA2LFJ
+    - Ge1xW0_a4AARwNj
+    - Ge1xW1Ab0AAGZt4
+    todo: which shows ? check if the images have already been shared
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postx:
     id: 1872916409728287239
     account: coco_102
     label: Looking back
@@ -1035,6 +1081,42 @@
       #NEKI #DebutYearLastLive
     image:
     - Gf4ZjHBbwAAzMkS
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postx:
+    id: 1873308698447343663
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-12-29
+    text: |-
+      NEK! DEBUT YEAR LAST LIVE
+      ＠ 下北沢シャングリラ
+      
+      THANK YOU SOLD OUT🔥
+      
+      ご来場いただきありがとうございました❣️
+      
+      NEK!の夢は始まったばかりです！
+      これからも応援してくださる皆さまと共に・・・!!!!
+      
+      #NEKI
+    translation: |-
+      NEK! DEBUT YEAR LAST LIVE
+      @ Shimokitazawa Shangri-La
+      
+      THANK YOU SOLD OUT🔥
+      
+      Thank you so much for coming❣️
+      
+      NEK!'s dream has only just begun!
+      From here on, together with everyone who supports us...!!!!
+      
+      #NEKI
+    image:
+    - Gf9BKJEawAIGr2R
     part-of:
       show:
         year: 2024
@@ -1107,6 +1189,52 @@
         video: 01
 
 - postx:
+    id: 1877252477071872148
+    account: coco_102
+    label: Meow
+    published-date: 2025-01-09
+    text: |-
+      にゃー🐱
+      
+      Photo by 
+      @tm_livephoto
+    translation: |-
+      Meow🐱
+      
+      Photo by 
+      @tm_livephoto
+    image:
+    - Gg1XJ0MaMAIVoZ8
+    - Gg1XJ0LaYAAjfJx
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postx:
+    id: 1878367875968487444
+    account: coco_102
+    label: Clock up! on stage
+    info: Cocoro
+    published-date: 2025-01-12
+    text: |-
+      2か月前くらいに初解禁した新曲のアウトロ部分！！
+      
+      BPM 210で疾走感のある、各パート技詰め込みまくりの、爽快でハッピーな気持ちになる王道ロック⚡️
+      ぜひライブに足を運んでフルで聴いていただきたいです！
+    translation: |-
+      Outro of the new song we premiered about two months ago!!
+      
+      It's a straight-up rock track at 210 BPM with a sense of speed, packed with technical skill from every part, making you feel refreshed and happy⚡️
+      I really want you to come to a live show and hear the full version!
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1878367875968487444
+        video: 01
+
+- postx:
     id: 1920434632379580460
     account: nekiband_jp
     label: MC
@@ -1123,6 +1251,58 @@
       show:
         year: 2024
         id: debutyearlastlive
+
+- postximage:
+    post: 1868274064198090786
+    id: Ge1xW0-bUAAtAs1
+    label: On stage
+    info: Hika
+    published-date: 2024-12-15
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1868274064198090786
+
+- postximage:
+    post: 1868274064198090786
+    id: Ge1xW0_a4AARwNj
+    label: On stage
+    info: Kanade
+    published-date: 2024-12-15
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1868274064198090786
+
+- postximage:
+    post: 1868274064198090786
+    id: Ge1xW0_akAA2LFJ
+    label: On stage
+    info: Natsu
+    published-date: 2024-12-15
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1868274064198090786
+
+- postximage:
+    post: 1868274064198090786
+    id: Ge1xW1Ab0AAGZt4
+    label: On stage
+    info: Cocoro
+    published-date: 2024-12-15
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1868274064198090786
 
 - postximage:
     post: 1872916409728287239
@@ -1148,10 +1328,26 @@
       postx: 1872962594677649515
 
 - postximage:
+    post: 1873308698447343663
+    id: Gf9BKJEawAIGr2R
+    label: On stage
+    published-date: 2024-12-29
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1873308698447343663
+
+- postximage:
     post: 1873370892325224528
     id: Gf-M5a0aAAADTtd
     label: T-shirts
     published-date: 2024-12-29
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
     part-of:
       postx: 1873370892325224528
 
@@ -1161,8 +1357,38 @@
     label: On stage
     info: Cocoro
     published-date: 2024-12-31
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
     part-of:
       postx: 1873932155568742631
+
+- postximage:
+    post: 1877252477071872148
+    id: Gg1XJ0LaYAAjfJx
+    label: On stage
+    info: Cocoro, cajón
+    published-date: 2025-01-09
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1877252477071872148
+
+- postximage:
+    post: 1877252477071872148
+    id: Gg1XJ0MaMAIVoZ8
+    label: On stage
+    info: Cocoro, cajón
+    published-date: 2025-01-09
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 1877252477071872148
 
 - postxvideo:
     post: 1875769615437197318
@@ -1177,6 +1403,23 @@
         year: 2024
         id: debutyearlastlive
     todo: double check show
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
+- postxvideo:
+    post: 1878367875968487444
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2025-01-12
+    cover: 1878367773241597952/pu/img/vCbCCMI43qHA-u_g.jpg
+    context:
+    - song: clockup
+    - show:
+        year: 2024
+        id: debutyearlastlive
     part-of:
       show:
         year: 2024

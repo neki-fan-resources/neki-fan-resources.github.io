@@ -98,6 +98,29 @@
         year: 2025
         id: nack5kirasuta
 
+- postx:
+    id: 1947255012091900252
+    account: coco_102
+    label: Great time at NACK5. Also met the bunny
+    info: image - selfie with Hika and bunnies, in front of the big bunny.
+    published-date: 2025-07-21
+    text: |-
+      #キラスタ ゲスト生出演終わりましたー！
+      
+      私は初のNACK5出演でしたが、酒井直斗さんと斉藤百香さんのおかげで楽しくおしゃべりできました！念願のらじっと君にも会えたよ〜
+      
+      ぜひアーカイブでもお楽しみください👂🏻🩵
+    translation: |-
+      #KiraSuta Guest live appearance is over!
+      
+      It was my first time appearing on NACK5, but thanks to Naoto Sakai-san and Momoka Saito-san, I had a great time chatting! I even got to meet the long-awaited Raditto-kun~
+      
+      Please enjoy the archive as well👂🏻🩵
+    image:
+    - GwYKGoAbwAAXOLf
+    part-of:
+      postx: 1947243502485827926
+
 - postximage:
     post: 1947243502485827926
     id: GwX9JI8akAAhy3E
@@ -136,6 +159,19 @@
         id: nack5kirasuta
     part-of:
       postx: 1947246427605700942
+
+- postximage:
+    post: 1947255012091900252
+    id: GwYKGoAbwAAXOLf
+    label: At the station
+    info: Cocoro, Hika
+    published-date: 2025-07-21
+    context:
+    - media:
+        year: 2025
+        id: nack5kirasuta
+    part-of:
+      postx: 1947255012091900252
 
 - youtubeshort:
     id: FC2ESHWNU1M

@@ -32,6 +32,34 @@
     part-of:
       event: 1yearanniversary
 
+- postx:
+    id: 1888877660820156712
+    account: nekiband_jp
+    label: Archive available
+    published-date: 2025-02-10
+    text: |-
+      インスタライブご視聴ありがとうございました🫶
+      
+      2年目のNEK!もよろしくお願いします！
+      
+      アーカイブもありますのでぜひご視聴ください💭
+      https://instagram.com/reel/DF4r06dRqXD/?igsh=MWF1azh6OXJ4N21kOA==
+      
+      #NEKI
+    translation: |-
+      Thank you for watching the Instagram Live 🫶
+      
+      Please continue to support NEK! in our second year as well!
+      
+      The archive is available, so please check it out 💭
+      https://instagram.com/reel/DF4r06dRqXD/?igsh=MWF1azh6OXJ4N21kOA==
+      
+      #NEKI
+    image:
+    - GjakKSubEAA9kmX
+    part-of:
+      event: 1yearanniversary
+
 - postximage:
     post: 1888173899994837474
     id: GjQkJQKaYAAKJAU
@@ -43,6 +71,17 @@
         id: debutyearlastlive
     part-of:
       postx: 1888173899994837474
+
+- postximage:
+    post: 1888877660820156712
+    id: GjakKSubEAA9kmX
+    label: The band
+    info: rehearsal room
+    published-date: 2025-02-10
+    context:
+    - event: 1yearanniversary
+    part-of:
+      postx: 1888877660820156712
 
 - youtubeshort:
     id: WI3yV-zKqMU

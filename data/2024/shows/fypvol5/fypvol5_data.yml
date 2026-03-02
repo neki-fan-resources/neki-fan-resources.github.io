@@ -201,6 +201,10 @@
     id: GX1-NI7aMAAhIdv
     label: Poster
     published-date: 2024-09-19
+    context:
+    - show:
+        year: 2024
+        id: fypvol5
     part-of:
       postx: 1836763022674575746
 
@@ -209,6 +213,10 @@
     id: GX1-NI8a0AAJtCZ
     label: On stage
     published-date: 2024-09-19
+    context:
+    - show:
+        year: 2024
+        id: fypvol5
     part-of:
       postx: 1836763022674575746
 

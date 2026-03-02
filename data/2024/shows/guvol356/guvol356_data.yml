@@ -125,6 +125,57 @@
         year: 2024
         id: guvol356
 
+- postx:
+    id: 1802700860243480793
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-06-17
+    text: |-
+      Girl's UP!!! vol.356
+      @ Shibuya eggman
+      
+      ありがとうございました💘
+      
+      #NEKI
+    translation: |-
+      Girl's UP!!! vol.356
+      @ Shibuya eggman
+      
+      Thank you very much 💘
+      
+      #NEKI
+    image:
+    - GQR6358a0AAYmHG
+    - GQR6357a4AANJGw
+    part-of:
+      show:
+        year: 2024
+        id: guvol356
+
+- postx:
+    id: 1802918650460131501
+    account: msrir512
+    label: Thank you
+    published-date: 2024-06-18
+    text: |-
+      NEK!の皆様がお写真撮ってくれました！
+      か、かわいいぃ…🥺🥺🥺
+      
+      演奏力高くて凄い！😳
+      またよろしくお願いします🌱
+    translation: |-
+      The members of NEK! took a photo with us!
+      C-cuteee...
+      
+      Their musicianship is so high, it's amazing!
+      Please work with us again
+    image:
+    - GQVA9ImaAAAie_0
+    part-of:
+      show:
+        year: 2024
+        id: guvol356
+
 - postximage:
     post: 1802603553820643416
     id: GQQhU7gboAAgel1
@@ -137,6 +188,44 @@
         id: guvol356
     part-of:
       postx: 1802603553820643416
+
+- postximage:
+    post: 1802700860243480793
+    id: GQR6357a4AANJGw
+    label: Sidewalk board
+    published-date: 2024-06-17
+    context:
+    - show:
+        year: 2024
+        id: guvol356
+    part-of:
+      postx: 1802700860243480793
+
+- postximage:
+    post: 1802700860243480793
+    id: GQR6358a0AAYmHG
+    label: On stage
+    published-date: 2024-06-17
+    context:
+    - show:
+        year: 2024
+        id: guvol356
+    part-of:
+      postx: 1802700860243480793
+
+- postximage:
+    post: 1802918650460131501
+    id: GQVA9ImaAAAie_0
+    label: Backstage
+    info: NEK!
+    published-date: 2024-06-18
+    context:
+    - show:
+        year: 2024
+        id: guvol356
+    todo: find out artist official name
+    part-of:
+      postx: 1802918650460131501
 
 - youtubeshort:
     id: KDBBqw69Vus

@@ -235,6 +235,10 @@
     id: GaLcNR9a0AEXUbo
     label: On stage
     published-date: 2024-10-18
+    context:
+    - show:
+        year: 2024
+        id: nekigufriday
     part-of:
       postx: 1847280924775641370
 
@@ -243,6 +247,10 @@
     id: GaLcNSCacAApUEa
     label: Sidewalk board
     published-date: 2024-10-18
+    context:
+    - show:
+        year: 2024
+        id: nekigufriday
     part-of:
       postx: 1847280924775641370
 

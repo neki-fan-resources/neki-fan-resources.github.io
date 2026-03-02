@@ -214,9 +214,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: sendaimusicfuse
+      postxvideo:
+        post: 1939993599997042981
+        video: 01
 
 - postx:
     id: 1941062054896660964
@@ -241,9 +241,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: sendaimusicfuse
+      postxvideo:
+        post: 1941062054896660964
+        video: 01
 
 - postx:
     id: 1941384970066653472
@@ -261,9 +261,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: sendaimusicfuse
+      postxvideo:
+        post: 1941384970066653472
+        video: 01
 
 - postx:
     id: 1941695982032617731
@@ -476,7 +476,9 @@
         id: sendaimusicfuse
     - song: reigengirl
     part-of:
-      postx: 1939993599997042981
+      show:
+        year: 2025
+        id: sendaimusicfuse
 
 - postxvideo:
     post: 1941062054896660964
@@ -491,7 +493,9 @@
         id: sendaimusicfuse
     - song: getover
     part-of:
-      postx: 1941062054896660964
+      show:
+        year: 2025
+        id: sendaimusicfuse
 
 - postxvideo:
     post: 1941384970066653472
@@ -506,7 +510,9 @@
         id: sendaimusicfuse
     - song: getover
     part-of:
-      postx: 1941384970066653472
+      show:
+        year: 2025
+        id: sendaimusicfuse
 
 - postxvideo:
     post: 1941695982032617731

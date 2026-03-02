@@ -586,9 +586,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: thetheoryofscience
+      postxvideo:
+        post: 1991492012319936946
+        video: 01
 
 - postximage:
     post: 1934083816131596730
@@ -839,7 +839,9 @@
         id: thetheoryofscience
     - song: maze
     part-of:
-      postx: 1991492012319936946
+      show:
+        year: 2025
+        id: thetheoryofscience
 
 - update:
     show:

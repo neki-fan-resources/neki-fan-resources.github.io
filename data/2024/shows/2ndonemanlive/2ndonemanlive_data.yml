@@ -590,6 +590,42 @@
         id: 2ndonemanlive
 
 - postx:
+    id: 1860588588834128127
+    account: shibuya_eggman
+    label: Today
+    published-date: 2024-11-24
+    text: |-
+      ❤️‍🔥本日❤️‍🔥
+      
+       NEK!
+       「2ND ONE MAN LIVE」
+      
+      OPEN 17:30/START 18:00
+      
+      THANKYOU SOLD OUT
+      ※当日券の販売はございません。
+      
+      ご来場お待ちしております！！
+    translation: |-
+      ❤️‍🔥Today❤️‍🔥
+      
+       NEK!
+       「2ND ONE MAN LIVE」
+      
+      OPEN 17:30/START 18:00
+      
+      THANKYOU SOLD OUT
+      *No tickets will be sold at the door.
+      
+      We are looking forward to seeing you there!!
+    image:
+    - GdIjTflaAAAq0b0
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postx:
     id: 1860642399242084838
     account: nekiband_jp
     label: Thank you
@@ -606,6 +642,44 @@
     - GdJUX0zaMAAnLAP
     - GdJUX0vaMAAfwff
     - GdJUX1DbQAAIRJv
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postx:
+    id: 1860660643910885400
+    account: bazoo_official
+    label: Sold out show
+    published-date: 2024-11-24
+    text: |-
+      #NEK!
+      渋谷eggmanにて2ndワンマンでしたっ🎸見事SOLD OUT👏めちゃ熱いライブでしたー🔥
+      
+      12/11に新曲「Dreams!!!!」リリースも決定🎉
+      ↓からPreAdd/PreSaveをお忘れなく✅
+      http://ssm.lnk.to/Dreams_
+      
+      11/27はDiggin' Sound vol.2にも出演です🎙
+      チケット🎫
+      http://ticket.rakuten.co.jp/music/jpop/jro…
+      
+      @nekiband_jp
+    translation: |-
+      #NEK!
+      It was the 2nd one-man at Shibuya eggman🎸 A spectacular SOLD OUT👏 It was an incredibly hot live🔥
+      
+      The release of the new song "Dreams!!!!" is confirmed for 12/11🎉
+      Don't forget to PreAdd/PreSave from the link below✅
+      http://ssm.lnk.to/Dreams_
+      
+      They will also appear at Diggin' Sound vol.2 on 11/27🎙
+      Tickets🎫
+      http://ticket.rakuten.co.jp/music/jpop/jro…
+      
+      @nekiband_jp
+    image:
+    - GdJk_gwa4AAHT-T
     part-of:
       show:
         year: 2024
@@ -647,6 +721,22 @@
     - GdMzPcLbsAIzyLF
     part-of:
       postx: 1860700294226838000
+
+- postx:
+    id: 1863871086141865998
+    account: coco_102
+    label: Get Over on stage
+    published-date: 2024-12-03
+    text: |-
+      うおおおおおおお👊🏻❤️‍🔥
+    translation: |-
+      Uooooooohhhhhhh👊🏻❤️‍🔥
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1863871086141865998
+        video: 01
 
 - postx:
     id: 1873309201130574236
@@ -692,6 +782,40 @@
         year: 2024
         id: 2ndonemanlive
 
+- postx:
+    id: 1874007445930205368
+    account: nekiband_jp
+    label: Zaiko streaming
+    published-date: 2024-12-31
+    text: |-
+      「NEK! 2ND ONE MAN LIVE @ shibuya eggman Online」
+      
+      現在オンラインにてライブ映像配信中🎸
+      
+      配信期間は1/29(水)までとなりますのでお見逃しなく💭
+      
+      配信チケットはこちらから▼
+      https://nekiband.zaiko.io/item/368923
+      
+      #NEKI
+    translation: |-
+      「NEK! 2ND ONE MAN LIVE @ shibuya eggman Online」
+      
+      Live footage is currently streaming online🎸
+      
+      The streaming period is until 1/29 (Wed), so don't miss it💭
+      
+      Streaming tickets available here▼
+      https://nekiband.zaiko.io/item/368923
+      
+      #NEKI
+    image:
+    - GgHP1XDbYAEaa4e
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
 - postximage:
     post: 1821788560518987888
     id: GUhLCZPa8AEcBlF
@@ -706,10 +830,26 @@
       postx: 1821788560518987888
 
 - postximage:
+    post: 1860588588834128127
+    id: GdIjTflaAAAq0b0
+    label: Sidewalk board
+    published-date: 2024-11-24
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postx: 1860588588834128127
+
+- postximage:
     post: 1860642399242084838
     id: GdJUX0vaMAAfwff
     label: Stage setup
     published-date: 2024-11-24
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     part-of:
       postx: 1860642399242084838
 
@@ -719,6 +859,10 @@
     label: Backstage
     info: NEK!
     published-date: 2024-11-24
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     part-of:
       postx: 1860642399242084838
 
@@ -727,6 +871,10 @@
     id: GdJUX0zaMAAnLAP
     label: On stage
     published-date: 2024-11-24
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     part-of:
       postx: 1860642399242084838
 
@@ -735,14 +883,34 @@
     id: GdJUX1DbQAAIRJv
     label: Sidewalk board
     published-date: 2024-11-24
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     part-of:
       postx: 1860642399242084838
+
+- postximage:
+    post: 1860660643910885400
+    id: GdJk_gwa4AAHT-T
+    label: Sidewalk board
+    published-date: 2024-11-24
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postx: 1860660643910885400
 
 - postximage:
     post: 1860700294226838000
     id: GdKJDdoaAAAgzF1
     label: NEK! Sound
     published-date: 2024-11-24
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     part-of:
       postx: 1860700294226838000
 
@@ -751,6 +919,10 @@
     id: GdMzPcLbsAIzyLF
     label: Encore
     published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
     part-of:
       postx: 1860887418322493470
 
@@ -765,6 +937,34 @@
         id: 2ndonemanlive
     part-of:
       postx: 1873309201130574236
+
+- postximage:
+    post: 1874007445930205368
+    id: GgHP1XDbYAEaa4e
+    label: On stage
+    published-date: 2024-12-31
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postx: 1874007445930205368
+
+- postxvideo:
+    post: 1863871086141865998
+    id: 01
+    label: Cocoro-cam
+    published-date: 2024-12-03
+    cover: 1863870821871353856/pu/img/LbKNcBLCX_CNyWMF.jpg
+    context:
+    - song: getover
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
 
 - postyoutube:
     id: Ugkx5I23I_aXRlyaHsms6FAXsa5vBVWh75ov

@@ -273,6 +273,38 @@
         id: nekikomsumetokyo
 
 - postx:
+    id: 1929551362687205700
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2025-06-02
+    text: |-
+      NEK! × komsume TWO-MAN SHOW
+      
+      激激熱々でしたね！！
+      ありがとうございました❤️‍🔥❤️‍🔥❤️‍🔥
+      熱気すごすぎた！！！笑笑
+      最高の時間を一緒に過ごしてくれたkomsumeさんもありがとうございました！！かっこよかったぁぁ😭
+      
+      komsumeさんとの2MANは7/18もあるからね！🔥
+      今から楽しみでしかない🔥
+    translation: |-
+      NEK! × komsume TWO-MAN SHOW
+      
+      That was super, super intense!!
+      Thank you so much❤️‍🔥❤️‍🔥❤️‍🔥
+      The heat was incredible!!! lol
+      Thank you also to komsume-san for spending the best time with us!! You were so cool😭
+      
+      There's another 2MAN with komsume-san on 7/18!🔥
+      I can't wait starting from right now🔥
+    image:
+    - GsckvA4agAAsskI
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postx:
     id: 1929717050664276154
     account: natsu08_guitar
     label: MC
@@ -437,6 +469,19 @@
         id: nekikomsumetokyo
     part-of:
       postx: 1929531593523081226
+
+- postximage:
+    post: 1929551362687205700
+    id: GsckvA4agAAsskI
+    label: Backstage
+    info: Natsu
+    published-date: 2025-06-02
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      postx: 1929551362687205700
 
 - postximage:
     post: 1929838014714597729

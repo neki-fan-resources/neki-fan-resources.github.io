@@ -157,6 +157,10 @@
     id: GRkd0p8agAEcffW
     label: Sidewalk board
     published-date: 2024-07-03
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
     part-of:
       postx: 1808509524602724490
 
@@ -165,6 +169,10 @@
     id: GRkd0p9acAAJY-7
     label: On stage
     published-date: 2024-07-03
+    context:
+    - show:
+        year: 2024
+        id: beyondthesingularityvol7
     part-of:
       postx: 1808509524602724490
 

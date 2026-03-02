@@ -153,6 +153,29 @@
         year: 2024
         id: guvol366
 
+- postx:
+    id: 1841491999058477363
+    account: coco_102
+    label: Thank you. It was her birthday
+    published-date: 2024-10-02
+    text: |-
+      本日10月2日、誕生日を迎えました〜〜！！
+      誕生日当日もライブで皆さんにお会いすることができて幸せ者です🩵
+      プレゼントもたくさんありがとうございました！
+      21歳もガツガツバシバシモリモリシャキシャキと頑張っていくよ✊🏻⚡️
+    translation: |-
+      Today, October 2nd, I celebrated my birthday~~!!
+      I'm so lucky to be able to meet everyone at a live show on my actual birthday 🩵
+      Thank you for all the presents too!
+      I'm going to keep working hard—fiercely, diligently, vigorously, and sharply—in my 21st year too ✊🏻⚡️
+    image:
+    - GY5LL-YbIAAHDCG
+    - GY5LL-hbEAAhDh_
+    part-of:
+      show:
+        year: 2024
+        id: guvol366
+
 - postximage:
     post: 1841384260705624302
     id: GY3ocH3bcAALiWN
@@ -171,6 +194,10 @@
     id: GY5ACklbAAEorEy
     label: Sidewalk board
     published-date: 2024-10-02
+    context:
+    - show:
+        year: 2024
+        id: guvol366
     part-of:
       postx: 1841479718878793982
 
@@ -179,8 +206,38 @@
     id: GY5ACknbUAA87gW
     label: On stage
     published-date: 2024-10-02
+    context:
+    - show:
+        year: 2024
+        id: guvol366
     part-of:
       postx: 1841479718878793982
+
+- postximage:
+    post: 1841491999058477363
+    id: GY5LL-YbIAAHDCG
+    label: On stage
+    info: Cocoro
+    published-date: 2024-10-02
+    context:
+    - show:
+        year: 2024
+        id: guvol366
+    part-of:
+      postx: 1841491999058477363
+
+- postximage:
+    post: 1841491999058477363
+    id: GY5LL-hbEAAhDh_
+    label: On stage
+    info: Cocoro
+    published-date: 2024-10-02
+    context:
+    - show:
+        year: 2024
+        id: guvol366
+    part-of:
+      postx: 1841491999058477363
 
 - webimage:
     domain: eggman.jp

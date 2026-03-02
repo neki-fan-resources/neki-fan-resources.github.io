@@ -180,6 +180,48 @@
         id: kogaderarock
 
 - postx:
+    id: 1909924256323862671
+    account: KOGARECORDS
+    label: NEK! video comment
+    published-date: 2025-04-09
+    text: |-
+      ★出演アーティストコメント★
+      
+      いよいよ今週末4/12(土)開催📣
+      【下北沢こがでらロックフェスティバル2025】
+      
+      【NEK!】 
+      @nekiband_jp
+       より動画コメントをいただきました🙌
+      NEK!はSHELTERにて15:30〜の出演‼️是非チェックしてみてください👀
+      
+      ▼チケットのご購入はこちら
+      https://eplus.jp/sf/detail/4287680001
+    translation: |-
+      ★Performer Artist Comment★
+      
+      Finally happening this weekend, 4/12 (Sat) 📣
+      【Shimokitazawa Kogadera Rock Festival 2025】
+      
+      We received a video comment from
+      【NEK!】 
+      @nekiband_jp 🙌
+      NEK! will perform at SHELTER from 15:30〜‼️ Please be sure to check it out 👀
+      
+      ▼ Purchase tickets here
+      https://eplus.jp/sf/detail/4287680001
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1909924256323862671
+        video: 01
+    reference:
+    - postximage:
+        post: 1908353902686462040
+        image: Gnrsw86bEAACU0R
+
+- postx:
     id: 1910962202003275912
     account: KOGARECORDS
     label: Thank you
@@ -380,9 +422,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: kogaderarock
+      postxvideo:
+        post: 1931999361577463823
+        video: 01
 
 - postximage:
     post: 1904825238870721005
@@ -521,6 +563,21 @@
       postx: 1911004487399129107
 
 - postxvideo:
+    post: 1909924256323862671
+    id: 01
+    label: Band presentation
+    published-date: 2025-04-09
+    cover: 1909889754348621824/pu/img/Pk_WDecuqOx8p3cf.jpg
+    context:
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
+
+- postxvideo:
     post: 1911633089014731008
     id: 01
     label: On stage
@@ -567,7 +624,9 @@
         id: kogaderarock
     - song: loner
     part-of:
-      postx: 1931999361577463823
+      show:
+        year: 2025
+        id: kogaderarock
 
 - youtubeshort:
     id: 759NyQOQ1yg

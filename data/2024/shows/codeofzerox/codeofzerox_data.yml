@@ -172,6 +172,10 @@
     id: GQHlZ-HbQAAGhlb
     label: On stage
     published-date: 2024-06-15
+    context:
+    - show:
+        year: 2024
+        id: codeofzerox
     part-of:
       postx: 1801973573202190647
 
@@ -180,6 +184,10 @@
     id: GQHlZ-IasAAKNyN
     label: Sidewalk board
     published-date: 2024-06-15
+    context:
+    - show:
+        year: 2024
+        id: codeofzerox
     part-of:
       postx: 1801973573202190647
 

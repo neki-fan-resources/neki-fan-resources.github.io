@@ -194,6 +194,53 @@
         year: 2024
         id: fypvol3
 
+- postx:
+    id: 1819377004258775375
+    account: amagoi_min
+    label: Thank you
+    published-date: 2024-08-02
+    text: |-
+      ひかちゃんに会えた🥲
+      NEK!かっこよかった🔥また対バンできるように頑張ります！大好きー🫶
+    translation: |-
+      I got to see Hikachan 🥲
+      NEK! was cool 🔥 I'll work hard so we can do a joint show again! Love you 🫶
+    image:
+    - GT-5vIybsAAo2Il
+    part-of:
+      show:
+        year: 2024
+        id: fypvol3
+
+- postx:
+    id: 1819377085699575972
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2024-08-02
+    text: |-
+      SHIBUYA THE GAME presents
+      #FYP - For You Place - vol.3
+      @ SHIBUYA THE GAME
+      
+      ありがとうございました🎮
+      
+      #NEKI
+    translation: |-
+      SHIBUYA THE GAME presents
+      #FYP - For You Place - vol.3
+      @ SHIBUYA THE GAME
+      
+      Thank you very much 🎮
+      
+      #NEKI
+    image:
+    - GT-5zRqWQAA8jiw
+    - GT-5zRGb0AQljeg
+    part-of:
+      show:
+        year: 2024
+        id: fypvol3
+
 - postximage:
     post: 1803369809566113904
     id: GQbaKq-aIAM7xgd
@@ -218,6 +265,44 @@
         id: fypvol3
     part-of:
       postx: 1819198572111577421
+
+- postximage:
+    post: 1819377004258775375
+    id: GT-5vIybsAAo2Il
+    label: Backstage
+    info: Hika
+    published-date: 2024-08-02
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    todo: exact name of artist
+    part-of:
+      postx: 1819377004258775375
+
+- postximage:
+    post: 1819377085699575972
+    id: GT-5zRGb0AQljeg
+    label: Posters
+    published-date: 2024-08-02
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postx: 1819377085699575972
+
+- postximage:
+    post: 1819377085699575972
+    id: GT-5zRqWQAA8jiw
+    label: On stage
+    published-date: 2024-08-02
+    context:
+    - show:
+        year: 2024
+        id: fypvol3
+    part-of:
+      postx: 1819377085699575972
 
 - youtubeshort:
     id: KHPpxHWt-O4

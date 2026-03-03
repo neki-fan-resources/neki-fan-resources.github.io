@@ -343,8 +343,6 @@
     translation: |-
       Repeated side-step bassist🎸
        #SpreadingNow #NekiKaiwai #NEKI
-    video:
-    - a54c225e-6b58-47e6-a2b8-d7e90eeae28b
     part-of:
       youtubeshort: CU3Vqkdf3bs
 
@@ -626,7 +624,7 @@
 - postxvideo:
     post: 1919328460532494808
     id: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
-    label: MAZE bridge
+    label: On stage
     info: Natsu
     published-date: 2025-05-05
     cover: 1919328299047903232/img/dspFPFb7AhRXBwB4.jpg
@@ -660,8 +658,8 @@
 - postxvideo:
     post: 1919977679027372546
     id: 37e3c46f-d463-4507-8090-19abc74c839b
-    label: Live
-    info: Hika, from the stage
+    label: On stage
+    info: Hika
     published-date: 2025-05-06
     cover: 1919977607212498946/img/LkMmps3g4daFxN3j.jpg
     context:
@@ -673,22 +671,6 @@
       show:
         year: 2025
         id: kakumeilogic2025
-
-- postxvideo:
-    post: 1920401532488724860
-    id: a54c225e-6b58-47e6-a2b8-d7e90eeae28b
-    label: Live
-    info: Jumping Kanade
-    published-date: 2025-05-08
-    cover: 1920401419061833728/img/c47mejQ4bkeDGEiN.jpg
-    context:
-    - show:
-        year: 2025
-        id: kakumeilogic2025
-    - song: maze
-    todo: likely to remove
-    part-of:
-      postx: 1920401532488724860
 
 - postxvideo:
     post: 1920746869560430820
@@ -744,8 +726,8 @@
 - postxvideo:
     post: 1926928034944213276
     id: d7408dbc-320f-41a5-8e45-5ce994c99049
-    label: Live
-    info: solo, Natsu
+    label: On stage
+    info: solo
     published-date: 2025-05-26
     cover: 1926927934914228224/img/pZxdsLyZxhNFUdZ4.jpg
     context:
@@ -778,7 +760,7 @@
 - postxvideo:
     post: 1935184418047672438
     id: 01
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-06-18
     cover: 1935184259150659584/img/6ddIJMGTVK-EkUor.jpg

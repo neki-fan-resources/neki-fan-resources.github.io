@@ -239,3 +239,18 @@
     part-of:
       postx: 1797630863351709848
 
+- youtubeshort:
+    id: rY_z0WZr4l4
+    label: On stage
+    info: studio audio
+    published-date: 2024-06-13
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: fypday1
+    part-of:
+      show:
+        year: 2024
+        id: fypday1
+

@@ -262,3 +262,18 @@
         year: 2024
         id: guvol352
 
+- youtubeshort:
+    id: vaCGvTEI9yU
+    label: On stage
+    info: studio audio, with lyrics
+    published-date: 2024-05-19
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: guvol352
+    part-of:
+      show:
+        year: 2024
+        id: guvol352
+

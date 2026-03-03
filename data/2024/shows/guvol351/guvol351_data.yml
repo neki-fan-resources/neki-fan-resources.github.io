@@ -239,12 +239,42 @@
         id: guvol351
 
 - youtubeshort:
+    id: CoLNU-KhFRQ
+    label: On stage
+    info: studio audio
+    published-date: 2024-05-14
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: guvol351
+    part-of:
+      show:
+        year: 2024
+        id: guvol351
+
+- youtubeshort:
     id: PkRKMkZCiIE
     label: On stage
     info: studio audio
     published-date: 2024-05-17
     context:
     - song: getover
+    - show:
+        year: 2024
+        id: guvol351
+    part-of:
+      show:
+        year: 2024
+        id: guvol351
+
+- youtubeshort:
+    id: RRgKzA56H5k
+    label: On stage
+    info: studio audio, with lyrics
+    published-date: 2024-06-01
+    context:
+    - song: maze
     - show:
         year: 2024
         id: guvol351

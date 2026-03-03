@@ -876,9 +876,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: 1stalbummeme
+      postxvideo:
+        post: 1994395046867784181
+        video: 01
 
 - postx:
     id: 1994405565590913446
@@ -1320,7 +1320,9 @@
         id: 1stalbummeme
     - song: maze
     part-of:
-      postx: 1994395046867784181
+      show:
+        year: 2025
+        id: 1stalbummeme
 
 - postxvideo:
     post: 1994416759160668354

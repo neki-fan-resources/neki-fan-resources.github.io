@@ -1,3 +1,269 @@
+- display:
+    song: maze
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: aylfQ09sa4I
+                - youtubevideo: EHtWJmMybGY
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: hXGPxYalJfk
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1994395046867784181
+                    video: 01
+                - youtubeshort: QXo4xKZNEH0
+                - postxvideo:
+                    post: 1991492012319936946
+                    video: 01
+                - postxvideo:
+                    post: 1977688947678687617
+                    video: 01
+                - postxvideo:
+                    post: 1946903555937616050
+                    video: 01
+                - postxvideo:
+                    post: 1935184418047672438
+                    video: 01
+                - postxvideo:
+                    post: 1926928034944213276
+                    video: d7408dbc-320f-41a5-8e45-5ce994c99049
+                - youtubeshort: CU3Vqkdf3bs
+                - postxvideo:
+                    post: 1919977679027372546
+                    video: 37e3c46f-d463-4507-8090-19abc74c839b
+                - postxvideo:
+                    post: 1919328460532494808
+                    video: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
+                - youtubeshort: 8JNZl3nO2dM
+                - postxvideo:
+                    post: 1904081359431413941
+                    video: 01
+                - postxvideo:
+                    post: 1884890104277459227
+                    video: 01
+                - postxvideo:
+                    post: 1872885369127240103
+                    video: 01
+                - youtubeshort: XzfOs6kjtUs
+                - youtubeshort: qR2yF3Jb4r4
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DRFKDXvkhPR
+                    video: 1
+                - postxvideo:
+                    post: 1959203686225445197
+                    video: 01
+                - postxvideo:
+                    post: 1945064752297680913
+                    video: 01
+                - postxvideo:
+                    post: 1944631818776637471
+                    video: 01
+                - postxvideo:
+                    post: 1944276413441532112
+                    video: 01
+                - postxvideo:
+                    post: 1942870532166443144
+                    video: 01
+                - postxvideo:
+                    post: 1942536099408060918
+                    video: 01
+                - postxvideo:
+                    post: 1925772297672991117
+                    video: 07f45bf9-c67a-418b-9220-eca8a69b49c5
+                - postxvideo:
+                    post: 1765279691995505087
+                    video: 01
+                - postxvideo:
+                    post: 1761243607615647804
+                    video: 01
+                - postxvideo:
+                    post: 1757661923750052131
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: dompps9gFj4
+                - youtubeshort: iOHZ6WsqMoQ
+                - youtubeshort: j5TiARezTNA
+                - youtubeshort: lD9WOsi_8bE
+                - youtubeshort: Yhu9_tyO1UY
+                - youtubeshort: wKpbdMANRTo
+                - youtubeshort: OvaY9jENatI
+                - youtubeshort: KDBBqw69Vus
+                - youtubeshort: rY_z0WZr4l4
+                - youtubeshort: vaCGvTEI9yU
+                - youtubeshort: RRgKzA56H5k
+                - youtubeshort: CoLNU-KhFRQ
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: FpmqW_rheI4
+                - youtubeshort: Z3FmAWbz8KM
+                - youtubeshort: P31Jcb1ULXU
+                - youtubeshort: bKzG7cGdlkE
+                - youtubeshort: 25AE7t_8eEg
+                - youtubeshort: g4vw2DntZiI
+                - youtubeshort: 3Gv44hlzG10
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: EHtWJmMybGY
+        - basicsection:
+            label: Uncut shots
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: '-WsoxfXBQgs'
+                - youtubeshort: AhqVr3xl4dE
+                - youtubeshort: fZaCODUXQ6k
+                - youtubeshort: YyVP2j7Yw3c
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1815718604295577659
+                    image: GTK6bxwa4AAeLVB
+                - postinstagramimage:
+                    post: C9zpcNgvMWy
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9zpcNgvMWy
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9zpcNgvMWy
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9zpcNgvMWy
+                    image: 6
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9zpcNgvMWy
+                    image: 4
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Behind the scenes
+                multimedia:
+                - youtubeshort: SHzGrNQVW4c
+                - youtubeshort: RRLrjTPG_3w
+                - youtubeshort: bBx938HIdB8
+                - youtubeshort: JL79sxFFbAs
+                - postxvideo:
+                    post: 1929111367635603641
+                    video: 8b76cee5-46f4-4336-9c6a-f5e2767298b3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1821404884945756182
+                    image: GUbs_-bXoAAglpN
+                - postinstagramimage:
+                    post: C-On6T8SqH1
+                    image: 1
+                - postinstagramimage:
+                    post: C-Pr8M_xX_H
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C-On6T8SqH1
+                    image: 2
+                - postinstagramimage:
+                    post: C-On6T8SqH1
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1817916835779727656
+                    image: GTqJuJoaQAAd0H9
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C-FzALTyXJ1
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C-Pr8M_xX_H
+                    image: 3
+                - postinstagramimage:
+                    post: C-Pr8M_xX_H
+                    image: 4
+                - postinstagramimage:
+                    post: C-Pr8M_xX_H
+                    image: 5
+                - postinstagramimage:
+                    post: C-Pr8M_xX_H
+                    image: 6
+                - postinstagramvideo:
+                    post: C-Pr8M_xX_H
+                    video: 7
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1814631372696523039
+                    video: 01
+    - basicblock:
+        id: livevideo
+        label: Live Video
+        sections:
+        - basicsection:
+            label: Live Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: aylfQ09sa4I
+    - basicblock:
+        id: community
+        label: Community
+        sections:
+        - basicsection:
+            label: SkyLuc
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: Z6C0pPXpe_k
+    part-of:
+      song: maze
+
 - lyrics:
     id: main
     song: maze
@@ -1585,7 +1851,82 @@
     video:
     - 01
     part-of:
-      song: maze
+      postxvideo:
+        post: 1757661923750052131
+        video: 01
+
+- postx:
+    id: 1761243607615647804
+    account: nekiband_jp
+    label: Rehearsal
+    info: Natsu remote
+    published-date: 2024-02-24
+    text: |-
+      ギターNATSU合流(?)
+      https://vt.tiktok.com/ZSFhUq6G8/
+      #NEKI
+    translation: |-
+      Guitarist NATSU joins(?)
+      https://vt.tiktok.com/ZSFhUq6G8/
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1761243607615647804
+        video: 01
+
+- postx:
+    id: 1765279691995505087
+    account: nekiband_jp
+    label: Rehearsal
+    published-date: 2024-03-06
+    text: |-
+      明日はNEK!の初ライブ！！！
+      https://vt.tiktok.com/ZSFUhJQe8/
+      #NEKI
+    translation: |-
+      Tomorrow is NEK!'s first live show!!!
+      https://vt.tiktok.com/ZSFUhJQe8/
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1765279691995505087
+        video: 01
+
+- postx:
+    id: 1814631372696523039
+    account: nekiband_jp
+    label: Release announcement
+    published-date: 2024-07-20
+    text: |-
+      7/24(水)リリース
+      1st EP「EXCLAMAT!ON」収録
+      
+      「MAZE」
+      
+      7/24(水)21:00
+      Music Video公開🌀
+      
+      #NEKI #MAZE
+    translation: |-
+      Releasing 7/24 (Wed)
+      Included in 1st EP "EXCLAMAT!ON"
+      
+      "MAZE"
+      
+      7/24 (Wed) 21:00
+      Music Video premiere🌀
+      
+      #NEKI #MAZE
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1814631372696523039
+        video: 01
 
 - postx:
     id: 1815718604295577659
@@ -1624,6 +1965,24 @@
     - GTK6bxwa4AAeLVB
     part-of:
       youtubevideo: EHtWJmMybGY
+
+- postx:
+    id: 1817916835779727656
+    account: cure_bass_baka
+    label: Behind the scenes
+    published-date: 2024-07-29
+    text: |-
+      『MAZE』のオフショ。
+      
+      ポニーテールがまだ生きてた頃🦄💜
+    translation: |-
+      An off-shot from "MAZE".
+      
+      Back when my ponytail was still alive 🦄💜
+    image:
+    - GTqJuJoaQAAd0H9
+    part-of:
+      song: maze
 
 - postx:
     id: 1821404884945756182
@@ -1758,7 +2117,9 @@
     video:
     - 01
     part-of:
-      song: maze
+      postxvideo:
+        post: 1942536099408060918
+        video: 01
 
 - postx:
     id: 1942870532166443144
@@ -1776,7 +2137,9 @@
     video:
     - 01
     part-of:
-      song: maze
+      postxvideo:
+        post: 1942870532166443144
+        video: 01
 
 - postx:
     id: 1944276413441532112
@@ -1881,10 +2244,23 @@
       postx: 1815718604295577659
 
 - postximage:
+    post: 1817916835779727656
+    id: GTqJuJoaQAAd0H9
+    label: Behind the scenes
+    info: Kanade
+    published-date: 2024-07-29
+    context:
+    - song: maze
+    part-of:
+      postx: 1817916835779727656
+
+- postximage:
     post: 1821404884945756182
     id: GUbs_-bXoAAglpN
     label: Behind the scenes
     published-date: 2024-08-08
+    context:
+    - song: maze
     todo: attach to MAZE mv
     part-of:
       postx: 1821404884945756182
@@ -1910,7 +2286,41 @@
     - song: maze
     todo: redownload ?
     part-of:
-      postx: 1757661923750052131
+      song: maze
+
+- postxvideo:
+    post: 1761243607615647804
+    id: 01
+    label: Rehearsal
+    info: Natsu remote
+    published-date: 2024-02-24
+    cover: 1761243583162785792/pu/img/TaarDhEhpToanPFV.jpg
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- postxvideo:
+    post: 1765279691995505087
+    id: 01
+    label: Rehearsal
+    published-date: 2024-03-06
+    cover: 1765279603189587968/pu/img/9SteBdtx4PuvvDh-.jpg
+    context:
+    - song: maze
+    part-of:
+      song: maze
+
+- postxvideo:
+    post: 1814631372696523039
+    id: 01
+    label: Music Video Teaser
+    published-date: 2024-07-20
+    cover: 1814630338951585796/pu/img/p5vTu1CoKXLqdUad.jpg
+    context:
+    - song: maze
+    part-of:
+      song: maze
 
 - postxvideo:
     post: 1925772297672991117
@@ -1927,8 +2337,7 @@
 - postxvideo:
     post: 1929111367635603641
     id: 8b76cee5-46f4-4336-9c6a-f5e2767298b3
-    label: Music Video
-    info: behind the scenes
+    label: Behind the scenes
     published-date: 2025-06-01
     cover: 1929111310907871232/img/kFvYTc3MGOs60gQu.jpg
     context:
@@ -1946,7 +2355,7 @@
     context:
     - song: maze
     part-of:
-      postx: 1942536099408060918
+      song: maze
 
 - postxvideo:
     post: 1942870532166443144
@@ -1958,13 +2367,13 @@
     context:
     - song: maze
     part-of:
-      postx: 1942870532166443144
+      song: maze
 
 - postxvideo:
     post: 1944276413441532112
     id: 01
     label: Reheasal
-    info: solo, Cocoro
+    info: Cocoro, solo
     published-date: 2025-07-13
     cover: 1944276091398660096/img/5J_L1dD-sf2wHZKz.jpg
     context:
@@ -1976,7 +2385,7 @@
     post: 1944631818776637471
     id: 01
     label: Rehearsal
-    info: outro, Cocoro
+    info: Cocoro, outro
     published-date: 2025-07-14
     cover: 1944631713948438528/img/FfqQ8pVCxP9_i-Qv.jpg
     context:
@@ -2000,10 +2409,14 @@
     post: 1959203686225445197
     id: 01
     label: Rehearsal
+    info: Kanade
     published-date: 2025-08-23
     cover: 1959203487201583104/img/jo9JMWaN3PcsD7gK.jpg
     context:
     - song: maze
+    - show:
+        year: 2025
+        id: 1stzepponeman
     part-of:
       song: maze
 
@@ -2026,6 +2439,14 @@
         post: 1815718604295577659
         image: GTK6bxwa4AAeLVB
 
+- update:
+    song: maze
+    date: 2026-03-03
+    text:
+    - Refreshed and organized the videos and images
+    part-of:
+      song: maze
+
 - youtubeshort:
     id: '-WsoxfXBQgs'
     label: Music Video
@@ -2037,9 +2458,22 @@
       song: maze
 
 - youtubeshort:
+    id: 25AE7t_8eEg
+    label: Rehearsal
+    info: studio audio
+    published-date: 2024-11-23
+    context:
+    - song: maze
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      song: maze
+
+- youtubeshort:
     id: 3Gv44hlzG10
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2024-05-24
     context:
     - song: maze
@@ -2057,16 +2491,6 @@
       song: maze
 
 - youtubeshort:
-    id: CoLNU-KhFRQ
-    label: Promo
-    info: Shibuya eggman, studio audio
-    published-date: 2024-05-14
-    context:
-    - song: maze
-    part-of:
-      song: maze
-
-- youtubeshort:
     id: FpmqW_rheI4
     label: Rehearsal
     info: studio audio
@@ -2078,8 +2502,8 @@
 
 - youtubeshort:
     id: JL79sxFFbAs
-    label: Music Video
-    info: behind the scenes, taking pictures of Hika
+    label: Behind the scenes
+    info: taking pictures of Hika
     published-date: 2025-07-10
     context:
     - song: maze
@@ -2088,8 +2512,8 @@
 
 - youtubeshort:
     id: P31Jcb1ULXU
-    label: Promo
-    info: studio audio, rehearsal room
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-06-14
     context:
     - song: maze
@@ -2098,8 +2522,8 @@
 
 - youtubeshort:
     id: RRLrjTPG_3w
-    label: Music Video
-    info: behind the scenes, trying ideas
+    label: Behind the scenes
+    info: trying ideas
     published-date: 2025-06-08
     context:
     - song: maze
@@ -2107,19 +2531,9 @@
       song: maze
 
 - youtubeshort:
-    id: RRgKzA56H5k
-    label: Promo
-    info: Shibuya eggman, studio audio, with lyrics
-    published-date: 2024-06-01
-    context:
-    - song: maze
-    part-of:
-      song: maze
-
-- youtubeshort:
     id: SHzGrNQVW4c
-    label: Music Video
-    info: behind the scenes, discovering the set
+    label: Behind the scenes
+    info: discovering the set
     published-date: 2025-05-22
     context:
     - song: maze
@@ -2138,18 +2552,21 @@
 
 - youtubeshort:
     id: Z3FmAWbz8KM
-    label: Promo
-    info: studio audio, rehearsal room
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-08-14
     context:
     - song: maze
+    - show:
+        year: 2025
+        id: 1stzepponeman
     part-of:
       song: maze
 
 - youtubeshort:
     id: bBx938HIdB8
-    label: Music Video
-    info: behind the scenes, setting up the drums, Cocoro
+    label: Behind the scenes
+    info: Cocoro, setting up the drums
     published-date: 2025-06-17
     context:
     - song: maze
@@ -2158,8 +2575,8 @@
 
 - youtubeshort:
     id: bKzG7cGdlkE
-    label: Promo
-    info: Reheasal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-05-13
     context:
     - song: maze
@@ -2178,8 +2595,8 @@
 
 - youtubeshort:
     id: g4vw2DntZiI
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2024-05-27
     context:
     - song: maze
@@ -2196,37 +2613,8 @@
       song: maze
 
 - youtubeshort:
-    id: rY_z0WZr4l4
-    label: Promo
-    info: Shibuya eggman, studio audio
-    published-date: 2024-06-13
-    context:
-    - song: maze
-    part-of:
-      song: maze
-
-- youtubeshort:
-    id: vaCGvTEI9yU
-    label: Promo
-    info: Shibuya eggman, studio audio, with lyrics
-    published-date: 2024-05-19
-    context:
-    - song: maze
-    part-of:
-      song: maze
-
-- youtubeshort:
     id: wNkTokxYCug
     label: Teaser
-    published-date: 2024-07-20
-    context:
-    - song: maze
-    part-of:
-      song: maze
-
-- youtubevideo:
-    id: AqVoa-PMl8I
-    label: Music Video Teaser
     published-date: 2024-07-20
     context:
     - song: maze

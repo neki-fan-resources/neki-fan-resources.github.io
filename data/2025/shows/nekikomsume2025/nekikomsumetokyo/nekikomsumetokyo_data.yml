@@ -613,8 +613,8 @@
 
 - youtubeshort:
     id: wKpbdMANRTo
-    label: Promo
-    info: studio audio, from the side of the stage
+    label: On stage
+    info: studio audio
     published-date: 2025-06-06
     context:
     - song: maze

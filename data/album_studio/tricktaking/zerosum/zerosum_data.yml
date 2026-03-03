@@ -241,6 +241,24 @@
                 - postxvideo:
                     post: 1890370527937663137
                     video: 01
+    - basicblock:
+        id: community
+        label: Community
+        sections:
+        - basicsection:
+            label: SkyLuc
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: od-7m8ksOag
+        - basicsection:
+            label: 寺浦 (Teraura) from Tower Records
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1934537704458600771
+                    video: 01
     part-of:
       song: zerosum
 

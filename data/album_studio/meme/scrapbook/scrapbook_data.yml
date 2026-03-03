@@ -10,14 +10,28 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: PRszdbt0wdg
+        - basicsection:
+            label: Live, with original audio
+            subsections:
             - multimediasubsection:
                 multimedia:
-                - youtubeshort: 76QHtJpuMe8
-                - youtubeshort: XePvfo8uMFc
+                - postxvideo:
+                    post: 2021478185259684273
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: HL0ubCAb9Ek
                 - youtubeshort: H8lIROkXNLE
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 76QHtJpuMe8
+                - youtubeshort: XePvfo8uMFc
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo
@@ -30,9 +44,9 @@
                 multimedia:
                 - youtubevideo: PRszdbt0wdg
         - basicsection:
-            label: Behind the scenes
             subsections:
             - multimediasubsection:
+                label: Behind the scenes
                 multimedia:
                 - youtubeshort: 5CvwxCKTcV0
             - multimediasubsection:
@@ -70,6 +84,16 @@
                 - postximage:
                     post: 2015224197447135249
                     image: G_eDtlKXAAApShT
+    - basicblock:
+        id: community
+        label: Community
+        sections:
+        - basicsection:
+            label: SkyLuc
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: _p_4zuZ_GOI
     part-of:
       song: scrapbook
 
@@ -576,6 +600,14 @@
     text:
     - English translation of the lyrics from the Music Video
     - First "behind the scene" pictures
+    part-of:
+      song: scrapbook
+
+- update:
+    song: scrapbook
+    date: 2026-03-03
+    text:
+    - Refreshed the videos and images
     part-of:
       song: scrapbook
 

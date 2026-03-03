@@ -70,3 +70,14 @@
         id: skyluc
         group: community
 
+- youtubevideo:
+    id: _p_4zuZ_GOI
+    label: Close-up Hika
+    published-date: 2026-01-24
+    context:
+    - song: scrapbook
+    part-of:
+      group:
+        id: skyluc
+        group: community
+

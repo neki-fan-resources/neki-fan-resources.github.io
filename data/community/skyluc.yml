@@ -16,6 +16,17 @@
         group: community
 
 - youtubevideo:
+    id: CmYrKiMxMHY
+    label: 1 year of videos
+    published-date: 2025-10-09
+    context:
+    - song: loner
+    part-of:
+      group:
+        id: skyluc
+        group: community
+
+- youtubevideo:
     id: SyMp6mHnAug
     label: 1 year of videos
     published-date: 2025-12-19

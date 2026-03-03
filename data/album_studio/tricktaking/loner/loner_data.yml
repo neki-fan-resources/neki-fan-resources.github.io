@@ -1,3 +1,144 @@
+- display:
+    song: loner
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: uhy1HnFXTH8
+        - basicsection:
+            label: Images
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DPRV1RQkv7h
+                    image: 1
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1931252079353581736
+                    video: 01
+                - postxvideo:
+                    post: 1931999361577463823
+                    video: 01
+                - postxvideo:
+                    post: 1954447291294822589
+                    video: 01
+                - youtubeshort: dSX3EKmcRUc
+                - postxvideo:
+                    post: 1929106683978224117
+                    video: 46203d6b-e5ae-48cd-8902-16d9a880869d
+                - youtubeshort: xy8VknaZ0QQ
+                - postxvideo:
+                    post: 1849313941895381437
+                    video: 01
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1834931219974504800
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 7LsZB3CQSRg
+                - youtubeshort: fKilWDbCRDU
+                - youtubeshort: z4ptr7fSMtQ
+                - youtubeshort: OA5IkJ_zL1Y
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: gR99f1W6VIU
+                - youtubeshort: aazbw05PtgM
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: uhy1HnFXTH8
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Uncut shots
+                multimedia:
+                - youtubeshort: X-45zTnjrcM
+                - youtubeshort: pInXexYRjJc
+                - youtubeshort: kh3KFur99mo
+                - youtubeshort: UMbFFhE5m74
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: wiu7XwluMX4
+                - youtubeshort: HS_wfsMj-2Y
+                - youtubeshort: uDKulvTRNjk
+                - youtubeshort: dhMQMl7ogYs
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - localimage:
+                    multimedia-event: lonermv
+                    id: mvcover
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DA50T5IziVl
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DA50T5IziVl
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DA50T5IziVl
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DA50T5IziVl
+                    image: 4
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1841448174680260940
+                    video: 01
+    - basicblock:
+        id: community
+        label: Community
+        sections:
+        - basicsection:
+            label: SkyLuc
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: CmYrKiMxMHY
+    part-of:
+      song: loner
+
 - lyrics:
     id: main
     song: loner
@@ -236,6 +377,66 @@
       postinstagram: DA50T5IziVl
 
 - postx:
+    id: 1834931219974504800
+    account: coco_102
+    label: Reigen Girl rehearsal
+    published-date: 2024-09-14
+    text: |-
+      今日はリハでしたよぅ
+      
+      このﾀｯﾀｶﾀｯﾀｶする高速タム回し好き🫶🏻
+    translation: |-
+      We had rehearsal today
+      
+      I love this fast tom fill that goes boom-shaka-boom-shaka 🫶🏻
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1834931219974504800
+        video: 01
+
+- postx:
+    id: 1841448174680260940
+    account: nekiband_jp
+    label: Release announcement
+    published-date: 2024-10-02
+    text: |-
+      💥情報解禁💥
+      
+      新曲「Loner」
+      
+      10/9(水)
+      0:00 配信リリース🎧
+      ＆
+      21:00 Music Video公開決定🎥
+      
+      楽曲配信はこちら▼
+      https://lnk.to/9yHX6d
+      
+      #NEKI #Loner
+    translation: |-
+      💥Information unlocked💥
+      
+      New song "Loner"
+      
+      10/9 (Wed)
+      0:00 Digital release 🎧
+      &
+      21:00 Music Video premiere decided 🎥
+      
+      Listen to the song here ▼
+      https://lnk.to/9yHX6d
+      
+      #NEKI #Loner
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1841448174680260940
+        video: 01
+
+- postx:
     id: 1841452746416767292
     account: nekiband_jp
     label: Jacket reveal
@@ -268,6 +469,28 @@
     part-of:
       postx: 1841452746416767292
 
+- postxvideo:
+    post: 1834931219974504800
+    id: 01
+    label: Rehearsal
+    published-date: 2024-09-14
+    cover: 1834931162852343810/pu/img/ZK0HsJ7FQ0aEqqA9.jpg
+    context:
+    - song: loner
+    part-of:
+      song: loner
+
+- postxvideo:
+    post: 1841448174680260940
+    id: 01
+    label: Music Video Teaser
+    published-date: 2024-10-02
+    cover: 1841448133718622208/pu/img/5Ra30YQGqtE-ebFl.jpg
+    context:
+    - song: loner
+    part-of:
+      song: loner
+
 - postyoutube:
     id: UgkxUTduxcQGkcCJWaYYDzHNVGzyhCTRtCut
     account: neki_official
@@ -282,6 +505,14 @@
     - postximage:
         post: 1841452746416767292
         image: GY4ngpVbQAA_HQ9
+
+- update:
+    song: loner
+    date: 2026-03-03
+    text:
+    - Refreshed and organized the videos and images
+    part-of:
+      song: loner
 
 - youtubeshort:
     id: 3xgyiUaSGgI
@@ -342,8 +573,8 @@
 
 - youtubeshort:
     id: aazbw05PtgM
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-04-19
     context:
     - song: loner
@@ -405,26 +636,6 @@
     label: Music Video
     info: Hika focus
     published-date: 2024-10-11
-    context:
-    - song: loner
-    part-of:
-      song: loner
-
-- youtubeshort:
-    id: z4ptr7fSMtQ
-    label: Promo
-    info: shibuya eggman, studio audio
-    published-date: 2024-11-04
-    context:
-    - song: loner
-    todo: 'which show ? '
-    part-of:
-      song: loner
-
-- youtubevideo:
-    id: prWu9_Q5a5Y
-    label: Music Video Teaser
-    published-date: 2024-10-02
     context:
     - song: loner
     part-of:

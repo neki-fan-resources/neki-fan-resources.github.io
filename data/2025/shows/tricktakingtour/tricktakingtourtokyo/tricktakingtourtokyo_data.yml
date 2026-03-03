@@ -1901,8 +1901,8 @@
 - postxvideo:
     post: 1929106683978224117
     id: 46203d6b-e5ae-48cd-8902-16d9a880869d
-    label: Live
-    info: from the crowd, accoustic
+    label: On stage
+    info: accoustic
     published-date: 2025-06-01
     cover: 1929106621202153472/img/68yTv0Vr4lDzpTu4.jpg
     context:
@@ -1935,7 +1935,7 @@
 - postxvideo:
     post: 1954447291294822589
     id: 01
-    label: Live
+    label: On stage
     published-date: 2025-08-10
     cover: 1954447172633776128/img/Lep2PYsh46-RZUQF.jpg
     context:
@@ -2108,8 +2108,8 @@
 
 - youtubeshort:
     id: dSX3EKmcRUc
-    label: Live
-    info: Natsu guitar solo
+    label: On stage
+    info: Natsu, solo
     published-date: 2025-04-05
     context:
     - show:

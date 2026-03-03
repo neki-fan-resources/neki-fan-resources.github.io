@@ -494,7 +494,7 @@
 - postxvideo:
     post: 1939993599997042981
     id: 01
-    label: Live
+    label: On stage
     info: intro
     published-date: 2025-07-01
     cover: 1939993483634262016/img/9R7TYqmQt_RNf9ye.jpg
@@ -562,7 +562,7 @@
 - postxvideo:
     post: 1943530078891315228
     id: 01
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-07-11
     cover: 1943529998046146560/img/hLG0rWujugoBBZzE.jpg
@@ -640,7 +640,7 @@
 
 - youtubeshort:
     id: FYIzYR84jas
-    label: Promo
+    label: On stage
     info: studio audio
     published-date: 2025-07-10
     context:

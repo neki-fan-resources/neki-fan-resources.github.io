@@ -1,3 +1,201 @@
+- display:
+    song: reigengirl
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: rq0dca9mFfI
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1922955621957005543
+                    video: 97bf656e-1306-4f01-b926-ec5e46b54cff
+                - postxvideo:
+                    post: 1934565616020840560
+                    video: 01
+                - postxvideo:
+                    post: 1917515461727772903
+                    video: d111e062-3a51-4d15-92d8-43dccd8534ba
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2021231476574929121
+                    video: 01
+                - postxvideo:
+                    post: 1988979794927813063
+                    video: 01
+                - postxvideo:
+                    post: 1955576715851575746
+                    video: 01
+                - postxvideo:
+                    post: 1949470948861894839
+                    video: 01
+                - postxvideo:
+                    post: 1943530078891315228
+                    video: 01
+                - postxvideo:
+                    post: 1939993599997042981
+                    video: 01
+                - postxvideo:
+                    post: 1907340052666945675
+                    video: 01
+                - youtubeshort: YKmsB94XMb4
+                - postxvideo:
+                    post: 1901916392653537292
+                    video: 01
+                - postxvideo:
+                    post: 1894380886764011977
+                    video: 01
+                - youtubeshort: MpR-vcWQAuQ
+                - postxvideo:
+                    post: 1848204505093144935
+                    video: 01
+                - youtubeshort: 6W-P3YBkybQ
+                - youtubeshort: bBhvxwNWh3A
+                - youtubeshort: gVUFjTcD3B4
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1958088489481761213
+                    video: 01
+                - postxvideo:
+                    post: 1955966782872936961
+                    video: 01
+                - postxvideo:
+                    post: 1948675930446332316
+                    video: 01
+                - youtubeshort: VKpWF5pWIj4
+                - postxvideo:
+                    post: 1946145450060288257
+                    video: 01
+                - postxvideo:
+                    post: 1945413820660523501
+                    video: 01
+                - postxvideo:
+                    post: 1927221299337666934
+                    video: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: tgPY-FoOtWk
+                - youtubeshort: tBvCNjkpJdI
+                - youtubeshort: mBFMElsMh1s
+                - youtubeshort: ow3Ixze3MfI
+                - youtubeshort: FYIzYR84jas
+                - youtubeshort: Y-5kc3nAzXc
+                - youtubeshort: v16v2MvFJyM
+                - youtubeshort: cdIhg5rSCvM
+                - youtubeshort: ZGKbnmh52gw
+                - youtubeshort: zTAY3PIWLIM
+                - youtubeshort: _oUd8BpbvE4
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: bbcvEeB-i9Q
+                - youtubeshort: me3p1i5Ddtc
+                - youtubeshort: Bvri9sj_Ajw
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: rq0dca9mFfI
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Uncut shots
+                multimedia:
+                - youtubeshort: 20oChc0jOIA
+                - youtubeshort: yq6g2gUuoCI
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: BtsWAi6cXws
+                - youtubeshort: Dysq97Q0OVA
+                - youtubeshort: 58AHgFVIMos
+                - youtubeshort: 01U3dQi-hkw
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: C89dVLhJ2Qd
+                    image: 5
+                - postximage:
+                    post: 1806667280643936516
+                    image: GRKSUKLaAAE3tKO
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C89dVLhJ2Qd
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C89dVLhJ2Qd
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C89dVLhJ2Qd
+                    image: 1
+                - postyoutubeimage:
+                    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+                    image: SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C89dVLhJ2Qd
+                    image: 2
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Behind the scenes
+                multimedia:
+                - postximage:
+                    post: 1872916409728287239
+                    image: Gf3vi7lawAEJbQF
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1806658889972359300
+                    video: 01
+    - basicblock:
+        id: community
+        label: Community
+        sections:
+        - basicsection:
+            label: SkyLuc
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: 9N83L6zJuLE
+    part-of:
+      song: reigengirl
+
 - lyrics:
     id: main
     song: reigengirl
@@ -230,6 +428,42 @@
       postinstagram: C89dVLhJ2Qd
 
 - postx:
+    id: 1806658889972359300
+    account: nekiband_jp
+    label: Release announcement
+    published-date: 2024-06-28
+    text: |-
+      1st EP「EXCLAMAT!ON」収録
+      
+      新曲「令現少女」
+      
+      7/3(水)0:00より楽曲先行配信が決定💨
+      https://lnk.to/nek_exclamation
+      
+      そして同日21:00
+      Music Video公開🌇
+      
+      #NEKI
+    translation: |-
+      Included in 1st EP "EXCLAMAT!ON"
+      
+      New song "Reigen Shoujo (Present Girl)"
+      
+      The song will be pre-released starting 7/3 (Wed) at 0:00 💨
+      https://lnk.to/nek_exclamation
+      
+      And on the same day at 21:00 (9:00 PM)
+      Music Video will be released 🌇
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1806658889972359300
+        video: 01
+
+- postx:
     id: 1806667280643936516
     account: nekiband_jp
     label: Official teaser
@@ -241,7 +475,7 @@
     image:
     - GRKSUKLaAAE3tKO
     part-of:
-      youtubevideo: pCqu9xyfFzE
+      song: reigengirl
 
 - postx:
     id: 1917515461727772903
@@ -387,7 +621,9 @@
     video:
     - 01
     part-of:
-      song: reigengirl
+      postxvideo:
+        post: 1946145450060288257
+        video: 01
 
 - postx:
     id: 1948675930446332316
@@ -469,6 +705,17 @@
       postx: 1806667280643936516
 
 - postxvideo:
+    post: 1806658889972359300
+    id: 01
+    label: Music Video Teaser
+    published-date: 2024-06-28
+    cover: 1806658811996110848/pu/img/nw6bbjx0vNQQitZZ.jpg
+    context:
+    - song: reigengirl
+    part-of:
+      song: reigengirl
+
+- postxvideo:
     post: 1917515461727772903
     id: d111e062-3a51-4d15-92d8-43dccd8534ba
     label: Playthrough
@@ -496,7 +743,7 @@
     post: 1927221299337666934
     id: 4fe9af63-bfe4-4eac-bde7-bb6150f87ca5
     label: Rehearsal
-    info: intro, Hika, Kanade
+    info: Hika, Kanade, intro
     published-date: 2025-05-27
     cover: 1927221238486728704/img/E6Tir4SQER0UOXLd.jpg
     context:
@@ -538,13 +785,13 @@
     context:
     - song: reigengirl
     part-of:
-      postx: 1946145450060288257
+      song: reigengirl
 
 - postxvideo:
     post: 1948675930446332316
     id: 01
     label: Rehearsal
-    info: chorus, Hika
+    info: Hika, chorus
     published-date: 2025-07-24
     cover: 1948675850733580288/img/SbAjX9aTkhgJUCg4.jpg
     context:
@@ -561,6 +808,9 @@
     cover: 1955966717542457344/img/_Zsez2zszjDxZv1Y.jpg
     context:
     - song: reigengirl
+    - show:
+        year: 2025
+        id: 1stzepponeman
     part-of:
       song: reigengirl
 
@@ -593,23 +843,19 @@
     image:
     - EiU8orgYi0xQDdM4ZPTcWYyCX34wfhFV5sIJk2tJUJAwOmDodFec2SuNhroofeZvACKLYXeA2dUw
     - SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
-    - UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
-    - RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
-    - DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
     todo: check published date (as well for the images). switch to instagram images
     part-of:
       song: reigengirl
-
-- postyoutubeimage:
-    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-    id: DDJ__E_yc2GuPAr8pP-MzKWpXImVwfeRswx77AikXZL8j_kpGNyuKZEgMIpr7_8vmcj56ajBZBX1
-    label: Cocoro
-    info: Cocoro
-    published-date: 2024-06-03
-    context:
-    - song: reigengirl
-    part-of:
-      postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+    reference:
+    - postinstagramimage:
+        post: C89dVLhJ2Qd
+        image: 2
+    - postinstagramimage:
+        post: C89dVLhJ2Qd
+        image: 3
+    - postinstagramimage:
+        post: C89dVLhJ2Qd
+        image: 4
 
 - postyoutubeimage:
     post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
@@ -624,19 +870,8 @@
 
 - postyoutubeimage:
     post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-    id: RtsNTtRi2WTDTOfkPtWGlINKG1TMW9VMcW-jSvscapuynBOpLZkx2AfzAdtgS58G6VcOx_OYyFvnEzQ
-    label: Kanade
-    info: Kanade
-    published-date: 2024-06-03
-    context:
-    - song: reigengirl
-    part-of:
-      postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-
-- postyoutubeimage:
-    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
     id: SZdaZi9piPSrNuyOzX3lyivW1pQnTLbi6n0CMJGdfCgOy6AcAbOMGjR4RZDvpctjLUbFHRM--Dwo
-    label: Hika
+    label: MV image
     info: Hika
     published-date: 2024-06-03
     context:
@@ -644,16 +879,13 @@
     part-of:
       postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
 
-- postyoutubeimage:
-    post: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
-    id: UE8a6iyOpdSQHz50-AXLJ-C95Txd3-C3ElNO54djnoOS0_2fy-CaHznK2wkapj9cmWyDH4LnfkM9
-    label: Natsu
-    info: Natsu
-    published-date: 2024-06-03
-    context:
-    - song: reigengirl
+- update:
+    song: reigengirl
+    date: 2026-03-03
+    text:
+    - Refreshed and organized the videos and images
     part-of:
-      postyoutube: UgkxS1rZMadPjbT3oNLv97mTgd9W_joqBM-A
+      song: reigengirl
 
 - youtubeshort:
     id: 01U3dQi-hkw
@@ -707,8 +939,8 @@
 
 - youtubeshort:
     id: Bvri9sj_Ajw
-    label: Promo
-    info: Rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-05-19
     context:
     - song: reigengirl
@@ -745,30 +977,9 @@
       song: reigengirl
 
 - youtubeshort:
-    id: Y-5kc3nAzXc
-    label: Promo
-    info: Shibuya eggman, studio audio
-    published-date: 2024-11-12
-    context:
-    - song: reigengirl
-    todo: 'which show ? '
-    part-of:
-      song: reigengirl
-
-- youtubeshort:
-    id: _oUd8BpbvE4
-    label: Promo
-    info: shibuya eggman, studio audio
-    published-date: 2024-06-11
-    context:
-    - song: reigengirl
-    part-of:
-      song: reigengirl
-
-- youtubeshort:
     id: bbcvEeB-i9Q
-    label: Promo
-    info: Rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-06-13
     context:
     - song: reigengirl
@@ -777,8 +988,8 @@
 
 - youtubeshort:
     id: me3p1i5Ddtc
-    label: Promo
-    info: Rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-05-31
     context:
     - song: reigengirl
@@ -790,15 +1001,6 @@
     label: Music Video
     info: In the sunset
     published-date: 2024-07-10
-    context:
-    - song: reigengirl
-    part-of:
-      song: reigengirl
-
-- youtubevideo:
-    id: pCqu9xyfFzE
-    label: Music Video Teaser
-    published-date: 2024-06-28
     context:
     - song: reigengirl
     part-of:

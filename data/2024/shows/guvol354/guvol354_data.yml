@@ -137,3 +137,18 @@
         year: 2024
         id: guvol354
 
+- youtubeshort:
+    id: _oUd8BpbvE4
+    label: On stage
+    info: studio audio
+    published-date: 2024-06-11
+    context:
+    - song: reigengirl
+    - show:
+        year: 2024
+        id: guvol354
+    part-of:
+      show:
+        year: 2024
+        id: guvol354
+

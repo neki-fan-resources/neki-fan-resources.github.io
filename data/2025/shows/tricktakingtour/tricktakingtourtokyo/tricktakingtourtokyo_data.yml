@@ -1737,7 +1737,7 @@
 - postxvideo:
     post: 1901916392653537292
     id: 01
-    label: Live
+    label: On stage
     info: intro
     published-date: 2025-03-18
     cover: 1901916308243185664/img/UBEcndoZ5OxZYNht.jpg
@@ -1818,7 +1818,7 @@
 - postxvideo:
     post: 1907340052666945675
     id: 01
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-04-02
     cover: 1907339920764796928/img/w_YX-j6ULyEvSQoU.jpg
@@ -2077,8 +2077,8 @@
 
 - youtubeshort:
     id: YKmsB94XMb4
-    label: Live
-    info: Natsu guitar intro
+    label: On stage
+    info: Natsu, intro
     published-date: 2025-04-01
     context:
     - show:

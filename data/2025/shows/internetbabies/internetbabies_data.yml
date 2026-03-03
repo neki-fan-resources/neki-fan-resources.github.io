@@ -725,7 +725,7 @@
 - postxvideo:
     post: 1949470948861894839
     id: 01
-    label: Live
+    label: On stage
     info: Kanade
     published-date: 2025-07-27
     cover: 1949470634863697920/img/NSabqhCEsal9xue_.jpg
@@ -878,7 +878,7 @@
 - postxvideo:
     post: 1955576715851575746
     id: 01
-    label: Live
+    label: On stage
     info: Kanade
     published-date: 2025-08-13
     cover: 1955576083182682112/img/1wfw4szg8_HNenS5.jpg
@@ -953,7 +953,7 @@
 
 - youtubeshort:
     id: mBFMElsMh1s
-    label: Promo
+    label: On stage
     info: studio audio
     published-date: 2025-08-25
     context:
@@ -983,8 +983,8 @@
 
 - youtubeshort:
     id: ow3Ixze3MfI
-    label: Live
-    info: Cocoro
+    label: On stage
+    info: Cocoro, studio audio
     published-date: 2025-08-01
     context:
     - show:

@@ -1,0 +1,97 @@
+- postx:
+    id: 2029150088942240100
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-03-04
+    text: |-
+      ⚡️情報解禁⚡️
+      
+      5/8(金)開催
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.6
+      -THE 2MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      NEK!の出演が決定🔥
+      
+      ＜出演＞
+      ちゃくら
+      NEK!
+      STRAWDAY(O.A)
+      
+      ▼チケットは明日3/5(木)20:00〜受付開始🎫
+      https://livepocket.jp/e/gravity0508
+      
+      #NEKI
+    translation: |-
+      ⚡️INFO REVEALED⚡️
+      
+      Held on 5/8 (Fri)
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.6
+      -THE 2MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      NEK! is confirmed to perform🔥
+      
+      ＜Lineup＞
+      Chakra
+      NEK!
+      STRAWDAY (O.A)
+      
+      ▼Ticket sales start tomorrow 3/5 (Thu) at 20:00🎫
+      https://livepocket.jp/e/gravity0508
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n6dfd615f24e8
+        id: poster
+
+- update:
+    show:
+      year: 2026
+      id: gravityvol6
+    date: 2026-03-04
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+
+- webimage:
+    domain: note.com.nekiband
+    page: n6dfd615f24e8
+    id: poster
+    label: Poster
+    published-date: 2026-03-04
+    url: 'https://assets.st-note.com/img/1772621243-HD9u1an5Oe0TEBzV6f3Almcw.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: gravityvol6
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n6dfd615f24e8
+
+- webpage:
+    domain: note.com.nekiband
+    id: n6dfd615f24e8
+    label: Show page
+    published-date: 2026-03-04
+    url: 'https://note.com/nekiband_jp/n/n6dfd615f24e8'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+

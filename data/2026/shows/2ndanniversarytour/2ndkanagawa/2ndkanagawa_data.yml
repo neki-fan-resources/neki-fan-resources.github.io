@@ -94,6 +94,16 @@
                 - postinstagramimage:
                     post: DVYAthPj5QM
                     image: 3
+    - basicblock:
+        id: multimedia
+        label: image / video
+        sections:
+        - basicsection:
+            label: Live video, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: S0KsO-fqmCo
     part-of:
       show:
         year: 2026
@@ -966,6 +976,21 @@
     date: 2026-03-02
     text:
     - More pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- youtubeshort:
+    id: S0KsO-fqmCo
+    label: On stage
+    info: studio audio
+    published-date: 2026-03-04
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    - song: tictactoe
     part-of:
       show:
         year: 2026

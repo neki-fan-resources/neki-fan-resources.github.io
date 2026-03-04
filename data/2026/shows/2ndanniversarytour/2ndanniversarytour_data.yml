@@ -436,6 +436,46 @@
     reference:
     - postx: 2020058478690349279
 
+- postx:
+    id: 2029098430170317255
+    account: nekiband_jp
+    label: Tickets
+    published-date: 2026-03-04
+    text: |-
+      💫🔥TICKET🔥💫
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      NEK!初の全国ツアー開催中！
+      残すところあと10会場です🎪
+      
+      ▶︎NEXT
+      3/15(日) @ 埼玉・HEAVEN'S ROCK さいたま新都心 VJ-3
+      
+      チケット一般発売中🎫
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      💫🔥TICKET🔥💫
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      NEK!'s first nationwide tour is underway!
+      Only 10 venues left🎪
+      
+      ▶︎NEXT
+      3/15 (Sun) @ Saitama・HEAVEN'S ROCK Saitama Shintoshin VJ-3
+      
+      Tickets on general sale now🎫
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HCjOQM4awAMKNsl
+    part-of:
+      tour: 2ndanniversarytour
+
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
@@ -469,6 +509,16 @@
     - tour: 2ndanniversarytour
     part-of:
       postx: 2020105591847256092
+
+- postximage:
+    post: 2029098430170317255
+    id: HCjOQM4awAMKNsl
+    label: Poster
+    published-date: 2026-03-04
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postx: 2029098430170317255
 
 - postxvideo:
     post: 1976295615287132520

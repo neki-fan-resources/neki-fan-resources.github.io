@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: gravityvol6
+  cover-image:
+    webimage:
+      domain: note.com.nekiband
+      page: n6dfd615f24e8
+      id: poster
+  fullname: SHIBUYA THE GAME PRESENTS 『GrAViTy』vol.6 -THE 2MAN SHOW-
+  shortname: GrAViTy vol.6
+  date: 2026-05-08
+  venue: SHIBUYA THE GAME, Tokyo
+  event-page: 'https://note.com/nekiband_jp/n/n6dfd615f24e8'
+  part-of:
+    group:
+      id: shows
+      group: 2026

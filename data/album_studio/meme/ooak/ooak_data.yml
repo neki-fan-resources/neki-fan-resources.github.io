@@ -1,3 +1,195 @@
+- display:
+    song: ooak
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: qGEzCjYvWZw
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1935646894207996161
+                    video: 01
+                - postxvideo:
+                    post: 1932750181457670312
+                    video: 01
+                - postinstagramvideo:
+                    post: DPLpE1uEkxt
+                    video: 1
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1934127859645419907
+                    video: 01
+                - postxvideo:
+                    post: 1930096228966248749
+                    video: 54904afa-0889-4f5e-a1b1-fe705c2c671d
+                - postxvideo:
+                    post: 1921828183369781385
+                    video: 890f9d50-48f5-4914-9d1f-223e9a52a452
+                - postxvideo:
+                    post: 1905158934169887138
+                    video: 01
+                - postxvideo:
+                    post: 1899444185104863629
+                    video: 01
+                - youtubeshort: jZ2Dn5P3Fac
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1979845300564181266
+                    video: 01
+                - postxvideo:
+                    post: 1947639492552364472
+                    video: 01
+                - postxvideo:
+                    post: 1945857878520475910
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: tMfA47U4p9k
+                - youtubeshort: tuv8q0Or2qs
+                - youtubeshort: FSgmKhViYjA
+                - youtubeshort: AruvDV5MZAQ
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 3dwH1LNEaDU
+                - youtubeshort: WcDxamXh5F4
+                - youtubeshort: Aw_KwQbWfE8
+                - youtubeshort: c2BeYww0AAU
+                - youtubeshort: S5DQ7wjnoKA
+                - youtubeshort: u41vd6yyGGk
+                - youtubeshort: tabt75E-6tY
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: qGEzCjYvWZw
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1935668905244336459
+                    image: GtzabMUXgAAmDvN
+                - postinstagramimage:
+                    post: DLLxx-mh0Bu
+                    image: 1
+                - postinstagramimage:
+                    post: DLLxx-mh0Bu
+                    image: 2
+                - postinstagramimage:
+                    post: DLPphDEysX6
+                    image: 1
+                - postinstagramimage:
+                    post: DLPphDEysX6
+                    image: 2
+                - postinstagramimage:
+                    post: DLPphDEysX6
+                    image: 3
+        - basicsection:
+            label: Promo
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1936726376897475059
+                    video: 01
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Behind the scenes
+                multimedia:
+                - postinstagramvideo:
+                    post: DLMox6Jxk1i
+                    video: 1
+                - youtubeshort: GMLHhcxGZ3U
+                - postinstagramvideo:
+                    post: DLZkTZ0xUTW
+                    video: 1
+                - youtubeshort: n5YYx3i7gBg
+                - youtubeshort: s7rL0X1Zseg
+                - youtubeshort: e_NBzXLLpfs
+                - youtubeshort: '-FTj1689vaY'
+                - youtubeshort: lXdRY7Da8OA
+                - youtubeshort: NHUB-t_D4Iw
+                - youtubeshort: wsPbR3xISFg
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: HFMzoMAZBFQ
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DLPphDEysX6
+                    image: 4
+                - postximage:
+                    post: 1936646576686153867
+                    image: GuBZxwPaEAAI5wJ
+                - postximage:
+                    post: 1966025588482969699
+                    image: G0i52DEaMAAlNX-
+                - postinstagramimage:
+                    post: DLKd6GARjyE
+                    image: 2
+                - postinstagramimage:
+                    post: DLKd6GARjyE
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DLLxx-mh0Bu
+                    image: 5
+                - postinstagramimage:
+                    post: DLLxx-mh0Bu
+                    image: 6
+                - postinstagramimage:
+                    post: DLLxx-mh0Bu
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DLH5AVtyRoV
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1936646576686153867
+                    image: GuBZxw1XUAA8lrO
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1935306568406544563
+                    video: 01
+    part-of:
+      song: ooak
+
 - lyrics:
     id: main
     song: ooak
@@ -240,7 +432,6 @@
       #拡散中
       #ネキ界隈
     image:
-    - 1
     - 2
     - 3
     part-of:
@@ -249,6 +440,9 @@
     - postximage:
         post: 1935668905244336459
         image: GtzabMUXgAAmDvN
+    - postximage:
+        post: 1966025588482969699
+        image: G0i52DEaMAAlNX-
 
 - postinstagram:
     id: DLLxx-mh0Bu
@@ -285,6 +479,7 @@
     - 4
     - 5
     - 6
+    todo: Adds Cocoro's report
     part-of:
       song: ooak
     reference:
@@ -394,16 +589,6 @@
 
 - postinstagramimage:
     post: DLKd6GARjyE
-    id: 1
-    label: Behind the scenes
-    published-date: 2025-06-21
-    context:
-    - song: ooak
-    part-of:
-      postinstagram: DLKd6GARjyE
-
-- postinstagramimage:
-    post: DLKd6GARjyE
     id: 2
     label: Behind the scenes
     published-date: 2025-06-21
@@ -481,6 +666,8 @@
     label: MV image
     info: Natsu
     published-date: 2025-06-23
+    context:
+    - song: ooak
     part-of:
       postinstagram: DLPphDEysX6
 
@@ -489,7 +676,8 @@
     id: 2
     label: MV image
     published-date: 2025-06-23
-    todo: on BtS
+    context:
+    - song: ooak
     part-of:
       postinstagram: DLPphDEysX6
 
@@ -498,7 +686,8 @@
     id: 3
     label: MV image
     published-date: 2025-06-23
-    todo: on BtS
+    context:
+    - song: ooak
     part-of:
       postinstagram: DLPphDEysX6
 
@@ -507,6 +696,8 @@
     id: 4
     label: Behind the scenes
     published-date: 2025-06-23
+    context:
+    - song: ooak
     part-of:
       postinstagram: DLPphDEysX6
 
@@ -534,7 +725,8 @@
 - postinstagramvideo:
     post: DPLpE1uEkxt
     id: 1
-    label: At home
+    label: Singing
+    info: Hika
     published-date: 2025-09-29
     context:
     - song: ooak
@@ -574,34 +766,124 @@
       song: ooak
 
 - postx:
-    id: 1930096228966248749
-    account: nekiband_jp
-    label: OOAK on stage
+    id: 1930097184269041721
+    account: recochoku_store
+    label: OOAK available on recochoku
     published-date: 2025-06-04
     text: |-
-      New Single 「OOAK」
+      NEK!「OOAK」配信中🎊
       
-      皆さんどぉでしょうか！
+      2024年結成の4人組ガールズバンド🎤
+      コメント動画の柔らかい雰囲気とは裏腹に骨太なバンドサウンドをぜひお楽しみください😍
       
-      ライブではHey!やYeah！とみんな一緒に歌ってくれててちょー楽しいよ！
+      #レコチョク で聴いてみる👇
+      https://recochoku.jp/artist/2003535810
       
-      ライブ映像も少しお見せしちゃお🫶
+      ▼ストリーミングでも🎶
+      #dヒッツ での再生はBillboardの集計対象です✨
+      https://dhits.docomo.ne.jp/artist/2003535810?utm_source=tw&utm_medium=social&utm_campaign=dhits_202505_post
       
-       #ネキ界隈  #拡散中  #NEKI
+      @nekiband_jp
+       #NEK
+      コメントも要チェック✅
     translation: |-
-      New Single "OOAK"
+      NEK! "OOAK" is now streaming 🎊
       
-      What does everyone think!
+      A 4-member girl band formed in 2024 🎤
+      Please enjoy their powerful band sound, which stands in contrast to the soft atmosphere in their comment videos 😍
       
-      It's super fun at live shows because everyone sings "Hey!" and "Yeah!" together with us!
+      Listen on #Recochoku 👇
+      https://recochoku.jp/artist/2003535810
       
-      I'll show you a little bit of the live footage too 🫶
+      ▼ Also on streaming 🎶
+      Plays on #dHits count towards Billboard charts ✨
+      https://dhits.docomo.ne.jp/artist/2003535810?utm_source=tw&utm_medium=social&utm_campaign=dhits_202505_post
       
-       #NEKI community #spreading #NEKI
+      @nekiband_jp
+       #NEK
+      Check out the comments too ✅
     video:
-    - 54904afa-0889-4f5e-a1b1-fe705c2c671d
+    - 945ac22c-2372-4af9-b20f-828d0a3c0a7a
     part-of:
-      song: ooak
+      postxvideo:
+        post: 1930097184269041721
+        video: 945ac22c-2372-4af9-b20f-828d0a3c0a7a
+
+- postx:
+    id: 1930112277468066256
+    account: AWA_official
+    label: Available on AWA
+    published-date: 2025-06-04
+    text: |-
+      NEK!(
+      @nekiband_jp
+      )
+      「#OOAK」配信スタート🎧
+      
+      骨太なロックサウンドが織りなすアンサンブルが特徴的な一曲🎸
+      ドラムやボーカルなどのアレンジと前向きな歌詞にも注目です👀
+      
+      #NEKI
+      
+      👉https://mf.awa.fm/43vuEZj
+    translation: |-
+      NEK!(
+      @nekiband_jp
+      )
+      "#OOAK" is now streaming 🎧
+      
+      A track characterized by an ensemble woven from a powerful rock sound 🎸
+      Pay attention to the arrangement of the drums and vocals, as well as the positive lyrics 👀
+      
+      #NEKI
+      
+      👉https://mf.awa.fm/43vuEZj
+    video:
+    - 1dd74cb6-4ae5-4b1c-846d-c4470803f490
+    part-of:
+      postxvideo:
+        post: 1930112277468066256
+        video: 1dd74cb6-4ae5-4b1c-846d-c4470803f490
+
+- postx:
+    id: 1930161836311322826
+    account: KKBOX_JP
+    label: Available on KKBOX
+    published-date: 2025-06-04
+    text: |-
+      @nekiband_jp
+      
+      NEK!
+      4th Digital Single「OOAK」配信中📢
+      ▶️https://kkbox.fm/ylIktC
+      
+      2024年結成 4人組ガールズバンドNEK!🎸
+      ガレージロックのようなサウンド感、NEK!らしい骨太サウンドが織りなすアンサンブルが特徴的な1曲✨
+      
+      #NEKI #OOAK 
+      
+      KKBOXを初回最大2ヶ月無料でお試し🎧
+      https://kkbox.fm/K1PjcY
+    translation: |-
+      @nekiband_jp
+      
+      NEK!
+      4th Digital Single "OOAK" is now streaming 📢
+      ▶️https://kkbox.fm/ylIktC
+      
+      A 4-member girl band formed in 2024, NEK! 🎸
+      A track characterized by a garage rock-like sound and an ensemble woven from the powerful sound typical of NEK! ✨
+      
+      #NEKI #OOAK 
+      
+      Try KKBOX for the first time with up to 2 months free 🎧
+      https://kkbox.fm/K1PjcY
+    video:
+    - 8bb1c022-258f-489a-b6c3-4706ce149637
+    part-of:
+      postxvideo:
+        post: 1930161836311322826
+        video: 8bb1c022-258f-489a-b6c3-4706ce149637
 
 - postx:
     id: 1932750181457670312
@@ -636,6 +918,40 @@
         video: 01
 
 - postx:
+    id: 1935306568406544563
+    account: nekiband_jp
+    label: MV announcement
+    published-date: 2025-06-18
+    text: |-
+      🎥MUSIC VIDEO🎥
+      
+      6/20(金)21:00
+      "OOAK" Official Music Video
+      
+      YouTubeにてプレミア公開決定🎬
+      
+      公開時のチャット欄にはメンバーも参加します🫶
+      
+      #NEKI #OOAK
+    translation: |-
+      🎥MUSIC VIDEO🎥
+      
+      6/20(Fri) 21:00
+      "OOAK" Official Music Video
+      
+      Premiere release confirmed on YouTube🎬
+      
+      Members will also participate in the chat during the premiere🫶
+      
+      #NEKI #OOAK
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1935306568406544563
+        video: 01
+
+- postx:
     id: 1935646894207996161
     account: natsu08_guitar
     label: cut
@@ -650,6 +966,16 @@
       ありがとうー！
       
       #ネキ界隈 #拡散中 #NEKI
+    translation: |-
+      veryone! Tomorrow at 21:00-
+      The "OOAK" MV will be released! 🎥🎥
+      It's already tomorrow! So excited 💛💛
+      I'll be waiting in the chat 💬!
+      
+      I'm so happy you said you like the cutting here 🫶🏻
+      Thank you!
+      
+      #NEKICommunity #SpreadingTheWord #NEKI
     video:
     - 01
     part-of:
@@ -730,6 +1056,28 @@
     image:
     - GuBZxw1XUAA8lrO
     - GuBZxwPaEAAI5wJ
+    part-of:
+      postx: 1936641866231120142
+
+- postx:
+    id: 1936726376897475059
+    account: natsu08_guitar
+    label: 10k views
+    published-date: 2025-06-22
+    text: |-
+      「OOAK」1万回再生ありがとう〜！！！🛹🛹💛
+      
+      もっとたくさんの人に届きますよーに☀️☀️
+      
+      #ネキ界隈 #拡散中 #NEKI
+    translation: |-
+      "OOAK" thank you for 10,000 views~!!! 🛹🛹💛
+      
+      I hope it reaches even more people ☀️☀️
+      
+      #NEKI-kaiwai #SpreadingNow #NEKI
+    video:
+    - 01
     part-of:
       postx: 1936641866231120142
 
@@ -824,8 +1172,7 @@
 - postximage:
     post: 1935668905244336459
     id: GtzabMUXgAAmDvN
-    label: Music Video
-    info: the 4 members
+    label: MV image
     published-date: 2025-06-19
     local-copy: true
     context:
@@ -846,8 +1193,8 @@
 - postximage:
     post: 1936646576686153867
     id: GuBZxw1XUAA8lrO
-    label: Music Video
-    info: behind-the-scenes, Cocoro
+    label: Behind the scenes
+    info: Cocoro
     published-date: 2025-06-22
     context:
     - song: ooak
@@ -857,8 +1204,7 @@
 - postximage:
     post: 1936646576686153867
     id: GuBZxwPaEAAI5wJ
-    label: Music Video
-    info: behind-the-scenes
+    label: Behind the scenes
     published-date: 2025-06-22
     context:
     - song: ooak
@@ -868,7 +1214,7 @@
 - postximage:
     post: 1966025588482969699
     id: G0i52DEaMAAlNX-
-    label: Music Video
+    label: Behind the scenes
     published-date: 2025-09-11
     context:
     - song: ooak
@@ -876,23 +1222,47 @@
       postx: 1966025588482969699
 
 - postxvideo:
-    post: 1930096228966248749
-    id: 54904afa-0889-4f5e-a1b1-fe705c2c671d
-    label: Live
-    info: everyone sings
+    post: 1930097184269041721
+    id: 945ac22c-2372-4af9-b20f-828d0a3c0a7a
+    label: available on recochoku
+    info: speak about the song
     published-date: 2025-06-04
-    cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
+    cover: 1927218720696352768/img/fb19U8pOR0DAqz4H.jpg
     context:
     - song: ooak
-    todo: which show ?
     part-of:
-      postx: 1930096228966248749
+      song: ooak
+
+- postxvideo:
+    post: 1930112277468066256
+    id: 1dd74cb6-4ae5-4b1c-846d-c4470803f490
+    label: available on AWA
+    info: speak about the song
+    published-date: 2025-06-04
+    cover: 1928294236379828227/img/dELVPgPrzuRjPd5T.jpg
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- postxvideo:
+    post: 1930161836311322826
+    id: 8bb1c022-258f-489a-b6c3-4706ce149637
+    label: available on KKBOX
+    info: speak about the song
+    published-date: 2025-06-04
+    cover: 1930161602470580224/img/gFLOhegxYDTjbG9Z.jpg
+    context:
+    - song: ooak
+    todo: check the comment
+    part-of:
+      song: ooak
 
 - postxvideo:
     post: 1932750181457670312
     id: 01
-    label: Chorus
-    info: Natsu
+    label: Playthrough
+    info: Natsu, final chorus
     published-date: 2025-06-11
     cover: 1932750062083559424/img/9AJ_yS8ikGI8Atcw.jpg
     context:
@@ -901,16 +1271,39 @@
       song: ooak
 
 - postxvideo:
+    post: 1935306568406544563
+    id: 01
+    label: Music Video teaser
+    published-date: 2025-06-18
+    cover: 1935306506888527873/img/KmMMIsFF0LI7HOUc.jpg
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- postxvideo:
     post: 1935646894207996161
     id: 01
-    label: Cut
-    info: Natsu
+    label: Playthrough
+    info: Natsu, cutting
     published-date: 2025-06-18
     cover: 1935646770916171776/img/CPlYL1IkO0VoV24N.jpg
     context:
     - song: ooak
     part-of:
       postx: 1935646894207996161
+
+- postxvideo:
+    post: 1936726376897475059
+    id: 01
+    label: Celebrating 10k views
+    info: Natsu, Hika
+    published-date: 2025-06-22
+    cover: 1936726294659489792/img/CXMvKcRMltET_syV.jpg
+    context:
+    - song: ooak
+    part-of:
+      postx: 1936726376897475059
 
 - postxvideo:
     post: 1945857878520475910
@@ -928,7 +1321,7 @@
     post: 1947639492552364472
     id: 01
     label: Rehearsal
-    info: riff, Natsu, Hika, 2-persons guitar
+    info: Natsu, Hika, 2-persons guitar, riff
     published-date: 2025-07-22
     cover: 1947639429159669760/img/Q1RW7U1ded7CRDlb.jpg
     context:
@@ -946,8 +1339,7 @@
 
 - youtubeshort:
     id: '-FTj1689vaY'
-    label: Music Video
-    info: making off
+    label: Behind the scenes
     published-date: 2025-06-24
     context:
     - song: ooak
@@ -993,8 +1385,8 @@
 
 - youtubeshort:
     id: Aw_KwQbWfE8
-    label: Promo
-    info: studio audio, rehearsal room
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-10-02
     context:
     - song: ooak
@@ -1003,8 +1395,7 @@
 
 - youtubeshort:
     id: GMLHhcxGZ3U
-    label: Music Video
-    info: making off
+    label: Behind the scenes
     published-date: 2025-07-09
     context:
     - song: ooak
@@ -1013,8 +1404,8 @@
 
 - youtubeshort:
     id: HFMzoMAZBFQ
-    label: Music Video
-    info: making off, Kanade
+    label: Behind the scenes
+    info: Kanade
     published-date: 2025-06-23
     context:
     - song: ooak
@@ -1023,8 +1414,8 @@
 
 - youtubeshort:
     id: NHUB-t_D4Iw
-    label: Music Video
-    info: making off
+    label: Behind the scenes
+    info: Kanade, Cocoro
     published-date: 2025-07-19
     context:
     - song: ooak
@@ -1054,7 +1445,7 @@
 - youtubeshort:
     id: c2BeYww0AAU
     label: Rehearsal
-    info: studio audio, rehearsal room
+    info: Hika, studio audio
     published-date: 2025-08-21
     context:
     - song: ooak
@@ -1063,8 +1454,7 @@
 
 - youtubeshort:
     id: e_NBzXLLpfs
-    label: Music Video
-    info: making off
+    label: Behind the scenes
     published-date: 2025-07-22
     context:
     - song: ooak
@@ -1073,8 +1463,7 @@
 
 - youtubeshort:
     id: lXdRY7Da8OA
-    label: Music Video
-    info: making off
+    label: Behind the scenes
     published-date: 2025-06-26
     context:
     - song: ooak
@@ -1083,8 +1472,7 @@
 
 - youtubeshort:
     id: n5YYx3i7gBg
-    label: Music Video
-    info: making off
+    label: Behind the scenes
     published-date: 2025-06-22
     context:
     - song: ooak
@@ -1093,8 +1481,7 @@
 
 - youtubeshort:
     id: s7rL0X1Zseg
-    label: Music Video
-    info: making off
+    label: Behind the scenes
     published-date: 2025-06-29
     context:
     - song: ooak
@@ -1123,18 +1510,8 @@
 
 - youtubeshort:
     id: wsPbR3xISFg
-    label: Music Video
-    info: making off
+    label: Behind the scenes
     published-date: 2025-07-02
-    context:
-    - song: ooak
-    part-of:
-      song: ooak
-
-- youtubevideo:
-    id: mP_33Vu4TL4
-    label: Music Video Teaser
-    published-date: 2025-06-18
     context:
     - song: ooak
     part-of:

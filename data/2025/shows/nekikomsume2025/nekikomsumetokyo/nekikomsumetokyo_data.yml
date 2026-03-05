@@ -381,6 +381,38 @@
         id: nekikomsumetokyo
 
 - postx:
+    id: 1930096228966248749
+    account: nekiband_jp
+    label: OOAK on stage
+    published-date: 2025-06-04
+    text: |-
+      New Single 「OOAK」
+      
+      皆さんどぉでしょうか！
+      
+      ライブではHey!やYeah！とみんな一緒に歌ってくれててちょー楽しいよ！
+      
+      ライブ映像も少しお見せしちゃお🫶
+      
+       #ネキ界隈  #拡散中  #NEKI
+    translation: |-
+      New Single "OOAK"
+      
+      What does everyone think!
+      
+      It's super fun at live shows because everyone sings "Hey!" and "Yeah!" together with us!
+      
+      I'll show you a little bit of the live footage too 🫶
+      
+       #NEKI community #spreading #NEKI
+    video:
+    - 54904afa-0889-4f5e-a1b1-fe705c2c671d
+    part-of:
+      postxvideo:
+        post: 1930096228966248749
+        video: 54904afa-0889-4f5e-a1b1-fe705c2c671d
+
+- postx:
     id: 1931252079353581736
     account: coco_102
     label: Loner on stage
@@ -535,6 +567,23 @@
       postx: 1929717050664276154
 
 - postxvideo:
+    post: 1930096228966248749
+    id: 54904afa-0889-4f5e-a1b1-fe705c2c671d
+    label: On stage
+    info: everyone sings
+    published-date: 2025-06-04
+    cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
+    context:
+    - song: ooak
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+
+- postxvideo:
     post: 1931252079353581736
     id: 01
     label: On stage
@@ -571,7 +620,7 @@
 - postxvideo:
     post: 1934127859645419907
     id: 01
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-06-15
     cover: 1934127784982622208/img/SiHF4mRvqaOYV-zJ.jpg

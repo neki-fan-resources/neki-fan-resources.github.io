@@ -692,7 +692,7 @@
 - postxvideo:
     post: 1921828183369781385
     id: 890f9d50-48f5-4914-9d1f-223e9a52a452
-    label: Live
+    label: On stage
     info: Natsu
     published-date: 2025-05-12
     cover: 1921828067770847232/img/fTtcpYm1zUWlb4uR.jpg
@@ -790,8 +790,8 @@
 
 - youtubeshort:
     id: AruvDV5MZAQ
-    label: Promo
-    info: studio audio, from the crowd
+    label: On stage
+    info: studio audio
     published-date: 2025-06-05
     context:
     - song: ooak

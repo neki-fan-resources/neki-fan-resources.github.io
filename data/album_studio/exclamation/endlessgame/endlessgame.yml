@@ -23,22 +23,7 @@ song:
   part-of:
     album: exclamation
   multimedia:
-    live:
-    - postxvideo:
-        post: 1949753645215412472
+    main:
+      postxvideo:
+        post: 1997213795253674395
         video: 01
-    - youtubeshort: FRbyFkaf9-A
-    - postxvideo:
-        post: 1922588708026404968
-        video: 4c117af0-984b-4ba9-8a30-e82f968dd226
-    - postxvideo:
-        post: 1919554837458399724
-        video: ab614f11-559a-4b05-9110-a93a478c49d9
-    - youtubeshort: zWS1TQ1kP6A
-    short:
-    - postxvideo:
-        post: 1944348020235292759
-        video: 01
-    - postxvideo:
-        post: 1917072614553751559
-        video: bc491773-b07c-434d-aadd-06c5ae8679fa

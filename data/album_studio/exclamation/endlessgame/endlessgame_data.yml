@@ -1,3 +1,91 @@
+- display:
+    song: endlessgame
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1944348020235292759
+                    video: 01
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1997213795253674395
+                    video: 01
+                - postxvideo:
+                    post: 1984959064703652298
+                    video: 01
+                - postxvideo:
+                    post: 1949753645215412472
+                    video: 01
+                - youtubeshort: FRbyFkaf9-A
+                - postxvideo:
+                    post: 1922588708026404968
+                    video: 4c117af0-984b-4ba9-8a30-e82f968dd226
+                - postxvideo:
+                    post: 1919554837458399724
+                    video: ab614f11-559a-4b05-9110-a93a478c49d9
+                - youtubeshort: JcCYNJoEoLI
+                - postxvideo:
+                    post: 1904398190973272390
+                    video: 01
+                - postxvideo:
+                    post: 1900151935120138758
+                    video: 01
+                - postxvideo:
+                    post: 1855050058334716223
+                    video: 01
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1937462756808217061
+                    video: 01
+                - postxvideo:
+                    post: 1917072614553751559
+                    video: bc491773-b07c-434d-aadd-06c5ae8679fa
+                - postxvideo:
+                    post: 1903026874315690333
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: yRpUEEvvtBA
+                - youtubeshort: sVdFEGNzZmM
+                - youtubeshort: oUm5oU0O0Z4
+                - youtubeshort: zWS1TQ1kP6A
+                - youtubeshort: 8Aue5D-fPkc
+                - youtubeshort: XurqnHu8140
+                - youtubeshort: KHPpxHWt-O4
+                - youtubeshort: tmpUHr3F67k
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: HBq5ngFucyU
+                - youtubeshort: NHEqpkzeOdc
+                - youtubeshort: 3-CHiuCBCfY
+                - postxvideo:
+                    post: 1912063942815539667
+                    video: 01
+                - youtubeshort: jcyN-PNIzBw
+    - lyricsblock: '-'
+    part-of:
+      song: endlessgame
+
 - lyrics:
     id: main
     song: endlessgame
@@ -1211,6 +1299,38 @@
         - The night deepens again. A pointless endlessgame.
 
 - postx:
+    id: 1903026874315690333
+    account: natsu08_guitar
+    label: ENDLESSGAME rehearsal
+    published-date: 2025-03-21
+    text: |-
+      🎮ENDLESSGAME🎮
+      
+      #ネキ界隈 #拡散中 #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1903026874315690333
+        video: 01
+
+- postx:
+    id: 1912063942815539667
+    account: 46_hikaa
+    label: ENDLESSGAME rehearsal
+    info: Hika, Natsu
+    published-date: 2025-04-15
+    text: |-
+      ENDLESSGAME✩.*˚
+       #NEKI #ネキ界隈 #拡散中
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1912063942815539667
+        video: 01
+
+- postx:
     id: 1917072614553751559
     account: 46_hikaa
     label: ENDLESSGAME rehearsal
@@ -1225,7 +1345,40 @@
     video:
     - bc491773-b07c-434d-aadd-06c5ae8679fa
     part-of:
-      song: endlessgame
+      postxvideo:
+        post: 1917072614553751559
+        video: bc491773-b07c-434d-aadd-06c5ae8679fa
+
+- postx:
+    id: 1937462756808217061
+    account: coco_102
+    label: ENDLESSGAME rehearsal
+    published-date: 2025-06-24
+    text: |-
+      本日はリハでした！こちらはべードラ練の様子🎮🩶
+      
+      ポケモンバトル風に撮りたかったのに、なんか背後霊の視点みたいな映像になってしまった、、、
+      思ってたのと違う！！笑
+      
+      私の背後霊になったらおそらくこんな感じです笑
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      We had rehearsal today! Here is a clip of the bass and drums practicing 🎮🩶
+      
+      I wanted to film it like a Pokemon battle, but it ended up looking like a view from a restless spirit...
+      Not what I had in mind!! lol
+      
+      If you became my restless spirit, it would probably look like this lol
+      
+      #NEKI #SpreadingNow #NEKI-kaiwai
+    video:
+    - 01
+    todo: check song. problem with downloaded file
+    part-of:
+      postxvideo:
+        post: 1937462756808217061
+        video: 01
 
 - postx:
     id: 1944348020235292759
@@ -1243,35 +1396,81 @@
     video:
     - 01
     part-of:
+      postxvideo:
+        post: 1944348020235292759
+        video: 01
+
+- postxvideo:
+    post: 1903026874315690333
+    id: 01
+    label: Rehearsal
+    info: Hika, Natsu
+    published-date: 2025-03-21
+    cover: 1903026789318033408/img/k35vJg5YAFzIlinD.jpg
+    context:
+    - song: endlessgame
+    part-of:
+      song: endlessgame
+
+- postxvideo:
+    post: 1912063942815539667
+    id: 01
+    label: Rehearsal
+    published-date: 2025-04-15
+    cover: 1912063831112658944/img/hhk64OdMBpMux5kD.jpg
+    context:
+    - song: endlessgame
+    part-of:
       song: endlessgame
 
 - postxvideo:
     post: 1917072614553751559
     id: bc491773-b07c-434d-aadd-06c5ae8679fa
-    label: Guitar rehersal
-    info: Hika, Natsu
+    label: Rehersal
+    info: Natsu, Hika
     published-date: 2025-04-29
     cover: 1917072549030330368/img/siCMf5Eb930aWZ11.jpg
     context:
     - song: endlessgame
     part-of:
-      postx: 1917072614553751559
+      song: endlessgame
+
+- postxvideo:
+    post: 1937462756808217061
+    id: 01
+    label: Rehearsal
+    info: Cocoro, Kanade
+    published-date: 2025-06-24
+    cover: 1937462525228158976/img/geO7f9kgpeagfzcQ.jpg
+    context:
+    - song: endlessgame
+    part-of:
+      song: endlessgame
 
 - postxvideo:
     post: 1944348020235292759
     id: 01
-    label: On a black Gibson Les Paul
+    label: Playthrough
+    info: Hika, on a black Gibson Les Paul
     published-date: 2025-07-13
     cover: 1944347924609253376/img/M9GQjNSp-cODc8YR.jpg
     context:
     - song: endlessgame
     part-of:
-      postx: 1944348020235292759
+      song: endlessgame
+
+- update:
+    song: endlessgame
+    date: 2026-03-05
+    text:
+    - Refreshed and organized the videos and images
+    part-of:
+      song: endlessgame
 
 - youtubeshort:
     id: 3-CHiuCBCfY
-    label: Promo
-    info: studio audio, rehearsal room
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-07-23
     context:
     - song: endlessgame
@@ -1279,20 +1478,9 @@
       song: endlessgame
 
 - youtubeshort:
-    id: 8Aue5D-fPkc
-    label: Promo
-    info: studio audio
-    published-date: 2024-11-16
-    context:
-    - song: endlessgame
-    todo: which venue ?
-    part-of:
-      song: endlessgame
-
-- youtubeshort:
     id: HBq5ngFucyU
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-09-18
     context:
     - song: endlessgame
@@ -1301,8 +1489,8 @@
 
 - youtubeshort:
     id: NHEqpkzeOdc
-    label: Promo
-    info: studio audio, rehearsal room, Natsu solo
+    label: Rehearsal
+    info: Natsu, studio audio, solo
     published-date: 2025-08-07
     context:
     - song: endlessgame
@@ -1311,23 +1499,10 @@
 
 - youtubeshort:
     id: jcyN-PNIzBw
-    label: Promo
-    info: rehearsal room, studio audio
+    label: Rehearsal
+    info: studio audio
     published-date: 2024-10-01
     context:
-    - song: endlessgame
-    part-of:
-      song: endlessgame
-
-- youtubeshort:
-    id: yRpUEEvvtBA
-    label: Promo
-    info: studio audio
-    published-date: 2025-10-11
-    context:
-    - show:
-        year: 2025
-        id: inthefamilyfest
     - song: endlessgame
     part-of:
       song: endlessgame

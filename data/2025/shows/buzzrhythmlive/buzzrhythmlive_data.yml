@@ -1006,9 +1006,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: buzzrhythmlive
+      postxvideo:
+        post: 1984959064703652298
+        video: 01
 
 - postx:
     id: 1984971197457784999
@@ -1557,7 +1557,7 @@
 - postxvideo:
     post: 1984959064703652298
     id: 01
-    label: Live
+    label: On stage
     info: Cocoro
     published-date: 2025-11-02
     cover: 1984958984563101696/img/tE-iMdojy6Yj-_1G.jpg
@@ -1567,7 +1567,9 @@
         id: buzzrhythmlive
     - song: endlessgame
     part-of:
-      postx: 1984959064703652298
+      show:
+        year: 2025
+        id: buzzrhythmlive
 
 - update:
     show:

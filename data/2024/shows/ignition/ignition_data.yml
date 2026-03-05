@@ -252,7 +252,7 @@
 - postx:
     id: 1855050058334716223
     account: coco_102
-    label: ENDLESSGAME ? on stage
+    label: ENDLESSGAME on stage
     published-date: 2024-11-09
     text: |-
       このアウトロ前の一連の流れ楽しい🎮🔥
@@ -331,9 +331,25 @@
 - postxvideo:
     post: 1855050058334716223
     id: 01
-    label: Cocoro-cam
+    label: On stage
+    info: Cocoro
     published-date: 2024-11-09
     cover: 1855049998918205441/pu/img/jomFUnsE-IaybRUZ.jpg
+    context:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      show:
+        year: 2024
+        id: ignition
+
+- youtubeshort:
+    id: 8Aue5D-fPkc
+    label: On stage
+    info: studio audio
+    published-date: 2024-11-16
     context:
     - song: endlessgame
     - show:

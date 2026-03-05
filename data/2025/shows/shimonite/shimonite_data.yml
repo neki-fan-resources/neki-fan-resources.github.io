@@ -342,9 +342,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2025
-        id: shimonite
+      postxvideo:
+        post: 1997213795253674395
+        video: 01
 
 - postx:
     id: 1997229962416521622
@@ -538,7 +538,9 @@
         id: shimonite
     - song: endlessgame
     part-of:
-      postx: 1997213795253674395
+      show:
+        year: 2025
+        id: shimonite
 
 - update:
     show:

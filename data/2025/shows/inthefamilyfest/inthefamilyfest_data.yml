@@ -731,3 +731,18 @@
         year: 2025
         id: inthefamilyfest
 
+- youtubeshort:
+    id: yRpUEEvvtBA
+    label: On stage
+    info: studio audio
+    published-date: 2025-10-11
+    context:
+    - show:
+        year: 2025
+        id: inthefamilyfest
+    - song: endlessgame
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+

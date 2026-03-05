@@ -1135,7 +1135,7 @@
 
 - youtubeshort:
     id: 8jqBR2PyfAw
-    label: Live
+    label: On stage
     published-date: 2025-01-05
     context:
     - song: moon
@@ -1163,7 +1163,7 @@
 
 - youtubeshort:
     id: HfIoK8Qdv5I
-    label: On stage
+    label: Live Video
     published-date: 2024-12-20
     context:
     - song: dreams

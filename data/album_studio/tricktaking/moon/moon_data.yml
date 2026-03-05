@@ -1,3 +1,43 @@
+- display:
+    song: moon
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1951594575509999640
+                    video: 01
+            - multimediasubsection:
+                label: Recording
+                multimedia:
+                - postxvideo:
+                    post: 1824076708242436323
+                    video: 01
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1964676334128693400
+                    video: 01
+                - youtubeshort: 8jqBR2PyfAw
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: FEwx6aYh3fU
+                - youtubeshort: w5iL7GzElXU
+    - lyricsblock: '-'
+    part-of:
+      song: moon
+
 - lyrics:
     id: main
     song: moon
@@ -755,7 +795,9 @@
     video:
     - 01
     part-of:
-      song: moon
+      postxvideo:
+        post: 1951594575509999640
+        video: 01
 
 - postxvideo:
     post: 1824076708242436323
@@ -772,14 +814,22 @@
 - postxvideo:
     post: 1951594575509999640
     id: 01
-    label: Solo
-    info: Natsu
+    label: Playthrough
+    info: Natsu, solo
     published-date: 2025-08-02
     cover: 1951580037976924160/img/740-1qMzglOFA97Y.jpg
     context:
     - song: moon
     part-of:
-      postx: 1951594575509999640
+      song: moon
+
+- update:
+    song: moon
+    date: 2026-03-05
+    text:
+    - Refreshed and organized the videos and images
+    part-of:
+      song: moon
 
 - youtubeshort:
     id: w5iL7GzElXU

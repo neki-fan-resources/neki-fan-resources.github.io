@@ -236,3 +236,18 @@
     part-of:
       postx: 1805328812106039713
 
+- youtubeshort:
+    id: 5OUm1JsT0jA
+    label: On stage
+    info: studio audio, with lyrics
+    published-date: 2024-06-27
+    context:
+    - song: blink
+    - show:
+        year: 2024
+        id: beyondthesingularityvol6
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol6
+

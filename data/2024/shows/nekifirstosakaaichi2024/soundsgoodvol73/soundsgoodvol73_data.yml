@@ -176,6 +176,21 @@
       postx: 1826990576136540351
 
 - youtubeshort:
+    id: XM2krS3GLm0
+    label: On stage
+    info: studio audio, with lyrics
+    published-date: 2024-08-29
+    context:
+    - song: blink
+    - show:
+        year: 2024
+        id: soundsgoodvol73
+    part-of:
+      show:
+        year: 2024
+        id: soundsgoodvol73
+
+- youtubeshort:
     id: XurqnHu8140
     label: On stage
     info: studio audio

@@ -360,3 +360,18 @@
         year: 2024
         id: ignition
 
+- youtubeshort:
+    id: pCTospiTveM
+    label: On stage
+    info: studio audio, with lyrics
+    published-date: 2024-11-20
+    context:
+    - song: blink
+    - show:
+        year: 2024
+        id: ignition
+    part-of:
+      show:
+        year: 2024
+        id: ignition
+

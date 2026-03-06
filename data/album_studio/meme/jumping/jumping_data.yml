@@ -10,6 +10,19 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: EUuiBgbxtZI
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 1v5z59HYB4c
+                - youtubeshort: UTW1j6w0qIw
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: tPDwvM6mu14
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo
@@ -69,18 +82,6 @@
                 - postximage:
                     post: 2006384807752946106
                     image: G9gcVIebgAA457T
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Rehearsal video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: 1v5z59HYB4c
-                - youtubeshort: UTW1j6w0qIw
-                - youtubeshort: tPDwvM6mu14
     part-of:
       song: jumping
 

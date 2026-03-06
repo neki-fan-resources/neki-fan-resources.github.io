@@ -1,3 +1,45 @@
+- display:
+    song: frogflog
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Recording
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1926604625936810264
+                    video: b0969558-f5d5-43d7-9200-0bf80227bfbf
+                - postxvideo:
+                    post: 1923958028916883650
+                    video: 6d791e00-ee17-4246-b248-d81ea7004287
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1996909339790151834
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: KsMLKhWlKuc
+                - youtubeshort: vH2XH93Lpd0
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: pXVqwXzt9S8
+    part-of:
+      song: frogflog
+
 - postx:
     id: 1923958028916883650
     account: coco_102

@@ -843,8 +843,8 @@
 - postxvideo:
     post: 1953425358717591622
     id: 01
-    label: Live
-    info: interlude, Cocoro
+    label: On stage
+    info: Cocoro
     published-date: 2025-08-07
     cover: 1953424661146116096/img/fnEeCheYtlubUR0Z.jpg
     context:
@@ -923,8 +923,8 @@
 
 - youtubeshort:
     id: XFmBGAFdnE0
-    label: Promo
-    info: studio audio, Kanade
+    label: On stage
+    info: Kanade, studio audio
     published-date: 2025-08-15
     context:
     - show:
@@ -968,7 +968,7 @@
 
 - youtubeshort:
     id: n9JoWcHOI9s
-    label: Promo
+    label: On stage
     info: studio audio
     published-date: 2025-08-10
     context:

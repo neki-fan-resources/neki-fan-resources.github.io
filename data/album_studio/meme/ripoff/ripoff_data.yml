@@ -1,3 +1,192 @@
+- display:
+    song: ripoff
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: OkQV2Vo9EgE
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DPEOOQQktta
+                    video: 1
+        - basicsection:
+            label: Recording
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1892817187200458944
+                    video: 01
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2012893509011783718
+                    video: 01
+                - postxvideo:
+                    post: 1953425358717591622
+                    video: 01
+                - postxvideo:
+                    post: 1953025441515921602
+                    video: 01
+        - basicsection:
+            label: Karaoke
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1970827214980874512
+                    video: 01
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1957416293554155743
+                    video: 01
+                - postxvideo:
+                    post: 1957004284782055894
+                    video: 01
+                - youtubeshort: 0oger2CvQP0
+                - postinstagramvideo:
+                    post: DOzrgxCEqwG
+                    video: 1
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: FDHIXwhdRM4
+                - youtubeshort: crMGqtPMQNI
+                - youtubeshort: GxJg2931yjc
+                - youtubeshort: XFmBGAFdnE0
+                - youtubeshort: n9JoWcHOI9s
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: mR1bQ9K8qLM
+                - youtubeshort: dRMAkblPWaI
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: OkQV2Vo9EgE
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1959224099332637131
+                    image: GzBo-8pacAAYgMf
+                - postinstagramimage:
+                    post: DNsrQfw5AFX
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DNsrQfw5AFX
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DNsrQfw5AFX
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DNsrQfw5AFX
+                    image: 3
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Behind the scenes
+                multimedia:
+                - youtubeshort: D0uRZRg6dm0
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DN2cToQYm4u
+                    image: 2
+                - postximage:
+                    post: 1968563113944564085
+                    image: G1G9tQMbQAAt5-S
+                - postinstagramimage:
+                    post: DN2cToQYm4u
+                    image: 1
+                - postinstagramimage:
+                    post: DN2cToQYm4u
+                    image: 3
+                - postximage:
+                    post: 1960333645996232799
+                    image: GzSBCPOaEAAbz_t
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1960317535112597659
+                    image: GzRyTBxbcAA87rM
+                - postximage:
+                    post: 1960317535112597659
+                    image: GzRyTB-aQAAgkcY
+                - postximage:
+                    post: 1954020833908953357
+                    image: Gx4Tk8zaAAANRho
+                - postximage:
+                    post: 1954020833908953357
+                    image: Gx4Tk9GaUAA-Skv
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1960529877574279264
+                    image: GzUzhFka4AAopmC
+                - postinstagramimage:
+                    post: DN0qDEFZBcy
+                    image: 1
+                - postinstagramimage:
+                    post: DN0qDEFZBcy
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1960333645996232799
+                    image: GzSBCOtaAAAPzFp
+                - postximage:
+                    post: 1960333645996232799
+                    image: GzSBCPBaMAASLd4
+                - postximage:
+                    post: 1960333645996232799
+                    image: GzSBCPNaAAArcMt
+                - postximage:
+                    post: 1959760382345806176
+                    image: GzH8F6HbkAA8Lxi
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Teaser
+                multimedia:
+                - postxvideo:
+                    post: 1958861801078366328
+                    video: 01
+    part-of:
+      song: ripoff
+
 - lyrics:
     id: main
     song: ripoff
@@ -1608,12 +1797,33 @@
 - postinstagramvideo:
     post: DPEOOQQktta
     id: 1
-    label: At home
+    label: Singing
+    info: Hika
     published-date: 2025-09-26
     context:
     - song: ripoff
     part-of:
       song: ripoff
+
+- postx:
+    id: 1892817187200458944
+    account: coco_102
+    label: Recording
+    published-date: 2025-02-21
+    text: |-
+      新曲RECの様子！必死！！特訓せねば😂
+      
+      この曲、キメも各パートの見せ場も盛りだくさんだから楽しみにしてて💪🏻🔥
+    translation: |-
+      Footage from our new song REC! I'm desperate!! I gotta keep training hard😂
+      
+      This song has so many rhythmic breaks and highlights for every part, so look forward to it💪🏻🔥
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1892817187200458944
+        video: 01
 
 - postx:
     id: 1949439923565826120
@@ -1686,7 +1896,9 @@
     video:
     - 01
     part-of:
-      song: ripoff
+      postxvideo:
+        post: 1957004284782055894
+        video: 01
 
 - postx:
     id: 1957416293554155743
@@ -1702,7 +1914,47 @@
     video:
     - 01
     part-of:
-      song: ripoff
+      postxvideo:
+        post: 1957416293554155743
+        video: 01
+
+- postx:
+    id: 1958861801078366328
+    account: nekiband_jp
+    label: MV announcement
+    published-date: 2025-08-22
+    text: |-
+      ▓█▓ #ripoff ▓█▓
+      
+      8/23(土)21:00
+      “rip-off” Official Music Video
+      
+      YouTubeにてプレミア公開決定🎥
+      
+      公開時のチャット欄にはメンバーも参加します🩶
+      
+      🔗https://youtu.be/OkQV2Vo9EgE
+      
+      #NEKI
+    translation: |-
+      ▓█▓ #ripoff ▓█▓
+      
+      8/23 (Sat) 21:00
+      “rip-off” Official Music Video
+      
+      Premiere release confirmed on YouTube🎥
+      
+      Members will also participate in the chat section during the release🩶
+      
+      🔗https://youtu.be/OkQV2Vo9EgE
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1958861801078366328
+        video: 01
 
 - postx:
     id: 1959224099332637131
@@ -1959,8 +2211,8 @@
 - postximage:
     post: 1959760382345806176
     id: GzH8F6HbkAA8Lxi
-    label: MV
-    info: Behind the scenes, Natsu
+    label: Behind the scenes
+    info: Natsu
     published-date: 2025-08-25
     context:
     - song: ripoff
@@ -1980,8 +2232,8 @@
 - postximage:
     post: 1960317535112597659
     id: GzRyTB-aQAAgkcY
-    label: MV
-    info: behind the scenes, Cocoro
+    label: Behind the scenes
+    info: Cocoro
     published-date: 2025-08-26
     context:
     - song: ripoff
@@ -1992,8 +2244,8 @@
 - postximage:
     post: 1960317535112597659
     id: GzRyTBxbcAA87rM
-    label: MV
-    info: behind the scenes, Cocoro
+    label: Behind the scenes
+    info: Cocoro
     published-date: 2025-08-26
     context:
     - song: ripoff
@@ -2004,8 +2256,8 @@
 - postximage:
     post: 1960333645996232799
     id: GzSBCOtaAAAPzFp
-    label: MV
-    info: behind the scenes, Natsu
+    label: Behind the scenes
+    info: Natsu
     published-date: 2025-08-26
     context:
     - song: ripoff
@@ -2015,8 +2267,8 @@
 - postximage:
     post: 1960333645996232799
     id: GzSBCPBaMAASLd4
-    label: MV
-    info: behind the scenes, Natsu
+    label: Behind the scenes
+    info: Natsu
     published-date: 2025-08-26
     context:
     - song: ripoff
@@ -2026,8 +2278,8 @@
 - postximage:
     post: 1960333645996232799
     id: GzSBCPNaAAArcMt
-    label: MV
-    info: behind the scenes, Natsu
+    label: Behind the scenes
+    info: Natsu
     published-date: 2025-08-26
     context:
     - song: ripoff
@@ -2037,8 +2289,8 @@
 - postximage:
     post: 1960333645996232799
     id: GzSBCPOaEAAbz_t
-    label: MV
-    info: behind the scenes, cake time
+    label: Behind the scenes
+    info: cake time
     published-date: 2025-08-26
     context:
     - song: ripoff
@@ -2048,8 +2300,8 @@
 - postximage:
     post: 1960529877574279264
     id: GzUzhFka4AAopmC
-    label: MV
-    info: behind the scenes, Hika
+    label: Behind the scenes
+    info: Hika
     published-date: 2025-08-26
     context:
     - song: ripoff
@@ -2059,8 +2311,7 @@
 - postximage:
     post: 1968563113944564085
     id: G1G9tQMbQAAt5-S
-    label: MV
-    info: behind the scenes
+    label: Behind the scenes
     published-date: 2025-09-18
     context:
     - song: ripoff
@@ -2068,9 +2319,22 @@
       postx: 1968563113944564085
 
 - postxvideo:
+    post: 1892817187200458944
+    id: 01
+    label: Recording
+    info: Cocoro
+    published-date: 2025-02-21
+    cover: 1892817006610513920/img/VcTDbKKwlSP12k3v.jpg
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- postxvideo:
     post: 1957004284782055894
     id: 01
     label: Rehearsal
+    info: Hika
     published-date: 2025-08-17
     cover: 1957004215852908544/img/9sszIEGufGcbOmD1.jpg
     context:
@@ -2079,7 +2343,7 @@
         year: 2025
         id: 1stzepponeman
     part-of:
-      postx: 1957004284782055894
+      song: ripoff
 
 - postxvideo:
     post: 1957416293554155743
@@ -2094,7 +2358,18 @@
         year: 2025
         id: 1stzepponeman
     part-of:
-      postx: 1957416293554155743
+      song: ripoff
+
+- postxvideo:
+    post: 1958861801078366328
+    id: 01
+    label: Music Video Teaser
+    published-date: 2025-08-22
+    cover: 1958854139783651330/img/AH4hF2uJT-rtSSO8.jpg
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
 
 - postxvideo:
     post: 1970827214980874512
@@ -2118,6 +2393,14 @@
         post: 1970827214980874512
         video: 01
 
+- update:
+    song: ripoff
+    date: 2026-03-06
+    text:
+    - Refreshed and organized the videos and images
+    part-of:
+      song: ripoff
+
 - youtubeshort:
     id: 0oger2CvQP0
     label: Rehearsal
@@ -2139,8 +2422,7 @@
 
 - youtubeshort:
     id: D0uRZRg6dm0
-    label: MV
-    info: Extra clips
+    label: Behind the scenes
     published-date: 2025-08-26
     context:
     - song: ripoff
@@ -2158,8 +2440,8 @@
 
 - youtubeshort:
     id: dRMAkblPWaI
-    label: Promo
-    info: studio audio, rehearsal room
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-08-09
     context:
     - song: ripoff
@@ -2168,8 +2450,8 @@
 
 - youtubeshort:
     id: mR1bQ9K8qLM
-    label: Promo
-    info: studio audio, rehearsal room
+    label: Rehearsal
+    info: studio audio
     published-date: 2025-08-16
     context:
     - song: ripoff
@@ -2189,15 +2471,6 @@
     id: OkQV2Vo9EgE
     label: Official Music Video
     published-date: 2025-08-23
-    context:
-    - song: ripoff
-    part-of:
-      song: ripoff
-
-- youtubevideo:
-    id: pnJR-FNVILE
-    label: Official Teaser
-    published-date: 2025-08-22
     context:
     - song: ripoff
     part-of:

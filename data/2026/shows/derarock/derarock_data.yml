@@ -378,9 +378,9 @@
     video:
     - 01
     part-of:
-      show:
-        year: 2026
-        id: derarock
+      postxvideo:
+        post: 2012893509011783718
+        video: 01
 
 - postximage:
     post: 2001932447198642313
@@ -592,7 +592,9 @@
         id: derarock
     - song: ripoff
     part-of:
-      postx: 2012893509011783718
+      show:
+        year: 2026
+        id: derarock
 
 - update:
     show:

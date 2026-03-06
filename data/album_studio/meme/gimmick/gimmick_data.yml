@@ -20,7 +20,7 @@
                     post: 1995852341493596505
                     video: 01
         - basicsection:
-            label: Live
+            label: Live, with original audio
             subsections:
             - multimediasubsection:
                 multimedia:
@@ -31,11 +31,28 @@
                     post: 1987453821082304748
                     video: 01
         - basicsection:
-            label: Rehearsal
+            label: Rehearsal, with original audio
             subsections:
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: R5MUqk22jP8
+                - postinstagramvideo:
+                    post: DQq9TFNErQD
+                    video: 1
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: aIdQUiCJV60
+                - youtubeshort: JiBQIqwpMzc
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: LAjdWGeyfRw
+                - youtubeshort: ziKDdkQZzJU
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo
@@ -220,24 +237,6 @@
                 - postinstagramimage:
                     post: DQLwCqfEmmX
                     image: 3
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: aIdQUiCJV60
-                - youtubeshort: JiBQIqwpMzc
-        - basicsection:
-            label: Rehearsal video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: LAjdWGeyfRw
-                - youtubeshort: ziKDdkQZzJU
     part-of:
       song: gimmick
 
@@ -1009,6 +1008,7 @@
     post: DQq9TFNErQD
     id: 1
     label: Rehearsal
+    info: Hika
     published-date: 2025-11-05
     context:
     - song: gimmick
@@ -1787,7 +1787,7 @@
 - postxvideo:
     post: 1993273861744578879
     id: 01
-    label: Cover
+    label: Playthrough
     info: Hika
     published-date: 2025-11-25
     cover: 1993273595246837761/img/a_XSY4LoTNunU5MS.jpg
@@ -1799,7 +1799,7 @@
 - postxvideo:
     post: 1995852341493596505
     id: 01
-    label: Cover
+    label: Playthrough
     info: Hika
     published-date: 2025-12-02
     cover: 1995852264796528640/img/exwvg1IhgIZIrMhJ.jpg
@@ -1891,6 +1891,14 @@
     text:
     - 100k views for the Official Music Video
     - playthrough from Natsu
+    part-of:
+      song: gimmick
+
+- update:
+    song: gimmick
+    date: 2026-03-06
+    text:
+    - Refreshed and organized the videos and images
     part-of:
       song: gimmick
 

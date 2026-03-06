@@ -1,3 +1,45 @@
+- display:
+    song: clockup
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2001242203549786245
+                    video: 01
+                - postxvideo:
+                    post: 1946522055312331049
+                    video: 01
+                - postxvideo:
+                    post: 1914605645606818280
+                    video: 01
+                - youtubeshort: 759NyQOQ1yg
+                - youtubeshort: mvD68jTQrHs
+                - postxvideo:
+                    post: 1878367875968487444
+                    video: 01
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: wSWAMOCQ_pI
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: uT0FJdwTZW0
+                - youtubeshort: df7tbLp6n4k
+    part-of:
+      song: clockup
+
 - update:
     song: clockup
     date: 2025-10-27

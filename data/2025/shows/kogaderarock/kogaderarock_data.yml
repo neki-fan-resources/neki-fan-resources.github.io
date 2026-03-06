@@ -397,6 +397,30 @@
         video: 01
 
 - postx:
+    id: 1914605645606818280
+    account: natsu08_guitar
+    label: Clock up! on stage
+    published-date: 2025-04-22
+    text: |-
+      まだ音源化されていない曲だけど、お客さんの一体感すごくてほんとに毎回嬉しい✨
+      
+      これからもたくさん掛け声聞かせてください🌟
+      
+      #ネキ界隈 #拡散中 #NEKI
+    translation: |-
+      This song hasn't been officially released yet, but the sense of unity from the audience is amazing—it makes me so happy every time✨
+      
+      Please keep letting us hear those chants and shouts from now on🌟
+      
+      #NEKICircle #NowSpreading #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1914605645606818280
+        video: 01
+
+- postx:
     id: 1931999361577463823
     account: natsu08_guitar
     label: 195 BPM
@@ -603,6 +627,23 @@
     cover: 1914179529431781377/img/VM8VNH60tVc0EfFz.jpg
     context:
     - song: fool
+    - show:
+        year: 2025
+        id: kogaderarock
+    part-of:
+      show:
+        year: 2025
+        id: kogaderarock
+
+- postxvideo:
+    post: 1914605645606818280
+    id: 01
+    label: On stage
+    info: Natsu
+    published-date: 2025-04-22
+    cover: 1914605547179159552/img/owJkGeKNNh73a6gA.jpg
+    context:
+    - song: clockup
     - show:
         year: 2025
         id: kogaderarock

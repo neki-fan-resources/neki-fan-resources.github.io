@@ -262,7 +262,7 @@
 - postx:
     id: 1946522055312331049
     account: cure_bass_baka
-    label: Intro
+    label: Clock up! on stage
     published-date: 2025-07-19
     text: |-
       昨日の大阪公演より
@@ -274,7 +274,6 @@
        #NEK! #NEKI_Community #SpreadingTheWord
     video:
     - 01
-    todo: which song ?
     part-of:
       postxvideo:
         post: 1946522055312331049
@@ -549,8 +548,8 @@
 - postxvideo:
     post: 1946522055312331049
     id: 01
-    label: Live
-    info: intro, Kanade
+    label: On stage
+    info: Kanade, intro
     published-date: 2025-07-19
     cover: 1946521487633973250/img/MDZtX2xEzKMoI4rG.jpg
     context:

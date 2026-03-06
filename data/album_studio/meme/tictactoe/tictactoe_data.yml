@@ -1,3 +1,34 @@
+- display:
+    song: tictactoe
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Rehearsal, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: K86MAnRQpXQ
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: S0KsO-fqmCo
+                - youtubeshort: OEYklTvEBak
+                - youtubeshort: _h4lqFr9oZ8
+        - basicsection:
+            label: Rehearsal, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: sSuHiv9vB6Q
+                - youtubeshort: FoofEnRp8NI
+    part-of:
+      song: tictactoe
+
 - update:
     song: tictactoe
     date: 2025-11-29
@@ -8,7 +39,7 @@
 
 - youtubeshort:
     id: K86MAnRQpXQ
-    label: Drums only
+    label: Rehearsal
     info: cocoro
     published-date: 2025-12-26
     context:

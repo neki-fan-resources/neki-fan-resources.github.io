@@ -1366,12 +1366,15 @@
     published-date: 2024-04-04
     context:
     - song: getover
+    - show:
+        year: 2024
+        id: shibuyachelseahotel
     part-of:
       song: getover
 
 - youtubeshort:
     id: mlR0Jeyhw8Y
-    label: Recording
+    label: Rehearsal
     info: studio audio
     published-date: 2024-03-17
     context:

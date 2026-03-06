@@ -17,9 +17,7 @@ show:
       id: shows
       group: 2024
   multimedia:
-    short:
-    - youtubeshort: qR2yF3Jb4r4
-    - youtubeshort: bBhvxwNWh3A
-    - youtubeshort: gVUFjTcD3B4
-    additional:
-    - youtubeshort: Z-ju19kHofg
+    main:
+      postinstagramimage:
+        post: C4wjU64xReF
+        image: 04

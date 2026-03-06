@@ -23,6 +23,7 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                label: Images
                 multimedia:
                 - postximage:
                     post: 1765733615722467497
@@ -30,9 +31,6 @@
                 - postinstagramimage:
                     post: C4QGFf5xRlI
                     image: 02
-                - postinstagramimage:
-                    post: C4QGFf5xRlI
-                    image: 03
                 - postinstagramimage:
                     post: C4QGFf5xRlI
                     image: 01
@@ -46,6 +44,19 @@
                 multimedia:
                 - postinstagramimage:
                     post: C4QGFf5xRlI
+                    image: 03
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: C4QqsyphCuv
+                    video: 06
+                - postinstagramvideo:
+                    post: C4QGFf5xRlI
+                    video: 07
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C4QGFf5xRlI
                     image: 06
                 - postximage:
                     post: 1766464470363324596
@@ -53,12 +64,6 @@
                 - postinstagramimage:
                     post: C4QqsyphCuv
                     image: 05
-                - postinstagramvideo:
-                    post: C4QGFf5xRlI
-                    video: 07
-                - postinstagramvideo:
-                    post: C4QqsyphCuv
-                    video: 06
         - basicsection:
             label: At the venue
             subsections:
@@ -82,7 +87,7 @@
             - textsubsection:
                 lines:
                 - line:
-                  - text: On stage, they completed their set with 2 covers of BAND-MAID songs.
+                  - text: On stage, the band completed their set with 2 covers of BAND-MAID songs.
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
@@ -107,15 +112,20 @@
                       postinstagram: C4QGFf5xRlI
                       text: message
                   - text: " for the \"Girl's UP!!! vol.349\" show."
-            - textsubsection:
+            - interviewsubsection:
+                label: Original message
+                lines:
+                - text: Girl's UP!!! Vol.349に出演させていただきました！！
+                - text: 中学のときからずっと憧れていた場所でNEK!の初ライブを迎えられて本当に胸熱でした。
+                - text: お越しくださった皆さんありがとうございました🥰
+                - text: 明日のLUPINUS ROCK FESTIVAL 2024も楽しむぞ！！
+            - interviewsubsection:
                 label: Translation
                 lines:
-                - line:
-                  - text: We performed at Girl's UP!!! Vol.349!!
-                - line:
-                  - text: To be able to have NEK!'s debut show at a venue I've dreamed of since junior high school was truly moving. Thank you so much to everyone who came 🥰
-                - line:
-                  - text: Going to have a blast at LUPINUS ROCK FESTIVAL 2024 tomorrow, too!!
+                - text: We performed at Girl's UP!!! Vol.349!!
+                - text: To be able to have NEK!'s debut show at a venue I've dreamed of since junior high school was truly moving.
+                - text: Thank you so much to everyone who came 🥰
+                - text: Going to have a blast at LUPINUS ROCK FESTIVAL 2024 tomorrow, too!!
     - basicblock:
         id: multimedia
         label: image / video

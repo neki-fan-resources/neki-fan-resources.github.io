@@ -1,3 +1,108 @@
+- display:
+    show:
+      year: 2024
+      id: shibuyachelseahotel
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: Z-ju19kHofg
+                - youtubeshort: qR2yF3Jb4r4
+                - postxvideo:
+                    post: 1772570854037361045
+                    video: 01
+                - youtubeshort: gVUFjTcD3B4
+                - youtubeshort: bBhvxwNWh3A
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1770751059876561362
+                    image: GJL4s59XgAA5Jj8
+                - postinstagramimage:
+                    post: C4wjU64xReF
+                    image: 02
+                - postinstagramimage:
+                    post: C4wjU64xReF
+                    image: 03
+                - postinstagramimage:
+                    post: C4wjU64xReF
+                    image: 04
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C4wjU64xReF
+                    image: 05
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1770448008477610078
+                    image: GJHlErkasAAlAl7
+                - postinstagramimage:
+                    post: C4wjU64xReF
+                    image: 01
+        - basicsection:
+            label: Before the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1770308489857909073
+                    image: GJFmL2Xa0AA3Nof
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            label: Videos
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1770020192674091266
+                    video: 01
+                - postxvideo:
+                    post: 1769667166465650700
+                    video: 01
+                - postxvideo:
+                    post: 1769320176183599179
+                    video: 01
+                - postxvideo:
+                    post: 1768976059159167425
+                    video: 01
+        - basicsection:
+            label: Get Over CDs
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1770318613091602634
+                    video: 01
+                - postximage:
+                    post: 1770067246448275734
+                    image: GJCKxZbaYAAbbsT
+        - basicsection:
+            label: Rehearsal
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: bJG9HXd0aUI
+                - youtubeshort: mlR0Jeyhw8Y
+    todo: process videos before show
+    part-of:
+      show:
+        year: 2024
+        id: shibuyachelseahotel
+
 - postinstagram:
     id: C4wjU64xReF
     account: cocoro_drum
@@ -33,6 +138,7 @@
     - 03
     - 04
     - 05
+    todo: process report
     part-of:
       show:
         year: 2024
@@ -562,8 +668,7 @@
 
 - youtubeshort:
     id: Z-ju19kHofg
-    label: Show
-    info: Before the show
+    label: Before the show
     published-date: 2025-03-27
     context:
     - show:

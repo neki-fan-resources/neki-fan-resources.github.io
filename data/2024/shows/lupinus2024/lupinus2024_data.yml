@@ -21,6 +21,7 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                label: Images
                 multimedia:
                 - postximage:
                     post: 1766464470363324596
@@ -83,15 +84,20 @@
                       postinstagram: C4Sh0puxkc6
                       text: message
                   - text: ' for the "LUPINUS ROCK FESTIVAL 2024" show.'
-            - textsubsection:
+            - interviewsubsection:
+                label: Original message
+                lines:
+                - text: 下北沢で行われているLUPINUS ROCK FESTIVAL 2024にトップバッターで出場しました！！
+                - text: 公演後にはNEK!初の、人生初のビラ配りをしました😳
+                - text: 下北のライブハウスさんをたくさん巡ることができて楽しかったです！
+                - text: 次回は3/20(木･祝)の NEK!初単独フリーライブ@渋谷チェルシーホテル💪🏻🔥
+            - interviewsubsection:
                 label: Translation
                 lines:
-                - line:
-                  - text: We performed as the top batter (first act) at the LUPINUS ROCK FESTIVAL 2024 held in Shimokitazawa!!
-                - line:
-                  - text: After the performance, we did our first-ever flyer distribution, which was also a first in my life! 😳 It was fun being able to visit many live music venues in Shimokitazawa!
-                - line:
-                  - text: 'Our next event will be the: NEK! First Solo Free Live @ Shibuya Chelsea Hotel on 3/20 (Thu/Holiday) 💪🏻🔥'
+                - text: We performed as the top batter (first act) at the LUPINUS ROCK FESTIVAL 2024 held in Shimokitazawa!!
+                - text: After the performance, we did our first-ever flyer distribution, which was also a first in my life! 😳
+                - text: It was fun being able to visit many live music venues in Shimokitazawa!
+                - text: 'Our next event will be the: NEK! First Solo Free Live @ Shibuya Chelsea Hotel on 3/20 (Thu/Holiday) 💪🏻🔥'
     - basicblock:
         id: aftershow
         label: after the show
@@ -134,6 +140,7 @@
                 lines:
                 - line:
                   - text: In the second video, each member presents herself and explain why people should come see NEK!.
+    todo: line break in Cocoro's report
     part-of:
       show:
         year: 2024

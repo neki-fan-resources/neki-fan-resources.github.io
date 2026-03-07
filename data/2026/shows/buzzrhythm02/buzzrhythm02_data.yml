@@ -1,0 +1,209 @@
+- display:
+    media:
+      year: 2026
+      id: buzzrhythm02
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Backstage
+                multimedia:
+                - postximage:
+                    post: 2030183993178775754
+                    image: HCypgfLbsAAWjgP
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2030199626108952671
+                    image: HCy3zFTbYAEuytN
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- postx:
+    id: 2030142463130878385
+    account: BUZZRHYTHM_NTV
+    label: Announcement
+    published-date: 2026-03-07
+    text: |-
+      次回のバズリズム02は
+      次世代注目バンド セカンドバッカー・NEK! 2組が登場！
+      バカリズムと初トークで結成秘話など深掘り^ ^
+      
+      ♪スタジオライブ♪
+      ▶︎DXTEEN
+      ▶︎THE JET BOY BANGERZ
+      ▶︎yosugala
+      
+      3月13日(金)25:09〜放送　お楽しみに！
+      
+      ※地域によって放送時間が異なります
+    translation: |-
+      The next Buzz Rhythm 02 will feature
+      two next-generation spotlight bands: Second Backer and NEK!!
+      A deep dive into their formation stories and more in their first talk with Bakarhythm ^ ^
+      
+      ♪ Studio Live ♪
+      ▶︎ DXTEEN
+      ▶︎ THE JET BOY BANGERZ
+      ▶︎ yosugala
+      
+      Broadcasting Friday, March 13th at 25:09—look forward to it!
+      
+      *Broadcast times vary by region
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- postx:
+    id: 2030183993178775754
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-03-07
+    text: |-
+      ✨📡 テレビ出演📡✨
+      
+      3/13(金)25:09〜放送
+      日本テレビ「バズリズム02」
+      
+      トークゲスト&スタジオライブ
+      出演決定🎊
+      
+      初のテレビ出演です!!!!
+      ぜひご覧ください🫶
+      
+      https://ntv.co.jp/buzzrhythm/
+      
+      #NEKI 
+      @BUZZRHYTHM_NTV
+    translation: |-
+      ✨📡 TV Appearance 📡✨
+      
+      Broadcasting 3/13 (Fri) 25:09〜
+      Nippon TV "Buzz Rhythm 02"
+      
+      Talk Guest & Studio Live
+      Appearance Confirmed 🎊
+      
+      It's our first TV appearance!!!!
+      Please check it out 🫶
+      
+      https://ntv.co.jp/buzzrhythm/
+      
+      #NEKI
+      @BUZZRHYTHM_NTV
+    image:
+    - HCypgfAbUAAbpRI
+    - HCypgfLbsAAWjgP
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- postx:
+    id: 2030199626108952671
+    account: 46_hikaa
+    label: Announcement
+    published-date: 2026-03-07
+    text: |-
+      NEK!初のテレビ出演っ！！
+      
+      3/13(金)25:09〜放送の
+      日本テレビ「バズリズム02」
+      
+      トークゲストとスタジオライブ出演決定
+      皆さんおたのしみにっ✩.*
+    translation: |-
+      NEK!'s first TV appearance!!
+      
+      Broadcasting 3/13 (Fri) 25:09—
+      Nippon TV "Buzz Rhythm 02"
+      
+      Talk guest and studio live appearance confirmed
+      Everyone, look forward to it ✩.*
+    image:
+    - HCy3zFTbYAEuytN
+    part-of:
+      postx: 2030183993178775754
+
+- postximage:
+    post: 2030183993178775754
+    id: HCypgfAbUAAbpRI
+    label: Program
+    published-date: 2026-03-07
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      postx: 2030183993178775754
+
+- postximage:
+    post: 2030183993178775754
+    id: HCypgfLbsAAWjgP
+    label: Backstage
+    published-date: 2026-03-07
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      postx: 2030183993178775754
+
+- postximage:
+    post: 2030199626108952671
+    id: HCy3zFTbYAEuytN
+    label: Backstage
+    info: Hika
+    published-date: 2026-03-07
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      postx: 2030199626108952671
+
+- update:
+    media:
+      year: 2026
+      id: buzzrhythm02
+    date: 2026-03-07
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- webimage:
+    domain: ntv.co.jp
+    page: buzzrhythm
+    id: logo
+    label: Logo
+    published-date: 2026-03-07
+    url: 'https://www.ntv.co.jp/buzzrhythm/images/logo_large.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: ntv.co.jp
+        id: buzzrhythm
+
+- webpage:
+    domain: ntv.co.jp
+    id: buzzrhythm
+    label: Show page
+    published-date: 2026-03-07
+    url: 'https://www.ntv.co.jp/buzzrhythm/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+

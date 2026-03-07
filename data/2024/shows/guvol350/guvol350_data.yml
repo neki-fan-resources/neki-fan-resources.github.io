@@ -1,3 +1,77 @@
+- display:
+    show:
+      year: 2024
+      id: guvol350
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 6W-P3YBkybQ
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: C5j_-YTxWES
+                    image: 02
+                - postximage:
+                    post: 1777882436648816864
+                    image: GKxOpceaQAAtkFe
+                - postximage:
+                    post: 1777695998347010219
+                    image: GKulFQXasAAGnVf
+                - postximage:
+                    post: 1777695998347010219
+                    image: GKulFQPaQAA_vQf
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C5j_-YTxWES
+                    image: 06
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1777882436648816864
+                    image: GKxOpcgbQAAThmD
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1777882436648816864
+                    image: GKxOpcdbQAAid1_
+        - basicsection:
+            label: Before the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1777609719974187465
+                    image: GKtWnW3aIAAmvRc
+        - basicsection:
+            label: At the venue
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1777882436648816864
+                    image: GKxOpcdacAAcvaD
+                - postximage:
+                    post: 1777695998347010219
+                    image: GKulFQVbkAEr1t-
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C5kENsoBTkC
+                    image: 02
+    part-of:
+      webpage:
+        domain: eggman.jp
+        id: guvol350
+
 - postinstagram:
     id: C5j_-YTxWES
     account: cocoro_drum
@@ -359,7 +433,8 @@
 - postximage:
     post: 1777882436648816864
     id: GKxOpcdbQAAid1_
-    label: Natsu, Hika
+    label: Backstage
+    info: Natsu, Hika
     published-date: 2024-04-10
     context:
     - show:
@@ -383,7 +458,7 @@
 - postximage:
     post: 1777882436648816864
     id: GKxOpcgbQAAThmD
-    label: Band
+    label: Backstage
     published-date: 2024-04-10
     context:
     - show:

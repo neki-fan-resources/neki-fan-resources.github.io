@@ -30,6 +30,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: jjklkogDUmI
                 - youtubeshort: 76QHtJpuMe8
                 - youtubeshort: XePvfo8uMFc
     - lyricsblock: '-'
@@ -662,6 +663,16 @@
     id: iWrjb2v-KXM
     label: Music Video
     published-date: 2026-01-25
+    context:
+    - song: scrapbook
+    part-of:
+      song: scrapbook
+
+- youtubeshort:
+    id: jjklkogDUmI
+    label: Rehearsal
+    info: studio audio
+    published-date: 2026-03-07
     context:
     - song: scrapbook
     part-of:

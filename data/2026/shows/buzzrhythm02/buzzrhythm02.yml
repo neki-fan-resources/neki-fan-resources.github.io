@@ -1,0 +1,32 @@
+mediavideo:
+  year: 2026
+  id: buzzrhythm02
+  cover-image:
+    webimage:
+      domain: ntv.co.jp
+      page: buzzrhythm
+      id: logo
+  channel: Nippon TV
+  show: BUZZ RHYTHM 02
+  designation: tv show
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-03-13
+  host: バカリズム
+  webpage: 'https://www.ntv.co.jp/buzzrhythm/'
+  part-of:
+    group:
+      id: shows
+      group: 2026
+  description:
+  - NEK! first TV appearance !!
+  categories:
+  - mainmedia
+  multimedia:
+    main:
+      postximage:
+        post: 2030183993178775754
+        image: HCypgfLbsAAWjgP

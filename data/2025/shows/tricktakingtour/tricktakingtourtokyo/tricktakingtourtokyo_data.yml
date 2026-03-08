@@ -765,6 +765,89 @@
         id: tricktakingtourtokyo
 
 - postx:
+    id: 1899800384560050609
+    account: nekiband_jp
+    label: This week
+    published-date: 2025-03-12
+    text: |-
+      🔥TOUR FINAL🔥
+      
+      NEK! 1stワンマンツアー「TR!CK TAK!NG」
+      @ 東京・Spotify O-WEST
+      
+      いよいよ今週3/16(日)開催❤️‍🔥
+      皆さまのご来場をお待ちしています🫶
+      
+      チケット一般発売中！▼
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    translation: |-
+      🔥TOUR FINAL🔥
+      
+      NEK! 1st One-Man Tour "TR!CK TAK!NG"
+      @ Tokyo · Spotify O-WEST
+      
+      Finally happening this week on 3/16 (Sun) ❤️‍🔥
+      We are looking forward to everyone's visit 🫶
+      
+      Tickets on general sale now! ▼
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nc703bb1d82c8
+        id: poster
+    - webimage:
+        domain: note.com.nekiband
+        page: n41466bbb690c
+        id: merch
+    - webimage:
+        domain: note.com.nekiband
+        page: n41466bbb690c
+        id: merchlottery
+    - webimage:
+        domain: note.com.nekiband
+        page: n41466bbb690c
+        id: merchep
+
+- postx:
+    id: 1899832129422574037
+    account: 46_hikaa
+    label: This week
+    published-date: 2025-03-12
+    text: |-
+      いよいよだね！3/16(日)TOUR FINAL！
+      東京・Spotify O-WEST！！
+      
+      ぶち上がる準備できてますか？？？
+      もう楽しむしか無いからね🎤⭐️
+      
+      みんなで歌って踊って飛び跳ねて
+      存分に楽しんでいこうぜ！！！
+      #NEKI
+    translation: |-
+      It’s finally almost here! 3/16 (Sun) TOUR FINAL!
+      Tokyo · Spotify O-WEST!!
+      
+      Are you ready to go wild???
+      There's nothing left to do but enjoy it 🎤⭐️
+      
+      Let's all sing, dance, and jump around
+      And enjoy ourselves to the fullest!!!
+      #NEKI
+    image:
+    - Gl2PQKSbMAARbH8
+    part-of:
+      postx: 1899800384560050609
+
+- postx:
     id: 1900919310698377256
     account: natsu08_guitar
     label: Tomorrow
@@ -1472,6 +1555,17 @@
         id: tricktakingtourtokyo
     part-of:
       postx: 1899795479229317149
+
+- postximage:
+    post: 1899832129422574037
+    id: Gl2PQKSbMAARbH8
+    label: EP
+    info: Hika
+    published-date: 2025-03-12
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1899832129422574037
 
 - postximage:
     post: 1900919310698377256

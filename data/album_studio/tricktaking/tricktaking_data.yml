@@ -1,3 +1,207 @@
+- display:
+    album: tricktaking
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - albumsongssection: '-'
+        - basicsection:
+            label: ' '
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1896770794166120627
+                    image: GlKu-kJbcAAm0VB
+                - postximage:
+                    post: 1899832129422574037
+                    image: Gl2PQKSbMAARbH8
+    - basicblock:
+        id: releaseday
+        label: Release day
+        sections:
+        - basicsection:
+            label: Displays and visiting the stores
+            subsections:
+            - multimediasubsection:
+                label: Tower Records Shinjuku
+                multimedia:
+                - youtubeshort: ieh_ai4aaP0
+                - postximage:
+                    post: 1897912233163997512
+                    image: Gla9FIIbwAAe4IM
+                - postximage:
+                    post: 1896843721062387939
+                    image: GlLxNG4akAAOivA
+                - postximage:
+                    post: 1896843721062387939
+                    image: GlLxNQCbYAA3_Oi
+            - multimediasubsection:
+                label: Tower Records Shibuya
+                multimedia:
+                - youtubeshort: 8D7NYm0sa4w
+                - postximage:
+                    post: 1897871765369766125
+                    image: GlaX5DybwAQrg0o
+                - postximage:
+                    post: 1897871765369766125
+                    image: GlaX0SxbwAA8Lbk
+                - postximage:
+                    post: 1896796230828884126
+                    image: GlLGGr9XMAA1RRY
+            - multimediasubsection:
+                label: Tower Records Machida
+                multimedia:
+                - postximage:
+                    post: 1897878063930917161
+                    image: GlaYE5qa4AA1VDv
+                - postximage:
+                    post: 1897878941203128464
+                    image: GlaexlhbwAE90vm
+                - postximage:
+                    post: 1896874511615820030
+                    image: GlMLFLdasAAWqy6
+            - multimediasubsection:
+                label: HMV&BOOKS SHIBUYA
+                multimedia:
+                - postximage:
+                    post: 1897918888396177628
+                    image: GlbDK14bwAEXWuG
+                - postximage:
+                    post: 1897918888396177628
+                    image: GlbDK14bwAInDnb
+                - postximage:
+                    post: 1897918888396177628
+                    image: GlbDK14bcAAJXHe
+            - multimediasubsection:
+                label: Tower Records Umeda NU Chayamachi
+                multimedia:
+                - postximage:
+                    post: 1898213347960795329
+                    image: GlfO7L2bwAA4N4D
+            - multimediasubsection:
+                label: VILLAGE VANGUARD SHIBUYA
+                multimedia:
+                - postximage:
+                    post: 1898314795859968146
+                    image: GlgrNhhbEAAIqCr
+                - postximage:
+                    post: 1900464641857482943
+                    image: Gl_OdLPbEAA7QDn
+                - youtubeshort: vs7iqp4JGwQ
+            - multimediasubsection:
+                label: Tower Records Soga
+                multimedia:
+                - postximage:
+                    post: 1896782067641553174
+                    image: GlK5NhsbYAARAwb
+            - multimediasubsection:
+                label: Tower Records Iwata
+                multimedia:
+                - postximage:
+                    post: 1896819909197459557
+                    image: GlLbmm-bUAAnA2R
+            - multimediasubsection:
+                label: Tower Records Namba
+                multimedia:
+                - postximage:
+                    post: 1896821011162771824
+                    image: GlLcaJOagAA5_Jf
+            - multimediasubsection:
+                label: Tower Records Akashi
+                multimedia:
+                - postximage:
+                    post: 1896830414809133381
+                    image: GlLlNCjaUAAsQWl
+            - multimediasubsection:
+                label: Tower Records Tokyo Bay
+                multimedia:
+                - postximage:
+                    post: 1896833531986506129
+                    image: GlLmjPMXEAEv9aY
+            - multimediasubsection:
+                label: Tower Records Lake Town
+                multimedia:
+                - postximage:
+                    post: 1896837728584810984
+                    image: GlLr2x-b0AExYK-
+            - multimediasubsection:
+                label: Tower Records Kashihara
+                multimedia:
+                - postximage:
+                    post: 1896850650841112584
+                    image: GlL3nNnbUAECem2
+            - multimediasubsection:
+                label: Tower Records Tsudanuma
+                multimedia:
+                - postximage:
+                    post: 1896865329403527668
+                    image: GlME02LWcAAausl
+            - multimediasubsection:
+                label: Tower Records Yokohama
+                multimedia:
+                - postximage:
+                    post: 1896866056133902366
+                    image: GlMC4e8akAENrHY
+            - multimediasubsection:
+                label: Tower Records Kinshicho
+                multimedia:
+                - postximage:
+                    post: 1896867556235120906
+                    image: GlMG_GvbwAAH6HO
+    - basicblock:
+        id: bonuses
+        label: Bonuses
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: First print bonuses
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n35921564900b
+                    id: tarotbonus
+                - postximage:
+                    post: 1895283964631490896
+                    image: Gk1ms5WXwAAIEdG
+                - postximage:
+                    post: 1897110582689718517
+                    image: GlPkA_VXgAE6O3a
+            - multimediasubsection:
+                label: Venue bonuses
+                multimedia:
+                - postximage:
+                    post: 1873309528680501738
+                    image: Gf9DhGxa4AA1ZA-
+                - postximage:
+                    post: 1873309528680501738
+                    image: Gf9DhGxboAEg8DV
+            - multimediasubsection:
+                label: Store bonuses
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n35921564900b
+                    id: storebonuses
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1883804554007093275
+                    image: GiSd5qfa4AAG0W8
+                - postximage:
+                    post: 1895283964631490896
+                    image: Gk1ms5RX0AAjgiJ
+            - multimediasubsection:
+                label: Giveaway
+                multimedia:
+                - postximage:
+                    post: 1897572933943296231
+                    image: GlWFGcRaAAAg0IL
+    part-of:
+      album: tricktaking
+
 - postinstagram:
     id: DGmRFA-hwqw
     account: cocoro_drum
@@ -194,6 +398,929 @@
     part-of:
       album: tricktaking
 
+- postx:
+    id: 1896770794166120627
+    account: nekiband_jp
+    label: Early release today
+    published-date: 2025-03-04
+    text: |-
+      ◤  ⚡️  フラゲ日  ⚡️  ◢
+      
+      2nd EP「TR!CK TAK!NG」
+      
+      本日フラゲ日です❣️
+      
+      各楽曲に仕掛けがたくさん詰まっています🥳
+      いっぱい聴いてその"トリック"をお楽しみください🫶
+      
+      https://lnk.to/tricktaking_CD
+      
+      #NEKI
+    translation: |-
+      ◤  ⚡️ Flying Get Day ⚡️ ◢
+      
+      2nd EP "TR!CK TAK!NG"
+      
+      Today is the flying get day❣️
+      
+      Each track is packed with lots of gimmicks🥳
+      Please listen to it a lot and enjoy the "tricks"🫶
+      
+      https://lnk.to/tricktaking_CD
+      
+      #NEKI
+    image:
+    - GlKu-kJbcAAm0VB
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896782067641553174
+    account: TOWER_Soga
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【#NEKI(NEK!)】
+      
+      🎊🎊#タワレコメン 選出🎊🎊
+      
+      ニューEP『TR!CK TAK!NG』
+      入荷しました✨✨
+      
+      店頭では試聴もできます🎧
+      
+      🎁特典🎁
+      📍ステッカー(タワーレコードver.)
+      https://tower.jp/article/feature_item/2024/12/29/0701
+      #CD入荷情報
+    translation: |-
+      【#NEKI(NEK!)】
+      
+      🎊🎊#Tower Recommen Selection🎊🎊
+      
+      New EP "TR!CK TAK!NG"
+      Is now in stock✨✨
+      
+      Listening stations are available in-store🎧
+      
+      🎁Bonus🎁
+      📍Sticker (Tower Records ver.)
+      https://tower.jp/article/feature_item/2024/12/29/0701
+      #CDArrivalInfo
+    image:
+    - GlK5NhsbYAARAwb
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896796230828884126
+    account: TOWER_Shibuya
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【NEK!】
+      待望の2nd EP
+      『TR!CK TAK!NG』
+      本日入荷💿
+      
+      さまざまなトリックが
+      詰まった1作✨
+      
+      「人生の物語と指針」を
+      私たちに提示してくれるEPデッキとなっています！
+      
+      特典はステッカー！
+      この機会に是非お越しください！🔥
+      3Fにて展開中！！(Yz)
+      #NEKI
+    translation: |-
+      【NEK!】
+      The long-awaited 2nd EP
+      "TR!CK TAK!NG"
+      Arrived today💿
+      
+      A work packed with 
+      various tricks✨
+      
+      It's an EP deck that presents us 
+      with "life's story and guidelines"!
+      
+      The bonus is a sticker!
+      Please take this opportunity to visit us!🔥
+      On display on the 3rd floor!! (Yz)
+      #NEKI
+    image:
+    - GlLGGr9XMAA1RRY
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896819909197459557
+    account: TOWER_Iwata
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【#NEK!】
+      
+      ＼㊗️タワレコメン選出㊗️／
+      
+      3/5発売「TR!CK TAK!NG」
+      本日入荷しました🚚💨
+      
+      今作EPは、
+      各楽曲ごとの"トリック"
+      が楽しめる仕上がり💿✨
+      
+      🎁タワレコ特典🎁
+      ステッカー
+      
+      🔗https://tower.jp/article/feature_item/2024/12/29/0701?srsltid=AfmBOoqA71zvMPkMa2bT7tN9tQNSFhMVD4BslEvpzyNx1XrXIoa4gwj_
+      
+      #NEKI
+      @nekiband_jp
+      
+      #CD入荷情報
+    translation: |-
+      【#NEK!】
+      
+      ＼㊗️ Tower Recommen Selection ㊗️／
+      
+      3/5 Release "TR!CK TAK!NG"
+      Arrived today🚚💨
+      
+      This EP is finished so that 
+      you can enjoy the "tricks" 
+      in each song💿✨
+      
+      🎁 Tower Records Bonus 🎁
+      Sticker
+      
+      🔗https://tower.jp/article/feature_item/2024/12/29/0701?srsltid=AfmBOoqA71zvMPkMa2bT7tN9tQNSFhMVD4BslEvpzyNx1XrXIoa4gwj_
+      
+      #NEKI
+      @nekiband_jp
+      
+      #CDArrivalInfo
+    image:
+    - GlLbmm-bUAAnA2R
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896821011162771824
+    account: TOWER_Namba
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【NEK!】
+      
+      🌈🌈2025年3月度 #タワレコメン 選出🌈🌈
+      2nd EP『TR!CK TAK!NG』入荷しました💥
+      
+      スラングロックバンド「NEK!」のトリックが詰まった最強デッキが完成🙌🏻
+      各楽曲ごとの"トリック"が楽しめる仕上がりになっております🎊
+      
+      🎁特典🎁
+      ステッカー(タワーレコードver.)
+      
+      #CD入荷情報
+    translation: |-
+      【NEK!】
+      
+      🌈🌈March 2025 #Tower Recommen Selection🌈🌈
+      2nd EP "TR!CK TAK!NG" is now in stock💥
+      
+      The strongest deck packed with the tricks of the slang rock band "NEK!" is complete🙌🏻
+      It is finished so that you can enjoy the "tricks" in each song🎊
+      
+      🎁Bonus🎁
+      Sticker (Tower Records ver.)
+      
+      #CDArrivalInfo
+    image:
+    - GlLcaJOagAA5_Jf
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896830414809133381
+    account: TOWER_Akashi
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【NEK!】
+      
+      🔥３月度 #タワレコメン 選出🔥
+      
+      2nd EP 『TR!CK TAK!NG』
+      本日入荷いたしました‼️
+      
+      スラングロックバンド「NEK!」のトリックが詰まった最強デッキ💥💥
+      
+      🎁特典🎁
+      「ステッカー(タワーレコードver.)」
+      🔗https://tower.jp/article/news/2025/02/17/n101
+      #NEKI　#CD入荷情報
+    translation: |-
+      【NEK!】
+      
+      🔥March #Tower Recommen Selection🔥
+      
+      2nd EP "TR!CK TAK!NG"
+      Arrived today‼️
+      
+      The strongest deck packed with the tricks of the slang rock band "NEK!"💥💥
+      
+      🎁Bonus🎁
+      "Sticker (Tower Records ver.)"
+      🔗https://tower.jp/article/news/2025/02/17/n101
+      #NEKI　#CDArrivalInfo
+    image:
+    - GlLlNCjaUAAsQWl
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896833531986506129
+    account: TOWER_Tokyobay
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【NEK!】
+      
+      ＼㊗️#タワレコメン 選出㊗️／
+      
+       2nd EP『TR!CK TAK!NG』
+      https://tower.jp/article/feature_item/2024/12/29/0701?srsltid=AfmBOoqA71zvMPkMa2bT7tN9tQNSFhMVD4BslEvpzyNx1XrXIoa4gwj_
+      入荷しました!!🌟
+      
+      スラングロックバンド「NEK!」のトリックが詰まった最強デッキが完成🙌🏻
+      各楽曲ごとの"トリック"が楽しめる仕上がりになっております🎊
+      
+      🎁特典🎁
+      ステッカー(タワーレコードver.)
+      #NEKI
+    translation: |-
+      【NEK!】
+      
+      ＼㊗️ #Tower Recommen Selection ㊗️／
+      
+       2nd EP "TR!CK TAK!NG"
+      https://tower.jp/article/feature_item/2024/12/29/0701?srsltid=AfmBOoqA71zvMPkMa2bT7tN9tQNSFhMVD4BslEvpzyNx1XrXIoa4gwj_
+      Is now in stock!!🌟
+      
+      The strongest deck packed with the tricks of the slang rock band "NEK!" is complete🙌🏻
+      It is finished so that you can enjoy the "tricks" in each song🎊
+      
+      🎁Bonus🎁
+      Sticker (Tower Records ver.)
+      #NEKI
+    image:
+    - GlLmjPMXEAEv9aY
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896837728584810984
+    account: TOWER_Laketown
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【#CD入荷情報】【NEK!】 
+      #タワレコメン 選出👂 
+      スラングロック旋風を巻き起こした新生ガールズロックバンド「NEK!」
+      ニューEP『TR!CK TAK!NG』が入荷いたしました💥
+      
+      各楽曲ごとの 「トリック」が楽しめる仕上がりの必聴盤です🔊
+      
+      https://tower.jp/article/feature_item/2024/12/29/0701
+      
+      #NEKI
+    translation: |-
+      【#CDArrivalInfo】【NEK!】 
+      #Tower Recommen Selection👂 
+      The new girls' rock band "NEK!" who caused a slang rock whirlwind
+      New EP "TR!CK TAK!NG" is now in stock💥
+      
+      It's a must-listen album finished so that you can enjoy the "tricks" in each song🔊
+      
+      https://tower.jp/article/feature_item/2024/12/29/0701
+      
+      #NEKI
+    image:
+    - GlLr2x-b0AExYK-
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896843721062387939
+    account: TOWER_Shinjuku
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【#NEK!】　
+      
+      ／
+      ㊗#タワレコメン 選出!!!!
+      ＼
+      
+      スラングロックバンド"NEK!" （ネキ）
+      の2nd EP『TR!CK TAK!NG』#フラゲ日 🌈
+      
+      新宿店ではパネル展示＆～3/9までにご購入の方にパネルが当たる抽選券もお渡し中！
+      
+      🎁先着特典：ステッカー
+      
+      彼女たちの最強デッキをご堪能あれ🥰
+      
+      #NEKI
+    translation: |-
+      【#NEK!】　
+      
+      ／
+      ㊗#Tower Recommen Selection!!!!
+      ＼
+      
+      Slang rock band "NEK!"
+      2nd EP "TR!CK TAK!NG" #FlyingGetDay 🌈
+      
+      The Shinjuku store has a panel exhibition & lottery tickets to win a panel are being given to those who purchase by 3/9!
+      
+      🎁First-come bonus: Sticker
+      
+      Please enjoy their strongest deck🥰
+      
+      #NEKI
+    image:
+    - GlLxNG4akAAOivA
+    - GlLxNQCbYAA3_Oi
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896850650841112584
+    account: TOWER_Kashihara
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【#NEK!】
+      
+      3/5発売『TR!CK TAK!NG』
+      本日入荷いたしました🥰
+      
+      ㊗タワレコメン選出🎉
+      スラングロックバンド「NEK!」のトリックが詰まった最強デッキが完成！
+      
+      🎁タワレコ特典🎁
+        　　ステッカー
+      
+      🔗https://tower.jp/article/feature_item/2024/12/29/0701?srsltid=AfmBOoqA71zvMPkMa2bT7tN9tQNSFhMVD4BslEvpzyNx1XrXIoa4gwj_
+      
+      #NEKI
+      #CD入荷情報
+    translation: |-
+      【#NEK!】
+      
+      3/5 Release "TR!CK TAK!NG"
+      Arrived today🥰
+      
+      ㊗ Tower Recommen Selection 🎉
+      The strongest deck packed with the tricks of the slang rock band "NEK!" is complete!
+      
+      🎁 Tower Records Bonus 🎁
+            Sticker
+      
+      🔗https://tower.jp/article/feature_item/2024/12/29/0701?srsltid=AfmBOoqA71zvMPkMa2bT7tN9tQNSFhMVD4BslEvpzyNx1XrXIoa4gwj_
+      
+      #NEKI
+      #CDArrivalInfo
+    image:
+    - GlL3nNnbUAECem2
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896865329403527668
+    account: TOWER_Tsudanuma
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【#CD入荷情報】
+      #タワレコメン
+      
+      NEK!
+      『TR!CK TAK!NG』
+      💿本日入荷💿
+      
+      スラングロックバンド「NEK!」の
+      トリックが詰まった最強デッキ🎸🎵
+      
+      🎁先着特典🎁ステッカー
+      
+      ▼詳細はこちら
+      https://tower.jp/article/feature_item/2024/12/29/0701?srsltid=AfmBOoqA71zvMPkMa2bT7tN9tQNSFhMVD4BslEvpzyNx1XrXIoa4gwj_ 
+      
+      #NEKI 
+      @nekiband_jp
+    translation: |-
+      【#CDArrivalInfo】
+      #Tower Recommen
+      
+      NEK!
+      "TR!CK TAK!NG"
+      💿Arrived Today💿
+      
+      The strongest deck packed with
+      tricks from the slang rock band "NEK!"🎸🎵
+      
+      🎁First-come bonus🎁Sticker
+      
+      ▼Click here for details
+      https://tower.jp/article/feature_item/2024/12/29/0701?srsltid=AfmBOoqA71zvMPkMa2bT7tN9tQNSFhMVD4BslEvpzyNx1XrXIoa4gwj_ 
+      
+      #NEKI 
+      @nekiband_jp
+    image:
+    - GlME02LWcAAausl
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896866056133902366
+    account: TOWER_Yokohama
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【NEK!】
+      待望の2nd EP
+      『TR!CK TAK!NG』
+      本日入荷しました！！💿
+      
+      さまざまなトリックが
+      詰まった1作✨
+      
+      「人生の物語と指針」を
+      私たちに提示してくれるEPデッキとなっています！
+      
+      特典：ステッカー✨
+      
+      皆様のご来店お待ちしております💞🆙
+      #NEKI
+      @nekiband_jp
+    translation: |-
+      【NEK!】
+      The long-awaited 2nd EP
+      "TR!CK TAK!NG"
+      Arrived today!! 💿
+      
+      A work packed with 
+      various tricks✨
+      
+      It's an EP deck that presents us 
+      with "life's story and guidelines"!
+      
+      Bonus: Sticker✨
+      
+      We look forward to your visit💞🆙
+      #NEKI
+      @nekiband_jp
+    image:
+    - GlMC4e8akAENrHY
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896867556235120906
+    account: TOWER_Kinshicho
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【NEK!】
+      
+      ㊗3月度 #タワレコメン 選出💐
+      『TR!CK TAK!NG』
+      本日 #フラゲ日 ✨
+      
+      リード曲「zero-sum」は #NEKI らしい癖のあるオルタナティブな仕上がりとなっており、アップテンポかつ各パートの超絶技巧が光る1曲⚡
+      
+      特典🎁ステッカー(タワーレコードver.)
+      
+      https://tower.jp/article/feature_item/2024/12/29/0701
+      
+      #CD入荷情報
+    translation: |-
+      【NEK!】
+      
+      ㊗ March #Tower Recommen Selection 💐
+      "TR!CK TAK!NG"
+      Today is #FlyingGetDay ✨
+      
+      The lead track "zero-sum" is an alternative song with a unique #NEKI-style quirk, an up-tempo piece where the superb skills of each part shine through⚡
+      
+      Bonus 🎁 Sticker (Tower Records ver.)
+      
+      https://tower.jp/article/feature_item/2024/12/29/0701
+      
+      #CDArrivalInfo
+    image:
+    - GlMG_GvbwAAH6HO
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1896874511615820030
+    account: TOWER_Machida
+    label: In-store display
+    published-date: 2025-03-04
+    text: |-
+      【#NEK!】
+      
+      ＼3月度 #タワレコメン 選出👑／
+      
+      2nd EP「TR!CK TAK!NG」
+      本日入荷いたしました～🌈✨
+      
+      NEK!激プッシュな町田店では
+      💖パネル展＆抽選プレゼント
+      💖オリジナルレシート施策(町田店限定絵柄)
+      3/10(月)まで実施中‼️
+      
+      🎁先着特典🎁ステッカー
+      
+      🔗https://tower.jp/article/feature_item/2024/12/29/0701
+      
+      #NEKI
+      #CD入荷情報
+    translation: |-
+      【#NEK!】
+      
+      ＼March #Tower Recommen Selection👑／
+      
+      2nd EP "TR!CK TAK!NG"
+      Arrived today~🌈✨
+      
+      The Machida store, which is pushing NEK! hard, is 
+      💖Panel exhibition & lottery giveaways
+      💖Original receipt campaign (Machida store exclusive design)
+      Running until 3/10 (Mon)‼️
+      
+      🎁First-come bonus🎁 Sticker
+      
+      🔗https://tower.jp/article/feature_item/2024/12/29/0701
+      
+      #NEKI
+      #CDArrivalInfo
+    image:
+    - GlMLFLdasAAWqy6
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1897110582689718517
+    account: nekiband_jp
+    label: Release
+    published-date: 2025-03-05
+    text: |-
+      ◤　　　　　　　　　   ◥
+          🃏NEW RELEASE🃏
+      ◣　　　　　　　　　   ◢
+      
+      2nd EP「TR!CK TAK!NG」
+      
+      本日リリース日💝
+      NEK!の最強デッキをご堪能ください！
+      
+      https://lnk.to/tricktaking_CD
+      
+      #NEKI #TRICKTAKING
+    translation: |-
+      ◤　　　　　　　　　    ◥
+          🃏NEW RELEASE🃏
+      ◣　　　　　　　　　    ◢
+      
+      2nd EP "TR!CK TAK!NG"
+      
+      Today is the release day💝
+      Please enjoy NEK!'s strongest deck!
+      
+      https://lnk.to/tricktaking_CD
+      
+      #NEKI #TRICKTAKING
+    image:
+    - GlPkA_VXgAE6O3a
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1897572933943296231
+    account: skream_japan
+    label: Giveaway
+    published-date: 2025-03-06
+    text: |-
+      【フォロー＆RPで応募】
+      NEK!オリジナル全年齢対象ステッカー プレゼント。
+      ネット時代を生き抜く血の通ったリアル・ガールズ・ロック・バンドが喜怒哀楽をテクニカルにエモーショナルに表現した2nd EP『#TRICKTAKING』に迫る特集公開
+      【3/20まで何度でも応募可】
+      #NEKI
+      https://skream.jp/news/2025/03/neki_feature.php
+    translation: |-
+      [Follow & RP to Apply]
+      NEK! original all-ages sticker giveaway.
+      Feature published exploring the 2nd EP "#TRICKTAKING," where the real-life girl rock band surviving the internet era expresses life's emotions technically and emotionally.
+      【Apply as many times as you like until 3/20】
+      #NEKI
+      https://skream.jp/news/2025/03/neki_feature.php
+    image:
+    - GlWFGcRaAAAg0IL
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1897871765369766125
+    account: TOWER_Shibuya
+    label: Visiting the store
+    published-date: 2025-03-07
+    text: |-
+      【#タワ渋訪店】
+      今週『TR!CK TAK!NG』を発売した
+      NEK!がご来店されました～！
+      ありがとうございます😆🙌
+      
+      念願のタワレコメンにも抜擢された
+      渾身の全5曲を収録✨
+      展開場所にてサイン＆コメントカード
+      を掲出しております❤️🩷
+      
+      3階にて開催中のパネル展にも
+      サインをいただきました！
+      CDお買い求めいただいた方には
+      展示パネルが当たる抽選券をお渡しします！
+      
+      3階にて展開中ですので
+      ぜひお立ち寄りください💛💙(168)
+    translation: |-
+      【#TowerShibuyaVisit】
+      NEK!, who released "TR!CK TAK!NG" this week,
+      has visited our store~!
+      Thank you so much😆🙌
+      
+      The release features 5 tracks of their best work,
+      which was also selected for the long-awaited Tower Recommends✨
+      Autographs and comment cards are now 
+      on display at their section❤️🩷
+      
+      They also signed the panels at the 
+      panel exhibition currently held on the 3rd floor!
+      Those who purchase the CD will receive 
+      a lottery ticket to win the display panels!
+      
+      Currently on display on the 3rd floor,
+      so please stop by💛💙(168)
+    image:
+    - GlaX0SxbwAA8Lbk
+    - GlaX5DybwAQrg0o
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1897878063930917161
+    account: TOWER_Machida
+    label: Visiting the store
+    published-date: 2025-03-07
+    text: |-
+      【#NEK!】
+      
+      本日NEK!の皆さまがご来店🌈✨
+      
+      展開場所にサインやコメントカードを
+      いただきました🙌🏻
+      
+      さらになんと抽選プレゼントのパネルにも
+      サインをいただきました...🥹💓
+      
+      お忙しい中ありがとうございました☺️💕
+      
+      町田店公式Instagramではコメント動画を公開🎥
+      👉🏻https://instagram.com/p/DG4suWzxH-E/
+      
+      #NEKI
+    translation: |-
+      【#NEK!】
+      
+      The members of NEK! visited our store today🌈✨
+      
+      They left us their autographs and comment cards 
+      at their display section🙌🏻
+      
+      And what's more, they even signed the panels 
+      for our giveaway lottery...🥹💓
+      
+      Thank you so much for stopping by despite your busy schedule☺️💕
+      
+      A video comment is now available on our Machida store official Instagram🎥
+      👉🏻https://instagram.com/p/DG4suWzxH-E/
+      
+      #NEKI
+    image:
+    - GlaYE5qa4AA1VDv
+    todo: video on Instagram
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1897878941203128464
+    account: TOWER_Machida
+    label: Display
+    published-date: 2025-03-07
+    text: |-
+      【#NEK!】
+      
+      2nd EP「TR!CK TAK!NG」
+      大好評発売中🌈✨
+      
+      🎁先着特典🎁ステッカー
+      
+      NEK!激プッシュの町田店では
+      💖直筆サイン入りパネル展＆抽選プレゼント
+      💖オリジナルレシート施策(町田店限定絵柄)
+      3/10(月)まで実施中～‼️🥳
+      
+      ぜひご来店お待ちしております🫶🏻💕
+      
+      🔗https://tower.jp/article/feature_item/2024/12/29/0701
+      
+      #NEKI
+    translation: |-
+      【#NEK!】
+      
+      2nd EP "TR!CK TAK!NG"
+      Now on sale to great acclaim🌈✨
+      
+      🎁First-come-first-served bonus🎁 Sticker
+      
+      At the Machida store, where we are pushing NEK! to the max:
+      💖 Signed panel exhibition & giveaway lottery
+      💖 Original receipt campaign (Machida store exclusive design)
+      Running until 3/10 (Mon)!! 🥳
+      
+      We look forward to seeing you at the store! 🫶🏻💕
+      
+      🔗https://tower.jp/article/feature_item/2024/12/29/0701
+      
+      #NEKI
+    image:
+    - GlaexlhbwAE90vm
+    todo: tower records article
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1897912233163997512
+    account: TOWER_Shinjuku
+    label: Visiting the store
+    published-date: 2025-03-07
+    text: |-
+      【#NEK!】　
+      
+      ／
+      ㊗#タワレコメン 選出!!!!
+      ＼
+      
+      2nd EP『TR!CK TAK!NG』をリリースした"NEK!" （ネキ）の皆さまがご来店🌈
+      
+      新宿店のインスタグラム用に動画も頂きました🎤
+      こちらからチェック👇
+      https://instagram.com/reel/DG47ejXR4Om/?igsh=N2ZrenZnb2w4bHZz
+      
+      展示中のパネルにもサイン頂いてます🥰
+      
+      #NEKI
+    translation: |-
+      【#NEK!】　
+      
+      ／
+      ㊗Selected for #Tawarekomen!!!!
+      ＼
+      
+      The members of "NEK!", who just released their 2nd EP "TR!CK TAK!NG", have visited our store🌈
+      
+      They also recorded a video for the Shinjuku store's Instagram🎤
+      Check it out here👇
+      https://instagram.com/reel/DG47ejXR4Om/?igsh=N2ZrenZnb2w4bHZz
+      
+      They’ve also signed the panels currently on display🥰
+      
+      #NEKI
+    image:
+    - Gla9FIIbwAAe4IM
+    todo: video on Instagram
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1897918888396177628
+    account: HmvBooksShibuya
+    label: Visiting the store
+    published-date: 2025-03-07
+    text: |-
+      【NEK!】
+      2nd EP「TR!CK TAK!NG」が絶賛発売中の『NEK!』の皆さんがご来店🥰
+      キュートな見た目ながらロックな最強ガールズバンド🤩
+      サイン＆メッセージ頂いてます✍️
+      
+      なんと当店限定でミニ色紙に直筆サインを特典でいただきました🎁
+      こちら先着ランダム渡しになります🎯
+      世界で1枚の特典を是非🌎
+      #NEKI
+    translation: |-
+      【#NEK!】
+      
+      The members of "NEK!", whose 2nd EP "TR!CK TAK!NG" is now on sale to rave reviews, have visited our store! 🥰
+      They are the ultimate girls' rock band—cute looks paired with a powerful rock sound! 🤩
+      They've left us their autographs and a special message✍️
+      
+      And amazingly, as a store-exclusive bonus, we've received hand-signed mini illustration cards! 🎁
+      These will be handed out randomly on a first-come, first-served basis🎯
+      Come and get your hands on a one-of-a-kind bonus! 🌎
+      
+      #NEKI
+    image:
+    - GlbDK14bwAEXWuG
+    - GlbDK14bwAInDnb
+    - GlbDK14bcAAJXHe
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1898213347960795329
+    account: TOWER_NUchaya
+    label: Visiting the store
+    published-date: 2025-03-08
+    text: |-
+      【#NEK】
+      待望の2nd EP「TR!CK TAK!NG」をリリースしたスラングロック旋風を巻き起こした新生ガールズロックバンドNEK!の皆さまが訪店!!
+      展開にコメントカード頂いております!!
+      是非お立ち寄りください!!
+    translation: |-
+      【#NEK】
+      The members of NEK!, the new girls' rock band causing a slang-rock whirlwind, who released their long-awaited 2nd EP "TR!CK TAK!NG," visited our store!!
+      We received comment cards for the display!!
+      Please be sure to stop by!!
+    image:
+    - GlfO7L2bwAA4N4D
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1898314795859968146
+    account: vvshibuyaudgw
+    label: Visiting the store
+    published-date: 2025-03-08
+    text: |-
+      NEK! （
+      @nekiband_jp
+       ）がご来店❣️
+      直筆popを頂きましたっっ⟡.·
+      ありがとうございます♡^♡
+      
+      売り場に飾らせて頂きました〜°・☆
+      購入特典の直筆popもまだつきますので絶対ゲットしてください！🔥🍀
+    translation: |-
+      NEK! (@nekiband_jp) visited our store❣️
+      We received handwritten POP signs⟡.·
+      Thank you so much♡^♡
+      
+      They are now on display in the sales area〜°・☆
+      Handwritten POP signs are still included as a purchase bonus, so make sure to get yours!🔥🍀
+    image:
+    - GlgrNhhbEAAIqCr
+    part-of:
+      album: tricktaking
+
+- postx:
+    id: 1900464641857482943
+    account: vvshibuyaudgw
+    label: In-store display, restocked
+    published-date: 2025-03-14
+    text: |-
+      #NEK! （
+      @nekiband_jp
+       ）CD売り切れたので再入荷致しましたッ✰҉҈҉҈҉҈✨✰҉҈҉҈҉҈
+      
+      もちろん特典まだもらえます🔥
+      売り切れる前にゲットしに来てください(*･ω･人･ω･*)𖤐
+    translation: |-
+      #NEK! (
+      @nekiband_jp
+       ) CDs were sold out so they've been restockedッ✰҉҈҉҈҉҈✨✰҉҈҉҈҉҈
+      
+      Of course, you can still get the bonus items🔥
+      Please come and get yours before they sell out (*･ω･人･ω･*)𖤐
+    image:
+    - Gl_OdLPbEAA7QDn
+    part-of:
+      album: tricktaking
+
 - postximage:
     post: 1873309518450548860
     id: Gf9DBuxb0AAbeCQ
@@ -238,6 +1365,8 @@
     label: Tarot cards
     info: 4 members, back
     published-date: 2025-02-28
+    context:
+    - album: tricktaking
     part-of:
       postx: 1895283964631490896
 
@@ -247,8 +1376,297 @@
     label: Tarot cards
     info: Natsu, Cocoro, Kanade, Hika, 4 members
     published-date: 2025-02-28
+    context:
+    - album: tricktaking
     part-of:
       postx: 1895283964631490896
+
+- postximage:
+    post: 1896770794166120627
+    id: GlKu-kJbcAAm0VB
+    label: Holding the EP
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896770794166120627
+
+- postximage:
+    post: 1896782067641553174
+    id: GlK5NhsbYAARAwb
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896782067641553174
+
+- postximage:
+    post: 1896796230828884126
+    id: GlLGGr9XMAA1RRY
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896796230828884126
+
+- postximage:
+    post: 1896819909197459557
+    id: GlLbmm-bUAAnA2R
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896819909197459557
+
+- postximage:
+    post: 1896821011162771824
+    id: GlLcaJOagAA5_Jf
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896821011162771824
+
+- postximage:
+    post: 1896830414809133381
+    id: GlLlNCjaUAAsQWl
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896830414809133381
+
+- postximage:
+    post: 1896833531986506129
+    id: GlLmjPMXEAEv9aY
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896833531986506129
+
+- postximage:
+    post: 1896837728584810984
+    id: GlLr2x-b0AExYK-
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896837728584810984
+
+- postximage:
+    post: 1896843721062387939
+    id: GlLxNG4akAAOivA
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896843721062387939
+
+- postximage:
+    post: 1896843721062387939
+    id: GlLxNQCbYAA3_Oi
+    label: Pictures
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896843721062387939
+
+- postximage:
+    post: 1896850650841112584
+    id: GlL3nNnbUAECem2
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896850650841112584
+
+- postximage:
+    post: 1896865329403527668
+    id: GlME02LWcAAausl
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896865329403527668
+
+- postximage:
+    post: 1896866056133902366
+    id: GlMC4e8akAENrHY
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896866056133902366
+
+- postximage:
+    post: 1896867556235120906
+    id: GlMG_GvbwAAH6HO
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896867556235120906
+
+- postximage:
+    post: 1896874511615820030
+    id: GlMLFLdasAAWqy6
+    label: Display
+    published-date: 2025-03-04
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1896874511615820030
+
+- postximage:
+    post: 1897110582689718517
+    id: GlPkA_VXgAE6O3a
+    label: T-shirt and bonus
+    published-date: 2025-03-05
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897110582689718517
+
+- postximage:
+    post: 1897572933943296231
+    id: GlWFGcRaAAAg0IL
+    label: Giveaway
+    published-date: 2025-03-06
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897572933943296231
+
+- postximage:
+    post: 1897871765369766125
+    id: GlaX0SxbwAA8Lbk
+    label: Visiting the store
+    info: NEK!
+    published-date: 2025-03-07
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897871765369766125
+
+- postximage:
+    post: 1897871765369766125
+    id: GlaX5DybwAQrg0o
+    label: Visiting the store
+    info: NEK!
+    published-date: 2025-03-07
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897871765369766125
+
+- postximage:
+    post: 1897878063930917161
+    id: GlaYE5qa4AA1VDv
+    label: Visiting the store
+    info: NEK!
+    published-date: 2025-03-07
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897878063930917161
+
+- postximage:
+    post: 1897878941203128464
+    id: GlaexlhbwAE90vm
+    label: Signed display
+    published-date: 2025-03-07
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897878941203128464
+
+- postximage:
+    post: 1897912233163997512
+    id: Gla9FIIbwAAe4IM
+    label: Visiting the store
+    info: NEK!
+    published-date: 2025-03-07
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897912233163997512
+
+- postximage:
+    post: 1897918888396177628
+    id: GlbDK14bcAAJXHe
+    label: Signed cards
+    published-date: 2025-03-07
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897918888396177628
+
+- postximage:
+    post: 1897918888396177628
+    id: GlbDK14bwAEXWuG
+    label: Visiting the store
+    info: NEK!
+    published-date: 2025-03-07
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897918888396177628
+
+- postximage:
+    post: 1897918888396177628
+    id: GlbDK14bwAInDnb
+    label: Visiting the store
+    published-date: 2025-03-07
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1897918888396177628
+
+- postximage:
+    post: 1898213347960795329
+    id: GlfO7L2bwAA4N4D
+    label: Visiting the store
+    info: NEK!
+    published-date: 2025-03-08
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1898213347960795329
+
+- postximage:
+    post: 1898314795859968146
+    id: GlgrNhhbEAAIqCr
+    label: Visiting the store
+    info: NEK!
+    published-date: 2025-03-08
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1898314795859968146
+
+- postximage:
+    post: 1900464641857482943
+    id: Gl_OdLPbEAA7QDn
+    label: Display
+    published-date: 2025-03-14
+    context:
+    - album: tricktaking
+    part-of:
+      postx: 1900464641857482943
 
 - postyoutube:
     id: Ugkx9Alau3c3h_uuwez4nLBCu43ff6C2MrqD
@@ -355,8 +1773,7 @@
 
 - youtubeshort:
     id: ieh_ai4aaP0
-    label: Release
-    info: display at Tower Records
+    label: Pictures exhibition
     published-date: 2025-03-05
     context:
     - album: tricktaking

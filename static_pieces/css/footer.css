@@ -1,0 +1,23 @@
+/* layout */
+
+.footer-sns {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-sns .socialmedia-card {
+  margin: 0.1rem 0.1rem 0.1rem 0.2rem;
+}
+
+/* styling */
+
+.footer-sns {
+  text-align: end;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-weight: 600;
+  background-color: var(--color-natsu-light);
+  border-top-left-radius: 60% 90%;
+  padding: 0.2rem;
+}

@@ -140,7 +140,7 @@ object AboutPage extends MainSitePage {
             text("Notification about content updates, and other general updates, are done at "),
             fr.component.SocialMediaCard.generateBluesky("neki.fan-resources.net", true),
             text(" and "),
-            fr.component.SocialMediaCard.generateX("neki.fan-resources.net", true),
+            fr.component.SocialMediaCard.generateX("NEKIFanRes", true),
             text("."),
           ),
           p().appendElements(
@@ -213,7 +213,7 @@ object AboutPage extends MainSitePage {
             text("For any questions, suggestions, requests, please use "),
             fr.component.SocialMediaCard.generateBluesky("neki.fan-resources.net", true),
             text(" or "),
-            fr.component.SocialMediaCard.generateX("neki.fan-resources.net", true),
+            fr.component.SocialMediaCard.generateX("NEKIFanRes", true),
             text("."),
           )
         )

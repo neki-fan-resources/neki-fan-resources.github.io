@@ -79,6 +79,7 @@ object ElementToPage {
         configuration.mainStaticPiecesFolder.resolve("css"),
         Seq(
           Path("colors.css"),
+          Path("footer.css"),
           Path("aboutpage.css"),
           Path("bandpage.css"),
           Path("sourcespage.css"),

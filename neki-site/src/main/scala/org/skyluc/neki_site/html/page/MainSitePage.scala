@@ -8,6 +8,7 @@ import org.skyluc.neki_site.Config
 
 import Html.*
 import fr.component.NavigationItem
+import fr.component.SocialMediaCard
 
 object TitleGenerator extends fr.page.TitleGenerator {
   override def groupName: String = "NEK!"
@@ -45,13 +46,29 @@ abstract class MainSitePage extends fr.page.MainSitePage {
     outputPath.firstSegment(),
   )
 
-  override def footerContent(): Seq[BodyElement[?]] = fr.component.Footer.generate("the band NEK!")
+  override def footerContent(): Seq[BodyElement[?]] = staticFooterContent
 
   override def javascriptFiles(): Seq[Path] = fr.page.MainSitePage.JAVASCRIPT_FILES
 
 }
 
 object MainSitePage {
+
+  private val CLASS_FOOTER_SNS = "footer-sns"
+
+  val staticFooterContent: Seq[BodyElement[?]] =
+    fr.component.Footer.generate("the band NEK!")
+      :+ div()
+        .withClass(CLASS_FOOTER_SNS)
+        .appendElements(
+          text("follow us"),
+          div().appendElements(
+            SocialMediaCard.generateYouTube("neki-fan-resources", false, false),
+            SocialMediaCard.generateX("NEKIFanRes", false, false),
+            SocialMediaCard.generateBluesky("neki.fan-resources.net", false, false),
+          ),
+          text("to be informed<br>of the new content"),
+        )
 
   def headConfiguration(
       title: String,

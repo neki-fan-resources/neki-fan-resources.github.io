@@ -1,3 +1,375 @@
+- display:
+    album: exclamation
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - albumsongssection: '-'
+        - basicsection:
+            label: Teaser
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n323cfbbfa77f
+                    id: title
+                - youtubeshort: YRmeizMwd1Y
+    - basicblock:
+        id: releaseday
+        label: Release day
+        sections:
+        - basicsection:
+            label: Displays and visiting the stores
+            subsections:
+            - multimediasubsection:
+                label: VILLAGE VANGUARD Shimokitazawa
+                multimedia:
+                - postximage:
+                    post: 1816417358904476155
+                    image: GTU19DibIAAw4Nc
+                - postximage:
+                    post: 1816040332221362585
+                    image: GTPfDOhakAAciwU
+            - multimediasubsection:
+                label: Tower Records Shinjuku
+                multimedia:
+                - postximage:
+                    post: 1816337610073412015
+                    image: GTTsgAbawAABHbB
+                - postximage:
+                    post: 1816337610073412015
+                    image: GTTshaKagAAT2Na
+            - multimediasubsection:
+                label: VILLAGE VANGUARD Shibuya
+                multimedia:
+                - postximage:
+                    post: 1816361609968992605
+                    image: GTUDLH4agAAhdzq
+            - multimediasubsection:
+                label: Tower Records Shibuya
+                multimedia:
+                - postximage:
+                    post: 1816446992203293034
+                    image: GTVQdSBbUAAFlDW
+            - multimediasubsection:
+                label: Tower Records Machida
+                multimedia:
+                - postximage:
+                    post: 1815619036853731509
+                    image: GTJcgKtbIAAmY96
+                - postximage:
+                    post: 1816339842323866000
+                    image: GTTuRLCboAAiwHm
+    - basicblock:
+        id: bonuses
+        label: Bonuses
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n323cfbbfa77f
+                    id: towerbonus
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n323cfbbfa77f
+                    id: pcibonus
+    part-of:
+      album: exclamation
+
+- postx:
+    id: 1815619036853731509
+    account: TOWER_Machida
+    label: In-store display
+    published-date: 2024-07-23
+    text: |-
+      【NEK!】
+      
+      1st EP「EXCLAMAT!ON」
+      本日入荷いたしました～❤️🩷💛💙
+      
+      今大注目の4人組ガールズバンド
+      NEK!(ネキ)の初の全国流通盤💿💫
+      
+      🎁先着特典🎁
+      オリジナルステッカー
+      
+      町田店限定施策！！！
+      抽選で3名様にサイン色紙をプレゼント🎁
+      🔗https://tower.jp/store/news/2024/07/107001NIK
+      
+      #NEKI #EXCLAMATION #CD入荷情報
+    translation: |-
+      【NEK!】
+      
+      1st EP "EXCLAMAT!ON"
+      Has arrived today～❤️🩷💛💙
+      
+      The currently highly-anticipated 4-member girl band
+      NEK!'s (Neki) first nationwide distribution album💿💫
+      
+      🎁First-come, First-served Bonus🎁
+      Original Sticker
+      
+      Machida Store Exclusive Campaign!!!
+      3 people will be chosen by lottery to receive an autographed shikishi board🎁
+      🔗https://tower.jp/store/news/2024/07/107001NIK
+      
+      #NEKI #EXCLAMATION #CDArrivalInfo
+    image:
+    - GTJcgKtbIAAmY96
+    part-of:
+      album: exclamation
+
+- postx:
+    id: 1816040332221362585
+    account: vvshimokita
+    label: In-store display
+    published-date: 2024-07-24
+    text: |-
+      😾👉🏻〰新譜〰👈🏻🐔
+      NEK!/EXCLAMAT!ON
+      とんでもないガールズバンドがきたっ💥！！
+      先日、シェルターワンマンを経たバンド
+      NEK!初のEPをリリース👏👏！
+      結成日聞いてびっくりしちゃった🫢
+      是非とも音を聞いて欲しい1枚❤️‍🔥❤️‍🔥！！！
+    translation: |-
+      😾👉🏻〰New Release〰👈🏻🐔
+      NEK!/EXCLAMAT!ON
+      An incredible girl band has arrived💥!!
+      The band just finished their Shelter one-man show
+      and has released NEK!'s first EP👏👏!
+      I was surprised when I heard their formation date🫢
+      This is definitely an album I want you to listen to❤️‍🔥❤️‍🔥!!!
+    image:
+    - GTPfDOhakAAciwU
+    part-of:
+      album: exclamation
+
+- postx:
+    id: 1816337610073412015
+    account: TOWER_Shinjuku
+    label: Visiting the store
+    published-date: 2024-07-25
+    text: |-
+      【NEK!】
+      1stEP『EXCLAMAT!ON』を発売したばかり❗️ネットから誕生したガールズバンド #NEK! のメンバー様にご来店頂きました～❗️9F特設コーナーにサインなど掲示してマスので是非チェックしてください☺️
+      #NEKI
+    translation: |-
+      【NEK!】
+      They just released their 1st EP "EXCLAMAT!ON"❗️The members of the girl band #NEK!, who originated online, visited us～❗️We have displayed their signatures and more in the 9F special corner, so please check it out☺️
+      #NEKI
+    image:
+    - GTTsgAbawAABHbB
+    - GTTshaKagAAT2Na
+    part-of:
+      album: exclamation
+
+- postx:
+    id: 1816339842323866000
+    account: TOWER_Machida
+    label: In-store display
+    published-date: 2024-07-25
+    text: |-
+      【NEK!】  
+      1st EP「EXCLAMAT!ON」
+      
+      大好評につき本日追加入荷しました～❤️
+      
+      今大注目の4人組ガールズバンド NEK!(ネキ)の初の全国流通盤👀
+      
+      🎁先着特典：オリジナルステッカー  
+      ⚡️町田店限定施策！！！ 
+      抽選で3名様にサイン色紙をプレゼント
+      https://tower.jp/store/news/2024/07/107001NIK
+      
+      #NEKI #EXCLAMATION
+    translation: |-
+      【NEK!】
+      1st EP "EXCLAMAT!ON"
+      
+      Due to popular demand, we have restocked today～❤️
+      
+      The first nationwide release from the currently highly anticipated 4-piece girl band NEK! (Neki)👀
+      
+      🎁First-come, first-served bonus: Original Sticker
+      ⚡️Machida Store Exclusive Campaign!!!
+      3 people will win a signed shikishi (art board) in a lottery
+      https://tower.jp/store/news/2024/07/107001NIK
+      
+      #NEKI #EXCLAMATION
+    image:
+    - GTTuRLCboAAiwHm
+    part-of:
+      album: exclamation
+
+- postx:
+    id: 1816361609968992605
+    account: vvshibuyaudgw
+    label: Visiting the store
+    published-date: 2024-07-25
+    text: |-
+      昨日『EXCLAMAT!ON』をリリースされたばかりのNEK!の皆様が御来店下さいました💥
+      
+      直筆POPを書いて頂いたのでご購入の方には先着でお渡しさせて頂きます🤲
+      
+      無くなり次第終了ですのでお早めにどうぞ💨
+    translation: |-
+      The members of NEK!, who just released "EXCLAMAT!ON" yesterday, visited our store💥
+      
+      They wrote handwritten POPs for us, which we will give to those who purchase on a first-come, first-served basis🤲
+      
+      It will end once they run out, so please hurry💨
+    image:
+    - GTUDLH4agAAhdzq
+    part-of:
+      album: exclamation
+
+- postx:
+    id: 1816417358904476155
+    account: vvshimokita
+    label: Visiting the store
+    published-date: 2024-07-25
+    text: |-
+      😾👉🏻〰CDのつぶやき〰👈🏻🐔
+      昨日「EXCLAMAT!ON」をリリースした
+      NEK!の皆さんがご来店👏！
+      ご購入者様先着で直筆POPをランダムでプレゼント🎁！
+      誰の直筆かな〜🤭
+      入り口入って12歩ぐらいのところです💁‍♀️！
+    translation: |-
+      😾👉🏻〰CD Tweet〰👈🏻🐔
+      NEK!, who released "EXCLAMAT!ON" yesterday,
+      came to visit us👏!
+      We're giving away a random handwritten POP to first-come, first-served purchasers🎁!
+      Whose handwriting will it be~🤭
+      It's about 12 steps inside the entrance💁‍♀️!
+    image:
+    - GTU19DibIAAw4Nc
+    part-of:
+      postx: 1816040332221362585
+
+- postx:
+    id: 1816446992203293034
+    account: TOWER_Shibuya
+    label: Visiting the store
+    published-date: 2024-07-25
+    text: |-
+      【#タワ渋訪店】【#NEKI】
+      『EXCLAMAT!ON 』をリリースしたガールズバンド
+      NEK! の皆様にご来店頂きました！
+      
+      サインとコメントカード頂きました、
+      本当にありがとうございます！🥰
+      
+      3F展開にて掲出しております！
+      この機会に是非お越しください🌈（22）
+    translation: |-
+      【#TowerShibuVisit】【#NEKI】
+      The girl band that released "EXCLAMAT!ON"
+      The members of NEK! visited us!
+      
+      They gave us a signature and comment card,
+      Thank you so much!🥰
+      
+      We have displayed them in the 3F section!
+      Please take this opportunity to come visit🌈（22）
+    image:
+    - GTVQdSBbUAAFlDW
+    part-of:
+      album: exclamation
+
+- postximage:
+    post: 1815619036853731509
+    id: GTJcgKtbIAAmY96
+    label: Display
+    published-date: 2024-07-23
+    context:
+    - album: exclamation
+    part-of:
+      postx: 1815619036853731509
+
+- postximage:
+    post: 1816040332221362585
+    id: GTPfDOhakAAciwU
+    label: Display
+    published-date: 2024-07-24
+    context:
+    - album: exclamation
+    part-of:
+      postx: 1816040332221362585
+
+- postximage:
+    post: 1816337610073412015
+    id: GTTsgAbawAABHbB
+    label: Visiting the store
+    info: Cocoro, Hika, Kanade
+    published-date: 2024-07-25
+    context:
+    - album: exclamation
+    part-of:
+      postx: 1816337610073412015
+
+- postximage:
+    post: 1816337610073412015
+    id: GTTshaKagAAT2Na
+    label: EP
+    info: Kanade, Hika, Cocoro
+    published-date: 2024-07-25
+    context:
+    - album: exclamation
+    part-of:
+      postx: 1816337610073412015
+
+- postximage:
+    post: 1816339842323866000
+    id: GTTuRLCboAAiwHm
+    label: Display
+    published-date: 2024-07-25
+    context:
+    - album: exclamation
+    part-of:
+      postx: 1816339842323866000
+
+- postximage:
+    post: 1816361609968992605
+    id: GTUDLH4agAAhdzq
+    label: Visiting the store
+    info: Kanade, Hika, Natsu, Cocoro
+    published-date: 2024-07-25
+    context:
+    - album: exclamation
+    part-of:
+      postx: 1816361609968992605
+
+- postximage:
+    post: 1816417358904476155
+    id: GTU19DibIAAw4Nc
+    label: Visiting the store
+    info: Natsu, Hika, Kanade, Cocoro
+    published-date: 2024-07-25
+    context:
+    - album: exclamation
+    part-of:
+      postx: 1816417358904476155
+
+- postximage:
+    post: 1816446992203293034
+    id: GTVQdSBbUAAFlDW
+    label: Visiting the store
+    published-date: 2024-07-25
+    context:
+    - album: exclamation
+    part-of:
+      postx: 1816446992203293034
+
 - postyoutube:
     id: Ugkx0AQkkFZtBcrkKnhuMQF2ougpm9YttR4V
     account: neki_official
@@ -108,15 +480,6 @@
     context:
     - album: exclamation
     todo: check date
-    part-of:
-      album: exclamation
-
-- youtubevideo:
-    id: 387bkUm7Dko
-    label: Album Teaser
-    published-date: 2024-06-03
-    context:
-    - album: exclamation
     part-of:
       album: exclamation
 

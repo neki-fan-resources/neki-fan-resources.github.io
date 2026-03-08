@@ -7,7 +7,8 @@
 }
 
 .footer-sns .socialmedia-card {
-  margin: 0.1rem 0.1rem 0.1rem 0.2rem;
+  margin: 0.1rem 0rem 0.1rem 0.1rem;
+  vertical-align: text-bottom;
 }
 
 /* styling */

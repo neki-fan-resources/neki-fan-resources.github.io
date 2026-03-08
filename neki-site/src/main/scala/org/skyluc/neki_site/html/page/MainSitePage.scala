@@ -63,6 +63,7 @@ object MainSitePage {
         .appendElements(
           text("follow us"),
           div().appendElements(
+            text("on"),
             SocialMediaCard.generateYouTube("neki-fan-resources", false, false),
             SocialMediaCard.generateX("NEKIFanRes", false, false),
             SocialMediaCard.generateBluesky("neki.fan-resources.net", false, false),

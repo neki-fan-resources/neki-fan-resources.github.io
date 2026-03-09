@@ -6,6 +6,12 @@
         label: main
         sections:
         - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The name of this song was revealed on October 3rd, when the tracklist for album "MEME" was announced.
+        - basicsection:
             label: Rehearsal, with original audio
             subsections:
             - multimediasubsection:
@@ -26,8 +32,967 @@
                 multimedia:
                 - youtubeshort: sSuHiv9vB6Q
                 - youtubeshort: FoofEnRp8NI
+    - lyricsblock: '-'
     part-of:
       song: tictactoe
+
+- lyrics:
+    id: main
+    song: tictactoe
+    part-of:
+      song: tictactoe
+    status:
+      code: na
+      description: Data copied from the sources. Added rōmaji and words translation.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from Uta-Net)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from Uta-Net
+        url: 'https://www.uta-net.com/song/383746/'
+    - id: ro
+      name: rōmaji
+      active: true
+      no-translation: true
+    - id: ww
+      name: word by word translation
+      details: (using jisho.org)
+      base-url: 'https://jisho.org/search/'
+      url-text: J
+    sections:
+    - lines:
+      - ol:
+        - 「
+        - ノーフューチャー
+        - な
+        - 時代
+        - だ
+        - ！
+        - 」
+        - とか
+        ro:
+        - 「
+        - nōfyūchā
+        - na
+        - jidai
+        - da
+        - ！
+        - 」
+        - toka
+        ww:
+        - ''
+        - w: no future
+          d: ノーフューチャー
+        - w: ''
+          d: な
+        - w: era
+          d: 時代
+        - w: is
+          d: だ
+        - ''
+        - ''
+        - w: things like
+          d: とか
+        - d: 「ノーフューチャーな時代だ！」とか
+      - ol:
+        - アナーキー
+        - 弾幕
+        - の
+        - ' '
+        - Speedster
+        ro:
+        - anākī
+        - danmaku
+        - no
+        - ''
+        - Speedster
+        ww:
+        - w: anarchy
+          d: アナーキー
+        - w: barrage
+          d: 弾幕
+        - w: "'s"
+          d: の
+        - ''
+        - ''
+        - d: アナーキー弾幕の Speedster
+      - ol:
+        - 今日
+        - も
+        - すれ違い
+        - 通信中
+        ro:
+        - kyo
+        - mo
+        - surechigaidōre
+        - tsūshinchū
+        ww:
+        - w: today
+          d: 今日
+        - w: also
+          d: も
+        - w: passing each other
+          d: すれ違い
+        - w: while communicating
+          d: 通信中
+        - d: 今日もすれ違い通信中
+    - lines:
+      - ol:
+        - 「
+        - ここだけ
+        - の
+        - 話
+        - だ
+        - …
+        - 」
+        - とか
+        ro:
+        - 「
+        - kokodake
+        - no
+        - hanaji
+        - da
+        - …
+        - 」
+        - toka
+        ww:
+        - ''
+        - w: only here
+          d: ここだけ
+        - w: "'s"
+          d: の
+        - w: talk
+          d: 話
+        - w: is
+          d: だ
+        - ''
+        - ''
+        - w: things like
+          d: とか
+        - d: 「ここだけの話だ…」とか
+      - ol:
+        - フェイク
+        - ばらまく
+        - ' '
+        - Trickster
+        ro:
+        - feiku
+        - baramaku
+        - ''
+        - Trickster
+        ww:
+        - w: fake
+          d: フェイク
+        - w: broadcast
+          d: ばらまく
+        - ''
+        - ''
+        - d: フェイクばらまく Trickster
+      - ol:
+        - なりすまし
+        - で
+        - 得られない
+        - 本質
+        ro:
+        - narisumashi
+        - de
+        - erarenai
+        - honshitsu
+        ww:
+        - w: spoofing
+          d: なりすまし
+        - w: through
+          d: で
+        - w: cannot be obtain
+          d: 得られない
+        - w: true nature
+          d: 本質
+        - d: なりすましで得られない本質
+    - lines:
+      - ol:
+        - Twinkle, Twinkle…
+      - ol:
+        - I wonder, what you are…
+    - lines:
+      - ol:
+        - Tic Tac Toe
+        - '　'
+        - 先手
+        - 必勝
+        - で
+        ro:
+        - Tic Tac Toe
+        - ''
+        - sente
+        - hisshō
+        - de
+        ww:
+        - Tic Tac Toe
+        - '　'
+        - w: first move
+          d: 先手
+        - w: certain victory
+          d: 必勝
+        - w: with
+          d: で
+        - d: Tic Tac Toe　先手必勝で
+      - ol:
+        - ⭕
+        - を
+        - 付けて
+        - あげよう
+        - ' '
+        - Nail it
+        - ！
+        ro:
+        - maru
+        - o
+        - stukete
+        - ageyō
+        - ''
+        - Nail it
+        - ！
+        ww:
+        - w: good mark
+          d: ⭕
+        - w: ''
+          d: を
+        - w: to mark
+          d: 付けて
+        - w: I shall … for you
+          d: あげよう
+        - ''
+        - ''
+        - ''
+        - d: ⭕を付けてあげよう Nail it！
+      - ol:
+        - どうしようもない
+        - 世界
+        - を
+        - 愛して
+        - いこうよ
+        - ' '
+        - You got it
+        - ？
+        ro:
+        - dō shiyō mo nai
+        - sekai
+        - o
+        - aishite
+        - ikō yo
+        - ''
+        - You got it
+        - ？
+        ww:
+        - w: hopeless
+          d: どうしようもない
+        - w: world
+          d: 世界
+        - w: ''
+          d: を
+        - w: love
+          d: 愛して
+        - w: let's go on
+          d: いこうよ
+        - ''
+        - ''
+        - ''
+        - d: どうしようもない世界を愛していこうよ You got it？
+      - ol:
+        - 「
+        - Give me up
+        - ！
+        - '　'
+        - 散々
+        - だ
+        - ！
+        - 」
+        - って
+        ro:
+        - 「
+        - Give me up
+        - ！
+        - ''
+        - sanzan
+        - da
+        - ！
+        - 」
+        - dde
+        ww:
+        - ''
+        - Give me up
+        - ''
+        - ''
+        - w: disastrous
+          d: 散々
+        - w: is
+          d: だ
+        - ''
+        - ''
+        - w: saying
+          d: って
+        - d: 「Give me up！　散々だ！」って
+      - ol:
+        - ❌
+        - に
+        - 溺れた
+        - 毎日
+        - でも
+        ro:
+        - batsu
+        - ni
+        - oboreta
+        - mainichi
+        - demo
+        ww:
+        - w: bad mark
+          d: ❌
+        - w: in
+          d: に
+        - w: drowning
+          d: 溺れた
+        - w: every day
+          d: 毎日
+        - w: even
+          d: でも
+        - d: ❌に溺れた毎日でも
+      - ol:
+        - その
+        - 手
+        - 伸ばして
+        - '　'
+        - 掴んで
+        - あげる
+        - よ
+        ro:
+        - sono
+        - te
+        - nobashite
+        - ''
+        - tsukande
+        - ageru
+        - yo
+        ww:
+        - w: that
+          d: その
+        - w: hand
+          d: 手
+        - w: extends
+          d: 伸ばして
+        - ''
+        - w: grab
+          d: 掴んで
+        - w: I will … for you
+          d: あげる
+        - w: (emphasis)
+          d: よ
+        - d: その手伸ばして　掴んであげるよ
+    - lines:
+      - ol:
+        - 「
+        - 情報
+        - が
+        - 全て
+        - だ
+        - ！
+        - 」
+        - とか
+        ro:
+        - 「
+        - jōhō
+        - ga
+        - subete
+        - da
+        - ！
+        - 」
+        - toka
+        ww:
+        - ''
+        - w: information
+          d: 情報
+        - w: ''
+          d: が
+        - w: everything
+          d: 全て
+        - w: is
+          d: だ
+        - ''
+        - ''
+        - w: things like
+          d: とか
+        - d: 「情報が全てだ！」とか
+      - ol:
+        - 踊ら
+        - されている
+        - ' '
+        - Hipster
+        ro:
+        - odora
+        - sareteiru
+        - ''
+        - Hipster
+        ww:
+        - w: dance
+          d: 踊ら
+        - w: made to
+          d: されている
+        - ''
+        - ''
+        - d: 踊らされている Hipster
+      - ol:
+        - ジャック
+        - してやるぜ
+        - '　'
+        - 電波
+        - 干渉中
+        ro:
+        - jakku
+        - shite yaru ze
+        - ''
+        - denpa
+        - kanshōchū
+        ww:
+        - w: hijack
+          d: ジャック
+        - w: I'll do … for you
+          d: してやるぜ
+        - ''
+        - w: radio wave
+          d: 電波
+        - w: interference in progress
+          d: 干渉中
+        - d: ジャックしてやるぜ　電波干渉中
+    - lines:
+      - ol:
+        - 「
+        - たかが
+        - ガールズロックバンド
+        - w
+        - 」
+        - ってさ
+        ro:
+        - 「
+        - takaga
+        - gāruzu rokku bando
+        - w
+        - 」
+        - tte sa
+        ww:
+        - ''
+        - w: merely
+          d: たかが
+        - w: girls rock band
+          d: ガールズロックバンド
+        - w: lol
+          d: w
+        - ''
+        - w: saying
+          d: ってさ
+        - d: 「たかがガールズロックバンドw」ってさ
+      - ol:
+        - 舐め腐っている
+        - ' '
+        - Snarkster
+        ro:
+        - namekusatte iru
+        - ''
+        - Snarkster
+        ww:
+        - w: completely underestimating
+          d: 舐め腐っている
+        - ''
+        - ''
+        - d: 舐め腐っている Snarkster
+      - ol:
+        - ぶち壊して
+        - やる
+        - よ
+        - その
+        - 固定観念
+        ro:
+        - buchikowashite
+        - yaru
+        - yo
+        - sono
+        - koteikannen
+        ww:
+        - w: smash
+          d: ぶち壊して
+        - w: I'm going to
+          d: やる
+        - w: (emphasis)
+          d: よ
+        - w: that
+          d: その
+        - w: stereotype
+          d: 固定観念
+        - d: ぶち壊してやるよその固定観念
+    - lines:
+      - ol:
+        - Twinkle, Twinkle…
+      - ol:
+        - I wonder, what you are…
+    - lines:
+      - ol:
+        - Tic Tac Toe
+        - '　'
+        - 先手
+        - 必勝
+        - で
+        ro:
+        - Tic Tac Toe
+        - ''
+        - sente
+        - hisshō
+        - de
+        ww:
+        - Tic Tac Toe
+        - '　'
+        - w: first move
+          d: 先手
+        - w: certain victory
+          d: 必勝
+        - w: with
+          d: で
+        - d: Tic Tac Toe　先手必勝で
+      - ol:
+        - ⭕
+        - を
+        - 付けて
+        - あげよう
+        - ' '
+        - Nail it
+        - ！
+        ro:
+        - maru
+        - o
+        - stukete
+        - ageyō
+        - ''
+        - Nail it
+        - ！
+        ww:
+        - w: good mark
+          d: ⭕
+        - w: ''
+          d: を
+        - w: to mark
+          d: 付けて
+        - w: I shall … for you
+          d: あげよう
+        - ''
+        - ''
+        - ''
+        - d: ⭕を付けてあげよう Nail it！
+      - ol:
+        - 悩み
+        - 尽きない
+        - 世界
+        - を
+        - 変えていこう
+        - よ
+        - ' '
+        - You got it
+        - ？
+        ro:
+        - nayami
+        - tsukinai
+        - sekai
+        - o
+        - kaeteikō
+        - yo
+        - ''
+        - You got it
+        ww:
+        - w: worries
+          d: 悩み
+        - w: endless
+          d: 尽きない
+        - w: world
+          d: 世界
+        - w: ''
+          d: を
+        - w: Let's change (continuous)
+          d: 変えていこう
+        - w: (emphasis)
+          d: よ
+        - ''
+        - ''
+        - ''
+        - d: 悩み尽きない世界を変えていこうよ You got it？
+      - ol:
+        - 「
+        - Give me up
+        - ！
+        - '　'
+        - 散々
+        - だ
+        - ！
+        - 」
+        - って
+        ro:
+        - 「
+        - Give me up
+        - ！
+        - ''
+        - sanzan
+        - da
+        - ！
+        - 」
+        - dde
+        ww:
+        - ''
+        - Give me up
+        - ''
+        - ''
+        - w: disastrous
+          d: 散々
+        - w: is
+          d: だ
+        - ''
+        - ''
+        - w: saying
+          d: って
+        - d: 「Give me up！　散々だ！」って
+      - ol:
+        - ❌
+        - に
+        - 塞いだ
+        - 毎日
+        - でも
+        ro:
+        - batsu
+        - ni
+        - fusaida
+        - mainichi
+        - demo
+        ww:
+        - w: bad mark
+          d: ❌
+        - w: by
+          d: に
+        - w: blocked
+          d: 塞いだ
+        - w: every day
+          d: 毎日
+        - w: even
+          d: でも
+        - d: ❌に塞いだ毎日でも
+      - ol:
+        - その
+        - 耳
+        - めがけ
+        - '　'
+        - 歌って
+        - あげる
+        - よ
+        ro:
+        - sono
+        - mimi
+        - negake
+        - ''
+        - utatte
+        - ageru
+        - yo
+        ww:
+        - w: those
+          d: その
+        - w: ears
+          d: 耳
+        - w: aiming at
+          d: めがけ
+        - ''
+        - w: sing
+          d: 歌って
+        - w: I will … for you
+          d: あげる
+        - w: (emphasis)
+          d: よ
+        - d: その耳めがけ　歌ってあげるよ
+    - lines:
+      - ol:
+        - 騙し絵
+        - みたい
+        - な
+        - 世界
+        - を
+        - 断ち切り
+        - 飛び出せ
+        ro:
+        - damashie
+        - mitai
+        - na
+        - sekai
+        - o
+        - tachikiri
+        - tobidase
+        ww:
+        - w: trompe l'œil
+          d: 騙し絵
+        - w: similar
+          d: みたい
+        - w: ''
+          d: な
+        - w: world
+          d: 世界
+        - w: ''
+          d: を
+        - w: cut off
+          d: 断ち切り
+        - w: jump out
+          d: 飛び出せ
+        - d: 騙し絵みたいな世界を断ち切り飛び出せ
+      - ol:
+        - 君
+        - の
+        - 心
+        - 宿る
+        - ' '
+        - Superstar
+        - ' '
+        - Superstar
+        ro:
+        - kimi
+        - no
+        - kokoro
+        - yadoru
+        - ''
+        - Superstar
+        - ''
+        - Superstar
+        ww:
+        - w: you
+          d: 君
+        - w: "'s"
+          d: の
+        - w: heart
+          d: 心
+        - w: dwell
+          d: 宿る
+        - ''
+        - ''
+        - ''
+        - ''
+        - d: 君の心宿る Superstar Superstar
+      - ol:
+        - 君
+        - の
+        - 焦点
+        - が
+        - 合う
+        - 明日
+        - だけ
+        ro:
+        - kimi
+        - no
+        - shōten
+        - ga
+        - au
+        - asu
+        - dake
+        ww:
+        - w: you
+          d: 君
+        - w: "'s"
+          d: の
+        - w: focus
+          d: 焦点
+        - w: ''
+          d: が
+        - w: match
+          d: 合う
+        - w: tomorrow
+          d: 明日
+        - w: only
+          d: だけ
+        - d: 君の焦点が合う明日だけ
+      - ol:
+        - 信じて
+        - 信じて
+        - '　'
+        - 走って
+        - 走って
+        ro:
+        - shinjite
+        - shinjite
+        - ''
+        - hashitte
+        - hashitte
+        ww:
+        - w: believe
+          d: 信じて
+        - w: believe
+          d: 信じて
+        - ''
+        - w: run
+          d: 走って
+        - w: run
+          d: 走って
+        - d: 信じて信じて　走って走って
+    - lines:
+      - ol:
+        - I wonder, what you are…
+    - lines:
+      - ol:
+        - Tic Tac Toe
+        - ' '
+        - よろしくどうぞ
+        ro:
+        - Tic Tac Toe
+        - ''
+        - yoroshiku dōzo
+        ww:
+        - ''
+        - ''
+        - w: please to meet you
+          d: よろしくどうぞ
+        - d: Tic Tac Toe よろしくどうぞ
+      - ol:
+        - これ
+        - が
+        - 私たち
+        - の
+        - 流儀
+        ro:
+        - kore
+        - ga
+        - watashitachi
+        - no
+        - ryūgi
+        ww:
+        - w: this
+          d: これ
+        - w: ''
+          d: が
+        - w: us
+          d: 私たち
+        - w: "'s"
+          d: の
+        - w: style
+          d: 流儀
+        - d: これが私たちの流儀
+      - ol:
+        - どうしようもない
+        - 世界
+        - を
+        - 愛して
+        - いこうよ
+        - ' '
+        - You got it
+        - ？
+        ro:
+        - dō shiyō mo nai
+        - sekai
+        - o
+        - aishite
+        - ikō yo
+        - ''
+        - You got it
+        - ？
+        ww:
+        - w: hopeless
+          d: どうしようもない
+        - w: world
+          d: 世界
+        - w: ''
+          d: を
+        - w: love
+          d: 愛して
+        - w: let's go on
+          d: いこうよ
+        - ''
+        - ''
+        - ''
+        - d: どうしようもない世界を愛していこうよ You got it？
+      - ol:
+        - 「
+        - Give me up
+        - ！
+        - '　'
+        - 散々
+        - だ
+        - ！
+        - 」
+        - って
+        ro:
+        - 「
+        - Give me up
+        - ！
+        - ''
+        - sanzan
+        - da
+        - ！
+        - 」
+        - dde
+        ww:
+        - ''
+        - Give me up
+        - ''
+        - ''
+        - w: disastrous
+          d: 散々
+        - w: is
+          d: だ
+        - ''
+        - ''
+        - w: saying
+          d: って
+        - d: 「Give me up！　散々だ！」って
+      - ol:
+        - ❌
+        - に
+        - 挫けた
+        - 毎日
+        - でも
+        ro:
+        - batsu
+        - ni
+        - kujiketa
+        - mainichi
+        - demo
+        ww:
+        - w: bad mark
+          d: ❌
+        - w: by
+          d: に
+        - w: disheartened
+          d: 挫けた
+        - w: every day
+          d: 毎日
+        - w: even
+          d: でも
+        - d: ❌に挫けた毎日でも
+      - ol:
+        - 夢見た
+        - 明日
+        - '　'
+        - 一緒に
+        - 行こう
+        - よ
+        ro:
+        - yunemita
+        - asu
+        - ''
+        - isshoni
+        - ikō
+        - yo
+        ww:
+        - w: dreamed of
+          d: 夢見た
+        - w: tomorrow
+          d: 明日
+        - ''
+        - w: together
+          d: 一緒に
+        - w: let's go
+          d: 行こう
+        - w: (emphasis)
+          d: よ
+        - d: 夢見た明日　一緒に行こうよ
 
 - update:
     song: tictactoe

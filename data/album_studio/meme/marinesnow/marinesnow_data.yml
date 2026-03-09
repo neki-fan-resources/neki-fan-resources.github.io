@@ -42,6 +42,7 @@
     - id: ro
       name: rōmaji
       no-translation: true
+      active: true
     - id: ww
       name: word by word translation
       details: (using jisho.org)

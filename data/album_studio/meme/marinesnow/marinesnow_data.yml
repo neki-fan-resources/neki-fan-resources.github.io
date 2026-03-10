@@ -41,8 +41,8 @@
         url: 'https://www.uta-net.com/song/383745/'
     - id: ro
       name: rōmaji
-      no-translation: true
       active: true
+      no-translation: true
     - id: ww
       name: word by word translation
       details: (using jisho.org)

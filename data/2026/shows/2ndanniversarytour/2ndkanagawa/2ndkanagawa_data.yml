@@ -21,6 +21,7 @@
                     video: 1
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: 90L7X-vSTF4
                 - youtubeshort: S0KsO-fqmCo
             - multimediasubsection:
                 multimedia:
@@ -1094,6 +1095,21 @@
     date: 2026-03-02
     text:
     - More pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- youtubeshort:
+    id: 90L7X-vSTF4
+    label: On stage
+    info: studio audio
+    published-date: 2026-03-10
+    context:
+    - song: zerosum
+    - show:
+        year: 2026
+        id: 2ndkanagawa
     part-of:
       show:
         year: 2026

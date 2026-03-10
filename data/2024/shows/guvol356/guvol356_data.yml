@@ -1,3 +1,57 @@
+- display:
+    show:
+      year: 2024
+      id: guvol356
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: ZGKbnmh52gw
+                - youtubeshort: KDBBqw69Vus
+                - youtubeshort: zTAY3PIWLIM
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1802700860243480793
+                    image: GQR6358a0AAYmHG
+                - postinstagramimage:
+                    post: C8UuJVjSLSm
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C8UuJVjSLSm
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1802918650460131501
+                    image: GQVA9ImaAAAie_0
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C8UuJVjSLSm
+                    image: 3
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1802700860243480793
+                    image: GQR6357a4AANJGw
+    part-of:
+      show:
+        year: 2024
+        id: guvol356
+
 - postinstagram:
     id: C8UuJVjSLSm
     account: cocoro_drum
@@ -217,7 +271,7 @@
     post: 1802918650460131501
     id: GQVA9ImaAAAie_0
     label: Backstage
-    info: NEK!
+    info: 日乃まそら, NEK!
     published-date: 2024-06-18
     context:
     - show:
@@ -226,6 +280,35 @@
     todo: find out artist official name
     part-of:
       postx: 1802918650460131501
+
+- webimage:
+    domain: eggman.jp
+    page: girls-up-vol-356
+    id: poster
+    label: Poster
+    published-date: 2024-06-17
+    url: 'http://eggman.jp/eggwp/wp-content/uploads/2024/05/58fd04302eb59e421552b0834a0bbd61.jpg'
+    context:
+    - show:
+        year: 2024
+        id: guvol356
+    part-of:
+      webpage:
+        domain: eggman.jp
+        id: girls-up-vol-356
+
+- webpage:
+    domain: eggman.jp
+    id: girls-up-vol-356
+    label: Event page
+    published-date: 2024-06-17
+    url: 'http://eggman.jp/schedule/girls-up-vol-356/'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2024
+        id: guvol356
 
 - youtubeshort:
     id: KDBBqw69Vus

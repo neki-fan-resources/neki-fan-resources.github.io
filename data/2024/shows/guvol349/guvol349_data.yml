@@ -23,6 +23,9 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - youtubeshort: TF3IDIX41Q0
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
@@ -126,16 +129,6 @@
                 - text: To be able to have NEK!'s debut show at a venue I've dreamed of since junior high school was truly moving.
                 - text: Thank you so much to everyone who came 🥰
                 - text: Going to have a blast at LUPINUS ROCK FESTIVAL 2024 tomorrow, too!!
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: TF3IDIX41Q0
     part-of:
       show:
         year: 2024

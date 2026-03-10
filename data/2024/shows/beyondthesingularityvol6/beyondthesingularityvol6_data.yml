@@ -1,3 +1,58 @@
+- display:
+    show:
+      year: 2024
+      id: beyondthesingularityvol6
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 5OUm1JsT0jA
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1805236054989136217
+                    image: GQ18njgbIAE5MR-
+                - postinstagramimage:
+                    post: C8mlPbtpUHu
+                    image: 1
+                - postinstagramimage:
+                    post: C8mlPbtpUHu
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C8mlPbtpUHu
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1805328812106039713
+                    image: GQ3Q-y4aQAEqVdX
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C8mlPbtpUHu
+                    image: 4
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1805236054989136217
+                    image: GQ18njfaoAA7l3q
+    part-of:
+      show:
+        year: 2024
+        id: beyondthesingularityvol6
+
 - postinstagram:
     id: C8mlPbtpUHu
     account: cocoro_drum
@@ -226,13 +281,13 @@
 - postximage:
     post: 1805328812106039713
     id: GQ3Q-y4aQAEqVdX
-    label: Guitars
+    label: Backstage
+    info: Natsu, おじょう (劇団Moyashi), Mariya (Monochrome Cinderella)
     published-date: 2024-06-24
     context:
     - show:
         year: 2024
         id: beyondthesingularityvol6
-    todo: artists name
     part-of:
       postx: 1805328812106039713
 

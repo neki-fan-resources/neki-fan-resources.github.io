@@ -1,3 +1,140 @@
+- display:
+    show:
+      year: 2024
+      id: 1stonemanlive
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DJ_hDhxS3YB
+                    video: 1
+                - youtubeshort: EkRipluPvVg
+                - youtubeshort: JcCYNJoEoLI
+                - youtubeshort: XzfOs6kjtUs
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: tmpUHr3F67k
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: C9rwnPPpPTP
+                    image: 4
+                - postinstagramimage:
+                    post: C9rwnPPpPTP
+                    image: 5
+                - postximage:
+                    post: 1814548778395054082
+                    image: GS6SaeSbgAAkY_U
+                - postinstagramimage:
+                    post: C9pSuQtJP3m
+                    image: 2
+                - postximage:
+                    post: 1814548778395054082
+                    image: GS6SaeFbMAMPdm3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9rwnPPpPTP
+                    image: 6
+                - postinstagramimage:
+                    post: C9rwnPPpPTP
+                    image: 7
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9pgUc8vc0L
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9qssR0y2PC
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9pSuQtJP3m
+                    image: 1
+                - postinstagramimage:
+                    post: C9rwnPPpPTP
+                    image: 1
+                - postximage:
+                    post: 1815020650278637844
+                    image: GTA_pcHaUAAaI04
+                - postximage:
+                    post: 1815020650278637844
+                    image: GTA_pcCaAAAOAh-
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1814848169022530039
+                    image: GS-iyRYbIAIhCZj
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9rwnPPpPTP
+                    image: 9
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1814548778395054082
+                    image: GS6SaeCbMAI7xpQ
+    - basicblock:
+        id: covers
+        label: covers
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1926203870809608381
+                    video: de045839-e5ef-4546-90d3-d6e3f4cb9f34
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            label: Rehearsals
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: nLW93jahxIU
+    - basicblock:
+        id: merch
+        label: Merch
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: nfe19bab4a57b
+                    id: merch
+                - webimage:
+                    domain: note.com.nekiband
+                    page: nfe19bab4a57b
+                    id: merchbutton
+                - webimage:
+                    domain: note.com.nekiband
+                    page: nfe19bab4a57b
+                    id: merchsignedEPcover
+    part-of:
+      show:
+        year: 2024
+        id: 1stonemanlive
+
 - postinstagram:
     id: C9pSuQtJP3m
     account: nekiband_jp
@@ -73,12 +210,14 @@
       Bass & Drums two-shot💜💙📸
       
       #NEKI
-    image:
-    - 1
     part-of:
       show:
         year: 2024
         id: 1stonemanlive
+    reference:
+    - postximage:
+        post: 1814848169022530039
+        image: GS-iyRYbIAIhCZj
 
 - postinstagram:
     id: C9rwnPPpPTP
@@ -229,20 +368,6 @@
       postinstagram: C9qssR0y2PC
 
 - postinstagramimage:
-    post: C9qvhGtPgO4
-    id: 1
-    label: Backstage
-    info: Kanade, Cocoro
-    published-date: 2024-07-21
-    context:
-    - show:
-        year: 2024
-        id: 1stonemanlive
-    todo: dup image
-    part-of:
-      postinstagram: C9qvhGtPgO4
-
-- postinstagramimage:
     post: C9rwnPPpPTP
     id: 1
     label: On stage
@@ -309,7 +434,6 @@
     post: C9rwnPPpPTP
     id: 9
     label: Backstage
-    info: Cocoro
     published-date: 2024-07-21
     context:
     - show:
@@ -554,7 +678,7 @@
 - postximage:
     post: 1815020650278637844
     id: GTA_pcCaAAAOAh-
-    label: Drum kit
+    label: Drum set
     info: Cocoro
     published-date: 2024-07-21
     context:
@@ -567,7 +691,7 @@
 - postximage:
     post: 1815020650278637844
     id: GTA_pcHaUAAaI04
-    label: Drum kit
+    label: Drum set
     info: Cocoro
     published-date: 2024-07-21
     context:
@@ -651,7 +775,7 @@
     domain: note.com.nekiband
     page: nfe19bab4a57b
     id: merchbutton
-    label: Merch Button
+    label: Merch lottery
     published-date: 2024-07-17
     url: 'https://assets.st-note.com/img/1721190650558-0fXUt25UWj.png'
     context:

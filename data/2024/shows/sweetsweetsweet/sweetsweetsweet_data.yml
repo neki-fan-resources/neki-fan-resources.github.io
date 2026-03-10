@@ -1,3 +1,48 @@
+- display:
+    show:
+      year: 2024
+      id: sweetsweetsweet
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1792569210633441746
+                    image: GOB8MWEaAAAV2FW
+                - postinstagramimage:
+                    post: C7MjVPeRGlL
+                    image: 1
+                - postinstagramimage:
+                    post: C7MjVPeRGlL
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C7MjVPeRGlL
+                    image: 3
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1792569210633441746
+                    image: GOB8MWDbsAEx48x
+                - postinstagramimage:
+                    post: C7Mq24GBNPA
+                    image: 1
+    part-of:
+      show:
+        year: 2024
+        id: sweetsweetsweet
+
 - postinstagram:
     id: C7MjVPeRGlL
     account: cocoro_drum

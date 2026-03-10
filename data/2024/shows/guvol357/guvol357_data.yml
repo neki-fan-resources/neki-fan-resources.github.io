@@ -1,3 +1,56 @@
+- display:
+    show:
+      year: 2024
+      id: guvol357
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: C84kmPhJcnb
+                    image: 2
+                - postximage:
+                    post: 1807779104399520011
+                    image: GRaFgtuaUAAGh-u
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C84kmPhJcnb
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1807812700061495298
+                    image: GRakD3hbIAA3Vx5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C84kmPhJcnb
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C9kTT0IJ7SZ
+                    image: 1
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1807779104399520011
+                    image: GRaFgtwacAA-6Hg
+    part-of:
+      show:
+        year: 2024
+        id: guvol357
+
 - postinstagram:
     id: C84kmPhJcnb
     account: cocoro_drum
@@ -254,13 +307,41 @@
     post: 1807812700061495298
     id: GRakD3hbIAA3Vx5
     label: Backstage
-    info: NEK!
+    info: NEK!, コウトウマリア
     published-date: 2024-07-01
     context:
     - show:
         year: 2024
         id: guvol357
-    todo: other artist name
     part-of:
       postx: 1807812700061495298
+
+- webimage:
+    domain: eggman.jp
+    page: girls-up-vol-357
+    id: poster
+    label: Poster
+    published-date: 2024-07-01
+    url: 'http://eggman.jp/eggwp/wp-content/uploads/2024/05/c65a1eb51ee3a431670c7dff72a218d4.jpg'
+    context:
+    - show:
+        year: 2024
+        id: guvol357
+    part-of:
+      webpage:
+        domain: eggman.jp
+        id: girls-up-vol-357
+
+- webpage:
+    domain: eggman.jp
+    id: girls-up-vol-357
+    label: Event page
+    published-date: 2024-07-01
+    url: 'http://eggman.jp/schedule/girls-up-vol-357/'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2024
+        id: guvol357
 

@@ -1,3 +1,46 @@
+- display:
+    show:
+      year: 2024
+      id: popoutvol11
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1799078045346894197
+                    image: GPeb7_jaAAIxU5q
+                - postinstagramimage:
+                    post: C763Z2tP7DD
+                    image: 1
+                - postinstagramimage:
+                    post: C763Z2tP7DD
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1799084157886460002
+                    image: GPehcB0bMAAvs-e
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C763Z2tP7DD
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C763Z2tP7DD
+                    image: 3
+    part-of:
+      show:
+        year: 2024
+        id: popoutvol11
+
 - postinstagram:
     id: C763Z2tP7DD
     account: cocoro_drum

@@ -1,3 +1,44 @@
+- display:
+    show:
+      year: 2024
+      id: girlsgirlsgirls
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1826624665139511742
+                    image: GVl5cqmbgAMZX8l
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1826859497824158049
+                    image: GVpPBX1bgAQ0f2o
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1826859497824158049
+                    image: GVpPBX4bgAEz8tV
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1826624665139511742
+                    image: GVl5cqUbgAggXB8
+    part-of:
+      show:
+        year: 2024
+        id: girlsgirlsgirls
+
 - postx:
     id: 1808470843703664913
     account: clubdrop
@@ -193,7 +234,7 @@
     post: 1826859497824158049
     id: GVpPBX1bgAQ0f2o
     label: Backstage
-    info: Kanade, Natsu, Cocoro, Lumirise
+    info: おと (LUMiRiSE), Kanade, Natsu, Cocoro, MlZukl (LUMiRiSE)
     published-date: 2024-08-23
     context:
     - show:
@@ -207,7 +248,7 @@
     post: 1826859497824158049
     id: GVpPBX4bgAEz8tV
     label: Backstage
-    info: Kanade, Lumirise
+    info: Kanade, おと (LUMiRiSE)
     published-date: 2024-08-23
     context:
     - show:

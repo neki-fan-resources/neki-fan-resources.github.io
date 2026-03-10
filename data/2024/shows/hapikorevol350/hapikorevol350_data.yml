@@ -1,3 +1,47 @@
+- display:
+    show:
+      year: 2024
+      id: hapikorevol350
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: E86WMvLxCms
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1821551135074979992
+                    image: GUdzGZ2W4AA9fDw
+                - postinstagramimage:
+                    post: C-fsxWgSCgy
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C-fsxWgSCgy
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C-oJxX6zKVy
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C-fsxWgSCgy
+                    image: 4
+    part-of:
+      show:
+        year: 2024
+        id: hapikorevol350
+
 - postinstagram:
     id: C-fsxWgSCgy
     account: cocoro_drum

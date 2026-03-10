@@ -1,3 +1,47 @@
+- display:
+    show:
+      year: 2024
+      id: daydreamer4night
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1826267838006337964
+                    image: GVg06iLbMAAy0f2
+                - postinstagramimage:
+                    post: C_LQWySylRt
+                    image: 7
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1827357268658286768
+                    image: GVwTueiacAA5A3z
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C_LNw7jvczd
+                    image: 1
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1826267838006337964
+                    image: GVg06iIbsAAqz5k
+    part-of:
+      show:
+        year: 2024
+        id: daydreamer4night
+
 - postinstagram:
     id: C_LNw7jvczd
     account: cure_bass_baka

@@ -53,7 +53,6 @@
       
       #NEKI #Neki
     image:
-    - 1
     - 6
     part-of:
       tour: nekifirstosakaaichi2024
@@ -70,6 +69,9 @@
     - postximage:
         post: 1827357268658286768
         image: GVwTueiacAA5A3z
+    - postximage:
+        post: 1826990576136540351
+        image: GVrGPOpawAAkdj6
 
 - postinstagram:
     id: C_LQWySylRt
@@ -208,18 +210,6 @@
         id: hapikorevol350
     part-of:
       postinstagram: C-oJxX6zKVy
-
-- postinstagramimage:
-    post: C_DqIeXSVEq
-    id: 1
-    label: On stage
-    published-date: 2024-08-24
-    context:
-    - show:
-        year: 2024
-        id: soundsgoodvol73
-    part-of:
-      postinstagram: C_DqIeXSVEq
 
 - postinstagramimage:
     post: C_DqIeXSVEq

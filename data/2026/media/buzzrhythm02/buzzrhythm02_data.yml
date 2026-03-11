@@ -11,9 +11,13 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubevideo: cWJis9wJU4U
+            - multimediasubsection:
+                multimedia:
                 - postxvideo:
                     post: 2031671565335794018
                     video: 01
+                - youtubevideo: bxBrDMqyEQU
             - multimediasubsection:
                 label: Backstage
                 multimedia:
@@ -266,6 +270,34 @@
     url: 'https://www.ntv.co.jp/buzzrhythm/'
     image:
     - logo
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- youtubevideo:
+    id: bxBrDMqyEQU
+    label: Video comment
+    info: English-subtitled
+    published-date: 2026-03-11
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- youtubevideo:
+    id: cWJis9wJU4U
+    label: Preview
+    info: (only available in Japan)
+    published-date: 2026-03-11
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
     part-of:
       media:
         year: 2026

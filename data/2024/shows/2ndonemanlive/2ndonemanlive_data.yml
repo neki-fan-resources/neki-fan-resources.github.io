@@ -1,3 +1,220 @@
+- display:
+    show:
+      year: 2024
+      id: 2ndonemanlive
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: aylfQ09sa4I
+                - youtubevideo: _Oac92XPkyo
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: zWS1TQ1kP6A
+                - youtubeshort: xy8VknaZ0QQ
+                - youtubeshort: MpR-vcWQAuQ
+                - youtubeshort: jZ2Dn5P3Fac
+                - youtubeshort: 8jqBR2PyfAw
+                - youtubeshort: iQQoVDhI0E0
+                - youtubeshort: qFiKgQ5mNgQ
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1863871086141865998
+                    video: 01
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 6
+                - postximage:
+                    post: 1874007445930205368
+                    image: GgHP1XDbYAEaa4e
+                - postinstagramimage:
+                    post: DCzOZCST6qI
+                    image: 7
+                - postximage:
+                    post: 1860887418322493470
+                    image: GdMzPcLbsAIzyLF
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 5
+                - postximage:
+                    post: 1868989699446260040
+                    image: Ge_5YQ1bwAMEUka
+                - postximage:
+                    post: 1868274064198090786
+                    image: Ge1xW0-bUAAtAs1
+                - postximage:
+                    post: 1861081388675694837
+                    image: GdPjqL6aQAER0rw
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1868274064198090786
+                    image: Ge1xW0_akAA2LFJ
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 4
+                - postinstagramimage:
+                    post: DCydGK4ThAr
+                    image: 1
+                - postinstagramimage:
+                    post: DCydGK4ThAr
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1868274064198090786
+                    image: Ge1xW0_a4AARwNj
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DDuC3s5TSkN
+                    image: 2
+                - postinstagramimage:
+                    post: DCxucmfvDog
+                    image: 1
+                - postinstagramimage:
+                    post: DCxucmfvDog
+                    image: 2
+                - postximage:
+                    post: 1868274064198090786
+                    image: Ge1xW1Ab0AAGZt4
+                - postinstagramimage:
+                    post: DCxucmfvDog
+                    image: 4
+                - postinstagramimage:
+                    post: DCxucmfvDog
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DCxucmfvDog
+                    image: 10
+                - postximage:
+                    post: 1860642399242084838
+                    image: GdJUX0vaMAAfwff
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DCyaou3Rhvq
+                    image: 2
+                - postinstagramimage:
+                    post: DCzOZCST6qI
+                    image: 6
+                - postinstagramimage:
+                    post: DCyaou3Rhvq
+                    image: 3
+                - postximage:
+                    post: 1860642399242084838
+                    image: GdJUX0zaMAAnLAP
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DCxucmfvDog
+                    image: 8
+                - postinstagramimage:
+                    post: DCyaou3Rhvq
+                    image: 5
+                - postximage:
+                    post: 1860642399242084838
+                    image: GdJUX0yaIAAyel4
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DCyaou3Rhvq
+                    image: 7
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1860660643910885400
+                    image: GdJk_gwa4AAHT-T
+                - postximage:
+                    post: 1860642399242084838
+                    image: GdJUX1DbQAAIRJv
+                - postximage:
+                    post: 1860588588834128127
+                    image: GdIjTflaAAAq0b0
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            label: Rehearsals
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 25AE7t_8eEg
+    - basicblock:
+        id: zaiko
+        label: Zaiko
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  zaiko:
+                    channel: nekiband
+                    id: 368923
+                lines:
+                - line:
+                  - text: During January 2025, a large portion of NEK!'s "2ND ONE MAN LIVE" was available for streaming on ZAIKO.
+                - line:
+                  - text: This version of the show contained all the already released songs, with the addition of OOAK (unnamed at the time). The covers were also removed.
+    - basicblock:
+        id: merch
+        label: Merch
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1860700294226838000
+                    image: GdKJDdoaAAAgzF1
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n57c0f6d0f8bd
+                    id: merchtshirt
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n57c0f6d0f8bd
+                    id: merchtowel
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n57c0f6d0f8bd
+                    id: merch
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n57c0f6d0f8bd
+                    id: merchlottery
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n57c0f6d0f8bd
+                    id: merchep
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
 - postinstagram:
     id: DCxucmfvDog
     account: cocoro_drum
@@ -66,7 +283,6 @@
     image:
     - 1
     - 2
-    - 3
     - 4
     - 5
     - 8
@@ -296,19 +512,6 @@
 - postinstagramimage:
     post: DCxucmfvDog
     id: 2
-    label: On stage
-    info: Cocoro
-    published-date: 2024-11-25
-    context:
-    - show:
-        year: 2024
-        id: 2ndonemanlive
-    part-of:
-      postinstagram: DCxucmfvDog
-
-- postinstagramimage:
-    post: DCxucmfvDog
-    id: 3
     label: On stage
     info: Cocoro
     published-date: 2024-11-25
@@ -723,6 +926,24 @@
       postx: 1860700294226838000
 
 - postx:
+    id: 1861081388675694837
+    account: 46_hikaa
+    label: On stage with acoustic guitar
+    published-date: 2024-11-25
+    text: |-
+      アコギの音と声だけが響く
+      ライブハウスの空気も好き( ¨̮ )
+    translation: |-
+      I also love the atmosphere of a live house
+      where only the sound of an acoustic guitar and a voice resonate ( ¨̮ )
+    image:
+    - GdPjqL6aQAER0rw
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+
+- postx:
     id: 1863871086141865998
     account: coco_102
     label: Get Over on stage
@@ -917,7 +1138,8 @@
 - postximage:
     post: 1860887418322493470
     id: GdMzPcLbsAIzyLF
-    label: Encore
+    label: On stage
+    info: encore
     published-date: 2024-11-25
     context:
     - show:
@@ -925,6 +1147,19 @@
         id: 2ndonemanlive
     part-of:
       postx: 1860887418322493470
+
+- postximage:
+    post: 1861081388675694837
+    id: GdPjqL6aQAER0rw
+    label: On stage
+    info: Hika, acoustic
+    published-date: 2024-11-25
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    part-of:
+      postx: 1861081388675694837
 
 - postximage:
     post: 1873309201130574236
@@ -942,6 +1177,7 @@
     post: 1874007445930205368
     id: GgHP1XDbYAEaa4e
     label: On stage
+    info: encore
     published-date: 2024-12-31
     context:
     - show:
@@ -1277,7 +1513,6 @@
 - youtubeshort:
     id: zWS1TQ1kP6A
     label: On stage
-    info: studio audio
     published-date: 2025-01-13
     context:
     - song: endlessgame

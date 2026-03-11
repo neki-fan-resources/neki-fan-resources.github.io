@@ -1,3 +1,55 @@
+- display:
+    show:
+      year: 2024
+      id: nekigufriday
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1849313941895381437
+                    video: 01
+                - postxvideo:
+                    post: 1848204505093144935
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: z4ptr7fSMtQ
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1847280924775641370
+                    image: GaLcNR9a0AEXUbo
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DBz3uWWz_Bu
+                    image: 1
+                - postinstagramimage:
+                    post: DBz3uWWz_Bu
+                    image: 2
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1847280924775641370
+                    image: GaLcNSCacAApUEa
+                - postinstagramimage:
+                    post: DBz3uWWz_Bu
+                    image: 4
+    part-of:
+      show:
+        year: 2024
+        id: nekigufriday
+
 - postinstagram:
     id: DBz3uWWz_Bu
     account: cocoro_drum

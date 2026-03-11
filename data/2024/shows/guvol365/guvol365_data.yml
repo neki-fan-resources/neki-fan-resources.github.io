@@ -1,3 +1,60 @@
+- display:
+    show:
+      year: 2024
+      id: guvol365
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1839289051259744538
+                    video: 01
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1838573638817300719
+                    image: GYPs-DMakAMi3eu
+                - postinstagramimage:
+                    post: DAUo9EkT8r9
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DAUo9EkT8r9
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DAUo9EkT8r9
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DAUo9EkT8r9
+                    image: 5
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DAUo9EkT8r9
+                    image: 6
+                - postximage:
+                    post: 1838573638817300719
+                    image: GYPs-DHakAEasuh
+    part-of:
+      show:
+        year: 2024
+        id: guvol365
+
 - postinstagram:
     id: DAUo9EkT8r9
     account: cocoro_drum

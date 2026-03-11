@@ -1,3 +1,46 @@
+- display:
+    show:
+      year: 2024
+      id: fypvol5
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1836763022674575746
+                    image: GX1-NI8a0AAJtCZ
+                - postinstagramimage:
+                    post: DAOPx7cT2s9
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DAOPx7cT2s9
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DAOPx7cT2s9
+                    image: 4
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1836763022674575746
+                    image: GX1-NI7aMAAhIdv
+    part-of:
+      show:
+        year: 2024
+        id: fypvol5
+
 - postinstagram:
     id: DAOPx7cT2s9
     account: cocoro_drum

@@ -1,3 +1,34 @@
+- display:
+    show:
+      year: 2024
+      id: sweetsweetsweet2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1854526414764245160
+                    image: GbyZ8JebIAAgPCQ
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1854526414764245160
+                    image: GbyZ8JebAAAuzkn
+    part-of:
+      show:
+        year: 2024
+        id: sweetsweetsweet2
+
 - postx:
     id: 1854440185460879405
     account: shelter_1001

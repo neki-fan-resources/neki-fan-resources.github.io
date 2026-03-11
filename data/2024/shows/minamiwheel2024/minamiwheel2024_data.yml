@@ -1,3 +1,50 @@
+- display:
+    show:
+      year: 2024
+      id: minamiwheel2024
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1846197882564890671
+                    video: 01
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DBOarqyzqNy
+                    image: 1
+                - postximage:
+                    post: 1845457121418395899
+                    image: GZxheApaAAQ6567
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1845404922059358388
+                    image: GZwx_EFbgAAmjcJ
+                - postximage:
+                    post: 1845404922059358388
+                    image: GZwx_EDaAAIc_iK
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1845457121418395899
+                    image: GZxheAtbEAAV9f7
+    part-of:
+      show:
+        year: 2024
+        id: minamiwheel2024
+
 - postinstagram:
     id: DBOarqyzqNy
     account: cocoro_drum
@@ -303,6 +350,28 @@
         year: 2024
         id: minamiwheel2024
 
+- postx:
+    id: 1846197882564890671
+    account: coco_102
+    label: ENDLESSGAME Cocoro cam
+    published-date: 2024-10-15
+    text: |-
+      チラ見せENDLESS GAME🎮
+      
+      やっぱ私のクロミちゃんいい音するわーー！
+      最高の相棒！！
+    translation: |-
+      A peek at ENDLESS GAME 🎮
+      
+      My Kuromi-chan really sounds good, after all!
+      The best partner!!
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1846197882564890671
+        video: 01
+
 - postximage:
     post: 1833792678414463036
     id: GXLwuK6b0AAsCaB
@@ -355,7 +424,7 @@
 - postximage:
     post: 1845404922059358388
     id: GZwx_EDaAAIc_iK
-    label: Backstage
+    label: Band
     published-date: 2024-10-13
     context:
     - show:
@@ -367,7 +436,7 @@
 - postximage:
     post: 1845404922059358388
     id: GZwx_EFbgAAmjcJ
-    label: Backstage
+    label: Band
     published-date: 2024-10-13
     context:
     - show:
@@ -399,4 +468,21 @@
         id: minamiwheel2024
     part-of:
       postx: 1845457121418395899
+
+- postxvideo:
+    post: 1846197882564890671
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2024-10-15
+    cover: 1846197840001024000/pu/img/JMV410QY6YZzz0XQ.jpg
+    context:
+    - song: endlessgame
+    - show:
+        year: 2024
+        id: minamiwheel2024
+    part-of:
+      show:
+        year: 2024
+        id: minamiwheel2024
 

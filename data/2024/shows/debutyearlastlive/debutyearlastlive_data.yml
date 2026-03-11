@@ -1,3 +1,182 @@
+- display:
+    show:
+      year: 2024
+      id: debutyearlastlive
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: urGmtrd7zbA
+                - youtubevideo: IeBks9yGO4A
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1878367875968487444
+                    video: 01
+                - postxvideo:
+                    post: 1875769615437197318
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1920434632379580460
+                    video: daa90966-8453-41ab-843d-c8dc1283943a
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DEOinT1vIHW
+                    image: 4
+                - postinstagramimage:
+                    post: DEKj3fzz9qj
+                    image: 3
+                - postinstagramimage:
+                    post: DEOinT1vIHW
+                    image: 3
+                - postinstagramimage:
+                    post: DEOinT1vIHW
+                    image: 8
+                - postinstagramimage:
+                    post: DEKj3fzz9qj
+                    image: 4
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 7
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 3
+                - postinstagramimage:
+                    post: DEKj3fzz9qj
+                    image: 6
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 2
+                - postinstagramimage:
+                    post: DEOinT1vIHW
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 3
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 4
+                - postinstagramimage:
+                    post: DEOr2Jlvoqg
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 6
+                - postximage:
+                    post: 1943641464397062330
+                    image: GvkzmwJWEAA9mgY
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 6
+                - postinstagramimage:
+                    post: DEPGJCXplMw
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 5
+                - postinstagramimage:
+                    post: DJO4LpSJkzO
+                    image: 2
+                - postximage:
+                    post: 1877252477071872148
+                    image: Gg1XJ0MaMAIVoZ8
+                - postximage:
+                    post: 1877252477071872148
+                    image: Gg1XJ0LaYAAjfJx
+                - postinstagramimage:
+                    post: DEOinT1vIHW
+                    image: 6
+                - postinstagramimage:
+                    post: DEOinT1vIHW
+                    image: 9
+                - postximage:
+                    post: 1873932155568742631
+                    image: GgGLVT9bYAAZxmJ
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DEPHvlPypM2
+                    image: 1
+                - postinstagramimage:
+                    post: DMApYE6Rkns
+                    image: 4
+                - postximage:
+                    post: 1918636722516373576
+                    image: GqBc0HhbYAA2VDy
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1873308698447343663
+                    image: Gf9BKJEawAIGr2R
+                - postinstagramimage:
+                    post: DEKj3fzz9qj
+                    image: 2
+                - postinstagramimage:
+                    post: DEKj3fzz9qj
+                    image: 5
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1888173899994837474
+                    image: GjQkJQKaYAAKJAU
+                - postinstagramimage:
+                    post: DK_d4uupGv-
+                    image: 1
+                - postinstagramimage:
+                    post: DEOinT1vIHW
+                    image: 11
+    - basicblock:
+        id: merch
+        label: Merch
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1873370892325224528
+                    image: Gf-M5a0aAAADTtd
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n5f72c39f7ced
+                    id: merch
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n5f72c39f7ced
+                    id: merchlottery
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
 - postinstagram:
     id: DEHp4DtP1AS
     account: cocoro_drum
@@ -483,13 +662,17 @@
       Photo by @tm_livephoto
       
       #neki #neko #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer #cajon
-    image:
-    - 1
-    - 2
     part-of:
       show:
         year: 2024
         id: debutyearlastlive
+    reference:
+    - postximage:
+        post: 1877252477071872148
+        image: Gg1XJ0LaYAAjfJx
+    - postximage:
+        post: 1877252477071872148
+        image: Gg1XJ0MaMAIVoZ8
 
 - postinstagram:
     id: DGGQ5ZSTWs2
@@ -767,32 +950,6 @@
         id: debutyearlastlive
     part-of:
       postinstagram: DEPHvlPypM2
-
-- postinstagramimage:
-    post: DEmJTz2vio6
-    id: 1
-    label: On stage
-    info: Cocoro
-    published-date: 2025-01-09
-    context:
-    - show:
-        year: 2024
-        id: debutyearlastlive
-    part-of:
-      postinstagram: DEmJTz2vio6
-
-- postinstagramimage:
-    post: DEmJTz2vio6
-    id: 2
-    label: On stage
-    info: Cocoro
-    published-date: 2025-01-09
-    context:
-    - show:
-        year: 2024
-        id: debutyearlastlive
-    part-of:
-      postinstagram: DEmJTz2vio6
 
 - postinstagramimage:
     post: DGGQ5ZSTWs2
@@ -1250,7 +1407,7 @@
     context:
     - show:
         year: 2024
-        id: debutyearlastlive
+        id: 2ndonemanlive
     part-of:
       postx: 1868274064198090786
 
@@ -1263,7 +1420,7 @@
     context:
     - show:
         year: 2024
-        id: debutyearlastlive
+        id: 2ndonemanlive
     part-of:
       postx: 1868274064198090786
 
@@ -1276,7 +1433,7 @@
     context:
     - show:
         year: 2024
-        id: debutyearlastlive
+        id: 2ndonemanlive
     part-of:
       postx: 1868274064198090786
 
@@ -1289,7 +1446,7 @@
     context:
     - show:
         year: 2024
-        id: debutyearlastlive
+        id: 2ndonemanlive
     part-of:
       postx: 1868274064198090786
 

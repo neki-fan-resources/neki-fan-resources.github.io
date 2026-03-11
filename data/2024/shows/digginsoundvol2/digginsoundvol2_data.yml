@@ -1,3 +1,53 @@
+- display:
+    show:
+      year: 2024
+      id: digginsoundvol2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1861777970496737413
+                    image: GdZdMhdbgAA1c76
+                - postinstagramimage:
+                    post: DC_uUelvxBs
+                    image: 2
+                - postximage:
+                    post: 1861777970496737413
+                    image: GdZdMhdaoAARviY
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DC_uUelvxBs
+                    image: 4
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1851187227730358585
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1856985434020061342
+                    video: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
+    part-of:
+      show:
+        year: 2024
+        id: digginsoundvol2
+
 - postinstagram:
     id: DC_uUelvxBs
     account: cocoro_drum
@@ -350,8 +400,7 @@
 - postxvideo:
     post: 1856985434020061342
     id: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
-    label: presentation
-    info: presentation of each band
+    label: Artists presentation
     published-date: 2024-11-14
     cover: 1856559489245425664/pu/img/SpsFR8nhXy8j_dZo.jpg
     context:

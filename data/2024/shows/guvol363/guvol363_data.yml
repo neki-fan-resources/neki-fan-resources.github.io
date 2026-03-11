@@ -1,3 +1,48 @@
+- display:
+    show:
+      year: 2024
+      id: guvol363
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: C_0OCR1z1hp
+                    image: 1
+                - postinstagramimage:
+                    post: C_0OCR1z1hp
+                    image: 2
+                - postximage:
+                    post: 1833508790463041957
+                    image: GXHuhl0bEAUm3Jj
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C_0OCR1z1hp
+                    image: 4
+                - postinstagramimage:
+                    post: C_0OCR1z1hp
+                    image: 5
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C_0OCR1z1hp
+                    image: 6
+    part-of:
+      show:
+        year: 2024
+        id: guvol363
+
 - postinstagram:
     id: C_0OCR1z1hp
     account: cocoro_drum
@@ -216,4 +261,33 @@
         id: guvol363
     part-of:
       postx: 1833508790463041957
+
+- webimage:
+    domain: eggman.jp
+    page: girls-up-vol-363
+    id: poster
+    label: Poster
+    published-date: 2024-09-10
+    url: 'http://eggman.jp/eggwp/wp-content/uploads/2024/07/51afb76058e74a456e0d47c53bc67bc0.jpg'
+    context:
+    - show:
+        year: 2024
+        id: guvol363
+    part-of:
+      webpage:
+        domain: eggman.jp
+        id: girls-up-vol-363
+
+- webpage:
+    domain: eggman.jp
+    id: girls-up-vol-363
+    label: Show page
+    published-date: 2024-09-10
+    url: 'http://eggman.jp/schedule/girls-up-vol-363/'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2024
+        id: guvol363
 

@@ -1,3 +1,42 @@
+- display:
+    show:
+      year: 2024
+      id: torarockfestival
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1829787584555586011
+                    image: GWS2G-MW8AImdM_
+                - postximage:
+                    post: 1829787584555586011
+                    image: GWS2G-SWgAAH7Ld
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C_Vf6t8SRBg
+                    image: 1
+                - postinstagramimage:
+                    post: C_Vf6t8SRBg
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C_Vf6t8SRBg
+                    image: 5
+    part-of:
+      show:
+        year: 2024
+        id: torarockfestival
+
 - postinstagram:
     id: C_Vf6t8SRBg
     account: cocoro_drum

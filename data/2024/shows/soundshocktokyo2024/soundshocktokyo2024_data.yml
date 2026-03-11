@@ -1,3 +1,54 @@
+- display:
+    show:
+      year: 2024
+      id: soundshocktokyo2024
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1828377003390906504
+                    image: GV-zMCPaoAEXFgz
+                - postinstagramimage:
+                    post: C_LjefVyMK0
+                    image: 2
+                - postinstagramimage:
+                    post: C_LjefVyMK0
+                    image: 3
+                - postximage:
+                    post: 1828377003390906504
+                    image: GV-zMCRaoAAYcqr
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C_LjefVyMK0
+                    image: 4
+                - postinstagramimage:
+                    post: C_LjefVyMK0
+                    image: 5
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1828377003390906504
+                    image: GV-zMCuWcAAtYbY
+                - postinstagramimage:
+                    post: C_LjefVyMK0
+                    image: 6
+    part-of:
+      show:
+        year: 2024
+        id: soundshocktokyo2024
+
 - postinstagram:
     id: C_LjefVyMK0
     account: cocoro_drum

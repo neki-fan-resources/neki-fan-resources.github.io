@@ -10,6 +10,11 @@
         - basicsection:
             subsections:
             - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2031671565335794018
+                    video: 01
+            - multimediasubsection:
                 label: Backstage
                 multimedia:
                 - postximage:
@@ -132,6 +137,50 @@
     part-of:
       postx: 2030183993178775754
 
+- postx:
+    id: 2031671565335794018
+    account: BUZZRHYTHM_NTV
+    label: NEK! comment video
+    published-date: 2026-03-11
+    text: |-
+      3月13日(金)放送 バズリズム02
+      
+      次世代注目バンド2組が登場！
+      音楽番組初トーク  NEK!
+      
+      バンド加入の条件【可愛くて演奏の上手い子】！
+      収録終わりのNEK!からコメントをいただきました^_^
+      
+      ♦︎スタジオライブ♦︎
+      セカンドバッカー
+      THE JET BOY BANGERZ
+      DXTEEN
+      yosugala
+      
+      25:09〜 お楽しみに！
+    translation: |-
+      Broadcasting March 13 (Fri) Buzz Rhythm 02
+      
+      Two next-generation bands to watch will appear!
+      First music program talk: NEK!
+      
+      The condition for joining the band: [Girls who are cute and play well]!
+      We received a comment from NEK! after the recording ^_^
+      
+      ♦︎Studio Live♦︎
+      Second Backer
+      THE JET BOY BANGERZ
+      DXTEEN
+      yosugala
+      
+      From 25:09~ Look forward to it!
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2031671565335794018
+        video: 01
+
 - postximage:
     post: 2030183993178775754
     id: HCypgfAbUAAbpRI
@@ -168,6 +217,21 @@
         id: buzzrhythm02
     part-of:
       postx: 2030199626108952671
+
+- postxvideo:
+    post: 2031671565335794018
+    id: 01
+    label: Video comment
+    published-date: 2026-03-11
+    cover: 2031671273089314816/img/H8t53h0AmILuZahC.jpg
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
 
 - update:
     media:

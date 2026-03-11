@@ -19,7 +19,7 @@ mediavideo:
   webpage: 'https://www.ntv.co.jp/buzzrhythm/'
   part-of:
     group:
-      id: shows
+      id: media
       group: 2026
   description:
   - NEK! first TV appearance !!

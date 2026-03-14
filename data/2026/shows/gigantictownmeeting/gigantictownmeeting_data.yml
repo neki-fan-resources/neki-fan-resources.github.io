@@ -111,6 +111,51 @@
         year: 2026
         id: gigantictownmeeting
 
+- postx:
+    id: 2032366591112040727
+    account: nekiband_jp
+    label: Timetable
+    published-date: 2026-03-13
+    text: |-
+      ⚡️TIME TABLE⚡️
+      
+      4/12(日)出演
+      「GIGANTIC TOWN MEETING -THANKS 10TH GIGA-」
+      
+      タイムテーブル解禁💥
+      
+      📍梅田BANGBOO
+      ⏰19:00-19:30
+      
+      ▼チケット一般発売中🎟️
+      https://the-bonds-osaka.com/gtm/
+      
+      #NEKI #ボンズ #ジャイガ
+      @giga_osaka
+    translation: |-
+      ⚡️TIME TABLE⚡️
+      
+      Appearing on 4/12 (Sun)
+      「GIGANTIC TOWN MEETING -THANKS 10TH GIGA-」
+      
+      Timetable released💥
+      
+      📍Umeda BANGBOO
+      ⏰19:00-19:30
+      
+      ▼Tickets on general sale🎟️
+      https://the-bonds-osaka.com/gtm/
+      
+      #NEKI #Bonds #Giga
+      @giga_osaka
+    image:
+    - HDRqF7xbQAYkzeE
+    - HDRqHeQbQAEW3HT
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
 - postximage:
     post: 2011743468692156620
     id: G-slOf5bMAANpD2
@@ -147,6 +192,30 @@
         id: gigantictownmeeting
     part-of:
       postx: 2017145767408869828
+
+- postximage:
+    post: 2032366591112040727
+    id: HDRqF7xbQAYkzeE
+    label: Final lineup
+    published-date: 2026-03-13
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2032366591112040727
+
+- postximage:
+    post: 2032366591112040727
+    id: HDRqHeQbQAEW3HT
+    label: Timetable
+    published-date: 2026-03-13
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2032366591112040727
 
 - update:
     show:

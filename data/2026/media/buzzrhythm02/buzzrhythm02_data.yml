@@ -24,8 +24,18 @@
                 - postximage:
                     post: 2030183993178775754
                     image: HCypgfLbsAAWjgP
+                - postximage:
+                    post: 2032385940434612429
+                    image: HDR8NeibIAA-V8P
+                - webimage:
+                    domain: natalie.mu
+                    page: 663907
+                    id: backstage
             - multimediasubsection:
                 multimedia:
+                - postximage:
+                    post: 2032456248143302710
+                    image: HDS8LpAbYAAqruK
                 - postximage:
                     post: 2030199626108952671
                     image: HCy3zFTbYAEuytN
@@ -185,6 +195,75 @@
         post: 2031671565335794018
         video: 01
 
+- postx:
+    id: 2032385940434612429
+    account: nekiband_jp
+    label: Tonight
+    info: + preview video cover
+    published-date: 2026-03-13
+    text: |-
+      ✨📺 本日放送📺✨
+      
+      今夜3/13(金)25:09〜
+      日本テレビ「バズリズム02」
+      
+      出演いたします💖
+      
+      トークゲスト & 対バンライブにて「Get Over」披露🔥
+      
+      初のテレビ出演です！！
+      お見逃しなく👀
+      
+      🔗https://youtu.be/cWJis9wJU4U
+      
+      #NEKI 
+      @BUZZRHYTHM_NTV
+    translation: |-
+      ✨📺 Broadcast Today 📺✨
+      
+      Tonight 3/13 (Fri) 25:09~
+      Nippon TV "Buzz Rhythm 02"
+      
+      We will be appearing 💖
+      
+      Talk guest & performing "Get Over" in a split-bill live performance 🔥
+      
+      Our first TV appearance!!
+      Don't miss it 👀
+      
+      🔗https://youtu.be/cWJis9wJU4U
+      
+      #NEKI 
+      @BUZZRHYTHM_NTV
+    image:
+    - HDR8NeibIAA-V8P
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- postx:
+    id: 2032456248143302710
+    account: coco_102
+    label: Tonight
+    published-date: 2026-03-13
+    text: |-
+      今夜25:09~「バズリズム02」出演します！！
+      実は私昔からバカリズムさんの大大大ファン(もちろんドラマ過去作全部観てます)なので、今回お話できて本当に嬉しかったです🥲🌼
+      
+      そして対バンライブではGet Overを披露しました🔥
+      NEK!のライブの雰囲気を感じてもらえたら嬉しいです！お見逃しなく！！
+    translation: |-
+      I'll be appearing on "Buzz Rhythm 02" tonight at 25:09~!!
+      Actually, I've been a huge, huge, huge fan of Bakarhythm for a long time (of course, I've seen all his past dramas), so I was truly happy to get to talk with him this time🥲🌼
+      
+      And we performed "Get Over" during the split-bill live performance🔥
+      I'd be happy if you could get a feel for the atmosphere of a NEK! live show! Don't miss it!!
+    image:
+    - HDS8LpAbYAAqruK
+    part-of:
+      postx: 2032385940434612429
+
 - postximage:
     post: 2030183993178775754
     id: HCypgfAbUAAbpRI
@@ -222,6 +301,31 @@
     part-of:
       postx: 2030199626108952671
 
+- postximage:
+    post: 2032385940434612429
+    id: HDR8NeibIAA-V8P
+    label: Backstage
+    published-date: 2026-03-13
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      postx: 2032385940434612429
+
+- postximage:
+    post: 2032456248143302710
+    id: HDS8LpAbYAAqruK
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-13
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      postx: 2032456248143302710
+
 - postxvideo:
     post: 2031671565335794018
     id: 01
@@ -250,6 +354,23 @@
         id: buzzrhythm02
 
 - webimage:
+    domain: natalie.mu
+    page: 663907
+    id: backstage
+    label: Backstage
+    published-date: 2026-03-13
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0313/buzzrhythm_NEKI.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/663907/2823428'
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 663907
+
+- webimage:
     domain: ntv.co.jp
     page: buzzrhythm
     id: logo
@@ -261,6 +382,19 @@
       webpage:
         domain: ntv.co.jp
         id: buzzrhythm
+
+- webpage:
+    domain: natalie.mu
+    id: 663907
+    label: Preview article
+    published-date: 2026-03-13
+    url: 'https://natalie.mu/music/news/663907'
+    image:
+    - backstage
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
 
 - webpage:
     domain: ntv.co.jp

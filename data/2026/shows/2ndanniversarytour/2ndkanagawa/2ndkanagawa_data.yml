@@ -16,6 +16,12 @@
                 - youtubeshort: e98GTXBqxjw
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 2032380958599786640
+                    video: 01
+                - postxvideo:
+                    post: 2032069800881787275
+                    video: 01
                 - postinstagramvideo:
                     post: DVigKfVkQHV
                     video: 1
@@ -888,6 +894,54 @@
         year: 2026
         id: 2ndkanagawa
 
+- postx:
+    id: 2032069800881787275
+    account: coco_102
+    label: moon on stage
+    published-date: 2026-03-13
+    text: |-
+      moonのラスサビ前ってこんなことやってますのよ
+      ⁡
+      そこまで激しいことはやってないけど割と印象的なフィル！手足のコンビネーションと後半の休符が心地良き😌
+      
+      #NEKI
+    translation: |-
+      This is what I'm doing before the final chorus of moon.
+      ⁡
+      I'm not doing anything too intense, but it's a pretty memorable fill! The hand-foot coordination and the rests in the second half feel so good 😌
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2032069800881787275
+        video: 01
+
+- postx:
+    id: 2032380958599786640
+    account: coco_102
+    label: Reigen Girl on stage
+    published-date: 2026-03-13
+    text: |-
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      全国ツアー埼玉公演、明後日開催です！
+      3日目もたくさん声聞かせてください✌🏻🩵
+    translation: |-
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      The Saitama performance of our national tour is the day after tomorrow!
+      Please let me hear your voices a lot on day 3 too✌🏻🩵
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2032380958599786640
+        video: 01
+    reference:
+    - postx: 2032356445552066993
+
 - postximage:
     post: 2026925741292839329
     id: HCEVEmUaMA4kqcR
@@ -1075,6 +1129,40 @@
         id: 2ndkanagawa
     part-of:
       postx: 2027712474494210268
+
+- postxvideo:
+    post: 2032069800881787275
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-12
+    cover: 2032069733005344771/img/JhwouQGEUT6E64Jt.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    - song: moon
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postxvideo:
+    post: 2032380958599786640
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-13
+    cover: 2032380877049860097/img/G5DhmXhYe6bXYMoT.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    - song: reigengirl
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
 
 - update:
     show:

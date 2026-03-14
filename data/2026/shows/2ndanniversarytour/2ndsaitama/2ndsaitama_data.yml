@@ -1,0 +1,61 @@
+- postx:
+    id: 2032356445552066993
+    account: nekiband_jp
+    label: This weekend
+    published-date: 2026-03-13
+    text: |-
+      💫🗾全国ツアー🗾💫
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      3/15(日) DAY3
+      ＠埼玉・HEAVEN’S ROCK さいたま新都心 VJ-3
+      
+      いよいよ今週末開催❤️‍🔥
+      ご来場お待ちしております⚡️
+      
+      ▼チケット受付中🎫
+      https://l-tike.com/nekiband/
+      
+      ▼ライブ詳細📝
+      https://note.com/nekiband_jp/n/n96aed42259c3
+      
+      #NEKI
+    translation: |-
+      💫🗾National Tour🗾💫
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      3/15(Sun) DAY3
+      ＠Saitama・HEAVEN’S ROCK Saitama Shintoshin VJ-3
+      
+      Finally happening this weekend❤️‍🔥
+      We're looking forward to seeing you there⚡️
+      
+      ▼Tickets now available🎫
+      https://l-tike.com/nekiband/
+      
+      ▼Live details📝
+      https://note.com/nekiband_jp/n/n96aed42259c3
+      
+      #NEKI
+    image:
+    - HDRhJ3PbsAA7VeC
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+
+- postximage:
+    post: 2032356445552066993
+    id: HDRhJ3PbsAA7VeC
+    label: Poster
+    published-date: 2026-03-13
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postx: 2032356445552066993
+

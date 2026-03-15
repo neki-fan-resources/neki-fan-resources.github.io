@@ -11,9 +11,6 @@
             subsections:
             - multimediasubsection:
                 multimedia:
-                - youtubevideo: cWJis9wJU4U
-            - multimediasubsection:
-                multimedia:
                 - postxvideo:
                     post: 2031671565335794018
                     video: 01
@@ -36,6 +33,19 @@
                 - postximage:
                     post: 2032456248143302710
                     image: HDS8LpAbYAAqruK
+                - postximage:
+                    post: 2032649669214642416
+                    image: HDVsGbRaMAABdRy
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2032616943723929854
+                    image: HDVOU5zbMAAabg9
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2032637146386018628
+                    image: HDVgtWqaMAA3PnQ
                 - postximage:
                     post: 2030199626108952671
                     image: HCy3zFTbYAEuytN
@@ -264,6 +274,90 @@
     part-of:
       postx: 2032385940434612429
 
+- postx:
+    id: 2032616943723929854
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-03-14
+    text: |-
+      改めてバズリズムありがとうございました！
+      録画とかTVerでこれから見てくれる方も、
+      あとは地域によっては放送日も違うので、
+      引き続き楽しんでいただければ嬉しいです🌟
+      
+      こうした素敵な機会を頂けたのは、みんなのおかげ！
+      ありがとー！🥹
+    translation: |-
+      Thank you again for Buzz Rhythm!
+      For those who will be watching the recording or on TVer,
+      and since the broadcast date varies by region,
+      I hope you continue to enjoy it🌟
+      
+      It's all thanks to everyone that we had such a wonderful opportunity!
+      Thank you!🥹
+    image:
+    - HDVOU5zbMAAabg9
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- postx:
+    id: 2032637146386018628
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-03-14
+    text: |-
+      日本テレビ『バズリズム02』
+      ご視聴いただきありがとうございました。
+      
+      トークやライブまでさせていただき本当に貴重な時間でした。
+      
+      初めてNEK!を知ってくれた方も、
+      これをきっかけに楽曲やライブをチェックしてもらえたら嬉しいです☆
+      
+      これからもNEK!をよろしくお願いします✌︎
+    translation: |-
+      Nippon TV "Buzz Rhythm 02"
+      Thank you for watching.
+      
+      Getting to do the talk and the live performance was truly a precious time.
+      
+      For those who just learned about NEK! for the first time,
+      I'd be happy if this leads you to check out our music and live shows☆
+      
+      Please continue to support NEK!✌︎
+    image:
+    - HDVgtWqaMAA3PnQ
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- postx:
+    id: 2032649669214642416
+    account: coco_102
+    label: Thank you
+    published-date: 2026-03-14
+    text: |-
+      バズリズムご視聴ありがとうございました！！
+      トークコーナー、内容知ってるはずなのに観ていて素で笑っちゃったなあ😂
+      対バンライブはファンの皆さんに支えられていつも通りアツく楽しく演奏できました😌🔥
+      また呼んでいただけるようにこれからも頑張ります！
+      ぜひTVerで何度でもお楽しみください！！
+    translation: |-
+      Thank you for watching Buzz Rhythm!!
+      Even though I knew the content, I ended up genuinely laughing while watching the talk segment😂
+      The joint live was just as hot and fun as always, supported by all the fans😌🔥
+      We'll keep doing our best so we can be invited back again!
+      Please enjoy it as many times as you like on TVer!!
+    image:
+    - HDVsGbRaMAABdRy
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
 - postximage:
     post: 2030183993178775754
     id: HCypgfAbUAAbpRI
@@ -325,6 +419,45 @@
         id: buzzrhythm02
     part-of:
       postx: 2032456248143302710
+
+- postximage:
+    post: 2032616943723929854
+    id: HDVOU5zbMAAabg9
+    label: Backstage
+    info: Kanade
+    published-date: 2026-03-14
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      postx: 2032616943723929854
+
+- postximage:
+    post: 2032637146386018628
+    id: HDVgtWqaMAA3PnQ
+    label: Backstage
+    info: Hika
+    published-date: 2026-03-14
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      postx: 2032637146386018628
+
+- postximage:
+    post: 2032649669214642416
+    id: HDVsGbRaMAABdRy
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-14
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    part-of:
+      postx: 2032649669214642416
 
 - postxvideo:
     post: 2031671565335794018
@@ -413,20 +546,6 @@
     id: bxBrDMqyEQU
     label: Video comment
     info: English-subtitled
-    published-date: 2026-03-11
-    context:
-    - media:
-        year: 2026
-        id: buzzrhythm02
-    part-of:
-      media:
-        year: 2026
-        id: buzzrhythm02
-
-- youtubevideo:
-    id: cWJis9wJU4U
-    label: Preview
-    info: (only available in Japan)
     published-date: 2026-03-11
     context:
     - media:

@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmfradiogroove
+  cover-image:
+    webimage:
+      domain: fmf.co.jp
+      page: radiogroove
+      id: flyer
+  radio: ふくしまFM
+  show: RADIO GROOVE
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-03-19
+  host: 三吉 梨香 (Rika Miyoshi)
+  program: 'https://www.fmf.co.jp/radio/radio_groove/'
+  part-of:
+    group:
+      id: media
+      group: 2026

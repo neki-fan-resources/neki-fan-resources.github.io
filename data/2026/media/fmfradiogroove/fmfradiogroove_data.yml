@@ -1,0 +1,26 @@
+- webimage:
+    domain: fmf.co.jp
+    page: radiogroove
+    id: flyer
+    label: Flyer
+    published-date: 2026-03-17
+    url: 'https://img.retsta.jp/fmf/front/radio/program/radiogroove/260101RG_kv.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmf.co.jp
+        id: radiogroove
+
+- webpage:
+    domain: fmf.co.jp
+    id: radiogroove
+    label: Show page
+    published-date: 2026-03-17
+    url: 'https://www.fmf.co.jp/radio/radio_groove/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: fmfradiogroove
+

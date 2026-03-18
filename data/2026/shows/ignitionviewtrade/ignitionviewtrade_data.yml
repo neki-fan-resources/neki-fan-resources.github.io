@@ -1,0 +1,63 @@
+- postx:
+    id: 2033876722282848752
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-03-17
+    text: |-
+      💥情報解禁💥
+      
+      5/6(水祝)
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ 下北沢CLUB251
+      
+      NEK!の出演が決定🔥
+      
+      ＜出演＞
+      Viewtrade
+      NEK!
+      
+      🎫チケットご予約：
+      3/22(日)12:00〜▼
+       https://livepocket.jp/e/251260506
+      
+      #NEKI
+    translation: |-
+      💥Info Release💥
+      
+      5/6 (Wed/Holiday)
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ Shimokitazawa CLUB251
+      
+      NEK! appearance confirmed🔥
+      
+      <Lineup>
+      Viewtrade
+      NEK!
+      
+      🎫Ticket Reservations:
+      From 3/22(Sun) 12:00〜▼
+      https://livepocket.jp/e/251260506
+      
+      #NEKI
+    image:
+    - HDnIGTVaoAAFcaN
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+
+- postximage:
+    post: 2033876722282848752
+    id: HDnIGTVaoAAFcaN
+    label: Flyer
+    published-date: 2026-03-17
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postx: 2033876722282848752
+

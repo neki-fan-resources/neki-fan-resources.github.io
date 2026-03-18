@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: datefmsoundgenic2
+  cover-image:
+    webimage:
+      domain: radiko.jp
+      page: 10002278
+      id: flyer
+  radio: Date fm
+  show: SOUND GENIC
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-03-19
+  host: Naoki Chiba
+  program: 'https://datefm.jp/pgm/genic/'
+  part-of:
+    group:
+      id: media
+      group: 2026

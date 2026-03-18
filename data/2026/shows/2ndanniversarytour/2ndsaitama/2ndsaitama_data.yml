@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: zs821mo66Gg
                 - youtubeshort: pFZnCiSlXbw
             - multimediasubsection:
                 multimedia:
@@ -30,11 +31,19 @@
                 - postximage:
                     post: 2033144435874361369
                     image: HDcuFeUaEAAZpYo
+                - postinstagramimage:
+                    post: DV--P-HkgMG
+                    image: 2
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 2033160382878240978
                     image: HDc8l0waEAAZcKk
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DV8cFM-Gm_X
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -47,9 +56,24 @@
                     image: HDc1-N0bQAAV-aU
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DV8Iec0ErRA
+                    image: 1
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2033177815030673478
                     image: HDdMXbIbMAA2C0U
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DV--P-HkgMG
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2033488895363760561
+                    image: HDhnVs1bsAA7EVm
         - basicsection:
             label: At the event
             subsections:
@@ -61,6 +85,81 @@
                 - postximage:
                     post: 2033144435874361369
                     image: HDcuFeLawAA0DjG
+                - postinstagramimage:
+                    post: DV--P-HkgMG
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DV8cFM-Gm_X
+                    image: 4
+                - postinstagramimage:
+                    post: DV8cFM-Gm_X
+                    image: 5
+                - postinstagramimage:
+                    post: DV8Ewz0D0v5
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DV8cFM-Gm_X
+                    image: 6
+                - postinstagramimage:
+                    post: DV8HapVEiEy
+                    image: 1
+                - postinstagramimage:
+                    post: DV8VlW3EgX9
+                    image: 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+
+- postinstagram:
+    id: DV--P-HkgMG
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2026-03-17
+    text: |-
+      .
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      ツアー3本目！ @ 埼玉・HEAVEN’S ROCK さいたま新都心 VJ-3
+      
+      かき回しから始まった3本目！
+      
+      最初の歓声から本当にすごくて、
+      めちゃくちゃ嬉しかったよー😭❤️‍🔥
+      
+      回を重ねるごとに、ファンのみんなの熱もどんどん増してる気がしてて、
+      その熱にめちゃめちゃパワーもらってます💪🏻🔥
+      本当にありがとう！！！
+      
+      次は仙台！！！
+      この熱のまま、東北へぶちかましていこうぜ！！🔥
+      
+      #neki #girlsband #guitarist
+    translation: |-
+      .
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      3rd tour stop! @ Saitama・HEAVEN’S ROCK Saitama Shintoshin VJ-3
+      
+      The 3rd show started right off with a kakimashi!
+      
+      The initial cheers were truly incredible,
+      and it made me so incredibly happy—😭❤️‍🔥
+      
+      With every show, I feel like the heat from all the fans is just increasing,
+      and I'm getting so much power from that heat💪🏻🔥
+      Thank you so much!!!
+      
+      Next is Sendai!!!
+      With this same heat, let's go kill it in Tohoku!! 🔥
+      
+      #neki #girlsband #guitarist
+    image:
+    - 1
+    - 2
+    - 3
     part-of:
       show:
         year: 2026
@@ -111,6 +210,218 @@
         post: 2033144435874361369
         image: HDcuFeLawAA0DjG
 
+- postinstagram:
+    id: DV8Ewz0D0v5
+    account: cure_bass_baka
+    label: At the event
+    published-date: 2026-03-16
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 埼玉・HEAVEN'S ROCK さいたま新都心 VJ-3
+      ⁡
+      リハ前と靴下とあずきちゃん。 
+      ⁡
+       #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ Saitama・HEAVEN'S ROCK Saitama Shintoshin VJ-3
+      ⁡
+      Before rehearsal, socks, and Azuki-chan. 
+      ⁡
+       #NEKI
+    image:
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+    reference:
+    - postximage:
+        post: 2033488895363760561
+        image: HDhnVs1bsAA7EVm
+    - postximage:
+        post: 2033488895363760561
+        image: HDhnVs1acAAwvk4
+
+- postinstagram:
+    id: DV8HapVEiEy
+    account: 46_hikaa
+    label: At the event
+    published-date: 2026-03-16
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      2026.03.15(Sun)
+      
+      @ 埼玉・HEAVEN'S ROCK さいたま新都心 VJ-3
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      2026.03.15(Sun)
+      
+      @ Saitama・HEAVEN'S ROCK Saitama Shintoshin VJ-3
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+
+- postinstagram:
+    id: DV8Iec0ErRA
+    account: 46_hikaa
+    label: Must have
+    published-date: 2026-03-16
+    text: |-
+      Hikaの必需品でござるっ
+    translation: |-
+      Hika's must-have items.
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+
+- postinstagram:
+    id: DV8VlW3EgX9
+    account: 46_hikaa
+    label: On stage
+    published-date: 2026-03-16
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      2026.03.15(Sun)
+      
+      @ 埼玉・HEAVEN'S ROCK さいたま新都心 VJ-3
+      
+       #neki
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      2026.03.15(Sun)
+      
+      @ Saitama・HEAVEN'S ROCK Saitama Shintoshin VJ-3
+      
+       #neki
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+
+- postinstagram:
+    id: DV8cFM-Gm_X
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-03-16
+    text: |-
+      2026.03.15
+      ⁡
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      ⁡
+      3日目HEAVEN'S ROCK さいたま新都心 VJ-3！
+      お越しくださった皆さま本当にありがとうございました🖤
+      ⁡
+      埼玉でライブをするのは今回が初めてでしたが、皆さんのおかげで安定の激アツライブができました！！ツアーが始まってまだ3日目ですが、回を増すごとにフロアと私達の一体感が高まってきているなと感じます！
+      ⁡
+      一緒に歌うところは全力で歌ってくれて、しっとりしたバラードは真剣に聴いてくれて、曲によってジャンプしたり拳あげたり手拍子したり、本当にNEK!とファンの皆さんは一心同体だなってライブやりながら感じています🤝🏻🔥
+      
+      いつも私たちを支えてくれている皆さんに最高のパフォーマンスと音で恩返しできるように、そして、今よりもっと成長した姿で埼玉に戻って来れるようにこれからも精進していきます！！
+      ⁡
+      次回は3/20(金)宮城ROCKATERIA🤟🏻⚡️
+      久々の東北ライブです！楽しんでいきましょ〜〜〜！！
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.03.15
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      Day 3 at HEAVEN'S ROCK Saitama Shintoshin VJ-3!
+      Thank you so much to everyone who came out🖤
+      
+      This was our first time playing a show in Saitama, but thanks to all of you, we had a consistently fire live set!! It’s only the third day since the tour started, but I feel like the unity between the floor and us is growing stronger with every show!
+      
+      I really feel like NEK! and the fans are one when I'm performing—seeing you sing your hearts out during the sing-alongs, listening intently to the mellow ballads, and jumping, raising fists, or clapping depending on the song🤝🏻🔥
+      
+      We’ll keep working hard so we can give back to everyone who always supports us with the best performances and sound, and so we can return to Saitama having grown even more than we are now!!
+      
+      Next up is 3/20 (Fri) Miyagi ROCKATERIA🤟🏻⚡️
+      It's been a while since our last Tohoku show! Let's have a blast~~~!!
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 4
+    - 5
+    - 6
+    todo: to process
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+    reference:
+    - postximage:
+        post: 2033144435874361369
+        image: HDcuFeLawAA0DjG
+    - postximage:
+        post: 2033161864142844006
+        image: HDc976AaAAAvZyT
+
+- postinstagram:
+    id: DV_PbcdkVp4
+    account: cocoro_drum
+    label: Loner on stage
+    published-date: 2026-03-17
+    text: |-
+      Loner🐺🤍
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    part-of:
+      postxvideo:
+        post: 2033177815030673478
+        video: 01
+
+- postinstagramimage:
+    post: DV--P-HkgMG
+    id: 1
+    label: Backstage
+    info: Natsu
+    published-date: 2026-03-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV--P-HkgMG
+
+- postinstagramimage:
+    post: DV--P-HkgMG
+    id: 2
+    label: On stage
+    published-date: 2026-03-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV--P-HkgMG
+
+- postinstagramimage:
+    post: DV--P-HkgMG
+    id: 3
+    label: Band
+    published-date: 2026-03-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV--P-HkgMG
+
 - postinstagramimage:
     post: DV58DfzEY7Z
     id: 1
@@ -122,6 +433,107 @@
         id: 2ndsaitama
     part-of:
       postinstagram: DV58DfzEY7Z
+
+- postinstagramimage:
+    post: DV8Ewz0D0v5
+    id: 3
+    label: Azuki-chan
+    info: Kanade
+    published-date: 2026-03-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV8Ewz0D0v5
+
+- postinstagramimage:
+    post: DV8HapVEiEy
+    id: 1
+    label: Acoustic
+    info: Hika
+    published-date: 2026-03-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV8HapVEiEy
+
+- postinstagramimage:
+    post: DV8Iec0ErRA
+    id: 1
+    label: Backstage
+    info: Hika
+    published-date: 2026-03-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV8Iec0ErRA
+
+- postinstagramimage:
+    post: DV8VlW3EgX9
+    id: 1
+    label: On stage
+    info: Hika
+    published-date: 2026-03-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV8VlW3EgX9
+
+- postinstagramimage:
+    post: DV8cFM-Gm_X
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV8cFM-Gm_X
+
+- postinstagramimage:
+    post: DV8cFM-Gm_X
+    id: 4
+    label: Drum set
+    published-date: 2026-03-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV8cFM-Gm_X
+
+- postinstagramimage:
+    post: DV8cFM-Gm_X
+    id: 5
+    label: Drum set
+    published-date: 2026-03-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV8cFM-Gm_X
+
+- postinstagramimage:
+    post: DV8cFM-Gm_X
+    id: 6
+    label: On stage
+    published-date: 2026-03-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postinstagram: DV8cFM-Gm_X
 
 - postx:
     id: 2032356445552066993
@@ -484,6 +896,20 @@
     - show:
         year: 2026
         id: 2ndsaitama
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+
+- youtubeshort:
+    id: zs821mo66Gg
+    label: Digest movie
+    published-date: 2026-03-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    - song: frogflog
     part-of:
       show:
         year: 2026

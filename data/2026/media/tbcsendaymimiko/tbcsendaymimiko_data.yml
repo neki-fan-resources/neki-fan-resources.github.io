@@ -1,0 +1,26 @@
+- webimage:
+    domain: tbc-sendai.co.jp
+    page: rkibun
+    id: flyer
+    label: Flyer
+    published-date: 2026-03-17
+    url: 'https://www.tbc-sendai.co.jp/wp-content/uploads/2025/09/mimikoi2510.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: tbc-sendai.co.jp
+        id: rkibun
+
+- webpage:
+    domain: tbc-sendai.co.jp
+    id: rkibun
+    label: Show page
+    published-date: 2026-03-17
+    url: 'https://www.tbc-sendai.co.jp/rkibun/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: tbcsendaymimiko
+

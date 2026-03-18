@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: tbcsendaymimiko
+  cover-image:
+    webimage:
+      domain: tbc-sendai.co.jp
+      page: rkibun
+      id: flyer
+  radio: TBCラジオ
+  show: GoGoはみみこいラジオな気分
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-03-19
+  host: 佐々木 淳吾, 上中 咲葵
+  program: 'https://www.tbc-sendai.co.jp/rkibun/'
+  part-of:
+    group:
+      id: media
+      group: 2026

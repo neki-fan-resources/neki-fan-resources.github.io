@@ -43,6 +43,9 @@ contentpage:
       id: gravityvol6
   - show:
       year: 2026
+      id: ignitionviewtrade
+  - show:
+      year: 2026
       id: 2ndtokyo2
   - show:
       year: 2026
@@ -77,6 +80,15 @@ contentpage:
   - show:
       year: 2026
       id: 2ndmiyagi
+  - media:
+      year: 2026
+      id: datefmsoundgenic2
+  - media:
+      year: 2026
+      id: fmfradiogroove
+  - media:
+      year: 2026
+      id: tbcsendaymimiko
   - show:
       year: 2026
       id: 2ndsaitama

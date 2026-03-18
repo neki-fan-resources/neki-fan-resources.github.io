@@ -22,6 +22,25 @@
         id: artist
         group: kanade
 
+- postx:
+    id: 2033488895363760561
+    account: cure_bass_baka
+    label: Weird socks
+    published-date: 2026-03-16
+    text: |-
+      靴下って何を履いてもバレないと思ってるから
+      変なのばっか持ってる🧦
+    translation: |-
+      Since I think no one will notice no matter what socks I wear,
+      I only have weird ones🧦
+    image:
+    - HDhnVs1acAAwvk4
+    - HDhnVs1bsAA7EVm
+    part-of:
+      group:
+        id: artist
+        group: kanade
+
 - postximage:
     post: 1978027375901188409
     id: G3NdZ3lbYAAYK8P
@@ -33,4 +52,26 @@
         id: 1stzepponeman
     part-of:
       postx: 1978027375901188409
+
+- postximage:
+    post: 2033488895363760561
+    id: HDhnVs1acAAwvk4
+    label: Backstage
+    info: Kanade, 2nd anniv tour Saitama
+    published-date: 2026-03-16
+    part-of:
+      postx: 2033488895363760561
+
+- postximage:
+    post: 2033488895363760561
+    id: HDhnVs1bsAA7EVm
+    label: Backstage
+    info: Kanade
+    published-date: 2026-03-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndsaitama
+    part-of:
+      postx: 2033488895363760561
 

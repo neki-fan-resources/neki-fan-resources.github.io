@@ -11,7 +11,7 @@
             subsections:
             - textsubsection:
                 multimedia:
-                  webimage:
+                  webvideo:
                     domain: drive.google.com
                     page: nekidist
                     id: buzzrhythm02-2026-talksegment
@@ -511,26 +511,6 @@
         id: buzzrhythm02
 
 - webimage:
-    domain: drive.google.com
-    page: nekidist
-    id: buzzrhythm02-2026-talksegment
-    label: Talk segment
-    info: English-subtitled
-    published-date: 2026-03-18
-    url: 'https://example.com/'
-    page-url: 'https://drive.google.com/file/d/1X_ToZ9hJmYzlNaEmvdz7zcVc2b_ThXVh/view?usp=drive_link'
-    local-copy: true
-    context:
-    - media:
-        year: 2026
-        id: buzzrhythm02
-    todo: switch to webvideo
-    part-of:
-      media:
-        year: 2026
-        id: buzzrhythm02
-
-- webimage:
     domain: natalie.mu
     page: 663907
     id: backstage
@@ -581,6 +561,23 @@
     url: 'https://www.ntv.co.jp/buzzrhythm/'
     image:
     - logo
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- webvideo:
+    domain: drive.google.com
+    page: nekidist
+    id: buzzrhythm02-2026-talksegment
+    label: Talk segment
+    info: English-subtitled
+    published-date: 2026-03-18
+    url: 'https://drive.google.com/file/d/1X_ToZ9hJmYzlNaEmvdz7zcVc2b_ThXVh/view?usp=drive_link'
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
     part-of:
       media:
         year: 2026

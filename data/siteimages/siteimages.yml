@@ -23,3 +23,14 @@
     part-of:
       group: siteimages
 
+- webpage:
+    domain: drive.google.com
+    id: nekidist
+    label: Distribution on Google drive
+    published-date: 2026-03-18
+    url: 'https://drive.google.com/'
+    image:
+    - buzzrhythm02-2026-talksegment
+    part-of:
+      group: siteimages
+

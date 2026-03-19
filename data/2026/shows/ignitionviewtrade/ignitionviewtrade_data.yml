@@ -61,3 +61,15 @@
     part-of:
       postx: 2033876722282848752
 
+- update:
+    show:
+      year: 2026
+      id: ignitionviewtrade
+    date: 2026-03-18
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+

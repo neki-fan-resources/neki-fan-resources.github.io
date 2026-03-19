@@ -888,6 +888,30 @@
         year: 2026
         id: 2ndsaitama
 
+- update:
+    show:
+      year: 2026
+      id: 2ndsaitama
+    date: 2026-03-16
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+
+- update:
+    show:
+      year: 2026
+      id: 2ndsaitama
+    date: 2026-03-18
+    text:
+    - More pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndsaitama
+
 - youtubeshort:
     id: pFZnCiSlXbw
     label: Getting off stage

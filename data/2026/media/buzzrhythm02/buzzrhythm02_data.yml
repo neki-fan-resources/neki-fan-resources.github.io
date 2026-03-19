@@ -9,7 +9,19 @@
         sections:
         - basicsection:
             subsections:
+            - textsubsection:
+                multimedia:
+                  webimage:
+                    domain: drive.google.com
+                    page: nekidist
+                    id: buzzrhythm02-2026-talksegment
+                lines:
+                - line:
+                  - text: In their first-ever TV talk segment, NEK! sits down with Bakarhythm to break down their rapid rise! Using the key "Buzz Points" of being "Cute girls who are great at their instruments" and playing "Slang Rock," the band discusses Hika's bold scouting strategy, their early days, and the meaning behind their music.
+        - basicsection:
+            subsections:
             - multimediasubsection:
+                label: ' '
                 multimedia:
                 - postxvideo:
                     post: 2031671565335794018
@@ -481,6 +493,38 @@
     date: 2026-03-07
     text:
     - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- update:
+    media:
+      year: 2026
+      id: buzzrhythm02
+    date: 2026-03-19
+    text:
+    - Added the English-subtitle video of the talk segment
+    part-of:
+      media:
+        year: 2026
+        id: buzzrhythm02
+
+- webimage:
+    domain: drive.google.com
+    page: nekidist
+    id: buzzrhythm02-2026-talksegment
+    label: Talk segment
+    info: English-subtitled
+    published-date: 2026-03-18
+    url: 'https://example.com/'
+    page-url: 'https://drive.google.com/file/d/1X_ToZ9hJmYzlNaEmvdz7zcVc2b_ThXVh/view?usp=drive_link'
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: buzzrhythm02
+    todo: switch to webvideo
     part-of:
       media:
         year: 2026

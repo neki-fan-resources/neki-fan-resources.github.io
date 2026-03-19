@@ -8,6 +8,7 @@
         label: main
         sections:
         - basicsection:
+            label: Talk segment
             subsections:
             - textsubsection:
                 multimedia:
@@ -21,7 +22,7 @@
         - basicsection:
             subsections:
             - multimediasubsection:
-                label: ' '
+                label: Additional
                 multimedia:
                 - postxvideo:
                     post: 2031671565335794018

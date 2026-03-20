@@ -1,0 +1,157 @@
+- display:
+    media:
+      year: 2026
+      id: gretschpart1
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034781968236519743
+                    image: HDwyTQZa8AA-fhj
+                - webimage:
+                    domain: gretschguitars.jp
+                    page: blog1212
+                    id: guitar2
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: gretschguitars.jp
+                    page: blog1212
+                    id: guitar3
+    part-of:
+      media:
+        year: 2026
+        id: gretschpart1
+
+- postx:
+    id: 2034781968236519743
+    account: GretschJP
+    label: Announcement
+    published-date: 2026-03-20
+    text: |-
+      結成からわずか2年で、今年すでにメジャーデビューすることが決まっている人気上昇中のガールズロックバンド、NEK!からHikaとNatsuがグレッチのスペシャルインタビューに登場🎸
+      
+      本日インタビュー前編が公開！
+      
+      詳しく読む⏩https://gretschguitars.jp/blog/2026/3/nek-special-interview/1212/
+      
+      @nekiband_jp
+       
+      @46_hikaa
+       
+      @natsu08_guitar
+    translation: |-
+      Hika and Natsu from the rising girls rock band NEK!, who have already decided to make their major debut this year just two years after forming, appear in a Gretsch special interview🎸
+      
+      The first part of the interview is released today!
+      
+      Read more⏩https://gretschguitars.jp/blog/2026/3/nek-special-interview/1212/
+      
+      @nekiband_jp
+       
+      @46_hikaa
+       
+      @natsu08_guitar
+    image:
+    - HDwyTQZa8AA-fhj
+    part-of:
+      media:
+        year: 2026
+        id: gretschpart1
+
+- postximage:
+    post: 2034781968236519743
+    id: HDwyTQZa8AA-fhj
+    label: With the guitars
+    info: Hika, Natsu
+    published-date: 2026-03-20
+    context:
+    - media:
+        year: 2026
+        id: gretschpart1
+    part-of:
+      postx: 2034781968236519743
+
+- update:
+    media:
+      year: 2026
+      id: gretschpart1
+    date: 2026-03-20
+    text:
+    - Added the interview
+    part-of:
+      media:
+        year: 2026
+        id: gretschpart1
+
+- webimage:
+    domain: gretschguitars.jp
+    page: blog1212
+    id: guitar2
+    label: With the guitars
+    info: Hika, Natsu
+    published-date: 2026-03-20
+    url: 'https://fma-gretschguitars-media.s3-ap-southeast-2.amazonaws.com/media/pageimages/blog/nek-special-interview-b.jpg'
+    context:
+    - media:
+        year: 2026
+        id: gretschpart1
+    part-of:
+      webpage:
+        domain: gretschguitars.jp
+        id: blog1212
+
+- webimage:
+    domain: gretschguitars.jp
+    page: blog1212
+    id: guitar3
+    label: The guitars
+    published-date: 2026-03-20
+    url: 'https://fma-gretschguitars-media.s3-ap-southeast-2.amazonaws.com/media/pageimages/blog/nek-special-interview-e.jpg'
+    context:
+    - media:
+        year: 2026
+        id: gretschpart1
+    part-of:
+      webpage:
+        domain: gretschguitars.jp
+        id: blog1212
+
+- webimage:
+    domain: gretschguitars.jp
+    page: blog1212
+    id: logo
+    label: Logo
+    published-date: 2026-03-20
+    url: 'https://fma-gretschguitars-media.s3-ap-southeast-2.amazonaws.com/static2/gretsch/img/gretsch-logo.e15d07be3958.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: gretschguitars.jp
+        id: blog1212
+
+- webpage:
+    domain: gretschguitars.jp
+    id: blog1212
+    label: Interview
+    published-date: 2026-03-20
+    url: 'https://www.gretschguitars.jp/blog/2026/3/nek-special-interview/1212/'
+    image:
+    - logo
+    - guitar2
+    - guitar3
+    part-of:
+      media:
+        year: 2026
+        id: gretschpart1
+    reference:
+    - postximage:
+        post: 2034781968236519743
+        image: HDwyTQZa8AA-fhj
+

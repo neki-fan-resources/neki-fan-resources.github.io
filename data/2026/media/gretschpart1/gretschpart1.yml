@@ -1,0 +1,23 @@
+mediawritten:
+  year: 2026
+  id: gretschpart1
+  cover-image:
+    webimage:
+      domain: gretschguitars.jp
+      page: blog1212
+      id: logo
+  publication: Gretsch
+  issue: NEK! special interview -part 1-
+  designation: Interview
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-03-20
+  article-page: 'https://www.gretschguitars.jp/blog/2026/3/nek-special-interview/1212/'
+  todo: to translate
+  part-of:
+    group:
+      id: media
+      group: 2026
+  description:
+  - 'Hika and Natsu speak about their beginning playing the guitar. Then they give their impressions on the Gretsch guitar they tried. '

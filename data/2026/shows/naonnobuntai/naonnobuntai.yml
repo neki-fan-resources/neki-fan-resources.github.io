@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: naonnobuntai
+  cover-image:
+    postximage:
+      post: 2034827695041966204
+      image: HD0o-YibcAAb_9C
+  fullname: NAONのBUNTAI 2026
+  date: 2026-04-29
+  categories:
+  - mainshow
+  venue: 横浜BUNTAI, Yokohama, Japan
+  event-page: 'https://naonnoyaon.net/'
+  part-of:
+    group:
+      id: shows
+      group: 2026

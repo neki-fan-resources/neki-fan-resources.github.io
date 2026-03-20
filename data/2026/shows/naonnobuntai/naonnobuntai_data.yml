@@ -1,0 +1,65 @@
+- postx:
+    id: 2034827695041966204
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-03-20
+    text: |-
+      💫⚡️情報解禁⚡️💫
+      
+      4/29(水祝)
+      SHOW-YA PRODUCE
+      『NAONのBUNTAI 2026』
+      @ 横浜BUNTAI
+      
+      NEK!の出演が決定いたしました🔥
+      
+      ▼e+にて最終先行抽選受付スタート！
+      3/20(金)12:00〜3/24(火)23:59
+      🎫https://eplus.jp/naonnobuntai/
+      
+      #NAONのBUNTAI
+      #NEKI
+    translation: |-
+      💫⚡️Information Unveiled⚡️💫
+      
+      4/29 (Wed/Holiday)
+      SHOW-YA PRODUCE
+      "NAON no BUNTAI 2026"
+      @ Yokohama BUNTAI
+      
+      NEK!'s appearance has been confirmed🔥
+      
+      ▼Final lottery pre-sale starts now on e+!
+      3/20 (Fri) 12:00 〜 3/24 (Tue) 23:59
+      🎫https://eplus.jp/naonnobuntai/
+      
+      #NAONnoBUNTAI
+      #NEKI
+    image:
+    - HD0o-YibcAAb_9C
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- postximage:
+    post: 2034827695041966204
+    id: HD0o-YibcAAb_9C
+    label: Poster
+    published-date: 2026-03-20
+    local-copy: true
+    part-of:
+      postx: 2034827695041966204
+
+- update:
+    show:
+      year: 2026
+      id: naonnobuntai
+    date: 2026-03-20
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+

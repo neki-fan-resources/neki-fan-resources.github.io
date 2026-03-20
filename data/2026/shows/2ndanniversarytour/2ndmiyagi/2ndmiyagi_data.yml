@@ -1,0 +1,144 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndmiyagi
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034628858327294452
+                    image: HDx0KWNbAAAsHDy
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- postx:
+    id: 2034628858327294452
+    account: cure_bass_baka
+    label: Rehearsal
+    published-date: 2026-03-19
+    text: |-
+      リハして美味しいもの食べて、仙台前乗り楽しいー！！
+      そして美味しいもの食べてる時間が本当に大好き。
+      今日は気にしないで食べて大丈夫な日！！
+      明日ライブだから実質カロリー0だよねセーフ！！
+    translation: |-
+      Did rehearsal, ate some delicious food, pre-arrival in Sendai is so fun!!
+      And I really love the time spent eating delicious things.
+      Today is a day where it's okay to eat without worrying!!
+      Since there's a live tomorrow, it's effectively 0 calories, so I'm safe!!
+    image:
+    - HDx0KWFaYAAY5Kc
+    - HDx0KWNbAAAsHDy
+    - HDx0KWPbcAAedqf
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- postx:
+    id: 2034835832927059996
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-03-20
+    text: |-
+      ❤️‍🔥🗾本日開催🗾❤️‍🔥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍宮城・仙台ROCKATERIA
+      ⏰16:30 開場 / 17:00 開演
+      
+      ★グッズ先行販売は14:00から開始！
+      ★当日券あり🎟️
+      
+      ツアー4本目宮城公演❗️
+      ご来場おまちしております🔥
+      
+      🔗https://note.com/nekiband_jp/n/nb8b41c2e9b50
+      
+      #NEKI
+    translation: |-
+      ❤️‍🔥🗾Held Today🗾❤️‍🔥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍Miyagi・Sendai ROCKATERIA
+      ⏰16:30 Open / 17:00 Start
+      
+      ★Goods pre-sale starts at 14:00!
+      ★Same-day tickets available🎟️
+      
+      Tour performance #4, Miyagi❗️
+      We're waiting for you to come🔥
+      
+      🔗https://note.com/nekiband_jp/n/nb8b41c2e9b50
+      
+      #NEKI
+    image:
+    - HD0vhJ8boAAcm78
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- postximage:
+    post: 2034628858327294452
+    id: HDx0KWFaYAAY5Kc
+    label: Sendai food
+    published-date: 2026-03-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034628858327294452
+
+- postximage:
+    post: 2034628858327294452
+    id: HDx0KWNbAAAsHDy
+    label: Rehearsal
+    info: Cocoro, Kanade
+    published-date: 2026-03-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034628858327294452
+
+- postximage:
+    post: 2034628858327294452
+    id: HDx0KWPbcAAedqf
+    label: Sendai food
+    published-date: 2026-03-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034628858327294452
+
+- postximage:
+    post: 2034835832927059996
+    id: HD0vhJ8boAAcm78
+    label: Poster
+    published-date: 2026-03-20
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034835832927059996
+

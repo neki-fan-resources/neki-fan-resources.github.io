@@ -1,11 +1,171 @@
-update:
-  media:
-    year: 2026
-    id: datefmsoundgenic2
-  date: 2026-03-18
-  text:
-  - Added the appearance
-  part-of:
+- display:
     media:
       year: 2026
       id: datefmsoundgenic2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034564650017362366
+                    image: HDw5w4UaMAAryfZ
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic2
+
+- postx:
+    id: 2034564650017362366
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-19
+    text: |-
+      Date fm「SOUND GENIC」
+      @datefm
+       
+      
+      お聴きいただきありがとうございました🫶🏻✨
+      
+      ▼明日は宮城、明後日は福島でお待ちしております！🕺💨
+      https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI  #SOUNDGENIC
+    translation: |-
+      Date fm "SOUND GENIC"
+      @datefm
+       
+      
+      Thank you so much for listening🫶🏻✨
+      
+      ▼We'll be waiting for you tomorrow in Miyagi and the day after in Fukushima!🕺💨
+      https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI  #SOUNDGENIC
+    image:
+    - HDw5w4UaMAAryfZ
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic2
+
+- postx:
+    id: 2034575104127217677
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-03-19
+    text: |-
+      Date fm「SOUND GENIC」
+      
+      お聴きいただきありがとうございました！
+      
+      明日は宮城で明後日は福島でワンマンライブ！！一緒に歌って浸って最高の夜にしよ
+    translation: |-
+      Date fm "SOUND GENIC"
+      
+      Thank you so much for listening!
+      
+      Solo live in Miyagi tomorrow and Fukushima the day after!! Let's sing together, soak it all in, and make it the best night
+    image:
+    - HDxDRLybkAAmWKA
+    - HDxDRLwbUAAB6Io
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic2
+
+- postx:
+    id: 2034606736804597973
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-03-19
+    text: |-
+      Date fm「SOUND GENIC」
+      
+      3本目!ありがとうございましたー！！
+      改めて仙台、福島とラジオに出演させていただきとっても楽しかったです！！
+      
+      ぜひライブに遊びに来てくださいっ
+      明日は仙台!明後日は福島！！
+      お待ちしております❤️‍🔥❤️‍🔥
+    translation: |-
+      Date fm "SOUND GENIC"
+      
+      The 3rd one! Thank you so much!!
+      Once again, it was so much fun to appear on the radio in Sendai and Fukushima!!
+      
+      Please come and hang out at the live shows
+      Tomorrow is Sendai! The day after is Fukushima!!
+      We'll be waiting for you❤️‍🔥❤️‍🔥
+    image:
+    - HDxgCpqaUAA6YGY
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic2
+
+- postximage:
+    post: 2034564650017362366
+    id: HDw5w4UaMAAryfZ
+    label: At the station
+    published-date: 2026-03-19
+    context:
+    - media:
+        year: 2026
+        id: datefmsoundgenic2
+    part-of:
+      postx: 2034564650017362366
+
+- postximage:
+    post: 2034575104127217677
+    id: HDxDRLwbUAAB6Io
+    label: At the station
+    published-date: 2026-03-19
+    context:
+    - media:
+        year: 2026
+        id: datefmsoundgenic2
+    part-of:
+      postx: 2034575104127217677
+
+- postximage:
+    post: 2034575104127217677
+    id: HDxDRLybkAAmWKA
+    label: At the station
+    info: Natsu, Hika
+    published-date: 2026-03-19
+    context:
+    - media:
+        year: 2026
+        id: datefmsoundgenic2
+    part-of:
+      postx: 2034575104127217677
+
+- postximage:
+    post: 2034606736804597973
+    id: HDxgCpqaUAA6YGY
+    label: At the station
+    published-date: 2026-03-19
+    context:
+    - media:
+        year: 2026
+        id: datefmsoundgenic2
+    part-of:
+      postx: 2034606736804597973
+
+- update:
+    media:
+      year: 2026
+      id: datefmsoundgenic2
+    date: 2026-03-18
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic2
+

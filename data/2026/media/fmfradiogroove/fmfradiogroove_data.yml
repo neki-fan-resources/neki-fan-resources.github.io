@@ -1,3 +1,112 @@
+- display:
+    media:
+      year: 2026
+      id: fmfradiogroove
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034541349937336425
+                    image: HDwkksFakAAUgFc
+    part-of:
+      media:
+        year: 2026
+        id: fmfradiogroove
+
+- postx:
+    id: 2034541349937336425
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-19
+    text: |-
+      ふくしまFM「RADIO GROOVE」
+      @fmfRADIOGROOVE
+       
+      
+      お聴きいただきありがとうございました🫶🏻︎✨
+      
+      ▼全12箇所で開催、初の全国ツアー
+      現在チケット発売中🎫💨
+      https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI #レディグル
+    translation: |-
+      Fukushima FM "RADIO GROOVE"
+      @fmfRADIOGROOVE
+       
+      
+      Thank you so much for listening🫶🏻︎✨
+      
+      ▼First national tour being held at all 12 locations
+      Tickets currently on sale🎫💨
+      https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI #ReadyGroove
+    image:
+    - HDwkksFakAAUgFc
+    part-of:
+      media:
+        year: 2026
+        id: fmfradiogroove
+
+- postx:
+    id: 2034542655498244584
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-03-19
+    text: |-
+      ラジオ2本目！！
+      
+      ふくしまFM「RADIO GROOVE」
+      
+      ご視聴ありがとうございました！！
+    translation: |-
+      Second radio appearance!!
+      
+      Fukushima FM "RADIO GROOVE"
+      
+      Thank you for listening!!
+    image:
+    - HDwlwi2asAAf8Ma
+    part-of:
+      media:
+        year: 2026
+        id: fmfradiogroove
+    reference:
+    - postximage:
+        post: 2034541349937336425
+        image: HDwkksFakAAUgFc
+
+- postximage:
+    post: 2034541349937336425
+    id: HDwkksFakAAUgFc
+    label: Remote appearance
+    published-date: 2026-03-19
+    context:
+    - media:
+        year: 2026
+        id: fmfradiogroove
+    part-of:
+      postx: 2034541349937336425
+
+- postximage:
+    post: 2034542655498244584
+    id: HDwlwi2asAAf8Ma
+    label: Release poster
+    published-date: 2026-03-19
+    context:
+    - media:
+        year: 2026
+        id: fmfradiogroove
+    part-of:
+      postx: 2034542655498244584
+
 - update:
     media:
       year: 2026

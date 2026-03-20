@@ -46,6 +46,9 @@ contentpage:
       id: ignitionviewtrade
   - show:
       year: 2026
+      id: naonnobuntai
+  - show:
+      year: 2026
       id: 2ndtokyo2
   - show:
       year: 2026
@@ -80,6 +83,9 @@ contentpage:
   - show:
       year: 2026
       id: 2ndmiyagi
+  - media:
+      year: 2026
+      id: gretschpart1
   - media:
       year: 2026
       id: datefmsoundgenic2

@@ -1,3 +1,115 @@
+- display:
+    media:
+      year: 2026
+      id: tbcsendaymimiko
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034523228157415859
+                    image: HDwUFtoaUAAfVKY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034545169916432403
+                    image: HDwoC91bUAAT7jD
+    part-of:
+      media:
+        year: 2026
+        id: tbcsendaymimiko
+
+- postx:
+    id: 2034523228157415859
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-19
+    text: |-
+      TBCラジオ「GoGoはみみこいラジオな気分」
+      @tbcr_directors
+       
+      
+      お聴きいただきありがとうございました🙌🏻︎✨
+      
+      1st Album『MEME』
+      ▼ST/DL🎧
+      https://lnk.to/NEKI_MEME
+      
+      #NEKI  #tbcラジオ
+    translation: |-
+      TBC Radio "GoGo Hamimikoi Radio Mood"
+      @tbcr_directors
+       
+      
+      Thank you so much for listening🙌🏻︎✨
+      
+      1st Album "MEME"
+      ▼ST/DL🎧
+      https://lnk.to/NEKI_MEME
+      
+      #NEKI  #tbcRadio
+    image:
+    - HDwUFtoaUAAfVKY
+    part-of:
+      media:
+        year: 2026
+        id: tbcsendaymimiko
+
+- postx:
+    id: 2034545169916432403
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-03-19
+    text: |-
+      ラジオ1本目!
+      ありがとうございました！！
+      
+      明日っ！仙台っ！
+      ぜひツアー遊びにきてください
+    translation: |-
+      First radio appearance!
+      Thank you very much!!
+      
+      Tomorrow! Sendai!
+      Please come and hang out at the tour
+    image:
+    - HDwoC91bUAAT7jD
+    part-of:
+      media:
+        year: 2026
+        id: tbcsendaymimiko
+
+- postximage:
+    post: 2034523228157415859
+    id: HDwUFtoaUAAfVKY
+    label: At the station
+    info: Hika, Natsu
+    published-date: 2026-03-19
+    context:
+    - media:
+        year: 2026
+        id: tbcsendaymimiko
+    part-of:
+      postx: 2034523228157415859
+
+- postximage:
+    post: 2034545169916432403
+    id: HDwoC91bUAAT7jD
+    label: Backstage
+    info: Natsu, Hika
+    published-date: 2026-03-19
+    context:
+    - media:
+        year: 2026
+        id: tbcsendaymimiko
+    part-of:
+      postx: 2034545169916432403
+
 - update:
     media:
       year: 2026

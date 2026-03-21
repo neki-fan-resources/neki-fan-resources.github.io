@@ -1,0 +1,15 @@
+display:
+  song: fake
+  blocks:
+  - basicblock:
+      id: main
+      label: main
+      sections:
+      - basicsection:
+          label: Live, with original audio
+          subsections:
+          - multimediasubsection:
+              multimedia:
+              - youtubeshort: fAJbl2EYkwA
+  part-of:
+    song: fake

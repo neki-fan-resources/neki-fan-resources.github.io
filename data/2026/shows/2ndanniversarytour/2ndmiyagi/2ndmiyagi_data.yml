@@ -6,6 +6,57 @@
     - basicblock:
         id: main
         label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: fAJbl2EYkwA
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2034974714901537067
+                    video: 01
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2034959910564503639
+                    image: HD2hPXMbcAAaEpq
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034970009316073505
+                    image: HD2qbq_boAMfMfA
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034965741389435018
+                    image: HD2mjUSboAI9_R-
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034968629490720935
+                    image: HD2pLmKbIAAI-uD
+                - postximage:
+                    post: 2034968629490720935
+                    image: HD2pLmMboAUI4ox
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034959910564503639
+                    image: HD2hPXLboAQGcWz
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034974714901537067
+                    image: HD2unh-boAEFnl4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2034970009316073505
+                    image: HD2qbq-boAIeQtF
     - basicblock:
         id: beforeevent
         label: Before the event
@@ -92,6 +143,171 @@
         year: 2026
         id: 2ndmiyagi
 
+- postx:
+    id: 2034959910564503639
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-20
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍宮城・仙台ROCKATERIA
+      
+      全国ツアー4本目！
+      ありがとうございました🫶✨
+      
+      明日は福島club SONIC iwakiです🔥
+      ぜひお越しください🚀
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍Miyagi・Sendai ROCKATERIA
+      
+      4th stop on the nationwide tour!
+      Thank you so much🫶✨
+      
+      Tomorrow is Fukushima club SONIC iwaki🔥
+      Please come and see us🚀
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HD2hPXLboAQGcWz
+    - HD2hPXMbcAAaEpq
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- postx:
+    id: 2034965741389435018
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-03-20
+    text: |-
+      全国ツアー４日目っ！！
+      
+      宮城・仙台ROCKATERIA
+      ありがとうございました。
+      
+      皆さん完璧のノリと最高の歓声を
+      ありがとうございました𖤐´-
+      
+      あしたは福島club SONIC iwaki
+      ステージでまってます。
+    translation: |-
+      Nationwide tour day 4!!
+      
+      Miyagi・Sendai ROCKATERIA
+      Thank you so much.
+      
+      Everyone, thank you for the perfect energy
+      and the best cheers 𖤐´-
+      
+      Tomorrow is Fukushima club SONIC iwaki
+      I'll be waiting for you on stage.
+    image:
+    - HD2mjUSboAI9_R-
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- postx:
+    id: 2034968629490720935
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-03-20
+    text: |-
+      ツアー4本目！！
+      宮城！ありがとうございました！
+      久しぶりの仙台💚💚
+      みんな盛り上がってくれて熱気もやばかったねー！！
+      みんなの笑顔が最高に輝いてました！！
+      一緒にライブを作り上げてくれてありがとう🌟🌟
+      また成長して帰って来れるよう頑張ります!
+      明日は福島ー！！
+      こりゃまた楽しみすぎるなっ
+    translation: |-
+      4th stop on the tour!!
+      Miyagi! Thank you so much!
+      Sendai after such a long time💚💚
+      Everyone got so hyped, the heat was insane!!
+      Everyone's smiles were shining the brightest!!
+      Thank you for creating this live show together with us🌟🌟
+      I'll do my best to grow more and come back again!
+      Tomorrow is Fukushima!!
+      I'm looking forward to this way too much
+    image:
+    - HD2pLmKbIAAI-uD
+    - HD2pLmMboAUI4ox
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- postx:
+    id: 2034970009316073505
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-03-20
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”@ 宮城・仙台ROCKATERIA
+      
+      4日目仙台ありがとー！！
+      ツアー遠征公演一発目でした🌟
+      今日は楽しすぎてステージでたくさん回ってました。
+      三半規管が弱いので無事目が回りかけました🥹
+      それくらい楽しかった、ありがとねー！！
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”@ Miyagi・Sendai ROCKATERIA
+      
+      Thank you Sendai for day 4!!
+      It was the first stop of the tour away from home🌟
+      I had so much fun today that I was spinning around a lot on stage.
+      My inner ear is weak, so I almost got dizzy for real🥹
+      That’s how much fun it was, thanks everyone!!
+    image:
+    - HD2qbq-boAIeQtF
+    - HD2qbq_boAMfMfA
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- postx:
+    id: 2034974714901537067
+    account: coco_102
+    label: Thank you
+    published-date: 2026-03-20
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      4日目宮城公演ありがとうございました！🤍
+      久々の東北ライブみんなアツくて最高でした！！
+      仙台名物もたくさん食べれて元気モリモリで挑めました👍🏻
+      
+      明日は福島公演！人生初上陸なので楽しみです🌞
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Miyagi performance day 4, thank you so much!🤍
+      It's been a while since we played in Tohoku, and everyone was so hot and awesome!!
+      I ate lots of Sendai specialties, so I could tackle it with full energy👍🏻
+      
+      Tomorrow is the Fukushima performance! It’s my first time there ever, so I'm looking forward to it🌞
+    image:
+    - HD2unh-boAEFnl4
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2034974714901537067
+        video: 01
+
 - postximage:
     post: 2034628858327294452
     id: HDx0KWFaYAAY5Kc
@@ -141,4 +357,137 @@
         id: 2ndmiyagi
     part-of:
       postx: 2034835832927059996
+
+- postximage:
+    post: 2034959910564503639
+    id: HD2hPXLboAQGcWz
+    label: Backstage
+    published-date: 2026-03-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034959910564503639
+
+- postximage:
+    post: 2034959910564503639
+    id: HD2hPXMbcAAaEpq
+    label: On stage
+    published-date: 2026-03-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034959910564503639
+
+- postximage:
+    post: 2034965741389435018
+    id: HD2mjUSboAI9_R-
+    label: On stage
+    info: Hika
+    published-date: 2026-03-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034965741389435018
+
+- postximage:
+    post: 2034968629490720935
+    id: HD2pLmKbIAAI-uD
+    label: On stage
+    info: Natsu
+    published-date: 2026-03-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034968629490720935
+
+- postximage:
+    post: 2034968629490720935
+    id: HD2pLmMboAUI4ox
+    label: On stage
+    info: Natsu
+    published-date: 2026-03-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034968629490720935
+
+- postximage:
+    post: 2034970009316073505
+    id: HD2qbq-boAIeQtF
+    label: Backstage
+    info: Kanade
+    published-date: 2026-03-21
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034970009316073505
+
+- postximage:
+    post: 2034970009316073505
+    id: HD2qbq_boAMfMfA
+    label: On stage
+    info: Kanade
+    published-date: 2026-03-21
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034970009316073505
+
+- postximage:
+    post: 2034974714901537067
+    id: HD2unh-boAEFnl4
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postx: 2034974714901537067
+
+- postxvideo:
+    post: 2034974714901537067
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-20
+    cover: 2034974600820576256/img/E2czz47iaTdCXxwx.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    - song: frogflog
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- youtubeshort:
+    id: fAJbl2EYkwA
+    label: On stage
+    published-date: 2026-03-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    - song: fake
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
 

@@ -29,6 +29,48 @@
         year: 2026
         id: gretschpart1
 
+- postinstagram:
+    id: DWFuS0nEaJH
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-03-21
+    text: |-
+      🎸INTERVIEW⚡️
+      
+      「Gretsch Guitars Japan」
+      
+      VoGt. HikaとGt. Natsu
+      インタビュー記事が公開📝
+      
+      ぜひご覧ください✅
+      
+      🔗https://gretschguitars.jp/blog/2026/3/nek-special-interview/1212/
+      
+      #NEKI 
+      #Gretsch
+    translation: |-
+      🎸INTERVIEW⚡️
+      
+      「Gretsch Guitars Japan」
+      
+      An interview article featuring
+      VoGt. Hika and Gt. Natsu has been released📝
+      
+      Please check it out✅
+      
+      🔗https://gretschguitars.jp/blog/2026/3/nek-special-interview/1212/
+      
+      #NEKI 
+      #Gretsch
+    part-of:
+      media:
+        year: 2026
+        id: gretschpart1
+    reference:
+    - postximage:
+        post: 2034781968236519743
+        image: HDwyTQZa8AA-fhj
+
 - postx:
     id: 2034781968236519743
     account: GretschJP

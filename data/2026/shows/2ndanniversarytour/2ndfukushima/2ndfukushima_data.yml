@@ -1,0 +1,59 @@
+- postx:
+    id: 2035211378747928766
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-03-21
+    text: |-
+      💫🗾本日開催🗾💫
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍福島・club SONIC iwaki
+      ⏰16:30 開場 / 17:00 開演
+      
+      ★グッズ先行販売は14:00からスタート
+      ★当日券あり
+      
+      全国ツアー5本目🚀
+      ご来場お待ちしております！
+      
+      🔗https://note.com/nekiband_jp/n/nb8b41c2e9b50
+      
+      #NEKI
+    translation: |-
+      💫🗾Held Today🗾💫
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍Fukushima・club SONIC iwaki
+      ⏰16:30 Open / 17:00 Start
+      
+      ★Pre-sales for goods start at 14:00
+      ★Door tickets available
+      
+      5th stop on the nationwide tour🚀
+      We're looking forward to your visit!
+      
+      🔗https://note.com/nekiband_jp/n/nb8b41c2e9b50
+      
+      #NEKI
+    image:
+    - HD6FvD0boAEpzFB
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukushima
+
+- postximage:
+    post: 2035211378747928766
+    id: HD6FvD0boAEpzFB
+    label: Poster
+    published-date: 2026-03-21
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postx: 2035211378747928766
+

@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: pmRoiy6MVuE
                 - youtubeshort: fAJbl2EYkwA
             - multimediasubsection:
                 multimedia:
@@ -663,6 +664,20 @@
         year: 2026
         id: 2ndmiyagi
     - song: fake
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+
+- youtubeshort:
+    id: pmRoiy6MVuE
+    label: Digest movie
+    published-date: 2026-03-23
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    - song: zerosum
     part-of:
       show:
         year: 2026

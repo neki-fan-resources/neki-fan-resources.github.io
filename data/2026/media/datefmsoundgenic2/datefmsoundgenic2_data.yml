@@ -9,11 +9,27 @@
         sections:
         - basicsection:
             subsections:
+            - textsubsection:
+                multimedia:
+                  youtubevideo: 2Zo-6nQJqFg
+                lines:
+                - line:
+                  - text: Natsu and Hika's appearance.
+                - line:
+                  - text: The show starts with an awesome interaction with a fan who came to watch the radio show.
+                - line:
+                  - text: Then, they discuss their musical roots, and the tour so far, in addition to the usual topics.
+        - basicsection:
+            label: Images
+            subsections:
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 2034564650017362366
                     image: HDw5w4UaMAAryfZ
+                - postximage:
+                    post: 2034575104127217677
+                    image: HDxDRLybkAAmWKA
     part-of:
       media:
         year: 2026
@@ -164,6 +180,20 @@
     date: 2026-03-18
     text:
     - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: datefmsoundgenic2
+
+- youtubevideo:
+    id: 2Zo-6nQJqFg
+    label: Hika and Natsu appearance
+    info: English-subtitled
+    published-date: 2026-03-24
+    context:
+    - media:
+        year: 2026
+        id: datefmsoundgenic2
     part-of:
       media:
         year: 2026

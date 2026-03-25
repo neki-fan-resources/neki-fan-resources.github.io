@@ -1,3 +1,333 @@
+- display:
+    show:
+      year: 2026
+      id: fomareakita
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2036443920847224944
+                    image: HELm6sqawAAPw_3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWRX8h0kbV8
+                    image: 1
+                - postximage:
+                    post: 2036443920847224944
+                    image: HELm6sqbYAAhNyY
+                - postximage:
+                    post: 2036443026218950837
+                    image: HELmIZfaAAAH1UB
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWRX8h0kbV8
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2036447062238347675
+                    image: HELpzOCboAAvaZh
+    part-of:
+      show:
+        year: 2026
+        id: fomareakita
+
+- postinstagram:
+    id: DWRX8h0kbV8
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-24
+    text: |-
+      "FOMARE OVER TOUR 25-26"
+      @ 秋田・Club SWINDLE
+      
+      FOMAREさんのツアーにお呼びいただきました⚡️
+      ありがとうございました!!!!
+      
+      明日は山形でご一緒させていただきます！
+      
+      Photo by @tomakamimura 
+      
+      #NEKI
+      #FOMARE さん
+      @fomare_official 
+      #OVERTOUR
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      @ Akita Club SWINDLE
+      
+      We were invited to FOMARE's tour ⚡️
+      Thank you very much!!!!
+      
+      We'll be together tomorrow in Yamagata!
+      
+      Photo by @tomakamimura 
+      
+      #NEKI
+      #FOMARE-san
+      @fomare_official 
+      #OVERTOUR
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: fomareakita
+
+- postinstagramimage:
+    post: DWRX8h0kbV8
+    id: 1
+    label: Backstage
+    info: FOMARE, NEK!
+    published-date: 2026-03-24
+    context:
+    - show:
+        year: 2026
+        id: fomareakita
+    part-of:
+      postinstagram: DWRX8h0kbV8
+
+- postinstagramimage:
+    post: DWRX8h0kbV8
+    id: 2
+    label: Backstage
+    published-date: 2026-03-24
+    context:
+    - show:
+        year: 2026
+        id: fomareakita
+    part-of:
+      postinstagram: DWRX8h0kbV8
+
+- postx:
+    id: 2036021358610821519
+    account: _fomare_
+    label: Tomorrow
+    published-date: 2026-03-23
+    text: |-
+      ［明日］
+      2026年3月24日(火)
+      FOMARE OVER TOUR 25-26⚡️
+      
+      会場:秋田 Club SWINDLE
+      18:30 open / 19:00 start
+      with/
+      @nekiband_jp
+       
+      
+      チケット残りわずか⚠️
+      前売は本日23:59まで！
+      ▷ https://t.pia.jp/pia/event/event.do?eventBundleCd=b2563635
+      
+      先行物販:17:00-18:00👕
+      
+      よろしくお願いします✊
+      
+      #FOMARE
+      #OVERTOUR
+    translation: |-
+      [Tomorrow]
+      Tuesday, March 24, 2026
+      FOMARE OVER TOUR 25-26⚡️
+      
+      Venue: Akita Club SWINDLE
+      18:30 open / 19:00 start
+      with/
+      @nekiband_jp
+       
+      
+      Only a few tickets left⚠️
+      Advance sales end today at 23:59!
+      ▷ https://t.pia.jp/pia/event/event.do?eventBundleCd=b2563635
+      
+      Early Merch Sales: 17:00-18:00👕
+      
+      Looking forward to it✊
+      
+      #FOMARE
+      #OVERTOUR
+    image:
+    - HEFmoRHaAAA5oOJ
+    part-of:
+      show:
+        year: 2026
+        id: fomareakita
+
+- postx:
+    id: 2036443026218950837
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-03-24
+    text: |-
+      "FOMARE OVER TOUR 25-26"
+      @ 秋田・Club SWINDLE
+      
+      NEK!初秋田🌟
+      ツアーご一緒させて頂きました！
+      初めての土地でドキドキでしたが…！
+      FOMAREさんが優しく接してくださり、とても楽しい1日になりました🥹🙏🏻
+      明日の山形もご一緒させて頂きます！
+      よろしくお願いします！！
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      @ Akita Club SWINDLE
+      
+      NEK!'s first time in Akita🌟
+      We got to join the tour!
+      It was nerve-wracking being in a new place for the first time...!
+      But FOMARE were so kind to us, it turned into a really fun day🥹🙏🏻
+      We'll be joining them in Yamagata tomorrow too!
+      Looking forward to it!!
+    image:
+    - HELmIZfaAAAH1UB
+    part-of:
+      show:
+        year: 2026
+        id: fomareakita
+
+- postx:
+    id: 2036443920847224944
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-03-24
+    text: |-
+      "FOMARE OVER TOUR 25-26"
+      
+      秋田！ありがとうございました！！
+      すごすぎる方とツーマンさせていただいたのだとライブを見て改めて実感しました
+      
+      本当に本当に最高でした。
+      かっこよかったー！！！
+      
+      明日は山形です！
+      明日もよろしくお願いします！！
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      
+      Akita! Thank you very much!!
+      Watching the show made me realize all over again that we just did a two-man live with someone truly incredible.
+      
+      It was really, really the best.
+      So cool!!!
+      
+      Tomorrow is Yamagata!
+      Looking forward to tomorrow as well!!
+    image:
+    - HELm6sqawAAPw_3
+    - HELm6sqbYAAhNyY
+    part-of:
+      show:
+        year: 2026
+        id: fomareakita
+
+- postx:
+    id: 2036447062238347675
+    account: coco_102
+    label: Thank you
+    published-date: 2026-03-24
+    text: |-
+      "FOMARE "OVER TOUR 25-26"
+      秋田Club SWINDLEありがとうございましたッ！！
+      
+      初めての秋田に初めましてのFOMARE様、、！！
+      温かく迎え入れていただいたFOMAREのファンの皆さま本当にありがとうございました！
+      皆さんのおかげで最高に楽しい時間となりました❤️‍🔥
+      
+      明日は山形でお待ちしてます🌞
+    translation: |-
+      "FOMARE "OVER TOUR 25-26"
+      Akita Club SWINDLE, thank you so much!!
+      
+      Our first time in Akita and our first time meeting FOMARE..!!
+      To all the FOMARE fans who welcomed us so warmly, thank you truly!
+      Thanks to everyone, it was an incredibly fun time❤️‍🔥
+      
+      We'll be waiting for you in Yamagata tomorrow🌞
+    image:
+    - HELpzOCboAAvaZh
+    part-of:
+      show:
+        year: 2026
+        id: fomareakita
+    reference:
+    - postximage:
+        post: 2036443026218950837
+        image: HELmIZfaAAAH1UB
+
+- postximage:
+    post: 2036021358610821519
+    id: HEFmoRHaAAA5oOJ
+    label: Flyer
+    published-date: 2026-03-23
+    context:
+    - show:
+        year: 2026
+        id: fomareakita
+    todo: replace cover ?
+    part-of:
+      postx: 2036021358610821519
+
+- postximage:
+    post: 2036443026218950837
+    id: HELmIZfaAAAH1UB
+    label: Backstage
+    info: FOMARE, NEK!
+    published-date: 2026-03-24
+    context:
+    - show:
+        year: 2026
+        id: fomareakita
+    part-of:
+      postx: 2036443026218950837
+
+- postximage:
+    post: 2036443920847224944
+    id: HELm6sqawAAPw_3
+    label: On stage
+    published-date: 2026-03-24
+    context:
+    - show:
+        year: 2026
+        id: fomareakita
+    part-of:
+      postx: 2036443920847224944
+
+- postximage:
+    post: 2036443920847224944
+    id: HELm6sqbYAAhNyY
+    label: Backstage
+    info: FOMARE, NEK!
+    published-date: 2026-03-24
+    context:
+    - show:
+        year: 2026
+        id: fomareakita
+    part-of:
+      postx: 2036443920847224944
+
+- postximage:
+    post: 2036447062238347675
+    id: HELpzOCboAAvaZh
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-24
+    context:
+    - show:
+        year: 2026
+        id: fomareakita
+    part-of:
+      postx: 2036447062238347675
+
 - update:
     show:
       year: 2026
@@ -5,6 +335,18 @@
     date: 2026-02-17
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: fomareakita
+
+- update:
+    show:
+      year: 2026
+      id: fomareakita
+    date: 2026-03-25
+    text:
+    - First pictures and videos from the show
     part-of:
       show:
         year: 2026

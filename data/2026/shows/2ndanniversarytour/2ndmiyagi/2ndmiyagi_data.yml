@@ -48,6 +48,14 @@
                     image: 2
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DWOOEpVGstU
+                    image: 1
+                - postinstagramimage:
+                    post: DWOOEpVGstU
+                    image: 2
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2034959910564503639
                     image: HD2hPXLboAQGcWz
@@ -67,6 +75,11 @@
         - basicsection:
             label: At the event
             subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWOOEpVGstU
+                    image: 3
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -164,6 +177,75 @@
         post: 2034968629490720935
         image: HD2pLmMboAUI4ox
 
+- postinstagram:
+    id: DWOOEpVGstU
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-03-23
+    text: |-
+      2026.03.20
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      4日目宮城公演が終わりました！
+      お越しくださった皆さまありがとうございました🌞
+      
+      昨年6月に出演させていただいたSENDAI MUSIC FUSE以来の仙台！ワンマンで訪れるのは今回が初めてだったので、ただいま〜と思いつつも少し新鮮な気持ちで楽しむことができました🎶
+      
+      今回は前乗りだったので、私が以前からやってみたいな〜と思っていた遠征先のスタジオに入るというミッションをべードラで達成させていただきました😂
+      
+      練習前に立ち寄ったスタジオの近くにあるご飯屋さんで壁にサインを書かせていただいたり、練習後には近くの商店街でずんだんごシェイクを飲み、夜にはラジオ組と合流して牛タンや揚げかまぼこなどを食べに行ったりして、かなり仙台を満喫させていただきましたヽ(^^)ﾉ
+      ライブ後にはせり鍋も食べに行ったよ🍲
+      
+      まだまだ食べたいものや行きたいところがあったので、また次回楽しもうと思います！
+      
+      ツアーが始まって今回で4日目になりましたが、地域が変わると客層もガラッと変わることを再認識しました！
+      今回初めてNEK!のライブに来てくれたという方も多かったみたいで、フロアの雰囲気やノリ方もいつもとちょっと違う感じがしてとても楽しかったです！
+      
+      今回初めて観に来てくれた方も、いつも一緒にライブを楽しんでくれる方も本当にありがとうございます❤️‍🔥
+      また観に行きたいなって思ってもらえるようなライブをこれからもやっていきますので末永くよろしくお願いします！！
+      
+      また仙台に戻って来たときには更に成長した姿をお届けできるように頑張るぞー！！
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.03.20
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Day 4 in Miyagi is over!
+      Thank you to everyone who came🌞
+      
+      Sendai for the first time since SENDAI MUSIC FUSE last June! Since it was our first time visiting for a solo show, I felt like saying "I'm home~" while also enjoying it with a fresh perspective🎶
+      
+      Since we arrived a day early this time, the bass and drums duo managed to complete a mission I've always wanted to try: hitting up a local studio while on tour😂
+      
+      We got to sign the wall at a restaurant near the studio before practice, grabbed zunda dango shakes at a nearby shopping district after practice, and then met up with the radio team at night to eat ox tongue and fried kamaboko—we really made the most of Sendaiヽ(^^)ﾉ
+      We even went to eat seri nabe after the live🍲
+      
+      There are still things I want to eat and places I want to go, so I’ll look forward to them next time!
+      
+      This was the 4th day since the tour started, and it reminded me again how much the crowd changes depending on the region!
+      It seemed like there were many people seeing NEK! for the first time, so the atmosphere on the floor and the way people moved felt a bit different than usual, which was so much fun!
+      
+      To those who came to see us for the first time and those who always enjoy the shows with us, thank you so much❤️‍🔥
+      We’ll keep putting on shows that make you want to come back again, so please stick with us for a long time!!
+      
+      I'll work hard so that when we return to Sendai, we can show you how much we've grown!!
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: 2ndmiyagi
+    reference:
+    - postximage:
+        post: 2034959910564503639
+        image: HD2hPXLboAQGcWz
+
 - postinstagramimage:
     post: DWLNccKDjqA
     id: 2
@@ -201,6 +283,57 @@
         id: 2ndmiyagi
     part-of:
       postinstagram: DWME-JqknfS
+
+- postinstagramimage:
+    post: DWOOEpVGstU
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-23
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postinstagram: DWOOEpVGstU
+
+- postinstagramimage:
+    post: DWOOEpVGstU
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-23
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postinstagram: DWOOEpVGstU
+
+- postinstagramimage:
+    post: DWOOEpVGstU
+    id: 3
+    label: On stage
+    published-date: 2026-03-23
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postinstagram: DWOOEpVGstU
+
+- postinstagramimage:
+    post: DWOOEpVGstU
+    id: 5
+    label: Rehearsal
+    info: Cocoro, Kanade
+    published-date: 2026-03-23
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postinstagram: DWOOEpVGstU
 
 - postx:
     id: 2034628858327294452

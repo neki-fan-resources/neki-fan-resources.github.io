@@ -16,6 +16,9 @@
             - multimediasubsection:
                 label: Images
                 multimedia:
+                - postinstagramimage:
+                    post: DWSsN70mkeA
+                    image: 3
                 - postximage:
                     post: 2035308380865306796
                     image: HD7eLq1aYAAupZn
@@ -42,6 +45,9 @@
                     image: HD7fBSWb0AAVxsp
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DWSsN70mkeA
+                    image: 1
                 - postximage:
                     post: 2035318290755854468
                     image: HD7nMHraYAAVY1r
@@ -76,6 +82,11 @@
                 - postinstagramimage:
                     post: DWLlwwXkpTw
                     image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWSsN70mkeA
+                    image: 4
     part-of:
       show:
         year: 2026
@@ -109,6 +120,66 @@
       show:
         year: 2026
         id: 2ndfukushima
+
+- postinstagram:
+    id: DWSsN70mkeA
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-03-25
+    text: |-
+      2026.03.21
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      福島公演終了しました！
+      お越しくださった皆さまありがとうございました🙂‍↕️
+      
+      ツアー5日目は今まで人生で一度も行ったことがなかった福島県！
+      今回お世話になったclub SONIC iwakiさんは今年の12月で閉店してしまうそうで、その前に来ることができて本当に良かったです。
+      楽屋のそこらじゅうに書かれたユニークな落書きや、会場入口の天井や壁などに貼られた数多くのツアーポスターから、長い年月多くのバンドマンに愛されてきた会場なんだなと実感しました。
+      
+      宮城から会場に向かう道中や会場の辺りは自然豊かでとても癒されました🌞
+      
+      今回のライブでは、楽曲それぞれが持つ感情を私たちとフロアがひとつになって共有できた感覚がすごくあって、特にBlinkは身近にいた大切な人のことを想って作った曲なので、歌詞ひとつひとつがこの地でやるからこそ、より特別に感じて思わず感極まってしまいました。
+      ライブに来てくれる皆さんが今までどんな人生を歩んできて、どんな思いでそこにいるのかは私たちは想像することしかできませんが、NEK!の音楽が少しでも皆さんの心に光を灯せていたら嬉しいです。
+      必ずまた福島にライブしに行きます！！
+      
+      次回は愛知2days！
+      残りのツアーも気合い入れて頑張るぞ✊🏻
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.03.21
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Fukushima performance has ended!
+      Thank you very much to everyone who came 🙂‍↕️
+      
+      Day 5 of the tour was Fukushima Prefecture, a place I had never been to once in my life!
+      The venue that took care of us this time, club SONIC iwaki, will be closing this December, so I'm really glad we could come here before then.
+      From the unique graffiti written all over the dressing room to the many tour posters stuck on the ceilings and walls at the entrance, I could really feel that this is a venue that has been loved by many band members over the long years.
+      
+      The scenery was rich in nature and very healing on the way from Miyagi to the venue and around the area 🌞
+      
+      During this live, I had a strong sense that the floor and we became one and shared the emotions that each song holds. Especially "Blink," which is a song I wrote while thinking about a precious person who was close to me, so because we performed it in this place, each and every lyric felt even more special and I couldn't help but get emotional.
+      We can only imagine what kind of lives everyone who comes to our shows has led and with what thoughts you are standing there, but I would be happy if NEK!'s music could light up your hearts even just a little.
+      We will definitely go back to Fukushima to play a show again!!
+      
+      Next up is Aichi 2days!
+      I'm going to give it my all for the rest of the tour ✊🏻
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukushima
+    reference:
+    - postximage:
+        post: 2035318290755854468
+        image: HD7nMHraYAAVY1r
 
 - postinstagramimage:
     post: DWLlwwXkpTw
@@ -148,6 +219,43 @@
         id: 2ndfukushima
     part-of:
       postinstagram: DWLoQ7ZktU5
+
+- postinstagramimage:
+    post: DWSsN70mkeA
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-25
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postinstagram: DWSsN70mkeA
+
+- postinstagramimage:
+    post: DWSsN70mkeA
+    id: 3
+    label: On stage
+    published-date: 2026-03-25
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postinstagram: DWSsN70mkeA
+
+- postinstagramimage:
+    post: DWSsN70mkeA
+    id: 4
+    label: Venue
+    published-date: 2026-03-25
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postinstagram: DWSsN70mkeA
 
 - postx:
     id: 2035211378747928766

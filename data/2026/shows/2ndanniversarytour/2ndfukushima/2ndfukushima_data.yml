@@ -85,6 +85,9 @@
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
+                    post: DWRXlTsD6f9
+                    image: 1
+                - postinstagramimage:
                     post: DWSsN70mkeA
                     image: 4
     part-of:
@@ -114,6 +117,44 @@
     published-date: 2026-03-22
     text: |-
       -
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukushima
+
+- postinstagram:
+    id: DWRXlTsD6f9
+    account: cure_bass_baka
+    label: Kanade's report
+    published-date: 2026-03-24
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ 福島・club SONIC iwaki
+      ⁡
+      福島初上陸、素敵な街でした！
+      次はもっとゆっくり観光したいなー！
+      
+      ツアーも次で折り返し。
+      最近時の流れが早すぎて、こうやってあっという間に歳をとっていくんだろうなぁと日々感じてます🤧
+      
+      ファイルまでがんばる！
+      ⁡
+       #NEKI
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ Fukushima · club SONIC iwaki
+      ⁡
+      Our first time in Fukushima, it was such a lovely city!
+      Next time I want to do some proper sightseeing!
+      
+      The tour is halfway over after the next show.
+      Time has been moving so fast lately, and every day I feel like this is how I'm going to get old in the blink of an eye 🤧
+      
+      I'll do my best until the finale!
+      ⁡
+       #NEKI
     image:
     - 1
     part-of:
@@ -219,6 +260,19 @@
         id: 2ndfukushima
     part-of:
       postinstagram: DWLoQ7ZktU5
+
+- postinstagramimage:
+    post: DWRXlTsD6f9
+    id: 1
+    label: At the venue
+    info: Kanade
+    published-date: 2026-03-24
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postinstagram: DWRXlTsD6f9
 
 - postinstagramimage:
     post: DWSsN70mkeA

@@ -1,11 +1,393 @@
-update:
-  show:
-    year: 2026
-    id: fomareyamagata
-  date: 2026-02-17
-  text:
-  - Added the show
-  part-of:
+- display:
     show:
       year: 2026
       id: fomareyamagata
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: zRSdYerjZYU
+                - postxvideo:
+                    post: 2037029694374367336
+                    video: 01
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2036960710434181299
+                    image: HES88iIbYAIyO7A
+                - postximage:
+                    post: 2036811294129660354
+                    image: HEQ1EvwakAA687M
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2036960983286243510
+                    image: HES9NmnbYAA6cMu
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2036987710670594187
+                    image: HETVhCVbYAIXOt6
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2036960710434181299
+                    image: HES88ivbkAA8rC1
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- postx:
+    id: 2036679679281914243
+    account: _fomare_
+    label: Today
+    info: other merch pictures
+    published-date: 2026-03-25
+    text: |-
+      ［本日］
+      2026年3月25日(水)
+      FOMARE OVER TOUR 25-26⚡️
+      
+      会場:酒田 MUSIC FACTORY
+      18:30 open / 19:00 start
+      with/
+      @nekiband_jp
+       
+      🎫:SOLDOUT!!
+      
+      先行物販:17:00-18:00👕
+      チケットお持ちでない方も購入可能です🙆‍♂️
+      
+      よろしくお願いします✊
+      
+      #FOMARE
+      #OVERTOUR
+    translation: |-
+      [Today]
+      Wednesday, March 25, 2026
+      FOMARE OVER TOUR 25-26⚡️
+      
+      Venue: Sakata MUSIC FACTORY
+      18:30 open / 19:00 start
+      with/
+      @nekiband_jp
+       
+      🎫: SOLDOUT!!
+      
+      Pre-show Merch: 17:00-18:00👕
+      Available for purchase even without a ticket🙆‍♂️
+      
+      Let's do this✊
+      
+      #FOMARE
+      #OVERTOUR
+    image:
+    - HEO9XJdbIAAN7fg
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- postx:
+    id: 2036811294129660354
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-25
+    text: |-
+      "FOMARE OVER TOUR 25-26"
+      @ 酒田 MUSIC FACTORY
+      
+      ありがとうございました🫶✨
+      
+      大切なツアーに呼んでいただき、
+      FOMAREさん本当にありがとうございました‼️
+      
+      BIG THANKS!!!
+      @_fomare_
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      @ Sakata MUSIC FACTORY
+      
+      Thank you so much🫶✨
+      
+      Thank you so much to FOMARE 
+      for inviting us to such an important tour‼️
+      
+      BIG THANKS!!!
+      @_fomare_
+    image:
+    - HEQ1EvwakAA687M
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- postx:
+    id: 2036960710434181299
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-03-25
+    text: |-
+      "FOMARE OVER TOUR 25-26"
+      @ 酒田 MUSIC FACTORY
+      
+      2日間ご一緒させて頂き、大変お世話になりました！
+      たくさん勉強もさせて頂いたりと私たちにとってよい経験になりました🥹🙏🏻
+      またご一緒できるよう頑張ります！
+      ありがとうございました！！
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      @ Sakata MUSIC FACTORY
+      
+      Thank you so much for having us for these past two days!
+      It was such a great experience for us, and we learned so much 🥹🙏🏻
+      We'll do our best so we can play together again!
+      Thank you very much!!
+    image:
+    - HES88iIbYAIyO7A
+    - HES88ivbkAA8rC1
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- postx:
+    id: 2036960983286243510
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-03-25
+    text: |-
+      "FOMARE OVER TOUR 25-26"
+      @ 酒田 MUSIC FACTORY
+      
+      ありがとうございました！
+      
+      「愛する人」を一緒に歌えたあの瞬間はほんとうに夢のような時間でした
+      
+      FOMAREさんとまたいつかご一緒できるよう、精進してまいります🔥
+      
+      最高のツアーに誘ってくださったFOMAREさん、改めてありがとうございました！
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      @ Sakata MUSIC FACTORY
+      
+      Thank you so much!
+      
+      That moment singing "Aisuru Hito" together felt like a total dream
+      
+      We'll keep working hard so we can play with FOMARE again someday🔥
+      
+      A huge thank you again to FOMARE for inviting us to such an amazing tour!
+    image:
+    - HES9NmnbYAA6cMu
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+    reference:
+    - postximage:
+        post: 2036960710434181299
+        image: HES88iIbYAIyO7A
+
+- postx:
+    id: 2036987710670594187
+    account: coco_102
+    label: Thank you
+    published-date: 2026-03-26
+    text: |-
+      "FOMARE OVER TOUR 25-26"
+      酒田 MUSIC FACTORYありがとうございました！❤️‍🔥
+      やっぱり音楽っていいなあ、ライブっていいなあ、、
+      と改めて実感する最っ高の夜でした
+      
+      ファン含めたFOMAREチームに心から感謝の気持ちでいっぱいです！！
+      この2日間でできた唯一無二の思い出を胸にこれからも頑張ります✌🏻🔥
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      Sakata MUSIC FACTORY, thank you so much!❤️‍🔥
+      It was the absolute best night that made me realize
+      all over again how great music and live shows are...
+      
+      My heart is full of gratitude for the FOMARE team, including the fans!!
+      I'll keep doing my best, carrying these one-of-a-kind memories from the past two days with me✌🏻🔥
+    image:
+    - HETVhCVbYAIXOt6
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+    reference:
+    - postximage:
+        post: 2036960710434181299
+        image: HES88iIbYAIyO7A
+
+- postx:
+    id: 2037029694374367336
+    account: nekiband_jp
+    label: 愛する人 with FOMARE
+    published-date: 2026-03-26
+    text: |-
+      "FOMARE OVER TOUR 25-26"
+      
+      FOMAREさんの「愛する人」を一緒に歌わせていただきました🤝
+      
+      #NEKI
+      #FOMARE
+      #OVERTOUR
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      
+      I had the honor of singing FOMARE's "Aisuru Hito" together with them🤝
+      
+      #NEKI
+      #FOMARE
+      #OVERTOUR
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2037029694374367336
+        video: 01
+
+- postximage:
+    post: 2036679679281914243
+    id: HEO9XJdbIAAN7fg
+    label: Flyer
+    published-date: 2026-03-25
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    todo: switch cover ?
+    part-of:
+      postx: 2036679679281914243
+
+- postximage:
+    post: 2036811294129660354
+    id: HEQ1EvwakAA687M
+    label: Backstage
+    info: FOMARE, NEK!
+    published-date: 2026-03-26
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2036811294129660354
+
+- postximage:
+    post: 2036960710434181299
+    id: HES88iIbYAIyO7A
+    label: Backstage
+    info: FOMARE, NEK!
+    published-date: 2026-03-25
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2036960710434181299
+
+- postximage:
+    post: 2036960710434181299
+    id: HES88ivbkAA8rC1
+    label: At the venue
+    info: FOMARE, NEK!
+    published-date: 2026-03-25
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2036960710434181299
+
+- postximage:
+    post: 2036960983286243510
+    id: HES9NmnbYAA6cMu
+    label: Backstage
+    published-date: 2026-03-26
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2036960983286243510
+
+- postximage:
+    post: 2036987710670594187
+    id: HETVhCVbYAIXOt6
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-26
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2036987710670594187
+
+- postxvideo:
+    post: 2037029694374367336
+    id: 01
+    label: On stage
+    info: FOMARE, 愛する人
+    published-date: 2026-03-26
+    cover: 2037029606482731009/img/O6tQo1BuqatMomTE.jpg
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- update:
+    show:
+      year: 2026
+      id: fomareyamagata
+    date: 2026-02-17
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- update:
+    show:
+      year: 2026
+      id: fomareyamagata
+    date: 2026-03-26
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- youtubeshort:
+    id: zRSdYerjZYU
+    label: On stage
+    info: FOMARE, 愛する人
+    published-date: 2026-03-26
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+

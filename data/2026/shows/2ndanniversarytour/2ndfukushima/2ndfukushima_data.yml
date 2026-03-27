@@ -12,13 +12,14 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: JKCGOCLl8lY
                 - youtubeshort: KOkqvf2DU1U
             - multimediasubsection:
                 label: Images
                 multimedia:
-                - postinstagramimage:
-                    post: DWSsN70mkeA
-                    image: 3
+                - postximage:
+                    post: 2037518244408668254
+                    image: HEa4CqIaYAAlZM3
                 - postximage:
                     post: 2035308380865306796
                     image: HD7eLq1aYAAupZn
@@ -40,6 +41,12 @@
                 - postximage:
                     post: 2035309301619884411
                     image: HD7fBTvacAAsWc1
+                - postinstagramimage:
+                    post: DWWTwtUE7cI
+                    image: 2
+                - postinstagramimage:
+                    post: DWWTwtUE7cI
+                    image: 1
                 - postximage:
                     post: 2035309301619884411
                     image: HD7fBSWb0AAVxsp
@@ -222,6 +229,52 @@
         post: 2035318290755854468
         image: HD7nMHraYAAVY1r
 
+- postinstagram:
+    id: DWWTwtUE7cI
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2026-03-26
+    text: |-
+      .
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      ツアー5本目！@ 福島club SONIC iwaki
+      ありがとうございました！！
+      
+      一言で言って福島、、、最高‼️‼️‼️
+      
+      福島大好きー！！！
+      最初から熱すぎフロアを作ってくれてありがとう
+      また帰ってきたときにレベルアップできているよう
+      頑張ります💪🏻🔥
+      
+      #neki #guitarist #girlsband
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      5th stop of the tour! @ Fukushima club SONIC iwaki
+      Thank you so much!!
+      
+      In one word, Fukushima... was the best‼️‼️‼️
+      
+      I love Fukushima!!!
+      Thank you for making the floor so hot right from the start
+      I'll do my best so that I've leveled up 
+      by the time I come back💪🏻🔥
+      
+      #neki #guitarist #girlsband
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukushima
+    reference:
+    - postximage:
+        post: 2035309301619884411
+        image: HD7fBTvacAAsWc1
+
 - postinstagramimage:
     post: DWLlwwXkpTw
     id: 1
@@ -310,6 +363,32 @@
         id: 2ndfukushima
     part-of:
       postinstagram: DWSsN70mkeA
+
+- postinstagramimage:
+    post: DWWTwtUE7cI
+    id: 1
+    label: On stage
+    info: Natsu
+    published-date: 2026-03-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postinstagram: DWWTwtUE7cI
+
+- postinstagramimage:
+    post: DWWTwtUE7cI
+    id: 2
+    label: On stage
+    info: Natsu
+    published-date: 2026-03-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postinstagram: DWWTwtUE7cI
 
 - postx:
     id: 2035211378747928766
@@ -688,6 +767,19 @@
     date: 2026-03-23
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukushima
+
+- youtubeshort:
+    id: JKCGOCLl8lY
+    label: Digest movie
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
     part-of:
       show:
         year: 2026

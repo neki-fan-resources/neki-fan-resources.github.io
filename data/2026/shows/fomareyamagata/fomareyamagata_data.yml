@@ -19,6 +19,11 @@
             - multimediasubsection:
                 label: Images
                 multimedia:
+                - postinstagramimage:
+                    post: DWYdMRRmpnM
+                    image: 4
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2036960710434181299
                     image: HES88iIbYAIyO7A
@@ -27,26 +32,481 @@
                     image: HEQ1EvwakAA687M
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DWYmdeTEvSd
+                    image: 5
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2036960983286243510
                     image: HES9NmnbYAA6cMu
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DWYdMRRmpnM
+                    image: 3
+                - postinstagramimage:
+                    post: DWYmdeTEvSd
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWYHIXTkiD1
+                    image: 3
+                - postinstagramimage:
+                    post: DWYHIXTkiD1
+                    image: 1
+                - postinstagramimage:
+                    post: DWYHIXTkiD1
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWYdMRRmpnM
+                    image: 5
                 - postximage:
                     post: 2036987710670594187
                     image: HETVhCVbYAIXOt6
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWWNCFSkv2y
+                    image: 1
+                - postinstagramimage:
+                    post: DWWNCFSkv2y
+                    image: 2
         - basicsection:
             label: At the event
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DWYmdeTEvSd
+                    image: 3
                 - postximage:
                     post: 2036960710434181299
                     image: HES88ivbkAA8rC1
+                - postinstagramimage:
+                    post: DWV9f_3koS2
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWYdMRRmpnM
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2037479908369387767
+                    image: HEaVI8oasAAGZsp
+                - postximage:
+                    post: 2037479908369387767
+                    image: HEaVI8ZagAAT3Kr
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2037479908369387767
+                    image: HEaVI8vbsAA3xTV
+                - postximage:
+                    post: 2037479908369387767
+                    image: HEaVI8oasAEFiUm
     part-of:
       show:
         year: 2026
         id: fomareyamagata
+
+- postinstagram:
+    id: DWV9f_3koS2
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-03-26
+    text: |-
+      “FOMARE OVER TOUR 25-26”
+      
+      この2日間、本当にありがとうございました。
+      
+      FOMAREさんの大切なツアーに呼んでもらえたこと、心から感謝してます。
+      
+      音楽を通じて一緒に楽しんで新しい出会いもあり
+      みんなで作るライブハウスの空気に改めて音楽は最高だなと強く感じた2日間でした。
+      
+      ありがとうございました。
+      
+      最後に撮ったこの写真は宝物！！
+      
+      @fomare_official
+    translation: |-
+      “FOMARE OVER TOUR 25-26”
+      
+      Thank you so much for these last two days.
+      
+      I'm truly grateful to have been invited to FOMARE's important tour.
+      
+      Enjoying ourselves together through music and having new encounters,
+      it was a two-day period where the atmosphere of the live house we all created together made me strongly feel once again that music is the best.
+      
+      Thank you very much.
+      
+      This photo we took at the end is a treasure!!
+      
+      @fomare_official
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- postinstagram:
+    id: DWWNCFSkv2y
+    account: 46_hikaa
+    label: FOMARE Tour Tee
+    published-date: 2026-03-26
+    text: |-
+      FOMAREさんのTour Teeかわいっ、、
+      
+       #fomare
+    translation: |-
+      FOMARE's Tour Tee is so cute,,
+      
+      #fomare
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- postinstagram:
+    id: DWYHIXTkiD1
+    account: natsu08_guitar
+    label: Kodak
+    published-date: 2026-03-27
+    text: |-
+      .
+      #kodak
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
+- postinstagram:
+    id: DWYdMRRmpnM
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-03-27
+    text: |-
+      2026.03.24~25
+      ⁡
+      "FOMARE OVER TOUR 25-26"
+      ⁡
+      秋田公演と山形公演をご一緒させていただきました❤️‍🔥
+      ロック界の大先輩であるFOMAREさんのツアーに今回参加させていただき、たくさんの貴重な体験をさせていただきました！！
+      
+      未熟な私たちにこんな素敵な機会をくださったFOMAREさんに本当に頭が上がりません！
+      
+      超若手の私たちにも気さくに話しかけてくれるお二人の素敵な人柄と、ステージに立ったときの内から溢れ出る熱量にとても感銘を受け、私たちもいつかこんな先輩になれたらいいなと強く思いました。
+      
+      この世界で生きていくために忘れてはいけない考え方や姿勢をたくさん学ばさせていただいた2日間でした！
+      ⁡
+      そして私たちのことを温かく迎え入れてくださったFOMAREのファンの皆さんにも心から感謝の気持ちでいっぱいです！
+      NEK!の音楽が貴方の心にまっすぐ届いていたら嬉しいな。
+      今後ともNEK!をよろしくお願いします🙂‍↕️🔥
+      ⁡
+      2日間本当に本当にお世話になりました！！楽しかったー！
+      ⁡
+      Photo by @ruihashimoto @tomakamimura
+    translation: |-
+      2026.03.24~25
+      ⁡
+      "FOMARE OVER TOUR 25-26"
+      ⁡
+      We joined the Akita and Yamagata performances❤️‍🔥
+      By participating in the tour of our rock scene seniors, FOMARE, we were able to have so many precious experiences!!
+      
+      We can't thank FOMARE enough for giving us such a wonderful opportunity despite us being so inexperienced!
+      
+      We were so impressed by the wonderful personalities of the two who spoke so kindly to us youngsters, and by the passion overflowing from within when they stood on stage; it made us strongly hope to become seniors like them someday.
+      
+      These were two days where we learned so much about the mindset and attitude that must never be forgotten to survive in this world!
+      ⁡
+      And we are filled with heartfelt gratitude to all the FOMARE fans who welcomed us so warmly!
+      I would be happy if NEK!'s music reached your hearts directly.
+      Please continue to support NEK! going forward🙂‍↕️🔥
+      ⁡
+      Thank you so, so much for everything over these two days!! It was so much fun!
+      ⁡
+      Photo by @ruihashimoto @tomakamimura
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+    reference:
+    - postximage:
+        post: 2036811294129660354
+        image: HEQ1EvwakAA687M
+    - postximage:
+        post: 2036443026218950837
+        image: HELmIZfaAAAH1UB
+
+- postinstagram:
+    id: DWYmdeTEvSd
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2026-03-27
+    text: |-
+      .
+      "FOMARE OVER TOUR 25-26"
+      @ 秋田・Club SWINDLE
+      @ 酒田 MUSIC FACTORY
+      
+      2日間、ありがとうございました！！
+      
+      こんなにも大切なツアーにNEK!を呼んでくださったこと、
+      本当に感謝の気持ちでいっぱいです。
+      
+      FOMAREさんのかき鳴らす音が
+      最高にかっこよかった！！！
+      
+      これが音楽か、
+      これがライブか
+      
+      と強く心を動かされました。
+      
+      いつか私たちの音楽がもっとたくさんの方に届いて、今より大きくなれたとき
+      また、同じステージに立てたら嬉しいです
+      
+      その日まで、全力でNEK!の音楽を届け続けていきます
+      
+      バンドって最高！！！！
+      
+      改めてありがとうございました
+      
+      Photo by @tomakamimura @ruihashimoto
+      
+      #fomare
+    translation: |-
+      "FOMARE OVER TOUR 25-26"
+      @ Akita Club SWINDLE
+      @ Sakata MUSIC FACTORY
+      
+      Thank you so much for these two days!!
+      
+      I am truly filled with gratitude
+      that NEK! was invited to such an important tour.
+      
+      The sound FOMARE played
+      was so incredibly cool!!!
+      
+      I was deeply moved, thinking:
+      This is what music is,
+      This is what a live show is.
+      
+      When our music reaches even more people and we become bigger than we are now,
+      I would be happy if we could stand on the same stage again.
+      
+      Until that day comes, I will continue to deliver NEK!'s music with all my might.
+      
+      Bands are the best!!!!
+      
+      Thank you once again.
+      
+      Photo by @tomakamimura @ruihashimoto
+      
+      #fomare
+    image:
+    - 3
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+    reference:
+    - postximage:
+        post: 2036443026218950837
+        image: HELmIZfaAAAH1UB
+    - postximage:
+        post: 2036960710434181299
+        image: HES88iIbYAIyO7A
+
+- postinstagramimage:
+    post: DWV9f_3koS2
+    id: 1
+    label: At the venue
+    info: FOMARE, NEK!
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWV9f_3koS2
+
+- postinstagramimage:
+    post: DWWNCFSkv2y
+    id: 1
+    label: Backstage
+    info: Hika
+    published-date: 2026-03-26
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWWNCFSkv2y
+
+- postinstagramimage:
+    post: DWWNCFSkv2y
+    id: 2
+    label: Backstage
+    info: Hika
+    published-date: 2026-03-26
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWWNCFSkv2y
+
+- postinstagramimage:
+    post: DWYHIXTkiD1
+    id: 1
+    label: Backstage
+    info: Natsu
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYHIXTkiD1
+
+- postinstagramimage:
+    post: DWYHIXTkiD1
+    id: 2
+    label: Backstage
+    info: Natsu
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYHIXTkiD1
+
+- postinstagramimage:
+    post: DWYHIXTkiD1
+    id: 3
+    label: Backstage
+    info: Natsu
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYHIXTkiD1
+
+- postinstagramimage:
+    post: DWYdMRRmpnM
+    id: 2
+    label: On stage
+    info: drum set
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYdMRRmpnM
+
+- postinstagramimage:
+    post: DWYdMRRmpnM
+    id: 3
+    label: Backstage
+    info: Cocoro, Hika, アマダシンスケ
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYdMRRmpnM
+
+- postinstagramimage:
+    post: DWYdMRRmpnM
+    id: 4
+    label: On stage
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYdMRRmpnM
+
+- postinstagramimage:
+    post: DWYdMRRmpnM
+    id: 5
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYdMRRmpnM
+
+- postinstagramimage:
+    post: DWYmdeTEvSd
+    id: 3
+    label: At the venue
+    info: FOMARE, NEK!
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYmdeTEvSd
+
+- postinstagramimage:
+    post: DWYmdeTEvSd
+    id: 4
+    label: Backstage
+    info: FOMARE, NEK!
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYmdeTEvSd
+
+- postinstagramimage:
+    post: DWYmdeTEvSd
+    id: 5
+    label: Backstage
+    info: アマダシンスケ, カマタリョウガ
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DWYmdeTEvSd
 
 - postx:
     id: 2036679679281914243
@@ -260,6 +720,25 @@
         post: 2037029694374367336
         video: 01
 
+- postx:
+    id: 2037479908369387767
+    account: coco_102
+    label: A new favorite live house
+    published-date: 2026-03-27
+    text: |-
+      好きなライブハウスが各地に増えていく幸せ
+    translation: |-
+      The happiness of having more and more favorite live houses all over the country
+    image:
+    - HEaVI8ZagAAT3Kr
+    - HEaVI8oasAAGZsp
+    - HEaVI8oasAEFiUm
+    - HEaVI8vbsAA3xTV
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
+
 - postximage:
     post: 2036679679281914243
     id: HEO9XJdbIAAN7fg
@@ -336,6 +815,55 @@
         id: fomareyamagata
     part-of:
       postx: 2036987710670594187
+
+- postximage:
+    post: 2037479908369387767
+    id: HEaVI8ZagAAT3Kr
+    label: Board
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2037479908369387767
+
+- postximage:
+    post: 2037479908369387767
+    id: HEaVI8oasAAGZsp
+    label: Lockers
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2037479908369387767
+
+- postximage:
+    post: 2037479908369387767
+    id: HEaVI8oasAEFiUm
+    label: Yamagata food
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2037479908369387767
+
+- postximage:
+    post: 2037479908369387767
+    id: HEaVI8vbsAA3xTV
+    label: Café
+    info: Cocoro
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postx: 2037479908369387767
 
 - postxvideo:
     post: 2037029694374367336

@@ -1,0 +1,91 @@
+- postx:
+    id: 2037454058819305797
+    account: nekiband_jp
+    label: From tomorrow
+    published-date: 2026-03-27
+    text: |-
+      💫🗾全国ツアー🗾💫
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      明日から愛知公演2DAYS💥
+      
+      🔥3/28(土) NAGOYA JAMMIN’
+      🔥3/29(日) 豊橋clubKNOT
+      
+      全国ツアー早くも折り返し！
+      ぜひお待ちしております💝
+      
+      ▼チケット受付中🎟️
+      https://l-tike.com/nekiband/
+      
+      ▼ライブ詳細✅
+      https://note.com/nekiband_jp/n/n02def1ed80fb
+      
+      #NEKI
+    translation: |-
+      💫🗾Nationwide Tour🗾💫
+      
+      「NEK! 2nd ANNIVERSARY LIVE TOUR 2026」
+      
+      Aichi 2-day performances start tomorrow💥
+      
+      🔥3/28(Sat) NAGOYA JAMMIN’
+      🔥3/29(Sun) Toyohashi clubKNOT
+      
+      The nationwide tour is already at the halfway point!
+      We’ll be waiting for you💝
+      
+      ▼Tickets now available🎟️
+      https://l-tike.com/nekiband/
+      
+      ▼Live Details✅
+      https://note.com/nekiband_jp/n/n02def1ed80fb
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi1
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n3d37c2c897c8
+        id: poster01
+    - webimage:
+        domain: note.com.nekiband
+        page: n67510ac0749d
+        id: merch
+    - webimage:
+        domain: note.com.nekiband
+        page: n67510ac0749d
+        id: merchlottery
+
+- postx:
+    id: 2037518244408668254
+    account: coco_102
+    label: From tomorrow
+    published-date: 2026-03-27
+    text: |-
+      明日から全国ツアー愛知公演が始まります！！
+      ツアー後半戦も気合い入れていくぞ✊🏻🔥
+    translation: |-
+      The Aichi performances of our nationwide tour start tomorrow!!
+      Gonna give it my all for the second half of the tour too✊🏻🔥
+    image:
+    - HEa4CqIaYAAlZM3
+    part-of:
+      postx: 2037454058819305797
+
+- postximage:
+    post: 2037518244408668254
+    id: HEa4CqIaYAAlZM3
+    label: On stage
+    published-date: 2026-03-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postx: 2037518244408668254
+

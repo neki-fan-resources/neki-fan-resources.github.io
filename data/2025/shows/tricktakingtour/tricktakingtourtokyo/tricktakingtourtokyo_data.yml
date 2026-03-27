@@ -1,3 +1,263 @@
+- display:
+    show:
+      year: 2025
+      id: tricktakingtourtokyo
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: 'More videos and images are available on the '
+                  - tour: tricktakingtour
+                  - text: ' page.'
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 8HxPW2Pre0I
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1928744673092292656
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: EzpPj7pVf6Y
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: mvD68jTQrHs
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1905158934169887138
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1913837204386070919
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1929106683978224117
+                    video: 46203d6b-e5ae-48cd-8902-16d9a880869d
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1904398190973272390
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1954447291294822589
+                    video: 01
+                - youtubeshort: dSX3EKmcRUc
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: YKmsB94XMb4
+                - postxvideo:
+                    post: 1901916392653537292
+                    video: 01
+                - postxvideo:
+                    post: 1907340052666945675
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1953025441515921602
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1904081359431413941
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: u9-z9XkhpVw
+                - postxvideo:
+                    post: 1903384727689761129
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1917865243080024340
+                    video: 56ad6b95-81f9-4c28-9588-416eda80eec0
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 0hC9M6VeCJk
+                - postxvideo:
+                    post: 1912482224114458921
+                    video: 01
+                - youtubeshort: EG8WdNAMS5w
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1901237824059564330
+                    image: GmKNtBzbkAAxecj
+                - postximage:
+                    post: 1994628356743323907
+                    image: G65X500bkAAecjn
+                - postximage:
+                    post: 1931984997382316384
+                    image: Gs_KDFfb0AAtXQ1
+                - postinstagramimage:
+                    post: DHTrTp7h-Pg
+                    image: 2
+                - postximage:
+                    post: 1901449578177765487
+                    image: GmNOOzfbEAA3Ocq
+                - postximage:
+                    post: 1901237824059564330
+                    image: GmKNtB7a4AAf8JX
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1901572243064553567
+                    image: GmO9323boAAPy59
+                - postximage:
+                    post: 1903638618083897411
+                    image: GmsVOUXacAAL24T
+                - postximage:
+                    post: 1917457790253293837
+                    image: GpwtsbTaYAAlBd8
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DHTDrMZRjhM
+                    image: 5
+                - postximage:
+                    post: 1901583979649872081
+                    image: GmPIi16agAAa_gp
+                - postximage:
+                    post: 1904095847400505553
+                    image: Gmy1FD0aUAALXtv
+                - postximage:
+                    post: 1901583979649872081
+                    image: GmPIi16b0AA_TKO
+                - postximage:
+                    post: 1904095847400505553
+                    image: Gmy1FDzaMAE3fqb
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1901449578177765487
+                    image: GmNOQ-qacAAAPmN
+                - postximage:
+                    post: 1901828246163116168
+                    image: GmSmtbracAAUUqq
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DHTDrMZRjhM
+                    image: 4
+                - postximage:
+                    post: 1901590701571203518
+                    image: GmPOqR-bAAA3LhL
+                - postinstagramimage:
+                    post: DHS6MeBP9h2
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DHTDrMZRjhM
+                    image: 9
+                - postximage:
+                    post: 1901583979649872081
+                    image: GmPIi18agAAt9kr
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DHS-UjUyV-F
+                    image: 5
+                - postinstagramimage:
+                    post: DHS-UjUyV-F
+                    image: 4
+                - postinstagramimage:
+                    post: DHS-UjUyV-F
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1901305153342615668
+                    image: GmLK9HzbkAAIsse
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: FEwx6aYh3fU
+                - youtubeshort: rtmMldJLh1k
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1961334337271685577
+                    image: GzgPLpwbkAEbIPV
+                - postinstagramimage:
+                    post: DHS-UjUyV-F
+                    image: 7
+                - postximage:
+                    post: 1901237824059564330
+                    image: GmKNtB1aEAASeIz
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1901110542825386260
+                    image: GmIZ9OSbcAAdCBk
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1901243685569962210
+                    image: GmKTBdhacAAdePn
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            label: Rehearsal
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 5TbpU2-WnIQ
+                - youtubeshort: nh7NiJ2vnHM
+                - youtubeshort: S2y9YcalKNw
+                - youtubeshort: _8Jm4QV0mUw
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1900919310698377256
+                    image: GmFsCO0bcAA582o
+                - postximage:
+                    post: 1899793009899892982
+                    image: Gl1rpgOagAAhcVg
+                - postximage:
+                    post: 1899795479229317149
+                    image: Gl1t6KGXIAA2iwp
+        - basicsection:
+            label: Promotion
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: qEv4jcWXNmk
+                - youtubeshort: 1JgqY5V6fCE
+                - youtubeshort: rla_ZLjIvmE
+                - youtubeshort: rIixubNAY2g
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1891353098263622008
+                    image: Gj9vnfNagAA-TIe
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
 - postinstagram:
     id: DHS-UjUyV-F
     account: natsu08_guitar
@@ -543,8 +803,9 @@
     info: Natsu, Hika
     published-date: 2025-03-17
     context:
-    - tour: tricktakingtour
-    todo: which show ?
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postinstagram: DHS-UjUyV-F
 
@@ -578,7 +839,6 @@
     post: DHS-UjUyV-F
     id: 7
     label: On stage
-    info: encore
     published-date: 2025-03-17
     context:
     - show:
@@ -960,6 +1220,22 @@
       postx: 1901082018882179433
 
 - postx:
+    id: 1901130550716625329
+    account: 46_hikaa
+    label: Asking for rain to stop
+    published-date: 2025-03-16
+    text: |-
+      雨やんでくれ！！晴れろ！！
+    translation: |-
+      Stop raining!! Be sunny!!
+    image:
+    - GmIsKGHbcAMY82l
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
     id: 1901181401925337290
     account: nekiband_jp
     label: Sold out
@@ -1254,6 +1530,30 @@
         video: 01
 
 - postx:
+    id: 1903638618083897411
+    account: coco_102
+    label: Cajon is fun
+    published-date: 2025-03-23
+    text: |-
+      カホン楽しい🪽
+      
+      NEK!とアコースティックの化学反応、良き。
+      
+      #NEKI #拡散中 #ネキ界隈
+    translation: |-
+      Cajon is fun🪽
+      
+      The chemical reaction between NEK! and acoustic is so good.
+      
+      #NEKI #SpreadingTheWord #NEKIFandom
+    image:
+    - GmsVOUXacAAL24T
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+
+- postx:
     id: 1904081359431413941
     account: coco_102
     label: MAZE on stage
@@ -1536,6 +1836,7 @@
     post: 1899793009899892982
     id: Gl1rpgOagAAhcVg
     label: Rehearsal
+    info: Kanade
     published-date: 2025-03-12
     context:
     - show:
@@ -1583,6 +1884,7 @@
     post: 1901110542825386260
     id: GmIZ9OSbcAAdCBk
     label: AAA pass
+    info: Kanade
     published-date: 2025-03-16
     context:
     - show:
@@ -1594,29 +1896,48 @@
 - postximage:
     post: 1901126409017536965
     id: GmIoYQibcAEY3-n
-    label: Merch
+    label: Merch hoodie
     info: Natsu
     published-date: 2025-03-16
+    context:
+    - tour: tricktakingtour
     part-of:
       postx: 1901126409017536965
 
 - postximage:
     post: 1901126409017536965
     id: GmIoYQlaQAExmu2
-    label: Merch
+    label: Merch hoodie
     info: Natsu
     published-date: 2025-03-16
+    context:
+    - tour: tricktakingtour
     part-of:
       postx: 1901126409017536965
 
 - postximage:
     post: 1901126409017536965
     id: GmIoYQlbcAAkN5g
-    label: Merch
+    label: Merch hoodie
     info: Natsu
     published-date: 2025-03-16
+    context:
+    - tour: tricktakingtour
     part-of:
       postx: 1901126409017536965
+
+- postximage:
+    post: 1901130550716625329
+    id: GmIsKGHbcAMY82l
+    label: Spirit puppet
+    info: Hika trying to ward off the rain
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1901130550716625329
 
 - postximage:
     post: 1901181401925337290
@@ -1634,7 +1955,7 @@
 - postximage:
     post: 1901237824059564330
     id: GmKNtB1aEAASeIz
-    label: The band
+    label: On stage
     published-date: 2025-03-16
     context:
     - show:
@@ -1670,7 +1991,7 @@
 - postximage:
     post: 1901243685569962210
     id: GmKTBdhacAAdePn
-    label: Checking posts
+    label: Checking feedback
     published-date: 2025-03-16
     context:
     - show:
@@ -1682,7 +2003,8 @@
 - postximage:
     post: 1901305153342615668
     id: GmLK9HzbkAAIsse
-    label: Cocoro outfit
+    label: Backstage
+    info: Cocoro
     published-date: 2025-03-16
     context:
     - show:
@@ -1720,7 +2042,12 @@
     post: 1901449578177765487
     id: GmNOQD1b0AAeAez
     label: On stage
+    info: acoustic
     published-date: 2025-03-17
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postx: 1901449578177765487
 
@@ -1767,7 +2094,6 @@
     post: 1901583979649872081
     id: GmPIi18agAAt9kr
     label: Backstage
-    info: the band
     published-date: 2025-03-17
     context:
     - show:
@@ -1801,6 +2127,19 @@
         id: tricktakingtourtokyo
     part-of:
       postx: 1901828246163116168
+
+- postximage:
+    post: 1903638618083897411
+    id: GmsVOUXacAAL24T
+    label: On stage
+    info: Cocoro
+    published-date: 2025-03-23
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 1903638618083897411
 
 - postximage:
     post: 1904095847400505553
@@ -1964,7 +2303,7 @@
     post: 1917865243080024340
     id: 56ad6b95-81f9-4c28-9588-416eda80eec0
     label: On stage
-    info: Cocoro, right after announcing the 1st Zepp concert
+    info: Cocoro, encore
     published-date: 2025-05-01
     cover: 1917865155645546496/img/vDh7ZkVxv93tKfNg.jpg
     context:
@@ -2146,7 +2485,7 @@
 
 - youtubeshort:
     id: PRE1nQEW69g
-    label: Moment during MC
+    label: MC
     published-date: 2025-04-16
     context:
     - show:
@@ -2222,10 +2561,6 @@
     label: Show
     info: huddle
     published-date: 2025-03-20
-    context:
-    - show:
-        year: 2025
-        id: tricktakingtourtokyo
     todo: wrong show. old huddle
     part-of:
       show:

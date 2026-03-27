@@ -1,3 +1,61 @@
+- display:
+    show:
+      year: 2025
+      id: tricktakingtourosaka
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: 'More videos and images are available on the '
+                  - tour: tricktakingtour
+                  - text: ' page.'
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: CCDQdwNBias
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1902679460371186133
+                    video: 01
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1898350113669652494
+                    image: GlhLSvnbEAEpAZA
+                - postximage:
+                    post: 1898350113669652494
+                    image: GlhLSvqaQAAiEC_
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1898350113669652494
+                    image: GlhLSvob0AA33ON
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: bIMpGBpQaRE
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1898352550006460752
+                    image: GlhMWylbUAAyJK5
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourosaka
+
 - postx:
     id: 1898350113669652494
     account: nekiband_jp
@@ -161,8 +219,7 @@
 
 - youtubeshort:
     id: CCDQdwNBias
-    label: Show
-    info: huddle
+    label: Huddle and entry
     published-date: 2025-03-08
     context:
     - show:
@@ -174,24 +231,8 @@
         id: tricktakingtourosaka
 
 - youtubeshort:
-    id: DRODkWCbwu0
-    label: Before
-    info: leaving for the tour
-    published-date: 2025-03-04
-    context:
-    - show:
-        year: 2025
-        id: tricktakingtourosaka
-    todo: should go on the tour element ?
-    part-of:
-      show:
-        year: 2025
-        id: tricktakingtourosaka
-
-- youtubeshort:
     id: bIMpGBpQaRE
-    label: Before
-    info: lunch
+    label: Lunch
     published-date: 2025-03-11
     context:
     - show:

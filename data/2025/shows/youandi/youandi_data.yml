@@ -1,3 +1,63 @@
+- display:
+    show:
+      year: 2025
+      id: youandi
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1884890104277459227
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: QcmApJ-dFgE
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1883412170689679481
+                    image: GiM5YBjaAAALbCy
+                - postinstagramimage:
+                    post: DFSLXg4PRqH
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DFSLXg4PRqH
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1883474280253665528
+                    image: GiNx3d2b0AAUFy7
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1883412170689679481
+                    image: GiM5YBlbIAAzYD9
+                - postinstagramimage:
+                    post: DFSLXg4PRqH
+                    image: 5
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1883339432222429674
+                    image: GiL2Cz_boAAXVu4
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+
 - postinstagram:
     id: DFSLXg4PRqH
     account: cocoro_drum
@@ -172,6 +232,42 @@
         id: youandi
 
 - postx:
+    id: 1883339432222429674
+    account: shibuya_eggman
+    label: Today
+    published-date: 2025-01-26
+    text: |-
+      😽本日😽
+      
+      優利香Presents「You&I ～未来浮かべ浮かれSmile～」　てんこ盛り編 
+       
+      優利香/CANACO(Faulieu.)/NEK!/初音/日乃まそら/HONEBONE/森田理紗子(きみとバンド)/KILLT MELT LAND/Lanaruta 
+      
+      OPEN 12:30 
+      START 13:00 
+      DOOR ￥4,000+1D 
+      
+       ご来場お待ちしております！！
+    translation: |-
+      😽TODAY😽
+      
+      Yurika Presents "You & I ~Mirai Ukabe Ukare Smile~" Tenkomori Edition 
+       
+      Yurika / CANACO(Faulieu.) / NEK! / Hatsune / Masora Hino / HONEBONE / Risako Morita (Kimi to Band) / KILLT MELT LAND / Lanaruta 
+      
+      OPEN 12:30 
+      START 13:00 
+      DOOR ¥4,000 + 1 Drink 
+      
+       Looking forward to seeing you there!!
+    image:
+    - GiL2Cz_boAAXVu4
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+
+- postx:
     id: 1883412170689679481
     account: nekiband_jp
     label: Thank you
@@ -265,7 +361,7 @@
 - postximage:
     post: 1883065171922637290
     id: GiH9iMsaQAAasNt
-    label: schedule
+    label: Timetable
     published-date: 2025-01-25
     context:
     - show:
@@ -277,7 +373,7 @@
 - postximage:
     post: 1883065171922637290
     id: GiH9iMsaUAAUAmv
-    label: poster
+    label: Poster
     published-date: 2025-01-25
     local-copy: true
     context:
@@ -286,6 +382,18 @@
         id: youandi
     part-of:
       postx: 1883065171922637290
+
+- postximage:
+    post: 1883339432222429674
+    id: GiL2Cz_boAAXVu4
+    label: Sidewalk board
+    published-date: 2025-01-26
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postx: 1883339432222429674
 
 - postximage:
     post: 1883412170689679481
@@ -315,6 +423,7 @@
     post: 1883474280253665528
     id: GiNx3d2b0AAUFy7
     label: On stage
+    info: Kanade
     published-date: 2025-01-26
     context:
     - show:

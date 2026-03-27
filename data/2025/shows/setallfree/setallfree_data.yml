@@ -1,3 +1,58 @@
+- display:
+    show:
+      year: 2025
+      id: setallfree
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1887502798696423474
+                    image: GjHByXVa0AAOiGR
+                - postximage:
+                    post: 1887521792929247243
+                    image: GjHTD_CbIAEbKRR
+                - postinstagramimage:
+                    post: DFxll0XvRzD
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1887519908155826210
+                    image: GjHRWW2bIAQ7ezT
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1887519908155826210
+                    image: GjHRWWzbIAUVD2p
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1887549367550419131
+                    image: GjHsI4CbAAAHsw5
+                - postximage:
+                    post: 1887549367550419131
+                    image: GjHsI37aQAAROpf
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1887502798696423474
+                    image: GjHByXUbIAQCjPP
+    part-of:
+      show:
+        year: 2025
+        id: setallfree
+
 - postinstagram:
     id: DFxll0XvRzD
     account: cocoro_drum
@@ -61,8 +116,8 @@
         post: 1887521792929247243
         image: GjHTD_CbIAEbKRR
     - postximage:
-        post: 1887521792929247243
-        image: GjHTD_BbIAEuTMa
+        post: 1887502798696423474
+        image: GjHByXUbIAQCjPP
 
 - postinstagramimage:
     post: DFxll0XvRzD
@@ -279,11 +334,14 @@
       It was way too much fun!! 🔥
     image:
     - GjHTD_CbIAEbKRR
-    - GjHTD_BbIAEuTMa
     part-of:
       show:
         year: 2025
         id: setallfree
+    reference:
+    - postximage:
+        post: 1887502798696423474
+        image: GjHByXUbIAQCjPP
 
 - postx:
     id: 1887549367550419131
@@ -397,18 +455,6 @@
         id: setallfree
     part-of:
       postx: 1887519908155826210
-
-- postximage:
-    post: 1887521792929247243
-    id: GjHTD_BbIAEuTMa
-    label: Poster
-    published-date: 2025-02-06
-    context:
-    - show:
-        year: 2025
-        id: setallfree
-    part-of:
-      postx: 1887521792929247243
 
 - postximage:
     post: 1887521792929247243

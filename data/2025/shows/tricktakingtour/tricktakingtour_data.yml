@@ -1,3 +1,172 @@
+- display:
+    tour: tricktakingtour
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - subschronologysection:
+            label: Shows
+            isLargeMarker:
+            - show
+    - basicblock:
+        id: rehearsal
+        label: Rehearsal
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1897978402562621687
+                    image: Glb5S7-aUAAUPi1
+                - postximage:
+                    post: 1897964358308970702
+                    image: GlbshfHbAAAC_v-
+                - postximage:
+                    post: 1897958581796061417
+                    image: GlbnP7kbwAMPMZP
+                - postximage:
+                    post: 1893908187822113243
+                    image: GkiDdFMbsAAu1Ul
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: DRODkWCbwu0
+    - basicblock:
+        id: merch
+        label: Merch
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1901126409017536965
+                    image: GmIoYQlaQAExmu2
+                - postximage:
+                    post: 1901126409017536965
+                    image: GmIoYQibcAEY3-n
+                - postximage:
+                    post: 1901126409017536965
+                    image: GmIoYQlbcAAkN5g
+                - postinstagramvideo:
+                    post: DHGOIySSsXq
+                    video: 1
+                - youtubeshort: 4EDv4nlFFfE
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n41466bbb690c
+                    id: merchtshirt
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n41466bbb690c
+                    id: merchhoodie
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n41466bbb690c
+                    id: merch
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n41466bbb690c
+                    id: merchlottery
+                - webimage:
+                    domain: note.com.nekiband
+                    page: n41466bbb690c
+                    id: merchep
+    part-of:
+      tour: tricktakingtour
+
+- postinstagram:
+    id: DHGOIySSsXq
+    account: nekiband_jp
+    label: Hika merch
+    published-date: 2025-03-12
+    text: |-
+      TシャツによるHikaの紹介！！
+    translation: |-
+      Introducing Hika via T-shirt!!
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DHGOIySSsXq
+        video: 1
+
+- postinstagramvideo:
+    post: DHGOIySSsXq
+    id: 1
+    label: Merch t-shirt
+    info: Hika
+    published-date: 2025-03-12
+    context:
+    - tour: tricktakingtour
+    part-of:
+      tour: tricktakingtour
+
+- postx:
+    id: 1893896651472851052
+    account: nekiband_jp
+    label: Tickets
+    published-date: 2025-02-24
+    text: |-
+      ❤️‍🔥東名阪ツアー❤️‍🔥
+      
+      NEK! 1stワンマンツアー
+      「TR!CK TAK!NG」
+      
+      チケット一般発売中⚡️
+      
+      各地で皆さまとお会いできることを楽しみにしています🫶
+      
+      詳細・チケット▼
+      https://note.com/nekiband_jp/n/nc703bb1d82c8
+      
+      #NEKI
+    translation: |-
+      ❤️‍🔥Tokyo-Nagoya-Osaka Tour❤️‍🔥
+      
+      NEK! 1st One-Man Tour
+      "TR!CK TAK!NG"
+      
+      Tickets now on general sale⚡️
+      
+      We're looking forward to seeing everyone at each location🫶
+      
+      Details/Tickets▼
+      https://note.com/nekiband_jp/n/nc703bb1d82c8
+      
+      #NEKI
+    part-of:
+      tour: tricktakingtour
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nc703bb1d82c8
+        id: poster
+
+- postx:
+    id: 1893908187822113243
+    account: coco_102
+    label: Rehearsing
+    published-date: 2025-02-24
+    text: |-
+      来月あたまから始まる初の東名阪ワンマンツアー
+      一般チケット絶賛販売中です✊🏻💫
+      
+      皆さんに会えるのを楽しみにしながら、たくさんスタジオ入ってブラッシュアップしていってます！お楽しみに🫢
+    translation: |-
+      General tickets for our first Tokyo-Nagoya-Osaka one-man tour starting early next month are now on sale! ✊🏻💫
+      
+      While looking forward to seeing everyone, we've been hitting the studio a lot to brush everything up! Look forward to it! 🫢
+    image:
+    - GkiDdFMbsAAu1Ul
+    part-of:
+      postx: 1893896651472851052
+
 - postx:
     id: 1897543126019137799
     account: nekiband_jp
@@ -44,6 +213,133 @@
     part-of:
       tour: tricktakingtour
 
+- postx:
+    id: 1897940898316714256
+    account: nekiband_jp
+    label: Starts tomorrow
+    published-date: 2025-03-07
+    text: |-
+      ❤️‍🔥初東名阪ツアー❤️‍🔥
+      
+      NEK! 1stワンマンツアー
+      「TR!CK TAK!NG」
+      
+      ついに明日からスタートします🔥
+      
+      あす開催の大阪公演チケット受付は本日23:59まで🚨
+      
+      各地でお待ちしております！！！！
+      
+      チケット&ツアー詳細▼
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    translation: |-
+      ❤️‍🔥First Tokyo/Nagoya/Osaka Tour❤️‍🔥
+      
+      NEK! 1st One-Man Tour
+      「TR!CK TAK!NG」
+      
+      Finally starts tomorrow🔥
+      
+      Ticket applications for tomorrow's Osaka show are open until 23:59 tonight🚨
+      
+      We'll be waiting for you at every venue!!!!
+      
+      Ticket & Tour Details▼
+      https://note.com/nekiband_jp/n/n41466bbb690c
+      
+      #NEKI
+    part-of:
+      tour: tricktakingtour
+    reference:
+    - postximage:
+        post: 1897543126019137799
+        image: GlVs5tkb0AAUj3g
+
+- postx:
+    id: 1897958581796061417
+    account: coco_102
+    label: Starts tomorrow
+    published-date: 2025-03-07
+    text: |-
+      いよいよ東名阪ツアーが明日から始まります！！
+      
+      今回のライブに足を運んでくれるみんなにNEK!の良さをありったけ伝えられるように精一杯頑張ります💪🏻🔥
+      
+      大阪公演チケットまだあるから、明日空いてる人はぜひ遊びに来てください🥹
+    translation: |-
+      The Tokyo/Nagoya/Osaka tour finally starts tomorrow!!
+      
+      I'll do my absolute best to convey everything great about NEK! to everyone who comes to this live show💪🏻🔥
+      
+      There are still tickets for the Osaka performance, so if you're free tomorrow, please come hang out with us🥹
+    image:
+    - GlbnP7kbwAMPMZP
+    part-of:
+      postx: 1897940898316714256
+
+- postx:
+    id: 1897964358308970702
+    account: 46_hikaa
+    label: Starts tomorrow
+    published-date: 2025-03-07
+    text: |-
+      初の東名阪ワンマンツアー‼️
+      いよいよ明日からスタートします‼️
+      
+      ドキドキ(∩˃o˂∩)☆
+      
+      もう皆んな一緒にぶち上がろうね❤️‍🔥
+    translation: |-
+      First Tokyo/Nagoya/Osaka one-man tour‼️
+      It finally starts tomorrow‼️
+      
+      So nervous(∩˃o˂∩)☆
+      
+      Everyone, let's go wild together❤️‍🔥
+    image:
+    - GlbshfHbAAAC_v-
+    part-of:
+      postx: 1897940898316714256
+
+- postx:
+    id: 1897978402562621687
+    account: natsu08_guitar
+    label: Starts tomorrow
+    published-date: 2025-03-07
+    text: |-
+      ついに！
+      明日からNEK!初東名阪ツアー、スタートです！❤️‍🔥
+      3公演全て120%全力で駆け抜けますので、さいっこうの思い出を作りましょう🔥🔥🔥
+      皆様と一緒に遊べることを心から楽しみにしております🫶🏻ワクワクすぎるよぉ！
+      よろしくお願いします！
+      
+      ⚠️大阪チケットは本日23:59までです！
+    translation: |-
+      Finally!
+      NEK!'s first Tokyo/Nagoya/Osaka tour starts tomorrow!❤️‍🔥
+      We'll be running through all 3 shows at 120% full power, so let's make the best memories ever🔥🔥🔥
+      I'm truly looking forward to playing with everyone🫶🏻 I'm so excited!
+      Let's do this!
+      
+      ⚠️Tickets for Osaka are available until 23:59 tonight!
+    image:
+    - Glb5S7-aUAAUPi1
+    part-of:
+      postx: 1897940898316714256
+
+- postximage:
+    post: 1893908187822113243
+    id: GkiDdFMbsAAu1Ul
+    label: Rehearsal
+    info: band selfie
+    published-date: 2025-02-24
+    context:
+    - tour: tricktakingtour
+    part-of:
+      postx: 1893908187822113243
+
 - postximage:
     post: 1897543126019137799
     id: GlVs5tkb0AAUj3g
@@ -53,6 +349,39 @@
     - tour: tricktakingtour
     part-of:
       postx: 1897543126019137799
+
+- postximage:
+    post: 1897958581796061417
+    id: GlbnP7kbwAMPMZP
+    label: Rehearsal
+    info: Drum kit
+    published-date: 2025-03-07
+    context:
+    - tour: tricktakingtour
+    part-of:
+      postx: 1897958581796061417
+
+- postximage:
+    post: 1897964358308970702
+    id: GlbshfHbAAAC_v-
+    label: Rehearsal
+    info: Hika's acoustic guitar
+    published-date: 2025-03-07
+    context:
+    - tour: tricktakingtour
+    part-of:
+      postx: 1897964358308970702
+
+- postximage:
+    post: 1897978402562621687
+    id: Glb5S7-aUAAUPi1
+    label: Rehearsal
+    info: Natsu, Cocoro
+    published-date: 2025-03-07
+    context:
+    - tour: tricktakingtour
+    part-of:
+      postx: 1897978402562621687
 
 - postyoutube:
     id: Ugkx-xs2wknVMbApQ9Rc1zmnyi1YCqzhYOtD
@@ -196,6 +525,26 @@
     url: 'https://note.com/nekiband_jp/n/nc703bb1d82c8'
     image:
     - poster
+    part-of:
+      tour: tricktakingtour
+
+- youtubeshort:
+    id: 4EDv4nlFFfE
+    label: Merch hoodie
+    info: Kanade
+    published-date: 2025-03-12
+    context:
+    - tour: tricktakingtour
+    part-of:
+      tour: tricktakingtour
+
+- youtubeshort:
+    id: DRODkWCbwu0
+    label: Rehearsal
+    info: all done
+    published-date: 2025-03-04
+    context:
+    - tour: tricktakingtour
     part-of:
       tour: tricktakingtour
 

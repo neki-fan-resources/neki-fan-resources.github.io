@@ -478,6 +478,23 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postx:
+    id: 2038501065860190212
+    account: natsu08_guitar
+    label: Tours are the best
+    published-date: 2026-03-30
+    text: |-
+      ツアーって最高だね。
+    translation: |-
+      Tours are the best.
+    image:
+    - HEo1xN0bUAI4AG9
+    - HEo1xNubIAABIV4
+    - HEo1xNubwAA4z1U
+    - HEo1ysQagAAqeur
+    part-of:
+      tour: 2ndanniversarytour
+
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
@@ -521,6 +538,54 @@
     - tour: 2ndanniversarytour
     part-of:
       postx: 2029098430170317255
+
+- postximage:
+    post: 2038501065860190212
+    id: HEo1xN0bUAI4AG9
+    label: Backstage
+    info: Hika, Natsu
+    published-date: 2026-03-30
+    context:
+    - tour: 2ndanniversarytour
+    todo: which show ?
+    part-of:
+      postx: 2038501065860190212
+
+- postximage:
+    post: 2038501065860190212
+    id: HEo1xNubIAABIV4
+    label: Backstage
+    info: Natsu, Kanade, Cocoro
+    published-date: 2026-03-30
+    context:
+    - tour: 2ndanniversarytour
+    todo: which show ?
+    part-of:
+      postx: 2038501065860190212
+
+- postximage:
+    post: 2038501065860190212
+    id: HEo1xNubwAA4z1U
+    label: Backstage
+    published-date: 2026-03-30
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    todo: which show ?
+    part-of:
+      postx: 2038501065860190212
+
+- postximage:
+    post: 2038501065860190212
+    id: HEo1ysQagAAqeur
+    label: Stage
+    published-date: 2026-03-30
+    context:
+    - tour: 2ndanniversarytour
+    todo: which show ?
+    part-of:
+      postx: 2038501065860190212
 
 - postxvideo:
     post: 1976295615287132520

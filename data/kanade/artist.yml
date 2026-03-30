@@ -41,6 +41,28 @@
         id: artist
         group: kanade
 
+- postx:
+    id: 2038055138318074079
+    account: cure_bass_baka
+    label: artist photo outfit makes her look taller
+    published-date: 2026-03-29
+    text: |-
+      昨日アー写衣装久しぶりだった気がする！
+      これ着ると実際より超背高く見えるから得すぎるんだ！
+      
+      今日の衣装はなんでしょうね💭
+    translation: |-
+      I feel like it's been a while since I wore the artist photo outfit yesterday!
+      I gain so much from wearing this because it makes me look way taller than I actually am!
+      
+      I wonder what today's outfit will be💭
+    image:
+    - HEigV-ZbkAAf3p5
+    part-of:
+      group:
+        id: artist
+        group: kanade
+
 - postximage:
     post: 1978027375901188409
     id: G3NdZ3lbYAAYK8P
@@ -74,4 +96,17 @@
         id: 2ndsaitama
     part-of:
       postx: 2033488895363760561
+
+- postximage:
+    post: 2038055138318074079
+    id: HEigV-ZbkAAf3p5
+    label: Backstage
+    info: Kanade
+    published-date: 2026-03-30
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postx: 2038055138318074079
 

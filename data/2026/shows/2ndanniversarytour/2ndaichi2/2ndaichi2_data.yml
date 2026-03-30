@@ -1,0 +1,582 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndaichi2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2038213603120263212
+                    video: 01
+                - youtubeshort: PNmz4CQtawQ
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2038206234701238379
+                    image: HEkpxBzbgAAl_sT
+                - postximage:
+                    post: 2038203266362974386
+                    image: HEknENAaEAE6NAO
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2038213603120263212
+                    image: HEkwUWFakAAE1tg
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2038206760041979991
+                    image: HEkqPfGaIAESSyI
+                - postximage:
+                    post: 2038206760041979991
+                    image: HEkqPfHa4AAUjhU
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2038206234701238379
+                    image: HEkpxBuaQAAjBfK
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWdzaw2kWj0
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2038205405025992709
+                    image: HEkpAtsaMAE_nil
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2038203266362974386
+                    image: HEknEM9aoAA_aox
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2038087177243095497
+                    image: HEi9evebQAAj0s7
+                - postximage:
+                    post: 2038087177243095497
+                    image: HEi9evdbsAAof7h
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- postinstagram:
+    id: DWdzaw2kWj0
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-29
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @豊橋clubKNOT
+      
+      全国ツアー7本目‼️
+      ありがとうございました🙌🏻︎✨️
+      
+      ★NEXT ONE MAN
+      4/10 (金)熊本B.9 V2
+      
+      ぜひお越しください❣️
+      
+      🔗https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI
+      #ネキミーム
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @Toyohashi clubKNOT
+      
+      7th stop of the nationwide tour‼️
+      Thank you very much🙌🏻︎✨️
+      
+      ★NEXT ONE MAN
+      4/10 (Fri) Kumamoto B.9 V2
+      
+      Please come and join us❣️
+      
+      🔗https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI
+      #NEKIMeme
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+    reference:
+    - postximage:
+        post: 2038203266362974386
+        image: HEknENAaEAE6NAO
+    - postximage:
+        post: 2038203266362974386
+        image: HEknEM9aoAA_aox
+
+- postinstagramimage:
+    post: DWdzaw2kWj0
+    id: 1
+    label: Backstage
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postinstagram: DWdzaw2kWj0
+
+- postx:
+    id: 2038075549248262341
+    account: natsu08_guitar
+    label: Today
+    published-date: 2026-03-29
+    text: |-
+      愛知２日目っっ
+      本日豊橋❤️‍🔥❤️‍🔥
+      よろしくお願いします🌟🌟
+    translation: |-
+      Day 2 in Aichi!!
+      Today is Toyohashi❤️‍🔥❤️‍🔥
+      Looking forward to it🌟🌟
+    image:
+    - HEiy6FVaMAA8L8O
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- postx:
+    id: 2038084497821016468
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-03-29
+    text: |-
+      🔥🗾本日開催🗾🔥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍愛知・豊橋clubKNOT
+      ⏰16:30 開場 / 17:00 開演
+      
+      🎁グッズ先行販売は14:00から開始
+      🎫当日券あり
+      
+      ツアー7本目！
+      ぜひお越しください🫶
+      
+      🔗https://note.com/nekiband_jp/n/n02def1ed80fb?sub_rt=share_pb
+      
+      #NEKI
+    translation: |-
+      🔥🗾Happening Today🗾🔥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍Aichi・Toyohashi clubKNOT
+      ⏰16:30 Doors Open / 17:00 Start
+      
+      🎁Advance merchandise sales start at 14:00
+      🎫Same-day tickets available
+      
+      7th stop of the tour!
+      Please come and join us🫶
+      
+      🔗https://note.com/nekiband_jp/n/n02def1ed80fb?sub_rt=share_pb
+      
+      #NEKI
+    image:
+    - HEi6pvsbwAATo5z
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- postx:
+    id: 2038087177243095497
+    account: cure_bass_baka
+    label: Bento
+    published-date: 2026-03-29
+    text: |-
+      豊橋べんとー！
+    translation: |-
+      Toyohashi Bento!
+    image:
+    - HEi9evdbsAAof7h
+    - HEi9evebQAAj0s7
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- postx:
+    id: 2038203266362974386
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-03-29
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍 豊橋clubKNOT
+      
+      全国ツアー7本目‼️
+      ありがとうございました🙌🏻︎✨
+      
+      ★NEXT ONE MAN
+      4/10 (金)熊本B.9 V2
+      
+      ぜひお越しください❣️
+      
+      🔗https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍 Toyohashi clubKNOT
+      
+      7th stop of the nationwide tour‼️
+      Thank you very much🙌🏻︎✨
+      
+      ★NEXT ONE MAN
+      4/10 (Fri) Kumamoto B.9 V2
+      
+      Please come and join us❣️
+      
+      🔗https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI
+    image:
+    - HEknEM9aoAA_aox
+    - HEknENAaEAE6NAO
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- postx:
+    id: 2038205405025992709
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-03-29
+    text: |-
+      豊橋clubKNOTっ！
+      
+      今日で7本目、残りはあと5本。
+      全国ツアーは後半戦に突入しました。
+      
+      みんなの一体感が半端ない！
+      
+      今日も最高に楽しかったです！
+      ありがとうございました。
+    translation: |-
+      Toyohashi clubKNOT!
+      
+      Today was the 7th stop, with only 5 remaining.
+      The nationwide tour has entered the second half.
+      
+      The unity from everyone was insane!
+      
+      Today was the absolute best!
+      Thank you very much.
+    image:
+    - HEkpAtsaMAE_nil
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- postx:
+    id: 2038206234701238379
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-03-29
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ 豊橋clubKNOT
+      
+      愛知2日目もありがとー！
+      豊橋ずっと来てみたかったから、やっと来れて嬉しかったーー！
+      本当に最高の2日間だったよ！
+      次熊本ね、初の土地待っててー！！
+      
+      手羽先……骨…？🙄
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      @ Toyohashi clubKNOT
+      
+      Thanks for Aichi day 2 as well!
+      I've always wanted to visit Toyohashi, so I'm so glad I finally could!!
+      It was a truly amazing two days!
+      Next is Kumamoto, wait for us in that new territory!!
+      
+      Chicken wings…… bones…?🙄
+    image:
+    - HEkpxBuaQAAjBfK
+    - HEkpxBzbgAAl_sT
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- postx:
+    id: 2038206760041979991
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-03-29
+    text: |-
+      本日ツアー7本目！豊橋！！
+      ありがとうございましたー！
+      
+      昨日の名古屋に続き豊橋も最高に盛り上がったね🌟
+      めちゃめちゃ楽しかったです！！
+      思い出エピソードも話せてよかった🍖笑
+      
+      なんとついに折り返し地点まで来てしまいました😭😭早すぎるぅぅ🥲
+      でもまだまだこれから！
+      着いてきてくださいね！！
+    translation: |-
+      Today was the 7th stop of the tour! Toyohashi!!
+      Thank you very much!
+      
+      Following yesterday's Nagoya, Toyohashi was also hyped to the max🌟
+      It was so much fun!!
+      I'm glad we got to talk about some memory episodes too🍖 lol
+      
+      Can't believe we've finally reached the halfway point😭😭 It's going by way too fast🥲
+      But there's still more to come!
+      Please keep following us!!
+    image:
+    - HEkqPfGaIAESSyI
+    - HEkqPfHa4AAUjhU
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- postx:
+    id: 2038213603120263212
+    account: coco_102
+    label: Thank you
+    published-date: 2026-03-29
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      豊橋clubKNOTありがとうございました🌞
+      
+      フロアの構造上みなさんのお顔がよーく見えて最高に幸せな時間でした！ひとりひとりと目を合わせてシンガロングできて嬉しかったです🎶
+      本当にありがとう！！
+      
+      次は熊本！人生初の九州！！楽しみです🫶🏻
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Toyohashi clubKNOT Thank you very much🌞
+      
+      Because of the floor's layout, I could see everyone's faces so clearly, and it was a superlatively happy time! I was glad to be able to make eye contact and sing along with each and every one of you🎶
+      Thank you so truly!!
+      
+      Next is Kumamoto! My first time ever in Kyushu!! I'm looking forward to it🫶🏻
+    image:
+    - HEkwUWFakAAE1tg
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2038213603120263212
+        video: 01
+
+- postximage:
+    post: 2038075549248262341
+    id: HEiy6FVaMAA8L8O
+    label: Backstage
+    info: Natsu
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postx: 2038075549248262341
+
+- postximage:
+    post: 2038084497821016468
+    id: HEi6pvsbwAATo5z
+    label: Poster
+    published-date: 2026-03-29
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038084497821016468
+
+- postximage:
+    post: 2038087177243095497
+    id: HEi9evdbsAAof7h
+    label: Toyohashi bento
+    info: Kanade
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038087177243095497
+
+- postximage:
+    post: 2038087177243095497
+    id: HEi9evebQAAj0s7
+    label: Toyohashi bento
+    info: Kanade
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038087177243095497
+
+- postximage:
+    post: 2038203266362974386
+    id: HEknEM9aoAA_aox
+    label: On stage
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038203266362974386
+
+- postximage:
+    post: 2038203266362974386
+    id: HEknENAaEAE6NAO
+    label: On stage
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038203266362974386
+
+- postximage:
+    post: 2038205405025992709
+    id: HEkpAtsaMAE_nil
+    label: Backstage
+    info: Hika
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038205405025992709
+
+- postximage:
+    post: 2038206234701238379
+    id: HEkpxBuaQAAjBfK
+    label: On stage
+    info: Kanade
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038206234701238379
+
+- postximage:
+    post: 2038206234701238379
+    id: HEkpxBzbgAAl_sT
+    label: On stage
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038206234701238379
+
+- postximage:
+    post: 2038206760041979991
+    id: HEkqPfGaIAESSyI
+    label: On stage
+    info: Natsu
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038206760041979991
+
+- postximage:
+    post: 2038206760041979991
+    id: HEkqPfHa4AAUjhU
+    label: On stage
+    info: Natsu
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038206760041979991
+
+- postximage:
+    post: 2038213603120263212
+    id: HEkwUWFakAAE1tg
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-30
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postx: 2038213603120263212
+
+- postxvideo:
+    post: 2038213603120263212
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-03-29
+    cover: 2038213432454045696/img/ppsZfwJ63RFUBGL-.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    - song: maze
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- youtubeshort:
+    id: PNmz4CQtawQ
+    label: On stage
+    info: Natsu
+    published-date: 2026-03-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    - song: loner
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+

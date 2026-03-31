@@ -14,29 +14,3 @@ show:
     group:
       id: shows
       group: 2025
-  multimedia:
-    video:
-    - postxvideo:
-        post: 1931999361577463823
-        video: 01
-    - youtubeshort: 8JNZl3nO2dM
-    - youtubeshort: 759NyQOQ1yg
-    image:
-    - postximage:
-        post: 1910979741756399623
-        image: GoUp719WUAADyfg
-    - postximage:
-        post: 1910979741756399623
-        image: GoUp719WkAAtlRX
-    - postximage:
-        post: 1910962202003275912
-        image: GoUZ_azXwAASE0E
-    - postximage:
-        post: 1910962202003275912
-        image: GoUZ_awWwAAkG5D
-    - postximage:
-        post: 1910962202003275912
-        image: GoUZ_axWoAA8BKE
-    - postximage:
-        post: 1910962202003275912
-        image: GoUZ_awWQAAJLU0

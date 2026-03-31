@@ -1,3 +1,104 @@
+- display:
+    show:
+      year: 2025
+      id: kakumeilogic2025
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: bFHCOVgFMKg
+                - youtubeshort: 6waPnn_Bxis
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1926928034944213276
+                    video: d7408dbc-320f-41a5-8e45-5ce994c99049
+                - youtubeshort: CBPR9cp2urk
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1921828183369781385
+                    video: 890f9d50-48f5-4914-9d1f-223e9a52a452
+                - postxvideo:
+                    post: 1919328460532494808
+                    video: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1919977679027372546
+                    video: 37e3c46f-d463-4507-8090-19abc74c839b
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1922588708026404968
+                    video: 4c117af0-984b-4ba9-8a30-e82f968dd226
+                - youtubeshort: CU3Vqkdf3bs
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1935184418047672438
+                    video: 01
+                - postxvideo:
+                    post: 1929389485147721772
+                    video: 01
+                - postxvideo:
+                    post: 1920746869560430820
+                    video: 86e746a8-fd09-4141-979d-524ced4fa2f0
+                - postxvideo:
+                    post: 1919554837458399724
+                    video: ab614f11-559a-4b05-9110-a93a478c49d9
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: AruvDV5MZAQ
+                - youtubeshort: sVdFEGNzZmM
+                - youtubeshort: oUm5oU0O0Z4
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DJQ-mDkvfG9
+                    image: 1
+                - postximage:
+                    post: 1918967431936053416
+                    image: GqGKtFwa0AACJVD
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DJQ-mDkvfG9
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DJQ-mDkvfG9
+                    image: 4
+                - postximage:
+                    post: 1918967431936053416
+                    image: GqGKtFtbsAAScbY
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1910927664640110922
+                    video: 01
+                - postxvideo:
+                    post: 1903038891042673069
+                    video: bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+
 - postinstagram:
     id: DJQ-mDkvfG9
     account: cocoro_drum
@@ -168,6 +269,41 @@
     - postximage:
         post: 1918591839306666269
         image: GqA0m0ta0AAA-dL
+
+- postx:
+    id: 1910927664640110922
+    account: kakumei_holic
+    label: Band presentaiton
+    published-date: 2025-04-12
+    text: |-
+      🏴5月4日革命ロジック2025出演者紹介🏴
+      
+      👤NEK!
+      @nekiband_jp
+       
+      
+      結成から約半年で下北沢SHELTERのワンマンをSOLD OUTその後も、1Shibuya eggman、下北沢シャングリラ公演を立て続けに完売させ、大成功を収めた今注目の4人組ガールズバンド！
+      
+      LivePocketにてチケット発売中↓
+      http://t.livepocket.jp/e/kakumei2025
+    translation: |-
+      Introducing May 4th Kakumei Logic 2025 performer NEK! @nekiband_jp
+       
+      
+      Selling out their one-man show at Shimokitazawa SHELTER about half a year after forming, and following up with consecutive sold-out, highly successful shows at Shibuya eggman and Shimokitazawa Shangri-La, this is the 4-piece girls' band everyone is talking about!
+      
+      Tickets now on sale via LivePocket↓
+      http://t.livepocket.jp/e/kakumei2025
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - postx:
     id: 1918591839306666269
@@ -573,7 +709,7 @@
 - postximage:
     post: 1918967431936053416
     id: GqGKtFtbsAAScbY
-    label: the band
+    label: Backstage
     published-date: 2025-05-04
     context:
     - show:
@@ -585,7 +721,7 @@
 - postximage:
     post: 1918967431936053416
     id: GqGKtFwa0AACJVD
-    label: from the back of the crowd
+    label: On stage
     published-date: 2025-05-04
     context:
     - show:
@@ -620,6 +756,19 @@
         id: kakumeilogic2025
     part-of:
       postx: 1903038891042673069
+
+- postxvideo:
+    post: 1910927664640110922
+    id: 01
+    label: Band presentation
+    published-date: 2025-04-12
+    cover: 1910927543584088064/img/Goilgo0fp-2UkqfM.jpg
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    part-of:
+      postx: 1910927664640110922
 
 - postxvideo:
     post: 1919328460532494808
@@ -776,8 +925,7 @@
 
 - youtubeshort:
     id: 6waPnn_Bxis
-    label: Backstage
-    info: huddle, stage entry
+    label: Entry
     published-date: 2025-05-05
     context:
     - show:

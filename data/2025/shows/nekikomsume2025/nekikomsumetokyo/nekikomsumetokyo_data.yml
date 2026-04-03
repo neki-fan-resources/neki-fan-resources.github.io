@@ -1,3 +1,103 @@
+- display:
+    show:
+      year: 2025
+      id: nekikomsumetokyo
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: mOyYGaolObY
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1930096228966248749
+                    video: 54904afa-0889-4f5e-a1b1-fe705c2c671d
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1934127859645419907
+                    video: 01
+                - postxvideo:
+                    post: 1933082505084809657
+                    video: 01
+                - postxvideo:
+                    post: 1931252079353581736
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: wKpbdMANRTo
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1929717050664276154
+                    video: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DKdwjfZvq_r
+                    image: 4
+                - postximage:
+                    post: 1929838014714597729
+                    image: GsgpaTQb0AAv3Zr
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1973742259104591986
+                    image: G2QkHgsbUAA2O63
+                - postinstagramimage:
+                    post: DKdwjfZvq_r
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DKdwjfZvq_r
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1929551362687205700
+                    image: GsckvA4agAAsskI
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DKivwffpbA4
+                    image: 1
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1929531593523081226
+                    image: GscSvrHbMAAqkrT
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DKdwjfZvq_r
+                    image: 5
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1925839253633695948
+                    video: e0a878eb-034c-48b4-8db2-b37112a4e44a
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+
 - postinstagram:
     id: DKdwjfZvq_r
     account: cocoro_drum
@@ -493,7 +593,7 @@
     post: 1929531593523081226
     id: GscSvrHbMAAqkrT
     label: The 2 bands
-    info: NEK! and konsume band members
+    info: NEK!, konsume
     published-date: 2025-06-02
     context:
     - show:
@@ -530,7 +630,7 @@
 - postximage:
     post: 1929838014714597729
     id: GsgpaTQb0AAv3Zr
-    label: NEK! on stage
+    label: On stage
     published-date: 2025-06-03
     context:
     - show:
@@ -570,7 +670,6 @@
     post: 1930096228966248749
     id: 54904afa-0889-4f5e-a1b1-fe705c2c671d
     label: On stage
-    info: everyone sings
     published-date: 2025-06-04
     cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
     context:

@@ -1,3 +1,96 @@
+- display:
+    show:
+      year: 2025
+      id: sendaimusicfuse
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: d0xe6MdU3yI
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: FRbyFkaf9-A
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1941384970066653472
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1957813871802216509
+                    video: 01
+                - postxvideo:
+                    post: 1943937653193543886
+                    video: 01
+                - postxvideo:
+                    post: 1941062054896660964
+                    video: 01
+                - postxvideo:
+                    post: 1939993599997042981
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1943530078891315228
+                    video: 01
+                - postxvideo:
+                    post: 1941695982032617731
+                    video: 01
+                - postxvideo:
+                    post: 1938863381467013260
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: FSgmKhViYjA
+                - youtubeshort: FYIzYR84jas
+                - youtubeshort: ecPrF0wxFyU
+                - youtubeshort: Yhu9_tyO1UY
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1938880954849992881
+                    image: GuhJ7uKWcAA2JH3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1938868329671991307
+                    image: Gug-aW9WkAA-x6F
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1938868329671991307
+                    image: Gug-aW7XUAAt5w3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1938868329671991307
+                    image: Gug-aXNXYAALVaV
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1938868329671991307
+                    image: Gug-aXFaoAMN_q3
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1938880954849992881
+                    image: GuhJ7t9XEAAlg5u
+    part-of:
+      show:
+        year: 2025
+        id: sendaimusicfuse
+
 - postx:
     id: 1933086980537225689
     account: nekiband_jp
@@ -495,7 +588,7 @@
     post: 1939993599997042981
     id: 01
     label: On stage
-    info: intro
+    info: Natsu, intro
     published-date: 2025-07-01
     cover: 1939993483634262016/img/9R7TYqmQt_RNf9ye.jpg
     context:
@@ -597,6 +690,7 @@
     post: 1957813871802216509
     id: 01
     label: On stage
+    info: Natsu
     published-date: 2025-08-19
     cover: 1957813790210445312/img/LMBCErFTb75g6hVD.jpg
     context:

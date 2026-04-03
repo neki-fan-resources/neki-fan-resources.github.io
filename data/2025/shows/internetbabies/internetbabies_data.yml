@@ -1,3 +1,120 @@
+- display:
+    show:
+      year: 2025
+      id: internetbabies
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: Dy5UNGKd1ZA
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1953710557393195152
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1955576715851575746
+                    video: 01
+                - postxvideo:
+                    post: 1952355401271480375
+                    video: 01
+                - postxvideo:
+                    post: 1950849248574263303
+                    video: 01
+                - postxvideo:
+                    post: 1949470948861894839
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1953425358717591622
+                    video: 01
+                - postxvideo:
+                    post: 1951215513217994873
+                    video: 01
+                - postxvideo:
+                    post: 1949753645215412472
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1952670333594677367
+                    video: 01
+                - postxvideo:
+                    post: 1950564658236068172
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: mBFMElsMh1s
+                - youtubeshort: QyDd3xQf88o
+                - youtubeshort: qQznYrBRzx0
+                - youtubeshort: XFmBGAFdnE0
+                - youtubeshort: n9JoWcHOI9s
+                - youtubeshort: lD9WOsi_8bE
+                - youtubeshort: ow3Ixze3MfI
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1949480491713003736
+                    image: Gw3yKXybgAAvkF2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DMoNx7wzlap
+                    image: 3
+                - postximage:
+                    post: 1949482178628432379
+                    image: Gw3zn6TaUAEpk50
+                - postximage:
+                    post: 1949488433849933878
+                    image: Gw35W4kagAApR75
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1949480491713003736
+                    image: Gw3yKX3a0AA5OUn
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1949482178628432379
+                    image: Gw3zn51bAAEvtWX
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1949466891803922715
+                    image: Gw3lzMNbAAASOiw
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1949488433849933878
+                    image: Gw35W4abAAESNI9
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1949481209484169322
+                    image: Gw3y0xGbEAADFoo
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1949480491713003736
+                    image: Gw3yKXybsAAmjfa
+    part-of:
+      show:
+        year: 2025
+        id: internetbabies
+
 - postinstagram:
     id: DMoNx7wzlap
     account: cocoro_drum
@@ -613,6 +730,7 @@
     post: 1949466891803922715
     id: Gw3lzMNbAAASOiw
     label: Backstage
+    info: Kanade
     published-date: 2025-07-27
     context:
     - show:
@@ -675,6 +793,7 @@
     post: 1949482178628432379
     id: Gw3zn51bAAEvtWX
     label: Backstage
+    info: Cocoro
     published-date: 2025-07-27
     context:
     - show:
@@ -686,8 +805,8 @@
 - postximage:
     post: 1949482178628432379
     id: Gw3zn6TaUAEpk50
-    label: The drums
-    info: Cocoro
+    label: On stage
+    info: Cocoro, drum set
     published-date: 2025-07-27
     context:
     - show:
@@ -712,8 +831,8 @@
 - postximage:
     post: 1949488433849933878
     id: Gw35W4kagAApR75
-    label: Pedal board
-    info: Hika
+    label: On stage
+    info: Hika, pedal board
     published-date: 2025-07-27
     context:
     - show:
@@ -767,6 +886,7 @@
     - show:
         year: 2025
         id: internetbabies
+    - song: clockup
     part-of:
       show:
         year: 2025

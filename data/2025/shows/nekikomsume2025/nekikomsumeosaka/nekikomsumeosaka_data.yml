@@ -1,3 +1,105 @@
+- display:
+    show:
+      year: 2025
+      id: nekikomsumeosaka
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: zLd-nv4R2Xg
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1947241076508488042
+                    video: 01
+                - postxvideo:
+                    post: 1946522055312331049
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1946903555937616050
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1949012927056658865
+                    video: 01
+                - postxvideo:
+                    post: 1947952383473954991
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: SCponaBgD8U
+                - youtubeshort: fKilWDbCRDU
+                - youtubeshort: xv6kbJrnKfk
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DMUiCxHRubY
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1946214112306069505
+                    image: GwJXZgUXcAAGupz
+                - postximage:
+                    post: 1946195551969849807
+                    image: GwJGgUJXcAES7vk
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1946216562014208089
+                    image: GwJZpB_bYAA-QKV
+                - postximage:
+                    post: 1946214112306069505
+                    image: GwJXZfnaMAAULly
+                - postximage:
+                    post: 1946340941599555651
+                    image: GwLKw5MakAAwFX4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1946214112306069505
+                    image: GwJXZgPXQAACj8v
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1946340941599555651
+                    image: GwLKw54X0AAj4kl
+                - postximage:
+                    post: 1946340941599555651
+                    image: GwLKw5MaYAAfMsy
+                - postximage:
+                    post: 1946340941599555651
+                    image: GwLKw5daMAA_NCa
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1946211690053505475
+                    image: GwJVNGlboAAgHRY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1946216562014208089
+                    image: GwJZpCoXEAEFORY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1946467395964408259
+                    image: GwM9xpKXAAAYFqa
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumeosaka
+
 - postinstagram:
     id: DMUiCxHRubY
     account: nekiband_jp
@@ -433,13 +535,12 @@
     post: 1946214112306069505
     id: GwJXZgPXQAACj8v
     label: Backstage
-    info: Cocoro, Komsume drummer
+    info: Cocoro, ジンちゃん
     published-date: 2026-01-30
     context:
     - show:
         year: 2025
         id: nekikomsumeosaka
-    todo: Komsume drummer name
     part-of:
       postx: 1946214112306069505
 
@@ -566,6 +667,7 @@
     post: 1946903555937616050
     id: 01
     label: On stage
+    info: Natsu
     published-date: 2025-07-20
     cover: 1946903420922658817/img/Obfd3Y2j6UgasqDM.jpg
     context:
@@ -678,8 +780,8 @@
 
 - youtubeshort:
     id: zLd-nv4R2Xg
-    label: Backstage
-    info: huddle, entry
+    label: Entry
+    info: huddle and entry
     published-date: 2025-07-18
     context:
     - show:

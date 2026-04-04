@@ -12,11 +12,16 @@
             subsections:
             - multimediasubsection:
                 multimedia:
-                - youtubeshort: PpGQnSlWc-k
                 - youtubeshort: yTiLfgNImuc
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: PpGQnSlWc-k
                 - postxvideo:
                     post: 1997213795253674395
                     video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: rjFwvcesqg0
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -53,16 +58,6 @@
                 - postximage:
                     post: 1997198312131481624
                     image: G7d5Rhxb0AA3SK0
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: rjFwvcesqg0
     part-of:
       show:
         year: 2025

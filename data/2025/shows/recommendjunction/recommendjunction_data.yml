@@ -31,6 +31,13 @@
                     video: 01
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: OD9aNEu-d5o
+                - youtubeshort: 5UzWBF1b-Q8
+                - youtubeshort: iOHZ6WsqMoQ
+                - youtubeshort: KbsoiZszT6M
+                - youtubeshort: 5KJ2jh2-2_Q
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1986450399201820950
                     image: G5FKGbtakAAVn2_
@@ -82,6 +89,9 @@
                 - postximage:
                     post: 1986431090874306723
                     image: G5E4XdyaEAAaCja
+                - postinstagramimage:
+                    post: DQyxtV_krcV
+                    image: 04
         - basicsection:
             label: At the event
             subsections:
@@ -155,31 +165,6 @@
                   - text: The production company behind the concert had a show on TV Asahi presenting its activity a couple of weeks before the concert. A segment of the show was about the RECOMMEND JUNCTION concert.
                 - line:
                   - text: Kubuto-san, the organizer of the "Girl's Up!!!" shows at Shibuya eggman, spoke about his recommendation of NEK!.
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: OD9aNEu-d5o
-                - youtubeshort: 5UzWBF1b-Q8
-                - youtubeshort: iOHZ6WsqMoQ
-                - youtubeshort: KbsoiZszT6M
-                - youtubeshort: 5KJ2jh2-2_Q
-        - basicsection:
-            label: More from the show
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - postinstagramimage:
-                    post: DQyxtV_krcV
-                    image: 04
-                - postinstagramimage:
-                    post: DQyxtV_krcV
-                    image: 05
     part-of:
       show:
         year: 2025

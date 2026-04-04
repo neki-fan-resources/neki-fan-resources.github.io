@@ -27,6 +27,9 @@
                     video: 01
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: j5TiARezTNA
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1984885753453891858
                     image: G4u7EkaaIAAAv6w
@@ -169,27 +172,6 @@
                   - text: We also shot a TikTok with Straight Angeli, so please go and watch it if you haven't yet ✊🏻
                 - line:
                   - text: We have set the goal of definitely standing on the main stage the next time we return to Buzz Rhythm LIVE. We will continue to work hard to become an appealing band worthy of the main stage!!
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: j5TiARezTNA
-        - basicsection:
-            label: More from the show
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - postinstagramimage:
-                    post: DQq-UYsEm-W
-                    image: 04
-                - postinstagramimage:
-                    post: DQq-UYsEm-W
-                    image: 03
     part-of:
       show:
         year: 2025

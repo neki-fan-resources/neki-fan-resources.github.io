@@ -17,6 +17,10 @@
                     video: 01
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: dompps9gFj4
+                - youtubeshort: HoKEGiLelNA
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1988970473615684061
                     image: G5o-GHcacAQslRe
@@ -66,20 +70,6 @@
                 - postinstagramimage:
                     post: DRALbPzkrIB
                     image: 01
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: dompps9gFj4
-                - youtubeshort: HoKEGiLelNA
-        - basicsection:
-            label: More from the event
-            subsections:
             - multimediasubsection:
                 multimedia:
                 - postximage:

@@ -17,6 +17,11 @@
                     video: 01
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: FDHIXwhdRM4
+                - youtubeshort: KsMLKhWlKuc
+                - youtubeshort: w-tn1Dj8KUs
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2012879160021229739
                     image: G-8u6XHXEAAhMYD
@@ -62,18 +67,6 @@
                 - postximage:
                     post: 2012888595376590891
                     image: G-83gJqXIAAthCA
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: FDHIXwhdRM4
-                - youtubeshort: KsMLKhWlKuc
-                - youtubeshort: w-tn1Dj8KUs
     part-of:
       show:
         year: 2026

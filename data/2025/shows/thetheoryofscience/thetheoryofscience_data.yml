@@ -18,6 +18,11 @@
                     video: 01
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: H8lIROkXNLE
+                - youtubeshort: vH2XH93Lpd0
+                - youtubeshort: JiBQIqwpMzc
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 1990756757828980764
                     image: G6CWsLraoAAGm3v
@@ -55,18 +60,6 @@
                 - postximage:
                     post: 1990756757828980764
                     image: G6CWsLmbMAcPVxw
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: H8lIROkXNLE
-                - youtubeshort: vH2XH93Lpd0
-                - youtubeshort: JiBQIqwpMzc
     part-of:
       show:
         year: 2025

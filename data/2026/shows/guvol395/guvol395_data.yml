@@ -12,6 +12,11 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: hSCPj-QyOSM
+                - youtubeshort: 9RACyv2_ARo
+                - youtubeshort: tgPY-FoOtWk
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2007776383121117691
                     image: G90N-N4akAAw_RD
@@ -67,18 +72,6 @@
                 - postximage:
                     post: 2007698283565854834
                     image: G9zG8pSbIAArE4D
-    - basicblock:
-        id: multimedia
-        label: image / video
-        sections:
-        - basicsection:
-            label: Live video, with studio audio
-            subsections:
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: hSCPj-QyOSM
-                - youtubeshort: 9RACyv2_ARo
-                - youtubeshort: tgPY-FoOtWk
     part-of:
       show:
         year: 2026

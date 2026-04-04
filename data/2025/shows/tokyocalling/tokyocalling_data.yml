@@ -1,3 +1,105 @@
+- display:
+    show:
+      year: 2025
+      id: tokyocalling
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1976295615287132520
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: Irt9PmVz_iw
+                - youtubeshort: GxJg2931yjc
+                - youtubeshort: 1YP2n89ZgJ0
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1972588102490456172
+                    image: G2AKaoUaEAAfEQg
+                - postinstagramimage:
+                    post: DPLtNPpElQH
+                    image: 5
+                - postximage:
+                    post: 1971918444418453926
+                    image: G12pWYdbIAAp8Ib
+                - postximage:
+                    post: 1971939704607330507
+                    image: G128TQAakAAVDf7
+                - postximage:
+                    post: 1971928063769534779
+                    image: G12yHh4bgAAMFpJ
+                - postximage:
+                    post: 1971925623133425704
+                    image: G12v5sQb0AIm4dt
+                - postximage:
+                    post: 1971925623133425704
+                    image: G12v5sJaoAAIx8N
+                - postximage:
+                    post: 1971918444418453926
+                    image: G12pUcua8AEO3t3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971925623133425704
+                    image: G12v5sIa4AABkXE
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971925623133425704
+                    image: G12v5sLb0AIOljm
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971918444418453926
+                    image: G12pUg1b0AUs2d8
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971918444418453926
+                    image: G12pUf_b0AAaATF
+                - postinstagramimage:
+                    post: DPLtNPpElQH
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971928063769534779
+                    image: G12yHhua8AA--GH
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971943435419746395
+                    image: G13AGZrbcAAi-3S
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971939704607330507
+                    image: G128R3ca8AAtXAF
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971940313058177412
+                    image: G129QPzb0AIqsay
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1971946181770334695
+                    image: G13CjL-boAEclEX
+    part-of:
+      show:
+        year: 2025
+        id: tokyocalling
+
 - postinstagram:
     id: DPLiBBZkuRW
     account: cocoro_drum
@@ -458,7 +560,7 @@
     id: 1971940313058177412
     account: cure_bass_baka
     label: Thank you
-    published-date: 2025-09-28
+    published-date: 2025-09-27
     text: |-
       TOKYO CALLING 2025 @ Zirco Tokyo
       トリで出演させて頂きました！

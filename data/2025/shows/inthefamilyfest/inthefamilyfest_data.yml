@@ -1,3 +1,87 @@
+- display:
+    show:
+      year: 2025
+      id: inthefamilyfest
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1974859127206879477
+                    video: 01
+                - youtubeshort: L84GK2JEgjY
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: crMGqtPMQNI
+                - youtubeshort: yRpUEEvvtBA
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 1974387155205296495
+                    image: G2ZunFTa8AAUg4y
+                - postximage:
+                    post: 1974414868846653748
+                    image: G2aH2qXbQAAYsXq
+                - postximage:
+                    post: 1974387155205296495
+                    image: G2ZunHWbMAEVGJB
+                - postximage:
+                    post: 1974413644357362075
+                    image: G2aGuNUboAAmSty
+                - postximage:
+                    post: 1974414418764321002
+                    image: G2aHXPObQAAtugk
+                - postximage:
+                    post: 1974401449116532981
+                    image: G2Z7njobgAE8QTS
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1974387155205296495
+                    image: G2ZunFibYAAz5JQ
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1974414418764321002
+                    image: G2aHXP4a4AEwq0X
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1974414868846653748
+                    image: G2aH2qQbAAAtwS8
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1974413644357362075
+                    image: G2aGuNYaMAAZ2Ok
+                - postximage:
+                    post: 1974387155205296495
+                    image: G2ZunFWbEAAHee_
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1974401449116532981
+                    image: G2Z7njpaIAA1yyK
+                - postximage:
+                    post: 1974406428967465407
+                    image: G2aALKubYAAtpGD
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1974406428967465407
+                    image: G2aALKtbEAAoYTX
+    part-of:
+      show:
+        year: 2025
+        id: inthefamilyfest
+
 - postx:
     id: 1954845457206624572
     account: nekiband_jp
@@ -664,7 +748,7 @@
 - postxvideo:
     post: 1974859127206879477
     id: 01
-    label: Live
+    label: On stage
     info: Hika
     published-date: 2025-10-12
     cover: 1974859071187775488/img/wS2AxhB3w-sfxHtX.jpg
@@ -704,7 +788,7 @@
 
 - youtubeshort:
     id: L84GK2JEgjY
-    label: Live
+    label: On stage
     published-date: 2025-10-04
     context:
     - show:

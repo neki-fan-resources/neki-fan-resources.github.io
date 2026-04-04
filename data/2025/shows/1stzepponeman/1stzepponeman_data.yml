@@ -1,3 +1,394 @@
+- display:
+    show:
+      year: 2025
+      id: 1stzepponeman
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: '-f1iJu5MuRU'
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: lFPBSexcRHM
+                - postxvideo:
+                    post: 1964676334128693400
+                    video: 01
+                - youtubeshort: '-tZ_hveWReA'
+                - postxvideo:
+                    post: 1967554049408135190
+                    video: 01
+                - postxvideo:
+                    post: 1963245027179540838
+                    video: 01
+                - postxvideo:
+                    post: 2011772300887273544
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: JS_Soyv5qJc
+                - youtubevideo: FrNC3DDZpZg
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: VXh9xsPO1uE
+                - youtubeshort: ib_vEcMxjCg
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2021172953186988253
+                    image: HAymFh9aAAMuY7M
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 10
+                - postximage:
+                    post: 1961765828870996016
+                    image: GzmXl6fbYAASFb3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DPN6aGzETNX
+                    image: 4
+                - postinstagramimage:
+                    post: DOADb5VErTw
+                    image: 2
+                - postximage:
+                    post: 1961807893306699826
+                    image: Gzm94CPaQAAkyrR
+                - postximage:
+                    post: 1961812414485459420
+                    image: GznB_baboAAZECx
+                - postximage:
+                    post: 1961765828870996016
+                    image: GzmXl6vbkAA0r0J
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DPN6aGzETNX
+                    image: 7
+                - webimage:
+                    domain: barks.jp
+                    page: 1019083
+                    id: v1-1
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 06
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 15
+                - postximage:
+                    post: 1961765828870996016
+                    image: GzmXl6pa0AAavhd
+                - postinstagramimage:
+                    post: DUkxRDAEtct
+                    image: 9
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DO3Xr1mEkXL
+                    image: 1
+                - postinstagramimage:
+                    post: DO3Xr1mEkXL
+                    image: 2
+                - webimage:
+                    domain: barks.jp
+                    page: 1019083
+                    id: g1-1
+                - postinstagramimage:
+                    post: DO3Xr1mEkXL
+                    image: 3
+                - postximage:
+                    post: 1961807893306699826
+                    image: Gzm94CGasAIv7PE
+                - postinstagramimage:
+                    post: DO3Xr1mEkXL
+                    image: 4
+                - webimage:
+                    domain: barks.jp
+                    page: 1019083
+                    id: g2
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 12
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 03
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1981271568736276738
+                    image: G37j_GyWwAA2oxI
+                - postinstagramimage:
+                    post: DOvVNxbj21l
+                    image: 1
+                - postinstagramimage:
+                    post: DPN6aGzETNX
+                    image: 3
+                - postximage:
+                    post: 1961803764794622273
+                    image: Gzm6F7naUAE1V-I
+                - webimage:
+                    domain: barks.jp
+                    page: 1019083
+                    id: 0-3
+                - webimage:
+                    domain: barks.jp
+                    page: 1019083
+                    id: b1-3
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 13
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 04
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1962831188181311881
+                    image: Gz1gj5nbMAAQ2Qc
+                - webimage:
+                    domain: barks.jp
+                    page: 1019083
+                    id: v2-1
+                - postinstagramimage:
+                    post: DPRV1RQkv7h
+                    image: 1
+                - postinstagramimage:
+                    post: DPN6aGzETNX
+                    image: 8
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 02
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 11
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 99
+                - postximage:
+                    post: 1961812414485459420
+                    image: GznB_bebQAAf7Hn
+                - postximage:
+                    post: 1961765828870996016
+                    image: GzmXl6jbMAAtlNY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1961819558362444002
+                    image: GznIYpna4AAgbSQ
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 05
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 14
+                - postximage:
+                    post: 1976524281870979098
+                    image: G24GWMtagAA45gl
+                - postinstagramimage:
+                    post: DPN6aGzETNX
+                    image: 9
+                - postinstagramimage:
+                    post: DPN6aGzETNX
+                    image: 5
+                - postximage:
+                    post: 1969298971727212878
+                    image: G1Ra9_2bQAAkfUH
+                - webimage:
+                    domain: barks.jp
+                    page: 1019083
+                    id: d1-1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2006379318264651995
+                    image: G9gXWORaAAAsPN8
+                - webimage:
+                    domain: realsound.jp
+                    page: 2025.09.2144607
+                    id: 16
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1961807893306699826
+                    image: Gzm94CQbQAATcAD
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1961807893306699826
+                    image: Gzm94CIaUAAEAp6
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1961803764794622273
+                    image: Gzm6F7waMAANvQ6
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1963942446318125451
+                    image: G0FTKPDa0AAaKht
+                - postximage:
+                    post: 1963942446318125451
+                    image: G0FTKPAaMAAP9kZ
+                - postximage:
+                    post: 1962192489680683267
+                    image: GzsbqmqbgAANlPV
+    - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            label: Announcement
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 0hC9M6VeCJk
+                - youtubeshort: 8_JxedDmPIc
+        - basicsection:
+            label: Leading to the show
+            subsections:
+            - multimediasubsection:
+                label: Hika's week
+                multimedia:
+                - youtubeshort: 7PDPcKbpwUQ
+                - youtubeshort: 6BjdwHQ2ISY
+                - youtubeshort: voMXU8Owu3Q
+                - youtubeshort: Q0T9HcL6WBE
+            - multimediasubsection:
+                label: Kanade's week
+                multimedia:
+                - youtubeshort: BrwBqAuLRRk
+                - youtubeshort: 23T_K9ejBUI
+                - youtubeshort: DnMhjnkT3eo
+                - youtubeshort: vIKJuqDm-fE
+            - multimediasubsection:
+                label: Natsu's week
+                multimedia:
+                - youtubeshort: mKQ7W51Xg-s
+                - youtubeshort: 0OdFL28sLx0
+                - youtubeshort: istRkTl16oM
+                - youtubeshort: 6Qn1ORYc7Eo
+            - multimediasubsection:
+                label: Cocoro's week
+                multimedia:
+                - youtubeshort: He1zOmOk7b0
+                - youtubeshort: Nn2dWG_ZX4w
+                - youtubeshort: xkn_J3iNANI
+                - youtubeshort: QTeKbH9GgqE
+        - basicsection:
+            label: Rehearsal
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1956675862444769366
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1960678576212308384
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1960237149292306895
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1959203686225445197
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1957416293554155743
+                    video: 01
+                - postxvideo:
+                    post: 1957004284782055894
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1958382817307750717
+                    video: 01
+                - postxvideo:
+                    post: 1956194665641992559
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1958088489481761213
+                    video: 01
+                - postxvideo:
+                    post: 1955966782872936961
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 1950563193366954288
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: Z3FmAWbz8KM
+    - basicblock:
+        id: merch
+        label: Merch
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1961015583069335728
+                    image: GzbtRUjbUAAj0pI
+                - postinstagramimage:
+                    post: DN5VMqmEbYq
+                    image: 2
+                - postinstagramimage:
+                    post: DN5VMqmEbYq
+                    image: 3
+                - postinstagramimage:
+                    post: DN5VMqmEbYq
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: nced90123f587
+                    id: merch
+                - webimage:
+                    domain: note.com.nekiband
+                    page: nced90123f587
+                    id: merchlottery
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
 - postinstagram:
     id: DHQiyZfx7JJ
     account: nekiband_jp
@@ -647,9 +1038,6 @@
       🔗 https://note.com/nekiband_jp/n/nced90123f587
       
       #NEKI
-    image:
-    - GzL5Y08aoAAY1Tm
-    - GzL5Z5hbUAAbrZI
     part-of:
       show:
         year: 2025
@@ -659,6 +1047,14 @@
         domain: note.com.nekiband
         page: ne1cfc8d70c87
         id: flyer
+    - webimage:
+        domain: note.com.nekiband
+        page: nced90123f587
+        id: merch
+    - webimage:
+        domain: note.com.nekiband
+        page: nced90123f587
+        id: merchlottery
 
 - postx:
     id: 1961015583069335728
@@ -1231,30 +1627,6 @@
       postx: 1931984997382316384
 
 - postximage:
-    post: 1959904093104918959
-    id: GzL5Y08aoAAY1Tm
-    label: Merch
-    published-date: 2025-08-25
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      postx: 1959904093104918959
-
-- postximage:
-    post: 1959904093104918959
-    id: GzL5Z5hbUAAbrZI
-    label: Merch
-    published-date: 2025-08-25
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      postx: 1959904093104918959
-
-- postximage:
     post: 1961015583069335728
     id: GzbtRUjbUAAj0pI
     label: Merch
@@ -1332,7 +1704,8 @@
 - postximage:
     post: 1961765828870996016
     id: GzmXl6pa0AAavhd
-    label: Encore
+    label: On stage
+    info: encore
     published-date: 2025-08-30
     context:
     - show:
@@ -1344,7 +1717,7 @@
 - postximage:
     post: 1961765828870996016
     id: GzmXl6vbkAA0r0J
-    label: Venue
+    label: On stage
     published-date: 2025-08-30
     context:
     - show:
@@ -1432,7 +1805,7 @@
 - postximage:
     post: 1961812414485459420
     id: GznB_baboAAZECx
-    label: Venue
+    label: On stage
     published-date: 2025-08-30
     context:
     - show:
@@ -1470,8 +1843,8 @@
 - postximage:
     post: 1962192489680683267
     id: GzsbqmqbgAANlPV
-    label: Drum kit
-    info: before the show
+    label: On stage
+    info: drum set
     published-date: 2025-08-31
     context:
     - show:
@@ -1496,7 +1869,8 @@
 - postximage:
     post: 1963942446318125451
     id: G0FTKPAaMAAP9kZ
-    label: Drum kit
+    label: On stage
+    info: drum set
     published-date: 2025-09-05
     context:
     - show:
@@ -1508,7 +1882,7 @@
 - postximage:
     post: 1963942446318125451
     id: G0FTKPDa0AAaKht
-    label: At the drums
+    label: On stage
     info: Cocoro, before the show
     published-date: 2025-09-05
     context:
@@ -1634,7 +2008,6 @@
     page: 1019083
     id: 0-3
     label: On stage
-    info: Kanade
     published-date: 2025-09-13
     url: 'https://new-img.barks.jp/wp-content/uploads/2025/09/12205309/0-3.jpg'
     page-url: 'https://barks.jp/news/1019083/3/'
@@ -1754,113 +2127,6 @@
       webpage:
         domain: barks.jp
         id: 1019083
-
-- webimage:
-    domain: instagram.com
-    page: DPN6aGzETNX
-    id: 3
-    label: On stage
-    info: Kanade
-    published-date: 2025-09-30
-    url: 'https://www.instagram.com/p/DPN6aGzETNX'
-    local-copy: true
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: DPN6aGzETNX
-
-- webimage:
-    domain: instagram.com
-    page: DPN6aGzETNX
-    id: 4
-    label: On stage
-    published-date: 2025-09-30
-    url: 'https://www.instagram.com/p/DPN6aGzETNX'
-    local-copy: true
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: DPN6aGzETNX
-
-- webimage:
-    domain: instagram.com
-    page: DPN6aGzETNX
-    id: 5
-    label: On stage
-    info: Cocoro
-    published-date: 2025-09-30
-    url: 'https://www.instagram.com/p/DPN6aGzETNX'
-    local-copy: true
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: DPN6aGzETNX
-
-- webimage:
-    domain: instagram.com
-    page: DPN6aGzETNX
-    id: 7
-    label: On stage
-    info: Kanade, Hika
-    published-date: 2025-09-30
-    url: 'https://www.instagram.com/p/DPN6aGzETNX'
-    local-copy: true
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: DPN6aGzETNX
-
-- webimage:
-    domain: instagram.com
-    page: DPN6aGzETNX
-    id: 8
-    label: On stage
-    info: Hika
-    published-date: 2025-09-30
-    url: 'https://www.instagram.com/p/DPN6aGzETNX'
-    local-copy: true
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: DPN6aGzETNX
-
-- webimage:
-    domain: instagram.com
-    page: DPN6aGzETNX
-    id: 9
-    label: On stage
-    info: from behind Cocoro
-    published-date: 2025-09-30
-    url: 'https://www.instagram.com/p/DPN6aGzETNX'
-    local-copy: true
-    context:
-    - show:
-        year: 2025
-        id: 1stzepponeman
-    part-of:
-      webpage:
-        domain: instagram.com
-        id: DPN6aGzETNX
 
 - webimage:
     domain: note.com.nekiband
@@ -2111,7 +2377,8 @@
     domain: realsound.jp
     page: 2025.09.2144607
     id: 15
-    label: Encore
+    label: On stage
+    info: encore
     published-date: 2025-09-03
     url: 'https://realsound.jp/wp-content/uploads/2025/09/20250903-neki-15.jpg.webp'
     page-url: 'https://realsound.jp/2025/09/post-2144607.html/photo/20250903-neki-15'
@@ -2201,25 +2468,6 @@
         domain: realsound.jp
         page: 2025.09.2144607
         id: 16
-
-- webpage:
-    domain: instagram.com
-    id: DPN6aGzETNX
-    label: Photos
-    published-date: 2025-09-30
-    url: 'https://www.instagram.com/p/DPN6aGzETNX'
-    image:
-    - 3
-    - 4
-    - 5
-    - 7
-    - 8
-    - 9
-    todo: transfer to instagram support
-    part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
 
 - webpage:
     domain: note.com.nekiband
@@ -2414,6 +2662,10 @@
     label: Road to 1st Zeep
     info: Recap NEK! so far
     published-date: 2025-08-29
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
     part-of:
       show:
         year: 2025
@@ -2464,6 +2716,20 @@
     label: Cocoro's week
     info: About the other members
     published-date: 2025-07-29
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: Q0T9HcL6WBE
+    label: Hika's week
+    info: English-subtitled
+    published-date: 2025-08-25
     context:
     - show:
         year: 2025
@@ -2590,6 +2856,20 @@
     label: Cocoro's week
     info: About NEK! 1ST ZEPP ONE MAN
     published-date: 2025-07-30
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubevideo:
+    id: FrNC3DDZpZg
+    label: Announcements
+    info: English-subtitled
+    published-date: 2025-09-03
     context:
     - show:
         year: 2025

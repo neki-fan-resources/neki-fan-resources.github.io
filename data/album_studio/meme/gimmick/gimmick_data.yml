@@ -19,11 +19,17 @@
                 - postxvideo:
                     post: 1995852341493596505
                     video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2039279922972364963
+                    video: 01
         - basicsection:
             label: Live, with original audio
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: 3XhXBLy244Y
                 - postxvideo:
                     post: 1996143103410061620
                     video: 01
@@ -1502,6 +1508,22 @@
     part-of:
       postx: 2006227983917539641
 
+- postx:
+    id: 2039279922972364963
+    account: 46_hikaa
+    label: GiMMiCK solo acoustic
+    published-date: 2026-04-01
+    text: |-
+      GiMMiCKを弾き語りしてみたっ
+    translation: |-
+      Tried doing a solo acoustic cover of GiMMiCK
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2039279922972364963
+        video: 01
+
 - postximage:
     post: 1980973984511557877
     id: G33VVb_WkAEJI_9
@@ -1819,6 +1841,18 @@
     - song: gimmick
     part-of:
       postx: 2006281030660247686
+
+- postxvideo:
+    post: 2039279922972364963
+    id: 01
+    label: Solo acoustic
+    info: Hika
+    published-date: 2026-04-01
+    cover: 2039279857352531968/img/bqPVc7DLvCBB_zu0.jpg
+    context:
+    - song: gimmick
+    part-of:
+      song: gimmick
 
 - update:
     song: gimmick

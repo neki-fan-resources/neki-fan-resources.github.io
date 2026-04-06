@@ -1,0 +1,49 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndtokyo2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Countdown
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: K5oTgZj4GrI
+                - youtubeshort: wSd6wmKxfnU
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- youtubeshort:
+    id: K5oTgZj4GrI
+    label: Teaser 2
+    published-date: 2026-04-04
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    - song: maze
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- youtubeshort:
+    id: wSd6wmKxfnU
+    label: Teaser 1
+    published-date: 2026-04-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    - song: getover
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+

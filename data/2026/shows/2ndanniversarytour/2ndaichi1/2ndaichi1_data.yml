@@ -12,6 +12,9 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: wSrhczsMaRI
+            - multimediasubsection:
+                multimedia:
                 - youtubeshort: ktN1URvcgL0
             - multimediasubsection:
                 label: Images
@@ -19,6 +22,9 @@
                 - postximage:
                     post: 2037857457394126996
                     image: HEfsjTsaMAAqZY6
+                - postinstagramimage:
+                    post: DWjSqYmmtzr
+                    image: 2
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -45,9 +51,15 @@
                 - postximage:
                     post: 2037882708656054388
                     image: HEgDhWyaQAEvRXO
+                - postinstagramimage:
+                    post: DWjSqYmmtzr
+                    image: 3
                 - postximage:
                     post: 2038501065860190212
                     image: HEo1xNubwAA4z1U
+                - postinstagramimage:
+                    post: DWjSqYmmtzr
+                    image: 7
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -56,6 +68,23 @@
                 - postinstagramimage:
                     post: DWd-fPGEja_
                     image: 4
+                - postinstagramimage:
+                    post: DWjSqYmmtzr
+                    image: 4
+                - postinstagramimage:
+                    post: DWjSqYmmtzr
+                    image: 5
+                - postinstagramimage:
+                    post: DWjSqYmmtzr
+                    image: 6
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DWjSqYmmtzr
+                    video: 10
+                - postinstagramvideo:
+                    post: DWjSqYmmtzr
+                    video: 11
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -66,9 +95,20 @@
                     image: 1
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DWgnVwKktl_
+                    image: 1
                 - postximage:
                     post: 2038075549248262341
                     image: HEiy6FVaMAA8L8O
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWjSqYmmtzr
+                    image: 8
+                - postinstagramimage:
+                    post: DWjSqYmmtzr
+                    image: 9
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -126,6 +166,116 @@
     - postximage:
         post: 2038501065860190212
         image: HEo1xNubwAA4z1U
+
+- postinstagram:
+    id: DWgnVwKktl_
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2026-03-30
+    text: |-
+      .
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      ツアー6本目！ @ 愛知・NAGOYA JAMMIN’
+      
+      ありがとうございました！
+      名古屋の雰囲気が大好きだー🫶🏻
+      
+      とっても楽しい時間でしたっ
+      味噌カツもたべられて大満足🌟
+      
+      #neki #girlsbad #guitarist
+    translation: |-
+      .
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      6th stop of the tour! @ Aichi・NAGOYA JAMMIN’
+      
+      Thank you very much!
+      I love the atmosphere in Nagoya🫶🏻
+      
+      It was such a fun time
+      I'm so satisfied I got to eat miso katsu too🌟
+      
+      #neki #girlsbad #guitarist
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi1
+    reference:
+    - postximage:
+        post: 2037882708656054388
+        image: HEgDhW0aIAAFdeq
+    - postximage:
+        post: 2037857457394126996
+        image: HEfsjTub0AAo4Qc
+    - postximage:
+        post: 2037882708656054388
+        image: HEgDhWyaQAEvRXO
+
+- postinstagram:
+    id: DWjSqYmmtzr
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-03-31
+    text: |-
+      2026.03.28
+      ⁡
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      NAGOYA JAMMIN'ありがとうございました🙂‍↕️💫
+      ⁡
+      約1年ぶりの愛知でしたが、皆さんが待ってくれていたのがスタートから伝わってきてこっちもフロアの熱量にバチバチ応えてお互い汗だくの最高の夜になりました！！
+      ⁡
+      ライブ前には名古屋ならではの味噌カツ弁当を食べて、お腹いっぱいで挑んだのにライブが終わったらお腹すきまくってて楽屋戻って秒で焼肉弁当を掻き込みました笑
+      ⁡
+      気づかないようにしていたけど、今回の全国ツアーが始まってから完全に私の胃は調子に乗っています。
+      各地で美味しいご当地グルメ食べられるからってさ、、🫩
+      このままじゃ太るから自制しなくてはという気持ちと、全国ツアーの醍醐味ってこれだしワンマンやったらプラマイゼロだろうという思考がせめぎ合う日々です。
+      
+      きっとこのままファイナルまで美味しいものを食べ続けることでしょう。それで良いのだ。きっと😌
+      
+      愛知公演2日目についてはまた次回の投稿で👋🏻
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.03.28
+      ⁡
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Thank you NAGOYA JAMMIN'🙂‍↕️💫
+      ⁡
+      It’s been about a year since we were in Aichi, and I could tell from the very start that everyone had been waiting for us. We responded to the floor’s energy with everything we had, making it the best night where we were both drenched in sweat!!
+      ⁡
+      Before the show, I ate a Nagoya-style miso katsu bento and faced the stage feeling full, but by the time the live was over, I was starving and shoveled down a yakiniku bento the second I got back to the dressing room lol
+      ⁡
+      I've been trying to ignore it, but since this national tour started, my stomach has completely lost its mind.
+      Just because I can eat delicious local gourmet food in every city...🫩
+      Every day is a struggle between the feeling that I'll get fat and need to exercise self-restraint, and the thought that this is the best part of a national tour and doing a one-man show should cancel out the calories anyway.
+      
+      I'll probably just keep eating delicious food until the final. That's fine. Surely 😌
+      
+      I'll post about the second day of the Aichi performance in the next update👋🏻
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    video:
+    - 10
+    - 11
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi1
+    reference:
+    - postximage:
+        post: 2037890628642898087
+        image: HEgKuRRa8AAsDmM
 
 - postinstagramimage:
     post: DWd-fPGEja_
@@ -190,6 +340,147 @@
         id: 2ndaichi1
     part-of:
       postinstagram: DWd-fPGEja_
+
+- postinstagramimage:
+    post: DWgnVwKktl_
+    id: 1
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-05
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWgnVwKktl_
+
+- postinstagramimage:
+    post: DWjSqYmmtzr
+    id: 2
+    label: On stage
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramimage:
+    post: DWjSqYmmtzr
+    id: 3
+    label: Backstage
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramimage:
+    post: DWjSqYmmtzr
+    id: 4
+    label: Backstage
+    info: Hika, Cocoro
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramimage:
+    post: DWjSqYmmtzr
+    id: 5
+    label: Backstage
+    info: Cocoro, Natsu
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramimage:
+    post: DWjSqYmmtzr
+    id: 6
+    label: On stage
+    info: Cocoro, Kanade
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramimage:
+    post: DWjSqYmmtzr
+    id: 7
+    label: Backstage
+    info: Natsu, Kanade, Cocoro
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramimage:
+    post: DWjSqYmmtzr
+    id: 8
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramimage:
+    post: DWjSqYmmtzr
+    id: 9
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramvideo:
+    post: DWjSqYmmtzr
+    id: 10
+    label: Backstage
+    info: Cocoro, Hika
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
+
+- postinstagramvideo:
+    post: DWjSqYmmtzr
+    id: 11
+    label: Backstage
+    info: Cocoro, Kanade
+    published-date: 2026-03-31
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DWjSqYmmtzr
 
 - postx:
     id: 2037454058819305797
@@ -645,6 +936,20 @@
     - show:
         year: 2026
         id: 2ndaichi1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi1
+
+- youtubeshort:
+    id: wSrhczsMaRI
+    label: Digest movie
+    published-date: 2026-04-03
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    - song: ooak
     part-of:
       show:
         year: 2026

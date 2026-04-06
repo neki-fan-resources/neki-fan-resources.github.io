@@ -63,6 +63,36 @@
         id: artist
         group: kanade
 
+- postx:
+    id: 2038535453834617056
+    account: cure_bass_baka
+    label: "Latest Version: Kanade's Attributes"
+    published-date: 2026-03-30
+    text: |-
+      【最新版・Kanadeの属性】
+      ・ベース馬鹿
+      ・オタク
+      ・グミ魔人
+      ・癖強くつ下（な日もある）
+      
+      ・手羽先骨食い（？）←🆕
+    translation: |-
+      [Latest Version: Kanade's Attributes]
+      - Bass Idiot
+      - Otaku
+      - Gummy Demon
+      - Quirky Socks (on some days)
+      
+      - Chicken Wing Bone Eater (?) ←🆕
+    image:
+    - HEpVMAWawAAiIc6
+    part-of:
+      group:
+        id: artist
+        group: kanade
+    reference:
+    - postx: 2035674830826262775
+
 - postximage:
     post: 1978027375901188409
     id: G3NdZ3lbYAAYK8P
@@ -109,4 +139,13 @@
         id: 2ndaichi1
     part-of:
       postx: 2038055138318074079
+
+- postximage:
+    post: 2038535453834617056
+    id: HEpVMAWawAAiIc6
+    label: Kanade
+    published-date: 2026-03-30
+    todo: likely 2ndaich1, try to confirm
+    part-of:
+      postx: 2038535453834617056
 

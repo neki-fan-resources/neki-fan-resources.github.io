@@ -250,6 +250,22 @@
         id: artist
         group: hika
 
+- postx:
+    id: 2040814114021462484
+    account: 46_hikaa
+    label: everything I want and everything I love
+    published-date: 2026-04-05
+    text: |-
+      叶えたいことも好きなことも全部やる！
+    translation: |-
+      I'll do everything I want to achieve and everything I love!
+    image:
+    - HFJtno5bMAAhETc
+    part-of:
+      group:
+        id: artist
+        group: hika
+
 - postximage:
     post: 2006379318264651995
     id: G9gXWORaAAAsPN8
@@ -261,6 +277,19 @@
         id: 1stzepponeman
     part-of:
       postx: 2006379318264651995
+
+- postximage:
+    post: 2040814114021462484
+    id: HFJtno5bMAAhETc
+    label: On stage
+    info: Hika
+    published-date: 2026-04-05
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postx: 2040814114021462484
 
 - postxvideo:
     post: 1996461176130351354

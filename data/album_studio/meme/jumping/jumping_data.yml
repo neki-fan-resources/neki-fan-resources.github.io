@@ -82,6 +82,17 @@
                 - postximage:
                     post: 2006384807752946106
                     image: G9gcVIebgAA457T
+    - basicblock:
+        id: othermedia
+        label: In other media
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2039628652141572363
+                    video: 01
     part-of:
       song: jumping
 
@@ -506,6 +517,42 @@
     part-of:
       postx: 2006697179986145576
 
+- postx:
+    id: 2039628652141572363
+    account: nekiband_jp
+    label: Asuka Mirai High School Group ad
+    published-date: 2026-04-02
+    text: |-
+      📣情報解禁📣
+      
+      「飛鳥未来高校グループ～その夢も、自分らしさも、きっとうまく行く。～」
+      
+      CM曲にNEK!の「Jumping」が決定🎊
+      
+      ABEMAのCMなどで流れます！
+      
+      ぜひチェックお願いします☑️
+      
+      #NEKI
+    translation: |-
+      📣Announcement📣
+      
+      "Asuka Mirai High School Group ~That dream and your individuality will surely work out.~"
+      
+      NEK!'s "Jumping" has been chosen as the CM song🎊
+      
+      It will be played during commercials on ABEMA and more!
+      
+      Please be sure to check it out☑️
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2039628652141572363
+        video: 01
+
 - postximage:
     post: 2006382350528377083
     id: G9gaHC3aMAAkeRG
@@ -582,6 +629,18 @@
     - song: jumping
     part-of:
       postx: 2006946474081530286
+
+- postxvideo:
+    post: 2039628652141572363
+    id: 01
+    label: Ad
+    info: Asuka Mirai High School Group
+    published-date: 2026-04-02
+    cover: 2039628529432977408/img/lUBGQ9Yt9wf6VBls.jpg
+    context:
+    - song: jumping
+    part-of:
+      song: jumping
 
 - update:
     song: jumping

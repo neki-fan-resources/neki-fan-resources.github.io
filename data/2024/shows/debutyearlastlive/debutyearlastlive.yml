@@ -17,10 +17,5 @@ show:
       id: shows
       group: 2024
   multimedia:
-    video:
-    - youtubevideo: urGmtrd7zbA
-    - youtubevideo: IeBks9yGO4A
-    additional:
-    - postxvideo:
-        post: 1920434632379580460
-        video: daa90966-8453-41ab-843d-c8dc1283943a
+    main:
+      youtubevideo: urGmtrd7zbA

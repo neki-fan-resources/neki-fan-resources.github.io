@@ -41,3 +41,8 @@ tour:
     group:
       id: shows
       group: 2026
+  multimedia:
+    main:
+      localimage:
+        tour: 2ndanniversarytour
+        id: tour-map

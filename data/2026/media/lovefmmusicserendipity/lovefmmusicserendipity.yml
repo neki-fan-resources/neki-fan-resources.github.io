@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: lovefmmusicserendipity
+  cover-image:
+    webimage:
+      domain: lovefm.co.jp
+      page: music_serendipity
+      id: logo
+  radio: LOVE FM
+  show: music x serendipity
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-04-09
+  host: Sakiko
+  webpage: 'https://lovefm.co.jp/music_serendipity/programs/more'
+  part-of:
+    group:
+      id: media
+      group: 2026

@@ -1,0 +1,100 @@
+- postx:
+    id: 2041739707500130697
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-04-08
+    text: |-
+      📣RADIO📣
+      
+      4/9(木) Hika & Natsu
+      ラジオ公開生出演が決定📻
+      
+      ▼14時台
+      RKBラジオ「#さえのわっふる」
+      https://x.com/rkbwa
+      
+      ▼18時台
+      LOVE FM「music × serendipity」
+      https://x.com/761musics
+      
+      ▼19時台
+      FM福岡「Hyper Night Program GOW!!」
+      https://x.com/fmfukuoka
+      
+      お楽しみに！
+      
+      #NEKI
+    translation: |-
+      📣RADIO📣
+      
+      4/9(Thu.) Hika & Natsu
+      Public live radio appearance confirmed📻
+      
+      ▼14:00 slot
+      RKB Radio "#Saenowaffle"
+      https://x.com/rkbwa
+      
+      ▼18:00 slot
+      LOVE FM "music × serendipity"
+      https://x.com/761musics
+      
+      ▼19:00 slot
+      FM Fukuoka "Hyper Night Program GOW!!"
+      https://x.com/fmfukuoka
+      
+      Look forward to it!
+      
+      #NEKI
+    part-of:
+      media:
+        year: 2026
+        id: rkbwaffle
+    reference:
+    - media:
+        year: 2026
+        id: lovefmmusicserendipity
+    - media:
+        year: 2026
+        id: fmfukuokagow
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- update:
+    media:
+      year: 2026
+      id: rkbwaffle
+    date: 2026-04-08
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: rkbwaffle
+
+- webimage:
+    domain: rkb.jp
+    page: waffle
+    id: logo
+    label: Logo
+    published-date: 2026-04-08
+    url: 'https://api-img.rkb.jp/v=1761873863/files/topics/157345_ext_5_0.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: rkb.jp
+        id: waffle
+
+- webpage:
+    domain: rkb.jp
+    id: waffle
+    label: Show page
+    published-date: 2026-04-08
+    url: 'https://rkb.jp/radio/waffle/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: rkbwaffle
+

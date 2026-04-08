@@ -93,6 +93,22 @@
     reference:
     - postx: 2035674830826262775
 
+- postx:
+    id: 2040971926877966546
+    account: cure_bass_baka
+    label: Missing live shows
+    published-date: 2026-04-06
+    text: |-
+      １週空いただけでとてもライブロス、、！
+      熊本も福岡も人生初上陸だからめっちゃ楽しみだし、早くライブしたいです😔
+    translation: |-
+      Even just one week off and I'm totally missing live shows...!
+      Since it's my first time ever visiting both Kumamoto and Fukuoka, I'm really looking forward to it and want to do a live show soon 😔
+    part-of:
+      group:
+        id: artist
+        group: kanade
+
 - postximage:
     post: 1978027375901188409
     id: G3NdZ3lbYAAYK8P

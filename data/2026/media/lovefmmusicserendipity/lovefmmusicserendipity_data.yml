@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: lovefmmusicserendipity
+    date: 2026-04-08
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: lovefmmusicserendipity
+
+- webimage:
+    domain: lovefm.co.jp
+    page: music_serendipity
+    id: logo
+    label: Logo
+    published-date: 2026-04-08
+    url: 'https://lovefm.co.jp/files/program/186_Dbth33EXlccF0yDjxrqgTxNw8WqwVqXlyVTTXQeSy5dYxeCEFK.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: lovefm.co.jp
+        id: music_serendipity
+
+- webpage:
+    domain: lovefm.co.jp
+    id: music_serendipity
+    label: Show page
+    published-date: 2026-04-08
+    url: 'https://lovefm.co.jp/music_serendipity/programs/more'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: lovefmmusicserendipity
+

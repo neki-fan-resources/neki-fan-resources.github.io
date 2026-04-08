@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fmfukuokagow
+    date: 2026-04-08
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmfukuokagow
+
+- webimage:
+    domain: fmfukuoka.co.jp
+    page: gow
+    id: flyer
+    label: Flyer
+    published-date: 2026-04-08
+    url: 'https://fmfukuoka.co.jp/data/program/3/3_1_l.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmfukuoka.co.jp
+        id: gow
+
+- webpage:
+    domain: fmfukuoka.co.jp
+    id: gow
+    label: Show page
+    published-date: 2026-04-08
+    url: 'https://fmfukuoka.co.jp/program/gow/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: fmfukuokagow
+

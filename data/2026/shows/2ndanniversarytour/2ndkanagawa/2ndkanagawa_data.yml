@@ -17,6 +17,11 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 2041883505752486022
+                    video: 01
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
                     post: 2032380958599786640
                     video: 01
                 - postxvideo:
@@ -942,6 +947,22 @@
     reference:
     - postx: 2032356445552066993
 
+- postx:
+    id: 2041883505752486022
+    account: 46_hikaa
+    label: NEK! live shows are so much fun!
+    published-date: 2026-04-08
+    text: |-
+      NEK!のライブはたのしいぞっ
+    translation: |-
+      NEK! live shows are so much fun!
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2041883505752486022
+        video: 01
+
 - postximage:
     post: 2026925741292839329
     id: HCEVEmUaMA4kqcR
@@ -1159,6 +1180,22 @@
         year: 2026
         id: 2ndkanagawa
     - song: reigengirl
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkanagawa
+
+- postxvideo:
+    post: 2041883505752486022
+    id: 01
+    label: On stage
+    published-date: 2026-04-08
+    cover: 2041883390564298756/img/sokusGuKtDbmHz0V.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    - song: maze
     part-of:
       show:
         year: 2026

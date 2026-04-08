@@ -926,6 +926,18 @@
     part-of:
       postx: 2037890628642898087
 
+- update:
+    show:
+      year: 2026
+      id: 2ndaichi1
+    date: 2026-03-29
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi1
+
 - youtubeshort:
     id: ktN1URvcgL0
     label: On stage

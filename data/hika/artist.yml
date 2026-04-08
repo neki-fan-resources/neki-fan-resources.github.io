@@ -131,6 +131,20 @@
         id: artist
         group: hika
 
+- postinstagram:
+    id: DWyfCaxGAr7
+    account: 46_hikaa
+    label: Birthday post
+    published-date: 2026-04-06
+    text: |-
+      -
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: hika
+
 - postinstagramimage:
     post: C_JH_6YyOLY
     id: 1
@@ -163,6 +177,17 @@
         id: debutyearlastlive
     part-of:
       postinstagram: DEPGJCXplMw
+
+- postinstagramimage:
+    post: DWyfCaxGAr7
+    id: 1
+    label: Behind the scenes
+    info: Hika
+    published-date: 2026-04-06
+    context:
+    - song: scrapbook
+    part-of:
+      postinstagram: DWyfCaxGAr7
 
 - postx:
     id: 1953710557393195152

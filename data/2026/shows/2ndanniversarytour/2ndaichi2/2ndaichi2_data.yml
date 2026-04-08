@@ -12,6 +12,9 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: b3zYNhG3QWc
+            - multimediasubsection:
+                multimedia:
                 - youtubeshort: 3XhXBLy244Y
                 - postxvideo:
                     post: 2038213603120263212
@@ -899,6 +902,18 @@
         year: 2026
         id: 2ndaichi2
 
+- update:
+    show:
+      year: 2026
+      id: 2ndaichi2
+    date: 2026-03-30
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
 - youtubeshort:
     id: 3XhXBLy244Y
     label: On stage
@@ -924,6 +939,20 @@
         year: 2026
         id: 2ndaichi2
     - song: loner
+    part-of:
+      show:
+        year: 2026
+        id: 2ndaichi2
+
+- youtubeshort:
+    id: b3zYNhG3QWc
+    label: Digest movie
+    published-date: 2026-04-06
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    - song: ripoff
     part-of:
       show:
         year: 2026

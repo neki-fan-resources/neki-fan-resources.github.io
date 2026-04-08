@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: rkbwaffle
+  cover-image:
+    webimage:
+      domain: rkb.jp
+      page: waffle
+      id: logo
+  radio: RKBラジオ
+  show: '#さえのわっふる'
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-04-09
+  host: 武田 早絵 (Takeda Sae), 田尻敏明 (Toshiaki Tajiri)
+  webpage: 'https://rkb.jp/radio/waffle/'
+  part-of:
+    group:
+      id: media
+      group: 2026

@@ -1,0 +1,59 @@
+- postx:
+    id: 2042426041575329902
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-04-10
+    text: |-
+      4/11(土) @ 福岡・DRUM SON
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      🎊THANK YOU SOLD OUT🎊
+      
+      初の福岡公演ソールド‼️
+      ありがとうございます🫶✨
+      
+      ▼本日熊本公演開催🔥
+      https://note.com/nekiband_jp/n/ne9eb8dd7ab3b
+      
+      ▼大阪&ファイナル東京
+      チケット一般発売中🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      4/11(Sat) @ Fukuoka DRUM SON
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      🎊THANK YOU SOLD OUT🎊
+      
+      Our first Fukuoka performance is sold out‼️
+      Thank you so much🫶✨
+      
+      ▼Kumamoto performance held today🔥
+      https://note.com/nekiband_jp/n/ne9eb8dd7ab3b
+      
+      ▼Osaka & Tokyo Final
+      Tickets now on general sale🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HFgnp6maMAAcInj
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+
+- postximage:
+    post: 2042426041575329902
+    id: HFgnp6maMAAcInj
+    label: Poster sold out
+    published-date: 2026-04-10
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postx: 2042426041575329902
+

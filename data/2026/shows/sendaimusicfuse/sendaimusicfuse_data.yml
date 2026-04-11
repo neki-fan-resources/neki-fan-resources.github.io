@@ -1,0 +1,63 @@
+- postx:
+    id: 2042905506399031322
+    account: sendaimusicfuse
+    label: 3rd lineup announcement
+    published-date: 2026-04-11
+    text: |-
+      【第3弾出演アーティスト発表！】
+      
+      SENDAI MUSIC FUSE 2026⭐️
+      
+      カラコルムの山々/クジラ夜の街/西恵利香/ペンギンラッシュ/前髪ぱっつん少年/AFRO PARKER/KOHAKU/Laika Came Back/NEK!/Offo tokyo/the paddles/YUTORI-SEDAI/#KTCHAN
+      
+      詳細はHPから👀⬇️
+      http://sendaimusicfuse.com
+      
+      #SMF
+      #SMF2026
+      #FUSE
+    translation: |-
+      [3rd Round of Artists Announced!]
+      
+      SENDAI MUSIC FUSE 2026⭐️
+      
+      Karakorum no Yamanami / Kujira Yoru no Machi / Eriko Nishi / Penguinrush / Maegami Pattsun Shonen / AFRO PARKER / KOHAKU / Laika Came Back / NEK! / Offo tokyo / the paddles / YUTORI-SEDAI / #KTCHAN
+      
+      Check the official HP for details 👀⬇️
+      http://sendaimusicfuse.com
+      
+      #SMF
+      #SMF2026
+      #FUSE
+    image:
+    - HFnbun-asAAqMYf
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
+- postximage:
+    post: 2042905506399031322
+    id: HFnbun-asAAqMYf
+    label: 3rd lineup
+    published-date: 2026-04-11
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2042905506399031322
+
+- update:
+    show:
+      year: 2026
+      id: sendaimusicfuse
+    date: 2026-04-11
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+

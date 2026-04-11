@@ -1,3 +1,125 @@
+- postx:
+    id: 2042180265775354090
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-09
+    text: |-
+      LOVE FM「music × serendipity」
+      
+      お聴きいただきありがとうございました⚡️
+      
+      ▼番組アーカイブ📻
+      https://radiko.jp/share/?t=20260409180000&sid=LOVEFM 
+      
+      ▼ NEK!の楽曲はこちらから🎧
+      https://lnk.to/NEKI_ 
+      
+      #NEKI
+    translation: |-
+      LOVE FM "music × serendipity"
+      
+      Thank you for listening ⚡️
+      
+      ▼Program Archive 📻
+      https://radiko.jp/share/?t=20260409180000&sid=LOVEFM 
+      
+      ▼Click here for NEK! songs 🎧
+      https://lnk.to/NEKI_ 
+      
+      #NEKI
+    image:
+    - HFdIGkiawAEnuTF
+    part-of:
+      media:
+        year: 2026
+        id: lovefmmusicserendipity
+
+- postx:
+    id: 2042184767857471794
+    account: nekiband_jp
+    label: Live appearance
+    published-date: 2026-04-09
+    text: |-
+      <4/9(木) Artist Guest>
+      NEK! から Hikaさん・Natsuさん
+      ラブスタ生出演✨
+      
+      💿1st Album『 MEME (読み方：ミーム) 』
+      好評販売中！
+      
+      🎙️2nd ANNIVERSARY LIVE TOUR 2026
+      4/10(金) at 熊本・B.9 V2
+      4/11(土) at 福岡・DRUM SON
+      
+      その他詳細は公式HP・SNS等を✅
+      
+      #761musics
+    translation: |-
+      <4/9 (Thu) Artist Guest>
+      Hika and Natsu from NEK!
+      Live appearance on Love Sta ✨
+      
+      💿 1st Album "MEME" (Pronounced: Meme)
+      On sale now!
+      
+      🎙️ 2nd ANNIVERSARY LIVE TOUR 2026
+      4/10 (Fri) at Kumamoto B.9 V2
+      4/11 (Sat) at Fukuoka DRUM SON
+      
+      Check official HP/SNS etc. for other details ✅
+      
+      #761musics
+    image:
+    - HFdMNEraUAA2JmR
+    - HFdMNEragAAsJAQ
+    part-of:
+      media:
+        year: 2026
+        id: lovefmmusicserendipity
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- postximage:
+    post: 2042180265775354090
+    id: HFdIGkiawAEnuTF
+    label: At the station
+    info: Hika, Natsu
+    published-date: 2026-04-09
+    context:
+    - media:
+        year: 2026
+        id: lovefmmusicserendipity
+    part-of:
+      postx: 2042180265775354090
+
+- postximage:
+    post: 2042184767857471794
+    id: HFdMNEraUAA2JmR
+    label: At the station
+    info: Natsu, Hika
+    published-date: 2026-04-09
+    context:
+    - media:
+        year: 2026
+        id: lovefmmusicserendipity
+    part-of:
+      postx: 2042184767857471794
+
+- postximage:
+    post: 2042184767857471794
+    id: HFdMNEragAAsJAQ
+    label: At the station
+    info: 森夏華, Hika, Natsu, Sakiko
+    published-date: 2026-04-09
+    context:
+    - media:
+        year: 2026
+        id: lovefmmusicserendipity
+    part-of:
+      postx: 2042184767857471794
+
 - update:
     media:
       year: 2026

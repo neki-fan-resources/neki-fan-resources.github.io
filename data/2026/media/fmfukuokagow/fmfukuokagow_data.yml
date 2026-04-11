@@ -1,3 +1,109 @@
+- postx:
+    id: 2042196787587600635
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-04-09
+    text: |-
+      ラジオ3本目！！
+      FM福岡「Hyper Night Program GOW!!」
+      
+      地元九州でライブができること、
+      そして本日ラジオ3本も出演させて頂いて本当に嬉しいです。
+      
+      ありがとうございました！
+    translation: |-
+      Third radio appearance!!
+      FM Fukuoka "Hyper Night Program GOW!!"
+      
+      I'm truly happy to be able to perform live in my home region of Kyushu,
+      and to have had the chance to appear on three radio shows today.
+      
+      Thank you so much!
+    image:
+    - HFdXJxtbUAApL-u
+    - HFdXJxkbIAAPe3l
+    part-of:
+      media:
+        year: 2026
+        id: fmfukuokagow
+
+- postx:
+    id: 2042201711683756223
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-09
+    text: |-
+      FM福岡「Hyper Night Program GOW!!」
+      
+      ご視聴ありがとうございました📣
+      
+      ▼番組アーカイブ📻
+      https://radiko.jp/share/?t=20260409180000&sid=FMFUKUOKA 
+      
+      ▼いよいよ全国ツアー九州編開催🔥
+      明日: 熊本・B.9 V2
+      明後日: 福岡・DRUM SON
+      https://note.com/nekiband_jp/n/ne9eb8dd7ab3b?app_launch=false
+      
+      #NEKI #gow #fmfukuoka
+    translation: |-
+      FM Fukuoka "Hyper Night Program GOW!!"
+      
+      Thank you for listening 📣
+      
+      ▼Program Archive 📻
+      https://radiko.jp/share/?t=20260409180000&sid=FMFUKUOKA 
+      
+      ▼The Kyushu leg of the national tour is finally here 🔥
+      Tomorrow: Kumamoto B.9 V2
+      Day after tomorrow: Fukuoka DRUM SON
+      https://note.com/nekiband_jp/n/ne9eb8dd7ab3b?app_launch=false
+      
+      #NEKI #gow #fmfukuoka
+    image:
+    - HFdbni8bIAAo5zd
+    part-of:
+      media:
+        year: 2026
+        id: fmfukuokagow
+
+- postximage:
+    post: 2042196787587600635
+    id: HFdXJxkbIAAPe3l
+    label: Hiyoko cakes
+    published-date: 2026-04-09
+    context:
+    - media:
+        year: 2026
+        id: fmfukuokagow
+    part-of:
+      postx: 2042196787587600635
+
+- postximage:
+    post: 2042196787587600635
+    id: HFdXJxtbUAApL-u
+    label: Flag
+    published-date: 2026-04-09
+    context:
+    - media:
+        year: 2026
+        id: fmfukuokagow
+    part-of:
+      postx: 2042196787587600635
+
+- postximage:
+    post: 2042201711683756223
+    id: HFdbni8bIAAo5zd
+    label: At the station
+    info: Natsu, Hika
+    published-date: 2026-04-09
+    context:
+    - media:
+        year: 2026
+        id: fmfukuokagow
+    part-of:
+      postx: 2042201711683756223
+
 - update:
     media:
       year: 2026

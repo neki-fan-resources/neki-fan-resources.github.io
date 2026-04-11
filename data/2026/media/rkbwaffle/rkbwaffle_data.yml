@@ -60,6 +60,59 @@
         post: 1961737876066168993
         image: Gzl99vsacAA6bCZ
 
+- postx:
+    id: 2042115566035726491
+    account: rkbwa
+    label: Guest
+    published-date: 2026-04-09
+    text: |-
+      【🅖🅤🅔🅢🅣】
+      
+      技巧派ガールズバンドで国内外を問わず話題のNEK!（ネキ）から
+      #Hika さん #Natsu さんが登場🎸
+      明るく楽しく仲よくて素敵すぎる🫧
+      
+      1st AL“MEME”リリース中🎧⚡️
+      ジャケもメッカワ🎮
+      #NEKI
+      
+      〰️𝕃𝕚𝕧𝕖 𝕀𝕟𝕗𝕠.〰️
+      4月10日（金）熊本 B.9 V2🌋
+      4月11日（土）福岡DRUM SON🍜
+    translation: |-
+      【🅖🅤🅔🅢🅣】
+      
+      Hika and Natsu from the technical girls' band NEK!, 
+      who are a hot topic both in Japan and abroad, are here 🎸
+      They are so bright, fun, and close—just wonderful 🫧
+      
+      1st AL "MEME" is out now 🎧⚡️
+      The cover art is super cute too 🎮
+      #NEKI
+      
+      〰️𝕃𝕚𝕧𝕖 𝕀𝕟𝕗𝕠.〰️
+      Friday, April 10th: Kumamoto B.9 V2 🌋
+      Saturday, April 11th: Fukuoka DRUM SON 🍜
+    image:
+    - HFcNR26asAAlinw
+    part-of:
+      media:
+        year: 2026
+        id: rkbwaffle
+
+- postximage:
+    post: 2042115566035726491
+    id: HFcNR26asAAlinw
+    label: At the station
+    info: 武田早絵, Natsu, Hika, 田尻敏明
+    published-date: 2026-04-09
+    context:
+    - media:
+        year: 2026
+        id: rkbwaffle
+    part-of:
+      postx: 2042115566035726491
+
 - update:
     media:
       year: 2026

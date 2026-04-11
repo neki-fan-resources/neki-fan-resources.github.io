@@ -1,0 +1,15 @@
+show:
+  year: 2026
+  id: sakaespring
+  cover-image:
+    webimage:
+      domain: sakaespring.com
+      page: homepage
+      id: flyer
+  fullname: SAKAE SP-RING 2026
+  date: 2026-06-06
+  venue: Nagoya, Aichi
+  part-of:
+    group:
+      id: shows
+      group: 2026

@@ -2,10 +2,9 @@ show:
   year: 2026
   id: 2ndkumamoto
   cover-image:
-    webimage:
-      domain: note.com.nekiband
-      page: n3d37c2c897c8
-      id: poster01
+    postximage:
+      post: 2042475466154819702
+      image: HFhUdFrbUAA77a5
   fullname: Kumamoto
   date: 2026-04-10
   tour: 2ndanniversarytour
@@ -15,3 +14,8 @@ show:
   event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
   part-of:
     tour: 2ndanniversarytour
+  multimedia:
+    main:
+      postximage:
+        post: 2042588957729526269
+        image: HFi7zPSakAQXxuB

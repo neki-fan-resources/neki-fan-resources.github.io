@@ -19,3 +19,12 @@ mediaaudio:
     group:
       id: media
       group: 2026
+  multimedia:
+    main:
+      postximage:
+        post: 2042115566035726491
+        image: HFcNR26asAAlinw
+    image:
+    - postximage:
+        post: 2042115566035726491
+        image: HFcNR26asAAlinw

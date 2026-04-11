@@ -495,6 +495,54 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postx:
+    id: 2042247210545598661
+    account: natsu08_guitar
+    label: food and radio today, live show tomorrow
+    published-date: 2026-04-09
+    text: |-
+      今日は美味しいとラジオを堪能した日🤤📻
+      
+      明日は久しぶりのライブを
+      初の九州、熊本ライブを堪能する日🎤
+      
+      楽しみすぎて眠れないかも( ◠‿◠ )
+    translation: |-
+      Today was a day to enjoy good food and radio 🤤📻
+      
+      Tomorrow is the day to enjoy our first Kyushu live in Kumamoto,
+      our first show in a while 🎤
+      
+      I might be too excited to sleep ( ◠‿◠ )
+    image:
+    - HFeE-g-aYAAe9_o
+    - HFeE-g_bEAA1guq
+    - HFeE-hBaUAEO6RW
+    - HFeE-hLa8AAXr4F
+    part-of:
+      tour: 2ndanniversarytour
+
+- postx:
+    id: 2042255206931677337
+    account: coco_102
+    label: Mentaiju with Kanaden for dinner
+    published-date: 2026-04-09
+    text: |-
+      今日の夜ご飯はかなでんとめんたい重食べてきたよ！
+      これやばすぎる、、！！今まで食べた明太子の中でいちばん美味しかった🥲❤️
+      
+      福岡で美味しいものたくさん食べてエネルギーチャージしたので明日の熊本公演も頑張るぞーッ！！
+    translation: |-
+      I went to eat Mentaiju with Kanaden for dinner today!
+      This is too good...!! It was the best mentaiko I've ever eaten in my life 🥲❤️
+      
+      I charged my energy by eating lots of delicious food in Fukuoka, so I'm going to do my best at the Kumamoto performance tomorrow!!
+    image:
+    - HFeMSI1bUAAtvZH
+    - HFeMSIwa8AEjZw5
+    part-of:
+      tour: 2ndanniversarytour
+
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
@@ -586,6 +634,55 @@
     todo: which show ?
     part-of:
       postx: 2038501065860190212
+
+- postximage:
+    post: 2042247210545598661
+    id: HFeE-g-aYAAe9_o
+    label: Sea food
+    published-date: 2026-04-09
+    part-of:
+      postx: 2042247210545598661
+
+- postximage:
+    post: 2042247210545598661
+    id: HFeE-g_bEAA1guq
+    label: Hiyoko cakes
+    published-date: 2026-04-09
+    part-of:
+      postx: 2042247210545598661
+
+- postximage:
+    post: 2042247210545598661
+    id: HFeE-hBaUAEO6RW
+    label: Meiji
+    published-date: 2026-04-09
+    part-of:
+      postx: 2042247210545598661
+
+- postximage:
+    post: 2042247210545598661
+    id: HFeE-hLa8AAXr4F
+    label: Ramen and rice
+    published-date: 2026-04-09
+    part-of:
+      postx: 2042247210545598661
+
+- postximage:
+    post: 2042255206931677337
+    id: HFeMSI1bUAAtvZH
+    label: Mentaiju dinner
+    info: Cocoro, Kanade
+    published-date: 2026-04-09
+    part-of:
+      postx: 2042255206931677337
+
+- postximage:
+    post: 2042255206931677337
+    id: HFeMSIwa8AEjZw5
+    label: Mentaiju
+    published-date: 2026-04-09
+    part-of:
+      postx: 2042255206931677337
 
 - postxvideo:
     post: 1976295615287132520

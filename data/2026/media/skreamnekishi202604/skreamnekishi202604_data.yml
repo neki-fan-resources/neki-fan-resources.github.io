@@ -1,0 +1,70 @@
+- postx:
+    id: 2042847752904941849
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-04-11
+    text: |-
+      📚MAGAZINE📚
+      
+      フリーマガジン「Skream!4月号」
+      
+      コラム連載 "NEK!の #ネキ史" 
+      第2回が掲載📙
+      
+      今回はGt. Natsuが担当です🎸
+      
+      4/13(月)より全国のCDショップやライヴハウス、スタジオ等にて順次配布開始！
+      
+      ぜひゲットしてください✅
+      
+      🔗https://skream.jp/news/2026/04/skream_magazine_news.php
+      
+      #NEKI
+    translation: |-
+      📚MAGAZINE📚
+      
+      Free Magazine "Skream! April Issue"
+      
+      Column Series: "NEK!'s #NEKISTORY"
+      The 2nd installment is now published 📙
+      
+      This time, Gt. Natsu is in charge 🎸
+      
+      Distribution starts sequentially from 4/13 (Mon) at CD shops, live houses, studios, etc., nationwide!
+      
+      Please make sure to grab a copy ✅
+      
+      🔗https://skream.jp/news/2026/04/skream_magazine_news.php
+      
+      #NEKI
+    image:
+    - HFmnI5jakAEK1W9
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202604
+
+- postximage:
+    post: 2042847752904941849
+    id: HFmnI5jakAEK1W9
+    label: Cover
+    published-date: 2026-04-11
+    context:
+    - media:
+        year: 2026
+        id: skreamnekishi202604
+    part-of:
+      postx: 2042847752904941849
+
+- update:
+    media:
+      year: 2026
+      id: skreamnekishi202604
+    date: 2026-04-11
+    text:
+    - Added the interview
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202604
+

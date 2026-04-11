@@ -1,0 +1,459 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndkumamoto
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 0jog71_850E
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2042588957729526269
+                    image: HFi7zPSakAQXxuB
+                - postinstagramimage:
+                    post: DW9GPX-ERwX
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042579873240354900
+                    image: HFizkQcakAoO-dU
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042580325365367192
+                    image: HFiz9vSakAY5AHQ
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042580024017215710
+                    image: HFizs8iakAI2bJ6
+                - postximage:
+                    post: 2042579571346936144
+                    image: HFizSklakAIO2kK
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042579571346936144
+                    image: HFizSkna8AAawTE
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042580024017215710
+                    image: HFizs8oakAUdE0A
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+
+- postinstagram:
+    id: DW9GPX-ERwX
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-10
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍熊本・B.9 V2
+      
+      初の九州ワンマン！
+      ご来場ありがとうございました⚡️
+      
+      明日は福岡DRUM SONにてお待ちしています🎪
+      
+      https://note.com/nekiband_jp/n/ne9eb8dd7ab3b?app_launch=false
+      
+      #NEKI #ネキミーム
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍Kumamoto B.9 V2
+      
+      Our first Kyushu one-man live!
+      Thank you so much for coming ⚡️
+      
+      We'll be waiting for you tomorrow at Fukuoka DRUM SON 🎪
+      
+      https://note.com/nekiband_jp/n/ne9eb8dd7ab3b?app_launch=false
+      
+      #NEKI #NEKIMEME
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+    reference:
+    - postximage:
+        post: 2042579571346936144
+        image: HFizSklakAIO2kK
+    - postximage:
+        post: 2042588957729526269
+        image: HFi7zPSakAQXxuB
+
+- postinstagramimage:
+    post: DW9GPX-ERwX
+    id: 2
+    label: On stage
+    published-date: 2026-04-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DW9GPX-ERwX
+
+- postx:
+    id: 2042475466154819702
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-04-10
+    text: |-
+      🔥🗾本日開催🗾🔥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍熊本・B.9 V2
+      ⏰18:30 開場 / 19:00 開演
+      
+      ★グッズ先行販売は16:30から開始🎁
+      ★当日券あり🎫
+      
+      ツアー8本目熊本公演🏯
+      ご来場おまちしております！
+      
+      🔗https://note.com/nekiband_jp/n/ne9eb8dd7ab3b
+      
+      #NEKI
+    translation: |-
+      🔥🗾HELD TODAY🗾🔥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍Kumamoto B.9 V2
+      ⏰18:30 Doors Open / 19:00 Start
+      
+      ★Advance merchandise sales start at 16:30 🎁
+      ★Same-day tickets available 🎫
+      
+      Tour show #8: Kumamoto performance 🏯
+      We look forward to seeing you there!
+      
+      🔗https://note.com/nekiband_jp/n/ne9eb8dd7ab3b
+      
+      #NEKI
+    image:
+    - HFhUdFrbUAA77a5
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+
+- postx:
+    id: 2042579571346936144
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-04-10
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ 熊本・B.9 V2
+      九州1日目ありがとー！！
+      人生初熊本でめちゃ楽しかった1日🌟
+      集まってくれたみんなに感謝だよ！！
+      
+      明日の福岡のみんなも待っててね！
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ Kumamoto B.9 V2
+      Thanks for Kyushu Day 1!!
+      It was a super fun day for my first time ever in Kumamoto 🌟
+      I'm grateful to everyone who came out!!
+      
+      Everyone in Fukuoka tomorrow, wait for us!
+    image:
+    - HFizSklakAIO2kK
+    - HFizSkna8AAawTE
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+
+- postx:
+    id: 2042579873240354900
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-04-10
+    text: |-
+      NEK!全国ツアー8本目っ！熊本ー！！
+      
+      地元九州でライブが出来たこと
+      本当に嬉しくて最高の時間でした！
+      ありがとうございました！
+      
+      明日は福岡だっ
+      よろしくお願いします★⸝⸝
+    translation: |-
+      NEK! national tour show #8! Kumamoto!!
+      
+      I'm truly happy I was able to perform
+      in my home region of Kyushu, it was the best time!
+      Thank you so much!
+      
+      Tomorrow is Fukuoka
+      I look forward to seeing you ★⸝⸝
+    image:
+    - HFizkQcakAoO-dU
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+    reference:
+    - postximage:
+        post: 2042579571346936144
+        image: HFizSklakAIO2kK
+
+- postx:
+    id: 2042580024017215710
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-04-10
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      
+      ツアー8本目!熊本ー！
+      ありがとうございました！！
+      
+      初熊本、めちゃめちゃ嬉しかったー！！
+      ファンの方の熱気もすごくて幸せでした！！
+      
+      また熊本に帰って来られるよう、頑張ります💪🏻❤️‍🔥
+      明日は福岡ー！！
+      またまたあつあつの空間一緒に作ろうぜっ！
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      
+      Tour show #8! Kumamoto!
+      Thank you so much!!
+      
+      My first time in Kumamoto, I was so, so happy!!
+      The fans' energy was amazing and I was so happy!!
+      
+      I'll do my best so we can come back to Kumamoto again 💪🏻❤️‍🔥
+      Tomorrow is Fukuoka!!
+      Let's create another hot and intense space together!
+    image:
+    - HFizs8iakAI2bJ6
+    - HFizs8oakAUdE0A
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+
+- postx:
+    id: 2042580325365367192
+    account: coco_102
+    label: Thank you
+    published-date: 2026-04-10
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      熊本公演ありがとうございました🧸🖤
+      
+      初九州！めちゃめちゃ楽しかったです！！
+      皆さんの歌声や笑顔にたくさん希望をもらいました🥲
+      唯一無二の空間を一緒に作り上げてくれて本当にありがとうございました！また必ず会いましょう！！
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Thank you for the Kumamoto performance 🧸🖤
+      
+      First time in Kyushu! It was so much fun!!
+      I received so much hope from everyone's singing voices and smiles 🥲
+      Thank you so much for creating such a unique space together! Let's definitely meet again!!
+    image:
+    - HFiz9vSakAY5AHQ
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+    reference:
+    - postximage:
+        post: 2042580024017215710
+        image: HFizs8iakAI2bJ6
+
+- postx:
+    id: 2042588957729526269
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-10
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍熊本・B.9 V2
+      
+      初の九州ワンマン！
+      ご来場ありがとうございました⚡️
+      
+      明日は福岡DRUM SONにてお待ちしています🎪
+      
+      https://note.com/nekiband_jp/n/ne9eb8dd7ab3b
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍Kumamoto B.9 V2
+      
+      Our first Kyushu one-man live!
+      Thank you for coming ⚡️
+      
+      We'll be waiting for you tomorrow at Fukuoka DRUM SON 🎪
+      
+      https://note.com/nekiband_jp/n/ne9eb8dd7ab3b
+      
+      #NEKI
+    image:
+    - HFi7zPSakAQXxuB
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+    reference:
+    - postximage:
+        post: 2042579571346936144
+        image: HFizSklakAIO2kK
+
+- postximage:
+    post: 2042475466154819702
+    id: HFhUdFrbUAA77a5
+    label: Poster
+    published-date: 2026-04-10
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postx: 2042475466154819702
+
+- postximage:
+    post: 2042579571346936144
+    id: HFizSklakAIO2kK
+    label: Backstage
+    published-date: 2026-04-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postx: 2042579571346936144
+
+- postximage:
+    post: 2042579571346936144
+    id: HFizSkna8AAawTE
+    label: Backstage
+    info: Kanade
+    published-date: 2026-04-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postx: 2042579571346936144
+
+- postximage:
+    post: 2042579873240354900
+    id: HFizkQcakAoO-dU
+    label: On stage
+    info: Hika
+    published-date: 2026-04-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postx: 2042579873240354900
+
+- postximage:
+    post: 2042580024017215710
+    id: HFizs8iakAI2bJ6
+    label: Backstage
+    published-date: 2026-04-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postx: 2042580024017215710
+
+- postximage:
+    post: 2042580024017215710
+    id: HFizs8oakAUdE0A
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postx: 2042580024017215710
+
+- postximage:
+    post: 2042580325365367192
+    id: HFiz9vSakAY5AHQ
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postx: 2042580325365367192
+
+- postximage:
+    post: 2042588957729526269
+    id: HFi7zPSakAQXxuB
+    label: On stage
+    published-date: 2026-04-10
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postx: 2042588957729526269
+
+- update:
+    show:
+      year: 2026
+      id: 2ndkumamoto
+    date: 2026-04-11
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+
+- youtubeshort:
+    id: 0jog71_850E
+    label: On stage
+    published-date: 2026-04-10
+    context:
+    - song: ooak
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+

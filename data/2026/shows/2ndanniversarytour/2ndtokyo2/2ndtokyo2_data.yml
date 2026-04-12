@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: j4NSGGuh80Y
                 - youtubeshort: K5oTgZj4GrI
                 - youtubeshort: wSd6wmKxfnU
     part-of:
@@ -28,6 +29,20 @@
         year: 2026
         id: 2ndtokyo2
     - song: maze
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- youtubeshort:
+    id: j4NSGGuh80Y
+    label: Teaser 3
+    published-date: 2026-04-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    - song: zerosum
     part-of:
       show:
         year: 2026

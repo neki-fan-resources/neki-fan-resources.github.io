@@ -1,3 +1,96 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndfukuoka
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2042936458206642373
+                    image: HFn34CjasAA4oh8
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042959009054101835
+                    image: HFoMY0PakAQ12_r
+                - postximage:
+                    post: 2042931967390552455
+                    image: HFnzy5oaIAAn2vh
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042963039067213877
+                    image: HFoQDedakAUp7Lm
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042961632859689104
+                    image: HFoOxVPakAg30M9
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042959009054101835
+                    image: HFoMY0TakAQHlJF
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+
+- postinstagram:
+    id: DW_aAbQEUvg
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-11
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍福岡・DRUM SON
+      
+      九州ワンマン2DAYS🚀
+      ありがとうございました🫶✨
+      
+      NEXT ▶︎
+      ★4/18(土) 兵庫・music zoo KOBE 太陽と虎
+      ★4/19(日) 大阪・梅田シャングリラ
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍Fukuoka ・ DRUM SON
+      
+      Kyushu One-man 2DAYS🚀
+      Thank you so much🫶✨
+      
+      NEXT ▶︎
+      ★4/18 (Sat) Hyogo ・ music zoo KOBE Taiyo to Tora
+      ★4/19 (Sun) Osaka ・ Umeda Shangri-La
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+    reference:
+    - postximage:
+        post: 2042959009054101835
+        image: HFoMY0PakAQ12_r
+    - postximage:
+        post: 2042936458206642373
+        image: HFn34CjasAA4oh8
+
 - postx:
     id: 2042426041575329902
     account: nekiband_jp
@@ -44,6 +137,195 @@
         year: 2026
         id: 2ndfukuoka
 
+- postx:
+    id: 2042931967390552455
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-04-11
+    text: |-
+      NEK!初の全国ツアー9本目！福岡ー！！
+      
+      改めて福岡ソールドアウト
+      ありがとうございます。
+      
+      また九州でライブがしたい！
+      
+      あの一体感、ほんと楽しすぎた！
+      まだまだ鳴らし足りん！
+      
+      次はもっとデカくなって帰ってくるけん
+      待っとってね
+    translation: |-
+      NEK!'s first national tour, show #9! Fukuoka!!
+      
+      Thank you once again
+      for the Fukuoka sold-out show.
+      
+      I want to play live in Kyushu again!
+      
+      That sense of unity was seriously way too much fun!
+      I haven't played nearly enough yet!
+      
+      I'll come back even bigger next time,
+      so wait for me!
+    image:
+    - HFnzy5oaIAAn2vh
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+
+- postx:
+    id: 2042936458206642373
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-11
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍福岡・DRUM SON
+      
+      九州ワンマン2DAYS🚀
+      ありがとうございました🫶✨
+      
+      NEXT ▶︎
+      ★4/18(土) 兵庫・music zoo KOBE 太陽と虎
+      ★4/19(日) 大阪・梅田シャングリラ
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍Fukuoka・DRUM SON
+      
+      Kyushu One-man 2DAYS🚀
+      Thank you very much🫶✨
+      
+      NEXT ▶︎
+      ★4/18(Sat) Hyogo・music zoo KOBE Taiyo to Tora
+      ★4/19(Sun) Osaka・Umeda Shangri-La
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HFn34CjasAA4oh8
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+    reference:
+    - postximage:
+        post: 2042931967390552455
+        image: HFnzy5oaIAAn2vh
+
+- postx:
+    id: 2042959009054101835
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-04-11
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ 福岡・DRUM SON
+      
+      九州2日目ありがとー！！❤️‍🔥
+      今日もすごく楽しかったな！
+      ソールドアウトも大感謝だし、待っててくれたみんなありがとう。
+      次神戸と大阪2daysだね！
+      もうツアー終わっちゃいそうなのすごく寂しいな。
+      残りも最高なライブして駆け抜けるよ！
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ Fukuoka・DRUM SON
+      
+      Thanks for the 2nd day in Kyushu!!❤️‍🔥
+      Today was so much fun too!
+      Huge thanks for the sold out show, and thanks to everyone who was waiting for us.
+      Next is Kobe and Osaka 2days!
+      It feels like the tour is almost over already, which makes me so lonely.
+      I'm gonna run through the rest with the best live shows!
+    image:
+    - HFoMY0PakAQ12_r
+    - HFoMY0TakAQHlJF
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+
+- postx:
+    id: 2042961632859689104
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-04-11
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      9本目！福岡ー！
+      
+      めっちゃめちゃに楽しかった！！！
+      最高の空間を一緒に作り上げてくれてありがとう！
+      ソールドアウトもありがとうございます。
+      
+      NEK!の音楽がここまで届いてるんだと実感できて本当にうれしかったです！
+      
+      また成長して帰ってきます！福岡ラブ！
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      9th show! Fukuoka!
+      
+      It was so, so much fun!!!
+      Thank you for creating the best space together with us!
+      Thank you for the sold out show as well.
+      
+      I was truly happy to feel that NEK!’s music has reached this far!
+      
+      We’ll grow even more and come back! Fukuoka love!
+    image:
+    - HFoOxVPakAg30M9
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+    reference:
+    - postximage:
+        post: 2042959009054101835
+        image: HFoMY0PakAQ12_r
+
+- postx:
+    id: 2042963039067213877
+    account: coco_102
+    label: Thank you
+    published-date: 2026-04-11
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      福岡公演ありがとうございました🥁❤️
+      ソールドアウトしたパンパンなフロアと一緒にたくさん歌って踊れて楽しかったです！！
+      また九州で今日より何倍も成長した姿を皆さんにお届けできるようにこれからも頑張ります👊🏻
+      また会いましょう！！
+      
+      alt:
+      明太子ポーズ(？)
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Thank you for the Fukuoka performance🥁❤️
+      It was so much fun to sing and dance a lot with the packed, sold-out floor!!
+      I'll keep doing my best so that I can show everyone in Kyushu a version of myself that has grown many times more than today👊🏻
+      Let's meet again!!
+      
+      alt:
+      Mentaiko pose (?)
+    image:
+    - HFoQDedakAUp7Lm
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+    reference:
+    - postximage:
+        post: 2042959009054101835
+        image: HFoMY0PakAQ12_r
+
 - postximage:
     post: 2042426041575329902
     id: HFgnp6maMAAcInj
@@ -56,4 +338,91 @@
         id: 2ndfukuoka
     part-of:
       postx: 2042426041575329902
+
+- postximage:
+    post: 2042931967390552455
+    id: HFnzy5oaIAAn2vh
+    label: Backstage
+    published-date: 2026-04-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postx: 2042931967390552455
+
+- postximage:
+    post: 2042936458206642373
+    id: HFn34CjasAA4oh8
+    label: On stage
+    published-date: 2026-04-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postx: 2042936458206642373
+
+- postximage:
+    post: 2042959009054101835
+    id: HFoMY0PakAQ12_r
+    label: Backstage
+    published-date: 2026-04-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postx: 2042959009054101835
+
+- postximage:
+    post: 2042959009054101835
+    id: HFoMY0TakAQHlJF
+    label: Backstage
+    info: Kanade
+    published-date: 2026-04-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postx: 2042959009054101835
+
+- postximage:
+    post: 2042961632859689104
+    id: HFoOxVPakAg30M9
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postx: 2042961632859689104
+
+- postximage:
+    post: 2042963039067213877
+    id: HFoQDedakAUp7Lm
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-04-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postx: 2042963039067213877
+
+- update:
+    show:
+      year: 2026
+      id: 2ndfukuoka
+    date: 2026-04-12
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
 

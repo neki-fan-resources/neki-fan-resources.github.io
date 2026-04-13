@@ -1,3 +1,130 @@
+- display:
+    show:
+      year: 2026
+      id: gigantictownmeeting
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: e7iEJHolVlI
+                - postxvideo:
+                    post: 2043314563165356332
+                    video: 01
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2043299614674366617
+                    image: HFtB9AeagAAjEeL
+                - postximage:
+                    post: 2043308907393962043
+                    image: HFtKnr-awAAKTkk
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2043315837378158733
+                    image: HFtQ4miaMAA97rv
+                - postximage:
+                    post: 2043315173193404724
+                    image: HFtQT0EbMAAwKuz
+                - postinstagramimage:
+                    post: DXCG6VFkb8b
+                    image: 1
+                - postximage:
+                    post: 2043299614674366617
+                    image: HFtB8_zbQAAphgJ
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2043308907393962043
+                    image: HFtKnr8aMAA5rrA
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2043317543348379670
+                    image: HFtSd_5aAAAnGCZ
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2043315173193404724
+                    image: HFtQT0FbwAAoUFf
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- postinstagram:
+    id: DXCG6VFkb8b
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-12
+    text: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      
+      @ 梅田BANGBOO
+      
+      入場規制🈵
+      ありがとうございました!!!!
+      
+      NEK!は現在全国ツアー中🎪
+      
+      来週4/18兵庫 & 4/19大阪
+      ワンマンございますのでぜひお越しください🔥
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI #ジャイガ #ボンズ
+    translation: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      
+      @ Umeda BANGBOO
+      
+      Entry restricted 🈵
+      Thank you very much!!!!
+      
+      NEK! is currently on a nationwide tour 🎪
+      
+      We have one-man shows next week 4/18 Hyogo & 4/19 Osaka
+      so please come and join us🔥
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI #GIGA #BONDS
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+    reference:
+    - postximage:
+        post: 2043308907393962043
+        image: HFtKnr-awAAKTkk
+    - postximage:
+        post: 2043299614674366617
+        image: HFtB8_zbQAAphgJ
+    - postximage:
+        post: 2043299614674366617
+        image: HFtB9AeagAAjEeL
+
+- postinstagramimage:
+    post: DXCG6VFkb8b
+    id: 1
+    label: Backstage
+    published-date: 2026-04-12
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postinstagram: DXCG6VFkb8b
+
 - postx:
     id: 2011743468692156620
     account: giga_osaka
@@ -156,6 +283,205 @@
         year: 2026
         id: gigantictownmeeting
 
+- postx:
+    id: 2043299614674366617
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-12
+    text: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      
+      @ 梅田BANGBOO
+      
+      入場規制🈵
+      ありがとうございました!!!!
+      
+      NEK!は現在全国ツアー中🎪
+      
+      来週4/18兵庫 & 4/19大阪
+      ワンマンございますのでぜひお越しください🔥
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI #ジャイガ #ボンズ
+    translation: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      
+      @ Umeda BANGBOO
+      
+      Entry restricted 🈵
+      Thank you very much!!!!
+      
+      NEK! is currently on a nationwide tour 🎪
+      
+      We have one-man shows next week 4/18 Hyogo & 4/19 Osaka
+      so please come and join us🔥
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI #GIGA #BONDS
+    image:
+    - HFtB8_zbQAAphgJ
+    - HFtB9AeagAAjEeL
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- postx:
+    id: 2043308907393962043
+    account: coco_102
+    label: Thank you
+    published-date: 2026-04-12
+    text: |-
+      「GIGANTIC TOWN MEETING -THANKS 10TH GIGA-」ありがとうございました🤟🏻🩵
+      入場規制も本当にありがとうございます！！
+      最高に嬉しいです！NEK!の音楽がより多くの方に届きますように！
+      来週は兵庫と大阪でワンマンもやるのでよかったらみんな遊びに来てください🙂‍↕️
+      
+      (自撮りはたこ焼きポーズ🐙)
+    translation: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-" Thank you very much🤟🏻🩵
+      Thank you so much for the entry restriction as well!!
+      I'm so incredibly happy! I hope NEK!'s music reaches even more people!
+      We're doing one-man shows in Hyogo and Osaka next week, so please come visit us if you'd like🙂‍↕️
+      
+      (Selfie is a takoyaki pose🐙)
+    image:
+    - HFtKnr-awAAKTkk
+    - HFtKnr8aMAA5rrA
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- postx:
+    id: 2043314563165356332
+    account: nekiband_jp
+    label: color chord on stage
+    published-date: 2026-04-12
+    text: |-
+      2026.04.12(Sun.)
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      @ UMEDA BANGBOO
+      thank you!!!!
+      #NEKI #ジャイガ #ボンズ
+    translation: |-
+      2026.04.12(Sun.)
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      @ UMEDA BANGBOO
+      thank you!!!!
+      #NEKI #GIGA #BONDS
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2043314563165356332
+        video: 01
+
+- postx:
+    id: 2043315173193404724
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-04-12
+    text: |-
+      GIGANTIC TOWN MEETING -THANKS 10TH GIGA-
+      
+      ありがとうございました！！
+      そして入場規制も！！👏🏻
+      とっても嬉しいです😭
+      
+      前から後ろの方まで手を上げて盛り上がってくれていて、、最高でした！！
+      後ろの方まで見えてたよー！！
+      
+      来週またワンマンでお邪魔するのでぜひまた遊びにきてください！！
+    translation: |-
+      GIGANTIC TOWN MEETING -THANKS 10TH GIGA-
+      
+      Thank you so much!!
+      And an entry restriction too!!👏🏻
+      I'm so happy😭
+      
+      From the front all the way to the back, everyone had their hands up and was getting into it... it was the best!!
+      I could see everyone all the way in the back!!
+      
+      We'll be back for a one-man show next week, so please come out and see us again!!
+    image:
+    - HFtQT0EbMAAwKuz
+    - HFtQT0FbwAAoUFf
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- postx:
+    id: 2043315837378158733
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-04-12
+    text: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      
+      @ 梅田BANGBOO
+      
+      入場規制ありがとうございました！
+      楽しすぎて汗だく、あっという間だった！
+      
+      NEK!は現在全国ツアー中で
+      ワンマンぜひ遊びにきてねっ！
+    translation: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      
+      @ Umeda BANGBOO
+      
+      Thank you for the entry restriction!
+      It was so much fun I'm drenched in sweat, it was over in a flash!
+      
+      NEK! is currently on a nationwide tour
+      so please come hang out at our one-man show!
+    image:
+    - HFtQ4miaMAA97rv
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+    reference:
+    - postximage:
+        post: 2043299614674366617
+        image: HFtB9AeagAAjEeL
+
+- postx:
+    id: 2043317543348379670
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-04-12
+    text: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      @ 梅田BANGBOO
+      
+      入場規制だったみたいで大感謝🥹
+      いっぱい手上げてくれて嬉しかった！
+      来てくれたみんなありがとう！！
+      また土日にツアーで兵庫と大阪くるから待っててね🌟
+    translation: |-
+      "GIGANTIC TOWN MEETING -THANKS 10TH GIGA-"
+      @ Umeda BANGBOO
+      
+      Huge thanks for the entry restriction🥹
+      I was so happy to see so many hands up!
+      Thanks to everyone who came!!
+      We'll be back in Hyogo and Osaka for the tour this weekend, so wait for us🌟
+    image:
+    - HFtSd_5aAAAnGCZ
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+    reference:
+    - postximage:
+        post: 2043308907393962043
+        image: HFtKnr-awAAKTkk
+
 - postximage:
     post: 2011743468692156620
     id: G-slOf5bMAANpD2
@@ -217,6 +543,121 @@
     part-of:
       postx: 2032366591112040727
 
+- postximage:
+    post: 2043299614674366617
+    id: HFtB8_zbQAAphgJ
+    label: Backstage
+    published-date: 2026-04-12
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2043299614674366617
+
+- postximage:
+    post: 2043299614674366617
+    id: HFtB9AeagAAjEeL
+    label: On stage
+    published-date: 2026-04-12
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2043299614674366617
+
+- postximage:
+    post: 2043308907393962043
+    id: HFtKnr-awAAKTkk
+    label: On stage
+    published-date: 2026-04-12
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2043308907393962043
+
+- postximage:
+    post: 2043308907393962043
+    id: HFtKnr8aMAA5rrA
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-04-12
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2043308907393962043
+
+- postximage:
+    post: 2043315173193404724
+    id: HFtQT0EbMAAwKuz
+    label: Backstage
+    published-date: 2026-04-12
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2043315173193404724
+
+- postximage:
+    post: 2043315173193404724
+    id: HFtQT0FbwAAoUFf
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-12
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2043315173193404724
+
+- postximage:
+    post: 2043315837378158733
+    id: HFtQ4miaMAA97rv
+    label: Backstage
+    published-date: 2026-04-12
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2043315837378158733
+
+- postximage:
+    post: 2043317543348379670
+    id: HFtSd_5aAAAnGCZ
+    label: Backstage
+    info: Kanade
+    published-date: 2026-04-13
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postx: 2043317543348379670
+
+- postxvideo:
+    post: 2043314563165356332
+    id: 01
+    label: On stage
+    published-date: 2026-04-12
+    cover: 2043314433813020672/img/q8EmzQ7iXTBYTNkr.jpg
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    - song: colorchord
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
 - update:
     show:
       year: 2026
@@ -224,6 +665,32 @@
     date: 2026-01-30
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- update:
+    show:
+      year: 2026
+      id: gigantictownmeeting
+    date: 2026-04-13
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- youtubeshort:
+    id: e7iEJHolVlI
+    label: On stage
+    published-date: 2026-04-12
+    context:
+    - song: maze
+    - show:
+        year: 2026
+        id: gigantictownmeeting
     part-of:
       show:
         year: 2026

@@ -291,6 +291,22 @@
         id: artist
         group: hika
 
+- postx:
+    id: 2043579001168679006
+    account: 46_hikaa
+    label: NEK! Hoodie
+    published-date: 2026-04-13
+    text: |-
+      NEK!パーカー(｡•̀ᴗ-)★⸝⸝
+    translation: |-
+      NEK! Hoodie (｡•̀ᴗ-)★⸝⸝
+    image:
+    - HFxAQ_0aUAAWQ_x
+    part-of:
+      group:
+        id: artist
+        group: hika
+
 - postximage:
     post: 2006379318264651995
     id: G9gXWORaAAAsPN8
@@ -315,6 +331,15 @@
         id: tricktakingtourtokyo
     part-of:
       postx: 2040814114021462484
+
+- postximage:
+    post: 2043579001168679006
+    id: HFxAQ_0aUAAWQ_x
+    label: NEK! Hoodie
+    info: Hika
+    published-date: 2026-04-13
+    part-of:
+      postx: 2043579001168679006
 
 - postxvideo:
     post: 1996461176130351354

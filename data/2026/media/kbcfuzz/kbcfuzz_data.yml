@@ -1,0 +1,87 @@
+- postx:
+    id: 2042869158191542378
+    account: kbcradio_fuzz
+    label: Announcement
+    published-date: 2026-04-13
+    text: |-
+      |◤ KBC MUSIC PROGRAM "FUZZ" ◢|
+      
+      4/13のゲスト③(事前収録)
+      
+      　"NEK!"
+          
+      @nekiband_jp
+       
+      
+      #KBC_FUZZ
+      #KBC_MUSIC
+    translation: |-
+      |◤ KBC MUSIC PROGRAM "FUZZ" ◢|
+      
+      4/13 Guest ③ (Pre-recorded)
+      
+      　"NEK!"
+          
+      @nekiband_jp
+       
+      
+      #KBC_FUZZ
+      #KBC_MUSIC
+    image:
+    - HFm6phlakAABfBF
+    part-of:
+      media:
+        year: 2026
+        id: kbcfuzz
+
+- postximage:
+    post: 2042869158191542378
+    id: HFm6phlakAABfBF
+    label: At the station
+    info: 坂口カンナ, Natsu, Hika, コウズマユウタ
+    published-date: 2026-04-13
+    context:
+    - media:
+        year: 2026
+        id: kbcfuzz
+    part-of:
+      postx: 2042869158191542378
+
+- update:
+    media:
+      year: 2026
+      id: kbcfuzz
+    date: 2026-04-13
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: kbcfuzz
+
+- webimage:
+    domain: kbc.co.jp
+    page: fuzz
+    id: flyer
+    label: Logo
+    published-date: 2026-04-11
+    url: 'https://kbc.co.jp/fuzz/img/logo.png?240401'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: kbc.co.jp
+        id: fuzz
+
+- webpage:
+    domain: kbc.co.jp
+    id: fuzz
+    label: Show page
+    published-date: 2026-04-11
+    url: 'https://kbc.co.jp/fuzz/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: kbcfuzz
+

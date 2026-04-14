@@ -46,6 +46,14 @@
                     post: 1970827214980874512
                     video: 01
         - basicsection:
+            label: On stage
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DQqkTH-kn18
+                    image: 01
+        - basicsection:
             label: Rehearsal, with original audio
             subsections:
             - multimediasubsection:
@@ -176,6 +184,9 @@
                 - postximage:
                     post: 1959760382345806176
                     image: GzH8F6HbkAA8Lxi
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: gP1xDSG7WPo
         - basicsection:
             subsections:
             - multimediasubsection:
@@ -2443,6 +2454,16 @@
     label: Rehearsal
     info: studio audio
     published-date: 2025-08-09
+    context:
+    - song: ripoff
+    part-of:
+      song: ripoff
+
+- youtubeshort:
+    id: gP1xDSG7WPo
+    label: Between shoots
+    info: 'Natsu finding a four-leaf clover '
+    published-date: 2025-09-23
     context:
     - song: ripoff
     part-of:

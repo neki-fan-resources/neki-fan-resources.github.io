@@ -167,6 +167,9 @@
                     page: 1019083
                     id: v2-1
                 - postinstagramimage:
+                    post: DQqkTH-kn18
+                    image: 01
+                - postinstagramimage:
                     post: DPRV1RQkv7h
                     image: 1
                 - postinstagramimage:
@@ -716,6 +719,25 @@
         year: 2025
         id: 1stzepponeman
 
+- postinstagram:
+    id: DQqkTH-kn18
+    account: 46_hikaa
+    label: about future
+    published-date: 2025-11-05
+    text: |-
+      先の未来だって終わらせてやらない
+      
+      #neki
+    translation: |-
+      I won't let the future ahead of us end
+      #neki
+    image:
+    - 01
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
 - postinstagramimage:
     post: DHQiyZfx7JJ
     id: 1
@@ -934,6 +956,20 @@
     - song: loner
     part-of:
       postinstagram: DPRV1RQkv7h
+
+- postinstagramimage:
+    post: DQqkTH-kn18
+    id: 01
+    label: On stage
+    info: Hika
+    published-date: 2025-11-05
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: ripoff
+    part-of:
+      postinstagram: DQqkTH-kn18
 
 - postx:
     id: 1931984997382316384

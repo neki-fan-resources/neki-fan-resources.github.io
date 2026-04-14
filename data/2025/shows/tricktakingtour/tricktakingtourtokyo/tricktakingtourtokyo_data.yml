@@ -104,6 +104,9 @@
                 - postximage:
                     post: 1994628356743323907
                     image: G65X500bkAAecjn
+                - postinstagramimage:
+                    post: DHS7gafPqYZ
+                    image: 8
                 - postximage:
                     post: 1931984997382316384
                     image: Gs_KDFfb0AAtXQ1
@@ -116,8 +119,19 @@
                 - postximage:
                     post: 1901237824059564330
                     image: GmKNtB7a4AAf8JX
+                - postinstagramimage:
+                    post: DHS7gafPqYZ
+                    image: 5
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DHS7gafPqYZ
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DHS7gafPqYZ
+                    image: 6
                 - postximage:
                     post: 1901572243064553567
                     image: GmO9323boAAPy59
@@ -208,6 +222,9 @@
                 - postximage:
                     post: 1901237824059564330
                     image: GmKNtB1aEAASeIz
+                - postinstagramimage:
+                    post: DUki5USkTHv
+                    image: 3
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -611,11 +628,32 @@
       Photo by @ryuji_kinmruj 
       
       #neki #neki_band #girlsband #drum #drummer #girldrummer #femaledrummer #NowSpreading #NekiCircle
-    todo: process report, process images
+    image:
+    - 3
+    - 5
+    - 6
+    - 8
+    todo: process report
     part-of:
       show:
         year: 2025
         id: tricktakingtourtokyo
+    reference:
+    - postximage:
+        post: 1901572243064553567
+        image: GmO9323boAAPy59
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOOzfbEAA3Ocq
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOQD1b0AAeAez
+    - postximage:
+        post: 1901237824059564330
+        image: GmKNtBzbkAAxecj
+    - postximage:
+        post: 1901237824059564330
+        image: GmKNtB1aEAASeIz
 
 - postinstagram:
     id: DHTDrMZRjhM
@@ -862,6 +900,56 @@
         id: tricktakingtourtokyo
     part-of:
       postinstagram: DHS6MeBP9h2
+
+- postinstagramimage:
+    post: DHS7gafPqYZ
+    id: 3
+    label: On stage
+    info: Cocoro, Hika
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHS7gafPqYZ
+
+- postinstagramimage:
+    post: DHS7gafPqYZ
+    id: 5
+    label: On stage
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHS7gafPqYZ
+
+- postinstagramimage:
+    post: DHS7gafPqYZ
+    id: 6
+    label: On stage
+    info: Cocoro
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHS7gafPqYZ
+
+- postinstagramimage:
+    post: DHS7gafPqYZ
+    id: 8
+    label: On stage
+    published-date: 2025-03-16
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      postinstagram: DHS7gafPqYZ
 
 - postinstagramimage:
     post: DHTDrMZRjhM

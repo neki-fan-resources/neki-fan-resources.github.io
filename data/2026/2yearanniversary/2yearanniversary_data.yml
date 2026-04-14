@@ -66,12 +66,20 @@
       
       #NEKI
     image:
-    - 1
     - 2
     - 3
-    todo: check shows
     part-of:
       event: 2yearanniversary
+    reference:
+    - postinstagramimage:
+        post: DEKj3fzz9qj
+        image: 6
+    - postximage:
+        post: 1961765828870996016
+        image: GzmXl6pa0AAavhd
+    - postximage:
+        post: 1901237824059564330
+        image: GmKNtB1aEAASeIz
 
 - postinstagram:
     id: DUkxRDAEtct
@@ -151,14 +159,6 @@
 
 - postinstagramimage:
     post: DUki5USkTHv
-    id: 1
-    label: On stage
-    published-date: 2026-02-10
-    part-of:
-      postinstagram: DUki5USkTHv
-
-- postinstagramimage:
-    post: DUki5USkTHv
     id: 2
     label: Backstage
     published-date: 2026-02-10
@@ -174,6 +174,10 @@
     id: 3
     label: On stage
     published-date: 2026-02-10
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
     part-of:
       postinstagram: DUki5USkTHv
 

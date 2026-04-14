@@ -142,10 +142,13 @@
 - postinstagramimage:
     post: DMUiCxHRubY
     id: 2
-    label: ???
+    label: In Kobe
     info: Natsu, Kanade
     published-date: 2025-07-20
-    todo: find location. attach to radio appearancne
+    context:
+    - media:
+        year: 2025
+        id: kissfmkobe
     part-of:
       postinstagram: DMUiCxHRubY
 

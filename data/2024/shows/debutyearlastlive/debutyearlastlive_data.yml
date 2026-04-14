@@ -675,21 +675,6 @@
         image: Gg1XJ0MaMAIVoZ8
 
 - postinstagram:
-    id: DGGQ5ZSTWs2
-    account: 46_hikaa
-    label: Photo
-    published-date: 2025-02-15
-    text: |-
-      -
-    image:
-    - 1
-    todo: double check show
-    part-of:
-      show:
-        year: 2024
-        id: debutyearlastlive
-
-- postinstagram:
     id: DJO4LpSJkzO
     account: nekiband_jp
     label: Live video release
@@ -950,19 +935,6 @@
         id: debutyearlastlive
     part-of:
       postinstagram: DEPHvlPypM2
-
-- postinstagramimage:
-    post: DGGQ5ZSTWs2
-    id: 1
-    label: On stage
-    info: Hika
-    published-date: 2025-02-15
-    context:
-    - show:
-        year: 2024
-        id: debutyearlastlive
-    part-of:
-      postinstagram: DGGQ5ZSTWs2
 
 - postinstagramimage:
     post: DJO4LpSJkzO

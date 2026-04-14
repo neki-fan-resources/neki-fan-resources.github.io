@@ -30,6 +30,11 @@
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
+                    post: DGGQ5ZSTWs2
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
                     post: DFSLXg4PRqH
                     image: 4
             - multimediasubsection:
@@ -120,6 +125,20 @@
         post: 1883412170689679481
         image: GiM5YBjaAAALbCy
 
+- postinstagram:
+    id: DGGQ5ZSTWs2
+    account: 46_hikaa
+    label: Photo
+    published-date: 2025-02-15
+    text: |-
+      -
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2025
+        id: youandi
+
 - postinstagramimage:
     post: DFSLXg4PRqH
     id: 3
@@ -157,6 +176,19 @@
         id: youandi
     part-of:
       postinstagram: DFSLXg4PRqH
+
+- postinstagramimage:
+    post: DGGQ5ZSTWs2
+    id: 1
+    label: On stage
+    info: Hika
+    published-date: 2025-02-15
+    context:
+    - show:
+        year: 2025
+        id: youandi
+    part-of:
+      postinstagram: DGGQ5ZSTWs2
 
 - postx:
     id: 1862471067115430271

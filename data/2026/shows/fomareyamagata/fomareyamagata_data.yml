@@ -12,17 +12,17 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postinstagramvideo:
+                    post: DW3o85xkTAS
+                    video: 1
+            - multimediasubsection:
+                multimedia:
                 - youtubeshort: zRSdYerjZYU
                 - postxvideo:
                     post: 2037029694374367336
                     video: 01
             - multimediasubsection:
                 label: Images
-                multimedia:
-                - postinstagramimage:
-                    post: DWYdMRRmpnM
-                    image: 4
-            - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 2036960710434181299
@@ -114,6 +114,30 @@
       show:
         year: 2026
         id: fomareyamagata
+
+- postinstagram:
+    id: DW3o85xkTAS
+    account: coco_102
+    label: Dreams!!!! on stage
+    published-date: 2026-04-08
+    text: |-
+      Dreams!!!!
+      ⁡
+      九州でもたくさん一緒に歌おうね🤝🏻🌟
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      Dreams!!!!
+      ⁡
+      Let's sing together a lot in Kyushu too 🤝🏻🌟
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    video:
+    - 1
+    part-of:
+      postinstagramvideo:
+        post: DW3o85xkTAS
+        video: 1
 
 - postinstagram:
     id: DWV9f_3koS2
@@ -452,8 +476,7 @@
     context:
     - show:
         year: 2026
-        id: fomareyamagata
-    todo: likely from akita, same color image in the show
+        id: fomareakita
     part-of:
       postinstagram: DWYdMRRmpnM
 
@@ -508,6 +531,22 @@
         id: fomareyamagata
     part-of:
       postinstagram: DWYmdeTEvSd
+
+- postinstagramvideo:
+    post: DW3o85xkTAS
+    id: 1
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-08
+    context:
+    - song: dreams
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      show:
+        year: 2026
+        id: fomareyamagata
 
 - postx:
     id: 2036679679281914243

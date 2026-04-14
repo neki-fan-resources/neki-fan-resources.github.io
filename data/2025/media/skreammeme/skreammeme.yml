@@ -2,11 +2,9 @@ mediawritten:
   year: 2025
   id: skreammeme
   cover-image:
-    localimage:
-      media:
-        year: 2025
-        id: skreammeme
-      id: logo
+    postximage:
+      post: 1999038338599371214
+      image: G74CxYqacAATAOR
   publication: Skream!
   issue: MEME release
   designation: Interview
@@ -18,7 +16,6 @@ mediawritten:
   published-date: 2025-11-29
   journalist: 宮﨑 大樹 (Miyazaki Hiroki)
   article-page: 'https://skream.jp/interview/2025/11/neki.php'
-  todo: switch cover image to paper cover, process webpage
   part-of:
     group:
       id: media

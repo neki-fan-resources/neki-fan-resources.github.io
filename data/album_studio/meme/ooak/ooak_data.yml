@@ -177,6 +177,12 @@
                     image: 1
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DKvthrRvi7M
+                    image: 1
+                - postinstagramimage:
+                    post: DKvthrRvi7M
+                    image: 2
                 - postximage:
                     post: 1936646576686153867
                     image: GuBZxw1XUAA8lrO
@@ -396,6 +402,20 @@
         - We can make you free so come with us now
 
 - postinstagram:
+    id: DKvthrRvi7M
+    account: cocoro_drum
+    label: Accessories
+    info: 2 photos
+    published-date: 2025-06-11
+    text: |-
+      -
+    image:
+    - 1
+    - 2
+    part-of:
+      song: ooak
+
+- postinstagram:
     id: DLH5AVtyRoV
     account: natsu08_guitar
     label: MV released
@@ -576,6 +596,28 @@
       postinstagramvideo:
         post: DPLpE1uEkxt
         video: 1
+
+- postinstagramimage:
+    post: DKvthrRvi7M
+    id: 1
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-06-11
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DKvthrRvi7M
+
+- postinstagramimage:
+    post: DKvthrRvi7M
+    id: 2
+    label: Behind the scenes
+    info: Cocoro
+    published-date: 2025-06-11
+    context:
+    - song: ooak
+    part-of:
+      postinstagram: DKvthrRvi7M
 
 - postinstagramimage:
     post: DLH5AVtyRoV

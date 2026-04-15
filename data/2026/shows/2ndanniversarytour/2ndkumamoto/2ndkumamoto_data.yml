@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: PVNyjNZwQ0A
                 - youtubeshort: 0jog71_850E
             - multimediasubsection:
                 label: Images
@@ -45,11 +46,23 @@
                 - postximage:
                     post: 2042579571346936144
                     image: HFizSkna8AAawTE
+                - postinstagramvideo:
+                    post: DXJczAgj81v
+                    video: 2
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DXJ0b9BkkmE
+                    image: 1
                 - postximage:
                     post: 2042580024017215710
                     image: HFizs8oakAUdE0A
+                - postinstagramimage:
+                    post: DXJ0b9BkkmE
+                    image: 2
+                - postinstagramimage:
+                    post: DXJ0b9BkkmE
+                    image: 3
     part-of:
       show:
         year: 2026
@@ -100,6 +113,23 @@
         post: 2042588957729526269
         image: HFi7zPSakAQXxuB
 
+- postinstagram:
+    id: DXJ0b9BkkmE
+    account: natsu08_guitar
+    label: Photos
+    published-date: 2026-04-15
+    text: |-
+      .
+      📸
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+
 - postinstagramimage:
     post: DW9GPX-ERwX
     id: 2
@@ -111,6 +141,45 @@
         id: 2ndkumamoto
     part-of:
       postinstagram: DW9GPX-ERwX
+
+- postinstagramimage:
+    post: DXJ0b9BkkmE
+    id: 1
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DXJ0b9BkkmE
+
+- postinstagramimage:
+    post: DXJ0b9BkkmE
+    id: 2
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DXJ0b9BkkmE
+
+- postinstagramimage:
+    post: DXJ0b9BkkmE
+    id: 3
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DXJ0b9BkkmE
 
 - postx:
     id: 2042475466154819702
@@ -452,6 +521,20 @@
     - show:
         year: 2026
         id: 2ndkumamoto
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+
+- youtubeshort:
+    id: PVNyjNZwQ0A
+    label: Digest movie
+    published-date: 2026-04-14
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    - song: scrapbook
     part-of:
       show:
         year: 2026

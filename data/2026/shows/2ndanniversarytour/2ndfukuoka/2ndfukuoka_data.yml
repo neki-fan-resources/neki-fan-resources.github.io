@@ -91,6 +91,59 @@
         post: 2042936458206642373
         image: HFn34CjasAA4oh8
 
+- postinstagram:
+    id: DXJczAgj81v
+    account: cure_bass_baka
+    label: Kanade's report
+    published-date: 2026-04-15
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ 熊本・B.9 V2
+      @ 福岡・DRUM SON⁡
+      ⁡
+      九州ありがとねー！！
+      熊本も福岡もとても楽しい2日間でした🌟
+      写真下手だから載せてないけど、ご飯がとてつもなく美味しすぎたよ！
+      ⁡
+      ツアー残り3本、気合い入れてこ！
+      ⁡
+       #NEKI
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ Kumamoto・B.9 V2
+      @ Fukuoka・DRUM SON
+      ⁡
+      Thank you, Kyushu!!
+      Both Kumamoto and Fukuoka were a very fun 2 days🌟
+      I'm bad at photos so I didn't post any, but the food was incredibly delicious!
+      ⁡
+      3 shows left on the tour, let's fire it up!
+      ⁡
+       #NEKI
+    video:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+    reference:
+    - postximage:
+        post: 2042579571346936144
+        image: HFizSkna8AAawTE
+
+- postinstagramvideo:
+    post: DXJczAgj81v
+    id: 2
+    label: Backstage
+    info: Kanade
+    published-date: 2026-04-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DXJczAgj81v
+
 - postx:
     id: 2042426041575329902
     account: nekiband_jp

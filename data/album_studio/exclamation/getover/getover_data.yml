@@ -275,6 +275,14 @@
       source:
         description: from YouTube Official Music Video description
         url: 'https://www.youtube.com/watch?v=TWbLqba3oag'
+    - id: ro
+      name: rōmaji
+      no-translation: true
+    - id: ww
+      name: word by word translation
+      details: (using jisho.org)
+      base-url: 'https://jisho.org/search/'
+      url-text: J
     - id: en
       name: english translation
       details: (from YouTube Official Music Video subtitles)
@@ -285,48 +293,223 @@
     sections:
     - lines:
       - ol:
-        - 完璧主義者の Falling down
+        - 完璧主義者
+        - の
+        - Falling down
+        ro:
+        - kanpekishugisha
+        - no
+        ww:
+        - w: perfectionist
+          d: 完璧主義者
+        - w: ('s)
+          d: の
+        - ''
+        - d: 完璧主義者の
         en:
         - Perfectionist’s Falling down
       - ol:
-        - 完全体は脆いもの
+        - 完全体
+        - は
+        - 脆い
+        - もの
+        ro:
+        - kanzentai
+        - wa
+        - moroi
+        - mono
+        ww:
+        - w: perfect
+          d: 完全体
+        - w: ''
+          d: は
+        - w: fragile
+          d: 脆い
+        - w: thing
+          d: もの
+        - d: 完全体は脆いもの
         en:
         - Perfection is fragile
       - ol:
-        - 最高潮に至ってしまえば Going down
+        - 最高潮
+        - に
+        - 至って
+        - しまえば
+        - Going down
+        ro:
+        - saikōchō
+        - ni
+        - itatte
+        - shimaeba
+        ww:
+        - w: peak
+          d: 最高潮
+        - w: to
+          d: に
+        - w: reach
+          d: 至って
+        - w: complete
+          d: しまえば
+        - ''
+        - d: 最高潮に至ってしまえば
         en:
-        - Once the summit is reached,Going down
+        - Once the summit is reached, Going down
     - lines:
       - ol:
-        - 完成された Story line
+        - 完成された
+        - Story line
+        ro:
+        - kanseisareta
+        ww:
+        - w: perfected
+          d: 完成された
+        - d: 完成された
         en:
         - A perfected story line
       - ol:
-        - ここから何もイメージできやしない
+        - ここ
+        - から
+        - 何も
+        - イメージ
+        - できやしない
+        ro:
+        - koko
+        - kara
+        - nanimo
+        - imēji
+        - dekiyashinai
+        ww:
+        - w: here
+          d: ここ
+        - w: from
+          d: から
+        - w: anything
+          d: 何も
+        - w: image
+          d: イメージ
+        - w: cannot
+          d: できやしない
+        - d: ここから何もイメージできやしない
         en:
         - I can't image anything from here
       - ol:
         - Do you think you need me?
     - lines:
       - ol:
-        - 関係性まで Organize
+        - 関係性
+        - まで
+        - Organize
+        ro:
+        - kankeisei
+        - made
+        ww:
+        - w: relationship
+          d: 関係性
+        - w: up to
+          d: まで
+        - ''
+        - d: 関係性まで
         en:
         - Organize even the relationships
       - ol:
-        - 簡単に終わる今日みたい
+        - 簡単
+        - に
+        - 終わる
+        - 今日
+        - みたい
+        ro:
+        - kantan
+        - ni
+        - owaru
+        - kyō
+        - mitai
+        ww:
+        - w: easy
+          d: 簡単
+        - w: to
+          d: に
+        - w: to end
+          d: 終わる
+        - w: this day
+          d: 今日
+        - w: '-like'
+          d: みたい
+        - d: 簡単に終わる今日みたい
         en:
         - It feels like a day that ends easily
       - ol:
-        - 最高潮も終わってしまえば Breaking down
+        - 最高潮
+        - も
+        - 終わって
+        - しまえば
+        - Breaking down
+        ro:
+        - saikōchō
+        - mo
+        - owatte
+        - shimaeba
+        ww:
+        - w: peak
+          d: 最高潮
+        - w: also
+          d: も
+        - w: end
+          d: 終わって
+        - w: complete
+          d: しまえば
+        - ''
+        - d: 最高潮も終わってしまえば
         en:
         - Even the peak ends up breaking down
     - lines:
       - ol:
-        - 関心ないなら Sorry, Bye
+        - 関心
+        - ない
+        - なら
+        - Sorry, Bye
+        ro:
+        - kanshin
+        - nai
+        - nara
+        ww:
+        - w: interest
+          d: 関心
+        - w: not there
+          d: ない
+        - w: if
+          d: なら
+        - ''
+        - d: 関心ないなら
         en:
         - If you're not interested, sorry, bye
       - ol:
-        - ここから何も始まりはしない
+        - ここ
+        - から
+        - 何も
+        - 始まり
+        - は
+        - しない
+        ro:
+        - koko
+        - kara
+        - nanimo
+        - hajimari
+        - wa
+        - shinai
+        ww:
+        - w: here
+          d: ここ
+        - w: from
+          d: から
+        - w: anything
+          d: 何も
+        - w: start
+          d: 始まり
+        - w: ''
+          d: は
+        - w: do not
+          d: しない
+        - d: ここから何も始まりはしない
         en:
         - Nothing starts here
       - ol:
@@ -337,46 +520,225 @@
       - ol:
         - I’m moving on and carrying on.
       - ol:
-        - どうせ前にしか道は無い
+        - どうせ
+        - 前に
+        - しか
+        - 道
+        - は
+        - 無い
+        ro:
+        - dōse
+        - maeni
+        - shika
+        - michi
+        - wa
+        - nai
+        ww:
+        - w: anyway
+          d: どうせ
+        - w: ahead
+          d: 前に
+        - w: no more than
+          d: しか
+        - w: way
+          d: 道
+        - w: ''
+          d: は
+        - w: not being
+          d: 無い
+        - d: どうせ前にしか道は無い
         en:
         - There's only one way forward anyway
       - ol:
-        - 絶望だって 拾い集めてさあ
+        - 絶望
+        - だって
+        - ' '
+        - 拾い
+        - 集めて
+        - さあ
+        ro:
+        - zetsubō
+        - datte
+        - ''
+        - hiroi
+        - atsumete
+        - sā
+        ww:
+        - w: hopelessness
+          d: 絶望
+        - w: as well
+          d: だって
+        - ' '
+        - w: pick up
+          d: 拾い
+        - w: collect
+          d: 集めて
+        - w: now
+          d: さあ
+        - d: 絶望だって 拾い集めてさあ
         en:
         - Hopelessness Pick it up and collect it
     - lines:
       - ol:
-        - 壊しても行こうじゃない
+        - 壊して
+        - も
+        - 行こう
+        - じゃない
+        ro:
+        - kowashite
+        - mo
+        - ikō
+        - janai
+        ww:
+        - w: break
+          d: 壊して
+        - w: even
+          d: も
+        - w: go
+          d: 行こう
+        - w: (emphasis)
+          d: じゃない
+        - d: 壊しても行こうじゃない
         en:
         - We'll go even if we have to break it
       - ol:
         - I don’t say that you’re wasting my time
       - ol:
-        - 後悔はない
+        - 後悔
+        - は
+        - ない
+        ro:
+        - kōkai
+        - wa
+        - nai
+        ww:
+        - w: regret
+          d: 後悔
+        - w: ''
+          d: は
+        - w: not being
+          d: ない
+        - d: 後悔はない
         en:
         - No regrets
       - ol:
         - I kiss myself goodbye
     - lines:
       - ol:
-        - 関係ないの Crossing line
+        - 関係ない
+        - の
+        - Crossing line
+        ro:
+        - kankeinai
+        - no
+        ww:
+        - w: irrelevant
+          d: 関係ない
+        - w: ('s)
+          d: の
+        - ''
+        - d: 関係ないの
         en:
         - It doesn't matter, crossing line
       - ol:
-        - 完成なんてしない様に
+        - 完成
+        - なんて
+        - しない
+        - 様に
+        ro:
+        - kansei
+        - nante
+        - shinai
+        - yōni
+        ww:
+        - w: completion
+          d: 完成
+        - w: such as
+          d: なんて
+        - w: do not
+          d: しない
+        - w: so that
+          d: 様に
+        - d: 完成なんてしない様に
         en:
         - So that it never gets completed
       - ol:
-        - 最高潮が分かんないくらいに Let’s get down
+        - 最高潮
+        - が
+        - 分かんない
+        - くらい
+        - に
+        - Let’s get down
+        ro:
+        - saikōchō
+        - ga
+        - wakannai
+        - kurai
+        - ni
+        ww:
+        - w: peak
+          d: 最高潮
+        - w: ''
+          d: が
+        - w: not knowing
+          d: 分かんない
+        - w: about
+          d: くらい
+        - w: at
+          d: に
+        - ''
+        - d: 最高潮が分かんないくらいに
         en:
         - I don't even know what the highest peak is, Let’s get down
     - lines:
       - ol:
-        - 関心ないのは Sorry, Bye
+        - 関心
+        - ない
+        - の
+        - は
+        - Sorry, Bye
+        ro:
+        - kanshin
+        - nai
+        - no
+        - wa
+        ww:
+        - w: interest
+          d: 関心
+        - w: not there
+          d: ない
+        - w: ('s)
+          d: の
+        - w: ''
+          d: は
+        - ''
+        - d: 関心ないのは
         en:
         - Not interested in, sorry, bye
       - ol:
-        - 全員認める者じゃなくて良い
+        - 全員
+        - 認める
+        - 者
+        - じゃなくて
+        - 良い
+        ro:
+        - zennin
+        - mitomeru
+        - mono
+        - janakute
+        - ii
+        ww:
+        - w: everyone
+          d: 全員
+        - w: recognize
+          d: 認める
+        - w: one
+          d: 者
+        - w: don't have to
+          d: じゃなくて
+        - w: ok
+          d: 良い
+        - d: 全員認める者じゃなくて良い
         en:
         - Not everyone has to admit it
       - ol:
@@ -397,22 +759,90 @@
       - ol:
         - I’m over you and carrying on
       - ol:
-        - 止まってしまいたくは無い
+        - 止まって
+        - しまいたく
+        - は
+        - 無い
+        ro:
+        - tomatte
+        - shimaitaku
+        - wa
+        - nai
+        ww:
+        - w: stop
+          d: 止まって
+        - w: want to
+          d: しまいたく
+        - w: ''
+          d: は
+        - w: not
+          d: 無い
+        - d: 止まってしまいたくは無い
         en:
         - I don't want to stop
       - ol:
-        - 答えなんて 見つけなくていい
+        - 答え
+        - なんて
+        - 見つけ
+        - なく
+        - ていい
+        ro:
+        - kotae
+        - nante
+        - mitsuke
+        - naku
+        - teī
+        ww:
+        - w: answer
+          d: 答え
+        - w: such as
+          d: なんて
+        - w: find
+          d: 見つけ
+        - w: not
+          d: なく
+        - w: (permission)
+          d: ていい
+        - d: 答えなんて見つけなくていい
         en:
         - You don't have to find the answer
     - lines:
       - ol:
-        - 壊したら行けるじゃない
+        - 壊したら
+        - 行ける
+        - じゃない
+        ro:
+        - kowashitara
+        - ikeru
+        - janai
+        ww:
+        - w: break
+          d: 壊したら
+        - w: going
+          d: 行ける
+        - w: right?
+          d: じゃない
+        - d: 壊したら行けるじゃない
         en:
         - Because we can go if we break it
       - ol:
         - I can’t hold it back anymore
       - ol:
-        - 後退はない
+        - 後退
+        - は
+        - ない
+        ro:
+        - kōtai
+        - wa
+        - nai
+        ww:
+        - w: setback
+          d: 後退
+        - w: ''
+          d: は
+        - w: not being
+          d: ない
+        - d: 後退はない
         en:
         - No setbacks
       - ol:
@@ -433,11 +863,62 @@
       - ol:
         - I’m moving on and carrying on.
       - ol:
-        - どうせ前にしか道は無い
+        - どうせ
+        - 前に
+        - しか
+        - 道
+        - は
+        - 無い
+        ro:
+        - dōse
+        - maeni
+        - shika
+        - michi
+        - wa
+        - nai
+        ww:
+        - w: anyway
+          d: どうせ
+        - w: ahead
+          d: 前に
+        - w: no more than
+          d: しか
+        - w: way
+          d: 道
+        - w: ''
+          d: は
+        - w: not being
+          d: 無い
+        - d: どうせ前にしか道は無い
         en:
         - There's only one way forward anyway
       - ol:
-        - 絶望だって 拾い集めてさあ
+        - 絶望
+        - だって
+        - ' '
+        - 拾い
+        - 集めて
+        - さあ
+        ro:
+        - zetsubō
+        - datte
+        - ''
+        - hiroi
+        - atsumete
+        - sā
+        ww:
+        - w: hopelessness
+          d: 絶望
+        - w: as well
+          d: だって
+        - ' '
+        - w: pick up
+          d: 拾い
+        - w: collect
+          d: 集めて
+        - w: now
+          d: さあ
+        - d: 絶望だって 拾い集めてさあ
         en:
         - Hopelessness Pick it up and collect it
     - lines:
@@ -446,22 +927,94 @@
       - ol:
         - I’m moving on and carrying on.
       - ol:
-        - 止まってしまいたくは無い
+        - 止まって
+        - しまいたく
+        - は
+        - 無い
+        ro:
+        - tomatte
+        - shimaitaku
+        - wa
+        - nai
+        ww:
+        - w: stop
+          d: 止まって
+        - w: want to
+          d: しまいたく
+        - w: ''
+          d: は
+        - w: not
+          d: 無い
+        - d: 止まってしまいたくは無い
         en:
         - I don't want to stop
       - ol:
-        - 答えなんて見つけなくていい
+        - 答え
+        - なんて
+        - 見つけ
+        - なく
+        - ていい
+        ro:
+        - kotae
+        - nante
+        - mitsuke
+        - naku
+        - teī
+        ww:
+        - w: answer
+          d: 答え
+        - w: such as
+          d: なんて
+        - w: find
+          d: 見つけ
+        - w: not
+          d: なく
+        - w: (permission)
+          d: ていい
+        - d: 答えなんて見つけなくていい
         en:
         - You don't have to find the answer
     - lines:
       - ol:
-        - 壊れても行こうじゃない
+        - 壊れて
+        - も
+        - 行こう
+        - じゃない
+        ro:
+        - kowarete
+        - mo
+        - ikō
+        - janai
+        ww:
+        - w: break
+          d: 壊れて
+        - w: even
+          d: も
+        - w: go
+          d: 行こう
+        - w: (emphasis)
+          d: じゃない
+        - d: 壊れても行こうじゃない
         en:
         - Let’s go even if it breaks
       - ol:
         - I can’t hold it back anymore
       - ol:
-        - 後退はない
+        - 後退
+        - は
+        - ない
+        ro:
+        - kōtai
+        - wa
+        - nai
+        ww:
+        - w: setback
+          d: 後退
+        - w: ''
+          d: は
+        - w: not being
+          d: ない
+        - d: 後退はない
         en:
         - No setbacks
       - ol:
@@ -1238,6 +1791,14 @@
     date: 2026-03-02
     text:
     - Refreshed and organized the videos and images
+    part-of:
+      song: getover
+
+- update:
+    song: getover
+    date: 2026-04-15
+    text:
+    - Added rōmaji and word-by-word translation
     part-of:
       song: getover
 

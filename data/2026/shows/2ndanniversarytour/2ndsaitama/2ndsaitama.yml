@@ -10,6 +10,8 @@ show:
   tour: 2ndanniversarytour
   description:
   - This show is the third stop on the national tour.
+  categories:
+  - tourshow
   venue: HEAVEN’S ROCK さいたま新都心 VJ-3
   event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
   part-of:

@@ -11,6 +11,8 @@ show:
   tour: 2ndanniversarytour
   description:
   - This show is the final stop on the national tour.
+  categories:
+  - mainshow
   venue: Shibuya Club Quattro
   event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
   part-of:

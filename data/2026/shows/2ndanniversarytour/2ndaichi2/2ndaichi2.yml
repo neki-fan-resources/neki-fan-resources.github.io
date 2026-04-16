@@ -10,6 +10,8 @@ show:
   tour: 2ndanniversarytour
   description:
   - This show is the seventh concert of the national tour.
+  categories:
+  - tourshow
   venue: Toyohashi clubKNOT
   event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
   part-of:

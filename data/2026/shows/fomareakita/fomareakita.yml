@@ -6,10 +6,13 @@ show:
       domain: note.com.nekiband
       page: nd2cd773b5ebe
       id: poster
-  fullname: FOMARE "OVER TOUR 25-26" - Akita
+  fullname: Akita
+  sublabel: FOMARE "OVER TOUR 25-26"
   date: 2026-03-24
   description:
   - NEK! is the guest artist for the FOMARE "OVER TOUR 25-26" show in Akita
+  categories:
+  - tourshow
   venue: 秋田Club SWINDLE, Akita
   event-page: 'https://fomare.com/live/def9bcbb-101f-43c3-9cd3-843c0c0fdd93'
   part-of:

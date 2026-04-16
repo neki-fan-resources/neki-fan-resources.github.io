@@ -10,6 +10,8 @@ show:
   tour: 2ndanniversarytour
   description:
   - This show is the sixth concert of the national tour.
+  categories:
+  - tourshow
   venue: NAGOYA JAMMIN’
   event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
   part-of:

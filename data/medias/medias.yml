@@ -12,8 +12,8 @@ categoriespage:
   - media
   withlinks: true
   compressed: true
-  isLargeMarker:
-  - mainmedia
   isSmallMarker:
   - audiomedia
   - writtenmedia
+  isLargeMarker:
+  - mainmedia

@@ -10,6 +10,8 @@ show:
   tour: 2ndanniversarytour
   description:
   - This show is the ninth stop on the national tour.
+  categories:
+  - tourshow
   venue: DRUM SON
   event-page: 'https://note.com/nekiband_jp/n/n3d37c2c897c8'
   part-of:

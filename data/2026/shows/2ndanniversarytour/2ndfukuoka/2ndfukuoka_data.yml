@@ -11,6 +11,9 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - youtubeshort: LXyJkAPBP_0
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
@@ -474,6 +477,20 @@
     date: 2026-04-12
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+
+- youtubeshort:
+    id: LXyJkAPBP_0
+    label: Digest movie
+    published-date: 2026-04-16
+    context:
+    - song: maze
+    - show:
+        year: 2026
+        id: 2ndfukuoka
     part-of:
       show:
         year: 2026

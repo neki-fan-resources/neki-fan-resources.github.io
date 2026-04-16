@@ -33,6 +33,9 @@
                 - postximage:
                     post: 2042580325365367192
                     image: HFiz9vSakAY5AHQ
+                - postinstagramimage:
+                    post: DXMBPNTGvc_
+                    image: 2
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -63,6 +66,14 @@
                 - postinstagramimage:
                     post: DXJ0b9BkkmE
                     image: 3
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DXMBPNTGvc_
+                    image: 4
     part-of:
       show:
         year: 2026
@@ -130,6 +141,65 @@
         year: 2026
         id: 2ndkumamoto
 
+- postinstagram:
+    id: DXMBPNTGvc_
+    account: cocoro_drum
+    label: Cocoro's report
+    info: perso picture from postx/2042450265996173555 + another castle picture
+    published-date: 2026-04-16
+    text: |-
+      2026.04.10
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      先日、熊本公演無事終了しましたー！！
+      お越しくださった皆さま本当にありがとうございました🩵
+      ⁡
+      九州初上陸とは思えないくらい初日からすごく盛り上がってくれていて、こんな遠くにまでNEK!の音楽がしっかり届いているんだなと実感できてとても嬉しくなりました！
+      最初から最後まで全力で楽しんでくれて本当にありがとうございました🌞
+      
+      実は私の祖母が熊本出身で、昔からたくさん熊本のお話を聞いていたのですが行ったことはなかったので、今回初めて熊本に行けてとても嬉しかったです！
+      
+      ライブ当日は朝散歩で熊本城に行き、圧倒的な美しさに心を奪われ、天守閣に登り約400年の歴史を学び、帰りには城下町でくまモン人形焼を記念に食べてライブに向けて気合いを入れました！！
+      今回は会えなかったけどいつかくまモンにも会いたいな〜🧸
+      
+      人生初の熊本、人のあたたかさととびきり美味しい熊本グルメに完全に心を奪われました🥹また必ず訪れたいです！！⁡
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.04.10
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      The Kumamoto performance finished successfully the other day!!
+      To everyone who came, thank you so much! 🩵
+      
+      It was so exciting from the first day that it was hard to believe it was our first time in Kyushu, and it made me so happy to realize that NEK!'s music is reaching people even this far away!
+      Thank you truly for enjoying it with all your might from start to finish 🌞
+      
+      Actually, my grandmother is from Kumamoto, and I've heard many stories about it since I was little but had never been, so I was very happy to visit Kumamoto for the first time!
+      
+      On the day of the live, I went to Kumamoto Castle for a morning walk and was captivated by its overwhelming beauty, climbed the castle tower to learn about its 400-year history, and on the way back, I ate a Kumamon Ningyoyaki in the castle town for good luck to fire myself up for the show!!
+      I didn't get to see Kumamon this time, but I want to meet him someday~ 🧸
+      
+      My first time in Kumamoto, I was completely captivated by the warmth of the people and the incredibly delicious Kumamoto gourmet food 🥹 I definitely want to visit again!!
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 2
+    - 4
+    - 5
+    - 6
+    part-of:
+      show:
+        year: 2026
+        id: 2ndkumamoto
+    reference:
+    - postximage:
+        post: 2042580325365367192
+        image: HFiz9vSakAY5AHQ
+    - postximage:
+        post: 2042580024017215710
+        image: HFizs8iakAI2bJ6
+
 - postinstagramimage:
     post: DW9GPX-ERwX
     id: 2
@@ -180,6 +250,58 @@
         id: 2ndkumamoto
     part-of:
       postinstagram: DXJ0b9BkkmE
+
+- postinstagramimage:
+    post: DXMBPNTGvc_
+    id: 2
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DXMBPNTGvc_
+
+- postinstagramimage:
+    post: DXMBPNTGvc_
+    id: 4
+    label: Kumamon Ningyoyaki
+    info: Cocoro
+    published-date: 2026-04-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DXMBPNTGvc_
+
+- postinstagramimage:
+    post: DXMBPNTGvc_
+    id: 5
+    label: Kumamoto food
+    info: Cocoro
+    published-date: 2026-04-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DXMBPNTGvc_
+
+- postinstagramimage:
+    post: DXMBPNTGvc_
+    id: 6
+    label: Kumamoto food
+    info: Cocoro
+    published-date: 2026-04-16
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DXMBPNTGvc_
 
 - postx:
     id: 2042475466154819702

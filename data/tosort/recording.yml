@@ -1,0 +1,5 @@
+group:
+  id: recording
+  label: Recording
+  part-of:
+    group: tosort

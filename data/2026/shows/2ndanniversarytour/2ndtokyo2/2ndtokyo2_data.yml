@@ -12,9 +12,33 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: KP2IyazP2uw
                 - youtubeshort: j4NSGGuh80Y
                 - youtubeshort: K5oTgZj4GrI
                 - youtubeshort: wSd6wmKxfnU
+        - basicsection:
+            label: Messages
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: 'STATUS: 410 GONE</br>SYSTEM ERROR: All logs lost.</br>NEXT SYNC: 0404_1856'
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '[RECOVERY_LOG_01]</br>TIMESTAMP: 2026.04.04_18:56</br>CODE: BIN 0110</br>DECODING: 15%</br>NEXT SYNC: 0411_1857'
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '[RECOVERY_LOG_02]</br>TIMESTAMP: 2026.04.11_18:57</br>CODE: BIN 1010</br>DECODING: 30%</br>NEXT SYNC: 0418_1858'
+                - line:
+                  - text: 'SYSTEM ERROR:AREA LOST'
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '[RECOVERY_LOG_03]</br>TIMESTAMP: 2026.04.18_18:58</br>CODE: ASCII 78 69 75 33</br>DECODING: 45%</br>NEXT SYNC: 0425_1859'
+                - line:
+                  - text: 'SYSTEM ERROR:AREA LOST'
     part-of:
       show:
         year: 2026
@@ -29,6 +53,20 @@
         year: 2026
         id: 2ndtokyo2
     - song: maze
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- youtubeshort:
+    id: KP2IyazP2uw
+    label: Teaser 4
+    published-date: 2026-04-18
+    context:
+    - song: ripoff
+    - show:
+        year: 2026
+        id: 2ndtokyo2
     part-of:
       show:
         year: 2026

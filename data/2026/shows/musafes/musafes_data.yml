@@ -1,3 +1,148 @@
+- postx:
+    id: 2045336585500262709
+    account: musafes69
+    label: Timetable
+    published-date: 2026-04-18
+    text: |-
+      🐘━━━━━━━━━━━━━🐘
+      🪷musafes New INFORMATION🪷
+      🐘━━━━━━━━━━━━━🐘
+      
+      『音』と『遊ぶ』吉祥寺発
+      ミュージックエンターテインメント
+      2026年5月16日（土）
+      武蔵野音楽祭 蓮の音カーニバル2026
+      
+      ／
+      🕰️タイムテーブル公開🕰️
+      ＼
+      
+      さらに…追加出演者
+      丑03（
+      @USHIMITSU_03
+      ）決定🔥
+      
+      🎫発売中
+      一般チケット adv.5,500円 door 6,200円（1D別）
+      U-20チケット adv.3,300円 door 4,000円（1D別）
+      
+      ◎e＋
+      https://eplus.jp/sf/detail/4475410001-P0030001
+      
+      ◎TIGET
+      http://tiget.net/events/462160
+      
+      出演アーティスト、手売りチケット販売会場・取り扱いアーティストは画像を✔️
+      
+      入場順
+      ①早割チケット（販売終了）
+      ②手売りチケット（並んだ順）
+      ③一般（e＋・TIGET整理番号順）
+      ④U-20（e＋・TIGET整理番号順）
+      ⑤当日券
+      
+      会場:
+      CLUBSEATA/Star Pine’s Café/ROCK JOINT GB/PLANETK/WARP/SHUFFLE/シルバーエレファント/曼荼羅/BLACK&BLUE/PLANETC
+      総合受付:CLUBSEATA
+      リストバンド交換開始:11:00～
+      OPEN:11:30～/START:12:00～
+      
+      #武蔵野音楽祭2026
+      #武蔵野音楽祭20周年
+    translation: |-
+      🐘━━━━━━━━━━━━━🐘
+      🪷musafes New INFORMATION🪷
+      🐘━━━━━━━━━━━━━🐘
+      
+      "Playing with 'Sound'" from Kichijoji
+      Music Entertainment
+      Saturday, May 16, 2026
+      Musashino Music Festival Lotus Sound Carnival 2026
+      
+      ／
+      🕰️Timetable Released🕰️
+      ＼
+      
+      Furthermore... Additional performer
+      Ushimitsu03 (@USHIMITSU_03) confirmed🔥
+      
+      🎫On Sale Now
+      General Ticket adv. 5,500 yen door 6,200 yen (1D extra)
+      U-20 Ticket adv. 3,300 yen door 4,000 yen (1D extra)
+      
+      ◎e＋
+      https://eplus.jp/sf/detail/4475410001-P0030001
+      
+      ◎TIGET
+      http://tiget.net/events/462160
+      
+      Check the image for performing artists, hand-sold ticket locations, and participating artists✔️
+      
+      Entry Order
+      ①Early bird ticket (Sales ended)
+      ②Hand-sold tickets (First-come order)
+      ③General (e+/TIGET reference number order)
+      ④U-20 (e+/TIGET reference number order)
+      ⑤Day-of-event tickets
+      
+      Venues:
+      CLUBSEATA/Star Pine’s Café/ROCK JOINT GB/PLANETK/WARP/SHUFFLE/Silver Elephant/Mandara/BLACK&BLUE/PLANETC
+      General Reception: CLUBSEATA
+      Wristband exchange starts: 11:00~
+      OPEN: 11:30~/START: 12:00~
+      
+      #MusashinoMusicFestival2026
+      #MusashinoMusicFestival20thAnniversary
+    image:
+    - HGJ-voha0AAdf6j
+    - HGJ-vpDakAAe1HN
+    - HGJ-vpHbkAAGUFt
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nf28b4e5952d6
+        id: cover
+
+- postximage:
+    post: 2045336585500262709
+    id: HGJ-voha0AAdf6j
+    label: Bands hand-selling tickets
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2045336585500262709
+
+- postximage:
+    post: 2045336585500262709
+    id: HGJ-vpDakAAe1HN
+    label: Timetable
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2045336585500262709
+
+- postximage:
+    post: 2045336585500262709
+    id: HGJ-vpHbkAAGUFt
+    label: Poster
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2045336585500262709
+
 - update:
     show:
       year: 2026

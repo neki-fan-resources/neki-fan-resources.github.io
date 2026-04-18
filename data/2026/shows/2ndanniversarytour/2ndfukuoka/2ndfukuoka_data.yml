@@ -29,6 +29,9 @@
                     image: HFnzy5oaIAAn2vh
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DXOhj5xmnPl
+                    image: 1
                 - postximage:
                     post: 2042963039067213877
                     image: HFoQDedakAUp7Lm
@@ -42,6 +45,22 @@
                 - postximage:
                     post: 2042959009054101835
                     image: HFoMY0TakAQHlJF
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DXOhj5xmnPl
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042255206931677337
+                    image: HFeMSI1bUAAtvZH
+                - postximage:
+                    post: 2042255206931677337
+                    image: HFeMSIwa8AEjZw5
     part-of:
       show:
         year: 2026
@@ -133,6 +152,176 @@
     - postximage:
         post: 2042579571346936144
         image: HFizSkna8AAawTE
+
+- postinstagram:
+    id: DXOhj5xmnPl
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-04-17
+    text: |-
+      2026.04.11
+      ⁡
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      ⁡
+      先日、福岡公演無事終了しましたー！！
+      お越しくださった皆さま本当にありがとうございました❤️
+      ⁡
+      なんと初上陸の福岡でソールドするというファンの皆さんからとても嬉しいプレゼントをいただきました！💥
+      多くの方に観に来ていただけてとても嬉しかったです！！
+      
+      この日はHikaの地元である長崎から来た方も多くいて、ずっと私たちのことを待っててくれていたのが伝わる熱量で出迎えてくれたので、こっちもその想いに応えるようにバッチバチプレイさせていただきました💪🏻🔥
+      ⁡
+      そして福岡に来たら必ず食べようと思っていた本場の明太子グルメもしっかりと楽しんできました！！
+      元祖博多めんたい重 というお店にかなでんと行き、初めてめんたい重を食べてみたのですが、とんっでもなく美味しくてまじで意識が飛びかけました😵‍💫🩷
+      
+      人生で食べた明太子の中でいちばん美味しかったです🥇
+      ⁡
+      そして毎度恒例(？)の地方スタジオ探索もしっかりと笑
+      やっぱり設備や仕組みが東京のスタジオとちょいちょい異なるところがあって今回も新鮮味あって面白かったです！！
+      
+      次はあなたの地元スタジオに行くかも？笑
+      ⁡
+      気がついたら2月頭から始まった全国ツアーも残すところあと3公演になってしまいました…！！早いー！！
+      あっという間でとても寂しいですが、ツアーファイナルに向けて近づいていると思うととてもワクワクしています🌞
+      
+      渋谷クアトロで旅の集大成をお届けできるように残りも気合い入れて頑張るぞー！！
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.04.11
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      The other day, our Fukuoka show ended successfully!!
+      Thank you so much to everyone who came out❤️
+      
+      We received such a happy gift from our fans: a sold-out show in Fukuoka, which we were visiting for the first time!💥
+      I was so happy that so many people came to see us!!
+      
+      There were a lot of people who came from Hika's hometown, Nagasaki, and they welcomed us with such intensity that you could tell they'd been waiting for us for a long time, so we played our hearts out to respond to that passion💪🏻🔥
+      
+      And I also made sure to enjoy the authentic mentaiko cuisine I'd been planning to eat as soon as I got to Fukuoka!!
+      Kanaden and I went to a shop called Ganso Hakata Mentaiju, and it was my first time trying Mentaiju; it was so incredibly delicious that I seriously almost lost consciousness😵‍💫🩷
+      
+      It was the most delicious mentaiko I've ever eaten in my life🥇
+      
+      And we also did our usual (?) local studio exploration lol
+      As expected, there were differences in equipment and systems compared to Tokyo studios here and there, which was fresh and interesting this time too!!
+      
+      Maybe we'll visit the studio in your hometown next? lol
+      
+      Before I knew it, our nationwide tour that started at the beginning of February has only 3 shows left...!! It's going by so fast!!
+      It's fleeting and very sad, but I'm also very excited to think that we're getting closer to the tour final🌞
+      
+      I'm going to give it my all for the remaining shows so we can deliver the culmination of this journey at Shibuya Quattro!!
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 3
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    part-of:
+      show:
+        year: 2026
+        id: 2ndfukuoka
+    reference:
+    - postximage:
+        post: 2042959009054101835
+        image: HFoMY0PakAQ12_r
+    - postximage:
+        post: 2042255206931677337
+        image: HFeMSIwa8AEjZw5
+
+- postinstagramimage:
+    post: DXOhj5xmnPl
+    id: 1
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postinstagram: DXOhj5xmnPl
+
+- postinstagramimage:
+    post: DXOhj5xmnPl
+    id: 3
+    label: On stage
+    info: drum set
+    published-date: 2026-04-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postinstagram: DXOhj5xmnPl
+
+- postinstagramimage:
+    post: DXOhj5xmnPl
+    id: 5
+    label: Fukuoka food
+    published-date: 2026-04-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postinstagram: DXOhj5xmnPl
+
+- postinstagramimage:
+    post: DXOhj5xmnPl
+    id: 6
+    label: Fukuoka food
+    info: Cocoro, Kanade
+    published-date: 2026-04-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postinstagram: DXOhj5xmnPl
+
+- postinstagramimage:
+    post: DXOhj5xmnPl
+    id: 7
+    label: Fukuoka food
+    published-date: 2026-04-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postinstagram: DXOhj5xmnPl
+
+- postinstagramimage:
+    post: DXOhj5xmnPl
+    id: 8
+    label: Drum store
+    published-date: 2026-04-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postinstagram: DXOhj5xmnPl
+
+- postinstagramimage:
+    post: DXOhj5xmnPl
+    id: 9
+    label: Drum store
+    published-date: 2026-04-17
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
+    part-of:
+      postinstagram: DXOhj5xmnPl
 
 - postinstagramvideo:
     post: DXJczAgj81v

@@ -543,6 +543,20 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postx:
+    id: 2045071645271019969
+    account: 46_hikaa
+    label: NEK! Rehearsal!
+    published-date: 2026-04-17
+    text: |-
+      ネキリハっ！
+    translation: |-
+      NEK! Rehearsal!
+    image:
+    - HGGN0lBaMAAP8QJ
+    part-of:
+      tour: 2ndanniversarytour
+
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
@@ -673,6 +687,10 @@
     label: Mentaiju dinner
     info: Cocoro, Kanade
     published-date: 2026-04-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
     part-of:
       postx: 2042255206931677337
 
@@ -681,8 +699,23 @@
     id: HFeMSIwa8AEjZw5
     label: Mentaiju
     published-date: 2026-04-09
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukuoka
     part-of:
       postx: 2042255206931677337
+
+- postximage:
+    post: 2045071645271019969
+    id: HGGN0lBaMAAP8QJ
+    label: Rehearsal
+    info: Hika, Natsu, Kanade
+    published-date: 2026-04-17
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postx: 2045071645271019969
 
 - postxvideo:
     post: 1976295615287132520

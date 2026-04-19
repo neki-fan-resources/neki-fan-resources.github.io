@@ -44,6 +44,22 @@
         year: 2026
         id: 2ndtokyo2
 
+- postinstagram:
+    id: DXR9a47zpef
+    account: nekiband_jp
+    label: Message
+    published-date: 2026-04-18
+    text: |-
+      [RECOVERY_LOG_03]
+      TIMESTAMP: 2026.04.18_18:58
+      CODE: ASCII 78 69 75 33
+      DECODING: 45%
+      NEXT SYNC: 0425_1859
+      
+      SYSTEM ERROR:AREA LOST
+    part-of:
+      youtubeshort: KP2IyazP2uw
+
 - youtubeshort:
     id: K5oTgZj4GrI
     label: Teaser 2

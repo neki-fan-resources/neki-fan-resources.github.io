@@ -1,3 +1,177 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndhyogo
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: bon9DvQFiew
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2045457748289327273
+                    image: HGLs-ikaAAAvpys
+                - postximage:
+                    post: 2045457386320879776
+                    image: HGLsnlxboAAF0zi
+                - postinstagramimage:
+                    post: DXRUoqtkeGm
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045458454102647162
+                    image: HGLtnN5aYAEcbwS
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045454428334153990
+                    image: HGLp9Hka8AAw8nL
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045460500507689183
+                    image: HGLvejHakAA8_tY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045457386320879776
+                    image: HGLsnlubwAEP5uz
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045454428334153990
+                    image: HGLp9HiboAAFScf
+                - postinstagramimage:
+                    post: DXRsCW8kSmH
+                    image: 1
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DXRUoqtkeGm
+                    image: 3
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
+- postinstagram:
+    id: DXRUoqtkeGm
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-18
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍music zoo KOBE 太陽と虎
+      
+      ツアー10本目！
+      ありがとうございました🎪
+      
+      明日はツアーセミファイナル🔥
+      
+      大阪・梅田シャングリラにて
+      お待ちしております🫶✨
+      
+      https://note.com/nekiband_jp/n/n4de9b184ade7
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍music zoo KOBE Taiyo to Tora
+      
+      10th show of the tour!
+      Thank you!🎪
+      
+      Tomorrow is the tour semi-final🔥
+      
+      At Osaka Umeda Shangri-La
+      We'll be waiting for you🫶✨
+      
+      https://note.com/nekiband_jp/n/n4de9b184ade7
+      
+      #NEKI
+    image:
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+    reference:
+    - postximage:
+        post: 2045457386320879776
+        image: HGLsnlubwAEP5uz
+
+- postinstagram:
+    id: DXRsCW8kSmH
+    account: cocoro_drum
+    label: happy to finally visit Tai-Tora
+    published-date: 2026-04-18
+    text: |-
+      🐯🧡
+      ⁡
+      念願のタイトラ嬉しかったー！また来園したいなあヽ(^^)ﾉ
+    translation: |-
+      🐯🧡
+      
+      I was so happy to finally visit Tai-Tora! I really want to come back againヽ(^^)ﾉ
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
+- postinstagramimage:
+    post: DXRUoqtkeGm
+    id: 2
+    label: On stage
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXRUoqtkeGm
+
+- postinstagramimage:
+    post: DXRUoqtkeGm
+    id: 3
+    label: Sign
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXRUoqtkeGm
+
+- postinstagramimage:
+    post: DXRsCW8kSmH
+    id: 1
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXRsCW8kSmH
+
 - postx:
     id: 2045340108090683739
     account: nekiband_jp
@@ -53,6 +227,171 @@
         page: n67510ac0749d
         id: merchlottery
 
+- postx:
+    id: 2045454428334153990
+    account: coco_102
+    label: Thank you
+    published-date: 2026-04-18
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      太陽と虎ありがとうございましたッ！🐯💥
+      初神戸笑っちゃうくらいめっちゃ楽しかったです！
+      みんなのおかげでライブの楽しさを凝縮したような時間が過ごせました！本当にありがとう🔥
+      
+      明日はついにセミファイナル大阪…！！楽しみだ🥹
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Thank you so much at Taiyo to Tora! 🐯💥
+      My first time in Kobe was so much fun it was hilarious!
+      Thanks to everyone, I was able to spend time that felt like a pure distillation of how fun live shows are! Thank you so much🔥
+      
+      Tomorrow is finally the semi-final in Osaka...!! So excited🥹
+    image:
+    - HGLp9HiboAAFScf
+    - HGLp9Hka8AAw8nL
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
+- postx:
+    id: 2045457386320879776
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-18
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍music zoo KOBE 太陽と虎
+      
+      ツアー10本目！
+      ありがとうございました🎪
+      
+      明日はツアーセミファイナル🔥
+      
+      大阪・梅田シャングリラにて
+      お待ちしております🫶✨
+      
+      https://note.com/nekiband_jp/n/n4de9b184ade7
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍music zoo KOBE Taiyo to Tora
+      
+      10th show of the tour!
+      Thank you!🎪
+      
+      Tomorrow is the tour semi-final🔥
+      
+      At Osaka Umeda Shangri-La
+      We'll be waiting for you🫶✨
+      
+      https://note.com/nekiband_jp/n/n4de9b184ade7
+      
+      #NEKI
+    image:
+    - HGLsnlubwAEP5uz
+    - HGLsnlxboAAF0zi
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
+- postx:
+    id: 2045457748289327273
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-04-18
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      @ 兵庫・music zoo KOBE 太陽と虎
+      
+      前から後ろまで沢山ありがとねん！
+      暑すぎたよー！！
+      ライブで神戸来たのは初めてでした🌟
+      明日ついにセミファイナル…いやだ、信じたくない。。
+      寂しいけど楽しく明日もライブする！！
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      @ Hyogo / music zoo KOBE Taiyo to Tora
+      
+      Thank you all so much, from the front to the back!
+      It was too hot!!
+      This was my first time coming to Kobe for a live show🌟
+      Tomorrow is finally the semi-final... no, I don't want to believe it..
+      I'm sad but I'll have fun performing tomorrow too!!
+    image:
+    - HGLs-ikaAAAvpys
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+    reference:
+    - postximage:
+        post: 2045457386320879776
+        image: HGLsnlubwAEP5uz
+
+- postx:
+    id: 2045458454102647162
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-04-18
+    text: |-
+      NEK!初の全国ツアー10本目！
+      
+      @兵庫・music zoo KOBE 太陽と虎
+      
+      皆さんの歓声と拳に
+      あの熱量、やばすぎた。
+      
+      最高の時間をありがとうございました！
+    translation: |-
+      10th show of NEK!'s first nationwide tour!
+      @ Hyogo / music zoo KOBE Taiyo to Tora
+      
+      With everyone's cheers and fists,
+      that energy was unreal.
+      
+      Thank you for the best time!
+    image:
+    - HGLtnN5aYAEcbwS
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
+- postx:
+    id: 2045460500507689183
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-04-18
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      
+      ツアー10本目！兵庫ー！神戸ー！！
+      1曲目の「MAZE」から熱気がすごくて、めちゃめちゃ最高だったよー！ずっと楽しかった！
+      本当ありがとう〜！！！
+      前から後ろまで拳を上げてくれて、声を出してくれて、もうほんと神戸最高だぜー！！
+      
+      また必ず戻ってきます！
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      
+      10th show of the tour! Hyogo! Kobe!!
+      From the first song "MAZE," the energy was amazing, it was absolutely the best! I had fun the whole time!
+      Thank you so much!!!
+      Raising your fists from the front to the back, shouting out, Kobe is really just the best!!
+      
+      We'll definitely come back again!
+    image:
+    - HGLvejHakAA8_tY
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
 - postximage:
     post: 2045340108090683739
     id: HGJ-6S8aIAAcGWx
@@ -65,4 +404,118 @@
         id: 2ndhyogo
     part-of:
       postx: 2045340108090683739
+
+- postximage:
+    post: 2045454428334153990
+    id: HGLp9HiboAAFScf
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postx: 2045454428334153990
+
+- postximage:
+    post: 2045454428334153990
+    id: HGLp9Hka8AAw8nL
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postx: 2045454428334153990
+
+- postximage:
+    post: 2045457386320879776
+    id: HGLsnlubwAEP5uz
+    label: Backstage
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postx: 2045457386320879776
+
+- postximage:
+    post: 2045457386320879776
+    id: HGLsnlxboAAF0zi
+    label: On stage
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postx: 2045457386320879776
+
+- postximage:
+    post: 2045457748289327273
+    id: HGLs-ikaAAAvpys
+    label: On stage
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postx: 2045457748289327273
+
+- postximage:
+    post: 2045458454102647162
+    id: HGLtnN5aYAEcbwS
+    label: On stage
+    info: Hika
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postx: 2045458454102647162
+
+- postximage:
+    post: 2045460500507689183
+    id: HGLvejHakAA8_tY
+    label: On stage
+    info: Natsu
+    published-date: 2026-04-18
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postx: 2045460500507689183
+
+- update:
+    show:
+      year: 2026
+      id: 2ndhyogo
+    date: 2026-04-19
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
+- youtubeshort:
+    id: bon9DvQFiew
+    label: On stage
+    published-date: 2026-04-18
+    context:
+    - song: zerosum
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
 

@@ -1,0 +1,72 @@
+- postx:
+    id: 2045664481083359385
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-04-19
+    text: |-
+      💥🗾本日開催🗾💥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍大阪・梅田シャングリラ
+      ⏰16:30 OPEN / 17:00 START
+      
+      ★グッズ先行販売 14:30〜
+      ★当日券あり
+      
+      ツアーセミファイナル・大阪🔥
+      
+      残すところあと2公演。
+      ぜひ会場でお会いしましょう🚀
+      
+      🔗https://note.com/nekiband_jp/n/n4de9b184ade7
+      
+      #NEKI
+    translation: |-
+      💥🗾Happening Today🗾💥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍Osaka / Umeda Shangri-La
+      ⏰16:30 OPEN / 17:00 START
+      
+      ★Advance merchandise sales from 14:30
+      ★Day-of-event tickets available
+      
+      Tour Semi-Final / Osaka🔥
+      
+      Only 2 shows left.
+      We look forward to seeing you at the venue🚀
+      
+      🔗https://note.com/nekiband_jp/n/n4de9b184ade7
+      
+      #NEKI
+    image:
+    - HGOo2XAbsAAZTsT
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n67510ac0749d
+        id: merch
+    - webimage:
+        domain: note.com.nekiband
+        page: n67510ac0749d
+        id: merchlottery
+
+- postximage:
+    post: 2045664481083359385
+    id: HGOo2XAbsAAZTsT
+    label: Poster
+    published-date: 2026-04-19
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2045664481083359385
+

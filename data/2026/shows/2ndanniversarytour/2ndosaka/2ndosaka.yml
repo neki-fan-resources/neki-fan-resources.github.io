@@ -2,10 +2,9 @@ show:
   year: 2026
   id: 2ndosaka
   cover-image:
-    webimage:
-      domain: note.com.nekiband
-      page: n3d37c2c897c8
-      id: poster01
+    postximage:
+      post: 2045664481083359385
+      image: HGOo2XAbsAAZTsT
   fullname: Osaka
   date: 2026-04-19
   tour: 2ndanniversarytour

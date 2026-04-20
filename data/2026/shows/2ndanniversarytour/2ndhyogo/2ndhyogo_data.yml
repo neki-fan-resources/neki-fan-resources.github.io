@@ -53,6 +53,17 @@
                 - postinstagramimage:
                     post: DXRsCW8kSmH
                     image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DXWforrEmSC
+                    image: 1
+                - postinstagramimage:
+                    post: DXWforrEmSC
+                    image: 2
+                - postinstagramimage:
+                    post: DXWforrEmSC
+                    image: 3
         - basicsection:
             label: At the event
             subsections:
@@ -135,6 +146,26 @@
         year: 2026
         id: 2ndhyogo
 
+- postinstagram:
+    id: DXWforrEmSC
+    account: natsu08_guitar
+    label: Photos
+    published-date: 2026-04-20
+    text: |-
+      .
+      📸 by ここにゃん🐱
+    translation: |-
+      .
+      📸 by Kokonyan🐱
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
 - postinstagramimage:
     post: DXRUoqtkeGm
     id: 2
@@ -171,6 +202,45 @@
         id: 2ndhyogo
     part-of:
       postinstagram: DXRsCW8kSmH
+
+- postinstagramimage:
+    post: DXWforrEmSC
+    id: 1
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXWforrEmSC
+
+- postinstagramimage:
+    post: DXWforrEmSC
+    id: 2
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXWforrEmSC
+
+- postinstagramimage:
+    post: DXWforrEmSC
+    id: 3
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-20
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXWforrEmSC
 
 - postx:
     id: 2045340108090683739

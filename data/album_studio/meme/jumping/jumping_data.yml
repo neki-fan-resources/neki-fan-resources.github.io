@@ -11,6 +11,12 @@
                 multimedia:
                 - youtubevideo: EUuiBgbxtZI
         - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: hoYjWLPnteM
+        - basicsection:
             label: Live, with studio audio
             subsections:
             - multimediasubsection:

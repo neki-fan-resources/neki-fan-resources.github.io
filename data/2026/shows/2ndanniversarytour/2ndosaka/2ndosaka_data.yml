@@ -1,3 +1,159 @@
+- display:
+    show:
+      year: 2026
+      id: 2ndosaka
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: hoYjWLPnteM
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DXT9CtUkSlL
+                    image: 3
+                - postinstagramimage:
+                    post: DXT9CtUkSlL
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045818817142730819
+                    image: HGQ1XuqawAE1kte
+                - postximage:
+                    post: 2045812307670991254
+                    image: HGQvcQEaYAA4r29
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045818817142730819
+                    image: HGQ1XusasAAumjF
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045825262248686063
+                    image: HGQ7O1vbwAAoCRf
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045816783408660774
+                    image: HGQzgbuaAAApcL2
+                - postinstagramimage:
+                    post: DXT9CtUkSlL
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045812307670991254
+                    image: HGQvcQFb0AAwJDX
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2045830710788018179
+                    image: HGRALnyaIAASvsj
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+
+- postinstagram:
+    id: DXT9CtUkSlL
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-19
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍大阪・梅田シャングリラ
+      
+      セミファイナル!!!!
+      ご来場ありがとうございました🫶✨
+      
+      いよいよ来週はツアーファイナル！
+      
+      4/26(日)東京・渋谷クラブクアトロにて
+      お待ちしております🔥
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+      #ネキミーム
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍Osaka / Umeda Shangri-La
+      
+      Semi-final!!!!
+      Thank you for coming🫶✨
+      
+      Finally, next week is the tour final!
+      
+      On 4/26 (Sun) at Tokyo / Shibuya Club Quattro
+      We'll be waiting for you🔥
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+      #NEKIMeme
+    image:
+    - 2
+    - 3
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+    reference:
+    - postximage:
+        post: 2045816783408660774
+        image: HGQzgbuaAAApcL2
+    - postximage:
+        post: 2045818817142730819
+        image: HGQ1XuqawAE1kte
+
+- postinstagramimage:
+    post: DXT9CtUkSlL
+    id: 2
+    label: On stage
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postinstagram: DXT9CtUkSlL
+
+- postinstagramimage:
+    post: DXT9CtUkSlL
+    id: 3
+    label: On stage
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postinstagram: DXT9CtUkSlL
+
+- postinstagramimage:
+    post: DXT9CtUkSlL
+    id: 5
+    label: Backstage
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postinstagram: DXT9CtUkSlL
+
 - postx:
     id: 2045664481083359385
     account: nekiband_jp
@@ -57,6 +213,180 @@
         page: n67510ac0749d
         id: merchlottery
 
+- postx:
+    id: 2045812307670991254
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-04-19
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ 大阪・梅田シャングリラ
+       
+      セミファイナル大阪ありがとー！！
+      今日も楽しすぎた！
+      この前から寂しいしか言ってないけど、
+      ツアー終わっちゃうの本当に寂しい🥹
+      ライブ沢山できるのって当たり前じゃなくて、みんながいるからできること！
+      次はファイナルでね！
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      @ Osaka / Umeda Shangri-La
+       
+      Thank you for the Osaka semi-final!!
+      Today was so much fun too!
+      I've been saying I'm sad since the other day, but
+      It's really sad that the tour is ending🥹
+      Being able to play so many live shows isn't a given, it's only possible because you're all here!
+      See you at the final next!
+    image:
+    - HGQvcQEaYAA4r29
+    - HGQvcQFb0AAwJDX
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+
+- postx:
+    id: 2045816783408660774
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-19
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍大阪・梅田シャングリラ
+      
+      セミファイナル!!!!
+      ご来場ありがとうございました🫶✨
+      
+      いよいよ来週はツアーファイナル！
+      
+      4/26(日)東京・渋谷クラブクアトロにて
+      お待ちしております🔥
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      📍Osaka / Umeda Shangri-La
+      
+      Semi-final!!!!
+      Thank you for coming🫶✨
+      
+      The tour final is finally next week!
+      
+      At Tokyo / Shibuya Club Quattro on 4/26 (Sun)
+      We'll be waiting for you🔥
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HGQzgbuaAAApcL2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+    reference:
+    - postximage:
+        post: 2045812307670991254
+        image: HGQvcQEaYAA4r29
+
+- postx:
+    id: 2045818817142730819
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-04-19
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      
+      セミファイナル
+      @大阪・梅田シャングリラ
+      
+      みんな最高の笑顔でキラキラしとったっ
+      ホント楽しかったあっという間だったな〜
+      
+      つぎはファイナル。
+      渋谷クラブクアトロでまっとるよ！
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      
+      Semi-final
+      @ Osaka / Umeda Shangri-La
+      
+      Everyone was sparkling with the best smiles
+      It was so fun, it went by in a flash~
+      
+      Next is the final.
+      We'll be waiting for you at Shibuya Club Quattro!
+    image:
+    - HGQ1XuqawAE1kte
+    - HGQ1XusasAAumjF
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+
+- postx:
+    id: 2045825262248686063
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-04-19
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      大阪ー！！
+      ありがとうございましたー！！！
+      大阪には何度かお邪魔させていただいておりますが、来るたびに熱量が高まっていて本当に最高！！！🐙
+      もうセミファイナルか、残すはファイナルのみ、、寂しい、、、
+      ファイナルも楽しみ！！っ
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      Osaka!!
+      Thank you so much!!!
+      We've visited Osaka a few times now, but every time we come, the energy keeps rising, it's truly the best!!!🐙
+      Is it already the semi-final? Only the final is left... so sad...
+      Looking forward to the final too!!
+    image:
+    - HGQ7O1vbwAAoCRf
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+    reference:
+    - postximage:
+        post: 2045812307670991254
+        image: HGQvcQEaYAA4r29
+
+- postx:
+    id: 2045830710788018179
+    account: coco_102
+    label: Thank you
+    published-date: 2026-04-19
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      大阪公演ありがとうございました🐙🩷
+      みんなの声や表情に何度も救われました！！
+      ツアーも残すところあと1回になってしまった…！
+      みんなのおかげで毎回充実したライブになってます！
+      最後までしっかり楽しむぞー！次回はクアトロでね🔥
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      Thank you for the Osaka performance🐙🩷
+      I was saved so many times by everyone's voices and expressions!!
+      The tour only has one show left...!
+      Thanks to everyone, every show has been fulfilling!
+      I'm going to enjoy it to the very end! See you at Quatro next time🔥
+    image:
+    - HGRALnyaIAASvsj
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+    reference:
+    - postximage:
+        post: 2045816783408660774
+        image: HGQzgbuaAAApcL2
+
 - postximage:
     post: 2045664481083359385
     id: HGOo2XAbsAAZTsT
@@ -69,4 +399,118 @@
         id: 2ndosaka
     part-of:
       postx: 2045664481083359385
+
+- postximage:
+    post: 2045812307670991254
+    id: HGQvcQEaYAA4r29
+    label: On stage
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2045812307670991254
+
+- postximage:
+    post: 2045812307670991254
+    id: HGQvcQFb0AAwJDX
+    label: Backstage
+    info: Kanade
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2045812307670991254
+
+- postximage:
+    post: 2045816783408660774
+    id: HGQzgbuaAAApcL2
+    label: Backstage
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2045816783408660774
+
+- postximage:
+    post: 2045818817142730819
+    id: HGQ1XuqawAE1kte
+    label: On stage
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2045818817142730819
+
+- postximage:
+    post: 2045818817142730819
+    id: HGQ1XusasAAumjF
+    label: On stage
+    info: Hika
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2045818817142730819
+
+- postximage:
+    post: 2045825262248686063
+    id: HGQ7O1vbwAAoCRf
+    label: On stage
+    info: Natsu
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2045825262248686063
+
+- postximage:
+    post: 2045830710788018179
+    id: HGRALnyaIAASvsj
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-04-19
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2045830710788018179
+
+- update:
+    show:
+      year: 2026
+      id: 2ndosaka
+    date: 2026-04-20
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+
+- youtubeshort:
+    id: hoYjWLPnteM
+    label: On stage
+    published-date: 2026-04-19
+    context:
+    - song: jumping
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
 

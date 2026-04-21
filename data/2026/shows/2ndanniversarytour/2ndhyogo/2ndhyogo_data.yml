@@ -12,6 +12,9 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: 4veKX9bkPcU
+            - multimediasubsection:
+                multimedia:
                 - youtubeshort: bon9DvQFiew
             - multimediasubsection:
                 label: Images
@@ -45,6 +48,11 @@
                 - postximage:
                     post: 2045457386320879776
                     image: HGLsnlubwAEP5uz
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DXZBmoAj6R2
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -570,6 +578,20 @@
     date: 2026-04-19
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndhyogo
+
+- youtubeshort:
+    id: 4veKX9bkPcU
+    label: Digest movie
+    published-date: 2026-04-21
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    - song: reigengirl
     part-of:
       show:
         year: 2026

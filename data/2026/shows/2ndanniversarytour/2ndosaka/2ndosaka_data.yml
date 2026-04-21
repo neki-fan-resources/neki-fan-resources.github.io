@@ -58,6 +58,14 @@
                 - postximage:
                     post: 2045830710788018179
                     image: HGRALnyaIAASvsj
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DXZBmoAj6R2
+                    image: 2
     part-of:
       show:
         year: 2026
@@ -118,6 +126,41 @@
         post: 2045818817142730819
         image: HGQ1XuqawAE1kte
 
+- postinstagram:
+    id: DXZBmoAj6R2
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-04-21
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      @ 兵庫・music zoo KOBE 太陽と虎
+      @ 大阪・梅田シャングリラ⁡
+      ⁡
+      関西2日間ありがと！兵庫も大阪も最高だったよ！
+      ストラップ可愛いでしょ🧸
+      ⁡
+      4/26渋谷クラブクアトロでのファイナル、みんなで最高の1日にしよ！
+      ⁡
+       #NEKI
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      @ Hyogo / music zoo KOBE Taiyo to Tora
+      @ Osaka / Umeda Shangri-La
+      
+      Thanks for the 2 days in Kansai! Both Hyogo and Osaka were the best!
+      The strap is cute, right🧸
+      
+      Let's make the final at Shibuya Club Quattro on 4/26 the best day ever together!
+      
+       #NEKI
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+
 - postinstagramimage:
     post: DXT9CtUkSlL
     id: 2
@@ -153,6 +196,32 @@
         id: 2ndosaka
     part-of:
       postinstagram: DXT9CtUkSlL
+
+- postinstagramimage:
+    post: DXZBmoAj6R2
+    id: 1
+    label: Backstage
+    info: Kanade
+    published-date: 2026-04-21
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXZBmoAj6R2
+
+- postinstagramimage:
+    post: DXZBmoAj6R2
+    id: 2
+    label: Azuki-chan
+    info: Kanade
+    published-date: 2026-04-21
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postinstagram: DXZBmoAj6R2
 
 - postx:
     id: 2045664481083359385

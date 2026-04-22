@@ -86,6 +86,8 @@
   --color-lyrics-atr: var(--color-cocoro-dark);
   --color-lyrics-aro: var(--color-cocoro);
 
+  --color-interview-translation: #000080;
+
 
   --bg-album: linear-gradient(160deg, transparent 0rem, transparent 20%, var(--color-kanade));
   --bg-group: linear-gradient(160deg, transparent 0rem, transparent 20%, #204020);

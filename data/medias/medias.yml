@@ -15,5 +15,7 @@ categoriespage:
   isSmallMarker:
   - audiomedia
   - writtenmedia
+  isMediumMarker:
+  - mediummedia
   isLargeMarker:
   - mainmedia

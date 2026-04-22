@@ -28,7 +28,7 @@
             - textsubsection:
                 lines:
                 - line:
-                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+                  - text: The translation was done using Google Gemini, with continuous additional inputs for accuracy.
             - interviewsubsection:
                 label: Translation
                 lines:

@@ -11,8 +11,10 @@ mediawritten:
   member:
   - Natsu
   published-date: 2026-04-13
-  webpage: 'https://skream.jp/news/2026/04/skream_magazine_news.php'
+  article-page: 'https://skream.jp/column/neki/202604.php'
   part-of:
     group:
       id: media
       group: 2026
+  description:
+  - "The second column of \"NEK!の #ネキ史\" (NEK!'s #nekistory) in the April issue of Skream! is written by Natsu."

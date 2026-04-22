@@ -10,6 +10,13 @@
         - basicsection:
             subsections:
             - textsubsection:
+                lines:
+                - line:
+                  - text: '← '
+                  - media:
+                      year: 2026
+                      id: skreamnekishi202602
+            - textsubsection:
                 multimedia:
                   postximage:
                     post: 2042847752904941849

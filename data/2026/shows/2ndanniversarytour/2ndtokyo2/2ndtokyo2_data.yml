@@ -60,6 +60,87 @@
     part-of:
       youtubeshort: KP2IyazP2uw
 
+- webimage:
+    domain: note.com.nekiband
+    page: nc38529fda3e3
+    id: merch
+    label: Merch
+    published-date: 2026-04-22
+    url: 'https://assets.st-note.com/img/1776857035-iItslhC4wjeNr73HAyW9R5dX.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nc38529fda3e3
+
+- webimage:
+    domain: note.com.nekiband
+    page: nc38529fda3e3
+    id: merchlottery
+    label: Merch lottery
+    published-date: 2026-04-22
+    url: 'https://assets.st-note.com/img/1776857035-iItslhC4wjeNr73HAyW9R5dX.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nc38529fda3e3
+
+- webimage:
+    domain: note.com.nekiband
+    page: nc38529fda3e3
+    id: merchsticker
+    label: Merch sticker
+    published-date: 2026-04-22
+    url: 'https://assets.st-note.com/img/1776857035-iItslhC4wjeNr73HAyW9R5dX.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nc38529fda3e3
+
+- webimage:
+    domain: note.com.nekiband
+    page: nc38529fda3e3
+    id: poster
+    label: Poster
+    published-date: 2026-04-22
+    url: 'https://assets.st-note.com/img/1776857035-iItslhC4wjeNr73HAyW9R5dX.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: nc38529fda3e3
+
+- webpage:
+    domain: note.com.nekiband
+    id: nc38529fda3e3
+    label: Show information
+    published-date: 2026-04-22
+    url: 'https://note.com/nekiband_jp/n/nc38529fda3e3'
+    image:
+    - merch
+    - merchlottery
+    - merchsticker
+    - poster
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
 - youtubeshort:
     id: K5oTgZj4GrI
     label: Teaser 2

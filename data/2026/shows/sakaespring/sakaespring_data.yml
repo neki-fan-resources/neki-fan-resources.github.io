@@ -47,6 +47,51 @@
         page: homepage
         id: flyer
 
+- postx:
+    id: 2047511390118981884
+    account: nekiband_jp
+    label: Day schedule
+    published-date: 2026-04-24
+    text: |-
+      🔥第2弾&日割り発表🔥
+      
+      「SAKAE SP-RING 2026」
+      @SAKAE_SPRING
+      
+      
+      NEK!の出演は6/6(土)に決定⚡️
+      ぜひお越しください！
+      
+      ▼チケット第2弾先行受付中🎟️
+      https://sakaespring.com
+      
+      #NEKI #サカスプ #サカスプ2026
+    translation: |-
+      🔥2nd Wave Announcement & Daily Schedule Released🔥
+      
+      「SAKAE SP-RING 2026」
+      @SAKAE_SPRING
+      
+      
+      NEK!'s appearance is confirmed for 6/6 (Sat)⚡️
+      Hope to see you there!
+      
+      ▼2nd round of ticket pre-orders now open🎟️
+      https://sakaespring.com
+      
+      #NEKI #SakaeSp #SakaeSp2026
+    image:
+    - HGo4wSgb0AAeBFG
+    part-of:
+      show:
+        year: 2026
+        id: sakaespring
+    reference:
+    - webimage:
+        domain: sakaespring.com
+        page: homepage
+        id: flyer
+
 - postximage:
     post: 2042437632844841425
     id: HFgyM3MbQAED4h1
@@ -58,6 +103,18 @@
         id: sakaespring
     part-of:
       postx: 2042437632844841425
+
+- postximage:
+    post: 2047511390118981884
+    id: HGo4wSgb0AAeBFG
+    label: 2nd lineup
+    published-date: 2026-04-24
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postx: 2047511390118981884
 
 - update:
     show:

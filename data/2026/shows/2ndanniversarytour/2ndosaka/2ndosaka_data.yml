@@ -12,6 +12,9 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: nUa0yVtKtRA
+            - multimediasubsection:
+                multimedia:
                 - youtubeshort: hoYjWLPnteM
             - multimediasubsection:
                 label: Images
@@ -575,6 +578,20 @@
     published-date: 2026-04-19
     context:
     - song: jumping
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      show:
+        year: 2026
+        id: 2ndosaka
+
+- youtubeshort:
+    id: nUa0yVtKtRA
+    label: Digest movie
+    published-date: 2026-04-23
+    context:
+    - song: getover
     - show:
         year: 2026
         id: 2ndosaka

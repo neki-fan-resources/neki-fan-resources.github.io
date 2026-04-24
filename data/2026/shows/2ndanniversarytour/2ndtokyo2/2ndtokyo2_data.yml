@@ -60,6 +60,83 @@
     part-of:
       youtubeshort: KP2IyazP2uw
 
+- postinstagram:
+    id: DXdpr4gEb_n
+    account: nekiband_jp
+    label: In 3 days
+    published-date: 2026-04-23
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      ツアーファイナル
+      渋谷クラブクアトロまであと3日🔥
+      
+      🎫: https://l-tike.com/nekiband/
+      
+      #NEKI
+      #ネキミーム
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      Tour Final
+      3 days left until Shibuya Club Quattro🔥
+      
+      🎫: https://l-tike.com/nekiband/
+      
+      #NEKI
+      #NekiMeme
+    video:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postinstagramvideo:
+    post: DXdpr4gEb_n
+    id: 1
+    label: On stage
+    info: Hika
+    published-date: 2026-04-23
+    context:
+    - song: clockup
+    part-of:
+      postinstagram: DXdpr4gEb_n
+
+- postinstagramvideo:
+    post: DXdpr4gEb_n
+    id: 2
+    label: On stage
+    info: Kanade
+    published-date: 2026-04-23
+    part-of:
+      postinstagram: DXdpr4gEb_n
+
+- postinstagramvideo:
+    post: DXdpr4gEb_n
+    id: 3
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-23
+    context:
+    - song: gimmick
+    part-of:
+      postinstagram: DXdpr4gEb_n
+
+- postinstagramvideo:
+    post: DXdpr4gEb_n
+    id: 4
+    label: On stage
+    info: Natsu
+    published-date: 2026-04-23
+    context:
+    - song: clockup
+    part-of:
+      postinstagram: DXdpr4gEb_n
+
 - webimage:
     domain: note.com.nekiband
     page: nc38529fda3e3

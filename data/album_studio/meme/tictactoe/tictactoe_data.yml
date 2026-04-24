@@ -12,6 +12,14 @@
                 - line:
                   - text: The name of this song was revealed on October 3rd, when the tracklist for album "MEME" was announced.
         - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DXdpr4gEb_n
+                    video: 2
+        - basicsection:
             label: Rehearsal, with original audio
             subsections:
             - multimediasubsection:

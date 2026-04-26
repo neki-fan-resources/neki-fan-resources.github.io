@@ -1,0 +1,13 @@
+song:
+  id: flick
+  cover-image:
+    webimage:
+      domain: neki.bitfan.id
+      page: 379562
+      id: announcement
+  fullname: FLiCK
+  release-date: 2026-06-10
+  description:
+  - Announced on April 25, during the final show of the "NEK! 2nd ANNIVERSARY LIVE TOUR 2026".
+  part-of:
+    group: album_studio

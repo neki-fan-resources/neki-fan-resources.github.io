@@ -1,0 +1,19 @@
+show:
+  year: 2026
+  id: debuttourosaka
+  cover-image:
+    webimage:
+      domain: neki.bitfan.id
+      page: 379563
+      id: poster
+  fullname: Osaka
+  date: 2026-09-04
+  tour: majordebuttour
+  description:
+  - 1st stop of the "NEK! MAJOR DEBUT TOUR".
+  categories:
+  - tourshow
+  venue: 梅田 BANGBOO, Osaka
+  event-page: 'https://neki.bitfan.id/schedules/105982'
+  part-of:
+    tour: majordebuttour

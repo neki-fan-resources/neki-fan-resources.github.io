@@ -1,0 +1,24 @@
+- webimage:
+    domain: neki.bitfan.id
+    page: 379562
+    id: announcement
+    label: Announcement
+    published-date: 2026-04-26
+    url: 'https://bitfan-id.s3.ap-northeast-1.amazonaws.com/store/7f029c39e86bff1d28ce60c2b8edfb8d.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 379562
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 379562
+    label: Announcement
+    published-date: 2026-04-26
+    url: 'https://neki.bitfan.id/contents/379562'
+    image:
+    - announcement
+    part-of:
+      song: flick
+

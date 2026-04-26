@@ -1,0 +1,19 @@
+show:
+  year: 2026
+  id: debuttourtokyo
+  cover-image:
+    webimage:
+      domain: neki.bitfan.id
+      page: 379563
+      id: poster
+  fullname: Tokyo
+  date: 2026-09-23
+  tour: majordebuttour
+  description:
+  - The final show of the "NEK! MAJOR DEBUT TOUR".
+  categories:
+  - mainshow
+  venue: duo MUSIC EXCHANGE, Tokyo
+  event-page: 'https://neki.bitfan.id/schedules/105984'
+  part-of:
+    tour: majordebuttour

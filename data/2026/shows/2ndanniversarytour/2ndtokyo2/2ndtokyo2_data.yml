@@ -8,10 +8,81 @@
         label: main
         sections:
         - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: d1SULP_B1tM
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DXmLIXeER9n
+                    image: 5
+                - postximage:
+                    post: 2048371387908366467
+                    image: HG1GYZ7aYAA_-zT
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2048395458352144419
+                    image: HG1cxywaMAAPp1R
+                - postximage:
+                    post: 2048396923133112607
+                    image: HG1eI9KbMAEYyRW
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2048371387908366467
+                    image: HG1GZ35bUAAPmUd
+                - postinstagramimage:
+                    post: DXmLIXeER9n
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2048395458352144419
+                    image: HG1cxy1b0AAXLHn
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2048400216307728412
+                    image: HG1hIc8acAA7JlQ
+                - postximage:
+                    post: 2048400216307728412
+                    image: HG1hIc-bAAIekVF
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2048395458352144419
+                    image: HG1cxywbMAAeiY4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2048371387908366467
+                    image: HG1GVlBagAEBAI5
+                - postinstagramimage:
+                    post: DXmLIXeER9n
+                    image: 4
+                - postximage:
+                    post: 2048396923133112607
+                    image: HG1eI9LboAAVxsk
+                - postximage:
+                    post: 2048395458352144419
+                    image: HG1cxyvbYAAQ4dk
+    - basicblock:
+        id: announcement
+        label: announcement
+        sections:
+        - basicsection:
             label: Countdown
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 2048341314719338667
+                    video: 01
+                - youtubeshort: 8eOjR4mQFXk
                 - youtubeshort: KP2IyazP2uw
                 - youtubeshort: j4NSGGuh80Y
                 - youtubeshort: K5oTgZj4GrI
@@ -39,6 +110,16 @@
                   - text: '[RECOVERY_LOG_03]</br>TIMESTAMP: 2026.04.18_18:58</br>CODE: ASCII 78 69 75 33</br>DECODING: 45%</br>NEXT SYNC: 0425_1859'
                 - line:
                   - text: 'SYSTEM ERROR:AREA LOST'
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '[RECOVERY_LOG_04]<br>TIMESTAMP: 2026.04.25_18:59<br>CODE: ERROR<br>DECODING: 0%<br>STATUS: REDIRECT_TO_0426_1900'
+                - line:
+                  - text: 'SYSTEM ERROR:AREA LOST'
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '[RECOVERY_LOG_05]<br>TIMESTAMP:  2026.04.26_19:00<br>CODE: BIN 01101010<br>DECODING: ?<br>NEXT REDIRECT_TO_0610'
     part-of:
       show:
         year: 2026
@@ -186,6 +267,42 @@
         year: 2026
         id: 2ndtokyo2
 
+- postinstagram:
+    id: DXmLIXeER9n
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-26
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍ファイナル・渋谷クラブクアトロ
+      
+      THANK YOU SOLD OUT!!!!
+      
+      全12会場、NEK!初の全国ツアー完走！
+      ご来場いただきありがとうございました🫶✨
+      
+      次のワンマンは9月より
+      東名阪ツアーでお会いしましょう🔥
+      ▶https://neki.bitfan.id/contents/379563
+      
+      #NEKI
+    image:
+    - 3
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - postximage:
+        post: 2048371387908366467
+        image: HG1GVlBagAEBAI5
+    - postximage:
+        post: 2048371387908366467
+        image: HG1GZ35bUAAPmUd
+
 - postinstagramimage:
     post: DXiZRzxmRq9
     id: 1
@@ -265,6 +382,42 @@
         id: 2ndhyogo
     part-of:
       postinstagram: DXjocoHEuXG
+
+- postinstagramimage:
+    post: DXmLIXeER9n
+    id: 3
+    label: On stage
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DXmLIXeER9n
+
+- postinstagramimage:
+    post: DXmLIXeER9n
+    id: 4
+    label: Backstage
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DXmLIXeER9n
+
+- postinstagramimage:
+    post: DXmLIXeER9n
+    id: 5
+    label: On stage
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DXmLIXeER9n
 
 - postinstagramvideo:
     post: DXdpr4gEb_n
@@ -353,12 +506,15 @@
       https://note.com/nekiband_jp/n/nc38529fda3e3
       
       #NEKI
-    image:
-    - HGva7H8bwAAczuw
     part-of:
       show:
         year: 2026
         id: 2ndtokyo2
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nc38529fda3e3
+        id: poster
 
 - postx:
     id: 2048046009008476232
@@ -439,17 +595,193 @@
         page: nc38529fda3e3
         id: merchlottery
 
-- postximage:
-    post: 2047971391996387597
-    id: HGva7H8bwAAczuw
-    label: Poster
-    published-date: 2026-04-25
-    context:
-    - show:
+- postx:
+    id: 2048341314719338667
+    account: nekiband_jp
+    label: Message
+    published-date: 2026-04-26
+    text: |-
+      [RECOVERY_LOG_05]
+      TIMESTAMP:  2026.04.26_19:00
+      CODE: BIN 01101010
+      DECODING: ?
+      NEXT REDIRECT_TO_0610
+    video:
+    - 01
+    part-of:
+      youtubeshort: mjhtvocwLGw
+
+- postx:
+    id: 2048371387908366467
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-26
+    text: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍ファイナル・渋谷クラブクアトロ
+      
+      THANK YOU SOLD OUT!!!!
+      
+      全12会場、NEK!初の全国ツアー完走！
+      ご来場いただきありがとうございました🫶✨
+      
+      次のワンマンは9月より
+      東名阪ツアーでお会いしましょう🔥
+      ▶︎https://neki.bitfan.id/contents/379563
+      
+      #NEKI
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      📍Final - Shibuya Club Quattro
+      
+      THANK YOU SOLD OUT!!!!
+      
+      All 12 venues, NEK!'s first nationwide tour completed!
+      Thank you for coming🫶✨
+      
+      For our next one-man live, starting in September
+      let's meet at the Tokyo-Nagoya-Osaka tour🔥
+      ▶︎https://neki.bitfan.id/contents/379563
+      
+      #NEKI
+    image:
+    - HG1GVlBagAEBAI5
+    - HG1GYZ7aYAA_-zT
+    - HG1GZ35bUAAPmUd
+    part-of:
+      show:
         year: 2026
         id: 2ndtokyo2
+
+- postx:
+    id: 2048390131762262016
+    account: nekiband_jp
+    label: Playlist
+    published-date: 2026-04-26
+    text: |-
+      🎧PLAYLIST🎧
+      
+      『NEK! 2nd ANNIVERSARY LIVE TOUR 2026』
+      ＠ 東京・渋谷クラブクアトロ
+      
+      本日のセットリストプレイリストを公開💥
+      
+      🔗https://lnk.to/NEKI2NDANNIV.FINAL
+      
+      #NEKI
+    translation: |-
+      🎧PLAYLIST🎧
+      
+      『NEK! 2nd ANNIVERSARY LIVE TOUR 2026』
+      @ Tokyo・Shibuya Club Quattro
+      
+      Today's setlist playlist has been released💥
+      
+      🔗https://lnk.to/NEKI2NDANNIV.FINAL
+      
+      #NEKI
+    image:
+    - HG1XH7zbAAAJtMl
     part-of:
-      postx: 2047971391996387597
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postx:
+    id: 2048395458352144419
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-04-26
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      ファイナルクアトロ！
+      ありがとうございました！！
+      
+      本当にずっとずっと幸せで、この時間が一生続けばいいのにと思いながら演奏してました。
+      
+      みんなのおかげで12公演駆け抜けることができました。
+      心から感謝の気持ちでいっぱいです。
+      大好きです！
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      Final Quattro!
+      Thank you so much!!
+      
+      I was so, so happy the entire time, and I performed wishing this moment could last forever.
+      
+      Thanks to everyone, I was able to make it through all 12 performances.
+      My heart is full of gratitude.
+      I love you all!
+    image:
+    - HG1cxy1b0AAXLHn
+    - HG1cxyvbYAAQ4dk
+    - HG1cxywaMAAPp1R
+    - HG1cxywbMAAeiY4
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postx:
+    id: 2048396923133112607
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-04-26
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026 FINAL
+      @ SHIBUYA CLUB QUATTRO
+      
+      とても素敵な1日を、そして2ヶ月半をありがとうございました！
+      みんなにたくさんのありがとう！！
+      みんな、みんな大好き！！！！！！！！
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026 FINAL
+      @ SHIBUYA CLUB QUATTRO
+      
+      Thank you for such a wonderful day, and for these past two and a half months!
+      A huge thank you to everyone!!
+      I love you all, I love you all so much!!!!!!!!
+    image:
+    - HG1eI9KbMAEYyRW
+    - HG1eI9LboAAVxsk
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postx:
+    id: 2048400216307728412
+    account: coco_102
+    label: Thank you
+    published-date: 2026-04-26
+    text: |-
+      ツアーファイナルありがとうございました🔥
+      終わってしまった寂しさと12公演走り切った達成感に今ビタビタに浸っています笑
+      日々皆さんの存在に支えられ、ここまで走り切ることができました！本当にありがとう🙇🏻‍♀️
+      更なる高みを目指してひたむきに頑張ります！
+      これからも応援よろしくお願いいたします！
+    translation: |-
+      Thank you for the tour final🔥
+      I'm currently completely immersed in the sadness that it's over and the sense of accomplishment of having run through all 12 performances lol
+      I was able to make it this far, supported by your presence every day! Thank you so much🙇🏻‍♀️
+      I will work earnestly aiming for even greater heights!
+      Please continue to support me from here on out!
+    image:
+    - HG1hIc-bAAIekVF
+    - HG1hIc8acAA7JlQ
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - postximage:
+        post: 2048371387908366467
+        image: HG1GYZ7aYAA_-zT
+    - postximage:
+        post: 2048371387908366467
+        image: HG1GZ35bUAAPmUd
 
 - postximage:
     post: 2048209227500704080
@@ -463,6 +795,156 @@
         id: 2ndtokyo2
     part-of:
       postx: 2048209227500704080
+
+- postximage:
+    post: 2048371387908366467
+    id: HG1GVlBagAEBAI5
+    label: Backstage
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048371387908366467
+
+- postximage:
+    post: 2048371387908366467
+    id: HG1GYZ7aYAA_-zT
+    label: On stage
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048371387908366467
+
+- postximage:
+    post: 2048371387908366467
+    id: HG1GZ35bUAAPmUd
+    label: On stage
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048371387908366467
+
+- postximage:
+    post: 2048390131762262016
+    id: HG1XH7zbAAAJtMl
+    label: Playlist cover
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048390131762262016
+
+- postximage:
+    post: 2048395458352144419
+    id: HG1cxy1b0AAXLHn
+    label: On stage
+    info: Kanade, Natsu
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048395458352144419
+
+- postximage:
+    post: 2048395458352144419
+    id: HG1cxyvbYAAQ4dk
+    label: Backstage
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048395458352144419
+
+- postximage:
+    post: 2048395458352144419
+    id: HG1cxywaMAAPp1R
+    label: On stage
+    info: encore
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048395458352144419
+
+- postximage:
+    post: 2048395458352144419
+    id: HG1cxywbMAAeiY4
+    label: On stage
+    info: Natsu
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048395458352144419
+
+- postximage:
+    post: 2048396923133112607
+    id: HG1eI9KbMAEYyRW
+    label: On stage
+    info: encore
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048396923133112607
+
+- postximage:
+    post: 2048396923133112607
+    id: HG1eI9LboAAVxsk
+    label: Backstage
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048396923133112607
+
+- postximage:
+    post: 2048400216307728412
+    id: HG1hIc-bAAIekVF
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048400216307728412
+
+- postximage:
+    post: 2048400216307728412
+    id: HG1hIc8acAA7JlQ
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-26
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048400216307728412
 
 - postxvideo:
     post: 2048046009008476232
@@ -478,6 +960,19 @@
     - song: clockup
     part-of:
       postx: 2048046009008476232
+
+- postxvideo:
+    post: 2048341314719338667
+    id: 01
+    label: RECORVERY_LOG_05
+    published-date: 2026-04-26
+    cover: 2048234042618003456/img/l_hJxI1oRwWpIGDk.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048341314719338667
 
 - webimage:
     domain: note.com.nekiband
@@ -501,7 +996,7 @@
     id: merchlottery
     label: Merch lottery
     published-date: 2026-04-22
-    url: 'https://assets.st-note.com/img/1776857035-iItslhC4wjeNr73HAyW9R5dX.jpg'
+    url: 'https://assets.st-note.com/img/1776857046-NP23YRohQkm9D6STiyFfuK0e.jpg'
     context:
     - show:
         year: 2026
@@ -517,7 +1012,7 @@
     id: merchsticker
     label: Merch sticker
     published-date: 2026-04-22
-    url: 'https://assets.st-note.com/img/1776857035-iItslhC4wjeNr73HAyW9R5dX.jpg'
+    url: 'https://assets.st-note.com/img/1776857055-RiJp1KTXcBLy2OlVsr7uMtIw.jpg'
     context:
     - show:
         year: 2026
@@ -602,9 +1097,37 @@
         id: 2ndtokyo2
 
 - youtubeshort:
+    id: d1SULP_B1tM
+    label: On stage
+    published-date: 2026-04-26
+    context:
+    - song: bitbybit
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- youtubeshort:
     id: j4NSGGuh80Y
     label: Teaser 3
     published-date: 2026-04-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    - song: zerosum
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- youtubeshort:
+    id: mjhtvocwLGw
+    label: RECORVERY_LOG_05
+    published-date: 2026-04-26
     context:
     - show:
         year: 2026

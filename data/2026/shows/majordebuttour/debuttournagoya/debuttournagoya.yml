@@ -1,0 +1,19 @@
+show:
+  year: 2026
+  id: debuttournagoya
+  cover-image:
+    webimage:
+      domain: neki.bitfan.id
+      page: 379563
+      id: poster
+  fullname: Aichi
+  date: 2026-09-05
+  tour: majordebuttour
+  description:
+  - 2nd stop of the "NEK! MAJOR DEBUT TOUR".
+  categories:
+  - tourshow
+  venue: RAD SEVEN, Nagoya
+  event-page: 'https://neki.bitfan.id/schedules/105983'
+  part-of:
+    tour: majordebuttour

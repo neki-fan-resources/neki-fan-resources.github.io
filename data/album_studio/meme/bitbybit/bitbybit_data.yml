@@ -6,6 +6,12 @@
         label: main
         sections:
         - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: d1SULP_B1tM
+        - basicsection:
             label: Rehearsal, with studio audio
             subsections:
             - multimediasubsection:

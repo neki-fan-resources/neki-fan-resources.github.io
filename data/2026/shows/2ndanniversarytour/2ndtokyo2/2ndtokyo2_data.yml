@@ -95,6 +95,177 @@
         year: 2026
         id: 2ndtokyo2
 
+- postinstagram:
+    id: DXiZRzxmRq9
+    account: 46_hikaa
+    label: Hika pre-show thoughts
+    published-date: 2026-04-25
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      セミファイナルから少し時間が経ったけど、
+      あの日の余韻がまだ抜けてない。
+      
+      セミファイナルも終わり、
+      明日はいよいよツアーファイナル。
+      
+      11箇所まわって、本当に楽しかった。
+      楽しかった分だけ、終わりが近いと思うとちょっと寂しい。
+      
+      NEK!と出会って、ここまでみんなで積み上げてきたもの、
+      明日、全部出し切って
+      
+      まだ見たことない景色、みんなで見にいこ！
+      
+      ラスト東京。
+      全力で、私たちの全部を音楽で伝えます。楽しもう！
+    translation: |-
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      A little time has passed since the semi-final, but
+      the afterglow of that day still hasn't faded.
+      
+      The semi-final is over, and
+      tomorrow is finally the tour final.
+      
+      Going around to 11 places, it was really fun.
+      Because it was so fun, it's a little sad to think that the end is near.
+      
+      What we've built up together since meeting NEK!,
+      tomorrow, we'll pour it all out.
+      
+      Let's go see the scenery we've never seen before, all of us together!
+      
+      Last stop, Tokyo.
+      With all our might, we will convey everything we are through our music. Let's enjoy it!
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    todo: context for the images
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postinstagram:
+    id: DXjocoHEuXG
+    account: natsu08_guitar
+    label: Tomorrow. I'll give everything
+    published-date: 2026-04-25
+    text: |-
+      .
+      ついに明日ツアーファイナルクアトロ。
+      約2ヶ月半のNEK!初の全国ツアー
+      明日で幕を閉じます。
+      
+      今まで回ってきた11箇所で得たものすべてをここにぶつけます。
+      全力でNEK!の全てを届けます！
+      私たちを支えてくださった皆さんに音楽で感謝を伝えます！！
+      
+      行くぞクアトロ！！！！！
+    translation: |-
+      .
+      Finally, the tour final at Quattro is tomorrow.
+      NEK!'s first nationwide tour, which has lasted about two and a half months,
+      will come to a close tomorrow.
+      
+      I will pour everything I've gained from the 11 cities we've visited into this show.
+      I will deliver everything that is NEK! with all of my heart!
+      I will express my gratitude through music to everyone who has supported us!!
+      
+      Let's do this, Quattro!!!!!
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postinstagramimage:
+    post: DXiZRzxmRq9
+    id: 1
+    label: Sky
+    published-date: 2026-04-25
+    part-of:
+      postinstagram: DXiZRzxmRq9
+
+- postinstagramimage:
+    post: DXiZRzxmRq9
+    id: 2
+    label: Mic
+    published-date: 2026-04-25
+    part-of:
+      postinstagram: DXiZRzxmRq9
+
+- postinstagramimage:
+    post: DXiZRzxmRq9
+    id: 3
+    label: On stage
+    info: Hika's guitars
+    published-date: 2026-04-25
+    part-of:
+      postinstagram: DXiZRzxmRq9
+
+- postinstagramimage:
+    post: DXiZRzxmRq9
+    id: 4
+    label: Candies
+    published-date: 2026-04-25
+    part-of:
+      postinstagram: DXiZRzxmRq9
+
+- postinstagramimage:
+    post: DXiZRzxmRq9
+    id: 5
+    label: Tour posters
+    info: Hika
+    published-date: 2026-04-25
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postinstagram: DXiZRzxmRq9
+
+- postinstagramimage:
+    post: DXiZRzxmRq9
+    id: 6
+    label: T-shirt
+    info: Hika
+    published-date: 2026-04-25
+    context:
+    - tour: 2ndanniversarytour
+    part-of:
+      postinstagram: DXiZRzxmRq9
+
+- postinstagramimage:
+    post: DXjocoHEuXG
+    id: 1
+    label: Backstage
+    info: Natsu
+    published-date: 2026-04-25
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXjocoHEuXG
+
+- postinstagramimage:
+    post: DXjocoHEuXG
+    id: 2
+    label: Signed posters
+    published-date: 2026-04-25
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    part-of:
+      postinstagram: DXjocoHEuXG
+
 - postinstagramvideo:
     post: DXdpr4gEb_n
     id: 1
@@ -138,6 +309,175 @@
     - song: clockup
     part-of:
       postinstagram: DXdpr4gEb_n
+
+- postx:
+    id: 2047971391996387597
+    account: nekiband_jp
+    label: Tomorrow
+    published-date: 2026-04-25
+    text: |-
+      💥🗾FINAL🗾💥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      🎪東京・渋谷クラブクアトロ
+      🕐16時 開場 / 17時 開演
+      
+      ついに明日、ツアーファイナル開催‼️
+      ご来場お待ちしております🔥
+      
+      ▼チケット残り僅か！
+      受付は本日23:59まで⚠️
+      https://l-tike.com/nekiband/
+      
+      ▼公演詳細🖊️
+      https://note.com/nekiband_jp/n/nc38529fda3e3
+      
+      #NEKI
+    translation: |-
+      💥🗾FINAL🗾💥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      🎪Tokyo / Shibuya Club Quattro
+      🕐16:00 Doors Open / 17:00 Start
+      
+      The tour final is finally being held tomorrow‼️
+      We look forward to seeing you there🔥
+      
+      ▼Very few tickets left!
+      Sales close today at 23:59⚠️
+      https://l-tike.com/nekiband/
+      
+      ▼Performance details🖊️
+      https://note.com/nekiband_jp/n/nc38529fda3e3
+      
+      #NEKI
+    image:
+    - HGva7H8bwAAczuw
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postx:
+    id: 2048046009008476232
+    account: coco_102
+    label: Tour ending tomorrow
+    published-date: 2026-04-25
+    text: |-
+      2月8日から始まった今回の全国ツアー、もう明日で最後だなんて信じられないです。
+      旅の締めくくりに相応しいライブをお届けします！
+      みんなの声もたくさん聞かせてね❤️‍🔥
+      渋谷クアトロで待ってるよー！！
+    translation: |-
+      I can't believe that this nationwide tour, which started on February 8th, is already coming to an end tomorrow.
+      We will deliver a live performance worthy of concluding this journey!
+      Let me hear lots of your voices too❤️‍🔥
+      We'll be waiting for you at Shibuya Quattroー！！
+    video:
+    - 01
+    part-of:
+      postx: 2047971391996387597
+
+- postx:
+    id: 2048209227500704080
+    account: nekiband_jp
+    label: Today. Sold out
+    published-date: 2026-04-26
+    text: |-
+      🔥🗾本日開催🗾🔥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      💥ALL TICKETS SOLD OUT💥
+      
+      📍東京・渋谷クラブクアトロ
+      ⏰16:00開場 / 17:00開演
+      
+      ★グッズ先行販売は13時から開始！
+      ★当日券の販売はございません。
+      
+      いよいよファイナル当日⚡️
+      お待ちしております❗️
+      
+      🔗https://note.com/nekiband_jp/n/nc38529fda3e3
+      
+      #NEKI
+    translation: |-
+      🔥🗾TODAY'S THE DAY🗾🔥
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026"
+      
+      💥ALL TICKETS SOLD OUT💥
+      
+      📍Tokyo / Shibuya Club Quattro
+      ⏰16:00 Doors Open / 17:00 Start
+      
+      ★Advance merch sales start from 13:00!
+      ★There will be no same-day tickets sold.
+      
+      The final is finally here today⚡️
+      We'll be waiting for you❗️
+      
+      🔗https://note.com/nekiband_jp/n/nc38529fda3e3
+      
+      #NEKI
+    image:
+    - HGyruHsakAAhB8V
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nc38529fda3e3
+        id: merch
+    - webimage:
+        domain: note.com.nekiband
+        page: nc38529fda3e3
+        id: merchlottery
+
+- postximage:
+    post: 2047971391996387597
+    id: HGva7H8bwAAczuw
+    label: Poster
+    published-date: 2026-04-25
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2047971391996387597
+
+- postximage:
+    post: 2048209227500704080
+    id: HGyruHsakAAhB8V
+    label: Poster sold out
+    published-date: 2026-04-26
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048209227500704080
+
+- postxvideo:
+    post: 2048046009008476232
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-26
+    cover: 2048045919325888512/img/FhVWitJrUHAYij0g.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndhyogo
+    - song: clockup
+    part-of:
+      postx: 2048046009008476232
 
 - webimage:
     domain: note.com.nekiband
@@ -215,6 +555,19 @@
     - merchlottery
     - merchsticker
     - poster
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- youtubeshort:
+    id: 8eOjR4mQFXk
+    label: Teaser 5
+    published-date: 2026-04-25
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
     part-of:
       show:
         year: 2026

@@ -51,6 +51,14 @@
         page: 379563
         id: poster
 
+- update:
+    tour: majordebuttour
+    date: 2026-04-27
+    text:
+    - Added the tour
+    part-of:
+      tour: majordebuttour
+
 - webimage:
     domain: neki.bitfan.id
     page: 379563

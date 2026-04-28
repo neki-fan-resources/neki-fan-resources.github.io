@@ -12,6 +12,9 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: i-7s2xSjHCc
+            - multimediasubsection:
+                multimedia:
                 - youtubeshort: d1SULP_B1tM
             - multimediasubsection:
                 label: Images
@@ -54,10 +57,21 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
+                    post: 2048573184426013138
+                    image: HG3-c-caEAA5uXy
+                - postximage:
+                    post: 2048573184426013138
+                    image: HG3-c-TagAAj4TO
+            - multimediasubsection:
+                multimedia:
+                - postximage:
                     post: 2048395458352144419
                     image: HG1cxywbMAAeiY4
             - multimediasubsection:
                 multimedia:
+                - postximage:
+                    post: 2048573184426013138
+                    image: HG3-c-Qa4AAfB1j
                 - postximage:
                     post: 2048371387908366467
                     image: HG1GVlBagAEBAI5
@@ -70,6 +84,22 @@
                 - postximage:
                     post: 2048395458352144419
                     image: HG1cxyvbYAAQ4dk
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DXoSy5GCUPo
+                    image: 1
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2048643506554769773
+                    image: HG4-aOdboAAdqtJ
+                - postximage:
+                    post: 2048643506554769773
+                    image: HG4-aOfbEAAFzA-
     - basicblock:
         id: announcement
         label: announcement
@@ -77,49 +107,70 @@
         - basicsection:
             label: Countdown
             subsections:
-            - multimediasubsection:
-                multimedia:
-                - postxvideo:
-                    post: 2048341314719338667
-                    video: 01
-                - youtubeshort: 8eOjR4mQFXk
-                - youtubeshort: KP2IyazP2uw
-                - youtubeshort: j4NSGGuh80Y
-                - youtubeshort: K5oTgZj4GrI
-                - youtubeshort: wSd6wmKxfnU
-        - basicsection:
-            label: Messages
-            subsections:
             - textsubsection:
+                multimedia:
+                  youtubeshort: wSd6wmKxfnU
                 lines:
                 - line:
                   - text: 'STATUS: 410 GONE</br>SYSTEM ERROR: All logs lost.</br>NEXT SYNC: 0404_1856'
             - textsubsection:
+                multimedia:
+                  youtubeshort: K5oTgZj4GrI
                 lines:
                 - line:
                   - text: '[RECOVERY_LOG_01]</br>TIMESTAMP: 2026.04.04_18:56</br>CODE: BIN 0110</br>DECODING: 15%</br>NEXT SYNC: 0411_1857'
             - textsubsection:
+                multimedia:
+                  youtubeshort: j4NSGGuh80Y
                 lines:
                 - line:
                   - text: '[RECOVERY_LOG_02]</br>TIMESTAMP: 2026.04.11_18:57</br>CODE: BIN 1010</br>DECODING: 30%</br>NEXT SYNC: 0418_1858'
                 - line:
                   - text: 'SYSTEM ERROR:AREA LOST'
             - textsubsection:
+                multimedia:
+                  youtubeshort: KP2IyazP2uw
                 lines:
                 - line:
                   - text: '[RECOVERY_LOG_03]</br>TIMESTAMP: 2026.04.18_18:58</br>CODE: ASCII 78 69 75 33</br>DECODING: 45%</br>NEXT SYNC: 0425_1859'
                 - line:
                   - text: 'SYSTEM ERROR:AREA LOST'
             - textsubsection:
+                multimedia:
+                  youtubeshort: 8eOjR4mQFXk
                 lines:
                 - line:
                   - text: '[RECOVERY_LOG_04]<br>TIMESTAMP: 2026.04.25_18:59<br>CODE: ERROR<br>DECODING: 0%<br>STATUS: REDIRECT_TO_0426_1900'
                 - line:
                   - text: 'SYSTEM ERROR:AREA LOST'
             - textsubsection:
+                multimedia:
+                  postxvideo:
+                    post: 2048341314719338667
+                    video: 01
                 lines:
                 - line:
                   - text: '[RECOVERY_LOG_05]<br>TIMESTAMP:  2026.04.26_19:00<br>CODE: BIN 01101010<br>DECODING: ?<br>NEXT REDIRECT_TO_0610'
+    - basicblock:
+        id: merch
+        label: Merch
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: note.com.nekiband
+                    page: nc38529fda3e3
+                    id: merch
+                - webimage:
+                    domain: note.com.nekiband
+                    page: nc38529fda3e3
+                    id: merchlottery
+                - webimage:
+                    domain: note.com.nekiband
+                    page: nc38529fda3e3
+                    id: merchsticker
     part-of:
       show:
         year: 2026
@@ -303,6 +354,90 @@
         post: 2048371387908366467
         image: HG1GZ35bUAAPmUd
 
+- postinstagram:
+    id: DXoSy5GCUPo
+    account: 46_hikaa
+    label: Hika's report
+    published-date: 2026-04-27
+    text: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      @渋谷CLUB QUATTRO
+      
+      改めてツアーファイナル東京、ソールドアウト。
+      たくさんの方がNEK!のライブに足を運んでくれたこと、本当に嬉しく思います。
+      ありがとうございました。
+      
+      12箇所まわってこの日を迎えるまで、
+      どんな気持ちになるのか、どんな景色が見えるのか
+      正直想像もつかなかったけど、
+      
+      この12公演、本当に楽しかったし
+      幸せすぎるツアーでした。
+      
+      初めての場所もあれば、
+      また帰ってこれた場所もあって、
+      新しい出会いもあれば、
+      久しぶりに会えた人もいて。
+      
+      音楽って“音を楽しむ”だけじゃなくて
+      人と人を繋げてくれるものなんだって
+      このツアーで改めて感じました。
+      
+      このツアーが出来たのは、
+      メンバー、ネキスタッフ、家族や友達、
+      そしてずっと応援してくれて、NEK!の音楽を愛してくれてるみんなのおかげです。
+      
+      本当にありがとう。
+      
+      そしてNEK!はここからが始まりだ！
+      もっとすごい景色、みんなで見たい！
+      一緒にでっかい夢掴みにいこ！
+      
+      これからもよろしくです！
+    translation: |-
+      “NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      @Shibuya CLUB QUATTRO
+      
+      Once again, the tour final in Tokyo, sold out.
+      I am truly happy that so many people came out to the NEK! live show.
+      Thank you very much.
+      
+      Until I went around to all 12 venues and reached this day,
+      what I would feel, what kind of scenery I would see,
+      honestly, I couldn't even imagine, but,
+      
+      these 12 performances were truly fun and
+      it was an incredibly happy tour.
+      
+      There were places I visited for the first time,
+      and places I was able to return to again,
+      there were new encounters,
+      and people I was able to see for the first time in a while.
+      
+      Music isn't just about "enjoying sound,"
+      it's something that connects people to people,
+      I felt that anew during this tour.
+      
+      The reason this tour was possible is
+      because of the members, the NEK! staff, my family and friends,
+      and everyone who has been supporting us, and everyone who loves NEK!'s music.
+      
+      Thank you so much.
+      
+      And for NEK!, this is where it begins!
+      I want to see even more amazing scenery with everyone!
+      Let's go grab a huge dream together!
+      
+      Please continue to support us!
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
 - postinstagramimage:
     post: DXiZRzxmRq9
     id: 1
@@ -418,6 +553,19 @@
         id: 2ndtokyo2
     part-of:
       postinstagram: DXmLIXeER9n
+
+- postinstagramimage:
+    post: DXoSy5GCUPo
+    id: 1
+    label: Backstage
+    info: Hika
+    published-date: 2026-04-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DXoSy5GCUPo
 
 - postinstagramvideo:
     post: DXdpr4gEb_n
@@ -783,6 +931,81 @@
         post: 2048371387908366467
         image: HG1GZ35bUAAPmUd
 
+- postx:
+    id: 2048573184426013138
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-04-27
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      ツアーファイナル東京！
+      
+      全12公演、ホント楽しかった。
+      ラスト東京、みんなの熱い想いがまっすぐ届いてお互いに全部ぶつけ合えた最高の時間でした。
+      
+      本当にありがとうございました。
+      これからもNEK!と一緒に、もっと大きな夢掴みにいこう
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      Tour final in Tokyo!
+      
+      All 12 performances, they were really fun.
+      For the final in Tokyo, your passionate feelings reached me directly, and it was the best time where we could unleash everything on each other.
+      
+      Thank you so much.
+      Let's keep chasing even bigger dreams together with NEK! from here on out.
+    image:
+    - HG3-c-Qa4AAfB1j
+    - HG3-c-TagAAj4TO
+    - HG3-c-caEAA5uXy
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - postximage:
+        post: 2048395458352144419
+        image: HG1cxywaMAAPp1R
+
+- postx:
+    id: 2048643506554769773
+    account: nekiband_jp
+    label: Saiki and Kanami at the show
+    published-date: 2026-04-27
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026 FINAL
+      @渋谷CLUB QUATTRO
+      
+      BAND-MAIDのSAIKIさん、KANAMIさんがNEK!のライブ観覧に！！
+      
+      そしてなんと！
+      お写真を撮っていただきました📸
+      
+      ありがとうございました🖤
+      
+      #bandmaid さん
+      #NEKI
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026 FINAL
+      @Shibuya CLUB QUATTRO
+      
+      BAND-MAID's SAIKI and KANAMI came to watch the NEK! live!!
+      
+      And guess what!
+      We got to take a picture with them📸
+      
+      Thank you so much🖤
+      
+      #bandmaid
+      #NEKI
+    image:
+    - HG4-aOdboAAdqtJ
+    - HG4-aOfbEAAFzA-
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
 - postximage:
     post: 2048209227500704080
     id: HGyruHsakAAhB8V
@@ -946,6 +1169,70 @@
     part-of:
       postx: 2048400216307728412
 
+- postximage:
+    post: 2048573184426013138
+    id: HG3-c-Qa4AAfB1j
+    label: Backstage
+    published-date: 2026-04-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048573184426013138
+
+- postximage:
+    post: 2048573184426013138
+    id: HG3-c-TagAAj4TO
+    label: On stage
+    info: Hika
+    published-date: 2026-04-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048573184426013138
+
+- postximage:
+    post: 2048573184426013138
+    id: HG3-c-caEAA5uXy
+    label: On stage
+    info: Hika
+    published-date: 2026-04-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048573184426013138
+
+- postximage:
+    post: 2048643506554769773
+    id: HG4-aOdboAAdqtJ
+    label: Backstage
+    info: Saiki and Kanami (BAND-MAID), NEK!
+    published-date: 2026-04-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048643506554769773
+
+- postximage:
+    post: 2048643506554769773
+    id: HG4-aOfbEAAFzA-
+    label: Backstage
+    info: Saiki and Kanami (BAND-MAID), NEK!
+    published-date: 2026-04-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2048643506554769773
+
 - postxvideo:
     post: 2048046009008476232
     id: 01
@@ -973,6 +1260,18 @@
         id: 2ndtokyo2
     part-of:
       postx: 2048341314719338667
+
+- update:
+    show:
+      year: 2026
+      id: 2ndtokyo2
+    date: 2026-04-27
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
 
 - webimage:
     domain: note.com.nekiband
@@ -1057,7 +1356,7 @@
 
 - youtubeshort:
     id: 8eOjR4mQFXk
-    label: Teaser 5
+    label: RECOVERY_LOG_04
     published-date: 2026-04-25
     context:
     - show:
@@ -1070,7 +1369,7 @@
 
 - youtubeshort:
     id: K5oTgZj4GrI
-    label: Teaser 2
+    label: RECOVERY_LOG_01
     published-date: 2026-04-04
     context:
     - show:
@@ -1084,7 +1383,7 @@
 
 - youtubeshort:
     id: KP2IyazP2uw
-    label: Teaser 4
+    label: RECOVERY_LOG_03
     published-date: 2026-04-18
     context:
     - song: ripoff
@@ -1111,8 +1410,22 @@
         id: 2ndtokyo2
 
 - youtubeshort:
+    id: i-7s2xSjHCc
+    label: Digest movie
+    published-date: 2026-04-27
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    - song: bitbybit
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- youtubeshort:
     id: j4NSGGuh80Y
-    label: Teaser 3
+    label: RECOVERY_LOG_02
     published-date: 2026-04-11
     context:
     - show:
@@ -1140,7 +1453,7 @@
 
 - youtubeshort:
     id: wSd6wmKxfnU
-    label: Teaser 1
+    label: Initial message
     published-date: 2026-04-01
     context:
     - show:

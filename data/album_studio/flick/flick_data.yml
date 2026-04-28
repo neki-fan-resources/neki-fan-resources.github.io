@@ -1,3 +1,11 @@
+- update:
+    song: flick
+    date: 2026-04-27
+    text:
+    - Added the song
+    part-of:
+      song: flick
+
 - webimage:
     domain: neki.bitfan.id
     page: 379562

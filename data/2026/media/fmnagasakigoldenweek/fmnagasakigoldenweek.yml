@@ -1,0 +1,26 @@
+mediaaudio:
+  year: 2026
+  id: fmnagasakigoldenweek
+  cover-image:
+    postximage:
+      post: 2048986586961084843
+      image: HG92A6WacAA-e5o
+  radio: FM Nagasaki
+  show: アネキのMake it! NEK! RADIO
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-05-05
+  program: 'https://www.fmnagasaki.co.jp/2026/04/23/%e3%80%90fm%e9%95%b7%e5%b4%8e-gogo-golden-music-week%e3%80%91fm-nagasaki-%e3%82%a2%e3%83%84%e3%83%a1%e3%83%ad%ef%bc%81-golden-week-special/'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  description:
+  - NEK! appears in the special event in FM Nagasaki.
+  - Bands and artists with roots in Nagasaki host their own show.
+  categories:
+  - mainmedia

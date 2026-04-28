@@ -1,0 +1,78 @@
+- postx:
+    id: 2048986586961084843
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-04-28
+    text: |-
+      📻特番決定📻
+      
+      5/5(火祝) 21:00~21:30 放送
+      FM長崎 アツメロ！ GOLDEN WEEK SPECIAL
+      「アネキのMake it! NEK! RADIO」
+      
+      特番の放送が決定🎉
+      
+      NEK!4人で #FM長崎 に登場！
+      ぜひお聴きください⚡️
+      
+      https://fmnagasaki.co.jp/2026/04/23/%e3%80%90fm%e9%95%b7%e5%b4%8e-gogo-golden-music-week%e3%80%91fm-nagasaki-%e3%82%a2%e3%83%84%e3%83%a1%e3%83%ad%ef%bc%81-golden-week-special/
+      
+      #NEKI
+    translation: |-
+      📻Radio Special Confirmed📻
+      
+      Broadcasting on 5/5 (Tue/Holiday) from 21:00-21:30
+      FM Nagasaki Atsumero! GOLDEN WEEK SPECIAL
+      "Aneki's Make it! NEK! RADIO"
+      
+      A special program broadcast has been confirmed🎉
+      
+      All 4 members of NEK! will be appearing on #FMNagasaki!
+      Please make sure to listen⚡️
+      
+      https://fmnagasaki.co.jp/2026/04/23/%e3%80%90fm%e9%95%b7%e5%b4%8e-gogo-golden-music-week%e3%80%91fm-nagasaki-%e3%82%a2%e3%83%84%e3%83%a1%e3%83%ad%ef%bc%81-golden-week-special/
+      
+      #NEKI
+    image:
+    - HG92A6WacAA-e5o
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakigoldenweek
+
+- postximage:
+    post: 2048986586961084843
+    id: HG92A6WacAA-e5o
+    label: Poster
+    published-date: 2026-04-28
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakigoldenweek
+    part-of:
+      postx: 2048986586961084843
+
+- update:
+    media:
+      year: 2026
+      id: fmnagasakigoldenweek
+    date: 2026-04-28
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakigoldenweek
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 380355
+    label: Announcement
+    published-date: 2026-04-28
+    url: 'https://neki.bitfan.id/contents/380355'
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakigoldenweek
+

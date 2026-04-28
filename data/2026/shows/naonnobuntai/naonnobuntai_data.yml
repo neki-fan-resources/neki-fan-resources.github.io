@@ -42,14 +42,82 @@
         year: 2026
         id: naonnobuntai
 
+- postx:
+    id: 2048960393075433752
+    account: showyaofficial
+    label: Sold out
+    published-date: 2026-04-28
+    text: |-
+      SHOW-YA PRODUCE『NAONのBUNTAI 2026』
+      🌈TICKET SOLD OUT!! THANK YOU!!🌈
+      今年もチケット完売いたしました🙇🙇‍♂️
+      ありがとうございます！！！
+      
+      満員のお客様を前に最高のステージを
+      お届けいたします！
+      いよいよ明日！！！お楽しみにーーー！
+      
+      『NAONのBUNTAI 2026』
+      【日時】2026年4月29日(水・祝) 13:00開場 / 14:00開演
+      【会場】横浜BUNTAI
+      
+      NAONのBUNTAI HP
+      https://naonnoyaon.net
+      ↑↑よくある質問への回答をまとめたFAQもご来場前に是非ご覧ください♪
+      
+      #NAONのBUNTAI
+      #SHOWYA
+    translation: |-
+      SHOW-YA PRODUCE "NAON no BUNTAI 2026"
+      🌈TICKET SOLD OUT!! THANK YOU!!🌈
+      Tickets sold out again this year🙇🙇‍♂️
+      Thank you so much!!!
+      
+      We will deliver the best stage performance
+      in front of a full house of guests!
+      It's finally tomorrow!!! Look forward to it---!
+      
+      "NAON no BUNTAI 2026"
+      [Date/Time] 2026/4/29 (Wed/Holiday) Doors open 13:00 / Start 14:00
+      [Venue] Yokohama BUNTAI
+      
+      NAON no BUNTAI Official Website
+      https://naonnoyaon.net
+      ↑↑Please be sure to check the FAQ with answers to common questions before coming to the venue♪
+      
+      #NAONnoBUNTAI
+      #SHOWYA
+    image:
+    - HG9Xq2YbkAA-qGa
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
 - postximage:
     post: 2034827695041966204
     id: HD0o-YibcAAb_9C
     label: Poster
     published-date: 2026-03-20
-    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
     part-of:
       postx: 2034827695041966204
+
+- postximage:
+    post: 2048960393075433752
+    id: HG9Xq2YbkAA-qGa
+    label: Poster sold out
+    published-date: 2026-04-28
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2048960393075433752
 
 - update:
     show:

@@ -112,7 +112,7 @@
       #NEKI
     image:
     - GQwGBNrb0AAuARr
-    todo: tour poster
+    - GQwHOAlaYAAeHbi
     part-of:
       show:
         year: 2024
@@ -141,11 +141,15 @@
       #NEKI
     image:
     - GVpWTLoXMAAyp1r
-    todo: tour poster
     part-of:
       show:
         year: 2024
         id: soundsgoodvol73
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n4171192bfb28
+        id: tourposter
 
 - postx:
     id: 1826990576136540351
@@ -183,6 +187,16 @@
     - show:
         year: 2024
         id: soundsgoodvol73
+    part-of:
+      postx: 1804826253255667992
+
+- postximage:
+    post: 1804826253255667992
+    id: GQwHOAlaYAAeHbi
+    label: Poster
+    published-date: 2024-06-23
+    context:
+    - tour: nekifirstosakaaichi2024
     part-of:
       postx: 1804826253255667992
 

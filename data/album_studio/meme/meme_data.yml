@@ -64,6 +64,9 @@
             - multimediasubsection:
                 label: Tower Records Machida
                 multimedia:
+                - postinstagramvideo:
+                    post: DRgxaEHCaWZ
+                    video: 01
                 - postximage:
                     post: 1993685933745668416
                     image: G6r-tyzakAAAqjz
@@ -97,6 +100,9 @@
             - multimediasubsection:
                 label: Tower Records Shinjuku
                 multimedia:
+                - postinstagramvideo:
+                    post: DRhL6PbE0Pj
+                    video: 1
                 - postximage:
                     post: 1993643777966399738
                     image: G6rYcrZaEAAuWC3
@@ -287,6 +293,51 @@
     part-of:
       album: meme
 
+- postinstagram:
+    id: DRhL6PbE0Pj
+    account: tower_shinjuku
+    label: Visiting the store
+    published-date: 2025-11-26
+    text: |-
+      本日1stフルアルバム
+      『MEME』をリリースしたNEK!の皆様がご来店🏁
+      
+      Xにはお写真もアップ中です😚
+      
+      新宿店ではサイン入りパネルが当たる抽選券
+      ＆「#ああバンドやりたい！」×NEK! コラボ絵柄ステッカーの特典をお渡ししてます🎮😽
+      
+      #MEME　#ネキミーム
+      
+      #タワーレコード新宿店
+      #タワレコ新宿
+      #towerrecords
+      #タワーレコード
+      #新宿　#shinjuku
+      #タワレコ
+      @nekiband_jp
+    translation: |-
+      The members of NEK!, who released their 1st full album "MEME" today, visited us🏁
+      
+      We've also uploaded photos on X😚
+      
+      At the Shinjuku store, we are handing out lottery tickets to win a signed panel
+      & as a special bonus, a "#AhIWantToStartABand!" x NEK! collaboration design sticker🎮😽
+      
+      #MEME #NekiMeme
+      
+      #TowerRecordsShinjukuStore
+      #TowerRecoShinjuku
+      #towerrecords
+      #TowerRecords
+      #Shinjuku #shinjuku
+      #TowerReco
+      @nekiband_jp
+    video:
+    - 1
+    part-of:
+      album: meme
+
 - postinstagramvideo:
     post: DQbox4-kjh8
     id: 01
@@ -309,6 +360,16 @@
     todo: to process and display
     part-of:
       postinstagram: DRgxaEHCaWZ
+
+- postinstagramvideo:
+    post: DRhL6PbE0Pj
+    id: 1
+    label: Visiting the store
+    published-date: 2025-11-26
+    context:
+    - album: meme
+    part-of:
+      postinstagram: DRhL6PbE0Pj
 
 - postx:
     id: 1961737876066168993
@@ -1340,7 +1401,6 @@
     image:
     - G6qnflNbEAAfBjt
     - G6qngiQbwAA7NWe
-    todo: video in instagram link
     part-of:
       album: meme
 
@@ -1373,7 +1433,6 @@
       #NEKI #MEME
     image:
     - G6qu9P6bwAQJXnO
-    todo: posts on Instagram
     part-of:
       album: meme
 
@@ -1472,6 +1531,7 @@
     id: 1993646142891167993
     account: TOWER_Shinjuku
     label: Visiting the store
+    info: Instagram DRhL6PbE0Pj
     published-date: 2025-11-26
     text: |-
       【#NEKI】　
@@ -1499,7 +1559,6 @@
       #MEME #NEK!MEME
     image:
     - G6rY7SZaYAAuE79
-    todo: video in instagram
     part-of:
       album: meme
 

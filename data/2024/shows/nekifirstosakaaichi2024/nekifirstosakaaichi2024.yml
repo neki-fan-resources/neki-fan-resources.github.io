@@ -1,9 +1,10 @@
 tour:
   id: nekifirstosakaaichi2024
   cover-image:
-    localimage:
-      tour: nekifirstosakaaichi2024
-      id: cover
+    webimage:
+      domain: note.com.nekiband
+      page: n4171192bfb28
+      id: tourposter
   fullname: NEK!初の大阪・愛知
   first-date: 2024-08-21
   last-date: 2024-08-24

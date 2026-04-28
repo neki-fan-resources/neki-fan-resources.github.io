@@ -77,6 +77,44 @@
       postinstagram: C_LNw7jvczd
 
 - postx:
+    id: 1808093597566394408
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-07-02
+    text: |-
+      8/21(水)開催
+      「心斎橋VARON presents. Day Dreamer -4th night-」
+      @ 心斎橋VARON
+      
+      出演決定しました🎉
+      
+      チケットのご予約は下記リンク or NEK!公式XのDMにお願いいたします🎟️
+      https://tiget.net/events/330531
+      
+      #NEKI
+    translation: |-
+      Appearing at the show on 8/21 (Wed)
+      "Shinsaibashi VARON presents. Day Dreamer -4th night-"
+      @ Shinsaibashi VARON
+      
+      Our performance has been confirmed🎉
+      
+      Please make ticket reservations via the link below or by DMing the official NEK! X account🎟️
+      https://tiget.net/events/330531
+      
+      #NEKI
+    image:
+    - GRejikdb0Ac6Tj3
+    part-of:
+      show:
+        year: 2024
+        id: daydreamer4night
+    reference:
+    - postximage:
+        post: 1825843541756752006
+        image: GVay0webUAAAJ-4
+
+- postx:
     id: 1825843541756752006
     account: LIVEHOUSE_VARON
     label: Tomorrow
@@ -132,6 +170,16 @@
       show:
         year: 2024
         id: daydreamer4night
+
+- postximage:
+    post: 1808093597566394408
+    id: GRejikdb0Ac6Tj3
+    label: Poster
+    published-date: 2026-04-28
+    context:
+    - tour: nekifirstosakaaichi2024
+    part-of:
+      postx: 1808093597566394408
 
 - postximage:
     post: 1825843541756752006

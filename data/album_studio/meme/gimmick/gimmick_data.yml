@@ -160,9 +160,9 @@
                 - youtubeshort: PNLPXORtGNY
             - multimediasubsection:
                 multimedia:
-                - postinstagramimage:
-                    post: DSCSCFSkQjw
-                    image: 03
+                - postximage:
+                    post: 2001567212373717145
+                    image: G8b-vPFbQAAB7JD
                 - postinstagramimage:
                     post: DSCSCFSkQjw
                     image: 04
@@ -762,10 +762,13 @@
     image:
     - 01
     - 02
-    - 03
     - 04
     part-of:
       song: gimmick
+    reference:
+    - postximage:
+        post: 2001567212373717145
+        image: G8b-vPFbQAAB7JD
 
 - postinstagramimage:
     post: DQLwCqfEmmX
@@ -986,16 +989,6 @@
 - postinstagramimage:
     post: DSCSCFSkQjw
     id: 02
-    label: Behind the scenes
-    published-date: 2025-12-09
-    context:
-    - song: gimmick
-    part-of:
-      postinstagram: DSCSCFSkQjw
-
-- postinstagramimage:
-    post: DSCSCFSkQjw
-    id: 03
     label: Behind the scenes
     published-date: 2025-12-09
     context:
@@ -1449,7 +1442,6 @@
       #NEKI #MEME
     image:
     - G8b-vPFbQAAB7JD
-    todo: remove instagram equivalent image (if better quality)
     part-of:
       song: gimmick
 

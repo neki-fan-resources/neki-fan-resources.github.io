@@ -1484,7 +1484,6 @@
       https://instagram.com/p/DHS7gafPqYZ/?igsh=MWY4d2p0ZnZsMm53dA==
     image:
     - GmO9323boAAPy59
-    todo: post on instagram
     part-of:
       show:
         year: 2025
@@ -1521,7 +1520,6 @@
     - GmPIi16b0AA_TKO
     - GmPIi16agAAa_gp
     - GmPIi18agAAt9kr
-    todo: more detailed post on Intagram
     part-of:
       show:
         year: 2025
@@ -1564,11 +1562,20 @@
       https://instagram.com/46_hikaa
     image:
     - GmSmtbracAAUUqq
-    todo: 3 images in previous posts, instagram psot
     part-of:
       show:
         year: 2025
         id: tricktakingtourtokyo
+    reference:
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOQ-qacAAAPmN
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOOzfbEAA3Ocq
+    - postximage:
+        post: 1901583979649872081
+        image: GmPIi18agAAt9kr
 
 - postx:
     id: 1901916392653537292

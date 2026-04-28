@@ -1,14 +1,3 @@
-- localimage:
-    tour: nekifirstosakaaichi2024
-    id: cover
-    label: Poster
-    published-date: 2024-06-20
-    source:
-      description: event page
-      url: 'https://note.com/nekiband_jp/n/n4171192bfb28'
-    part-of:
-      tour: nekifirstosakaaichi2024
-
 - postinstagram:
     id: C-oJxX6zKVy
     account: 46_hikaa
@@ -409,4 +398,30 @@
         id: daydreamer4night
     part-of:
       postx: 1827357268658286768
+
+- webimage:
+    domain: note.com.nekiband
+    page: n4171192bfb28
+    id: tourposter
+    label: Poster
+    published-date: 2024-06-20
+    url: 'https://assets.st-note.com/img/1720010509161-RzjalbUXQi.jpg'
+    local-copy: true
+    context:
+    - tour: nekifirstosakaaichi2024
+    part-of:
+      webpage:
+        domain: note.com.nekiband
+        id: n4171192bfb28
+
+- webpage:
+    domain: note.com.nekiband
+    id: n4171192bfb28
+    label: Tour page
+    published-date: 2024-06-20
+    url: 'https://note.com/nekiband_jp/n/n4171192bfb28'
+    image:
+    - tourposter
+    part-of:
+      tour: nekifirstosakaaichi2024
 

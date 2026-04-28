@@ -48,6 +48,50 @@
         id: wingedit
 
 - postx:
+    id: 1803805081969856636
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-06-20
+    text: |-
+      NEK!、初の大阪・愛知でのライブが決定🎊
+      
+      8/24(土)
+      「winged it」
+      @ NAGOYA CLUB UPSET
+      出演させていただきます🔥
+      
+      チケット予約は6/22(土)10時より
+      各プレイガイド or NEK!公式XのDMにお願いします📮
+      
+      他日程については後日発表いたします！
+      
+      #NEKI
+    translation: |-
+      NEK!'s first live shows in Osaka and Aichi have been confirmed 🎊
+      
+      8/24 (Sat)
+      "winged it"
+      @ NAGOYA CLUB UPSET
+      We will be performing 🔥
+      
+      Ticket reservations will begin on 6/22 (Sat) at 10:00
+      via each ticket vendor or NEK!'s official X DM 📮
+      
+      Other dates will be announced later!
+      
+      #NEKI
+    image:
+    - GQhUttbbQAAfVPg
+    part-of:
+      show:
+        year: 2024
+        id: wingedit
+    reference:
+    - postximage:
+        post: 1827255587870273643
+        image: GVu3DSDXgAAEC5y
+
+- postx:
     id: 1827255587870273643
     account: clubupset
     label: Today
@@ -121,9 +165,19 @@
         id: wingedit
 
 - postximage:
+    post: 1803805081969856636
+    id: GQhUttbbQAAfVPg
+    label: Poster
+    published-date: 2024-06-20
+    context:
+    - tour: nekifirstosakaaichi2024
+    part-of:
+      postx: 1803805081969856636
+
+- postximage:
     post: 1827255587870273643
     id: GVu3DSDXgAAEC5y
-    label: poster
+    label: Poster
     published-date: 2024-08-24
     local-copy: true
     context:

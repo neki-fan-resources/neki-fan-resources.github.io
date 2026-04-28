@@ -60,6 +60,74 @@
         id: gigantictownmeeting
 
 - postinstagram:
+    id: DUIJjocE1Uu
+    account: giga_osaka
+    label: 2nd lineup
+    published-date: 2026-01-30
+    text: |-
+      第２弾アーティスト発表💨
+      * * * * * * * * * * * * * * * * * *
+      GIGANTIC TOWN MEETING
+      * * * * * * * * * * * * * * * * * *
+      ⭐ACE COLLECTION
+      ⭐EMNW
+      ⭐おもかげ
+      ⭐カネヨリマサル
+      ⭐至福ぽんちょ
+      ⭐すいそうぐらし
+      ⭐すりぃ
+      ⭐セブンス・ベガ
+      ⭐月追う彼方
+      ⭐NEK!
+      ⭐Baby Canta
+      ⭐らそんぶる
+      ⭐レトロマイガール!!
+      and more…!
+      
+      街のライブシーンをつなぐ、毎年恒例のライブイベント🎶
+      注目のニューカマーから、シーンを支える実力派バンドまでが集結し、ライブを通して、夏の祭典#ジャイガ への流れを一緒に作っていきます。
+      10年分の熱い思いを伝える今年のジャイガを、みんなで一緒にお祝いしましょう！🎉
+      
+      📅4/12(SUN)
+      🏟梅田BANGBOO/Banana Hall/梅田Zeela
+      
+      詳細はHPをチェック！👉https://the-bonds-osaka.com/
+    translation: |-
+      2nd Artist Announcement💨
+      * * * * * * * * * * * * * * * * * *
+      GIGANTIC TOWN MEETING
+      * * * * * * * * * * * * * * * * * *
+      ⭐ACE COLLECTION
+      ⭐EMNW
+      ⭐Omokage
+      ⭐Kaneyori Masaru
+      ⭐Shifuku Poncho
+      ⭐Suisougurashi
+      ⭐Three
+      ⭐Seventh Vega
+      ⭐Tsuki Ou Kanata
+      ⭐NEK!
+      ⭐Baby Canta
+      ⭐Lensemble
+      ⭐Retro My Girl!!
+      and more…!
+      
+      An annual live event connecting the city's live music scene🎶
+      Bringing together everything from attention-grabbing newcomers to talented bands that support the scene, we will build momentum for the summer festival #GIGA through these live performances.
+      Let's celebrate this year's GIGA, which conveys 10 years of passionate thoughts, all together!🎉
+      
+      📅4/12(SUN)
+      🏟Umeda BANGBOO/Banana Hall/Umeda Zeela
+      
+      Check the HP for details!👉https://the-bonds-osaka.com/
+    video:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: gigantictownmeeting
+
+- postinstagram:
     id: DXCG6VFkb8b
     account: nekiband_jp
     label: Thank you
@@ -124,6 +192,18 @@
         id: gigantictownmeeting
     part-of:
       postinstagram: DXCG6VFkb8b
+
+- postinstagramvideo:
+    post: DUIJjocE1Uu
+    id: 1
+    label: 2nd lineup
+    published-date: 2026-01-30
+    context:
+    - show:
+        year: 2026
+        id: gigantictownmeeting
+    part-of:
+      postinstagram: DUIJjocE1Uu
 
 - postx:
     id: 2011743468692156620

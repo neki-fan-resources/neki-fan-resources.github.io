@@ -42,6 +42,9 @@
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: QJzDlj_jpfE
+                - postxvideo:
+                    post: 1763538930153177281
+                    video: 01
         - basicsection:
             label: Live, with studio audio
             subsections:
@@ -1176,6 +1179,26 @@
         - After all, we are animals, woof!
 
 - postx:
+    id: 1763538930153177281
+    account: nekiband_jp
+    label: Rehearsal rhythm section
+    published-date: 2024-03-01
+    text: |-
+      NEK!のリズム隊！
+      https://vt.tiktok.com/ZSFS32S8R/
+      #NEKI
+    translation: |-
+      NEK!'s rhythm section!
+      https://vt.tiktok.com/ZSFS32S8R/
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 1763538930153177281
+        video: 01
+
+- postx:
     id: 1943641464397062330
     account: nekiband_jp
     label: Live video announcement
@@ -1229,6 +1252,18 @@
         id: debutyearlastlive
     part-of:
       postx: 1943641464397062330
+
+- postxvideo:
+    post: 1763538930153177281
+    id: 01
+    label: Rehearsal
+    info: Kanade, Cocoro
+    published-date: 2024-03-01
+    cover: 1763538880379404288/pu/img/TNpHaZ0TGBBjr7n6.jpg
+    context:
+    - song: fool
+    part-of:
+      song: fool
 
 - update:
     song: fool

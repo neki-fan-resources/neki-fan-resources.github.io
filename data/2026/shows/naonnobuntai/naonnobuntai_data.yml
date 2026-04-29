@@ -1,3 +1,148 @@
+- display:
+    show:
+      year: 2026
+      id: naonnobuntai
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2049458470081188009
+                    image: HHEjnBwa0AAxZvS
+                - postximage:
+                    post: 2049500544088355078
+                    image: HHFJ32vb0AAx6tg
+                - postinstagramimage:
+                    post: DXt_S7FkTCS
+                    image: 4
+                - postximage:
+                    post: 2049497352810230248
+                    image: HHFG-VDa8AEPV62
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2049496695986380967
+                    image: HHFGYK1bYAAhJNA
+                - postximage:
+                    post: 2049487133803770233
+                    image: HHE9rt-aYAAr6Ak
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2049497352810230248
+                    image: HHFG-VCaAAA3dqk
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2049487133803770233
+                    image: HHE9rubacAAA7sq
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2049500645426901277
+                    image: HHFJ-FXaAAAHqDk
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2049497352810230248
+                    image: HHFG-VEbMAAieeD
+                - postximage:
+                    post: 2049496695986380967
+                    image: HHFGYKzacAAZOvV
+                - postximage:
+                    post: 2049458470081188009
+                    image: HHEjnByaUAA5ReY
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2049497352810230248
+                    image: HHFG-VFakAAFqP3
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- postinstagram:
+    id: DXt_S7FkTCS
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-29
+    text: |-
+      SHOW-YA PRODUCE「NAONのBUNTAI 2026」
+      @ 横浜BUNTAI
+      
+      NEK!初出演させていただきました！
+      ありがとうございました🩶
+      
+      6/10(水)メジャーデビューシングル
+      デジタルリリース🎧
+      &
+      9月には東名阪ツアー開催🔥
+      
+      ぜひチェックお願いします❗️
+      https://neki.bitfan.id/
+      
+      #NEKI 
+      #NAONのBUNTAI
+    translation: |-
+      SHOW-YA PRODUCE "NAON no BUNTAI 2026"
+      @ Yokohama BUNTAI
+      
+      NEK! made its first appearance!
+      Thank you so much🩶
+      
+      6/10 (Wed) Major debut single
+      Digital release🎧
+      &
+      Tour in Tokyo, Nagoya, and Osaka to be held in September🔥
+      
+      Please check it out❗️
+      https://neki.bitfan.id/
+      
+      #NEKI 
+      #NAONnoBUNTAI
+    image:
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+    reference:
+    - postximage:
+        post: 2049497352810230248
+        image: HHFG-VEbMAAieeD
+    - postximage:
+        post: 2049458470081188009
+        image: HHEjnBwa0AAxZvS
+    - postximage:
+        post: 2049487133803770233
+        image: HHE9rt-aYAAr6Ak
+    - postximage:
+        post: 2049458470081188009
+        image: HHEjnByaUAA5ReY
+
+- postinstagramimage:
+    post: DXt_S7FkTCS
+    id: 4
+    label: On stage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postinstagram: DXt_S7FkTCS
+
 - postx:
     id: 2034827695041966204
     account: nekiband_jp
@@ -94,6 +239,250 @@
         year: 2026
         id: naonnobuntai
 
+- postx:
+    id: 2049297124563783951
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-04-29
+    text: |-
+      💥 #NAONのBUNTAI 💥
+      
+      SHOW-YA PRODUCE
+      「NAONのBUNTAI 2026」
+      @ 横浜BUNTAI
+      
+      本日出演させていただきます⚡️
+      
+      NEK! 初出演!!!!
+      よろしくお願いします🔥
+      
+      🔗https://neki.bitfan.id/schedules/104657
+      
+      #NEKI
+    translation: |-
+      💥 #NAONnoBUNTAI 💥
+      
+      SHOW-YA PRODUCE
+      "NAON no BUNTAI 2026"
+      @ Yokohama BUNTAI
+      
+      We will be performing today⚡️
+      
+      NEK! first appearance!!!!
+      Thank you for having us🔥
+      
+      🔗https://neki.bitfan.id/schedules/104657
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+    reference:
+    - postximage:
+        post: 2048960393075433752
+        image: HG9Xq2YbkAA-qGa
+
+- postx:
+    id: 2049458470081188009
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-04-29
+    text: |-
+      SHOW-YA PRODUCE
+      「NAONのBUNTAI 2026」
+      @ 横浜BUNTAI
+      
+      NEK!初出演させていただきました！
+      ありがとうございました🩶
+      
+      6/10(水)メジャーデビューシングル
+      デジタルリリース🎧
+      &
+      9月には東名阪ツアー開催🔥
+      
+      ぜひチェックお願いします❗️
+      
+      https://neki.bitfan.id
+      
+      #NEKI 
+      #NAONのBUNTAI
+    translation: |-
+      SHOW-YA PRODUCE
+      "NAON no BUNTAI 2026"
+      @ Yokohama BUNTAI
+      
+      NEK! made its first appearance!
+      Thank you so much🩶
+      
+      6/10 (Wed) Major debut single
+      Digital release🎧
+      &
+      Tour in Tokyo, Nagoya, and Osaka to be held in September🔥
+      
+      Please check it out❗️
+      
+      https://neki.bitfan.id
+      
+      #NEKI
+      #NAONnoBUNTAI
+    image:
+    - HHEjnBwa0AAxZvS
+    - HHEjnByaUAA5ReY
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- postx:
+    id: 2049487133803770233
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-04-29
+    text: |-
+      SHOW-YA PRODUCE
+      「NAONのBUNTAI 2026」
+      @ 横浜BUNTAI
+      
+      本日、NEK!初出演。
+      贅沢すぎる景色の中、最高に楽しい時間でステージの端から端まで走り抜けました！
+      
+      今日は私達にとって一生の思い出です。
+      ありがとうございました！
+    translation: |-
+      SHOW-YA PRODUCE
+      "NAON no BUNTAI 2026"
+      @ Yokohama BUNTAI
+      
+      Today, NEK!'s first appearance.
+      In the middle of an incredibly lavish view, I had the best time running across every inch of the stage!
+      
+      Today is a lifelong memory for us.
+      Thank you so much!
+    image:
+    - HHE9rt-aYAAr6Ak
+    - HHE9rubacAAA7sq
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- postx:
+    id: 2049496695986380967
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-04-29
+    text: |-
+      SHOW-YA PRODUCE
+      「NAONのBUNTAI 2026」
+      @ 横浜BUNTAI
+      
+      ずっと憧れていたイベントでした…！
+      当時の私が今日のことを知ったら絶対に泣きます。
+      それくらい今回出られたことが本当に嬉しかったです…🥹
+      最高に楽しかったし、また出られるように頑張ります。
+      姐さん方、本当にありがとうございました！！
+    translation: |-
+      SHOW-YA PRODUCE
+      「NAON no BUNTAI 2026」
+      @ Yokohama BUNTAI
+      
+      It was an event I’ve always admired…!
+      If my past self knew about today, she would definitely cry.
+      That’s how truly happy I was to be able to perform this time…🥹
+      It was the most fun ever, and I’ll work hard so I can perform here again.
+      To all our seniors, thank you so very much!!
+    image:
+    - HHFGYK1bYAAhJNA
+    - HHFGYKzacAAZOvV
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- postx:
+    id: 2049497352810230248
+    account: coco_102
+    label: Thank you
+    published-date: 2026-04-29
+    text: |-
+      NAONのBUNTAI 2026ありがとうございました🔥
+      憧れの先輩方と共演させていただき本当に夢のような時間でした😭✨
+      
+      アリーナに向かって音を放ったあの感覚一生忘れません！貴重な経験をさせていただき本当にありがとうございました！
+      今日の思い出を胸にこれからも頑張ります！！
+      
+      #NAONのBUNTAI #NEKI
+    translation: |-
+      Thank you for NAON no BUNTAI 2026🔥
+      Performing alongside the seniors I admire was truly a dream-like time😭✨
+      
+      I will never forget that feeling of blasting sound toward the arena! Thank you so much for such a precious experience!
+      I will keep doing my best with today's memories in my heart!!
+      
+      #NAONnoBUNTAI #NEKI
+    image:
+    - HHFG-VCaAAA3dqk
+    - HHFG-VDa8AEPV62
+    - HHFG-VEbMAAieeD
+    - HHFG-VFakAAFqP3
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- postx:
+    id: 2049500544088355078
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-04-29
+    text: |-
+      SHOW-YA PRODUCE
+      「NAONのBUNTAI 2026」
+      
+      初出場！！
+      本当に本当に素敵な景色を見させていただきました。
+      こんな素敵なイベントに出演できたこと、幸せでした。
+      
+      貴重な時間をありがとうございました!
+      一生忘れません！！！
+    translation: |-
+      SHOW-YA PRODUCE
+      「NAON no BUNTAI 2026」
+      
+      First appearance!!
+      I truly, truly got to see a wonderful view.
+      I was so happy to be able to perform at such a wonderful event.
+      
+      Thank you for the precious time!
+      I will never forget it!!!
+    image:
+    - HHFJ32vb0AAx6tg
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+    reference:
+    - postximage:
+        post: 2049487133803770233
+        image: HHE9rt-aYAAr6Ak
+
+- postx:
+    id: 2049500645426901277
+    account: coco_102
+    label: With Yuri
+    published-date: 2026-04-29
+    text: |-
+      みんなー！ついにyuriさんと対バンできたよ😭💖
+    translation: |-
+      Everyone! I finally got to do a co-headlining show with yuri-san 😭💖
+    image:
+    - HHFJ-FXaAAAHqDk
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
 - postximage:
     post: 2034827695041966204
     id: HD0o-YibcAAb_9C
@@ -119,6 +508,153 @@
     part-of:
       postx: 2048960393075433752
 
+- postximage:
+    post: 2049458470081188009
+    id: HHEjnBwa0AAxZvS
+    label: On stage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049458470081188009
+
+- postximage:
+    post: 2049458470081188009
+    id: HHEjnByaUAA5ReY
+    label: Backstage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049458470081188009
+
+- postximage:
+    post: 2049487133803770233
+    id: HHE9rt-aYAAr6Ak
+    label: On stage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049487133803770233
+
+- postximage:
+    post: 2049487133803770233
+    id: HHE9rubacAAA7sq
+    label: On stage
+    info: Hika
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049487133803770233
+
+- postximage:
+    post: 2049496695986380967
+    id: HHFGYK1bYAAhJNA
+    label: On stage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049496695986380967
+
+- postximage:
+    post: 2049496695986380967
+    id: HHFGYKzacAAZOvV
+    label: Backstage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049496695986380967
+
+- postximage:
+    post: 2049497352810230248
+    id: HHFG-VCaAAA3dqk
+    label: On stage
+    info: Cocoro
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049497352810230248
+
+- postximage:
+    post: 2049497352810230248
+    id: HHFG-VDa8AEPV62
+    label: On stage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049497352810230248
+
+- postximage:
+    post: 2049497352810230248
+    id: HHFG-VEbMAAieeD
+    label: Backstage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049497352810230248
+
+- postximage:
+    post: 2049497352810230248
+    id: HHFG-VFakAAFqP3
+    label: Backstage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049497352810230248
+
+- postximage:
+    post: 2049500544088355078
+    id: HHFJ32vb0AAx6tg
+    label: On stage
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049500544088355078
+
+- postximage:
+    post: 2049500645426901277
+    id: HHFJ-FXaAAAHqDk
+    label: Backstage
+    info: yuri (Gacharic Spin), Cocoro
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      postx: 2049500645426901277
+
 - update:
     show:
       year: 2026
@@ -126,6 +662,18 @@
     date: 2026-03-20
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- update:
+    show:
+      year: 2026
+      id: naonnobuntai
+    date: 2026-04-29
+    text:
+    - First pictures from the show
     part-of:
       show:
         year: 2026

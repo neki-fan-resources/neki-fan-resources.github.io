@@ -40,6 +40,20 @@
         year: 2026
         id: fmnagasakigoldenweek
 
+- postx:
+    id: 2049034701244076424
+    account: cure_bass_baka
+    label: Announcement
+    published-date: 2026-04-28
+    text: |-
+      特番！！聴いてね🥹
+      4人で楽しくお喋りしましたよん！
+    translation: |-
+      Special program!! Please listen 🥹
+      The four of us had a fun chat!
+    part-of:
+      postx: 2048986586961084843
+
 - postximage:
     post: 2048986586961084843
     id: HG92A6WacAA-e5o

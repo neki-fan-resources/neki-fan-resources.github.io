@@ -83,6 +83,11 @@
                     image: HG3-c-TagAAj4TO
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DXqs4GDjqT5
+                    image: 2
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2048395458352144419
                     image: HG1cxywbMAAeiY4
@@ -111,6 +116,11 @@
                 - postinstagramimage:
                     post: DXoSy5GCUPo
                     image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2049058589462126768
+                    image: HG-37E4bgAE9hFZ
         - basicsection:
             label: At the event
             subsections:
@@ -585,6 +595,80 @@
         post: 2048395458352144419
         image: HG1cxywaMAAPp1R
 
+- postinstagram:
+    id: DXqs4GDjqT5
+    account: cure_bass_baka
+    label: Kanade's report
+    published-date: 2026-04-28
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026 FINAL
+      @ SHIBUYA CLUB QUATTRO
+      ⁡
+      素敵な⁡⁡1日を、そして2ヶ月半をありがとうございました！
+      今、夢たくさん叶えられてるのは、支えてくれてるみんなのおかげです。
+      
+      一緒に走ってくれて、見守ってくれてありがとう。
+      本当に感謝してもしきれないです、もっと恩返ししたいです。。。
+      みんなには今までもこれからも、しつこいくらいに何回も、
+      感謝を伝えます、ほんっとうにありがとう。
+      ⁡
+      そして、、、
+      今後のワクワクな情報もたくさん解禁されました！
+      もうチェックしてくれたかな。。？
+      
+      これから先もみんなと一緒に色んな景色を見ていけたら嬉しいし、
+      みんなからもらったパワーで私ももっと頑張って、
+      音楽と笑顔でみんなに返せていけたらと思います！
+      
+      素敵な時間をありがとうございました！
+      
+      photo by / Ryuji Kainuma（ @ryuji_kinmruj ）
+      
+      ⁡
+       #NEKI
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026 FINAL
+      @ SHIBUYA CLUB QUATTRO
+      ⁡
+      Thank you for a wonderful day, and for these past two and a half months!
+      The reason I’m able to make so many dreams come true right now is thanks to everyone who supports me.
+      
+      Thank you for running alongside me and watching over me.
+      I truly can't thank you enough, I want to give back even more...
+      To everyone, from now on just as before, I'll tell you how grateful I am
+      over and over again, almost to the point of being annoying. Thank you so, so much.
+      ⁡
+      And...
+      Lots of exciting information about the future has been released!
+      Have you checked it out yet..?
+      
+      I’d be happy if I could continue to see all kinds of sights together with everyone from here on,
+      and I want to work even harder with the power you've given me
+      to give back to everyone through music and smiles!
+      
+      Thank you for the wonderful time!
+      
+      photo by / Ryuji Kainuma（ @ryuji_kinmruj ）
+      
+      ⁡
+       #NEKI
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - postximage:
+        post: 2048396923133112607
+        image: HG1eI9LboAAVxsk
+    - postximage:
+        post: 2048396923133112607
+        image: HG1eI9KbMAEYyRW
+    - postximage:
+        post: 2048573184426013138
+        image: HG3-c-Qa4AAfB1j
+
 - postinstagramimage:
     post: DXiZRzxmRq9
     id: 1
@@ -789,6 +873,19 @@
         id: 2ndtokyo2
     part-of:
       postinstagram: DXqgV34GhTr
+
+- postinstagramimage:
+    post: DXqs4GDjqT5
+    id: 2
+    label: On stage
+    info: Kanade
+    published-date: 2026-04-29
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DXqs4GDjqT5
 
 - postinstagramvideo:
     post: DXdpr4gEb_n
@@ -1229,6 +1326,28 @@
         year: 2026
         id: 2ndtokyo2
 
+- postx:
+    id: 2049058589462126768
+    account: cure_bass_baka
+    label: Refreshed blue hair
+    published-date: 2026-04-28
+    text: |-
+      染めたて青髪らぶ
+      
+      alt:
+      色落ちも綺麗なシルバーになるのありがたい✌🏻🩶
+    translation: |-
+      I love my freshly dyed blue hair
+      
+      alt:
+      I'm so grateful that the color fades into such a beautiful silver ✌🏻🩶
+    image:
+    - HG-37E4bgAE9hFZ
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
 - postximage:
     post: 2048209227500704080
     id: HGyruHsakAAhB8V
@@ -1455,6 +1574,19 @@
         id: 2ndtokyo2
     part-of:
       postx: 2048643506554769773
+
+- postximage:
+    post: 2049058589462126768
+    id: HG-37E4bgAE9hFZ
+    label: Backstage
+    info: Kanade
+    published-date: 2026-04-28
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2049058589462126768
 
 - postxvideo:
     post: 2048046009008476232

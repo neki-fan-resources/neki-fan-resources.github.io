@@ -110,25 +110,23 @@
                 - line:
                   - text: After most concerts, Cocoro publishes her thoughts and impressions of the show.
                 - line:
-                  - text: "Here is the translation of Cocoro's "
+                  - text: "Here is Cocoro's "
                   - webitem:
                       postinstagram: C4QGFf5xRlI
                       text: message
                   - text: " for the \"Girl's UP!!! vol.349\" show."
+                  - newline: ''
+                  - newline: ''
             - interviewsubsection:
-                label: Original message
                 lines:
                 - text: Girl's UP!!! Vol.349に出演させていただきました！！
+                  translation: We performed at Girl's UP!!! Vol.349!!
                 - text: 中学のときからずっと憧れていた場所でNEK!の初ライブを迎えられて本当に胸熱でした。
+                  translation: It was a truly moving experience to have NEK!'s first live show at a place I have admired since middle school.
                 - text: お越しくださった皆さんありがとうございました🥰
+                  translation: Thank you to everyone who came🥰
                 - text: 明日のLUPINUS ROCK FESTIVAL 2024も楽しむぞ！！
-            - interviewsubsection:
-                label: Translation
-                lines:
-                - text: We performed at Girl's UP!!! Vol.349!!
-                - text: To be able to have NEK!'s debut show at a venue I've dreamed of since junior high school was truly moving.
-                - text: Thank you so much to everyone who came 🥰
-                - text: Going to have a blast at LUPINUS ROCK FESTIVAL 2024 tomorrow, too!!
+                  translation: I'm going to have fun at tomorrow's LUPINUS ROCK FESTIVAL 2024 too!!
     part-of:
       show:
         year: 2024

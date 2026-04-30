@@ -1,17 +1,66 @@
-display:
-  event: formationneki
-  blocks:
-  - basicblock:
-      id: main
-      label: main
-      sections:
-      - basicsection:
-          subsections:
-          - textsubsection:
-              lines:
-              - line:
-                - text: "The official announcement was made on the band's X account on February 10, 2024. The founding post, which read: \"NEK! バンドはじめました ネキって読みます\" (NEK! We started a band! It's pronounced NEKI), was promptly shared by every member."
-              - line:
-                - text: Though details on the band's conception remain limited, Hika has been confirmed in radio interviews as the catalyst who initiated contact with the rest of the lineup.
-  part-of:
+- display:
     event: formationneki
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: "The official announcement of the formation of the band was made on the band's X account on "
+                  - webitem:
+                      postx: 1756151008944943582
+                      text: February 10, 2024
+                  - text: ". The founding post, which read: \"NEK! バンドはじめました ネキって読みます\" (NEK! We started a band! It's pronounced NEKI), was promptly shared by every member."
+                - line:
+                  - text: The band was initiated by Hika. She searched on social media for other female musicians with high technical skills.
+                - line:
+                  - text: Hika, Kanade and Cocoro first met for a jam session. Natsu did not see Hika's message at first. However, Natsu replied promptly and joined the other members for a second jam session.
+                - line:
+                  - text: The name NEK! comes from 姉貴 (aneki), which means 'reliable older sister', and is used to reference a respected person.
+                - line:
+                  - text: The band is composed of Hika (vocals, guitar), Natsu (guitar), Kanade (bass), and Cocoro (drums).
+    part-of:
+      event: formationneki
+
+- postx:
+    id: 1756151008944943582
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2024-02-10
+    text: |-
+      NEK! バンドはじめました
+      ネキって読みます
+      #NEKI
+      
+      Vo. Hika
+      @46_hikaa
+      
+      Gt. NATSU
+      @natsu08_guitar
+      
+      Ba. かなで -Kanade-
+      @bass_baka_jk
+      Dr. こころ
+      @coco_102
+    translation: |-
+      NEK! I started a band!
+      It's pronounced NEKI.
+      #NEKI
+      
+      Vo. Hika
+      @46_hikaa
+      
+      Gt. NATSU
+      @natsu08_guitar
+      
+      Ba. Kanade -Kanade-
+      @bass_baka_jk
+      Dr. Kokoro
+      @coco_102
+    part-of:
+      event: formationneki
+

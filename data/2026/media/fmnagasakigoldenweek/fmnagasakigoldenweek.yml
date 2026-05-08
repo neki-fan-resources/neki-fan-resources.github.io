@@ -2,9 +2,10 @@ mediaaudio:
   year: 2026
   id: fmnagasakigoldenweek
   cover-image:
-    postximage:
-      post: 2048986586961084843
-      image: HG92A6WacAA-e5o
+    webimage:
+      domain: radiko.jp
+      page: FMNAGASAKI.20260505210000
+      id: flyer
   radio: FM Nagasaki
   show: アネキのMake it! NEK! RADIO
   designation: radio show

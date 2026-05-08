@@ -8,6 +8,20 @@
         label: main
         sections:
         - basicsection:
+            subsections:
+            - textsubsection:
+                label: '#ネキ民 '
+                lines:
+                - line:
+                  - text: 'Additional photos are available in the Fan Club:'
+                  - newline: ''
+                  - text: '- '
+                  - webitem:
+                      webpage:
+                        domain: neki.bitfan.id
+                        id: 381754
+                      text: show photos
+        - basicsection:
             label: At the show
             subsections:
             - multimediasubsection:
@@ -15,19 +29,37 @@
                 - youtubeshort: i-7s2xSjHCc
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 2051295392323817557
+                    video: 01
                 - youtubeshort: d1SULP_B1tM
             - multimediasubsection:
                 label: Images
                 multimedia:
+                - webimage:
+                    domain: billboard-japan.com
+                    page: 161027
+                    id: 7
                 - postximage:
                     post: 2048371387908366467
                     image: HG1GYZ7aYAA_-zT
                 - postinstagramimage:
                     post: DXqgV34GhTr
                     image: 4
+                - webimage:
+                    domain: billboard-japan.com
+                    page: 161027
+                    id: 1
+                - webimage:
+                    domain: billboard-japan.com
+                    page: 161027
+                    id: 8
                 - postinstagramimage:
                     post: DXmLIXeER9n
                     image: 5
+                - postximage:
+                    post: 2050171239101292673
+                    image: HHOr35aakAA9GC8
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -75,6 +107,14 @@
                     image: 5
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: billboard-japan.com
+                    page: 161027
+                    id: 5
+                - webimage:
+                    domain: billboard-japan.com
+                    page: 161027
+                    id: 2
                 - postximage:
                     post: 2048573184426013138
                     image: HG3-c-caEAA5uXy
@@ -83,14 +123,36 @@
                     image: HG3-c-TagAAj4TO
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: billboard-japan.com
+                    page: 161027
+                    id: 6
                 - postinstagramimage:
                     post: DXqs4GDjqT5
                     image: 2
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DX1oGdekp5Q
+                    image: 1
+                - postinstagramimage:
+                    post: DX1oGdekp5Q
+                    image: 2
+                - webimage:
+                    domain: billboard-japan.com
+                    page: 161027
+                    id: 4
                 - postximage:
                     post: 2048395458352144419
                     image: HG1cxywbMAAeiY4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DX1oGdekp5Q
+                    image: 5
+                - postinstagramimage:
+                    post: DX1oGdekp5Q
+                    image: 6
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -121,6 +183,11 @@
                 - postximage:
                     post: 2049058589462126768
                     image: HG-37E4bgAE9hFZ
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DX1oGdekp5Q
+                    image: 7
         - basicsection:
             label: At the event
             subsections:
@@ -132,6 +199,11 @@
                 - postximage:
                     post: 2048643506554769773
                     image: HG4-aOfbEAAFzA-
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DX1oGdekp5Q
+                    image: 8
     - basicblock:
         id: announcement
         label: announcement
@@ -207,6 +279,33 @@
       show:
         year: 2026
         id: 2ndtokyo2
+
+- postinstagram:
+    id: DX1oGdekp5Q
+    account: natsu08_guitar
+    label: Photos
+    published-date: 2026-05-02
+    text: |-
+      📸 by @ryuji_kinmruj
+      #guitarist
+    image:
+    - 1
+    - 2
+    - 5
+    - 6
+    - 7
+    - 8
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - postximage:
+        post: 2048395458352144419
+        image: HG1cxywaMAAPp1R
+    - postximage:
+        post: 2048396923133112607
+        image: HG1eI9KbMAEYyRW
 
 - postinstagram:
     id: DXR9a47zpef
@@ -669,6 +768,163 @@
         post: 2048573184426013138
         image: HG3-c-Qa4AAfB1j
 
+- postinstagram:
+    id: DXzFFIsEvF9
+    account: natsu08_guitar
+    label: Natsu's report
+    published-date: 2026-05-01
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      ＠ 東京・渋谷クラブクアトロ
+      
+      改めまして、ツアーファイナルありがとうございました！！
+      本当に楽しかったーーー！！！！
+      毎分毎秒ずっと幸せで、「この時間がずっと続けばいいのに」と思いながら演奏していました。
+      改めて、お越しくださった皆様、本当にありがとうございました！
+      
+      そして、このクアトロ公演をもちまして、NEK!にとって初の全国ツアーが終了いたしました。
+      全12ヶ所、無事に回り切ることができました。
+      
+      ツアーが始まってからの約2ヶ月半、本当に充実した日々で、毎日が楽しくて仕方なかったです。
+      公演が終わるたびに、「あと何回だろう」とカウントダウンしながら、少しずつ終わっていく寂しさも感じていました。
+      
+      ここまで駆け抜けてこられたのは、間違いなく、普段からNEK!を支えてくださっている皆さんのおかげです。
+      感謝してもしきれません。
+      みんながいて、今のNEK!があります。
+      本当にいつもありがとうございます。
+      
+      そして、私たちは6/10にメジャーデビューします！！
+      もっともっとDreamsを叶えて、いろいろな景色を一緒に見に行こうね！！
+      
+      今後ともよろしくお願いします！！
+      
+      photo by
+      Ryuji Kainumaさん @ryuji_kinmruj
+      
+      #neki #girlsband
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      @ Tokyo - SHIBUYA CLUB QUATTRO
+      
+      Thank you so much again for the tour final!!
+      It was seriously so much fun----!!!!
+      I was happy every single minute and second, and I was playing while thinking, "I wish this time would last forever."
+      Once again, to everyone who came, thank you so very much!
+      
+      And with this Quattro performance, NEK!'s first-ever nationwide tour has come to an end.
+      We were able to successfully complete all 12 locations.
+      
+      The past two and a half months since the tour started have been so fulfilling, and I couldn't help but enjoy every single day.
+      Every time a show ended, I would count down "how many are left," while also feeling a bit of sadness as it slowly came to a close.
+      
+      The reason we were able to run all the way to this point is undoubtedly thanks to everyone who supports NEK! on a daily basis.
+      I can't thank you enough.
+      Because all of you are here, the NEK! of today exists.
+      Thank you so much, as always.
+      
+      And, we will make our major debut on 6/10!!
+      Let's make even more Dreams come true and go see all kinds of sights together!!
+      
+      We look forward to your continued support!!
+      
+      photo by
+      Ryuji Kainuma @ryuji_kinmruj
+      
+      #neki #girlsband
+    image:
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - postximage:
+        post: 2048395458352144419
+        image: HG1cxywbMAAeiY4
+    - postximage:
+        post: 2048573184426013138
+        image: HG3-c-Qa4AAfB1j
+    - postximage:
+        post: 2048396923133112607
+        image: HG1eI9LboAAVxsk
+
+- postinstagramimage:
+    post: DX1oGdekp5Q
+    id: 1
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DX1oGdekp5Q
+
+- postinstagramimage:
+    post: DX1oGdekp5Q
+    id: 2
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DX1oGdekp5Q
+
+- postinstagramimage:
+    post: DX1oGdekp5Q
+    id: 5
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DX1oGdekp5Q
+
+- postinstagramimage:
+    post: DX1oGdekp5Q
+    id: 6
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DX1oGdekp5Q
+
+- postinstagramimage:
+    post: DX1oGdekp5Q
+    id: 7
+    label: Backstage
+    info: Natsu
+    published-date: 2026-05-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DX1oGdekp5Q
+
+- postinstagramimage:
+    post: DX1oGdekp5Q
+    id: 8
+    label: On stage
+    published-date: 2026-05-02
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DX1oGdekp5Q
+
 - postinstagramimage:
     post: DXiZRzxmRq9
     id: 1
@@ -886,6 +1142,18 @@
         id: 2ndtokyo2
     part-of:
       postinstagram: DXqs4GDjqT5
+
+- postinstagramimage:
+    post: DXzFFIsEvF9
+    id: 4
+    label: On stage
+    published-date: 2026-05-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DXzFFIsEvF9
 
 - postinstagramvideo:
     post: DXdpr4gEb_n
@@ -1348,6 +1616,70 @@
         year: 2026
         id: 2ndtokyo2
 
+- postx:
+    id: 2050171239101292673
+    account: nekiband_jp
+    label: Fan Club photos
+    published-date: 2026-05-01
+    text: |-
+      【#ネキ民 PHOTO📸】
+      
+      ファンクラブコンテンツ更新！
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026 FINAL"
+      @ SHIBUYA CLUB QUATTRO
+      
+      ▼ ライブ写真公開♻️
+      https://neki.bitfan.id/contents/menu/166310
+      
+      ▼FCご入会はこちら✔️
+      https://neki.bitfan.id/contents/menu/167052
+      
+      #NEKI
+    translation: |-
+      【#Nekimin PHOTO📸】
+      
+      Fan club content updated!
+      
+      "NEK! 2nd ANNIVERSARY LIVE TOUR 2026 FINAL"
+      @ SHIBUYA CLUB QUATTRO
+      
+      ▼ Live photos released♻️
+      https://neki.bitfan.id/contents/menu/166310
+      
+      ▼Join the FC here✔️
+      https://neki.bitfan.id/contents/menu/167052
+      
+      #NEKI
+    image:
+    - HHOr35aakAA9GC8
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postx:
+    id: 2051295392323817557
+    account: coco_102
+    label: Jumping on stage
+    published-date: 2026-05-04
+    text: |-
+      Jumping🎶
+      ライブでみんなの楽しそうな顔みてると笑顔が移る！
+      
+      #NEKI
+    translation: |-
+      Jumping🎶
+      When I see everyone's happy faces at the live shows, their smiles are contagious!
+      
+      #NEKI
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2051295392323817557
+        video: 01
+
 - postximage:
     post: 2048209227500704080
     id: HGyruHsakAAhB8V
@@ -1588,6 +1920,18 @@
     part-of:
       postx: 2049058589462126768
 
+- postximage:
+    post: 2050171239101292673
+    id: HHOr35aakAA9GC8
+    label: On stage
+    published-date: 2026-05-01
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postx: 2050171239101292673
+
 - postxvideo:
     post: 2048046009008476232
     id: 01
@@ -1616,6 +1960,23 @@
     part-of:
       postx: 2048341314719338667
 
+- postxvideo:
+    post: 2051295392323817557
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-05-08
+    cover: 2051295320689311745/img/Bixy9wPr8eqJ-Spt.jpg
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    - song: jumping
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
 - update:
     show:
       year: 2026
@@ -1627,6 +1988,129 @@
       show:
         year: 2026
         id: 2ndtokyo2
+
+- webimage:
+    domain: billboard-japan.com
+    page: 161027
+    id: 1
+    label: On stage
+    published-date: 2026-05-01
+    url: 'https://www.billboard-japan.com/scale/news/00000161/161027/650x_image.jpg'
+    page-url: 'https://www.billboard-japan.com/d_news/image/161027/1'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: billboard-japan.com
+        id: 161027
+
+- webimage:
+    domain: billboard-japan.com
+    page: 161027
+    id: 2
+    label: On stage
+    info: Hika
+    published-date: 2026-05-01
+    url: 'https://www.billboard-japan.com/scale/news/00000161/161027/650x_sub_image327664.jpg'
+    page-url: 'https://www.billboard-japan.com/d_news/image/161027/2'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: billboard-japan.com
+        id: 161027
+
+- webimage:
+    domain: billboard-japan.com
+    page: 161027
+    id: 4
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-01
+    url: 'https://www.billboard-japan.com/scale/news/00000161/161027/650x_sub_image327666.jpg'
+    page-url: 'https://www.billboard-japan.com/d_news/image/161027/4'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: billboard-japan.com
+        id: 161027
+
+- webimage:
+    domain: billboard-japan.com
+    page: 161027
+    id: 5
+    label: On stage
+    info: Hika
+    published-date: 2026-05-01
+    url: 'https://www.billboard-japan.com/scale/news/00000161/161027/650x_sub_image327667.jpg'
+    page-url: 'https://www.billboard-japan.com/d_news/image/161027/5'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: billboard-japan.com
+        id: 161027
+
+- webimage:
+    domain: billboard-japan.com
+    page: 161027
+    id: 6
+    label: On stage
+    info: Kanade
+    published-date: 2026-05-01
+    url: 'https://www.billboard-japan.com/scale/news/00000161/161027/650x_sub_image327668.jpg'
+    page-url: 'https://www.billboard-japan.com/d_news/image/161027/6'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: billboard-japan.com
+        id: 161027
+
+- webimage:
+    domain: billboard-japan.com
+    page: 161027
+    id: 7
+    label: On stage
+    published-date: 2026-05-01
+    url: 'https://www.billboard-japan.com/scale/news/00000161/161027/650x_sub_image327669.jpg'
+    page-url: 'https://www.billboard-japan.com/d_news/image/161027/7'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: billboard-japan.com
+        id: 161027
+
+- webimage:
+    domain: billboard-japan.com
+    page: 161027
+    id: 8
+    label: On stage
+    published-date: 2026-05-01
+    url: 'https://www.billboard-japan.com/scale/news/00000161/161027/650x_sub_image327670.jpg'
+    page-url: 'https://www.billboard-japan.com/d_news/image/161027/8'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: billboard-japan.com
+        id: 161027
 
 - webimage:
     domain: note.com.nekiband
@@ -1692,6 +2176,43 @@
       webpage:
         domain: note.com.nekiband
         id: nc38529fda3e3
+
+- webpage:
+    domain: billboard-japan.com
+    id: 161027
+    label: Show report
+    published-date: 2026-05-01
+    url: 'https://www.billboard-japan.com/d_news/detail/161027/2'
+    image:
+    - 1
+    - 2
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - postximage:
+        post: 2048371387908366467
+        image: HG1GVlBagAEBAI5
+    - postinstagramimage:
+        post: DXqgV34GhTr
+        image: 1
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 381754
+    label: Fan Club photos
+    published-date: 2026-05-01
+    url: 'https://neki.bitfan.id/contents/381754'
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
 
 - webpage:
     domain: note.com.nekiband

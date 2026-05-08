@@ -1,3 +1,133 @@
+- display:
+    show:
+      year: 2026
+      id: ignitionviewtrade
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 5uuLqXrTKUs
+                - postxvideo:
+                    post: 2052019872595575060
+                    video: 01
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2052013814884004268
+                    image: HHo3rw9bEAAVJG_
+                - postinstagramimage:
+                    post: DX_76VTkdvB
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2052066179536322620
+                    image: HHpnT-RaIAAHvFF
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2052053853554802775
+                    image: HHpcGCKaYAAi_vd
+                - postximage:
+                    post: 2052053853554802775
+                    image: HHpcGB_aUAEKgbp
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2052013814884004268
+                    image: HHo3rw7bAAAwkAf
+                - postinstagramimage:
+                    post: DX_76VTkdvB
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2052031543875629327
+                    image: HHpHziRaUAAVK8y
+                - postximage:
+                    post: 2052050724473958484
+                    image: HHpZQHcagAA_wGz
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+
+- postinstagram:
+    id: DX_76VTkdvB
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-05-06
+    text: |-
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ 下北沢CLUB251
+      
+      w/ Viewtrade
+      @viewtrade_band 
+      
+      ありがとうございました⚡️
+      
+      #Viewtrade
+      #NEKI
+    translation: |-
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ Shimokitazawa CLUB251
+      
+      w/ Viewtrade
+      @viewtrade_band 
+      
+      Thank you so much⚡️
+      
+      #Viewtrade
+      #NEKI
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+    reference:
+    - postximage:
+        post: 2052013814884004268
+        image: HHo3rw9bEAAVJG_
+
+- postinstagramimage:
+    post: DX_76VTkdvB
+    id: 1
+    label: On stage
+    info: NEK!, Viewtrade
+    published-date: 2026-05-06
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postinstagram: DX_76VTkdvB
+
+- postinstagramimage:
+    post: DX_76VTkdvB
+    id: 2
+    label: On stage
+    published-date: 2026-05-06
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postinstagram: DX_76VTkdvB
+
 - postx:
     id: 2033876722282848752
     account: nekiband_jp
@@ -48,6 +178,194 @@
         year: 2026
         id: ignitionviewtrade
 
+- postx:
+    id: 2052013814884004268
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-05-06
+    text: |-
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ 下北沢CLUB251
+      
+      w/ Viewtrade
+      
+      ありがとうございました⚡️
+      
+      9月に東名阪ツアー開催🔥
+      “NEK! MAJOR DEBUT TOUR”
+      
+      現在ファンクラブ会員「#ネキ民」
+      チケット最速先行(抽選)受付中🎟️
+      https://neki.bitfan.id/contents/381527
+      
+      #NEKI
+    translation: |-
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ Shimokitazawa CLUB251
+      
+      w/ Viewtrade
+      
+      Thank you so much⚡️
+      
+      Holding a Tokyo, Nagoya, Osaka tour in September🔥
+      “NEK! MAJOR DEBUT TOUR”
+      
+      Fan club members "#Nekimin"
+      Fastest advance ticket lottery now open🎟️
+      https://neki.bitfan.id/contents/381527
+      
+      #NEKI
+    image:
+    - HHo3rw7bAAAwkAf
+    - HHo3rw9bEAAVJG_
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+
+- postx:
+    id: 2052019872595575060
+    account: nekiband_jp
+    label: MAZE on stage
+    published-date: 2026-05-06
+    text: |-
+      251 presents Ignition!!!
+      ～ Special Two Man Show ～
+      @ SHIMOKITAZAWA CLUB 251
+      thank you!!!!
+      #NEKI #MAZE
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2052019872595575060
+        video: 01
+
+- postx:
+    id: 2052031543875629327
+    account: Vt_panda_Ba
+    label: Made a new friend
+    published-date: 2026-05-06
+    text: |-
+      攻撃力高いベーシストおともだち出来た
+    translation: |-
+      I made a new bassist friend with high attack power
+    image:
+    - HHpHziRaUAAVK8y
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+
+- postx:
+    id: 2052050724473958484
+    account: coco_102
+    label: Thank you
+    published-date: 2026-05-06
+    text: |-
+      Viewtrade×NEK!ツーマンありがとうございました！
+      地域とジャンルの壁を超える激アツな夜でした🔥
+      Viewtradeさんみんなテクニシャンすぎてめっちゃ刺激もらいました！
+      打ち上げでもいろんな話して楽しかったよ〜〜
+      みんなまじで優しくて素敵！！出会えてよかった🥹
+      また一緒になれたらいいな🙂‍↕️🤝🏻
+      
+      alt:
+      ふみふみ考案の謎ポーズ🤔笑
+    translation: |-
+      Thank you for the Viewtrade × NEK! two-man show!
+      It was a super hype night that broke through barriers of region and genre🔥
+      Everyone in Viewtrade is such a technician, it was so inspiring!
+      We had a great time talking about all sorts of things at the after-party~~
+      Everyone is seriously kind and wonderful!! I'm so glad we met🥹
+      I hope we can play together again🙂‍↕️🤝🏻
+      
+      alt:
+      A mysterious pose thought up by Fumi-fumi🤔lol
+    image:
+    - HHpZQHcagAA_wGz
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+    reference:
+    - postximage:
+        post: 2052013814884004268
+        image: HHo3rw7bAAAwkAf
+
+- postx:
+    id: 2052053853554802775
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-05-06
+    text: |-
+      Viewtradeさんとのツーマン! @ 下北沢CLUB251
+      
+      ありがとうございました！
+      めちゃめちゃ刺激になって最高の夜でした…！！
+      全パートえぐかったぁぁ！！🔥テクニカルが詰め込まれてて楽しかったなぁ
+      
+      そしてついに、わたくし、ワイヤレス導入いたしました^_^
+      これからいっぱい遊びにいっちゃおーっとっ♡
+    translation: |-
+      Two-man show with Viewtrade! @ Shimokitazawa CLUB251
+      
+      Thank you so much!
+      It was an amazing night and so inspiring...!!
+      Every part was insane!!🔥 It was so much fun and packed with technical skill
+      
+      And finally, I have introduced a wireless system ^_^
+      I'm gonna go out and have lots of fun with it now♡
+    image:
+    - HHpcGB_aUAEKgbp
+    - HHpcGCKaYAAi_vd
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+    reference:
+    - postximage:
+        post: 2052013814884004268
+        image: HHo3rw7bAAAwkAf
+
+- postx:
+    id: 2052066179536322620
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-05-06
+    text: |-
+      本日Viewtradeさんとのツーマンライブ
+      
+      今日もみんなの歓声と拳、最高すぎだよ！
+      ほんと、楽しすぎました。
+      
+      ライブ後は、音楽やバンドのこと、お互いにたくさん語り合えて、すごく濃い一日になりました。
+      
+      また、一緒に対バンしたいっ！
+      今日は皆さんありがとうございました！
+    translation: |-
+      Today's two-man live with Viewtrade
+      
+      Your cheers and fists today were just the best!
+      Honestly, it was too much fun.
+      
+      After the live, we talked a lot about music and the band together, making it a very intense day.
+      
+      I want to do another show together!
+      Thank you to everyone today!
+    image:
+    - HHpnT-RaIAAHvFF
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+    reference:
+    - postximage:
+        post: 2052013814884004268
+        image: HHo3rw7bAAAwkAf
+
 - postximage:
     post: 2033876722282848752
     id: HDnIGTVaoAAFcaN
@@ -61,6 +379,112 @@
     part-of:
       postx: 2033876722282848752
 
+- postximage:
+    post: 2052013814884004268
+    id: HHo3rw7bAAAwkAf
+    label: On stage
+    info: NEK!, Viewtrade
+    published-date: 2026-05-06
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postx: 2052013814884004268
+
+- postximage:
+    post: 2052013814884004268
+    id: HHo3rw9bEAAVJG_
+    label: On stage
+    published-date: 2026-05-06
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postx: 2052013814884004268
+
+- postximage:
+    post: 2052031543875629327
+    id: HHpHziRaUAAVK8y
+    label: At the venue
+    info: Kanade, ぱんだ (Viewtrade)
+    published-date: 2026-05-06
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postx: 2052031543875629327
+
+- postximage:
+    post: 2052050724473958484
+    id: HHpZQHcagAA_wGz
+    label: At the venue
+    info: Cocoro, 文哉 (Viewtrade)
+    published-date: 2026-05-08
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postx: 2052050724473958484
+
+- postximage:
+    post: 2052053853554802775
+    id: HHpcGB_aUAEKgbp
+    label: On stage
+    info: Natsu, wireless pack
+    published-date: 2026-05-06
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postx: 2052053853554802775
+
+- postximage:
+    post: 2052053853554802775
+    id: HHpcGCKaYAAi_vd
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-06
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postx: 2052053853554802775
+
+- postximage:
+    post: 2052066179536322620
+    id: HHpnT-RaIAAHvFF
+    label: On stage
+    info: Hika
+    published-date: 2026-05-06
+    context:
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      postx: 2052066179536322620
+
+- postxvideo:
+    post: 2052019872595575060
+    id: 01
+    label: On stage
+    published-date: 2026-05-06
+    cover: 2052019775598211072/img/dD05LRQLySD8sNpa.jpg
+    context:
+    - song: maze
+    - show:
+        year: 2026
+        id: ignitionviewtrade
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+
 - update:
     show:
       year: 2026
@@ -68,6 +492,32 @@
     date: 2026-03-18
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+
+- update:
+    show:
+      year: 2026
+      id: ignitionviewtrade
+    date: 2026-05-08
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: ignitionviewtrade
+
+- youtubeshort:
+    id: 5uuLqXrTKUs
+    label: On stage
+    published-date: 2026-05-07
+    context:
+    - song: getover
+    - show:
+        year: 2026
+        id: ignitionviewtrade
     part-of:
       show:
         year: 2026

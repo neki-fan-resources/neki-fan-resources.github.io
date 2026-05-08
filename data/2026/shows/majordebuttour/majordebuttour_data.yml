@@ -83,3 +83,17 @@
     part-of:
       tour: majordebuttour
 
+- webpage:
+    domain: neki.bitfan.id
+    id: 381527
+    label: Fan Club presale
+    published-date: 2026-05-01
+    url: 'https://neki.bitfan.id/contents/381527'
+    part-of:
+      tour: majordebuttour
+    reference:
+    - webimage:
+        domain: neki.bitfan.id
+        page: 379563
+        id: poster
+

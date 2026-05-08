@@ -53,6 +53,71 @@
         page: n6dfd615f24e8
         id: poster
 
+- postx:
+    id: 2052349392611606622
+    account: SHIBUYATHEGAME
+    label: Sold out
+    published-date: 2026-05-07
+    text: |-
+      \🎟️THANXXX SOLD OUT!!!🎟️/
+      05.08(FRI)
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.6
+      🔥THE 2MAN SHOW!!🔥
+      ⏰OPEN18:30/START19:00
+      🎟️チケットソールドアウト!!🎟️
+      <ACT>
+      NEK!(
+      @nekiband_jp
+      ) × ちゃくら(
+      @chakura617
+      )
+      <o.a>
+      STRAWDAY(
+      @STRAWDAY_OFCL
+      )
+      
+      #GrAViTy
+    translation: |-
+      \🎟️THANXXX SOLD OUT!!!🎟️/
+      05.08(FRI)
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.6
+      🔥THE 2MAN SHOW!!🔥
+      ⏰OPEN18:30/START19:00
+      🎟️Tickets Sold Out!!🎟️
+      <ACT>
+      NEK!(
+      @nekiband_jp
+      ) × Chakura(
+      @chakura617
+      )
+      <o.a>
+      STRAWDAY(
+      @STRAWDAY_OFCL
+      )
+      
+      #GrAViTy
+    image:
+    - HHtogoIaMAACU9c
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+
+- postximage:
+    post: 2052349392611606622
+    id: HHtogoIaMAACU9c
+    label: Poster sold out
+    published-date: 2026-05-07
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: gravityvol6
+    part-of:
+      postx: 2052349392611606622
+
 - update:
     show:
       year: 2026
@@ -72,7 +137,6 @@
     label: Poster
     published-date: 2026-03-04
     url: 'https://assets.st-note.com/img/1772621243-HD9u1an5Oe0TEBzV6f3Almcw.jpg'
-    local-copy: true
     context:
     - show:
         year: 2026

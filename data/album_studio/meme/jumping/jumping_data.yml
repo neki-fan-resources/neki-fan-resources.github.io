@@ -15,6 +15,9 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 2051295392323817557
+                    video: 01
                 - youtubeshort: hoYjWLPnteM
         - basicsection:
             label: Live, with studio audio

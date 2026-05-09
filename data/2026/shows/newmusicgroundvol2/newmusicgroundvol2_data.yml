@@ -1,0 +1,30 @@
+- webimage:
+    domain: neki.bitfan.id
+    page: 107502
+    id: poster
+    label: Poster
+    published-date: 2026-05-09
+    url: 'https://bitfan-id.s3.ap-northeast-1.amazonaws.com/store/c6f61b7f8dc39744906cd63ddb4d196d.jpeg'
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 107502
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 107502
+    label: Show page
+    published-date: 2026-05-09
+    url: 'https://neki.bitfan.id/schedules/107502'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+

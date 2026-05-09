@@ -1,3 +1,44 @@
+- display:
+    show:
+      year: 2026
+      id: gravityvol6
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2052757787722276902
+                    image: HHzcUHlboAAYhvh
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2052776981826306524
+                    image: HHztxtEbgAAaPGf
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2052788941586301263
+                    image: HHz4qDMa0AE-Fe3
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2052757787722276902
+                    image: HHzcUIGa4AAVJbo
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+
 - postx:
     id: 2029150088942240100
     account: nekiband_jp
@@ -105,6 +146,115 @@
         year: 2026
         id: gravityvol6
 
+- postx:
+    id: 2052757787722276902
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-05-08
+    text: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.6
+      -THE 2MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      ありがとうございました🎮
+      
+      9月に東名阪ツアー開催！
+      現在FC先行受付中🔥
+      ▶︎https://neki.bitfan.id/contents/379563
+      
+      #NEKI
+    translation: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.6
+      -THE 2MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      Thank you very much🎮
+      
+      East-Mei-Han tour coming in September!
+      FC pre-orders are now open🔥
+      ▶︎https://neki.bitfan.id/contents/379563
+      
+      #NEKI
+    image:
+    - HHzcUHlboAAYhvh
+    - HHzcUIGa4AAVJbo
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+
+- postx:
+    id: 2052776981826306524
+    account: coco_102
+    label: Thank you
+    published-date: 2026-05-08
+    text: |-
+      GrAViTyありがとうございました！
+      機材トラブル本当に申し訳ありませんでした。
+      完全体をお届けできなくて正直めちゃくちゃ悔しい。でもフロアのみんながライブそのものを楽しんでくれたおかげで最後までやり切ることができました。本当にありがとう。
+      またお2組と再会できる日を夢見て頑張ります🔥
+    translation: |-
+      Thank you for GrAViTy!
+      I am truly sorry for the equipment trouble.
+      To be honest, I'm incredibly frustrated that we couldn't deliver a perfect performance. But thanks to everyone on the floor enjoying the live show itself, we were able to see it through to the end. Thank you so much.
+      I'll do my best while dreaming of the day we can meet both groups again🔥
+    image:
+    - HHztxtEbgAAaPGf
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+    reference:
+    - postximage:
+        post: 2052757787722276902
+        image: HHzcUIGa4AAVJbo
+
+- postx:
+    id: 2052788941586301263
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-05-08
+    text: |-
+      『GrAViTy』@ SHIBUYA THE GAME
+      ありがとうございました！！！
+      
+      とっても刺激的な1日になりました
+      “ガールズバンドは死なない”
+      いちガールズバンドとして、盛り上げていけるよう頑張ります
+      
+      お集まりいただいた皆様！本当にありがとうございました！
+      
+      alt:
+      ギターお友だちができました🤝🏻
+      たくさんお話しできて素敵な夜でした🌙
+      まおちゃんらぶ♡
+    translation: |-
+      『GrAViTy』@ SHIBUYA THE GAME
+      Thank you very much!!!
+      
+      It was an incredibly stimulating day
+      "Girls' bands will never die"
+      As a girls' band ourselves, we will do our best to keep the scene exciting
+      
+      To everyone who gathered! Thank you so truly much!
+      
+      alt:
+      I made a guitar friend
+      It was a wonderful night getting to talk so much
+      Love you Mao-chan♡
+    image:
+    - HHz4qDMa0AE-Fe3
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+    reference:
+    - postximage:
+        post: 2052757787722276902
+        image: HHzcUIGa4AAVJbo
+
 - postximage:
     post: 2052349392611606622
     id: HHtogoIaMAACU9c
@@ -118,6 +268,57 @@
     part-of:
       postx: 2052349392611606622
 
+- postximage:
+    post: 2052757787722276902
+    id: HHzcUHlboAAYhvh
+    label: On stage
+    published-date: 2026-05-08
+    context:
+    - show:
+        year: 2026
+        id: gravityvol6
+    part-of:
+      postx: 2052757787722276902
+
+- postximage:
+    post: 2052757787722276902
+    id: HHzcUIGa4AAVJbo
+    label: The bands
+    info: ちゃくら, STRAWDAY, NEK!
+    published-date: 2026-05-08
+    context:
+    - show:
+        year: 2026
+        id: gravityvol6
+    part-of:
+      postx: 2052757787722276902
+
+- postximage:
+    post: 2052776981826306524
+    id: HHztxtEbgAAaPGf
+    label: Backstage
+    info: Cocoro, 葉弥 (ちゃくら)
+    published-date: 2026-05-08
+    context:
+    - show:
+        year: 2026
+        id: gravityvol6
+    part-of:
+      postx: 2052776981826306524
+
+- postximage:
+    post: 2052788941586301263
+    id: HHz4qDMa0AE-Fe3
+    label: Backstage
+    info: まお (ちゃくら), Natsu
+    published-date: 2026-05-08
+    context:
+    - show:
+        year: 2026
+        id: gravityvol6
+    part-of:
+      postx: 2052788941586301263
+
 - update:
     show:
       year: 2026
@@ -125,6 +326,18 @@
     date: 2026-03-04
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol6
+
+- update:
+    show:
+      year: 2026
+      id: gravityvol6
+    date: 2026-05-09
+    text:
+    - First pictures from the show
     part-of:
       show:
         year: 2026

@@ -1,0 +1,16 @@
+show:
+  year: 2026
+  id: newmusicgroundvol2
+  cover-image:
+    webimage:
+      domain: neki.bitfan.id
+      page: 107502
+      id: poster
+  fullname: New Music GROUND vol.2
+  date: 2026-08-12
+  venue: Shibuya Milkyway, Tokyo
+  event-page: 'https://neki.bitfan.id/schedules/107502'
+  part-of:
+    group:
+      id: shows
+      group: 2026

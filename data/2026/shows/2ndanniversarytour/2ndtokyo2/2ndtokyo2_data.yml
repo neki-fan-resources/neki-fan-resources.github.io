@@ -43,6 +43,10 @@
                 - postximage:
                     post: 2048371387908366467
                     image: HG1GYZ7aYAA_-zT
+                - webimage:
+                    domain: rockinon.com
+                    page: 215096
+                    id: 404145
                 - postinstagramimage:
                     post: DXqgV34GhTr
                     image: 4
@@ -2177,6 +2181,22 @@
         domain: note.com.nekiband
         id: nc38529fda3e3
 
+- webimage:
+    domain: rockinon.com
+    page: 215096
+    id: 404145
+    label: On stage
+    published-date: 2026-05-08
+    url: 'https://ro69-bucket.s3.ap-northeast-1.amazonaws.com/uploads/text_image/image/404145/text_image.jpegwidth:750/resize_image.jpeg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: rockinon.com
+        id: 215096
+
 - webpage:
     domain: billboard-japan.com
     id: 161027
@@ -2229,6 +2249,43 @@
       show:
         year: 2026
         id: 2ndtokyo2
+
+- webpage:
+    domain: rockinon.com
+    id: 215096
+    label: Show report
+    published-date: 2026-05-08
+    url: 'https://rockinon.com/live/detail/215096'
+    image:
+    - 404145
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 2
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 7
+    - postinstagramimage:
+        post: DXqgV34GhTr
+        image: 1
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 4
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 6
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 8
 
 - youtubeshort:
     id: 8eOjR4mQFXk

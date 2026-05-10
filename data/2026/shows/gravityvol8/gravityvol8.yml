@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: gravityvol8
+  cover-image:
+    webimage:
+      domain: neki.bitfan.id
+      page: 107565
+      id: poster
+  fullname: SHIBUYA THE GAME PRESENTS 『GrAViTy』vol.8 -THE 3MAN SHOW-
+  shortname: GrAViTy vol.8
+  date: 2026-07-10
+  venue: SHIBUYA THE GAME, Tokyo
+  event-page: 'https://neki.bitfan.id/schedules/107565'
+  part-of:
+    group:
+      id: shows
+      group: 2026

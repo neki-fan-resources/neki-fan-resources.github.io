@@ -1,0 +1,108 @@
+- postx:
+    id: 2053414805562884127
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-05-10
+    text: |-
+      ⚡️🎮 情報解禁 🎮⚡️
+      
+      7/10(金)
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8
+      -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      NEK!の出演が決定いたしました🔥
+      
+      w/ 
+      板歯目
+      COPES
+      
+      🎟️: チケット受付(先着)
+      明日5/11(月)19:00スタート！
+      https://livepocket.jp/e/gravity0710
+      
+      #NEKI 
+      @SHIBUYATHEGAME
+    translation: |-
+      ⚡️🎮 Information Release 🎮⚡️
+      
+      7/10(Fri)
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8
+      -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      NEK!'s appearance has been confirmed🔥
+      
+      w/ 
+      Hanshime
+      COPES
+      
+      🎟️: Ticket Acceptance (First-come, first-served)
+      Starts tomorrow 5/11(Mon) at 19:00!
+      https://livepocket.jp/e/gravity0710
+      
+      #NEKI 
+      @SHIBUYATHEGAME
+    image:
+    - HH8x4YyacAAIMCI
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- postximage:
+    post: 2053414805562884127
+    id: HH8x4YyacAAIMCI
+    label: Band poster
+    published-date: 2026-05-10
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2053414805562884127
+
+- update:
+    show:
+      year: 2026
+      id: gravityvol8
+    date: 2026-05-10
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- webimage:
+    domain: neki.bitfan.id
+    page: 107565
+    id: poster
+    label: Poster
+    published-date: 2026-05-10
+    url: 'https://bitfan-id.s3.ap-northeast-1.amazonaws.com/store/2cfa3375e5018e266c4ff5cad9a2ce1c.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 107565
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 107565
+    label: Show page
+    published-date: 2026-05-10
+    url: 'https://neki.bitfan.id/schedules/107565'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+

@@ -1,3 +1,15 @@
+- update:
+    show:
+      year: 2026
+      id: newmusicgroundvol2
+    date: 2026-05-09
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+
 - webimage:
     domain: neki.bitfan.id
     page: 107502

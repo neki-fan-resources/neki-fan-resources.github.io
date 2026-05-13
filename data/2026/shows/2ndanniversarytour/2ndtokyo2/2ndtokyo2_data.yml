@@ -125,6 +125,14 @@
                 - postximage:
                     post: 2048573184426013138
                     image: HG3-c-TagAAj4TO
+                - webimage:
+                    domain: gretschguitars.jp
+                    page: blog1214
+                    id: hika1
+                - webimage:
+                    domain: gretschguitars.jp
+                    page: blog1214
+                    id: hika2
             - multimediasubsection:
                 multimedia:
                 - webimage:
@@ -142,6 +150,10 @@
                 - postinstagramimage:
                     post: DX1oGdekp5Q
                     image: 2
+                - webimage:
+                    domain: gretschguitars.jp
+                    page: blog1214
+                    id: natsu2
                 - webimage:
                     domain: billboard-japan.com
                     page: 161027
@@ -208,6 +220,11 @@
                 - postinstagramimage:
                     post: DX1oGdekp5Q
                     image: 8
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2053781367121682681
+                    image: HIB_Qn1bUAAOaqb
     - basicblock:
         id: announcement
         label: announcement
@@ -2117,6 +2134,57 @@
         id: 161027
 
 - webimage:
+    domain: gretschguitars.jp
+    page: blog1214
+    id: hika1
+    label: On stage
+    info: Hika
+    published-date: 2026-05-13
+    url: 'https://fma-gretschguitars-media.s3-ap-southeast-2.amazonaws.com/media/CACHE/images/pageimages/blog/nek-live-report-1/5f8be7966865e3022b8e17bce17972b6.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: gretschguitars.jp
+        id: blog1214
+
+- webimage:
+    domain: gretschguitars.jp
+    page: blog1214
+    id: hika2
+    label: On stage
+    info: Hika
+    published-date: 2026-05-13
+    url: 'https://fma-gretschguitars-media.s3-ap-southeast-2.amazonaws.com/media/pageimages/blog/nek-live-report-3_aFgZdfq.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: gretschguitars.jp
+        id: blog1214
+
+- webimage:
+    domain: gretschguitars.jp
+    page: blog1214
+    id: natsu2
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-13
+    url: 'https://fma-gretschguitars-media.s3-ap-southeast-2.amazonaws.com/media/pageimages/blog/nek-live-report-5_ctiTBGo.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: gretschguitars.jp
+        id: blog1214
+
+- webimage:
     domain: note.com.nekiband
     page: nc38529fda3e3
     id: merch
@@ -2222,6 +2290,39 @@
     - postinstagramimage:
         post: DXqgV34GhTr
         image: 1
+
+- webpage:
+    domain: gretschguitars.jp
+    id: blog1214
+    label: Show report
+    published-date: 2026-05-13
+    url: 'https://www.gretschguitars.jp/blog/2026/5/nek-live-report/1214/'
+    image:
+    - hika1
+    - hika2
+    - natsu2
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - postinstagramimage:
+        post: DX1oGdekp5Q
+        image: 2
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 8
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 2
+    - postximage:
+        post: 2048395458352144419
+        image: HG1cxywaMAAPp1R
+    - postinstagramimage:
+        post: DXqgV34GhTr
+        image: 10
 
 - webpage:
     domain: neki.bitfan.id

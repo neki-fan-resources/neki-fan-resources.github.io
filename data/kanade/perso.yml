@@ -44,6 +44,22 @@
         id: perso
         group: kanade
 
+- postx:
+    id: 2053781367121682681
+    account: cure_bass_baka
+    label: Miss bass idiot
+    published-date: 2026-05-11
+    text: |-
+      ベース馬鹿さん。
+    translation: |-
+      Bass idiot.
+    image:
+    - HIB_Qn1bUAAOaqb
+    part-of:
+      postximage:
+        post: 2053781367121682681
+        image: HIB_Qn1bUAAOaqb
+
 - postximage:
     post: 1981271568736276738
     id: G37j_GyWwAA2oxI
@@ -67,4 +83,19 @@
     - song: gimmick
     part-of:
       postx: 1993103746851823683
+
+- postximage:
+    post: 2053781367121682681
+    id: HIB_Qn1bUAAOaqb
+    label: On stage
+    info: Kanade
+    published-date: 2026-05-11
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      group:
+        id: perso
+        group: kanade
 

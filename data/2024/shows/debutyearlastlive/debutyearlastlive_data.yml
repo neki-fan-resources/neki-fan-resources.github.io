@@ -151,6 +151,11 @@
                 - postinstagramimage:
                     post: DEOinT1vIHW
                     image: 11
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2054196852078297409
+                    image: HIH5JYkbIAAAWIK
     - basicblock:
         id: merch
         label: Merch
@@ -1368,6 +1373,32 @@
         year: 2024
         id: debutyearlastlive
 
+- postx:
+    id: 2054196852078297409
+    account: cure_bass_baka
+    label: Handwritten setlist
+    published-date: 2026-05-12
+    text: |-
+      1年半前の見るに堪えない手描きセトリ🥹
+      でびゅーいやーらすとらいぶ。。。
+      
+      これのせいでセトリミスったの誰ですか、、？
+      英語諦めたのも意味わからないし。。。
+      なぜこれを良しとしたの？🥹
+    translation: |-
+      An unbearable hand-drawn setlist from a year and a half ago 🥹
+      The last live of our debut year...
+      
+      Who was it that messed up the setlist because of this...?
+      I don't even understand why I gave up on English...
+      Why did I think this was okay? 🥹
+    image:
+    - HIH5JYkbIAAAWIK
+    part-of:
+      show:
+        year: 2024
+        id: debutyearlastlive
+
 - postximage:
     post: 1868274064198090786
     id: Ge1xW0-bUAAtAs1
@@ -1505,6 +1536,19 @@
         id: debutyearlastlive
     part-of:
       postx: 1877252477071872148
+
+- postximage:
+    post: 2054196852078297409
+    id: HIH5JYkbIAAAWIK
+    label: Handwritten setlist
+    info: Kanade
+    published-date: 2026-05-12
+    context:
+    - show:
+        year: 2024
+        id: debutyearlastlive
+    part-of:
+      postx: 2054196852078297409
 
 - postxvideo:
     post: 1875769615437197318

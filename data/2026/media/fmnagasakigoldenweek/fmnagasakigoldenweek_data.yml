@@ -1,3 +1,29 @@
+- display:
+    media:
+      year: 2026
+      id: fmnagasakigoldenweek
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  youtubevideo: CVV_0_TkhUs
+                lines:
+                - line:
+                  - text: NEK! was invited by FM Nagasaki for the Golden Week special built around artists with roots in the Nagasaki area.
+                - line:
+                  - text: They spoke about Sasebo, Hika's hometown, and their experiences in Kyushu during their first national tour.
+                - line:
+                  - text: They also shared fun anecdotes of each member showing their 'aneki' (big sister) side to each other.
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakigoldenweek
+
 - postx:
     id: 2048986586961084843
     account: nekiband_jp
@@ -114,6 +140,20 @@
     url: 'https://radiko.jp/#!/ts/FMNAGASAKI/20260505210000'
     image:
     - flyer
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakigoldenweek
+
+- youtubevideo:
+    id: CVV_0_TkhUs
+    label: Radio show
+    info: English-subtitled
+    published-date: 2026-05-16
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakigoldenweek
     part-of:
       media:
         year: 2026

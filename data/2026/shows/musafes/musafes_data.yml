@@ -1,3 +1,129 @@
+- display:
+    show:
+      year: 2026
+      id: musafes
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: nOWAML4yuZk
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2055579760995229857
+                    image: HIbi5R_bsAAz7_U
+                - postximage:
+                    post: 2055576520266326114
+                    image: HIbf7J3bYAAQxVW
+                - postinstagramimage:
+                    post: DYZZX5-kQOp
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2055577992416657614
+                    image: HIbhSPVbsAAIV8B
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2055592084720251034
+                    image: HIbuGbKacAAwb0D
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2055578645469733015
+                    image: HIbh4QkbsAAabk-
+                - postximage:
+                    post: 2055576520266326114
+                    image: HIbf7J6aMAAMwAl
+                - postximage:
+                    post: 2055577992416657614
+                    image: HIbhSPXbUAAL6s_
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2055579760995229857
+                    image: HIbi5R4aIAEucFB
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+
+- postinstagram:
+    id: DYZZX5-kQOp
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-05-16
+    text: |-
+      武蔵野音楽祭 蓮の音カーニバル2026
+      @ Star Pine’s Café
+      
+      吉祥寺での初ライブ！
+      ありがとうございました🔥
+      
+      9月に東名阪ツアー開催
+      “NEK! MAJOR DEBUT TOUR”
+      
+      FC会員最速チケット先行受付は
+      明日5/17(日)23:59まで⚠️
+      
+      https://neki.bitfan.id/contents/379563
+      
+      #NEKI
+      #武蔵野音楽祭2026
+    translation: |-
+      Musashino Music Festival Hasu no Ne Carnival 2026
+      @ Star Pine’s Café
+      
+      Our first live show in Kichijoji!
+      Thank you so much🔥
+      
+      Tokyo-Nagoya-Osaka tour coming up in September
+      “NEK! MAJOR DEBUT TOUR”
+      
+      The earliest ticket pre-orders for FC members are open until
+      tomorrow, 5/17 (Sun) at 23:59⚠️
+      
+      https://neki.bitfan.id/contents/379563
+      
+      #NEKI
+      #MusashinoMusicFestival2026
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+    reference:
+    - postximage:
+        post: 2055578645469733015
+        image: HIbh4QkbsAAabk-
+    - postximage:
+        post: 2055576520266326114
+        image: HIbf7J3bYAAQxVW
+    - postximage:
+        post: 2055577992416657614
+        image: HIbhSPXbUAAL6s_
+
+- postinstagramimage:
+    post: DYZZX5-kQOp
+    id: 2
+    label: On stage
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postinstagram: DYZZX5-kQOp
+
 - postx:
     id: 2045336585500262709
     account: musafes69
@@ -107,6 +233,167 @@
         page: nf28b4e5952d6
         id: cover
 
+- postx:
+    id: 2055576520266326114
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-05-16
+    text: |-
+      武蔵野音楽祭 蓮の音カーニバル2026」
+      @ Star Pine’s Café
+      
+      吉祥寺でライブしたの初めてだったー！！
+      汗かく季節になったからね、みんなも水分補給しっかりしてイベント楽しんでね🥹
+      ありがとうございましたー！！
+    translation: |-
+      "Musashino Music Festival Hasu no Ne Carnival 2026"
+      @ Star Pine’s Café
+      
+      It was my first time playing a live show in Kichijoji!!
+      It's the season for sweating now, so everyone make sure to stay hydrated and enjoy the event🥹
+      Thank you so much!!
+    image:
+    - HIbf7J3bYAAQxVW
+    - HIbf7J6aMAAMwAl
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+
+- postx:
+    id: 2055577992416657614
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-05-16
+    text: |-
+      武蔵野音楽祭 蓮の音カーニバル2026
+      
+      初の吉祥寺！新鮮で楽しかった〜🤍🤍
+      
+      たくさんのアーティストさんが出演する中で、私たちを選んで集まってくださり本当にありがとうございます！！
+      アチチな30分でした❤️‍🔥❤️‍🔥
+      
+      9月から東名阪ツアーが始まるのでぜひ気になった方は遊びに来てくださると嬉しいです!
+    translation: |-
+      Musashino Music Festival Hasu no Ne Carnival 2026
+      
+      First time in Kichijoji! It was so fresh and fun~🤍🤍
+      
+      With so many artists performing, thank you so much for choosing us and gathering here!!
+      It was a super hot 30 minutes❤️‍🔥❤️‍🔥
+      
+      Our Tokyo-Nagoya-Osaka tour starts in September, so if you're interested, we'd love for you to come check it out!
+    image:
+    - HIbhSPVbsAAIV8B
+    - HIbhSPXbUAAL6s_
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+
+- postx:
+    id: 2055578645469733015
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-05-16
+    text: |-
+      武蔵野音楽祭 蓮の音カーニバル2026
+      @ Star Pine’s Café
+      
+      吉祥寺での初ライブ！
+      ありがとうございました🔥
+      
+      9月に東名阪ツアー開催
+      “NEK! MAJOR DEBUT TOUR”
+      
+      FC会員最速チケット先行受付は
+      明日5/17(日)23:59まで⚠️
+      
+      🔗https://neki.bitfan.id/contents/379563
+      
+      #NEKI #武蔵野音楽祭2026
+    translation: |-
+      Musashino Music Festival Hasu no Ne Carnival 2026
+      @ Star Pine’s Café
+      
+      Our first live show in Kichijoji!
+      Thank you so much🔥
+      
+      Tokyo-Nagoya-Osaka tour coming up in September
+      “NEK! MAJOR DEBUT TOUR”
+      
+      The earliest ticket pre-orders for FC members are open until
+      tomorrow, 5/17 (Sun) at 23:59⚠️
+      
+      🔗https://neki.bitfan.id/contents/379563
+      
+      #NEKI #MusashinoMusicFestival2026
+    image:
+    - HIbh4QkbsAAabk-
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+    reference:
+    - postximage:
+        post: 2055576520266326114
+        image: HIbf7J3bYAAQxVW
+
+- postx:
+    id: 2055579760995229857
+    account: coco_102
+    label: Thank you
+    published-date: 2026-05-16
+    text: |-
+      武蔵野音楽祭！初出場ありがとうございました🐘
+      初の吉祥寺、ワンマンかと錯覚するくらいフロア一丸となっててアツかったです🔥Theライブハウスの距離感！って感じで最高に楽しかった！！
+      2階も盛り上がってくれてるのしっかり見えてたよ！
+      そして全頭黒髪になりました！就活じゃないからね！
+    translation: |-
+      Musashino Music Festival! Thank you for our first appearance🐘
+      Our first time in Kichijoji, the floor was so united it felt like a solo show, it was so hot🔥It felt like "This is that live house distance!" and it was the best, so much fun!!
+      I could clearly see the 2nd floor pumping too!
+      And now my whole head is black hair! It's not for job hunting, okay!
+    image:
+    - HIbi5R4aIAEucFB
+    - HIbi5R_bsAAz7_U
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+
+- postx:
+    id: 2055592084720251034
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-05-16
+    text: |-
+      武蔵野音楽祭 蓮の音カーニバル2026
+      @ Star Pine’s Café
+      
+      ありがとうございました！
+      
+      今回！吉祥寺でのライブは初で楽しかったぁ！
+      またこの場所でライブがしたいなぁ
+    translation: |-
+      Musashino Music Festival Hasu no Ne Carnival 2026
+      @ Star Pine’s Café
+      
+      Thank you so much!
+      
+      This time! It was our first live show in Kichijoji and it was so much fun!
+      I'd love to perform at this place again
+    image:
+    - HIbuGbKacAAwb0D
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+    reference:
+    - postximage:
+        post: 2055577992416657614
+        image: HIbhSPXbUAAL6s_
+
 - postximage:
     post: 2045336585500262709
     id: HGJ-voha0AAdf6j
@@ -142,6 +429,105 @@
         id: musafes
     part-of:
       postx: 2045336585500262709
+
+- postximage:
+    post: 2055576520266326114
+    id: HIbf7J3bYAAQxVW
+    label: On stage
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2055576520266326114
+
+- postximage:
+    post: 2055576520266326114
+    id: HIbf7J6aMAAMwAl
+    label: Backstage
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2055576520266326114
+
+- postximage:
+    post: 2055577992416657614
+    id: HIbhSPVbsAAIV8B
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2055577992416657614
+
+- postximage:
+    post: 2055577992416657614
+    id: HIbhSPXbUAAL6s_
+    label: Backstage
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2055577992416657614
+
+- postximage:
+    post: 2055578645469733015
+    id: HIbh4QkbsAAabk-
+    label: Backstage
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2055578645469733015
+
+- postximage:
+    post: 2055579760995229857
+    id: HIbi5R4aIAEucFB
+    label: Backstage
+    info: Cocoro
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2055579760995229857
+
+- postximage:
+    post: 2055579760995229857
+    id: HIbi5R_bsAAz7_U
+    label: On stage
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2055579760995229857
+
+- postximage:
+    post: 2055592084720251034
+    id: HIbuGbKacAAwb0D
+    label: On stage
+    info: Hika
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postx: 2055592084720251034
 
 - update:
     show:
@@ -197,6 +583,21 @@
     image:
     - cover
     - 2ndlineup
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+
+- youtubeshort:
+    id: nOWAML4yuZk
+    label: On stage
+    info: studio audio
+    published-date: 2026-05-16
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    - song: reigengirl
     part-of:
       show:
         year: 2026

@@ -78,6 +78,9 @@
                     post: DXgfN29mleE
                     image: 6
                 - postinstagramimage:
+                    post: DYWB3htmkZ2
+                    image: 11
+                - postinstagramimage:
                     post: DXZBmoAj6R2
                     image: 2
             - multimediasubsection:
@@ -359,8 +362,7 @@
 - postinstagramimage:
     post: DXgfN29mleE
     id: 6
-    label: On stage
-    info: drum set
+    label: Snare drum
     published-date: 2026-04-24
     context:
     - show:

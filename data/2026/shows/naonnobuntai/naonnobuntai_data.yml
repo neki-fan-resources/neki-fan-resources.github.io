@@ -27,6 +27,10 @@
                     image: HHFG-VDa8AEPV62
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: diskgarage.com
+                    page: 231964
+                    id: nekionstage
                 - postximage:
                     post: 2049496695986380967
                     image: HHFGYK1bYAAhJNA
@@ -1300,6 +1304,35 @@
     date: 2026-05-08
     text:
     - More pictures added
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- webimage:
+    domain: diskgarage.com
+    page: 231964
+    id: nekionstage
+    label: On stage
+    published-date: 2026-05-15
+    url: 'https://diskgarage.com/digaonline/wordpress/wp-content/uploads/1778821371.webp'
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      webpage:
+        domain: diskgarage.com
+        id: 231964
+
+- webpage:
+    domain: diskgarage.com
+    id: 231964
+    label: Show report
+    published-date: 2026-05-15
+    url: 'https://diskgarage.com/digaonline/liverepo/231964'
+    image:
+    - nekionstage
     part-of:
       show:
         year: 2026

@@ -30,6 +30,9 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 2055289061741654151
+                    video: 01
+                - postxvideo:
                     post: 2051295392323817557
                     video: 01
                 - youtubeshort: d1SULP_B1tM
@@ -225,6 +228,11 @@
                 - postximage:
                     post: 2053781367121682681
                     image: HIB_Qn1bUAAOaqb
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DYWB3htmkZ2
+                    image: 12
     - basicblock:
         id: announcement
         label: announcement
@@ -1701,6 +1709,22 @@
         post: 2051295392323817557
         video: 01
 
+- postx:
+    id: 2055289061741654151
+    account: coco_102
+    label: MAZE on stage
+    published-date: 2026-05-15
+    text: |-
+      明日もたくさん声聞かせてくれよな〜！？🫵🏻🩵
+    translation: |-
+      Let me hear your voices a lot tomorrow too, alright~?!🫵🏻🩵
+    video:
+    - 01
+    part-of:
+      postxvideo:
+        post: 2055289061741654151
+        video: 01
+
 - postximage:
     post: 2048209227500704080
     id: HGyruHsakAAhB8V
@@ -1993,6 +2017,23 @@
         year: 2026
         id: 2ndtokyo2
     - song: jumping
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+
+- postxvideo:
+    post: 2055289061741654151
+    id: 01
+    label: On stage
+    info: Cocoro
+    published-date: 2026-05-15
+    cover: 2055288993307381760/img/7tQxRCynPwrfB5nG.jpg
+    context:
+    - song: maze
+    - show:
+        year: 2026
+        id: 2ndtokyo2
     part-of:
       show:
         year: 2026

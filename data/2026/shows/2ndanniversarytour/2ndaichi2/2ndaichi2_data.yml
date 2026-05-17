@@ -104,6 +104,9 @@
                     post: DWgMS3mj-mT
                     image: 2
                 - postinstagramimage:
+                    post: DYWB3htmkZ2
+                    image: 7
+                - postinstagramimage:
                     post: DWnluOpGhoo
                     image: 6
                 - postinstagramimage:
@@ -351,8 +354,7 @@
 - postinstagramimage:
     post: DWgMS3mj-mT
     id: 2
-    label: On stage
-    info: Azuki-chan
+    label: Azuki-chan
     published-date: 2026-04-05
     context:
     - show:
@@ -439,8 +441,7 @@
 - postinstagramimage:
     post: DWnluOpGhoo
     id: 6
-    label: On stage
-    info: drum set
+    label: Drum set
     published-date: 2026-04-02
     context:
     - show:
@@ -452,8 +453,7 @@
 - postinstagramimage:
     post: DWnluOpGhoo
     id: 7
-    label: On stage
-    info: drum set
+    label: Drum set
     published-date: 2026-04-02
     context:
     - show:

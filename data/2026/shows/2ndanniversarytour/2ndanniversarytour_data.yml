@@ -121,6 +121,40 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postinstagram:
+    id: DYWB3htmkZ2
+    account: cocoro_drum
+    label: Drum sets on tour
+    published-date: 2026-05-15
+    text: |-
+      🗾🗾🗾
+      ⁡
+      ツアーのとき毎回この画角で写真撮ってみてたんだけど見返したら全然変わり映えなかった笑
+      しかも初日のeggmanはNEK!フラッグつける前だった…！
+      唯一変化している各地のドラムセットをお楽しみください😌
+      
+      福岡の照明見てるとジョルノ思い出す(確実に前髪)
+    translation: |-
+      🗾🗾🗾
+      ⁡
+      I tried taking a photo from this exact angle every time during the tour, but looking back, there was absolutely no variety lol
+      And on the first day at eggman, it was actually before we put up the NEK! flag...!
+      Please enjoy the drum sets from each venue, which are the only things changing😌
+      
+      Looking at the lighting in Fukuoka reminds me of Giorno (definitely because of the bangs)
+    image:
+    - 1
+    - 2
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 11
+    - 12
+    part-of:
+      tour: 2ndanniversarytour
+
 - postinstagramimage:
     post: DUczOG9EZm-
     id: 1
@@ -151,6 +185,114 @@
     - tour: 2ndanniversarytour
     part-of:
       postinstagram: DUp_lcUGusn
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 1
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 11
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 12
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 2
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndkanagawa
+    part-of:
+      postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 4
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 5
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    part-of:
+      postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 6
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 7
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi2
+    part-of:
+      postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYWB3htmkZ2
+    id: 8
+    label: Drum set
+    published-date: 2026-05-15
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DYWB3htmkZ2
 
 - postx:
     id: 1976200916698267749

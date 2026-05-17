@@ -117,9 +117,17 @@
                 - postinstagramimage:
                     post: DVYAthPj5QM
                     image: 1
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
                 - postinstagramimage:
                     post: DVYAthPj5QM
                     image: 3
+                - postinstagramimage:
+                    post: DYWB3htmkZ2
+                    image: 2
     part-of:
       show:
         year: 2026
@@ -466,14 +474,13 @@
 - postinstagramimage:
     post: DVYAthPj5QM
     id: 3
-    label: Backstage
-    info: Bass
+    label: Azuki-chan
+    info: Kanade
     published-date: 2026-03-02
     context:
     - show:
         year: 2026
         id: 2ndkanagawa
-    todo: bass name ?
     part-of:
       postinstagram: DVYAthPj5QM
 

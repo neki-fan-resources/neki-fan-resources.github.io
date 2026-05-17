@@ -104,6 +104,18 @@
         year: 2026
         id: fmnagasakigoldenweek
 
+- update:
+    media:
+      year: 2026
+      id: fmnagasakigoldenweek
+    date: 2026-05-16
+    text:
+    - English-subtitled version of the show
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakigoldenweek
+
 - webimage:
     domain: radiko.jp
     page: FMNAGASAKI.20260505210000

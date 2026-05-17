@@ -541,6 +541,18 @@
         year: 2026
         id: musafes
 
+- update:
+    show:
+      year: 2026
+      id: musafes
+    date: 2026-05-17
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: musafes
+
 - webimage:
     domain: note.com.nekiband
     page: nf28b4e5952d6

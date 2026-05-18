@@ -124,7 +124,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2025-02-20
     context:
     - show:
         year: 2025
@@ -136,7 +135,6 @@
     post: DGRjbgwzXBn
     id: 2
     label: On stage
-    published-date: 2025-02-20
     context:
     - show:
         year: 2025
@@ -148,7 +146,6 @@
     post: DGRjbgwzXBn
     id: 3
     label: Backstage
-    published-date: 2025-02-20
     context:
     - show:
         year: 2025
@@ -160,7 +157,6 @@
     post: DGRjbgwzXBn
     id: 4
     label: Sidewalk board
-    published-date: 2025-02-20
     context:
     - show:
         year: 2025
@@ -316,7 +312,6 @@
     post: 1892129493306810798
     id: GkIw1_zaAAA0kCd
     label: sidewalk board
-    published-date: 2025-02-19
     local-copy: true
     context:
     - show:
@@ -329,7 +324,6 @@
     post: 1892211756384039323
     id: GkJ8jdDbwAAvhjI
     label: Backstage
-    published-date: 2025-02-19
     context:
     - show:
         year: 2025
@@ -341,7 +335,6 @@
     post: 1892211756384039323
     id: GkJ8jdjXMAAUqIG
     label: On stage
-    published-date: 2025-02-19
     context:
     - show:
         year: 2025
@@ -354,7 +347,6 @@
     id: GkKP-BOWAAEg9BA
     label: Glowing shoes
     info: Hika
-    published-date: 2025-02-19
     context:
     - show:
         year: 2025
@@ -367,7 +359,6 @@
     id: GkKtmCtbkAAH0QO
     label: Backstage
     info: Cocoro, 寺沢 リョータ (Ryota Terasawa)
-    published-date: 2025-02-19
     context:
     - show:
         year: 2025
@@ -380,7 +371,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-02-25
     cover: 1894380764659388416/img/keThjP_PwIdud1-5.jpg
     context:
     - show:

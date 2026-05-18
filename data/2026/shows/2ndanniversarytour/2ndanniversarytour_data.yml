@@ -160,7 +160,6 @@
     id: 1
     label: Merch
     info: t-shirt, towel
-    published-date: 2026-02-07
     context:
     - tour: 2ndanniversarytour
     part-of:
@@ -170,7 +169,6 @@
     post: DUp_lcUGusn
     id: 1
     label: Tour goods
-    published-date: 2026-02-12
     context:
     - tour: 2ndanniversarytour
     part-of:
@@ -180,7 +178,6 @@
     post: DUp_lcUGusn
     id: 2
     label: Tour goods
-    published-date: 2026-02-12
     context:
     - tour: 2ndanniversarytour
     part-of:
@@ -190,7 +187,6 @@
     post: DYWB3htmkZ2
     id: 1
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -202,7 +198,6 @@
     post: DYWB3htmkZ2
     id: 11
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -214,7 +209,6 @@
     post: DYWB3htmkZ2
     id: 12
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -226,7 +220,6 @@
     post: DYWB3htmkZ2
     id: 2
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -238,7 +231,6 @@
     post: DYWB3htmkZ2
     id: 4
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -250,7 +242,6 @@
     post: DYWB3htmkZ2
     id: 5
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -262,7 +253,6 @@
     post: DYWB3htmkZ2
     id: 6
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -274,7 +264,6 @@
     post: DYWB3htmkZ2
     id: 7
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -286,7 +275,6 @@
     post: DYWB3htmkZ2
     id: 8
     label: Drum set
-    published-date: 2026-05-15
     context:
     - show:
         year: 2026
@@ -704,7 +692,6 @@
     id: G-nnTLOaQAAqT1s
     label: Rehearsal
     info: Kanade
-    published-date: 2026-01-15
     context:
     - tour: 2ndanniversarytour
     todo: name of the bass
@@ -715,7 +702,6 @@
     post: 2012118908707451306
     id: G-x7eczbIAAf-fw
     label: Backstage
-    published-date: 2026-01-16
     context:
     - show:
         year: 2025
@@ -727,7 +713,6 @@
     post: 2020105591847256092
     id: HAjbUzjacAA-Q6p
     label: Special sticker
-    published-date: 2026-02-07
     context:
     - tour: 2ndanniversarytour
     part-of:
@@ -737,7 +722,6 @@
     post: 2029098430170317255
     id: HCjOQM4awAMKNsl
     label: Poster
-    published-date: 2026-03-04
     context:
     - tour: 2ndanniversarytour
     part-of:
@@ -748,7 +732,6 @@
     id: HEo1xN0bUAI4AG9
     label: Backstage
     info: Hika, Natsu
-    published-date: 2026-03-30
     context:
     - tour: 2ndanniversarytour
     todo: which show ?
@@ -760,7 +743,6 @@
     id: HEo1xNubIAABIV4
     label: Backstage
     info: Natsu, Kanade, Cocoro
-    published-date: 2026-03-30
     context:
     - tour: 2ndanniversarytour
     todo: which show ?
@@ -771,7 +753,6 @@
     post: 2038501065860190212
     id: HEo1xNubwAA4z1U
     label: Backstage
-    published-date: 2026-03-30
     context:
     - show:
         year: 2026
@@ -784,7 +765,6 @@
     post: 2038501065860190212
     id: HEo1ysQagAAqeur
     label: Stage
-    published-date: 2026-03-30
     context:
     - tour: 2ndanniversarytour
     todo: which show ?
@@ -795,7 +775,6 @@
     post: 2042247210545598661
     id: HFeE-g-aYAAe9_o
     label: Sea food
-    published-date: 2026-04-09
     part-of:
       postx: 2042247210545598661
 
@@ -803,7 +782,6 @@
     post: 2042247210545598661
     id: HFeE-g_bEAA1guq
     label: Hiyoko cakes
-    published-date: 2026-04-09
     part-of:
       postx: 2042247210545598661
 
@@ -811,7 +789,6 @@
     post: 2042247210545598661
     id: HFeE-hBaUAEO6RW
     label: Meiji
-    published-date: 2026-04-09
     part-of:
       postx: 2042247210545598661
 
@@ -819,7 +796,6 @@
     post: 2042247210545598661
     id: HFeE-hLa8AAXr4F
     label: Ramen and rice
-    published-date: 2026-04-09
     part-of:
       postx: 2042247210545598661
 
@@ -828,7 +804,6 @@
     id: HFeMSI1bUAAtvZH
     label: Mentaiju dinner
     info: Cocoro, Kanade
-    published-date: 2026-04-09
     context:
     - show:
         year: 2026
@@ -840,7 +815,6 @@
     post: 2042255206931677337
     id: HFeMSIwa8AEjZw5
     label: Mentaiju
-    published-date: 2026-04-09
     context:
     - show:
         year: 2026
@@ -853,7 +827,6 @@
     id: HGGN0lBaMAAP8QJ
     label: Rehearsal
     info: Hika, Natsu, Kanade
-    published-date: 2026-04-17
     context:
     - tour: 2ndanniversarytour
     part-of:
@@ -864,7 +837,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-10-09
     cover: 1976295332163223553/img/CnVAAPxOQ5xZoQXG.jpg
     context:
     - song: getover
@@ -879,7 +851,6 @@
     id: 01
     label: Rehearsal
     info: Cocoro
-    published-date: 2025-10-19
     cover: 1979845213234384896/img/CvxW7OstpqNKjvyA.jpg
     context:
     - song: ooak
@@ -891,7 +862,6 @@
     id: 01
     label: On stage
     info: Cocoro, encore
-    published-date: 2026-01-15
     cover: 2011772193181741057/img/QmCsMak3PBm5SOH2.jpg
     context:
     - song: getover
@@ -905,7 +875,6 @@
     post: 2017925656517197950
     id: 01
     label: Shibuya Crossing
-    published-date: 2026-02-01
     cover: 2017925589307707392/img/B0djRfyyoDoue6Bn.jpg
     context:
     - tour: 2ndanniversarytour

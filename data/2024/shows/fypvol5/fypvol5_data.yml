@@ -110,7 +110,6 @@
     post: DAOPx7cT2s9
     id: 2
     label: On stage
-    published-date: 2025-09-22
     context:
     - show:
         year: 2024
@@ -123,7 +122,6 @@
     id: 3
     label: On stage
     info: Cocoro
-    published-date: 2025-09-22
     context:
     - show:
         year: 2024
@@ -135,7 +133,6 @@
     post: DAOPx7cT2s9
     id: 4
     label: Backstage
-    published-date: 2025-09-22
     context:
     - show:
         year: 2024
@@ -230,7 +227,6 @@
     post: 1836637097840775291
     id: GX0Lhdsa8AA1DHs
     label: poster
-    published-date: 2024-09-19
     local-copy: true
     context:
     - show:
@@ -243,7 +239,6 @@
     post: 1836763022674575746
     id: GX1-NI7aMAAhIdv
     label: Poster
-    published-date: 2024-09-19
     context:
     - show:
         year: 2024
@@ -255,7 +250,6 @@
     post: 1836763022674575746
     id: GX1-NI8a0AAJtCZ
     label: On stage
-    published-date: 2024-09-19
     context:
     - show:
         year: 2024

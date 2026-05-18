@@ -68,7 +68,6 @@
     id: 1
     label: On stage
     info: Kanade
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -175,7 +174,6 @@
     post: 1808093597566394408
     id: GRejikdb0Ac6Tj3
     label: Poster
-    published-date: 2026-04-28
     context:
     - tour: nekifirstosakaaichi2024
     part-of:
@@ -185,7 +183,6 @@
     post: 1825843541756752006
     id: GVay0webUAAAJ-4
     label: poster
-    published-date: 2024-08-20
     local-copy: true
     context:
     - show:
@@ -198,7 +195,6 @@
     post: 1826267838006337964
     id: GVg06iIbsAAqz5k
     label: Posters
-    published-date: 2024-08-21
     context:
     - show:
         year: 2024
@@ -210,7 +206,6 @@
     post: 1826267838006337964
     id: GVg06iLbMAAy0f2
     label: On stage
-    published-date: 2024-08-21
     context:
     - show:
         year: 2024

@@ -192,7 +192,6 @@
     id: 1
     label: On stage
     info: Hika
-    published-date: 2024-08-14
     context:
     - show:
         year: 2024
@@ -204,7 +203,6 @@
     post: C_DqIeXSVEq
     id: 6
     label: Backstage
-    published-date: 2024-08-24
     context:
     - show:
         year: 2024
@@ -216,7 +214,6 @@
     post: C_LQWySylRt
     id: 1
     label: In Osaka
-    published-date: 2024-08-27
     context:
     - tour: nekifirstosakaaichi2024
     part-of:
@@ -227,7 +224,6 @@
     id: 3
     label: On stage
     info: Cocoro
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -239,7 +235,6 @@
     post: C_LQWySylRt
     id: 7
     label: On stage
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -251,7 +246,6 @@
     post: C_LQWySylRt
     id: 8
     label: Local food
-    published-date: 2024-08-27
     todo: to sort
     part-of:
       postinstagram: C_LQWySylRt
@@ -260,7 +254,6 @@
     post: C_LQWySylRt
     id: 9
     label: In Osaka
-    published-date: 2024-08-27
     context:
     - tour: nekifirstosakaaichi2024
     part-of:
@@ -270,7 +263,6 @@
     post: C_cBCEkyHbf
     id: 1
     label: On stage
-    published-date: 2024-09-03
     context:
     - tour: nekifirstosakaaichi2024
     todo: which show ?
@@ -281,7 +273,6 @@
     post: C_cBCEkyHbf
     id: 4
     label: Backstage
-    published-date: 2024-09-03
     context:
     - tour: nekifirstosakaaichi2024
     todo: which show ?
@@ -292,7 +283,6 @@
     post: C_cBCEkyHbf
     id: 5
     label: Backstage
-    published-date: 2024-09-03
     context:
     - tour: nekifirstosakaaichi2024
     todo: which show ?
@@ -303,7 +293,6 @@
     post: C_cBCEkyHbf
     id: 6
     label: Backstage
-    published-date: 2024-09-03
     context:
     - tour: nekifirstosakaaichi2024
     todo: which show ?
@@ -352,7 +341,6 @@
     id: GVwTue4aUAAIxfq
     label: On stage
     info: Cocoro
-    published-date: 2024-08-24
     context:
     - show:
         year: 2024
@@ -365,7 +353,6 @@
     id: GVwTueQa8AIR0ys
     label: On stage
     info: Natsu
-    published-date: 2024-08-24
     context:
     - show:
         year: 2024
@@ -378,7 +365,6 @@
     id: GVwTuegbgAA8IhI
     label: On stage
     info: Kanade
-    published-date: 2024-08-24
     context:
     - show:
         year: 2024
@@ -391,7 +377,6 @@
     id: GVwTueiacAA5A3z
     label: On stage
     info: Hika
-    published-date: 2024-08-24
     context:
     - show:
         year: 2024

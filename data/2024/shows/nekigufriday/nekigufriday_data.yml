@@ -117,7 +117,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2024-11-01
     context:
     - show:
         year: 2024
@@ -130,7 +129,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2024-11-01
     context:
     - show:
         year: 2024
@@ -142,7 +140,6 @@
     post: DBz3uWWz_Bu
     id: 4
     label: Sidewalk board
-    published-date: 2024-11-01
     context:
     - show:
         year: 2024
@@ -273,7 +270,6 @@
     post: 1847190084451262858
     id: GaKJl2Eb0AEjQl_
     label: sidewalk board
-    published-date: 2024-10-18
     local-copy: true
     context:
     - show:
@@ -286,7 +282,6 @@
     post: 1847280924775641370
     id: GaLcNR9a0AEXUbo
     label: On stage
-    published-date: 2024-10-18
     context:
     - show:
         year: 2024
@@ -298,7 +293,6 @@
     post: 1847280924775641370
     id: GaLcNSCacAApUEa
     label: Sidewalk board
-    published-date: 2024-10-18
     context:
     - show:
         year: 2024
@@ -311,7 +305,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2024-10-21
     cover: 1848203800752078848/pu/img/adebpog5s1TgG_9V.jpg
     context:
     - song: reigengirl
@@ -328,7 +321,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2024-10-24
     cover: 1849313871133388800/pu/img/5CkA0YrQe-SDDc04.jpg
     context:
     - song: loner

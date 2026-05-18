@@ -331,7 +331,6 @@
     id: 02
     label: On stage
     info: Cocoro
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -344,7 +343,6 @@
     id: 03
     label: On stage
     info: Natsu
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -356,7 +354,6 @@
     post: DQt-qyPkhEb
     id: 04
     label: On stage
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -369,7 +366,6 @@
     id: 05
     label: On stage
     info: Hika
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -382,7 +378,6 @@
     id: 06
     label: On stage
     info: Kanade
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -394,7 +389,6 @@
     post: DQyxtV_krcV
     id: 02
     label: On stage
-    published-date: 2025-11-08
     context:
     - show:
         year: 2025
@@ -406,7 +400,6 @@
     post: DQyxtV_krcV
     id: 04
     label: Drum set
-    published-date: 2025-11-08
     context:
     - show:
         year: 2025
@@ -418,7 +411,6 @@
     post: DQyxtV_krcV
     id: 05
     label: Backstage
-    published-date: 2025-11-08
     context:
     - show:
         year: 2025
@@ -431,7 +423,6 @@
     id: 1
     label: On stage
     info: Natsu
-    published-date: 2025-11-14
     context:
     - show:
         year: 2025
@@ -443,7 +434,6 @@
     post: DRCHp8hEhhQ
     id: 3
     label: Band
-    published-date: 2025-11-14
     context:
     - show:
         year: 2025
@@ -1020,7 +1010,6 @@
     post: 1950466437447111122
     id: GxFvicdbMAAH0SF
     label: Poster
-    published-date: 2025-07-30
     local-copy: true
     context:
     - show:
@@ -1033,7 +1022,6 @@
     post: 1960597489242792085
     id: GzVuQXBa4AMbecJ
     label: Poster
-    published-date: 2025-08-27
     context:
     - show:
         year: 2025
@@ -1047,7 +1035,6 @@
     id: G13X3u8aUAAgOGP
     label: リコメンズ show
     info: on tv asahi
-    published-date: 2025-09-28
     context:
     - show:
         year: 2025
@@ -1059,7 +1046,6 @@
     post: 1974402024918958183
     id: G2Z8LS2bkAAXSVY
     label: TV program
-    published-date: 2025-10-04
     context:
     - show:
         year: 2025
@@ -1071,7 +1057,6 @@
     post: 1986431090874306723
     id: G5E4XdZbIAEtzpg
     label: Band
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1083,7 +1068,6 @@
     post: 1986431090874306723
     id: G5E4XdyaEAAaCja
     label: Stage
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1096,7 +1080,6 @@
     id: G5E_nUdaYAAceML
     label: Backstage
     info: Cocoro
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1108,7 +1091,6 @@
     post: 1986438947548070290
     id: G5E_nUibIAU49Iz
     label: On stage
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1121,7 +1103,6 @@
     id: G5E_nUlaUAALd1Y
     label: On stage
     info: Cocoro
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1134,7 +1115,6 @@
     id: G5FGhR9bIAAqh9L
     label: On stage
     info: Kanade
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1147,7 +1127,6 @@
     id: G5FGhSCakAA1KRC
     label: Backstage
     info: Kanade
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1159,7 +1138,6 @@
     post: 1986450399201820950
     id: G5FKGbtakAAVn2_
     label: On stage
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1172,7 +1150,6 @@
     id: G5FKGbtb0AAQlP2
     label: On stage
     info: Natsu
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1185,7 +1162,6 @@
     id: G5FNbpkaEAEboOK
     label: All the bands and MC
     info: デラックスデラックス, チョーキューメイ, ロイヤルギャル, NEK!, 大渕野々花
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1198,7 +1174,6 @@
     id: G5FVxFXbIAAVzuu
     label: On stage
     info: Hika
-    published-date: 2025-11-06
     context:
     - show:
         year: 2025
@@ -1211,7 +1186,6 @@
     id: G5IKJwJbIAEsnpf
     label: Bands
     info: ロイヤルギャル, NEK!
-    published-date: 2025-11-07
     context:
     - show:
         year: 2025
@@ -1224,7 +1198,6 @@
     id: G5IKJwPbIAIx76s
     label: Bands
     info: チョーキューメイ, NEK!
-    published-date: 2025-11-07
     context:
     - show:
         year: 2025
@@ -1237,7 +1210,6 @@
     id: G5IKJwPbIAMSQ4Q
     label: Bands
     info: デラックスデラックス, NEK!
-    published-date: 2025-11-07
     context:
     - show:
         year: 2025
@@ -1250,7 +1222,6 @@
     id: G5IKJwTbIAITGul
     label: Band and MC
     info: 大渕野々花, NEK!
-    published-date: 2025-11-07
     context:
     - show:
         year: 2025
@@ -1262,7 +1233,6 @@
     post: 2004236824873783710
     id: G9B6wuBaUAAvvwl
     label: TV show
-    published-date: 2025-12-25
     context:
     - show:
         year: 2025
@@ -1275,7 +1245,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-11-09
     cover: 1987453680740950016/img/9L6DGU2Qewuy8yNs.jpg
     context:
     - show:

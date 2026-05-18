@@ -170,7 +170,6 @@
     post: DJQ-mDkvfG9
     id: 1
     label: On stage
-    published-date: 2025-05-05
     context:
     - show:
         year: 2025
@@ -183,7 +182,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2025-05-05
     context:
     - show:
         year: 2025
@@ -195,7 +193,6 @@
     post: DJQ-mDkvfG9
     id: 4
     label: Backstage
-    published-date: 2025-05-05
     context:
     - show:
         year: 2025
@@ -661,7 +658,6 @@
     post: 1903038891042673069
     id: GmjeK9zbIAAWwew
     label: poster
-    published-date: 2025-03-21
     local-copy: true
     context:
     - show:
@@ -674,7 +670,6 @@
     post: 1910649028033011882
     id: GoPVpIWagAAewAc
     label: Timetable
-    published-date: 2025-04-11
     context:
     - show:
         year: 2025
@@ -686,7 +681,6 @@
     post: 1918591839306666269
     id: GqA0m0ta0AAA-dL
     label: festival schedule
-    published-date: 2025-05-03
     context:
     - show:
         year: 2025
@@ -698,7 +692,6 @@
     post: 1918591839306666269
     id: GqA0mxha4AAZusD
     label: シャングリラ schedule
-    published-date: 2025-05-03
     context:
     - show:
         year: 2025
@@ -710,7 +703,6 @@
     post: 1918967431936053416
     id: GqGKtFtbsAAScbY
     label: Backstage
-    published-date: 2025-05-04
     context:
     - show:
         year: 2025
@@ -722,7 +714,6 @@
     post: 1918967431936053416
     id: GqGKtFwa0AACJVD
     label: On stage
-    published-date: 2025-05-04
     context:
     - show:
         year: 2025
@@ -735,7 +726,6 @@
     id: GsgdTzXawAAeCzx
     label: flyer
     info: picture of the bands singers
-    published-date: 2025-06-03
     context:
     - show:
         year: 2025
@@ -748,7 +738,6 @@
     post: 1903038891042673069
     id: bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
     label: artist presentations
-    published-date: 2025-03-21
     cover: 1903015103253151744/pu/img/oUOZFvdLdiNzZp5q.jpg
     context:
     - show:
@@ -761,7 +750,6 @@
     post: 1910927664640110922
     id: 01
     label: Band presentation
-    published-date: 2025-04-12
     cover: 1910927543584088064/img/Goilgo0fp-2UkqfM.jpg
     context:
     - show:
@@ -775,7 +763,6 @@
     id: bb4e888e-5f51-4d44-a6ce-3c57b86955ab
     label: On stage
     info: Natsu
-    published-date: 2025-05-05
     cover: 1919328299047903232/img/dspFPFb7AhRXBwB4.jpg
     context:
     - show:
@@ -792,7 +779,6 @@
     id: ab614f11-559a-4b05-9110-a93a478c49d9
     label: On stage
     info: Cocoro
-    published-date: 2025-05-06
     cover: 1919554682206486530/img/K1ZfrKm-qNiqu1IN.jpg
     context:
     - show:
@@ -809,7 +795,6 @@
     id: 37e3c46f-d463-4507-8090-19abc74c839b
     label: On stage
     info: Hika
-    published-date: 2025-05-06
     cover: 1919977607212498946/img/LkMmps3g4daFxN3j.jpg
     context:
     - show:
@@ -826,7 +811,6 @@
     id: 86e746a8-fd09-4141-979d-524ced4fa2f0
     label: On stage
     info: Cocoro
-    published-date: 2025-05-09
     cover: 1920746671652188160/img/cVITx_SpHeb9T00E.jpg
     context:
     - show:
@@ -843,7 +827,6 @@
     id: 890f9d50-48f5-4914-9d1f-223e9a52a452
     label: On stage
     info: Natsu
-    published-date: 2025-05-12
     cover: 1921828067770847232/img/fTtcpYm1zUWlb4uR.jpg
     context:
     - show:
@@ -860,7 +843,6 @@
     id: 4c117af0-984b-4ba9-8a30-e82f968dd226
     label: On stage
     info: Kanade
-    published-date: 2025-05-14
     cover: 1922588402291249152/img/qMgNWg9u_DSfpOQr.jpg
     context:
     - show:
@@ -877,7 +859,6 @@
     id: d7408dbc-320f-41a5-8e45-5ce994c99049
     label: On stage
     info: solo
-    published-date: 2025-05-26
     cover: 1926927934914228224/img/pZxdsLyZxhNFUdZ4.jpg
     context:
     - show:
@@ -894,7 +875,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-06-02
     cover: 1929389340653912064/img/temN0bVjZ3xG2oFX.jpg
     context:
     - show:
@@ -911,7 +891,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-06-18
     cover: 1935184259150659584/img/6ddIJMGTVK-EkUor.jpg
     context:
     - show:

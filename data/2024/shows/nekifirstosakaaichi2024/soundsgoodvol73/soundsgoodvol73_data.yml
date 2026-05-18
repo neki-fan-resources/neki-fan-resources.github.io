@@ -71,7 +71,6 @@
     id: 1
     label: On stage
     info: Kanade
-    published-date: 2026-02-09
     context:
     - show:
         year: 2024
@@ -182,7 +181,6 @@
     post: 1804826253255667992
     id: GQwGBNrb0AAuARr
     label: Flyer
-    published-date: 2024-06-23
     context:
     - show:
         year: 2024
@@ -194,7 +192,6 @@
     post: 1804826253255667992
     id: GQwHOAlaYAAeHbi
     label: Poster
-    published-date: 2024-06-23
     context:
     - tour: nekifirstosakaaichi2024
     part-of:
@@ -204,7 +201,6 @@
     post: 1826867524035653715
     id: GVpWTLoXMAAyp1r
     label: flyer
-    published-date: 2024-08-23
     local-copy: true
     context:
     - show:
@@ -217,7 +213,6 @@
     post: 1826990576136540351
     id: GVrGPOpawAAkdj6
     label: On stage
-    published-date: 2024-08-23
     context:
     - show:
         year: 2024
@@ -229,7 +224,6 @@
     post: 1826990576136540351
     id: GVrGPOpbAAAhx3u
     label: Sidewalk board
-    published-date: 2024-08-23
     context:
     - show:
         year: 2024

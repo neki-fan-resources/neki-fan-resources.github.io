@@ -90,7 +90,6 @@
     post: C9AJPAFJTbm
     id: 2
     label: On stage
-    published-date: 2024-07-04
     context:
     - show:
         year: 2024
@@ -102,7 +101,6 @@
     post: C9AJPAFJTbm
     id: 3
     label: Backstage
-    published-date: 2024-07-04
     context:
     - show:
         year: 2024
@@ -114,7 +112,6 @@
     post: C9AJPAFJTbm
     id: 4
     label: Sidewalk board
-    published-date: 2024-07-04
     context:
     - show:
         year: 2024
@@ -185,7 +182,6 @@
     post: 1801875706387042707
     id: GQGMZ2dbEAIITAx
     label: poster
-    published-date: 2024-06-15
     local-copy: true
     context:
     - show:
@@ -198,7 +194,6 @@
     post: 1808509524602724490
     id: GRkd0p8agAEcffW
     label: Sidewalk board
-    published-date: 2024-07-03
     context:
     - show:
         year: 2024
@@ -210,7 +205,6 @@
     post: 1808509524602724490
     id: GRkd0p9acAAJY-7
     label: On stage
-    published-date: 2024-07-03
     context:
     - show:
         year: 2024

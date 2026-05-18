@@ -746,7 +746,6 @@
     post: DG0aE4Kp5sC
     id: 1
     label: MV image
-    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:
@@ -756,7 +755,6 @@
     post: DG0aE4Kp5sC
     id: 2
     label: MV image
-    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:
@@ -767,7 +765,6 @@
     id: 3
     label: MV image
     info: Natsu
-    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:
@@ -778,7 +775,6 @@
     id: 4
     label: MV image
     info: Cocoro
-    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:
@@ -789,7 +785,6 @@
     id: 5
     label: MV image
     info: Kanade
-    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:
@@ -800,7 +795,6 @@
     id: 6
     label: MV image
     info: Hika
-    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:
@@ -810,7 +804,6 @@
     post: DG0aE4Kp5sC
     id: 7
     label: MV image
-    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:
@@ -821,7 +814,6 @@
     id: 8
     label: MV image
     info: Hika
-    published-date: 2025-03-05
     context:
     - song: dreams
     part-of:
@@ -1238,7 +1230,6 @@
     post: 1860656200343502968
     id: GdJg8vraoAAn08v
     label: Cover
-    published-date: 2024-11-24
     local-copy: true
     context:
     - song: dreams
@@ -1250,7 +1241,6 @@
     id: Ge_5YQ1bwAMEUka
     label: On stage
     info: Hika
-    published-date: 2024-12-17
     context:
     - song: dreams
     - show:
@@ -1264,7 +1254,6 @@
     id: GlVFBh7a4AQgG9E
     label: MV image
     info: Hika
-    published-date: 2025-03-06
     local-copy: true
     context:
     - song: dreams
@@ -1275,7 +1264,6 @@
     post: 1899396797149356382
     id: GlwDTXHasAAp_Y4
     label: 30k views
-    published-date: 2025-03-11
     part-of:
       postx: 1899396797149356382
 
@@ -1284,7 +1272,6 @@
     id: GlwjlGiagAA09cH
     label: On set
     info: Cocoro
-    published-date: 2025-03-11
     part-of:
       postx: 1899432271826112969
 
@@ -1292,7 +1279,6 @@
     post: 1899803191417676287
     id: Gl107ojXEAAmULi
     label: Behind-the-scenes
-    published-date: 2025-03-12
     part-of:
       postx: 1899803191417676287
 
@@ -1300,7 +1286,6 @@
     post: 1902190826362659121
     id: GmXwd3WbQAAqOD8
     label: Behind-the-scenes
-    published-date: 2025-03-19
     part-of:
       postx: 1902190826362659121
 
@@ -1308,7 +1293,6 @@
     post: 1902190826362659121
     id: GmXwd3XaUAA5lqh
     label: Behind-the-scenes
-    published-date: 2025-03-19
     part-of:
       postx: 1902190826362659121
 
@@ -1316,7 +1300,6 @@
     post: 1902190826362659121
     id: GmXwd3Ya8AENknq
     label: Editing
-    published-date: 2025-03-19
     part-of:
       postx: 1902190826362659121
 
@@ -1324,7 +1307,6 @@
     post: 1902190826362659121
     id: GmXwd3cb0AATojm
     label: Behind-the-scenes
-    published-date: 2025-03-19
     part-of:
       postx: 1902190826362659121
 
@@ -1332,7 +1314,6 @@
     post: 1905935712228364541
     id: GnM-VwibcAAm4c_
     label: 100k views
-    published-date: 2025-03-29
     part-of:
       postx: 1905935712228364541
 
@@ -1340,7 +1321,6 @@
     post: 1868264750905446879
     id: 01
     label: Live Video teaser
-    published-date: 2024-12-15
     cover: 1868256578581020672/pu/img/PVgkYQq95seHBBw4.jpg
     context:
     - song: dreams
@@ -1351,7 +1331,6 @@
     post: 1896939044342481315
     id: 01
     label: Music Video Teaser
-    published-date: 2025-03-04
     cover: 1896937675929821184/pu/img/3KFtDMeghJ75j7dj.jpg
     context:
     - song: dreams
@@ -1363,7 +1342,6 @@
     id: 01
     label: Playthrough
     info: Hika
-    published-date: 2025-03-22
     cover: 1903389948247764992/img/GOh4Urw3hjM2oNjw.jpg
     context:
     - song: dreams
@@ -1375,7 +1353,6 @@
     id: 01
     label: Rehearsal
     info: Natsu
-    published-date: 2025-07-24
     cover: 1948333660677251072/img/wDoQ8wtIjTp9gPJ5.jpg
     context:
     - song: dreams
@@ -1386,7 +1363,6 @@
     post: 1950563193366954288
     id: 01
     label: Rehearsal
-    published-date: 2025-07-30
     cover: 1950563128963670016/img/DakJQTC9LcIAMDdT.jpg
     context:
     - song: dreams
@@ -1401,7 +1377,6 @@
     id: 01
     label: On stage
     info: Natsu, multi-show
-    published-date: 2025-08-28
     cover: 1961002519607586816/img/NQPOewr1xZd9qEoZ.jpg
     context:
     - song: dreams

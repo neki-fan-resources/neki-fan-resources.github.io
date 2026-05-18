@@ -390,7 +390,6 @@
     id: 1
     label: Backstage
     info: Natsu
-    published-date: 2026-03-17
     context:
     - show:
         year: 2026
@@ -402,7 +401,6 @@
     post: DV--P-HkgMG
     id: 2
     label: On stage
-    published-date: 2026-03-17
     context:
     - show:
         year: 2026
@@ -414,7 +412,6 @@
     post: DV--P-HkgMG
     id: 3
     label: Band
-    published-date: 2026-03-17
     context:
     - show:
         year: 2026
@@ -426,7 +423,6 @@
     post: DV58DfzEY7Z
     id: 1
     label: Band
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -439,7 +435,6 @@
     id: 3
     label: Azuki-chan
     info: Kanade
-    published-date: 2026-03-16
     context:
     - show:
         year: 2026
@@ -452,7 +447,6 @@
     id: 1
     label: Acoustic
     info: Hika
-    published-date: 2026-03-18
     context:
     - show:
         year: 2026
@@ -465,7 +459,6 @@
     id: 1
     label: Backstage
     info: Hika
-    published-date: 2026-03-16
     context:
     - show:
         year: 2026
@@ -478,7 +471,6 @@
     id: 1
     label: On stage
     info: Hika
-    published-date: 2026-03-16
     context:
     - show:
         year: 2026
@@ -491,7 +483,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2026-03-16
     context:
     - show:
         year: 2026
@@ -503,7 +494,6 @@
     post: DV8cFM-Gm_X
     id: 4
     label: Drum set
-    published-date: 2026-03-16
     context:
     - show:
         year: 2026
@@ -515,7 +505,6 @@
     post: DV8cFM-Gm_X
     id: 5
     label: Drum set
-    published-date: 2026-03-16
     context:
     - show:
         year: 2026
@@ -528,7 +517,6 @@
     id: 6
     label: On stage
     info: Cocoro
-    published-date: 2026-03-16
     context:
     - show:
         year: 2026
@@ -763,7 +751,6 @@
     post: 2032356445552066993
     id: HDRhJ3PbsAA7VeC
     label: Poster
-    published-date: 2026-03-13
     local-copy: true
     context:
     - show:
@@ -776,7 +763,6 @@
     post: 2033144435874361369
     id: HDcuFeLawAA0DjG
     label: Band
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -788,7 +774,6 @@
     post: 2033144435874361369
     id: HDcuFeUaEAAZpYo
     label: On stage
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -801,7 +786,6 @@
     id: HDc1-N0bQAAV-aU
     label: On stage
     info: Kanade
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -813,7 +797,6 @@
     post: 2033153106297639065
     id: HDc1-NwbEAAHIJE
     label: On stage
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -826,7 +809,6 @@
     id: HDc8l0waEAAZcKk
     label: On stage
     info: Hika
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -839,7 +821,6 @@
     id: HDc9754a8AAUqZq
     label: On stage
     info: Natsu
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -851,7 +832,6 @@
     post: 2033161864142844006
     id: HDc976AaAAAvZyT
     label: On stage
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -864,7 +844,6 @@
     id: HDdMXbIbMAA2C0U
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-15
     context:
     - show:
         year: 2026
@@ -877,7 +856,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2026-03-15
     cover: 2033177722097422336/img/dWlbSw_BTGE1DxaN.jpg
     context:
     - show:

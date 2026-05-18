@@ -137,7 +137,6 @@
     post: C7MjVPeRGlL
     id: 1
     label: On stage
-    published-date: 2024-05-20
     context:
     - show:
         year: 2024
@@ -149,7 +148,6 @@
     post: C7MjVPeRGlL
     id: 2
     label: On stage
-    published-date: 2024-05-20
     context:
     - show:
         year: 2024
@@ -161,7 +159,6 @@
     post: C7MjVPeRGlL
     id: 3
     label: Backstage
-    published-date: 2024-05-20
     context:
     - show:
         year: 2024
@@ -173,7 +170,6 @@
     post: C7Mq24GBNPA
     id: 1
     label: Venue
-    published-date: 2024-05-20
     context:
     - show:
         year: 2024
@@ -256,7 +252,6 @@
     post: 1790265744804216903
     id: GNhNGEkbsAAEJ5A
     label: flyer
-    published-date: 2025-03-22
     local-copy: true
     context:
     - show:
@@ -269,7 +264,6 @@
     post: 1792569210633441746
     id: GOB8MWDbsAEx48x
     label: Sidewalk board
-    published-date: 2024-05-20
     context:
     - show:
         year: 2024
@@ -281,7 +275,6 @@
     post: 1792569210633441746
     id: GOB8MWEaAAAV2FW
     label: On stage
-    published-date: 2024-05-20
     context:
     - show:
         year: 2024

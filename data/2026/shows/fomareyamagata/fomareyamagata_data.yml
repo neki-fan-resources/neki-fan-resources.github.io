@@ -369,7 +369,6 @@
     id: 1
     label: At the venue
     info: FOMARE, NEK!
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -382,7 +381,6 @@
     id: 1
     label: Backstage
     info: Hika
-    published-date: 2026-03-26
     context:
     - show:
         year: 2026
@@ -395,7 +393,6 @@
     id: 2
     label: Backstage
     info: Hika
-    published-date: 2026-03-26
     context:
     - show:
         year: 2026
@@ -408,7 +405,6 @@
     id: 1
     label: Backstage
     info: Natsu
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -421,7 +417,6 @@
     id: 2
     label: Backstage
     info: Natsu
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -434,7 +429,6 @@
     id: 3
     label: Backstage
     info: Natsu
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -447,7 +441,6 @@
     id: 2
     label: On stage
     info: drum set
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -460,7 +453,6 @@
     id: 3
     label: Backstage
     info: Cocoro, Hika, アマダシンスケ
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -472,7 +464,6 @@
     post: DWYdMRRmpnM
     id: 4
     label: On stage
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -485,7 +476,6 @@
     id: 5
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -498,7 +488,6 @@
     id: 3
     label: At the venue
     info: FOMARE, NEK!
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -511,7 +500,6 @@
     id: 4
     label: Backstage
     info: FOMARE, NEK!
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -524,7 +512,6 @@
     id: 5
     label: Backstage
     info: アマダシンスケ, カマタリョウガ
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -537,7 +524,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2026-04-08
     context:
     - song: dreams
     - show:
@@ -666,7 +652,7 @@
     id: 2036960983286243510
     account: natsu08_guitar
     label: Thank you
-    published-date: 2026-03-25
+    published-date: 2026-03-26
     text: |-
       "FOMARE OVER TOUR 25-26"
       @ 酒田 MUSIC FACTORY
@@ -783,7 +769,6 @@
     post: 2036679679281914243
     id: HEO9XJdbIAAN7fg
     label: Flyer
-    published-date: 2026-03-25
     context:
     - show:
         year: 2026
@@ -797,7 +782,6 @@
     id: HEQ1EvwakAA687M
     label: Backstage
     info: FOMARE, NEK!
-    published-date: 2026-03-26
     context:
     - show:
         year: 2026
@@ -810,7 +794,6 @@
     id: HES88iIbYAIyO7A
     label: Backstage
     info: FOMARE, NEK!
-    published-date: 2026-03-25
     context:
     - show:
         year: 2026
@@ -823,7 +806,6 @@
     id: HES88ivbkAA8rC1
     label: At the venue
     info: FOMARE, NEK!
-    published-date: 2026-03-25
     context:
     - show:
         year: 2026
@@ -835,7 +817,6 @@
     post: 2036960983286243510
     id: HES9NmnbYAA6cMu
     label: Backstage
-    published-date: 2026-03-26
     context:
     - show:
         year: 2026
@@ -848,7 +829,6 @@
     id: HETVhCVbYAIXOt6
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-26
     context:
     - show:
         year: 2026
@@ -860,7 +840,6 @@
     post: 2037479908369387767
     id: HEaVI8ZagAAT3Kr
     label: Board
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -872,7 +851,6 @@
     post: 2037479908369387767
     id: HEaVI8oasAAGZsp
     label: Lockers
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -884,7 +862,6 @@
     post: 2037479908369387767
     id: HEaVI8oasAEFiUm
     label: Yamagata food
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -897,7 +874,6 @@
     id: HEaVI8vbsAA3xTV
     label: Café
     info: Cocoro
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -910,7 +886,6 @@
     id: 01
     label: On stage
     info: FOMARE, 愛する人
-    published-date: 2026-03-26
     cover: 2037029606482731009/img/O6tQo1BuqatMomTE.jpg
     context:
     - show:

@@ -488,7 +488,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -501,7 +500,6 @@
     id: 10
     label: On stage
     info: drum set
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -514,7 +512,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -527,7 +524,6 @@
     id: 4
     label: On stage
     info: Cocoro
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -540,7 +536,6 @@
     id: 5
     label: On stage
     info: Cocoro, encore
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -552,7 +547,6 @@
     post: DCxucmfvDog
     id: 8
     label: Backstage
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -564,7 +558,6 @@
     post: DCxucmfvDog
     id: 9
     label: On stage
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -576,7 +569,6 @@
     post: DCyaou3Rhvq
     id: 2
     label: On stage
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -588,7 +580,6 @@
     post: DCyaou3Rhvq
     id: 3
     label: On stage
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -600,7 +591,6 @@
     post: DCyaou3Rhvq
     id: 5
     label: Backstage
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -612,7 +602,6 @@
     post: DCyaou3Rhvq
     id: 7
     label: On stage
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -625,7 +614,6 @@
     id: 1
     label: On stage
     info: Natsu
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -638,7 +626,6 @@
     id: 2
     label: On stage
     info: Natsu
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -650,7 +637,6 @@
     post: DCzOZCST6qI
     id: 6
     label: On stage
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -663,7 +649,6 @@
     id: 7
     label: On stage
     info: encore
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -676,7 +661,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2024-12-18
     context:
     - show:
         year: 2024
@@ -690,7 +674,6 @@
     id: 3
     label: On stage
     info: Kanade
-    published-date: 2024-12-18
     context:
     - show:
         year: 2024
@@ -704,7 +687,6 @@
     id: 4
     label: On stage
     info: Natsu
-    published-date: 2024-12-18
     context:
     - show:
         year: 2024
@@ -718,7 +700,6 @@
     id: 5
     label: On stage
     info: Hika
-    published-date: 2024-12-18
     context:
     - show:
         year: 2024
@@ -731,7 +712,6 @@
     post: DDuC3s5TSkN
     id: 6
     label: On stage
-    published-date: 2024-12-18
     context:
     - show:
         year: 2024
@@ -744,7 +724,6 @@
     post: DEKi3nHTTGW
     id: 1
     label: Zaiko cover
-    published-date: 2024-12-29
     context:
     - show:
         year: 2024
@@ -1041,7 +1020,6 @@
     post: 1821788560518987888
     id: GUhLCZPa8AEcBlF
     label: Poster sold out
-    published-date: 2024-08-09
     local-copy: true
     context:
     - show:
@@ -1054,7 +1032,6 @@
     post: 1860588588834128127
     id: GdIjTflaAAAq0b0
     label: Sidewalk board
-    published-date: 2024-11-24
     context:
     - show:
         year: 2024
@@ -1066,7 +1043,6 @@
     post: 1860642399242084838
     id: GdJUX0vaMAAfwff
     label: Stage setup
-    published-date: 2024-11-24
     context:
     - show:
         year: 2024
@@ -1079,7 +1055,6 @@
     id: GdJUX0yaIAAyel4
     label: Backstage
     info: NEK!
-    published-date: 2024-11-24
     context:
     - show:
         year: 2024
@@ -1091,7 +1066,6 @@
     post: 1860642399242084838
     id: GdJUX0zaMAAnLAP
     label: On stage
-    published-date: 2024-11-24
     context:
     - show:
         year: 2024
@@ -1103,7 +1077,6 @@
     post: 1860642399242084838
     id: GdJUX1DbQAAIRJv
     label: Sidewalk board
-    published-date: 2024-11-24
     context:
     - show:
         year: 2024
@@ -1115,7 +1088,6 @@
     post: 1860660643910885400
     id: GdJk_gwa4AAHT-T
     label: Sidewalk board
-    published-date: 2024-11-24
     context:
     - show:
         year: 2024
@@ -1127,7 +1099,6 @@
     post: 1860700294226838000
     id: GdKJDdoaAAAgzF1
     label: NEK! Sound
-    published-date: 2024-11-24
     context:
     - show:
         year: 2024
@@ -1140,7 +1111,6 @@
     id: GdMzPcLbsAIzyLF
     label: On stage
     info: encore
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -1153,7 +1123,6 @@
     id: GdPjqL6aQAER0rw
     label: On stage
     info: Hika, acoustic
-    published-date: 2024-11-25
     context:
     - show:
         year: 2024
@@ -1165,7 +1134,6 @@
     post: 1873309201130574236
     id: Gf9BZBVbEAAyUEE
     label: Zaiko flyer
-    published-date: 2024-12-29
     context:
     - show:
         year: 2024
@@ -1178,7 +1146,6 @@
     id: GgHP1XDbYAEaa4e
     label: On stage
     info: encore
-    published-date: 2024-12-31
     context:
     - show:
         year: 2024
@@ -1191,7 +1158,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2024-12-03
     cover: 1863870821871353856/pu/img/LbKNcBLCX_CNyWMF.jpg
     context:
     - song: getover

@@ -469,7 +469,6 @@
     post: 1933086980537225689
     id: GtOzLB3bMAAkuR1
     label: Schedule
-    published-date: 2025-06-12
     context:
     - show:
         year: 2025
@@ -481,7 +480,6 @@
     post: 1933086980537225689
     id: GtOzLBnbYAA_1f5
     label: Poster
-    published-date: 2025-06-12
     local-copy: true
     context:
     - show:
@@ -495,7 +493,6 @@
     id: Gug-aW7XUAAt5w3
     label: On stage
     info: Hika
-    published-date: 2025-06-28
     context:
     - show:
         year: 2025
@@ -508,7 +505,6 @@
     id: Gug-aW9WkAA-x6F
     label: On stage
     info: Kanade
-    published-date: 2025-06-28
     context:
     - show:
         year: 2025
@@ -521,7 +517,6 @@
     id: Gug-aXFaoAMN_q3
     label: On stage
     info: Cocoro
-    published-date: 2025-06-28
     context:
     - show:
         year: 2025
@@ -534,7 +529,6 @@
     id: Gug-aXNXYAALVaV
     label: On stage
     info: Natsu
-    published-date: 2025-06-28
     context:
     - show:
         year: 2025
@@ -546,7 +540,6 @@
     post: 1938880954849992881
     id: GuhJ7t9XEAAlg5u
     label: The band
-    published-date: 2025-06-28
     context:
     - show:
         year: 2025
@@ -559,7 +552,6 @@
     id: GuhJ7uKWcAA2JH3
     label: On stage
     info: from the crowd
-    published-date: 2025-06-28
     context:
     - show:
         year: 2025
@@ -572,7 +564,6 @@
     id: 01
     label: 'On stage '
     info: Cocoro
-    published-date: 2025-06-28
     cover: 1938863218115387392/img/2G4E7ni5SM3ACuk_.jpg
     context:
     - show:
@@ -589,7 +580,6 @@
     id: 01
     label: On stage
     info: Natsu, intro
-    published-date: 2025-07-01
     cover: 1939993483634262016/img/9R7TYqmQt_RNf9ye.jpg
     context:
     - show:
@@ -606,7 +596,6 @@
     id: 01
     label: On stage
     info: Natsu, solo
-    published-date: 2025-07-04
     cover: 1941061974755811330/img/NLb-6ldVo-_O1zee.jpg
     context:
     - show:
@@ -623,7 +612,6 @@
     id: 01
     label: On stage
     info: Hika
-    published-date: 2025-07-05
     cover: 1941384859848671233/img/tCuNrkDCAUV5O9wb.jpg
     context:
     - show:
@@ -640,7 +628,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-07-06
     cover: 1941695853950881792/img/AjliwzCakCirv_a1.jpg
     context:
     - show:
@@ -657,7 +644,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-07-11
     cover: 1943529998046146560/img/hLG0rWujugoBBZzE.jpg
     context:
     - show:
@@ -674,7 +660,6 @@
     id: 01
     label: On stage
     info: Natsu
-    published-date: 2025-07-12
     cover: 1943937556623855616/img/vB6J779FswTY0X47.jpg
     context:
     - show:
@@ -691,7 +676,6 @@
     id: 01
     label: On stage
     info: Natsu
-    published-date: 2025-08-19
     cover: 1957813790210445312/img/LMBCErFTb75g6hVD.jpg
     context:
     - song: getover

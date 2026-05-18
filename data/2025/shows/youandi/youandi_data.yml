@@ -143,7 +143,6 @@
     post: DFSLXg4PRqH
     id: 3
     label: On stage
-    published-date: 2025-01-26
     context:
     - show:
         year: 2025
@@ -156,7 +155,6 @@
     id: 4
     label: On stage
     info: Cocoro
-    published-date: 2025-01-26
     context:
     - show:
         year: 2025
@@ -169,7 +167,6 @@
     id: 5
     label: Backstage
     info: 優利香, NEK!
-    published-date: 2025-01-26
     context:
     - show:
         year: 2025
@@ -182,7 +179,6 @@
     id: 1
     label: On stage
     info: Hika
-    published-date: 2025-02-15
     context:
     - show:
         year: 2025
@@ -382,7 +378,6 @@
     post: 1862471067115430271
     id: GdjTje-WMAA_rfZ
     label: Poster
-    published-date: 2024-11-29
     context:
     - show:
         year: 2025
@@ -394,7 +389,6 @@
     post: 1883065171922637290
     id: GiH9iMsaQAAasNt
     label: Timetable
-    published-date: 2025-01-25
     context:
     - show:
         year: 2025
@@ -406,7 +400,6 @@
     post: 1883065171922637290
     id: GiH9iMsaUAAUAmv
     label: Poster
-    published-date: 2025-01-25
     local-copy: true
     context:
     - show:
@@ -419,7 +412,6 @@
     post: 1883339432222429674
     id: GiL2Cz_boAAXVu4
     label: Sidewalk board
-    published-date: 2025-01-26
     context:
     - show:
         year: 2025
@@ -431,7 +423,6 @@
     post: 1883412170689679481
     id: GiM5YBjaAAALbCy
     label: On stage
-    published-date: 2025-01-26
     context:
     - show:
         year: 2025
@@ -443,7 +434,6 @@
     post: 1883412170689679481
     id: GiM5YBlbIAAzYD9
     label: Backstage
-    published-date: 2025-01-26
     context:
     - show:
         year: 2025
@@ -456,7 +446,6 @@
     id: GiNx3d2b0AAUFy7
     label: On stage
     info: Kanade
-    published-date: 2025-01-26
     context:
     - show:
         year: 2025
@@ -469,7 +458,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-01-30
     cover: 1884889506333229056/img/IIEdH7IB8PecnPJ6.jpg
     context:
     - song: maze

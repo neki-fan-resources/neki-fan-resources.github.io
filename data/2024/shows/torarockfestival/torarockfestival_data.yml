@@ -111,7 +111,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2024-08-31
     context:
     - show:
         year: 2024
@@ -124,7 +123,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2024-08-31
     context:
     - show:
         year: 2024
@@ -136,7 +134,6 @@
     post: C_Vf6t8SRBg
     id: 5
     label: Backstage
-    published-date: 2024-08-31
     context:
     - show:
         year: 2024
@@ -295,7 +292,6 @@
     post: 1799063840925315512
     id: GPePBkmbcAEVfyW
     label: poster
-    published-date: 2024-06-07
     context:
     - show:
         year: 2024
@@ -307,7 +303,6 @@
     post: 1814905384324505953
     id: GS_W0ArbIAEHPDE
     label: Band poster
-    published-date: 2024-07-21
     context:
     - show:
         year: 2024
@@ -319,7 +314,6 @@
     post: 1814905384324505953
     id: GS_W0AsbIAECCyx
     label: Poster
-    published-date: 2024-07-21
     local-copy: true
     context:
     - show:
@@ -332,7 +326,6 @@
     post: 1814905384324505953
     id: GS_W0AwbIAIETZw
     label: Timetable
-    published-date: 2024-07-21
     context:
     - show:
         year: 2024
@@ -344,7 +337,6 @@
     post: 1829787584555586011
     id: GWS2G-MW8AImdM_
     label: On stage
-    published-date: 2024-08-31
     context:
     - show:
         year: 2024
@@ -356,7 +348,6 @@
     post: 1829787584555586011
     id: GWS2G-SWgAAH7Ld
     label: On stage
-    published-date: 2024-08-31
     context:
     - show:
         year: 2024

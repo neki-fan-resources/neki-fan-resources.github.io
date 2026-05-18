@@ -412,7 +412,6 @@
     post: DVUyFbOEgM_
     id: 1
     label: Backstage
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -425,7 +424,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -437,7 +435,6 @@
     post: DVXmdsIEvgS
     id: 4
     label: Backstage
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -450,7 +447,6 @@
     id: 5
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -463,7 +459,6 @@
     id: 1
     label: Backstage
     info: Kanade
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -476,7 +471,6 @@
     id: 3
     label: Azuki-chan
     info: Kanade
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -488,7 +482,6 @@
     post: DVYOSJ0krXB
     id: 1
     label: On stage
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -501,7 +494,6 @@
     id: 2
     label: Backstage
     info: Hika, Kanade
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -514,7 +506,6 @@
     id: 3
     label: Backstage
     info: Cocoro, Hika
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -527,7 +518,6 @@
     id: 4
     label: Backstage
     info: Natsu, Hika
-    published-date: 2026-03-02
     context:
     - show:
         year: 2026
@@ -540,7 +530,6 @@
     id: 2
     label: On stage
     info: Natsu
-    published-date: 2026-03-03
     context:
     - show:
         year: 2026
@@ -553,7 +542,6 @@
     id: 3
     label: On stage
     info: Natsu
-    published-date: 2026-03-03
     context:
     - show:
         year: 2026
@@ -566,7 +554,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2026-03-07
     context:
     - show:
         year: 2026
@@ -627,7 +614,7 @@
     id: 2026933828049318063
     account: coco_102
     label: Low tickets
-    published-date: 2026-02-27
+    published-date: 2026-02-26
     text: |-
       初の全国ツアー第二の地は、、、横浜BAYSIS！！
       なんとチケット残りわずか⚠️
@@ -910,7 +897,7 @@
     id: 2032069800881787275
     account: coco_102
     label: moon on stage
-    published-date: 2026-03-13
+    published-date: 2026-03-12
     text: |-
       moonのラスサビ前ってこんなことやってますのよ
       ⁡
@@ -974,7 +961,6 @@
     post: 2026925741292839329
     id: HCEVEmUaMA4kqcR
     label: Poster
-    published-date: 2026-02-26
     context:
     - show:
         year: 2026
@@ -986,7 +972,6 @@
     post: 2026933828049318063
     id: HCEdj_IaMAEexDU
     label: Backstage
-    published-date: 2026-02-26
     context:
     - show:
         year: 2026
@@ -999,7 +984,6 @@
     post: 2027310607029207129
     id: HCJ0PAFbEAA0FyP
     label: Leading to the show
-    published-date: 2026-02-27
     context:
     - show:
         year: 2026
@@ -1011,7 +995,6 @@
     post: 2027322328162689148
     id: HCJ-VQAaQAAH1Qt
     label: Poster sold out
-    published-date: 2026-02-27
     local-copy: true
     context:
     - show:
@@ -1024,7 +1007,6 @@
     post: 2027343804341289447
     id: HCKScIuasAAKH_2
     label: Leading to the show
-    published-date: 2026-02-27
     context:
     - show:
         year: 2026
@@ -1036,7 +1018,6 @@
     post: 2027701696261198176
     id: HCPX75CbEAADjII
     label: On stage
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1048,7 +1029,6 @@
     post: 2027701696261198176
     id: HCPX75CbEAQw86x
     label: On stage
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1061,7 +1041,6 @@
     id: HCPazr9bEAMTueY
     label: On stage
     info: Kanade
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1073,7 +1052,6 @@
     post: 2027705794993787272
     id: HCPbqwsbEAEH7d5
     label: On stage
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1086,7 +1064,6 @@
     id: HCPbqwtbEAIgc0k
     label: On stage
     info: Natsu
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1099,7 +1076,6 @@
     id: HCPcLWvbEAA2hsk
     label: On stage
     info: Hika
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1112,7 +1088,6 @@
     id: HCPcLWybMAA5CI6
     label: Backstage
     info: Hika
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1125,7 +1100,6 @@
     id: HCPhvO2bsAAKYC-
     label: On stage
     info: Cocoro
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1137,7 +1111,6 @@
     post: 2027712474494210268
     id: HCPhvO4aUAA8dHO
     label: On stage
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1150,7 +1123,6 @@
     id: HCPhvO5bIAEKSPt
     label: Backstage
     info: Cocoro
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -1163,7 +1135,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2026-03-12
     cover: 2032069733005344771/img/JhwouQGEUT6E64Jt.jpg
     context:
     - show:
@@ -1180,7 +1151,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2026-03-13
     cover: 2032380877049860097/img/G5DhmXhYe6bXYMoT.jpg
     context:
     - show:
@@ -1196,7 +1166,6 @@
     post: 2041883505752486022
     id: 01
     label: On stage
-    published-date: 2026-04-08
     cover: 2041883390564298756/img/sokusGuKtDbmHz0V.jpg
     context:
     - show:

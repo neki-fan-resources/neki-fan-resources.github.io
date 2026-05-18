@@ -117,7 +117,6 @@
     post: C_LjefVyMK0
     id: 2
     label: On stage
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -129,7 +128,6 @@
     post: C_LjefVyMK0
     id: 3
     label: On stage
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -142,7 +140,6 @@
     id: 4
     label: On stage
     info: Cocoro
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -155,7 +152,6 @@
     id: 5
     label: On stage
     info: Cocoro
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -167,7 +163,6 @@
     post: C_LjefVyMK0
     id: 6
     label: Sidewalk board
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -315,7 +310,6 @@
     post: 1795757514870665423
     id: GOvP8Swa0AAK1tW
     label: poster
-    published-date: 2024-05-29
     local-copy: true
     context:
     - show:
@@ -328,7 +322,6 @@
     post: 1802661970295881884
     id: GQQS5_ZbgAAmmYA
     label: Band poster
-    published-date: 2024-06-17
     context:
     - show:
         year: 2024
@@ -340,7 +333,6 @@
     post: 1821128826476183935
     id: GUXyd9yXwAEDPvK
     label: Timetable
-    published-date: 2024-08-07
     context:
     - show:
         year: 2024
@@ -352,7 +344,6 @@
     post: 1828377003390906504
     id: GV-zMCPaoAEXFgz
     label: On stage
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -364,7 +355,6 @@
     post: 1828377003390906504
     id: GV-zMCRaoAAYcqr
     label: On stage
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024
@@ -376,7 +366,6 @@
     post: 1828377003390906504
     id: GV-zMCuWcAAtYbY
     label: Sidewalk board
-    published-date: 2024-08-27
     context:
     - show:
         year: 2024

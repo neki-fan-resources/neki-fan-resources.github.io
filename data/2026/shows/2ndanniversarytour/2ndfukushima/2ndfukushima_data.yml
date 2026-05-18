@@ -285,7 +285,6 @@
     id: 1
     label: Backstage
     info: Hika
-    published-date: 2026-03-22
     context:
     - show:
         year: 2026
@@ -298,7 +297,6 @@
     id: 2
     label: Backstage
     info: Hika
-    published-date: 2026-03-22
     context:
     - show:
         year: 2026
@@ -311,7 +309,6 @@
     id: 1
     label: On stage
     info: Hika, acoustic
-    published-date: 2026-03-22
     context:
     - show:
         year: 2026
@@ -324,7 +321,6 @@
     id: 1
     label: At the venue
     info: Kanade
-    published-date: 2026-03-24
     context:
     - show:
         year: 2026
@@ -337,7 +333,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2026-03-25
     context:
     - show:
         year: 2026
@@ -349,7 +344,6 @@
     post: DWSsN70mkeA
     id: 3
     label: On stage
-    published-date: 2026-03-25
     context:
     - show:
         year: 2026
@@ -361,7 +355,6 @@
     post: DWSsN70mkeA
     id: 4
     label: Venue
-    published-date: 2026-03-25
     context:
     - show:
         year: 2026
@@ -374,7 +367,6 @@
     id: 2
     label: On stage
     info: Natsu
-    published-date: 2026-03-26
     context:
     - show:
         year: 2026
@@ -387,7 +379,6 @@
     id: 3
     label: On stage
     info: Natsu
-    published-date: 2026-03-26
     context:
     - show:
         year: 2026
@@ -629,7 +620,6 @@
     post: 2035211378747928766
     id: HD6FvD0boAEpzFB
     label: Poster
-    published-date: 2026-03-21
     local-copy: true
     context:
     - show:
@@ -643,7 +633,6 @@
     id: HD7dd85bcAExLTE
     label: On stage
     info: Kanade
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -655,7 +644,6 @@
     post: 2035307845672218757
     id: HD7dd8xaMAAbfVb
     label: On stage
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -667,7 +655,6 @@
     post: 2035308380865306796
     id: HD7eLq1aYAAupZn
     label: On stage
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -679,7 +666,6 @@
     post: 2035308380865306796
     id: HD7eLqxaEAAYVem
     label: Backstage
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -692,7 +678,6 @@
     id: HD7fBSWb0AAVxsp
     label: On stage
     info: Natsu
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -705,7 +690,6 @@
     id: HD7fBTvacAAsWc1
     label: On stage
     info: Natsu
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -718,7 +702,6 @@
     id: HD7kMCSawAA12dg
     label: On stage
     info: Hika
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -731,7 +714,6 @@
     id: HD7nMHraYAAVY1r
     label: On stage
     info: Cocoro
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -744,7 +726,6 @@
     id: HD7nMHya0AAww9v
     label: Café au lait
     info: Cocoro
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -757,7 +738,6 @@
     id: HD_hBydboAALqYm
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-22
     context:
     - show:
         year: 2026

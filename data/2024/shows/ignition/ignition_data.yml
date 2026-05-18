@@ -149,7 +149,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2024-11-07
     context:
     - show:
         year: 2024
@@ -162,7 +161,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2024-11-07
     context:
     - show:
         year: 2024
@@ -174,7 +172,6 @@
     post: DCDg45hvvob
     id: 3
     label: On stage
-    published-date: 2024-11-07
     context:
     - show:
         year: 2024
@@ -187,7 +184,6 @@
     id: 1
     label: On stage
     info: Natsu
-    published-date: 2024-11-09
     context:
     - show:
         year: 2024
@@ -330,7 +326,6 @@
     post: 1854050886647173628
     id: GbroRIOa8AAzJCY
     label: flyer
-    published-date: 2024-11-06
     local-copy: true
     context:
     - show:
@@ -343,7 +338,6 @@
     post: 1854174702820007947
     id: GbtaEEGbgAA4158
     label: On stage
-    published-date: 2024-11-06
     context:
     - show:
         year: 2024
@@ -355,7 +349,6 @@
     post: 1854174702820007947
     id: GbtaEEHakAAv-OI
     label: Board
-    published-date: 2024-11-06
     context:
     - show:
         year: 2024
@@ -367,7 +360,6 @@
     post: 1854174702820007947
     id: GbtaEEHbAAA6VzN
     label: On stage
-    published-date: 2024-11-06
     context:
     - show:
         year: 2024
@@ -380,7 +372,6 @@
     id: Gbt3Ud4a8AAHfTE
     label: Bands
     info: NEK!, Bray me
-    published-date: 2024-11-06
     context:
     - show:
         year: 2024
@@ -394,7 +385,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2024-11-09
     cover: 1855049998918205441/pu/img/jomFUnsE-IaybRUZ.jpg
     context:
     - song: endlessgame

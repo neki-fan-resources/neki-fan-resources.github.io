@@ -369,7 +369,6 @@
     post: DX3pRrbHXw1
     id: 2
     label: Backstage
-    published-date: 2026-05-08
     context:
     - show:
         year: 2026
@@ -381,7 +380,6 @@
     post: DXt_S7FkTCS
     id: 4
     label: On stage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -394,7 +392,6 @@
     id: 10
     label: Backstage
     info: MINA (East of Eden), NEK!
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -407,7 +404,6 @@
     id: 11
     label: Backstage
     info: Lima (BONE DAWN), NEK!
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -420,7 +416,6 @@
     id: 12
     label: Backstage
     info: yuri (Gacharic Spin), NEK!
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -433,7 +428,6 @@
     id: 5
     label: Backstage
     info: Shishido Kavka (BONE DAWN), Cocoro
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -446,7 +440,6 @@
     id: 6
     label: Backstage
     info: Tamu Murata (NEMOPHILA), Cocoro
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -459,7 +452,6 @@
     id: 7
     label: Backstage
     info: MIZUKI (East of Eden), Cocoro
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -472,7 +464,6 @@
     id: 9
     label: Backstage
     info: 土屋アンナ (Anna Tsuchiya), NEK!
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -1028,7 +1019,6 @@
     post: 2034827695041966204
     id: HD0o-YibcAAb_9C
     label: Poster
-    published-date: 2026-03-20
     context:
     - show:
         year: 2026
@@ -1040,7 +1030,6 @@
     post: 2048960393075433752
     id: HG9Xq2YbkAA-qGa
     label: Poster sold out
-    published-date: 2026-04-28
     local-copy: true
     context:
     - show:
@@ -1053,7 +1042,6 @@
     post: 2049458470081188009
     id: HHEjnBwa0AAxZvS
     label: On stage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1065,7 +1053,6 @@
     post: 2049458470081188009
     id: HHEjnByaUAA5ReY
     label: Backstage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1077,7 +1064,6 @@
     post: 2049487133803770233
     id: HHE9rt-aYAAr6Ak
     label: On stage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1090,7 +1076,6 @@
     id: HHE9rubacAAA7sq
     label: On stage
     info: Hika
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1102,7 +1087,6 @@
     post: 2049496695986380967
     id: HHFGYK1bYAAhJNA
     label: On stage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1114,7 +1098,6 @@
     post: 2049496695986380967
     id: HHFGYKzacAAZOvV
     label: Backstage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1127,7 +1110,6 @@
     id: HHFG-VCaAAA3dqk
     label: On stage
     info: Cocoro
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1139,7 +1121,6 @@
     post: 2049497352810230248
     id: HHFG-VDa8AEPV62
     label: On stage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1151,7 +1132,6 @@
     post: 2049497352810230248
     id: HHFG-VEbMAAieeD
     label: Backstage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1163,7 +1143,6 @@
     post: 2049497352810230248
     id: HHFG-VFakAAFqP3
     label: Backstage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1175,7 +1154,6 @@
     post: 2049500544088355078
     id: HHFJ32vb0AAx6tg
     label: On stage
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1188,7 +1166,6 @@
     id: HHFJ-FXaAAAHqDk
     label: Backstage
     info: yuri (Gacharic Spin), Cocoro
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1201,7 +1178,6 @@
     id: HHI-yt9bsAAA-WD
     label: Backstage
     info: NEMOPHILA, NEK!
-    published-date: 2026-04-30
     context:
     - show:
         year: 2026
@@ -1214,7 +1190,6 @@
     id: HHJICyLaMAA6l2U
     label: Backstage
     info: East of Eden, NEK!
-    published-date: 2026-04-30
     context:
     - show:
         year: 2026
@@ -1227,7 +1202,6 @@
     id: HHJUWT5bMAAwQH5
     label: Backstage
     info: Nagi (Hagane), NEK!
-    published-date: 2026-04-30
     context:
     - show:
         year: 2026
@@ -1240,7 +1214,6 @@
     id: HHJx9Nua4AAGxyd
     label: Backstage
     info: SHOW-YA, NEK!
-    published-date: 2026-04-30
     context:
     - show:
         year: 2026
@@ -1253,7 +1226,6 @@
     id: HHNPPS1bwAAOWH2
     label: Backstage
     info: Hika, Akane (East of Eden)
-    published-date: 2026-05-08
     context:
     - show:
         year: 2026
@@ -1265,7 +1237,6 @@
     post: 2050722424598257795
     id: HHWgzoQaMAAgxwQ
     label: The bands
-    published-date: 2026-05-03
     context:
     - show:
         year: 2026

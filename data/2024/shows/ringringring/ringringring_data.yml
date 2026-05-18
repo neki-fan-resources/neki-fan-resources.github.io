@@ -110,7 +110,6 @@
     post: C_uN9I0TT8Y
     id: 2
     label: On stage
-    published-date: 2024-09-10
     context:
     - show:
         year: 2024
@@ -123,7 +122,6 @@
     id: 3
     label: On stage
     info: Cocoro
-    published-date: 2024-09-10
     context:
     - show:
         year: 2024
@@ -135,7 +133,6 @@
     post: C_uN9I0TT8Y
     id: 4
     label: At the venue
-    published-date: 2024-09-10
     context:
     - show:
         year: 2024
@@ -147,7 +144,6 @@
     post: C_uN9I0TT8Y
     id: 5
     label: Backstage
-    published-date: 2024-09-10
     context:
     - show:
         year: 2024
@@ -338,7 +334,6 @@
     post: 1811718141904585180
     id: GSSEBGlbgAAjIR2
     label: Series poster
-    published-date: 2024-07-12
     context:
     - show:
         year: 2024
@@ -350,7 +345,6 @@
     post: 1832614238424301660
     id: GW7Ac3YbEAAYoku
     label: poster
-    published-date: 2024-09-08
     local-copy: true
     context:
     - show:
@@ -363,7 +357,6 @@
     post: 1832774653900947846
     id: GW9S0LXaYAAvn-w
     label: Poster
-    published-date: 2024-09-08
     context:
     - show:
         year: 2024
@@ -375,7 +368,6 @@
     post: 1832774653900947846
     id: GW9S0LYagAEnBpP
     label: On stage
-    published-date: 2024-09-08
     context:
     - show:
         year: 2024
@@ -388,7 +380,6 @@
     id: GW9WnF1b0AAwDrP
     label: Backstage
     info: NEK!, EMANON
-    published-date: 2024-09-08
     context:
     - show:
         year: 2024
@@ -401,7 +392,6 @@
     id: GW9jbhubwAA_gk-
     label: Backstage
     info: NEK!, 2winkle wink
-    published-date: 2024-09-08
     context:
     - show:
         year: 2024

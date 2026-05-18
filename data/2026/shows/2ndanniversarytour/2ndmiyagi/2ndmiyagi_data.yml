@@ -253,7 +253,6 @@
     post: DWLNccKDjqA
     id: 2
     label: Cute
-    published-date: 2026-03-22
     context:
     - show:
         year: 2026
@@ -266,7 +265,6 @@
     id: 3
     label: Azuki-chan
     info: Kanade
-    published-date: 2026-03-22
     context:
     - show:
         year: 2026
@@ -279,7 +277,6 @@
     id: 2
     label: On stage
     info: Natsu
-    published-date: 2026-03-22
     context:
     - show:
         year: 2026
@@ -292,7 +289,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2026-03-23
     context:
     - show:
         year: 2026
@@ -305,7 +301,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2026-03-23
     context:
     - show:
         year: 2026
@@ -317,7 +312,6 @@
     post: DWOOEpVGstU
     id: 3
     label: On stage
-    published-date: 2026-03-23
     context:
     - show:
         year: 2026
@@ -330,7 +324,6 @@
     id: 5
     label: Rehearsal
     info: Cocoro, Kanade
-    published-date: 2026-03-23
     context:
     - show:
         year: 2026
@@ -601,7 +594,6 @@
     post: 2034628858327294452
     id: HDx0KWFaYAAY5Kc
     label: Sendai food
-    published-date: 2026-03-19
     context:
     - show:
         year: 2026
@@ -614,7 +606,6 @@
     id: HDx0KWNbAAAsHDy
     label: Rehearsal
     info: Cocoro, Kanade
-    published-date: 2026-03-19
     context:
     - show:
         year: 2026
@@ -626,7 +617,6 @@
     post: 2034628858327294452
     id: HDx0KWPbcAAedqf
     label: Sendai food
-    published-date: 2026-03-19
     context:
     - show:
         year: 2026
@@ -638,7 +628,6 @@
     post: 2034835832927059996
     id: HD0vhJ8boAAcm78
     label: Poster
-    published-date: 2026-03-20
     local-copy: true
     context:
     - show:
@@ -651,7 +640,6 @@
     post: 2034959910564503639
     id: HD2hPXLboAQGcWz
     label: Backstage
-    published-date: 2026-03-20
     context:
     - show:
         year: 2026
@@ -663,7 +651,6 @@
     post: 2034959910564503639
     id: HD2hPXMbcAAaEpq
     label: On stage
-    published-date: 2026-03-20
     context:
     - show:
         year: 2026
@@ -676,7 +663,6 @@
     id: HD2mjUSboAI9_R-
     label: On stage
     info: Hika
-    published-date: 2026-03-20
     context:
     - show:
         year: 2026
@@ -689,7 +675,6 @@
     id: HD2pLmKbIAAI-uD
     label: On stage
     info: Natsu
-    published-date: 2026-03-20
     context:
     - show:
         year: 2026
@@ -702,7 +687,6 @@
     id: HD2pLmMboAUI4ox
     label: On stage
     info: Natsu
-    published-date: 2026-03-20
     context:
     - show:
         year: 2026
@@ -715,7 +699,6 @@
     id: HD2qbq-boAIeQtF
     label: Backstage
     info: Kanade
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -728,7 +711,6 @@
     id: HD2qbq_boAMfMfA
     label: On stage
     info: Kanade
-    published-date: 2026-03-21
     context:
     - show:
         year: 2026
@@ -741,7 +723,6 @@
     id: HD2unh-boAEFnl4
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-20
     context:
     - show:
         year: 2026
@@ -754,7 +735,6 @@
     id: HEArdr5aoAAane6
     label: Backstage
     info: Kanade
-    published-date: 2026-03-22
     context:
     - show:
         year: 2026
@@ -767,7 +747,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2026-03-20
     cover: 2034974600820576256/img/E2czz47iaTdCXxwx.jpg
     context:
     - show:

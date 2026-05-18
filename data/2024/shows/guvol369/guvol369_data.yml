@@ -152,7 +152,6 @@
     post: 1864191582632583194
     id: Gd7uUKFa0AAbSuw
     label: sidewalk board
-    published-date: 2024-12-04
     local-copy: true
     context:
     - show:
@@ -165,7 +164,6 @@
     post: 1864322318232899874
     id: Gd9nQ1oa0AEUwgY
     label: Sidewalk board
-    published-date: 2024-12-04
     context:
     - show:
         year: 2024
@@ -177,7 +175,6 @@
     post: 1864322318232899874
     id: Gd9nQ1pa0AIyIiI
     label: On stage
-    published-date: 2024-12-04
     context:
     - show:
         year: 2024
@@ -189,7 +186,6 @@
     post: 1864322318232899874
     id: Gd9nQ1pawAAb3MU
     label: On stage
-    published-date: 2024-12-04
     context:
     - show:
         year: 2024
@@ -202,7 +198,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2024-12-28
     cover: 1872885339498659842/pu/img/q6DBlm4D731SHAAr.jpg
     context:
     - song: maze

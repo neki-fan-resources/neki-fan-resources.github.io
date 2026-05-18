@@ -265,7 +265,6 @@
     post: DXT9CtUkSlL
     id: 2
     label: On stage
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -277,7 +276,6 @@
     post: DXT9CtUkSlL
     id: 3
     label: On stage
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -289,7 +287,6 @@
     post: DXT9CtUkSlL
     id: 5
     label: Backstage
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -302,7 +299,6 @@
     id: 1
     label: Backstage
     info: Kanade
-    published-date: 2026-04-21
     context:
     - show:
         year: 2026
@@ -315,7 +311,6 @@
     id: 2
     label: Azuki-chan
     info: Kanade
-    published-date: 2026-04-21
     context:
     - show:
         year: 2026
@@ -327,7 +322,6 @@
     post: DXgfN29mleE
     id: 3
     label: On stage
-    published-date: 2026-04-24
     context:
     - show:
         year: 2026
@@ -339,7 +333,6 @@
     post: DXgfN29mleE
     id: 4
     label: On stage
-    published-date: 2026-04-24
     context:
     - show:
         year: 2026
@@ -351,7 +344,6 @@
     post: DXgfN29mleE
     id: 5
     label: Venue
-    published-date: 2026-04-24
     context:
     - show:
         year: 2026
@@ -363,7 +355,6 @@
     post: DXgfN29mleE
     id: 6
     label: Snare drum
-    published-date: 2026-04-24
     context:
     - show:
         year: 2026
@@ -375,7 +366,6 @@
     post: DXgfN29mleE
     id: 7
     label: Pork bun
-    published-date: 2026-04-24
     context:
     - show:
         year: 2026
@@ -387,7 +377,6 @@
     post: DXgfN29mleE
     id: 8
     label: Kansai green tea
-    published-date: 2026-04-24
     context:
     - show:
         year: 2026
@@ -632,7 +621,6 @@
     post: 2045664481083359385
     id: HGOo2XAbsAAZTsT
     label: Poster
-    published-date: 2026-04-19
     local-copy: true
     context:
     - show:
@@ -645,7 +633,6 @@
     post: 2045812307670991254
     id: HGQvcQEaYAA4r29
     label: On stage
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -658,7 +645,6 @@
     id: HGQvcQFb0AAwJDX
     label: Backstage
     info: Kanade
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -670,7 +656,6 @@
     post: 2045816783408660774
     id: HGQzgbuaAAApcL2
     label: Backstage
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -682,7 +667,6 @@
     post: 2045818817142730819
     id: HGQ1XuqawAE1kte
     label: On stage
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -695,7 +679,6 @@
     id: HGQ1XusasAAumjF
     label: On stage
     info: Hika
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -708,7 +691,6 @@
     id: HGQ7O1vbwAAoCRf
     label: On stage
     info: Natsu
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026
@@ -721,7 +703,6 @@
     id: HGRALnyaIAASvsj
     label: Backstage
     info: Cocoro
-    published-date: 2026-04-19
     context:
     - show:
         year: 2026

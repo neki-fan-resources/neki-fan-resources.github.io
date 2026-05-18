@@ -268,7 +268,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2025-10-15
     context:
     - show:
         year: 2025
@@ -280,7 +279,6 @@
     post: DP1ZLSykmFe
     id: 2
     label: Tuk-Tuk ride
-    published-date: 2025-10-15
     context:
     - show:
         year: 2025
@@ -292,7 +290,6 @@
     post: DP1ZLSykmFe
     id: 3
     label: Food
-    published-date: 2025-10-15
     context:
     - show:
         year: 2025
@@ -304,7 +301,6 @@
     post: DP1ZLSykmFe
     id: 4
     label: Milk drink
-    published-date: 2025-10-15
     context:
     - show:
         year: 2025
@@ -316,7 +312,6 @@
     post: DP51jPeEdKx
     id: 1
     label: Backstage
-    published-date: 2025-10-17
     context:
     - show:
         year: 2025
@@ -328,7 +323,6 @@
     post: DP51jPeEdKx
     id: 2
     label: Outside
-    published-date: 2025-10-17
     context:
     - show:
         year: 2025
@@ -341,7 +335,6 @@
     id: 1
     label: On stage
     info: Natsu
-    published-date: 2025-10-18
     context:
     - show:
         year: 2025
@@ -353,7 +346,6 @@
     post: DP1ZLSykmFe
     id: 5
     label: Tuk-Tuk ride
-    published-date: 2025-10-15
     context:
     - show:
         year: 2025
@@ -1057,7 +1049,6 @@
     post: 1943143169446822118
     id: GvduaMoXgAAkU2_
     label: First artists list
-    published-date: 2025-07-10
     context:
     - show:
         year: 2025
@@ -1069,7 +1060,6 @@
     post: 1943145229357584494
     id: GvdwSAWakAAlKdJ
     label: Poster
-    published-date: 2025-07-10
     local-copy: true
     context:
     - show:
@@ -1082,7 +1072,6 @@
     post: 1943145229357584494
     id: GvdwSAzWYAAl-Oo
     label: First artists list
-    published-date: 2025-07-10
     context:
     - show:
         year: 2025
@@ -1094,7 +1083,6 @@
     post: 1950844299064799526
     id: GxLKemBagAAsW-L
     label: Days schedule
-    published-date: 2025-07-31
     context:
     - show:
         year: 2025
@@ -1106,7 +1094,6 @@
     post: 1963622184414302280
     id: G0Av9v0b0AAyrub
     label: 3rd artists list
-    published-date: 2025-09-04
     context:
     - show:
         year: 2025
@@ -1118,7 +1105,6 @@
     post: 1966064930890854845
     id: G0jdogsaMAcz72C
     label: Schedule
-    published-date: 2025-09-11
     context:
     - show:
         year: 2025
@@ -1131,7 +1117,6 @@
     id: G24nBzJbwAA5DkZ
     label: Bands card
     info: Kanade
-    published-date: 2025-10-10
     context:
     - show:
         year: 2025
@@ -1144,7 +1129,6 @@
     id: G24nBzMaQAAEt7R
     label: Bands card
     info: Hika
-    published-date: 2025-10-10
     context:
     - show:
         year: 2025
@@ -1157,7 +1141,6 @@
     id: G24nBzUbMAAXNzN
     label: Bands card
     info: Natsu
-    published-date: 2025-10-10
     context:
     - show:
         year: 2025
@@ -1170,7 +1153,6 @@
     id: G24nBzUbgAAf4qq
     label: Bands card
     info: Cocoro
-    published-date: 2025-10-10
     context:
     - show:
         year: 2025
@@ -1183,7 +1165,6 @@
     id: G3H5ttbaUAA2ya1
     label: Tuk-Tuk ride
     info: in Osaka
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1195,7 +1176,6 @@
     post: 1977650722348159190
     id: G3IGwcObUAAT_uX
     label: Band
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1208,7 +1188,6 @@
     id: G3IGwcWbQAA1XiY
     label: Band
     info: with peppermint candy
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1221,7 +1200,6 @@
     id: G3IbHmEaMAARPBY
     label: Backstage
     info: Cocoro
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1233,7 +1211,6 @@
     post: 1977673015585624508
     id: G3IbHmJaUAAgskC
     label: In the venue
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1246,7 +1223,6 @@
     id: G3IbdvobMAAAYPR
     label: Backstage
     info: Natsu
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1259,7 +1235,6 @@
     id: G3Ib5IgbAAE1Tyz
     label: On stage
     info: Kanade
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1271,7 +1246,6 @@
     post: 1977674300330250596
     id: G3IcRT3aAAAJjhU
     label: In the venue
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1283,7 +1257,6 @@
     post: 1977674300330250596
     id: G3IcRTtbcAAjGc4
     label: Band
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1295,7 +1268,6 @@
     post: 1977674300330250596
     id: G3IcRTxbcAAO0HG
     label: On stage
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1307,7 +1279,6 @@
     post: 1977675187459162437
     id: G3IdGKUawAEA3k6
     label: In the venue
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1320,7 +1291,6 @@
     id: G3IdGKiaIAILO0x
     label: On stage
     info: Hika
-    published-date: 2025-10-13
     context:
     - show:
         year: 2025
@@ -1333,7 +1303,6 @@
     id: 01
     label: Question from other band
     info: Favorite of your own song?
-    published-date: 2025-09-30
     cover: 1972979545432375298/img/cphtnkg6HwcLNIzf.jpg
     context:
     - show:
@@ -1347,7 +1316,6 @@
     id: 01
     label: Rehearsal
     info: Cocoro
-    published-date: 2025-10-12
     cover: 1977362964962508800/img/OKT5WghpmW69SdDO.jpg
     context:
     - song: zerosum
@@ -1359,7 +1327,6 @@
     id: 01
     label: Tuk-Tuk ride
     info: in Osaka
-    published-date: 2025-10-13
     cover: 1977618468582326272/img/qbUG9OqyE5vjhXo9.jpg
     context:
     - show:
@@ -1373,7 +1340,6 @@
     id: 01
     label: On stage
     info: intro
-    published-date: 2025-10-13
     cover: 1977688629779869696/img/QmMXUFYxNljmxPhQ.jpg
     context:
     - show:
@@ -1390,7 +1356,6 @@
     id: 01
     label: On stage
     info: Cocoro, outro
-    published-date: 2025-10-16
     cover: 1978807145828364288/img/aSsgHZAs92ounTiR.jpg
     context:
     - show:

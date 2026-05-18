@@ -219,7 +219,6 @@
     post: C4QGFf5xRlI
     id: 01
     label: On stage
-    published-date: 2025-10-25
     context:
     - show:
         year: 2024
@@ -231,7 +230,6 @@
     post: C4QGFf5xRlI
     id: 02
     label: On stage
-    published-date: 2024-03-08
     context:
     - show:
         year: 2024
@@ -244,7 +242,6 @@
     id: 03
     label: On stage
     info: Cocoro
-    published-date: 2024-03-08
     context:
     - show:
         year: 2024
@@ -256,7 +253,6 @@
     post: C4QGFf5xRlI
     id: 05
     label: Sidewalk board
-    published-date: 2024-03-08
     context:
     - show:
         year: 2024
@@ -268,7 +264,6 @@
     post: C4QGFf5xRlI
     id: 06
     label: Backstage
-    published-date: 2024-03-08
     context:
     - show:
         year: 2024
@@ -280,7 +275,6 @@
     post: C4QqsyphCuv
     id: 02
     label: On stage
-    published-date: 2024-03-08
     context:
     - show:
         year: 2024
@@ -292,7 +286,6 @@
     post: C4QqsyphCuv
     id: 05
     label: Backstage
-    published-date: 2024-03-07
     context:
     - show:
         year: 2024
@@ -304,7 +297,6 @@
     post: C4QGFf5xRlI
     id: 07
     label: Backstage
-    published-date: 2024-03-08
     context:
     - show:
         year: 2024
@@ -316,7 +308,6 @@
     post: C4QqsyphCuv
     id: 06
     label: Backstage
-    published-date: 2024-03-07
     context:
     - show:
         year: 2024
@@ -477,7 +468,6 @@
     post: 1765304060088115356
     id: GH-dwBEbYAE40vt
     label: Poster
-    published-date: 2024-03-06
     context:
     - show:
         year: 2024
@@ -489,7 +479,6 @@
     post: 1765625866816803054
     id: GIDCvFoaEAARgCV
     label: Sidewalk board
-    published-date: 2024-03-07
     local-copy: true
     context:
     - show:
@@ -502,7 +491,6 @@
     post: 1765733615722467497
     id: GIElXLRacAAzZEQ
     label: The band
-    published-date: 2024-03-07
     context:
     - show:
         year: 2024
@@ -514,7 +502,6 @@
     post: 1765733615722467497
     id: GIElXLRb0AAgpaY
     label: On stage
-    published-date: 2024-03-07
     context:
     - show:
         year: 2024
@@ -526,7 +513,6 @@
     post: 1765774728294461468
     id: GIFKWQXakAAGDMb
     label: Sidewalk board
-    published-date: 2025-09-29
     context:
     - show:
         year: 2024
@@ -539,7 +525,6 @@
     id: 01
     label: Dice / BAND-MAID
     info: cover
-    published-date: 2024-03-07
     cover: 1765774275120959488/pu/img/FZLg31xMdkls_moJ.jpg
     context:
     - show:
@@ -553,7 +538,6 @@
     id: 02
     label: Choose me / BAND-MAID
     info: cover
-    published-date: 2024-03-07
     cover: 1765774275208998912/pu/img/zCl1drNllVR3ZZyE.jpg
     context:
     - show:

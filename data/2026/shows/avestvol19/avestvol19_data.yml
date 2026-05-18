@@ -554,7 +554,6 @@
     post: 2017175957581300033
     id: G_5HtpfakAAut9F
     label: Poster
-    published-date: 2026-01-30
     local-copy: true
     context:
     - show:
@@ -567,7 +566,6 @@
     post: 2021887005697937552
     id: HA79T5ObsAQB1xX
     label: Poster
-    published-date: 2026-02-12
     context:
     - show:
         year: 2026
@@ -580,7 +578,6 @@
     post: 2021887005697937552
     id: HA79UnjaEAAaSdM
     label: Timetable
-    published-date: 2026-02-12
     context:
     - show:
         year: 2026
@@ -592,7 +589,6 @@
     post: 2027751368778518951
     id: HCQFHvebEAACt8P
     label: Poster sold out
-    published-date: 2026-02-28
     context:
     - show:
         year: 2026
@@ -604,7 +600,6 @@
     post: 2027997395917934787
     id: HCTk3csbEAIIAbX
     label: On stage
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -616,7 +611,6 @@
     post: 2027997395917934787
     id: HCTk3cuasAA5vcs
     label: Backstage
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -628,7 +622,6 @@
     post: 2027997395917934787
     id: HCTk3cvbEAARjNv
     label: On stage
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -641,7 +634,6 @@
     id: HCTxCPEaUAAApFh
     label: On stage
     info: Cocoro
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -653,7 +645,6 @@
     post: 2028010765064740993
     id: HCTxCPKbsAA2gtU
     label: On stage
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -666,7 +657,6 @@
     id: HCTxCPMaAAAQTaN
     label: On stage
     info: Kanade
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -679,7 +669,6 @@
     id: HCTxCPMbUAANE3H
     label: On stage
     info: Hika
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -692,7 +681,6 @@
     id: HCUX0AzbYAA15pd
     label: Backstage
     info: Kanade
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -705,7 +693,6 @@
     id: HCUaTI4aAAADaLP
     label: On stage
     info: Hika
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -718,7 +705,6 @@
     id: HCUaTJDaIAA5FBu
     label: Backstage
     info: Hika
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -731,7 +717,6 @@
     id: HCUakVeaMAAKhw1
     label: Backstage
     info: Natsu
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -743,7 +728,6 @@
     post: 2028056429354217608
     id: HCUakVoa8AAmFy8
     label: Backstage
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -756,7 +740,6 @@
     id: HCUvUmJbQAAtGTV
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-01
     context:
     - show:
         year: 2026
@@ -768,7 +751,6 @@
     post: 2022143709437919582
     id: 01
     label: Video comment
-    published-date: 2026-02-13
     cover: 2021830686777491456/img/LEYbqdSMUGInDC-p.jpg
     context:
     - show:

@@ -133,7 +133,7 @@
     id: DTGFSKhkhiq
     account: cocoro_drum
     label: Cocoro's report
-    published-date: 2026-01-16
+    published-date: 2026-01-04
     text: |-
       2026.01.04
       ⁡
@@ -239,7 +239,6 @@
     post: DTFz2woEVJ7
     id: 2
     label: On stage
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -251,7 +250,6 @@
     post: DTGFSKhkhiq
     id: 2
     label: Backstage
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -264,7 +262,6 @@
     id: 3
     label: On stage
     info: drums
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -276,7 +273,6 @@
     post: DTVJ0xvEqX5
     id: 3
     label: On stage
-    published-date: 2026-01-16
     context:
     - show:
         year: 2026
@@ -590,7 +586,6 @@
     post: 1984817802424041686
     id: G4t9RFVbQAUtDkn
     label: Flyer
-    published-date: 2025-11-02
     local-copy: true
     context:
     - show:
@@ -603,7 +598,6 @@
     post: 2007698283565854834
     id: G9zG8pSbIAArE4D
     label: Sidewalk board
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -615,7 +609,6 @@
     post: 2007776383121117691
     id: G90N-N3awAAmOt-
     label: Sidewalk board
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -627,7 +620,6 @@
     post: 2007776383121117691
     id: G90N-N4akAAw_RD
     label: On stage
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -639,7 +631,6 @@
     post: 2007776383121117691
     id: G90N-N5acAANp1Z
     label: Backstage
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -652,7 +643,6 @@
     id: G908t3BakAA-Lv7
     label: Bands
     info: NEK!, TRiDENT
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -665,7 +655,6 @@
     id: G91AJ5SbkAA3sx4
     label: Bands
     info: NEK!, TRiDENT
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -678,7 +667,6 @@
     id: G91DBPebEAA3ZM_
     label: Backstage
     info: Cocoro
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -691,7 +679,6 @@
     id: G91F7u5aYAACIc0
     label: Backstage
     info: Natsu
-    published-date: 2026-01-04
     context:
     - show:
         year: 2026
@@ -704,7 +691,6 @@
     id: G95CSsbbMAACDfG
     label: Backstage
     info: Kanade
-    published-date: 2026-01-05
     context:
     - show:
         year: 2026
@@ -717,7 +703,6 @@
     id: G95CSsebUAAp1IE
     label: Backstage
     info: Kanade
-    published-date: 2026-01-05
     context:
     - show:
         year: 2026
@@ -729,7 +714,6 @@
     post: 2007837190412468312
     id: 01
     label: Backstage
-    published-date: 2026-01-04
     cover: 2007837180069294082/img/oQMezbLagoUCSzvS.jpg
     context:
     - show:

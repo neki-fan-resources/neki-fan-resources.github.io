@@ -121,7 +121,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2024-07-01
     context:
     - show:
         year: 2024
@@ -133,7 +132,6 @@
     post: C84kmPhJcnb
     id: 2
     label: On stage
-    published-date: 2024-07-01
     context:
     - show:
         year: 2024
@@ -145,7 +143,6 @@
     post: C84kmPhJcnb
     id: 3
     label: Backstage
-    published-date: 2024-07-01
     context:
     - show:
         year: 2024
@@ -158,7 +155,6 @@
     id: 1
     label: Backstage
     info: Hika, Natsu
-    published-date: 2024-07-18
     context:
     - show:
         year: 2024
@@ -270,7 +266,6 @@
     post: 1807675589555523709
     id: GRYmoBmbgAAlnIh
     label: sidewalk board
-    published-date: 2024-07-01
     local-copy: true
     context:
     - show:
@@ -283,7 +278,6 @@
     post: 1807779104399520011
     id: GRaFgtuaUAAGh-u
     label: On stage
-    published-date: 2024-07-01
     context:
     - show:
         year: 2024
@@ -295,7 +289,6 @@
     post: 1807779104399520011
     id: GRaFgtwacAA-6Hg
     label: Sidewalk board
-    published-date: 2024-07-01
     context:
     - show:
         year: 2024
@@ -308,7 +301,6 @@
     id: GRakD3hbIAA3Vx5
     label: Backstage
     info: NEK!, コウトウマリア
-    published-date: 2024-07-01
     context:
     - show:
         year: 2024

@@ -19,7 +19,6 @@
     id: 1
     label: On stage
     info: Hika
-    published-date: 2024-07-29
     part-of:
       postinstagram: C-AnEGSSlC3
 
@@ -108,7 +107,6 @@
     id: GrNfc0sXoAAk6JN
     label: Recording
     info: ピルん
-    published-date: 2025-05-18
     context:
     - song:
         id: newsong202505
@@ -121,7 +119,6 @@
     id: 2a990e8d-5cc0-4c3e-bcf8-aa24f2a2ec53
     label: Rehearsing
     info: working on new phrases, Kanade
-    published-date: 2025-05-10
     cover: 1921051642474254336/img/hp95Ii6uif6RovzW.jpg
     part-of:
       postx: 1921051915636429162
@@ -131,7 +128,6 @@
     id: 94a26956-efe7-4eba-8e5b-d69fb922bc95
     label: Rehearsal
     info: a few days before recording
-    published-date: 2025-05-13
     cover: 1922260231012130816/img/5mWiE_vSstcqBwIG.jpg
     todo: which song ?
     part-of:
@@ -142,7 +138,6 @@
     id: 8e25e5aa-77d9-420c-8de4-3cbd80bdec36
     label: Practicing
     info: Natsu, Hika
-    published-date: 2025-05-20
     cover: 1924763425592508424/img/xc1Gc1I_5zi9qbQq.jpg
     context:
     - song:

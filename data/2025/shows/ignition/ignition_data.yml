@@ -117,7 +117,6 @@
     id: 01
     label: Bands
     info: Bray me, NEK!
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -130,7 +129,6 @@
     id: 03
     label: On stage
     info: Hika
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -143,7 +141,6 @@
     id: 04
     label: On stage
     info: Kanade
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -156,7 +153,6 @@
     id: 06
     label: On stage
     info: Cocoro
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -168,7 +164,6 @@
     post: DRALbPzkrIB
     id: 07
     label: Sidewalk board
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -529,7 +524,6 @@
     post: 1963195271380439131
     id: GzqEJ3Ja0AM3eBA
     label: Flyer
-    published-date: 2025-09-03
     local-copy: true
     context:
     - show:
@@ -542,7 +536,6 @@
     post: 1985300927234912650
     id: G4u_x9ybQAET-_K
     label: Limited Edition Original Cocktails
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -554,7 +547,6 @@
     post: 1988550113870897593
     id: G5i_yaGa8AA8SOI
     label: NEK!'s MAZE Drink
-    published-date: 2025-11-12
     context:
     - show:
         year: 2025
@@ -567,7 +559,6 @@
     id: G5o-GHaacAQmmz4
     label: Bands
     info: Bray me, NEK!
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -579,7 +570,6 @@
     post: 1988970473615684061
     id: G5o-GHcacAQslRe
     label: On stage
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -592,7 +582,6 @@
     id: G5pRmkyacAA0pB9
     label: On stage
     info: Kanade
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -605,7 +594,6 @@
     id: G5pUb1-bIAAzVHh
     label: On stage
     info: Cocoro
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -618,7 +606,6 @@
     id: G5pYJ_bbkAAkuOE
     label: On stage
     info: Natsu
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -631,7 +618,6 @@
     id: G5pjnS3bIAACOis
     label: On stage
     info: Hika
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -643,7 +629,6 @@
     post: 1989011716701843707
     id: G5pjnS5bUAA7vng
     label: On stage
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -656,7 +641,6 @@
     id: 01
     label: On stage
     info: intro
-    published-date: 2025-11-13
     cover: 1988979706524495874/img/njZFG3wvedPeHiNy.jpg
     context:
     - show:

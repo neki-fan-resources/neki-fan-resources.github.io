@@ -149,7 +149,6 @@
     post: DUkb34XEsG0
     id: 1
     label: Backstage
-    published-date: 2026-02-10
     context:
     - show:
         year: 2026
@@ -161,7 +160,6 @@
     post: DUki5USkTHv
     id: 2
     label: Backstage
-    published-date: 2026-02-10
     context:
     - show:
         year: 2026
@@ -173,7 +171,6 @@
     post: DUki5USkTHv
     id: 3
     label: On stage
-    published-date: 2026-02-10
     context:
     - show:
         year: 2025
@@ -185,7 +182,6 @@
     post: DUkxRDAEtct
     id: 2
     label: With filter
-    published-date: 2026-02-10
     part-of:
       postinstagram: DUkxRDAEtct
 
@@ -193,7 +189,6 @@
     post: DUkxRDAEtct
     id: 3
     label: To sort
-    published-date: 2026-02-10
     part-of:
       postinstagram: DUkxRDAEtct
 
@@ -201,7 +196,6 @@
     post: DUkxRDAEtct
     id: 4
     label: To sort
-    published-date: 2026-02-10
     part-of:
       postinstagram: DUkxRDAEtct
 
@@ -209,7 +203,6 @@
     post: DUkxRDAEtct
     id: 5
     label: To sort
-    published-date: 2026-02-10
     part-of:
       postinstagram: DUkxRDAEtct
 
@@ -217,7 +210,6 @@
     post: DUkxRDAEtct
     id: 7
     label: To sort
-    published-date: 2026-02-10
     part-of:
       postinstagram: DUkxRDAEtct
 
@@ -225,7 +217,6 @@
     post: DUkxRDAEtct
     id: 8
     label: Behind the scenes
-    published-date: 2026-02-10
     context:
     - song: ooak
     part-of:
@@ -236,7 +227,6 @@
     id: 9
     label: On stage
     info: encore
-    published-date: 2026-02-10
     context:
     - show:
         year: 2025
@@ -248,7 +238,6 @@
     post: DUkxRDAEtct
     id: 6
     label: Backstage
-    published-date: 2026-02-10
     todo: eggman. Early show, likely not the first one
     part-of:
       postinstagram: DUkxRDAEtct
@@ -344,7 +333,6 @@
     id: HAyc_H1acAAhe0d
     label: On stage
     info: encore
-    published-date: 2026-02-10
     context:
     - show:
         year: 2026
@@ -356,7 +344,6 @@
     post: 2021172953186988253
     id: HAymFh9aAAMuY7M
     label: On stage
-    published-date: 2026-02-10
     context:
     - show:
         year: 2025
@@ -368,7 +355,6 @@
     post: 2021178607230435394
     id: HAyrOctbUAA0v38
     label: Backstage
-    published-date: 2026-02-10
     todo: match to shows
     part-of:
       postx: 2021178607230435394

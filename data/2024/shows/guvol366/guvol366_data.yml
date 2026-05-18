@@ -99,7 +99,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2024-10-04
     context:
     - show:
         year: 2024
@@ -112,7 +111,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2024-10-04
     context:
     - show:
         year: 2024
@@ -124,7 +122,6 @@
     post: DAscO8xRKg3
     id: 3
     label: On stage
-    published-date: 2024-10-04
     context:
     - show:
         year: 2024
@@ -228,7 +225,6 @@
     post: 1841384260705624302
     id: GY3ocH3bcAALiWN
     label: sidewalk board
-    published-date: 2024-10-02
     local-copy: true
     context:
     - show:
@@ -241,7 +237,6 @@
     post: 1841479718878793982
     id: GY5ACklbAAEorEy
     label: Sidewalk board
-    published-date: 2024-10-02
     context:
     - show:
         year: 2024
@@ -253,7 +248,6 @@
     post: 1841479718878793982
     id: GY5ACknbUAA87gW
     label: On stage
-    published-date: 2024-10-02
     context:
     - show:
         year: 2024
@@ -266,7 +260,6 @@
     id: GY5LL-YbIAAHDCG
     label: On stage
     info: Cocoro
-    published-date: 2024-10-02
     context:
     - show:
         year: 2024
@@ -279,7 +272,6 @@
     id: GY5LL-hbEAAhDh_
     label: On stage
     info: Cocoro
-    published-date: 2024-10-02
     context:
     - show:
         year: 2024

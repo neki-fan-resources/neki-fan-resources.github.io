@@ -241,7 +241,6 @@
     id: 1
     label: Backstage
     info: Cocoro
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -253,7 +252,6 @@
     post: DXOhj5xmnPl
     id: 3
     label: Drum set
-    published-date: 2026-04-17
     context:
     - show:
         year: 2026
@@ -265,7 +263,6 @@
     post: DXOhj5xmnPl
     id: 5
     label: Fukuoka food
-    published-date: 2026-04-17
     context:
     - show:
         year: 2026
@@ -278,7 +275,6 @@
     id: 6
     label: Fukuoka food
     info: Cocoro, Kanade
-    published-date: 2026-04-17
     context:
     - show:
         year: 2026
@@ -290,7 +286,6 @@
     post: DXOhj5xmnPl
     id: 7
     label: Fukuoka food
-    published-date: 2026-04-17
     context:
     - show:
         year: 2026
@@ -302,7 +297,6 @@
     post: DXOhj5xmnPl
     id: 8
     label: Drum store
-    published-date: 2026-04-17
     context:
     - show:
         year: 2026
@@ -314,7 +308,6 @@
     post: DXOhj5xmnPl
     id: 9
     label: Drum store
-    published-date: 2026-04-17
     context:
     - show:
         year: 2026
@@ -327,7 +320,6 @@
     id: 2
     label: Backstage
     info: Kanade
-    published-date: 2026-04-15
     context:
     - show:
         year: 2026
@@ -574,7 +566,6 @@
     post: 2042426041575329902
     id: HFgnp6maMAAcInj
     label: Poster sold out
-    published-date: 2026-04-10
     local-copy: true
     context:
     - show:
@@ -587,7 +578,6 @@
     post: 2042931967390552455
     id: HFnzy5oaIAAn2vh
     label: Backstage
-    published-date: 2026-04-11
     context:
     - show:
         year: 2026
@@ -599,7 +589,6 @@
     post: 2042936458206642373
     id: HFn34CjasAA4oh8
     label: On stage
-    published-date: 2026-04-11
     context:
     - show:
         year: 2026
@@ -611,7 +600,6 @@
     post: 2042959009054101835
     id: HFoMY0PakAQ12_r
     label: Backstage
-    published-date: 2026-04-11
     context:
     - show:
         year: 2026
@@ -624,7 +612,6 @@
     id: HFoMY0TakAQHlJF
     label: Backstage
     info: Kanade
-    published-date: 2026-04-11
     context:
     - show:
         year: 2026
@@ -637,7 +624,6 @@
     id: HFoOxVPakAg30M9
     label: Backstage
     info: Natsu
-    published-date: 2026-04-11
     context:
     - show:
         year: 2026
@@ -650,7 +636,6 @@
     id: HFoQDedakAUp7Lm
     label: Backstage
     info: Cocoro
-    published-date: 2026-04-11
     context:
     - show:
         year: 2026

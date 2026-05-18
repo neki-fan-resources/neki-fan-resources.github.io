@@ -285,7 +285,6 @@
     id: 1
     label: Backstage
     info: Hika
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -298,7 +297,6 @@
     id: 2
     label: Backstage
     info: Natsu, Hika
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -311,7 +309,6 @@
     id: 3
     label: Backstage
     info: encore t-shirts
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -324,7 +321,6 @@
     id: 4
     label: Backstage
     info: Cocoro, Hika
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -336,7 +332,6 @@
     post: DWd-fPGEja_
     id: 5
     label: CDs
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -349,7 +344,6 @@
     id: 1
     label: Backstage
     info: Natsu
-    published-date: 2026-04-05
     context:
     - show:
         year: 2026
@@ -361,7 +355,6 @@
     post: DWjSqYmmtzr
     id: 2
     label: On stage
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -373,7 +366,6 @@
     post: DWjSqYmmtzr
     id: 3
     label: Backstage
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -386,7 +378,6 @@
     id: 4
     label: Backstage
     info: Hika, Cocoro
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -399,7 +390,6 @@
     id: 5
     label: Backstage
     info: Cocoro, Natsu
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -412,7 +402,6 @@
     id: 6
     label: On stage
     info: Cocoro, Kanade
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -425,7 +414,6 @@
     id: 7
     label: Backstage
     info: Natsu, Kanade, Cocoro
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -438,7 +426,6 @@
     id: 8
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -451,7 +438,6 @@
     id: 9
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -464,7 +450,6 @@
     id: 10
     label: Backstage
     info: Cocoro, Hika
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -477,7 +462,6 @@
     id: 11
     label: Backstage
     info: Cocoro, Kanade
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -795,7 +779,6 @@
     post: 2037518244408668254
     id: HEa4CqIaYAAlZM3
     label: On stage
-    published-date: 2026-03-27
     context:
     - show:
         year: 2026
@@ -807,7 +790,6 @@
     post: 2037726447520174312
     id: HEd1MUiasAAMowL
     label: Poster
-    published-date: 2026-03-28
     local-copy: true
     context:
     - show:
@@ -820,7 +802,6 @@
     post: 2037794112905359499
     id: HEey8OUaoAAT9_G
     label: Venue
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026
@@ -832,7 +813,6 @@
     post: 2037857457394126996
     id: HEfsjTsaMAAqZY6
     label: On stage
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026
@@ -844,7 +824,6 @@
     post: 2037857457394126996
     id: HEfsjTub0AAo4Qc
     label: Backstage
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026
@@ -857,7 +836,6 @@
     id: HEfwZhabkAAKj54
     label: Backstage
     info: Hika
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026
@@ -870,7 +848,6 @@
     id: HEf4WmpaQAAZ2od
     label: On stage
     info: Kanade
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026
@@ -883,7 +860,6 @@
     id: HEgDhW0aIAAFdeq
     label: On stage
     info: Natsu
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026
@@ -895,7 +871,6 @@
     post: 2037882708656054388
     id: HEgDhWyaQAEvRXO
     label: Backstage
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026
@@ -908,7 +883,6 @@
     id: HEgKuRRa8AAsDmM
     label: On stage
     info: Cocoro
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026
@@ -921,7 +895,6 @@
     id: HEgKuRTasAADUx4
     label: On stage
     info: Cocoro
-    published-date: 2026-03-28
     context:
     - show:
         year: 2026

@@ -150,7 +150,6 @@
     id: 1
     label: Hair buns
     info: Hika
-    published-date: 2024-08-26
     part-of:
       postinstagram: C_JH_6YyOLY
 
@@ -159,7 +158,6 @@
     id: 1
     label: Behind the scenes
     info: Hika
-    published-date: 2024-12-28
     context:
     - song: getover
     part-of:
@@ -170,7 +168,6 @@
     id: 1
     label: On stage
     info: Hika, acoustic
-    published-date: 2024-12-31
     context:
     - show:
         year: 2024
@@ -183,7 +180,6 @@
     id: 1
     label: Behind the scenes
     info: Hika
-    published-date: 2026-04-06
     context:
     - song: scrapbook
     part-of:
@@ -311,7 +307,6 @@
     post: 2006379318264651995
     id: G9gXWORaAAAsPN8
     label: Backstage
-    published-date: 2026-12-31
     context:
     - show:
         year: 2025
@@ -324,7 +319,6 @@
     id: HFJtno5bMAAhETc
     label: On stage
     info: Hika
-    published-date: 2026-04-05
     context:
     - show:
         year: 2025
@@ -337,7 +331,6 @@
     id: HFxAQ_0aUAAWQ_x
     label: NEK! Hoodie
     info: Hika
-    published-date: 2026-04-13
     part-of:
       postx: 2043579001168679006
 
@@ -345,7 +338,6 @@
     post: 1996461176130351354
     id: 01
     label: Stickers
-    published-date: 2025-12-06
     cover: 1996461118093676544/img/TuOCdSdN7MAC4I-F.jpg
     context:
     - show:

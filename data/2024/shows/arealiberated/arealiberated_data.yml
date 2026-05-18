@@ -115,7 +115,6 @@
     post: C5Z3flFR4W9
     id: 01
     label: On stage
-    published-date: 2024-04-06
     context:
     - show:
         year: 2024
@@ -127,7 +126,6 @@
     post: C5Z3flFR4W9
     id: 04
     label: Band
-    published-date: 2024-04-06
     context:
     - show:
         year: 2024
@@ -139,7 +137,6 @@
     post: C5Z3flFR4W9
     id: 05
     label: Backstage
-    published-date: 2024-04-06
     context:
     - show:
         year: 2024
@@ -152,7 +149,6 @@
     id: 06
     label: Members
     info: Hika, Cocoro
-    published-date: 2024-04-06
     context:
     - show:
         year: 2024
@@ -165,7 +161,6 @@
     id: 07
     label: Backstage
     info: Cocoro
-    published-date: 2024-04-06
     context:
     - show:
         year: 2024
@@ -323,7 +318,6 @@
     post: 1773981785367654682
     id: GJ5UwuCawAAnJqr
     label: On stage
-    published-date: 2024-03-30
     context:
     - show:
         year: 2024
@@ -335,7 +329,6 @@
     post: 1776084527859061007
     id: GKXrVSDasAAOm0K
     label: poster
-    published-date: 2025-03-22
     local-copy: true
     context:
     - show:
@@ -348,7 +341,6 @@
     post: 1776160113885114827
     id: GKYwNR2agAAdNxR
     label: Band
-    published-date: 2024-04-05
     context:
     - show:
         year: 2024
@@ -360,7 +352,6 @@
     post: 1776244955574607972
     id: GKZ9XogaYAAIQ3m
     label: Posters
-    published-date: 2024-04-05
     context:
     - show:
         year: 2024
@@ -372,7 +363,6 @@
     post: 1776244955574607972
     id: GKZ9XogbsAAU7ny
     label: On stage
-    published-date: 2024-04-05
     context:
     - show:
         year: 2024

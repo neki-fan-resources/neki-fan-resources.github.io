@@ -299,7 +299,6 @@
     post: DXRUoqtkeGm
     id: 2
     label: On stage
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -311,7 +310,6 @@
     post: DXRUoqtkeGm
     id: 3
     label: Sign
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -324,7 +322,6 @@
     id: 1
     label: Backstage
     info: Cocoro
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -337,7 +334,6 @@
     id: 1
     label: Backstage
     info: Natsu
-    published-date: 2026-04-20
     context:
     - show:
         year: 2026
@@ -350,7 +346,6 @@
     id: 2
     label: Backstage
     info: Natsu
-    published-date: 2026-04-20
     context:
     - show:
         year: 2026
@@ -363,7 +358,6 @@
     id: 3
     label: Backstage
     info: Natsu
-    published-date: 2026-04-20
     context:
     - show:
         year: 2026
@@ -375,7 +369,6 @@
     post: DXb_a2WmoK8
     id: 2
     label: On stage
-    published-date: 2026-04-22
     context:
     - show:
         year: 2026
@@ -387,7 +380,6 @@
     post: DXb_a2WmoK8
     id: 3
     label: Sign
-    published-date: 2026-04-22
     context:
     - show:
         year: 2026
@@ -399,7 +391,6 @@
     post: DXb_a2WmoK8
     id: 4
     label: Backstage
-    published-date: 2026-04-22
     context:
     - show:
         year: 2026
@@ -411,7 +402,6 @@
     post: DXb_a2WmoK8
     id: 5
     label: Venue
-    published-date: 2026-04-22
     context:
     - show:
         year: 2026
@@ -424,7 +414,6 @@
     id: 6
     label: On stage
     info: drum set
-    published-date: 2026-04-22
     context:
     - show:
         year: 2026
@@ -436,7 +425,6 @@
     post: DXb_a2WmoK8
     id: 7
     label: Toraku Kobe Pudding
-    published-date: 2026-04-22
     context:
     - show:
         year: 2026
@@ -448,7 +436,6 @@
     post: DXb_a2WmoK8
     id: 8
     label: Bokkake Yaki-Ome-Soba
-    published-date: 2026-04-22
     context:
     - show:
         year: 2026
@@ -460,7 +447,6 @@
     post: DXb_a2WmoK8
     id: 9
     label: Kobe food
-    published-date: 2026-04-22
     context:
     - show:
         year: 2026
@@ -692,7 +678,6 @@
     post: 2045340108090683739
     id: HGJ-6S8aIAAcGWx
     label: Poster
-    published-date: 2026-04-18
     local-copy: true
     context:
     - show:
@@ -706,7 +691,6 @@
     id: HGLp9HiboAAFScf
     label: Backstage
     info: Cocoro
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -719,7 +703,6 @@
     id: HGLp9Hka8AAw8nL
     label: On stage
     info: Cocoro
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -731,7 +714,6 @@
     post: 2045457386320879776
     id: HGLsnlubwAEP5uz
     label: Backstage
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -743,7 +725,6 @@
     post: 2045457386320879776
     id: HGLsnlxboAAF0zi
     label: On stage
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -755,7 +736,6 @@
     post: 2045457748289327273
     id: HGLs-ikaAAAvpys
     label: On stage
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -768,7 +748,6 @@
     id: HGLtnN5aYAEcbwS
     label: On stage
     info: Hika
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026
@@ -781,7 +760,6 @@
     id: HGLvejHakAA8_tY
     label: On stage
     info: Natsu
-    published-date: 2026-04-18
     context:
     - show:
         year: 2026

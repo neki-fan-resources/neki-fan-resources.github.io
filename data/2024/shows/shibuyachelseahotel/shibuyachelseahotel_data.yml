@@ -148,7 +148,6 @@
     post: C4wjU64xReF
     id: 01
     label: Band
-    published-date: 2024-03-21
     context:
     - show:
         year: 2024
@@ -160,7 +159,6 @@
     post: C4wjU64xReF
     id: 02
     label: On stage
-    published-date: 2024-03-21
     context:
     - show:
         year: 2024
@@ -172,7 +170,6 @@
     post: C4wjU64xReF
     id: 03
     label: On stage
-    published-date: 2024-03-21
     context:
     - show:
         year: 2024
@@ -184,7 +181,6 @@
     post: C4wjU64xReF
     id: 04
     label: On stage
-    published-date: 2024-03-21
     context:
     - show:
         year: 2024
@@ -197,7 +193,6 @@
     id: 05
     label: On stage
     info: drum kit, sound check
-    published-date: 2024-03-21
     context:
     - show:
         year: 2024
@@ -502,7 +497,6 @@
     post: 1770067246448275734
     id: GJCKxZbaYAAbbsT
     label: Get Over single CDs
-    published-date: 2024-03-19
     context:
     - song: getover
     - show:
@@ -516,7 +510,6 @@
     id: GJE7Uu6a4AAdiK5
     label: poster
     info: handmade
-    published-date: 2024-03-20
     local-copy: true
     context:
     - show:
@@ -529,7 +522,6 @@
     post: 1770261360938746035
     id: GJE7UvYbgAAG_3L
     label: merch
-    published-date: 2024-03-20
     context:
     - show:
         year: 2024
@@ -541,7 +533,6 @@
     post: 1770308489857909073
     id: GJFmL2Xa0AA3Nof
     label: Distributing flyers
-    published-date: 2024-03-20
     context:
     - show:
         year: 2024
@@ -553,7 +544,6 @@
     post: 1770448008477610078
     id: GJHlErjaMAA_Q5t
     label: On stage
-    published-date: 2024-03-20
     context:
     - show:
         year: 2024
@@ -565,7 +555,6 @@
     post: 1770448008477610078
     id: GJHlErkasAAlAl7
     label: Band
-    published-date: 2024-03-20
     context:
     - show:
         year: 2024
@@ -577,7 +566,6 @@
     post: 1770751059876561362
     id: GJL4s59XgAA5Jj8
     label: On stage
-    published-date: 2024-03-21
     context:
     - show:
         year: 2024
@@ -590,7 +578,6 @@
     id: 01
     label: Show in 4 days
     info: Cocoro
-    published-date: 2024-03-16
     cover: 1768976039240409088/pu/img/xSeMBv1yk0evdiKo.jpg
     context:
     - show:
@@ -606,7 +593,6 @@
     id: 01
     label: Show in 3 days
     info: Kanade
-    published-date: 2024-03-17
     cover: 1769320147364581376/pu/img/ds_zyPVDLxToQtlC.jpg
     context:
     - show:
@@ -622,7 +608,6 @@
     id: 01
     label: show in 2 days
     info: Natsu
-    published-date: 2024-03-18
     cover: 1769667145494077440/pu/img/t8ZV2bOTedUjCb0u.jpg
     context:
     - show:
@@ -638,7 +623,6 @@
     id: 01
     label: show tomorrow
     info: Hika
-    published-date: 2024-03-19
     cover: 1770020162068185088/pu/img/kQbkSNLBWPQC8b3j.jpg
     context:
     - show:
@@ -654,7 +638,6 @@
     id: 01
     label: On stage
     info: Kanade
-    published-date: 2024-03-26
     cover: 1772570680082812928/pu/img/TOD6HBASR7M6VLWi.jpg
     context:
     - song: getover

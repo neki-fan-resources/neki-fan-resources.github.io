@@ -106,7 +106,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2024-08-03
     context:
     - show:
         year: 2024
@@ -118,7 +117,6 @@
     post: C-MVV08Jo2T
     id: 2
     label: On stage
-    published-date: 2024-08-03
     context:
     - show:
         year: 2024
@@ -130,7 +128,6 @@
     post: C-MVV08Jo2T
     id: 3
     label: Poster
-    published-date: 2024-08-03
     context:
     - show:
         year: 2024
@@ -142,7 +139,6 @@
     post: C-MVV08Jo2T
     id: 4
     label: Backstage
-    published-date: 2024-08-03
     context:
     - show:
         year: 2024
@@ -154,7 +150,6 @@
     post: C-MVV08Jo2T
     id: 5
     label: Backstage
-    published-date: 2024-08-03
     context:
     - show:
         year: 2024
@@ -303,7 +298,6 @@
     post: 1803369809566113904
     id: GQbaKq-aIAM7xgd
     label: Poster
-    published-date: 2024-06-19
     context:
     - show:
         year: 2024
@@ -315,7 +309,6 @@
     post: 1819198572111577421
     id: GT8XIEAb0AAJjSs
     label: poster
-    published-date: 2024-08-02
     local-copy: true
     context:
     - show:
@@ -329,7 +322,6 @@
     id: GT-5vIybsAAo2Il
     label: Backstage
     info: Hika, みん
-    published-date: 2024-08-02
     context:
     - show:
         year: 2024
@@ -341,7 +333,6 @@
     post: 1819377085699575972
     id: GT-5zRGb0AQljeg
     label: Posters
-    published-date: 2024-08-02
     context:
     - show:
         year: 2024
@@ -353,7 +344,6 @@
     post: 1819377085699575972
     id: GT-5zRqWQAA8jiw
     label: On stage
-    published-date: 2024-08-02
     context:
     - show:
         year: 2024

@@ -185,7 +185,6 @@
     post: DXCG6VFkb8b
     id: 1
     label: Backstage
-    published-date: 2026-04-12
     context:
     - show:
         year: 2026
@@ -197,7 +196,6 @@
     post: DUIJjocE1Uu
     id: 1
     label: 2nd lineup
-    published-date: 2026-01-30
     context:
     - show:
         year: 2026
@@ -566,7 +564,6 @@
     post: 2011743468692156620
     id: G-slOf5bMAANpD2
     label: 1st lineup
-    published-date: 2026-01-15
     context:
     - show:
         year: 2026
@@ -578,7 +575,6 @@
     post: 2011743468692156620
     id: G-slSD6aMAAZS8n
     label: Poster
-    published-date: 2026-01-15
     local-copy: true
     context:
     - show:
@@ -591,7 +587,6 @@
     post: 2017145767408869828
     id: G_5Tz_nbsAAuN0j
     label: 2nd lineup
-    published-date: 2026-01-30
     context:
     - show:
         year: 2026
@@ -603,7 +598,6 @@
     post: 2032366591112040727
     id: HDRqF7xbQAYkzeE
     label: Final lineup
-    published-date: 2026-03-13
     context:
     - show:
         year: 2026
@@ -615,7 +609,6 @@
     post: 2032366591112040727
     id: HDRqHeQbQAEW3HT
     label: Timetable
-    published-date: 2026-03-13
     context:
     - show:
         year: 2026
@@ -627,7 +620,6 @@
     post: 2043299614674366617
     id: HFtB8_zbQAAphgJ
     label: Backstage
-    published-date: 2026-04-12
     context:
     - show:
         year: 2026
@@ -639,7 +631,6 @@
     post: 2043299614674366617
     id: HFtB9AeagAAjEeL
     label: On stage
-    published-date: 2026-04-12
     context:
     - show:
         year: 2026
@@ -651,7 +642,6 @@
     post: 2043308907393962043
     id: HFtKnr-awAAKTkk
     label: On stage
-    published-date: 2026-04-12
     context:
     - show:
         year: 2026
@@ -664,7 +654,6 @@
     id: HFtKnr8aMAA5rrA
     label: Backstage
     info: Cocoro
-    published-date: 2026-04-12
     context:
     - show:
         year: 2026
@@ -676,7 +665,6 @@
     post: 2043315173193404724
     id: HFtQT0EbMAAwKuz
     label: Backstage
-    published-date: 2026-04-12
     context:
     - show:
         year: 2026
@@ -689,7 +677,6 @@
     id: HFtQT0FbwAAoUFf
     label: Backstage
     info: Natsu
-    published-date: 2026-04-12
     context:
     - show:
         year: 2026
@@ -701,7 +688,6 @@
     post: 2043315837378158733
     id: HFtQ4miaMAA97rv
     label: Backstage
-    published-date: 2026-04-12
     context:
     - show:
         year: 2026
@@ -714,7 +700,6 @@
     id: HFtSd_5aAAAnGCZ
     label: Backstage
     info: Kanade
-    published-date: 2026-04-13
     context:
     - show:
         year: 2026
@@ -726,7 +711,6 @@
     post: 2043314563165356332
     id: 01
     label: On stage
-    published-date: 2026-04-12
     cover: 2043314433813020672/img/q8EmzQ7iXTBYTNkr.jpg
     context:
     - show:

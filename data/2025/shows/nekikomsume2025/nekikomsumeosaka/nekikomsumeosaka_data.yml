@@ -144,7 +144,6 @@
     id: 2
     label: In Kobe
     info: Natsu, Kanade
-    published-date: 2025-07-20
     context:
     - media:
         year: 2025
@@ -157,7 +156,6 @@
     id: 3
     label: At the studio
     info: Hika, Cocoro
-    published-date: 2025-07-20
     context:
     - media:
         year: 2025
@@ -170,7 +168,6 @@
     post: DMUiCxHRubY
     id: 4
     label: On stage
-    published-date: 2025-07-20
     context:
     - show:
         year: 2025
@@ -487,7 +484,6 @@
     id: Gv4DQX6a8AAPdNi
     label: Poster
     info: sold out Tokyo
-    published-date: 2025-07-15
     local-copy: true
     context:
     - show:
@@ -501,7 +497,6 @@
     id: GwJGgUJXcAES7vk
     label: Backstage
     info: komsume, NEK!
-    published-date: 2025-07-18
     context:
     - show:
         year: 2025
@@ -514,7 +509,6 @@
     id: GwJVNGlboAAgHRY
     label: Backstage
     info: Kanade
-    published-date: 2025-07-18
     context:
     - show:
         year: 2025
@@ -526,7 +520,6 @@
     post: 1946214112306069505
     id: GwJXZfnaMAAULly
     label: Backstage
-    published-date: 2026-01-30
     context:
     - show:
         year: 2025
@@ -539,7 +532,6 @@
     id: GwJXZgPXQAACj8v
     label: Backstage
     info: Cocoro, ジンちゃん
-    published-date: 2026-01-30
     context:
     - show:
         year: 2025
@@ -552,7 +544,6 @@
     id: GwJXZgUXcAAGupz
     label: Backstage
     info: Komsume, NEK!
-    published-date: 2026-01-30
     context:
     - show:
         year: 2025
@@ -564,7 +555,6 @@
     post: 1946216562014208089
     id: GwJZpB_bYAA-QKV
     label: Backstage
-    published-date: 2025-07-18
     context:
     - show:
         year: 2025
@@ -577,7 +567,6 @@
     id: GwJZpCoXEAEFORY
     label: Backstage
     info: Natsu
-    published-date: 2025-07-18
     context:
     - show:
         year: 2025
@@ -590,7 +579,6 @@
     id: GwLKw54X0AAj4kl
     label: Backstage
     info: Hika, Natsu
-    published-date: 2025-07-19
     context:
     - show:
         year: 2025
@@ -603,7 +591,6 @@
     id: GwLKw5MaYAAfMsy
     label: Backstage
     info: Kanade, Hika
-    published-date: 2025-07-19
     context:
     - show:
         year: 2025
@@ -615,7 +602,6 @@
     post: 1946340941599555651
     id: GwLKw5MakAAwFX4
     label: Backstage
-    published-date: 2025-07-19
     context:
     - show:
         year: 2025
@@ -628,7 +614,6 @@
     id: GwLKw5daMAA_NCa
     label: Backstage
     info: Cocoro, Hika
-    published-date: 2025-07-19
     context:
     - show:
         year: 2025
@@ -641,7 +626,6 @@
     id: GwM9xpKXAAAYFqa
     label: Backstage
     info: Cocoro
-    published-date: 2025-07-19
     context:
     - show:
         year: 2025
@@ -654,7 +638,6 @@
     id: 01
     label: On stage
     info: Kanade, intro
-    published-date: 2025-07-19
     cover: 1946521487633973250/img/MDZtX2xEzKMoI4rG.jpg
     context:
     - show:
@@ -671,7 +654,6 @@
     id: 01
     label: On stage
     info: Natsu
-    published-date: 2025-07-20
     cover: 1946903420922658817/img/Obfd3Y2j6UgasqDM.jpg
     context:
     - show:
@@ -688,7 +670,6 @@
     id: 01
     label: On stage
     info: Kanade
-    published-date: 2025-07-21
     cover: 1947240346624069632/img/3ErAiwwnm_oT1ig_.jpg
     context:
     - show:
@@ -705,7 +686,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-07-23
     cover: 1947951817641611264/img/UiAiX6HkH85m9u1x.jpg
     context:
     - show:
@@ -723,7 +703,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-07-26
     cover: 1949012819019792384/img/cTaeF8m3YXr13Zvo.jpg
     context:
     - show:

@@ -8,7 +8,7 @@
     id: 1978027375901188409
     account: cure_bass_baka
     label: Kanade's gear for the Zepp show
-    published-date: 2025-10-15
+    published-date: 2025-10-14
     text: |-
       Zeppワンマンの機材レシピ(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠☆
       シンプルめー！
@@ -113,7 +113,6 @@
     post: 1978027375901188409
     id: G3NdZ3lbYAAYK8P
     label: Kanade's gear
-    published-date: 2025-10-14
     context:
     - show:
         year: 2025
@@ -126,7 +125,6 @@
     id: HDhnVs1acAAwvk4
     label: Backstage
     info: Kanade, 2nd anniv tour Saitama
-    published-date: 2026-03-16
     part-of:
       postx: 2033488895363760561
 
@@ -135,7 +133,6 @@
     id: HDhnVs1bsAA7EVm
     label: Backstage
     info: Kanade
-    published-date: 2026-03-16
     context:
     - show:
         year: 2026
@@ -148,7 +145,6 @@
     id: HEigV-ZbkAAf3p5
     label: Backstage
     info: Kanade
-    published-date: 2026-03-30
     context:
     - show:
         year: 2026
@@ -160,7 +156,6 @@
     post: 2038535453834617056
     id: HEpVMAWawAAiIc6
     label: Kanade
-    published-date: 2026-03-30
     todo: likely 2ndaich1, try to confirm
     part-of:
       postx: 2038535453834617056

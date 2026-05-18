@@ -101,7 +101,6 @@
     id: 1
     label: Merch t-shirt
     info: Hika
-    published-date: 2025-03-12
     context:
     - tour: tricktakingtour
     part-of:
@@ -334,7 +333,6 @@
     id: GkiDdFMbsAAu1Ul
     label: Rehearsal
     info: band selfie
-    published-date: 2025-02-24
     context:
     - tour: tricktakingtour
     part-of:
@@ -344,7 +342,6 @@
     post: 1897543126019137799
     id: GlVs5tkb0AAUj3g
     label: Poster sold out
-    published-date: 2025-03-06
     context:
     - tour: tricktakingtour
     part-of:
@@ -355,7 +352,6 @@
     id: GlbnP7kbwAMPMZP
     label: Rehearsal
     info: Drum kit
-    published-date: 2025-03-07
     context:
     - tour: tricktakingtour
     part-of:
@@ -366,7 +362,6 @@
     id: GlbshfHbAAAC_v-
     label: Rehearsal
     info: Hika's acoustic guitar
-    published-date: 2025-03-07
     context:
     - tour: tricktakingtour
     part-of:
@@ -377,7 +372,6 @@
     id: Glb5S7-aUAAUPi1
     label: Rehearsal
     info: Natsu, Cocoro
-    published-date: 2025-03-07
     context:
     - tour: tricktakingtour
     part-of:

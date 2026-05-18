@@ -882,7 +882,6 @@
     id: 1
     label: On stage
     info: Natsu
-    published-date: 2026-05-02
     context:
     - show:
         year: 2026
@@ -895,7 +894,6 @@
     id: 2
     label: On stage
     info: Natsu
-    published-date: 2026-05-02
     context:
     - show:
         year: 2026
@@ -908,7 +906,6 @@
     id: 5
     label: On stage
     info: Natsu
-    published-date: 2026-05-02
     context:
     - show:
         year: 2026
@@ -921,7 +918,6 @@
     id: 6
     label: On stage
     info: Natsu
-    published-date: 2026-05-02
     context:
     - show:
         year: 2026
@@ -934,7 +930,6 @@
     id: 7
     label: Backstage
     info: Natsu
-    published-date: 2026-05-02
     context:
     - show:
         year: 2026
@@ -946,7 +941,6 @@
     post: DX1oGdekp5Q
     id: 8
     label: On stage
-    published-date: 2026-05-02
     context:
     - show:
         year: 2026
@@ -958,7 +952,6 @@
     post: DXiZRzxmRq9
     id: 1
     label: Sky
-    published-date: 2026-04-25
     part-of:
       postinstagram: DXiZRzxmRq9
 
@@ -966,7 +959,6 @@
     post: DXiZRzxmRq9
     id: 2
     label: Mic
-    published-date: 2026-04-25
     part-of:
       postinstagram: DXiZRzxmRq9
 
@@ -975,7 +967,6 @@
     id: 3
     label: On stage
     info: Hika's guitars
-    published-date: 2026-04-25
     part-of:
       postinstagram: DXiZRzxmRq9
 
@@ -983,7 +974,6 @@
     post: DXiZRzxmRq9
     id: 4
     label: Candies
-    published-date: 2026-04-25
     part-of:
       postinstagram: DXiZRzxmRq9
 
@@ -992,7 +982,6 @@
     id: 5
     label: Tour posters
     info: Hika
-    published-date: 2026-04-25
     context:
     - tour: 2ndanniversarytour
     part-of:
@@ -1003,7 +992,6 @@
     id: 6
     label: T-shirt
     info: Hika
-    published-date: 2026-04-25
     context:
     - tour: 2ndanniversarytour
     part-of:
@@ -1014,7 +1002,6 @@
     id: 1
     label: Backstage
     info: Natsu
-    published-date: 2026-04-25
     context:
     - show:
         year: 2026
@@ -1026,7 +1013,6 @@
     post: DXjocoHEuXG
     id: 2
     label: Signed posters
-    published-date: 2026-04-25
     context:
     - show:
         year: 2026
@@ -1038,7 +1024,6 @@
     post: DXmLIXeER9n
     id: 3
     label: On stage
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1050,7 +1035,6 @@
     post: DXmLIXeER9n
     id: 4
     label: Backstage
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1062,7 +1046,6 @@
     post: DXmLIXeER9n
     id: 5
     label: On stage
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1075,7 +1058,6 @@
     id: 1
     label: Backstage
     info: Hika
-    published-date: 2026-04-27
     context:
     - show:
         year: 2026
@@ -1088,7 +1070,6 @@
     id: 1
     label: On stage
     info: Cocoro
-    published-date: 2026-04-28
     context:
     - show:
         year: 2026
@@ -1100,7 +1081,6 @@
     post: DXqgV34GhTr
     id: 10
     label: Backstage
-    published-date: 2026-04-28
     context:
     - show:
         year: 2026
@@ -1113,7 +1093,6 @@
     id: 3
     label: On stage
     info: Cocoro
-    published-date: 2026-04-28
     context:
     - show:
         year: 2026
@@ -1125,7 +1104,6 @@
     post: DXqgV34GhTr
     id: 4
     label: On stage
-    published-date: 2026-04-28
     context:
     - show:
         year: 2026
@@ -1138,7 +1116,6 @@
     id: 5
     label: On stage
     info: Cocoro
-    published-date: 2026-04-28
     context:
     - show:
         year: 2026
@@ -1151,7 +1128,6 @@
     id: 6
     label: On stage
     info: Cocoro
-    published-date: 2026-04-28
     context:
     - show:
         year: 2026
@@ -1164,7 +1140,6 @@
     id: 2
     label: On stage
     info: Kanade
-    published-date: 2026-04-29
     context:
     - show:
         year: 2026
@@ -1176,7 +1151,6 @@
     post: DXzFFIsEvF9
     id: 4
     label: On stage
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -1189,7 +1163,6 @@
     id: 1
     label: On stage
     info: Hika
-    published-date: 2026-04-23
     context:
     - song: clockup
     part-of:
@@ -1200,7 +1173,6 @@
     id: 2
     label: On stage
     info: Kanade
-    published-date: 2026-04-23
     context:
     - song: tictactoe
     part-of:
@@ -1211,7 +1183,6 @@
     id: 3
     label: On stage
     info: Cocoro
-    published-date: 2026-04-23
     context:
     - song: gimmick
     part-of:
@@ -1222,7 +1193,6 @@
     id: 4
     label: On stage
     info: Natsu
-    published-date: 2026-04-23
     context:
     - song: clockup
     part-of:
@@ -1729,7 +1699,6 @@
     post: 2048209227500704080
     id: HGyruHsakAAhB8V
     label: Poster sold out
-    published-date: 2026-04-26
     local-copy: true
     context:
     - show:
@@ -1742,7 +1711,6 @@
     post: 2048371387908366467
     id: HG1GVlBagAEBAI5
     label: Backstage
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1754,7 +1722,6 @@
     post: 2048371387908366467
     id: HG1GYZ7aYAA_-zT
     label: On stage
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1766,7 +1733,6 @@
     post: 2048371387908366467
     id: HG1GZ35bUAAPmUd
     label: On stage
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1778,7 +1744,6 @@
     post: 2048390131762262016
     id: HG1XH7zbAAAJtMl
     label: Playlist cover
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1791,7 +1756,6 @@
     id: HG1cxy1b0AAXLHn
     label: On stage
     info: Kanade, Natsu
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1803,7 +1767,6 @@
     post: 2048395458352144419
     id: HG1cxyvbYAAQ4dk
     label: Backstage
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1816,7 +1779,6 @@
     id: HG1cxywaMAAPp1R
     label: On stage
     info: encore
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1829,7 +1791,6 @@
     id: HG1cxywbMAAeiY4
     label: On stage
     info: Natsu
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1842,7 +1803,6 @@
     id: HG1eI9KbMAEYyRW
     label: On stage
     info: encore
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1854,7 +1814,6 @@
     post: 2048396923133112607
     id: HG1eI9LboAAVxsk
     label: Backstage
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1867,7 +1826,6 @@
     id: HG1hIc-bAAIekVF
     label: On stage
     info: Cocoro
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1880,7 +1838,6 @@
     id: HG1hIc8acAA7JlQ
     label: On stage
     info: Cocoro
-    published-date: 2026-04-26
     context:
     - show:
         year: 2026
@@ -1892,7 +1849,6 @@
     post: 2048573184426013138
     id: HG3-c-Qa4AAfB1j
     label: Backstage
-    published-date: 2026-04-27
     context:
     - show:
         year: 2026
@@ -1905,7 +1861,6 @@
     id: HG3-c-TagAAj4TO
     label: On stage
     info: Hika
-    published-date: 2026-04-27
     context:
     - show:
         year: 2026
@@ -1918,7 +1873,6 @@
     id: HG3-c-caEAA5uXy
     label: On stage
     info: Hika
-    published-date: 2026-04-27
     context:
     - show:
         year: 2026
@@ -1931,7 +1885,6 @@
     id: HG4-aOdboAAdqtJ
     label: Backstage
     info: Saiki and Kanami (BAND-MAID), NEK!
-    published-date: 2026-04-27
     context:
     - show:
         year: 2026
@@ -1944,7 +1897,6 @@
     id: HG4-aOfbEAAFzA-
     label: Backstage
     info: Saiki and Kanami (BAND-MAID), NEK!
-    published-date: 2026-04-27
     context:
     - show:
         year: 2026
@@ -1957,7 +1909,6 @@
     id: HG-37E4bgAE9hFZ
     label: Backstage
     info: Kanade
-    published-date: 2026-04-28
     context:
     - show:
         year: 2026
@@ -1969,7 +1920,6 @@
     post: 2050171239101292673
     id: HHOr35aakAA9GC8
     label: On stage
-    published-date: 2026-05-01
     context:
     - show:
         year: 2026
@@ -1982,7 +1932,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2026-04-26
     cover: 2048045919325888512/img/FhVWitJrUHAYij0g.jpg
     context:
     - show:
@@ -1996,7 +1945,6 @@
     post: 2048341314719338667
     id: 01
     label: RECORVERY_LOG_05
-    published-date: 2026-04-26
     cover: 2048234042618003456/img/l_hJxI1oRwWpIGDk.jpg
     context:
     - show:
@@ -2010,7 +1958,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2026-05-08
     cover: 2051295320689311745/img/Bixy9wPr8eqJ-Spt.jpg
     context:
     - show:
@@ -2027,7 +1974,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2026-05-15
     cover: 2055288993307381760/img/7tQxRCynPwrfB5nG.jpg
     context:
     - song: maze

@@ -89,7 +89,6 @@
     id: 1
     label: Backstage
     info: FOMARE, NEK!
-    published-date: 2026-03-24
     context:
     - show:
         year: 2026
@@ -101,7 +100,6 @@
     post: DWRX8h0kbV8
     id: 2
     label: Backstage
-    published-date: 2026-03-24
     context:
     - show:
         year: 2026
@@ -268,7 +266,6 @@
     post: 2036021358610821519
     id: HEFmoRHaAAA5oOJ
     label: Flyer
-    published-date: 2026-03-23
     context:
     - show:
         year: 2026
@@ -282,7 +279,6 @@
     id: HELmIZfaAAAH1UB
     label: Backstage
     info: FOMARE, NEK!
-    published-date: 2026-03-24
     context:
     - show:
         year: 2026
@@ -294,7 +290,6 @@
     post: 2036443920847224944
     id: HELm6sqawAAPw_3
     label: On stage
-    published-date: 2026-03-24
     context:
     - show:
         year: 2026
@@ -307,7 +302,6 @@
     id: HELm6sqbYAAhNyY
     label: Backstage
     info: FOMARE, NEK!
-    published-date: 2026-03-24
     context:
     - show:
         year: 2026
@@ -320,7 +314,6 @@
     id: HELpzOCboAAvaZh
     label: Backstage
     info: Cocoro
-    published-date: 2026-03-24
     context:
     - show:
         year: 2026

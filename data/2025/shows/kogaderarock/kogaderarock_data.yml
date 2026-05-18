@@ -546,7 +546,6 @@
     post: 1904825238870721005
     id: Gm9MdCUbAAAS1Sq
     label: Poster
-    published-date: 2025-03-26
     local-copy: true
     context:
     - show:
@@ -559,7 +558,6 @@
     post: 1908353902686462040
     id: Gnrsw86bEAACU0R
     label: Timetable
-    published-date: 2025-04-05
     context:
     - show:
         year: 2025
@@ -571,7 +569,6 @@
     post: 1908353902686462040
     id: GnrsylwbwAAfbLL
     label: Poster
-    published-date: 2025-04-05
     context:
     - show:
         year: 2025
@@ -584,7 +581,6 @@
     id: GoUZ_awWQAAJLU0
     label: On stage
     info: Hika
-    published-date: 2025-04-10
     context:
     - show:
         year: 2025
@@ -597,7 +593,6 @@
     id: GoUZ_awWwAAkG5D
     label: On stage
     info: Kanade
-    published-date: 2025-04-10
     context:
     - show:
         year: 2025
@@ -610,7 +605,6 @@
     id: GoUZ_axWoAA8BKE
     label: On stage
     info: Natsu
-    published-date: 2025-04-10
     context:
     - show:
         year: 2025
@@ -622,7 +616,6 @@
     post: 1910962202003275912
     id: GoUZ_azXwAASE0E
     label: On stage
-    published-date: 2025-04-10
     context:
     - show:
         year: 2025
@@ -634,7 +627,6 @@
     post: 1910979741756399623
     id: GoUp719WUAADyfg
     label: sidewalk board
-    published-date: 2025-04-10
     context:
     - show:
         year: 2025
@@ -646,7 +638,6 @@
     post: 1910979741756399623
     id: GoUp719WkAAtlRX
     label: on stage
-    published-date: 2025-04-10
     context:
     - show:
         year: 2025
@@ -658,7 +649,6 @@
     post: 1910979741756399623
     id: GoUp71yWsAIHbmh
     label: the band
-    published-date: 2025-04-10
     context:
     - show:
         year: 2025
@@ -670,7 +660,6 @@
     post: 1911004487399129107
     id: GoVAb_iWMAAd_Fk
     label: Backstage
-    published-date: 2025-05-04
     context:
     - show:
         year: 2025
@@ -682,7 +671,6 @@
     post: 1909924256323862671
     id: 01
     label: Band presentation
-    published-date: 2025-04-09
     cover: 1909889754348621824/pu/img/Pk_WDecuqOx8p3cf.jpg
     context:
     - show:
@@ -698,7 +686,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-04-14
     cover: 1911632915626139648/img/3pfz41ID4LG6Qht2.jpg
     context:
     - song: dreams
@@ -715,7 +702,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-04-21
     cover: 1914179529431781377/img/VM8VNH60tVc0EfFz.jpg
     context:
     - song: fool
@@ -732,7 +718,6 @@
     id: 01
     label: On stage
     info: Natsu
-    published-date: 2025-04-22
     cover: 1914605547179159552/img/owJkGeKNNh73a6gA.jpg
     context:
     - song: clockup
@@ -749,7 +734,6 @@
     id: 01
     label: On stage
     info: Natsu
-    published-date: 2025-06-09
     cover: 1931999263166492672/img/WfpdmHQJHaGNaTDp.jpg
     context:
     - show:

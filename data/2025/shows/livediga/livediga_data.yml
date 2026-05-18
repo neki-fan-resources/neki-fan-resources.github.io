@@ -84,7 +84,6 @@
     post: DS6ohbTkW_f
     id: 01
     label: Band
-    published-date: 2025-12-31
     context:
     - show:
         year: 2025
@@ -367,7 +366,6 @@
     post: 1996867357894234264
     id: G7ZMO7FaYAAnEmW
     label: Flyer
-    published-date: 2025-12-05
     local-copy: true
     part-of:
       postx: 1996867357894234264
@@ -376,7 +374,6 @@
     post: 2003303427045290087
     id: G80pw0Pb0AApOBd
     label: Schedule
-    published-date: 2025-12-23
     context:
     - show:
         year: 2025
@@ -388,7 +385,6 @@
     post: 2003303427045290087
     id: G80pybgbkAAkv2c
     label: Lineup
-    published-date: 2025-12-23
     context:
     - show:
         year: 2025
@@ -400,7 +396,6 @@
     post: 2005966499958382930
     id: G9af4zab0AA2lgk
     label: Band
-    published-date: 2025-12-30
     context:
     - show:
         year: 2025
@@ -412,7 +407,6 @@
     post: 2005969008470954167
     id: G9aiLL9bcAAeMsr
     label: On stage
-    published-date: 2025-12-30
     context:
     - show:
         year: 2025
@@ -424,7 +418,6 @@
     post: 2006004818280952078
     id: G9bCv4nbMAA0Fl9
     label: On stage
-    published-date: 2025-12-30
     context:
     - show:
         year: 2025
@@ -437,7 +430,6 @@
     id: G9bFM8IakAAIitJ
     label: Backstage
     info: Natsu
-    published-date: 2025-12-30
     context:
     - show:
         year: 2025
@@ -450,7 +442,6 @@
     id: G9bIr3vaYAEXH1A
     label: On stage
     info: Cocoro
-    published-date: 2025-12-30
     context:
     - show:
         year: 2025
@@ -463,7 +454,6 @@
     id: G9bUQA-bIAAVLWr
     label: Backstage
     info: Hika
-    published-date: 2025-12-30
     context:
     - show:
         year: 2025

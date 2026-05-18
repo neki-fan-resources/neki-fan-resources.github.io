@@ -181,7 +181,6 @@
     id: 3
     label: On stage
     info: Cocoro
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -704,7 +703,6 @@
     post: 1933117154494427587
     id: GtPQrgBasAA4sFp
     label: poster
-    published-date: 2025-06-12
     local-copy: true
     context:
     - show:
@@ -717,7 +715,6 @@
     post: 1949060926738694295
     id: Gwx0lJwb0AAO54g
     label: Poster
-    published-date: 2025-07-26
     local-copy: true
     context:
     - show:
@@ -731,7 +728,6 @@
     id: Gw3lzMNbAAASOiw
     label: Backstage
     info: Kanade
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -743,7 +739,6 @@
     post: 1949480491713003736
     id: Gw3yKX3a0AA5OUn
     label: Backstage
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -755,7 +750,6 @@
     post: 1949480491713003736
     id: Gw3yKXybgAAvkF2
     label: On stage
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -768,7 +762,6 @@
     id: Gw3yKXybsAAmjfa
     label: The bands
     info: NEK!, Hamano Haruki, Wisteria
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -781,7 +774,6 @@
     id: Gw3y0xGbEAADFoo
     label: Backstage
     info: Natsu
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -794,7 +786,6 @@
     id: Gw3zn51bAAEvtWX
     label: Backstage
     info: Cocoro
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -807,7 +798,6 @@
     id: Gw3zn6TaUAEpk50
     label: On stage
     info: Cocoro, drum set
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -820,7 +810,6 @@
     id: Gw35W4abAAESNI9
     label: Backstage
     info: Hika
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -833,7 +822,6 @@
     id: Gw35W4kagAApR75
     label: On stage
     info: Hika, pedal board
-    published-date: 2025-07-27
     context:
     - show:
         year: 2025
@@ -846,7 +834,6 @@
     id: 01
     label: On stage
     info: Kanade
-    published-date: 2025-07-27
     cover: 1949470634863697920/img/NSabqhCEsal9xue_.jpg
     context:
     - show:
@@ -863,7 +850,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-07-28
     cover: 1949753103731036160/img/AckuXyAjOwD0lhA1.jpg
     context:
     - show:
@@ -880,7 +866,6 @@
     id: 01
     label: Live
     info: Natsu
-    published-date: 2025-07-30
     cover: 1950564593027497986/img/js-nk9K5ROYHMahg.jpg
     context:
     - show:
@@ -897,7 +882,6 @@
     id: 01
     label: On stage
     info: Kanade
-    published-date: 2025-07-31
     cover: 1950848800610017280/img/PzFmOa1SDrjdAn15.jpg
     context:
     - show:
@@ -914,7 +898,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-08-01
     cover: 1951215284448292864/img/9dcLD7LXg-RbbEkG.jpg
     context:
     - show:
@@ -931,7 +914,6 @@
     id: 01
     label: On stage
     info: Kanade
-    published-date: 2025-08-04
     cover: 1952354814060634112/img/h_F85nPHwBmCj9Yh.jpg
     context:
     - show:
@@ -948,7 +930,6 @@
     id: 01
     label: On stage
     info: Natsu
-    published-date: 2025-08-05
     cover: 1952670248618123264/img/3LAxE_aG0ildFLgJ.jpg
     context:
     - show:
@@ -965,7 +946,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-08-07
     cover: 1953424661146116096/img/fnEeCheYtlubUR0Z.jpg
     context:
     - song: ripoff
@@ -981,7 +961,6 @@
     post: 1953710557393195152
     id: 01
     label: On stage
-    published-date: 2025-08-08
     cover: 1953710492889096192/img/kpF56FobeSZ9bi0k.jpg
     context:
     - song: dreams
@@ -1000,7 +979,6 @@
     id: 01
     label: On stage
     info: Kanade
-    published-date: 2025-08-13
     cover: 1955576083182682112/img/1wfw4szg8_HNenS5.jpg
     context:
     - show:

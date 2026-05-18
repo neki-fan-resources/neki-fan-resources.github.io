@@ -117,7 +117,6 @@
     post: DAUo9EkT8r9
     id: 2
     label: On stage
-    published-date: 2025-09-25
     context:
     - show:
         year: 2024
@@ -130,7 +129,6 @@
     id: 3
     label: On stage
     info: Cocoro
-    published-date: 2025-09-25
     context:
     - show:
         year: 2024
@@ -142,7 +140,6 @@
     post: DAUo9EkT8r9
     id: 4
     label: Backstage
-    published-date: 2025-09-25
     context:
     - show:
         year: 2024
@@ -155,7 +152,6 @@
     id: 5
     label: Backstage
     info: Natsu, Cocoro
-    published-date: 2025-09-25
     context:
     - show:
         year: 2024
@@ -167,7 +163,6 @@
     post: DAUo9EkT8r9
     id: 6
     label: Sidewalk board
-    published-date: 2025-09-25
     context:
     - show:
         year: 2024
@@ -270,7 +265,6 @@
     post: 1838488577052913969
     id: GYOeP9EbAAAVpUJ
     label: sidewalk board
-    published-date: 2024-09-24
     local-copy: true
     context:
     - show:
@@ -283,7 +277,6 @@
     post: 1838573638817300719
     id: GYPs-DHakAEasuh
     label: Sidewalk board
-    published-date: 2024-09-24
     context:
     - show:
         year: 2024
@@ -295,7 +288,6 @@
     post: 1838573638817300719
     id: GYPs-DMakAMi3eu
     label: On stage
-    published-date: 2024-09-24
     context:
     - show:
         year: 2024
@@ -308,7 +300,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2024-09-26
     cover: 1839288928849084416/pu/img/rA3QdqfxexTxstaD.jpg
     context:
     - song: getover

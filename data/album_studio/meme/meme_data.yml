@@ -343,7 +343,6 @@
     id: 01
     label: Live stream
     info: the album versions, the bonus, acoustic mini-live
-    published-date: 2025-10-30
     context:
     - album: meme
     part-of:
@@ -354,7 +353,6 @@
     id: 01
     label: Visiting the store
     info: Hika, Natsu
-    published-date: 2025-11-26
     context:
     - album: meme
     todo: to process and display
@@ -365,7 +363,6 @@
     post: DRhL6PbE0Pj
     id: 1
     label: Visiting the store
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -894,7 +891,7 @@
     id: 1993292641644212626
     account: TOWER_Shinjuku
     label: In-store display
-    published-date: 2025-11-26
+    published-date: 2025-11-25
     text: |-
       【#NEKI】　
       
@@ -1609,7 +1606,7 @@
     id: 1993890262326919315
     account: TOWER_Shibuya
     label: In-store display
-    published-date: 2025-11-29
+    published-date: 2025-11-27
     text: |-
       【NEK!】
       
@@ -1683,7 +1680,6 @@
     id: Gzl-A0MaAAAtcNa
     label: 初回盤A
     info: First Press Edition A
-    published-date: 2025-08-30
     local-copy: true
     context:
     - album: meme
@@ -1695,7 +1691,6 @@
     id: Gzl-C69aoAADilM
     label: 初回盤B
     info: First Press Edition B
-    published-date: 2025-08-30
     context:
     - album: meme
     part-of:
@@ -1706,7 +1701,6 @@
     id: Gzl-Eg6boAEMEc0
     label: 通常盤
     info: Regular edition
-    published-date: 2025-08-30
     context:
     - album: meme
     part-of:
@@ -1716,7 +1710,6 @@
     post: 1961737876066168993
     id: Gzl99vsacAA6bCZ
     label: Band image
-    published-date: 2025-08-30
     context:
     - album: meme
     part-of:
@@ -1726,7 +1719,6 @@
     post: 1969026474951786643
     id: G1NjIuDbUAEPEkd
     label: It fits perfectly
-    published-date: 2025-09-25
     context:
     - album: meme
     todo: Find a way to reference the original meme
@@ -1738,7 +1730,6 @@
     id: G1Ra9_2bQAAkfUH
     label: On stage
     info: Cocoro
-    published-date: 2025-09-20
     context:
     - show:
         year: 2025
@@ -1752,7 +1743,6 @@
     id: G2zzUsDaAAIfTbf
     label: Recording
     info: Natsu with acoustic guitar
-    published-date: 2025-10-12
     context:
     - album: meme
     part-of:
@@ -1762,7 +1752,6 @@
     post: 1990798932306505823
     id: G6C5QdUboAAjvwX
     label: Streaming Campaign
-    published-date: 2025-11-19
     context:
     - album: meme
     part-of:
@@ -1772,7 +1761,6 @@
     post: 1992921351557202148
     id: G6hHZwwawAEHhCI
     label: Albums
-    published-date: 2025-11-24
     context:
     - album: meme
     part-of:
@@ -1783,7 +1771,6 @@
     id: G6kkdZia0AAMvMo
     label: In-store display
     info: Tower Records Shibuya
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -1794,7 +1781,6 @@
     id: G6kkegRaQAAWJuu
     label: In-store display
     info: Tower Records Shibuya
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -1805,7 +1791,6 @@
     id: G6kl0LKaQAABQlX
     label: In-store display
     info: Tower Records Shinjuku
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1816,7 +1801,6 @@
     id: G6klzUQbUAA1Cqs
     label: In-store display
     info: Tower Records Shinjuku
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1826,7 +1810,6 @@
     post: 1993208642196455910
     id: G6lMsZNaoAAZZyJ
     label: Albums
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1837,7 +1820,6 @@
     id: G6lX2K9agAAaVEv
     label: In-store display
     info: Tower Records Yokohama
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1848,7 +1830,6 @@
     id: G6lX2jja0AAAdol
     label: In-store display
     info: Tower Records Yokohama
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1859,7 +1840,6 @@
     id: G6lYLOCbwAYzpHg
     label: In-store display
     info: Tower Records Laketown
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -1870,7 +1850,6 @@
     id: G6lrba4bwAA3FWN
     label: Album
     info: Kanade
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1881,7 +1860,6 @@
     id: G6lrbavbwAkY5K8
     label: Album
     info: Kanade
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1891,7 +1869,6 @@
     post: 1993268941666353391
     id: G6mDg_2bwAACD1F
     label: Albums
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1901,7 +1878,6 @@
     post: 1993268941666353391
     id: G6mDhAIaAAA8tFn
     label: Behind the scenes
-    published-date: 2025-11-25
     context:
     - song: gimmick
     part-of:
@@ -1912,7 +1888,6 @@
     id: G6mMxNZbwAkKY6j
     label: In-store display
     info: Tower Records Machida
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -1923,7 +1898,6 @@
     id: G6mYv4KbEAAHt_2
     label: In-store display
     info: Tower Records Shinjuku
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1933,7 +1907,6 @@
     post: 1993335913980842126
     id: G6m3rhkbcAAZDOq
     label: iTune Campaign
-    published-date: 2025-11-25
     context:
     - album: meme
     part-of:
@@ -1943,7 +1916,6 @@
     post: 1993368968099512674
     id: G6negc_bwAIPAmj
     label: Cocoro
-    published-date: 2025-11-25
     todo: find a place for it
     part-of:
       postx: 1993368968099512674
@@ -1953,7 +1925,6 @@
     id: G6paSpmbMAEMoKB
     label: In-store display
     info: Tower Records Namba
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -1964,7 +1935,6 @@
     id: G6pa0bAaEAAU8zi
     label: In-store display
     info: Tower Records Abeno Hoop
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -1975,7 +1945,6 @@
     id: G6pnl9ubwAEitVg
     label: In-store display
     info: HMV Shibuya
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -1986,7 +1955,6 @@
     id: G6p4y03bwAMu3Q2
     label: In-store display
     info: Tower Records Kinshicho
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -1997,7 +1965,6 @@
     id: G6p4y0gbQAAqUxF
     label: In-store display
     info: Tower Records Kinshicho
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2008,7 +1975,6 @@
     id: G6p9vrWbMAAqAqV
     label: In-store display
     info: Tower Records Kagoshima
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2019,7 +1985,6 @@
     id: G6p9xZWawAAtMNX
     label: In-store display
     info: Tower Records Kagoshima
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2030,7 +1995,6 @@
     id: G6qBbV3bwAEZ4k0
     label: In-store display
     info: Tower Records Fukuoka
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2041,7 +2005,6 @@
     id: G6qBcAxaMAAeXeC
     label: In-store display
     info: Tower Records Fukuoka
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2052,7 +2015,6 @@
     id: G6qFY4ybYAAfLqL
     label: At the store
     info: Tower Record Yokohama, Natsu, Hika
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2063,7 +2025,6 @@
     id: G6qG6kKbwAIovvE
     label: In-store display
     info: Tower Records Iwata
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2074,7 +2035,6 @@
     id: G6qnflNbEAAfBjt
     label: At the store
     info: Tower Records Machida, Natsu, Hika
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2085,7 +2045,6 @@
     id: G6qngiQbwAA7NWe
     label: At the store
     info: Tower Records Machida, Natsu, Hika
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2095,7 +2054,6 @@
     post: 1993598161303343158
     id: G6qu9P6bwAQJXnO
     label: Band
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2106,7 +2064,6 @@
     id: G6qwPL8aIAA82sz
     label: At the store
     info: Tower Records Shibuya
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2117,7 +2074,6 @@
     id: G6qwTEEa0AApFBe
     label: At the store
     info: Tower Records Shibuya
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2128,7 +2084,6 @@
     id: G6rYZ6RbUAAzAeg
     label: Cards
     info: HMV Shibuya
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2139,7 +2094,6 @@
     id: G6rYZ6SaUAAlunE
     label: At the store
     info: HMV Shibuya
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2150,7 +2104,6 @@
     id: G6rYZ6WaIAAviIh
     label: At the store
     info: HMV Shibuya
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2161,7 +2114,6 @@
     id: G6rYcrZaEAAuWC3
     label: At the store
     info: Tower Records Shinjuku
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2172,7 +2124,6 @@
     id: G6rY7SZaYAAuE79
     label: At the store
     info: Tower Records Shinjuku
-    published-date: 2025-11-26
     context:
     - album: meme
     part-of:
@@ -2182,7 +2133,6 @@
     post: 1993685933745668416
     id: G6r-tyvaAAA2kpx
     label: At a store
-    published-date: 2025-11-26
     context:
     - album: meme
     todo: which store ?
@@ -2194,7 +2144,6 @@
     id: G6r-tyzakAAAqjz
     label: At the store
     info: Tower Records Machida, Natsu, Hika
-    published-date: 2025-11-26
     context:
     - album: meme
     todo: which store ?
@@ -2205,7 +2154,6 @@
     post: 1993687445703942373
     id: G6sAKbhbEAA5YV5
     label: Bonus stickers
-    published-date: 2025-11-26
     part-of:
       postx: 1993687445703942373
 
@@ -2214,7 +2162,6 @@
     id: G6u4ePLbQAAGjhq
     label: In-store display
     info: Tower Records Shibuya
-    published-date: 2025-11-27
     context:
     - album: meme
     part-of:
@@ -2225,7 +2172,6 @@
     id: G6u4feta0AEigRX
     label: In-store display
     info: Tower Records Shibuya
-    published-date: 2025-11-27
     context:
     - album: meme
     part-of:
@@ -2236,7 +2182,6 @@
     id: G6u4kaHb0AAKYKi
     label: In-store display
     info: Tower Records Shibuya
-    published-date: 2025-11-27
     context:
     - album: meme
     part-of:
@@ -2247,7 +2192,6 @@
     id: G6u4lR2bUAA4Bn1
     label: In-store display
     info: Tower Records Shibuya
-    published-date: 2025-11-27
     context:
     - album: meme
     part-of:
@@ -2257,7 +2201,6 @@
     post: 1993947612781924573
     id: G6vsyMca0AAl0Ui
     label: NEK! MEME Radio
-    published-date: 2025-11-27
     context:
     - album: meme
     part-of:
@@ -2267,7 +2210,6 @@
     post: 1983159440678510938
     id: 01
     label: Announcement
-    published-date: 2025-10-29
     cover: 1983159348747759616/img/QHFXz09g9hd4Ie0d.jpg
     context:
     - album: meme
@@ -2278,7 +2220,6 @@
     post: 1983908062110085217
     id: 01
     label: Thank you for watching
-    published-date: 2025-10-30
     cover: 1983908002509033472/img/M99pMxiucM5A-cIb.jpg
     context:
     - album: meme
@@ -2290,7 +2231,6 @@
     id: 01
     label: Display
     info: Tower Records Shinjuku
-    published-date: 2025-11-26
     cover: 1993685847733051392/img/v9gdzUR_RqttGiLN.jpg
     context:
     - album: meme

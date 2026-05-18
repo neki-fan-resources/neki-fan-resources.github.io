@@ -30,7 +30,6 @@
     id: 2
     label: Behind the scenes
     info: Cocoro
-    published-date: 2026-01-25
     context:
     - song: scrapbook
     part-of:
@@ -118,7 +117,6 @@
     post: 1917457790253293837
     id: GpwtsbTaYAAlBd8
     label: Drums
-    published-date: 2025-04-30
     context:
     - show:
         year: 2025
@@ -131,7 +129,6 @@
     id: G24GWMtagAA45gl
     label: On stage
     info: Cocoro
-    published-date: 2025-10-10
     context:
     - show:
         year: 2025
@@ -144,7 +141,6 @@
     id: G_gkFbgXQAAGly6
     label: Behind the scenes
     info: Cocoro
-    published-date: 2026-01-27
     context:
     - song: scrapbook
     part-of:
@@ -155,7 +151,6 @@
     id: 01
     label: Behind the scenes
     info: Cocoro
-    published-date: 2026-01-25
     cover: 2015400508777984001/img/M4L-uUfgDvqeECNZ.jpg
     context:
     - song: scrapbook

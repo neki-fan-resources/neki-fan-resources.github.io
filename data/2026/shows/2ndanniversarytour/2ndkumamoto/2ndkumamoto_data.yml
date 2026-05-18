@@ -209,7 +209,6 @@
     post: DW9GPX-ERwX
     id: 2
     label: On stage
-    published-date: 2026-04-10
     context:
     - show:
         year: 2026
@@ -222,7 +221,6 @@
     id: 1
     label: Backstage
     info: Natsu
-    published-date: 2026-04-15
     context:
     - show:
         year: 2026
@@ -235,7 +233,6 @@
     id: 2
     label: Backstage
     info: Natsu
-    published-date: 2026-04-15
     context:
     - show:
         year: 2026
@@ -248,7 +245,6 @@
     id: 3
     label: Backstage
     info: Natsu
-    published-date: 2026-04-15
     context:
     - show:
         year: 2026
@@ -261,7 +257,6 @@
     id: 2
     label: On stage
     info: Cocoro
-    published-date: 2026-04-16
     context:
     - show:
         year: 2026
@@ -274,7 +269,6 @@
     id: 4
     label: Kumamon Ningyoyaki
     info: Cocoro
-    published-date: 2026-04-16
     context:
     - show:
         year: 2026
@@ -287,7 +281,6 @@
     id: 5
     label: Kumamoto food
     info: Cocoro
-    published-date: 2026-04-16
     context:
     - show:
         year: 2026
@@ -300,7 +293,6 @@
     id: 6
     label: Kumamoto food
     info: Cocoro
-    published-date: 2026-04-16
     context:
     - show:
         year: 2026
@@ -530,7 +522,6 @@
     post: 2042475466154819702
     id: HFhUdFrbUAA77a5
     label: Poster
-    published-date: 2026-04-10
     local-copy: true
     context:
     - show:
@@ -543,7 +534,6 @@
     post: 2042579571346936144
     id: HFizSklakAIO2kK
     label: Backstage
-    published-date: 2026-04-10
     context:
     - show:
         year: 2026
@@ -556,7 +546,6 @@
     id: HFizSkna8AAawTE
     label: Backstage
     info: Kanade
-    published-date: 2026-04-10
     context:
     - show:
         year: 2026
@@ -569,7 +558,6 @@
     id: HFizkQcakAoO-dU
     label: On stage
     info: Hika
-    published-date: 2026-04-10
     context:
     - show:
         year: 2026
@@ -581,7 +569,6 @@
     post: 2042580024017215710
     id: HFizs8iakAI2bJ6
     label: Backstage
-    published-date: 2026-04-10
     context:
     - show:
         year: 2026
@@ -594,7 +581,6 @@
     id: HFizs8oakAUdE0A
     label: Backstage
     info: Natsu
-    published-date: 2026-04-10
     context:
     - show:
         year: 2026
@@ -607,7 +593,6 @@
     id: HFiz9vSakAY5AHQ
     label: On stage
     info: Cocoro
-    published-date: 2026-04-10
     context:
     - show:
         year: 2026
@@ -619,7 +604,6 @@
     post: 2042588957729526269
     id: HFi7zPSakAQXxuB
     label: On stage
-    published-date: 2026-04-10
     context:
     - show:
         year: 2026

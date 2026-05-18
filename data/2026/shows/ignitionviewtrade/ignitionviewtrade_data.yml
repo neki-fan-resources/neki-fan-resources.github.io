@@ -108,7 +108,6 @@
     id: 1
     label: On stage
     info: NEK!, Viewtrade
-    published-date: 2026-05-06
     context:
     - show:
         year: 2026
@@ -120,7 +119,6 @@
     post: DX_76VTkdvB
     id: 2
     label: On stage
-    published-date: 2026-05-06
     context:
     - show:
         year: 2026
@@ -370,7 +368,6 @@
     post: 2033876722282848752
     id: HDnIGTVaoAAFcaN
     label: Flyer
-    published-date: 2026-03-17
     local-copy: true
     context:
     - show:
@@ -384,7 +381,6 @@
     id: HHo3rw7bAAAwkAf
     label: On stage
     info: NEK!, Viewtrade
-    published-date: 2026-05-06
     context:
     - show:
         year: 2026
@@ -396,7 +392,6 @@
     post: 2052013814884004268
     id: HHo3rw9bEAAVJG_
     label: On stage
-    published-date: 2026-05-06
     context:
     - show:
         year: 2026
@@ -409,7 +404,6 @@
     id: HHpHziRaUAAVK8y
     label: At the venue
     info: Kanade, ぱんだ (Viewtrade)
-    published-date: 2026-05-06
     context:
     - show:
         year: 2026
@@ -422,7 +416,6 @@
     id: HHpZQHcagAA_wGz
     label: At the venue
     info: Cocoro, 文哉 (Viewtrade)
-    published-date: 2026-05-08
     context:
     - show:
         year: 2026
@@ -435,7 +428,6 @@
     id: HHpcGB_aUAEKgbp
     label: On stage
     info: Natsu, wireless pack
-    published-date: 2026-05-06
     context:
     - show:
         year: 2026
@@ -448,7 +440,6 @@
     id: HHpcGCKaYAAi_vd
     label: On stage
     info: Natsu
-    published-date: 2026-05-06
     context:
     - show:
         year: 2026
@@ -461,7 +452,6 @@
     id: HHpnT-RaIAAHvFF
     label: On stage
     info: Hika
-    published-date: 2026-05-06
     context:
     - show:
         year: 2026
@@ -473,7 +463,6 @@
     post: 2052019872595575060
     id: 01
     label: On stage
-    published-date: 2026-05-06
     cover: 2052019775598211072/img/dD05LRQLySD8sNpa.jpg
     context:
     - song: maze

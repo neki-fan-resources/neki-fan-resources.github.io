@@ -343,7 +343,6 @@
     post: DWdzaw2kWj0
     id: 1
     label: Backstage
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -355,7 +354,6 @@
     post: DWgMS3mj-mT
     id: 2
     label: Azuki-chan
-    published-date: 2026-04-05
     context:
     - show:
         year: 2026
@@ -368,7 +366,6 @@
     id: 1
     label: On stage
     info: Natsu
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -381,7 +378,6 @@
     id: 2
     label: Backstage
     info: Natsu
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -394,7 +390,6 @@
     id: 3
     label: Backstage
     info: Natsu
-    published-date: 2026-03-31
     context:
     - show:
         year: 2026
@@ -406,7 +401,6 @@
     post: DWnluOpGhoo
     id: 2
     label: On stage
-    published-date: 2026-04-02
     context:
     - show:
         year: 2026
@@ -418,7 +412,6 @@
     post: DWnluOpGhoo
     id: 4
     label: At the venue
-    published-date: 2026-04-02
     context:
     - show:
         year: 2026
@@ -430,7 +423,6 @@
     post: DWnluOpGhoo
     id: 5
     label: On stage
-    published-date: 2026-04-02
     context:
     - show:
         year: 2026
@@ -442,7 +434,6 @@
     post: DWnluOpGhoo
     id: 6
     label: Drum set
-    published-date: 2026-04-02
     context:
     - show:
         year: 2026
@@ -454,7 +445,6 @@
     post: DWnluOpGhoo
     id: 7
     label: Drum set
-    published-date: 2026-04-02
     context:
     - show:
         year: 2026
@@ -466,7 +456,6 @@
     post: DWnluOpGhoo
     id: 8
     label: Backstage
-    published-date: 2026-04-02
     context:
     - show:
         year: 2026
@@ -737,7 +726,6 @@
     id: HEiy6FVaMAA8L8O
     label: Backstage
     info: Natsu
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -749,7 +737,6 @@
     post: 2038084497821016468
     id: HEi6pvsbwAATo5z
     label: Poster
-    published-date: 2026-03-29
     local-copy: true
     context:
     - show:
@@ -763,7 +750,6 @@
     id: HEi9evdbsAAof7h
     label: Toyohashi bento
     info: Kanade
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -776,7 +762,6 @@
     id: HEi9evebQAAj0s7
     label: Toyohashi bento
     info: Kanade
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -788,7 +773,6 @@
     post: 2038203266362974386
     id: HEknEM9aoAA_aox
     label: On stage
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -800,7 +784,6 @@
     post: 2038203266362974386
     id: HEknENAaEAE6NAO
     label: On stage
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -813,7 +796,6 @@
     id: HEkpAtsaMAE_nil
     label: Backstage
     info: Hika
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -826,7 +808,6 @@
     id: HEkpxBuaQAAjBfK
     label: On stage
     info: Kanade
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -838,7 +819,6 @@
     post: 2038206234701238379
     id: HEkpxBzbgAAl_sT
     label: On stage
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -851,7 +831,6 @@
     id: HEkqPfGaIAESSyI
     label: On stage
     info: Natsu
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -864,7 +843,6 @@
     id: HEkqPfHa4AAUjhU
     label: On stage
     info: Natsu
-    published-date: 2026-03-29
     context:
     - show:
         year: 2026
@@ -877,7 +855,6 @@
     id: HEkwUWFakAAE1tg
     label: On stage
     info: Cocoro
-    published-date: 2026-03-30
     context:
     - show:
         year: 2026
@@ -890,7 +867,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2026-03-29
     cover: 2038213432454045696/img/ppsZfwJ63RFUBGL-.jpg
     context:
     - show:

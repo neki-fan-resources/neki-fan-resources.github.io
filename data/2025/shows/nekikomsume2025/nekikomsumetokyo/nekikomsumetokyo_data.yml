@@ -214,7 +214,6 @@
     id: 2
     label: Backstage
     info: 'Cocoro, ジンちゃん '
-    published-date: 2025-06-04
     context:
     - show:
         year: 2025
@@ -226,7 +225,6 @@
     post: DKdwjfZvq_r
     id: 3
     label: Backstage
-    published-date: 2025-06-04
     context:
     - show:
         year: 2025
@@ -238,7 +236,6 @@
     post: DKdwjfZvq_r
     id: 4
     label: On stage
-    published-date: 2025-06-04
     context:
     - show:
         year: 2025
@@ -250,7 +247,6 @@
     post: DKdwjfZvq_r
     id: 5
     label: Sidewalk board
-    published-date: 2025-06-04
     context:
     - show:
         year: 2025
@@ -262,7 +258,6 @@
     post: DKe1PAkSew9
     id: 1
     label: Backstage
-    published-date: 2025-06-04
     context:
     - show:
         year: 2025
@@ -274,7 +269,6 @@
     post: DKe1PAkSew9
     id: 2
     label: The 2 bands
-    published-date: 2025-06-04
     context:
     - show:
         year: 2025
@@ -287,7 +281,6 @@
     id: 1
     label: Backstage
     info: Hika
-    published-date: 2025-06-06
     context:
     - show:
         year: 2025
@@ -594,7 +587,6 @@
     id: GscSvrHbMAAqkrT
     label: The 2 bands
     info: NEK!, konsume
-    published-date: 2025-06-02
     context:
     - show:
         year: 2025
@@ -607,7 +599,6 @@
     id: GsckvA4agAAsskI
     label: Backstage
     info: Natsu
-    published-date: 2025-06-02
     context:
     - show:
         year: 2025
@@ -619,7 +610,6 @@
     post: 1929838014714597729
     id: Gsgpa56bcAAoxCH
     label: komsume on stage
-    published-date: 2025-06-03
     context:
     - show:
         year: 2025
@@ -631,7 +621,6 @@
     post: 1929838014714597729
     id: GsgpaTQb0AAv3Zr
     label: On stage
-    published-date: 2025-06-03
     context:
     - show:
         year: 2025
@@ -643,7 +632,6 @@
     post: 1925839253633695948
     id: e0a878eb-034c-48b4-8db2-b37112a4e44a
     label: NEK! presentation
-    published-date: 2025-05-23
     cover: 1925364265340559361/img/raHNEuNv4NJ7__RF.jpg
     context:
     - show:
@@ -657,7 +645,6 @@
     id: d1410d59-583b-4a2a-8b72-7d7eef39d3e8
     label: MC
     info: Natsu
-    published-date: 2025-06-03
     cover: 1929716963892514817/img/rfjaFqLpGVjttuhQ.jpg
     context:
     - show:
@@ -670,7 +657,6 @@
     post: 1930096228966248749
     id: 54904afa-0889-4f5e-a1b1-fe705c2c671d
     label: On stage
-    published-date: 2025-06-04
     cover: 1930096164751446016/img/fv9DAfoRwJPubB1Z.jpg
     context:
     - song: ooak
@@ -687,7 +673,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-06-07
     cover: 1931251684669583360/img/eelT-3_4Rphtrfmd.jpg
     context:
     - show:
@@ -704,7 +689,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-06-12
     cover: 1933082405105274880/img/w9NPmPviB93AuYZW.jpg
     context:
     - show:
@@ -721,7 +705,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-06-15
     cover: 1934127784982622208/img/SiHF4mRvqaOYV-zJ.jpg
     context:
     - show:

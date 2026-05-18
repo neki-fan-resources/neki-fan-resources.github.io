@@ -587,7 +587,6 @@
     post: 1934083816131596730
     id: Gtc-9etbYAAg1fO
     label: poster
-    published-date: 2025-06-15
     local-copy: true
     context:
     - show:
@@ -600,7 +599,6 @@
     post: 1961987308070240564
     id: GzktTajbkAAtiOe
     label: Schedule 11.18
-    published-date: 2025-08-31
     context:
     - show:
         year: 2025
@@ -612,7 +610,6 @@
     post: 1961987308070240564
     id: GzktVWObQAAB4zy
     label: Schedule 11.19
-    published-date: 2025-08-31
     context:
     - show:
         year: 2025
@@ -624,7 +621,6 @@
     post: 1962461001246502990
     id: GzwPpOzbcAEE3jO
     label: Bands poster
-    published-date: 2025-09-01
     context:
     - show:
         year: 2025
@@ -636,7 +632,6 @@
     post: 1972621729647546763
     id: G2ApADSbwAA9bsY
     label: NEK! poster
-    published-date: 2025-09-29
     context:
     - show:
         year: 2025
@@ -648,7 +643,6 @@
     post: 1979472544098037887
     id: G3h_yGaWkAABElF
     label: All band posters
-    published-date: 2025-10-18
     context:
     - show:
         year: 2025
@@ -660,7 +654,6 @@
     post: 1990672017583190153
     id: G6BJpLwaUAA7GDH
     label: Map poster
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -672,7 +665,6 @@
     post: 1990747279180116232
     id: G6COFuEbMAID7KA
     label: On stage
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -684,7 +676,6 @@
     post: 1990756757828980764
     id: G6CWsLmbMAcPVxw
     label: Band
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -696,7 +687,6 @@
     post: 1990756757828980764
     id: G6CWsLraoAAGm3v
     label: On stage
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -709,7 +699,6 @@
     id: G6C1AjpbsAAF74y
     label: On stage
     info: Natsu
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -722,7 +711,6 @@
     id: G6C1AjsaIAA-8pv
     label: Backstage
     info: Natsu
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -734,7 +722,6 @@
     post: 1990790843184394572
     id: G6C1sMWbMAIp5HO
     label: On stage
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -747,7 +734,6 @@
     id: G6C1sMgaUAAScQ-
     label: On stage
     info: Hika
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -760,7 +746,6 @@
     id: G6C2FOAbMAADAHC
     label: On stage
     info: Cocoro
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -773,7 +758,6 @@
     id: G6C2FOHaIAAqfEL
     label: Backstage
     info: Cocoro
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -785,7 +769,6 @@
     post: 1990791246206677287
     id: G6C2FOJbMAIkcJS
     label: On stage
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -798,7 +781,6 @@
     id: G6C5SVdasAAkSq2
     label: On stage
     info: Kanade
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -811,7 +793,6 @@
     id: G6C5SVnasAA8ODq
     label: Backstage
     info: Kanade
-    published-date: 2025-11-18
     context:
     - show:
         year: 2025
@@ -824,7 +805,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-11-21
     cover: 1991491913699192839/img/jtHTkCqxRAqFrRQn.jpg
     context:
     - show:

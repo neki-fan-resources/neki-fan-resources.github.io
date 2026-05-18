@@ -342,7 +342,6 @@
     id: 02
     label: On stage
     info: Natsu
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -355,7 +354,6 @@
     id: 03
     label: On stage
     info: Kanade
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -367,7 +365,6 @@
     post: DQjAnAEEV-K
     id: 04
     label: Venue
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -380,7 +377,6 @@
     id: 05
     label: On stage
     info: Cocoro
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -393,7 +389,6 @@
     id: 06
     label: On stage
     info: Hika
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -405,7 +400,6 @@
     post: DQjkKMiElGe
     id: 01
     label: Hika
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -417,7 +411,6 @@
     post: DQq-UYsEm-W
     id: 03
     label: Backstage
-    published-date: 2025-11-05
     context:
     - show:
         year: 2025
@@ -429,7 +422,6 @@
     post: DQq-UYsEm-W
     id: 04
     label: Drum set
-    published-date: 2025-11-05
     context:
     - show:
         year: 2025
@@ -442,7 +434,6 @@
     id: 05
     label: On stage
     info: Cocoro
-    published-date: 2025-11-05
     context:
     - show:
         year: 2025
@@ -455,7 +446,6 @@
     id: 06
     label: On stage
     info: Cocoro
-    published-date: 2025-11-05
     context:
     - show:
         year: 2025
@@ -467,7 +457,6 @@
     post: DQq-UYsEm-W
     id: 07
     label: On stage
-    published-date: 2025-11-05
     context:
     - show:
         year: 2025
@@ -479,7 +468,6 @@
     post: DQq-V9WkuXh
     id: 01
     label: Natsu
-    published-date: 2025-11-05
     context:
     - show:
         year: 2025
@@ -491,7 +479,6 @@
     post: DQq-V9WkuXh
     id: 02
     label: Natsu
-    published-date: 2025-11-05
     context:
     - show:
         year: 2025
@@ -503,7 +490,6 @@
     post: DQqTuzlkUn5
     id: 01
     label: Band
-    published-date: 2025-11-13
     context:
     - show:
         year: 2025
@@ -1216,7 +1202,6 @@
     id: G0jA10Va8AAl_wd
     label: Bands
     info: BUZZER stage - day 1
-    published-date: 2025-09-12
     context:
     - show:
         year: 2025
@@ -1229,7 +1214,6 @@
     id: G0jA1z1bIAAHBld
     label: Bands
     info: BUZZER stage - day 2
-    published-date: 2025-09-12
     context:
     - show:
         year: 2025
@@ -1242,7 +1226,6 @@
     id: G0jA1z7bsAA0lDq
     label: Bands
     info: BUZZER stage - day 3
-    published-date: 2025-09-12
     context:
     - show:
         year: 2025
@@ -1254,7 +1237,6 @@
     post: 1966336018229121319
     id: G0nPdRUaYAAaVrH
     label: Flyer
-    published-date: 2025-09-12
     local-copy: true
     context:
     - show:
@@ -1267,7 +1249,6 @@
     post: 1966336018229121319
     id: G0nPfDKaMAgZmN1
     label: NEK! Poster
-    published-date: 2025-09-12
     context:
     - show:
         year: 2025
@@ -1279,7 +1260,6 @@
     post: 1967921415404789905
     id: G0uq9-QbcAMV7Hg
     label: Profile card
-    published-date: 2025-09-16
     context:
     - show:
         year: 2025
@@ -1291,7 +1271,6 @@
     post: 1984583590974538100
     id: G4qoQbebMAAaiFI
     label: Bands
-    published-date: 2025-11-01
     context:
     - show:
         year: 2025
@@ -1303,7 +1282,6 @@
     post: 1984877391978905779
     id: G4uzcEPbQAUE80u
     label: Venue
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1315,7 +1293,6 @@
     post: 1984877391978905779
     id: G4uzcERbQAIjlcC
     label: Band
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1327,7 +1304,6 @@
     post: 1984877391978905779
     id: G4uzcEUbQAAOv6C
     label: Band
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1339,7 +1315,6 @@
     post: 1984877391978905779
     id: G4uzcEXbQAAx1pc
     label: On stage
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1351,7 +1326,6 @@
     post: 1984879105540813293
     id: G4u1Bh6asAAzrD6
     label: Band
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1364,7 +1338,6 @@
     id: G4u1Bh8aAAAMYUe
     label: Backstage
     info: Cocoro
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1376,7 +1349,6 @@
     post: 1984879105540813293
     id: G4u1Bh9bQAEuppo
     label: On stage
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1389,7 +1361,6 @@
     id: G4u4deFaYAAD-6f
     label: On stage
     info: Kanade
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1402,7 +1373,6 @@
     id: G4u4deIbcAAKmYh
     label: Backstage
     info: Kanade
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1415,7 +1385,6 @@
     id: G4u6c0sbQAI0SIh
     label: On stage
     info: Natsu
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1427,7 +1396,6 @@
     post: 1984885071434956975
     id: G4u6c0ubQAA70De
     label: Band
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1439,7 +1407,6 @@
     post: 1984885753453891858
     id: G4u7EkaaIAAAv6w
     label: On stage
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1452,7 +1419,6 @@
     id: G4u7EkdbQAMCBbo
     label: Backstage
     info: Hika
-    published-date: 2025-11-02
     context:
     - show:
         year: 2025
@@ -1465,7 +1431,6 @@
     id: G4v5FlVasAAjuUD
     label: Backstage
     info: Straight Angeli, NEK!
-    published-date: 2025-11-03
     context:
     - show:
         year: 2025
@@ -1478,7 +1443,6 @@
     id: G4zKJFebkAANgd5
     label: Backstage
     info: Straight Angeli, NEK!
-    published-date: 2025-11-03
     context:
     - show:
         year: 2025
@@ -1490,7 +1454,6 @@
     post: 1985191533449285818
     id: G4zQaaka4AA_6Ep
     label: On stage
-    published-date: 2025-11-03
     context:
     - show:
         year: 2025
@@ -1503,7 +1466,6 @@
     id: G4zYlt5awAACzaJ
     label: Backstage
     info: KAWAII LAB. MATES, NEK!
-    published-date: 2025-11-03
     context:
     - show:
         year: 2025
@@ -1516,7 +1478,6 @@
     id: G4zpojvbUAAZcnd
     label: Backstage
     info: KAWAII LAB. MATES, NEK!
-    published-date: 2025-11-03
     context:
     - show:
         year: 2025
@@ -1528,7 +1489,6 @@
     post: 2017205804773028027
     id: G_6N8vZbUAAt-aG
     label: Recap on TV
-    published-date: 2026-01-30
     context:
     - show:
         year: 2025
@@ -1541,7 +1501,6 @@
     id: 01
     label: On stage
     info: Cocoro
-    published-date: 2025-11-02
     cover: 1984958984563101696/img/tE-iMdojy6Yj-_1G.jpg
     context:
     - show:

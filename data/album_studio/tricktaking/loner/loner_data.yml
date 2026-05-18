@@ -341,7 +341,6 @@
     id: 2
     label: MV image
     info: Cocoro
-    published-date: 2024-10-09
     context:
     - song: loner
     part-of:
@@ -352,7 +351,6 @@
     id: 3
     label: MV image
     info: Kanade
-    published-date: 2024-10-09
     context:
     - song: loner
     part-of:
@@ -363,7 +361,6 @@
     id: 4
     label: MV image
     info: Natsu
-    published-date: 2024-10-09
     context:
     - song: loner
     part-of:
@@ -374,7 +371,6 @@
     id: 5
     label: MV image
     info: Hika
-    published-date: 2024-10-09
     context:
     - song: loner
     part-of:
@@ -466,7 +462,6 @@
     post: 1841452746416767292
     id: GY4ngpVbQAA_HQ9
     label: Cover
-    published-date: 2024-10-02
     local-copy: true
     context:
     - song: loner
@@ -477,7 +472,6 @@
     post: 1834931219974504800
     id: 01
     label: Rehearsal
-    published-date: 2024-09-14
     cover: 1834931162852343810/pu/img/ZK0HsJ7FQ0aEqqA9.jpg
     context:
     - song: loner
@@ -488,7 +482,6 @@
     post: 1841448174680260940
     id: 01
     label: Music Video Teaser
-    published-date: 2024-10-02
     cover: 1841448133718622208/pu/img/5Ra30YQGqtE-ebFl.jpg
     context:
     - song: loner

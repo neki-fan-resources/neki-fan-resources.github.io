@@ -215,7 +215,6 @@
     post: C4Sb3qchJew
     id: 01
     label: On stage
-    published-date: 2025-11-12
     context:
     - show:
         year: 2024
@@ -228,7 +227,6 @@
     id: 03
     label: On stage
     info: Cocoro
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -240,7 +238,6 @@
     post: C4Sh0puxkc6
     id: 04
     label: Sidewalk board
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -252,7 +249,6 @@
     post: C4Sh0puxkc6
     id: 05
     label: Flyer distribution
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -891,7 +887,6 @@
     post: 1766243435357561130
     id: GIL1CWeaoAACz-Y
     label: all artist logos
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -903,7 +898,6 @@
     post: 1766243435357561130
     id: GIL1CWebMAAyx6P
     label: main venues schedule
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -915,7 +909,6 @@
     post: 1766243435357561130
     id: GIL1CWfbYAA9llo
     label: full schedule
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -928,7 +921,6 @@
     id: GIL1CWga8AA1ryU
     label: poster
     info: all the artists
-    published-date: 2024-03-09
     local-copy: true
     context:
     - show:
@@ -941,7 +933,6 @@
     post: 1766325171030564920
     id: GIM_YLhbcAAWN0m
     label: On stage
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -954,7 +945,6 @@
     id: GINcDdHawAAWX0B
     label: On stage
     info: Kanade, Hika
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -966,7 +956,6 @@
     post: 1766358235748110623
     id: GINdcN-bgAEl9zU
     label: On stage
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -978,7 +967,6 @@
     post: 1766464470363324596
     id: GIO92J5bMAAe4Il
     label: Backstage
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -990,7 +978,6 @@
     post: 1766464470363324596
     id: GIO92J7b0AAOR0t
     label: Sidewalk board
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -1002,7 +989,6 @@
     post: 1766464470363324596
     id: GIO92KpbEAAAZDw
     label: On stage
-    published-date: 2024-03-09
     context:
     - show:
         year: 2024
@@ -1015,7 +1001,6 @@
     id: 01
     label: 7 second video
     info: band presentation
-    published-date: 2024-03-08
     cover: 1765896205954105344/pu/img/cdaeTH9p6M734oYJ.jpg
     context:
     - show:
@@ -1030,7 +1015,6 @@
     post: 1766065326050206120
     id: 01
     label: Members presentation
-    published-date: 2024-03-08
     cover: 1765899287886729216/pu/img/ZZe2vPYvsy6iELJx.jpg
     context:
     - show:
@@ -1045,7 +1029,6 @@
     post: 1766464470363324596
     id: 01
     label: Distributing flyers
-    published-date: 2024-03-09
     cover: 1766464216935100416/pu/img/bcUGlwWe0YVM_dvk.jpg
     context:
     - show:

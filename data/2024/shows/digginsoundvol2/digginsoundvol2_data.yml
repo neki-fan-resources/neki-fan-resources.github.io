@@ -116,7 +116,6 @@
     post: DC_uUelvxBs
     id: 2
     label: On stage
-    published-date: 2024-11-30
     context:
     - show:
         year: 2024
@@ -128,7 +127,6 @@
     post: DC_uUelvxBs
     id: 4
     label: Backstage
-    published-date: 2024-11-30
     context:
     - show:
         year: 2024
@@ -327,7 +325,6 @@
     post: 1829353768691089610
     id: GWMra3YbIAARNIP
     label: Flyer
-    published-date: 2024-08-30
     context:
     - show:
         year: 2024
@@ -339,7 +336,6 @@
     post: 1839512246881558643
     id: GYdCo30bcAEG1TL
     label: Flyer
-    published-date: 2024-09-27
     context:
     - show:
         year: 2024
@@ -351,7 +347,6 @@
     post: 1856985434020061342
     id: GcPSyaLasAE0E3-
     label: poster
-    published-date: 2024-11-14
     local-copy: true
     context:
     - show:
@@ -364,7 +359,6 @@
     post: 1861777970496737413
     id: GdZdMhdaoAARviY
     label: On stage
-    published-date: 2024-11-27
     context:
     - show:
         year: 2024
@@ -376,7 +370,6 @@
     post: 1861777970496737413
     id: GdZdMhdbgAA1c76
     label: On stage
-    published-date: 2024-11-27
     context:
     - show:
         year: 2024
@@ -388,7 +381,6 @@
     post: 1851187227730358585
     id: 01
     label: Band presentaiton
-    published-date: 2024-10-29
     cover: 1848915186138419202/pu/img/Pbg-xEml4-zgQG76.jpg
     context:
     - show:
@@ -401,7 +393,6 @@
     post: 1856985434020061342
     id: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
     label: Artists presentation
-    published-date: 2024-11-14
     cover: 1856559489245425664/pu/img/SpsFR8nhXy8j_dZo.jpg
     context:
     - show:

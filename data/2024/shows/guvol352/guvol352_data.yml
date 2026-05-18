@@ -123,7 +123,6 @@
     id: 1
     label: On stage
     info: Kanade
-    published-date: 2024-05-09
     context:
     - show:
         year: 2024
@@ -135,7 +134,6 @@
     post: C6wWNttRmfK
     id: 1
     label: On stage
-    published-date: 2024-05-09
     context:
     - show:
         year: 2024
@@ -147,7 +145,6 @@
     post: C6wWNttRmfK
     id: 2
     label: On stage
-    published-date: 2024-05-09
     context:
     - show:
         year: 2024
@@ -160,7 +157,6 @@
     id: 3
     label: On stage
     info: Cocoro
-    published-date: 2024-05-09
     context:
     - show:
         year: 2024
@@ -172,7 +168,6 @@
     post: C6wWNttRmfK
     id: 4
     label: Backstage
-    published-date: 2024-05-09
     context:
     - show:
         year: 2024
@@ -255,7 +250,6 @@
     post: 1788471211137306929
     id: GNHsX4GbUAAlOcj
     label: sidewalk board
-    published-date: 2024-05-09
     local-copy: true
     context:
     - show:
@@ -268,7 +262,6 @@
     post: 1788569974711423099
     id: GNJG55AaAAA7iH0
     label: On stage
-    published-date: 2024-05-09
     context:
     - show:
         year: 2024
@@ -280,7 +273,6 @@
     post: 1788569974711423099
     id: GNJG55AbEAE8huZ
     label: Sidewalk board
-    published-date: 2024-05-09
     context:
     - show:
         year: 2024

@@ -155,7 +155,6 @@
     post: DR1d7rvkgoa
     id: 02
     label: On stage
-    published-date: 2025-12-04
     context:
     - show:
         year: 2025
@@ -167,7 +166,6 @@
     post: DR1d7rvkgoa
     id: 03
     label: Cajon
-    published-date: 2025-12-04
     context:
     - show:
         year: 2025
@@ -179,7 +177,6 @@
     post: DR1d7rvkgoa
     id: 04
     label: Backstage
-    published-date: 2025-12-04
     context:
     - show:
         year: 2025
@@ -191,7 +188,7 @@
     id: 1991367994325561515
     account: coco_102
     label: Looking forward
-    published-date: 2025-11-21
+    published-date: 2025-11-20
     text: |-
       アコースティックリリイベ楽しみ😌
     translation: |-
@@ -519,7 +516,6 @@
     post: 1994605574785568784
     id: G65DMI5aEAA81ez
     label: Signing towel
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -531,7 +527,6 @@
     post: 1994605574785568784
     id: G65DMI8aEAEiVdD
     label: Band
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -544,7 +539,6 @@
     id: G65K0JnbkAMshtC
     label: On stage
     info: Kanade
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -557,7 +551,6 @@
     id: G65K0JqakAAbZIt
     label: On stage
     info: Kanade
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -570,7 +563,6 @@
     id: G65X500bkAAecjn
     label: On stage
     info: acoustic
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -582,7 +574,6 @@
     post: 1994709931984130091
     id: G66iEP6bkAAdjFc
     label: Band
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -594,7 +585,6 @@
     post: 1994709931984130091
     id: G66iEPwbkAIohA0
     label: Name tags
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -607,7 +597,6 @@
     id: G66oJpKaMAAblwi
     label: On stage
     info: Kanade
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -620,7 +609,6 @@
     id: G66tBqbacAAxII8
     label: On stage
     info: Cocoro
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -632,7 +620,6 @@
     post: 1994721944856662230
     id: G66tBqebEAA2CUs
     label: Band
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -645,7 +632,6 @@
     id: G667gHDbkAUE1aJ
     label: On stage
     info: Natsu
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -658,7 +644,6 @@
     id: G669Wa-bkAAWeK7
     label: Backstage
     info: Natsu, Hika
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -671,7 +656,6 @@
     id: G669Wb9bkAMcydk
     label: Backstage
     info: Hika, Cocoro
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -684,7 +668,6 @@
     id: G669WbJbkAgw3FJ
     label: Backstage
     info: Kanade, Hika
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -697,7 +680,6 @@
     id: G669WbmbkAcE7y8
     label: On stage
     info: Hika
-    published-date: 2025-11-29
     context:
     - show:
         year: 2025
@@ -710,7 +692,6 @@
     id: G6-eBrtbkAI39UK
     label: At the venue
     info: Kanade
-    published-date: 2025-11-30
     context:
     - show:
         year: 2025
@@ -723,7 +704,6 @@
     id: G6-eBrvbAAAsQnM
     label: At the venue
     info: Kanade
-    published-date: 2025-11-30
     context:
     - show:
         year: 2025
@@ -735,7 +715,6 @@
     post: 1991367994325561515
     id: 01
     label: Rehearsal
-    published-date: 2025-11-20
     cover: 1991367932233109504/img/0HZA0tZvsw8OIB8S.jpg
     context:
     - show:

@@ -952,31 +952,6 @@
         video: 01
 
 - postx:
-    id: 1897498888921342444
-    account: skream_japan
-    label: Article on the MV release
-    published-date: 2025-03-06
-    text: |-
-      "スラングロックバンド"NEK!、2nd EP『TR!CK TAK!NG』より"青春真っただ中のNEK!の輝きを感じることができる"収録曲「Dreams!!!!」MV公開 https://skream.jp/news/2025/03/neki_dreams_mv.php
-      
-      #NEKI
-      #TRICKTAKING
-    translation: |-
-      "Slang Rock Band" NEK! releases "Dreams!!!!" MV from 2nd EP "TR!CK TAK!NG", a track where you can "feel the brilliance of NEK! in the midst of their youth" https://skream.jp/news/2025/03/neki_dreams_mv.php
-      
-      #NEKI
-      #TRICKTAKING
-    image:
-    - GlVFBh7a4AQgG9E
-    todo: webpage
-    part-of:
-      song: dreams
-    reference:
-    - postximage:
-        post: 1873309518450548860
-        image: Gf9DBuxb0AAbeCQ
-
-- postx:
     id: 1899396797149356382
     account: nekiband_jp
     label: 30k views
@@ -1248,17 +1223,6 @@
         id: 2ndonemanlive
     part-of:
       postx: 1868989699446260040
-
-- postximage:
-    post: 1897498888921342444
-    id: GlVFBh7a4AQgG9E
-    label: MV image
-    info: Hika
-    local-copy: true
-    context:
-    - song: dreams
-    part-of:
-      postx: 1897498888921342444
 
 - postximage:
     post: 1899396797149356382

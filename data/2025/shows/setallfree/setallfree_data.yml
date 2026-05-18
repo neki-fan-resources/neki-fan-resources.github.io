@@ -364,7 +364,6 @@
     image:
     - GjHsI4CbAAAHsw5
     - GjHsI37aQAAROpf
-    todo: check exact name for SORA
     part-of:
       show:
         year: 2025
@@ -463,7 +462,7 @@
     post: 1887549367550419131
     id: GjHsI37aQAAROpf
     label: Drummers
-    info: Cocoro, SORA
+    info: SORA (Wisteria support), Cocoro
     context:
     - show:
         year: 2025
@@ -475,7 +474,7 @@
     post: 1887549367550419131
     id: GjHsI4CbAAAHsw5
     label: Drummers
-    info: Cocoro, SORA
+    info: SORA (Wisteria support), Cocoro
     context:
     - show:
         year: 2025

@@ -171,6 +171,10 @@
                     image: GmSmtbracAAUUqq
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: e.usen.com
+                    page: '-nek316o-west'
+                    id: 05
                 - postinstagramimage:
                     post: DHTDrMZRjhM
                     image: 4
@@ -2436,6 +2440,52 @@
       show:
         year: 2025
         id: tricktakingtourtokyo
+
+- webimage:
+    domain: e.usen.com
+    page: '-nek316o-west'
+    id: 05
+    label: On stage
+    info: Kanade
+    published-date: 2025-03-18
+    url: 'https://e.usen.com/image/NEK%21_0316_05.jpg'
+    context:
+    - show:
+        year: 2025
+        id: tricktakingtourtokyo
+    part-of:
+      webpage:
+        domain: e.usen.com
+        id: '-nek316o-west'
+
+- webpage:
+    domain: e.usen.com
+    id: '-nek316o-west'
+    label: Show report
+    published-date: 2025-03-18
+    url: 'https://e.usen.com/news/news-event/-nek316o-west.html'
+    image:
+    - 05
+    part-of:
+      show:
+        year: 2025
+        id: tricktakingtourtokyo
+    reference:
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOOzfbEAA3Ocq
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOQD1b0AAeAez
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOQ-qacAAAPmN
+    - postximage:
+        post: 1901583979649872081
+        image: GmPIi16b0AA_TKO
+    - postinstagramimage:
+        post: DHS7gafPqYZ
+        image: 6
 
 - youtubeshort:
     id: 1JgqY5V6fCE

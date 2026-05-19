@@ -20,7 +20,7 @@ object MultimediaCompiledDataProcessor {
   val missingMultimediaCompiledData: MultimediaCompiledData = MultimediaCompiledData(
     Common.MISSING,
     Common.MISSING,
-    Path("asset", "image", "site", "logo-ph.png").toAbsoluteString(),
+    Path("asset", "image", "site", "manekineko-200px.png").toAbsoluteString(),
     Common.MISSING,
     Common.MISSING_URL,
     Common.MISSING_DATE,

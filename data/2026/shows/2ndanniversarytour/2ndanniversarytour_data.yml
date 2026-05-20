@@ -155,6 +155,36 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postinstagram:
+    id: DYg4N8FkUeg
+    account: nekiband_jp
+    label: Photos
+    published-date: 2026-05-19
+    text: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      初めての全国ツアーの思い出💭
+      
+      #NEKI
+    translation: |-
+      NEK! 2nd ANNIVERSARY LIVE TOUR 2026
+      Memories of our first nationwide tour💭
+      
+      #NEKI
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 6
+    - 7
+    - 8
+    part-of:
+      tour: 2ndanniversarytour
+    reference:
+    - postximage:
+        post: 2037479908369387767
+        image: HEaVI8vbsAA3xTV
+
 - postinstagramimage:
     post: DUczOG9EZm-
     id: 1
@@ -281,6 +311,91 @@
         id: 2ndkumamoto
     part-of:
       postinstagram: DYWB3htmkZ2
+
+- postinstagramimage:
+    post: DYg4N8FkUeg
+    id: 1
+    label: Backstage
+    info: Kanade, Natsu
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      postinstagram: DYg4N8FkUeg
+
+- postinstagramimage:
+    post: DYg4N8FkUeg
+    id: 2
+    label: Backstage
+    info: Hika, Cocoro
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postinstagram: DYg4N8FkUeg
+
+- postinstagramimage:
+    post: DYg4N8FkUeg
+    id: 3
+    label: Backstage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postinstagram: DYg4N8FkUeg
+
+- postinstagramimage:
+    post: DYg4N8FkUeg
+    id: 4
+    label: Backstage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    todo: which show ?
+    part-of:
+      postinstagram: DYg4N8FkUeg
+
+- postinstagramimage:
+    post: DYg4N8FkUeg
+    id: 6
+    label: Backstage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: fomareakita
+    part-of:
+      postinstagram: DYg4N8FkUeg
+
+- postinstagramimage:
+    post: DYg4N8FkUeg
+    id: 7
+    label: Backstage
+    info: Hika
+    context:
+    - show:
+        year: 2024
+        id: 2ndonemanlive
+    todo: which show ? maybe Kobe ?
+    part-of:
+      postinstagram: DYg4N8FkUeg
+
+- postinstagramimage:
+    post: DYg4N8FkUeg
+    id: 8
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: 2ndkumamoto
+    part-of:
+      postinstagram: DYg4N8FkUeg
 
 - postx:
     id: 1976200916698267749
@@ -687,6 +802,44 @@
     part-of:
       tour: 2ndanniversarytour
 
+- postx:
+    id: 2056668712342823113
+    account: nekiband_jp
+    label: Update post
+    published-date: 2026-05-19
+    text: |-
+      ファンクラブコンテンツ更新！
+      
+      「NEK!初めての全国ツアーの思い出。」
+      #ネキ民 限定バージョン✌️
+      
+      ▼FC PHOTOはこちら✔️
+      https://neki.bitfan.id/contents/menu/166310
+      
+      ▼FCご入会✔️
+      https://neki.bitfan.id/contents/menu/167052
+      
+      #NEKI
+    translation: |-
+      Fan club content updated!
+      
+      "NEK! Memories of the first nationwide tour."
+      #NEKImin limited version ✌️
+      
+      ▼Click here for FC PHOTO ✔️
+      https://neki.bitfan.id/contents/menu/166310
+      
+      ▼Join FC ✔️
+      https://neki.bitfan.id/contents/menu/167052
+      
+      #NEKI
+    image:
+    - HIrBSwZbYAAlJ1F
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 388506
+
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
@@ -832,6 +985,18 @@
     part-of:
       postx: 2045071645271019969
 
+- postximage:
+    post: 2056668712342823113
+    id: HIrBSwZbYAAlJ1F
+    label: Backstage
+    info: Cocoro, Natsu
+    context:
+    - show:
+        year: 2026
+        id: 2ndosaka
+    part-of:
+      postx: 2056668712342823113
+
 - postxvideo:
     post: 1976295615287132520
     id: 01
@@ -897,6 +1062,14 @@
     part-of:
       tour: 2ndanniversarytour
 
+- update:
+    tour: 2ndanniversarytour
+    date: 2026-05-19
+    text:
+    - New pictures from the tour. Backstage and drum sets.
+    part-of:
+      tour: 2ndanniversarytour
+
 - webimage:
     domain: note.com.nekiband
     page: n24f4c4a23534
@@ -925,6 +1098,15 @@
       webpage:
         domain: note.com.nekiband
         id: n3d37c2c897c8
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 388506
+    label: Fan Club photos
+    published-date: 2026-05-19
+    url: 'https://neki.bitfan.id/contents/388506'
+    part-of:
+      tour: 2ndanniversarytour
 
 - webpage:
     domain: note.com.nekiband

@@ -36,17 +36,92 @@
         year: 2026
         id: sendaimusicfuse
 
+- postx:
+    id: 2056676242741465274
+    account: sendaimusicfuse
+    label: Lineup and timetable
+    published-date: 2026-05-19
+    text: |-
+      🍀SENDAI MUSIC FUSE🍀
+      
+      /／
+      　最終出演アーティスト発表 ＆
+      　タイムテーブル公開
+      \＼
+      
+      大変お待たせいたしました‼️
+      
+      全出演アーティストが出揃いました👯
+      タイムテーブルも公開です⏰
+      
+      お見逃しのないようプロフィール欄の当方HPをさらにチェック✔︎
+      
+      #SMF
+      #SMF2026 
+      #FUSE
+      #仙台
+      #サーキットフェス
+    translation: |-
+      🍀SENDAI MUSIC FUSE🍀
+      
+      /／
+      　Final Artist Lineup Announcement &
+      　Timetable Revealed
+      \＼
+      
+      Thank you so much for waiting‼️
+      
+      The full artist lineup is finally here👯
+      The timetable has also been released⏰
+      
+      Don't miss out, check our website via the profile section for more details✔︎
+      
+      #SMF
+      #SMF2026 
+      #FUSE
+      #Sendai
+      #CircuitFest
+    image:
+    - HIpn9YbbcAAwgru
+    - HIpoAJrbMAAQ8JI
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
 - postximage:
     post: 2042905506399031322
     id: HFnbun-asAAqMYf
     label: 3rd lineup
-    local-copy: true
     context:
     - show:
         year: 2026
         id: sendaimusicfuse
     part-of:
       postx: 2042905506399031322
+
+- postximage:
+    post: 2056676242741465274
+    id: HIpn9YbbcAAwgru
+    label: Poster
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2056676242741465274
+
+- postximage:
+    post: 2056676242741465274
+    id: HIpoAJrbMAAQ8JI
+    label: Timetable
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2056676242741465274
 
 - update:
     show:

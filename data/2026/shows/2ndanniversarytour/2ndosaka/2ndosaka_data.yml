@@ -8,6 +8,20 @@
         label: main
         sections:
         - basicsection:
+            subsections:
+            - textsubsection:
+                label: '#ネキ民 '
+                lines:
+                - line:
+                  - text: 'Additional photos are available in the Fan Club:'
+                  - newline: ''
+                  - text: '- '
+                  - webitem:
+                      webpage:
+                        domain: neki.bitfan.id
+                        id: 388506
+                      text: backstage photos
+        - basicsection:
             label: At the show
             subsections:
             - multimediasubsection:
@@ -59,6 +73,14 @@
                 - postinstagramimage:
                     post: DXT9CtUkSlL
                     image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DYg4N8FkUeg
+                    image: 2
+                - postximage:
+                    post: 2056668712342823113
+                    image: HIrBSwZbYAAlJ1F
             - multimediasubsection:
                 multimedia:
                 - postximage:

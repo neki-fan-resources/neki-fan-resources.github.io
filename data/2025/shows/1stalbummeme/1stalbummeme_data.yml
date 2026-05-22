@@ -156,6 +156,21 @@
                 - postinstagramimage:
                     post: DRm1Kr-ktOU
                     image: 2
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the show announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1011489
+                      text: barks.jp
     part-of:
       show:
         year: 2025

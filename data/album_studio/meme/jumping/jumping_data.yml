@@ -93,7 +93,7 @@
                     image: G9gcVIebgAA457T
     - basicblock:
         id: othermedia
-        label: In other media
+        label: Used in
         sections:
         - basicsection:
             subsections:
@@ -102,6 +102,21 @@
                 - postxvideo:
                     post: 2039628652141572363
                     video: 01
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the music video release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1038775
+                      text: barks.jp
     part-of:
       song: jumping
 
@@ -663,6 +678,20 @@
     - Added the English translation of the lyrics from the YouTube video
     part-of:
       song: jumping
+
+- webpage:
+    domain: barks.jp
+    id: 1038775
+    label: Article on the MV release
+    published-date: 2026-01-01
+    url: 'https://barks.jp/news/1038775/'
+    part-of:
+      song: jumping
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - youtubevideo: EUuiBgbxtZI
 
 - youtubeshort:
     id: 5kzh2H9res4

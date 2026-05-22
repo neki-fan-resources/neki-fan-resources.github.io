@@ -91,6 +91,21 @@
                 - postximage:
                     post: 1943641464397062330
                     image: GvkzmwJWEAA9mgY
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the live video release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1001567
+                      text: barks.jp
     part-of:
       song: fool
 
@@ -1270,6 +1285,24 @@
     - Refreshed and organized the videos and images
     part-of:
       song: fool
+
+- webpage:
+    domain: barks.jp
+    id: 1001567
+    label: Article on live video release
+    published-date: 2025-07-12
+    url: 'https://barks.jp/news/1001567/'
+    part-of:
+      song: fool
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: urGmtrd7zbA
+    - webimage:
+        domain: note.com.nekiband
+        page: ne1cfc8d70c87
+        id: flyer
 
 - youtubeshort:
     id: QJzDlj_jpfE

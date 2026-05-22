@@ -246,6 +246,30 @@
                 - postinstagramimage:
                     post: DQLwCqfEmmX
                     image: 3
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the song announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1029045
+                      text: barks.jp
+            - textsubsection:
+                label: Articles on the song release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1032119
+                      text: barks.jp
     part-of:
       song: gimmick
 
@@ -1877,6 +1901,35 @@
     - Refreshed and organized the videos and images
     part-of:
       song: gimmick
+
+- webpage:
+    domain: barks.jp
+    id: 1029045
+    label: Article about GiMMiCK release date, and Girls Up!!! vol.395 show
+    published-date: 2025-11-02
+    url: 'https://barks.jp/news/1029045/'
+    part-of:
+      song: gimmick
+    reference:
+    - show:
+        year: 2026
+        id: guvol395
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: barks.jp
+    id: 1032119
+    label: Article on release and MV announcement
+    published-date: 2025-11-19
+    url: 'https://barks.jp/news/1032119/'
+    part-of:
+      song: gimmick
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
 
 - youtubeshort:
     id: 2RLrJP3MB1w

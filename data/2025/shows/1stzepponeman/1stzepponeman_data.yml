@@ -387,6 +387,21 @@
                     domain: note.com.nekiband
                     page: nced90123f587
                     id: merchlottery
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Live reports
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1019083
+                      text: barks.jp
     part-of:
       show:
         year: 2025
@@ -2421,7 +2436,7 @@
 - webpage:
     domain: barks.jp
     id: 1019083
-    label: Recap article
+    label: Live report article
     published-date: 2025-09-13
     url: 'https://barks.jp/news/1019083/'
     image:

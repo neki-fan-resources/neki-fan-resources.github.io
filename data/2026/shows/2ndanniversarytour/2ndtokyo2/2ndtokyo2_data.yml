@@ -304,6 +304,21 @@
                     domain: note.com.nekiband
                     page: nc38529fda3e3
                     id: merchsticker
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Live reports
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1064822
+                      text: barks.jp
     part-of:
       show:
         year: 2026
@@ -2251,6 +2266,45 @@
       webpage:
         domain: rockinon.com
         id: 215096
+
+- webpage:
+    domain: barks.jp
+    id: 1064822
+    label: Show report
+    published-date: 2026-05-05
+    url: 'https://barks.jp/news/1064822/'
+    todo: photo from DX1oGdekp5Q
+    part-of:
+      show:
+        year: 2026
+        id: 2ndtokyo2
+    reference:
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 8
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 2
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 6
+    - postinstagramimage:
+        post: DXqgV34GhTr
+        image: 1
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 5
+    - webimage:
+        domain: billboard-japan.com
+        page: 161027
+        id: 7
+    - postximage:
+        post: 2048371387908366467
+        image: HG1GVlBagAEBAI5
 
 - webpage:
     domain: billboard-japan.com

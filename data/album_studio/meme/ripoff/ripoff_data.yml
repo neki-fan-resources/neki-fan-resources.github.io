@@ -195,6 +195,39 @@
                 - postxvideo:
                     post: 1958861801078366328
                     video: 01
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles about the song announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1004119
+                      text: barks.jp
+            - textsubsection:
+                label: Articles on the song release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1005755
+                      text: barks.jp
+            - textsubsection:
+                label: Articles on the music video release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1009322
+                      text: barks.jp
     part-of:
       song: ripoff
 
@@ -2381,6 +2414,49 @@
     - Refreshed and organized the videos and images
     part-of:
       song: ripoff
+
+- webpage:
+    domain: barks.jp
+    id: 1004119
+    label: Article on the announcement
+    published-date: 2025-07-27
+    url: 'https://barks.jp/news/1004119/'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - postximage:
+        post: 1949439923565826120
+        image: Gw3NH3ubMAA1o7y
+
+- webpage:
+    domain: barks.jp
+    id: 1005755
+    label: Article on the song release
+    published-date: 2025-08-06
+    url: 'https://barks.jp/news/1005755/'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+
+- webpage:
+    domain: barks.jp
+    id: 1009322
+    label: Article on the music video release
+    published-date: 2025-08-23
+    url: 'https://barks.jp/news/1009322/'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: OkQV2Vo9EgE
 
 - youtubeshort:
     id: 0oger2CvQP0

@@ -199,6 +199,21 @@
                     post: 1896939044342481315
                     video: 01
     - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the music video release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 545222
+                      text: barks.jp
+    - basicblock:
         id: community
         label: Community
         sections:

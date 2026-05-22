@@ -1,3 +1,24 @@
+- display:
+    tour: majordebuttour
+    blocks:
+    - basicblock:
+        id: main
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the tour announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1063579
+                      text: barks.jp
+    part-of:
+      tour: majordebuttour
+
 - postx:
     id: 2048345088838050111
     account: nekiband_jp

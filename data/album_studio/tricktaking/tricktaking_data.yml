@@ -205,6 +205,21 @@
                 - postximage:
                     post: 1897572933943296231
                     image: GlWFGcRaAAAg0IL
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the EP release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 545222
+                      text: barks.jp
     part-of:
       album: tricktaking
 
@@ -1914,6 +1929,20 @@
       webpage:
         domain: note.com.nekiband
         id: n35921564900b
+
+- webpage:
+    domain: barks.jp
+    id: 545222
+    label: Article on the album release
+    published-date: 2025-03-05
+    url: 'https://barks.jp/news/545222/'
+    part-of:
+      album: tricktaking
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: 0YlW7T5fVZ4
 
 - webpage:
     domain: note.com.nekiband

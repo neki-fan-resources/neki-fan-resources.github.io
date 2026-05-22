@@ -90,6 +90,21 @@
                 - postxvideo:
                     post: 1991367994325561515
                     video: 01
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the show announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1028564
+                      text: barks.jp
     part-of:
       show:
         year: 2025
@@ -772,6 +787,21 @@
       webpage:
         domain: note.com.nekiband
         id: n2084dc95cb47
+
+- webpage:
+    domain: barks.jp
+    id: 1028564
+    label: Article on the announcement
+    published-date: 2025-10-30
+    url: 'https://barks.jp/news/1028564/'
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
 
 - webpage:
     domain: note.com.nekiband

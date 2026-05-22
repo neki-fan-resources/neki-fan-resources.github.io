@@ -61,6 +61,21 @@
                     domain: tower.jp
                     page: 2025.10.03.0706
                     id: 10127538
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the event announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1023714
+                      text: barks.jp
     part-of:
       event: iwanttostartaband
 

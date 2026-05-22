@@ -194,6 +194,30 @@
                 - postxvideo:
                     post: 1935306568406544563
                     video: 01
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the song release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 992435
+                      text: barks.jp
+            - textsubsection:
+                label: Articles on the music video release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 996886
+                      text: barks.jp
     part-of:
       song: ooak
 
@@ -1347,6 +1371,32 @@
     - Rehearsal video from Cocoro
     part-of:
       song: ooak
+
+- webpage:
+    domain: barks.jp
+    id: 992435
+    label: Article on the song release
+    published-date: 2025-06-04
+    url: 'https://barks.jp/news/992435/'
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+
+- webpage:
+    domain: barks.jp
+    id: 996886
+    label: Article on the MV release
+    published-date: 2025-06-20
+    url: 'https://barks.jp/news/996886/'
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - youtubeshort:
     id: '-FTj1689vaY'

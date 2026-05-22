@@ -246,6 +246,21 @@
                     post: DJO4LpSJkzO
                     image: 2
     - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the live video release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 548011
+                      text: barks.jp
+    - basicblock:
         id: community
         label: Community
         sections:
@@ -1782,6 +1797,20 @@
     - Added rōmaji and word-by-word translation
     part-of:
       song: getover
+
+- webpage:
+    domain: barks.jp
+    id: 548011
+    label: Article on the live video release
+    published-date: 2025-05-04
+    url: 'https://barks.jp/news/548011/'
+    part-of:
+      song: getover
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: IeBks9yGO4A
 
 - youtubeshort:
     id: 1VU7-KQyOvg

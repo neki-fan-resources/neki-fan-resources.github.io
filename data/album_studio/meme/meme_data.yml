@@ -208,6 +208,36 @@
                 - postximage:
                     post: 1993538605424558161
                     image: G6p4y03bwAMu3Q2
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the album announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1011489
+                      text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1023714
+                      text: barks.jp
+            - textsubsection:
+                label: Articles on the album release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1032845
+                      text: barks.jp
     todo: Put text about the different editions, more multimedia to sort
     part-of:
       album: meme
@@ -2319,6 +2349,61 @@
       webpage:
         domain: note.com.nekiband
         id: n828855136334
+
+- webpage:
+    domain: barks.jp
+    id: 1011489
+    label: Article on the album announcement
+    published-date: 2025-08-30
+    url: 'https://barks.jp/news/1011489/'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-A0MaAAAtcNa
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-C69aoAADilM
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-Eg6boAEMEc0
+    - postximage:
+        post: 1984204555832397939
+        image: G4lNm20aAAAHFKv
+
+- webpage:
+    domain: barks.jp
+    id: 1023714
+    label: Article about MEME, 2nd anniversary tour, tower records partnership
+    published-date: 2025-10-03
+    url: 'https://barks.jp/news/1023714/'
+    todo: find out where to reference this article
+    part-of:
+      album: meme
+    reference:
+    - event: iwanttostartaband
+    - tour: 2ndanniversarytour
+
+- webpage:
+    domain: barks.jp
+    id: 1032845
+    label: Article on the release
+    published-date: 2025-11-26
+    url: 'https://barks.jp/news/1032845/'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-Eg6boAEMEc0
+    - youtubevideo: js9WXQHa5J0
 
 - webpage:
     domain: note.com.nekiband

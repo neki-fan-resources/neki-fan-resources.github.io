@@ -378,6 +378,22 @@
         id: nd2cd773b5ebe
 
 - webpage:
+    domain: barks.jp
+    id: 1045284
+    label: Article on the show announcement
+    published-date: 2026-02-16
+    url: 'https://barks.jp/news/1045284/'
+    part-of:
+      show:
+        year: 2026
+        id: fomareakita
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nd2cd773b5ebe
+        id: poster
+
+- webpage:
     domain: note.com.nekiband
     id: nd2cd773b5ebe
     label: Opening for FOMARE

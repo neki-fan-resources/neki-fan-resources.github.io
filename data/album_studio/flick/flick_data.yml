@@ -1,3 +1,24 @@
+- display:
+    song: flick
+    blocks:
+    - basicblock:
+        id: main
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the song announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1063579
+                      text: barks.jp
+    part-of:
+      song: flick
+
 - update:
     song: flick
     date: 2026-04-27
@@ -18,6 +39,23 @@
       webpage:
         domain: neki.bitfan.id
         id: 379562
+
+- webpage:
+    domain: barks.jp
+    id: 1063579
+    label: Article on the song announcement
+    published-date: 2026-04-26
+    url: 'https://barks.jp/news/1063579/'
+    part-of:
+      song: flick
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - webimage:
+        domain: neki.bitfan.id
+        page: 379562
+        id: announcement
 
 - webpage:
     domain: neki.bitfan.id

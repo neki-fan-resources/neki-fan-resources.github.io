@@ -73,6 +73,21 @@
                 - postximage:
                     post: 2007698283565854834
                     image: G9zG8pSbIAArE4D
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the show announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1029045
+                      text: barks.jp
     part-of:
       show:
         year: 2026

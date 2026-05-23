@@ -171,6 +171,12 @@
                         domain: barks.jp
                         id: 1011489
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 638364
+                      text: natalie.mu
     part-of:
       show:
         year: 2025

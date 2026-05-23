@@ -40,12 +40,40 @@
             - multimediasubsection:
                 label: Images
                 multimedia:
-                - postinstagramimage:
-                    post: DKdwjfZvq_r
-                    image: 4
                 - postximage:
                     post: 1929838014714597729
                     image: GsgpaTQb0AAv3Zr
+                - webimage:
+                    domain: natalie.mu
+                    page: 626363
+                    id: 2609964
+                - postinstagramimage:
+                    post: DKdwjfZvq_r
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 626363
+                    id: 2609962
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 626363
+                    id: 2609961
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 626363
+                    id: 2609965
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 626363
+                    id: 2609963
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -77,6 +105,18 @@
                 - postximage:
                     post: 1929531593523081226
                     image: GscSvrHbMAAqkrT
+                - webimage:
+                    domain: natalie.mu
+                    page: 626363
+                    id: 2609969
+                - webimage:
+                    domain: natalie.mu
+                    page: 626363
+                    id: 2609967
+                - webimage:
+                    domain: natalie.mu
+                    page: 626363
+                    id: 2609966
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -93,6 +133,21 @@
                 - postxvideo:
                     post: 1925839253633695948
                     video: e0a878eb-034c-48b4-8db2-b37112a4e44a
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Live reports
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 626363
+                      text: natalie.mu
     part-of:
       show:
         year: 2025
@@ -585,7 +640,7 @@
 - postximage:
     post: 1929531593523081226
     id: GscSvrHbMAAqkrT
-    label: The 2 bands
+    label: Bands
     info: NEK!, konsume
     context:
     - show:
@@ -727,6 +782,173 @@
       show:
         year: 2025
         id: nekikomsumetokyo
+
+- webimage:
+    domain: natalie.mu
+    page: 626363
+    id: 2609961
+    label: On stage
+    info: Cocoro
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/0605/nek_live1.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/626363/2609961'
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 626363
+
+- webimage:
+    domain: natalie.mu
+    page: 626363
+    id: 2609962
+    label: On stage
+    info: Natsu
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/0605/nek_live2.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/626363/2609962'
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 626363
+
+- webimage:
+    domain: natalie.mu
+    page: 626363
+    id: 2609963
+    label: On stage
+    info: Hika
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/0605/nek_live3.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/626363/2609963'
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 626363
+
+- webimage:
+    domain: natalie.mu
+    page: 626363
+    id: 2609964
+    label: On stage
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/0605/nek_live4.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/626363/2609964'
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 626363
+
+- webimage:
+    domain: natalie.mu
+    page: 626363
+    id: 2609965
+    label: On stage
+    info: Kanade
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/0605/nek_live5.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/626363/2609965'
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 626363
+
+- webimage:
+    domain: natalie.mu
+    page: 626363
+    id: 2609966
+    label: Bands
+    info: NEK!, konsume
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/0605/nek_komsume_1.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/626363/2609966'
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 626363
+
+- webimage:
+    domain: natalie.mu
+    page: 626363
+    id: 2609967
+    label: Bands
+    info: NEK!, konsume
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/0605/nek_komsume_2.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/626363/2609967'
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 626363
+
+- webimage:
+    domain: natalie.mu
+    page: 626363
+    id: 2609969
+    label: Bands
+    info: NEK!, konsume
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/0605/nek_komsume_4.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/626363/2609969'
+    context:
+    - show:
+        year: 2025
+        id: nekikomsumetokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 626363
+
+- webpage:
+    domain: natalie.mu
+    id: 626363
+    label: Show report
+    published-date: 2025-06-05
+    url: 'https://natalie.mu/music/news/626363'
+    image:
+    - 2609961
+    - 2609962
+    - 2609963
+    - 2609964
+    - 2609965
+    - 2609966
+    - 2609967
+    - 2609969
+    part-of:
+      show:
+        year: 2025
+        id: nekikomsumetokyo
+    reference:
+    - postximage:
+        post: 1929531593523081226
+        image: GscSvrHbMAAqkrT
 
 - youtubeshort:
     id: mOyYGaolObY

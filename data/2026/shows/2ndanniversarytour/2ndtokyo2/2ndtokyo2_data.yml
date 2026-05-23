@@ -316,9 +316,21 @@
                 - line:
                   - webitem:
                       webpage:
+                        domain: billboard-japan.com
+                        id: 161027
+                      text: billboard-japan.com
+                - line:
+                  - webitem:
+                      webpage:
                         domain: barks.jp
                         id: 1064822
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: gretschguitars.jp
+                        id: blog1214
+                      text: gretschguitars.jp
     part-of:
       show:
         year: 2026

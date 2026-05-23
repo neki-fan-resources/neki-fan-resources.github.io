@@ -229,6 +229,12 @@
                         domain: barks.jp
                         id: 1023714
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 638364
+                      text: natalie.mu
             - textsubsection:
                 label: Articles on the album release
                 lines:
@@ -2372,8 +2378,8 @@
         post: 1961737876066168993
         image: Gzl-Eg6boAEMEc0
     - postximage:
-        post: 1984204555832397939
-        image: G4lNm20aAAAHFKv
+        post: 1961739772080136281
+        image: Gzl_6IcbMAAX62f
 
 - webpage:
     domain: barks.jp
@@ -2404,6 +2410,31 @@
         post: 1961737876066168993
         image: Gzl-Eg6boAEMEc0
     - youtubevideo: js9WXQHa5J0
+
+- webpage:
+    domain: natalie.mu
+    id: 638364
+    label: Article on the album, show and tour announcements
+    published-date: 2025-08-31
+    url: 'https://natalie.mu/music/news/638364'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-A0MaAAAtcNa
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-C69aoAADilM
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-Eg6boAEMEc0
+    - postximage:
+        post: 1961739772080136281
+        image: Gzl_6IcbMAAX62f
 
 - webpage:
     domain: note.com.nekiband

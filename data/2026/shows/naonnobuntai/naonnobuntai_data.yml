@@ -47,6 +47,10 @@
                 - postximage:
                     post: 2049487133803770233
                     image: HHE9rubacAAA7sq
+                - webimage:
+                    domain: diskgarage.com
+                    page: 231964
+                    id: hikaonstage
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -125,6 +129,21 @@
                 - postinstagramimage:
                     post: DX3pRrbHXw1
                     image: 2
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Live reports
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: diskgarage.com
+                        id: 231964
+                      text: diskgarage.com
     part-of:
       show:
         year: 2026
@@ -1283,6 +1302,24 @@
 - webimage:
     domain: diskgarage.com
     page: 231964
+    id: hikaonstage
+    label: On stage
+    info: Hika
+    published-date: 2026-05-15
+    url: 'https://diskgarage.com/digaonline/wordpress/wp-content/uploads/1778822385.webp'
+    page-url: 'https://diskgarage.com/digaonline/liverepo/231964/2'
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
+    part-of:
+      webpage:
+        domain: diskgarage.com
+        id: 231964
+
+- webimage:
+    domain: diskgarage.com
+    page: 231964
     id: nekionstage
     label: On stage
     published-date: 2026-05-15
@@ -1304,6 +1341,7 @@
     url: 'https://diskgarage.com/digaonline/liverepo/231964'
     image:
     - nekionstage
+    - hikaonstage
     part-of:
       show:
         year: 2026

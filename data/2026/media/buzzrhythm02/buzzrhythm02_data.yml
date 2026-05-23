@@ -62,6 +62,21 @@
                 - postximage:
                     post: 2030199626108952671
                     image: HCy3zFTbYAEuytN
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles about the program
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 663907
+                      text: natalie.mu
     part-of:
       media:
         year: 2026

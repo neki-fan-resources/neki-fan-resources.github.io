@@ -117,6 +117,12 @@
                         domain: barks.jp
                         id: 1038775
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 654667
+                      text: natalie.mu
     part-of:
       song: jumping
 
@@ -691,6 +697,17 @@
     - postximage:
         post: 1961737876066168993
         image: Gzl99vsacAA6bCZ
+    - youtubevideo: EUuiBgbxtZI
+
+- webpage:
+    domain: natalie.mu
+    id: 654667
+    label: Article on the MV release
+    published-date: 2026-01-01
+    url: 'https://natalie.mu/music/news/654667'
+    part-of:
+      song: jumping
+    reference:
     - youtubevideo: EUuiBgbxtZI
 
 - youtubeshort:

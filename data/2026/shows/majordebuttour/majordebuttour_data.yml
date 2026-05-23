@@ -16,6 +16,12 @@
                         domain: barks.jp
                         id: 1063579
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 669826
+                      text: natalie.mu
     part-of:
       tour: majordebuttour
 

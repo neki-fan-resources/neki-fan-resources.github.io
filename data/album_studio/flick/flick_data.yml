@@ -16,6 +16,12 @@
                         domain: barks.jp
                         id: 1063579
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 669826
+                      text: natalie.mu
     part-of:
       song: flick
 
@@ -56,6 +62,19 @@
         domain: neki.bitfan.id
         page: 379562
         id: announcement
+
+- webpage:
+    domain: natalie.mu
+    id: 669826
+    label: Article on the song and tour announcements
+    published-date: 2026-05-20
+    url: 'https://natalie.mu/music/news/669826'
+    part-of:
+      song: flick
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
 
 - webpage:
     domain: neki.bitfan.id

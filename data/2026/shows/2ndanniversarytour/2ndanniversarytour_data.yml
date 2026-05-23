@@ -67,6 +67,12 @@
                 - line:
                   - webitem:
                       webpage:
+                        domain: natalie.mu
+                        id: 638364
+                      text: natalie.mu
+                - line:
+                  - webitem:
+                      webpage:
                         domain: barks.jp
                         id: 1023714
                       text: barks.jp

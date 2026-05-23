@@ -219,6 +219,12 @@
                         domain: barks.jp
                         id: 1005755
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 635157
+                      text: natalie.mu
             - textsubsection:
                 label: Articles on the music video release
                 lines:
@@ -2457,6 +2463,22 @@
         post: 1873309518450548860
         image: Gf9DBuxb0AAbeCQ
     - youtubevideo: OkQV2Vo9EgE
+
+- webpage:
+    domain: natalie.mu
+    id: 635157
+    label: Article on the song release
+    published-date: 2025-08-06
+    url: 'https://natalie.mu/music/news/635157'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - postximage:
+        post: 1949439923565826120
+        image: Gw3NH3ubMAA1o7y
 
 - youtubeshort:
     id: 0oger2CvQP0

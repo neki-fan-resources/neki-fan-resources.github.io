@@ -30,12 +30,34 @@
                 - youtubeshort: j5TiARezTNA
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 646736
+                    id: 2726623
+                - webimage:
+                    domain: natalie.mu
+                    page: 646736
+                    id: 2726622
                 - postximage:
                     post: 1984885753453891858
                     image: G4u7EkaaIAAAv6w
+                - webimage:
+                    domain: natalie.mu
+                    page: 646736
+                    id: 2726624
                 - postximage:
                     post: 1985191533449285818
                     image: G4zQaaka4AA_6Ep
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 646736
+                    id: 2726621
+                - webimage:
+                    domain: natalie.mu
+                    page: 646736
+                    id: 2726625
                 - postximage:
                     post: 1984877391978905779
                     image: G4uzcEXbQAAx1pc
@@ -172,6 +194,21 @@
                   - text: We also shot a TikTok with Straight Angeli, so please go and watch it if you haven't yet ✊🏻
                 - line:
                   - text: We have set the goal of definitely standing on the main stage the next time we return to Buzz Rhythm LIVE. We will continue to work hard to become an appealing band worthy of the main stage!!
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Live reports
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 646736
+                      text: natalie.mu
     part-of:
       show:
         year: 2025
@@ -1545,6 +1582,108 @@
     text:
     - Additional pictures
     - Translation of Cocoro's report
+    part-of:
+      show:
+        year: 2025
+        id: buzzrhythmlive
+
+- webimage:
+    domain: natalie.mu
+    page: 646736
+    id: 2726621
+    label: On stage
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/1103/251102YM_1079785.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/646736/2726621'
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 646736
+
+- webimage:
+    domain: natalie.mu
+    page: 646736
+    id: 2726622
+    label: On stage
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/1103/251102YM_1080277.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/646736/2726622'
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 646736
+
+- webimage:
+    domain: natalie.mu
+    page: 646736
+    id: 2726623
+    label: On stage
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/1103/251102YM_1080210.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/646736/2726623'
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 646736
+
+- webimage:
+    domain: natalie.mu
+    page: 646736
+    id: 2726624
+    label: On stage
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/1103/251102YM_1080146.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/646736/2726624'
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 646736
+
+- webimage:
+    domain: natalie.mu
+    page: 646736
+    id: 2726625
+    label: On stage
+    published-date: 2026-05-20
+    url: 'https://ogre.natalie.mu/media/news/music/2025/1103/251102YM_1080058.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/646736/2726625'
+    context:
+    - show:
+        year: 2025
+        id: buzzrhythmlive
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 646736
+
+- webpage:
+    domain: natalie.mu
+    id: 646736
+    label: Show report
+    published-date: 2025-11-03
+    url: 'https://natalie.mu/music/news/646736#NA_article_main_h2_1'
+    image:
+    - 2726621
+    - 2726622
+    - 2726623
+    - 2726624
+    - 2726625
     part-of:
       show:
         year: 2025

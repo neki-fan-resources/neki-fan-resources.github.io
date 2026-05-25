@@ -13,6 +13,10 @@
             - multimediasubsection:
                 label: Images
                 multimedia:
+                - webimage:
+                    domain: ototoy.jp
+                    page: 121142
+                    id: 6
                 - postximage:
                     post: 1861777970496737413
                     image: GdZdMhdbgAA1c76
@@ -27,6 +31,15 @@
                 - postinstagramimage:
                     post: DC_uUelvxBs
                     image: 4
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: ototoy.jp
+                    page: 121142
+                    id: 0
     - basicblock:
         id: beforeevent
         label: Before the event
@@ -43,6 +56,21 @@
                 - postxvideo:
                     post: 1856985434020061342
                     video: d102d125-ebaf-44b4-a337-f9d5b48ee2cf
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Live reports
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 121142
+                      text: ototoy.jp
     part-of:
       show:
         year: 2024
@@ -400,4 +428,52 @@
         id: digginsoundvol2
     part-of:
       postx: 1856985434020061342
+
+- webimage:
+    domain: ototoy.jp
+    page: 121142
+    id: 0
+    label: Bands
+    published-date: 2026-05-20
+    url: 'https://imgs.ototoy.jp/news/image.php/121142/0'
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      webpage:
+        domain: ototoy.jp
+        id: 121142
+
+- webimage:
+    domain: ototoy.jp
+    page: 121142
+    id: 6
+    label: On stage
+    published-date: 2024-12-14
+    url: 'https://imgs.ototoy.jp/news/image.php/121142/6'
+    local-copy: true
+    context:
+    - show:
+        year: 2024
+        id: digginsoundvol2
+    part-of:
+      webpage:
+        domain: ototoy.jp
+        id: 121142
+
+- webpage:
+    domain: ototoy.jp
+    id: 121142
+    label: Show report
+    published-date: 2024-12-14
+    url: 'https://ototoy.jp/news/121142'
+    image:
+    - 0
+    - 6
+    part-of:
+      show:
+        year: 2024
+        id: digginsoundvol2
 

@@ -235,6 +235,12 @@
                         domain: natalie.mu
                         id: 638364
                       text: natalie.mu
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 125719
+                      text: ototoy.jp
             - textsubsection:
                 label: Articles on the album release
                 lines:
@@ -244,6 +250,12 @@
                         domain: barks.jp
                         id: 1032845
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 127221
+                      text: ototoy.jp
     todo: Put text about the different editions, more multimedia to sort
     part-of:
       album: meme
@@ -2447,6 +2459,32 @@
     - bonuses
     part-of:
       album: meme
+
+- webpage:
+    domain: ototoy.jp
+    id: 125719
+    label: Article on the album and show announcement
+    published-date: 2025-08-30
+    url: 'https://ototoy.jp/news/125719'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: ototoy.jp
+    id: 127221
+    label: Article on the album release
+    published-date: 2025-11-28
+    url: 'https://ototoy.jp/news/127221'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-Eg6boAEMEc0
 
 - youtubeshort:
     id: 7DuE0uzMGoE

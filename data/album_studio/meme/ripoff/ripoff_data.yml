@@ -210,6 +210,12 @@
                         domain: barks.jp
                         id: 1004119
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 125174
+                      text: ototoy.jp
             - textsubsection:
                 label: Articles on the song release
                 lines:
@@ -225,6 +231,12 @@
                         domain: natalie.mu
                         id: 635157
                       text: natalie.mu
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 125306
+                      text: ototoy.jp
             - textsubsection:
                 label: Articles on the music video release
                 lines:
@@ -2476,6 +2488,32 @@
     - postximage:
         post: 1873309518450548860
         image: Gf9DBuxb0AAbeCQ
+    - postximage:
+        post: 1949439923565826120
+        image: Gw3NH3ubMAA1o7y
+
+- webpage:
+    domain: ototoy.jp
+    id: 125174
+    label: Article on the song announcement
+    published-date: 2025-07-28
+    url: 'https://ototoy.jp/news/125174'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1949439923565826120
+        image: Gw3NH3ubMAA1o7y
+
+- webpage:
+    domain: ototoy.jp
+    id: 125306
+    label: Article on the song release
+    published-date: 2025-08-06
+    url: 'https://ototoy.jp/news/125306'
+    part-of:
+      song: ripoff
+    reference:
     - postximage:
         post: 1949439923565826120
         image: Gw3NH3ubMAA1o7y

@@ -80,6 +80,21 @@
                     domain: note.com.nekiband
                     page: n323cfbbfa77f
                     id: pcibonus
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the album announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 118297
+                      text: ototoy.jp
     part-of:
       album: exclamation
 
@@ -464,6 +479,20 @@
     todo: sticker, card images
     part-of:
       album: exclamation
+
+- webpage:
+    domain: ototoy.jp
+    id: 118297
+    label: Article on the album announcement
+    published-date: 2024-06-04
+    url: 'https://ototoy.jp/news/118297'
+    part-of:
+      album: exclamation
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n323cfbbfa77f
+        id: epcover
 
 - youtubeshort:
     id: YRmeizMwd1Y

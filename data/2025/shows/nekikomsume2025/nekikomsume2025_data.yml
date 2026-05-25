@@ -13,6 +13,20 @@
         id: nb50d1c0b1dd3
 
 - webpage:
+    domain: natalie.mu
+    id: 621457
+    label: Article on the shows announcement
+    published-date: 2025-04-25
+    url: 'https://natalie.mu/music/news/621457'
+    part-of:
+      tour: nekikomsume2025
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nb50d1c0b1dd3
+        id: poster
+
+- webpage:
     domain: note.com.nekiband
     id: nb50d1c0b1dd3
     label: Show information
@@ -22,4 +36,18 @@
     - poster
     part-of:
       tour: nekikomsume2025
+
+- webpage:
+    domain: ototoy.jp
+    id: 123413
+    label: Article on the shows announcement
+    published-date: 2025-04-25
+    url: 'https://ototoy.jp/news/123413'
+    part-of:
+      tour: nekikomsume2025
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nb50d1c0b1dd3
+        id: poster
 

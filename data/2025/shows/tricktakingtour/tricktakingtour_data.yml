@@ -77,6 +77,21 @@
                     domain: note.com.nekiband
                     page: n41466bbb690c
                     id: merchep
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles about the tour announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 121395
+                      text: ototoy.jp
     part-of:
       tour: tricktakingtour
 

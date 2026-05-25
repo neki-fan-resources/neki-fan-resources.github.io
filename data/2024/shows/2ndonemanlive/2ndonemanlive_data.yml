@@ -210,6 +210,21 @@
                     domain: note.com.nekiband
                     page: n57c0f6d0f8bd
                     id: merchep
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the show announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 584157
+                      text: natalie.mu
     part-of:
       show:
         year: 2024
@@ -1290,6 +1305,22 @@
       webpage:
         domain: note.com.nekiband
         id: n57c0f6d0f8bd
+
+- webpage:
+    domain: natalie.mu
+    id: 584157
+    label: Article about the show announcement
+    published-date: 2024-07-29
+    url: 'https://natalie.mu/music/news/584157'
+    part-of:
+      show:
+        year: 2024
+        id: 2ndonemanlive
+    reference:
+    - postximage:
+        post: 1783077452518150229
+        image: GL7DHUnbUAAsyRj
+    - youtubevideo: EHtWJmMybGY
 
 - webpage:
     domain: note.com.nekiband

@@ -105,6 +105,12 @@
                         domain: barks.jp
                         id: 1028564
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 126733
+                      text: ototoy.jp
     part-of:
       show:
         year: 2025
@@ -815,6 +821,21 @@
       show:
         year: 2025
         id: memetowershibuya
+
+- webpage:
+    domain: ototoy.jp
+    id: 126733
+    label: Article on the shows announcement
+    published-date: 2025-10-31
+    url: 'https://ototoy.jp/news/126733'
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
 
 - youtubeshort:
     id: Q5QgPBuOekU

@@ -140,6 +140,21 @@
         - basicsection:
             subsections:
             - textsubsection:
+                label: Articles on the shows announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: natalie.mu
+                        id: 621457
+                      text: natalie.mu
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 123413
+                      text: ototoy.jp
+            - textsubsection:
                 label: Live reports
                 lines:
                 - line:

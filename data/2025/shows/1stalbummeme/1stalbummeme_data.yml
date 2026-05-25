@@ -177,6 +177,12 @@
                         domain: natalie.mu
                         id: 638364
                       text: natalie.mu
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 125719
+                      text: ototoy.jp
     part-of:
       show:
         year: 2025

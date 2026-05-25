@@ -212,6 +212,15 @@
         - basicsection:
             subsections:
             - textsubsection:
+                label: Article on the EP announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 121395
+                      text: ototoy.jp
+            - textsubsection:
                 label: Articles on the EP release
                 lines:
                 - line:
@@ -220,6 +229,12 @@
                         domain: barks.jp
                         id: 545222
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 122562
+                      text: ototoy.jp
     part-of:
       album: tricktaking
 
@@ -1956,6 +1971,41 @@
     - storebonuses
     part-of:
       album: tricktaking
+
+- webpage:
+    domain: ototoy.jp
+    id: 121395
+    label: Article on the EP and tour announcement
+    published-date: 2024-12-29
+    url: 'https://ototoy.jp/news/121395'
+    part-of:
+      album: tricktaking
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - webimage:
+        domain: note.com.nekiband
+        page: nc703bb1d82c8
+        id: poster
+    - postximage:
+        post: 1873309201130574236
+        image: Gf9BZBVbEAAyUEE
+
+- webpage:
+    domain: ototoy.jp
+    id: 122562
+    label: Article on EP release and Dreams!!!! MV
+    published-date: 2025-03-05
+    url: 'https://ototoy.jp/news/122562'
+    part-of:
+      album: tricktaking
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: n35921564900b
+        id: epcover
+    - youtubevideo: 0YlW7T5fVZ4
 
 - webpage:
     domain: skream.jp

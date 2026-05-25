@@ -260,6 +260,12 @@
                         domain: barks.jp
                         id: 548011
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: ototoy.jp
+                        id: 123565
+                      text: ototoy.jp
     - basicblock:
         id: community
         label: Community
@@ -1804,6 +1810,20 @@
     label: Article on the live video release
     published-date: 2025-05-04
     url: 'https://barks.jp/news/548011/'
+    part-of:
+      song: getover
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: IeBks9yGO4A
+
+- webpage:
+    domain: ototoy.jp
+    id: 123565
+    label: Article on the live video release
+    published-date: 2025-05-05
+    url: 'https://ototoy.jp/news/123565'
     part-of:
       song: getover
     reference:

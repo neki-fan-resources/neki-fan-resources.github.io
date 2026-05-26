@@ -183,6 +183,18 @@
                         domain: ototoy.jp
                         id: 125719
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: realsound.jp
+                        id: 2025.08.2140957
+                      text: realsound.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.08.neki_major_debut
+                      text: skream.jp
     part-of:
       show:
         year: 2025

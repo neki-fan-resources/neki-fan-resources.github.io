@@ -333,6 +333,9 @@ contentpage:
       year: 2025
       id: tricktakingtourosaka
   - tour: tricktakingtour
+  - media:
+      year: 2025
+      id: skreamfeature
   - album: tricktaking
   - multimedia-event: dreamsmv
   - show:
@@ -412,6 +415,9 @@ contentpage:
   - show:
       year: 2024
       id: daydreamer4night
+  - media:
+      year: 2024
+      id: pick_up_rookies_202408
   - show:
       year: 2024
       id: hapikorevol350

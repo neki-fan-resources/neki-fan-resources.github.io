@@ -154,6 +154,12 @@
                         domain: ototoy.jp
                         id: 123413
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.04.neki_komsume_2man
+                      text: skream.jp
             - textsubsection:
                 label: Live reports
                 lines:

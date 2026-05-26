@@ -73,9 +73,27 @@
                 - line:
                   - webitem:
                       webpage:
+                        domain: realsound.jp
+                        id: 2025.08.2140957
+                      text: realsound.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.08.neki_major_debut
+                      text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
                         domain: barks.jp
                         id: 1023714
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.10.neki_meme_tour
+                      text: skream.jp
     part-of:
       tour: 2ndanniversarytour
 

@@ -111,6 +111,12 @@
                         domain: ototoy.jp
                         id: 126733
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.10.neki_meme_event
+                      text: skream.jp
     part-of:
       show:
         year: 2025
@@ -828,6 +834,21 @@
     label: Article on the shows announcement
     published-date: 2025-10-31
     url: 'https://ototoy.jp/news/126733'
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: skream.jp
+    id: 2025.10.neki_meme_event
+    label: Article on the announcement
+    published-date: 2025-10-30
+    url: 'https://skream.jp/news/2025/10/neki_meme_event.php'
     part-of:
       show:
         year: 2025

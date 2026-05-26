@@ -106,6 +106,12 @@
                         domain: barks.jp
                         id: 1001567
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.07.nek_fool_live_video
+                      text: skream.jp
     part-of:
       song: fool
 
@@ -1303,6 +1309,20 @@
         domain: note.com.nekiband
         page: ne1cfc8d70c87
         id: flyer
+
+- webpage:
+    domain: skream.jp
+    id: 2025.07.nek_fool_live_video
+    label: Article on the live video release
+    published-date: 2025-07-12
+    url: 'https://skream.jp/news/2025/07/nek_fool_live_video.php'
+    part-of:
+      song: fool
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: urGmtrd7zbA
 
 - youtubeshort:
     id: QJzDlj_jpfE

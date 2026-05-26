@@ -1,0 +1,47 @@
+- postx:
+    id: 1897572920156930150
+    account: skream_japan
+    label: Article post
+    published-date: 2025-03-06
+    text: |-
+      NEK!の特集公開。ネット時代を生き抜く血の通ったリアル・ガールズ・ロック・バンドが、喜怒哀楽をテクニカルにエモーショナルに表現した2nd EP『TR!CK TAK!NG』をリリース
+      https://skream.jp/news/2025/03/neki_feature.php
+      
+      #NEKI
+      #TRICKTAKING
+    translation: |-
+      Feature on NEK! released. The real-life girl rock band surviving the internet era has released their 2nd EP "TR!CK TAK!NG," expressing life's ups and downs both technically and emotionally.
+      https://skream.jp/news/2025/03/neki_feature.php
+      
+      #NEKI
+      #TRICKTAKING
+    image:
+    - GlWEo0Oa4AAXqqK
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: 2025.03.neki
+
+- postximage:
+    post: 1897572920156930150
+    id: GlWEo0Oa4AAXqqK
+    label: Article headline
+    local-copy: true
+    part-of:
+      postx: 1897572920156930150
+
+- webpage:
+    domain: skream.jp
+    id: 2025.03.neki
+    label: Feature article
+    published-date: 2025-03-06
+    url: 'https://skream.jp/feature/2025/03/neki.php'
+    part-of:
+      media:
+        year: 2025
+        id: skreamfeature
+    reference:
+    - postximage:
+        post: 1897572920156930150
+        image: GlWEo0Oa4AAXqqK
+

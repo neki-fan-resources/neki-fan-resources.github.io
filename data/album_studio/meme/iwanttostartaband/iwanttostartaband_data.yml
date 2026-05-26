@@ -76,6 +76,12 @@
                         domain: barks.jp
                         id: 1023714
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.10.neki_meme_tour
+                      text: skream.jp
     part-of:
       event: iwanttostartaband
 

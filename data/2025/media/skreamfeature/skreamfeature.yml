@@ -1,0 +1,21 @@
+mediawritten:
+  year: 2025
+  id: skreamfeature
+  cover-image:
+    postximage:
+      post: 1897572920156930150
+      image: GlWEo0Oa4AAXqqK
+  publication: Skream!
+  issue: Feature
+  designation: feature
+  member:
+  - NEK!
+  published-date: 2025-03-06
+  webpage: 'https://skream.jp/'
+  article-page: 'https://skream.jp/feature/2025/03/neki.php'
+  part-of:
+    group:
+      id: media
+      group: 2025
+  categories:
+  - mainmedia

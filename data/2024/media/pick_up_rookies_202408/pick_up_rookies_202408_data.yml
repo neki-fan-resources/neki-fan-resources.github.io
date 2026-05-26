@@ -1,0 +1,46 @@
+- postx:
+    id: 1821848983255577075
+    account: skream_japan
+    label: PICK UP! ROOKIES Vol.105
+    published-date: 2024-08-09
+    text: |-
+      下北沢LIVEHOLICが注目の若手を厳選、PICK UP! ROOKIES Vol.105公開。今月はNELKE、NEK!、nene、TëKMO+の4組
+      https://skream.jp/news/2024/08/pick_up_rookies_feature.php
+    translation: |-
+      Shimokitazawa LIVEHOLIC has carefully selected noteworthy young artists, and "PICK UP! ROOKIES Vol.105" has been released. This month features four groups: NELKE, NEK!, nene, and TëKMO+.
+      https://skream.jp/news/2024/08/pick_up_rookies_feature.php
+    image:
+    - GUh5HH2WIAAagAy
+    part-of:
+      media:
+        year: 2024
+        id: pick_up_rookies_202408
+
+- postximage:
+    post: 1821848983255577075
+    id: GUh5HH2WIAAagAy
+    label: Flyer
+    local-copy: true
+    todo: add context
+    part-of:
+      postx: 1821848983255577075
+
+- webpage:
+    domain: skream.jp
+    id: 2024.08.pick_up_rookies_202408
+    label: PICK UP! ROOKIES Vol.105 feature article
+    published-date: 2024-08-09
+    url: 'https://skream.jp/feature/2024/08/pick_up_rookies_202408.php'
+    part-of:
+      media:
+        year: 2024
+        id: pick_up_rookies_202408
+    reference:
+    - postximage:
+        post: 1821848983255577075
+        image: GUh5HH2WIAAagAy
+    - postximage:
+        post: 1783077452518150229
+        image: GL7DHUnbUAAsyRj
+    - youtubevideo: rq0dca9mFfI
+

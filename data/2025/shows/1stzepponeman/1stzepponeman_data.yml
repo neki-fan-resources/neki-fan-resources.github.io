@@ -260,6 +260,12 @@
                 - postximage:
                     post: 1962192489680683267
                     image: GzsbqmqbgAANlPV
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: rockinon.com
+                    page: 213061
+                    id: display
     - basicblock:
         id: beforeevent
         label: Before the event
@@ -394,14 +400,35 @@
         - basicsection:
             subsections:
             - textsubsection:
+                label: Articles on the song announcement
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.03.nek_zepp_oneman
+                      text: skream.jp
+            - textsubsection:
                 label: Live reports
                 lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: realsound.jp
+                        id: 2025.09.2144607
+                      text: realsound.jp
                 - line:
                   - webitem:
                       webpage:
                         domain: barks.jp
                         id: 1019083
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rockinon.com
+                        id: 213061
+                      text: rockinon.com
     part-of:
       show:
         year: 2025
@@ -1497,7 +1524,7 @@
 - postx:
     id: 1963165822089879925
     account: realsoundjp
-    label: Article report on the show + great images
+    label: Article post
     published-date: 2025-09-02
     text: |-
       ══ ⚡️ NEK! ライブレポート ⚡️  ══
@@ -1533,11 +1560,10 @@
       @nekiband_jp
       
       #Nekikaiwai #NekiMajorDebut
-    todo: extract new images, extract new songs
     part-of:
-      show:
-        year: 2025
-        id: 1stzepponeman
+      webpage:
+        domain: realsound.jp
+        id: 2025.09.2144607
 
 - postx:
     id: 1963245027179540838
@@ -2433,6 +2459,22 @@
         domain: realsound.jp
         id: 2025.09.2144607
 
+- webimage:
+    domain: rockinon.com
+    page: 213061
+    id: display
+    label: Giant screen
+    published-date: 2025-09-01
+    url: 'https://ro69-bucket.s3.ap-northeast-1.amazonaws.com/uploads/text_image/image/396203/text_image.jpegwidth:750/resize_image.jpeg'
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      webpage:
+        domain: rockinon.com
+        id: 213061
+
 - webpage:
     domain: barks.jp
     id: 1019083
@@ -2519,7 +2561,7 @@
 - webpage:
     domain: realsound.jp
     id: 2025.09.2144607
-    label: Recap article
+    label: Live report article
     published-date: 2025-09-03
     url: 'https://realsound.jp/2025/09/post-2144607.html'
     image:
@@ -2537,7 +2579,9 @@
     - 16
     - 99
     part-of:
-      postx: 1963165822089879925
+      show:
+        year: 2025
+        id: 1stzepponeman
     reference:
     - postximage:
         post: 1961765828870996016
@@ -2548,6 +2592,52 @@
     - postximage:
         post: 1962831188181311881
         image: Gz1gj5nbMAAQ2Qc
+
+- webpage:
+    domain: rockinon.com
+    id: 213061
+    label: Live report article
+    published-date: 2025-09-01
+    url: 'https://rockinon.com/blog/japan/213061'
+    image:
+    - display
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- webpage:
+    domain: skream.jp
+    id: 2025.03.nek_zepp_oneman
+    label: Article on the show announcement
+    published-date: 2025-03-17
+    url: 'https://skream.jp/news/2025/03/nek_zepp_oneman.php'
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: ne1cfc8d70c87
+        id: flyer
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOOzfbEAA3Ocq
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOQD1b0AAeAez
+    - postximage:
+        post: 1901449578177765487
+        image: GmNOQ-qacAAAPmN
+    - postximage:
+        post: 1901583979649872081
+        image: GmPIi16b0AA_TKO
+    - webimage:
+        domain: e.usen.com
+        page: '-nek316o-west'
+        id: 05
+    - postinstagram: DHS7gafPqYZ
 
 - youtubeshort:
     id: '-f1iJu5MuRU'

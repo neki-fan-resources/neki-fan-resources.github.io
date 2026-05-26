@@ -22,6 +22,18 @@
                         domain: natalie.mu
                         id: 669826
                       text: natalie.mu
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: realsound.jp
+                        id: 2026.04.2379130
+                      text: realsound.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2026.04.neki_major_1st_single
+                      text: skream.jp
     part-of:
       tour: majordebuttour
 

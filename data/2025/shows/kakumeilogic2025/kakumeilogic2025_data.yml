@@ -61,6 +61,14 @@
             - multimediasubsection:
                 label: Images
                 multimedia:
+                - webimage:
+                    domain: skream.jp
+                    page: 2025.06.kakumeilogic
+                    id: 12
+                - webimage:
+                    domain: skream.jp
+                    page: 2025.06.kakumeilogic
+                    id: 11
                 - postinstagramimage:
                     post: DJQ-mDkvfG9
                     image: 1
@@ -94,6 +102,21 @@
                 - postxvideo:
                     post: 1903038891042673069
                     video: bd49ceb0-d659-43e0-9a2c-cb51fd955ed3
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Live reports
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.06.kakumeilogic
+                      text: skream.jp
     part-of:
       show:
         year: 2025
@@ -605,7 +628,7 @@
 - postx:
     id: 1929825611658543471
     account: skream_japan
-    label: Show report
+    label: Article post
     published-date: 2025-06-03
     text: |-
       下北沢LIVEHOLIC主催"革命ロジック2025"のライヴ・レポート公開。NEK!、終活クラブ、shallm、梟note、PompadollS等編集部イチオシアーティスト集結"Skream! STAGE"をレポート
@@ -621,9 +644,9 @@
     - GsgdTzXawAAeCzx
     todo: check report.
     part-of:
-      show:
-        year: 2025
-        id: kakumeilogic2025
+      webpage:
+        domain: skream.jp
+        id: 2025.06.kakumeilogic_livereport
 
 - postx:
     id: 1935184418047672438
@@ -901,6 +924,68 @@
       show:
         year: 2025
         id: kakumeilogic2025
+
+- webimage:
+    domain: skream.jp
+    page: 2025.06.kakumeilogic
+    id: 11
+    label: On stage
+    info: Hika
+    published-date: 2025-06-03
+    url: 'https://skream.jp/livereport/2025/06/img/kakumeilogic_11.jpg'
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: 2025.06.kakumeilogic
+
+- webimage:
+    domain: skream.jp
+    page: 2025.06.kakumeilogic
+    id: 12
+    label: On stage
+    published-date: 2025-06-03
+    url: 'https://skream.jp/livereport/2025/06/img/kakumeilogic_12.jpg'
+    context:
+    - show:
+        year: 2025
+        id: kakumeilogic2025
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: 2025.06.kakumeilogic
+
+- webpage:
+    domain: skream.jp
+    id: 2025.06.kakumeilogic
+    label: Live report article
+    published-date: 2025-06-03
+    url: 'https://skream.jp/livereport/2025/06/kakumeilogic.php'
+    image:
+    - 11
+    - 12
+    part-of:
+      show:
+        year: 2025
+        id: kakumeilogic2025
+
+- webpage:
+    domain: skream.jp
+    id: 2025.06.kakumeilogic_livereport
+    label: News article
+    published-date: 2025-06-03
+    url: 'https://skream.jp/news/2025/06/kakumeilogic_livereport.php'
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: 2025.06.kakumeilogic
+    reference:
+    - postximage:
+        post: 1929825611658543471
+        image: GsgdTzXawAAeCzx
 
 - youtubeshort:
     id: 6waPnn_Bxis

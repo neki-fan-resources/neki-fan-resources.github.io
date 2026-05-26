@@ -266,6 +266,12 @@
                         domain: ototoy.jp
                         id: 123565
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.05.nek_get_over_live_video
+                      text: skream.jp
     - basicblock:
         id: community
         label: Community
@@ -1824,6 +1830,20 @@
     label: Article on the live video release
     published-date: 2025-05-05
     url: 'https://ototoy.jp/news/123565'
+    part-of:
+      song: getover
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: IeBks9yGO4A
+
+- webpage:
+    domain: skream.jp
+    id: 2025.05.nek_get_over_live_video
+    label: Article on the live video release
+    published-date: 2025-05-04
+    url: 'https://skream.jp/news/2025/05/nek_get_over_live_video.php'
     part-of:
       song: getover
     reference:

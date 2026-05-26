@@ -123,6 +123,12 @@
                         domain: natalie.mu
                         id: 654667
                       text: natalie.mu
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2026.01.neki_jumping_mv
+                      text: skream.jp
     part-of:
       song: jumping
 
@@ -709,6 +715,15 @@
       song: jumping
     reference:
     - youtubevideo: EUuiBgbxtZI
+
+- webpage:
+    domain: skream.jp
+    id: 2026.01.neki_jumping_mv
+    label: Article on the MV release
+    published-date: 2026-01-01
+    url: 'https://skream.jp/news/2026/01/neki_jumping_mv.php'
+    part-of:
+      song: jumping
 
 - youtubeshort:
     id: 5kzh2H9res4

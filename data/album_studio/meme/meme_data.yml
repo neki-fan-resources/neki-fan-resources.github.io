@@ -226,12 +226,6 @@
                 - line:
                   - webitem:
                       webpage:
-                        domain: barks.jp
-                        id: 1023714
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
                         domain: natalie.mu
                         id: 638364
                       text: natalie.mu
@@ -241,6 +235,30 @@
                         domain: ototoy.jp
                         id: 125719
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: realsound.jp
+                        id: 2025.08.2140957
+                      text: realsound.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.08.neki_major_debut
+                      text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: barks.jp
+                        id: 1023714
+                      text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.10.neki_meme_tour
+                      text: skream.jp
             - textsubsection:
                 label: Articles on the album release
                 lines:
@@ -256,6 +274,12 @@
                         domain: ototoy.jp
                         id: 127221
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.11.neki_meme_campaign
+                      text: skream.jp
     todo: Put text about the different editions, more multimedia to sort
     part-of:
       album: meme
@@ -2485,6 +2509,72 @@
     - postximage:
         post: 1961737876066168993
         image: Gzl-Eg6boAEMEc0
+
+- webpage:
+    domain: realsound.jp
+    id: 2025.08.2140957
+    label: Article on the album, show and tour announcements
+    published-date: 2025-08-30
+    url: 'https://realsound.jp/2025/08/post-2140957.html'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-A0MaAAAtcNa
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-C69aoAADilM
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-Eg6boAEMEc0
+    - postximage:
+        post: 1961739772080136281
+        image: Gzl_6IcbMAAX62f
+
+- webpage:
+    domain: skream.jp
+    id: 2025.08.neki_major_debut
+    label: Article on the album, show and tour announcements
+    published-date: 2025-08-30
+    url: 'https://skream.jp/news/2025/08/neki_major_debut.php'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: skream.jp
+    id: 2025.10.neki_meme_tour
+    label: Article on album details, 2nd anniversary tour, tower records partnership
+    published-date: 2025-10-03
+    url: 'https://skream.jp/news/2025/10/neki_meme_tour.php'
+    part-of:
+      album: meme
+    reference:
+    - tour: 2ndanniversarytour
+    - event: iwanttostartaband
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: skream.jp
+    id: 2025.11.neki_meme_campaign
+    label: Article on the release
+    published-date: 2025-11-26
+    url: 'https://skream.jp/news/2025/11/neki_meme_campaign.php'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
 
 - youtubeshort:
     id: 7DuE0uzMGoE

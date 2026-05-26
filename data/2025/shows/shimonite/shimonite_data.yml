@@ -567,6 +567,22 @@
         domain: shimonite.com
         id: index
 
+- webimage:
+    domain: skream.jp
+    page: 2025.10.shimokita-nite25_5th_lineup
+    id: lineup
+    label: Lineup poster
+    published-date: 2025-10-25
+    url: 'https://skream.jp/news/assets_c/2025/10/shimonite2025_KV_1021_5th_photo-thumb-1200xauto-240086.jpg'
+    context:
+    - show:
+        year: 2025
+        id: shimonite
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: 2025.10.shimokita-nite25_5th_lineup
+
 - webpage:
     domain: shimonite.com
     id: index
@@ -575,6 +591,19 @@
     url: 'https://www.shimonite.com/'
     image:
     - poster
+    part-of:
+      show:
+        year: 2025
+        id: shimonite
+
+- webpage:
+    domain: skream.jp
+    id: 2025.10.shimokita-nite25_5th_lineup
+    label: Article on the lineup announcement
+    published-date: 2025-10-25
+    url: 'https://skream.jp/news/2025/10/shimokita-nite25_5th_lineup.php'
+    image:
+    - lineup
     part-of:
       show:
         year: 2025

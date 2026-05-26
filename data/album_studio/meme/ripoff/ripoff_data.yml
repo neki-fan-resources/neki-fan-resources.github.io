@@ -216,6 +216,12 @@
                         domain: ototoy.jp
                         id: 125174
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.07.neki_rip-off
+                      text: skream.jp
             - textsubsection:
                 label: Articles on the song release
                 lines:
@@ -237,6 +243,12 @@
                         domain: ototoy.jp
                         id: 125306
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.08.neki_rip-off_release
+                      text: skream.jp
             - textsubsection:
                 label: Articles on the music video release
                 lines:
@@ -246,6 +258,17 @@
                         domain: barks.jp
                         id: 1009322
                       text: barks.jp
+                  - webitem:
+                      webpage:
+                        domain: realsound.jp
+                        id: 2025.08.2133433
+                      text: realsound.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.08.nek_rip-off_mv
+                      text: skream.jp
     part-of:
       song: ripoff
 
@@ -2010,7 +2033,7 @@
 - postx:
     id: 1959224099332637131
     account: skream_japan
-    label: Article on the MV release
+    label: Article post
     published-date: 2025-08-23
     text: |-
       NEK!、最新曲「rip-off」MV公開。"ハードながらも最後に背中を押してくれるこの楽曲にさらなる力を与える"映像が完成 https://skream.jp/news/2025/08/nek_rip-off_mv.php
@@ -2024,9 +2047,10 @@
       #ripoff
     image:
     - GzBo-8pacAAYgMf
-    todo: check article
     part-of:
-      song: ripoff
+      webpage:
+        domain: skream.jp
+        id: 2025.08.nek_rip-off_mv
     reference:
     - postximage:
         post: 1873309518450548860
@@ -2517,6 +2541,60 @@
     - postximage:
         post: 1949439923565826120
         image: Gw3NH3ubMAA1o7y
+
+- webpage:
+    domain: realsound.jp
+    id: 2025.08.2133433
+    label: Article on the music video release
+    published-date: 2025-08-23
+    url: 'https://realsound.jp/2025/08/post-2133433.html'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: OkQV2Vo9EgE
+
+- webpage:
+    domain: skream.jp
+    id: 2025.07.neki_rip-off
+    label: Article on the song announcement
+    published-date: 2025-07-27
+    url: 'https://skream.jp/news/2025/07/neki_rip-off.php'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+
+- webpage:
+    domain: skream.jp
+    id: 2025.08.nek_rip-off_mv
+    label: Article on the music video release
+    published-date: 2025-08-23
+    url: 'https://skream.jp/news/2025/08/nek_rip-off_mv.php'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: OkQV2Vo9EgE
+
+- webpage:
+    domain: skream.jp
+    id: 2025.08.neki_rip-off_release
+    label: Article on the song release
+    published-date: 2025-08-06
+    url: 'https://skream.jp/news/2025/08/neki_rip-off_release.php'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - youtubeshort:
     id: 0oger2CvQP0

@@ -236,6 +236,32 @@
         id: skreammeme
 
 - postx:
+    id: 1994692850974691750
+    account: skream_japan
+    label: Announcement
+    published-date: 2025-11-29
+    text: |-
+      NEK!のインタビュー公開。"ミームのようにこのアルバム『MEME』が広がっていってほしい"――国内外で人気上昇中の"スラングロックバンド"が1stアルバムをリリース
+      https://skream.jp/news/2025/11/neki_interview.php
+      
+      #NEKI
+      #MEME
+      #ネキミーム
+    translation: |-
+      NEK!'s interview is out. "We want this album 'MEME' to spread like a meme"—The "slang rock band," whose popularity is rising both domestically and internationally, releases their 1st album
+      https://skream.jp/news/2025/11/neki_interview.php
+      
+      #NEKI
+      #MEME
+      #NEKMEME
+    image:
+    - G66K9MpbAAEmHxM
+    part-of:
+      media:
+        year: 2025
+        id: skreammeme
+
+- postx:
     id: 1994694260587991125
     account: skream_japan
     label: Give away announcement
@@ -306,6 +332,17 @@
       media:
         year: 2025
         id: skreammeme
+
+- postximage:
+    post: 1994692850974691750
+    id: G66K9MpbAAEmHxM
+    label: Article headline
+    context:
+    - media:
+        year: 2025
+        id: skreammeme
+    part-of:
+      postx: 1994692850974691750
 
 - postximage:
     post: 1994694260587991125

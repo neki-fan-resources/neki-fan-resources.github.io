@@ -215,6 +215,12 @@
                         domain: ototoy.jp
                         id: 124081
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.06.neki_ooak_release
+                      text: skream.jp
             - textsubsection:
                 label: Articles on the music video release
                 lines:
@@ -230,6 +236,12 @@
                         domain: ototoy.jp
                         id: 124433
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.06.neki_ooak_mv
+                      text: skream.jp
     part-of:
       song: ooak
 
@@ -1436,6 +1448,33 @@
         post: 1935668905244336459
         image: GtzabMUXgAAmDvN
     - youtubeshort: 1yFMVe5tCiA
+
+- webpage:
+    domain: skream.jp
+    id: 2025.06.neki_ooak_mv
+    label: Article on the music video release
+    published-date: 2025-06-20
+    url: 'https://skream.jp/news/2025/06/neki_ooak_mv.php'
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: qGEzCjYvWZw
+
+- webpage:
+    domain: skream.jp
+    id: 2025.06.neki_ooak_release
+    label: Article on the song release
+    published-date: 2025-06-04
+    url: 'https://skream.jp/news/2025/06/neki_ooak_release.php'
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - youtubeshort:
     id: '-FTj1689vaY'

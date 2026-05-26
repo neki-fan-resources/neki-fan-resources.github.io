@@ -213,6 +213,12 @@
                         domain: barks.jp
                         id: 545222
                       text: barks.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.03.neki_dreams_mv
+                      text: skream.jp
     - basicblock:
         id: community
         label: Community

@@ -235,6 +235,12 @@
                         domain: ototoy.jp
                         id: 122562
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: skream.jp
+                        id: 2025.03.neki_dreams_mv
+                      text: skream.jp
     part-of:
       album: tricktaking
 
@@ -2010,7 +2016,7 @@
 - webpage:
     domain: skream.jp
     id: 2025.03.neki_dreams_mv
-    label: Release article
+    label: Article on the EP and music video release
     published-date: 2025-03-06
     url: 'https://skream.jp/news/2025/03/neki_dreams_mv.php'
     part-of:

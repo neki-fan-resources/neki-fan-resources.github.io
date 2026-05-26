@@ -95,6 +95,12 @@
                         domain: ototoy.jp
                         id: 118297
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: tower.jp
+                        id: 2024.06.04.0704
+                      text: tower.jp
     part-of:
       album: exclamation
 
@@ -493,6 +499,19 @@
         domain: note.com.nekiband
         page: n323cfbbfa77f
         id: epcover
+
+- webpage:
+    domain: tower.jp
+    id: 2024.06.04.0704
+    label: Article on the album announcement
+    published-date: 2024-06-04
+    url: 'https://tower.jp/article/feature_item/2024/06/04/0704'
+    part-of:
+      album: exclamation
+    reference:
+    - postximage:
+        post: 1783077452518150229
+        image: GL7DHUnbUAAsyRj
 
 - youtubeshort:
     id: YRmeizMwd1Y

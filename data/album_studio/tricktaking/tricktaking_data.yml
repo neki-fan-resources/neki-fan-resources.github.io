@@ -220,6 +220,12 @@
                         domain: ototoy.jp
                         id: 121395
                       text: ototoy.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: tower.jp
+                        id: 2024.06.04.0704
+                      text: tower.jp
             - textsubsection:
                 label: Articles on the EP release
                 lines:
@@ -2026,6 +2032,19 @@
         post: 1873309518450548860
         image: Gf9DBuxb0AAbeCQ
     - youtubevideo: 0YlW7T5fVZ4
+
+- webpage:
+    domain: tower.jp
+    id: 2024.12.29.0701
+    label: Article on the album announcement
+    published-date: 2024-12-29
+    url: 'https://tower.jp/article/feature_item/2024/12/29/0701'
+    part-of:
+      album: tricktaking
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - youtubeshort:
     id: 8D7NYm0sa4w

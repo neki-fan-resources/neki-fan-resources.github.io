@@ -250,6 +250,12 @@
                 - line:
                   - webitem:
                       webpage:
+                        domain: tower.jp
+                        id: 2025.08.30.0701
+                      text: tower.jp
+                - line:
+                  - webitem:
+                      webpage:
                         domain: barks.jp
                         id: 1023714
                       text: barks.jp
@@ -280,6 +286,17 @@
                         domain: skream.jp
                         id: 2025.11.neki_meme_campaign
                       text: skream.jp
+            - textsubsection:
+                label: Rankings
+                lines:
+                - line:
+                  - webpage:
+                      domain: stereosound.co.jp
+                      id: 17807493
+                  - newline: ''
+                  - webpage:
+                      domain: stereosound.co.jp
+                      id: 17809101
     todo: Put text about the different editions, more multimedia to sort
     part-of:
       album: meme
@@ -2569,6 +2586,37 @@
     label: Article on the release
     published-date: 2025-11-26
     url: 'https://skream.jp/news/2025/11/neki_meme_campaign.php'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: stereosound.co.jp
+    id: 17807493
+    label: OTOTOY Hi-Res Ranking [2025.11.26 - 12.2］
+    published-date: 2025-12-04
+    url: 'https://online.stereosound.co.jp/_ct/17807493'
+    part-of:
+      album: meme
+
+- webpage:
+    domain: stereosound.co.jp
+    id: 17809101
+    label: OTOTOY Hi-Res Ranking [2025.12.3 - 12.9]
+    published-date: 2025-12-11
+    url: 'https://online.stereosound.co.jp/_ct/17809101'
+    part-of:
+      album: meme
+
+- webpage:
+    domain: tower.jp
+    id: 2025.08.30.0701
+    label: Article on the album announcement
+    published-date: 2025-08-30
+    url: 'https://tower.jp/article/feature_item/2025/08/30/0701'
     part-of:
       album: meme
     reference:

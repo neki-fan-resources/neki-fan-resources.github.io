@@ -40,8 +40,149 @@
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: pXVqwXzt9S8
+    - lyricsblock: '-'
     part-of:
       song: frogflog
+
+- lyrics:
+    id: main
+    song: frogflog
+    part-of:
+      song: frogflog
+    status:
+      code: warning
+      description: Data copied from the sources. No additional checks.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from Uta-Net)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from Uta-Net
+        url: 'https://www.uta-net.com/song/383749/'
+    sections:
+    - lines:
+      - ol:
+        - 想像通り予想通りのチープな最終回
+      - ol:
+        - 130ページ先の恋模様　煩い
+      - ol:
+        - 「エモくない？」「メロくない？」
+      - ol:
+        - 行間読めないアイツ
+      - ol:
+        - See now
+    - lines:
+      - ol:
+        - もう完全にイタくて
+      - ol:
+        - でもずっとここに居たくて
+      - ol:
+        - キャパいってもう人生
+      - ol:
+        - 矛盾ばっかの先生
+      - ol:
+        - I my me　繰り返して
+      - ol:
+        - Who is？　どうでもいい
+    - lines:
+      - ol:
+        - ヘッドホンとって
+      - ol:
+        - どうせ何も聴いてないくせに
+      - ol:
+        - 沼っちゃって最後
+      - ol:
+        - どうやったって迷子
+      - ol:
+        - 叩き潰したもん勝ち
+    - lines:
+      - ol:
+        - 顔も知らないコイビト
+      - ol:
+        - 名前も知らないトモダチ
+      - ol:
+        - ここにいたら終わるよ
+      - ol:
+        - でもここじゃなきゃダメなんでしょ
+      - ol:
+        - 最愛の掃き溜めから
+      - ol:
+        - 見上げる空に穴を開けていった
+    - lines:
+      - ol:
+        - 倍速で流し見他人の幸福
+      - ol:
+        - 低速でイラつくアイツの存在
+      - ol:
+        - 蛙化待ったなし
+      - ol:
+        - これでも続いたほうじゃん
+      - ol:
+        - She knows
+    - lines:
+      - ol:
+        - もう完全にダサいよ
+      - ol:
+        - 証明写真のアイコン
+      - ol:
+        - 平成に縋りついた
+      - ol:
+        - 先駆者気取りの亡霊
+      - ol:
+        - I my me　繰り返して
+      - ol:
+        - Where is？　どうでもいい
+    - lines:
+      - ol:
+        - マッチングしたって
+      - ol:
+        - どうせ愛せないくせに
+      - ol:
+        - 沼っちゃって最後
+      - ol:
+        - トんじゃって最期
+      - ol:
+        - 叩き潰してほしい
+    - lines:
+      - ol:
+        - 声も知らないコイビト
+      - ol:
+        - 所在不明なトモダチ
+      - ol:
+        - 「愛され方がわからない」
+      - ol:
+        - って言っときゃそれっぽくなるでしょ
+      - ol:
+        - 最愛の掃き溜めから
+      - ol:
+        - 匿名希望の旗を振るよ
+    - lines:
+      - ol:
+        - ヘッドホンとって
+      - ol:
+        - どうせなにも聴いてないくせに
+      - ol:
+        - 沼っちゃって最後
+      - ol:
+        - 嫌っちゃって迷子
+      - ol:
+        - インプレ1のヒロイン
+    - lines:
+      - ol:
+        - 顔も知らないコイビト
+      - ol:
+        - 名前も知らないトモダチ
+      - ol:
+        - ここにいたら終わるよ
+      - ol:
+        - でもここじゃなきゃダメなんでしょ
+      - ol:
+        - 最愛の掃き溜めから
+      - ol:
+        - 醜いリアル見せてあげるよ
 
 - postx:
     id: 1923958028916883650

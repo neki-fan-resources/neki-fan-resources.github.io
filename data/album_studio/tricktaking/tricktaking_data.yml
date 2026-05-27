@@ -1409,9 +1409,12 @@
       #NEKI
     image:
     - GlaexlhbwAE90vm
-    todo: tower records article
     part-of:
       album: tricktaking
+    reference:
+    - webpage:
+        domain: tower.jp
+        id: 2024.12.29.0701
 
 - postx:
     id: 1897912233163997512

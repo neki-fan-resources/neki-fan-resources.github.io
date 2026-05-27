@@ -221,6 +221,18 @@
                         domain: skream.jp
                         id: 2025.06.neki_ooak_release
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: utaten.com
+                        id: 66679
+                      text: utaten.com
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: entameclip.com
+                        id: 440089
+                      text: entameclip.com
             - textsubsection:
                 label: Articles on the music video release
                 lines:
@@ -254,6 +266,12 @@
                         domain: e.usen.com
                         id: nekooakmv
                       text: e.usen.com
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: utaten.com
+                        id: 66710
+                      text: utaten.com
     part-of:
       song: ooak
 
@@ -1449,6 +1467,19 @@
     - youtubevideo: qGEzCjYvWZw
 
 - webpage:
+    domain: entameclip.com
+    id: 440089
+    label: Article on the song release
+    published-date: 2025-06-04
+    url: 'https://entameclip.com/news/440089/'
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+
+- webpage:
     domain: ototoy.jp
     id: 124081
     label: Article on the song release
@@ -1515,6 +1546,38 @@
     - postximage:
         post: 1873309518450548860
         image: Gf9DBuxb0AAbeCQ
+
+- webpage:
+    domain: utaten.com
+    id: 66679
+    label: Article on the song release
+    published-date: 2025-06-05
+    url: 'https://utaten.com/news/index/66679'
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - postximage:
+        post: 1929512124243411173
+        image: GscBBL6bgAAwvmM
+
+- webpage:
+    domain: utaten.com
+    id: 66710
+    label: Article on the music video release
+    published-date: 2025-06-20
+    url: 'https://utaten.com/news/index/66710'
+    part-of:
+      song: ooak
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - postximage:
+        post: 1935668905244336459
+        image: GtzabMUXgAAmDvN
 
 - youtubeshort:
     id: '-FTj1689vaY'

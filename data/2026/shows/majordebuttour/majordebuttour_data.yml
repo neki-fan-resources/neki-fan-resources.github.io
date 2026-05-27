@@ -40,6 +40,12 @@
                         domain: e.usen.com
                         id: 2nek610
                       text: e.usen.com
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: entameclip.com
+                        id: 476652
+                      text: entameclip.com
     part-of:
       tour: majordebuttour
 

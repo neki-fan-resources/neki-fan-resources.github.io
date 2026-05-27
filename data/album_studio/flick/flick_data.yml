@@ -40,6 +40,12 @@
                         domain: e.usen.com
                         id: 2nek610
                       text: e.usen.com
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: entameclip.com
+                        id: 476652
+                      text: entameclip.com
     part-of:
       song: flick
 
@@ -93,6 +99,23 @@
     - postximage:
         post: 1961737876066168993
         image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: entameclip.com
+    id: 476652
+    label: Article on the song and tour announcements
+    published-date: 2026-04-26
+    url: 'https://entameclip.com/news/476652/'
+    part-of:
+      song: flick
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - webimage:
+        domain: neki.bitfan.id
+        page: 379562
+        id: announcement
 
 - webpage:
     domain: natalie.mu

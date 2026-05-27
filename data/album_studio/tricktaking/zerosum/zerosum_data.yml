@@ -277,6 +277,15 @@
                         domain: rooftop1976.com
                         id: 2025.02.10173000
                       text: rooftop1976.com
+            - textsubsection:
+                label: Articles on the music video release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: entameclip.com
+                        id: 425460
+                      text: entameclip.com
     part-of:
       song: zerosum
 
@@ -2331,6 +2340,19 @@
     - Refreshed and organized the videos and images
     part-of:
       song: zerosum
+
+- webpage:
+    domain: entameclip.com
+    id: 425460
+    label: Article on the music video release
+    published-date: 2025-02-15
+    url: 'https://entameclip.com/news/425460/'
+    part-of:
+      song: zerosum
+    reference:
+    - localimage:
+        multimedia-event: zerosummv
+        id: mvcover
 
 - webpage:
     domain: rooftop1976.com

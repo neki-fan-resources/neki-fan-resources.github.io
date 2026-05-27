@@ -222,6 +222,12 @@
                         domain: skream.jp
                         id: 2025.07.neki_rip-off
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: entameclip.com
+                        id: 447208
+                      text: entameclip.com
             - textsubsection:
                 label: Articles on the song release
                 lines:
@@ -2499,6 +2505,19 @@
         post: 1873309518450548860
         image: Gf9DBuxb0AAbeCQ
     - youtubevideo: OkQV2Vo9EgE
+
+- webpage:
+    domain: entameclip.com
+    id: 447208
+    label: Article on the song announcement
+    published-date: 2025-07-27
+    url: 'https://entameclip.com/news/447208/'
+    part-of:
+      song: ripoff
+    reference:
+    - postximage:
+        post: 1949439923565826120
+        image: Gw3NH3ubMAA1o7y
 
 - webpage:
     domain: natalie.mu

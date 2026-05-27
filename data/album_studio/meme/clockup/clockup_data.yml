@@ -52,8 +52,134 @@
                 multimedia:
                 - youtubeshort: uT0FJdwTZW0
                 - youtubeshort: df7tbLp6n4k
+    - lyricsblock: '-'
     part-of:
       song: clockup
+
+- lyrics:
+    id: main
+    song: clockup
+    part-of:
+      song: clockup
+    status:
+      code: warning
+      description: Data copied from the sources. No additional checks.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from metalsapphire.com)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from metalsapphire.com
+        url: 'https://www.metalsapphire.com/NEKI/Songs.html#Clock%20up'
+    sections:
+    - lines:
+      - ol:
+        - 現実と理想で荒らいでいる君へ
+      - ol:
+        - いつも劣等感⇆プライドが
+      - ol:
+        - 渦を巻いている
+      - ol:
+        - 葛藤の中で
+      - ol:
+        - 匿名と実名で拗らせている君へ
+      - ol:
+        - 魔法のフィルターを介して
+      - ol:
+        - 嘘に塗れたレンズの中で
+      - ol:
+        - なぁぶっ壊してあげようか
+    - lines:
+      - ol:
+        - 衝撃がループしていまも
+      - ol:
+        - 煌めく一瞬を五感を
+      - ol:
+        - 切り取りたくて
+      - ol:
+        - オーバークロックモンスターで行こうぜ
+      - ol:
+        - 超えるのさ僕らで
+      - ol:
+        - この音に乗せ爆ぜるだけ
+    - lines:
+      - ol:
+        - 退屈と孤独で潰れそうな君へ
+      - ol:
+        - もうどう考えたって引っくり返らない
+      - ol:
+        - クソゲーの中で
+      - ol:
+        - 愛憎と不安で狂いそうな君へ
+      - ol:
+        - 没個性なショートムービー踊らされた
+      - ol:
+        - カメラの中で
+    - lines:
+      - ol:
+        - Take your hands
+      - ol:
+        - その殻を破って
+      - ol:
+        - Boys and girls
+      - ol:
+        - さあどっちだって構わない
+    - lines:
+      - ol:
+        - 感動がループしていまも
+      - ol:
+        - 色褪せない記憶を時間を
+      - ol:
+        - 切り取りたくて
+      - ol:
+        - オーバークロックモンスターでいようぜ
+      - ol:
+        - 超えるのさ僕らで
+      - ol:
+        - この音に乗せ爆ぜるいま
+    - lines:
+      - ol:
+        - 毎分毎秒... 毎分毎秒...
+      - ol:
+        - 毎分毎秒... 毎分毎秒...
+      - ol:
+        - 燃やしていけ
+    - lines:
+      - ol:
+        - 衝撃がループしていまも
+      - ol:
+        - 煌めく一瞬を五感を
+      - ol:
+        - 切り取りたくて
+      - ol:
+        - オーバークロックモンスターで行こうぜ
+      - ol:
+        - 超えるのさ僕らで
+      - ol:
+        - この音に乗せ爆ぜるだけで
+    - lines:
+      - ol:
+        - 感動がループしていまも
+      - ol:
+        - 色褪せない記憶を時間を
+      - ol:
+        - 切り取りたくて
+      - ol:
+        - オーバークロックモンスターでいようぜ
+      - ol:
+        - 超えるのさ僕らで
+      - ol:
+        - この音に乗せ爆ぜるいま
+    - lines:
+      - ol:
+        - 毎分毎秒... 毎分毎秒...
+      - ol:
+        - 毎分毎秒... 毎分毎秒...
+      - ol:
+        - 超えていけ
 
 - update:
     song: clockup

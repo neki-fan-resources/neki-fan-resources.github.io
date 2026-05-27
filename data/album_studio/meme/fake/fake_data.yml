@@ -1,15 +1,135 @@
-display:
-  song: fake
-  blocks:
-  - basicblock:
-      id: main
-      label: main
-      sections:
-      - basicsection:
-          label: Live, with original audio
-          subsections:
-          - multimediasubsection:
-              multimedia:
-              - youtubeshort: fAJbl2EYkwA
-  part-of:
+- display:
     song: fake
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: fAJbl2EYkwA
+    - lyricsblock: '-'
+    part-of:
+      song: fake
+
+- lyrics:
+    id: main
+    song: fake
+    part-of:
+      song: fake
+    status:
+      code: warning
+      description: Data copied from the sources. No additional checks.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from metalsapphire.com)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from metalsapphire.com
+        url: 'https://www.metalsapphire.com/NEKI/Songs.html#fake'
+    sections:
+    - lines:
+      - ol:
+        - 愛のフリした嘘を
+      - ol:
+        - 無視するの もう今
+      - ol:
+        - 無防備じゃ無い 無知じゃ無い
+      - ol:
+        - Running away from the noisy world
+      - ol:
+        - 愛なんて嘘だ
+      - ol:
+        - ずっと伽藍堂ごっこ遊び
+      - ol:
+        - バカだね 今はもう見過ごせない
+      - ol:
+        - I know you are faking
+    - lines:
+      - ol:
+        - 自己満以上思いやり未満
+      - ol:
+        - どうしたら良いの
+      - ol:
+        - 味方のフリして滅茶苦茶にして
+      - ol:
+        - どうしたら良いの
+    - lines:
+      - ol:
+        - 自分本位なタイムライン
+      - ol:
+        - 崩れさせて
+    - lines:
+      - ol:
+        - 愛のフリした嘘を
+      - ol:
+        - 無視するの もう今
+      - ol:
+        - 無防備じゃ無い 無知じゃ無い
+      - ol:
+        - Running away from the noisy world
+      - ol:
+        - 愛なんて嘘だ
+      - ol:
+        - ずっと伽藍堂ごっこ遊び
+      - ol:
+        - バカだね 今はもう見過ごせない
+      - ol:
+        - I know you are faking
+    - lines:
+      - ol:
+        - 見かけ倒しのただのファッションで
+      - ol:
+        - どうして欲しいの
+      - ol:
+        - 過干渉超えて無い物ねだり
+      - ol:
+        - どうして欲しいの
+    - lines:
+      - ol:
+        - 一切合切役に立たない
+      - ol:
+        - 握り潰して
+    - lines:
+      - ol:
+        - 愛のフリした嘘を
+      - ol:
+        - 無視するの もう今
+      - ol:
+        - 無防備じゃ無い 無知じゃ無い
+      - ol:
+        - Running away from the noisy world
+      - ol:
+        - 愛なんて嘘だ
+      - ol:
+        - ずっと伽藍堂ごっこ遊び
+      - ol:
+        - バカだね 今はもう見過ごせない
+      - ol:
+        - I know you are faking
+    - lines:
+      - ol:
+        - 愛のフリした嘘に
+      - ol:
+        - 惑わされない
+      - ol:
+        - 無価値だね 無意味だねって
+      - ol:
+        - もう取るに足らない
+      - ol:
+        - 愛なんか嘘だ
+      - ol:
+        - きっと逃げ出せるんだすぐに
+      - ol:
+        - バカだな
+      - ol:
+        - I got my freedom at last
+      - ol:
+        - It is up to me
+

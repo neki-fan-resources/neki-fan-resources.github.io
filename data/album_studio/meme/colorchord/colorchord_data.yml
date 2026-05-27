@@ -46,11 +46,11 @@
       song: colorchord
     status:
       code: warning
-      description: partial lyrics extracted from YouTube short video
+      description: Data copied from the sources. Limited additional checks.
     languages:
     - id: ol
       name: original lyrics
-      details: (from YouTube Short )
+      details: (from YouTube Short and metalsapphire.com )
       active: true
       fixed: true
       no-translation: true
@@ -68,6 +68,26 @@
     sections:
     - lines:
       - ol:
+        - 快速急行に乗って
+      - ol:
+        - 軋む身体折り曲げ
+      - ol:
+        - 明日には忘れてるよ
+      - ol:
+        - 君のシェアしたストーリー
+    - lines:
+      - ol:
+        - 改札残高不足で
+      - ol:
+        - 後頭部襲う舌打ち
+      - ol:
+        - この先同じように
+      - ol:
+        - 味のないガムみたい
+      - ol:
+        - What a beautiful crappy life
+    - lines:
+      - ol:
         - 前髪
         - 浮いちゃった
         - まんま
@@ -83,6 +103,7 @@
         - w: (unchanged)
           d: まんま
         - d: 前髪浮いちゃったまんま
+    - lines:
       - ol:
         - もう
         - どうでもいい
@@ -147,6 +168,7 @@
         - (hey hey hey)
       - ol:
         - Cuz I wanna jump over the moon
+    - lines:
       - ol:
         - いま
         - 自由な
@@ -200,6 +222,59 @@
           d: のない
         - ''
         - d: 筋書きのない
+    - lines:
+      - ol:
+        - 各駅停車に乗って 通知無視して
+      - ol:
+        - 知らない景色眺め 全部サボっちゃって
+      - ol:
+        - ちょっと羨ましかった 子どもみたいに
+      - ol:
+        - 君のシェアしたストーリー 私の好きなように
+    - lines:
+      - ol:
+        - 充電なくなりそうだ
+      - ol:
+        - まあなんとかなるでしょう
+    - lines:
+      - ol:
+        - 明日のことは置いといて
+    - lines:
+      - ol:
+        - モノクロームな世界に
+      - ol:
+        - 絵の具をぶち撒けるように
+      - ol:
+        - hey! hey! hey!
+      - ol:
+        - Cuz I wanna jump over the moon
+    - lines:
+      - ol:
+        - いま自由なイメージで
+      - ol:
+        - 飛び越えて行きたいんだ
+      - ol:
+        - yes! yes! yes!
+      - ol:
+        - 筋書きのない in your life
+    - lines:
+      - ol:
+        - グレースケールな未来に
+      - ol:
+        - RGBばら撒いてさ
+      - ol:
+        - hey! hey! hey!
+      - ol:
+        - Now we touched the glow of the moon
+    - lines:
+      - ol:
+        - このままのイメージで
+      - ol:
+        - 駆け抜けて行きたいんだ
+      - ol:
+        - yes! yes! yes!
+      - ol:
+        - この一瞬の光を見て
 
 - postx:
     id: 1881356000403582982

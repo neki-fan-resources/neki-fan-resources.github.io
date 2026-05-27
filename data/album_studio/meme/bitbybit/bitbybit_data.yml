@@ -17,8 +17,111 @@
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: h44_3aztFLk
+    - lyricsblock: '-'
     part-of:
       song: bitbybit
+
+- lyrics:
+    id: main
+    song: bitbybit
+    part-of:
+      song: bitbybit
+    status:
+      code: warning
+      description: Data copied from the sources. No additional checks.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from Uta-Net)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from Uta-Net
+        url: 'https://www.uta-net.com/song/383748/'
+    sections:
+    - lines:
+      - ol:
+        - 流れる世界　中心地にて
+      - ol:
+        - 度を越していてくらくらと
+    - lines:
+      - ol:
+        - 何がReal　何がFake
+      - ol:
+        - 増してゆく　情報ばかり
+      - ol:
+        - 座り込んで　両手当て
+      - ol:
+        - 耳塞ぎ
+    - lines:
+      - ol:
+        - My own world
+      - ol:
+        - 一歩ずつ　一歩ずつ　クリアして
+      - ol:
+        - 少しずつ　少しずつ　進んで
+      - ol:
+        - 一面　変える私の世界
+      - ol:
+        - 一歩進み　足がもつれ転んでも
+      - ol:
+        - 立ち上がって踏み出し
+      - ol:
+        - 駆け出して　さあ跳ぶの
+    - lines:
+      - ol:
+        - 流れるFeed　眺めるだけ
+      - ol:
+        - 目まぐるしくてふらふらと
+    - lines:
+      - ol:
+        - 何がReal　何がFake
+      - ol:
+        - 何者？　私の世界？
+      - ol:
+        - スピーカーの音を止めて
+      - ol:
+        - 変えるの
+    - lines:
+      - ol:
+        - My own world
+      - ol:
+        - 一歩ずつ　一歩ずつ　クリアして
+      - ol:
+        - 少しずつ　少しずつ　進んで
+      - ol:
+        - 一面　変える私の世界
+      - ol:
+        - 一歩進み　足がもつれ転んでも
+      - ol:
+        - 立ち上がって踏み出し
+      - ol:
+        - 駆け出して　さあ跳ぶの
+    - lines:
+      - ol:
+        - My own world
+      - ol:
+        - 一歩ずつ　一歩ずつ　クリアして
+      - ol:
+        - 少しずつ　少しずつ　進んで
+      - ol:
+        - 一面　変える私の世界
+    - lines:
+      - ol:
+        - My own world
+      - ol:
+        - 一歩ずつ　一歩ずつ　クリアして
+      - ol:
+        - 少しずつ　少しずつ　進んで
+      - ol:
+        - 一面　変わるあなたの世界
+      - ol:
+        - 一歩進み　足がもつれ転んでも
+      - ol:
+        - 立ち上がって　踏み出し
+      - ol:
+        - 駆け出して　今跳ぶの
 
 - youtubeshort:
     id: h44_3aztFLk

@@ -2375,6 +2375,14 @@
       album: meme
 
 - update:
+    album: meme
+    date: 2026-05-27
+    text:
+    - Added the original lyrics for the last songs
+    part-of:
+      album: meme
+
+- update:
     show:
       year: 2025
       id: 1stzepponeman

@@ -1,15 +1,130 @@
-display:
-  song: dearme
-  blocks:
-  - basicblock:
-      id: main
-      label: main
-      sections:
-      - basicsection:
-          label: Live, with original audio
-          subsections:
-          - multimediasubsection:
-              multimedia:
-              - youtubeshort: Q5QgPBuOekU
-  part-of:
+- display:
     song: dearme
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: Q5QgPBuOekU
+    - lyricsblock: '-'
+    part-of:
+      song: dearme
+
+- lyrics:
+    id: main
+    song: dearme
+    part-of:
+      song: dearme
+    status:
+      code: warning
+      description: Data copied from the sources. No additional checks.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from Uta-Net)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from Uta-Net
+        url: 'https://www.uta-net.com/song/383742/'
+    sections:
+    - lines:
+      - ol:
+        - 土砂降りの世界だった私へ
+      - ol:
+        - 調子はどうですか
+      - ol:
+        - 思い通りにいかないことばっかりで
+      - ol:
+        - 苦しいときだね
+    - lines:
+      - ol:
+        - その挫折や、その失敗が
+      - ol:
+        - いつか報われる日が来る
+      - ol:
+        - 本当だよ
+    - lines:
+      - ol:
+        - だから顔上げて、前向いて
+      - ol:
+        - なんて言わない
+      - ol:
+        - いまはたくさん泣いて
+    - lines:
+      - ol:
+        - 悲しみ溶かして歩き続けて
+      - ol:
+        - 想像超えるような
+      - ol:
+        - ハレの世界が待ち構えているから
+      - ol:
+        - 想いを枯らさないでほしい
+    - lines:
+      - ol:
+        - 鈍色の世界だった私へ
+      - ol:
+        - 調子はどうですか
+      - ol:
+        - 実を結ぶか分かんないことばっかりで
+      - ol:
+        - もどかしいときだね
+    - lines:
+      - ol:
+        - その焦りや、その不安が
+      - ol:
+        - いつか吹き飛ぶ時が来る
+      - ol:
+        - 嘘じゃない
+    - lines:
+      - ol:
+        - 不器用でも、不格好でもいいよ
+      - ol:
+        - 君らしくほら
+      - ol:
+        - 思いっきり歌って
+    - lines:
+      - ol:
+        - 悲しみ溶かして歩き続けて
+      - ol:
+        - 鼓動高鳴るような
+      - ol:
+        - ハレの世界が待ち構えているから
+      - ol:
+        - 想いを枯らさないで
+    - lines:
+      - ol:
+        - 雲間から光が差すように
+      - ol:
+        - 雨後に咲き誇る花のように
+      - ol:
+        - 夏風が運んでくる
+      - ol:
+        - この未来の便り
+    - lines:
+      - ol:
+        - いま私がいるのは紛れもなくそう
+      - ol:
+        - 君がいたから
+      - ol:
+        - 伝えたい言葉は
+      - ol:
+        - ありがとうばかりだ
+      - ol:
+        - 忘れたりしないよ
+    - lines:
+      - ol:
+        - 幸せ数えて歩き続けた
+      - ol:
+        - 君の声でいま
+      - ol:
+        - ハレの舞台に立って奏でるメロディ
+      - ol:
+        - 真心を込めて贈るよ
+

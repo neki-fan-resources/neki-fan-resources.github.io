@@ -101,6 +101,21 @@
                         domain: tower.jp
                         id: 2024.06.04.0704
                       text: tower.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2024.06.03211000
+                      text: rooftop1976.com
+            - textsubsection:
+                label: Articles on the album release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2024.07.24213000
+                      text: rooftop1976.com
     part-of:
       album: exclamation
 
@@ -499,6 +514,45 @@
         domain: note.com.nekiband
         page: n323cfbbfa77f
         id: epcover
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2024.06.03211000
+    label: Article on the album announcement
+    published-date: 2024-06-03
+    url: 'https://rooftop1976.com/news/2024/06/03211000.php'
+    part-of:
+      album: exclamation
+    reference:
+    - postximage:
+        post: 1783077452518150229
+        image: GL7DHUnbUAAsyRj
+    - webimage:
+        domain: note.com.nekiband
+        page: n323cfbbfa77f
+        id: epcover
+    - webimage:
+        domain: note.com.nekiband
+        page: n323cfbbfa77f
+        id: title
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2024.07.24213000
+    label: Article on the album release
+    published-date: 2024-07-24
+    url: 'https://rooftop1976.com/news/2024/07/24213000.php'
+    part-of:
+      album: exclamation
+    reference:
+    - postximage:
+        post: 1783077452518150229
+        image: GL7DHUnbUAAsyRj
+    - webimage:
+        domain: note.com.nekiband
+        page: n323cfbbfa77f
+        id: epcover
+    - youtubevideo: EHtWJmMybGY
 
 - webpage:
     domain: tower.jp

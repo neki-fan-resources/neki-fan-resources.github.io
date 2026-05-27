@@ -117,6 +117,12 @@
                         domain: skream.jp
                         id: 2025.10.neki_meme_event
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: e.usen.com
+                        id: nek1st-memecd
+                      text: e.usen.com
     part-of:
       show:
         year: 2025
@@ -806,6 +812,21 @@
     label: Article on the announcement
     published-date: 2025-10-30
     url: 'https://barks.jp/news/1028564/'
+    part-of:
+      show:
+        year: 2025
+        id: memetowershibuya
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: e.usen.com
+    id: nek1st-memecd
+    label: Article on the show announcement
+    published-date: 2025-11-01
+    url: 'https://e.usen.com/news/news-release/nek1st-memecd.html'
     part-of:
       show:
         year: 2025

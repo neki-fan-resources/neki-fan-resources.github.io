@@ -247,6 +247,12 @@
                         domain: skream.jp
                         id: 2025.03.neki_dreams_mv
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2025.03.05210000
+                      text: rooftop1976.com
     part-of:
       album: tricktaking
 
@@ -2017,6 +2023,27 @@
         domain: note.com.nekiband
         page: n35921564900b
         id: epcover
+    - youtubevideo: 0YlW7T5fVZ4
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2025.03.05210000
+    label: Article on the album release
+    published-date: 2025-03-05
+    url: 'https://rooftop1976.com/news/2025/03/05210000.php'
+    part-of:
+      album: tricktaking
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+    - webimage:
+        domain: note.com.nekiband
+        page: n35921564900b
+        id: epcover
+    - postximage:
+        post: 1897498888921342444
+        image: GlVFBh7a4AQgG9E
     - youtubevideo: 0YlW7T5fVZ4
 
 - webpage:

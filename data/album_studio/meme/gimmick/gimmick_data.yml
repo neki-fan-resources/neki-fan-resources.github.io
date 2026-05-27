@@ -282,6 +282,12 @@
                         domain: skream.jp
                         id: 2025.11.nek_gimmick_mv
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: e.usen.com
+                        id: nek11261stmemenekgimmick
+                      text: e.usen.com
             - textsubsection:
                 label: Articles on the music video release
                 lines:
@@ -297,6 +303,12 @@
                         domain: skream.jp
                         id: 2025.11.nek_gimmick_mv_release
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: e.usen.com
+                        id: nek1stmemegimmickmv
+                      text: e.usen.com
     part-of:
       song: gimmick
 
@@ -1957,6 +1969,34 @@
     - postximage:
         post: 1961737876066168993
         image: Gzl99vsacAA6bCZ
+
+- webpage:
+    domain: e.usen.com
+    id: nek11261stmemenekgimmick
+    label: Article on the song release
+    published-date: 2025-11-21
+    url: 'https://e.usen.com/news/news-release/nek11261stmemenekgimmick11212100mvcp.html'
+    part-of:
+      song: gimmick
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - youtubevideo: js9WXQHa5J0
+
+- webpage:
+    domain: e.usen.com
+    id: nek1stmemegimmickmv
+    label: Article on the music video release
+    published-date: 2025-11-25
+    url: 'https://e.usen.com/news/news-release/nek1stmemegimmickmv.html'
+    part-of:
+      song: gimmick
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - youtubevideo: js9WXQHa5J0
 
 - webpage:
     domain: realsound.jp

@@ -34,6 +34,12 @@
                         domain: skream.jp
                         id: 2026.04.neki_major_1st_single
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: e.usen.com
+                        id: 2nek610
+                      text: e.usen.com
     part-of:
       tour: majordebuttour
 

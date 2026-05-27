@@ -262,6 +262,21 @@
                 - postxvideo:
                     post: 1934537704458600771
                     video: 01
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the song release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2025.02.10173000
+                      text: rooftop1976.com
     part-of:
       song: zerosum
 
@@ -2316,6 +2331,19 @@
     - Refreshed and organized the videos and images
     part-of:
       song: zerosum
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2025.02.10173000
+    label: Article on the song release
+    published-date: 2025-02-10
+    url: 'https://rooftop1976.com/news/2025/02/10173000.php'
+    part-of:
+      song: zerosum
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - youtubeshort:
     id: 4t1yP9wsV88

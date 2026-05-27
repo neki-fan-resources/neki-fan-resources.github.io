@@ -13,6 +13,19 @@
         id: nb50d1c0b1dd3
 
 - webpage:
+    domain: e.usen.com
+    id: nek-komsume2live
+    label: Article on the shows announcement
+    published-date: 2025-04-26
+    url: 'https://e.usen.com/news/news-event/nek-komsume2live.html'
+    part-of:
+      tour: nekikomsume2025
+    reference:
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
+
+- webpage:
     domain: natalie.mu
     id: 621457
     label: Article on the shows announcement
@@ -50,6 +63,23 @@
         domain: note.com.nekiband
         page: nb50d1c0b1dd3
         id: poster
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2025.04.25180000
+    label: Article on the shows announcement
+    published-date: 2025-04-25
+    url: 'https://rooftop1976.com/news/2025/04/25180000.php'
+    part-of:
+      tour: nekikomsume2025
+    reference:
+    - webimage:
+        domain: note.com.nekiband
+        page: nb50d1c0b1dd3
+        id: poster
+    - postximage:
+        post: 1873309518450548860
+        image: Gf9DBuxb0AAbeCQ
 
 - webpage:
     domain: skream.jp

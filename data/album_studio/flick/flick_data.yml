@@ -34,6 +34,12 @@
                         domain: skream.jp
                         id: 2026.04.neki_major_1st_single
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: e.usen.com
+                        id: 2nek610
+                      text: e.usen.com
     part-of:
       song: flick
 
@@ -76,10 +82,23 @@
         id: announcement
 
 - webpage:
+    domain: e.usen.com
+    id: 2nek610
+    label: Article on the song and tour announcements
+    published-date: 2026-04-28
+    url: 'https://e.usen.com/news/news-release/2nek610.html'
+    part-of:
+      song: flick
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+
+- webpage:
     domain: natalie.mu
     id: 669826
     label: Article on the song and tour announcements
-    published-date: 2026-05-20
+    published-date: 2026-04-26
     url: 'https://natalie.mu/music/news/669826'
     part-of:
       song: flick

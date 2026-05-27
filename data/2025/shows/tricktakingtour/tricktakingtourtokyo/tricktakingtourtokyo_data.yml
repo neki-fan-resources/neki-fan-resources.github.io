@@ -277,6 +277,21 @@
                 - postximage:
                     post: 1891353098263622008
                     image: Gj9vnfNagAA-TIe
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Live reports
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: e.usen.com
+                        id: '-nek316o-west'
+                      text: e.usen.com
     part-of:
       show:
         year: 2025

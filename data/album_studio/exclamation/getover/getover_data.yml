@@ -272,6 +272,12 @@
                         domain: skream.jp
                         id: 2025.05.nek_get_over_live_video
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2025.05.05160000
+                      text: rooftop1976.com
     - basicblock:
         id: community
         label: Community
@@ -1836,6 +1842,20 @@
     - postximage:
         post: 1873309518450548860
         image: Gf9DBuxb0AAbeCQ
+    - youtubevideo: IeBks9yGO4A
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2025.05.05160000
+    label: Article on the live video release
+    published-date: 2025-05-05
+    url: 'https://rooftop1976.com/news/2025/05/05160000.php'
+    part-of:
+      song: getover
+    reference:
+    - postximage:
+        post: 1918636722516373576
+        image: GqBc0HhbYAA2VDy
     - youtubevideo: IeBks9yGO4A
 
 - webpage:

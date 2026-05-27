@@ -160,6 +160,18 @@
                         domain: skream.jp
                         id: 2025.04.neki_komsume_2man
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2025.04.25180000
+                      text: rooftop1976.com
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: e.usen.com
+                        id: nek-komsume2live
+                      text: e.usen.com
             - textsubsection:
                 label: Live reports
                 lines:

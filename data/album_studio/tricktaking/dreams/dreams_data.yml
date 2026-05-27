@@ -205,6 +205,15 @@
         - basicsection:
             subsections:
             - textsubsection:
+                label: Articles on the song release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2024.12.11000000
+                      text: rooftop1976.com
+            - textsubsection:
                 label: Articles on the music video release
                 lines:
                 - line:
@@ -1407,6 +1416,22 @@
     - Refreshed and organized the videos and images
     part-of:
       song: dreams
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2024.12.11000000
+    label: Article on the song release
+    published-date: 2024-12-11
+    url: 'https://rooftop1976.com/news/2024/12/11000000.php'
+    part-of:
+      song: dreams
+    reference:
+    - postximage:
+        post: 1783077452518150229
+        image: GL7DHUnbUAAsyRj
+    - postximage:
+        post: 1860656200343502968
+        image: GdJg8vraoAAn08v
 
 - youtubeshort:
     id: 2S64RS8McUU

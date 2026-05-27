@@ -256,6 +256,12 @@
                 - line:
                   - webitem:
                       webpage:
+                        domain: rooftop1976.com
+                        id: 2025.08.31113000
+                      text: rooftop1976.com
+                - line:
+                  - webitem:
+                      webpage:
                         domain: barks.jp
                         id: 1023714
                       text: barks.jp
@@ -2551,6 +2557,28 @@
     - postximage:
         post: 1961739772080136281
         image: Gzl_6IcbMAAX62f
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2025.08.31113000
+    label: Article on the album, show and tour announcements
+    published-date: 2025-08-31
+    url: 'https://rooftop1976.com/news/2025/08/31113000.php'
+    part-of:
+      album: meme
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-A0MaAAAtcNa
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-C69aoAADilM
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl-Eg6boAEMEc0
 
 - webpage:
     domain: skream.jp

@@ -195,6 +195,12 @@
                         domain: skream.jp
                         id: 2025.08.neki_major_debut
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2025.08.31113000
+                      text: rooftop1976.com
     part-of:
       show:
         year: 2025

@@ -140,6 +140,21 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: CmYrKiMxMHY
+    - basicblock:
+        id: media
+        label: In the medias
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                label: Articles on the song release
+                lines:
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: rooftop1976.com
+                        id: 2024.10.09212000
+                      text: rooftop1976.com
     part-of:
       song: loner
 
@@ -510,6 +525,23 @@
     - Refreshed and organized the videos and images
     part-of:
       song: loner
+
+- webpage:
+    domain: rooftop1976.com
+    id: 2024.10.09212000
+    label: Article on the song release
+    published-date: 2024-10-09
+    url: 'https://rooftop1976.com/news/2024/10/09212000.php'
+    part-of:
+      song: loner
+    reference:
+    - postximage:
+        post: 1783077452518150229
+        image: GL7DHUnbUAAsyRj
+    - postximage:
+        post: 1841452746416767292
+        image: GY4ngpVbQAA_HQ9
+    - youtubevideo: uhy1HnFXTH8
 
 - youtubeshort:
     id: 3xgyiUaSGgI

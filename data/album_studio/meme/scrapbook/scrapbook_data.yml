@@ -113,6 +113,12 @@
                         domain: skream.jp
                         id: 2026.01.nek_scrap_book_mv
                       text: skream.jp
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: e.usen.com
+                        id: nek1stmemenekscrap-bookmv
+                      text: e.usen.com
     part-of:
       song: scrapbook
 
@@ -623,6 +629,20 @@
     - Refreshed the videos and images
     part-of:
       song: scrapbook
+
+- webpage:
+    domain: e.usen.com
+    id: nek1stmemenekscrap-bookmv
+    label: Article on the music video release
+    published-date: 2026-01-28
+    url: 'https://e.usen.com/news/news-release/nek1stmemenekscrap-bookmv.html'
+    part-of:
+      song: scrapbook
+    reference:
+    - postximage:
+        post: 1961737876066168993
+        image: Gzl99vsacAA6bCZ
+    - youtubevideo: PRszdbt0wdg
 
 - webpage:
     domain: skream.jp

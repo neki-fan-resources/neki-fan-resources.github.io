@@ -92,6 +92,96 @@
         page: homepage
         id: flyer
 
+- postx:
+    id: 2057657704186069127
+    account: SAKAE_SPRING
+    label: Timetable
+    published-date: 2026-05-22
+    text: |-
+      /／
+       #サカスプ2026
+       タイムテーブル発表⋆͛📢⋆
+      \＼
+      
+      この度、全出演アーティストの
+      タイムテーブルが発表となりました⏰🧡
+      
+      タイムテーブルは、サカスプアプリから見るのが
+      おすすめ👍🏻︎💕︎
+      マイタイムテーブルの作成などもできますよ🏃🏻➰
+      
+      今年もあなたの #サカスプこう回る 
+      ぜひ教えてくださいね💫
+      
+      サカスプ開催までいよいよ残り2週間となりました🤩🎶
+      チケットは各プレイガイドで販売中🎫
+      6月、名古屋・栄のライブハウスでお会いしましょう🥳！！
+      
+      ※6/6（土）の出演を予定しておりました ES-TRUS は、アーティスト都合により出演キャンセルとなりました。
+      キャンセルに伴うチケットの払戻し等はいたしかねます。ご了承ください。
+      
+      【開催概要】　
+      TIGET presents SAKAE SP-RING 2026
+      🗓️6/6(土)・7(日)
+      🕐開場11:30 / 開演12:00
+      📍名古屋・栄一帯のライブハウス・クラブ18会場
+      💻https://sakaespring.com
+      
+      サカスプ公式アプリ
+      📱App Store
+      https://apps.apple.com/jp/app/sakae-sp-ring/id1566077869
+      📱Google Play
+      https://play.google.com/store/apps/details?id=com.sakaespring&pcampaignid=web_share
+      
+      #サカエスプリング
+      #サカスプ
+      #zipfm
+    translation: |-
+      /／
+       #Sakasp2026
+       Timetable Announced⋆͛📢⋆
+      \＼
+      
+      The timetable for all performing artists
+      has now been announced⏰🧡
+      
+      We recommend checking the timetable
+      via the Sakasp app👍🏻︎💕︎
+      You can also create your own custom timetable🏃🏻➰
+      
+      Please let us know how you plan to #NavigateSakasp this year💫
+      
+      Only 2 weeks left until Sakasp begins🤩🎶
+      Tickets are now on sale at various ticketing agencies🎫
+      See you in June at the live houses in Sakae, Nagoya🥳!!
+      
+      *ES-TRUS, who was scheduled to perform on Saturday, June 6, has canceled their performance due to artist circumstances.
+      Ticket refunds will not be issued for this cancellation. Thank you for your understanding.
+      
+      【Event Overview】　
+      TIGET presents SAKAE SP-RING 2026
+      🗓️Saturday, June 6 & Sunday, June 7
+      🕐Open 11:30 / Start 12:00
+      📍18 live houses and clubs across the Sakae area in Nagoya
+      💻https://sakaespring.com
+      
+      Sakasp Official App
+      📱App Store
+      https://apps.apple.com/jp/app/sakae-sp-ring/id1566077869
+      📱Google Play
+      https://play.google.com/store/apps/details?id=com.sakaespring&pcampaignid=web_share
+      
+      #SAKAESPRING
+      #Sakasp
+      #zipfm
+    image:
+    - HI4nbYxagAAd5n6
+    - HI4oOZpbsAA7Oe7
+    part-of:
+      show:
+        year: 2026
+        id: sakaespring
+
 - postximage:
     post: 2042437632844841425
     id: HFgyM3MbQAED4h1
@@ -113,6 +203,28 @@
         id: sakaespring
     part-of:
       postx: 2047511390118981884
+
+- postximage:
+    post: 2057657704186069127
+    id: HI4nbYxagAAd5n6
+    label: Timetable
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postx: 2057657704186069127
+
+- postximage:
+    post: 2057657704186069127
+    id: HI4oOZpbsAA7Oe7
+    label: Poster
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postx: 2057657704186069127
 
 - update:
     show:

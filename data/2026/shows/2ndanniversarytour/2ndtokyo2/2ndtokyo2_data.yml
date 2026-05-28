@@ -2292,6 +2292,22 @@
         id: 215096
 
 - webimage:
+    domain: rockinon.com
+    page: 215196
+    id: 1
+    label: Cover
+    published-date: 2026-05-25
+    url: 'https://rockinon.com/images/entry/width:750/215196/1'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: rockinon.com
+        id: 215196
+
+- webimage:
     domain: skream.jp
     page: 2026.05.neki
     id: 0
@@ -2469,6 +2485,20 @@
         domain: billboard-japan.com
         page: 161027
         id: 8
+
+- webpage:
+    domain: rockinon.com
+    id: 215196
+    label: ROCKIN'ON JAPAN July content
+    published-date: 2026-05-25
+    url: 'https://rockinon.com/blog/yamazaki/215196'
+    image:
+    - 1
+    todo: create a media element for this ?
+    part-of:
+      webpage:
+        domain: rockinon.com
+        id: 215096
 
 - webpage:
     domain: skream.jp

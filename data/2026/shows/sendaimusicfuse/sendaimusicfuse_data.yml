@@ -89,6 +89,50 @@
         year: 2026
         id: sendaimusicfuse
 
+- postx:
+    id: 2057405962454204544
+    account: sendaimusicfuse
+    label: Video comment
+    published-date: 2026-05-21
+    text: |-
+      🍋‍🟩SENDAI MUSIC FUSE🍋‍🟩
+      
+      開催まであと…9日‼️
+      
+      本日はNEK!のVTRをお送りします💥⚡️
+      
+      🗓️2026年5月30日(土)
+      📍仙台市内6会場
+      
+      NEK!は16:00〜Rensaに出演！
+      
+      #NEKI
+      #SMF
+      #SMF2026
+      #FUSE
+    translation: |-
+      🍋‍🟩SENDAI MUSIC FUSE🍋‍🟩
+      
+      Just 9 days left until the event‼️
+      
+      Today we bring you a video comment from NEK!💥⚡️
+      
+      🗓️Saturday, May 30, 2026
+      📍6 venues across Sendai City
+      
+      NEK! will perform at Rensa starting from 16:00!
+      
+      #NEKI
+      #SMF
+      #SMF2026
+      #FUSE
+    video:
+    - 01
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
 - postximage:
     post: 2042905506399031322
     id: HFnbun-asAAqMYf
@@ -122,6 +166,18 @@
         id: sendaimusicfuse
     part-of:
       postx: 2056676242741465274
+
+- postxvideo:
+    post: 2057405962454204544
+    id: 01
+    label: Video comment
+    cover: 2057405894393229312/img/nKKypHrJ-DUwtCGD.jpg
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2057405962454204544
 
 - update:
     show:

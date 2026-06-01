@@ -1,3 +1,284 @@
+- display:
+    show:
+      year: 2026
+      id: sendaimusicfuse
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DY9gpxskgS3
+                    video: 1
+                - postinstagramvideo:
+                    post: DY9gpxskgS3
+                    video: 2
+                - postinstagramvideo:
+                    post: DY9gpxskgS3
+                    video: 3
+                - postinstagramvideo:
+                    post: DY9gpxskgS3
+                    video: 4
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: oDMTs3EC82U
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2060652971734737147
+                    image: HJjo7H1a8AAKQvA
+                - postximage:
+                    post: 2060648402489418035
+                    image: HJjkzMJb0AA4cR5
+                - postximage:
+                    post: 2060651573760651269
+                    image: HJjnrm5a4AAO6Hy
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2060654063612743754
+                    image: HJjp8VAa0AAOs5m
+                - postximage:
+                    post: 2060631883818680586
+                    image: HJjVm4BacAAjvDz
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2060631883818680586
+                    image: HJjVolEasAAoo8D
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2060631883818680586
+                    image: HJjVoHGaoAEuzkL
+                - postximage:
+                    post: 2060657429214552184
+                    image: HJjs_zjaIAA_gwP
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2060631883818680586
+                    image: HJjVneDaYAAFUd8
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DY_sTJXGk2S
+                    image: 14
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2060648402489418035
+                    image: HJjkzMIbwAA3zOW
+                - postximage:
+                    post: 2060651573760651269
+                    image: HJjnrm3bkAAhNfW
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DY_sTJXGk2S
+                    image: 9
+                - postximage:
+                    post: 2060657429214552184
+                    image: HJjs_zhbEAAaQVK
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
+- postinstagram:
+    id: DY9gpxskgS3
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-05-30
+    text: |-
+      SENDAI MUSIC FUSE 2026 @ Rensa thank you!!!! #NEKI #SMF2026
+    video:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
+- postinstagram:
+    id: DY_sTJXGk2S
+    account: cocoro_drum
+    label: Cocoro's report
+    info: Ignition, GrAViTy, musafes and sendaimusicfuse
+    published-date: 2026-05-31
+    text: |-
+      5月が終わる🫨💥
+      
+      ゴールデンウィーク最終日のViewtradeとのツーマンも、初めましてのちゃくらとSTRAWDAYとの対バンも、吉祥寺でライブがやりたいという夢を叶えられた武蔵野音楽祭蓮の音カーニバル2026も、そして2年連続で出演させていただいたSENDAI MUSIC FUSE 2026も、どれも濃い思い出でいっぱいです！
+      同世代のプレイヤーがステージで輝いてる姿を見てたくさんの刺激を受けました🔥
+      ⁡
+      今月は水面下の活動も多くて、いいものばっかりだからみんなに早く共有したくて毎日うずうずしています笑
+      みんなの反応を想像しながら頑張るよーーーー
+      ⁡
+      来月は特大イベントのメジャーデビューが待っている！！
+      楽しい１ヶ月になりそうな予感です🌞
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      May is ending🫨💥
+      
+      The two-man show with Viewtrade on the final day of Golden Week, the co-starring event with Chakra and STRAWDAY whom we met for the first time, Musashino Ongakusai Hasu no Ne Carnival 2026 where I fulfilled my dream of playing a live show in Kichijoji, and SENDAI MUSIC FUSE 2026 where we were able to perform for the second consecutive year—every single one of them is filled with intense memories!
+      Seeing players of the same generation shining on stage gave me so much inspiration🔥
+      ⁡
+      We had a lot of behind-the-scenes activities this month too, and everything is so good that I'm itching every day to share it with everyone soon lol
+      I'll do my best while imagining all of your reactionsーーーー
+      ⁡
+      Next month, the massive event of our major debut is waiting for us!!
+      I have a feeling it's going to be a fun month🌞
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 8
+    - 9
+    - 13
+    - 14
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+    reference:
+    - postximage:
+        post: 2055579760995229857
+        image: HIbi5R4aIAEucFB
+    - postximage:
+        post: 2060648402489418035
+        image: HJjkzMIbwAA3zOW
+    - postximage:
+        post: 2052013814884004268
+        image: HHo3rw7bAAAwkAf
+    - postximage:
+        post: 2055579760995229857
+        image: HIbi5R_bsAAz7_U
+    - postximage:
+        post: 2052050724473958484
+        image: HHpZQHcagAA_wGz
+    - postximage:
+        post: 2052757787722276902
+        image: HHzcUIGa4AAVJbo
+    - postximage:
+        post: 2052776981826306524
+        image: HHztxtEbgAAaPGf
+    - postximage:
+        post: 2060657429214552184
+        image: HJjs_zjaIAA_gwP
+    - postximage:
+        post: 2055578645469733015
+        image: HIbh4QkbsAAabk-
+    - postximage:
+        post: 2060648402489418035
+        image: HJjkzMJb0AA4cR5
+
+- postinstagramimage:
+    post: DY_sTJXGk2S
+    id: 13
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: musafes
+    part-of:
+      postinstagram: DY_sTJXGk2S
+
+- postinstagramimage:
+    post: DY_sTJXGk2S
+    id: 14
+    label: Backstage
+    info: NEK!, ちゃくら
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postinstagram: DY_sTJXGk2S
+
+- postinstagramimage:
+    post: DY_sTJXGk2S
+    id: 8
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol6
+    part-of:
+      postinstagram: DY_sTJXGk2S
+
+- postinstagramimage:
+    post: DY_sTJXGk2S
+    id: 9
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postinstagram: DY_sTJXGk2S
+
+- postinstagramvideo:
+    post: DY9gpxskgS3
+    id: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    - song: endlessgame
+    part-of:
+      postinstagram: DY9gpxskgS3
+
+- postinstagramvideo:
+    post: DY9gpxskgS3
+    id: 2
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    - song: endlessgame
+    part-of:
+      postinstagram: DY9gpxskgS3
+
+- postinstagramvideo:
+    post: DY9gpxskgS3
+    id: 3
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    - song: ooak
+    part-of:
+      postinstagram: DY9gpxskgS3
+
+- postinstagramvideo:
+    post: DY9gpxskgS3
+    id: 4
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    - song: ooak
+    part-of:
+      postinstagram: DY9gpxskgS3
+
 - postx:
     id: 2042905506399031322
     account: sendaimusicfuse
@@ -133,6 +414,207 @@
         year: 2026
         id: sendaimusicfuse
 
+- postx:
+    id: 2060631883818680586
+    account: sendaimusicfuse
+    label: Photo report
+    published-date: 2026-05-30
+    text: |-
+      SENDAI MUSIC FUSE 2026 Photo Report！！！
+      
+      -Rensa-
+      NEK!
+      
+      #Rensa
+      #NEKI
+      #SMF
+      #SMF2026
+      #FUSE
+      
+      Photo:村長（高橋卓也）
+      @son_tkhs
+    translation: |-
+      SENDAI MUSIC FUSE 2026 Photo Report！！！
+      
+      -Rensa-
+      NEK!
+      
+      #Rensa
+      #NEKI
+      #SMF
+      #SMF2026
+      #FUSE
+      
+      Photo: Soncho (Takuya Takahashi)
+      @son_tkhs
+    image:
+    - HJjVm4BacAAjvDz
+    - HJjVneDaYAAFUd8
+    - HJjVoHGaoAEuzkL
+    - HJjVolEasAAoo8D
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
+- postx:
+    id: 2060648402489418035
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-05-30
+    text: |-
+      「SENDAI MUSIC FUSE 2026」
+      @ Rensa
+      ありがとうございましたー！！
+      2年連続で出させていただいて、去年よりもバンドも箱もパワーアップして帰ってきました！！🥹
+      今年も楽しかったー！！
+    translation: |-
+      "SENDAI MUSIC FUSE 2026"
+      @ Rensa
+      Thank you so much!!
+      Having been able to perform for two consecutive years, we came back with both the band and the venue powered up compared to last year!!🥹
+      It was so much fun again this year!!
+    image:
+    - HJjkzMIbwAA3zOW
+    - HJjkzMJb0AA4cR5
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
+- postx:
+    id: 2060651573760651269
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-05-30
+    text: |-
+      SENDAI MUSIC FUSE 2026 
+      ありがとうございました！！
+      
+      2年連続！めちゃめちゃ嬉しかったし楽しかった!
+      拳もたくさん上げてくれてありがとう👊🏻👊🏻
+      Rensa、大きかったー！！！
+      また仙台に来られるよう頑張るぞー❤️‍🔥❤️‍🔥
+    translation: |-
+      SENDAI MUSIC FUSE 2026 
+      Thank you so much!!
+      
+      2 years in a row! I was super happy and had so much fun!
+      Thank you for raising so many fists👊🏻👊🏻
+      Rensa was huge!!!
+      I'll do my best to come back to Sendai again❤️‍🔥❤️‍🔥
+    image:
+    - HJjnrm3bkAAhNfW
+    - HJjnrm5a4AAO6Hy
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
+- postx:
+    id: 2060652971734737147
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-05-30
+    text: |-
+      SENDAI MUSIC FUSE 2026
+      📍Rensa
+      
+      #SMF2026 2度目の出演！
+      ありがとうございました🫶✨
+      
+      9月に東名阪ツアー
+      "NEK! MAJOR DEBUT TOUR" 開催🔥
+      
+      ▼現在オフィシャル先行(抽選)受付中
+      https://neki.bitfan.id/contents/389599
+      
+      #NEKI #SMF #SMF2026 #FUSE
+    translation: |-
+      SENDAI MUSIC FUSE 2026
+      📍Rensa
+      
+      Our 2nd appearance at #SMF2026 !
+      Thank you so much🫶✨
+      
+      Our Tokyo-Nagoya-Osaka tour
+      "NEK! MAJOR DEBUT TOUR" will be held in September🔥
+      
+      ▼ Official advance ticket lottery now open
+      https://neki.bitfan.id/contents/389599
+      
+      #NEKI #SMF #SMF2026 #FUSE
+    image:
+    - HJjo7H1a8AAKQvA
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+    reference:
+    - postximage:
+        post: 2060648402489418035
+        image: HJjkzMIbwAA3zOW
+
+- postx:
+    id: 2060654063612743754
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-05-30
+    text: |-
+      SENDAI MUSIC FUSE 2026
+      ありがとうございました！
+      
+      二度も出演できて本当に嬉しかったです。楽しすぎたぁあ！
+      また仙台でライブがしたい！
+    translation: |-
+      SENDAI MUSIC FUSE 2026
+      Thank you so much!
+      
+      I was truly happy to be able to perform twice. It was way too much fun!
+      I want to play a live show in Sendai again!
+    image:
+    - HJjp8VAa0AAOs5m
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+    reference:
+    - postximage:
+        post: 2060648402489418035
+        image: HJjkzMIbwAA3zOW
+
+- postx:
+    id: 2060657429214552184
+    account: coco_102
+    label: Thank you
+    published-date: 2026-05-30
+    text: |-
+      💫SENDAI MUSIC FUSE 2026💫
+      
+      お越しくださった皆さまありがとうございました！！
+      2年連続で出演させていただき、更に大きなステージで戻ってくることができてとても嬉しかったです！楽しかった！！
+      また更にレベルアップした姿で戻って来るので、ぜひ今後も応援よろしくお願いします！
+    translation: |-
+      💫SENDAI MUSIC FUSE 2026💫
+      
+      Thank you to everyone who came!!
+      I was so happy to be able to perform for two consecutive years and to come back to an even bigger stage! It was so much fun!!
+      We will return with an even higher level of performance, so please continue to support us in the future!
+    image:
+    - HJjs_zhbEAAaQVK
+    - HJjs_zjaIAA_gwP
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+    reference:
+    - postximage:
+        post: 2060651573760651269
+        image: HJjnrm3bkAAhNfW
+    - postximage:
+        post: 2060648402489418035
+        image: HJjkzMJb0AA4cR5
+
 - postximage:
     post: 2042905506399031322
     id: HFnbun-asAAqMYf
@@ -167,6 +649,145 @@
     part-of:
       postx: 2056676242741465274
 
+- postximage:
+    post: 2060631883818680586
+    id: HJjVm4BacAAjvDz
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060631883818680586
+
+- postximage:
+    post: 2060631883818680586
+    id: HJjVneDaYAAFUd8
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060631883818680586
+
+- postximage:
+    post: 2060631883818680586
+    id: HJjVoHGaoAEuzkL
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060631883818680586
+
+- postximage:
+    post: 2060631883818680586
+    id: HJjVolEasAAoo8D
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060631883818680586
+
+- postximage:
+    post: 2060648402489418035
+    id: HJjkzMIbwAA3zOW
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060648402489418035
+
+- postximage:
+    post: 2060648402489418035
+    id: HJjkzMJb0AA4cR5
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060648402489418035
+
+- postximage:
+    post: 2060651573760651269
+    id: HJjnrm3bkAAhNfW
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060651573760651269
+
+- postximage:
+    post: 2060651573760651269
+    id: HJjnrm5a4AAO6Hy
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060651573760651269
+
+- postximage:
+    post: 2060652971734737147
+    id: HJjo7H1a8AAKQvA
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060652971734737147
+
+- postximage:
+    post: 2060654063612743754
+    id: HJjp8VAa0AAOs5m
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060654063612743754
+
+- postximage:
+    post: 2060657429214552184
+    id: HJjs_zhbEAAaQVK
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060657429214552184
+
+- postximage:
+    post: 2060657429214552184
+    id: HJjs_zjaIAA_gwP
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: sendaimusicfuse
+    part-of:
+      postx: 2060657429214552184
+
 - postxvideo:
     post: 2057405962454204544
     id: 01
@@ -186,6 +807,33 @@
     date: 2026-04-11
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
+- update:
+    show:
+      year: 2026
+      id: sendaimusicfuse
+    date: 2026-05-31
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: sendaimusicfuse
+
+- youtubeshort:
+    id: oDMTs3EC82U
+    label: On stage
+    info: Natsu, studio audio
+    published-date: 2026-05-31
+    context:
+    - song: scrapbook
+    - show:
+        year: 2026
+        id: sendaimusicfuse
     part-of:
       show:
         year: 2026

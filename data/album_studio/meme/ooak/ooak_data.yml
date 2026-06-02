@@ -278,6 +278,16 @@
                         domain: utaten.com
                         id: 66710
                       text: utaten.com
+    - basicblock:
+        id: community
+        label: Community
+        sections:
+        - basicsection:
+            label: SkyLuc
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: DvLOVMHTm5c
     part-of:
       song: ooak
 
@@ -1760,6 +1770,15 @@
     id: wsPbR3xISFg
     label: Behind the scenes
     published-date: 2025-07-02
+    context:
+    - song: ooak
+    part-of:
+      song: ooak
+
+- youtubevideo:
+    id: DvLOVMHTm5c
+    label: 1 year of videos
+    published-date: 2026-06-02
     context:
     - song: ooak
     part-of:

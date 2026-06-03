@@ -1,0 +1,86 @@
+- postx:
+    id: 2062118530053701899
+    account: TRiDENT_japan
+    label: Announcement
+    published-date: 2026-06-03
+    text: |-
+      ＼＼＼Thanks／／／
+      
+      横浜マリンFM
+      「まいど！イブニングRADIO」
+      公開生放送ありがとうございました✨
+      
+      次回は6月17日(水)となります📻
+      ゲストはNEK! 
+      @nekiband_jp
+       から
+      Hikaさん 
+      @46_hikaa
+      
+      Natsuさん 
+      @natsu08_guitar
+       
+      にお越しいただきます🔥
+      
+      次回のお題
+      【人生最後の日に
+      食べたいもの教えてや〜😎】
+      
+      #まいイブ
+      #TRiDENTJP
+    translation: |-
+      ＼＼＼Thanks／／／
+      
+      Yokohama Marine FM
+      "Maido! Evening RADIO"
+      Thank you for tuning in to the public live broadcast✨
+      
+      The next broadcast will be on June 17th (Wed)📻
+      Guests from NEK!
+      @nekiband_jp
+      will be
+      Hika-san 
+      @46_hikaa
+      
+      and Natsu-san 
+      @natsu08_guitar
+       
+      joining us🔥
+      
+      Next broadcast's theme:
+      【Tell us what you want to eat
+      on the last day of your life~😎】
+      
+      #MaiEve
+      #TRiDENTJP
+    image:
+    - HJ4d3zsasAASlSb
+    part-of:
+      media:
+        year: 2026
+        id: yokohamamarinefmhelloeveningradio
+
+- postximage:
+    post: 2062118530053701899
+    id: HJ4d3zsasAASlSb
+    label: Flyer
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: yokohamamarinefmhelloeveningradio
+    part-of:
+      postx: 2062118530053701899
+
+- update:
+    media:
+      year: 2026
+      id: yokohamamarinefmhelloeveningradio
+    date: 2026-06-03
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: yokohamamarinefmhelloeveningradio
+

@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: yokohamamarinefmhelloeveningradio
+  cover-image:
+    postximage:
+      post: 2062118530053701899
+      image: HJ4d3zsasAASlSb
+  radio: 横浜マリンFM
+  show: まいど！イブニングRADIO
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-06-17
+  host: ASAKA & SERINA (TRiDENT)
+  part-of:
+    group:
+      id: media
+      group: 2026
+  description:
+  - Hika and Natsu are guests at TRiDENT's ASAKA and SERINA radio show.

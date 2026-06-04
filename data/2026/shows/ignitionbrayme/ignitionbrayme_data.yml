@@ -1,0 +1,62 @@
+- postx:
+    id: 2062489542179836177
+    account: CLUB251official
+    label: Announcement
+    published-date: 2026-06-04
+    text: |-
+      [ライブ情報]
+      8/17(月)
+      251 presents Ignition!!!
+      ~ Special Two Man Show ~
+      -act-
+      Bray me
+      NEK!
+      op 18:30 / st 19:00
+      adv ¥4,000+1D
+      
+      ▼ご予約 6/7、12:00〜
+      https://livepocket.jp/e/251260817
+    translation: |-
+      [LIVE INFO]
+      8/17 (Mon)
+      251 presents Ignition!!!
+      ~ Special Two Man Show ~
+      -act-
+      Bray me
+      NEK!
+      op 18:30 / st 19:00
+      adv ¥4,000+1D
+      
+      ▼Reservations 6/7, 12:00〜
+      https://livepocket.jp/e/251260817
+    image:
+    - HJeqnPfa4AAhUuC
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+
+- postximage:
+    post: 2062489542179836177
+    id: HJeqnPfa4AAhUuC
+    label: Flyer
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2062489542179836177
+
+- update:
+    show:
+      year: 2026
+      id: ignitionbrayme
+    date: 2026-06-04
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+

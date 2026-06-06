@@ -1,3 +1,70 @@
+- display:
+    show:
+      year: 2026
+      id: tsuyokawa
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: IFMAWaV6GJM
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2062898813346709564
+                    image: HKDjiWWbQAAZSI2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2062936991235551359
+                    image: HKEGQc_bsAITH6e
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2062898813346709564
+                    image: HKDjiWTaMAEJBrY
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2063231348245180424
+                    image: HKIR-T0bQAAuyyH
+                - postximage:
+                    post: 2062898813346709564
+                    image: HKDjiWVaIAAR3-x
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2063064177376370755
+                    image: HKF57UqbgAEatYK
+                - postximage:
+                    post: 2062916920106734040
+                    image: HKD0AMoaYAA9iXS
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2062914774938316808
+                    image: HKDyDTAbgAA6rU5
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2063064177376370755
+                    image: HKF57Y1b0AAvsWI
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
 - postx:
     id: 2028062840817664094
     account: nekiband_jp
@@ -46,6 +113,208 @@
         year: 2026
         id: tsuyokawa
 
+- postx:
+    id: 2062898813346709564
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-06-05
+    text: |-
+      "TSUYOKAWA"
+      📍京都MOJO
+      
+      w/ 
+      @7th_Vega
+       
+      
+      ありがとうございました🖤
+      
+      9月に東名阪ツアー開催🔥
+      チケットオフィシャル2次先行受付中！
+      https://neki.bitfan.id/contents/389599
+      
+      #NEKI
+    translation: |-
+      "TSUYOKAWA"
+      📍Kyoto MOJO
+      
+      w/ 
+      @7th_Vega
+       
+      
+      Thank you so much🖤
+      
+      Tokyo-Nagoya-Osaka tour coming up in September🔥
+      Official 2nd ticket pre-orders now open!
+      https://neki.bitfan.id/contents/389599
+      
+      #NEKI
+    image:
+    - HKDjiWTaMAEJBrY
+    - HKDjiWVaIAAR3-x
+    - HKDjiWWbQAAZSI2
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
+- postx:
+    id: 2062914774938316808
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-06-05
+    text: |-
+      "TSUYOKAWA" @ 京都MOJO
+      
+      セブンス・ベガとのツーマン激あつ楽しかったー！！
+      京都に集まってくださった皆さん、ありがとうございました🥹
+    translation: |-
+      "TSUYOKAWA" @ Kyoto MOJO
+      
+      The two-man live with Seventh Vega was super hot and fun!!
+      Thank you so much to everyone who gathered in Kyoto 🥹
+    image:
+    - HKDyDTAbgAA6rU5
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+    reference:
+    - postximage:
+        post: 2062898813346709564
+        image: HKDjiWVaIAAR3-x
+
+- postx:
+    id: 2062916920106734040
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-06-05
+    text: |-
+      "TSUYOKAWA"
+      
+      最強に楽しかった!セブンス・ベガとのツーマン✌🏻✌🏻
+      初京都ライブ、たくさん盛り上がってくれて嬉しかった！！
+      また京都でライブできるよう、そしてセブンス・ベガともまた対バンできるよう頑張るぞー！
+      私たちもベガも明日のサカスプ出るのでまたよろしくお願いします！！
+      
+      alt:
+      フォールドっ🤍
+    translation: |-
+      "TSUYOKAWA"
+      
+      It was the absolute most fun! Two-man live with Seventh Vega ✌🏻✌🏻
+      Our first-ever Kyoto live, I was so happy everyone hyped it up so much!!
+      We'll do our best so we can perform in Kyoto again, and also do another joint gig with Seventh Vega!
+      Both we and Vega are performing at Sakae Spree tomorrow, so we look forward to seeing you there too!!
+      
+      alt:
+      Fold-eddd 🤍
+    image:
+    - HKD0AMoaYAA9iXS
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+    reference:
+    - postximage:
+        post: 2062898813346709564
+        image: HKDjiWVaIAAR3-x
+
+- postx:
+    id: 2062936991235551359
+    account: coco_102
+    label: Thank you
+    published-date: 2026-06-05
+    text: |-
+      セブンスネキツーマンありがとうございました🤝🏻💥
+      それぞれの魅力を楽しんでいただけましたか？？
+      セブンスとの対バンは約2年ぶりだったので、お互いに今日まで頑張ってきた成果をぶつけ合えて嬉しかったです！同世代ガールズバンドとしてこれからもよろしくお願いします❤️‍🔥
+      
+      Photo by 
+      @shohnophoto
+    translation: |-
+      Thank you so much for the Seventh-NEK! two-man live 🤝🏻💥
+      Did you all enjoy each of our unique styles??
+      It's been about 2 years since our last joint gig with Seventh, so I was happy we could clash with the results of all the hard work we've both put in up until today! We look forward to more from here on out as fellow girls bands of the same generation ❤️‍🔥
+      
+      Photo by 
+      @shohnophoto
+    image:
+    - HKEGQc_bsAITH6e
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+    reference:
+    - postximage:
+        post: 2062898813346709564
+        image: HKDjiWVaIAAR3-x
+
+- postx:
+    id: 2063064177376370755
+    account: 46_hikaa
+    label: Samesies
+    published-date: 2026-06-06
+    text: |-
+      シブカンが昨日MCで言ってた
+      アイフォンケースとキーホルダー！
+      
+      運命的すぎる。
+    translation: |-
+      The iPhone case and keychain
+      that Shibukan mentioned during the MC yesterday!
+      
+      It's too much like destiny.
+    image:
+    - HKF57UqbgAEatYK
+    - HKF57Y1b0AAvsWI
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
+- postx:
+    id: 2063231348245180424
+    account: 7th_Vega
+    label: Thank you
+    info: picture with 7th Vega only
+    published-date: 2026-06-06
+    text: |-
+      Thank you ‼︎ 
+      
+      2026年6月5日(金)
+      📍京都MOJO
+      
+      『TSUYOKAWA』
+      w/
+      @nekiband_jp
+       
+      
+      ありがとうございました⚡️
+      
+      Photo by 
+      @ichiru_000
+    translation: |-
+      Thank you ‼︎ 
+      
+      Friday, June 5, 2026
+      📍Kyoto MOJO
+      
+      『TSUYOKAWA』
+      w/
+      @nekiband_jp
+       
+      
+      Thank you so much⚡️
+      
+      Photo by 
+      @ichiru_000
+    image:
+    - HKIR-T0bQAAuyyH
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
 - postximage:
     post: 2028062840817664094
     id: HCUgZoEa8AABKp4
@@ -58,6 +327,112 @@
     part-of:
       postx: 2028062840817664094
 
+- postximage:
+    post: 2062898813346709564
+    id: HKDjiWTaMAEJBrY
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2062898813346709564
+
+- postximage:
+    post: 2062898813346709564
+    id: HKDjiWVaIAAR3-x
+    label: Bands
+    info: 7th Vega, NEK!
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2062898813346709564
+
+- postximage:
+    post: 2062898813346709564
+    id: HKDjiWWbQAAZSI2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2062898813346709564
+
+- postximage:
+    post: 2062914774938316808
+    id: HKDyDTAbgAA6rU5
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2062914774938316808
+
+- postximage:
+    post: 2062916920106734040
+    id: HKD0AMoaYAA9iXS
+    label: Backstage
+    info: Natsu, サコティッシュフォールド (セブンス・ベガ)
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2062916920106734040
+
+- postximage:
+    post: 2062936991235551359
+    id: HKEGQc_bsAITH6e
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2062936991235551359
+
+- postximage:
+    post: 2063064177376370755
+    id: HKF57UqbgAEatYK
+    label: Backstage
+    info: Hika, シブヤカンナ (セブンス・ベガ)
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2063064177376370755
+
+- postximage:
+    post: 2063064177376370755
+    id: HKF57Y1b0AAvsWI
+    label: Backstage
+    info: Phone cases and keychains
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2063064177376370755
+
+- postximage:
+    post: 2063231348245180424
+    id: HKIR-T0bQAAuyyH
+    label: Bands
+    info: NEK!, セブンス・ベガ
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2063231348245180424
+
 - update:
     show:
       year: 2026
@@ -65,6 +440,32 @@
     date: 2026-03-01
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
+- update:
+    show:
+      year: 2026
+      id: tsuyokawa
+    date: 2026-06-06
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
+- youtubeshort:
+    id: IFMAWaV6GJM
+    label: Trip vlog
+    published-date: 2026-06-06
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    - song: ooak
     part-of:
       show:
         year: 2026

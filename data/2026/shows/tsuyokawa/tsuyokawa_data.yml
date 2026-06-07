@@ -45,8 +45,14 @@
                     post: 2063064177376370755
                     image: HKF57UqbgAEatYK
                 - postximage:
+                    post: 2063608573402472590
+                    image: HKNpC-qbYAAWYUf
+                - postximage:
                     post: 2062916920106734040
                     image: HKD0AMoaYAA9iXS
+                - postximage:
+                    post: 2063608573402472590
+                    image: HKNpC-dbMAAL2fz
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -315,6 +321,31 @@
         year: 2026
         id: tsuyokawa
 
+- postx:
+    id: 2063608573402472590
+    account: seventh_sora
+    label: Thank you
+    published-date: 2026-06-07
+    text: |-
+      改めてNEK!ツーマンありがとうございました！
+      
+      ひかちゃんとは八重歯がおそろだったし、かなでちゃんは髪色がめっちゃ似てた！
+      
+      楽しかった今度は東京でやろうね
+    translation: |-
+      Thank you again for the NEK! two-man live!
+      
+      Hika-chan and I had matching snaggleteeth, and Kanade-chan's hair color was super similar to mine!
+      
+      It was so much fun, let's do it in Tokyo next time
+    image:
+    - HKNpC-dbMAAL2fz
+    - HKNpC-qbYAAWYUf
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
 - postximage:
     post: 2028062840817664094
     id: HCUgZoEa8AABKp4
@@ -432,6 +463,30 @@
         id: tsuyokawa
     part-of:
       postx: 2063231348245180424
+
+- postximage:
+    post: 2063608573402472590
+    id: HKNpC-dbMAAL2fz
+    label: Backstage
+    info: Kanade, そら (セブンス・ベガ)
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2063608573402472590
+
+- postximage:
+    post: 2063608573402472590
+    id: HKNpC-qbYAAWYUf
+    label: Backstage
+    info: そら (セブンス・ベガ), Hika
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2063608573402472590
 
 - update:
     show:

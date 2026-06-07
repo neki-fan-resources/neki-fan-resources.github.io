@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmnagasakisunrisestation
+  cover-image:
+    webimage:
+      domain: fmnagasaki.co.jp
+      page: sunrisestation
+      id: banner
+  radio: FM Nagasaki
+  show: Sunrise Station
+  designation: radio comment
+  member:
+  - Hika
+  published-date: 2026-06-08
+  webpage: 'https://www.fmnagasaki.co.jp/program/sunrisestation/'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  description:
+  - For NEK! major debut week, Hika provides comments from Monday to Thursday.

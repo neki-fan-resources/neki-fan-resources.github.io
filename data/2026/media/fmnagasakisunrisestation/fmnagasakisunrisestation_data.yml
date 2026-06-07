@@ -1,0 +1,85 @@
+- postx:
+    id: 2062428808800845914
+    account: Sunrise_FMN
+    label: Announcement
+    published-date: 2026-06-04
+    text: |-
+      サンライズステーション🌅
+      06/08～06/11のディグソングは・・・
+      vo.gのHikaは長崎出身
+      4人組ガールズバンド、NEK!（ネキ）✨
+      メジャーデビューの週に4日間登場です！
+      バンド名の由来や今後の目標、
+      デビューsgの聴きどころなど！
+      
+      #NEKI
+    translation: |-
+      Sunrise Station🌅
+      The Dig Song from 06/08 to 06/11 is...
+      Vo.&Gt. Hika is from Nagasaki
+      The 4-member girls band, NEK!✨
+      Appearing for 4 days during their major debut week!
+      The origin of their band name, future goals,
+      highlights of their debut single, and more!
+      
+      #NEKI
+    image:
+    - HJ821LFbIAAEnd8
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisunrisestation
+
+- postximage:
+    post: 2062428808800845914
+    id: HJ821LFbIAAEnd8
+    label: Flyer
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakisunrisestation
+    part-of:
+      postx: 2062428808800845914
+
+- update:
+    media:
+      year: 2026
+      id: fmnagasakisunrisestation
+    date: 2026-06-07
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisunrisestation
+
+- webimage:
+    domain: fmnagasaki.co.jp
+    page: sunrisestation
+    id: banner
+    label: Banner
+    published-date: 2026-06-07
+    url: 'https://www.fmnagasaki.co.jp/weblog/skins/sunrise2008/img/bg_header_swf.jpg'
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakisunrisestation
+    part-of:
+      webpage:
+        domain: fmnagasaki.co.jp
+        id: sunrisestation
+
+- webpage:
+    domain: fmnagasaki.co.jp
+    id: sunrisestation
+    label: Show page
+    published-date: 2026-06-07
+    url: 'https://www.fmnagasaki.co.jp/program/sunrisestation/'
+    image:
+    - banner
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisunrisestation
+

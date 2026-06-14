@@ -1,0 +1,22 @@
+mediawritten:
+  year: 2026
+  id: nataliemufeature
+  cover-image:
+    webimage:
+      domain: natalie.mu
+      page: music
+      id: logo
+  publication: natalie
+  issue: NEK! feature
+  designation: Interview
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-06-12
+  article-page: 'https://natalie.mu/music/pp/neki'
+  part-of:
+    group:
+      id: media
+      group: 2026

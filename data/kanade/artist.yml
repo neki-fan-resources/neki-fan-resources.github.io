@@ -4,6 +4,34 @@
     part-of:
       group: kanade
 
+- postinstagram:
+    id: DZcAKRexxAK
+    account: cure_bass_baka
+    label: new version of herself
+    published-date: 2026-06-11
+    text: |-
+      新しい自分に出会えた。。
+      ⁡
+       #NEKI
+    translation: |-
+      I met a new version of myself...
+      ⁡
+       #NEKI
+    image:
+    - 1
+    todo: attach to major debut ?
+    part-of:
+      group:
+        id: artist
+        group: kanade
+
+- postinstagramimage:
+    post: DZcAKRexxAK
+    id: 1
+    label: Kanade
+    part-of:
+      postinstagram: DZcAKRexxAK
+
 - postx:
     id: 1978027375901188409
     account: cure_bass_baka
@@ -110,6 +138,28 @@
         group: kanade
 
 - postx:
+    id: 2056681150517817431
+    account: cure_bass_baka
+    label: Excited for new equipment she ordered
+    published-date: 2026-05-19
+    text: |-
+      とっても楽しみなおNEW機材を注文しました…！
+      ワクワクが抑えられないお子ちゃまメンタルなので
+      しっかり匂わせだけしときます。。。
+      
+      みんなに見せるのもすごく楽しみなんだ🥹
+    translation: |-
+      I ordered some new equipment that I'm super excited about...!
+      I have the mindset of a kid who can't hold back their excitement,
+      so I'm just gonna leave a little teaser right here...
+      
+      I'm also really looking forward to showing it to everyone 🥹
+    part-of:
+      group:
+        id: artist
+        group: kanade
+
+- postx:
     id: 2061050143798112664
     account: cure_bass_baka
     label: cool room
@@ -125,6 +175,20 @@
       group:
         id: artist
         group: kanade
+
+- postx:
+    id: 2065435368238002229
+    account: cure_bass_baka
+    label: Not merch
+    published-date: 2026-06-12
+    text: |-
+      グッズじゃないです趣味です。。。🥹
+    translation: |-
+      It's not merchandise, it's just my hobby...🥹
+    image:
+    - HKnmhKhaoAA3UCU
+    part-of:
+      postx: 2056681150517817431
 
 - postximage:
     post: 1978027375901188409
@@ -190,4 +254,11 @@
     label: Kanade
     part-of:
       postx: 2061050143798112664
+
+- postximage:
+    post: 2065435368238002229
+    id: HKnmhKhaoAA3UCU
+    label: Custom picks
+    part-of:
+      postx: 2065435368238002229
 

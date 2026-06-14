@@ -25,6 +25,36 @@
         post: 2015400555619975430
         video: 01
 
+- postinstagram:
+    id: DZbuhMOGvae
+    account: cocoro_drum
+    label: New look
+    published-date: 2026-06-11
+    text: |-
+      🤟🏻🩵
+      ⁡
+      新ビジュアルどうよー？！
+      アイメイクが一切ラメを使ってなくてめっちゃ新鮮だった！
+      ヘアバンドとミントグリーンのトップスがお気に入りです🫶🏻
+      ⁡
+      ダンサー味溢れるドラマーCocoroをどうぞよろしく🙂‍↕️笑
+    translation: |-
+      🤟🏻🩵
+      ⁡
+      How do you like the new look?!
+      It felt so fresh because they didn't use any glitter for my eye makeup at all!
+      The hairband and mint green top are my favorites🫶🏻
+      ⁡
+      Please look kindly upon Cocoro, the drummer who is overflowing with dancer vibes🙂‍↕️ lol
+    image:
+    - 1
+    - 2
+    todo: attach to major debut ?
+    part-of:
+      group:
+        id: artist
+        group: cocoro
+
 - postinstagramimage:
     post: DT7vHYbkoOh
     id: 2
@@ -34,6 +64,20 @@
     - song: scrapbook
     part-of:
       postinstagram: DT7vHYbkoOh
+
+- postinstagramimage:
+    post: DZbuhMOGvae
+    id: 1
+    label: Cocoro
+    part-of:
+      postinstagram: DZbuhMOGvae
+
+- postinstagramimage:
+    post: DZbuhMOGvae
+    id: 2
+    label: Cocoro
+    part-of:
+      postinstagram: DZbuhMOGvae
 
 - postx:
     id: 1917457790253293837
@@ -113,6 +157,26 @@
         id: artist
         group: cocoro
 
+- postx:
+    id: 2064651654469992624
+    account: coco_102
+    label: New profile picture
+    published-date: 2026-06-10
+    text: |-
+      バーーーーーーーーン💥🔫😎
+      
+      #新しいプロフィール画像
+    translation: |-
+      baaaaaaaam💥🔫😎
+      
+      #NewProfilePicture
+    image:
+    - HKcdvL6aYAAyYSb
+    part-of:
+      group:
+        id: artist
+        group: cocoro
+
 - postximage:
     post: 1917457790253293837
     id: GpwtsbTaYAAlBd8
@@ -145,6 +209,16 @@
     - song: scrapbook
     part-of:
       postx: 2015400555619975430
+
+- postximage:
+    post: 2064651654469992624
+    id: HKcdvL6aYAAyYSb
+    label: Behind the scenes
+    info: Cocoro
+    context:
+    - song: flick
+    part-of:
+      postx: 2064651654469992624
 
 - postxvideo:
     post: 2015400555619975430

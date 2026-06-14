@@ -1,0 +1,83 @@
+- postx:
+    id: 2065388683960996321
+    account: natalie_mu
+    label: Article post
+    published-date: 2026-06-12
+    text: |-
+      【特集】若手バンド・NEK!が「FLiCK」でメジャーデビュー！
+      
+      ネットで出会った“スラングロックバンド”
+      バンド名の由来は“〇〇ネキ”
+      ガールズバンド戦国時代でテッペン目指す
+      
+      ▼「これがNEK!です」インタビューを読む
+      https://natalie.mu/music/pp/neki
+      
+      #NEKI
+    translation: |-
+      【Feature】Young band NEK! makes their major debut with "FLiCK"!
+      
+      The "slang rock band" that met on the internet
+      The band name originates from "〇〇-neki"
+      Aiming for the top in the warring states period of girls' bands
+      
+      ▼Read the "This is NEK!" interview
+      https://natalie.mu/music/pp/neki
+      
+      #NEKI
+    image:
+    - HKm8ECmbIAA-xE9
+    part-of:
+      media:
+        year: 2026
+        id: nataliemufeature
+
+- postximage:
+    post: 2065388683960996321
+    id: HKm8ECmbIAA-xE9
+    label: NEK!
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      postx: 2065388683960996321
+
+- update:
+    media:
+      year: 2026
+      id: nataliemufeature
+    date: 2026-06-14
+    text:
+    - Added the interview
+    part-of:
+      media:
+        year: 2026
+        id: nataliemufeature
+
+- webimage:
+    domain: natalie.mu
+    page: music
+    id: logo
+    label: Logo
+    published-date: 2026-06-12
+    url: 'https://x.com/natalie_mu/photo'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: music
+
+- webpage:
+    domain: natalie.mu
+    id: music
+    label: natalie.mu music page
+    published-date: 2026-06-12
+    url: 'https://natalie.mu/music'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: nataliemufeature
+

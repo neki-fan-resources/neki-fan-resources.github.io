@@ -102,6 +102,65 @@
         page: 379563
         id: poster
 
+- postx:
+    id: 2064221900256231452
+    account: nekiband_jp
+    label: Poster display
+    published-date: 2026-06-09
+    text: |-
+      📣ポスター掲示📣
+      
+      渋谷スペイン坂にて
+      "NEK! MAJOR DEBUT TOUR" ポスター掲示中！
+      
+      渋谷にお出かけの際は
+      ぜひチェックお願いします✔️
+      
+      ▼掲載期間
+      6/9(火) - 6/22(月)まで
+      
+      ▼掲示場所
+      東京・渋谷スペイン坂
+      
+      9月開催の東名阪ツアー🎪
+      現在オフィシャル先行(抽選)受付中！
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      📣Poster Display📣
+      
+      At Shibuya Spain-zaka
+      "NEK! MAJOR DEBUT TOUR" posters are now on display!
+      
+      When you go out to Shibuya
+      please be sure to check it out✔️
+      
+      ▼Display Period
+      From 6/9 (Tue) - 6/22 (Mon)
+      
+      ▼Location
+      Tokyo · Shibuya Spain-zaka
+      
+      The Tokyo, Nagoya, and Osaka tour in September🎪
+      Official advance ticket (lottery) applications are now open!
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HKWW3tUbUAAQK21
+    part-of:
+      tour: majordebuttour
+
+- postximage:
+    post: 2064221900256231452
+    id: HKWW3tUbUAAQK21
+    label: Poster display
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2064221900256231452
+
 - update:
     tour: majordebuttour
     date: 2026-04-27

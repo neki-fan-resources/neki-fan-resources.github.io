@@ -1,5 +1,57 @@
-group:
-  id: artist
-  label: Artist
-  part-of:
-    group: natsu
+- group:
+    id: artist
+    label: Artist
+    part-of:
+      group: natsu
+
+- postinstagram:
+    id: DZcTVhfklau
+    account: natsu08_guitar
+    label: Artist photos
+    published-date: 2026-06-11
+    text: |-
+      .
+      アー写とった日☺︎
+    translation: |-
+      .
+      The day we took our artist photos ☺︎
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: natsu
+
+- postinstagramimage:
+    post: DZcTVhfklau
+    id: 1
+    label: Natsu
+    part-of:
+      postinstagram: DZcTVhfklau
+
+- postx:
+    id: 2064651258410176556
+    account: natsu08_guitar
+    label: New profile picture
+    published-date: 2026-06-10
+    text: |-
+      #新しいプロフィール画像
+    translation: |-
+      #NewProfilePicture
+    image:
+    - HKcdYClbsAAZTTF
+    part-of:
+      group:
+        id: artist
+        group: natsu
+
+- postximage:
+    post: 2064651258410176556
+    id: HKcdYClbsAAZTTF
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postx: 2064651258410176556
+

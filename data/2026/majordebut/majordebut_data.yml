@@ -1,0 +1,253 @@
+- postinstagram:
+    id: DZaNUA_khiB
+    account: natsu08_guitar
+    label: Major debut
+    published-date: 2026-06-10
+    text: |-
+      .
+      06.10
+      本日メジャーデビューしました。
+      
+      これはスタートライン！
+      いろんな景色を見に行こうね！
+    translation: |-
+      .
+      06.10
+      We made our major debut today.
+      
+      This is the starting line!
+      Let's go see all kinds of beautiful sights together!
+    image:
+    - 1
+    - 2
+    part-of:
+      event: majordebut
+
+- postinstagram:
+    id: DZbuzEdGQzQ
+    account: 46_hikaa
+    label: Major debut
+    published-date: 2026-06-11
+    text: |-
+      まだ見ぬ景色を一緒に見に行こう
+    translation: |-
+      Let's go see sights we've never seen before together
+    image:
+    - 1
+    part-of:
+      event: majordebut
+
+- postinstagramimage:
+    post: DZaNUA_khiB
+    id: 1
+    label: Cake
+    context:
+    - event: majordebut
+    part-of:
+      postinstagram: DZaNUA_khiB
+
+- postinstagramimage:
+    post: DZaNUA_khiB
+    id: 2
+    label: Cake
+    context:
+    - event: majordebut
+    part-of:
+      postinstagram: DZaNUA_khiB
+
+- postinstagramimage:
+    post: DZbuzEdGQzQ
+    id: 1
+    label: Cake
+    context:
+    - event: majordebut
+    part-of:
+      postinstagram: DZbuzEdGQzQ
+
+- postx:
+    id: 2064543082360774756
+    account: nekiband_jp
+    label: New logos
+    published-date: 2026-06-10
+    text: |-
+      ✦✦ New NEK! Logo ✦✦
+    image:
+    - HKa6f5vbYAArdr-
+    - HKa6f5wagAAWkXM
+    part-of:
+      event: majordebut
+
+- postx:
+    id: 2064549267663155709
+    account: nekiband_jp
+    label: Major debut
+    published-date: 2026-06-10
+    text: |-
+      ⟡ ────────── ⟡
+           SLANG ROCK BAND
+                         NEK!
+               メジャーデビュー
+      ⟡ ────────── ⟡
+      
+      本日2026年6月10日
+      
+      NEK!はポニーキャニオンより
+      メジャーデビューいたしました。
+      
+      いつも応援いただきありがとうございます🫶
+      
+      これからもファンの皆さまと一緒に
+      新しい景色へ向かって進み続けます。
+      
+      引き続きよろしくお願いします⚡️
+      
+      #NEKI
+    translation: |-
+      ⟡ ────────── ⟡
+           SLANG ROCK BAND
+                         NEK!
+                 Major Debut
+      ⟡ ────────── ⟡
+      
+      Today, June 10, 2026
+      
+      NEK! has made their major debut
+      from Pony Canyon.
+      
+      Thank you so much for always supporting us🫶
+      
+      Together with all our fans from here on out,
+      we will continue to move forward toward new sights.
+      
+      Thank you for your continued support⚡️
+      
+      #NEKI
+    image:
+    - HKbAaLPa8AAm30a
+    part-of:
+      event: majordebut
+
+- postx:
+    id: 2064705233583022409
+    account: natsu08_guitar
+    label: Major debut
+    published-date: 2026-06-10
+    text: |-
+      改めましてついに本日6/10 、ポニーキャニオンさんより、メジャーデビューしました。
+      
+      これからもNEK!らしさは忘れずに、皆さんと一緒に一歩ずつ上へ上へ駆け上がっていきたいです。
+      一緒にいろんな景色を見に行こうね！
+      これからもNEK!をそしてGt.Natsuをよろしくお願いします！
+    translation: |-
+      Once again, today on 6/10, we finally made our major debut with Pony Canyon.
+      
+      We will keep moving forward without forgetting what makes NEK! who we are, and we want to run up higher and higher together with everyone, step by step.
+      Let's go see all kinds of beautiful sights together!
+      Please continue to support NEK! and Gt.Natsu!
+    image:
+    - HKdOdlabkAAWjWF
+    - HKdOdlgaIAAqbtH
+    part-of:
+      event: majordebut
+
+- postximage:
+    post: 2064543082360774756
+    id: HKa6f5vbYAArdr-
+    label: Logo
+    part-of:
+      postx: 2064543082360774756
+
+- postximage:
+    post: 2064543082360774756
+    id: HKa6f5wagAAWkXM
+    label: Logo
+    part-of:
+      postx: 2064543082360774756
+
+- postximage:
+    post: 2064549267663155709
+    id: HKbAaLPa8AAm30a
+    label: NEK!
+    local-copy: true
+    context:
+    - event: majordebut
+    part-of:
+      postx: 2064549267663155709
+
+- postximage:
+    post: 2064705233583022409
+    id: HKdOdlabkAAWjWF
+    label: NEK!
+    context:
+    - event: majordebut
+    part-of:
+      postx: 2064705233583022409
+
+- postximage:
+    post: 2064705233583022409
+    id: HKdOdlgaIAAqbtH
+    label: NEK!
+    context:
+    - event: majordebut
+    part-of:
+      postx: 2064705233583022409
+
+- update:
+    event: majordebut
+    date: 2026-06-14
+    text:
+    - Added as an event
+    part-of:
+      event: majordebut
+
+- webimage:
+    domain: neki.bitfan.id
+    page: 396730
+    id: both
+    label: Logos
+    published-date: 2026-06-10
+    url: 'https://bitfan-id.s3.ap-northeast-1.amazonaws.com/store/a984f72eb4dbff7dfdb6d579e92ca76a.jpg'
+    context:
+    - event: majordebut
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 396730
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 396727
+    label: Major debut
+    published-date: 2026-06-10
+    url: 'https://neki.bitfan.id/contents/396727'
+    part-of:
+      event: majordebut
+    reference:
+    - postximage:
+        post: 2064549267663155709
+        image: HKbAaLPa8AAm30a
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 396730
+    label: New logos
+    published-date: 2026-06-10
+    url: 'https://neki.bitfan.id/contents/396730'
+    image:
+    - both
+    part-of:
+      event: majordebut
+    reference:
+    - postximage:
+        post: 2064543082360774756
+        image: HKa6f5wagAAWkXM
+
+- youtubeshort:
+    id: 7ctLpWRMHGs
+    label: Day vlog
+    published-date: 2026-06-10
+    context:
+    - event: majordebut
+    part-of:
+      event: majordebut
+

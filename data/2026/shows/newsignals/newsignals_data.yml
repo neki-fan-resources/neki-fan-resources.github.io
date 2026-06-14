@@ -1,0 +1,66 @@
+- postx:
+    id: 2065380888440140028
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-06-12
+    text: |-
+      🖤LIVE INFO🖤
+      
+      7/30(木)
+      「-New Signals-  砂月凜々香 × NEK! × Lala」
+      @ 下北沢SHELTER
+      
+      NEK!の出演が決定🎉
+      
+      w/ 砂月凜々香, Lala
+      
+      🎫: 6/13(土) 12:00~(先着)
+      https://livepocket.jp/e/jrb22
+      
+      #NEKI
+    translation: |-
+      🖤LIVE INFO🖤
+      
+      7/30(Thu)
+      "-New Signals- Ririka Satsuki × NEK! × Lala"
+      @ Shimokitazawa SHELTER
+      
+      NEK! is confirmed to perform🎉
+      
+      w/ Ririka Satsuki, Lala
+      
+      🎫: 6/13(Sat) 12:00~ (First-come, first-served)
+      https://livepocket.jp/e/jrb22
+      
+      #NEKI
+    image:
+    - HKmz80KaIAAAtdh
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+
+- postximage:
+    post: 2065380888440140028
+    id: HKmz80KaIAAAtdh
+    label: Poster
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    part-of:
+      postx: 2065380888440140028
+
+- update:
+    show:
+      year: 2026
+      id: newsignals
+    date: 2026-06-14
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+

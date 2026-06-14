@@ -1,0 +1,101 @@
+- postx:
+    id: 2065760071502717271
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-06-13
+    text: |-
+      📺 TV INFO 📺
+      
+      6/19(金)27:15~放送
+      テレビ東京「超⚡️超音波」
+      @cho_choonpa_tx
+      
+      
+      4/26に開催した
+      ”NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      ツアーファイナル渋谷クラブクアトロ公演
+      密着映像の放送が決定🎉
+      
+      ぜひご覧ください！
+      
+      ▼番組HP
+      https://tv-tokyo.co.jp/choonpa/
+      
+      ▼TVer
+      https://tver.jp/series/sr05vfzmwl
+      
+      #NEKI #超超音波
+    translation: |-
+      📺 TV INFO 📺
+      
+      Broadcasting on 6/19(Fri) 27:15~
+      TV Tokyo "Cho⚡️Cho-Onpa"
+      @cho_choonpa_tx
+      
+      
+      From our live show on 4/26
+      ”NEK! 2nd ANNIVERSARY LIVE TOUR 2026”
+      
+      It's been decided that behind-the-scenes footage
+      from the tour final at Shibuya CLUB QUATTRO will be broadcast🎉
+      
+      Please check it out!
+      
+      ▼Program Website
+      https://tv-tokyo.co.jp/choonpa/
+      
+      ▼TVer
+      https://tver.jp/series/sr05vfzmwl
+      
+      #NEKI #超超音波
+    part-of:
+      media:
+        year: 2026
+        id: tvtokyochoonpa
+    reference:
+    - postximage:
+        post: 2048371387908366467
+        image: HG1GVlBagAEBAI5
+    - postximage:
+        post: 2048371387908366467
+        image: HG1GZ35bUAAPmUd
+
+- update:
+    media:
+      year: 2026
+      id: tvtokyochoonpa
+    date: 2026-06-14
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: tvtokyochoonpa
+
+- webimage:
+    domain: tv-tokyo.co.jp
+    page: choonpa
+    id: flyer
+    label: Flyer
+    published-date: 2026-06-13
+    url: 'https://tv-tokyo.imgix.net/txcms/media/pg/L/52/27/a6d69e74fca65398d52e15e9834b.jpg?auto=format,compress&w=600'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: tv-tokyo.co.jp
+        id: choonpa
+
+- webpage:
+    domain: tv-tokyo.co.jp
+    id: choonpa
+    label: Show page
+    published-date: 2026-06-13
+    url: 'https://www.tv-tokyo.co.jp/choonpa/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: tvtokyochoonpa
+

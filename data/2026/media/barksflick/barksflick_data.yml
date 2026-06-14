@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: barksflick
+    date: 2026-06-14
+    text:
+    - Added the interview
+    part-of:
+      media:
+        year: 2026
+        id: barksflick
+
+- webimage:
+    domain: barks.jp
+    page: 1070576
+    id: logo
+    label: Logo
+    published-date: 2026-06-11
+    url: /asset/image/event/siteimages/manekineko_cover.png
+    local-copy: true
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1070576
+
+- webpage:
+    domain: barks.jp
+    id: 1070576
+    label: Interview
+    published-date: 2026-06-11
+    url: 'https://barks.jp/news/1070576/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: barksflick
+

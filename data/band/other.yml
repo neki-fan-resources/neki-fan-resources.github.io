@@ -1,0 +1,5 @@
+group:
+  id: other
+  label: Other
+  part-of:
+    group: band

@@ -1,0 +1,68 @@
+- postx:
+    id: 2065011164602335358
+    account: berrytenlive
+    label: Announcement
+    published-date: 2026-06-11
+    text: |-
+      【#ベリテン ライブハウス】
+      野外に先駆けて開催する ⑦Days💥
+      ⋱⋱  第1弾 出演アーティスト発表 ⋰⋰
+      　
+      ■ 8/16(日)  ザ・シスターズハイ
+      ■ 8/17(月)  ジ・エンプティ / かずき山盛り
+      ■ 8/18(火)  grating hunny / ルサンチマン
+      ■ 8/19(水)  クレイジーウォウウォ!! / NEK! 
+      ■ 8/20(木)  chef’s 
+      ■ 8/21(金)　～TBA～
+      ■ 8/22(土)　～TBA～
+      　
+      ☟オフィシャル先行🎫スタート!!
+       https://eplus.jp/berryten26-hp/ 
+      詳しくは... https://berry.co.jp/berryten-2026/
+    translation: |-
+      【#Berryten Live House】
+      Held ahead of the outdoor festival, ⑦Days💥
+      ⋱⋱ 1st Wave Lineup Announcement ⋰⋰
+       
+      ■ 8/16(Sun) The Sistershigh
+      ■ 8/17(Mon) The Empty / Kazukiyamamori
+      ■ 8/18(Tue) grating hunny / Ressentiment
+      ■ 8/19(Wed) Crazy Wow Wow!! / NEK! 
+      ■ 8/20(Thu) chef’s 
+      ■ 8/21(Fri) ~TBA~
+      ■ 8/22(Sat) ~TBA~
+       
+      ☟Official Advance Tickets 🎫 Start!!
+       https://eplus.jp/berryten26-hp/ 
+      For more details... https://berry.co.jp/berryten-2026/
+    image:
+    - HKc7RhYbYAAs0Np
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
+- postximage:
+    post: 2065011164602335358
+    id: HKc7RhYbYAAs0Np
+    label: Lineup
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2065011164602335358
+
+- update:
+    show:
+      year: 2026
+      id: berrytenlivehouse
+    date: 2026-06-14
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+

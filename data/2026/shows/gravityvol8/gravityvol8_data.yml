@@ -52,6 +52,56 @@
         year: 2026
         id: gravityvol8
 
+- postx:
+    id: 2065992258885984621
+    account: SHIBUYATHEGAME
+    label: Next month
+    published-date: 2026-06-14
+    text: |-
+      【🗓️7月公演🗓️】
+      07.10(FRI)
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8
+      🔥THE 3MAN SHOW!!🔥
+      @SHIBUYATHEGAME
+      
+      ⏰OPEN18:30/START19:00
+      
+      <ACT>
+      NEK!
+      板歯目
+      COPES
+      
+      🎫Livepocket 一般発売中!!🔥
+      https://livepocket.jp/e/gravity0710
+      
+      #GrAViTy
+    translation: |-
+      【🗓️July Performance🗓️】
+      07.10(FRI)
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8
+      🔥THE 3MAN SHOW!!🔥
+      @SHIBUYATHEGAME
+      
+      ⏰OPEN18:30/START19:00
+      
+      <ACT>
+      NEK!
+      Hanshimoku
+      COPES
+      
+      🎫Livepocket General Tickets Now On Sale!!🔥
+      https://livepocket.jp/e/gravity0710
+      
+      #GrAViTy
+    image:
+    - HKvgyYIaYAAD7f8
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
 - postximage:
     post: 2053414805562884127
     id: HH8x4YyacAAIMCI
@@ -62,6 +112,18 @@
         id: gravityvol8
     part-of:
       postx: 2053414805562884127
+
+- postximage:
+    post: 2065992258885984621
+    id: HKvgyYIaYAAD7f8
+    label: Poster
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2065992258885984621
 
 - update:
     show:

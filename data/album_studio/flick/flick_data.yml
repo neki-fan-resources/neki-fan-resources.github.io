@@ -3,6 +3,155 @@
     blocks:
     - basicblock:
         id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: yP7PhWiGtb0
+    - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: yP7PhWiGtb0
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 6
+                - postximage:
+                    post: 2065375515305984047
+                    image: HKmwFQzaQAAedAM
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2065328247936606317
+                    image: HKlCbz7bAAAK6mt
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 7
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2065267856099750216
+                    image: HKlCMuTbQAA33np
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 8
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2065298045852438583
+                    image: HKlCWrSaoAAD1Op
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 10
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2065358454550638639
+                    image: HKlChqbbsAA5Tcu
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 9
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 1
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 4
+                - postinstagramimage:
+                    post: DZfIVC5AUjU
+                    image: 11
+        - basicsection:
+            label: Behind the scenes
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DZgr7VlHfBs
+                    video: 3
+                - postinstagramvideo:
+                    post: DZgr7VlHfBs
+                    video: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZkZAl-SfeS
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZgr7VlHfBs
+                    image: 2
+                - postinstagramimage:
+                    post: DZgr7VlHfBs
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2065393132288766154
+                    image: HKnAGuoaAAAM0hr
+                - postximage:
+                    post: 2064651258410176556
+                    image: HKcdYClbsAAZTTF
+                - postximage:
+                    post: 2065393132288766154
+                    image: HKnAGupbQAAnOKp
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2065387584067657794
+                    image: HKm7DljakAACesq
+                - postximage:
+                    post: 2065387584067657794
+                    image: HKm7DldbMAAGyNX
+                - postximage:
+                    post: 2064651654469992624
+                    image: HKcdvL6aYAAyYSb
+                - postximage:
+                    post: 2065398881110933590
+                    image: HKnFVQ-boAALZWH
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZe40o7mUI4
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZgzHWByohA
+                    image: 1
+                - postinstagramimage:
+                    post: DZe40o7mUI4
+                    image: 1
+    - basicblock:
+        id: media
         label: In the medias
         sections:
         - basicsection:
@@ -49,6 +198,893 @@
     part-of:
       song: flick
 
+- lyrics:
+    id: main
+    song: flick
+    part-of:
+      song: flick
+    status:
+      code: warning
+      description: Data copied from the sources. Not fully reviewed.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=yP7PhWiGtb0'
+    - id: en
+      name: english translation
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=yP7PhWiGtb0'
+    sections:
+    - lines:
+      - ol:
+        - 曖昧 インプレばっかじゃん
+        en:
+        - Nothing but vague impressions everywhere
+      - ol:
+        - 全然 満たされないんじゃない？
+        en:
+        - Are you really feeling satisfied at all?
+      - ol:
+        - SOS 必要ないことばっかり シャットダウン
+        en:
+        - SOS, too much useless noise around us Shut it down
+    - lines:
+      - ol:
+        - 顔も知らない匿名アイコン
+        en:
+        - Anonymous icons, faces never shown
+      - ol:
+        - そのいいねが宝物なんです
+        en:
+        - Those little likes have become our treasure
+      - ol:
+        - ブラックアウト 万バズった
+        en:
+        - Blackout, went viral overnight
+      - ol:
+        - 切り取ったシーン
+        en:
+        - Just a snapshot of a scene
+    - lines:
+      - ol:
+        - 誰かの言葉 真似るだけ？
+        en:
+        - Are you only copying someone else's words?
+      - ol:
+        - そがんあんたいっちょん好かん！
+        en:
+        - I can't stand people like that!
+    - lines:
+      - ol:
+        - ねぇねぇ、ちょっと待って！映えてんじゃん？
+        en:
+        - Hey, hey, wait a second! Doesn't this look amazing?
+      - ol:
+        - スワイプなんてやだ！聴いてってよ！
+        en:
+        - Don't just swipe away, stay and hear us out!
+      - ol:
+        - 歪んだまんまの世界で
+        en:
+        - In this distorted world we're living in
+      - ol:
+        - 面食らっちゃいれないね
+        en:
+        - There's no time to stand around stunned
+      - ol:
+        - 文字数制限のない
+        en:
+        - We're more than words with a character limit
+      - ol:
+        - プレミアムな私たちで
+        en:
+        - We're the premium version of ourselves
+      - ol:
+        - You Raise Me Up!
+      - ol:
+        - Break Me Out!!!!
+    - lines:
+      - ol:
+        - 大体 正解なんてない
+        en:
+        - Most of the time, there's no such thing as a right answer
+      - ol:
+        - AI だって無敵じゃない
+        en:
+        - Even AI isn't invincible
+      - ol:
+        - 窒息しちゃう 白い世界
+        en:
+        - I'm suffocating in this colorless world
+      - ol:
+        - 数字 羅列 デジタライズ
+        en:
+        - Numbers, data, digitized lives
+    - lines:
+      - ol:
+        - 画面越しじゃわかんないミッドナイト
+        en:
+        - You can't understand through a screen at midnight
+      - ol:
+        - かき鳴らしてくオーバードライブ
+        en:
+        - So crank it up into overdrive
+      - ol:
+        - シャットアウト ノイズ消して
+        en:
+        - Shut out the noise
+      - ol:
+        - 目が合った合図
+        en:
+        - That's the signal when our eyes meet
+    - lines:
+      - ol:
+        - ねぇねぇ、こっちみて！映えてんじゃん？
+        en:
+        - Hey, hey, look over here! Doesn't this look amazing?
+      - ol:
+        - こっち向いてほい！あいこでいこう！
+        en:
+        - Come on, turn around—let's do this together!
+      - ol:
+        - 弾んでくような初動で
+        en:
+        - With a spark that's ready to take off
+      - ol:
+        - ぶっ飛んでかなきゃいけないね
+        en:
+        - We've gotta blast beyond the limits
+      - ol:
+        - 文字数制限のない
+        en:
+        - We're more than words with a character limit
+      - ol:
+        - プレミアムな私たちで
+        en:
+        - We're the premium version of ourselves
+      - ol:
+        - You Raise Me Up!
+      - ol:
+        - Break Me Out!!!!
+    - lines:
+      - ol:
+        - 陰キャ陽キャ タグ付け アクション
+        en:
+        - Introvert, extrovert, labels and actions
+      - ol:
+        - タイムライン ウザか...
+        en:
+        - This timeline's getting so annoying...
+      - ol:
+        - ゾンビ bot 詐欺 ノーリアクション
+        en:
+        - Zombies, bots, scams, no reaction
+      - ol:
+        - FLiCK! FLiCK! FLiCK! FLiCK! NO MORE FLiCK?
+    - lines:
+      - ol:
+        - 混沌 リーチ 無理 顔ないっしょ
+        en:
+        - Chaos, reach, impossible—who even knows your face?
+      - ol:
+        - 絶体絶命ばい！
+        en:
+        - We're at the breaking point!
+      - ol:
+        - 通知 連打 いいね リアクション
+        en:
+        - Notifications, tapping, likes, reactions
+      - ol:
+        - FLiCK! FLiCK! FLiCK! FLiCK! NO MORE FLiCK?
+    - lines:
+      - ol:
+        - この鼓動 かき鳴らして
+        en:
+        - I'll strum this heartbeat loud and clear
+      - ol:
+        - あなたに届けてくから
+        en:
+        - And send it straight to you
+    - lines:
+      - ol:
+        - ねぇ……ちょっと待って！映えてんじゃん！
+        en:
+        - Hey... wait a second! Doesn't this look amazing?
+      - ol:
+        - こんなんじゃまだまだ足んないよ
+        en:
+        - This is nowhere near enough for us yet
+      - ol:
+        - 歪んだまんまの世界で
+        en:
+        - In this distorted world we're living in
+      - ol:
+        - 面食らっちゃいれないね
+        en:
+        - There's no time to stand around stunned
+      - ol:
+        - 文字数制限のない
+        en:
+        - We're more than words with a character limit
+      - ol:
+        - プレミアムな私たちで
+        en:
+        - We're the premium version of ourselves
+      - ol:
+        - You Raise Me Up!
+      - ol:
+        - Break Me Out!!!!
+
+- postinstagram:
+    id: DZe40o7mUI4
+    account: 46_hikaa
+    label: Watch the music video a lot
+    published-date: 2026-06-12
+    text: |-
+      ミュージックビデオたくさんみてね✌︎
+    translation: |-
+      Watch the music video a lot, okay? ✌︎
+    image:
+    - 1
+    - 2
+    part-of:
+      song: flick
+
+- postinstagram:
+    id: DZfIVC5AUjU
+    account: nekiband_jp
+    label: MV released
+    published-date: 2026-06-12
+    text: |-
+      Major 1st Single "FLiCK" 
+      Official Music Video OUT NOW🫰💫 
+      
+      https://youtu.be/yP7PhWiGtb0
+      
+      #NEKI #FLiCK
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    part-of:
+      song: flick
+
+- postinstagram:
+    id: DZgr7VlHfBs
+    account: cure_bass_baka
+    label: Off shot
+    published-date: 2026-06-13
+    text: |-
+      おふしょ🕶🩷
+      ⁡
+       #NEKI
+    translation: |-
+      Off-shot🕶🩷
+       
+       #NEKI
+    image:
+    - 1
+    - 2
+    video:
+    - 3
+    - 4
+    part-of:
+      song: flick
+
+- postinstagram:
+    id: DZgzHWByohA
+    account: natsu08_guitar
+    label: Behind the scenes
+    published-date: 2026-06-13
+    text: |-
+      .
+      ポスターきゃわいすぎるの
+    translation: |-
+      The poster is just way too cute
+    image:
+    - 1
+    part-of:
+      song: flick
+
+- postinstagram:
+    id: DZkZAl-SfeS
+    account: natsu08_guitar
+    label: 20k views
+    published-date: 2026-06-14
+    text: |-
+      .
+      ここなっつ🥥💙💛
+      
+      MV2万回ありがとう🫶🏻
+      
+      #NEKI #girlsband #ここなっつ
+    translation: |-
+      .
+      CocoNatsu🥥💙💛
+      
+      Thank you for 20,000 MV views🫶🏻
+      
+      #NEKI #girlsband #CocoNatsu
+    image:
+    - 1
+    part-of:
+      song: flick
+
+- postinstagramimage:
+    post: DZe40o7mUI4
+    id: 1
+    label: Behind the scenes
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZe40o7mUI4
+
+- postinstagramimage:
+    post: DZe40o7mUI4
+    id: 2
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZe40o7mUI4
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 1
+    label: MV image
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 10
+    label: MV image
+    info: Cocoro
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 11
+    label: MV image
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 2
+    label: MV image
+    info: Cocoro
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 3
+    label: MV image
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 4
+    label: MV image
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 5
+    label: MV image
+    info: Kanade
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 6
+    label: MV image
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 7
+    label: MV image
+    info: Kanade
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 8
+    label: MV image
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZfIVC5AUjU
+    id: 9
+    label: MV image
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZfIVC5AUjU
+
+- postinstagramimage:
+    post: DZgr7VlHfBs
+    id: 1
+    label: Behind the scenes
+    info: Kanade
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZgr7VlHfBs
+
+- postinstagramimage:
+    post: DZgr7VlHfBs
+    id: 2
+    label: Behind the scenes
+    info: Kanade
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZgr7VlHfBs
+
+- postinstagramimage:
+    post: DZgzHWByohA
+    id: 1
+    label: Behind the scenes
+    info: poster
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZgzHWByohA
+
+- postinstagramimage:
+    post: DZkZAl-SfeS
+    id: 1
+    label: Behind the scenes
+    info: Cocoro, Natsu
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZkZAl-SfeS
+
+- postinstagramvideo:
+    post: DZgr7VlHfBs
+    id: 3
+    label: Behind the scenes
+    info: Kanade
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZgr7VlHfBs
+
+- postinstagramvideo:
+    post: DZgr7VlHfBs
+    id: 4
+    label: Behind the scenes
+    info: Asuki-chan
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZgr7VlHfBs
+
+- postx:
+    id: 2064648780197347398
+    account: nekiband_jp
+    label: MV announcement
+    published-date: 2026-06-10
+    text: |-
+      ▶︎ •၊||၊၊ COMING SOON ၊၊||၊･◀︎
+      
+      Major 1st Single "FLiCK"
+      Official Music Video
+      
+      6/12(金)19:00
+      YouTubeにてプレミア公開が決定🎥
+      
+      公開時メンバーもチャットに参加します！
+      ぜひリアルタイムでお楽しみください🍿
+      
+      https://youtu.be/yP7PhWiGtb0
+      
+      #NEKI #FLiCK
+    translation: |-
+      ▶︎ •၊||၊၊ COMING SOON ၊၊||၊･◀︎
+      
+      Major 1st Single "FLiCK"
+      Official Music Video
+      
+      6/12 (Fri) 19:00
+      Premiering on YouTube is confirmed🎥
+      
+      The members will also participate in the chat during the premiere!
+      Please enjoy it in real time🍿
+      
+      https://youtu.be/yP7PhWiGtb0
+      
+      #NEKI #FLiCK
+    video:
+    - 01
+    part-of:
+      song: flick
+
+- postx:
+    id: 2064648886728483169
+    account: nekiband_jp
+    label: Sharing campaign
+    published-date: 2026-06-10
+    text: |-
+      🎧CAMPAIGN🎧
+      
+      Major 1st Single「FLiCK」
+      ストリーミングシェアキャンペーン開催決定🎉
+      
+      期間内に各種音楽ストリーミングサービスで「FLiCK」を再生し、
+      SNSにシェアして頂いた方全員にオリジナル画像をプレゼント🎁
+      
+      ▼対象サービス
+      Apple Music・Spotify・YouTube Music・Amazon Music・LINE MUSIC
+      
+      ▼対象SNS
+      X・Instagramストーリーズ
+      
+      ▼応募期間
+      6/10(水) ~ 6/19(金)23:59まで
+      
+      https://neki.bitfan.id/contents/396513
+      
+      #NEKI #FLiCK
+    translation: |-
+      🎧CAMPAIGN🎧
+      
+      Major 1st Single "FLiCK"
+      Streaming Share Campaign Confirmed🎉
+      
+      Play "FLiCK" on any eligible music streaming service during the campaign period,
+      share it on SNS, and everyone who does will receive an original image as a present🎁
+      
+      ▼Eligible Services
+      Apple Music・Spotify・YouTube Music・Amazon Music・LINE MUSIC
+      
+      ▼Eligible SNS
+      X・Instagram Stories
+      
+      ▼Application Period
+      6/10 (Wed) ~ 6/19 (Fri) until 23:59
+      
+      https://neki.bitfan.id/contents/396513
+      
+      #NEKI #FLiCK
+    image:
+    - HKcX7azaUAAKYpA
+    part-of:
+      song: flick
+
+- postx:
+    id: 2065267856099750216
+    account: nekiband_jp
+    label: Natsu MV
+    published-date: 2026-06-12
+    text: |-
+      -
+    image:
+    - HKlCMuTbQAA33np
+    part-of:
+      song: flick
+
+- postx:
+    id: 2065298045852438583
+    account: nekiband_jp
+    label: Cocoro MV
+    published-date: 2026-06-12
+    text: |-
+      -
+    image:
+    - HKlCWrSaoAAD1Op
+    part-of:
+      song: flick
+
+- postx:
+    id: 2065328247936606317
+    account: nekiband_jp
+    label: Kanade MV
+    published-date: 2026-06-12
+    text: |-
+      -
+    image:
+    - HKlCbz7bAAAK6mt
+    part-of:
+      song: flick
+
+- postx:
+    id: 2065358454550638639
+    account: nekiband_jp
+    label: Hika MV
+    published-date: 2026-06-12
+    text: |-
+      -
+    image:
+    - HKlChqbbsAA5Tcu
+    part-of:
+      song: flick
+
+- postx:
+    id: 2065374933384069270
+    account: nekiband_jp
+    label: MV released
+    published-date: 2026-06-12
+    text: |-
+      ◢◤ 🫰OUT NOW⚡️ ◢◤
+      
+      Major 1st Single
+      "FLiCK" Official MV
+      
+      🎬 Music Video
+      ▶︎ https://youtu.be/yP7PhWiGtb0
+      
+      🎧 Streaming & Download
+      ▶︎ https://lnk.to/NEKI_FLiCKTW
+      
+      #NEKI #FLiCK
+    part-of:
+      song: flick
+
+- postx:
+    id: 2065375515305984047
+    account: 46_hikaa
+    label: MV released
+    published-date: 2026-06-12
+    text: |-
+      MVどうだったー！？
+      みんなの感想ききたい！！
+      https://youtu.be/yP7PhWiGtb0
+    translation: |-
+      How did you like the MV?!
+      I want to hear everyone's thoughts!!
+    image:
+    - HKmwFQzaQAAedAM
+    part-of:
+      song: flick
+
+- postx:
+    id: 2065387584067657794
+    account: coco_102
+    label: MV released
+    published-date: 2026-06-12
+    text: |-
+      FLiCK Official Music Video 公開しましたー！！
+      新しいNEK!が観れたんじゃないでしょうか？！
+      ホームパーティー感のあるおしゃれかわいいセットで新衣装に身を包んだ私たちが生き生きとロックを奏でる、最高にハッピーな映像になってます！手振りも楽しかった🕺🏻🎶
+      
+      ぜひ何度でもお楽しみください！！
+      
+      alt:
+      サングラスお気に入り😎
+      
+      alt:
+      ドラムセットの色も、
+      後ろのクッションも全部可愛くてだーいすき🫶🏻
+    translation: |-
+      The Official Music Video for FLiCK is now out!!
+      I bet you got to see a brand new side of NEK!, right?!
+      We're dressed in our new outfits on a stylish and cute home party-vibe set, vibrantly playing rock music—making it a super happy video! Doing the hand gestures was so much fun too🕺🏻🎶
+      
+      Please enjoy it over and over again!!
+      
+      alt:
+      my favorite sunglasses😎
+      
+      alt:
+      The color of the drum kit,
+      and the cushions behind me—everything is so cute, I absolutely love it🫶🏻
+    image:
+    - HKm7DldbMAAGyNX
+    - HKm7DljakAACesq
+    part-of:
+      postx: 2065374933384069270
+
+- postx:
+    id: 2065393132288766154
+    account: natsu08_guitar
+    label: MV released
+    published-date: 2026-06-12
+    text: |-
+      MVみていただけましたでしょうか…！！
+      ちょー可愛くかっこよくポップに仕上がっているので何度でもみたくなっちゃうよねー🕶️
+      たくさん拡散してね！☺︎
+    translation: |-
+      Did you get a chance to watch the MV...!!
+      It turned out super cute, cool, and pop, so it makes you want to watch it over and over again, doesn't itー🕶️
+      Please share it a lot! ☺︎
+    image:
+    - HKnAGuoaAAAM0hr
+    - HKnAGupbQAAnOKp
+    part-of:
+      postx: 2065374933384069270
+
+- postx:
+    id: 2065398881110933590
+    account: coco_102
+    label: Same person
+    published-date: 2026-06-12
+    text: |-
+      同一人物？？？ #NEKI #FLiCK
+    translation: |-
+      The same person??? #NEKI #FLiCK
+    image:
+    - HKnFVQ-boAALZWH
+    part-of:
+      song: flick
+    reference:
+    - postinstagramimage:
+        post: DZbuhMOGvae
+        image: 1
+
+- postximage:
+    post: 2064648886728483169
+    id: HKcX7azaUAAKYpA
+    label: Sharing campaign
+    context:
+    - song: flick
+    part-of:
+      postx: 2064648886728483169
+
+- postximage:
+    post: 2065267856099750216
+    id: HKlCMuTbQAA33np
+    label: MV image
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postx: 2065267856099750216
+
+- postximage:
+    post: 2065298045852438583
+    id: HKlCWrSaoAAD1Op
+    label: MV image
+    info: Cocoro
+    context:
+    - song: flick
+    part-of:
+      postx: 2065298045852438583
+
+- postximage:
+    post: 2065328247936606317
+    id: HKlCbz7bAAAK6mt
+    label: MV image
+    info: Kanade
+    context:
+    - song: flick
+    part-of:
+      postx: 2065328247936606317
+
+- postximage:
+    post: 2065358454550638639
+    id: HKlChqbbsAA5Tcu
+    label: MV image
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postx: 2065358454550638639
+
+- postximage:
+    post: 2065375515305984047
+    id: HKmwFQzaQAAedAM
+    label: MV image
+    context:
+    - song: flick
+    part-of:
+      postx: 2065375515305984047
+
+- postximage:
+    post: 2065387584067657794
+    id: HKm7DldbMAAGyNX
+    label: Behind the scenes
+    info: Drum set
+    context:
+    - song: flick
+    part-of:
+      postx: 2065387584067657794
+
+- postximage:
+    post: 2065387584067657794
+    id: HKm7DljakAACesq
+    label: Behind the scenes
+    info: Cocoro
+    context:
+    - song: flick
+    part-of:
+      postx: 2065387584067657794
+
+- postximage:
+    post: 2065393132288766154
+    id: HKnAGuoaAAAM0hr
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postx: 2065393132288766154
+
+- postximage:
+    post: 2065393132288766154
+    id: HKnAGupbQAAnOKp
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postx: 2065393132288766154
+
+- postximage:
+    post: 2065398881110933590
+    id: HKnFVQ-boAALZWH
+    label: Behind the scenes
+    info: Cocoro
+    context:
+    - song: flick
+    part-of:
+      postx: 2065398881110933590
+
+- postxvideo:
+    post: 2064648780197347398
+    id: 01
+    label: MV teaser
+    cover: 2064644045599907840/img/T_hTqFeHe5sG6GKy.jpg
+    context:
+    - song: flick
+    part-of:
+      postx: 2064648780197347398
+
 - update:
     song: flick
     date: 2026-04-27
@@ -62,6 +1098,15 @@
     date: 2026-06-03
     text:
     - Added the cover art
+    part-of:
+      song: flick
+
+- update:
+    song: flick
+    date: 2026-06-14
+    text:
+    - Added the lyrics
+    - Added the music video with a lot of pictures
     part-of:
       song: flick
 
@@ -175,6 +1220,19 @@
       song: flick
 
 - webpage:
+    domain: neki.bitfan.id
+    id: 396513
+    label: Sharing campaign
+    published-date: 2026-06-10
+    url: 'https://neki.bitfan.id/contents/396513'
+    part-of:
+      song: flick
+    reference:
+    - postximage:
+        post: 2064648886728483169
+        image: HKcX7azaUAAKYpA
+
+- webpage:
     domain: realsound.jp
     id: 2026.04.2379130
     label: Article on the song and tour announcements
@@ -207,4 +1265,49 @@
     - postximage:
         post: 1961737876066168993
         image: Gzl99vsacAA6bCZ
+
+- youtubeshort:
+    id: 20YAlxMxg0I
+    label: Music Video
+    published-date: 2026-06-14
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: VHxF_p6WqXg
+    label: Music Video
+    published-date: 2026-06-13
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: cqc7gCDuMcY
+    label: MV teaser
+    published-date: 2026-06-10
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: u_D8zPxK4C8
+    label: Music Video
+    published-date: 2026-06-12
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubevideo:
+    id: yP7PhWiGtb0
+    label: Official Music Video
+    published-date: 2026-06-12
+    context:
+    - song: flick
+    part-of:
+      song: flick
 

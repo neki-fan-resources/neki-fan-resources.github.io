@@ -303,6 +303,50 @@
         id: artist
         group: hika
 
+- postx:
+    id: 2064649009109913825
+    account: 46_hikaa
+    label: New profile picture
+    published-date: 2026-06-10
+    text: |-
+      #新しいプロフィール画像
+    translation: |-
+      #NewProfilePicture
+    image:
+    - HKcbVMIasAAaXKW
+    part-of:
+      group:
+        id: artist
+        group: hika
+
+- postx:
+    id: 2065332901097697764
+    account: 46_hikaa
+    label: Found a guitar
+    published-date: 2026-06-12
+    text: |-
+      やばい、出会ってしまった。
+    translation: |-
+      Oh my god, I've found it.
+    part-of:
+      group:
+        id: artist
+        group: hika
+
+- postx:
+    id: 2065412670870974664
+    account: 46_hikaa
+    label: New guitar
+    published-date: 2026-06-12
+    text: |-
+      新しい相棒。これからよろしく。
+    translation: |-
+      My new partner. Looking forward to working with you from now on.
+    image:
+    - HKnR3-gbsAA0QWm
+    part-of:
+      postx: 2065332901097697764
+
 - postximage:
     post: 2006379318264651995
     id: G9gXWORaAAAsPN8
@@ -333,6 +377,25 @@
     info: Hika
     part-of:
       postx: 2043579001168679006
+
+- postximage:
+    post: 2064649009109913825
+    id: HKcbVMIasAAaXKW
+    label: Backstage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2064649009109913825
+
+- postximage:
+    post: 2065412670870974664
+    id: HKnR3-gbsAA0QWm
+    label: New guitar
+    part-of:
+      postx: 2065412670870974664
 
 - postxvideo:
     post: 1996461176130351354

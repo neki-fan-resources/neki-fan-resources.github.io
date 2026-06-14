@@ -1,0 +1,16 @@
+show:
+  year: 2026
+  id: berrytenlivehouse
+  cover-image:
+    postximage:
+      post: 2065011164602335358
+      image: HKc7RhYbYAAs0Np
+  fullname: BERRYTEN Live House
+  sublabel: Utsunomiya, Japan
+  date: 2026-08-19
+  venue: HEAVEN'S ROCK 宇都宮 VJ-2, Utsunomiya, Japan
+  event-page: 'https://www.berry.co.jp/berryten-2026/live-001.php'
+  part-of:
+    group:
+      id: shows
+      group: 2026

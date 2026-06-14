@@ -44,17 +44,31 @@ contentpage:
   - tour: majordebuttour
   - show:
       year: 2026
+      id: berrytenlivehouse
+  - show:
+      year: 2026
       id: ignitionbrayme
   - show:
       year: 2026
       id: newmusicgroundvol2
   - show:
       year: 2026
+      id: newsignals
+  - show:
+      year: 2026
       id: gravityvol8
   - media:
       year: 2026
+      id: tvtokyochoonpa
+  - media:
+      year: 2026
       id: yokohamamarinefmhelloeveningradio
+  - media:
+      year: 2026
+      id: barksflick
+  - multimedia-event: flickmv
   - song: flick
+  - event: majordebut
   - media:
       year: 2026
       id: fmnagasakisunrisestation

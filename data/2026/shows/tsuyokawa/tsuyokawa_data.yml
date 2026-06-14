@@ -12,6 +12,9 @@
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: IFMAWaV6GJM
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: EdRGGNG8lfY
         - basicsection:
             label: At the show
             subsections:
@@ -58,6 +61,11 @@
                 - postximage:
                     post: 2062914774938316808
                     image: HKDyDTAbgAA6rU5
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2064649009109913825
+                    image: HKcbVMIasAAaXKW
         - basicsection:
             label: At the event
             subsections:
@@ -507,6 +515,21 @@
     date: 2026-06-06
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
+- youtubeshort:
+    id: EdRGGNG8lfY
+    label: On stage
+    info: studio audio
+    published-date: 2026-06-09
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    - song: bitbybit
     part-of:
       show:
         year: 2026

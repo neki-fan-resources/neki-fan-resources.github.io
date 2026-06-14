@@ -1,0 +1,25 @@
+mediawritten:
+  year: 2026
+  id: barksflick
+  cover-image:
+    webimage:
+      domain: barks.jp
+      page: 1070576
+      id: logo
+  publication: Barks
+  issue: FLiCK release
+  designation: Interview
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-06-11
+  journalist: 沖さやこ (Oki Sayako)
+  article-page: 'https://barks.jp/news/1070576/'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  categories:
+  - mediummedia

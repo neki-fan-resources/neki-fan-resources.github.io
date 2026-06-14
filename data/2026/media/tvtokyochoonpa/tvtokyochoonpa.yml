@@ -1,0 +1,23 @@
+mediavideo:
+  year: 2026
+  id: tvtokyochoonpa
+  cover-image:
+    webimage:
+      domain: tv-tokyo.co.jp
+      page: choonpa
+      id: flyer
+  channel: テレビ東京
+  show: 超⚡️超音波
+  designation: tv show
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-06-19
+  host: 増子直純(怒髪天) (Naozumi Masuko), ファーストサマーウイカ (First Summer Uika)
+  webpage: 'https://www.tv-tokyo.co.jp/choonpa/'
+  part-of:
+    group:
+      id: media
+      group: 2026

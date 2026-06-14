@@ -1,0 +1,13 @@
+multimedia-event:
+  id: flickmv
+  cover-image:
+    postinstagramimage:
+      post: DZfIVC5AUjU
+      image: 1
+  youtubevideo: yP7PhWiGtb0
+  parent:
+    song: flick
+  categories:
+  - video
+  part-of:
+    song: flick

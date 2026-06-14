@@ -82,6 +82,20 @@
         post: 1783077452518150229
         image: GL7DHUnbUAAsyRj
 
+- postx:
+    id: 2064362227986272527
+    account: nekiband_jp
+    label: New Artist Visual
+    published-date: 2026-06-10
+    text: |-
+      ─── 𝑵𝑬𝑲! 𝑵𝒆𝒘 𝑨𝒓𝒕𝒊𝒔𝒕 𝑽𝒊𝒔𝒖𝒂𝒍 ───
+    image:
+    - HKYNUmibYAAEm62
+    part-of:
+      group:
+        id: artist
+        group: band
+
 - postximage:
     post: 1783077452518150229
     id: GL7DHUnbUAAsyRj
@@ -90,4 +104,11 @@
       group:
         id: artist
         group: band
+
+- postximage:
+    post: 2064362227986272527
+    id: HKYNUmibYAAEm62
+    label: Band image
+    part-of:
+      postx: 2064362227986272527
 

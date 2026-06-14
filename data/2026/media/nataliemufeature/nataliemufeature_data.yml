@@ -1,3 +1,70 @@
+- display:
+    media:
+      year: 2026
+      id: nataliemufeature
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Photos
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 2113
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 2095
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 2078
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 2050
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 1885
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 1863
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 1998
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 1995
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 1944
+                - webimage:
+                    domain: natalie.mu
+                    page: pp.neki
+                    id: 1936
+    part-of:
+      media:
+        year: 2026
+        id: nataliemufeature
+
 - postx:
     id: 2065388683960996321
     account: natalie_mu
@@ -68,6 +135,171 @@
         domain: natalie.mu
         id: music
 
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 1863
+    label: Cocoro
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_1863.jpg?imwidth=800&imdensity=1'
+    page-url: 'https://natalie.mu/music/pp/neki/page/2'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 1885
+    label: Cocoro
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_1885.jpg?imwidth=1200&imdensity=1'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 1936
+    label: Natsu
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_1936.jpg?imwidth=800&imdensity=1'
+    page-url: 'https://natalie.mu/music/pp/neki/page/2'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 1944
+    label: Natsu
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_1944.jpg?imwidth=1200&imdensity=1'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 1995
+    label: Kanade
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_1995.jpg?imwidth=800&imdensity=1'
+    page-url: 'https://natalie.mu/music/pp/neki/page/2'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 1998
+    label: Kanade
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_1998.jpg?imwidth=1200&imdensity=1'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 2050
+    label: Hika
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_2050.jpg?imwidth=800&imdensity=1'
+    page-url: 'https://natalie.mu/music/pp/neki/page/2'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 2078
+    label: Hika
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_2078.jpg?imwidth=1200&imdensity=1'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 2095
+    label: NEK!
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_2095.jpg?imwidth=1200&imdensity=1'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
+- webimage:
+    domain: natalie.mu
+    page: pp.neki
+    id: 2113
+    label: NEK!
+    published-date: 2026-06-12
+    url: 'https://ogre.natalie.mu/media/pp/neki/neki_2113.jpg?imwidth=1200&imdensity=1'
+    page-url: 'https://natalie.mu/music/pp/neki/page/2'
+    context:
+    - media:
+        year: 2026
+        id: nataliemufeature
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: pp.neki
+
 - webpage:
     domain: natalie.mu
     id: music
@@ -76,6 +308,28 @@
     url: 'https://natalie.mu/music'
     image:
     - logo
+    part-of:
+      media:
+        year: 2026
+        id: nataliemufeature
+
+- webpage:
+    domain: natalie.mu
+    id: pp.neki
+    label: Interview
+    published-date: 2026-06-12
+    url: 'https://natalie.mu/music/pp/neki'
+    image:
+    - 1863
+    - 1885
+    - 1936
+    - 1944
+    - 1995
+    - 1998
+    - 2050
+    - 2078
+    - 2095
+    - 2113
     part-of:
       media:
         year: 2026

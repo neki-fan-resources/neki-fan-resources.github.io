@@ -1,3 +1,32 @@
+- display:
+    media:
+      year: 2026
+      id: fmnagasakisunrisestation
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: Hika is in charge of the "Dig Song" segment in the Sunrise Station show.
+                - line:
+                  - text: She presents NEK! and herself, and speaks about the band major debut.
+            - multimediasubsection:
+                label: Hika comments
+                multimedia:
+                - youtubeshort: DlikJytfS98
+                - youtubeshort: 0eVfGug-Gpo
+                - youtubeshort: 0o5Ff4NWflA
+                - youtubeshort: DOUZ3Mj6kfA
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisunrisestation
+
 - postx:
     id: 2062428808800845914
     account: Sunrise_FMN
@@ -78,6 +107,62 @@
     url: 'https://www.fmnagasaki.co.jp/program/sunrisestation/'
     image:
     - banner
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisunrisestation
+
+- youtubeshort:
+    id: 0eVfGug-Gpo
+    label: Wednesday comment
+    info: Hika, English-subtitled
+    published-date: 2026-06-10
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakisunrisestation
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisunrisestation
+
+- youtubeshort:
+    id: 0o5Ff4NWflA
+    label: Tuesday comment
+    info: Hika, English-subtitled
+    published-date: 2026-06-09
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakisunrisestation
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisunrisestation
+
+- youtubeshort:
+    id: DOUZ3Mj6kfA
+    label: Thursday comment
+    info: Hika, English-subtitled
+    published-date: 2026-06-11
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakisunrisestation
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisunrisestation
+
+- youtubeshort:
+    id: DlikJytfS98
+    label: Monday comment
+    info: Hika, English-subtitled
+    published-date: 2026-06-08
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakisunrisestation
     part-of:
       media:
         year: 2026

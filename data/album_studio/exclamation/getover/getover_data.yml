@@ -1571,6 +1571,7 @@
 - postximage:
     post: 1782695971169993118
     id: GL1oiNdaMAERNNG
+    index: 1
     label: MV image
     context:
     - song: getover
@@ -1580,6 +1581,7 @@
 - postximage:
     post: 1782787160690786614
     id: GL27d42bUAA--t9
+    index: 1
     label: Cover
     local-copy: true
     context:

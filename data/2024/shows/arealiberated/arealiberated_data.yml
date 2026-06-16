@@ -317,6 +317,7 @@
 - postximage:
     post: 1773981785367654682
     id: GJ5UwuCawAAnJqr
+    index: 1
     label: On stage
     context:
     - show:
@@ -328,6 +329,7 @@
 - postximage:
     post: 1776084527859061007
     id: GKXrVSDasAAOm0K
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -340,6 +342,7 @@
 - postximage:
     post: 1776160113885114827
     id: GKYwNR2agAAdNxR
+    index: 1
     label: Band
     context:
     - show:
@@ -351,6 +354,7 @@
 - postximage:
     post: 1776244955574607972
     id: GKZ9XogaYAAIQ3m
+    index: 2
     label: Posters
     context:
     - show:
@@ -362,6 +366,7 @@
 - postximage:
     post: 1776244955574607972
     id: GKZ9XogbsAAU7ny
+    index: 1
     label: On stage
     context:
     - show:

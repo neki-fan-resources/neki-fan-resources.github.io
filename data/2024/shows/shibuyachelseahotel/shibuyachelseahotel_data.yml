@@ -496,6 +496,7 @@
 - postximage:
     post: 1770067246448275734
     id: GJCKxZbaYAAbbsT
+    index: 1
     label: Get Over single CDs
     context:
     - song: getover
@@ -508,6 +509,7 @@
 - postximage:
     post: 1770261360938746035
     id: GJE7Uu6a4AAdiK5
+    index: 1
     label: poster
     info: handmade
     local-copy: true
@@ -521,6 +523,7 @@
 - postximage:
     post: 1770261360938746035
     id: GJE7UvYbgAAG_3L
+    index: 2
     label: merch
     context:
     - show:
@@ -532,6 +535,7 @@
 - postximage:
     post: 1770308489857909073
     id: GJFmL2Xa0AA3Nof
+    index: 1
     label: Distributing flyers
     context:
     - show:
@@ -543,6 +547,7 @@
 - postximage:
     post: 1770448008477610078
     id: GJHlErjaMAA_Q5t
+    index: 1
     label: On stage
     context:
     - show:
@@ -554,6 +559,7 @@
 - postximage:
     post: 1770448008477610078
     id: GJHlErkasAAlAl7
+    index: 2
     label: Band
     context:
     - show:
@@ -565,6 +571,7 @@
 - postximage:
     post: 1770751059876561362
     id: GJL4s59XgAA5Jj8
+    index: 1
     label: On stage
     context:
     - show:

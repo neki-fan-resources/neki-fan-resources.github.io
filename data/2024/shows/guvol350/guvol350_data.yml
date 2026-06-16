@@ -354,6 +354,7 @@
 - postximage:
     post: 1777594109558952005
     id: GKtHu_waEAA2ryE
+    index: 1
     label: sidewalk board
     local-copy: true
     context:
@@ -366,6 +367,7 @@
 - postximage:
     post: 1777609719974187465
     id: GKtWnW3aIAAmvRc
+    index: 1
     label: On stage
     info: Kanade's bass
     context:
@@ -379,6 +381,7 @@
 - postximage:
     post: 1777695998347010219
     id: GKulFQPaQAA_vQf
+    index: 2
     label: On stage
     context:
     - show:
@@ -390,6 +393,7 @@
 - postximage:
     post: 1777695998347010219
     id: GKulFQVbkAEr1t-
+    index: 3
     label: Sidewalk board
     context:
     - show:
@@ -401,6 +405,7 @@
 - postximage:
     post: 1777695998347010219
     id: GKulFQXasAAGnVf
+    index: 1
     label: On stage
     context:
     - show:
@@ -412,6 +417,7 @@
 - postximage:
     post: 1777882436648816864
     id: GKxOpcdacAAcvaD
+    index: 3
     label: Sidewalk board
     context:
     - show:
@@ -423,6 +429,7 @@
 - postximage:
     post: 1777882436648816864
     id: GKxOpcdbQAAid1_
+    index: 2
     label: Backstage
     info: Natsu, Hika
     context:
@@ -435,6 +442,7 @@
 - postximage:
     post: 1777882436648816864
     id: GKxOpceaQAAtkFe
+    index: 4
     label: On stage
     context:
     - show:
@@ -446,6 +454,7 @@
 - postximage:
     post: 1777882436648816864
     id: GKxOpcgbQAAThmD
+    index: 1
     label: Backstage
     context:
     - show:

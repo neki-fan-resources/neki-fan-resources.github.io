@@ -467,6 +467,7 @@
 - postximage:
     post: 1765304060088115356
     id: GH-dwBEbYAE40vt
+    index: 1
     label: Poster
     context:
     - show:
@@ -478,6 +479,7 @@
 - postximage:
     post: 1765625866816803054
     id: GIDCvFoaEAARgCV
+    index: 1
     label: Sidewalk board
     local-copy: true
     context:
@@ -490,6 +492,7 @@
 - postximage:
     post: 1765733615722467497
     id: GIElXLRacAAzZEQ
+    index: 2
     label: The band
     context:
     - show:
@@ -501,6 +504,7 @@
 - postximage:
     post: 1765733615722467497
     id: GIElXLRb0AAgpaY
+    index: 1
     label: On stage
     context:
     - show:
@@ -512,6 +516,7 @@
 - postximage:
     post: 1765774728294461468
     id: GIFKWQXakAAGDMb
+    index: 1
     label: Sidewalk board
     context:
     - show:

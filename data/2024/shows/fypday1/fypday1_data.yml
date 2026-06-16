@@ -246,6 +246,7 @@
 - postximage:
     post: 1797140895449673780
     id: GPC59ywaoAA_Sdl
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -258,6 +259,7 @@
 - postximage:
     post: 1797630863351709848
     id: GPJ3vKGaQAAR7bp
+    index: 2
     label: Posters
     context:
     - show:
@@ -269,6 +271,7 @@
 - postximage:
     post: 1797630863351709848
     id: GPJ3vKGbEAEs0-Q
+    index: 1
     label: On stage
     context:
     - show:

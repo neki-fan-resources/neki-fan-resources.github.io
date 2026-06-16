@@ -180,6 +180,7 @@
 - postximage:
     post: 1804826253255667992
     id: GQwGBNrb0AAuARr
+    index: 1
     label: Flyer
     context:
     - show:
@@ -191,6 +192,7 @@
 - postximage:
     post: 1804826253255667992
     id: GQwHOAlaYAAeHbi
+    index: 2
     label: Poster
     context:
     - tour: nekifirstosakaaichi2024

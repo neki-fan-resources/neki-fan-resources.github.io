@@ -182,6 +182,7 @@
 - postximage:
     post: 1799743432564654547
     id: GPnhi6wbsAAbB-I
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -194,6 +195,7 @@
 - postximage:
     post: 1799743432564654547
     id: GPnhj7qaIAAtR_E
+    index: 2
     label: tour schedule
     context:
     - show:
@@ -205,6 +207,7 @@
 - postximage:
     post: 1801973573202190647
     id: GQHlZ-HbQAAGhlb
+    index: 1
     label: On stage
     context:
     - show:
@@ -216,6 +219,7 @@
 - postximage:
     post: 1801973573202190647
     id: GQHlZ-IasAAKNyN
+    index: 2
     label: Sidewalk board
     context:
     - show:

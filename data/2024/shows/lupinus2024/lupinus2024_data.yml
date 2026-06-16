@@ -886,6 +886,7 @@
 - postximage:
     post: 1766243435357561130
     id: GIL1CWeaoAACz-Y
+    index: 4
     label: all artist logos
     context:
     - show:
@@ -897,6 +898,7 @@
 - postximage:
     post: 1766243435357561130
     id: GIL1CWebMAAyx6P
+    index: 3
     label: main venues schedule
     context:
     - show:
@@ -908,6 +910,7 @@
 - postximage:
     post: 1766243435357561130
     id: GIL1CWfbYAA9llo
+    index: 2
     label: full schedule
     context:
     - show:
@@ -919,6 +922,7 @@
 - postximage:
     post: 1766243435357561130
     id: GIL1CWga8AA1ryU
+    index: 1
     label: poster
     info: all the artists
     local-copy: true
@@ -932,6 +936,7 @@
 - postximage:
     post: 1766325171030564920
     id: GIM_YLhbcAAWN0m
+    index: 1
     label: On stage
     context:
     - show:
@@ -943,6 +948,7 @@
 - postximage:
     post: 1766356697961165080
     id: GINcDdHawAAWX0B
+    index: 1
     label: On stage
     info: Kanade, Hika
     context:
@@ -955,6 +961,7 @@
 - postximage:
     post: 1766358235748110623
     id: GINdcN-bgAEl9zU
+    index: 1
     label: On stage
     context:
     - show:
@@ -966,6 +973,7 @@
 - postximage:
     post: 1766464470363324596
     id: GIO92J5bMAAe4Il
+    index: 2
     label: Backstage
     context:
     - show:
@@ -977,6 +985,7 @@
 - postximage:
     post: 1766464470363324596
     id: GIO92J7b0AAOR0t
+    index: 1
     label: Sidewalk board
     context:
     - show:
@@ -988,6 +997,7 @@
 - postximage:
     post: 1766464470363324596
     id: GIO92KpbEAAAZDw
+    index: 3
     label: On stage
     context:
     - show:

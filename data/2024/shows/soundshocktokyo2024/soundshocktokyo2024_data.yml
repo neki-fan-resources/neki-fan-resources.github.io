@@ -309,6 +309,7 @@
 - postximage:
     post: 1795757514870665423
     id: GOvP8Swa0AAK1tW
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -321,6 +322,7 @@
 - postximage:
     post: 1802661970295881884
     id: GQQS5_ZbgAAmmYA
+    index: 1
     label: Band poster
     context:
     - show:

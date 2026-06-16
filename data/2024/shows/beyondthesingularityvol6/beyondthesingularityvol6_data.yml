@@ -240,6 +240,7 @@
 - postximage:
     post: 1798608606579007863
     id: GPXmT9iboAA09Sb
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -252,6 +253,7 @@
 - postximage:
     post: 1805236054989136217
     id: GQ18njfaoAA7l3q
+    index: 2
     label: Sidewalk board
     context:
     - show:
@@ -263,6 +265,7 @@
 - postximage:
     post: 1805236054989136217
     id: GQ18njgbIAE5MR-
+    index: 1
     label: On stage
     context:
     - show:
@@ -274,6 +277,7 @@
 - postximage:
     post: 1805328812106039713
     id: GQ3Q-y4aQAEqVdX
+    index: 1
     label: Backstage
     info: Natsu, おじょう (劇団Moyashi), Mariya (Monochrome Cinderella)
     context:

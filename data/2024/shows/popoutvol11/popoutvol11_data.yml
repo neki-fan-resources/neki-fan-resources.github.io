@@ -285,6 +285,7 @@
 - postximage:
     post: 1780522894059299287
     id: GLWvKs8bYAAHJQF
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -297,6 +298,7 @@
 - postximage:
     post: 1799078045346894197
     id: GPeb7_jaAAIxU5q
+    index: 1
     label: On stage
     context:
     - show:
@@ -308,6 +310,7 @@
 - postximage:
     post: 1799078045346894197
     id: GPeb7_kbgAALvRQ
+    index: 2
     label: Venue logo
     context:
     - show:
@@ -319,6 +322,7 @@
 - postximage:
     post: 1799084157886460002
     id: GPehcB0bMAAvs-e
+    index: 1
     label: The bands
     context:
     - show:

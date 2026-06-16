@@ -1,3 +1,193 @@
+- display:
+    media:
+      year: 2026
+      id: barksflick
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: In the interview, each band member touches on their activities around the time NEK! was formed.
+                  - newline: ''
+                  - text: Then they discuss the message contained in "FLiCK", as well as the details of the song's sound.
+                  - newline: ''
+                  - text: The interview concludes with the members' plans and ambitions to continue to improve the band.
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+                  - newline: ''
+                  - newline: ''
+            - interviewsubsection:
+                lines:
+                - text: 2025年8月に結成から1年半で初のZeppワンマンをソールドせ、アウトさ11月には1stフルアルバム『MEME』をリリース、2026年2月からは初の全国ツアーを行った4人組ガールズバンド・NEK!が、6月10日にデジタルシングル「FLiCK」でメジャーデビューを果たす。
+                  translation: The four-piece girls band NEK!—who sold out their first Zepp one-man live in August 2025, a year and a half after forming, released their 1st full album "MEME" in November, and held their first nationwide tour starting in February 2026—makes their major debut on June 10th with the digital single "FLiCK."
+                - text: ラウドロックのテイストとポップネスを持ち合わせたサウンドに、ネットスラングなどを用いて現代の若者のリアルを投影した歌詞を乗せる“スラングロックバンド”として活動してきた彼女たちが新たなスタートを切るタイミングで世に放つのは、持ち味を最大限に活かしたポップパンクナンバー。
+                  translation: They have been active as a "slang rock band," combining a loud rock style with pop elements, and writing lyrics that use internet slang to show the reality of today's youth. As they enter this new chapter, the song they are releasing to the world is a pop-punk track that fully showcases their unique style.
+                - text: 重低音と軽やかさを併せ持ったサウンドと等身大の歌詞は、SNSを通じて出会った我々リスナーに、ライブという生身の空間で一緒に音楽を共有しようと晴れやかに呼びかける。デジタルネイティブ世代の彼女たちは、どんな思いのもとバンドで音楽を発信しているのだろうか。2年で育まれた結束と、同曲に込めた思いをメンバー全員で語ってくれた。
+                  translation: The sound, which has both heavy bass and a light feel, along with their relatable lyrics, cheerfully invites us listeners—who met them through social media—to share music together in the physical, real-life space of a live concert. What kind of thoughts do these girls from the digital native generation have as they release music as a band? All the members talked to us about the bond they have built over the past two years, and the feelings they put into this song.
+            - interviewsubsection:
+                lines:
+                - text: NEK!はバンドへの憧れを持っていたHikaさんが、SNSでメンバーをスカウトして結成されたそうですね。
+                  translation: I heard that NEK! was formed when Hika, who had a strong desire to be in a band, approached the members on social media.
+                  isinterviewer: true
+                - text: 3人とも可愛らしさも技術も持っていて、「すごくかわいくてかっこいい！　一緒にバンドをやるならこの人じゃなきゃダメだ！」とすぐに声を掛けました。だから一緒にバンドをやりたいと思っていた人を集めたら、結果的にガールズバンドになったんです。4人とも個人で弾き語りや演奏動画を発信していたので、それぞれの動画から「きっと同じ気持ちで動画投稿を始めているんだろうな」と感じたのも大きかったです。
+                  translation: All three of them had both charm and technical skill, so I immediately reached out to them thinking, "They are so cute and cool! If I am going to be in a band, it has to be with them!" So, when I gathered the people I wanted to be in a band with, it just ended up becoming a girls band as a result. All four of us were individually posting videos of us playing instruments or singing, so another big factor was that I felt from their videos, "They must have started posting videos with the same feelings I had."
+                  participant: Hika
+                - text: 確かにSNSの使い方には人間性が出ますよね。動画のカメラの角度、動画に映るふとした仕草、言葉の使い方、編集の仕方など、細かいところに発信者の潜在的な成分が色濃く表れるので、自分と相性がいいかどうか直感的にわかったりもして。
+                  translation: It is true that a person's character shows in how they use social media. The camera angles, the casual gestures caught on camera, the choice of words, the editing style—these small details strongly reveal the creator's underlying personality. So, you can intuitively tell if you will get along with someone.
+                  isinterviewer: true
+                - text: そうなんですよね。3人それぞれの動画を観たときに、真っ先に「会ってみたい！」と思ったんです。それはなんとなく、動画から感じられる人柄にも惹かれたのかなと思います。実際スタジオで初めて会ったときに、昔から知っていたような感覚があって、1日目からすごく仲良くなりました。
+                  translation: That is exactly right. When I watched the videos of the other three, my very first thought was, "I want to meet them!" I think I was naturally drawn to the personalities that came through in their videos. When we actually met for the first time in the studio, it felt like we had known each other for a long time, and we became really close from the very first day.
+                  participant: Hika
+                - text: わたしは2回目のスタジオで初めて合流して、1回目のスタジオですでに3人が仲良くなっていて、後から入って大丈夫かな……！？と不安だったんですけど（笑）、3人ともすごく優しく迎え入れてくれて、いっぱい話しかけてくれて。こんなに仲良くできるメンバーと出会えてうれしいですね。
+                  translation: I joined them for the first time during their second studio rehearsal. The three of them had already become close during the first rehearsal, so I was worried and thought, "Is it going to be okay for me to join in late...!?" (laughs). But all three of them welcomed me so kindly and talked to me a lot. I am so happy to have met band members I can be this close with.
+                  participant: Natsu
+                - text: 声を掛けられたお三方は、もともとどんな思いのもと動画投稿をしていたのでしょう？
+                  translation: For the three of you who were approached, what were your original intentions when you started posting videos?
+                  isinterviewer: true
+                - text: それまでずっと結構年上の方と一緒に音楽をやっていて、その方々からずっと「同年代の子と一緒にバンドをやる経験は絶対に必要だよ」と言われていたので、同年代の子と組みたいと思っていたところにHikaから声を掛けてもらいました。それまでは先輩方が持っているノウハウに引っ張ってもらっていたけれど、NEK!では1個1個の問題にぶち当たって悩んで、それを解決して乗り越えて成長していくという一連の流れを全員一緒にできるんですよね。先輩たちが言っていたのはこういうことだったんだなと実感しています。
+                  translation: Up until then, I had always played music with people quite a bit older than me, and they constantly told me, "You absolutely need the experience of playing in a band with people your own age." So, right when I was thinking about wanting to team up with people my age, Hika reached out to me. Before that, I was always guided by the know-how of those older musicians. But in NEK!, we can all go through the entire process together—facing each problem, worrying about it, solving it, overcoming it, and growing. I really understand now that this is what they meant.
+                  participant: Cocoro
+                - text: わたしはもともとサークルでガールズバンドを組んでいて、ガールズバンドでしか味わえない良さをずっと感じていたんです。やっぱりガールズバンドって、普段はふわふわしている女の子が、楽器を持つとガラッとかっこよくなるというギャップがいちばんわかりやすい気がしていて。いちリスナーとしてもそういうところが魅力的だったし、憧れでもありました。だからHikaから「ガールズバンドとして活動していくことになると思う」という話をもらったとき、めちゃめちゃうれしかったんです。
+                  translation: I was originally in a girls band in a music club, and I had always felt a special charm that you can only experience in a girls band. I feel like girls bands are where the "gap" is easiest to see—girls who usually have a soft and fluffy vibe suddenly become incredibly cool the moment they hold their instruments. Even as a listener, I found that really appealing, and it was something I looked up to. So when Hika told me, "I think we are going to be active as a girls band," I was super happy.
+                  participant: Natsu
+                - text: わたしもガールズバンドには他と違う精神的な強さを感じていて、憧れを抱いていました。だからいつか自分もガールズバンドを組んで、憧れのガールズバンドの皆さんと並べたらいいなという夢を思い描いていて。Hikaから声をかけてもらったときは高校2年生で、ちょうど「音楽の道に進みたいし、バンドをやっていきたいけど、でも周りに一緒にやれそうな人たちもいないからどうしよう……」って進路に迷ってたんです。そしたら自分の求めていた環境が降ってきて、ほんとに感謝してます。
+                  translation: I also felt a unique kind of mental strength in girls bands, and I really admired them. So I always pictured a dream where someday I could form my own girls band and stand on the same level as the girls bands I looked up to. When Hika reached out to me, I was in my second year of high school. I was just stressing over my future path, thinking, "I want to pursue music and be in a band, but there is no one around me I can play with, so what should I do...?" Then the exact environment I was looking for just fell right into my lap, so I am truly thankful.
+                  participant: Kanade
+                - text: 結成から2年経ち、NEK!としてどんな充実を感じていますか？
+                  translation: It has been two years since the band formed. In what ways do you feel fulfilled working together as NEK!?
+                  isinterviewer: true
+                - text: 同年代の同性同士だからお互いが似た悩みを持っているし、相談し合えるんですよね。あとファッションなどでも、それぞれのカラーが異なるので、最近の流行ってるものやハマっているものを教え合えるのもありがたいです（笑）。
+                  translation: Because we are all girls around the same age, we share similar worries and can talk to each other about our problems. Also, when it comes to things like fashion, we all have our own distinct styles, so I really appreciate that we can share what is trending or what we are currently into with each other (laughs).
+                  participant: Cocoro
+                - text: メイクとかカラコンとかね（笑）。あと同世代の同性同士だからこそ体調面とかもわかり合えるし。
+                  translation: Like makeup and colored contact lenses (laughs). Also, precisely because we are girls of the same generation, we can easily understand when someone is not feeling well physically.
+                  participant: Hika
+                - text: そうだね。ナイーブなことも打ち明けられる。
+                  translation: That is true. We can open up to each other about sensitive topics, too.
+                  participant: Kanade
+                - text: そしたら「じゃあそのぶんわたしが頑張るね」とサポートできるし、すごく活動しやすいです。だからこのメンバーを集めてくれたHikaに本当に感謝しています
+                  translation: When that happens, we can support each other by saying, "I will cover for you and work extra hard," which makes it so much easier to work together. That is why I am truly grateful to Hika for bringing these members together.
+                  participant: Natsu
+                - text: 集まったときから仲が良かったけど、みんな人見知りだから本当の自分を出すのにすごく時間が掛かったところはあるんです。だから結成から2年経って、「ほんとはみんなこんなにテンションが高いんだ！」と驚いています（笑）。4人が集まるとえげつない怪獣のようなエネルギーが湧き上がります（笑）。
+                  translation: We got along well from the moment we first met, but we are all naturally shy, so it definitely took a long time for us to show our true selves. Now that two years have passed, I am surprised, thinking, "Wow, everyone's energy level is actually this high!" (laughs). When the four of us get together, this outrageous, monster-like energy just erupts (laughs).
+                  participant: Cocoro
+                - text: ライヴ前の楽屋はほんと怪獣だね（笑）。自分を出せるようになったぶん演奏のグルーヴもぐんと上がって、仲が深くなればなるほど演奏も太くなってきている実感があります。でもまだまだライヴのMCでは人見知りをしてしまうので……この怪獣っぷりをステージでも発揮していきたいですね。
+                  translation: The dressing room before a live show is a total monster zone (laughs). Because we are now able to be ourselves around each other, our groove when playing has improved dramatically, and I really feel that the closer we get, the richer our sound becomes. But we still get a bit shy during our MCs at live shows... so I want us to be able to unleash this "monster" side of ourselves on stage as well.
+                  participant: Hika
+                - text: NEK!は“スラングロックバンド”を掲げており、ネットスラングやSNSと密接な歌詞もバンドの持ち味のひとつです。歌詞は4人で意見を言い合って固めていくそうですね。
+                  translation: NEK! calls itself a "slang rock band," and lyrics closely tied to internet slang and social media are one of the band's unique characteristics. I heard that the four of you finalize the lyrics by sharing your opinions with each other.
+                  isinterviewer: true
+                - text: NEK!の歌詞はネットに対しての反骨精神や、ダークな本音が出ているようにも見えるけど、それはSNSで苦しんでいる人たちに前向きになってほしい、ポジティブな1歩を踏み出してほしいという思いから書いているものなんですよね。「せっかくの人生、楽しく生きていきたいよね」という思いを全曲に込めています。
+                  translation: NEK!'s lyrics might look like they show a rebellious spirit against the internet or dark, honest feelings. However, we write them with the hope that people who are suffering because of social media can become more optimistic and take a positive step forward. We put the thought, "We only have one life, so we want to live it happily, right?" into all of our songs.
+                  participant: Kanade
+                - text: ここ2、3年はAIの進歩が凄まじくて、そこにのめりこみすぎている、頼りすぎている同世代の子も多い印象があるんです。流行は知識として取り入れるぶんにはいいけど、流行に自分自身が乗っ取られないように気をつけることが、いまの時代を生きていくうえで大事なのかなって。だからこそ自分らしさを忘れないでほしい。そういう思いを今後も届けていきたいです。
+                  translation: The progress of AI over the last two or three years has been incredible, and my impression is that many kids in our generation are too absorbed in it or rely on it too much. It is fine to take in trends as knowledge, but I think being careful not to let those trends take over who you are is important for living in today's era. That is exactly why I do not want people to forget their true selves. I want to continue delivering these kinds of messages going forward.
+                  participant: Hika
+                - text: やっぱりSNSやネットって魅力的だから、どんどんのめり込んで見ちゃうんですよね。今後はどんどん人工知能も発達して、現実世界でしゃべらない人も出てくるんだろうし、スマホの中に自分がいる、スマホの中が自分のすべてだと思っちゃう人もいる気がする。でも身体は現実世界にあるから、現実世界も大切にしてほしいなと思っていますね。
+                  translation: The progress of AI over the last two or three years has been incredible, and my impression is that many kids in our generation are too absorbed in it or rely on it too much. It is fine to take in trends as knowledge, but I think being careful not to let those trends take over who you are is important for living in today's era. That is exactly why I do not want people to forget their true selves. I want to continue delivering these kinds of messages going forward.
+                  participant: Cocoro
+                - text: いまスマホは生活と切っても切れない関係になってきていると思うんです。だからこそ適度な距離感が必要だけど、それができない人もすごく多い気がしていて。NEK!の曲がそんな世の中を完全に変えられるわけではないけれど、そうやって苦しんでいる人たちに少しでも寄り添えたらいいと思っていますね。歌詞を読んで少しでも「ちょっとリアルな世界を見てみようかな」と思ってもらえたら、それがベストだなって。
+                  translation: I think smartphones have become completely inseparable from our daily lives now. Because of that, keeping a healthy distance is necessary, but I feel like there are a lot of people who cannot do that. NEK!'s songs might not be able to completely change a world like this, but I hope we can stay close and offer a little support to the people who are struggling in that way. If reading our lyrics makes them think even a little bit, "Maybe I will try looking at the real world for a second," that would be the absolute best.
+                  participant: Natsu
+                - text: いまおっしゃっていることが、メジャーデビュー曲「FLiCK」にしっかりと込められていますよね。サウンド面ではこの2年で育てたNEK!の強みが活かされていますし、歌詞には「SNSやインターネットを入口にしてライヴで出会いたい」という思いを強く感じました。
+                  translation: Everything you are saying right now is clearly packed into your major debut song, "FLiCK," isn't it. In terms of sound, it makes full use of the strengths NEK! has built up over the past two years. And in the lyrics, I strongly felt your desire to "use social media and the internet as a gateway to meet people at live shows."
+                  isinterviewer: true
+                - text: やっぱりバンドには、ライヴに来てもらわないとわからない魅力がたくさんあると思うんです。ライヴだからこそ伝わるNEK!の魅力を知ってほしいからこそ、リアルで会いたいという気持ちがすごく大きいです。
+                  translation: I really think there is a lot of charm to a band that you cannot understand unless you come to a live show. I want people to discover the appeal of NEK! that can only be felt at a live performance, so my desire to meet everyone in real life is very strong.
+                  participant: Natsu
+                - text: わたしは以前、実際にライヴに足を運ぶタイプではなかったので、ライヴに行かないまま好きなバンドが解散したり、活動休止をして後悔してきたんです。人間誰しもいつどうなるかわからないから、後悔しないようにいま行動してほしいなって思います。
+                  translation: I used to be the type of person who did not actually go to live shows, so I have experienced regret when bands I liked disbanded or went on a break without me ever seeing them. You never know what will happen to anyone, so I want people to take action now so they do not regret it later.
+                  participant: Kanade
+                - text: 「FLiCK」にはスマホの中に閉じこもってないで表に出て、一緒に外に出て楽しもうぜ！って気持ちを込めましたね。SNSを通じて素敵な出会いがあったからこそメジャーデビューができて、昔の自分では想像できなかった環境になって。でもこの状況はSNSがなかったら実現しなかったんですよね。
+                  translation: We put the message into "FLiCK" of, "Do not lock yourself inside your smartphone—come outside, and let's have fun out here together!" We were able to make our major debut precisely because we made wonderful connections through social media, and we are now in an environment my past self could never have imagined. But this situation would not have happened without social media.
+                  participant: Hika
+                - text: NEK!をたくさんの人に知ってもらえたのも、SNSのおかげだもんね。ライヴに来てもらうためにSNSを窓口として使わせてもらっています。
+                  translation: It is also thanks to social media that so many people know about NEK!, after all. We use social media as a gateway to invite people to our live shows.
+                  participant: Cocoro
+                - text: SNSはありがたいものだし、メリットが多いぶんダメージは大きかったりもするし。ほんと正解がわかんなくなっちゃったりする時代だからこそ、前向きになってほしいんです。
+                  translation: Social media is something to be thankful for. But just as there are many benefits, the damage it can cause is also huge. Precisely because we live in an era where it is really hard to know what the right answer is, I just want people to stay positive.
+                  participant: Hika
+                - text: 皆さんのお話を聞いていて思いましたが、ネットで苦しい思いをする原因はスマホの中から出ていないからかもしれませんよね。何かの窓口やきっかけとして付き合うなら、すごく味方になってくれる存在なんだろうなと。
+                  translation: Listening to you all, I thought that maybe the reason people suffer on the internet is because they never step outside of their smartphones. If you interact with it as a gateway or a starting point, it can probably be a really strong ally.
+                  isinterviewer: true
+                - text: 確かに。本当にそうですね。
+                  translation: That is true. It really is.
+                  participant: Hika
+                - text: 手元のスマホを触るだけで娯楽にはたくさん恵まれるけれど、実際に身体を動かすことで能動的に得たものは経験になりますよね。そういう意味でもNEK!のライヴも動画と生身ではかなり別物だと思います。
+                  translation: You can get plenty of entertainment just by tapping the smartphone in your hand, but what you actively gain by physically moving your body becomes a real experience. In that sense, I think NEK!'s live shows in person are completely different from your videos.
+                  isinterviewer: true
+                - text: ライヴはお客さんの熱がすごいんですよ。わたしたちもそれに触発されるかたちで演奏しているので、お客さんとバチバチになって作り上げているあの空間をぜひ体感しに来ていただきたいんです。
+                  translation: The energy of the audience at our live shows is amazing. We are inspired by that when we perform, so I really want people to come and experience that space we create together by exchanging that intense energy with the crowd.
+                  participant: Cocoro
+                - text: もちろん、かっこいいと思える映像をアップしていますが、実際のライヴはこんなもんじゃないと自信を持って言えます。ライヴに来てくれたらもっとNEK!の魅力を伝えられると思ってて。「本当に弾けるの？」とか「かわいいだけでしょ」と思ってる方も、とにかく1回ライヴに来ていただきたいです（笑）。
+                  translation: Of course, we upload videos that we think are cool, but I can say with confidence that our actual live shows are on a whole other level. I believe we can show even more of NEK!'s charm if people come to our shows. Even for those who think, "Can they really play their instruments?" or "They are just cute," I just want them to come to a live show at least once (laughs).
+                  participant: Hika
+                - text: 演奏とMCにギャップがあるとよく言われるので、それを観たらまた曲の感じ方も変わるかも。「FLiCK」の歌詞にも演奏にも、「スマホからはわからないわたしたちの魅力を感じてほしい」という思いを込めました。
+                  translation: 'We are often told that there is a big "gap" between our performances and our MCs, so if you see that, the way you feel our songs might change, too. Into both the lyrics and the music of "FLiCK," we put the message: "We want you to feel our charm that you cannot understand just through a smartphone."'
+                  participant: Cocoro
+                - text: 「FLiCK」はポップパンクテイストのサウンドで、テンポも落ち着いているので、4人全員がご自身のカラーをのびのびと凛々しく出しているのも印象的でした。
+                  translation: '"FLiCK" has a pop-punk sound, and since the tempo is a bit more relaxed, it was also impressive how all four of you freely and confidently expressed your own individual styles.'
+                  isinterviewer: true
+                - text: 重低音とエッジを効かせたロックサウンドに、共感性のある歌詞を乗せるというNEK!のスタイルと、いろんな人に聴いてもらえるポップなサウンドを両立した楽曲にしたいねという話でまとまりました。メンバーの持ち味をしっかり残した、ポップでありながらちゃんとロックをしている、いいとこ取りの曲を目指しましたね。
+                  translation: "We agreed that we wanted to make a song that balances NEK!'s style—which combines an edgy rock sound and heavy bass with relatable lyrics—along with a pop sound that many different people can enjoy. We aimed for a song that takes the best of both worlds: keeping the members' unique strengths, while being pop but still sounding like proper rock."
+                  participant: Cocoro
+                - text: NEK!らしさを残しつつ、ポップに、ジャンルレスに幅広く作っていきたいという意思表示でもありますね。
+                  translation: It is also a statement of our intention to create music broadly and freely across genres with a pop feel, while still keeping that core NEK! essence.
+                  participant: Hika
+                - text: わたしは結成当初からよくやっている手法を取り入れました。ギターソロでタッピングを入れて、リフをオクターブで弾いています。
+                  translation: I incorporated techniques I have been using a lot since the band first formed. I included tapping in the guitar solo, and I play the riffs in octaves.
+                  participant: Natsu
+                - text: ゴリゴリで手数足数も多いのが普段のわたしの持ち味だと思っているんですけど、「FLiCK」は普段激しめの曲を聴かない人たちにも刺さってほしかったので、ドラムは出るところは出る、引くとこは引くという塩梅を大事にしました。サビ前とサビ終わりにブレイクを入れて緩急をつけたり、後半のHikaとのラップとの掛け合いみたいなドラムはかなりてんこ盛りにしました（笑）。
+                  translation: I think my usual strength is an aggressive style where I play a lot of notes with my hands and feet. However, I wanted "FLiCK" to appeal to people who do not normally listen to intense music, so I really focused on finding the right balance—stepping up when I needed to, and pulling back when I should. I added breaks before and after the chorus to create dynamic shifts, and for the part in the second half where I am trading off with Hika's rap, I went all out and packed in a ton of drums (laughs).
+                  participant: Cocoro
+                - text: ベースはギターとドラムの間みたいな感じで考えましたね。NEK!の色のひとつであるスラップを随所で入れつつも、サビでは支える側に回って引き算を大切にしました。全体の印象は結構ポップだけど、ギターソロやラップのところが重たいサウンドになるので、ここでは5弦ベースを使って支えつつも尖った感じを出しました。メリハリや波を意識してフレーズを作りましたね。
+                  translation: I thought of the bass as being somewhere between the guitar and the drums. While adding slap bass—which is one of NEK!'s signature sounds—in various places, I took a supporting role in the chorus and really valued the idea of "playing less" there. The overall vibe is quite pop, but the guitar solo and rap sections have a heavier sound. So, I used a 5-string bass in those parts to support the sound while still giving it an edgy feel. I wrote my phrases by keeping those dynamics and waves in mind.
+                  participant: Kanade
+                - text: ヘヴィな音と、ソフトで軽やかなHikaさんの歌のコントラストもアクセントになっています。
+                  translation: The contrast between the heavy sound and Hika's soft, light singing is also a key element.
+                  isinterviewer: true
+                - text: これまではダークな雰囲気で歌うことは多かったけれど、「FLiCK」はリズムを出すように歌いました。あと、いつか歌詞に地元の長崎弁を入れたいなと思っていたので、メジャーデビュー曲というこのタイミングで入れてみました。ちょっと踏み込んだ自分要素を入れてみたら面白いかなと思ったんですよね。ここからがまたスタートなので、どんどん大きくなっていくぞと気合いが入っています。
+                  translation: Up until now, I have often sung with a dark vibe, but for "FLiCK," I sang in a way that brings out the rhythm. Also, I had always wanted to include my local Nagasaki dialect in our lyrics someday, so I decided to use it at this perfect timing for our major debut song. I thought it would be interesting to take a step further and add a personal element of myself. This is another new start for us, so I am really fired up and determined to keep growing bigger and bigger.
+                  participant: Hika
+                - text: 9月に東名阪で開催する＜NEK! MAJOR DEBUT TOUR＞も、さらに成長したNEK!にこうご期待ですね。
+                  translation: We have high expectations for an even more grown-up NEK! at the “NEK! DEBUT MAJOR TOUR” taking place in Tokyo, Nagoya, and Osaka in September.
+                  isinterviewer: true
+                - text: わたしたちには日本武道館に立ちたいという目標があるので、そのためにいまどうするべきか、何を頑張らないといけないのか、いつもシビアに向き合っています。目の前のことを頑張ったその先に、日本武道館が待っていると思うんです。
+                  translation: We have a goal of wanting to stand on the stage at Nippon Budokan. Because of that, we are always seriously thinking about what we should do now and what we need to work hard on to achieve it. I believe that if we work hard on the things right in front of us, Nippon Budokan will be waiting for us at the end of that path.
+                  participant: Hika
+                - text: 今年の2月から4月にかけて回った結成2周年の全国ツアーで、2日連続ワンマンを初めて経験して「もっとスタミナをつけないと！」と心の底から思いました。NEK!の楽曲は1曲でも体力が全部持ってかれるんです（笑）。だから終盤はアドレナリン頼りというか、ラストまで気合いでこぎつけていくところもあったんです。これからは気合いで乗り切るNEK!ではなく、余裕で最後まで楽しんでいるNEK!を見せられるようにしていきたいですね。熱さも冷静さも兼ね備えたうえでライヴに臨めるようになりたいです。
+                  translation: During our 2nd anniversary nationwide tour from February to April this year, we experienced playing "one-man" shows two days in a row for the first time. I thought from the bottom of my heart, "We need to build up more stamina!" Even just one NEK! song drains all of our physical energy (laughs). So towards the end of the shows, we were relying on adrenaline, and there were times when we just pushed through to the very end using pure fighting spirit. From now on, instead of a NEK! that just survives on fighting spirit, I want us to be able to show a NEK! that has enough energy to enjoy the show all the way to the end. I want us to be able to go into our live shows equipped with both passion and a calm mind.
+                  participant: Cocoro
+                - text: 全国ツアーは本当にいろんな学びがあったんですよね。最初のうちは前向きな気持ちだったけど、回数を重ねるごとに課題が浮き彫りになって、どんどん自分で自分を追い込むようになっちゃって、どんどん気持ちが重くなって自分自身に必死になっちゃった時期があったんです。自分を責めすぎず、もっと周りを見ていきたいですね。自分だけでなく周りも巻き込んで、全部をいい空気にしていきたい。心の持ちようって大事なんだなと痛感しています。
+                  translation: There really was a lot to learn from the nationwide tour. At first, I was feeling very positive. But as we played more shows, the things I needed to work on became clear, and I started pushing myself too hard. There was a period where my feelings got heavier and heavier, and I became desperate just trying to keep up with myself. I want to stop blaming myself so much and pay more attention to my surroundings. I want to bring everyone around me into it, not just myself, and turn everything into a good atmosphere. I really feel just how important your mindset is.
+                  participant: Kanade
+                - text: わたしは最近ようやくギターのワイヤレスを導入できたので、ようやくKanadeと一緒にステージを動き回れるのが楽しみですね。そしたらステージでの見え方も変わるし、大きい会場でのライヴの作り方がすごく変わるなとわくわくしているので、9月の東名阪ツアーでは新しいギタープレイを見せられると思います。
+                  translation: I was finally able to get a wireless system for my guitar recently, so I am really looking forward to finally being able to move around the stage together with Kanade. Once I do that, the way things look on stage will change, and I am excited because the way we put together our live shows in large venues will change a lot. So, I think I will be able to show off a new style of guitar playing during the tour in September.
+                  participant: Natsu
+                - text: 花形であるギタリストの表現の幅が広がるとなると、ヴォーカリストも負けてられないといったところでしょうか。
+                  translation: With the star guitarist expanding her range of expression, I suppose the vocalist cannot afford to be outdone, right?
+                  isinterviewer: true
+                - text: 負けられないですね。ギターだけじゃない、ドラムの太いキックにも、ベースのスラップにも、フロントに立つ人間として負けられないです。もともとNEK!は、バラードからめちゃくちゃ速いロックまで楽曲の振れ幅が大きいので、ライヴのコントロールが難しいんです。でもみんなを楽しませるためには、その手綱をしっかりと持たなきゃいけないなと思っています。だから体力と精神力をしっかりつけていきたいですね。ただただ「このかっこいいメンバーと一緒にバンドをやりたい！」という衝動だけで始まったけど、一緒に1歩ずつ活動をしていくごとにどんどん目標が明確になって、大きくなって。日本武道館もそうだし、世界にも行きたい。4人で力を合わせて、課題を一つひとつしっかりクリアしていきたいです。
+                  translation: I definitely cannot be outdone. Not just by the guitar, but also by the heavy kick of the drums and the slap of the bass—as the person standing in front, I cannot afford to lose to any of them. NEK! naturally has a very wide range of songs, from ballads to incredibly fast rock, which makes it difficult to control the flow of a live show. But in order to make sure everyone has fun, I think I need to hold the reins firmly. That is why I want to make sure I build up my physical and mental strength. It all started purely from the impulse of, "I want to be in a band with these cool members!" But as we take each step forward together, our goals are becoming clearer and much bigger. The Nippon Budokan is one of them, but I also want us to go out into the rest of the world. I want the four of us to combine our strengths and overcome our challenges one by one.
+                  participant: Hika
+    part-of:
+      media:
+        year: 2026
+        id: barksflick
+
 - update:
     media:
       year: 2026
@@ -5,6 +195,18 @@
     date: 2026-06-14
     text:
     - Added the interview
+    part-of:
+      media:
+        year: 2026
+        id: barksflick
+
+- update:
+    media:
+      year: 2026
+      id: barksflick
+    date: 2026-06-15
+    text:
+    - Added translation
     part-of:
       media:
         year: 2026

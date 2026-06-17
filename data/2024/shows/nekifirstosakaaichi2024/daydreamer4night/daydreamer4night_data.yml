@@ -173,6 +173,7 @@
 - postximage:
     post: 1808093597566394408
     id: GRejikdb0Ac6Tj3
+    index: 2
     label: Poster
     context:
     - tour: nekifirstosakaaichi2024
@@ -182,6 +183,7 @@
 - postximage:
     post: 1825843541756752006
     id: GVay0webUAAAJ-4
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -194,6 +196,7 @@
 - postximage:
     post: 1826267838006337964
     id: GVg06iIbsAAqz5k
+    index: 2
     label: Posters
     context:
     - show:
@@ -205,6 +208,7 @@
 - postximage:
     post: 1826267838006337964
     id: GVg06iLbMAAy0f2
+    index: 1
     label: On stage
     context:
     - show:

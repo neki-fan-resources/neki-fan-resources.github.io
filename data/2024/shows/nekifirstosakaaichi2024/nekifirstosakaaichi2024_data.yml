@@ -339,6 +339,7 @@
 - postximage:
     post: 1827357268658286768
     id: GVwTue4aUAAIxfq
+    index: 4
     label: On stage
     info: Cocoro
     context:
@@ -351,6 +352,7 @@
 - postximage:
     post: 1827357268658286768
     id: GVwTueQa8AIR0ys
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -363,6 +365,7 @@
 - postximage:
     post: 1827357268658286768
     id: GVwTuegbgAA8IhI
+    index: 3
     label: On stage
     info: Kanade
     context:
@@ -375,6 +378,7 @@
 - postximage:
     post: 1827357268658286768
     id: GVwTueiacAA5A3z
+    index: 1
     label: On stage
     info: Hika
     context:

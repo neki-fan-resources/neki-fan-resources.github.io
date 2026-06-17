@@ -194,6 +194,7 @@
 - postximage:
     post: 1808509524602724490
     id: GRkd0p8agAEcffW
+    index: 2
     label: Sidewalk board
     context:
     - show:
@@ -205,6 +206,7 @@
 - postximage:
     post: 1808509524602724490
     id: GRkd0p9acAAJY-7
+    index: 1
     label: On stage
     context:
     - show:

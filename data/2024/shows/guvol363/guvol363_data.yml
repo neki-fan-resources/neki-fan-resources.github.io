@@ -235,6 +235,7 @@
 - postximage:
     post: 1833408179499372832
     id: GXGQ23WbsAAyxNO
+    index: 1
     label: sidewalk board
     local-copy: true
     context:
@@ -247,6 +248,7 @@
 - postximage:
     post: 1833508790463041957
     id: GXHuhl0bEAUm3Jj
+    index: 1
     label: On stage
     context:
     - show:

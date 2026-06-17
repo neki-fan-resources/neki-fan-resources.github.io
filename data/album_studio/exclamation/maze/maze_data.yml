@@ -2233,6 +2233,7 @@
 - postximage:
     post: 1815718604295577659
     id: GTK6bxwa4AAeLVB
+    index: 1
     label: MV image
     local-copy: true
     context:
@@ -2243,6 +2244,7 @@
 - postximage:
     post: 1817916835779727656
     id: GTqJuJoaQAAd0H9
+    index: 1
     label: Behind the scenes
     info: Kanade
     context:
@@ -2253,6 +2255,7 @@
 - postximage:
     post: 1821404884945756182
     id: GUbs_-bXoAAglpN
+    index: 1
     label: Behind the scenes
     context:
     - song: maze

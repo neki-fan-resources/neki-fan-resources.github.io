@@ -325,6 +325,7 @@
 - postximage:
     post: 1815619036853731509
     id: GTJcgKtbIAAmY96
+    index: 1
     label: Display
     context:
     - album: exclamation
@@ -334,6 +335,7 @@
 - postximage:
     post: 1816040332221362585
     id: GTPfDOhakAAciwU
+    index: 1
     label: Display
     context:
     - album: exclamation
@@ -343,6 +345,7 @@
 - postximage:
     post: 1816337610073412015
     id: GTTsgAbawAABHbB
+    index: 1
     label: Visiting the store
     info: Cocoro, Hika, Kanade
     context:
@@ -353,6 +356,7 @@
 - postximage:
     post: 1816337610073412015
     id: GTTshaKagAAT2Na
+    index: 2
     label: EP
     info: Kanade, Hika, Cocoro
     context:
@@ -363,6 +367,7 @@
 - postximage:
     post: 1816339842323866000
     id: GTTuRLCboAAiwHm
+    index: 1
     label: Display
     context:
     - album: exclamation
@@ -372,6 +377,7 @@
 - postximage:
     post: 1816361609968992605
     id: GTUDLH4agAAhdzq
+    index: 1
     label: Visiting the store
     info: Kanade, Hika, Natsu, Cocoro
     context:
@@ -382,6 +388,7 @@
 - postximage:
     post: 1816417358904476155
     id: GTU19DibIAAw4Nc
+    index: 1
     label: Visiting the store
     info: Natsu, Hika, Kanade, Cocoro
     context:
@@ -392,6 +399,7 @@
 - postximage:
     post: 1816446992203293034
     id: GTVQdSBbUAAFlDW
+    index: 1
     label: Visiting the store
     context:
     - album: exclamation

@@ -352,6 +352,7 @@
 - postximage:
     post: 1829353768691089610
     id: GWMra3YbIAARNIP
+    index: 1
     label: Flyer
     context:
     - show:
@@ -363,6 +364,7 @@
 - postximage:
     post: 1839512246881558643
     id: GYdCo30bcAEG1TL
+    index: 1
     label: Flyer
     context:
     - show:

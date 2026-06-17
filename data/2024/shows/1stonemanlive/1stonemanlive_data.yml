@@ -616,6 +616,7 @@
 - postximage:
     post: 1814548778395054082
     id: GS6SaeCbMAI7xpQ
+    index: 3
     label: Sidewalk board
     context:
     - show:
@@ -627,6 +628,7 @@
 - postximage:
     post: 1814548778395054082
     id: GS6SaeFbMAMPdm3
+    index: 2
     label: On stage
     context:
     - show:
@@ -638,6 +640,7 @@
 - postximage:
     post: 1814548778395054082
     id: GS6SaeSbgAAkY_U
+    index: 1
     label: On stage
     context:
     - show:
@@ -649,6 +652,7 @@
 - postximage:
     post: 1814848169022530039
     id: GS-iyRYbIAIhCZj
+    index: 1
     label: Backstage
     info: Kanade, Cocoro
     context:
@@ -662,6 +666,7 @@
 - postximage:
     post: 1815020650278637844
     id: GTA_pcCaAAAOAh-
+    index: 2
     label: Drum set
     info: Cocoro
     context:
@@ -674,6 +679,7 @@
 - postximage:
     post: 1815020650278637844
     id: GTA_pcHaUAAaI04
+    index: 1
     label: Drum set
     info: Cocoro
     context:

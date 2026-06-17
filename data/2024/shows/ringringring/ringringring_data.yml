@@ -333,6 +333,7 @@
 - postximage:
     post: 1811718141904585180
     id: GSSEBGlbgAAjIR2
+    index: 2
     label: Series poster
     context:
     - show:
@@ -344,6 +345,7 @@
 - postximage:
     post: 1832614238424301660
     id: GW7Ac3YbEAAYoku
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -356,6 +358,7 @@
 - postximage:
     post: 1832774653900947846
     id: GW9S0LXaYAAvn-w
+    index: 2
     label: Poster
     context:
     - show:
@@ -367,6 +370,7 @@
 - postximage:
     post: 1832774653900947846
     id: GW9S0LYagAEnBpP
+    index: 1
     label: On stage
     context:
     - show:
@@ -378,6 +382,7 @@
 - postximage:
     post: 1832778813283225804
     id: GW9WnF1b0AAwDrP
+    index: 1
     label: Backstage
     info: NEK!, EMANON
     context:
@@ -390,6 +395,7 @@
 - postximage:
     post: 1832792903313453332
     id: GW9jbhubwAA_gk-
+    index: 3
     label: Backstage
     info: NEK!, 2winkle wink
     context:

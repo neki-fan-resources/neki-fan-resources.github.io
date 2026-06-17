@@ -309,6 +309,7 @@
 - postximage:
     post: 1819198572111577421
     id: GT8XIEAb0AAJjSs
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -321,6 +322,7 @@
 - postximage:
     post: 1819377004258775375
     id: GT-5vIybsAAo2Il
+    index: 1
     label: Backstage
     info: Hika, みん
     context:
@@ -333,6 +335,7 @@
 - postximage:
     post: 1819377085699575972
     id: GT-5zRGb0AQljeg
+    index: 2
     label: Posters
     context:
     - show:
@@ -344,6 +347,7 @@
 - postximage:
     post: 1819377085699575972
     id: GT-5zRqWQAA8jiw
+    index: 1
     label: On stage
     context:
     - show:

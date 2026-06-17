@@ -16,16 +16,6 @@
                 - postximage:
                     post: 1826624665139511742
                     image: GVl5cqmbgAMZX8l
-            - multimediasubsection:
-                multimedia:
-                - postximage:
-                    post: 1826859497824158049
-                    image: GVpPBX1bgAQ0f2o
-            - multimediasubsection:
-                multimedia:
-                - postximage:
-                    post: 1826859497824158049
-                    image: GVpPBX4bgAEz8tV
         - basicsection:
             label: At the event
             subsections:
@@ -143,34 +133,10 @@
         year: 2024
         id: girlsgirlsgirls
 
-- postx:
-    id: 1826859497824158049
-    account: LUMiRiSE_oto
-    label: See you again
-    published-date: 2024-08-23
-    text: |-
-      NEKiさんと。。（´ω｀）💙
-      
-      タイミングあわずめんばーかけとりますが☺︎
-      
-      また来週もよろしゅうでつ！
-    translation: |-
-      With NEKi-san... ('ω`)💙
-      
-      The timing was off so a member is missing ☺︎
-      
-      See you again next week!
-    image:
-    - GVpPBX1bgAQ0f2o
-    - GVpPBX4bgAEz8tV
-    part-of:
-      show:
-        year: 2024
-        id: girlsgirlsgirls
-
 - postximage:
     post: 1808470843703664913
     id: GRj6pTubQAACieD
+    index: 1
     label: Poster
     context:
     - show:
@@ -182,6 +148,7 @@
 - postximage:
     post: 1826512086530490829
     id: GVkTDnRbgAMgdNP
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -194,6 +161,7 @@
 - postximage:
     post: 1826512086530490829
     id: GVkTDnuXMAA3Sjv
+    index: 2
     label: tour poster
     context:
     - show:
@@ -206,6 +174,7 @@
 - postximage:
     post: 1826624665139511742
     id: GVl5cqUbgAggXB8
+    index: 2
     label: Sidewalk board
     context:
     - show:
@@ -217,6 +186,7 @@
 - postximage:
     post: 1826624665139511742
     id: GVl5cqmbgAMZX8l
+    index: 1
     label: On stage
     context:
     - show:
@@ -224,30 +194,4 @@
         id: girlsgirlsgirls
     part-of:
       postx: 1826624665139511742
-
-- postximage:
-    post: 1826859497824158049
-    id: GVpPBX1bgAQ0f2o
-    label: Backstage
-    info: おと (LUMiRiSE), Kanade, Natsu, Cocoro, MlZukl (LUMiRiSE)
-    context:
-    - show:
-        year: 2024
-        id: girlsgirlsgirls
-    todo: exact name of band members
-    part-of:
-      postx: 1826859497824158049
-
-- postximage:
-    post: 1826859497824158049
-    id: GVpPBX4bgAEz8tV
-    label: Backstage
-    info: Kanade, おと (LUMiRiSE)
-    context:
-    - show:
-        year: 2024
-        id: girlsgirlsgirls
-    todo: exact name of band members
-    part-of:
-      postx: 1826859497824158049
 

@@ -373,6 +373,7 @@
 - postximage:
     post: 1833792678414463036
     id: GXLwuK6b0AAsCaB
+    index: 1
     label: flyer
     local-copy: true
     context:
@@ -385,6 +386,7 @@
 - postximage:
     post: 1833792919649890740
     id: GXLwLBraIAAKGp_
+    index: 2
     label: Flyer sunday
     context:
     - show:
@@ -396,6 +398,7 @@
 - postximage:
     post: 1836706808997822852
     id: GX1KOAVa0AAF1lj
+    index: 1
     label: Timetable
     context:
     - show:
@@ -407,6 +410,7 @@
 - postximage:
     post: 1845257839994151227
     id: GZusOO1aAAId_cH
+    index: 1
     label: Timetable
     context:
     - show:
@@ -418,6 +422,7 @@
 - postximage:
     post: 1845404922059358388
     id: GZwx_EDaAAIc_iK
+    index: 2
     label: Band
     context:
     - show:
@@ -429,6 +434,7 @@
 - postximage:
     post: 1845404922059358388
     id: GZwx_EFbgAAmjcJ
+    index: 1
     label: Band
     context:
     - show:
@@ -440,6 +446,7 @@
 - postximage:
     post: 1845457121418395899
     id: GZxheApaAAQ6567
+    index: 1
     label: On stage
     context:
     - show:
@@ -451,6 +458,7 @@
 - postximage:
     post: 1845457121418395899
     id: GZxheAtbEAAV9f7
+    index: 2
     label: Venue sign
     context:
     - show:

@@ -325,6 +325,7 @@
 - postximage:
     post: 1812843895589650878
     id: GSiD564bQAA-s2S
+    index: 2
     label: Sidewalk board
     context:
     - show:
@@ -336,6 +337,7 @@
 - postximage:
     post: 1812843895589650878
     id: GSiD565aoAER_oO
+    index: 1
     label: On stage
     context:
     - show:
@@ -347,6 +349,7 @@
 - postximage:
     post: 1812858834458976320
     id: GSiRfMEawAAno3m
+    index: 2
     label: All bands
     context:
     - show:
@@ -358,6 +361,7 @@
 - postximage:
     post: 1813062901760205295
     id: GSlLGQhbIAAIqk4
+    index: 1
     label: Backstage
     info: NEK!, AYA
     context:

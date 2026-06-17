@@ -334,6 +334,7 @@
 - postximage:
     post: 1821128826476183935
     id: GUXyd9yXwAEDPvK
+    index: 1
     label: Timetable
     context:
     - show:
@@ -345,6 +346,7 @@
 - postximage:
     post: 1828377003390906504
     id: GV-zMCPaoAEXFgz
+    index: 1
     label: On stage
     context:
     - show:
@@ -356,6 +358,7 @@
 - postximage:
     post: 1828377003390906504
     id: GV-zMCRaoAAYcqr
+    index: 2
     label: On stage
     context:
     - show:
@@ -367,6 +370,7 @@
 - postximage:
     post: 1828377003390906504
     id: GV-zMCuWcAAtYbY
+    index: 3
     label: Sidewalk board
     context:
     - show:

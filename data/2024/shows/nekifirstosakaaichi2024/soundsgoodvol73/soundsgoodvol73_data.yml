@@ -202,6 +202,7 @@
 - postximage:
     post: 1826867524035653715
     id: GVpWTLoXMAAyp1r
+    index: 1
     label: flyer
     local-copy: true
     context:
@@ -214,6 +215,7 @@
 - postximage:
     post: 1826990576136540351
     id: GVrGPOpawAAkdj6
+    index: 1
     label: On stage
     context:
     - show:
@@ -225,6 +227,7 @@
 - postximage:
     post: 1826990576136540351
     id: GVrGPOpbAAAhx3u
+    index: 2
     label: Sidewalk board
     context:
     - show:

@@ -10,11 +10,22 @@
         - basicsection:
             subsections:
             - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DZo4J2EGsty
+                    video: 5
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
                     post: 2063188376845680832
                     image: HKHq4ymbIAAg8_t
+                - postinstagramimage:
+                    post: DZo4J2EGsty
+                    image: 3
+                - postinstagramimage:
+                    post: DZo4J2EGsty
+                    image: 2
                 - postximage:
                     post: 2063188376845680832
                     image: HKHq4yrbUAAIegx
@@ -39,6 +50,9 @@
                 - postximage:
                     post: 2063201209977278548
                     image: HKH2jlXbMAAp2f2
+                - postinstagramimage:
+                    post: DZo4J2EGsty
+                    image: 1
                 - postinstagramimage:
                     post: DZPiV-tkivE
                     image: 5
@@ -122,6 +136,78 @@
         post: 2063188376845680832
         image: HKHq4ymbIAAg8_t
 
+- postinstagram:
+    id: DZo4J2EGsty
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-06-16
+    text: |-
+      2026.06.06
+      ⁡
+      「SAKAE SP-RING 2026」ありがとうございました！！
+      こちらも投稿遅くなりすみません🥲
+      ⁡
+      念願のサカスプッッッ！！
+      今年初めて出演できてめっちゃ嬉しかったです！
+      名古屋は対バンとワンマンで行ったことはあるけど名古屋で開催してるサーキットには出たことがなかったので、お祭り気分で楽しかったです🎶
+      ⁡
+      短い時間でもめちゃくちゃ汗だくになるくらいステージもフロアも熱気がすごくてNEK!らしいライブができました！
+      後ろの方まで盛り上がってくれているのが見えてとても嬉しかったです！本当にありがとう🤝🏻🌟
+      
+      この日のsetlogは公式で載せてなかったから自分のだけになるけど想い出に載せときます〜〜
+      帰りのSAで食べた淡路島バーガーがデカすぎて、出来上がった瞬間かなでんと爆笑しました🍔
+      店員さんから受け取ったときの重み、忘れません。。
+      (あれは食べ物の重さじゃなかった)
+      でも野菜たっぷりだから意外とさっぱりしててめちゃくちゃ美味しかったので、もし皆さんも見つけたら食べてみてね🤤
+      
+      来年以降もまた出演できるように、そして今回よりも大きな会場で戻って来れるように頑張ります🔥
+      ⁡今年の夏は東名阪ツアーもあるのでぜひまた一緒に遊びましょう！
+      
+      Photo by @shohnophoto 
+      2日間素敵な写真をありがとうございました！！
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.06.06
+      ⁡
+      Thank you so much for "SAKAE SP-RING 2026"!!
+      Sorry for the late post for this one too🥲
+      ⁡
+      The long-awaited Saka-Spu!!!
+      I was so incredibly happy we got to perform for the first time this year!
+      We've been to Nagoya for split shows and a one-man live before, but we've never played a circuit festival held in Nagoya, so it was tons of fun with a real festival vibe🎶
+      ⁡
+      Even though it was a short set, both the stage and the floor were so hot that we were completely drenched in sweat, and we were able to pull off a totally NEK!-style live show!
+      I was so happy to see everyone pumping their fists all the way to the back! Thank you so much🤝🏻🌟
+      
+      The setlog for this day wasn't posted officially, so this is just my own personal one, but I'll post it here for the memories~~
+      The Awajishima Burger I ate at the service area on the way back was so huge that Kanaden and I burst out laughing the moment it was ready🍔
+      I'll never forget how heavy it felt when I took it from the clerk...
+      (That was not the weight of food)
+      But since it had tons of vegetables, it was surprisingly refreshing and incredibly delicious, so if you all ever spot one, you should definitely try it🤤
+      
+      We'll do our best so we can perform again next year and beyond, and return to an even bigger venue next time🔥
+      We have our Tokyo-Nagoya-Osaka tour this summer, so please come out and hang with us again!
+      
+      Photo by @shohnophoto 
+      Thank you so much for the wonderful photos over the 2 days!!
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    video:
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: sakaespring
+    reference:
+    - postximage:
+        post: 2063199953418351041
+        image: HKH1a_8aoAA5Yab
+
 - postinstagramimage:
     post: DZPiV-tkivE
     id: 3
@@ -157,6 +243,52 @@
         id: sakaespring
     part-of:
       postinstagram: DZPiV-tkivE
+
+- postinstagramimage:
+    post: DZo4J2EGsty
+    id: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postinstagram: DZo4J2EGsty
+
+- postinstagramimage:
+    post: DZo4J2EGsty
+    id: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postinstagram: DZo4J2EGsty
+
+- postinstagramimage:
+    post: DZo4J2EGsty
+    id: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postinstagram: DZo4J2EGsty
+
+- postinstagramvideo:
+    post: DZo4J2EGsty
+    id: 5
+    label: Setlog
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postinstagram: DZo4J2EGsty
 
 - postx:
     id: 2042437632844841425

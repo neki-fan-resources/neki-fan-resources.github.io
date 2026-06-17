@@ -93,12 +93,27 @@
             subsections:
             - multimediasubsection:
                 multimedia:
-                - postinstagramvideo:
-                    post: DZgr7VlHfBs
-                    video: 3
+                - youtubeshort: _UJDoezA41U
+                - youtubeshort: '-Tq_0t1RZKQ'
                 - postinstagramvideo:
                     post: DZgr7VlHfBs
                     video: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DZr6xGkmq-N
+                    video: 3
+                - postinstagramvideo:
+                    post: DZgr7VlHfBs
+                    video: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2066788217165361169
+                    image: HK607R_bYAAHPd2
+                - postximage:
+                    post: 2066788217165361169
+                    image: HK607R6bMAAjceJ
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -125,6 +140,9 @@
                     image: HKnAGupbQAAnOKp
             - multimediasubsection:
                 multimedia:
+                - postximage:
+                    post: 2067216211247808995
+                    image: HLA6L5la0AALwXH
                 - postximage:
                     post: 2065387584067657794
                     image: HKm7DljakAACesq
@@ -527,6 +545,39 @@
     part-of:
       song: flick
 
+- postinstagram:
+    id: DZr6xGkmq-N
+    account: cocoro_drum
+    label: 50k views
+    published-date: 2026-06-17
+    text: |-
+      🛋🩵✨️
+      ⁡
+      "FLiCK" Music Video 5万回再生ありがとう！
+      記念にオフショットとアイコンの動画版載せときます笑
+      こんなお部屋に住みたいもんですな〜〜〜
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      🛋🩵✨️
+      ⁡
+      Thank you for 50,000 views on the "FLiCK" Music Video!
+      To celebrate, here's a behind-the-scenes shot and the video version of my profile picture lol
+      I'd love to live in a room like this~~~
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    video:
+    - 3
+    part-of:
+      song: flick
+    reference:
+    - postximage:
+        post: 2067216211247808995
+        image: HLA6L5la0AALwXH
+    - postximage:
+        post: 2065387584067657794
+        image: HKm7DldbMAAGyNX
+
 - postinstagramimage:
     post: DZe40o7mUI4
     id: 1
@@ -714,6 +765,16 @@
     - song: flick
     part-of:
       postinstagram: DZgr7VlHfBs
+
+- postinstagramvideo:
+    post: DZr6xGkmq-N
+    id: 3
+    label: Behind the scenes
+    info: Cocoro
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZr6xGkmq-N
 
 - postx:
     id: 2064648780197347398
@@ -967,6 +1028,35 @@
         post: DZbuhMOGvae
         image: 1
 
+- postx:
+    id: 2066788217165361169
+    account: 46_hikaa
+    label: Picture-perfect
+    published-date: 2026-06-16
+    text: |-
+      ねぇ、ちょっと待って！映えてんじゃん！
+    translation: |-
+      Hey, wait a second! This looks totally picture-perfect!
+    image:
+    - HK607R6bMAAjceJ
+    - HK607R_bYAAHPd2
+    part-of:
+      song: flick
+
+- postx:
+    id: 2067216211247808995
+    account: coco_102
+    label: 50k views
+    published-date: 2026-06-17
+    text: |-
+      "FLiCK" 5万回再生ありがとう🥁🩵
+    translation: |-
+      Thank you for 50,000 views on "FLiCK"🥁🩵
+    image:
+    - HLA6L5la0AALwXH
+    part-of:
+      song: flick
+
 - postximage:
     post: 2064648886728483169
     id: HKcX7azaUAAKYpA
@@ -1075,6 +1165,37 @@
     - song: flick
     part-of:
       postx: 2065398881110933590
+
+- postximage:
+    post: 2066788217165361169
+    id: HK607R6bMAAjceJ
+    index: 2
+    label: Behind the scenes
+    context:
+    - song: flick
+    part-of:
+      postx: 2066788217165361169
+
+- postximage:
+    post: 2066788217165361169
+    id: HK607R_bYAAHPd2
+    index: 1
+    label: Behind the scenes
+    context:
+    - song: flick
+    part-of:
+      postx: 2066788217165361169
+
+- postximage:
+    post: 2067216211247808995
+    id: HLA6L5la0AALwXH
+    index: 1
+    label: Behind the scenes
+    info: Cocoro
+    context:
+    - song: flick
+    part-of:
+      postx: 2067216211247808995
 
 - postxvideo:
     post: 2064648780197347398
@@ -1268,6 +1389,15 @@
         image: Gzl99vsacAA6bCZ
 
 - youtubeshort:
+    id: '-Tq_0t1RZKQ'
+    label: Behind the scenes
+    published-date: 2026-06-16
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
     id: 20YAlxMxg0I
     label: Music Video
     published-date: 2026-06-14
@@ -1280,6 +1410,15 @@
     id: VHxF_p6WqXg
     label: Music Video
     published-date: 2026-06-13
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: _UJDoezA41U
+    label: Off shot
+    published-date: 2026-06-17
     context:
     - song: flick
     part-of:

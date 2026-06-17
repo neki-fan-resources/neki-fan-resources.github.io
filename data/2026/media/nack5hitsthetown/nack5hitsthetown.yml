@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: nack5hitsthetown
+  cover-image:
+    webimage:
+      domain: nack5.co.jp
+      page: hitsthetown
+      id: logo
+  radio: NACK5
+  show: HITS! THE TOWN
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-06-20
+  host: バカボン鬼塚 (Bakabon Onizuka), 山口五和 (Yamaguchi Gowa)
+  program: 'https://www.nack5.co.jp/program/hitsthetown/'
+  part-of:
+    group:
+      id: media
+      group: 2026

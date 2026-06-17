@@ -1,3 +1,24 @@
+- display:
+    media:
+      year: 2026
+      id: yokohamamarinefmhelloeveningradio
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2067192379845873695
+                    image: HLAkgtAbMAERqlv
+    part-of:
+      media:
+        year: 2026
+        id: yokohamamarinefmhelloeveningradio
+
 - postx:
     id: 2062118530053701899
     account: TRiDENT_japan
@@ -60,6 +81,66 @@
         year: 2026
         id: yokohamamarinefmhelloeveningradio
 
+- postx:
+    id: 2067192379845873695
+    account: TRiDENT_japan
+    label: Thank you
+    published-date: 2026-06-17
+    text: |-
+      ＼＼＼Thanks／／／
+      
+      横浜マリンFM
+      「まいど！イブニングRADIO」
+      
+      NEK! 
+      @nekiband_jp
+       から
+      Hikaさん 
+      @46_hikaa
+      
+      Natsuさん 
+      @natsu08_guitar
+       
+      をお迎えいたしました✨
+      
+      次回は7月1日(水)となります📻
+      
+      次回のお題
+      【みんなの無駄な特技教えてや〜😎】
+      
+      #まいイブ
+      #TRiDENTJPa
+    translation: |-
+      ＼＼＼Thanks／／／
+      
+      Yokohama Marine FM
+      "Maido! Evening RADIO"
+      
+      From NEK! 
+      @nekiband_jp
+       
+      Hika-san 
+      @46_hikaa
+      
+      Natsu-san 
+      @natsu08_guitar
+       
+      were welcomed as guests ✨
+      
+      The next broadcast will be on Wednesday, July 1 📻
+      
+      Next Topic
+      【Tell me everyone's useless special talents~ 😎】
+      
+      #まいイブ
+      #TRiDENTJP
+    image:
+    - HLAkgtAbMAERqlv
+    part-of:
+      media:
+        year: 2026
+        id: yokohamamarinefmhelloeveningradio
+
 - postximage:
     post: 2062118530053701899
     id: HJ4d3zsasAASlSb
@@ -71,6 +152,19 @@
         id: yokohamamarinefmhelloeveningradio
     part-of:
       postx: 2062118530053701899
+
+- postximage:
+    post: 2067192379845873695
+    id: HLAkgtAbMAERqlv
+    index: 1
+    label: At the studio
+    info: SERINA (TRiDENT), Natsu, Hika, ASAKA (TRiDENT)
+    context:
+    - media:
+        year: 2026
+        id: yokohamamarinefmhelloeveningradio
+    part-of:
+      postx: 2067192379845873695
 
 - update:
     media:

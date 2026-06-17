@@ -1,0 +1,81 @@
+- postx:
+    id: 2067200588241371561
+    account: TRiDENT_japan
+    label: Announcement
+    published-date: 2026-06-17
+    text: |-
+      ◤◢◤◢◤ 情報解禁 ◢◤◢◤◢
+      
+      🌐2026年10月3日（土）
+      代官山UNIT
+      『TRiDENT×NEK! pre. 「KYŌZON」 supported by Girl's UP!!!』
+      
+      ／
+      NEK!との対バンライブ
+      開催決定❤️‍🔥
+      ＼
+      
+      🎫FCオフィシャル先⾏(抽選)受付
+      6月19日(金)21:00〜6月28日(日) 23:59
+      
+      ▼FC入会はこちら
+      http://trident-japan.com/feature/entry
+      
+      @nekiband_jp
+      
+      
+      #TRiDENTJP
+    translation: |-
+      ◤◢◤◢◤ INFO RELEASE ◢◤◢◤◢
+      
+      🌐 Saturday, October 3, 2026
+      Daikanyama UNIT
+      『TRiDENT×NEK! pre. "KYŌZON" supported by Girl's UP!!!』
+      
+      ／
+      Co-headlining live show with NEK!
+      Confirmed ❤️‍🔥
+      ＼
+      
+      🎫 FC Official Advance Tickets (Lottery) Application
+      June 19 (Fri) 21:00 — June 28 (Sun) 23:59
+      
+      ▼ Join FC here
+      http://trident-japan.com/feature/entry
+      
+      @nekiband_jp
+      
+      
+      #TRiDENTJP
+    image:
+    - HLAJ6KwaAAAn0CT
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- postximage:
+    post: 2067200588241371561
+    id: HLAJ6KwaAAAn0CT
+    index: 1
+    label: Poster
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2067200588241371561
+
+- update:
+    show:
+      year: 2026
+      id: tridentnekikyoozon
+    date: 2026-06-17
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+

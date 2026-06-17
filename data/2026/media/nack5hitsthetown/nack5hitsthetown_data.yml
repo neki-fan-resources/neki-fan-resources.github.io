@@ -1,0 +1,86 @@
+- postx:
+    id: 2067096463705010337
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-06-17
+    text: |-
+      🔈ラジオ出演🔈
+      
+      6/20(土)12:55~放送
+      FM NACK5「HITS! THE TOWN」
+      @hitsthetown795
+      
+      
+      VoGt. Hika & Gt. Natsuが16時台に生出演決定📻
+      
+      ぜひお聴きください！
+      
+      ▼番組HP
+      https://nack5.co.jp/program/hitsthetown/
+      
+      ▼radio
+      https://radiko.jp/share/?sid=NACK5&t=20260620161500
+      
+      #NEKI #ヒッツ795 #NACK5
+    translation: |-
+      🔈 Radio Appearance 🔈
+      
+      Broadcasting on 6/20 (Sat) 12:55~
+      FM NACK5 "HITS! THE TOWN"
+      @hitsthetown795
+      
+      
+      VoGt. Hika & Gt. Natsu are confirmed to appear live during the 16:00 hour 📻
+      
+      Please be sure to listen!
+      
+      ▼ Program HP
+      https://nack5.co.jp/program/hitsthetown/
+      
+      ▼ radiko
+      https://radiko.jp/share/?sid=NACK5&t=20260620161500
+      
+      #NEKI #ヒッツ795 #NACK5
+    part-of:
+      media:
+        year: 2026
+        id: nack5hitsthetown
+
+- update:
+    media:
+      year: 2026
+      id: nack5hitsthetown
+    date: 2026-06-17
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: nack5hitsthetown
+
+- webimage:
+    domain: nack5.co.jp
+    page: hitsthetown
+    id: logo
+    label: Logo
+    published-date: 2026-06-17
+    url: 'https://www.nack5.co.jp/program/hitsthetown/cover.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: nack5.co.jp
+        id: hitsthetown
+
+- webpage:
+    domain: nack5.co.jp
+    id: hitsthetown
+    label: Show page
+    published-date: 2026-06-17
+    url: 'https://www.nack5.co.jp/program/hitsthetown/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: nack5hitsthetown
+

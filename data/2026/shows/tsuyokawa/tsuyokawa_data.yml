@@ -21,6 +21,12 @@
             - multimediasubsection:
                 label: Images
                 multimedia:
+                - postinstagramimage:
+                    post: DZoZ1oUmumf
+                    image: 2
+                - postinstagramimage:
+                    post: DZoZ1oUmumf
+                    image: 4
                 - postximage:
                     post: 2062898813346709564
                     image: HKDjiWWbQAAZSI2
@@ -29,6 +35,9 @@
                 - postximage:
                     post: 2062936991235551359
                     image: HKEGQc_bsAITH6e
+                - postinstagramimage:
+                    post: DZoZ1oUmumf
+                    image: 3
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -44,6 +53,9 @@
                     image: HKDjiWVaIAAR3-x
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DZoZ1oUmumf
+                    image: 6
                 - postximage:
                     post: 2063064177376370755
                     image: HKF57UqbgAEatYK
@@ -78,6 +90,130 @@
       show:
         year: 2026
         id: tsuyokawa
+
+- postinstagram:
+    id: DZoZ1oUmumf
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-06-16
+    text: |-
+      2026.06.05
+      ⁡
+      「TSUYOKAWA」w/セブンス・ベガ
+      ⁡
+      京都MOJOありがとうございました🌞
+      少しバタバタしてて投稿遅くなりました、、！
+      
+      セブンスと初めてのツーマンライブ！
+      実は対バン自体は今回が初めてではなくて、2年前に渋谷で一度対バンしたことがあり、そのときは挨拶程度でしっかりお話はできなかったんだけど、2年のときを経てようやくバンドぐるみで仲良くなれて嬉しい気持ちでいっぱいです！
+      ⁡
+      マイマイちゃんは今年のアタマにドラマー会でたまたま会って、ドラムのことやお笑いの話をしてたら自然と仲良くなりました✌🏻
+      仲良くなるまでにあまり時間がかからなかった、私にとっては結構稀な例です(全てはマイマイちゃんの品の良さと性格の良さのおかげ)
+      ふたりで飲みに行ったり動物園行ったり、プライベートでいろいろ語り合って、マイマイちゃんの考え方とか言葉遣いがすごく好きで本当に出会えてよかったと思っています！
+      
+      これからも良い刺激を与え合おう！そして遊びにも行こう🕺🏻
+      ⁡
+      セブンスとNEK!はジャンルは違えど同世代ガールズバンドとしての親和性はすごく高くて、メンバーの個性もどことなく似てる感じがするから今回のツーマンでより相性の良さを実感しました！また東京でもツーマンできたらいいな〜〜
+      ⁡
+      お互いのファンのみんなが両方のライブを楽しんでくれてて嬉しかった！愛溢れる空間を一緒に作ってくれて本当にありがとうございました！
+      
+      京都MOJOさんもとても素敵な会場でした❤️
+      会場のあちこちにいるMOJOくんが気になってしゃーなかったです笑
+      あいつ成人にもなるし赤ちゃんにもなるし犬にもなるし扉とも一体化してた、、すごく気になる、、また会いに行こう。
+      ⁡
+      photo by @shohnophoto 
+      
+      #neki #セブンスベガ #girlsband #drum #femaledrummer
+    translation: |-
+      2026.06.05
+      ⁡
+      "TSUYOKAWA" w/ 7th Vega
+      ⁡
+      Thank you so much Kyoto MOJO🌞
+      Things have been a bit hectic, so sorry for the late post...!
+      
+      Our first two-man live with 7th Vega!
+      Actually, this wasn't our very first time sharing a stage with them; we did a split show once in Shibuya two years ago. Back then, we only exchanged brief greetings and couldn't really chat properly, but I'm so full of happiness that after two years, our whole bands have finally become close friends!
+      ⁡
+      I happened to meet Mai-mai-chan at a drummer meet-up at the beginning of this year, and we naturally hit it off while talking about drums and comedy✌🏻
+      It didn't take long at all for us to become close, which is a pretty rare case for me (it's entirely thanks to Mai-mai-chan's elegance and wonderful personality)
+      We've gone out for drinks, visited the zoo, and talked about so many things in our private time. I really love her way of thinking and the way she speaks, and I'm truly glad I met her!
+      
+      Let's keep inspiring each other from now on! And let's hang out too🕺🏻
+      ⁡
+      Even though 7th Vega and NEK! are in different genres, our affinity as same-generation girls bands is incredibly high, and it feels like our members' personalities are somehow similar, so this two-man live made me realize even more how compatible we are! I hope we can do another two-man live in Tokyo too~~
+      ⁡
+      I was so happy that both of our fanbases enjoyed both sets! Thank you so much for creating such a space filled with love together!
+      
+      Kyoto MOJO was also a wonderful venue❤️
+      I couldn't help but be completely distracted by MOJO-kun all over the place lol
+      That guy becomes an adult, a baby, a dog, and even fuses with doors... I'm so intrigued... Let's go meet him again.
+      ⁡
+      photo by @shohnophoto 
+      
+      #neki #セブンスベガ #girlsband #drum #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    - 6
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+    reference:
+    - postximage:
+        post: 2062936991235551359
+        image: HKEGQc_bsAITH6e
+    - postximage:
+        post: 2062898813346709564
+        image: HKDjiWVaIAAR3-x
+
+- postinstagramimage:
+    post: DZoZ1oUmumf
+    id: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postinstagram: DZoZ1oUmumf
+
+- postinstagramimage:
+    post: DZoZ1oUmumf
+    id: 3
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postinstagram: DZoZ1oUmumf
+
+- postinstagramimage:
+    post: DZoZ1oUmumf
+    id: 4
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postinstagram: DZoZ1oUmumf
+
+- postinstagramimage:
+    post: DZoZ1oUmumf
+    id: 6
+    label: Backstage
+    info: Mai (7thVega), Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postinstagram: DZoZ1oUmumf
 
 - postx:
     id: 2028062840817664094
@@ -537,7 +673,7 @@
 
 - youtubeshort:
     id: IFMAWaV6GJM
-    label: Trip vlog
+    label: Setlog
     published-date: 2026-06-06
     context:
     - show:

@@ -1234,6 +1234,7 @@
 - postximage:
     post: 1860656200343502968
     id: GdJg8vraoAAn08v
+    index: 1
     label: Cover
     local-copy: true
     context:
@@ -1244,6 +1245,7 @@
 - postximage:
     post: 1868989699446260040
     id: Ge_5YQ1bwAMEUka
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -1257,6 +1259,7 @@
 - postximage:
     post: 1899396797149356382
     id: GlwDTXHasAAp_Y4
+    index: 1
     label: 30k views
     part-of:
       postx: 1899396797149356382
@@ -1264,6 +1267,7 @@
 - postximage:
     post: 1899432271826112969
     id: GlwjlGiagAA09cH
+    index: 1
     label: On set
     info: Cocoro
     part-of:
@@ -1272,6 +1276,7 @@
 - postximage:
     post: 1899803191417676287
     id: Gl107ojXEAAmULi
+    index: 1
     label: Behind-the-scenes
     part-of:
       postx: 1899803191417676287
@@ -1279,6 +1284,7 @@
 - postximage:
     post: 1902190826362659121
     id: GmXwd3WbQAAqOD8
+    index: 4
     label: Behind-the-scenes
     part-of:
       postx: 1902190826362659121
@@ -1286,6 +1292,7 @@
 - postximage:
     post: 1902190826362659121
     id: GmXwd3XaUAA5lqh
+    index: 1
     label: Behind-the-scenes
     part-of:
       postx: 1902190826362659121
@@ -1293,6 +1300,7 @@
 - postximage:
     post: 1902190826362659121
     id: GmXwd3Ya8AENknq
+    index: 3
     label: Editing
     part-of:
       postx: 1902190826362659121
@@ -1300,6 +1308,7 @@
 - postximage:
     post: 1902190826362659121
     id: GmXwd3cb0AATojm
+    index: 2
     label: Behind-the-scenes
     part-of:
       postx: 1902190826362659121

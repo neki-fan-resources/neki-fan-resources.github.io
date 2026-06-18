@@ -1925,6 +1925,7 @@
 - postximage:
     post: 1891353098263622008
     id: Gj9vnfNagAA-TIe
+    index: 1
     label: O-west ad
     context:
     - show:
@@ -1936,6 +1937,7 @@
 - postximage:
     post: 1899793009899892982
     id: Gl1rpgOagAAhcVg
+    index: 1
     label: Rehearsal
     info: Kanade
     context:
@@ -1948,6 +1950,7 @@
 - postximage:
     post: 1899795479229317149
     id: Gl1t6KGXIAA2iwp
+    index: 1
     label: Rehearsal
     context:
     - show:
@@ -1959,6 +1962,7 @@
 - postximage:
     post: 1899832129422574037
     id: Gl2PQKSbMAARbH8
+    index: 1
     label: EP
     info: Hika
     context:
@@ -1969,6 +1973,7 @@
 - postximage:
     post: 1900919310698377256
     id: GmFsCO0bcAA582o
+    index: 1
     label: Rehearsal
     context:
     - show:
@@ -1980,6 +1985,7 @@
 - postximage:
     post: 1901110542825386260
     id: GmIZ9OSbcAAdCBk
+    index: 1
     label: AAA pass
     info: Kanade
     context:
@@ -1992,6 +1998,7 @@
 - postximage:
     post: 1901126409017536965
     id: GmIoYQibcAEY3-n
+    index: 2
     label: Merch hoodie
     info: Natsu
     context:
@@ -2002,7 +2009,8 @@
 - postximage:
     post: 1901126409017536965
     id: GmIoYQlaQAExmu2
-    label: Merch hoodie
+    index: 1
+    label: Merch t-shirt
     info: Natsu
     context:
     - tour: tricktakingtour
@@ -2012,6 +2020,7 @@
 - postximage:
     post: 1901126409017536965
     id: GmIoYQlbcAAkN5g
+    index: 3
     label: Merch hoodie
     info: Natsu
     context:
@@ -2022,6 +2031,7 @@
 - postximage:
     post: 1901130550716625329
     id: GmIsKGHbcAMY82l
+    index: 1
     label: Spirit puppet
     info: Hika trying to ward off the rain
     context:
@@ -2034,6 +2044,7 @@
 - postximage:
     post: 1901181401925337290
     id: GmJaZ9jb0AER3UP
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -2046,6 +2057,7 @@
 - postximage:
     post: 1901237824059564330
     id: GmKNtB1aEAASeIz
+    index: 1
     label: On stage
     context:
     - show:
@@ -2057,6 +2069,7 @@
 - postximage:
     post: 1901237824059564330
     id: GmKNtB7a4AAf8JX
+    index: 2
     label: On stage
     context:
     - show:
@@ -2068,6 +2081,7 @@
 - postximage:
     post: 1901237824059564330
     id: GmKNtBzbkAAxecj
+    index: 3
     label: On stage
     context:
     - show:
@@ -2079,6 +2093,7 @@
 - postximage:
     post: 1901243685569962210
     id: GmKTBdhacAAdePn
+    index: 1
     label: Checking feedback
     context:
     - show:
@@ -2090,6 +2105,7 @@
 - postximage:
     post: 1901305153342615668
     id: GmLK9HzbkAAIsse
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -2102,6 +2118,7 @@
 - postximage:
     post: 1901449578177765487
     id: GmNOOzfbEAA3Ocq
+    index: 2
     label: On stage
     context:
     - show:
@@ -2113,6 +2130,7 @@
 - postximage:
     post: 1901449578177765487
     id: GmNOQ-qacAAAPmN
+    index: 4
     label: On stage
     info: Hika
     context:
@@ -2125,6 +2143,7 @@
 - postximage:
     post: 1901449578177765487
     id: GmNOQD1b0AAeAez
+    index: 3
     label: On stage
     info: acoustic
     context:
@@ -2137,6 +2156,7 @@
 - postximage:
     post: 1901572243064553567
     id: GmO9323boAAPy59
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -2149,6 +2169,7 @@
 - postximage:
     post: 1901583979649872081
     id: GmPIi16agAAa_gp
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -2161,6 +2182,7 @@
 - postximage:
     post: 1901583979649872081
     id: GmPIi16b0AA_TKO
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -2173,6 +2195,7 @@
 - postximage:
     post: 1901583979649872081
     id: GmPIi18agAAt9kr
+    index: 4
     label: Backstage
     context:
     - show:
@@ -2184,6 +2207,7 @@
 - postximage:
     post: 1901590701571203518
     id: GmPOqR-bAAA3LhL
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -2196,6 +2220,7 @@
 - postximage:
     post: 1901828246163116168
     id: GmSmtbracAAUUqq
+    index: 2
     label: On stage
     info: Hika
     context:

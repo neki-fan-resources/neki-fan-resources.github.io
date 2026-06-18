@@ -377,6 +377,7 @@
 - postximage:
     post: 1862471067115430271
     id: GdjTje-WMAA_rfZ
+    index: 1
     label: Poster
     context:
     - show:
@@ -388,6 +389,7 @@
 - postximage:
     post: 1883065171922637290
     id: GiH9iMsaQAAasNt
+    index: 2
     label: Timetable
     context:
     - show:
@@ -399,6 +401,7 @@
 - postximage:
     post: 1883065171922637290
     id: GiH9iMsaUAAUAmv
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -411,6 +414,7 @@
 - postximage:
     post: 1883339432222429674
     id: GiL2Cz_boAAXVu4
+    index: 1
     label: Sidewalk board
     context:
     - show:
@@ -422,6 +426,7 @@
 - postximage:
     post: 1883412170689679481
     id: GiM5YBjaAAALbCy
+    index: 2
     label: On stage
     context:
     - show:
@@ -433,6 +438,7 @@
 - postximage:
     post: 1883412170689679481
     id: GiM5YBlbIAAzYD9
+    index: 1
     label: Backstage
     context:
     - show:
@@ -444,6 +450,7 @@
 - postximage:
     post: 1883474280253665528
     id: GiNx3d2b0AAUFy7
+    index: 1
     label: On stage
     info: Kanade
     context:

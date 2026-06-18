@@ -346,6 +346,7 @@
 - postximage:
     post: 1893908187822113243
     id: GkiDdFMbsAAu1Ul
+    index: 1
     label: Rehearsal
     info: band selfie
     context:
@@ -356,6 +357,7 @@
 - postximage:
     post: 1897543126019137799
     id: GlVs5tkb0AAUj3g
+    index: 1
     label: Poster sold out
     context:
     - tour: tricktakingtour
@@ -365,6 +367,7 @@
 - postximage:
     post: 1897958581796061417
     id: GlbnP7kbwAMPMZP
+    index: 1
     label: Rehearsal
     info: Drum kit
     context:
@@ -375,6 +378,7 @@
 - postximage:
     post: 1897964358308970702
     id: GlbshfHbAAAC_v-
+    index: 1
     label: Rehearsal
     info: Hika's acoustic guitar
     context:
@@ -385,6 +389,7 @@
 - postximage:
     post: 1897978402562621687
     id: Glb5S7-aUAAUPi1
+    index: 1
     label: Rehearsal
     info: Natsu, Cocoro
     context:

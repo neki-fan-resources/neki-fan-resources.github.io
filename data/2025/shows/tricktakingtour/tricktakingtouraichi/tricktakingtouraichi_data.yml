@@ -206,6 +206,7 @@
 - postximage:
     post: 1898709692844826892
     id: GlmSZN7akAAXKx2
+    index: 1
     label: On stage
     context:
     - show:
@@ -217,6 +218,7 @@
 - postximage:
     post: 1898709692844826892
     id: GlmSZN8acAALMPB
+    index: 2
     label: On stage
     context:
     - show:
@@ -228,6 +230,7 @@
 - postximage:
     post: 1898709692844826892
     id: GlmSZN9asAAYgoM
+    index: 3
     label: On stage
     context:
     - show:
@@ -239,6 +242,7 @@
 - postximage:
     post: 1899104358958342641
     id: Glr5U1MXcAEIcgx
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -251,6 +255,7 @@
 - postximage:
     post: 1899104358958342641
     id: Glr5U1NXgAAXye0
+    index: 2
     label: Drum set
     context:
     - show:

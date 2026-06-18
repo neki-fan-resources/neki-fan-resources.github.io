@@ -63,6 +63,7 @@
 - postximage:
     post: 1888173899994837474
     id: GjQkJQKaYAAKJAU
+    index: 1
     label: Band
     context:
     - show:
@@ -74,6 +75,7 @@
 - postximage:
     post: 1888877660820156712
     id: GjakKSubEAA9kmX
+    index: 1
     label: The band
     info: rehearsal room
     context:

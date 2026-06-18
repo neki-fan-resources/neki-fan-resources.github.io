@@ -712,6 +712,7 @@
 - postximage:
     post: 1851932879170752613
     id: GbM3MSXakAgJdbk
+    index: 1
     label: Poster NEK!
     context:
     - show:
@@ -723,6 +724,7 @@
 - postximage:
     post: 1851932879170752613
     id: GbM3RQHasAAkpyS
+    index: 2
     label: Badge NEK!
     context:
     - show:
@@ -734,6 +736,7 @@
 - postximage:
     post: 1851932879170752613
     id: GbM3V_gbsAAOSAH
+    index: 3
     label: Poster
     local-copy: true
     context:
@@ -746,6 +749,7 @@
 - postximage:
     post: 1851932879170752613
     id: GbM3YFiakAE0iM2
+    index: 4
     label: Timetable
     context:
     - show:
@@ -757,6 +761,7 @@
 - postximage:
     post: 1853383941006258517
     id: GbhRBwjbwAAfESI
+    index: 1
     label: Poster MOSAiC
     context:
     - show:
@@ -768,6 +773,7 @@
 - postximage:
     post: 1861718358452056477
     id: GdYVZyTbAAAfA8X
+    index: 1
     label: Flyer NEK!
     context:
     - show:
@@ -779,6 +785,7 @@
 - postximage:
     post: 1862783388379427135
     id: Gdnvm7fW0AAPIlZ
+    index: 2
     label: Signed card
     context:
     - show:
@@ -790,6 +797,7 @@
 - postximage:
     post: 1862783388379427135
     id: Gdnvm7pWoAAfx3P
+    index: 1
     label: On stage
     context:
     - show:

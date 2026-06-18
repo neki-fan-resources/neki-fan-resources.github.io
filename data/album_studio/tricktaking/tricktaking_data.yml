@@ -1565,6 +1565,7 @@
 - postximage:
     post: 1873309518450548860
     id: Gf9DBuxb0AAbeCQ
+    index: 1
     label: Artist Photo
     part-of:
       postx: 1873309518450548860
@@ -1572,6 +1573,7 @@
 - postximage:
     post: 1873309528680501738
     id: Gf9DhGxa4AA1ZA-
+    index: 2
     label: Lottery bonus
     context:
     - album: tricktaking
@@ -1581,6 +1583,7 @@
 - postximage:
     post: 1873309528680501738
     id: Gf9DhGxboAEg8DV
+    index: 1
     label: Bonus
     context:
     - album: tricktaking
@@ -1590,6 +1593,7 @@
 - postximage:
     post: 1883804554007093275
     id: GiSd5qfa4AAG0W8
+    index: 1
     label: Tower Records bonus
     context:
     - album: tricktaking
@@ -1599,6 +1603,7 @@
 - postximage:
     post: 1895283964631490896
     id: Gk1ms5RX0AAjgiJ
+    index: 2
     label: Tarot cards
     info: 4 members, back
     context:
@@ -1609,6 +1614,7 @@
 - postximage:
     post: 1895283964631490896
     id: Gk1ms5WXwAAIEdG
+    index: 1
     label: Tarot cards
     info: Natsu, Cocoro, Kanade, Hika, 4 members
     context:
@@ -1619,6 +1625,7 @@
 - postximage:
     post: 1896770794166120627
     id: GlKu-kJbcAAm0VB
+    index: 1
     label: Holding the EP
     context:
     - album: tricktaking
@@ -1628,6 +1635,7 @@
 - postximage:
     post: 1896782067641553174
     id: GlK5NhsbYAARAwb
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1637,6 +1645,7 @@
 - postximage:
     post: 1896796230828884126
     id: GlLGGr9XMAA1RRY
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1646,6 +1655,7 @@
 - postximage:
     post: 1896819909197459557
     id: GlLbmm-bUAAnA2R
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1655,6 +1665,7 @@
 - postximage:
     post: 1896821011162771824
     id: GlLcaJOagAA5_Jf
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1664,6 +1675,7 @@
 - postximage:
     post: 1896830414809133381
     id: GlLlNCjaUAAsQWl
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1673,6 +1685,7 @@
 - postximage:
     post: 1896833531986506129
     id: GlLmjPMXEAEv9aY
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1682,6 +1695,7 @@
 - postximage:
     post: 1896837728584810984
     id: GlLr2x-b0AExYK-
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1691,6 +1705,7 @@
 - postximage:
     post: 1896843721062387939
     id: GlLxNG4akAAOivA
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1700,6 +1715,7 @@
 - postximage:
     post: 1896843721062387939
     id: GlLxNQCbYAA3_Oi
+    index: 2
     label: Pictures
     context:
     - album: tricktaking
@@ -1709,6 +1725,7 @@
 - postximage:
     post: 1896850650841112584
     id: GlL3nNnbUAECem2
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1718,6 +1735,7 @@
 - postximage:
     post: 1896865329403527668
     id: GlME02LWcAAausl
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1727,6 +1745,7 @@
 - postximage:
     post: 1896866056133902366
     id: GlMC4e8akAENrHY
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1736,6 +1755,7 @@
 - postximage:
     post: 1896867556235120906
     id: GlMG_GvbwAAH6HO
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1745,6 +1765,7 @@
 - postximage:
     post: 1896874511615820030
     id: GlMLFLdasAAWqy6
+    index: 1
     label: Display
     context:
     - album: tricktaking
@@ -1754,6 +1775,7 @@
 - postximage:
     post: 1897110582689718517
     id: GlPkA_VXgAE6O3a
+    index: 1
     label: T-shirt and bonus
     context:
     - album: tricktaking
@@ -1763,6 +1785,7 @@
 - postximage:
     post: 1897498888921342444
     id: GlVFBh7a4AQgG9E
+    index: 2
     label: MV image
     info: Hika
     local-copy: true
@@ -1774,6 +1797,7 @@
 - postximage:
     post: 1897572933943296231
     id: GlWFGcRaAAAg0IL
+    index: 1
     label: Giveaway
     context:
     - album: tricktaking
@@ -1783,6 +1807,7 @@
 - postximage:
     post: 1897871765369766125
     id: GlaX0SxbwAA8Lbk
+    index: 1
     label: Visiting the store
     info: NEK!
     context:
@@ -1793,6 +1818,7 @@
 - postximage:
     post: 1897871765369766125
     id: GlaX5DybwAQrg0o
+    index: 2
     label: Visiting the store
     info: NEK!
     context:
@@ -1803,6 +1829,7 @@
 - postximage:
     post: 1897878063930917161
     id: GlaYE5qa4AA1VDv
+    index: 1
     label: Visiting the store
     info: NEK!
     context:
@@ -1813,6 +1840,7 @@
 - postximage:
     post: 1897878941203128464
     id: GlaexlhbwAE90vm
+    index: 1
     label: Signed display
     context:
     - album: tricktaking
@@ -1822,6 +1850,7 @@
 - postximage:
     post: 1897912233163997512
     id: Gla9FIIbwAAe4IM
+    index: 1
     label: Visiting the store
     info: NEK!
     context:
@@ -1832,6 +1861,7 @@
 - postximage:
     post: 1897918888396177628
     id: GlbDK14bcAAJXHe
+    index: 3
     label: Signed cards
     context:
     - album: tricktaking
@@ -1841,6 +1871,7 @@
 - postximage:
     post: 1897918888396177628
     id: GlbDK14bwAEXWuG
+    index: 1
     label: Visiting the store
     info: NEK!
     context:
@@ -1851,6 +1882,7 @@
 - postximage:
     post: 1897918888396177628
     id: GlbDK14bwAInDnb
+    index: 2
     label: Visiting the store
     context:
     - album: tricktaking
@@ -1860,6 +1892,7 @@
 - postximage:
     post: 1898213347960795329
     id: GlfO7L2bwAA4N4D
+    index: 1
     label: Visiting the store
     info: NEK!
     context:
@@ -1870,6 +1903,7 @@
 - postximage:
     post: 1898314795859968146
     id: GlgrNhhbEAAIqCr
+    index: 1
     label: Visiting the store
     info: NEK!
     context:
@@ -1880,6 +1914,7 @@
 - postximage:
     post: 1900464641857482943
     id: Gl_OdLPbEAA7QDn
+    index: 1
     label: Display
     context:
     - album: tricktaking

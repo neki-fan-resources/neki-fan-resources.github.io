@@ -1376,6 +1376,7 @@
 - postximage:
     post: 1868274064198090786
     id: Ge1xW0-bUAAtAs1
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -1388,6 +1389,7 @@
 - postximage:
     post: 1868274064198090786
     id: Ge1xW0_a4AARwNj
+    index: 3
     label: On stage
     info: Kanade
     context:
@@ -1400,6 +1402,7 @@
 - postximage:
     post: 1868274064198090786
     id: Ge1xW0_akAA2LFJ
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -1412,6 +1415,7 @@
 - postximage:
     post: 1868274064198090786
     id: Ge1xW1Ab0AAGZt4
+    index: 4
     label: On stage
     info: Cocoro
     context:
@@ -1424,6 +1428,7 @@
 - postximage:
     post: 1872916409728287239
     id: Gf3vi7lawAEJbQF
+    index: 1
     label: Behind the scenes
     context:
     - song: reigengirl
@@ -1433,6 +1438,7 @@
 - postximage:
     post: 1872962594677649515
     id: Gf4ZjHBbwAAzMkS
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -1445,6 +1451,7 @@
 - postximage:
     post: 1873308698447343663
     id: Gf9BKJEawAIGr2R
+    index: 1
     label: On stage
     context:
     - show:
@@ -1456,6 +1463,7 @@
 - postximage:
     post: 1873370892325224528
     id: Gf-M5a0aAAADTtd
+    index: 1
     label: T-shirts
     context:
     - show:
@@ -1467,6 +1475,7 @@
 - postximage:
     post: 1873932155568742631
     id: GgGLVT9bYAAZxmJ
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -1479,6 +1488,7 @@
 - postximage:
     post: 1877252477071872148
     id: Gg1XJ0LaYAAjfJx
+    index: 2
     label: On stage
     info: Cocoro, cajón
     context:
@@ -1491,6 +1501,7 @@
 - postximage:
     post: 1877252477071872148
     id: Gg1XJ0MaMAIVoZ8
+    index: 1
     label: On stage
     info: Cocoro, cajón
     context:

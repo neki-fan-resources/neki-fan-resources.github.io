@@ -372,6 +372,7 @@
 - postximage:
     post: 1861350709448622349
     id: GdTYWPOaEAAltGr
+    index: 1
     label: Poster
     context:
     - show:
@@ -383,6 +384,7 @@
 - postximage:
     post: 1867147470134001882
     id: GelwukrbMAAJinX
+    index: 1
     label: Poster
     context:
     - show:
@@ -394,6 +396,7 @@
 - postximage:
     post: 1887340383576989716
     id: GjEuEpVbIAMzRlC
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -406,6 +409,7 @@
 - postximage:
     post: 1887502798696423474
     id: GjHByXUbIAQCjPP
+    index: 2
     label: Poster
     context:
     - show:
@@ -417,6 +421,7 @@
 - postximage:
     post: 1887502798696423474
     id: GjHByXVa0AAOiGR
+    index: 1
     label: On stage
     context:
     - show:
@@ -428,6 +433,7 @@
 - postximage:
     post: 1887519908155826210
     id: GjHRWW2bIAQ7ezT
+    index: 1
     label: Backstage
     context:
     - show:
@@ -439,6 +445,7 @@
 - postximage:
     post: 1887519908155826210
     id: GjHRWWzbIAUVD2p
+    index: 2
     label: All the bands
     context:
     - show:
@@ -450,6 +457,7 @@
 - postximage:
     post: 1887521792929247243
     id: GjHTD_CbIAEbKRR
+    index: 1
     label: On stage
     context:
     - show:
@@ -461,6 +469,7 @@
 - postximage:
     post: 1887549367550419131
     id: GjHsI37aQAAROpf
+    index: 2
     label: Drummers
     info: SORA (Wisteria support), Cocoro
     context:
@@ -473,6 +482,7 @@
 - postximage:
     post: 1887549367550419131
     id: GjHsI4CbAAAHsw5
+    index: 1
     label: Drummers
     info: SORA (Wisteria support), Cocoro
     context:

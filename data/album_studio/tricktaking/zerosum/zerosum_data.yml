@@ -1900,6 +1900,7 @@
     - Gl6FRK5bYAI7tX5
     - Gl6FRK_bYAAvsj3
     - Gl6FRK5aMAArHbX
+    todo: missing one image
     part-of:
       postx: 1900100672437313743
 
@@ -2111,6 +2112,7 @@
 - postximage:
     post: 1886053926912635319
     id: GiycDGdbQAA3w4c
+    index: 1
     label: Behind the scenes
     context:
     - song: zerosum
@@ -2120,6 +2122,7 @@
 - postximage:
     post: 1886059230479979000
     id: Giyg3xYbUAALTII
+    index: 1
     label: Behind the scenes
     info: Kanade
     context:
@@ -2130,6 +2133,7 @@
 - postximage:
     post: 1886082209200914442
     id: Giy1xTNaUAAOP80
+    index: 1
     label: Behind the scenes
     info: Natsu
     context:
@@ -2140,6 +2144,7 @@
 - postximage:
     post: 1895827960420319434
     id: Gk9Vef0bAAATBUH
+    index: 1
     label: Behind the scenes
     context:
     - song: zerosum
@@ -2149,6 +2154,7 @@
 - postximage:
     post: 1895827960420319434
     id: Gk9Vef1a4AALHZM
+    index: 2
     label: Behind the scenes
     context:
     - song: zerosum
@@ -2158,6 +2164,7 @@
 - postximage:
     post: 1900100672437313743
     id: Gl6DfEYbYAIMhZW
+    index: 1
     label: 100k views
     part-of:
       postx: 1900100672437313743
@@ -2165,6 +2172,7 @@
 - postximage:
     post: 1900102636562678243
     id: Gl6FRK5aMAArHbX
+    index: 4
     label: Behind the scenes
     info: Cocoro
     context:
@@ -2175,6 +2183,7 @@
 - postximage:
     post: 1900102636562678243
     id: Gl6FRK5bYAI7tX5
+    index: 1
     label: Behind the scenes
     context:
     - song: zerosum
@@ -2184,6 +2193,7 @@
 - postximage:
     post: 1900102636562678243
     id: Gl6FRK_bYAAvsj3
+    index: 3
     label: Behind the scenes
     context:
     - song: zerosum
@@ -2193,6 +2203,7 @@
 - postximage:
     post: 1900439521717842426
     id: Gl-3q_9aYAASYiE
+    index: 1
     label: Behind the scenes
     info: Hika
     context:

@@ -10,6 +10,10 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: yP7PhWiGtb0
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: ChRV1YguxLw
+                - youtubeshort: bbWxE2HUeVw
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo
@@ -21,6 +25,10 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: yP7PhWiGtb0
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: ChRV1YguxLw
+                - youtubeshort: bbWxE2HUeVw
             - multimediasubsection:
                 label: Images
                 multimedia:
@@ -1407,6 +1415,15 @@
       song: flick
 
 - youtubeshort:
+    id: ChRV1YguxLw
+    label: Choreography
+    published-date: 2026-06-19
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
     id: VHxF_p6WqXg
     label: Music Video
     published-date: 2026-06-13
@@ -1419,6 +1436,15 @@
     id: _UJDoezA41U
     label: Off shot
     published-date: 2026-06-17
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: bbWxE2HUeVw
+    label: Outside
+    published-date: 2026-06-18
     context:
     - song: flick
     part-of:

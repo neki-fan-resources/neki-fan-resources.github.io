@@ -1,0 +1,64 @@
+- postx:
+    id: 2067895162156863853
+    account: TREASURE05XOffi
+    label: Announcement
+    published-date: 2026-06-19
+    text: |-
+      TREASURE05X 2026 ダイアモンドホール公演 第2弾出演アーティスト発表です。お待たせしました！
+      
+      今回の発表で最終発表となります。
+      
+      オフィシャル3次先行はただいまから6/28(日)23:59までの抽選エントリー！
+      
+      <オフィシャル先行はこちら>
+      https://eplus.jp/treasure05x2026/hp3/
+      
+      何卒よろしくお願いいたします！！
+      
+      #TREASURE05X
+      #トレジャー
+    translation: |-
+      The 2nd round of performing artists for TREASURE05X 2026 Diamond Hall performance has been announced. Thank you for waiting!
+      
+      This announcement will be the final announcement.
+      
+      The official 3rd round of advance ticket sales is available for lottery entry from now until 23:59 on 6/28 (Sun)!
+      
+      <Official Advance Tickets Here>
+      https://eplus.jp/treasure05x2026/hp3/
+      
+      Thank you very much!!
+      
+      #TREASURE05X
+      #Treasure
+    image:
+    - HLKPR5lbkAAhn-v
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+
+- postximage:
+    post: 2067895162156863853
+    id: HLKPR5lbkAAhn-v
+    label: Lineup
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2067895162156863853
+
+- update:
+    show:
+      year: 2026
+      id: treasure05x
+    date: 2026-06-19
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+

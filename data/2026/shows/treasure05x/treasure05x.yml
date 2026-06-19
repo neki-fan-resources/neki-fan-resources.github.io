@@ -1,0 +1,17 @@
+show:
+  year: 2026
+  id: treasure05x
+  cover-image:
+    postximage:
+      post: 2067895162156863853
+      image: HLKPR5lbkAAhn-v
+  fullname: TREASURE05X 2026 ダイアモンドホール公演
+  shortname: TREASURE05X
+  sublabel: Nagoya
+  date: 2026-08-15
+  venue: DIAMOND HALL, Nagoya
+  event-page: 'https://www.treasure05x.jp/'
+  part-of:
+    group:
+      id: shows
+      group: 2026

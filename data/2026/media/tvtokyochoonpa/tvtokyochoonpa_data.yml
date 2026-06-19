@@ -61,6 +61,62 @@
         post: 2048371387908366467
         image: HG1GZ35bUAAPmUd
 
+- postx:
+    id: 2067539898660458896
+    account: cho_choonpa_tx
+    label: Teaser
+    published-date: 2026-06-18
+    text: |-
+      🔈#テレ東超超音波 6/19放送告知🔈
+      ライブ密着：NEK!（
+      @nekiband_jp
+      ）
+      
+      ⚡️6/19(金) 27:15〜深夜放送
+      📺見逃し配信は6/20(土) お昼12時から1週間❗️
+      #NEKI
+      @46_hikaa
+       
+      @natsu08_guitar
+       
+      @cure_bass_baka
+       
+      @coco_102
+    translation: |-
+      🔈#TVTokyoSuperSuperSonic 6/19 Broadcast Notice🔈
+      Live Coverage: NEK! (
+      @nekiband_jp
+      )
+      
+      ⚡️6/19 (Fri) 27:15〜 Late Night Broadcast
+      📺Catch-up streaming starts 6/20 (Sat) at 12:00 PM for 1 week❗️
+      #NEKI
+      @46_hikaa
+       
+      @natsu08_guitar
+       
+      @cure_bass_baka
+       
+      @coco_102
+    video:
+    - 1
+    part-of:
+      media:
+        year: 2026
+        id: tvtokyochoonpa
+
+- postxvideo:
+    post: 2067539898660458896
+    id: 1
+    label: Teaser
+    cover: 2067539820172472320/img/nLsTB2zoaSh0-9K6.jpg
+    context:
+    - media:
+        year: 2026
+        id: tvtokyochoonpa
+    part-of:
+      postx: 2067539898660458896
+
 - update:
     media:
       year: 2026

@@ -130,6 +130,15 @@
                     post: DX3pRrbHXw1
                     image: 2
     - basicblock:
+        id: beforeevent
+        label: Before the event
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: wmNoVSAa8TU
+    - basicblock:
         id: media
         label: In the medias
         sections:
@@ -1342,6 +1351,19 @@
     image:
     - nekionstage
     - hikaonstage
+    part-of:
+      show:
+        year: 2026
+        id: naonnobuntai
+
+- youtubevideo:
+    id: wmNoVSAa8TU
+    label: Rehearsal
+    published-date: 2026-06-09
+    context:
+    - show:
+        year: 2026
+        id: naonnobuntai
     part-of:
       show:
         year: 2026

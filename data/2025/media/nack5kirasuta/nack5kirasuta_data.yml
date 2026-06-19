@@ -124,6 +124,7 @@
 - postximage:
     post: 1947243502485827926
     id: GwX9JI8akAAhy3E
+    index: 1
     label: At the station
     info: hosts, Hika, Cororo
     context:
@@ -136,6 +137,7 @@
 - postximage:
     post: 1947246427605700942
     id: GwYCS9IbsAAnoPh
+    index: 2
     label: At the station
     info: Hika, Cocoro
     context:
@@ -148,6 +150,7 @@
 - postximage:
     post: 1947246427605700942
     id: GwYCS9SaAAAWkcg
+    index: 1
     label: At the station
     info: hosts, Hika, Cororo
     context:
@@ -160,6 +163,7 @@
 - postximage:
     post: 1947255012091900252
     id: GwYKGoAbwAAXOLf
+    index: 1
     label: At the station
     info: Cocoro, Hika
     context:

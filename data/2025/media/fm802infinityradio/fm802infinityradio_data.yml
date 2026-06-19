@@ -99,6 +99,7 @@
 - postximage:
     post: 1909909511084875800
     id: GoFcizqb0AEgODm
+    index: 1
     label: Flyer
     context:
     - media:
@@ -110,6 +111,7 @@
 - postximage:
     post: 1910379084141801512
     id: GoMHpd-bYAANMFt
+    index: 1
     label: band members and show host
     context:
     - media:

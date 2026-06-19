@@ -282,6 +282,9 @@
       komsumeさん今日もバチバチでかっこよかったー！
       
       今日初めて知ってくれた方はぜひ8/30のZeppワンマンも遊びに来てね🔥
+      
+      alt:
+      ジンちゃんと撮ったセカランの隠れフォトスポ🪞
     translation: |-
       The komsume × NEK! two-man show Osaka edition has ended‼️💥
       Thank you so much to everyone who hyped up the floor!
@@ -289,6 +292,9 @@
       komsume were super sharp and cool today too—!
       
       If you just found out about us today, please come hang out at our Zepp solo show on 8/30 too🔥
+      
+      alt:
+      The hidden photo spot at Sekaran that I took with Jin-chan🪞
     image:
     - GwJXZfnaMAAULly
     - GwJXZgPXQAACj8v
@@ -482,6 +488,7 @@
 - postximage:
     post: 1944995676963922035
     id: Gv4DQX6a8AAPdNi
+    index: 1
     label: Poster
     info: sold out Tokyo
     local-copy: true
@@ -495,6 +502,7 @@
 - postximage:
     post: 1946195551969849807
     id: GwJGgUJXcAES7vk
+    index: 1
     label: Backstage
     info: komsume, NEK!
     context:
@@ -507,6 +515,7 @@
 - postximage:
     post: 1946211690053505475
     id: GwJVNGlboAAgHRY
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -519,6 +528,7 @@
 - postximage:
     post: 1946214112306069505
     id: GwJXZfnaMAAULly
+    index: 1
     label: Backstage
     context:
     - show:
@@ -530,6 +540,7 @@
 - postximage:
     post: 1946214112306069505
     id: GwJXZgPXQAACj8v
+    index: 3
     label: Backstage
     info: Cocoro, ジンちゃん
     context:
@@ -542,6 +553,7 @@
 - postximage:
     post: 1946214112306069505
     id: GwJXZgUXcAAGupz
+    index: 2
     label: Backstage
     info: Komsume, NEK!
     context:
@@ -554,6 +566,7 @@
 - postximage:
     post: 1946216562014208089
     id: GwJZpB_bYAA-QKV
+    index: 2
     label: Backstage
     context:
     - show:
@@ -565,6 +578,7 @@
 - postximage:
     post: 1946216562014208089
     id: GwJZpCoXEAEFORY
+    index: 3
     label: Backstage
     info: Natsu
     context:
@@ -577,6 +591,7 @@
 - postximage:
     post: 1946340941599555651
     id: GwLKw54X0AAj4kl
+    index: 1
     label: Backstage
     info: Hika, Natsu
     context:
@@ -589,6 +604,7 @@
 - postximage:
     post: 1946340941599555651
     id: GwLKw5MaYAAfMsy
+    index: 2
     label: Backstage
     info: Kanade, Hika
     context:
@@ -601,6 +617,7 @@
 - postximage:
     post: 1946340941599555651
     id: GwLKw5MakAAwFX4
+    index: 4
     label: Backstage
     context:
     - show:
@@ -612,6 +629,7 @@
 - postximage:
     post: 1946340941599555651
     id: GwLKw5daMAA_NCa
+    index: 3
     label: Backstage
     info: Cocoro, Hika
     context:
@@ -624,6 +642,7 @@
 - postximage:
     post: 1946467395964408259
     id: GwM9xpKXAAAYFqa
+    index: 1
     label: Backstage
     info: Cocoro
     context:

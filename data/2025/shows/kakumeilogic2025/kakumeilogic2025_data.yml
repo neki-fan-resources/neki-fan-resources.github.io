@@ -680,6 +680,7 @@
 - postximage:
     post: 1903038891042673069
     id: GmjeK9zbIAAWwew
+    index: 2
     label: poster
     local-copy: true
     context:
@@ -692,6 +693,7 @@
 - postximage:
     post: 1910649028033011882
     id: GoPVpIWagAAewAc
+    index: 2
     label: Timetable
     context:
     - show:
@@ -703,6 +705,7 @@
 - postximage:
     post: 1918591839306666269
     id: GqA0m0ta0AAA-dL
+    index: 2
     label: festival schedule
     context:
     - show:
@@ -714,6 +717,7 @@
 - postximage:
     post: 1918591839306666269
     id: GqA0mxha4AAZusD
+    index: 1
     label: シャングリラ schedule
     context:
     - show:
@@ -725,6 +729,7 @@
 - postximage:
     post: 1918967431936053416
     id: GqGKtFtbsAAScbY
+    index: 1
     label: Backstage
     context:
     - show:
@@ -736,6 +741,7 @@
 - postximage:
     post: 1918967431936053416
     id: GqGKtFwa0AACJVD
+    index: 2
     label: On stage
     context:
     - show:
@@ -747,6 +753,7 @@
 - postximage:
     post: 1929825611658543471
     id: GsgdTzXawAAeCzx
+    index: 1
     label: flyer
     info: picture of the bands singers
     context:

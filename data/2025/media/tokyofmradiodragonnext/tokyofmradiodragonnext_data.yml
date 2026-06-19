@@ -131,6 +131,7 @@
 - postximage:
     post: 1918253217269596255
     id: Gp8BIMjawAM-GEH
+    index: 1
     label: host with the EP TR!CK TAK!NG
     info: 菅野結以 (Yui Kanno)
     context:
@@ -143,8 +144,9 @@
 - postximage:
     post: 1918254606855074066
     id: Gp8COrJbsAAsI0n
+    index: 1
     label: with the host
-    info: Hika, Natsu, 菅野結以 (Yui Kanno)
+    info: 菅野結以 (Yui Kanno), Hika, Natsu
     context:
     - media:
         year: 2025
@@ -155,6 +157,7 @@
 - postximage:
     post: 1918392450269548896
     id: Gp9_wtDagAAnCTL
+    index: 1
     label: at the station
     info: Hika, Natsu
     context:

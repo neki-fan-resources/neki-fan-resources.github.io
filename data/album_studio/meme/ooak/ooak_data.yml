@@ -1281,6 +1281,7 @@
 - postximage:
     post: 1929512124243411173
     id: GscBBL6bgAAwvmM
+    index: 1
     label: OOAK image cover
     local-copy: true
     context:
@@ -1291,6 +1292,7 @@
 - postximage:
     post: 1935668905244336459
     id: GtzabMUXgAAmDvN
+    index: 1
     label: MV image
     local-copy: true
     context:
@@ -1301,6 +1303,7 @@
 - postximage:
     post: 1936641866231120142
     id: GuBVgppXoAAIvxG
+    index: 1
     label: 10k views
     context:
     - song: ooak
@@ -1310,6 +1313,7 @@
 - postximage:
     post: 1936646576686153867
     id: GuBZxw1XUAA8lrO
+    index: 1
     label: Behind the scenes
     info: Cocoro
     context:
@@ -1320,6 +1324,7 @@
 - postximage:
     post: 1936646576686153867
     id: GuBZxwPaEAAI5wJ
+    index: 2
     label: Behind the scenes
     context:
     - song: ooak

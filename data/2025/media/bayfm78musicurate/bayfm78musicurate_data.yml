@@ -128,6 +128,7 @@
 - postximage:
     post: 1914285297862598973
     id: GpDoUyLb0AAbEYw
+    index: 1
     label: band members
     context:
     - media:
@@ -139,6 +140,7 @@
 - postximage:
     post: 1914753335703560310
     id: GpKSAXXa4AIVkqj
+    index: 1
     label: The band
     context:
     - media:
@@ -150,6 +152,7 @@
 - postximage:
     post: 1914850685176480128
     id: GpLqISVa4AQTDba
+    index: 1
     label: In studio
     context:
     - media:
@@ -161,6 +164,7 @@
 - postximage:
     post: 1914850685176480128
     id: GpLqKMBacAAiX9N
+    index: 2
     label: With host
     context:
     - media:

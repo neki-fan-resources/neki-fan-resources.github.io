@@ -1048,6 +1048,7 @@
 - postximage:
     post: 1943143169446822118
     id: GvduaMoXgAAkU2_
+    index: 1
     label: First artists list
     context:
     - show:
@@ -1059,6 +1060,7 @@
 - postximage:
     post: 1943145229357584494
     id: GvdwSAWakAAlKdJ
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -1071,6 +1073,7 @@
 - postximage:
     post: 1943145229357584494
     id: GvdwSAzWYAAl-Oo
+    index: 2
     label: First artists list
     context:
     - show:
@@ -1082,6 +1085,7 @@
 - postximage:
     post: 1950844299064799526
     id: GxLKemBagAAsW-L
+    index: 1
     label: Days schedule
     context:
     - show:

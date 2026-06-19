@@ -545,6 +545,7 @@
 - postximage:
     post: 1904825238870721005
     id: Gm9MdCUbAAAS1Sq
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -557,6 +558,7 @@
 - postximage:
     post: 1908353902686462040
     id: Gnrsw86bEAACU0R
+    index: 1
     label: Timetable
     context:
     - show:
@@ -568,6 +570,7 @@
 - postximage:
     post: 1908353902686462040
     id: GnrsylwbwAAfbLL
+    index: 2
     label: Poster
     context:
     - show:
@@ -579,6 +582,7 @@
 - postximage:
     post: 1910962202003275912
     id: GoUZ_awWQAAJLU0
+    index: 4
     label: On stage
     info: Hika
     context:
@@ -591,6 +595,7 @@
 - postximage:
     post: 1910962202003275912
     id: GoUZ_awWwAAkG5D
+    index: 2
     label: On stage
     info: Kanade
     context:
@@ -603,6 +608,7 @@
 - postximage:
     post: 1910962202003275912
     id: GoUZ_axWoAA8BKE
+    index: 3
     label: On stage
     info: Natsu
     context:
@@ -615,6 +621,7 @@
 - postximage:
     post: 1910962202003275912
     id: GoUZ_azXwAASE0E
+    index: 1
     label: On stage
     context:
     - show:
@@ -626,6 +633,7 @@
 - postximage:
     post: 1910979741756399623
     id: GoUp719WUAADyfg
+    index: 3
     label: sidewalk board
     context:
     - show:
@@ -637,6 +645,7 @@
 - postximage:
     post: 1910979741756399623
     id: GoUp719WkAAtlRX
+    index: 2
     label: on stage
     context:
     - show:
@@ -648,6 +657,7 @@
 - postximage:
     post: 1910979741756399623
     id: GoUp71yWsAIHbmh
+    index: 1
     label: the band
     context:
     - show:
@@ -659,6 +669,7 @@
 - postximage:
     post: 1911004487399129107
     id: GoVAb_iWMAAd_Fk
+    index: 1
     label: Backstage
     context:
     - show:

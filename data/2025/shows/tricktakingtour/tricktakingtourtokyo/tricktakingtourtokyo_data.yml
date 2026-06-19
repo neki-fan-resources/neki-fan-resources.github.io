@@ -2233,6 +2233,7 @@
 - postximage:
     post: 1903638618083897411
     id: GmsVOUXacAAL24T
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -2245,6 +2246,7 @@
 - postximage:
     post: 1904095847400505553
     id: Gmy1FD0aUAALXtv
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -2257,6 +2259,7 @@
 - postximage:
     post: 1904095847400505553
     id: Gmy1FDzaMAE3fqb
+    index: 1
     label: On stage
     info: Natsu
     context:

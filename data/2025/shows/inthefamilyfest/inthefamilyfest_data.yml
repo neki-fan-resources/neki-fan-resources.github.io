@@ -502,6 +502,7 @@
 - postximage:
     post: 1954845457206624572
     id: GyEBiwJaAAAVDe8
+    index: 2
     label: Poster
     local-copy: true
     context:
@@ -514,6 +515,7 @@
 - postximage:
     post: 1954845457206624572
     id: GyEBiwTbAAA-nJp
+    index: 1
     label: Poster NEK!
     context:
     - show:

@@ -2249,6 +2249,7 @@
 - postximage:
     post: 1949439923565826120
     id: Gw3NH3ubMAA1o7y
+    index: 1
     label: Cover
     local-copy: true
     context:
@@ -2259,6 +2260,7 @@
 - postximage:
     post: 1954020833908953357
     id: Gx4Tk8zaAAANRho
+    index: 1
     label: Behind the scenes
     info: Cocoro
     context:
@@ -2269,6 +2271,7 @@
 - postximage:
     post: 1954020833908953357
     id: Gx4Tk9GaUAA-Skv
+    index: 2
     label: Behind the scenes
     info: Cocoro
     context:

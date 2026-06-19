@@ -673,6 +673,7 @@
 - postximage:
     post: 1929531593523081226
     id: GscSvrHbMAAqkrT
+    index: 1
     label: Bands
     info: NEK!, konsume
     context:
@@ -685,6 +686,7 @@
 - postximage:
     post: 1929551362687205700
     id: GsckvA4agAAsskI
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -697,6 +699,7 @@
 - postximage:
     post: 1929838014714597729
     id: Gsgpa56bcAAoxCH
+    index: 3
     label: komsume on stage
     context:
     - show:
@@ -708,6 +711,7 @@
 - postximage:
     post: 1929838014714597729
     id: GsgpaTQb0AAv3Zr
+    index: 2
     label: On stage
     context:
     - show:

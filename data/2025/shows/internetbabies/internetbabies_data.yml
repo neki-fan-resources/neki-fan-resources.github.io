@@ -415,6 +415,15 @@
       代官山UNITにも初めて立てて嬉しかったです✌🏻
       
       浜野はるきさんお誘いいただき本当にありがとうございました！🫶🏻
+      
+      alt1:
+      ギャルだから✌🏻
+      
+      alt2:
+      ギャルだから✌🏻パート2
+      
+      alt4:
+      忍❕
     translation: |-
       💜🩷INTERNET BaBIES -Face to Faith-🩷💜
       
@@ -423,6 +432,15 @@
       I was also happy to perform at Daikanyama UNIT for the first time✌🏻
       
       Haruki Hamano-san, thank you so much for inviting us!🫶🏻
+      
+      alt1:
+      Because I'm a gyaru✌🏻
+      
+      alt2:
+      Because I'm a gyaru✌🏻 Part 2
+      
+      alt4:
+      Shinobu❕
     image:
     - Gw3zn6TaUAEpk50
     - Gw3zn51bAAEvtWX
@@ -702,6 +720,7 @@
 - postximage:
     post: 1933117154494427587
     id: GtPQrgBasAA4sFp
+    index: 1
     label: poster
     local-copy: true
     context:
@@ -714,6 +733,7 @@
 - postximage:
     post: 1949060926738694295
     id: Gwx0lJwb0AAO54g
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -726,6 +746,7 @@
 - postximage:
     post: 1949466891803922715
     id: Gw3lzMNbAAASOiw
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -738,6 +759,7 @@
 - postximage:
     post: 1949480491713003736
     id: Gw3yKX3a0AA5OUn
+    index: 2
     label: Backstage
     context:
     - show:
@@ -749,6 +771,7 @@
 - postximage:
     post: 1949480491713003736
     id: Gw3yKXybgAAvkF2
+    index: 3
     label: On stage
     context:
     - show:
@@ -760,6 +783,7 @@
 - postximage:
     post: 1949480491713003736
     id: Gw3yKXybsAAmjfa
+    index: 1
     label: The bands
     info: NEK!, Hamano Haruki, Wisteria
     context:
@@ -772,6 +796,7 @@
 - postximage:
     post: 1949481209484169322
     id: Gw3y0xGbEAADFoo
+    index: 2
     label: Backstage
     info: Natsu
     context:
@@ -784,6 +809,7 @@
 - postximage:
     post: 1949482178628432379
     id: Gw3zn51bAAEvtWX
+    index: 3
     label: Backstage
     info: Cocoro
     context:
@@ -796,6 +822,7 @@
 - postximage:
     post: 1949482178628432379
     id: Gw3zn6TaUAEpk50
+    index: 4
     label: On stage
     info: Cocoro, drum set
     context:
@@ -808,6 +835,7 @@
 - postximage:
     post: 1949488433849933878
     id: Gw35W4abAAESNI9
+    index: 2
     label: Backstage
     info: Hika
     context:
@@ -820,6 +848,7 @@
 - postximage:
     post: 1949488433849933878
     id: Gw35W4kagAApR75
+    index: 1
     label: On stage
     info: Hika, pedal board
     context:

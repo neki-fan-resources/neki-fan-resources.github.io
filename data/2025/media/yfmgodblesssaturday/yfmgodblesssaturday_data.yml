@@ -174,6 +174,7 @@
 - postximage:
     post: 1936243875687137663
     id: Gt7rilaXoAAxHRl
+    index: 1
     label: Welcome sign
     context:
     - media:
@@ -185,6 +186,7 @@
 - postximage:
     post: 1936301742964290030
     id: Gt8gHF3XgAAazpl
+    index: 1
     label: At the station
     info: Hika, Natsu
     context:
@@ -197,6 +199,7 @@
 - postximage:
     post: 1936310916737626390
     id: Gt8oYqAbwAML8pq
+    index: 1
     label: In the studio
     info: the hosts, Hika, Natsu
     context:
@@ -209,6 +212,7 @@
 - postximage:
     post: 1936313898661298282
     id: Gt8rOAnXoAADXyX
+    index: 1
     label: At the station
     info: Hika, Natsu
     context:
@@ -221,6 +225,7 @@
 - postximage:
     post: 1936314534777831611
     id: Gt8rzbGWgAAikiR
+    index: 1
     label: Thanks you for listening
     info: Hika, Natsu
     context:
@@ -233,6 +238,7 @@
 - postximage:
     post: 1936315279094825472
     id: Gt8settbwAAxGNd
+    index: 1
     label: Thanks you for listening
     info: Hika, Natsu
     context:

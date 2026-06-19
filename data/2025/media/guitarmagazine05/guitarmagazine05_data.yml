@@ -92,6 +92,7 @@
 - postximage:
     post: 1911007047002603549
     id: GoVCwlLWwAA9fPr
+    index: 1
     label: Selfie
     info: Hika, Natsu
     todo: where from ?
@@ -101,6 +102,7 @@
 - postximage:
     post: 1911062523048235361
     id: GoV1OrCXUAAj8cB
+    index: 1
     label: Pointing up
     context:
     - media:

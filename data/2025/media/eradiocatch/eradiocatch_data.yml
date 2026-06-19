@@ -82,6 +82,7 @@
 - postximage:
     post: 1937752512972587323
     id: GuRHoosbYAAzfIJ
+    index: 1
     label: _
     info: Hika, Natsu
     context:
@@ -95,6 +96,7 @@
 - postximage:
     post: 1937893514588938621
     id: GuTH4QhbcAAsg-3
+    index: 1
     label: Remote appearance
     context:
     - media:

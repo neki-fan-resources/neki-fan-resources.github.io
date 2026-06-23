@@ -1,3 +1,106 @@
+- postinstagram:
+    id: DZyrr2JzTz_
+    account: chfiles_tokai
+    label: Announcement
+    published-date: 2026-06-20
+    text: |-
+      【#chFILES 最新号告知📢】
+      
+      今月の表紙は、
+      人気急上昇中の
+      ダンスボーカルユニット
+      ICExが登場！
+      7月1日にリリースする
+      2ndアルバム『FRESH!!』について
+      たっぷりお話をお聞きしました。
+      
+      今月の特集テーマは
+      「知りたい！みんなの
+      留学エピソード」🛩️
+      海外に行く良さってどこにあるんだろう？
+      chスタッフの周りでは、
+      留学も「推し」がきっかけになったり、
+      留学中の生活の支えになることも。
+      好きを原動力に、
+      世界へ羽ばたく一歩を踏み出した
+      スタッフたちの話を聞いてみました。
+      
+      そして“好き”を磨いて
+      プロフェッショナルをめざす大学
+      名古屋学芸大学についてもご紹介！
+      
+      #ICEx
+      #LILLEAGUE
+      #BUSbecauseofyouishine
+      #うち弟
+      大空直美
+      増田俊樹
+      八代拓
+      小野賢章
+      寺澤百花
+      オレンジスパイニクラブ
+      NEK! 
+      鈴木農水大臣
+      畜産に生きる会議
+      名古屋学芸大学
+    translation: |-
+      【#chFILES Latest Issue Announcement📢】
+      
+      This month's cover features
+      the rapidly rising
+      dance and vocal unit
+      ICEx!
+      About their 2nd album "FRESH!!"
+      releasing on July 1st,
+      we had a deep conversation with them.
+      
+      This month's special feature theme is
+      "We want to know! Everyone's
+      Study Abroad Episodes" 🛩️
+      What are the good things about going abroad?
+      Around the ch staff,
+      studying abroad was sometimes triggered by their "oshi,"
+      or served as emotional support during their life abroad.
+      Driven by their passions,
+      we asked our staff members about their stories of taking
+      that first step out into the world.
+      
+      And we also introduce Nagoya Gakugei University,
+      a university where you can polish what you "love"
+      and aim to become a professional!
+      
+      #ICEx
+      #LILLEAGUE
+      #BUSbecauseofyouishine
+      #UchiOto
+      Naomi Ozora
+      Toshiki Masuda
+      Taku Yashiro
+      Kensho Ono
+      Momoka Terasawa
+      Orange Spiny Crab
+      NEK! 
+      Minister of Agriculture, Forestry and Fisheries Suzuki
+      Livestock Farming Council
+      Nagoya Gakugei University
+    image:
+    - 1
+    part-of:
+      media:
+        year: 2026
+        id: ch07
+
+- postinstagramimage:
+    post: DZyrr2JzTz_
+    id: 1
+    label: Inside
+    context:
+    - media:
+        year: 2026
+        id: ch07
+    part-of:
+      postinstagram: DZyrr2JzTz_
+
 - postx:
     id: 2068167309886390420
     account: chFILES

@@ -1237,6 +1237,7 @@
 - postximage:
     post: 1994381696935027104
     id: G613HQSaIAAMpc_
+    index: 1
     label: Band
     context:
     - show:
@@ -1248,6 +1249,7 @@
 - postximage:
     post: 1994381696935027104
     id: G613JWSb0AAJE7z
+    index: 2
     label: Venue
     context:
     - show:
@@ -1259,6 +1261,7 @@
 - postximage:
     post: 1994405565590913446
     id: G62NR5qaMAAqX4L
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -1271,6 +1274,7 @@
 - postximage:
     post: 1994411946570133609
     id: G62TEVqbwAAJQAf
+    index: 2
     label: On stage
     info: Kanade
     context:
@@ -1283,6 +1287,7 @@
 - postximage:
     post: 1994411946570133609
     id: G62TEVwb0AAOjB6
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -1295,6 +1300,7 @@
 - postximage:
     post: 1994413491135173104
     id: G62UfaNaQAEDGX6
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -1307,6 +1313,7 @@
 - postximage:
     post: 1994413491135173104
     id: G62UfaNbYAEJ2Jx
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -1319,6 +1326,7 @@
 - postximage:
     post: 1994416759160668354
     id: G62XZExaAAAmgPY
+    index: 1
     label: On stage
     info: Cocoro
     context:

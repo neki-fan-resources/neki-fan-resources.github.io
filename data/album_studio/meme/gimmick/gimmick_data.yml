@@ -1777,6 +1777,7 @@
 - postximage:
     post: 2001567212373717145
     id: G8b-vPFbQAAB7JD
+    index: 1
     label: Behind the scenes
     context:
     - song: gimmick
@@ -1786,6 +1787,7 @@
 - postximage:
     post: 2006227983917539641
     id: G9eNtcoaEAA6OmR
+    index: 1
     label: 100k views
     context:
     - song: gimmick
@@ -1795,6 +1797,7 @@
 - postximage:
     post: 2006281030660247686
     id: G9e9uq7boAABgyt
+    index: 3
     label: Behind the scenes
     info: drum set
     context:
@@ -1805,6 +1808,7 @@
 - postximage:
     post: 2006281030660247686
     id: G9e9uq9aYAM6OQ3
+    index: 1
     label: Behind the scenes
     info: drum set
     context:
@@ -1815,6 +1819,7 @@
 - postximage:
     post: 2006281030660247686
     id: G9e9urQbkAAKVHq
+    index: 2
     label: Behind the scenes
     info: Cocoro
     context:

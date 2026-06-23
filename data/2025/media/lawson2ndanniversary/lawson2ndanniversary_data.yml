@@ -116,6 +116,7 @@
 - postximage:
     post: 2000438888586965233
     id: G8L71wJa8AAwxNu
+    index: 1
     label: Cover
     context:
     - media:
@@ -127,6 +128,7 @@
 - postximage:
     post: 2000487978238705811
     id: G8MpNk-bEAAgkdP
+    index: 1
     label: Print version
     info: Hika
     context:
@@ -139,6 +141,7 @@
 - postximage:
     post: 2001490241614729575
     id: G8a4w8UakAMdhJ2
+    index: 1
     label: Give away
     context:
     - media:

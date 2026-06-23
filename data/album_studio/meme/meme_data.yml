@@ -1895,6 +1895,7 @@
 - postximage:
     post: 1993167197976641766
     id: G6kl0LKaQAABQlX
+    index: 0
     label: In-store display
     info: Tower Records Shinjuku
     context:
@@ -1905,6 +1906,7 @@
 - postximage:
     post: 1993167197976641766
     id: G6klzUQbUAA1Cqs
+    index: 0
     label: In-store display
     info: Tower Records Shinjuku
     context:
@@ -1915,6 +1917,7 @@
 - postximage:
     post: 1993208642196455910
     id: G6lMsZNaoAAZZyJ
+    index: 1
     label: Albums
     context:
     - album: meme
@@ -1924,6 +1927,7 @@
 - postximage:
     post: 1993221150751813701
     id: G6lX2K9agAAaVEv
+    index: 1
     label: In-store display
     info: Tower Records Yokohama
     context:
@@ -1934,6 +1938,7 @@
 - postximage:
     post: 1993221150751813701
     id: G6lX2jja0AAAdol
+    index: 2
     label: In-store display
     info: Tower Records Yokohama
     context:
@@ -1944,6 +1949,7 @@
 - postximage:
     post: 1993221274383138890
     id: G6lYLOCbwAYzpHg
+    index: 1
     label: In-store display
     info: Tower Records Laketown
     context:
@@ -1954,6 +1960,7 @@
 - postximage:
     post: 1993242458977955921
     id: G6lrba4bwAA3FWN
+    index: 2
     label: Album
     info: Kanade
     context:
@@ -1964,6 +1971,7 @@
 - postximage:
     post: 1993242458977955921
     id: G6lrbavbwAkY5K8
+    index: 1
     label: Album
     info: Kanade
     context:
@@ -1974,6 +1982,7 @@
 - postximage:
     post: 1993268941666353391
     id: G6mDg_2bwAACD1F
+    index: 1
     label: Albums
     context:
     - album: meme
@@ -1983,6 +1992,7 @@
 - postximage:
     post: 1993268941666353391
     id: G6mDhAIaAAA8tFn
+    index: 2
     label: Behind the scenes
     context:
     - song: gimmick
@@ -1992,6 +2002,7 @@
 - postximage:
     post: 1993279477162688586
     id: G6mMxNZbwAkKY6j
+    index: 1
     label: In-store display
     info: Tower Records Machida
     context:
@@ -2002,6 +2013,7 @@
 - postximage:
     post: 1993292641644212626
     id: G6mYv4KbEAAHt_2
+    index: 1
     label: In-store display
     info: Tower Records Shinjuku
     context:
@@ -2012,6 +2024,7 @@
 - postximage:
     post: 1993335913980842126
     id: G6m3rhkbcAAZDOq
+    index: 1
     label: iTune Campaign
     context:
     - album: meme
@@ -2021,6 +2034,7 @@
 - postximage:
     post: 1993368968099512674
     id: G6negc_bwAIPAmj
+    index: 1
     label: Cocoro
     todo: find a place for it
     part-of:
@@ -2029,6 +2043,7 @@
 - postximage:
     post: 1993505069980172580
     id: G6paSpmbMAEMoKB
+    index: 1
     label: In-store display
     info: Tower Records Namba
     context:
@@ -2039,6 +2054,7 @@
 - postximage:
     post: 1993505665332265070
     id: G6pa0bAaEAAU8zi
+    index: 1
     label: In-store display
     info: Tower Records Abeno Hoop
     context:
@@ -2049,6 +2065,7 @@
 - postximage:
     post: 1993519692619936194
     id: G6pnl9ubwAEitVg
+    index: 1
     label: In-store display
     info: HMV Shibuya
     context:
@@ -2059,6 +2076,7 @@
 - postximage:
     post: 1993538605424558161
     id: G6p4y03bwAMu3Q2
+    index: 2
     label: In-store display
     info: Tower Records Kinshicho
     context:
@@ -2069,6 +2087,7 @@
 - postximage:
     post: 1993538605424558161
     id: G6p4y0gbQAAqUxF
+    index: 1
     label: In-store display
     info: Tower Records Kinshicho
     context:
@@ -2079,6 +2098,7 @@
 - postximage:
     post: 1993547062546452658
     id: G6p9vrWbMAAqAqV
+    index: 1
     label: In-store display
     info: Tower Records Kagoshima
     context:
@@ -2089,6 +2109,7 @@
 - postximage:
     post: 1993547062546452658
     id: G6p9xZWawAAtMNX
+    index: 2
     label: In-store display
     info: Tower Records Kagoshima
     context:
@@ -2099,6 +2120,7 @@
 - postximage:
     post: 1993548230764990918
     id: G6qBbV3bwAEZ4k0
+    index: 1
     label: In-store display
     info: Tower Records Fukuoka
     context:
@@ -2109,6 +2131,7 @@
 - postximage:
     post: 1993548230764990918
     id: G6qBcAxaMAAeXeC
+    index: 2
     label: In-store display
     info: Tower Records Fukuoka
     context:
@@ -2119,6 +2142,7 @@
 - postximage:
     post: 1993554052475764966
     id: G6qFY4ybYAAfLqL
+    index: 1
     label: At the store
     info: Tower Record Yokohama, Natsu, Hika
     context:
@@ -2129,6 +2153,7 @@
 - postximage:
     post: 1993554149125112120
     id: G6qG6kKbwAIovvE
+    index: 1
     label: In-store display
     info: Tower Records Iwata
     context:
@@ -2139,6 +2164,7 @@
 - postximage:
     post: 1993590175050744106
     id: G6qnflNbEAAfBjt
+    index: 1
     label: At the store
     info: Tower Records Machida, Natsu, Hika
     context:
@@ -2149,6 +2175,7 @@
 - postximage:
     post: 1993590175050744106
     id: G6qngiQbwAA7NWe
+    index: 2
     label: At the store
     info: Tower Records Machida, Natsu, Hika
     context:
@@ -2159,6 +2186,7 @@
 - postximage:
     post: 1993598161303343158
     id: G6qu9P6bwAQJXnO
+    index: 1
     label: Band
     context:
     - album: meme
@@ -2168,6 +2196,7 @@
 - postximage:
     post: 1993600744059191783
     id: G6qwPL8aIAA82sz
+    index: 1
     label: At the store
     info: Tower Records Shibuya
     context:
@@ -2178,6 +2207,7 @@
 - postximage:
     post: 1993600744059191783
     id: G6qwTEEa0AApFBe
+    index: 2
     label: At the store
     info: Tower Records Shibuya
     context:
@@ -2188,6 +2218,7 @@
 - postximage:
     post: 1993643729824133383
     id: G6rYZ6RbUAAzAeg
+    index: 3
     label: Cards
     info: HMV Shibuya
     context:
@@ -2198,6 +2229,7 @@
 - postximage:
     post: 1993643729824133383
     id: G6rYZ6SaUAAlunE
+    index: 1
     label: At the store
     info: HMV Shibuya
     context:
@@ -2208,6 +2240,7 @@
 - postximage:
     post: 1993643729824133383
     id: G6rYZ6WaIAAviIh
+    index: 1
     label: At the store
     info: HMV Shibuya
     context:
@@ -2218,6 +2251,7 @@
 - postximage:
     post: 1993643777966399738
     id: G6rYcrZaEAAuWC3
+    index: 1
     label: At the store
     info: Tower Records Shinjuku
     context:
@@ -2228,6 +2262,7 @@
 - postximage:
     post: 1993646142891167993
     id: G6rY7SZaYAAuE79
+    index: 1
     label: At the store
     info: Tower Records Shinjuku
     context:
@@ -2238,27 +2273,28 @@
 - postximage:
     post: 1993685933745668416
     id: G6r-tyvaAAA2kpx
+    index: 2
     label: At a store
     context:
     - album: meme
-    todo: which store ?
     part-of:
       postx: 1993685933745668416
 
 - postximage:
     post: 1993685933745668416
     id: G6r-tyzakAAAqjz
+    index: 1
     label: At the store
     info: Tower Records Machida, Natsu, Hika
     context:
     - album: meme
-    todo: which store ?
     part-of:
       postx: 1993685933745668416
 
 - postximage:
     post: 1993687445703942373
     id: G6sAKbhbEAA5YV5
+    index: 1
     label: Bonus stickers
     part-of:
       postx: 1993687445703942373
@@ -2266,6 +2302,7 @@
 - postximage:
     post: 1993890262326919315
     id: G6u4ePLbQAAGjhq
+    index: 1
     label: In-store display
     info: Tower Records Shibuya
     context:
@@ -2276,6 +2313,7 @@
 - postximage:
     post: 1993890262326919315
     id: G6u4feta0AEigRX
+    index: 2
     label: In-store display
     info: Tower Records Shibuya
     context:
@@ -2286,6 +2324,7 @@
 - postximage:
     post: 1993890262326919315
     id: G6u4kaHb0AAKYKi
+    index: 3
     label: In-store display
     info: Tower Records Shibuya
     context:
@@ -2296,6 +2335,7 @@
 - postximage:
     post: 1993890262326919315
     id: G6u4lR2bUAA4Bn1
+    index: 4
     label: In-store display
     info: Tower Records Shibuya
     context:
@@ -2306,6 +2346,7 @@
 - postximage:
     post: 1993947612781924573
     id: G6vsyMca0AAl0Ui
+    index: 1
     label: NEK! MEME Radio
     context:
     - album: meme
@@ -2340,7 +2381,6 @@
     cover: 1993685847733051392/img/v9gdzUR_RqttGiLN.jpg
     context:
     - album: meme
-    todo: which store ?
     part-of:
       postx: 1993685933745668416
 

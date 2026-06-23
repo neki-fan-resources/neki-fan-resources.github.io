@@ -365,6 +365,7 @@
 - postximage:
     post: 1996867357894234264
     id: G7ZMO7FaYAAnEmW
+    index: 1
     label: Flyer
     local-copy: true
     part-of:
@@ -373,6 +374,7 @@
 - postximage:
     post: 2003303427045290087
     id: G80pw0Pb0AApOBd
+    index: 1
     label: Schedule
     context:
     - show:
@@ -384,6 +386,7 @@
 - postximage:
     post: 2003303427045290087
     id: G80pybgbkAAkv2c
+    index: 2
     label: Lineup
     context:
     - show:
@@ -395,6 +398,7 @@
 - postximage:
     post: 2005966499958382930
     id: G9af4zab0AA2lgk
+    index: 1
     label: Band
     context:
     - show:
@@ -406,6 +410,7 @@
 - postximage:
     post: 2005969008470954167
     id: G9aiLL9bcAAeMsr
+    index: 1
     label: On stage
     context:
     - show:
@@ -417,6 +422,7 @@
 - postximage:
     post: 2006004818280952078
     id: G9bCv4nbMAA0Fl9
+    index: 1
     label: On stage
     context:
     - show:
@@ -428,6 +434,7 @@
 - postximage:
     post: 2006007521472045524
     id: G9bFM8IakAAIitJ
+    index: 2
     label: Backstage
     info: Natsu
     context:
@@ -440,6 +447,7 @@
 - postximage:
     post: 2006011375294775688
     id: G9bIr3vaYAEXH1A
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -452,6 +460,7 @@
 - postximage:
     post: 2006024061676028190
     id: G9bUQA-bIAAVLWr
+    index: 1
     label: Backstage
     info: Hika
     context:

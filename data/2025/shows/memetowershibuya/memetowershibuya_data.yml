@@ -548,6 +548,7 @@
 - postximage:
     post: 1994605574785568784
     id: G65DMI5aEAA81ez
+    index: 2
     label: Signing towel
     context:
     - show:
@@ -559,6 +560,7 @@
 - postximage:
     post: 1994605574785568784
     id: G65DMI8aEAEiVdD
+    index: 1
     label: Band
     context:
     - show:
@@ -570,6 +572,7 @@
 - postximage:
     post: 1994613971161419785
     id: G65K0JnbkAMshtC
+    index: 2
     label: On stage
     info: Kanade
     context:
@@ -582,6 +585,7 @@
 - postximage:
     post: 1994613971161419785
     id: G65K0JqakAAbZIt
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -594,6 +598,7 @@
 - postximage:
     post: 1994628356743323907
     id: G65X500bkAAecjn
+    index: 1
     label: On stage
     info: acoustic
     context:
@@ -606,6 +611,7 @@
 - postximage:
     post: 1994709931984130091
     id: G66iEP6bkAAdjFc
+    index: 1
     label: Band
     context:
     - show:
@@ -617,6 +623,7 @@
 - postximage:
     post: 1994709931984130091
     id: G66iEPwbkAIohA0
+    index: 2
     label: Name tags
     context:
     - show:
@@ -628,6 +635,7 @@
 - postximage:
     post: 1994716575962943586
     id: G66oJpKaMAAblwi
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -640,6 +648,7 @@
 - postximage:
     post: 1994721944856662230
     id: G66tBqbacAAxII8
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -652,6 +661,7 @@
 - postximage:
     post: 1994721944856662230
     id: G66tBqebEAA2CUs
+    index: 2
     label: Band
     context:
     - show:
@@ -663,6 +673,7 @@
 - postximage:
     post: 1994737853839151585
     id: G667gHDbkAUE1aJ
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -675,6 +686,7 @@
 - postximage:
     post: 1994739933953888651
     id: G669Wa-bkAAWeK7
+    index: 3
     label: Backstage
     info: Natsu, Hika
     context:
@@ -687,6 +699,7 @@
 - postximage:
     post: 1994739933953888651
     id: G669Wb9bkAMcydk
+    index: 4
     label: Backstage
     info: Hika, Cocoro
     context:
@@ -699,6 +712,7 @@
 - postximage:
     post: 1994739933953888651
     id: G669WbJbkAgw3FJ
+    index: 2
     label: Backstage
     info: Kanade, Hika
     context:
@@ -711,6 +725,7 @@
 - postximage:
     post: 1994739933953888651
     id: G669WbmbkAcE7y8
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -723,6 +738,7 @@
 - postximage:
     post: 1994986918594187638
     id: G6-eBrtbkAI39UK
+    index: 1
     label: At the venue
     info: Kanade
     context:
@@ -735,6 +751,7 @@
 - postximage:
     post: 1994986918594187638
     id: G6-eBrvbAAAsQnM
+    index: 2
     label: At the venue
     info: Kanade
     context:

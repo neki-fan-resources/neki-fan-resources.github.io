@@ -122,6 +122,7 @@
 - postximage:
     post: 1993537664394662212
     id: G6p330JbwAEpza6
+    index: 1
     label: In studio
     info: Natsu, Taiga Kobayashi, Hika
     context:
@@ -134,6 +135,7 @@
 - postximage:
     post: 1993541736006811759
     id: G6p7oz-acAA5rBO
+    index: 1
     label: At the station
     info: Hika, Natsu
     context:
@@ -146,6 +148,7 @@
 - postximage:
     post: 1993556066672726364
     id: G6qIqy8aoAArVJz
+    index: 2
     label: At the station
     info: Natsu, Hika
     context:
@@ -158,6 +161,7 @@
 - postximage:
     post: 1993556066672726364
     id: G6qIqy_bwAQd9OD
+    index: 1
     label: At the station
     info: Natsu, Hika
     context:
@@ -170,6 +174,7 @@
 - postximage:
     post: 1993556722968154273
     id: G6qJRW2aMAAibSL
+    index: 1
     label: At the station
     context:
     - media:

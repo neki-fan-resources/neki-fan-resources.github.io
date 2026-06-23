@@ -1628,6 +1628,7 @@
 - postximage:
     post: 2003059716516352264
     id: G8xML__bAAAxWn2
+    index: 2
     label: 500k views
     context:
     - song: getover
@@ -1637,6 +1638,7 @@
 - postximage:
     post: 2003059716516352264
     id: G8xMMAIaEAA30yU
+    index: 1
     label: Behind the scenes
     context:
     - song: getover
@@ -1647,6 +1649,7 @@
 - postximage:
     post: 2003125205439549880
     id: G8yHwK9bIAM0YXL
+    index: 1
     label: Behind the scenes
     info: Natsu
     context:

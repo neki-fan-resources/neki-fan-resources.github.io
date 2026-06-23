@@ -336,6 +336,7 @@
 - postximage:
     post: 1994692850974691750
     id: G66K9MpbAAEmHxM
+    index: 1
     label: Article headline
     context:
     - media:
@@ -347,6 +348,7 @@
 - postximage:
     post: 1994694260587991125
     id: G66T2TpasAAbQUQ
+    index: 1
     label: Give away
     info: handwritten autograph board signed by all NEK! members.
     context:
@@ -359,6 +361,7 @@
 - postximage:
     post: 1999038338599371214
     id: G74CxYqacAATAOR
+    index: 1
     label: Cover
     local-copy: true
     context:

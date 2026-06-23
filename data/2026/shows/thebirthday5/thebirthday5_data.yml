@@ -1,0 +1,79 @@
+- postx:
+    id: 2069012864212574376
+    account: YOKOHAMAReNY_b
+    label: Announcement
+    published-date: 2026-06-22
+    text: |-
+      ＼🎂情報解禁!!🎂／
+      
+      8/6 (木)
+      横浜ReNY beta 2nd anniversary presents The Birthday vol.5
+      
+      ACT🔻
+      レイラ
+      NEK!
+      and more…
+      
+      OPEN/START 18:00/18:30
+      一般：￥3,800＋D
+      学生：￥2,000＋D
+      
+      7/4 12:00-発売！
+      一般https://eplus.jp/sf/detail/4544650001-P0030001
+      学生https://tiget.net/events/493863
+      
+      横浜ReNYbeta2周年公演
+      Day5❤️‍🔥
+    translation: |-
+      ＼🎂Information Released!!🎂／
+      
+      8/6 (Thu)
+      Yokohama ReNY beta 2nd anniversary presents The Birthday vol.5
+      
+      ACT🔻
+      Layla
+      NEK!
+      and more…
+      
+      OPEN/START 18:00/18:30
+      General: ￥3,800＋D
+      Student: ￥2,000＋D
+      
+      On sale 7/4 12:00-!
+      General https://eplus.jp/sf/detail/4544650001-P0030001
+      Student https://tiget.net/events/493863
+      
+      Yokohama ReNY beta 2nd Anniversary Performance
+      Day5❤️‍🔥
+    image:
+    - HLacL_-bwAA4v2Q
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- postximage:
+    post: 2069012864212574376
+    id: HLacL_-bwAA4v2Q
+    index: 1
+    label: Poster
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2069012864212574376
+
+- update:
+    show:
+      year: 2026
+      id: thebirthday5
+    date: 2026-06-23
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+

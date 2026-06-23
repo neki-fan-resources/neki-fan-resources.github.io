@@ -1,0 +1,135 @@
+- postx:
+    id: 2068167309886390420
+    account: chFILES
+    label: Announcement
+    published-date: 2026-06-20
+    text: |-
+      6/20より高校図書館で順次配布
+      設置校http://ch-files.net
+      
+      特集テーマ
+      「知りたい！みんなの留学エピソード」🌍💫✈️
+      
+      #ICEx
+      #LILLEAGUE
+      #BUSbecauseofyouishine
+      #うち弟
+      #大空直美
+      #増田俊樹
+      #八代拓
+      #小野賢章
+      #寺澤百花
+      #オレンジスパイニクラブ
+      #NEK!
+      #大塚澪
+      #鈴木農水大臣
+      #畜産に生きる会議
+    translation: |-
+      Distributed sequentially at high school libraries starting from 6/20
+      Participating schools http://ch-files.net
+      
+      Special Feature Theme
+      "We want to know! Everyone's study abroad episodes" 🌍💫✈️
+      
+      #ICEx
+      #LILLEAGUE
+      #BUSbecauseofyouishine
+      #UchiOto
+      #NaomiOozora
+      #ToshikiMasuda
+      #TakuYashiro
+      #KenshoOno
+      #MomokaTerasawa
+      #OrangeSpinyCrab
+      #NEK!
+      #MioOtsuka
+      #MinisterOfAgricultureForestryAndFisheriesSuzuki
+      #MeetingToLiveInLivestock
+    image:
+    - HLObM8dbMAA2VuT
+    part-of:
+      media:
+        year: 2026
+        id: ch07
+
+- postx:
+    id: 2068178059363324405
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-06-20
+    text: |-
+      📚MAGAZINE📚
+      
+      「ch FILES」6月20日号
+      @chFILES
+      
+      
+      NEK!のインタビュー記事が掲載🎤
+      
+      ＊関東・東海・関西エリアの高校図書館で順次配布となります。
+      
+      ぜひチェックお願いします✔︎
+      
+      https://ch-files.net
+      
+      #NEKI
+    translation: |-
+      📚MAGAZINE📚
+      
+      "ch FILES" June 20th Issue
+      @chFILES
+      
+      
+      An interview article of NEK! has been published🎤
+      
+      *Distributed sequentially at high school libraries in the Kanto, Tokai, and Kansai areas.
+      
+      Please be sure to check it out✔︎
+      
+      https://ch-files.net
+      
+      #NEKI
+    image:
+    - HLOk-3JaMAACU_1
+    part-of:
+      media:
+        year: 2026
+        id: ch07
+
+- postximage:
+    post: 2068167309886390420
+    id: HLObM8dbMAA2VuT
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: ch07
+    part-of:
+      postx: 2068167309886390420
+
+- postximage:
+    post: 2068178059363324405
+    id: HLOk-3JaMAACU_1
+    index: 1
+    label: Band
+    context:
+    - media:
+        year: 2026
+        id: ch07
+    part-of:
+      postx: 2068178059363324405
+
+- update:
+    media:
+      year: 2026
+      id: ch07
+    date: 2026-06-23
+    text:
+    - Added the article
+    part-of:
+      media:
+        year: 2026
+        id: ch07
+

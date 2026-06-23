@@ -152,6 +152,26 @@
     part-of:
       tour: majordebuttour
 
+- postx:
+    id: 2068979275265691868
+    account: coco_102
+    label: 2nd lottery last day
+    published-date: 2026-06-23
+    text: |-
+      “NEK! MAJOR DEBUT TOUR”のオフィシャル2次先行受付は本日までです！！
+      メジャーデビューした今のNEK!を多くの方にぜひ生で味わってもらいたい！画面越しでは伝わらないライブならではの音圧と等身大の私たちをぜひ楽しんでほしいです！！
+      
+      東名阪各地でお待ちしています！！！！
+    translation: |-
+      Today is the deadline for the official 2nd pre-sale applications for the “NEK! MAJOR DEBUT TOUR”!!
+      I definitely want many people to experience the current NEK!, who have made their major debut, live in person! I want you all to enjoy the unique sound pressure of a live show and us as our authentic, true selves, which just can't be conveyed through a screen!!
+      
+      We are looking forward to seeing you in Tokyo, Nagoya, and Osaka!!!!
+    image:
+    - HLZ9rsDawAEhQNk
+    part-of:
+      tour: majordebuttour
+
 - postximage:
     post: 2064221900256231452
     id: HKWW3tUbUAAQK21
@@ -160,6 +180,18 @@
     - tour: majordebuttour
     part-of:
       postx: 2064221900256231452
+
+- postximage:
+    post: 2068979275265691868
+    id: HLZ9rsDawAEhQNk
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2025
+        id: 1stalbummeme
+    part-of:
+      postx: 2068979275265691868
 
 - update:
     tour: majordebuttour

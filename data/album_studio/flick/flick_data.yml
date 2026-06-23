@@ -30,6 +30,10 @@
                 - youtubeshort: ChRV1YguxLw
                 - youtubeshort: bbWxE2HUeVw
             - multimediasubsection:
+                multimedia:
+                - youtubeshort: uNRR30VezUA
+                - youtubeshort: eIcyBU-H0oc
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postinstagramimage:
@@ -586,6 +590,21 @@
         post: 2065387584067657794
         image: HKm7DldbMAAGyNX
 
+- postinstagram:
+    id: DZzpdcrmVz2
+    account: 46_hikaa
+    label: Photos
+    published-date: 2026-06-20
+    text: |-
+      -
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      song: flick
+
 - postinstagramimage:
     post: DZe40o7mUI4
     id: 1
@@ -753,6 +772,46 @@
     - song: flick
     part-of:
       postinstagram: DZkZAl-SfeS
+
+- postinstagramimage:
+    post: DZzpdcrmVz2
+    id: 1
+    label: Behind the scenes
+    info: posters
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZzpdcrmVz2
+
+- postinstagramimage:
+    post: DZzpdcrmVz2
+    id: 2
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZzpdcrmVz2
+
+- postinstagramimage:
+    post: DZzpdcrmVz2
+    id: 3
+    label: Behind the scenes
+    info: Hello Kitty water bottles
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZzpdcrmVz2
+
+- postinstagramimage:
+    post: DZzpdcrmVz2
+    id: 4
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DZzpdcrmVz2
 
 - postinstagramvideo:
     post: DZgr7VlHfBs
@@ -1065,6 +1124,186 @@
     part-of:
       song: flick
 
+- postx:
+    id: 2068136759162974411
+    account: USEN_HITS
+    label: USEN HIT SNS Featured Tracks 6/20
+    published-date: 2026-06-20
+    text: |-
+      【6/20〜のUSEN HIT SNS注目曲】 
+       気になるアーティストがいたらリポスト🥰
+      
+      『ユイカ』 
+      @yuika_singuitar
+       
+      SUPER BEAVER 
+      @super_beaver
+       
+      湊あかね 
+      @akanesakae
+       
+      FUNNY THINK 
+      @FxTx_official
+       
+      Peel the Apple 
+      @PtA_staff
+       
+      福島清香 
+      @SeikaMoka
+       
+      YANK 
+      @YANK_official_
+       
+      Green Note 
+      @GN_idol2025
+       
+      LE SSERAFIM×ILLIT×KATSEYE 
+      @le_sserafim_jp
+       
+      @ILLITjpofficial
+       
+      @katseyeworld_jp
+       
+      オリヴィア・ロドリゴ 
+      @olivia_jpn
+       
+      J・バルヴィン、アンバー・マーク 
+      @JBALVIN
+       
+      @ambermark
+       
+      Lavt 
+      @Lavt_k
+       
+      @Lavt_staff
+       
+      じわるちゃん 
+      @cpopjiwaru
+       
+      Neighbors Complain 
+      @NeighborsC
+       
+      冬月みぃな 
+      @Miinaf317
+       
+      SiM 
+      @SiM_Official
+       
+      chilldspot 
+      @chilldspot
+       
+      NEK! 
+      @nekiband_jp
+       
+      G:nt 
+      @Gnt_luv_u6
+       
+      Quiqman feat. 紅音 
+      @Quiqman
+       
+      @kazejapanakane
+       
+      米津玄師 
+      @hachi_08
+       
+      Ovall 
+      @Ovall_Japan
+       
+      嵐 
+      @arashi5official
+       
+      Rol3ert 
+      @rol3ertmusic
+    translation: |-
+      [USEN HIT SNS Featured Tracks from 6/20~] 
+      Repost if there is an artist you're interested in🥰
+      
+      『yuika』 
+      @yuika_singuitar
+       
+      SUPER BEAVER 
+      @super_beaver
+       
+      Akane Minato 
+      @akanesakae
+       
+      FUNNY THINK 
+      @FxTx_official
+       
+      Peel the Apple 
+      @PtA_staff
+       
+      Seika Fukushima 
+      @SeikaMoka
+       
+      YANK 
+      @YANK_official_
+       
+      Green Note 
+      @GN_idol2025
+       
+      LE SSERAFIM×ILLIT×KATSEYE 
+      @le_sserafim_jp
+       
+      @ILLITjpofficial
+       
+      @katseyeworld_jp
+       
+      Olivia Rodrigo 
+      @olivia_jpn
+       
+      J Balvin, Amber Mark 
+      @JBALVIN
+       
+      @ambermark
+       
+      Lavt 
+      @Lavt_k
+       
+      @Lavt_staff
+       
+      Jiwaru-chan 
+      @cpopjiwaru
+       
+      Neighbors Complain 
+      @NeighborsC
+       
+      Miina Fuyutsuki 
+      @Miinaf317
+       
+      SiM 
+      @SiM_Official
+       
+      chilldspot 
+      @chilldspot
+       
+      NEK! 
+      @nekiband_jp
+       
+      G:nt 
+      @Gnt_luv_u6
+       
+      Quiqman feat. Akane 
+      @Quiqman
+       
+      @kazejapanakane
+       
+      Kenshi Yonezu 
+      @hachi_08
+       
+      Ovall 
+      @Ovall_Japan
+       
+      ARASHI 
+      @arashi5official
+       
+      Rol3ert 
+      @rol3ertmusic
+    image:
+    - HLJcsqjbsAAlrw8
+    part-of:
+      song: flick
+
 - postximage:
     post: 2064648886728483169
     id: HKcX7azaUAAKYpA
@@ -1205,6 +1444,16 @@
     part-of:
       postx: 2067216211247808995
 
+- postximage:
+    post: 2068136759162974411
+    id: HLJcsqjbsAAlrw8
+    index: 1
+    label: USEN list
+    context:
+    - song: flick
+    part-of:
+      postx: 2068136759162974411
+
 - postxvideo:
     post: 2064648780197347398
     id: 01
@@ -1237,6 +1486,14 @@
     text:
     - Added the lyrics
     - Added the music video with a lot of pictures
+    part-of:
+      song: flick
+
+- update:
+    song: flick
+    date: 2026-06-23
+    text:
+    - More pictures and videos added
     part-of:
       song: flick
 
@@ -1454,6 +1711,26 @@
     id: cqc7gCDuMcY
     label: MV teaser
     published-date: 2026-06-10
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: eIcyBU-H0oc
+    label: Off shot
+    info: Natsu
+    published-date: 2026-06-21
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: uNRR30VezUA
+    label: Off shot
+    info: Kanade
+    published-date: 2026-06-22
     context:
     - song: flick
     part-of:

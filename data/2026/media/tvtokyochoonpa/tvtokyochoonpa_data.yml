@@ -1,3 +1,33 @@
+- display:
+    media:
+      year: 2026
+      id: tvtokyochoonpa
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: NEK! Segment
+            subsections:
+            - textsubsection:
+                multimedia:
+                  webvideo:
+                    domain: drive.google.com
+                    page: nekidist
+                    id: tvtokyo-superultrasonic
+                lines:
+                - line:
+                  - text: The segment follows NEK! as they prepare themselves for the tour final at CLUB QUATTRO.
+                  - newline: ''
+                  - text: It shows the band getting ready for the rehearsal, and the few seconds before getting on stage.
+                  - newline: ''
+                  - text: The segment ends with clips of 4 songs live.
+    part-of:
+      media:
+        year: 2026
+        id: tvtokyochoonpa
+
 - postx:
     id: 2065760071502717271
     account: nekiband_jp
@@ -105,6 +135,63 @@
         year: 2026
         id: tvtokyochoonpa
 
+- postx:
+    id: 2068302761981301161
+    account: nekiband_jp
+    label: On replay
+    published-date: 2026-06-20
+    text: |-
+      💡#テレ東超超音波💡
+      
+      テレビ東京「超⚡️超音波」
+      @cho_choonpa_tx
+      
+      
+      初の全国ツアーファイナル公演
+      密着映像の見逃し配信がスタート📺
+      
+      ぜひご覧ください！
+      
+      ▼TVerでの配信は6/27(土)昼11:59まで⚡️
+      https://tver.jp/episodes/ep6bui4tvi
+      
+      #NEKI #超超音波
+    translation: |-
+      💡#TXChouChouonpa💡
+      
+      TV Tokyo "Chou⚡️Chouonpa"
+      @cho_choonpa_tx
+      
+      
+      The archive streaming of the behind-the-scenes footage
+      from our very first nationwide tour final performance has started📺
+      
+      Please check it out!
+      
+      ▼Available on TVer until 6/27 (Sat) 11:59 AM⚡️
+      https://tver.jp/episodes/ep6bui4tvi
+      
+      #NEKI #ChouChouonpa
+    image:
+    - HLQWSqTb0AACm1S
+    part-of:
+      media:
+        year: 2026
+        id: tvtokyochoonpa
+
+- postximage:
+    post: 2068302761981301161
+    id: HLQWSqTb0AACm1S
+    index: 1
+    label: Flyer
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: tvtokyochoonpa
+    part-of:
+      postx: 2068302761981301161
+
 - postxvideo:
     post: 2067539898660458896
     id: 1
@@ -129,6 +216,18 @@
         year: 2026
         id: tvtokyochoonpa
 
+- update:
+    media:
+      year: 2026
+      id: tvtokyochoonpa
+    date: 2026-06-23
+    text:
+    - English-subtitled version of the segment
+    part-of:
+      media:
+        year: 2026
+        id: tvtokyochoonpa
+
 - webimage:
     domain: tv-tokyo.co.jp
     page: choonpa
@@ -136,7 +235,6 @@
     label: Flyer
     published-date: 2026-06-13
     url: 'https://tv-tokyo.imgix.net/txcms/media/pg/L/52/27/a6d69e74fca65398d52e15e9834b.jpg?auto=format,compress&w=600'
-    local-copy: true
     part-of:
       webpage:
         domain: tv-tokyo.co.jp
@@ -150,6 +248,23 @@
     url: 'https://www.tv-tokyo.co.jp/choonpa/'
     image:
     - flyer
+    part-of:
+      media:
+        year: 2026
+        id: tvtokyochoonpa
+
+- webvideo:
+    domain: drive.google.com
+    page: nekidist
+    id: tvtokyo-superultrasonic
+    label: NEK! segment
+    info: English-subtitled
+    published-date: 2026-06-22
+    url: 'https://drive.google.com/file/d/1DJaeW0H9XoKdX4XueD-mz3qvl8WZ2i9k/view?usp=drive_link'
+    context:
+    - media:
+        year: 2026
+        id: tvtokyochoonpa
     part-of:
       media:
         year: 2026

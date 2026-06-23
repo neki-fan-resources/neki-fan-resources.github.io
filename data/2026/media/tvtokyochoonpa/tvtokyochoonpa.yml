@@ -2,10 +2,9 @@ mediavideo:
   year: 2026
   id: tvtokyochoonpa
   cover-image:
-    webimage:
-      domain: tv-tokyo.co.jp
-      page: choonpa
-      id: flyer
+    postximage:
+      post: 2068302761981301161
+      image: HLQWSqTb0AACm1S
   channel: テレビ東京
   show: 超⚡️超音波
   designation: tv show

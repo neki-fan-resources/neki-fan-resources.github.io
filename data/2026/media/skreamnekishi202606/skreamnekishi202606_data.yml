@@ -1,0 +1,72 @@
+- postx:
+    id: 2068641229232111835
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-06-21
+    text: |-
+      📚MAGAZINE📚
+      
+      フリーマガジン「Skream!6月号」
+      
+      コラム連載 "NEK!の #ネキ史" 
+      第3回が掲載📙
+      
+      今回はVoGt. Hikaが担当です🌟
+      
+      全国のCDショップやライヴハウス、スタジオ等にて順次配布開始！
+      
+      ぜひゲットしてください✔️
+      
+      🔗https://skream.jp/news/2026/06/skream_magazine_news.php
+      
+      #NEKI
+    translation: |-
+      Free magazine "Skream! June Issue"
+      
+      Serial column column "NEK!'s #Nekistory" 
+      The 3rd installment is published📙
+      
+      Vo. & Gt. Hika is in charge this time🌟
+      
+      Distribution starting sequentially at CD shops, live houses, studios, etc. nationwide!
+      
+      Please go grab a copy✔️
+      
+      🔗https://skream.jp/news/2026/06/skream_magazine_news.php
+      
+      #NEKI
+    image:
+    - HLUz3JTasAAlCfV
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202606
+    reference:
+    - postximage:
+        post: 2023344120002154684
+        image: HBRcv-7aAAAUKj-
+
+- postximage:
+    post: 2068641229232111835
+    id: HLUz3JTasAAlCfV
+    index: 1
+    label: Cover
+    context:
+    - media:
+        year: 2026
+        id: skreamnekishi202606
+    part-of:
+      postx: 2068641229232111835
+
+- update:
+    media:
+      year: 2026
+      id: skreamnekishi202606
+    date: 2026-06-23
+    text:
+    - Added the article
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202606
+

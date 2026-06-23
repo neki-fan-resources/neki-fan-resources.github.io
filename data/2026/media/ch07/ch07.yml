@@ -1,0 +1,26 @@
+mediawritten:
+  year: 2026
+  id: ch07
+  cover-image:
+    postximage:
+      post: 2068167309886390420
+      image: HLObM8dbMAA2VuT
+  publication: ch
+  issue: 2026-07
+  designation: magazine
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-06-20
+  webpage: 'https://www.ch-files.net/lineup/'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  multimedia:
+    image:
+    - postximage:
+        post: 2068178059363324405
+        image: HLOk-3JaMAACU_1

@@ -46,6 +46,103 @@
         year: 2026
         id: nack5hitsthetown
 
+- postx:
+    id: 2068181357382254939
+    account: hitsthetown795
+    label: Starting now
+    published-date: 2026-06-20
+    text: |-
+      HITS! THE TOWN スタート☔️！
+      
+       #ヒッツ795 #NACK5
+    translation: |-
+      HITS! THE TOWN starts now☔️!
+      
+       #Hits795 #NACK5
+    image:
+    - HLOn-ZTasAAiwZK
+    part-of:
+      media:
+        year: 2026
+        id: nack5hitsthetown
+
+- postx:
+    id: 2068243867523277264
+    account: hitsthetown795
+    label: Thank you
+    published-date: 2026-06-20
+    text: |-
+      HITS! THE TOWN
+      
+      🎙️ゲスト②
+      #NEK 
+      HikaさんとNatsuさん！
+      (
+      @46_hikaa
+      /
+      @natsu08_guitar
+       )
+      （
+      @nekiband_jp
+       ）
+      
+      ご出演ありがとうございました！
+       
+      📻https://radiko.jp/share/?sid=NACK5&t=20260620161611
+       
+      #ヒッツ795 #NACK5
+    translation: |-
+      HITS! THE TOWN
+      
+      🎙️Guest ②
+      #NEK 
+      Hika and Natsu!
+      (
+      @46_hikaa
+      /
+      @natsu08_guitar
+       )
+      (
+      @nekiband_jp
+       )
+      
+      Thank you for your appearance!
+       
+      📻https://radiko.jp/share/?sid=NACK5&t=20260620161611
+       
+      #Hits795 #NACK5
+    image:
+    - HLPg0IvaAAAoYkN
+    part-of:
+      media:
+        year: 2026
+        id: nack5hitsthetown
+
+- postximage:
+    post: 2068181357382254939
+    id: HLOn-ZTasAAiwZK
+    index: 1
+    label: Schedule
+    context:
+    - media:
+        year: 2026
+        id: nack5hitsthetown
+    part-of:
+      postx: 2068181357382254939
+
+- postximage:
+    post: 2068243867523277264
+    id: HLPg0IvaAAAoYkN
+    index: 1
+    label: At the studio
+    info: 山口五和 (Yamaguchi Gowa), Natsu, Hika, バカボン鬼塚 (Bakabon Onizuka)
+    context:
+    - media:
+        year: 2026
+        id: nack5hitsthetown
+    part-of:
+      postx: 2068243867523277264
+
 - update:
     media:
       year: 2026
@@ -53,6 +150,18 @@
     date: 2026-06-17
     text:
     - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: nack5hitsthetown
+
+- update:
+    media:
+      year: 2026
+      id: nack5hitsthetown
+    date: 2026-06-23
+    text:
+    - Added the photos
     part-of:
       media:
         year: 2026

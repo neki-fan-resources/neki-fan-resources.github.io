@@ -59,13 +59,22 @@ contentpage:
       id: newmusicgroundvol2
   - show:
       year: 2026
+      id: thebirthday5
+  - show:
+      year: 2026
       id: newsignals
   - show:
       year: 2026
       id: gravityvol8
   - media:
       year: 2026
+      id: skreamnekishi202606
+  - media:
+      year: 2026
       id: nack5hitsthetown
+  - media:
+      year: 2026
+      id: ch07
   - media:
       year: 2026
       id: tvtokyochoonpa

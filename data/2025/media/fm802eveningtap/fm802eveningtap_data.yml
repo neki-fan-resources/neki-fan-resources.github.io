@@ -92,6 +92,7 @@
 - postximage:
     post: 1990387787246252466
     id: G59HIQBaIAAqZQk
+    index: 1
     label: At the station
     info: Natsu, Hika
     context:
@@ -104,6 +105,7 @@
 - postximage:
     post: 1990421782176612546
     id: G59mDogaYAAprra
+    index: 1
     label: In studio
     context:
     - media:

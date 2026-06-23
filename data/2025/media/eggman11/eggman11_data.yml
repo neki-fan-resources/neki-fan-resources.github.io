@@ -277,6 +277,7 @@
 - postximage:
     post: 1984215197004042333
     id: G4lZM-Ub0AErRPS
+    index: 2
     label: Back cover
     local-copy: true
     context:
@@ -289,6 +290,7 @@
 - postximage:
     post: 1984215197004042333
     id: G4lZM-aaAAEzKg-
+    index: 1
     label: Front cover
     context:
     - media:
@@ -300,6 +302,7 @@
 - postximage:
     post: 1984283088168591452
     id: G4mW80ubIAABGZR
+    index: 1
     label: Covers
     context:
     - media:
@@ -311,6 +314,7 @@
 - postximage:
     post: 1984283088168591452
     id: G4mW82ebIAEGRKk
+    index: 2
     label: Sidewalk board
     context:
     - media:
@@ -322,6 +326,7 @@
 - postximage:
     post: 1986797834231071231
     id: G5KGGLSasAAjMSI
+    index: 1
     label: In hand
     info: Kanade
     context:

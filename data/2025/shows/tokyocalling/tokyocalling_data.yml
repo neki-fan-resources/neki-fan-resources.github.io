@@ -352,6 +352,7 @@
     id: 1971514796249133057
     account: nekiband_jp
     label: Tomorrow
+    info: 1
     published-date: 2025-09-26
     text: |-
       🔥明日出演🔥
@@ -691,6 +692,7 @@
 - postximage:
     post: 1962470508890657030
     id: GzwYhdXawAArF2M
+    index: 2
     label: Schedule 9/27
     context:
     - show:
@@ -702,6 +704,7 @@
 - postximage:
     post: 1962470508890657030
     id: GzwYhdZaIAA6XLZ
+    index: 1
     label: Schedule 9/23
     context:
     - show:
@@ -713,6 +716,7 @@
 - postximage:
     post: 1962470508890657030
     id: GzwYhdvbYAI9nwF
+    index: 3
     label: Schedule 9/28
     context:
     - show:
@@ -724,6 +728,7 @@
 - postximage:
     post: 1971180905709625391
     id: G1sKeAqaAAEUyBA
+    index: 1
     label: Venue poster
     local-copy: true
     context:
@@ -747,6 +752,7 @@
 - postximage:
     post: 1971918444418453926
     id: G12pUcua8AEO3t3
+    index: 4
     label: On stage
     context:
     - show:
@@ -758,6 +764,7 @@
 - postximage:
     post: 1971918444418453926
     id: G12pUf_b0AAaATF
+    index: 3
     label: On stage
     info: Natsu
     context:
@@ -770,6 +777,7 @@
 - postximage:
     post: 1971918444418453926
     id: G12pUg1b0AUs2d8
+    index: 2
     label: On stage
     info: Kanade
     context:
@@ -782,6 +790,7 @@
 - postximage:
     post: 1971918444418453926
     id: G12pWYdbIAAp8Ib
+    index: 1
     label: On stage
     context:
     - show:
@@ -793,6 +802,7 @@
 - postximage:
     post: 1971925623133425704
     id: G12v5sIa4AABkXE
+    index: 2
     label: On stage
     info: Hika
     context:
@@ -805,6 +815,7 @@
 - postximage:
     post: 1971925623133425704
     id: G12v5sJaoAAIx8N
+    index: 1
     label: On stage
     context:
     - show:
@@ -816,6 +827,7 @@
 - postximage:
     post: 1971925623133425704
     id: G12v5sLb0AIOljm
+    index: 3
     label: On stage
     info: Cocoro
     context:
@@ -828,6 +840,7 @@
 - postximage:
     post: 1971925623133425704
     id: G12v5sQb0AIm4dt
+    index: 4
     label: On stage
     context:
     - show:
@@ -839,6 +852,7 @@
 - postximage:
     post: 1971928063769534779
     id: G12yHh4bgAAMFpJ
+    index: 2
     label: On stage
     context:
     - show:
@@ -850,6 +864,7 @@
 - postximage:
     post: 1971928063769534779
     id: G12yHhua8AA--GH
+    index: 1
     label: Backstage
     context:
     - show:
@@ -861,6 +876,7 @@
 - postximage:
     post: 1971939704607330507
     id: G128R3ca8AAtXAF
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -873,6 +889,7 @@
 - postximage:
     post: 1971939704607330507
     id: G128TQAakAAVDf7
+    index: 2
     label: On stage
     context:
     - show:
@@ -884,6 +901,7 @@
 - postximage:
     post: 1971940313058177412
     id: G129QPzb0AIqsay
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -896,6 +914,7 @@
 - postximage:
     post: 1971943435419746395
     id: G13AGZrbcAAi-3S
+    index: 1
     label: Backstage
     info: Hika
     context:
@@ -908,6 +927,7 @@
 - postximage:
     post: 1971946181770334695
     id: G13CjL-boAEclEX
+    index: 2
     label: Backstage
     info: Natsu
     context:
@@ -920,6 +940,7 @@
 - postximage:
     post: 1972588102490456172
     id: G2AKaoUaEAAfEQg
+    index: 2
     label: On stage
     context:
     - show:

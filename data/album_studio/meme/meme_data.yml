@@ -1773,6 +1773,7 @@
 - postximage:
     post: 1961737876066168993
     id: Gzl-A0MaAAAtcNa
+    index: 2
     label: 初回盤A
     info: First Press Edition A
     local-copy: true
@@ -1784,6 +1785,7 @@
 - postximage:
     post: 1961737876066168993
     id: Gzl-C69aoAADilM
+    index: 3
     label: 初回盤B
     info: First Press Edition B
     context:
@@ -1794,6 +1796,7 @@
 - postximage:
     post: 1961737876066168993
     id: Gzl-Eg6boAEMEc0
+    index: 4
     label: 通常盤
     info: Regular edition
     context:
@@ -1804,6 +1807,7 @@
 - postximage:
     post: 1961737876066168993
     id: Gzl99vsacAA6bCZ
+    index: 1
     label: Band image
     context:
     - album: meme
@@ -1813,6 +1817,7 @@
 - postximage:
     post: 1969026474951786643
     id: G1NjIuDbUAEPEkd
+    index: 1
     label: It fits perfectly
     context:
     - album: meme
@@ -1823,6 +1828,7 @@
 - postximage:
     post: 1969298971727212878
     id: G1Ra9_2bQAAkfUH
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -1836,6 +1842,7 @@
 - postximage:
     post: 1976221883000594481
     id: G2zzUsDaAAIfTbf
+    index: 1
     label: Recording
     info: Natsu with acoustic guitar
     context:
@@ -1846,6 +1853,7 @@
 - postximage:
     post: 1990798932306505823
     id: G6C5QdUboAAjvwX
+    index: 1
     label: Streaming Campaign
     context:
     - album: meme
@@ -1855,6 +1863,7 @@
 - postximage:
     post: 1992921351557202148
     id: G6hHZwwawAEHhCI
+    index: 1
     label: Albums
     context:
     - album: meme
@@ -1864,6 +1873,7 @@
 - postximage:
     post: 1993165331645542578
     id: G6kkdZia0AAMvMo
+    index: 1
     label: In-store display
     info: Tower Records Shibuya
     context:
@@ -1874,6 +1884,7 @@
 - postximage:
     post: 1993165331645542578
     id: G6kkegRaQAAWJuu
+    index: 2
     label: In-store display
     info: Tower Records Shibuya
     context:

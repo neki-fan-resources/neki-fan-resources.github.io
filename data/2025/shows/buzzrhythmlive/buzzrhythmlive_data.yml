@@ -1243,6 +1243,7 @@
 - postximage:
     post: 1966335966437929047
     id: G0jA10Va8AAl_wd
+    index: 1
     label: Bands
     info: BUZZER stage - day 1
     context:
@@ -1255,6 +1256,7 @@
 - postximage:
     post: 1966335966437929047
     id: G0jA1z1bIAAHBld
+    index: 2
     label: Bands
     info: BUZZER stage - day 2
     context:
@@ -1267,6 +1269,7 @@
 - postximage:
     post: 1966335966437929047
     id: G0jA1z7bsAA0lDq
+    index: 3
     label: Bands
     info: BUZZER stage - day 3
     context:
@@ -1279,6 +1282,7 @@
 - postximage:
     post: 1966336018229121319
     id: G0nPdRUaYAAaVrH
+    index: 1
     label: Flyer
     local-copy: true
     context:
@@ -1291,6 +1295,7 @@
 - postximage:
     post: 1966336018229121319
     id: G0nPfDKaMAgZmN1
+    index: 2
     label: NEK! Poster
     context:
     - show:
@@ -1302,6 +1307,7 @@
 - postximage:
     post: 1967921415404789905
     id: G0uq9-QbcAMV7Hg
+    index: 1
     label: Profile card
     context:
     - show:
@@ -1313,6 +1319,7 @@
 - postximage:
     post: 1984583590974538100
     id: G4qoQbebMAAaiFI
+    index: 1
     label: Bands
     context:
     - show:
@@ -1324,6 +1331,7 @@
 - postximage:
     post: 1984877391978905779
     id: G4uzcEPbQAUE80u
+    index: 2
     label: Venue
     context:
     - show:
@@ -1335,6 +1343,7 @@
 - postximage:
     post: 1984877391978905779
     id: G4uzcERbQAIjlcC
+    index: 1
     label: Band
     context:
     - show:
@@ -1346,6 +1355,7 @@
 - postximage:
     post: 1984877391978905779
     id: G4uzcEUbQAAOv6C
+    index: 4
     label: Band
     context:
     - show:
@@ -1357,6 +1367,7 @@
 - postximage:
     post: 1984877391978905779
     id: G4uzcEXbQAAx1pc
+    index: 3
     label: On stage
     context:
     - show:
@@ -1368,6 +1379,7 @@
 - postximage:
     post: 1984879105540813293
     id: G4u1Bh6asAAzrD6
+    index: 3
     label: Band
     context:
     - show:
@@ -1379,6 +1391,7 @@
 - postximage:
     post: 1984879105540813293
     id: G4u1Bh8aAAAMYUe
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -1391,6 +1404,7 @@
 - postximage:
     post: 1984879105540813293
     id: G4u1Bh9bQAEuppo
+    index: 2
     label: On stage
     context:
     - show:
@@ -1402,6 +1416,7 @@
 - postximage:
     post: 1984882882473836774
     id: G4u4deFaYAAD-6f
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -1414,6 +1429,7 @@
 - postximage:
     post: 1984882882473836774
     id: G4u4deIbcAAKmYh
+    index: 2
     label: Backstage
     info: Kanade
     context:
@@ -1426,6 +1442,7 @@
 - postximage:
     post: 1984885071434956975
     id: G4u6c0sbQAI0SIh
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -1438,6 +1455,7 @@
 - postximage:
     post: 1984885071434956975
     id: G4u6c0ubQAA70De
+    index: 1
     label: Band
     context:
     - show:
@@ -1449,6 +1467,7 @@
 - postximage:
     post: 1984885753453891858
     id: G4u7EkaaIAAAv6w
+    index: 2
     label: On stage
     context:
     - show:
@@ -1460,6 +1479,7 @@
 - postximage:
     post: 1984885753453891858
     id: G4u7EkdbQAMCBbo
+    index: 1
     label: Backstage
     info: Hika
     context:
@@ -1472,6 +1492,7 @@
 - postximage:
     post: 1984953943756259480
     id: G4v5FlVasAAjuUD
+    index: 1
     label: Backstage
     info: Straight Angeli, NEK!
     context:
@@ -1484,6 +1505,7 @@
 - postximage:
     post: 1985183804479377444
     id: G4zKJFebkAANgd5
+    index: 1
     label: Backstage
     info: Straight Angeli, NEK!
     context:
@@ -1496,6 +1518,7 @@
 - postximage:
     post: 1985191533449285818
     id: G4zQaaka4AA_6Ep
+    index: 1
     label: On stage
     context:
     - show:
@@ -1507,6 +1530,7 @@
 - postximage:
     post: 1985199684454125732
     id: G4zYlt5awAACzaJ
+    index: 1
     label: Backstage
     info: KAWAII LAB. MATES, NEK!
     context:
@@ -1519,6 +1543,7 @@
 - postximage:
     post: 1985218438021976367
     id: G4zpojvbUAAZcnd
+    index: 1
     label: Backstage
     info: KAWAII LAB. MATES, NEK!
     context:

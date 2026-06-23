@@ -400,6 +400,7 @@
 - postximage:
     post: 1982055276930011353
     id: G4GsvB-WwAALdCK
+    index: 1
     label: Band poster
     context:
     - show:
@@ -411,6 +412,7 @@
 - postximage:
     post: 1982055276930011353
     id: G4GsvB1WwAAcUUS
+    index: 2
     label: 5th lineup
     context:
     - show:
@@ -422,6 +424,7 @@
 - postximage:
     post: 1990658695475442164
     id: G6A9hz_bMAMnK-L
+    index: 2
     label: Schedule
     context:
     - show:

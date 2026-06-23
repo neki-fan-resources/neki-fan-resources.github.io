@@ -697,6 +697,9 @@
       明日からも頑張るぞ✊🏻🔥
       
       #NEKI
+      
+      alt:
+      爪が結構伸びてきちゃったから封印してます😌
     translation: |-
       Thank you very much for Recommends Junction ❤️‍🔥
       Our first time at EX THEATER ROPPONGI!
@@ -705,6 +708,9 @@
       Gonna work hard starting tomorrow too ✊🏻🔥
       
       #NEKI
+      
+      alt:
+      My nails have gotten pretty long, so I've sealed it away😌
     image:
     - G5E_nUdaYAAceML
     - G5E_nUibIAU49Iz
@@ -1022,6 +1028,7 @@
 - postximage:
     post: 1960597489242792085
     id: GzVuQXBa4AMbecJ
+    index: 1
     label: Poster
     context:
     - show:
@@ -1034,6 +1041,7 @@
 - postximage:
     post: 1971969583360999680
     id: G13X3u8aUAAgOGP
+    index: 1
     label: リコメンズ show
     info: on tv asahi
     context:
@@ -1046,6 +1054,7 @@
 - postximage:
     post: 1974402024918958183
     id: G2Z8LS2bkAAXSVY
+    index: 1
     label: TV program
     context:
     - show:
@@ -1057,6 +1066,7 @@
 - postximage:
     post: 1986431090874306723
     id: G5E4XdZbIAEtzpg
+    index: 1
     label: Band
     context:
     - show:
@@ -1068,6 +1078,7 @@
 - postximage:
     post: 1986431090874306723
     id: G5E4XdyaEAAaCja
+    index: 2
     label: Stage
     context:
     - show:
@@ -1079,6 +1090,7 @@
 - postximage:
     post: 1986438947548070290
     id: G5E_nUdaYAAceML
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -1091,6 +1103,7 @@
 - postximage:
     post: 1986438947548070290
     id: G5E_nUibIAU49Iz
+    index: 3
     label: On stage
     context:
     - show:
@@ -1102,6 +1115,7 @@
 - postximage:
     post: 1986438947548070290
     id: G5E_nUlaUAALd1Y
+    index: 2
     label: On stage
     info: Cocoro
     context:
@@ -1114,6 +1128,7 @@
 - postximage:
     post: 1986446471756128526
     id: G5FGhR9bIAAqh9L
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -1126,6 +1141,7 @@
 - postximage:
     post: 1986446471756128526
     id: G5FGhSCakAA1KRC
+    index: 2
     label: Backstage
     info: Kanade
     context:
@@ -1138,6 +1154,7 @@
 - postximage:
     post: 1986450399201820950
     id: G5FKGbtakAAVn2_
+    index: 2
     label: On stage
     context:
     - show:
@@ -1149,6 +1166,7 @@
 - postximage:
     post: 1986450399201820950
     id: G5FKGbtb0AAQlP2
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -1161,6 +1179,7 @@
 - postximage:
     post: 1986454059474428185
     id: G5FNbpkaEAEboOK
+    index: 1
     label: All the bands and MC
     info: デラックスデラックス, チョーキューメイ, ロイヤルギャル, NEK!, 大渕野々花
     context:
@@ -1173,6 +1192,7 @@
 - postximage:
     post: 1986463217003249752
     id: G5FVxFXbIAAVzuu
+    index: 2
     label: On stage
     info: Hika
     context:
@@ -1185,6 +1205,7 @@
 - postximage:
     post: 1986661560945942557
     id: G5IKJwJbIAEsnpf
+    index: 3
     label: Bands
     info: ロイヤルギャル, NEK!
     context:
@@ -1197,6 +1218,7 @@
 - postximage:
     post: 1986661560945942557
     id: G5IKJwPbIAIx76s
+    index: 2
     label: Bands
     info: チョーキューメイ, NEK!
     context:
@@ -1209,6 +1231,7 @@
 - postximage:
     post: 1986661560945942557
     id: G5IKJwPbIAMSQ4Q
+    index: 1
     label: Bands
     info: デラックスデラックス, NEK!
     context:
@@ -1221,6 +1244,7 @@
 - postximage:
     post: 1986661560945942557
     id: G5IKJwTbIAITGul
+    index: 4
     label: Band and MC
     info: 大渕野々花, NEK!
     context:

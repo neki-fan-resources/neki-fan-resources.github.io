@@ -129,6 +129,7 @@
 - postximage:
     post: 1991845692902637923
     id: G6R1DkAacAAzO-j
+    index: 4
     label: Flyer
     local-copy: true
     part-of:
@@ -137,6 +138,7 @@
 - postximage:
     post: 1992226077100646748
     id: G6XPDoyaMAE_Sgj
+    index: 1
     label: In studio
     info: Hika, Honoka Toyota, Natsu
     context:
@@ -149,6 +151,7 @@
 - postximage:
     post: 1992301169503535260
     id: G6YTWXKbYAASHrl
+    index: 1
     label: At the station
     context:
     - media:

@@ -1068,7 +1068,6 @@
       It was a filming shoot day (⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠☆
     image:
     - G33VVb_WkAEJI_9
-    todo: move to the song when we know
     part-of:
       song: gimmick
 
@@ -1562,28 +1561,29 @@
 - postximage:
     post: 1980973984511557877
     id: G33VVb_WkAEJI_9
+    index: 1
     label: Filming
     info: Kanade
     context:
     - song: gimmick
-    todo: move to the song, adds context
     part-of:
       postx: 1980973984511557877
 
 - postximage:
     post: 1980974929249218933
     id: G33WMQoXAAAn8WU
+    index: 1
     label: Filming
     info: drum set
     context:
     - song: gimmick
-    todo: attach to song when we know
     part-of:
       postx: 1980974929249218933
 
 - postximage:
     post: 1980987266681262190
     id: G33hagoWoAAitgP
+    index: 1
     label: Filming
     info: Natsu
     context:
@@ -1594,6 +1594,7 @@
 - postximage:
     post: 1981624049173488100
     id: G4Akjf2WAAAni4N
+    index: 2
     label: Broken snare drum
     info: behind the scenes
     context:
@@ -1604,6 +1605,7 @@
 - postximage:
     post: 1981624049173488100
     id: G4AkjfxW8AEFeH2
+    index: 1
     label: Broken snare drum
     info: behind the scenes
     context:
@@ -1615,6 +1617,7 @@
 - postximage:
     post: 1982277313711808645
     id: G4J2tTqWMAALmdk
+    index: 1
     label: Filming
     info: Hika
     context:
@@ -1625,6 +1628,7 @@
 - postximage:
     post: 1991773376944435215
     id: G6QySs3acAEhueE
+    index: 1
     label: Cover
     local-copy: true
     part-of:
@@ -1633,6 +1637,7 @@
 - postximage:
     post: 1991844227953946722
     id: G6Rzw8KbMAEtwmA
+    index: 1
     label: Behind the scenes
     info: Kanade
     context:
@@ -1643,6 +1648,7 @@
 - postximage:
     post: 1991874006962864186
     id: G6SO2DNaUAEdNii
+    index: 1
     label: Behind the scenes
     info: Cocoro
     context:
@@ -1653,6 +1659,7 @@
 - postximage:
     post: 1991887814766817351
     id: G6SbaKFaUAA2eg8
+    index: 1
     label: Behind the scenes
     info: Hika
     context:
@@ -1663,6 +1670,7 @@
 - postximage:
     post: 1991887814766817351
     id: G6SbaKKagAI-Xbe
+    index: 2
     label: Behind the scenes
     info: Hika
     context:
@@ -1673,6 +1681,7 @@
 - postximage:
     post: 1992071842669199491
     id: G6VCxzNaQAIe6NW
+    index: 1
     label: Behind the scenes
     info: Natsu
     context:
@@ -1683,6 +1692,7 @@
 - postximage:
     post: 1992086222408454198
     id: G6VP222bAAA436i
+    index: 1
     label: MV image
     context:
     - song: gimmick
@@ -1692,6 +1702,7 @@
 - postximage:
     post: 1992086222408454198
     id: G6VP23DaMAAVFs-
+    index: 2
     label: MV image
     info: Kanade
     context:
@@ -1702,6 +1713,7 @@
 - postximage:
     post: 1992123612602757154
     id: G6Vx288aIAAAwAv
+    index: 1
     label: Behind the scenes
     info: Cocoro
     context:
@@ -1712,6 +1724,7 @@
 - postximage:
     post: 1992123612602757154
     id: G6Vx288awAAteOh
+    index: 2
     label: Behind the scenes
     info: Cocoro
     context:
@@ -1722,6 +1735,7 @@
 - postximage:
     post: 1992845303440159142
     id: G6gCPYSbsAAlga9
+    index: 1
     label: 20k views
     context:
     - song: gimmick
@@ -1731,6 +1745,7 @@
 - postximage:
     post: 1992848424241451046
     id: G6gFEyfbgAAjQdF
+    index: 2
     label: MV image
     info: Natsu
     context:
@@ -1741,6 +1756,7 @@
 - postximage:
     post: 1992848424241451046
     id: G6gFEyhaYAA3PlI
+    index: 1
     label: MV image
     context:
     - song: gimmick
@@ -1750,6 +1766,7 @@
 - postximage:
     post: 1992848424241451046
     id: G6gFEypbsAA7TCo
+    index: 3
     label: MV image
     info: Hika
     context:

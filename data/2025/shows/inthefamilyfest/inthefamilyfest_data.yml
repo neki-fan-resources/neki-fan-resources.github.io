@@ -527,6 +527,7 @@
 - postximage:
     post: 1964992098836664505
     id: G0UH9XuaEAEOX-x
+    index: 1
     label: Timetable
     context:
     - show:
@@ -538,6 +539,7 @@
 - postximage:
     post: 1970343297093902562
     id: G1gQhFwboAAiY3M
+    index: 1
     label: Poster NEK!
     context:
     - show:
@@ -549,6 +551,7 @@
 - postximage:
     post: 1974020534053568626
     id: G2Ug11VawAAShou
+    index: 1
     label: Timetable
     context:
     - show:
@@ -560,6 +563,7 @@
 - postximage:
     post: 1974020534053568626
     id: G2Ug2l_bAAA5XlD
+    index: 2
     label: Line up
     context:
     - show:
@@ -571,6 +575,7 @@
 - postximage:
     post: 1974387155205296495
     id: G2ZunFTa8AAUg4y
+    index: 4
     label: On stage
     context:
     - show:
@@ -582,6 +587,7 @@
 - postximage:
     post: 1974387155205296495
     id: G2ZunFWbEAAHee_
+    index: 2
     label: On stage
     info: Hika
     context:
@@ -594,6 +600,7 @@
 - postximage:
     post: 1974387155205296495
     id: G2ZunFibYAAz5JQ
+    index: 1
     label: The band
     context:
     - show:
@@ -605,6 +612,7 @@
 - postximage:
     post: 1974387155205296495
     id: G2ZunHWbMAEVGJB
+    index: 3
     label: On stage
     context:
     - show:
@@ -616,6 +624,7 @@
 - postximage:
     post: 1974401449116532981
     id: G2Z7njobgAE8QTS
+    index: 2
     label: On stage
     context:
     - show:
@@ -627,6 +636,7 @@
 - postximage:
     post: 1974401449116532981
     id: G2Z7njpaIAA1yyK
+    index: 1
     label: Backstage
     context:
     - show:
@@ -638,6 +648,7 @@
 - postximage:
     post: 1974406428967465407
     id: G2aALKtbEAAoYTX
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -650,6 +661,7 @@
 - postximage:
     post: 1974406428967465407
     id: G2aALKubYAAtpGD
+    index: 2
     label: Backstage
     context:
     - show:
@@ -661,6 +673,7 @@
 - postximage:
     post: 1974413644357362075
     id: G2aGuNUboAAmSty
+    index: 2
     label: On stage
     context:
     - show:
@@ -672,6 +685,7 @@
 - postximage:
     post: 1974413644357362075
     id: G2aGuNYaMAAZ2Ok
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -684,6 +698,7 @@
 - postximage:
     post: 1974414418764321002
     id: G2aHXP4a4AEwq0X
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -696,6 +711,7 @@
 - postximage:
     post: 1974414418764321002
     id: G2aHXPObQAAtugk
+    index: 2
     label: On stage
     context:
     - show:
@@ -707,6 +723,7 @@
 - postximage:
     post: 1974414868846653748
     id: G2aH2qQbAAAtwS8
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -719,6 +736,7 @@
 - postximage:
     post: 1974414868846653748
     id: G2aH2qXbQAAYsXq
+    index: 2
     label: On stage
     context:
     - show:

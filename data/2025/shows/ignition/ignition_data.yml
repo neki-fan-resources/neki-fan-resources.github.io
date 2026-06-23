@@ -523,6 +523,7 @@
 - postximage:
     post: 1963195271380439131
     id: GzqEJ3Ja0AM3eBA
+    index: 1
     label: Flyer
     local-copy: true
     context:
@@ -535,6 +536,7 @@
 - postximage:
     post: 1985300927234912650
     id: G4u_x9ybQAET-_K
+    index: 1
     label: Limited Edition Original Cocktails
     context:
     - show:
@@ -546,6 +548,7 @@
 - postximage:
     post: 1988550113870897593
     id: G5i_yaGa8AA8SOI
+    index: 1
     label: NEK!'s MAZE Drink
     context:
     - show:
@@ -557,6 +560,7 @@
 - postximage:
     post: 1988970473615684061
     id: G5o-GHaacAQmmz4
+    index: 1
     label: Bands
     info: Bray me, NEK!
     context:
@@ -569,6 +573,7 @@
 - postximage:
     post: 1988970473615684061
     id: G5o-GHcacAQslRe
+    index: 2
     label: On stage
     context:
     - show:
@@ -580,6 +585,7 @@
 - postximage:
     post: 1988991929821151489
     id: G5pRmkyacAA0pB9
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -592,6 +598,7 @@
 - postximage:
     post: 1988995037615853822
     id: G5pUb1-bIAAzVHh
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -604,6 +611,7 @@
 - postximage:
     post: 1988999123501216092
     id: G5pYJ_bbkAAkuOE
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -616,6 +624,7 @@
 - postximage:
     post: 1989011716701843707
     id: G5pjnS3bIAACOis
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -628,6 +637,7 @@
 - postximage:
     post: 1989011716701843707
     id: G5pjnS5bUAA7vng
+    index: 2
     label: On stage
     context:
     - show:

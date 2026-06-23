@@ -24,6 +24,7 @@
 - postximage:
     post: 1976924049721983364
     id: G29x8debwAUwy5K
+    index: 1
     label: Old digital cam
     info: rehearsal
     context:
@@ -36,6 +37,7 @@
 - postximage:
     post: 1976924049721983364
     id: G29x8dhb0AAcxCA
+    index: 2
     label: Rehearsal
     context:
     - show:

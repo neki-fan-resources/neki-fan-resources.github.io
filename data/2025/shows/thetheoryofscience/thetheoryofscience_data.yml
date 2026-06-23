@@ -599,6 +599,7 @@
 - postximage:
     post: 1961987308070240564
     id: GzktTajbkAAtiOe
+    index: 1
     label: Schedule 11.18
     context:
     - show:
@@ -610,6 +611,7 @@
 - postximage:
     post: 1961987308070240564
     id: GzktVWObQAAB4zy
+    index: 2
     label: Schedule 11.19
     context:
     - show:
@@ -621,6 +623,7 @@
 - postximage:
     post: 1962461001246502990
     id: GzwPpOzbcAEE3jO
+    index: 1
     label: Bands poster
     context:
     - show:
@@ -632,6 +635,7 @@
 - postximage:
     post: 1972621729647546763
     id: G2ApADSbwAA9bsY
+    index: 1
     label: NEK! poster
     context:
     - show:
@@ -643,6 +647,7 @@
 - postximage:
     post: 1979472544098037887
     id: G3h_yGaWkAABElF
+    index: 4
     label: All band posters
     context:
     - show:
@@ -654,6 +659,7 @@
 - postximage:
     post: 1990672017583190153
     id: G6BJpLwaUAA7GDH
+    index: 3
     label: Map poster
     context:
     - show:
@@ -665,6 +671,7 @@
 - postximage:
     post: 1990747279180116232
     id: G6COFuEbMAID7KA
+    index: 1
     label: On stage
     context:
     - show:
@@ -676,6 +683,7 @@
 - postximage:
     post: 1990756757828980764
     id: G6CWsLmbMAcPVxw
+    index: 2
     label: Band
     context:
     - show:
@@ -687,6 +695,7 @@
 - postximage:
     post: 1990756757828980764
     id: G6CWsLraoAAGm3v
+    index: 1
     label: On stage
     context:
     - show:
@@ -698,6 +707,7 @@
 - postximage:
     post: 1990790079674290383
     id: G6C1AjpbsAAF74y
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -710,6 +720,7 @@
 - postximage:
     post: 1990790079674290383
     id: G6C1AjsaIAA-8pv
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -722,6 +733,7 @@
 - postximage:
     post: 1990790843184394572
     id: G6C1sMWbMAIp5HO
+    index: 2
     label: On stage
     context:
     - show:
@@ -733,6 +745,7 @@
 - postximage:
     post: 1990790843184394572
     id: G6C1sMgaUAAScQ-
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -745,6 +758,7 @@
 - postximage:
     post: 1990791246206677287
     id: G6C2FOAbMAADAHC
+    index: 2
     label: On stage
     info: Cocoro
     context:
@@ -757,6 +771,7 @@
 - postximage:
     post: 1990791246206677287
     id: G6C2FOHaIAAqfEL
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -769,6 +784,7 @@
 - postximage:
     post: 1990791246206677287
     id: G6C2FOJbMAIkcJS
+    index: 3
     label: On stage
     context:
     - show:
@@ -780,6 +796,7 @@
 - postximage:
     post: 1990794774702604628
     id: G6C5SVdasAAkSq2
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -792,6 +809,7 @@
 - postximage:
     post: 1990794774702604628
     id: G6C5SVnasAA8ODq
+    index: 2
     label: Backstage
     info: Kanade
     context:

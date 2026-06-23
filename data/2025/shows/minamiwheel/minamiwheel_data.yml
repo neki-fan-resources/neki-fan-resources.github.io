@@ -1097,6 +1097,7 @@
 - postximage:
     post: 1963622184414302280
     id: G0Av9v0b0AAyrub
+    index: 1
     label: 3rd artists list
     context:
     - show:
@@ -1108,6 +1109,7 @@
 - postximage:
     post: 1966064930890854845
     id: G0jdogsaMAcz72C
+    index: 1
     label: Schedule
     context:
     - show:
@@ -1119,6 +1121,7 @@
 - postximage:
     post: 1976560204960629077
     id: G24nBzJbwAA5DkZ
+    index: 3
     label: Bands card
     info: Kanade
     context:
@@ -1131,6 +1134,7 @@
 - postximage:
     post: 1976560204960629077
     id: G24nBzMaQAAEt7R
+    index: 1
     label: Bands card
     info: Hika
     context:
@@ -1143,6 +1147,7 @@
 - postximage:
     post: 1976560204960629077
     id: G24nBzUbMAAXNzN
+    index: 2
     label: Bands card
     info: Natsu
     context:
@@ -1155,6 +1160,7 @@
 - postximage:
     post: 1976560204960629077
     id: G24nBzUbgAAf4qq
+    index: 4
     label: Bands card
     info: Cocoro
     context:
@@ -1167,6 +1173,7 @@
 - postximage:
     post: 1977636304314863708
     id: G3H5ttbaUAA2ya1
+    index: 1
     label: Tuk-Tuk ride
     info: in Osaka
     context:
@@ -1179,6 +1186,7 @@
 - postximage:
     post: 1977650722348159190
     id: G3IGwcObUAAT_uX
+    index: 1
     label: Band
     context:
     - show:
@@ -1190,6 +1198,7 @@
 - postximage:
     post: 1977650722348159190
     id: G3IGwcWbQAA1XiY
+    index: 2
     label: Band
     info: with peppermint candy
     context:
@@ -1202,6 +1211,7 @@
 - postximage:
     post: 1977673015585624508
     id: G3IbHmEaMAARPBY
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -1214,6 +1224,7 @@
 - postximage:
     post: 1977673015585624508
     id: G3IbHmJaUAAgskC
+    index: 2
     label: In the venue
     context:
     - show:
@@ -1225,6 +1236,7 @@
 - postximage:
     post: 1977673390971564442
     id: G3IbdvobMAAAYPR
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -1237,6 +1249,7 @@
 - postximage:
     post: 1977673863468319087
     id: G3Ib5IgbAAE1Tyz
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -1249,6 +1262,7 @@
 - postximage:
     post: 1977674300330250596
     id: G3IcRT3aAAAJjhU
+    index: 2
     label: In the venue
     context:
     - show:
@@ -1260,6 +1274,7 @@
 - postximage:
     post: 1977674300330250596
     id: G3IcRTtbcAAjGc4
+    index: 3
     label: Band
     context:
     - show:
@@ -1271,6 +1286,7 @@
 - postximage:
     post: 1977674300330250596
     id: G3IcRTxbcAAO0HG
+    index: 1
     label: On stage
     context:
     - show:
@@ -1282,6 +1298,7 @@
 - postximage:
     post: 1977675187459162437
     id: G3IdGKUawAEA3k6
+    index: 2
     label: In the venue
     context:
     - show:
@@ -1293,6 +1310,7 @@
 - postximage:
     post: 1977675187459162437
     id: G3IdGKiaIAILO0x
+    index: 1
     label: On stage
     info: Hika
     context:

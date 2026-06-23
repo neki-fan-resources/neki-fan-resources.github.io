@@ -1688,6 +1688,7 @@
 - postximage:
     post: 1961015583069335728
     id: GzbtRUjbUAAj0pI
+    index: 1
     label: Merch
     context:
     - show:
@@ -1699,6 +1700,7 @@
 - postximage:
     post: 1961334337271685577
     id: GzgPLpwbkAEbIPV
+    index: 1
     label: On stage
     context:
     - show:
@@ -1710,6 +1712,7 @@
 - postximage:
     post: 1961389728428953733
     id: GzhA8PbbsAA3ZUq
+    index: 1
     label: Livestreaming poster
     context:
     - show:
@@ -1721,6 +1724,7 @@
 - postximage:
     post: 1961644768393392374
     id: Gzknca0acAAY3FC
+    index: 1
     label: Cover sold out
     local-copy: true
     context:
@@ -1733,6 +1737,7 @@
 - postximage:
     post: 1961765828870996016
     id: GzmXl6fbYAASFb3
+    index: 3
     label: On stage
     info: from behind Cocoro
     context:
@@ -1745,6 +1750,7 @@
 - postximage:
     post: 1961765828870996016
     id: GzmXl6jbMAAtlNY
+    index: 2
     label: On stage
     info: Hika
     context:
@@ -1757,6 +1763,7 @@
 - postximage:
     post: 1961765828870996016
     id: GzmXl6pa0AAavhd
+    index: 4
     label: On stage
     info: encore
     context:
@@ -1769,6 +1776,7 @@
 - postximage:
     post: 1961765828870996016
     id: GzmXl6vbkAA0r0J
+    index: 1
     label: On stage
     context:
     - show:
@@ -1780,6 +1788,7 @@
 - postximage:
     post: 1961803764794622273
     id: Gzm6F7naUAE1V-I
+    index: 2
     label: On stage
     info: Kanade
     context:
@@ -1792,6 +1801,7 @@
 - postximage:
     post: 1961803764794622273
     id: Gzm6F7waMAANvQ6
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -1804,6 +1814,7 @@
 - postximage:
     post: 1961807893306699826
     id: Gzm94CGasAIv7PE
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -1816,6 +1827,7 @@
 - postximage:
     post: 1961807893306699826
     id: Gzm94CIaUAAEAp6
+    index: 4
     label: Backstage
     info: Natsu
     context:
@@ -1828,6 +1840,7 @@
 - postximage:
     post: 1961807893306699826
     id: Gzm94CPaQAAkyrR
+    index: 3
     label: On stage
     context:
     - show:
@@ -1839,6 +1852,7 @@
 - postximage:
     post: 1961807893306699826
     id: Gzm94CQbQAATcAD
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1850,6 +1864,7 @@
 - postximage:
     post: 1961812414485459420
     id: GznB_baboAAZECx
+    index: 1
     label: On stage
     context:
     - show:
@@ -1861,6 +1876,7 @@
 - postximage:
     post: 1961812414485459420
     id: GznB_bebQAAf7Hn
+    index: 2
     label: On stage
     info: Hika
     context:
@@ -1873,6 +1889,7 @@
 - postximage:
     post: 1961819558362444002
     id: GznIYpna4AAgbSQ
+    index: 2
     label: On stage
     info: Cocoro
     context:
@@ -1885,6 +1902,7 @@
 - postximage:
     post: 1962192489680683267
     id: GzsbqmqbgAANlPV
+    index: 1
     label: On stage
     info: drum set
     context:
@@ -1897,6 +1915,7 @@
 - postximage:
     post: 1962831188181311881
     id: Gz1gj5nbMAAQ2Qc
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -1909,6 +1928,7 @@
 - postximage:
     post: 1963942446318125451
     id: G0FTKPAaMAAP9kZ
+    index: 2
     label: On stage
     info: drum set
     context:
@@ -1921,6 +1941,7 @@
 - postximage:
     post: 1963942446318125451
     id: G0FTKPDa0AAaKht
+    index: 1
     label: On stage
     info: Cocoro, before the show
     context:

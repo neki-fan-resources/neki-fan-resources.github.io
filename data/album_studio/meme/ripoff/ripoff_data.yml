@@ -2282,6 +2282,7 @@
 - postximage:
     post: 1959224099332637131
     id: GzBo-8pacAAYgMf
+    index: 2
     label: MV image
     context:
     - song: ripoff
@@ -2291,6 +2292,7 @@
 - postximage:
     post: 1959760382345806176
     id: GzH8F6HbkAA8Lxi
+    index: 1
     label: Behind the scenes
     info: Natsu
     context:
@@ -2301,6 +2303,7 @@
 - postximage:
     post: 1960243704293404954
     id: GzQvPumX0AAMr03
+    index: 1
     label: 10k views
     context:
     - song: ripoff
@@ -2310,6 +2313,7 @@
 - postximage:
     post: 1960317535112597659
     id: GzRyTB-aQAAgkcY
+    index: 2
     label: Behind the scenes
     info: Cocoro
     context:
@@ -2321,6 +2325,7 @@
 - postximage:
     post: 1960317535112597659
     id: GzRyTBxbcAA87rM
+    index: 1
     label: Behind the scenes
     info: Cocoro
     context:
@@ -2332,6 +2337,7 @@
 - postximage:
     post: 1960333645996232799
     id: GzSBCOtaAAAPzFp
+    index: 3
     label: Behind the scenes
     info: Natsu
     context:
@@ -2342,6 +2348,7 @@
 - postximage:
     post: 1960333645996232799
     id: GzSBCPBaMAASLd4
+    index: 2
     label: Behind the scenes
     info: Natsu
     context:
@@ -2352,6 +2359,7 @@
 - postximage:
     post: 1960333645996232799
     id: GzSBCPNaAAArcMt
+    index: 1
     label: Behind the scenes
     info: Natsu
     context:
@@ -2362,6 +2370,7 @@
 - postximage:
     post: 1960333645996232799
     id: GzSBCPOaEAAbz_t
+    index: 4
     label: Behind the scenes
     info: cake time
     context:
@@ -2372,6 +2381,7 @@
 - postximage:
     post: 1960529877574279264
     id: GzUzhFka4AAopmC
+    index: 1
     label: Behind the scenes
     info: Hika
     context:
@@ -2382,6 +2392,7 @@
 - postximage:
     post: 1968563113944564085
     id: G1G9tQMbQAAt5-S
+    index: 1
     label: Behind the scenes
     context:
     - song: ripoff

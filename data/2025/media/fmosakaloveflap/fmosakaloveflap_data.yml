@@ -100,6 +100,7 @@
 - postximage:
     post: 1990972324003393724
     id: G6FamfEacAA1ixr
+    index: 1
     label: In studio
     context:
     - media:
@@ -111,6 +112,7 @@
 - postximage:
     post: 1991021885984063594
     id: G6GH2JKbMAAWpOe
+    index: 1
     label: At the station
     context:
     - media:

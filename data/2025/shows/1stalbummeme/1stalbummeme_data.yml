@@ -1163,6 +1163,7 @@
 - postximage:
     post: 1961739772080136281
     id: Gzl_6IcbMAAX62f
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -1175,6 +1176,7 @@
 - postximage:
     post: 1973742259104591986
     id: G2QkHgsbUAA2O63
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1186,6 +1188,7 @@
 - postximage:
     post: 1984204555832397939
     id: G4lNm20aAAAHFKv
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -1198,6 +1201,7 @@
 - postximage:
     post: 1992171561001034018
     id: G6WddXMbAAArgNc
+    index: 4
     label: Merch
     context:
     - show:
@@ -1209,6 +1213,7 @@
 - postximage:
     post: 1992171561001034018
     id: G6WddXNagAAIE21
+    index: 3
     label: Merch
     context:
     - show:
@@ -1220,6 +1225,7 @@
 - postximage:
     post: 1992171561001034018
     id: G6WddXPaQAA_0Gp
+    index: 2
     label: Merch
     context:
     - show:

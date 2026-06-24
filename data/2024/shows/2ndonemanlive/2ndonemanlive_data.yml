@@ -1047,6 +1047,7 @@
 - postximage:
     post: 1860588588834128127
     id: GdIjTflaAAAq0b0
+    index: 1
     label: Sidewalk board
     context:
     - show:
@@ -1058,6 +1059,7 @@
 - postximage:
     post: 1860642399242084838
     id: GdJUX0vaMAAfwff
+    index: 3
     label: Stage setup
     context:
     - show:
@@ -1069,6 +1071,7 @@
 - postximage:
     post: 1860642399242084838
     id: GdJUX0yaIAAyel4
+    index: 1
     label: Backstage
     info: NEK!
     context:
@@ -1081,6 +1084,7 @@
 - postximage:
     post: 1860642399242084838
     id: GdJUX0zaMAAnLAP
+    index: 2
     label: On stage
     context:
     - show:
@@ -1092,6 +1096,7 @@
 - postximage:
     post: 1860642399242084838
     id: GdJUX1DbQAAIRJv
+    index: 4
     label: Sidewalk board
     context:
     - show:
@@ -1103,6 +1108,7 @@
 - postximage:
     post: 1860660643910885400
     id: GdJk_gwa4AAHT-T
+    index: 1
     label: Sidewalk board
     context:
     - show:
@@ -1114,6 +1120,7 @@
 - postximage:
     post: 1860700294226838000
     id: GdKJDdoaAAAgzF1
+    index: 1
     label: NEK! Sound
     context:
     - show:
@@ -1125,6 +1132,7 @@
 - postximage:
     post: 1860887418322493470
     id: GdMzPcLbsAIzyLF
+    index: 1
     label: On stage
     info: encore
     context:
@@ -1137,6 +1145,7 @@
 - postximage:
     post: 1861081388675694837
     id: GdPjqL6aQAER0rw
+    index: 1
     label: On stage
     info: Hika, acoustic
     context:
@@ -1149,6 +1158,7 @@
 - postximage:
     post: 1873309201130574236
     id: Gf9BZBVbEAAyUEE
+    index: 1
     label: Zaiko flyer
     context:
     - show:
@@ -1160,6 +1170,7 @@
 - postximage:
     post: 1874007445930205368
     id: GgHP1XDbYAEaa4e
+    index: 1
     label: On stage
     info: encore
     context:

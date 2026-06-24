@@ -563,6 +563,7 @@
 - postximage:
     post: 2011743468692156620
     id: G-slOf5bMAANpD2
+    index: 1
     label: 1st lineup
     context:
     - show:
@@ -574,6 +575,7 @@
 - postximage:
     post: 2011743468692156620
     id: G-slSD6aMAAZS8n
+    index: 2
     label: Poster
     local-copy: true
     context:
@@ -586,6 +588,7 @@
 - postximage:
     post: 2017145767408869828
     id: G_5Tz_nbsAAuN0j
+    index: 1
     label: 2nd lineup
     context:
     - show:
@@ -597,6 +600,7 @@
 - postximage:
     post: 2032366591112040727
     id: HDRqF7xbQAYkzeE
+    index: 1
     label: Final lineup
     context:
     - show:
@@ -608,6 +612,7 @@
 - postximage:
     post: 2032366591112040727
     id: HDRqHeQbQAEW3HT
+    index: 2
     label: Timetable
     context:
     - show:
@@ -619,6 +624,7 @@
 - postximage:
     post: 2043299614674366617
     id: HFtB8_zbQAAphgJ
+    index: 1
     label: Backstage
     context:
     - show:
@@ -630,6 +636,7 @@
 - postximage:
     post: 2043299614674366617
     id: HFtB9AeagAAjEeL
+    index: 2
     label: On stage
     context:
     - show:
@@ -641,6 +648,7 @@
 - postximage:
     post: 2043308907393962043
     id: HFtKnr-awAAKTkk
+    index: 1
     label: On stage
     context:
     - show:
@@ -652,6 +660,7 @@
 - postximage:
     post: 2043308907393962043
     id: HFtKnr8aMAA5rrA
+    index: 2
     label: Backstage
     info: Cocoro
     context:
@@ -664,6 +673,7 @@
 - postximage:
     post: 2043315173193404724
     id: HFtQT0EbMAAwKuz
+    index: 1
     label: Backstage
     context:
     - show:
@@ -675,6 +685,7 @@
 - postximage:
     post: 2043315173193404724
     id: HFtQT0FbwAAoUFf
+    index: 2
     label: Backstage
     info: Natsu
     context:
@@ -687,6 +698,7 @@
 - postximage:
     post: 2043315837378158733
     id: HFtQ4miaMAA97rv
+    index: 1
     label: Backstage
     context:
     - show:
@@ -698,6 +710,7 @@
 - postximage:
     post: 2043317543348379670
     id: HFtSd_5aAAAnGCZ
+    index: 1
     label: Backstage
     info: Kanade
     context:

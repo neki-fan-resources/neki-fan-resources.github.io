@@ -175,6 +175,7 @@
 - postximage:
     post: 2064221900256231452
     id: HKWW3tUbUAAQK21
+    index: 1
     label: Poster display
     context:
     - tour: majordebuttour

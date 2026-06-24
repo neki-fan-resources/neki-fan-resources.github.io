@@ -507,6 +507,7 @@
 - postximage:
     post: 2017903857268064334
     id: HAEI29xa0AAxPmL
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -519,6 +520,7 @@
 - postximage:
     post: 2017906532525252727
     id: HAELQdkbUAA1gKk
+    index: 1
     label: Poster sold out
     context:
     - show:
@@ -530,6 +532,7 @@
 - postximage:
     post: 2021394806325510372
     id: HA1vsQdaAAEiIle
+    index: 1
     label: Sidewalk board
     context:
     - show:
@@ -541,6 +544,7 @@
 - postximage:
     post: 2021469930814836901
     id: HA20LoCaAAQpCBp
+    index: 2
     label: On stage
     context:
     - show:
@@ -552,6 +556,7 @@
 - postximage:
     post: 2021469930814836901
     id: HA20LoEaAAkD8cP
+    index: 1
     label: Backstage
     context:
     - show:
@@ -563,6 +568,7 @@
 - postximage:
     post: 2021479793557172454
     id: HA2890ybQAAHFPX
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -575,6 +581,7 @@
 - postximage:
     post: 2021479793557172454
     id: HA2891QaAAMp1ak
+    index: 2
     label: On stage
     context:
     - show:
@@ -586,6 +593,7 @@
 - postximage:
     post: 2021487604550844447
     id: HA3EQmLaEAALdca
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -598,6 +606,7 @@
 - postximage:
     post: 2021488151446028791
     id: HA3EwQkaAAQeYnZ
+    index: 2
     label: Backstage
     info: Cocoro, Natsu
     context:
@@ -610,6 +619,7 @@
 - postximage:
     post: 2021488151446028791
     id: HA3EwQoboAAqKN5
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -622,6 +632,7 @@
 - postximage:
     post: 2021488151446028791
     id: HA3EwQraAAQVZ5C
+    index: 3
     label: On stage
     info: drum set
     context:
@@ -634,6 +645,7 @@
 - postximage:
     post: 2021490914993242261
     id: HA3HRQQaAAE8376
+    index: 1
     label: Backstage
     info: Hika
     context:
@@ -646,6 +658,7 @@
 - postximage:
     post: 2021568213436498320
     id: HA4Nkr-bUAAjyQN
+    index: 1
     label: Backstage
     info: BAND-MAID, NEK!
     context:
@@ -658,6 +671,7 @@
 - postximage:
     post: 2021568213436498320
     id: HA4Nkr3aYAA5gw0
+    index: 2
     label: Backstage
     info: BAND-MAID, NEK!
     context:

@@ -768,6 +768,7 @@
 - postximage:
     post: 2036679679281914243
     id: HEO9XJdbIAAN7fg
+    index: 1
     label: Flyer
     context:
     - show:
@@ -780,6 +781,7 @@
 - postximage:
     post: 2036811294129660354
     id: HEQ1EvwakAA687M
+    index: 1
     label: Backstage
     info: FOMARE, NEK!
     context:
@@ -792,6 +794,7 @@
 - postximage:
     post: 2036960710434181299
     id: HES88iIbYAIyO7A
+    index: 1
     label: Backstage
     info: FOMARE, NEK!
     context:
@@ -804,6 +807,7 @@
 - postximage:
     post: 2036960710434181299
     id: HES88ivbkAA8rC1
+    index: 2
     label: At the venue
     info: FOMARE, NEK!
     context:
@@ -816,6 +820,7 @@
 - postximage:
     post: 2036960983286243510
     id: HES9NmnbYAA6cMu
+    index: 1
     label: Backstage
     context:
     - show:
@@ -827,6 +832,7 @@
 - postximage:
     post: 2036987710670594187
     id: HETVhCVbYAIXOt6
+    index: 2
     label: Backstage
     info: Cocoro
     context:
@@ -839,6 +845,7 @@
 - postximage:
     post: 2037479908369387767
     id: HEaVI8ZagAAT3Kr
+    index: 2
     label: Board
     context:
     - show:
@@ -850,6 +857,7 @@
 - postximage:
     post: 2037479908369387767
     id: HEaVI8oasAAGZsp
+    index: 3
     label: Lockers
     context:
     - show:
@@ -861,6 +869,7 @@
 - postximage:
     post: 2037479908369387767
     id: HEaVI8oasAEFiUm
+    index: 4
     label: Yamagata food
     context:
     - show:
@@ -872,6 +881,7 @@
 - postximage:
     post: 2037479908369387767
     id: HEaVI8vbsAA3xTV
+    index: 1
     label: Café
     info: Cocoro
     context:

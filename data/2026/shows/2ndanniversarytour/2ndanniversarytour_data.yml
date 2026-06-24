@@ -894,6 +894,7 @@
 - postximage:
     post: 2011393045510643983
     id: G-nnTLOaQAAqT1s
+    index: 1
     label: Rehearsal
     info: Kanade
     context:
@@ -905,6 +906,7 @@
 - postximage:
     post: 2012118908707451306
     id: G-x7eczbIAAf-fw
+    index: 1
     label: Backstage
     context:
     - show:
@@ -916,6 +918,7 @@
 - postximage:
     post: 2020105591847256092
     id: HAjbUzjacAA-Q6p
+    index: 1
     label: Special sticker
     context:
     - tour: 2ndanniversarytour
@@ -925,6 +928,7 @@
 - postximage:
     post: 2029098430170317255
     id: HCjOQM4awAMKNsl
+    index: 1
     label: Poster
     context:
     - tour: 2ndanniversarytour
@@ -934,6 +938,7 @@
 - postximage:
     post: 2038501065860190212
     id: HEo1xN0bUAI4AG9
+    index: 1
     label: Backstage
     info: Hika, Natsu
     context:
@@ -945,6 +950,7 @@
 - postximage:
     post: 2038501065860190212
     id: HEo1xNubIAABIV4
+    index: 2
     label: Backstage
     info: Natsu, Kanade, Cocoro
     context:
@@ -956,6 +962,7 @@
 - postximage:
     post: 2038501065860190212
     id: HEo1xNubwAA4z1U
+    index: 4
     label: Backstage
     context:
     - show:
@@ -968,6 +975,7 @@
 - postximage:
     post: 2038501065860190212
     id: HEo1ysQagAAqeur
+    index: 3
     label: Stage
     context:
     - tour: 2ndanniversarytour
@@ -978,6 +986,7 @@
 - postximage:
     post: 2042247210545598661
     id: HFeE-g-aYAAe9_o
+    index: 3
     label: Sea food
     part-of:
       postx: 2042247210545598661
@@ -985,6 +994,7 @@
 - postximage:
     post: 2042247210545598661
     id: HFeE-g_bEAA1guq
+    index: 4
     label: Hiyoko cakes
     part-of:
       postx: 2042247210545598661
@@ -992,6 +1002,7 @@
 - postximage:
     post: 2042247210545598661
     id: HFeE-hBaUAEO6RW
+    index: 1
     label: Meiji
     part-of:
       postx: 2042247210545598661
@@ -999,6 +1010,7 @@
 - postximage:
     post: 2042247210545598661
     id: HFeE-hLa8AAXr4F
+    index: 2
     label: Ramen and rice
     part-of:
       postx: 2042247210545598661
@@ -1006,6 +1018,7 @@
 - postximage:
     post: 2042255206931677337
     id: HFeMSI1bUAAtvZH
+    index: 2
     label: Mentaiju dinner
     info: Cocoro, Kanade
     context:
@@ -1018,6 +1031,7 @@
 - postximage:
     post: 2042255206931677337
     id: HFeMSIwa8AEjZw5
+    index: 1
     label: Mentaiju
     context:
     - show:
@@ -1029,6 +1043,7 @@
 - postximage:
     post: 2045071645271019969
     id: HGGN0lBaMAAP8QJ
+    index: 1
     label: Rehearsal
     info: Hika, Natsu, Kanade
     context:
@@ -1039,6 +1054,7 @@
 - postximage:
     post: 2056668712342823113
     id: HIrBSwZbYAAlJ1F
+    index: 1
     label: Backstage
     info: Cocoro, Natsu
     context:

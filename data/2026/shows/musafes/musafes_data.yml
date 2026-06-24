@@ -396,6 +396,7 @@
 - postximage:
     post: 2045336585500262709
     id: HGJ-voha0AAdf6j
+    index: 3
     label: Bands hand-selling tickets
     context:
     - show:
@@ -407,6 +408,7 @@
 - postximage:
     post: 2045336585500262709
     id: HGJ-vpDakAAe1HN
+    index: 1
     label: Timetable
     context:
     - show:
@@ -418,6 +420,7 @@
 - postximage:
     post: 2045336585500262709
     id: HGJ-vpHbkAAGUFt
+    index: 2
     label: Poster
     context:
     - show:
@@ -429,6 +432,7 @@
 - postximage:
     post: 2055576520266326114
     id: HIbf7J3bYAAQxVW
+    index: 1
     label: On stage
     context:
     - show:
@@ -440,6 +444,7 @@
 - postximage:
     post: 2055576520266326114
     id: HIbf7J6aMAAMwAl
+    index: 2
     label: Backstage
     context:
     - show:
@@ -451,6 +456,7 @@
 - postximage:
     post: 2055577992416657614
     id: HIbhSPVbsAAIV8B
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -463,6 +469,7 @@
 - postximage:
     post: 2055577992416657614
     id: HIbhSPXbUAAL6s_
+    index: 2
     label: Backstage
     context:
     - show:
@@ -474,6 +481,7 @@
 - postximage:
     post: 2055578645469733015
     id: HIbh4QkbsAAabk-
+    index: 1
     label: Backstage
     context:
     - show:
@@ -485,6 +493,7 @@
 - postximage:
     post: 2055579760995229857
     id: HIbi5R4aIAEucFB
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -497,6 +506,7 @@
 - postximage:
     post: 2055579760995229857
     id: HIbi5R_bsAAz7_U
+    index: 2
     label: On stage
     context:
     - show:
@@ -508,6 +518,7 @@
 - postximage:
     post: 2055592084720251034
     id: HIbuGbKacAAwb0D
+    index: 1
     label: On stage
     info: Hika
     context:

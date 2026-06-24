@@ -153,6 +153,7 @@
 - postximage:
     post: 2064543082360774756
     id: HKa6f5vbYAArdr-
+    index: 2
     label: Logo
     part-of:
       postx: 2064543082360774756
@@ -160,6 +161,7 @@
 - postximage:
     post: 2064543082360774756
     id: HKa6f5wagAAWkXM
+    index: 1
     label: Logo
     part-of:
       postx: 2064543082360774756
@@ -167,6 +169,7 @@
 - postximage:
     post: 2064549267663155709
     id: HKbAaLPa8AAm30a
+    index: 1
     label: NEK!
     local-copy: true
     context:
@@ -177,6 +180,7 @@
 - postximage:
     post: 2064705233583022409
     id: HKdOdlabkAAWjWF
+    index: 1
     label: NEK!
     context:
     - event: majordebut
@@ -186,6 +190,7 @@
 - postximage:
     post: 2064705233583022409
     id: HKdOdlgaIAAqbtH
+    index: 2
     label: NEK!
     context:
     - event: majordebut

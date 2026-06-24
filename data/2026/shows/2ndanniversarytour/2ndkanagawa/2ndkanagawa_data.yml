@@ -813,6 +813,9 @@
       
       ツアー３日目は〜埼玉！！
       よろしくお願いします！！
+      
+      alt:
+      幸せそう
     translation: |-
       NEK! nationwide tour day 2!! Yokohama—🔥
       It was the absolute best fun!!
@@ -824,6 +827,9 @@
       
       The 3rd day of the tour is~ Saitama!!
       Looking forward to seeing you there!!
+      
+      alt:
+      Looking happy
     image:
     - HCPbqwsbEAEH7d5
     - HCPbqwtbEAIgc0k
@@ -960,6 +966,7 @@
 - postximage:
     post: 2026925741292839329
     id: HCEVEmUaMA4kqcR
+    index: 1
     label: Poster
     context:
     - show:
@@ -971,6 +978,7 @@
 - postximage:
     post: 2026933828049318063
     id: HCEdj_IaMAEexDU
+    index: 1
     label: Backstage
     context:
     - show:
@@ -983,6 +991,7 @@
 - postximage:
     post: 2027310607029207129
     id: HCJ0PAFbEAA0FyP
+    index: 1
     label: Leading to the show
     context:
     - show:
@@ -994,6 +1003,7 @@
 - postximage:
     post: 2027322328162689148
     id: HCJ-VQAaQAAH1Qt
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -1006,6 +1016,7 @@
 - postximage:
     post: 2027343804341289447
     id: HCKScIuasAAKH_2
+    index: 1
     label: Leading to the show
     context:
     - show:
@@ -1017,6 +1028,7 @@
 - postximage:
     post: 2027701696261198176
     id: HCPX75CbEAADjII
+    index: 1
     label: On stage
     context:
     - show:
@@ -1028,6 +1040,7 @@
 - postximage:
     post: 2027701696261198176
     id: HCPX75CbEAQw86x
+    index: 2
     label: On stage
     context:
     - show:
@@ -1039,6 +1052,7 @@
 - postximage:
     post: 2027704855088009601
     id: HCPazr9bEAMTueY
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -1051,6 +1065,7 @@
 - postximage:
     post: 2027705794993787272
     id: HCPbqwsbEAEH7d5
+    index: 1
     label: On stage
     context:
     - show:
@@ -1062,6 +1077,7 @@
 - postximage:
     post: 2027705794993787272
     id: HCPbqwtbEAIgc0k
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -1074,6 +1090,7 @@
 - postximage:
     post: 2027706351045251271
     id: HCPcLWvbEAA2hsk
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -1086,6 +1103,7 @@
 - postximage:
     post: 2027706351045251271
     id: HCPcLWybMAA5CI6
+    index: 2
     label: Backstage
     info: Hika
     context:
@@ -1098,6 +1116,7 @@
 - postximage:
     post: 2027712474494210268
     id: HCPhvO2bsAAKYC-
+    index: 2
     label: On stage
     info: Cocoro
     context:
@@ -1110,6 +1129,7 @@
 - postximage:
     post: 2027712474494210268
     id: HCPhvO4aUAA8dHO
+    index: 3
     label: On stage
     context:
     - show:
@@ -1121,6 +1141,7 @@
 - postximage:
     post: 2027712474494210268
     id: HCPhvO5bIAEKSPt
+    index: 1
     label: Backstage
     info: Cocoro
     context:

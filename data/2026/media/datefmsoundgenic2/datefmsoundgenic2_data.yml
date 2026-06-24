@@ -127,6 +127,7 @@
 - postximage:
     post: 2034564650017362366
     id: HDw5w4UaMAAryfZ
+    index: 1
     label: At the station
     context:
     - media:
@@ -138,6 +139,7 @@
 - postximage:
     post: 2034575104127217677
     id: HDxDRLwbUAAB6Io
+    index: 1
     label: At the station
     context:
     - media:
@@ -149,6 +151,7 @@
 - postximage:
     post: 2034575104127217677
     id: HDxDRLybkAAmWKA
+    index: 2
     label: At the station
     info: Natsu, Hika
     context:
@@ -161,6 +164,7 @@
 - postximage:
     post: 2034606736804597973
     id: HDxgCpqaUAA6YGY
+    index: 1
     label: At the station
     context:
     - media:

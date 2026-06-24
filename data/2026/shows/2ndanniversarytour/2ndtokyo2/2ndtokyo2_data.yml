@@ -1737,6 +1737,7 @@
 - postximage:
     post: 2048209227500704080
     id: HGyruHsakAAhB8V
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -1749,6 +1750,7 @@
 - postximage:
     post: 2048371387908366467
     id: HG1GVlBagAEBAI5
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1760,6 +1762,7 @@
 - postximage:
     post: 2048371387908366467
     id: HG1GYZ7aYAA_-zT
+    index: 2
     label: On stage
     context:
     - show:
@@ -1771,6 +1774,7 @@
 - postximage:
     post: 2048371387908366467
     id: HG1GZ35bUAAPmUd
+    index: 3
     label: On stage
     context:
     - show:
@@ -1782,6 +1786,7 @@
 - postximage:
     post: 2048390131762262016
     id: HG1XH7zbAAAJtMl
+    index: 1
     label: Playlist cover
     context:
     - show:
@@ -1793,6 +1798,7 @@
 - postximage:
     post: 2048395458352144419
     id: HG1cxy1b0AAXLHn
+    index: 2
     label: On stage
     info: Kanade, Natsu
     context:
@@ -1805,6 +1811,7 @@
 - postximage:
     post: 2048395458352144419
     id: HG1cxyvbYAAQ4dk
+    index: 4
     label: Backstage
     context:
     - show:
@@ -1816,6 +1823,7 @@
 - postximage:
     post: 2048395458352144419
     id: HG1cxywaMAAPp1R
+    index: 3
     label: On stage
     info: encore
     context:
@@ -1828,6 +1836,7 @@
 - postximage:
     post: 2048395458352144419
     id: HG1cxywbMAAeiY4
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -1840,6 +1849,7 @@
 - postximage:
     post: 2048396923133112607
     id: HG1eI9KbMAEYyRW
+    index: 2
     label: On stage
     info: encore
     context:
@@ -1852,6 +1862,7 @@
 - postximage:
     post: 2048396923133112607
     id: HG1eI9LboAAVxsk
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1863,6 +1874,7 @@
 - postximage:
     post: 2048400216307728412
     id: HG1hIc-bAAIekVF
+    index: 3
     label: On stage
     info: Cocoro
     context:
@@ -1875,6 +1887,7 @@
 - postximage:
     post: 2048400216307728412
     id: HG1hIc8acAA7JlQ
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -1887,6 +1900,7 @@
 - postximage:
     post: 2048573184426013138
     id: HG3-c-Qa4AAfB1j
+    index: 4
     label: Backstage
     context:
     - show:
@@ -1898,6 +1912,7 @@
 - postximage:
     post: 2048573184426013138
     id: HG3-c-TagAAj4TO
+    index: 2
     label: On stage
     info: Hika
     context:
@@ -1910,6 +1925,7 @@
 - postximage:
     post: 2048573184426013138
     id: HG3-c-caEAA5uXy
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -1922,6 +1938,7 @@
 - postximage:
     post: 2048643506554769773
     id: HG4-aOdboAAdqtJ
+    index: 1
     label: Backstage
     info: Saiki and Kanami (BAND-MAID), NEK!
     context:
@@ -1934,6 +1951,7 @@
 - postximage:
     post: 2048643506554769773
     id: HG4-aOfbEAAFzA-
+    index: 2
     label: Backstage
     info: Saiki and Kanami (BAND-MAID), NEK!
     context:
@@ -1946,6 +1964,7 @@
 - postximage:
     post: 2049058589462126768
     id: HG-37E4bgAE9hFZ
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -1958,6 +1977,7 @@
 - postximage:
     post: 2050171239101292673
     id: HHOr35aakAA9GC8
+    index: 1
     label: On stage
     context:
     - show:

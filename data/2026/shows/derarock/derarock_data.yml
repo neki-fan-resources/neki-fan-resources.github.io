@@ -428,6 +428,7 @@
 - postximage:
     post: 2012869138457219149
     id: G-8lziQXYAEB85F
+    index: 3
     label: On stage
     info: Cocoro
     context:
@@ -440,6 +441,7 @@
 - postximage:
     post: 2012869138457219149
     id: G-8lziTXMAA0Ksn
+    index: 4
     label: On stage
     info: Natsu
     context:
@@ -452,6 +454,7 @@
 - postximage:
     post: 2012869138457219149
     id: G-8lziVXUAAPb1P
+    index: 2
     label: On stage
     info: Hika
     context:
@@ -464,6 +467,7 @@
 - postximage:
     post: 2012869138457219149
     id: G-8lzoFWEAA825H
+    index: 1
     label: On stage
     info: Hika, Natsu
     context:
@@ -476,6 +480,7 @@
 - postximage:
     post: 2012879160021229739
     id: G-8u6XHXEAAhMYD
+    index: 2
     label: On stage
     context:
     - show:
@@ -487,6 +492,7 @@
 - postximage:
     post: 2012879160021229739
     id: G-8u6XMWwAAt19C
+    index: 1
     label: Backstage
     context:
     - show:
@@ -498,6 +504,7 @@
 - postximage:
     post: 2012881700187963512
     id: G-8xOo-WkAAqted
+    index: 2
     label: Backstage
     info: Kanade
     context:
@@ -510,6 +517,7 @@
 - postximage:
     post: 2012881700187963512
     id: G-8xOo4WkAAqJbY
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -522,6 +530,7 @@
 - postximage:
     post: 2012884418378031356
     id: G-8ztA3WkAAWCwS
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -534,6 +543,7 @@
 - postximage:
     post: 2012888595376590891
     id: G-83gJqXIAAthCA
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -546,6 +556,7 @@
 - postximage:
     post: 2012888595376590891
     id: G-83gJxWIAAcbrh
+    index: 2
     label: Backstage
     context:
     - show:
@@ -557,6 +568,7 @@
 - postximage:
     post: 2012893509011783718
     id: G-87wfXWkAACGgR
+    index: 2
     label: New glasses
     part-of:
       postx: 2012893509011783718

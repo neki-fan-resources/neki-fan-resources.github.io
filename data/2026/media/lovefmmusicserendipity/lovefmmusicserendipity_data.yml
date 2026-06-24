@@ -84,6 +84,7 @@
 - postximage:
     post: 2042180265775354090
     id: HFdIGkiawAEnuTF
+    index: 1
     label: At the station
     info: Hika, Natsu
     context:
@@ -96,6 +97,7 @@
 - postximage:
     post: 2042184767857471794
     id: HFdMNEraUAA2JmR
+    index: 2
     label: At the station
     info: Natsu, Hika
     context:
@@ -108,6 +110,7 @@
 - postximage:
     post: 2042184767857471794
     id: HFdMNEragAAsJAQ
+    index: 1
     label: At the station
     info: 森夏華, Hika, Natsu, Sakiko
     context:

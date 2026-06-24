@@ -629,6 +629,7 @@
 - postximage:
     post: 2042437632844841425
     id: HFgyM3MbQAED4h1
+    index: 2
     label: Lineup
     context:
     - show:
@@ -640,6 +641,7 @@
 - postximage:
     post: 2047511390118981884
     id: HGo4wSgb0AAeBFG
+    index: 2
     label: 2nd lineup
     context:
     - show:
@@ -651,6 +653,7 @@
 - postximage:
     post: 2057657704186069127
     id: HI4nbYxagAAd5n6
+    index: 2
     label: Timetable
     context:
     - show:
@@ -662,6 +665,7 @@
 - postximage:
     post: 2057657704186069127
     id: HI4oOZpbsAA7Oe7
+    index: 1
     label: Poster
     context:
     - show:
@@ -673,6 +677,7 @@
 - postximage:
     post: 2063188376845680832
     id: HKHq4yTbIAA5YFH
+    index: 1
     label: Backstage
     context:
     - show:
@@ -684,6 +689,7 @@
 - postximage:
     post: 2063188376845680832
     id: HKHq4ymbIAAg8_t
+    index: 3
     label: On stage
     context:
     - show:
@@ -695,6 +701,7 @@
 - postximage:
     post: 2063188376845680832
     id: HKHq4yrbUAAIegx
+    index: 2
     label: On stage
     context:
     - show:
@@ -706,6 +713,7 @@
 - postximage:
     post: 2063199953418351041
     id: HKH1a_7b0AAok4R
+    index: 2
     label: On stage
     info: Hika
     context:
@@ -718,6 +726,7 @@
 - postximage:
     post: 2063199953418351041
     id: HKH1a_8aoAA5Yab
+    index: 1
     label: Backstage
     context:
     - show:
@@ -729,6 +738,7 @@
 - postximage:
     post: 2063201209977278548
     id: HKH2jlXbMAAp2f2
+    index: 2
     label: On stage
     info: Cocoro
     context:
@@ -741,6 +751,7 @@
 - postximage:
     post: 2063201209977278548
     id: HKH2jlYb0AADnF-
+    index: 1
     label: On stage
     context:
     - show:
@@ -752,6 +763,7 @@
 - postximage:
     post: 2063202077728489755
     id: HKH3WeYaYAA-hY4
+    index: 1
     label: Backstage
     context:
     - show:
@@ -763,6 +775,7 @@
 - postximage:
     post: 2063202478561337713
     id: HKH3txza0AAEkHK
+    index: 2
     label: On stage
     info: Natsu
     context:

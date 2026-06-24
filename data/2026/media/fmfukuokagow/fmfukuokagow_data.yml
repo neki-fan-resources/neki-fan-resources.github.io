@@ -70,6 +70,7 @@
 - postximage:
     post: 2042196787587600635
     id: HFdXJxkbIAAPe3l
+    index: 2
     label: Hiyoko cakes
     context:
     - media:
@@ -81,6 +82,7 @@
 - postximage:
     post: 2042196787587600635
     id: HFdXJxtbUAApL-u
+    index: 1
     label: Flag
     context:
     - media:
@@ -92,6 +94,7 @@
 - postximage:
     post: 2042201711683756223
     id: HFdbni8bIAAo5zd
+    index: 1
     label: At the station
     info: Natsu, Hika
     context:

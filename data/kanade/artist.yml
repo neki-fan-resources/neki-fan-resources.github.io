@@ -205,6 +205,7 @@
 - postximage:
     post: 2033488895363760561
     id: HDhnVs1acAAwvk4
+    index: 2
     label: Backstage
     info: Kanade, 2nd anniv tour Saitama
     part-of:
@@ -213,6 +214,7 @@
 - postximage:
     post: 2033488895363760561
     id: HDhnVs1bsAA7EVm
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -225,6 +227,7 @@
 - postximage:
     post: 2038055138318074079
     id: HEigV-ZbkAAf3p5
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -237,6 +240,7 @@
 - postximage:
     post: 2038535453834617056
     id: HEpVMAWawAAiIc6
+    index: 1
     label: Kanade
     todo: likely 2ndaich1, try to confirm
     part-of:
@@ -245,6 +249,7 @@
 - postximage:
     post: 2061050143798112664
     id: HJpSLgYbQAAqBg8
+    index: 2
     label: Kanade
     part-of:
       postx: 2061050143798112664
@@ -252,6 +257,7 @@
 - postximage:
     post: 2061050143798112664
     id: HJpSLgaaAAAcira
+    index: 1
     label: Kanade
     part-of:
       postx: 2061050143798112664

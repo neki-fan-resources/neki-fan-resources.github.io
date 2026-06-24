@@ -284,6 +284,7 @@
 - postximage:
     post: 2036021358610821519
     id: HEFmoRHaAAA5oOJ
+    index: 1
     label: Flyer
     context:
     - show:
@@ -296,6 +297,7 @@
 - postximage:
     post: 2036443026218950837
     id: HELmIZfaAAAH1UB
+    index: 1
     label: Backstage
     info: FOMARE, NEK!
     context:
@@ -308,6 +310,7 @@
 - postximage:
     post: 2036443920847224944
     id: HELm6sqawAAPw_3
+    index: 2
     label: On stage
     context:
     - show:
@@ -319,6 +322,7 @@
 - postximage:
     post: 2036443920847224944
     id: HELm6sqbYAAhNyY
+    index: 1
     label: Backstage
     info: FOMARE, NEK!
     context:
@@ -331,6 +335,7 @@
 - postximage:
     post: 2036447062238347675
     id: HELpzOCboAAvaZh
+    index: 2
     label: Backstage
     info: Cocoro
     context:

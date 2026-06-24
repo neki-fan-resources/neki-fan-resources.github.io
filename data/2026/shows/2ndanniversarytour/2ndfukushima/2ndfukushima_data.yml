@@ -633,6 +633,7 @@
 - postximage:
     post: 2035211378747928766
     id: HD6FvD0boAEpzFB
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -645,6 +646,7 @@
 - postximage:
     post: 2035307845672218757
     id: HD7dd85bcAExLTE
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -657,6 +659,7 @@
 - postximage:
     post: 2035307845672218757
     id: HD7dd8xaMAAbfVb
+    index: 2
     label: On stage
     context:
     - show:
@@ -668,6 +671,7 @@
 - postximage:
     post: 2035308380865306796
     id: HD7eLq1aYAAupZn
+    index: 2
     label: On stage
     context:
     - show:
@@ -679,6 +683,7 @@
 - postximage:
     post: 2035308380865306796
     id: HD7eLqxaEAAYVem
+    index: 1
     label: Backstage
     context:
     - show:
@@ -690,6 +695,7 @@
 - postximage:
     post: 2035309301619884411
     id: HD7fBSWb0AAVxsp
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -702,6 +708,7 @@
 - postximage:
     post: 2035309301619884411
     id: HD7fBTvacAAsWc1
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -714,6 +721,7 @@
 - postximage:
     post: 2035314983425511822
     id: HD7kMCSawAA12dg
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -726,6 +734,7 @@
 - postximage:
     post: 2035318290755854468
     id: HD7nMHraYAAVY1r
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -738,6 +747,7 @@
 - postximage:
     post: 2035318290755854468
     id: HD7nMHya0AAww9v
+    index: 2
     label: Café au lait
     info: Cocoro
     context:
@@ -750,6 +760,7 @@
 - postximage:
     post: 2035592982930543019
     id: HD_hBydboAALqYm
+    index: 1
     label: Backstage
     info: Cocoro
     context:

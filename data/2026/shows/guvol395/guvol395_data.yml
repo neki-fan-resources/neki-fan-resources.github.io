@@ -613,6 +613,7 @@
 - postximage:
     post: 2007698283565854834
     id: G9zG8pSbIAArE4D
+    index: 1
     label: Sidewalk board
     context:
     - show:
@@ -624,6 +625,7 @@
 - postximage:
     post: 2007776383121117691
     id: G90N-N3awAAmOt-
+    index: 3
     label: Sidewalk board
     context:
     - show:
@@ -635,6 +637,7 @@
 - postximage:
     post: 2007776383121117691
     id: G90N-N4akAAw_RD
+    index: 2
     label: On stage
     context:
     - show:
@@ -646,6 +649,7 @@
 - postximage:
     post: 2007776383121117691
     id: G90N-N5acAANp1Z
+    index: 1
     label: Backstage
     context:
     - show:
@@ -657,6 +661,7 @@
 - postximage:
     post: 2007827776326545900
     id: G908t3BakAA-Lv7
+    index: 1
     label: Bands
     info: NEK!, TRiDENT
     context:
@@ -669,6 +674,7 @@
 - postximage:
     post: 2007831566270296293
     id: G91AJ5SbkAA3sx4
+    index: 1
     label: Bands
     info: NEK!, TRiDENT
     context:
@@ -681,6 +687,7 @@
 - postximage:
     post: 2007834717736071473
     id: G91DBPebEAA3ZM_
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -693,6 +700,7 @@
 - postximage:
     post: 2007837909957939342
     id: G91F7u5aYAACIc0
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -705,6 +713,7 @@
 - postximage:
     post: 2008115409028014307
     id: G95CSsbbMAACDfG
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -717,6 +726,7 @@
 - postximage:
     post: 2008115409028014307
     id: G95CSsebUAAp1IE
+    index: 2
     label: Backstage
     info: Kanade
     context:

@@ -615,6 +615,7 @@
 - postximage:
     post: 2034628858327294452
     id: HDx0KWFaYAAY5Kc
+    index: 2
     label: Sendai food
     context:
     - show:
@@ -626,6 +627,7 @@
 - postximage:
     post: 2034628858327294452
     id: HDx0KWNbAAAsHDy
+    index: 1
     label: Rehearsal
     info: Cocoro, Kanade
     context:
@@ -638,6 +640,7 @@
 - postximage:
     post: 2034628858327294452
     id: HDx0KWPbcAAedqf
+    index: 3
     label: Sendai food
     context:
     - show:
@@ -649,6 +652,7 @@
 - postximage:
     post: 2034835832927059996
     id: HD0vhJ8boAAcm78
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -661,6 +665,7 @@
 - postximage:
     post: 2034959910564503639
     id: HD2hPXLboAQGcWz
+    index: 1
     label: Backstage
     context:
     - show:
@@ -672,6 +677,7 @@
 - postximage:
     post: 2034959910564503639
     id: HD2hPXMbcAAaEpq
+    index: 2
     label: On stage
     context:
     - show:
@@ -683,6 +689,7 @@
 - postximage:
     post: 2034965741389435018
     id: HD2mjUSboAI9_R-
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -695,6 +702,7 @@
 - postximage:
     post: 2034968629490720935
     id: HD2pLmKbIAAI-uD
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -707,6 +715,7 @@
 - postximage:
     post: 2034968629490720935
     id: HD2pLmMboAUI4ox
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -719,6 +728,7 @@
 - postximage:
     post: 2034970009316073505
     id: HD2qbq-boAIeQtF
+    index: 2
     label: Backstage
     info: Kanade
     context:
@@ -731,6 +741,7 @@
 - postximage:
     post: 2034970009316073505
     id: HD2qbq_boAMfMfA
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -743,6 +754,7 @@
 - postximage:
     post: 2034974714901537067
     id: HD2unh-boAEFnl4
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -755,6 +767,7 @@
 - postximage:
     post: 2035674830826262775
     id: HEArdr5aoAAane6
+    index: 1
     label: Backstage
     info: Kanade
     context:

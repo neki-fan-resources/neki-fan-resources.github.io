@@ -1307,6 +1307,7 @@
 - postximage:
     post: 2064648886728483169
     id: HKcX7azaUAAKYpA
+    index: 1
     label: Sharing campaign
     context:
     - song: flick
@@ -1316,6 +1317,7 @@
 - postximage:
     post: 2065267856099750216
     id: HKlCMuTbQAA33np
+    index: 1
     label: MV image
     info: Natsu
     context:
@@ -1326,6 +1328,7 @@
 - postximage:
     post: 2065298045852438583
     id: HKlCWrSaoAAD1Op
+    index: 1
     label: MV image
     info: Cocoro
     context:
@@ -1336,6 +1339,7 @@
 - postximage:
     post: 2065328247936606317
     id: HKlCbz7bAAAK6mt
+    index: 1
     label: MV image
     info: Kanade
     context:
@@ -1346,6 +1350,7 @@
 - postximage:
     post: 2065358454550638639
     id: HKlChqbbsAA5Tcu
+    index: 1
     label: MV image
     info: Hika
     context:
@@ -1356,6 +1361,7 @@
 - postximage:
     post: 2065375515305984047
     id: HKmwFQzaQAAedAM
+    index: 1
     label: MV image
     context:
     - song: flick
@@ -1365,6 +1371,7 @@
 - postximage:
     post: 2065387584067657794
     id: HKm7DldbMAAGyNX
+    index: 2
     label: Behind the scenes
     info: Drum set
     context:
@@ -1375,6 +1382,7 @@
 - postximage:
     post: 2065387584067657794
     id: HKm7DljakAACesq
+    index: 1
     label: Behind the scenes
     info: Cocoro
     context:
@@ -1385,6 +1393,7 @@
 - postximage:
     post: 2065393132288766154
     id: HKnAGuoaAAAM0hr
+    index: 2
     label: Behind the scenes
     info: Natsu
     context:
@@ -1395,6 +1404,7 @@
 - postximage:
     post: 2065393132288766154
     id: HKnAGupbQAAnOKp
+    index: 1
     label: Behind the scenes
     info: Natsu
     context:

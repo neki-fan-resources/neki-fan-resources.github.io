@@ -367,6 +367,7 @@
 - postximage:
     post: 2033876722282848752
     id: HDnIGTVaoAAFcaN
+    index: 1
     label: Flyer
     local-copy: true
     context:
@@ -379,6 +380,7 @@
 - postximage:
     post: 2052013814884004268
     id: HHo3rw7bAAAwkAf
+    index: 1
     label: On stage
     info: NEK!, Viewtrade
     context:
@@ -391,6 +393,7 @@
 - postximage:
     post: 2052013814884004268
     id: HHo3rw9bEAAVJG_
+    index: 2
     label: On stage
     context:
     - show:
@@ -402,6 +405,7 @@
 - postximage:
     post: 2052031543875629327
     id: HHpHziRaUAAVK8y
+    index: 1
     label: At the venue
     info: Kanade, ぱんだ (Viewtrade)
     context:
@@ -414,6 +418,7 @@
 - postximage:
     post: 2052050724473958484
     id: HHpZQHcagAA_wGz
+    index: 2
     label: At the venue
     info: Cocoro, 文哉 (Viewtrade)
     context:
@@ -426,6 +431,7 @@
 - postximage:
     post: 2052053853554802775
     id: HHpcGB_aUAEKgbp
+    index: 3
     label: On stage
     info: Natsu, wireless pack
     context:
@@ -438,6 +444,7 @@
 - postximage:
     post: 2052053853554802775
     id: HHpcGCKaYAAi_vd
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -450,6 +457,7 @@
 - postximage:
     post: 2052066179536322620
     id: HHpnT-RaIAAHvFF
+    index: 2
     label: On stage
     info: Hika
     context:

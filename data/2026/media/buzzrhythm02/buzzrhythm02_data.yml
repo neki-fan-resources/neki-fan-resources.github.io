@@ -389,6 +389,7 @@
 - postximage:
     post: 2030183993178775754
     id: HCypgfAbUAAbpRI
+    index: 2
     label: Program
     context:
     - media:
@@ -400,6 +401,7 @@
 - postximage:
     post: 2030183993178775754
     id: HCypgfLbsAAWjgP
+    index: 1
     label: Backstage
     context:
     - media:
@@ -411,6 +413,7 @@
 - postximage:
     post: 2030199626108952671
     id: HCy3zFTbYAEuytN
+    index: 1
     label: Backstage
     info: Hika
     context:
@@ -423,6 +426,7 @@
 - postximage:
     post: 2032385940434612429
     id: HDR8NeibIAA-V8P
+    index: 1
     label: Backstage
     context:
     - media:
@@ -434,6 +438,7 @@
 - postximage:
     post: 2032456248143302710
     id: HDS8LpAbYAAqruK
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -446,6 +451,7 @@
 - postximage:
     post: 2032616943723929854
     id: HDVOU5zbMAAabg9
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -458,6 +464,7 @@
 - postximage:
     post: 2032637146386018628
     id: HDVgtWqaMAA3PnQ
+    index: 1
     label: Backstage
     info: Hika
     context:
@@ -470,6 +477,7 @@
 - postximage:
     post: 2032649669214642416
     id: HDVsGbRaMAABdRy
+    index: 1
     label: Backstage
     info: Cocoro
     context:

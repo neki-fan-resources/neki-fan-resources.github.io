@@ -724,6 +724,7 @@
 - postximage:
     post: 2038075549248262341
     id: HEiy6FVaMAA8L8O
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -736,6 +737,7 @@
 - postximage:
     post: 2038084497821016468
     id: HEi6pvsbwAATo5z
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -748,6 +750,7 @@
 - postximage:
     post: 2038087177243095497
     id: HEi9evdbsAAof7h
+    index: 2
     label: Toyohashi bento
     info: Kanade
     context:
@@ -760,6 +763,7 @@
 - postximage:
     post: 2038087177243095497
     id: HEi9evebQAAj0s7
+    index: 1
     label: Toyohashi bento
     info: Kanade
     context:
@@ -772,6 +776,7 @@
 - postximage:
     post: 2038203266362974386
     id: HEknEM9aoAA_aox
+    index: 1
     label: On stage
     context:
     - show:
@@ -783,6 +788,7 @@
 - postximage:
     post: 2038203266362974386
     id: HEknENAaEAE6NAO
+    index: 2
     label: On stage
     context:
     - show:
@@ -794,6 +800,7 @@
 - postximage:
     post: 2038205405025992709
     id: HEkpAtsaMAE_nil
+    index: 1
     label: Backstage
     info: Hika
     context:
@@ -806,6 +813,7 @@
 - postximage:
     post: 2038206234701238379
     id: HEkpxBuaQAAjBfK
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -818,6 +826,7 @@
 - postximage:
     post: 2038206234701238379
     id: HEkpxBzbgAAl_sT
+    index: 2
     label: On stage
     context:
     - show:
@@ -829,6 +838,7 @@
 - postximage:
     post: 2038206760041979991
     id: HEkqPfGaIAESSyI
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -841,6 +851,7 @@
 - postximage:
     post: 2038206760041979991
     id: HEkqPfHa4AAUjhU
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -853,6 +864,7 @@
 - postximage:
     post: 2038213603120263212
     id: HEkwUWFakAAE1tg
+    index: 1
     label: On stage
     info: Cocoro
     context:

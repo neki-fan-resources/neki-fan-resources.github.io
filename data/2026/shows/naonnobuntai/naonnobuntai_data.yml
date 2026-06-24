@@ -1046,6 +1046,7 @@
 - postximage:
     post: 2034827695041966204
     id: HD0o-YibcAAb_9C
+    index: 1
     label: Poster
     context:
     - show:
@@ -1057,6 +1058,7 @@
 - postximage:
     post: 2048960393075433752
     id: HG9Xq2YbkAA-qGa
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -1069,6 +1071,7 @@
 - postximage:
     post: 2049458470081188009
     id: HHEjnBwa0AAxZvS
+    index: 2
     label: On stage
     context:
     - show:
@@ -1080,6 +1083,7 @@
 - postximage:
     post: 2049458470081188009
     id: HHEjnByaUAA5ReY
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1091,6 +1095,7 @@
 - postximage:
     post: 2049487133803770233
     id: HHE9rt-aYAAr6Ak
+    index: 2
     label: On stage
     context:
     - show:
@@ -1102,6 +1107,7 @@
 - postximage:
     post: 2049487133803770233
     id: HHE9rubacAAA7sq
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -1114,6 +1120,7 @@
 - postximage:
     post: 2049496695986380967
     id: HHFGYK1bYAAhJNA
+    index: 2
     label: On stage
     context:
     - show:
@@ -1125,6 +1132,7 @@
 - postximage:
     post: 2049496695986380967
     id: HHFGYKzacAAZOvV
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1136,6 +1144,7 @@
 - postximage:
     post: 2049497352810230248
     id: HHFG-VCaAAA3dqk
+    index: 2
     label: On stage
     info: Cocoro
     context:
@@ -1148,6 +1157,7 @@
 - postximage:
     post: 2049497352810230248
     id: HHFG-VDa8AEPV62
+    index: 3
     label: On stage
     context:
     - show:
@@ -1159,6 +1169,7 @@
 - postximage:
     post: 2049497352810230248
     id: HHFG-VEbMAAieeD
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1170,6 +1181,7 @@
 - postximage:
     post: 2049497352810230248
     id: HHFG-VFakAAFqP3
+    index: 4
     label: Backstage
     context:
     - show:
@@ -1181,6 +1193,7 @@
 - postximage:
     post: 2049500544088355078
     id: HHFJ32vb0AAx6tg
+    index: 1
     label: On stage
     context:
     - show:
@@ -1192,6 +1205,7 @@
 - postximage:
     post: 2049500645426901277
     id: HHFJ-FXaAAAHqDk
+    index: 1
     label: Backstage
     info: yuri (Gacharic Spin), Cocoro
     context:
@@ -1204,6 +1218,7 @@
 - postximage:
     post: 2049769837145251908
     id: HHI-yt9bsAAA-WD
+    index: 1
     label: Backstage
     info: NEMOPHILA, NEK!
     context:
@@ -1216,6 +1231,7 @@
 - postximage:
     post: 2049780007544017192
     id: HHJICyLaMAA6l2U
+    index: 1
     label: Backstage
     info: East of Eden, NEK!
     context:
@@ -1228,6 +1244,7 @@
 - postximage:
     post: 2049793536145670559
     id: HHJUWT5bMAAwQH5
+    index: 1
     label: Backstage
     info: Nagi (Hagane), NEK!
     context:
@@ -1240,6 +1257,7 @@
 - postximage:
     post: 2049826087593820496
     id: HHJx9Nua4AAGxyd
+    index: 1
     label: Backstage
     info: SHOW-YA, NEK!
     context:
@@ -1252,6 +1270,7 @@
 - postximage:
     post: 2050069384262271149
     id: HHNPPS1bwAAOWH2
+    index: 1
     label: Backstage
     info: Hika, Akane (East of Eden)
     context:
@@ -1264,6 +1283,7 @@
 - postximage:
     post: 2050722424598257795
     id: HHWgzoQaMAAgxwQ
+    index: 1
     label: The bands
     context:
     - show:

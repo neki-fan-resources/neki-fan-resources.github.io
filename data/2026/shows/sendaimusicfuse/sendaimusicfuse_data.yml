@@ -618,6 +618,7 @@
 - postximage:
     post: 2042905506399031322
     id: HFnbun-asAAqMYf
+    index: 1
     label: 3rd lineup
     context:
     - show:
@@ -629,6 +630,7 @@
 - postximage:
     post: 2056676242741465274
     id: HIpn9YbbcAAwgru
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -641,6 +643,7 @@
 - postximage:
     post: 2056676242741465274
     id: HIpoAJrbMAAQ8JI
+    index: 2
     label: Timetable
     context:
     - show:
@@ -652,6 +655,7 @@
 - postximage:
     post: 2060631883818680586
     id: HJjVm4BacAAjvDz
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -664,6 +668,7 @@
 - postximage:
     post: 2060631883818680586
     id: HJjVneDaYAAFUd8
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -676,6 +681,7 @@
 - postximage:
     post: 2060631883818680586
     id: HJjVoHGaoAEuzkL
+    index: 3
     label: On stage
     info: Cocoro
     context:
@@ -688,6 +694,7 @@
 - postximage:
     post: 2060631883818680586
     id: HJjVolEasAAoo8D
+    index: 4
     label: On stage
     info: Kanade
     context:
@@ -700,6 +707,7 @@
 - postximage:
     post: 2060648402489418035
     id: HJjkzMIbwAA3zOW
+    index: 1
     label: Backstage
     context:
     - show:
@@ -711,6 +719,7 @@
 - postximage:
     post: 2060648402489418035
     id: HJjkzMJb0AA4cR5
+    index: 2
     label: On stage
     context:
     - show:
@@ -722,6 +731,7 @@
 - postximage:
     post: 2060651573760651269
     id: HJjnrm3bkAAhNfW
+    index: 2
     label: Backstage
     context:
     - show:
@@ -733,6 +743,7 @@
 - postximage:
     post: 2060651573760651269
     id: HJjnrm5a4AAO6Hy
+    index: 1
     label: On stage
     context:
     - show:
@@ -744,6 +755,7 @@
 - postximage:
     post: 2060652971734737147
     id: HJjo7H1a8AAKQvA
+    index: 2
     label: On stage
     context:
     - show:
@@ -755,6 +767,7 @@
 - postximage:
     post: 2060654063612743754
     id: HJjp8VAa0AAOs5m
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -767,6 +780,7 @@
 - postximage:
     post: 2060657429214552184
     id: HJjs_zhbEAAaQVK
+    index: 1
     label: Backstage
     info: Cocoro
     context:
@@ -779,6 +793,7 @@
 - postximage:
     post: 2060657429214552184
     id: HJjs_zjaIAA_gwP
+    index: 2
     label: On stage
     info: Cocoro
     context:

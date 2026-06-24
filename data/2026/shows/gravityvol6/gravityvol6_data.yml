@@ -195,11 +195,17 @@
       機材トラブル本当に申し訳ありませんでした。
       完全体をお届けできなくて正直めちゃくちゃ悔しい。でもフロアのみんながライブそのものを楽しんでくれたおかげで最後までやり切ることができました。本当にありがとう。
       またお2組と再会できる日を夢見て頑張ります🔥
+      
+      alt:
+      ちゃくらの葉弥さんと🥁(帰り際にお互いジョジョ好きと判明)
     translation: |-
       Thank you for GrAViTy!
       I am truly sorry for the equipment trouble.
       To be honest, I'm incredibly frustrated that we couldn't deliver a perfect performance. But thanks to everyone on the floor enjoying the live show itself, we were able to see it through to the end. Thank you so much.
       I'll do my best while dreaming of the day we can meet both groups again🔥
+      
+      alt:
+      With Haya-san from Chacra🥁(found out right as we were leaving that we're both JoJo fans)
     image:
     - HHztxtEbgAAaPGf
     part-of:
@@ -258,6 +264,7 @@
 - postximage:
     post: 2052349392611606622
     id: HHtogoIaMAACU9c
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -270,6 +277,7 @@
 - postximage:
     post: 2052757787722276902
     id: HHzcUHlboAAYhvh
+    index: 2
     label: On stage
     context:
     - show:
@@ -281,6 +289,7 @@
 - postximage:
     post: 2052757787722276902
     id: HHzcUIGa4AAVJbo
+    index: 1
     label: The bands
     info: ちゃくら, STRAWDAY, NEK!
     context:
@@ -293,6 +302,7 @@
 - postximage:
     post: 2052776981826306524
     id: HHztxtEbgAAaPGf
+    index: 2
     label: Backstage
     info: Cocoro, 葉弥 (ちゃくら)
     context:
@@ -305,6 +315,7 @@
 - postximage:
     post: 2052788941586301263
     id: HHz4qDMa0AE-Fe3
+    index: 2
     label: Backstage
     info: まお (ちゃくら), Natsu
     context:

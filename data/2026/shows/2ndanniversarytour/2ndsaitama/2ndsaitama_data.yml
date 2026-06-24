@@ -750,6 +750,7 @@
 - postximage:
     post: 2032356445552066993
     id: HDRhJ3PbsAA7VeC
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -762,6 +763,7 @@
 - postximage:
     post: 2033144435874361369
     id: HDcuFeLawAA0DjG
+    index: 1
     label: Band
     context:
     - show:
@@ -773,6 +775,7 @@
 - postximage:
     post: 2033144435874361369
     id: HDcuFeUaEAAZpYo
+    index: 2
     label: On stage
     context:
     - show:
@@ -784,6 +787,7 @@
 - postximage:
     post: 2033153106297639065
     id: HDc1-N0bQAAV-aU
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -796,6 +800,7 @@
 - postximage:
     post: 2033153106297639065
     id: HDc1-NwbEAAHIJE
+    index: 2
     label: On stage
     context:
     - show:
@@ -807,6 +812,7 @@
 - postximage:
     post: 2033160382878240978
     id: HDc8l0waEAAZcKk
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -819,6 +825,7 @@
 - postximage:
     post: 2033161864142844006
     id: HDc9754a8AAUqZq
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -831,6 +838,7 @@
 - postximage:
     post: 2033161864142844006
     id: HDc976AaAAAvZyT
+    index: 2
     label: On stage
     context:
     - show:
@@ -842,6 +850,7 @@
 - postximage:
     post: 2033177815030673478
     id: HDdMXbIbMAA2C0U
+    index: 1
     label: Backstage
     info: Cocoro
     context:

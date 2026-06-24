@@ -565,6 +565,7 @@
 - postximage:
     post: 2042426041575329902
     id: HFgnp6maMAAcInj
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -577,6 +578,7 @@
 - postximage:
     post: 2042931967390552455
     id: HFnzy5oaIAAn2vh
+    index: 1
     label: Backstage
     context:
     - show:
@@ -588,6 +590,7 @@
 - postximage:
     post: 2042936458206642373
     id: HFn34CjasAA4oh8
+    index: 2
     label: On stage
     context:
     - show:
@@ -599,6 +602,7 @@
 - postximage:
     post: 2042959009054101835
     id: HFoMY0PakAQ12_r
+    index: 2
     label: Backstage
     context:
     - show:
@@ -610,6 +614,7 @@
 - postximage:
     post: 2042959009054101835
     id: HFoMY0TakAQHlJF
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -622,6 +627,7 @@
 - postximage:
     post: 2042961632859689104
     id: HFoOxVPakAg30M9
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -634,6 +640,7 @@
 - postximage:
     post: 2042963039067213877
     id: HFoQDedakAUp7Lm
+    index: 1
     label: Backstage
     info: Cocoro
     context:

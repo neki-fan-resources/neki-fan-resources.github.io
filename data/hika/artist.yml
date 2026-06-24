@@ -362,6 +362,7 @@
 - postximage:
     post: 2040814114021462484
     id: HFJtno5bMAAhETc
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -374,6 +375,7 @@
 - postximage:
     post: 2043579001168679006
     id: HFxAQ_0aUAAWQ_x
+    index: 1
     label: NEK! Hoodie
     info: Hika
     part-of:
@@ -382,6 +384,7 @@
 - postximage:
     post: 2064649009109913825
     id: HKcbVMIasAAaXKW
+    index: 1
     label: Backstage
     info: Hika
     context:

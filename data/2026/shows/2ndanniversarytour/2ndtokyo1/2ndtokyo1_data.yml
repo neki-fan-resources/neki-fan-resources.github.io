@@ -936,6 +936,7 @@
 - postximage:
     post: 2014972494361645385
     id: G_adQ2YbAAIeZhI
+    index: 1
     label: Poster sold out
     local-copy: true
     context:
@@ -948,6 +949,7 @@
 - postximage:
     post: 2017936963970699641
     id: HAEm-ESaMAAziQu
+    index: 2
     label: Towel
     context:
     - show:
@@ -959,6 +961,7 @@
 - postximage:
     post: 2017936963970699641
     id: HAEm-EdaMAAlt7o
+    index: 3
     label: Tote bag
     context:
     - show:
@@ -970,6 +973,7 @@
 - postximage:
     post: 2017936963970699641
     id: HAEm-EobkAAr4v-
+    index: 1
     label: Tour T-shirt
     context:
     - show:
@@ -981,6 +985,7 @@
 - postximage:
     post: 2020405221999226922
     id: HAnrhAlacAAW7SI
+    index: 1
     label: Sidewalk board
     context:
     - show:
@@ -992,6 +997,7 @@
 - postximage:
     post: 2020466429263294841
     id: HAoiVg0asAAJUV4
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1003,6 +1009,7 @@
 - postximage:
     post: 2020466429263294841
     id: HAoiWkUaQAA_n-v
+    index: 2
     label: On stage
     context:
     - show:
@@ -1014,6 +1021,7 @@
 - postximage:
     post: 2020505544453484875
     id: HApHE15bYAAn9Vt
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -1026,6 +1034,7 @@
 - postximage:
     post: 2020510409585729857
     id: HApLgZXboAAaZ3m
+    index: 2
     label: Backstage
     context:
     - show:
@@ -1037,6 +1046,7 @@
 - postximage:
     post: 2020510409585729857
     id: HApLgZZbUAACtE0
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -1049,6 +1059,7 @@
 - postximage:
     post: 2020518012026060854
     id: HApSajiagAA6b1O
+    index: 1
     label: On stage
     info: Natsu
     context:
@@ -1061,6 +1072,7 @@
 - postximage:
     post: 2020518012026060854
     id: HApSajibcAALBcC
+    index: 2
     label: On stage
     info: encore
     context:
@@ -1073,6 +1085,7 @@
 - postximage:
     post: 2020527061924761982
     id: HApapWfaQAEfO9k
+    index: 1
     label: Backstage
     context:
     - show:
@@ -1084,6 +1097,7 @@
 - postximage:
     post: 2020527061924761982
     id: HApapWgbAAAI8FX
+    index: 2
     label: Backstage
     info: Cocoro
     context:
@@ -1096,6 +1110,7 @@
 - postximage:
     post: 2020706932638859334
     id: HAr-Olza0AA8x7t
+    index: 1
     label: On stage
     info: Cocoro, MC
     context:
@@ -1108,6 +1123,7 @@
 - postximage:
     post: 2022266928430297372
     id: HBCJDThbYAA2bt1
+    index: 1
     label: Backstage
     info: Kanade
     context:

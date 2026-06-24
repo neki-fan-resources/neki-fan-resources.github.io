@@ -599,6 +599,7 @@
 - postximage:
     post: 2006384807752946106
     id: G9gcVIebgAA457T
+    index: 1
     label: Behind the scenes
     info: Hika
     context:
@@ -609,6 +610,7 @@
 - postximage:
     post: 2006386521562361959
     id: G9gd5m4agAAyc4R
+    index: 1
     label: Behind the scenes
     info: Natsu
     context:
@@ -619,6 +621,7 @@
 - postximage:
     post: 2006386521562361959
     id: G9gd5m8aIAAjEW8
+    index: 2
     label: Behind the scenes
     info: Natsu
     context:
@@ -629,6 +632,7 @@
 - postximage:
     post: 2006946474081530286
     id: G9obLHSboAAzC4U
+    index: 1
     label: Behind the scenes
     info: Hika, Kanade
     context:
@@ -639,6 +643,7 @@
 - postximage:
     post: 2006946474081530286
     id: G9obLHXaMAYbhwp
+    index: 2
     label: Behind the scenes
     info: Hika, Natsu
     context:
@@ -649,6 +654,7 @@
 - postximage:
     post: 2006946474081530286
     id: G9obLHYaEAE_kFj
+    index: 3
     label: Behind the scenes
     info: Hika, Cocoro
     context:

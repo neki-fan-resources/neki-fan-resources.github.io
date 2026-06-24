@@ -795,6 +795,7 @@
 - postximage:
     post: 2037518244408668254
     id: HEa4CqIaYAAlZM3
+    index: 1
     label: On stage
     context:
     - show:
@@ -806,6 +807,7 @@
 - postximage:
     post: 2037726447520174312
     id: HEd1MUiasAAMowL
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -818,6 +820,7 @@
 - postximage:
     post: 2037794112905359499
     id: HEey8OUaoAAT9_G
+    index: 1
     label: Venue
     context:
     - show:
@@ -829,6 +832,7 @@
 - postximage:
     post: 2037857457394126996
     id: HEfsjTsaMAAqZY6
+    index: 2
     label: On stage
     context:
     - show:
@@ -840,6 +844,7 @@
 - postximage:
     post: 2037857457394126996
     id: HEfsjTub0AAo4Qc
+    index: 1
     label: Backstage
     context:
     - show:
@@ -851,6 +856,7 @@
 - postximage:
     post: 2037861683453153288
     id: HEfwZhabkAAKj54
+    index: 1
     label: Backstage
     info: Hika
     context:
@@ -863,6 +869,7 @@
 - postximage:
     post: 2037870430061789254
     id: HEf4WmpaQAAZ2od
+    index: 1
     label: On stage
     info: Kanade
     context:
@@ -875,6 +882,7 @@
 - postximage:
     post: 2037882708656054388
     id: HEgDhW0aIAAFdeq
+    index: 2
     label: On stage
     info: Natsu
     context:
@@ -887,6 +895,7 @@
 - postximage:
     post: 2037882708656054388
     id: HEgDhWyaQAEvRXO
+    index: 1
     label: Backstage
     context:
     - show:
@@ -898,6 +907,7 @@
 - postximage:
     post: 2037890628642898087
     id: HEgKuRRa8AAsDmM
+    index: 2
     label: On stage
     info: Cocoro
     context:
@@ -910,6 +920,7 @@
 - postximage:
     post: 2037890628642898087
     id: HEgKuRTasAADUx4
+    index: 1
     label: On stage
     info: Cocoro
     context:

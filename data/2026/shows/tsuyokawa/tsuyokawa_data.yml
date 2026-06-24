@@ -493,6 +493,7 @@
 - postximage:
     post: 2028062840817664094
     id: HCUgZoEa8AABKp4
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -505,6 +506,7 @@
 - postximage:
     post: 2062898813346709564
     id: HKDjiWTaMAEJBrY
+    index: 3
     label: On stage
     info: Natsu
     context:
@@ -517,6 +519,7 @@
 - postximage:
     post: 2062898813346709564
     id: HKDjiWVaIAAR3-x
+    index: 1
     label: Bands
     info: 7th Vega, NEK!
     context:
@@ -529,6 +532,7 @@
 - postximage:
     post: 2062898813346709564
     id: HKDjiWWbQAAZSI2
+    index: 2
     label: On stage
     context:
     - show:
@@ -540,6 +544,7 @@
 - postximage:
     post: 2062914774938316808
     id: HKDyDTAbgAA6rU5
+    index: 2
     label: Backstage
     context:
     - show:
@@ -551,6 +556,7 @@
 - postximage:
     post: 2062916920106734040
     id: HKD0AMoaYAA9iXS
+    index: 2
     label: Backstage
     info: Natsu, サコティッシュフォールド (セブンス・ベガ)
     context:
@@ -563,6 +569,7 @@
 - postximage:
     post: 2062936991235551359
     id: HKEGQc_bsAITH6e
+    index: 1
     label: On stage
     info: Cocoro
     context:
@@ -575,6 +582,7 @@
 - postximage:
     post: 2063064177376370755
     id: HKF57UqbgAEatYK
+    index: 1
     label: Backstage
     info: Hika, シブヤカンナ (セブンス・ベガ)
     context:
@@ -587,6 +595,7 @@
 - postximage:
     post: 2063064177376370755
     id: HKF57Y1b0AAvsWI
+    index: 2
     label: Backstage
     info: Phone cases and keychains
     context:
@@ -599,6 +608,7 @@
 - postximage:
     post: 2063231348245180424
     id: HKIR-T0bQAAuyyH
+    index: 1
     label: Bands
     info: NEK!, セブンス・ベガ
     context:
@@ -611,6 +621,7 @@
 - postximage:
     post: 2063608573402472590
     id: HKNpC-dbMAAL2fz
+    index: 2
     label: Backstage
     info: Kanade, そら (セブンス・ベガ)
     context:
@@ -623,6 +634,7 @@
 - postximage:
     post: 2063608573402472590
     id: HKNpC-qbYAAWYUf
+    index: 1
     label: Backstage
     info: そら (セブンス・ベガ), Hika
     context:

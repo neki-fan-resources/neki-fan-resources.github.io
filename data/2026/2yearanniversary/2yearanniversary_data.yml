@@ -331,6 +331,7 @@
 - postximage:
     post: 2021162954540945426
     id: HAyc_H1acAAhe0d
+    index: 1
     label: On stage
     info: encore
     context:
@@ -343,6 +344,7 @@
 - postximage:
     post: 2021172953186988253
     id: HAymFh9aAAMuY7M
+    index: 1
     label: On stage
     context:
     - show:
@@ -354,6 +356,7 @@
 - postximage:
     post: 2021178607230435394
     id: HAyrOctbUAA0v38
+    index: 1
     label: Backstage
     todo: match to shows
     part-of:

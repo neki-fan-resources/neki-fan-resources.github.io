@@ -182,6 +182,7 @@
 - postximage:
     post: 2023344120002154684
     id: HBRcv-5a0AAw249
+    index: 1
     label: Cover
     context:
     - media:
@@ -193,6 +194,7 @@
 - postximage:
     post: 2023344120002154684
     id: HBRcv-7aAAAUKj-
+    index: 2
     label: Logo
     local-copy: true
     part-of:

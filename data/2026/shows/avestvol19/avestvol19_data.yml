@@ -553,6 +553,7 @@
 - postximage:
     post: 2017175957581300033
     id: G_5HtpfakAAut9F
+    index: 1
     label: Poster
     local-copy: true
     context:
@@ -565,6 +566,7 @@
 - postximage:
     post: 2021887005697937552
     id: HA79T5ObsAQB1xX
+    index: 1
     label: Poster
     context:
     - show:
@@ -577,6 +579,7 @@
 - postximage:
     post: 2021887005697937552
     id: HA79UnjaEAAaSdM
+    index: 2
     label: Timetable
     context:
     - show:
@@ -588,6 +591,7 @@
 - postximage:
     post: 2027751368778518951
     id: HCQFHvebEAACt8P
+    index: 1
     label: Poster sold out
     context:
     - show:
@@ -599,6 +603,7 @@
 - postximage:
     post: 2027997395917934787
     id: HCTk3csbEAIIAbX
+    index: 2
     label: On stage
     context:
     - show:
@@ -610,6 +615,7 @@
 - postximage:
     post: 2027997395917934787
     id: HCTk3cuasAA5vcs
+    index: 1
     label: Backstage
     context:
     - show:
@@ -621,6 +627,7 @@
 - postximage:
     post: 2027997395917934787
     id: HCTk3cvbEAARjNv
+    index: 3
     label: On stage
     context:
     - show:
@@ -632,6 +639,7 @@
 - postximage:
     post: 2028010765064740993
     id: HCTxCPEaUAAApFh
+    index: 3
     label: On stage
     info: Cocoro
     context:
@@ -644,6 +652,7 @@
 - postximage:
     post: 2028010765064740993
     id: HCTxCPKbsAA2gtU
+    index: 4
     label: On stage
     context:
     - show:
@@ -655,6 +664,7 @@
 - postximage:
     post: 2028010765064740993
     id: HCTxCPMaAAAQTaN
+    index: 2
     label: On stage
     info: Kanade
     context:
@@ -667,6 +677,7 @@
 - postximage:
     post: 2028010765064740993
     id: HCTxCPMbUAANE3H
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -679,6 +690,7 @@
 - postximage:
     post: 2028053414060716433
     id: HCUX0AzbYAA15pd
+    index: 1
     label: Backstage
     info: Kanade
     context:
@@ -691,6 +703,7 @@
 - postximage:
     post: 2028056162734936370
     id: HCUaTI4aAAADaLP
+    index: 1
     label: On stage
     info: Hika
     context:
@@ -703,6 +716,7 @@
 - postximage:
     post: 2028056162734936370
     id: HCUaTJDaIAA5FBu
+    index: 2
     label: Backstage
     info: Hika
     context:
@@ -715,6 +729,7 @@
 - postximage:
     post: 2028056429354217608
     id: HCUakVeaMAAKhw1
+    index: 1
     label: Backstage
     info: Natsu
     context:
@@ -727,6 +742,7 @@
 - postximage:
     post: 2028056429354217608
     id: HCUakVoa8AAmFy8
+    index: 2
     label: Backstage
     context:
     - show:
@@ -738,6 +754,7 @@
 - postximage:
     post: 2028079247492067451
     id: HCUvUmJbQAAtGTV
+    index: 1
     label: Backstage
     info: Cocoro
     context:

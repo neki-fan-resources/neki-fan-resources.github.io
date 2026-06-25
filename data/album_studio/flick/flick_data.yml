@@ -31,6 +31,8 @@
                 - youtubeshort: bbWxE2HUeVw
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: rBVqVJHn8Tk
+                - youtubeshort: gRtA2nwM7s0
                 - youtubeshort: uNRR30VezUA
                 - youtubeshort: eIcyBU-H0oc
             - multimediasubsection:
@@ -1731,6 +1733,26 @@
     label: Off shot
     info: Natsu
     published-date: 2026-06-21
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: gRtA2nwM7s0
+    label: Off shot
+    info: Cocoro
+    published-date: 2026-06-23
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: rBVqVJHn8Tk
+    label: Off shot
+    info: Hika
+    published-date: 2026-06-24
     context:
     - song: flick
     part-of:

@@ -199,6 +199,52 @@
         year: 2026
         id: ch07
 
+- postx:
+    id: 2069271959570129382
+    account: chFILES
+    label: Giveaway
+    published-date: 2026-06-23
+    text: |-
+      【プレゼント🎁】
+      
+      NEK!
+      チェキ1名様に✨
+      
+      6月10日に1stシングル『FLiCK』でメジャーデビューを果たしたNEK!。カッコいい楽曲とはギャップ大の4人のゆるめのパーソナリティが見え隠れ👀🎸
+      
+      【応募方法】7/19(日)締切
+      1️⃣
+      @chFILES
+       をフォロー
+      2️⃣本投稿をRP
+      
+      6/20より高校図書館で順次配布
+      #NEKI
+    translation: |-
+      【Present🎁】
+      
+      NEK!
+      Instax photo for 1 person✨
+      
+      NEK! made their major debut on June 10 with their 1st single "FLiCK." You can catch glimpses of the four members' laid-back personalities, a massive contrast to their cool songs👀🎸
+      
+      【How to Apply】Deadline 7/19 (Sun)
+      1️⃣ Follow @chFILES
+      2️⃣ Repost this post
+      
+      Distributed sequentially in high school libraries starting 6/20
+      #NEKI
+    image:
+    - HLeH4UFb0AAKE3X
+    part-of:
+      media:
+        year: 2026
+        id: ch07
+    reference:
+    - postximage:
+        post: 2068167309886390420
+        image: HLObM8dbMAA2VuT
+
 - postximage:
     post: 2068167309886390420
     id: HLObM8dbMAA2VuT
@@ -223,6 +269,18 @@
         id: ch07
     part-of:
       postx: 2068178059363324405
+
+- postximage:
+    post: 2069271959570129382
+    id: HLeH4UFb0AAKE3X
+    index: 1
+    label: Giveaway photo
+    context:
+    - media:
+        year: 2026
+        id: ch07
+    part-of:
+      postx: 2069271959570129382
 
 - update:
     media:

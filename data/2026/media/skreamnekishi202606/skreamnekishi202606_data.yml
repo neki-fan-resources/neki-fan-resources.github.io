@@ -1,3 +1,111 @@
+- display:
+    media:
+      year: 2026
+      id: skreamnekishi202606
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '← '
+                  - media:
+                      year: 2026
+                      id: skreamnekishi202604
+            - textsubsection:
+                multimedia:
+                  postximage:
+                    post: 2068641229232111835
+                    image: HLUz3JTasAAlCfV
+                lines:
+                - line:
+                  - text: In the third installment of the column, Hika introduces herself.
+                - line:
+                  - text: She describes her journey as a singer and guitarist, and how it led to the creation of NEK!.
+                - line:
+                  - text: She concludes by reflecting on their recent national tour and inviting fans to experience the irreplaceable energy of a live house.
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Article's images
+                multimedia:
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202606
+                    id: neki_1
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202606
+                    id: neki_2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: C-FzALTyXJ1
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DWLoQ7ZktU5
+                    image: 1
+                - postinstagramimage:
+                    post: DQt-qyPkhEb
+                    image: 05
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DUkxdAwEurf
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DXoSy5GCUPo
+                    image: 1
+                - postinstagramimage:
+                    post: DX1oGdekp5Q
+                    image: 8
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous additional inputs for accuracy.
+                  - newline: ''
+                  - newline: ''
+                  - newline: ''
+            - interviewsubsection:
+                lines:
+                - text: '初のコラム連載「NEK!の #ネキ史」第3回を担当します！NEK!のVo.Gt.Hikaです！<br>前回のNatsuに続いて、今回はHikaの音楽ルーツやNEK!メンバーとの出会いなどお話ししていこうと思います！'
+                  translation: "I will be in charge of the 3rd installment of our very first column series, \"NEK!'s #ネキ史\"! I am Hika, the vocalist and guitarist of NEK!<br>Following Natsu from last time, today I would like to talk about things like my musical roots and how I met the members of NEK!!"
+                  participant: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+                - text: 音楽を始めるきっかけとなったのは、アニメの「けいおん！」でした。そこで「バンド」という存在を知って、ギターボーカルに強い憧れを持つようになり、エレキギターを手に取ったのが始まりです。当時私は小学4年生で、周りに楽器をやっている子もいなくて、「誰かと一緒に音を鳴らしたい」「バンドを組みたい」とずっと思っていました。でも、なかなかその出会いはなく、悔しさもありながら、どこかで諦めきれない自分もいました。
+                  translation: What inspired me to start music was the anime "K-On!". That was where I learned about the existence of "bands," developed a strong admiration for guitar vocalists, and started by picking up an electric guitar. At the time, I was in the fourth grade of elementary school, and no kids around me played instruments, but I always thought, "I want to play music with someone," and "I want to form a band." However, I couldn't easily find those kinds of encounters, and while I felt frustrated, a part of me just couldn't give up.
+                - text: そんな中で出会ったのが、福山雅治さんです。母の影響もあり、小さい頃からずっと尊敬しているアーティストの一人でした。自分の言葉で歌い、自分の音楽で表現している姿に強く憧れて、「一人でも音楽はできるんだ」と思えたことが、シンガーソングライターとして音楽を続けていこうと決めたきっかけでした。
+                  translation: It was during that time that I came across Masaharu Fukuyama. Partly due to my mother's influence, he has been one of the artists I have respected since I was little. I strongly admired how he sang in his own words and expressed himself through his own music. Realizing that "I can make music even by myself" was what made me decide to continue making music as a singer-songwriter.
+                - text: そして高校の文化祭で初めて人前に立ち歌い、改めて「歌をちゃんと届けたい」と思うようになりました。SNSで弾き語りを投稿したり、路上ライブなどで本格的に音楽活動をスタートしました。
+                  translation: After that, thinking "I want to study music more deeply! I want to form a band!", I left my hometown of Nagasaki and began searching for members while attending a music vocational school. I had some anxiety as my environment changed so much, but more than that, my feeling of "I want to grasp something here" was even stronger.
+                - text: ずっと「誰かと音を鳴らしたい」と思い続ける中、SNSで見つけ、「この人たちとバンドがしたい」と思い自分から声をかけたのがNEK!のメンバーでした。あの頃、一人で弾き語りを続けながら信じていた「いつかの出会い」が、本当に形になった瞬間だったと思います。今、バンドとしてステージに立てていることは、自分にとって当たり前じゃなくて、ずっと思い描いてきた景色の延長にあります。
+                  translation: As I kept thinking, "I want to play music with someone," I found the members of NEK! on social media, thought "I want to form a band with them," and reached out to them myself. Back then, while continuing to play acoustic shows alone, I believed in a "someday encounter." I think that was the moment it truly took shape. Being able to stand on stage as a band right now is not something I take for granted, and it is an extension of the scenery I have always envisioned.
+                - text: 最近では、NEK!初の全国ツアーを2月からスタートして4月には渋谷CLUB QUATTROでツアーファイナルを迎えました。初めての全国ツアーで、各地それぞれに違う景色や出会いがあって、その一つひとつがすごく濃い時間でした。ライブハウスごとに空気も全然違うし、その日その瞬間でしか生まれないものがあるから、「やっぱりライブって、音楽って最高だ」と改めて思いました。そして、ツアーファイナルの渋谷CLUB QUATTROで見た景色は、今までの活動の中でも忘れられない瞬間になりました。ここまで来れたのは、間違いなく支えてくれている皆さんのおかげだと思っています。
+                  translation: Recently, we started NEK!'s first nationwide tour in February, and in April, we reached our tour final at Shibuya CLUB QUATTRO. During this first nationwide tour, there were different sceneries and encounters in each location, and every single one of them was a very meaningful time. The atmosphere is completely different at each live house. And because there are things that can only be created on that specific day and in that specific moment, it made me think once again, "Live shows and music truly are the best." And the scenery I saw at our tour final at Shibuya CLUB QUATTRO became an unforgettable moment among all our activities so far. I believe that being able to come this far is, without a doubt, thanks to everyone who supports us.
+                - text: まだまだ行きたい場所も、出会いたい人もたくさんいます。<br>だからこれからもNEK!として、もっと大きなステージに立ち、新しい景色を見に行きたいです。
+                  translation: There are still so many places I want to go and people I want to meet.<br>That is why, moving forward as NEK!, I want to stand on even bigger stages and go see new scenery.
+                - text: このコラムを読んで少しでも気になってくれた方は、ぜひ一度ライブハウスに遊びに来てください。きっと、音源だけじゃ伝わらないものを感じてもらえると思います。
+                  translation: If reading this column made you even a little bit interested, please come visit us at a live house sometime. I am sure you will be able to feel things that cannot be conveyed just through our recorded music.
+                - text: ライブハウスで待ってます。
+                  translation: I will be waiting for you at the live house.
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202606
+
 - postx:
     id: 2068641229232111835
     account: nekiband_jp
@@ -65,6 +173,54 @@
     date: 2026-06-23
     text:
     - Added the article
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202606
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202606
+    id: neki_1
+    label: Rehearsal
+    info: Hika
+    published-date: 2026-06-25
+    url: 'https://skream.jp/column/2026/06/18/images/neki_1.jpg'
+    context:
+    - media:
+        year: 2026
+        id: skreamnekishi202606
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202606
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202606
+    id: neki_2
+    label: Rehearsal
+    info: Hika
+    published-date: 2026-06-25
+    url: 'https://skream.jp/column/2026/06/18/images/neki_2.jpg'
+    context:
+    - media:
+        year: 2026
+        id: skreamnekishi202606
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202606
+
+- webpage:
+    domain: skream.jp
+    id: column.neki.202606
+    label: 'NEK! #nekishi 2026-06'
+    published-date: 2026-06-25
+    url: 'https://skream.jp/column/neki/202606.php'
+    image:
+    - neki_1
+    - neki_2
     part-of:
       media:
         year: 2026

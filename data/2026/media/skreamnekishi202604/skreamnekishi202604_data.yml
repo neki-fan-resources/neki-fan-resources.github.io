@@ -16,6 +16,11 @@
                   - media:
                       year: 2026
                       id: skreamnekishi202602
+                  - text: ' • '
+                  - media:
+                      year: 2026
+                      id: skreamnekishi202606
+                  - text: →
             - textsubsection:
                 multimedia:
                   postximage:

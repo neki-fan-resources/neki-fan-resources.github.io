@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmfradiogroovecomment
+  cover-image:
+    webimage:
+      domain: fmf.co.jp
+      page: radiogroove
+      id: flyer
+  radio: ふくしまFM
+  show: RADIO GROOVE
+  designation: radio comment
+  member:
+  - Natsu
+  published-date: 2026-06-26
+  program: 'https://www.fmf.co.jp/radio/radio_groove/'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  description:
+  - Comment by Natsu during "RADIO GROOVE" on FukushimaFM.

@@ -1,0 +1,49 @@
+- display:
+    media:
+      year: 2026
+      id: fmfradiogroovecomment
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  youtubevideo: 54c_-KL4xrw
+                lines:
+                - line:
+                  - text: Natsu speaks about what she is into lately, and about NEK!'s major debut single "FLiCK".
+    part-of:
+      media:
+        year: 2026
+        id: fmfradiogroovecomment
+
+- update:
+    media:
+      year: 2026
+      id: fmfradiogroovecomment
+    date: 2026-06-26
+    text:
+    - Added the appearance
+    - Added the English-subtitled version
+    part-of:
+      media:
+        year: 2026
+        id: fmfradiogroovecomment
+
+- youtubevideo:
+    id: 54c_-KL4xrw
+    label: Natsu's comment
+    info: English-subtitled
+    published-date: 2026-06-26
+    context:
+    - media:
+        year: 2026
+        id: fmfradiogroovecomment
+    part-of:
+      media:
+        year: 2026
+        id: fmfradiogroovecomment
+

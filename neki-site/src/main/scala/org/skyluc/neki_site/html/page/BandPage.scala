@@ -45,12 +45,12 @@ class BandPage(site: Site) extends MainSitePage {
               ),
               p().appendElements(
                 text(
-                  "In their second year, the band has released a second EP, completed a three-cities tour in Japan, and held their first Zepp concert in August at Zepp Shinjuku in Tokyo."
+                  "In their second year, the band has released a second EP, completed a three-cities tour in Japan, held their first Zepp concert in August at Zepp Shinjuku in Tokyo, and released their first full album on November 26th."
                 )
               ),
               p().appendElements(
                 text(
-                  "NEK! released their first full album on November 26th, continues to perform at local show, and will go on a nation-wide tour early next year."
+                  "Now in their third year, NEK! complete their first a nation-wide tour, and did their major debut with the release of the single \"FLiCK\"."
                 )
               ),
             ),
@@ -155,7 +155,7 @@ object BandPage {
 
   private val URL_IMAGE_PATH = Path("asset", "image", "site", "band.png")
 
-  private val URL_LOGO = Path("asset", "image", "logo", "neki-tight.png").toAbsoluteString()
+  private val URL_LOGO = Path("asset", "image", "logo", "neki-2026.svg").toAbsoluteString()
 
   def pagesFor(site: Site, generator: fr.compileddata.CompiledDataGenerator): Seq[fr.page.MainSitePage] = {
 

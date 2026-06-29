@@ -13,8 +13,7 @@
   width: min(10rem, 20vw);
   object-fit: cover;
   display: block;
-  margin: 1rem 1rem 0 1rem;
-  box-shadow: 0px 0px 2rem 2rem white
+  margin: 5rem 1rem 0 1rem;
 }
 
 .band-name-sublabel {

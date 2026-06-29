@@ -52,9 +52,69 @@
         year: 2026
         id: thebirthday5
 
+- postx:
+    id: 2071204844787085726
+    account: nekiband_jp
+    label: Performers Revealed
+    published-date: 2026-06-28
+    text: |-
+      📣💥 出演者解禁💥📣
+      
+      8/6(木)開催
+      横浜ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      @ 横浜ReNY beta
+      
+      w/ レイラ, osage
+      
+      横浜でスリーマンです🔥
+      ぜひお越しください！
+      
+      🎫: 7/4(土)12:00~受付開始！
+      e+(一般): https://eplus.jp/sf/detail/4544650001-P0030001
+      TiGET(学生): https://tiget.net/events/493863
+      
+      #NEKI
+    translation: |-
+      📣💥 Performers Revealed 💥📣
+      
+      To be held on 8/6 (Thu)
+      Yokohama ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      @ Yokohama ReNY beta
+      
+      w/ Layla, osage
+      
+      It's a three-man show in Yokohama 🔥
+      Please come and check it out!
+      
+      🎫: Ticket sales start 7/4 (Sat) at 12:00!
+      e+ (General): https://eplus.jp/sf/detail/4544650001-P0030001
+      TiGET (Student): https://tiget.net/events/493863
+      
+      #NEKI
+    image:
+    - HL5l0eia8AAWVHP
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
 - postximage:
     post: 2069012864212574376
     id: HLacL_-bwAA4v2Q
+    index: 1
+    label: Poster
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2069012864212574376
+
+- postximage:
+    post: 2071204844787085726
+    id: HL5l0eia8AAWVHP
     index: 1
     label: Poster
     local-copy: true
@@ -63,7 +123,7 @@
         year: 2026
         id: thebirthday5
     part-of:
-      postx: 2069012864212574376
+      postx: 2071204844787085726
 
 - update:
     show:

@@ -1,0 +1,109 @@
+- display:
+    media:
+      year: 2026
+      id: eggman7
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Covers
+                multimedia:
+                - postximage:
+                    post: 2071883505555128638
+                    image: HMDO9bTWcAE4V2h
+                - postximage:
+                    post: 2071883505555128638
+                    image: HMDO8osXEAARjo5
+    part-of:
+      media:
+        year: 2026
+        id: eggman7
+
+- postx:
+    id: 2071883505555128638
+    account: eggman_magazine
+    label: Announcement
+    published-date: 2026-06-30
+    text: |-
+      📕フリーマガジンeggman7月号📕 
+      
+      eggman店頭他全国のライブハウス・スタジオ・タワーレコード(一部除く)で、7月1日から順次無料配布スタート！  
+      
+      7月号の表紙は
+      
+      Broken my toybox
+      @BrokenMyToyBox
+       
+      
+      裏表紙は
+      NEK!
+      @nekiband_jp
+       
+      
+      是非手に入れてください👀✨
+    translation: |-
+      📕Free Magazine eggman July Issue📕 
+      
+      Free distribution starts sequentially from July 1st at eggman storefronts and other live houses, studios, and Tower Records nationwide (excluding some locations)!  
+      
+      The front cover of the July issue is
+      
+      Broken my toybox
+      @BrokenMyToyBox
+       
+      
+      The back cover is
+      NEK!
+      @nekiband_jp
+       
+      
+      Please make sure to get your hands on a copy👀✨
+    image:
+    - HMDO8osXEAARjo5
+    - HMDO9bTWcAE4V2h
+    part-of:
+      media:
+        year: 2026
+        id: eggman7
+
+- postximage:
+    post: 2071883505555128638
+    id: HMDO8osXEAARjo5
+    index: 1
+    label: Front cover
+    context:
+    - media:
+        year: 2026
+        id: eggman7
+    part-of:
+      postx: 2071883505555128638
+
+- postximage:
+    post: 2071883505555128638
+    id: HMDO9bTWcAE4V2h
+    index: 2
+    label: Back cover
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: eggman7
+    part-of:
+      postx: 2071883505555128638
+
+- update:
+    media:
+      year: 2026
+      id: eggman7
+    date: 2026-06-30
+    text:
+    - Added the interview
+    part-of:
+      media:
+        year: 2026
+        id: eggman7
+

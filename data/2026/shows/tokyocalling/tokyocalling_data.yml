@@ -1,0 +1,71 @@
+- postx:
+    id: 2071913242709123427
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-06-30
+    text: |-
+      📣💥 出演決定 💥📣
+      
+      9/27(日) @ 渋谷14会場
+      「TOKYO CALLING 2026」
+      @tokyo__calling
+       
+      
+      NEK!の出演が決定しました❤️‍🔥
+      出演会場&時間は後日発表となります！
+      
+      🎫: チケット先着先行受付中
+      https://eplus.jp/tkc26/
+      
+      #NEKI
+      #TOKYOCALLING 
+      #トーキョーコーリング
+    translation: |-
+      📣💥 Appearance Confirmed 💥📣
+      
+      9/27(Sun) @ 14 Shibuya Venues
+      "TOKYO CALLING 2026"
+      @tokyo__calling
+       
+      
+      NEK!'s appearance has been confirmed❤️‍🔥
+      The performance venue & time will be announced at a later date!
+      
+      🎫: Ticket first-come, first-served avant-garde reception now open
+      https://eplus.jp/tkc26/
+      
+      #NEKI
+      #TOKYOCALLING 
+      #トーキョーコーリング
+    image:
+    - HMDqGpaWsAAzXzC
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
+- postximage:
+    post: 2071913242709123427
+    id: HMDqGpaWsAAzXzC
+    index: 1
+    label: Lineup
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2071913242709123427
+
+- update:
+    show:
+      year: 2026
+      id: tokyocalling
+    date: 2026-06-30
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+

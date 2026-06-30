@@ -1,0 +1,16 @@
+show:
+  year: 2026
+  id: tokyocalling
+  cover-image:
+    postximage:
+      post: 2071913242709123427
+      image: HMDqGpaWsAAzXzC
+  fullname: TOKYO CALLING 2026
+  shortname: TOKYO CALLING
+  sublabel: Tokyo
+  date: 2026-09-27
+  event-page: 'https://tokyo-calling.jp/'
+  part-of:
+    group:
+      id: shows
+      group: 2026

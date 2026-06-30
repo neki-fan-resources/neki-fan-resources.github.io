@@ -1,0 +1,71 @@
+- postx:
+    id: 2071881718332878850
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-06-30
+    text: |-
+      🩶⚡️ 開催決定 ⚡️🩶
+      
+      7/18(土)
+      「NEK! MAJOR DEBUT FREE LIVE」
+      @ Shibuya eggman
+      
+      メジャーデビュー記念
+      フリーライブの開催が決定🎉
+      
+      🎫フリーライブ優先入場券(抽選)
+      受付期間: 6/30(火)18時- 7/12(日) 23時59分
+      当選発表: 7/13(月)予定
+      
+      https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    translation: |-
+      🩶⚡️ Event Confirmed ⚡️🩶
+      
+      7/18(Sat)
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      Major Debut Commemoration
+      Free Live has been confirmed🎉
+      
+      🎫Free Live Priority Admission Ticket (Lottery)
+      Application Period: 6/30(Tue) 18:00 - 7/12(Sun) 23:59
+      Results Announcement: Scheduled for 7/13(Mon)
+      
+      https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    image:
+    - HMDNYRJWUAABXut
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- postximage:
+    post: 2071881718332878850
+    id: HMDNYRJWUAABXut
+    index: 1
+    label: Flyer
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2071881718332878850
+
+- update:
+    show:
+      year: 2026
+      id: majordebutfreelive
+    date: 2026-06-30
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+

@@ -37,6 +37,9 @@ contentpage:
       id: tridentnekikyoozon
   - show:
       year: 2026
+      id: tokyocalling
+  - show:
+      year: 2026
       id: debuttourtokyo
   - show:
       year: 2026
@@ -65,7 +68,13 @@ contentpage:
       id: newsignals
   - show:
       year: 2026
+      id: majordebutfreelive
+  - show:
+      year: 2026
       id: gravityvol8
+  - media:
+      year: 2026
+      id: eggman7
   - media:
       year: 2026
       id: fmfradiogroovecomment

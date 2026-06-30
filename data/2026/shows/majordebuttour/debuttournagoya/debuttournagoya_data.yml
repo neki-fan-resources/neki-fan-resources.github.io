@@ -1,0 +1,51 @@
+- postx:
+    id: 2071894360917254502
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-06-30
+    text: |-
+      💥THANK YOU SOLD OUT💥
+      
+      “NEK! MAJOR DEBUT TOUR”
+      📍愛知・RAD SEVEN
+      
+      チケットソールドアウト🔥
+      沢山のお申し込みありがとうございました！
+      
+      9/4(金)大阪 & 9/23(水祝)東京公演も
+      ご来場お待ちしております✔️
+      
+      #NEKI
+    translation: |-
+      💥THANK YOU SOLD OUT💥
+      
+      “NEK! MAJOR DEBUT TOUR”
+      📍Aichi・RAD SEVEN
+      
+      Tickets sold out🔥
+      Thank you very much for so many applications!
+      
+      We are also looking forward to your attendance at the
+      9/4(Fri) Osaka & 9/23(Wed/Holiday) Tokyo performances✔️
+      
+      #NEKI
+    image:
+    - HMDY7x9W8AAcvg4
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+
+- postximage:
+    post: 2071894360917254502
+    id: HMDY7x9W8AAcvg4
+    index: 1
+    label: Poster sold out
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2071894360917254502
+

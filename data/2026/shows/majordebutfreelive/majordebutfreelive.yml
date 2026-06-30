@@ -1,0 +1,19 @@
+show:
+  year: 2026
+  id: majordebutfreelive
+  cover-image:
+    postximage:
+      post: 2071881718332878850
+      image: HMDNYRJWUAABXut
+  fullname: NEK! MAJOR DEBUT FREE LIVE
+  shortname: MAJOR DEBUT FREE LIVE
+  sublabel: Tokyo
+  date: 2026-07-18
+  categories:
+  - mainshow
+  venue: Shibuya eggman, Tokyo
+  event-page: 'https://neki.bitfan.id/schedules/113692'
+  part-of:
+    group:
+      id: shows
+      group: 2026

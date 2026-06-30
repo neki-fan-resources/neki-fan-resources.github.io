@@ -8,6 +8,8 @@ contentpage:
   start-date: 2024-02-01
   end-date: 2026-10-31
   description: The main events in the NEK! story. Song and EP releases, shows, tours, interviews, ...
+  isSmallMarker:
+  - mediummedia
   isMediumMarker:
   - mainmedia
   - show

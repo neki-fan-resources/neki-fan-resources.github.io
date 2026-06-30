@@ -6,7 +6,7 @@ mediawritten:
       domain: natalie.mu
       page: music
       id: logo
-  publication: natalie
+  publication: Music Natalie
   issue: Major Debut interview
   designation: Interview
   member:
@@ -20,3 +20,8 @@ mediawritten:
     group:
       id: media
       group: 2026
+  description:
+  - The first feature interview on Music Natalie.
+  - (translation available)
+  categories:
+  - mediummedia

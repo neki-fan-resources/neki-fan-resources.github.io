@@ -63,6 +63,354 @@
                     domain: natalie.mu
                     page: pp.neki
                     id: 1936
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+                  - newline: ''
+                  - newline: ''
+            - interviewsubsection:
+                lines:
+                - text: ネット発の若手技巧派ガールズバンド・NEK!（ネキ）が、6月10日にメジャーデビューシングル「FLiCK」をポニーキャニオンから配信リリースした。
+                  translation: The young, technically skilled, internet-born girl band NEK! digitally released their major debut single "FLiCK" through Pony Canyon on June 10th.
+                - text: “スラングロックバンド”を標榜するNEK!は、SNSでメンバー同士が出会い、2024年2月に結成された。彼女たちのメジャーデビューを飾る楽曲は、ネットスラングを交えたエッジィな歌詞と、荒々しくも軽やかなサウンドが響く「FLiCK」。現代のSNS社会を風刺しつつ、前向きな清々しさを放つこの曲は、NEK!のアイデンティティが詰まった名刺代わりの1曲だ。
+                  translation: Calling themselves a "slang rock band," NEK! formed in February 2024 after the members met each other on social media. The song marking their major debut is "FLiCK," which features edgy lyrics mixed with internet slang and a rough yet light sound. While satirizing today's social media society, the song radiates a positive and refreshing energy. It serves as a perfect introduction, packed with NEK!'s true identity.
+                - text: 音楽ナタリー初登場となる本インタビューでは、インターネットとともに育った彼女たちの青春時代の回想から、四人四様の音楽ルーツ、そして日本武道館を最速で目指すという大いなる野望まで存分に語ってもらった。
+                  translation: In this interview, which marks their first appearance on Music Natalie, the band spoke extensively about everything from memories of their youth growing up with the internet and the four distinct musical roots of the members, to their grand ambition of reaching the Nippon Budokan as quickly as possible.
+            - interviewsubsection:
+                lines:
+                - text: NEK!です①～スラングロックバンドとは？
+                  translation: We are NEK! ① ~ What is a slang rock band?
+                  isinterviewer: true
+            - interviewsubsection:
+                lines:
+                - text: まず、NEK!が掲げている“スラングロックバンド”とはどういったものなんでしょう？
+                  translation: First, what exactly is the "slang rock band" that NEK! calls itself?
+                  isinterviewer: true
+                - text: これは、自分たちで考えて作った言葉なんです。私たち4人がSNSを通じてつながったこともあって、ネット用語をモチーフにして歌詞へ落とし込んだりしていて。それを含めて、ロックをベースに、“スラングロックバンド”と自称しています。
+                  translation: This is a phrase we thought of and created ourselves. The four of us connected through social media, so we use internet terms as a motif and drop them into our lyrics. Combining that with a rock base, we call ourselves a "slang rock band."
+                  participant: Hika
+                - text: 4人の出会いはインターネットだったということで。HikaさんがSNSで見つけた3人に声をかけたことがきっかけになっているそうですね。
+                  translation: So the four of you met on the internet. I heard it started when Hika-san found the three of them on social media and reached out.
+                  isinterviewer: true
+                - text: 私はシンガーソングライターとして活動しながら、バンドを組みたいと思っていたんです。みんなをSNSで見つけて、実際に会って、今こうして音楽を鳴らしているのが……NEK!です。
+                  translation: While I was active as a singer-songwriter, I wanted to form a band. I found everyone on social media, we met in person, and the result of us making music like this now is... NEK!.
+                  participant: Hika
+                - text: 最近は同業者でも、新しく知り合う人はSNSを通して見つける、みたいな人が多いから、当たり前のようになっているところもあると思います。
+                  translation: Lately, even among musicians, there are a lot of people who find new acquaintances through social media, so I think it has become quite normal.
+                  participant: Cocoro
+                - text: ただ、実際にこうして会って、こんなにも気が合う子たちと出会えたのは運命的だなと、すごく感じています。
+                  translation: However, to actually meet like this and find girls I get along with so well feels like destiny. I really feel that way.
+                  participant: Hika
+                - text: 皆さんが初めてインターネットに触れたのはいつ頃なんですか？ 小さいときはスマホもなかなか持たせてもらえないと思うので、タッチポイントは違うのかなと。
+                  translation: When did everyone first experience the internet? When you are little, you usually aren't allowed to have a smartphone easily, so I imagine your entry points were different.
+                  isinterviewer: true
+                - text: 私は小学校の授業ですね。パソコン室で検索の仕方とかSNSの使い方を学ぶ時間があったんです。
+                  translation: For me, it was in elementary school classes. We had time in the computer room to learn how to search for things and how to use social media.
+                  participant: Cocoro
+                - text: 私もです。調べる作業はパソコンでやっていましたね。中学校に上がったらタブレットが配られて。
+                  translation: Me too. We did our research using computers. When I entered junior high school, tablets were handed out.
+                  participant: Hika
+                - text: 私は幼い頃からニンテンドー3DSでネット対戦をよくやっていました。「妖怪ウォッチ」とか、ボイスチャットがあるものもあれば、無言でただ対戦するだけのときもあって。どこの誰かもわからない、得体の知れない相手とつながっている感覚が当たり前だったんですよね（笑）。
+                  translation: Since I was little, I used to play online multiplayer games on the Nintendo 3DS a lot. In games like "Yo-kai Watch," sometimes there was voice chat, and other times we would just play in silence. The feeling of being connected to an unknown opponent, without knowing who or where they were, was just normal for me (laughs).
+                  participant: Kanade
+            - interviewsubsection:
+                lines:
+                - text: 青春時代の回想、時はコロナ禍
+                  translation: Recollections of youth, the time of the COVID-19 pandemic
+                  isinterviewer: true
+            - interviewsubsection:
+                lines:
+                - text: 皆さんの世代的に、コロナ禍で人と会えない時期に学生時代が直撃していると思うんですけど、インターネットがあったことで、誰かとつながったり、興味関心が深まったりしたと思いますか？
+                  translation: For your generation, I think your student years were directly hit by the period when you couldn't meet people due to the COVID-19 pandemic. Do you think that having the internet allowed you to connect with someone or deepen your interests?
+                  isinterviewer: true
+                - text: 本当にその通りで。路上やライブハウスでライブがしたくてもできない時期だったので、ネットを使って自分で音楽を発信しようと思ったんです。発信する場所がないからこそ、スマホ1つで弾き語りの動画を上げ続けていました。学校の授業もオンラインだったし、修学旅行は行けたけど、中止になりかけていましたし。
+                  translation: That is exactly right. It was a time when I couldn't perform live on the streets or at live houses even if I wanted to, so I thought about using the internet to broadcast my own music. Precisely because there was no place to broadcast, I kept uploading videos of myself playing and singing with just one smartphone. School classes were also online, and although I was able to go on my school trip, it was almost canceled.
+                  participant: Hika
+                - text: 私は高校の終わり頃、コロナ禍に直撃してました。受験シーズンだったので、人と会えないことの影響はそこまでなかったと思うんですけど、寂しいからか、友達と電話はよくしていましたね。そこで頼ったのはSNSだったかもなとは思います。文化祭も体育祭も全部中止になって、どうにか思い出を残せないかと、みんなで話し合って小さい球技大会をやろうか、みたいなことはしていました。
+                  translation: I was hit directly by the COVID-19 pandemic around the end of high school. Since it was exam season, I don't think the impact of not being able to meet people was that big, but maybe because I was lonely, I talked on the phone with my friends a lot. I think social media was what I relied on then. Both the cultural festival and the sports festival were completely canceled, so we talked together about whether we could somehow leave some memories, and we did things like holding a small ball game tournament.
+                  participant: Natsu
+                - text: 私はコロナ禍のとき中学生で。当時はネットで顔を出すことにまだ抵抗がある時期だったので、楽器は弾いていたけど発信する立場ではなく、好きなバンドのファンアカウントを作って、X（当時はTwitter）で同じバンドが好きな人と交流したりしていました。
+                  translation: I was a junior high school student during the COVID-19 pandemic. At that time, it was still a period where I was resistant to showing my face on the internet. So although I played an instrument, I wasn't in a position to broadcast it. Instead, I made a fan account for a band I liked and interacted with people who liked the same band on X (Twitter at the time).
+                  participant: Kanade
+                - text: 私はコロナ前に別のバンドをやっていたんですけど、活動し始めて1年くらいでコロナ期間に入って一旦ストップしちゃったんです。ライブができない状況の中でどう活動するかを考えて、演奏動画をコンスタントに載せてました。「コロナが収まったらライブに行きたい」と言ってくださる方もいっぱいいました。NEK!で活動を始めたとき、その頃からずっと見ていてくれた方が物販で話しかけてくれたことがあって。SNSのおかげで今も応援してくださっているんだなと、ありがたみを強く感じました。
+                  translation: I was in another band before COVID, but about a year after we started activities, we entered the COVID period and had to temporarily stop. I thought about how to be active in a situation where we couldn't do live shows, and I consistently uploaded performance videos. There were also many people who said, "I want to go to a live show once COVID settles down." When I started activities with NEK!, a person who had been watching since that time talked to me at the merchandise booth. I strongly felt a sense of gratitude, realizing they are still supporting me now thanks to social media.
+                  participant: Cocoro
+                - text: 今日の撮影でワイワイしている姿を見て、ある種、コロナ禍で失われていた時間を今取り戻しているような感触があるのかなと思ったんですけど、そういう部分はありますか？
+                  translation: Seeing you all having fun together during today's photoshoot, I thought that in a way, you might feel like you are now taking back the time that was lost during the COVID-19 pandemic. Is there a part of you that feels that way?
+                  isinterviewer: true
+                - text: 私は高校のとき、沖縄に行く予定だったのに修学旅行が中止になっちゃったんですよね。だから、このバンドの遠征で行けたらいいなとずっと思っています。修学旅行とは全然違いますけど（笑）。
+                  translation: When I was in high school, I was scheduled to go to Okinawa, but my school trip got canceled. So, I have always thought it would be nice if we could go there on a tour with this band. It is completely different from a school trip, though (laughs).
+                  participant: Cocoro
+                - text: 私はコロナ禍にはずっと家に閉じこもって弾き語りや曲作りをしていました。「コロナのおかげ」とは言いたくないけど、「自分から発信していかなきゃいけない」と思うきっかけになったことは確かです。それを経て、こうしてつながることもできたし、今こうして自由にやりたいことができている環境はすごく幸せだなって思います。
+                  translation: During the COVID-19 pandemic, I was shut inside my house the whole time, playing, singing, and making songs. I don't want to say "thanks to COVID," but it is true that it became the trigger that made me think, "I have to broadcast myself on my own." Going through that, I was able to connect like this, and I feel very happy to be in an environment where I can freely do what I want to do like this now.
+                  participant: Hika
+                - text: 私の世代は青春している間に日常が戻ってきたので、ちょっとみんなとは感覚が違うかもしれないんですけど……ちょうど楽器を始めたての頃だったので、ある意味、今の自分になる準備期間がコロナ中だったのかなって。日常が戻ってきたと同時に、自分もやっと活動できるコンディションが整った、みたいな感じですね。
+                  translation: For my generation, normal life returned while we were in our youth, so my feeling might be a little different from everyone else's, but... It was right around the time I first started playing an instrument, so in a sense, I wonder if the COVID period was a preparation period to become who I am now. It feels like just as everyday life returned to normal, I was finally ready to start my own activities.
+                  participant: Kanade
+            - interviewsubsection:
+                lines:
+                - text: NEK!です②～ルーツにけいおん！、クラプトン、TAIJI、ガチャピン……
+                  translation: We are NEK! ② ~ Roots in K-On!, Clapton, TAIJI, Gachapin...
+                  isinterviewer: true
+            - interviewsubsection:
+                lines:
+                - text: ここからはお一人ずつ、音楽に目覚めたきっかけやルーツを聞かせてください。
+                  translation: From here, please tell us one by one about what first sparked your interest in music and your musical roots.
+                  isinterviewer: true
+                - text: 私は、小学4年生の頃に「けいおん！」というアニメに出会って、バンドを組みたいと思ったんですよね。でも周りに組む人がいなかったから、1人でやっていくしかないのかなと思って。いつか仲間と出会うときが来るのかなと思いながら、弾き語りの動画をSNSにアップしたりしていました。地元は長崎なんですけど、中学生の頃に本格的に音楽を学びたいと思い始めて。これはもう東京に出るしかないと思っていたので、高校を卒業してすぐ東京に出てきました。音楽の専門学校でボーカルを学びつつ、SNSで今のメンバーを探して結成したのが……NEK!です。
+                  translation: I came across an anime called "K-On!" around the 4th grade of elementary school, and I wanted to form a band. But there was no one around me to form one with, so I thought I had no choice but to do it alone. Wondering if the time would ever come when I'd meet my future bandmates, I uploaded videos of myself playing and singing to social media. My hometown is Nagasaki, but around junior high school, I started wanting to learn music seriously. I thought I had no choice but to go to Tokyo for this, so I came to Tokyo right after graduating from high school. While studying vocals at a vocational music school, I searched for my current members on social media and formed... NEK!
+                  participant: Hika
+                - text: さっきから、最後「……NEK!です」にしたらまとまると思ってるでしょ？（笑）
+                  translation: You think wrapping it up with "...NEK!" at the end makes it come together nicely, don't you? (laughs)
+                  participant: Kanade
+                - text: あははは。影響を受けたアーティストはいますか？
+                  translation: Ahahaha. Are there any artists who influenced you?
+                  isinterviewer: true
+                - text: 母の影響で、小さい頃から福山雅治さんと宇多田ヒカルさんがめちゃめちゃ好きです。歌声が大好きで、すごく尊敬しているので、私もシンガーソングライターになりたいと思いました。でもやっぱりバンドを組みたくなって。バンドで影響を受けたのはONE OK ROCK。初めて知ったロックバンドなんです。
+                  translation: Influenced by my mother, I have really loved Masaharu Fukuyama and Hikaru Utada since I was little. I love their singing voices and respect them a lot, so I also wanted to become a singer-songwriter. But in the end, I really wanted to form a band. The band that influenced me is ONE OK ROCK. They are the first rock band I ever knew.
+                  participant: Hika
+                - text: Natsuさんはいかがでしょう？
+                  translation: How about you, Natsu-san?
+                  isinterviewer: true
+                - text: エレキギターを始めたのが小学生の頃。父からもらったギターと、父の影響で知ったエリック・クラプトンから入りました。「いとしのレイラ」を一番練習しましたね。今でも弾きます。単音弾きもコードもあって、しかも曲が8分もあるので、いい練習になるなと思って。そのあと、ネットでBABYMETALを知って、神バンドの演奏に「こんなギタープレイがあるんだ！」と驚き、ハードロックが好きになっていきました。
+                  translation: I started playing the electric guitar in elementary school. I started with a guitar I received from my father, and with Eric Clapton, whom I learned about through my father's influence. I practiced "Layla" the most. I still play it now. It has both single notes and chords, and the song is 8 minutes long, so I thought it would be good practice. After that, I found out about BABYMETAL on the internet, and I was amazed by the Kami Band's performance, thinking, "Guitar playing like this exists!" That is how I started to like hard rock.
+                  participant: Natsu
+                - text: Natsuは小学校の頃からYouTubeにずっと動画を投稿していて。それを観て私、感動したんです。
+                  translation: Natsu had been continuously posting videos on YouTube since elementary school. I was moved when I watched them.
+                  participant: Hika
+                - text: 何度かやめようと思った時期もあったし、環境が変わるタイミングで悩んだこともあったけど、続けていたからこそHikaやメンバーに出会えたので、継続は大事だなって。たとえ将来に直結しなかったとしても、続けているということだけで自信もつくし、すごくよかったなって思います。
+                  translation: There were a few times when I thought about quitting, and I worried when my environment was changing. But precisely because I kept going, I was able to meet Hika and the other members, so I feel that continuation is important. Even if it didn't directly connect to my future, just continuing gives me confidence, and I think it was a really good thing to do.
+                  participant: Natsu
+                - text: ネットに自分自身の姿を公開することに抵抗はなかった？
+                  translation: Did you have any resistance to showing your face on the internet?
+                  isinterviewer: true
+                - text: 小学校のとき劇団をやっていたので、舞台に立つことにも、顔を出すことにも抵抗はなかったんです。それもよかったのかもしれないです。
+                  translation: Since I was in a theater company during elementary school, I had no resistance to standing on stage or showing my face. That might have been a good thing, too.
+                  participant: Natsu
+                - text: Kanadeさんはいかがでしょう？
+                  translation: How about you, Kanade-san?
+                  isinterviewer: true
+                - text: 父がベーシストで、小さい頃からベースの音になじみがあったんです。普通ならギターのほうが存在感が強いと思うけど、私は自然とベースの音を追う癖があって。父からX JAPANやLUNA SEAを教えてもらって、X JAPANの「BLUE BLOOD」を聴いたら、TAIJIさんのベースがすごくカッコよくて、自分でも弾きたいと思ったんです。そこから1990年代のバンドをたくさん聴いて、1周したときにGacharic Spinに出会いました。スラップしている女の子を初めて知り、こんなにかわいい子がこんなカッコいいことをできるんだ！って。そこから今の演奏スタイルになりました。いわゆる嬢メタルも好きですが、嬢メタル好きというよりはジャパメタ好きです。Aldious、LOUDNESS、VOLCANO、AIONとか。メタルじゃない邦ロックはメンバーのみんなに教えてもらっています。
+                  translation: My father is a bassist, so I was familiar with the sound of the bass from a young age. Normally, you would think the guitar has a stronger presence, but I have a habit of naturally following the bass sound. My father taught me about X JAPAN and LUNA SEA, and when I listened to X JAPAN's "BLUE BLOOD," TAIJI-san's bass was so cool, and I wanted to play it myself. From there, I listened to a lot of bands from the 1990s, and when I came full circle, I encountered Gacharic Spin. It was the first time I saw a girl doing slap bass, and I thought, "Such a cute girl can do something so cool!" From there, it became my current playing style. I also like what you call jou-metal (all-female metal), but rather than being a fan of that specific scene, I am a Japameta (classic Japanese metal) fan. Bands like Aldious, LOUDNESS, VOLCANO, and AION. And everyone in the band teaches me about non-metal Japanese rock.
+                  participant: Kanade
+                - text: 音楽オタク的な面も強いんですね。Cocoroさんのルーツはいかがでしょう？
+                  translation: You have a strong music geek side to you, too. How about your roots, Cocoro-san?
+                  isinterviewer: true
+                - text: ドラムに出会ったのは中学1年のときです。吹奏楽部の仮入部で全パートを試して、最後にサックスかパーカッションかで迷って、どっちをやるか伝えるときにパッと「パーカッション！」って口から出たんです。兄の幼馴染が吹奏楽部でドラムを叩いていて、女の人がドラムを叩く姿がすごくカッコいいなと、子供ながらに感じてました。絶対ドラムを叩こうと決めていたんですけど、学校にはドラムが1台しかなくて。で、電子ドラムを持っている演奏が上手な同級生と取り合いに（笑）。どうしてもその子に負けたくなくて、元々通っていた音楽教室でドラムも習い始めました。そのときの先生が、今Gacharic Spinでドラムを叩いているyuriさんなんです。続けていく中で、オーケストラの曲よりロックのほうが性に合うとわかってきて、ロックミュージシャンを志すようになりました。
+                  translation: I encountered the drums when I was in my first year of junior high school. During a trial period for the brass band club, I tried all the parts, and at the very end, I was torn between the saxophone and percussion. When I had to say which one I wanted to do, "Percussion!" just suddenly popped out of my mouth. My brother's childhood friend played the drums in a brass band, and even as a child, I felt that a woman playing the drums looked incredibly cool. I had absolutely decided I was going to play the drums, but there was only one drum kit at the school. So, I ended up fighting over it with a classmate who was good at playing and had an electronic drum kit (laughs). I really didn't want to lose to that girl, so I also started taking drum lessons at the music school I was originally attending. My teacher at that time was yuri-san, who currently plays drums in Gacharic Spin. As I continued, I realized that rock suited my nature more than orchestral songs, and I started aiming to be a rock musician.
+                  participant: Cocoro
+            - interviewsubsection:
+                lines:
+                - text: NEK!です③～ネットの曲を書いていきたい
+                  translation: We are NEK! ③ ~ We want to write songs about the internet
+                  isinterviewer: true
+            - interviewsubsection:
+                lines:
+                - text: 最初にスタジオに入ったとき、BAND-MAIDの「Don't you tell ME」とアルステイクの「嘘つきは勝手」を合わせたそうですね。どうしてその2バンドの曲だったんでしょう？
+                  translation: I heard that the first time you went into the studio together, you played BAND-MAID's "Don't you tell ME" and Alstake's "Usotsuki wa Katte." Why was it songs from those two bands?
+                  isinterviewer: true
+                - text: アルステイクさんは私が大好きで。BAND-MAIDさんはみんな共通して大好きだったので、その2組の曲をスタジオで演奏しました。最初からロックをやっていきたいと思っていたけど、明確なビジョンはなくて。みんながどんな音を鳴らしてくれるんだろうというワクワク感を持ってスタジオに入りました。そこから「ネットで出会ったからこそ、ネットをテーマにした曲を書いていきたいね」という話になってできたのが……今のNEK!です。
+                  translation: I really love Alstake. And as for BAND-MAID, it was a band we all loved in common, so we played songs from those two groups in the studio. I knew from the start that I wanted to play rock, but I didn't have a clear vision. I went into the studio feeling excited about what kind of sound everyone would make. From there, we talked about how, "precisely because we met on the internet, we want to write songs with the internet as a theme," and what was created is... the current NEK!
+                  participant: Hika
+                - text: また（笑）。
+                  translation: Again (laughs).
+                  participant: All
+            - interviewsubsection:
+                lines:
+                - text: NEK!＝頼れる存在のアネキ / BAND-MAIDへの思い
+                  translation: A reliable neki (older sister) / Thoughts on BAND-MAID
+                  isinterviewer: true
+            - interviewsubsection:
+                lines:
+                - text: NEK!というバンド名はすぐ決まったんですか？
+                  translation: Was the band name NEK! decided quickly?
+                  isinterviewer: true
+                - text: けっこう考えたよね。
+                  translation: We thought about it quite a bit, right?
+                  participant: Cocoro
+                - text: カッコいい候補もいっぱい挙がったんですけど、やっぱり私たちにとってネットの存在が大きかったので、ネット用語からバンド名を作ろうと思って。スラングを調べたら「頼れる存在のアネキ」=「ネキ」というワードがいいんじゃない？という話になり、NEK!に決めました。
+                  translation: A lot of cool candidates came up, but the internet has been such a big presence for us, so we wanted to create our band name from internet terms. When we were looking up slang, we talked about how the word neki (a reliable older sister) would be good, and we decided on NEK!.
+                  participant: Hika
+                - text: 「◯◯ネキ」って、ネットだとけっこう使われてますよね。TikTokで奥田民生さんの「さすらい」を踊っていた女子高生が“さすらいネキ”って呼ばれていたり。
+                  translation: The term "[Something] neki" is used quite a lot on the internet, isn't it? Like the high school girl who was dancing to Tamio Okuda's "Sasurai" on TikTok being called "Sasurai neki."
+                  participant: Cocoro
+                - text: 海外のアニメを観てリアクションする人たちのコメントでも「○○ネキ」って使われていたりするんですよ。海外にも通じそうなのもいいよねって。
+                  translation: Even in the comments of people reacting to watching anime overseas, "[Something] neki" is used. We also thought it was nice that it seemed like it could be understood overseas.
+                  participant: Natsu
+                - text: 海外への発信も、最初から意識していたんですか？
+                  translation: Were you conscious of reaching out overseas from the beginning?
+                  isinterviewer: true
+                - text: してました！ 私たちのデビュー曲「Get Over」のミュージックビデオが私たちが思っていた以上に反応をいただけて、海外のファンの方もコメントをくださったんですよね。実際にライブハウスへ来てくださる海外のファンもいるので、いつか海外でもライブができたらなってすごく思います。
+                  translation: We were! The music video for our debut song "Get Over" received more of a reaction than we expected, and overseas fans also left comments. There are actually overseas fans who come to the live houses, so I really hope we can perform live overseas someday.
+                  participant: Hika
+                - text: BAND-MAIDもMVが海外から広まっていきましたよね。皆さんは、BAND-MAIDのどういうところが共通して好きだったんでしょう？
+                  translation: BAND-MAID also spread from overseas through their music videos, didn't they. What was it about BAND-MAID that everyone liked in common?
+                  isinterviewer: true
+                - text: 全部いいけど……やっぱり演奏力の高さと、各々のキャラですかね。
+                  translation: Everything is good, but... I guess it is their high level of performance skill and each person's character.
+                  participant: Cocoro
+                - text: “どんな場面でもすべてをカッコよく歌い上げる”みたいなステージでの見せ方も含めて、全部リスペクトしています。
+                  translation: I respect everything about them, including how they present themselves on stage, like "singing everything coolly in any situation."
+                  participant: Hika
+                - text: あと、ガールズバンドという要素も大きかったですね。カッコいい音を鳴らして、カッコいいパフォーマンスをして、たくさんの人を魅了し続けているから……私たちも見つけずにはいられなかったんだと思います。
+                  translation: Also, the element of them being a girl band was big. Because they make cool sounds, give cool performances, and continue to fascinate many people... I think we couldn't help but discover them, too.
+                  participant: Natsu
+                - text: 私はNEK!結成の3年前くらいに、BAND-MAIDさんのZepp Shinjukuワンマンを1人で観に行きました。そこでグッと刺さるものがあって。初めてライブで観たガールズバンドがBAND-MAIDさんでよかったです。
+                  translation: About three years before forming NEK!, I went to see BAND-MAID's one-man show at Zepp Shinjuku by myself. Something there really struck me deeply. I am glad that the first girl band I saw live was BAND-MAID.
+                  participant: Hika
+                - text: そんなBAND-MAIDとNEK!はレーベルメイトとなり、メジャーデビューを果たします。お会いする機会などはもうあったんですか？
+                  translation: And now, NEK! and BAND-MAID have become labelmates, and you are making your major debut. Have you had a chance to meet them yet?
+                  isinterviewer: true
+                - text: NEK!全員でライブを観に行かせていただいて、そこでご挨拶させていただいたんです！ 「これからレーベルメイトとしてよろしくね」と言っていただいて……ガチで憧れているので、推しのことが好きすぎてうまく会話できない、みたいな状態になりました（笑）。
+                  translation: All of us in NEK! went to see their live show, and we were able to greet them there! They told us, "We look forward to working with you as labelmates from now on"... Since I genuinely admire them, I ended up in a state where I liked my oshi (favorite member) too much to have a proper conversation (laughs).
+                  participant: Natsu
+                - text: ほかにどんなことを言われたか覚えてますか？
+                  translation: Do you remember what else they said?
+                  isinterviewer: true
+                - text: 「すごくがんばって練習してるね」「伸びしろがいっぱいあるから、一緒にがんばっていこうね」と言ってくださって、泣きそうになりました。
+                  translation: They said, "You are practicing really hard," and "You have a lot of room to grow, so let's do our best together," and I almost cried.
+                  participant: Cocoro
+                - text: 私はベースを始めたとき、YouTubeでベースのMISAさんを画面越しに見ていて。すごいなと思って見ていた方が目の前にいらっしゃって、感慨深くて逆に普通に接することができなかったです。
+                  translation: When I started playing the bass, I was watching MISA-san on bass through the screen on YouTube. The person I had watched, thinking she was amazing, was right in front of my eyes. I was so deeply moved that, conversely, I couldn't interact with her normally.
+                  participant: Kanade
+            - interviewsubsection:
+                lines:
+                - text: ライブを重ねてNEK!がより“ネキ”らしく
+                  translation: By playing more live shows, NEK! becomes more like "neki"
+                  isinterviewer: true
+            - interviewsubsection:
+                lines:
+                - text: BAND-MAIDも、ライブを重ねてより強固なバンドになっていったと思うんですけど、NEK!も出会ってからライブを重ねる中で、よりバンドらしくなったという手応えがありますか？
+                  translation: I think BAND-MAID also became a stronger band by playing many live shows. Do you feel that NEK! has also become more like a band as you have played more live shows since you met?
+                  isinterviewer: true
+                - text: あります。結成2周年を記念して12カ所を巡った初の全国ツアーで、これまで以上にメンバーのことを知れたことが大きくて。演奏力も上がって、結成当初と比べると全然違う音の鳴り方になっているのを感じて、どんどん進化していっていると実感しています。
+                  translation: We do. During our first nationwide tour, which visited 12 locations to commemorate our 2nd anniversary of forming, getting to know the members more than ever before was a big deal. Our performance skills have also improved, and I feel that our sound is completely different compared to when we first formed. I really feel that we are constantly evolving.
+                  participant: Hika
+                - text: やっぱり経験値が増えたことは大きいです。ライブを重ねるごとに課題が見つかって、次までにどうするかみんなで話し合って改善して、また次のライブで試して。それがすぐできる環境がツアーにはあったので、自分たちでもわかるくらい成長を実感できました。関係者の方からも「全国ツアーはバンドが成長するすごくいい機会だからがんばってね」とずっと言われていて、本当にそうだったなって体感しましたね。
+                  translation: As expected, gaining more experience was huge. With each live show we played, we found issues, discussed together what to do by the next one to improve, and then tried it out at the next live show. Because the tour provided an environment where we could do that immediately, we were able to feel our growth enough that even we ourselves could recognize it. People in the industry had always been telling us, "A nationwide tour is a really good opportunity for a band to grow, so do your best," and I truly experienced that they were right.
+                  participant: Cocoro
+                - text: 初ワンマンをShibuya eggmanでやったときに観に来てくださった方が、ファイナルで「すごくツアーを回ってきたのを実感した」と言ってくださったのが、すごくうれしくて。トライ＆エラーがすぐにできて本当に勉強になったし、絆も深まりました。より一層バンドらしく結束力のある感じに見えるようになっていったのかなと思います。
+                  translation: A person who came to see us when we did our first one-man show at Shibuya eggman told us at the tour final, "I really feel that you have toured a lot," and that made me so happy. Being able to do trial and error immediately was a real learning experience, and our bond deepened as well. I think we have started to look even more like a band with a sense of unity.
+                  participant: Natsu
+                - text: 私は、ツアーでメンバーの知らない面を見られたし、この状況に置かれて初めて知った自分の新しい一面もあって。1人ひとりが強くなっていった感じはします。私たちはまだキッズですけど（笑）、それぞれの頼れる部分が見えてきたので、バンド名どおりの“ネキ”になってきたんじゃないかなって。
+                  translation: For me, I was able to see sides of the members that I didn't know during the tour, and there was also a new side of myself that I discovered for the first time by being put in this situation. I feel like each of us has become stronger. We are still kids (laughs), but since we can now see the reliable sides of each other, I think we have become neki just like our band name.
+                  participant: Kanade
+            - interviewsubsection:
+                lines:
+                - text: これからはメジャーバンドNEK!に
+                  translation: From now on, as the major band NEK!
+                  isinterviewer: true
+            - interviewsubsection:
+                lines:
+                - text: そしてNEK!は、満を持してメジャーデビューシングル「FLiCK」をリリースします。「FLiCK」はいつ頃作った曲なんでしょう？
+                  translation: And now, NEK! is releasing their long-awaited major debut single "FLiCK." Around when did you make the song "FLiCK"?
+                  isinterviewer: true
+                - text: これはわりと最近で、メジャーデビューに向けて作った曲ですね。
+                  translation: This was relatively recent. It is a song we made for our major debut.
+                  participant: Natsu
+                - text: NEK!らしさを見せたい気持ちと同時に、よりポップにジャンルレスに作りたいという思いがあって。SNS時代を生きる私たちだからこそ、伝えたいものはなんなのか、試行錯誤しながら作った曲です。
+                  translation: Along with the desire to show our NEK! style, we also had the thought that we wanted to make it more pop and genre-less. Because we live in the social media age, it is a song we made through trial and error, thinking about what exactly we want to convey.
+                  participant: Hika
+                - text: 曲が完成するまでのプロセスは？
+                  translation: What is the process until a song is completed?
+                  isinterviewer: true
+                - text: スタジオに入って、各パートが「こういうフレーズを入れたい」と話し合いながら構成していきます。ギターは「こういうタッピングを入れたい」、ベースは「ここでスラップを入れたい」って。それをまとめるのがすごく大変なんですけど（笑）。
+                  translation: We go into the studio, and we structure it while discussing things, with each part saying, "I want to include this kind of phrase." The guitar might say, "I want to include this kind of tapping," and the bass might say, "I want to include slap bass here." Putting it all together is really difficult, though (laughs).
+                  participant: Hika
+                - text: 例えば「今回はスラップを使う」となったら、それに合わせてギターの音作りやリズム、フレーズをどうするか決めていく感じです。弾き語りの曲なら、Hikaのアコギアレンジを3人がどう広げていくか、みたいな。
+                  translation: For example, if we decide "we are using slap bass this time," we decide how to adjust the guitar sound, rhythm, and phrasing to match it. If it is an acoustic song, it is like figuring out how the three of us can expand on Hika's acoustic guitar arrangement.
+                  participant: Natsu
+                - text: では「FLiCK」のベーシックになったのは？
+                  translation: So what became the base for "FLiCK"?
+                  isinterviewer: true
+                - text: 私のギターリフですね。オクターブを使ったリフを使いたくて、スタジオで「こんな感じどう？」と最初に出しました。
+                  translation: It was my guitar riff. I wanted to use a riff using octaves, and I brought it out first in the studio saying, "How about something like this?"
+                  participant: Natsu
+                - text: 私は「ポップでさわやかに歌ってみたいから、もう少し軽い、リズミカルな感じにしてほしい」と言いながらも、ロックをベースにしたいので、重たい音は残しつつ。
+                  translation: I was saying, "I want to try singing it in a pop and refreshing way, so I want you to make it a slightly lighter, rhythmic feel," but since we wanted to base it in rock, we kept a heavy sound.
+                  participant: Hika
+                - text: 話し合いで作っていくという制作スタイルは、Kanadeさんの好きなLUNA SEAに近いですね。クレジット上は全員でも、原曲を作った人がいる、という作り方ですよね。
+                  translation: The production style of building it up through discussion is similar to LUNA SEA, which Kanade-san likes, isn't it? Even if the writing credits go to everyone, there is someone who created the original song. It is that kind of creation method, right?
+                  isinterviewer: true
+                - text: （深くうなずきながら）そう、そうなんです。
+                  translation: (Nodding deeply) Yes, that is exactly right
+                  participant: Kanade
+                - text: 歌詞はそのあと、皆さんで書いていくんですか？
+                  translation: Do you all write the lyrics together after that?
+                  isinterviewer: true
+                - text: 今SNSで使われていて気になるワードや、歌詞に盛り込みたいものをみんなで寄せ集めて組んでます。
+                  translation: We gather and combine words that are currently being used on social media that catch our interest, and things we want to include in the lyrics.
+                  participant: Cocoro
+                - text: LINEで「最近気になるワード」とか「入れたいワード」を投げ合ってね。
+                  translation: We toss things like "words we are curious about lately" or "words we want to include" to each other on LINE.
+                  participant: Natsu
+                - text: それこそ、「FLiCK」には長崎弁も入ってるんです。かわいらしく聞こえるかもしれないけど、けっこう鋭いことを言っていたりするのが、味というか。方言を入れている曲はあまりないので、面白いんじゃないかと思って「FLiCK」で入れてみました。
+                  translation: Actually, "FLiCK" even includes the Nagasaki dialect. It might sound cute, but it is actually saying pretty sharp things, which gives it a certain flavor. There aren't many songs that include regional dialects, so I thought it would be interesting and tried putting it into "FLiCK."
+                  participant: Hika
+                - text: タイトルを「FLiCK」にしたのは、どういう理由からなんでしょう？
+                  translation: For what reason did you make the title "FLiCK"?
+                  isinterviewer: true
+                - text: これはフリック入力のことなんですけど、「ぽぽぽぽぽん」みたいなタップする感じが、リズミカルでポップなこの曲調にすごく合っているなと思って。しかもネット、SNSに通じるスマホ用語なので、まさにNEK!らしいかなと思ったんです。
+                  translation: This refers to flick input (Japanese smartphone input), but I thought the tapping feeling, like "po-po-po-po-pon," really matched the rhythmic and pop tune of this song. Furthermore, since it is a smartphone term connected to the internet and social media, I thought it was very true to NEK!.
+                  participant: Natsu
+            - interviewsubsection:
+                lines:
+                - text: 日本武道館最速ガールズバンドを目指すNEK!
+                  translation: NEK! aiming to be the fastest girls' band to reach Nippon Budokan
+                  isinterviewer: true
+            - interviewsubsection:
+                lines:
+                - text: NEK!は、「ガールズバンド史上最速で武道館に立ちたい」という目標を、これまでのインタビューで発言されていますよね。
+                  translation: NEK! has stated the goal, "We want to stand at the Budokan faster than any girls' band in history" in previous interviews, right?
+                  isinterviewer: true
+                - text: 「目標は何か？」と話したとき、4人そろって「日本武道館」が出てきたんです。絶対に立ちたいという思いが強くて。掲げ続けて、ゴールが見えなくなったら怖いから、「日本武道館に“最速で”立つ」と決めたんです。
+                  translation: When we talked about "What is our goal?", "Nippon Budokan" came up from all four of us. Our desire to absolutely stand there is strong. Because it would be scary to just keep holding up that goal and eventually lose sight of it, we decided that we will "stand at the Nippon Budokan fastest."
+                  participant: Natsu
+                - text: 現在の最速記録がSILENT SIRENの「メジャーデビューから2年2カ月」なんですよね。NEK!も今回のメジャーデビューから、武道館やその先を目指して怒涛の日々になっていきそうです。
+                  translation: The current fastest record is SILENT SIREN's "2 years and 2 months from major debut," isn't it. For NEK! as well, starting from this major debut, it seems like it will be a whirlwind of busy days aiming for the Budokan and beyond.
+                  isinterviewer: true
+                - text: ガールズバンドは私たちだけじゃなくて、すごくいっぱいいます。今はもうガールズバンド戦国時代。1週間前に生まれたバンドがバズっても全然おかしくない時代なので、負けないようにと思っています。
+                  translation: We are not the only girls' band; there are incredibly many of them out there. Right now is already the "Warring States period" of girls' bands. It is an era where it wouldn't be strange at all for a band born just a week ago to go viral, so I am thinking that we won't lose.
+                  participant: Cocoro
+                - text: だからこそSNSはめっちゃ大事ですね。
+                  translation: That is exactly why social media is super important.
+                  participant: Natsu
+                - text: メジャーデビュー記念の東名阪ツアーが9月からスタートします。先ほど、1つツアーを回ったことが結束力につながったとおっしゃっていましたが、次はどんなツアーにしたいですか？
+                  translation: The Tomeihan (Tokyo, Nagoya, and Osaka) tour to commemorate your major debut will start in September. Earlier, you mentioned that going on one tour led to a sense of unity, but what kind of tour do you want to make this next one?
+                - text: より進化したNEK!を見せたいです。全公演ソールドアウトにして、12カ所を回った全国ツアーよりももっと強い熱を伝えていきたい。東名阪をロックに駆け抜けていきたいです。
+                  translation: I want to show a more evolved NEK!. I want to sell out all the performances, and convey an even stronger heat than the nationwide tour that visited 12 locations. I want to run through Tokyo, Nagoya, and Osaka in a rock style.
+                  participant: Hika
+                - text: ちなみに今、演奏できる曲は何曲くらいあるんですか？
+                  translation: By the way, how many songs can you play right now?
+                  isinterviewer: true
+                - text: 23曲かな。
+                  translation: Maybe 23 songs.
+                  participant: Cocoro
+                - text: 新曲を合わせたら25曲くらいあるんじゃない？
+                  translation: If we include the new songs, aren't there about 25 songs?
+                  participant: Natsu
+                - text: ツアーごとにセットリストを変えることもできるようになってきたんじゃないですか？
+                  translation: So you are becoming able to change the setlist for each tour?
+                  isinterviewer: true
+                - text: そうですね。この前の全国ツアーも公演ごとにパターンを変えていました。
+                  translation: That is right. For the recent nationwide tour, we changed the pattern for each show.
+                  participant: Cocoro
+                - text: これから、さらにみんなと作り上げていきたいですね。
+                  translation: From now on, I want us to create even better live experiences together with everyone.
+                  participant: Hika
+                - text: ガールズバンド戦国時代で天下を取る姿を期待しています。
+                  translation: I look forward to seeing you take the top in this girls' band Warring States period.
+                  isinterviewer: true
+                - text: テッペン、取ったるぞ！
+                  translation: We are going to take the top!
+                  participant: All
     part-of:
       media:
         year: 2026

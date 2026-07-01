@@ -488,6 +488,18 @@
         year: 2026
         id: nataliemufeature
 
+- update:
+    media:
+      year: 2026
+      id: nataliemufeature
+    date: 2026-06-30
+    text:
+    - Added translation of the interview
+    part-of:
+      media:
+        year: 2026
+        id: nataliemufeature
+
 - webimage:
     domain: natalie.mu
     page: music

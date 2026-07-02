@@ -9,6 +9,16 @@
         sections:
         - basicsection:
             subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: In the interview, NEK! reflect on their major debut, discuss which member has changed the most since the band formed, share the details behind their major debut single "FLiCK", and reveal their individual goals for the future.
+                - line:
+                  - text: 'The previous interview on "eggman":'
+                  - newline: ''
+                  - media:
+                      year: 2025
+                      id: eggman11
             - multimediasubsection:
                 label: Covers
                 multimedia:
@@ -18,6 +28,250 @@
                 - postximage:
                     post: 2071883505555128638
                     image: HMDO8osXEAARjo5
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The interview was conducted by 窪田雄紀 (Yuki Kubota), the organizer of the "Girl's Up!!!" shows at Shibuya eggman.
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+            - interviewsubsection:
+                label: Translation
+                lines:
+                - text: 初ライブから２年３ヶ月ほど。そこから着実にライブを重ねながらも一気に階段を駆け乗っている彼女たち。そんな彼女たちがついにメジャーデビューも掴み取りました。一体この先どうなっていくのでしょうか。楽しみでしょうがないです。
+                  translation: It has been about 2 years and 3 months since their first live show. Since then, while steadily playing more and more shows, they have been climbing up the stairs at full speed. And now, they have finally grabbed hold of their major debut. What in the world is going to happen from here on out? I couldn't be more excited about it.
+            - interviewsubsection:
+                lines:
+                - text: まずはメジャーデビュー改めておめとうございます！
+                  translation: First of all, congratulations once again on your major debut!
+                  isinterviewer: true
+                - text: ありがとうございます！
+                  translation: Thank you very much!
+                  participant: All
+                - text: メジャーデビュー前に色んなインタビューを受けたりはしたと思うのですが、実際にメジャーデビュー後のインタビューはこれが初ということで。今の心境はどうでしょうか。
+                  translation: I think you did various interviews before your major debut, but this is actually your first interview after your major debut. How are you feeling right now?
+                  isinterviewer: true
+                - text: デビュー当日に生配信をしたのですが、ファンの皆さんが私たち以上に喜んでくださって、本当に嬉しかったですね。お祝いコメントも色々もらってそこで実感がすごく湧いたというのはあります。
+                  translation: We did a live stream on the day of our debut, and the fans were even happier than we were, which made me really happy. We received lots of congratulatory comments, and that is when it really started to feel real for me.
+                  participant: Cocoro
+                - text: もちろん特別な日ではあったんですけど、意外にいつも通りでもありました。いつも通りの楽しい空間で良い意味で普段通りで。このワチャワチャ感がNEK!だよねってコメントをくださっている方々もいて、メジャーデビューしてもちろんレベルアップしなければいけないこともたくさんあるけど、根底の部分は変わらずこのままやっていっていいんだっていう安心感がありました。結成から今までの活動を肯定してもらえたような気持ちでした。
+                  translation: Of course it was a special day, but surprisingly, it also felt like just another day. It was our usual fun atmosphere, and it felt normal in a good way. Some people left comments saying that this lively, "wacha-wacha" feeling is so NEK!. While there are certainly many things we need to level up now that we've had our major debut, I felt a sense of relief knowing that the core of who we are doesn't need to change and that we can keep going exactly as we are. It felt like everything we have done since we formed the band was being validated.
+                  participant: Natsu
+                - text: そこはしっかりとライブをやって目の前のファンの方としっかりコミュニケーションをとってきたからこそじゃないですかね。
+                  translation: I think that is exactly because you have been steadily playing live shows and communicating directly with the fans right in front of you.
+                  isinterviewer: true
+                - text: ずっと見てくれている窪田さんにそう言ってもらえると嬉しいです。
+                  translation: It makes me happy to hear that from you, Kubota-san, since you have been watching us for a long time.
+                  participant: Hika
+                - text: メンバーもスタッフさんも含めて１つのチームでやってきたことが１つ形になったって感じですね。
+                  translation: It feels like everything we have done as a single team, including the members and the staff, has finally taken a concrete shape.
+                  participant: Kanade
+                - text: この楽しさをずっと保ったままどんどんステップアップしてけたら一番幸せですね。
+                  translation: It would make me the happiest if we could just keep this sense of fun while continuing to step up.
+                  participant: Hika
+                - text: 変わらず応援させてください。今回節目のタイミングでのインタビューだったので最初のMVとか見返したりしたんですよ。そしたら当たり前と言えば当たり前なのですがこの２年数ヶ月でみんな大人っぽくなったなぁと思いました。ビジュアル面でもいいですし内面でもいいですしこの２年数ヶ月で一番変わったなと思う人を一斉に指差ししてもらおうかなと思っています。
+                  translation: Please let me continue to support you as always. Since this interview comes at a milestone, I went back and rewatched your first MV and things like that. And then, although it might be stating the obvious, I thought that everyone has become more mature over these two years and a few months. It can be about your visuals or about your inside, but I would like you all to point at the same time to the person you think has changed the most over these two years and a few months.
+                  isinterviewer: true
+                - text: えーっ！難しすぎます、、、
+                  translation: Ehhh! That is too difficult...
+                  participant: Hika
+                - text: 誰だろう、、、
+                  translation: I wonder who it is...
+                  participant: Natsu
+                - text: うーん。
+                  translation: Hmm.
+                  participant: Kanade
+                - text: これは悩みますね。
+                  translation: This is a tough one.
+                  participant: Cocoro
+                - text: だいぶ悩んでいるので休憩でも入れますか（笑）。
+                  translation: You are struggling with this quite a bit, so should we take a break? (laughs)
+                  isinterviewer: true
+                - text: 〜１分経過〜
+                  translation: ~ 1 minute passes ~
+                - text: 決めました。
+                  translation: I have decided.
+                  participant: Kanade
+                - text: 私も。
+                  translation: Me too.
+                  participant: Natsu
+                - text: 私も決めた。
+                  translation: I decided too.
+                  participant: Cocoro
+                - text: うわー、決まらないどうしよ、、、
+                  translation: Wow, I can't decide, what should I do...
+                  participant: Hika
+                - text: 決めてください（笑）。
+                  translation: Please decide. (laughs)
+                  isinterviewer: true
+                - text: よし！決めました。
+                  translation: Alright! I have decided.
+                  participant: Hika
+                - text: それではいきましょうか。せーのっ！
+                  translation: Well then, shall we do it? Ready, set!
+                  isinterviewer: true
+                - text: Hika 👉 Natsu<br>Cocoro 👉 Hika<br>Natsu 👉 Kanade<br>Kanade 👈
+                - text: おー。
+                  translation: Ohh.
+                  participant: All
+                - text: ではそれぞれ具体的に聞いていこうと思います。<br>HikaさんはNatsuさんを指しました。
+                  translation: Well then, I would like to ask each of you specifically.<br>Hika-san pointed at Natsu-san.
+                  isinterviewer: true
+                - text: Natsuは顔つきが完全に変わりましたね。
+                  translation: Natsu's facial expressions have completely changed.
+                  participant: Hika
+                - text: 変わったかなー。
+                  translation: I wonder if I changed...
+                  participant: Natsu
+                - text: めっちゃ変わったよ。アー写撮影、MV撮影、ライブ。いろんなところでの表情とか表現とか、自分をどう魅せるかというのを常に考えているんだろうなと思います。だからこそとても変わったなと思いました。
+                  translation: You changed a lot! Promotional photo shoots, MV shoots, live shows. I think she is always thinking about her facial expressions and how she expresses herself in various places, and about how to show herself off. That is exactly why I thought she changed a lot.
+                  participant: Hika
+                - text: えー、めっちゃ嬉しい、、、と同時にちょっと恥ずかしい（笑）。
+                  translation: Ehh, I am super happy... and at the same time a little embarrassed (laughs).
+                  participant: Natsu
+                - text: これが続きます（笑）。では次はHikaさんを指したCocoroさん。
+                  translation: This is going to continue (laughs). Well then, next is Cocoro-san, who pointed at Hika-san.
+                  isinterviewer: true
+                - text: ライブの立ち振る舞いですね。私はドラムだからいつもHikaを後ろから見ているんですけどお客さんをどう巻き込むか、どう楽しませるかというのをすごく考えて行動しているんだろうなっていうのを感じます。頼もしいなと思って見てます。
+                  translation: It is her behavior during live shows. Since I am on the drums, I am always watching Hika from behind, but I feel like she acts while thinking deeply about how to get the audience involved and how to entertain them. I watch her thinking she is very reliable.
+                  participant: Cocoro
+                - text: 嬉しいです。CocoroはNEK!のお父さん的存在なので。
+                  translation: I am happy. Because Cocoro is like the father figure of NEK!.
+                  participant: Hika
+                - text: お母さんじゃないんだね（笑）。
+                  translation: So I'm not the mother, huh (laughs).
+                  participant: Cocoro
+                - text: Kanadeさんには２票入りました。Natsuさんと自分ですね。
+                  translation: Kanade-san received two votes. From Natsu-san and herself.
+                  isinterviewer: true
+                - text: なんか自分で自分を指したのがめちゃくちゃ恥ずかしいです（笑）。
+                  translation: Somehow, pointing at myself is incredibly embarrassing (laughs).
+                  participant: Kanade
+                - text: いや、でも自分自身で変わったと思えるっていいことじゃないですか。
+                  translation: No, but isn't it a good thing to be able to think that you have changed yourself?
+                  isinterviewer: true
+                - text: 4人でいる時の空気感というか私たちに心をより開いてくれたというのがすごくわかるようになりました。最初はクールな子なのかなって思っていて。でもこの２年でたくさん胸の内も話すようになってくれて、それがすごく嬉しかったんですよね。
+                  translation: The atmosphere when the four of us are together, or rather, I can really tell that she has opened her heart more to us. At first, I thought she was a reserved girl. But over these two years, she started talking a lot about her inner feelings too, and that made me really happy.
+                  participant: Natsu
+                - text: 最初そんなに心開いてなかったかな、、、。一番恥ずかしいかも（笑）。
+                  translation: Did I really not open my heart that much at first...? This might be the most embarrassing one (laughs).
+                  participant: Kanade
+                - text: そんなKanadeさんは自分自身が一番変わったと感じるということで。
+                  translation: And so, Kanade-san feels that she herself has changed the most.
+                  isinterviewer: true
+                - text: もう全部変わりましたね。シンプルに大人になりました。自分が出したい色とか自分が何をどうしたいかみたいなところがすごく固まりました。あとは内面的なところなのですが、自分でダメだなって思うところを直せたりしました。
+                  translation: Pretty much everything has changed. Simply put, I became an adult. The kind of "color" I want to bring out, or what I want to do and how I want to do it, those things became very solid. Also, regarding my inner self, I was able to fix the parts of myself that I thought were no good.
+                  participant: Kanade
+                - text: Kanadeもほんと変わったよね。私もKanadeに入れるか悩んだもん。
+                  translation: Kanade really did change too. Even I debated whether to vote for Kanade.
+                  participant: Cocoro
+                - text: そしてそんなCocoroさんには１票も入らず。
+                  translation: And as for Cocoro-san, she received zero votes.
+                  isinterviewer: true
+                - text: 良い意味でCocoroは全然変わってないんですよ。
+                  translation: In a good way, Cocoro has not changed at all.
+                  participant: Hika
+                - text: この前スタッフさんとも話していたんですけど、ビジュアル面が全く変わっていなくて（笑）。髪色とか髪型の変化はもちろんあるんですけど。小学生の頃から変わってないんですよね（笑）。
+                  translation: I was talking with the staff about this the other day, but my visual aspect hasn't changed at all (laughs). Of course, there are changes in my hair color and hairstyle. But I haven't really changed since I was in elementary school (laughs).
+                  participant: Cocoro
+                - text: それは大人っぽすぎませんか。
+                  translation: That means you looked really grown-up for your age, right?
+                  isinterviewer: true
+                - text: 小学生の時のあだ名JKでしたからね。女子高生に見えるからって。身長もその頃からほとんど変わってないんです。
+                  translation: Yes, my nickname in elementary school was "JK". They said it was because I looked like a high school girl. My height has barely changed since then either.
+                  participant: Cocoro
+                - text: Cocoroは精神面の安定もすごくて。だからすごくありがたいです。NEK!を俯瞰して見てくれていて。だからお父さんです（笑）。
+                  translation: Cocoro's mental stability is amazing too. So I am very thankful for that. She watches over NEK! from a bird's-eye view. That is why she is the father (laughs).
+                  participant: Hika
+                - text: みんなが安心できる存在だよね。
+                  translation: She is someone who makes everyone feel secure.
+                  participant: Natsu
+                - text: 面白い話が聞けてよかったです。ここからメジャーデビュー曲について聞いていきたいと思います。重厚感はありつつも攻撃性という面では今までのNEK!の楽曲よりはマイルドというかポップ色が強いかなと感じました。
+                  translation: I am glad I got to hear some interesting stories. From here, I would like to ask about your major debut song. While it has a heavy feel, in terms of aggressiveness, I felt it is a bit milder, or perhaps has a stronger pop color compared to NEK!'s previous songs.
+                  isinterviewer: true
+                - text: メジャー１曲目ということもあって、NEK!らしいロックサウンドではありつつも幅広く受け入れてもらえるようにポップな部分も入れ込んだ曲にしたいという想いはありました。よりジャンルレスに。
+                  translation: Since it is our first major label song, while keeping it a rock sound typical of NEK!, we had the desire to make it a song that incorporates pop elements so it can be widely accepted. To make it more genre-less.
+                  participant: Hika
+                - text: そんな部分もあってか歌詞にHikaさんの地元の方言を入れるという試みもありますね。
+                  translation: Perhaps because of that, there is also the attempt to include Hika-san's local dialect in the lyrics.
+                  isinterviewer: true
+                - text: 実はずっと入れてみたかったんですよ。このタイミングがいいなと思って入れさせてもらいました。聞こえ方としてはポップで可愛いマイルドな言葉と捉えるかもしれないですが、意味としては結構強めで。それがこの曲にも合うなと思いました。でもレコーディングは苦労したんです。普段地元で使う言葉だからこそ、それを歌うという感覚が今までなかったから。何回も何回も録り直しました。
+                  translation: Actually, I have always wanted to include it. I thought this was a good timing, so I had them let me include it. Based on how they sound, you might perceive them as pop, cute, and mild words, but their meaning is actually quite strong. I thought that also fits this song. But recording them was a struggle. Exactly because they are words I usually use in my hometown, I never had the feeling of singing them before. I re-recorded it over and over again.
+                  participant: Hika
+                - text: ４人それぞれの推しポイントを聞いていこうかなと思います。
+                  translation: I think I will ask about each of the four members' favorite points.
+                  isinterviewer: true
+                - text: 私はギターソロの裏が好きですね。NEK!らしい尖りが出ている部分かなと思っていて。この部分ではベースの５弦を使っていてそこで一気に重たさも出て、自分らしさも感じるし、ここのスラップのフレーズが推しポイントです。
+                  translation: I like the backing behind the guitar solo. I think it is a part that shows a sharpness typical of NEK!. I use the 5th string of the bass in this part, and a heaviness comes out all at once there, and I feel my own style in it, so the slap phrase here is my favorite point.
+                  participant: Kanade
+                - text: 私もギターソロが推しポイントですね。NEK!の曲は結構タッピング使ったソロとかが多いんですけど、この曲でも最初から存分に使っていて、フレーズがちょっとずつ上に上がっていって、ハイポジションになって締まるという部分が好きです。テンションが上がります。
+                  translation: The guitar solo is my favorite point too. NEK!'s songs often have solos using tapping and things like that, but we use it fully from the beginning in this song too. I like the part where the phrase gradually goes up, reaches a high position, and then wraps up. It gets me really excited.
+                  participant: Natsu
+                - text: ２サビ前のブレイクからサビに入るところのフィルがスピード感あってすごく気に入っています。あとはラスサビ前のボーカルとドラムだけになるところが、ユニゾンみたいな感じですごい気持ちよくてやっていて楽しいです。
+                  translation: I really like the drum fill going from the break before the second chorus into the chorus, because it has a sense of speed. Also, the part right before the last chorus where it is just the vocals and drums feels like a unison; it feels great and is fun to play.
+                  participant: Cocoro
+                - text: 私もそこお気に入りポイントだなぁ。この曲を聴き終えた時にポジティブな気持ちになって欲しいなと思って作った曲なので、そんな部分も感じながら全体を通して楽しんで聴いてもらいたいです。
+                  translation: That is my favorite point too. I made this song hoping people will feel positive when they finish listening to it, so I want people to enjoy listening to it all the way through while feeling those kinds of parts too.
+                  participant: Hika
+                - text: MVの世界観もすごくポップで良い画だなと思いました。四人の素の部分みたいなものも感じるような雰囲気で。
+                  translation: I thought the aesthetic of the MV is also very pop and has great visuals. It has an atmosphere where you can feel the natural, unpolished sides of the four of you.
+                  isinterviewer: true
+                - text: 振付師さんに振りを付けつけてもらったんです。みんなで頑張って覚えて撮影に挑みました。
+                  translation: We had a choreographer create choreography for us. We all worked hard to learn it and took on the video shoot.
+                  participant: Cocoro
+                - text: カメラの前で楽器を弾いたりするのは慣れてきたけど、踊ることなんてないからすごく緊張しました。リハではできても本番ではボロボロだったり（笑）。
+                  translation: I have gotten used to playing instruments in front of a camera, but since we never dance, I was really nervous. Even if I could do it in rehearsal, I would mess up terribly during the actual take (laughs).
+                  participant: Natsu
+                - text: リハではできたのになんでだー！ってね。
+                  translation: It's like, "I could do it in rehearsal, so why?!" right?
+                  participant: Hika
+                - text: あとはそれぞれのイメージカットすごい好きです。Cocoroはサングラスかけて水鉄砲やったりとか。
+                  translation: Also, I really like everyone's individual image shots. Like Cocoro wearing sunglasses and playing with a water gun.
+                  participant: Natsu
+                - text: 小道具をたくさん用意いただいて、好きなものを選んでくださいって言われたんですよ。
+                  translation: They prepared a lot of props for us, and I was told to please choose what I liked.
+                  participant: Cocoro
+                - text: えっ！？そうなの？私はこれでって渡されたよ。
+                  translation: Eh!? Is that so? They just handed me something and said, "Use this."
+                  participant: Kanade
+                - text: 私も。
+                  translation: Me too.
+                  participant: Hika &<br>Natsu
+                - text: 私だけだったんだ。でも選んでくださいって言われたからモノボケを求められてるのかなと思って全力で挑みました（笑）。
+                  translation: It was just me then. But since they told me to choose, I thought they were asking me to do a "monoboke," so I went at it with all my might (laughs).
+                  participant: Cocoro
+                - text: 今回のメジャーデビューでNEK!がさらに世の中に浸透するのを楽しみしてます。そしていろんなインタビューでも武道館が目標と言っているのは拝見しているのですが、メジャーデビューのこの節目のタイミングでそれぞれの目標も聞いていこうかなと思います。
+                  translation: With this major debut, I am looking forward to NEK! spreading even further into the world. And I have seen in various interviews that your goal is the Budokan, but at this milestone of your major debut, I think I will ask about each of your individual goals.
+                  isinterviewer: true
+                - text: アニメの主題歌をやりたいです。NEK!の音楽って絶対アニメに合うと思っていて。テレビから自分たちの音楽が流れるのを想像するだけで嬉しいです。
+                  translation: I want to do an anime theme song. I think NEK!'s music would definitely fit an anime. Just imagining our own music playing from the TV makes me happy.
+                  participant: Cocoro
+                - text: フェスに出たいですね。よくフェスに行ったりしていたからNEK!でフェスのステージに立ちたいです。
+                  translation: I want to appear at festivals. Since I have been to a lot of festivals, I want to stand on a festival stage with NEK!.
+                  participant: Natsu
+                - text: それは全員共通の目標でもあります。
+                  translation: That is also a common goal for all of us.
+                  participant: Hika
+                - text: 私もフェスに行ったりしてたからそのステージに実際立ったりしたらもう感動だろうな。
+                  translation: I have also been to festivals, so if I were to actually stand on that stage, I would probably be so moved.
+                  participant: Cocoro
+                - text: 目標と言えるかはわからないですが、全員離したくないなというのがパッと浮かびました。それはメンバー、今応援してくれているファンの方、スタッフさん、そしてこれから私たちを知ってくださる方などNEK!に関わる方全員です。重いかな（笑）。
+                  translation: I do not know if it can be called a goal, but what suddenly came to mind is that I don't want to let go of anyone. That means the members, the fans supporting us now, the staff, and people who will come to know us from now on, everyone involved with NEK!. Is that too heavy? (laughs)
+                  participant: Kanade
+                - text: いや、でも大事だよね。
+                  translation: No, but it is important, right.
+                  participant: Natsu
+                - text: 全員離さず輪が大きくなって一歩ずつ進めばその先に武道館は自ずと見えてくるでしょうしね。
+                  translation: If the circle grows without letting anyone go, and you advance step by step, the Budokan will naturally come into view ahead of you, won't it.
+                  isinterviewer: true
+                - text: 私は地元長崎でのライブがやりたいのと、世界を目指したいです。その中でエッフェル塔の下でライブがしたくて。私は「けいおん！」に憧れてバンドを始めたいと思ったので、その聖地であるエッフェル塔の下でいつかライブがやりたいなって思ってます。
+                  translation: I want to do a live show in my hometown of Nagasaki, and I want to aim for the world. Within that, I want to do a live show under the Eiffel Tower. Because I admired K-On! and wanted to start a band, I want to do a live show someday under the Eiffel Tower, which is a sacred ground for that.
+                  participant: Hika
     part-of:
       media:
         year: 2026
@@ -102,6 +356,18 @@
     date: 2026-06-30
     text:
     - Added the interview
+    part-of:
+      media:
+        year: 2026
+        id: eggman7
+
+- update:
+    media:
+      year: 2026
+      id: eggman7
+    date: 2026-07-02
+    text:
+    - Added the translation of the interview
     part-of:
       media:
         year: 2026

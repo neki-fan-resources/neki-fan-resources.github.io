@@ -13,6 +13,12 @@
                 lines:
                 - line:
                   - text: In the interview, NEK! speaks about the activities of the band so far, the upcoming album "MEME", the band's relationship with the Shibuya eggman live house, and their upcoming national tour.
+                - line:
+                  - text: 'The next interview on "eggman":'
+                  - newline: ''
+                  - media:
+                      year: 2026
+                      id: eggman7
         - basicsection:
             label: Covers
             subsections:
@@ -44,7 +50,7 @@
             - textsubsection:
                 lines:
                 - line:
-                  - text: The interview was conducted by 窪田雄紀 (Yuki Kubota), the organizer of the "Girl's Up" shows at Shibuya eggman.
+                  - text: The interview was conducted by 窪田雄紀 (Yuki Kubota), the organizer of the "Girl's Up!!!" shows at Shibuya eggman.
                 - line:
                   - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
             - interviewsubsection:

@@ -14,6 +14,23 @@
                 - postinstagramvideo:
                     post: DZo4J2EGsty
                     video: 5
+        - basicsection:
+            label: '#ネキ民 '
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: 'Additional photos are available in the Fan Club:'
+                  - newline: ''
+                  - text: '- '
+                  - webitem:
+                      webpage:
+                        domain: neki.bitfan.id
+                        id: 405893
+                      text: show photos
+        - basicsection:
+            label: At the show
+            subsections:
             - multimediasubsection:
                 label: Images
                 multimedia:
@@ -813,6 +830,17 @@
       webpage:
         domain: sakaespring.com
         id: homepage
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 405893
+    label: Fan Club photos
+    published-date: 2026-07-02
+    url: 'https://neki.bitfan.id/contents/405893'
+    part-of:
+      show:
+        year: 2026
+        id: sakaespring
 
 - webpage:
     domain: sakaespring.com

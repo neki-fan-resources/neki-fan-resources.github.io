@@ -12,15 +12,32 @@
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: IFMAWaV6GJM
-            - multimediasubsection:
-                multimedia:
-                - youtubeshort: EdRGGNG8lfY
+        - basicsection:
+            label: '#ネキ民 '
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: 'Additional photos are available in the Fan Club:'
+                  - newline: ''
+                  - text: '- '
+                  - webitem:
+                      webpage:
+                        domain: neki.bitfan.id
+                        id: 405892
+                      text: show photos
         - basicsection:
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - youtubeshort: EdRGGNG8lfY
+            - multimediasubsection:
                 label: Images
                 multimedia:
+                - postximage:
+                    post: 2072627243671777317
+                    image: HMNzC6Ba0AA0KzF
                 - postinstagramimage:
                     post: DZoZ1oUmumf
                     image: 2
@@ -490,6 +507,46 @@
         year: 2026
         id: tsuyokawa
 
+- postx:
+    id: 2072627243671777317
+    account: nekiband_jp
+    label: FC photos
+    published-date: 2026-07-02
+    text: |-
+      【#ネキ民 PHOTO📸】
+      
+      ファンクラブコンテンツ更新！
+      
+      "TSUYOKAWA"
+      &
+      "SAKAE SP-RING 2026"
+      
+      ▼ ライブ写真公開♻️
+      https://neki.bitfan.id/contents/menu/166310
+      
+      ▼FCご入会はこちら✔️
+      https://neki.bitfan.id/contents/menu/167052
+    translation: |-
+      【#Nekimin PHOTO📸】
+      
+      Fan club content updated!
+      
+      "TSUYOKAWA"
+      &
+      "SAKAE SP-RING 2026"
+      
+      ▼ Live photos released♻️
+      https://neki.bitfan.id/contents/menu/166310
+      
+      ▼ Click here to join the FC✔️
+      https://neki.bitfan.id/contents/menu/167052
+    image:
+    - HMNzC6Ba0AA0KzF
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
 - postximage:
     post: 2028062840817664094
     id: HCUgZoEa8AABKp4
@@ -644,6 +701,18 @@
     part-of:
       postx: 2063608573402472590
 
+- postximage:
+    post: 2072627243671777317
+    id: HMNzC6Ba0AA0KzF
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postx: 2072627243671777317
+
 - update:
     show:
       year: 2026
@@ -663,6 +732,17 @@
     date: 2026-06-06
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 405892
+    label: Fan Club photos
+    published-date: 2026-07-02
+    url: 'https://neki.bitfan.id/contents/405892'
     part-of:
       show:
         year: 2026

@@ -19,8 +19,10 @@
                   - media:
                       year: 2025
                       id: eggman11
+        - basicsection:
+            label: Covers
+            subsections:
             - multimediasubsection:
-                label: Covers
                 multimedia:
                 - postximage:
                     post: 2071883505555128638
@@ -28,6 +30,17 @@
                 - postximage:
                     post: 2071883505555128638
                     image: HMDO8osXEAARjo5
+        - basicsection:
+            label: Promo
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2072192147642814903
+                    image: HMHnhmtbgAApv9v
+                - postximage:
+                    post: 2072192147642814903
+                    image: HMHni1EaIAE5pSU
     - basicblock:
         id: translation
         label: translation
@@ -324,6 +337,47 @@
         year: 2026
         id: eggman7
 
+- postx:
+    id: 2072192147642814903
+    account: shibuya_eggman
+    label: Announcement
+    published-date: 2026-07-01
+    text: |-
+      🍳7月号フリーマガジン🍳
+      
+      eggman店頭では本日7月1日から配布開始！  
+      カバーアーティストポスターも掲示中💫
+      
+      Broken my toybox（ 
+      @BrokenMyToyBox
+       ）
+      NEK!（ 
+      @nekiband_jp
+       ）
+      
+      eggmanのお近くに来られた際にオリジナルポスターも是非ご覧下さい！👀🙌
+    translation: |-
+      🍳July Issue Free Magazine🍳
+      
+      Distribution starts today, July 1st, at the eggman store!  
+      Cover artist posters are also on display💫
+      
+      Broken my toybox ( 
+      @BrokenMyToyBox
+       )
+      NEK! ( 
+      @nekiband_jp
+       )
+      
+      Please be sure to check out the original posters when you are near eggman!👀🙌
+    image:
+    - HMHnhmtbgAApv9v
+    - HMHni1EaIAE5pSU
+    part-of:
+      media:
+        year: 2026
+        id: eggman7
+
 - postximage:
     post: 2071883505555128638
     id: HMDO8osXEAARjo5
@@ -348,6 +402,30 @@
         id: eggman7
     part-of:
       postx: 2071883505555128638
+
+- postximage:
+    post: 2072192147642814903
+    id: HMHnhmtbgAApv9v
+    index: 1
+    label: Covers
+    context:
+    - media:
+        year: 2026
+        id: eggman7
+    part-of:
+      postx: 2072192147642814903
+
+- postximage:
+    post: 2072192147642814903
+    id: HMHni1EaIAE5pSU
+    index: 2
+    label: Sidewalk board
+    context:
+    - media:
+        year: 2026
+        id: eggman7
+    part-of:
+      postx: 2072192147642814903
 
 - update:
     media:

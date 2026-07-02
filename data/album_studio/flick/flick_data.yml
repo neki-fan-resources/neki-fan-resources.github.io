@@ -1306,6 +1306,24 @@
     part-of:
       song: flick
 
+- postx:
+    id: 2072153222500728891
+    account: USEN_HITS
+    label: USEN HIT SNS Ranking
+    published-date: 2026-07-01
+    text: |-
+      今週のUSEN HIT SNS ランキング 発表！🔔
+      
+      オンエアは7/4からスタート📢
+    translation: |-
+      This week's USEN HIT SNS Ranking has been announced! 🔔
+      
+      The broadcast starts from 7/4📢
+    image:
+    - HMGvENibAAAuyYZ
+    part-of:
+      song: flick
+
 - postximage:
     post: 2064648886728483169
     id: HKcX7azaUAAKYpA
@@ -1465,6 +1483,16 @@
     - song: flick
     part-of:
       postx: 2068136759162974411
+
+- postximage:
+    post: 2072153222500728891
+    id: HMGvENibAAAuyYZ
+    index: 1
+    label: USEN list
+    context:
+    - song: flick
+    part-of:
+      postx: 2072153222500728891
 
 - postxvideo:
     post: 2064648780197347398

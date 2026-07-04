@@ -1,0 +1,20 @@
+mediaaudio:
+  year: 2026
+  id: jfnmemoriesdiscoveries
+  cover-image:
+    webimage:
+      domain: jfn.co.jp
+      page: 893
+      id: flyer
+  radio: JFN
+  show: Memories＆Discoveries
+  designation: radio comment
+  member:
+  - Hika
+  published-date: 2026-07-07
+  host: 早見沙織 (Saori Hayami)
+  webpage: 'https://jfn.co.jp/program/893/'
+  part-of:
+    group:
+      id: media
+      group: 2026

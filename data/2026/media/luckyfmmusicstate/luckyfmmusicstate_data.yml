@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: luckyfmmusicstate
+    date: 2026-07-04
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: luckyfmmusicstate
+
+- webimage:
+    domain: lucky-ibaraki.com
+    page: ims
+    id: flyer
+    label: Flyer
+    published-date: 2026-07-03
+    url: 'https://program-static.cf.radiko.jp/c6db52c9-d7e3-4493-a95c-b76736d568fe.jpeg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: lucky-ibaraki.com
+        id: ims
+
+- webpage:
+    domain: lucky-ibaraki.com
+    id: ims
+    label: Show page
+    published-date: 2026-07-03
+    url: 'https://lucky-ibaraki.com/ims/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: luckyfmmusicstate
+

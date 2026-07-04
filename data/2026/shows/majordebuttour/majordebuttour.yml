@@ -1,10 +1,9 @@
 tour:
   id: majordebuttour
   cover-image:
-    webimage:
-      domain: neki.bitfan.id
-      page: 379563
-      id: poster
+    postximage:
+      post: 2072878514353967384
+      image: HMRYBZabwAAGN_I
   fullname: NEK! MAJOR DEBUT TOUR
   first-date: 2026-09-04
   last-date: 2026-09-23

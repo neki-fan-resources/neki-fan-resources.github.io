@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fmf2tatami
+    date: 2026-07-04
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmf2tatami
+
+- webimage:
+    domain: fmf.co.jp
+    page: nijohan
+    id: flyer
+    label: Flyer
+    published-date: 2026-07-03
+    url: 'https://img.retsta.jp/fmf/front/radio/program/nijohan/logo.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmf.co.jp
+        id: nijohan
+
+- webpage:
+    domain: fmf.co.jp
+    id: nijohan
+    label: Show page
+    published-date: 2026-07-03
+    url: 'https://www.fmf.co.jp/radio/nijohan/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: fmf2tatami
+

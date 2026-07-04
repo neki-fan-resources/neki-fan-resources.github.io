@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmf2tatami
+  cover-image:
+    webimage:
+      domain: fmf.co.jp
+      page: nijohan
+      id: flyer
+  radio: ふくしまFM
+  show: ２畳半レコード オン ラヂオ
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-04
+  host: DJ.マサト (DJ Masato), 藤井 敬之 (Yoshiyuki Fujii), 油座友里恵 (Yurie Yuza), 山岡 トモタケ (Tomotake Yamaoka)
+  webpage: 'https://www.fmf.co.jp/radio/nijohan/'
+  part-of:
+    group:
+      id: media
+      group: 2026

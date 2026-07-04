@@ -52,6 +52,9 @@
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
+                    post: DaXLasnkQ1Z
+                    image: 2
+                - postinstagramimage:
                     post: DZPiV-tkivE
                     image: 3
                 - postximage:
@@ -59,9 +62,22 @@
                     image: HKH3txza0AAEkHK
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DaXLasnkQ1Z
+                    image: 4
                 - postximage:
                     post: 2063199953418351041
                     image: HKH1a_7b0AAok4R
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DaXLasnkQ1Z
+                    image: 7
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DaXLasnkQ1Z
+                    image: 8
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -809,6 +825,18 @@
     date: 2026-04-11
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: sakaespring
+
+- update:
+    show:
+      year: 2026
+      id: sakaespring
+    date: 2026-07-04
+    text:
+    - More pictures from the show
     part-of:
       show:
         year: 2026

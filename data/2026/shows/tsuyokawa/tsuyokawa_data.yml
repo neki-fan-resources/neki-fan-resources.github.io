@@ -53,13 +53,29 @@
                     post: 2062936991235551359
                     image: HKEGQc_bsAITH6e
                 - postinstagramimage:
+                    post: DaXLasnkQ1Z
+                    image: 3
+                - postinstagramimage:
                     post: DZoZ1oUmumf
                     image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DaXLasnkQ1Z
+                    image: 6
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 2062898813346709564
                     image: HKDjiWTaMAEJBrY
+                - postinstagramimage:
+                    post: DaXLasnkQ1Z
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DaXLasnkQ1Z
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -186,6 +202,37 @@
         post: 2062898813346709564
         image: HKDjiWVaIAAR3-x
 
+- postinstagram:
+    id: DaXLasnkQ1Z
+    account: nekiband_jp
+    label: Photos
+    published-date: 2026-07-04
+    text: |-
+      【LIVE PHOTO📸】
+      
+      "TSUYOKAWA" & "SAKAE SP-RING 2026"
+      
+      📸 @shohnophoto 
+      
+      #NEKI
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+    reference:
+    - postximage:
+        post: 2063188376845680832
+        image: HKHq4yTbIAA5YFH
+
 - postinstagramimage:
     post: DZoZ1oUmumf
     id: 2
@@ -231,6 +278,102 @@
         id: tsuyokawa
     part-of:
       postinstagram: DZoZ1oUmumf
+
+- postinstagramimage:
+    post: DaXLasnkQ1Z
+    id: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postinstagram: DaXLasnkQ1Z
+
+- postinstagramimage:
+    post: DaXLasnkQ1Z
+    id: 2
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postinstagram: DaXLasnkQ1Z
+
+- postinstagramimage:
+    post: DaXLasnkQ1Z
+    id: 3
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postinstagram: DaXLasnkQ1Z
+
+- postinstagramimage:
+    post: DaXLasnkQ1Z
+    id: 4
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postinstagram: DaXLasnkQ1Z
+
+- postinstagramimage:
+    post: DaXLasnkQ1Z
+    id: 5
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postinstagram: DaXLasnkQ1Z
+
+- postinstagramimage:
+    post: DaXLasnkQ1Z
+    id: 6
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: tsuyokawa
+    part-of:
+      postinstagram: DaXLasnkQ1Z
+
+- postinstagramimage:
+    post: DaXLasnkQ1Z
+    id: 7
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postinstagram: DaXLasnkQ1Z
+
+- postinstagramimage:
+    post: DaXLasnkQ1Z
+    id: 8
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: sakaespring
+    part-of:
+      postinstagram: DaXLasnkQ1Z
 
 - postx:
     id: 2028062840817664094
@@ -732,6 +875,18 @@
     date: 2026-06-06
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: tsuyokawa
+
+- update:
+    show:
+      year: 2026
+      id: tsuyokawa
+    date: 2026-07-04
+    text:
+    - More pictures from the show
     part-of:
       show:
         year: 2026

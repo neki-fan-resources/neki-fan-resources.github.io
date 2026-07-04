@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmfujiawesome
+  cover-image:
+    webimage:
+      domain: fmfuji.jp
+      page: aw
+      id: flyer
+  radio: FM FUJI
+  show: Awesome
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-03
+  host: 藤本えみり (Fujimoto Emiri)
+  webpage: 'https://www.fmfuji.jp/aw/'
+  part-of:
+    group:
+      id: media
+      group: 2026

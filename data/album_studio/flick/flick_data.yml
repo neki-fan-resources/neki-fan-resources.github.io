@@ -108,10 +108,27 @@
             - multimediasubsection:
                 multimedia:
                 - youtubeshort: _UJDoezA41U
+                - youtubeshort: YN_mxJtd-vA
                 - youtubeshort: '-Tq_0t1RZKQ'
                 - postinstagramvideo:
                     post: DZgr7VlHfBs
                     video: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DaVRRD_k0-b
+                    video: 7
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DaVRRD_k0-b
+                    video: 5
+                - postinstagramvideo:
+                    post: DaVRRD_k0-b
+                    video: 6
+                - postinstagramvideo:
+                    post: DaVRRD_k0-b
+                    video: 8
             - multimediasubsection:
                 multimedia:
                 - postinstagramvideo:
@@ -128,6 +145,9 @@
                 - postximage:
                     post: 2066788217165361169
                     image: HK607R6bMAAjceJ
+                - postinstagramimage:
+                    post: DaVRRD_k0-b
+                    image: 4
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -143,9 +163,15 @@
                     image: 1
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DaVRRD_k0-b
+                    image: 3
                 - postximage:
                     post: 2065393132288766154
                     image: HKnAGuoaAAAM0hr
+                - postinstagramimage:
+                    post: DaVRRD_k0-b
+                    image: 1
                 - postximage:
                     post: 2064651258410176556
                     image: HKcdYClbsAAZTTF
@@ -172,6 +198,12 @@
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
+                    post: DZzpdcrmVz2
+                    image: 4
+                - postinstagramimage:
+                    post: DZzpdcrmVz2
+                    image: 2
+                - postinstagramimage:
                     post: DZe40o7mUI4
                     image: 2
             - multimediasubsection:
@@ -179,6 +211,12 @@
                 - postinstagramimage:
                     post: DZgzHWByohA
                     image: 1
+                - postinstagramimage:
+                    post: DZzpdcrmVz2
+                    image: 1
+                - postinstagramimage:
+                    post: DZzpdcrmVz2
+                    image: 3
                 - postinstagramimage:
                     post: DZe40o7mUI4
                     image: 1
@@ -607,6 +645,41 @@
     part-of:
       song: flick
 
+- postinstagram:
+    id: DaVRRD_k0-b
+    account: natsu08_guitar
+    label: 100k views
+    published-date: 2026-07-03
+    text: |-
+      “FLiCK” 10万回再生突破！ありがとうー！！！
+      オフショットたくさんあげちゃうよ〜📹
+      この髪についてるお花がすっごくお気に入りなの！🌼🌸
+      もっともっと届きますよーに！🌟
+      
+      #neki
+    translation: |-
+      "FLiCK" has surpassed 100,000 views! Thank you so much!!!
+      I'm going to post lots of behind-the-scenes clips〜📹
+      I really, really love these flowers in my hair!🌼🌸
+      I hope it reaches more and more people!🌟
+      
+      #neki
+    image:
+    - 1
+    - 3
+    - 4
+    video:
+    - 5
+    - 6
+    - 7
+    - 8
+    part-of:
+      song: flick
+    reference:
+    - postximage:
+        post: 2065393132288766154
+        image: HKnAGupbQAAnOKp
+
 - postinstagramimage:
     post: DZe40o7mUI4
     id: 1
@@ -815,6 +888,35 @@
     part-of:
       postinstagram: DZzpdcrmVz2
 
+- postinstagramimage:
+    post: DaVRRD_k0-b
+    id: 1
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaVRRD_k0-b
+
+- postinstagramimage:
+    post: DaVRRD_k0-b
+    id: 3
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaVRRD_k0-b
+
+- postinstagramimage:
+    post: DaVRRD_k0-b
+    id: 4
+    label: Behind the scenes
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaVRRD_k0-b
+
 - postinstagramvideo:
     post: DZgr7VlHfBs
     id: 3
@@ -844,6 +946,46 @@
     - song: flick
     part-of:
       postinstagram: DZr6xGkmq-N
+
+- postinstagramvideo:
+    post: DaVRRD_k0-b
+    id: 5
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaVRRD_k0-b
+
+- postinstagramvideo:
+    post: DaVRRD_k0-b
+    id: 6
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaVRRD_k0-b
+
+- postinstagramvideo:
+    post: DaVRRD_k0-b
+    id: 7
+    label: Behind the scenes
+    info: Natsu, Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaVRRD_k0-b
+
+- postinstagramvideo:
+    post: DaVRRD_k0-b
+    id: 8
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaVRRD_k0-b
 
 - postx:
     id: 2064648780197347398
@@ -1537,6 +1679,14 @@
     part-of:
       song: flick
 
+- update:
+    song: flick
+    date: 2026-07-04
+    text:
+    - More pictures and videos added
+    part-of:
+      song: flick
+
 - webimage:
     domain: neki.bitfan.id
     page: 379562
@@ -1724,6 +1874,15 @@
     id: VHxF_p6WqXg
     label: Music Video
     published-date: 2026-06-13
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: YN_mxJtd-vA
+    label: Behind the scenes
+    published-date: 2026-07-04
     context:
     - song: flick
     part-of:

@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fmfujiawesome
+    date: 2026-07-04
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmfujiawesome
+
+- webimage:
+    domain: fmfuji.jp
+    page: aw
+    id: flyer
+    label: Flyer
+    published-date: 2026-07-03
+    url: 'https://www.fmfuji.jp/aw/img/title_img.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmfuji.jp
+        id: aw
+
+- webpage:
+    domain: fmfuji.jp
+    id: aw
+    label: Show page
+    published-date: 2026-07-03
+    url: 'https://www.fmfuji.jp/aw/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: fmfujiawesome
+

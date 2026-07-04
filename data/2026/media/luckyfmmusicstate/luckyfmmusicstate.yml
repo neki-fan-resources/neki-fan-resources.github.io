@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: luckyfmmusicstate
+  cover-image:
+    webimage:
+      domain: lucky-ibaraki.com
+      page: ims
+      id: flyer
+  radio: LuckyFM
+  show: MUSIC STATE
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-06
+  host: 水間有紀 (Yuki Mizuma)
+  webpage: 'https://lucky-ibaraki.com/ims/'
+  part-of:
+    group:
+      id: media
+      group: 2026

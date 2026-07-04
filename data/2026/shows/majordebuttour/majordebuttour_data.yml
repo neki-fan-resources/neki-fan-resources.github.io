@@ -172,6 +172,52 @@
     part-of:
       tour: majordebuttour
 
+- postx:
+    id: 2072878514353967384
+    account: nekiband_jp
+    label: 3rd lottery
+    published-date: 2026-07-03
+    text: |-
+      🎸⚡️東名阪ツアー⚡️🥁
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      ／
+      オフィシャル3次先行(抽選)
+      チケット受付スタート🔥
+      ＼
+      
+      受付期間: 
+      7/3(金) 12:00 - 7/12(日) 23:59
+      
+      各地でお待ちしております🎪
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      🎸⚡️Tokyo-Nagoya-Osaka Tour⚡️🥁
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      ／
+      Official 3rd Advance (Lottery)
+      Ticket Applications Start🔥
+      ＼
+      
+      Application Period: 
+      7/3(Fri) 12:00 - 7/12(Sun) 23:59
+      
+      We are looking forward to seeing you at each location Circus tent
+      
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HMRYBZabwAAGN_I
+    part-of:
+      tour: majordebuttour
+
 - postximage:
     post: 2064221900256231452
     id: HKWW3tUbUAAQK21
@@ -194,6 +240,17 @@
     part-of:
       postx: 2068979275265691868
 
+- postximage:
+    post: 2072878514353967384
+    id: HMRYBZabwAAGN_I
+    index: 1
+    label: Poster
+    local-copy: true
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2072878514353967384
+
 - update:
     tour: majordebuttour
     date: 2026-04-27
@@ -209,7 +266,6 @@
     label: Poster
     published-date: 2026-04-26
     url: 'https://bitfan-id.s3.ap-northeast-1.amazonaws.com/store/39c6faa9229e00d0221820ea367399b4.jpg'
-    local-copy: true
     part-of:
       webpage:
         domain: neki.bitfan.id

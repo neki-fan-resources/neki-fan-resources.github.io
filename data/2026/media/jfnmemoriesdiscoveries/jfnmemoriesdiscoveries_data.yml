@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: jfnmemoriesdiscoveries
+    date: 2026-07-04
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: jfnmemoriesdiscoveries
+
+- webimage:
+    domain: jfn.co.jp
+    page: 893
+    id: flyer
+    label: Flyer
+    published-date: 2026-07-03
+    url: 'https://program-static.cf.radiko.jp/acw23umv4n.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: jfn.co.jp
+        id: 893
+
+- webpage:
+    domain: jfn.co.jp
+    id: 893
+    label: Show page
+    published-date: 2026-07-03
+    url: 'https://jfn.co.jp/program/893/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: jfnmemoriesdiscoveries
+

@@ -42,9 +42,63 @@
         year: 2026
         id: berrytenlivehouse
 
+- postx:
+    id: 2072991025791119464
+    account: nekiband_jp
+    label: Lineup
+    published-date: 2026-07-03
+    text: |-
+      💥LIVE INFO💥
+      
+      8/19(水)出演
+      「RADIO BERRY ベリテンライブ 2026」
+      @ HEAVEN'S ROCK宇都宮VJ-2
+      
+      w/ クレイジーウォウウォ!! / ライティライト
+      
+      🎫: プレイガイド先行受付中
+      7/1(水) 19:00 - 7/8(水) 23:59
+      https://berry.co.jp/berryten-2026/live-001.php
+      
+      #NEKI
+      #ベリテン
+    translation: |-
+      💥LIVE INFO💥
+      
+      Performing on 8/19(Wed)
+      「RADIO BERRY Beryten Live 2026」
+      @ HEAVEN'S ROCK Utsunomiya VJ-2
+      
+      w/ Crazy Wow Wow!! / Lighty Light
+      
+      🎫: Play Guide Advance Applications Open
+      7/1(Wed) 19:00 - 7/8(Wed) 23:59
+      https://berry.co.jp/berryten-2026/live-001.php
+      
+      #NEKI
+      #Beryten
+    image:
+    - HMS9qZ5bIAA_wJq
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
 - postximage:
     post: 2065011164602335358
     id: HKc7RhYbYAAs0Np
+    index: 1
+    label: Lineup
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2065011164602335358
+
+- postximage:
+    post: 2072991025791119464
+    id: HMS9qZ5bIAA_wJq
     index: 1
     label: Lineup
     local-copy: true
@@ -53,7 +107,7 @@
         year: 2026
         id: berrytenlivehouse
     part-of:
-      postx: 2065011164602335358
+      postx: 2072991025791119464
 
 - update:
     show:

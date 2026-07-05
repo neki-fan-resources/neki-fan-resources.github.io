@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fmkyotoonefineday
+    date: 2026-07-05
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmkyotoonefineday
+
+- webimage:
+    domain: fm-kyoto.jp
+    page: one_fine_day
+    id: logo
+    label: Logo
+    published-date: 2026-07-05
+    url: 'https://ehlktlgh.user.webaccel.jp/wp-content/themes/fm-kyoto/images/programs/one_fine_day_main.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fm-kyoto.jp
+        id: one_fine_day
+
+- webpage:
+    domain: fm-kyoto.jp
+    id: one_fine_day
+    label: Show blog
+    published-date: 2026-07-05
+    url: 'https://fm-kyoto.jp/blog/one_fine_day/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: fmkyotoonefineday
+

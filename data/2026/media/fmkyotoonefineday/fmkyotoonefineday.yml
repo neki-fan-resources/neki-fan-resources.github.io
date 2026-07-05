@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmkyotoonefineday
+  cover-image:
+    webimage:
+      domain: fm-kyoto.jp
+      page: one_fine_day
+      id: logo
+  radio: α-STATION
+  show: ONE FINE DAY
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-06
+  host: 川岸 ゆか (Yuka Kawagishi)
+  webpage: 'https://fm-kyoto.jp/blog/one_fine_day/'
+  part-of:
+    group:
+      id: media
+      group: 2026

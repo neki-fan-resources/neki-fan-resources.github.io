@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmosakaidobuddy
+  cover-image:
+    webimage:
+      domain: fmosaka.net
+      page: 16783751
+      id: banner
+  radio: FM大阪
+  show: iDoBuddy
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-06
+  host: 谷口キヨコ (Kiyoko Taniguchi)
+  webpage: 'https://www.fmosaka.net/_sites/16783751'
+  part-of:
+    group:
+      id: media
+      group: 2026

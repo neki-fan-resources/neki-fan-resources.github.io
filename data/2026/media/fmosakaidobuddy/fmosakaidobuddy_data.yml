@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fmosakaidobuddy
+    date: 2026-07-05
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmosakaidobuddy
+
+- webimage:
+    domain: fmosaka.net
+    page: 16783751
+    id: banner
+    label: Banner
+    published-date: 2026-07-05
+    url: 'https://d1uzk9o9cg136f.cloudfront.net/f/portal/16777268/rc/2026/03/30/febcd6d6bbd3149a8a8a99b43bc696c798efcfc1.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmosaka.net
+        id: 16783751
+
+- webpage:
+    domain: fmosaka.net
+    id: 16783751
+    label: Show page
+    published-date: 2026-07-05
+    url: 'https://www.fmosaka.net/_sites/16783751'
+    image:
+    - banner
+    part-of:
+      media:
+        year: 2026
+        id: fmosakaidobuddy
+

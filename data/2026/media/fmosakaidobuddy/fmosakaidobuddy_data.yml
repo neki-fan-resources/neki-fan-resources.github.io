@@ -1,3 +1,70 @@
+- display:
+    media:
+      year: 2026
+      id: fmosakaidobuddy
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2074003458785730627
+                    image: HMhVbK1bIAA-m-T
+    part-of:
+      media:
+        year: 2026
+        id: fmosakaidobuddy
+
+- postx:
+    id: 2074003458785730627
+    account: iDoBuddy
+    label: Thank you
+    published-date: 2026-07-06
+    text: |-
+      【7/6 iDoBuddy】
+      NEK!のVo/Gt Hikaさん、Gt Natsuさん、ありがとうございました✨
+      Major 1st Digital Single「FLiCK」は好評配信中🎶
+      これからの活動への意気込みをたっぷりお話ししていただきました💞
+      
+      聴き逃した！もう一度聴きたい方は #radiko で
+      https://radiko.jp/share/?sid=FMO&t=20260706140000
+      
+      #ido851 #FM大阪 #NEKI
+    translation: |-
+      【7/6 iDoBuddy】
+      Thank you very much to NEK!'s Vo/Gt Hika-san and Gt Natsu-san✨
+      Major 1st Digital Single "FLiCK" is now available to stream🎶
+      They talked plenty about their enthusiasm for their upcoming activities💞
+      
+      If you missed it or want to listen to it again, check it out on #radiko 
+      https://radiko.jp/share/?sid=FMO&t=20260706140000
+      
+      #ido851 #FMOsaka #NEKI
+    image:
+    - HMhVbK1bIAA-m-T
+    part-of:
+      media:
+        year: 2026
+        id: fmosakaidobuddy
+
+- postximage:
+    post: 2074003458785730627
+    id: HMhVbK1bIAA-m-T
+    index: 1
+    label: At the studio
+    info: Hika, 谷口キヨコ (Kiyoko Taniguchi), Natsu
+    context:
+    - media:
+        year: 2026
+        id: fmosakaidobuddy
+    part-of:
+      postx: 2074003458785730627
+
 - update:
     media:
       year: 2026
@@ -10,6 +77,18 @@
         year: 2026
         id: fmosakaidobuddy
 
+- update:
+    media:
+      year: 2026
+      id: fmosakaidobuddy
+    date: 2026-07-06
+    text:
+    - Added photos from the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmosakaidobuddy
+
 - webimage:
     domain: fmosaka.net
     page: 16783751
@@ -17,6 +96,18 @@
     label: Banner
     published-date: 2026-07-05
     url: 'https://d1uzk9o9cg136f.cloudfront.net/f/portal/16777268/rc/2026/03/30/febcd6d6bbd3149a8a8a99b43bc696c798efcfc1.jpg'
+    part-of:
+      webpage:
+        domain: fmosaka.net
+        id: 16783751
+
+- webimage:
+    domain: fmosaka.net
+    page: 16783751
+    id: radiko
+    label: Banner
+    published-date: 2026-07-05
+    url: 'https://program-static.cf.radiko.jp/zyibhv4fa4.jpg'
     local-copy: true
     part-of:
       webpage:
@@ -31,6 +122,7 @@
     url: 'https://www.fmosaka.net/_sites/16783751'
     image:
     - banner
+    - radiko
     part-of:
       media:
         year: 2026

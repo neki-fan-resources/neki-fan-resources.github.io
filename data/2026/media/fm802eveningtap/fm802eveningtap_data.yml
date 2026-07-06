@@ -1,11 +1,227 @@
-update:
-  media:
-    year: 2026
-    id: fm802eveningtap
-  date: 2026-07-05
-  text:
-  - Added the appearance
-  part-of:
+- display:
     media:
       year: 2026
       id: fm802eveningtap
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2074089090233016444
+                    image: HMilBuCaEAAQOBr
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2074068008511934554
+                    image: HMiR2tzb0AA5dsP
+    part-of:
+      media:
+        year: 2026
+        id: fm802eveningtap
+
+- postx:
+    id: 2073980257892495669
+    account: FM802EVENINGTAP
+    label: Today
+    published-date: 2026-07-06
+    text: |-
+      18時からの #FM802 は
+        📻EVENING TAP⚡️
+      　   DJ浅井博章🎧
+      
+      📍7/6(月)
+      18時台
+      【 #TETSUYA 】スタジオ生出演✨
+      19時台
+      【 NEK! 】スタジオ生出演🎸#NEKI
+      20時台
+      【DJ:#くるり】#802キュリオシティ🔎
+      マンスリーゲスト: #丹羽優太
+      
+      ✍️#802TAP
+      📩https://funky802.com/et/
+      📻http://radiko.jp/#!/live/802
+      
+      @TETSUYA_STAFF
+       
+      @nekiband_jp
+       
+      @qrlinfo
+       
+      @yutaniwa28
+    translation: |-
+      Starting at 18:00, #FM802 is
+        📻EVENING TAP⚡️
+          DJ Hiroaki Asai🎧
+      
+      📍7/6 (Mon)
+      18:00 hour
+      【 #TETSUYA 】Studio live appearance ✨
+      19:00 hour
+      【 NEK! 】Studio live appearance 🎸#NEKI
+      20:00 hour
+      【DJ: #Quruli】#802Curiosity🔎
+      Monthly Guest: #YutaNiwa
+      
+      ✍️#802TAP
+      📩https://funky802.com/et/
+      📻http://radiko.jp/#!/live/802
+      
+      @TETSUYA_STAFF
+       
+      @nekiband_jp
+       
+      @qrlinfo
+       
+      @yutaniwa28
+    part-of:
+      media:
+        year: 2026
+        id: fm802eveningtap
+    reference:
+    - postximage:
+        post: 2064362227986272527
+        image: HKYNUmibYAAEm62
+
+- postx:
+    id: 2074068008511934554
+    account: nekiband_jp
+    label: Coming up
+    published-date: 2026-07-06
+    text: |-
+      📻このあと生出演📻
+      
+      #FM802 「EVENING TAP」
+      19時台にHikaとNatsuが生出演させていただきます⚡️
+      
+      ぜひおききください🫶
+      
+      🔗https://radiko.jp/r_seasons/10010001
+      
+      #802TAP
+      #NEKI
+    translation: |-
+      📻Live appearance coming up next📻
+      
+      #FM802 "EVENING TAP"
+      Hika and Natsu will be appearing live in the 19:00 hour⚡️
+      
+      Please tune in🫶
+      
+      🔗https://radiko.jp/r_seasons/10010001
+      
+      #802TAP
+      #NEKI
+    image:
+    - HMiR2tzb0AA5dsP
+    part-of:
+      postx: 2073980257892495669
+
+- postx:
+    id: 2074089090233016444
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-07-06
+    text: |-
+      #FM802  「EVENING TAP」
+      ありがとうございました❤︎
+      
+      📻radiko
+      https://radiko.jp/r_seasons/10010001
+      
+      Major 1st Single "FLiCK"
+      ▼Streaming & Download🎧
+      http://lnk.to/NEKI_FLiCKTW
+      
+      ▼Music Video 公開中🎥
+      http://youtu.be/yP7PhWiGtb0
+      
+      9月に東名阪ツアー開催！
+      ▼大阪＆東京公演オフィシャル先行(抽選)受付中🔥
+      http://l-tike.com/nekiband/
+      
+      #NEKI
+      #FLiCK
+    translation: |-
+      #FM802 "EVENING TAP"
+      Thank you very much ❤︎
+      
+      📻radiko
+      https://radiko.jp/r_seasons/10010001
+      
+      Major 1st Single "FLiCK"
+      ▼Streaming & Download🎧
+      http://lnk.to/NEKI_FLiCKTW
+      
+      ▼Music Video Now Available🎥
+      http://youtu.be/yP7PhWiGtb0
+      
+      Tokyo, Nagoya, and Osaka Tour in September!
+      ▼Official Pre-sale (Lottery) Open for Osaka & Tokyo Shows🔥
+      http://l-tike.com/nekiband/
+      
+      #NEKI
+      #FLiCK
+    image:
+    - HMilBuCaEAAQOBr
+    part-of:
+      media:
+        year: 2026
+        id: fm802eveningtap
+
+- postximage:
+    post: 2074068008511934554
+    id: HMiR2tzb0AA5dsP
+    index: 1
+    label: At the station
+    info: Hika, Natsu
+    context:
+    - media:
+        year: 2026
+        id: fm802eveningtap
+    part-of:
+      postx: 2074068008511934554
+
+- postximage:
+    post: 2074089090233016444
+    id: HMilBuCaEAAQOBr
+    index: 1
+    label: At the studio
+    info: Natsu, Asai Hiroaki, Hika
+    context:
+    - media:
+        year: 2026
+        id: fm802eveningtap
+    part-of:
+      postx: 2074089090233016444
+
+- update:
+    media:
+      year: 2026
+      id: fm802eveningtap
+    date: 2026-07-05
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fm802eveningtap
+
+- update:
+    media:
+      year: 2026
+      id: fm802eveningtap
+    date: 2026-07-06
+    text:
+    - Added photos from the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fm802eveningtap
+

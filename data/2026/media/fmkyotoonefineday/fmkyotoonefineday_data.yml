@@ -1,3 +1,82 @@
+- display:
+    media:
+      year: 2026
+      id: fmkyotoonefineday
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2073951853960995145
+                    image: HMgoNa_a0AAllOG
+    part-of:
+      media:
+        year: 2026
+        id: fmkyotoonefineday
+
+- postx:
+    id: 2073951853960995145
+    account: onefineday_2nd
+    label: Photo
+    published-date: 2026-07-06
+    text: |-
+      NEK! 
+      @nekiband_jp
+       
+      HikaさんとNatsuさん 生出演✨⚡️
+      
+      🎶New Release🎵
+      Major 1st Single『#FLiCK』
+      
+      🎤🎸9月からは「メジャーデビューツアー」開催！！
+      名古屋は既にSOLD OUT!!
+      大阪公演⇨9/4（金）at梅田 BANGBOO
+      
+      📡https://radiko.jp/share/?t=20260706100500&sid=ALPHA-STATION #radikoタイムフリー 
+      
+      #わんふぁ #NEKI
+    translation: |-
+      NEK! 
+      @nekiband_jp
+       
+      Hika-san and Natsu-san live appearance ✨⚡️
+      
+      🎶New Release🎵
+      Major 1st Single "#FLiCK"
+      
+      🎤🎸"Major Debut Tour" starts in September!!
+      Nagoya is already SOLD OUT!!
+      Osaka show ⇨ 9/4 (Fri) at Umeda BANGBOO
+      
+      📡https://radiko.jp/share/?t=20260706100500&sid=ALPHA-STATION #radiko Time Free 
+      
+      #ONEFINE #NEKI
+    image:
+    - HMgoNa_a0AAllOG
+    part-of:
+      media:
+        year: 2026
+        id: fmkyotoonefineday
+
+- postximage:
+    post: 2073951853960995145
+    id: HMgoNa_a0AAllOG
+    index: 1
+    label: At the studio
+    info: Natsu, 川岸 ゆか (Yuka Kawagishi), Hika
+    context:
+    - media:
+        year: 2026
+        id: fmkyotoonefineday
+    part-of:
+      postx: 2073951853960995145
+
 - update:
     media:
       year: 2026
@@ -5,6 +84,18 @@
     date: 2026-07-05
     text:
     - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmkyotoonefineday
+
+- update:
+    media:
+      year: 2026
+      id: fmkyotoonefineday
+    date: 2026-07-06
+    text:
+    - Added photos from the appearance
     part-of:
       media:
         year: 2026

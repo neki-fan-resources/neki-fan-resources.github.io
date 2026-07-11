@@ -1,3 +1,63 @@
+- display:
+    show:
+      year: 2026
+      id: gravityvol8
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2075573924382011638
+                    image: HM3re31bcAIrJ6S
+                - postximage:
+                    post: 2075594405176889562
+                    image: HM3-GrObcAEg2S_
+                - postximage:
+                    post: 2075589753085587654
+                    image: HM354G0aMAAv6cn
+                - postximage:
+                    post: 2075573924382011638
+                    image: HM3re1jakAAJqiK
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2075619843706151239
+                    image: HM4VPzXa0AA_eXD
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2075573924382011638
+                    image: HM3re1ubcAAdk2V
+                - postximage:
+                    post: 2075592223845147036
+                    image: HM38H4QbkAM-1Nn
+                - postximage:
+                    post: 2075589753085587654
+                    image: HM354G8bMAAyIbj
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2075594405176889562
+                    image: HM3-GrPakAADZ7r
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2075581372929102162
+                    image: HM3yMP_aUAAHFgB
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
 - postx:
     id: 2053414805562884127
     account: nekiband_jp
@@ -102,6 +162,300 @@
         year: 2026
         id: gravityvol8
 
+- postx:
+    id: 2075464963335008567
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-07-10
+    text: |-
+      ⚡️🎮 本日出演🎮⚡️
+      
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      w/ 
+      板歯目
+      COPES
+      
+      ご来場お待ちしております🎪
+      
+      🎟️: チケット受付は本日18:30まで！
+      https://livepocket.jp/e/gravity0710
+      
+      #NEKI
+    translation: |-
+      ⚡️🎮 Performing Today🎮⚡️
+      
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      w/ 
+      Hanshime
+      COPES
+      
+      We look forward to seeing you there🎪
+      
+      🎟️: Ticket applications open until 18:30 today!
+      https://livepocket.jp/e/gravity0710
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+    reference:
+    - postximage:
+        post: 2065992258885984621
+        image: HKvgyYIaYAAD7f8
+
+- postx:
+    id: 2075479104284188800
+    account: nekiband_jp
+    label: New merch
+    published-date: 2026-07-10
+    text: |-
+      📦NEW MERCH📦
+      
+      本日から新ロゴグッズ登場！
+      
+      #NEKI_LOGOT
+      #LOGO_TOWEL
+      #RUBBERBAND
+      #NEKI 
+      #NewInNEKI
+    translation: |-
+      📦NEW MERCH📦
+      
+      New logo merchandise is available starting today!
+      
+      #NEKI_LOGOT
+      #LOGO_TOWEL
+      #RUBBERBAND
+      #NEKI 
+      #NewInNEKI
+    image:
+    - HM2VL4iaUAAqM3A
+    - HM2VL4magAA5ABD
+    part-of:
+      postx: 2075464963335008567
+
+- postx:
+    id: 2075573924382011638
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-07-10
+    text: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      渋谷でスリーマン！！！
+      ありがとうございました🎮💥
+      
+      ▼7/18(土)フリーライブ開催
+      https://neki10010010.ponycanyon.co.jp
+      
+      ▼9月に東名阪ツアー
+      "NEK! MAJOR DEBUT TOUR"開催
+      https://l-tike.com/nekiband/
+      
+      📸 
+      @___sunny56__
+       
+      
+      #NEKI
+    translation: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      Three-man show in Shibuya!!!
+      Thank you so much🎮💥
+      
+      ▼7/18 (Sat) Free Live Event
+      https://neki10010010.ponycanyon.co.jp
+      
+      ▼Tokyo, Nagoya, Osaka Tour in September
+      "NEK! MAJOR DEBUT TOUR" to be held
+      https://l-tike.com/nekiband/
+      
+      📸 
+      @___sunny56__
+       
+      
+      #NEKI
+    image:
+    - HM3re1jakAAJqiK
+    - HM3re1ubcAAdk2V
+    - HM3re31bcAIrJ6S
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- postx:
+    id: 2075581372929102162
+    account: SHIBUYATHEGAME
+    label: Thank you
+    published-date: 2026-07-10
+    text: |-
+      \THANK YOU FOR COMING!!!/
+      07.10(FRI)
+      『GrAViTy』vol.8
+      -🔥THE 3MAN SHOW🔥-
+      
+      ご出演いただいた
+      NEK!(
+      @nekiband_jp
+      )
+      板歯目(
+      @banshimoku
+      )
+      COPES(
+      @COPES_band
+      )
+      
+      そしてたくさんの方のご来場ありがとうございました！
+      
+      📸
+      @Zig_zag__219249
+      
+      
+      #GrAViTy
+      #SHIBUYATHEGAME
+    image:
+    - HM3yMP_aUAAHFgB
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- postx:
+    id: 2075589753085587654
+    account: coco_102
+    label: Thank you
+    published-date: 2026-07-10
+    text: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      ありがとうございました！！
+      1ヶ月ぶりのライブめちゃめちゃアツかった😳
+      COPESさんも板歯目さんもそれぞれめちゃくちゃかっこよくてたくさん刺激をいただきました❤️‍🔥
+      今年の夏もみんなと一緒に楽しんでいくぞー！！
+      
+      📷 
+      @___sunny56__
+    translation: |-
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      Thank you so much!!
+      Our first live show in about a month was insanely hot😳
+      COPES and Hanshime were both so incredibly cool and gave us a lot of inspiration❤️‍🔥
+      Let's have fun together with everyone this summer tooー!!
+      
+      📷 
+      @___sunny56__
+    image:
+    - HM354G0aMAAv6cn
+    - HM354G8bMAAyIbj
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- postx:
+    id: 2075592223845147036
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-07-10
+    text: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      
+      ありがとうございましたー！！
+      ライブ1ヶ月ぶりかな、東京は2ヶ月ぶり！
+      やっぱりライブって楽しいね！！
+      みんなから夏を生きるパワーいっぱいもらえただよありがとう🥹
+    image:
+    - HM38H4QbkAM-1Nn
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+    reference:
+    - postximage:
+        post: 2075573924382011638
+        image: HM3re31bcAIrJ6S
+
+- postx:
+    id: 2075594405176889562
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-07-10
+    text: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      ありがとうございました！
+      
+      約1ヶ月ぶりのライブということで、熱量がすごかったー！！🔥最高に楽しかった！！夏がはじまったねー！
+      
+      次はフリーライブ！💪🏻💪🏻
+      一緒に夏を全力でたのしもーねっっ！
+    translation: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      @ SHIBUYA THE GAME
+      Thank you so much!
+      
+      Since it was our first live show in about a month, the energy was incredibleー!!🔥 It was the absolute most fun!! Summer has officially startedー!
+      
+      Next up is the free live!💪🏻💪🏻
+      Let's enjoy summer together with everything we've got!!
+    image:
+    - HM3-GrObcAEg2S_
+    - HM3-GrPakAADZ7r
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- postx:
+    id: 2075619843706151239
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-07-10
+    text: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      
+      @ SHIBUYA THE GAME
+      
+      すっごい楽しかったぁ！
+      皆さんと素敵な時間を一緒に過ごせて最高でした！
+      次はフリーライブでお待ちしております！
+    translation: |-
+      SHIBUYA THE GAME PRESENTS
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      
+      @ SHIBUYA THE GAME
+      
+      That was so much fun!
+      It was amazing to spend such a wonderful time together with everyone!
+      We look forward to seeing you next at the free live show!
+    image:
+    - HM4VPzXa0AA_eXD
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+    reference:
+    - postximage:
+        post: 2075589753085587654
+        image: HM354G8bMAAyIbj
+
 - postximage:
     post: 2053414805562884127
     id: HH8x4YyacAAIMCI
@@ -127,6 +481,145 @@
     part-of:
       postx: 2065992258885984621
 
+- postximage:
+    post: 2075479104284188800
+    id: HM2VL4iaUAAqM3A
+    index: 2
+    label: Merch lottery
+    part-of:
+      postx: 2075479104284188800
+
+- postximage:
+    post: 2075479104284188800
+    id: HM2VL4magAA5ABD
+    index: 1
+    label: Merch
+    part-of:
+      postx: 2075479104284188800
+
+- postximage:
+    post: 2075573924382011638
+    id: HM3re1jakAAJqiK
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075573924382011638
+
+- postximage:
+    post: 2075573924382011638
+    id: HM3re1ubcAAdk2V
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075573924382011638
+
+- postximage:
+    post: 2075573924382011638
+    id: HM3re31bcAIrJ6S
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075573924382011638
+
+- postximage:
+    post: 2075581372929102162
+    id: HM3yMP_aUAAHFgB
+    index: 1
+    label: Bands
+    info: COPES, NEK!, 板歯目
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075581372929102162
+
+- postximage:
+    post: 2075589753085587654
+    id: HM354G0aMAAv6cn
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075589753085587654
+
+- postximage:
+    post: 2075589753085587654
+    id: HM354G8bMAAyIbj
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075589753085587654
+
+- postximage:
+    post: 2075592223845147036
+    id: HM38H4QbkAM-1Nn
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075592223845147036
+
+- postximage:
+    post: 2075594405176889562
+    id: HM3-GrObcAEg2S_
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075594405176889562
+
+- postximage:
+    post: 2075594405176889562
+    id: HM3-GrPakAADZ7r
+    index: 2
+    label: Backstage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075594405176889562
+
+- postximage:
+    post: 2075619843706151239
+    id: HM4VPzXa0AA_eXD
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2075619843706151239
+
 - update:
     show:
       year: 2026
@@ -134,6 +627,18 @@
     date: 2026-05-10
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- update:
+    show:
+      year: 2026
+      id: gravityvol8
+    date: 2026-07-11
+    text:
+    - Added the first images from the show
     part-of:
       show:
         year: 2026

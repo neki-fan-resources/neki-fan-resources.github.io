@@ -25,12 +25,38 @@
         id: artist
         group: kanade
 
+- postinstagram:
+    id: DamUJQzRJvQ
+    account: nekiband_jp
+    label: New visual
+    published-date: 2026-07-10
+    text: |-
+      ⟡ Kanade
+      New Visual
+      @cure_bass_baka 
+      
+      #NEKI
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: kanade
+
 - postinstagramimage:
     post: DZcAKRexxAK
     id: 1
     label: Kanade
     part-of:
       postinstagram: DZcAKRexxAK
+
+- postinstagramimage:
+    post: DamUJQzRJvQ
+    id: 1
+    label: Artist Visual
+    info: Kanade
+    part-of:
+      postinstagram: DamUJQzRJvQ
 
 - postx:
     id: 1978027375901188409

@@ -6,10 +6,11 @@ song:
       page: 394303
       id: cover
   fullname: FLiCK
+  album: binary
   release-date: 2026-06-10
   description:
   - Announced on April 25, during the final show of the "NEK! 2nd ANNIVERSARY LIVE TOUR 2026".
   lyrics:
   - main
   part-of:
-    group: album_studio
+    album: binary

@@ -55,6 +55,24 @@
         id: artist
         group: cocoro
 
+- postinstagram:
+    id: DamVgpiRB0W
+    account: nekiband_jp
+    label: New visual
+    published-date: 2026-07-10
+    text: |-
+      ⟡ Cocoro
+      New Visual
+      @cocoro_drum 
+      
+      #NEKI
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: cocoro
+
 - postinstagramimage:
     post: DT7vHYbkoOh
     id: 2
@@ -78,6 +96,14 @@
     label: Cocoro
     part-of:
       postinstagram: DZbuhMOGvae
+
+- postinstagramimage:
+    post: DamVgpiRB0W
+    id: 1
+    label: Artist Visual
+    info: Cocoro
+    part-of:
+      postinstagram: DamVgpiRB0W
 
 - postx:
     id: 1917457790253293837

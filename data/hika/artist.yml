@@ -145,6 +145,24 @@
         id: artist
         group: hika
 
+- postinstagram:
+    id: DamUeTJxqev
+    account: nekiband_jp
+    label: New visual
+    published-date: 2026-07-10
+    text: |-
+      ⟡ Hika
+      New Visual
+      @46_hikaa 
+      
+      #NEKI
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: hika
+
 - postinstagramimage:
     post: C_JH_6YyOLY
     id: 1
@@ -184,6 +202,14 @@
     - song: scrapbook
     part-of:
       postinstagram: DWyfCaxGAr7
+
+- postinstagramimage:
+    post: DamUeTJxqev
+    id: 1
+    label: Artist Visual
+    info: Hika
+    part-of:
+      postinstagram: DamUeTJxqev
 
 - postx:
     id: 1953710557393195152

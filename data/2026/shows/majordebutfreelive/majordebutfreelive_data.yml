@@ -44,9 +44,82 @@
         year: 2026
         id: majordebutfreelive
 
+- postx:
+    id: 2075870550371565628
+    account: nekiband_jp
+    label: Autograph session announcement
+    published-date: 2026-07-11
+    text: |-
+      🖤⚡️ 追加情報 ⚡️🖤
+      
+      7/18(土)
+      「NEK! MAJOR DEBUT FREE LIVE」
+      @ Shibuya eggman
+      
+      メジャーデビュー記念フリーライブに加えて
+      サイン会の実施が決定✍️
+      
+      Major 1st EP『B!NARY』通常盤・初回盤を
+      イベント当日にご予約いただいた方を対象としたサイン会を実施。
+      
+      フリーライブ優先入場券(抽選)の受付は
+      【明日7/12(日) 23時59分】まで⚠️
+      
+      ▼フリーライブお申し込み
+      https://livepocket.jp/e/neki20260718
+      
+      ▼特設サイト
+      https://neki10010010.ponycanyon.co.jp
+      ※サイン会への参加方法および注意事項はこちらの特設サイトを良くご確認ください。
+      
+      #NEKI
+    translation: |-
+      🖤⚡️ Additional Information ⚡️🖤
+      
+      7/18 (Sat)
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      In addition to the major debut commemorative free live,
+      an autograph session has been confirmed✍️
+      
+      An autograph session will be held for those who
+      pre-order the Regular or Limited Editions of the Major 1st EP "B!NARY" on the day of the event.
+      
+      Applications for the Free Live Priority Entry Tickets (Lottery) open until
+      【Tomorrow, 7/12 (Sun) 23:59】⚠️
+      
+      ▼Apply for the free live show
+      https://livepocket.jp/e/neki20260718
+      
+      ▼Special site
+      https://neki10010010.ponycanyon.co.jp
+      ※Please carefully check this special site for participation methods and precautions regarding the autograph session.
+      
+      #NEKI
+    image:
+    - HM75QdBakAAPudy
+    - HM75QdDbQAAx4m1
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
 - postximage:
     post: 2071881718332878850
     id: HMDNYRJWUAABXut
+    index: 1
+    label: Flyer
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2071881718332878850
+
+- postximage:
+    post: 2075870550371565628
+    id: HM75QdBakAAPudy
     index: 1
     label: Flyer
     local-copy: true
@@ -55,7 +128,20 @@
         year: 2026
         id: majordebutfreelive
     part-of:
-      postx: 2071881718332878850
+      postx: 2075870550371565628
+
+- postximage:
+    post: 2075870550371565628
+    id: HM75QdDbQAAx4m1
+    index: 2
+    label: Pre-order bonuses
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    - album: binary
+    part-of:
+      postx: 2075870550371565628
 
 - update:
     show:

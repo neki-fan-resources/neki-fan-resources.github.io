@@ -1,0 +1,114 @@
+- postx:
+    id: 2075867719455678491
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-07-11
+    text: |-
+      ◤◢◤◢  情報解禁  ◤◢◤◢
+      
+      2026/9/2(水)
+      NEK! Major 1st EP『B!NARY』
+      リリース決定🎊
+      
+      メジャーデビュー曲「FLiCK」を含む全5曲を収録🎧
+      
+      さらに初回盤A&Bには
+      昨年開催した「NEK! 1ST ZEPP ONE MAN 【#拡散中 #ネキ界隈】」のライブ映像を収録🎥
+      
+      店舗別特典など盛りだくさんの内容です！
+      ぜひチェックお願いします✔️
+      
+      ▼特設サイトはこちら
+      https://neki10010010.ponycanyon.co.jp
+      
+      ▼CDのご予約はこちら
+      https://lnk.to/NEKI_BINARY_CDPR
+      
+      #NEKI
+    translation: |-
+      ◤◢◤◢ Information Released ◤◢◤◢
+      
+      2026/9/2 (Wed)
+      NEK! Major 1st EP『B!NARY』
+      Release Confirmed🎊
+      
+      Includes a total of 5 songs, including the major debut song "FLiCK"🎧
+      
+      Furthermore, Limited Editions A & B include
+      Live footage from last year's "NEK! 1ST ZEPP ONE MAN 【#拡散中 #ネキ界隈】"🎥
+      
+      It is packed with contents such as store-specific bonuses!
+      Please be sure to check it out✔️
+      
+      ▼Click here for the special site
+      https://neki10010010.ponycanyon.co.jp
+      
+      ▼Click here to pre-order the CD
+      https://lnk.to/NEKI_BINARY_CDPR
+      
+      #NEKI
+    image:
+    - HM72rarbgAAlomF
+    - HM72raubkAIHjAi
+    part-of:
+      album: binary
+
+- postximage:
+    post: 2075867719455678491
+    id: HM72rarbgAAlomF
+    index: 2
+    label: Cover
+    info: Limited edition A & B
+    local-copy: true
+    context:
+    - album: binary
+    part-of:
+      postx: 2075867719455678491
+
+- postximage:
+    post: 2075867719455678491
+    id: HM72raubkAIHjAi
+    index: 1
+    label: Cover
+    info: CD only
+    local-copy: true
+    context:
+    - album: binary
+    part-of:
+      postx: 2075867719455678491
+
+- update:
+    album: binary
+    date: 2026-07-11
+    text:
+    - Added the EP
+    part-of:
+      album: binary
+
+- webpage:
+    domain: barks.jp
+    id: 1077689
+    label: Article about the announcement
+    published-date: 2026-07-11
+    url: 'https://barks.jp/news/1077689/'
+    part-of:
+      album: binary
+
+- webpage:
+    domain: natalie.mu
+    id: 680388
+    label: Article about the announcement
+    published-date: 2026-07-11
+    url: 'https://natalie.mu/music/news/680388'
+    part-of:
+      album: binary
+
+- webpage:
+    domain: skream.jp
+    id: 2026.07.nek_major_1st_ep
+    label: Article about the announcement
+    published-date: 2026-07-11
+    url: 'https://skream.jp/news/2026/07/nek_major_1st_ep.php'
+    part-of:
+      album: binary
+

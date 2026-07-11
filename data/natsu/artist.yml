@@ -22,12 +22,38 @@
         id: artist
         group: natsu
 
+- postinstagram:
+    id: DamVaxQRkWT
+    account: nekiband_jp
+    label: New visual
+    published-date: 2026-07-10
+    text: |-
+      ⟡ Natsu
+      New Visual
+      @natsu08_guitar 
+      
+      #NEKI
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: natsu
+
 - postinstagramimage:
     post: DZcTVhfklau
     id: 1
     label: Natsu
     part-of:
       postinstagram: DZcTVhfklau
+
+- postinstagramimage:
+    post: DamVaxQRkWT
+    id: 1
+    label: Artist Visual
+    info: Natsu
+    part-of:
+      postinstagram: DamVaxQRkWT
 
 - postx:
     id: 2064651258410176556

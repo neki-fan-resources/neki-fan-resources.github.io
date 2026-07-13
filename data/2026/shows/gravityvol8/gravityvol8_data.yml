@@ -45,6 +45,22 @@
                 - postximage:
                     post: 2075594405176889562
                     image: HM3-GrPakAADZ7r
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2076173645131771960
+                    image: HNAM7McbkAAm78F
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Darf7MVmhdD
+                    image: 1
+                - postinstagramimage:
+                    post: Darf7MVmhdD
+                    image: 2
+                - postinstagramimage:
+                    post: Darf7MVmhdD
+                    image: 3
         - basicsection:
             label: At the event
             subsections:
@@ -57,6 +73,70 @@
       show:
         year: 2026
         id: gravityvol8
+
+- postinstagram:
+    id: Darf7MVmhdD
+    account: cocoro_drum
+    label: Pre-live routine
+    published-date: 2026-07-13
+    text: |-
+      ライブ前のルーティーン🐈‍⬛🩵
+      ⁡
+      
+      Photo by @___sunny56__ 
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      Pre-live routine🐈‍⬛🩵
+      ⁡
+      
+      Photo by @___sunny56__ 
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- postinstagramimage:
+    post: Darf7MVmhdD
+    id: 1
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Darf7MVmhdD
+
+- postinstagramimage:
+    post: Darf7MVmhdD
+    id: 2
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Darf7MVmhdD
+
+- postinstagramimage:
+    post: Darf7MVmhdD
+    id: 3
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Darf7MVmhdD
 
 - postx:
     id: 2053414805562884127
@@ -456,6 +536,22 @@
         post: 2075589753085587654
         image: HM354G8bMAAyIbj
 
+- postx:
+    id: 2076173645131771960
+    account: cure_bass_baka
+    label: Speaking about 'heart'
+    published-date: 2026-07-12
+    text: |-
+      かなでんは『心』についてを満面の笑みでここちゃんに話しています。
+    translation: |-
+      Kanaden is talking to Koko-chan about "Heart" with a full smile.
+    image:
+    - HNAM7McbkAAm78F
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
 - postximage:
     post: 2053414805562884127
     id: HH8x4YyacAAIMCI
@@ -619,6 +715,19 @@
         id: gravityvol8
     part-of:
       postx: 2075619843706151239
+
+- postximage:
+    post: 2076173645131771960
+    id: HNAM7McbkAAm78F
+    index: 1
+    label: Backstage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postx: 2076173645131771960
 
 - update:
     show:

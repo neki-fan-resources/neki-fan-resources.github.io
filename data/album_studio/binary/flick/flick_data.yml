@@ -139,6 +139,11 @@
                     video: 3
             - multimediasubsection:
                 multimedia:
+                - postinstagramvideo:
+                    post: DaskLuzmVH9
+                    video: 3
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2066788217165361169
                     image: HK607R_bYAAHPd2
@@ -209,17 +214,30 @@
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
+                    post: DaskLuzmVH9
+                    image: 2
+                - postinstagramimage:
+                    post: DaskLuzmVH9
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DaskLuzmVH9
+                    image: 1
+                - postinstagramimage:
                     post: DZgzHWByohA
                     image: 1
                 - postinstagramimage:
                     post: DZzpdcrmVz2
                     image: 1
                 - postinstagramimage:
-                    post: DZzpdcrmVz2
-                    image: 3
-                - postinstagramimage:
                     post: DZe40o7mUI4
                     image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DZzpdcrmVz2
+                    image: 3
     - basicblock:
         id: media
         label: In the medias
@@ -680,6 +698,30 @@
         post: 2065393132288766154
         image: HKnAGupbQAAnOKp
 
+- postinstagram:
+    id: DaskLuzmVH9
+    account: 46_hikaa
+    label: MV scene Hika likes
+    published-date: 2026-07-13
+    text: |-
+      全力で好きなことに夢中になって、
+      気づけば夜になってる、このシーンが好き。
+      
+      Photo by @tskmtmr
+    translation: |-
+      I love this scene where I get completely absorbed in doing what I love,
+      and before I know it, night has fallen.
+      
+      Photo by @tskmtmr_
+    image:
+    - 1
+    - 2
+    - 4
+    video:
+    - 3
+    part-of:
+      song: flick
+
 - postinstagramimage:
     post: DZe40o7mUI4
     id: 1
@@ -917,6 +959,36 @@
     part-of:
       postinstagram: DaVRRD_k0-b
 
+- postinstagramimage:
+    post: DaskLuzmVH9
+    id: 1
+    label: Behind the scenes
+    info: set
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaskLuzmVH9
+
+- postinstagramimage:
+    post: DaskLuzmVH9
+    id: 2
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaskLuzmVH9
+
+- postinstagramimage:
+    post: DaskLuzmVH9
+    id: 4
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaskLuzmVH9
+
 - postinstagramvideo:
     post: DZgr7VlHfBs
     id: 3
@@ -986,6 +1058,16 @@
     - song: flick
     part-of:
       postinstagram: DaVRRD_k0-b
+
+- postinstagramvideo:
+    post: DaskLuzmVH9
+    id: 3
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: flick
+    part-of:
+      postinstagram: DaskLuzmVH9
 
 - postx:
     id: 2064648780197347398

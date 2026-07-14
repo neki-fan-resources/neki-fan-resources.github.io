@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: hbcchosunabi
+    date: 2026-07-13
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: hbcchosunabi
+
+- webimage:
+    domain: hbc.co.jp
+    page: carnavi
+    id: flyer
+    label: Flyer
+    published-date: 2026-07-12
+    url: 'https://www.hbc.co.jp/radio/carnavi/assets/header.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: hbc.co.jp
+        id: carnavi
+
+- webpage:
+    domain: hbc.co.jp
+    id: carnavi
+    label: Show page
+    published-date: 2026-07-12
+    url: 'https://www.hbc.co.jp/radio/carnavi/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: hbcchosunabi
+

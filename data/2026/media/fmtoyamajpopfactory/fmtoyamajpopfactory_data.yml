@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fmtoyamajpopfactory
+    date: 2026-07-13
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmtoyamajpopfactory
+
+- webimage:
+    domain: fmtoyama.co.jp
+    page: index
+    id: logo
+    label: Logo
+    published-date: 2026-07-12
+    url: 'https://program-static.cf.radiko.jp/yt1fdnjqqg.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmtoyama.co.jp
+        id: index
+
+- webpage:
+    domain: fmtoyama.co.jp
+    id: index
+    label: Radio page
+    published-date: 2026-07-12
+    url: 'https://www.fmtoyama.co.jp/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: fmtoyamajpopfactory
+

@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: kbcfuzz2
+  cover-image:
+    webimage:
+      domain: kbc.co.jp
+      page: fuzz
+      id: flyer
+  radio: KBC
+  show: FUZZ
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-20
+  host: コウズマユウタ (Yuta Kozuma), 坂口カンナ (Sakaguchi Kanna)
+  program: fmtoyamajpopfactory
+  part-of:
+    group:
+      id: media
+      group: 2026

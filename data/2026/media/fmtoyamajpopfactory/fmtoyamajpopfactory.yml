@@ -1,0 +1,19 @@
+mediaaudio:
+  year: 2026
+  id: fmtoyamajpopfactory
+  cover-image:
+    webimage:
+      domain: fmtoyama.co.jp
+      page: index
+      id: logo
+  radio: FMとやま
+  show: J・POPファクトリー
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-18
+  part-of:
+    group:
+      id: media
+      group: 2026

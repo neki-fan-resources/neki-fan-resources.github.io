@@ -1,0 +1,20 @@
+mediaaudio:
+  year: 2026
+  id: hbcchosunabi
+  cover-image:
+    webimage:
+      domain: hbc.co.jp
+      page: carnavi
+      id: flyer
+  radio: HBCラジオ
+  show: ちょすナビ
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-28
+  program: 'https://www.hbc.co.jp/radio/carnavi/'
+  part-of:
+    group:
+      id: media
+      group: 2026

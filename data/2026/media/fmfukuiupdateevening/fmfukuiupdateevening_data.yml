@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fmfukuiupdateevening
+    date: 2026-07-15
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmfukuiupdateevening
+
+- webimage:
+    domain: fmfukui.jp
+    page: index
+    id: flyer
+    label: Flyer
+    published-date: 2026-07-15
+    url: 'https://x.com/updateevening2/header_photo'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmfukui.jp
+        id: index
+
+- webpage:
+    domain: fmfukui.jp
+    id: index
+    label: Main page
+    published-date: 2026-07-15
+    url: 'https://www.fmfukui.jp/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: fmfukuiupdateevening
+

@@ -105,6 +105,58 @@
         year: 2026
         id: majordebutfreelive
 
+- postx:
+    id: 2076607784922300770
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-07-13
+    text: |-
+      【INFORMATION💡】
+      
+      7/18(土)開催
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      本日当選者様の発表となりましたので
+      お申し込みをご確認ください✔️
+      
+      フリーライブ優先入場券はSOLD OUT💥
+      たくさんのお申し込みありがとうございました！
+      
+      ※サイン会にはどなたでもご参加が可能です✍️
+      (当日会場にてMajor 1st EP『B!NARY』のCDご予約購入が必要です。)
+      
+      ▼イベント詳細・特設サイトはこちら
+      https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    translation: |-
+      【INFORMATION💡】
+      
+      To be held on 7/18 (Sat)
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      The winners have been announced today,
+      so please check your application✔️
+      
+      The priority entry tickets for the free live are SOLD OUT💥
+      Thank you so much for all your applications!
+      
+      ※ Anyone can participate in the autograph session✍️
+      (Pre-order purchase of the Major 1st EP "B!NARY" CD is required at the venue on the day.)
+      
+      ▼ Click here for event details and the special website
+      https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    image:
+    - HNGXgV_b0AAyzfI
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
 - postximage:
     post: 2071881718332878850
     id: HMDNYRJWUAABXut
@@ -122,7 +174,6 @@
     id: HM75QdBakAAPudy
     index: 1
     label: Flyer
-    local-copy: true
     context:
     - show:
         year: 2026
@@ -142,6 +193,19 @@
     - album: binary
     part-of:
       postx: 2075870550371565628
+
+- postximage:
+    post: 2076607784922300770
+    id: HNGXgV_b0AAyzfI
+    index: Flyer
+    label: Flyer
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2076607784922300770
 
 - update:
     show:

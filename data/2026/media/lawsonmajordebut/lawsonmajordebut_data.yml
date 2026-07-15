@@ -1,0 +1,150 @@
+- postx:
+    id: 2077221613473497375
+    account: le_gekkan
+    label: Announcement
+    published-date: 2026-07-15
+    text: |-
+      ＼7月15日号インタビュー／
+      6月10日にシングル「FLiCK」でメジャーデビューを果たしたNEK!。
+      「画面越しじゃわからないこともあるから、会いに来てほしいんです」
+      自らの道を進む新曲「FLiCK」、9月の東名阪ワンマンツアー、初の全国ツアーを経たライブへの思いを語りました。
+      @nekiband_jp
+    translation: |-
+      ＼July 15 Issue Interview／
+      NEK!, who made their major debut on June 10 with the single "FLiCK."
+      "There are things you can't understand through a screen, so I want you to come see us."
+      They shared their thoughts on their path-forging new song "FLiCK," the September one-man tour in Tokyo, Nagoya, and Osaka, and performing live after their first nationwide tour.
+      @nekiband_jp
+    image:
+    - HMwZ_u-aMAAPZ6K
+    part-of:
+      media:
+        year: 2026
+        id: lawsonmajordebut
+
+- postx:
+    id: 2077238461351010574
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-07-15
+    text: |-
+      【MAGAZINE📘】
+      
+      「月刊ローチケ」
+      
+      NEK!のインタビュー記事が掲載📚
+      
+      本日7/15(水)より全国のローソン、HMV、ミニストップ等で配布開始！
+      
+      お見逃しなく🙌
+      
+      ▼月刊ローチケ詳細✔️
+      https://l-tike.com/loppi/
+      
+      ▼インタビューはWEBからもお読みいただけます✔️
+      https://l-tike.com/concert/feature/neki/26071500/
+      
+      #NEKI
+    translation: |-
+      【MAGAZINE📘】
+      
+      "Monthly Lawson Ticket"
+      
+      Featuring an interview article with NEK!📚
+      
+      Distribution starts today, 7/15 (Wed), at Lawsons, HMVs, Ministops, etc. nationwide!
+      
+      Don't miss it🙌
+      
+      ▼ Monthly Lawson Ticket details✔️
+      https://l-tike.com/loppi/
+      
+      ▼ You can also read the interview online✔️
+      https://l-tike.com/concert/feature/neki/26071500/
+      
+      #NEKI
+    image:
+    - HNPUblHawAEYKF6
+    part-of:
+      media:
+        year: 2026
+        id: lawsonmajordebut
+
+- postx:
+    id: 2077255314379038868
+    account: 46_hikaa
+    label: Got it
+    published-date: 2026-07-15
+    text: |-
+      早速ゲットしましたー！！！！！！
+    translation: |-
+      I got it right awayー!!!!!!
+    image:
+    - HNPksnFaAAAqusX
+    part-of:
+      postx: 2077238461351010574
+
+- postximage:
+    post: 2077221613473497375
+    id: HMwZ_u-aMAAPZ6K
+    index: 1
+    label: Band
+    context:
+    - media:
+        year: 2026
+        id: lawsonmajordebut
+    part-of:
+      postx: 2077221613473497375
+
+- postximage:
+    post: 2077238461351010574
+    id: HNPUblHawAEYKF6
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: lawsonmajordebut
+    part-of:
+      postx: 2077238461351010574
+
+- postximage:
+    post: 2077255314379038868
+    id: HNPksnFaAAAqusX
+    index: 1
+    label: Magazine cover
+    context:
+    - media:
+        year: 2026
+        id: lawsonmajordebut
+    part-of:
+      postx: 2077255314379038868
+
+- update:
+    media:
+      year: 2026
+      id: lawsonmajordebut
+    date: 2026-07-15
+    text:
+    - Added the article
+    part-of:
+      media:
+        year: 2026
+        id: lawsonmajordebut
+
+- webpage:
+    domain: l-tike.com
+    id: 26071500
+    label: Article
+    published-date: 2026-07-15
+    url: 'https://l-tike.com/concert/feature/neki/26071500/'
+    part-of:
+      media:
+        year: 2026
+        id: lawsonmajordebut
+    reference:
+    - postximage:
+        post: 2077221613473497375
+        image: HMwZ_u-aMAAPZ6K
+

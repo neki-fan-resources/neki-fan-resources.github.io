@@ -1,0 +1,20 @@
+mediaaudio:
+  year: 2026
+  id: fmfukuiupdateevening
+  cover-image:
+    webimage:
+      domain: fmfukui.jp
+      page: index
+      id: flyer
+  radio: FM福井
+  show: UpdateEvening2.0
+  designation: radio comment
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-21
+  host: MC小法師
+  part-of:
+    group:
+      id: media
+      group: 2026

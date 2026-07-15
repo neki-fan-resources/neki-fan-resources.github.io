@@ -163,6 +163,37 @@
         id: artist
         group: hika
 
+- postinstagram:
+    id: DavFVYYpDKi
+    account: 46_hikaa
+    label: Likes red
+    published-date: 2026-07-14
+    text: |-
+      やっぱ赤色すきだなぁ
+    image:
+    - 1
+    part-of:
+      group:
+        id: artist
+        group: hika
+
+- postinstagram:
+    id: DavKuPXGVgj
+    account: 46_hikaa
+    label: Delicious candy
+    published-date: 2026-07-14
+    text: |-
+      あめちゃん美味しかった
+    translation: |-
+      The candy was delicious
+    image:
+    - 1
+    - 2
+    part-of:
+      group:
+        id: artist
+        group: hika
+
 - postinstagramimage:
     post: C_JH_6YyOLY
     id: 1
@@ -210,6 +241,33 @@
     info: Hika
     part-of:
       postinstagram: DamUeTJxqev
+
+- postinstagramimage:
+    post: DavFVYYpDKi
+    id: 1
+    label: Hika
+    context:
+    - event: majordebut
+    part-of:
+      postinstagram: DavFVYYpDKi
+
+- postinstagramimage:
+    post: DavKuPXGVgj
+    id: 1
+    label: Hika
+    context:
+    - event: majordebut
+    part-of:
+      postinstagram: DavKuPXGVgj
+
+- postinstagramimage:
+    post: DavKuPXGVgj
+    id: 2
+    label: Hika, Cocoro
+    context:
+    - event: majordebut
+    part-of:
+      postinstagram: DavKuPXGVgj
 
 - postx:
     id: 1953710557393195152

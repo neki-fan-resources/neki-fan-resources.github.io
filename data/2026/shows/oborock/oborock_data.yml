@@ -1,0 +1,131 @@
+- postx:
+    id: 2077951675315429559
+    account: info_oborock
+    label: Daily lineup announcement
+    published-date: 2026-07-17
+    text: |-
+      ◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖
+      　　　　　日割り発表！！
+      ◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖
+      
+      🌊おぼろっく2026
+      ～TSURUGA MUSIC FESTIVAL～🌊
+      🗓2026年9月12日(土)-13日(日)
+      📍福井県敦賀市金ヶ崎エリア
+      
+      オフィシャルチケット受付中✨
+      🔽お申込みはコチラ！🎟️
+      https://oborock.com
+      
+      #おぼろっく
+      #福井県
+      #敦賀市
+    translation: |-
+      ◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖
+         Daily Lineup Announced!!
+      ◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖
+      
+      🌊Oborock 2026
+      ～TSURUGA MUSIC FESTIVAL～🌊
+      🗓2026/09/12 (Sat) - 13 (Sun)
+      📍Kanegasaki Area, Tsuruga City, Fukui Prefecture
+      
+      Official Tickets Now on Sale✨
+      🔽Apply here!🎟️
+      https://oborock.com
+      
+      #Oborock
+      #FukuiPrefecture
+      #TsurugaCity
+    image:
+    - HNZGEElb0AA9RTz
+    - HNZGFKiaoAA49HR
+    - HNZGT9EaMAATYhI
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- postximage:
+    post: 2077951675315429559
+    id: HNZGEElb0AA9RTz
+    index: 2
+    label: Poster
+    info: lineup Saturday
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2077951675315429559
+
+- postximage:
+    post: 2077951675315429559
+    id: HNZGFKiaoAA49HR
+    index: 3
+    label: Poster
+    info: lineup Sunday
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2077951675315429559
+
+- postximage:
+    post: 2077951675315429559
+    id: HNZGT9EaMAATYhI
+    index: 1
+    label: Poster
+    info: daily lineup
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2077951675315429559
+
+- update:
+    show:
+      year: 2026
+      id: oborock
+    date: 2026-07-17
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- webimage:
+    domain: natalie.mu
+    page: 681273
+    id: poster
+    label: Poster
+    info: Final lineup reveal
+    published-date: 2026-07-17
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0717/oborock2026_lineup0717.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/681273/2921047'
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 681273
+
+- webpage:
+    domain: natalie.mu
+    id: 681273
+    label: Article on the lineup announcement
+    published-date: 2026-07-17
+    url: 'https://natalie.mu/music/news/681273'
+    image:
+    - poster
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+

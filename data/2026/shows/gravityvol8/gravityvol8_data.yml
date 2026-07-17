@@ -75,6 +75,75 @@
         id: gravityvol8
 
 - postinstagram:
+    id: Da0PfMSmiU_
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-07-16
+    text: |-
+      2026.07.10
+      ⁡
+      SHIBUYA THE GAME PRESENTS 
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      ⁡
+      渋谷でCOPESさんと板歯目さんとのスリーマンでした！
+      お越しくださった皆様ありがとうございました🙂‍↕️🤍
+      ⁡
+      キャラクターが全く異なる3組なので当日を迎えるまで全然想像がつかないスリーマンでしたが、それぞれのファンの皆さんが最初から最後まで全力でノってくれて、とても楽しい時間となりました！
+      外の気温に負けないくらいアツいライブだった！！
+      ⁡
+      NEK!は1ヶ月ぶりのライブだったので、叩きながらライブでしか感じられない特有の感覚を一気に取り戻しつつ、汗だくになりながら全力で盛り上がってくれているみんなを見て、今年の夏もネキ民と一緒なら楽しめる！と確信しました🌞
+      ⁡
+      COPESさんも板歯目さんもそれぞれフロアの雰囲気をガラッと変えるような世界観があって、たくさんの刺激をいただきました！またどこかでご一緒できるように頑張ります🔥
+      ⁡
+      
+      photo by @___sunny56__ 
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.07.10
+      ⁡
+      SHIBUYA THE GAME PRESENTS 
+      『GrAViTy』vol.8 -THE 3MAN SHOW-
+      ⁡
+      It was a 3-man show in Shibuya with COPES and Hanshime!
+      Thank you so much to everyone who came🙂‍↕️🤍
+      ⁡
+      Since we are three acts with completely different characters, I couldn't imagine how this 3-man show would turn out until the actual day, but everyone in each fanbase rocked out with all their might from start to finish, making it a super fun time!
+      The live was so hot, it easily rivaled the outdoor temperature!!
+      ⁡
+      Since this was NEK!'s first live in a month, while drumming I instantly got back that unique feeling you can only experience at a live show, and seeing everyone sweating and rocking out with all their might made me absolutely certain that I can enjoy this summer as long as I'm with the Nekimin!🌞
+      ⁡
+      Both COPES and Hanshime had their own worldviews that completely changed the atmosphere of the floor, and they gave us so much inspiration! We'll do our best so we can perform together again somewhere🔥
+      ⁡
+      
+      photo by @___sunny56__ 
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 2
+    - 4
+    - 5
+    - 6
+    - 7
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+    reference:
+    - postximage:
+        post: 2075573924382011638
+        image: HM3re1jakAAJqiK
+    - postximage:
+        post: 2075589753085587654
+        image: HM354G8bMAAyIbj
+    - postximage:
+        post: 2075581372929102162
+        image: HM3yMP_aUAAHFgB
+
+- postinstagram:
     id: Darf7MVmhdD
     account: cocoro_drum
     label: Pre-live routine
@@ -101,6 +170,75 @@
       show:
         year: 2026
         id: gravityvol8
+
+- postinstagramimage:
+    post: Da0PfMSmiU_
+    id: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Da0PfMSmiU_
+
+- postinstagramimage:
+    post: Da0PfMSmiU_
+    id: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Da0PfMSmiU_
+
+- postinstagramimage:
+    post: Da0PfMSmiU_
+    id: 4
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Da0PfMSmiU_
+
+- postinstagramimage:
+    post: Da0PfMSmiU_
+    id: 5
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Da0PfMSmiU_
+
+- postinstagramimage:
+    post: Da0PfMSmiU_
+    id: 6
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Da0PfMSmiU_
+
+- postinstagramimage:
+    post: Da0PfMSmiU_
+    id: 7
+    label: Drum set
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Da0PfMSmiU_
 
 - postinstagramimage:
     post: Darf7MVmhdD

@@ -1,0 +1,19 @@
+show:
+  year: 2026
+  id: oborock
+  cover-image:
+    postximage:
+      post: 2077951675315429559
+      image: HNZGEElb0AA9RTz
+  fullname: おぼろっく 2026 ～TSURUGA MUSIC FESTIVAL～
+  shortname: おぼろっく
+  sublabel: Tsuruga, Japan
+  date: 2026-09-12
+  description:
+  - NEK! first festival appearance.
+  venue: きらめきみなと館, Tsuruga, Japan
+  event-page: oborock.com
+  part-of:
+    group:
+      id: shows
+      group: 2026

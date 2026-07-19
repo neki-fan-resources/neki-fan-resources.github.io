@@ -1,0 +1,157 @@
+- postx:
+    id: 2078434617183412469
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-07-18
+    text: |-
+      🎧RELEASE🎧
+      
+      7/29(水)0時より
+      NEK! Major 1st EP『B!NARY』収録
+      
+      新曲 "MAGiC VoX" 先行配信決定🎉
+      
+      ▼Pre-add / Pre-save
+      https://lnk.to/NEKI_MAGiCVoXPR
+      
+      #NEKI
+    translation: |-
+      🎧RELEASE🎧
+      
+      From 0:00 on 7/29 (Wed)
+      Track from NEK! Major 1st EP "B!NARY"
+      
+      New song "MAGiC VoX" pre-release distribution confirmed🎉
+      
+      ▼Pre-add / Pre-save
+      https://lnk.to/NEKI_MAGiCVoXPR
+      
+      #NEKI
+    image:
+    - HNgT3SrbYAAPSg5
+    part-of:
+      song: magicvox
+
+- postximage:
+    post: 2078434617183412469
+    id: HNgT3SrbYAAPSg5
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - song: magicvox
+    part-of:
+      postx: 2078434617183412469
+
+- update:
+    song: magicvox
+    date: 2026-07-19
+    text:
+    - Release date
+    - Song cover
+    part-of:
+      song: magicvox
+
+- webimage:
+    domain: natalie.mu
+    page: 681511
+    id: 1
+    label: On stage
+    published-date: 2026-07-18
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0718/NEK_live_0718_01.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/681511/2922757'
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 681511
+
+- webimage:
+    domain: natalie.mu
+    page: 681511
+    id: 2
+    label: On stage
+    info: Natsu
+    published-date: 2026-07-18
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0718/NEK_live_0718_02.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/681511/2922756'
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 681511
+
+- webimage:
+    domain: natalie.mu
+    page: 681511
+    id: 3
+    label: On stage
+    published-date: 2026-07-18
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0718/NEK_live_0718_03.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/681511/2922755'
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 681511
+
+- webimage:
+    domain: natalie.mu
+    page: 681511
+    id: 5
+    label: Bonus details
+    published-date: 2026-07-18
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0718/NEK_shop.jpg'
+    page-url: 'https://natalie.mu/music/gallery/news/681511/2922754'
+    context:
+    - album: binary
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 681511
+
+- webpage:
+    domain: natalie.mu
+    id: 681511
+    label: Article about the announcement
+    published-date: 2026-07-18
+    url: 'https://natalie.mu/music/news/681511'
+    image:
+    - 1
+    - 2
+    - 3
+    - 5
+    part-of:
+      song: magicvox
+    reference:
+    - postximage:
+        post: 2078434617183412469
+        image: HNgT3SrbYAAPSg5
+    - postximage:
+        post: 2075867719455678491
+        image: HM72rarbgAAlomF
+    - postximage:
+        post: 2075867719455678491
+        image: HM72raubkAIHjAi
+    - postximage:
+        post: 2064362227986272527
+        image: HKYNUmibYAAEm62
+
+- webpage:
+    domain: skream.jp
+    id: 2026.07.neki_magic_vox
+    label: Article about the announcement
+    published-date: 2026-07-18
+    url: 'https://skream.jp/news/2026/07/neki_magic_vox.php'
+    part-of:
+      song: magicvox
+

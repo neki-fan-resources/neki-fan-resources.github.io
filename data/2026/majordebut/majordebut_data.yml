@@ -150,6 +150,49 @@
     part-of:
       event: majordebut
 
+- postx:
+    id: 2078314313866240232
+    account: nekiband_jp
+    label: Display
+    published-date: 2026-07-18
+    text: |-
+      ℹ️NEK! MAJOUR DEBUT
+      Special Information②
+      
+      NEK!がセンター街・アドアーズ横のシャッターに出現💥
+      
+      本日渋谷にお越しの方、期間中渋谷にお出かけの際にはぜひ写真を撮ってシェアしてください！
+      
+      🗓️掲載期間: 7/18(土) - 7/24(月)
+      ※期間限定となります。
+      
+      ＊広告の掲出について、ビル側や運営会社へのお問い合わせはご遠慮ください。
+      ＊通行の妨げとならないようルールを守ってお楽しみ下さい。
+      ＊交通状況に支障をきたしてしまう場合は、展開を中止させて頂く場合がございます。
+      
+      #NEKI
+    translation: |-
+      ℹ️NEK! MAJOR DEBUT
+      Special Information②
+      
+      NEK! appears on the shutter next to Adores in Center-gai💥
+      
+      If you are in Shibuya today, or when you visit Shibuya during this period, please take a photo and share it!
+      
+      🗓️Display Period: 7/18 (Sat) - 7/24 (Mon)
+      ※This is for a limited time only.
+      
+      ＊Please refrain from contacting the building management or operating company regarding the advertisement display.
+      ＊Please follow the rules and enjoy so as not to obstruct traffic.
+      ＊If the traffic conditions are disrupted, the display may be discontinued.
+      
+      #NEKI
+    image:
+    - HNekEmbaoAAkT8K
+    - HNekEmibwAAPFzo
+    part-of:
+      event: majordebut
+
 - postximage:
     post: 2064543082360774756
     id: HKa6f5vbYAArdr-
@@ -196,6 +239,26 @@
     - event: majordebut
     part-of:
       postx: 2064705233583022409
+
+- postximage:
+    post: 2078314313866240232
+    id: HNekEmbaoAAkT8K
+    index: 1
+    label: Display
+    context:
+    - event: majordebut
+    part-of:
+      postx: 2078314313866240232
+
+- postximage:
+    post: 2078314313866240232
+    id: HNekEmibwAAPFzo
+    index: 2
+    label: Display
+    context:
+    - event: majordebut
+    part-of:
+      postx: 2078314313866240232
 
 - update:
     event: majordebut
@@ -251,6 +314,15 @@
     id: 7ctLpWRMHGs
     label: Day vlog
     published-date: 2026-06-10
+    context:
+    - event: majordebut
+    part-of:
+      event: majordebut
+
+- youtubeshort:
+    id: XKxa87R9lJs
+    label: Display
+    published-date: 2026-07-19
     context:
     - event: majordebut
     part-of:

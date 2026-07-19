@@ -218,6 +218,54 @@
     part-of:
       tour: majordebuttour
 
+- postx:
+    id: 2078313821127512416
+    account: nekiband_jp
+    label: General ticket sales
+    published-date: 2026-07-18
+    text: |-
+      🍬🔥 東名阪ツアー 🔥🎈
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      ／
+      チケット一般発売受付
+      各プレイガイドにてスタート💥
+      ＼
+      
+      🎫一般発売:
+      7/18(土)12:00〜(先着)
+      
+      ツアー新ビジュアルも公開！
+      各地でお待ちしております✔️
+      
+      https://neki.bitfan.id/contents/410843
+      
+      #NEKI
+    translation: |-
+      🍬🔥 Tokyo/Nagoya/Osaka Tour 🔥🎈
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      ／
+      General ticket sales
+      Started at each ticket agency💥
+      ＼
+      
+      🎫 General Sales:
+      7/18 (Sat) 12:00〜 (First-come, first-served)
+      
+      New tour visual also released!
+      We'll be waiting for you at each location✔️
+      
+      https://neki.bitfan.id/contents/410843
+      
+      #NEKI
+    image:
+    - HNeUfX9bEAAmHMs
+    part-of:
+      tour: majordebuttour
+
 - postximage:
     post: 2064221900256231452
     id: HKWW3tUbUAAQK21
@@ -245,17 +293,35 @@
     id: HMRYBZabwAAGN_I
     index: 1
     label: Poster
-    local-copy: true
     context:
     - tour: majordebuttour
     part-of:
       postx: 2072878514353967384
+
+- postximage:
+    post: 2078313821127512416
+    id: HNeUfX9bEAAmHMs
+    index: 1
+    label: Poster
+    local-copy: true
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2078313821127512416
 
 - update:
     tour: majordebuttour
     date: 2026-04-27
     text:
     - Added the tour
+    part-of:
+      tour: majordebuttour
+
+- update:
+    tour: majordebuttour
+    date: 2026-07-19
+    text:
+    - Updated tour poster
     part-of:
       tour: majordebuttour
 

@@ -1,3 +1,140 @@
+- display:
+    show:
+      year: 2026
+      id: majordebutfreelive
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: UKbJ8NphAsw
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 681511
+                    id: 1
+                - postximage:
+                    post: 2078434983241470218
+                    image: HNgVmVgacAAucXy
+                - postximage:
+                    post: 2078428668758777918
+                    image: HNgP2mobEAE9sTS
+                - postximage:
+                    post: 2078381717099077644
+                    image: HNflJ-ja4AAxIMT
+                - postximage:
+                    post: 2078428668758777918
+                    image: HNgP2mnaIAAH0IT
+                - postximage:
+                    post: 2078381717099077644
+                    image: HNflJ-jaYAAhQb1
+                - webimage:
+                    domain: natalie.mu
+                    page: 681511
+                    id: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078428668758777918
+                    image: HNgP2mmagAAxH3i
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078431769179926848
+                    image: HNgSrFKb0AAEQ4B
+                - webimage:
+                    domain: natalie.mu
+                    page: 681511
+                    id: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078414038724403636
+                    image: HNgCjPKbgAA9Rqx
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078381717099077644
+                    image: HNflJ-sbcAAPrCF
+                - postximage:
+                    post: 2078431769179926848
+                    image: HNgSrFRasAEVtLj
+                - postximage:
+                    post: 2078414038724403636
+                    image: HNgCjPGbcAAtcQu
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078431769179926848
+                    image: HNgSrFcb0AAKu-G
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078434983241470218
+                    image: HNgVmVkaMAAW5o0
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Da-LlnHRdpP
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078291145587823099
+                    image: HNeSmR2akAAhR4V
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078314062727815638
+                    image: HNek4JSaYAAbwqV
+                - postxvideo:
+                    post: 2078314062727815638
+                    video: 2
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- postinstagram:
+    id: Da-LlnHRdpP
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-07-19
+    text: |-
+      ベースも髪型もたくさん褒めてくれてありがと！
+       #NEKI  #bassist
+    translation: |-
+      Thank you for complimenting my bass and hairstyle so much!
+       #NEKI  #bassist
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- postinstagramimage:
+    post: Da-LlnHRdpP
+    id: 1
+    label: At the venue
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postinstagram: Da-LlnHRdpP
+
 - postx:
     id: 2071881718332878850
     account: nekiband_jp
@@ -157,6 +294,270 @@
         year: 2026
         id: majordebutfreelive
 
+- postx:
+    id: 2078291145587823099
+    account: shibuya_eggman
+    label: Today
+    published-date: 2026-07-18
+    text: |-
+      🎊本日🎊
+      朝公演 
+      「NEK! MAJOR DEBUT FREE LIVE」 
+      
+       OPEN 11:00 
+      START 11:30 
+      
+      CD予約購入者限定サイン会  
+      STRAT 12:30  
+      
+      THANK YOU SOLD OUT!!!!  
+      
+      ご来場お待ちしております！
+    translation: |-
+      🎊TODAY🎊
+      Morning Performance 
+      「NEK! MAJOR DEBUT FREE LIVE」 
+      
+       OPEN 11:00 
+      START 11:30 
+      
+      Autograph session exclusive to CD pre-order purchasers  
+      START 12:30  
+      
+      THANK YOU SOLD OUT!!!!  
+      
+      We look forward to seeing you there!
+    image:
+    - HNeSmR2akAAhR4V
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- postx:
+    id: 2078314062727815638
+    account: nekiband_jp
+    label: Ad Man
+    published-date: 2026-07-18
+    text: |-
+      ℹ️NEK! MAJOUR DEBUT
+      Special Information①
+      
+      「NEK! MAJOR DEBUT FREE LIVE」@ Shibuya eggman の開催と
+      Major 1st EP「B!NARY」のリリースを記念して
+      渋谷某所で歩く広告「アドマン」が本日登場🤳
+      
+      NEK!にまつわるアイテムを本日15時まで配布中🎧
+      ぜひ探してゲット&シェアしてください！
+      
+      #NEKI
+    translation: |-
+      ℹ️NEK! MAJOR DEBUT
+      Special Information①
+      
+      To commemorate holding the "NEK! MAJOR DEBUT FREE LIVE" @ Shibuya eggman
+      and the release of the Major 1st EP "B!NARY",
+      the walking advertisement "Ad Man" appears somewhere in Shibuya today🤳
+      
+      Items related to NEK! are being distributed until 15:00 today🎧
+      Please search for him, get yours & share!
+      
+      #NEKI
+    image:
+    - HNek4JSaYAAbwqV
+    video:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- postx:
+    id: 2078381717099077644
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-07-18
+    text: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      ご来場いただきありがとうございました🕺
+      
+      これからのNEK!もよろしくお願いします💪✨
+      
+      ▼ Major 1st EP『B!NARY』
+      CDご予約はこちら💿
+      https://lnk.to/NEKI_BINARY_CDPR
+      
+      ▼9月開催の東名阪ツアー
+      チケット一般発売中🎫
+      https://neki.bitfan.id/contents/410843
+      
+      📸 
+      @___sunny56__
+       
+       
+      #NEKI
+    translation: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      Thank you for coming🕺
+      
+      Please continue to support NEK! from now on💪✨
+      
+      ▼ Major 1st EP "B!NARY"
+      Pre-order the CD here💿
+      https://lnk.to/NEKI_BINARY_CDPR
+      
+      ▼ Tokyo/Nagoya/Osaka Tour in September
+      General ticket sales now open🎫
+      https://neki.bitfan.id/contents/410843
+      
+      📸 
+      @___sunny56__
+       
+       
+      #NEKI
+    image:
+    - HNflJ-ja4AAxIMT
+    - HNflJ-jaYAAhQb1
+    - HNflJ-sbcAAPrCF
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- postx:
+    id: 2078414038724403636
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-07-18
+    text: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      フリーライブ＆サイン会ありがと！！！！
+      ライブは『FLiCK』初披露だったし、サイン会もたくさんの方にお越しいただき大感謝でした🥹🙏🏻
+      いっぱいお話できたね！！また話そー！！
+    translation: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      Thank you for the free live & autograph session!!!!
+      It was the first live performance of "FLiCK," and I'm so grateful to many people who came to the autograph session🥹🙏🏻
+      We got to talk a lot!! Let's talk again!!
+    image:
+    - HNgCjPGbcAAtcQu
+    - HNgCjPKbgAA9Rqx
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- postx:
+    id: 2078428668758777918
+    account: coco_102
+    label: Thank you
+    published-date: 2026-07-18
+    text: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      お越しくださった皆様ありがとうございました！！
+      サイン会もたくさん並んでくださって、皆さんといっぱいお話できて楽しかったです🌞
+      これからもNEK!の応援をよろしくお願いします！！
+      B!NARYも楽しみにしててねー！
+      
+      photo by 
+      @___sunny56__
+    translation: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      Thank you to everyone who came!!
+      So many people lined up for the autograph session, and I had a lot of fun talking with you all🌞
+      Please continue to support NEK! from now on!!
+      Look forward to B!NARY too!
+      
+      photo by 
+      @___sunny56__
+    image:
+    - HNgP2mmagAAxH3i
+    - HNgP2mnaIAAH0IT
+    - HNgP2mobEAE9sTS
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+    reference:
+    - postximage:
+        post: 2078414038724403636
+        image: HNgCjPKbgAA9Rqx
+
+- postx:
+    id: 2078431769179926848
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-07-18
+    text: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      
+      ありがとうございました！
+      楽しすぎてあっという間でした…！！
+      
+      サイン会ではみなさんのNEK!愛をたくさん受け取ることができて、とっても幸せな時間を過ごさせていただきました🫶🏻
+      ビッグラブです！
+      改めまして、これからのNEK!もよろしくお願いしますっ！
+      
+      alt:
+      みんなに会うときはいつもこうなる
+    translation: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      
+      Thank you so much!
+      It was so much fun, it felt like it was over in the blink of an eye...!!
+      
+      During the autograph session, I was able to receive so much of everyone's NEK! love, and I spent a truly happy time🫶🏻
+      Big love!
+      Thank you again for your continued support for NEK! from now on!
+      
+      alt:
+      It always ends up like this whenever I meet everyone
+    image:
+    - HNgSrFKb0AAEQ4B
+    - HNgSrFRasAEVtLj
+    - HNgSrFcb0AAKu-G
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+    reference:
+    - postximage:
+        post: 2078414038724403636
+        image: HNgCjPKbgAA9Rqx
+
+- postx:
+    id: 2078434983241470218
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-07-18
+    text: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      ライブもサイン会も最高の時間でした！
+      また、NEK!のライブ遊びにきてねっ
+    translation: |-
+      "NEK! MAJOR DEBUT FREE LIVE"
+      @ Shibuya eggman
+      
+      Both the live and the autograph session were the best time!
+      Please come hang out at NEK!'s live again!
+    image:
+    - HNgVmVgacAAucXy
+    - HNgVmVkaMAAW5o0
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
 - postximage:
     post: 2071881718332878850
     id: HMDNYRJWUAABXut
@@ -207,6 +608,202 @@
     part-of:
       postx: 2076607784922300770
 
+- postximage:
+    post: 2078291145587823099
+    id: HNeSmR2akAAhR4V
+    index: 1
+    label: Sidewalk board
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078291145587823099
+
+- postximage:
+    post: 2078314062727815638
+    id: HNek4JSaYAAbwqV
+    index: 1
+    label: Ad Man
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078314062727815638
+
+- postximage:
+    post: 2078381717099077644
+    id: HNflJ-ja4AAxIMT
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078381717099077644
+
+- postximage:
+    post: 2078381717099077644
+    id: HNflJ-jaYAAhQb1
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078381717099077644
+
+- postximage:
+    post: 2078381717099077644
+    id: HNflJ-sbcAAPrCF
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078381717099077644
+
+- postximage:
+    post: 2078414038724403636
+    id: HNgCjPGbcAAtcQu
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078414038724403636
+
+- postximage:
+    post: 2078414038724403636
+    id: HNgCjPKbgAA9Rqx
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078414038724403636
+
+- postximage:
+    post: 2078428668758777918
+    id: HNgP2mmagAAxH3i
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078428668758777918
+
+- postximage:
+    post: 2078428668758777918
+    id: HNgP2mnaIAAH0IT
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078428668758777918
+
+- postximage:
+    post: 2078428668758777918
+    id: HNgP2mobEAE9sTS
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078428668758777918
+
+- postximage:
+    post: 2078431769179926848
+    id: HNgSrFKb0AAEQ4B
+    index: 4
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078431769179926848
+
+- postximage:
+    post: 2078431769179926848
+    id: HNgSrFRasAEVtLj
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078431769179926848
+
+- postximage:
+    post: 2078431769179926848
+    id: HNgSrFcb0AAKu-G
+    index: 2
+    label: Backstage
+    info: Natsu, Hika
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078431769179926848
+
+- postximage:
+    post: 2078434983241470218
+    id: HNgVmVgacAAucXy
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078434983241470218
+
+- postximage:
+    post: 2078434983241470218
+    id: HNgVmVkaMAAW5o0
+    index: 2
+    label: Backstage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078434983241470218
+
+- postxvideo:
+    post: 2078314062727815638
+    id: 2
+    label: Making goodies
+    cover: 2078311071149142016/img/0CmsgBF6XyL7UUs1.jpg
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2078314062727815638
+
 - update:
     show:
       year: 2026
@@ -214,6 +811,56 @@
     date: 2026-06-30
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- update:
+    show:
+      year: 2026
+      id: majordebutfreelive
+    date: 2026-07-19
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+
+- webpage:
+    domain: barks.jp
+    id: 1078794
+    label: Event report
+    published-date: 2026-07-18
+    url: 'https://barks.jp/news/1078794/'
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
+    reference:
+    - webimage:
+        domain: natalie.mu
+        page: 681511
+        id: 1
+    - webimage:
+        domain: natalie.mu
+        page: 681511
+        id: 2
+    - webimage:
+        domain: natalie.mu
+        page: 681511
+        id: 3
+
+- youtubeshort:
+    id: UKbJ8NphAsw
+    label: On stage
+    published-date: 2026-07-18
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    - song: flick
     part-of:
       show:
         year: 2026

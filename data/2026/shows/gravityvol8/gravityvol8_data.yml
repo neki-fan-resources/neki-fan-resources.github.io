@@ -11,6 +11,7 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                label: Images
                 multimedia:
                 - postximage:
                     post: 2075573924382011638
@@ -24,11 +25,27 @@
                 - postximage:
                     post: 2075573924382011638
                     image: HM3re1jakAAJqiK
+                - postinstagramimage:
+                    post: Da0PfMSmiU_
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Da5Q5zUHdG9
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postximage:
                     post: 2075619843706151239
                     image: HM4VPzXa0AA_eXD
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Da0PfMSmiU_
+                    image: 4
+                - postinstagramimage:
+                    post: Da0PfMSmiU_
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -40,6 +57,9 @@
                 - postximage:
                     post: 2075589753085587654
                     image: HM354G8bMAAyIbj
+                - postinstagramimage:
+                    post: Da0PfMSmiU_
+                    image: 2
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -56,6 +76,9 @@
                     post: Darf7MVmhdD
                     image: 1
                 - postinstagramimage:
+                    post: Da0PfMSmiU_
+                    image: 6
+                - postinstagramimage:
                     post: Darf7MVmhdD
                     image: 2
                 - postinstagramimage:
@@ -69,6 +92,11 @@
                 - postximage:
                     post: 2075581372929102162
                     image: HM3yMP_aUAAHFgB
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Da0PfMSmiU_
+                    image: 7
     part-of:
       show:
         year: 2026
@@ -142,6 +170,30 @@
     - postximage:
         post: 2075581372929102162
         image: HM3yMP_aUAAHFgB
+
+- postinstagram:
+    id: Da5Q5zUHdG9
+    account: cure_bass_baka
+    label: Smiles are important!
+    published-date: 2026-07-17
+    text: |-
+      笑顔はだいじ！
+      photo by（ @___sunny56__ ）
+       #NEKI  #bassist
+    translation: |-
+      Smiles are important!
+      photo by ( @___sunny56__ )
+       #NEKI  #bassist
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+    reference:
+    - postximage:
+        post: 2076173645131771960
+        image: HNAM7McbkAAm78F
 
 - postinstagram:
     id: Darf7MVmhdD
@@ -239,6 +291,18 @@
         id: gravityvol8
     part-of:
       postinstagram: Da0PfMSmiU_
+
+- postinstagramimage:
+    post: Da5Q5zUHdG9
+    id: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    part-of:
+      postinstagram: Da5Q5zUHdG9
 
 - postinstagramimage:
     post: Darf7MVmhdD
@@ -886,6 +950,18 @@
     date: 2026-07-11
     text:
     - Added the first images from the show
+    part-of:
+      show:
+        year: 2026
+        id: gravityvol8
+
+- update:
+    show:
+      year: 2026
+      id: gravityvol8
+    date: 2026-07-19
+    text:
+    - More pictures from the show
     part-of:
       show:
         year: 2026

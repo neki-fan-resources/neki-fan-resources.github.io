@@ -12,8 +12,15 @@
                 - youtubevideo: yP7PhWiGtb0
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: av5zesQquis
                 - youtubeshort: ChRV1YguxLw
                 - youtubeshort: bbWxE2HUeVw
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: UKbJ8NphAsw
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo
@@ -27,6 +34,7 @@
                 - youtubevideo: yP7PhWiGtb0
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: av5zesQquis
                 - youtubeshort: ChRV1YguxLw
                 - youtubeshort: bbWxE2HUeVw
             - multimediasubsection:
@@ -35,6 +43,11 @@
                 - youtubeshort: gRtA2nwM7s0
                 - youtubeshort: uNRR30VezUA
                 - youtubeshort: eIcyBU-H0oc
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2078143821515509993
+                    video: 1
             - multimediasubsection:
                 label: Images
                 multimedia:
@@ -1659,6 +1672,22 @@
     part-of:
       song: flick
 
+- postx:
+    id: 2078143821515509993
+    account: coco_102
+    label: Favorite solo cut
+    published-date: 2026-07-17
+    text: |-
+      私のお気に入りソロカットはここ📞❤️
+    translation: |-
+      My favorite solo cut is here📞❤️
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2078143821515509993
+        video: 1
+
 - postximage:
     post: 2064648886728483169
     id: HKcX7azaUAAKYpA
@@ -1859,6 +1888,17 @@
     - song: flick
     part-of:
       postx: 2064648780197347398
+
+- postxvideo:
+    post: 2078143821515509993
+    id: 1
+    label: Solo cut
+    info: Cocoro
+    cover: 2078143808722886656/img/t7RSws3uWWbqPJO0.jpg
+    context:
+    - song: flick
+    part-of:
+      song: flick
 
 - update:
     song: flick
@@ -2106,6 +2146,15 @@
     id: _UJDoezA41U
     label: Off shot
     published-date: 2026-06-17
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- youtubeshort:
+    id: av5zesQquis
+    label: Choreography
+    published-date: 2026-07-17
     context:
     - song: flick
     part-of:

@@ -53,6 +53,49 @@
     part-of:
       album: binary
 
+- postx:
+    id: 2078435671640047965
+    account: nekiband_jp
+    label: Bonus details
+    published-date: 2026-07-18
+    text: |-
+      【NEWS📢】
+      
+      2026/9/2(水) Release
+      NEK! Major 1st EP『B!NARY』
+      
+      ショップ別オリジナル特典絵柄を解禁💥
+      ぜひゲットしてください！
+      
+      ▼CDのご予約はこちら
+      https://lnk.to/NEKI_BINARY_CDPR 
+      
+      ▼『B!NARY』特設サイトはこちら
+      https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    translation: |-
+      【NEWS📢】
+      
+      2026/9/2 (Wed) Release
+      NEK! Major 1st EP "B!NARY"
+      
+      Original bonus designs by shop unveiled💥
+      Please make sure to get yours!
+      
+      ▼ Pre-order the CD here
+      https://lnk.to/NEKI_BINARY_CDPR 
+      
+      ▼ Click here for the "B!NARY" special site
+      https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    image:
+    - HNgS5jZbkAAZ8S7
+    - HNgS649bMAEvIb0
+    part-of:
+      album: binary
+
 - postximage:
     post: 2075867719455678491
     id: HM72rarbgAAlomF
@@ -76,6 +119,26 @@
     - album: binary
     part-of:
       postx: 2075867719455678491
+
+- postximage:
+    post: 2078435671640047965
+    id: HNgS5jZbkAAZ8S7
+    index: 1
+    label: Version details
+    context:
+    - album: binary
+    part-of:
+      postx: 2078435671640047965
+
+- postximage:
+    post: 2078435671640047965
+    id: HNgS649bMAEvIb0
+    index: 2
+    label: Bonus details
+    context:
+    - album: binary
+    part-of:
+      postx: 2078435671640047965
 
 - update:
     album: binary

@@ -1,0 +1,24 @@
+mediaaudio:
+  year: 2026
+  id: nack5kirasuta
+  cover-image:
+    localimage:
+      media:
+        year: 2025
+        id: nack5kirasuta
+      id: cover
+  radio: NACK5
+  show: キラスタ (kirasuka)
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-20
+  host: 桜井雅斗 (Sakai Naoto)
+  webpage: 'https://www.nack5.co.jp/program/kirasuta795/'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  categories:
+  - mediummedia

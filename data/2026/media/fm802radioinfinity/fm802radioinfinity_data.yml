@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fm802radioinfinity
+    date: 2026-07-20
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fm802radioinfinity
+
+- webimage:
+    domain: funky802.com
+    page: infinity
+    id: logo
+    label: Logo
+    published-date: 2026-07-15
+    url: 'https://funky802.com/infinity/img/logo2025.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: funky802.com
+        id: infinity
+
+- webpage:
+    domain: funky802.com
+    id: infinity
+    label: Show page
+    published-date: 2026-07-15
+    url: 'https://funky802.com/infinity/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: fm802radioinfinity
+

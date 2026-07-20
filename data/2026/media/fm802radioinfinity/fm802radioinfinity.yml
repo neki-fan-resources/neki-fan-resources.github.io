@@ -1,0 +1,23 @@
+mediaaudio:
+  year: 2026
+  id: fm802radioinfinity
+  cover-image:
+    webimage:
+      domain: funky802.com
+      page: infinity
+      id: logo
+  radio: FM802
+  show: RADIO INFINITY
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-07-23
+  host: DJ ハタノ ユウスケ (DJ Yusuke Hatano)
+  webpage: 'https://funky802.com/infinity/'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  categories:
+  - mediummedia

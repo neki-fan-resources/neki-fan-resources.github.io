@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: R51L1NCLNq0
                 - youtubeshort: UKbJ8NphAsw
             - multimediasubsection:
                 label: Images
@@ -851,6 +852,20 @@
         domain: natalie.mu
         page: 681511
         id: 3
+
+- youtubeshort:
+    id: R51L1NCLNq0
+    label: On stage
+    published-date: 2026-07-20
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    - song: flick
+    part-of:
+      show:
+        year: 2026
+        id: majordebutfreelive
 
 - youtubeshort:
     id: UKbJ8NphAsw

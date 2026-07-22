@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: fmfuji4000milk
+    date: 2026-07-21
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmfuji4000milk
+
+- webimage:
+    domain: radiko.jp
+    page: 10004745
+    id: flyer
+    label: Flyer
+    published-date: 2026-07-21
+    url: 'https://program-static.cf.radiko.jp/44f406b9-73a0-4761-970f-fda80b827c28.jpeg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: radiko.jp
+        id: 10004745
+
+- webpage:
+    domain: radiko.jp
+    id: 10004745
+    label: Radiko show page
+    published-date: 2026-07-21
+    url: 'https://radiko.jp/r_seasons/10004745'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: fmfuji4000milk
+

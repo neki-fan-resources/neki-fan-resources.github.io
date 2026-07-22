@@ -1,0 +1,82 @@
+- postx:
+    id: 2079154586250870906
+    account: kirasuta795
+    label: Guests
+    published-date: 2026-07-20
+    text: |-
+      【#キラスタ ゲスト】
+      6/10（水）にメジャー1stシングル「FLiCK」をリリースしたNEK！（
+      @nekiband_jp
+      ）からHikaさんとNatsuさん✨
+      
+      ・メジャーデビュー記念東名阪ツアー「NEK! MAJOR DEBUT TOUR」開催‼️
+      
+      ↓詳しい情報はこちらから↓
+      https://neki.bitfan.id
+      #nack5 #NEKI
+    translation: |-
+      【#KiraSun Guest】
+      Hika and Natsu from NEK! (
+      @nekiband_jp
+      ), who released their major 1st single "FLiCK" on 6/10 (Wed)✨
+      
+      ・Major Debut Commemorative Tokyo/Nagoya/Osaka Tour "NEK! MAJOR DEBUT TOUR" is taking place‼️
+      
+      ↓ Click here for detailed information ↓
+      https://neki.bitfan.id
+      #nack5 #NEKI
+    image:
+    - HNqeSlhb0AAtbDV
+    part-of:
+      media:
+        year: 2026
+        id: nack5kirasuta
+
+- postx:
+    id: 2079163446533472614
+    account: sakainaoto
+    label: Thank you
+    published-date: 2026-07-21
+    text: |-
+      #キラスタ ありがとうございました！
+      NEK!の2人のインタビューもあった放送後早速LINEきました。
+      その形で売ってるスイカ初めて見た🍉
+      また来週！ #VIVANT2 の1話を見た後の酒井と会いましょう！
+    translation: |-
+      Thank you for listening to #KiraSun!
+      Right after the broadcast, which included an interview with the two members of NEK!, I immediately got a LINE message.
+      That was the first time I've ever seen a watermelon sold in that shape watermelon
+      See you next week! Let's meet up with Sakai after they've watched episode 1 of #VIVANT2!
+    image:
+    - HNqsIjwacAAHZWG
+    part-of:
+      media:
+        year: 2026
+        id: nack5kirasuta
+
+- postximage:
+    post: 2079154586250870906
+    id: HNqeSlhb0AAtbDV
+    index: 1
+    label: At the station
+    info: 酒井直斗 (Sakai Naoto), Natsu, Hika, 斉藤百香 (Momoka Saito)
+    context:
+    - media:
+        year: 2026
+        id: nack5kirasuta
+    part-of:
+      postx: 2079154586250870906
+
+- postximage:
+    post: 2079163446533472614
+    id: HNqsIjwacAAHZWG
+    index: 1
+    label: Watermelon
+    info: 斉藤百香 (Momoka Saito)
+    context:
+    - media:
+        year: 2026
+        id: nack5kirasuta
+    part-of:
+      postx: 2079163446533472614
+

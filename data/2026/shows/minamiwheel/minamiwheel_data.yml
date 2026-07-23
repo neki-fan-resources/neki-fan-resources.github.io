@@ -1,0 +1,129 @@
+- postx:
+    id: 2080216354033189136
+    account: minamiwheel
+    label: Announcement 2nd lineup
+    published-date: 2026-07-23
+    text: |-
+      ◤￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+      　     ミナホ 出演者第2弾発表
+      　　　　        　  &
+      　 💥 257組の日割りが解禁 📣
+      ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿◢
+      
+      📅10/10(土)〜12(月・祝)で開催の
+      
+      　　　        #Maxell presents
+      ＼🚀FM802 MINAMI WHEEL 2026🌟／
+      
+      #ミナホ だから楽しめる！
+      ジャンルレスな ”いま！ライブを見てほしい！”
+      208組のアーティストを新たに解禁🎊
+      
+      そして、3日間の日割りをどどんと公開！🗓️
+      
+      お好きなラインナップに合わせて楽しめる
+      【 1DAY PASS 】の先行受付もスタート！
+      
+      毎年売り切れの【 3DAY PASS 】もまだ間に合います🎫💨
+      
+      詳細はここからチェック✅↓
+      https://minamiwheel.jp
+    image:
+    - HN5k4_aacAAsPVc
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- postx:
+    id: 2080216459331174401
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-07-23
+    text: |-
+      📣💥情報解禁💥📣
+      
+      「Maxell presents FM802 MINAMI WHEEL 2026」
+      @minamiwheel
+      
+      
+      NEK!の出演が決定🔥
+      
+      【 10/10(土) 】に出演となります！
+      ＊出演時間・会場・タイムテーブルは後日発表。
+      
+      🔗https://minamiwheel.jp
+      
+      #NEKI #FM802 #ミナホ
+    translation: |-
+      📣💥 Announcement Released 💥📣
+      
+      "Maxell presents FM802 MINAMI WHEEL 2026"
+      @minamiwheel
+      
+      
+      NEK!'s appearance has been confirmed🔥
+      
+      We will be performing on【 10/10 (Sat) 】!
+      ＊Performance time, venue, and timetable to be announced at a later date.
+      
+      🔗https://minamiwheel.jp
+      
+      #NEKI #FM802 #Minaho
+    image:
+    - HN5kls4a4AExON5
+    - HN5kqGnbUAAUXXd
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- postximage:
+    post: 2080216354033189136
+    id: HN5k4_aacAAsPVc
+    index: 1
+    label: Flyer 2nd lineup
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2080216354033189136
+
+- postximage:
+    post: 2080216459331174401
+    id: HN5kls4a4AExON5
+    index: 1
+    label: Poster 2nd lineup
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2080216459331174401
+
+- postximage:
+    post: 2080216459331174401
+    id: HN5kqGnbUAAUXXd
+    index: 2
+    label: Poster
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2080216459331174401
+
+- update:
+    show:
+      year: 2026
+      id: minamiwheel
+    date: 2026-07-23
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+

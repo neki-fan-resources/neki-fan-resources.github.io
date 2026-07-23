@@ -1,3 +1,125 @@
+- postx:
+    id: 2079919310097805367
+    account: fmfujiyonsen
+    label: This week
+    published-date: 2026-07-22
+    text: |-
+      四千頭身の四千ミルク!! 
+      
+      今週はスタジオに...
+      
+      『NEK!』から
+      @nekiband_jp
+       
+      
+      Hikaさん 
+      @46_hikaa
+       
+      Natsuさん 
+      @natsu08_guitar
+       
+      
+      をお迎えしています！！
+      
+      #NEKI
+      #四千頭身 #四千ミルク
+    translation: |-
+      Yonsen Toshin's Yonsen Milk!! 
+      
+      This week in the studio...
+      
+      From "NEK!"
+      @nekiband_jp
+       
+      
+      Hika-san 
+      @46_hikaa
+       
+      Natsu-san 
+      @natsu08_guitar
+       
+      
+      We welcome them to the show!!
+      
+      #NEKI
+      #YonsenToshin #YonsenMilk
+    image:
+    - HN1bljcaoAAJQxQ
+    part-of:
+      media:
+        year: 2026
+        id: fmfuji4000milk
+
+- postx:
+    id: 2079927872412909676
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-07-22
+    text: |-
+      FM FUJI「四千ミルク」
+      
+      お聴きいただきありがとうございました📻
+      
+      ▼Major 1st EP『B!NARY』
+      9/2(水)リリース🎧
+      https://neki10010010.ponycanyon.co.jp
+      
+      ▼9月に東名阪ツアー開催！
+      大阪＆東京公演チケット受付中🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #四千ミルク
+    translation: |-
+      FM FUJI "Yonsen Milk"
+      
+      Thank you very much for listening 📻
+      
+      ▼Major 1st EP 『B!NARY』
+      Releasing 9/2 (Wed)🎧
+      https://neki10010010.ponycanyon.co.jp
+      
+      ▼Tokyo/Nagoya/Osaka tour taking place in September!
+      Osaka & Tokyo performance tickets open now 🎟️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #YonsenMilk
+    image:
+    - HN1jX0YaIAAHGUl
+    part-of:
+      media:
+        year: 2026
+        id: fmfuji4000milk
+    reference:
+    - postximage:
+        post: 2079919310097805367
+        image: HN1bljcaoAAJQxQ
+
+- postximage:
+    post: 2079919310097805367
+    id: HN1bljcaoAAJQxQ
+    index: 1
+    label: In studio
+    info: 四千頭身, Natsu, Hika
+    context:
+    - media:
+        year: 2026
+        id: fmfuji4000milk
+    part-of:
+      postx: 2079919310097805367
+
+- postximage:
+    post: 2079927872412909676
+    id: HN1jX0YaIAAHGUl
+    index: 2
+    label: At the station
+    info: Hika, Natsu
+    context:
+    - media:
+        year: 2026
+        id: fmfuji4000milk
+    part-of:
+      postx: 2079927872412909676
+
 - update:
     media:
       year: 2026

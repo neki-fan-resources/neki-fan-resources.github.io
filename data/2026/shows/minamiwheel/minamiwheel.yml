@@ -1,0 +1,16 @@
+show:
+  year: 2026
+  id: minamiwheel
+  cover-image:
+    postximage:
+      post: 2080216459331174401
+      image: HN5kqGnbUAAUXXd
+  fullname: Maxell presents FM802 MINAMI WHEEL 2026
+  shortname: 'MINAMI WHEEL '
+  sublabel: Osaka, Japan
+  date: 2026-10-10
+  event-page: 'https://minamiwheel.jp/'
+  part-of:
+    group:
+      id: shows
+      group: 2026

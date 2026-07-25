@@ -1,3 +1,72 @@
+- postx:
+    id: 2080345354671997301
+    account: RI_802
+    label: Coming up
+    published-date: 2026-07-23
+    text: |-
+      【📻 #RI802 NOW ONAIR⚡️ 】
+      
+      👤 NEK! (
+      @nekiband_jp
+      )
+      💿 FLiCK
+      
+      今夜の「RADIO∞INFINITY」は
+      NEK!からVoGt. Hikaさん＆Gt. Natsuさんの
+      インタビューをお届け✨
+      
+      “NEK! MAJOR DEBUT TOUR”
+      大阪は9/4(金)📍BANGBOO にて！
+      
+      そして #ミナホ は10/10(土)に登場！！🔥
+      
+      ここから聴く🎧↓
+      https://radiko.jp/share/?t=20260723260139&sid=802
+       
+      #NEKI 
+      #FM802
+    translation: |-
+      【📻 #RI802 NOW ONAIR⚡️ 】
+      
+      👤 NEK! (
+      @nekiband_jp
+      )
+      💿 FLiCK
+      
+      Tonight's "RADIO∞INFINITY"
+      brings you an interview with
+      VoGt. Hika-san & Gt. Natsu-san from NEK!✨
+      
+      “NEK! MAJOR DEBUT TOUR”
+      Osaka will be on 9/4 (Fri) 📍 at BANGBOO!
+      
+      And appearing at #Minaho on 10/10 (Sat)!!🔥
+      
+      Listen from here🎧↓
+      https://radiko.jp/share/?t=20260723260139&sid=802
+       
+      #NEKI 
+      #FM802
+    image:
+    - HN7fBnUbQAAUCmr
+    part-of:
+      media:
+        year: 2026
+        id: fm802radioinfinity
+
+- postximage:
+    post: 2080345354671997301
+    id: HN7fBnUbQAAUCmr
+    index: 1
+    label: At the station
+    info: Natsu, Hika, DJ ハタノ ユウスケ (DJ Yusuke Hatano)
+    context:
+    - media:
+        year: 2026
+        id: fm802radioinfinity
+    part-of:
+      postx: 2080345354671997301
+
 - update:
     media:
       year: 2026

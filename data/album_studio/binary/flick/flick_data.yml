@@ -274,6 +274,14 @@
                 - postinstagramimage:
                     post: DZzpdcrmVz2
                     image: 3
+        - basicsection:
+            label: On display
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2080902274621341997
+                    video: 1
     - basicblock:
         id: media
         label: In the medias
@@ -1689,6 +1697,22 @@
         post: 2078143821515509993
         video: 1
 
+- postx:
+    id: 2080902274621341997
+    account: nekiband_jp
+    label: On Shinjuku vision
+    published-date: 2026-07-25
+    text: |-
+      \\ 新宿のビジョンに注目👀❕ //
+    translation: |-
+      \\ Keep an eye on the Shinjuku visions 👀❕ //
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2080902274621341997
+        video: 1
+
 - postximage:
     post: 2064648886728483169
     id: HKcX7azaUAAKYpA
@@ -1896,6 +1920,17 @@
     label: Solo cut
     info: Cocoro
     cover: 2078143808722886656/img/t7RSws3uWWbqPJO0.jpg
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
+- postxvideo:
+    post: 2080902274621341997
+    id: 1
+    label: Yunika Vision
+    info: Shinjuku
+    cover: 2080902149735878656/img/Qs-CFSpH4IGD536M.jpg
     context:
     - song: flick
     part-of:

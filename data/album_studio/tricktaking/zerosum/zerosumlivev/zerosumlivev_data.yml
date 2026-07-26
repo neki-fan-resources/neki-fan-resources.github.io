@@ -1,0 +1,9 @@
+localimage:
+  multimedia-event: zerosumlivev
+  id: livevcover
+  label: Live video cover
+  published-date: 2026-07-26
+  source:
+    description: YouTube video
+  part-of:
+    multimedia-event: zerosumlivev

@@ -15,6 +15,9 @@
                 - youtubeshort: '-f1iJu5MuRU'
             - multimediasubsection:
                 multimedia:
+                - youtubevideo: 2q9Qre9J_uE
+            - multimediasubsection:
+                multimedia:
                 - youtubeshort: lFPBSexcRHM
                 - postxvideo:
                     post: 1964676334128693400
@@ -1673,6 +1676,60 @@
         post: 1967554049408135190
         video: 01
 
+- postx:
+    id: 2080986478709260384
+    account: nekiband_jp
+    label: Live Video announcement
+    published-date: 2026-07-25
+    text: |-
+      …ıııı||ı|💥 COMING SOON 💥ı||ıı|ııı…
+      
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+      Zepp Shinjuku公演より
+      
+      明日7/26(日) 21:00〜
+      『zero-sum』Official Live Video
+      YouTubeにてプレミア公開決定🎥
+      
+      公開時はメンバーもチャットに参加！
+      ぜひリアルタイムでお楽しみください🍿
+      
+      ▼zero-sum (Official Live Video)
+      https://youtu.be/2q9Qre9J_uE
+      
+      ▼Zeppライブ映像収録
+      9/2(水)リリース Major 1st EP『B!NARY』
+      https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    translation: |-
+      …ıııı||ı|💥 COMING SOON 💥ı||ıı|ııı…
+      
+      NEK! 1ST ZEPP ONE MAN【#Kakusanchu #NekiKaiwai】
+      From the Zepp Shinjuku performance
+      
+      Tomorrow 7/26 (Sun) from 21:00〜
+      『zero-sum』Official Live Video
+      Premiering on YouTube 🎥
+      
+      Members will also join the chat during the premiere!
+      Please enjoy it in real time 🍿
+      
+      ▼zero-sum (Official Live Video)
+      https://youtu.be/2q9Qre9J_uE
+      
+      ▼Includes Zepp live footage
+      9/2 (Wed) release Major 1st EP 『B!NARY』
+      https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2080986478709260384
+        video: 1
+
 - postximage:
     post: 1931984997382316384
     id: Gs_KDFfb0AAtXQ1
@@ -2007,6 +2064,21 @@
     - show:
         year: 2025
         id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- postxvideo:
+    post: 2080986478709260384
+    id: 1
+    label: Live Video teaser
+    cover: 2080984388658147328/img/0ZQ_tj70buBqu4F0.jpg
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: zerosum
     part-of:
       show:
         year: 2025
@@ -2831,6 +2903,20 @@
         id: 1stzepponeman
 
 - youtubeshort:
+    id: KZV8XR4npNk
+    label: Live Video teaser
+    published-date: 2026-07-25
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
     id: Nn2dWG_ZX4w
     label: Cocoro's week
     info: About the other members
@@ -2979,6 +3065,20 @@
     - show:
         year: 2025
         id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubevideo:
+    id: 2q9Qre9J_uE
+    label: Official Live Video
+    published-date: 2026-07-26
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    - song: zerosum
     part-of:
       show:
         year: 2025

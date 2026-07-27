@@ -266,6 +266,48 @@
     part-of:
       tour: majordebuttour
 
+- postx:
+    id: 2081553831046090938
+    account: l_tike_live
+    label: Towel giveaway
+    published-date: 2026-07-27
+    text: |-
+      🌟プレゼントキャンペーン🌟
+      #NEKI
+      NEK!ロゴタオル サイン入り
+      を
+      3名様にプレゼント🎁
+      
+      🗳️応募方法
+      ①
+      @l_tike_live
+      をフォロー
+      ②この投稿をリポスト
+      締切:8/16(日)まで
+      
+      月刊ローチケ7/15号に🎙️インタビュー掲載🎶
+      🎟️チケット情報はこちら
+      https://l-tike.com/nekiband/
+    translation: |-
+      🌟 Present Campaign 🌟
+      #NEKI
+      NEK! logo towel signed
+      for
+      3 people as a present 🎁
+      
+      🗳️ How to apply
+      ① Follow @l_tike_live
+      ② Repost this post
+      Deadline: Until 8/16 (Sun)
+      
+      🎙️ Interview published in Monthly Lawson Ticket 7/15 issue 🎶
+      🎟️ Ticket information here
+      https://l-tike.com/nekiband/
+    image:
+    - HOMqLOFbIAAvcNr
+    part-of:
+      tour: majordebuttour
+
 - postximage:
     post: 2064221900256231452
     id: HKWW3tUbUAAQK21
@@ -308,6 +350,16 @@
     - tour: majordebuttour
     part-of:
       postx: 2078313821127512416
+
+- postximage:
+    post: 2081553831046090938
+    id: HOMqLOFbIAAvcNr
+    index: 1
+    label: Towel giveaway
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2081553831046090938
 
 - update:
     tour: majordebuttour

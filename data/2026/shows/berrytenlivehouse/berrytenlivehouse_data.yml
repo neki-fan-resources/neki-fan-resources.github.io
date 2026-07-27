@@ -84,6 +84,55 @@
         year: 2026
         id: berrytenlivehouse
 
+- postx:
+    id: 2081681007825068487
+    account: berrytenlive
+    label: Timetable
+    published-date: 2026-07-27
+    text: |-
+      【#ベリテン ライブハウス】
+      　野外に先駆けて開催する ⑦Days💥
+      ⋱⋱  タイムテーブル発表 ⋰⋰  
+      　
+      🎫チケット好評発売中 🎫
+      ● Web 
+      　チケットぴあ 　
+      　https://w.pia.jp/t/berrytenlive-26/ 
+      　ローソンチケット 
+      　https://l-tike.com/berrvten/ 
+      　イープラス 
+      　https://eplus.jp/berryten/ 
+      ● 店頭 
+      　HEAVEN'S ROCK 宇都宮 
+      　フォールーラーレコーズ　
+      🙋詳しくは... 
+      https://berry.co.jp/berryten-2026/live-001.php
+    translation: |-
+      【#BerryTen Live House】
+       7 Days held prior to the outdoor event💥
+      ⋱⋱ Timetable Announcement ⋰⋰ 
+      
+      🎫 Tickets on sale now 🎫
+      ● Web 
+       Ticket Pia  
+       https://w.pia.jp/t/berrytenlive-26/ 
+       Lawson Ticket 
+       https://l-tike.com/berrvten/ 
+       eplus 
+       https://eplus.jp/berryten/ 
+      ● In-store 
+       HEAVEN'S ROCK Utsunomiya 
+       FourRuler Records 
+      🙋 Details here... 
+      https://berry.co.jp/berryten-2026/live-001.php
+    image:
+    - HONUyGBaMAA43PX
+    - HONUyGCakAAl7oU
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
 - postximage:
     post: 2065011164602335358
     id: HKc7RhYbYAAs0Np
@@ -108,6 +157,30 @@
         id: berrytenlivehouse
     part-of:
       postx: 2072991025791119464
+
+- postximage:
+    post: 2081681007825068487
+    id: HONUyGBaMAA43PX
+    index: 1
+    label: Timetable
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2081681007825068487
+
+- postximage:
+    post: 2081681007825068487
+    id: HONUyGCakAAl7oU
+    index: 2
+    label: Poster
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2081681007825068487
 
 - update:
     show:

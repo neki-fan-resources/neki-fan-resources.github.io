@@ -40,6 +40,27 @@
         id: artist
         group: natsu
 
+- postinstagram:
+    id: DbQnzTXEqKG
+    account: natsu08_guitar
+    label: Multiple photos
+    info: 1. photo booth picture with Hika, 2. food with Hika, 4. steak
+    published-date: 2026-07-26
+    text: |-
+      あっちーけど毎日楽しいよ☀️☀️
+    translation: |-
+      It's hot, but every day is fun ☀️☀️
+    image:
+    - 3
+    - 5
+    - 6
+    - 7
+    - 8
+    part-of:
+      group:
+        id: artist
+        group: natsu
+
 - postinstagramimage:
     post: DZcTVhfklau
     id: 1
@@ -54,6 +75,58 @@
     info: Natsu
     part-of:
       postinstagram: DamVaxQRkWT
+
+- postinstagramimage:
+    post: DbQnzTXEqKG
+    id: 3
+    label: Signed poster
+    context:
+    - media:
+        year: 2026
+        id: eggman7
+    part-of:
+      postinstagram: DbQnzTXEqKG
+
+- postinstagramimage:
+    post: DbQnzTXEqKG
+    id: 5
+    label: Display
+    context:
+    - event: majordebut
+    part-of:
+      postinstagram: DbQnzTXEqKG
+
+- postinstagramimage:
+    post: DbQnzTXEqKG
+    id: 6
+    label: Display
+    info: Natsu
+    context:
+    - event: majordebut
+    part-of:
+      postinstagram: DbQnzTXEqKG
+
+- postinstagramimage:
+    post: DbQnzTXEqKG
+    id: 7
+    label: Ad man
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postinstagram: DbQnzTXEqKG
+
+- postinstagramimage:
+    post: DbQnzTXEqKG
+    id: 8
+    label: Sticker
+    context:
+    - media:
+        year: 2026
+        id: fmfuji4000milk
+    part-of:
+      postinstagram: DbQnzTXEqKG
 
 - postx:
     id: 2064651258410176556

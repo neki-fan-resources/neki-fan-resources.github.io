@@ -2876,6 +2876,20 @@
         id: 1stzepponeman
 
 - youtubeshort:
+    id: DGSi7gQnSW0
+    label: Music Video
+    published-date: 2026-07-26
+    context:
+    - song: zerosum
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
     id: DnMhjnkT3eo
     label: Kanade's week
     published-date: 2025-08-13
@@ -2993,6 +3007,20 @@
     label: Natsu's week
     published-date: 2025-08-06
     context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
+- youtubeshort:
+    id: kF_6znWNGss
+    label: Live Video
+    published-date: 2026-07-27
+    context:
+    - song: zerosum
     - show:
         year: 2025
         id: 1stzepponeman

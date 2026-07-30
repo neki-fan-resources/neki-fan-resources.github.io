@@ -1,0 +1,11 @@
+update:
+  show:
+    year: 2026
+    id: bmbudokan2
+  date: 2026-07-30
+  text:
+  - Added the show
+  part-of:
+    show:
+      year: 2026
+      id: bmbudokan2

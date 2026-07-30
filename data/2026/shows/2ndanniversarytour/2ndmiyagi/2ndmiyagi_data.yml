@@ -73,6 +73,9 @@
                 - postximage:
                     post: 2034959910564503639
                     image: HD2hPXLboAQGcWz
+                - postinstagramimage:
+                    post: DbS7OYakqOs
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -110,6 +113,9 @@
                 - postinstagramimage:
                     post: DYWB3htmkZ2
                     image: 4
+                - postinstagramimage:
+                    post: DbS7OYakqOs
+                    image: 3
     - basicblock:
         id: beforeevent
         label: Before the event

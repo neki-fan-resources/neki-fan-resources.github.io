@@ -282,6 +282,9 @@
                 - postxvideo:
                     post: 2080902274621341997
                     video: 1
+                - postximage:
+                    post: 2082074472241402306
+                    image: HOUDsXla8AA0Bad
     - basicblock:
         id: media
         label: In the medias

@@ -1,0 +1,22 @@
+show:
+  year: 2026
+  id: bmbudokan1
+  cover-image:
+    webimage:
+      domain: neki.bitfan.id
+      page: 417173
+      id: poster
+  fullname: BAND-MAID WORLD TOUR 2026 FINAL - NIPPON BUDOKAN
+  shortname: BAND-MAID - NIPPON BUDOKAN
+  sublabel: 'BAND-MAID WORLD TOUR 2026 '
+  date: 2026-11-13
+  description:
+  - NEK! is the opening act at the BAND-MAID tour final at the Nippon Budokan.
+  categories:
+  - mainshow
+  venue: Nippon Budokan, Tokyo
+  event-page: 'https://bandmaid.tokyo/contents/1041462'
+  part-of:
+    group:
+      id: shows
+      group: 2026

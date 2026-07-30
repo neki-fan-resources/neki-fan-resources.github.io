@@ -32,6 +32,58 @@
     part-of:
       song: magicvox
 
+- postx:
+    id: 2082406083147247825
+    account: nekiband_jp
+    label: Streaming campaign
+    published-date: 2026-07-29
+    text: |-
+      🎧CAMPAIGN🎧
+      
+      Major 2nd Single「MAGiC VoX」
+      ストリーミングシェアキャンペーン開催決定！🎉
+      
+      期間内に各種音楽ストリーミングサービスで「MAGiC VoX」を再生し、
+      SNSにシェアして頂いた方全員にオリジナル画像をプレゼント🎁
+      
+      ▼対象サービス
+      Apple Music・Spotify・YouTube Music・Amazon Music・LINE MUSIC
+      
+      ▼対象SNS
+      X・Instagramストーリーズ
+      
+      ▼応募期間
+      7/29(水) - 8/7(金)23:59まで
+      
+      🔗https://neki.bitfan.id/contents/416804
+      
+      #NEKI #MAGiCVoX
+    translation: |-
+      🎧CAMPAIGN🎧
+      
+      Major 2nd Single "MAGiC VoX"
+      Streaming Share Campaign Confirmed!🎉
+      
+      During the period, stream "MAGiC VoX" on any eligible music streaming service,
+      and everyone who shares it on SNS will receive an original digital image as a gift🎁
+      
+      ▼Eligible Services
+      Apple Music / Spotify / YouTube Music / Amazon Music / LINE MUSIC
+      
+      ▼Eligible SNS
+      X / Instagram Stories
+      
+      ▼Campaign Period
+      7/29 (Wed) - 8/7 (Fri) until 23:59
+      
+      🔗https://neki.bitfan.id/contents/416804
+      
+      #NEKI #MAGiCVoX
+    image:
+    - HOYvxI4aYAAAtc2
+    part-of:
+      song: magicvox
+
 - postximage:
     post: 2078434617183412469
     id: HNgT3SrbYAAPSg5
@@ -42,6 +94,16 @@
     - song: magicvox
     part-of:
       postx: 2078434617183412469
+
+- postximage:
+    post: 2082406083147247825
+    id: HOYvxI4aYAAAtc2
+    index: 1
+    label: Streaming campaign
+    context:
+    - song: magicvox
+    part-of:
+      postx: 2082406083147247825
 
 - update:
     song: magicvox

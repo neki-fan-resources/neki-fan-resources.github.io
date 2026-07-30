@@ -1,3 +1,51 @@
+- display:
+    show:
+      year: 2026
+      id: newsignals
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2082839945207751035
+                    image: HOe74sKboAAkbbx
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2082839945207751035
+                    image: HOe74r_bQAA6lbC
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2082854457214374223
+                    image: HOfJFGSbcAEFq4X
+                - postximage:
+                    post: 2082839945207751035
+                    image: HOe74r6a0AARRcx
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2082856054816399780
+                    image: HOfKiapaAAAutIa
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2082854457214374223
+                    image: HOfJFGPbAAANit-
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+
 - postx:
     id: 2065380888440140028
     account: nekiband_jp
@@ -40,6 +88,122 @@
         year: 2026
         id: newsignals
 
+- postx:
+    id: 2082839945207751035
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-07-30
+    text: |-
+      -New Signals- 砂月凜々香 × NEK! × Lala
+      下北沢SHELTER
+      
+      w/
+      @satsuki_ririka
+       
+      @Lala_official20
+       
+      
+      ご来場ありがとうございました❤️‍🔥
+      
+      9月に東名阪ツアー開催❗️
+      チケット一般発売中🎟️
+      ▶︎ https://l-tike.com/nekiband/
+      
+      9/2リリース🔍
+      Major 1st EP『B!NARY』
+      ▶︎ https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    translation: |-
+      -New Signals- Ririka Satsuki × NEK! × Lala
+      Shimokitazawa SHELTER
+      
+      w/
+      @satsuki_ririka
+       
+      @Lala_official20
+       
+      
+      Thank you for coming❤️‍🔥
+      
+      Tokyo, Nagoya, Osaka Tour coming in September❗️
+      General Ticket Sale Open Now🎟️
+      ▶︎ https://l-tike.com/nekiband/
+      
+      Release on 9/2🔍
+      Major 1st EP "B!NARY"
+      ▶︎ https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    image:
+    - HOe74r6a0AARRcx
+    - HOe74r_bQAA6lbC
+    - HOe74sKboAAkbbx
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+
+- postx:
+    id: 2082854457214374223
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-07-30
+    text: |-
+      SHELTERでのスリーマン!
+      ありがとうございましたー！！
+      1曲目のFLiCKから最高の盛り上がりをありがとう！
+      みんなの一体感がすごくてとっても嬉しかったー🥹❤️‍🔥
+      Lalaさんも砂月さんもとってもかっこよくて、また対バンできたら嬉しいです！
+      次は8/6の横浜ReNY beta！お待ちしております！
+    translation: |-
+      Three-man show at SHELTER!
+      Thank you so much!!
+      Thank you for making it an amazing hype right from the first song, FLiCK!
+      Everyone's sense of unity was incredible, and I was so happy🥹❤️‍🔥
+      Both Lala and Satsuki were super cool, so I'd be really happy if we could share the stage again!
+      Next up is Yokohama ReNY beta on 8/6! We'll be waiting for you!
+    image:
+    - HOfJFGPbAAANit-
+    - HOfJFGSbcAEFq4X
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+
+- postx:
+    id: 2082856054816399780
+    account: coco_102
+    label: Thank you
+    published-date: 2026-07-30
+    text: |-
+      「-New Signals- 砂月凜々香 × NEK! × Lala」
+      
+      スペシャルなスリーマン！ありがとうございました🩵
+      超満員のフロアめっちゃアツかった〜〜〜！！
+      久々に立つSHELTERのステージで色々なことを思い返しながら叩いていたら、なんだか胸が熱くなりました。
+      次は今日よりもっとビッグになって帰ってきます👊🏻
+    translation: |-
+      "-New Signals- Ririka Satsuki × NEK! × Lala"
+      
+      Thank you so much for a special three-man show!🩵
+      The packed floor was so hot~~~!!
+      As I was playing on the SHELTER stage for the first time in a while, recalling various memories, I felt a bit moved.
+      Next time, we'll come back even bigger than today👊🏻
+    image:
+    - HOfKiapaAAAutIa
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+    reference:
+    - postximage:
+        post: 2082839945207751035
+        image: HOe74r_bQAA6lbC
+    - postximage:
+        post: 2082854457214374223
+        image: HOfJFGSbcAEFq4X
+
 - postximage:
     post: 2065380888440140028
     id: HKmz80KaIAAAtdh
@@ -53,6 +217,80 @@
     part-of:
       postx: 2065380888440140028
 
+- postximage:
+    post: 2082839945207751035
+    id: HOe74r6a0AARRcx
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    part-of:
+      postx: 2082839945207751035
+
+- postximage:
+    post: 2082839945207751035
+    id: HOe74r_bQAA6lbC
+    index: 3
+    label: Bands
+    info: NEK!, Ririka Satsuki, Lala
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    part-of:
+      postx: 2082839945207751035
+
+- postximage:
+    post: 2082839945207751035
+    id: HOe74sKboAAkbbx
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    part-of:
+      postx: 2082839945207751035
+
+- postximage:
+    post: 2082854457214374223
+    id: HOfJFGPbAAANit-
+    index: 2
+    label: Clock
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    part-of:
+      postx: 2082854457214374223
+
+- postximage:
+    post: 2082854457214374223
+    id: HOfJFGSbcAEFq4X
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    part-of:
+      postx: 2082854457214374223
+
+- postximage:
+    post: 2082856054816399780
+    id: HOfKiapaAAAutIa
+    index: 1
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    part-of:
+      postx: 2082856054816399780
+
 - update:
     show:
       year: 2026
@@ -60,6 +298,18 @@
     date: 2026-06-14
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+
+- update:
+    show:
+      year: 2026
+      id: newsignals
+    date: 2026-07-30
+    text:
+    - Added the first images from the show
     part-of:
       show:
         year: 2026

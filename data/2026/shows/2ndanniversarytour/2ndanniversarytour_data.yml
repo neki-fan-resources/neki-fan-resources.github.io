@@ -236,6 +236,33 @@
         post: 2037479908369387767
         image: HEaVI8vbsAA3xTV
 
+- postinstagram:
+    id: DbS7OYakqOs
+    account: natsu08_guitar
+    label: Tour memories
+    published-date: 2026-07-27
+    text: |-
+      ツアーの思い出ぽたぽた
+      全てが幸せな思い出すぎて今もまだ胸が熱くなるよ
+    translation: |-
+      Dripping with tour memories
+      Everything was such a happy memory that my heart still swells even now
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    part-of:
+      tour: 2ndanniversarytour
+
 - postinstagramimage:
     post: DUczOG9EZm-
     id: 1
@@ -447,6 +474,119 @@
         id: 2ndkumamoto
     part-of:
       postinstagram: DYg4N8FkUeg
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 10
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo1
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 11
+    label: Venue
+    context:
+    - show:
+        year: 2026
+        id: 2ndfukushima
+    todo: which show ?
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 12
+    label: Backstage
+    todo: which show ?
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 2
+    label: Backstage
+    todo: which show ?
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 3
+    label: Backdrop
+    context:
+    - show:
+        year: 2026
+        id: 2ndmiyagi
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 4
+    label: Outside
+    todo: which show ?
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 5
+    label: Restaurant Sendai
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 6
+    label: Outside
+    todo: which show ?
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 7
+    label: Outside
+    todo: which show ?
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 8
+    label: Backstage
+    info: Kanade, Hika
+    context:
+    - show:
+        year: 2026
+        id: fomareyamagata
+    part-of:
+      postinstagram: DbS7OYakqOs
+
+- postinstagramimage:
+    post: DbS7OYakqOs
+    id: 9
+    label: On stage
+    info: Cocoro
+    todo: which show ?
+    part-of:
+      postinstagram: DbS7OYakqOs
 
 - postx:
     id: 1976200916698267749

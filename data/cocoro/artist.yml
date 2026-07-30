@@ -203,6 +203,31 @@
         id: artist
         group: cocoro
 
+- postx:
+    id: 2082074472241402306
+    account: coco_102
+    label: Recording + Yunika Vision
+    published-date: 2026-07-28
+    text: |-
+      今日はレコーディングをしてきたよ🥁
+      そして帰りに滑り込みでユニカビジョンも見てきた！
+      自分たちの音が新宿の街に鳴り響いてて、あんな大きな画面に自分たちが映ってて、なんだかとても不思議な気持ちになりました🥹
+      
+      ほんと人生って面白いね、みんなに大感謝！
+    translation: |-
+      I did a recording session today🥁
+      And on the way back, I managed to catch our segment on the YUNIKA VISION right in time!
+      Hearing our music echoing through the streets of Shinjuku and seeing us on such a massive screen gave me a really surreal feeling🥹
+      
+      Life is truly interesting, immense gratitude to everyone!
+    image:
+    - HOUDsXdagAEA4dM
+    - HOUDsXla8AA0Bad
+    part-of:
+      group:
+        id: artist
+        group: cocoro
+
 - postximage:
     post: 1917457790253293837
     id: GpwtsbTaYAAlBd8
@@ -249,6 +274,25 @@
     - song: flick
     part-of:
       postx: 2064651654469992624
+
+- postximage:
+    post: 2082074472241402306
+    id: HOUDsXdagAEA4dM
+    index: 1
+    label: Recording
+    info: drums, Cocoro
+    part-of:
+      postx: 2082074472241402306
+
+- postximage:
+    post: 2082074472241402306
+    id: HOUDsXla8AA0Bad
+    index: 2
+    label: Yunika Vision
+    context:
+    - song: flick
+    part-of:
+      postx: 2082074472241402306
 
 - postxvideo:
     post: 2015400555619975430

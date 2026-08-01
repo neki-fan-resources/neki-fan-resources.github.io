@@ -18,6 +18,9 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
+                    post: 2083474660394684627
+                    image: HOn9JCAboAA0f3g
+                - postximage:
                     post: 2082839945207751035
                     image: HOe74r_bQAA6lbC
             - multimediasubsection:
@@ -204,6 +207,36 @@
         post: 2082854457214374223
         image: HOfJFGSbcAEFq4X
 
+- postx:
+    id: 2083474660394684627
+    account: satsuki_ririka
+    label: Thank you
+    info: 3 additional picture of Satsuki Ririka
+    published-date: 2026-08-01
+    text: |-
+      改めてNew signals 下北沢shelter
+      初バンド対バンありがとうございました‼️
+      めちゃくちゃたのしかった‼️🔥
+      次のバンド体制は8月30日のワンマンライブツアーから🔥
+      ワンマンライブツアーチケット是非‼️
+      🎟️https://ririkasatsuki-official.com/news/detail/74751
+    translation: |-
+      Once again, thank you for New Signals at Shimokitazawa SHELTER and for our first full-band joint live‼️
+      
+      It was so much fun‼️🔥
+      
+      Our next full-band show will be from the solo live tour starting August 30th🔥
+      
+      Be sure to grab tickets for the solo live tour‼️
+      
+      🎟️ https://ririkasatsuki-official.com/news/detail/74751
+    image:
+    - HOn9JCAboAA0f3g
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+
 - postximage:
     post: 2065380888440140028
     id: HKmz80KaIAAAtdh
@@ -290,6 +323,19 @@
         id: newsignals
     part-of:
       postx: 2082856054816399780
+
+- postximage:
+    post: 2083474660394684627
+    id: HOn9JCAboAA0f3g
+    index: 2
+    label: Bands
+    info: NEK!, Ririka Satsuki, Lala
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    part-of:
+      postx: 2083474660394684627
 
 - update:
     show:

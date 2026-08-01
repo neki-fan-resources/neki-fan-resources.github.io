@@ -38,6 +38,84 @@
         year: 2026
         id: treasure05x
 
+- postx:
+    id: 2083387363804549490
+    account: TREASURE05XOffi
+    label: Timetable
+    published-date: 2026-08-01
+    text: |-
+      TREASURE05X 2026 8/15(土)ダイアモンドホール公演 タイムテーブル発表です！
+      
+      チケットは一般発売中です！
+      
+      ▼チケット
+      https://eplus.jp/treasure05x2026/
+      
+      #TREASURE05X
+      #トレジャー
+    translation: |-
+      The timetable for the TREASURE05X 2026 Diamond Hall show on 8/15 (Sat) has been announced!
+      
+      Tickets are currently on general sale!
+      
+      ▼Tickets
+      https://eplus.jp/treasure05x2026/
+      
+      #TREASURE05X
+      #TREASURE
+    image:
+    - HOmtw0GaQAAfmw2
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+
+- postx:
+    id: 2083387576099230172
+    account: nekiband_jp
+    label: Timetable
+    published-date: 2026-08-01
+    text: |-
+      📣 タイムテーブル公開 📣
+      
+      8/15(土)
+      「TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～」
+      @ 愛知 ダイアモンドホール
+      
+      NEK!は13:30~出演💥
+      
+      🎫: 一般発売中(先着)
+      https://treasure05x.jp/dia.html
+      
+      #NEKI
+      #TREASURE05X
+      #トレジャー
+    translation: |-
+      📣 Timetable Released 📣
+      
+      8/15 (Sat)
+      "TREASURE05X 2026
+      ~BURNING DIAMONDS FINAL~"
+      @ Aichi Diamond Hall
+      
+      NEK! will perform at 13:30~💥
+      
+      🎫: On General Sale Now (First-Come, First-Served)
+      https://treasure05x.jp/dia.html
+      
+      #NEKI
+      #TREASURE05X
+      #TREASURE
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+    reference:
+    - postximage:
+        post: 2083387363804549490
+        image: HOmtw0GaQAAfmw2
+
 - postximage:
     post: 2067895162156863853
     id: HLKPR5lbkAAhn-v
@@ -50,6 +128,18 @@
         id: treasure05x
     part-of:
       postx: 2067895162156863853
+
+- postximage:
+    post: 2083387363804549490
+    id: HOmtw0GaQAAfmw2
+    index: 1
+    label: Timetable
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2083387363804549490
 
 - update:
     show:

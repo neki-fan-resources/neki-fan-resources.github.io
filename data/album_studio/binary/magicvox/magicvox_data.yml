@@ -84,6 +84,170 @@
     part-of:
       song: magicvox
 
+- postx:
+    id: 2083357042203574278
+    account: USEN_HITS
+    label: USEN HIT J-POP Featured Tracks
+    published-date: 2026-08-01
+    text: |-
+      【8/1～のUSEN HIT J-POP注目曲】
+      気になるアーティストがいたらリポスト☺️
+      
+      Penthouse 
+      @Penthouse_band
+      
+      離婚伝説 
+      @rkndnsts
+      
+      宮本佳林 
+      @karin__miyamoto
+      
+      WHITE JAM 
+      @WHITEJAM_STAFF
+      
+      ROIROM 
+      @roirom_official
+      
+      新浜レオン 
+      @niihamaLEON
+      
+      パンサー尾形 
+      @ogaogaoga399
+      
+      ぼっちぼろまる 
+      @borotchi
+      
+      ふみの 
+      @FUMINO_official
+      
+      木村拓哉 
+      @CandC_STAGE
+      
+      明くる夜の羊 
+      @akuruyo_sheep
+      
+      TOMOO 
+      @Tomoo_628
+      
+      the bercedes menz 
+      @thebercedesmenz
+      
+      マカロニえんぴつ 
+      @macarock0616
+      
+      ILLIT 
+      @ILLITjpofficial
+      
+      NEK! 
+      @nekiband_jp
+      
+      緑黄色社会 
+      @ryokushaka
+      
+      ANEMONÉ 
+      @33ANEMONE
+      
+      ICEx 
+      @ICEx_official
+      
+      This is LAST 
+      @ThisisLASTBAND
+      
+      あいみょん 
+      @aimyonGtter
+       
+      @AimyongStaff
+      
+      Kis-My-Ft2 
+      @KMF2_0810MENT
+      
+      OCHA NORMA 
+      @ocha_norma
+      
+      timelesz 
+      @OVTT_official
+    translation: |-
+      【USEN HIT J-POP Featured Tracks from 8/1】
+      Repost if there's an artist you're interested in☺️
+      
+      Penthouse 
+      @Penthouse_band
+      
+      Rikon Densetsu 
+      @rkndnsts
+      
+      Karin Miyamoto 
+      @karin__miyamoto
+      
+      WHITE JAM 
+      @WHITEJAM_STAFF
+      
+      ROIROM 
+      @roirom_official
+      
+      Leon Niihama 
+      @niihamaLEON
+      
+      Panther Ogata 
+      @ogaogaoga399
+      
+      Bocchi Boromaru 
+      @borotchi
+      
+      Fumino 
+      @FUMINO_official
+      
+      Takuya Kimura 
+      @CandC_STAGE
+      
+      Akuruyo no Hitsuji 
+      @akuruyo_sheep
+      
+      TOMOO 
+      @Tomoo_628
+      
+      the bercedes menz 
+      @thebercedesmenz
+      
+      Macaroni Empitsu 
+      @macarock0616
+      
+      ILLIT 
+      @ILLITjpofficial
+      
+      NEK! 
+      @nekiband_jp
+      
+      Ryokuoushoku Shakai 
+      @ryokushaka
+      
+      ANEMONÉ 
+      @33ANEMONE
+      
+      ICEx 
+      @ICEx_official
+      
+      This is LAST 
+      @ThisisLASTBAND
+      
+      Aimyon 
+      @aimyonGtter
+       
+      @AimyongStaff
+      
+      Kis-My-Ft2 
+      @KMF2_0810MENT
+      
+      OCHA NORMA 
+      @ocha_norma
+      
+      timelesz 
+      @OVTT_official
+    image:
+    - HOeOZTcawAArdjW
+    part-of:
+      song: magicvox
+
 - postximage:
     post: 2078434617183412469
     id: HNgT3SrbYAAPSg5
@@ -104,6 +268,16 @@
     - song: magicvox
     part-of:
       postx: 2082406083147247825
+
+- postximage:
+    post: 2083357042203574278
+    id: HOeOZTcawAArdjW
+    index: 1
+    label: USEN list
+    context:
+    - song: magicvox
+    part-of:
+      postx: 2083357042203574278
 
 - update:
     song: magicvox

@@ -1,0 +1,119 @@
+- postx:
+    id: 2083478027925946815
+    account: NEMOPHILA_band
+    label: Announcement
+    published-date: 2026-08-01
+    text: |-
+      【📢天フェス出演ラインナップ解禁!!】
+      
+      NEMOPHILA主催イベント
+      「天壌無窮極音道中」
+      
+      出演ラインナップ決定！！🔥
+      
+      🪽出演
+      NEMOPHILA / East Of Eden / NEK! / TRiDENT
+      
+      🗓️2026年10月12日（月・祝）
+      📍EX THEATER ROPPONGI
+      
+      ⏰OPEN 16:00 / START 17:00
+      
+      🎫2次先行受付
+      2026年8月1日（土）18:00〜8月11日（火）23:59
+      
+      受付はこちら👇
+      https://l-tike.com/nemophila/
+      
+      ▼最新情報・イベント詳細はこちら
+      https://nemophila.tokyo/ja/live/
+      
+      お問い合わせ
+      DISK GARAGE
+      https://info.diskgarage.com
+      
+      ━━━━━━━━━━━━━━
+      
+      地獄があるなら、天国もある。
+      
+      昨年の「地獄フェス」と対をなす、もうひとつの世界。
+      
+      美しさと華やかさをまとったアーティストたちが集結する、“天極フェス”。
+      
+      略して「天フェス」👼
+      
+      会場でお待ちしてます🤘
+      
+      #NEMOPHILA
+      #天壌無窮極音道中
+    translation: |-
+      【📢 Ten-Fes Lineup Unveiled!!】
+      
+      NEMOPHILA Presents Event
+      "Tenjou Mukyuu Gokuon Douchuu"
+      
+      Performing Lineup Announced!!🔥
+      
+      🪽Cast
+      NEMOPHILA / East Of Eden / NEK! / TRiDENT
+      
+      🗓️ October 12, 2026 (Mon / Holiday)
+      📍 EX THEATER ROPPONGI
+      
+      ⏰ OPEN 16:00 / START 17:00
+      
+      🎫 2nd Advance Ticket Lottery
+      August 1, 2026 (Sat) 18:00 – August 11 (Tue) 23:59
+      
+      Apply here 👇
+      https://l-tike.com/nemophila/
+      
+      ▼ Latest Info & Event Details Here
+      https://nemophila.tokyo/ja/live/
+      
+      Inquiries
+      DISK GARAGE
+      https://info.diskgarage.com
+      
+      ━━━━━━━━━━━━━━
+      
+      If Hell exists, Heaven does too.
+      
+      Another world that pairs with last year's "Hell Fes."
+      
+      "Ten-Goku Fes," where artists adorned with beauty and splendor assemble.
+      
+      Abbreviated as "Ten-Fes"👼
+      
+      We'll be waiting for you at the venue🤘
+      
+      #NEMOPHILA
+      #天壌無窮極音道中
+    image:
+    - HOoAOUrbUAADs6G
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postximage:
+    post: 2083478027925946815
+    id: HOoAOUrbUAADs6G
+    index: 1
+    label: Poster
+    local-copy: true
+    part-of:
+      postx: 2083478027925946815
+
+- update:
+    show:
+      year: 2026
+      id: nemophilatenfes
+    date: 2026-08-01
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+

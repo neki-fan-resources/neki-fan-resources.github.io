@@ -12,6 +12,12 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postxvideo:
+                    post: 2083540405795389740
+                    video: 1
+            - multimediasubsection:
+                label: Images
+                multimedia:
                 - postximage:
                     post: 2082839945207751035
                     image: HOe74sKboAAkbbx
@@ -237,6 +243,28 @@
         year: 2026
         id: newsignals
 
+- postx:
+    id: 2083540405795389740
+    account: coco_102
+    label: Blink on stage
+    published-date: 2026-08-01
+    text: |-
+      Blink沁みるなあ😌
+      (なんか画質悪くてごめんね、、笑)
+      
+      #NEKI
+    translation: |-
+      Blink really hits deep😌
+      (Sorry about the low quality, though... lol)
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2083540405795389740
+        video: 1
+
 - postximage:
     post: 2065380888440140028
     id: HKmz80KaIAAAtdh
@@ -336,6 +364,22 @@
         id: newsignals
     part-of:
       postx: 2083474660394684627
+
+- postxvideo:
+    post: 2083540405795389740
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2083540324610461696/img/BrChE2sVmwqHoqi_.jpg
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    - song: blink
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
 
 - update:
     show:

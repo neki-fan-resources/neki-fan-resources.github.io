@@ -13,6 +13,9 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 2084226476824842508
+                    video: 1
+                - postxvideo:
                     post: 2083540405795389740
                     video: 1
             - multimediasubsection:
@@ -265,6 +268,30 @@
         post: 2083540405795389740
         video: 1
 
+- postx:
+    id: 2084226476824842508
+    account: coco_102
+    label: MAZE on stage
+    published-date: 2026-08-03
+    text: |-
+      サビでみんなが一緒に言ってくれてる「おーおーっおおー」の最後の「おおー」とシンバルのタイミングが重なるのがやってて超気持ち良い！！
+      ⁡
+      MAZEはNEK!のライブに必要不可欠☝🏻🌀🩷
+      
+      #NEKI
+    translation: |-
+      It feels super good playing when the final "oh-oh" of the "oh-oh-oh-oh" everyone sings along with in the chorus lines up right with the cymbal!!
+      ⁡
+      MAZE is indispensable for NEK! live shows☝🏻🌀🩷
+      ⁡
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2084226476824842508
+        video: 1
+
 - postximage:
     post: 2065380888440140028
     id: HKmz80KaIAAAtdh
@@ -376,6 +403,22 @@
         year: 2026
         id: newsignals
     - song: blink
+    part-of:
+      show:
+        year: 2026
+        id: newsignals
+
+- postxvideo:
+    post: 2084226476824842508
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2084226277935083520/img/Hh7RM2eEncLRNCVR.jpg
+    context:
+    - song: maze
+    - show:
+        year: 2026
+        id: newsignals
     part-of:
       show:
         year: 2026

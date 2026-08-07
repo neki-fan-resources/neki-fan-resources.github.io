@@ -1,3 +1,57 @@
+- display:
+    show:
+      year: 2026
+      id: thebirthday5
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2085374960554647800
+                    video: 1
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2085362312467357773
+                    image: HPCx7zcbMAAIxXi
+                - postximage:
+                    post: 2085359423103574407
+                    image: HPCvV0dbMAA42Na
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2085351962816754063
+                    image: HPCojQ_bkAA9TV9
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2085359473510764585
+                    image: HPCvYXFbYAA0CQv
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2085359473510764585
+                    image: HPCvYXFbsAEOEKQ
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2085359423103574407
+                    image: HPCvV0ZbUAElN1x
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
 - postx:
     id: 2069012864212574376
     account: YOKOHAMAReNY_b
@@ -100,6 +154,221 @@
         year: 2026
         id: thebirthday5
 
+- postx:
+    id: 2085208155823468870
+    account: YOKOHAMAReNY_b
+    label: Today
+    published-date: 2026-08-06
+    text: |-
+      ＼🎂Today's Live!!🎂／
+      
+      8/6 (木)
+      横浜ReNY beta 2nd anniversary presents  The Birthday vol.5
+      
+      ACT🔻
+      レイラ
+      NEK!
+      osage O.A 海月にさされたら
+      
+      OPEN / START18:00 / 18:30
+      DOOR一般¥4,200＋D 学生￥3,000＋D
+      当日券販売決定！
+      
+      周年Day5❤️‍🔥
+      皆様のご来場心よりお待ちしております🙇‍♂️
+    translation: |-
+      ＼🎂Today's Live!!🎂／
+      
+      8/6 (Thu)
+      Yokohama ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      
+      ACT🔻
+      Layla
+      NEK!
+      osage
+      O.A Jellyfish Stung Me
+      
+      OPEN / START 18:00 / 18:30
+      DOOR General ¥4,200 + D
+      Student ¥3,000 + D
+      Same-day ticket sales confirmed!
+      
+      Anniversary Day 5❤️‍🔥
+      We sincerely look forward to everyone's attendance🙇‍♂️
+    image:
+    - HPAlw58bcAAGKZ7
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- postx:
+    id: 2085351962816754063
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-08-06
+    text: |-
+      横浜ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      
+      📍横浜ReNY beta
+      2周年おめでとうございます🎉㊗️
+      
+      今夜は素敵な時間でした。
+      皆さんありがとうございました！！
+    translation: |-
+      Yokohama ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      
+      📍Yokohama ReNY beta
+      Congratulations on your 2nd anniversary🎉㊗️
+      
+      Tonight was a wonderful time.
+      Thank you very much, everyone!!
+    image:
+    - HPCojQ_bkAA9TV9
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- postx:
+    id: 2085359423103574407
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-08-06
+    text: |-
+      横浜ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      @ 横浜ReNY beta
+      
+      集まってくれてありがとうございました！！
+      レニーベータさん2周年おめでとうございます🌟
+      
+      レニーベータさんで無料券頂いたのでたべました。
+      今年初かき氷たべれてはっぴー！！🍧
+    translation: |-
+      Yokohama ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      @ Yokohama ReNY beta
+      
+      Thank you so much for coming!!
+      Happy 2nd anniversary to ReNY beta🌟
+      
+      I got a free ticket for ReNY beta, so I ate some.
+      So happy I was able to eat shaved ice for the first time this year!!🍧
+    image:
+    - HPCvV0ZbUAElN1x
+    - HPCvV0dbMAA42Na
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- postx:
+    id: 2085359473510764585
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-08-06
+    text: |-
+      横浜ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      ありがとうございましたー！
+      
+      2周年おめでとうございます！
+      大事なイベントに出演できて、お祝いできてとっても嬉しかったです！！！💐
+      スリーマン楽しかったー!!
+    translation: |-
+      Yokohama ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      Thank you so much!
+      
+      Happy 2nd anniversary!
+      I was so happy to perform at such an important event and be able to celebrate with you!!!💐
+      The three-man show was so much fun!!
+    image:
+    - HPCvYXFbYAA0CQv
+    - HPCvYXFbsAEOEKQ
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- postx:
+    id: 2085362312467357773
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-08-06
+    text: |-
+      ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      @ 横浜ReNY beta
+      
+      ご来場ありがとうございました！🎙
+      
+      1ヶ月後には東名阪ツアー開催🕺✨
+      チケット一般発売中💨
+      ▶︎https://l-tike.com/concert/mevent/?mid=748326
+      
+       #NEKI
+    translation: |-
+      ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      @ Yokohama ReNY beta
+      
+      Thank you for coming!🎙
+      
+      The Tomeihan tour starts in 1 month🕺✨
+      General ticket sales now open💨
+      ▶︎https://l-tike.com/concert/mevent/?mid=748326
+      
+       #NEKI
+    image:
+    - HPCx7zcbMAAIxXi
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+    reference:
+    - postximage:
+        post: 2085359473510764585
+        image: HPCvYXFbsAEOEKQ
+
+- postx:
+    id: 2085374960554647800
+    account: coco_102
+    label: Thank you
+    published-date: 2026-08-06
+    text: |-
+      ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      
+      出演させていただきありがとうございました！！
+      ReNY betaさん2周年おめでとうございます㊗️
+      これからも末永くよろしくお願いします🙂‍↕️🙏🏻
+      
+      先輩方のかっこいいライブを見て、たくさんの刺激をいただきました！！これからも頑張ります！
+    translation: |-
+      ReNY beta 2nd anniversary presents 
+      The Birthday vol.5
+      
+      Thank you so much for having us perform!!
+      Happy 2nd anniversary to ReNY beta㊗️
+      We look forward to a long and continued relationship with you🙂‍↕️🙏🏻
+      
+      Seeing our seniors' awesome live performances gave us so much inspiration!! We'll keep doing our best!
+    video:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+    reference:
+    - postximage:
+        post: 2085359473510764585
+        image: HPCvYXFbsAEOEKQ
+
 - postximage:
     post: 2069012864212574376
     id: HLacL_-bwAA4v2Q
@@ -117,13 +386,113 @@
     id: HL5l0eia8AAWVHP
     index: 1
     label: Poster
-    local-copy: true
     context:
     - show:
         year: 2026
         id: thebirthday5
     part-of:
       postx: 2071204844787085726
+
+- postximage:
+    post: 2085208155823468870
+    id: HPAlw58bcAAGKZ7
+    index: 1
+    label: Poster
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2085208155823468870
+
+- postximage:
+    post: 2085351962816754063
+    id: HPCojQ_bkAA9TV9
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2085351962816754063
+
+- postximage:
+    post: 2085359423103574407
+    id: HPCvV0ZbUAElN1x
+    index: 2
+    label: Shaved ice
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2085359423103574407
+
+- postximage:
+    post: 2085359423103574407
+    id: HPCvV0dbMAA42Na
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2085359423103574407
+
+- postximage:
+    post: 2085359473510764585
+    id: HPCvYXFbYAA0CQv
+    index: 1
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2085359473510764585
+
+- postximage:
+    post: 2085359473510764585
+    id: HPCvYXFbsAEOEKQ
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2085359473510764585
+
+- postximage:
+    post: 2085362312467357773
+    id: HPCx7zcbMAAIxXi
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postx: 2085362312467357773
+
+- postxvideo:
+    post: 2085374960554647800
+    id: 1
+    label: On stage
+    cover: 2085374859195174912/img/rO3lORP2BWggdrK_.jpg
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    - song: clockup
+    part-of:
+      postx: 2085374960554647800
 
 - update:
     show:
@@ -132,6 +501,18 @@
     date: 2026-06-23
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- update:
+    show:
+      year: 2026
+      id: thebirthday5
+    date: 2026-08-07
+    text:
+    - First pictures and videos from the show
     part-of:
       show:
         year: 2026

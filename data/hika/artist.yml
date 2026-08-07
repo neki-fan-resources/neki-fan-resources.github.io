@@ -194,6 +194,23 @@
         id: artist
         group: hika
 
+- postinstagram:
+    id: DbnZXLxGVO6
+    account: 46_hikaa
+    label: Rock as our hearts desire
+    published-date: 2026-08-04
+    text: |-
+      感情の赴くままロックをかき鳴らしていこうじゃないか。
+    translation: |-
+      Why don't we just wring out rock as our hearts desire.
+    image:
+    - 1
+    - 2
+    part-of:
+      group:
+        id: artist
+        group: hika
+
 - postinstagramimage:
     post: C_JH_6YyOLY
     id: 1
@@ -268,6 +285,30 @@
     - event: majordebut
     part-of:
       postinstagram: DavKuPXGVgj
+
+- postinstagramimage:
+    post: DbnZXLxGVO6
+    id: 1
+    label: Backstage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postinstagram: DbnZXLxGVO6
+
+- postinstagramimage:
+    post: DbnZXLxGVO6
+    id: 2
+    label: Backstage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postinstagram: DbnZXLxGVO6
 
 - postx:
     id: 1953710557393195152

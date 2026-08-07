@@ -1,0 +1,23 @@
+mediavideo:
+  year: 2026
+  id: asahimusichouse
+  cover-image:
+    webimage:
+      domain: asahi.co.jp
+      page: music_house
+      id: logo
+  channel: Asahi Television
+  show: Music House
+  designation: tv show
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-08-09
+  host: ミュー, モニモニ
+  program: 'https://www.asahi.co.jp/music_house/'
+  part-of:
+    group:
+      id: media
+      group: 2026

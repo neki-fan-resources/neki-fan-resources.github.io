@@ -46,6 +46,52 @@
         year: 2026
         id: oborock
 
+- postx:
+    id: 2085561583149965472
+    account: info_oborock
+    label: Timetable
+    published-date: 2026-08-07
+    text: |-
+      ◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖
+      　　 　タイムテーブル発表！！
+      ◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖
+      
+      🌊おぼろっく2026
+      ～TSURUGA MUSIC FESTIVAL～🌊
+      🗓2026年9月12日(土)-13日(日)
+      📍福井県敦賀市金ヶ崎エリア
+      
+      オフィシャルチケット受付中✨
+      🔽お申込みはコチラ！🎟️
+      https://oborock.com
+      
+      #おぼろっく
+      #福井県
+      #敦賀市
+    translation: |-
+      ◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖
+          Timetable Announcement!!
+      ◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖
+      
+      🌊OBOROCK 2026
+      ～TSURUGA MUSIC FESTIVAL～🌊
+      🗓2026.09.12 (Sat) - 09.13 (Sun)
+      📍Kanagasaki Area, Tsuruga City, Fukui Prefecture
+      
+      Official ticket applications now open✨
+      🔽 Apply here!🎟️
+      https://oborock.com
+      
+      #Oborock
+      #FukuiPrefecture
+      #TsurugaCity
+    image:
+    - HPBCkkiaEAAbsYZ
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
 - postximage:
     post: 2077951675315429559
     id: HNZGEElb0AA9RTz
@@ -85,6 +131,18 @@
         id: oborock
     part-of:
       postx: 2077951675315429559
+
+- postximage:
+    post: 2085561583149965472
+    id: HPBCkkiaEAAbsYZ
+    index: 1
+    label: Timetable
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2085561583149965472
 
 - update:
     show:

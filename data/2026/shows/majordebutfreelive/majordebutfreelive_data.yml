@@ -80,6 +80,12 @@
                 - postximage:
                     post: 2078434983241470218
                     image: HNgVmVkaMAAW5o0
+                - postinstagramimage:
+                    post: DbnZXLxGVO6
+                    image: 1
+                - postinstagramimage:
+                    post: DbnZXLxGVO6
+                    image: 2
         - basicsection:
             label: At the event
             subsections:

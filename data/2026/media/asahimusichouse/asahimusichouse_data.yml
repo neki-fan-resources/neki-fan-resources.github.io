@@ -1,0 +1,91 @@
+- postx:
+    id: 2084612707769340188
+    account: musichouse_ABC
+    label: Announcement
+    published-date: 2026-08-04
+    text: |-
+      8月9日(日)27:45放送
+      💜ラインナップ🕶️
+      
+      オープニング #VINII
+      インタビュー #デラックスデラックス
+      ミニコーナー #NEKI
+      楽曲紹介
+      #THEBACKHORN ｺﾒﾝﾄ
+      #Vaundy ｺﾒﾝﾄ
+      #CIRRA ｺﾒﾝﾄ
+      エンディング #ETKING
+      
+      👧📺 #デラデラ10周年 🎊 9月にNHK大阪ホール公演開催のファミリー #デラデラ　が登場🔥
+    translation: |-
+      Broadcasting on Sunday, August 9 at 27:45
+      💜Lineup🕶️
+      
+      Opening #VINII
+      Interview #DELUXEDELUXE
+      Mini-segment #NEKI
+      Song introductions
+      #THEBACKHORN comment
+      #Vaundy comment
+      #CIRRA comment
+      Ending #ETKING
+      
+      👧📺 #DELADELAS10thAnniversary 🎊 Family #DELADELAs who are holding an NHK Osaka Hall performance in September make an appearance🔥
+    image:
+    - HO4IM7vb0AAvYkf
+    part-of:
+      media:
+        year: 2026
+        id: asahimusichouse
+
+- postximage:
+    post: 2084612707769340188
+    id: HO4IM7vb0AAvYkf
+    index: 1
+    label: Backstage
+    info: Natsu, Hika
+    context:
+    - media:
+        year: 2026
+        id: asahimusichouse
+    part-of:
+      postx: 2084612707769340188
+
+- update:
+    media:
+      year: 2026
+      id: asahimusichouse
+    date: 2026-08-07
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: asahimusichouse
+
+- webimage:
+    domain: asahi.co.jp
+    page: music_house
+    id: logo
+    label: Logo
+    published-date: 2026-08-07
+    url: 'https://www.asahi.co.jp/music_house/img/index_header_file.png'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: asahi.co.jp
+        id: music_house
+
+- webpage:
+    domain: asahi.co.jp
+    id: music_house
+    label: Show page
+    published-date: 2026-08-04
+    url: 'https://www.asahi.co.jp/music_house/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: asahimusichouse
+

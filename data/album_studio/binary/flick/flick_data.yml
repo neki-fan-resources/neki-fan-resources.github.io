@@ -22,6 +22,12 @@
                 multimedia:
                 - youtubeshort: R51L1NCLNq0
                 - youtubeshort: UKbJ8NphAsw
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: R3gfos8C6fI
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo

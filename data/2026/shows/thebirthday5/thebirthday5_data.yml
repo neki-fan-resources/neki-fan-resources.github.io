@@ -12,6 +12,8 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: 0wjLSWnS_Mc
+                - youtubeshort: R3gfos8C6fI
                 - postxvideo:
                     post: 2085374960554647800
                     video: 1
@@ -485,6 +487,7 @@
     post: 2085374960554647800
     id: 1
     label: On stage
+    info: Cocoro
     cover: 2085374859195174912/img/rO3lORP2BWggdrK_.jpg
     context:
     - show:
@@ -513,6 +516,36 @@
     date: 2026-08-07
     text:
     - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- youtubeshort:
+    id: 0wjLSWnS_Mc
+    label: On stage
+    info: Cocoro, studio audio
+    published-date: 2026-08-09
+    context:
+    - song: maze
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- youtubeshort:
+    id: R3gfos8C6fI
+    label: On stage
+    info: Hika, studio audio
+    published-date: 2026-08-08
+    context:
+    - song: flick
+    - show:
+        year: 2026
+        id: thebirthday5
     part-of:
       show:
         year: 2026

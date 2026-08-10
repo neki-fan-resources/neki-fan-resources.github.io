@@ -36,7 +36,7 @@
     part-of:
       media:
         year: 2026
-        id: asahimusichouse
+        id: abcmusichouse
 
 - postximage:
     post: 2084612707769340188
@@ -47,21 +47,33 @@
     context:
     - media:
         year: 2026
-        id: asahimusichouse
+        id: abcmusichouse
     part-of:
       postx: 2084612707769340188
 
 - update:
     media:
       year: 2026
-      id: asahimusichouse
+      id: abcmusichouse
     date: 2026-08-07
     text:
     - Added the appearance
     part-of:
       media:
         year: 2026
-        id: asahimusichouse
+        id: abcmusichouse
+
+- update:
+    media:
+      year: 2026
+      id: abcmusichouse
+    date: 2026-08-10
+    text:
+    - Added the video of the appearance
+    part-of:
+      media:
+        year: 2026
+        id: abcmusichouse
 
 - webimage:
     domain: asahi.co.jp
@@ -87,5 +99,21 @@
     part-of:
       media:
         year: 2026
-        id: asahimusichouse
+        id: abcmusichouse
+
+- webvideo:
+    domain: drive.google.com
+    page: nekidist
+    id: abctv-musichouse
+    label: NEK! segment
+    published-date: 2026-08-10
+    url: 'https://drive.google.com/file/d/1GNmhj7oN6Ty2QnvgoHPrjAWdwAtcPx0_/view?usp=sharing'
+    context:
+    - media:
+        year: 2026
+        id: abcmusichouse
+    part-of:
+      media:
+        year: 2026
+        id: abcmusichouse
 

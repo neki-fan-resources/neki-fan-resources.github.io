@@ -472,6 +472,38 @@
     part-of:
       postx: 2065332901097697764
 
+- postx:
+    id: 2085750489124323679
+    account: 46_hikaa
+    label: Happy birthday Natsu
+    published-date: 2026-08-08
+    text: |-
+      ネキのスーパーギタリストなつ！
+      
+      お誕生日おめでとう。
+      
+      いつまでも俺の側で
+      みんなの側で笑っていてくれ！
+      
+      これからもよろしく！
+      @natsu08_guitar
+    translation: |-
+      NEK!'s super guitarist Natsu!
+      
+      Happy birthday.
+      
+      Keep smiling by my side
+      and by everyone's side forever!
+      
+      Looking forward to continuing to work with you!
+      @natsu08_guitar
+    image:
+    - HPITA3mbAAEnr_g
+    part-of:
+      group:
+        id: artist
+        group: hika
+
 - postximage:
     post: 2006379318264651995
     id: G9gXWORaAAAsPN8
@@ -526,6 +558,19 @@
     label: New guitar
     part-of:
       postx: 2065412670870974664
+
+- postximage:
+    post: 2085750489124323679
+    id: HPITA3mbAAEnr_g
+    index: 1
+    label: Backstage
+    info: Natsu, Hika
+    context:
+    - show:
+        year: 2026
+        id: majordebutfreelive
+    part-of:
+      postx: 2085750489124323679
 
 - postxvideo:
     post: 1996461176130351354

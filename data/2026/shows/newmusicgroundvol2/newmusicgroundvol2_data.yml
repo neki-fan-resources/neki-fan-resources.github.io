@@ -1,3 +1,462 @@
+- display:
+    show:
+      year: 2026
+      id: newmusicgroundvol2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2087562533679124961
+                    video: 2
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2087580542787277101
+                    image: HPhwP9ebAAAJhnk
+                - postximage:
+                    post: 2087562533679124961
+                    image: HPiC_p3a4AEYzdv
+                - postinstagramimage:
+                    post: Db8WewlknDG
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2087541857110950041
+                    image: HPhwP9BagAAYd9W
+                - postinstagramimage:
+                    post: Db8WewlknDG
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2087541857110950041
+                    image: HPhwP82b0AAlVJ6
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+
+- postinstagram:
+    id: Db8WewlknDG
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-08-12
+    text: |-
+      New Music GROUND vol.2
+      📍Shibuya Milkyway
+      
+      w/
+      Doona
+      DeNeel
+      バチカン市国に愛されたい
+      
+      ご来場ありがとうございました🔥
+      
+      9月開催東名阪ツアー
+      チケット一般発売中！
+      ▶︎ https://l-tike.com/nekiband/
+      
+      9/2(水)リリース
+      Major 1st EP『B!NARY』
+      ▶︎ https://neki10010010.ponycanyon.co.jp/
+      
+      #NEKI
+    translation: |-
+      New Music GROUND vol.2
+      📍Shibuya Milkyway
+      
+      w/
+      Doona
+      DeNeel
+      Batican Shikoku ni Aishatai
+      
+      Thank you for coming🔥
+      
+      Tokyo-Nagoya-Osaka Tour in September
+      Tickets on general sale now!
+      ▶︎ https://l-tike.com/nekiband/
+      
+      Releasing 9/2 (Wed)
+      Major 1st EP "B!NARY"
+      ▶︎ https://neki10010010.ponycanyon.co.jp/
+      
+      #NEKI
+    image:
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+    reference:
+    - postximage:
+        post: 2087541857110950041
+        image: HPhwP82b0AAlVJ6
+    - postximage:
+        post: 2087580542787277101
+        image: HPhwP9ebAAAJhnk
+    - postximage:
+        post: 2087562533679124961
+        image: HPiC_p3a4AEYzdv
+
+- postinstagramimage:
+    post: Db8WewlknDG
+    id: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      postinstagram: Db8WewlknDG
+
+- postinstagramimage:
+    post: Db8WewlknDG
+    id: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      postinstagram: Db8WewlknDG
+
+- postx:
+    id: 2087379865897251173
+    account: s_milkyway
+    label: Sold out
+    published-date: 2026-08-12
+    text: |-
+      ‼️SOLD OUT‼️
+      
+      ‼️SOLD OUT‼️
+      
+      ‼️SOLD OUT‼️
+      
+      2026.8.12@Shibuya Milkyway
+      「New Music GROUND vol.2」
+      
+      OPEN 18:00 / START 18:30
+      
+      [CAST]
+      NEK!
+      Doona
+      バチカン市国に愛されたい
+      DeNeel
+      
+      🎟️当日券/販売は、御座いません🙇‍♂️
+      🛍️先行物販は、御座いません🙇‍♂️
+      🚩整列/1Fにて開場15分前より開始
+    translation: |-
+      ‼️SOLD OUT‼️
+      
+      ‼️SOLD OUT‼️
+      
+      ‼️SOLD OUT‼️
+      
+      2026.8.12@Shibuya Milkyway
+      "New Music GROUND vol.2"
+      
+      OPEN 18:00 / START 18:30
+      
+      [CAST]
+      NEK!
+      Doona
+      Batican Shikoku ni Aishatai
+      DeNeel
+      
+      🎟️No same-day tickets available🙇‍♂️
+      🛍️No advance merch sales🙇‍♂️
+      🚩Lineup/Starts at 1F 15 minutes before doors open
+    image:
+    - HPfc7K9bAAA4SON
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+
+- postx:
+    id: 2087397446104350849
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-08-12
+    text: |-
+      🔥 TODAY 🔥
+      
+      「New Music GROUND vol.2」
+      @ Shibuya Milkyway
+      
+      w/
+      Doona
+      バチカン市国に愛されたい
+      DeNeel
+      
+      チケットSOLD OUT‼️
+      渋谷でお待ちしております🙌
+      
+      #NEKI
+    translation: |-
+      🔥 TODAY 🔥
+      
+      "New Music GROUND vol.2"
+      @ Shibuya Milkyway
+      
+      w/
+      Doona
+      Batican Shikoku ni Aishatai
+      DeNeel
+      
+      Tickets SOLD OUT‼️
+      We're waiting for you in Shibuya🙌
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+    reference:
+    - postximage:
+        post: 2087379865897251173
+        image: HPfc7K9bAAA4SON
+
+- postx:
+    id: 2087405231785361560
+    account: coco_102
+    label: Today
+    published-date: 2026-08-12
+    text: |-
+      本日はこちら！激アツの予感🔥
+      Shibuya Milkywayで待ってます！！
+    translation: |-
+      Today is this! Feeling like it's gonna be super hot🔥
+      Waiting for you at Shibuya Milkyway!!
+    video:
+    - 1
+    part-of:
+      postx: 2087397446104350849
+
+- postx:
+    id: 2087541857110950041
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-08-12
+    text: |-
+      New Music GROUND vol.2
+      📍Shibuya Milkyway
+      
+      w/
+      @DoonaOfficial
+       
+      @DeNeel
+       
+      @Bachikan459_
+       
+      
+      ご来場ありがとうございました🔥
+      
+      9月開催東名阪ツアー
+      チケット一般発売中！
+      ▶︎ https://l-tike.com/nekiband/
+      
+      9/2(水)リリース
+      Major 1st EP『B!NARY』
+      ▶︎ https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    translation: |-
+      New Music GROUND vol.2
+      📍Shibuya Milkyway
+      
+      w/
+      @DoonaOfficial
+       
+      @DeNeel
+       
+      @Bachikan459_
+       
+      
+      Thank you for coming🔥
+      
+      Tokyo-Nagoya-Osaka Tour in September
+      Tickets on general sale now!
+      ▶︎ https://l-tike.com/nekiband/
+      
+      Releasing 9/2 (Wed)
+      Major 1st EP "B!NARY"
+      ▶︎ https://neki10010010.ponycanyon.co.jp
+      
+      #NEKI
+    image:
+    - HPhwP82b0AAlVJ6
+    - HPhwP9BagAAYd9W
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+
+- postx:
+    id: 2087562533679124961
+    account: coco_102
+    label: Thank you
+    published-date: 2026-08-12
+    text: |-
+      「New Music GROUND vol.2」
+      お越しくださりありがとうございました！！
+      いろんなジャンルが入り交じる激熱な対バンでした！
+      熱気やばすぎて意識飛ぶかと思ったよ🫢🔥💦
+      バチカンさんもDeNeelさんもDoonaさんもめーっちゃかっこよかった！！
+      
+      NEK!ももっともっと頑張るぞーーー✊🏻
+    translation: |-
+      "New Music GROUND vol.2"
+      Thank you so much for coming!!
+      It was a super hot joint show with a mix of so many different genres!
+      The heat was so insane I thought I was gonna pass out🫢🔥💦
+      Bachikan-san, DeNeel-san, and Doona-san were all sooooo cool!!
+      
+      NEK! is gonna work harder and harder tooーーー✊🏻
+    image:
+    - HPiC_p3a4AEYzdv
+    video:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+
+- postx:
+    id: 2087580542787277101
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-08-12
+    text: |-
+      本日の渋谷ミルキーウェイ
+      激アツライブの日でしたねっ
+      
+      皆さんの最高の笑顔と歓声で
+      会場はホントあつあつでしたよ！！
+      
+      ありがとうございました！
+    translation: |-
+      Today's Shibuya Milkyway
+      It was a super hot live show day, wasn't it
+      
+      With everyone's best smiles and cheers
+      The venue was truly burning hot!!
+      
+      Thank you so much!
+    image:
+    - HPhwP9ebAAAJhnk
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+    reference:
+    - postximage:
+        post: 2087541857110950041
+        image: HPhwP82b0AAlVJ6
+    - postximage:
+        post: 2087541857110950041
+        image: HPhwP9BagAAYd9W
+
+- postximage:
+    post: 2087379865897251173
+    id: HPfc7K9bAAA4SON
+    index: 1
+    label: Poster sold out
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      postx: 2087379865897251173
+
+- postximage:
+    post: 2087541857110950041
+    id: HPhwP82b0AAlVJ6
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      postx: 2087541857110950041
+
+- postximage:
+    post: 2087541857110950041
+    id: HPhwP9BagAAYd9W
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      postx: 2087541857110950041
+
+- postximage:
+    post: 2087562533679124961
+    id: HPiC_p3a4AEYzdv
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      postx: 2087562533679124961
+
+- postximage:
+    post: 2087580542787277101
+    id: HPhwP9ebAAAJhnk
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      postx: 2087580542787277101
+
+- postxvideo:
+    post: 2087405231785361560
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2087405184913969152/img/uyEaUYjnb4jpnDLI.jpg
+    context:
+    - show:
+        year: 2026
+        id: newsignals
+    - song: maze
+    part-of:
+      postx: 2087405231785361560
+
+- postxvideo:
+    post: 2087562533679124961
+    id: 2
+    label: On stage
+    info: Cocoro
+    cover: 2087562457384644608/img/laG8RfP9SJ1ICIzN.jpg
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    - song: endlessgame
+    part-of:
+      postx: 2087562533679124961
+
 - update:
     show:
       year: 2026
@@ -22,6 +481,7 @@
     - show:
         year: 2026
         id: newmusicgroundvol2
+    todo: was replaced in webpage. Get version from X post ?
     part-of:
       webpage:
         domain: neki.bitfan.id

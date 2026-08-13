@@ -12,6 +12,8 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: I_7pQP8qQx0
+                - youtubeshort: wy-ac_SrMhY
                 - youtubeshort: 0wjLSWnS_Mc
                 - youtubeshort: R3gfos8C6fI
                 - postxvideo:
@@ -537,6 +539,21 @@
         id: thebirthday5
 
 - youtubeshort:
+    id: I_7pQP8qQx0
+    label: On stage
+    info: Natsu, studio audio
+    published-date: 2026-08-11
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    - song: reigengirl
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- youtubeshort:
     id: R3gfos8C6fI
     label: On stage
     info: Hika, studio audio
@@ -546,6 +563,21 @@
     - show:
         year: 2026
         id: thebirthday5
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+
+- youtubeshort:
+    id: wy-ac_SrMhY
+    label: On stage
+    info: Kanade, studio audio
+    published-date: 2026-08-10
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    - song: getover
     part-of:
       show:
         year: 2026

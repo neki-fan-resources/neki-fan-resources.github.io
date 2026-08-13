@@ -57,10 +57,22 @@ contentpage:
       id: debuttourtokyo
   - show:
       year: 2026
+      id: oborock
+  - show:
+      year: 2026
+      id: binarytowershibuya
+  - show:
+      year: 2026
+      id: binarytowernagoya
+  - show:
+      year: 2026
       id: debuttournagoya
   - show:
       year: 2026
       id: debuttourosaka
+  - show:
+      year: 2026
+      id: binarytowerumeda
   - tour: majordebuttour
   - album: binary
   - show:

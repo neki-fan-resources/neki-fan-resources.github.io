@@ -1,3 +1,55 @@
+- display:
+    show:
+      year: 2026
+      id: treasure05x
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2088531200008982646
+                    image: HPv0CGUacAA6qBs
+                - postximage:
+                    post: 2088531200008982646
+                    image: HPv0CGIaMAAcOUy
+                - postximage:
+                    post: 2088521910246383759
+                    image: HPvrmlZasAAVvKj
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2088522550720835989
+                    image: HPvsL_FbsAALPEE
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2088523419340165414
+                    image: HPvs-WQbQAAoa1m
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2088523609837081002
+                    image: HPvtJldbwAAnd2i
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2088531200008982646
+                    image: HPv0CGUagAARrPg
+                - postximage:
+                    post: 2088521910246383759
+                    image: HPvrmlZbAAAlL3t
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+
 - postx:
     id: 2067895162156863853
     account: TREASURE05XOffi
@@ -116,6 +168,191 @@
         post: 2083387363804549490
         image: HOmtw0GaQAAfmw2
 
+- postx:
+    id: 2088521910246383759
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-08-15
+    text: |-
+      「TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～」
+      @ 愛知・ダイアモンドホール
+      
+      ずっと出たかった会場さんとイベントさんでした！！
+      たくさん集まってくれてありがとう！🥹
+      みんながキラキラした顔で見てくれてたから私もめっちゃ楽しかったよ！！！！🫂
+      またこのイベントで、会場で会えますように！
+    translation: |-
+      "TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～"
+      @ Aichi / Diamond Hall
+      
+      This was a venue and event I've wanted to play at for so long!!
+      Thank you so much for gathering in such big numbers! 🥹
+      Seeing all of you watching us with sparkling faces made it super fun for me too!!!! 🫂
+      Hope to see you again at this event, at this venue!
+    image:
+    - HPvrmlZasAAVvKj
+    - HPvrmlZbAAAlL3t
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+
+- postx:
+    id: 2088522550720835989
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-08-15
+    text: |-
+      「TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～」
+      
+      📍愛知・ダイアモンドホール
+      
+      皆んな最高の声と笑顔、ありがとう！
+      
+      あっという間でばり楽しかったです。
+      
+      ありがとうございました⭐️
+    translation: |-
+      "TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～"
+      
+      📍Aichi / Diamond Hall
+      
+      Thank you everyone for the best voices and smiles!
+      
+      It went by in a flash and was super fun.
+      
+      Thank you so much⭐️
+    image:
+    - HPvsL_FbsAALPEE
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+
+- postx:
+    id: 2088523419340165414
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-08-15
+    text: |-
+      “TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～”
+      
+      ありがとうございましたー！！！
+      トレジャーでダイアモンドホールに立てたこと本当に嬉しかったです！！
+      前から後ろの方まで手を上げてくれていて、最高の景色でした❤️‍🔥❤️‍🔥
+      楽しかったー！！
+      
+      また戻って来られるよう頑張ります💪🏻🔥
+    translation: |-
+      “TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～”
+      
+      Thank you so much-!!!
+      I was truly so happy to stand on the stage at Diamond Hall for TREASURE!!
+      Seeing hands raised from the very front all the way to the back was the best view❤️‍🔥❤️‍🔥
+      It was so much fun-!!
+      
+      We'll do our best so we can come back again💪🏻🔥
+    image:
+    - HPvs-WQbQAAoa1m
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+    reference:
+    - postximage:
+        post: 2088521910246383759
+        image: HPvrmlZbAAAlL3t
+
+- postx:
+    id: 2088523609837081002
+    account: coco_102
+    label: Thank you
+    published-date: 2026-08-15
+    text: |-
+      TREASURE05Xありがとうございました！！
+      多くの方にNEK!を観ていただけて嬉しかったです🌞
+      ダイアモンドホールに立てたのもめっちゃ嬉しかった！！広々してて気持ちよかったです！
+      
+      もっともっとBIGになって帰ってきます👊🏻🔥
+    translation: |-
+      Thank you so much for TREASURE05X!!
+      I was so happy that so many people got to watch NEK!🌞
+      Standing on stage at Diamond Hall made me super happy too!! It felt so spacious and great!
+      
+      We'll come back even BIGGER and better👊🏻🔥
+    image:
+    - HPvtJldbwAAnd2i
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+    reference:
+    - postximage:
+        post: 2088521910246383759
+        image: HPvrmlZbAAAlL3t
+
+- postx:
+    id: 2088531200008982646
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-08-15
+    text: |-
+      TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～
+      📍愛知・ダイアモンドホール
+      
+      初TREASURE‼️
+      ご来場ありがとうございました🎶
+      
+      9月開催東名阪ツアー
+      チケット一般発売中🎫💨 
+      ▶︎https://l-tike.com/concert/mevent/?mid=748326
+      
+      photo by 
+      @_kpwcam
+       
+      
+      #NEKI 
+      #TREASURE05X 
+      #トレジャー
+    translation: |-
+      TREASURE05X 2026
+      ～BURNING DIAMONDS FINAL～
+      📍Aichi / Diamond Hall
+      
+      First TREASURE‼️
+      Thank you so much for coming🎶
+      
+      Tickets on general sale for our
+      Tokyo-Nagoya-Osaka tour in September🎫💨 
+      ▶︎https://l-tike.com/concert/mevent/?mid=748326
+      
+      photo by 
+      @_kpwcam
+       
+      
+      #NEKI 
+      #TREASURE05X 
+      #TREASURE
+    image:
+    - HPv0CGIaMAAcOUy
+    - HPv0CGUacAA6qBs
+    - HPv0CGUagAARrPg
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+    reference:
+    - postximage:
+        post: 2088521910246383759
+        image: HPvrmlZbAAAlL3t
+
 - postximage:
     post: 2067895162156863853
     id: HLKPR5lbkAAhn-v
@@ -141,6 +378,105 @@
     part-of:
       postx: 2083387363804549490
 
+- postximage:
+    post: 2088521910246383759
+    id: HPvrmlZasAAVvKj
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2088521910246383759
+
+- postximage:
+    post: 2088521910246383759
+    id: HPvrmlZbAAAlL3t
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2088521910246383759
+
+- postximage:
+    post: 2088522550720835989
+    id: HPvsL_FbsAALPEE
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2088522550720835989
+
+- postximage:
+    post: 2088523419340165414
+    id: HPvs-WQbQAAoa1m
+    index: 2
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2088523419340165414
+
+- postximage:
+    post: 2088523609837081002
+    id: HPvtJldbwAAnd2i
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2088523609837081002
+
+- postximage:
+    post: 2088531200008982646
+    id: HPv0CGIaMAAcOUy
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2088531200008982646
+
+- postximage:
+    post: 2088531200008982646
+    id: HPv0CGUacAA6qBs
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2088531200008982646
+
+- postximage:
+    post: 2088531200008982646
+    id: HPv0CGUagAARrPg
+    index: 4
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postx: 2088531200008982646
+
 - update:
     show:
       year: 2026
@@ -148,6 +484,18 @@
     date: 2026-06-19
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+
+- update:
+    show:
+      year: 2026
+      id: treasure05x
+    date: 2026-08-15
+    text:
+    - First pictures from the show
     part-of:
       show:
         year: 2026

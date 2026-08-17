@@ -76,6 +76,70 @@
         year: 2026
         id: ignitionbrayme
 
+- postx:
+    id: 2089207331905319255
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-08-17
+    text: |-
+      ⚡️ 本日開催 ⚡️
+      
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      @ 下北沢CLUB251
+      
+      w/ Bray me
+      @brayme_official
+       
+      
+      ＊前売チケットはソールドアウトしておりますが、
+      若干数当日券販売がございます🎫
+      
+      下北沢でお待ちしております🔥
+      
+      #NEKI
+    translation: |-
+      ⚡️ Happening Today ⚡️
+      
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      @ Shimokitazawa CLUB251
+      
+      w/ Bray me
+      @brayme_official
+       
+      
+      ＊Advance tickets are sold out, but
+      a limited number of same-day tickets will be on sale🎫
+      
+      Waiting for you in Shimokitazawa🔥
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+    reference:
+    - postximage:
+        post: 2068937027396198883
+        image: HLVubhxbMAA8biW
+
+- postx:
+    id: 2089247036608848175
+    account: coco_102
+    label: Few same-day tickets
+    published-date: 2026-08-17
+    text: |-
+      本日はBray meさんとのツーマンライブです！
+      当日券ちょこっとあるそうなので、ぜひ空いてる方は遊びに来てください🫰🏻🖤
+    translation: |-
+      Today is our two-man live with Bray me!
+      Sounds like there are a few same-day tickets, so if you're free, please come hang out🫰🏻🖤
+    video:
+    - 1
+    part-of:
+      postx: 2089207331905319255
+
 - postximage:
     post: 2062489542179836177
     id: HJeqnPfa4AAhUuC
@@ -100,6 +164,19 @@
         id: ignitionbrayme
     part-of:
       postx: 2068937027396198883
+
+- postxvideo:
+    post: 2089247036608848175
+    id: 1
+    label: Heart
+    info: Cocoro
+    cover: 2089247017453469696/img/Oe2wHq_wRIanWyUT.jpg
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089247036608848175
 
 - update:
     show:

@@ -24,6 +24,9 @@
                     image: HPvrmlZasAAVvKj
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DcFmDBwGeVv
+                    image: 2
                 - postximage:
                     post: 2088522550720835989
                     image: HPvsL_FbsAALPEE
@@ -45,10 +48,93 @@
                 - postximage:
                     post: 2088521910246383759
                     image: HPvrmlZbAAAlL3t
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DcFmDBwGeVv
+                    image: 4
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DcFmDBwGeVv
+                    image: 3
+                - postinstagramimage:
+                    post: DcFmDBwGeVv
+                    image: 1
     part-of:
       show:
         year: 2026
         id: treasure05x
+
+- postinstagram:
+    id: DcFmDBwGeVv
+    account: 46_hikaa
+    label: Photos
+    published-date: 2026-08-16
+    text: |-
+      2026.08.15 
+      
+      Photo by (@__kpwcam )
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+
+- postinstagramimage:
+    post: DcFmDBwGeVv
+    id: 1
+    label: Setlist
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcFmDBwGeVv
+
+- postinstagramimage:
+    post: DcFmDBwGeVv
+    id: 2
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcFmDBwGeVv
+
+- postinstagramimage:
+    post: DcFmDBwGeVv
+    id: 3
+    label: Backstage
+    info: Kanade, Natsu, Hika
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcFmDBwGeVv
+
+- postinstagramimage:
+    post: DcFmDBwGeVv
+    id: 4
+    label: Backstage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcFmDBwGeVv
 
 - postx:
     id: 2067895162156863853

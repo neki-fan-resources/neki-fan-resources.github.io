@@ -1,0 +1,18 @@
+show:
+  year: 2026
+  id: ignitionacoustic2man
+  cover-image:
+    postximage:
+      post: 2089336945365397518
+      image: HP7Ds-rawAAuN-I
+  fullname: Ignition!!! 〜Acoustic Two Man Show〜
+  sublabel: Tokyo
+  date: 2026-10-06
+  description:
+  - Special acoustic 'solo' show with Hika and こたに, the singer of Bray me.
+  venue: 440, Shimokitazawa, Tokyo
+  event-page: 'https://neki.bitfan.id/schedules/119314'
+  part-of:
+    group:
+      id: shows
+      group: 2026

@@ -1,0 +1,169 @@
+- postx:
+    id: 2089336945365397518
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-08-17
+    text: |-
+      ˗ˏˋ 🌟 情報解禁 🌟 ˎˊ˗
+      
+      10/6(火)
+      「Ignition!!! 〜Acoustic Two Man Show〜」
+      @ 下北沢440
+      
+      Hika初のソロでの弾き語りライブ出演が決定🎊
+      
+      < 出演 >
+      こたに（Bray me）
+      Hika（NEK!）
+      
+      🎫プレオーダー(抽選)受付：
+      8/17(月)22:00 - 8/31(月)18:00
+      https://eplus.jp/sf/detail/4583200001-P0030001
+      
+      #NEKI　
+      @brayme_official
+    image:
+    - HP7Ds-rawAAuN-I
+    part-of:
+      show:
+        year: 2026
+        id: ignitionacoustic2man
+
+- postx:
+    id: 2089336950134325285
+    account: brayme_official
+    label: Announcement
+    published-date: 2026-08-17
+    text: |-
+      ボーカルこたにの弾き語り解禁🌻
+      
+      2026年10月6日(火)下北沢440(four forty)
+      Ignition!!! 〜Acoustic Two Man Show〜
+      
+      -act-
+      Hika(NEK!)
+      こたに(Bray me)
+      
+      開場 19:00/開演 19:30
+      
+      🎫https://eplus.jp/sf/detail/4583200001-P0030001
+      プレオーダー：8/31(月)18:00まで
+      
+      Hikaと弾き語り2マンです！
+      是非遊びにきてね✌︎こたに
+    translation: |-
+      Acoustic solo show announcement from vocalist Kotani🌻
+      
+      Tuesday, October 6, 2026 at Shimokitazawa 440 (four forty)
+      Ignition!!! ~Acoustic Two Man Show~
+      
+      -act-
+      Hika (NEK!)
+      Kotani (Bray me)
+      
+      Doors open 19:00 / Start 19:30
+      
+      🎫https://eplus.jp/sf/detail/4583200001-P0030001
+      Pre-order: Until Monday, August 31, 18:00
+      
+      An acoustic two-man show with Hika!
+      Please definitely come hang out✌︎ KotaniAcoustic solo show announcement from vocalist Kotani🌻
+      
+      Tuesday, October 6, 2026 at Shimokitazawa 440 (four forty)
+      Ignition!!! ~Acoustic Two Man Show~
+      
+      -act-
+      Hika (NEK!)
+      Kotani (Bray me)
+      
+      Doors open 19:00 / Start 19:30
+      
+      🎫https://eplus.jp/sf/detail/4583200001-P0030001
+      Pre-order: Until Monday, August 31, 18:00
+      
+      An acoustic two-man show with Hika!
+      Please definitely come hang out✌︎ Kotani
+    image:
+    - HP7Q4bvboAAzsrt
+    part-of:
+      show:
+        year: 2026
+        id: ignitionacoustic2man
+    reference:
+    - postximage:
+        post: 2089336945365397518
+        image: HP7Ds-rawAAuN-I
+
+- postx:
+    id: 2089337424283611349
+    account: 46_hikaa
+    label: Announcement
+    published-date: 2026-08-17
+    text: |-
+      ビッグニュース！！！！
+      
+      弾き語りライブやるよ！！！！
+      
+      こたにさん、よろしくお願い致します！
+    translation: |-
+      Big news!!!!
+      
+      Doing an acoustic solo live show!!!!
+      
+      Kotani-san, looking forward to working with you!
+    image:
+    - HP7RUDSagAAJNAf
+    part-of:
+      postx: 2089336945365397518
+
+- postximage:
+    post: 2089336945365397518
+    id: HP7Ds-rawAAuN-I
+    index: 1
+    label: Poster
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: ignitionacoustic2man
+    part-of:
+      postx: 2089336945365397518
+
+- postximage:
+    post: 2089336950134325285
+    id: HP7Q4bvboAAzsrt
+    index: 2
+    label: On stage
+    info: Hika, こたに (Bray me)
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089336950134325285
+
+- postximage:
+    post: 2089337424283611349
+    id: HP7RUDSagAAJNAf
+    index: 1
+    label: On stage
+    info: Hika, こたに (Bray me)
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089337424283611349
+
+- update:
+    show:
+      year: 2026
+      id: ignitionacoustic2man
+    date: 2026-08-18
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: ignitionacoustic2man
+

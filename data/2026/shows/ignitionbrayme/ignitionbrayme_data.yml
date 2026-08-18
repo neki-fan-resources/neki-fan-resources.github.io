@@ -1,3 +1,138 @@
+- display:
+    show:
+      year: 2026
+      id: ignitionbrayme
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DcJPApjEgMo
+                    image: 3
+                - postximage:
+                    post: 2089355313195758057
+                    image: HP7hlJ4asAEBUXL
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2089374057213169787
+                    image: HP7yoMibkAAcouF
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2089370707994280393
+                    image: HP7vkhUbIAARtO3
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2089377401893687732
+                    image: HP71q8RaUAIJSdO
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2089370707994280393
+                    image: HP7vkhIboAAypKr
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2089355313195758057
+                    image: HP7hlKAbIAAlFJ9
+                - postximage:
+                    post: 2089360038599221707
+                    image: HP7l4RKaMAAN6kz
+                - postximage:
+                    post: 2089382411205529643
+                    image: HP76OUgbgAA3fo_
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2089337424283611349
+                    image: HP7RUDSagAAJNAf
+                - postximage:
+                    post: 2089336950134325285
+                    image: HP7Q4bvboAAzsrt
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2089247036608848175
+                    video: 1
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+
+- postinstagram:
+    id: DcJPApjEgMo
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-08-17
+    text: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      📍下北沢CLUB251
+      
+      w/ Bray me
+      @brayme_official 
+       
+      THANK YOU SOLD OUT🔥
+      ご来場ありがとうございました！
+      
+      9月開催東名阪ツアー
+      チケット一般発売中🎫💨 
+      ▶︎ https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      📍Shimokitazawa CLUB251
+      
+      w/ Bray me
+      @brayme_official 
+       
+      THANK YOU SOLD OUT🔥
+      Thank you very much for coming!
+      
+      Tokyo-Nagoya-Osaka Tour in September
+      General ticket sales now open🎫💨 
+      ▶︎ https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+    reference:
+    - postximage:
+        post: 2089355313195758057
+        image: HP7hlKAbIAAlFJ9
+    - postximage:
+        post: 2089355313195758057
+        image: HP7hlJ4asAEBUXL
+
+- postinstagramimage:
+    post: DcJPApjEgMo
+    id: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postinstagram: DcJPApjEgMo
+
 - postx:
     id: 2062489542179836177
     account: CLUB251official
@@ -140,6 +275,224 @@
     part-of:
       postx: 2089207331905319255
 
+- postx:
+    id: 2089355313195758057
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-08-17
+    text: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      📍下北沢CLUB251
+      
+      w/ Bray me
+      @brayme_official
+       
+      
+      THANK YOU SOLD OUT🔥
+      ご来場ありがとうございました！
+      
+      9月開催東名阪ツアー
+      チケット一般発売中🎫💨 
+      ▶︎ https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      📍Shimokitazawa CLUB251
+      
+      w/ Bray me
+      @brayme_official
+       
+      
+      THANK YOU SOLD OUT🔥
+      Thank you very much for coming!
+      
+      Tokyo-Nagoya-Osaka Tour in September
+      General ticket sales now open🎫💨 
+      ▶︎ https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HP7hlJ4asAEBUXL
+    - HP7hlKAbIAAlFJ9
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+
+- postx:
+    id: 2089360038599221707
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-08-17
+    text: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      @ 下北沢CLUB251
+      
+      ソールドアウトありがとうございました！！
+      本当に毎年楽しみにしているので今年もご一緒できて最高でした🥹
+      今日もめたんこ熱い251だった‼️ჱ̒^ ̳  ̫  ̳^
+      
+      Bray meさんありがとうございした！！
+      来てくれたみんなもありがと！！
+    translation: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      @ Shimokitazawa CLUB251
+      
+      Thank you so much for the sold out show!!
+      I really look forward to this every year, so it was amazing to share the stage again this year🥹
+      251 was super crazy hot today too‼️ჱ̒^ ̳  ̫  ̳^
+      
+      Thank you so much, Bray me!!
+      Thanks to everyone who came out too!!
+    image:
+    - HP7l4RKaMAAN6kz
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+
+- postx:
+    id: 2089370707994280393
+    account: coco_102
+    label: Thank you
+    published-date: 2026-08-17
+    text: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      お越しくださった皆さんありがとうございました！！
+      今年もめっちゃ楽しかったです！ソールドしたギッチギチのフロアと作り上げるライブはまじで気持ち良すぎた！！
+      これからも姉さんたちのかっこいい背中追っかけてがむしゃらに頑張ります👊🏻🔥
+    translation: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      Thank you so much to everyone who came!!
+      It was so much fun again this year! Creating a live show together with a sold-out, packed-tight floor felt truly amazing!!
+      I'll keep chasing after the cool backs of our big sisters and doing my absolute best👊🏻🔥
+    image:
+    - HP7vkhIboAAypKr
+    - HP7vkhUbIAARtO3
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+    reference:
+    - postximage:
+        post: 2089355313195758057
+        image: HP7hlKAbIAAlFJ9
+
+- postx:
+    id: 2089374057213169787
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-08-17
+    text: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      
+      珍しい曲もやったり？で、最高の盛り上がりをありがとう‼️‼️❤️‍🔥
+      
+      そしてBray meさんとは3度目のツーマン！
+      ほんと毎回、たくさんの刺激を与えてくださる最高の姉さんたちです。
+      今日もかっこよすぎたー！！
+      ありがとうございました！！
+    translation: |-
+      251 presents Ignition!!! 
+      〜Special Two Man Show〜
+      
+      We even played some rare songs? Thank you for the incredible energy‼️‼️❤️‍🔥
+      
+      And it was our 3rd two-man show with Bray me!
+      They really are the best big sisters who give us so much inspiration every single time.
+      They were way too cool today too!!
+      Thank you so much!!
+    image:
+    - HP7yoMibkAAcouF
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+    reference:
+    - postximage:
+        post: 2089360038599221707
+        image: HP7l4RKaMAAN6kz
+
+- postx:
+    id: 2089377401893687732
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-08-17
+    text: |-
+      Bray meさんとのツーマン。
+      
+      下北沢CLUB251
+      ソールドアウト。
+      
+      ありがとうございました！
+      
+      今回も楽しいを超えた最高の時間でした。
+      やっぱ音楽って素晴らしい
+    translation: |-
+      Two-man show with Bray me.
+      
+      Shimokitazawa CLUB251
+      Sold out.
+      
+      Thank you so much!
+      
+      Once again, it was an incredible time that went beyond just fun.
+      Music really is wonderful
+    image:
+    - HP71q8RaUAIJSdO
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+    reference:
+    - postximage:
+        post: 2089360038599221707
+        image: HP7l4RKaMAAN6kz
+
+- postx:
+    id: 2089382411205529643
+    account: brayme_official
+    label: Thank you
+    published-date: 2026-08-17
+    text: |-
+      2026年8月17日(月)下北沢CLUB251
+      251 presents Ignition!!! 
+      @CLUB251official
+       
+      ~ Special Two Man Show ~
+      
+      w/ NEK! 
+      @nekiband_jp
+       
+      
+      ありがとうございました！
+    translation: |-
+      Monday, August 17, 2026 at Shimokitazawa CLUB251
+      251 presents Ignition!!! 
+      @CLUB251official
+       
+      ~ Special Two Man Show ~
+      
+      w/ NEK! 
+      @nekiband_jp
+       
+      
+      Thank you very much!
+    image:
+    - HP76OUgbgAA3fo_
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+
 - postximage:
     post: 2062489542179836177
     id: HJeqnPfa4AAhUuC
@@ -165,6 +518,107 @@
     part-of:
       postx: 2068937027396198883
 
+- postximage:
+    post: 2089355313195758057
+    id: HP7hlJ4asAEBUXL
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089355313195758057
+
+- postximage:
+    post: 2089355313195758057
+    id: HP7hlKAbIAAlFJ9
+    index: 1
+    label: Bands
+    info: NEK!, Bray me
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089355313195758057
+
+- postximage:
+    post: 2089360038599221707
+    id: HP7l4RKaMAAN6kz
+    index: 1
+    label: Bands
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089360038599221707
+
+- postximage:
+    post: 2089370707994280393
+    id: HP7vkhIboAAypKr
+    index: 3
+    label: Backstage
+    info: Cocoro, ありさ (Bray me)
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089370707994280393
+
+- postximage:
+    post: 2089370707994280393
+    id: HP7vkhUbIAARtO3
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089370707994280393
+
+- postximage:
+    post: 2089374057213169787
+    id: HP7yoMibkAAcouF
+    index: 2
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089374057213169787
+
+- postximage:
+    post: 2089377401893687732
+    id: HP71q8RaUAIJSdO
+    index: 2
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089377401893687732
+
+- postximage:
+    post: 2089382411205529643
+    id: HP76OUgbgAA3fo_
+    index: 1
+    label: Bands
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    part-of:
+      postx: 2089382411205529643
+
 - postxvideo:
     post: 2089247036608848175
     id: 1
@@ -185,6 +639,18 @@
     date: 2026-06-04
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
+
+- update:
+    show:
+      year: 2026
+      id: ignitionbrayme
+    date: 2026-08-18
+    text:
+    - First pictures and videos from the show
     part-of:
       show:
         year: 2026

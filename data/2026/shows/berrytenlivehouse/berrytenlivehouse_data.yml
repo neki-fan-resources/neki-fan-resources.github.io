@@ -1,3 +1,78 @@
+- display:
+    show:
+      year: 2026
+      id: berrytenlivehouse
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2090063198896734447
+                    video: 1
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2090050335817793946
+                    image: HQFZsnNbsAAi0gm
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2090051028544852065
+                    image: HQFaN5uaQAA2LNT
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2090055267027390526
+                    image: HQFeL9YaAAAgsco
+                - postximage:
+                    post: 2090051028544852065
+                    image: HQFaN5wbQAE0wpB
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2090051028544852065
+                    image: HQFaN5wbEAAJwiM
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2090051028544852065
+                    image: HQFaN5wbUAErExU
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2090053792628986138
+                    image: HQFc2FpbwAAyx7F
+                - postximage:
+                    post: 2090050335817793946
+                    image: HQFZsnJb0AAKNGS
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2090061706240385260
+                    image: HQFjusLaMAAUeLu
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2090055267027390526
+                    image: HQFeL9XbAAARuY6
+                - postximage:
+                    post: 2090053028586164617
+                    image: HQFcJoWawAEKYfk
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
 - postx:
     id: 2065011164602335358
     account: berrytenlive
@@ -181,6 +256,254 @@
         post: 2081681007825068487
         image: HONUyGBaMAA43PX
 
+- postx:
+    id: 2090050335817793946
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-08-19
+    text: |-
+      RADIO BERRY ベリテンライブ 2026
+      📍HEAVEN'S ROCK宇都宮VJ-2
+      
+      w/ クレイジーウォウウォ!!, ライティライト
+      
+      ご来場ありがとうございました！！🕺✨
+      
+      9月開催東名阪ツアー
+      チケット一般発売中🎟💭
+      ▶︎ https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI
+      #ベリテン
+    translation: |-
+      RADIO BERRY Berryten Live 2026
+      📍HEAVEN'S ROCK Utsunomiya VJ-2
+      
+      w/ Crazy Wow Wo!!, Lighty Light
+      
+      Thank you so much for coming!!🕺✨
+      
+      Tokyo-Nagoya-Osaka Tour in September
+      General ticket sales now open🎟💭
+      ▶︎ https://l-tike.com/concert/mevent/?mid=748326
+      
+      #NEKI
+      #Berryten
+    image:
+    - HQFZsnJb0AAKNGS
+    - HQFZsnNbsAAi0gm
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
+- postx:
+    id: 2090051028544852065
+    account: berrytenlive
+    label: Photos
+    published-date: 2026-08-19
+    text: |-
+      【#ベリテン ライブハウス】 📸リポート
+      2026🎪HEAVEN'S ROCK 宇都宮(VJ-2) 
+      DAY④  # 13   NEK!🎸 
+      @nekiband_jp
+       
+      __________________________
+      photo by... 
+      宮下太輔 
+      @Miyashita_D
+    translation: |-
+      【#Berryten Livehouse】 📸 Report
+      2026🎪HEAVEN'S ROCK Utsunomiya (VJ-2) 
+      DAY④  # 13   NEK!🎸 
+      @nekiband_jp
+       
+      __________________________
+      photo by... 
+      Daisuke Miyashita 
+      @Miyashita_D
+    image:
+    - HQFaN5uaQAA2LNT
+    - HQFaN5wbEAAJwiM
+    - HQFaN5wbQAE0wpB
+    - HQFaN5wbUAErExU
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
+- postx:
+    id: 2090053028586164617
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-08-19
+    text: |-
+      RADIO BERRY ベリテンライブ 2026
+      @ HEAVEN'S ROCK宇都宮VJ-2
+      
+      あつかったー！
+      初のベリテンありがとうございました！！
+      いつも来てくれる人も、初めて出会ってくれた人もみんなありがとう！！
+      
+      ベリテンTシャツ可愛でしょ、こういう変な生き物好きなんだよね👁💙
+      
+      次はツアーで会おーね‼️ჱ̒^ ̳  ̫  ̳^
+    translation: |-
+      RADIO BERRY Berryten Live 2026
+      @ HEAVEN'S ROCK Utsunomiya VJ-2
+      
+      It was so hot!
+      Thank you so much for our first Berryten!!
+      Thanks to everyone who always comes, and everyone who met us for the first time!!
+      
+      The Berryten T-shirt is cute, right? I love weird creatures like this👁💙
+      
+      Let's meet next on the tour‼️ჱ̒^ ̳  ̫  ̳^
+    image:
+    - HQFcJoWawAEKYfk
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+    reference:
+    - postximage:
+        post: 2090050335817793946
+        image: HQFZsnNbsAAi0gm
+
+- postx:
+    id: 2090053792628986138
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-08-19
+    text: |-
+      初めてのベリテンライブに
+      
+      初めての宇都宮でのライブ
+      
+      NEK!の音楽をまた新しい場所に
+      届けられて嬉しい。
+      
+      次は東名阪ツアーだ、
+      9月も一緒に最高の思い出つくろ！
+    translation: |-
+      Our first Berryten Live
+      
+      Our first live show in Utsunomiya
+      
+      I'm so happy to bring
+      NEK!'s music to a new place again.
+      
+      Next is the Tokyo-Nagoya-Osaka tour,
+      Let's make the best memories together in September too!
+    image:
+    - HQFc2FpbwAAyx7F
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+    reference:
+    - postximage:
+        post: 2090050335817793946
+        image: HQFZsnNbsAAi0gm
+
+- postx:
+    id: 2090055267027390526
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-08-19
+    text: |-
+      ベリテンー！
+      ありがとうございました！
+      めっちゃ楽しかったです！！
+      初栃木！初ベリテン！最高の思い出が作れました！
+      また必ず戻って来られるよう頑張ります💪🏻❤️‍🔥
+      
+      次はいよいよ東名阪ツアー！！
+      大阪は残りわずかです！！楽しみ🤟🏻
+    translation: |-
+      Berryten!
+      Thank you very much!
+      It was so much fun!!
+      First time in Tochigi! First Berryten! Made the best memories!
+      We'll do our best so we can definitely come back again💪🏻❤️‍🔥
+      
+      Next up is finally the Tokyo-Nagoya-Osaka tour!!
+      Only a few tickets left for Osaka!! Can't wait🤟🏻
+    image:
+    - HQFeL9XbAAARuY6
+    - HQFeL9YaAAAgsco
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
+- postx:
+    id: 2090061706240385260
+    account: berrytenlive
+    label: Backstage snapshot
+    info: 2 pictures of the other bands
+    published-date: 2026-08-19
+    text: |-
+      【#ベリテン ライブハウス】
+      HEAVEN'S ROCK 宇都宮(VJ-2) 
+      2026 楽屋スナップ🎨📸 
+      ■ DAY④ ■ 8/19(wed) ■...Thank You‼ 
+      @lightylight__
+       
+      @nekiband_jp
+        
+      @Crazy_wowow
+    translation: |-
+      【#Berryten Livehouse】
+      HEAVEN'S ROCK Utsunomiya (VJ-2) 
+      2026 Backstage Snapshot🎨📸 
+      ■ DAY④ ■ 8/19 (Wed) ■...Thank You‼ 
+      @lightylight__
+       
+      @nekiband_jp
+        
+      @Crazy_wowow
+    image:
+    - HQFjusLaMAAUeLu
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
+- postx:
+    id: 2090063198896734447
+    account: coco_102
+    label: Thank you
+    published-date: 2026-08-19
+    text: |-
+      ベリテンライブ2026ありがとうございました！！
+      宇都宮でライブができて嬉しかったです！！
+      フロアのみんなとても熱くて最高でした🤟🏻
+      ライブ終わりにみんなで餃子も食べたよ〜！
+      見事に胃袋掴まれたのでまたライブしに来ます😂🥟
+      
+      次のライブは東名阪ツアーです！まずは大阪！
+      張り切っていきまっせ🔥
+    translation: |-
+      Thank you so much for Berryten Live 2026!!
+      I was so happy we got to play a live show in Utsunomiya!!
+      Everyone on the floor was super energetic and amazing🤟🏻
+      We all ate gyoza together after the show too~!
+      They totally captured our stomachs, so we'll definitely come back to play another show😂🥟
+      
+      Our next show is the Tokyo-Nagoya-Osaka tour! First up is Osaka!
+      Let's give it all we've got🔥
+    video:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+    reference:
+    - postximage:
+        post: 2090050335817793946
+        image: HQFZsnJb0AAKNGS
+
 - postximage:
     post: 2065011164602335358
     id: HKc7RhYbYAAs0Np
@@ -242,6 +565,159 @@
     part-of:
       postx: 2089929303571960246
 
+- postximage:
+    post: 2090050335817793946
+    id: HQFZsnJb0AAKNGS
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090050335817793946
+
+- postximage:
+    post: 2090050335817793946
+    id: HQFZsnNbsAAi0gm
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090050335817793946
+
+- postximage:
+    post: 2090051028544852065
+    id: HQFaN5uaQAA2LNT
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090051028544852065
+
+- postximage:
+    post: 2090051028544852065
+    id: HQFaN5wbEAAJwiM
+    index: 4
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090051028544852065
+
+- postximage:
+    post: 2090051028544852065
+    id: HQFaN5wbQAE0wpB
+    index: 2
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090051028544852065
+
+- postximage:
+    post: 2090051028544852065
+    id: HQFaN5wbUAErExU
+    index: 3
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090051028544852065
+
+- postximage:
+    post: 2090053028586164617
+    id: HQFcJoWawAEKYfk
+    index: 1
+    label: Backstage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090053028586164617
+
+- postximage:
+    post: 2090053792628986138
+    id: HQFc2FpbwAAyx7F
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090053792628986138
+
+- postximage:
+    post: 2090055267027390526
+    id: HQFeL9XbAAARuY6
+    index: 2
+    label: Backstage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090055267027390526
+
+- postximage:
+    post: 2090055267027390526
+    id: HQFeL9YaAAAgsco
+    index: 1
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090055267027390526
+
+- postximage:
+    post: 2090061706240385260
+    id: HQFjusLaMAAUeLu
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2090061706240385260
+
+- postxvideo:
+    post: 2090063198896734447
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2090063129191632896/img/plVBU2by1oZ7hKzl.jpg
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    - song: maze
+    part-of:
+      postx: 2090063198896734447
+
 - update:
     show:
       year: 2026
@@ -249,6 +725,18 @@
     date: 2026-06-14
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+
+- update:
+    show:
+      year: 2026
+      id: berrytenlivehouse
+    date: 2026-08-19
+    text:
+    - First pictures and videos from the show
     part-of:
       show:
         year: 2026

@@ -133,6 +133,54 @@
         year: 2026
         id: berrytenlivehouse
 
+- postx:
+    id: 2089929303571960246
+    account: berrytenlive
+    label: Today
+    published-date: 2026-08-19
+    text: |-
+      【#ベリテン ライブハウス】 
+      野外公演に先駆け💨 
+      HEAVEN'S ROCK宇都宮で開催中の
+      ⑦Days💥 
+      本日・4日目のLINE UPは… 
+      ◾️8/19 (wed)  
+      クレイジーウォウウォ!! / 
+      NEK! / ライティライト
+      　
+      🎫当日券  
+      ￥4,000（+ドリンク代￥600） 
+      開場（18:00〜）のあと 
+      会場入り口（B1）受付にて販売いたします。
+      スタッフまでお声かけください💁 
+      ご来場をお待ちしております！！
+    translation: |-
+      【#Berryten Livehouse】 
+      Ahead of the outdoor shows💨 
+      Currently happening at HEAVEN'S ROCK Utsunomiya
+      ⑦Days💥 
+      Today's 4th day LINE UP is... 
+      ◾️8/19 (Wed)  
+      Crazy Wow Wo!! / 
+      NEK! / Lighty Light
+       
+      🎫Same-day tickets  
+      ¥4,000 (+¥600 drink fee) 
+      After doors open (18:00~) 
+      They will be on sale at the venue entrance (B1) reception desk.
+      Please feel free to ask the staff💁 
+      We look forward to seeing you there!!
+    image:
+    - HQDrntbaMAAPJW_
+    part-of:
+      show:
+        year: 2026
+        id: berrytenlivehouse
+    reference:
+    - postximage:
+        post: 2081681007825068487
+        image: HONUyGBaMAA43PX
+
 - postximage:
     post: 2065011164602335358
     id: HKc7RhYbYAAs0Np
@@ -181,6 +229,18 @@
         id: berrytenlivehouse
     part-of:
       postx: 2081681007825068487
+
+- postximage:
+    post: 2089929303571960246
+    id: HQDrntbaMAAPJW_
+    index: 1
+    label: Flyer
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2089929303571960246
 
 - update:
     show:

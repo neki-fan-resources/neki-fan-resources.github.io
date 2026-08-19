@@ -11,6 +11,11 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2089710017641587079
+                    video: 1
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postinstagramimage:
@@ -493,6 +498,28 @@
         year: 2026
         id: ignitionbrayme
 
+- postx:
+    id: 2089710017641587079
+    account: coco_102
+    label: Jumping on stage
+    published-date: 2026-08-18
+    text: |-
+      Jumping✊🏻🌟
+      明日もみんなの素敵な笑顔たくさん見せてね〜！
+      
+      #NEKI
+    translation: |-
+      Jumping✊🏻🌟
+      Show me lots of your wonderful smiles tomorrow too~!
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2089710017641587079
+        video: 1
+
 - postximage:
     post: 2062489542179836177
     id: HJeqnPfa4AAhUuC
@@ -631,6 +658,22 @@
         id: ignitionbrayme
     part-of:
       postx: 2089247036608848175
+
+- postxvideo:
+    post: 2089710017641587079
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2089709868332818433/img/GO_0J6LFRwgcMEYJ.jpg
+    context:
+    - show:
+        year: 2026
+        id: ignitionbrayme
+    - song: jumping
+    part-of:
+      show:
+        year: 2026
+        id: ignitionbrayme
 
 - update:
     show:

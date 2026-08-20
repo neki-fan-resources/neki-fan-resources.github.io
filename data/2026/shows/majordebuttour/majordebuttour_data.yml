@@ -3,6 +3,14 @@
     blocks:
     - basicblock:
         id: main
+        label: main
+        sections:
+        - subschronologysection:
+            label: Shows
+            isMediumMarker:
+            - show
+    - basicblock:
+        id: media
         label: In the medias
         sections:
         - basicsection:

@@ -1,0 +1,70 @@
+- postx:
+    id: 2090370910104776768
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-08-20
+    text: |-
+      📚MAGAZINE📚
+      
+      フリーマガジン「Skream!8月号」
+      
+      コラム連載 "NEK!の #ネキ史" 
+      第4回が掲載📘
+      
+      今回はDr. Cocoroが担当です🥁
+      
+      全国のCDショップやライヴハウス、スタジオ等にて順次配布開始！
+      
+      ぜひゲットしてください✔️
+      
+      🔗 https://skream.jp/news/2026/08/skream_magazine.php
+      
+      #NEKI
+    translation: |-
+      📚MAGAZINE📚
+      
+      Free magazine "Skream! August Issue"
+      
+      Serialized column "NEK!'s #Nekishi" 
+      Vol. 4 is featured📘
+      
+      This time, Dr. Cocoro is in charge🥁
+      
+      Distribution starting sequentially at CD shops, live venues, studios, etc. nationwide!
+      
+      Please be sure to get your copy✔️
+      
+      🔗 https://skream.jp/news/2026/08/skream_magazine.php
+      
+      #NEKI
+    image:
+    - HQJ9QpgbEAAuB3Y
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202608
+
+- postximage:
+    post: 2090370910104776768
+    id: HQJ9QpgbEAAuB3Y
+    index: 1
+    label: Cover
+    context:
+    - media:
+        year: 2026
+        id: skreamnekishi202608
+    part-of:
+      postx: 2090370910104776768
+
+- update:
+    media:
+      year: 2026
+      id: skreamnekishi202608
+    date: 2026-08-20
+    text:
+    - Added the column
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202608
+

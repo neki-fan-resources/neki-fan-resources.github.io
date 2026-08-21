@@ -1,3 +1,106 @@
+- display:
+    media:
+      year: 2026
+      id: skreamnekishi202608
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '← '
+                  - media:
+                      year: 2026
+                      id: skreamnekishi202606
+            - textsubsection:
+                multimedia:
+                  postximage:
+                    post: 2090370910104776768
+                    image: HQJ9QpgbEAAuB3Y
+                lines:
+                - line:
+                  - text: In the fourth installment of the column, Cocoro reflects on her musical roots, sharing her journey as a drummer and her lifelong desire to form a band with her peers.
+                - line:
+                  - text: She expresses deep gratitude for being part of NEK! and explains how the passionate atmosphere created by the fans gives true "meaning" to their music.
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                label: Article's images
+                multimedia:
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202608
+                    id: neki_1
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202608
+                    id: neki_2
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202608
+                    id: neki_3
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202608
+                    id: neki_4
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202608
+                    id: neki_5
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2027712474494210268
+                    image: HCPhvO4aUAA8dHO
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous additional inputs for accuracy.
+                  - newline: ''
+                  - newline: ''
+                  - newline: ''
+            - interviewsubsection:
+                lines:
+                - text: '「NEK!の #ネキ史」をご覧の皆さんこんにちは！NEK!のDr.Cocoroです！<br>回目となる今回は、私がドラムと出会ったきっかけやNEK!に対する想いなどをお話していこうと思います！'
+                  translation: "Hello to everyone reading 'NEK!'s #Nekishi'! I'm Cocoro, the drummer of NEK! !<br>For this fourth installment, I'd like to talk about how I first discovered the drums and my feelings toward NEK! !   "
+                  participant: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+                - text: 私は中学一年生のときに吹奏楽部でパーカッションパートに加入してドラムと出会いました。吹奏楽部にはドラムセットが一台しかなかったので、常に部員で奪い合っていました笑<br>年に一度の吹奏楽コンクールに出場する際に、ドラムを担当できるのは一人だけだったので、その座を勝ち取るために個人的に音楽スタジオに通いプロのドラマーさんから日々レッスンを受けるようになりました。そこで多くの先輩ミュージシャンと出会い、一緒にコピバンをしたりセッションをしていくうちに、オーケストラよりもバンドの方が自分に合っているのかもしれないと思い始め、次第にロックバンドで活動するプロドラマーを志すようになりました。
+                  translation: I first encountered the drums when I joined the percussion section of the brass band club in my first year of junior high school. There was only one drum set in the club, so the members were always fighting over it (laughs)<br>When competing in the annual brass band competition, only one person could be in charge of the drums, so in order to win that spot, I started going to a music studio on my own to take daily lessons from a professional drummer. I met many older musicians there, and as we played in cover bands and did jam sessions together, I began to think that a band might suit me better than an orchestra, and I gradually started aspiring to become a professional drummer in a rock band.
+                - text: その頃に兄がB'zのライブに連れて行ってくれて、スタジアムなのに間近で叩いているような音圧を感じるShane Gaalaasさんの力強いドラミングに釘付けになり、私もこんなドラマーになりたい！！と強く思いました。
+                  translation: Around that time, my older brother took me to a B'z concert, and I was glued to the powerful drumming of Shane Gaalaas. Even though it was a stadium, I could feel the sound pressure as if he were playing right up close, and it made me strongly feel, "I want to become a drummer like this!!"
+                - text: ドラマーとしてもリスナーとしても音楽漬けの日々を過ごしていた私は今に至るまでいろんなアーティストのライブや音楽フェスに通い、Rockはもちろん、J-POPやK‐POP、Hiphopなど様々なジャンルの音楽を聴くようになりました。(好きなアーティストを挙げていったらそれだけでこの回が終わってしまうので今回は割愛させていただきます笑)そんな風に今まで聴いてきた楽曲の振り幅がジャンルレスなNEK!の音楽性にも活かせているのかなと思います。
+                  translation: I have spent my days immersed in music as both a drummer and a listener. I have been going and still go to live concerts and music festivals of various artists, and I started listening to a wide variety of genres, including J-POP, K-POP, and Hiphop, not to mention Rock. (If I were to list my favorite artists, this installment would end with just that, so I will omit them this time, haha) I think the wide range of songs I have listened to until now is being put to good use in NEK!'s genreless musical style.
+                - text: 私は今まで様々な年齢の方と音楽活動をしてきたのですが、ずっと同世代の子たちとバンドを組んで活動したいという夢がありました。その夢を叶えてくれたのが今のNEK!です。数多くいる女性ドラマーの中から私を見つけて連絡してきてくれたHikaには感謝してもしきれません。本当にありがとう！
+                  translation: 'In the past, I played music with people of various ages, but I always had a dream of wanting to form a band with people of my own generation. NEK! has made that dream a reality. I cannot thank Hika enough for finding me among so many female drummers and reaching out to me. Thank you so much!   '
+                - text: NEK!として活動を初めてから約2年半になりますが、NEK!になる前の自分には想像もできないくらい夢のような楽しい日々を過ごさせていただいています。自分一人では決して叶えることはできなかったZeppでワンマンライブをしたりメジャーデビューしたりという大きな夢も、メンバーやスタッフ、家族や友人、そして何よりファンの皆さんに支えられて叶えることができたし、私の周りにいる誰か一人が欠けてしまったらこの人生は成り立たないくらい、私にとって皆の存在は大きいです。本当にいつもありがとう！！
+                  translation: It has been about two and a half years since we started performing as NEK!, and I am living days that are so fun and dream-like that I could never have imagined them before we became NEK!. I’ve been able to achieve big dreams I never could have reached on my own—like holding a solo concert at Zepp and making our major debut—thanks to the support of the members, staff, family, friends, and, above all, the fans. Everyone’s presence is so important to me that this life wouldn't be the same if even one of you was missing. Thank you all so much, always!!
+                - text: そしてファンの皆さんは、私たちNEK!が音楽活動を続ける"意味"そのもので、皆さんから日々もらうエールは、私たちにとって必要不可欠な原動力となっています。ステージから見たファンの皆さんのキラキラした表情や、私たちを応援する想いがこもった力強い拳は、私たちにしか見れないと思うともったいないくらい素敵な光景を作り上げていて、そんな光景を見る度にこれからも自分たちの音で目の前にいる皆さんを幸せにしたいなと強く思います。
+                  translation: And for us in NEK!, the fans give true "meaning" to our music. The cheers we receive from all of you every day have become an essential driving force for us. The sparkling looks on your faces that I see from the stage and the powerful fists you raise to support us create such a wonderful sight that it feels like a waste that only we can see it. Every time I see that view, I feel even more strongly that I want to continue making everyone in front of me happy with our music.
+                - text: NEK!のライブに来たことがある方は共感していただけると思いますが、私たちとフロアの掛け合いで作り上げるあの熱気に満たされたライブハウスの空気感が私はとても大好きです。今年の春に開催した全国ツアーでは、初めて訪れた街でも熱狂的なライブ空間を作り上げることができて、NEK!の輪が日本各地に広まっているのを肌で感じ、心の底から嬉しかったです。
+                  translation: Those of you who have been to a NEK! concert will probably agree, but I really love the atmosphere of a live venue filled with the intense energy created by the interaction between us and the crowd. On the nationwide tour we held this spring, we were able to create an enthusiastic live space even in cities we visited for the first time. I could feel firsthand that the circle of NEK! is spreading across Japan, and it made me happy from the bottom of my heart.
+                - text: ライブハウスの熱気は画面越しでは伝わらないので、NEK!のライブにまだ来たことがない方はぜひ一度遊びに来てみてほしいです。決して後悔はさせません！！
+                  translation: The heat of a live venue cannot be conveyed through a screen, so if you haven't been to a NEK! concert yet, I definitely want you to come and see us at least once. We will never make you regret it!!
+                - text: これからもチームNEK!で力を合わせていくつもの夢を叶えていきたいし、NEK!の音楽を愛してくれる貴方にとって替えのきかない唯一無二のガールズバンドになりたいです。<br>未来に向かって進み続けるNEK!の応援をこれからもよろしくお願いします！
+                  translation: Moving forward, I want Team NEK! to continue working together to make many of our dreams come true, and we want to become an irreplaceable, one-and-only girl band for you who love NEK!'s music. <br>Please continue to support NEK! as we keep moving forward into the future!
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202608
+
 - postx:
     id: 2090370910104776768
     account: nekiband_jp
@@ -63,6 +166,96 @@
     date: 2026-08-20
     text:
     - Added the column
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202608
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202608
+    id: neki_1
+    label: At a concert
+    info: Cocoro
+    published-date: 2026-08-21
+    url: 'https://skream.jp/column/2026/08/19/images/neki_1.jpg'
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202608
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202608
+    id: neki_2
+    label: At a concert
+    info: Cocoro
+    published-date: 2026-08-21
+    url: 'https://skream.jp/column/2026/08/19/images/neki_2.jpg'
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202608
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202608
+    id: neki_3
+    label: At a concert
+    info: Cocoro
+    published-date: 2026-08-21
+    url: 'https://skream.jp/column/2026/08/19/images/neki_3.jpg'
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202608
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202608
+    id: neki_4
+    label: On stage
+    info: Cocoro
+    published-date: 2026-08-21
+    url: 'https://skream.jp/column/2026/08/19/images/neki_4.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndaichi1
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202608
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202608
+    id: neki_5
+    label: On stage
+    published-date: 2026-08-21
+    url: 'https://skream.jp/column/2026/08/19/images/neki_5.jpg'
+    context:
+    - show:
+        year: 2026
+        id: 2ndtokyo2
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202608
+
+- webpage:
+    domain: skream.jp
+    id: column.neki.202608
+    label: 'NEK! #nekishi 2026-08'
+    published-date: 2026-08-21
+    url: 'https://skream.jp/column/neki/202608.php'
+    image:
+    - neki_1
+    - neki_2
+    - neki_3
+    - neki_4
+    - neki_5
+    todo: process images
     part-of:
       media:
         year: 2026

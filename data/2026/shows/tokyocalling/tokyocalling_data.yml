@@ -44,6 +44,50 @@
         year: 2026
         id: tokyocalling
 
+- postx:
+    id: 2090395140448014585
+    account: nekiband_jp
+    label: Timetable
+    published-date: 2026-08-20
+    text: |-
+      【タイムテーブル解禁📣】
+      
+      「TOKYO CALLING 2026」
+      @tokyo__calling
+      
+      
+      ⏰9/27(日) 13:00~
+      📍渋谷・チェルシーホテル
+      
+      🎫: チケット一般発売スタート！
+      https://eplus.jp/tkc26/
+      
+      #NEKI
+      #TOKYOCALLING
+      #トーキョーコーリング
+    translation: |-
+      [Timetable Released📣]
+      
+      "TOKYO CALLING 2026"
+      @tokyo__calling
+      
+      
+      ⏰9/27 (Sun) 13:00~
+      📍Shibuya CHELSEA HOTEL
+      
+      🎫: General ticket sales have started!
+      https://eplus.jp/tkc26/
+      
+      #NEKI
+      #TOKYOCALLING
+      #TokyoCalling
+    image:
+    - HQKRgh8a4AATszn
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
 - postximage:
     post: 2071913242709123427
     id: HMDqGpaWsAAzXzC
@@ -56,6 +100,18 @@
         id: tokyocalling
     part-of:
       postx: 2071913242709123427
+
+- postximage:
+    post: 2090395140448014585
+    id: HQKRgh8a4AATszn
+    index: 1
+    label: Timetable
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2090395140448014585
 
 - update:
     show:

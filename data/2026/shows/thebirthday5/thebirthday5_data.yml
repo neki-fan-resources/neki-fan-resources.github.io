@@ -28,6 +28,9 @@
                 - postximage:
                     post: 2085359423103574407
                     image: HPCvV0dbMAA42Na
+                - postinstagramimage:
+                    post: DcZFopUj6T8
+                    image: 2
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -40,6 +43,9 @@
                     image: HPCvYXFbYAA0CQv
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DcZFopUj6T8
+                    image: 3
                 - postximage:
                     post: 2085359473510764585
                     image: HPCvYXFbsAEOEKQ
@@ -48,13 +54,182 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DcZFopUj6T8
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DcZFopUj6T8
+                    video: 5
                 - postximage:
                     post: 2085359423103574407
                     image: HPCvV0ZbUAElN1x
+    - basicblock:
+        id: report
+        label: Cocoro's report
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: After most concerts, Cocoro publishes her thoughts and impressions of the show.
+                - line:
+                  - text: "Here is Cocoro's "
+                  - webitem:
+                      postinstagram: DcZFopUj6T8
+                      text: message
+                  - text: ' for the "The Birthday vol.5" show.'
+                  - newline: ''
+                  - newline: ''
+                  - newline: ''
+            - interviewsubsection:
+                lines:
+                - text: 2026.08.06
+                - text: 「ReNY beta 2nd anniversary presents  The Birthday vol.5」
+                - text: 昨年11月末にMEMEのリリース記念ワンマンライブをやらせていただいた横浜RaNY betaさんの2周年を祝した対バンイベントに呼んでいただきました！<br>お越しくださった皆さまありがとうございました🙇🏻‍♀️<br>(かなり出遅れた投稿ですみません、、、！最早今更って感じではありますがせっかくなので8月の対バンひとつずつ振り返っていきます笑)
+                  translation: We were invited to perform at a joint event celebrating the 2nd anniversary of Yokohama ReNY beta, where we held our MEME release celebration solo show at the end of last November!<br>Thank you so much to everyone who came! 🙇🏻‍♀️<br>(Sorry for posting this so late...! It feels a bit late now, but since we're here, I’m going to look back on each of our August joint shows one by one, lol.)
+                - text: 横浜RaNY betaさんといえば私たちの背後にあるLEDディスプレイ！<br>ライブ中、視界の隅に曲に合わせた派手な映像が入ってくるからすごく新鮮な気持ちになると同時に、他のライブハウスにはない一体感が感じられて今回もめちゃめちゃ気分上がりました！
+                  translation: When it comes to Yokohama ReNY beta, it's all about the LED display behind us!<br>During the show, the flashy visuals matching the music catch the corner of my eye, which feels so fresh. At the same time, there is a sense of unity that you don't find at other live venues, so I got super hyped this time as well!
+                - text: この日はClock up!始まりのセットリストで、最近対バンではやっていなかったマリンスノウ(遡ってみたら6/5ぶりだった！)も途中に入れたりcolor chordやbiT bY biTでみんなと一緒に歌ったりして、いろんなNEK!の表情を楽しんでもらえたかなと思います！<br>マリンスノウめっちゃ沁みるから季節外れだけどついセトリに入れたくなっちゃう⛄️笑
+                  translation: On this day, our setlist started with "Clock up!". We also included "Marine Snow" in the middle—which we hadn't played at a joint show recently (when I checked back, it was our first time since June 5th!)—and sang along with everyone on "color chord" and "biT bY biT." I hope everyone got to enjoy the many different sides of NEK! !<br>"Marine Snow" is so deeply touching, so even though it's out of season, I always end up wanting to put it in the setlist ⛄️ lol.
+                - text: 対バンは曲数が少ないからこそなんの曲をやろうかっていつもすごく悩むんです。対バン相手の楽曲性にある程度合わせにいけるのは私たちがジャンルレスにやってるが故の強みかなと思ってて、でもNEK!と言えばこの曲だよね！みたいな定番曲はどれも外したくないし、、<br>定番曲はありがたいことにどんどん増えていってるし、、笑<br>いつもたくさん悩みながらみんなで話し合って決めてます🙂‍↕️
+                  translation: Because joint shows have a shorter set, we always spend a lot of time agonizing over what songs to play. Being able to adapt our set somewhat to the musical style of the other bands is a strength that comes from our genreless approach. At the same time, we never want to leave out signature songs that make people say, "This is classic NEK!"...<br>And thankfully, our list of signature songs keeps growing and growing... lol.<br>We always discuss it together as a band and think it through carefully before deciding 🙂‍↕️.
+                - text: この日はいつもeggmanでお世話になっている窪田さんがマネージャーをしているosageさんと、去年のミナホで出番が前後だったレイラさんとご一緒できてとても嬉しかったです！<br>先輩方それぞれの素敵なライブを観てたくさん勉強させていただきました🔥
+                  translation: On this day, I was so happy to share the stage with osage, whose manager is Kubota-san (who always takes care of us at Shibuya eggman), and Layla, who performed right before/after us at Minaho last year!<br>Watching each of our senior bands' wonderful performances taught us so much 🔥.
+                - text: そしてライブ後にはかき氷をいただいたよー🍧🩵<br>今年いちばん夏を感じた瞬間でした！美味しかったです^^
+                  translation: And after the show, we had shaved ice! 🍧🩵<br>It was the moment where I felt summer the most this year! It was delicious ^^.
+                - text: 改めて横浜RaNY betaさん2周年おめでとうございます！<br>この近未来的でド派手なステージに負けないくらいかっこいいパフォーマンスを目指してこれからも頑張ります🪩✨
+                  translation: Once again, congratulations to Yokohama ReNY beta on your 2nd anniversary!<br>We will keep doing our best to deliver cool performances that match this futuristic, flashy stage! 🪩✨
     part-of:
       show:
         year: 2026
         id: thebirthday5
+
+- postinstagram:
+    id: DcZFopUj6T8
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-08-23
+    text: |-
+      2026.08.06
+      ⁡
+      「ReNY beta 2nd anniversary presents  The Birthday vol.5」
+      ⁡
+      昨年11月末にMEMEのリリース記念ワンマンライブをやらせていただいた横浜RaNY betaさんの2周年を祝した対バンイベントに呼んでいただきました！
+      お越しくださった皆さまありがとうございました🙇🏻‍♀️
+      (かなり出遅れた投稿ですみません、、、！最早今更って感じではありますがせっかくなので8月の対バンひとつずつ振り返っていきます笑)
+      ⁡
+      横浜RaNY betaさんといえば私たちの背後にあるLEDディスプレイ！
+      ライブ中、視界の隅に曲に合わせた派手な映像が入ってくるからすごく新鮮な気持ちになると同時に、他のライブハウスにはない一体感が感じられて今回もめちゃめちゃ気分上がりました！
+      
+      この日はClock up!始まりのセットリストで、最近対バンではやっていなかったマリンスノウ(遡ってみたら6/5ぶりだった！)も途中に入れたりcolor chordやbiT bY biTでみんなと一緒に歌ったりして、いろんなNEK!の表情を楽しんでもらえたかなと思います！
+      マリンスノウめっちゃ沁みるから季節外れだけどついセトリに入れたくなっちゃう⛄️笑
+      
+      対バンは曲数が少ないからこそなんの曲をやろうかっていつもすごく悩むんです。対バン相手の楽曲性にある程度合わせにいけるのは私たちがジャンルレスにやってるが故の強みかなと思ってて、でもNEK!と言えばこの曲だよね！みたいな定番曲はどれも外したくないし、、
+      定番曲はありがたいことにどんどん増えていってるし、、笑
+      いつもたくさん悩みながらみんなで話し合って決めてます🙂‍↕️
+      ⁡
+      この日はいつもeggmanでお世話になっている窪田さんがマネージャーをしているosageさんと、去年のミナホで出番が前後だったレイラさんとご一緒できてとても嬉しかったです！
+      先輩方それぞれの素敵なライブを観てたくさん勉強させていただきました🔥
+      ⁡
+      そしてライブ後にはかき氷をいただいたよー🍧🩵
+      今年いちばん夏を感じた瞬間でした！美味しかったです^^
+      
+      改めて横浜RaNY betaさん2周年おめでとうございます！
+      この近未来的でド派手なステージに負けないくらいかっこいいパフォーマンスを目指してこれからも頑張ります🪩✨
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.08.06
+      ⁡
+      "ReNY beta 2nd anniversary presents The Birthday vol.5"
+      ⁡
+      We were invited to a joint-gig event celebrating the 2nd anniversary of Yokohama ReNY beta, where we held our one-man live commemorating the release of MEME at the end of last November!
+      Thank you so much to everyone who came🙇🏻‍♀️
+      (Sorry for the super late post...! It feels like it's almost too late now, but since we're here, I'm going to look back at our August joint gigs one by one lol)
+      ⁡
+      When it comes to Yokohama ReNY beta, it's all about the LED display behind us!
+      During the live, flashy visuals tailored to the songs catch the corner of my eye, which feels so fresh, and at the same time gives a sense of unity you don't find at other live houses, so I was super hyped up this time too!
+      
+      On this day, the setlist started with Clock up!, and we also included Marine Snow (looking back, it was the first time since 6/5!) which we hadn't played at joint gigs recently, and sang along with everyone on color chord and biT bY biT, so I think everyone was able to enjoy many different sides of NEK!!
+      Marine Snow really touches the heart, so even though it's out of season, I just can't help wanting to put it in the setlist⛄️ lol
+      
+      Because joint gigs have fewer songs, I always struggle a lot over what to play. Being able to adapt to some extent to the musical style of the bands we share the stage with is, I think, a strength that comes from our genreless style, but at the same time we don't want to leave out any of the staple tracks where people go "this is quintessential NEK!", and...
+      Thankfully, our staple tracks just keep increasing, and... lol
+      We always discuss it together and decide while worrying a lot over it🙂‍↕️
+      ⁡
+      On this day, I was so happy to share the stage with osage, whose manager is Mr. Kubota who always takes care of us at eggman, and Layla, who performed right next to our slot at last year's MINAHO!
+      Watching the wonderful live sets of each of our seniors, I learned so much🔥
+      ⁡
+      And after the live, we had shaved ice🍧🩵
+      It was the moment that felt the most like summer this year! It was delicious^^
+      
+      Once again, congratulations to Yokohama ReNY beta on your 2nd anniversary!
+      Aiming for cool performances that won't be outshined by this futuristic and super flashy stage, we'll keep doing our best from here on🪩✨
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    video:
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: thebirthday5
+    reference:
+    - postximage:
+        post: 2085362312467357773
+        image: HPCx7zcbMAAIxXi
+
+- postinstagramimage:
+    post: DcZFopUj6T8
+    id: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postinstagram: DcZFopUj6T8
+
+- postinstagramimage:
+    post: DcZFopUj6T8
+    id: 3
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postinstagram: DcZFopUj6T8
+
+- postinstagramimage:
+    post: DcZFopUj6T8
+    id: 4
+    label: Bands
+    info: osage, NEK!, レイラ, 海月にさされたら
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postinstagram: DcZFopUj6T8
+
+- postinstagramvideo:
+    post: DcZFopUj6T8
+    id: 5
+    label: Shaved ice
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: thebirthday5
+    part-of:
+      postinstagram: DcZFopUj6T8
 
 - postx:
     id: 2069012864212574376

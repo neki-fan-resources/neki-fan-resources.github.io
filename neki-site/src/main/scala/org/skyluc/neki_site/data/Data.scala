@@ -3,6 +3,7 @@ package org.skyluc.neki_site.data
 import org.skyluc.fan_resources.data as fr
 import org.skyluc.fan_resources.data.checks.DataCheck
 import org.skyluc.neki_site.data.checks.LocalAssetExistsChecker
+import org.skyluc.neki_site.data.checks.LocalAssetExistsChecker2
 import org.skyluc.neki_site.data.checks.ReferencesChecker
 import org.skyluc.neki_site.yaml.DataYamlWriterBuilder
 import org.skyluc.neki_site.yaml.NekiSiteDecoders
@@ -24,6 +25,11 @@ object Data {
   def defaultCheckers(staticFolderPath: Path) = DataCheck.defaultCheckers(
     ReferencesChecker,
     LocalAssetExistsChecker(staticFolderPath),
+  )
+
+  def defaultCheckers(staticFolderPath: Path, staticFolderPath2: Path) = DataCheck.defaultCheckers(
+    ReferencesChecker,
+    LocalAssetExistsChecker2(staticFolderPath, staticFolderPath2),
   )
 
   val editSupportContext = new EditSupportContext() with NekiDataContext {}

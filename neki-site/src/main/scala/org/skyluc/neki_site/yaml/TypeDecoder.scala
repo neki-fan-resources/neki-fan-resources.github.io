@@ -11,6 +11,7 @@ import org.skyluc.fan_resources.yaml.ParserError
 import org.skyluc.fan_resources.yaml.YamlKeys.*
 import org.skyluc.neki_site.data as d
 import org.skyluc.yaml.*
+import org.snakeyaml.engine.v2.exceptions.Mark
 
 import YamlKeys.*
 
@@ -38,7 +39,7 @@ case class SiteBuilder(
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
-      range: Option[org.virtuslab.yaml.Range],
+      range: Option[Mark],
   ): Either[Seq[ParserError], d.Site] = {
     for {
       navigation <- checkDefined(NAVIGATION, navigation)
@@ -97,7 +98,7 @@ case class BandBuilder(
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
-      range: Option[org.virtuslab.yaml.Range],
+      range: Option[Mark],
   ): Either[Seq[ParserError], d.Band] =
     for {
       members <- checkDefined(MEMBER, members)
@@ -147,7 +148,7 @@ case class MembersBuilder(
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
-      range: Option[org.virtuslab.yaml.Range],
+      range: Option[Mark],
   ): Either[Seq[ParserError], d.Members] = {
     for {
       cocoro <- checkDefined(COCORO, cocoro)
@@ -220,7 +221,7 @@ case class MemberBuilder(
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
-      range: Option[org.virtuslab.yaml.Range],
+      range: Option[Mark],
   ): Either[Seq[ParserError], d.Member] = {
     for {
       id <- checkDefined(ID, id)
@@ -282,7 +283,7 @@ case class SocialMediaBuilder(
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
-      range: Option[org.virtuslab.yaml.Range],
+      range: Option[Mark],
   ): Either[Seq[ParserError], d.SocialMedia] = {
     Right(
       d.SocialMedia(
@@ -339,7 +340,7 @@ case class NavigationBuilder(
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
-      range: Option[org.virtuslab.yaml.Range],
+      range: Option[Mark],
   ): Either[Seq[ParserError], d.Navigation] = {
     for {
       main <- checkDefined(MAIN, main)
@@ -388,7 +389,7 @@ case class NavigationItemBuilder(
 
   override protected def build(using
       context: DecoderContext[FrDecoders],
-      range: Option[org.virtuslab.yaml.Range],
+      range: Option[Mark],
   ): Either[Seq[ParserError], d.NavigationItem] = {
     for {
       name <- checkDefined(NAME, name)

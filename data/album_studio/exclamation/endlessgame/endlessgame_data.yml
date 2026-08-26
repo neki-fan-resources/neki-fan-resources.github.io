@@ -138,7 +138,7 @@
         - の
         - は
         - だあれ
-        - ?
+        - '?'
         ro:
         - ningen
         - no
@@ -151,7 +151,7 @@
         - no
         - wa
         - daare
-        - ?
+        - '?'
         ww:
         - w: human
           d: 人間
@@ -174,7 +174,7 @@
           d: は
         - w: who?
           d: だあれ
-        - ?
+        - '?'
         - d: 人間の仮面を被って 嘘吐いているのはだあれ%3f
         gg:
         - Who is wearing a human mask, telling lies?
@@ -419,7 +419,7 @@
         - か
         - 味方
         - か
-        - ?
+        - '?'
         ro:
         - kanzenhanzai
         - warau
@@ -429,7 +429,7 @@
         - ka
         - mikata
         - ka
-        - ?
+        - '?'
         ww:
         - w: perfect crime
           d: 完全犯罪
@@ -446,7 +446,7 @@
           d: 味方
         - w: or
           d: か
-        - ?
+        - '?'
         - d: 完全犯罪笑うのは 敵か味方か%3f
         gg:
         - Who's laughing at the perfect crime? friend or foe?
@@ -715,7 +715,7 @@
         - 言い切れる
         - の
         - か
-        - ?
+        - '?'
         ro:
         - seirenkeppaku
         - ''
@@ -727,7 +727,7 @@
         - iikireru
         - no
         - ka
-        - ?
+        - '?'
         ww:
         - w: absolute honesty
           d: 清廉潔白
@@ -744,7 +744,7 @@
           d: 言い切れる
         - d: の
         - d: か
-        - ?
+        - '?'
         - d: 清廉潔白 「無実だ」と言い切れるのか%3f
         gg:
         - Can I call myself completely innocent?
@@ -791,7 +791,7 @@
         - が
         - 残る
         - の
-        - ?
+        - '?'
         - ''
         - いたずらな
         - ホープレスゲーム
@@ -802,7 +802,7 @@
         - ga
         - nokoru
         - no
-        - ?
+        - '?'
         - ''
         - itazurana
         - hoopuresugeemu
@@ -819,7 +819,7 @@
           d: 残る
         - w: ('s)
           d: の
-        - ?
+        - '?'
         - ''
         - w: pointless
           d: いたずらな
@@ -858,7 +858,7 @@
         - の
         - 方
         - か
-        - ?
+        - '?'
         ro:
         - ookami
         - ka
@@ -866,7 +866,7 @@
         - no
         - kata
         - ka
-        - ?
+        - '?'
         ww:
         - w: wolf
           d: 狼
@@ -880,7 +880,7 @@
           d: 方
         - w: ''
           d: か
-        - ?
+        - '?'
         - d: 狼か人間の方か%3f
         gg:
         - Is it the wolf, or the human?
@@ -994,7 +994,7 @@
         - か
         - 味方
         - か
-        - ?
+        - '?'
         ro:
         - kanzenhanzai
         - warau
@@ -1005,7 +1005,7 @@
         - ka
         - mikata
         - ka
-        - ?
+        - '?'
         ww:
         - w: perfect crime
           d: 完全犯罪
@@ -1022,7 +1022,7 @@
           d: 味方
         - w: or
           d: か
-        - ?
+        - '?'
         - d: 完全犯罪笑うのは 敵か味方か%3f
         gg:
         - Who's laughing at the perfect crime? friend or foe?
@@ -1153,7 +1153,7 @@
         - 言い切れる
         - の
         - か
-        - ?
+        - '?'
         ro:
         - seirenkeppaku
         - ''
@@ -1165,7 +1165,7 @@
         - iikireru
         - no
         - ka
-        - ?
+        - '?'
         ww:
         - w: absolute honesty
           d: 清廉潔白
@@ -1182,7 +1182,7 @@
           d: 言い切れる
         - d: の
         - d: か
-        - ?
+        - '?'
         - d: 清廉潔白 「無実だ」と言い切れるのか%3f
         gg:
         - Can I call myself completely innocent?
@@ -1229,7 +1229,7 @@
         - が
         - 残る
         - の
-        - ?
+        - '?'
         - ''
         - 終わり
         - に
@@ -1242,7 +1242,7 @@
         - ga
         - nokoru
         - no
-        - ?
+        - '?'
         - ''
         - owari
         - ni
@@ -1261,7 +1261,7 @@
           d: 残る
         - w: ('s)
           d: の
-        - ?
+        - '?'
         - ''
         - w: end
           d: 終わり

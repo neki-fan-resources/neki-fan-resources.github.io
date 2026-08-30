@@ -1,0 +1,26 @@
+- webimage:
+    domain: neki.bitfan.id
+    page: 118927
+    id: cover
+    label: Band image
+    published-date: 2026-08-13
+    url: 'https://bitfan-id.s3.ap-northeast-1.amazonaws.com/store/d32338ee419e887b432730abaa3837d6.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 118927
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 118927
+    label: Show page
+    published-date: 2026-08-13
+    url: 'https://neki.bitfan.id/schedules/118927'
+    image:
+    - cover
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+

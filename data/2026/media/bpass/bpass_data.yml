@@ -1,0 +1,72 @@
+- postx:
+    id: 2092498037860172192
+    account: BP_40th
+    label: Announcement
+    published-date: 2026-08-26
+    text: |-
+      ／
+      📕B-PASS 2026年10月号
+      🗓️8月27日（木）発売
+      ＼
+      
+      ❤️表紙巻頭特集：#SUPER_EIGHT（
+      @Infinity_rJP
+      ）
+      
+      DOMOTO／超特急／LIL LEAGUE／龍宮城／AKB48／ME:I／ExWHYZ／NEK!／ReoNa／WOLF HOWL HARMONY／BILLY BOO／sorato／SPYAIR
+      and more...
+      
+      🔗https://shinko-music.co.jp/item/pid2175572610/
+      
+      #BPASS
+    translation: |-
+      ／
+      📕B-PASS October 2026 Issue
+      🗓️On sale Thursday, August 27
+      ＼
+      
+      ❤️Cover & Lead Feature: #SUPER_EIGHT (
+      @Infinity_rJP
+      )
+      
+      DOMOTO / Bullet Train / LIL LEAGUE / Ryugujo / AKB48 / ME:I / ExWHYZ / NEK! / ReoNa / WOLF HOWL HARMONY / BILLY BOO / sorato / SPYAIR
+      and more...
+      
+      🔗https://shinko-music.co.jp/item/pid2175572610/
+      
+      #BPASS
+    image:
+    - HQoLuCna0AAo0Qt
+    part-of:
+      media:
+        year: 2026
+        id: bpass
+
+- postximage:
+    post: 2092498037860172192
+    id: HQoLuCna0AAo0Qt
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: bpass
+    part-of:
+      postx: 2092498037860172192
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 432005
+    label: Announcement
+    published-date: 2026-08-27
+    url: 'https://neki.bitfan.id/contents/432005'
+    part-of:
+      media:
+        year: 2026
+        id: bpass
+    reference:
+    - postximage:
+        post: 2092498037860172192
+        image: HQoLuCna0AAo0Qt
+

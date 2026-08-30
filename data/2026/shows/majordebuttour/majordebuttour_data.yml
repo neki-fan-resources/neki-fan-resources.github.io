@@ -10,6 +10,41 @@
             isMediumMarker:
             - show
     - basicblock:
+        id: merch
+        label: Merch
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2092596424219427114
+                    image: HQplWUUawAA1wJK
+                - postximage:
+                    post: 2094014799944593681
+                    image: HQ9vXBsaoAAUXq1
+                - postximage:
+                    post: 2094014799944593681
+                    image: HQ9vXBsakAAb8Se
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2093988307353080191
+                    image: HQ9Wx8PbMAANUHj
+                - postximage:
+                    post: 2093988307353080191
+                    image: HQ9Wx8PaUAAgtfs
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2093988307353080191
+                    image: HQ9Wz4gaAAA2fj2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2092470757498696166
+                    image: HQny0pXaYAAR7vS
+    - basicblock:
         id: media
         label: In the medias
         sections:
@@ -56,6 +91,76 @@
                       text: entameclip.com
     part-of:
       tour: majordebuttour
+
+- postinstagram:
+    id: DcqMdI3EYuN
+    account: nekiband_jp
+    label: Merch info
+    published-date: 2026-08-30
+    text: |-
+      .
+      🚨💥 東名阪TOUR 💥🚨
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      来週より東名阪ツアーがスタート🔥
+      
+      📍9/4(金) 大阪・BANGBOO ⚠️残少
+      📍9/5(土) 愛知・RAD SEVEN 🈵SOLD
+      
+      グッズ一覧&販売時間など詳細更新♻️
+      ご来場お待ちしております！
+      
+      ▼公演詳細🖊️
+      https://neki.bitfan.id/contents/433345
+      
+      ▼TICKET🎫
+      https://l-tike.com/nekiband/
+    translation: |-
+      🚨💥 Tokyo-Nagoya-Osaka TOUR 💥🚨
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      The Tokyo-Nagoya-Osaka tour starts next week🔥
+      
+      📍9/4 (Fri) Osaka・BANGBOO ⚠️Few Left
+      📍9/5 (Sat) Aichi・RAD SEVEN 🈵SOLD
+      
+      Goods lineup & sales times, etc. details updated♻️
+      We look forward to seeing you there!
+      
+      ▼Show Details🖊️
+      https://neki.bitfan.id/contents/433345
+      
+      ▼TICKET🎫
+      https://l-tike.com/nekiband/
+    image:
+    - 1
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 433345
+    reference:
+    - postximage:
+        post: 2093988307353080191
+        image: HQ9Wx8PbMAANUHj
+    - postximage:
+        post: 2093988307353080191
+        image: HQ9Wx8PaUAAgtfs
+    - postximage:
+        post: 2093988307353080191
+        image: HQ9Wz4gaAAA2fj2
+    - postximage:
+        post: 2078313821127512416
+        image: HNeUfX9bEAAmHMs
+
+- postinstagramimage:
+    post: DcqMdI3EYuN
+    id: 1
+    label: Band
+    todo: Add to major debut image
+    part-of:
+      postinstagram: DcqMdI3EYuN
 
 - postx:
     id: 2048345088838050111
@@ -316,6 +421,196 @@
     part-of:
       tour: majordebuttour
 
+- postx:
+    id: 2092470757498696166
+    account: nekiband_jp
+    label: Online merch
+    published-date: 2026-08-26
+    text: |-
+      【GOODS🛒】
+      
+      『NEK! MAJOR DEBUT TOUR』
+      
+      東名阪ツアーグッズ公開💥
+      
+      下記ラインナップをオンラインショップにて本日20時より販売受付開始！
+      
+      ★ONLINE限定アイテムを除きグッズは東名阪ツアー会場でも販売いたします。
+      
+      ★オンラインショップでご購入されましたグッズは9/7(月)より順次発送となり、ツアー大阪&愛知公演日までにお手元には到着いたしませんのであらかじめご了承ください。
+      
+      < 受付期間 >
+      8/26(水)20:00 ~ 8/31(月)17:59
+      ※受付開始時間より販売ページは更新となります。
+      
+      🔗https://nekiband.shop
+      
+      #NEKI
+    translation: |-
+      【GOODS🛒】
+      
+      "NEK! MAJOR DEBUT TOUR"
+      
+      Tokyo-Nagoya-Osaka Tour Goods Revealed💥
+      
+      Pre-orders for the lineup below start today at 20:00 on our online shop!
+      
+      ★Except for ONLINE exclusive items, goods will also be sold at the Tokyo, Nagoya, and Osaka tour venues.
+      
+      ★Please note in advance that goods purchased on the online shop will be shipped sequentially starting Monday, September 7, and will not arrive prior to the Osaka & Aichi tour show dates.
+      
+      < Order Period >
+      8/26 (Wed) 20:00 - 8/31 (Mon) 17:59
+      *The sales page will update starting from the order opening time.
+      
+      🔗https://nekiband.shop
+      
+      #NEKI
+    image:
+    - HQny0pXaYAAR7vS
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 427075
+
+- postx:
+    id: 2092569406908063888
+    account: nekiband_jp
+    label: Online store open
+    published-date: 2026-08-26
+    text: |-
+      『NEK! MAJOR DEBUT TOUR』
+      
+      オンラインでのグッズ受付スタート🛒
+      
+      ぜひチェックお願いします✔️
+      
+      https://nekiband.shop
+      
+      #NEKI
+    translation: |-
+      NEK! MAJOR DEBUT TOUR"
+      
+      Online pre-orders for goods have started🛒
+      
+      Please be sure to check it out✔️
+      
+      https://nekiband.shop
+      
+      #NEKI
+    part-of:
+      postx: 2092470757498696166
+
+- postx:
+    id: 2092596424219427114
+    account: coco_102
+    label: Tour merch
+    published-date: 2026-08-26
+    text: |-
+      新グッズのオンライン受付がスタートしました！
+      皆さん待望の白NEK!Tとか、夏らしいカラーのトートバッグやラババンも登場💚
+      そしてNEK!初のアクスタが出ました！！やったー！
+      ミニネキちゃんかわいいからぜひゲットしてねー！
+    translation: |-
+      Online pre-orders for the new goods have started!
+      The much-awaited white NEK! T-shirt is here, along with summer-themed tote bags and rubber wristbands💚
+      And NEK!'s very first acrylic stands are out!! Yay!
+      Mini NEKI-chan is so cute, so definitely go grab one!
+    image:
+    - HQplWUUawAA1wJK
+    part-of:
+      postx: 2092569406908063888
+
+- postx:
+    id: 2093988307353080191
+    account: nekiband_jp
+    label: Merch info
+    published-date: 2026-08-30
+    text: |-
+      🚨💥 東名阪TOUR 💥🚨
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      来週より東名阪ツアーがスタート🔥
+      
+      📍9/4(金) 大阪・BANGBOO ⚠️残少
+      📍9/5(土) 愛知・RAD SEVEN 🈵SOLD
+      
+      グッズ一覧&販売時間など詳細更新♻️
+      ご来場お待ちしております！
+      
+      ▼公演詳細🖊️
+      https://neki.bitfan.id/contents/433345
+      
+      ▼TICKET🎫
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      🚨💥 Tokyo-Nagoya-Osaka TOUR 💥🚨
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      The Tokyo-Nagoya-Osaka tour starts next week🔥
+      
+      📍9/4 (Fri) Osaka・BANGBOO ⚠️Few Left
+      📍9/5 (Sat) Aichi・RAD SEVEN 🈵SOLD
+      
+      Goods lineup & sales times, etc. details updated♻️
+      We look forward to seeing you there!
+      
+      ▼Show Details🖊️
+      https://neki.bitfan.id/contents/433345
+      
+      ▼TICKET🎫
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HQ9Wx8PaUAAgtfs
+    - HQ9Wx8PbMAANUHj
+    - HQ9Wz4gaAAA2fj2
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 433345
+    reference:
+    - postximage:
+        post: 2078313821127512416
+        image: HNeUfX9bEAAmHMs
+
+- postx:
+    id: 2094014799944593681
+    account: cure_bass_baka
+    label: Merch and cards
+    published-date: 2026-08-30
+    text: |-
+      グッズ色々GETよろしくなのだ‼️ჱ̒^ ̳  ̫  ̳^
+      
+      alt1:
+      
+      一緒にお出かけしてください‼️
+      みんながかなでんを外に連れ出すんだ‼️‼️
+      
+      alt2:
+      なんかDSの頃のポケモンみたいだと勝手に思ってる。
+      これで冒険できたらいいのに‼️
+    translation: |-
+      Make sure to GET lots of goods, okay!!ჱ̒^ ̳  ̫  ̳^
+      
+      alt1:
+      Please go out with me!!
+      Everyone, take Kanaden outside!!!!
+      
+      alt2:
+      I somehow personally feel like it looks like Pokémon from the DS era.
+      I wish I could go on an adventure with this‼️
+    image:
+    - HQ9vXBsakAAb8Se
+    - HQ9vXBsaoAAUXq1
+    part-of:
+      tour: majordebuttour
+
 - postximage:
     post: 2064221900256231452
     id: HKWW3tUbUAAQK21
@@ -369,6 +664,79 @@
     part-of:
       postx: 2081553831046090938
 
+- postximage:
+    post: 2092470757498696166
+    id: HQny0pXaYAAR7vS
+    index: 1
+    label: Online merch
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2092470757498696166
+
+- postximage:
+    post: 2092596424219427114
+    id: HQplWUUawAA1wJK
+    index: 1
+    label: Merch
+    info: Cocoro
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2092596424219427114
+
+- postximage:
+    post: 2093988307353080191
+    id: HQ9Wx8PaUAAgtfs
+    index: 3
+    label: Merch
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2093988307353080191
+
+- postximage:
+    post: 2093988307353080191
+    id: HQ9Wx8PbMAANUHj
+    index: 2
+    label: Merch
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2093988307353080191
+
+- postximage:
+    post: 2093988307353080191
+    id: HQ9Wz4gaAAA2fj2
+    index: 4
+    label: EP bonus cards
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2093988307353080191
+
+- postximage:
+    post: 2094014799944593681
+    id: HQ9vXBsakAAb8Se
+    index: 2
+    label: Card
+    info: Kanade
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2094014799944593681
+
+- postximage:
+    post: 2094014799944593681
+    id: HQ9vXBsaoAAUXq1
+    index: 1
+    label: Merch
+    info: Kanade
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2094014799944593681
+
 - update:
     tour: majordebuttour
     date: 2026-04-27
@@ -421,4 +789,26 @@
         domain: neki.bitfan.id
         page: 379563
         id: poster
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 427075
+    label: Online merch
+    published-date: 2026-08-26
+    url: 'https://neki.bitfan.id/contents/427075'
+    part-of:
+      tour: majordebuttour
+    reference:
+    - postximage:
+        post: 2092470757498696166
+        image: HQny0pXaYAAR7vS
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 433345
+    label: Show and merch info
+    published-date: 2026-08-30
+    url: 'https://neki.bitfan.id/contents/433345'
+    part-of:
+      tour: majordebuttour
 

@@ -40,6 +40,47 @@
                 - postximage:
                     post: 2087541857110950041
                     image: HPhwP82b0AAlVJ6
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DciZZe9GseX
+                    image: 2
+    - basicblock:
+        id: report
+        label: Cocoro's report
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: After most concerts, Cocoro publishes her thoughts and impressions of the show.
+                - line:
+                  - text: "Here is Cocoro's "
+                  - webitem:
+                      postinstagram: DciZZe9GseX
+                      text: message
+                  - text: ' for the "New Music GROUND vol.2" show.'
+                  - newline: ''
+                  - newline: ''
+                  - newline: ''
+            - interviewsubsection:
+                lines:
+                - text: 2026.08.12
+                - text: 「New Music GROUND vol.2」
+                - text: Doona、バチカン市国に愛されたい、DeNeel、NEK!というかなり激アツな対バン！！<br>男性中心のイベントだったのでガールズバンドの底力見せたくて正直かなり気合い入ってました笑
+                  translation: A super exciting joint show with Doona, Vatican Shikyoku ni Aisaretai, DeNeel, and NEK!<br>Since it was an event with mostly male bands, I really wanted to show the true power of an all-girl band, so to be honest, I was super fired up (laughs).
+                - text: この日は私たちがトリを務めさせていただいたのですが、前3組がフロアの熱気をどんどん高めていったので、私たちがやる頃にはもう完全にサウナ状態で、一曲目から汗だくになりながら盛り上がってくれてて最高でした😂🔥
+                  translation: We had the honor of performing as the closing act today. The three bands before us kept building up the heat on the floor, so by the time we played, the room felt completely like a sauna. Seeing everyone get so hyped and sweat with us right from the first song was amazing 😂🔥
+                - text: NEK!が今までやってきたライブの中で五本の指に入るくらい暑かったかもしれない笑 全員が全力で楽しんでくれてるのが伝わってきて嬉しかったです！本当にありがとう！！！！
+                  translation: Out of all the shows NEK! has played so far, this might be in the top five hottest ones (laughs). I could really feel that everyone was giving their all to have fun, which made me so happy! Thank you all so much!!!!
+                - text: DoonaもバチカンもDeNeelもずっと対バンしたいなと思ってたので嬉しかったな〜。どのバンドもそれぞれのキャラを活かしたライブやってて最高にかっこよかったです🙂‍↕️
+                  translation: I had wanted to share the stage with Doona, Vatican, and DeNeel for a long time, so I was really glad. Every band put on a show that brought out their unique personality, and they were all so cool 🙂‍↕️
+                - text: またどこかで再会できるように頑張ります！！
+                  translation: We’ll do our best so we can meet up and share the stage again somewhere!!
     part-of:
       show:
         year: 2026
@@ -108,6 +149,60 @@
         post: 2087562533679124961
         image: HPiC_p3a4AEYzdv
 
+- postinstagram:
+    id: DciZZe9GseX
+    account: cocoro_drum
+    label: Cocoro's report
+    info: 1st image is reframed
+    published-date: 2026-08-27
+    text: |-
+      2026.08.12
+      ⁡
+      「New Music GROUND vol.2」
+      Doona、バチカン市国に愛されたい、DeNeel、NEK!というかなり激アツな対バン！！
+      男性中心のイベントだったのでガールズバンドの底力見せたくて正直かなり気合い入ってました笑
+      
+      この日は私たちがトリを務めさせていただいたのですが、前3組がフロアの熱気をどんどん高めていったので、私たちがやる頃にはもう完全にサウナ状態で、一曲目から汗だくになりながら盛り上がってくれてて最高でした😂🔥
+      
+      NEK!が今までやってきたライブの中で五本の指に入るくらい暑かったかもしれない笑 全員が全力で楽しんでくれてるのが伝わってきて嬉しかったです！本当にありがとう！！！！
+      
+      DoonaもバチカンもDeNeelもずっと対バンしたいなと思ってたので嬉しかったな〜。どのバンドもそれぞれのキャラを活かしたライブやってて最高にかっこよかったです🙂‍↕️
+      ⁡
+      またどこかで再会できるように頑張ります！！
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.08.12
+      ⁡
+      "New Music GROUND vol.2"
+      An insanely hot joint show with Doona, Vatican Shikyoku ni Aisaretai, DeNeel, and NEK!!
+      Since it was a male-centric event, I honestly was super pumped to show the true strength of an all-female band lol
+      
+      We had the privilege of playing as the closing act that day, and because the 3 bands before us kept driving up the floor's heat, by the time we went on it was completely like a sauna, and seeing everyone get so hyped up while covered in sweat right from the first song was the best😂🔥
+      
+      It might have been among the top five hottest shows NEK! has ever played lol I was so happy seeing how everyone was enjoying it to the fullest! Thank you so much!!!!
+      
+      I had always wanted to share the stage with Doona, Vatican, and DeNeel, so I was really glad~. Every band put on a show that played to their own distinct character, and they were all insanely cool🙂‍↕️
+      ⁡
+      We'll do our best so we can cross paths again somewhere!!
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: newmusicgroundvol2
+    reference:
+    - postximage:
+        post: 2087541857110950041
+        image: HPhwP82b0AAlVJ6
+    - postximage:
+        post: 2087562533679124961
+        image: HPiC_p3a4AEYzdv
+
 - postinstagramimage:
     post: Db8WewlknDG
     id: 2
@@ -129,6 +224,18 @@
         id: newmusicgroundvol2
     part-of:
       postinstagram: Db8WewlknDG
+
+- postinstagramimage:
+    post: DciZZe9GseX
+    id: 2
+    label: Bands
+    info: NEK!, DeNeel, Doona
+    context:
+    - show:
+        year: 2026
+        id: newmusicgroundvol2
+    part-of:
+      postinstagram: DciZZe9GseX
 
 - postx:
     id: 2087379865897251173

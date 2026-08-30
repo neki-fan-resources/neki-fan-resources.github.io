@@ -58,12 +58,18 @@ contentpage:
   - show:
       year: 2026
       id: debuttourtokyo
-  - show:
+  - media:
       year: 2026
-      id: oborock
+      id: nekimute2
   - show:
       year: 2026
       id: binarytowershibuya
+  - show:
+      year: 2026
+      id: oborock
+  - media:
+      year: 2026
+      id: nekimute1
   - show:
       year: 2026
       id: binarytowernagoya
@@ -78,6 +84,9 @@ contentpage:
       id: binarytowerumeda
   - tour: majordebuttour
   - album: binary
+  - media:
+      year: 2026
+      id: bpass
   - media:
       year: 2026
       id: skreamnekishi202608

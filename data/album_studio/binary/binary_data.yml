@@ -96,6 +96,24 @@
     part-of:
       album: binary
 
+- postx:
+    id: 2093997557173424339
+    account: 46_hikaa
+    label: A few notes of one of the songs
+    published-date: 2026-08-30
+    text: |-
+      新曲達を早くみんなに聴かせたい、
+      
+      9/2楽しみにしててねっ
+    translation: |-
+      I want everyone to hear the new songs so badly,
+      
+      Look forward to 9/2!
+    video:
+    - 1
+    part-of:
+      album: binary
+
 - postximage:
     post: 2075867719455678491
     id: HM72rarbgAAlomF
@@ -139,6 +157,17 @@
     - album: binary
     part-of:
       postx: 2078435671640047965
+
+- postxvideo:
+    post: 2093997557173424339
+    id: 1
+    label: A few notes
+    cover: 2093997530296279040/img/1ItMFtte_TVEUSGA.jpg
+    context:
+    - album: binary
+    todo: Add to the new song
+    part-of:
+      postx: 2093997557173424339
 
 - update:
     album: binary

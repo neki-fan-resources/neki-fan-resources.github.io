@@ -1,0 +1,76 @@
+- postx:
+    id: 2094682954438246418
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-09-01
+    text: |-
+      【RADIO📻】
+      
+      明日9/2(水)19:00~放送
+      RADIO BERRY「ベリテンライブ2026 総集編」
+      
+      先日出演した「RADIO BERRY ベリテンライブ 2026」
+      出演後コメント & 一部ライブの模様がダイジェストで放送となります⚡️
+      
+      ぜひお聴きください！
+      
+      ▼radikoでお聴きの方はこちら
+      https://radiko.jp/share/?sid=RADIOBERRY&t=20260902190000
+      
+      #NEKI
+    translation: |-
+      【RADIO📻】
+      
+      Broadcasting tomorrow 9/2 (Wed) 19:00~
+      RADIO BERRY "Berry Ten Live 2026 Special Omnibus"
+      
+      From "RADIO BERRY Berry Ten Live 2026" which we performed at the other day,
+      post-performance comments & part of the live show will be broadcast as a digest⚡️
+      
+      Please make sure to listen!
+      
+      ▼For those listening on radiko, click here
+      https://radiko.jp/share/?sid=RADIOBERRY&t=20260902190000
+      
+      #NEKI
+    image:
+    - HRHOaHWbsAAnAxH
+    - HRHObEQbkAADtNh
+    part-of:
+      media:
+        year: 2026
+        id: radioberrylivecompilation
+
+- postximage:
+    post: 2094682954438246418
+    id: HRHOaHWbsAAnAxH
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: berrytenlivehouse
+    part-of:
+      postx: 2094682954438246418
+
+- postximage:
+    post: 2094682954438246418
+    id: HRHObEQbkAADtNh
+    index: 2
+    label: Logo
+    local-copy: true
+    part-of:
+      postx: 2094682954438246418
+
+- update:
+    media:
+      year: 2026
+      id: radioberrylivecompilation
+    date: 2026-09-01
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: radioberrylivecompilation
+

@@ -1,3 +1,110 @@
+- display:
+    album: binary
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - albumsongssection: '-'
+        - basicsection:
+            label: Editions
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2075867719455678491
+                    image: HM72rarbgAAlomF
+                - postximage:
+                    post: 2075867719455678491
+                    image: HM72raubkAIHjAi
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2094648572797214755
+                    image: HRGvvYib0AAqjkx
+                - postximage:
+                    post: 2094690528537530472
+                    image: HRHV7ldbMAA4935
+    - basicblock:
+        id: display
+        label: In-store display
+        sections:
+        - basicsection:
+            label: Panel Exhibition
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2094627449837703303
+                    image: HRGXD3daUAEMwZu
+                - postximage:
+                    post: 2094629414420222154
+                    image: HRGePXgbgAANycR
+        - basicsection:
+            label: In-store display
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2094627449837703303
+                    image: HRGXD3dbIAA930j
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2094629414420222154
+                    image: HRGeOxfaUAAP_Xo
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2094637294062055663
+                    image: HRGkJOXbEAA1ijv
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2094647548883697763
+                    image: HRGu1oqagAAw7YJ
+                - postximage:
+                    post: 2094644089396543857
+                    image: HRGrsZFbwAAyjJR
+    - basicblock:
+        id: bonuses
+        label: Bonuses
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2078435671640047965
+                    image: HNgS5jZbkAAZ8S7
+                - webimage:
+                    domain: natalie.mu
+                    page: 681511
+                    id: 5
+                - postximage:
+                    post: 2075870550371565628
+                    image: HM75QdDbQAAx4m1
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: neki.bitfan.id
+                    page: 422363
+                    id: pixels2
+                - webimage:
+                    domain: neki.bitfan.id
+                    page: 422363
+                    id: pixels
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2094629414420222154
+                    image: HRGeQ4sasAAOms5
+                - postximage:
+                    post: 2094629414420222154
+                    image: HRGeSRcbQAAw6lf
+    part-of:
+      album: binary
+
 - postx:
     id: 2075867719455678491
     account: nekiband_jp
@@ -114,6 +221,296 @@
     part-of:
       album: binary
 
+- postx:
+    id: 2094382237148176617
+    account: coco_102
+    label: Some drum of one of the songs
+    published-date: 2026-08-31
+    text: |-
+      B!NARYお楽しみに🤟🏻🔥
+    translation: |-
+      Look forward to B!NARY🤟🏻🔥
+    video:
+    - 1
+    part-of:
+      album: binary
+
+- postx:
+    id: 2094627449837703303
+    account: TOWER_Shibuya
+    label: In-store display
+    published-date: 2026-09-01
+    text: |-
+      【NEK!】
+      
+      ／
+      "NEK!"待望のMajor 1st EP
+      『B!NARY』入荷しております💚✨
+      ＼
+      
+      3Fで実施中の大型パネル展示 、
+      特典のステッカーの内容はこちらから✔︎
+      詳細：https://towershibuya.jp/news/2026/08/18/233339
+      
+      9/13(日)のイベント券のお渡しもございます✔︎
+      詳細：https://towershibuya.jp/2026/08/13/233180
+      
+      3形態同時購入で
+      クリアポスターもお渡し中◎！
+      施策が盛りだくさんのリリース🥺❕
+      たくさんのご来店お待ちしております💫（美）
+    translation: |-
+      【NEK!】
+      
+      ／
+      "NEK!"'s long-awaited Major 1st EP
+      "B!NARY" is now in stock💚✨
+      ＼
+      
+      Details on the large panel exhibition currently on 3F
+      and the bonus sticker can be found here✔︎
+      Details: https://towershibuya.jp/news/2026/08/18/233339
+      
+      Event tickets for 9/13 (Sun) are also being handed out✔︎
+      Details: https://towershibuya.jp/2026/08/13/233180
+      
+      With the simultaneous purchase of all 3 editions,
+      a clear poster is also being handed out◎!
+      A release packed with lots of promotions🥺❕
+      We look forward to welcoming many visitors💫 (Mi)
+    image:
+    - HRGXD3daUAEMwZu
+    - HRGXD3dbIAA930j
+    part-of:
+      album: binary
+
+- postx:
+    id: 2094629414420222154
+    account: TOWER_Fukuoka
+    label: In-store display
+    published-date: 2026-09-01
+    text: |-
+      【NEK!】
+      
+      Major 1st EP『B!NARY』本日入荷!!🚚
+      
+      発売記念キャンペーン開催🎶
+      🟢パネル展＆抽選プレゼント
+      🟢特別レシート発行
+      🟢ドット絵ステッカープレゼント
+      🔗https://neki10010010.ponycanyon.co.jp
+      
+      🎁スマホサイズステッカー(全4種ランダム)
+      🎁3形態同時購入特典：A3クリアポスター
+      #NEKI #CD入荷情報
+    translation: |-
+      【NEK!】
+      
+      Major 1st EP "B!NARY" in stock today!!🚚
+      
+      Release Celebration Campaign underway🎶
+      🟢Panel Exhibition & Lottery Giveaway
+      🟢Special Receipt Issued
+      🟢Pixel Art Sticker Giveaway
+      🔗https://neki10010010.ponycanyon.co.jp
+      
+      🎁Smartphone-size sticker (Random out of 4 types)
+      🎁Simultaneous purchase bonus for all 3 editions: A3 clear poster
+      #NEKI #CDArrivalInfo
+    image:
+    - HRGeOxfaUAAP_Xo
+    - HRGePXgbgAANycR
+    - HRGeQ4sasAAOms5
+    - HRGeSRcbQAAw6lf
+    part-of:
+      album: binary
+
+- postx:
+    id: 2094637294062055663
+    account: TOWER_NagoyaPrc
+    label: In-store display
+    published-date: 2026-09-01
+    text: |-
+      【NEK!】
+      
+      待望のMajor 1st EP『B!NARY』入荷いたしました‼
+      
+      9/6 発売記念インストアイベント🙌
+      🔗https://tower.jp/store/event/2026/09/015005
+      
+      ■パネル展&プレゼント抽選
+      ■特別レシート発行
+      ■スマホサイズステッカー
+      ■ドット絵ステッカー
+      
+      ご来店お待ちしています✨
+      #NEKI
+    translation: |-
+      【NEK!】
+      
+      The long-awaited Major 1st EP "B!NARY" is now in stock!!
+      
+      9/6 Release Celebration In-Store Event🙌
+      🔗https://tower.jp/store/event/2026/09/015005
+      
+      ■ Panel Exhibition & Gift Lottery
+      ■ Special Receipt Issued
+      ■ Smartphone-size Sticker
+      ■ Pixel Art Sticker
+      
+      We look forward to your visit✨
+      #NEKI
+    image:
+    - HRGkJOXbEAA1ijv
+    - HRGkhAra0AASoU4
+    part-of:
+      album: binary
+
+- postx:
+    id: 2094644089396543857
+    account: TOWER_Namba
+    label: In-store display
+    published-date: 2026-09-01
+    text: |-
+      【NEK!】
+      
+      Major 1st EP『B!NARY』入荷💥
+      
+      ネット発のスラングロックバンドNEK!が、
+      待望のMajor 1st EPをリリース🙌🏻
+      
+      🎁特典：スマホサイズステッカー
+      🎁3形態同時購入特典：A3クリアポスター
+    translation: |-
+      【NEK!】
+      
+      Major 1st EP "B!NARY" in stock💥
+      
+      Internet-born slang rock band NEK!
+      releases their long-awaited Major 1st EP🙌🏻
+      
+      🎁Bonus: Smartphone-size sticker
+      🎁3-edition simultaneous purchase bonus: A3 clear poster
+    image:
+    - HRGrsZFbwAAyjJR
+    part-of:
+      album: binary
+
+- postx:
+    id: 2094647548883697763
+    account: TOWER_Namba
+    label: Namba Parks Store recommended artist
+    published-date: 2026-09-01
+    text: |-
+      【NEK!】
+      
+      　　／
+      📢　なんばパークス店が毎月
+      　　おすすめアーティストを紹介❗️
+      　　＼
+      
+      ❤️💙9月度 #ズンドコメン💛💜
+      　　　　
+      NEK!『B!NARY』
+      
+      大注目👀スラングロックバンド NEK!🎸
+      熱意と技術の詰まったメジャー1st EP!!!!❤️‍🔥
+      
+      ネキ民のみなさま‼️
+      なんばパークス店でお待ちしております💛
+    translation: |-
+      【NEK!】
+      
+        ／
+      📢 Namba Parks Store introduces
+        recommended artists every month❗️
+        ＼
+      
+      ❤️💙September #Zundokomen💛💜
+          
+      NEK! "B!NARY"
+      
+      High-profile👀 slang rock band NEK!🎸
+      Major 1st EP packed with passion and technique!!!!❤️‍🔥
+      
+      To all the Neki-min‼️
+      We look forward to seeing you at the Namba Parks store💛
+    image:
+    - HRGu1oqagAAw7YJ
+    part-of:
+      album: binary
+
+- postx:
+    id: 2094648572797214755
+    account: nekiband_jp
+    label: Pre-release today
+    published-date: 2026-09-01
+    text: |-
+      \\⚡️ 本日フラゲ日 ⚡️ //
+      
+      9/2(水)リリース
+      NEK! Major 1st EP『B!NARY』
+      
+      本日はメジャーデビュー後初となるEPのフラゲ日です‼️
+      
+      楽曲やEPを聴いたご感想はぜひ #NEKI を付けて
+      ポストをよろしくお願いします🫶💫
+      
+      ▼本日24時全曲サブスク解禁🎧
+      https://lnk.to/NEKI_BINARYTW
+      
+      ▼CDご購入💿
+      https://lnk.to/NEKI_BINARY_CDTW
+      
+      #NEKI
+    translation: |-
+      \\⚡️ Flying Get Day Today ⚡️ //
+      
+      9/2 (Wed) Release
+      NEK! Major 1st EP "B!NARY"
+      
+      Today is the flying get day for our first EP since our major debut‼️
+      
+      Please post your impressions after listening to the songs and the EP with #NEKI 🫶💫
+      
+      ▼All tracks available on streaming services tonight at 24:00🎧
+      https://lnk.to/NEKI_BINARYTW
+      
+      ▼Buy CD💿
+      https://lnk.to/NEKI_BINARY_CDTW
+      
+      #NEKI
+    image:
+    - HRGvvYib0AAqjkx
+    part-of:
+      album: binary
+    reference:
+    - postximage:
+        post: 2075867719455678491
+        image: HM72raubkAIHjAi
+    - webimage:
+        domain: neki.bitfan.id
+        page: 118927
+        id: cover
+
+- postx:
+    id: 2094690528537530472
+    account: natsu08_guitar
+    label: Pre-release today
+    published-date: 2026-09-01
+    text: |-
+      本日フラゲ日！！
+      みんなゲットしたー？
+      感想もどしどしお待ちしております！！！
+    translation: |-
+      Today is the flying get day!!
+      Did everyone get it~?
+      We're eagerly waiting for lots of your impressions!!!
+    image:
+    - HRHV7ldbMAA4935
+    part-of:
+      album: binary
+
 - postximage:
     post: 2075867719455678491
     id: HM72rarbgAAlomF
@@ -158,6 +555,136 @@
     part-of:
       postx: 2078435671640047965
 
+- postximage:
+    post: 2094627449837703303
+    id: HRGXD3daUAEMwZu
+    index: 2
+    label: Panel exhibition
+    info: Tower Records Shibuya
+    context:
+    - album: binary
+    part-of:
+      postx: 2094627449837703303
+
+- postximage:
+    post: 2094627449837703303
+    id: HRGXD3dbIAA930j
+    index: 1
+    label: In-store display
+    info: Tower Records Shibuya
+    context:
+    - album: binary
+    part-of:
+      postx: 2094627449837703303
+
+- postximage:
+    post: 2094629414420222154
+    id: HRGeOxfaUAAP_Xo
+    index: 1
+    label: In-store display
+    info: Tower Record Fukuoka
+    context:
+    - album: binary
+    part-of:
+      postx: 2094629414420222154
+
+- postximage:
+    post: 2094629414420222154
+    id: HRGePXgbgAANycR
+    index: 2
+    label: Panel exhibition
+    info: Tower Record Fukuoka
+    context:
+    - album: binary
+    part-of:
+      postx: 2094629414420222154
+
+- postximage:
+    post: 2094629414420222154
+    id: HRGeQ4sasAAOms5
+    index: 3
+    label: Bonus stickers
+    info: Tower Record
+    context:
+    - album: binary
+    part-of:
+      postx: 2094629414420222154
+
+- postximage:
+    post: 2094629414420222154
+    id: HRGeSRcbQAAw6lf
+    index: 4
+    label: Bonus poster
+    info: Tower Record
+    context:
+    - album: binary
+    part-of:
+      postx: 2094629414420222154
+
+- postximage:
+    post: 2094637294062055663
+    id: HRGkJOXbEAA1ijv
+    index: 1
+    label: In-store display
+    info: Tower Records Nagoya
+    context:
+    - album: binary
+    part-of:
+      postx: 2094637294062055663
+
+- postximage:
+    post: 2094637294062055663
+    id: HRGkhAra0AASoU4
+    index: 2
+    label: Panel exhibition
+    info: Tower Records Nagoya
+    context:
+    - album: binary
+    part-of:
+      postx: 2094637294062055663
+
+- postximage:
+    post: 2094644089396543857
+    id: HRGrsZFbwAAyjJR
+    index: 1
+    label: In-store display
+    info: Tower Records Namba
+    context:
+    - album: binary
+    part-of:
+      postx: 2094644089396543857
+
+- postximage:
+    post: 2094647548883697763
+    id: HRGu1oqagAAw7YJ
+    index: 1
+    label: In-store display
+    info: Tower Records Namba
+    context:
+    - album: binary
+    part-of:
+      postx: 2094647548883697763
+
+- postximage:
+    post: 2094648572797214755
+    id: HRGvvYib0AAqjkx
+    index: 1
+    label: EP
+    context:
+    - album: binary
+    part-of:
+      postx: 2094648572797214755
+
+- postximage:
+    post: 2094690528537530472
+    id: HRHV7ldbMAA4935
+    index: 1
+    label: EPs
+    context:
+    - album: binary
+    part-of:
+      postx: 2094690528537530472
+
 - postxvideo:
     post: 2093997557173424339
     id: 1
@@ -169,11 +696,30 @@
     part-of:
       postx: 2093997557173424339
 
+- postxvideo:
+    post: 2094382237148176617
+    id: 1
+    label: A few lines
+    cover: 2094382213047656448/img/dGiLy5AkaNsy5GVF.jpg
+    context:
+    - album: binary
+    todo: Add to the new song
+    part-of:
+      postx: 2094382237148176617
+
 - update:
     album: binary
     date: 2026-07-11
     text:
     - Added the EP
+    part-of:
+      album: binary
+
+- update:
+    album: binary
+    date: 2026-09-01
+    text:
+    - First images from the pre-release day
     part-of:
       album: binary
 

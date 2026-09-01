@@ -1,0 +1,20 @@
+mediaaudio:
+  year: 2026
+  id: radioberrylivecompilation
+  cover-image:
+    postximage:
+      post: 2094682954438246418
+      image: HRHObEQbkAADtNh
+  radio: RADIO BERRY
+  show: Beriten Live 2026 Compilation
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-09-02
+  part-of:
+    group:
+      id: media
+      group: 2026

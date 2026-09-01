@@ -138,6 +138,9 @@
                 - postinstagramimage:
                     post: DOvVNxbj21l
                     image: 1
+                - postximage:
+                    post: 2094069522571645275
+                    image: HQ-hIRzaMAAU3Us
                 - postinstagramimage:
                     post: DPN6aGzETNX
                     image: 3
@@ -1730,6 +1733,21 @@
         post: 2080986478709260384
         video: 1
 
+- postx:
+    id: 2094069522571645275
+    account: cure_bass_baka
+    label: Photo
+    published-date: 2026-08-30
+    text: |-
+      2025.8.30（土）
+      NEK! 1ST ZEPP ONE MAN【#拡散中 #ネキ界隈】
+    image:
+    - HQ-hIRzaMAAU3Us
+    part-of:
+      show:
+        year: 2025
+        id: 1stzepponeman
+
 - postximage:
     post: 1931984997382316384
     id: Gs_KDFfb0AAtXQ1
@@ -2007,6 +2025,19 @@
         id: 1stzepponeman
     part-of:
       postx: 1963942446318125451
+
+- postximage:
+    post: 2094069522571645275
+    id: HQ-hIRzaMAAU3Us
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2025
+        id: 1stzepponeman
+    part-of:
+      postx: 2094069522571645275
 
 - postxvideo:
     post: 1956675862444769366

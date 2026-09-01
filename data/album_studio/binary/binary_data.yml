@@ -66,6 +66,11 @@
                 - postximage:
                     post: 2094644089396543857
                     image: HRGrsZFbwAAyjJR
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2094694621410680934
+                    image: HRHYHhVb0AA7I88
     - basicblock:
         id: bonuses
         label: Bonuses
@@ -511,6 +516,38 @@
     part-of:
       album: binary
 
+- postx:
+    id: 2094694621410680934
+    account: TOWER_NUchaya
+    label: In-store display
+    published-date: 2026-09-01
+    text: |-
+      【 NEK! 】
+      
+      Major 1st EP「B!NARY」入荷しました！⭐️
+      施策もりだくさんです❣️
+      ❤️タワレコ特典　ステッカー
+      🧡パネル展＆抽選
+      💛オリジナルレシートプレゼント
+      💚ドット絵ステッカープレゼント
+      またこちらの商品ご購入で9月3日(木)のイベント券をお渡し‼️✨
+      みなさまのご来店をお待ちしております🥹🫶
+    translation: |-
+      【 NEK! 】
+      
+      Major 1st EP "B!NARY" is now in stock!⭐️
+      Lots of promotions happening❣️
+      ❤️ Tower Records Bonus: Sticker
+      🧡 Panel Exhibition & Lottery
+      💛 Original Receipt Present
+      💚 Pixel Art Sticker Present
+      Also, purchasing this product gets you an event ticket for 9/3 (Thu)‼️✨
+      We look forward to everyone's visit🥹🫶
+    image:
+    - HRHYHhVb0AA7I88
+    part-of:
+      album: binary
+
 - postximage:
     post: 2075867719455678491
     id: HM72rarbgAAlomF
@@ -684,6 +721,17 @@
     - album: binary
     part-of:
       postx: 2094690528537530472
+
+- postximage:
+    post: 2094694621410680934
+    id: HRHYHhVb0AA7I88
+    index: 1
+    label: In-store display
+    info: Tower Records Umeda
+    context:
+    - album: binary
+    part-of:
+      postx: 2094694621410680934
 
 - postxvideo:
     post: 2093997557173424339

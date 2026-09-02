@@ -26,6 +26,28 @@
                     post: 2094690528537530472
                     image: HRHV7ldbMAA4935
     - basicblock:
+        id: visit
+        label: visiting stores
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: On release day, NEK! visited multiple stores in the Tokyo area, writing messages, signing cards and taking pictures.
+            - multimediasubsection:
+                label: Tower Records Shinjuku
+                multimedia:
+                - postximage:
+                    post: 2095049944076026308
+                    image: HRMcwI7bMAAtyBJ
+            - multimediasubsection:
+                label: Tower Records Shibuya
+                multimedia:
+                - postximage:
+                    post: 2095062078390415455
+                    image: HRMmiv4a4AASZeK
+    - basicblock:
         id: display
         label: In-store display
         sections:
@@ -548,6 +570,88 @@
     part-of:
       album: binary
 
+- postx:
+    id: 2095049944076026308
+    account: TOWER_Shinjuku
+    label: Visiting the store
+    published-date: 2026-09-02
+    text: |-
+      【#NEKI】
+      @nekiband_jp
+      
+      
+      メジャー1st EP「B!NARY」を本日リリースいたしましたNEK!の皆様がご来店📣
+      
+      ①パネル展示＆抽選プレゼント
+      ②直筆サインとメッセージ印の記念レシート
+      ③ドット絵ステッカープレゼント
+      
+      と施策も盛り沢山でお届け中🙌
+      
+      頂いた動画は後ほどインスタにアップいたします🏁
+    translation: |-
+      [#NEKI]
+      @nekiband_jp
+      
+      
+      The members of NEK!, who released their major 1st EP "B!NARY" today, visited our store📣
+      
+      ① Panel display & lottery giveaway
+      ② Commemorative receipt printed with handwritten signatures and message
+      ③ Pixel art sticker giveaway
+      
+      We're bringing you plenty of special promotions like these🙌
+      
+      We will upload the video we received to Instagram later🏁
+    image:
+    - HRMcwI7bMAAtyBJ
+    part-of:
+      album: binary
+
+- postx:
+    id: 2095062078390415455
+    account: TOWER_Shibuya
+    label: Visiting the store
+    published-date: 2026-09-02
+    text: |-
+      【#タワ渋訪店】
+      
+      本日、メジャー1st EP『B!NARY』を発売された
+      NEK! の皆さまがご来店くださいました！
+      ありがとうございます💖
+      
+      頂いたサインとコメントカードは
+      3Fの展開にて掲出中です！
+      パネルにもサインをいれていただきました！🥲
+      
+      発売を記念して、
+      9/13(日)に5Fイベントスペースにて
+      インストアイベントを開催🌈
+      詳細☞https://towershibuya.jp/2026/08/13/233180
+      
+      是非この機会にお立ち寄りください🙌(み)
+    translation: |-
+      [#TowerShibuya Store Visit]
+      
+      Having released their major 1st EP "B!NARY" today,
+      the members of NEK! visited our store!
+      Thank you so much💖
+      
+      The autograph and comment card we received
+      are currently on display in our 3F section!
+      They also signed the panels!🥲
+      
+      To celebrate the release,
+      on 9/13 (Sun) in the 5F event space,
+      an in-store event will be held🌈
+      Details☞https://towershibuya.jp/2026/08/13/233180
+      
+      Please be sure to stop by on this occasion🙌(Mi)
+    image:
+    - HRMmiv4a4AASZeK
+    part-of:
+      album: binary
+
 - postximage:
     post: 2075867719455678491
     id: HM72rarbgAAlomF
@@ -732,6 +836,28 @@
     - album: binary
     part-of:
       postx: 2094694621410680934
+
+- postximage:
+    post: 2095049944076026308
+    id: HRMcwI7bMAAtyBJ
+    index: 1
+    label: Visiting the store
+    info: Tower Records Shinjuku
+    context:
+    - album: binary
+    part-of:
+      postx: 2095049944076026308
+
+- postximage:
+    post: 2095062078390415455
+    id: HRMmiv4a4AASZeK
+    index: 1
+    label: Visiting the store
+    info: Tower Records Shibuya
+    context:
+    - album: binary
+    part-of:
+      postx: 2095062078390415455
 
 - postxvideo:
     post: 2093997557173424339

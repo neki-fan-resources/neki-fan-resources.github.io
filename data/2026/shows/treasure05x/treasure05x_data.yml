@@ -11,6 +11,11 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - postinstagramvideo:
+                    post: DcveoYcmtyl
+                    video: 7
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
@@ -22,6 +27,11 @@
                 - postximage:
                     post: 2088521910246383759
                     image: HPvrmlZasAAVvKj
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DcveoYcmtyl
+                    image: 3
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -40,6 +50,9 @@
                 - postximage:
                     post: 2088523609837081002
                     image: HPvtJldbwAAnd2i
+                - postinstagramimage:
+                    post: DcveoYcmtyl
+                    image: 4
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -48,6 +61,17 @@
                 - postximage:
                     post: 2088521910246383759
                     image: HPvrmlZbAAAlL3t
+                - postinstagramimage:
+                    post: DcveoYcmtyl
+                    image: 2
+                - postinstagramimage:
+                    post: DcveoYcmtyl
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DcveoYcmtyl
+                    image: 6
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -87,6 +111,70 @@
       show:
         year: 2026
         id: treasure05x
+
+- postinstagram:
+    id: DcveoYcmtyl
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-09-01
+    text: |-
+      2026.08.15
+      ⁡
+      TREASURE05X 2026 ～BURNING DIAMONDS FINAL～
+      ⁡
+      初めてのトレジャーに、初めてのダイアモンドホール💎
+      短い時間でしたが最高に楽しかったです！！
+      愛知に来たのは今年6月のサカスプぶり！行きのサービスエリアで、愛知名物の矢場とん食べて気合注入したよ！これはいつ食べてもまじで美味しい、、、
+      
+      この日は初めてNEK!のライブを見てくれた方も多くいたみたいで嬉しかったな〜〜
+      少しでもNEK!の音楽が刺さった方はぜひワンマンライブにも遊びに来てほしいです🙂‍↕️✌🏻
+      この日出会ってくれたそこの貴方も、ずっと前から私たちと一緒に旅をしてくれてるそこの貴方も、今後ともNEK!というガールズバンドを何卒よろしくお願いします！！
+      
+      出演後、美味しい天むすもいただいたよ🤤🦐🍙
+      来年以降もトレジャーに出演させていただきたいし、どんどん出演会場も大きくしていきたいです！また呼んでいただけるようこれからも頑張ります！！
+      
+      今週末の5日に東名阪ツアーでまた愛知お邪魔します✊🏻🔥全国ツアーぶりの愛知ワンマン楽しんでいきましょうー！
+      
+      Photo by @__kpwcam 
+      ⁡
+      #neki #neki_band #girlsband #girlsband #femaledrummer
+    translation: |-
+      2026.08.15
+      ⁡
+      TREASURE05X 2026 ～BURNING DIAMONDS FINAL～
+      ⁡
+      Our first TREASURE, and our first Diamond Hall💎
+      It was a short time, but it was an absolute blast!!
+      The last time I came to Aichi was for Sakae Spring this June! At a service area on the way, I fired myself up by eating Aichi's specialty, Yabaton! No matter when you eat this, it's seriously delicious...
+      
+      It seemed like many people watched a NEK! live show for the first time on this day, which made me so happy~~
+      If NEK!'s music resonated with you even a little bit, I really hope you'll come hang out at our solo shows too🙂‍↕️✌🏻
+      To you right there who discovered us on this day, and to you right there who has been journeying with us since way back, please continue to support the all-girl band NEK! from here on out!!
+      
+      After the show, we also had delicious tenmusu🤤🦐🍙
+      I want to perform at TREASURE in the coming years too, and I want our performance venues to keep getting bigger and bigger! We'll keep doing our best so that we get invited back again!!
+      
+      We'll be visiting Aichi again this weekend on the 5th for our Tokyo-Nagoya-Osaka tour✊🏻🔥 Let's have fun at our first Aichi solo show since the nationwide tour!
+      
+      Photo by @__kpwcam 
+      ⁡
+      #neki #neki_band #girlsband #girlsband #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    video:
+    - 7
+    part-of:
+      show:
+        year: 2026
+        id: treasure05x
+    reference:
+    - postximage:
+        post: 2088523609837081002
+        image: HPvtJldbwAAnd2i
 
 - postinstagramimage:
     post: DcFmDBwGeVv
@@ -135,6 +223,74 @@
         id: treasure05x
     part-of:
       postinstagram: DcFmDBwGeVv
+
+- postinstagramimage:
+    post: DcveoYcmtyl
+    id: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcveoYcmtyl
+
+- postinstagramimage:
+    post: DcveoYcmtyl
+    id: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcveoYcmtyl
+
+- postinstagramimage:
+    post: DcveoYcmtyl
+    id: 4
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcveoYcmtyl
+
+- postinstagramimage:
+    post: DcveoYcmtyl
+    id: 5
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcveoYcmtyl
+
+- postinstagramimage:
+    post: DcveoYcmtyl
+    id: 6
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcveoYcmtyl
+
+- postinstagramvideo:
+    post: DcveoYcmtyl
+    id: 7
+    label: Setlog
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: treasure05x
+    part-of:
+      postinstagram: DcveoYcmtyl
 
 - postx:
     id: 2067895162156863853

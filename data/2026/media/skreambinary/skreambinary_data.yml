@@ -1,0 +1,377 @@
+- display:
+    media:
+      year: 2026
+      id: skreambinary
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: This interview was published online at the release of NEK!'s major debut EP "B!NARY".
+                - line:
+                  - text: The interview begins with a update on their recent activities since their previous interview (
+                  - media:
+                      year: 2025
+                      id: skreammeme
+                  - text: ). They speak about their first national tour, the impact of their major debut, and the incredible invitation to open for BAND-MAID at the Nippon Budokan.
+                - line:
+                  - text: The second part of the interview dives into their major 1st EP "B!NARY". The members share their intentions for each of the five song, the songwriting process, technical details about their instruments, and other behind-the-scene stories from the studio.
+                - line:
+                  - text: Finally, the interview concludes with the meaningful story behind the EP's title, representing the connection between the band and their fans, and their enthusiasm for their upcoming Tomeihan tour.
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: This interview was published online at the release of NEK!'s major debut EP "B!NARY".
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+        - basicsection:
+            label: Translation
+            subsections:
+            - interviewsubsection:
+                lines:
+                - text: 初の全国ツアー完走やBAND-MAIDの武道館公演O.A.決定等、目覚ましい活躍を見せるNEK!が、メジャー1st EP『B!NARY』を完成させた。本作には、彼女たちが培ってきた"スラングロック"でエッジの効いたロックから、ライヴ映え抜群のダンス・ロックに、SSW出身のHikaの歌声で泣かせる王道バラード等、バンドの芯を保ちつつ新たな表情を詰め込んだ全5曲が収められている。作品に込めた想いや制作秘話、そして"「ライヴ・バンド」が最高の褒め言葉"と語る彼女たち自身に迫る。
+                  translation: NEK!, who are showing remarkable success through achievements like completing their first nationwide tour and being selected as the opening act for BAND-MAID's Budokan show, have completed their major 1st EP "B!NARY". This release contains a total of 5 songs that pack in new sides of the band while maintaining their core, ranging from edgy rock featuring the "Slang Rock" they have cultivated, to dance rock that shines in live performances, and classic ballads that move you to tears with the vocals of Hika, who comes from a singer-songwriter background. We dive into the feelings they poured into this work, behind-the-scenes stories from its production, and the members themselves, who say that being called a "live band" is the highest compliment.
+            - interviewsubsection:
+                label: Being called a 'Live Band' Is the highest compliment
+                lines:
+                - text: NEK!は4月まで初の全国ツアーを回っていましたけど、バンドにとってどんなツアーになりましたか？
+                  translation: NEK! was on your first nationwide tour until April, but what kind of tour was it for the band?
+                  isinterviewer: true
+                - text: ツアーを経て、自分たち一人一人が大きくなれた気がします。人としてもそうですし、音楽への愛が増したというか。楽しかったのはもちろん、何かもっと大きなものを得た気がします。
+                  translation: Through the tour, I feel like each one of us was able to grow. As people too, and our love for music also grew. It was fun, of course, but I feel like we gained something even bigger.
+                  participant: Hika
+                - text: ツアーを通してバンドの絆はさらに深まりましたか？
+                  translation: Did the band's bond deepen even more through the tour?
+                  isinterviewer: true
+                - text: 全国ツアーを回る前と比べて、一緒にいる時間がずっと長かったので、一人一人の個性をより知ることができた感じはあります。
+                  translation: Compared to before the nationwide tour, we spent a lot more time together, so I feel like we were able to learn more about each person's individual personality.
+                  participant: Cocoro
+                - text: うん。家族よりも長くいた気がする。
+                  translation: Yeah. I feel like we spent more time together than with our families.
+                  participant: Natsu
+                - text: ツアーで知ったメンバーの意外な一面はありましたか？
+                  translation: Did you discover any surprising sides to the members on the tour?
+                - text: 今回のツアーはそれぞれが初めて1人部屋だったんですけど、KanadeがLINEで"寝れない......"って送ってきて（笑）。意外と寂しがり屋さんなんだと知りました（笑）。
+                  translation: This tour was the first time we each had our own single rooms, but Kanade sent a message on LINE saying, "I can't sleep..." (laughs). I learned that she surprisingly gets lonely easily (laughs).
+                  participant: Hika
+                - text: 1人部屋にいるとダラダラしちゃうんだもん。人がいたほうが、お風呂早く済まそうとかって動けるし......。
+                  translation: " When I'm in a room by myself, I just end up lounging around. If someone else is there, it makes me act, like wanting to finish taking a bath early..."
+                  participant: Kanade
+                - text: でも、Hikaも意外と寂しがり屋でしたよ（笑）。"私の部屋においでよ"って、ずっと誘ってきてかわいかったです（笑）。部屋が離れていても、結局は今何してるかを報告し合っていました（笑）。
+                  translation: But, Hika also surprisingly gets lonely easily (laughs). She kept inviting me, saying, "Come to my room," and it was cute (laughs). Even though our rooms were separate, in the end, we were always updating each other on what we were doing (laughs).
+                  participant: Natsu
+                - text: Natsuは部屋に来てくれて、ベッドに座って恋バナとかしたよね。
+                  translation: Natsu came to my room, and we sat on the bed and talked about romance.
+                  participant: Hika
+                - text: した（笑）！ 何もないから、妄想の恋バナですけど（笑）。そんな夜もありました、楽しかった。
+                  translation: We did (laughs)! Since there is nothing actually going on, it was just talking about imaginary romances, though (laughs). We had nights like that; it was fun.
+                  participant: Natsu
+                - text: 修学旅行じゃん（笑）。
+                  translation: That sounds like a school trip! (laughs).
+                  participant: Cocoro
+                - text: 充実したツアーになったようで何よりです。それと、前回のインタビュー（※2025年12月号掲載）で"NEK!として目指しているものはなんですか？"と聞いたときに、"日本武道館です"、"ガールズ・バンド最速で武道館に立ちたい"と言っていましたよね。そんなことを言っていたら、BAND-MAIDのオープニング・アクトとはいえ、早くも日本武道館に立つことが決まりました。
+                  translation: ' It sounds like it was a very fulfilling tour above all else. Also, in the previous interview (*published in the December 2025 issue), when I asked, "What is your goal as NEK!?", you said, "Nippon Budokan," and "We want to be the fastest all-girl band to stand on the Budokan stage." Right after saying that, even though it is as the opening act for BAND-MAID, it has already been decided that you will stand on the Nippon Budokan stage.'
+                  isinterviewer: true
+                - text: 私たちもこんな機会をこんなに早くいただけるとは思っていなくて、本当に驚きました。でも、これで夢を"叶えた"とは言いたくなくて。すごくありがたい気持ちでいっぱいだし、大きな舞台でNEK!をより広めたいという気持ちはあるんですけど、ちゃんと単独でも立ちたいという夢があるので。
+                  translation: We also didn't think we would receive such an opportunity this early, so we were really surprised. But, I don't want to say that we have "fulfilled" our dream with this. I am filled with so much gratitude, and I do have a desire to spread the word about NEK! even more on a big stage, but we have a dream to properly stand there on our own [for a solo show].
+                  participant: Cocoro
+                - text: 吸収できることは本当にたくさんあると思うので、ここで吸収しまくって帰ろうとしていますね。
+                  translation: I think there are really a lot of things we can absorb, so we are planning to absorb as much as possible there and bring it back with us.
+                  participant: Natsu
+                - text: 武道館が決まったことよりも、BAND-MAIDからオファーがあったことのほうが嬉しかった？
+                  translation: You were happier about getting the offer from BAND-MAID than the fact that a Budokan was decided?
+                  isinterviewer: true
+                - text: そうですね。BAND-MAIDさんとお会いして、"ちょっと伝えたいことがある。武道館のオープニング・アクトにぜひ"と直接言われたときは、私とKanadeは腰が抜けて立てなくなっちゃうくらいでした（笑）。
+                  translation: That's right. When we met BAND-MAID and they told us directly, "We have something to tell you. We would love for you to be the opening act at Budokan," Kanade and I were so shocked that our knees gave out and we almost couldn't stand (laughs).
+                  participant: Natsu
+                - text: 腰から崩れ落ちましたね（笑）。
+                  translation: We totally collapsed to the floor (laughs).
+                  participant: Kanade
+                - text: '"やれるよね？ やってくれるよね？"って言われて。"......やります！"とお答えしました。'
+                  translation: They said, "You can do it, right? You will do it for us, right?" And we answered, "...We will do it!"
+                  participant: Cocoro
+                - text: 同じレーベルで、同じガールズ・バンドで、世界で活躍していて、BAND-MAIDってバンドとしてのロールモデルのような存在ですよね。
+                  translation: Being on the same label, being the same kind of all-girl band, and being active worldwide, BAND-MAID is like a role model for you as a band, right?
+                  isinterviewer: true
+                - text: はい。バンド全員で憧れてきたガールズ・バンドでもありますし、プレイヤーとしてもお一人お一人を尊敬している方たちなんです。憧れの先輩のオープニング・アクトをやらせていただく貴重な経験を、全身に焼き付けて帰りたいなと思っています。
+                  translation: ' Yes. They are an all-girl band that everyone in our band has looked up to, and we respect each and every one of them as musicians too. We want to fully engrave this precious experience of getting to perform as the opening act for our admired seniors into our bodies and bring it back with us.'
+                  participant: Cocoro
+                - text: ファンを奪うくらいの気持ちで。
+                  translation: With the feeling of even stealing away their fans.
+                  isinterviewer: true
+                - text: 全員の心をかっさらう気持ちで、皆さんに負けないように頑張ります！
+                  translation: With the feeling of stealing everyone's hearts, we will do our best so we don't lose to anyone!
+                  participant: Cocoro
+                - text: こういう話題のように、バンド活動のスピード感も上がっているように思えます。メジャー・デビュー前から今に至るまでの日々をどう感じていますか？
+                  translation: Just like this topic, it seems like the pace of your band's activities is speeding up. How do you feel about the days from before your major debut up until now?
+                  isinterviewer: true
+                - text: インディーズからメジャーになって大きく変わったという感覚はあまりなくて、自分たちの課題を一つ一つこなしている感じです。関わってくださるスタッフさんも増えてきて、周りが支えてくれているからこそ、NEK!が一歩ずつ前に進めていけているのかな。でも、居酒屋とか街中でNEK!の曲が流れてるのを聴くたびに、"少しずつNEK!が広がっていってるのかな"と思ったりはしますね（笑）。
+                  translation: " I don't really feel like things have drastically changed since going from indie to a major label; it feels more like we are just tackling our challenges one by one. The number of staff involved has increased, and I think NEK! is able to move forward step by step precisely because of the support from the people around us. However, whenever I hear NEK!'s songs playing in an izakaya or in the city, I do sometimes think, \"Maybe NEK! is spreading little by little\" (laughs)."
+                  participant: Hika
+                - text: ファンの方も、"○○でNEK!の曲が流れてた！"って毎日のようにSNSで投稿してくれていて、各地でNEK!を知ってくれる機会が増えているんだなと思うと、ありがたい気持ちでいっぱいです。あと、サーキットやフェスのようなイベントにも出させていただいているんですけど、そこでお客さんの層が広がってきたことを感じています。最近は同世代くらいの若い男の子や女の子も観に来てくれていて、さらに輪が広がっていっているのを感じているんです。
+                  translation: " Fans also post on social media almost every day saying, \"NEK!'s song was playing at [Location]!\", and I am filled with gratitude when I think about how the opportunities for people to discover NEK! are increasing in various places. Also, we have been able to perform at events like circuit festivals, and I feel that our audience demographic has broadened there. Lately, young men and women around our own age have been coming to see us, and I feel that our circle is expanding even further."
+                  participant: Cocoro
+                - text: NatsuさんとKanadeさんはどうですか？ 最近の生活の中で、何か変化を実感するような出来事はありましたか？
+                  translation: What about you, Natsu and Kanade? Have there been any events in your recent daily life where you truly felt a change?
+                  isinterviewer: true
+                - text: このあいだ初めてメイドカフェに行ったんですけど、そこで私の前に座っていたカップルの方から"NEK!のギターのNatsuさんですか？"って聞いてくださったんです。意外すぎる場で声を掛けられたのがすごく嬉しくて。いろんな場所でNEK!が知られていることを実感できました。
+                  translation: The other day, I went to a maid cafe for the first time, and a couple sitting in front of me asked, "Are you Natsu, the guitarist of NEK!?". I was really happy that someone talked to me in such an unexpected place. It made me realize that NEK! is known in all sorts of places.
+                  participant: Natsu
+                - text: まさかのメイドカフェで（笑）。
+                  translation: At a maid cafe, of all places! (laughs).
+                  isinterviewer: true
+                - text: '"Natsuお嬢様！"って呼ばれるところも、"萌え萌えキュン"も、ステージの上でチェキを撮るところも見られたので、恥ずかしかったです（笑）。'
+                  translation: They saw me being called "Lady Natsu!", doing the "Moe Moe Kyun", and taking a cheki on stage, so I was really embarrassed (laughs).
+                  participant: Natsu
+                - text: 私は目の前のことに全力で取り組んできていたので、ツアーあたりからの記憶が実はあまりないんですけど、メジャー・デビューした月に友達がご飯に誘ってくれて、お祝いをしてもらいました。それまではメジャー・デビューした実感がなかったので、いろんな人から"おめでとう"と言われてやっと実感が湧いてきたんです。あと、その日にゲームセンターに行ったらNEK!の曲が流れてきてテンションが上がりましたね。
+                  translation: I've been giving everything I have to whatever is right in front of me, so I actually don't remember much from around the time of the tour. But during the month of our major debut, my friends invited me out for dinner to celebrate. Up until then, it hadn't really hit me that we made our major debut, so hearing "Congratulations" from so many people finally made it feel real. Also, when I went to an arcade later that day, a NEK! song started playing, and it really hyped me up!
+                  participant: Kanade
+                - text: そんなNEK!のメジャー1st EP『B!NARY』が完成しました。
+                  translation: So, NEK!'s major 1st EP "B!NARY" is now complete.
+                  isinterviewer: true
+                - text: NEK!が培ってきた"スラングロック"は維持しつつ、それをさらにレベルアップさせた曲があったり、NEK!の別の一面が見られるようなポップ・ロックがあったり、かと思えばバラードがあったり、いろんな表情を楽しめる5曲が入っています。去年の8月末に開催したZepp Shinjuku (TOKYO)でのワンマン・ライヴの映像も入っているので、ずっと応援してきてくれている人も、このメジャー・デビューのタイミングでNEK!を知ってくれた方も楽しめる、ボリューミーなEPになったと思います。
+                  translation: ' It maintains the "Slang Rock" that NEK! has cultivated, and there are songs that take it to an even higher level. There is pop-rock where you can see another side of NEK!, and then there are ballads. It contains five songs where you can enjoy various expressions. It also includes the video footage of our one-man live show at Zepp Shinjuku (TOKYO) held at the end of August last year, so I think it turned out to be a voluminous EP that can be enjoyed by both the people who have supported us all along and the people who discovered NEK! at the timing of this major debut.'
+                  participant: Cocoro
+                - text: このEPを制作するうえで、最も大事にしたことはなんですか？
+                  translation: What was the most important thing for you when producing this EP?
+                  isinterviewer: true
+                - text: メジャー・デビューしたからといって、NEK!の印象を変えたくないというのは大きかったですね。"今まで培ってきたNEK!の音楽性は大切にしたい"という軸を置きながら、その上で進化させることを大事にしました。私たちが伝えたいメッセージや想いもぶつけられた曲たちになったと思います。
+                  translation: " A big part of it was that we didn't want to change the impression of NEK! just because we made our major debut. We placed importance on evolving while keeping the core axis of \"wanting to cherish the musicality NEK! has cultivated up to now.\" I think they became songs where we could directly pour in the messages and feelings we want to convey."
+                  participant: Natsu
+                - text: みんなの個性を生かした楽曲が集まりましたし、ライヴでファンの皆さんと一緒に作り上げていく光景をイメージすることも大事にしながら制作を進めました。まだ披露していない楽曲もあるのでライヴが楽しみです。
+                  translation: We gathered songs that make the most of everyone's individuality, and we moved forward with production while also placing importance on imagining the scene of building them together with the fans at our live shows. There are still songs we haven't performed yet, so I'm looking forward to the live shows.
+                  participant: Hika
+                - text: ライヴのセットリストで、どこに新曲が入ってくるかを楽しみにしてもらえたら嬉しいよね。
+                  translation: We would be happy if everyone looks forward to seeing where the new songs will fit into our live setlists.
+                  participant: Cocoro
+                - text: ワクワク、ドキドキ、ウキウキ！
+                  translation: Exciting, thrilling, and uplifting!
+                  participant: Hika
+                - text: （笑）収録順はどうやって決めたんですか？
+                  translation: (Laughs) How did you decide on the track order?
+                  isinterviewer: true
+                - text: メジャー・デビューということもあって、新しく付いてくださったスタッフさんたちと綿密に話し合いながら決めました。リード曲を「MUTE」にして、そこから曲順を絞っていったんです。
+                  translation: Because it is our major debut, we decided on it while having close discussions with the new staff members who joined us. We set the lead track as "MUTE" and narrowed down the track order from there.
+                  participant: Natsu
+                - text: ライヴのセットリストのような流れを意識して。
+                  translation: We were conscious of creating a flow like a live setlist.
+                  participant: Hika
+                - text: 5曲目の「rat a tat」は絶対5曲目に置こうという雰囲気だったよね。最後は明るく終わって、"未来を楽しんでいこうぜ"というメッセージ性を曲順でも伝えたかったんです。
+                  translation: There was definitely a feeling that the fifth song, "rat a tat", absolutely had to be placed fifth. We wanted to end on a bright note and convey the message of "let's enjoy the future" through the track order as well.
+                  participant: Natsu
+                - text: NEK!ってSNS経由でメンバーが集まったし、MVからバズったのもあって、ネット上の存在に思われがちですけど、ライヴを観るとめちゃくちゃライヴ・バンドなんですよね。
+                  translation: Since NEK! gathered its members through social media and your music video went viral, people tend to think of you as an internet-based group, but when we see your live performances, you are very much a "live band," aren't you?
+                  isinterviewer: true
+                - text: わ！ 最高の褒め言葉です。嬉しい！
+                  translation: Wow! That is the highest compliment. I'm so happy!
+                  participant: Hika
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '&nbsp;'
+            - interviewsubsection:
+                lines:
+                - text: ここからは各楽曲について聞いていきます。1曲目でリード曲の「MUTE」は、周りに合わせる息苦しさや抑圧からの解放といったテーマを感じる、ロック・バンドらしい楽曲ですね。
+                  translation: From here, I will ask about each song. The first song and lead track, "MUTE", is a very rock-band-like song where you can feel themes like the suffocation of conforming to those around you and the release from oppression.
+                  isinterviewer: true
+                - text: 聴いてくれる人に寄り添いたいという思いで作りました。共感してほしいというよりも、寄り添ってあげられたらいいなと。
+                  translation: We made it with the desire to stay close to the listeners. Rather than wanting them to relate to it, I thought it would be nice if we could just be there for them.
+                  participant: Hika
+                - text: 今ってSNS社会じゃないですか。日頃SNSをやっていると、"1人で戦っているんじゃないか"って気持ちになりがちだと思うんです。そんなときはこの曲を聴いて、同じことを思っている仲間がいることを知ってもらいたいです。みんなが日頃抱えている鬱憤を私たちが曲に昇華することで、聴いてくれた人が前を向いていける、そういう楽曲を目指して制作しました。
+                  translation: We live in a social media society now, don't we? When you use social media every day, I think you tend to feel like, "Am I fighting all alone?". At times like that, I want people to listen to this song and know that there are friends out there who feel the same way. By taking the frustrations everyone carries daily and turning them into a song, we aimed to create a track that helps listeners look forward.
+                  participant: Cocoro
+                - text: リード曲ということで、各パートのこだわりや聴きどころを教えてください。
+                  translation: Since it is the lead track, please tell us about the points you focused on and what to listen for in each of your parts.
+                  isinterviewer: true
+                - text: この曲はテンポがBPM 195と速いので、パッと過ぎ去っていかないように、耳に残りやすいフィルやフレーズを意識しました。サビ前にはブレイクがあってドラムだけになるんですけど、そこは耳に残るような疾走感のあるフレーズを意識しましたね。あとはA'メロの裏で叩いているフレーズが難しいことをやっているので、そこも注目してもらえたら嬉しいです。
+                  translation: The tempo of this song is fast at 195 BPM, so to prevent it from just flashing by, I focused on drum fills and phrases that are easy to remember. There is a break right before the chorus where it is just the drums, and I focused on playing a fast-paced phrase there that sticks in your ears. Also, the phrase I am playing in the background of the A' (A-prime) melody is quite difficult, so I would be happy if you pay attention to that part too.
+                  participant: Cocoro
+                - text: ベースはサビの裏のベースラインが個人的に気に入っています。指で弾いているんですけど、テンポの疾走感に合わせてフレーズがかなり動くんです。そこは、しっかりボトムで支えながらも、サビのメロディを引き立てられるようなラインにしています。あとはAメロでスラップをしているんですけど、そこはゴースト・ノートをカチカチッとしっかり鳴らしました。この曲は、EPの中で一番ベーシストらしいアプローチをした曲だと思っています。
+                  translation: For the bass, I personally love the bassline behind the chorus. I play it with my fingers, and the notes move around a lot to match the fast-paced tempo. For that part, I created a line that firmly supports the bottom end while also making the chorus melody stand out. Also, I use slap bass in the A-melody, and I made sure to clearly ring out the ghost notes with a sharp clicking sound. I think this is the song on the EP where I took the most bassist-like approach.
+                  participant: Kanade
+                - text: ギターは鋭さを出すために、ブリッジミュートのダウン・ピッキングを取り入れました。そこで疾走感と鋭さが出せたんじゃないかなと思います。あとは、不穏な世界観や鬱憤をイメージしたリフを作りたくて、イントロで不安定なフレーズを作りました。そこのアンバランスさと楽曲がすごく合っていると思います。
+                  translation: For the guitar, I incorporated down-picking with palm muting to bring out a sharp edge. I think I was able to create a sense of speed and sharpness that way. Also, I wanted to create a riff that represents an unsettling worldview and frustration, so I made an unstable phrase for the intro. I think that sense of imbalance matches the song perfectly.
+                  participant: Natsu
+                - text: 歌は、バキバキでゴリゴリなサウンドに対して、負けずに前に出るアプローチを意識しました。あとは言葉にできない不安な気持ちを表現するために、歌い方に癖を入れてみたり、Aメロのメロディやハモりも不穏な感じにしてみたり、いろいろこだわりましたね。レコーディング当日には、もともとメロディだった部分をインパクトを出すためにセリフっぽいフレーズに変えたりして工夫しました。自分たちで自信を持ってカッコいいと言える曲になったと思います。
+                  translation: For the vocals, I focused on an approach that steps forward and holds its own against the intense and heavy sound. Also, to express uneasy feelings that cannot be put into words, I paid attention to many details—like adding distinct quirks to my singing style and giving the A-melody and harmonies an unsettling feel. On the day of recording, we also got creative and changed a part that was originally sung into a spoken-word phrase to give it more impact. I think it turned out to be a song we can confidently say is cool.
+                  participant: Hika
+                - text: こちらはまだライヴで発表してないですよね？
+                  translation: You haven't performed this one live yet, right?
+                  isinterviewer: true
+                - text: そうですね。楽しみ！ 「FLiCK」を初披露したときは皆さんのノリがすでに作られていて、すごかったんです。
+                  translation: That's right. I'm really looking forward to it! When we performed "FLiCK" for the first time, the audience already had their own way of grooving to it, which was amazing.
+                  participant: Hika
+                - text: 「FLiCK」はEPにも収録されていますけど、SNSというテーマもありつつメジャー・デビューへの決意が込められていますし、なんといっても歌詞の長崎弁がかわいい。
+                  translation: '"FLiCK" is also included in the EP. While it carries the theme of social media, it also holds your determination toward your major debut, and above all, the Nagasaki dialect in the lyrics is cute.'
+                  isinterviewer: true
+                - text: いつかNEK!で方言を入れてみたいなという想いがあったので、メジャー1曲目のタイミングで入れさせていただきました。でもレコーディングは大変でしたね。自分にとっては普通の言葉なんですけど、メロディに乗せるとイントネーションが変わるので、何回も練習していたらいつの間にか標準語に戻っちゃったりして（笑）。よく分からなくなって、一度お母さんに電話して確認しました（笑）。
+                  translation: I always had the desire to try including my dialect in a NEK! song someday, so I took the opportunity to put it in our very first major label song. But the recording was tough. To me, it is just normal language, but when you put it to a melody, the intonation changes. Because I was practicing it over and over, before I knew it, I had reverted to standard Japanese (laughs). I got so confused that I actually called my mom once to check (laughs).
+                  participant: Hika
+                - text: リリースした後の反応はどうでしたか？
+                  translation: How was the reaction after it was released?
+                  isinterviewer: true
+                - text: ありがたいことにとても良かったです。"長崎弁が入ってる！"って。地元の友達からも"方言入れると思わんかった！"ってメッセージが来ました。このタイミングで個性を生かすことで、NEK!が新しくなった感じがして嬉しいです。
+                  translation: Thankfully, it was very good. People were saying, "There is Nagasaki dialect in it!". I even got messages from my local friends saying, "I didn't think you would include our dialect!". I am happy that by making the most of my individuality at this timing, it feels like NEK! has become something new.
+                  participant: Hika
+                - text: 「FLiCK」はギター・ソロに大きな見せ場がありますね。
+                  translation: The guitar solo is a real highlight in 'FLiCK,' isn't it?
+                  isinterviewer: true
+                - text: インディーズ時代からギター・ソロは大切に作ってきましたし、メジャー1発目ということもあるので"入れさせてください！ お願いします！"って言いました（笑）。タッピングから始まるギター・ソロで、耳をキャッチしたい思いがあったんです。ライヴでもソロに入った瞬間の歓声がすごくて、入れて良かったなと思います。
+                  translation: I have carefully crafted my guitar solos since our indie days, and since this is our very first major release, I said, "Please let me put one in! I'm begging you!" (laughs). It is a guitar solo that starts with tapping, and I really wanted to catch the listener's ear with it. Even at our live shows, the cheering the exact moment the solo starts is amazing, so I am glad I included it.
+                  participant: Natsu
+                - text: 「FLiCK」と同じく、すでに配信されているのが「MAGiC VoX」です。こちらはライヴで騒げそうな曲ですけど、まさにそういうものを目指しましたか？
+                  translation: ' Just like "FLiCK," "MAGiC VoX" has already been released digitally. This is a song where people can really go wild at live shows, but was that exactly what you were aiming for?'
+                  isinterviewer: true
+                - text: はい。これはピンヴォーカルで暴れようという曲ですね。"晒せ"、"騒げ"、"歌え"って。なのでライヴで暴れます。一息つく暇もないくらいの楽曲ですね。
+                  translation: Yes. This is a song where I plan to go wild performing only singing (without her guitar). It is all about "Expose it," "Make some noise," "Sing." So I will go wild at live shows. It is a song where there isn't even time to catch your breath.
+                  participant: Hika
+                - text: '"キラ・キラーチューン／キラ・キラーチューン／騒げ"のフレーズが癖になりました。'
+                  translation: The phrase "Kira Killer Tune / Kira Killer Tune / Make some noise" became addictive.
+                  isinterviewer: true
+                - text: 耳に残る言葉をいっぱい入れたよね。
+                  translation: We put in a lot of words that stick in your ears, didn't we?
+                  participant: Natsu
+                - text: '"ギュ・ギュラ・シンギュラリティ"から始まる曲なんて他にないですよ。'
+                  translation: There is no other song out there that starts with "Gyu-Gyura-Singularity."
+                  participant: Cocoro
+                - text: ベースもヴォーカルもバキバキで、"負けるわけにはいかねぇ！"っていう戦いの曲でもあります。個性がぶつかり合ってできた楽曲です。NEK!の中での勝負でもあり、ファンの方とNEK!の勝負でもある。ライヴハウスが燃えるんじゃないかっていうくらいの熱量があります。
+                  translation: The bass and the vocals are both intense, and it is also a battle song that says, "I can't afford to lose!". It is a track created from our individual personalities clashing. It is a battle within NEK!, and also a battle between the fans and NEK!. It has so much heat that it feels like the live house might catch on fire.
+                  participant: Hika
+                - text: 4人のリハーサルで初めて合わせたときに録音していたんです。それで終わった後に音源を聴いたら、"うわー！ みんなすごいね、どうしよう！"ってHikaの声が入っていました（笑）。
+                  translation: We recorded it the first time the four of us played it together during rehearsal. When we listened to the audio after finishing, Hika's voice was on the recording saying, "Wow! You guys are amazing, what should I do!" (laughs).
+                  participant: Cocoro
+                - text: これは頭を抱えましたね。付いていけないかもしれない......って。この曲を叩けるのも弾けるのもすごい。ライヴでやるときは、"次か、どうしよう"ってハラハラしそう（笑）。
+                  translation: I really held my head in my hands over this one. I thought, I might not be able to keep up... It is amazing that they can actually play this on drums and strings. When we perform it live, I will probably be nervous thinking, "It's next, what should I do" (laughs).
+                  participant: Hika
+                - text: 今までは配信したらすぐライヴでやるスタイルで、出し惜しみしないタイプだったから、これはお客さんの期待値が爆上がりしている感じがします。
+                  translation: Up until now, our style has been to perform songs live immediately after releasing them digitally, and we aren't the type to hold things back, so it feels like the audience's expectations for this one are skyrocketing.
+                  participant: Natsu
+                - text: さらにEPには王道バラードの「message」も収録されています。エモいメロディが素敵な楽曲で、序盤は弾き語りになっていますね。
+                  translation: Furthermore, the classic ballad "message" is also included on the EP. It is a wonderful song with an emotional melody, and the beginning part is sung with acoustic accompaniment.
+                  isinterviewer: true
+                - text: ここはほぼワンコーラスで弾き語っています。人との想い、生きていく中での出会いや別れについて深く考えて歌詞を書きました。具体的なエピソードというよりは、誰もが経験したことのある別れや出会いに寄り添えるように、想いを深く考えて歌詞にした曲です。
+                  translation: I am singing and playing the guitar by myself for almost the entire first chorus here. I wrote the lyrics by thinking deeply about feelings toward people, and the meetings and partings in life. Rather than a specific episode, it is a song where I thought deeply about those feelings and turned them into lyrics so that it can stay close to the meetings and partings everyone has experienced.
+                  participant: Hika
+                - text: 他の曲はSNSで流行っている言葉を入れたりもしていますけど、バラードは生身の人間関係の日常に寄り添える曲にしていきました。
+                  translation: We include words trending on social media in other songs, but for the ballad, we made it a song that can stay close to the everyday life of real, in-person human relationships.
+                  participant: Cocoro
+                - text: この曲には印象的なエピソードがあって。Hikaがレコーディング当日まで"ここの言葉がしっくりこない"って歌詞に悩んでいたんです。バラードということもあって、より想いが乗っている楽曲になったと思います。いっぱい考えてたよね？
+                  translation: There is a memorable story about this song. Until the day of the recording, Hika was struggling with the lyrics, saying, "The words here just don't feel right." Also because it is a ballad, I think it turned into a song with even more feelings poured into it. You thought about it a lot, didn't you?
+                  participant: Natsu
+                - text: うん。"この言葉のほうが伝わるんじゃないか？ このメロディだからこそ、この言葉がマッチするんじゃないか？"とか、当日まで試行錯誤して作りました。
+                  translation: " Yeah. I went through trial and error right up until the recording day, thinking things like, \"Wouldn't these words convey it better? Because it is this melody, wouldn't these words be the best match?\"."
+                  participant: Hika
+                - text: 歌詞に"ホシゾラカナタ"、"ミライ"って、あえてカタカナ表記になっているのは何か意図がありますか？
+                  translation: Is there a specific intention behind intentionally writing words like "Hoshizorakanata" (Beyond the starry sky) and "Mirai" (Future) in Katakana in the lyrics?
+                  isinterviewer: true
+                - text: ここは当日に考えたんですよ。一番聴かせたいブレイクの前のところでカタカナを使っています。
+                  translation: I actually thought of that on the day of the recording. I use Katakana in the part right before the instrumental break, which is what I want people to listen to the most.
+                  participant: Hika
+                - text: 普通に漢字で書いちゃうとサラッと流れていってしまうので、引っ掛かりを作ることで印象に残るように、あえてカタカナにしたんです。
+                  translation: If we had just written them normally in Kanji, they would just flow right by the reader. So, we intentionally put them in Katakana to create a hook that catches the eye and leaves a lasting impression.
+                  participant: Cocoro
+                - text: なるほど、私は狙い通りに引っ掛かったわけですね（笑）。そしてEPのラストを締めくくるのが「rat a tat」です。最後に視界が開けるところがNEK!の作品の締めくくりとして相応しいですね。"rat a tat"って太鼓の音だったり銃声だったりの海外のオノマトペですけど、そういうこともあってかリズム隊のこだわりが光っています。
+                  translation: ' I see, so I was hooked exactly as you intended (laughs). And the song that wraps up the end of the EP is "rat a tat." The way the view opens up at the end makes it a fitting conclusion to a NEK! release. "Rat a tat" is a foreign onomatopoeia for a drumbeat or gunfire, and perhaps because of that, the attention to detail from the rhythm section really shines.'
+                  isinterviewer: true
+                - text: 身体と気持ちを軽くして、"みんなで前に進んでいこうよ"という明るいメッセージを込めているんです。なので、テンポのいい軽快なビートでありながら、セクションの合間の繋ぎを重くしたりして、よく聴いてみたらすごく凝っているような隠し要素を入れました。ドラムだけ聴いたら明るくないかも。
+                  translation: We included a bright message of "Let's all move forward together" to lighten our bodies and minds. So, while it has a light and upbeat tempo, I made the transitions between sections heavy, putting in hidden elements that are actually very elaborate when you listen closely. If you listen to just the drums, it might not sound bright.
+                  participant: Cocoro
+                - text: うん、明るくない（笑）。ベースは最後にスラップを入れて目立たせています。テンポも速いですし、音作りもここだけ変えていますね。
+                  translation: Yeah, it isn't bright (laughs). For the bass, I put in a slap technique at the end to make it stand out. The tempo is fast too, and I even changed my tone specifically for this part.
+                  participant: Kanade
+                - text: この曲はつらいことを吹き飛ばせるように、気持ちが軽くなる歌い方を意識しました。最後に持ってきた曲なので、みんなで歌って締めたいという想いを込めています。楽しく、私たちらしく、みんなで楽しんでもらいたい、前に向かって行きたいという想いで歌っています。
+                  translation: For this song, I focused on a singing style that makes your heart feel lighter, so that we can blow away painful things. Since it is the song we brought to the very end, we poured in our desire to wrap things up by singing it together with everyone. I sing it with the desire to have fun, be ourselves, have everyone enjoy it with us, and keep moving forward.
+                  participant: Hika
+                - text: コーラスはみんなで参加しているんですけど、ちょっと気の抜けた緩い感じになっています。
+                  translation: Everyone participates in the chorus backing vocals, but it has a slightly relaxed, loose feel to it.
+                  participant: Natsu
+                - text: 声に一人一人個性があって大好きです。"この声は誰なのかゲーム"をして当ててほしいですね。ライヴでは私がマイクを向けたらみんなで一緒に歌ってほしい。この曲は何をしてもいいんです。"何でもできるって 僕らなら"、ということですね。
+                  translation: Each person's voice has its own individuality, and I love that. I want people to play a "guess whose voice this is" game. At live shows, when I point the mic at the crowd, I want everyone to sing along together. You can do whatever you want for this song. It means, "We can do anything, if it's us."
+                  participant: Hika
+                - text: さて、そんなEPのタイトル"B!NARY"は"2進数の"を意味する言葉です。これはどなたの発案ですか？
+                  translation: Now then, the title of the EP, "B!NARY," means "binary base-2." Whose idea was this?
+                  isinterviewer: true
+                - text: スタッフさんと話し合って決めました。二進数の"0"を私たち、"1"をファンの皆さんに見立てて、2つが組み合わさることでNEK!の新しい世界が生まれるという意味を込めています。ファンの方があっての私たちなので、これからも一緒に進んでいきたいです。
+                  translation: We decided on it after discussing it with the staff. We likened the binary "0" to ourselves and the "1" to all the fans, and we included the meaning that by combining the two, a new world of NEK! is born. We only exist because of our fans, so we want to continue moving forward together.
+                  participant: Hika
+                - text: 9月からは"NEK! MAJOR DEBUT TOUR"が東名阪で開催されます。
+                  translation: Starting in September, the "NEK! MAJOR DEBUT TOUR" will be held in Tomeihan (Osaka, Nagoya, Tokyo).
+                  isinterviewer: true
+                - text: メジャー・デビュー後では初の東名阪ツアーということで、私たちもドキドキワクワクしています。一本一本魂を込めて、NEK!の新しい部分を見せたいですし、NEK!の音楽を一緒に楽しめる空間をみんなで作っていきたいです。
+                  translation: Since it is our first Tomeihan tour after our major debut, we are also thrilled and excited. Pouring our souls into each and every show, we want to show new sides of NEK!, and we want to create a space together with everyone where we can enjoy NEK!'s music.
+                  participant: Hika
+                - text: メジャー・デビューを記念したツアーなので、今まで応援してくださっている皆さんへの感謝の気持ちを出したいですし、新しく知ってくれた皆さんの期待にも応えられるようなライヴにしたいです。ツアー・ファイナルのduo MUSIC EXCHANGEはずっと立ちたいと思っていた会場なので、感慨深い気持ちとともに最高のライヴを届けます！
+                  translation: Since it is a tour to commemorate our major debut, we want to express our gratitude to everyone who has supported us up to now, and we want to make it a live tour that meets the expectations of everyone who has newly discovered us. The tour final at duo MUSIC EXCHANGE is a venue we have always wanted to perform at, so with deep emotion, we will deliver the best live show!
+                  participant: Cocoro
+    part-of:
+      media:
+        year: 2026
+        id: skreambinary
+
+- postx:
+    id: 2095089357342593036
+    account: skream_japan
+    label: Article post
+    published-date: 2026-09-02
+    text: |-
+      NEK!のインタビュー公開。"「ライヴ・バンド」が最高の褒め言葉"――培ってきた"スラングロック"の進化と多様な表情、新境地切り拓くメジャー1st EP『B!NARY』を本日9/2リリース
+      https://skream.jp/news/2026/09/neki_interview.php
+      
+      #NEKI
+    translation: |-
+      NEK! interview published. "'Live band' is the highest compliment"——The evolution and diverse expressions of their cultivated "slang rock", breaking new ground with major 1st EP "B!NARY" released today 9/2 https://
+      skream.jp/news/2026/09/neki_interview.php
+      
+      #NEKI
+    image:
+    - HRNAqkja0AArW9d
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: 2026.09.neki
+
+- postximage:
+    post: 2095089357342593036
+    id: HRNAqkja0AArW9d
+    index: 1
+    label: Title image
+    local-copy: true
+    part-of:
+      postx: 2095089357342593036
+
+- update:
+    media:
+      year: 2026
+      id: skreambinary
+    date: 2026-09-02
+    text:
+    - Added the interview
+    - Added the translation of the interview
+    part-of:
+      media:
+        year: 2026
+        id: skreambinary
+
+- webpage:
+    domain: skream.jp
+    id: 2026.09.neki
+    label: Interview
+    published-date: 2026-09-02
+    url: 'https://skream.jp/interview/2026/09/neki.php'
+    todo: new images ?
+    part-of:
+      media:
+        year: 2026
+        id: skreambinary
+

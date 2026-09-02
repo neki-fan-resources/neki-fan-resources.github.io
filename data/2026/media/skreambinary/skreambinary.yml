@@ -1,0 +1,24 @@
+mediawritten:
+  year: 2026
+  id: skreambinary
+  cover-image:
+    postximage:
+      post: 2095089357342593036
+      image: HRNAqkja0AArW9d
+  publication: Skream!
+  issue: B!NARY release
+  designation: Interview
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-09-02
+  journalist: 宮崎ちゃーみー大樹
+  article-page: 'https://skream.jp/interview/2026/09/neki.php'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  categories:
+  - mainmedia

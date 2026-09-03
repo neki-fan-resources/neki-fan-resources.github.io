@@ -1,0 +1,68 @@
+- postx:
+    id: 2095481966527492421
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-09-03
+    text: |-
+      💥🔥東名阪ツアー🔥💥
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      📍大阪・BANGBOO
+      ⏰ 18:30 OPEN / 19:00 START
+      
+      🚨THANK YOU SOLD OUT🚨
+      
+      ★グッズ先行販売 16:00~
+      ★当日券の販売はございません。
+      
+      東名阪ツアー初日です！
+      会場にてお待ちしております🎪
+      
+      https://neki.bitfan.id/schedules/105982
+      
+      #NEKI
+    translation: |-
+      💥🔥Tomeihan Tour🔥💥
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      📍Osaka・BANGBOO
+      ⏰ 18:30 OPEN / 19:00 START
+      
+      🚨THANK YOU SOLD OUT🚨
+      
+      ★Advance merchandise sales from 16:00
+      ★No same-day tickets will be sold.
+      
+      It's the first day of the Tomeihan tour!
+      We look forward to seeing you at the venue🎪
+      
+      https://neki.bitfan.id/schedules/105982
+      
+      #NEKI
+    image:
+    - HRSlvQ2bcAAsP25
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+    reference:
+    - postximage:
+        post: 2093988307353080191
+        image: HQ9Wx8PbMAANUHj
+    - postximage:
+        post: 2093988307353080191
+        image: HQ9Wx8PaUAAgtfs
+
+- postximage:
+    post: 2095481966527492421
+    id: HRSlvQ2bcAAsP25
+    index: 1
+    label: Poster
+    local-copy: true
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2095481966527492421
+

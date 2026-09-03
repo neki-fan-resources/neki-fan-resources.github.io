@@ -1,3 +1,493 @@
+- display:
+    show:
+      year: 2026
+      id: binarytowerumeda
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Dc0tTMAkqx5
+                    image: 1
+                - postximage:
+                    post: 2095464344574464238
+                    image: HRSVtkXakAAyafS
+                - postximage:
+                    post: 2095471724221677628
+                    image: HRScZp0aoAAW7w-
+                - postximage:
+                    post: 2095463522524438833
+                    image: HRSU325bcAAnAuN
+                - postximage:
+                    post: 2095463522524438833
+                    image: HRSU328aQAAQI8Q
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095471724221677628
+                    image: HRScZqDboAEv8md
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095481230473232789
+                    image: HRSlERIbkAAxnL7
+                - postinstagramvideo:
+                    post: Dc0tTMAkqx5
+                    video: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095472890074542384
+                    image: HRSdQwba0AAO6bn
+                - postximage:
+                    post: 2095472890074542384
+                    image: HRSdQ1_aIAARxLp
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+
+- postinstagram:
+    id: Dc0tTMAkqx5
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-03
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      
+      📍タワーレコード梅田NU茶屋町店 
+      
+      ご来場いただきありがとうございました💿
+      
+      ▼インストアはあと2会場で開催！
+      9/6(日)タワーレコード名古屋パルコ店
+      9/13(日)タワーレコード渋谷店
+      
+      ぜひお越しください✔️
+      
+      https://neki.bitfan.id/contents/422268
+      
+      #NEKI
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event
+      
+      📍Tower Records Umeda NU Chayamachi Store 
+      
+      Thank you so much for coming💿
+      
+      ▼In-store events will be held at 2 more venues!
+      9/6 (Sun) Tower Records Nagoya PARCO Store
+      9/13 (Sun) Tower Records Shibuya Store
+      
+      Please be sure to come✔️
+      
+      https://neki.bitfan.id/contents/422268
+      
+      #NEKI
+    image:
+    - 1
+    video:
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+
+- postinstagramimage:
+    post: Dc0tTMAkqx5
+    id: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postinstagram: Dc0tTMAkqx5
+
+- postinstagramvideo:
+    post: Dc0tTMAkqx5
+    id: 2
+    label: On stage
+    info: Natsu photoshoot
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postinstagram: Dc0tTMAkqx5
+
+- postx:
+    id: 2095414024372723912
+    account: TOWER_NUchaya
+    label: Today
+    published-date: 2026-09-03
+    text: |-
+      ＼ 本日のNU茶屋イベント✨ ／
+      
+      【NEK!】
+      
+      Major 1st EP「B!NARY」発売記念インストアイベント開催！
+      ⏰ 18:00~(集合時間17:30)
+      
+      イベント券付きで対象商品販売中！🙌
+      
+      熱中症対策にお気をつけてお越しくださいませ🥤
+      ご来店お待ちしております！
+      
+      詳細👇
+      https://tower.jp/store/event/2026/09/096012
+    translation: |-
+      ＼ Today's NU Chayamachi Event✨ ／
+      
+      【NEK!】
+      
+      Major 1st EP "B!NARY" Release Commemorative In-Store Event!
+      ⏰ From 18:00 (Gathering time 17:30)
+      
+      Eligible products with event tickets now on sale!🙌
+      
+      Please take precautions against heatstroke and stay safe when coming🥤
+      We look forward to your visit!
+      
+      Details👇
+      https://tower.jp/store/event/2026/09/096012
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+    reference:
+    - postximage:
+        post: 2064362227986272527
+        image: HKYNUmibYAAEm62
+
+- postx:
+    id: 2095426457636086093
+    account: nekiband_jp
+    label: Soon
+    published-date: 2026-09-03
+    text: |-
+      タワーレコード梅田NU茶屋町店💿
+      
+      このあと18時から
+      インストアイベント開催です✅
+      https://tower.jp/store/event/2026/09/096012
+      
+      #NEKI
+    translation: |-
+      Tower Records Umeda NU Chayamachi Store💿
+      
+      Starting shortly from 18:00
+      The in-store event will be held✅
+      https://tower.jp/store/event/2026/09/096012
+      
+      #NEKI
+    image:
+    - HRRzMmubcAAuj-I
+    part-of:
+      postx: 2095414024372723912
+
+- postx:
+    id: 2095463522524438833
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-09-03
+    text: |-
+      タワーレコード梅田NU茶屋町店様ー！
+      
+      インストアイベント見に来てくださった方
+      ありがとうございました！！
+      
+      明日から東名阪ツアーが始まります。
+      よろしくお願いします𖤐 ̖́-
+    translation: |-
+      Tower Records Umeda NU Chayamachi Store!
+      
+      To everyone who came to see the in-store event
+      Thank you so much!!
+      
+      Starting tomorrow, the Tomeihan tour begins.
+      We look forward to having you 𖤐 ̖́-
+    image:
+    - HRSU325bcAAnAuN
+    - HRSU328aQAAQI8Q
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+
+- postx:
+    id: 2095464344574464238
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-03
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      
+      📍タワーレコード梅田NU茶屋町店 
+      
+      ご来場いただきありがとうございました💿
+      
+      ▼インストアはあと2会場で開催！
+      9/6(日)タワーレコード名古屋パルコ店
+      9/13(日)タワーレコード渋谷店
+      
+      ぜひお越しください✔️
+      
+      https://neki.bitfan.id/contents/422268
+      
+      #NEKI
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event
+      
+      📍Tower Records Umeda NU Chayamachi Store 
+      
+      Thank you so much for coming💿
+      
+      ▼In-store events will be held at 2 more venues!
+      9/6 (Sun) Tower Records Nagoya PARCO Store
+      9/13 (Sun) Tower Records Shibuya Store
+      
+      Please be sure to come✔️
+      
+      https://neki.bitfan.id/contents/422268
+      
+      #NEKI
+    image:
+    - HRSVtkXakAAyafS
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+
+- postx:
+    id: 2095471724221677628
+    account: coco_102
+    label: Thank you
+    published-date: 2026-09-03
+    text: |-
+      タワーレコードNU茶屋町店インストアイベント
+      ありがとうございました！！💛
+      
+      アコースティック編成はいかがだったでしょうか？
+      久々に皆の前でカホンが叩けて嬉しかったし、サイン会では皆さんとたくさんお話ができて楽しかったです！
+      
+      B!NARYをこれからもよろしくお願いします🙂‍↕️🙏🏻
+    translation: |-
+      Tower Records NU Chayamachi Store in-store event
+      Thank you so much!!💛
+      
+      How did you like the acoustic arrangement?
+      I was happy to be able to play the cajón in front of everyone after so long, and I had lots of fun getting to talk with you all so much at the autograph session!
+      
+      Please continue to support B!NARY going forward🙂‍↕️🙏🏻
+    image:
+    - HRScZp0aoAAW7w-
+    - HRScZqDboAEv8md
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+
+- postx:
+    id: 2095472890074542384
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-09-03
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      @ タワーレコード梅田NU茶屋町店
+      
+      初の大阪インストありがとうございました！
+      やっとライブ以外で来れて嬉しかった！！
+      平日だったからみんな色々忙しい中駆けつけてくれて本当にありがとう🥹
+      明日のツアー初日もよろしくだ！！
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event
+      @ Tower Records Umeda NU Chayamachi Store
+      
+      Thank you so much for our first Osaka in-store event!
+      I was so happy to finally come here for something other than a live show!!
+      It was a weekday, so thank you all so much for rushing over despite being so busy with everything🥹
+      Let's make tomorrow's tour first day amazing too!!
+    image:
+    - HRSdQ1_aIAARxLp
+    - HRSdQwba0AAO6bn
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+
+- postx:
+    id: 2095481230473232789
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-09-03
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      
+      📍タワーレコード梅田NU茶屋町店 
+      
+      ありがとうございました！
+      皆さんと直接お会いできてとっても嬉しかった！
+      たくさん話せて最高の時間でした！💛
+      明日はワンマンでお会いしましょ！
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event
+      
+      📍Tower Records Umeda NU Chayamachi Store 
+      
+      Thank you so much!
+      I was so happy to meet everyone in person!
+      Getting to talk so much made it the best time ever!💛
+      See you tomorrow at the one-man live!
+    image:
+    - HRSlERIbkAAxnL7
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+    reference:
+    - postximage:
+        post: 2095463522524438833
+        image: HRSU325bcAAnAuN
+
+- postximage:
+    post: 2095426457636086093
+    id: HRRzMmubcAAuj-I
+    index: 1
+    label: Visiting the store
+    info: Tower Records Umeda
+    context:
+    - album: binary
+    part-of:
+      postx: 2095426457636086093
+
+- postximage:
+    post: 2095463522524438833
+    id: HRSU325bcAAnAuN
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postx: 2095463522524438833
+
+- postximage:
+    post: 2095463522524438833
+    id: HRSU328aQAAQI8Q
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postx: 2095463522524438833
+
+- postximage:
+    post: 2095464344574464238
+    id: HRSVtkXakAAyafS
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postx: 2095464344574464238
+
+- postximage:
+    post: 2095471724221677628
+    id: HRScZp0aoAAW7w-
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postx: 2095471724221677628
+
+- postximage:
+    post: 2095471724221677628
+    id: HRScZqDboAEv8md
+    index: 2
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postx: 2095471724221677628
+
+- postximage:
+    post: 2095472890074542384
+    id: HRSdQ1_aIAARxLp
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postx: 2095472890074542384
+
+- postximage:
+    post: 2095472890074542384
+    id: HRSdQwba0AAO6bn
+    index: 2
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postx: 2095472890074542384
+
+- postximage:
+    post: 2095481230473232789
+    id: HRSlERIbkAAxnL7
+    index: 1
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postx: 2095481230473232789
+
+- update:
+    show:
+      year: 2026
+      id: binarytowerumeda
+    date: 2026-09-03
+    text:
+    - First pictures and videos from the event
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+
 - webimage:
     domain: neki.bitfan.id
     page: 118927

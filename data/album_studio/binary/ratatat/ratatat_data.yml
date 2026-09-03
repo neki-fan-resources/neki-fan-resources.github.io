@@ -1,0 +1,29 @@
+- postx:
+    id: 2095115612007838165
+    account: 46_hikaa
+    label: Recording
+    published-date: 2026-09-02
+    text: |-
+      インライで言ってた動画がこちら！
+      
+      rat a tat のコーラスもよく聴いてみてねん
+    translation: |-
+      Here is the video we mentioned on Insta Live!
+      
+      Be sure to listen closely to the backing vocals in "rat a tat" too
+    video:
+    - 1
+    part-of:
+      song: ratatat
+
+- postxvideo:
+    post: 2095115612007838165
+    id: 1
+    label: Recording
+    info: Natsu
+    cover: 2095115540058832897/img/3XoYXwRFgRdWkj-b.jpg
+    context:
+    - song: ratatat
+    part-of:
+      postx: 2095115612007838165
+

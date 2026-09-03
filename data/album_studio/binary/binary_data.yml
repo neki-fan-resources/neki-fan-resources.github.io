@@ -26,6 +26,39 @@
                     post: 2094690528537530472
                     image: HRHV7ldbMAA4935
     - basicblock:
+        id: release
+        label: Release day
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: On release day, NEK! did celebration livestreams on Instagram and for the Fan Club.
+            - multimediasubsection:
+                label: Instagram livestream
+                multimedia:
+                - postinstagramvideo:
+                    post: Dcx7shkgdJb
+                    video: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095124711982424221
+                    image: HRNg0NabEAAbIRl
+                - postximage:
+                    post: 2095124711982424221
+                    image: HRNg0NgbIAAXSHX
+            - textsubsection:
+                label: ネキ民 Fan Club livestream
+                lines:
+                - line:
+                  - text: 'The livestream archive is available on the Fan Club section of the NEK! website:'
+                - line:
+                  - webpage:
+                      domain: neki.bitfan.id
+                      id: 434934
+    - basicblock:
         id: visit
         label: visiting stores
         sections:
@@ -39,11 +72,17 @@
                 label: Tower Records Shinjuku
                 multimedia:
                 - postximage:
+                    post: 2095379769294766470
+                    image: HRRIyP0boAARpXz
+                - postximage:
                     post: 2095049944076026308
                     image: HRMcwI7bMAAtyBJ
             - multimediasubsection:
                 label: Tower Records Shibuya
                 multimedia:
+                - postximage:
+                    post: 2095383421556261278
+                    image: HRRMHCOboAAuPh_
                 - postximage:
                     post: 2095062078390415455
                     image: HRMmiv4a4AASZeK
@@ -131,6 +170,29 @@
                     image: HRGeSRcbQAAw6lf
     part-of:
       album: binary
+
+- postinstagram:
+    id: Dcx7shkgdJb
+    account: nekiband_jp
+    label: Release live stream
+    published-date: 2026-09-02
+    text: |-
+      Major 1st EP『B!NARY』リリース記念生配信!!!!
+    translation: |-
+      Major 1st EP "B!NARY" Release Celebration Livestream!!!!
+    video:
+    - 1
+    part-of:
+      album: binary
+
+- postinstagramvideo:
+    post: Dcx7shkgdJb
+    id: 1
+    label: Release live stream
+    context:
+    - album: binary
+    part-of:
+      postinstagram: Dcx7shkgdJb
 
 - postx:
     id: 2075867719455678491
@@ -652,6 +714,186 @@
     part-of:
       album: binary
 
+- postx:
+    id: 2095118316788683157
+    account: nekiband_jp
+    label: Campaigns
+    published-date: 2026-09-02
+    text: |-
+      🎧CAMPAIGN🎧
+      
+      Major 1st EP『B!NARY』リリース記念
+      配信キャンペーン実施決定🎉
+      
+      ★ストリーミングシェアキャンペーン
+      ★ダウンロードキャンペーン
+      
+      詳しくは添付画像とリンクから🔗
+      ぜひご参加お願いします✔️
+      
+      ▼詳細はこちら
+      https://neki.bitfan.id/contents/434910
+      
+      #NEKI
+    translation: |-
+      🎧CAMPAIGN🎧
+      
+      Major 1st EP "B!NARY" Release Celebration
+      Digital Campaign Confirmed🎉
+      
+      ★ Streaming Share Campaign
+      ★ Download Campaign
+      
+      For details, check the attached images and link🔗
+      Please be sure to join in✔️
+      
+      ▼ Details here
+      https://neki.bitfan.id/contents/434910
+      
+      #NEKI
+    image:
+    - HRNantLbAAAEMHo
+    - HRNaoZYagAEfihZ
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 434910
+
+- postx:
+    id: 2095124598413283348
+    account: cure_bass_baka
+    label: Campaigns
+    published-date: 2026-09-02
+    text: |-
+      よろしくお願いします！
+    translation: |-
+      Thank you for your support!
+    image:
+    - HRNgqtFa8AAZxHz
+    part-of:
+      postx: 2095118316788683157
+
+- postx:
+    id: 2095124711982424221
+    account: nekiband_jp
+    label: Release live streams
+    published-date: 2026-09-02
+    text: |-
+      Major 1st EP『B!NARY』発売記念
+      生配信のご視聴ありがとうございました
+      
+      明日からインストアイベント&東名阪ツアースタート💥
+      
+      各地でお待ちしております❗️
+      
+      ▼配信アーカイブはこちらから
+      
+      インスタライブ✔️
+      https://instagram.com/reel/Dcx7shkgdJb/
+      
+      ファンクラブ会員限定配信✔️
+      https://neki.bitfan.id/contents/434934
+      ※FCにログインしてお進みください。
+      
+      #NEKI
+    translation: |-
+      Major 1st EP "B!NARY" Release Celebration
+      Thank you for watching the livestream
+      
+      Starting tomorrow: In-store events & Tokyo-Nagoya-Osaka tour kickoff💥
+      
+      We look forward to seeing you at each stop❗️
+      
+      ▼ Livestream archive here
+      
+      Instagram Live✔️
+      https://instagram.com/reel/Dcx7shkgdJb/
+      
+      Fan club member-exclusive stream✔️
+      https://neki.bitfan.id/contents/434934
+      * Please log in to the FC before proceeding.
+      
+      #NEKI
+    image:
+    - HRNg0NabEAAbIRl
+    - HRNg0NgbIAAXSHX
+    part-of:
+      album: binary
+
+- postx:
+    id: 2095379769294766470
+    account: nekiband_jp
+    label: Visiting the store
+    published-date: 2026-09-03
+    text: |-
+      タワーレコード新宿店さんに伺いました🌟
+      
+      Major 1st EP『B!NARY』
+      
+      ✔️ライブフォトパネル展
+      ✔️オリジナルレシートプレゼント
+      ✔️ドット絵ステッカープレゼント
+      
+      開催中です！
+      
+      キャンペーン詳細はこちらから🔗
+      https://neki.bitfan.id/contents/422363
+      
+      #NEKI
+    translation: |-
+      We visited Tower Records Shinjuku🌟
+      
+      Major 1st EP "B!NARY"
+      
+      ✔️ Live photo panel exhibition
+      ✔️ Original receipt gift
+      ✔️ Pixel art sticker gift
+      
+      Currently underway!
+      
+      Campaign details here🔗
+      https://neki.bitfan.id/contents/422363
+      
+      #NEKI
+    image:
+    - HRRIyP0boAARpXz
+    part-of:
+      postx: 2095049944076026308
+
+- postx:
+    id: 2095383421556261278
+    account: nekiband_jp
+    label: Visiting the store
+    published-date: 2026-09-03
+    text: |-
+      タワーレコード渋谷店さんに伺いました💖
+      
+      Major 1st EP『B!NARY』
+      NEK!の大型パネル展示中📸✨
+      
+      9/13(日)にはインストアイベント開催🙌
+      https://towershibuya.jp/2026/08/13/233180
+      
+      ぜひチェックお願いします！
+      
+      #NEKI
+    translation: |-
+      We visited Tower Records Shibuya💖
+      
+      Major 1st EP "B!NARY"
+      NEK!'s large panel is on display📸✨
+      
+      In-store event will be held on Sun, Sep 13🙌
+      https://towershibuya.jp/2026/08/13/233180
+      
+      Please be sure to check it out!
+      
+      #NEKI
+    image:
+    - HRRMHCOboAAuPh_
+    part-of:
+      postx: 2095062078390415455
+
 - postximage:
     post: 2075867719455678491
     id: HM72rarbgAAlomF
@@ -859,6 +1101,78 @@
     part-of:
       postx: 2095062078390415455
 
+- postximage:
+    post: 2095118316788683157
+    id: HRNantLbAAAEMHo
+    index: 1
+    label: Share campaign
+    context:
+    - album: binary
+    part-of:
+      postx: 2095118316788683157
+
+- postximage:
+    post: 2095118316788683157
+    id: HRNaoZYagAEfihZ
+    index: 2
+    label: Download campaign
+    context:
+    - album: binary
+    part-of:
+      postx: 2095118316788683157
+
+- postximage:
+    post: 2095124598413283348
+    id: HRNgqtFa8AAZxHz
+    index: 1
+    label: Poster
+    context:
+    - album: binary
+    part-of:
+      postx: 2095124598413283348
+
+- postximage:
+    post: 2095124711982424221
+    id: HRNg0NabEAAbIRl
+    index: 1
+    label: Streaming
+    context:
+    - album: binary
+    part-of:
+      postx: 2095124711982424221
+
+- postximage:
+    post: 2095124711982424221
+    id: HRNg0NgbIAAXSHX
+    index: 2
+    label: Streaming
+    context:
+    - album: binary
+    part-of:
+      postx: 2095124711982424221
+
+- postximage:
+    post: 2095379769294766470
+    id: HRRIyP0boAARpXz
+    index: 1
+    label: Visiting the store
+    info: Tower Records Shinjuku
+    context:
+    - album: binary
+    part-of:
+      postx: 2095379769294766470
+
+- postximage:
+    post: 2095383421556261278
+    id: HRRMHCOboAAuPh_
+    index: 1
+    label: Visiting the store
+    info: Tower Records Shibuya
+    context:
+    - album: binary
+    part-of:
+      postx: 2095383421556261278
+
 - postxvideo:
     post: 2093997557173424339
     id: 1
@@ -956,6 +1270,42 @@
       album: binary
 
 - webpage:
+    domain: neki.bitfan.id
+    id: 434910
+    label: Campaigns
+    published-date: 2026-09-02
+    url: 'https://neki.bitfan.id/contents/434910'
+    part-of:
+      album: binary
+    reference:
+    - postximage:
+        post: 2095118316788683157
+        image: HRNantLbAAAEMHo
+    - postximage:
+        post: 2095118316788683157
+        image: HRNaoZYagAEfihZ
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 434934
+    label: Fan Club livestream
+    published-date: 2026-09-02
+    url: 'https://neki.bitfan.id/contents/434934'
+    part-of:
+      album: binary
+
+- webpage:
+    domain: nekimin.bitfan.id
+    id: 434934
+    label: Fan Club livestream
+    published-date: 2026-09-02
+    url: 'https://neki.bitfan.id/contents/434934'
+    video:
+    - livestream
+    part-of:
+      album: binary
+
+- webpage:
     domain: skream.jp
     id: 2026.07.nek_major_1st_ep
     label: Article about the announcement
@@ -963,4 +1313,19 @@
     url: 'https://skream.jp/news/2026/07/nek_major_1st_ep.php'
     part-of:
       album: binary
+
+- webvideo:
+    domain: nekimin.bitfan.id
+    page: 434934
+    id: livestream
+    label: Fan Club livestream
+    published-date: 2026-09-03
+    url: 'https://neki.bitfan.id/contents/434934'
+    protected: true
+    context:
+    - album: binary
+    part-of:
+      webpage:
+        domain: nekimin.bitfan.id
+        id: 434934
 

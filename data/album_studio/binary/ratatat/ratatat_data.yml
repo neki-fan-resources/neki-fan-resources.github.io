@@ -1,3 +1,165 @@
+- display:
+    song: ratatat
+    blocks:
+    - lyricsblock: '-'
+    part-of:
+      song: ratatat
+
+- lyrics:
+    id: main
+    song: ratatat
+    part-of:
+      song: ratatat
+    status:
+      code: warning
+      description: Lyrics from uta-net.com. Limited check.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from uta-net.com)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from uta-net.com
+        url: 'https://www.uta-net.com/song/398194/'
+    sections:
+    - lines:
+      - ol:
+        - say！ rat a rat a tat！
+    - lines:
+      - ol:
+        - beepin'... beepin'...
+      - ol:
+        - 鳴り止まぬまま
+      - ol:
+        - sleepin'... sleepin'...
+      - ol:
+        - 今日も失敗
+      - ol:
+        - panic！ 急いで息も絶え絶え
+      - ol:
+        - 繰り返す横転で滅入る
+      - ol:
+        - 日々シュガーレス
+    - lines:
+      - ol:
+        - チャンスをモノにしたい
+      - ol:
+        - 肝心なとこでmistake！
+      - ol:
+        - A to Z everything
+    - lines:
+      - ol:
+        - 寝ても覚めても癒えない傷跡
+      - ol:
+        - チクリと痛む　これが心だと
+      - ol:
+        - 誰も抱えている想いを
+      - ol:
+        - 吐き出せこの場所では
+    - lines:
+      - ol:
+        - ラッタッタッタッとclap your hands
+      - ol:
+        - 不安とかパッパッパッと忘れて
+      - ol:
+        - ヘマしてもいいじゃん
+      - ol:
+        - 飛び込めばいいさgroovin' magicへ
+    - lines:
+      - ol:
+        - ドキドキしていようぜ
+      - ol:
+        - 上手くいきそうだ　君となら
+      - ol:
+        - クラクラしちゃうぜ
+      - ol:
+        - 何でもできるって　僕らなら
+    - lines:
+      - ol:
+        - jelly... jelly...
+      - ol:
+        - 膨らんだまま
+      - ol:
+        - envy... envy...
+      - ol:
+        - 見過ごせない
+      - ol:
+        - greedy！ ここからここまで全部
+      - ol:
+        - くださいな無限に回収
+      - ol:
+        - 日々"おしごと"
+    - lines:
+      - ol:
+        - いいねって言われたい
+      - ol:
+        - 褒めてよ　さあone more time！
+      - ol:
+        - 右 左 everybody
+    - lines:
+      - ol:
+        - 寝ても覚めても消えない呪いと
+      - ol:
+        - 認めてほしい　これも個性だと
+      - ol:
+        - 誰も抱えている想いを
+      - ol:
+        - 吐き出せこの場所では
+    - lines:
+      - ol:
+        - ラッタッタッタッとclap your hands
+      - ol:
+        - 不安とかパッパッパッと忘れて
+      - ol:
+        - トチってもいいじゃん
+      - ol:
+        - 走ってもいいさgroovin' magic
+    - lines:
+      - ol:
+        - get down...
+    - lines:
+      - ol:
+        - 寝ても覚めても解けない魔法と
+      - ol:
+        - やっと気づいた　これが答えだと
+      - ol:
+        - 君がくれたんだ勇気を
+      - ol:
+        - 自信に変えていけるよ
+    - lines:
+      - ol:
+        - ラッタッタッタッとclap your hands
+      - ol:
+        - 不安とかパッパッパッと忘れて
+      - ol:
+        - 同じこの時代　生まれ落ちて
+      - ol:
+        - 巡り会った奇跡に
+    - lines:
+      - ol:
+        - ラッタッタッタッとclap your hands
+      - ol:
+        - 不安とかパッパッパッと忘れて
+      - ol:
+        - ヘマしてもいいじゃん
+      - ol:
+        - 飛び込めばいいさgroovin' magic
+      - ol:
+        - 足りない　足りない
+      - ol:
+        - 響かせもっと
+    - lines:
+      - ol:
+        - ドキドキしていようぜ
+      - ol:
+        - 上手くいきそうだ　君となら
+      - ol:
+        - クラクラしちゃうぜ
+      - ol:
+        - 何でもできるって　僕らなら
+
 - postx:
     id: 2095115612007838165
     account: 46_hikaa

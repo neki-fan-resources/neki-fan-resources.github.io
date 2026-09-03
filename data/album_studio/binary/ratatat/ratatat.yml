@@ -7,6 +7,8 @@ song:
   fullname: rat a tat
   album: binary
   release-date: 2026-09-02
+  lyrics:
+  - main
   lyricist:
     value: Taiyo Takeuchi, NEK!
     source:

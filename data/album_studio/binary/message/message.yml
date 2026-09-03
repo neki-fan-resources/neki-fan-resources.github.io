@@ -7,6 +7,8 @@ song:
   fullname: message
   album: binary
   release-date: 2026-09-02
+  lyrics:
+  - main
   lyricist:
     value: Ikebe, NEK!
     source:

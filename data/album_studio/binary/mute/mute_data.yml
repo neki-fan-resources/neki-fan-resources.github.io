@@ -1,0 +1,116 @@
+- display:
+    song: mute
+    blocks:
+    - lyricsblock: '-'
+    part-of:
+      song: mute
+
+- lyrics:
+    id: main
+    song: mute
+    part-of:
+      song: mute
+    status:
+      code: warning
+      description: Lyrics from uta-net.com. Limited check.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from uta-net.com)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from uta-net.com
+        url: 'https://www.uta-net.com/song/398196/'
+    sections:
+    - lines:
+      - ol:
+        - 自認世渡り上手なあの子　日課　界隈パトロール
+      - ol:
+        - いじられ役で　ポジション確保
+      - ol:
+        - 裏ですり減り　ため息ついて
+    - lines:
+      - ol:
+        - バ先の苦手な先輩の
+      - ol:
+        - 口癖は「普通分かるよね？」
+    - lines:
+      - ol:
+        - 質問　生成　質問　生成
+      - ol:
+        - 「なにが普通でしょうか？」
+    - lines:
+      - ol:
+        - 鏡の前　表情管理　いーってして
+      - ol:
+        - ミュートカラーの浮かずカブらず存在証明
+    - lines:
+      - ol:
+        - 誰かのルールで生きていたってしょうがないし
+      - ol:
+        - カオスな自由抱え飛び出すよ
+      - ol:
+        - I promise me. 声上げろ革命声明
+      - ol:
+        - むきだしの私は　不器用でも　はみ出ても
+      - ol:
+        - うまく笑える
+    - lines:
+      - ol:
+        - 無難化武装　解除して　ひとつひとつ付けていく
+      - ol:
+        - 鈍く光ったピアスの感触で　私を取り戻す
+    - lines:
+      - ol:
+        - 器用に縛られてあげる
+      - ol:
+        - 本当の私は譲らない
+    - lines:
+      - ol:
+        - 謝ってほしいならナンボでもどうぞ
+      - ol:
+        - もういいかい？
+    - lines:
+      - ol:
+        - 優等生　考察合戦
+      - ol:
+        - 結果冷笑　サヨナラ
+      - ol:
+        - どうせ　鍵アカ　裏アカ　あいたた
+      - ol:
+        - MUTE！ Hello, Can we be friends？
+    - lines:
+      - ol:
+        - 誰かの決めた　ルールブック書き換えちゃって
+      - ol:
+        - カオスな　私だけの不文律
+      - ol:
+        - I promise me. 声上げろ革命声明
+      - ol:
+        - むきだしの私は　不器用でも　はみ出ても
+      - ol:
+        - うまく笑える
+    - lines:
+      - ol:
+        - 鏡の前　表情管理　いーってして
+      - ol:
+        - ミュートしかけた　付かず離れず存在証明
+    - lines:
+      - ol:
+        - 誰にも　嫌われない
+      - ol:
+        - 私が　私はいちばん嫌い
+    - lines:
+      - ol:
+        - 誰かのルールで生きていたってしょうがないし
+      - ol:
+        - カオスな自由抱え飛び出すよ
+      - ol:
+        - I promise me. 声上げろ革命声明
+      - ol:
+        - 本当の私なら　不器用でも　はみ出ても
+      - ol:
+        - うまく笑える
+

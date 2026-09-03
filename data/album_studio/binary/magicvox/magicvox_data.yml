@@ -1,3 +1,152 @@
+- display:
+    song: magicvox
+    blocks:
+    - lyricsblock: '-'
+    part-of:
+      song: magicvox
+
+- lyrics:
+    id: main
+    song: magicvox
+    part-of:
+      song: magicvox
+    status:
+      code: warning
+      description: Lyrics from uta-net.com. Limited check.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from uta-net.com)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from uta-net.com
+        url: 'https://www.uta-net.com/song/396612/'
+    sections:
+    - lines:
+      - ol:
+        - ギュ・ギュラ・シンギュラリティ
+      - ol:
+        - 革新的最先端
+      - ol:
+        - ガ・ガラ・ガラパゴス化で
+      - ol:
+        - サビついた牙
+      - ol:
+        - 炭酸抜けたソーダ
+      - ol:
+        - 千早振ル風ノ夜ニ
+    - lines:
+      - ol:
+        - 錯覚するんだ
+      - ol:
+        - 何が間違いか？
+      - ol:
+        - 誰が悪いのか？
+      - ol:
+        - ノイズに塗れた
+    - lines:
+      - ol:
+        - I wanna say that イニミニマニモ
+      - ol:
+        - 「どうぞお好きなのいくらでも」なんてね
+      - ol:
+        - キャパシティ超えヒリつき出して
+      - ol:
+        - slippin' drippin' clippin' grippin'
+      - ol:
+        - taking my hand
+    - lines:
+      - ol:
+        - Damn！ Damn！　ダンスビートで騒いで
+      - ol:
+        - 情報の海から解き放たれて
+      - ol:
+        - キラ・キラーチューン
+      - ol:
+        - キラ・キラーチューン
+      - ol:
+        - 晒せ
+    - lines:
+      - ol:
+        - 『結論から言う、それめっちゃ**正解**』
+      - ol:
+        - ……って言ってたからチャッピー
+      - ol:
+        - 生身の言葉　お前はどこだい
+    - lines:
+      - ol:
+        - 全て知ったかエアプ素人に
+      - ol:
+        - 不幸の蜜に群がるnosy guys
+      - ol:
+        - nullい奴ら相手してらんない
+    - lines:
+      - ol:
+        - 錯綜するんだ
+      - ol:
+        - これは陰謀か？
+      - ol:
+        - 誰がジョーカーだ？
+      - ol:
+        - くだらない嘘に
+    - lines:
+      - ol:
+        - I wanna say that アブラカダブラ
+      - ol:
+        - 「何でも聞いてよいくらでも」なんてね
+      - ol:
+        - 不安定な夜を彷徨って
+      - ol:
+        - slippin' drippin' clippin' grippin'
+      - ol:
+        - taking my hand
+    - lines:
+      - ol:
+        - Rock！ Rock！　ロックビートで暴れて
+      - ol:
+        - 感情の赴くまま飛び跳ねて
+      - ol:
+        - キラ・キラーチューン
+      - ol:
+        - キラ・キラーチューン
+      - ol:
+        - 騒げ
+    - lines:
+      - ol:
+        - I wanna say that イニミニマニモ
+      - ol:
+        - 「どうぞお好きなのいくらでも」なんてね
+      - ol:
+        - キャパシティ超えヒリつき出して
+      - ol:
+        - slippin' drippin' clippin' grippin'
+      - ol:
+        - taking my hand
+    - lines:
+      - ol:
+        - I wanna say that アブラカダブラ
+      - ol:
+        - 「何でも聞いてよいくらでも」なんてね
+      - ol:
+        - 不安定な夜を彷徨って
+      - ol:
+        - slippin' drippin' clippin' grippin'
+      - ol:
+        - taking my hand
+    - lines:
+      - ol:
+        - Rock！ Rock！　ロックビートで暴れて
+      - ol:
+        - 感情の赴くまま飛び跳ねて
+      - ol:
+        - キラ・キラーチューン
+      - ol:
+        - キラ・キラーチューン
+      - ol:
+        - 歌え
+
 - postx:
     id: 2078434617183412469
     account: nekiband_jp

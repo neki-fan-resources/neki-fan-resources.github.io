@@ -7,6 +7,8 @@ song:
   fullname: MAGiC VoX
   album: binary
   release-date: 2026-07-29
+  lyrics:
+  - main
   lyricist:
     value: Taiyo Takeuchi, NEK!
     source:

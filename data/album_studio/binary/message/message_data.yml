@@ -1,0 +1,105 @@
+- display:
+    song: message
+    blocks:
+    - lyricsblock: '-'
+    part-of:
+      song: message
+
+- lyrics:
+    id: main
+    song: message
+    part-of:
+      song: message
+    status:
+      code: warning
+      description: Lyrics from uta-net.com. Limited check.
+    languages:
+    - id: ol
+      name: original lyrics
+      details: (from uta-net.com)
+      active: true
+      fixed: true
+      no-translation: true
+      source:
+        description: from uta-net.com
+        url: 'https://www.uta-net.com/song/398195/'
+    sections:
+    - lines:
+      - ol:
+        - 君と、二度と
+      - ol:
+        - 会えなくなった日
+    - lines:
+      - ol:
+        - 息が詰まりそうな
+      - ol:
+        - ざわめく交差点
+    - lines:
+      - ol:
+        - お揃いの安物チャーム
+      - ol:
+        - どこかで引っ掛けて　紐だけが残った
+      - ol:
+        - 「また買おう」コンビニ前で　ふたり笑って
+      - ol:
+        - 季節外れのアイス食べた帰り道
+    - lines:
+      - ol:
+        - 言いたいことはとめどなくて
+      - ol:
+        - 何ひとつも　届かないね
+      - ol:
+        - 開いてみる最新のメッセージ
+      - ol:
+        - 味気ない　相槌ひとつ
+      - ol:
+        - 笑えて泣けた
+    - lines:
+      - ol:
+        - ワンコール
+      - ol:
+        - 呼べば会えそうで
+    - lines:
+      - ol:
+        - 笑い合うけれど
+      - ol:
+        - 沈黙ただよう
+    - lines:
+      - ol:
+        - いつも何か　失くし壊し
+      - ol:
+        - 騒ぐ君のことを　みんなで宥めてた
+      - ol:
+        - 変わらない風景と静かすぎる景色
+      - ol:
+        - 返ってこない返事と消えない体温
+    - lines:
+      - ol:
+        - 言いたいことがあったとして
+      - ol:
+        - もう応えは　聞こえないの
+      - ol:
+        - アルバムの最後の日付が
+      - ol:
+        - 遠くなって　埋もれていくよ
+      - ol:
+        - 嘘みたいだ
+    - lines:
+      - ol:
+        - 短すぎる時間の中で言葉を重ねても
+    - lines:
+      - ol:
+        - ホシゾラカナタまで
+      - ol:
+        - この叫びは届きますか？
+      - ol:
+        - 大好きな君の鼻にかかる
+      - ol:
+        - 声がした　聞こえた気がした
+      - ol:
+        - 消えないでよ
+      - ol:
+        - 涙まで空に溶けてく
+      - ol:
+        - ずっとミライまで
+

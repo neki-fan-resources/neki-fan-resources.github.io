@@ -35,6 +35,7 @@ jobs:
         with:
           # upload entire directory
           path: 'target/site'
+          include-hidden-files: true
 
   # Deployment job
   deploy:

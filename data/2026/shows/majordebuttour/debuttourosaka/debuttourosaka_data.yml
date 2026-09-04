@@ -1,3 +1,148 @@
+- display:
+    show:
+      year: 2026
+      id: debuttourosaka
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: Dc3nJ5Skvto
+                    image: 4
+                - postinstagramimage:
+                    post: Dc3nJ5Skvto
+                    image: 2
+                - postximage:
+                    post: 2095881581416386617
+                    image: HRYRLslacAAz_CG
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095876327522128149
+                    image: HRYMZ-ma0AEpXIP
+                - postximage:
+                    post: 2095877890147778582
+                    image: HRYN1E8bgAAt7BV
+                - postximage:
+                    post: 2095876971075191293
+                    image: HRYM_Nkb0AAPMtA
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095880167759716624
+                    image: HRYP4aMbYAAGZYc
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095876971075191293
+                    image: HRYM_NsakAAq4_U
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095876327522128149
+                    image: HRYMZ-YbEAAF2vT
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2095881581416386617
+                    image: HRYRLspaQAASR_Q
+                - postximage:
+                    post: 2095880167759716624
+                    image: HRYP4aOb0AAC5QI
+                - postximage:
+                    post: 2095877890147778582
+                    image: HRYN1EzboAAsoLq
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+
+- postinstagram:
+    id: Dc3nJ5Skvto
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-04
+    text: |-
+      NEK! MAJOR DEBUT TOUR
+      大阪・BANGBOO
+      
+      THANK YOU SOLD OUT💥
+      
+      東名阪ツアー初日
+      ありがとうございました🫶✨
+      
+      NEXT ▶︎ 9/5 愛知・RAD SEVEN
+      ご来場お待ちしております✔️
+      
+      https://neki.bitfan.id/schedules/105983
+      
+      Photo by @shohnophoto
+      
+      #NEKI
+    translation: |-
+      NEK! MAJOR DEBUT TOUR
+      Osaka・BANGBOO
+      
+      THANK YOU SOLD OUT💥
+      
+      First day of the Tomeihan tour
+      Thank you so much🫶✨
+      
+      NEXT ▶︎ 9/5 Aichi・RAD SEVEN
+      We look forward to your visit✔️
+      
+      https://neki.bitfan.id/schedules/105983
+      
+      Photo by @shohnophoto
+      
+      #NEKI
+    image:
+    - 2
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+    reference:
+    - postximage:
+        post: 2095881581416386617
+        image: HRYRLslacAAz_CG
+    - postximage:
+        post: 2095877890147778582
+        image: HRYN1E8bgAAt7BV
+    - postximage:
+        post: 2095881581416386617
+        image: HRYRLspaQAASR_Q
+
+- postinstagramimage:
+    post: Dc3nJ5Skvto
+    id: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: Dc3nJ5Skvto
+
+- postinstagramimage:
+    post: Dc3nJ5Skvto
+    id: 4
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: Dc3nJ5Skvto
+
 - postx:
     id: 2095481966527492421
     account: nekiband_jp
@@ -55,6 +200,177 @@
         post: 2093988307353080191
         image: HQ9Wx8PaUAAgtfs
 
+- postx:
+    id: 2095876327522128149
+    account: coco_102
+    label: Thank you
+    published-date: 2026-09-04
+    text: |-
+      東名阪ツアー初日大阪ありがとうございました！！
+      EP曲はもちろん、ライブ定番曲もたくさん詰め込んで、ほぼノンストップで駆け抜けて非常にハイカロリーなライブでした🥵🔥
+      フロアもアツすぎたー！本当にありがとう！！
+      今日より何倍も成長した姿でまた大阪戻ってきます！
+      明日は愛知公演！！
+    translation: |-
+      Thank you so much for the first day of the Tomeihan tour in Osaka!!
+      Packed with EP songs of course, along with plenty of live staples, running through nearly non-stop made for an extremely high-energy show🥵🔥
+      The floor was crazy hot too! Thank you all so much!!
+      We'll come back to Osaka again, having grown many times stronger than today!
+      Tomorrow is the Aichi show!!
+    image:
+    - HRYMZ-YbEAAF2vT
+    - HRYMZ-ma0AEpXIP
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+
+- postx:
+    id: 2095876971075191293
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-09-04
+    text: |-
+      “NEK! MAJOR DEBUT TOUR”
+      
+      初日！！大阪・BANGBOO！
+      
+      ソールドアウトで最初から最後まで
+      暖かい最高の時間でした。
+      ありがとうございました！
+      
+      みんな！だいすきだー！
+      明日は愛知でお待ちしてます！
+    translation: |-
+      “NEK! MAJOR DEBUT TOUR”
+      
+      First day!! Osaka・BANGBOO!
+      
+      With a sold-out crowd, from start to finish
+      it was the warmest, best time ever.
+      Thank you so much!
+      
+      Everyone! I love you all!
+      See you tomorrow in Aichi!
+    image:
+    - HRYM_Nkb0AAPMtA
+    - HRYM_NsakAAq4_U
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+
+- postx:
+    id: 2095877890147778582
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-09-04
+    text: |-
+      “NEK! MAJOR DEBUT TOUR“
+      @ 大阪・BANGBOO
+      
+      ツアー初日ありがとうございました！
+      改めてソールドもありがとう🥹
+      私なりに幸せな空間が作れるように全力尽くしました！
+      初披露だったEPの新曲ちゃん達どうだったかな！
+      楽しんでもらえてら嬉しい！！
+      明日の名古屋もよろしくだ！
+    translation: |-
+      “NEK! MAJOR DEBUT TOUR“
+      @ Osaka・BANGBOO
+      
+      Thank you so much for the tour's first day!
+      Thank you again for the sold-out show🥹
+      I gave it my all to create a happy space in my own way!
+      How did you like the new songs from the EP that we performed for the first time!
+      I hope you enjoyed them!!
+      Looking forward to tomorrow in Nagoya too!
+    image:
+    - HRYN1E8bgAAt7BV
+    - HRYN1EzboAAsoLq
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+
+- postx:
+    id: 2095880167759716624
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-09-04
+    text: |-
+      ツアー初日大阪！🐙
+      ありがとうございました！
+      初日からソールドアウトできて最高のスタートを切れました！！
+      最初から最後までみんなの笑顔が輝いていてとっっても幸せな時間でした…！😌💛
+      新曲も初出しSEもいかがでしたか…！
+      愛知、東京も楽しもうねー！！
+    translation: |-
+      Tour first day, Osaka!🐙
+      Thank you so much!
+      Being able to sell out from day one made for the best possible start!!
+      Everyone's smiles were shining from start to finish, making it such a deeply happy time...!😌💛
+      How did you like the new songs and the first-ever reveal of the intro SE...!?
+      Let's have a blast in Aichi and Tokyo too!!
+    image:
+    - HRYP4aMbYAAGZYc
+    - HRYP4aOb0AAC5QI
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+
+- postx:
+    id: 2095881581416386617
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-04
+    text: |-
+      NEK! MAJOR DEBUT TOUR
+      大阪・BANGBOO
+      
+      THANK YOU SOLD OUT💥
+      
+      東名阪ツアー初日
+      ありがとうございました🫶✨
+      
+      NEXT ▶︎ 9/5 愛知・RAD SEVEN
+      ご来場お待ちしております✔️
+      
+      https://neki.bitfan.id/schedules/105983
+      
+      Photo by @shohnophoto
+      
+      #NEKI
+    translation: |-
+      NEK! MAJOR DEBUT TOUR
+      Osaka・BANGBOO
+      
+      THANK YOU SOLD OUT💥
+      
+      First day of the Tomeihan tour
+      Thank you so much🫶✨
+      
+      NEXT ▶︎ 9/5 Aichi・RAD SEVEN
+      We look forward to your visit✔️
+      
+      https://neki.bitfan.id/schedules/105983
+      
+      Photo by @shohnophoto
+      
+      #NEKI
+    image:
+    - HRYRLslacAAz_CG
+    - HRYRLspaQAASR_Q
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+    reference:
+    - postximage:
+        post: 2095877890147778582
+        image: HRYN1E8bgAAt7BV
+
 - postximage:
     post: 2095481966527492421
     id: HRSlvQ2bcAAsP25
@@ -65,4 +381,139 @@
     - tour: majordebuttour
     part-of:
       postx: 2095481966527492421
+
+- postximage:
+    post: 2095876327522128149
+    id: HRYMZ-YbEAAF2vT
+    index: 2
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095876327522128149
+
+- postximage:
+    post: 2095876327522128149
+    id: HRYMZ-ma0AEpXIP
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095876327522128149
+
+- postximage:
+    post: 2095876971075191293
+    id: HRYM_Nkb0AAPMtA
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095876971075191293
+
+- postximage:
+    post: 2095876971075191293
+    id: HRYM_NsakAAq4_U
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095876971075191293
+
+- postximage:
+    post: 2095877890147778582
+    id: HRYN1E8bgAAt7BV
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095877890147778582
+
+- postximage:
+    post: 2095877890147778582
+    id: HRYN1EzboAAsoLq
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095877890147778582
+
+- postximage:
+    post: 2095880167759716624
+    id: HRYP4aMbYAAGZYc
+    index: 2
+    label: On stage
+    info: Hika, Natsu
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095880167759716624
+
+- postximage:
+    post: 2095880167759716624
+    id: HRYP4aOb0AAC5QI
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095880167759716624
+
+- postximage:
+    post: 2095881581416386617
+    id: HRYRLslacAAz_CG
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095881581416386617
+
+- postximage:
+    post: 2095881581416386617
+    id: HRYRLspaQAASR_Q
+    index: 3
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postx: 2095881581416386617
+
+- update:
+    show:
+      year: 2026
+      id: debuttourosaka
+    date: 2026-09-04
+    text:
+    - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
 

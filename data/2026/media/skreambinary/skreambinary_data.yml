@@ -341,6 +341,32 @@
         domain: skream.jp
         id: 2026.09.neki
 
+- postx:
+    id: 2095695846188933122
+    account: skream_japan
+    label: Giveaway
+    published-date: 2026-09-04
+    text: |-
+      【フォロー＆RPで応募】
+      NEK!メンバー全員直筆サイン色紙プレゼント。
+      "「ライヴ・バンド」が最高の褒め言葉"――培ってきた"スラングロック"の進化と多様な表情、新境地切り拓くメジャー1st EP『B!NARY』に迫ったインタビュー公開中
+      【9/16まで何度でも応募可】
+      #NEKI 
+      https://skream.jp/news/2026/09/neki_interview.php
+    translation: |-
+      【Apply by Following & Reposting】
+      Autographed colored paper signed by all NEK! members giveaway.
+      "Being called a 'live band' is the highest compliment"――The evolution and varied expressions of their cultivated "slang rock", an interview exploring their groundbreaking Major 1st EP "B!NARY" is now live
+      【Entries welcome multiple times until 9/16】
+      #NEKI 
+      https://skream.jp/news/2026/09/neki_interview.php
+    image:
+    - HRVoOSDakAAXFkW
+    part-of:
+      media:
+        year: 2026
+        id: skreambinary
+
 - postximage:
     post: 2095089357342593036
     id: HRNAqkja0AArW9d
@@ -349,6 +375,18 @@
     local-copy: true
     part-of:
       postx: 2095089357342593036
+
+- postximage:
+    post: 2095695846188933122
+    id: HRVoOSDakAAXFkW
+    index: 1
+    label: Giveaway
+    context:
+    - media:
+        year: 2026
+        id: skreambinary
+    part-of:
+      postx: 2095695846188933122
 
 - update:
     media:

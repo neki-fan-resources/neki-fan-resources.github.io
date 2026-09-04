@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: joqrreco
+    date: 2026-09-04
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: joqrreco
+
+- webimage:
+    domain: joqr.co.jp
+    page: reco
+    id: flyer
+    label: Flyer
+    published-date: 2026-09-04
+    url: 'https://program-static.cf.radiko.jp/k50nujlwya.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: joqr.co.jp
+        id: reco
+
+- webpage:
+    domain: joqr.co.jp
+    id: reco
+    label: Show page
+    published-date: 2026-09-04
+    url: 'https://joqr.co.jp/qr/program/reco/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: joqrreco
+

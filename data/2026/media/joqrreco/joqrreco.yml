@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: joqrreco
+  cover-image:
+    webimage:
+      domain: joqr.co.jp
+      page: reco
+      id: flyer
+  radio: 文化放送
+  show: レコメン！
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-09-10
+  host: 吉田仁人 (Yoshida Jinto)
+  webpage: 'https://joqr.co.jp/qr/program/reco/'
+  part-of:
+    group:
+      id: media
+      group: 2026

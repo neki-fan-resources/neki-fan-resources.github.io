@@ -1,3 +1,138 @@
+- display:
+    show:
+      year: 2026
+      id: debuttournagoya
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2096219533237420505
+                    image: HRdEjXba4AAAH8R
+                - postximage:
+                    post: 2096219533237420505
+                    image: HRdEjXZbcAA-VZ8
+                - postinstagramimage:
+                    post: Dc6ArSREhbw
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096212406787883057
+                    image: HRc-AfdbEAEDcgn
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096211901680349459
+                    image: HRc9lO6aEAA0P47
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096210047873548567
+                    image: HRc76zFa0AA-AYU
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096209645975298443
+                    image: HRc7jYcakAAyeiV
+                - postximage:
+                    post: 2096209645975298443
+                    image: HRc7jYmb0AAm3rd
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096209645975298443
+                    image: HRc7jYaacAARPhy
+                - postximage:
+                    post: 2096219533237420505
+                    image: HRdEjXRaMAA3RsL
+                - postximage:
+                    post: 2096212406787883057
+                    image: HRc-AfgakAAbNYI
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096209645975298443
+                    image: HRc7jYfaAAADZst
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+
+- postinstagram:
+    id: Dc6ArSREhbw
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-05
+    text: |-
+      NEK! MAJOR DEBUT TOUR
+      愛知・RAD SEVEN
+      
+      THANK YOU SOLD OUT🔥
+      ご来場ありがとうございました！
+      
+      NEXT FINAL▶︎▶︎
+      9/23 東京・duo MUSIC EXCHANGE
+      
+      ファイナル公演でお待ちしております🗯️⚡️
+      
+      https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      Photo by @__kpwcam
+      
+      #NEKI
+    translation: |-
+      NEK! MAJOR DEBUT TOUR
+      Aichi・RAD SEVEN
+      
+      THANK YOU SOLD OUT🔥
+      Thank you so much for coming!
+      
+      NEXT FINAL▶︎▶︎
+      9/23 Tokyo・duo MUSIC EXCHANGE
+      
+      We look forward to seeing you at the final show🗯️⚡️
+      
+      https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      Photo by @__kpwcam
+      
+      #NEKI
+    image:
+    - 4
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+    reference:
+    - postximage:
+        post: 2096219533237420505
+        image: HRdEjXba4AAAH8R
+    - postximage:
+        post: 2096219533237420505
+        image: HRdEjXRaMAA3RsL
+    - postximage:
+        post: 2096219533237420505
+        image: HRdEjXZbcAA-VZ8
+
+- postinstagramimage:
+    post: Dc6ArSREhbw
+    id: 4
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postinstagram: Dc6ArSREhbw
+
 - postx:
     id: 2071894360917254502
     account: nekiband_jp
@@ -36,6 +171,186 @@
         year: 2026
         id: debuttournagoya
 
+- postx:
+    id: 2096209645975298443
+    account: coco_102
+    label: Thank you
+    published-date: 2026-09-05
+    text: |-
+      東名阪ツアー愛知公演ありがとうございました！🩵
+      めちゃめちゃアツくて、最高に楽しかったです！
+      MCでお立ち台に立ったときに後ろまで皆の顔がよく見えて、こんなにたくさんの方がライブを楽しんでくれているんだ！と嬉しくなりました☺️
+      東名阪ツアー残すは東京！気合い入れていきます！！
+    translation: |-
+      Thank you so much for the Tomeihan tour Aichi show!🩵
+      It was crazy hot, and insanely fun!
+      When I stood on the riser during the MC, I could see everyone's faces clearly all the way to the back, and it made me so happy to see so many people enjoying our live show!☺️
+      All that's left of the Tomeihan tour is Tokyo! We're gonna give it our all!!
+    image:
+    - HRc7jYaacAARPhy
+    - HRc7jYcakAAyeiV
+    - HRc7jYfaAAADZst
+    - HRc7jYmb0AAm3rd
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+
+- postx:
+    id: 2096210047873548567
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-09-05
+    text: |-
+      “NEK! MAJOR DEBUT TOUR”
+      
+      東名阪ツアー2日目
+      愛知もソールドアウトありがとう。
+      
+      私たちが何があってもぜってぇーに！
+      ライブでみんなを笑顔にさせて帰るから
+      また、大阪と愛知、この場所に戻ってくる
+      
+      明日はインストアイベント
+      よろしくお願いします！
+    translation: |-
+      “NEK! MAJOR DEBUT TOUR”
+      
+      Day 2 of the Tomeihan tour
+      Thank you for selling out Aichi too.
+      
+      No matter what happens, we absolutely, definitely will!
+      make everyone leave the live show with a smile, so
+      we will return to this place, to Osaka and Aichi again
+      
+      Tomorrow is the in-store event
+      Looking forward to seeing you!
+    image:
+    - HRc76zFa0AA-AYU
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+
+- postx:
+    id: 2096211901680349459
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-09-05
+    text: |-
+      東名阪ツアー！　
+      2日目愛知！
+      ありがとうございました！！
+      みんなの声にたっくさんパワーをもらったよぉぉ！楽しすぎたっっ！
+      アッチアチの空間をありがとう！❤️‍🔥❤️‍🔥
+      また愛知に戻ってこられるよう頑張ります💪🏻
+      では！ファイナルの東京でお待ちしております！（明日はインストアイベントもあります！）
+    translation: |-
+      Tomeihan tour! 
+      Day 2, Aichi!
+      Thank you so much!!
+      Everyone's voices gave me soooo much power! It was way too much fun!!
+      Thank you for the super blazing-hot space!❤️‍🔥❤️‍🔥
+      We'll do our best so we can return to Aichi again💪🏻
+      Well then! We'll be waiting for you at the tour final in Tokyo! (There's also an in-store event tomorrow!)
+    image:
+    - HRc9lO6aEAA0P47
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+    reference:
+    - postximage:
+        post: 2096209645975298443
+        image: HRc7jYaacAARPhy
+
+- postx:
+    id: 2096212406787883057
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-09-05
+    text: |-
+      “NEK! MAJOR DEBUT TOUR”
+      @ 愛知・RAD SEVEN
+      
+      ツアー2日目名古屋ありがとーーー！！！
+      ソールドもありがとだよ！！
+      みんなの熱気が今日もすごくて負けないように頑張りました👊🏻
+      今回も幸せとどれられたかなーー。
+      
+      また明日インストで会える人はそこで！
+      ツアーは次ファイナルでお会いしましょっ！！
+    translation: |-
+      “NEK! MAJOR DEBUT TOUR”
+      @ Aichi・RAD SEVEN
+      
+      Thank you so muuuch for tour day 2 Nagoyaーーー!!!
+      Thank you for the sold-out show too!!
+      Everyone's heat was amazing today too, so I worked hard not to be outdone👊🏻
+      I wonder if I was able to deliver happiness this time tooーー.
+      
+      For those I can see tomorrow at the in-store, see you there!
+      As for the tour, let's meet next at the final!!
+    image:
+    - HRc-AfdbEAEDcgn
+    - HRc-AfgakAAbNYI
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+
+- postx:
+    id: 2096219533237420505
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-05
+    text: |-
+      NEK! MAJOR DEBUT TOUR
+      愛知・RAD SEVEN
+      
+      THANK YOU SOLD OUT🔥
+      ご来場ありがとうございました！
+      
+      NEXT FINAL▶︎▶︎
+      9/23 東京・duo MUSIC EXCHANGE
+      
+      ファイナル公演でお待ちしております🗯️⚡️
+      
+      https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      Photo by 
+      @_kpwcam
+      
+      
+      #NEKI
+    translation: |-
+      NEK! MAJOR DEBUT TOUR
+      Aichi・RAD SEVEN
+      
+      THANK YOU SOLD OUT🔥
+      Thank you so much for coming!
+      
+      NEXT FINAL▶︎▶︎
+      9/23 Tokyo・duo MUSIC EXCHANGE
+      
+      We look forward to seeing you at the final show🗯️⚡️
+      
+      https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      Photo by 
+      @_kpwcam
+      
+      
+      #NEKI
+    image:
+    - HRdEjXRaMAA3RsL
+    - HRdEjXZbcAA-VZ8
+    - HRdEjXba4AAAH8R
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+
 - postximage:
     post: 2071894360917254502
     id: HMDY7x9W8AAcvg4
@@ -47,4 +362,154 @@
         id: debuttournagoya
     part-of:
       postx: 2071894360917254502
+
+- postximage:
+    post: 2096209645975298443
+    id: HRc7jYaacAARPhy
+    index: 4
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096209645975298443
+
+- postximage:
+    post: 2096209645975298443
+    id: HRc7jYcakAAyeiV
+    index: 2
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096209645975298443
+
+- postximage:
+    post: 2096209645975298443
+    id: HRc7jYfaAAADZst
+    index: 1
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096209645975298443
+
+- postximage:
+    post: 2096209645975298443
+    id: HRc7jYmb0AAm3rd
+    index: 3
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096209645975298443
+
+- postximage:
+    post: 2096210047873548567
+    id: HRc76zFa0AA-AYU
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096210047873548567
+
+- postximage:
+    post: 2096211901680349459
+    id: HRc9lO6aEAA0P47
+    index: 2
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096211901680349459
+
+- postximage:
+    post: 2096212406787883057
+    id: HRc-AfdbEAEDcgn
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096212406787883057
+
+- postximage:
+    post: 2096212406787883057
+    id: HRc-AfgakAAbNYI
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096212406787883057
+
+- postximage:
+    post: 2096219533237420505
+    id: HRdEjXRaMAA3RsL
+    index: 3
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096219533237420505
+
+- postximage:
+    post: 2096219533237420505
+    id: HRdEjXZbcAA-VZ8
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096219533237420505
+
+- postximage:
+    post: 2096219533237420505
+    id: HRdEjXba4AAAH8R
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postx: 2096219533237420505
+
+- update:
+    show:
+      year: 2026
+      id: debuttournagoya
+    date: 2026-09-05
+    text:
+    - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
 

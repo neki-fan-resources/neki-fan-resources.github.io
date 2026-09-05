@@ -114,3 +114,73 @@
       - ol:
         - うまく笑える
 
+- postx:
+    id: 2096040623643967726
+    account: USEN_HITS
+    label: USEN HIT J-POP RECOMMEND SONG
+    published-date: 2026-09-05
+    text: |-
+      【9/5～のUSEN HIT J-POP注目曲】
+      気になるアーティストがいたらリポスト☺️
+      ───────────────────
+      WILD BLUE @wildblue_ykme
+      TAKARA @TAKARA_BRAVE
+      あいみょん @aimyonGtter @AimyongStaff
+      ASH DA HERO @ashdahero
+      INI @official__INI
+      絢香 @Ayaka_1218 @AyakaStaff
+      なにわ男子 @728_Storm
+      新しい学校のリーダーズ feat. アイナ・ジ・エンド @japanleaders @aina_THEEND
+      NEK! @nekiband_jp
+      FTISLAND @ftisland_japan
+      otsumami feat. Mikan @otsumami_staff @Title_Yuuka
+      Aぇ! group @Aegroupofficial
+      eill @_eill_ @eill_info
+      藤原大祐 @taiyu_fujiwara
+      友希 @iRis_w_yuki
+      離婚伝説 @rkndnsts
+      JUJU @JUJUsonymusic @JUJUinfo
+      BILLY BOO @BILLYBOO_offici
+      OddRe: @www_oddre_jp
+      TWS @TWS_PLEDIS_JP
+      M!LK (佐野勇斗 & 吉田仁人) @sanohayatodazo @Y_Jinto_1215
+    translation: |-
+      【Featured songs on USEN HIT J-POP starting 9/5】
+      Repost if there's an artist that catches your interest☺️
+      ───────────────────
+      WILD BLUE @wildblue_ykme
+      TAKARA @TAKARA_BRAVE
+      Aimyon @aimyonGtter @AimyongStaff
+      ASH DA HERO @ashdahero
+      INI @official__INI
+      Ayaka @Ayaka_1218 @AyakaStaff
+      Naniwa Danshi @728_Storm
+      ATARASHII GAKKO! feat. AiNA THE END @japanleaders @aina_THEEND
+      NEK! @nekiband_jp
+      FTISLAND @ftisland_japan
+      otsumami feat. Mikan @otsumami_staff @Title_Yuuka
+      Aぇ! group @Aegroupofficial
+      eill @_eill_ @eill_info
+      Taiyu Fujiwara @taiyu_fujiwara
+      Yuki @iRis_w_yuki
+      Rikon Densetsu @rkndnsts
+      JUJU @JUJUsonymusic @JUJUinfo
+      BILLY BOO @BILLYBOO_offici
+      OddRe: @www_oddre_jp
+      TWS @TWS_PLEDIS_JP
+      M!LK (Hayato Sano & Jinto Yoshida) @sanohayatodazo @Y_Jinto_1215
+    image:
+    - HRSIsczbkAAOySn
+    part-of:
+      song: mute
+
+- postximage:
+    post: 2096040623643967726
+    id: HRSIsczbkAAOySn
+    index: 1
+    label: USEN list
+    context:
+    - song: mute
+    part-of:
+      postx: 2096040623643967726
+

@@ -1,0 +1,390 @@
+- display:
+    show:
+      year: 2026
+      id: binarytowernagoya
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096480943766982765
+                    image: HRgyS3ybMAAB59D
+                - postximage:
+                    post: 2096469583712702778
+                    image: HRgn92pbQAAodRP
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096475352503918816
+                    image: HRgtN0obcAAwdOw
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096472750173151372
+                    image: HRgq2Dfa4AADdII
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096480943766982765
+                    image: HRgyS3xaUAAQBHH
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096462847215820887
+                    image: HRgh2CYboAA0iu3
+                - postximage:
+                    post: 2096462847215820887
+                    image: HRgh2CXaIAAXD28
+    part-of:
+      show:
+        year: 2026
+        id: binarytowernagoya
+
+- postx:
+    id: 2096414796216471772
+    account: TOWER_NagoyaPrc
+    label: Today
+    published-date: 2026-09-06
+    text: |-
+      【本日のイベント】
+      
+      12:00～
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      
+      ■内容
+      アコースティックライブ＋CDサイン会
+      🔗https://tower.jp/store/event/2026/09/015005
+      
+      ご予約者様以外の店頭購入分での
+      「イベント入場引換券」のお渡しは終了しています🙇‍♂️
+      
+      ご来店お待ちしています✨
+      #NEKI
+    translation: |-
+      【Today's Event】
+      
+      From 12:00
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event
+      
+      ■ Details
+      Acoustic live show + CD autograph session
+      🔗https://tower.jp/store/event/2026/09/015005
+      
+      Distribution of "Event Admission Exchange Tickets"
+      for in-store purchases by non-reserved customers has ended🙇‍♂️
+      
+      We look forward to your visit✨
+      #NEKI
+    image:
+    - HRf2GeracAAbrnd
+    part-of:
+      show:
+        year: 2026
+        id: binarytowernagoya
+
+- postx:
+    id: 2096462847215820887
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-09-06
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      @ タワーレコード名古屋パルコ店
+      
+      初の名古屋インストありがとー！！
+      東京だけでなく名阪とインストできて幸せ者でした。
+      リリイベ次は9/13渋谷タワレコさんで！
+      ツアーはファイナル9/23です🥹
+      まだまだ楽しんでこうね、ありがとう！！
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event
+      @ Tower Records Nagoya Parco
+      
+      Thank you so much for our first Nagoya in-store!!
+      I felt so lucky to be able to do in-stores not just in Tokyo, but in Nagoya and Osaka too.
+      Next release event is on 9/13 at Shibuya Tower Records!
+      The tour final is on 9/23🥹
+      Let's keep having fun, thank you so much!!
+    image:
+    - HRgh2CXaIAAXD28
+    - HRgh2CYboAA0iu3
+    part-of:
+      show:
+        year: 2026
+        id: binarytowernagoya
+
+- postx:
+    id: 2096469583712702778
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-06
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      
+      @ タワーレコード名古屋パルコ店
+      
+      ご来場ありがとうございました🫶
+      
+      ／
+      インストアラストは東京🗼
+      ＼
+      
+      ▶︎ 9/13(日)
+      タワーレコード渋谷店💿
+      
+      ぜひお越しください！
+      
+      https://neki.bitfan.id/schedules/118929?r=tl9b0
+      
+      #NEKI
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event
+      
+      @ Tower Records Nagoya Parco
+      
+      Thank you so much for coming🫶
+      
+      ／
+      The last in-store is Tokyo🗼
+      ＼
+      
+      ▶︎ 9/13(Sun)
+      Tower Records Shibuya💿
+      
+      Please definitely come by!
+      
+      https://neki.bitfan.id/schedules/118929?r=tl9b0
+      
+      #NEKI
+    image:
+    - HRgn92pbQAAodRP
+    part-of:
+      show:
+        year: 2026
+        id: binarytowernagoya
+
+- postx:
+    id: 2096472750173151372
+    account: coco_102
+    label: Thank you
+    published-date: 2026-09-06
+    text: |-
+      タワーレコード名古屋パルコ店インストアイベント
+      愛知初のアコースティックミニライブ！
+      観に来てくださり本当にありがとうございました🙂‍↕️💛
+      サイン会では、カホンに興味を持ってくれた方がたくさんいるとわかってとても嬉しくなりました！
+      これからもB!NARYをよろしくお願いします！
+    translation: |-
+      Tower Records Nagoya Parco in-store event
+      Our first acoustic mini live in Aichi!
+      Thank you so very much for coming to watch🙂‍↕️💛
+      During the autograph session, I was so happy to find out that a lot of people were interested in the cajón!
+      Please continue to give your love and support to B!NARY!
+    image:
+    - HRgq2Dfa4AADdII
+    part-of:
+      show:
+        year: 2026
+        id: binarytowernagoya
+    reference:
+    - postximage:
+        post: 2096469583712702778
+        image: HRgn92pbQAAodRP
+
+- postx:
+    id: 2096475352503918816
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-09-06
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント𖤐 ̖́-
+      
+      タワーレコード名古屋パルコ店
+      ありがとうございました！
+      
+      皆さんと沢山お話しできて
+      嬉しかったです！
+      
+      ラストは東京！
+      9/13(日)タワーレコード渋谷店にて
+      お待ちしております！
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event𖤐 ̖́-
+      
+      Tower Records Nagoya Parco
+      Thank you very much!
+      
+      Being able to talk a lot with everyone
+      made me so happy!
+      
+      The last one is Tokyo!
+      On 9/13(Sun) at Tower Records Shibuya
+      We will be waiting for you!
+    image:
+    - HRgtN0obcAAwdOw
+    part-of:
+      show:
+        year: 2026
+        id: binarytowernagoya
+
+- postx:
+    id: 2096480943766982765
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-09-06
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      @ タワーレコード名古屋パルコ店
+      
+      ありがとうございました！💛
+      大阪に続いて愛知も！みんなの愛が伝わってきてとっても嬉しかったー！
+      たくさんお話しできて幸せなな時間でした🫶🏻
+      楽しかったねー！
+      
+      次は東京で待ってるよー！
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemorative In-Store Event
+      @ Tower Records Nagoya Parco
+      
+      Thank you so much!💛
+      Following Osaka, in Aichi too! I could feel everyone's love and it made me so happy!
+      It was such a happy time being able to chat a lot🫶🏻
+      That was so much fun!
+      
+      I'll be waiting for you next in Tokyo!
+    image:
+    - HRgyS3xaUAAQBHH
+    - HRgyS3ybMAAB59D
+    part-of:
+      show:
+        year: 2026
+        id: binarytowernagoya
+
+- postximage:
+    post: 2096414796216471772
+    id: HRf2GeracAAbrnd
+    index: 1
+    label: In-store display
+    info: Tower Records Nagoya
+    context:
+    - album: binary
+    part-of:
+      postx: 2096414796216471772
+
+- postximage:
+    post: 2096462847215820887
+    id: HRgh2CXaIAAXD28
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: binarytowernagoya
+    part-of:
+      postx: 2096462847215820887
+
+- postximage:
+    post: 2096462847215820887
+    id: HRgh2CYboAA0iu3
+    index: 2
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: binarytowernagoya
+    part-of:
+      postx: 2096462847215820887
+
+- postximage:
+    post: 2096469583712702778
+    id: HRgn92pbQAAodRP
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: binarytowernagoya
+    part-of:
+      postx: 2096469583712702778
+
+- postximage:
+    post: 2096472750173151372
+    id: HRgq2Dfa4AADdII
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: binarytowernagoya
+    part-of:
+      postx: 2096472750173151372
+
+- postximage:
+    post: 2096475352503918816
+    id: HRgtN0obcAAwdOw
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: binarytowernagoya
+    part-of:
+      postx: 2096475352503918816
+
+- postximage:
+    post: 2096480943766982765
+    id: HRgyS3xaUAAQBHH
+    index: 1
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: binarytowernagoya
+    part-of:
+      postx: 2096480943766982765
+
+- postximage:
+    post: 2096480943766982765
+    id: HRgyS3ybMAAB59D
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: binarytowernagoya
+    part-of:
+      postx: 2096480943766982765
+
+- update:
+    show:
+      year: 2026
+      id: binarytowernagoya
+    date: 2026-09-06
+    text:
+    - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: binarytowernagoya
+

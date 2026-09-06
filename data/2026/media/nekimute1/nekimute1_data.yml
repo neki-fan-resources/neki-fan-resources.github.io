@@ -1,0 +1,49 @@
+- postx:
+    id: 2096507188206514399
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-09-06
+    text: |-
+      【RADIO📻】
+      
+      本日9/6(日)19:00~
+      FM FUJI「NEK!のMUTEしないラジオ」
+      特番放送🎉
+      
+      ぜひお聴きください🎧
+      
+      https://fmfuji.jp/topics/1541/
+      
+      #NEKI #fmfuji
+    translation: |-
+      【RADIO📻】
+      
+      Today 9/6 (Sun) 19:00~
+      FM FUJI "NEK!'s UnMUTEd Radio"
+      Special program broadcast🎉
+      
+      Please definitely give it a listen🎧
+      
+      https://fmfuji.jp/topics/1541/
+      
+      #NEKI #fmfuji
+    image:
+    - HRhKKigb0AIUIJi
+    part-of:
+      media:
+        year: 2026
+        id: nekimute1
+
+- postximage:
+    post: 2096507188206514399
+    id: HRhKKigb0AIUIJi
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: nekimute1
+    part-of:
+      postx: 2096507188206514399
+

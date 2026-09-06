@@ -80,12 +80,21 @@
             - multimediasubsection:
                 label: Tower Records Shibuya
                 multimedia:
+                - postxvideo:
+                    post: 2096533348734882022
+                    video: 1
                 - postximage:
                     post: 2095383421556261278
                     image: HRRMHCOboAAuPh_
                 - postximage:
                     post: 2095062078390415455
                     image: HRMmiv4a4AASZeK
+            - multimediasubsection:
+                label: Tower Records Osaka Umeda
+                multimedia:
+                - postximage:
+                    post: 2095426457636086093
+                    image: HRRzMmubcAAuj-I
     - basicblock:
         id: display
         label: In-store display
@@ -116,6 +125,9 @@
                     image: HRGeOxfaUAAP_Xo
             - multimediasubsection:
                 multimedia:
+                - postximage:
+                    post: 2096414796216471772
+                    image: HRf2GeracAAbrnd
                 - postximage:
                     post: 2094637294062055663
                     image: HRGkJOXbEAA1ijv
@@ -894,6 +906,20 @@
     part-of:
       postx: 2095062078390415455
 
+- postx:
+    id: 2096533348734882022
+    account: nekiband_jp
+    label: Large panel until tomorrow
+    published-date: 2026-09-06
+    text: |-
+      ⚠️⚠️大型パネルネキ明日まで⚠️⚠️
+    translation: |-
+      ⚠️⚠️ Large panel NEK! until tomorrow ⚠️⚠️
+    video:
+    - 1
+    part-of:
+      album: binary
+
 - postximage:
     post: 2075867719455678491
     id: HM72rarbgAAlomF
@@ -1194,6 +1220,17 @@
     todo: Add to the new song
     part-of:
       postx: 2094382237148176617
+
+- postxvideo:
+    post: 2096533348734882022
+    id: 1
+    label: Signing the big panel
+    info: Tower Records Shibuya
+    cover: 2096533261187186689/img/q5Z8yylUomCrC9eW.jpg
+    context:
+    - album: binary
+    part-of:
+      postx: 2096533348734882022
 
 - update:
     album: binary

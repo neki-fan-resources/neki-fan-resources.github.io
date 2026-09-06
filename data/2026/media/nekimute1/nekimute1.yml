@@ -3,8 +3,8 @@ mediaaudio:
   id: nekimute1
   cover-image:
     postximage:
-      post: 2064362227986272527
-      image: HKYNUmibYAAEm62
+      post: 2096507188206514399
+      image: HRhKKigb0AIUIJi
   radio: FM FUJI
   show: NEK!のMUTEしないラジオ
   designation: radio show
@@ -14,6 +14,8 @@ mediaaudio:
   - Kanade
   - Cocoro
   published-date: 2026-09-06
+  webpage: 'https://www.fmfuji.jp/topics/1541/'
+  todo: get image from show page
   part-of:
     group:
       id: media

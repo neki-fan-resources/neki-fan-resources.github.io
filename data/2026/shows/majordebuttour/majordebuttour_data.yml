@@ -32,6 +32,20 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
+                    post: 2096040762798690789
+                    image: HRah9IAbEAA5HAW
+                - postinstagramimage:
+                    post: Dc_OdFbkm-V
+                    image: 2
+                - postinstagramimage:
+                    post: Dc_OdFbkm-V
+                    image: 3
+                - postinstagramimage:
+                    post: Dc_OdFbkm-V
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
                     post: 2093988307353080191
                     image: HQ9Wx8PbMAANUHj
                 - postximage:
@@ -96,6 +110,25 @@
       tour: majordebuttour
 
 - postinstagram:
+    id: Dc_OdFbkm-V
+    account: natsu08_guitar
+    label: Tour merch
+    published-date: 2026-09-07
+    text: |-
+      .
+      ツアーグッズ、ぜひゲットして欲しいなぁー！！💚💚
+      #NEKI
+    translation: |-
+      I really want you to get the tour merch!!💚💚
+      #NEKI
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      tour: majordebuttour
+
+- postinstagram:
     id: DcqMdI3EYuN
     account: nekiband_jp
     label: Merch info
@@ -156,6 +189,36 @@
     - postximage:
         post: 2078313821127512416
         image: HNeUfX9bEAAmHMs
+
+- postinstagramimage:
+    post: Dc_OdFbkm-V
+    id: 1
+    label: Towel
+    info: Natsu
+    context:
+    - tour: majordebuttour
+    part-of:
+      postinstagram: Dc_OdFbkm-V
+
+- postinstagramimage:
+    post: Dc_OdFbkm-V
+    id: 2
+    label: Towel
+    info: Hika, Natsu
+    context:
+    - tour: majordebuttour
+    part-of:
+      postinstagram: Dc_OdFbkm-V
+
+- postinstagramimage:
+    post: Dc_OdFbkm-V
+    id: 3
+    label: Towel
+    info: Natsu
+    context:
+    - tour: majordebuttour
+    part-of:
+      postinstagram: Dc_OdFbkm-V
 
 - postinstagramimage:
     post: DcqMdI3EYuN

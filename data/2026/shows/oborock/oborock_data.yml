@@ -92,6 +92,66 @@
         year: 2026
         id: oborock
 
+- postx:
+    id: 2097248587021537779
+    account: info_oborock
+    label: Video comment
+    published-date: 2026-09-08
+    text: |-
+      ＼🌟コメント到着🌟／
+      
+      #NEK! さんより
+      コメントをいただきました✨
+      9/12(土) 角鹿の舞台(敦賀市民文化センター) 11:25～出演予定‼️
+      
+      2024年2月に結成されたガールズロックバンド🎸
+      力強く爽快な楽曲と、等身大の言葉で綴られる歌詞が魅力✨
+      ロックをベースとしながら、ネット発の印象的な歌詞を特徴とする彼女達の愛称は“スラングロックバンド"💖
+      今後のロックシーンを担うNEK!の勢いに注目です！
+      
+      🌊おぼろっく2026
+      ～TSURUGA MUSIC FESTIVAL～🌊
+      🗓2026年9月12日(土)-13日(日)
+      📍福井県敦賀市金ヶ崎エリア
+      
+      オフィシャルチケット受付中✨
+      🔽お申込みはコチラ！🎟️
+      https://oborock.com
+      
+      #おぼろっく
+      #福井県
+      #敦賀市
+    translation: |-
+      ＼🌟 Comment Arrival 🌟／
+      
+      From #NEK!
+      We received a video comment✨
+      9/12 (Sat) Tsunuga Stage (Tsuruga Civic Cultural Center) scheduled to perform from 11:25‼️
+      
+      A girls rock band formed in February 2024🎸
+      Their charm lies in powerful, exhilarating tracks and lyrics written in relatable, down-to-earth words✨
+      Based in rock and characterized by striking, internet-born lyrics, they are affectionately called the "Slang Rock Band"💖
+      Keep your eyes on the momentum of NEK!, who are set to carry the future rock scene!
+      
+      🌊 Oborock 2026
+      ～TSURUGA MUSIC FESTIVAL～🌊
+      🗓 September 12 (Sat) – 13 (Sun), 2026
+      📍 Kanegasaki Area, Tsuruga City, Fukui Prefecture
+      
+      Official ticket applications now open✨
+      🔽 Apply here!🎟️
+      https://oborock.com
+      
+      #Oborock
+      #FukuiPrefecture
+      #TsurugaCity
+    video:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
 - postximage:
     post: 2077951675315429559
     id: HNZGEElb0AA9RTz
@@ -143,6 +203,18 @@
         id: oborock
     part-of:
       postx: 2085561583149965472
+
+- postxvideo:
+    post: 2097248587021537779
+    id: 1
+    label: Video comment
+    cover: 2097228872723111937/img/xUciMh3ku6HvAMuL.jpg
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2097248587021537779
 
 - update:
     show:

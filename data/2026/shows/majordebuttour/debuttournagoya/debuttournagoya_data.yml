@@ -37,6 +37,9 @@
                 - postximage:
                     post: 2096210047873548567
                     image: HRc76zFa0AA-AYU
+                - postinstagramimage:
+                    post: DdBHCXbJksm
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -122,6 +125,20 @@
         post: 2096219533237420505
         image: HRdEjXZbcAA-VZ8
 
+- postinstagram:
+    id: DdBHCXbJksm
+    account: 46_hikaa
+    label: Photo
+    published-date: 2026-09-08
+    text: |-
+      Photo by (@__kpwcam )
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+
 - postinstagramimage:
     post: Dc6ArSREhbw
     id: 4
@@ -132,6 +149,18 @@
         id: debuttournagoya
     part-of:
       postinstagram: Dc6ArSREhbw
+
+- postinstagramimage:
+    post: DdBHCXbJksm
+    id: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postinstagram: DdBHCXbJksm
 
 - postx:
     id: 2071894360917254502

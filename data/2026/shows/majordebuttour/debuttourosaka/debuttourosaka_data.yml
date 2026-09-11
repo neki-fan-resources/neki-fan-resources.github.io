@@ -11,6 +11,11 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2097696600022007924
+                    video: 1
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postinstagramimage:
@@ -371,6 +376,32 @@
         post: 2095877890147778582
         image: HRYN1E8bgAAt7BV
 
+- postx:
+    id: 2097696600022007924
+    account: coco_102
+    label: MUTE on stage
+    published-date: 2026-09-09
+    text: |-
+      MUTE痺れる⚡️⚡️⚡️⚡️
+      ⁡
+      みんなの声と拳にパワーをもらうこの空間が大好き！
+      大阪も愛知も最高でした！！本当にありがとう🙂‍↕️🙏🏻
+      
+      #NEKI
+    translation: |-
+      MUTE is electrifying⚡️⚡️⚡️⚡️
+      ⁡
+      I love this space where I get power from everyone's voices and fists!
+      Both Osaka and Aichi were the best!! Thank you so much🙂‍↕️🙏🏻
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2097696600022007924
+        video: 1
+
 - postximage:
     post: 2095481966527492421
     id: HRSlvQ2bcAAsP25
@@ -504,6 +535,22 @@
         id: debuttourosaka
     part-of:
       postx: 2095881581416386617
+
+- postxvideo:
+    post: 2097696600022007924
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2097696520753815553/img/HMHDM3gaOaIUkiji.jpg
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    - song: mute
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
 
 - update:
     show:

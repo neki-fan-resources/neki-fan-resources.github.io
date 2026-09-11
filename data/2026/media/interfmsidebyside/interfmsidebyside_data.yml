@@ -1,0 +1,170 @@
+- display:
+    media:
+      year: 2026
+      id: interfmsidebyside
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Images
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2097993438327390470
+                    image: HR2R2c5bEAAkc-y
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2097999271098548448
+                    image: HR2XEgab0AAxfa2
+    part-of:
+      media:
+        year: 2026
+        id: interfmsidebyside
+
+- postx:
+    id: 2097993438327390470
+    account: sbs_897
+    label: Now
+    published-date: 2026-09-10
+    text: |-
+      この時間はゲストに
+      NEK!(@nekiband_jp)から
+      VoGt. Hikaさん(@46_hikaa)、Gt. Natsu さん(@natsu08_guitar)
+      をお迎えしています！！
+      
+      #sbs897
+      #NEKI
+      
+      O.A.は #radiko でも！
+      
+      https://radiko.jp/share/?sid=INT&t=20260910190000
+    translation: |-
+      During this hour, as our guests
+      from NEK! (@nekiband_jp)
+      we are welcoming Vo/Gt Hika-san (@46_hikaa) and Gt Natsu-san (@natsu08_guitar)!!
+      
+      #sbs897
+      #NEKI
+      
+      Listen to the broadcast on #radiko as well!
+      
+      https://radiko.jp/share/?sid=INT&t=20260910190000
+    image:
+    - HR2R2c5bEAAkc-y
+    part-of:
+      media:
+        year: 2026
+        id: interfmsidebyside
+
+- postx:
+    id: 2097999271098548448
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-10
+    text: |-
+      interfm「side by side」
+      
+      番組ゲスト初出演！
+      ご視聴ありがとうございました📻
+      
+      ▼ Major 1st EP『B!NARY』
+      Streaming & Download
+      https://lnk.to/NEKI_BINARYTW
+      
+      ▼ NEK! MAJOR DEBUT TOUR
+      9/23 東京・duo MUSIC EXCHANGE
+      チケット受付中⚡️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #sbs897 #interfm
+    translation: |-
+      interfm "side by side"
+      
+      Our very first guest appearance on the show!
+      Thank you so much for listening📻
+      
+      ▼ Major 1st EP "B!NARY"
+      Streaming & Download
+      https://lnk.to/NEKI_BINARYTW
+      
+      ▼ NEK! MAJOR DEBUT TOUR
+      9/23 Tokyo・duo MUSIC EXCHANGE
+      Tickets available now⚡️
+      https://l-tike.com/nekiband/
+      
+      #NEKI #sbs897 #interfm
+    image:
+    - HR2XEgab0AAxfa2
+    part-of:
+      media:
+        year: 2026
+        id: interfmsidebyside
+
+- postximage:
+    post: 2097993438327390470
+    id: HR2R2c5bEAAkc-y
+    index: 1
+    label: In studio
+    info: Hika, Natsu, 西恵利香 (Erika Nishi)
+    context:
+    - media:
+        year: 2026
+        id: interfmsidebyside
+    part-of:
+      postx: 2097993438327390470
+
+- postximage:
+    post: 2097999271098548448
+    id: HR2XEgab0AAxfa2
+    index: 1
+    label: At the station
+    info: Natsu, Hika
+    context:
+    - media:
+        year: 2026
+        id: interfmsidebyside
+    part-of:
+      postx: 2097999271098548448
+
+- update:
+    media:
+      year: 2026
+      id: interfmsidebyside
+    date: 2026-09-11
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: interfmsidebyside
+
+- webimage:
+    domain: interfm.co.jp
+    page: sbs
+    id: flyer
+    label: Flyer
+    published-date: 2026-09-09
+    url: 'https://www.interfm.co.jp/gen/images/1500/36f9a48f7c85da14bf86c281c78740e242b9aa1c.webp'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: interfm.co.jp
+        id: sbs
+
+- webpage:
+    domain: interfm.co.jp
+    id: sbs
+    label: Show page
+    published-date: 2026-09-09
+    url: 'https://www.interfm.co.jp/sbs'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: interfmsidebyside
+

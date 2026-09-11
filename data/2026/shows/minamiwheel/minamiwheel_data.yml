@@ -78,6 +78,54 @@
         year: 2026
         id: minamiwheel
 
+- postx:
+    id: 2098000988204589359
+    account: nekiband_jp
+    label: Timetable
+    published-date: 2026-09-10
+    text: |-
+      【タイムテーブル解禁📣】
+      
+      Maxell presents
+      #FM802 MINAMI WHEEL 2026
+      @minamiwheel
+       
+      
+      ⏰10/10(土) 15:00~
+      📍VARON
+      
+      ▼チケットはこちら🎫
+      https://w.pia.jp/t/mw26-237/
+      
+      ▼オフィシャルサイト
+      https://minamiwheel.jp
+      
+      #NEKI #ミナホ
+    translation: |-
+      【Timetable revealed📣】
+      
+      Maxell presents
+      #FM802 MINAMI WHEEL 2026
+      @minamiwheel
+       
+      
+      ⏰10/10 (Sat) 15:00~
+      📍VARON
+      
+      ▼Tickets here🎫
+      https://w.pia.jp/t/mw26-237/
+      
+      ▼Official Website
+      https://minamiwheel.jp
+      
+      #NEKI #Minaho
+    image:
+    - HR2Yxuwa0AAMAjF
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
 - postximage:
     post: 2080216354033189136
     id: HN5k4_aacAAsPVc
@@ -114,6 +162,18 @@
         id: minamiwheel
     part-of:
       postx: 2080216459331174401
+
+- postximage:
+    post: 2098000988204589359
+    id: HR2Yxuwa0AAMAjF
+    index: 1
+    label: Timetable
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2098000988204589359
 
 - update:
     show:

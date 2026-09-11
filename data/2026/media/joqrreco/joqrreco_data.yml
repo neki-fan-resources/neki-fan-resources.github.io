@@ -1,3 +1,126 @@
+- display:
+    media:
+      year: 2026
+      id: joqrreco
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Images
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2098071104044794213
+                    image: HR3YjDgaIAArAqQ
+                - postximage:
+                    post: 2098065933118161360
+                    image: HR3T2A1aAAAAVXO
+    part-of:
+      media:
+        year: 2026
+        id: joqrreco
+
+- postx:
+    id: 2098065933118161360
+    account: reco_thursday
+    label: Coming up
+    published-date: 2026-09-10
+    text: |-
+      レコメン！ピックアップ！
+      
+      この後お聴き逃しなく✨✨
+      
+      #レコメン
+    translation: |-
+      recomen! Pick Up!
+      
+      Don't miss it coming up next✨✨
+      
+      #recomen
+    image:
+    - HR3T2A1aAAAAVXO
+    part-of:
+      media:
+        year: 2026
+        id: joqrreco
+
+- postx:
+    id: 2098071104044794213
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-10
+    text: |-
+      文化放送「レコメン！」
+      @reco_thursday
+       
+      
+      レコメン！ピックアップ！
+      出演させていただきました🌟
+      
+      ご視聴ありがとうございました📻
+      
+      ▼ 番組アーカイブはこちら
+      https://radiko.jp/share/?sid=QRR&t=20260911000000
+      
+      ▼ 9/23 東京・duo MUSIC EXCHANGE
+      NEK! MAJOR DEBUT TOUR FINAL 開催🔥
+      https://l-tike.com/nekiband/
+      
+      #NEKI #文化放送 #レコメン
+    translation: |-
+      Nippon Cultural Broadcasting "recomen!"
+      @reco_thursday
+       
+      
+      recomen! Pick Up!
+      Thank you for having us🌟
+      
+      Thank you so much for listening📻
+      
+      ▼ Program archive here
+      https://radiko.jp/share/?sid=QRR&t=20260911000000
+      
+      ▼ 9/23 Tokyo・duo MUSIC EXCHANGE
+      NEK! MAJOR DEBUT TOUR FINAL taking place🔥
+      https://l-tike.com/nekiband/
+      
+      #NEKI #NipponCulturalBroadcasting #recomen
+    image:
+    - HR3YjDgaIAArAqQ
+    part-of:
+      media:
+        year: 2026
+        id: joqrreco
+
+- postximage:
+    post: 2098065933118161360
+    id: HR3T2A1aAAAAVXO
+    index: 1
+    label: At the station
+    info: Hika, Natsu
+    context:
+    - media:
+        year: 2026
+        id: joqrreco
+    part-of:
+      postx: 2098065933118161360
+
+- postximage:
+    post: 2098071104044794213
+    id: HR3YjDgaIAArAqQ
+    index: 1
+    label: At the station
+    info: Hika, Natsu
+    context:
+    - media:
+        year: 2026
+        id: joqrreco
+    part-of:
+      postx: 2098071104044794213
+
 - update:
     media:
       year: 2026

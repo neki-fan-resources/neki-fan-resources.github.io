@@ -1,0 +1,11 @@
+update:
+  media:
+    year: 2026
+    id: barksbinary
+  date: 2026-09-11
+  text:
+  - Added the interview
+  part-of:
+    media:
+      year: 2026
+      id: barksbinary

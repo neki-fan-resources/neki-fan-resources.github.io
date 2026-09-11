@@ -116,12 +116,41 @@
     part-of:
       postx: 2089336945365397518
 
+- postx:
+    id: 2098245405582717130
+    account: brayme_official
+    label: Sold out
+    published-date: 2026-09-11
+    text: |-
+      10月6日(火)下北沢440(four forty)
+      Ignition!!! 〜Acoustic Two Man Show〜
+      
+      ＜出演＞
+      Hika(NEK!)
+      こたに(Bray me)
+      
+      SOLD OUT!!
+    translation: |-
+      10/6 (Tue) Shimokitazawa 440 (four forty)
+      Ignition!!! 〜Acoustic Two Man Show〜
+      
+      <Appearance>
+      Hika (NEK!)
+      Kotani (Bray me)
+      
+      SOLD OUT!!
+    image:
+    - HR53EgKakAEMKdF
+    part-of:
+      show:
+        year: 2026
+        id: ignitionacoustic2man
+
 - postximage:
     post: 2089336945365397518
     id: HP7Ds-rawAAuN-I
     index: 1
     label: Poster
-    local-copy: true
     context:
     - show:
         year: 2026
@@ -154,6 +183,19 @@
         id: ignitionbrayme
     part-of:
       postx: 2089337424283611349
+
+- postximage:
+    post: 2098245405582717130
+    id: HR53EgKakAEMKdF
+    index: 1
+    label: Poster sold out
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: ignitionacoustic2man
+    part-of:
+      postx: 2098245405582717130
 
 - update:
     show:

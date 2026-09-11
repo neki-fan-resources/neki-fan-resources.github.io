@@ -1,0 +1,26 @@
+mediaaudio:
+  year: 2026
+  id: interfmsidebyside
+  cover-image:
+    webimage:
+      domain: interfm.co.jp
+      page: sbs
+      id: flyer
+  radio: interfm
+  show: side by side
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-09-10
+  host: 西恵利香 (Erika Nishi)
+  program: 'https://www.interfm.co.jp/sbs'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  multimedia:
+    main:
+      postximage:
+        post: 2097993438327390470
+        image: HR2R2c5bEAAkc-y

@@ -1,0 +1,24 @@
+mediawritten:
+  year: 2026
+  id: barksbinary
+  cover-image:
+    webimage:
+      domain: barks.jp
+      page: 1070576
+      id: logo
+  publication: Barks
+  issue: B!NARY release
+  designation: Interview
+  member:
+  - Hika
+  - Natsu
+  - Kanade
+  - Cocoro
+  published-date: 2026-09-10
+  journalist: 沖さやこ (Sayako Oki)
+  article-page: 'https://barks.jp/news/1087723/'
+  todo: translate
+  part-of:
+    group:
+      id: media
+      group: 2026

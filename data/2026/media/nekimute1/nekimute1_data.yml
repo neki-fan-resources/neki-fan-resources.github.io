@@ -1,3 +1,37 @@
+- display:
+    media:
+      year: 2026
+      id: nekimute1
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  youtubevideo: tI7PuwRLqhw
+                lines:
+                - line:
+                  - text: For the release of the EP "B!NARY", NEK! has its own radio show !!!!<br>This is the first show of a 2-shows serie.
+                - line:
+                  - text: The first block starts with a self-description of the band and its member. Then, they speak about "B!NARY", their major debut EP.
+                - line:
+                  - text: In the second block, Natsu and Kanade participate to the "MUTE NEK!" corner. Natsu describes her passion for Shojo Mangas, and Kanade expresses her love for Pretty Cure!
+        - basicsection:
+            label: Images
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096556835939705293
+                    image: HRh3U4cawAAlEga
+    part-of:
+      media:
+        year: 2026
+        id: nekimute1
+
 - postx:
     id: 2096507188206514399
     account: nekiband_jp
@@ -100,4 +134,30 @@
         id: nekimute1
     part-of:
       postx: 2096556835939705293
+
+- update:
+    media:
+      year: 2026
+      id: nekimute1
+    date: 2026-09-11
+    text:
+    - Added English-subtitled version of the show
+    part-of:
+      media:
+        year: 2026
+        id: nekimute1
+
+- youtubevideo:
+    id: tI7PuwRLqhw
+    label: NEK!のMUTEしないラジオ
+    info: English-subtitled
+    published-date: 2026-09-11
+    context:
+    - media:
+        year: 2026
+        id: nekimute1
+    part-of:
+      media:
+        year: 2026
+        id: nekimute1
 

@@ -48,6 +48,22 @@
                 - postximage:
                     post: 2095472890074542384
                     image: HRSdQ1_aIAARxLp
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DdIXe53mWtU
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DdIXe53mWtU
+                    image: 2
+                - postinstagramimage:
+                    post: DdIXe53mWtU
+                    image: 1
     part-of:
       show:
         year: 2026
@@ -101,6 +117,22 @@
         year: 2026
         id: binarytowerumeda
 
+- postinstagram:
+    id: DdIXe53mWtU
+    account: 46_hikaa
+    label: Photos
+    published-date: 2026-09-11
+    text: |-
+      -
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: binarytowerumeda
+
 - postinstagramimage:
     post: Dc0tTMAkqx5
     id: 1
@@ -111,6 +143,40 @@
         id: binarytowerumeda
     part-of:
       postinstagram: Dc0tTMAkqx5
+
+- postinstagramimage:
+    post: DdIXe53mWtU
+    id: 1
+    label: Venue
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postinstagram: DdIXe53mWtU
+
+- postinstagramimage:
+    post: DdIXe53mWtU
+    id: 2
+    label: Venue
+    info: Kanade, Hika
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postinstagram: DdIXe53mWtU
+
+- postinstagramimage:
+    post: DdIXe53mWtU
+    id: 3
+    label: Stage
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postinstagram: DdIXe53mWtU
 
 - postinstagramvideo:
     post: Dc0tTMAkqx5

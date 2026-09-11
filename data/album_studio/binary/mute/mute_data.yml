@@ -1,6 +1,18 @@
 - display:
     song: mute
     blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Live, with original audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2097696600022007924
+                    video: 1
     - lyricsblock: '-'
     part-of:
       song: mute

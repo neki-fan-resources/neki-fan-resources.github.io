@@ -50,6 +50,11 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
+                    post: 2098715322375409990
+                    image: HSAidFUaQAAHYHF
+            - multimediasubsection:
+                multimedia:
+                - postximage:
                     post: 2098648692039553354
                     image: HR_lgz3bQAAvuP6
     part-of:
@@ -391,6 +396,46 @@
         post: 2098647014489895214
         image: HR_kVUCboAAii8C
 
+- postx:
+    id: 2098715322375409990
+    account: nekiband_jp
+    label: Thank you Hump Back
+    published-date: 2026-09-12
+    text: |-
+      おぼろっく2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      
+      Hump Backさん
+      @_humpback_
+       
+      
+      お写真を撮っていただきました📸
+      ありがとうございました！
+      
+      #HumpBack
+      #NEKI 
+      #おぼろっく
+    translation: |-
+      OBOROCK 2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      
+      Hump Back
+      @_humpback_
+       
+      
+      We were able to take a photo together📸
+      Thank you so much!
+      
+      #HumpBack
+      #NEKI 
+      #OBOROCK
+    image:
+    - HSAidFUaQAAHYHF
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
 - postximage:
     post: 2077951675315429559
     id: HNZGEElb0AA9RTz
@@ -554,6 +599,19 @@
         id: oborock
     part-of:
       postx: 2098649646533095697
+
+- postximage:
+    post: 2098715322375409990
+    id: HSAidFUaQAAHYHF
+    index: 1
+    label: Backstage
+    info: NEK!, Hump Back
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098715322375409990
 
 - postxvideo:
     post: 2097248587021537779

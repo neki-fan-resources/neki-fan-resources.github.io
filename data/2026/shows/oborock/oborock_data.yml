@@ -12,6 +12,10 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: 0MqDHeMfQwc
+            - multimediasubsection:
+                label: Images
+                multimedia:
                 - postximage:
                     post: 2098648692039553354
                     image: HR_lgzcaoAAJeKU
@@ -50,6 +54,12 @@
             - multimediasubsection:
                 multimedia:
                 - postximage:
+                    post: 2098722724889907463
+                    image: HSApMXAacAAXOco
+                - postinstagramimage:
+                    post: DdLylYkSy3l
+                    image: 1
+                - postximage:
                     post: 2098715322375409990
                     image: HSAidFUaQAAHYHF
             - multimediasubsection:
@@ -61,6 +71,66 @@
       show:
         year: 2026
         id: oborock
+
+- postinstagram:
+    id: DdLylYkSy3l
+    account: nekiband_jp
+    label: Thank you BAND-MAID
+    published-date: 2026-09-12
+    text: |-
+      おぼろっく2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      
+      BAND-MAIDさん
+      @bandmaid.jp 
+      
+      お写真を撮っていただきました📸
+      ありがとうございました！
+      
+      日本武道館day2ソールドアウトおめでとうございます🎉
+      オープニングアクト全力で頑張ります🔥
+      
+      photo by @pickles_0808
+      
+      #bandmaid
+      #NEKI 
+      #おぼろっく
+    translation: |-
+      OBOROCK 2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      
+      BAND-MAID
+      @bandmaid.jp 
+      
+      We were able to take a photo together📸
+      Thank you so much!
+      
+      Congratulations on selling out Nippon Budokan Day 2🎉
+      We will give it our all as the opening act🔥
+      
+      photo by @pickles_0808
+      
+      #bandmaid
+      #NEKI 
+      #OBOROCK
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- postinstagramimage:
+    post: DdLylYkSy3l
+    id: 1
+    label: Backstage
+    info: BAND-MAID, NEK!
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postinstagram: DdLylYkSy3l
 
 - postx:
     id: 2077951675315429559
@@ -436,6 +506,58 @@
         year: 2026
         id: oborock
 
+- postx:
+    id: 2098722724889907463
+    account: nekiband_jp
+    label: Thank you BAND-MAID
+    published-date: 2026-09-12
+    text: |-
+      おぼろっく2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      
+      BAND-MAIDさん
+      @bandmaid
+       
+      
+      お写真を撮っていただきました📸
+      ありがとうございました！
+      
+      日本武道館day2ソールドアウトおめでとうございます🎉
+      オープニングアクト全力で頑張ります🔥
+      
+      photo by @pickles_0808
+      
+      
+      #bandmaid
+      #NEKI 
+      #おぼろっく
+    translation: |-
+      OBOROCK 2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      
+      BAND-MAID
+      @bandmaid
+       
+      
+      We were able to take a photo together📸
+      Thank you so much!
+      
+      Congratulations on selling out Nippon Budokan Day 2🎉
+      We will give it our all as the opening act🔥
+      
+      photo by @pickles_0808
+      
+      
+      #bandmaid
+      #NEKI 
+      #OBOROCK
+    image:
+    - HSApMXAacAAXOco
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
 - postximage:
     post: 2077951675315429559
     id: HNZGEElb0AA9RTz
@@ -613,6 +735,19 @@
     part-of:
       postx: 2098715322375409990
 
+- postximage:
+    post: 2098722724889907463
+    id: HSApMXAacAAXOco
+    index: 1
+    label: Backstage
+    info: BAND-MAID, NEK!
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098722724889907463
+
 - postxvideo:
     post: 2097248587021537779
     id: 1
@@ -675,6 +810,20 @@
     url: 'https://natalie.mu/music/news/681273'
     image:
     - poster
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- youtubeshort:
+    id: 0MqDHeMfQwc
+    label: On stage
+    published-date: 2026-09-12
+    context:
+    - song: getover
+    - show:
+        year: 2026
+        id: oborock
     part-of:
       show:
         year: 2026

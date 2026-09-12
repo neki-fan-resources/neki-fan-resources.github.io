@@ -1,3 +1,62 @@
+- display:
+    show:
+      year: 2026
+      id: oborock
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2098648692039553354
+                    image: HR_lgzcaoAAJeKU
+                - postximage:
+                    post: 2098646606052757557
+                    image: HR_j9n1bkAArv3m
+                - postximage:
+                    post: 2098645656990814508
+                    image: HR_jGR-aEAETrNe
+                - postximage:
+                    post: 2098647014489895214
+                    image: HR_kVUCboAAii8C
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2098646606052757557
+                    image: HR_j9nkb0AANux8
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2098647014489895214
+                    image: HR_kVUCa4AApaI1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2098649646533095697
+                    image: HR_muf0bwAEPrDf
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2098645656990814508
+                    image: HR_jGSCaMAA9SD9
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2098648692039553354
+                    image: HR_lgz3bQAAvuP6
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
 - postx:
     id: 2077951675315429559
     account: info_oborock
@@ -152,6 +211,186 @@
         year: 2026
         id: oborock
 
+- postx:
+    id: 2098645656990814508
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-09-12
+    text: |-
+      初フェス出演っ！
+      
+      おぼろっく2026
+      
+      最高に熱いステージで凄い楽しかった。
+      ありがとうございました！
+      
+      また、この場所に戻って来れるように
+      がんばる。
+    translation: |-
+      First festival performance!
+      
+      OBOROCK 2026
+      
+      It was an insanely fiery stage and so much fun.
+      Thank you very much!
+      
+      I'll do my best so that
+      we can return to this place again.
+    image:
+    - HR_jGR-aEAETrNe
+    - HR_jGSCaMAA9SD9
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- postx:
+    id: 2098646606052757557
+    account: coco_102
+    label: Thank you
+    published-date: 2026-09-12
+    text: |-
+      おぼろっく2026ありがとうございました👊🏻🩵
+      ホールに響く打音めちゃくちゃ気持ちよかったー！！
+      朝から多くの方に観ていただけて嬉しかったです！
+      2階席もバッチリ見えてたよ！ありがとう！
+      また必ずおぼろっく帰ってきます！！
+      今後ともNEK!をよろしくお願いします🙇🏻‍♀️
+    translation: |-
+      Thank you so much for OBOROCK 2026👊🏻🩵
+      The percussion echoing through the hall felt amazingly good--!!
+      I was so happy so many people came to watch us right from the morning!
+      We could see the 2nd floor seats clearly too! Thank you!
+      We will definitely come back to OBOROCK again!!
+      Please continue to support NEK! going forward🙇🏻‍♀️
+    image:
+    - HR_j9n1bkAArv3m
+    - HR_j9nkb0AANux8
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- postx:
+    id: 2098646610112872638
+    account: coco_102
+    label: Credits
+    published-date: 2026-09-12
+    text: |-
+      Photo by @Junpei_Des
+    part-of:
+      postx: 2098646606052757557
+
+- postx:
+    id: 2098647014489895214
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-09-12
+    text: |-
+      おぼろっく2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      福井県敦賀市金ヶ崎エリア
+      @ 敦賀市民文化センター
+      
+      念願の初フェス‼️✨
+      ライブめっちゃ楽しかった！！！🥹
+      あとフェス飯が…おいちかった( ᵒ̴̶̷᷄꒳ᵒ̴̶̷᷅ )
+      満喫しすぎた、また出られるように頑張ります！！
+    translation: |-
+      OBOROCK 2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      Kanegasaki Area, Tsuruga City, Fukui Prefecture
+      @ Tsuruga Civic Cultural Center
+      
+      Our long-awaited first festival‼️✨
+      The live show was super fun!!!🥹
+      Also the festival food was... so yummy( ᵒ̴̶̷᷄꒳ᵒ̴̶̷᷅ )
+      Enjoyed it to the fullest, I'll do my best so we can perform here again!!
+    image:
+    - HR_kVUCa4AApaI1
+    - HR_kVUCboAAii8C
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- postx:
+    id: 2098648692039553354
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-12
+    text: |-
+      おぼろっく2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      
+      初フェス出演⚡️
+      ありがとうございました！
+      
+      ▼9/23ワンマンライブ開催🔥
+      NEK! MAJOR DEBUT TOUR FINAL
+      https://l-tike.com/nekiband/
+      
+      Photo by 
+      @Junpei_Des
+      
+      
+      #NEKI #おぼろっく
+      #福井県 #敦賀市
+    translation: |-
+      OBOROCK 2026
+      ～ TSURUGA MUSIC FESTIVAL ～
+      
+      First festival appearance⚡️
+      Thank you very much!
+      
+      ▼9/23 Solo live show to be held🔥
+      NEK! MAJOR DEBUT TOUR FINAL
+      https://l-tike.com/nekiband/
+      
+      Photo by 
+      @Junpei_Des
+      
+      
+      #NEKI #OBOROCK
+      #FukuiPrefecture #TsurugaCity
+    image:
+    - HR_lgz3bQAAvuP6
+    - HR_lgzcaoAAJeKU
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+    reference:
+    - postximage:
+        post: 2098646606052757557
+        image: HR_j9n1bkAArv3m
+
+- postx:
+    id: 2098649646533095697
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-09-12
+    text: |-
+      おぼろっく、ありがとうございましたー！！
+      何度か感極まりそうになってしまうほど幸せでした！！
+      念願の初フェス。バンドって最高だなって心から思いました！！！
+      本当にみなさん、NEK!のために集まってくださり、ありがとうございました😭❤️‍🔥❤️‍🔥
+    translation: |-
+      OBOROCK, thank you so much--!!
+      I was so happy that I almost got overwhelmed with emotion several times!!
+      Our long-awaited first festival. I truly felt from the bottom of my heart that being in a band is the best!!!
+      Everyone, thank you so much for gathering for NEK!😭❤️‍🔥❤️‍🔥
+    image:
+    - HR_muf0bwAEPrDf
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+    reference:
+    - postximage:
+        post: 2098647014489895214
+        image: HR_kVUCboAAii8C
+
 - postximage:
     post: 2077951675315429559
     id: HNZGEElb0AA9RTz
@@ -204,6 +443,118 @@
     part-of:
       postx: 2085561583149965472
 
+- postximage:
+    post: 2098645656990814508
+    id: HR_jGR-aEAETrNe
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098645656990814508
+
+- postximage:
+    post: 2098645656990814508
+    id: HR_jGSCaMAA9SD9
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098645656990814508
+
+- postximage:
+    post: 2098646606052757557
+    id: HR_j9n1bkAArv3m
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098646606052757557
+
+- postximage:
+    post: 2098646606052757557
+    id: HR_j9nkb0AANux8
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098646606052757557
+
+- postximage:
+    post: 2098647014489895214
+    id: HR_kVUCa4AApaI1
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098647014489895214
+
+- postximage:
+    post: 2098647014489895214
+    id: HR_kVUCboAAii8C
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098647014489895214
+
+- postximage:
+    post: 2098648692039553354
+    id: HR_lgz3bQAAvuP6
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098648692039553354
+
+- postximage:
+    post: 2098648692039553354
+    id: HR_lgzcaoAAJeKU
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098648692039553354
+
+- postximage:
+    post: 2098649646533095697
+    id: HR_muf0bwAEPrDf
+    index: 2
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postx: 2098649646533095697
+
 - postxvideo:
     post: 2097248587021537779
     id: 1
@@ -223,6 +574,18 @@
     date: 2026-07-17
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- update:
+    show:
+      year: 2026
+      id: oborock
+    date: 2026-09-12
+    text:
+    - First pictures from the show
     part-of:
       show:
         year: 2026

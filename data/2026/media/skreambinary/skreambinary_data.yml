@@ -23,6 +23,11 @@
                   - text: The second part of the interview dives into their major 1st EP "B!NARY". The members share their intentions for each of the five songs, the songwriting process, technical details about their instruments, and other behind-the-scene stories from the studio.
                 - line:
                   - text: Finally, the interview concludes with the meaningful story behind the EP's title, representing the connection between the band and their fans, and their enthusiasm for their upcoming Tomeihan tour.
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2098367703744758074
+                    image: HR7mTQka4AAMWhM
     - basicblock:
         id: translation
         label: translation
@@ -367,6 +372,50 @@
         year: 2026
         id: skreambinary
 
+- postx:
+    id: 2098367703744758074
+    account: nekiband_jp
+    label: Published
+    published-date: 2026-09-11
+    text: |-
+      【掲載情報📗】
+      
+      「Skream! 9月号」
+      @skream_japan
+       
+      
+      NEK!のインタビュー記事が掲載🎉
+      
+      9/13頃より全国のCDショップやライヴハウス、スタジオ等にて順次配布開始！
+      
+      ぜひゲットしてください✔️
+      
+      🔗 https://skream.jp/news/2026/09/skream_magazine_news.php
+      
+      #NEKI
+    translation: |-
+      [Publication Info📗]
+      
+      "Skream! September Issue"
+      @skream_japan
+       
+      
+      An interview article with NEK! is featured🎉
+      
+      Distribution begins sequentially starting around 9/13 at CD shops, live houses, studios, etc. nationwide!
+      
+      Be sure to get your copy✔️
+      
+      🔗 https://skream.jp/news/2026/09/skream_magazine_news.php
+      
+      #NEKI
+    image:
+    - HR7mTQka4AAMWhM
+    part-of:
+      media:
+        year: 2026
+        id: skreambinary
+
 - postximage:
     post: 2095089357342593036
     id: HRNAqkja0AArW9d
@@ -387,6 +436,18 @@
         id: skreambinary
     part-of:
       postx: 2095695846188933122
+
+- postximage:
+    post: 2098367703744758074
+    id: HR7mTQka4AAMWhM
+    index: 1
+    label: Cover
+    context:
+    - media:
+        year: 2026
+        id: skreambinary
+    part-of:
+      postx: 2098367703744758074
 
 - update:
     media:

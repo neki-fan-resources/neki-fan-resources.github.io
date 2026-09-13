@@ -12,6 +12,12 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: H2CTFYd1DiY
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2099127456854921230
+                    video: 1
                 - youtubeshort: 0MqDHeMfQwc
             - multimediasubsection:
                 label: Images
@@ -119,6 +125,26 @@
       show:
         year: 2026
         id: oborock
+
+- postinstagram:
+    id: DdOpR8wxVCc
+    account: cocoro_drum
+    label: OOAK on stage
+    published-date: 2026-09-13
+    text: |-
+      初フェス最高に楽しかった！皆ありがとう！！
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      Our first festival was an absolute blast! Thank you, everyone!!
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    part-of:
+      postxvideo:
+        post: 2099127456854921230
+        video: 1
 
 - postinstagramimage:
     post: DdLylYkSy3l
@@ -558,6 +584,26 @@
         year: 2026
         id: oborock
 
+- postx:
+    id: 2099127456854921230
+    account: coco_102
+    label: OOAK on stage
+    published-date: 2026-09-13
+    text: |-
+      初フェス最高に楽しかった！皆ありがとう！！
+      
+      #NEKI
+    translation: |-
+      Our first festival was an absolute blast! Thank you, everyone!!
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2099127456854921230
+        video: 1
+
 - postximage:
     post: 2077951675315429559
     id: HNZGEElb0AA9RTz
@@ -760,6 +806,22 @@
     part-of:
       postx: 2097248587021537779
 
+- postxvideo:
+    post: 2099127456854921230
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2099127358435545088/img/Ghrm4xLdB4g2PfA-.jpg
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    - song: ooak
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
 - update:
     show:
       year: 2026
@@ -821,6 +883,19 @@
     published-date: 2026-09-12
     context:
     - song: getover
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- youtubeshort:
+    id: H2CTFYd1DiY
+    label: Setlog
+    published-date: 2026-09-13
+    context:
     - show:
         year: 2026
         id: oborock

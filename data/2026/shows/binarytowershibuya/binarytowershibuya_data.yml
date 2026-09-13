@@ -1,0 +1,358 @@
+- display:
+    show:
+      year: 2026
+      id: binarytowershibuya
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2099072289958756383
+                    image: HSFnHKea4AAkJvr
+                - postximage:
+                    post: 2099072289958756383
+                    image: HSFnHKebsAA7EBe
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2099113010413650366
+                    image: HSGMJ9jaIAABFeM
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2099089502094635514
+                    image: HSF2xiza8AAkp0m
+                - postximage:
+                    post: 2099089502094635514
+                    image: HSF2xi0aEAAxIPO
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2099115624782000547
+                    image: HSGOh-XasAEoojz
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2099091986984902830
+                    image: HSF5CHFawAA9PyA
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2099131096491589779
+                    video: 1
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+
+- postx:
+    id: 2099072289958756383
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-09-13
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      @タワーレコード渋谷店
+      
+      今日もたくさんの方とお話できて本当に楽しかったし私にとって癒しの時間でした！！
+      みんなからもらった幸せで、23日さらに倍にして幸せ返します‼️ჱ̒^ ̳  ̫  ̳^
+      
+      リリイベ東名阪これにて終了！
+      来てくれたみんなありがと！
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemoration In-Store Event
+      @ Tower Records Shibuya
+      
+      It was so much fun getting to talk with so many people again today, and it was truly such a comforting time for me!!
+      With the happiness everyone gave me, I'll double it and return all that happiness to you on the 23rd‼️ჱ̒^ ̳  ̫  ̳^
+      
+      And with that, our release events across Tokyo, Nagoya, and Osaka have come to an end!
+      Thank you to everyone who came out!
+    image:
+    - HSFnHKea4AAkJvr
+    - HSFnHKebsAA7EBe
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+
+- postx:
+    id: 2099089502094635514
+    account: coco_102
+    label: Thank you
+    published-date: 2026-09-13
+    text: |-
+      タワーレコード渋谷店インストアイベント
+      ありがとうございました🫶🏻
+      
+      今日も皆さんといっぱいお話できて嬉しかったです！
+      リリイベ終わっちゃうの寂しいよー🥲
+      またどこかでカホンの音色をお届けしたい！必ず！
+      
+      今日はひとまず東名阪一緒に頑張ってくれたマイカホンを労おうと思います！ありがとう！
+    translation: |-
+      Tower Records Shibuya in-store event
+      Thank you so much🫶🏻
+      
+      I was so happy to talk with everyone so much again today!
+      I'm so sad the release events are coming to an end🥲
+      I want to bring you the sound of my cajón again somewhere! Definitely!
+      
+      For now today, I'm going to pamper my cajón that worked hard with me across Tokyo, Nagoya, and Osaka! Thank you!
+    image:
+    - HSF2xi0aEAAxIPO
+    - HSF2xiza8AAkp0m
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+
+- postx:
+    id: 2099091986984902830
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-13
+    text: |-
+      Major 1st EP「B!NARY」
+      発売記念インストアイベント
+      
+      📍タワーレコード渋谷店
+      
+      インストアファイナル！
+      お越しいただきありがとうございました✔️
+      
+      ▼ "B!NARY" Streaming🎧
+      https://lnk.to/NEKI_BINARYTW
+      
+      ▼ NEK! MAJOR DEBUT TOUR🔥
+      9/23 東京・duo MUSIC EXCHANGE
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      Major 1st EP "B!NARY"
+      Release Commemoration In-Store Event
+      
+      📍 Tower Records Shibuya
+      
+      In-store final!
+      Thank you so much for coming✔️
+      
+      ▼ "B!NARY" Streaming🎧
+      https://lnk.to/NEKI_BINARYTW
+      
+      ▼ NEK! MAJOR DEBUT TOUR🔥
+      9/23 Tokyo・duo MUSIC EXCHANGE
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HSF5CHFawAA9PyA
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+
+- postx:
+    id: 2099113010413650366
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-09-13
+    text: |-
+      メジャー1st EP『B!NARY』発売記念
+      インストアイベント
+      最後はタワーレコード渋谷店様でした！
+      
+      今日まで各地で、私たちの音楽と声を届けられたこと、そしてみんなの言葉を直接
+      聞けたことが本当に嬉しかったです。
+      
+      この時間を力にここから
+      もっと大きく前へ！
+      
+      みんな！いつもありがとう！
+    translation: |-
+      Major 1st EP "B!NARY" Release Commemoration
+      In-Store Event
+      The finale was at Tower Records Shibuya!
+      
+      I was so truly happy that up until today across every city, we were able to deliver our music and voices, and directly
+      hear everyone's words.
+      
+      Turning this time into strength, from here on
+      stepping even bigger and further forward!
+      
+      Everyone! Thank you always!
+    image:
+    - HSGMJ9jaIAABFeM
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+
+- postx:
+    id: 2099115624782000547
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-09-13
+    text: |-
+      リリイベ東京編！
+      ありがとうございましたー！
+      たくさんの方が会いにきてくださって、とっても嬉しかったですっ♡
+      EPやツアーの感想をたくさん聞けて本当に濃い時間が過ごせました❤️‍🔥
+      これにてリリイベ東名阪全て終了！寂しい、、、
+      残すはツアーファイナル！！最高の思い出つくろうねー！
+    translation: |-
+      Release event Tokyo edition!
+      Thank you so much!
+      So many people came to see us, and I was super happy♡
+      Getting to hear so many thoughts on the EP and the tour made it such a truly rich time❤️‍🔥
+      And with that, the release events across Tokyo, Nagoya, and Osaka have all ended! So lonely...
+      All that's left is the tour final!! Let's make the best memories together!
+    image:
+    - HSGOh-XasAEoojz
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+
+- postx:
+    id: 2099131096491589779
+    account: coco_102
+    label: Acoustic on stage
+    published-date: 2026-09-13
+    text: |-
+      アコースティック楽器大好きすぎる奴
+    translation: |-
+      Someone who loves acoustic instruments way too much
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2099131096491589779
+        video: 1
+
+- postximage:
+    post: 2099072289958756383
+    id: HSFnHKea4AAkJvr
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      postx: 2099072289958756383
+
+- postximage:
+    post: 2099072289958756383
+    id: HSFnHKebsAA7EBe
+    index: 2
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      postx: 2099072289958756383
+
+- postximage:
+    post: 2099089502094635514
+    id: HSF2xi0aEAAxIPO
+    index: 2
+    label: On stage
+    info: Cajón
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      postx: 2099089502094635514
+
+- postximage:
+    post: 2099089502094635514
+    id: HSF2xiza8AAkp0m
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      postx: 2099089502094635514
+
+- postximage:
+    post: 2099091986984902830
+    id: HSF5CHFawAA9PyA
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      postx: 2099091986984902830
+
+- postximage:
+    post: 2099113010413650366
+    id: HSGMJ9jaIAABFeM
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      postx: 2099113010413650366
+
+- postximage:
+    post: 2099115624782000547
+    id: HSGOh-XasAEoojz
+    index: 1
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      postx: 2099115624782000547
+
+- postxvideo:
+    post: 2099131096491589779
+    id: 1
+    label: All acoustic
+    info: Cocoro
+    cover: 2099131053625769984/img/eCuDJ_jlWy9GOreB.jpg
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+
+- update:
+    show:
+      year: 2026
+      id: binarytowershibuya
+    date: 2026-09-13
+    text:
+    - First pictures and videos from the show
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+

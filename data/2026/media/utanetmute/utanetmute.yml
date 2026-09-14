@@ -17,3 +17,7 @@ mediawritten:
     group:
       id: media
       group: 2026
+  description:
+  - Hika wrote a short essay about the lyrics of "MUTE."
+  categories:
+  - mediummedia

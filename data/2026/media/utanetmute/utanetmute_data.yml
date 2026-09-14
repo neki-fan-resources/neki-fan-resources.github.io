@@ -1,0 +1,96 @@
+- display:
+    media:
+      year: 2026
+      id: utanetmute
+    blocks:
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - interviewsubsection:
+                lines:
+                - text: 「これが私です」って思える方を選びたい。
+                  translation: I want to choose the path where I can think, 'This is me.'
+                  isinterviewer: true
+                - text: 2026年9月2日に“NEK!”がメジャー1st EP『B!NARY』をリリースしました。タイトルは"ネット発"である彼女たちらしく、コンピューター用語としても身近な二進数を意味する言葉。これまでNEK!のSNSや特設サイトにて、バイナリ・コードを含むデジタル・コードを使った意味深な告知がされてきましたが、すべては今作のリリースに繋がっていたことが明らかに…！
+                  translation: "On September 2, 2026, \"NEK!\" released their major 1st EP \"B!NARY\". Fitting for a band that started on the internet, the title is a familiar computer term meaning binary numbers. Up until now, cryptic announcements using digital codes, including binary code, have been made on NEK!'s social media and special website. It is now clear that all of this was leading up to this release...! "
+                - text: 今日のうたでは、そんな“NEK!”のHika(Vo/Gt)による歌詞エッセイをお届けします。綴っていただいたのは、収録曲「MUTE」にまつわるお話です。“普通”に合わせるうち自分の声を飲み込んでしまいがち。もう一度、自分の声を取り戻すために、心に刻みたいことは…。
+                  translation: In today's feature, we are bringing you a lyric essay by NEK!'s Hika (Vo/Gt). She wrote a story for us about the included track, "MUTE". We often end up swallowing our own voices while trying to fit in with what is "normal." To regain our voices once again, what is it that we should keep in our hearts...?
+                - text: <hr>
+                - text: 「MUTE」って、聴く人によって結構違う曲に聴こえるんじゃないかなって思ってて。
+                  translation: I think "MUTE" might sound like a very different song depending on who is listening to it.
+                - text: 一見すると、疾走感あって、ライブで思いっきり声を出して楽しんでもらえる曲なんですけど、歌っている私は、実は結構自分自身と向き合う曲だなと思っています。
+                  translation: On the surface, it has a fast-paced feel, and it is a song where everyone can have fun shouting out loud at our live shows. But for me, as the one singing it, I actually think it is a song where I have to face myself.
+                - text: 「普通はこうするよね」とか、「こうした方がいいよ」とか、そういう言葉って日常の中にたくさんあるじゃないですか。もちろん、それが間違っているわけじゃないし、周りに合わせることが必要なときもある。でも、ずっと誰かの「普通」に合わせていたら、自分が本当は何をしたいのか分からなくなっちゃうこともあると思うんです。
+                  translation: Phrases like "Normally, you do it like this," or "You should do it this way," are everywhere in our daily lives, aren't they? Of course, that is not wrong, and there are times when we need to fit in with the people around us. But if you are always trying to match someone else's "normal," I think you can end up losing sight of what you truly want to do.
+                - text: 私自身も、周りの目を気にして、浮かないよう、うまく笑って、言いたいことを飲み込んだりすることもあります。
+                  translation: I myself sometimes worry about what others think, smile politely so I don't stand out, and swallow the things I actually want to say.
+                - text: だから「MUTE」を歌っているときは、そういうものを全部一回解除していくような気持ちになります。
+                  translation: So when I am singing "MUTE," it feels like I am releasing all of those things at once.
+                - text: ＜誰にも　嫌われない　私が　私はいちばん嫌い＞という歌詞は、この曲の中でもすごく自分らしいなと思っていて。
+                  translation: The lyrics &lt;The 'me' that nobody hates is the 'me' I hate the most> feel very true to myself within this song.
+                - text: 誰にも嫌われないようにするために、自分を抑えているのに、その結果、自分自身のことを好きになれなくなったら意味がないじゃんって。
+                  translation: Even if someone holds themselves back so that no one will hate them, if that means they end up not liking themselves as a result, then there is no point.
+                - text: だったら、ちょっとくらい不器用でもいい<br>ちょっとくらいはみ出してもいい。<br>自分が「これが私です」って思える方を選びたい。
+                  translation: If that is the case, it is okay to be a little awkward.<br>It is okay to stand out a little.<br>I want to choose the path where I can think, "This is me."
+                - text: ＜I promise me.＞っていう歌詞も誰かに約束するんじゃなくて、自分自身に約束している言葉です。<br>周りに認めてもらうためじゃなくて、自分が自分を裏切らないための約束。
+                  translation: The lyrics &lt;I promise me.> are also not a promise to someone else, but words promised to myself.<br>It is not a promise to get approval from the people around me, but a promise so that I do not betray myself.
+                - text: ライブで歌うときは、綺麗にまとめようとはあまり思ってなくて、今の自分にあるものをそのまま出したいと思っています。<br>声を出して、音を鳴らして、どんどん前に進んでいく。その瞬間だけは、周りのことを考えずに「私は私でいい」って思えるんです。
+                  translation: When singing live, there is not much thought about making everything look or sound perfectly polished. The desire is to let out exactly what is inside right now.<br>Letting voices out, making sounds, and steadily moving forward. For just that moment, without worrying about the surroundings, it is possible to think, "It is okay for me to just be me."
+                - text: だから、もし今これを読んでくれているあなたにも、周りに合わせることに疲れていたり、「本当はこうしたいのにな」って思っていることがあるなら、一回くらい自分の声を優先してみてほしい。
+                  translation: So, if you are reading this right now and feeling tired of trying to fit in, or if you ever think, "I actually want to do it this way," I want you to try prioritizing your own voice, even just once.
+                - text: 誰かのルールで生きていたって、誰かが決めた「普通」に自分を当てはめようなんてしなくていい。
+                  translation: You do not have to live by someone else's rules, and you do not have to try to force yourself into someone else's idea of "normal."
+                - text: 私自身もまだまだ迷うことはあるけど、「MUTE」を歌うたびに、自分の個性や感情の芯だけは忘れないでいたいって思います。
+                  translation: I still have moments of doubt myself, but every time I sing "MUTE," I remind myself that I never want to forget my individuality and the core of my emotions.
+                - text: この曲が、聴いてくれるみんなにとって、自分の声をもう一度取り戻すきっかけになったら嬉しいです。
+                  translation: I would be happy if this song could become a chance for everyone listening to regain their own voices once again.
+                - text: 一緒に、ミュート解除していこう。
+                  translation: Let's unmute ourselves together.
+                - text: ＜NEK!・Hika(Vo/Gt)＞
+    part-of:
+      media:
+        year: 2026
+        id: utanetmute
+
+- update:
+    media:
+      year: 2026
+      id: utanetmute
+    date: 2026-09-14
+    text:
+    - Added the article
+    - Added the translation of the essay
+    part-of:
+      media:
+        year: 2026
+        id: utanetmute
+
+- webimage:
+    domain: uta-net.com
+    page: index
+    id: logo
+    label: Logo
+    published-date: 2026-09-14
+    url: 'https://www.uta-net.com/reverse/mixi_check/uta_net_logo_m.gif'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: uta-net.com
+        id: index
+
+- webpage:
+    domain: uta-net.com
+    id: index
+    label: Main page
+    published-date: 2026-09-14
+    url: 'https://www.uta-net.com/'
+    image:
+    - logo
+    part-of:
+      media:
+        year: 2026
+        id: utanetmute
+

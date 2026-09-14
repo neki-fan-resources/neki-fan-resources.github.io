@@ -1,0 +1,19 @@
+mediawritten:
+  year: 2026
+  id: utanetmute
+  cover-image:
+    webimage:
+      domain: uta-net.com
+      page: index
+      id: logo
+  publication: uta.net
+  issue: MUTE
+  designation: essai
+  member:
+  - Hika
+  published-date: 2026-09-14
+  article-page: 'https://www.uta-net.com/user/writer/todaysong.html?id=16820'
+  part-of:
+    group:
+      id: media
+      group: 2026

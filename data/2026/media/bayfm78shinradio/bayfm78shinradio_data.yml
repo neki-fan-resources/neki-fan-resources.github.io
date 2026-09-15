@@ -1,0 +1,38 @@
+- update:
+    media:
+      year: 2026
+      id: bayfm78shinradio
+    date: 2026-09-15
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: bayfm78shinradio
+
+- webimage:
+    domain: bayfm.co.jp
+    page: shinradio
+    id: flyer
+    label: Flyer
+    published-date: 2026-09-15
+    url: 'https://program-static.cf.radiko.jp/9ggw1tfzu9.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: bayfm.co.jp
+        id: shinradio
+
+- webpage:
+    domain: bayfm.co.jp
+    id: shinradio
+    label: Show page
+    published-date: 2026-09-15
+    url: 'https://program.bayfm.co.jp/radio/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: bayfm78shinradio
+

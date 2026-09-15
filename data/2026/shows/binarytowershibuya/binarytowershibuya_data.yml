@@ -28,6 +28,9 @@
                 - postximage:
                     post: 2099089502094635514
                     image: HSF2xiza8AAkp0m
+                - postinstagramimage:
+                    post: DdTP1I6GrNQ
+                    image: 3
                 - postximage:
                     post: 2099089502094635514
                     image: HSF2xi0aEAAxIPO
@@ -50,6 +53,93 @@
       show:
         year: 2026
         id: binarytowershibuya
+
+- postinstagram:
+    id: DdTP1I6GrNQ
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-09-15
+    text: |-
+      B!NARY発売記念インストアイベント💿💛
+      ⁡
+      タワレコ東名阪3日間ありがとうございましたー！
+      久々のインストアライブだったので、初日の大阪が始まったとき客席との距離がめちゃくちゃ近くて、普段のライブとはまた違った独特な緊張感を思い出して、この感じ懐かしい！となりました😂
+      ⁡
+      アコースティック編成でお届けした楽曲たちはいかがだったでしょうか？🌿‬
+      普段のNEK!とはガラッと変わり、暖かく優しい演奏を楽しんでもらえていたら幸いです！
+      カホンを大阪と愛知で演奏したのは初の東名阪ツアーぶりだったので、久しぶりに皆さんにカホンの音色をお届けできてとても嬉しかったです！
+      
+      今回を機にカホンに興味を持ってくれた方も多くいたみたいで、中には私たちのアコースティックライブを観た足でそのまま楽器屋さんにカホンを探しに行ったというファンの方もいたそうです！！(行動力すごすぎる…！笑)
+      たくさんの方にカホンという楽しい楽器を知っていただけてとても嬉しかったです☺️
+      
+      サイン会ではEPの感想や、普段のドラムについて、最近のビジュについてや、うにの話などなど、皆さんといろんなお話ができてとても楽しかったです！
+      またこういう機会があったらたくさんお話しましょう✌🏻
+      ⁡
+      これからもB!NARYを末永くよろしくお願いします🙂‍↕️！
+      ⁡
+      
+      #neki #neki_band #girlsband #cajon #sakae
+    translation: |-
+      B!NARY Release Commemorative In-Store Event💿💛
+      ⁡
+      Thank you so much for the 3 days across Tower Records Tokyo, Nagoya, and Osaka!
+      Since it had been a while since our last in-store live, when day one in Osaka started and the audience was insanely close, it reminded me of that unique nervous tension that differs from our usual shows, and I thought, "This feeling brings back memories!"😂
+      ⁡
+      How did you like the songs presented in the acoustic arrangement?🌿‬
+      Quite a complete change from the usual NEK!, I hope you enjoyed the warm and gentle performance!
+      Playing the cajón in Osaka and Aichi was the first time since our first Tokyo-Nagoya-Osaka tour, so I was really glad to bring everyone the sound of the cajón after so long!
+      
+      It seems like many people took an interest in the cajón through this opportunity, and apparently there was even a fan who headed straight to an instrument store right after watching our acoustic live to look for a cajón!! (The initiative is incredible...! haha)
+      I was super happy that so many people got to know this fun instrument called the cajón☺️
+      
+      At the signing sessions, it was so much fun chatting with everyone about so many things—impressions of the EP, my usual drumming, recent visuals, stories about Uni, and more!
+      Let's chat a lot again whenever another opportunity like this comes around✌🏻
+      ⁡
+      Please continue to love and support B!NARY for a long time to come🙂‍↕️!
+      ⁡
+      
+      #neki #neki_band #girlsband #cajon #sakae
+    image:
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: binarytowershibuya
+    reference:
+    - postximage:
+        post: 2099089502094635514
+        image: HSF2xiza8AAkp0m
+    - postximage:
+        post: 2095471724221677628
+        image: HRScZqDboAEv8md
+    - postximage:
+        post: 2096469583712702778
+        image: HRgn92pbQAAodRP
+
+- postinstagramimage:
+    post: DdTP1I6GrNQ
+    id: 2
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: binarytowerumeda
+    part-of:
+      postinstagram: DdTP1I6GrNQ
+
+- postinstagramimage:
+    post: DdTP1I6GrNQ
+    id: 3
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: binarytowershibuya
+    part-of:
+      postinstagram: DdTP1I6GrNQ
 
 - postx:
     id: 2099072289958756383

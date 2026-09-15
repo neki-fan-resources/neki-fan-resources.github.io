@@ -12,6 +12,7 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: D3DKgWIqszg
                 - youtubeshort: H2CTFYd1DiY
             - multimediasubsection:
                 multimedia:
@@ -28,6 +29,12 @@
                 - postximage:
                     post: 2098646606052757557
                     image: HR_j9n1bkAArv3m
+                - postinstagramimage:
+                    post: DdS9VgCEhPF
+                    image: 5
+                - postinstagramimage:
+                    post: DdS9VgCEhPF
+                    image: 4
                 - postximage:
                     post: 2098645656990814508
                     image: HR_jGR-aEAETrNe
@@ -46,9 +53,15 @@
                     image: HR_kVUCa4AApaI1
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DdS9VgCEhPF
+                    image: 2
                 - postximage:
                     post: 2098649646533095697
                     image: HR_muf0bwAEPrDf
+                - postinstagramimage:
+                    post: DdS9VgCEhPF
+                    image: 6
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -70,9 +83,17 @@
                     image: HSAidFUaQAAHYHF
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DdS9VgCEhPF
+                    image: 7
                 - postximage:
                     post: 2098648692039553354
                     image: HR_lgz3bQAAvuP6
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DdS9VgCEhPF
+                    image: 8
     part-of:
       show:
         year: 2026
@@ -146,6 +167,46 @@
         post: 2099127456854921230
         video: 1
 
+- postinstagram:
+    id: DdS9VgCEhPF
+    account: natsu08_guitar
+    label: Photos
+    published-date: 2026-09-15
+    text: |-
+      .
+      初フェス！初おぼろっく！！
+      最高でした。本当に。
+      ありがとうございました！！！
+      
+      Photo by @junpei_des 
+      #おぼろっく
+    translation: |-
+      First festival! First OBOROCK!!
+      It was the best. Truly.
+      Thank you so much!!!
+      
+      Photo by @junpei_des 
+      #OBOROCK
+    image:
+    - 2
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+    reference:
+    - postximage:
+        post: 2098649646533095697
+        image: HR_muf0bwAEPrDf
+    - postximage:
+        post: 2098647014489895214
+        image: HR_kVUCboAAii8C
+
 - postinstagramimage:
     post: DdLylYkSy3l
     id: 1
@@ -157,6 +218,85 @@
         id: oborock
     part-of:
       postinstagram: DdLylYkSy3l
+
+- postinstagramimage:
+    post: DdS9VgCEhPF
+    id: 2
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postinstagram: DdS9VgCEhPF
+
+- postinstagramimage:
+    post: DdS9VgCEhPF
+    id: 4
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postinstagram: DdS9VgCEhPF
+
+- postinstagramimage:
+    post: DdS9VgCEhPF
+    id: 5
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postinstagram: DdS9VgCEhPF
+
+- postinstagramimage:
+    post: DdS9VgCEhPF
+    id: 6
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postinstagram: DdS9VgCEhPF
+
+- postinstagramimage:
+    post: DdS9VgCEhPF
+    id: 7
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postinstagram: DdS9VgCEhPF
+
+- postinstagramimage:
+    post: DdS9VgCEhPF
+    id: 8
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postinstagram: DdS9VgCEhPF
+
+- postinstagramimage:
+    post: DdS9VgCEhPF
+    id: 9
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      postinstagram: DdS9VgCEhPF
 
 - postx:
     id: 2077951675315429559
@@ -883,6 +1023,20 @@
     published-date: 2026-09-12
     context:
     - song: getover
+    - show:
+        year: 2026
+        id: oborock
+    part-of:
+      show:
+        year: 2026
+        id: oborock
+
+- youtubeshort:
+    id: D3DKgWIqszg
+    label: Digest movie
+    published-date: 2026-09-15
+    context:
+    - song: ratatat
     - show:
         year: 2026
         id: oborock

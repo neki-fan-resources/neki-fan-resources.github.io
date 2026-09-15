@@ -55,6 +55,54 @@
         year: 2026
         id: utanetmute
 
+- postx:
+    id: 2099379856236834933
+    account: UTANET_STAFF
+    label: Announcement
+    published-date: 2026-09-14
+    text: |-
+      今日のうたでは
+      メジャー1st EP『B!NARY』を
+      リリースした“NEK! ”のHikaによる
+      歌詞エッセイをお届けします。
+      
+      “普通”に合わせるうち
+      自分の声を飲み込んでしまいがち。
+      
+      もう一度、自分の声を取り戻すために
+      心に刻みたいことは…。
+      https://uta-net.com/user/writer/todaysong.html?id=16820
+    translation: |-
+      On Today's Song,
+      having released their major 1st EP "B!NARY",
+      a lyric essay by Hika of "NEK!"
+      is brought to you.
+      
+      While conforming to what is "normal",
+      we tend to swallow our own voices.
+      
+      To take back our voices once again,
+      what we should engrave in our hearts is...
+      https://uta-net.com/user/writer/todaysong.html?id=16820
+    image:
+    - HSJ-2cnbQAA9HoY
+    part-of:
+      media:
+        year: 2026
+        id: utanetmute
+
+- postximage:
+    post: 2099379856236834933
+    id: HSJ-2cnbQAA9HoY
+    index: 1
+    label: Headline
+    context:
+    - media:
+        year: 2026
+        id: utanetmute
+    part-of:
+      postx: 2099379856236834933
+
 - update:
     media:
       year: 2026

@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: bayfm78shinradio
+  cover-image:
+    webimage:
+      domain: bayfm.co.jp
+      page: shinradio
+      id: flyer
+  radio: BAYFM78
+  show: シン・ラジオ
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-09-21
+  host: 遠山大輔(グランジ)／松浦志穂(スパイク)
+  program: 'https://program.bayfm.co.jp/radio/'
+  part-of:
+    group:
+      id: media
+      group: 2026

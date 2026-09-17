@@ -1,3 +1,216 @@
+- display:
+    media:
+      year: 2026
+      id: bassmagazinekanade
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  webimage:
+                    domain: bassmagazine.jp
+                    page: 202608-badass-rookie-neki-kanade
+                    id: onstage1
+                lines:
+                - line:
+                  - text: This interview was published online following the release of NEK!'s major debut EP "B!NARY".
+                - line:
+                  - text: 'From the introduction:'
+                - line:
+                  - text: "\"She (Kanade) discusses how she started playing the bass, the roots of her playing style, how she creates bass lines in NEK!, her beloved instruments, and their latest EP 'B!NARY'.\""
+        - basicsection:
+            label: Photos
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: bassmagazine.jp
+                    page: 202608-badass-rookie-neki-kanade
+                    id: onstage1
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: bassmagazine.jp
+                    page: 202608-badass-rookie-neki-kanade
+                    id: onstage2
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: bassmagazine.jp
+                    page: 202608-badass-rookie-neki-kanade
+                    id: azuki
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2096212406787883057
+                    image: HRc-AfdbEAEDcgn
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: This interview was published online following the release of NEK!'s major debut EP "B!NARY".
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
+        - basicsection:
+            label: Interview
+            subsections:
+            - interviewsubsection:
+                lines:
+                - text: “マジでイカす新人＝BADASS ROOKIE”を紹介する本企画。編集部イチ押しの新世代ベーシストとして今回登場するのは、4人組ガールズバンド“NEK!”のベーシスト、Kanade。
+                  translation: This project introduces "really cool newcomers = BADASS ROOKIES". Appearing this time as the editorial team's top recommended new-generation bassist is Kanade, the bassist of the 4-piece girls' band "NEK!".
+                - text: 2024年2月に結成されたNEK!（読み方：ネキ）は、Hika（vo,g）、Natsu（g）、Kanade（b）、Cocoro（d）からなる“スラングロックバンド”。SNSを中心に音楽を発信してきた4人が集まり、ネットスラングを散りばめた歌詞と、メンバーそれぞれの個性がぶつかり合うテクニカルな演奏を武器に活動を展開してきた。2026年6月には「FLiCK」でポニーキャニオンからメジャー・デビューを果たし、9月2日にはメジャー1st EP『B!NARY』をリリース。結成から約2年半で、その勢いをさらに加速させている。
+                  translation: "Formed in February 2024, NEK! (pronounced: Neki) is a \"slang rock band\" consisting of Hika (vo,g), Natsu (g), Kanade (b), and Cocoro (d). The four members, who had been sharing their music mainly on social media, met and formed the band. They have been active armed with lyrics scattered with internet slang and technical performances where each member's personality collides. In June 2026, they made their major debut from Pony Canyon with \"FLiCK\", and on September 2nd, they released their 1st major EP \"B!NARY\". About two and a half years after their formation, their momentum is accelerating even more."
+                - text: 今回はそんなNEK!のベーシスト、Kanadeにメール・インタビューを実施。ベースを始めたきっかけやプレイスタイルのルーツ、NEK!でのベース・ライン作り、愛器や最新作『B!NARY』に至るまで、語ってもらった。
+                  translation: This time, we conducted an email interview with NEK!'s bassist, Kanade. She talked to us about how she started playing the bass, the roots of her playing style, how she creates bass lines in NEK!, her beloved instruments, and their latest work "B!NARY".
+            - interviewsubsection:
+                label: I was influenced by F Chopper KOGA's slap bass, and that led to my current playing style.
+                lines:
+                - text: ベースを始めたきっかけと楽器遍歴を教えてください。
+                  translation: Please tell us how you started playing the bass and your history with instruments.
+                  isinterviewer: true
+                - text: 中学1年生から弾いてます。父がベーシストなので昔からベースには馴染みがあった中、父からX JAPANさんを教えてもらい、“私もTAIJIさんの弾くベースをやりたい！”と思い、父のベースを借りました！
+                  translation: I have been playing since my first year of junior high school. My dad is a bassist, so I had always been familiar with the bass. Then my dad introduced me to X JAPAN, and I thought, "I want to play the bass like TAIJI!", so I borrowed my dad's bass!
+                  participant: Kanade
+                - text: そもそも、音楽を好きになったきっかけは？
+                  translation: What got you into music in the first place?
+                  isinterviewer: true
+                - text: 小学生1年生の頃に『太鼓の達人』にハマったのがきっかけでボカロを知って、当時ニンテンドー3DSのYouTubeでよく聴いてました。
+                  translation: When I was in my first year of elementary school, I got hooked on Taiko no Tatsujin, which is how I learned about Vocaloid. At the time, I used to listen to it a lot on YouTube on my Nintendo 3DS.
+                - text: もともとアニメが好きだったのでアニソンばかり聴いていましたが、12歳くらいの頃に父から“パパが若い頃に好きだったバンドだよ”と、X JAPANさんやLUNA SEAさんなどの90年代のバンドを聴かせてもらい、ベースを始めたことでさらに音楽に沼っていきました。
+                  translation: I originally liked anime, so I was only listening to anime songs. But when I was around 12, my dad showed me 90s bands like X JAPAN and LUNA SEA, saying, "These are bands I liked when I was young." Starting the bass made me fall even deeper into music.
+                - text: ベースはどのように学んでいったんですか？
+                  translation: How did you learn to play the bass?
+                  isinterviewer: true
+                - text: YouTubeで動画を観て、練習していました。スラップのやり方や練習フレーズなど、たくさんの方の動画を参考にしました！
+                  translation: I watched videos on YouTube and practiced. I used videos from many different people as a reference for things like how to play slap bass and practice phrases!
+                - text: スラップを多用するスタイルが印象的ですが、スラップに興味を持ったきっかけを教えてください。
+                  translation: Your style of using slap bass frequently leaves a strong impression. Please tell us how you became interested in it.
+                  isinterviewer: true
+                - text: ベースを始めたその年にGacharic Spinさんに出会い、FチョッパーKOGAさんのスラップ・ベースに影響され、今のプレイスタイルになりました。ステージングもとても影響されています！
+                  translation: The year I started playing the bass, I discovered Gacharic Spin. I was influenced by F Chopper KOGA's slap bass, and that led to my current playing style. My stage performance is also heavily influenced by her!
+                - text: Gacharic Spinさんに出会ったのが1番のきっかけでしたが、ほかにはボカロ曲でもスラップを多用したベースのかっこいい楽曲が多かったので、“好きな曲を弾きたい！”という思い一心でスラップの練習を始めました。
+                  translation: Discovering Gacharic Spin was the biggest reason, but there were also many cool Vocaloid songs with bass lines that used a lot of slap. So, I started practicing slap with the single thought of "I want to play my favorite songs!"
+                - text: バンド結成の経緯について教えてください。
+                  translation: Please tell us how the band was formed.
+                  isinterviewer: true
+                - text: 高校生の頃にSNSで“弾いてみた”活動を始めたり、バンドのオーディションに参加してみたりして、“いつかガールズバンドができたらな……”と思っていたところに、ヴォーカルのHikaちゃんにXのDMで声をかけていただきました。
+                  translation: When I was in high school, I started posting cover videos on social media and participating in band auditions. Just as I was thinking, "I hope I can be in a girls' band someday...", our vocalist Hika reached out to me via DM on X.
+                - text: NEK!はどういった音楽性を目指しているバンドですか？
+                  translation: What kind of musical style is NEK! aiming for?
+                  isinterviewer: true
+                - text: SNSで集まりバンド名も、“アネキ”というネットスラングから来ているので、“スラングロック”を掲げて音楽を作っています。歌詞にもネットスラングがたくさん散りばめられています！
+                  translation: We met on social media, and our band name also comes from the internet slang "aneki", so we make music under the banner of "slang rock". The lyrics are also scattered with a lot of internet slang!
+                - text: プレイ面だとメンバーの個性がぶつかり合うような、テクニカルなフレーズをそれぞれ入れていて、歌詞だけでなく演奏にも“おっ！”と思わせるようなポイントをたくさん入れてます。
+                  translation: On the playing side, we each include technical phrases where the members' personalities collide. We put in a lot of moments that make you go "Oh!" not just in the lyrics, but in the performance as well.
+                - text: バンド内での曲作りの流れを教えてください。
+                  translation: Please tell us about the songwriting process within the band.
+                  isinterviewer: true
+                - text: それぞれがフレーズを持ち寄って、スタジオでセッションするところから始まります！
+                  translation: It starts with each of us bringing our own phrases and having a session in the studio!
+                - text: ある程度雰囲気が固まったところで作家さんにお渡しし、ブラッシュアップしてもらっているので、メンバーと作家さんの共同作品です。
+                  translation: Once the vibe is solidified to some extent, we pass it on to an arranger to polish it up, so it is a collaborative work between the members and the arranger.
+                - text: ベース・ラインは普段どのように作ることが多いですか？
+                  translation: How do you usually create your bass lines?
+                  isinterviewer: true
+                - text: “手数を入れる”ということも、“おっ！”と思ってもらうために意識していることですが、それ以上に耳に残る、リフのようなフレーズ作りを意識しています。
+                  translation: I am conscious of "playing a lot of notes" to make people go "Oh!", but more than that, I focus on creating memorable, riff-like phrases that stay in your ears.
+                - text: あとはけっこう動くベース・ラインが好きなので、口ずさめるベース・ラインを意識して作っています。
+                  translation: Also, I really like bass lines that move a lot, so I try to create bass lines that you can hum along to.
+                - text: ライヴをするうえで、特に意識していることはありますか？
+                  translation: When performing live, is there anything you pay special attention to?
+                  isinterviewer: true
+                - text: 感情のままにステージに立つことです。“楽しい！”と思ったらその楽しさが伝わるように、そしてその私の姿を見て、ファンの方が笑顔になってもらえるように。泣きたいと思ったら泣く。一番素の私を届けられるようにしてます。
+                  translation: It is to stand on stage true to my emotions. If I think "This is fun!", I want that fun to come across, and I want the fans to smile when they see me like that. If I want to cry, I cry. I try to deliver the most authentic version of myself.
+                - text: メインで使っているベースについて教えてください。
+                  translation: Please tell us about the main bass you use.
+                  isinterviewer: true
+                - text: FUJIGENのJMJ-52のあずきメタリックカラーを使っています。中学の卒業祝いで家族に買ってもらい、以前までは父のベースをずっと借りていたので、初めての自分のベースです。
+                  translation: I use a FUJIGEN JMJ-52 in an azuki metallic color. My family bought it for me to celebrate my junior high school graduation. Up until then, I had always borrowed my dad's bass, so it is my very first bass of my own.
+                - text: 造りが頑丈で音もパワフルで、何よりこの絶妙なボディのカラーがとても好きで、“あずきちゃん”という愛称で呼んでます！
+                  translation: The build is sturdy and the sound is powerful. Above all, I really love this exquisite body color, so I affectionately call it "Azuki-chan"!
+                - text: そのほかにはどんなベースを使っていますか？
+                  translation: What other basses do you use?
+                  isinterviewer: true
+                - text: レコーディングだとムーンの4弦ジャズ・ベースもよく使います。20年くらい前のモデルで、知り合いに譲ってもらいました。よく音が良いと褒められる自慢の1本です！
+                  translation: For recording, I also often use a Moon 4-string jazz bass. It is a model from about 20 years ago, and I got it from an acquaintance. It is a bass I am proud of that often gets praised for its good sound!
+                - text: 家の練習では、以前制作いただいたFutraさんのカスタム・モデルを使ってます。
+                  translation: For practicing at home, I use a custom model by Futra that was made for me previously.
+                - text: アンプやエフェクターは何を使用していますか？
+                  translation: What amps and effect pedals do you use?
+                  isinterviewer: true
+                - text: コルグのバッファー・チューナーや、MAD PROFESSORのNew Forest Green Compressor（コンプレッサー）、MXRのM80 Bass D.I.（プリアンプ）、ダークグラスの歪みをつないでいます。
+                  translation: I connect a Korg buffer/tuner, a MAD PROFESSOR New Forest Green Compressor (compressor), an MXR M80 Bass D.I. (preamp), and Darkglass distortion.
+                - text: アンプは、レコーディングだとアンペグのSVT-CL（アンプ・ヘッド）を使っています。
+                  translation: As for amps, I use an Ampeg SVT-CL (amp head) for recording.
+                - text: 鋭く歪んだベース・サウンド印象的ですが、音作りの核となっている機材はありますか？
+                  translation: Your sharply distorted bass sound leaves a strong impression, but is there a piece of gear that is the core of your sound creation?
+                  isinterviewer: true
+                - text: ダークグラスのMicrotubes B1K（ディストーション）です。手に入れてからのレコーディングでは毎回かけていますし、ライヴでも大活躍してくれてます。ダークグラスが大好きなので、B7Kもボードに組み込んでいます。
+                  translation: It is the Darkglass Microtubes B1K (distortion). I have used it in every recording since I got it, and it also plays a huge role in live shows. I love Darkglass, so I also incorporate a B7K into my pedalboard.
+                - text: 9月にリリースしたメジャー1stEP『B!NARY』は、ご自身にとってどんな作品になりましたか？
+                  translation: What kind of work has the 1st major EP "B!NARY", released in September, become for you personally?
+                  isinterviewer: true
+                - text: 私にとっての名刺のような作品になったと思ってます。今の自分が出来ることを詰め込んでいて、NEK!らしさと同時に私らしさがとても出ました！
+                  translation: I think it has become a work that is like a business card for me. It is packed with what I can do right now, and it really brings out my own style at the same time as the essence of NEK!!
+                - text: 「これを聴いてほしい！」というイチオシのご自身のベース・プレイを挙げるとすると？
+                  translation: If you were to name your top recommended bass play where you think, "I want you to hear this!", what would it be?
+                - text: とても迷いましたが、「MAGiC VoX」を推します！　Aメロのスラップは現状NEK!最速のフレーズです！　スラップがとても効いている楽曲ですが、サビのウォーキング・ベースにも注目していただきたいです。
+                  translation: I hesitated a lot, but I recommend "MAGiC VoX"! The slap bass in the A-melody is currently the fastest phrase in NEK!! It is a song where the slap bass is very effective, but I also want you to pay attention to the walking bass in the chorus.
+                - text: 最後に、今後の目標を教えてください。
+                  translation: Finally, please tell us your goals for the future.
+                  isinterviewer: true
+                - text: 音だけ聴いたら“女の子とは思えない！”をずっと目標にしているので、今後も強い音を追求し続けていきたいです。そしてさらにベースの華を広めていけるベーシストになれたらと思います！
+                  translation: My goal has always been to make people think, "I can't believe a girl is playing this!" just by listening to the sound, so I want to keep pursuing a strong sound. And I hope to become a bassist who can spread the appeal of the bass even further!
+        - basicsection:
+            label: My Roots Albums
+            subsections:
+            - interviewsubsection:
+                lines:
+                - text: Kanadeに、自身のルーツとなった3作品を挙げてもらった。
+                  translation: We asked Kanade to list the 3 works that became her musical roots.
+                  isinterviewer: true
+            - interviewsubsection:
+                label: '"BLUE BLOOD" (1989) - X JAPAN'
+                lines:
+                - text: 私がベースを始めたきっかけとなった1枚です。特に「BLUE BLOOD」のギター・ソロ中に一瞬前に出てくるフレーズに惚れました！　ほかにも「XCLAMATION」で初めてスラップに出会ったり、私にベースを教えてくれた作品です。
+                  translation: This is the album that became the reason I started playing the bass. I especially fell in love with the phrase that comes to the front for a moment during the guitar solo in "BLUE BLOOD"! Besides that, it is the work where I encountered slap bass for the first time in "XCLAMATION", and it taught me about the bass.
+            - interviewsubsection:
+                label: '"Gachatto Best <2010-2014>" (2014) - Gacharic Spin'
+                lines:
+                - text: スラップの練習を初めてから、Gacharic Spinさんの曲をたくさんコピーしていて、このアルバムからは4曲コピーしました。今でも元気をもらいたいときによくこのアルバムを聴きます！
+                  translation: After I started practicing slap bass, I copied many of Gacharic Spin's songs, and I copied 4 songs from this album. Even now, I often listen to this album when I want to get energized!
+            - interviewsubsection:
+                label: '"AWAKENING FROM ABYSS" (2017) - LOVEBITES'
+                lines:
+                - text: ピック弾きとスラップしかほとんど練習していなかったのですが、メタルが好きになり“指弾きがうまくなりたい！”と思い、コピーをしました。アルバムを通して好きな曲もたくさん入っているので、今聴いてもアガります！
+                  translation: I had mostly only practiced playing with a pick and slap, but I came to like metal and thought, "I want to get better at fingerstyle playing!", so I copied their songs. There are also many songs I like throughout the album, so it still pumps me up when I listen to it now!
+    part-of:
+      media:
+        year: 2026
+        id: bassmagazinekanade
+
+- update:
+    media:
+      year: 2026
+      id: bassmagazinekanade
+    date: 2026-09-17
+    text:
+    - Added the interview
+    - Added the translation of the interview
+    part-of:
+      media:
+        year: 2026
+        id: bassmagazinekanade
+
 - webimage:
     domain: bassmagazine.jp
     page: 202608-badass-rookie-neki-kanade

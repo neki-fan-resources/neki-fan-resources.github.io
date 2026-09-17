@@ -1,0 +1,22 @@
+mediawritten:
+  year: 2026
+  id: bassmagazinekanade
+  cover-image:
+    webimage:
+      domain: bassmagazine.jp
+      page: 202608-badass-rookie-neki-kanade
+      id: onstage1
+  publication: BASS MAGAZINE
+  issue: BADASS ROOKIE
+  designation: Interview
+  member:
+  - Kanade
+  published-date: 2026-09-17
+  journalist: Shutaro Tsujimoto
+  article-page: 'https://bassmagazine.jp/player/202608-badass-rookie-neki-kanade/'
+  part-of:
+    group:
+      id: media
+      group: 2026
+  categories:
+  - mediummedia

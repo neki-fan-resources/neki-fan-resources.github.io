@@ -1,0 +1,55 @@
+- postx:
+    id: 2100481739831517680
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-09-17
+    text: |-
+      【RADIO📻】
+      
+      9/23(水祝) 21:00~放送
+      FM長崎ミュージックシルバーウィーク
+      「アネキのMAKE IT NEK! RADIO〜B!NARY〜」
+      
+      #FM長崎 にて2度目の特番の放送が決定🎉
+      
+      NEK!4人で出演いたします！
+      ぜひお聴きください✅
+      
+      https://fmnagasaki.co.jp/2026/09/11/%E3%80%90%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E3%81%AF%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%A7%E9%9F%B3%E6%A5%BD%EF%BC%81%E3%80%91fm%E9%95%B7%E5%B4%8E-%E3%83%9F/
+      
+      #NEKI
+    translation: |-
+      【RADIO📻】
+      
+      Broadcasting on 9/23 (Wed/Holiday) from 21:00~
+      FM Nagasaki Music Silver Week
+      "Aneki no MAKE IT NEK! RADIO ~B!NARY~"
+      
+      A 2nd special broadcast on #FM Nagasaki has been confirmed🎉
+      
+      All 4 members of NEK! will appear!
+      Please be sure to tune in✅
+      
+      https://fmnagasaki.co.jp/2026/09/11/%E3%80%90%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E3%81%AF%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%A7%E9%9F%B3%E6%A5%BD%EF%BC%81%E3%80%91fm%E9%95%B7%E5%B4%8E-%E3%83%9F/
+      
+      #NEKI
+    image:
+    - HSZo97Tb0AAzdL1
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisilverweek
+
+- postximage:
+    post: 2100481739831517680
+    id: HSZo97Tb0AAzdL1
+    index: 1
+    label: Flyer
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakisilverweek
+    part-of:
+      postx: 2100481739831517680
+

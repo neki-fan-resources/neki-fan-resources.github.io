@@ -189,3 +189,12 @@
     part-of:
       postx: 2095115612007838165
 
+- youtubevideo:
+    id: ikrsoaezYuQ
+    label: Tinder Event ad
+    published-date: 2026-09-17
+    context:
+    - song: ratatat
+    part-of:
+      song: ratatat
+

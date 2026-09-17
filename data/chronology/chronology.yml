@@ -55,12 +55,18 @@ contentpage:
   - show:
       year: 2026
       id: tokyocalling
+  - media:
+      year: 2026
+      id: fmnagasakisilverweek
   - show:
       year: 2026
       id: debuttourtokyo
   - media:
       year: 2026
       id: bayfm78shinradio
+  - media:
+      year: 2026
+      id: bassmagazinekanade
   - media:
       year: 2026
       id: utanetmute

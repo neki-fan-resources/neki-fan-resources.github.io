@@ -1,0 +1,75 @@
+- webimage:
+    domain: bassmagazine.jp
+    page: 202608-badass-rookie-neki-kanade
+    id: azuki
+    label: Azuki-chan
+    published-date: 2026-09-17
+    url: 'https://bassmagazine.jp/wp-content/uploads/bm-nek-bass.jpeg'
+    context:
+    - media:
+        year: 2026
+        id: bassmagazinekanade
+    todo: this background is know
+    part-of:
+      webpage:
+        domain: bassmagazine.jp
+        id: 202608-badass-rookie-neki-kanade
+
+- webimage:
+    domain: bassmagazine.jp
+    page: 202608-badass-rookie-neki-kanade
+    id: onstage1
+    label: On stage
+    info: Kanade
+    published-date: 2026-09-17
+    url: 'https://bassmagazine.jp/wp-content/uploads/bm-nek-1.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: gravityvol8
+    todo: better quality image on X
+    part-of:
+      webpage:
+        domain: bassmagazine.jp
+        id: 202608-badass-rookie-neki-kanade
+
+- webimage:
+    domain: bassmagazine.jp
+    page: 202608-badass-rookie-neki-kanade
+    id: onstage2
+    label: On stage
+    info: Kanade
+    published-date: 2026-09-17
+    url: 'https://bassmagazine.jp/wp-content/uploads/bm-nek-4.jpg'
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      webpage:
+        domain: bassmagazine.jp
+        id: 202608-badass-rookie-neki-kanade
+
+- webpage:
+    domain: bassmagazine.jp
+    id: 202608-badass-rookie-neki-kanade
+    label: Interview
+    published-date: 2026-09-17
+    url: 'https://bassmagazine.jp/player/202608-badass-rookie-neki-kanade/'
+    image:
+    - onstage1
+    - onstage2
+    - azuki
+    part-of:
+      media:
+        year: 2026
+        id: bassmagazinekanade
+    reference:
+    - postximage:
+        post: 2064362227986272527
+        image: HKYNUmibYAAEm62
+    - postximage:
+        post: 2096212406787883057
+        image: HRc-AfdbEAEDcgn
+

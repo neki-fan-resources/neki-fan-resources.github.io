@@ -6,6 +6,11 @@
         label: main
         sections:
         - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: 8ZxI_yZZfIA
+        - basicsection:
             label: Live, with original audio
             subsections:
             - multimediasubsection:
@@ -186,6 +191,70 @@
     part-of:
       song: mute
 
+- postx:
+    id: 2100057082812617164
+    account: USEN_HITS
+    label: USEN HIT J-POP Ranking
+    published-date: 2026-09-16
+    text: |-
+      今週のUSEN HIT J-POP ランキング 発表！🔔
+      
+      オンエアは9/19からスタート🔊
+    translation: |-
+      This week's USEN HIT J-POP Ranking announcement! 🔔
+      
+      On-air starts from 9/19 🔊
+    image:
+    - HSO9jBbaEAAe0yT
+    part-of:
+      song: mute
+
+- postx:
+    id: 2100918241875083492
+    account: nekiband_jp
+    label: Coming Soon
+    published-date: 2026-09-18
+    text: |-
+      ▶︎ •၊||၊၊ COMING SOON ၊၊||၊･◀︎
+      
+      Major 1st EP「B!NARY」収録
+      
+      〝MUTE〟
+      Official Music Video
+      
+      明日9/19(土)21:00
+      YouTubeにてプレミア公開が決定🎥✨
+      
+      公開時メンバーもチャットに参加！
+      ぜひリアルタイムでお楽しみください📈
+      
+      https://youtu.be/8ZxI_yZZfIA
+      
+      #NEKI #MUTE
+    translation: |-
+      ▶︎ •၊||၊၊ COMING SOON ၊၊||၊･◀︎
+      
+      Featured on Major 1st EP "B!NARY"
+      
+      "MUTE"
+      Official Music Video
+      
+      Tomorrow 9/19 (Sat) 21:00
+      Premiering on YouTube🎥✨
+      
+      Members will also join the chat during the premiere!
+      Please enjoy it in real time📈
+      
+      https://youtu.be/8ZxI_yZZfIA
+      
+      #NEKI #MUTE
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2100918241875083492
+        video: 1
+
 - postximage:
     post: 2096040623643967726
     id: HRSIsczbkAAOySn
@@ -195,4 +264,43 @@
     - song: mute
     part-of:
       postx: 2096040623643967726
+
+- postximage:
+    post: 2100057082812617164
+    id: HSO9jBbaEAAe0yT
+    index: 1
+    label: USEN HIT J-POP Ranking
+    context:
+    - song: mute
+    part-of:
+      postx: 2100057082812617164
+
+- postxvideo:
+    post: 2100918241875083492
+    id: 1
+    label: MV teaser
+    cover: 2100918115127402497/img/efL55sb_k5l5AJdo.jpg
+    context:
+    - song: mute
+    part-of:
+      song: mute
+
+- youtubeshort:
+    id: 1r8YFNMDQrE
+    label: MV teaser
+    published-date: 2026-09-18
+    context:
+    - song: mute
+    part-of:
+      song: mute
+
+- youtubevideo:
+    id: 8ZxI_yZZfIA
+    label: Official Music Video
+    published-date: 2026-09-19
+    context:
+    - song: mute
+    todo: add the mme
+    part-of:
+      song: mute
 

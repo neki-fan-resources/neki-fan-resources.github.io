@@ -125,7 +125,22 @@
         - basicsection:
             label: Behind the scenes
             subsections:
+            - textsubsection:
+                multimedia:
+                  postxvideo:
+                    post: 2100858602231939393
+                    video: 1
+                lines:
+                - line:
+                  - text: 'The full behind-the-scenes video is available at NEK! fan club Nekimin:'
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: neki.bitfan.id
+                        id: 441466
+                      text: behind-the-scene video - FC
             - multimediasubsection:
+                label: Videos
                 multimedia:
                 - youtubeshort: _UJDoezA41U
                 - youtubeshort: YN_mxJtd-vA
@@ -163,6 +178,7 @@
                     post: DaskLuzmVH9
                     video: 3
             - multimediasubsection:
+                label: Images
                 multimedia:
                 - postinstagramimage:
                     post: Da2GL5JkTSo
@@ -1722,6 +1738,42 @@
         post: 2080902274621341997
         video: 1
 
+- postx:
+    id: 2100858602231939393
+    account: nekiband_jp
+    label: Behind the scenes video
+    published-date: 2026-09-18
+    text: |-
+      【#ネキ民 MOVIE🎥】
+      
+      ファンクラブコンテンツ更新！
+      
+      "FLiCK" Official Music Video
+      - BEHIND THE SCENES - 動画公開⚡️
+      
+      ▼ FC MOVIEはこちらから✔️
+      https://neki.bitfan.id/contents/menu/166309
+      
+      #NEKI
+    translation: |-
+      【#NEKIMIN MOVIE🎥】
+      
+      Fan club content updated!
+      
+      "FLiCK" Official Music Video
+      - BEHIND THE SCENES - Video released⚡️
+      
+      ▼ Watch FC MOVIE here✔️
+      https://neki.bitfan.id/contents/menu/166309
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2100858602231939393
+        video: 1
+
 - postximage:
     post: 2064648886728483169
     id: HKcX7azaUAAKYpA
@@ -1945,6 +1997,17 @@
     part-of:
       song: flick
 
+- postxvideo:
+    post: 2100858602231939393
+    id: 1
+    label: Behind the scenes video
+    info: short sample of the full video
+    cover: 2100856465229742080/img/v9mUoDZjdcEoFyGC.jpg
+    context:
+    - song: flick
+    part-of:
+      song: flick
+
 - update:
     song: flick
     date: 2026-04-27
@@ -1983,6 +2046,14 @@
     date: 2026-07-04
     text:
     - More pictures and videos added
+    part-of:
+      song: flick
+
+- update:
+    song: flick
+    date: 2026-09-19
+    text:
+    - Added the behind-the-scenes video
     part-of:
       song: flick
 
@@ -2107,6 +2178,15 @@
     - postximage:
         post: 2064648886728483169
         image: HKcX7azaUAAKYpA
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 441466
+    label: Behind the scenes video
+    published-date: 2026-09-18
+    url: 'https://neki.bitfan.id/contents/441466'
+    part-of:
+      song: flick
 
 - webpage:
     domain: realsound.jp

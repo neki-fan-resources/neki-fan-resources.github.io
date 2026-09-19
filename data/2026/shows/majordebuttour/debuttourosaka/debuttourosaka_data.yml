@@ -22,13 +22,28 @@
                     post: Dc3nJ5Skvto
                     image: 4
                 - postinstagramimage:
-                    post: Dc3nJ5Skvto
+                    post: DdaxD33GsZG
                     image: 2
                 - postximage:
                     post: 2095881581416386617
                     image: HRYRLslacAAz_CG
+                - postinstagramimage:
+                    post: DdaxD33GsZG
+                    image: 4
+                - postinstagramimage:
+                    post: Dc3nJ5Skvto
+                    image: 2
+                - postinstagramimage:
+                    post: DdaxD33GsZG
+                    image: 9
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DdaxD33GsZG
+                    image: 7
+                - postinstagramimage:
+                    post: DdaxD33GsZG
+                    image: 5
                 - postximage:
                     post: 2095876327522128149
                     image: HRYMZ-ma0AEpXIP
@@ -50,9 +65,15 @@
                     image: HRYM_NsakAAq4_U
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DdaxD33GsZG
+                    image: 1
                 - postximage:
                     post: 2095876327522128149
                     image: HRYMZ-YbEAAF2vT
+                - postinstagramimage:
+                    post: DdaxD33GsZG
+                    image: 6
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -64,6 +85,14 @@
                 - postximage:
                     post: 2095877890147778582
                     image: HRYN1EzboAAsoLq
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DdaxD33GsZG
+                    image: 8
+                - postinstagramimage:
+                    post: DdaxD33GsZG
+                    image: 10
     part-of:
       show:
         year: 2026
@@ -126,6 +155,71 @@
         post: 2095881581416386617
         image: HRYRLspaQAASR_Q
 
+- postinstagram:
+    id: DdaxD33GsZG
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-09-18
+    text: |-
+      2026.09.05
+      「NEK! MAJOR DEBUT TOUR」@大阪BANGBOO
+      
+      初日からフロアと汗だくになって楽しめて最高でした🐙❤️‍🔥
+      
+      この日初披露した新曲たちも、発売日から皆たくさんEPを聞いてきてくれたんだな〜って分かるくらい既にノリができてて嬉しかったです！皆さんさすが！！
+      
+      この新曲たちが仲間入りしたこれからのライブがますます楽しみになりました！
+      これからもたくさん声聞かせてくださいね🫶🏻
+      
+      素敵なお写真たくさん撮っていただいたので遅くなっちゃいましたが皆さんにもお裾分けしたくなりました☺️
+      
+      また東名阪ツアー完結したらゆっくり振り返り投稿します〜〜！
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer 
+      
+      Photo by @shohnophoto
+    translation: |-
+      2026.09.05
+      "NEK! MAJOR DEBUT TOUR" @ Osaka BANGBOO
+      
+      Getting all sweaty and having fun with the crowd right from day one was the best🐙❤️‍🔥
+      
+      For the new songs performed for the first time that day, the vibes and groove were already so dialed in that I could really tell everyone had been listening to the EP a lot since release day, which made me so happy! You all are amazing, as expected!!
+      
+      With these new songs joining the set, I'm looking forward to our upcoming shows even more!
+      Please keep letting us hear your voices a lot🫶🏻
+      
+      So many wonderful photos were taken that, even though it's a bit late, I really wanted to share them with everyone☺️
+      
+      Once the Tokyo-Nagoya-Osaka tour wraps up, I'll make a post to look back on everything at a relaxed pace~~!
+      ⁡
+      
+      #neki #neki_band #girlsband #drum #femaledrummer 
+      
+      Photo by @shohnophoto
+    image:
+    - 1
+    - 2
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+    reference:
+    - postximage:
+        post: 2095876327522128149
+        image: HRYMZ-YbEAAF2vT
+    - postximage:
+        post: 2095877890147778582
+        image: HRYN1EzboAAsoLq
+
 - postinstagramimage:
     post: Dc3nJ5Skvto
     id: 2
@@ -147,6 +241,109 @@
         id: debuttourosaka
     part-of:
       postinstagram: Dc3nJ5Skvto
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 10
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 4
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 5
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 6
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 7
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 8
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
+
+- postinstagramimage:
+    post: DdaxD33GsZG
+    id: 9
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
+    part-of:
+      postinstagram: DdaxD33GsZG
 
 - postx:
     id: 2095481966527492421

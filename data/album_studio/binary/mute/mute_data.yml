@@ -40,96 +40,177 @@
       source:
         description: from uta-net.com
         url: 'https://www.uta-net.com/song/398196/'
+    - id: en
+      name: english translation
+      details: (from the YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from the YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=8ZxI_yZZfIA'
     sections:
     - lines:
       - ol:
         - 自認世渡り上手なあの子　日課　界隈パトロール
+        en:
+        - That savvy girl Patrols her scene every day
       - ol:
         - いじられ役で　ポジション確保
+        en:
+        - Plays the joke To hold her place
       - ol:
         - 裏ですり減り　ため息ついて
+        en:
+        - Worn down inside She sighs alone
     - lines:
       - ol:
         - バ先の苦手な先輩の
+        en:
+        - That senior she can't stand
       - ol:
         - 口癖は「普通分かるよね？」
+        en:
+        - "\"You'd know that, right?\""
     - lines:
       - ol:
         - 質問　生成　質問　生成
+        en:
+        - Question, question More and more
       - ol:
         - 「なにが普通でしょうか？」
+        en:
+        - \"What's 'normal,' anyway?\"
     - lines:
       - ol:
         - 鏡の前　表情管理　いーってして
+        en:
+        - In the mirror Smile on cue
       - ol:
         - ミュートカラーの浮かずカブらず存在証明
+        en:
+        - Muted colors Not standing out, not blending in
     - lines:
       - ol:
         - 誰かのルールで生きていたってしょうがないし
+        en:
+        - No point living By someone else's rules
       - ol:
         - カオスな自由抱え飛び出すよ
+        en:
+        - I'll run free With all my chaos
       - ol:
         - I promise me. 声上げろ革命声明
+        en:
+        - I promise me. Raise your voice. Start a revolution.
       - ol:
         - むきだしの私は　不器用でも　はみ出ても
+        en:
+        - My unfiltered self Awkward, out of line
       - ol:
         - うまく笑える
+        en:
+        - Can smile for real
     - lines:
       - ol:
         - 無難化武装　解除して　ひとつひとつ付けていく
+        en:
+        - Disarm the safe-play Put on my own, piece by piece
       - ol:
         - 鈍く光ったピアスの感触で　私を取り戻す
+        en:
+        - The feel of my dull-shining studs Brings me back to me
     - lines:
       - ol:
         - 器用に縛られてあげる
+        en:
+        - I'll play along
       - ol:
         - 本当の私は譲らない
+        en:
+        - If I have to But I won't give up Who I really am
     - lines:
       - ol:
         - 謝ってほしいならナンボでもどうぞ
+        en:
+        - Want an apology? Have as many as you want
       - ol:
         - もういいかい？
+        en:
+        - Are we done?
     - lines:
       - ol:
         - 優等生　考察合戦
+        en:
+        - Honor students Analyzing everyone
       - ol:
         - 結果冷笑　サヨナラ
+        en:
+        - Nothing but sneers Goodbye
       - ol:
         - どうせ　鍵アカ　裏アカ　あいたた
+        en:
+        - Private accounts Secret accounts... ouch
       - ol:
         - MUTE！ Hello, Can we be friends？
     - lines:
       - ol:
         - 誰かの決めた　ルールブック書き換えちゃって
+        en:
+        - I'll rewrite Your rulebook
       - ol:
         - カオスな　私だけの不文律
+        en:
+        - My chaotic code Mine alone
       - ol:
         - I promise me. 声上げろ革命声明
+        en:
+        - I promise me. Raise your voice. Start a revolution
       - ol:
         - むきだしの私は　不器用でも　はみ出ても
+        en:
+        - My unfiltered self Awkward, out of line
       - ol:
         - うまく笑える
+        en:
+        - Can smile for real
     - lines:
       - ol:
         - 鏡の前　表情管理　いーってして
+        en:
+        - In the mirror Smile on cue
       - ol:
         - ミュートしかけた　付かず離れず存在証明
+        en:
+        - Half-muted Close, but not too close
     - lines:
       - ol:
         - 誰にも　嫌われない
+        en:
+        - So no one hates me
       - ol:
         - 私が　私はいちばん嫌い
+        en:
+        - But I hate myself most
     - lines:
       - ol:
         - 誰かのルールで生きていたってしょうがないし
+        en:
+        - No point living By someone else's rules
       - ol:
         - カオスな自由抱え飛び出すよ
+        en:
+        - I'll run free With all my chaos
       - ol:
         - I promise me. 声上げろ革命声明
+        en:
+        - I promise me. Raise your voice. Start a revolution.
       - ol:
         - 本当の私なら　不器用でも　はみ出ても
+        en:
+        - If I'm truly me Awkward, out of line
       - ol:
         - うまく笑える
+        en:
+        - I can smile for real
 
 - postx:
     id: 2096040623643967726
@@ -282,6 +363,15 @@
     cover: 2100918115127402497/img/efL55sb_k5l5AJdo.jpg
     context:
     - song: mute
+    part-of:
+      song: mute
+
+- update:
+    song: mute
+    date: 2026-09-19
+    text:
+    - Added official music video
+    - Added english translated lyrics
     part-of:
       song: mute
 

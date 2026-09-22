@@ -12,6 +12,9 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: TpkXOCnt84c
+            - multimediasubsection:
+                multimedia:
                 - postxvideo:
                     post: 2097696600022007924
                     video: 1
@@ -756,6 +759,19 @@
     date: 2026-09-04
     text:
     - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+
+- youtubeshort:
+    id: TpkXOCnt84c
+    label: Digest movie
+    published-date: 2026-09-20
+    context:
+    - show:
+        year: 2026
+        id: debuttourosaka
     part-of:
       show:
         year: 2026

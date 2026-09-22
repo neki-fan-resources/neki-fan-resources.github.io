@@ -19,6 +19,87 @@
                     post: 2097696600022007924
                     video: 1
     - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: 8ZxI_yZZfIA
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: Ddfi4NfEtMS
+                    image: 5
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Ddfi4NfEtMS
+                    image: 1
+                - postinstagramimage:
+                    post: Ddfi4NfEtMS
+                    image: 6
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Ddfi4NfEtMS
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Ddfi4NfEtMS
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Ddfi4NfEtMS
+                    image: 4
+        - basicsection:
+            label: Behind the scenes
+            subsections:
+            - multimediasubsection:
+                label: Videos
+                multimedia:
+                - postxvideo:
+                    post: 2101529949178040571
+                    video: 1
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: Ddd-K9LJu7J
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DdgXPc7JQTJ
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DdgvMoykkdk
+                    image: 1
+                - postinstagramimage:
+                    post: DdgvMoykkdk
+                    image: 2
+                - postinstagramimage:
+                    post: DdgvMoykkdk
+                    image: 3
+                - postinstagramimage:
+                    post: DdgvMoykkdk
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2101603556566708606
+                    image: HSplS4iboAA2eCu
+                - postximage:
+                    post: 2101603556566708606
+                    image: HSplS53bAAAna_u
     part-of:
       song: mute
 
@@ -212,6 +293,215 @@
         en:
         - I can smile for real
 
+- postinstagram:
+    id: Ddd-K9LJu7J
+    account: 46_hikaa
+    label: MV images
+    published-date: 2026-09-19
+    text: |-
+      MUTEのMVみんな見てね〜
+    translation: |-
+      Everyone, make sure to check out the MUTE MV~
+    image:
+    - 1
+    part-of:
+      song: mute
+
+- postinstagram:
+    id: Ddfi4NfEtMS
+    account: nekiband_jp
+    label: MV watch now
+    published-date: 2026-09-20
+    text: |-
+      ✦ ⟡ WATCH NOW ⟡ ✦
+      
+      Major 1st EP『B!NARY』収録
+      "MUTE" Official MV公開中🎞️
+      ▶︎ https://youtu.be/8ZxI_yZZfIA
+      
+      9/23(水祝) duo MUSIC EXCHANGE
+      ツアーファイナル東京公演開催❤️‍🔥
+      ▶︎ https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      #NEKI #MUTE
+    translation: |-
+      ✦ ⟡ WATCH NOW ⟡ ✦
+      
+      Featured on Major 1st EP "B!NARY"
+      "MUTE" Official MV now available🎞️
+      ▶︎ https://youtu.be/8ZxI_yZZfIA
+      
+      9/23 (Wed/Holiday) duo MUSIC EXCHANGE
+      Tour final Tokyo show taking place❤️‍🔥
+      ▶︎ https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      #NEKI #MUTE
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    part-of:
+      song: mute
+
+- postinstagram:
+    id: DdgXPc7JQTJ
+    account: 46_hikaa
+    label: MV images
+    published-date: 2026-09-20
+    text: |-
+      MUTEのオフショット！
+    translation: |-
+      Behind-the-scenes shots from MUTE!
+    image:
+    - 1
+    part-of:
+      song: mute
+
+- postinstagram:
+    id: DdgvMoykkdk
+    account: natsu08_guitar
+    label: 50k views
+    published-date: 2026-09-20
+    text: |-
+      .
+      “MUTE “オフショ📸
+      
+      #5万回ありがとございます
+      #NEKI #guitarist
+    translation: |-
+      "MUTE" off-shot📸
+      
+      #Thank you very much for 50,000 views
+      #NEKI #guitarist
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    part-of:
+      song: mute
+
+- postinstagramimage:
+    post: Ddd-K9LJu7J
+    id: 1
+    label: Behind the scenes
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Ddd-K9LJu7J
+
+- postinstagramimage:
+    post: Ddfi4NfEtMS
+    id: 1
+    label: MV image
+    info: Hika
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Ddfi4NfEtMS
+
+- postinstagramimage:
+    post: Ddfi4NfEtMS
+    id: 2
+    label: MV image
+    info: Natsu
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Ddfi4NfEtMS
+
+- postinstagramimage:
+    post: Ddfi4NfEtMS
+    id: 3
+    label: MV image
+    info: Kanade
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Ddfi4NfEtMS
+
+- postinstagramimage:
+    post: Ddfi4NfEtMS
+    id: 4
+    label: MV image
+    info: Cocoro
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Ddfi4NfEtMS
+
+- postinstagramimage:
+    post: Ddfi4NfEtMS
+    id: 5
+    label: MV image
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Ddfi4NfEtMS
+
+- postinstagramimage:
+    post: Ddfi4NfEtMS
+    id: 6
+    label: MV image
+    info: Hika
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Ddfi4NfEtMS
+
+- postinstagramimage:
+    post: DdgXPc7JQTJ
+    id: 1
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: mute
+    part-of:
+      postinstagram: DdgXPc7JQTJ
+
+- postinstagramimage:
+    post: DdgvMoykkdk
+    id: 1
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: mute
+    part-of:
+      postinstagram: DdgvMoykkdk
+
+- postinstagramimage:
+    post: DdgvMoykkdk
+    id: 2
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: mute
+    part-of:
+      postinstagram: DdgvMoykkdk
+
+- postinstagramimage:
+    post: DdgvMoykkdk
+    id: 3
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: mute
+    part-of:
+      postinstagram: DdgvMoykkdk
+
+- postinstagramimage:
+    post: DdgvMoykkdk
+    id: 4
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: mute
+    part-of:
+      postinstagram: DdgvMoykkdk
+
 - postx:
     id: 2096040623643967726
     account: USEN_HITS
@@ -336,6 +626,33 @@
         post: 2100918241875083492
         video: 1
 
+- postx:
+    id: 2101529949178040571
+    account: coco_102
+    label: 30k views
+    published-date: 2026-09-20
+    text: |-
+      "MUTE" 3万回再生ありがとう🥲🙏🏻✨
+    translation: |-
+      "MUTE" thank you for 30,000 views🥲🙏🏻✨
+    video:
+    - 1
+    part-of:
+      song: mute
+
+- postx:
+    id: 2101603556566708606
+    account: cure_bass_baka
+    label: MV images
+    published-date: 2026-09-20
+    text: |-
+      MUTE！📢
+    image:
+    - HSplS4iboAA2eCu
+    - HSplS53bAAAna_u
+    part-of:
+      song: mute
+
 - postximage:
     post: 2096040623643967726
     id: HRSIsczbkAAOySn
@@ -356,6 +673,28 @@
     part-of:
       postx: 2100057082812617164
 
+- postximage:
+    post: 2101603556566708606
+    id: HSplS4iboAA2eCu
+    index: 1
+    label: Behind the scenes
+    info: Kanade
+    context:
+    - song: mute
+    part-of:
+      postx: 2101603556566708606
+
+- postximage:
+    post: 2101603556566708606
+    id: HSplS53bAAAna_u
+    index: 2
+    label: Behind the scenes
+    info: Kanade
+    context:
+    - song: mute
+    part-of:
+      postx: 2101603556566708606
+
 - postxvideo:
     post: 2100918241875083492
     id: 1
@@ -366,6 +705,17 @@
     part-of:
       song: mute
 
+- postxvideo:
+    post: 2101529949178040571
+    id: 1
+    label: Behind the scenes
+    info: Cocoro
+    cover: 2101529930832175104/img/fsjq_dPFNZye_Mri.jpg
+    context:
+    - song: mute
+    part-of:
+      postx: 2101529949178040571
+
 - update:
     song: mute
     date: 2026-09-19
@@ -375,10 +725,36 @@
     part-of:
       song: mute
 
+- update:
+    song: mute
+    date: 2026-09-21
+    text:
+    - Music Video behind-the-scene content
+    part-of:
+      song: mute
+
 - youtubeshort:
     id: 1r8YFNMDQrE
     label: MV teaser
     published-date: 2026-09-18
+    context:
+    - song: mute
+    part-of:
+      song: mute
+
+- youtubeshort:
+    id: FVIMo_nCsSs
+    label: Music Video
+    published-date: 2026-09-19
+    context:
+    - song: mute
+    part-of:
+      song: mute
+
+- youtubeshort:
+    id: LYaoa4ZMBTA
+    label: Music Video
+    published-date: 2026-09-20
     context:
     - song: mute
     part-of:

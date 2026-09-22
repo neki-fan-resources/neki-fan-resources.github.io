@@ -1,0 +1,89 @@
+- postx:
+    id: 2101239816805650446
+    account: nekiband_jp
+    label: Show details
+    published-date: 2026-09-19
+    text: |-
+      🚨🔥ツアーファイナル🔥🚨
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      📍東京・duo MUSIC EXCHANGE
+      ⏰ 9/23(水) 16:15 OPEN / 17:00 START
+      
+      いよいよ来週開催！
+      公演詳細を更新いたしました♻️
+      
+      ★当日会場内に女性・子ども専用エリアを設置
+      ★グッズ先行販売 13:00~
+      ★ツアータオル新カラー追加！
+      ★チケット残りわずか⚠️
+      
+      東名阪ツアーファイナル公演💥
+      皆さまのご来場をお待ちしております！
+      
+      🔗https://neki.bitfan.id/schedules/105984
+      
+      #NEKI
+    translation: |-
+      🚨🔥 Tour Final 🔥🚨
+      
+      "NEK! MAJOR DEBUT TOUR"
+      
+      📍 Tokyo · duo MUSIC EXCHANGE
+      ⏰ 9/23 (Wed) 16:15 OPEN / 17:00 START
+      
+      Finally happening next week!
+      Show details have been updated ♻️
+      
+      ★ Dedicated women & children area set up inside the venue on the day
+      ★ Early merch sales from 13:00~
+      ★ New tour towel color added!
+      ★ Only a few tickets left ⚠️
+      
+      Tokyo-Nagoya-Osaka tour final show 💥
+      We look forward to seeing everyone there!
+      
+      🔗https://neki.bitfan.id/schedules/105984
+      
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+    reference:
+    - postximage:
+        post: 2078313821127512416
+        image: HNeUfX9bEAAmHMs
+
+- postx:
+    id: 2101241633178300641
+    account: nekiband_jp
+    label: Goods lineup
+    published-date: 2026-09-19
+    text: |-
+      🎁GOODS LINEUP🎁
+    image:
+    - HSkcFR_bkAAOlkR
+    part-of:
+      postx: 2101239816805650446
+    reference:
+    - postximage:
+        post: 2093988307353080191
+        image: HQ9Wx8PaUAAgtfs
+    - postximage:
+        post: 2093988307353080191
+        image: HQ9Wz4gaAAA2fj2
+
+- postximage:
+    post: 2101241633178300641
+    id: HSkcFR_bkAAOlkR
+    index: 1
+    label: Merch
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2101241633178300641
+

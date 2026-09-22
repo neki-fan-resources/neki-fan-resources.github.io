@@ -11,6 +11,9 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - youtubeshort: o6fg7fdcalc
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
@@ -24,6 +27,10 @@
                     image: 4
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: bassmagazine.jp
+                    page: 202608-badass-rookie-neki-kanade
+                    id: onstage2
                 - postximage:
                     post: 2096212406787883057
                     image: HRc-AfdbEAEDcgn
@@ -48,6 +55,12 @@
                 - postximage:
                     post: 2096209645975298443
                     image: HRc7jYmb0AAm3rd
+                - postinstagramimage:
+                    post: Ddjfu07mjQP
+                    image: 3
+                - postinstagramimage:
+                    post: Ddjfu07mjQP
+                    image: 5
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -61,9 +74,22 @@
                     image: HRc-AfgakAAbNYI
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: Ddjfu07mjQP
+                    image: 6
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: Ddjfu07mjQP
+                    image: 7
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2096209645975298443
                     image: HRc7jYfaAAADZst
+                - postinstagramimage:
+                    post: Ddjfu07mjQP
+                    image: 8
     part-of:
       show:
         year: 2026
@@ -139,6 +165,88 @@
         year: 2026
         id: debuttournagoya
 
+- postinstagram:
+    id: Ddjfu07mjQP
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-09-21
+    text: |-
+      2026.08.05
+      ⁡
+      「NEK! MAJOR DEBUT TOUR」@愛知 RAD SEVEN
+      お越しくださった皆様ありがとうございました👊🏻🩵
+      ⁡
+      今回初めて訪れたRAD SEVEN！
+      こういうザ！ライブハウス！って感じの箱はフロアの雰囲気や盛り上がりを直に感じることができてとてもテンションが上がりますね🔥
+      
+      今年3月の全国ツアー以来となる愛知ワンマンだったので、皆さんの気合いもひしひしと感じました！たくさん一緒に歌って拳あげて飛び跳ねてくれてありがとう🫶🏻
+      ⁡
+      この日はまさかの新曲MUTEから始まる曲順に驚いた方も多かったんじゃないでしょうか？？そしてアンコール1曲目も新曲のrat a tat！
+      
+      今月頭にリリースしたEP収録曲が既にライブ定番曲になりつつあって、セットリストを組む上で重要な位置に新曲を持って来れているこの今の状況は、ファンの皆さんのリアクションが私たちに自信を持たせてくれている最大の証拠だと私は思います！
+      
+      皆さんの存在が支えとなり私たちは日々色々なことにチャレンジできています！本当にいつもありがとう🙂‍↕️🙏🏻
+      
+      愛知公演も遅くなってしまいましたがエモーショナルでとっても素敵な写真をKさんに撮っていただいたので皆さんにもお裾分け！
+      
+      東名阪ツアーも残すところあと1公演のみとなってしまいました！早すぎる〜〜！！
+      大阪と愛知で皆さんからもらったエネルギーを余すことなく最高の音に変えてduoに轟かせたいと思います🥁💥
+      ⁡
+      最高の集大成をお届けします！よろしくお願いします！！
+      ⁡
+      
+      Photo by @__kpwcam (1~6枚目)
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.08.05
+      ⁡
+      "NEK! MAJOR DEBUT TOUR" @ Aichi RAD SEVEN
+      Thank you very much to everyone who came👊🏻🩵
+      ⁡
+      Our first time visiting RAD SEVEN!
+      Venues that give off that quintessential "livehouse!" vibe really pump up the energy because you can directly feel the floor's atmosphere and excitement🔥
+      
+      Since it was our first one-man show in Aichi since our nationwide tour this past March, I could feel everyone's fired-up spirit loud and clear! Thank you for singing along so much, pumping your fists, and jumping around🫶🏻
+      ⁡
+      I bet many people were surprised by the setlist kicking off unexpectedly with the new song MUTE, right?? And the first encore song was also a new track, rat a tat!
+      
+      Tracks from the EP we released earlier this month are already becoming live staples, and being able to place new songs in key spots when putting together the setlist is, in my view, the biggest proof that all of our fans' reactions give us confidence!
+      
+      Everyone's presence is our support, enabling us to take on various challenges every day! Truly thank you as always🙂‍↕️🙏🏻
+      
+      Even though it's late for the Aichi show as well, K-san took some emotional and wonderfully lovely photos, so here's a share with everyone!
+      
+      Now there's only one show left of our Tokyo-Nagoya-Osaka tour! It went by way too fast~~!!
+      I want to turn all the energy we received from everyone in Osaka and Aichi into the best sound without holding anything back and make it roar through duo🥁💥
+      ⁡
+      We will deliver the ultimate culmination! We appreciate your support!!
+      ⁡
+      
+      Photo by @__kpwcam (1st~6th photos)
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 3
+    - 5
+    - 6
+    - 7
+    - 8
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+    reference:
+    - postximage:
+        post: 2096209645975298443
+        image: HRc7jYfaAAADZst
+    - postximage:
+        post: 2096209645975298443
+        image: HRc7jYaacAARPhy
+    - postximage:
+        post: 2096209645975298443
+        image: HRc7jYmb0AAm3rd
+
 - postinstagramimage:
     post: Dc6ArSREhbw
     id: 4
@@ -161,6 +269,65 @@
         id: debuttournagoya
     part-of:
       postinstagram: DdBHCXbJksm
+
+- postinstagramimage:
+    post: Ddjfu07mjQP
+    id: 3
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postinstagram: Ddjfu07mjQP
+
+- postinstagramimage:
+    post: Ddjfu07mjQP
+    id: 5
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postinstagram: Ddjfu07mjQP
+
+- postinstagramimage:
+    post: Ddjfu07mjQP
+    id: 6
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postinstagram: Ddjfu07mjQP
+
+- postinstagramimage:
+    post: Ddjfu07mjQP
+    id: 7
+    label: Backstage
+    info: After the show
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postinstagram: Ddjfu07mjQP
+
+- postinstagramimage:
+    post: Ddjfu07mjQP
+    id: 8
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    part-of:
+      postinstagram: Ddjfu07mjQP
 
 - postx:
     id: 2071894360917254502
@@ -537,6 +704,19 @@
     date: 2026-09-05
     text:
     - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
+
+- youtubeshort:
+    id: o6fg7fdcalc
+    label: Digest movie
+    published-date: 2026-09-21
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
     part-of:
       show:
         year: 2026

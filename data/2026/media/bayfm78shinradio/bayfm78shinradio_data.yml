@@ -1,3 +1,139 @@
+- display:
+    media:
+      year: 2026
+      id: bayfm78shinradio
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2101979509222469675
+                    image: HSu7BVkboAA_YiT
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2101962538338644168
+                    image: HSupvgbboAAAdrM
+    part-of:
+      media:
+        year: 2026
+        id: bayfm78shinradio
+
+- postx:
+    id: 2101962538338644168
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-21
+    text: |-
+      BAYFM「シン・ラジオ-ヒューマニスタは、かく語りき-」
+      @radio78MHz
+       
+      
+      お聴きいただきありがとうございました📻
+      
+      ▼Major 1st EP『B!NARY』収録
+      "MUTE" Official MV公開中⚡️
+      https://youtu.be/8ZxI_yZZfIA
+      
+      ▼明後日9/23(水祝)開催❗️
+      @ duo MUSIC EXCHANGE
+      ツアーファイナル東京公演🫯
+      https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      #NEKI #シンラジオ
+    translation: |-
+      BAYFM "Shin Radio -Thus Spoke Humanista-"
+      @radio78MHz
+       
+      
+      Thank you very much for listening📻
+      
+      ▼Featured on Major 1st EP "B!NARY"
+      "MUTE" Official MV now available⚡️
+      https://youtu.be/8ZxI_yZZfIA
+      
+      ▼Happening the day after tomorrow, 9/23 (Wed/Holiday)❗️
+      @ duo MUSIC EXCHANGE
+      Tour final Tokyo show🫯
+      https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      #NEKI #ShinRadio
+    image:
+    - HSupvgbboAAAdrM
+    part-of:
+      media:
+        year: 2026
+        id: bayfm78shinradio
+
+- postx:
+    id: 2101979509222469675
+    account: radio78MHz
+    label: Summary
+    published-date: 2026-09-21
+    text: |-
+      #シンラジオ 月曜日✨
+      
+      ゲストは1st EP『B!NARY』をリリースした「NEK!」の #Hika & #Natsu さんでした❣️
+      
+      Natsuさんが初っ端からやらかしを連発！？💥
+      バンド結成の経緯や、今後の目標を熱く語っていただきました🔥
+      感極まって涙も⁉️🥺
+      
+      radikoタイムフリー⤵️
+      https://radiko.jp/share/?sid=BAYFM78&t=20260921170000
+      
+      #BAYFM #NEKI
+    translation: |-
+      #ShinRadio Monday✨
+      
+      The guests were #Hika & #Natsu from "NEK!", who just released their 1st EP "B!NARY"❣️
+      
+      Natsu making blunder after blunder right from the start!?💥
+      They passionately shared the story behind forming the band and their future goals🔥
+      Even moved to tears!?🥺
+      
+      radiko Time Free⤵️
+      https://radiko.jp/share/?sid=BAYFM78&t=20260921170000
+      
+      #BAYFM #NEKI
+    image:
+    - HSu7BVkboAA_YiT
+    part-of:
+      media:
+        year: 2026
+        id: bayfm78shinradio
+
+- postximage:
+    post: 2101962538338644168
+    id: HSupvgbboAAAdrM
+    index: 1
+    label: At the station
+    info: Hika, Natsu
+    context:
+    - media:
+        year: 2026
+        id: bayfm78shinradio
+    part-of:
+      postx: 2101962538338644168
+
+- postximage:
+    post: 2101979509222469675
+    id: HSu7BVkboAA_YiT
+    index: 1
+    label: In the studio
+    info: Hika, Natsu, 遠山大輔, 松浦志穂
+    context:
+    - media:
+        year: 2026
+        id: bayfm78shinradio
+    part-of:
+      postx: 2101979509222469675
+
 - update:
     media:
       year: 2026
@@ -10,11 +146,24 @@
         year: 2026
         id: bayfm78shinradio
 
+- update:
+    media:
+      year: 2026
+      id: bayfm78shinradio
+    date: 2026-09-21
+    text:
+    - Pictures from the appearance
+    part-of:
+      media:
+        year: 2026
+        id: bayfm78shinradio
+
 - webimage:
     domain: bayfm.co.jp
     page: shinradio
     id: flyer
     label: Flyer
+    info: switch to image for x post 2101929424375480538
     published-date: 2026-09-15
     url: 'https://program-static.cf.radiko.jp/9ggw1tfzu9.jpg'
     local-copy: true

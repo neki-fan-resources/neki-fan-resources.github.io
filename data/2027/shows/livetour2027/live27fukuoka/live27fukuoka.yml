@@ -1,0 +1,15 @@
+show:
+  year: 2027
+  id: live27fukuoka
+  cover-image:
+    postximage:
+      post: 2102700118164287773
+      image: HS5KesvbAAAc0AL
+  fullname: Fukuoka
+  date: 2027-02-27
+  tour: livetour2027
+  categories:
+  - tourshow
+  venue: Drum BE-1, Fukuoka
+  part-of:
+    tour: livetour2027

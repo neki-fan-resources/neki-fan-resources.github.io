@@ -1,0 +1,15 @@
+show:
+  year: 2027
+  id: live27tokyo1
+  cover-image:
+    postximage:
+      post: 2102700118164287773
+      image: HS5KesvbAAAc0AL
+  fullname: Tokyo
+  date: 2027-02-10
+  tour: livetour2027
+  categories:
+  - tourshow
+  venue: Spotify O-nest, Tokyo
+  part-of:
+    tour: livetour2027

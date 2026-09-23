@@ -1,0 +1,15 @@
+show:
+  year: 2027
+  id: live27aichi2
+  cover-image:
+    postximage:
+      post: 2102700118164287773
+      image: HS5KesvbAAAc0AL
+  fullname: Aichi
+  date: 2027-02-14
+  tour: livetour2027
+  categories:
+  - tourshow
+  venue: CLUB UPSET, Nagoya
+  part-of:
+    tour: livetour2027

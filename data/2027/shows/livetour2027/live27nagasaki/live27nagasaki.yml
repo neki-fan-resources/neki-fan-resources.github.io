@@ -1,0 +1,15 @@
+show:
+  year: 2027
+  id: live27nagasaki
+  cover-image:
+    postximage:
+      post: 2102700118164287773
+      image: HS5KesvbAAAc0AL
+  fullname: Nagasaki
+  date: 2027-02-28
+  tour: livetour2027
+  categories:
+  - tourshow
+  venue: Astro Space, Nagasaki
+  part-of:
+    tour: livetour2027

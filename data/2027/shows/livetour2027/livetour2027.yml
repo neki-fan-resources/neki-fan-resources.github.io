@@ -1,0 +1,40 @@
+tour:
+  id: livetour2027
+  cover-image:
+    postximage:
+      post: 2102700118164287773
+      image: HS5KesvbAAAc0AL
+  fullname: NEK! LIVE TOUR 2027
+  shortname: LIVE TOUR 2027
+  first-date: 2027-01-10
+  last-date: 2027-03-22
+  shows:
+  - year: 2027
+    id: live27osaka
+  - year: 2027
+    id: live27kanagawa
+  - year: 2027
+    id: live27fukushima
+  - year: 2027
+    id: live27miyagi
+  - year: 2027
+    id: live27chiba
+  - year: 2027
+    id: live27tokyo1
+  - year: 2027
+    id: live27aichi1
+  - year: 2027
+    id: live27aichi2
+  - year: 2027
+    id: live27fukuoka
+  - year: 2027
+    id: live27nagasaki
+  - year: 2027
+    id: live27hokkaido
+  - year: 2027
+    id: live27tokyo2
+  event-page: 'https://neki.bitfan.id/contents/440573'
+  part-of:
+    group:
+      id: shows
+      group: 2027

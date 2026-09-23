@@ -1,0 +1,15 @@
+show:
+  year: 2027
+  id: live27hokkaido
+  cover-image:
+    postximage:
+      post: 2102700118164287773
+      image: HS5KesvbAAAc0AL
+  fullname: Hokkaido
+  date: 2027-03-13
+  tour: livetour2027
+  categories:
+  - tourshow
+  venue: Bessie Hall, Hokkaido
+  part-of:
+    tour: livetour2027

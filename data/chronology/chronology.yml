@@ -6,7 +6,7 @@ contentpage:
       id: manekineko_cover
   label: Chronology
   start-date: 2024-02-01
-  end-date: 2026-11-30
+  end-date: 2027-03-31
   description: The main events in the NEK! story. Song and EP releases, shows, tours, interviews, ...
   isSmallMarker:
   - mediummedia
@@ -34,6 +34,43 @@ contentpage:
   - videomedia
   - writtenmedia
   content:
+  - show:
+      year: 2027
+      id: live27tokyo2
+  - show:
+      year: 2027
+      id: live27hokkaido
+  - show:
+      year: 2027
+      id: live27nagasaki
+  - show:
+      year: 2027
+      id: live27fukuoka
+  - show:
+      year: 2027
+      id: live27aichi2
+  - show:
+      year: 2027
+      id: live27aichi1
+  - show:
+      year: 2027
+      id: live27tokyo1
+  - show:
+      year: 2027
+      id: live27chiba
+  - show:
+      year: 2027
+      id: live27miyagi
+  - show:
+      year: 2027
+      id: live27fukushima
+  - show:
+      year: 2027
+      id: live27kanagawa
+  - show:
+      year: 2027
+      id: live27osaka
+  - tour: livetour2027
   - show:
       year: 2026
       id: bmbudokan2

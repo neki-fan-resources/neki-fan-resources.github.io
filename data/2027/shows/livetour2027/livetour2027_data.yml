@@ -1,0 +1,62 @@
+- postx:
+    id: 2102700118164287773
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-09-23
+    text: |-
+      ⚡️━━ NEK! LIVE TOUR 2027 ━━⚡️
+      
+      全国ツアー開催決定🎊
+      
+      2027/1/10(日) 大阪・江坂MUSE 
+      → ⋯ → 3/22(月祝) 東京・恵比寿LIQUIDROOM
+      
+      只今よりファンクラブ会員「#ネキ民」限定
+      チケット最速先行(抽選)受付スタート🎟️
+      
+      受付期間:
+      9/23(水祝)19:00 ~ 10/4 (日)23:59
+      
+      🔗https://neki.bitfan.id/contents/440573
+      
+      #NEKI
+    translation: |-
+      ⚡️━━ NEK! LIVE TOUR 2027 ━━⚡️
+      
+      Nationwide tour confirmed🎊
+      
+      2027/1/10 (Sun) Osaka / Esaka MUSE 
+      → ⋯ → 3/22 (Mon/Holiday) Tokyo / Ebisu LIQUIDROOM
+      
+      Starting right now, fastest advance ticket lottery exclusively for fan club members "#NEKIminto" has started🎟️
+      
+      Application Period:
+      9/23 (Wed/Holiday) 19:00 ~ 10/4 (Sun) 23:59
+      
+      🔗https://neki.bitfan.id/contents/440573
+      
+      #NEKI
+    image:
+    - HS5KesvbAAAc0AL
+    part-of:
+      tour: livetour2027
+
+- postximage:
+    post: 2102700118164287773
+    id: HS5KesvbAAAc0AL
+    index: 1
+    label: Poster
+    local-copy: true
+    context:
+    - tour: livetour2027
+    part-of:
+      postx: 2102700118164287773
+
+- update:
+    tour: livetour2027
+    date: 2026-09-23
+    text:
+    - Added the tour
+    part-of:
+      tour: livetour2027
+

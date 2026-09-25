@@ -83,6 +83,19 @@
 
 - webimage:
     domain: fmyokohama.jp
+    page: tresen
+    id: flyer2
+    label: Flyer
+    published-date: 2025-12-28
+    url: 'https://program-static.cf.radiko.jp/27443022-edb9-4a57-9869-898baf1e2c9f.jpeg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: fmyokohama.jp
+        id: tresen
+
+- webimage:
+    domain: fmyokohama.jp
     page: tresen47494
     id: 01
     label: At the station
@@ -106,6 +119,7 @@
     url: 'https://tresen.fmyokohama.jp/'
     image:
     - flyer
+    - flyer2
     part-of:
       media:
         year: 2025

@@ -14,6 +14,11 @@
                 multimedia:
                 - youtubeshort: o6fg7fdcalc
             - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2102331907883372641
+                    video: 1
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
@@ -547,6 +552,34 @@
         year: 2026
         id: debuttournagoya
 
+- postx:
+    id: 2102331907883372641
+    account: coco_102
+    label: Jumping on stage
+    published-date: 2026-09-22
+    text: |-
+      明日はとうとうツアーファイナル🔥
+      最高の音と最高のパフォーマンスで皆さんに日頃の感謝の気持ちをお届けしたいと思います！
+      
+      悔いのないようたくさん歌ってたくさん飛び跳ねて全力で楽しみましょう✊🏻🎶
+      duoでお待ちしています！！
+      
+      #NEKI
+    translation: |-
+      Tomorrow is finally the tour final🔥
+      We want to deliver our daily gratitude to everyone with the best sound and the best performance!
+      
+      Let's sing a lot, jump around a lot, and have fun with all our might so there are no regrets✊🏻🎶
+      We'll be waiting for you at duo!!
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2102331907883372641
+        video: 1
+
 - postximage:
     post: 2071894360917254502
     id: HMDY7x9W8AAcvg4
@@ -696,6 +729,22 @@
         id: debuttournagoya
     part-of:
       postx: 2096219533237420505
+
+- postxvideo:
+    post: 2102331907883372641
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2102331862660337665/img/s5-0OpzZsz4BPLXt.jpg
+    context:
+    - show:
+        year: 2026
+        id: debuttournagoya
+    - song: jumping
+    part-of:
+      show:
+        year: 2026
+        id: debuttournagoya
 
 - update:
     show:

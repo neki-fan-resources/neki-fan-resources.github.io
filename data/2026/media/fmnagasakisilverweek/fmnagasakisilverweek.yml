@@ -2,9 +2,10 @@ mediaaudio:
   year: 2026
   id: fmnagasakisilverweek
   cover-image:
-    postximage:
-      post: 2100481739831517680
-      image: HSZo97Tb0AAzdL1
+    webimage:
+      domain: fmnagasaki.co.jp
+      page: silverweek2026
+      id: flyer
   radio: FM Nagasaki
   show: アネキのMAKE IT NEK! RADIO〜B!NARY〜
   designation: radio show
@@ -15,6 +16,7 @@ mediaaudio:
   - Cocoro
   published-date: 2026-09-23
   program: 'https://www.fmnagasaki.co.jp/2026/09/11/%E3%80%90%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E3%81%AF%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%A7%E9%9F%B3%E6%A5%BD%EF%BC%81%E3%80%91fm%E9%95%B7%E5%B4%8E-%E3%83%9F/'
+  todo: better image in backup neki/tmp
   part-of:
     group:
       id: media

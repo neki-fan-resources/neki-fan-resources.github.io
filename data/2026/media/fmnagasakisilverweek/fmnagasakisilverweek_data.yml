@@ -45,11 +45,40 @@
     id: HSZo97Tb0AAzdL1
     index: 1
     label: Flyer
-    local-copy: true
     context:
     - media:
         year: 2026
         id: fmnagasakisilverweek
     part-of:
       postx: 2100481739831517680
+
+- webimage:
+    domain: fmnagasaki.co.jp
+    page: silverweek2026
+    id: flyer
+    label: Flyer
+    published-date: 2026-09-11
+    url: 'https://program-static.cf.radiko.jp/l5f01wyixa.jpg'
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: fmnagasakisilverweek
+    part-of:
+      webpage:
+        domain: fmnagasaki.co.jp
+        id: silverweek2026
+
+- webpage:
+    domain: fmnagasaki.co.jp
+    id: silverweek2026
+    label: Event page
+    published-date: 2026-09-11
+    url: 'https://www.fmnagasaki.co.jp/2026/09/11/%e3%80%90%e3%82%b7%e3%83%ab%e3%83%90%e3%83%bc%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e3%81%af%e3%83%a9%e3%82%b8%e3%82%aa%e3%81%a7%e9%9f%b3%e6%a5%bd%ef%bc%81%e3%80%91fm%e9%95%b7%e5%b4%8e-%e3%83%9f/'
+    image:
+    - flyer
+    part-of:
+      media:
+        year: 2026
+        id: fmnagasakisilverweek
 

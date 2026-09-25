@@ -19,6 +19,9 @@
                     post: 2097696600022007924
                     video: 1
             - multimediasubsection:
+                multimedia:
+                - youtubeshort: Q70zW-WdVJ4
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postinstagramimage:
@@ -759,6 +762,21 @@
     date: 2026-09-04
     text:
     - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: debuttourosaka
+
+- youtubeshort:
+    id: Q70zW-WdVJ4
+    label: On stage
+    info: Kanade, Natsu, studio audio
+    published-date: 2026-09-22
+    context:
+    - song: zerosum
+    - show:
+        year: 2026
+        id: debuttourosaka
     part-of:
       show:
         year: 2026

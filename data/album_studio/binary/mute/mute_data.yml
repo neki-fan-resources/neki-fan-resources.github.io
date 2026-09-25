@@ -73,6 +73,9 @@
                 - postinstagramimage:
                     post: Ddd-K9LJu7J
                     image: 1
+                - postinstagramimage:
+                    post: Ddl2xqJEtLq
+                    image: 1
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -100,6 +103,11 @@
                 - postximage:
                     post: 2101603556566708606
                     image: HSplS53bAAAna_u
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2103070283590729781
+                    image: HS-bRSAaoAAd2sm
     part-of:
       song: mute
 
@@ -384,6 +392,27 @@
     part-of:
       song: mute
 
+- postinstagram:
+    id: Ddl2xqJEtLq
+    account: nekiband_jp
+    label: 100k views
+    published-date: 2026-09-22
+    text: |-
+      ˗ˏˋ 💥100K+ OVER💥 ˎˊ˗
+      
+      “MUTE” Official MV
+      100,000 VIEWS // THANK YOU🖤
+      
+      ▶︎ https://youtu.be/8ZxI_yZZfIA
+      
+      #NEKI #MUTE
+    image:
+    - 1
+    part-of:
+      song: mute
+    reference:
+    - youtubevideo: 8ZxI_yZZfIA
+
 - postinstagramimage:
     post: Ddd-K9LJu7J
     id: 1
@@ -501,6 +530,15 @@
     - song: mute
     part-of:
       postinstagram: DdgvMoykkdk
+
+- postinstagramimage:
+    post: Ddl2xqJEtLq
+    id: 1
+    label: Behind the scenes
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Ddl2xqJEtLq
 
 - postx:
     id: 2096040623643967726
@@ -653,6 +691,39 @@
     part-of:
       song: mute
 
+- postx:
+    id: 2102389961194680340
+    account: nekiband_jp
+    label: 100k views
+    published-date: 2026-09-22
+    text: |-
+      ˗ˏˋ 💥100K+ OVER💥 ˎˊ˗
+      
+      “MUTE” Official MV
+      100,000 VIEWS // THANK YOU🖤
+      
+      ▶︎ https://youtu.be/8ZxI_yZZfIA
+      
+      #NEKI
+    part-of:
+      song: mute
+    reference:
+    - youtubevideo: 8ZxI_yZZfIA
+
+- postx:
+    id: 2103070283590729781
+    account: coco_102
+    label: Please keep watching a lot
+    published-date: 2026-09-24
+    text: |-
+      これからもたくさん観てね🐱💖
+    translation: |-
+      Please keep watching a lot from now on too🐱💖
+    image:
+    - HS-bRSAaoAAd2sm
+    part-of:
+      postx: 2102389961194680340
+
 - postximage:
     post: 2096040623643967726
     id: HRSIsczbkAAOySn
@@ -694,6 +765,17 @@
     - song: mute
     part-of:
       postx: 2101603556566708606
+
+- postximage:
+    post: 2103070283590729781
+    id: HS-bRSAaoAAd2sm
+    index: 1
+    label: Behind the scenes
+    info: Cocoro
+    context:
+    - song: mute
+    part-of:
+      postx: 2103070283590729781
 
 - postxvideo:
     post: 2100918241875083492

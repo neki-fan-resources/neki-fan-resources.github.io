@@ -108,6 +108,19 @@
         domain: nack5.co.jp
         id: ebisha_bakubaku
 
+- webimage:
+    domain: nack5.co.jp
+    page: ebisha_bakubaku
+    id: flyer2
+    label: Flyer
+    published-date: 2026-09-24
+    url: 'https://www.nack5.co.jp/program/ebisha_bakubaku/cover.jpg'
+    local-copy: true
+    part-of:
+      webpage:
+        domain: nack5.co.jp
+        id: ebisha_bakubaku
+
 - webpage:
     domain: nack5.co.jp
     id: ebisha_bakubaku
@@ -116,6 +129,7 @@
     url: 'https://www.nack5.co.jp/program/ebisha_bakubaku/'
     image:
     - flyer
+    - flyer2
     part-of:
       media:
         year: 2025

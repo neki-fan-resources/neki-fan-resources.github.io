@@ -1,0 +1,90 @@
+- display:
+    media:
+      year: 2026
+      id: fmyokohamatresen
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2103434317414469793
+                    image: HTDmXIhbMAAW5Wd
+    part-of:
+      media:
+        year: 2026
+        id: fmyokohamatresen
+
+- postx:
+    id: 2103434317414469793
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-25
+    text: |-
+      FMヨコハマ「Tresen Friday」
+      
+      お聴きいただきありがとうございました📻
+      
+      ▼番組はこちらから🎙️
+      https://radiko.jp/share/?t=20260925162101&sid=YFM
+      
+      ▼来年全国ツアー開催！
+      NEK! LIVE TOUR 2027
+      FC会員限定最速先行(抽選)受付中
+      https://neki.bitfan.id/contents/440573
+      
+      #NEKI
+    translation: |-
+      FM Yokohama "Tresen Friday"
+      
+      Thank you so much for listening📻
+      
+      ▼Listen to the show here🎙️
+      https://radiko.jp/share/?t=20260925162101&sid=YFM
+      
+      ▼Nationwide tour happening next year!
+      NEK! LIVE TOUR 2027
+      FC member-exclusive fastest advance lottery applications open now
+      https://neki.bitfan.id/contents/440573
+      
+      #NEKI
+    image:
+    - HTDmXIhbMAAW5Wd
+    part-of:
+      media:
+        year: 2026
+        id: fmyokohamatresen
+    reference:
+    - postximage:
+        post: 2102700118164287773
+        image: HS5KesvbAAAc0AL
+
+- postximage:
+    post: 2103434317414469793
+    id: HTDmXIhbMAAW5Wd
+    index: 1
+    label: At the station
+    context:
+    - media:
+        year: 2026
+        id: fmyokohamatresen
+    part-of:
+      postx: 2103434317414469793
+
+- update:
+    media:
+      year: 2026
+      id: fmyokohamatresen
+    date: 2026-09-25
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: fmyokohamatresen
+

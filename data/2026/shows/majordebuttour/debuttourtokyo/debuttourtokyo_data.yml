@@ -1,3 +1,167 @@
+- display:
+    show:
+      year: 2026
+      id: debuttourtokyo
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2102740500570837027
+                    image: HS5vVPTbAAAHzF6
+                - postximage:
+                    post: 2102734679212539933
+                    image: HS5qA2maUAAclJc
+                - postinstagramimage:
+                    post: DdoYuZwkkc6
+                    image: 6
+                - postximage:
+                    post: 2102734679212539933
+                    image: HS5qA2kbYAA0hEV
+                - postximage:
+                    post: 2102734679212539933
+                    image: HS5qA2gbsAAyBKI
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DdoYuZwkkc6
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2102734679212539933
+                    image: HS5qA2jbEAAAfPX
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2102735785569231309
+                    image: HS5rDKdbMAAxHnd
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2102741163333865800
+                    image: HS5v8PpbAAAamCT
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2102740500570837027
+                    image: HS5vVPDa4AEOfeQ
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2102739576423170424
+                    image: HS5ufv4bsAEBHqX
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2102740500570837027
+                    image: HS5vVPGacAABdI9
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2103065531054162326
+                    image: HS-W87-agAAELLf
+                - postximage:
+                    post: 2103063325009661957
+                    image: HS-U8glaAAAXDxF
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2103070268277370988
+                    video: 1
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- postinstagram:
+    id: DdoYuZwkkc6
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-23
+    text: |-
+      NEK! MAJOR DEBUT TOUR FINAL
+      @東京・duo MUSIC EXCHANGE
+      
+      東名阪ツアーファイナル！
+      ご来場いただきありがとうございました🫶✨
+      
+      2027年1月より全国ツアー
+      "NEK! LIVE TOUR 2027"開催決定💥
+      
+      来年、全国各地でお会いしましょう🗾
+      
+      Photo by @ryuji_kinmruj
+      
+      #NEKI
+    translation: |-
+      NEK! MAJOR DEBUT TOUR FINAL
+      @ Tokyo · duo MUSIC EXCHANGE
+      
+      Tokyo-Nagoya-Osaka tour final!
+      Thank you so much for coming🫶✨
+      
+      Nationwide tour starting January 2027
+      "NEK! LIVE TOUR 2027" officially announced💥
+      
+      Let's meet all across the country next year🗾
+      
+      Photo by @ryuji_kinmruj
+      
+      #NEKI
+    image:
+    - 1
+    - 6
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+    reference:
+    - postximage:
+        post: 2102740500570837027
+        image: HS5vVPGacAABdI9
+    - postximage:
+        post: 2102734679212539933
+        image: HS5qA2gbsAAyBKI
+    - postximage:
+        post: 2102740500570837027
+        image: HS5vVPTbAAAHzF6
+    - postximage:
+        post: 2102734679212539933
+        image: HS5qA2kbYAA0hEV
+
+- postinstagramimage:
+    post: DdoYuZwkkc6
+    id: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postinstagram: DdoYuZwkkc6
+
+- postinstagramimage:
+    post: DdoYuZwkkc6
+    id: 6
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postinstagram: DdoYuZwkkc6
+
 - postx:
     id: 2101239816805650446
     account: nekiband_jp
@@ -75,6 +239,331 @@
         post: 2093988307353080191
         image: HQ9Wz4gaAAA2fj2
 
+- postx:
+    id: 2102549512149758283
+    account: nekiband_jp
+    label: Sold out
+    published-date: 2026-09-23
+    text: |-
+      …ıııı||ı| 🔥 本日開催 🔥 ı||ıı|ııı…
+      
+      〝NEK! MAJOR DEBUT TOUR〟
+      
+      📍東京・duo MUSIC EXCHANGE
+      ⏰16:15 OPEN / 17:00 START
+      
+      💥ALL TICKETS SOLD OUT💥
+      
+      ★グッズ先行販売は13時から開始
+      ★当日券の販売はございません。
+      
+      東名阪ツアー全公演ソールドアウト‼️
+      
+      いよいよファイナルです❤️‍🔥
+      渋谷でお待ちしております！
+      
+      https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      #NEKI
+    translation: |-
+      …ıııı||ı| 🔥 Happening Today 🔥 ı||ıı|ııı…
+      
+      “NEK! MAJOR DEBUT TOUR”
+      
+      📍Tokyo · duo MUSIC EXCHANGE
+      ⏰16:15 OPEN / 17:00 START
+      
+      💥ALL TICKETS SOLD OUT💥
+      
+      ★ Advance merchandise sales start at 13:00
+      ★ There will be no tickets sold at the door.
+      
+      All shows of the Tokyo-Nagoya-Osaka tour are sold out‼️
+      
+      It's finally the tour final❤️‍🔥
+      We look forward to seeing you in Shibuya!
+      
+      https://neki.bitfan.id/schedules/105984?r=tlrto0
+      
+      #NEKI
+    image:
+    - HS3BoqFboAEZuH3
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+    reference:
+    - postximage:
+        post: 2101241633178300641
+        image: HSkcFR_bkAAOlkR
+
+- postx:
+    id: 2102717055191654792
+    account: nekiband_jp
+    label: Playlist
+    published-date: 2026-09-23
+    text: |-
+      【PLAYLIST🎧】
+      
+      〝NEK! MAJOR DEBUT TOUR FINAL〟
+      ＠東京・duo MUSIC EXCHANGE
+      
+      本日のセットリストプレイリストを公開✔️
+      
+      🔗https://lnk.to/NEKIMAJORDEBUTTOUR
+      
+      #NEKI
+    translation: |-
+      [PLAYLIST🎧]
+      
+      “NEK! MAJOR DEBUT TOUR FINAL”
+      @ Tokyo · duo MUSIC EXCHANGE
+      
+      Releasing today's setlist playlist✔️
+      
+      🔗https://lnk.to/NEKIMAJORDEBUTTOUR
+      
+      #NEKI
+    image:
+    - HS5Z99CaEAA2GoK
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- postx:
+    id: 2102734679212539933
+    account: coco_102
+    label: Thank you
+    published-date: 2026-09-23
+    text: |-
+      ツアーファイナルありがとうございました！！
+      皆さんのお陰で最高の締めくくりになりました！！
+      素敵な笑顔と歓声にパワーたくさんもらったよ🔥
+      皆さんも私達からのパワー受け取ってくれましたか？
+      これからも運命共同体としてよろしくお願いします🤝🏻
+      
+      NEK!の旅はまだまだ続く！！
+    translation: |-
+      Thank you so much for the tour final!!
+      Thanks to everyone, it was the best possible conclusion!!
+      I received so much power from your wonderful smiles and cheers🔥
+      Did everyone receive the power from us too?
+      Please continue to support us as companions bound by shared destiny🤝🏻
+      
+      NEK!'s journey is far from over!!
+    image:
+    - HS5qA2gbsAAyBKI
+    - HS5qA2jbEAAAfPX
+    - HS5qA2kbYAA0hEV
+    - HS5qA2maUAAclJc
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- postx:
+    id: 2102735785569231309
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-09-23
+    text: |-
+      〝NEK! MAJOR DEBUT TOUR〟
+      
+      東名阪ツアー、全公演ソールドアウト。
+      本当にありがとうございます。
+      
+      最初のMCで言った、
+      お互いありのままの姿を曝け出すステージにしたい。
+      
+      そう思って始まったツアーファイナル
+      最後まで最高の時間でした。
+      
+      一緒にこの時間を作ってくれて、
+      本当にありがとう。
+    translation: |-
+      “NEK! MAJOR DEBUT TOUR”
+      
+      Tokyo-Nagoya-Osaka tour, all shows sold out.
+      Thank you so very much.
+      
+      Like I said during the first MC,
+      I wanted to make this a stage where we expose our true selves to each other.
+      
+      That's the feeling the tour final started with,
+      and it was the best time right up to the end.
+      
+      For creating this time together with us,
+      thank you so much.
+    image:
+    - HS5rDKdbMAAxHnd
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- postx:
+    id: 2102739576423170424
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-09-23
+    text: |-
+      〝NEK! MAJOR DEBUT TOUR FINAL〟
+      ＠東京・duo MUSIC EXCHANGE
+      
+      ツアーファイナルありがとうございました！
+      改めて今回のファイナル含め全公演ソールドアウトありがとうございます‼️
+      本当に幸せな空間で、これからも頑張れる元気をもらえた時間でした🥺
+      
+      次のツアーも幸せになれますように。
+    translation: |-
+      “NEK! MAJOR DEBUT TOUR FINAL”
+      @ Tokyo · duo MUSIC EXCHANGE
+      
+      Thank you so much for the tour final!
+      Once again, thank you for selling out all shows, including this final‼️
+      It was truly such a happy space, and a time that gave me the energy to keep giving it my all🥺
+      
+      May our next tour bring just as much happiness.
+    image:
+    - HS5ufv4bsAEBHqX
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- postx:
+    id: 2102740500570837027
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-23
+    text: |-
+      NEK! MAJOR DEBUT TOUR FINAL
+      @東京・duo MUSIC EXCHANGE
+      
+      東名阪ツアーファイナル！
+      ご来場いただきありがとうございました🫶✨
+      
+      2027年1月より全国ツアー
+      "NEK! LIVE TOUR 2027"開催決定💥
+      
+      来年、全国各地でお会いしましょう🗾
+      
+      Photo by Ryuji Kainuma
+      
+      #NEKI
+    translation: |-
+      NEK! MAJOR DEBUT TOUR FINAL
+      @ Tokyo · duo MUSIC EXCHANGE
+      
+      Tokyo-Nagoya-Osaka tour final!
+      Thank you so much for coming🫶✨
+      
+      Nationwide tour starting January 2027
+      "NEK! LIVE TOUR 2027" officially announced💥
+      
+      Let's meet all across the country next year🗾
+      
+      Photo by Ryuji Kainuma
+      
+      #NEKI
+    image:
+    - HS5vVPDa4AEOfeQ
+    - HS5vVPGacAABdI9
+    - HS5vVPTbAAAHzF6
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+    reference:
+    - postximage:
+        post: 2102734679212539933
+        image: HS5qA2gbsAAyBKI
+
+- postx:
+    id: 2102741163333865800
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-09-23
+    text: |-
+      〝NEK! MAJOR DEBUT TOUR FINAL〟
+      ＠東京・duo MUSIC EXCHANGE
+      
+      みんなの楽しそうな顔が見られて、本当に幸せすぎる1日でした！
+      ここまで着いてきてくれて本当にありがとう！
+      東名阪、最高の思い出ができました！
+      
+      全国ツアーも決まりました。
+      今後ともNEK!をよろしくお願いします！！みんな大好き！
+    translation: |-
+      “NEK! MAJOR DEBUT TOUR FINAL”
+      @ Tokyo · duo MUSIC EXCHANGE
+      
+      Seeing everyone's joyful faces made it truly such an incredibly happy day!
+      Thank you so very much for coming along with us this far!
+      We made the best memories across Tokyo, Nagoya, and Osaka!
+      
+      A nationwide tour has also been decided.
+      Please continue to support NEK! from here on!! Love you all!
+    image:
+    - HS5v8PpbAAAamCT
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- postx:
+    id: 2103063325009661957
+    account: coco_102
+    label: Friends at the show
+    published-date: 2026-09-24
+    text: |-
+      昨日はドラマー仲間のマイマイちゃんと巧さんとリオンくんが観に来てくれました〜〜
+      みんな忙しいのに本当にありがたい、、！！
+      これからも末永くよろしくお願いします🤝🏻💥
+    translation: |-
+      Yesterday, fellow drummers Mai-mai-chan, Takumi-san, and Rion-kun came to watch the show~~
+      I'm so grateful since everyone is so busy...!!
+      Looking forward to our continued friendship for a long time to come🤝🏻💥
+    image:
+    - HS-U8glaAAAXDxF
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- postx:
+    id: 2103065531054162326
+    account: coco_102
+    label: Photos like this too
+    published-date: 2026-09-25
+    text: |-
+      こんな写真も😂🫶🏻
+    translation: |-
+      Photos like this too 😂🫶🏻
+    image:
+    - HS-W87-agAAELLf
+    part-of:
+      postx: 2103063325009661957
+
+- postx:
+    id: 2103070268277370988
+    account: cure_bass_baka
+    label: Quirky socks
+    published-date: 2026-09-24
+    text: |-
+      かなでんの昨日のくつ下🧦🧽
+      癖強くつ下は健在してるから安心してくれჱ̒⸝⸝> ·̫ <⸝⸝♩
+    translation: |-
+      Kanaden's socks from yesterday 🧦🧽
+      Rest assured, the quirky socks are still going strong ჱ̒⸝⸝> ·̫ <⸝⸝♩
+    video:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
 - postximage:
     post: 2101241633178300641
     id: HSkcFR_bkAAOlkR
@@ -86,4 +575,203 @@
         id: debuttourtokyo
     part-of:
       postx: 2101241633178300641
+
+- postximage:
+    post: 2102549512149758283
+    id: HS3BoqFboAEZuH3
+    index: 1
+    label: Poster sold out
+    local-copy: true
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102549512149758283
+
+- postximage:
+    post: 2102717055191654792
+    id: HS5Z99CaEAA2GoK
+    index: 1
+    label: Playlist cover
+    context:
+    - tour: majordebuttour
+    part-of:
+      postx: 2102717055191654792
+
+- postximage:
+    post: 2102734679212539933
+    id: HS5qA2gbsAAyBKI
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102734679212539933
+
+- postximage:
+    post: 2102734679212539933
+    id: HS5qA2jbEAAAfPX
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102734679212539933
+
+- postximage:
+    post: 2102734679212539933
+    id: HS5qA2kbYAA0hEV
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102734679212539933
+
+- postximage:
+    post: 2102734679212539933
+    id: HS5qA2maUAAclJc
+    index: 4
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102734679212539933
+
+- postximage:
+    post: 2102735785569231309
+    id: HS5rDKdbMAAxHnd
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102735785569231309
+
+- postximage:
+    post: 2102739576423170424
+    id: HS5ufv4bsAEBHqX
+    index: 1
+    label: Backstage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102739576423170424
+
+- postximage:
+    post: 2102740500570837027
+    id: HS5vVPDa4AEOfeQ
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102740500570837027
+
+- postximage:
+    post: 2102740500570837027
+    id: HS5vVPGacAABdI9
+    index: 4
+    label: Venue
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102740500570837027
+
+- postximage:
+    post: 2102740500570837027
+    id: HS5vVPTbAAAHzF6
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102740500570837027
+
+- postximage:
+    post: 2102741163333865800
+    id: HS5v8PpbAAAamCT
+    index: 1
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2102741163333865800
+
+- postximage:
+    post: 2103063325009661957
+    id: HS-U8glaAAAXDxF
+    index: 1
+    label: Backstage
+    info: Takumi (Navy HERETIC), Rion Kawaguchi (Crazy Wowow), Cocoro, Mai (7thVega)
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    todo: exact name of others
+    part-of:
+      postx: 2103063325009661957
+
+- postximage:
+    post: 2103065531054162326
+    id: HS-W87-agAAELLf
+    index: 1
+    label: Backstage
+    info: Takumi (Navy HERETIC), Rion Kawaguchi (Crazy Wowow), Cocoro, Mai (7thVega)
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2103065531054162326
+
+- postxvideo:
+    post: 2103070268277370988
+    id: 1
+    label: Quirky socks
+    info: Kanade
+    cover: 2103070226170650624/img/fCBqkkhRrY2JsZBz.jpg
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2103070268277370988
+
+- update:
+    show:
+      year: 2026
+      id: debuttourtokyo
+    date: 2026-09-25
+    text:
+    - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
 

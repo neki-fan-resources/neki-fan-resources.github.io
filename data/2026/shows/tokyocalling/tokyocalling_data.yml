@@ -88,6 +88,54 @@
         year: 2026
         id: tokyocalling
 
+- postx:
+    id: 2103424276254839273
+    account: tokyo__calling
+    label: Comment video
+    published-date: 2026-09-25
+    text: |-
+      【 📷コメント動画到着📷 】
+      
+      TOKYO CALLNG 2026 開催に向けて
+      
+      ／
+      NEK! ( 
+      @nekiband_jp
+       )さん
+      ＼
+      
+      より、コメント動画到着✨
+      
+      9月27日（日）渋谷
+      CHELSEA HOTEL にて 13:00〜出演
+      
+      #TOKYOCALLING
+      #トーキョーコーリング
+    translation: |-
+      [ 📷Comment video arrived📷 ]
+      
+      Ahead of TOKYO CALLING 2026
+      
+      /
+      NEK! ( 
+      @nekiband_jp
+       )
+      \
+      
+      A comment video has arrived from them✨
+      
+      September 27 (Sun) Shibuya
+      Performing at CHELSEA HOTEL from 13:00
+      
+      #TOKYOCALLING
+      #TokyoCalling
+    video:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
 - postximage:
     post: 2071913242709123427
     id: HMDqGpaWsAAzXzC
@@ -112,6 +160,18 @@
         id: tokyocalling
     part-of:
       postx: 2090395140448014585
+
+- postxvideo:
+    post: 2103424276254839273
+    id: 1
+    label: Comment video
+    cover: 2102020568816250880/img/V3idFukFd2HDHt1D.jpg
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2103424276254839273
 
 - update:
     show:

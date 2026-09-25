@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: nack5ebisha
+  cover-image:
+    webimage:
+      domain: nack5.co.jp
+      page: ebisha_bakubaku
+      id: flyer2
+  radio: NACK5
+  show: 海老車の「ばくばく」
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-09-26
+  host: Ebisha
+  webpage: 'https://www.nack5.co.jp/program/ebisha_bakubaku/'
+  part-of:
+    group:
+      id: media
+      group: 2026

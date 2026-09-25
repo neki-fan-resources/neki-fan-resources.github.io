@@ -1,0 +1,21 @@
+mediaaudio:
+  year: 2026
+  id: fmyokohamatresen
+  cover-image:
+    webimage:
+      domain: fmyokohama.jp
+      page: tresen
+      id: flyer2
+  radio: Fm yokohama
+  show: Tresen
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-09-25
+  host: じゅんご (Jungo), 舘谷春香 (Tateya Haruka)
+  program: 'https://tresen.fmyokohama.jp/'
+  part-of:
+    group:
+      id: media
+      group: 2026

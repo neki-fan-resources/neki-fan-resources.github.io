@@ -1,3 +1,46 @@
+- display:
+    tour: livetour2027
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                multimedia:
+                  localimage:
+                    tour: livetour2027
+                    id: tour-map
+                ismultimedialeft: false
+                lines:
+                - line:
+                  - text: The tour starts in Osaka early January, then goes north up to Sendai, before returning to the Tokyo area.
+                - line:
+                  - text: On February 10th, NEK! will celebrate the band anniversary with a show in Tokyo.
+                - line:
+                  - text: Then the tour ends south, all the way to Nagasaki for a show close to Hika's home town.
+                - line:
+                  - text: The tour ends with a show in Sapporo, for the first visit in Hokkaido for the band, and the final show in Tokyo.
+        - subschronologysection:
+            label: Shows
+            isMediumMarker:
+            - show
+    part-of:
+      tour: livetour2027
+
+- localimage:
+    tour: livetour2027
+    id: tour-map
+    label: Tour map
+    published-date: 2026-09-27
+    source:
+      description: Based on wikimedia map
+    context:
+    - tour: livetour2027
+    part-of:
+      tour: livetour2027
+
 - postx:
     id: 2102700118164287773
     account: nekiband_jp

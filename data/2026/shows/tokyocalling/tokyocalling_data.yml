@@ -1,3 +1,62 @@
+- display:
+    show:
+      year: 2026
+      id: tokyocalling
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2104100074490122286
+                    image: HTND2DiacAA43kq
+                - postximage:
+                    post: 2104094005516742941
+                    image: HTM-V1-bQAE6c5V
+                - postximage:
+                    post: 2104114589403369478
+                    image: HTNREK8bcAAg95s
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2104114589403369478
+                    image: HTNREK7aUAApxg_
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2104106425790476666
+                    image: HTNJpGRaAAEkwep
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2104100074490122286
+                    image: HTND2DuaUAAHb6Z
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2104117021919371321
+                    image: HTNTRqcbwAAqxmj
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2104094005516742941
+                    image: HTM-V19aEAA0v8s
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2104100074490122286
+                    image: HTND2DeaAAE3Oay
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
 - postx:
     id: 2071913242709123427
     account: nekiband_jp
@@ -136,6 +195,222 @@
         year: 2026
         id: tokyocalling
 
+- postx:
+    id: 2103999293095018896
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-09-27
+    text: |-
+      【TODAY🔥】
+      
+      「TOKYO CALLING 2026」
+      @tokyo__calling
+      
+      
+      ⏰9/27(日) 13:00~
+      📍チェルシーホテル
+      
+      本日出演いたします！
+      渋谷でお待ちしております🫶
+      
+      https://tokyo-calling.jp
+      
+      #NEKI
+      #TOKYOCALLING
+      #トーキョーコーリング
+    translation: |-
+      [TODAY🔥]
+      
+      "TOKYO CALLING 2026"
+      @tokyo__calling
+      
+      
+      ⏰9/27 (Sun) 13:00~
+      📍CHELSEA HOTEL
+      
+      Performing today!
+      We'll be waiting for you in Shibuya🫶
+      
+      https://tokyo-calling.jp
+      
+      #NEKI
+      #TOKYOCALLING
+      #TokyoCalling
+    image:
+    - HTLoMuUbIAAmDlf
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
+- postx:
+    id: 2104094005516742941
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-27
+    text: |-
+      「TOKYO CALLING 2026」
+      📍チェルシーホテル
+      
+      ご来場ありがとうございました！！⚡️
+      
+      ▼来年全国ツアー開催！
+      NEK! LIVE TOUR 2027
+      FC会員限定最速先行(抽選)受付中🎫 
+      https://neki.bitfan.id/contents/440573
+      
+      #NEKI
+      #TOKYOCALLING
+      #トーキョーコーリング
+    translation: |-
+      "TOKYO CALLING 2026"
+      📍CHELSEA HOTEL
+      
+      Thank you so much for coming!!⚡️
+      
+      ▼Nationwide tour happening next year!
+      NEK! LIVE TOUR 2027
+      FC member-exclusive fastest advance lottery applications open now🎫 
+      https://neki.bitfan.id/contents/440573
+      
+      #NEKI
+      #TOKYOCALLING
+      #TokyoCalling
+    image:
+    - HTM-V1-bQAE6c5V
+    - HTM-V19aEAA0v8s
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
+- postx:
+    id: 2104100074490122286
+    account: coco_102
+    label: Thank you
+    published-date: 2026-09-27
+    text: |-
+      💙TOKYO CALLING 2026💙
+      
+      チェルシーホテルトッパーありがとうございました！
+      本当に1番手か！？ってくらいみんな初めから盛り上がってくれてて最高でした！！
+      NEK!のライブ気になってくれた方はぜひ今後のツアーや対バンに遊びに来てください🤝🏻🎶
+      
+      引き続きTOKYO CALLING楽しんでいってねー！
+    translation: |-
+      💙TOKYO CALLING 2026💙
+      
+      Thank you so much for the opening set at Chelsea Hotel!
+      Everyone was hyped up right from the start so much that it was hard to believe we were the first act—it was the best!!
+      If you've become interested in NEK!'s live shows, please come check out our upcoming tour and joint shows🤝🏻🎶
+      
+      Keep having fun at TOKYO CALLING--!
+    image:
+    - HTND2DeaAAE3Oay
+    - HTND2DiacAA43kq
+    - HTND2DuaUAAHb6Z
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
+- postx:
+    id: 2104106425790476666
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-09-27
+    text: |-
+      「TOKYO CALLING 2026」
+      @ チェルシーホテル
+      
+      トッパー‼️
+      今年は渋谷編出させて頂きました🌟
+      2年半ぶりに思い出の箱に来れて嬉しかったなぁ。
+      たくさん来てくれて本当にありがとう！！
+      イベントまだまだ楽しんでねん🥹
+    translation: |-
+      "TOKYO CALLING 2026"
+      @ Chelsea Hotel
+      
+      Opening act‼️
+      Got to perform for the Shibuya edition this year🌟
+      Was so happy to be back at this memorable venue after 2 and a half years.
+      Thank you so much to everyone who came!!
+      Keep enjoying the event🥹
+    image:
+    - HTNJpGRaAAEkwep
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+    reference:
+    - postximage:
+        post: 2104094005516742941
+        image: HTM-V1-bQAE6c5V
+
+- postx:
+    id: 2104114589403369478
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-09-27
+    text: |-
+      “TOKYO CALLING”
+      トッパーから観に来てくださった皆さん、本当にありがとうございました！
+      最高に楽しかったー！
+      チェルホはフリーライブ以来ということもあってなんか感慨深い気持ちになりました！
+      これを機にNEK!と出会ってくださった方！
+      来年から全国ツアーもあるので是非遊びに来てください！
+    translation: |-
+      "TOKYO CALLING"
+      To everyone who came to watch us right from the opening act, thank you so very much!
+      It was the absolute most fun--!
+      Since it was our first time at Chel-ho since the free live show, I felt somewhat deeply emotional!
+      To those who discovered NEK! through this opportunity!
+      We also have a nationwide tour starting next year, so please do come out and join us!
+    image:
+    - HTNREK7aUAApxg_
+    - HTNREK8bcAAg95s
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
+- postx:
+    id: 2104117021919371321
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-09-27
+    text: |-
+      「TOKYO CALLING 2026」
+      📍チェルシーホテル
+      
+      前から後ろまで沢山の方が見に来てくれて
+      みんな最高だったよぉー！
+      ありがとぉー！
+      
+      来年から全国ツアーもあるから
+      良かったら遊びにきてねっ
+    translation: |-
+      "TOKYO CALLING 2026"
+      📍CHELSEA HOTEL
+      
+      So many people came to see us from front to back
+      Everyone was the absolute best--!
+      Thank youuu--!
+      
+      We have a nationwide tour starting next year too, so
+      please come hang out with us if you'd like
+    image:
+    - HTNTRqcbwAAqxmj
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+    reference:
+    - postximage:
+        post: 2104114589403369478
+        image: HTNREK8bcAAg95s
+
 - postximage:
     post: 2071913242709123427
     id: HMDqGpaWsAAzXzC
@@ -161,6 +436,131 @@
     part-of:
       postx: 2090395140448014585
 
+- postximage:
+    post: 2103999293095018896
+    id: HTLoMuUbIAAmDlf
+    index: 1
+    label: Timetable
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2103999293095018896
+
+- postximage:
+    post: 2104094005516742941
+    id: HTM-V1-bQAE6c5V
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104094005516742941
+
+- postximage:
+    post: 2104094005516742941
+    id: HTM-V19aEAA0v8s
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104094005516742941
+
+- postximage:
+    post: 2104100074490122286
+    id: HTND2DeaAAE3Oay
+    index: 3
+    label: On stage
+    info: drum set
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104100074490122286
+
+- postximage:
+    post: 2104100074490122286
+    id: HTND2DiacAA43kq
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104100074490122286
+
+- postximage:
+    post: 2104100074490122286
+    id: HTND2DuaUAAHb6Z
+    index: 2
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104100074490122286
+
+- postximage:
+    post: 2104106425790476666
+    id: HTNJpGRaAAEkwep
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104106425790476666
+
+- postximage:
+    post: 2104114589403369478
+    id: HTNREK7aUAApxg_
+    index: 2
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104114589403369478
+
+- postximage:
+    post: 2104114589403369478
+    id: HTNREK8bcAAg95s
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104114589403369478
+
+- postximage:
+    post: 2104117021919371321
+    id: HTNTRqcbwAAqxmj
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: tokyocalling
+    part-of:
+      postx: 2104117021919371321
+
 - postxvideo:
     post: 2103424276254839273
     id: 1
@@ -180,6 +580,18 @@
     date: 2026-06-30
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: tokyocalling
+
+- update:
+    show:
+      year: 2026
+      id: tokyocalling
+    date: 2026-09-28
+    text:
+    - First pictures from the show
     part-of:
       show:
         year: 2026

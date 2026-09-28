@@ -11,6 +11,9 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - youtubeshort: SjiudckXTKU
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
@@ -564,6 +567,20 @@
         year: 2026
         id: debuttourtokyo
 
+- postx:
+    id: 2103841532830990638
+    account: coco_102
+    label: rat a tat on stage
+    published-date: 2026-09-26
+    text: |-
+      rat a tat🎶 #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2103841532830990638
+        video: 1
+
 - postximage:
     post: 2101241633178300641
     id: HSkcFR_bkAAOlkR
@@ -763,6 +780,22 @@
     part-of:
       postx: 2103070268277370988
 
+- postxvideo:
+    post: 2103841532830990638
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: HTJYp39agAAkPtJ.jpg
+    context:
+    - song: ratatat
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
 - update:
     show:
       year: 2026
@@ -770,6 +803,20 @@
     date: 2026-09-25
     text:
     - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- youtubeshort:
+    id: SjiudckXTKU
+    label: Digest movie
+    published-date: 2026-09-26
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    - song: mute
     part-of:
       show:
         year: 2026

@@ -1,11 +1,110 @@
-update:
-  media:
-    year: 2026
-    id: nack5ebisha
-  date: 2026-09-25
-  text:
-  - Added the appearance
-  part-of:
+- postx:
+    id: 2103896750612439053
+    account: bakubaku_795
+    label: Tonight
+    published-date: 2026-09-26
+    text: |-
+      #ばくばく795 生放送中━━━━━━━━━━🦐💨
+      本日26時台のゲストは…
+      NEK! の #Hika さんと #Natsu さんが出演中！✨
+      （@nekiband_jp @46_hikaa @natsu08_guitar）
+      
+      #nack5 #NEKI
+      
+      ↓こちらから聴けます
+       https://radiko.jp/share/?sid=NACK5&t=20260927020000
+    translation: |-
+      #Bakubaku795 Live broadcast in progress━━━━━━━━━━🦐💨
+      Tonight's guests in the 26:00 hour are...
+      #Hika-san and #Natsu-san from NEK! appearing right now!✨
+      （@nekiband_jp @46_hikaa @natsu08_guitar）
+      
+      #nack5 #NEKI
+      
+      ↓Listen here
+       https://radiko.jp/share/?sid=NACK5&t=20260927020000
+    image:
+    - HTKE52Oa0AEd-WH
+    part-of:
+      media:
+        year: 2026
+        id: nack5ebisha
+
+- postx:
+    id: 2103904829101973844
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-09-28
+    text: |-
+      FM NACK5 「海老車のばくばく」
+      
+      お聴きいただきありがとうございました📢
+      
+      ▼Major 1st EP『B!NARY』収録
+      “MUTE” Official MV 公開中🎥
+      https://youtu.be/8ZxI_yZZfIA
+      
+      ▼来年1月から開催の全国ツアー🗾
+      FC会員限定最速先行(抽選)受付中！
+      https://neki.bitfan.id/contents/440573
+       
+      #NEKI #ばくばく795
+    translation: |-
+      FM NACK5 "Ebisha no Bakubaku"
+      
+      Thank you for listening📢
+      
+      ▼Included on Major 1st EP "B!NARY"
+      "MUTE" Official MV out now🎥
+      https://youtu.be/8ZxI_yZZfIA
+      
+      ▼Nationwide tour starting next January🗾
+      FC member-exclusive fastest advance lottery applications open now!
+      https://neki.bitfan.id/contents/440573
+       
+      #NEKI #Bakubaku795
+    image:
+    - HTKSPC2bIAA1odf
+    part-of:
+      media:
+        year: 2026
+        id: nack5ebisha
+
+- postximage:
+    post: 2103896750612439053
+    id: HTKE52Oa0AEd-WH
+    index: 1
+    label: At the station
+    info: Ebisha, NEK!
+    context:
+    - media:
+        year: 2026
+        id: nack5ebisha
+    part-of:
+      postx: 2103896750612439053
+
+- postximage:
+    post: 2103904829101973844
+    id: HTKSPC2bIAA1odf
+    index: 1
+    label: At the station
+    info: Ebisha, NEK!
+    context:
+    - media:
+        year: 2026
+        id: nack5ebisha
+    part-of:
+      postx: 2103904829101973844
+
+- update:
     media:
       year: 2026
       id: nack5ebisha
+    date: 2026-09-25
+    text:
+    - Added the appearance
+    part-of:
+      media:
+        year: 2026
+        id: nack5ebisha
+

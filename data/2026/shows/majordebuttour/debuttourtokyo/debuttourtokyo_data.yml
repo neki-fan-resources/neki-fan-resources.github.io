@@ -14,23 +14,46 @@
                 multimedia:
                 - youtubeshort: SjiudckXTKU
             - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2103841532830990638
+                    video: 1
+            - multimediasubsection:
                 label: Images
                 multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: 8
                 - postximage:
                     post: 2102740500570837027
                     image: HS5vVPTbAAAHzF6
                 - postximage:
                     post: 2102734679212539933
                     image: HS5qA2maUAAclJc
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: 1
                 - postinstagramimage:
                     post: DdoYuZwkkc6
                     image: 6
                 - postximage:
                     post: 2102734679212539933
                     image: HS5qA2kbYAA0hEV
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: 4
                 - postximage:
                     post: 2102734679212539933
                     image: HS5qA2gbsAAyBKI
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: 3
             - multimediasubsection:
                 multimedia:
                 - postinstagramimage:
@@ -38,19 +61,45 @@
                     image: 1
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: 7
                 - postximage:
                     post: 2102734679212539933
                     image: HS5qA2jbEAAAfPX
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: 2
                 - postximage:
                     post: 2102735785569231309
                     image: HS5rDKdbMAAxHnd
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: 6
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: n2
+            - multimediasubsection:
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: 5
                 - postximage:
                     post: 2102741163333865800
                     image: HS5v8PpbAAAamCT
+                - webimage:
+                    domain: natalie.mu
+                    page: 690745
+                    id: n1
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -803,6 +852,217 @@
     date: 2026-09-25
     text:
     - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- update:
+    show:
+      year: 2026
+      id: debuttourtokyo
+    date: 2026-09-28
+    text:
+    - pictures from natalie.mu show report
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: 1
+    label: On stage
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_1.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978746'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: 2
+    label: On stage
+    info: Hika
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_2.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978747'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: 3
+    label: On stage
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_3.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978748'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: 4
+    label: On stage
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_4.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978749'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: 5
+    label: On stage
+    info: Natsu
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_5.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978750'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: 6
+    label: On stage
+    info: Kanade
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_6.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978751'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: 7
+    label: On stage
+    info: Cocoro
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_7.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978752'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: 8
+    label: On stage
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_8.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978753'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: n1
+    label: On stage
+    info: Natsu
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_n1.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978754'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webimage:
+    domain: natalie.mu
+    page: 690745
+    id: n2
+    label: On stage
+    info: Kanade
+    published-date: 2026-09-28
+    url: 'https://ogre.natalie.mu/media/news/music/2026/0928/neki_live0923_n2.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/690745/2978755'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 690745
+
+- webpage:
+    domain: natalie.mu
+    id: 690745
+    label: Show report
+    published-date: 2026-09-28
+    url: 'https://natalie.mu/music/news/690745'
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - n1
+    - n2
+    todo: add in a media page
     part-of:
       show:
         year: 2026

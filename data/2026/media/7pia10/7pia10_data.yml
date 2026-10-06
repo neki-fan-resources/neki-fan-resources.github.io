@@ -1,0 +1,97 @@
+- postx:
+    id: 2105504272398037309
+    account: news_pia
+    label: Comments announcement
+    published-date: 2026-10-01
+    text: |-
+      10月号 #7ぴあ 中身をチラ見せ👀
+      
+      #THEORALCIGARETTES、#オレンジスパイニクラブ、#クレイジーケンバンド、#さとうもか、#NEK!、#平原綾香、#moondrop からのコメントが到着✨
+      
+      #セブンイレブン にて配布中の7ぴあをチェック！
+    translation: |-
+      Sneak peek inside the October issue of #7Pia 👀
+      
+      Comments have arrived from #THEORALCIGARETTES, #OrangeSpinyCrab, #CrazyKenBand, #MokaSato, #NEK!, #AyakaHirahara, and #moondrop ✨
+      
+      Check out 7-Pia, now being distributed at #7Eleven!
+    image:
+    - HThA9dVbgAAdEja
+    part-of:
+      media:
+        year: 2026
+        id: 7pia10
+
+- postx:
+    id: 2107388275879219304
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-10-06
+    text: |-
+      【MAGAZINE📕】
+      
+      「7ぴあ」
+      COMMENTページにコメント掲載！
+      
+      全国のセブンイレブンにて無料配布中です！
+      ぜひお近くの店舗でゲットしてください🌟
+      
+      https://fan.pia.jp/7piaweb/
+      
+      #NEKI
+    translation: |-
+      【MAGAZINE📕】
+      
+      "7-Pia"
+      Comment featured on the COMMENT page!
+      
+      Currently being distributed for free at 7-Eleven stores nationwide!
+      Please be sure to get yours at a nearby store🌟
+      
+      https://fan.pia.jp/7piaweb/
+      
+      #NEKI
+    image:
+    - HT7xwPQbMAA62Y0
+    part-of:
+      media:
+        year: 2026
+        id: 7pia10
+
+- postximage:
+    post: 2105504272398037309
+    id: HThA9dVbgAAdEja
+    index: 1
+    label: Magazine
+    context:
+    - media:
+        year: 2026
+        id: 7pia10
+    part-of:
+      postx: 2105504272398037309
+
+- postximage:
+    post: 2107388275879219304
+    id: HT7xwPQbMAA62Y0
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: 7pia10
+    part-of:
+      postx: 2107388275879219304
+
+- update:
+    media:
+      year: 2026
+      id: 7pia10
+    date: 2026-10-06
+    text:
+    - Added the magazine comment
+    part-of:
+      media:
+        year: 2026
+        id: 7pia10
+

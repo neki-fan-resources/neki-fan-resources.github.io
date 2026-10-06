@@ -1,0 +1,13 @@
+multimedia-event:
+  id: mutemv
+  cover-image:
+    postinstagramimage:
+      post: Ddfi4NfEtMS
+      image: 6
+  youtubevideo: 8ZxI_yZZfIA
+  parent:
+    song: mute
+  categories:
+  - video
+  part-of:
+    song: mute

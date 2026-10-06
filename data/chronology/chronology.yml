@@ -77,6 +77,12 @@ contentpage:
   - show:
       year: 2026
       id: bmbudokan1
+  - media:
+      year: 2026
+      id: flowkeigo2
+  - media:
+      year: 2026
+      id: flowkeigo1
   - show:
       year: 2026
       id: nemophilatenfes
@@ -89,6 +95,9 @@ contentpage:
   - show:
       year: 2026
       id: tridentnekikyoozon
+  - media:
+      year: 2026
+      id: zipperhika
   - show:
       year: 2026
       id: tokyocalling
@@ -101,6 +110,7 @@ contentpage:
   - media:
       year: 2026
       id: bayfm78shinradio
+  - multimedia-event: mutemv
   - media:
       year: 2026
       id: bassmagazinekanade

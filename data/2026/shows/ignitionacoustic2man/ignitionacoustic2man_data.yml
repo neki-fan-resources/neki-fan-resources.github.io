@@ -146,6 +146,58 @@
         year: 2026
         id: ignitionacoustic2man
 
+- postx:
+    id: 2098311273360621794
+    account: 46_hikaa
+    label: Sold out
+    published-date: 2026-09-11
+    text: |-
+      弾き語りライブ！ソールドアウト！
+      
+      ありがとうございます！
+      
+      当日はよろしくお願い致します𖤐 ̖́-
+    translation: |-
+      Acoustic live show! Sold out!
+      
+      Thank you so much!
+      
+      Looking forward to seeing you on the day𖤐 ̖́-
+    part-of:
+      postx: 2098245405582717130
+    reference:
+    - postximage:
+        post: 2089336950134325285
+        image: HP7Q4bvboAAzsrt
+
+- postx:
+    id: 2107050615172165916
+    account: 46_hikaa
+    label: Tomorrow
+    published-date: 2026-10-06
+    text: |-
+      明日は！いよいよ弾き語りライブ！
+      
+      わー！ウキウキドキドキする！
+      
+      私の歌声とこのアコギの音を
+      皆さんの心に全力で届けます！
+      
+      よろしくお願いします𖤐 ̖́-
+    translation: |-
+      Tomorrow is! Finally the acoustic live!
+      
+      Waa! I'm so excited and thrilled!
+      
+      My singing voice and the sound of this acoustic guitar,
+      I'll deliver them to everyone's hearts with all my might!
+      
+      Looking forward to it𖤐 ̖́-
+    image:
+    - HT2_XdVbYAAJEHG
+    part-of:
+      postx: 2098311273360621794
+
 - postximage:
     post: 2089336945365397518
     id: HP7Ds-rawAAuN-I
@@ -196,6 +248,19 @@
         id: ignitionacoustic2man
     part-of:
       postx: 2098245405582717130
+
+- postximage:
+    post: 2107050615172165916
+    id: HT2_XdVbYAAJEHG
+    index: 1
+    label: Rehearsal
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: ignitionacoustic2man
+    part-of:
+      postx: 2107050615172165916
 
 - update:
     show:

@@ -1,0 +1,20 @@
+mediaaudio:
+  year: 2026
+  id: flowkeigo1
+  cover-image:
+    webimage:
+      domain: x.com
+      page: flowkeigo_radio
+      id: banner
+  radio: Shikoku radios
+  show: FLOW KEIGOのトーク巡礼
+  designation: radio show
+  member:
+  - Hika
+  - Natsu
+  published-date: 2026-11-01
+  host: KEIGO (FLOW)
+  part-of:
+    group:
+      id: media
+      group: 2026

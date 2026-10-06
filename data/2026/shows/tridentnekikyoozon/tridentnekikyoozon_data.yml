@@ -1,3 +1,149 @@
+- display:
+    show:
+      year: 2026
+      id: tridentnekikyoozon
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DeCM2JVEiLk
+                    image: 3
+                - postinstagramimage:
+                    post: DeCM2JVEiLk
+                    image: 2
+                - postximage:
+                    post: 2106510038793920659
+                    image: HTvTthQbYAAmRpC
+                - postximage:
+                    post: 2106371785319194627
+                    image: HTtVgcba0AABjjd
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2106600607222255807
+                    image: HTwmFXFaAAEZ8Oc
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2106600607222255807
+                    image: HTwmFXFaAAAzhIe
+                - postximage:
+                    post: 2106377870889386317
+                    image: HTtbgOlbkAAVkHe
+                - postximage:
+                    post: 2106373989098766497
+                    image: HTtX-XXakAA-q_d
+                - postximage:
+                    post: 2106377870889386317
+                    image: HTtbgOWbIAARwc7
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2106371785319194627
+                    image: HTtVgcZa8AEM6Nv
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- postinstagram:
+    id: DeCM2JVEiLk
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-10-03
+    text: |-
+      .
+      TRiDENT×NEK! pre. 「KYŌZON」 
+      supported by Girl's UP!!!
+      @代官山UNIT
+      
+      w/ TRiDENT
+      @trident_jp 
+      
+      2度目のツーマンライブ！
+      ありがとうございました🔱
+      
+      来年開催の全国ツアー
+      “NEK! LIVE TOUR 2027”
+      
+      現在FC会員「#ネキ民」
+      最速先行(抽選)を明日23:59まで受付中🎟️
+      https://neki.bitfan.id/contents/440573
+      
+      Photo by @___sunny56__
+      
+      #NEKI #TRiDENTJP
+    translation: |-
+      TRiDENT×NEK! pre. "KYŌZON" 
+      supported by Girl's UP!!!
+      @Daikanyama UNIT
+      
+      w/ TRiDENT
+      @trident_jp 
+      
+      Our 2nd two-man live!
+      Thank you so much🔱
+      
+      Nationwide tour held next year
+      “NEK! LIVE TOUR 2027”
+      
+      Currently accepting FC member "#Nekimin"
+      fastest advance applications (lottery) until tomorrow 23:59🎟️
+      https://neki.bitfan.id/contents/440573
+      
+      Photo by @___sunny56__
+      
+      #NEKI #TRiDENTJP
+    image:
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+    reference:
+    - postximage:
+        post: 2106377870889386317
+        image: HTtbgOlbkAAVkHe
+    - postximage:
+        post: 2106371785319194627
+        image: HTtVgcba0AABjjd
+    - postximage:
+        post: 2106371785319194627
+        image: HTtVgcZa8AEM6Nv
+    - postximage:
+        post: 2106377870889386317
+        image: HTtbgOWbIAARwc7
+
+- postinstagramimage:
+    post: DeCM2JVEiLk
+    id: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postinstagram: DeCM2JVEiLk
+
+- postinstagramimage:
+    post: DeCM2JVEiLk
+    id: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postinstagram: DeCM2JVEiLk
+
 - postx:
     id: 2067200588241371561
     account: TRiDENT_japan
@@ -54,6 +200,254 @@
         year: 2026
         id: tridentnekikyoozon
 
+- postx:
+    id: 2105984267587313994
+    account: askppp69
+    label: Tomorrow
+    published-date: 2026-10-02
+    text: |-
+      明日は代官山UNITにて
+      激熱ツーマンです！よ！！！
+      
+      ひさびさ会えるのたのしみねｯ🥰
+    translation: |-
+      Tomorrow at Daikanyama UNIT
+      It's a super intense two-man show! I tell you!!!
+      
+      Looking forward to seeing you after so long🥰
+    image:
+    - HTn1h5BbEAE1oSy
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- postx:
+    id: 2106371785319194627
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-10-03
+    text: |-
+      TRiDENT×NEK! pre. 「KYŌZON」 
+      supported by Girl's UP!!!
+      @代官山UNIT
+      
+      2度目のツーマンライブ！
+      ありがとうございました🔱
+      
+      来年開催の全国ツアー
+      “NEK! LIVE TOUR 2027”
+      
+      現在FC会員「#ネキ民」
+      最速先行(抽選)を明日23:59まで受付中🎟️
+      https://neki.bitfan.id/contents/440573
+      
+      Photo by @___sunny56__
+      
+      #NEKI
+    translation: |-
+      TRiDENT×NEK! pre. "KYŌZON" 
+      supported by Girl's UP!!!
+      @Daikanyama UNIT
+      
+      Our 2nd two-man live!
+      Thank you so much🔱
+      
+      Nationwide tour happening next year
+      "NEK! LIVE TOUR 2027"
+      
+      Currently accepting FC member "#Nekimin"
+      fastest advance lottery until 23:59 tomorrow🎟️
+      https://neki.bitfan.id/contents/440573
+      
+      Photo by @___sunny56__
+      
+      #NEKI
+    image:
+    - HTtVgcZa8AEM6Nv
+    - HTtVgcba0AABjjd
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- postx:
+    id: 2106373989098766497
+    account: TRiDENT_japan
+    label: Thank you
+    info: 1 image TRiDENT on stage
+    published-date: 2026-10-03
+    text: |-
+      ≡ ≡ ≡ ❤️‍🔥 THANK YOU ❤️‍🔥 ≡ ≡ ≡
+      
+      2026年10月3日（土） 
+      代官山UNIT
+      『TRiDENT×NEK! pre. 「KYŌZON」 supported by Girl's UP!!!』
+      
+      年始ぶりの激アツ2マン🔥
+      NEK!の皆さんありがとうございました✨
+      @nekiband_jp
+      
+      
+      📸 by @okkytree
+      
+      ≡ ≡ ≡ ❤️‍🔥 THANK YOU ❤️‍🔥 ≡ ≡ ≡
+      
+      #TRiDENTJP
+      #NEKI
+    translation: |-
+      ≡ ≡ ≡ ❤️‍🔥 THANK YOU ❤️‍🔥 ≡ ≡ ≡
+      
+      Saturday, October 3, 2026 
+      Daikanyama UNIT
+      "TRiDENT×NEK! pre. 「KYŌZON」 supported by Girl's UP!!!"
+      
+      First super intense 2-man since the beginning of the year🔥
+      Thank you so much to everyone in NEK!✨
+      @nekiband_jp
+      
+      
+      📸 by @okkytree
+      
+      ≡ ≡ ≡ ❤️‍🔥 THANK YOU ❤️‍🔥 ≡ ≡ ≡
+      
+      #TRiDENTJP
+      #NEKI
+    image:
+    - HTtX-XXakAA-q_d
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- postx:
+    id: 2106377870889386317
+    account: nekiband_jp
+    label: Big thanks
+    published-date: 2026-10-03
+    text: |-
+      …ıııı||ı|❤️‍🔥 BIG THANKS ❤️‍🔥ı||ıı|ııı…
+      
+      TRiDENT×NEK! pre. 「KYŌZON」 
+      supported by Girl's UP!!!
+      @TRiDENT_japan
+      
+      #NEKI #TRiDENTJP
+    image:
+    - HTtbgOWbIAARwc7
+    - HTtbgOlbkAAVkHe
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- postx:
+    id: 2106392712375419363
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-10-03
+    text: |-
+      TRiDENT×NEK! pre. 「KYŌZON」 
+      supported by Girl's UP!!!
+      @代官山UNIT
+      
+      姉さん達〜！！
+      2度目のツーマンありがとうございました！👊🏻💥
+      こうして再びご一緒できたことを嬉しく思います🥹
+      みんなもたくさん来てくれパンパンのUNITでツーマンできて最高に幸せでした！！！！
+    translation: |-
+      TRiDENT×NEK! pre. "KYŌZON" 
+      supported by Girl's UP!!!
+      @Daikanyama UNIT
+      
+      Big sisters--!!
+      Thank you so much for our 2nd two-man show!👊🏻💥
+      I'm so happy we were able to perform together again like this🥹
+      So many of you came out, and being able to do a two-man at a packed UNIT was absolute bliss!!!!
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+    reference:
+    - postximage:
+        post: 2106371785319194627
+        image: HTtVgcba0AABjjd
+    - postximage:
+        post: 2106377870889386317
+        image: HTtbgOlbkAAVkHe
+    - postximage:
+        post: 2106377870889386317
+        image: HTtbgOWbIAARwc7
+
+- postx:
+    id: 2106510038793920659
+    account: coco_102
+    label: Thank you
+    published-date: 2026-10-03
+    text: |-
+      TRiDENT×NEK! pre. 「KYŌZON」 
+      
+      今回で2回目となるTRiDENTさんとのツーマン企画！大盛況で大成功で大感謝でした！！
+      誕生日もたくさんお祝いしていただき、本当にありがとうございました🥹💖
+      姉さんたちのような圧巻のステージを作り上げるバンドになれるよう、これからも頑張ります！！
+    translation: |-
+      TRiDENT×NEK! pre. "KYŌZON" 
+      
+      Our second two-man event with TRiDENT! Huge success, packed house, and huge gratitude!!
+      Thank you so much for all the birthday wishes, really🥹💖
+      We'll keep working hard to become a band that puts on overwhelming, masterful stages just like our big sisters!!
+    image:
+    - HTvTthQbYAAmRpC
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+    reference:
+    - postximage:
+        post: 2106377870889386317
+        image: HTtbgOlbkAAVkHe
+
+- postx:
+    id: 2106600607222255807
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-10-03
+    text: |-
+      TRiDENT×NEK! pre.「KYŌZON」
+      supported by Girl’s UP!!!
+      @代官山UNIT
+      
+      2度目のツーマンライブ、
+      ほんと激熱すぎる最高の夜だったぁ
+      
+      大好きなTRiDENTさんと
+      また一緒にライブできて、
+      今回もめちゃくちゃ刺激をもらい
+      幸せすぎる時間でした。
+      
+      ありがとうございました！
+    translation: |-
+      TRiDENT×NEK! pre. "KYŌZON"
+      supported by Girl’s UP!!!
+      @Daikanyama UNIT
+      
+      Our 2nd two-man live,
+      was truly a super intense, the best night everrr
+      
+      Being able to play a live again
+      with TRiDENT, whom I love so much,
+      gave me so much inspiration this time too,
+      and it was such an incredibly happy time.
+      
+      Thank you so much!
+    image:
+    - HTwmFXFaAAAzhIe
+    - HTwmFXFaAAEZ8Oc
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
 - postximage:
     post: 2067200588241371561
     id: HLAJ6KwaAAAn0CT
@@ -67,6 +461,117 @@
     part-of:
       postx: 2067200588241371561
 
+- postximage:
+    post: 2105984267587313994
+    id: HTn1h5BbEAE1oSy
+    index: 1
+    label: Backstage
+    info: Hika, Asaka (TRiDENT)
+    todo: like from january 2-man show
+    part-of:
+      postx: 2105984267587313994
+
+- postximage:
+    post: 2106371785319194627
+    id: HTtVgcZa8AEM6Nv
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2106371785319194627
+
+- postximage:
+    post: 2106371785319194627
+    id: HTtVgcba0AABjjd
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2106371785319194627
+
+- postximage:
+    post: 2106373989098766497
+    id: HTtX-XXakAA-q_d
+    index: 1
+    label: Backstage
+    info: NEK!, TRiDENT
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2106373989098766497
+
+- postximage:
+    post: 2106377870889386317
+    id: HTtbgOWbIAARwc7
+    index: 2
+    label: Backstage
+    info: NEK!, TRiDENT
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2106377870889386317
+
+- postximage:
+    post: 2106377870889386317
+    id: HTtbgOlbkAAVkHe
+    index: 1
+    label: Backstage
+    info: NEK!, TRiDENT
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2106377870889386317
+
+- postximage:
+    post: 2106510038793920659
+    id: HTvTthQbYAAmRpC
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2106510038793920659
+
+- postximage:
+    post: 2106600607222255807
+    id: HTwmFXFaAAAzhIe
+    index: 2
+    label: Backstage
+    info: NEK!, TRiDENT
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2106600607222255807
+
+- postximage:
+    post: 2106600607222255807
+    id: HTwmFXFaAAEZ8Oc
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2106600607222255807
+
 - update:
     show:
       year: 2026
@@ -74,6 +579,18 @@
     date: 2026-06-17
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- update:
+    show:
+      year: 2026
+      id: tridentnekikyoozon
+    date: 2026-10-06
+    text:
+    - First pictures from the show
     part-of:
       show:
         year: 2026

@@ -16,8 +16,14 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 2106722874405057014
+                    video: 1
+                - postxvideo:
                     post: 2103841532830990638
                     video: 1
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 1hGUO_2vC24
             - multimediasubsection:
                 label: Images
                 multimedia:
@@ -62,6 +68,10 @@
             - multimediasubsection:
                 multimedia:
                 - webimage:
+                    domain: barks.jp
+                    page: 1092541
+                    id: 21
+                - webimage:
                     domain: natalie.mu
                     page: 690745
                     id: 7
@@ -70,6 +80,10 @@
                     image: HS5qA2jbEAAAfPX
             - multimediasubsection:
                 multimedia:
+                - webimage:
+                    domain: barks.jp
+                    page: 1092541
+                    id: 11
                 - webimage:
                     domain: natalie.mu
                     page: 690745
@@ -630,6 +644,34 @@
         post: 2103841532830990638
         video: 1
 
+- postx:
+    id: 2106722874405057014
+    account: coco_102
+    label: FC lottery last day
+    published-date: 2026-10-04
+    text: |-
+      🩵💙💜 NEK! LIVE TOUR 2027 💜💙🩵
+      
+      FC会員限定先行受付はこのあと23:59まで！！
+      全国のネキ民と最高にアツい空間を作り上げたい！！
+      限界を超える準備をしてお待ちしております🔥
+      
+      #NEKI
+    translation: |-
+      🩵💙💜 NEK! LIVE TOUR 2027 💜💙🩵
+      
+      FC member-only advance applications are until 23:59 shortly!!
+      We want to create the absolute most heated space together with Nekimin nationwide!!
+      We'll be waiting for you, prepare to push past your limits🔥
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2106722874405057014
+        video: 1
+
 - postximage:
     post: 2101241633178300641
     id: HSkcFR_bkAAOlkR
@@ -845,6 +887,22 @@
         year: 2026
         id: debuttourtokyo
 
+- postxvideo:
+    post: 2106722874405057014
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2106722776124190720/img/__FtfWlbNvpZNbOi.jpg
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    - song: mute
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
 - update:
     show:
       year: 2026
@@ -868,6 +926,40 @@
       show:
         year: 2026
         id: debuttourtokyo
+
+- webimage:
+    domain: barks.jp
+    page: 1092541
+    id: 11
+    label: On stage
+    info: Hika
+    published-date: 2026-10-05
+    url: 'https://new-img.barks.jp/wp-content/uploads/2026/10/05122431/1-1.jpg'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1092541
+
+- webimage:
+    domain: barks.jp
+    page: 1092541
+    id: 21
+    label: On stage
+    info: Cocoro
+    published-date: 2026-10-05
+    url: 'https://new-img.barks.jp/wp-content/uploads/2026/10/05122523/2-1.jpg'
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      webpage:
+        domain: barks.jp
+        id: 1092541
 
 - webimage:
     domain: natalie.mu
@@ -1046,6 +1138,41 @@
         id: 690745
 
 - webpage:
+    domain: barks.jp
+    id: 1092541
+    label: Show report
+    published-date: 2026-10-05
+    url: 'https://barks.jp/news/1092541/'
+    image:
+    - 11
+    - 21
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+    reference:
+    - webimage:
+        domain: natalie.mu
+        page: 690745
+        id: 8
+    - webimage:
+        domain: natalie.mu
+        page: 690745
+        id: 2
+    - webimage:
+        domain: natalie.mu
+        page: 690745
+        id: 5
+    - webimage:
+        domain: natalie.mu
+        page: 690745
+        id: 6
+    - webimage:
+        domain: natalie.mu
+        page: 690745
+        id: 1
+
+- webpage:
     domain: natalie.mu
     id: 690745
     label: Show report
@@ -1063,6 +1190,20 @@
     - n1
     - n2
     todo: add in a media page
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- youtubeshort:
+    id: 1hGUO_2vC24
+    label: On stage
+    published-date: 2026-10-02
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    - song: mute
     part-of:
       show:
         year: 2026

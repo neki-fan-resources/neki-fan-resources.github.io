@@ -16,8 +16,17 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 2106722874405057014
+                    video: 1
+                - postxvideo:
                     post: 2097696600022007924
                     video: 1
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 1hGUO_2vC24
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo
@@ -61,8 +70,27 @@
         - basicsection:
             label: Behind the scenes
             subsections:
+            - textsubsection:
+                multimedia:
+                  postxvideo:
+                    post: 2106711024108024214
+                    video: 1
+                lines:
+                - line:
+                  - text: 'The full behind-the-scenes video is available at NEK! fan club Nekimin:'
+                - line:
+                  - webitem:
+                      webpage:
+                        domain: neki.bitfan.id
+                        id: 447991
+                      text: behind-the-scene video - FC
             - multimediasubsection:
                 label: Videos
+                multimedia:
+                - postinstagramvideo:
+                    post: Dd-71u6mSBh
+                    video: 2
+            - multimediasubsection:
                 multimedia:
                 - postxvideo:
                     post: 2101529949178040571
@@ -78,6 +106,9 @@
                     image: 1
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: Dd-71u6mSBh
+                    image: 1
                 - postinstagramimage:
                     post: DdgXPc7JQTJ
                     image: 1
@@ -302,6 +333,22 @@
         - I can smile for real
 
 - postinstagram:
+    id: Dd-71u6mSBh
+    account: 46_hikaa
+    label: MUTE outfit
+    published-date: 2026-10-02
+    text: |-
+      MUTEの衣装すき〜
+    translation: |-
+      I love the MUTE outfit~
+    image:
+    - 1
+    video:
+    - 2
+    part-of:
+      song: mute
+
+- postinstagram:
     id: Ddd-K9LJu7J
     account: 46_hikaa
     label: MV images
@@ -412,6 +459,16 @@
       song: mute
     reference:
     - youtubevideo: 8ZxI_yZZfIA
+
+- postinstagramimage:
+    post: Dd-71u6mSBh
+    id: 1
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Dd-71u6mSBh
 
 - postinstagramimage:
     post: Ddd-K9LJu7J
@@ -539,6 +596,16 @@
     - song: mute
     part-of:
       postinstagram: Ddl2xqJEtLq
+
+- postinstagramvideo:
+    post: Dd-71u6mSBh
+    id: 2
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: mute
+    part-of:
+      postinstagram: Dd-71u6mSBh
 
 - postx:
     id: 2096040623643967726
@@ -724,6 +791,42 @@
     part-of:
       postx: 2102389961194680340
 
+- postx:
+    id: 2106711024108024214
+    account: nekiband_jp
+    label: Behind the scenes video
+    published-date: 2026-10-04
+    text: |-
+      【#ネキ民 MOVIE🎥】
+      
+      ファンクラブコンテンツ更新！
+      
+      "MUTE" Official Music Video
+      - BEHIND THE SCENES - 動画公開
+      
+      ▼ FC MOVIEはこちらから✔️
+      https://neki.bitfan.id/contents/menu/166309
+      
+      #NEKI
+    translation: |-
+      [#Nekimin MOVIE🎥]
+      
+      Fan club content updated!
+      
+      "MUTE" Official Music Video
+      - BEHIND THE SCENES - Video released
+      
+      ▼ FC MOVIE here✔️
+      https://neki.bitfan.id/contents/menu/166309
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2106711024108024214
+        video: 1
+
 - postximage:
     post: 2096040623643967726
     id: HRSIsczbkAAOySn
@@ -798,6 +901,16 @@
     part-of:
       postx: 2101529949178040571
 
+- postxvideo:
+    post: 2106711024108024214
+    id: 1
+    label: Behind the scenes video
+    cover: 2106709853167300608/img/4_6gu71WtoPsDrM-.jpg
+    context:
+    - song: mute
+    part-of:
+      song: mute
+
 - update:
     song: mute
     date: 2026-09-19
@@ -812,6 +925,15 @@
     date: 2026-09-21
     text:
     - Music Video behind-the-scene content
+    part-of:
+      song: mute
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 447991
+    label: Behind the scenes video
+    published-date: 2026-10-04
+    url: 'https://neki.bitfan.id/contents/447991'
     part-of:
       song: mute
 
@@ -837,6 +959,15 @@
     id: LYaoa4ZMBTA
     label: Music Video
     published-date: 2026-09-20
+    context:
+    - song: mute
+    part-of:
+      song: mute
+
+- youtubeshort:
+    id: sPIJU0qVIaM
+    label: Behind the scenes
+    published-date: 2026-10-04
     context:
     - song: mute
     part-of:

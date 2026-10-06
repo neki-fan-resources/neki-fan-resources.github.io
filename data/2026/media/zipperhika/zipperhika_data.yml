@@ -1,0 +1,169 @@
+- display:
+    media:
+      year: 2026
+      id: zipperhika
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2102956623979589802
+                    image: HS8yiJfbEAAZU_9
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DeElgOJlZM8
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2106753245813387671
+                    image: HTyw6NmaYAAcRre
+    part-of:
+      media:
+        year: 2026
+        id: zipperhika
+
+- postinstagram:
+    id: DeElgOJlZM8
+    account: zipperjp
+    label: Photoshoot
+    published-date: 2026-10-04
+    text: |-
+      【HARAJUKU STREET SNAP】
+      
+      Hikaさん
+      @46_hikaa 
+      ——————
+      ワンピースをパンツに重ねる自由な発想が光る、気負わないレイヤードスタイル。淡いブルーのシャツにドット柄ワンピース、その下にはワイドなトラックパンツ。ガーリーな重ね着を、スポーツウェアでストリートへ引き寄せた。
+      ——————
+      Zipper SNAPは不定期開催中。
+      
+      興味があるコは #ZipperSNAP で
+      自分のコーデを投稿してね。
+      
+      #原宿ファッション #FashionSNAP
+    translation: |-
+      [HARAJUKU STREET SNAP]
+      
+      Hika-san
+      @46_hikaa 
+      ——————
+      An effortless layered style shining with the free idea of layering a dress over pants. A light blue shirt with a polka-dot dress, and wide track pants underneath. Pulling a girly layered look into street style with sportswear.
+      ——————
+      Zipper SNAP is held irregularly.
+      
+      Anyone interested, post your own outfit
+      with #ZipperSNAP.
+      
+      #HarajukuFashion #FashionSNAP
+    image:
+    - 1
+    part-of:
+      media:
+        year: 2026
+        id: zipperhika
+
+- postinstagramimage:
+    post: DeElgOJlZM8
+    id: 1
+    label: Photoshoot
+    info: Hika
+    context:
+    - media:
+        year: 2026
+        id: zipperhika
+    part-of:
+      postinstagram: DeElgOJlZM8
+
+- postx:
+    id: 2102956623979589802
+    account: zipperjp
+    label: Announcement
+    published-date: 2026-09-24
+    text: |-
+      ━━━━＼表紙解禁／━━━━
+       
+      #乃木坂46（ @nogizaka46 ）
+       
+      ━━━━━━━━━━━━━━
+      
+      賀喜遥香・筒井あやめ・池田瑛紗・一ノ瀬美空・中西アルノ・矢田萌華・森平麗心の7名が登場！彼女たちの透明感と芯の強さを映し出した22ページの大特集でお届けします。
+       
+      #Zipper 秋号 9月30日(水)発売🍂
+    translation: |-
+      ━━━━＼Cover Reveal／━━━━
+       
+      #Nogizaka46 ( @nogizaka46 )
+       
+      ━━━━━━━━━━━━━━
+      
+      Featuring 7 members: Haruka Kaki, Ayame Tsutsui, Teresa Ikeda, Miku Ichinose, Arno Nakanishi, Moeka Yada, and Remi Morihira! Brought to you in a massive 22-page feature reflecting their translucence and inner strength.
+       
+      #Zipper Autumn Issue on sale Wednesday, September 30🍂
+    image:
+    - HS8yiJfbEAAZU_9
+    part-of:
+      media:
+        year: 2026
+        id: zipperhika
+
+- postx:
+    id: 2106753245813387671
+    account: 46_hikaa
+    label: In hand
+    published-date: 2026-10-04
+    text: |-
+      やっとゲットできた！！
+    translation: |-
+      Finally got it!!
+    image:
+    - HTyw6NmaYAAcRre
+    part-of:
+      media:
+        year: 2026
+        id: zipperhika
+
+- postximage:
+    post: 2102956623979589802
+    id: HS8yiJfbEAAZU_9
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: zipperhika
+    part-of:
+      postx: 2102956623979589802
+
+- postximage:
+    post: 2106753245813387671
+    id: HTyw6NmaYAAcRre
+    index: 1
+    label: Magazine
+    info: Hika
+    context:
+    - media:
+        year: 2026
+        id: zipperhika
+    part-of:
+      postx: 2106753245813387671
+
+- update:
+    media:
+      year: 2026
+      id: zipperhika
+    date: 2026-10-06
+    text:
+    - Added the feature
+    part-of:
+      media:
+        year: 2026
+        id: zipperhika
+

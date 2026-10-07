@@ -1,3 +1,44 @@
+- display:
+    show:
+      year: 2026
+      id: ignitionacoustic2man
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2107472779192967390
+                    image: HT84VvxbYAABiOS
+                - postximage:
+                    post: 2107469121223066083
+                    image: HT87_ncaoAAPODR
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2107472779192967390
+                    image: HT84VvpaEAI1H8y
+        - basicsection:
+            label: Before the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2107050615172165916
+                    image: HT2_XdVbYAAJEHG
+    part-of:
+      show:
+        year: 2026
+        id: ignitionacoustic2man
+
 - postx:
     id: 2089336945365397518
     account: nekiband_jp
@@ -198,6 +239,75 @@
     part-of:
       postx: 2098311273360621794
 
+- postx:
+    id: 2107469121223066083
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-10-06
+    text: |-
+      「Ignition!!! 〜Acoustic Two Man Show〜」
+      @ 下北沢440
+      
+      本日はこたにさんとのツーマン！
+      ありがとうございます！！
+      
+      4年ぶりの弾き語りライブ。
+      
+      緊張したけど、やっぱ一人の空間も好きだ自分の声とギターの音が鳴るステージで
+      また、弾き語りしたいなぁ。
+    translation: |-
+      "Ignition!!! 〜Acoustic Two Man Show〜"
+      @ Shimokitazawa 440
+      
+      Today was a two-man live with Kotani-san!
+      Thank you so much!!
+      
+      My first acoustic live in 4 years.
+      
+      I was nervous, but I really love being in a space on my own too, on a stage where my own voice and guitar resonate
+      I'd love to do an acoustic live again.
+    image:
+    - HT87_ncaoAAPODR
+    part-of:
+      show:
+        year: 2026
+        id: ignitionacoustic2man
+
+- postx:
+    id: 2107472779192967390
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-10-06
+    text: |-
+      Ignition!!! 〜Acoustic Two Man Show〜
+      @ 下北沢440
+      
+      w/ こたに(Bray me)
+      @brayme_official
+      
+      
+      ご来場ありがとうございました🫶✨
+      
+      #NEKI
+    translation: |-
+      Ignition!!! 〜Acoustic Two Man Show〜
+      @ Shimokitazawa 440
+      
+      w/ Kotani (Bray me)
+      @brayme_official
+      
+      
+      Thank you for coming🫶✨
+      
+      #NEKI
+    image:
+    - HT84VvpaEAI1H8y
+    - HT84VvxbYAABiOS
+    part-of:
+      show:
+        year: 2026
+        id: ignitionacoustic2man
+
 - postximage:
     post: 2089336945365397518
     id: HP7Ds-rawAAuN-I
@@ -262,6 +372,45 @@
     part-of:
       postx: 2107050615172165916
 
+- postximage:
+    post: 2107469121223066083
+    id: HT87_ncaoAAPODR
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: ignitionacoustic2man
+    part-of:
+      postx: 2107469121223066083
+
+- postximage:
+    post: 2107472779192967390
+    id: HT84VvpaEAI1H8y
+    index: 1
+    label: On stage
+    info: こたに (Bray me), Hika
+    context:
+    - show:
+        year: 2026
+        id: ignitionacoustic2man
+    part-of:
+      postx: 2107472779192967390
+
+- postximage:
+    post: 2107472779192967390
+    id: HT84VvxbYAABiOS
+    index: 2
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: ignitionacoustic2man
+    part-of:
+      postx: 2107472779192967390
+
 - update:
     show:
       year: 2026
@@ -269,6 +418,18 @@
     date: 2026-08-18
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: ignitionacoustic2man
+
+- update:
+    show:
+      year: 2026
+      id: ignitionacoustic2man
+    date: 2026-10-07
+    text:
+    - First pictures from the show
     part-of:
       show:
         year: 2026

@@ -1,3 +1,76 @@
+- display:
+    show:
+      year: 2026
+      id: minamiwheel
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2108855128740761964
+                    video: 1
+                - postxvideo:
+                    post: 2108849190868787402
+                    video: 1
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2108830437825253614
+                    image: HUQSGRbagAE_I14
+                - postximage:
+                    post: 2108832631249064378
+                    image: HUQUGOYbcAEv3uQ
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2108830437825253614
+                    image: HUQSGRGaEAEmNeh
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2108839172593299659
+                    image: HUQaC9vaMAA-oZD
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2108833371036299724
+                    image: HUQUxEtb0AABmq1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2108832631249064378
+                    image: HUQUGOQbAAAV_vb
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2108791907115729093
+                    image: HUPu_n2aoAAc9jw
+                - postximage:
+                    post: 2108791907115729093
+                    image: HUPu_oDbgAAgXN6
+        - basicsection:
+            label: After the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2108875112078569624
+                    video: 1
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
 - postx:
     id: 2080216354033189136
     account: minamiwheel
@@ -126,6 +199,217 @@
         year: 2026
         id: minamiwheel
 
+- postx:
+    id: 2108791907115729093
+    account: 802wannabes
+    label: Minaho app
+    published-date: 2026-10-10
+    text: |-
+      📷 #フォトホイール #FM802 #ミナホ📷
+      
+      🟣15:00～ VARON
+      NEK!
+      
+      出演アーティストの意気込みはミナホ公式アプリからチェック！👀✅
+      
+      🔗https://minamiwheel.link.fespli.com
+    translation: |-
+      📷 #PhotoWheel #FM802 #Minaho📷
+      
+      🟣15:00~ VARON
+      NEK!
+      
+      Check out the performing artists' enthusiasm on the official Minaho app!👀✅
+      
+      🔗https://minamiwheel.link.fespli.com
+    image:
+    - HUPu_n2aoAAc9jw
+    - HUPu_oDbgAAgXN6
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- postx:
+    id: 2108830437825253614
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-10-10
+    text: |-
+      #FM802 MINAMI WHEEL 2026
+      @ VARON
+      
+      入場規制したー！！来てくれたみんなありがとう🥹
+      もう熱気がすごくて、汗だくライブでした！
+      前から後ろの方まで手上げて、声出してくれて本当にありがとう！！
+      来年もまたミナホでみんなと会えますように！
+    translation: |-
+      #FM802 MINAMI WHEEL 2026
+      @ VARON
+      
+      We hit admission restrictions!! Thank you to everyone who came🥹
+      The heat was just incredible, it was such a sweat-drenched live show!
+      Thank you so much to everyone from front to back for raising your hands and cheering!!
+      I hope we can meet you all again at Minaho next year!
+    image:
+    - HUQSGRGaEAEmNeh
+    - HUQSGRbagAE_I14
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- postx:
+    id: 2108832631249064378
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-10-10
+    text: |-
+      3度目のミナミホイール！
+      入場規制🈵
+      ありがとうございました！！！
+      いやぁ〜熱かったー！！！
+      前から後ろの方までパンパンで本当に嬉しかったです！
+      
+      今回観に来てくださった方も観に来られなかった方も1月から始まるツアーの初日が大阪なのでぜひ遊びに来てくださると嬉しいです‼️🐙
+    translation: |-
+      Our 3rd Minami Wheel!
+      Capacity restricted/Full house🈵
+      Thank you so much!!!
+      Man, it was so hot/intense~!!!
+      It was packed from the front all the way to the back, which made me so truly happy!
+      
+      Whether you came to see us this time or couldn't make it, the first day of our tour starting in January is in Osaka, so we'd love for you to come hang out/see us‼️🐙
+    image:
+    - HUQUGOQbAAAV_vb
+    - HUQUGOYbcAEv3uQ
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- postx:
+    id: 2108833371036299724
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-10-10
+    text: |-
+      #FM802 MINAMI WHEEL 2026
+      
+      入場規制ありがとうございます！
+      ミナミホイール、やっぱり最高すぎる〜
+      楽しすぎて汗だくだよ！
+      
+      今日、出会ってくれたみんな！
+      ワンマンの方にも遊びにきてね！
+    translation: |-
+      #FM802 MINAMI WHEEL 2026
+      
+      Thank you for hitting admission restrictions!
+      Minami Wheel really is just the best~
+      It was so much fun, I'm soaked in sweat!
+      
+      To everyone who discovered us today!
+      Come hang out at our one-man live too!
+    image:
+    - HUQUxEtb0AABmq1
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+    reference:
+    - postximage:
+        post: 2108832631249064378
+        image: HUQUGOYbcAEv3uQ
+
+- postx:
+    id: 2108839172593299659
+    account: coco_102
+    label: Thank you
+    published-date: 2026-10-10
+    text: |-
+      ミナホ今年もありがとうございました👊🏻💜
+      開演前からの入場規制めっちゃ嬉しかったです！！
+      ギューギューのフロアのおかげで最高に熱いライブができました！NEK!のライブもっと楽しみたいよ！という方はぜひ来年のツアーも遊びに来てください🙌🏻
+      
+      またライブハウスで会いましょう！！
+    translation: |-
+      Thank you again for Minaho this year👊🏻💜
+      I was so happy we hit admission restrictions even before the show started!!
+      Thanks to the jam-packed floor, we had the hottest, best live show! To anyone thinking "I want to enjoy NEK!'s live shows even more!", please come visit us on our tour next year too🙌🏻
+      
+      Let's meet at the live house again!!
+    image:
+    - HUQaC9vaMAA-oZD
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+    reference:
+    - postximage:
+        post: 2108832631249064378
+        image: HUQUGOYbcAEv3uQ
+
+- postx:
+    id: 2108849190868787402
+    account: nekiband_jp
+    label: MAZE on stage
+    published-date: 2026-10-10
+    text: |-
+      2026.10.10(Sat.)
+      FM802 MINAMI WHEEL 2026
+      VARON
+      THANK YOU🖤
+      #NEKI #ミナホ
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2108849190868787402
+        video: 1
+
+- postx:
+    id: 2108855128740761964
+    account: coco_102
+    label: Dreams on stage, Drum Day
+    published-date: 2026-10-10
+    text: |-
+      本日10月10日はドラムの日🥁🩵
+      これからもこの楽器と共にたくさんの夢を叶えていきます✊🏻ドラムと出会えてよかった！！大好きだー！！
+      
+      #NEKI #ドラムの日
+    translation: |-
+      Today, October 10, is Drum Day🥁🩵
+      From here on, I'll keep making lots of dreams come true together with this instrument✊🏻I'm so glad I found the drums!! I love it so much!!
+      
+      #NEKI #DrumDay
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2108855128740761964
+        video: 1
+
+- postx:
+    id: 2108875112078569624
+    account: 46_hikaa
+    label: Way to much fun
+    published-date: 2026-10-10
+    text: |-
+      ミナミホイール楽しすぎた！
+      
+      #NEKI
+    translation: |-
+      Minami Wheel was way too much fun!
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2108875112078569624
+        video: 1
+
 - postximage:
     post: 2080216354033189136
     id: HN5k4_aacAAsPVc
@@ -175,6 +459,151 @@
     part-of:
       postx: 2098000988204589359
 
+- postximage:
+    post: 2108791907115729093
+    id: HUPu_n2aoAAc9jw
+    index: 1
+    label: Sign
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2108791907115729093
+
+- postximage:
+    post: 2108791907115729093
+    id: HUPu_oDbgAAgXN6
+    index: 2
+    label: Sign
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2108791907115729093
+
+- postximage:
+    post: 2108830437825253614
+    id: HUQSGRGaEAEmNeh
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2108830437825253614
+
+- postximage:
+    post: 2108830437825253614
+    id: HUQSGRbagAE_I14
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2108830437825253614
+
+- postximage:
+    post: 2108832631249064378
+    id: HUQUGOQbAAAV_vb
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2108832631249064378
+
+- postximage:
+    post: 2108832631249064378
+    id: HUQUGOYbcAEv3uQ
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2108832631249064378
+
+- postximage:
+    post: 2108833371036299724
+    id: HUQUxEtb0AABmq1
+    index: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2108833371036299724
+
+- postximage:
+    post: 2108839172593299659
+    id: HUQaC9vaMAA-oZD
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      postx: 2108839172593299659
+
+- postxvideo:
+    post: 2108849190868787402
+    id: 1
+    label: On stage
+    cover: 2108849034035331072/img/9nGHlcEqlhsthDSf.jpg
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    - song: maze
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- postxvideo:
+    post: 2108855128740761964
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2108854952428998657/img/pvvbGS8_a0ik5MsP.jpg
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    - song: dreams
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- postxvideo:
+    post: 2108875112078569624
+    id: 1
+    label: In the van
+    info: Hika, Natsu, on the way back
+    cover: 2108875095406202880/img/DrcdGdGoqn8BGBYR.jpg
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
 - update:
     show:
       year: 2026
@@ -182,6 +611,18 @@
     date: 2026-07-23
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- update:
+    show:
+      year: 2026
+      id: minamiwheel
+    date: 2026-10-10
+    text:
+    - First pictures and videos from the show
     part-of:
       show:
         year: 2026

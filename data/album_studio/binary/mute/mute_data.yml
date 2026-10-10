@@ -10,6 +10,9 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: 8ZxI_yZZfIA
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: og4GxBoc6Cg
         - basicsection:
             label: Live, with original audio
             subsections:
@@ -959,6 +962,15 @@
     id: LYaoa4ZMBTA
     label: Music Video
     published-date: 2026-09-20
+    context:
+    - song: mute
+    part-of:
+      song: mute
+
+- youtubeshort:
+    id: og4GxBoc6Cg
+    label: Music Video set
+    published-date: 2026-10-09
     context:
     - song: mute
     part-of:

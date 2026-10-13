@@ -1,3 +1,202 @@
+- display:
+    show:
+      year: 2026
+      id: nemophilatenfes
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postximage:
+                    post: 2109637698864775677
+                    image: HUbwSdPaIAArtQi
+                - postximage:
+                    post: 2109650986042359838
+                    image: HUb8YFyawAAvH-m
+                - postinstagramimage:
+                    post: DeZaMNkEg55
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DeZaMNkEg55
+                    image: 4
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DeZaMNkEg55
+                    image: 5
+                - postximage:
+                    post: 2109660833416630751
+                    image: HUcFVIbaAAEXnqv
+                - postximage:
+                    post: 2109653744376054128
+                    image: HUb-4WlbsAA1WQv
+                - postximage:
+                    post: 2109658502604128401
+                    image: HUcDOJubMAAyMuY
+                - postximage:
+                    post: 2109637698864775677
+                    image: HUbwSdQbYAAg6Tj
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2109650986042359838
+                    image: HUb8YF7bUAAD3YG
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2109660833416630751
+                    image: HUcFVIQb0AAblW0
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2109653744376054128
+                    image: HUb-4Wqb0AADgjB
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2109653744376054128
+                    image: HUb-4Wla0AAxJMh
+                - postximage:
+                    post: 2109660833416630751
+                    image: HUcFVIQbwAA2-sd
+                - postximage:
+                    post: 2109637698864775677
+                    image: HUbwSdgbQAAfx1A
+                - postximage:
+                    post: 2109650986042359838
+                    image: HUb8YF5bQAAd2LA
+                - postximage:
+                    post: 2109658502604128401
+                    image: HUcDOJtbwAAIW5k
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2109647783049441699
+                    image: HUb5UNIagAE-gLj
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2109700712074752041
+                    image: HUcpnQdaAAAqo5Z
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2109964004068364385
+                    image: HUgZFCOb0AAVUZu
+                - postximage:
+                    post: 2109964004068364385
+                    image: HUgZFCDbUAEDMF0
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postinstagram:
+    id: DeZaMNkEg55
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-10-12
+    text: |-
+      「天壌無窮極音道中」
+      EX THEATER ROPPONGI
+      
+      w/ 
+      NEMOPHILA
+      East Of Eden
+      TRiDENT
+      
+      ご来場ありがとうございました⚡️
+      
+      来年1月より全国ツアー開催！
+      現在オフィシャル先行受付中🗾
+      https://l-tike.com/nekiband/
+      
+      photo by @___sunny56__ 
+      
+      #NEKI
+      #天フェス
+    translation: |-
+      "Tenjou Mukyuu Gokuon Douchuu"
+      EX THEATER ROPPONGI
+      
+      w/ 
+      NEMOPHILA
+      East Of Eden
+      TRiDENT
+      
+      Thank you for coming⚡️
+      
+      Nationwide tour starts next January!
+      Official advance applications now open🗾
+      https://l-tike.com/nekiband/
+      
+      photo by @___sunny56__ 
+      
+      #NEKI
+      #TenFes
+    image:
+    - 1
+    - 4
+    - 5
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+    reference:
+    - postximage:
+        post: 2109637698864775677
+        image: HUbwSdQbYAAg6Tj
+    - postximage:
+        post: 2109637698864775677
+        image: HUbwSdPaIAArtQi
+    - postximage:
+        post: 2109650986042359838
+        image: HUb8YF5bQAAd2LA
+
+- postinstagramimage:
+    post: DeZaMNkEg55
+    id: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DeZaMNkEg55
+
+- postinstagramimage:
+    post: DeZaMNkEg55
+    id: 4
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DeZaMNkEg55
+
+- postinstagramimage:
+    post: DeZaMNkEg55
+    id: 5
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DeZaMNkEg55
+
 - postx:
     id: 2083478027925946815
     account: NEMOPHILA_band
@@ -96,6 +295,248 @@
         year: 2026
         id: nemophilatenfes
 
+- postx:
+    id: 2109637698864775677
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-10-12
+    text: |-
+      「天壌無窮極音道中」
+      EX THEATER ROPPONGI
+      
+      w/ 
+      NEMOPHILA
+      East Of Eden
+      TRiDENT
+      
+      ご来場ありがとうございました⚡️
+      
+      来年1月より全国ツアー開催！
+      現在オフィシャル先行受付中🗾
+      https://l-tike.com/nekiband/
+      
+      photo by @___sunny56__
+       
+      
+      #NEKI
+      #天フェス
+    translation: |-
+      "Tenjou Mukyuu Gokuon Douchuu"
+      EX THEATER ROPPONGI
+      
+      w/ 
+      NEMOPHILA
+      East Of Eden
+      TRiDENT
+      
+      Thank you for coming⚡️
+      
+      Nationwide tour starts next January!
+      Official advance applications now open🗾
+      https://l-tike.com/nekiband/
+      
+      photo by @___sunny56__
+       
+      
+      #NEKI
+      #TenFes
+    image:
+    - HUbwSdPaIAArtQi
+    - HUbwSdQbYAAg6Tj
+    - HUbwSdgbQAAfx1A
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postx:
+    id: 2109647783049441699
+    account: nekiband_jp
+    label: Big thanks
+    published-date: 2026-10-12
+    text: |-
+      ◤◢ ⚡ BIG THANKS ⚡ ◤◢
+      
+      「天壌無窮極音道中」
+      EX THEATER ROPPONGI
+      @NEMOPHILA_band
+       
+      
+      #NEKI #NEMOPHILA
+    translation: |-
+      ◤◢ ⚡ BIG THANKS ⚡ ◤◢
+      
+      "Tenjou Mukyuu Gokuon Douchuu"
+      EX THEATER ROPPONGI
+      @NEMOPHILA_band
+       
+      
+      #NEKI #NEMOPHILA
+    image:
+    - HUb5UNIagAE-gLj
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postx:
+    id: 2109650986042359838
+    account: coco_102
+    label: Thank you
+    published-date: 2026-10-12
+    text: |-
+      「天壌無窮極音道中」ありがとうございました！！
+      熱く楽しく激しい、こんな時間が一生続けばいいのになと思う最高の夜でした🔥
+      姉さんたちカッコよすぎて鳥肌止まらなかった…
+      こんな素敵な対バンライブに呼んでくださったNEMOPHILAさんに心より感謝申し上げます！！
+      本当にありがとうございました！
+    translation: |-
+      Thank you so much for "Tenjou Mukyuu Gokuon Douchuu"!!
+      It was the best night—hot, fun, and intense—making me wish moments like this could last forever🔥
+      The older sisters were so cool I couldn't stop getting goosebumps…
+      From the bottom of my heart, I thank NEMOPHILA for inviting us to such a wonderful joint live show!!
+      Thank you so very much!
+    image:
+    - HUb8YF5bQAAd2LA
+    - HUb8YF7bUAAD3YG
+    - HUb8YFyawAAvH-m
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postx:
+    id: 2109653744376054128
+    account: cure_bass_baka
+    label: Thank you
+    published-date: 2026-10-12
+    text: |-
+      「天壌無窮極音道中」
+      @ EX THEATER ROPPONGI
+      
+      バキバキに熱い天フェス！！🥹
+      今日来てくれたみんなにとっても、私たちにとっても、忘れられない日になりました。
+      本当にありがとう！
+      トップバッターNEK!でした！
+    translation: |-
+      "Tenjou Mukyuu Gokuon Douchuu"
+      @ EX THEATER ROPPONGI
+      
+      Insanely hot TenFes!!🥹
+      It became an unforgettable day, both for everyone who came today and for us.
+      Thank you so much!
+      We were the opening act, NEK!!
+    image:
+    - HUb-4Wla0AAxJMh
+    - HUb-4WlbsAA1WQv
+    - HUb-4Wqb0AADgjB
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postx:
+    id: 2109658502604128401
+    account: 46_hikaa
+    label: Thank you
+    published-date: 2026-10-12
+    text: |-
+      「天壌無窮極音道中」
+      EX THEATER ROPPONGI
+      
+      本日はありがとうございました！！
+      
+      最高に熱いイベントのトップバッターを
+      NEK!務めさせていただき、
+      この場所でライブができて
+      本当に嬉しかったです！
+      
+      熱々の最高の時間でした！
+      ありがとうございました！
+    translation: |-
+      "Tenjou Mukyuu Gokuon Douchuu"
+      EX THEATER ROPPONGI
+      
+      Thank you very much for today!!
+      
+      As the opening act of this intensely hot event,
+      NEK! had the honor of performing,
+      and being able to play live in this venue
+      made me truly happy!
+      
+      It was a piping hot, absolute best time!
+      Thank you so much!
+    image:
+    - HUcDOJtbwAAIW5k
+    - HUcDOJubMAAyMuY
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postx:
+    id: 2109660833416630751
+    account: natsu08_guitar
+    label: Thank you
+    published-date: 2026-10-12
+    text: |-
+      「天壌無窮極音道中」
+      EX THEATER ROPPONGI
+      
+      さいっこうにカッコ良すぎる先輩方と一緒にできて幸せすぎる夜でした。
+      NEMOPHILAさん、改めてありがとうございました！！
+      こんなにかっこいい先輩方の背中を間近で見られたこと、この場でトッパーとして演奏できたこと、心から幸せでした！
+    translation: |-
+      "Tenjou Mukyuu Gokuon Douchuu"
+      EX THEATER ROPPONGI
+      
+      It was such an excessively happy night being able to play together with our insanely cool seniors.
+      NEMOPHILA, thank you once again!!
+      Being able to see the backs of such cool seniors up close, and performing in this venue as the opening act, made me truly happy from the bottom of my heart!
+    image:
+    - HUcFVIQb0AAblW0
+    - HUcFVIQbwAA2-sd
+    - HUcFVIbaAAEXnqv
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postx:
+    id: 2109700712074752041
+    account: coco_102
+    label: Drummers
+    published-date: 2026-10-12
+    text: |-
+      憧れのお姉様方と🥲🫶🏻
+    translation: |-
+      With our admired older sisters🥲🫶🏻
+    image:
+    - HUcpnQdaAAAqo5Z
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postx:
+    id: 2109964004068364385
+    account: cure_bass_baka
+    label: Backstage
+    published-date: 2026-10-13
+    text: |-
+      せりぬんさんにフラれたいってお願いしました🥺
+        #NEKI  #TRiDENT さん
+    translation: |-
+      I asked Serinun-san to dump me🥺
+        #NEKI  #TRiDENT-san
+    image:
+    - HUgZFCDbUAEDMF0
+    - HUgZFCOb0AAVUZu
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
 - postximage:
     post: 2083478027925946815
     id: HOoAOUrbUAADs6G
@@ -105,6 +546,229 @@
     part-of:
       postx: 2083478027925946815
 
+- postximage:
+    post: 2109637698864775677
+    id: HUbwSdPaIAArtQi
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109637698864775677
+
+- postximage:
+    post: 2109637698864775677
+    id: HUbwSdQbYAAg6Tj
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109637698864775677
+
+- postximage:
+    post: 2109637698864775677
+    id: HUbwSdgbQAAfx1A
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109637698864775677
+
+- postximage:
+    post: 2109647783049441699
+    id: HUb5UNIagAE-gLj
+    index: 1
+    label: Backstage
+    info: NEMOPHILA, NEK!
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109647783049441699
+
+- postximage:
+    post: 2109650986042359838
+    id: HUb8YF5bQAAd2LA
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109650986042359838
+
+- postximage:
+    post: 2109650986042359838
+    id: HUb8YF7bUAAD3YG
+    index: 1
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109650986042359838
+
+- postximage:
+    post: 2109650986042359838
+    id: HUb8YFyawAAvH-m
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109650986042359838
+
+- postximage:
+    post: 2109653744376054128
+    id: HUb-4Wla0AAxJMh
+    index: 3
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109653744376054128
+
+- postximage:
+    post: 2109653744376054128
+    id: HUb-4WlbsAA1WQv
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109653744376054128
+
+- postximage:
+    post: 2109653744376054128
+    id: HUb-4Wqb0AADgjB
+    index: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109653744376054128
+
+- postximage:
+    post: 2109658502604128401
+    id: HUcDOJtbwAAIW5k
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109658502604128401
+
+- postximage:
+    post: 2109658502604128401
+    id: HUcDOJubMAAyMuY
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109658502604128401
+
+- postximage:
+    post: 2109660833416630751
+    id: HUcFVIQb0AAblW0
+    index: 3
+    label: On stage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109660833416630751
+
+- postximage:
+    post: 2109660833416630751
+    id: HUcFVIQbwAA2-sd
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109660833416630751
+
+- postximage:
+    post: 2109660833416630751
+    id: HUcFVIbaAAEXnqv
+    index: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109660833416630751
+
+- postximage:
+    post: 2109700712074752041
+    id: HUcpnQdaAAAqo5Z
+    index: 1
+    label: Drummers
+    info: MIZUKI (East Of Eden), むらたたむ (NEMOPHILA), Cocoro, NAGISA (TRiDENT)
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109700712074752041
+
+- postximage:
+    post: 2109964004068364385
+    id: HUgZFCDbUAEDMF0
+    index: 2
+    label: Backstage
+    info: Kanade, SERINA (TRiDENT)
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109964004068364385
+
+- postximage:
+    post: 2109964004068364385
+    id: HUgZFCOb0AAVUZu
+    index: 1
+    label: Backstage
+    info: Kanade, SERINA (TRiDENT)
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2109964004068364385
+
 - update:
     show:
       year: 2026
@@ -112,6 +776,18 @@
     date: 2026-08-01
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- update:
+    show:
+      year: 2026
+      id: nemophilatenfes
+    date: 2026-10-13
+    text:
+    - First pictures from the show
     part-of:
       show:
         year: 2026

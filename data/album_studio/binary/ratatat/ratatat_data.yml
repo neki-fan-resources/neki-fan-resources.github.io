@@ -13,6 +13,12 @@
                 - postxvideo:
                     post: 2103841532830990638
                     video: 1
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: LufDNsyFJHI
     - lyricsblock: '-'
     part-of:
       song: ratatat

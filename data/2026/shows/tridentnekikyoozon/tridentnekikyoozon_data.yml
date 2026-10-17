@@ -12,6 +12,13 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: YeOlAEydW00
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: crpaPomoTzk
+            - multimediasubsection:
+                label: Images
+                multimedia:
                 - postinstagramimage:
                     post: DeCM2JVEiLk
                     image: 3
@@ -591,6 +598,33 @@
     date: 2026-10-06
     text:
     - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- youtubeshort:
+    id: YeOlAEydW00
+    label: Digest movie
+    published-date: 2026-10-15
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    - song: gimmick
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
+- youtubeshort:
+    id: crpaPomoTzk
+    label: Rhythm check
+    published-date: 2026-10-14
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
     part-of:
       show:
         year: 2026

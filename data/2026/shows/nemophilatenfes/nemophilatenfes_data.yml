@@ -11,6 +11,11 @@
             label: At the show
             subsections:
             - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2110696665535660474
+                    video: 1
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
@@ -56,6 +61,11 @@
                     image: HUcFVIQb0AAblW0
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DegqMnGJ5Zm
+                    image: 1
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2109653744376054128
                     image: HUb-4Wqb0AADgjB
@@ -97,6 +107,22 @@
                 - postximage:
                     post: 2109964004068364385
                     image: HUgZFCDbUAEDMF0
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2111413266182520911
+                    image: HU0_LDwaEAATu1J
+                - postximage:
+                    post: 2111401728642097438
+                    image: HU00rmwboAARtTT
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DelPWHPI0M8
+                    image: 1
+                - postinstagramimage:
+                    post: DelPWHPI0M8
+                    image: 2
     part-of:
       show:
         year: 2026
@@ -164,6 +190,49 @@
         post: 2109650986042359838
         image: HUb8YF5bQAAd2LA
 
+- postinstagram:
+    id: DegqMnGJ5Zm
+    account: 46_hikaa
+    label: Photo
+    published-date: 2026-10-15
+    text: |-
+      2026.09.23 
+      
+      Photo by @ryuji_kinmruj
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postinstagram:
+    id: DelPWHPI0M8
+    account: cure_bass_baka
+    label: Gummies
+    published-date: 2026-10-17
+    text: |-
+      リハ中と本番前のぐみ>‎ ̫<♩
+      ⁡
+      ･
+      ⁡
+      photo by （@___sunny56__ ）
+       #NEKI  #bassist
+    translation: |-
+      Gumi during rehearsal and before the show>‎ ̫<♩
+      ⁡
+      ･
+      ⁡
+      photo by （@___sunny56__ ）
+       #NEKI  #bassist
+    image:
+    - 1
+    - 2
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
 - postinstagramimage:
     post: DeZaMNkEg55
     id: 1
@@ -196,6 +265,42 @@
         id: nemophilatenfes
     part-of:
       postinstagram: DeZaMNkEg55
+
+- postinstagramimage:
+    post: DegqMnGJ5Zm
+    id: 1
+    label: On stage
+    info: Hika
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DegqMnGJ5Zm
+
+- postinstagramimage:
+    post: DelPWHPI0M8
+    id: 1
+    label: On stage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DelPWHPI0M8
+
+- postinstagramimage:
+    post: DelPWHPI0M8
+    id: 2
+    label: Backstage
+    info: Kanade
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DelPWHPI0M8
 
 - postx:
     id: 2083478027925946815
@@ -537,6 +642,66 @@
         year: 2026
         id: nemophilatenfes
 
+- postx:
+    id: 2110696665535660474
+    account: coco_102
+    label: ENDLESSGAME on stage
+    published-date: 2026-10-15
+    text: |-
+      👾ENDLESSGAME👾
+      ⁡
+      EX THEATER ROPPONGI最高でした！！
+      会場広かったからまた真後ろから撮ってみたよ🫢
+      
+      #NEKI
+    translation: |-
+      👾ENDLESSGAME👾
+      
+      EX THEATER ROPPONGI was awesome!!
+      The venue was big, so I tried filming from right in the back again🫢
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2110696665535660474
+        video: 1
+
+- postx:
+    id: 2111401728642097438
+    account: 46_hikaa
+    label: Photo
+    published-date: 2026-10-17
+    text: |-
+      あさかっぺ先輩とのツーショット！
+      @askppp69
+    translation: |-
+      A two-shot with Asakappe-senpai!
+      @askppp69
+    image:
+    - HU00rmwboAARtTT
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postx:
+    id: 2111413266182520911
+    account: askppp69
+    label: Backstage
+    published-date: 2026-10-17
+    text: |-
+      妹みたいなかわいい後輩🥰
+    translation: |-
+      A cute junior who's like a little sister🥰
+    image:
+    - HU0_LDwaEAATu1J
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
 - postximage:
     post: 2083478027925946815
     id: HOoAOUrbUAADs6G
@@ -768,6 +933,48 @@
         id: nemophilatenfes
     part-of:
       postx: 2109964004068364385
+
+- postximage:
+    post: 2111401728642097438
+    id: HU00rmwboAARtTT
+    index: 1
+    label: Backstage
+    info: Hika, Asaka (TRiDENT)
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2111401728642097438
+
+- postximage:
+    post: 2111413266182520911
+    id: HU0_LDwaEAATu1J
+    index: 1
+    label: Backstage
+    info: Hika, Asaka (TRiDENT)
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postx: 2111413266182520911
+
+- postxvideo:
+    post: 2110696665535660474
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2110696582312300544/img/ob3_JbrmHyk4oz1e.jpg
+    context:
+    - song: endlessgame
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
 
 - update:
     show:

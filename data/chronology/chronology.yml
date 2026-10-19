@@ -387,7 +387,16 @@ contentpage:
       id: 2ndkanagawa
   - media:
       year: 2026
+      id: fmiwatespeaksparkroom
+  - media:
+      year: 2026
+      id: datefmsoundgenic
+  - media:
+      year: 2026
       id: skreamnekishi202602
+  - media:
+      year: 2026
+      id: fmakitamix
   - show:
       year: 2026
       id: 2ndanniversaryevent
@@ -395,10 +404,19 @@ contentpage:
       year: 2026
       id: 2ndtokyo1
   - tour: 2ndanniversarytour
+  - media:
+      year: 2026
+      id: rhythmstationrecomend
   - multimedia-event: scrapbookmv
   - show:
       year: 2026
       id: derarock
+  - media:
+      year: 2026
+      id: sbcradiosundaymusicbox
+  - media:
+      year: 2026
+      id: fmnagasakicolors
   - show:
       year: 2026
       id: guvol395

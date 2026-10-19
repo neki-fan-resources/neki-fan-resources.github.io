@@ -23,6 +23,9 @@
                     post: DeCM2JVEiLk
                     image: 3
                 - postinstagramimage:
+                    post: DemYeAlGk3R
+                    image: 4
+                - postinstagramimage:
                     post: DeCM2JVEiLk
                     image: 2
                 - postximage:
@@ -33,11 +36,25 @@
                     image: HTtVgcba0AABjjd
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DemYeAlGk3R
+                    image: 6
+                - postinstagramimage:
+                    post: DemYeAlGk3R
+                    image: 5
+                - postinstagramimage:
+                    post: DemYeAlGk3R
+                    image: 3
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2106600607222255807
                     image: HTwmFXFaAAEZ8Oc
             - multimediasubsection:
                 multimedia:
+                - postinstagramimage:
+                    post: DemYeAlGk3R
+                    image: 1
                 - postximage:
                     post: 2106600607222255807
                     image: HTwmFXFaAAAzhIe
@@ -129,6 +146,82 @@
         post: 2106377870889386317
         image: HTtbgOWbIAARwc7
 
+- postinstagram:
+    id: DemYeAlGk3R
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-10-17
+    text: |-
+      2026.10.03
+      ⁡
+      TRiDENT×NEK! pre. 「KYŌZON」
+      お越しくださった皆様ありがとうございました！！🙏🏻💖
+      ⁡
+      大好きなTRiDENTと2度目となるツーマン企画！
+      前回はeggmanでやらせていただき、今回は少し規模を拡大して代官山UNITでやらせていただきました！
+      
+      会場は広くなってもフロアのアツさは変わらず、むしろ前回よりもアツさ増し増しで、最後までノリノリで、最高のツーマンになりました！🎶
+      今回もみんなで歌ってノって燃えたぎって楽しかったー！
+      
+      トライバーの皆さんもいつも優しくて、私たちのライブのときも声出したり拳上げたり一生懸命楽しんでくれてるのが今回もしっかり見えてとっても嬉しかったです！本当にありがとうございました！
+      ⁡
+      そして私事ですが、この日は私の誕生日の翌日で、TRiDENTのせりぬんさんがMC中にそのことを話してくださって、それだけでもはぁ〜〜！もう一生ついて行きます〜〜😭🫶🏻ってなっていたのに、打ち上げでもサプライズでバースデーケーキを用意してお祝いしてくださって、一生忘れない最高の思い出ができました😭💖
+      ⁡
+      こんな優しくて可愛くてかっこいい先輩たちと出会えて、しかも誕生日まで祝ってもらえて、、
+      私は一体前世でどんな徳を積んだのでしょうか？笑
+      
+      こんな最高の先輩たちに出会えた私を含めNEK!は本当に幸せ者です！これからもそんな素敵な先輩たちのかっこいい背中を追いかけて、もっとアツく魅力的なバンドになれるよう頑張ります🔥
+      ⁡
+      
+      Photo by @___sunny56__ 
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      2026.10.03
+      ⁡
+      TRiDENT×NEK! pre. "KYŌZON"
+      Thank you to everyone who came out!!🙏🏻💖
+      ⁡
+      Our 2nd two-man event with the TRiDENT we love so much!
+      Last time we did it at eggman, and this time we scaled it up a bit and did it at Daikanyama UNIT!
+      
+      Even though the venue was bigger, the energy on the floor didn't change, or rather it was even hotter than last time, rocking out until the very end, making it the best two-man ever!🎶
+      It was so fun singing, grooving, and getting all fired up together with everyone again this time!
+      
+      The Tri-vers (TRiDENT fans) are always so kind too, and I was so happy to clearly see you all raising your voices and throwing your fists up, enjoying our live show with all your might again this time! Thank you so much!
+      ⁡
+      And on a personal note, this day was the day after my birthday, and Serinun from TRiDENT mentioned it during the MC, and just with that I was like, ahhh~~! I'll follow you for the rest of my life~~😭🫶🏻, but then they even prepared a surprise birthday cake at the after-party and celebrated with me, making it the greatest memory I'll never forget😭💖
+      ⁡
+      To be able to meet such kind, cute, and cool seniors, and even have them celebrate my birthday...
+      What kind of good deeds did I possibly do in my past life? lol
+      
+      Me, and the rest of NEK! who got to meet such awesome seniors, are truly lucky! We'll continue chasing after the cool backs of such wonderful seniors, and do our best to become an even hotter, more attractive band🔥
+      ⁡
+      
+      Photo by @___sunny56__ 
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    - 3
+    - 4
+    - 5
+    - 6
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+    reference:
+    - postximage:
+        post: 2106377870889386317
+        image: HTtbgOWbIAARwc7
+    - postximage:
+        post: 2106371785319194627
+        image: HTtVgcba0AABjjd
+    - postximage:
+        post: 2108544498632712283
+        image: HUMOC42bkAAi5B9
+
 - postinstagramimage:
     post: DeCM2JVEiLk
     id: 2
@@ -150,6 +243,65 @@
         id: tridentnekikyoozon
     part-of:
       postinstagram: DeCM2JVEiLk
+
+- postinstagramimage:
+    post: DemYeAlGk3R
+    id: 1
+    label: Backstage
+    info: NEK!, TRiDENT
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postinstagram: DemYeAlGk3R
+
+- postinstagramimage:
+    post: DemYeAlGk3R
+    id: 3
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postinstagram: DemYeAlGk3R
+
+- postinstagramimage:
+    post: DemYeAlGk3R
+    id: 4
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postinstagram: DemYeAlGk3R
+
+- postinstagramimage:
+    post: DemYeAlGk3R
+    id: 5
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postinstagram: DemYeAlGk3R
+
+- postinstagramimage:
+    post: DemYeAlGk3R
+    id: 6
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postinstagram: DemYeAlGk3R
 
 - postx:
     id: 2067200588241371561
@@ -455,6 +607,28 @@
         year: 2026
         id: tridentnekikyoozon
 
+- postx:
+    id: 2108544498632712283
+    account: coco_102
+    label: Cake from TRiDENT
+    published-date: 2026-10-09
+    text: |-
+      ちょっと時差投稿になってしまいましたが、、、
+      ツーマンの打ち上げのときにTRiDENT姉さんがサプライズで誕生日を祝ってくださいました、、！本当に素敵な先輩😭💖
+      
+      最高の思い出をありがとうございます！これからも皆さんのかっこいい背中を追いかけて頑張ります！！大好きです！！
+    translation: |-
+      This is a bit of a late post, but...
+      During the after-party for our two-man show, the TRiDENT sisters surprised me with a birthday celebration...! They really are wonderful seniors😭💖
+      
+      Thank you for the best memories! I'll keep doing my best following your cool footsteps!! I love you guys!!
+    image:
+    - HUMOC42bkAAi5B9
+    part-of:
+      show:
+        year: 2026
+        id: tridentnekikyoozon
+
 - postximage:
     post: 2067200588241371561
     id: HLAJ6KwaAAAn0CT
@@ -578,6 +752,19 @@
         id: tridentnekikyoozon
     part-of:
       postx: 2106600607222255807
+
+- postximage:
+    post: 2108544498632712283
+    id: HUMOC42bkAAi5B9
+    index: 1
+    label: Birthday cake
+    info: TRiDENT, NEK!
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postx: 2108544498632712283
 
 - update:
     show:

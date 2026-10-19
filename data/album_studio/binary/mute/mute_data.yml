@@ -12,6 +12,7 @@
                 - youtubevideo: 8ZxI_yZZfIA
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: B_wRhuJJP5o
                 - youtubeshort: og4GxBoc6Cg
         - basicsection:
             label: Live, with original audio
@@ -89,6 +90,10 @@
                       text: behind-the-scene video - FC
             - multimediasubsection:
                 label: Videos
+                multimedia:
+                - youtubeshort: B_wRhuJJP5o
+                - youtubeshort: og4GxBoc6Cg
+            - multimediasubsection:
                 multimedia:
                 - postinstagramvideo:
                     post: Dd-71u6mSBh
@@ -944,6 +949,15 @@
     id: 1r8YFNMDQrE
     label: MV teaser
     published-date: 2026-09-18
+    context:
+    - song: mute
+    part-of:
+      song: mute
+
+- youtubeshort:
+    id: B_wRhuJJP5o
+    label: Music Video set
+    published-date: 2026-10-18
     context:
     - song: mute
     part-of:

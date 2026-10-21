@@ -310,6 +310,24 @@
         post: 2064543082360774756
         image: HKa6f5wagAAWkXM
 
+- webpage:
+    domain: neki.bitfan.id
+    id: 397193
+    label: Commentary video
+    published-date: 2026-06-11
+    url: 'https://neki.bitfan.id/contents/397193'
+    part-of:
+      event: majordebut
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 397223
+    label: Livestream
+    published-date: 2026-06-10
+    url: 'https://neki.bitfan.id/contents/397223'
+    part-of:
+      event: majordebut
+
 - youtubeshort:
     id: 7ctLpWRMHGs
     label: Day vlog

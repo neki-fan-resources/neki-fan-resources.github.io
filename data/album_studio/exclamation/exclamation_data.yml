@@ -585,3 +585,12 @@
     part-of:
       album: exclamation
 
+- youtubevideo:
+    id: cSJDg6w8f6Y
+    label: CDJapan unboxing
+    published-date: 2024-07-25
+    context:
+    - album: exclamation
+    part-of:
+      album: exclamation
+

@@ -57,6 +57,9 @@ contentpage:
       id: live27tokyo1
   - show:
       year: 2027
+      id: derarockfes
+  - show:
+      year: 2027
       id: live27chiba
   - show:
       year: 2027
@@ -83,6 +86,9 @@ contentpage:
   - media:
       year: 2026
       id: flowkeigo1
+  - media:
+      year: 2026
+      id: skreamnekishi202610
   - show:
       year: 2026
       id: nemophilatenfes

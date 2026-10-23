@@ -21,9 +21,15 @@
                 - postximage:
                     post: 2109637698864775677
                     image: HUbwSdPaIAArtQi
+                - postinstagramimage:
+                    post: DewZb04mtap
+                    image: 5
                 - postximage:
                     post: 2109650986042359838
                     image: HUb8YFyawAAvH-m
+                - postinstagramimage:
+                    post: DewZb04mtap
+                    image: 2
                 - postinstagramimage:
                     post: DeZaMNkEg55
                     image: 1
@@ -43,6 +49,9 @@
                 - postximage:
                     post: 2109653744376054128
                     image: HUb-4WlbsAA1WQv
+                - postinstagramimage:
+                    post: DewZb04mtap
+                    image: 3
                 - postximage:
                     post: 2109658502604128401
                     image: HUcDOJubMAAyMuY
@@ -54,6 +63,15 @@
                 - postximage:
                     post: 2109650986042359838
                     image: HUb8YF7bUAAD3YG
+                - postinstagramimage:
+                    post: DewZb04mtap
+                    image: 8
+                - postinstagramimage:
+                    post: DewZb04mtap
+                    image: 6
+                - postinstagramimage:
+                    post: DewZb04mtap
+                    image: 4
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -233,6 +251,106 @@
         year: 2026
         id: nemophilatenfes
 
+- postinstagram:
+    id: DetJ7h4SrR9
+    account: natsu08_guitar
+    label: Bento boxes love
+    published-date: 2026-10-20
+    text: |-
+      .
+      お弁当𝑩𝑰𝑮 𝑳𝑶𝑽𝑬~~❣️
+      
+      Photo by @___sunny56__
+    translation: |-
+      .
+      Bento 𝑩𝑰𝑮 𝑳𝑶𝑽𝑬~~❣️
+      
+      Photo by @___sunny56__
+    image:
+    - 1
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- postinstagram:
+    id: DewZb04mtap
+    account: cocoro_drum
+    label: Cocoro's report
+    published-date: 2026-10-21
+    text: |-
+      2026.10.12
+      ⁡
+      「天壌無窮極音道中」 @ EX THEATER ROPPONGI 
+      ⁡
+      お越しくださった皆様本当にありがとうございました👼🏻🔥
+      憧れの先輩であるNEMOPHILAさんに今回このイベントに呼んでいただき大好きなガールズバンドの先輩方と一緒のステージに立つことができて、本当に夢のような一日でした！
+      
+      NEK!のことを知らない方にも私たちのライブを見てもらえて、スラングロックを皆さんに直接届けることができてとても嬉しかったです！最高の景色をありがとうございました！！
+      
+      TRiDENT姉さんもEast Of Eden姉さんもNEMOPHILA姉さんもかっっっっこよすぎて鳥肌止まらなかった…！
+      この広いステージでいかに自分たちらしさを魅せるか、ライブハウス規模じゃない広い会場でどうやってフロアの端っこまで盛り上げるか、先輩方のステージングやパフォーマンスを隅から隅まで見て、たくさん勉強させていただきました！
+      
+      この日吸収させていただいたものを糧に、もっとかっこいいライブができるバンドを目指してこれからも頑張ります🔥
+      こんな素敵な機会をくださった主催のNEMOPHILAさんに心から感謝いたします！本当にありがとうございました！！
+      ⁡
+      ガールズバンド最高🤘🏻💥
+      ⁡
+      
+      Photo by @___sunny56__ 
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      "Tenjou Mukyuu Gokuon Douchuu" @ EX THEATER ROPPONGI 
+      ⁡
+      To everyone who came, thank you so much👼🏻🔥
+      Having our admired seniors NEMOPHILA invite us to this event, and being able to stand on the same stage with our beloved girl band seniors, it was truly a dream-like day!
+      
+      We were so happy to have people who didn't know NEK! watch our live show, and to deliver our slang rock directly to everyone! Thank you so much for the best view!!
+      
+      TRiDENT-neesan, East Of Eden-neesan, and NEMOPHILA-neesan were sooooo cool, I couldn't stop getting goosebumps…!
+      How to showcase our own identity on such a wide stage, how to hype up the floor all the way to the very edges in a large venue beyond live-house scale—watching our seniors' staging and performances from corner to corner taught us so much!
+      
+      Taking everything we absorbed on this day as fuel, we'll continue working hard aiming to become a band that can put on even cooler live shows🔥
+      From the bottom of our hearts, we thank the organizer NEMOPHILA for giving us such a wonderful opportunity! Thank you so very much!!
+      ⁡
+      Girl bands are the best🤘🏻💥
+      ⁡
+      
+      Photo by @___sunny56__ 
+      
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+    reference:
+    - postximage:
+        post: 2109650986042359838
+        image: HUb8YF7bUAAD3YG
+    - postinstagramimage:
+        post: DeZaMNkEg55
+        image: 4
+    - postximage:
+        post: 2109650986042359838
+        image: HUb8YFyawAAvH-m
+    - postximage:
+        post: 2109650986042359838
+        image: HUb8YF5bQAAd2LA
+    - postximage:
+        post: 2109647783049441699
+        image: HUb5UNIagAE-gLj
+    - postximage:
+        post: 2109700712074752041
+        image: HUcpnQdaAAAqo5Z
+
 - postinstagramimage:
     post: DeZaMNkEg55
     id: 1
@@ -301,6 +419,87 @@
         id: nemophilatenfes
     part-of:
       postinstagram: DelPWHPI0M8
+
+- postinstagramimage:
+    post: DetJ7h4SrR9
+    id: 1
+    label: Backstage
+    info: Natsu
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DetJ7h4SrR9
+
+- postinstagramimage:
+    post: DewZb04mtap
+    id: 2
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DewZb04mtap
+
+- postinstagramimage:
+    post: DewZb04mtap
+    id: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DewZb04mtap
+
+- postinstagramimage:
+    post: DewZb04mtap
+    id: 4
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DewZb04mtap
+
+- postinstagramimage:
+    post: DewZb04mtap
+    id: 5
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DewZb04mtap
+
+- postinstagramimage:
+    post: DewZb04mtap
+    id: 6
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DewZb04mtap
+
+- postinstagramimage:
+    post: DewZb04mtap
+    id: 8
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: DewZb04mtap
 
 - postx:
     id: 2083478027925946815

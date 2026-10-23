@@ -1,0 +1,73 @@
+- postx:
+    id: 2113559551735910879
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-10-23
+    text: |-
+      【LIVE INFO🔥】
+      
+      「でらロックフェスティバル 2027」
+      @derarockfes
+      
+      
+      NEK!の出演が決定💥
+      
+      🗓️2027/2/6(土)~7(日)
+      🎪新栄/栄/大須エリアライブハウス15会場以上
+      ⏰開場 11:30 / 開演 12:00
+      ※出演日と会場は後日発表。
+      
+      ▼チケットはこちらから🎟️
+      https://w.pia.jp/t/derarockfes2027/　
+      
+      #NEKI #でらロック
+    translation: |-
+      【LIVE INFO🔥】
+      
+      "Dera Rock Festival 2027"
+      @derarockfes
+      
+      
+      NEK! confirmed to appear💥
+      
+      🗓️2027/2/6 (Sat) – 7 (Sun)
+      🎪Over 15 live house venues in the Shinsakae / Sakae / Osu areas
+      ⏰Doors 11:30 / Start 12:00
+      *Performance date and venue to be announced at a later date.
+      
+      ▼Tickets here🎟️
+      https://w.pia.jp/t/derarockfes2027/ 
+      
+      #NEKI #DeraRock
+    image:
+    - HVTeix7aUAAts6Q
+    part-of:
+      show:
+        year: 2027
+        id: derarockfes
+
+- postximage:
+    post: 2113559551735910879
+    id: HVTeix7aUAAts6Q
+    index: 1
+    label: Lineup
+    local-copy: true
+    context:
+    - show:
+        year: 2027
+        id: derarockfes
+    part-of:
+      postx: 2113559551735910879
+
+- update:
+    show:
+      year: 2027
+      id: derarockfes
+    date: 2026-10-23
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2027
+        id: derarockfes
+

@@ -1,0 +1,59 @@
+- postx:
+    id: 2113535562628141236
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-10-23
+    text: |-
+      📚MAGAZINE📚
+      
+      フリーマガジン「Skream!10月号」
+      
+      コラム連載 "NEK!の #ネキ史" 
+      第5回が掲載📕
+      
+      今回はBa. Kanadeが担当です⚡️
+      
+      全国のCDショップやライヴハウス、スタジオ等にて順次配布中！
+      
+      ぜひゲットしてください✔️
+      
+      🔗 https://skream.jp/news/2026/10/skream_magazine.php
+      
+      #NEKI
+    translation: |-
+      📚MAGAZINE📚
+      
+      Free magazine "Skream! October Issue"
+      
+      Serialized column "NEK!'s #NekiHistory" 
+      The 5th installment is featured📕
+      
+      This time, Ba. Kanade is in charge⚡️
+      
+      Now being distributed in sequence at CD shops, live venues, studios, etc. nationwide!
+      
+      Be sure to get a copy✔️
+      
+      🔗 https://skream.jp/news/2026/10/skream_magazine.php
+      
+      #NEKI
+    image:
+    - HVTJZEsaIAAkL58
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202610
+
+- postximage:
+    post: 2113535562628141236
+    id: HVTJZEsaIAAkL58
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - media:
+        year: 2026
+        id: skreamnekishi202610
+    part-of:
+      postx: 2113535562628141236
+

@@ -397,6 +397,51 @@
     part-of:
       song: magicvox
 
+- postx:
+    id: 2113572801806541198
+    account: nekiband_jp
+    label: Music Video announcement
+    published-date: 2026-10-23
+    text: |-
+      ၊၊||၊⋆.˚✮ COMING SOON ✮˚.⋆၊၊||၊
+      
+      Major 1st EP「B!NARY」収録
+      
+      〝MAGiC VoX〟
+      Official Music Video
+      
+      明日10/24(土)19:00
+      YouTubeにてプレミア公開が決定🎥✨
+      
+      公開時メンバーもチャットに参加！
+      ぜひリアルタイムでお楽しみください✔️
+      
+      https://youtu.be/iosUtnuFeI4
+      
+      #NEKI #MAGiCVoX
+    translation: |-
+      ၊၊||၊⋆.˚✮ COMING SOON ✮˚.⋆၊၊||၊
+      
+      Included in Major 1st EP "B!NARY"
+      
+      "MAGiC VoX"
+      Official Music Video
+      
+      YouTube premiere scheduled for tomorrow, 10/24 (Sat) at 19:00🎥✨
+      
+      Members will also join the chat during the premiere!
+      Please be sure to enjoy it in real time✔️
+      
+      https://youtu.be/iosUtnuFeI4
+      
+      #NEKI #MAGiCVoX
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2113572801806541198
+        video: 1
+
 - postximage:
     post: 2078434617183412469
     id: HNgT3SrbYAAPSg5
@@ -427,6 +472,16 @@
     - song: magicvox
     part-of:
       postx: 2083357042203574278
+
+- postxvideo:
+    post: 2113572801806541198
+    id: 1
+    label: Music Video teaser
+    cover: 2113569072592179200/img/TOYh6p01xhxflMYq.jpg
+    context:
+    - song: magicvox
+    part-of:
+      song: magicvox
 
 - update:
     song: magicvox
@@ -537,6 +592,24 @@
     label: Article about the announcement
     published-date: 2026-07-18
     url: 'https://skream.jp/news/2026/07/neki_magic_vox.php'
+    part-of:
+      song: magicvox
+
+- youtubeshort:
+    id: kspu2W_fwto
+    label: Music Video teaser
+    published-date: 2026-10-23
+    context:
+    - song: magicvox
+    part-of:
+      song: magicvox
+
+- youtubevideo:
+    id: iosUtnuFeI4
+    label: Official Music Video
+    published-date: 2026-10-24
+    context:
+    - song: magicvox
     part-of:
       song: magicvox
 

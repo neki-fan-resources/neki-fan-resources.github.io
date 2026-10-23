@@ -69,6 +69,36 @@
         year: 2026
         id: zipperhika
 
+- postinstagram:
+    id: DerDbzOGXOz
+    account: 46_hikaa
+    label: So happy
+    published-date: 2026-10-19
+    text: |-
+      「Zipper 2026年秋号」
+      
+      まさかZipperに掲載していただけるなんて！
+      嬉しすぎました( ߹ㅁ߹)
+      
+      @zipperjp
+    translation: |-
+      "Zipper Autumn 2026 Issue"
+      
+      To think I'd actually be featured in Zipper!
+      I was so happy ( ߹ㅁ߹)
+      
+      @zipperjp
+    image:
+    - 1
+    part-of:
+      media:
+        year: 2026
+        id: zipperhika
+    reference:
+    - postinstagramimage:
+        post: DeElgOJlZM8
+        image: 1
+
 - postinstagramimage:
     post: DeElgOJlZM8
     id: 1
@@ -80,6 +110,18 @@
         id: zipperhika
     part-of:
       postinstagram: DeElgOJlZM8
+
+- postinstagramimage:
+    post: DerDbzOGXOz
+    id: 1
+    label: In hand
+    info: Hika
+    context:
+    - media:
+        year: 2026
+        id: zipperhika
+    part-of:
+      postinstagram: DerDbzOGXOz
 
 - postx:
     id: 2102956623979589802

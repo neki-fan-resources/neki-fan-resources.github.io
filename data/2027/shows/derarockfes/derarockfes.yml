@@ -1,0 +1,17 @@
+show:
+  year: 2027
+  id: derarockfes
+  cover-image:
+    postximage:
+      post: 2113559551735910879
+      image: HVTeix7aUAAts6Q
+  fullname: でらロックフェスティバル 2027
+  shortname: でらROCKFES
+  sublabel: Nagoya
+  date: 2027-02-06
+  venue: Nagoya
+  event-page: 'https://derarockfes.radcreation.jp/'
+  part-of:
+    group:
+      id: shows
+      group: 2027

@@ -1,0 +1,14 @@
+multimedia-event:
+  id: magicvoxmv
+  cover-image:
+    webimage:
+      domain: natalie.mu
+      page: 695133
+      id: mvthumb
+  youtubevideo: iosUtnuFeI4
+  parent:
+    song: magicvox
+  categories:
+  - video
+  part-of:
+    song: magicvox

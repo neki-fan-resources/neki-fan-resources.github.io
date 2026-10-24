@@ -1,7 +1,66 @@
 - display:
     song: magicvox
     blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: iosUtnuFeI4
     - lyricsblock: '-'
+    - basicblock:
+        id: musicvideo
+        label: Music Video
+        sections:
+        - basicsection:
+            label: Music Video
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubevideo: iosUtnuFeI4
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - webimage:
+                    domain: natalie.mu
+                    page: 695133
+                    id: mvthumb
+        - basicsection:
+            label: Behind the scenes
+            subsections:
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: De4Qsi9EmOq
+                    image: 1
+                - postinstagramimage:
+                    post: De4Qsi9EmOq
+                    image: 2
+                - postinstagramimage:
+                    post: De4Qsi9EmOq
+                    image: 3
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: De4AiQWxplD
+                    image: 1
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: De36BYwmcw-
+                    image: 1
+                - postinstagramimage:
+                    post: De36BYwmcw-
+                    image: 2
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2113956931635449882
+                    image: HVZIkjNbIAAZKsm
     part-of:
       song: magicvox
 
@@ -23,36 +82,69 @@
       source:
         description: from uta-net.com
         url: 'https://www.uta-net.com/song/396612/'
+    - id: en
+      name: english translation
+      details: (from YouTube Official Music Video subtitles)
+      active: true
+      source:
+        description: from YouTube Official Music Video subtitles
+        url: 'https://www.youtube.com/watch?v=iosUtnuFeI4'
     sections:
     - lines:
       - ol:
         - ギュ・ギュラ・シンギュラリティ
+        en:
+        - Gi-Gi-Gura Singularity
       - ol:
         - 革新的最先端
+        en:
+        - Cutting-edge innovation
       - ol:
         - ガ・ガラ・ガラパゴス化で
+        en:
+        - Ga-Ga-Galápagos syndrome
       - ol:
         - サビついた牙
+        en:
+        - Fangs gone rusty
       - ol:
         - 炭酸抜けたソーダ
+        en:
+        - Flat soda
       - ol:
         - 千早振ル風ノ夜ニ
+        en:
+        - On a night of raging winds
     - lines:
       - ol:
         - 錯覚するんだ
+        en:
+        - It's an illusion
       - ol:
         - 何が間違いか？
+        en:
+        - What's wrong?
       - ol:
         - 誰が悪いのか？
+        en:
+        - Who's to blame?
       - ol:
         - ノイズに塗れた
+        en:
+        - Drowned in noise
     - lines:
       - ol:
         - I wanna say that イニミニマニモ
+        en:
+        - I wanna say that, eeny, meeny, miny, moe
       - ol:
         - 「どうぞお好きなのいくらでも」なんてね
+        en:
+        - '"Take your pick, as much as you want" Yeah, right'
       - ol:
         - キャパシティ超えヒリつき出して
+        en:
+        - Pushed past my limit It starts to burn
       - ol:
         - slippin' drippin' clippin' grippin'
       - ol:
@@ -60,44 +152,80 @@
     - lines:
       - ol:
         - Damn！ Damn！　ダンスビートで騒いで
+        en:
+        - Damn! Damn! Raise hell to the dance beat
       - ol:
         - 情報の海から解き放たれて
+        en:
+        - Break free from the sea of information
       - ol:
         - キラ・キラーチューン
+        en:
+        - Killer, killer tune
       - ol:
         - キラ・キラーチューン
+        en:
+        - Killer, killer tune
       - ol:
         - 晒せ
+        en:
+        - Bare it all
     - lines:
       - ol:
         - 『結論から言う、それめっちゃ**正解**』
+        en:
+        - "\"Long story short, that's absolutely right\""
       - ol:
         - ……って言ってたからチャッピー
+        en:
+        - That's what you said, Chappy
       - ol:
         - 生身の言葉　お前はどこだい
+        en:
+        - Where are your human words?
     - lines:
       - ol:
         - 全て知ったかエアプ素人に
+        en:
+        - Know-it-alls who've never been there
       - ol:
         - 不幸の蜜に群がるnosy guys
+        en:
+        - Nosy guys swarming to others' misery
       - ol:
         - nullい奴ら相手してらんない
+        en:
+        - Can't deal with these empty souls
     - lines:
       - ol:
         - 錯綜するんだ
+        en:
+        - It's all tangled up
       - ol:
         - これは陰謀か？
+        en:
+        - Is this a conspiracy?
       - ol:
         - 誰がジョーカーだ？
+        en:
+        - Who's the Joker?
       - ol:
         - くだらない嘘に
+        en:
+        - Amid these pointless lies
     - lines:
       - ol:
         - I wanna say that アブラカダブラ
+        en:
+        - I wanna say that, abracadabra
       - ol:
         - 「何でも聞いてよいくらでも」なんてね
+        en:
+        - '"Ask me anything, as much as you want" Yeah, right'
       - ol:
         - 不安定な夜を彷徨って
+        en:
+        - Wandering through an unstable night
       - ol:
         - slippin' drippin' clippin' grippin'
       - ol:
@@ -105,21 +233,37 @@
     - lines:
       - ol:
         - Rock！ Rock！　ロックビートで暴れて
+        en:
+        - Rock! Rock! Go wild to the rock beat
       - ol:
         - 感情の赴くまま飛び跳ねて
+        en:
+        - Jump to the beat Let your feelings run free
       - ol:
         - キラ・キラーチューン
+        en:
+        - Killer, killer tune
       - ol:
         - キラ・キラーチューン
+        en:
+        - Killer, killer tune
       - ol:
         - 騒げ
+        en:
+        - Make some noise
     - lines:
       - ol:
         - I wanna say that イニミニマニモ
+        en:
+        - I wanna say that, eeny, meeny, miny, moe
       - ol:
         - 「どうぞお好きなのいくらでも」なんてね
+        en:
+        - '"Take your pick, as much as you want" Yeah, right'
       - ol:
         - キャパシティ超えヒリつき出して
+        en:
+        - Pushed past my limit, It starts to burn
       - ol:
         - slippin' drippin' clippin' grippin'
       - ol:
@@ -127,10 +271,16 @@
     - lines:
       - ol:
         - I wanna say that アブラカダブラ
+        en:
+        - I wanna say that, abracadabra
       - ol:
         - 「何でも聞いてよいくらでも」なんてね
+        en:
+        - '"Ask me anything, as much as you want" Yeah, right'
       - ol:
         - 不安定な夜を彷徨って
+        en:
+        - Wandering through an unstable night
       - ol:
         - slippin' drippin' clippin' grippin'
       - ol:
@@ -138,14 +288,143 @@
     - lines:
       - ol:
         - Rock！ Rock！　ロックビートで暴れて
+        en:
+        - Rock! Rock! Go wild to the rock beat
       - ol:
         - 感情の赴くまま飛び跳ねて
+        en:
+        - Jump to the beat Let your feelings run free
       - ol:
         - キラ・キラーチューン
+        en:
+        - Killer, killer tune
       - ol:
         - キラ・キラーチューン
+        en:
+        - Killer, killer tune
       - ol:
         - 歌え
+        en:
+        - Sing it out!
+
+- postinstagram:
+    id: De36BYwmcw-
+    account: 46_hikaa
+    label: Check out the MV
+    published-date: 2026-10-24
+    text: |-
+      MVみてねーん！
+    translation: |-
+      Check out the MV~!
+    image:
+    - 1
+    - 2
+    part-of:
+      song: magicvox
+
+- postinstagram:
+    id: De4AiQWxplD
+    account: cocoro_drum
+    label: MV released
+    published-date: 2026-10-24
+    text: |-
+      🥁❤️
+      ⁡
+      MAGiC VoXのMVはもう見ましたか？？
+      赤メインの新衣装が映える真っ黒な空間で撮ったよ🔴⚫️
+      かっこかわいい新NEK!ちゃんをお楽しみください！
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    translation: |-
+      🥁❤️
+      ⁡
+      Have you checked out the MAGiC VoX MV yet??
+      We shot it in a pitch-black space where our new red-based outfits really pop🔴⚫️
+      Please enjoy the cool and cute new NEK! girls!
+      ⁡
+      #neki #neki_band #girlsband #drum #femaledrummer
+    image:
+    - 1
+    part-of:
+      song: magicvox
+
+- postinstagram:
+    id: De4Qsi9EmOq
+    account: natsu08_guitar
+    label: Check out the MV
+    published-date: 2026-10-24
+    text: |-
+      .
+      “MAGiC VoX” MV みてね！
+    translation: |-
+      .
+      Check out the "MAGiC VoX" MV!
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      song: magicvox
+
+- postinstagramimage:
+    post: De36BYwmcw-
+    id: 1
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: magicvox
+    part-of:
+      postinstagram: De36BYwmcw-
+
+- postinstagramimage:
+    post: De36BYwmcw-
+    id: 2
+    label: Behind the scenes
+    info: Hika
+    context:
+    - song: magicvox
+    part-of:
+      postinstagram: De36BYwmcw-
+
+- postinstagramimage:
+    post: De4AiQWxplD
+    id: 1
+    label: Behind the scenes
+    info: Cocoro
+    context:
+    - song: magicvox
+    part-of:
+      postinstagram: De4AiQWxplD
+
+- postinstagramimage:
+    post: De4Qsi9EmOq
+    id: 1
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: magicvox
+    part-of:
+      postinstagram: De4Qsi9EmOq
+
+- postinstagramimage:
+    post: De4Qsi9EmOq
+    id: 2
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: magicvox
+    part-of:
+      postinstagram: De4Qsi9EmOq
+
+- postinstagramimage:
+    post: De4Qsi9EmOq
+    id: 3
+    label: Behind the scenes
+    info: Natsu
+    context:
+    - song: magicvox
+    part-of:
+      postinstagram: De4Qsi9EmOq
 
 - postx:
     id: 2078434617183412469
@@ -442,6 +721,46 @@
         post: 2113572801806541198
         video: 1
 
+- postx:
+    id: 2113935970404008223
+    account: nekiband_jp
+    label: MV released
+    published-date: 2026-10-24
+    text: |-
+      ▰▰ 🎥 OUT NOW 📢 ▰▰
+      
+      Major 1st EP『B!NARY』
+      
+      〝MAGiC VoX〟Official MV
+      
+      🎬 Music Video
+      ▶︎ https://youtu.be/iosUtnuFeI4
+      
+      🔥 NEK! LIVE TOUR 2027
+      ▶︎ https://l-tike.com/nekiband/
+      
+      #NEKI #MAGiCVoX
+    part-of:
+      youtubevideo: iosUtnuFeI4
+
+- postx:
+    id: 2113956931635449882
+    account: cure_bass_baka
+    label: MV released
+    published-date: 2026-10-24
+    text: |-
+      “MAGiC VoX”のMVが公開されました🤩
+      手元が…めためた見やすい映像になってますので！！
+      そこにも注目して見てみてください！！
+    translation: |-
+      The MV for "MAGiC VoX" has been released🤩
+      The hand movements are... super easy to see in this video!!
+      Please pay attention to that when you watch it!!
+    image:
+    - HVZIkjNbIAAZKsm
+    part-of:
+      postx: 2113935970404008223
+
 - postximage:
     post: 2078434617183412469
     id: HNgT3SrbYAAPSg5
@@ -473,6 +792,17 @@
     part-of:
       postx: 2083357042203574278
 
+- postximage:
+    post: 2113956931635449882
+    id: HVZIkjNbIAAZKsm
+    index: 1
+    label: Behind the scenes
+    info: Kanade
+    context:
+    - song: magicvox
+    part-of:
+      postx: 2113956931635449882
+
 - postxvideo:
     post: 2113572801806541198
     id: 1
@@ -489,6 +819,15 @@
     text:
     - Release date
     - Song cover
+    part-of:
+      song: magicvox
+
+- update:
+    song: magicvox
+    date: 2026-10-24
+    text:
+    - Added the music video
+    - Added the English translation of the lyrics
     part-of:
       song: magicvox
 
@@ -559,6 +898,22 @@
         domain: natalie.mu
         id: 681511
 
+- webimage:
+    domain: natalie.mu
+    page: 695133
+    id: mvthumb
+    label: MV image
+    published-date: 2026-10-24
+    url: 'https://ogre.natalie.mu/media/news/music/2026/1024/neki_mvthumb.jpg?imwidth=1460&imdensity=1&impolicy=hq'
+    page-url: 'https://natalie.mu/music/gallery/news/695133/2999734'
+    local-copy: true
+    context:
+    - song: magicvox
+    part-of:
+      webpage:
+        domain: natalie.mu
+        id: 695133
+
 - webpage:
     domain: natalie.mu
     id: 681511
@@ -587,11 +942,31 @@
         image: HKYNUmibYAAEm62
 
 - webpage:
+    domain: natalie.mu
+    id: 695133
+    label: Article on the MV release
+    published-date: 2026-10-24
+    url: 'https://natalie.mu/music/news/695133'
+    image:
+    - mvthumb
+    part-of:
+      song: magicvox
+
+- webpage:
     domain: skream.jp
     id: 2026.07.neki_magic_vox
     label: Article about the announcement
     published-date: 2026-07-18
     url: 'https://skream.jp/news/2026/07/neki_magic_vox.php'
+    part-of:
+      song: magicvox
+
+- youtubeshort:
+    id: eQVU_xJ-N2Q
+    label: Music Video
+    published-date: 2026-10-24
+    context:
+    - song: magicvox
     part-of:
       song: magicvox
 

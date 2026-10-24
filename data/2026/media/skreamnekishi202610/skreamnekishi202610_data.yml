@@ -1,3 +1,87 @@
+- display:
+    media:
+      year: 2026
+      id: skreamnekishi202610
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: '← '
+                  - media:
+                      year: 2026
+                      id: skreamnekishi202608
+            - textsubsection:
+                multimedia:
+                  postximage:
+                    post: 2113535562628141236
+                    image: HVTJZEsaIAAkL58
+                lines:
+                - line:
+                  - text: 'In the fifth installment of the column, Kanade reflects on her journey as a musician: from a childhood surrounded by music, to picking up the bass, and eventually joining NEK!.'
+                - line:
+                  - text: She then outlines the band's recent milestones, including their national tour, major debut, and the release of their EP, "B!NARY".
+                - line:
+                  - text: The column concludes with insights into the EP's production process and a brief tease regarding unannounced future tracks.
+            - multimediasubsection:
+                label: Article's Images
+                multimedia:
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202610
+                    id: 1
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202610
+                    id: 2
+                - webimage:
+                    domain: skream.jp
+                    page: column.neki.202610
+                    id: 3
+    - basicblock:
+        id: translation
+        label: translation
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: The translation was done using Google Gemini, with continuous additional inputs for accuracy.
+                  - newline: ''
+                  - newline: ''
+        - basicsection:
+            subsections:
+            - interviewsubsection:
+                lines:
+                - text: 'NEK!のベースこと、ベース馬鹿なベーシストKanadeです！<br>連載もいよいよ終わりが近づいてきましたね。。<br>あっという間の第5回“NEK!の #ネキ史”は私が担当させて頂くということで、かなでんの歴史や最近の近況をお話しします！'
+                  translation: "I'm Kanade, the bass of NEK! and a bass-crazy bassist!<br>Our column series is already drawing to a close, isn't it...<br>Since I am in charge of this 5th installment of \"NEK!'s #NekiHistory\", which came around in a flash, I will be talking about Kanaden's history and what I've been up to lately!"
+                - text: まずは私がNEK!になる前、私の音楽ルーツについてです！<br>私の家は音楽一家で、父はベーシスト、母はアコーディオンを弾いたり歌っていたりします。<br>小さい頃から父のライブを見に行ったり、家や車でも常にCDが流れている環境でしたが、自分もプレイヤーになりたいという気持ちが当時はなかったので、今の自分には私自身も驚いています。<br>音楽に対する自我が芽生えたのは、小学生の頃に太鼓の達人にハマったのがきっかけです。<br>それで今でも大好きなボカロに出会ったので、今思い返すと常に音楽に触れていた幼少期でした。<br>ドラムのここちゃんだけでなく、実は私もダンスを習ったこともあったりして…ものすごく短期間だけど。笑<br>ずっと音楽に触れていながらも、まったくプレイヤーになる気のなかった、そんな私が！
+                  translation: First, I will talk about my musical roots and my life before joining NEK!!<br>I come from a musical family; my dad is a bassist, and my mom plays the accordion and sings.<br>Since I was little, I would go see my dad's live shows, and I grew up in an environment where CDs were always playing at home and in the car. However, I didn't have any desire to become a musician myself back then, so even I am surprised by where I am today.<br>My personal interest in music was sparked when I got hooked on Taiko no Tatsujin during elementary school.<br>That is also how I discovered Vocaloid, which I still love today, so looking back, my childhood was constantly surrounded by music.<br>It is not just our drummer Coco-chan, I actually took dance lessons too... although only for a very short time. (laughs)<br>Despite always being around music, I had absolutely no intention of becoming a musician, and yet...!
+                - text: ベースを始めるきっかけとなったのが、X JAPANさんのベーシスト、TAIJIさんです。<br>「BLUE BLOOD」のアルバムを父から聞かせてもらい、昔から父の影響でベースラインを聴く習慣があった私は、TAIJIさんのかっこいいベースを聴いて初めて、「私もこのフレーズが弾きたい！」と強く思い、父のベースを借りてベースを始めました。<br>初めてコピーした曲は「WEEK END」です！<br>そして色んなベースがかっこいい曲をカバーしていく中で、Gacharic Spinさんに出会い、F チョッパー KOGAさんに影響されて今のNEK!で弾いているようなプレイスタイルになっていきました。<br>F チョッパー KOGAさんにはステージングについても強く影響されています！
+                  translation: The reason I started playing the bass was TAIJI, the bassist of X JAPAN.<br>My dad had me listen to their album BLUE BLOOD. Thanks to him, I already had a habit of listening closely to basslines, but when I heard TAIJI's cool bass playing, it was the first time I strongly felt, "I want to play this phrase too!" So, I borrowed my dad's bass and started playing.<br>The first song I ever learned to play was "WEEK END"!<br>Then, while covering various songs with cool bass parts, I discovered Gacharic Spin. Influenced by F Chopper KOGA, my playing style evolved into how I play in NEK! today.<br>She has also been a massive influence on my stage performance!
+                - text: 周りに楽器をやっている子がおらず、家で一人ひっそりと弾いていた私ですが、高校生になりSNSをはじめて、弾いてみた動画を投稿したり、メン募してる女の子とコンタクトを取って会ってみたり、バンドのベーシストオーディションに参加したりなどしていました。その中で、HikaちゃんにXのDMで声を掛けてもらって、NEK!のメンバーになりました！
+                  translation: Since there was no one around me who played an instrument, I used to just quietly play by myself at home. But once I got into high school, I started using social media. I began posting bass cover videos, contacting and meeting up with girls who were looking for bandmates, and participating in bassist auditions. During that time, Hika-chan reached out to me via a direct message on X, and I became a member of NEK!
+                - text: 私のNEK!になるまでの歴史はこんな感じ！<br>次に最近の近況についてお話していきます！
+                  translation: That is the history of how I came to join NEK!<br>Next, I will talk about what I have been up to recently!
+                - text: コラムの始まった2月から4月までNEK!にとって初めての全国ツアーをして、6月10日にはメジャーデビューもさせて頂き、今このコラムを書いている私は“NEK! MAJOR DEBUT TOUR”を回っている最中です！<br>9月2日にはメジャー1st EP｢B!NARY｣のリリースもした私たちですが、みなさん聞いていただけましたかー？<br>音源がかっこいいのはもちろん！<br>ライブではみんなで楽しめる楽曲も収録しているので、たくさんの方と新しい楽曲達を一緒に楽しめたらなと思ってます！
+                  translation: From February, when this column started, through April, NEK! went on our first nationwide tour. Then, on June 10th, we made our major debut, and right now, as I am writing this column, I am right in the middle of the "NEK! MAJOR DEBUT TOUR"!<br>On September 2nd, we also released our 1st major EP, "B!NARY". Has everyone had a chance to listen to it yet?<br>The recorded tracks sound super cool, of course!<br>But the EP also includes songs that we can all have fun with together at our live shows, so I hope to enjoy these new tracks with as many of you as possible!
+                - text: ｢B!NARY｣の制作は前回の全国ツアー中から6月くらいにしていて、レコーディングして、ツアーして、ツアー終わってまたレコーディングして…というバンド漬けな日々を送っていました。<br>正直大変だなと思ったこともあったけど、いつも応援してくれているみなさんからのパワーのおかげで、とても良い楽曲達を生み出せたなと感じています。<br>ベースの聴きどころも満載なので、色んなポイントに注目して聴いて欲しいです！
+                  translation: 'We worked on producing "B!NARY" from during our previous nationwide tour up until around June. We spent our days completely immersed in the band: recording, touring, finishing the tour, and then recording again...<br>Honestly, there were times when it felt really tough, but thanks to the energy from everyone who always supports us, I feel like we were able to create some truly great songs.<br>It is packed with standout bass parts too, so I hope you pay attention to all the different details when you listen!'
+                - text: つい最近では、別の楽曲のRECも始まっていたりして…。<br>早くみんなに聴かせたい…続報をお待ちくださいませ！！
+                  translation: Just recently, we actually started recording for another new track...<br>I cannot wait for everyone to hear it... please wait for further updates!!
+                - text: 'さて、この辺でかなでん回とはお別れになります。。<br>次回で“NEK!の #ネキ史”最終回です！<br>12月号のSkream!でお会いしましょう！'
+                  translation: "Well, it is about time to say goodbye to Kanaden's installment...<br>Next time will be the final edition of \"NEK!'s #NekiHistory\"!<br>See you in the December issue of Skream!!"
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202610
+
 - postx:
     id: 2113535562628141236
     account: nekiband_jp
@@ -49,11 +133,67 @@
     id: HVTJZEsaIAAkL58
     index: 1
     label: Cover
-    local-copy: true
     context:
     - media:
         year: 2026
         id: skreamnekishi202610
     part-of:
       postx: 2113535562628141236
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202610
+    id: 1
+    label: Kanade
+    published-date: 2026-10-23
+    url: 'https://skream.jp/column/files/4000046/body/20261021163239_46120eb7.jpg'
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202610
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202610
+    id: 2
+    label: Kanade
+    published-date: 2026-10-23
+    url: 'https://skream.jp/column/files/4000046/body/20261021163311_4c1236db.jpg'
+    context:
+    - media:
+        year: 2026
+        id: skreamnekishi202610
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202610
+
+- webimage:
+    domain: skream.jp
+    page: column.neki.202610
+    id: 3
+    label: Backstage
+    info: Kanade
+    published-date: 2026-10-23
+    url: 'https://skream.jp/column/files/4000046/body/20261021163345_ce024d0e.jpg'
+    todo: maybe 2nd anniversary Tokyo 2
+    part-of:
+      webpage:
+        domain: skream.jp
+        id: column.neki.202610
+
+- webpage:
+    domain: skream.jp
+    id: column.neki.202610
+    label: 'NEK! #nekishi 2026-10'
+    published-date: 2026-10-23
+    url: 'https://skream.jp/column/neki/202610.php'
+    image:
+    - 1
+    - 2
+    - 3
+    part-of:
+      media:
+        year: 2026
+        id: skreamnekishi202610
 

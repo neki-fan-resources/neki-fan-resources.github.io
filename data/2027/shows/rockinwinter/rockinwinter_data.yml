@@ -1,0 +1,79 @@
+- postx:
+    id: 2113828947041673270
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-10-24
+    text: |-
+      【LIVE INFO⚡️】
+      
+      TRUST RECORDS presents.
+      「ROCK IN WINTER 2027」
+      @TRUST_RECORDS
+       
+      
+      NEK!の出演が決定🔥
+      
+      🗓️2027/1/9(土)
+      🎪Diamond Hall / SPADE BOX 
+      Shangri-la / HeartLand / Live & Lounge Vio
+      ⏰開場 12:00/開演 13:00
+      ※出演日と会場は後日発表。
+      
+      ▼チケットオフィシャル3次先行🎟️
+      11/3(火祝)23:59まで受付中！
+      https://w.pia.jp/t/rock-in-winter27/
+      
+      #NEKI
+    translation: |-
+      【LIVE INFO⚡️】
+      
+      TRUST RECORDS presents
+      "ROCK IN WINTER 2027"
+      @TRUST_RECORDS
+       
+      
+      NEK! confirmed to appear🔥
+      
+      🗓️2027/1/9 (Sat)
+      🎪Diamond Hall / SPADE BOX 
+      Shangri-la / HeartLand / Live & Lounge Vio
+      ⏰Doors 12:00 / Start 13:00
+      *Performance date and venue to be announced at a later date.
+      
+      ▼Official 3rd ticket presale🎟️
+      Open until 11/3 (Tue, Holiday) 23:59!
+      https://w.pia.jp/t/rock-in-winter27/
+      
+      #NEKI
+    image:
+    - HVXT5v8a4AAU_T5
+    part-of:
+      show:
+        year: 2027
+        id: rockinwinter
+
+- postximage:
+    post: 2113828947041673270
+    id: HVXT5v8a4AAU_T5
+    index: 1
+    label: Lineup
+    local-copy: true
+    context:
+    - show:
+        year: 2027
+        id: rockinwinter
+    part-of:
+      postx: 2113828947041673270
+
+- update:
+    show:
+      year: 2027
+      id: rockinwinter
+    date: 2026-10-24
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2027
+        id: rockinwinter
+

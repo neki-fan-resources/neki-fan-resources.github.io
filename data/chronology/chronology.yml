@@ -75,6 +75,9 @@ contentpage:
       id: live27osaka
   - tour: livetour2027
   - show:
+      year: 2027
+      id: rockinwinter
+  - show:
       year: 2026
       id: bmbudokan2
   - show:

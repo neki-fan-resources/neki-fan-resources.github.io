@@ -28,6 +28,26 @@
                     domain: natalie.mu
                     page: 695133
                     id: mvthumb
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2114225227924435076
+                    image: HVc8otTa0AAs467
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2114225227924435076
+                    image: HVc8otOaUAAnojj
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2114225227924435076
+                    image: HVc8otRb0AApX4V
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2114225227924435076
+                    image: HVc8otaaYAAila5
         - basicsection:
             label: Behind the scenes
             subsections:
@@ -761,6 +781,41 @@
     part-of:
       postx: 2113935970404008223
 
+- postx:
+    id: 2114225227924435076
+    account: nekiband_jp
+    label: Watch now
+    published-date: 2026-10-25
+    text: |-
+      ✦ ⟡ WATCH NOW ⟡ ✦
+      
+      "MAGiC VoX" Official MV公開中🎥
+      ▶︎ https://youtu.be/iosUtnuFeI4
+      
+      "NEK! LIVE TOUR 2027"
+      来年1月から全国ツアー開催🔥
+      ▶︎ https://neki.bitfan.id/contents/440573
+      
+      #NEKI #MAGiCVoX
+    translation: |-
+      ✦ ⟡ WATCH NOW ⟡ ✦
+      
+      "MAGiC VoX" Official MV is out now🎥
+      ▶︎ https://youtu.be/iosUtnuFeI4
+      
+      "NEK! LIVE TOUR 2027"
+      Nationwide tour starting next year in January🔥
+      ▶︎ https://neki.bitfan.id/contents/440573
+      
+      #NEKI #MAGiCVoX
+    image:
+    - HVc8otOaUAAnojj
+    - HVc8otRb0AApX4V
+    - HVc8otTa0AAs467
+    - HVc8otaaYAAila5
+    part-of:
+      song: magicvox
+
 - postximage:
     post: 2078434617183412469
     id: HNgT3SrbYAAPSg5
@@ -802,6 +857,50 @@
     - song: magicvox
     part-of:
       postx: 2113956931635449882
+
+- postximage:
+    post: 2114225227924435076
+    id: HVc8otOaUAAnojj
+    index: 3
+    label: MV image
+    info: Cocoro
+    context:
+    - song: magicvox
+    part-of:
+      postx: 2114225227924435076
+
+- postximage:
+    post: 2114225227924435076
+    id: HVc8otRb0AApX4V
+    index: 4
+    label: MV image
+    info: Hika
+    context:
+    - song: magicvox
+    part-of:
+      postx: 2114225227924435076
+
+- postximage:
+    post: 2114225227924435076
+    id: HVc8otTa0AAs467
+    index: 2
+    label: MV image
+    info: Natsu
+    context:
+    - song: magicvox
+    part-of:
+      postx: 2114225227924435076
+
+- postximage:
+    post: 2114225227924435076
+    id: HVc8otaaYAAila5
+    index: 1
+    label: MV image
+    info: Kanade
+    context:
+    - song: magicvox
+    part-of:
+      postx: 2114225227924435076
 
 - postxvideo:
     post: 2113572801806541198
@@ -958,6 +1057,15 @@
     label: Article about the announcement
     published-date: 2026-07-18
     url: 'https://skream.jp/news/2026/07/neki_magic_vox.php'
+    part-of:
+      song: magicvox
+
+- youtubeshort:
+    id: Ihrg3ZMwf4w
+    label: Music Video
+    published-date: 2026-10-25
+    context:
+    - song: magicvox
     part-of:
       song: magicvox
 

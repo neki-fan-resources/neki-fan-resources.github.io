@@ -144,15 +144,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Live reports
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: diskgarage.com
-                        id: 231964
-                      text: diskgarage.com
+                webitems:
+                - webpage:
+                    domain: diskgarage.com
+                    id: 231964
     part-of:
       show:
         year: 2026

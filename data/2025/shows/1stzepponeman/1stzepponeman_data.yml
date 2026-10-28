@@ -405,36 +405,24 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the song announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.03.nek_zepp_oneman
-                      text: skream.jp
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.03.nek_zepp_oneman
+            - webitemlistsubsection:
                 label: Live reports
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: realsound.jp
-                        id: 2025.09.2144607
-                      text: realsound.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1019083
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: rockinon.com
-                        id: 213061
-                      text: rockinon.com
+                webitems:
+                - webpage:
+                    domain: rockinon.com
+                    id: 213061
+                - webpage:
+                    domain: realsound.jp
+                    id: 2025.09.2144607
+                - webpage:
+                    domain: barks.jp
+                    id: 1019083
     part-of:
       show:
         year: 2025

@@ -67,21 +67,15 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the event announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1023714
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.10.neki_meme_tour
-                      text: skream.jp
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1023714
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.10.neki_meme_tour
     part-of:
       event: iwanttostartaband
 

@@ -68,15 +68,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles about the program
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: natalie.mu
-                        id: 663907
-                      text: natalie.mu
+                webitems:
+                - webpage:
+                    domain: natalie.mu
+                    id: 663907
     part-of:
       media:
         year: 2026

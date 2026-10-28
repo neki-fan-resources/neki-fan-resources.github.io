@@ -200,21 +200,15 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Live reports
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: natalie.mu
-                        id: 646736
-                      text: natalie.mu
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: e.usen.com
-                        id: nek-live-2025buzzer-stage
-                      text: e.usen.com
+                webitems:
+                - webpage:
+                    domain: natalie.mu
+                    id: 646736
+                - webpage:
+                    domain: e.usen.com
+                    id: nek-live-2025buzzer-stage
     part-of:
       show:
         year: 2025

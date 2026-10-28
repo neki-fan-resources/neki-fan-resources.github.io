@@ -283,15 +283,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Live reports
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: e.usen.com
-                        id: '-nek316o-west'
-                      text: e.usen.com
+                webitems:
+                - webpage:
+                    domain: e.usen.com
+                    id: '-nek316o-west'
     part-of:
       show:
         year: 2025

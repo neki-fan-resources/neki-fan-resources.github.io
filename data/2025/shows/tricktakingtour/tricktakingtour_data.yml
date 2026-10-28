@@ -83,15 +83,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles about the tour announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 121395
-                      text: ototoy.jp
+                webitems:
+                - webpage:
+                    domain: ototoy.jp
+                    id: 121395
     part-of:
       tour: tricktakingtour
 

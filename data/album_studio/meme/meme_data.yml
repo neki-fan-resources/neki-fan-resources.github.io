@@ -214,84 +214,48 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the album announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1011489
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: natalie.mu
-                        id: 638364
-                      text: natalie.mu
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 125719
-                      text: ototoy.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: realsound.jp
-                        id: 2025.08.2140957
-                      text: realsound.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.08.neki_major_debut
-                      text: skream.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: tower.jp
-                        id: 2025.08.30.0701
-                      text: tower.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: rooftop1976.com
-                        id: 2025.08.31113000
-                      text: rooftop1976.com
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1023714
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.10.neki_meme_tour
-                      text: skream.jp
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1011489
+                - webpage:
+                    domain: ototoy.jp
+                    id: 125719
+                - webpage:
+                    domain: realsound.jp
+                    id: 2025.08.2140957
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.08.neki_major_debut
+                - webpage:
+                    domain: tower.jp
+                    id: 2025.08.30.0701
+                - webpage:
+                    domain: natalie.mu
+                    id: 638364
+                - webpage:
+                    domain: rooftop1976.com
+                    id: 2025.08.31113000
+                - webpage:
+                    domain: barks.jp
+                    id: 1023714
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.10.neki_meme_tour
+            - webitemlistsubsection:
                 label: Articles on the album release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1032845
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 127221
-                      text: ototoy.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.11.neki_meme_campaign
-                      text: skream.jp
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1032845
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.11.neki_meme_campaign
+                - webpage:
+                    domain: ototoy.jp
+                    id: 127221
             - textsubsection:
                 label: Rankings
                 lines:

@@ -139,48 +139,30 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the shows announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: natalie.mu
-                        id: 621457
-                      text: natalie.mu
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 123413
-                      text: ototoy.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.04.neki_komsume_2man
-                      text: skream.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: rooftop1976.com
-                        id: 2025.04.25180000
-                      text: rooftop1976.com
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: e.usen.com
-                        id: nek-komsume2live
-                      text: e.usen.com
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: natalie.mu
+                    id: 621457
+                - webpage:
+                    domain: ototoy.jp
+                    id: 123413
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.04.neki_komsume_2man
+                - webpage:
+                    domain: rooftop1976.com
+                    id: 2025.04.25180000
+                - webpage:
+                    domain: e.usen.com
+                    id: nek-komsume2live
+            - webitemlistsubsection:
                 label: Live reports
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: natalie.mu
-                        id: 626363
-                      text: natalie.mu
+                webitems:
+                - webpage:
+                    domain: natalie.mu
+                    id: 626363
     part-of:
       show:
         year: 2025

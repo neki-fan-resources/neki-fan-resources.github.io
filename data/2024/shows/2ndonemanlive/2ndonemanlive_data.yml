@@ -219,15 +219,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the show announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: natalie.mu
-                        id: 584157
-                      text: natalie.mu
+                webitems:
+                - webpage:
+                    domain: natalie.mu
+                    id: 584157
     part-of:
       show:
         year: 2024

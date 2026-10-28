@@ -146,15 +146,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the song release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: rooftop1976.com
-                        id: 2024.10.09212000
-                      text: rooftop1976.com
+                webitems:
+                - webpage:
+                    domain: rooftop1976.com
+                    id: 2024.10.09212000
     part-of:
       song: loner
 

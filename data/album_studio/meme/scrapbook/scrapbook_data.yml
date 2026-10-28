@@ -105,21 +105,15 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the music video release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2026.01.nek_scrap_book_mv
-                      text: skream.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: e.usen.com
-                        id: nek1stmemenekscrap-bookmv
-                      text: e.usen.com
+                webitems:
+                - webpage:
+                    domain: skream.jp
+                    id: 2026.01.nek_scrap_book_mv
+                - webpage:
+                    domain: e.usen.com
+                    id: nek1stmemenekscrap-bookmv
     part-of:
       song: scrapbook
 

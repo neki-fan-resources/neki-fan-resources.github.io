@@ -252,63 +252,39 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the song announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1029045
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.11.neki_gimmick
-                      text: skream.jp
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1029045
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.11.neki_gimmick
+            - webitemlistsubsection:
                 label: Articles on the song release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1032119
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.11.nek_gimmick_mv
-                      text: skream.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: e.usen.com
-                        id: nek11261stmemenekgimmick
-                      text: e.usen.com
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1032119
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.11.nek_gimmick_mv
+                - webpage:
+                    domain: e.usen.com
+                    id: nek11261stmemenekgimmick
+            - webitemlistsubsection:
                 label: Articles on the music video release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: realsound.jp
-                        id: 2025.11.2225551
-                      text: realsound.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.11.nek_gimmick_mv_release
-                      text: skream.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: e.usen.com
-                        id: nek1stmemegimmickmv
-                      text: e.usen.com
+                webitems:
+                - webpage:
+                    domain: realsound.jp
+                    id: 2025.11.2225551
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.11.nek_gimmick_mv_release
+                - webpage:
+                    domain: e.usen.com
+                    id: nek1stmemegimmickmv
     part-of:
       song: gimmick
 

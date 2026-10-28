@@ -62,15 +62,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Live reports
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 121142
-                      text: ototoy.jp
+                webitems:
+                - webpage:
+                    domain: ototoy.jp
+                    id: 121142
     part-of:
       show:
         year: 2024

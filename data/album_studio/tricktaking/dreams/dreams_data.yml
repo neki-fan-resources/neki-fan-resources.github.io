@@ -207,30 +207,21 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the song release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: rooftop1976.com
-                        id: 2024.12.11000000
-                      text: rooftop1976.com
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: rooftop1976.com
+                    id: 2024.12.11000000
+            - webitemlistsubsection:
                 label: Articles on the music video release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 545222
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.03.neki_dreams_mv
-                      text: skream.jp
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 545222
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.03.neki_dreams_mv
     - basicblock:
         id: community
         label: Community

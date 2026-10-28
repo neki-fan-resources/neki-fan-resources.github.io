@@ -270,24 +270,18 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the song release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: rooftop1976.com
-                        id: 2025.02.10173000
-                      text: rooftop1976.com
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: rooftop1976.com
+                    id: 2025.02.10173000
+            - webitemlistsubsection:
                 label: Articles on the music video release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: entameclip.com
-                        id: 425460
-                      text: entameclip.com
+                webitems:
+                - webpage:
+                    domain: entameclip.com
+                    id: 425460
     part-of:
       song: zerosum
 

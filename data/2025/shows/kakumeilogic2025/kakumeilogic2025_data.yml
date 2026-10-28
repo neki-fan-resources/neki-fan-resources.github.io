@@ -108,15 +108,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Live reports
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.06.kakumeilogic
-                      text: skream.jp
+                webitems:
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.06.kakumeilogic
     part-of:
       show:
         year: 2025

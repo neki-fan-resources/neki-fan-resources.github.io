@@ -79,15 +79,12 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the show announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1029045
-                      text: barks.jp
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1029045
     part-of:
       show:
         year: 2026

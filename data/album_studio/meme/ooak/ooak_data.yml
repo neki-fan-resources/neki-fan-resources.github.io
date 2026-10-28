@@ -206,78 +206,45 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the song release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 992435
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 124081
-                      text: ototoy.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.06.neki_ooak_release
-                      text: skream.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: utaten.com
-                        id: 66679
-                      text: utaten.com
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: entameclip.com
-                        id: 440089
-                      text: entameclip.com
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 992435
+                - webpage:
+                    domain: ototoy.jp
+                    id: 124081
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.06.neki_ooak_release
+                - webpage:
+                    domain: entameclip.com
+                    id: 440089
+                - webpage:
+                    domain: utaten.com
+                    id: 66679
+            - webitemlistsubsection:
                 label: Articles on the music video release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 996886
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 124433
-                      text: ototoy.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.06.neki_ooak_mv
-                      text: skream.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: rooftop1976.com
-                        id: 2025.06.20210000
-                      text: rooftop1976.com
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: e.usen.com
-                        id: nekooakmv
-                      text: e.usen.com
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: utaten.com
-                        id: 66710
-                      text: utaten.com
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 996886
+                - webpage:
+                    domain: ototoy.jp
+                    id: 124433
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.06.neki_ooak_mv
+                - webpage:
+                    domain: rooftop1976.com
+                    id: 2025.06.20210000
+                - webpage:
+                    domain: utaten.com
+                    id: 66710
+                - webpage:
+                    domain: e.usen.com
+                    id: nekooakmv
     - basicblock:
         id: community
         label: Community

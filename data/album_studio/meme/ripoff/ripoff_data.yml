@@ -201,80 +201,48 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles about the song announcement
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1004119
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 125174
-                      text: ototoy.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.07.neki_rip-off
-                      text: skream.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: entameclip.com
-                        id: 447208
-                      text: entameclip.com
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1004119
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.07.neki_rip-off
+                - webpage:
+                    domain: entameclip.com
+                    id: 447208
+                - webpage:
+                    domain: ototoy.jp
+                    id: 125174
+            - webitemlistsubsection:
                 label: Articles on the song release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1005755
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: natalie.mu
-                        id: 635157
-                      text: natalie.mu
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: ototoy.jp
-                        id: 125306
-                      text: ototoy.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.08.neki_rip-off_release
-                      text: skream.jp
-            - textsubsection:
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1005755
+                - webpage:
+                    domain: natalie.mu
+                    id: 635157
+                - webpage:
+                    domain: ototoy.jp
+                    id: 125306
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.08.neki_rip-off_release
+            - webitemlistsubsection:
                 label: Articles on the music video release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1009322
-                      text: barks.jp
-                  - webitem:
-                      webpage:
-                        domain: realsound.jp
-                        id: 2025.08.2133433
-                      text: realsound.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.08.nek_rip-off_mv
-                      text: skream.jp
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1009322
+                - webpage:
+                    domain: realsound.jp
+                    id: 2025.08.2133433
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.08.nek_rip-off_mv
     part-of:
       song: ripoff
 

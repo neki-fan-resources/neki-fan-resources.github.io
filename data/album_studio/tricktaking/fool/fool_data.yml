@@ -97,21 +97,15 @@
         sections:
         - basicsection:
             subsections:
-            - textsubsection:
+            - webitemlistsubsection:
                 label: Articles on the live video release
-                lines:
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: barks.jp
-                        id: 1001567
-                      text: barks.jp
-                - line:
-                  - webitem:
-                      webpage:
-                        domain: skream.jp
-                        id: 2025.07.nek_fool_live_video
-                      text: skream.jp
+                webitems:
+                - webpage:
+                    domain: barks.jp
+                    id: 1001567
+                - webpage:
+                    domain: skream.jp
+                    id: 2025.07.nek_fool_live_video
     part-of:
       song: fool
 

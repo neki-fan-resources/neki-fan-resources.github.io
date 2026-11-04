@@ -1,3 +1,75 @@
+- display:
+    media:
+      year: 2026
+      id: flowkeigo1
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2116002652169605168
+                    image: HVsdSk1aQAAGbdy
+    part-of:
+      media:
+        year: 2026
+        id: flowkeigo1
+
+- postx:
+    id: 2116002652169605168
+    account: flowkeigo_radio
+    label: In 2 days
+    published-date: 2026-10-30
+    text: |-
+      FLOW KEIGOのトーク巡礼🚶🏻‍♂️
+      
+      11/1は…NEK! @nekiband_jp からHika さん@46_hikaa
+      とNatsuさん@natsu08_guitarが登場👏
+      
+      NEK!のことだったり、Hika さん、Natsuさんのことをネホリハホリお聞きしました🙌
+      お楽しみに📻
+      
+      #トーク巡礼 #FLOW
+      #FM愛媛 #FM高知 #FM徳島 #FM香川
+      
+      #NEKI
+    translation: |-
+      FLOW KEIGO's Talk Pilgrimage🚶🏻‍♂️
+      
+      On 11/1... Hika-san @46_hikaa
+      and Natsu-san @natsu08_guitar from NEK! @nekiband_jp will be appearing👏
+      
+      We probed deeply and asked all about NEK!, as well as Hika-san and Natsu-san themselves🙌
+      Stay tuned📻
+      
+      #トーク巡礼 #FLOW
+      #FM愛媛 #FM高知 #FM徳島 #FM香川
+      
+      #NEKI
+    image:
+    - HVsdSk1aQAAGbdy
+    part-of:
+      media:
+        year: 2026
+        id: flowkeigo1
+
+- postximage:
+    post: 2116002652169605168
+    id: HVsdSk1aQAAGbdy
+    index: 1
+    label: In studio
+    context:
+    - media:
+        year: 2026
+        id: flowkeigo1
+    part-of:
+      postx: 2116002652169605168
+
 - update:
     media:
       year: 2026

@@ -23,6 +23,7 @@
                     video: 1
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: En2JUMtx2uk
                 - youtubeshort: LufDNsyFJHI
                 - youtubeshort: 1hGUO_2vC24
             - multimediasubsection:
@@ -156,6 +157,9 @@
                 - postinstagramimage:
                     post: DebUAxymrs4
                     image: 8
+                - postximage:
+                    post: 2115467141910847599
+                    image: HVumJtNboAAYhoa
             - multimediasubsection:
                 multimedia:
                 - postximage:
@@ -1418,6 +1422,21 @@
         year: 2026
         id: debuttourtokyo
     - song: mute
+    part-of:
+      show:
+        year: 2026
+        id: debuttourtokyo
+
+- youtubeshort:
+    id: En2JUMtx2uk
+    label: On stage
+    info: studio audio
+    published-date: 2026-11-03
+    context:
+    - song: zerosum
+    - show:
+        year: 2026
+        id: debuttourtokyo
     part-of:
       show:
         year: 2026

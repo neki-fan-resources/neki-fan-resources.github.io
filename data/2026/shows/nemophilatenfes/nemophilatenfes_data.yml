@@ -16,6 +16,9 @@
                     post: 2110696665535660474
                     video: 1
             - multimediasubsection:
+                multimedia:
+                - youtubeshort: x4bY8HUsCNg
+            - multimediasubsection:
                 label: Images
                 multimedia:
                 - postximage:
@@ -1194,6 +1197,21 @@
     date: 2026-10-13
     text:
     - First pictures from the show
+    part-of:
+      show:
+        year: 2026
+        id: nemophilatenfes
+
+- youtubeshort:
+    id: x4bY8HUsCNg
+    label: On stage
+    info: studio audio
+    published-date: 2026-10-30
+    context:
+    - song: magicvox
+    - show:
+        year: 2026
+        id: nemophilatenfes
     part-of:
       show:
         year: 2026

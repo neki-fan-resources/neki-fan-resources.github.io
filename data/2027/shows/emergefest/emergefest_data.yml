@@ -1,0 +1,122 @@
+- postx:
+    id: 2117557660300320979
+    account: nekiband_jp
+    label: Announcement
+    published-date: 2026-11-03
+    text: |-
+      ◥◣ 🔥 情報解禁 🔥 ◢◤
+      
+      2/20(土) - 2/21(日)開催
+      「浮現祭 EMERGE FEST 2027」
+      @ 台湾・台中清水鰲峰山運動公園
+      
+      NEK!初の海外でのライブ出演が決定🎉
+      ※出演日は後日発表となります。
+      
+      🔗https://neki.bitfan.id/schedules/130005
+      
+      #NEKI #浮現祭 #EmergeFest
+    translation: |-
+      ◥◣ 🔥 Information Reveal 🔥 ◢◤
+      
+      Held on 2/20 (Sat) - 2/21 (Sun)
+      "EMERGE FEST 2027"
+      @ Aofeng Mountain Sports Park, Qingshui, Taichung, Taiwan
+      
+      NEK!'s first overseas live performance has been confirmed🎉
+      *The specific performance date will be announced at a later time.
+      
+      🔗https://neki.bitfan.id/schedules/130005
+      
+      #NEKI #浮現祭 #EmergeFest
+    image:
+    - HWMRVFwbAAAUdwB
+    - HWMRXNaaIAADIa0
+    part-of:
+      show:
+        year: 2027
+        id: emergefest
+
+- postximage:
+    post: 2117557660300320979
+    id: HWMRVFwbAAAUdwB
+    index: 1
+    label: Lineup
+    context:
+    - show:
+        year: 2027
+        id: emergefest
+    part-of:
+      postx: 2117557660300320979
+
+- postximage:
+    post: 2117557660300320979
+    id: HWMRXNaaIAADIa0
+    index: 2
+    label: Band poster
+    context:
+    - show:
+        year: 2027
+        id: emergefest
+    part-of:
+      postx: 2117557660300320979
+
+- update:
+    show:
+      year: 2027
+      id: emergefest
+    date: 2026-11-04
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2027
+        id: emergefest
+
+- webimage:
+    domain: neki.bitfan.id
+    page: 130005
+    id: bandposter
+    label: Band poster
+    published-date: 2026-11-03
+    url: 'https://bitfan-id.s3.ap-northeast-1.amazonaws.com/store/2007f85cddcaff7e5258cae48d1e53fa.jpg'
+    context:
+    - show:
+        year: 2027
+        id: emergefest
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 130005
+
+- webimage:
+    domain: neki.bitfan.id
+    page: 130005
+    id: lineup
+    label: Lineup
+    published-date: 2026-11-03
+    url: 'https://bitfan-id.s3.ap-northeast-1.amazonaws.com/store/179f9b2388a9278a25e618b6bcc9af84.jpg'
+    local-copy: true
+    context:
+    - show:
+        year: 2027
+        id: emergefest
+    part-of:
+      webpage:
+        domain: neki.bitfan.id
+        id: 130005
+
+- webpage:
+    domain: neki.bitfan.id
+    id: 130005
+    label: Show page
+    published-date: 2026-11-03
+    url: 'https://neki.bitfan.id/schedules/130005'
+    image:
+    - lineup
+    - bandposter
+    part-of:
+      show:
+        year: 2027
+        id: emergefest
+

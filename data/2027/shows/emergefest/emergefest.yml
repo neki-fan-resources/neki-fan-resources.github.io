@@ -1,0 +1,20 @@
+show:
+  year: 2027
+  id: emergefest
+  cover-image:
+    webimage:
+      domain: neki.bitfan.id
+      page: 130005
+      id: lineup
+  fullname: 浮現祭 EMERGE FEST 2027
+  shortname: EMERGE FEST 2027
+  sublabel: Taichung, Taiwan
+  date: 2027-02-20
+  categories:
+  - mainshow
+  venue: Aofeng Mountain Sports Park, Taichung, Taiwan
+  todo: ototoy article about the anouncement
+  part-of:
+    group:
+      id: shows
+      group: 2027

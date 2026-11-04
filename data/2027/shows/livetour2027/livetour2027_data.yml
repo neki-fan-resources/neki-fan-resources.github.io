@@ -84,6 +84,182 @@
     part-of:
       tour: livetour2027
 
+- postx:
+    id: 2113950125798367248
+    account: nekiband_jp
+    label: 1st lottery
+    published-date: 2026-10-24
+    text: |-
+      🫯🔥 全国ツアー 🔥🫯
+      
+      〝NEK! LIVE TOUR 2027〟
+      
+      ／
+      🎫オフィシャル先行受付中！
+      ＼
+      
+      抽選受付は11/3(火祝) 23:59まで⚠️
+      
+      全国12会場で開催いたします🗾
+      ぜひお申し込みください！
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      🫯🔥 Nationwide Tour 🔥🫯
+      
+      "NEK! LIVE TOUR 2027"
+      
+      ／
+      🎫 Official Presale Now Open!
+      ＼
+      
+      Lottery entry is open until 11/3 (Tue, Holiday) 23:59⚠️
+      
+      Taking place across 12 venues nationwide🗾
+      Be sure to apply!
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    part-of:
+      tour: livetour2027
+    reference:
+    - postximage:
+        post: 2102700118164287773
+        image: HS5KesvbAAAc0AL
+
+- postx:
+    id: 2115467141910847599
+    account: natsu08_guitar
+    label: 1st lottery
+    published-date: 2026-10-28
+    text: |-
+      全国ツアー！オフィシャル先行受付中です！！
+      
+      今年の全国ツアーからより進化したNEK!を観に来ていただけるよう頑張ります！
+      各地のネキ界隈にお会いできるの楽しみ❤️‍🔥❤️‍🔥
+      お待ちしております！！
+    translation: |-
+      Nationwide tour! Official advance ticket presales are now open!!
+      
+      We'll do our best so you can come see an even more evolved NEK! compared to this year's nationwide tour!
+      Looking forward to meeting all the NEK! fans across the regions ❤️‍🔥❤️‍🔥
+      We'll be waiting for you!!
+    image:
+    - HVumJtNboAAYhoa
+    part-of:
+      postx: 2113950125798367248
+
+- postx:
+    id: 2116792947635298355
+    account: nekiband_jp
+    label: Posters at Shibuya Spain-zaka
+    published-date: 2026-11-01
+    text: |-
+      【INFORMATION📣】
+      
+      渋谷スペイン坂にて
+      "NEK! LIVE TOUR 2027" ポスター掲示中！
+      
+      渋谷にお出かけの際は
+      ぜひチェックお願いします✔️
+      
+      ▼掲載期間
+      〜11/9(月)まで
+      
+      ▼掲示場所
+      東京・渋谷スペイン坂
+      
+      全12会場で開催の全国ツアー🗾
+      現在オフィシャル先行(抽選)受付中！
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      [INFORMATION📣]
+      
+      Currently displaying
+      "NEK! LIVE TOUR 2027" posters at Shibuya Spain-zaka!
+      
+      If you're heading out to Shibuya,
+      please be sure to check them out✔️
+      
+      ▼ Display Period
+      Until ~ 11/9 (Mon)
+      
+      ▼ Location
+      Tokyo · Shibuya Spain-zaka
+      
+      Nationwide tour held across all 12 venues🗾
+      Official advance lottery presales are now open!
+      https://l-tike.com/nekiband/
+      
+      #NEKI
+    image:
+    - HWBb9TCbEAAfCJh
+    part-of:
+      tour: livetour2027
+
+- postx:
+    id: 2116860733619327008
+    account: 46_hikaa
+    label: Went to check it out
+    published-date: 2026-11-01
+    text: |-
+      見に行ってきた！！！！
+    translation: |-
+      Went to check it out!!!!
+    video:
+    - 1
+    part-of:
+      postx: 2116792947635298355
+
+- postx:
+    id: 2117509252323709213
+    account: nekiband_jp
+    label: 1st lottery until tonight
+    published-date: 2026-11-03
+    text: |-
+      【本日締切⚠️】
+      
+      〝NEK! LIVE TOUR 2027〟
+      
+      ／
+      オフィシャル先行(抽選)
+      受付は本日11/3(火祝) 23:59まで🎟️
+      ＼
+      
+      全12会場で開催🔥
+      ぜひお申し込みお待ちしております！
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    translation: |-
+      [Deadline Today⚠️]
+      
+      "NEK! LIVE TOUR 2027"
+      
+      ／
+      Official advance presale (lottery)
+      Applications close today, 11/3 (Tue, Holiday) at 23:59🎟️
+      ＼
+      
+      Held across all 12 venues🔥
+      We really look forward to your applications!
+      
+      🔗https://l-tike.com/nekiband/
+      
+      #NEKI
+    part-of:
+      tour: livetour2027
+    reference:
+    - postximage:
+        post: 2102700118164287773
+        image: HS5KesvbAAAc0AL
+
 - postximage:
     post: 2102700118164287773
     id: HS5KesvbAAAc0AL
@@ -94,6 +270,39 @@
     - tour: livetour2027
     part-of:
       postx: 2102700118164287773
+
+- postximage:
+    post: 2115467141910847599
+    id: HVumJtNboAAYhoa
+    index: 1
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: debuttourtokyo
+    part-of:
+      postx: 2115467141910847599
+
+- postximage:
+    post: 2116792947635298355
+    id: HWBb9TCbEAAfCJh
+    index: 1
+    label: Poster
+    info: Shibuya Spain-zaka
+    context:
+    - tour: livetour2027
+    part-of:
+      postx: 2116792947635298355
+
+- postxvideo:
+    post: 2116860733619327008
+    id: 1
+    label: Poster
+    cover: 2116860712891088896/img/ut9u-dCV6vYM-f0G.jpg
+    context:
+    - tour: livetour2027
+    part-of:
+      postx: 2116860733619327008
 
 - update:
     tour: livetour2027

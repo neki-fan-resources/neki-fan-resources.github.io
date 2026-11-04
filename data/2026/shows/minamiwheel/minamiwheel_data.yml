@@ -13,6 +13,9 @@
             - multimediasubsection:
                 multimedia:
                 - postxvideo:
+                    post: 2117539291337511133
+                    video: 1
+                - postxvideo:
                     post: 2108855128740761964
                     video: 1
                 - postxvideo:
@@ -410,6 +413,30 @@
         post: 2108875112078569624
         video: 1
 
+- postx:
+    id: 2117539291337511133
+    account: coco_102
+    label: 1st lottery until tonight
+    published-date: 2026-11-03
+    text: |-
+      全国ツアーのオフィシャル先行受付は本日まで！！
+      ライブの熱量をぜひ体感しに来て🥹🔥
+      
+      #NEKI
+    translation: |-
+      Nationwide tour official advance presales end today!!
+      Definitely come experience the energy of our live show 🥹🔥
+      
+      #NEKI
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2117539291337511133
+        video: 1
+    reference:
+    - postx: 2117509252323709213
+
 - postximage:
     post: 2080216354033189136
     id: HN5k4_aacAAsPVc
@@ -599,6 +626,23 @@
     - show:
         year: 2026
         id: minamiwheel
+    part-of:
+      show:
+        year: 2026
+        id: minamiwheel
+
+- postxvideo:
+    post: 2117539291337511133
+    id: 1
+    label: On stage
+    info: Cocoro
+    cover: 2117539230167805952/img/PSGKggMKJQFI3Ncf.jpg
+    context:
+    - show:
+        year: 2026
+        id: minamiwheel
+    - song: mute
+    todo: put in the show ?
     part-of:
       show:
         year: 2026

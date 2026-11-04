@@ -10,6 +10,15 @@
             - multimediasubsection:
                 multimedia:
                 - youtubevideo: iosUtnuFeI4
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: AmyDuq5YXoQ
+        - basicsection:
+            label: Live, with studio audio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: x4bY8HUsCNg
     - lyricsblock: '-'
     - basicblock:
         id: musicvideo
@@ -51,6 +60,10 @@
         - basicsection:
             label: Behind the scenes
             subsections:
+            - multimediasubsection:
+                label: Videos
+                multimedia:
+                - youtubeshort: AmyDuq5YXoQ
             - multimediasubsection:
                 label: Images
                 multimedia:
@@ -1057,6 +1070,15 @@
     label: Article about the announcement
     published-date: 2026-07-18
     url: 'https://skream.jp/news/2026/07/neki_magic_vox.php'
+    part-of:
+      song: magicvox
+
+- youtubeshort:
+    id: AmyDuq5YXoQ
+    label: Music Video set
+    published-date: 2026-11-01
+    context:
+    - song: magicvox
     part-of:
       song: magicvox
 

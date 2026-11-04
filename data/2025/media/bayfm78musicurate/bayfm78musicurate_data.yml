@@ -1,3 +1,42 @@
+- display:
+    media:
+      year: 2025
+      id: bayfm78musicurate
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1914850685176480128
+                    image: GpLqISVa4AQTDba
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1914850685176480128
+                    image: GpLqKMBacAAiX9N
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: QxTlwAWRrBM
+                - postximage:
+                    post: 1914753335703560310
+                    image: GpKSAXXa4AIVkqj
+                - postximage:
+                    post: 1914285297862598973
+                    image: GpDoUyLb0AAbEYw
+    part-of:
+      media:
+        year: 2025
+        id: bayfm78musicurate
+
 - localimage:
     media:
       year: 2025

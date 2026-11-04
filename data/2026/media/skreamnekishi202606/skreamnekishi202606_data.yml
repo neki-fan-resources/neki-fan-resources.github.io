@@ -13,13 +13,15 @@
                 lines:
                 - line:
                   - text: '← '
-                  - media:
-                      year: 2026
-                      id: skreamnekishi202604
+                  - element:
+                      media:
+                        year: 2026
+                        id: skreamnekishi202604
                   - text: ' • '
-                  - media:
-                      year: 2026
-                      id: skreamnekishi202608
+                  - element:
+                      media:
+                        year: 2026
+                        id: skreamnekishi202608
                   - text: ' →'
             - textsubsection:
                 multimedia:

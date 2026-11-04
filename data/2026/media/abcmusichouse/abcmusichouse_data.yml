@@ -1,3 +1,30 @@
+- display:
+    media:
+      year: 2026
+      id: abcmusichouse
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - webvideo:
+                    domain: drive.google.com
+                    page: nekidist
+                    id: abctv-musichouse
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2084612707769340188
+                    image: HO4IM7vb0AAvYkf
+    part-of:
+      media:
+        year: 2026
+        id: abcmusichouse
+
 - postx:
     id: 2084612707769340188
     account: musichouse_ABC

@@ -11,13 +11,15 @@
                 lines:
                 - line:
                   - text: The band performed "zero-sum" live for the first time at NEK!'s "
-                  - show:
-                      year: 2024
-                      id: 2ndonemanlive
+                  - element:
+                      show:
+                        year: 2024
+                        id: 2ndonemanlive
                   - text: ."
                 - line:
                   - text: NEK's released the song digitally as the lead single for the second EP "
-                  - album: tricktaking
+                  - element:
+                      album: tricktaking
                   - text: '" on February 12. This digital launch occurred a few weeks ahead of the EP release.'
                 - line:
                   - text: The music video was released several days later on February 15.

@@ -108,10 +108,7 @@
     index: 1
     label: Recording
     info: ピルん
-    context:
-    - song:
-        id: newsong202505
-        dark: true
+    todo: link to newsong202505 ?
     part-of:
       postx: 1923986423700652394
 
@@ -140,10 +137,7 @@
     label: Practicing
     info: Natsu, Hika
     cover: 1924763425592508424/img/xc1Gc1I_5zi9qbQq.jpg
-    context:
-    - song:
-        id: newsong202505
-        dark: true
+    todo: link to newsong202505 ?
     part-of:
       postx: 1924763496551743797
 

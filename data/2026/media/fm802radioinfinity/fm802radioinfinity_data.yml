@@ -1,3 +1,25 @@
+- display:
+    media:
+      year: 2026
+      id: fm802radioinfinity
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2080345354671997301
+                    image: HN7fBnUbQAAUCmr
+    part-of:
+      media:
+        year: 2026
+        id: fm802radioinfinity
+
 - postx:
     id: 2080345354671997301
     account: RI_802

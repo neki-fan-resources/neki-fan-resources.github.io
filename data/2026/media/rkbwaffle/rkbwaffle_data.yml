@@ -1,3 +1,24 @@
+- display:
+    media:
+      year: 2026
+      id: rkbwaffle
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042115566035726491
+                    image: HFcNR26asAAlinw
+    part-of:
+      media:
+        year: 2026
+        id: rkbwaffle
+
 - postx:
     id: 2041739707500130697
     account: nekiband_jp

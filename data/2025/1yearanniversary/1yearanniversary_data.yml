@@ -1,3 +1,23 @@
+- display:
+    event: 1yearanniversary
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: WI3yV-zKqMU
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1888877660820156712
+                    image: GjakKSubEAA9kmX
+    part-of:
+      event: 1yearanniversary
+
 - postx:
     id: 1888173899994837474
     account: nekiband_jp

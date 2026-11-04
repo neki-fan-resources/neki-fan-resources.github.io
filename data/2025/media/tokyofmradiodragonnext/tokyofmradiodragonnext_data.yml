@@ -1,3 +1,37 @@
+- display:
+    media:
+      year: 2025
+      id: tokyofmradiodragonnext
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1918253217269596255
+                    image: Gp8BIMjawAM-GEH
+                - postximage:
+                    post: 1918254606855074066
+                    image: Gp8COrJbsAAsI0n
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: NNc3Tau8YAY
+                - postximage:
+                    post: 1918392450269548896
+                    image: Gp9_wtDagAAnCTL
+    part-of:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext
+
 - localimage:
     media:
       year: 2025

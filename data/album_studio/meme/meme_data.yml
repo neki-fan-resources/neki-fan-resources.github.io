@@ -260,13 +260,15 @@
                 label: Rankings
                 lines:
                 - line:
-                  - webpage:
-                      domain: stereosound.co.jp
-                      id: 17807493
+                  - webitem:
+                      webpage:
+                        domain: stereosound.co.jp
+                        id: 17807493
                   - newline: ''
-                  - webpage:
-                      domain: stereosound.co.jp
-                      id: 17809101
+                  - webitem:
+                      webpage:
+                        domain: stereosound.co.jp
+                        id: 17809101
     todo: Put text about the different editions, more multimedia to sort
     part-of:
       album: meme

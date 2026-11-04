@@ -13,7 +13,8 @@
                 lines:
                 - line:
                   - text: 'More videos and images are available on the '
-                  - tour: tricktakingtour
+                  - element:
+                      tour: tricktakingtour
                   - text: ' page.'
         - basicsection:
             label: At the show

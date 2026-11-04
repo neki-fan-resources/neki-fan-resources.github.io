@@ -1,3 +1,30 @@
+- display:
+    media:
+      year: 2025
+      id: radionippon-sweet2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2003646737039421647
+                    image: G85gSJCagAEyQj1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2003648916345241997
+                    image: G85kD4obYAA61eu
+    part-of:
+      media:
+        year: 2025
+        id: radionippon-sweet2
+
 - postx:
     id: 2003646737039421647
     account: sweet924_1422

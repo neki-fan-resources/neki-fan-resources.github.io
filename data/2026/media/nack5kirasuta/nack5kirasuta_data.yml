@@ -1,3 +1,30 @@
+- display:
+    media:
+      year: 2026
+      id: nack5kirasuta
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2079154586250870906
+                    image: HNqeSlhb0AAtbDV
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2079163446533472614
+                    image: HNqsIjwacAAHZWG
+    part-of:
+      media:
+        year: 2026
+        id: nack5kirasuta
+
 - postx:
     id: 2079154586250870906
     account: kirasuta795

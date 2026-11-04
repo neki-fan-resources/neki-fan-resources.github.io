@@ -1,3 +1,25 @@
+- display:
+    media:
+      year: 2025
+      id: radiokansai
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1946033691547009324
+                    image: GwGzUAJWAAIu7fG
+    part-of:
+      media:
+        year: 2025
+        id: radiokansai
+
 - localimage:
     media:
       year: 2025

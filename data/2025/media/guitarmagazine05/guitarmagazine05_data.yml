@@ -8,6 +8,10 @@
     source:
       description: Extracted from electronic version
       url: 'https://guitarmagazine.jp/news/2025-0401-gm2505/'
+    context:
+    - media:
+        year: 2025
+        id: guitarmagazine05
     part-of:
       media:
         year: 2025

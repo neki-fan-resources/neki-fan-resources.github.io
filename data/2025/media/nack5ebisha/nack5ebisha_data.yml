@@ -1,3 +1,25 @@
+- display:
+    media:
+      year: 2025
+      id: nack5ebisha
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1997330134882529745
+                    image: G7fxKlxaEAAzRX9
+    part-of:
+      media:
+        year: 2025
+        id: nack5ebisha
+
 - postx:
     id: 1996937198969803243
     account: nekiband_jp

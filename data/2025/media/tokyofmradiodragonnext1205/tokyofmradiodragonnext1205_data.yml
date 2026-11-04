@@ -1,3 +1,25 @@
+- display:
+    media:
+      year: 2025
+      id: tokyofmradiodragonnext1205
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1996950837613207750
+                    image: G7aYFheb0AMXzOm
+    part-of:
+      media:
+        year: 2025
+        id: tokyofmradiodragonnext1205
+
 - postx:
     id: 1996950837613207750
     account: RADIO_DRAGON

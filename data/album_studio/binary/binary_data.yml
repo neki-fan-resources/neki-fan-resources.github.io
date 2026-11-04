@@ -55,9 +55,10 @@
                 - line:
                   - text: 'The livestream archive is available on the Fan Club section of the NEK! website:'
                 - line:
-                  - webpage:
-                      domain: neki.bitfan.id
-                      id: 434934
+                  - webitem:
+                      webpage:
+                        domain: neki.bitfan.id
+                        id: 434934
     - basicblock:
         id: visit
         label: visiting stores

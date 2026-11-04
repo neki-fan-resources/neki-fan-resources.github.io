@@ -1,3 +1,44 @@
+- display:
+    media:
+      year: 2025
+      id: fmyokohamakissandride
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993537664394662212
+                    image: G6p330JbwAEpza6
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993541736006811759
+                    image: G6p7oz-acAA5rBO
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1993556722968154273
+                    image: G6qJRW2aMAAibSL
+                - postximage:
+                    post: 1993556066672726364
+                    image: G6qIqy_bwAQd9OD
+                - postximage:
+                    post: 1993556066672726364
+                    image: G6qIqy8aoAArVJz
+    part-of:
+      media:
+        year: 2025
+        id: fmyokohamakissandride
+
 - postx:
     id: 1993537664394662212
     account: kr_staff

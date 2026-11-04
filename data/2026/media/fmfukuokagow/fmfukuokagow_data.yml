@@ -1,3 +1,33 @@
+- display:
+    media:
+      year: 2026
+      id: fmfukuokagow
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042201711683756223
+                    image: HFdbni8bIAAo5zd
+                - postximage:
+                    post: 2042196787587600635
+                    image: HFdXJxtbUAApL-u
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042196787587600635
+                    image: HFdXJxkbIAAPe3l
+    part-of:
+      media:
+        year: 2026
+        id: fmfukuokagow
+
 - postx:
     id: 2042196787587600635
     account: 46_hikaa

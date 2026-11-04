@@ -12,9 +12,10 @@
             - textsubsection:
                 lines:
                 - line:
-                  - media:
-                      year: 2026
-                      id: skreamnekishi202604
+                  - element:
+                      media:
+                        year: 2026
+                        id: skreamnekishi202604
                   - text: ' →'
             - textsubsection:
                 multimedia:

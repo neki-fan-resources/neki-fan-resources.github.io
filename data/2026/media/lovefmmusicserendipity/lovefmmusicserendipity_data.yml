@@ -1,3 +1,33 @@
+- display:
+    media:
+      year: 2026
+      id: lovefmmusicserendipity
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042184767857471794
+                    image: HFdMNEragAAsJAQ
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042180265775354090
+                    image: HFdIGkiawAEnuTF
+                - postximage:
+                    post: 2042184767857471794
+                    image: HFdMNEraUAA2JmR
+    part-of:
+      media:
+        year: 2026
+        id: lovefmmusicserendipity
+
 - postx:
     id: 2042180265775354090
     account: nekiband_jp

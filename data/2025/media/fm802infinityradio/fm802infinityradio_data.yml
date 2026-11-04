@@ -1,3 +1,25 @@
+- display:
+    media:
+      year: 2025
+      id: fm802infinityradio
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1910379084141801512
+                    image: GoMHpd-bYAANMFt
+    part-of:
+      media:
+        year: 2025
+        id: fm802infinityradio
+
 - localimage:
     media:
       year: 2025

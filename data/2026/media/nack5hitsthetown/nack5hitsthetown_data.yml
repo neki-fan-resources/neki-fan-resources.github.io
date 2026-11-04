@@ -1,3 +1,33 @@
+- display:
+    media:
+      year: 2026
+      id: nack5hitsthetown
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2068243867523277264
+                    image: HLPg0IvaAAAoYkN
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2068181357382254939
+                    image: HLOn-ZTasAAiwZK
+    part-of:
+      media:
+        year: 2026
+        id: nack5hitsthetown
+
 - postx:
     id: 2067096463705010337
     account: nekiband_jp

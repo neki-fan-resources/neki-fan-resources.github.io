@@ -1,3 +1,25 @@
+- display:
+    media:
+      year: 2026
+      id: kbcfuzz
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2042869158191542378
+                    image: HFm6phlakAABfBF
+    part-of:
+      media:
+        year: 2026
+        id: kbcfuzz
+
 - postx:
     id: 2042869158191542378
     account: kbcradio_fuzz

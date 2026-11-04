@@ -1,3 +1,49 @@
+- display:
+    media:
+      year: 2025
+      id: yfmgodblesssaturday
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1936310916737626390
+                    image: Gt8oYqAbwAML8pq
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1936243875687137663
+                    image: Gt7rilaXoAAxHRl
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1936313898661298282
+                    image: Gt8rOAnXoAADXyX
+                - postximage:
+                    post: 1936301742964290030
+                    image: Gt8gHF3XgAAazpl
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1936314534777831611
+                    image: Gt8rzbGWgAAikiR
+                - postximage:
+                    post: 1936315279094825472
+                    image: Gt8settbwAAxGNd
+    part-of:
+      media:
+        year: 2025
+        id: yfmgodblesssaturday
+
 - localimage:
     media:
       year: 2025

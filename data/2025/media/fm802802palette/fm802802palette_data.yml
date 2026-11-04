@@ -1,3 +1,33 @@
+- display:
+    media:
+      year: 2025
+      id: fm802802palette
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1992226077100646748
+                    image: G6XPDoyaMAE_Sgj
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1992301169503535260
+                    image: G6YTWXKbYAASHrl
+    part-of:
+      media:
+        year: 2025
+        id: fm802802palette
+
 - postx:
     id: 1991845692902637923
     account: 802Palette

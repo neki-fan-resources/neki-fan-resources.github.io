@@ -16,9 +16,10 @@
                 - line:
                   - text: 'The previous interview on "eggman":'
                   - newline: ''
-                  - media:
-                      year: 2025
-                      id: eggman11
+                  - element:
+                      media:
+                        year: 2025
+                        id: eggman11
         - basicsection:
             label: Covers
             subsections:

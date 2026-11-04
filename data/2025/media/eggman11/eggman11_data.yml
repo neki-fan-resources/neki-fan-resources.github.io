@@ -16,9 +16,10 @@
                 - line:
                   - text: 'The next interview on "eggman":'
                   - newline: ''
-                  - media:
-                      year: 2026
-                      id: eggman7
+                  - element:
+                      media:
+                        year: 2026
+                        id: eggman7
         - basicsection:
             label: Covers
             subsections:

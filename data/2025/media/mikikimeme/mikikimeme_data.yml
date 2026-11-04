@@ -13,7 +13,8 @@
                 lines:
                 - line:
                   - text: This interview was conducted as part of the "I want to start a band!" (
-                  - event: iwanttostartaband
+                  - element:
+                      event: iwanttostartaband
                   - text: ) project, a campaign by Tower Records aimed at revitalizing band culture and encouraging listeners to pick up instruments. With the release of their first album MEME, NEK! was selected as the 13th ambassador for this initiative.
                 - line:
                   - text: "The conversation traces the band's modern formation story: how vocalist Hika recruited three \"cute and talented\" strangers via social media DMs, leading to their first chaotic studio session and an immediate bond over pancakes."
@@ -31,7 +32,8 @@
                 lines:
                 - line:
                   - text: This interview was published on Mikiki, the music culture website operated by Tower Records Japan. It was conducted as part of the "I want to start a band!" (
-                  - event: iwanttostartaband
+                  - element:
+                      event: iwanttostartaband
                   - text: ) project, a campaign by Tower Records aimed at revitalizing band culture and encouraging listeners to pick up instruments. With the release of their first album MEME, NEK! was selected as the 13th ambassador for this initiative.
                 - line:
                   - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.

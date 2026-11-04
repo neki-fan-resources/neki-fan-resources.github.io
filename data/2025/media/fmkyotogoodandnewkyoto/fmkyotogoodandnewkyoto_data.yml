@@ -1,3 +1,33 @@
+- display:
+    media:
+      year: 2025
+      id: fmkyotogoodandnewkyoto
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1990295324972446133
+                    image: G57zDBqbUAAysh7
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1990285250300408042
+                    image: G57p4dTbkAAvG3S
+    part-of:
+      media:
+        year: 2025
+        id: fmkyotogoodandnewkyoto
+
 - postx:
     id: 1990285250300408042
     account: nekiband_jp

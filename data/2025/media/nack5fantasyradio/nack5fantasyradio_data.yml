@@ -1,3 +1,34 @@
+- display:
+    media:
+      year: 2025
+      id: nack5fantasyradio
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: In studio
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - youtubeshort: 2WXwyGdDMsM
+        - basicsection:
+            label: At the station
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 1903452529729695755
+                    image: Gmpr-0DaAAA6aKU
+                - postximage:
+                    post: 1903504110907015360
+                    image: Gmqa5YYbwAAztGi
+    part-of:
+      media:
+        year: 2025
+        id: nack5fantasyradio
+
 - localimage:
     media:
       year: 2025

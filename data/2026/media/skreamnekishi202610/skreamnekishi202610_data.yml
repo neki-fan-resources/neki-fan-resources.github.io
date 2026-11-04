@@ -13,9 +13,10 @@
                 lines:
                 - line:
                   - text: '← '
-                  - media:
-                      year: 2026
-                      id: skreamnekishi202608
+                  - element:
+                      media:
+                        year: 2026
+                        id: skreamnekishi202608
             - textsubsection:
                 multimedia:
                   postximage:

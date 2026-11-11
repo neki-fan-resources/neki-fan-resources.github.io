@@ -2,8 +2,8 @@ package org.skyluc.neki_site
 
 import org.skyluc.fan_resources.ErrorsHolder
 import org.skyluc.fan_resources.Main.displayErrors
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.data as fr
-import org.skyluc.fan_resources.data.Path
 import org.skyluc.fan_resources.data.checks.DataCheck
 import org.skyluc.fan_resources.html.SiteOutput
 import org.skyluc.neki_site.html.ElementToPage
@@ -26,7 +26,7 @@ object Main {
 
     val data = errors.record("DATA LOADING", DataLoader.load(configuration.mainDataFolder, configuration))
 
-    errors.append("DATA CHECKING", DataCheck.check(data, configuration.mainDataCheckers))
+    errors.append("DATA CHECKING", DataCheck.check(data.dataView, configuration.mainDataCheckers))
 
     displayErrors(errors, 10)
 
@@ -34,7 +34,7 @@ object Main {
       System.exit(2)
     }
 
-    val pages = ElementToPage.generate(data, configuration)
+    val pages = ElementToPage.generate(data.dataView, configuration)
 
     SiteOutput.generate(pages, configuration)
 

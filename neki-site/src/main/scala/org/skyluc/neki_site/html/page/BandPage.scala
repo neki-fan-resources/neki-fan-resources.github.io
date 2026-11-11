@@ -1,6 +1,6 @@
 package org.skyluc.neki_site.html.page
 
-import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.html.*
 import org.skyluc.neki_site.data.Member
@@ -63,10 +63,10 @@ class BandPage(site: Site) extends MainSitePage {
   private def bandPanel2(): Div = {
     val members =
       Seq(
-        memberDivs2("kanade", site.band.member.kanade),
-        memberDivs2("hika", site.band.member.hika),
-        memberDivs2("cocoro", site.band.member.cocoro),
-        memberDivs2("natsu", site.band.member.natsu),
+        memberDivs2("kanade", site.band.members.kanade),
+        memberDivs2("hika", site.band.members.hika),
+        memberDivs2("cocoro", site.band.members.cocoro),
+        memberDivs2("natsu", site.band.members.natsu),
       ).flatten
     val central =
       div()

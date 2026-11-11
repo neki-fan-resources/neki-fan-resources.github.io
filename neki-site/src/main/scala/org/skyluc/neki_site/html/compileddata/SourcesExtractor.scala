@@ -24,7 +24,7 @@ class SourcesExtractor(generator: fr.compileddata.CompiledDataGenerator)
     sources.map { s => DatumEntry(compiledData, s) }
   }
 
-  override def processMultiMediaEvent(multimediaEvent: MultiMediaEvent): Seq[DatumEntry] = Nil
+  override def processMultimediaEvent(multimediaEvent: MultimediaEvent): Seq[DatumEntry] = Nil
 
   override def processAlbum(album: Album): Seq[DatumEntry] = {
     val sources = sourcesForElement(album, generator)
@@ -67,16 +67,14 @@ class SourcesExtractor(generator: fr.compileddata.CompiledDataGenerator)
   }
 
   override def processSong(song: Song): Seq[DatumEntry] = {
-    if (song.id.dark) {
-      Nil
-    } else {
-      val sources = sourcesForElement(song, generator)
-        ++ song.lyrics.flatMap(lyricsId => sourcesFromLyrics(generator.get(lyricsId)))
+    val sources = song.lyricist.flatMap(_.source).map(toSourceEntry(_, "lyricist")) // TODO: put in a constant
+      ++ song.composer.flatMap(_.source).map(toSourceEntry(_, "composer")) // TODO: put in a constant
+      ++ sourcesForElement(song, generator)
+      ++ song.lyrics.flatMap(lyricsId => sourcesFromLyrics(generator.get(lyricsId)))
 
-      val compiledData = generator.getElementCompiledData(song)
+    val compiledData = generator.getElementCompiledData(song)
 
-      sources.map { s => DatumEntry(compiledData, s) }
-    }
+    sources.toSeq.map { s => DatumEntry(compiledData, s) }
 
   }
 
@@ -102,18 +100,14 @@ object SourcesExtractor {
   }
 
   private def sourcesForElement(
-      element: Element[?],
+      element: Element[?, ?, ?],
       generator: fr.compileddata.CompiledDataGenerator,
   ): Seq[SourceEntry] = {
-    val attributeSources = element.attributes.infoAttributes.flatMap { attribute =>
-      attribute.source.map(s => toSourceEntry(s, attribute.definition.label))
-    }
-
     val coverCompiledData = generator.getMultimediaCompiledData(element.coverImage)
     val coverSource =
       SourceEntry("cover image", coverCompiledData.sourceDescription, Some(coverCompiledData.targetUrl))
 
-    attributeSources :+ coverSource
+    Seq(coverSource)
   }
 
   val CREDITS_LABEL = "credits"
@@ -130,7 +124,7 @@ object SourcesExtractor {
       source: SourceEntry,
   )
 
-  def getAll(elements: Seq[Element[?]], generator: fr.compileddata.CompiledDataGenerator): Seq[SourceCategory] = {
+  def getAll(elements: Seq[Element[?, ?, ?]], generator: fr.compileddata.CompiledDataGenerator): Seq[SourceCategory] = {
 
     val processor = new SourcesExtractor(generator)
 

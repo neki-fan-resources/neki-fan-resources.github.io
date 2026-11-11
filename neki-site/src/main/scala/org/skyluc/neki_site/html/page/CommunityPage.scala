@@ -1,10 +1,9 @@
 package org.skyluc.neki_site.html.page
 
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.data as d
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.html.*
-
-import d.Path
 
 class CommunityPage(sections: Seq[fr.component.ContentSection]) extends MainSitePage {
 
@@ -86,7 +85,7 @@ object CommunityPage {
     val element = generator.get(communityId)
 
     val subsectionGenerator =
-      fr.compileddata.ContentCompiledDataGenerator.SubsectionGenerator(element, element.id.path, generator)
+      fr.compileddata.ContentCompiledDataGenerator.SubsectionGenerator(element.id.path, generator)
     val sectionGenerator = fr.compileddata.ContentCompiledDataGenerator.SectionGenerator(
       element,
       element.id.path,

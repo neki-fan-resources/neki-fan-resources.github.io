@@ -1,6 +1,6 @@
 package org.skyluc.neki_site.html.page
 
-import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.html.*
 

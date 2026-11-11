@@ -23,16 +23,16 @@ contentpage:
   isWithSubsMarker:
   - album
   isLeftMarker:
-  - audiomedia
+  - mediaaudio
   - event
   - show
   - tour
-  - videomedia
-  - writtenmedia
+  - mediavideo
+  - mediawritten
   isAltColorMarker:
-  - audiomedia
-  - videomedia
-  - writtenmedia
+  - mediaaudio
+  - mediavideo
+  - mediawritten
   content: []
   sections:
   - id: 4thyear

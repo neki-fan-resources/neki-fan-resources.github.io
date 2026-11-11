@@ -1,24 +1,18 @@
 package org.skyluc.neki_site.data
 
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.data as fr
 import org.skyluc.fan_resources.data.checks.DataCheck
 import org.skyluc.neki_site.data.checks.LocalAssetExistsChecker
 import org.skyluc.neki_site.data.checks.LocalAssetExistsChecker2
 import org.skyluc.neki_site.data.checks.ReferencesChecker
-import org.skyluc.neki_site.yaml.DataYamlWriterBuilder
-import org.skyluc.neki_site.yaml.NekiSiteDecoders
-import org.skyluc.reference.html.edit.EditSupportContext
-
-import fr.Path
 
 object Data {
-
-  val decoders = NekiSiteDecoders
 
   val dispatcherBuilder = new fr.op.DataDispatcherBuilder {
 
     override def build(dataBuilder: fr.op.DataProcessor): fr.op.DataDispatcher =
-      op.DataDispatcher(dataBuilder)
+      org.skyluc.neki_site.data.op.DataDispatcher(dataBuilder)
 
   }
 
@@ -31,9 +25,5 @@ object Data {
     ReferencesChecker,
     LocalAssetExistsChecker2(staticFolderPath, staticFolderPath2),
   )
-
-  val editSupportContext = new EditSupportContext() with NekiDataContext {}
-
-  val yamlWriterBuilder = DataYamlWriterBuilder
 
 }

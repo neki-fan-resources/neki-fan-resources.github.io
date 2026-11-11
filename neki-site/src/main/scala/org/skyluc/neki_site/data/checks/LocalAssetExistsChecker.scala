@@ -1,6 +1,6 @@
 package org.skyluc.neki_site.data.checks
 
-import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.data.checks as fr
 import org.skyluc.fan_resources.data.checks.CheckError
 import org.skyluc.fan_resources.data.checks.LocalAssetExistsChecker

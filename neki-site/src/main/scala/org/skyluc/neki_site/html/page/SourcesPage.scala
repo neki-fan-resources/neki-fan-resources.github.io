@@ -1,8 +1,8 @@
 package org.skyluc.neki_site.html.page
 
 import org.skyluc.fan_resources.Common
-import org.skyluc.fan_resources.data.Data
-import org.skyluc.fan_resources.data.Path
+import org.skyluc.fan_resources.base.Path
+import org.skyluc.fan_resources.data.DataView
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.html.*
 import org.skyluc.neki_site.html.*
@@ -87,9 +87,9 @@ object SourcesPage {
   private val CLASS_SOURCES_ENTRY = "sources-entry"
   private val CLASS_SOURCES_ENTRY_LABEL = "sources-entry-label"
 
-  def pagesFor(data: Data, generator: fr.compileddata.CompiledDataGenerator): Seq[fr.page.MainSitePage] = {
+  def pagesFor(data: DataView, generator: fr.compileddata.CompiledDataGenerator): Seq[fr.page.MainSitePage] = {
 
-    val sources = compileddata.SourcesExtractor.getAll(data.elements.view.values.toSeq, generator)
+    val sources = compileddata.SourcesExtractor.getAll(data.getElements(), generator)
     Seq(
       SourcesPage(sources)
     )

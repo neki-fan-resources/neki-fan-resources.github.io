@@ -13,9 +13,9 @@ categoriespage:
   withlinks: true
   compressed: true
   isSmallMarker:
-  - audiomedia
-  - writtenmedia
-  - videomedia
+  - mediaaudio
+  - mediawritten
+  - mediavideo
   isMediumMarker:
   - mediummedia
   isLargeMarker:

@@ -1,7 +1,7 @@
 package org.skyluc.neki_site.data.checks
 
 import org.skyluc.fan_resources.data.checks as fr
-import org.skyluc.fan_resources.yaml.Backup
+import org.skyluc.fan_resources.backup.Backup
 
 object CheckBackupExistsBuilder extends fr.CheckBackupExistsBuilder {
 

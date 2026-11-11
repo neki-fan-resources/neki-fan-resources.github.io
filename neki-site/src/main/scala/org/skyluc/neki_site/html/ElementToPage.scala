@@ -1,30 +1,30 @@
 package org.skyluc.neki_site.html
 
 import org.skyluc.fan_resources.MainSiteConfiguration
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.data as d
 import org.skyluc.fan_resources.html as fr
 import org.skyluc.neki_site.Config
 import org.skyluc.neki_site.data.ProcessorElement
-import org.skyluc.neki_site.data.Site
+import org.skyluc.neki_site.data.SiteId
 import org.skyluc.neki_site.html.page.MainSitePage
 import org.skyluc.neki_site.html.page.MainSitePageBuilder
 
-import d.Path
 import fr.page.PostXImagePage
 
 object ElementToPage {
   val NO_PAGES = Seq[MainSitePage]()
 
-  def generate(data: d.Data, configuration: MainSiteConfiguration): Seq[fr.page.Page] = {
+  def generate(data: d.DataView, configuration: MainSiteConfiguration): Seq[fr.page.Page] = {
 
     val cssPages = generateCssPages(configuration)
 
     val generator = fr.compileddata.CompiledDataGenerator(data, compileddata.CompiledDataGeneratorProcessorsBuilder)
 
     val processor = Processor(generator)
-    val elementPages = data.elements.view.values.flatMap(_.process(processor)).toSeq
+    val elementPages = data.getElements().flatMap(_.process(processor)).toSeq
 
-    val site = data.get(Site.ID)
+    val site = data.getDatum(SiteId.ID)
 
     val singlePages = Seq(
       page.AboutPage
@@ -115,7 +115,7 @@ object ElementToPage {
     override def processMediaWritten(mediaWritten: d.MediaWritten): Seq[fr.page.MainSitePage] =
       fr.page.element.MediaBlockPages(mediaWritten).build(page.ElementContentPageBuilder, generator)
 
-    override def processMultiMediaEvent(multimediaEvent: d.MultiMediaEvent): Seq[fr.page.MainSitePage] = Nil
+    override def processMultimediaEvent(multimediaEvent: d.MultimediaEvent): Seq[fr.page.MainSitePage] = Nil
 
     override def processShow(show: d.Show): Seq[fr.page.MainSitePage] =
       fr.page.element.ShowBlockPages(show).build(page.ElementContentPageBuilder, generator)

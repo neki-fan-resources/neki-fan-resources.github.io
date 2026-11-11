@@ -2,15 +2,16 @@ package org.skyluc.neki_site
 
 import org.skyluc.fan_resources as fr
 import org.skyluc.neki_site.data as d
-import org.skyluc.neki_site.yaml.NekiSiteDecoders
+import org.skyluc.neki_site.data.ExtendedDatum
 
-import fr.data.Path
+import fr.base.Path
+import fr.descriptor.ChoiceCategoryRepository
 
 class MainSiteConfiguration(override val rootFolder: Path) extends fr.MainSiteConfiguration {
 
   import MainSiteConfiguration.*
 
-  override val decoders: fr.yaml.FrDecoders = NekiSiteDecoders
+  override val categoryRepository: ChoiceCategoryRepository = ExtendedDatum.categoryRepository
 
   override val dispatcherBuilder: fr.data.op.DataDispatcherBuilder = DispatcherBuilder
 

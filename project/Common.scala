@@ -5,7 +5,7 @@ object Common {
 
   lazy val buildSettings = Seq(
     organization := "org.skyluc",
-    scalaVersion := "3.6.4",
+    scalaVersion := "3.9.0",
     scalacOptions ++= Seq("-deprecation", "-Wunused:implicits,explicits,imports,locals,params,privates"),
   )
 

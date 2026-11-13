@@ -1,3 +1,326 @@
+- display:
+    show:
+      year: 2026
+      id: bmbudokan1
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: At the show
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2121245335213453318
+                    image: HXAtYrlaEAAXdCl
+                - postximage:
+                    post: 2121238975709114492
+                    image: HXAmWQ1agAAiyGa
+        - basicsection:
+            label: At the event
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2121212424011526233
+                    image: HXAPDkhbUAAo7Br
+    - basicblock:
+        id: merch
+        label: Merch
+        sections:
+        - basicsection:
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2120749824802980069
+                    image: HW5jRCoboAAjYwF
+                - postximage:
+                    post: 2120749824802980069
+                    image: HW5jRCobIAAKqun
+                - postximage:
+                    post: 2120749824802980069
+                    image: HW5jSj1akAAcfTz
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
+- postx:
+    id: 2120749824802980069
+    account: nekiband_jp
+    label: Performance times, Merch
+    published-date: 2026-11-12
+    text: |-
+      ◤◢ ⚡ 日本武道館2DAYS ⚡ ◤◢
+      
+      「BAND-MAID WORLD TOUR 2026 FINAL」
+      📍東京・日本武道館
+      @bandmaid
+      
+       
+      オープニングアクトとして
+      NEK!が出演させていただきます🔥
+      
+      < 出演時間 >
+      ✔️11/13(金)
+      16:30開場、17:15~ 出演
+      
+      ✔️11/14(土)
+      15:30開場、16:15~ 出演
+      
+      2日間、どうぞよろしくお願いいたします❤️‍🔥
+      
+      🔗https://neki.bitfan.id/contents/417173
+      
+      #bandmaid 
+      #NEKI
+    translation: |-
+      ◤◢ ⚡ Nippon Budokan 2 DAYS ⚡ ◤◢
+      
+      "BAND-MAID WORLD TOUR 2026 FINAL"
+      📍Tokyo, Nippon Budokan
+      @bandmaid
+      
+       
+      NEK! will be performing
+      as the opening act 🔥
+      
+      < Performance Times >
+      ✔️11/13 (Fri)
+      Doors open 16:30, Performance 17:15~
+      
+      ✔️11/14 (Sat)
+      Doors open 15:30, Performance 16:15~
+      
+      Thank you so much for your support over these 2 days ❤️‍🔥
+      
+      🔗https://neki.bitfan.id/contents/417173
+      
+      #bandmaid 
+      #NEKI
+    image:
+    - HW5jRCobIAAKqun
+    - HW5jRCoboAAjYwF
+    - HW5jSj1akAAcfTz
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+    reference:
+    - webimage:
+        domain: neki.bitfan.id
+        page: 417173
+        id: poster2
+
+- postx:
+    id: 2121121104400125961
+    account: nekiband_jp
+    label: Today
+    published-date: 2026-11-13
+    text: |-
+      【TODAY🔥】
+      
+      「BAND-MAID WORLD TOUR 2026 FINAL」
+      📍東京・日本武道館
+       
+      本日DAY1⚡️
+      出演させていただきます！
+      
+      < オープニングアクト出演時間 >
+      11/13(金) 16:30開場、17:15~ 出演
+      
+      🔗https://neki.bitfan.id/contents/417173
+      
+      #bandmaid 
+      #NEKI
+    translation: |-
+      【TODAY 🔥】
+      
+      "BAND-MAID WORLD TOUR 2026 FINAL"
+      📍Tokyo, Nippon Budokan
+       
+      Today is DAY 1 ⚡️
+      We will be performing!
+      
+      < Opening Act Performance Time >
+      11/13 (Fri) Doors open 16:30, Performance 17:15~
+      
+      🔗https://neki.bitfan.id/contents/417173
+      
+      #bandmaid 
+      #NEKI
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+    reference:
+    - webimage:
+        domain: neki.bitfan.id
+        page: 417173
+        id: poster2
+
+- postx:
+    id: 2121212424011526233
+    account: nekiband_jp
+    label: NEK! will be standing by at the merch sales entrance
+    published-date: 2026-11-13
+    text: |-
+      グッズ販売入口(中道場)にて
+      終演後NEK!立たせていただいております🫶✨
+      #NEKI
+    translation: |-
+      After the show, NEK! will be standing by at the merch sales entrance (Chudojo) 🫶✨
+      #NEKI
+    image:
+    - HXAPDkhbUAAo7Br
+    part-of:
+      postx: 2121121104400125961
+
+- postx:
+    id: 2121238975709114492
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-11-13
+    text: |-
+      2026/11/13(金) 📍日本武道館
+      BAND-MAID WORLD TOUR 2026 FINAL
+      
+      オープニングアクト出演させていただきました⚡️
+      ありがとうございました！
+      
+      NEXT▶︎ 11/14 NIPPON BUDOKAN
+      
+      photo by MASANORI FUJIKAWA
+      
+      #bandmaid
+      #NEKI
+      #日本武道館
+    translation: |-
+      2026/11/13 (Fri) 📍Nippon Budokan
+      BAND-MAID WORLD TOUR 2026 FINAL
+      
+      We performed as the opening act ⚡️
+      Thank you very much!
+      
+      NEXT▶︎ 11/14 NIPPON BUDOKAN
+      
+      photo by MASANORI FUJIKAWA
+      
+      #bandmaid
+      #NEKI
+      #NipponBudokan
+    image:
+    - HXAmWQ1agAAiyGa
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
+- postx:
+    id: 2121245335213453318
+    account: coco_102
+    label: Thank you
+    published-date: 2026-11-13
+    text: |-
+      BAND-MAID WORLD TOUR 2026 FINAL
+      オープニングアクト務めさせていただきました！！
+      早めに来て私たちのライブを観てくださった皆様本当にありがとうございました！
+      皆さんの暖かい声援や拍手に心がポカポカしました🥲
+      
+      明日も気合い入れて頑張ります！！
+      
+      photo by MASANORI FUJIKAWA
+    translation: |-
+      BAND-MAID WORLD TOUR 2026 FINAL
+      We had the honor of serving as the opening act!!
+      Thank you so much to everyone who arrived early to watch our live performance!
+      Everyone's warm cheers and applause made my heart feel all warm and fuzzy 🥲
+      
+      Tomorrow too, I'll stay fired up and give it my all!!
+      
+      photo by MASANORI FUJIKAWA
+    image:
+    - HXAtYrlaEAAXdCl
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
+- postximage:
+    post: 2120749824802980069
+    id: HW5jRCobIAAKqun
+    index: 3
+    label: Merch lottery
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2120749824802980069
+
+- postximage:
+    post: 2120749824802980069
+    id: HW5jRCoboAAjYwF
+    index: 2
+    label: Merch
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2120749824802980069
+
+- postximage:
+    post: 2120749824802980069
+    id: HW5jSj1akAAcfTz
+    index: 4
+    label: EP bonus
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2120749824802980069
+
+- postximage:
+    post: 2121212424011526233
+    id: HXAPDkhbUAAo7Br
+    index: 1
+    label: At the venue
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121212424011526233
+
+- postximage:
+    post: 2121238975709114492
+    id: HXAmWQ1agAAiyGa
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121238975709114492
+
+- postximage:
+    post: 2121245335213453318
+    id: HXAtYrlaEAAXdCl
+    index: 1
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121245335213453318
+
 - update:
     show:
       year: 2026
@@ -5,6 +328,18 @@
     date: 2026-07-30
     text:
     - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
+- update:
+    show:
+      year: 2026
+      id: bmbudokan1
+    date: 2026-11-13
+    text:
+    - A few images from the show
     part-of:
       show:
         year: 2026

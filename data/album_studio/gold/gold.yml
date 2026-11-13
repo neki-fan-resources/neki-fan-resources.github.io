@@ -1,0 +1,21 @@
+song:
+  id: gold
+  cover-image:
+    postximage:
+      post: 2121243274786770959
+      image: HXArRNyaUAAAcOX
+  fullname: GOLD
+  release-date: 2026-12-16
+  description:
+  - The song was teased in the week leading to the BAND-MAID budokan shows.
+  - It was premiered at the BAND-MAID budokan shows.
+  lyricist:
+    value: SAIKI (BAND-MAID)
+    source:
+      description: provisional - band member's SNS
+  composer:
+    value: KANAMI (BAND-MAID)
+    source:
+      description: provisional - band member's SNS
+  part-of:
+    group: album_studio

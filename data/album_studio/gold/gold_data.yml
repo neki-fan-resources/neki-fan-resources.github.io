@@ -1,0 +1,199 @@
+- display:
+    song: gold
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            label: Song teasers
+            subsections:
+            - multimediasubsection:
+                multimedia:
+                - postxvideo:
+                    post: 2118539735652274319
+                    video: 1
+                - postxvideo:
+                    post: 2120441574811398207
+                    video: 1
+    part-of:
+      song: gold
+
+- postx:
+    id: 2118539735652274319
+    account: nekiband_jp
+    label: MAKING VIDEO part 1
+    published-date: 2026-11-06
+    text: |-
+      BAND-MAID WORLD TOUR 2026 FINAL
+      @ 東京・日本武道館
+      
+      オープニングアクト出演時間決定！
+      
+      ■11/13(金)
+      16:30開場, 17:15~出演
+      
+      ■11/14(土)
+      15:30開場, 16:15~出演
+      
+      さらにBAND-MAIDさんとの出会いから始まる
+      MAKING VIDEO 第一弾を解禁⚡️
+      
+      NEXT VIDEO▶ coming soon...
+    translation: |-
+      BAND-MAID WORLD TOUR 2026 FINAL
+      @ Tokyo, Nippon Budokan
+      
+      Opening act performance times announced!
+      
+      ■11/13 (Fri)
+      Doors open 16:30, Performance 17:15~
+      
+      ■11/14 (Sat)
+      Doors open 15:30, Performance 16:15~
+      
+      Plus, starting from our first encounter with BAND-MAID,
+      Part 1 of the MAKING VIDEO is out now ⚡️
+      
+      NEXT VIDEO▶ coming soon...
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2118539735652274319
+        video: 1
+
+- postx:
+    id: 2120441574811398207
+    account: nekiband_jp
+    label: MAKING VIDEO part 2
+    published-date: 2026-11-11
+    text: |-
+      BAND-MAID WORLD TOUR 2026 FINAL
+      @ 東京・日本武道館
+      
+      MAKING VIDEO 第二弾を解禁⚡️
+      
+      いよいよ明後日より2日間
+      オープニングアクトとして出演させていただきます！
+      
+      NEXT▶ 
+      11/13 & 11/14 Nippon Budokan
+    translation: |-
+      BAND-MAID WORLD TOUR 2026 FINAL
+      @ Tokyo, Nippon Budokan
+      
+      Part 2 of the MAKING VIDEO is out now ⚡️
+      
+      Starting the day after tomorrow, for 2 days,
+      we will finally be performing as the opening act!
+      
+      NEXT▶ 
+      11/13 & 11/14 Nippon Budokan
+    video:
+    - 1
+    part-of:
+      postxvideo:
+        post: 2120441574811398207
+        video: 1
+
+- postx:
+    id: 2121243274786770959
+    account: nekiband_jp
+    label: Release announcement
+    published-date: 2026-11-13
+    text: |-
+      ⚡️🎧 RELEASE 🎧⚡️
+      
+      12/16(水)0時より
+      Digital Single「GOLD」リリース決定🎉
+      
+      Music: KANAMI (BAND-MAID)
+      Lyrics: SAIKI (BAND-MAID)
+      Arrangement: KANAMI (BAND-MAID), NEK!
+      
+      ▼Pre-add / Pre-save
+      https://lnk.to/NEKI_GOLDPR
+      
+      #NEKI
+    translation: |-
+      ⚡️🎧 RELEASE 🎧⚡️
+      
+      Starting 12/16 (Wed) at 0:00
+      Digital Single "GOLD" Release Announced 🎉
+      
+      Music: KANAMI (BAND-MAID)
+      Lyrics: SAIKI (BAND-MAID)
+      Arrangement: KANAMI (BAND-MAID), NEK!
+      
+      ▼Pre-add / Pre-save
+      https://lnk.to/NEKI_GOLDPR
+      
+      #NEKI
+    image:
+    - HXArRNyaUAAAcOX
+    part-of:
+      song: gold
+
+- postximage:
+    post: 2121243274786770959
+    id: HXArRNyaUAAAcOX
+    index: 1
+    label: Cover
+    local-copy: true
+    context:
+    - song: gold
+    part-of:
+      postx: 2121243274786770959
+
+- postxvideo:
+    post: 2118539735652274319
+    id: 1
+    label: Bands meeting
+    info: NEK!, BAND-MAID
+    cover: 2118539615078592512/img/EKduFnptD-SVRA45.jpg
+    context:
+    - song: gold
+    part-of:
+      song: gold
+
+- postxvideo:
+    post: 2120441574811398207
+    id: 1
+    label: Recording
+    info: NEK!, BAND-MAID
+    cover: 2120439871341010944/img/v2CIUFRM8Mlmsdg0.jpg
+    context:
+    - song: gold
+    part-of:
+      song: gold
+
+- update:
+    song: gold
+    date: 2026-11-13
+    text:
+    - Added the song
+    part-of:
+      song: gold
+
+- youtubeshort:
+    id: j3pXBdDAbfg
+    label: Recording
+    info: NEK!, BAND-MAID
+    published-date: 2026-11-11
+    context:
+    - song: gold
+    part-of:
+      song: gold
+
+- youtubeshort:
+    id: y21TRTPAo8A
+    label: Bands meeting
+    info: NEK!, BAND-MAID
+    published-date: 2026-11-06
+    context:
+    - song: gold
+    todo: better location for this video ?
+    part-of:
+      song: gold
+

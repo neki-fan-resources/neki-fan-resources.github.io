@@ -54,8 +54,8 @@
                 lines:
                 - line:
                   - text: The translation was done using Google Gemini, with continuous additional inputs for accuracy.
-                  - newline: ''
-                  - newline: ''
+                  - newline: '-'
+                  - newline: '-'
         - basicsection:
             subsections:
             - interviewsubsection:

@@ -84,9 +84,9 @@
                 lines:
                 - line:
                   - text: The translation was done using Google Gemini, with continuous additional inputs for accuracy.
-                  - newline: ''
-                  - newline: ''
-                  - newline: ''
+                  - newline: '-'
+                  - newline: '-'
+                  - newline: '-'
             - interviewsubsection:
                 lines:
                 - text: '初のコラム連載「NEK!の #ネキ史」第3回を担当します！NEK!のVo.Gt.Hikaです！<br>前回のNatsuに続いて、今回はHikaの音楽ルーツやNEK!メンバーとの出会いなどお話ししていこうと思います！'

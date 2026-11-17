@@ -115,6 +115,13 @@
         - ' '
         - まわってく
         - ループループ
+        ro:
+        - shikō
+        - wa
+        - merīgōrando
+        - ''
+        - mawatteku
+        - rūpurūpu
         ww:
         - w: thought
           d: 思考
@@ -130,13 +137,6 @@
         - d: 思考はメリーゴーランド まわってくループループ
         en:
         - Thoughts spin like a merry-go-round, Round and round-loop loop bound
-        ro:
-        - shikō
-        - wa
-        - merīgōrando
-        - ''
-        - mawatteku
-        - rūpurūpu
         gg:
         - My thoughts are on a carousel, going round and round
       - ol:
@@ -147,6 +147,12 @@
         - の
         - 世界
         - で
+        ro:
+        - kakō
+        - darake
+        - no
+        - sekai
+        - de
         ww:
         - w: processing
           d: 加工
@@ -161,12 +167,6 @@
         - d: 加工だらけの世界で
         en:
         - In a world wrapped up in filters
-        ro:
-        - kakō
-        - darake
-        - no
-        - sekai
-        - de
         gg:
         - In this world so fake
     - lines:

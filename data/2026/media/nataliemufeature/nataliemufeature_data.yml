@@ -15,11 +15,11 @@
                   - text: The feature interview was published alongside the release of NEK!'s major debut single "FLiCK". As their first interview on Music Natalie, the article covers the band's origins, as well as their current activities.
                 - line:
                   - text: The interview begins with the members discussing their lives before NEK!, and their music roots. They explain how meeting through social media shaped the identity of the band.
-                  - newline: ''
+                  - newline: '-'
                   - text: Next, they talk about the valuable experience and unity they gained during their first national tour.
-                  - newline: ''
+                  - newline: '-'
                   - text: The band then breaks down the creative process and the message behind "FLiCK".
-                  - newline: ''
+                  - newline: '-'
                   - text: Finally, the interview concludes with their short and mid-term goals.
         - basicsection:
             label: Photos
@@ -87,8 +87,8 @@
                 lines:
                 - line:
                   - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
-                  - newline: ''
-                  - newline: ''
+                  - newline: '-'
+                  - newline: '-'
             - interviewsubsection:
                 lines:
                 - text: ネット発の若手技巧派ガールズバンド・NEK!（ネキ）が、6月10日にメジャーデビューシングル「FLiCK」をポニーキャニオンから配信リリースした。

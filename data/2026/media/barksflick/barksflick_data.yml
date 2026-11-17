@@ -13,9 +13,9 @@
                 lines:
                 - line:
                   - text: In the interview, each band member touches on their activities around the time NEK! was formed.
-                  - newline: ''
+                  - newline: '-'
                   - text: Then they discuss the message contained in "FLiCK", as well as the details of the song's sound.
-                  - newline: ''
+                  - newline: '-'
                   - text: The interview concludes with the members' plans and ambitions to continue to improve the band.
     - basicblock:
         id: translation
@@ -27,8 +27,8 @@
                 lines:
                 - line:
                   - text: The translation was done using Google Gemini, with continuous interaction to check accuracy.
-                  - newline: ''
-                  - newline: ''
+                  - newline: '-'
+                  - newline: '-'
             - interviewsubsection:
                 lines:
                 - text: 2025年8月に結成から1年半で初のZeppワンマンをソールドせ、アウトさ11月には1stフルアルバム『MEME』をリリース、2026年2月からは初の全国ツアーを行った4人組ガールズバンド・NEK!が、6月10日にデジタルシングル「FLiCK」でメジャーデビューを果たす。

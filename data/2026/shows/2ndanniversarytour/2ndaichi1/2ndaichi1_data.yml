@@ -14,7 +14,7 @@
                 lines:
                 - line:
                   - text: 'Additional photos are available in the Fan Club:'
-                  - newline: ''
+                  - newline: '-'
                   - text: '- '
                   - webitem:
                       webpage:

@@ -2,11 +2,11 @@ package org.skyluc.neki_site.data
 
 import org.skyluc.fan_resources.BaseError
 import org.skyluc.fan_resources.SimpleError
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.data as fr
 import org.skyluc.fan_resources.descriptor.*
 
 import DescriptorProcessor.Context
-import org.skyluc.fan_resources.base.Path
 
 class SiteId extends fr.Id[Site, SiteId, SiteId.SiteIdBuilder] {
 
@@ -83,26 +83,27 @@ object Site {
 
   }
 
-  val descriptor = fr.Datum.DescriptorDatum[Site, SiteBuilder](
-    TYPEID,
-    Seq(
-      ItemDescriptorAttribute(
-        Keys.NAVIGATION,
-        Navigation.descriptor,
-        (i) => i.navigation,
-        (b, v) => b.copy(navigation = Some(v)),
-      ),
-      ItemDescriptorAttribute(
-        Keys.BAND,
-        Band.descriptor,
-        (i) => i.band,
-        (b, v) => b.copy(band = Some(v)),
-      ),
-    ),
-    Seq(),
-    Seq(),
-    () => SiteBuilder(),
-  )
+  val descriptor = new fr.Datum.DescriptorDatum[Site, SiteBuilder] {
+    override def attributes: Seq[DescriptorAttribute[Site, SiteBuilder, ?, ?]] =
+      Seq[DescriptorAttribute[Site, SiteBuilder, ?, ?]](
+        ItemDescriptorAttribute(
+          Keys.BAND,
+          Band.descriptor,
+          (i) => i.band,
+          (b, v) => b.copy(band = Some(v)),
+        ),
+        ItemDescriptorAttribute(
+          Keys.NAVIGATION,
+          Navigation.descriptor,
+          (i) => i.navigation,
+          (b, v) => b.copy(navigation = Some(v)),
+        ),
+      ) ++ attributesDatum
+
+    override val typeId: String = TYPEID
+
+    override val zero = () => SiteBuilder()
+  }
 }
 
 // =====================
@@ -144,16 +145,16 @@ object Band {
     TYPEID,
     Seq(
       ItemDescriptorAttribute(
-        fr.Keys.MEMBER,
-        Members.descriptor,
-        (i) => i.members,
-        (b, v) => b.copy(members = Some(v)),
-      ),
-      ItemDescriptorAttribute(
         Keys.SOCIAL_MEDIA,
         SocialMedia.descriptor,
         (i) => i.socialMedia,
         (b, v) => b.copy(socialMedia = Some(v)),
+      ),
+      ItemDescriptorAttribute(
+        fr.Keys.MEMBER,
+        Members.descriptor,
+        (i) => i.members,
+        (b, v) => b.copy(members = Some(v)),
       ),
     ),
     () => BandBuilder(),
@@ -273,16 +274,16 @@ object Members {
     TYPEID,
     Seq(
       ItemDescriptorAttribute(
-        Keys.COCORO,
-        Member.descriptor,
-        (i) => i.cocoro,
-        (b, v) => b.copy(cocoro = Some(v)),
-      ),
-      ItemDescriptorAttribute(
         Keys.HIKA,
         Member.descriptor,
         (i) => i.hika,
         (b, v) => b.copy(hika = Some(v)),
+      ),
+      ItemDescriptorAttribute(
+        Keys.NATSU,
+        Member.descriptor,
+        (i) => i.natsu,
+        (b, v) => b.copy(natsu = Some(v)),
       ),
       ItemDescriptorAttribute(
         Keys.KANADE,
@@ -291,10 +292,10 @@ object Members {
         (b, v) => b.copy(kanade = Some(v)),
       ),
       ItemDescriptorAttribute(
-        Keys.NATSU,
+        Keys.COCORO,
         Member.descriptor,
-        (i) => i.natsu,
-        (b, v) => b.copy(natsu = Some(v)),
+        (i) => i.cocoro,
+        (b, v) => b.copy(cocoro = Some(v)),
       ),
     ),
     () => MembersBuilder(),
@@ -451,16 +452,6 @@ object SocialMedia {
     TYPEID,
     Seq(
       OptionStringDescriptorAttribute(
-        Keys.INSTAGRAM,
-        (i) => i.instagram,
-        (b, v) => b.copy(instagram = Some(v)),
-      ),
-      OptionStringDescriptorAttribute(
-        Keys.TIKTOK,
-        (i) => i.tiktok,
-        (b, v) => b.copy(tiktok = Some(v)),
-      ),
-      OptionStringDescriptorAttribute(
         Keys.YOUTUBE,
         (i) => i.youtube,
         (b, v) => b.copy(youtube = Some(v)),
@@ -469,6 +460,16 @@ object SocialMedia {
         Keys.X,
         (i) => i.x,
         (b, v) => b.copy(x = Some(v)),
+      ),
+      OptionStringDescriptorAttribute(
+        Keys.INSTAGRAM,
+        (i) => i.instagram,
+        (b, v) => b.copy(instagram = Some(v)),
+      ),
+      OptionStringDescriptorAttribute(
+        Keys.TIKTOK,
+        (i) => i.tiktok,
+        (b, v) => b.copy(tiktok = Some(v)),
       ),
     ),
     () => SocialMediaBuilder(),

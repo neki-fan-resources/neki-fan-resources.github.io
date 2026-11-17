@@ -146,6 +146,10 @@
         - お涙頂戴
         - で
         - イイね
+        ro:
+        - onamidachōdai
+        - de
+        - iine
         ww:
         - w: tearjerker
           d: お涙頂戴
@@ -156,10 +160,6 @@
         - d: お涙頂戴でイイね
         en:
         - Crocodile Tears? Sure, I'll Take a Like
-        ro:
-        - onamidachōdai
-        - de
-        - iine
         gg:
         - Playing the victim is good, right?
       - ol:
@@ -167,6 +167,11 @@
         - たれりゃ
         - 万事
         - オッケー
+        ro:
+        - kōbe
+        - tarerya
+        - banji
+        - okkē
         ww:
         - w: head
           d: こうべ
@@ -179,11 +184,6 @@
         - d: こうべたれりゃ万事オッケー
         en:
         - Bow your head, and everything's all right
-        ro:
-        - kōbe
-        - tarerya
-        - banji
-        - okkē
         gg:
         - If you just apologize, everything's okay.
       - ol:
@@ -191,6 +191,11 @@
         - じゃ
         - 相当
         - 言ってる
+        ro:
+        - urāka
+        - ja
+        - sōtō
+        - itteru
         ww:
         - w: secret account
           d: 裏垢
@@ -203,11 +208,6 @@
         - d: 裏垢じゃ相当言ってる
         en:
         - Behind your burner account, you’re talkin’ mad
-        ro:
-        - urāka
-        - ja
-        - sōtō
-        - itteru
         gg:
         - But on their private accounts, they're saying a lot –
       - ol:
@@ -219,6 +219,15 @@
         - ' '
         - 人格
         - 」
+        ro:
+        - "'"
+        - maji
+        - '?'
+        - utagau
+        - wa
+        - ''
+        - jinkaku
+        - "'"
         ww:
         - "'"
         - w: seriously
@@ -235,15 +244,6 @@
         - d: 「マジ？疑うわ 人格」
         en:
         - Seriously? That’s messed up—who even are you?
-        ro:
-        - "'"
-        - maji
-        - '?'
-        - utagau
-        - wa
-        - ''
-        - jinkaku
-        - "'"
         gg:
         - "'Seriously? I doubt their character!'"
     - lines:
@@ -253,6 +253,12 @@
         - ' '
         - どこか
         - 見てる
+        ro:
+        - dareka
+        - miteru
+        - ''
+        - dokoka
+        - miteru
         ww:
         - w: someone
           d: 誰か
@@ -266,12 +272,6 @@
         - d: 誰か見てる どこか見てる
         en:
         - Someone’s watching, somewhere, always
-        ro:
-        - dareka
-        - miteru
-        - ''
-        - dokoka
-        - miteru
         gg:
         - Someone is watching, somewhere is watching.
       - ol:
@@ -279,6 +279,11 @@
         - 逃げ場所
         - ' '
         - NO
+        ro:
+        - mohaya
+        - nibebasho
+        - ''
+        - ''
         ww:
         - w: no longer
           d: もはや
@@ -289,17 +294,16 @@
         - d: もはや逃げ場所 NO
         en:
         - Nowhere left to run or hide
-        ro:
-        - mohaya
-        - nibebasho
-        - ''
-        - ''
         gg:
         - There's no escape anymore, NO.
       - ol:
         - だから と 言って
         - 真っ白
         - で
+        ro:
+        - dakara to itte
+        - masshiro
+        - de
         ww:
         - w: nevertheless
           d: だから と 言って
@@ -310,10 +314,6 @@
         - d: だからと言って真っ白で
         en:
         - Still, no one’s human enough
-        ro:
-        - dakara to itte
-        - masshiro
-        - de
         gg:
         - But even so, humanity
       - ol:
@@ -323,6 +323,13 @@
         - できてない
         - や
         - 嫌嫌
+        ro:
+        - ireru
+        - hodo
+        - jinrui
+        - dekitenai
+        - ya
+        - iyaiya
         ww:
         - w: be
           d: いれる
@@ -339,13 +346,6 @@
         - d: いれるほど人類できてないや嫌嫌
         en:
         - To stay pure white, no way, no how
-        ro:
-        - ireru
-        - hodo
-        - jinrui
-        - dekitenai
-        - ya
-        - iyaiya
         gg:
         - isn't made to be that pure, no no!
     - lines:
@@ -354,6 +354,11 @@
         - ' '
         - じれったい
         - 真実
+        ro:
+        - aa
+        - ''
+        - jirettai
+        - shinjitsu
         ww:
         - w: ah!
           d: 嗚呼
@@ -365,16 +370,14 @@
         - d: 嗚呼 じれったい真実
         en:
         - Ah, this frustrating truth
-        ro:
-        - aa
-        - ''
-        - jirettai
-        - shinjitsu
         gg:
         - Ah, this frustrating truth!
       - ol:
         - ブチ壊しちゃえ
         - 既成概念
+        ro:
+        - buchikowashichae
+        - kiseigainen
         ww:
         - w: destroy!
           d: ブチ壊しちゃえ
@@ -383,15 +386,16 @@
         - d: ブチ壊しちゃえ既成概念
         en:
         - Smash the chains of what’s “normal”
-        ro:
-        - buchikowashichae
-        - kiseigainen
         gg:
         - Destroy the established concepts!
       - ol:
         - 嗚呼
         - ' '
         - ウザったい
+        ro:
+        - aa
+        - ''
+        - uzattai
         ww:
         - w: ah!
           d: 嗚呼
@@ -401,10 +405,6 @@
         - d: 嗚呼 ウザったい
         en:
         - Ah, what a pain
-        ro:
-        - aa
-        - ''
-        - uzattai
         gg:
         - Ah, how annoying!
       - ol:
@@ -414,6 +414,13 @@
         - も
         - ない
         - わ
+        ro:
+        - moraru
+        - mo
+        - hettakure
+        - mo
+        - nai
+        - wa
         ww:
         - w: morals
           d: モラル
@@ -430,13 +437,6 @@
         - d: モラルもヘッタクレもないわ
         en:
         - Morals? Please, as if they matter
-        ro:
-        - moraru
-        - mo
-        - hettakure
-        - mo
-        - nai
-        - wa
         gg:
         - Morals are utterly useless!
       - ol:
@@ -448,6 +448,15 @@
         - も
         - アンタ
         - も
+        ro:
+        - seijin
+        - mo
+        - gokuakunin
+        - mo
+        - atashi
+        - mo
+        - anta
+        - mo
         ww:
         - w: saint
           d: 聖人
@@ -468,21 +477,16 @@
         - d: 聖人も極悪人もアタシもアンタも
         en:
         - Saints, sinners, me and you
-        ro:
-        - seijin
-        - mo
-        - gokuakunin
-        - mo
-        - atashi
-        - mo
-        - anta
-        - mo
         gg:
         - Saints, villains, me, you -
       - ol:
         - 本能
         - に
         - 抗えない
+        ro:
+        - honnō
+        - ni
+        - aragaenai
         ww:
         - w: instinct
           d: 本能
@@ -493,10 +497,6 @@
         - d: 本能に抗えない
         en:
         - We all obey our instincts
-        ro:
-        - honnō
-        - ni
-        - aragaenai
         gg:
         - Cannot resist instinct.
       - ol:
@@ -505,6 +505,12 @@
         - 動物
         - です
         - ワン
+        ro:
+        - shosen
+        - ','
+        - dōbutsu
+        - desu
+        - wan
         ww:
         - w: after all
           d: 所詮
@@ -518,12 +524,6 @@
         - d: 所詮、動物ですワン
         en:
         - In the end, we're just animals—woof
-        ro:
-        - shosen
-        - ','
-        - dōbutsu
-        - desu
-        - wan
         gg:
         - After all, we are animals, woof!
     - lines:
@@ -537,6 +537,16 @@
         - 定め
         - 置き
         - エイム
+        ro:
+        - burebure
+        - no
+        - shōten
+        - nōten
+        - ''
+        - nerai
+        - sadame
+        - oki
+        - eimu
         ww:
         - w: shaky
           d: burebure
@@ -558,16 +568,6 @@
         - d: ブレブレの焦点脳天 狙い定め置きエイム
         en:
         - Fuzzy focus, shaky aim Still sniping like it’s second nature
-        ro:
-        - burebure
-        - no
-        - shōten
-        - nōten
-        - ''
-        - nerai
-        - sadame
-        - oki
-        - eimu
         gg:
         - Wobbly brain focus. Fix your aim, set your aim.
       - ol:
@@ -579,6 +579,15 @@
         - ' '
         - 飼いならせ
         - 承認欲求
+        ro:
+        - hora
+        - bareru
+        - zo
+        - kyogen
+        - mōgen
+        - ''
+        - kainarase
+        - shōniyokkyū
         ww:
         - w: look!
           d: ほら
@@ -598,15 +607,6 @@
         - d: ほらバレるぞ虚言妄言 飼いならせ承認欲求
         en:
         - Lies and delusions, caught red-handed Tamed by the need to be seen
-        ro:
-        - hora
-        - bareru
-        - zo
-        - kyogen
-        - mōgen
-        - ''
-        - kainarase
-        - shōniyokkyū
         gg:
         - Look, your lies and nonsense will be exposed! Tame your need for approval!
     - lines:
@@ -618,6 +618,14 @@
         - ' '
         - スベカラク
         - 皆
+        ro:
+        - asu
+        - wa
+        - wagami
+        - da
+        - ''
+        - subekaraku
+        - mina
         ww:
         - w: tomorrow
           d: 明日
@@ -635,14 +643,6 @@
         - d: 明日は我が身だ スベカラク皆
         en:
         - Tomorrow, it could be you
-        ro:
-        - asu
-        - wa
-        - wagami
-        - da
-        - ''
-        - subekaraku
-        - mina
         gg:
         - Tomorrow it could be me, absolutely everyone.
       - ol:
@@ -652,6 +652,13 @@
         - べき
         - 業
         - です
+        ro:
+        - kurorekishi
+        - wa
+        - seō
+        - beki
+        - gō
+        - desu
         ww:
         - w: dark past
           d: 黒歴史
@@ -668,13 +675,6 @@
         - d: 黒歴史は背負うべき業です
         en:
         - We all carry skeletons we can't erase
-        ro:
-        - kurorekishi
-        - wa
-        - seō
-        - beki
-        - gō
-        - desu
         gg:
         - Dark history is a karma that should be carried.
       - ol:
@@ -684,6 +684,13 @@
         - 守る
         - 為
         - なら
+        ro:
+        - jibun
+        - jishin
+        - o
+        - mamoru
+        - tame
+        - nara
         ww:
         - w: oneself
           d: 自分
@@ -700,13 +707,6 @@
         - d: 自分自身を守る為なら
         en:
         - To protect ourselves, we'd even
-        ro:
-        - jibun
-        - jishin
-        - o
-        - mamoru
-        - tame
-        - nara
         gg:
         - For the sake of protecting oneself,
       - ol:
@@ -718,6 +718,15 @@
         - に
         - でも
         - 唾を吐く
+        ro:
+        - kowaya
+        - kowaya
+        - hito
+        - wa
+        - ai
+        - ni
+        - demo
+        - tsuba wo haku
         ww:
         - w: how dreadful
           d: 怖や
@@ -738,15 +747,6 @@
         - d: 怖や怖や人は愛にでも唾を吐く
         en:
         - Spit on love, how terrifying
-        ro:
-        - kowaya
-        - kowaya
-        - hito
-        - wa
-        - ai
-        - ni
-        - demo
-        - tsuba wo haku
         gg:
         - how dreadful, how dreadful people will even spit on love.
     - lines:
@@ -755,6 +755,11 @@
         - ' '
         - 生温い
         - 理想論
+        ro:
+        - aa
+        - ''
+        - namanurui
+        - risōron
         ww:
         - w: ah!
           d: 嗚呼
@@ -766,17 +771,16 @@
         - d: 嗚呼 生温い理想論
         en:
         - Ah, lukewarm ideals
-        ro:
-        - aa
-        - ''
-        - namanurui
-        - risōron
         gg:
         - Ah, lukewarm idealism.
       - ol:
         - 燃やして
         - 得る
         - 炎上商法
+        ro:
+        - moyashite
+        - eru
+        - enjōshōhō
         ww:
         - w: burn
           d: 燃やして
@@ -787,10 +791,6 @@
         - d: 燃やして得る炎上商法
         en:
         - Burn ‘em up—ride the flame for clout
-        ro:
-        - moyashite
-        - eru
-        - enjōshōhō
         gg:
         - Burning it up and getting rage-baiting
       - ol:
@@ -804,6 +804,17 @@
         - 次第
         - です
         - わ
+        ro:
+        - aa
+        - ''
+        - jigoku
+        - no
+        - sata
+        - mo
+        - kane
+        - shidai
+        - desu
+        - wa
         ww:
         - w: ah!
           d: 嗚呼
@@ -827,17 +838,6 @@
         - d: 嗚呼 地獄の沙汰も金次第ですわ
         en:
         - Ah, even judgment in hell has a price tag
-        ro:
-        - aa
-        - ''
-        - jigoku
-        - no
-        - sata
-        - mo
-        - kane
-        - shidai
-        - desu
-        - wa
         gg:
         - Ah, even the judgment of hell depends on money.
       - ol:
@@ -869,6 +869,11 @@
         - あの
         - 頃
         - に
+        ro:
+        - shinjiteta
+        - ano
+        - koro
+        - ni
         ww:
         - w: believed
           d: 信じてた
@@ -881,11 +886,6 @@
         - d: 信じてたあの頃に
         en:
         - Back when I believed in dreams and hope
-        ro:
-        - shinjiteta
-        - ano
-        - koro
-        - ni
         gg:
         - To those times when I believed,
       - ol:
@@ -895,6 +895,13 @@
         - もう
         - 泥まみれ
         - なの
+        ro:
+        - modoritai
+        - modorenai
+        - ''
+        - mō
+        - doromamire
+        - nano
         ww:
         - w: want to return
           d: 戻りたい
@@ -910,13 +917,6 @@
         - d: 戻りたい戻れない もう泥まみれなの
         en:
         - I wish I could go back, but I'm too far gone Covered in filth
-        ro:
-        - modoritai
-        - modorenai
-        - ''
-        - mō
-        - doromamire
-        - nano
         gg:
         - I want to return but I can't anymore, I'm already covered in mud.
     - lines:
@@ -926,6 +926,12 @@
         - 美しい
         - もの
         - ほど
+        ro:
+        - aa
+        - ''
+        - utsukushī
+        - mono
+        - hodo
         ww:
         - w: ah!
           d: 嗚呼
@@ -939,12 +945,6 @@
         - d: 嗚呼 美しいものほど
         en:
         - Ah, the more beautiful it is
-        ro:
-        - aa
-        - ''
-        - utsukushī
-        - mono
-        - hodo
         gg:
         - Ah, the more beautiful things are,
       - ol:
@@ -952,6 +952,11 @@
         - 見える
         - 現状
         - です
+        ro:
+        - miniku
+        - mieru
+        - genjō
+        - desu
         ww:
         - w: ugly
           d: 醜く
@@ -964,11 +969,6 @@
         - d: 醜く見える現状です
         en:
         - The uglier it looks in this world
-        ro:
-        - miniku
-        - mieru
-        - genjō
-        - desu
         gg:
         - the more ugly they appear to be in reality.
       - ol:
@@ -981,6 +981,16 @@
         - 愉快な
         - もの
         - ね
+        ro:
+        - aa
+        - ''
+        - otona
+        - ni
+        - naru
+        - tte
+        - yukaina
+        - mono
+        - ne
         ww:
         - w: ah!
           d: 嗚呼
@@ -1002,16 +1012,6 @@
         - d: 嗚呼 オトナになるって愉快なものね
         en:
         - Ah, growing up’s a real trip, huh? What a joke
-        ro:
-        - aa
-        - ''
-        - otona
-        - ni
-        - naru
-        - tte
-        - yukaina
-        - mono
-        - ne
         gg:
         - Ah, becoming an adult is a pleasant thing, isn't it?
     - lines:
@@ -1020,6 +1020,11 @@
         - ' '
         - じれったい
         - 真実
+        ro:
+        - aa
+        - ''
+        - jirettai
+        - shinjitsu
         ww:
         - w: ah!
           d: 嗚呼
@@ -1031,16 +1036,14 @@
         - d: 嗚呼 じれったい真実
         en:
         - Ah, this frustrating truth
-        ro:
-        - aa
-        - ''
-        - jirettai
-        - shinjitsu
         gg:
         - Ah, this frustrating truth!
       - ol:
         - ブチ壊しちゃえ
         - 既成概念
+        ro:
+        - buchikowashichae
+        - kiseigainen
         ww:
         - w: destroy!
           d: ブチ壊しちゃえ
@@ -1049,15 +1052,16 @@
         - d: ブチ壊しちゃえ既成概念
         en:
         - Smash the chains of what's “normal”
-        ro:
-        - buchikowashichae
-        - kiseigainen
         gg:
         - Destroy the established concepts!
       - ol:
         - 嗚呼
         - ' '
         - ウザったい
+        ro:
+        - aa
+        - ''
+        - uzattai
         ww:
         - w: ah!
           d: 嗚呼
@@ -1067,10 +1071,6 @@
         - d: 嗚呼 ウザったい
         en:
         - Ah, what a pain
-        ro:
-        - aa
-        - ''
-        - uzattai
         gg:
         - Ah, how annoying!
       - ol:
@@ -1080,6 +1080,13 @@
         - も
         - ない
         - わ
+        ro:
+        - moraru
+        - mo
+        - hettakure
+        - mo
+        - nai
+        - wa
         ww:
         - w: morals
           d: モラル
@@ -1096,13 +1103,6 @@
         - d: モラルもヘッタクレもないわ
         en:
         - Morals? Please, as if they matter
-        ro:
-        - moraru
-        - mo
-        - hettakure
-        - mo
-        - nai
-        - wa
         gg:
         - Morals are utterly useless!
       - ol:
@@ -1114,6 +1114,15 @@
         - も
         - アンタ
         - も
+        ro:
+        - seijin
+        - mo
+        - gokuakunin
+        - mo
+        - atashi
+        - mo
+        - anta
+        - mo
         ww:
         - w: saint
           d: 聖人
@@ -1134,21 +1143,16 @@
         - d: 聖人も極悪人もアタシもアンタも
         en:
         - Saints, sinners, me and you
-        ro:
-        - seijin
-        - mo
-        - gokuakunin
-        - mo
-        - atashi
-        - mo
-        - anta
-        - mo
         gg:
         - Saints, villains, me, you -
       - ol:
         - 本能
         - に
         - 抗えない
+        ro:
+        - honnō
+        - ni
+        - aragaenai
         ww:
         - w: instinct
           d: 本能
@@ -1159,10 +1163,6 @@
         - d: 本能に抗えない
         en:
         - We all obey our instincts
-        ro:
-        - honnō
-        - ni
-        - aragaenai
         gg:
         - Cannot resist instinct.
       - ol:
@@ -1171,6 +1171,12 @@
         - 動物
         - です
         - ワン
+        ro:
+        - shosen
+        - ','
+        - dōbutsu
+        - desu
+        - wan
         ww:
         - w: after all
           d: 所詮
@@ -1184,12 +1190,6 @@
         - d: 所詮、動物ですワン
         en:
         - In the end, we're just animals—woof
-        ro:
-        - shosen
-        - ','
-        - dōbutsu
-        - desu
-        - wan
         gg:
         - After all, we are animals, woof!
 

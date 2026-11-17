@@ -77,9 +77,9 @@
                 lines:
                 - line:
                   - text: The translation was done using Google Gemini, with continuous additional inputs for accuracy.
-                  - newline: ''
-                  - newline: ''
-                  - newline: ''
+                  - newline: '-'
+                  - newline: '-'
+                  - newline: '-'
             - interviewsubsection:
                 lines:
                 - text: '「NEK!の #ネキ史」をご覧の皆さんこんにちは！NEK!のDr.Cocoroです！<br>回目となる今回は、私がドラムと出会ったきっかけやNEK!に対する想いなどをお話していこうと思います！'

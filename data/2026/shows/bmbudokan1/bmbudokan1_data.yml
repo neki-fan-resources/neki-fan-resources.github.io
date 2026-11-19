@@ -12,12 +12,53 @@
             subsections:
             - multimediasubsection:
                 multimedia:
+                - youtubeshort: YF5MVuQMGiE
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2121614832457925097
+                    image: HXF9a21aIAAm8Cf
+            - multimediasubsection:
+                label: Images
+                multimedia:
+                - postinstagramimage:
+                    post: DfuXiRWkqR8
+                    image: 3
+                - postximage:
+                    post: 2121597788559745186
+                    image: HXFt8G4agAAost_
+                - postximage:
+                    post: 2121597788559745186
+                    image: HXFt8GnaYAAMQ0o
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2121876113555431615
+                    image: HXJrE6Na4AACM1a
+                - postximage:
+                    post: 2121876448269279388
+                    image: HXJrYhyaMAAYlCN
+            - multimediasubsection:
+                multimedia:
                 - postximage:
                     post: 2121245335213453318
                     image: HXAtYrlaEAAXdCl
                 - postximage:
                     post: 2121238975709114492
                     image: HXAmWQ1agAAiyGa
+            - multimediasubsection:
+                multimedia:
+                - postinstagramimage:
+                    post: DfuXiRWkqR8
+                    image: 2
+                - postximage:
+                    post: 2121597788559745186
+                    image: HXFt8Gpa0AAGDVH
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2121597788559745186
+                    image: HXFt8Gyb0AA4JpR
         - basicsection:
             label: At the event
             subsections:
@@ -47,6 +88,83 @@
       show:
         year: 2026
         id: bmbudokan1
+
+- postinstagram:
+    id: DfuXiRWkqR8
+    account: nekiband_jp
+    label: With our utmost respect and gratitude
+    published-date: 2026-11-14
+    text: |-
+      2026.11.13 & 11.14 📍日本武道館
+      BAND-MAID WORLD TOUR 2026 FINAL
+      
+      オープニングアクトを務めさせていただきました！
+      ２日間ありがとうございました⚡️
+      
+      BAND-MAIDさんへ
+      最大の敬意と感謝を込めて🖤
+      @bandmaid.jp 
+      
+      photo by @masafuji93
+      
+      #bandmaid
+      #NEKI
+      #日本武道館
+    translation: |-
+      2026.11.13 & 11.14 📍Nippon Budokan
+      BAND-MAID WORLD TOUR 2026 FINAL
+      
+      We had the honor of serving as the opening act!
+      Thank you for these two days⚡️
+      
+      To BAND-MAID,
+      with our utmost respect and gratitude🖤
+      @bandmaid.jp 
+      
+      photo by @masafuji93
+      
+      #bandmaid
+      #NEKI
+      #NipponBudokan
+    image:
+    - 2
+    - 3
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+    reference:
+    - postximage:
+        post: 2121597788559745186
+        image: HXFt8GnaYAAMQ0o
+    - postximage:
+        post: 2121597788559745186
+        image: HXFt8Gyb0AA4JpR
+    - postximage:
+        post: 2121597788559745186
+        image: HXFt8G4agAAost_
+
+- postinstagramimage:
+    post: DfuXiRWkqR8
+    id: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postinstagram: DfuXiRWkqR8
+
+- postinstagramimage:
+    post: DfuXiRWkqR8
+    id: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postinstagram: DfuXiRWkqR8
 
 - postx:
     id: 2120749824802980069
@@ -249,6 +367,146 @@
         year: 2026
         id: bmbudokan1
 
+- postx:
+    id: 2121597788559745186
+    account: nekiband_jp
+    label: Thank you
+    published-date: 2026-11-14
+    text: |-
+      2026.11.13 & 11.14 📍日本武道館
+      BAND-MAID WORLD TOUR 2026 FINAL
+      
+      オープニングアクトを務めさせていただきました！
+      ２日間ありがとうございました⚡️
+      
+      BAND-MAIDさんへ
+      最大の敬意と感謝を込めて🖤
+      @bandmaid
+       
+      
+      photo by MASANORI FUJIKAWA
+      
+      #bandmaid
+      #NEKI
+      #日本武道館
+    translation: |-
+      2026.11.13 & 11.14 📍Nippon Budokan
+      BAND-MAID WORLD TOUR 2026 FINAL
+      
+      We had the honor of serving as the opening act!
+      Thank you for these two days⚡️
+      
+      To BAND-MAID,
+      with our utmost respect and gratitude🖤
+      @bandmaid
+       
+      
+      photo by MASANORI FUJIKAWA
+      
+      #bandmaid
+      #NEKI
+      #NipponBudokan
+    image:
+    - HXFt8G4agAAost_
+    - HXFt8GnaYAAMQ0o
+    - HXFt8Gpa0AAGDVH
+    - HXFt8Gyb0AA4JpR
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
+- postx:
+    id: 2121614832457925097
+    account: nekiband_jp
+    label: Setlists
+    published-date: 2026-11-14
+    text: |-
+      11/13 & 11/14 @日本武道館
+      BAND-MAID WORLD TOUR 2026 FINAL
+      
+      2日間のセットリストを公開💥
+      
+      New Single「GOLD」
+      12/16(水)0:00デジタルリリース🎧
+      
+      ▼Pre-add / Pre-save
+      https://lnk.to/NEKI_GOLDPR
+      
+      #NEKI
+    translation: |-
+      11/13 & 11/14 @Nippon Budokan
+      BAND-MAID WORLD TOUR 2026 FINAL
+      
+      Revealing the setlists from the 2 days💥
+      
+      New Single "GOLD"
+      12/16 (Wed) 00:00 Digital Release🎧
+      
+      ▼Pre-add / Pre-save
+      https://lnk.to/NEKI_GOLDPR
+      
+      #NEKI
+    image:
+    - HXF9a21aIAAm8Cf
+    - HXF9a3CaIAA3g6B
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
+- postx:
+    id: 2121876113555431615
+    account: bandmaid
+    label: Thank you, NEK!
+    published-date: 2026-11-15
+    text: |-
+      BAND-MAID WORLD TOUR 2026 FINAL
+      NIPPON BUDOKAN 2days
+      
+      Thank you, NEK! @nekiband_jp
+       
+      
+      photo by @pickles_0808
+      
+      
+      #bandmaid
+      #NEKI
+      #日本武道館
+    image:
+    - HXJrE6Na4AACM1a
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
+- postx:
+    id: 2121876448269279388
+    account: nekiband_jp
+    label: MUCH LOVE & RESPECT
+    published-date: 2026-11-15
+    text: |-
+      2026.11.13(Fri.) & 11.14(Sat.)
+      BAND-MAID WORLD TOUR 2026 FINAL
+      NIPPON BUDOKAN
+      
+      MUCH LOVE & RESPECT!!!!
+      @bandmaid
+       
+      
+      photo by 
+      @pickles_0808
+      
+      
+      #bandmaid
+      #NEKI
+    image:
+    - HXJrYhyaMAAYlCN
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
 - postximage:
     post: 2120749824802980069
     id: HW5jRCobIAAKqun
@@ -321,6 +579,104 @@
     part-of:
       postx: 2121245335213453318
 
+- postximage:
+    post: 2121597788559745186
+    id: HXFt8G4agAAost_
+    index: 3
+    label: On stage
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121597788559745186
+
+- postximage:
+    post: 2121597788559745186
+    id: HXFt8GnaYAAMQ0o
+    index: 1
+    label: Venue
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121597788559745186
+
+- postximage:
+    post: 2121597788559745186
+    id: HXFt8Gpa0AAGDVH
+    index: 2
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121597788559745186
+
+- postximage:
+    post: 2121597788559745186
+    id: HXFt8Gyb0AA4JpR
+    index: 4
+    label: Backstage
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121597788559745186
+
+- postximage:
+    post: 2121614832457925097
+    id: HXF9a21aIAAm8Cf
+    index: 1
+    label: Setlist
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121614832457925097
+
+- postximage:
+    post: 2121614832457925097
+    id: HXF9a3CaIAA3g6B
+    index: 2
+    label: Setlist
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan2
+    part-of:
+      postx: 2121614832457925097
+
+- postximage:
+    post: 2121876113555431615
+    id: HXJrE6Na4AACM1a
+    index: 1
+    label: Backstage
+    info: NEK!, BAND-MAID
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121876113555431615
+
+- postximage:
+    post: 2121876448269279388
+    id: HXJrYhyaMAAYlCN
+    index: 1
+    label: Backstage
+    info: NEK!, BAND-MAID
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
+    part-of:
+      postx: 2121876448269279388
+
 - update:
     show:
       year: 2026
@@ -379,6 +735,19 @@
     image:
     - poster
     - poster2
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
+- youtubeshort:
+    id: YF5MVuQMGiE
+    label: Digest movie
+    published-date: 2026-11-17
+    context:
+    - show:
+        year: 2026
+        id: bmbudokan1
     part-of:
       show:
         year: 2026

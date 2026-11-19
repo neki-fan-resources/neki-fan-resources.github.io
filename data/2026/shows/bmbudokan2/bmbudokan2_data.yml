@@ -1,11 +1,41 @@
-update:
-  show:
-    year: 2026
-    id: bmbudokan2
-  date: 2026-07-30
-  text:
-  - Added the show
-  part-of:
+- display:
     show:
       year: 2026
       id: bmbudokan2
+    blocks:
+    - basicblock:
+        id: main
+        label: main
+        sections:
+        - basicsection:
+            subsections:
+            - textsubsection:
+                lines:
+                - line:
+                  - text: 'The image and videos from both shows are available on the DAY1 show page: '
+                  - element:
+                      show:
+                        year: 2026
+                        id: bmbudokan1
+            - multimediasubsection:
+                multimedia:
+                - postximage:
+                    post: 2121614832457925097
+                    image: HXF9a3CaIAA3g6B
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan2
+
+- update:
+    show:
+      year: 2026
+      id: bmbudokan2
+    date: 2026-07-30
+    text:
+    - Added the show
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan2
+

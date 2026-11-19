@@ -701,6 +701,18 @@
         year: 2026
         id: bmbudokan1
 
+- update:
+    show:
+      year: 2026
+      id: bmbudokan1
+    date: 2026-11-19
+    text:
+    - Added the more images and videos from the shows
+    part-of:
+      show:
+        year: 2026
+        id: bmbudokan1
+
 - webimage:
     domain: neki.bitfan.id
     page: 417173

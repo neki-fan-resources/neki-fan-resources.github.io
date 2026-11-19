@@ -29,7 +29,9 @@ object ExtendedDatum {
         fr.DisplaySection.choiceCategoryList,
         fr.DisplaySubsection.choiceCategoryList,
         fr.LineSection.choiceCategoryList,
-      )
+      ),
+      fr.DataDescriptors.categoryRepository.elementFields,
+      fr.FieldDescriptors.fieldRepository,
     )
   }
 }

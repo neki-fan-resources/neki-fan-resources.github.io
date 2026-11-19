@@ -1,11 +1,14 @@
 package org.skyluc.neki_site.html.compileddata
 
 import org.skyluc.fan_resources.html as fr
+import org.skyluc.fan_resources.descriptor.ChoiceCategoryRepository
 
 object CompiledDataGeneratorProcessorsBuilder extends fr.compileddata.CompiledDataGeneratorProcessorsBuilder {
 
   override def elementCompiledDataProcessor(
       generator: fr.compileddata.CompiledDataGenerator
+  )(using
+      categoryRepository: ChoiceCategoryRepository
   ): fr.compileddata.ElementCompiledDataProcessor = ElementCompiledDataProcessor(generator)
 
   override def multimediaCompiledDataProcessor(

@@ -9,6 +9,7 @@ import org.skyluc.fan_resources.html.SiteOutput
 import org.skyluc.neki_site.html.ElementToPage
 
 import fr.op.DataLoader
+import org.skyluc.fan_resources.descriptor.ChoiceCategoryRepository
 
 object Main {
 
@@ -33,6 +34,8 @@ object Main {
     if (errors.hasCriticalErrors) {
       System.exit(2)
     }
+
+    given ChoiceCategoryRepository = configuration.categoryRepository
 
     val pages = ElementToPage.generate(data.dataView, configuration)
 

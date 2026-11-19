@@ -11,11 +11,14 @@ import org.skyluc.neki_site.html.page.MainSitePage
 import org.skyluc.neki_site.html.page.MainSitePageBuilder
 
 import fr.page.PostXImagePage
+import org.skyluc.fan_resources.descriptor.ChoiceCategoryRepository
 
 object ElementToPage {
   val NO_PAGES = Seq[MainSitePage]()
 
-  def generate(data: d.DataView, configuration: MainSiteConfiguration): Seq[fr.page.Page] = {
+  def generate(data: d.DataView, configuration: MainSiteConfiguration)(using
+      categoryRepository: ChoiceCategoryRepository
+  ): Seq[fr.page.Page] = {
 
     val cssPages = generateCssPages(configuration)
 

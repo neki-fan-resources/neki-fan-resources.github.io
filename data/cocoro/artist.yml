@@ -73,6 +73,36 @@
         id: artist
         group: cocoro
 
+- postinstagram:
+    id: Df9rRWqmuZC
+    account: cocoro_drum
+    label: Before a live show
+    published-date: 2026-11-20
+    text: |-
+      ライブ前のわたし。
+      ⁡
+      いつもあんなことやこんなことをしているのです。
+      ⁡
+      
+      photo by @___sunny56__
+    translation: |-
+      Me before a live show.
+      ⁡
+      I'm always doing things like this and that.
+      ⁡
+      
+      photo by @___sunny56__
+    image:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    part-of:
+      group:
+        id: artist
+        group: cocoro
+
 - postinstagramimage:
     post: DT7vHYbkoOh
     id: 2
@@ -104,6 +134,62 @@
     info: Cocoro
     part-of:
       postinstagram: DamVgpiRB0W
+
+- postinstagramimage:
+    post: Df9rRWqmuZC
+    id: 1
+    label: Backstage
+    info: Cocoro
+    part-of:
+      postinstagram: Df9rRWqmuZC
+
+- postinstagramimage:
+    post: Df9rRWqmuZC
+    id: 2
+    label: On stage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: Df9rRWqmuZC
+
+- postinstagramimage:
+    post: Df9rRWqmuZC
+    id: 3
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: Df9rRWqmuZC
+
+- postinstagramimage:
+    post: Df9rRWqmuZC
+    id: 4
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: tridentnekikyoozon
+    part-of:
+      postinstagram: Df9rRWqmuZC
+
+- postinstagramimage:
+    post: Df9rRWqmuZC
+    id: 5
+    label: Backstage
+    info: Cocoro
+    context:
+    - show:
+        year: 2026
+        id: nemophilatenfes
+    part-of:
+      postinstagram: Df9rRWqmuZC
 
 - postx:
     id: 1917457790253293837

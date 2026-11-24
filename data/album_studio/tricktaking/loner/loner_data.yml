@@ -33,10 +33,13 @@
                 - postxvideo:
                     post: 1931999361577463823
                     video: 01
+            - multimediasubsection:
+                multimedia:
                 - postxvideo:
                     post: 1954447291294822589
                     video: 01
-                - youtubeshort: dSX3EKmcRUc
+            - multimediasubsection:
+                multimedia:
                 - postxvideo:
                     post: 1929106683978224117
                     video: 46203d6b-e5ae-48cd-8902-16d9a880869d
@@ -44,6 +47,7 @@
                 - postxvideo:
                     post: 1849313941895381437
                     video: 01
+                - youtubeshort: dSX3EKmcRUc
         - basicsection:
             label: Rehearsal, with original audio
             subsections:

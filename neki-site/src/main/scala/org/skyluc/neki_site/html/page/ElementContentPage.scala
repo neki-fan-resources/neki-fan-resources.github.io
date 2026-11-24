@@ -1,5 +1,6 @@
 package org.skyluc.neki_site.html.page
 
+import org.skyluc.fan_resources.base.Path
 import org.skyluc.fan_resources.html as fr
 
 import fr.page.ElementContent
@@ -29,5 +30,8 @@ class ElementContentPage(
       false,
     )
   }
+
+  override def javascriptFiles(): Seq[Path] =
+    super.javascriptFiles() :+ fr.page.MainSitePage.JAVASCRIPT_MULTIMEDIACARD_FILE
 
 }

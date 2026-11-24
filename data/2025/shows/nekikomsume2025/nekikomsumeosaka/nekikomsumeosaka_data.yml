@@ -28,14 +28,6 @@
                     video: 01
             - multimediasubsection:
                 multimedia:
-                - postxvideo:
-                    post: 1949012927056658865
-                    video: 01
-                - postxvideo:
-                    post: 1947952383473954991
-                    video: 01
-            - multimediasubsection:
-                multimedia:
                 - youtubeshort: SCponaBgD8U
                 - youtubeshort: fKilWDbCRDU
                 - youtubeshort: xv6kbJrnKfk
@@ -434,57 +426,6 @@
         post: 1947241076508488042
         video: 01
 
-- postx:
-    id: 1947952383473954991
-    account: coco_102
-    label: Transition between songs live
-    published-date: 2025-07-23
-    text: |-
-      ライブ中の曲間のドキドキ感が好き❤️‍🔥
-      
-      みんなの声援と拍手と次の曲への気合いの高まりが一気にごちゃまぜになるこの瞬間は音源では味わえない！！
-      
-      #NEKI #拡散中 #ネキ界隈
-    translation: |-
-      I love that heart-pounding feeling between songs during a live show❤️‍🔥
-      
-      That moment when everyone's cheers, applause, and the rising excitement for the next song all get mixed together at once is something you can't experience from a recording!!
-      
-      #NEKI #SpreadingTheWord #NEKcommunity
-    video:
-    - 01
-    part-of:
-      postxvideo:
-        post: 1947952383473954991
-        video: 01
-
-- postx:
-    id: 1949012927056658865
-    account: coco_102
-    label: Fool on stage
-    info: Cocoro
-    published-date: 2025-07-26
-    text: |-
-      Fool❤️‍🔥
-      
-      9曲目だからもう汗がすごい笑 首が光り輝いてますね
-      ライブはいい運動！！明日も汗かきまくるぞー👊🏻💦
-      
-      #NEKI #拡散中 #ネキ界隈
-    translation: |-
-      Fool❤️‍🔥
-      
-      Since it's the 9th song, the sweat is already crazy lol My neck is practically shining
-      Lives are such good exercise!! Gonna sweat a ton tomorrow too👊🏻💦
-      
-      #NEKI #SpreadingTheWord #NEKcommunity
-    video:
-    - 01
-    part-of:
-      postxvideo:
-        post: 1949012927056658865
-        video: 01
-
 - postximage:
     post: 1944995676963922035
     id: Gv4DQX6a8AAPdNi
@@ -695,39 +636,6 @@
         year: 2025
         id: nekikomsumeosaka
     - song: zerosum
-    part-of:
-      show:
-        year: 2025
-        id: nekikomsumeosaka
-
-- postxvideo:
-    post: 1947952383473954991
-    id: 01
-    label: On stage
-    info: Cocoro
-    cover: 1947951817641611264/img/UiAiX6HkH85m9u1x.jpg
-    context:
-    - show:
-        year: 2025
-        id: nekikomsumeosaka
-    - song: zerosum
-    - song: getover
-    part-of:
-      show:
-        year: 2025
-        id: nekikomsumeosaka
-
-- postxvideo:
-    post: 1949012927056658865
-    id: 01
-    label: On stage
-    info: Cocoro
-    cover: 1949012819019792384/img/cTaeF8m3YXr13Zvo.jpg
-    context:
-    - show:
-        year: 2025
-        id: nekikomsumeosaka
-    - song: fool
     part-of:
       show:
         year: 2025
